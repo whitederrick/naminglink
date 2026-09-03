@@ -9,7 +9,9 @@
       "페인트칠",
       "페인트칠한",
       "칠했다",
-      "그림들"
+      "그림들",
+      "모습이 나타났다",
+      "거장의 걸작들"
     ],
     "aliases_en": [
       "paintings"
@@ -19,14 +21,26 @@
       "옷에 페인트가 묻음": "옷에 묻는 비판",
       "스스로 붓을 쥐고 칠함": "붓을 쥐고 칠하는",
       "아름다운 그림들을 봄": "아름다운 그림들을 거짓된",
-      "처녀가 그림을 그림": "처녀가 그리는 마음을 옮겨"
+      "처녀가 그림을 그림": "처녀가 그리는 마음을 옮겨",
+      "그림들이 눈앞에 나타남": "눈앞에 속임수 악의",
+      "그림을 만듦": "만들었 보람 없는",
+      "그림을 없앰": "없앴 용서받을",
+      "그림을 삼": "샀다 투기",
+      "살아있는 나무에서 제 모습이 나타났다 사라지는 것을 봄": "나무 나타났다 동무를",
+      "옛 거장과 현대 거장의 걸작들에 둘러싸임": "거장 걸작 채워지지"
     },
     "contexts_en": {
       "새로 페인트칠한 집을 봄": "newly painted succeed devised",
       "옷에 페인트가 묻음": "clothing thoughtless criticisms",
       "스스로 붓을 쥐고 칠함": "use brush yourself pleased occupation",
       "아름다운 그림들을 봄": "beautiful false positions illusive",
-      "처녀가 그림을 그림": "young woman deceived transfer love"
+      "처녀가 그림을 그림": "young woman deceived transfer love",
+      "그림들이 눈앞에 나타남": "appearing prognosticate deception",
+      "그림을 만듦": "make unremunerative enterprise",
+      "그림을 없앰": "destroy pardoned strenuous",
+      "그림을 삼": "buy worthless speculation",
+      "살아있는 나무에서 제 모습이 나타났다 사라지는 것을 봄": "likeness tree companionship",
+      "옛 거장과 현대 거장의 걸작들에 둘러싸임": "masters insatiable attainments"
     }
   },
   {

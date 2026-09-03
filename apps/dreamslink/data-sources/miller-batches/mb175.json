@@ -1,0 +1,18 @@
+{
+  "batch": 175,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pictures",
+      "text": "Pictures appearing before you in dreams, prognosticate deception and the ill will of contemporaries. To make a picture, denotes that you will engage in some unremunerative enterprise. To destroy pictures, means that you will be pardoned for using strenuous means to establish your rights. To buy them, foretells worthless speculation. To dream of seeing your likeness in a living tree, appearing and disappearing, denotes that you will be prosperous and seemingly contented, but there will be disappointments in reaching out for companionship and reciprocal understanding of ideas and plans. To dream of being surrounded with the best efforts of the old and modern masters, denotes that you will have insatiable longings and desires for higher attainments, compared to which present success will seem poverty-stricken and miserable.",
+      "note": "기존 상징 `painting`(그림, 밀러 `Paint and Painting`)에 여섯을 더한다. 「[156] See Painting and Photographs」가 가리키는 그 상징이다"
+    },
+    {
+      "headword": "Pier",
+      "text": "To stand upon a pier in your dream, denotes that you will be brave in your battle for recognition in prosperity's realm, and that you will be admitted to the highest posts of honor. If you strive to reach a pier and fail, you will lose the distinction you most coveted.",
+      "note": "기존 상징 `docks`(부두, 밀러 `Docks`)에 둘을 더한다. pier와 docks는 한국어로 같은 낱말이라 상징을 나누지 않았다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

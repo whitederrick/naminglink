@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "그림",
+    "term_en": "painting",
+    "context": "그림들이 눈앞에 나타남",
+    "interpretation_ko": "속임수와 동시대인들의 악의를 미리 알리는 조짐",
+    "interpretation_en": "prognosticate deception and the ill will of contemporaries",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pictures",
+      "original": "Pictures appearing before you in dreams, prognosticate deception and the ill will of contemporaries.",
+      "translation_ko": "그림들이 눈앞에 나타나는 꿈은, 속임수와 동시대인들의 악의를 미리 알리는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "그림",
+    "term_en": "painting",
+    "context": "그림을 만듦",
+    "interpretation_ko": "보람 없는 일에 뛰어들 조짐",
+    "interpretation_en": "denotes that you will engage in some unremunerative enterprise",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pictures",
+      "original": "To make a picture, denotes that you will engage in some unremunerative enterprise.",
+      "translation_ko": "그림을 만드는 꿈은, 보람 없는 일에 뛰어들 조짐이다"
+    }
+  },
+  {
+    "term_ko": "그림",
+    "term_en": "painting",
+    "context": "그림을 없앰",
+    "interpretation_ko": "제 권리를 세우려 강경한 수단을 써도 용서받을 조짐",
+    "interpretation_en": "means that you will be pardoned for using strenuous means to establish your rights",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pictures",
+      "original": "To destroy pictures, means that you will be pardoned for using strenuous means to establish your rights.",
+      "translation_ko": "그림을 없애는 꿈은, 제 권리를 세우려 강경한 수단을 써도 용서받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "그림",
+    "term_en": "painting",
+    "context": "그림을 삼",
+    "interpretation_ko": "헛된 투기를 예고하는 조짐",
+    "interpretation_en": "foretells worthless speculation",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pictures",
+      "original": "To buy them, foretells worthless speculation.",
+      "translation_ko": "그림을 사는 꿈은, 헛된 투기를 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "그림",
+    "term_en": "painting",
+    "context": "살아있는 나무에서 제 모습이 나타났다 사라지는 것을 봄",
+    "interpretation_ko": "번영하고 만족스러워 보이나 동무를 사귀고 뜻을 나누는 데서 실망할 조짐",
+    "interpretation_en": "denotes that you will be prosperous and seemingly contented, but there will be disappointments in reaching out for companionship and reciprocal understanding of ideas and plans",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pictures",
+      "original": "To dream of seeing your likeness in a living tree, appearing and disappearing, denotes that you will be prosperous and seemingly contented, but there will be disappointments in reaching out for companionship and reciprocal understanding of ideas and plans.",
+      "translation_ko": "살아있는 나무에서 제 모습이 나타났다 사라지는 것을 보는 꿈은, 번영하고 만족스러워 보이나 동무를 사귀고 뜻을 나누는 데서 실망할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "그림",
+    "term_en": "painting",
+    "context": "옛 거장과 현대 거장의 걸작들에 둘러싸임",
+    "interpretation_ko": "더 높은 성취를 향한 채워지지 않는 갈망에 지금의 성공이 초라해 보일 조짐",
+    "interpretation_en": "denotes that you will have insatiable longings and desires for higher attainments, compared to which present success will seem poverty-stricken and miserable",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pictures",
+      "original": "To dream of being surrounded with the best efforts of the old and modern masters, denotes that you will have insatiable longings and desires for higher attainments, compared to which present success will seem poverty-stricken and miserable.",
+      "translation_ko": "옛 거장과 현대 거장의 걸작들에 둘러싸이는 꿈은, 더 높은 성취를 향한 채워지지 않는 갈망에 지금의 성공이 초라해 보일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "부두",
+    "term_en": "docks",
+    "context": "부두 위에 섬",
+    "interpretation_ko": "번영의 세계에서 인정받으려는 싸움에 용감할 조짐이며 가장 높은 영예의 자리에 오를 조짐",
+    "interpretation_en": "denotes that you will be brave in your battle for recognition in prosperity's realm, and that you will be admitted to the highest posts of honor",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Pier",
+      "original": "To stand upon a pier in your dream, denotes that you will be brave in your battle for recognition in prosperity's realm, and that you will be admitted to the highest posts of honor.",
+      "translation_ko": "부두 위에 서는 꿈은, 번영의 세계에서 인정받으려는 싸움에 용감할 조짐이며 가장 높은 영예의 자리에 오를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "부두",
+    "term_en": "docks",
+    "context": "부두에 닿으려다 실패함",
+    "interpretation_ko": "가장 바라던 영예를 잃을 조짐",
+    "interpretation_en": "you will lose the distinction you most coveted",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pier",
+      "original": "If you strive to reach a pier and fail, you will lose the distinction you most coveted.",
+      "translation_ko": "부두에 닿으려다 실패하는 꿈은, 가장 바라던 영예를 잃을 조짐이다"
+    }
+  }
+]

@@ -85,6 +85,7 @@
     "m172.json",
     "m173.json",
     "m174.json",
+    "m175.json",
     "m18.json",
     "m19.json",
     "m2.json",
@@ -15174,6 +15175,186 @@
               "locator": "Legs",
               "original": "If your own legs are clean and well shaped, it denotes a happy future and devoted friends.",
               "translation_ko": "제 다리가 깨끗하고 맵시 있으면 앞날이 즐겁고 마음을 다하는 벗이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "painting",
+      "term_ko": "그림",
+      "term_en": "painting",
+      "aliases": [
+        "그림이",
+        "그림을",
+        "페인트가",
+        "페인트를",
+        "페인트칠",
+        "페인트칠한",
+        "칠했다",
+        "그림들",
+        "모습이 나타났다",
+        "거장의 걸작들"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "새로 페인트칠한 집을 봄",
+          "interpretation_ko": "꾸민 계획이 성공할 길조",
+          "interpretation_en": "to see newly painted houses in dreams, foretells that you will succeed with some devised plan",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paint and Painting",
+              "original": "To see newly painted houses in dreams, foretells that you will succeed with some devised plan.",
+              "translation_ko": "새로 페인트칠한 집을 보는 꿈은, 꾸민 계획이 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "옷에 페인트가 묻음",
+          "interpretation_ko": "남의 무심한 비판으로 언짢을 흉조",
+          "interpretation_en": "to have paint on your clothing, you will be made unhappy by the thoughtless criticisms of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paint and Painting",
+              "original": "To have paint on your clothing, you will be made unhappy by the thoughtless criticisms of others.",
+              "translation_ko": "옷에 페인트가 묻는 꿈은, 남의 무심한 비판으로 언짢을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 붓을 쥐고 칠함",
+          "interpretation_ko": "지금 하는 일에 흡족할 길조",
+          "interpretation_en": "to dream that you use the brush yourself, denotes that you will be well pleased with your present occupation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paint and Painting",
+              "original": "To dream that you use the brush yourself, denotes that you will be well pleased with your present occupation.",
+              "translation_ko": "스스로 붓을 쥐고 칠하는 꿈은, 지금 하는 일에 흡족할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아름다운 그림들을 봄",
+          "interpretation_ko": "벗들이 거짓된 태도를 보이고 즐거움도 헛될 흉조",
+          "interpretation_en": "to dream of seeing beautiful paintings, denotes that friends will assume false positions towards you, and you will find that pleasure is illusive",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paint and Painting",
+              "original": "To dream of seeing beautiful paintings, denotes that friends will assume false positions towards you, and you will find that pleasure is illusive.",
+              "translation_ko": "아름다운 그림들을 보는 꿈은, 벗들이 거짓된 태도를 보이고 즐거움도 헛될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 그림을 그림",
+          "interpretation_ko": "정인이 마음을 다른 이에게 옮겨 속게 될 흉조",
+          "interpretation_en": "for a young woman to dream of painting a picture, she will be deceived in her lover, as he will transfer his love to another",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paint and Painting",
+              "original": "For a young woman to dream of painting a picture, she will be deceived in her lover, as he will transfer his love to another.",
+              "translation_ko": "처녀가 그림을 그리는 꿈은, 정인이 마음을 다른 이에게 옮겨 속게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "그림들이 눈앞에 나타남",
+          "interpretation_ko": "속임수와 동시대인들의 악의를 미리 알리는 조짐",
+          "interpretation_en": "prognosticate deception and the ill will of contemporaries",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pictures",
+              "original": "Pictures appearing before you in dreams, prognosticate deception and the ill will of contemporaries.",
+              "translation_ko": "그림들이 눈앞에 나타나는 꿈은, 속임수와 동시대인들의 악의를 미리 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "그림을 만듦",
+          "interpretation_ko": "보람 없는 일에 뛰어들 조짐",
+          "interpretation_en": "denotes that you will engage in some unremunerative enterprise",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pictures",
+              "original": "To make a picture, denotes that you will engage in some unremunerative enterprise.",
+              "translation_ko": "그림을 만드는 꿈은, 보람 없는 일에 뛰어들 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "그림을 없앰",
+          "interpretation_ko": "제 권리를 세우려 강경한 수단을 써도 용서받을 조짐",
+          "interpretation_en": "means that you will be pardoned for using strenuous means to establish your rights",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pictures",
+              "original": "To destroy pictures, means that you will be pardoned for using strenuous means to establish your rights.",
+              "translation_ko": "그림을 없애는 꿈은, 제 권리를 세우려 강경한 수단을 써도 용서받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "그림을 삼",
+          "interpretation_ko": "헛된 투기를 예고하는 조짐",
+          "interpretation_en": "foretells worthless speculation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pictures",
+              "original": "To buy them, foretells worthless speculation.",
+              "translation_ko": "그림을 사는 꿈은, 헛된 투기를 예고하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "살아있는 나무에서 제 모습이 나타났다 사라지는 것을 봄",
+          "interpretation_ko": "번영하고 만족스러워 보이나 동무를 사귀고 뜻을 나누는 데서 실망할 조짐",
+          "interpretation_en": "denotes that you will be prosperous and seemingly contented, but there will be disappointments in reaching out for companionship and reciprocal understanding of ideas and plans",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pictures",
+              "original": "To dream of seeing your likeness in a living tree, appearing and disappearing, denotes that you will be prosperous and seemingly contented, but there will be disappointments in reaching out for companionship and reciprocal understanding of ideas and plans.",
+              "translation_ko": "살아있는 나무에서 제 모습이 나타났다 사라지는 것을 보는 꿈은, 번영하고 만족스러워 보이나 동무를 사귀고 뜻을 나누는 데서 실망할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "옛 거장과 현대 거장의 걸작들에 둘러싸임",
+          "interpretation_ko": "더 높은 성취를 향한 채워지지 않는 갈망에 지금의 성공이 초라해 보일 조짐",
+          "interpretation_en": "denotes that you will have insatiable longings and desires for higher attainments, compared to which present success will seem poverty-stricken and miserable",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pictures",
+              "original": "To dream of being surrounded with the best efforts of the old and modern masters, denotes that you will have insatiable longings and desires for higher attainments, compared to which present success will seem poverty-stricken and miserable.",
+              "translation_ko": "옛 거장과 현대 거장의 걸작들에 둘러싸이는 꿈은, 더 높은 성취를 향한 채워지지 않는 갈망에 지금의 성공이 초라해 보일 조짐이다"
             }
           ]
         }
@@ -38553,6 +38734,94 @@
       ]
     },
     {
+      "id": "docks",
+      "term_ko": "부두",
+      "term_en": "docks",
+      "aliases": [
+        "선착장",
+        "부두에 있"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "부두에 있음",
+          "interpretation_ko": "언짢은 여정을 앞두고 사고가 위협할 조짐",
+          "interpretation_en": "you are about to make an unpropitious journey, and accidents will threaten you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Docks",
+              "original": "To dream of being on docks, denotes that you are about to make an unpropitious journey.  Accidents will threaten you.",
+              "translation_ko": "부두에 있는 꿈은, 언짢은 여정을 앞두고 있음을 뜻한다. 사고가 위협한다"
+            }
+          ]
+        },
+        {
+          "context": "부두 위에 섬",
+          "interpretation_ko": "번영의 세계에서 인정받으려는 싸움에 용감할 조짐이며 가장 높은 영예의 자리에 오를 조짐",
+          "interpretation_en": "denotes that you will be brave in your battle for recognition in prosperity's realm, and that you will be admitted to the highest posts of honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pier",
+              "original": "To stand upon a pier in your dream, denotes that you will be brave in your battle for recognition in prosperity's realm, and that you will be admitted to the highest posts of honor.",
+              "translation_ko": "부두 위에 서는 꿈은, 번영의 세계에서 인정받으려는 싸움에 용감할 조짐이며 가장 높은 영예의 자리에 오를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부두에 닿으려다 실패함",
+          "interpretation_ko": "가장 바라던 영예를 잃을 조짐",
+          "interpretation_en": "you will lose the distinction you most coveted",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pier",
+              "original": "If you strive to reach a pier and fail, you will lose the distinction you most coveted.",
+              "translation_ko": "부두에 닿으려다 실패하는 꿈은, 가장 바라던 영예를 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부두를 홀로 헤매는데 어둠이 덮침",
+          "interpretation_ko": "목숨을 노리는 적을 만날 조짐",
+          "interpretation_en": "you will meet with deadly enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Docks",
+              "original": "If you are there, wandering alone, and darkness overtakes you, you will meet with deadly enemies, but if the sun be shining, you will escape threatening dangers.",
+              "translation_ko": "거기서 홀로 헤매는데 어둠이 덮치면 목숨을 노리는 적을 만나고, 해가 비치면 닥친 위험을 벗어난다"
+            }
+          ]
+        },
+        {
+          "context": "부두에 해가 비침",
+          "interpretation_ko": "닥친 위험을 벗어날 조짐",
+          "interpretation_en": "you will escape threatening dangers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Docks",
+              "original": "If you are there, wandering alone, and darkness overtakes you, you will meet with deadly enemies, but if the sun be shining, you will escape threatening dangers.",
+              "translation_ko": "거기서 홀로 헤매는데 어둠이 덮치면 목숨을 노리는 적을 만나고, 해가 비치면 닥친 위험을 벗어난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "doomsday",
       "term_ko": "최후의 심판",
       "term_en": "doomsday",
@@ -41882,100 +42151,6 @@
               "locator": "Parcel",
               "original": "To let a parcel fall on the way as you go to deliver it, you will see some deal fail to go through.",
               "translation_ko": "소포를 배달하다 길에서 떨어뜨리는 꿈은, 어떤 거래가 틀어질 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "painting",
-      "term_ko": "그림",
-      "term_en": "painting",
-      "aliases": [
-        "그림이",
-        "그림을",
-        "페인트가",
-        "페인트를",
-        "페인트칠",
-        "페인트칠한",
-        "칠했다",
-        "그림들"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "새로 페인트칠한 집을 봄",
-          "interpretation_ko": "꾸민 계획이 성공할 길조",
-          "interpretation_en": "to see newly painted houses in dreams, foretells that you will succeed with some devised plan",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Paint and Painting",
-              "original": "To see newly painted houses in dreams, foretells that you will succeed with some devised plan.",
-              "translation_ko": "새로 페인트칠한 집을 보는 꿈은, 꾸민 계획이 성공할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "옷에 페인트가 묻음",
-          "interpretation_ko": "남의 무심한 비판으로 언짢을 흉조",
-          "interpretation_en": "to have paint on your clothing, you will be made unhappy by the thoughtless criticisms of others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Paint and Painting",
-              "original": "To have paint on your clothing, you will be made unhappy by the thoughtless criticisms of others.",
-              "translation_ko": "옷에 페인트가 묻는 꿈은, 남의 무심한 비판으로 언짢을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "스스로 붓을 쥐고 칠함",
-          "interpretation_ko": "지금 하는 일에 흡족할 길조",
-          "interpretation_en": "to dream that you use the brush yourself, denotes that you will be well pleased with your present occupation",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Paint and Painting",
-              "original": "To dream that you use the brush yourself, denotes that you will be well pleased with your present occupation.",
-              "translation_ko": "스스로 붓을 쥐고 칠하는 꿈은, 지금 하는 일에 흡족할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "아름다운 그림들을 봄",
-          "interpretation_ko": "벗들이 거짓된 태도를 보이고 즐거움도 헛될 흉조",
-          "interpretation_en": "to dream of seeing beautiful paintings, denotes that friends will assume false positions towards you, and you will find that pleasure is illusive",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Paint and Painting",
-              "original": "To dream of seeing beautiful paintings, denotes that friends will assume false positions towards you, and you will find that pleasure is illusive.",
-              "translation_ko": "아름다운 그림들을 보는 꿈은, 벗들이 거짓된 태도를 보이고 즐거움도 헛될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 그림을 그림",
-          "interpretation_ko": "정인이 마음을 다른 이에게 옮겨 속게 될 흉조",
-          "interpretation_en": "for a young woman to dream of painting a picture, she will be deceived in her lover, as he will transfer his love to another",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Paint and Painting",
-              "original": "For a young woman to dream of painting a picture, she will be deceived in her lover, as he will transfer his love to another.",
-              "translation_ko": "처녀가 그림을 그리는 꿈은, 정인이 마음을 다른 이에게 옮겨 속게 될 조짐이다"
             }
           ]
         }
@@ -61631,66 +61806,6 @@
               "locator": "Disinherited",
               "original": "For a woman, this dream is a warning to be careful of her conduct, lest she meet with unfavorable fortune.",
               "translation_ko": "여성에게 이 꿈은, 몸가짐을 조심하지 않으면 운이 나빠진다는 경고다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "docks",
-      "term_ko": "부두",
-      "term_en": "docks",
-      "aliases": [
-        "선착장",
-        "부두에 있"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "부두에 있음",
-          "interpretation_ko": "언짢은 여정을 앞두고 사고가 위협할 조짐",
-          "interpretation_en": "you are about to make an unpropitious journey, and accidents will threaten you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Docks",
-              "original": "To dream of being on docks, denotes that you are about to make an unpropitious journey.  Accidents will threaten you.",
-              "translation_ko": "부두에 있는 꿈은, 언짢은 여정을 앞두고 있음을 뜻한다. 사고가 위협한다"
-            }
-          ]
-        },
-        {
-          "context": "부두를 홀로 헤매는데 어둠이 덮침",
-          "interpretation_ko": "목숨을 노리는 적을 만날 조짐",
-          "interpretation_en": "you will meet with deadly enemies",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Docks",
-              "original": "If you are there, wandering alone, and darkness overtakes you, you will meet with deadly enemies, but if the sun be shining, you will escape threatening dangers.",
-              "translation_ko": "거기서 홀로 헤매는데 어둠이 덮치면 목숨을 노리는 적을 만나고, 해가 비치면 닥친 위험을 벗어난다"
-            }
-          ]
-        },
-        {
-          "context": "부두에 해가 비침",
-          "interpretation_ko": "닥친 위험을 벗어날 조짐",
-          "interpretation_en": "you will escape threatening dangers",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Docks",
-              "original": "If you are there, wandering alone, and darkness overtakes you, you will meet with deadly enemies, but if the sun be shining, you will escape threatening dangers.",
-              "translation_ko": "거기서 홀로 헤매는데 어둠이 덮치면 목숨을 노리는 적을 만나고, 해가 비치면 닥친 위험을 벗어난다"
             }
           ]
         }

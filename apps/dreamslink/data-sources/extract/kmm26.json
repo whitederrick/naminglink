@@ -376,12 +376,16 @@
     "contexts": {
       "부두에 있음": "있었 서성 나갔",
       "부두를 홀로 헤매는데 어둠이 덮침": "홀로 헤매 어둠",
-      "부두에 해가 비침": "햇빛 볕이 화창"
+      "부두에 해가 비침": "햇빛 볕이 화창",
+      "부두 위에 섬": "섰다 용감할 영예",
+      "부두에 닿으려다 실패함": "닿으려다 실패 잃을"
     },
     "contexts_en": {
       "부두에 있음": "unpropitious journey accidents",
       "부두를 홀로 헤매는데 어둠이 덮침": "wandering darkness deadly",
-      "부두에 해가 비침": "sun shining escape"
+      "부두에 해가 비침": "sun shining escape",
+      "부두 위에 섬": "stand upon brave honor",
+      "부두에 닿으려다 실패함": "strive reach fail coveted"
     }
   }
 ]
