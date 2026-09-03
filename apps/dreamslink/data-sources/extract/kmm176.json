@@ -1,0 +1,20 @@
+[
+  {
+    "id": "pie",
+    "aliases": [
+      "파이가",
+      "파이를"
+    ],
+    "aliases_en": [
+      "pies"
+    ],
+    "contexts": {
+      "파이를 먹음": "적을 살펴",
+      "처녀가 파이를 만드는 꿈을 꿈": "처녀가 시시덕거릴"
+    },
+    "contexts_en": {
+      "파이를 먹음": "eating watch enemies",
+      "처녀가 파이를 만드는 꿈을 꿈": "young woman flirt pastime"
+    }
+  }
+]

@@ -490,6 +490,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pig::돼지 울부짖는 소리를 들음": "squealing unpleasant news absent",
   "pig::제 돼지에게 먹이를 줌": "feeding own increase belongings",
   "pig::돼지를 사고팖": "accumulate considerable rough perform",
+  "pig::진흙탕에서 뒹구는 돼지들을 봄": "wallowing mire hurtful",
+  "pig::처녀가 진흙탕 돼지 꿈을 꿈": "young woman jealous greedy wealthy",
   "turtle::거북이 우물이나 집으로 들어옴": "well house home yard entered",
   "turtle::거북과 뱀이 함께 있음": "snake serpent together",
   "turtle::거북을 봄": "saw seeing looked spotted",
@@ -5015,5 +5017,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pickpocket::처녀가 소매치기 짓을 함": "picks others coarse",
   "picnic::소풍에 참석함": "attending real enjoyment",
   "picnic::소풍 꿈을 꿈": "undivided happiness young",
-  "picnic::소풍에서 폭풍우나 방해되는 일이 생김": "storms interfering displacement"
+  "picnic::소풍에서 폭풍우나 방해되는 일이 생김": "storms interfering displacement",
+  "pie::파이를 먹음": "eating watch enemies",
+  "pie::처녀가 파이를 만드는 꿈을 꿈": "young woman flirt pastime"
 };

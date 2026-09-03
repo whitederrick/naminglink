@@ -1,0 +1,23 @@
+{
+  "batch": 176,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pies",
+      "text": "To dream of eating pies, you will do well to watch your enemies, as they are planning to injure you. For a young woman to dream of making pies, denotes that she will flirt with men for pastime. She should accept this warning.",
+      "note": "새 상징 `pie`(파이). 이미 있는 `pastry`(패스트리)와는 다른 음식이고 결말도 달라 새로 세운다. 「[157] See Pastry」는 참고로만 적어 둔다"
+    },
+    {
+      "headword": "Pig",
+      "text": "To dream of a fat, healthy pig, denotes reasonable success in affairs. If they are wallowing in mire, you will have hurtful associates, and your engagements will be subject to reproach. This dream will bring to a young woman a jealous and greedy companion though the chances are that he will be wealthy.",
+      "note": "기존 상징 `pig`(돼지, 밀러 `Hogs`)에 둘을 더한다. 「살지고 건강한 돼지」는 뺐다 — 이미 있는 `pig`의 「살지고 튼튼한 돼지를 봄」(밀러 `Hogs`)과 같은 그림(살지고 튼튼함=길함)이라 가를 수 없다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "To dream of a fat, healthy pig, denotes reasonable success in affairs.",
+      "reason": "`Pig` — 이미 있는 `pig`의 「살지고 튼튼한 돼지를 봄」(밀러 `Hogs`)과 같은 그림(살지고 튼튼함=길함)이라 가를 수 없다"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "term_ko": "파이",
+    "term_en": "pie",
+    "context": "파이를 먹음",
+    "interpretation_ko": "적을 잘 살펴야 할 조짐이니 저를 해치려는 계략을 조심하라는 뜻",
+    "interpretation_en": "you will do well to watch your enemies, as they are planning to injure you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pies",
+      "original": "To dream of eating pies, you will do well to watch your enemies, as they are planning to injure you.",
+      "translation_ko": "파이를 먹는 꿈은, 적을 잘 살펴야 할 조짐이니 저를 해치려는 계략을 조심하라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "파이",
+    "term_en": "pie",
+    "context": "처녀가 파이를 만드는 꿈을 꿈",
+    "interpretation_ko": "심심풀이로 남자들과 시시덕거릴 조짐이니 이 경고를 새겨야 함",
+    "interpretation_en": "denotes that she will flirt with men for pastime. She should accept this warning",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pies",
+      "original": "For a young woman to dream of making pies, denotes that she will flirt with men for pastime. She should accept this warning.",
+      "translation_ko": "처녀가 파이를 만드는 꿈은, 심심풀이로 남자들과 시시덕거릴 조짐이니 이 경고를 새겨야 함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "돼지",
+    "term_en": "pig",
+    "context": "처녀가 진흙탕 돼지 꿈을 꿈",
+    "interpretation_ko": "질투심 많고 욕심 많은 배우자를 얻되 부유할 가능성이 있다는 조짐",
+    "interpretation_en": "this dream will bring to a young woman a jealous and greedy companion though the chances are that he will be wealthy",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Pig",
+      "original": "This dream will bring to a young woman a jealous and greedy companion though the chances are that he will be wealthy.",
+      "translation_ko": "처녀가 진흙탕 돼지 꿈을 꾸면, 질투심 많고 욕심 많은 배우자를 얻되 부유할 가능성이 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "돼지",
+    "term_en": "pig",
+    "context": "진흙탕에서 뒹구는 돼지들을 봄",
+    "interpretation_ko": "해로운 사람들과 어울리고 맺은 언약이 비난받을 조짐",
+    "interpretation_en": "you will have hurtful associates, and your engagements will be subject to reproach",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Pig",
+      "original": "If they are wallowing in mire, you will have hurtful associates, and your engagements will be subject to reproach.",
+      "translation_ko": "진흙탕에서 뒹구는 돼지들을 보는 꿈은, 해로운 사람들과 어울리고 맺은 언약이 비난받을 조짐이다"
+    }
+  }
+]
