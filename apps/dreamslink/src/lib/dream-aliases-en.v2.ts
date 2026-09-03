@@ -6224,5 +6224,18 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "marble": [
     "marbles"
+  ],
+  "march": [
+    "marching"
+  ],
+  "march-month": [
+    "march month"
+  ],
+  "marigold": [
+    "marigolds"
+  ],
+  "mariner": [
+    "mariners",
+    "seafarer"
   ]
 };

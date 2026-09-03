@@ -523,6 +523,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "marketplace::시장에 사람이 하나도 없음": "empty deserted nobody abandoned",
   "marketplace::장이 선 곳에 감": "fair profitable congenial companion",
   "marketplace::처녀가 장이 선 곳에 감": "jovial tempered partner",
+  "marketplace::시장 안에 있음": "thrift activity occupations",
+  "marketplace::시장에서 상한 채소나 고기를 봄": "decayed vegetables meat losses",
   "monkey::산 원숭이를 봄": "wild mountain forest",
   "monkey::흰 원숭이를 봄": "white pale snowy",
   "rock::너럭바위가 편안하고 든든함": "flat comfortable solid steady broad",
@@ -1411,6 +1413,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "horse::말을 바꾸다 장수에게 속음": "cheats lose",
   "horse::바꾼 말이 먼저 것보다 나음": "better traded",
   "horse::말 장수를 봄": "perilous ventures",
+  "horse::메마른 풀밭의 암말을 봄": "barren poverty warm",
+  "horse::처녀가 암말을 봄": "omens happy beautiful children",
+  "horse::풀밭의 암말을 봄": "mares pastures companions",
   "ox::누런 소가 집으로 옴": "yellow brown",
   "ox::물소를 봄": "saw spotted watching",
   "ox::소가 산비탈을 올라감": "slope hillside uphill",
@@ -4283,5 +4288,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "map::지도를 찾아 헤맴": "looking discontent surroundings energy ambition",
   "marble::대리석 채석장을 봄": "quarry financial devoid affection",
   "marble::대리석을 닦음": "polishing pleasing inheritance",
-  "marble::깨진 대리석을 봄": "broken disfavor associates defying moral"
+  "marble::깨진 대리석을 봄": "broken disfavor associates defying moral",
+  "march::음악에 맞춰 행진함": "strains ambitious soldier official decision",
+  "march::여성이 사내들이 행진하는 것을 봄": "inclination positions reputations",
+  "march-month::삼월을 봄": "portends disappointing returns honesty",
+  "marigold::금잔화를 봄": "contentment frugality aim",
+  "mariner::제가 뱃사람이 됨": "long journey distant countries pleasure",
+  "mariner::제 배가 저 없이 떠나는 것을 봄": "vessel sailing discomfort rivals"
 };

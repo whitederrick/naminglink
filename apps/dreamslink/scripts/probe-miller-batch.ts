@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 115 — Manuscript~Marble, 13건)
+// (지금 담긴 것: 배치 116 — March~Market, 13건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,20 +30,20 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "manuscript", ctx: "덜 쓴 원고를 봄", text: "미완의 원고를 보았다" },
-  { id: "manuscript", ctx: "또렷하게 다 쓴 원고를 봄", text: "또렷하게 다 쓴 원고를 보았다" },
-  { id: "manuscript", ctx: "원고를 쓰고 있음", text: "원고를 쓰고 있었다" },
-  { id: "manuscript", ctx: "원고가 출판사에서 퇴짜 맞음", text: "원고가 출판사에서 퇴짜를 맞았다" },
-  { id: "manuscript", ctx: "원고를 잃음", text: "원고를 잃어버렸다" },
-  { id: "manuscript", ctx: "원고가 타는 것을 봄", text: "원고가 불타는 것을 보았다" },
-  { id: "map", ctx: "지도를 봄", text: "지도를 들여다보았다" },
-  { id: "map", ctx: "지도를 찾아 헤맴", text: "지도를 찾아 헤맸다" },
-  { id: "marble", ctx: "대리석 채석장을 봄", text: "대리석 채석장을 보았다" },
-  { id: "marble", ctx: "대리석을 닦음", text: "대리석을 닦았다" },
-  { id: "marble", ctx: "깨진 대리석을 봄", text: "깨진 대리석을 보았다" },
-  // 지킴 — 새 이름이 스치는 옛 상징의 답이 그대로인가(§25 곁가지)
-  { id: "atlas", ctx: "지도책을 들여다봄", text: "지도책을 보았다" },
-  { id: "manure", ctx: "거름더미를 봄", text: "거름더미를 보았다" },
+  { id: "march", ctx: "음악에 맞춰 행진함", text: "음악에 맞춰 행진했다" },
+  { id: "march", ctx: "여성이 사내들이 행진하는 것을 봄", text: "여자가 사내들이 행진하는 것을 보았다" },
+  { id: "march-month", ctx: "삼월을 봄", text: "꿈에 3월이었다" },
+  { id: "horse", ctx: "메마른 풀밭의 암말을 봄", text: "메마른 풀밭의 암말을 보았다" },
+  { id: "horse", ctx: "처녀가 암말을 봄", text: "처녀가 암말을 보았다" },
+  { id: "horse", ctx: "풀밭의 암말을 봄", text: "풀밭의 암말을 보았다" },
+  { id: "marigold", ctx: "금잔화를 봄", text: "노란 금잔화가 피어 있었다" },
+  { id: "mariner", ctx: "제가 뱃사람이 됨", text: "내가 뱃사람이 되었다" },
+  { id: "mariner", ctx: "제 배가 저 없이 떠나는 것을 봄", text: "뱃사람이 탈 배가 나를 두고 떠났다" },
+  { id: "marketplace", ctx: "시장 안에 있음", text: "시장이 북적였다" },
+  { id: "marketplace", ctx: "시장에서 상한 채소나 고기를 봄", text: "시장에서 상한 채소를 보았다" },
+  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
+  { id: "horse", ctx: "새끼 밴 암말을 봄", text: "새끼 밴 암말을 보았다" },
+  { id: "marketplace", ctx: "시장에 사람이 하나도 없음", text: "시장에 아무도 없었다" },
 ];
 
 let notFound = 0;

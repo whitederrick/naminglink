@@ -1,0 +1,79 @@
+[
+  {
+    "id": "march",
+    "aliases": [
+      "행진을",
+      "행진이",
+      "행군",
+      "행진하는",
+      "행진했다",
+      "행진하고",
+      "행진하며"
+    ],
+    "aliases_en": [
+      "marching"
+    ],
+    "contexts": {
+      "음악에 맞춰 행진함": "음악 가락에",
+      "여성이 사내들이 행진하는 것을 봄": "여자가 여성이 사내들"
+    },
+    "contexts_en": {
+      "음악에 맞춰 행진함": "strains ambitious soldier official decision",
+      "여성이 사내들이 행진하는 것을 봄": "inclination positions reputations"
+    }
+  },
+  {
+    "id": "march-month",
+    "aliases": [
+      "3월",
+      "삼월이",
+      "삼월에"
+    ],
+    "aliases_en": [
+      "march month"
+    ],
+    "contexts": {
+      "삼월을 봄": "3월 셋째"
+    },
+    "contexts_en": {
+      "삼월을 봄": "portends disappointing returns honesty"
+    }
+  },
+  {
+    "id": "marigold",
+    "aliases": [
+      "금잔화를",
+      "금잔화가",
+      "만수국"
+    ],
+    "aliases_en": [
+      "marigolds"
+    ],
+    "contexts": {
+      "금잔화를 봄": "노란 피어"
+    },
+    "contexts_en": {
+      "금잔화를 봄": "contentment frugality aim"
+    }
+  },
+  {
+    "id": "mariner",
+    "aliases": [
+      "뱃사람이",
+      "뱃사람을",
+      "선원이 됨"
+    ],
+    "aliases_en": [
+      "mariners",
+      "seafarer"
+    ],
+    "contexts": {
+      "제가 뱃사람이 됨": "내가 제가 되었",
+      "제 배가 저 없이 떠나는 것을 봄": "없이 두고 떠났"
+    },
+    "contexts_en": {
+      "제가 뱃사람이 됨": "long journey distant countries pleasure",
+      "제 배가 저 없이 떠나는 것을 봄": "vessel sailing discomfort rivals"
+    }
+  }
+]

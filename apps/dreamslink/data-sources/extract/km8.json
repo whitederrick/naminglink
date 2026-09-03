@@ -14,7 +14,9 @@
       "흰말",
       "하얀말",
       "경주마",
-      "경마"
+      "경마",
+      "암말이",
+      "암말을"
     ],
     "aliases_en": [
       "a horse",
@@ -82,7 +84,10 @@
       "말이 사람으로 바뀌어 다가옴": "사람으로 바뀌 둔갑",
       "말을 바꾸다 장수에게 속음": "속았 속임 바꾸다",
       "바꾼 말이 먼저 것보다 나음": "나은 더좋은 바꾼",
-      "말 장수를 봄": "장수 거간"
+      "말 장수를 봄": "장수 거간",
+      "메마른 풀밭의 암말을 봄": "메마른 황량",
+      "처녀가 암말을 봄": "처녀 아가씨",
+      "풀밭의 암말을 봄": "풀밭 목장"
     },
     "contexts_en": {
       "말이 뜰 앞에서 춤추듯 뛰놂": "dancing prancing frolicking courtyard yard",
@@ -142,7 +147,10 @@
       "말이 사람으로 바뀌어 다가옴": "metamorphosed hammock rubber",
       "말을 바꾸다 장수에게 속음": "cheats lose",
       "바꾼 말이 먼저 것보다 나음": "better traded",
-      "말 장수를 봄": "perilous ventures"
+      "말 장수를 봄": "perilous ventures",
+      "메마른 풀밭의 암말을 봄": "barren poverty warm",
+      "처녀가 암말을 봄": "omens happy beautiful children",
+      "풀밭의 암말을 봄": "mares pastures companions"
     }
   },
   {

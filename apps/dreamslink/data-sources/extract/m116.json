@@ -1,0 +1,167 @@
+[
+  {
+    "term_ko": "행진",
+    "term_en": "march",
+    "context": "음악에 맞춰 행진함",
+    "interpretation_ko": "군인이나 벼슬아치가 되고 싶어 하는 마음을 뜻하는 조짐 — 마지막으로 정하기 전에 두루 살펴야 한다",
+    "interpretation_en": "indicates that you are ambitious to become a soldier or a public official, but you should consider all things well before making final decision",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "March",
+      "original": "To dream of marching to the strains of music, indicates that you are ambitious to become a soldier or a public official, but you should consider all things well before making final decision.",
+      "translation_ko": "음악 가락에 맞춰 행진하는 꿈은, 군인이나 벼슬아치가 되고 싶어 하는 마음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "행진",
+    "term_en": "march",
+    "context": "여성이 사내들이 행진하는 것을 봄",
+    "interpretation_ko": "벼슬자리에 있는 사내에게 마음이 기울 조짐 — 사내들과 자주 어울리게 되면 제 이름을 조심해야 한다",
+    "interpretation_en": "foretells their inclination for men in public positions; they should be careful of their reputations",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "March",
+      "original": "For women to dream of seeing men marching, foretells their inclination for men in public positions.",
+      "translation_ko": "여성이 사내들이 행진하는 것을 보는 꿈은, 벼슬자리에 있는 사내에게 마음이 기욺을 알린다"
+    }
+  },
+  {
+    "term_ko": "삼월",
+    "term_en": "march month",
+    "context": "삼월을 봄",
+    "interpretation_ko": "하는 일에서 얻는 것이 실망스럽고, 어떤 여인이 제 정직함을 의심할 흉한 조짐",
+    "interpretation_en": "portends disappointing returns in business, and some woman will be suspicious of your honesty",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "March",
+      "original": "To dream of the month of March, portends disappointing returns in business, and some woman will be suspicious of your honesty.",
+      "translation_ko": "삼월이라는 달의 꿈은, 하는 일에서 얻는 것이 실망스럽고 어떤 여인이 제 정직함을 의심함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "메마른 풀밭의 암말을 봄",
+    "interpretation_ko": "가난하나 마음 따뜻한 벗을 얻을 조짐",
+    "interpretation_en": "it foretells poverty, but warm friends",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mare",
+      "original": "If the pasture is barren, it foretells poverty, but warm friends.",
+      "translation_ko": "풀밭이 메말랐으면 가난하나 마음 따뜻한 벗을 얻는다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "처녀가 암말을 봄",
+    "interpretation_ko": "즐거운 혼인과 고운 아이들을 알리는 길한 조짐",
+    "interpretation_en": "this omens a happy marriage and beautiful children",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mare",
+      "original": "For a young woman, this omens a happy marriage and beautiful children.",
+      "translation_ko": "젊은 여성에게 이 꿈은 즐거운 혼인과 고운 아이들을 알린다"
+    }
+  },
+  {
+    "term_ko": "말",
+    "term_en": "horse",
+    "context": "풀밭의 암말을 봄",
+    "interpretation_ko": "하는 일이 잘되고 마음 맞는 벗을 얻을 길한 조짐",
+    "interpretation_en": "denotes success in business and congenial companions",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mare",
+      "original": "To dream of seeing mares in pastures, denotes success in business and congenial companions.",
+      "translation_ko": "풀밭의 암말을 보는 꿈은, 하는 일이 잘되고 마음 맞는 벗을 얻음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "금잔화",
+    "term_en": "marigold",
+    "context": "금잔화를 봄",
+    "interpretation_ko": "아끼며 사는 데서 오는 흡족함을 목표로 삼으라는 조짐",
+    "interpretation_en": "denotes contentment with frugality should be your aim",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Marigold",
+      "original": "To dream of seeing marigolds, denotes contentment with frugality should be your aim.",
+      "translation_ko": "금잔화를 보는 꿈은, 아끼며 사는 데서 오는 흡족함을 목표로 삼으라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "뱃사람",
+    "term_en": "mariner",
+    "context": "제가 뱃사람이 됨",
+    "interpretation_ko": "먼 나라로 긴 길을 떠나고 그 길에 즐거움이 많을 길한 조짐",
+    "interpretation_en": "denotes a long journey to distant countries, and much pleasure will be connected with the trip",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Mariner",
+      "original": "To dream that you are a mariner, denotes a long journey to distant countries, and much pleasure will be connected with the trip.",
+      "translation_ko": "제가 뱃사람이 되는 꿈은, 먼 나라로 긴 길을 떠나고 그 길에 즐거움이 많음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "뱃사람",
+    "term_en": "mariner",
+    "context": "제 배가 저 없이 떠나는 것을 봄",
+    "interpretation_ko": "맞수 때문에 몸소 겪는 괴로움이 클 흉한 조짐",
+    "interpretation_en": "much personal discomfort will be wrought you by rivals",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Mariner",
+      "original": "If you see your vessel sailing without you, much personal discomfort will be wrought you by rivals.",
+      "translation_ko": "제 배가 저를 두고 떠나는 것을 보면, 맞수 때문에 몸소 겪는 괴로움이 크다"
+    }
+  },
+  {
+    "term_ko": "시장",
+    "term_en": "marketplace",
+    "context": "시장 안에 있음",
+    "interpretation_ko": "살림이 알뜰해지고 온갖 일이 활기찰 길한 조짐",
+    "interpretation_en": "denotes thrift and much activity in all occupations",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Market",
+      "original": "To dream that you are in a market, denotes thrift and much activity in all occupations.",
+      "translation_ko": "시장 안에 있는 꿈은, 살림이 알뜰해지고 온갖 일이 활기참을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "시장",
+    "term_en": "marketplace",
+    "context": "시장에서 상한 채소나 고기를 봄",
+    "interpretation_ko": "하는 일에서 잃을 것이 있을 흉한 조짐",
+    "interpretation_en": "denotes losses in business",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Market",
+      "original": "To see decayed vegetables or meat, denotes losses in business.",
+      "translation_ko": "상한 채소나 고기를 보면 하는 일에서 잃을 것이 있다"
+    }
+  }
+]
