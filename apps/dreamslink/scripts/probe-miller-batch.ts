@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 95 — Lentil~Leprosy, 12건)
+// (지금 담긴 것: 배치 96 — Letter, 20건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,19 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "lentil", ctx: "렌즈콩을 봄", text: "렌즈콩이 삶은 채로 놓여 있었다" },
-  { id: "lentil", ctx: "처녀가 렌즈콩 꿈을 꿈", text: "처녀가 렌즈콩 꿈을 꾸었다" },
-  { id: "leopard", ctx: "표범이 덤벼듦", text: "표범이 나에게 덤벼들었다" },
-  { id: "leopard", ctx: "표범을 죽임", text: "표범을 죽였다" },
-  { id: "leopard", ctx: "우리에 갇힌 표범을 봄", text: "우리에 갇힌 표범을 보았다" },
-  { id: "leopard", ctx: "표범이 제게서 달아나려 함", text: "표범이 나를 피해 달아나려 했다" },
-  { id: "leopard", ctx: "표범 가죽을 봄", text: "표범 가죽을 보았다" },
-  { id: "leprosy", ctx: "제가 나병에 걸림", text: "내가 나병에 걸렸다" },
-  { id: "leprosy", ctx: "남이 나병에 걸린 것을 봄", text: "남이 나병에 걸린 것을 보았다" },
+  { id: "letter", ctx: "처녀가 등기 편지를 받음", text: "처녀가 등기 편지를 받았다" },
+  { id: "letter", ctx: "등기 편지를 봄", text: "등기 편지를 보았다" },
+  { id: "letter", ctx: "익명의 편지를 봄", text: "익명의 편지를 받았다" },
+  { id: "letter", ctx: "궂은 기별이 담긴 편지를 받음", text: "나쁜 소식이 담긴 편지를 받았다" },
+  { id: "letter", ctx: "기쁜 기별이 담긴 편지를 받음", text: "기쁜 소식이 담긴 편지를 받았다" },
+  { id: "letter", ctx: "초록빛 종이에 쓴 정다운 편지", text: "초록 종이에 쓴 정다운 편지를 보았다" },
+  { id: "letter", ctx: "파란 잉크로 쓴 편지", text: "파란 잉크로 쓴 편지를 받았다" },
+  { id: "letter", ctx: "붉은 빛깔이 든 편지", text: "붉은 글씨가 든 편지를 보았다" },
+  { id: "letter", ctx: "처녀가 정인의 편지를 가슴에 품음", text: "처녀가 정인의 편지를 가슴에 품었다" },
+  { id: "letter", ctx: "편지를 읽지 못함", text: "편지를 읽지 못했다" },
+  { id: "letter", ctx: "편지를 가로채임", text: "누가 내 편지를 가로챘다" },
+  { id: "letter", ctx: "편지를 숨김", text: "편지를 감추려 했다" },
+  { id: "letter", ctx: "검은 테두리가 둘린 편지", text: "검은 테두리가 둘린 편지를 보았다" },
+  { id: "letter", ctx: "검은 종이에 흰 잉크로 쓴 편지를 받음", text: "검은 종이에 흰색 글씨로 쓴 편지를 받았다" },
+  { id: "letter", ctx: "편지를 씀", text: "편지를 썼다" },
+  { id: "letter", ctx: "찢어진 편지를 봄", text: "찢어진 편지를 보았다" },
+  { id: "letter", ctx: "편지를 손으로 건네받음", text: "편지를 손으로 건네받았다" },
+  { id: "letter", ctx: "벗에게서 편지를 자주 받음", text: "벗에게 편지를 자주 받았다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "leopard", ctx: "표범을 봄", text: "표범을 쳐다보았다" },
-  { id: "leopard", ctx: "표범을 잡음", text: "표범을 사로잡았다" },
-  { id: "leopard", ctx: "표범 같은 짐승을 봄", text: "표범 닮은 맹수를 보았다" },
+  { id: "letter", ctx: "편지를 봉함", text: "편지를 봉했다" },
+  { id: "letter", ctx: "봉투를 봄", text: "봉투가 놓여 있었다" },
 ];
 
 let notFound = 0;
