@@ -1,0 +1,4 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "ignoreCommand": "bash -c 'cd \"$(git rev-parse --show-toplevel)\" && git diff --quiet ${VERCEL_GIT_PREVIOUS_SHA:-HEAD^} HEAD -- apps/sajulink packages/core package.json pnpm-lock.yaml pnpm-workspace.yaml'"
+}
