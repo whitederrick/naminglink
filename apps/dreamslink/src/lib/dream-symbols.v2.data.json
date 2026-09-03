@@ -98,6 +98,7 @@
     "m184.json",
     "m185.json",
     "m186.json",
+    "m187.json",
     "m19.json",
     "m2.json",
     "m20.json",
@@ -20282,6 +20283,159 @@
               "locator": "門戶井灶廚廁",
               "original": "廁中屎溢大吉利",
               "translation_ko": "뒷간에 똥이 넘치면 크게 길하고 이롭다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poison",
+      "term_ko": "독약",
+      "term_en": "poison",
+      "aliases": [
+        "독약이",
+        "독약을",
+        "독이",
+        "독을",
+        "독에",
+        "독으로",
+        "중독됐다",
+        "중독된",
+        "중독에서",
+        "독성",
+        "스트리크닌"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 독에 중독됨",
+          "interpretation_ko": "고통스러운 영향이 곧 저에게 미칠 조짐",
+          "interpretation_en": "denotes that some painful influence will immediately reach you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poison",
+              "original": "To fed that you are poisoned in a dream, denotes that some painful influence will immediately reach you.",
+              "translation_ko": "꿈에서 제가 독에 중독된 것을 느끼는 꿈은, 고통스러운 영향이 곧 저에게 미칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 독을 쓰려 함",
+          "interpretation_ko": "천박한 생각에 물들거나 세상일이 뜻대로 안 풀릴 조짐",
+          "interpretation_en": "you will be guilty of base thoughts, or the world will go wrong for you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poison",
+              "original": "If you seek to use poison on others, you will be guilty of base thoughts, or the world will go wrong for you.",
+              "translation_ko": "남에게 독을 쓰려 하는 꿈은, 천박한 생각에 물들거나 세상일이 뜻대로 안 풀릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 이런 방법으로 연적을 없애려 함",
+          "interpretation_ko": "애인을 얻는 데 많은 곤란을 겪을 조짐",
+          "interpretation_en": "she will be likely to have a deal of trouble in securing a lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poison",
+              "original": "For a young woman to dream that she endeavors to rid herself of a rival in this way, she will be likely to have a deal of trouble in securing a lover.",
+              "translation_ko": "처녀가 독으로 연적을 없애려 하는 꿈은, 애인을 얻는 데 많은 곤란을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "독을 내다 버림",
+          "interpretation_ko": "굳센 힘으로 만족스럽지 못한 처지를 이겨낼 조짐",
+          "interpretation_en": "denotes that by sheer force you will overcome unsatisfactory conditions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poison",
+              "original": "To throw the poison away, denotes that by sheer force you will overcome unsatisfactory conditions.",
+              "translation_ko": "독을 내다 버리는 꿈은, 굳센 힘으로 만족스럽지 못한 처지를 이겨낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "독을 만지거나 남이 만지는 것을 봄",
+          "interpretation_ko": "불쾌한 일에 둘러싸일 조짐",
+          "interpretation_en": "signifies that unpleasantness will surround you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poison",
+              "original": "To handle poison, or see others with it, signifies that unpleasantness will surround you.",
+              "translation_ko": "독을 만지거나 남이 만지는 것을 보는 꿈은, 불쾌한 일에 둘러싸일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "친척이나 자녀가 중독됨",
+          "interpretation_ko": "뜻밖의 곳에서 해를 입을 조짐",
+          "interpretation_en": "you will receive injury from unsuspected sources",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poison",
+              "original": "To dream that your relatives or children are poisoned, you will receive injury from unsuspected sources.",
+              "translation_ko": "친척이나 자녀가 중독되는 꿈은, 뜻밖의 곳에서 해를 입을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "원수나 적이 중독됨",
+          "interpretation_ko": "장애물을 이겨낼 조짐",
+          "interpretation_en": "you will overcome obstacles",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poison",
+              "original": "If an enemy or rival is poisoned, you will overcome obstacles.",
+              "translation_ko": "원수나 적이 중독되는 꿈은, 장애물을 이겨낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "중독에서 회복함",
+          "interpretation_ko": "근심 끝에 성공할 조짐",
+          "interpretation_en": "indicates that you will succeed after worry",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poison",
+              "original": "To recover from the effects of poison, indicates that you will succeed after worry.",
+              "translation_ko": "중독에서 회복하는 꿈은, 근심 끝에 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "의사의 권유로 독성 있는 약을 먹음",
+          "interpretation_ko": "위험이 따르는 일에 나설 조짐",
+          "interpretation_en": "denotes that you will undertake some affair fraught with danger",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poison",
+              "original": "To take strychnine or other poisonous medicine under the advice of a physician, denotes that you will undertake some affair fraught with danger.",
+              "translation_ko": "의사의 권유로 스트리크닌 등 독성 있는 약을 먹는 꿈은, 위험이 따르는 일에 나설 조짐이다"
             }
           ]
         }

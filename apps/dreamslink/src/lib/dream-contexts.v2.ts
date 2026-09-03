@@ -5096,5 +5096,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "plum::땅에서 자두를 줍다가 썩은 것을 발견함": "ground rotten",
   "pocketbook::돈과 지폐가 든 지갑을 찾아냄": "bills money",
   "pocketbook::빈 지갑을 찾아냄": "empty",
-  "pocketbook::지갑을 잃어버림": "lose losing"
+  "pocketbook::지갑을 잃어버림": "lose losing",
+  "poison::제가 독에 중독됨": "immediately reach",
+  "poison::남에게 독을 쓰려 함": "seek use others",
+  "poison::처녀가 이런 방법으로 연적을 없애려 함": "rid herself securing",
+  "poison::독을 내다 버림": "throw away",
+  "poison::독을 만지거나 남이 만지는 것을 봄": "handle unpleasantness",
+  "poison::친척이나 자녀가 중독됨": "relatives children",
+  "poison::원수나 적이 중독됨": "enemy rival overcome",
+  "poison::중독에서 회복함": "recover effects",
+  "poison::의사의 권유로 독성 있는 약을 먹음": "strychnine physician"
 };

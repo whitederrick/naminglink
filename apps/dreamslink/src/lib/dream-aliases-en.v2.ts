@@ -6858,5 +6858,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "pocketbook": [
     "a pocketbook",
     "pocketbooks"
+  ],
+  "poison": [
+    "poisonous",
+    "poisoned"
   ]
 };
