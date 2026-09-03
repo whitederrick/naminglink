@@ -1,0 +1,22 @@
+[
+  {
+    "id": "pimple",
+    "aliases": [
+      "여드름이",
+      "여드름을"
+    ],
+    "aliases_en": [
+      "pimples"
+    ],
+    "contexts": {
+      "제 살갗에 여드름이 가득함": "살갗 가득함 사소한",
+      "남에게 여드름이 난 것을 봄": "남에게 병과 불평",
+      "여성이 여드름으로 미모가 상함": "여성이 미모가 비판받"
+    },
+    "contexts_en": {
+      "제 살갗에 여드름이 가득함": "flesh full trifles",
+      "남에게 여드름이 난 것을 봄": "others troubled illness",
+      "여성이 여드름으로 미모가 상함": "beauty marred criticised"
+    }
+  }
+]

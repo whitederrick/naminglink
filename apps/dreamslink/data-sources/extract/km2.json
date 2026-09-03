@@ -1071,8 +1071,16 @@
       "cushion",
       "headrest"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "베개 꿈을 꿈": "호사 안락",
+      "처녀가 베개를 만드는 꿈을 꿈": "처녀가 만드는 즐거운",
+      "좋은 베개를 봄": "좋은"
+    },
+    "contexts_en": {
+      "베개 꿈을 꿈": "luxury comfort",
+      "처녀가 베개를 만드는 꿈을 꿈": "young woman makes encouraging",
+      "좋은 베개를 봄": "benefactor support"
+    }
   },
   {
     "id": "pit",

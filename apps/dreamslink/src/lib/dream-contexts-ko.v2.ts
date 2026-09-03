@@ -403,6 +403,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "lawsuit::여자가 송사에 나섬": "여자가 여인이",
   "mulberry::오디를 먹음": "먹었 먹고 따먹",
   "mulberry::오디를 봄": "열려 달려",
+  "pillow::베개 꿈을 꿈": "호사 안락",
+  "pillow::처녀가 베개를 만드는 꿈을 꿈": "처녀가 만드는 즐거운",
+  "pillow::좋은 베개를 봄": "좋은",
   "spinning-thread::실을 자아 길쌈함": "길쌈 베를",
   "spinning-thread::아마 실을 자음": "아마 삼실",
   "verbal-abuse::남에게 욕을 먹고 모욕을 당함": "모욕을 당했다",
@@ -5031,5 +5034,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "pilgrim::처녀에게 순례자가 다가옴": "처녀에게 다가 속임수",
   "pilgrim::순례자가 처녀를 떠남": "떠났 약점 스스로",
   "pill::알약을 먹음": "먹었 책임 위안",
-  "pill::남에게 알약을 줌": "남에게 무뚝뚝함"
+  "pill::남에게 알약을 줌": "남에게 무뚝뚝함",
+  "pimple::제 살갗에 여드름이 가득함": "살갗 가득함 사소한",
+  "pimple::남에게 여드름이 난 것을 봄": "남에게 병과 불평",
+  "pimple::여성이 여드름으로 미모가 상함": "여성이 미모가 비판받"
 };

@@ -88,6 +88,7 @@
     "m175.json",
     "m176.json",
     "m177.json",
+    "m178.json",
     "m18.json",
     "m19.json",
     "m2.json",
@@ -69639,6 +69640,126 @@
       ]
     },
     {
+      "id": "pillow",
+      "term_ko": "베개",
+      "term_en": "pillow",
+      "aliases": [
+        "목침"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "베개 꿈을 꿈",
+          "interpretation_ko": "호사와 안락을 뜻하는 조짐",
+          "interpretation_en": "denotes luxury and comfort",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pillow",
+              "original": "To dream of a pillow, denotes luxury and comfort.",
+              "translation_ko": "베개 꿈은, 호사와 안락을 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 베개를 만드는 꿈을 꿈",
+          "interpretation_ko": "즐거운 앞날에 대한 희망찬 전망을 가질 조짐",
+          "interpretation_en": "she will have encouraging prospects of a pleasant future",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pillow",
+              "original": "For a young woman to dream that she makes a pillow, she will have encouraging prospects of a pleasant future.",
+              "translation_ko": "처녀가 베개를 만드는 꿈은, 즐거운 앞날에 대한 희망찬 전망을 가질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "좋은 베개를 봄",
+          "interpretation_ko": "귀인이 도와줄 조짐",
+          "interpretation_en": "a sign that a benefactor will lend support",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "見好枕有貴人扶",
+              "translation_ko": "좋은 베개를 보면 귀인이 돕는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pimple",
+      "term_ko": "여드름",
+      "term_en": "pimple",
+      "aliases": [
+        "여드름이",
+        "여드름을"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제 살갗에 여드름이 가득함",
+          "interpretation_ko": "사소한 일에 근심할 조짐",
+          "interpretation_en": "denotes worry over trifles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pimple",
+              "original": "To dream of your flesh being full of pimples, denotes worry over trifles.",
+              "translation_ko": "제 살갗에 여드름이 가득한 꿈은, 사소한 일에 근심할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 여드름이 난 것을 봄",
+          "interpretation_ko": "병과 남의 불평으로 시달릴 조짐",
+          "interpretation_en": "signifies that you will be troubled with illness and complaints from others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pimple",
+              "original": "To see others with pimples on them, signifies that you will be troubled with illness and complaints from others.",
+              "translation_ko": "남에게 여드름이 난 것을 보는 꿈은, 병과 남의 불평으로 시달릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 여드름으로 미모가 상함",
+          "interpretation_ko": "집이나 사교 모임에서 행실을 비판받고 자잘한 성가심이 뒤따를 조짐",
+          "interpretation_en": "her conduct in home or social circles will be criticised by friends and acquaintances. You may have small annoyances to follow this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pimple",
+              "original": "For a woman to dream that her beauty is marred by pimples, her conduct in home or social circles will be criticised by friends and acquaintances. You may have small annoyances to follow this dream.",
+              "translation_ko": "여성이 여드름으로 미모가 상하는 꿈은, 집이나 사교 모임에서 행실을 비판받고 자잘한 성가심이 뒤따를 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pine-tree",
       "term_ko": "소나무",
       "term_en": "pine tree",
@@ -104912,37 +105033,6 @@
               "locator": "Pewter",
               "original": "To dream of pewter, foretells straitened circumstances.",
               "translation_ko": "백랍 꿈은, 형편이 옹색해질 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "pillow",
-      "term_ko": "베개",
-      "term_en": "pillow",
-      "aliases": [
-        "목침"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "좋은 베개를 봄",
-          "interpretation_ko": "귀인이 도와줄 조짐",
-          "interpretation_en": "a sign that a benefactor will lend support",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "見好枕有貴人扶",
-              "translation_ko": "좋은 베개를 보면 귀인이 돕는다"
             }
           ]
         }

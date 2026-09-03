@@ -399,6 +399,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lawsuit::여자가 송사에 나섬": "woman calumniated among",
   "mulberry::오디를 먹음": "eating ate",
   "mulberry::오디를 봄": "sickness prevent desires relieve suffering",
+  "pillow::베개 꿈을 꿈": "luxury comfort",
+  "pillow::처녀가 베개를 만드는 꿈을 꿈": "young woman makes encouraging",
+  "pillow::좋은 베개를 봄": "benefactor support",
   "spinning-thread::실을 자아 길쌈함": "cloth weave",
   "spinning-thread::아마 실을 자음": "flax industrious thrifty habits",
   "verbal-abuse::남에게 욕을 먹고 모욕을 당함": "humiliated",
@@ -5027,5 +5030,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pilgrim::처녀에게 순례자가 다가옴": "approaches easy dupe",
   "pilgrim::순례자가 처녀를 떠남": "leaves weakness independent",
   "pill::알약을 먹음": "take responsibilities comfort",
-  "pill::남에게 알약을 줌": "give others criticised"
+  "pill::남에게 알약을 줌": "give others criticised",
+  "pimple::제 살갗에 여드름이 가득함": "flesh full trifles",
+  "pimple::남에게 여드름이 난 것을 봄": "others troubled illness",
+  "pimple::여성이 여드름으로 미모가 상함": "beauty marred criticised"
 };
