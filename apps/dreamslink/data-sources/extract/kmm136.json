@@ -1,0 +1,84 @@
+[
+  {
+    "id": "musical-instrument",
+    "aliases": [
+      "악기가",
+      "악기를",
+      "악기 소리"
+    ],
+    "aliases_en": [
+      "musical instruments",
+      "instrument"
+    ],
+    "contexts": {
+      "악기를 봄": "놓여 늘어놓",
+      "부서진 악기를 봄": "부서진 망가진 깨진",
+      "처녀가 악기 꿈을 꿈": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "악기를 봄": "anticipated pleasures",
+      "부서진 악기를 봄": "broken marred uncongenial companionship",
+      "처녀가 악기 꿈을 꿈": "young woman power make life"
+    }
+  },
+  {
+    "id": "mushroom",
+    "aliases": [
+      "버섯이",
+      "버섯을",
+      "버섯들"
+    ],
+    "aliases_en": [
+      "mushrooms"
+    ],
+    "contexts": {
+      "버섯을 봄": "돋아 자란",
+      "버섯을 먹음": "먹었 먹고",
+      "처녀가 버섯 꿈을 꿈": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "버섯을 봄": "unhealthy desires unwise haste amassing",
+      "버섯을 먹음": "eat humiliation disgraceful",
+      "처녀가 버섯 꿈을 꿈": "young woman defiance propriety foolish"
+    }
+  },
+  {
+    "id": "musk",
+    "aliases": [
+      "사향이",
+      "사향을",
+      "사향 냄새"
+    ],
+    "aliases_en": [
+      "musk scent"
+    ],
+    "contexts": {
+      "사향 냄새를 맡음": "냄새 향내 맡았"
+    },
+    "contexts_en": {
+      "사향 냄새를 맡음": "unexpected occasions joy lovers agree unfaithful"
+    }
+  },
+  {
+    "id": "mustache",
+    "aliases": [
+      "콧수염이",
+      "콧수염을",
+      "콧수염 기른"
+    ],
+    "aliases_en": [
+      "mustaches",
+      "moustache"
+    ],
+    "contexts": {
+      "제게 콧수염이 있음": "제게 내게 났다",
+      "여성이 콧수염에 반함": "여성이 여자가 반했",
+      "사내가 콧수염을 깎음": "깎았 밀었"
+    },
+    "contexts_en": {
+      "제게 콧수염이 있음": "egotism effrontery poor inheritance betray",
+      "여성이 콧수염에 반함": "admiring virtue danger mindful conduct",
+      "사내가 콧수염을 깎음": "shaved turn evil companions reinstate"
+    }
+  }
+]

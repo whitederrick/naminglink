@@ -1,0 +1,36 @@
+{
+  "batch": 136,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Music",
+      "text": "To dream of hearing harmonious music, omens pleasure and prosperity.\n\nDiscordant music foretells troubles with unruly children, and unhappiness in the household.",
+      "note": "「음악」이 기존 `music`(풍악)의 별칭이다. **의미가 하나뿐이라 판별어 표가 비어 있었다**(열세 번째, 배치 35)"
+    },
+    {
+      "headword": "Musical Instruments",
+      "text": "To see musical instruments, denotes anticipated pleasures.\n\nIf they are broken, the pleasure will be marred by uncongenial companionship. For a young woman, this dream foretells for her the power to make her life what she will.",
+      "note": "새 상징 `musical-instrument`(악기). **「악기」를 `music`(풍악)이 별칭으로 쥐고 있어 그쪽에서 뺀다** — 표제어가 따로 있고 「악기」는 사물의 이름이다(§25 곁가지, 더 정확한 쪽에 넘긴다)"
+    },
+    {
+      "headword": "Mushroom",
+      "text": "To see mushrooms in your dreams, denotes unhealthy desires, and unwise haste in amassing wealth, as it may vanish in law suits and vain pleasures.\n\nTo eat them, signifies humiliation and disgraceful love.\n\nFor a young woman to dream of them, foretells her defiance of propriety in her pursuit of foolish pleasures.",
+      "note": "새 상징 `mushroom`(버섯)"
+    },
+    {
+      "headword": "Musk",
+      "text": "To dream of musk, foretells unexpected occasions of joy, and lovers will agree and cease to be unfaithful.",
+      "note": "새 상징 `musk`(사향). 「향」(incense)을 품지만 앞 글자가 한글이라 `isStandalone` 이 막는다"
+    },
+    {
+      "headword": "Mussels",
+      "text": "To dream of water mussels, denotes small fortune, but contentment and domestic enjoyment.",
+      "note": "「홍합」이 기존 `clam`(조개)의 별칭이다. 상징을 안 세우고 그쪽에 붙인다"
+    },
+    {
+      "headword": "Mustache",
+      "text": "To dream that you have a mustache, denotes that your egotism and effrontery will cause you a poor inheritance in worldy{sic} goods, and you will betray women to their sorrow.\n\nIf a woman dreams of admiring a mustache, her virtue is in danger, and she should be mindful of her conduct.\n\nIf a man dreams that he has his mustache shaved, he will try to turn from evil companions and pleasures, and seek to reinstate himself in former positions of honor.",
+      "note": "새 상징 `mustache`(콧수염). 「수염」(`beard`)을 품지만 앞 글자가 한글이라 막힌다"
+    }
+  ]
+}

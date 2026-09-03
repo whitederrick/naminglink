@@ -1008,17 +1008,26 @@
     "id": "music",
     "aliases": [
       "음악",
-      "악기",
       "가락",
-      "연주"
+      "연주",
+      "풍악이",
+      "풍악을"
     ],
     "aliases_en": [
       "musical performance",
       "playing music",
       "musicians"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "남이 풍악을 울림": "남이 울렸 연주했",
+      "고운 가락의 풍악을 들음": "고운 아름다 어우러",
+      "어지러운 가락의 풍악을 들음": "어지러 시끄러 거슬"
+    },
+    "contexts_en": {
+      "남이 풍악을 울림": "others played",
+      "고운 가락의 풍악을 들음": "harmonious pleasure prosperity",
+      "어지러운 가락의 풍악을 들음": "discordant unruly children household"
+    }
   },
   {
     "id": "peach",

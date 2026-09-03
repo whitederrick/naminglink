@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 135 — Muff~Museum, 16건)
+// (지금 담긴 것: 배치 136 — Music~Mustache, 16건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,23 +30,23 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "muff", ctx: "토시를 낌", text: "토시를 끼었다" },
-  { id: "muff", ctx: "정인이 토시를 낀 것을 봄", text: "애인이 토시를 끼고 있었다" },
-  { id: "mulberry", ctx: "오디를 봄", text: "오디가 주렁주렁 달려 있었다" },
-  { id: "mule", ctx: "노새를 타고 탈 없이 다다름", text: "노새를 타고 무사히 다다랐다" },
-  { id: "mule", ctx: "처녀가 흰 노새를 봄", text: "처녀가 하얀 노새를 보았다" },
-  { id: "mule", ctx: "노새들이 풀려 돌아다님", text: "노새들이 풀려 돌아다녔다" },
-  { id: "mule", ctx: "노새에게 걷어차임", text: "노새에게 걷어차였다" },
-  { id: "mule", ctx: "죽은 노새를 봄", text: "죽은 노새를 보았다" },
-  { id: "muscle", ctx: "근육이 잘 붙은 것을 봄", text: "근육이 우람하게 붙어 있었다" },
-  { id: "muscle", ctx: "근육이 쪼그라든 것을 봄", text: "근육이 쪼그라들어 있었다" },
-  { id: "muscle", ctx: "여성이 근육 꿈을 꿈", text: "여자가 근육 꿈을 꾸었다" },
-  { id: "museum", ctx: "박물관을 봄", text: "박물관을 둘러보았다" },
-  { id: "museum", ctx: "박물관이 마뜩잖음", text: "박물관이 지루하고 싫었다" },
+  { id: "music", ctx: "고운 가락의 풍악을 들음", text: "고운 가락의 음악을 들었다" },
+  { id: "music", ctx: "어지러운 가락의 풍악을 들음", text: "어지럽고 시끄러운 음악이 들렸다" },
+  { id: "musical-instrument", ctx: "악기를 봄", text: "악기가 늘어놓여 있었다" },
+  { id: "musical-instrument", ctx: "부서진 악기를 봄", text: "부서진 악기를 보았다" },
+  { id: "musical-instrument", ctx: "처녀가 악기 꿈을 꿈", text: "처녀가 악기 꿈을 꾸었다" },
+  { id: "mushroom", ctx: "버섯을 봄", text: "버섯이 돋아 있었다" },
+  { id: "mushroom", ctx: "버섯을 먹음", text: "버섯을 먹었다" },
+  { id: "mushroom", ctx: "처녀가 버섯 꿈을 꿈", text: "처녀가 버섯 꿈을 꾸었다" },
+  { id: "musk", ctx: "사향 냄새를 맡음", text: "사향 냄새를 맡았다" },
+  { id: "clam", ctx: "민물 홍합 꿈을 꿈", text: "민물 홍합 꿈을 꾸었다" },
+  { id: "mustache", ctx: "제게 콧수염이 있음", text: "내게 콧수염이 났다" },
+  { id: "mustache", ctx: "여성이 콧수염에 반함", text: "여자가 콧수염에 반했다" },
+  { id: "mustache", ctx: "사내가 콧수염을 깎음", text: "콧수염을 깎았다" },
   // 지킴 — 이번 배치가 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "mulberry", ctx: "오디를 먹음", text: "오디를 따먹었다" },
-  { id: "mule", ctx: "노새를 타고 감", text: "노새를 타고 갔다" },
-  { id: "mule", ctx: "노새를 잡음", text: "노새를 붙잡았다" },
+  { id: "music", ctx: "남이 풍악을 울림", text: "남이 풍악을 울렸다" },
+  { id: "clam", ctx: "조개를 먹음", text: "조개를 먹었다" },
+  { id: "beard", ctx: "수염을 보는 꿈을 꿈", text: "수염을 보았다" },
 ];
 
 let notFound = 0;

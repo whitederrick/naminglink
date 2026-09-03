@@ -42,6 +42,7 @@
     "m133.json",
     "m134.json",
     "m135.json",
+    "m136.json",
     "m14.json",
     "m15.json",
     "m16.json",
@@ -28473,6 +28474,111 @@
       ]
     },
     {
+      "id": "clam",
+      "term_ko": "조개",
+      "term_en": "clam",
+      "aliases": [
+        "대합",
+        "바지락",
+        "홍합",
+        "조갯살"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "조개 꿈을 꿈",
+          "interpretation_ko": "고집스럽지만 정직한 사람과 거래하게 될 조짐",
+          "interpretation_en": "you will have dealings with an obstinate but honest person",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Clams",
+              "original": "To dream of clams, denotes you will have dealings with an obstinate but honest person.",
+              "translation_ko": "조개 꿈은 고집스럽지만 정직한 사람과 거래하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "민물 홍합 꿈을 꿈",
+          "interpretation_ko": "재물은 크지 않으나 만족과 집안의 즐거움이 있을 길한 조짐",
+          "interpretation_en": "denotes small fortune, but contentment and domestic enjoyment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mussels",
+              "original": "To dream of water mussels, denotes small fortune, but contentment and domestic enjoyment.",
+              "translation_ko": "민물 홍합의 꿈은, 재물은 크지 않으나 만족과 집안의 즐거움이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "연인과 구운 조개를 먹음",
+          "interpretation_ko": "그의 재물과 믿음을 함께 누릴 조짐",
+          "interpretation_en": "she will enjoy his money as well as his confidence",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Clams",
+              "original": "For a young woman to dream of eating baked clams with her sweetheart, foretells that she will enjoy his money as well as his confidence.",
+              "translation_ko": "젊은 여성이 연인과 구운 조개를 먹는 꿈을 꾸면, 그의 재물과 믿음을 함께 누리게 된다"
+            }
+          ]
+        },
+        {
+          "context": "조개를 먹음",
+          "interpretation_ko": "남의 넉넉함을 함께 누릴 조짐",
+          "interpretation_en": "you will enjoy another's prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Clams",
+              "original": "To eat them, foretells you will enjoy another's prosperity.",
+              "translation_ko": "조개를 먹으면 남의 넉넉함을 함께 누리게 된다"
+            }
+          ]
+        },
+        {
+          "context": "새우와 조개가 울며 달아남",
+          "interpretation_ko": "구설에 오를 조짐",
+          "interpretation_en": "a sign of gossip and disputes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "蝦蛤鳴走有口舌",
+              "translation_ko": "새우와 조개가 울며 달아나면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "조개를 봄",
+          "interpretation_ko": "늘그막에 자식을 얻을 조짐",
+          "interpretation_en": "a sign of having a child late in life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "蛤蜊主老來生子",
+              "translation_ko": "조개는 늘그막에 자식을 낳을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "coins",
       "term_ko": "동전",
       "term_en": "coins",
@@ -35056,97 +35162,6 @@
               "locator": "Fraud",
               "original": "To accuse some one of defrauding you, you will be offered a place of high honor.",
               "translation_ko": "누군가 나를 속였다고 나무라는 꿈은, 높은 자리를 맡게 됨을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "clam",
-      "term_ko": "조개",
-      "term_en": "clam",
-      "aliases": [
-        "대합",
-        "바지락",
-        "홍합",
-        "조갯살"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "조개 꿈을 꿈",
-          "interpretation_ko": "고집스럽지만 정직한 사람과 거래하게 될 조짐",
-          "interpretation_en": "you will have dealings with an obstinate but honest person",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Clams",
-              "original": "To dream of clams, denotes you will have dealings with an obstinate but honest person.",
-              "translation_ko": "조개 꿈은 고집스럽지만 정직한 사람과 거래하게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "연인과 구운 조개를 먹음",
-          "interpretation_ko": "그의 재물과 믿음을 함께 누릴 조짐",
-          "interpretation_en": "she will enjoy his money as well as his confidence",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Clams",
-              "original": "For a young woman to dream of eating baked clams with her sweetheart, foretells that she will enjoy his money as well as his confidence.",
-              "translation_ko": "젊은 여성이 연인과 구운 조개를 먹는 꿈을 꾸면, 그의 재물과 믿음을 함께 누리게 된다"
-            }
-          ]
-        },
-        {
-          "context": "조개를 먹음",
-          "interpretation_ko": "남의 넉넉함을 함께 누릴 조짐",
-          "interpretation_en": "you will enjoy another's prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Clams",
-              "original": "To eat them, foretells you will enjoy another's prosperity.",
-              "translation_ko": "조개를 먹으면 남의 넉넉함을 함께 누리게 된다"
-            }
-          ]
-        },
-        {
-          "context": "새우와 조개가 울며 달아남",
-          "interpretation_ko": "구설에 오를 조짐",
-          "interpretation_en": "a sign of gossip and disputes",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "蝦蛤鳴走有口舌",
-              "translation_ko": "새우와 조개가 울며 달아나면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "조개를 봄",
-          "interpretation_ko": "늘그막에 자식을 얻을 조짐",
-          "interpretation_en": "a sign of having a child late in life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "蛤蜊主老來生子",
-              "translation_ko": "조개는 늘그막에 자식을 낳을 조짐이다"
             }
           ]
         }
@@ -62274,6 +62289,253 @@
               "locator": "Muscle",
               "original": "For a woman, this dream is prophetic of toil and hardships.",
               "translation_ko": "여성에게 이 꿈은 고된 일과 어려움을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mushroom",
+      "term_ko": "버섯",
+      "term_en": "mushroom",
+      "aliases": [
+        "버섯이",
+        "버섯을",
+        "버섯들"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "버섯을 봄",
+          "interpretation_ko": "몸에 나쁜 바람과 재물을 서둘러 모으려는 어리석음이 있어, 그 재물이 송사와 헛된 즐거움에 사라질 흉한 조짐",
+          "interpretation_en": "denotes unhealthy desires, and unwise haste in amassing wealth, as it may vanish in law suits and vain pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mushroom",
+              "original": "To see mushrooms in your dreams, denotes unhealthy desires, and unwise haste in amassing wealth, as it may vanish in law suits and vain pleasures.",
+              "translation_ko": "꿈에 버섯을 보면, 몸에 나쁜 바람과 재물을 서둘러 모으려는 어리석음이 있어 그 재물이 송사와 헛된 즐거움에 사라진다"
+            }
+          ]
+        },
+        {
+          "context": "버섯을 먹음",
+          "interpretation_ko": "부끄러운 일을 겪고 떳떳하지 못한 사랑에 빠질 흉한 조짐",
+          "interpretation_en": "signifies humiliation and disgraceful love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mushroom",
+              "original": "To eat them, signifies humiliation and disgraceful love.",
+              "translation_ko": "버섯을 먹으면 부끄러운 일을 겪고 떳떳하지 못한 사랑에 빠진다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 버섯 꿈을 꿈",
+          "interpretation_ko": "어리석은 즐거움을 좇다 도리를 저버릴 흉한 조짐",
+          "interpretation_en": "foretells her defiance of propriety in her pursuit of foolish pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mushroom",
+              "original": "For a young woman to dream of them, foretells her defiance of propriety in her pursuit of foolish pleasures.",
+              "translation_ko": "처녀가 버섯 꿈을 꾸면, 어리석은 즐거움을 좇다 도리를 저버린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "term_ko": "풍악",
+      "term_en": "music",
+      "aliases": [
+        "음악",
+        "가락",
+        "연주",
+        "풍악이",
+        "풍악을"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남이 풍악을 울림",
+          "interpretation_ko": "송사에서 이치가 설 조짐",
+          "interpretation_en": "a sign that one's case will be upheld",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "他人作樂訟有理",
+              "translation_ko": "남이 풍악을 울리면 송사에 이치가 있다"
+            }
+          ]
+        },
+        {
+          "context": "고운 가락의 풍악을 들음",
+          "interpretation_ko": "즐거움과 넉넉함이 있을 길한 조짐",
+          "interpretation_en": "omens pleasure and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Music",
+              "original": "To dream of hearing harmonious music, omens pleasure and prosperity.",
+              "translation_ko": "고운 가락의 풍악을 듣는 꿈은 즐거움과 넉넉함을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "어지러운 가락의 풍악을 들음",
+          "interpretation_ko": "말 안 듣는 아이들 때문에 괴롭고 집안이 편치 않을 흉한 조짐",
+          "interpretation_en": "foretells troubles with unruly children, and unhappiness in the household",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Music",
+              "original": "Discordant music foretells troubles with unruly children, and unhappiness in the household.",
+              "translation_ko": "어지러운 가락의 풍악은, 말 안 듣는 아이들 때문에 괴롭고 집안이 편치 않음을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "musical-instrument",
+      "term_ko": "악기",
+      "term_en": "musical instrument",
+      "aliases": [
+        "악기가",
+        "악기를",
+        "악기 소리"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "악기를 봄",
+          "interpretation_ko": "기다리던 즐거움이 있을 길한 조짐",
+          "interpretation_en": "denotes anticipated pleasures",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Musical Instruments",
+              "original": "To see musical instruments, denotes anticipated pleasures.",
+              "translation_ko": "악기를 보면 기다리던 즐거움이 있다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 악기를 봄",
+          "interpretation_ko": "마음 안 맞는 이들 때문에 즐거움이 깨질 흉한 조짐",
+          "interpretation_en": "the pleasure will be marred by uncongenial companionship",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Musical Instruments",
+              "original": "If they are broken, the pleasure will be marred by uncongenial companionship.",
+              "translation_ko": "악기가 부서져 있으면, 마음 안 맞는 이들 때문에 즐거움이 깨진다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 악기 꿈을 꿈",
+          "interpretation_ko": "제 삶을 제 뜻대로 지어 갈 힘을 얻을 길한 조짐",
+          "interpretation_en": "this dream foretells for her the power to make her life what she will",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Musical Instruments",
+              "original": "For a young woman, this dream foretells for her the power to make her life what she will.",
+              "translation_ko": "처녀에게 이 꿈은 제 삶을 제 뜻대로 지어 갈 힘을 얻음을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mustache",
+      "term_ko": "콧수염",
+      "term_en": "mustache",
+      "aliases": [
+        "콧수염이",
+        "콧수염을",
+        "콧수염 기른"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제게 콧수염이 있음",
+          "interpretation_ko": "제 잘난 체와 뻔뻔함 때문에 물려받을 것이 보잘것없어지고 여자들을 저버려 슬프게 할 흉한 조짐",
+          "interpretation_en": "denotes that your egotism and effrontery will cause you a poor inheritance in worldy goods, and you will betray women to their sorrow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mustache",
+              "original": "To dream that you have a mustache, denotes that your egotism and effrontery will cause you a poor inheritance in worldy{sic} goods, and you will betray women to their sorrow.",
+              "translation_ko": "제게 콧수염이 있는 꿈은, 잘난 체와 뻔뻔함 때문에 물려받을 것이 보잘것없어지고 여자들을 저버려 슬프게 함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 콧수염에 반함",
+          "interpretation_ko": "지조가 위태로우니 몸가짐을 살펴야 할 흉한 조짐",
+          "interpretation_en": "her virtue is in danger, and she should be mindful of her conduct",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mustache",
+              "original": "If a woman dreams of admiring a mustache, her virtue is in danger, and she should be mindful of her conduct.",
+              "translation_ko": "여성이 콧수염에 반하는 꿈을 꾸면, 지조가 위태로우니 몸가짐을 살펴야 한다"
+            }
+          ]
+        },
+        {
+          "context": "사내가 콧수염을 깎음",
+          "interpretation_ko": "나쁜 벗과 놀음에서 돌아서서 옛 떳떳한 자리를 되찾으려 애쓸 길한 조짐",
+          "interpretation_en": "he will try to turn from evil companions and pleasures, and seek to reinstate himself in former positions of honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mustache",
+              "original": "If a man dreams that he has his mustache shaved, he will try to turn from evil companions and pleasures, and seek to reinstate himself in former positions of honor.",
+              "translation_ko": "사내가 제 콧수염을 깎는 꿈을 꾸면, 나쁜 벗과 놀음에서 돌아서서 옛 떳떳한 자리를 되찾으려 애쓴다"
             }
           ]
         }
@@ -94566,34 +94828,33 @@
       ]
     },
     {
-      "id": "music",
-      "term_ko": "풍악",
-      "term_en": "music",
+      "id": "musk",
+      "term_ko": "사향",
+      "term_en": "musk",
       "aliases": [
-        "음악",
-        "악기",
-        "가락",
-        "연주"
+        "사향이",
+        "사향을",
+        "사향 냄새"
       ],
-      "category": "action",
+      "category": "object",
       "polarity": "positive",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "남이 풍악을 울림",
-          "interpretation_ko": "송사에서 이치가 설 조짐",
-          "interpretation_en": "a sign that one's case will be upheld",
+          "context": "사향 냄새를 맡음",
+          "interpretation_ko": "뜻밖의 기쁜 일이 있고 사랑하는 사이가 뜻을 맞추어 딴마음을 그칠 길한 조짐",
+          "interpretation_en": "foretells unexpected occasions of joy, and lovers will agree and cease to be unfaithful",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "他人作樂訟有理",
-              "translation_ko": "남이 풍악을 울리면 송사에 이치가 있다"
+              "work": "miller",
+              "locator": "Musk",
+              "original": "To dream of musk, foretells unexpected occasions of joy, and lovers will agree and cease to be unfaithful.",
+              "translation_ko": "사향의 꿈은, 뜻밖의 기쁜 일이 있고 사랑하는 사이가 뜻을 맞추어 딴마음을 그침을 뜻한다"
             }
           ]
         }

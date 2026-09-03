@@ -1,0 +1,197 @@
+[
+  {
+    "term_ko": "풍악",
+    "term_en": "music",
+    "context": "고운 가락의 풍악을 들음",
+    "interpretation_ko": "즐거움과 넉넉함이 있을 길한 조짐",
+    "interpretation_en": "omens pleasure and prosperity",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Music",
+      "original": "To dream of hearing harmonious music, omens pleasure and prosperity.",
+      "translation_ko": "고운 가락의 풍악을 듣는 꿈은 즐거움과 넉넉함을 알린다"
+    }
+  },
+  {
+    "term_ko": "풍악",
+    "term_en": "music",
+    "context": "어지러운 가락의 풍악을 들음",
+    "interpretation_ko": "말 안 듣는 아이들 때문에 괴롭고 집안이 편치 않을 흉한 조짐",
+    "interpretation_en": "foretells troubles with unruly children, and unhappiness in the household",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Music",
+      "original": "Discordant music foretells troubles with unruly children, and unhappiness in the household.",
+      "translation_ko": "어지러운 가락의 풍악은, 말 안 듣는 아이들 때문에 괴롭고 집안이 편치 않음을 알린다"
+    }
+  },
+  {
+    "term_ko": "악기",
+    "term_en": "musical instrument",
+    "context": "악기를 봄",
+    "interpretation_ko": "기다리던 즐거움이 있을 길한 조짐",
+    "interpretation_en": "denotes anticipated pleasures",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Musical Instruments",
+      "original": "To see musical instruments, denotes anticipated pleasures.",
+      "translation_ko": "악기를 보면 기다리던 즐거움이 있다"
+    }
+  },
+  {
+    "term_ko": "악기",
+    "term_en": "musical instrument",
+    "context": "부서진 악기를 봄",
+    "interpretation_ko": "마음 안 맞는 이들 때문에 즐거움이 깨질 흉한 조짐",
+    "interpretation_en": "the pleasure will be marred by uncongenial companionship",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Musical Instruments",
+      "original": "If they are broken, the pleasure will be marred by uncongenial companionship.",
+      "translation_ko": "악기가 부서져 있으면, 마음 안 맞는 이들 때문에 즐거움이 깨진다"
+    }
+  },
+  {
+    "term_ko": "악기",
+    "term_en": "musical instrument",
+    "context": "처녀가 악기 꿈을 꿈",
+    "interpretation_ko": "제 삶을 제 뜻대로 지어 갈 힘을 얻을 길한 조짐",
+    "interpretation_en": "this dream foretells for her the power to make her life what she will",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Musical Instruments",
+      "original": "For a young woman, this dream foretells for her the power to make her life what she will.",
+      "translation_ko": "처녀에게 이 꿈은 제 삶을 제 뜻대로 지어 갈 힘을 얻음을 알린다"
+    }
+  },
+  {
+    "term_ko": "버섯",
+    "term_en": "mushroom",
+    "context": "버섯을 봄",
+    "interpretation_ko": "몸에 나쁜 바람과 재물을 서둘러 모으려는 어리석음이 있어, 그 재물이 송사와 헛된 즐거움에 사라질 흉한 조짐",
+    "interpretation_en": "denotes unhealthy desires, and unwise haste in amassing wealth, as it may vanish in law suits and vain pleasures",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mushroom",
+      "original": "To see mushrooms in your dreams, denotes unhealthy desires, and unwise haste in amassing wealth, as it may vanish in law suits and vain pleasures.",
+      "translation_ko": "꿈에 버섯을 보면, 몸에 나쁜 바람과 재물을 서둘러 모으려는 어리석음이 있어 그 재물이 송사와 헛된 즐거움에 사라진다"
+    }
+  },
+  {
+    "term_ko": "버섯",
+    "term_en": "mushroom",
+    "context": "버섯을 먹음",
+    "interpretation_ko": "부끄러운 일을 겪고 떳떳하지 못한 사랑에 빠질 흉한 조짐",
+    "interpretation_en": "signifies humiliation and disgraceful love",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mushroom",
+      "original": "To eat them, signifies humiliation and disgraceful love.",
+      "translation_ko": "버섯을 먹으면 부끄러운 일을 겪고 떳떳하지 못한 사랑에 빠진다"
+    }
+  },
+  {
+    "term_ko": "버섯",
+    "term_en": "mushroom",
+    "context": "처녀가 버섯 꿈을 꿈",
+    "interpretation_ko": "어리석은 즐거움을 좇다 도리를 저버릴 흉한 조짐",
+    "interpretation_en": "foretells her defiance of propriety in her pursuit of foolish pleasures",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mushroom",
+      "original": "For a young woman to dream of them, foretells her defiance of propriety in her pursuit of foolish pleasures.",
+      "translation_ko": "처녀가 버섯 꿈을 꾸면, 어리석은 즐거움을 좇다 도리를 저버린다"
+    }
+  },
+  {
+    "term_ko": "사향",
+    "term_en": "musk",
+    "context": "사향 냄새를 맡음",
+    "interpretation_ko": "뜻밖의 기쁜 일이 있고 사랑하는 사이가 뜻을 맞추어 딴마음을 그칠 길한 조짐",
+    "interpretation_en": "foretells unexpected occasions of joy, and lovers will agree and cease to be unfaithful",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Musk",
+      "original": "To dream of musk, foretells unexpected occasions of joy, and lovers will agree and cease to be unfaithful.",
+      "translation_ko": "사향의 꿈은, 뜻밖의 기쁜 일이 있고 사랑하는 사이가 뜻을 맞추어 딴마음을 그침을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "조개",
+    "term_en": "clam",
+    "context": "민물 홍합 꿈을 꿈",
+    "interpretation_ko": "재물은 크지 않으나 만족과 집안의 즐거움이 있을 길한 조짐",
+    "interpretation_en": "denotes small fortune, but contentment and domestic enjoyment",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mussels",
+      "original": "To dream of water mussels, denotes small fortune, but contentment and domestic enjoyment.",
+      "translation_ko": "민물 홍합의 꿈은, 재물은 크지 않으나 만족과 집안의 즐거움이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "콧수염",
+    "term_en": "mustache",
+    "context": "제게 콧수염이 있음",
+    "interpretation_ko": "제 잘난 체와 뻔뻔함 때문에 물려받을 것이 보잘것없어지고 여자들을 저버려 슬프게 할 흉한 조짐",
+    "interpretation_en": "denotes that your egotism and effrontery will cause you a poor inheritance in worldy goods, and you will betray women to their sorrow",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Mustache",
+      "original": "To dream that you have a mustache, denotes that your egotism and effrontery will cause you a poor inheritance in worldy{sic} goods, and you will betray women to their sorrow.",
+      "translation_ko": "제게 콧수염이 있는 꿈은, 잘난 체와 뻔뻔함 때문에 물려받을 것이 보잘것없어지고 여자들을 저버려 슬프게 함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "콧수염",
+    "term_en": "mustache",
+    "context": "여성이 콧수염에 반함",
+    "interpretation_ko": "지조가 위태로우니 몸가짐을 살펴야 할 흉한 조짐",
+    "interpretation_en": "her virtue is in danger, and she should be mindful of her conduct",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Mustache",
+      "original": "If a woman dreams of admiring a mustache, her virtue is in danger, and she should be mindful of her conduct.",
+      "translation_ko": "여성이 콧수염에 반하는 꿈을 꾸면, 지조가 위태로우니 몸가짐을 살펴야 한다"
+    }
+  },
+  {
+    "term_ko": "콧수염",
+    "term_en": "mustache",
+    "context": "사내가 콧수염을 깎음",
+    "interpretation_ko": "나쁜 벗과 놀음에서 돌아서서 옛 떳떳한 자리를 되찾으려 애쓸 길한 조짐",
+    "interpretation_en": "he will try to turn from evil companions and pleasures, and seek to reinstate himself in former positions of honor",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Mustache",
+      "original": "If a man dreams that he has his mustache shaved, he will try to turn from evil companions and pleasures, and seek to reinstate himself in former positions of honor.",
+      "translation_ko": "사내가 제 콧수염을 깎는 꿈을 꾸면, 나쁜 벗과 놀음에서 돌아서서 옛 떳떳한 자리를 되찾으려 애쓴다"
+    }
+  }
+]

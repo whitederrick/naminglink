@@ -6415,5 +6415,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "museum": [
     "museums"
+  ],
+  "musical-instrument": [
+    "musical instruments",
+    "instrument"
+  ],
+  "mushroom": [
+    "mushrooms"
+  ],
+  "musk": [
+    "musk scent"
+  ],
+  "mustache": [
+    "mustaches",
+    "moustache"
   ]
 };
