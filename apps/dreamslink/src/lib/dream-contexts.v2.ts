@@ -4410,6 +4410,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "letter-carrier::집배원이 편지 없이 지나감": "passes disappointment sadness befall",
   "letter-carrier::집배원에게 부칠 편지를 줌": "injury envy jealousy",
   "letter-carrier::집배원과 이야기를 나눔": "converse implicate scandalous",
+  "letter-carrier::집배원 꿈을 꿈": "hasty news distressing",
   "letter-file::편지꽂이를 봄": "significant irksome journey",
   "letter-file::여성이 편지꽂이를 봄": "distressful unfaithful",
   "lettuce::상추가 파릇하게 잘 자란 것을 봄": "growing thrifty desired embarrassment",
@@ -4881,6 +4882,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "painting::그림을 삼": "buy worthless speculation",
   "painting::살아있는 나무에서 제 모습이 나타났다 사라지는 것을 봄": "likeness tree companionship",
   "painting::옛 거장과 현대 거장의 걸작들에 둘러싸임": "masters insatiable attainments",
+  "painting::아름다운 사람의 초상화를 바라봄": "portrait person disquieting",
   "pall::관보를 봄": "sorrow misfortune",
   "pall::관보를 들춰 시신을 봄": "raise corpse mourn",
   "pallbearer::상여꾼 꿈을 꿈": "enemy provoke attacks integrity",
@@ -5146,5 +5148,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "porter::짐꾼을 봄": "bad luck eventful",
   "porter::제가 짐꾼이라고 상상함": "imagine humble circumstances",
   "porter::짐꾼을 고용함": "hire success enjoy",
-  "porter::짐꾼을 해고함": "discharge disagreeable charges"
+  "porter::짐꾼을 해고함": "discharge disagreeable charges",
+  "postage-stamp::우표 꿈을 꿈": "system remuneration business",
+  "postage-stamp::사용된 우표를 다시 쓰려 함": "cancelled disrepute",
+  "postage-stamp::우표를 받음": "receive rapid distinction",
+  "postage-stamp::찢어진 우표를 봄": "torn obstacles"
 };

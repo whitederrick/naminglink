@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "서류 가방",
+    "term_en": "portfolio",
+    "context": "서류 가방 꿈을 꿈",
+    "interpretation_ko": "지금 일자리가 마음에 안 들어 거처를 옮기려 할 조짐",
+    "interpretation_en": "denotes that your employment will not be to your liking, and you will seek a change in your location",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Portfolio",
+      "original": "To dream of a portfolio, denotes that your employment will not be to your liking, and you will seek a change in your location.",
+      "translation_ko": "서류 가방 꿈은, 지금 일자리가 마음에 안 들어 거처를 옮기려 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "그림",
+    "term_en": "painting",
+    "context": "아름다운 사람의 초상화를 바라봄",
+    "interpretation_ko": "즐거움을 누리면서도 그 기쁨의 불안하고 위태로운 면을 느끼게 됨. 이 꿈을 꾼 뒤 전반적인 일에서 손실을 볼 것",
+    "interpretation_en": "while you enjoy pleasure, you can but feel the disquieting and treacherousness of such joys. Your general affairs will suffer loss after dreaming of portraits",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Portrait",
+      "original": "To dream of gazing upon the portrait of some beautiful person, denotes that, while you enjoy pleasure, you can but feel the disquieting and treacherousness of such joys. Your general affairs will suffer loss after dreaming of portraits.",
+      "translation_ko": "아름다운 사람의 초상화를 바라보는 꿈은, 즐거움을 누리면서도 그 기쁨의 불안하고 위태로운 면을 느끼게 됨을 뜻한다. 이 꿈을 꾼 뒤 전반적인 일에서 손실을 볼 것이다"
+    }
+  },
+  {
+    "term_ko": "우표",
+    "term_en": "postage-stamp",
+    "context": "우표 꿈을 꿈",
+    "interpretation_ko": "사업에서 질서와 보수가 있을 조짐",
+    "interpretation_en": "denotes system and remuneration in business",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Postage",
+      "original": "To dream of postage stamps, denotes system and remuneration in business.",
+      "translation_ko": "우표 꿈은, 사업에서 질서와 보수가 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우표",
+    "term_en": "postage-stamp",
+    "context": "사용된 우표를 다시 쓰려 함",
+    "interpretation_ko": "불명예에 빠질 조짐",
+    "interpretation_en": "you will fall into disrepute",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Postage",
+      "original": "If you try to use cancelled stamps, you will fall into disrepute.",
+      "translation_ko": "사용된 우표를 다시 쓰려 하는 꿈은, 불명예에 빠질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우표",
+    "term_en": "postage-stamp",
+    "context": "우표를 받음",
+    "interpretation_ko": "빠르게 두각을 나타낼 조짐",
+    "interpretation_en": "signifies a rapid rise to distinction",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Postage",
+      "original": "To receive stamps, signifies a rapid rise to distinction.",
+      "translation_ko": "우표를 받는 꿈은, 빠르게 두각을 나타낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우표",
+    "term_en": "postage-stamp",
+    "context": "찢어진 우표를 봄",
+    "interpretation_ko": "앞길에 장애물이 있을 조짐",
+    "interpretation_en": "denotes that there are obstacles in your way",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Postage",
+      "original": "To see torn stamps, denotes that there are obstacles in your way.",
+      "translation_ko": "찢어진 우표를 보는 꿈은, 앞길에 장애물이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "집배원",
+    "term_en": "letter-carrier",
+    "context": "집배원 꿈을 꿈",
+    "interpretation_ko": "성급한 소식이 반가운 것보다는 괴로운 것일 때가 더 많을 조짐",
+    "interpretation_en": "denotes that hasty news will more frequently be of a distressing nature than otherwise",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Postman",
+      "original": "To dream of a postman, denotes that hasty news will more frequently be of a distressing nature than otherwise.",
+      "translation_ko": "집배원 꿈은, 성급한 소식이 반가운 것보다는 괴로운 것일 때가 더 많을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우체국",
+    "term_en": "post-office",
+    "context": "우체국 꿈을 꿈",
+    "interpretation_ko": "달갑잖은 소식과 대체로 궂은 운의 조짐",
+    "interpretation_en": "is a sign of unpleasant tidings. and ill luck generally",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Post-office",
+      "original": "To dream of a post-office, is a sign of unpleasant tidings. and ill luck generally.",
+      "translation_ko": "우체국 꿈은, 달갑잖은 소식과 대체로 궂은 운의 조짐이다"
+    }
+  }
+]

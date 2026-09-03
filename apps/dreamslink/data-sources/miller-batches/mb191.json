@@ -1,0 +1,33 @@
+{
+  "batch": 191,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Portfolio",
+      "text": "To dream of a portfolio, denotes that your employment will not be to your liking, and you will seek a change in your location.",
+      "note": "새 상징 `portfolio`(서류 가방)"
+    },
+    {
+      "headword": "Portrait",
+      "text": "To dream of gazing upon the portrait of some beautiful person, denotes that, while you enjoy pleasure, you can but feel the disquieting and treacherousness of such joys. Your general affairs will suffer loss after dreaming of portraits.",
+      "note": "기존 상징 `painting`(그림, 밀러 Paint and Painting)에 더한다. 각주 [169]는 「Pictures·Photographs·Paintings 항목 참고」다"
+    },
+    {
+      "headword": "Postage",
+      "text": "To dream of postage stamps, denotes system and remuneration in business. If you try to use cancelled stamps, you will fall into disrepute. To receive stamps, signifies a rapid rise to distinction. To see torn stamps, denotes that there are obstacles in your way.",
+      "note": "새 상징 `postage-stamp`(우표)"
+    },
+    {
+      "headword": "Postman",
+      "text": "To dream of a postman, denotes that hasty news will more frequently be of a distressing nature than otherwise.",
+      "note": "기존 상징 `letter-carrier`(집배원, 밀러 Letter Carrier)에 더한다. 각주 [170]은 「Letter Carrier 항목 참고」다"
+    },
+    {
+      "headword": "Post-office",
+      "text": "To dream of a post-office, is a sign of unpleasant tidings. and ill luck generally.",
+      "note": "새 상징 `post-office`(우체국). 원문에 「tidings.」 뒤 마침표가 하나 더 있는 것은 원서의 오식이라 그대로 인용한다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

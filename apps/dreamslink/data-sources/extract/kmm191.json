@@ -1,0 +1,51 @@
+[
+  {
+    "id": "portfolio",
+    "aliases": [
+      "서류 가방이",
+      "서류 가방을"
+    ],
+    "aliases_en": [
+      "a portfolio"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "postage-stamp",
+    "aliases": [
+      "우표가",
+      "우표를"
+    ],
+    "aliases_en": [
+      "a postage stamp",
+      "postage stamps",
+      "stamps"
+    ],
+    "contexts": {
+      "우표 꿈을 꿈": "질서와 보수",
+      "사용된 우표를 다시 쓰려 함": "사용된 다시 쓰려",
+      "우표를 받음": "받았 받는",
+      "찢어진 우표를 봄": "찢어진 장애물"
+    },
+    "contexts_en": {
+      "우표 꿈을 꿈": "system remuneration business",
+      "사용된 우표를 다시 쓰려 함": "cancelled disrepute",
+      "우표를 받음": "receive rapid distinction",
+      "찢어진 우표를 봄": "torn obstacles"
+    }
+  },
+  {
+    "id": "post-office",
+    "aliases": [
+      "우체국이",
+      "우체국을",
+      "우체국에서"
+    ],
+    "aliases_en": [
+      "a post office"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

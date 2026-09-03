@@ -6912,5 +6912,16 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "porter": [
     "a porter",
     "porters"
+  ],
+  "portfolio": [
+    "a portfolio"
+  ],
+  "postage-stamp": [
+    "a postage stamp",
+    "postage stamps",
+    "stamps"
+  ],
+  "post-office": [
+    "a post office"
   ]
 };

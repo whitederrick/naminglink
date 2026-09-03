@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 190 — Poplars~Porter, 8개 헤드워드)
+// (지금 담긴 것: 배치 191 — Portfolio~Post-office, 5개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -733,6 +733,18 @@ const CASES: Case[] = [
   { id: "china", ctx: "도자기를 칠하거나 매만짐", text: "도자기를 칠하거나 매만졌다" },
   { id: "pork", ctx: "돼지고기를 먹음", text: "돼지고기를 먹었다" },
   { id: "pork", ctx: "칼로 돼지고기를 자름", text: "칼로 돼지고기를 잘랐다" },
+  { id: "portfolio", ctx: "서류 가방 꿈을 꿈", text: "서류 가방 꿈을 꾸었다" },
+  { id: "painting", ctx: "아름다운 사람의 초상화를 바라봄", text: "아름다운 사람의 초상화를 바라보았다" },
+  { id: "postage-stamp", ctx: "우표 꿈을 꿈", text: "우표 꿈을 꾸었다" },
+  { id: "postage-stamp", ctx: "사용된 우표를 다시 쓰려 함", text: "사용된 우표를 다시 쓰려 했다" },
+  { id: "postage-stamp", ctx: "우표를 받음", text: "우표를 받았다" },
+  { id: "postage-stamp", ctx: "찢어진 우표를 봄", text: "찢어진 우표를 보았다" },
+  { id: "letter-carrier", ctx: "집배원 꿈을 꿈", text: "집배원 꿈을 꾸었다" },
+  { id: "post-office", ctx: "우체국 꿈을 꿈", text: "우체국 꿈을 꾸었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "painting", ctx: "아름다운 그림들을 봄", text: "아름다운 그림들을 보았다" },
+  { id: "letter-carrier", ctx: "집배원이 편지를 갖고 옴", text: "집배원이 편지를 갖고 왔다" },
+  { id: "letter-carrier", ctx: "집배원의 호루라기 소리를 들음", text: "집배원의 호루라기 소리를 들었다" },
 ];
 
 let notFound = 0;
