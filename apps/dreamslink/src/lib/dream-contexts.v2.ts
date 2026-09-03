@@ -555,6 +555,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "fog::짙은 안개 속을 헤치고 감": "traveling dense worries",
   "fog::안개에서 빠져나옴": "emerge weary profitable",
   "fog::처녀가 안개 속에 있음": "salacious scandal innocence standing",
+  "fog::안개에 둘러싸임": "enveloped uncertain domestic unhappiness",
+  "fog::안개가 걷힘": "clears short duration",
+  "fog::안개 속 다른 사람을 봄": "others benefit misfortune",
   "joy::집안에 기쁜 일이 있음": "household auspicious",
   "joy::어떤 일로 기쁨을 느낌": "feel harmony among",
   "leech::거머리를 봄": "worm crawling",
@@ -4419,5 +4422,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "minuet::제가 미뉴에트를 춤": "yourself domestic joys",
   "mink::밍크를 봄": "sly enemies overcome",
   "mink::밍크를 죽임": "kill win desires",
-  "mink::처녀가 밍크 모피를 좋아함": "young woman partial protection jealous"
+  "mink::처녀가 밍크 모피를 좋아함": "young woman partial protection jealous",
+  "miser::구두쇠를 봄": "unfortunate finding true happiness selfishness",
+  "miser::여성이 구두쇠의 도움을 받음": "befriended gain wealth intelligence tactful",
+  "miser::제가 구두쇠 노릇을 함": "miserly obnoxious conceited bearing",
+  "miser::벗들이 구두쇠임": "friends distressed importunities",
+  "mistletoe::겨우살이를 봄": "happiness great rejoicing",
+  "mistletoe::젊은이가 겨우살이를 봄": "young omens pleasant pastimes",
+  "mistletoe::궂은 조짐과 함께 겨우살이를 봄": "unpromising signs disappointment displace",
+  "mocking-bird::흉내지빠귀를 보거나 그 소리를 들음": "invited pleasant visit smoothly prosperously",
+  "mocking-bird::여성이 다치거나 죽은 흉내지빠귀를 봄": "wounded dead disagreement lover",
+  "model::모델을 봄": "social deplete purse quarrels regrets",
+  "model::처녀가 모델이 됨": "young woman seeking entangled love affair selfishness"
 };

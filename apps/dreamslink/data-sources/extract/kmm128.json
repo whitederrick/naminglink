@@ -1,0 +1,87 @@
+[
+  {
+    "id": "miser",
+    "aliases": [
+      "구두쇠가",
+      "구두쇠를",
+      "구두쇠였다",
+      "인색하게",
+      "인색한 사람"
+    ],
+    "aliases_en": [
+      "misers"
+    ],
+    "contexts": {
+      "구두쇠를 봄": "나타났 마주쳤",
+      "여성이 구두쇠의 도움을 받음": "도움 도와",
+      "제가 구두쇠 노릇을 함": "노릇 인색하게 굴었",
+      "벗들이 구두쇠임": "벗들 친구들"
+    },
+    "contexts_en": {
+      "구두쇠를 봄": "unfortunate finding true happiness selfishness",
+      "여성이 구두쇠의 도움을 받음": "befriended gain wealth intelligence tactful",
+      "제가 구두쇠 노릇을 함": "miserly obnoxious conceited bearing",
+      "벗들이 구두쇠임": "friends distressed importunities"
+    }
+  },
+  {
+    "id": "mistletoe",
+    "aliases": [
+      "겨우살이가",
+      "겨우살이를",
+      "겨우살이 덩굴"
+    ],
+    "aliases_en": [
+      "mistletoes"
+    ],
+    "contexts": {
+      "겨우살이를 봄": "매달 늘어진",
+      "젊은이가 겨우살이를 봄": "젊은이 젊은",
+      "궂은 조짐과 함께 겨우살이를 봄": "궂은 불길 조짐"
+    },
+    "contexts_en": {
+      "겨우살이를 봄": "happiness great rejoicing",
+      "젊은이가 겨우살이를 봄": "young omens pleasant pastimes",
+      "궂은 조짐과 함께 겨우살이를 봄": "unpromising signs disappointment displace"
+    }
+  },
+  {
+    "id": "mocking-bird",
+    "aliases": [
+      "흉내지빠귀가",
+      "흉내지빠귀를",
+      "지빠귀"
+    ],
+    "aliases_en": [
+      "mocking birds",
+      "mockingbird"
+    ],
+    "contexts": {
+      "흉내지빠귀를 보거나 그 소리를 들음": "소리 울음 지저귀",
+      "여성이 다치거나 죽은 흉내지빠귀를 봄": "다친 죽은 상처"
+    },
+    "contexts_en": {
+      "흉내지빠귀를 보거나 그 소리를 들음": "invited pleasant visit smoothly prosperously",
+      "여성이 다치거나 죽은 흉내지빠귀를 봄": "wounded dead disagreement lover"
+    }
+  },
+  {
+    "id": "model",
+    "aliases": [
+      "모델이",
+      "모델을",
+      "본보기가 되는 사람"
+    ],
+    "aliases_en": [
+      "models"
+    ],
+    "contexts": {
+      "모델을 봄": "나타났 마주쳤",
+      "처녀가 모델이 됨": "처녀 되려 아가씨"
+    },
+    "contexts_en": {
+      "모델을 봄": "social deplete purse quarrels regrets",
+      "처녀가 모델이 됨": "young woman seeking entangled love affair selfishness"
+    }
+  }
+]

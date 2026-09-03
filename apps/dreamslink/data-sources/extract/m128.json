@@ -1,0 +1,212 @@
+[
+  {
+    "term_ko": "구두쇠",
+    "term_en": "miser",
+    "context": "구두쇠를 봄",
+    "interpretation_ko": "제 인색함 때문에 참된 즐거움을 찾지 못하고 사랑에도 몹시 실망할 흉한 조짐",
+    "interpretation_en": "foretells you will be unfortunate in finding true happiness owing to selfishness, and love will disappoint you sorely",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Miser",
+      "original": "To dream of a miser, foretells you will be unfortunate in finding true happiness owing to selfishness, and love will disappoint you sorely.",
+      "translation_ko": "구두쇠의 꿈은, 제 인색함 때문에 참된 즐거움을 찾지 못하고 사랑에도 몹시 실망함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "구두쇠",
+    "term_en": "miser",
+    "context": "여성이 구두쇠의 도움을 받음",
+    "interpretation_ko": "슬기롭고 매끄러운 처신으로 사랑과 재물을 얻을 길한 조짐",
+    "interpretation_en": "foretells she will gain love and wealth by her intelligence and tactful conduct",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Miser",
+      "original": "For a woman to dream that she is befriended by a miser, foretells she will gain love and wealth by her intelligence and tactful conduct.",
+      "translation_ko": "여성이 구두쇠의 도움을 받는 꿈을 꾸면, 슬기롭고 매끄러운 처신으로 사랑과 재물을 얻는다"
+    }
+  },
+  {
+    "term_ko": "구두쇠",
+    "term_en": "miser",
+    "context": "제가 구두쇠 노릇을 함",
+    "interpretation_ko": "우쭐대는 태도 때문에 남들에게 미움을 살 흉한 조짐",
+    "interpretation_en": "denotes that you will be obnoxious to others by your conceited bearing",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Miser",
+      "original": "To dream that you are miserly, denotes that you will be obnoxious to others by your conceited bearing",
+      "translation_ko": "제가 인색하게 구는 꿈은, 우쭐대는 태도 때문에 남들에게 미움을 삼을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "구두쇠",
+    "term_en": "miser",
+    "context": "벗들이 구두쇠임",
+    "interpretation_ko": "남들의 성가신 조름에 시달릴 흉한 조짐",
+    "interpretation_en": "foretells that you will be distressed by the importunities of others",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Miser",
+      "original": "To dream that any of your friends are misers, foretells that you will be distressed by the importunities of others.",
+      "translation_ko": "벗들이 구두쇠인 꿈은 남들의 성가신 조름에 시달림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "안개",
+    "term_en": "fog",
+    "context": "안개에 둘러싸임",
+    "interpretation_ko": "앞날이 흐릿하고 집안이 불편해질 흉한 조짐",
+    "interpretation_en": "denotes uncertain fortunes and domestic unhappiness",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mist",
+      "original": "To dream that you are enveloped in a mist, denotes uncertain fortunes and domestic unhappiness.",
+      "translation_ko": "안개에 둘러싸인 꿈은 앞날이 흐릿하고 집안이 불편해짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "안개",
+    "term_en": "fog",
+    "context": "안개가 걷힘",
+    "interpretation_ko": "괴로운 일이 오래가지 않을 길한 조짐",
+    "interpretation_en": "your troubles will be of short duration",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mist",
+      "original": "If the mist clears away, your troubles will be of short duration.",
+      "translation_ko": "안개가 걷히면 괴로운 일이 오래가지 않는다"
+    }
+  },
+  {
+    "term_ko": "안개",
+    "term_en": "fog",
+    "context": "안개 속 다른 사람을 봄",
+    "interpretation_ko": "남이 겪는 궂은 일로 제가 득을 볼 조짐",
+    "interpretation_en": "you will profit by the misfortune of others",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mist",
+      "original": "To see others in a mist, you will profit by the misfortune of others.",
+      "translation_ko": "안개 속에서 다른 사람을 보면, 남이 겪는 궂은 일로 제가 득을 본다"
+    }
+  },
+  {
+    "term_ko": "겨우살이",
+    "term_en": "mistletoe",
+    "context": "겨우살이를 봄",
+    "interpretation_ko": "기쁨과 큰 즐거움이 있을 길한 조짐",
+    "interpretation_en": "foretells happiness and great rejoicing",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mistletoe",
+      "original": "To dream of mistletoe, foretells happiness and great rejoicing.",
+      "translation_ko": "겨우살이의 꿈은 기쁨과 큰 즐거움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "겨우살이",
+    "term_en": "mistletoe",
+    "context": "젊은이가 겨우살이를 봄",
+    "interpretation_ko": "즐거운 놀이가 많을 길한 조짐",
+    "interpretation_en": "it omens many pleasant pastimes",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mistletoe",
+      "original": "To the young, it omens many pleasant pastimes",
+      "translation_ko": "젊은이에게는 즐거운 놀이가 많을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "겨우살이",
+    "term_en": "mistletoe",
+    "context": "궂은 조짐과 함께 겨우살이를 봄",
+    "interpretation_ko": "즐거움이나 복된 운이 실망으로 뒤바뀔 흉한 조짐",
+    "interpretation_en": "disappointment will displace pleasure or fortune",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mistletoe",
+      "original": "If seen with unpromising signs, disappointment will displace pleasure or fortune.",
+      "translation_ko": "궂은 조짐과 함께 보이면, 즐거움이나 복된 운이 실망으로 뒤바뀐다"
+    }
+  },
+  {
+    "term_ko": "흉내지빠귀",
+    "term_en": "mocking-bird",
+    "context": "흉내지빠귀를 보거나 그 소리를 들음",
+    "interpretation_ko": "벗들에게 즐거운 나들이를 청받고 하는 일도 매끄럽게 잘 풀릴 길한 조짐",
+    "interpretation_en": "signifies you will be invited to go on a pleasant visit to friends, and your affairs will move along smoothly and prosperously",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mocking-bird",
+      "original": "To see or hear a mocking-bird, signifies you will be invited to go on a pleasant visit to friends, and your affairs will move along smoothly and prosperously.",
+      "translation_ko": "흉내지빠귀를 보거나 그 소리를 들으면, 벗들에게 즐거운 나들이를 청받고 하는 일도 매끄럽게 잘 풀린다"
+    }
+  },
+  {
+    "term_ko": "흉내지빠귀",
+    "term_en": "mocking-bird",
+    "context": "여성이 다치거나 죽은 흉내지빠귀를 봄",
+    "interpretation_ko": "벗이나 정인과 사이가 틀어질 흉한 조짐",
+    "interpretation_en": "her disagreement with a friend or lover is signified",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mocking-bird",
+      "original": "For a woman to see a wounded or dead one, her disagreement with a friend or lover is signified.",
+      "translation_ko": "여성이 다치거나 죽은 것을 보면, 벗이나 정인과 사이가 틀어진다"
+    }
+  },
+  {
+    "term_ko": "모델",
+    "term_en": "model",
+    "context": "모델을 봄",
+    "interpretation_ko": "사람 사귀는 일에 돈을 다 쓰고 다툼과 뉘우침이 뒤따를 흉한 조짐",
+    "interpretation_en": "foretells your social affairs will deplete your purse, and quarrels and regrets will follow",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Models",
+      "original": "To dream of a model, foretells your social affairs will deplete your purse, and quarrels and regrets will follow.",
+      "translation_ko": "모델의 꿈은, 사람 사귀는 일에 돈을 다 쓰고 다툼과 뉘우침이 뒤따름을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "모델",
+    "term_en": "model",
+    "context": "처녀가 모델이 됨",
+    "interpretation_ko": "벗의 잇속 때문에 괴로울 사랑에 얽혀들 흉한 조짐",
+    "interpretation_en": "foretells she will be entangled in a love affair which will give her trouble through the selfishness of a friend",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Models",
+      "original": "For a young woman to dream that she is a model or seeking to be one, foretells she will be entangled in a love affair which will give her trouble through the selfishness of a friend.",
+      "translation_ko": "처녀가 모델이 되거나 되려 하는 꿈을 꾸면, 벗의 잇속 때문에 괴로울 사랑에 얽혀든다"
+    }
+  }
+]

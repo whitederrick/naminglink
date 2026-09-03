@@ -6351,5 +6351,18 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "mink": [
     "minx",
     "minks"
+  ],
+  "miser": [
+    "misers"
+  ],
+  "mistletoe": [
+    "mistletoes"
+  ],
+  "mocking-bird": [
+    "mocking birds",
+    "mockingbird"
+  ],
+  "model": [
+    "models"
   ]
 };

@@ -1,0 +1,37 @@
+{
+  "batch": 128,
+  "source": "miller-1901-parsed.json",
+  "skipped": [
+    {
+      "headword": "Mirror",
+      "reason": "**이미 다 들어와 있다.** 일곱 문장 전부가 `mirror`(거울) 상징에 `cite.locator: \"Mirror\"` 로 실려 있다(배치 40, 밀러 `Glass` 의 「[129] See Glass」 자리에서 함께 옮겼다). 커버리지는 이미 차 있으므로 빈 자리가 아니다"
+    }
+  ],
+  "headwords": [
+    {
+      "headword": "Miser",
+      "text": "To dream of a miser, foretells you will be unfortunate in finding true happiness owing to selfishness, and love will disappoint you sorely.\n\nFor a woman to dream that she is befriended by a miser, foretells she will gain love and wealth by her intelligence and tactful conduct.\n\nTo dream that you are miserly, denotes that you will be obnoxious to others by your conceited bearing\n\nTo dream that any of your friends are misers, foretells that you will be distressed by the importunities of others.",
+      "note": "새 상징 `miser`(구두쇠). 「구두쇠」가 `shoes`(구두)를 품지만 뒤의 「쇠」가 조사가 아니라 막힌다"
+    },
+    {
+      "headword": "Mist",
+      "text": "To dream that you are enveloped in a mist, denotes uncertain fortunes and domestic unhappiness. If the mist clears away, your troubles will be of short duration.\n\nTo see others in a mist, you will profit by the misfortune of others.",
+      "note": "「안개」가 기존 `fog` 의 이름이고 `aliases_en` 에 mist 가 이미 있다. `fog` 에 붙인다"
+    },
+    {
+      "headword": "Mistletoe",
+      "text": "To dream of mistletoe, foretells happiness and great rejoicing.\n\nTo the young, it omens many pleasant pastimes\n\nIf seen with unpromising signs, disappointment will displace pleasure or fortune.",
+      "note": "새 상징 `mistletoe`(겨우살이). 둘째 문장은 원문에 마침표가 없다 — 그대로 옮긴다"
+    },
+    {
+      "headword": "Mocking-bird",
+      "text": "To see or hear a mocking-bird, signifies you will be invited to go on a pleasant visit to friends, and your affairs will move along smoothly and prosperously. For a woman to see a wounded or dead one, her disagreement with a friend or lover is signified.",
+      "note": "새 상징 `mocking-bird`(흉내지빠귀). 별칭에 「~새」를 안 넣는다 — 「새」가 `bird` 의 이름이라 둘 다 걸린다"
+    },
+    {
+      "headword": "Models",
+      "text": "To dream of a model, foretells your social affairs will deplete your purse, and quarrels and regrets will follow. For a young woman to dream that she is a model or seeking to be one, foretells she will be entangled in a love affair which will give her trouble through the selfishness of a friend.",
+      "note": "새 상징 `model`(모델)"
+    }
+  ]
+}

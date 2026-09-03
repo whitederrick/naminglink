@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 127 — Mining~Mire, 16건)
+// (지금 담긴 것: 배치 128 — Miser~Models, 17건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,23 +30,24 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "mine", ctx: "광산에서 일하는 것을 봄", text: "광산에서 사람들이 일하고 있었다" },
-  { id: "mine", ctx: "광산 가까이 서 있음", text: "광산 가까이 서 있었다" },
-  { id: "mine", ctx: "광맥을 찾아다님", text: "광맥을 찾아다녔다" },
-  { id: "clergyman", ctx: "목사를 봄", text: "목사를 마주쳤다" },
-  { id: "clergyman", ctx: "목사의 설교를 들음", text: "목사가 훈계하는 것을 들었다" },
-  { id: "clergyman", ctx: "제가 목사가 됨", text: "내가 목사가 되었다" },
-  { id: "minuet", ctx: "미뉴에트 추는 것을 봄", text: "남들이 미뉴에트를 추는 것을 구경했다" },
-  { id: "minuet", ctx: "제가 미뉴에트를 춤", text: "내가 미뉴에트를 추었다" },
-  { id: "mink", ctx: "밍크를 봄", text: "밍크가 나타났다" },
-  { id: "mink", ctx: "밍크를 죽임", text: "밍크를 죽였다" },
-  { id: "mink", ctx: "처녀가 밍크 모피를 좋아함", text: "처녀가 밍크 모피를 좋아했다" },
-  { id: "mud", ctx: "진창을 헤치고 감", text: "진창을 헤치고 갔다" },
+  { id: "miser", ctx: "구두쇠를 봄", text: "구두쇠가 나타났다" },
+  { id: "miser", ctx: "여성이 구두쇠의 도움을 받음", text: "구두쇠가 나를 도와주었다" },
+  { id: "miser", ctx: "제가 구두쇠 노릇을 함", text: "내가 인색하게 굴었다" },
+  { id: "miser", ctx: "벗들이 구두쇠임", text: "벗들이 구두쇠였다" },
+  { id: "fog", ctx: "안개에 둘러싸임", text: "안개에 둘러싸여 있었다" },
+  { id: "fog", ctx: "안개가 걷힘", text: "안개가 걷혔다" },
+  { id: "fog", ctx: "안개 속 다른 사람을 봄", text: "안개 속에서 다른 사람을 보았다" },
+  { id: "mistletoe", ctx: "겨우살이를 봄", text: "겨우살이가 매달려 있었다" },
+  { id: "mistletoe", ctx: "젊은이가 겨우살이를 봄", text: "젊은이가 겨우살이를 보았다" },
+  { id: "mistletoe", ctx: "궂은 조짐과 함께 겨우살이를 봄", text: "겨우살이가 궂은 조짐과 함께 보였다" },
+  { id: "mocking-bird", ctx: "흉내지빠귀를 보거나 그 소리를 들음", text: "흉내지빠귀가 지저귀는 소리를 들었다" },
+  { id: "mocking-bird", ctx: "여성이 다치거나 죽은 흉내지빠귀를 봄", text: "다친 흉내지빠귀를 보았다" },
+  { id: "model", ctx: "모델을 봄", text: "모델이 나타났다" },
+  { id: "model", ctx: "처녀가 모델이 됨", text: "처녀가 모델이 되려 했다" },
   // 지킴 — 이번 배치가 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "clergyman", ctx: "목사와 혼인함", text: "목사와 혼인했다" },
-  { id: "mud", ctx: "진흙 속에 빠져 있음", text: "진흙 속에 빠져 허우적거렸다" },
-  { id: "fur", ctx: "모피를 걸침", text: "모피를 걸치고 있었다" },
-  { id: "mine", ctx: "광산을 가짐", text: "광산을 소유하고 있었다" },
+  { id: "fog", ctx: "안개에서 빠져나옴", text: "안개에서 빠져나왔다" },
+  { id: "fog", ctx: "짙은 안개 속을 헤치고 감", text: "짙은 안개 속을 헤치고 갔다" },
+  { id: "mirror", ctx: "깨진 거울을 봄", text: "깨진 거울을 보았다" },
 ];
 
 let notFound = 0;

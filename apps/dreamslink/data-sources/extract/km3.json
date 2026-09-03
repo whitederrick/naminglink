@@ -865,7 +865,9 @@
       "자욱",
       "안개가",
       "안개를",
-      "안개 속"
+      "안개 속",
+      "안개에",
+      "안개 낀"
     ],
     "aliases_en": [
       "mist",
@@ -876,14 +878,20 @@
     "contexts": {
       "안개가 앞을 가림": "앞을 가려 뿌옇",
       "짙은 안개 속을 헤치고 감": "짙은 헤치고 지나가",
-      "안개에서 빠져나옴": "빠져나 벗어났 걷혔",
-      "처녀가 안개 속에 있음": "처녀 아가씨 여자가"
+      "안개에서 빠져나옴": "빠져나 벗어났",
+      "처녀가 안개 속에 있음": "처녀 아가씨 여자가",
+      "안개에 둘러싸임": "둘러싸 휩싸",
+      "안개가 걷힘": "걷혔 걷히 개었",
+      "안개 속 다른 사람을 봄": "다른 사람 남들이"
     },
     "contexts_en": {
       "안개가 앞을 가림": "obscured view",
       "짙은 안개 속을 헤치고 감": "traveling dense worries",
       "안개에서 빠져나옴": "emerge weary profitable",
-      "처녀가 안개 속에 있음": "salacious scandal innocence standing"
+      "처녀가 안개 속에 있음": "salacious scandal innocence standing",
+      "안개에 둘러싸임": "enveloped uncertain domestic unhappiness",
+      "안개가 걷힘": "clears short duration",
+      "안개 속 다른 사람을 봄": "others benefit misfortune"
     }
   },
   {
