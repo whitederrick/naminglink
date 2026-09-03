@@ -282,6 +282,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "road::길에서 재물을 주움": "picked found money treasure",
   "road::길이 진흙탕이고 가시덤불이 우거짐": "muddy thorns brambles overgrown",
   "road::큰길이 무너져 내려앉음": "collapsed caved sank crumbled",
+  "road::좁고 험한 길에서 돌부리에 걸려 넘어짐": "narrow rough stumbling adversity",
+  "road::제 길을 찾으려 애씀": "trying find fail accomplish",
+  "road::풀과 꽃이 늘어선 오솔길을 걸음": "grass flowers freedom oppressing",
   "silk::채색 비단을 남에게 줌": "colored colorful multicolored",
   "silk::귀인이 비단을 내려 줌": "noble nobleman dignitary bestowed",
   "silk::남이 명주 비단을 줌": "received",
@@ -4882,5 +4885,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "patch::처녀가 새 옷에서 기운 자국을 발견함": "new dress happiest approaching",
   "patch::처녀가 기운 자국을 숨기려 함": "hide ugly trait lover",
   "patch::처녀가 옷을 깁고 있음": "young woman assume liking",
-  "patch::여인이 집안일로 옷을 기움": "family close loving scarcity"
+  "patch::여인이 집안일로 옷을 기움": "family close loving scarcity",
+  "patent::특허를 얻어냄": "securing careful painstaking",
+  "patent::특허를 얻는 데 실패함": "fail ability enterprises",
+  "patent::특허를 삼": "buy tiresome fruitless journey",
+  "patent::특허를 봄": "see unpleasantness illness",
+  "patent-medicine::건강을 찾아 특효약에 의지함": "desperate measures fortune envious",
+  "patent-medicine::특효약을 보거나 만듦": "manufacture obscurity imaginings"
 };

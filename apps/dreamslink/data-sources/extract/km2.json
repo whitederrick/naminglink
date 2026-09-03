@@ -344,13 +344,19 @@
       "사방으로 길이 뚫려 있음": "사방 뚫려 갈래 훤히",
       "길에서 재물을 주움": "주웠 주우 재물 돈을",
       "길이 진흙탕이고 가시덤불이 우거짐": "진흙 가시 덤불 질척",
-      "큰길이 무너져 내려앉음": "무너 내려앉 꺼져 갈라져"
+      "큰길이 무너져 내려앉음": "무너 내려앉 꺼져 갈라져",
+      "좁고 험한 길에서 돌부리에 걸려 넘어짐": "돌부리 넘어졌 초조한 흥분",
+      "제 길을 찾으려 애씀": "찾으려 해내지 못할",
+      "풀과 꽃이 늘어선 오솔길을 걸음": "풀과 꽃이 늘어선 짐에서 벗어날"
     },
     "contexts_en": {
       "사방으로 길이 뚫려 있음": "directions crossroads everywhere",
       "길에서 재물을 주움": "picked found money treasure",
       "길이 진흙탕이고 가시덤불이 우거짐": "muddy thorns brambles overgrown",
-      "큰길이 무너져 내려앉음": "collapsed caved sank crumbled"
+      "큰길이 무너져 내려앉음": "collapsed caved sank crumbled",
+      "좁고 험한 길에서 돌부리에 걸려 넘어짐": "narrow rough stumbling adversity",
+      "제 길을 찾으려 애씀": "trying find fail accomplish",
+      "풀과 꽃이 늘어선 오솔길을 걸음": "grass flowers freedom oppressing"
     }
   },
   {

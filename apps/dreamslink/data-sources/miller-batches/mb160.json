@@ -1,0 +1,23 @@
+{
+  "batch": 160,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Patent",
+      "text": "To dream of securing a patent, denotes that you will be careful and painstaking with any task you set about to accomplish. If you fail in securing your patent, you will suffer failure for the reason that you are engaging in enterprises for which you have no ability. If you buy one, you will have occasion to make a tiresome and fruitless journey. To see one, you will suffer unpleasantness from illness.",
+      "note": "새 상징 `patent`(특허)"
+    },
+    {
+      "headword": "Patent Medicine",
+      "text": "To dream that you resort to patent medicine in your search for health, denotes that you will use desperate measures in advancing your fortune, but you will succeed, to the disappointment of the envious. To see or manufacture patent medicines, you will rise from obscurity to positions above your highest imaginings.",
+      "note": "새 상징 `patent-medicine`(특효약). 이미 있는 `medicine`(먹는 약)과는 다른 물건(상표 의약품)이라 새로 세운다"
+    },
+    {
+      "headword": "Path",
+      "text": "To dream that you are walking in a narrow and rough path, stumbling over rocks and other obstructions, denotes that you will have a rough encounter with adversity, and feverish excitement will weigh heavily upon you. To dream that you are trying to find your path, foretells that you will fail to accomplish some work that you have striven to push to desired ends. To walk through a pathway bordered with green grass and flowers, denotes your freedom from oppressing loves.",
+      "note": "기존 상징 `road`(길, 주공해몽)에 셋을 더한다. 「오솔길」이 이미 그 상징의 별칭이다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

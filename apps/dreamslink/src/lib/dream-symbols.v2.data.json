@@ -69,6 +69,7 @@
     "m158.json",
     "m159.json",
     "m16.json",
+    "m160.json",
     "m17.json",
     "m18.json",
     "m19.json",
@@ -27990,6 +27991,126 @@
       ]
     },
     {
+      "id": "road",
+      "term_ko": "길",
+      "term_en": "road",
+      "aliases": [
+        "도로",
+        "골목",
+        "큰길",
+        "길목",
+        "오솔길"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사방으로 길이 뚫려 있음",
+          "interpretation_ko": "이름과 이익을 함께 이룰 조짐",
+          "interpretation_en": "a sign of achieving both fame and profit",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "見四路通名利遂",
+              "translation_ko": "사방으로 길이 통한 것을 보면 명예와 이익을 이룬다"
+            }
+          ]
+        },
+        {
+          "context": "좁고 험한 길에서 돌부리에 걸려 넘어짐",
+          "interpretation_ko": "역경과 힘겹게 부딪치고 초조한 흥분에 짓눌릴 조짐",
+          "interpretation_en": "denotes that you will have a rough encounter with adversity, and feverish excitement will weigh heavily upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Path",
+              "original": "To dream that you are walking in a narrow and rough path, stumbling over rocks and other obstructions, denotes that you will have a rough encounter with adversity, and feverish excitement will weigh heavily upon you.",
+              "translation_ko": "좁고 험한 길에서 돌부리에 걸려 넘어지는 꿈은, 역경과 힘겹게 부딪치고 초조한 흥분에 짓눌릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제 길을 찾으려 애씀",
+          "interpretation_ko": "이루려 애쓰던 일을 끝내 해내지 못할 조짐",
+          "interpretation_en": "foretells that you will fail to accomplish some work that you have striven to push to desired ends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Path",
+              "original": "To dream that you are trying to find your path, foretells that you will fail to accomplish some work that you have striven to push to desired ends.",
+              "translation_ko": "제 길을 찾으려 애쓰는 꿈은, 이루려 애쓰던 일을 끝내 해내지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "풀과 꽃이 늘어선 오솔길을 걸음",
+          "interpretation_ko": "무거운 사랑의 짐에서 벗어날 조짐",
+          "interpretation_en": "denotes your freedom from oppressing loves",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Path",
+              "original": "To walk through a pathway bordered with green grass and flowers, denotes your freedom from oppressing loves.",
+              "translation_ko": "풀과 꽃이 늘어선 오솔길을 걷는 꿈은, 무거운 사랑의 짐에서 벗어날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "길에서 재물을 주움",
+          "interpretation_ko": "일이 막힘없이 트일 조짐",
+          "interpretation_en": "a sign that affairs will run smoothly",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "道中得財主通達",
+              "translation_ko": "길에서 재물을 얻으면 일이 막힘없이 통한다"
+            }
+          ]
+        },
+        {
+          "context": "길이 진흙탕이고 가시덤불이 우거짐",
+          "interpretation_ko": "일이 이루어지지 않을 조짐",
+          "interpretation_en": "a sign that matters will not come together",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "道泥荊棘事不成",
+              "translation_ko": "길이 진흙과 가시덤불이면 일이 이루어지지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "큰길이 무너져 내려앉음",
+          "interpretation_ko": "재물을 잃을 조짐",
+          "interpretation_en": "a sign of losing wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "大道崩陷主失財",
+              "translation_ko": "큰길이 무너져 꺼지면 재물을 잃는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "weeping",
       "term_ko": "울음",
       "term_en": "weeping",
@@ -52922,6 +53043,80 @@
       ]
     },
     {
+      "id": "patent",
+      "term_ko": "특허",
+      "term_en": "patent",
+      "aliases": [
+        "특허가",
+        "특허를"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "특허를 얻어냄",
+          "interpretation_ko": "맡은 일마다 세심하고 공들여 해낼 조짐",
+          "interpretation_en": "denotes that you will be careful and painstaking with any task you set about to accomplish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Patent",
+              "original": "To dream of securing a patent, denotes that you will be careful and painstaking with any task you set about to accomplish.",
+              "translation_ko": "특허를 얻어내는 꿈은, 맡은 일마다 세심하고 공들여 해낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "특허를 얻는 데 실패함",
+          "interpretation_ko": "능력이 없는 일에 뛰어들어 실패를 겪을 조짐",
+          "interpretation_en": "you will suffer failure for the reason that you are engaging in enterprises for which you have no ability",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Patent",
+              "original": "If you fail in securing your patent, you will suffer failure for the reason that you are engaging in enterprises for which you have no ability.",
+              "translation_ko": "특허를 얻는 데 실패하는 꿈은, 능력이 없는 일에 뛰어들어 실패를 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "특허를 삼",
+          "interpretation_ko": "지루하고 헛된 여정을 떠날 조짐",
+          "interpretation_en": "you will have occasion to make a tiresome and fruitless journey",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Patent",
+              "original": "If you buy one, you will have occasion to make a tiresome and fruitless journey.",
+              "translation_ko": "특허를 사는 꿈은, 지루하고 헛된 여정을 떠날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "특허를 봄",
+          "interpretation_ko": "병으로 언짢은 일을 겪을 조짐",
+          "interpretation_en": "you will suffer unpleasantness from illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Patent",
+              "original": "To see one, you will suffer unpleasantness from illness.",
+              "translation_ko": "특허를 보는 꿈은, 병으로 언짢은 일을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rain",
       "term_ko": "비",
       "term_en": "rain",
@@ -53070,83 +53265,6 @@
               "locator": "船車遊行物件",
               "original": "乘船渡江河得官",
               "translation_ko": "배를 타고 강을 건너면 벼슬을 얻는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "road",
-      "term_ko": "길",
-      "term_en": "road",
-      "aliases": [
-        "도로",
-        "골목",
-        "큰길",
-        "길목",
-        "오솔길"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "사방으로 길이 뚫려 있음",
-          "interpretation_ko": "이름과 이익을 함께 이룰 조짐",
-          "interpretation_en": "a sign of achieving both fame and profit",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "見四路通名利遂",
-              "translation_ko": "사방으로 길이 통한 것을 보면 명예와 이익을 이룬다"
-            }
-          ]
-        },
-        {
-          "context": "길에서 재물을 주움",
-          "interpretation_ko": "일이 막힘없이 트일 조짐",
-          "interpretation_en": "a sign that affairs will run smoothly",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "道中得財主通達",
-              "translation_ko": "길에서 재물을 얻으면 일이 막힘없이 통한다"
-            }
-          ]
-        },
-        {
-          "context": "길이 진흙탕이고 가시덤불이 우거짐",
-          "interpretation_ko": "일이 이루어지지 않을 조짐",
-          "interpretation_en": "a sign that matters will not come together",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "道泥荊棘事不成",
-              "translation_ko": "길이 진흙과 가시덤불이면 일이 이루어지지 않는다"
-            }
-          ]
-        },
-        {
-          "context": "큰길이 무너져 내려앉음",
-          "interpretation_ko": "재물을 잃을 조짐",
-          "interpretation_en": "a sign of losing wealth",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "大道崩陷主失財",
-              "translation_ko": "큰길이 무너져 꺼지면 재물을 잃는다"
             }
           ]
         }
@@ -90384,6 +90502,52 @@
               "locator": "Pasteboard",
               "original": "To cut pasteboard, you will throw aside difficulties in your struggle to reach eminent positions.",
               "translation_ko": "판지를 자르는 꿈은, 높은 자리에 오르려는 싸움에서 어려움을 떨쳐낼 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "patent-medicine",
+      "term_ko": "특효약",
+      "term_en": "patent-medicine",
+      "aliases": [
+        "특효약이",
+        "특효약을"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "건강을 찾아 특효약에 의지함",
+          "interpretation_ko": "운을 밀어붙이려 무리한 수를 쓰지만 결국 성공해 시샘하는 이를 낙담시킬 조짐",
+          "interpretation_en": "denotes that you will use desperate measures in advancing your fortune, but you will succeed, to the disappointment of the envious",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Patent Medicine",
+              "original": "To dream that you resort to patent medicine in your search for health, denotes that you will use desperate measures in advancing your fortune, but you will succeed, to the disappointment of the envious.",
+              "translation_ko": "건강을 찾아 특효약에 의지하는 꿈은, 운을 밀어붙이려 무리한 수를 쓰지만 결국 성공해 시샘하는 이를 낙담시킬 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "특효약을 보거나 만듦",
+          "interpretation_ko": "보잘것없던 처지에서 벗어나 상상 이상의 자리에 오를 조짐",
+          "interpretation_en": "you will rise from obscurity to positions above your highest imaginings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Patent Medicine",
+              "original": "To see or manufacture patent medicines, you will rise from obscurity to positions above your highest imaginings.",
+              "translation_ko": "특효약을 보거나 만드는 꿈은, 보잘것없던 처지에서 벗어나 상상 이상의 자리에 오를 조짐이다"
             }
           ]
         }

@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "특허",
+    "term_en": "patent",
+    "context": "특허를 얻어냄",
+    "interpretation_ko": "맡은 일마다 세심하고 공들여 해낼 조짐",
+    "interpretation_en": "denotes that you will be careful and painstaking with any task you set about to accomplish",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Patent",
+      "original": "To dream of securing a patent, denotes that you will be careful and painstaking with any task you set about to accomplish.",
+      "translation_ko": "특허를 얻어내는 꿈은, 맡은 일마다 세심하고 공들여 해낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "특허",
+    "term_en": "patent",
+    "context": "특허를 얻는 데 실패함",
+    "interpretation_ko": "능력이 없는 일에 뛰어들어 실패를 겪을 조짐",
+    "interpretation_en": "you will suffer failure for the reason that you are engaging in enterprises for which you have no ability",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Patent",
+      "original": "If you fail in securing your patent, you will suffer failure for the reason that you are engaging in enterprises for which you have no ability.",
+      "translation_ko": "특허를 얻는 데 실패하는 꿈은, 능력이 없는 일에 뛰어들어 실패를 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "특허",
+    "term_en": "patent",
+    "context": "특허를 삼",
+    "interpretation_ko": "지루하고 헛된 여정을 떠날 조짐",
+    "interpretation_en": "you will have occasion to make a tiresome and fruitless journey",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Patent",
+      "original": "If you buy one, you will have occasion to make a tiresome and fruitless journey.",
+      "translation_ko": "특허를 사는 꿈은, 지루하고 헛된 여정을 떠날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "특허",
+    "term_en": "patent",
+    "context": "특허를 봄",
+    "interpretation_ko": "병으로 언짢은 일을 겪을 조짐",
+    "interpretation_en": "you will suffer unpleasantness from illness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Patent",
+      "original": "To see one, you will suffer unpleasantness from illness.",
+      "translation_ko": "특허를 보는 꿈은, 병으로 언짢은 일을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "특효약",
+    "term_en": "patent-medicine",
+    "context": "건강을 찾아 특효약에 의지함",
+    "interpretation_ko": "운을 밀어붙이려 무리한 수를 쓰지만 결국 성공해 시샘하는 이를 낙담시킬 조짐",
+    "interpretation_en": "denotes that you will use desperate measures in advancing your fortune, but you will succeed, to the disappointment of the envious",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Patent Medicine",
+      "original": "To dream that you resort to patent medicine in your search for health, denotes that you will use desperate measures in advancing your fortune, but you will succeed, to the disappointment of the envious.",
+      "translation_ko": "건강을 찾아 특효약에 의지하는 꿈은, 운을 밀어붙이려 무리한 수를 쓰지만 결국 성공해 시샘하는 이를 낙담시킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "특효약",
+    "term_en": "patent-medicine",
+    "context": "특효약을 보거나 만듦",
+    "interpretation_ko": "보잘것없던 처지에서 벗어나 상상 이상의 자리에 오를 조짐",
+    "interpretation_en": "you will rise from obscurity to positions above your highest imaginings",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Patent Medicine",
+      "original": "To see or manufacture patent medicines, you will rise from obscurity to positions above your highest imaginings.",
+      "translation_ko": "특효약을 보거나 만드는 꿈은, 보잘것없던 처지에서 벗어나 상상 이상의 자리에 오를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "길",
+    "term_en": "road",
+    "context": "좁고 험한 길에서 돌부리에 걸려 넘어짐",
+    "interpretation_ko": "역경과 힘겹게 부딪치고 초조한 흥분에 짓눌릴 조짐",
+    "interpretation_en": "denotes that you will have a rough encounter with adversity, and feverish excitement will weigh heavily upon you",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Path",
+      "original": "To dream that you are walking in a narrow and rough path, stumbling over rocks and other obstructions, denotes that you will have a rough encounter with adversity, and feverish excitement will weigh heavily upon you.",
+      "translation_ko": "좁고 험한 길에서 돌부리에 걸려 넘어지는 꿈은, 역경과 힘겹게 부딪치고 초조한 흥분에 짓눌릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "길",
+    "term_en": "road",
+    "context": "제 길을 찾으려 애씀",
+    "interpretation_ko": "이루려 애쓰던 일을 끝내 해내지 못할 조짐",
+    "interpretation_en": "foretells that you will fail to accomplish some work that you have striven to push to desired ends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Path",
+      "original": "To dream that you are trying to find your path, foretells that you will fail to accomplish some work that you have striven to push to desired ends.",
+      "translation_ko": "제 길을 찾으려 애쓰는 꿈은, 이루려 애쓰던 일을 끝내 해내지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "길",
+    "term_en": "road",
+    "context": "풀과 꽃이 늘어선 오솔길을 걸음",
+    "interpretation_ko": "무거운 사랑의 짐에서 벗어날 조짐",
+    "interpretation_en": "denotes your freedom from oppressing loves",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Path",
+      "original": "To walk through a pathway bordered with green grass and flowers, denotes your freedom from oppressing loves.",
+      "translation_ko": "풀과 꽃이 늘어선 오솔길을 걷는 꿈은, 무거운 사랑의 짐에서 벗어날 조짐이다"
+    }
+  }
+]

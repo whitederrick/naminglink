@@ -6712,5 +6712,11 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "patch": [
     "patches",
     "patching"
+  ],
+  "patent": [
+    "patents"
+  ],
+  "patent-medicine": [
+    "patent medicines"
   ]
 };

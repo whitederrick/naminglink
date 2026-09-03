@@ -1,0 +1,42 @@
+[
+  {
+    "id": "patent",
+    "aliases": [
+      "특허가",
+      "특허를"
+    ],
+    "aliases_en": [
+      "patents"
+    ],
+    "contexts": {
+      "특허를 얻어냄": "얻어낸 세심하고 공들여",
+      "특허를 얻는 데 실패함": "실패했 능력이 없는",
+      "특허를 삼": "샀다 지루하고 헛된 여정",
+      "특허를 봄": "보았 언짢은 병으로"
+    },
+    "contexts_en": {
+      "특허를 얻어냄": "securing careful painstaking",
+      "특허를 얻는 데 실패함": "fail ability enterprises",
+      "특허를 삼": "buy tiresome fruitless journey",
+      "특허를 봄": "see unpleasantness illness"
+    }
+  },
+  {
+    "id": "patent-medicine",
+    "aliases": [
+      "특효약이",
+      "특효약을"
+    ],
+    "aliases_en": [
+      "patent medicines"
+    ],
+    "contexts": {
+      "건강을 찾아 특효약에 의지함": "의지 무리한 시샘",
+      "특효약을 보거나 만듦": "만드는 만들었 보잘것없던"
+    },
+    "contexts_en": {
+      "건강을 찾아 특효약에 의지함": "desperate measures fortune envious",
+      "특효약을 보거나 만듦": "manufacture obscurity imaginings"
+    }
+  }
+]
