@@ -1,0 +1,62 @@
+[
+  {
+    "term_ko": "박하",
+    "term_en": "peppermint",
+    "context": "박하 꿈을 꿈",
+    "interpretation_ko": "즐거운 모임과 흥미로운 일을 뜻하는 조짐",
+    "interpretation_en": "denotes pleasant entertainments and interesting affairs",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Peppermint",
+      "original": "To dream of peppermint, denotes pleasant entertainments and interesting affairs.",
+      "translation_ko": "박하 꿈은, 즐거운 모임과 흥미로운 일을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "박하",
+    "term_en": "peppermint",
+    "context": "자라는 박하를 봄",
+    "interpretation_ko": "낭만이 깃든 즐거움을 누릴 조짐",
+    "interpretation_en": "denotes that you will participate in some pleasure in which there will be a dash of romance",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Peppermint",
+      "original": "To see it growing, denotes that you will participate in some pleasure in which there will be a dash of romance.",
+      "translation_ko": "자라는 박하를 보는 꿈은, 낭만이 깃든 즐거움을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "박하",
+    "term_en": "peppermint",
+    "context": "박하 향이 나는 음료를 즐김",
+    "interpretation_ko": "매력적이고 홀리는 이와 은밀한 만남을 즐길 조짐",
+    "interpretation_en": "denotes that you will enjoy assignations with some attractive and fascinating person",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Peppermint",
+      "original": "To enjoy drinks in which there is an effusion of peppermint, denotes that you will enjoy assignations with some attractive and fascinating person.",
+      "translation_ko": "박하 향이 나는 음료를 즐기는 꿈은, 매력적이고 홀리는 이와 은밀한 만남을 즐길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "박하",
+    "term_en": "peppermint",
+    "context": "처녀가 박하 향이 나는 음료를 즐기는 꿈을 꿈",
+    "interpretation_ko": "홀리는 즐거움을 조심하라는 경고",
+    "interpretation_en": "this dream warns her against seductive pleasures",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Peppermint",
+      "original": "To a young woman, this dream warns her against seductive pleasures.",
+      "translation_ko": "처녀가 박하 향이 나는 음료를 즐기는 꿈은, 홀리는 즐거움을 조심하라는 경고다"
+    }
+  }
+]

@@ -4955,5 +4955,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pepper::쌓인 붉은 고추 꼬투리를 봄": "piles pods rights",
   "pepper::검은 후추를 갊": "grind black victimized",
   "pepper::식탁 위 그릇에 담긴 후추를 봄": "stands table reproaches",
-  "pepper::처녀가 음식에 후추를 뿌림": "young woman food deceived"
+  "pepper::처녀가 음식에 후추를 뿌림": "young woman food deceived",
+  "peppermint::박하 꿈을 꿈": "pleasant entertainments interesting",
+  "peppermint::자라는 박하를 봄": "growing dash romance",
+  "peppermint::박하 향이 나는 음료를 즐김": "drinks assignations attractive",
+  "peppermint::처녀가 박하 향이 나는 음료를 즐기는 꿈을 꿈": "young woman seductive warns"
 };

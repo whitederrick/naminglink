@@ -1,0 +1,20 @@
+{
+  "batch": 168,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Peppermint",
+      "text": "To dream of peppermint, denotes pleasant entertainments and interesting affairs. To see it growing, denotes that you will participate in some pleasure in which there will be a dash of romance. To enjoy drinks in which there is an effusion of peppermint, denotes that you will enjoy assignations with some attractive and fascinating person. To a young woman, this dream warns her against seductive pleasures.",
+      "note": "새 상징 `peppermint`(박하)"
+    },
+    {
+      "headword": "Perspiration",
+      "text": "To dream that you are in a perspiration, foretells that you will come out of some difficulty, which has caused much gossip, with new honors.",
+      "note": "이미 있는 `sweat`(땀, 주공해몽 「몸에 땀이 흐름」, 흉)와 같은 그림(땀이 남)인데 밀러는 길(새 영예)로 정반대라 통째로 건너뛴다"
+    }
+  ],
+  "skipped": [
+    { "headword": "Perspiration", "reason": "이미 있는 `sweat`의 「몸에 땀이 흐름」(주공해몽, 흉)과 같은 그림인데 정반대(길)라 가를 수 없다" }
+  ],
+  "skipped_sentences": []
+}

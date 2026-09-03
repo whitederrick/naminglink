@@ -1,0 +1,25 @@
+[
+  {
+    "id": "peppermint",
+    "aliases": [
+      "박하가",
+      "박하를",
+      "박하 향이"
+    ],
+    "aliases_en": [
+      "peppermints"
+    ],
+    "contexts": {
+      "박하 꿈을 꿈": "즐거운 모임 흥미로운",
+      "자라는 박하를 봄": "자라는 낭만",
+      "박하 향이 나는 음료를 즐김": "음료 매력적 은밀한",
+      "처녀가 박하 향이 나는 음료를 즐기는 꿈을 꿈": "처녀가 즐기는 홀리는 경고"
+    },
+    "contexts_en": {
+      "박하 꿈을 꿈": "pleasant entertainments interesting",
+      "자라는 박하를 봄": "growing dash romance",
+      "박하 향이 나는 음료를 즐김": "drinks assignations attractive",
+      "처녀가 박하 향이 나는 음료를 즐기는 꿈을 꿈": "young woman seductive warns"
+    }
+  }
+]
