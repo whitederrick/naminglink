@@ -813,6 +813,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "dance::즐거운 아이들이 춤추는 것을 봄": "merry children obedient",
   "dance::나이 든 이들이 춤추는 것을 봄": "older brighter outlook",
   "dance::제가 춤을 춤": "yourself unexpected fortune",
+  "dance::정인이 춤추는 것을 봄": "sweetheart companion hopeful disposition",
+  "dance::발레 하는 여자들이 춤추는 것을 봄": "ballet girls undignified amusements low desires",
   "frost::서리가 내림": "fell settled white",
   "frost::어둡고 음산한 아침에 내린 서리를 봄": "dark gloomy morning exile",
   "frost::햇빛 드는 자그마한 들녘에 내린 서리를 봄": "sunlit landscape gilded",
@@ -3125,6 +3127,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "entrails::창자를 뜨거운 것 위에 올려놓고 도움을 못 받음": "radiator refuse unexpected calamity censured",
   "envy::남을 시샘함": "entertain unselfish deference",
   "envy::남에게 시샘받음": "others inconvenience overanxious",
+  "envy::아내를 시샘함": "wife influence narrow-minded",
+  "envy::남편을 시샘함": "husband shocking incidents vex travesty",
+  "envy::처녀가 정인을 시샘함": "young favorably impressed charms herself",
+  "envy::정인을 시샘함": "sweetheart seek displace rival",
+  "envy::여느 일로 서로 시샘함": "men women common every-day discharge",
   "epaulet::군인이 견장을 닮": "soldier disfavor honors",
   "epaulet::여성이 견장을 단 사람을 소개받음": "woman introduced unwise scandal",
   "epicure::미식가와 한 상에 앉음": "sitting table distinction selfish",
@@ -3710,5 +3717,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "jaws::제 턱이 아픔": "ache pain climatic malaria finances",
   "jay-bird::어치를 봄": "pleasant visits friends gossips",
   "jay-bird::어치를 잡음": "catch unfruitful tasks",
-  "jay-bird::죽은 어치를 봄": "dead domestic unhappiness vicissitudes"
+  "jay-bird::죽은 어치를 봄": "dead domestic unhappiness vicissitudes",
+  "jelly::젤리를 먹음": "eating pleasant interruptions",
+  "jelly::젤리를 만듦": "making enjoy reunions friends",
+  "jockey::기수를 봄": "omens appreciate gift unexpected source",
+  "jockey::처녀가 기수와 가까이 지냄": "young woman associates win husband station",
+  "jockey::기수가 말에서 떨어지는 것을 봄": "thrown called aid strangers"
 };

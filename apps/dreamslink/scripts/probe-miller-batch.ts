@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 68 — January~Jay-bird, 17건)
+// (지금 담긴 것: 배치 69 — Jealousy~Jockey, 17건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,25 +30,25 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "january", ctx: "정월 꿈을 꿈", text: "정월달 꿈을 꾸었다" },
-  { id: "jar", ctx: "빈 항아리를 봄", text: "항아리가 텅 비어 있었다" },
-  { id: "jar", ctx: "가득 찬 항아리를 봄", text: "항아리가 가득 차 있었다" },
-  { id: "jar", ctx: "항아리를 삼", text: "항아리를 샀다" },
-  { id: "jar", ctx: "깨진 항아리를 봄", text: "깨진 항아리를 보았다" },
-  { id: "jaundice", ctx: "제가 황달을 앓음", text: "내가 황달을 앓고 있었다" },
-  { id: "jaundice", ctx: "남이 황달을 앓는 것을 봄", text: "남이 황달을 앓는 것을 보았다" },
-  { id: "javelin", ctx: "투창으로 몸을 지킴", text: "투창으로 막아 냈다" },
-  { id: "javelin", ctx: "투창에 찔림", text: "투창에 찔렸다" },
-  { id: "javelin", ctx: "남들이 투창을 들고 있는 것을 봄", text: "남들이 투창을 들고 있었다" },
-  { id: "jaws", ctx: "크고 일그러진 턱을 봄", text: "커다랗고 일그러진 턱을 보았다" },
-  { id: "jaws", ctx: "사나운 짐승의 아가리 속에 있음", text: "사나운 짐승의 아가리 속에 있었다" },
-  { id: "jaws", ctx: "제 턱이 아픔", text: "턱이 욱신거리며 아팠다" },
-  { id: "jay-bird", ctx: "어치를 봄", text: "어치를 보았다" },
-  { id: "jay-bird", ctx: "어치를 잡음", text: "어치를 붙잡았다" },
-  { id: "jay-bird", ctx: "죽은 어치를 봄", text: "죽은 어치를 보았다" },
+  { id: "envy", ctx: "아내를 시샘함", text: "아내를 시샘했다" },
+  { id: "envy", ctx: "남편을 시샘함", text: "남편을 시샘했다" },
+  { id: "envy", ctx: "처녀가 정인을 시샘함", text: "처녀가 정인을 시샘했다" },
+  { id: "envy", ctx: "정인을 시샘함", text: "애인을 시샘했다" },
+  { id: "envy", ctx: "여느 일로 서로 시샘함", text: "여느 일로 서로 시샘했다" },
+  { id: "jelly", ctx: "젤리를 먹음", text: "젤리를 떠먹었다" },
+  { id: "jelly", ctx: "젤리를 만듦", text: "젤리를 만들었다" },
+  { id: "jessamine", ctx: "재스민을 봄", text: "재스민을 보았다" },
+  { id: "dance", ctx: "정인이 춤추는 것을 봄", text: "애인이 춤추는 것을 보았다" },
+  { id: "dance", ctx: "발레 하는 여자들이 춤추는 것을 봄", text: "발레 하는 여자들이 춤추는 것을 보았다" },
+  { id: "jockey", ctx: "기수를 봄", text: "뜻밖의 선물을 준 기수를 보았다" },
+  { id: "jockey", ctx: "처녀가 기수와 가까이 지냄", text: "처녀가 기수와 가까이 지냈다" },
+  { id: "jockey", ctx: "기수가 말에서 떨어지는 것을 봄", text: "기수가 말에서 떨어졌다" },
 
-  // 이 배치가 판별어 표를 채운 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "jar", ctx: "항아리 안으로 들어감", text: "항아리 안으로 들어갔다" },
+  // 이 배치가 판별어를 더한 상징 — **옛 답이 그대로인가**를 함께 잰다.
+  { id: "envy", ctx: "남을 시샘함", text: "남을 시샘했다" },
+  { id: "envy", ctx: "남에게 시샘받음", text: "남들이 나를 시샘했다" },
+  { id: "dance", ctx: "제가 춤을 춤", text: "내가 춤을 췄다" },
+  { id: "dance", ctx: "즐거운 아이들이 춤추는 것을 봄", text: "즐거운 아이들이 춤추는 것을 보았다" },
 ];
 
 let notFound = 0;

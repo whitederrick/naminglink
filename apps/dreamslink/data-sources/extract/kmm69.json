@@ -1,0 +1,59 @@
+[
+  {
+    "id": "jelly",
+    "aliases": [
+      "젤리를",
+      "젤리가",
+      "묵처럼 굳은"
+    ],
+    "aliases_en": [
+      "jelly"
+    ],
+    "contexts": {
+      "젤리를 먹음": "먹었 먹고 떠먹",
+      "젤리를 만듦": "만들 굳혔 졸였"
+    },
+    "contexts_en": {
+      "젤리를 먹음": "eating pleasant interruptions",
+      "젤리를 만듦": "making enjoy reunions friends"
+    }
+  },
+  {
+    "id": "jessamine",
+    "aliases": [
+      "재스민꽃",
+      "자스민",
+      "재스민이",
+      "재스민을"
+    ],
+    "aliases_en": [
+      "jessamine",
+      "jasmine"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "jockey",
+    "aliases": [
+      "기수가",
+      "기수를",
+      "기수와",
+      "경마 기수",
+      "말 탄 사람"
+    ],
+    "aliases_en": [
+      "a jockey"
+    ],
+    "contexts": {
+      "기수를 봄": "선물 뜻밖의",
+      "처녀가 기수와 가까이 지냄": "처녀 아가씨 가까이",
+      "기수가 말에서 떨어지는 것을 봄": "떨어지 떨어졌 낙마 굴러떨어"
+    },
+    "contexts_en": {
+      "기수를 봄": "omens appreciate gift unexpected source",
+      "처녀가 기수와 가까이 지냄": "young woman associates win husband station",
+      "기수가 말에서 떨어지는 것을 봄": "thrown called aid strangers"
+    }
+  }
+]

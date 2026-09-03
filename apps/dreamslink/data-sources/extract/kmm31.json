@@ -82,11 +82,21 @@
     ],
     "contexts": {
       "남을 시샘함": "남을 내가",
-      "남에게 시샘받음": "받았 남들이 나를"
+      "남에게 시샘받음": "받았 남들이 나를",
+      "아내를 시샘함": "아내 처를 안사람",
+      "남편을 시샘함": "남편 바깥양반",
+      "처녀가 정인을 시샘함": "처녀 아가씨",
+      "정인을 시샘함": "정인 애인 사랑하는",
+      "여느 일로 서로 시샘함": "서로 남녀가 여느"
     },
     "contexts_en": {
       "남을 시샘함": "entertain unselfish deference",
-      "남에게 시샘받음": "others inconvenience overanxious"
+      "남에게 시샘받음": "others inconvenience overanxious",
+      "아내를 시샘함": "wife influence narrow-minded",
+      "남편을 시샘함": "husband shocking incidents vex travesty",
+      "처녀가 정인을 시샘함": "young favorably impressed charms herself",
+      "정인을 시샘함": "sweetheart seek displace rival",
+      "여느 일로 서로 시샘함": "men women common every-day discharge"
     }
   },
   {

@@ -1,0 +1,197 @@
+[
+  {
+    "term_ko": "시샘",
+    "term_en": "envy",
+    "context": "아내를 시샘함",
+    "interpretation_ko": "적과 속 좁은 이들의 손길이 미칠 흉한 조짐",
+    "interpretation_en": "denotes the influence of enemies and narrow-minded persons",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jealousy",
+      "original": "To dream that you are jealous of your wife, denotes the influence of enemies and narrow-minded persons.",
+      "translation_ko": "아내를 시샘하는 꿈은 적과 속 좁은 이들의 손길을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "시샘",
+    "term_en": "envy",
+    "context": "남편을 시샘함",
+    "interpretation_ko": "속을 뒤집는 일이 잦아 즐거움이 우스워질 흉한 조짐",
+    "interpretation_en": "she will find many shocking incidents to vex and make her happiness a travesty",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jealousy",
+      "original": "If a woman dreams that she is jealous of her husband, she will find many shocking incidents to vex and make her happiness a travesty.",
+      "translation_ko": "여자가 남편을 시샘하는 꿈을 꾸면 속을 뒤집는 일이 잦아 즐거움이 우스워진다"
+    }
+  },
+  {
+    "term_ko": "시샘",
+    "term_en": "envy",
+    "context": "처녀가 정인을 시샘함",
+    "interpretation_ko": "그가 저보다 다른 여자에게 더 마음이 기울어 있음을 알게 될 흉한 조짐",
+    "interpretation_en": "she will find that he is more favorably impressed with the charms of some other woman than herself",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jealousy",
+      "original": "If a young woman is jealous of her lover, she will find that he is more favorably impressed with the charms of some other woman than herself.",
+      "translation_ko": "젊은 여성이 정인을 시샘하면 그가 저보다 다른 여자에게 더 마음이 기울어 있음을 알게 된다"
+    }
+  },
+  {
+    "term_ko": "시샘",
+    "term_en": "envy",
+    "context": "정인을 시샘함",
+    "interpretation_ko": "맞수를 밀어내려 들 조짐",
+    "interpretation_en": "you will seek to displace a rival",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jealousy",
+      "original": "If jealous of your sweetheart, you will seek to displace a rival.",
+      "translation_ko": "정인을 시샘하면 맞수를 밀어내려 든다"
+    }
+  },
+  {
+    "term_ko": "시샘",
+    "term_en": "envy",
+    "context": "여느 일로 서로 시샘함",
+    "interpretation_ko": "나날의 일을 해 나가며 성가신 근심을 많이 만날 흉한 조짐",
+    "interpretation_en": "they will meet many unpleasant worries in the discharge of every-day business",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jealousy",
+      "original": "If men and women are jealous over common affairs, they will meet many unpleasant worries in the discharge of every-day business.",
+      "translation_ko": "남녀가 여느 일로 서로 시샘하면 나날의 일을 해 나가며 성가신 근심을 많이 만난다"
+    }
+  },
+  {
+    "term_ko": "젤리",
+    "term_en": "jelly",
+    "context": "젤리를 먹음",
+    "interpretation_ko": "즐거운 일로 하던 것이 여러 번 끊길 조짐",
+    "interpretation_en": "many pleasant interruptions will take place",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jelly",
+      "original": "To dream of eating jelly, many pleasant interruptions will take place.",
+      "translation_ko": "젤리를 먹는 꿈을 꾸면 즐거운 일로 하던 것이 여러 번 끊긴다"
+    }
+  },
+  {
+    "term_ko": "젤리",
+    "term_en": "jelly",
+    "context": "젤리를 만듦",
+    "interpretation_ko": "벗들과 즐겁게 다시 만날 길한 조짐",
+    "interpretation_en": "signifies she will enjoy pleasant reunions with friends",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jelly",
+      "original": "For a woman to dream of making jelly, signifies she will enjoy pleasant reunions with friends.",
+      "translation_ko": "여자가 젤리를 만드는 꿈을 꾸면 벗들과 즐겁게 다시 만난다"
+    }
+  },
+  {
+    "term_ko": "재스민",
+    "term_en": "jessamine",
+    "context": "재스민을 봄",
+    "interpretation_ko": "더없이 고운 즐거움에 다가가나 그것이 오래가지 못할 조짐",
+    "interpretation_en": "denotes you are approximating some exquisite pleasure, but which will be fleeting",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Jessamine",
+      "original": "To dream of jessamine, denotes you are approximating some exquisite pleasure, but which will be fleeting.",
+      "translation_ko": "재스민 꿈은 더없이 고운 즐거움에 다가가나 그것이 오래가지 못하리라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "춤",
+    "term_en": "dance",
+    "context": "정인이 춤추는 것을 봄",
+    "interpretation_ko": "곁의 사람이 밝고 바라는 마음을 지녔을 길한 조짐",
+    "interpretation_en": "your companion will be possessed with a merry and hopeful disposition",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jig",
+      "original": "To see your sweetheart dancing a jig, your companion will be possessed with a merry and hopeful disposition.",
+      "translation_ko": "정인이 지그를 추는 것을 보면 곁의 사람이 밝고 바라는 마음을 지녔다"
+    }
+  },
+  {
+    "term_ko": "춤",
+    "term_en": "dance",
+    "context": "발레 하는 여자들이 춤추는 것을 봄",
+    "interpretation_ko": "떳떳하지 못한 놀이에 빠지고 낮은 바람을 좇을 흉한 조짐",
+    "interpretation_en": "you will engage in undignified amusements and follow low desires",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jig",
+      "original": "To see ballet girls dancing a jig, you will engage in undignified amusements and follow low desires.",
+      "translation_ko": "발레 하는 여자들이 지그를 추는 것을 보면 떳떳하지 못한 놀이에 빠지고 낮은 바람을 좇는다"
+    }
+  },
+  {
+    "term_ko": "기수",
+    "term_en": "jockey",
+    "context": "기수를 봄",
+    "interpretation_ko": "뜻밖의 곳에서 온 선물을 고맙게 여길 길한 조짐",
+    "interpretation_en": "omens you will appreciate a gift from an unexpected source",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Jockey",
+      "original": "To dream of a jockey, omens you will appreciate a gift from an unexpected source.",
+      "translation_ko": "기수 꿈은 뜻밖의 곳에서 온 선물을 고맙게 여기리라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "기수",
+    "term_en": "jockey",
+    "context": "처녀가 기수와 가까이 지냄",
+    "interpretation_ko": "제 자리 밖에서 지아비를 얻을 조짐",
+    "interpretation_en": "indicates she will win a husband out of her station",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Jockey",
+      "original": "For a young woman to dream that she associates with a jockey, or has one for a lover, indicates she will win a husband out of her station.",
+      "translation_ko": "젊은 여성이 기수와 가까이 지내거나 그를 정인으로 두는 꿈을 꾸면, 제 자리 밖에서 지아비를 얻는다"
+    }
+  },
+  {
+    "term_ko": "기수",
+    "term_en": "jockey",
+    "context": "기수가 말에서 떨어지는 것을 봄",
+    "interpretation_ko": "낯선 이들에게 도움을 청하는 부름을 받을 조짐",
+    "interpretation_en": "signifies you will be called on for aid by strangers",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Jockey",
+      "original": "To see one thrown from a horse, signifies you will be called on for aid by strangers.",
+      "translation_ko": "기수가 말에서 떨어지는 것을 보면 낯선 이들에게 도움을 청하는 부름을 받는다"
+    }
+  }
+]
