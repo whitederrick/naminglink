@@ -38,6 +38,7 @@
     "m13.json",
     "m130.json",
     "m131.json",
+    "m132.json",
     "m14.json",
     "m15.json",
     "m16.json",
@@ -48728,6 +48729,82 @@
       ]
     },
     {
+      "id": "mortgage",
+      "term_ko": "저당",
+      "term_en": "mortgage",
+      "aliases": [
+        "저당을",
+        "저당이",
+        "저당 잡혔다",
+        "빚문서"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제 재산을 저당 잡힘",
+          "interpretation_ko": "돈 문제가 크게 흔들려 난처한 자리에 놓일 흉한 조짐",
+          "interpretation_en": "denotes that you are threatened with financial upheavals, which will throw you into embarrassing positions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mortgage",
+              "original": "To dream that you give a mortgage on your property, denotes that you are threatened with financial upheavals, which will throw you into embarrassing positions.",
+              "translation_ko": "제 재산을 저당 잡히는 꿈은, 돈 문제가 크게 흔들려 난처한 자리에 놓임을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 저당을 잡음",
+          "interpretation_ko": "빚을 갚을 만큼 재물이 넉넉해질 길한 조짐",
+          "interpretation_en": "is ominous of adequate wealth to liquidate your obligations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mortgage",
+              "original": "To take, or hold one, against others, is ominous of adequate wealth to liquidate your obligations.",
+              "translation_ko": "남에게 저당을 잡으면 빚을 갚을 만큼 재물이 넉넉해진다"
+            }
+          ]
+        },
+        {
+          "context": "저당 문서를 읽어 봄",
+          "interpretation_ko": "사랑이나 이득에서 큰 가능성이 앞에 놓일 길한 조짐",
+          "interpretation_en": "denotes great possibilities before you of love or gain",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mortgage",
+              "original": "To find yourself reading or examining mortgages, denotes great possibilities before you of love or gain.",
+              "translation_ko": "저당 문서를 읽거나 살펴보는 꿈은, 사랑이나 이득에서 큰 가능성이 앞에 놓임을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "저당 문서를 잃어버림",
+          "interpretation_ko": "잃을 것이 있고 마음이 시달릴 흉한 조짐",
+          "interpretation_en": "implies loss and worry",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mortgage",
+              "original": "To lose a mortgage, if it cannot be found again, implies loss and worry.",
+              "translation_ko": "저당 문서를 잃어버려 다시 찾지 못하면, 잃을 것이 있고 마음이 시달린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "mud",
       "term_ko": "진흙",
       "term_en": "mud",
@@ -61593,6 +61670,68 @@
               "locator": "Molasses",
               "original": "To have it smeared on your clothing, denotes you will have disagreeable offers of marriage, and probably losses in business.",
               "translation_ko": "당밀이 옷에 묻으면, 달갑지 않은 혼담이 들어오고 하는 일에도 잃을 것이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mosquito",
+      "term_ko": "모기",
+      "term_en": "mosquito",
+      "aliases": [
+        "모기떼",
+        "모기가",
+        "모기를"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "모기를 봄",
+          "interpretation_ko": "몰래 해치려는 이들의 손길을 막아 보려 애써도 헛될 흉한 조짐",
+          "interpretation_en": "you will strive in vain to remain impregnable to the sly attacks of secret enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mosquito",
+              "original": "To see mosquitoes in your dreams, you will strive in vain to remain impregnable to the sly attacks of secret enemies.",
+              "translation_ko": "꿈에 모기를 보면, 몰래 해치려는 이들의 손길을 막아 보려 애써도 헛되다"
+            }
+          ]
+        },
+        {
+          "context": "모기를 죽임",
+          "interpretation_ko": "끝내 걸림돌을 이겨 내고 복된 운과 집안의 즐거움을 누릴 길한 조짐",
+          "interpretation_en": "you will eventually overcome obstacles and enjoy fortune and domestic bliss",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mosquito",
+              "original": "If you kill mosquitoes, you will eventually overcome obstacles and enjoy fortune and domestic bliss.",
+              "translation_ko": "모기를 죽이면 끝내 걸림돌을 이겨 내고 복된 운과 집안의 즐거움을 누린다"
+            }
+          ]
+        },
+        {
+          "context": "모기가 사람을 묾",
+          "interpretation_ko": "잃는 것이 있을 조짐",
+          "interpretation_en": "a sign of suffering a loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "蚊子咬人主有失",
+              "translation_ko": "모기가 사람을 물면 잃는 것이 있다"
             }
           ]
         }
@@ -82214,6 +82353,101 @@
       ]
     },
     {
+      "id": "morose",
+      "term_ko": "시무룩함",
+      "term_en": "morose",
+      "aliases": [
+        "시무룩한",
+        "시무룩해",
+        "시무룩했다",
+        "뚱해서"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 시무룩함",
+          "interpretation_ko": "깨어 보니 제 앞의 세상이 몹시 어그러져 있을 흉한 조짐",
+          "interpretation_en": "you will awake to find the world, as far as you are concerned, going fearfully wrong",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Morose",
+              "original": "If you find yourself morose in dreams, you will awake to find the world, as far as you are concerned, going fearfully wrong.",
+              "translation_ko": "꿈에서 제가 시무룩해 있으면, 깨어 보니 제 앞의 세상이 몹시 어그러져 있다"
+            }
+          ]
+        },
+        {
+          "context": "남이 시무룩한 것을 봄",
+          "interpretation_ko": "달갑지 않은 일과 달갑지 않은 사람을 만날 흉한 조짐",
+          "interpretation_en": "portends unpleasant occupations and unpleasant companions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Morose",
+              "original": "To see others morose, portends unpleasant occupations and unpleasant companions.",
+              "translation_ko": "남이 시무룩한 것을 보면 달갑지 않은 일과 달갑지 않은 사람을 만난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moss",
+      "term_ko": "이끼",
+      "term_en": "moss",
+      "aliases": [
+        "이끼가",
+        "이끼를",
+        "푸른 이끼"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "이끼를 봄",
+          "interpretation_ko": "남에게 매인 자리를 맡게 될 흉한 조짐",
+          "interpretation_en": "denotes that you will fill dependent positions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moss",
+              "original": "To dream of moss, denotes that you will fill dependent positions, unless the moss grows in rich soil, when you will be favored with honors.",
+              "translation_ko": "이끼의 꿈은 남에게 매인 자리를 맡게 됨을 뜻한다 — 다만 기름진 땅에 자란 이끼면 높은 이름을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "기름진 땅에 이끼가 자람",
+          "interpretation_ko": "높은 이름을 얻을 길한 조짐",
+          "interpretation_en": "when you will be favored with honors",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moss",
+              "original": "To dream of moss, denotes that you will fill dependent positions, unless the moss grows in rich soil, when you will be favored with honors.",
+              "translation_ko": "기름진 땅에 이끼가 자란 것을 보면 높은 이름을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "moving-house",
       "term_ko": "이사",
       "term_en": "moving house",
@@ -93434,31 +93668,99 @@
       ]
     },
     {
-      "id": "mosquito",
-      "term_ko": "모기",
-      "term_en": "mosquito",
+      "id": "mortification",
+      "term_ko": "부끄러움",
+      "term_en": "mortification",
       "aliases": [
-        "모기떼"
+        "부끄러웠다",
+        "부끄러운",
+        "창피했다",
+        "낯이 뜨거"
       ],
-      "category": "animal",
+      "category": "action",
       "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "모기가 사람을 묾",
-          "interpretation_ko": "잃는 것이 있을 조짐",
-          "interpretation_en": "a sign of suffering a loss",
+          "context": "제 행동을 부끄러워함",
+          "interpretation_ko": "떳떳하게 보이고 싶던 이들 앞에서 부러울 것 없는 자리에 놓일 흉한 조짐",
+          "interpretation_en": "is a sign that you will be placed in an unenviable position before those to whom you most wish to appear honorable and just",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "蚊子咬人主有失",
-              "translation_ko": "모기가 사람을 물면 잃는 것이 있다"
+              "work": "miller",
+              "locator": "Mortification",
+              "original": "To dream that you feel mortified over any deed committed by yourself, is a sign that you will be placed in an unenviable position before those to whom you most wish to appear honorable and just.",
+              "translation_ko": "제가 한 일을 부끄러워하는 꿈은, 떳떳하게 보이고 싶던 이들 앞에서 부러울 것 없는 자리에 놓임을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mortified-flesh",
+      "term_ko": "썩은 살",
+      "term_en": "mortified flesh",
+      "aliases": [
+        "썩은 살이",
+        "살이 썩었다",
+        "곪은 살"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "썩은 살을 봄",
+          "interpretation_ko": "하는 일이 크게 그르치고 사랑에서도 실망할 흉한 조짐",
+          "interpretation_en": "denotes disastrous enterprises and disappointment in love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mortification",
+              "original": "To see mortified flesh, denotes disastrous enterprises and disappointment in love.",
+              "translation_ko": "썩은 살을 보면 하는 일이 크게 그르치고 사랑에서도 실망한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moses",
+      "term_ko": "모세",
+      "term_en": "moses",
+      "aliases": [
+        "모세가",
+        "모세를"
+      ],
+      "category": "person",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "모세를 봄",
+          "interpretation_ko": "제게 이득이 있고 기꺼이 축하할 만한 혼인이 있을 길한 조짐",
+          "interpretation_en": "means personal gain and a connubial alliance which will be a source of sweet congratulation to yourself",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moses",
+              "original": "To dream that you see Moses, means personal gain and a connubial alliance which will be a source of sweet congratulation to yourself.",
+              "translation_ko": "꿈에 모세를 보면, 제게 이득이 있고 기꺼이 축하할 만한 혼인이 있다"
             }
           ]
         }

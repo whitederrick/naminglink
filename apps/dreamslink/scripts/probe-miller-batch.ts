@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 131 — Monster~Morocco, 20건)
+// (지금 담긴 것: 배치 132 — Mortgage~Moss, 14건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,27 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "monster", ctx: "괴물에게 쫓김", text: "괴물에게 쫓겼다" },
-  { id: "monster", ctx: "괴물을 죽임", text: "괴물을 죽였다" },
-  { id: "moon", ctx: "하늘이 여느 때와 같은데 달을 봄", text: "여느 때와 같은 하늘에 달이 있었다" },
-  { id: "moon", ctx: "기괴한 달을 봄", text: "기괴한 달을 보았다" },
-  { id: "moon", ctx: "월식이 드는 것을 봄", text: "월식이 드는 것을 보았다" },
-  { id: "moon", ctx: "초승달을 봄", text: "초승달을 보았다" },
-  { id: "moon", ctx: "처녀가 달에게 제 앞날을 물음", text: "처녀가 달에게 앞날을 물었다" },
-  { id: "moon", ctx: "달이 둘로 보임", text: "달이 둘로 보였다" },
-  { id: "moon", ctx: "달빛이 점점 사그라짐", text: "달빛이 점점 사그라들었다" },
-  { id: "moon", ctx: "핏빛으로 붉은 달을 봄", text: "핏빛으로 붉은 달을 보았다" },
-  { id: "morgue", ctx: "누구를 찾으러 영안실에 감", text: "누구를 찾으러 영안실에 갔다" },
-  { id: "morgue", ctx: "영안실에 주검이 많은 것을 봄", text: "영안실에 주검이 많이 있었다" },
-  { id: "daybreak", ctx: "맑은 아침 동이 트는 것을 봄", text: "맑은 아침 동이 트는 것을 보았다" },
-  { id: "daybreak", ctx: "흐린 아침을 봄", text: "흐린 아침이었다" },
-  { id: "hide", ctx: "모로코 가죽을 봄", text: "모로코 가죽을 보았다" },
+  { id: "mortgage", ctx: "제 재산을 저당 잡힘", text: "내 집을 저당 잡혔다" },
+  { id: "mortgage", ctx: "남에게 저당을 잡음", text: "남에게 저당을 잡았다" },
+  { id: "mortgage", ctx: "저당 문서를 읽어 봄", text: "저당 문서를 읽어 보았다" },
+  { id: "mortgage", ctx: "저당 문서를 잃어버림", text: "저당 문서를 잃어버렸다" },
+  { id: "morose", ctx: "제가 시무룩함", text: "내가 시무룩했다" },
+  { id: "morose", ctx: "남이 시무룩한 것을 봄", text: "남들이 시무룩한 것을 보았다" },
+  { id: "mortification", ctx: "제 행동을 부끄러워함", text: "내가 한 일이 부끄러웠다" },
+  { id: "mortified-flesh", ctx: "썩은 살을 봄", text: "썩은 살이 드러나 있었다" },
+  { id: "moses", ctx: "모세를 봄", text: "모세가 나타났다" },
+  { id: "mosquito", ctx: "모기를 봄", text: "모기가 앵앵거리며 날아다녔다" },
+  { id: "mosquito", ctx: "모기를 죽임", text: "모기를 죽였다" },
+  { id: "moss", ctx: "이끼를 봄", text: "돌에 이끼가 끼어 있었다" },
+  { id: "moss", ctx: "기름진 땅에 이끼가 자람", text: "기름진 땅에 이끼가 자라 있었다" },
   // 지킴 — 이번 배치가 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "moon", ctx: "달을 삼킴", text: "달을 삼켰다" },
-  { id: "moon", ctx: "달이 어둑하게 흐림", text: "달이 어둑하게 흐렸다" },
-  { id: "moon", ctx: "달이 산에 걸림", text: "달이 산봉우리에 걸려 있었다" },
-  { id: "daybreak", ctx: "날이 밝아 오는 것을 봄", text: "날이 밝아 오는 것을 지켜보았다" },
-  { id: "hide", ctx: "가죽옷을 입음", text: "가죽옷을 입고 있었다" },
+  { id: "mosquito", ctx: "모기가 사람을 묾", text: "모기에게 물렸다" },
 ];
 
 let notFound = 0;

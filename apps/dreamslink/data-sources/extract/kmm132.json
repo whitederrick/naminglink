@@ -1,0 +1,116 @@
+[
+  {
+    "id": "mortgage",
+    "aliases": [
+      "저당을",
+      "저당이",
+      "저당 잡혔다",
+      "빚문서"
+    ],
+    "aliases_en": [
+      "mortgages"
+    ],
+    "contexts": {
+      "제 재산을 저당 잡힘": "잡혔 잡히 맡겼",
+      "남에게 저당을 잡음": "남에게 잡았 받아 두었",
+      "저당 문서를 읽어 봄": "읽어 살펴 들여다",
+      "저당 문서를 잃어버림": "잃어 잃었 사라졌"
+    },
+    "contexts_en": {
+      "제 재산을 저당 잡힘": "give property financial upheavals embarrassing",
+      "남에게 저당을 잡음": "hold ominous adequate liquidate obligations",
+      "저당 문서를 읽어 봄": "reading examining great possibilities gain",
+      "저당 문서를 잃어버림": "lose cannot implies worry"
+    }
+  },
+  {
+    "id": "morose",
+    "aliases": [
+      "시무룩한",
+      "시무룩해",
+      "시무룩했다",
+      "뚱해서"
+    ],
+    "aliases_en": [
+      "moroseness"
+    ],
+    "contexts": {
+      "제가 시무룩함": "제가 내가 스스로",
+      "남이 시무룩한 것을 봄": "남이 남들 다른 사람"
+    },
+    "contexts_en": {
+      "제가 시무룩함": "awake world fearfully wrong",
+      "남이 시무룩한 것을 봄": "others unpleasant occupations companions"
+    }
+  },
+  {
+    "id": "mortification",
+    "aliases": [
+      "부끄러웠다",
+      "부끄러운",
+      "창피했다",
+      "낯이 뜨거"
+    ],
+    "aliases_en": [
+      "mortified"
+    ],
+    "contexts": {
+      "제 행동을 부끄러워함": "부끄러 창피 낯이"
+    },
+    "contexts_en": {
+      "제 행동을 부끄러워함": "deed committed unenviable honorable"
+    }
+  },
+  {
+    "id": "mortified-flesh",
+    "aliases": [
+      "썩은 살이",
+      "살이 썩었다",
+      "곪은 살"
+    ],
+    "aliases_en": [
+      "gangrene"
+    ],
+    "contexts": {
+      "썩은 살을 봄": "썩은 곪은 문드러"
+    },
+    "contexts_en": {
+      "썩은 살을 봄": "disastrous enterprises disappointment"
+    }
+  },
+  {
+    "id": "moses",
+    "aliases": [
+      "모세가",
+      "모세를"
+    ],
+    "aliases_en": [
+      "prophet moses"
+    ],
+    "contexts": {
+      "모세를 봄": "나타났 보였"
+    },
+    "contexts_en": {
+      "모세를 봄": "personal gain connubial alliance congratulation"
+    }
+  },
+  {
+    "id": "moss",
+    "aliases": [
+      "이끼가",
+      "이끼를",
+      "푸른 이끼"
+    ],
+    "aliases_en": [
+      "mosses"
+    ],
+    "contexts": {
+      "이끼를 봄": "돌에 끼어 덮여",
+      "기름진 땅에 이끼가 자람": "기름진 걸찬 자라"
+    },
+    "contexts_en": {
+      "이끼를 봄": "dependent positions",
+      "기름진 땅에 이끼가 자람": "rich soil favored honors"
+    }
+  }
+]

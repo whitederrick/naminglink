@@ -6377,5 +6377,23 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "morgue": [
     "morgues"
+  ],
+  "mortgage": [
+    "mortgages"
+  ],
+  "morose": [
+    "moroseness"
+  ],
+  "mortification": [
+    "mortified"
+  ],
+  "mortified-flesh": [
+    "gangrene"
+  ],
+  "moses": [
+    "prophet moses"
+  ],
+  "moss": [
+    "mosses"
   ]
 };

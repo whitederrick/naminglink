@@ -746,6 +746,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "letter::찢어진 편지를 봄": "torn hopeless reputation",
   "letter::편지를 손으로 건네받음": "hand ungenerously upright",
   "letter::벗에게서 편지를 자주 받음": "friend often",
+  "mosquito::모기가 사람을 묾": "bitten stung",
+  "mosquito::모기를 봄": "strive vain impregnable sly secret",
+  "mosquito::모기를 죽임": "kill eventually overcome obstacles bliss",
   "sword::깃발과 칼이 산속으로 이끌어 들임": "banner flag mountain",
   "sword::칼을 뽑아 들고 길을 나섬": "journey traveled departed setting",
   "sword::남에게서 칼을 얻음": "received obtained acquired",
@@ -4470,5 +4473,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "monster::괴물에게 쫓김": "pursued sorrow misfortune prominent",
   "monster::괴물을 죽임": "slay cope enemies eminent",
   "morgue::누구를 찾으러 영안실에 감": "visit searching shocked news relative",
-  "morgue::영안실에 주검이 많은 것을 봄": "many corpses sorrow trouble notice"
+  "morgue::영안실에 주검이 많은 것을 봄": "many corpses sorrow trouble notice",
+  "mortgage::제 재산을 저당 잡힘": "give property financial upheavals embarrassing",
+  "mortgage::남에게 저당을 잡음": "hold ominous adequate liquidate obligations",
+  "mortgage::저당 문서를 읽어 봄": "reading examining great possibilities gain",
+  "mortgage::저당 문서를 잃어버림": "lose cannot implies worry",
+  "morose::제가 시무룩함": "awake world fearfully wrong",
+  "morose::남이 시무룩한 것을 봄": "others unpleasant occupations companions",
+  "mortification::제 행동을 부끄러워함": "deed committed unenviable honorable",
+  "mortified-flesh::썩은 살을 봄": "disastrous enterprises disappointment",
+  "moses::모세를 봄": "personal gain connubial alliance congratulation",
+  "moss::이끼를 봄": "dependent positions",
+  "moss::기름진 땅에 이끼가 자람": "rich soil favored honors"
 };

@@ -1,0 +1,36 @@
+{
+  "batch": 132,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Mortgage",
+      "text": "To dream that you give a mortgage on your property, denotes that you are threatened with financial upheavals, which will throw you into embarrassing positions.\n\nTo take, or hold one, against others, is ominous of adequate wealth to liquidate your obligations.\n\nTo find yourself reading or examining mortgages, denotes great possibilities before you of love or gain.\n\nTo lose a mortgage, if it cannot be found again, implies loss and worry.",
+      "note": "새 상징 `mortgage`(저당)"
+    },
+    {
+      "headword": "Morose",
+      "text": "If you find yourself morose in dreams, you will awake to find the world, as far as you are concerned, going fearfully wrong.\n\nTo see others morose, portends unpleasant occupations and unpleasant companions.",
+      "note": "새 상징 `morose`(시무룩함). 밀러 `Melancholy`(우울)가 이미 `melancholy` 에 같은 **꼴**로 둘 들어와 있으나 표제어도 풀이도 다르고, 한국어에서 「시무룩」과 「우울」은 낱말이 겹치지 않는다. 이름이 상태라 활용형 별칭을 함께 올린다(배치 63)"
+    },
+    {
+      "headword": "Mortification",
+      "text": "To dream that you feel mortified over any deed committed by yourself, is a sign that you will be placed in an unenviable position before those to whom you most wish to appear honorable and just. Financial conditions will fall low.\n\nTo see mortified flesh, denotes disastrous enterprises and disappointment in love.",
+      "note": "**한 표제어가 두 사물을 말한다**(`Moles` 와 같은 자리) — 앞은 마음의 부끄러움, 뒤는 썩은 살이다. 상징을 둘로 갈랐다(`mortification` 부끄러움 · `mortified-flesh` 썩은 살)"
+    },
+    {
+      "headword": "Moses",
+      "text": "To dream that you see Moses, means personal gain and a connubial alliance which will be a source of sweet congratulation to yourself.",
+      "note": "새 상징 `moses`(모세)"
+    },
+    {
+      "headword": "Mosquito",
+      "text": "To see mosquitoes in your dreams, you will strive in vain to remain impregnable to the sly attacks of secret enemies. Your patience and fortune will both suffer from these designing persons.\n\nIf you kill mosquitoes, you will eventually overcome obstacles and enjoy fortune and domestic bliss.",
+      "note": "「모기」가 기존 `mosquito` 의 이름이다. **의미가 하나뿐이라 판별어 표가 비어 있었다** — 이 세션 아홉 번째다(배치 35). 기존 의미부터 채운다"
+    },
+    {
+      "headword": "Moss",
+      "text": "To dream of moss, denotes that you will fill dependent positions, unless the moss grows in rich soil, when you will be favored with honors.",
+      "note": "새 상징 `moss`(이끼). 한 문장에 조건이 붙어 있어 의미 둘로 갈랐다 — 인용은 같은 문장이다"
+    }
+  ]
+}

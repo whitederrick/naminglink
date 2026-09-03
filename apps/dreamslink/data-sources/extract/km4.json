@@ -897,14 +897,24 @@
   {
     "id": "mosquito",
     "aliases": [
-      "모기떼"
+      "모기떼",
+      "모기가",
+      "모기를"
     ],
     "aliases_en": [
       "mosquitoes",
       "mosquito bite"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "모기가 사람을 묾": "물렸 물었 물어",
+      "모기를 봄": "날아다 앵앵",
+      "모기를 죽임": "죽였 잡았 때려"
+    },
+    "contexts_en": {
+      "모기가 사람을 묾": "bitten stung",
+      "모기를 봄": "strive vain impregnable sly secret",
+      "모기를 죽임": "kill eventually overcome obstacles bliss"
+    }
   },
   {
     "id": "naked-body",
