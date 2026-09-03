@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 173 — Pickaxe~Pickles, 6건)
+// (지금 담긴 것: 배치 174 — Pickpocket~Picnic, 6건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -516,6 +516,12 @@ const CASES: Case[] = [
   { id: "pickle", ctx: "처녀가 피클을 먹는 꿈을 꿈", text: "처녀가 피클을 먹는 꿈을 꾸었다" },
   { id: "pickle", ctx: "처녀가 피클을 먹거나 몹시 먹고 싶어함", text: "처녀가 피클을 몹시 먹고 싶어했다" },
   { id: "pickle", ctx: "상한 피클을 봄", text: "상한 피클을 보았다" },
+  { id: "pickpocket", ctx: "소매치기 꿈을 꿈", text: "소매치기 꿈을 꾸었다" },
+  { id: "pickpocket", ctx: "처녀가 소매치기를 당함", text: "처녀가 소매치기를 당했다" },
+  { id: "pickpocket", ctx: "처녀가 소매치기 짓을 함", text: "처녀가 소매치기 짓을 했다" },
+  { id: "picnic", ctx: "소풍에 참석함", text: "소풍에 참석했다" },
+  { id: "picnic", ctx: "소풍 꿈을 꿈", text: "소풍 꿈을 꾸었다" },
+  { id: "picnic", ctx: "소풍에서 폭풍우나 방해되는 일이 생김", text: "소풍에서 폭풍우가 몰아쳤다" },
 ];
 
 let notFound = 0;

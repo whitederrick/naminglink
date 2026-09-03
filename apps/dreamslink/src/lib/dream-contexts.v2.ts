@@ -5001,5 +5001,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pickle::피클 꿈을 꿈": "worthless pursuits energy",
   "pickle::처녀가 피클을 먹는 꿈을 꿈": "young woman unambitious career",
   "pickle::처녀가 피클을 먹거나 몹시 먹고 싶어함": "hungry rivals overcome",
-  "pickle::상한 피클을 봄": "impure disappointing quarrels"
+  "pickle::상한 피클을 봄": "impure disappointing quarrels",
+  "pickpocket::소매치기 꿈을 꿈": "enemy harassing loss",
+  "pickpocket::처녀가 소매치기를 당함": "young woman envy spite",
+  "pickpocket::처녀가 소매치기 짓을 함": "picks others coarse",
+  "picnic::소풍에 참석함": "attending real enjoyment",
+  "picnic::소풍 꿈을 꿈": "undivided happiness young",
+  "picnic::소풍에서 폭풍우나 방해되는 일이 생김": "storms interfering displacement"
 };

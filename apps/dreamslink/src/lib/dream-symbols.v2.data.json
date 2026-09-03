@@ -84,6 +84,7 @@
     "m171.json",
     "m172.json",
     "m173.json",
+    "m174.json",
     "m18.json",
     "m19.json",
     "m2.json",
@@ -69260,6 +69261,128 @@
               "locator": "Pheasant",
               "original": "To shoot them, denotes that you will fail to sacrifice one selfish pleasure for the comfort of friends.",
               "translation_ko": "꿩을 쏘는 꿈은, 벗의 편안함을 위해 이기적인 즐거움 하나를 못 버릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pickpocket",
+      "term_ko": "소매치기",
+      "term_en": "pickpocket",
+      "aliases": [
+        "소매치기가",
+        "소매치기를",
+        "소매치기를 당함"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "소매치기 꿈을 꿈",
+          "interpretation_ko": "어떤 적이 저를 괴롭혀 손해를 입히는 데 성공할 조짐",
+          "interpretation_en": "foretells some enemy will succeed in harassing and causing you loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pickpocket",
+              "original": "To dream of a pickpocket, foretells some enemy will succeed in harassing and causing you loss.",
+              "translation_ko": "소매치기 꿈은, 어떤 적이 저를 괴롭혀 손해를 입히는 데 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 소매치기 짓을 함",
+          "interpretation_ko": "거친 행실로 동무의 노여움을 살 조짐",
+          "interpretation_en": "she will incur the displeasure of a companion by her coarse behavior",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pickpocket",
+              "original": "If she picks others' pockets, she will incur the displeasure of a companion by her coarse behavior.",
+              "translation_ko": "처녀가 소매치기 짓을 하는 꿈은, 거친 행실로 동무의 노여움을 살 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 소매치기를 당함",
+          "interpretation_ko": "누군가의 시샘과 앙심을 살 조짐이며 입을 다물지 않으면 벗의 정을 잃을 수도 있는 조짐",
+          "interpretation_en": "denotes she will be the object of some person's envy and spite, and may lose the regard of a friend through these evil machinations, unless she keeps her own counsel",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pickpocket",
+              "original": "For a young woman to have her pocket picked, denotes she will be the object of some person's envy and spite, and may lose the regard of a friend through these evil machinations, unless she keeps her own counsel.",
+              "translation_ko": "처녀가 소매치기를 당하는 꿈은, 누군가의 시샘과 앙심을 살 조짐이며 입을 다물지 않으면 벗의 정을 잃을 수도 있는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "picnic",
+      "term_ko": "소풍",
+      "term_en": "picnic",
+      "aliases": [
+        "소풍이",
+        "소풍에",
+        "소풍을"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "소풍 꿈을 꿈",
+          "interpretation_ko": "젊은이에게 온전한 행복을 가져다주는 조짐",
+          "interpretation_en": "bring undivided happiness to the young",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Picnic",
+              "original": "Dreams of picnics, bring undivided happiness to the young.",
+              "translation_ko": "소풍 꿈은, 젊은이에게 온전한 행복을 가져다주는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "소풍에 참석함",
+          "interpretation_ko": "성공과 참된 즐거움을 미리 보여주는 조짐",
+          "interpretation_en": "foreshadows success and real enjoyment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Picnic",
+              "original": "To dream of attending a picnic, foreshadows success and real enjoyment.",
+              "translation_ko": "소풍에 참석하는 꿈은, 성공과 참된 즐거움을 미리 보여주는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "소풍에서 폭풍우나 방해되는 일이 생김",
+          "interpretation_ko": "이미 정해진 이익과 사랑이나 사업의 즐거움이 한동안 밀려날 조짐",
+          "interpretation_en": "implies the temporary displacement of assured profit and pleasure in love or business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Picnic",
+              "original": "Storms, or any interfering elements at a picnic, implies the temporary displacement of assured profit and pleasure in love or business.",
+              "translation_ko": "소풍에서 폭풍우나 방해되는 일이 생기는 꿈은, 이미 정해진 이익과 사랑이나 사업의 즐거움이 한동안 밀려날 조짐이다"
             }
           ]
         }

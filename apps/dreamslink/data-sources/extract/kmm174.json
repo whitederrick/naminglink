@@ -1,0 +1,44 @@
+[
+  {
+    "id": "pickpocket",
+    "aliases": [
+      "소매치기가",
+      "소매치기를",
+      "소매치기를 당함"
+    ],
+    "aliases_en": [
+      "pickpockets"
+    ],
+    "contexts": {
+      "소매치기 꿈을 꿈": "적이 괴롭혀 손해",
+      "처녀가 소매치기를 당함": "처녀가 시샘 앙심",
+      "처녀가 소매치기 짓을 함": "짓을 거친 노여움"
+    },
+    "contexts_en": {
+      "소매치기 꿈을 꿈": "enemy harassing loss",
+      "처녀가 소매치기를 당함": "young woman envy spite",
+      "처녀가 소매치기 짓을 함": "picks others coarse"
+    }
+  },
+  {
+    "id": "picnic",
+    "aliases": [
+      "소풍이",
+      "소풍에",
+      "소풍을"
+    ],
+    "aliases_en": [
+      "picnics"
+    ],
+    "contexts": {
+      "소풍에 참석함": "참석 참된 즐거움",
+      "소풍 꿈을 꿈": "젊은이 온전한",
+      "소풍에서 폭풍우나 방해되는 일이 생김": "폭풍우 방해 밀려날"
+    },
+    "contexts_en": {
+      "소풍에 참석함": "attending real enjoyment",
+      "소풍 꿈을 꿈": "undivided happiness young",
+      "소풍에서 폭풍우나 방해되는 일이 생김": "storms interfering displacement"
+    }
+  }
+]

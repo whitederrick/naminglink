@@ -1,0 +1,23 @@
+{
+  "batch": 174,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pickpocket",
+      "text": "To dream of a pickpocket, foretells some enemy will succeed in harassing and causing you loss. For a young woman to have her pocket picked, denotes she will be the object of some person's envy and spite, and may lose the regard of a friend through these evil machinations, unless she keeps her own counsel. If she picks others' pockets, she will incur the displeasure of a companion by her coarse behavior.",
+      "note": "새 상징 `pickpocket`(소매치기)"
+    },
+    {
+      "headword": "Picnic",
+      "text": "To dream of attending a picnic, foreshadows success and real enjoyment. Dreams of picnics, bring undivided happiness to the young. Storms, or any interfering elements at a picnic, implies the temporary displacement of assured profit and pleasure in love or business.",
+      "note": "새 상징 `picnic`(소풍). 「[155] See Kindred Words」는 구체적 대상이 없는 cross-ref라 뺐다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "[155] See Kindred Words.",
+      "reason": "`Picnic` — 구체적 대상이 없는 cross-reference"
+    }
+  ]
+}
