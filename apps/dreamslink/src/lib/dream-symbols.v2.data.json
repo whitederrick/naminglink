@@ -64,6 +64,7 @@
     "m62.json",
     "m63.json",
     "m64.json",
+    "m65.json",
     "m7a.json",
     "m7b.json",
     "m8.json",
@@ -14151,6 +14152,157 @@
               "locator": "被害鬥傷打罵",
               "original": "殺雞鵝鴨主大吉",
               "translation_ko": "닭과 거위와 오리를 잡으면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iron-2",
+      "term_ko": "쇠붙이",
+      "term_en": "iron",
+      "aliases": [
+        "쇳덩이",
+        "철제",
+        "무쇠",
+        "쇠붙이를",
+        "쇠를",
+        "쇠가",
+        "쇳덩이가",
+        "쇠로"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "쇠로 만든 기물을 봄",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "見鐵器物主得財",
+              "translation_ko": "쇠로 만든 기물을 보면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "쇳덩이에 짓눌림",
+          "interpretation_ko": "마음이 어지럽고 재물에 손해가 있을 흉한 조짐",
+          "interpretation_en": "signifies mental perplexities and material losses",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Iron",
+              "original": "To feel an iron weight bearing you down, signifies mental perplexities and material losses.",
+              "translation_ko": "쇳덩이가 짓누르는 것을 느끼면 마음이 어지럽고 재물에 손해가 있다"
+            }
+          ]
+        },
+        {
+          "context": "쇠붙이로 침",
+          "interpretation_ko": "제게 기댄 이들에게 이기적이고 모질게 굴 흉한 조짐",
+          "interpretation_en": "denotes selfishness and cruelty to those dependent upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Iron",
+              "original": "To strike with iron, denotes selfishness and cruelty to those dependent upon you.",
+              "translation_ko": "쇠붙이로 치면 제게 기댄 이들에게 이기적이고 모질게 군다"
+            }
+          ]
+        },
+        {
+          "context": "쇠붙이를 만듦",
+          "interpretation_ko": "떳떳하지 못한 수로 재물을 모을 흉한 조짐",
+          "interpretation_en": "denotes that you will use unjust means to accumulate wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Iron",
+              "original": "To dream that you manufacture iron, denotes that you will use unjust means to accumulate wealth.",
+              "translation_ko": "쇠붙이를 만드는 꿈을 꾸면 떳떳하지 못한 수로 재물을 모은다"
+            }
+          ]
+        },
+        {
+          "context": "쇠붙이를 팖",
+          "interpretation_ko": "이룸이 미덥지 못하고 벗들이 어질지 못할 흉한 조짐",
+          "interpretation_en": "you will have doubtful success, and your friends will not be of noble character",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Iron",
+              "original": "To sell iron, you will have doubtful success, and your friends will not be of noble character.",
+              "translation_ko": "쇠붙이를 팔면 이룸이 미덥지 못하고 벗들이 어질지 못하다"
+            }
+          ]
+        },
+        {
+          "context": "낡고 녹슨 쇠붙이를 봄",
+          "interpretation_ko": "가난과 실망이 따를 흉한 조짐",
+          "interpretation_en": "signifies poverty and disappointment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Iron",
+              "original": "To see old, rusty iron, signifies poverty and disappointment.",
+              "translation_ko": "낡고 녹슨 쇠붙이를 보면 가난과 실망이 따른다"
+            }
+          ]
+        },
+        {
+          "context": "쇠붙이 값이 내림",
+          "interpretation_ko": "재물이란 삶에서 몹시 미덥지 못한 것임을 깨달을 조짐",
+          "interpretation_en": "you will realize that fortune is a very unsafe factor in your life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Iron",
+              "original": "To dream that the price of iron goes down, you will realize that fortune is a very unsafe factor in your life.",
+              "translation_ko": "쇠붙이 값이 내리는 꿈을 꾸면 재물이란 삶에서 몹시 미덥지 못한 것임을 깨닫는다"
+            }
+          ]
+        },
+        {
+          "context": "쇠붙이 값이 오름",
+          "interpretation_ko": "어두운 앞날에 한 줄기 바람이 보일 길한 조짐",
+          "interpretation_en": "you will see a gleam of hope in a dark prospectus",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Iron",
+              "original": "If iron advances, you will see a gleam of hope in a dark prospectus.",
+              "translation_ko": "쇠붙이 값이 오르면 어두운 앞날에 한 줄기 바람이 보인다"
+            }
+          ]
+        },
+        {
+          "context": "벌겋게 달군 쇠붙이를 봄",
+          "interpretation_ko": "기운을 엉뚱한 데 쏟아 일을 그르칠 흉한 조짐",
+          "interpretation_en": "denotes failure for you by misapplied energy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Iron",
+              "original": "To see red-hot iron in your dreams, denotes failure for you by misapplied energy.",
+              "translation_ko": "벌겋게 달군 쇠붙이를 보는 꿈은 기운을 엉뚱한 데 쏟아 일을 그르치리라는 뜻이다"
             }
           ]
         }
@@ -48921,6 +49073,72 @@
       ]
     },
     {
+      "id": "invite",
+      "term_ko": "초대",
+      "term_en": "invite",
+      "aliases": [
+        "초대해",
+        "초대했다",
+        "초대받았다",
+        "초대받은",
+        "초대받아",
+        "초대를",
+        "초대장",
+        "부름을 받"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남을 집으로 부름",
+          "interpretation_ko": "달갑지 않은 일이 가까이 와 편안하던 자리에 근심과 소란을 일으킬 흉한 조짐",
+          "interpretation_en": "denotes that some unpleasant event is near, and will cause worry and excitement in your otherwise pleasant surroundings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Invite",
+              "original": "To dream that you invite persons to visit you, denotes that some unpleasant event is near, and will cause worry and excitement in your otherwise pleasant surroundings.",
+              "translation_ko": "남을 집으로 부르는 꿈을 꾸면 달갑지 않은 일이 가까이 와 편안하던 자리에 근심과 소란을 일으킨다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 오라는 부름을 받음",
+          "interpretation_ko": "슬픈 기별을 받을 흉한 조짐",
+          "interpretation_en": "you will receive sad news",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Invite",
+              "original": "If you are invited to make a visit, you will receive sad news.",
+              "translation_ko": "남에게 오라는 부름을 받으면 슬픈 기별을 받는다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 잔치에 부름받음",
+          "interpretation_ko": "즐거운 기대를 품으나 불운이 그것을 흐릴 흉한 조짐",
+          "interpretation_en": "she will have pleasant anticipations, but ill luck will mar them",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Invite",
+              "original": "For a woman to dream that she is invited to attend a party, she will have pleasant anticipations, but ill luck will mar them.",
+              "translation_ko": "여자가 잔치에 부름받는 꿈을 꾸면 즐거운 기대를 품으나 불운이 그것을 흐린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "kitchen",
       "term_ko": "부엌",
       "term_en": "kitchen",
@@ -50209,6 +50427,73 @@
               "locator": "天地日月星辰",
               "original": "雷從地震主志遂",
               "translation_ko": "우레가 땅에서 울리면 뜻을 이룬다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verbal-abuse",
+      "term_ko": "욕설",
+      "term_en": "verbal abuse",
+      "aliases": [
+        "욕을",
+        "모욕",
+        "험담",
+        "욕설을",
+        "욕설하",
+        "욕설한",
+        "욕을 퍼부",
+        "쌍소리"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남에게 욕을 먹고 모욕을 당함",
+          "interpretation_ko": "송사에 휘말릴 조짐",
+          "interpretation_en": "a sign of being drawn into a lawsuit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "被辱罵惹人詞訟",
+              "translation_ko": "욕을 먹고 모욕을 당하면 남과 송사가 붙는다"
+            }
+          ]
+        },
+        {
+          "context": "제가 욕설을 퍼부음",
+          "interpretation_ko": "북받친 노여움이 터져 가까운 이들과 사이가 멀어질 흉한 조짐",
+          "interpretation_en": "warns you of passionate outbursts of anger, which may estrange you from close companions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Invective",
+              "original": "To dream of using invectives, warns you of passionate outbursts of anger, which may estrange you from close companions.",
+              "translation_ko": "욕설을 퍼붓는 꿈은 북받친 노여움이 터져 가까운 이들과 멀어지리라는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 욕설하는 것을 들음",
+          "interpretation_ko": "적이 에워싸고 그른 일과 속임수로 몰아갈 흉한 조짐",
+          "interpretation_en": "enemies are closing you in to apparent wrong and deceits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Invective",
+              "original": "To hear others using them, enemies are closing you in to apparent wrong and deceits.",
+              "translation_ko": "남들이 그런 말을 하는 것을 들으면 적들이 에워싸고 그른 일과 속임수로 몰아간다"
             }
           ]
         }
@@ -67186,6 +67471,55 @@
       ]
     },
     {
+      "id": "inventor",
+      "term_ko": "발명가",
+      "term_en": "inventor",
+      "aliases": [
+        "발명하는",
+        "발명했다",
+        "발명한",
+        "발명을",
+        "발명품"
+      ],
+      "category": "person",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "발명가를 봄",
+          "interpretation_ko": "머지않아 남다른 일을 이루어 이름을 빛낼 길한 조짐",
+          "interpretation_en": "foretells you will soon achieve some unique work which will add honor to your name",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Inventor",
+              "original": "To dream of an inventor, foretells you will soon achieve some unique work which will add honor to your name.",
+              "translation_ko": "발명가의 꿈은 머지않아 남다른 일을 이루어 이름을 빛내리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "제가 무엇을 발명함",
+          "interpretation_ko": "큰 재물을 바라고 그 뜻을 이룰 길한 조짐",
+          "interpretation_en": "denotes you will aspire to fortune and will be successful in your designs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Inventor",
+              "original": "To dream that you are inventing something, or feel interested in some invention, denotes you will aspire to fortune and will be successful in your designs.",
+              "translation_ko": "제가 무엇을 발명하거나 어떤 발명에 마음이 끌리는 꿈을 꾸면, 큰 재물을 바라고 그 뜻을 이룬다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "letter",
       "term_ko": "편지",
       "term_en": "letter",
@@ -77491,39 +77825,6 @@
       ]
     },
     {
-      "id": "iron-2",
-      "term_ko": "쇠붙이",
-      "term_en": "iron",
-      "aliases": [
-        "쇳덩이",
-        "철제",
-        "무쇠"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "쇠로 만든 기물을 봄",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "見鐵器物主得財",
-              "translation_ko": "쇠로 만든 기물을 보면 재물을 얻는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "jade-vessel",
       "term_ko": "옥그릇",
       "term_en": "jade vessel",
@@ -80272,39 +80573,6 @@
               "locator": "田園五榖耕種",
               "original": "種菜主長命大吉",
               "translation_ko": "채소를 심으면 오래 살고 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "verbal-abuse",
-      "term_ko": "욕설",
-      "term_en": "verbal abuse",
-      "aliases": [
-        "욕을",
-        "모욕",
-        "험담"
-      ],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남에게 욕을 먹고 모욕을 당함",
-          "interpretation_ko": "송사에 휘말릴 조짐",
-          "interpretation_en": "a sign of being drawn into a lawsuit",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "被辱罵惹人詞訟",
-              "translation_ko": "욕을 먹고 모욕을 당하면 남과 송사가 붙는다"
             }
           ]
         }

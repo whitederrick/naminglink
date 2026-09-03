@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 64 — Intemperance~Inundation, 16건)
+// (지금 담긴 것: 배치 65 — Invective~Iron, 18건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,24 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "intemperance", ctx: "머리 쓰는 일에 지나침", text: "앎을 좇는 데 무절제하게 빠져 있었다" },
-  { id: "intemperance", ctx: "사랑이나 정욕에 지나침", text: "사랑에 무절제하게 빠져 있었다" },
-  { id: "intemperance", ctx: "처녀가 그런 꿈을 꿈", text: "처녀가 무절제한 꿈을 꾸었다" },
-  { id: "intercede", ctx: "남을 두둔하여 나섬", text: "남을 두둔하여 나섰다" },
-  { id: "intermarry", ctx: "겹혼인을 함", text: "겹혼인을 했다" },
-  { id: "interpreter", ctx: "통역하는 이를 봄", text: "통역하는 이를 보았다" },
-  { id: "entrails", ctx: "창자를 뜨거운 것 위에 올려놓고 도움을 못 받음", text: "창자를 난로 위에 올려놓아 뜨거워졌다" },
-  { id: "drunk", ctx: "몹시 취해 있음", text: "몹시 술에 취해 인사불성이었다" },
-  { id: "flood", ctx: "검고 들끓는 물에 마을과 들이 잠긴 것을 봄", text: "온 마을이 시커먼 홍수에 잠긴 것을 보았다" },
-  { id: "flood", ctx: "사람들이 큰물에 휩쓸려 가는 것을 봄", text: "사람들이 큰물에 떠내려가는 것을 보았다" },
-  { id: "flood", ctx: "맑은 물이 너른 땅을 덮은 것을 봄", text: "맑은 큰물이 너른 땅을 덮은 것을 보았다" },
+  { id: "verbal-abuse", ctx: "제가 욕설을 퍼부음", text: "내가 욕설을 퍼부었다" },
+  { id: "verbal-abuse", ctx: "남들이 욕설하는 것을 들음", text: "남들이 욕설하는 것을 들었다" },
+  { id: "inventor", ctx: "발명가를 봄", text: "발명가를 보았다" },
+  { id: "inventor", ctx: "제가 무엇을 발명함", text: "내가 무엇을 발명했다" },
+  { id: "invite", ctx: "남을 집으로 부름", text: "남을 집으로 초대했다" },
+  { id: "invite", ctx: "남에게 오라는 부름을 받음", text: "오라는 초대를 받았다" },
+  { id: "invite", ctx: "여자가 잔치에 부름받음", text: "여자가 잔치에 초대받았다" },
+  { id: "iron-2", ctx: "쇳덩이에 짓눌림", text: "쇳덩이가 나를 짓눌렀다" },
+  { id: "iron-2", ctx: "쇠붙이로 침", text: "쇠붙이로 내리쳤다" },
+  { id: "iron-2", ctx: "쇠붙이를 만듦", text: "쇠붙이를 만들었다" },
+  { id: "iron-2", ctx: "쇠붙이를 팖", text: "쇠붙이를 팔았다" },
+  { id: "iron-2", ctx: "낡고 녹슨 쇠붙이를 봄", text: "낡고 녹슨 쇠붙이를 보았다" },
+  { id: "iron-2", ctx: "쇠붙이 값이 내림", text: "쇠붙이 값이 떨어졌다" },
+  { id: "iron-2", ctx: "쇠붙이 값이 오름", text: "쇠붙이 값이 올랐다" },
+  { id: "iron-2", ctx: "벌겋게 달군 쇠붙이를 봄", text: "벌겋게 달군 쇠붙이를 보았다" },
 
   // 이 배치가 판별어 표를 채운 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "flood", ctx: "홍수가 온 땅을 휩쓸고 나를 떠내려 보냄", text: "홍수가 땅을 휩쓸고 나를 실려 보냈다" },
-  { id: "entrails", ctx: "사람의 창자를 봄", text: "사람의 창자를 보았다" },
-  { id: "entrails", ctx: "제 창자를 봄", text: "자기 창자를 보았다" },
-  { id: "drunk", ctx: "독한 술에 취함", text: "독한 술에 취했다" },
-  { id: "drunk", ctx: "포도주에 취함", text: "포도주에 취했다" },
+  { id: "verbal-abuse", ctx: "남에게 욕을 먹고 모욕을 당함", text: "남에게 모욕을 당했다" },
+  { id: "iron-2", ctx: "쇠로 만든 기물을 봄", text: "쇠로 만든 기물을 보았다" },
+  // 「무쇠」 vs `iron`(다리미) — 밀러 `Ironing` 자리는 건드리지 않았다
+  { id: "iron", ctx: "다리미에 불이 담겨 있음", text: "다리미에 불이 담겨 있었다" },
 ];
 
 let notFound = 0;

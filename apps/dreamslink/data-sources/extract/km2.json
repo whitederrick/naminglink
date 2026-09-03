@@ -1065,7 +1065,12 @@
     "aliases": [
       "욕을",
       "모욕",
-      "험담"
+      "험담",
+      "욕설을",
+      "욕설하",
+      "욕설한",
+      "욕을 퍼부",
+      "쌍소리"
     ],
     "aliases_en": [
       "insulted",
@@ -1073,7 +1078,15 @@
       "swore at",
       "scolded"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "남에게 욕을 먹고 모욕을 당함": "모욕을 당했다",
+      "제가 욕설을 퍼부음": "퍼부었 퍼붓 내가 제가",
+      "남들이 욕설하는 것을 들음": "남들이 듣고 들었다"
+    },
+    "contexts_en": {
+      "남에게 욕을 먹고 모욕을 당함": "humiliated",
+      "제가 욕설을 퍼부음": "using invectives passionate outbursts estrange",
+      "남들이 욕설하는 것을 들음": "hear others closing apparent deceits"
+    }
   }
 ]

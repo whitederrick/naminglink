@@ -884,7 +884,12 @@
     "aliases": [
       "쇳덩이",
       "철제",
-      "무쇠"
+      "무쇠",
+      "쇠붙이를",
+      "쇠를",
+      "쇠가",
+      "쇳덩이가",
+      "쇠로"
     ],
     "aliases_en": [
       "iron object",
@@ -892,8 +897,28 @@
       "steel",
       "ironware"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "쇠로 만든 기물을 봄": "기물 그릇을",
+      "쇳덩이에 짓눌림": "짓눌 내리눌 무게",
+      "쇠붙이로 침": "내리쳤 때렸 후려",
+      "쇠붙이를 만듦": "만들 벼렸 제련",
+      "쇠붙이를 팖": "팔았 파는 내다",
+      "낡고 녹슨 쇠붙이를 봄": "녹슨 낡고 삭은",
+      "쇠붙이 값이 내림": "내렸 떨어졌 내려갔",
+      "쇠붙이 값이 오름": "올랐 뛰었 올라갔",
+      "벌겋게 달군 쇠붙이를 봄": "벌겋게 달군 시뻘"
+    },
+    "contexts_en": {
+      "쇠로 만든 기물을 봄": "utensils vessels",
+      "쇳덩이에 짓눌림": "weight bearing perplexities material",
+      "쇠붙이로 침": "strike selfishness cruelty dependent",
+      "쇠붙이를 만듦": "manufacture unjust means accumulate",
+      "쇠붙이를 팖": "sell doubtful noble character",
+      "낡고 녹슨 쇠붙이를 봄": "rusty poverty",
+      "쇠붙이 값이 내림": "price unsafe factor",
+      "쇠붙이 값이 오름": "advances gleam hope dark",
+      "벌겋게 달군 쇠붙이를 봄": "red-hot misapplied energy"
+    }
   },
   {
     "id": "lion",

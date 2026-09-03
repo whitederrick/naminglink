@@ -1,0 +1,52 @@
+[
+  {
+    "id": "inventor",
+    "aliases": [
+      "발명하는",
+      "발명했다",
+      "발명한",
+      "발명을",
+      "발명품"
+    ],
+    "aliases_en": [
+      "an inventor",
+      "inventing",
+      "invention"
+    ],
+    "contexts": {
+      "발명가를 봄": "발명가를 보았다",
+      "제가 무엇을 발명함": "제가 내가 나는"
+    },
+    "contexts_en": {
+      "발명가를 봄": "achieve unique add honor name",
+      "제가 무엇을 발명함": "aspire fortune successful designs"
+    }
+  },
+  {
+    "id": "invite",
+    "aliases": [
+      "초대해",
+      "초대했다",
+      "초대받았다",
+      "초대받은",
+      "초대받아",
+      "초대를",
+      "초대장",
+      "부름을 받"
+    ],
+    "aliases_en": [
+      "invited",
+      "an invitation"
+    ],
+    "contexts": {
+      "남을 집으로 부름": "집으로 불러 초대했다",
+      "남에게 오라는 부름을 받음": "오라는 다녀가라는",
+      "여자가 잔치에 부름받음": "여자가 잔치 여성이"
+    },
+    "contexts_en": {
+      "남을 집으로 부름": "persons visit unpleasant worry excitement",
+      "남에게 오라는 부름을 받음": "make sad news",
+      "여자가 잔치에 부름받음": "woman attend party anticipations mar"
+    }
+  }
+]

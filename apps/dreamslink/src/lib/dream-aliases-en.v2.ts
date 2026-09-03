@@ -5785,5 +5785,14 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "interpreter": [
     "an interpreter"
+  ],
+  "inventor": [
+    "an inventor",
+    "inventing",
+    "invention"
+  ],
+  "invite": [
+    "invited",
+    "an invitation"
   ]
 };
