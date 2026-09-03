@@ -1137,6 +1137,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "prison::정인이 감옥에 있는 것을 봄": "정인이 애인이 사랑하는",
   "prison::무리가 옥문을 부수려 하는 것을 봄": "무리가 떼거리 부수려",
   "prison::감옥 꿈을 꿈": "맺은 언약 손해로",
+  "prison::옥에서 풀려남": "풀려나 이겨낼",
   "kitchen-stove::부뚜막 아래로 물이 흐름": "물이 흘러 흐르는 젖어 물기",
   "kitchen-stove::부뚜막 아래에 불을 땜": "불을때 지피 장작 땔감",
   "kitchen-stove::부뚜막과 솥이 깨짐": "솥이 가마솥 깨져 금이",
@@ -5193,5 +5194,10 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "precipice::아찔한 벼랑 끝에 섬": "아찔한 끝에 위협",
   "precipice::벼랑에서 떨어짐": "떨어졌 떨어지 재난",
   "printer::인쇄공 꿈을 꿈": "절약을 노력",
-  "printer::여성의 애인이나 지인이 인쇄공임을 봄": "애인 지인 부모"
+  "printer::여성의 애인이나 지인이 인쇄공임을 봄": "애인 지인 부모",
+  "printing-office::인쇄소에 있음": "비방과 모욕",
+  "printing-office::인쇄소를 운영함": "운영 궂은운수",
+  "printing-office::처녀의 애인이 인쇄소와 관계있음을 봄": "애인이 인색",
+  "privacy::사생활을 침해당함": "고압적",
+  "privacy::여성이 남편이나 애인의 사생활을 침범함": "침범 저버릴"
 };

@@ -1,0 +1,33 @@
+{
+  "batch": 195,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Printing Office",
+      "text": "To be in a printing office in dreams, denotes that slander and contumely will threaten you. To run a printing office is indicative of hard luck. For a young woman to dream that her sweetheart is connected with a printing office, denotes that she will have a lover who is unable to lavish money or time upon her, and she will not be sensible enough to see why he is so stingy.",
+      "note": "새 상징 `printing-office`(인쇄소)"
+    },
+    {
+      "headword": "Prison",
+      "text": "To dream of a prison, is the forerunner of misfortune in every instance, if it encircles your friends, or yourself. To see any one dismissed from prison, denotes that you will finally overcome misfortune.",
+      "note": "기존 상징 `prison`(감옥)에 더한다. 첫 문장은 기존 「감옥 꿈을 꿈」(밀러 Penitentiary)과 같은 그림이라 인용을 포갠다. 둘째 문장은 기존 「감옥에서 빠져나옴」(밀러 Gaol, 탈옥)과 그림이 다르다 — 공식으로 풀려나는 것과 탈옥은 다른 사건이라 새 문맥으로 넣는다. 각주 [174]는 「Jail 항목 참고」다"
+    },
+    {
+      "headword": "Privacy",
+      "text": "To dream that your privacy suffers intrusion, foretells you will have overbearing people to worry you. For a woman, this dream warns her to look carefully after private affairs. If she intrudes on the privacy of her husband or lover, she will disabuse some one's confidence, if not careful of her conversation.",
+      "note": "새 상징 `privacy`(사생활). 둘째 문장(여성에게 주는 당부)은 첫 문장과 같은 그림이라 같은 문맥 이름으로 인용을 포갰다 — 여성 주어만으로는 셋째 문장(그가 남의 사생활을 침범함)과 판별어가 갈리지 않았다"
+    },
+    {
+      "headword": "Prize Fight",
+      "text": "To see a prize fight in your dreams, denotes your affairs will give you trouble in controlling them.",
+      "note": "새 상징 `prize-fight`(권투 시합)"
+    },
+    {
+      "headword": "Prize Fighter",
+      "text": "For a young woman to see a prize fighter, foretells she will have pleasure in fast society, and will give her friends much concern about her reputation.",
+      "note": "새 상징 `prize-fighter`(권투 선수)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

@@ -6941,5 +6941,17 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "printer": [
     "a printer"
+  ],
+  "printing-office": [
+    "a printing office"
+  ],
+  "privacy": [
+    "privacy"
+  ],
+  "prize-fight": [
+    "a prize fight"
+  ],
+  "prize-fighter": [
+    "a prize fighter"
   ]
 };

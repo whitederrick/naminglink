@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 194 — Precipice~Printer, 6개 헤드워드)
+// (지금 담긴 것: 배치 195 — Printing Office~Prize Fighter, 5개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -799,6 +799,18 @@ const CASES: Case[] = [
   { id: "clergyman", ctx: "목사와 다툼", text: "목사와 다투었다" },
   { id: "cowslip", ctx: "앵초를 꺾음", text: "앵초를 꺾었다" },
   { id: "pregnancy", ctx: "아내가 아이를 뱀", text: "아내가 아이를 뱄다" },
+  { id: "printing-office", ctx: "인쇄소에 있음", text: "인쇄소에 있었다" },
+  { id: "printing-office", ctx: "인쇄소를 운영함", text: "인쇄소를 운영했다" },
+  { id: "printing-office", ctx: "처녀의 애인이 인쇄소와 관계있음을 봄", text: "처녀의 애인이 인쇄소와 관계있음을 보았다" },
+  { id: "prison", ctx: "옥에서 풀려남", text: "누군가 옥에서 풀려나는 것을 보았다" },
+  { id: "privacy", ctx: "사생활을 침해당함", text: "사생활을 침해당했다" },
+  { id: "privacy", ctx: "사생활을 침해당함", text: "여자가 사생활을 침해당하는 꿈을 꾸었다" },
+  { id: "privacy", ctx: "여성이 남편이나 애인의 사생활을 침범함", text: "여자가 남편의 사생활을 침범했다" },
+  { id: "prize-fight", ctx: "권투 시합을 봄", text: "권투 시합을 보았다" },
+  { id: "prize-fighter", ctx: "처녀가 권투 선수를 봄", text: "처녀가 권투 선수를 보았다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "prison", ctx: "감옥 꿈을 꿈", text: "감옥 꿈을 꾸었다" },
+  { id: "prison", ctx: "감옥에서 빠져나옴", text: "감옥에서 빠져나왔다" },
 ];
 
 let notFound = 0;

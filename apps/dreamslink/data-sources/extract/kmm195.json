@@ -1,0 +1,66 @@
+[
+  {
+    "id": "printing-office",
+    "aliases": [
+      "인쇄소가",
+      "인쇄소를",
+      "인쇄소에",
+      "인쇄소와"
+    ],
+    "aliases_en": [
+      "a printing office"
+    ],
+    "contexts": {
+      "인쇄소에 있음": "비방과 모욕",
+      "인쇄소를 운영함": "운영 궂은운수",
+      "처녀의 애인이 인쇄소와 관계있음을 봄": "애인이 인색"
+    },
+    "contexts_en": {
+      "인쇄소에 있음": "slander contumely threaten",
+      "인쇄소를 운영함": "run hard luck",
+      "처녀의 애인이 인쇄소와 관계있음을 봄": "sweetheart lavish stingy"
+    }
+  },
+  {
+    "id": "privacy",
+    "aliases": [
+      "사생활이",
+      "사생활을"
+    ],
+    "aliases_en": [
+      "privacy"
+    ],
+    "contexts": {
+      "사생활을 침해당함": "고압적",
+      "여성이 남편이나 애인의 사생활을 침범함": "침범 저버릴"
+    },
+    "contexts_en": {
+      "사생활을 침해당함": "intrusion overbearing worry",
+      "여성이 남편이나 애인의 사생활을 침범함": "intrudes disabuse confidence"
+    }
+  },
+  {
+    "id": "prize-fight",
+    "aliases": [
+      "권투 시합이",
+      "권투 시합을"
+    ],
+    "aliases_en": [
+      "a prize fight"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "prize-fighter",
+    "aliases": [
+      "권투 선수가",
+      "권투 선수를"
+    ],
+    "aliases_en": [
+      "a prize fighter"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

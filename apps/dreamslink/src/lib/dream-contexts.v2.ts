@@ -1133,6 +1133,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "prison::정인이 감옥에 있는 것을 봄": "lover disappointed character deceiver",
   "prison::무리가 옥문을 부수려 하는 것을 봄": "mob attempting forerunner extort bounties",
   "prison::감옥 꿈을 꿈": "penitentiary engagements loss",
+  "prison::옥에서 풀려남": "dismissed overcome",
   "kitchen-stove::부뚜막 아래로 물이 흐름": "water flowing underneath wet",
   "kitchen-stove::부뚜막 아래에 불을 땜": "lighting firewood kindling fire",
   "kitchen-stove::부뚜막과 솥이 깨짐": "cauldron pot cracked broken",
@@ -5189,5 +5190,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "precipice::아찔한 벼랑 끝에 섬": "yawning misfortunes calamities",
   "precipice::벼랑에서 떨어짐": "fall engulfed disaster",
   "printer::인쇄공 꿈을 꿈": "poverty economy energy",
-  "printer::여성의 애인이나 지인이 인쇄공임을 봄": "lover associate please parents"
+  "printer::여성의 애인이나 지인이 인쇄공임을 봄": "lover associate please parents",
+  "printing-office::인쇄소에 있음": "slander contumely threaten",
+  "printing-office::인쇄소를 운영함": "run hard luck",
+  "printing-office::처녀의 애인이 인쇄소와 관계있음을 봄": "sweetheart lavish stingy",
+  "privacy::사생활을 침해당함": "intrusion overbearing worry",
+  "privacy::여성이 남편이나 애인의 사생활을 침범함": "intrudes disabuse confidence"
 };

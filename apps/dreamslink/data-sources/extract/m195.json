@@ -1,0 +1,152 @@
+[
+  {
+    "term_ko": "인쇄소",
+    "term_en": "printing-office",
+    "context": "인쇄소에 있음",
+    "interpretation_ko": "비방과 모욕에 시달릴 조짐",
+    "interpretation_en": "denotes that slander and contumely will threaten you",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Printing Office",
+      "original": "To be in a printing office in dreams, denotes that slander and contumely will threaten you",
+      "translation_ko": "인쇄소에 있는 꿈은, 비방과 모욕에 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "인쇄소",
+    "term_en": "printing-office",
+    "context": "인쇄소를 운영함",
+    "interpretation_ko": "궂은 운의 조짐",
+    "interpretation_en": "is indicative of hard luck",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Printing Office",
+      "original": "To run a printing office is indicative of hard luck.",
+      "translation_ko": "인쇄소를 운영하는 꿈은, 궂은 운의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "인쇄소",
+    "term_en": "printing-office",
+    "context": "처녀의 애인이 인쇄소와 관계있음을 봄",
+    "interpretation_ko": "돈과 시간을 아끼지 않고 써 줄 줄 모르는 애인을 두고도, 왜 그리 인색한지 헤아릴 만큼 영리하지 못할 조짐",
+    "interpretation_en": "denotes that she will have a lover who is unable to lavish money or time upon her, and she will not be sensible enough to see why he is so stingy",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Printing Office",
+      "original": "For a young woman to dream that her sweetheart is connected with a printing office, denotes that she will have a lover who is unable to lavish money or time upon her, and she will not be sensible enough to see why he is so stingy.",
+      "translation_ko": "처녀가 애인이 인쇄소와 관계있음을 보는 꿈은, 돈과 시간을 아끼지 않고 써 줄 줄 모르는 애인을 두고도, 왜 그리 인색한지 헤아릴 만큼 영리하지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "감옥 꿈을 꿈",
+    "interpretation_ko": "맺은 언약이 뜻하지 않게 손해로 돌아올 조짐",
+    "interpretation_en": "is the forerunner of misfortune in every instance, if it encircles your friends, or yourself",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Prison",
+      "original": "To dream of a prison, is the forerunner of misfortune in every instance, if it encircles your friends, or yourself.",
+      "translation_ko": "감옥 꿈은, 벗이든 저 자신이든 두르고 있다면 어김없이 불운이 다가올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "옥에서 풀려남",
+    "interpretation_ko": "마침내 불운을 이겨낼 조짐",
+    "interpretation_en": "denotes that you will finally overcome misfortune",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Prison",
+      "original": "To see any one dismissed from prison, denotes that you will finally overcome misfortune.",
+      "translation_ko": "누군가 옥에서 풀려나는 것을 보는 꿈은, 마침내 불운을 이겨낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "사생활",
+    "term_en": "privacy",
+    "context": "사생활을 침해당함",
+    "interpretation_ko": "고압적인 사람들에게 시달릴 조짐",
+    "interpretation_en": "foretells you will have overbearing people to worry you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Privacy",
+      "original": "To dream that your privacy suffers intrusion, foretells you will have overbearing people to worry you.",
+      "translation_ko": "사생활을 침해당하는 꿈은, 고압적인 사람들에게 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "사생활",
+    "term_en": "privacy",
+    "context": "사생활을 침해당함",
+    "interpretation_ko": "사적인 일들을 잘 살피라는 경고",
+    "interpretation_en": "this dream warns her to look carefully after private affairs",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Privacy",
+      "original": "For a woman, this dream warns her to look carefully after private affairs.",
+      "translation_ko": "여성이 이 꿈을 꾸면, 사적인 일들을 잘 살피라는 경고다"
+    }
+  },
+  {
+    "term_ko": "사생활",
+    "term_en": "privacy",
+    "context": "여성이 남편이나 애인의 사생활을 침범함",
+    "interpretation_ko": "말을 조심하지 않으면 누군가의 믿음을 저버릴 조짐",
+    "interpretation_en": "she will disabuse some one's confidence, if not careful of her conversation",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Privacy",
+      "original": "If she intrudes on the privacy of her husband or lover, she will disabuse some one's confidence, if not careful of her conversation.",
+      "translation_ko": "여성이 남편이나 애인의 사생활을 침범하는 꿈은, 말을 조심하지 않으면 누군가의 믿음을 저버릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "권투 시합",
+    "term_en": "prize-fight",
+    "context": "권투 시합을 봄",
+    "interpretation_ko": "일을 다스리는 데 곤란을 겪을 조짐",
+    "interpretation_en": "denotes your affairs will give you trouble in controlling them",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Prize Fight",
+      "original": "To see a prize fight in your dreams, denotes your affairs will give you trouble in controlling them.",
+      "translation_ko": "권투 시합을 보는 꿈은, 일을 다스리는 데 곤란을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "권투 선수",
+    "term_en": "prize-fighter",
+    "context": "처녀가 권투 선수를 봄",
+    "interpretation_ko": "방탕한 사교계에서 즐거움을 누리고, 벗들이 평판을 크게 염려하게 될 조짐",
+    "interpretation_en": "foretells she will have pleasure in fast society, and will give her friends much concern about her reputation",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Prize Fighter",
+      "original": "For a young woman to see a prize fighter, foretells she will have pleasure in fast society, and will give her friends much concern about her reputation.",
+      "translation_ko": "처녀가 권투 선수를 보는 꿈은, 방탕한 사교계에서 즐거움을 누리고, 벗들이 평판을 크게 염려하게 될 조짐이다"
+    }
+  }
+]
