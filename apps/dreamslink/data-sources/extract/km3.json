@@ -1128,8 +1128,16 @@
       "umbrellas",
       "parasol"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "기혼자가 양산 꿈을 꿈": "기혼자 부적절한 즐거움",
+      "처녀가 양산 꿈을 꿈": "처녀 밀회 들킬까",
+      "남과 우산을 나눔": "나눠 흩어질"
+    },
+    "contexts_en": {
+      "기혼자가 양산 꿈을 꿈": "married illicit enjoyments",
+      "처녀가 양산 꿈을 꿈": "young woman flirtations lover",
+      "남과 우산을 나눔": "sharing parting scattering"
+    }
   },
   {
     "id": "washbasin",

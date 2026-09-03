@@ -62,11 +62,17 @@
     ],
     "contexts": {
       "소포가 들어오는 것을 봄": "들어오는 들어왔",
-      "소포가 나가는 것을 봄": "나가는 나갔"
+      "소포가 나가는 것을 봄": "나가는 나갔",
+      "제게 소포가 배달됨": "배달되 반가운 보살핌",
+      "소포를 나름": "날랐 나르는 달갑잖은",
+      "소포를 배달하다 길에서 떨어뜨림": "떨어뜨렸 거래 틀어질"
     },
     "contexts_en": {
-      "소포가 들어오는 것을 봄": "coming pleasant recreation",
-      "소포가 나가는 것을 봄": "going losses disappointments"
+      "소포가 들어오는 것을 봄": "coming recreation store",
+      "소포가 나가는 것을 봄": "going losses disappointments",
+      "제게 소포가 배달됨": "delivered surprised absent worldly",
+      "소포를 나름": "carry parcel perform task",
+      "소포를 배달하다 길에서 떨어뜨림": "fall deal fail"
     }
   }
 ]

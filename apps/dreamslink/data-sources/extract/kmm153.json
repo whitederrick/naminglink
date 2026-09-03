@@ -1,0 +1,64 @@
+[
+  {
+    "id": "parable",
+    "aliases": [
+      "비유가",
+      "비유를"
+    ],
+    "aliases_en": [
+      "parables"
+    ],
+    "contexts": {
+      "비유 꿈을 꿈": "사업 다툼 갈팡질팡",
+      "연인이나 처녀가 비유 꿈을 꿈": "연인 처녀 오해 불신"
+    },
+    "contexts_en": {
+      "비유 꿈을 꿈": "business complication undecided",
+      "연인이나 처녀가 비유 꿈을 꿈": "lover misunderstandings disloyalty"
+    }
+  },
+  {
+    "id": "paradise",
+    "aliases": [
+      "낙원이",
+      "낙원에"
+    ],
+    "aliases_en": [
+      "in paradise"
+    ],
+    "contexts": {
+      "선원이나 장도에 오른 이가 낙원 꿈을 꿈": "선원 항해 장도",
+      "어머니가 낙원 꿈을 꿈": "어머니 자식 순종",
+      "병약자가 낙원 꿈을 꿈": "병약자 아픈 회복",
+      "연인이 낙원 꿈을 꿈": "연인 부와 신의",
+      "낙원으로 가다 헤매고 길을 잃음": "헤매 길을 잃음 실망스럽게",
+      "낙원에 있음": "충직한"
+    },
+    "contexts_en": {
+      "선원이나 장도에 오른 이가 낙원 꿈을 꿈": "sailors voyage bright hopes",
+      "어머니가 낙원 꿈을 꿈": "mothers obedient children",
+      "병약자가 낙원 꿈을 꿈": "sick recovery ripen",
+      "연인이 낙원 꿈을 꿈": "lovers wealth faithfulness",
+      "낙원으로 가다 헤매고 길을 잃음": "bewildered lost disappointing",
+      "낙원에 있음": "loyal friends willing aid"
+    }
+  },
+  {
+    "id": "paralysis",
+    "aliases": [
+      "마비에",
+      "마비가"
+    ],
+    "aliases_en": [
+      "paralysis"
+    ],
+    "contexts": {
+      "마비에 걸림": "재정적 손실 문필",
+      "연인이 마비에 걸림": "연인 애정 식어"
+    },
+    "contexts_en": {
+      "마비에 걸림": "financial reverses literary",
+      "연인이 마비에 걸림": "lovers cessation affections"
+    }
+  }
+]

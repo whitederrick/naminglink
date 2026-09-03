@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 152 — Panther~Paper or parchment, 9건)
+// (지금 담긴 것: 배치 153 — Parables~Parcel, 15건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -294,6 +294,26 @@ const CASES: Case[] = [
   { id: "paper", ctx: "종이나 양피지를 다루거나 참조함", text: "종이나 양피지를 다루거나 참조했다" },
   { id: "paper", ctx: "처녀가 종이나 양피지 꿈을 꿈", text: "처녀가 종이나 양피지 꿈을 꾸었다" },
   { id: "paper", ctx: "기혼자가 종이나 양피지 꿈을 꿈", text: "기혼자가 종이나 양피지 꿈을 꾸었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "heaven", ctx: "하늘나라로 올라감", text: "하늘나라로 올라갔다" },
+  { id: "packet", ctx: "소포가 들어오는 것을 봄", text: "소포가 들어오는 것을 보았다" },
+  { id: "packet", ctx: "소포가 나가는 것을 봄", text: "소포가 나가는 것을 보았다" },
+  { id: "umbrella", ctx: "남과 우산을 나눔", text: "남과 우산을 나눴다" },
+  { id: "parable", ctx: "비유 꿈을 꿈", text: "비유 꿈을 꾸었다" },
+  { id: "parable", ctx: "연인이나 처녀가 비유 꿈을 꿈", text: "연인이 비유 꿈을 꾸었다" },
+  { id: "paradise", ctx: "낙원에 있음", text: "낙원에 있었다" },
+  { id: "paradise", ctx: "선원이나 장도에 오른 이가 낙원 꿈을 꿈", text: "선원이 낙원 꿈을 꾸었다" },
+  { id: "paradise", ctx: "어머니가 낙원 꿈을 꿈", text: "어머니가 낙원 꿈을 꾸었다" },
+  { id: "paradise", ctx: "병약자가 낙원 꿈을 꿈", text: "병약자가 낙원 꿈을 꾸었다" },
+  { id: "paradise", ctx: "연인이 낙원 꿈을 꿈", text: "연인이 낙원 꿈을 꾸었다" },
+  { id: "paradise", ctx: "낙원으로 가다 헤매고 길을 잃음", text: "낙원으로 가다 헤매고 길을 잃었다" },
+  { id: "paralysis", ctx: "마비에 걸림", text: "마비에 걸렸다" },
+  { id: "paralysis", ctx: "연인이 마비에 걸림", text: "연인이 마비에 걸렸다" },
+  { id: "umbrella", ctx: "기혼자가 양산 꿈을 꿈", text: "기혼자가 양산 꿈을 꾸었다" },
+  { id: "umbrella", ctx: "처녀가 양산 꿈을 꿈", text: "처녀가 양산 꿈을 꾸었다" },
+  { id: "packet", ctx: "제게 소포가 배달됨", text: "제게 소포가 배달되었다" },
+  { id: "packet", ctx: "소포를 나름", text: "소포를 날랐다" },
+  { id: "packet", ctx: "소포를 배달하다 길에서 떨어뜨림", text: "소포를 배달하다 길에서 떨어뜨렸다" },
 ];
 
 let notFound = 0;

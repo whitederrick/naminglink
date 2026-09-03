@@ -1,0 +1,33 @@
+{
+  "batch": 153,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Parables",
+      "text": "To dream of parables, denotes that you will be undecided as to the best course to pursue in dissenting to some business complication. To the lover, or young woman, this is a prophecy of misunderstandings and disloyalty.",
+      "note": "새 상징 `parable`(비유)"
+    },
+    {
+      "headword": "Paradise",
+      "text": "To dream that you are in Paradise, means loyal friends, who are willing to aid you. This dream holds out bright hopes to sailors or those about to make a long voyage. To mothers, this means fair and obedient children. If you are sick and unfortunate, you will have a speedy recovery and your fortune will ripen. To lovers, it is the promise of wealth and faithfulness. To dream that you start to Paradise and find yourself bewildered and lost, you will undertake enterprises which look exceedingly feasible and full of fortunate returns, but which will prove disappointing and vexatious.",
+      "note": "새 상징 `paradise`(낙원). 이미 있는 `heaven`(하늘나라, 별칭 「천국」)과는 term_ko를 갈랐다 — 밀러 자신이 별개 표제어로 적었고, `heaven`의 기존 넷은 사다리로 오르거나 그리스도를 만나는 승천의 그림인데 이 여섯은 낙원에 있는 이가 누구냐로 갈리는 다른 결이다"
+    },
+    {
+      "headword": "Paralysis",
+      "text": "Paralysis is a bad dream, denoting financial reverses and disappointment in literary attainment. To lovers, it portends a cessation of affections.",
+      "note": "새 상징 `paralysis`(마비). 이미 있는 `palsy`(중풍, 밀러 `Palsy`)와는 다른 낱말로 갈랐다 — 한국어에서도 「중풍」은 뇌졸중형 마비를, 「마비」는 일반적인 마비를 가리켜 구분된다"
+    },
+    {
+      "headword": "Parasol",
+      "text": "To dream of a parasol, denotes, for married people, illicit enjoyments. If a young woman has this dream, she will engage in many flirtations, some of which will cause her interesting disturbances, lest her lover find out her inclinations.",
+      "note": "기존 상징 `umbrella`(우산, 주공해몽)에 둘을 더한다. 「양산」·「파라솔」이 이미 그 상징의 별칭이다 — 원문 자신이 「[146] See Umbrella」라 적어 이 방향을 미리 가리켰다"
+    },
+    {
+      "headword": "Parcel",
+      "text": "To dream of a parcel being delivered to you, denotes that you will be pleasantly surprised by the return of some absent one, or be cared for in a worldly way. If you carry a parcel, you will have some unpleasant task to perform. To let a parcel fall on the way as you go to deliver it, you will see some deal fail to go through.",
+      "note": "기존 상징 `packet`(소포, 밀러 `Packet`)에 셋을 더한다. parcel과 packet은 둘 다 소포를 뜻하는 다른 낱말이라 상징을 나누지 않았다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

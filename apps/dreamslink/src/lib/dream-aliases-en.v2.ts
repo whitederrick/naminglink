@@ -6675,5 +6675,14 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "pantomime": [
     "pantomimes"
+  ],
+  "parable": [
+    "parables"
+  ],
+  "paradise": [
+    "in paradise"
+  ],
+  "paralysis": [
+    "paralysis"
   ]
 };
