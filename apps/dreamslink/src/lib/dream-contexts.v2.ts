@@ -3927,5 +3927,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lake::호수에 사는 흉한 것들이 솟아올라 위협함": "slimy uncanny inhabitants menace squandering",
   "lamp-post::가로등을 봄": "stranger staunchiest pressing",
   "lamp-post::가로등에 부딪혀 넘어짐": "fall against deception ensnare",
-  "lamp-post::가로등이 길을 가로막고 있음": "across path adversity"
+  "lamp-post::가로등이 길을 가로막고 있음": "across path adversity",
+  "lantern::어둠 속에서 초롱이 앞서 감": "darkness going before affluence",
+  "lantern::초롱이 갑자기 안 보이게 됨": "suddenly lost view unfavorable",
+  "lantern::들고 가던 초롱이 꺼짐": "fail prominence wish",
+  "lantern::초롱을 들고 다님": "carry benevolence win many",
+  "lantern::걸려 넘어져 초롱을 깨뜨림": "stumble break aid station",
+  "lantern::초롱을 닦음": "clean possibilities open",
+  "lantern::초롱을 잃어버림": "lose depression disquiet",
+  "lantern::초롱을 삼": "buy fortunate deals",
+  "lantern::처녀가 정인의 초롱에 불을 켬": "lights lover worthy comfortable",
+  "lantern::처녀가 초롱불을 불어 끔": "blows imprudence chance married"
 };

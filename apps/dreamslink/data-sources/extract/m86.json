@@ -1,0 +1,152 @@
+[
+  {
+    "term_ko": "초롱",
+    "term_en": "lantern",
+    "context": "어둠 속에서 초롱이 앞서 감",
+    "interpretation_ko": "뜻밖의 넉넉함이 올 길한 조짐",
+    "interpretation_en": "signifies unexpected affluence",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lantern",
+      "original": "To dream of seeing a lantern going before you in the darkness, signifies unexpected affluence.",
+      "translation_ko": "어둠 속에서 초롱이 앞서 가는 것을 보는 꿈은 뜻밖의 넉넉함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "초롱",
+    "term_en": "lantern",
+    "context": "초롱이 갑자기 안 보이게 됨",
+    "interpretation_ko": "잘되던 일이 언짢은 쪽으로 돌아설 흉한 조짐",
+    "interpretation_en": "then your success will take an unfavorable turn",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lantern",
+      "original": "If the lantern is suddenly lost to view, then your success will take an unfavorable turn.",
+      "translation_ko": "초롱이 갑자기 보이지 않게 되면 잘되던 일이 언짢은 쪽으로 돌아선다"
+    }
+  },
+  {
+    "term_ko": "초롱",
+    "term_en": "lantern",
+    "context": "들고 가던 초롱이 꺼짐",
+    "interpretation_ko": "바라던 만큼 이름을 얻지 못할 흉한 조짐",
+    "interpretation_en": "you fail to gain the prominence you wish",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lantern",
+      "original": "If it goes out, you fail to gain the prominence you wish.",
+      "translation_ko": "들고 가던 초롱이 꺼지면 바라던 만큼 이름을 얻지 못한다"
+    }
+  },
+  {
+    "term_ko": "초롱",
+    "term_en": "lantern",
+    "context": "초롱을 들고 다님",
+    "interpretation_ko": "베푸는 마음이 벗을 여럿 얻게 할 길한 조짐",
+    "interpretation_en": "denotes that your benevolence will win you many friends",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lantern",
+      "original": "To carry a lantern in your dreams, denotes that your benevolence will win you many friends.",
+      "translation_ko": "초롱을 들고 다니면 베푸는 마음이 벗을 여럿 얻게 한다"
+    }
+  },
+  {
+    "term_ko": "초롱",
+    "term_en": "lantern",
+    "context": "걸려 넘어져 초롱을 깨뜨림",
+    "interpretation_ko": "남을 도우려다 제 자리를 잃거나 벌인 일에서 실망할 흉한 조짐",
+    "interpretation_en": "you will seek to aid others, and in so doing lose your own station, or be disappointed in some undertaking",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lantern",
+      "original": "If you stumble and break it, you will seek to aid others, and in so doing lose your own station, or be disappointed in some undertaking.",
+      "translation_ko": "걸려 넘어져 초롱을 깨뜨리면, 남을 도우려다 제 자리를 잃거나 벌인 일에서 실망한다"
+    }
+  },
+  {
+    "term_ko": "초롱",
+    "term_en": "lantern",
+    "context": "초롱을 닦음",
+    "interpretation_ko": "큰 길이 제 앞에 열려 있음을 뜻하는 길한 조짐",
+    "interpretation_en": "signifies great possibilities are open to you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lantern",
+      "original": "To clean a lantern, signifies great possibilities are open to you.",
+      "translation_ko": "초롱을 닦으면 큰 길이 제 앞에 열려 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "초롱",
+    "term_en": "lantern",
+    "context": "초롱을 잃어버림",
+    "interpretation_ko": "일이 가라앉고 집안이 어수선해질 흉한 조짐",
+    "interpretation_en": "means business depression, and disquiet in the home",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lantern",
+      "original": "To lose a lantern, means business depression, and disquiet in the home.",
+      "translation_ko": "초롱을 잃어버리면 일이 가라앉고 집안이 어수선해진다"
+    }
+  },
+  {
+    "term_ko": "초롱",
+    "term_en": "lantern",
+    "context": "초롱을 삼",
+    "interpretation_ko": "복된 거래가 있을 길한 조짐",
+    "interpretation_en": "it signifies fortunate deals",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lantern",
+      "original": "If you buy a lantern, it signifies fortunate deals.",
+      "translation_ko": "초롱을 사면 복된 거래가 있다"
+    }
+  },
+  {
+    "term_ko": "초롱",
+    "term_en": "lantern",
+    "context": "처녀가 정인의 초롱에 불을 켬",
+    "interpretation_ko": "미더운 지아비와 아늑한 집을 얻을 길한 조짐",
+    "interpretation_en": "foretells for her a worthy man, and a comfortable home",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lantern",
+      "original": "For a young woman to dream that she lights her lover's lantern, foretells for her a worthy man, and a comfortable home.",
+      "translation_ko": "젊은 여성이 정인의 초롱에 불을 켜는 꿈을 꾸면 미더운 지아비와 아늑한 집을 얻는다"
+    }
+  },
+  {
+    "term_ko": "초롱",
+    "term_en": "lantern",
+    "context": "처녀가 초롱불을 불어 끔",
+    "interpretation_ko": "제 경솔함으로 혼인할 기회를 놓칠 흉한 조짐",
+    "interpretation_en": "by her own imprudence she will lose a chance of getting married",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lantern",
+      "original": "If she blows it out, by her own imprudence she will lose a chance of getting married.",
+      "translation_ko": "그 불을 불어 끄면 제 경솔함으로 혼인할 기회를 놓친다"
+    }
+  }
+]

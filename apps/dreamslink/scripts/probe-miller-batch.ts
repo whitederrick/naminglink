@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 85 — Lamp-post~Landau, 12건)
+// (지금 담긴 것: 배치 86 — Lantern, 10건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,19 +30,16 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "lamp-post", ctx: "가로등에 부딪혀 넘어짐", text: "가로등에 부딪혀 넘어졌다" },
-  { id: "lamp-post", ctx: "가로등이 길을 가로막고 있음", text: "가로등이 길을 가로막고 있었다" },
-  { id: "spear", ctx: "창에 찔려 다침", text: "창에 찔려 다쳤다" },
-  { id: "spear", ctx: "창을 부러뜨림", text: "창을 부러뜨렸다" },
-  { id: "ground", ctx: "땅이 기름져 보임", text: "땅이 기름져 보였다" },
-  { id: "ground", ctx: "땅이 메마르고 돌투성이임", text: "땅이 메마르고 돌투성이였다" },
-  { id: "ground", ctx: "바다에서 뭍을 봄", text: "바다에서 뭍을 보았다" },
-  { id: "carriage", ctx: "벗이나 정인과 함께 마차를 타고 감", text: "정인과 함께 마차를 타고 갔다" },
-  { id: "carriage", ctx: "마차가 뒤집힘", text: "마차가 뒤집혔다" },
-  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "spear", ctx: "창을 봄", text: "창을 보았다" },
-  { id: "ground", ctx: "땅이 갈라짐", text: "땅이 갈라졌다" },
-  { id: "carriage", ctx: "마차를 타고 감", text: "마차를 타고 갔다" },
+  { id: "lantern", ctx: "어둠 속에서 초롱이 앞서 감", text: "어둠 속에서 초롱이 앞서 갔다" },
+  { id: "lantern", ctx: "초롱이 갑자기 안 보이게 됨", text: "앞서 가던 초롱이 갑자기 사라졌다" },
+  { id: "lantern", ctx: "들고 가던 초롱이 꺼짐", text: "들고 가던 초롱이 꺼졌다" },
+  { id: "lantern", ctx: "초롱을 들고 다님", text: "초롱을 들고 다녔다" },
+  { id: "lantern", ctx: "걸려 넘어져 초롱을 깨뜨림", text: "걸려 넘어져 초롱을 깨뜨렸다" },
+  { id: "lantern", ctx: "초롱을 닦음", text: "초롱을 닦았다" },
+  { id: "lantern", ctx: "초롱을 잃어버림", text: "초롱을 잃어버렸다" },
+  { id: "lantern", ctx: "초롱을 삼", text: "초롱을 샀다" },
+  { id: "lantern", ctx: "처녀가 정인의 초롱에 불을 켬", text: "정인의 초롱에 불을 켰다" },
+  { id: "lantern", ctx: "처녀가 초롱불을 불어 끔", text: "초롱불을 불어서 껐다" },
 ];
 
 let notFound = 0;

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "lantern",
+    "aliases": [
+      "초롱불",
+      "등롱",
+      "손전등"
+    ],
+    "aliases_en": [
+      "a lantern",
+      "lanterns"
+    ],
+    "contexts": {
+      "어둠 속에서 초롱이 앞서 감": "어둠 캄캄",
+      "초롱이 갑자기 안 보이게 됨": "사라졌 보이지 없어졌",
+      "들고 가던 초롱이 꺼짐": "꺼졌 꺼지",
+      "초롱을 들고 다님": "들고",
+      "걸려 넘어져 초롱을 깨뜨림": "넘어져 깨뜨 깨졌",
+      "초롱을 닦음": "닦았 닦는",
+      "초롱을 잃어버림": "잃어버 잃었",
+      "초롱을 삼": "샀다 사들",
+      "처녀가 정인의 초롱에 불을 켬": "정인의 켰다",
+      "처녀가 초롱불을 불어 끔": "불어 입김"
+    },
+    "contexts_en": {
+      "어둠 속에서 초롱이 앞서 감": "darkness going before affluence",
+      "초롱이 갑자기 안 보이게 됨": "suddenly lost view unfavorable",
+      "들고 가던 초롱이 꺼짐": "fail prominence wish",
+      "초롱을 들고 다님": "carry benevolence win many",
+      "걸려 넘어져 초롱을 깨뜨림": "stumble break aid station",
+      "초롱을 닦음": "clean possibilities open",
+      "초롱을 잃어버림": "lose depression disquiet",
+      "초롱을 삼": "buy fortunate deals",
+      "처녀가 정인의 초롱에 불을 켬": "lights lover worthy comfortable",
+      "처녀가 초롱불을 불어 끔": "blows imprudence chance married"
+    }
+  }
+]
