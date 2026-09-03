@@ -1,0 +1,131 @@
+[
+  {
+    "id": "orchestra",
+    "aliases": [
+      "오케스트라가",
+      "오케스트라를"
+    ],
+    "aliases_en": [
+      "an orchestra"
+    ],
+    "contexts": {
+      "오케스트라에 속해 연주함": "속해 연주하는 연주했",
+      "오케스트라의 음악을 들음": "음악을 들었"
+    },
+    "contexts_en": {
+      "오케스트라에 속해 연주함": "belonging playing entertainments sweetheart",
+      "오케스트라의 음악을 들음": "listening music liked favors"
+    }
+  },
+  {
+    "id": "organ",
+    "aliases": [
+      "오르간이",
+      "오르간을"
+    ],
+    "aliases_en": [
+      "an organ"
+    ],
+    "contexts": {
+      "오르간이 장엄한 찬가를 울림": "장엄한 찬가",
+      "교회에서 오르간을 봄": "교회에서 흩어지고",
+      "오르간으로 조화로운 음악을 연주함": "조화로운 연주했",
+      "구슬픈 노래와 오르간 반주를 들음": "구슬픈 반주를 고된"
+    },
+    "contexts_en": {
+      "오르간이 장엄한 찬가를 울림": "pealing anthems lasting friendships",
+      "교회에서 오르간을 봄": "church separation families death",
+      "오르간으로 조화로운 음악을 연주함": "harmonious worldly comfort distinction",
+      "구슬픈 노래와 오르간 반주를 들음": "doleful singing wearisome loss"
+    }
+  },
+  {
+    "id": "organist",
+    "aliases": [
+      "오르간 연주자가",
+      "오르간 연주자를",
+      "오르간 연주자임을"
+    ],
+    "aliases_en": [
+      "an organist"
+    ],
+    "contexts": {
+      "오르간 연주자를 봄": "벗이 성급한",
+      "처녀가 제가 오르간 연주자임을 봄": "처녀가 깐깐하여 버림받"
+    },
+    "contexts_en": {
+      "오르간 연주자를 봄": "friend inconvenience hasty action",
+      "처녀가 제가 오르간 연주자임을 봄": "young woman exacting desertion"
+    }
+  },
+  {
+    "id": "ornament",
+    "aliases": [
+      "장식품이",
+      "장식품을"
+    ],
+    "aliases_en": [
+      "ornaments"
+    ],
+    "contexts": {
+      "장식품을 착용함": "착용하 착용했",
+      "장식품을 받음": "받는 받았",
+      "장식품을 남에게 줌": "남에게 주는",
+      "장식품을 잃어버림": "잃어버렸 잃어버린"
+    },
+    "contexts_en": {
+      "장식품을 착용함": "wear flattering honor conferred",
+      "장식품을 받음": "receive fortunate undertakings",
+      "장식품을 남에게 줌": "giving recklessness extravagance",
+      "장식품을 잃어버림": "losing lover situation"
+    }
+  },
+  {
+    "id": "orphan",
+    "aliases": [
+      "고아가",
+      "고아를"
+    ],
+    "aliases_en": [
+      "orphans"
+    ],
+    "contexts": {
+      "고아를 위로함": "위로하 위로했",
+      "친척인 고아가 있음": "친척인 새로운 소임"
+    },
+    "contexts_en": {
+      "고아를 위로함": "condoling sympathies sacrifice enjoyment",
+      "친척인 고아가 있음": "related duties estrangement"
+    }
+  },
+  {
+    "id": "ostrich",
+    "aliases": [
+      "타조가",
+      "타조를"
+    ],
+    "aliases_en": [
+      "an ostrich"
+    ],
+    "contexts": {
+      "타조 꿈을 꿈": "몰래 재물을 모으",
+      "타조를 붙잡음": "붙잡는 붙잡았"
+    },
+    "contexts_en": {
+      "타조 꿈을 꿈": "secretly amass degrading intrigues",
+      "타조를 붙잡음": "catch resources travel knowledge"
+    }
+  },
+  {
+    "id": "otter",
+    "aliases": [
+      "수달이",
+      "수달을"
+    ],
+    "aliases_en": [
+      "otters"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

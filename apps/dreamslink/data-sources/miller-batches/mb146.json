@@ -1,0 +1,48 @@
+{
+  "batch": 146,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Orchestra",
+      "text": "Belonging to an orchestra and playing, foretells pleasant entertainments, and your sweetheart will be faithful and cultivated. To hear the music of an orchestra, denotes that the knowledge of humanity will at all times prove you to be a much-liked person, and favors will fall unstintedly upon you.",
+      "note": "새 상징 `orchestra`(오케스트라)"
+    },
+    {
+      "headword": "Organ",
+      "text": "To hear the pealing forth of an organ in grand anthems, signifies lasting friendships and well-grounded fortune. To see an organ in a church, denotes despairing separation of families, and death, perhaps, for some of them. If you dream of rendering harmonious music on an organ, you will be fortunate in the way to worldly comfort, and much social distinction will be given you. To hear doleful singing and organ accompaniment, denotes you are nearing a wearisome task, and probable loss of friends or position.",
+      "note": "새 상징 `organ`(오르간). `mouth-organ`(하모니카)과는 다른 악기다"
+    },
+    {
+      "headword": "Organist",
+      "text": "To see an organist in your dreams, denotes a friend will cause you much inconvenience from hasty action. For a young woman to dream that she is an organist, foretells she will be so exacting in her love that she will be threatened with desertion.",
+      "note": "새 상징 `organist`(오르간 연주자)"
+    },
+    {
+      "headword": "Ornament",
+      "text": "If you wear ornaments in dreams, you will have a flattering honor conferred upon you. If you receive them, you will be fortunate in undertakings. Giving them away, denotes recklessness and lavish extravagance. Losing an ornament, brings the loss either of a lover, or a good situation.",
+      "note": "새 상징 `ornament`(장식품). `flower-ornament`·`gold-ornament`와는 다른 일반 장식품이다"
+    },
+    {
+      "headword": "Orphan",
+      "text": "Condoling with orphans in a dream, means that the unhappy cares of others will touch your sympathies and cause you to sacrifice much personal enjoyment. If the orphans be related to you, new duties will come into your life, causing estrangement from friends ant from some person held above mere friendly liking.",
+      "note": "새 상징 `orphan`(고아)"
+    },
+    {
+      "headword": "Ostrich",
+      "text": "To dream of an ostrich, denotes that you will secretly amass wealth, but at the same time maintain degrading intrigues with women. To catch one, your resources will enable you to enjoy travel and extensive knowledge.",
+      "note": "새 상징 `ostrich`(타조)"
+    },
+    {
+      "headword": "Otter",
+      "text": "To see otters diving and sporting in limpid streams is certain to bring the dreamer waking happiness and good fortune. You will find ideal enjoyment in an early marriage, if you are single; wives may expect unusual tenderness from their spouses after this dream.",
+      "note": "새 상징 `otter`(수달)"
+    },
+    {
+      "headword": "Ottoman",
+      "text": "Dreams in which you find yourself luxuriously reposing upon an ottoman, discussing the intricacies of love with your sweetheart, foretells that envious rivals will seek to defame you in the eyes of your affianced, and a hasty marriage will be advised.",
+      "note": "기존 상징 `couch`(소파, 밀러 `Couch`)에 하나를 더한다. 원문 자신이 「[143] See Couch」라 적었다. **판별어 표가 비어 있었다**(스물일곱 번째)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

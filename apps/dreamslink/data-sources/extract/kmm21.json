@@ -30,8 +30,14 @@
       "couches",
       "settee"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "긴 소파에 기대어 누움": "누워 누웠",
+      "소파에 기대어 정인과 사랑을 속삭임": "정인과 속삭 질투하는"
+    },
+    "contexts_en": {
+      "긴 소파에 기대어 누움": "reclining false hopes",
+      "소파에 기대어 정인과 사랑을 속삭임": "discussing intricacies envious rivals defame"
+    }
   },
   {
     "id": "cough",

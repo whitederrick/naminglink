@@ -6601,5 +6601,26 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "orator": [
     "an orator"
+  ],
+  "orchestra": [
+    "an orchestra"
+  ],
+  "organ": [
+    "an organ"
+  ],
+  "organist": [
+    "an organist"
+  ],
+  "ornament": [
+    "ornaments"
+  ],
+  "orphan": [
+    "orphans"
+  ],
+  "ostrich": [
+    "an ostrich"
+  ],
+  "otter": [
+    "otters"
   ]
 };

@@ -1,0 +1,272 @@
+[
+  {
+    "term_ko": "오케스트라",
+    "term_en": "orchestra",
+    "context": "오케스트라에 속해 연주함",
+    "interpretation_ko": "즐거운 놀이가 있고 정인이 신실하고 교양 있을 길조",
+    "interpretation_en": "belonging to an orchestra and playing, foretells pleasant entertainments, and your sweetheart will be faithful and cultivated",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Orchestra",
+      "original": "Belonging to an orchestra and playing, foretells pleasant entertainments, and your sweetheart will be faithful and cultivated.",
+      "translation_ko": "오케스트라에 속해 연주하는 꿈은, 즐거운 놀이가 있고 정인이 신실하고 교양 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "오케스트라",
+    "term_en": "orchestra",
+    "context": "오케스트라의 음악을 들음",
+    "interpretation_ko": "사람을 아는 안목으로 늘 호감받는 사람이 되고 은혜가 아낌없이 쏟아질 길조",
+    "interpretation_en": "to hear the music of an orchestra, denotes that the knowledge of humanity will at all times prove you to be a much-liked person, and favors will fall unstintedly upon you",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Orchestra",
+      "original": "To hear the music of an orchestra, denotes that the knowledge of humanity will at all times prove you to be a much-liked person, and favors will fall unstintedly upon you.",
+      "translation_ko": "오케스트라의 음악을 듣는 꿈은, 사람을 아는 안목으로 늘 호감받는 사람이 되고 은혜가 아낌없이 쏟아질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "오르간",
+    "term_en": "organ",
+    "context": "오르간이 장엄한 찬가를 울림",
+    "interpretation_ko": "오래가는 우정과 든든히 다져진 살림이 있을 길조",
+    "interpretation_en": "to hear the pealing forth of an organ in grand anthems, signifies lasting friendships and well-grounded fortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Organ",
+      "original": "To hear the pealing forth of an organ in grand anthems, signifies lasting friendships and well-grounded fortune.",
+      "translation_ko": "오르간이 장엄한 찬가를 울리는 것을 듣는 꿈은, 오래가는 우정과 든든히 다져진 살림이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "오르간",
+    "term_en": "organ",
+    "context": "교회에서 오르간을 봄",
+    "interpretation_ko": "집안이 뿔뿔이 흩어지고 그 가운데 누군가 죽을지도 모를 흉조",
+    "interpretation_en": "to see an organ in a church, denotes despairing separation of families, and death, perhaps, for some of them",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Organ",
+      "original": "To see an organ in a church, denotes despairing separation of families, and death, perhaps, for some of them.",
+      "translation_ko": "교회에서 오르간을 보는 꿈은, 집안이 뿔뿔이 흩어지고 그 가운데 누군가 죽을지도 모를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "오르간",
+    "term_en": "organ",
+    "context": "오르간으로 조화로운 음악을 연주함",
+    "interpretation_ko": "세속의 안락에 다다르고 사회적 명망도 얻을 길조",
+    "interpretation_en": "if you dream of rendering harmonious music on an organ, you will be fortunate in the way to worldly comfort, and much social distinction will be given you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Organ",
+      "original": "If you dream of rendering harmonious music on an organ, you will be fortunate in the way to worldly comfort, and much social distinction will be given you.",
+      "translation_ko": "오르간으로 조화로운 음악을 연주하는 꿈은, 세속의 안락에 다다르고 사회적 명망도 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "오르간",
+    "term_en": "organ",
+    "context": "구슬픈 노래와 오르간 반주를 들음",
+    "interpretation_ko": "고된 일이 다가오고 벗이나 자리를 잃을지 모를 흉조",
+    "interpretation_en": "to hear doleful singing and organ accompaniment, denotes you are nearing a wearisome task, and probable loss of friends or position",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Organ",
+      "original": "To hear doleful singing and organ accompaniment, denotes you are nearing a wearisome task, and probable loss of friends or position.",
+      "translation_ko": "구슬픈 노래와 오르간 반주를 듣는 꿈은, 고된 일이 다가오고 벗이나 자리를 잃을지 모를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "오르간 연주자",
+    "term_en": "organist",
+    "context": "오르간 연주자를 봄",
+    "interpretation_ko": "벗이 성급한 행동으로 나를 크게 곤란하게 만들 흉조",
+    "interpretation_en": "to see an organist in your dreams, denotes a friend will cause you much inconvenience from hasty action",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Organist",
+      "original": "To see an organist in your dreams, denotes a friend will cause you much inconvenience from hasty action.",
+      "translation_ko": "오르간 연주자를 보는 꿈은, 벗이 성급한 행동으로 나를 크게 곤란하게 만들 조짐이다"
+    }
+  },
+  {
+    "term_ko": "오르간 연주자",
+    "term_en": "organist",
+    "context": "처녀가 제가 오르간 연주자임을 봄",
+    "interpretation_ko": "사랑에 너무 깐깐하여 버림받을 위험에 놓일 흉조",
+    "interpretation_en": "for a young woman to dream that she is an organist, foretells she will be so exacting in her love that she will be threatened with desertion",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Organist",
+      "original": "For a young woman to dream that she is an organist, foretells she will be so exacting in her love that she will be threatened with desertion.",
+      "translation_ko": "처녀가 제가 오르간 연주자인 꿈을 꾸면, 사랑에 너무 깐깐하여 버림받을 위험에 놓일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장식품",
+    "term_en": "ornament",
+    "context": "장식품을 착용함",
+    "interpretation_ko": "치켜세우는 영예를 받을 길조",
+    "interpretation_en": "if you wear ornaments in dreams, you will have a flattering honor conferred upon you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ornament",
+      "original": "If you wear ornaments in dreams, you will have a flattering honor conferred upon you.",
+      "translation_ko": "꿈에 장식품을 착용하면, 치켜세우는 영예를 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장식품",
+    "term_en": "ornament",
+    "context": "장식품을 받음",
+    "interpretation_ko": "하는 일이 잘 풀릴 길조",
+    "interpretation_en": "if you receive them, you will be fortunate in undertakings",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ornament",
+      "original": "If you receive them, you will be fortunate in undertakings.",
+      "translation_ko": "장식품을 받는 꿈은, 하는 일이 잘 풀릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장식품",
+    "term_en": "ornament",
+    "context": "장식품을 남에게 줌",
+    "interpretation_ko": "무모하고 헤픈 씀씀이를 뜻하는 흉조",
+    "interpretation_en": "giving them away, denotes recklessness and lavish extravagance",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ornament",
+      "original": "Giving them away, denotes recklessness and lavish extravagance.",
+      "translation_ko": "장식품을 남에게 주는 꿈은, 무모하고 헤픈 씀씀이를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "장식품",
+    "term_en": "ornament",
+    "context": "장식품을 잃어버림",
+    "interpretation_ko": "정인이나 좋은 자리를 잃을 흉조",
+    "interpretation_en": "losing an ornament, brings the loss either of a lover, or a good situation",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ornament",
+      "original": "Losing an ornament, brings the loss either of a lover, or a good situation.",
+      "translation_ko": "장식품을 잃어버리는 꿈은, 정인이나 좋은 자리를 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "고아",
+    "term_en": "orphan",
+    "context": "고아를 위로함",
+    "interpretation_ko": "남의 근심에 마음이 움직여 제 즐거움을 크게 내려놓게 될 조짐",
+    "interpretation_en": "condoling with orphans in a dream, means that the unhappy cares of others will touch your sympathies and cause you to sacrifice much personal enjoyment",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Orphan",
+      "original": "Condoling with orphans in a dream, means that the unhappy cares of others will touch your sympathies and cause you to sacrifice much personal enjoyment.",
+      "translation_ko": "꿈에 고아를 위로하면, 남의 근심에 마음이 움직여 제 즐거움을 크게 내려놓게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "고아",
+    "term_en": "orphan",
+    "context": "친척인 고아가 있음",
+    "interpretation_ko": "새 소임이 생기고 벗과 멀어질 흉조",
+    "interpretation_en": "if the orphans be related to you, new duties will come into your life, causing estrangement from friends and from some person held above mere friendly liking",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Orphan",
+      "original": "If the orphans be related to you, new duties will come into your life, causing estrangement from friends ant from some person held above mere friendly liking.",
+      "translation_ko": "고아가 내 친척이면, 새 소임이 생겨 벗들과, 그리고 각별히 여기던 누군가와 멀어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "타조",
+    "term_en": "ostrich",
+    "context": "타조 꿈을 꿈",
+    "interpretation_ko": "몰래 재물을 모으지만 동시에 여자들과 떳떳하지 못한 정을 통할 흉조",
+    "interpretation_en": "to dream of an ostrich, denotes that you will secretly amass wealth, but at the same time maintain degrading intrigues with women",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Ostrich",
+      "original": "To dream of an ostrich, denotes that you will secretly amass wealth, but at the same time maintain degrading intrigues with women.",
+      "translation_ko": "타조 꿈은, 몰래 재물을 모으지만 동시에 여자들과 떳떳하지 못한 정을 통할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "타조",
+    "term_en": "ostrich",
+    "context": "타조를 붙잡음",
+    "interpretation_ko": "재력 덕에 여행과 폭넓은 견문을 누릴 길조",
+    "interpretation_en": "to catch one, your resources will enable you to enjoy travel and extensive knowledge",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Ostrich",
+      "original": "To catch one, your resources will enable you to enjoy travel and extensive knowledge.",
+      "translation_ko": "타조를 붙잡는 꿈은, 재력 덕에 여행과 폭넓은 견문을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수달",
+    "term_en": "otter",
+    "context": "수달이 맑은 물살에서 노니는 것을 봄",
+    "interpretation_ko": "깨어나서도 이어질 행복과 좋은 운을 알리는 길조 — 홀몸이면 이른 혼인의 기쁨을, 아내에게는 남편의 남다른 다정함을 알린다",
+    "interpretation_en": "to see otters diving and sporting in limpid streams is certain to bring the dreamer waking happiness and good fortune; you will find ideal enjoyment in an early marriage, if you are single; wives may expect unusual tenderness from their spouses after this dream",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Otter",
+      "original": "To see otters diving and sporting in limpid streams is certain to bring the dreamer waking happiness and good fortune. You will find ideal enjoyment in an early marriage, if you are single; wives may expect unusual tenderness from their spouses after this dream.",
+      "translation_ko": "수달이 맑은 물살에서 자맥질하며 노니는 것을 보는 꿈은, 깨어나서도 이어질 행복과 좋은 운을 알린다. 홀몸이면 이른 혼인에서 더없는 기쁨을 찾을 것이요, 아내라면 남편에게서 남다른 다정함을 기대해도 좋다"
+    }
+  },
+  {
+    "term_ko": "소파",
+    "term_en": "couch",
+    "context": "소파에 기대어 정인과 사랑을 속삭임",
+    "interpretation_ko": "질투하는 이들이 약혼자 앞에서 나를 헐뜯고 성급한 혼인을 부추길 흉조",
+    "interpretation_en": "dreams in which you find yourself luxuriously reposing upon an ottoman, discussing the intricacies of love with your sweetheart, foretells that envious rivals will seek to defame you in the eyes of your affianced, and a hasty marriage will be advised",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ottoman",
+      "original": "Dreams in which you find yourself luxuriously reposing upon an ottoman, discussing the intricacies of love with your sweetheart, foretells that envious rivals will seek to defame you in the eyes of your affianced, and a hasty marriage will be advised.",
+      "translation_ko": "소파에 느긋이 기대어 정인과 사랑의 미묘함을 속삭이는 꿈은, 질투하는 이들이 약혼자 앞에서 나를 헐뜯으려 하고 성급한 혼인을 부추길 조짐이다"
+    }
+  }
+]
