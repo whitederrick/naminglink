@@ -190,7 +190,13 @@
       "양떼",
       "면양",
       "숫양",
-      "암양"
+      "암양",
+      "어린 양",
+      "새끼 양",
+      "양들",
+      "양가죽",
+      "양털",
+      "양고기"
     ],
     "aliases_en": [
       "lamb",
@@ -203,9 +209,24 @@
       "양이 돼지처럼 걸어감": "돼지처럼 돼지같이 걸어가",
       "양이 몸을 긁음": "긁는 긁고 긁어 비비",
       "양을 타고 거리로 나감": "타고 올라타 거리로 길거리",
-      "어미 양과 새끼 양을 봄": "어미 새끼 어린 젖먹이",
+      "어미 양과 새끼 양을 봄": "어미 새끼 젖먹이",
       "양을 잡거나 때림": "잡아 때리 때렸 죽였 도살",
-      "양이 수레를 끎": "수레 마차 끌었 끄는"
+      "양이 수레를 끎": "수레 마차 끌었 끄는",
+      "어린 양들이 푸른 들에서 뛰놂": "뛰놀 뛰노는 푸른",
+      "죽은 어린 양을 봄": "죽은 주검",
+      "흰 양털에 피가 묻어 있음": "피가 핏자국",
+      "길 잃은 어린 양을 봄": "잃은 잃어버린 사라진",
+      "양가죽을 봄": "가죽",
+      "집에서 쓰려고 어린 양을 잡음": "쓰려고 잡았다",
+      "양고기를 먹음": "고기를 갈비",
+      "어린 양이 어미젖을 빪": "젖을 빨고",
+      "개나 늑대가 어린 양을 물어뜯음": "늑대 물어뜯 개가",
+      "어린 양이 우는 소리를 들음": "우는 울음 소리를",
+      "눈보라나 비를 맞는 어린 양을 봄": "눈보라 비를 폭풍",
+      "어린 양을 기름": "기르 키우",
+      "어린 양을 품에 안음": "품에 안았 안고",
+      "어린 양의 털을 깎음": "깎았 깎는",
+      "여자가 양가죽을 벗기다 제 아이임을 앎": "여자가 벗기"
     },
     "contexts_en": {
       "양을 끌고 집으로 돌아옴": "home leading brought returned",
@@ -214,7 +235,22 @@
       "양을 타고 거리로 나감": "riding rode street town",
       "어미 양과 새끼 양을 봄": "mother baby young lambs",
       "양을 잡거나 때림": "killed beat slaughtered hit",
-      "양이 수레를 끎": "cart wagon pulling carriage"
+      "양이 수레를 끎": "cart wagon pulling carriage",
+      "어린 양들이 푸른 들에서 뛰놂": "frolicing pastures chaste bounteous",
+      "죽은 어린 양을 봄": "dead sadness desolation",
+      "흰 양털에 피가 묻어 있음": "blood fleece innocent betrayal",
+      "길 잃은 어린 양을 봄": "lost wayward influence conduct",
+      "양가죽을 봄": "skins comfort usurped",
+      "집에서 쓰려고 어린 양을 잡음": "domestic uses sacrifice contentment",
+      "양고기를 먹음": "chops illness anxiety welfare",
+      "어린 양이 어미젖을 빪": "nourishment intelligent lovable beautiful",
+      "개나 늑대가 어린 양을 물어뜯음": "dogs wolves devour insinuating villains",
+      "어린 양이 우는 소리를 들음": "bleating generosity appealed",
+      "눈보라나 비를 맞는 어린 양을 봄": "winter storm rain betterment",
+      "어린 양을 기름": "environments pleasant profitable",
+      "어린 양을 품에 안음": "carry arms encumbered lavish devotion",
+      "어린 양의 털을 깎음": "shear cold mercenary inhumane",
+      "여자가 양가죽을 벗기다 제 아이임을 앎": "peeling child sorrow rebound grief"
     }
   },
   {
