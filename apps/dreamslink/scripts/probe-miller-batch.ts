@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 125 — Milk·Milking, 12건)
+// (지금 담긴 것: 배치 126 — Mill~Mineral Water, 14건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,19 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "milk", ctx: "젖을 마심", text: "젖을 마셨다" },
-  { id: "milk", ctx: "젖이 많이 있는 것을 봄", text: "젖이 가득 있었다" },
-  { id: "milk", ctx: "젖을 사고팖", text: "젖을 사고팔았다" },
-  { id: "milk", ctx: "젖을 남에게 줌", text: "젖을 남에게 내주었다" },
-  { id: "milk", ctx: "젖을 엎지름", text: "젖을 엎질렀다" },
-  { id: "milk", ctx: "더러운 젖을 봄", text: "더러운 젖을 보았다" },
-  { id: "milk", ctx: "쉬어 버린 젖을 봄", text: "쉬어 버린 젖을 보았다" },
-  { id: "milk", ctx: "젖을 마시려다 못 마심", text: "젖을 마시려다 삼키지 못했다" },
-  { id: "milk", ctx: "뜨거운 젖을 봄", text: "뜨거운 젖을 보았다" },
-  { id: "milk", ctx: "젖으로 목욕함", text: "젖으로 목욕했다" },
-  { id: "milk", ctx: "젖을 짬", text: "젖을 짰다" },
-  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "milk", ctx: "남과 함께 젖을 먹음", text: "남과 함께 젖을 먹었다" },
+  { id: "mill", ctx: "방앗간을 봄", text: "방앗간이 돌아가고 있었다" },
+  { id: "mill", ctx: "허물어진 방앗간을 봄", text: "허물어진 방앗간을 보았다" },
+  { id: "mill-dam", ctx: "맑은 물이 물방아 둑을 넘쳐흐름", text: "맑은 물이 물방아 둑을 넘쳐흘렀다" },
+  { id: "mill-dam", ctx: "흐린 물이 물방아 둑을 넘침", text: "흐린 물이 물방아 둑을 넘쳤다" },
+  { id: "mill-dam", ctx: "물방아 둑이 말라 있음", text: "물방아 둑이 말라 있었다" },
+  { id: "miller", ctx: "방앗간지기를 봄", text: "방앗간지기가 나타났다" },
+  { id: "miller", ctx: "방앗간지기가 방아를 못 돌림", text: "방앗간지기가 방아를 못 돌리고 있었다" },
+  { id: "mine", ctx: "광산 안에 있음", text: "광산 안에 들어가 있었다" },
+  { id: "mine", ctx: "광산을 가짐", text: "광산을 소유하고 있었다" },
+  { id: "mineral", ctx: "광물을 봄", text: "캐낸 광물이 반짝였다" },
+  { id: "mineral", ctx: "광물이 나는 땅을 걸어감", text: "광물이 나는 땅을 걸어갔다" },
+  { id: "mineral-water", ctx: "광천수를 마심", text: "광천수를 마셨다" },
+  // 지킴 — 새 이름이 스치는 옛 상징의 답이 그대로인가(§25 곁가지)
+  { id: "colliery", ctx: "탄광에서 광부를 봄", text: "석탄 광산을 보았다" },
+  { id: "millet", ctx: "좁쌀을 먹음", text: "좁쌀이 있었다" },
 ];
 
 let notFound = 0;

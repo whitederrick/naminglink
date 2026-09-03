@@ -1,0 +1,116 @@
+[
+  {
+    "id": "mill",
+    "aliases": [
+      "방앗간을",
+      "방앗간이",
+      "물레방앗간"
+    ],
+    "aliases_en": [
+      "mills"
+    ],
+    "contexts": {
+      "방앗간을 봄": "돌아가 돌아갔",
+      "허물어진 방앗간을 봄": "허물어 낡은 무너진"
+    },
+    "contexts_en": {
+      "방앗간을 봄": "thrift fortunate undertakings",
+      "허물어진 방앗간을 봄": "dilapidated sickness ill"
+    }
+  },
+  {
+    "id": "mill-dam",
+    "aliases": [
+      "물방아 둑을",
+      "방죽",
+      "물레방아 둑"
+    ],
+    "aliases_en": [
+      "milldam"
+    ],
+    "contexts": {
+      "맑은 물이 물방아 둑을 넘쳐흐름": "맑은 넘쳐",
+      "흐린 물이 물방아 둑을 넘침": "흐린 탁한 더러운",
+      "물방아 둑이 말라 있음": "말라 메말"
+    },
+    "contexts_en": {
+      "맑은 물이 물방아 둑을 넘쳐흐름": "clear pouring pleasant enterprises social",
+      "흐린 물이 물방아 둑을 넘침": "muddy impure losses anticipated",
+      "물방아 둑이 말라 있음": "dry shrunken proportions"
+    }
+  },
+  {
+    "id": "miller",
+    "aliases": [
+      "방아꾼",
+      "방앗간 주인",
+      "방앗간지기가"
+    ],
+    "aliases_en": [
+      "millers"
+    ],
+    "contexts": {
+      "방앗간지기를 봄": "나타났 보였",
+      "방앗간지기가 방아를 못 돌림": "돌리 실패 멈춰"
+    },
+    "contexts_en": {
+      "방앗간지기를 봄": "surroundings grow hopeful",
+      "방앗간지기가 방아를 못 돌림": "failing attempt disappointed comfortable"
+    }
+  },
+  {
+    "id": "mine",
+    "aliases": [
+      "광산에",
+      "광산을",
+      "갱도"
+    ],
+    "aliases_en": [
+      "mines"
+    ],
+    "contexts": {
+      "광산 안에 있음": "안에 들어가",
+      "광산을 가짐": "가졌 소유 제것"
+    },
+    "contexts_en": {
+      "광산 안에 있음": "failure affairs inside",
+      "광산을 가짐": "own future wealth"
+    }
+  },
+  {
+    "id": "mineral",
+    "aliases": [
+      "광물을",
+      "광물이",
+      "쇳돌"
+    ],
+    "aliases_en": [
+      "minerals"
+    ],
+    "contexts": {
+      "광물을 봄": "캐낸 반짝",
+      "광물이 나는 땅을 걸어감": "걸어 밟고 땅을"
+    },
+    "contexts_en": {
+      "광물을 봄": "present unpromising outlook brighter",
+      "광물이 나는 땅을 걸어감": "walk land distress bettered"
+    }
+  },
+  {
+    "id": "mineral-water",
+    "aliases": [
+      "광천수를",
+      "광천수가",
+      "약수"
+    ],
+    "aliases_en": [
+      "spa water"
+    ],
+    "contexts": {
+      "광천수를 마심": "마셨 들이켰"
+    },
+    "contexts_en": {
+      "광천수를 마심": "drinking favor efforts cravings"
+    }
+  }
+]

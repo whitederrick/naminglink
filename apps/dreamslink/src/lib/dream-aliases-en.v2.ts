@@ -6326,5 +6326,23 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "mile-post": [
     "milepost",
     "mile posts"
+  ],
+  "mill": [
+    "mills"
+  ],
+  "mill-dam": [
+    "milldam"
+  ],
+  "miller": [
+    "millers"
+  ],
+  "mine": [
+    "mines"
+  ],
+  "mineral": [
+    "minerals"
+  ],
+  "mineral-water": [
+    "spa water"
   ]
 };

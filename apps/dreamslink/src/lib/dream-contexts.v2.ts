@@ -4395,5 +4395,17 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "midwife::산파를 봄": "unfortunate narrow escape death",
   "midwife::처녀가 산파를 봄": "distress calumny attend",
   "mile-post::이정표를 보거나 지나감": "pass assailed doubtful fears",
-  "mile-post::쓰러진 이정표를 봄": "accidents threatening disorder"
+  "mile-post::쓰러진 이정표를 봄": "accidents threatening disorder",
+  "mill::방앗간을 봄": "thrift fortunate undertakings",
+  "mill::허물어진 방앗간을 봄": "dilapidated sickness ill",
+  "mill-dam::맑은 물이 물방아 둑을 넘쳐흐름": "clear pouring pleasant enterprises social",
+  "mill-dam::흐린 물이 물방아 둑을 넘침": "muddy impure losses anticipated",
+  "mill-dam::물방아 둑이 말라 있음": "dry shrunken proportions",
+  "miller::방앗간지기를 봄": "surroundings grow hopeful",
+  "miller::방앗간지기가 방아를 못 돌림": "failing attempt disappointed comfortable",
+  "mine::광산 안에 있음": "failure affairs inside",
+  "mine::광산을 가짐": "own future wealth",
+  "mineral::광물을 봄": "present unpromising outlook brighter",
+  "mineral::광물이 나는 땅을 걸어감": "walk land distress bettered",
+  "mineral-water::광천수를 마심": "drinking favor efforts cravings"
 };

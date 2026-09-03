@@ -31,6 +31,7 @@
     "m123.json",
     "m124.json",
     "m125.json",
+    "m126.json",
     "m13.json",
     "m14.json",
     "m15.json",
@@ -60414,6 +60415,67 @@
       ]
     },
     {
+      "id": "mill-dam",
+      "term_ko": "물방아 둑",
+      "term_en": "mill-dam",
+      "aliases": [
+        "물방아 둑을",
+        "방죽",
+        "물레방아 둑"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "맑은 물이 물방아 둑을 넘쳐흐름",
+          "interpretation_ko": "일에서든 사람 사이에서든 즐거운 일이 벌어질 길한 조짐",
+          "interpretation_en": "foretells pleasant enterprises, either of a business or social nature",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mill-dam",
+              "original": "To dream that you see clear water pouring over a mill-dam, foretells pleasant enterprises, either of a business or social nature.",
+              "translation_ko": "맑은 물이 물방아 둑을 넘쳐흐르는 꿈은, 일에서든 사람 사이에서든 즐거운 일이 벌어짐을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "흐린 물이 물방아 둑을 넘침",
+          "interpretation_ko": "잃을 것이 있고 즐거움을 바라던 자리에서 괴로운 일이 생길 흉한 조짐",
+          "interpretation_en": "you will meet with losses, and troubles will arise where pleasure was anticipated",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mill-dam",
+              "original": "If the water is muddy or impure, you will meet with losses, and troubles will arise where pleasure was anticipated.",
+              "translation_ko": "물이 흐리거나 더러우면, 잃을 것이 있고 즐거움을 바라던 자리에서 괴로운 일이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "물방아 둑이 말라 있음",
+          "interpretation_ko": "하는 일이 쪼그라들 흉한 조짐",
+          "interpretation_en": "your business will assume shrunken proportions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mill-dam",
+              "original": "If the dam is dry, your business will assume shrunken proportions.",
+              "translation_ko": "둑이 말라 있으면 하는 일이 쪼그라든다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "monk",
       "term_ko": "스님",
       "term_en": "monk",
@@ -80777,6 +80839,100 @@
       ]
     },
     {
+      "id": "mill",
+      "term_ko": "방앗간",
+      "term_en": "mill",
+      "aliases": [
+        "방앗간을",
+        "방앗간이",
+        "물레방앗간"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "방앗간을 봄",
+          "interpretation_ko": "알뜰함과 잘 풀리는 일을 뜻하는 길한 조짐",
+          "interpretation_en": "indicates thrift and fortunate undertakings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mill",
+              "original": "To dream of a mill, indicates thrift and fortunate undertakings.",
+              "translation_ko": "방앗간의 꿈은 알뜰함과 잘 풀리는 일을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "허물어진 방앗간을 봄",
+          "interpretation_ko": "병과 궂은 운을 뜻하는 흉한 조짐",
+          "interpretation_en": "denotes sickness and ill fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mill",
+              "original": "To see a dilapidated mill, denotes sickness and ill fortune.",
+              "translation_ko": "허물어진 방앗간을 보면 병과 궂은 운이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "miller",
+      "term_ko": "방앗간지기",
+      "term_en": "miller",
+      "aliases": [
+        "방아꾼",
+        "방앗간 주인",
+        "방앗간지기가"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "방앗간지기를 봄",
+          "interpretation_ko": "제 둘레가 더 희망차게 바뀔 길한 조짐",
+          "interpretation_en": "signifies your surroundings will grow more hopeful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Millet",
+              "original": "To see a miller in your dreams, signifies your surroundings will grow more hopeful.",
+              "translation_ko": "꿈에 방앗간지기를 보면 제 둘레가 더 희망차게 바뀐다"
+            }
+          ]
+        },
+        {
+          "context": "방앗간지기가 방아를 못 돌림",
+          "interpretation_ko": "넉넉한 줄 알았던 정인의 살림에 실망할 흉한 조짐",
+          "interpretation_en": "foretells she will be disappointed in her lover's wealth, as she will think him in comfortable circumstances",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Millet",
+              "original": "For a woman to dream of a miller failing in an attempt to start his mill, foretells she will be disappointed in her lover's wealth, as she will think him in comfortable circumstances.",
+              "translation_ko": "여성이 방앗간지기가 방아를 못 돌리는 꿈을 꾸면, 넉넉한 줄 알았던 정인의 살림에 실망한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "millet",
       "term_ko": "좁쌀",
       "term_en": "millet",
@@ -80817,6 +80973,100 @@
               "locator": "田園五榖耕種",
               "original": "粟米必有獻物至",
               "translation_ko": "좁쌀은 반드시 바치는 물건이 이른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mine",
+      "term_ko": "광산",
+      "term_en": "mine",
+      "aliases": [
+        "광산에",
+        "광산을",
+        "갱도"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "광산 안에 있음",
+          "interpretation_ko": "하는 일이 실패할 흉한 조짐",
+          "interpretation_en": "denotes failure in affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mine",
+              "original": "To dream of being in a mine, denotes failure in affairs.",
+              "translation_ko": "광산 안에 있는 꿈은 하는 일이 실패함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "광산을 가짐",
+          "interpretation_ko": "앞으로 재물을 얻을 길한 조짐",
+          "interpretation_en": "denotes future wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mine",
+              "original": "To own a mine, denotes future wealth.",
+              "translation_ko": "광산을 가지면 앞으로 재물을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mineral",
+      "term_ko": "광물",
+      "term_en": "mineral",
+      "aliases": [
+        "광물을",
+        "광물이",
+        "쇳돌"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "광물을 봄",
+          "interpretation_ko": "지금의 어두운 앞날이 곧바로 밝아질 길한 조짐",
+          "interpretation_en": "denotes your present unpromising outlook will grow directly brighter",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mineral",
+              "original": "To dream of minerals, denotes your present unpromising outlook will grow directly brighter.",
+              "translation_ko": "광물의 꿈은 지금의 어두운 앞날이 곧바로 밝아짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "광물이 나는 땅을 걸어감",
+          "interpretation_ko": "괴로운 일이 있으나 거기서 벗어나 형편이 나아질 조짐",
+          "interpretation_en": "signifies distress, from which you will escape and be bettered in your surroundings",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mineral",
+              "original": "To walk over mineral land, signifies distress, from which you will escape and be bettered in your surroundings.",
+              "translation_ko": "광물이 나는 땅을 걸어가면, 괴로운 일이 있으나 거기서 벗어나 형편이 나아진다"
             }
           ]
         }
@@ -91952,6 +92202,39 @@
               "locator": "衣帳毯褥匙櫡",
               "original": "碾衣食移居大吉",
               "translation_ko": "맷돌은 옷과 음식, 이사에 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mineral-water",
+      "term_ko": "광천수",
+      "term_en": "mineral water",
+      "aliases": [
+        "광천수를",
+        "광천수가",
+        "약수"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "광천수를 마심",
+          "interpretation_ko": "애쓴 일에 복이 따르고, 바라던 즐거움을 누릴 자리가 생길 길한 조짐",
+          "interpretation_en": "foretells fortune will favor your efforts, and you will enjoy your opportunities to satisfy your cravings for certain pleasures",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mineral Water",
+              "original": "To dream of drinking mineral water, foretells fortune will favor your efforts, and you will enjoy your opportunities to satisfy your cravings for certain pleasures.",
+              "translation_ko": "광천수를 마시는 꿈은, 애쓴 일에 복이 따르고 바라던 즐거움을 누릴 자리가 생김을 뜻한다"
             }
           ]
         }
