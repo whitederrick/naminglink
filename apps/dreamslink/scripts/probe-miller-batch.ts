@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 122 — Melancholy~Mendicant, 14건)
+// (지금 담긴 것: 배치 123 — Mending~Metamorphose, 14건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "melancholy", ctx: "무슨 일로 우울해함", text: "내가 그 일로 우울해했다" },
-  { id: "melancholy", ctx: "남이 우울해하는 것을 봄", text: "남이 우울해하는 것을 보았다" },
-  { id: "melon", ctx: "참외를 먹음", text: "참외를 먹었다" },
-  { id: "melon", ctx: "푸른 덩굴에 열린 참외를 봄", text: "푸른 덩굴에 열린 참외를 보았다" },
-  { id: "melon", ctx: "참외를 봄", text: "참외가 있었다" },
-  { id: "memorandum", ctx: "메모를 함", text: "메모를 적었다" },
-  { id: "memorandum", ctx: "남이 메모하는 것을 봄", text: "남이 메모하는 것을 보았다" },
-  { id: "memorandum", ctx: "메모를 잃음", text: "메모를 잃어버렸다" },
-  { id: "memorandum", ctx: "메모를 주움", text: "메모를 주웠다" },
-  { id: "memorial", ctx: "기념비를 봄", text: "기념비가 세워져 있었다" },
-  { id: "menagerie", ctx: "동물원에 감", text: "동물원에 갔다" },
-  { id: "beggar", ctx: "여성이 거지를 봄", text: "여자가 거지를 보았다" },
+  { id: "mending", ctx: "더러워진 옷을 기움", text: "더러워진 옷을 기웠다" },
+  { id: "mending", ctx: "깨끗한 옷을 기움", text: "깨끗한 옷을 기웠다" },
+  { id: "mending", ctx: "처녀가 옷을 기움", text: "처녀가 옷을 기웠다" },
+  { id: "mercury", ctx: "수은을 봄", text: "수은이 방울져 흘렀다" },
+  { id: "mercury", ctx: "여성이 수은 중독으로 앓음", text: "여자가 수은 중독으로 앓았다" },
+  { id: "jolly", ctx: "흥겨운 자리에 있음", text: "흥겨운 자리에 함께 있었다" },
+  { id: "meshes", ctx: "그물코에 얽힘", text: "그물코에 얽혔다" },
+  { id: "meshes", ctx: "처녀가 그물코에 얽힘", text: "처녀가 그물코에 얽혔다" },
+  { id: "meshes", ctx: "그물코에서 빠져나옴", text: "그물코에서 빠져나왔다" },
+  { id: "message", ctx: "기별을 받음", text: "기별을 받았다" },
+  { id: "message", ctx: "기별을 보냄", text: "기별을 보냈다" },
+  { id: "metamorphose", ctx: "무언가가 탈바꿈하는 것을 봄", text: "무언가가 탈바꿈하는 것을 보았다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "melon", ctx: "오이 꿈을 꿈", text: "오이가 풍성했다" },
-  { id: "beggar", ctx: "늙고 쇠약한 거지를 봄", text: "늙고 쇠약한 거지를 보았다" },
+  { id: "jolly", ctx: "벗들과 흥겹게 어울림", text: "벗들과 흥겹게 어울렸다" },
+  { id: "net", ctx: "몸이 그물에 걸림", text: "그물이 펼쳐져 있었다" },
 ];
 
 let notFound = 0;

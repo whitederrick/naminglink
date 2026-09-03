@@ -3975,6 +3975,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "jockey::기수가 말에서 떨어지는 것을 봄": "떨어지 떨어졌 낙마 굴러떨어",
   "jolly::벗들과 흥겹게 어울림": "벗들 동무들 어울리 어울려",
   "jolly::흥이 조금이라도 깨짐": "깨졌 깨지 식어",
+  "jolly::흥겨운 자리에 있음": "자리에 함께 있었",
   "journeyman::삯일꾼을 봄": "보았다 보였다",
   "journeyman::여자가 삯일꾼 꿈을 꿈": "여자가 여성이",
   "jubilee::축전을 봄": "즐거운 참여 끼어",
@@ -4365,5 +4366,16 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "memorandum::메모를 잃음": "잃어 잃었",
   "memorandum::메모를 주움": "주웠 주운 찾았",
   "memorial::기념비를 봄": "세워져 우뚝",
-  "menagerie::동물원에 감": "갔다 구경"
+  "menagerie::동물원에 감": "갔다 구경",
+  "mending::더러워진 옷을 기움": "더러 때묻 얼룩",
+  "mending::깨끗한 옷을 기움": "깨끗 말끔",
+  "mending::처녀가 옷을 기움": "처녀 아가씨",
+  "mercury::수은을 봄": "흘러 방울",
+  "mercury::여성이 수은 중독으로 앓음": "중독 여자가 여성이",
+  "meshes::그물코에 얽힘": "옭아매 휘감겼",
+  "meshes::처녀가 그물코에 얽힘": "처녀 아가씨",
+  "meshes::그물코에서 빠져나옴": "빠져나 벗어났 풀려났",
+  "message::기별을 받음": "받았 받는",
+  "message::기별을 보냄": "보냈 부쳤",
+  "metamorphose::무언가가 탈바꿈하는 것을 봄": "무언가 바뀌는"
 };

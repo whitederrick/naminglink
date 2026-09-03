@@ -6300,5 +6300,21 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "menagerie": [
     "menageries"
+  ],
+  "mending": [
+    "mend",
+    "mended"
+  ],
+  "mercury": [
+    "quicksilver"
+  ],
+  "meshes": [
+    "a mesh"
+  ],
+  "message": [
+    "messages"
+  ],
+  "metamorphose": [
+    "metamorphosed"
   ]
 };

@@ -6,7 +6,9 @@
       "흥겹게",
       "흥겨웠다",
       "흥이 나",
-      "신명 나"
+      "신명 나",
+      "흥겨운 자리",
+      "들뜬"
     ],
     "aliases_en": [
       "jolly",
@@ -14,11 +16,13 @@
     ],
     "contexts": {
       "벗들과 흥겹게 어울림": "벗들 동무들 어울리 어울려",
-      "흥이 조금이라도 깨짐": "깨졌 깨지 식어"
+      "흥이 조금이라도 깨짐": "깨졌 깨지 식어",
+      "흥겨운 자리에 있음": "자리에 함께 있었"
     },
     "contexts_en": {
       "벗들과 흥겹게 어울림": "enjoying companions behavior children satisfying",
-      "흥이 조금이라도 깨짐": "rift worry intermingle success future"
+      "흥이 조금이라도 깨짐": "rift worry intermingle success future",
+      "흥겨운 자리에 있음": "merry company events engage profitable"
     }
   },
   {

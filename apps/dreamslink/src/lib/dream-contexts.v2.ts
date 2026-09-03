@@ -3971,6 +3971,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "jockey::기수가 말에서 떨어지는 것을 봄": "thrown called aid strangers",
   "jolly::벗들과 흥겹게 어울림": "enjoying companions behavior children satisfying",
   "jolly::흥이 조금이라도 깨짐": "rift worry intermingle success future",
+  "jolly::흥겨운 자리에 있음": "merry company events engage profitable",
   "journeyman::삯일꾼을 봄": "lose money useless travels",
   "journeyman::여자가 삯일꾼 꿈을 꿈": "woman brings pleasant trips unexpected",
   "jubilee::축전을 봄": "pleasureable enterprises participant",
@@ -4361,5 +4362,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "memorandum::메모를 잃음": "lose slight trade",
   "memorandum::메모를 주움": "find assume duties pleasure",
   "memorial::기념비를 봄": "occasion patient kindness threatens relatives",
-  "menagerie::동물원에 감": "visiting various troubles"
+  "menagerie::동물원에 감": "visiting various troubles",
+  "mending::더러워진 옷을 기움": "soiled garments undertake wrong inopportune",
+  "mending::깨끗한 옷을 기움": "clean successful adding fortune",
+  "mending::처녀가 옷을 기움": "systematic help husband",
+  "mercury::수은을 봄": "unhappy constant oppression",
+  "mercury::여성이 수은 중독으로 앓음": "mercurial poison deserted separated family",
+  "meshes::그물코에 얽힘": "entangled oppress seeming prosperity",
+  "meshes::처녀가 그물코에 얽힘": "environments evil consequent abandonment",
+  "meshes::그물코에서 빠져나옴": "disengaging narrowly escape slander",
+  "message::기별을 받음": "receiving changes affairs",
+  "message::기별을 보냄": "sending placed unpleasant situations",
+  "metamorphose::무언가가 탈바꿈하는 것을 봄": "sudden take place frightful"
 };

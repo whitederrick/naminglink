@@ -28,6 +28,7 @@
     "m120.json",
     "m121.json",
     "m122.json",
+    "m123.json",
     "m13.json",
     "m14.json",
     "m15.json",
@@ -58728,6 +58729,71 @@
       ]
     },
     {
+      "id": "jolly",
+      "term_ko": "흥겨움",
+      "term_en": "jolly",
+      "aliases": [
+        "흥겨운",
+        "흥겹게",
+        "흥겨웠다",
+        "흥이 나",
+        "신명 나",
+        "흥겨운 자리",
+        "들뜬"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "벗들과 흥겹게 어울림",
+          "interpretation_ko": "아이들이 바르게 자라는 데서 기쁨을 얻고 하는 일도 흡족하게 풀릴 길한 조짐",
+          "interpretation_en": "you will realize pleasure from the good behavior of children and have satisfying results in business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jolly",
+              "original": "To dream that you feel jolly and are enjoying the merriment of companions, you will realize pleasure from the good behavior of children and have satisfying results in business.",
+              "translation_ko": "흥겹고 벗들과 어울려 즐기는 꿈을 꾸면, 아이들이 바르게 자라는 데서 기쁨을 얻고 하는 일도 흡족하게 풀린다"
+            }
+          ]
+        },
+        {
+          "context": "흥겨운 자리에 있음",
+          "interpretation_ko": "한동안 즐거운 일이 이어지고 하는 일도 잇속 있게 풀릴 길한 조짐",
+          "interpretation_en": "denotes that pleasant events will engage you for a time, and affairs will assume profitable shapes",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Merry",
+              "original": "To dream being merry, or in merry company, denotes that pleasant events will engage you for a time, and affairs will assume profitable shapes.",
+              "translation_ko": "흥겹거나 흥겨운 자리에 있는 꿈은, 한동안 즐거운 일이 이어지고 하는 일도 잇속 있게 풀림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "흥이 조금이라도 깨짐",
+          "interpretation_ko": "앞으로 잘되는 가운데 근심이 섞여 들 흉한 조짐",
+          "interpretation_en": "worry will intermingle with the success of the future",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jolly",
+              "original": "If there comes the least rift in the merriment, worry will intermingle with the success of the future.",
+              "translation_ko": "흥이 조금이라도 깨지면 앞으로 잘되는 가운데 근심이 섞여 든다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "jury",
       "term_ko": "배심원",
       "term_en": "jury",
@@ -59949,6 +60015,131 @@
               "locator": "Medicine",
               "original": "To give medicine to others, denotes that you will work to injure some one who trusted you.",
               "translation_ko": "남에게 약을 주면 저를 믿은 사람을 해치려 든다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mending",
+      "term_ko": "옷 깁기",
+      "term_en": "mending",
+      "aliases": [
+        "기웠다",
+        "깁는",
+        "기워",
+        "꿰맸다",
+        "꿰매는",
+        "옷을 깁"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "더러워진 옷을 기움",
+          "interpretation_ko": "때가 아닌데 그릇된 것을 바로잡으려 나설 흉한 조짐",
+          "interpretation_en": "denotes that you will undertake to right a wrong at an inopportune moment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mending",
+              "original": "To dream of mending soiled garments, denotes that you will undertake to right a wrong at an inopportune moment;",
+              "translation_ko": "더러워진 옷을 깁는 꿈은, 때가 아닌데 그릇된 것을 바로잡으려 나섬을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "깨끗한 옷을 기움",
+          "interpretation_ko": "재물을 늘리는 데 잘될 길한 조짐",
+          "interpretation_en": "you will be successful in adding to your fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mending",
+              "original": "but if the garment be clean, you will be successful in adding to your fortune.",
+              "translation_ko": "옷이 깨끗하면 재물을 늘리는 데 잘된다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 옷을 기움",
+          "interpretation_ko": "지아비에게 차근차근 도움이 되는 사람이 될 길한 조짐",
+          "interpretation_en": "foretells that she will be a systematic help to her husband",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mending",
+              "original": "For a young woman to dream of mending, foretells that she will be a systematic help to her husband.",
+              "translation_ko": "젊은 여성이 옷을 깁는 꿈을 꾸면, 지아비에게 차근차근 도움이 되는 사람이 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meshes",
+      "term_ko": "그물코",
+      "term_en": "meshes",
+      "aliases": [
+        "그물코에",
+        "그물코를",
+        "그물눈"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "그물코에 얽힘",
+          "interpretation_ko": "겉으로 잘나가는 때에 적이 저를 짓누를 흉한 조짐",
+          "interpretation_en": "denotes that enemies will oppress you in time of seeming prosperity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Meshes",
+              "original": "To dream of being entangled in the meshes of a net, or other like constructions, denotes that enemies will oppress you in time of seeming prosperity.",
+              "translation_ko": "그물코에 얽히는 꿈은, 겉으로 잘나가는 때에 적이 저를 짓누름을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 그물코에 얽힘",
+          "interpretation_ko": "둘레 형편이 저를 나쁜 길로 이끌어 끝내 버림받을 흉한 조짐",
+          "interpretation_en": "this dream foretells that her environments will bring her into evil and consequent abandonment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Meshes",
+              "original": "To a young woman, this dream foretells that her environments will bring her into evil and consequent abandonment.",
+              "translation_ko": "젊은 여성에게 이 꿈은, 둘레 형편이 저를 나쁜 길로 이끌어 끝내 버림받음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "그물코에서 빠져나옴",
+          "interpretation_ko": "헐뜯는 말을 아슬아슬하게 피할 조짐",
+          "interpretation_en": "she will narrowly escape slander",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Meshes",
+              "original": "If she succeeds in disengaging herself from the meshes, she will narrowly escape slander.",
+              "translation_ko": "그물코에서 빠져나오면 헐뜯는 말을 아슬아슬하게 피한다"
             }
           ]
         }
@@ -77952,55 +78143,6 @@
       ]
     },
     {
-      "id": "jolly",
-      "term_ko": "흥겨움",
-      "term_en": "jolly",
-      "aliases": [
-        "흥겨운",
-        "흥겹게",
-        "흥겨웠다",
-        "흥이 나",
-        "신명 나"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "벗들과 흥겹게 어울림",
-          "interpretation_ko": "아이들이 바르게 자라는 데서 기쁨을 얻고 하는 일도 흡족하게 풀릴 길한 조짐",
-          "interpretation_en": "you will realize pleasure from the good behavior of children and have satisfying results in business",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jolly",
-              "original": "To dream that you feel jolly and are enjoying the merriment of companions, you will realize pleasure from the good behavior of children and have satisfying results in business.",
-              "translation_ko": "흥겹고 벗들과 어울려 즐기는 꿈을 꾸면, 아이들이 바르게 자라는 데서 기쁨을 얻고 하는 일도 흡족하게 풀린다"
-            }
-          ]
-        },
-        {
-          "context": "흥이 조금이라도 깨짐",
-          "interpretation_ko": "앞으로 잘되는 가운데 근심이 섞여 들 흉한 조짐",
-          "interpretation_en": "worry will intermingle with the success of the future",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jolly",
-              "original": "If there comes the least rift in the merriment, worry will intermingle with the success of the future.",
-              "translation_ko": "흥이 조금이라도 깨지면 앞으로 잘되는 가운데 근심이 섞여 든다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "journeyman",
       "term_ko": "삯일꾼",
       "term_en": "journeyman",
@@ -80172,6 +80314,101 @@
               "locator": "Melancholy",
               "original": "To dream that you see others melancholy, denotes unpleasant interruption in affairs.",
               "translation_ko": "남이 우울해하는 것을 보면 하는 일이 언짢게 끊긴다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mercury",
+      "term_ko": "수은",
+      "term_en": "mercury",
+      "aliases": [
+        "수은을",
+        "수은이",
+        "수은에"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "수은을 봄",
+          "interpretation_ko": "적이 끊임없이 짓눌러 언짢은 바뀜이 있을 흉한 조짐",
+          "interpretation_en": "is significant of unhappy changes through the constant oppression of enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mercury",
+              "original": "To dream of mercury, is significant of unhappy changes through the constant oppression of enemies.",
+              "translation_ko": "수은의 꿈은, 적이 끊임없이 짓눌러 언짢은 바뀜이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 수은 중독으로 앓음",
+          "interpretation_ko": "집안에서 버림받고 떨어져 지내게 될 흉한 조짐",
+          "interpretation_en": "foretells she will be deserted by and separated from her family",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mercury",
+              "original": "For a woman to be suffering from mercurial poison, foretells she will be deserted by and separated from her family.",
+              "translation_ko": "여성이 수은 중독으로 앓으면, 집안에서 버림받고 떨어져 지내게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "message",
+      "term_ko": "기별",
+      "term_en": "message",
+      "aliases": [
+        "기별을",
+        "기별이",
+        "전갈",
+        "소식"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기별을 받음",
+          "interpretation_ko": "하는 일에 바뀜이 생길 조짐",
+          "interpretation_en": "denotes that changes will take place in your affairs",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Message",
+              "original": "To dream of receiving a message, denotes that changes will take place in your affairs.",
+              "translation_ko": "기별을 받는 꿈은 하는 일에 바뀜이 생김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "기별을 보냄",
+          "interpretation_ko": "언짢은 자리에 놓이게 될 흉한 조짐",
+          "interpretation_en": "denotes that you will be placed in unpleasant situations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Message",
+              "original": "To dream of sending a message, denotes that you will be placed in unpleasant situations.",
+              "translation_ko": "기별을 보내는 꿈은 언짢은 자리에 놓이게 됨을 뜻한다"
             }
           ]
         }
@@ -91254,6 +91491,41 @@
               "locator": "Menagerie",
               "original": "To dream of visiting a menagerie, denotes various troubles.",
               "translation_ko": "동물원에 가는 꿈은 갖가지 괴로운 일이 있음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metamorphose",
+      "term_ko": "탈바꿈",
+      "term_en": "metamorphose",
+      "aliases": [
+        "탈바꿈하는",
+        "탈바꿈했다",
+        "탈바꿈하고",
+        "탈바꿈이",
+        "탈바꿈을"
+      ],
+      "category": "action",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무언가가 탈바꿈하는 것을 봄",
+          "interpretation_ko": "삶에 갑작스러운 바뀜이 올 조짐 — 그 탈바꿈이 즐거웠으면 좋게, 무서웠으면 나쁘게 온다",
+          "interpretation_en": "denotes that sudden changes will take place in your life, for good or bad, as the metamorphose was pleasant or frightful",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Metamorphose",
+              "original": "To dream of seeing anything metamorphose, denotes that sudden changes will take place in your life, for good or bad, as the metamorphose was pleasant or frightful.",
+              "translation_ko": "무언가가 탈바꿈하는 것을 보는 꿈은, 삶에 갑작스러운 바뀜이 옴을 뜻한다"
             }
           ]
         }

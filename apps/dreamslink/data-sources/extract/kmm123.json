@@ -1,0 +1,106 @@
+[
+  {
+    "id": "mending",
+    "aliases": [
+      "기웠다",
+      "깁는",
+      "기워",
+      "꿰맸다",
+      "꿰매는",
+      "옷을 깁"
+    ],
+    "aliases_en": [
+      "mend",
+      "mended"
+    ],
+    "contexts": {
+      "더러워진 옷을 기움": "더러 때묻 얼룩",
+      "깨끗한 옷을 기움": "깨끗 말끔",
+      "처녀가 옷을 기움": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "더러워진 옷을 기움": "soiled garments undertake wrong inopportune",
+      "깨끗한 옷을 기움": "clean successful adding fortune",
+      "처녀가 옷을 기움": "systematic help husband"
+    }
+  },
+  {
+    "id": "mercury",
+    "aliases": [
+      "수은을",
+      "수은이",
+      "수은에"
+    ],
+    "aliases_en": [
+      "quicksilver"
+    ],
+    "contexts": {
+      "수은을 봄": "흘러 방울",
+      "여성이 수은 중독으로 앓음": "중독 여자가 여성이"
+    },
+    "contexts_en": {
+      "수은을 봄": "unhappy constant oppression",
+      "여성이 수은 중독으로 앓음": "mercurial poison deserted separated family"
+    }
+  },
+  {
+    "id": "meshes",
+    "aliases": [
+      "그물코에",
+      "그물코를",
+      "그물눈"
+    ],
+    "aliases_en": [
+      "a mesh"
+    ],
+    "contexts": {
+      "그물코에 얽힘": "옭아매 휘감겼",
+      "처녀가 그물코에 얽힘": "처녀 아가씨",
+      "그물코에서 빠져나옴": "빠져나 벗어났 풀려났"
+    },
+    "contexts_en": {
+      "그물코에 얽힘": "entangled oppress seeming prosperity",
+      "처녀가 그물코에 얽힘": "environments evil consequent abandonment",
+      "그물코에서 빠져나옴": "disengaging narrowly escape slander"
+    }
+  },
+  {
+    "id": "message",
+    "aliases": [
+      "기별을",
+      "기별이",
+      "전갈",
+      "소식"
+    ],
+    "aliases_en": [
+      "messages"
+    ],
+    "contexts": {
+      "기별을 받음": "받았 받는",
+      "기별을 보냄": "보냈 부쳤"
+    },
+    "contexts_en": {
+      "기별을 받음": "receiving changes affairs",
+      "기별을 보냄": "sending placed unpleasant situations"
+    }
+  },
+  {
+    "id": "metamorphose",
+    "aliases": [
+      "탈바꿈하는",
+      "탈바꿈했다",
+      "탈바꿈하고",
+      "탈바꿈이",
+      "탈바꿈을"
+    ],
+    "aliases_en": [
+      "metamorphosed"
+    ],
+    "contexts": {
+      "무언가가 탈바꿈하는 것을 봄": "무언가 바뀌는"
+    },
+    "contexts_en": {
+      "무언가가 탈바꿈하는 것을 봄": "sudden take place frightful"
+    }
+  }
+]
