@@ -1,0 +1,53 @@
+[
+  {
+    "id": "pipe",
+    "aliases": [
+      "파이프가",
+      "파이프를",
+      "담뱃대"
+    ],
+    "aliases_en": [
+      "pipe",
+      "pipes",
+      "tobacco pipe"
+    ],
+    "contexts": {
+      "파이프 꿈을 꿈": "우연히",
+      "하수관·가스관 같은 파이프를 봄": "하수관 가스관",
+      "낡고 부서진 파이프를 봄": "낡고 부서진",
+      "파이프 담배를 피움": "담배를 피웠 피우는"
+    },
+    "contexts_en": {
+      "파이프 꿈을 꿈": "chanced",
+      "하수관·가스관 같은 파이프를 봄": "sewer gas",
+      "낡고 부서진 파이프를 봄": "old broken",
+      "파이프 담배를 피움": "smoke smoking smoked"
+    }
+  },
+  {
+    "id": "pirate",
+    "aliases": [
+      "해적이",
+      "해적을",
+      "해적에게",
+      "해적임을",
+      "해적인"
+    ],
+    "aliases_en": [
+      "pirates",
+      "a pirate"
+    ],
+    "contexts": {
+      "해적 꿈을 꿈": "낯선",
+      "제가 해적이 되는 꿈을 꿈": "제가 스스로",
+      "처녀가 애인이 해적임을 꿈꿈": "애인이 연인이",
+      "처녀가 해적에게 붙잡힘": "붙잡혔 꾐에"
+    },
+    "contexts_en": {
+      "해적 꿈을 꿈": "unfamiliar",
+      "제가 해적이 되는 꿈을 꿈": "yourself becoming",
+      "처녀가 애인이 해적임을 꿈꿈": "lover unworthiness",
+      "처녀가 해적에게 붙잡힘": "captured pretenses"
+    }
+  }
+]

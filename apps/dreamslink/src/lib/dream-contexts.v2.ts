@@ -5045,5 +5045,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pins::옷핀을 삼킴": "swallowing swallowed",
   "pins::옷핀을 잃어버림": "lose losing petty",
   "pins::휘거나 녹슨 옷핀을 봄": "bent rusty",
-  "pins::제 살에 옷핀을 찔러 넣음": "stick flesh irritate"
+  "pins::제 살에 옷핀을 찔러 넣음": "stick flesh irritate",
+  "pipe::파이프 꿈을 꿈": "chanced",
+  "pipe::하수관·가스관 같은 파이프를 봄": "sewer gas",
+  "pipe::낡고 부서진 파이프를 봄": "old broken",
+  "pipe::파이프 담배를 피움": "smoke smoking smoked",
+  "pirate::해적 꿈을 꿈": "unfamiliar",
+  "pirate::제가 해적이 되는 꿈을 꿈": "yourself becoming",
+  "pirate::처녀가 애인이 해적임을 꿈꿈": "lover unworthiness",
+  "pirate::처녀가 해적에게 붙잡힘": "captured pretenses"
 };

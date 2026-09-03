@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "파이프",
+    "term_en": "pipe",
+    "context": "파이프 꿈을 꿈",
+    "interpretation_ko": "많은 고투 끝의 평화와 안락을 뜻함",
+    "interpretation_en": "are representatives of peace and comfort after many struggles",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pipe",
+      "original": "Pipes seen in dreams, are representatives of peace and comfort after many struggles.",
+      "translation_ko": "파이프가 나오는 꿈은, 많은 고투 끝의 평화와 안락을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "파이프",
+    "term_en": "pipe",
+    "context": "하수관·가스관 같은 파이프를 봄",
+    "interpretation_ko": "이색적인 생각과 마을의 번영을 뜻함",
+    "interpretation_en": "denotes unusual thought and prosperity in your community",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pipe",
+      "original": "Sewer, gas, and such like pipes, denotes unusual thought and prosperity in your community.",
+      "translation_ko": "하수관·가스관 같은 파이프를 보는 꿈은, 이색적인 생각과 마을의 번영을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "파이프",
+    "term_en": "pipe",
+    "context": "낡고 부서진 파이프를 봄",
+    "interpretation_ko": "건강 악화와 사업 정체를 뜻함",
+    "interpretation_en": "signifies ill health and stagnation of business",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pipe",
+      "original": "Old and broken pipe, signifies ill health and stagnation of business.",
+      "translation_ko": "낡고 부서진 파이프를 보는 꿈은, 건강 악화와 사업 정체를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "파이프",
+    "term_en": "pipe",
+    "context": "파이프 담배를 피움",
+    "interpretation_ko": "옛 벗의 방문을 반기고 다툼이 평화롭게 풀릴 조짐",
+    "interpretation_en": "denotes that you will enjoy the visit of an old friend, and peaceful settlements of differences will also take place",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pipe",
+      "original": "To dream that you smoke a pipe, denotes that you will enjoy the visit of an old friend, and peaceful settlements of differences will also take place.",
+      "translation_ko": "파이프 담배를 피우는 꿈은, 옛 벗의 방문을 반기고 다툼이 평화롭게 풀릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "해적",
+    "term_en": "pirate",
+    "context": "해적 꿈을 꿈",
+    "interpretation_ko": "거짓 친구의 흉계에 노출될 조짐",
+    "interpretation_en": "denotes that you will be exposed to the evil designs of false friends",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Pirate",
+      "original": "To dream of pirates, denotes that you will be exposed to the evil designs of false friends.",
+      "translation_ko": "해적 꿈은, 거짓 친구의 흉계에 노출될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "해적",
+    "term_en": "pirate",
+    "context": "제가 해적이 되는 꿈을 꿈",
+    "interpretation_ko": "친구와 옛 동료의 무리에서 떨어져 나갈 조짐",
+    "interpretation_en": "denotes that you will fall beneath the society of friends and former equals",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pirate",
+      "original": "To dream that you are a pirate, denotes that you will fall beneath the society of friends and former equals.",
+      "translation_ko": "제가 해적이 되는 꿈은, 친구와 옛 동료의 무리에서 떨어져 나갈 조짐이다"
+    }
+  },
+  {
+    "term_ko": "해적",
+    "term_en": "pirate",
+    "context": "처녀가 애인이 해적임을 꿈꿈",
+    "interpretation_ko": "애인이 못 미덥고 남을 속일 사람임을 알리는 징조",
+    "interpretation_en": "is a sign of his unworthiness and deceitfulness",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Pirate",
+      "original": "For a young woman to dream that her lover is a pirate, is a sign of his unworthiness and deceitfulness.",
+      "translation_ko": "처녀가 애인이 해적임을 꿈꾸면, 애인이 못 미덥고 남을 속일 사람임을 알리는 징조다"
+    }
+  },
+  {
+    "term_ko": "해적",
+    "term_en": "pirate",
+    "context": "처녀가 해적에게 붙잡힘",
+    "interpretation_ko": "거짓 핑계에 속아 집을 떠나게 될 조짐",
+    "interpretation_en": "she will be induced to leave her home under false pretenses",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pirate",
+      "original": "If she is captured by pirates, she will be induced to leave her home under false pretenses.",
+      "translation_ko": "처녀가 해적에게 붙잡히는 꿈은, 거짓 핑계에 속아 집을 떠나게 될 조짐이다"
+    }
+  }
+]

@@ -581,7 +581,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "flute": [
     "flutes",
-    "pipe",
     "reed pipe"
   ],
   "marketplace": [
@@ -6812,5 +6811,14 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "pins": [
     "pin",
     "a pin"
+  ],
+  "pipe": [
+    "pipe",
+    "pipes",
+    "tobacco pipe"
+  ],
+  "pirate": [
+    "pirates",
+    "a pirate"
   ]
 };

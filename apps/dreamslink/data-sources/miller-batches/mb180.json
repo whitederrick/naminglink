@@ -1,0 +1,18 @@
+{
+  "batch": 180,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pipe",
+      "text": "Pipes seen in dreams, are representatives of peace and comfort after many struggles. Sewer, gas, and such like pipes, denotes unusual thought and prosperity in your community. Old and broken pipe, signifies ill health and stagnation of business. To dream that you smoke a pipe, denotes that you will enjoy the visit of an old friend, and peaceful settlements of differences will also take place.",
+      "note": "새 상징 `pipe`(파이프). 기존 `flute`(피리)의 영어 별칭에 있던 bare 「pipe」는 겹쳐서 뺀다"
+    },
+    {
+      "headword": "Pirate",
+      "text": "To dream of pirates, denotes that you will be exposed to the evil designs of false friends. To dream that you are a pirate, denotes that you will fall beneath the society of friends and former equals. For a young woman to dream that her lover is a pirate, is a sign of his unworthiness and deceitfulness. If she is captured by pirates, she will be induced to leave her home under false pretenses.",
+      "note": "새 상징 `pirate`(해적)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

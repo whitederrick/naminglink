@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 179 — Pincers~Pins, 12건)
+// (지금 담긴 것: 배치 180 — Pipe~Pirate, 8건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -574,6 +574,16 @@ const CASES: Case[] = [
   { id: "pine-tree", ctx: "소나무가 배 위에 자람", text: "뱃전에 소나무가 자랐다" },
   { id: "pine-tree", ctx: "집 안에 소나무가 자람", text: "마당에 소나무가 자랐다" },
   { id: "pine-tree", ctx: "지붕 위에 소나무와 잣나무가 자람", text: "지붕 위에 소나무와 잣나무가 자랐다" },
+  { id: "pipe", ctx: "파이프 꿈을 꿈", text: "우연히 파이프 꿈을 꾸었다" },
+  { id: "pipe", ctx: "하수관·가스관 같은 파이프를 봄", text: "하수관 같은 파이프를 보았다" },
+  { id: "pipe", ctx: "낡고 부서진 파이프를 봄", text: "낡고 부서진 파이프를 보았다" },
+  { id: "pipe", ctx: "파이프 담배를 피움", text: "파이프 담배를 피웠다" },
+  { id: "pirate", ctx: "해적 꿈을 꿈", text: "낯선 해적 꿈을 꾸었다" },
+  { id: "pirate", ctx: "제가 해적이 되는 꿈을 꿈", text: "제가 스스로 해적이 되는 꿈을 꾸었다" },
+  { id: "pirate", ctx: "처녀가 애인이 해적임을 꿈꿈", text: "처녀가 애인이 해적임을 꿈꾸었다" },
+  { id: "pirate", ctx: "처녀가 해적에게 붙잡힘", text: "처녀가 해적에게 붙잡혔다" },
+  // 지킴 — flute(피리)에서 "pipe" 별칭을 뺐다. "reed pipe"로는 그대로 걸리는가
+  { id: "flute", ctx: "피리를 붊", text: "he was playing a reed pipe" },
 ];
 
 let notFound = 0;
