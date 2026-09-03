@@ -1,0 +1,197 @@
+[
+  {
+    "term_ko": "최후의 심판",
+    "term_en": "doomsday",
+    "context": "벌을 면하기를 바라며 담담히 심판을 맞음",
+    "interpretation_ko": "잘 세워 둔 일을 이룰 길한 조짐이나, 그렇지 못하면 그 일이 어그러진다",
+    "interpretation_en": "foretells that you will accomplish some well-planned work, if you appear resigned and hopeful of escaping punishment; otherwise, your work will prove a failure",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Judgment Day",
+      "original": "To dream of the judgment day, foretells that you will accomplish some well-planned work, if you appear resigned and hopeful of escaping punishment.",
+      "translation_ko": "심판의 날 꿈은, 벌을 면하기를 바라며 담담히 있으면 잘 세워 둔 일을 이루리라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "최후의 심판",
+    "term_en": "doomsday",
+    "context": "심판대에서 유죄를 들음",
+    "interpretation_ko": "제 잇속만 차리고 볼썽사나운 몸가짐으로 벗들을 몹시 괴롭게 할 흉한 조짐",
+    "interpretation_en": "denotes that she will cause much distress among her friends by her selfish and unbecoming conduct",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Judgment Day",
+      "original": "For a young woman to appear before the judgment bar and hear the verdict of ``Guilty,'' denotes that she will cause much distress among her friends by her selfish and unbecoming conduct.",
+      "translation_ko": "젊은 여성이 심판대 앞에 서서 「유죄」라는 판결을 들으면, 제 잇속만 차리고 볼썽사나운 몸가짐으로 벗들을 몹시 괴롭게 한다"
+    }
+  },
+  {
+    "term_ko": "최후의 심판",
+    "term_en": "doomsday",
+    "context": "죽은 이들이 일어나는 것을 봄",
+    "interpretation_ko": "몹시 애쓰게 되나 벗들이 도움을 마다할 흉한 조짐이며, 궂은 소문과 추문이 뒤따른다",
+    "interpretation_en": "there will be much struggling for her, and her friends will refuse her aid",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Judgment Day",
+      "original": "If she sees the dead rising, and all the earth solemnly and fearfully awaiting the end, there will be much struggling for her, and her friends will refuse her aid.",
+      "translation_ko": "죽은 이들이 일어나고 온 땅이 엄숙하고 두렵게 끝을 기다리는 것을 보면, 몹시 애쓰게 되나 벗들이 도움을 마다한다"
+    }
+  },
+  {
+    "term_ko": "주전자",
+    "term_en": "jug",
+    "context": "맑은 물이 가득 찬 주전자를 봄",
+    "interpretation_ko": "저 말고도 여럿이 제 앞날을 헤아려 주고 참된 벗들이 뜻을 모아 이롭게 할 길한 조짐",
+    "interpretation_en": "your welfare is being considered by more than yourself; many true friends will unite to please and profit you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jug",
+      "original": "If you dream of jugs well filled with transparent liquids, your welfare is being considered by more than yourself.",
+      "translation_ko": "맑은 물이 가득 찬 주전자의 꿈을 꾸면 저 말고도 여럿이 제 앞날을 헤아려 준다"
+    }
+  },
+  {
+    "term_ko": "주전자",
+    "term_en": "jug",
+    "context": "빈 주전자를 봄",
+    "interpretation_ko": "제 몸가짐 탓에 벗과 자리에서 멀어질 흉한 조짐",
+    "interpretation_en": "your conduct will estrange you from friends and station",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jug",
+      "original": "If the jugs are empty, your conduct will estrange you from friends and station.",
+      "translation_ko": "주전자가 비어 있으면 제 몸가짐 탓에 벗과 자리에서 멀어진다"
+    }
+  },
+  {
+    "term_ko": "주전자",
+    "term_en": "jug",
+    "context": "깨진 주전자를 봄",
+    "interpretation_ko": "병이 들고 하던 일이 어그러질 흉한 조짐",
+    "interpretation_en": "indicate sickness and failures in employment",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jug",
+      "original": "Broken jugs, indicate sickness and failures in employment.",
+      "translation_ko": "깨진 주전자는 병과 일의 어그러짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "주전자",
+    "term_en": "jug",
+    "context": "주전자로 술을 마심",
+    "interpretation_ko": "몸이 튼튼해지고 어느 자리에서나 즐거움을 찾을 길한 조짐",
+    "interpretation_en": "you will enjoy robust health and find pleasure in all circles",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jug",
+      "original": "If you drink wine from a jug, you will enjoy robust health and find pleasure in all circles.",
+      "translation_ko": "주전자로 술을 마시면 몸이 튼튼해지고 어느 자리에서나 즐거움을 찾는다"
+    }
+  },
+  {
+    "term_ko": "주전자",
+    "term_en": "jug",
+    "context": "주전자로 맛없는 것을 마심",
+    "interpretation_ko": "즐거운 기대 끝에 실망과 역겨움이 따를 흉한 조짐",
+    "interpretation_en": "disappointment and disgust will follow pleasant anticipations",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jug",
+      "original": "To take an unpleasant drink from a jug, disappointment and disgust will follow pleasant anticipations.",
+      "translation_ko": "주전자로 맛없는 것을 마시면 즐거운 기대 끝에 실망과 역겨움이 따른다"
+    }
+  },
+  {
+    "term_ko": "칠월",
+    "term_en": "July",
+    "context": "칠월 꿈을 꿈",
+    "interpretation_ko": "어두운 앞날에 마음이 가라앉으나 그만큼 갑자기 뜻밖의 즐거움과 복이 돌아올 조짐",
+    "interpretation_en": "denotes you will be depressed with gloomy outlooks, but, as suddenly, your spirits will rebound to unimagined pleasure and good fortune",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "July",
+      "original": "To dream of this month, denotes you will be depressed with gloomy outlooks, but, as suddenly, your spirits will rebound to unimagined pleasure and good fortune.",
+      "translation_ko": "이 달의 꿈은 어두운 앞날에 마음이 가라앉으나 그만큼 갑자기 뜻밖의 즐거움과 복이 돌아오리라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "뜀뛰기",
+    "term_en": "jumping",
+    "context": "무엇을 뛰어넘음",
+    "interpretation_ko": "하는 일마다 이룰 길한 조짐",
+    "interpretation_en": "you will succeed in every endeavor",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jumping",
+      "original": "If you dream of jumping over any object, you will succeed in every endeavor;",
+      "translation_ko": "무엇을 뛰어넘는 꿈을 꾸면 하는 일마다 이룬다"
+    }
+  },
+  {
+    "term_ko": "뜀뛰기",
+    "term_en": "jumping",
+    "context": "뛰다가 뒤로 떨어짐",
+    "interpretation_ko": "궂은 일이 겹쳐 살아가기가 견디기 어려워질 흉한 조짐",
+    "interpretation_en": "disagreeable affairs will render life almost intolerable",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jumping",
+      "original": "but if you jump and fall back, disagreeable affairs will render life almost intolerable.",
+      "translation_ko": "뛰다가 뒤로 떨어지면 궂은 일이 겹쳐 살아가기가 견디기 어려워진다"
+    }
+  },
+  {
+    "term_ko": "뜀뛰기",
+    "term_en": "jumping",
+    "context": "담에서 뛰어내림",
+    "interpretation_ko": "무모하게 일을 벌이고 사랑에서 실망할 흉한 조짐",
+    "interpretation_en": "denotes reckless speculations and disappointment in love",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jumping",
+      "original": "To jump down from a wall, denotes reckless speculations and disappointment in love.",
+      "translation_ko": "담에서 뛰어내리면 무모하게 일을 벌이고 사랑에서 실망한다"
+    }
+  },
+  {
+    "term_ko": "꼭두각시 인형",
+    "term_en": "jumping-jack",
+    "context": "꼭두각시 인형을 봄",
+    "interpretation_ko": "게으름과 하찮은 놀이가 마음을 채워 진지하고 든든한 계획을 밀어낼 흉한 조짐",
+    "interpretation_en": "denotes that idleness and trivial pastimes will occupy your thoughts to the exclusion of serious and sustaining plans",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jumping-jack",
+      "original": "To dream of a jumping-jack, denotes that idleness and trivial pastimes will occupy your thoughts to the exclusion of serious and sustaining plans.",
+      "translation_ko": "꼭두각시 인형의 꿈은 게으름과 하찮은 놀이가 마음을 채워 진지한 계획을 밀어내리라는 뜻이다"
+    }
+  }
+]

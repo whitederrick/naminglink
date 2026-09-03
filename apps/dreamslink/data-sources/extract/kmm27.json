@@ -75,7 +75,9 @@
     "id": "doomsday",
     "aliases": [
       "심판의 날",
-      "세상의 끝"
+      "세상의 끝",
+      "심판대",
+      "심판날"
     ],
     "aliases_en": [
       "doomsday",
@@ -83,11 +85,17 @@
     ],
     "contexts": {
       "최후의 심판을 기다림": "기다리 살아남 바라보며",
-      "젊은 여성에게 최후의 심판 꿈이 나타남": "여자 여성 처녀"
+      "젊은 여성에게 최후의 심판 꿈이 나타남": "여자 여성 처녀",
+      "벌을 면하기를 바라며 담담히 심판을 맞음": "담담 벌을 면하",
+      "심판대에서 유죄를 들음": "유죄 심판대",
+      "죽은 이들이 일어나는 것을 봄": "죽은 일어나 무덤에서"
     },
     "contexts_en": {
       "최후의 심판을 기다림": "living forward substantial",
-      "젊은 여성에게 최후의 심판 꿈이 나타남": "young station deserving"
+      "젊은 여성에게 최후의 심판 꿈이 나타남": "young station deserving",
+      "벌을 면하기를 바라며 담담히 심판을 맞음": "resigned hopeful escaping punishment well-planned",
+      "심판대에서 유죄를 들음": "verdict guilty selfish unbecoming conduct",
+      "죽은 이들이 일어나는 것을 봄": "rising solemnly fearfully struggling refuse"
     }
   },
   {

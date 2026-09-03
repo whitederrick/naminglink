@@ -1,0 +1,82 @@
+[
+  {
+    "id": "jug",
+    "aliases": [
+      "주전자가",
+      "주전자를",
+      "주전자에",
+      "물주전자"
+    ],
+    "aliases_en": [
+      "a jug",
+      "jugs"
+    ],
+    "contexts": {
+      "맑은 물이 가득 찬 주전자를 봄": "맑은 가득 그득",
+      "빈 주전자를 봄": "비어 텅빈 비었다",
+      "깨진 주전자를 봄": "깨진 깨졌 부서",
+      "주전자로 술을 마심": "술을 포도주 들이켰",
+      "주전자로 맛없는 것을 마심": "맛없 역겨 고약"
+    },
+    "contexts_en": {
+      "맑은 물이 가득 찬 주전자를 봄": "filled transparent liquids welfare considered unite",
+      "빈 주전자를 봄": "empty conduct estrange station",
+      "깨진 주전자를 봄": "broken sickness failures employment",
+      "주전자로 술을 마심": "drink wine robust circles optimistic",
+      "주전자로 맛없는 것을 마심": "unpleasant disgust anticipations"
+    }
+  },
+  {
+    "id": "july",
+    "aliases": [
+      "칠월달",
+      "칠월에",
+      "칠월이"
+    ],
+    "aliases_en": [
+      "July"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "jumping",
+    "aliases": [
+      "뛰어넘었다",
+      "뛰어넘는",
+      "뛰어넘어",
+      "뛰어올랐다",
+      "뛰어내렸다",
+      "뛰어내려",
+      "펄쩍"
+    ],
+    "aliases_en": [
+      "jumping",
+      "jump"
+    ],
+    "contexts": {
+      "무엇을 뛰어넘음": "뛰어넘 넘었다",
+      "뛰다가 뒤로 떨어짐": "뒤로 떨어졌 자빠",
+      "담에서 뛰어내림": "담에서 담벼락 뛰어내"
+    },
+    "contexts_en": {
+      "무엇을 뛰어넘음": "object succeed endeavor",
+      "뛰다가 뒤로 떨어짐": "fall back disagreeable render intolerable",
+      "담에서 뛰어내림": "wall reckless speculations"
+    }
+  },
+  {
+    "id": "jumping-jack",
+    "aliases": [
+      "꼭두각시",
+      "꼭두각시가",
+      "꼭두각시를",
+      "팔다리 인형"
+    ],
+    "aliases_en": [
+      "a jumping-jack"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

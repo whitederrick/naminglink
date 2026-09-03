@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 71 — Jolly~Judge, 16건)
+// (지금 담긴 것: 배치 72 — Judgment Day~Jumping-jack, 15건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,24 +30,23 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "jolly", ctx: "벗들과 흥겹게 어울림", text: "벗들과 흥겹게 어울렸다" },
-  { id: "jolly", ctx: "흥이 조금이라도 깨짐", text: "흥겨운 자리가 깨졌다" },
-  { id: "long-journey", ctx: "길을 떠남", text: "길을 떠났다" },
-  { id: "long-journey", ctx: "벗들이 즐겁게 길을 떠나는 것을 봄", text: "벗들이 즐겁게 길을 떠나는 것을 보았다" },
-  { id: "long-journey", ctx: "벗들이 슬픈 낯으로 떠나는 것을 봄", text: "벗들이 슬픈 낯으로 길을 떠났다" },
-  { id: "long-journey", ctx: "먼 길을 뜻밖에 짧은 동안에 감", text: "먼길을 금세 다녀왔다" },
-  { id: "journeyman", ctx: "삯일꾼을 봄", text: "삯일꾼을 보았다" },
-  { id: "journeyman", ctx: "여자가 삯일꾼 꿈을 꿈", text: "여자가 삯일꾼 꿈을 꾸었다" },
-  { id: "joy", ctx: "어떤 일로 기쁨을 느낌", text: "기쁨이 벅차게 차올랐다" },
-  { id: "jubilee", ctx: "축전을 봄", text: "즐거운 축전에 끼어 있었다" },
-  { id: "jubilee", ctx: "종교 축전을 봄", text: "종교 축전을 보았다" },
-  { id: "judge", ctx: "판사 앞에 서게 됨", text: "판사 앞에 불려 섰다" },
-  { id: "judge", ctx: "판결이 제게 이롭게 남", text: "판결이 내게 이롭게 났다" },
-  { id: "judge", ctx: "판결이 제게 불리하게 남", text: "판결이 내게 불리하게 났다" },
+  { id: "doomsday", ctx: "벌을 면하기를 바라며 담담히 심판을 맞음", text: "벌을 면하기를 바라며 담담히 심판의 날을 맞았다" },
+  { id: "doomsday", ctx: "심판대에서 유죄를 들음", text: "심판대에서 유죄라는 말을 들었다" },
+  { id: "doomsday", ctx: "죽은 이들이 일어나는 것을 봄", text: "심판의 날에 죽은 이들이 무덤에서 일어났다" },
+  { id: "jug", ctx: "맑은 물이 가득 찬 주전자를 봄", text: "맑은 물이 가득 찬 주전자를 보았다" },
+  { id: "jug", ctx: "빈 주전자를 봄", text: "주전자가 텅 비어 있었다" },
+  { id: "jug", ctx: "깨진 주전자를 봄", text: "깨진 주전자를 보았다" },
+  { id: "jug", ctx: "주전자로 술을 마심", text: "주전자로 술을 마셨다" },
+  { id: "jug", ctx: "주전자로 맛없는 것을 마심", text: "주전자로 맛없는 것을 마셨다" },
+  { id: "july", ctx: "칠월 꿈을 꿈", text: "칠월달 꿈을 꾸었다" },
+  { id: "jumping", ctx: "무엇을 뛰어넘음", text: "무엇을 뛰어넘었다" },
+  { id: "jumping", ctx: "뛰다가 뒤로 떨어짐", text: "뛰어올랐다가 뒤로 떨어졌다" },
+  { id: "jumping", ctx: "담에서 뛰어내림", text: "담에서 뛰어내렸다" },
+  { id: "jumping-jack", ctx: "꼭두각시 인형을 봄", text: "꼭두각시 인형을 보았다" },
 
   // 이 배치가 판별어를 더한 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "long-journey", ctx: "먼 길을 오가며 다님", text: "먼길을 오가며 다녔다" },
-  { id: "joy", ctx: "집안에 기쁜 일이 있음", text: "집안에 경사가 있었다" },
+  { id: "doomsday", ctx: "최후의 심판을 기다림", text: "최후의 심판을 기다리고 있었다" },
+  { id: "doomsday", ctx: "젊은 여성에게 최후의 심판 꿈이 나타남", text: "젊은 여성이 최후의 심판 꿈을 꾸었다" },
 ];
 
 let notFound = 0;

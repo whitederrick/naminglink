@@ -5865,5 +5865,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "judge": [
     "a judge"
+  ],
+  "jug": [
+    "a jug",
+    "jugs"
+  ],
+  "july": [
+    "July"
+  ],
+  "jumping": [
+    "jumping",
+    "jump"
+  ],
+  "jumping-jack": [
+    "a jumping-jack"
   ]
 };

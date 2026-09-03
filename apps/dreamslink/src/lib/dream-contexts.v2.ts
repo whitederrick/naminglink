@@ -3024,6 +3024,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "dominoes::도미노 놀이에서 이김": "winner courted dissolute",
   "doomsday::최후의 심판을 기다림": "living forward substantial",
   "doomsday::젊은 여성에게 최후의 심판 꿈이 나타남": "young station deserving",
+  "doomsday::벌을 면하기를 바라며 담담히 심판을 맞음": "resigned hopeful escaping punishment well-planned",
+  "doomsday::심판대에서 유죄를 들음": "verdict guilty selfish unbecoming conduct",
+  "doomsday::죽은 이들이 일어나는 것을 봄": "rising solemnly fearfully struggling refuse",
   "dowry::지참금을 받지 못함": "fail penury cold",
   "dowry::지참금을 받음": "receive expectations fulfilled",
   "drama::연극을 봄": "reunions distant",
@@ -3748,5 +3751,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "jubilee::종교 축전을 봄": "religious close comfortable environments",
   "judge::판사 앞에 서게 됨": "coming before disputes settled legal proceedings",
   "judge::판결이 제게 이롭게 남": "favor successful termination suit",
-  "judge::판결이 제게 불리하게 남": "against aggressor seek right injustice"
+  "judge::판결이 제게 불리하게 남": "against aggressor seek right injustice",
+  "jug::맑은 물이 가득 찬 주전자를 봄": "filled transparent liquids welfare considered unite",
+  "jug::빈 주전자를 봄": "empty conduct estrange station",
+  "jug::깨진 주전자를 봄": "broken sickness failures employment",
+  "jug::주전자로 술을 마심": "drink wine robust circles optimistic",
+  "jug::주전자로 맛없는 것을 마심": "unpleasant disgust anticipations",
+  "jumping::무엇을 뛰어넘음": "object succeed endeavor",
+  "jumping::뛰다가 뒤로 떨어짐": "fall back disagreeable render intolerable",
+  "jumping::담에서 뛰어내림": "wall reckless speculations"
 };
