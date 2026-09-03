@@ -92,6 +92,7 @@
     "m87.json",
     "m88.json",
     "m89.json",
+    "m90.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -27400,6 +27401,108 @@
       ]
     },
     {
+      "id": "lead",
+      "term_ko": "납",
+      "term_en": "lead",
+      "aliases": [
+        "납덩이"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "납을 봄",
+          "interpretation_ko": "무슨 일을 벌여도 잘 풀리지 않을 흉한 조짐",
+          "interpretation_en": "foretells poor success in any engagement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lead",
+              "original": "To dream of lead, foretells poor success in any engagement.",
+              "translation_ko": "납의 꿈은 무슨 일을 벌여도 잘 풀리지 않음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "납 광산을 봄",
+          "interpretation_ko": "벗들이 제 돈벌이를 미심쩍게 보고, 정인이 속임과 모진 성미로 놀라게 할 흉한 조짐",
+          "interpretation_en": "indicates that your friends will look with suspicion on your money making; your sweetheart will surprise you with her deceit and ill temper",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lead",
+              "original": "A lead mine, indicates that your friends will look with suspicion on your money making.",
+              "translation_ko": "납 광산은, 벗들이 제 돈벌이를 미심쩍게 봄을 가리킨다"
+            }
+          ]
+        },
+        {
+          "context": "납 광석을 봄",
+          "interpretation_ko": "시달림과 사고가 있고 일이 어두워질 흉한 조짐",
+          "interpretation_en": "foretells distress and accidents; business will assume a gloomy cast",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lead",
+              "original": "To dream of lead ore, foretells distress and accidents.",
+              "translation_ko": "납 광석의 꿈은 시달림과 사고를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "납을 찾아다님",
+          "interpretation_ko": "마음이 차지 않아 일자리를 끊임없이 옮길 흉한 조짐",
+          "interpretation_en": "denotes discontentment, and a constant changing of employment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lead",
+              "original": "To hunt for lead, denotes discontentment, and a constant changing of employment.",
+              "translation_ko": "납을 찾아다니면 마음이 차지 않아 일자리를 끊임없이 옮긴다"
+            }
+          ]
+        },
+        {
+          "context": "납을 녹임",
+          "interpretation_ko": "참지 못해 저와 남에게 어그러짐을 불러올 흉한 조짐",
+          "interpretation_en": "foretells that by impatience you will bring failure upon yourself and others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lead",
+              "original": "To melt lead, foretells that by impatience you will bring failure upon yourself and others.",
+              "translation_ko": "납을 녹이면 참지 못해 저와 남에게 어그러짐을 불러온다"
+            }
+          ]
+        },
+        {
+          "context": "납과 주석을 봄",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "鉛與鍚者主得財",
+              "translation_ko": "납과 주석은 재물을 얻을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "long-journey",
       "term_ko": "먼 길 떠남",
       "term_en": "long journey",
@@ -41538,6 +41641,96 @@
       ]
     },
     {
+      "id": "idleness",
+      "term_ko": "게으름",
+      "term_en": "idleness",
+      "aliases": [
+        "빈둥거림",
+        "빈둥거리고",
+        "빈둥거리는",
+        "빈둥거리며",
+        "빈둥거렸다",
+        "빈둥거려",
+        "게을러",
+        "게으르게",
+        "나태",
+        "게으르다고",
+        "게으른",
+        "게을렀다"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 빈둥거림",
+          "interpretation_ko": "세운 뜻을 이루지 못할 흉한 조짐",
+          "interpretation_en": "you will fail to accomplish your designs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idle",
+              "original": "If you dream of being idle, you will fail to accomplish your designs.",
+              "translation_ko": "빈둥거리는 꿈을 꾸면 세운 뜻을 이루지 못한다"
+            },
+            {
+              "work": "miller",
+              "locator": "Lazy",
+              "original": "To dream of feeling lazy, or acting so, denotes you will make a mistake in the formation of enterprises, and will suffer keen disappointment.",
+              "translation_ko": "게으름을 느끼거나 게으르게 구는 꿈은, 일을 벌이는 데서 잘못 짚어 쓰라린 실망을 겪음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "벗들이 빈둥거리는 것을 봄",
+          "interpretation_ko": "그들에게 닥친 근심을 전해 들을 흉한 조짐",
+          "interpretation_en": "you will hear of some trouble affecting them",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idle",
+              "original": "To see your friends in idleness, you will hear of some trouble affecting them.",
+              "translation_ko": "벗들이 빈둥거리는 것을 보면 그들에게 닥친 근심을 전해 듣는다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 게으르게 지냄",
+          "interpretation_ko": "나쁜 버릇에 빠지고 미덥지 못한 짝을 만날 흉한 조짐",
+          "interpretation_en": "she will fall into bad habits, and is likely to marry a shiftless man",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Idle",
+              "original": "For a young woman to dream that she is leading an idle existence, she will fall into bad habits, and is likely to marry a shiftless man.",
+              "translation_ko": "젊은 여성이 게으르게 지내는 꿈을 꾸면 나쁜 버릇에 빠지고 미덥지 못한 이와 혼인하기 쉽다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 정인을 게으르다고 여김",
+          "interpretation_ko": "사랑받는 일에 복이 없고, 제 몸가짐이 혼인할 마음을 품은 이들을 물러서게 할 흉한 조짐",
+          "interpretation_en": "foretells she will have bad luck in securing admiration; her actions will discourage men who mean marriage",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lazy",
+              "original": "For a young woman to think her lover is lazy, foretells she will have bad luck in securing admiration.",
+              "translation_ko": "젊은 여성이 정인을 게으르다고 여기면 사랑받는 일에 복이 없다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "idol",
       "term_ko": "우상",
       "term_en": "idol",
@@ -41912,6 +42105,85 @@
               "locator": "Itch",
               "original": "For a young woman to have this dream, omens she will fall into dissolute companionship.",
               "translation_ko": "젊은 여성이 이 꿈을 꾸면 몸가짐이 헤픈 무리와 어울리게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jumping",
+      "term_ko": "뜀뛰기",
+      "term_en": "jumping",
+      "aliases": [
+        "뛰어넘었다",
+        "뛰어넘는",
+        "뛰어넘어",
+        "뛰어올랐다",
+        "뛰어내렸다",
+        "뛰어내려",
+        "펄쩍"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무엇을 뛰어넘음",
+          "interpretation_ko": "하는 일마다 이룰 길한 조짐",
+          "interpretation_en": "you will succeed in every endeavor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jumping",
+              "original": "If you dream of jumping over any object, you will succeed in every endeavor;",
+              "translation_ko": "무엇을 뛰어넘는 꿈을 꾸면 하는 일마다 이룬다"
+            }
+          ]
+        },
+        {
+          "context": "뛰다가 뒤로 떨어짐",
+          "interpretation_ko": "궂은 일이 겹쳐 살아가기가 견디기 어려워질 흉한 조짐",
+          "interpretation_en": "disagreeable affairs will render life almost intolerable",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jumping",
+              "original": "but if you jump and fall back, disagreeable affairs will render life almost intolerable.",
+              "translation_ko": "뛰다가 뒤로 떨어지면 궂은 일이 겹쳐 살아가기가 견디기 어려워진다"
+            }
+          ]
+        },
+        {
+          "context": "담에서 뛰어내림",
+          "interpretation_ko": "무모하게 일을 벌이고 사랑에서 실망할 흉한 조짐",
+          "interpretation_en": "denotes reckless speculations and disappointment in love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jumping",
+              "original": "To jump down from a wall, denotes reckless speculations and disappointment in love.",
+              "translation_ko": "담에서 뛰어내리면 무모하게 일을 벌이고 사랑에서 실망한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 가로막힌 것을 뛰어넘음",
+          "interpretation_ko": "많이 애쓰고 맞선 끝에 바라던 것을 얻을 길한 조짐",
+          "interpretation_en": "denotes that she will gain her desires after much struggling and opposition",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leaping",
+              "original": "For a young woman to dream of leaping over an obstruction, denotes that she will gain her desires after much struggling and opposition.",
+              "translation_ko": "젊은 여성이 가로막힌 것을 뛰어넘는 꿈을 꾸면, 많이 애쓰고 맞선 끝에 바라던 것을 얻는다"
             }
           ]
         }
@@ -52836,73 +53108,6 @@
       ]
     },
     {
-      "id": "idleness",
-      "term_ko": "게으름",
-      "term_en": "idleness",
-      "aliases": [
-        "빈둥거림",
-        "빈둥거리고",
-        "빈둥거리는",
-        "빈둥거리며",
-        "빈둥거렸다",
-        "빈둥거려",
-        "게을러",
-        "게으르게",
-        "나태"
-      ],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "제가 빈둥거림",
-          "interpretation_ko": "세운 뜻을 이루지 못할 흉한 조짐",
-          "interpretation_en": "you will fail to accomplish your designs",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Idle",
-              "original": "If you dream of being idle, you will fail to accomplish your designs.",
-              "translation_ko": "빈둥거리는 꿈을 꾸면 세운 뜻을 이루지 못한다"
-            }
-          ]
-        },
-        {
-          "context": "벗들이 빈둥거리는 것을 봄",
-          "interpretation_ko": "그들에게 닥친 근심을 전해 들을 흉한 조짐",
-          "interpretation_en": "you will hear of some trouble affecting them",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Idle",
-              "original": "To see your friends in idleness, you will hear of some trouble affecting them.",
-              "translation_ko": "벗들이 빈둥거리는 것을 보면 그들에게 닥친 근심을 전해 듣는다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 게으르게 지냄",
-          "interpretation_ko": "나쁜 버릇에 빠지고 미덥지 못한 짝을 만날 흉한 조짐",
-          "interpretation_en": "she will fall into bad habits, and is likely to marry a shiftless man",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Idle",
-              "original": "For a young woman to dream that she is leading an idle existence, she will fall into bad habits, and is likely to marry a shiftless man.",
-              "translation_ko": "젊은 여성이 게으르게 지내는 꿈을 꾸면 나쁜 버릇에 빠지고 미덥지 못한 이와 혼인하기 쉽다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "image",
       "term_ko": "형상",
       "term_en": "image",
@@ -53835,71 +54040,6 @@
               "locator": "Judge",
               "original": "if decided against you, then you are the aggressor and you should seek to right injustice.",
               "translation_ko": "판결이 제게 불리하게 나면 제가 먼저 그르친 쪽이니 잘못된 것을 바로잡아야 한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "jumping",
-      "term_ko": "뜀뛰기",
-      "term_en": "jumping",
-      "aliases": [
-        "뛰어넘었다",
-        "뛰어넘는",
-        "뛰어넘어",
-        "뛰어올랐다",
-        "뛰어내렸다",
-        "뛰어내려",
-        "펄쩍"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "무엇을 뛰어넘음",
-          "interpretation_ko": "하는 일마다 이룰 길한 조짐",
-          "interpretation_en": "you will succeed in every endeavor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jumping",
-              "original": "If you dream of jumping over any object, you will succeed in every endeavor;",
-              "translation_ko": "무엇을 뛰어넘는 꿈을 꾸면 하는 일마다 이룬다"
-            }
-          ]
-        },
-        {
-          "context": "뛰다가 뒤로 떨어짐",
-          "interpretation_ko": "궂은 일이 겹쳐 살아가기가 견디기 어려워질 흉한 조짐",
-          "interpretation_en": "disagreeable affairs will render life almost intolerable",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jumping",
-              "original": "but if you jump and fall back, disagreeable affairs will render life almost intolerable.",
-              "translation_ko": "뛰다가 뒤로 떨어지면 궂은 일이 겹쳐 살아가기가 견디기 어려워진다"
-            }
-          ]
-        },
-        {
-          "context": "담에서 뛰어내림",
-          "interpretation_ko": "무모하게 일을 벌이고 사랑에서 실망할 흉한 조짐",
-          "interpretation_en": "denotes reckless speculations and disappointment in love",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jumping",
-              "original": "To jump down from a wall, denotes reckless speculations and disappointment in love.",
-              "translation_ko": "담에서 뛰어내리면 무모하게 일을 벌이고 사랑에서 실망한다"
             }
           ]
         }
@@ -83829,31 +83969,35 @@
       ]
     },
     {
-      "id": "lead",
-      "term_ko": "납",
-      "term_en": "lead",
+      "id": "leak",
+      "term_ko": "누수",
+      "term_en": "leak",
       "aliases": [
-        "납덩이"
+        "물이 샜다",
+        "물이 새는",
+        "물이 새고",
+        "새는 곳",
+        "구멍이 났다"
       ],
       "category": "object",
-      "polarity": "positive",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "납과 주석을 봄",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
+          "context": "어딘가에서 물이 새는 것을 봄",
+          "interpretation_ko": "잃음과 성가신 일을 알리는 흉한 조짐",
+          "interpretation_en": "is usually significant of loss and vexations",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "鉛與鍚者主得財",
-              "translation_ko": "납과 주석은 재물을 얻을 조짐이다"
+              "work": "miller",
+              "locator": "Leaking",
+              "original": "To dream of seeing a leak in anything, is usually significant of loss and vexations.",
+              "translation_ko": "어딘가에서 새는 곳을 보는 꿈은 잃음과 성가신 일을 알린다"
             }
           ]
         }

@@ -55,14 +55,16 @@
       "jump"
     ],
     "contexts": {
-      "무엇을 뛰어넘음": "뛰어넘 넘었다",
+      "무엇을 뛰어넘음": "뛰어넘",
       "뛰다가 뒤로 떨어짐": "뒤로 떨어졌 자빠",
-      "담에서 뛰어내림": "담에서 담벼락 뛰어내"
+      "담에서 뛰어내림": "담에서 담벼락 뛰어내",
+      "처녀가 가로막힌 것을 뛰어넘음": "장애물 가로막 처녀 여자가"
     },
     "contexts_en": {
       "무엇을 뛰어넘음": "object succeed endeavor",
       "뛰다가 뒤로 떨어짐": "fall back disagreeable render intolerable",
-      "담에서 뛰어내림": "wall reckless speculations"
+      "담에서 뛰어내림": "wall reckless speculations",
+      "처녀가 가로막힌 것을 뛰어넘음": "leaping obstruction desires struggling opposition"
     }
   },
   {

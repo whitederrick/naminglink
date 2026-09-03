@@ -926,8 +926,22 @@
       "lead metal",
       "a lump of lead"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "납과 주석을 봄": "주석",
+      "납을 봄": "잿빛 무겁고",
+      "납 광산을 봄": "광산",
+      "납 광석을 봄": "광석 원석",
+      "납을 찾아다님": "찾아다 찾으러",
+      "납을 녹임": "녹였 녹이"
+    },
+    "contexts_en": {
+      "납과 주석을 봄": "tin",
+      "납을 봄": "poor success engagement",
+      "납 광산을 봄": "mine suspicion sweetheart deceit temper",
+      "납 광석을 봄": "ore distress accidents gloomy cast",
+      "납을 찾아다님": "hunt discontentment constant changing employment",
+      "납을 녹임": "melt impatience upon"
+    }
   },
   {
     "id": "mourning-clothes",

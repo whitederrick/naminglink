@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 89 — Laurel~Lawyer, 14건)
+// (지금 담긴 것: 배치 90 — Lazy~Leaping, 12건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +30,19 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "bay-tree", ctx: "처녀가 정인의 머리에 월계관을 씌움", text: "정인의 머리에 월계관을 씌웠다" },
-  { id: "lawsuit", ctx: "송사에 휘말림", text: "소송에 휘말렸다" },
-  { id: "lawsuit", ctx: "제 쪽 송사가 떳떳하지 못함을 앎", text: "내 쪽 소송이 떳떳하지 못하다는 것을 알고 있었다" },
-  { id: "lawsuit", ctx: "젊은이가 법을 배움", text: "젊은이가 법을 배우고 있었다" },
-  { id: "lawsuit", ctx: "여자가 송사에 나섬", text: "여자가 소송에 나섰다" },
-  { id: "grass", ctx: "잘 가꾼 잔디밭을 거닒", text: "잘 가꾼 잔디밭을 거닐었다" },
-  { id: "grass", ctx: "잔디밭에서 즐거운 모임에 어울림", text: "잔디밭에서 즐거운 모임에 어울렸다" },
-  { id: "grass", ctx: "처녀가 푸른 잔디밭에서 벗이나 정인을 기다림", text: "푸른 잔디밭에서 정인을 기다렸다" },
-  { id: "grass", ctx: "풀이 죽고 잔디밭이 질척함", text: "풀이 죽고 잔디밭이 질척했다" },
-  { id: "grass", ctx: "풀숲에 뱀이 기어가는 것을 봄", text: "풀숲에 뱀이 기어가는 것을 보았다" },
-  { id: "attorney", ctx: "처녀가 변호사와 얽힘", text: "변호사와 얽혀 있었다" },
+  { id: "idleness", ctx: "처녀가 정인을 게으르다고 여김", text: "정인이 게으르다고 여겼다" },
+  { id: "lead", ctx: "납 광산을 봄", text: "납 광산을 보았다" },
+  { id: "lead", ctx: "납 광석을 봄", text: "납 광석을 보았다" },
+  { id: "lead", ctx: "납을 찾아다님", text: "납을 찾아다녔다" },
+  { id: "lead", ctx: "납을 녹임", text: "납을 녹였다" },
+  { id: "leak", ctx: "어딘가에서 물이 새는 것을 봄", text: "천장에서 물이 새고 있었다" },
+  { id: "jumping", ctx: "처녀가 가로막힌 것을 뛰어넘음", text: "여자가 장애물을 뛰어넘었다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "grass", ctx: "시든 풀을 봄", text: "시든 풀을 보았다" },
-  { id: "grass", ctx: "푸른 풀밭을 봄", text: "푸른 풀밭을 보았다" },
-  { id: "attorney", ctx: "법정에서 변호사를 봄", text: "법정에서 변호사를 보았다" },
+  { id: "idleness", ctx: "처녀가 게으르게 지냄", text: "처녀가 게으르게 지냈다" },
+  { id: "idleness", ctx: "벗들이 빈둥거리는 것을 봄", text: "벗들이 빈둥거리고 있었다" },
+  { id: "lead", ctx: "납과 주석을 봄", text: "납과 주석을 보았다" },
+  { id: "jumping", ctx: "무엇을 뛰어넘음", text: "담을 뛰어넘었다" },
+  { id: "jumping", ctx: "담에서 뛰어내림", text: "담에서 뛰어내렸다" },
 ];
 
 let notFound = 0;

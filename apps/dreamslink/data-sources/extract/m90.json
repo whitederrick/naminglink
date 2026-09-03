@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "게으름",
+    "term_en": "idleness",
+    "context": "제가 빈둥거림",
+    "interpretation_ko": "일을 벌이는 데서 잘못 짚어 쓰라린 실망을 겪을 흉한 조짐",
+    "interpretation_en": "denotes you will make a mistake in the formation of enterprises, and will suffer keen disappointment",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Lazy",
+      "original": "To dream of feeling lazy, or acting so, denotes you will make a mistake in the formation of enterprises, and will suffer keen disappointment.",
+      "translation_ko": "게으름을 느끼거나 게으르게 구는 꿈은, 일을 벌이는 데서 잘못 짚어 쓰라린 실망을 겪음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "게으름",
+    "term_en": "idleness",
+    "context": "처녀가 정인을 게으르다고 여김",
+    "interpretation_ko": "사랑받는 일에 복이 없고, 제 몸가짐이 혼인할 마음을 품은 이들을 물러서게 할 흉한 조짐",
+    "interpretation_en": "foretells she will have bad luck in securing admiration; her actions will discourage men who mean marriage",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Lazy",
+      "original": "For a young woman to think her lover is lazy, foretells she will have bad luck in securing admiration.",
+      "translation_ko": "젊은 여성이 정인을 게으르다고 여기면 사랑받는 일에 복이 없다"
+    }
+  },
+  {
+    "term_ko": "납",
+    "term_en": "lead",
+    "context": "납을 봄",
+    "interpretation_ko": "무슨 일을 벌여도 잘 풀리지 않을 흉한 조짐",
+    "interpretation_en": "foretells poor success in any engagement",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lead",
+      "original": "To dream of lead, foretells poor success in any engagement.",
+      "translation_ko": "납의 꿈은 무슨 일을 벌여도 잘 풀리지 않음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "납",
+    "term_en": "lead",
+    "context": "납 광산을 봄",
+    "interpretation_ko": "벗들이 제 돈벌이를 미심쩍게 보고, 정인이 속임과 모진 성미로 놀라게 할 흉한 조짐",
+    "interpretation_en": "indicates that your friends will look with suspicion on your money making; your sweetheart will surprise you with her deceit and ill temper",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Lead",
+      "original": "A lead mine, indicates that your friends will look with suspicion on your money making.",
+      "translation_ko": "납 광산은, 벗들이 제 돈벌이를 미심쩍게 봄을 가리킨다"
+    }
+  },
+  {
+    "term_ko": "납",
+    "term_en": "lead",
+    "context": "납 광석을 봄",
+    "interpretation_ko": "시달림과 사고가 있고 일이 어두워질 흉한 조짐",
+    "interpretation_en": "foretells distress and accidents; business will assume a gloomy cast",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lead",
+      "original": "To dream of lead ore, foretells distress and accidents.",
+      "translation_ko": "납 광석의 꿈은 시달림과 사고를 알린다"
+    }
+  },
+  {
+    "term_ko": "납",
+    "term_en": "lead",
+    "context": "납을 찾아다님",
+    "interpretation_ko": "마음이 차지 않아 일자리를 끊임없이 옮길 흉한 조짐",
+    "interpretation_en": "denotes discontentment, and a constant changing of employment",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Lead",
+      "original": "To hunt for lead, denotes discontentment, and a constant changing of employment.",
+      "translation_ko": "납을 찾아다니면 마음이 차지 않아 일자리를 끊임없이 옮긴다"
+    }
+  },
+  {
+    "term_ko": "납",
+    "term_en": "lead",
+    "context": "납을 녹임",
+    "interpretation_ko": "참지 못해 저와 남에게 어그러짐을 불러올 흉한 조짐",
+    "interpretation_en": "foretells that by impatience you will bring failure upon yourself and others",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Lead",
+      "original": "To melt lead, foretells that by impatience you will bring failure upon yourself and others.",
+      "translation_ko": "납을 녹이면 참지 못해 저와 남에게 어그러짐을 불러온다"
+    }
+  },
+  {
+    "term_ko": "누수",
+    "term_en": "leak",
+    "context": "어딘가에서 물이 새는 것을 봄",
+    "interpretation_ko": "잃음과 성가신 일을 알리는 흉한 조짐",
+    "interpretation_en": "is usually significant of loss and vexations",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Leaking",
+      "original": "To dream of seeing a leak in anything, is usually significant of loss and vexations.",
+      "translation_ko": "어딘가에서 새는 곳을 보는 꿈은 잃음과 성가신 일을 알린다"
+    }
+  },
+  {
+    "term_ko": "뜀뛰기",
+    "term_en": "jumping",
+    "context": "처녀가 가로막힌 것을 뛰어넘음",
+    "interpretation_ko": "많이 애쓰고 맞선 끝에 바라던 것을 얻을 길한 조짐",
+    "interpretation_en": "denotes that she will gain her desires after much struggling and opposition",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Leaping",
+      "original": "For a young woman to dream of leaping over an obstruction, denotes that she will gain her desires after much struggling and opposition.",
+      "translation_ko": "젊은 여성이 가로막힌 것을 뛰어넘는 꿈을 꾸면, 많이 애쓰고 맞선 끝에 바라던 것을 얻는다"
+    }
+  }
+]
