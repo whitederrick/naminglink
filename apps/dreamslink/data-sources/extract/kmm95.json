@@ -1,0 +1,41 @@
+[
+  {
+    "id": "lentil",
+    "aliases": [
+      "렌틸콩",
+      "렌즈콩을"
+    ],
+    "aliases_en": [
+      "lentils",
+      "a lentil"
+    ],
+    "contexts": {
+      "렌즈콩을 봄": "보였다 삶은",
+      "처녀가 렌즈콩 꿈을 꿈": "처녀 아가씨 여자가"
+    },
+    "contexts_en": {
+      "렌즈콩을 봄": "quarrels unhealthy surroundings",
+      "처녀가 렌즈콩 꿈을 꿈": "dissatisfaction parental advice inevitable"
+    }
+  },
+  {
+    "id": "leprosy",
+    "aliases": [
+      "한센병",
+      "나병에",
+      "나병이"
+    ],
+    "aliases_en": [
+      "leprosy",
+      "leper"
+    ],
+    "contexts": {
+      "제가 나병에 걸림": "내가 제가 걸렸",
+      "남이 나병에 걸린 것을 봄": "남이 다른 사람"
+    },
+    "contexts_en": {
+      "제가 나병에 걸림": "infected dread lose money displeasure",
+      "남이 나병에 걸린 것을 봄": "others afflicted discouraging indifference"
+    }
+  }
+]

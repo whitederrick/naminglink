@@ -451,7 +451,11 @@
   },
   {
     "id": "leopard",
-    "aliases": [],
+    "aliases": [
+      "표범이",
+      "표범을",
+      "표범 가죽"
+    ],
     "aliases_en": [
       "leopards",
       "panther"
@@ -459,12 +463,22 @@
     "contexts": {
       "표범을 봄": "바라보 쳐다보 마주쳤",
       "표범 같은 짐승을 봄": "짐승 맹수 같은 닮은 비슷",
-      "표범을 잡음": "잡았 사로잡 붙잡 포획"
+      "표범을 잡음": "잡았 사로잡 붙잡 포획",
+      "표범이 덤벼듦": "덤벼 달려들 덮쳤",
+      "표범을 죽임": "죽였",
+      "우리에 갇힌 표범을 봄": "우리에 갇힌 철창",
+      "표범이 제게서 달아나려 함": "달아나 도망",
+      "표범 가죽을 봄": "가죽"
     },
     "contexts_en": {
       "표범을 봄": "saw seeing watching spotted",
       "표범 같은 짐승을 봄": "beast animal resembling",
-      "표범을 잡음": "caught captured killed seized"
+      "표범을 잡음": "caught captured killed seized",
+      "표범이 덤벼듦": "attacking seemingly promises misplaced confidence",
+      "표범을 죽임": "intimates victory affairs",
+      "우리에 갇힌 표범을 봄": "caged surround injure",
+      "표범이 제게서 달아나려 함": "native trying escape embarrassed persistent",
+      "표범 가죽을 봄": "skin endangered dishonest esteem"
     }
   },
   {

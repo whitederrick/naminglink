@@ -1031,6 +1031,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "leopard::표범을 봄": "saw seeing watching spotted",
   "leopard::표범 같은 짐승을 봄": "beast animal resembling",
   "leopard::표범을 잡음": "caught captured killed seized",
+  "leopard::표범이 덤벼듦": "attacking seemingly promises misplaced confidence",
+  "leopard::표범을 죽임": "intimates victory affairs",
+  "leopard::우리에 갇힌 표범을 봄": "caged surround injure",
+  "leopard::표범이 제게서 달아나려 함": "native trying escape embarrassed persistent",
+  "leopard::표범 가죽을 봄": "skin endangered dishonest esteem",
   "official::관리를 마주 대함": "facing meeting encountered",
   "official::관리가 관청으로 이끌어 감": "office court led taken",
   "official::관리에게 이름이 적혀 걸림": "name written listed recorded",
@@ -4032,5 +4037,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lemons::나무에 달린 레몬을 봄": "native trees foliage jealousy absurdity",
   "lemons::레몬을 먹음": "eat humiliation disappointments",
   "lemons::덜 익은 푸른 레몬을 봄": "green sickness contagion",
-  "lemons::쪼그라든 레몬을 봄": "shriveled divorce married separation"
+  "lemons::쪼그라든 레몬을 봄": "shriveled divorce married separation",
+  "lentil::렌즈콩을 봄": "quarrels unhealthy surroundings",
+  "lentil::처녀가 렌즈콩 꿈을 꿈": "dissatisfaction parental advice inevitable",
+  "leprosy::제가 나병에 걸림": "infected dread lose money displeasure",
+  "leprosy::남이 나병에 걸린 것을 봄": "others afflicted discouraging indifference"
 };

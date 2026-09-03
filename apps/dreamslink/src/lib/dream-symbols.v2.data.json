@@ -97,6 +97,7 @@
     "m92.json",
     "m93.json",
     "m94.json",
+    "m95.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -20270,6 +20271,138 @@
               "locator": "Lark",
               "original": "To see them eating, denotes a plentiful harvest.",
               "translation_ko": "종달새가 먹이를 먹는 것을 보면 거둠이 넉넉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leopard",
+      "term_ko": "표범",
+      "term_en": "leopard",
+      "aliases": [
+        "표범이",
+        "표범을",
+        "표범 가죽"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "표범을 봄",
+          "interpretation_ko": "도적이 들 조짐",
+          "interpretation_en": "a sign of thieves",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "豹狼惡狗有盜賊",
+              "translation_ko": "표범과 이리와 사나운 개는 도적이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "표범이 덤벼듦",
+          "interpretation_ko": "앞날이 밝아 보이나, 잘못 둔 믿음 때문에 되는 일에 어려움이 많을 흉한 조짐",
+          "interpretation_en": "denotes that while the future seemingly promises fair, success holds many difficulties through misplaced confidence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leopard",
+              "original": "To dream of a leopard attacking you, denotes that while the future seemingly promises fair, success holds many difficulties through misplaced confidence.",
+              "translation_ko": "표범이 덤벼드는 꿈은, 앞날이 밝아 보이나 잘못 둔 믿음 때문에 되는 일에 어려움이 많음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "표범을 죽임",
+          "interpretation_ko": "하는 일에서 이길 것을 알리는 길한 조짐",
+          "interpretation_en": "intimates victory in your affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leopard",
+              "original": "To kill one, intimates victory in your affairs.",
+              "translation_ko": "표범을 죽이면 하는 일에서 이길 것을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "우리에 갇힌 표범을 봄",
+          "interpretation_ko": "적이 둘러싸나 저를 해치지는 못할 길한 조짐",
+          "interpretation_en": "denotes that enemies will surround but fail to injure you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leopard",
+              "original": "To see one caged, denotes that enemies will surround but fail to injure you.",
+              "translation_ko": "우리에 갇힌 표범을 보면 적이 둘러싸나 저를 해치지는 못한다"
+            }
+          ]
+        },
+        {
+          "context": "표범이 제게서 달아나려 함",
+          "interpretation_ko": "일이나 사랑에서 난처해지나 꾸준히 애써 어려움을 넘어설 조짐",
+          "interpretation_en": "denotes that you will be embarrassed in business or love, but by persistent efforts you will overcome difficulties",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leopard",
+              "original": "To see leopards in their native place trying to escape from you, denotes that you will be embarrassed in business or love, but by persistent efforts you will overcome difficulties.",
+              "translation_ko": "표범이 제 사는 곳에서 저를 피해 달아나려 하는 것을 보면, 일이나 사랑에서 난처해지나 꾸준히 애써 어려움을 넘어선다"
+            }
+          ]
+        },
+        {
+          "context": "표범 가죽을 봄",
+          "interpretation_ko": "제 마음을 얻은 떳떳하지 못한 사람 때문에 이로움이 위태로워질 흉한 조짐",
+          "interpretation_en": "denotes that your interests will be endangered by a dishonest person who will win your esteem",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leopard",
+              "original": "To dream of a leopard's skin, denotes that your interests will be endangered by a dishonest person who will win your esteem.",
+              "translation_ko": "표범 가죽의 꿈은, 제 마음을 얻은 떳떳하지 못한 사람 때문에 이로움이 위태로워짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "표범 같은 짐승을 봄",
+          "interpretation_ko": "높은 벼슬을 얻을 조짐",
+          "interpretation_en": "a sign of gaining high office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "駱駝豹豸得重印",
+              "translation_ko": "낙타와 표범 같은 짐승은 무거운 인수, 곧 높은 벼슬을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "표범을 잡음",
+          "interpretation_ko": "무거운 직인을 얻을 조짐",
+          "interpretation_en": "a sign of receiving a weighty office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺虎豹主得重印",
+              "translation_ko": "호랑이와 표범을 죽이면 무거운 인장을 얻는다"
             }
           ]
         }
@@ -54994,63 +55127,6 @@
       ]
     },
     {
-      "id": "leopard",
-      "term_ko": "표범",
-      "term_en": "leopard",
-      "aliases": [],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "표범을 봄",
-          "interpretation_ko": "도적이 들 조짐",
-          "interpretation_en": "a sign of thieves",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "豹狼惡狗有盜賊",
-              "translation_ko": "표범과 이리와 사나운 개는 도적이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "표범 같은 짐승을 봄",
-          "interpretation_ko": "높은 벼슬을 얻을 조짐",
-          "interpretation_en": "a sign of gaining high office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "駱駝豹豸得重印",
-              "translation_ko": "낙타와 표범 같은 짐승은 무거운 인수, 곧 높은 벼슬을 얻을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "표범을 잡음",
-          "interpretation_ko": "무거운 직인을 얻을 조짐",
-          "interpretation_en": "a sign of receiving a weighty office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺虎豹主得重印",
-              "translation_ko": "호랑이와 표범을 죽이면 무거운 인장을 얻는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "main-hall",
       "term_ko": "대청",
       "term_en": "main hall",
@@ -74218,6 +74294,99 @@
               "locator": "Lard",
               "original": "For a woman to find her hand in melted lard, foretells her disappointment in attempting to rise in social circles.",
               "translation_ko": "여자가 녹은 돼지기름에 제 손이 빠져 있는 것을 보면, 사람들 틈에서 올라서려다 실망한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lentil",
+      "term_ko": "렌즈콩",
+      "term_en": "lentil",
+      "aliases": [
+        "렌틸콩",
+        "렌즈콩을"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "렌즈콩을 봄",
+          "interpretation_ko": "다툼과 몸에 해로운 둘레를 뜻하는 흉한 조짐",
+          "interpretation_en": "it denotes quarrels and unhealthy surroundings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lentil",
+              "original": "If you dream of lentils, it denotes quarrels and unhealthy surroundings.",
+              "translation_ko": "렌즈콩의 꿈은 다툼과 몸에 해로운 둘레를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 렌즈콩 꿈을 꿈",
+          "interpretation_ko": "정인이 마음에 차지 않으나 어버이의 말을 따라 어쩔 수 없음을 받아들이게 될 조짐",
+          "interpretation_en": "this dream portends dissatisfaction with her lover, but parental advice will cause her to accept the inevitable",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lentil",
+              "original": "For a young woman, this dream portends dissatisfaction with her lover, but parental advice will cause her to accept the inevitable.",
+              "translation_ko": "젊은 여성에게 이 꿈은, 정인이 마음에 차지 않으나 어버이의 말을 따라 어쩔 수 없음을 받아들이게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leprosy",
+      "term_ko": "나병",
+      "term_en": "leprosy",
+      "aliases": [
+        "한센병",
+        "나병에",
+        "나병이"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 나병에 걸림",
+          "interpretation_ko": "병이 들어 돈을 잃고 남의 눈 밖에 날 흉한 조짐",
+          "interpretation_en": "foretells sickness, by which you will lose money and incur the displeasure of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leprosy",
+              "original": "To dream that you are infected with this dread disease, foretells sickness, by which you will lose money and incur the displeasure of others.",
+              "translation_ko": "이 무서운 병에 걸리는 꿈은, 병이 들어 돈을 잃고 남의 눈 밖에 남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 나병에 걸린 것을 봄",
+          "interpretation_ko": "앞날이 막막해지고 사랑이 시들해질 흉한 조짐",
+          "interpretation_en": "you will meet discouraging prospects and love will turn into indifference",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leprosy",
+              "original": "If you see others afflicted thus, you will meet discouraging prospects and love will turn into indifference.",
+              "translation_ko": "남이 그 병에 걸린 것을 보면 앞날이 막막해지고 사랑이 시들해진다"
             }
           ]
         }

@@ -6040,5 +6040,13 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "lemons": [
     "a lemon",
     "lemons"
+  ],
+  "lentil": [
+    "lentils",
+    "a lentil"
+  ],
+  "leprosy": [
+    "leprosy",
+    "leper"
   ]
 };

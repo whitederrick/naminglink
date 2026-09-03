@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 94 — Lemonade~Lending, 12건)
+// (지금 담긴 것: 배치 95 — Lentil~Leprosy, 12건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,19 +30,19 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "lemonade", ctx: "레모네이드를 마심", text: "레모네이드를 마셨다" },
-  { id: "lemons", ctx: "나무에 달린 레몬을 봄", text: "나무에 달린 레몬을 보았다" },
-  { id: "lemons", ctx: "레몬을 먹음", text: "레몬을 먹었다" },
-  { id: "lemons", ctx: "덜 익은 푸른 레몬을 봄", text: "덜 익은 푸른 레몬을 보았다" },
-  { id: "lemons", ctx: "쪼그라든 레몬을 봄", text: "쪼그라든 레몬을 보았다" },
-  { id: "borrowing", ctx: "남이 제게 빌려주겠다고 함", text: "남이 나에게 돈을 빌려주겠다고 했다" },
-  { id: "borrowing", ctx: "남에게 돈을 빌려줌", text: "남에게 돈을 빌려주었다" },
-  { id: "borrowing", ctx: "남에게 물건을 빌려줌", text: "남에게 물건을 빌려주었다" },
-  { id: "borrowing", ctx: "빌려주기를 마다함", text: "빌려주기를 마다했다" },
+  { id: "lentil", ctx: "렌즈콩을 봄", text: "렌즈콩이 삶은 채로 놓여 있었다" },
+  { id: "lentil", ctx: "처녀가 렌즈콩 꿈을 꿈", text: "처녀가 렌즈콩 꿈을 꾸었다" },
+  { id: "leopard", ctx: "표범이 덤벼듦", text: "표범이 나에게 덤벼들었다" },
+  { id: "leopard", ctx: "표범을 죽임", text: "표범을 죽였다" },
+  { id: "leopard", ctx: "우리에 갇힌 표범을 봄", text: "우리에 갇힌 표범을 보았다" },
+  { id: "leopard", ctx: "표범이 제게서 달아나려 함", text: "표범이 나를 피해 달아나려 했다" },
+  { id: "leopard", ctx: "표범 가죽을 봄", text: "표범 가죽을 보았다" },
+  { id: "leprosy", ctx: "제가 나병에 걸림", text: "내가 나병에 걸렸다" },
+  { id: "leprosy", ctx: "남이 나병에 걸린 것을 봄", text: "남이 나병에 걸린 것을 보았다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "borrowing", ctx: "무언가를 빌리는 꿈을 꿈", text: "무언가를 빌렸다" },
-  { id: "borrowing", ctx: "은행가가 다른 은행에서 돈을 빌리는 꿈을 꿈", text: "은행가가 다른 은행에서 돈을 빌렸다" },
-  { id: "borrowing", ctx: "다른 사람이 자신에게서 빌림", text: "누가 나에게서 빌려갔다" },
+  { id: "leopard", ctx: "표범을 봄", text: "표범을 쳐다보았다" },
+  { id: "leopard", ctx: "표범을 잡음", text: "표범을 사로잡았다" },
+  { id: "leopard", ctx: "표범 같은 짐승을 봄", text: "표범 닮은 맹수를 보았다" },
 ];
 
 let notFound = 0;
