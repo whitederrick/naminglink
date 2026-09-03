@@ -285,7 +285,11 @@
     "id": "cask",
     "aliases": [
       "술통",
-      "나무 술통"
+      "나무 술통",
+      "작은 통",
+      "조그만 통",
+      "깨진 통",
+      "통이 깨졌다"
     ],
     "aliases_en": [
       "a cask",
@@ -294,11 +298,15 @@
     ],
     "contexts": {
       "가득 찬 통을 봄": "가득 그득 채워진",
-      "통이 비어 있음": "비어 비었 아무것도"
+      "통이 비어 있음": "비어 비었 아무것도",
+      "작은 통을 봄": "작은 조그만 짓눌",
+      "깨진 통을 봄": "깨진 깨졌 부서"
     },
     "contexts_en": {
       "가득 찬 통을 봄": "filled full prosperous",
-      "통이 비어 있음": "empty void consolation"
+      "통이 비어 있음": "empty void consolation",
+      "작은 통을 봄": "keg struggle throw oppression",
+      "깨진 통을 봄": "separation family friends"
     }
   },
   {

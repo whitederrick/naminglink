@@ -1,0 +1,54 @@
+[
+  {
+    "id": "katydid",
+    "aliases": [
+      "여치가",
+      "여치를",
+      "베짱이"
+    ],
+    "aliases_en": [
+      "katydids"
+    ],
+    "contexts": {
+      "여치 우는 소리를 들음": "우는 소리를 울음",
+      "여자가 여치를 봄": "여자가 여성이"
+    },
+    "contexts_en": {
+      "여치 우는 소리를 들음": "hearing prognostic misfortune unusual dependence",
+      "여자가 여치를 봄": "woman quarrelsome husband lover"
+    }
+  },
+  {
+    "id": "key",
+    "aliases": [
+      "열쇠가",
+      "열쇠를",
+      "열쇠로",
+      "열쇠 꾸러미"
+    ],
+    "aliases_en": [
+      "keys",
+      "a key"
+    ],
+    "contexts": {
+      "열쇠를 봄": "뜻밖의 갑작스",
+      "열쇠를 잃음": "잃었 잃어버 놓쳤",
+      "열쇠를 찾아냄": "찾아냈 주웠 되찾",
+      "부러진 열쇠를 봄": "부러진 부러졌 동강",
+      "장신구 열쇠를 잃음": "장신구 패물 노리개",
+      "열쇠로 문을 엶": "열었 열고 열어",
+      "열쇠로 문을 잠금": "잠갔 잠그 걸어잠",
+      "열쇠를 남에게 줌": "남에게 건네 주었다"
+    },
+    "contexts_en": {
+      "열쇠를 봄": "unexpected changes",
+      "열쇠를 잃음": "lost unpleasant adventures affect",
+      "열쇠를 찾아냄": "find domestic peace brisk turns",
+      "부러진 열쇠를 봄": "broken portends separation death jealousy",
+      "장신구 열쇠를 잃음": "losing personal ornament quarrels disquiet",
+      "열쇠로 문을 엶": "unlocking new confidence",
+      "열쇠로 문을 잠금": "locks selecting husband successful",
+      "열쇠를 남에게 줌": "gives away judgment conversation darken"
+    }
+  }
+]

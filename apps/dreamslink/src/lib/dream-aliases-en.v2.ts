@@ -5898,5 +5898,12 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "kangaroo": [
     "a kangaroo"
+  ],
+  "katydid": [
+    "katydids"
+  ],
+  "key": [
+    "keys",
+    "a key"
   ]
 };

@@ -73,6 +73,7 @@
     "m71.json",
     "m72.json",
     "m73.json",
+    "m74.json",
     "m7a.json",
     "m7b.json",
     "m8.json",
@@ -17731,6 +17732,138 @@
       ]
     },
     {
+      "id": "key",
+      "term_ko": "열쇠",
+      "term_en": "key",
+      "aliases": [
+        "열쇠가",
+        "열쇠를",
+        "열쇠로",
+        "열쇠 꾸러미"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "열쇠를 봄",
+          "interpretation_ko": "뜻밖의 변화가 있을 조짐",
+          "interpretation_en": "denotes unexpected changes",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "To dream of keys, denotes unexpected changes.",
+              "translation_ko": "열쇠의 꿈은 뜻밖의 변화를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "장신구 열쇠를 잃음",
+          "interpretation_ko": "정인과 다투고 그 일로 몹시 마음이 어지러울 흉한 조짐",
+          "interpretation_en": "denotes she will have quarrels with her lover, and will suffer much disquiet therefrom",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "For a young woman to dream of losing the key to any personal ornament, denotes she will have quarrels with her lover, and will suffer much disquiet therefrom.",
+              "translation_ko": "젊은 여성이 장신구 열쇠를 잃는 꿈을 꾸면 정인과 다투고 그 일로 몹시 마음이 어지럽다"
+            }
+          ]
+        },
+        {
+          "context": "열쇠를 잃음",
+          "interpretation_ko": "달갑지 않은 일을 겪게 될 흉한 조짐",
+          "interpretation_en": "unpleasant adventures will affect you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "If the keys are lost, unpleasant adventures will affect you.",
+              "translation_ko": "열쇠를 잃으면 달갑지 않은 일을 겪는다"
+            }
+          ]
+        },
+        {
+          "context": "열쇠를 찾아냄",
+          "interpretation_ko": "집안이 평안해지고 하는 일이 활기차게 돌아설 길한 조짐",
+          "interpretation_en": "brings domestic peace and brisk turns to business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "To find keys, brings domestic peace and brisk turns to business.",
+              "translation_ko": "열쇠를 찾아내면 집안이 평안해지고 하는 일이 활기차게 돌아선다"
+            }
+          ]
+        },
+        {
+          "context": "부러진 열쇠를 봄",
+          "interpretation_ko": "죽음이나 시샘으로 갈라설 흉한 조짐",
+          "interpretation_en": "portends separation either through death or jealousy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "Broken keys, portends separation either through death or jealousy.",
+              "translation_ko": "부러진 열쇠는 죽음이나 시샘으로 인한 갈라섬을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "열쇠로 문을 엶",
+          "interpretation_ko": "새 정인을 만나나 그를 너무 믿게 될 조짐",
+          "interpretation_en": "she will have a new lover and have over-confidence in him",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "If she dreams of unlocking a door with a key, she will have a new lover and have over-confidence in him.",
+              "translation_ko": "열쇠로 문을 여는 꿈을 꾸면 새 정인을 만나나 그를 너무 믿게 된다"
+            }
+          ]
+        },
+        {
+          "context": "열쇠로 문을 잠금",
+          "interpretation_ko": "지아비를 잘 골라 맞을 길한 조짐",
+          "interpretation_en": "she will be successful in selecting a husband",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "If she locks a door with a key, she will be successful in selecting a husband.",
+              "translation_ko": "열쇠로 문을 잠그면 지아비를 잘 골라 맞는다"
+            }
+          ]
+        },
+        {
+          "context": "열쇠를 남에게 줌",
+          "interpretation_ko": "말을 가려 하지 못해 제 이름을 스스로 흐릴 흉한 조짐",
+          "interpretation_en": "she will fail to use judgment in conversation and darken her own reputation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "If she gives the key away, she will fail to use judgment in conversation and darken her own reputation.",
+              "translation_ko": "열쇠를 남에게 주면 말을 가려 하지 못해 제 이름을 스스로 흐린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "liquor",
       "term_ko": "술",
       "term_en": "liquor",
@@ -19466,6 +19599,124 @@
               "locator": "Driving",
               "original": "If you are driven in these conveyances by others, you will profit by superior knowledge of the world, and will always find some path through difficulties.",
               "translation_ko": "남이 모는 수레에 실려 가면, 세상을 더 잘 아는 덕을 보고 어려움 속에서도 늘 길을 찾는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cauldron",
+      "term_ko": "솥",
+      "term_en": "cauldron",
+      "aliases": [
+        "가마솥",
+        "솥단지",
+        "무쇠솥"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "큰 솥을 봄",
+          "interpretation_ko": "큰 재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining great wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "鼎鼐者主得大財",
+              "translation_ko": "큰 솥은 큰 재물을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "물이 끓는 솥을 봄",
+          "interpretation_ko": "애쓰던 것이 머지않아 끝나고 변화가 올 길한 조짐",
+          "interpretation_en": "your struggles will soon end and a change will come to you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kettle",
+              "original": "To see a kettle of boiling water, your struggles will soon end and a change will come to you.",
+              "translation_ko": "물이 끓는 솥을 보면 애쓰던 것이 머지않아 끝나고 변화가 온다"
+            }
+          ]
+        },
+        {
+          "context": "어두운 빛깔의 솥을 다룸",
+          "interpretation_ko": "사랑과 혼인에서 실망할 흉한 조짐",
+          "interpretation_en": "foretells disappointment in love and marriage",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kettle",
+              "original": "For a young woman to dream of handling dark kettles, foretells disappointment in love and marriage;",
+              "translation_ko": "젊은 여성이 어두운 빛깔의 솥을 다루는 꿈을 꾸면 사랑과 혼인에서 실망한다"
+            }
+          ]
+        },
+        {
+          "context": "밝은 빛깔의 솥을 봄",
+          "interpretation_ko": "근심에서 온전히 벗어나고 지아비가 훤하고 미더울 길한 조짐",
+          "interpretation_en": "a light-colored kettle brings to her absolute freedom from care, and her husband will be handsome and worthy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kettle",
+              "original": "but a light-colored kettle brings to her absolute freedom from care, and her husband will be handsome and worthy.",
+              "translation_ko": "밝은 빛깔의 솥은 근심에서 온전히 벗어남과 훤하고 미더운 지아비를 가져온다"
+            }
+          ]
+        },
+        {
+          "context": "솥이 넘치도록 가득 참",
+          "interpretation_ko": "큰 재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining great wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "釜溢者主得大財",
+              "translation_ko": "가마솥이 넘치면 큰 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "무쇠솥이 깨짐",
+          "interpretation_ko": "상을 당할 조짐",
+          "interpretation_en": "a sign that a funeral will come",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "鍋鐵破主喪事來",
+              "translation_ko": "무쇠솥이 깨지면 상사가 온다"
+            }
+          ]
+        },
+        {
+          "context": "부뚜막과 솥이 깨짐",
+          "interpretation_ko": "죽음이 있을 조짐",
+          "interpretation_en": "a sign that a death will occur",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "灶釜破敗有死亡",
+              "translation_ko": "부뚜막과 솥이 깨지면 죽음이 있다"
             }
           ]
         }
@@ -34646,75 +34897,78 @@
       ]
     },
     {
-      "id": "cauldron",
-      "term_ko": "솥",
-      "term_en": "cauldron",
+      "id": "cask",
+      "term_ko": "나무통",
+      "term_en": "cask",
       "aliases": [
-        "가마솥",
-        "솥단지",
-        "무쇠솥"
+        "술통",
+        "나무 술통",
+        "작은 통",
+        "조그만 통",
+        "깨진 통",
+        "통이 깨졌다"
       ],
       "category": "object",
       "polarity": "ambivalent",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "큰 솥을 봄",
-          "interpretation_ko": "큰 재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining great wealth",
+          "context": "가득 찬 통을 봄",
+          "interpretation_ko": "넉넉한 때와 잔치가 있을 조짐",
+          "interpretation_en": "prosperous times and feastings",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "鼎鼐者主得大財",
-              "translation_ko": "큰 솥은 큰 재물을 얻을 조짐이다"
+              "work": "miller",
+              "locator": "Cask",
+              "original": "To see one filled, denotes prosperous times and feastings.",
+              "translation_ko": "가득 찬 통을 보면 넉넉한 때와 잔치를 뜻한다"
             }
           ]
         },
         {
-          "context": "솥이 넘치도록 가득 참",
-          "interpretation_ko": "큰 재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining great wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "釜溢者主得大財",
-              "translation_ko": "가마솥이 넘치면 큰 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "무쇠솥이 깨짐",
-          "interpretation_ko": "상을 당할 조짐",
-          "interpretation_en": "a sign that a funeral will come",
+          "context": "통이 비어 있음",
+          "interpretation_ko": "바깥에서 오는 어떤 기쁨도 위로도 없는 삶이 될 조짐",
+          "interpretation_en": "your life will be void of any joy or consolation from outward influences",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "鍋鐵破主喪事來",
-              "translation_ko": "무쇠솥이 깨지면 상사가 온다"
+              "work": "miller",
+              "locator": "Cask",
+              "original": "If empty, your life will be void of any joy or consolation from outward influences.",
+              "translation_ko": "통이 비어 있으면 바깥에서 오는 어떤 기쁨도 위로도 없는 삶이 된다"
             }
           ]
         },
         {
-          "context": "부뚜막과 솥이 깨짐",
-          "interpretation_ko": "죽음이 있을 조짐",
-          "interpretation_en": "a sign that a death will occur",
+          "context": "작은 통을 봄",
+          "interpretation_ko": "짓눌린 것을 떨쳐 내려 애쓰게 될 조짐",
+          "interpretation_en": "denotes you will have a struggle to throw off oppression",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Keg",
+              "original": "To dream of a keg, denotes you will have a struggle to throw off oppression.",
+              "translation_ko": "작은 통의 꿈은 짓눌린 것을 떨쳐 내려 애쓰게 되리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "깨진 통을 봄",
+          "interpretation_ko": "집안이나 벗과 갈라설 흉한 조짐",
+          "interpretation_en": "indicate separation from family or friends",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "灶釜破敗有死亡",
-              "translation_ko": "부뚜막과 솥이 깨지면 죽음이 있다"
+              "work": "miller",
+              "locator": "Keg",
+              "original": "Broken ones, indicate separation from family or friends.",
+              "translation_ko": "깨진 것은 집안이나 벗과 갈라섬을 뜻한다"
             }
           ]
         }
@@ -59024,52 +59278,6 @@
       ]
     },
     {
-      "id": "cask",
-      "term_ko": "나무통",
-      "term_en": "cask",
-      "aliases": [
-        "술통",
-        "나무 술통"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "가득 찬 통을 봄",
-          "interpretation_ko": "넉넉한 때와 잔치가 있을 조짐",
-          "interpretation_en": "prosperous times and feastings",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cask",
-              "original": "To see one filled, denotes prosperous times and feastings.",
-              "translation_ko": "가득 찬 통을 보면 넉넉한 때와 잔치를 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "통이 비어 있음",
-          "interpretation_ko": "바깥에서 오는 어떤 기쁨도 위로도 없는 삶이 될 조짐",
-          "interpretation_en": "your life will be void of any joy or consolation from outward influences",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cask",
-              "original": "If empty, your life will be void of any joy or consolation from outward influences.",
-              "translation_ko": "통이 비어 있으면 바깥에서 오는 어떤 기쁨도 위로도 없는 삶이 된다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "cathedral",
       "term_ko": "대성당",
       "term_en": "cathedral",
@@ -69684,6 +69892,53 @@
               "locator": "Justice",
               "original": "If some one demands the same of you, you will find that your conduct and reputation are being assailed, and it will be extremely doubtful if you refute the charges satisfactorily.",
               "translation_ko": "남이 저에게 그리 다그치면, 제 몸가짐과 이름이 헐뜯기고 그 말을 시원하게 되받기 어렵다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "katydid",
+      "term_ko": "여치",
+      "term_en": "katydid",
+      "aliases": [
+        "여치가",
+        "여치를",
+        "베짱이"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여치 우는 소리를 들음",
+          "interpretation_ko": "불운이 따르고 남에게 유난히 기대게 될 흉한 조짐",
+          "interpretation_en": "is a prognostic of misfortune and unusual dependence on others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Katydids",
+              "original": "To dream of hearing katydids, is a prognostic of misfortune and unusual dependence on others.",
+              "translation_ko": "여치 우는 소리를 듣는 꿈은 불운과 남에게 유난히 기대게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 여치를 봄",
+          "interpretation_ko": "다투기 좋아하는 지아비나 정인을 만날 흉한 조짐",
+          "interpretation_en": "signifies she will have a quarrelsome husband or lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Katydids",
+              "original": "For a woman to see them, signifies she will have a quarrelsome husband or lover.",
+              "translation_ko": "여자가 그것을 보면 다투기 좋아하는 지아비나 정인을 만난다"
             }
           ]
         }

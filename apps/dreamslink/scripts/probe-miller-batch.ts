@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 73 — June~Kangaroo, 14건)
+// (지금 담긴 것: 배치 74 — Katydids~Key, 19건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,20 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "june", ctx: "유월 꿈을 꿈", text: "유월달에 벌이가 늘었다" },
-  { id: "june", ctx: "초목이 시들고 가뭄이 땅을 말림", text: "유월인데 초목이 시들고 가뭄이 들었다" },
-  { id: "juniper", ctx: "노간주나무를 봄", text: "노간주나무를 보았다" },
-  { id: "juniper", ctx: "노간주나무 열매를 먹거나 땀", text: "노간주나무 열매를 따먹었다" },
-  { id: "jury", ctx: "배심원이 됨", text: "내가 배심원이 되었다" },
-  { id: "jury", ctx: "배심원단이 죄를 벗겨 줌", text: "배심원단이 무죄로 풀어 주었다" },
-  { id: "jury", ctx: "배심원단이 죄가 있다고 함", text: "배심원단이 유죄로 몰았다" },
-  { id: "justice", ctx: "남에게 바로잡아 달라 다그침", text: "남에게 정의를 요구했다" },
-  { id: "justice", ctx: "남이 저에게 바로잡으라 다그침", text: "남이 나에게 정의를 다그쳤다" },
-  { id: "kaleidoscope", ctx: "만화경이 돌아가는 것을 봄", text: "만화경이 돌아가는 것을 보았다" },
-  { id: "kangaroo", ctx: "캥거루를 봄", text: "캥거루를 보았다" },
-  { id: "kangaroo", ctx: "캥거루가 덤벼듦", text: "캥거루가 덤벼들었다" },
-  { id: "kangaroo", ctx: "캥거루를 죽임", text: "캥거루를 죽였다" },
-  { id: "kangaroo", ctx: "캥거루 가죽을 봄", text: "캥거루 가죽을 보았다" },
+  { id: "katydid", ctx: "여치 우는 소리를 들음", text: "여치 우는 소리를 들었다" },
+  { id: "katydid", ctx: "여자가 여치를 봄", text: "여자가 여치를 보았다" },
+  { id: "cask", ctx: "작은 통을 봄", text: "조그만 통을 보았다" },
+  { id: "cask", ctx: "깨진 통을 봄", text: "깨진 통을 보았다" },
+  { id: "cauldron", ctx: "물이 끓는 솥을 봄", text: "물이 펄펄 끓는 솥을 보았다" },
+  { id: "cauldron", ctx: "어두운 빛깔의 솥을 다룸", text: "어두운 솥을 다루었다" },
+  { id: "cauldron", ctx: "밝은 빛깔의 솥을 봄", text: "밝은 빛깔의 솥을 보았다" },
+  { id: "key", ctx: "열쇠를 봄", text: "열쇠를 보았다" },
+  { id: "key", ctx: "열쇠를 잃음", text: "열쇠를 잃어버렸다" },
+  { id: "key", ctx: "열쇠를 찾아냄", text: "열쇠를 찾아냈다" },
+  { id: "key", ctx: "부러진 열쇠를 봄", text: "부러진 열쇠를 보았다" },
+  { id: "key", ctx: "장신구 열쇠를 잃음", text: "장신구 열쇠를 잃어버렸다" },
+  { id: "key", ctx: "열쇠로 문을 엶", text: "열쇠로 문을 열었다" },
+  { id: "key", ctx: "열쇠로 문을 잠금", text: "열쇠로 문을 잠갔다" },
+  { id: "key", ctx: "열쇠를 남에게 줌", text: "열쇠를 남에게 주었다" },
+
+  // 이 배치가 판별어를 더한 상징 — **옛 답이 그대로인가**를 함께 잰다.
+  { id: "cauldron", ctx: "큰 솥을 봄", text: "커다란 솥을 보았다" },
+  { id: "cauldron", ctx: "무쇠솥이 깨짐", text: "무쇠솥이 깨졌다" },
+  { id: "cask", ctx: "가득 찬 통을 봄", text: "가득 찬 나무통을 보았다" },
+  { id: "cask", ctx: "통이 비어 있음", text: "나무통이 비어 있었다" },
 ];
 
 let notFound = 0;
