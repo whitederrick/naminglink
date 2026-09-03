@@ -578,7 +578,11 @@
     "aliases": [
       "여행",
       "원행",
-      "먼길"
+      "먼길",
+      "길을 떠났다",
+      "길을 떠나",
+      "길 떠나",
+      "나들이"
     ],
     "aliases_en": [
       "travel",
@@ -588,11 +592,19 @@
     ],
     "contexts": {
       "먼 길을 오가며 다님": "오가 다니 왕래 돌아다니",
-      "텅 비고 사람이 없는 먼 곳": "텅빈 아무도없 사람이없 황량"
+      "텅 비고 사람이 없는 먼 곳": "텅빈 아무도없 사람이없 황량",
+      "길을 떠남": "길에 올랐 나섰",
+      "벗들이 즐겁게 길을 떠나는 것을 봄": "즐겁게 신나게 웃으며",
+      "벗들이 슬픈 낯으로 떠나는 것을 봄": "슬픈 서글픈 울먹",
+      "먼 길을 뜻밖에 짧은 동안에 감": "짧은 금세 어느새"
     },
     "contexts_en": {
       "먼 길을 오가며 다님": "forth coming going wandering",
-      "텅 비고 사람이 없는 먼 곳": "empty deserted nobody desolate"
+      "텅 비고 사람이 없는 먼 곳": "empty deserted nobody desolate",
+      "길을 떠남": "profit disappointment pleasing accidents disagreeable",
+      "벗들이 즐겁게 길을 떠나는 것을 봄": "cheerfully delightful change harmonious heretofore",
+      "벗들이 슬픈 낯으로 떠나는 것을 봄": "depart looking sad moons power loss",
+      "먼 길을 뜻밖에 짧은 동안에 감": "shorter accomplish surprisingly reimbursement"
     }
   },
   {

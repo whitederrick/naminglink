@@ -5852,5 +5852,18 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "jockey": [
     "a jockey"
+  ],
+  "jolly": [
+    "jolly",
+    "merriment"
+  ],
+  "journeyman": [
+    "a journeyman"
+  ],
+  "jubilee": [
+    "a jubilee"
+  ],
+  "judge": [
+    "a judge"
   ]
 };

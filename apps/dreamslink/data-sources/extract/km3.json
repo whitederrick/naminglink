@@ -884,8 +884,14 @@
       "rejoicing",
       "happiness"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "집안에 기쁜 일이 있음": "집안에 경사가",
+      "어떤 일로 기쁨을 느낌": "느꼈 벅찼 차올랐"
+    },
+    "contexts_en": {
+      "집안에 기쁜 일이 있음": "household auspicious",
+      "어떤 일로 기쁨을 느낌": "feel harmony among"
+    }
   },
   {
     "id": "leech",

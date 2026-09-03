@@ -1,0 +1,212 @@
+[
+  {
+    "term_ko": "흥겨움",
+    "term_en": "jolly",
+    "context": "벗들과 흥겹게 어울림",
+    "interpretation_ko": "아이들이 바르게 자라는 데서 기쁨을 얻고 하는 일도 흡족하게 풀릴 길한 조짐",
+    "interpretation_en": "you will realize pleasure from the good behavior of children and have satisfying results in business",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jolly",
+      "original": "To dream that you feel jolly and are enjoying the merriment of companions, you will realize pleasure from the good behavior of children and have satisfying results in business.",
+      "translation_ko": "흥겹고 벗들과 어울려 즐기는 꿈을 꾸면, 아이들이 바르게 자라는 데서 기쁨을 얻고 하는 일도 흡족하게 풀린다"
+    }
+  },
+  {
+    "term_ko": "흥겨움",
+    "term_en": "jolly",
+    "context": "흥이 조금이라도 깨짐",
+    "interpretation_ko": "앞으로 잘되는 가운데 근심이 섞여 들 흉한 조짐",
+    "interpretation_en": "worry will intermingle with the success of the future",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jolly",
+      "original": "If there comes the least rift in the merriment, worry will intermingle with the success of the future.",
+      "translation_ko": "흥이 조금이라도 깨지면 앞으로 잘되는 가운데 근심이 섞여 든다"
+    }
+  },
+  {
+    "term_ko": "먼 길 떠남",
+    "term_en": "long journey",
+    "context": "길을 떠남",
+    "interpretation_ko": "길이 즐겁고 순조로우면 이문이, 사고와 궂은 일이 끼면 실망이 따를 조짐",
+    "interpretation_en": "signifies profit or a disappointment, as the travels are pleasing and successful or as accidents and disagreeable events take active part in your journeying",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Journey",
+      "original": "To dream that you go on a journey, signifies profit or a disappointment, as the travels are pleasing and successful or as accidents and disagreeable events take active part in your journeying.",
+      "translation_ko": "길을 떠나는 꿈은, 그 길이 즐겁고 순조로우면 이문을, 사고와 궂은 일이 끼면 실망을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "먼 길 떠남",
+    "term_en": "long journey",
+    "context": "벗들이 즐겁게 길을 떠나는 것을 봄",
+    "interpretation_ko": "반가운 변화가 오고 이제까지보다 뜻이 맞는 이들을 만날 길한 조짐",
+    "interpretation_en": "signifies delightful change and more harmonious companions than you have heretofore known",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Journey",
+      "original": "To see your friends start cheerfully on a journey, signifies delightful change and more harmonious companions than you have heretofore known.",
+      "translation_ko": "벗들이 즐겁게 길을 떠나는 것을 보면 반가운 변화가 오고 이제까지보다 뜻이 맞는 이들을 만난다"
+    }
+  },
+  {
+    "term_ko": "먼 길 떠남",
+    "term_en": "long journey",
+    "context": "벗들이 슬픈 낯으로 떠나는 것을 봄",
+    "interpretation_ko": "여러 달이 지나야 다시 보게 될 조짐이며 힘과 잃음이 함께 깃든다",
+    "interpretation_en": "it may be many moons before you see them again; power and loss are implied",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Journey",
+      "original": "If you see them depart looking sad, it may be many moons before you see them again.",
+      "translation_ko": "그들이 슬픈 낯으로 떠나는 것을 보면 여러 달이 지나야 다시 보게 된다"
+    }
+  },
+  {
+    "term_ko": "먼 길 떠남",
+    "term_en": "long journey",
+    "context": "먼 길을 뜻밖에 짧은 동안에 감",
+    "interpretation_ko": "어떤 일을 놀랍도록 짧은 동안에 이루고 그 값도 흡족할 길한 조짐",
+    "interpretation_en": "denotes you will accomplish some work in a surprisingly short time, which will be satisfactory in the way of reimbursement",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Journey",
+      "original": "To make a long-distance journey in a much shorter time than you expected, denotes you will accomplish some work in a surprisingly short time, which will be satisfactory in the way of reimbursement.",
+      "translation_ko": "먼 길을 생각보다 훨씬 짧은 동안에 가면, 어떤 일을 놀랍도록 짧은 동안에 이루고 그 값도 흡족하다"
+    }
+  },
+  {
+    "term_ko": "삯일꾼",
+    "term_en": "journeyman",
+    "context": "삯일꾼을 봄",
+    "interpretation_ko": "쓸데없는 나들이로 머지않아 돈을 잃을 흉한 조짐",
+    "interpretation_en": "denotes you are soon to lose money by useless travels",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Journeyman",
+      "original": "To dream of a journeyman, denotes you are soon to lose money by useless travels.",
+      "translation_ko": "삯일꾼의 꿈은 쓸데없는 나들이로 머지않아 돈을 잃으리라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "삯일꾼",
+    "term_en": "journeyman",
+    "context": "여자가 삯일꾼 꿈을 꿈",
+    "interpretation_ko": "뜻밖이기는 하나 즐거운 나들이가 있을 길한 조짐",
+    "interpretation_en": "this dream brings pleasant trips, though unexpected ones",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Journeyman",
+      "original": "For a woman, this dream brings pleasant trips, though unexpected ones.",
+      "translation_ko": "여자에게 이 꿈은 뜻밖이기는 하나 즐거운 나들이를 가져온다"
+    }
+  },
+  {
+    "term_ko": "기쁨",
+    "term_en": "joy",
+    "context": "어떤 일로 기쁨을 느낌",
+    "interpretation_ko": "벗들 사이가 두루 화목할 길한 조짐",
+    "interpretation_en": "denotes harmony among friends",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Joy",
+      "original": "To dream that you feel joy over any event, denotes harmony among friends.",
+      "translation_ko": "어떤 일로 기쁨을 느끼는 꿈은 벗들 사이의 화목을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "축전",
+    "term_en": "jubilee",
+    "context": "축전을 봄",
+    "interpretation_ko": "즐거운 일에 여러 번 끼게 될 길한 조짐이며, 처녀에게는 혼인과 늘어나는 복을 가리킨다",
+    "interpretation_en": "denotes many pleasureable enterprises in which you will be a participant",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jubilee",
+      "original": "To dream of a jubilee, denotes many pleasureable enterprises in which you will be a participant.",
+      "translation_ko": "축전의 꿈은 즐거운 일에 여러 번 끼게 되리라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "축전",
+    "term_en": "jubilee",
+    "context": "종교 축전을 봄",
+    "interpretation_ko": "가깝지만 마음 편한 자리에 있게 될 조짐",
+    "interpretation_en": "denotes close but comfortable environments",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Jubilee",
+      "original": "To dream of a religious jubilee, denotes close but comfortable environments.",
+      "translation_ko": "종교 축전의 꿈은 가깝지만 마음 편한 자리를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "판사",
+    "term_en": "judge",
+    "context": "판사 앞에 서게 됨",
+    "interpretation_ko": "다툼이 법으로 가려질 조짐이며, 일이나 이혼 다툼이 크게 번질 수 있다",
+    "interpretation_en": "signifies that disputes will be settled by legal proceedings; business or divorce cases may assume gigantic proportions",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Judge",
+      "original": "To dream of coming before a judge, signifies that disputes will be settled by legal proceedings.",
+      "translation_ko": "판사 앞에 서는 꿈은 다툼이 법으로 가려지리라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "판사",
+    "term_en": "judge",
+    "context": "판결이 제게 이롭게 남",
+    "interpretation_ko": "다툼이 잘 마무리될 길한 조짐",
+    "interpretation_en": "denotes a successful termination to the suit",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Judge",
+      "original": "To have the case decided in your favor, denotes a successful termination to the suit;",
+      "translation_ko": "판결이 제게 이롭게 나면 다툼이 잘 마무리된다"
+    }
+  },
+  {
+    "term_ko": "판사",
+    "term_en": "judge",
+    "context": "판결이 제게 불리하게 남",
+    "interpretation_ko": "제가 먼저 그르친 쪽이니 잘못된 것을 바로잡아야 함을 알리는 흉한 조짐",
+    "interpretation_en": "then you are the aggressor and you should seek to right injustice",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Judge",
+      "original": "if decided against you, then you are the aggressor and you should seek to right injustice.",
+      "translation_ko": "판결이 제게 불리하게 나면 제가 먼저 그르친 쪽이니 잘못된 것을 바로잡아야 한다"
+    }
+  }
+]

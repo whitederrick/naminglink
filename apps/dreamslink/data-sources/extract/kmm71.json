@@ -1,0 +1,87 @@
+[
+  {
+    "id": "jolly",
+    "aliases": [
+      "흥겨운",
+      "흥겹게",
+      "흥겨웠다",
+      "흥이 나",
+      "신명 나"
+    ],
+    "aliases_en": [
+      "jolly",
+      "merriment"
+    ],
+    "contexts": {
+      "벗들과 흥겹게 어울림": "벗들 동무들 어울리 어울려",
+      "흥이 조금이라도 깨짐": "깨졌 깨지 식어"
+    },
+    "contexts_en": {
+      "벗들과 흥겹게 어울림": "enjoying companions behavior children satisfying",
+      "흥이 조금이라도 깨짐": "rift worry intermingle success future"
+    }
+  },
+  {
+    "id": "journeyman",
+    "aliases": [
+      "삯일꾼이",
+      "삯일꾼을",
+      "품팔이 장인",
+      "떠돌이 장인"
+    ],
+    "aliases_en": [
+      "a journeyman"
+    ],
+    "contexts": {
+      "삯일꾼을 봄": "보았다 보였다",
+      "여자가 삯일꾼 꿈을 꿈": "여자가 여성이"
+    },
+    "contexts_en": {
+      "삯일꾼을 봄": "lose money useless travels",
+      "여자가 삯일꾼 꿈을 꿈": "woman brings pleasant trips unexpected"
+    }
+  },
+  {
+    "id": "jubilee",
+    "aliases": [
+      "축전이",
+      "축전을",
+      "축전에",
+      "기념 잔치"
+    ],
+    "aliases_en": [
+      "a jubilee"
+    ],
+    "contexts": {
+      "축전을 봄": "즐거운 참여 끼어",
+      "종교 축전을 봄": "종교 절에서 교회"
+    },
+    "contexts_en": {
+      "축전을 봄": "pleasureable enterprises participant",
+      "종교 축전을 봄": "religious close comfortable environments"
+    }
+  },
+  {
+    "id": "judge",
+    "aliases": [
+      "판사가",
+      "판사를",
+      "재판관",
+      "법관",
+      "판결"
+    ],
+    "aliases_en": [
+      "a judge"
+    ],
+    "contexts": {
+      "판사 앞에 서게 됨": "앞에 섰다 불려",
+      "판결이 제게 이롭게 남": "이롭게 이겼 유리하게",
+      "판결이 제게 불리하게 남": "불리하게 졌다 지고"
+    },
+    "contexts_en": {
+      "판사 앞에 서게 됨": "coming before disputes settled legal proceedings",
+      "판결이 제게 이롭게 남": "favor successful termination suit",
+      "판결이 제게 불리하게 남": "against aggressor seek right injustice"
+    }
+  }
+]
