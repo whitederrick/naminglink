@@ -760,11 +760,15 @@
     ],
     "contexts": {
       "창을 봄": "보았 발견 세워",
-      "창과 도끼에 빛이 남": "도끼 빛이 빛나 번쩍"
+      "창과 도끼에 빛이 남": "도끼 빛이 빛나 번쩍",
+      "창에 찔려 다침": "찔려 찔렸 다쳤",
+      "창을 부러뜨림": "부러뜨 분질"
     },
     "contexts_en": {
       "창을 봄": "saw standing spotted",
-      "창과 도끼에 빛이 남": "axe shining gleaming light"
+      "창과 도끼에 빛이 남": "axe shining gleaming light",
+      "창에 찔려 다침": "wounded error judgment annoyance",
+      "창을 부러뜨림": "break impossibilities overcome fulfilled"
     }
   },
   {

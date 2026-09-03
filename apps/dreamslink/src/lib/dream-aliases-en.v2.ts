@@ -5975,5 +5975,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "lake": [
     "a lake",
     "lakes"
+  ],
+  "lamp-post": [
+    "a lamp-post",
+    "lamp posts"
   ]
 };

@@ -87,6 +87,7 @@
     "m82.json",
     "m83.json",
     "m84.json",
+    "m85.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -15279,6 +15280,151 @@
       ]
     },
     {
+      "id": "carriage",
+      "term_ko": "마차",
+      "term_en": "carriage",
+      "aliases": [
+        "사륜마차",
+        "마차를 탔다",
+        "무개마차"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "마차를 봄",
+          "interpretation_ko": "흡족한 일이 있고 남을 찾아다니게 될 조짐",
+          "interpretation_en": "you will be gratified, and you will make visits",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carriage",
+              "original": "To see a carriage, implies that you will be gratified, and that you will make visits.",
+              "translation_ko": "마차를 보면 흡족한 일이 있고 남을 찾아다니게 된다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 타고 감",
+          "interpretation_ko": "곧 지나갈 병을 앓은 뒤 건강과 좋은 자리를 누릴 조짐",
+          "interpretation_en": "a sickness that will soon pass, and then health and advantageous positions",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carriage",
+              "original": "To ride in one, you will have a sickness that will soon pass, and you will enjoy health and advantageous positions.",
+              "translation_ko": "마차를 타고 가면 곧 지나갈 병을 앓고, 그 뒤 건강과 이로운 자리를 누린다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 찾아다님",
+          "interpretation_ko": "고되게 일해야 하나 끝내는 웬만한 살림을 갖출 조짐",
+          "interpretation_en": "you will have to labor hard, but will eventually be possessed with a fair competency",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carriage",
+              "original": "To dream that you are looking for a carriage, you will have to labor hard, but will eventually be possessed with a fair competency.",
+              "translation_ko": "마차를 찾아다니는 꿈은 고되게 일해야 하나 끝내는 웬만한 살림을 갖추게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 몲",
+          "interpretation_ko": "헤퍼 보인다는 억울한 말을 듣고, 떳떳지 못해 보이는 일을 하게 될 조짐",
+          "interpretation_en": "unjust criticism of your seeming extravagance; you will be compelled to do things which appear undignified",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "To dream of driving a carriage, signifies unjust criticism of your seeming extravagance. You will be compelled to do things which appear undignified.",
+              "translation_ko": "마차를 모는 꿈은, 헤퍼 보인다는 억울한 말을 듣고 떳떳지 못해 보이는 일을 하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남자가 남이 모는 마차에 실려 감",
+          "interpretation_ko": "여자와의 일에서 바라던 바를 빠르게 이룰 조짐",
+          "interpretation_en": "in affairs with women, you will drive your wishes to a speedy consummation",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If you are a man, you will, in affairs with women, drive your wishes to a speedy consummation.",
+              "translation_ko": "남자라면, 여자와의 일에서 바라던 바를 빠르게 이룬다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 남이 모는 마차에 실려 감",
+          "interpretation_ko": "남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여길 조짐",
+          "interpretation_en": "you will hold men's hearts at low value after succeeding in getting a hold on them",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If a woman, you will hold men's hearts at low value after succeeding in getting a hold on them.",
+              "translation_ko": "여자라면, 남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여기게 된다"
+            }
+          ]
+        },
+        {
+          "context": "남이 모는 마차에 실려 감",
+          "interpretation_ko": "세상을 더 잘 아는 덕을 보고, 어려움 속에서도 늘 길을 찾을 조짐",
+          "interpretation_en": "you will profit by superior knowledge of the world, and will always find some path through difficulties",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If you are driven in these conveyances by others, you will profit by superior knowledge of the world, and will always find some path through difficulties.",
+              "translation_ko": "남이 모는 수레에 실려 가면, 세상을 더 잘 아는 덕을 보고 어려움 속에서도 늘 길을 찾는다"
+            }
+          ]
+        },
+        {
+          "context": "벗이나 정인과 함께 마차를 타고 감",
+          "interpretation_ko": "가볍고 즐거운 일들이 잇달아 삶을 스쳐 갈 길한 조짐",
+          "interpretation_en": "denotes that incidents of a light, but pleasant character will pass in rapid succession through your life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Landau",
+              "original": "To dream that you ride in a landau, with your friend or sweetheart, denotes that incidents of a light, but pleasant character will pass in rapid succession through your life.",
+              "translation_ko": "벗이나 정인과 함께 마차를 타고 가는 꿈을 꾸면, 가볍고 즐거운 일들이 잇달아 삶을 스쳐 간다"
+            }
+          ]
+        },
+        {
+          "context": "마차가 뒤집힘",
+          "interpretation_ko": "즐거움이 갑자기 슬픔으로 바뀔 흉한 조짐",
+          "interpretation_en": "then pleasure will abruptly turn into woe",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Landau",
+              "original": "If the vehicle is overturned, then pleasure will abruptly turn into woe.",
+              "translation_ko": "마차가 뒤집히면 즐거움이 갑자기 슬픔으로 바뀐다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "child",
       "term_ko": "아이",
       "term_en": "child",
@@ -15858,6 +16004,154 @@
               "locator": "被害鬥傷打罵",
               "original": "殺雞鵝鴨主大吉",
               "translation_ko": "닭과 거위와 오리를 잡으면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ground",
+      "term_ko": "땅",
+      "term_en": "ground",
+      "aliases": [
+        "대지",
+        "지면",
+        "토지",
+        "뭍을",
+        "뭍이"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "땅이 흔들려 움직임",
+          "interpretation_ko": "벼슬자리를 옮길 길한 조짐",
+          "interpretation_en": "an auspicious sign of a transfer in office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "地動主遷官位吉",
+              "translation_ko": "땅이 움직이면 벼슬자리를 옮기게 되어 길하다"
+            }
+          ]
+        },
+        {
+          "context": "땅이 기름져 보임",
+          "interpretation_ko": "좋은 일을 알리는 길한 조짐",
+          "interpretation_en": "when it appears fertile, omens good",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Land",
+              "original": "To dream of land, when it appears fertile, omens good; but if sterile and rocky, failure and dispondency is prognosticated.",
+              "translation_ko": "땅의 꿈은 기름져 보이면 좋은 일을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "땅이 메마르고 돌투성이임",
+          "interpretation_ko": "일이 어그러지고 낙담할 흉한 조짐",
+          "interpretation_en": "if sterile and rocky, failure and dispondency is prognosticated",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Land",
+              "original": "To dream of land, when it appears fertile, omens good; but if sterile and rocky, failure and dispondency is prognosticated.",
+              "translation_ko": "땅이 메마르고 돌투성이이면 일이 어그러지고 낙담한다"
+            }
+          ]
+        },
+        {
+          "context": "바다에서 뭍을 봄",
+          "interpretation_ko": "넉넉함과 기쁨으로 이르는 넓은 길이 제 앞에 열릴 길한 조짐",
+          "interpretation_en": "denotes that vast avenues of prosperity and happiness will disclose themselves to you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Land",
+              "original": "To see land from the ocean, denotes that vast avenues of prosperity and happiness will disclose themselves to you.",
+              "translation_ko": "바다에서 뭍을 보면 넉넉함과 기쁨으로 이르는 넓은 길이 제 앞에 열린다"
+            }
+          ]
+        },
+        {
+          "context": "땅이 갈라짐",
+          "interpretation_ko": "병이 들 크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "地裂主疾病大凶",
+              "translation_ko": "땅이 갈라지면 질병이 생겨 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "밭과 땅을 평평하게 고름",
+          "interpretation_ko": "크게 길하고 번창할 조짐",
+          "interpretation_en": "a very auspicious sign of prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "修平田地大吉昌",
+              "translation_ko": "밭과 땅을 평평하게 고르면 크게 길하고 번창한다"
+            }
+          ]
+        },
+        {
+          "context": "땅이 높고 낮아 고르지 않음",
+          "interpretation_ko": "병이 들 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "地高下不平主病",
+              "translation_ko": "땅이 높고 낮아 평평하지 않으면 병이 든다"
+            }
+          ]
+        },
+        {
+          "context": "땅속에서 검은 기운이 올라옴",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "地中黑氣上主凶",
+              "translation_ko": "땅속에서 검은 기운이 올라오면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "집 마루 위의 땅이 꺼짐",
+          "interpretation_ko": "어머니에게 근심이 생길 조짐",
+          "interpretation_en": "a sign of worry for one's mother",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "堂上地陷主母憂",
+              "translation_ko": "마루 위의 땅이 꺼지면 어머니에게 근심이 있다"
             }
           ]
         }
@@ -20748,122 +21042,6 @@
               "locator": "水火盜賊燈燭",
               "original": "燈燭光明主大吉",
               "translation_ko": "등불과 촛불이 밝으면 크게 길할 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "carriage",
-      "term_ko": "마차",
-      "term_en": "carriage",
-      "aliases": [
-        "사륜마차",
-        "마차를 탔다"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "마차를 봄",
-          "interpretation_ko": "흡족한 일이 있고 남을 찾아다니게 될 조짐",
-          "interpretation_en": "you will be gratified, and you will make visits",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carriage",
-              "original": "To see a carriage, implies that you will be gratified, and that you will make visits.",
-              "translation_ko": "마차를 보면 흡족한 일이 있고 남을 찾아다니게 된다"
-            }
-          ]
-        },
-        {
-          "context": "마차를 타고 감",
-          "interpretation_ko": "곧 지나갈 병을 앓은 뒤 건강과 좋은 자리를 누릴 조짐",
-          "interpretation_en": "a sickness that will soon pass, and then health and advantageous positions",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carriage",
-              "original": "To ride in one, you will have a sickness that will soon pass, and you will enjoy health and advantageous positions.",
-              "translation_ko": "마차를 타고 가면 곧 지나갈 병을 앓고, 그 뒤 건강과 이로운 자리를 누린다"
-            }
-          ]
-        },
-        {
-          "context": "마차를 찾아다님",
-          "interpretation_ko": "고되게 일해야 하나 끝내는 웬만한 살림을 갖출 조짐",
-          "interpretation_en": "you will have to labor hard, but will eventually be possessed with a fair competency",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carriage",
-              "original": "To dream that you are looking for a carriage, you will have to labor hard, but will eventually be possessed with a fair competency.",
-              "translation_ko": "마차를 찾아다니는 꿈은 고되게 일해야 하나 끝내는 웬만한 살림을 갖추게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "마차를 몲",
-          "interpretation_ko": "헤퍼 보인다는 억울한 말을 듣고, 떳떳지 못해 보이는 일을 하게 될 조짐",
-          "interpretation_en": "unjust criticism of your seeming extravagance; you will be compelled to do things which appear undignified",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "To dream of driving a carriage, signifies unjust criticism of your seeming extravagance. You will be compelled to do things which appear undignified.",
-              "translation_ko": "마차를 모는 꿈은, 헤퍼 보인다는 억울한 말을 듣고 떳떳지 못해 보이는 일을 하게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "남자가 남이 모는 마차에 실려 감",
-          "interpretation_ko": "여자와의 일에서 바라던 바를 빠르게 이룰 조짐",
-          "interpretation_en": "in affairs with women, you will drive your wishes to a speedy consummation",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "If you are a man, you will, in affairs with women, drive your wishes to a speedy consummation.",
-              "translation_ko": "남자라면, 여자와의 일에서 바라던 바를 빠르게 이룬다"
-            }
-          ]
-        },
-        {
-          "context": "여자가 남이 모는 마차에 실려 감",
-          "interpretation_ko": "남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여길 조짐",
-          "interpretation_en": "you will hold men's hearts at low value after succeeding in getting a hold on them",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "If a woman, you will hold men's hearts at low value after succeeding in getting a hold on them.",
-              "translation_ko": "여자라면, 남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여기게 된다"
-            }
-          ]
-        },
-        {
-          "context": "남이 모는 마차에 실려 감",
-          "interpretation_ko": "세상을 더 잘 아는 덕을 보고, 어려움 속에서도 늘 길을 찾을 조짐",
-          "interpretation_en": "you will profit by superior knowledge of the world, and will always find some path through difficulties",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "If you are driven in these conveyances by others, you will profit by superior knowledge of the world, and will always find some path through difficulties.",
-              "translation_ko": "남이 모는 수레에 실려 가면, 세상을 더 잘 아는 덕을 보고 어려움 속에서도 늘 길을 찾는다"
             }
           ]
         }
@@ -26059,109 +26237,6 @@
               "locator": "田園五榖耕種",
               "original": "得禾榖者主大吉",
               "translation_ko": "벼와 곡식을 얻으면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ground",
-      "term_ko": "땅",
-      "term_en": "ground",
-      "aliases": [
-        "대지",
-        "지면",
-        "토지"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "땅이 흔들려 움직임",
-          "interpretation_ko": "벼슬자리를 옮길 길한 조짐",
-          "interpretation_en": "an auspicious sign of a transfer in office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "地動主遷官位吉",
-              "translation_ko": "땅이 움직이면 벼슬자리를 옮기게 되어 길하다"
-            }
-          ]
-        },
-        {
-          "context": "땅이 갈라짐",
-          "interpretation_ko": "병이 들 크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "地裂主疾病大凶",
-              "translation_ko": "땅이 갈라지면 질병이 생겨 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "밭과 땅을 평평하게 고름",
-          "interpretation_ko": "크게 길하고 번창할 조짐",
-          "interpretation_en": "a very auspicious sign of prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "修平田地大吉昌",
-              "translation_ko": "밭과 땅을 평평하게 고르면 크게 길하고 번창한다"
-            }
-          ]
-        },
-        {
-          "context": "땅이 높고 낮아 고르지 않음",
-          "interpretation_ko": "병이 들 조짐",
-          "interpretation_en": "a sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "地高下不平主病",
-              "translation_ko": "땅이 높고 낮아 평평하지 않으면 병이 든다"
-            }
-          ]
-        },
-        {
-          "context": "땅속에서 검은 기운이 올라옴",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "地中黑氣上主凶",
-              "translation_ko": "땅속에서 검은 기운이 올라오면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "집 마루 위의 땅이 꺼짐",
-          "interpretation_ko": "어머니에게 근심이 생길 조짐",
-          "interpretation_en": "a sign of worry for one's mother",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "堂上地陷主母憂",
-              "translation_ko": "마루 위의 땅이 꺼지면 어머니에게 근심이 있다"
             }
           ]
         }
@@ -42087,6 +42162,82 @@
       ]
     },
     {
+      "id": "spear",
+      "term_ko": "창",
+      "term_en": "spear",
+      "aliases": [
+        "창검",
+        "장창",
+        "삼지창"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "창을 봄",
+          "interpretation_ko": "벼슬자리를 얻어 길하고 이로운 조짐",
+          "interpretation_en": "an auspicious sign of gaining an official post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "鎗槊主官位吉利",
+              "translation_ko": "창은 관직을 얻어 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "창에 찔려 다침",
+          "interpretation_ko": "판단을 그르쳐 성가신 일을 겪을 흉한 조짐",
+          "interpretation_en": "error of judgment will cause you annoyance",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lance",
+              "original": "To be wounded by a lance, error of judgment will cause you annoyance.",
+              "translation_ko": "창에 찔려 다치면 판단을 그르쳐 성가신 일을 겪는다"
+            }
+          ]
+        },
+        {
+          "context": "창을 부러뜨림",
+          "interpretation_ko": "될 성싶지 않던 일이 풀리고 바라던 것이 이루어질 길한 조짐",
+          "interpretation_en": "denotes seeming impossibilities will be overcome and your desires will be fulfilled",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lance",
+              "original": "To break a lance, denotes seeming impossibilities will be overcome and your desires will be fulfilled.",
+              "translation_ko": "창을 부러뜨리면 될 성싶지 않던 일이 풀리고 바라던 것이 이루어진다"
+            }
+          ]
+        },
+        {
+          "context": "창과 도끼에 빛이 남",
+          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining salary and position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "戈鉞有光祿位至",
+              "translation_ko": "창과 도끼에 빛이 있으면 녹봉과 지위가 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "storehouse",
       "term_ko": "창고",
       "term_en": "storehouse",
@@ -52994,6 +53145,66 @@
               "locator": "Labor",
               "original": "To labor yourself, denotes favorable outlook for any new enterprise, and bountiful crops if the dreamer is interested in farming.",
               "translation_ko": "제가 힘써 일하면 새로 벌이는 일의 앞날이 밝고 농사를 짓는다면 거둠이 넉넉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lamp-post",
+      "term_ko": "가로등",
+      "term_en": "lamp-post",
+      "aliases": [
+        "가로등이",
+        "가로등에"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "가로등을 봄",
+          "interpretation_ko": "낯선 이가 다급할 때 가장 든든한 벗이 되어 줄 길한 조짐",
+          "interpretation_en": "some stranger will prove your staunchiest friend in time of pressing need",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamp-post",
+              "original": "To see a lamp-post in your dreams, some stranger will prove your staunchiest friend in time of pressing need.",
+              "translation_ko": "꿈에 가로등을 보면 낯선 이가 다급할 때 가장 든든한 벗이 되어 준다"
+            }
+          ]
+        },
+        {
+          "context": "가로등에 부딪혀 넘어짐",
+          "interpretation_ko": "속임수를 이겨 내야 하거나 적에게 옭아매일 흉한 조짐",
+          "interpretation_en": "you will have deception to overcome, or enemies will ensnare you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamp-post",
+              "original": "To fall against a lamp-post, you will have deception to overcome, or enemies will ensnare you.",
+              "translation_ko": "가로등에 부딪혀 넘어지면 속임수를 이겨 내야 하거나 적에게 옭아매인다"
+            }
+          ]
+        },
+        {
+          "context": "가로등이 길을 가로막고 있음",
+          "interpretation_ko": "살면서 거스르는 일이 많을 흉한 조짐",
+          "interpretation_en": "you will have much adversity in your life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamp-post",
+              "original": "To see a lamp-post across your path, you will have much adversity in your life.",
+              "translation_ko": "가로등이 길을 가로막고 있으면 살면서 거스르는 일이 많다"
             }
           ]
         }
@@ -73291,53 +73502,6 @@
               "locator": "龍蛇禽獸等類",
               "original": "鴉雀相噪主酒食",
               "translation_ko": "까마귀와 참새가 서로 시끄럽게 울면 술과 음식이 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "spear",
-      "term_ko": "창",
-      "term_en": "spear",
-      "aliases": [
-        "창검",
-        "장창",
-        "삼지창"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "창을 봄",
-          "interpretation_ko": "벼슬자리를 얻어 길하고 이로운 조짐",
-          "interpretation_en": "an auspicious sign of gaining an official post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "鎗槊主官位吉利",
-              "translation_ko": "창은 관직을 얻어 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "창과 도끼에 빛이 남",
-          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining salary and position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "戈鉞有光祿位至",
-              "translation_ko": "창과 도끼에 빛이 있으면 녹봉과 지위가 온다"
             }
           ]
         }

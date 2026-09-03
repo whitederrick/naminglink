@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 84 — Lamp, 13건)
+// (지금 담긴 것: 배치 85 — Lamp-post~Landau, 12건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,20 +30,19 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "lamp", ctx: "기름이 가득 찬 등불을 봄", text: "기름이 가득 찬 등불을 보았다" },
-  { id: "lamp", ctx: "비어 있는 등불을 봄", text: "등불이 비어 있었다" },
-  { id: "lamp", ctx: "등불이 맑은 불꽃으로 탐", text: "등불이 맑은 불꽃으로 타고 있었다" },
-  { id: "lamp", ctx: "등불빛이 흐릿함", text: "등불이 흐릿하게 빛났다" },
-  { id: "lamp", ctx: "켜 놓은 등불을 떨어뜨림", text: "켜 놓은 등불을 떨어뜨렸다" },
-  { id: "lamp", ctx: "등불이 터짐", text: "등불이 터졌다" },
-  { id: "lamp", ctx: "깨진 등불을 봄", text: "깨진 등불을 보았다" },
-  { id: "lamp", ctx: "등불을 켬", text: "등불을 켰다" },
-  { id: "lamp", ctx: "등불을 들고 다님", text: "등불을 들고 다녔다" },
-  { id: "lamp", ctx: "들고 가던 등불이 꺼짐", text: "들고 가던 등불이 꺼졌다" },
-  { id: "lamp", ctx: "겁에 질려 창밖으로 어지러운 빛을 비춤", text: "겁에 질려 창밖으로 등불을 비추었다" },
-  { id: "lamp", ctx: "등불에 옷이 붙음", text: "등불에 옷이 붙어 탔다" },
+  { id: "lamp-post", ctx: "가로등에 부딪혀 넘어짐", text: "가로등에 부딪혀 넘어졌다" },
+  { id: "lamp-post", ctx: "가로등이 길을 가로막고 있음", text: "가로등이 길을 가로막고 있었다" },
+  { id: "spear", ctx: "창에 찔려 다침", text: "창에 찔려 다쳤다" },
+  { id: "spear", ctx: "창을 부러뜨림", text: "창을 부러뜨렸다" },
+  { id: "ground", ctx: "땅이 기름져 보임", text: "땅이 기름져 보였다" },
+  { id: "ground", ctx: "땅이 메마르고 돌투성이임", text: "땅이 메마르고 돌투성이였다" },
+  { id: "ground", ctx: "바다에서 뭍을 봄", text: "바다에서 뭍을 보았다" },
+  { id: "carriage", ctx: "벗이나 정인과 함께 마차를 타고 감", text: "정인과 함께 마차를 타고 갔다" },
+  { id: "carriage", ctx: "마차가 뒤집힘", text: "마차가 뒤집혔다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "lamp", ctx: "등불과 촛불이 밝게 빛남", text: "등불과 촛불이 밝게 빛나고 있었다" },
+  { id: "spear", ctx: "창을 봄", text: "창을 보았다" },
+  { id: "ground", ctx: "땅이 갈라짐", text: "땅이 갈라졌다" },
+  { id: "carriage", ctx: "마차를 타고 감", text: "마차를 타고 갔다" },
 ];
 
 let notFound = 0;

@@ -224,7 +224,9 @@
     "aliases": [
       "대지",
       "지면",
-      "토지"
+      "토지",
+      "뭍을",
+      "뭍이"
     ],
     "aliases_en": [
       "earth",
@@ -236,7 +238,10 @@
       "밭과 땅을 평평하게 고름": "평평 밭을 다지",
       "땅이 높고 낮아 고르지 않음": "높고낮 울퉁불퉁 고르지않 기울",
       "땅속에서 검은 기운이 올라옴": "검은 기운 연기 시커먼",
-      "집 마루 위의 땅이 꺼짐": "꺼져 꺼지 내려앉 마루"
+      "집 마루 위의 땅이 꺼짐": "꺼져 꺼지 내려앉 마루",
+      "땅이 기름져 보임": "기름진 기름져 비옥",
+      "땅이 메마르고 돌투성이임": "메마 돌투성이 자갈",
+      "바다에서 뭍을 봄": "바다에서 뱃전 배에서"
     },
     "contexts_en": {
       "땅이 흔들려 움직임": "shook shaking earthquake trembled",
@@ -244,7 +249,10 @@
       "밭과 땅을 평평하게 고름": "leveled flattened field smoothed",
       "땅이 높고 낮아 고르지 않음": "uneven bumpy sloping rough",
       "땅속에서 검은 기운이 올라옴": "black dark vapor smoke rising",
-      "집 마루 위의 땅이 꺼짐": "sank collapsed caved floor"
+      "집 마루 위의 땅이 꺼짐": "sank collapsed caved floor",
+      "땅이 기름져 보임": "fertile omens appears",
+      "땅이 메마르고 돌투성이임": "sterile rocky failure dispondency",
+      "바다에서 뭍을 봄": "ocean vast avenues disclose"
     }
   },
   {

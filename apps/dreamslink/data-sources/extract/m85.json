@@ -1,0 +1,152 @@
+[
+  {
+    "term_ko": "가로등",
+    "term_en": "lamp-post",
+    "context": "가로등을 봄",
+    "interpretation_ko": "낯선 이가 다급할 때 가장 든든한 벗이 되어 줄 길한 조짐",
+    "interpretation_en": "some stranger will prove your staunchiest friend in time of pressing need",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lamp-post",
+      "original": "To see a lamp-post in your dreams, some stranger will prove your staunchiest friend in time of pressing need.",
+      "translation_ko": "꿈에 가로등을 보면 낯선 이가 다급할 때 가장 든든한 벗이 되어 준다"
+    }
+  },
+  {
+    "term_ko": "가로등",
+    "term_en": "lamp-post",
+    "context": "가로등에 부딪혀 넘어짐",
+    "interpretation_ko": "속임수를 이겨 내야 하거나 적에게 옭아매일 흉한 조짐",
+    "interpretation_en": "you will have deception to overcome, or enemies will ensnare you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lamp-post",
+      "original": "To fall against a lamp-post, you will have deception to overcome, or enemies will ensnare you.",
+      "translation_ko": "가로등에 부딪혀 넘어지면 속임수를 이겨 내야 하거나 적에게 옭아매인다"
+    }
+  },
+  {
+    "term_ko": "가로등",
+    "term_en": "lamp-post",
+    "context": "가로등이 길을 가로막고 있음",
+    "interpretation_ko": "살면서 거스르는 일이 많을 흉한 조짐",
+    "interpretation_en": "you will have much adversity in your life",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lamp-post",
+      "original": "To see a lamp-post across your path, you will have much adversity in your life.",
+      "translation_ko": "가로등이 길을 가로막고 있으면 살면서 거스르는 일이 많다"
+    }
+  },
+  {
+    "term_ko": "창",
+    "term_en": "spear",
+    "context": "창에 찔려 다침",
+    "interpretation_ko": "판단을 그르쳐 성가신 일을 겪을 흉한 조짐",
+    "interpretation_en": "error of judgment will cause you annoyance",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lance",
+      "original": "To be wounded by a lance, error of judgment will cause you annoyance.",
+      "translation_ko": "창에 찔려 다치면 판단을 그르쳐 성가신 일을 겪는다"
+    }
+  },
+  {
+    "term_ko": "창",
+    "term_en": "spear",
+    "context": "창을 부러뜨림",
+    "interpretation_ko": "될 성싶지 않던 일이 풀리고 바라던 것이 이루어질 길한 조짐",
+    "interpretation_en": "denotes seeming impossibilities will be overcome and your desires will be fulfilled",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lance",
+      "original": "To break a lance, denotes seeming impossibilities will be overcome and your desires will be fulfilled.",
+      "translation_ko": "창을 부러뜨리면 될 성싶지 않던 일이 풀리고 바라던 것이 이루어진다"
+    }
+  },
+  {
+    "term_ko": "땅",
+    "term_en": "ground",
+    "context": "땅이 기름져 보임",
+    "interpretation_ko": "좋은 일을 알리는 길한 조짐",
+    "interpretation_en": "when it appears fertile, omens good",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Land",
+      "original": "To dream of land, when it appears fertile, omens good; but if sterile and rocky, failure and dispondency is prognosticated.",
+      "translation_ko": "땅의 꿈은 기름져 보이면 좋은 일을 알린다"
+    }
+  },
+  {
+    "term_ko": "땅",
+    "term_en": "ground",
+    "context": "땅이 메마르고 돌투성이임",
+    "interpretation_ko": "일이 어그러지고 낙담할 흉한 조짐",
+    "interpretation_en": "if sterile and rocky, failure and dispondency is prognosticated",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Land",
+      "original": "To dream of land, when it appears fertile, omens good; but if sterile and rocky, failure and dispondency is prognosticated.",
+      "translation_ko": "땅이 메마르고 돌투성이이면 일이 어그러지고 낙담한다"
+    }
+  },
+  {
+    "term_ko": "땅",
+    "term_en": "ground",
+    "context": "바다에서 뭍을 봄",
+    "interpretation_ko": "넉넉함과 기쁨으로 이르는 넓은 길이 제 앞에 열릴 길한 조짐",
+    "interpretation_en": "denotes that vast avenues of prosperity and happiness will disclose themselves to you",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Land",
+      "original": "To see land from the ocean, denotes that vast avenues of prosperity and happiness will disclose themselves to you.",
+      "translation_ko": "바다에서 뭍을 보면 넉넉함과 기쁨으로 이르는 넓은 길이 제 앞에 열린다"
+    }
+  },
+  {
+    "term_ko": "마차",
+    "term_en": "carriage",
+    "context": "벗이나 정인과 함께 마차를 타고 감",
+    "interpretation_ko": "가볍고 즐거운 일들이 잇달아 삶을 스쳐 갈 길한 조짐",
+    "interpretation_en": "denotes that incidents of a light, but pleasant character will pass in rapid succession through your life",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Landau",
+      "original": "To dream that you ride in a landau, with your friend or sweetheart, denotes that incidents of a light, but pleasant character will pass in rapid succession through your life.",
+      "translation_ko": "벗이나 정인과 함께 마차를 타고 가는 꿈을 꾸면, 가볍고 즐거운 일들이 잇달아 삶을 스쳐 간다"
+    }
+  },
+  {
+    "term_ko": "마차",
+    "term_en": "carriage",
+    "context": "마차가 뒤집힘",
+    "interpretation_ko": "즐거움이 갑자기 슬픔으로 바뀔 흉한 조짐",
+    "interpretation_en": "then pleasure will abruptly turn into woe",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Landau",
+      "original": "If the vehicle is overturned, then pleasure will abruptly turn into woe.",
+      "translation_ko": "마차가 뒤집히면 즐거움이 갑자기 슬픔으로 바뀐다"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "lamp-post",
+    "aliases": [
+      "가로등이",
+      "가로등에"
+    ],
+    "aliases_en": [
+      "a lamp-post",
+      "lamp posts"
+    ],
+    "contexts": {
+      "가로등을 봄": "보였다 켜져",
+      "가로등에 부딪혀 넘어짐": "부딪 넘어졌 기대어",
+      "가로등이 길을 가로막고 있음": "가로막 길을"
+    },
+    "contexts_en": {
+      "가로등을 봄": "stranger staunchiest pressing",
+      "가로등에 부딪혀 넘어짐": "fall against deception ensnare",
+      "가로등이 길을 가로막고 있음": "across path adversity"
+    }
+  }
+]

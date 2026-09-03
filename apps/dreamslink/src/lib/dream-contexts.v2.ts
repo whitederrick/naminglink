@@ -244,6 +244,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ground::땅이 높고 낮아 고르지 않음": "uneven bumpy sloping rough",
   "ground::땅속에서 검은 기운이 올라옴": "black dark vapor smoke rising",
   "ground::집 마루 위의 땅이 꺼짐": "sank collapsed caved floor",
+  "ground::땅이 기름져 보임": "fertile omens appears",
+  "ground::땅이 메마르고 돌투성이임": "sterile rocky failure dispondency",
+  "ground::바다에서 뭍을 봄": "ocean vast avenues disclose",
   "drum::북을 침": "beat beating struck hitting",
   "drum::종과 북이 크게 울림": "bell bells loudly echoing",
   "drum::북을 쳐 소리가 남": "sounded noise",
@@ -1463,6 +1466,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "phoenix::봉황이 손바닥에 내려앉음": "palm hand landed perched alighted",
   "spear::창을 봄": "saw standing spotted",
   "spear::창과 도끼에 빛이 남": "axe shining gleaming light",
+  "spear::창에 찔려 다침": "wounded error judgment annoyance",
+  "spear::창을 부러뜨림": "break impossibilities overcome fulfilled",
   "teeth::이가 저절로 빠짐": "fell falling loose",
   "teeth::빠진 이가 다시 남": "grew regrew new",
   "cricket::귀뚜라미 소리가 잦음": "frequent chirping often",
@@ -2530,6 +2535,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "carriage::남자가 남이 모는 마차에 실려 감": "gentleman speedy consummation",
   "carriage::여자가 남이 모는 마차에 실려 감": "lady hearts value",
   "carriage::남이 모는 마차에 실려 감": "driven superior knowledge difficulties",
+  "carriage::벗이나 정인과 함께 마차를 타고 감": "landau sweetheart incidents succession",
+  "carriage::마차가 뒤집힘": "overturned abruptly woe",
   "carrot::당근을 봄": "prosperity health seeing",
   "carrot::당근을 먹음": "eat eating ate marriage",
   "cask::가득 찬 통을 봄": "filled full prosperous",
@@ -3917,5 +3924,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lake::맑으나 메마른 땅에 둘러싸인 호수를 봄": "barrenness profitable marred dissipation",
   "lake::맑은 호수에 제 모습이 비침": "yourself joys ardent",
   "lake::잎이 우거진 나무가 호수에 비침": "foliaged satiety draught",
-  "lake::호수에 사는 흉한 것들이 솟아올라 위협함": "slimy uncanny inhabitants menace squandering"
+  "lake::호수에 사는 흉한 것들이 솟아올라 위협함": "slimy uncanny inhabitants menace squandering",
+  "lamp-post::가로등을 봄": "stranger staunchiest pressing",
+  "lamp-post::가로등에 부딪혀 넘어짐": "fall against deception ensnare",
+  "lamp-post::가로등이 길을 가로막고 있음": "across path adversity"
 };
