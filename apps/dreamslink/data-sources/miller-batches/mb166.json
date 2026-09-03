@@ -1,0 +1,37 @@
+{
+  "batch": 166,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pen",
+      "text": "To dream of a pen, foretells you are unfortunately being led into serious complications by your love of adventure. If the pen refuses to write, you will be charged with a serious breach of morality.",
+      "note": "새 상징 `pen`(펜)"
+    },
+    {
+      "headword": "Penalties",
+      "text": "To dream that you have penalties imposed upon you, foretells that you will have duties that will rile you and find you rebellious. To pay a penalty, denotes sickness and financial loss. To escape the payment, you will be victor in some contest.",
+      "note": "새 상징 `penalty`(벌금)"
+    },
+    {
+      "headword": "Pencil",
+      "text": "To dream of pencils, denotes favorable occupations. For a young woman to write with one, foretells she will be fortunate in marriage, if she does not rub out words; in that case, she will be disappointed in her lover.",
+      "note": "새 상징 `pencil`(연필)"
+    },
+    {
+      "headword": "Penitentiary",
+      "text": "To dream of a penitentiary, denotes you will have engagements which will, unfortunately, result in your loss. To be an inmate of one, foretells discontent in the home and failing business. To escape from one, you will overcome difficult obstacles.",
+      "note": "기존 상징 `prison`(감옥, 밀러 `Gaol` 포함)에 하나를 더한다. 「교도소」가 이미 그 상징의 별칭이다. 「탈출함」은 뺐다 — 이미 있는 `prison`의 「감옥에서 빠져나옴」(밀러 `Gaol`, 길함)과 같은 그림(탈옥=길함)이라 가를 수 없다. 「갇힌 사람이 됨」도 뺐다 — 이미 있는 `prison`의 「옥에 갇혀 앉아 있음」(주공해몽)과 같은 그림(갇혀 있음)인데 주공해몽은 길(사면), 밀러는 흉(집안 불만·사업 기울)으로 정반대다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "To escape from one, you will overcome difficult obstacles.",
+      "reason": "`Penitentiary` — 이미 있는 `prison`의 「감옥에서 빠져나옴」(밀러 `Gaol`)과 같은 그림(탈옥=길함)이라 가를 수 없다"
+    },
+    {
+      "sentence": "To be an inmate of one, foretells discontent in the home and failing business.",
+      "reason": "`Penitentiary` — 이미 있는 `prison`의 「옥에 갇혀 앉아 있음」(주공해몽, 길)과 같은 그림인데 정반대(흉)라 가를 수 없다"
+    }
+  ]
+}

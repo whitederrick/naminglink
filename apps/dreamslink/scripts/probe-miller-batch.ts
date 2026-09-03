@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 165 — Pebbles~Pelican, 10건)
+// (지금 담긴 것: 배치 166 — Pen~Penitentiary, 10건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -438,6 +438,18 @@ const CASES: Case[] = [
   { id: "pelican", ctx: "펠리컨을 잡음", text: "펠리컨을 잡았다" },
   { id: "pelican", ctx: "펠리컨을 죽임", text: "펠리컨을 죽였다" },
   { id: "pelican", ctx: "펠리컨이 나는 것을 봄", text: "펠리컨이 나는 것을 보았다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "prison", ctx: "옥에 갇혀 앉아 있음", text: "옥에 갇혀 앉아 있었다" },
+  { id: "prison", ctx: "감옥에서 빠져나옴", text: "감옥에서 빠져나왔다" },
+  { id: "pen", ctx: "펜 꿈을 꿈", text: "펜 꿈을 꾸었다" },
+  { id: "pen", ctx: "펜이 써지지 않음", text: "펜이 써지지 않았다" },
+  { id: "penalty", ctx: "벌금이나 처벌을 부과받음", text: "벌금이나 처벌을 부과받았다" },
+  { id: "penalty", ctx: "벌금을 냄", text: "벌금을 냈다" },
+  { id: "penalty", ctx: "벌금 내는 것을 피함", text: "벌금 내는 것을 피했다" },
+  { id: "pencil", ctx: "연필 꿈을 꿈", text: "연필 꿈을 꾸었다" },
+  { id: "pencil", ctx: "처녀가 연필로 글을 씀", text: "처녀가 연필로 글을 썼다" },
+  { id: "pencil", ctx: "처녀가 쓴 글을 지움", text: "처녀가 연필로 쓴 글을 지웠다" },
+  { id: "prison", ctx: "감옥 꿈을 꿈", text: "감옥 꿈을 꾸었다" },
 ];
 
 let notFound = 0;

@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "펜",
+    "term_en": "pen",
+    "context": "펜 꿈을 꿈",
+    "interpretation_ko": "모험을 좋아하는 마음에 이끌려 뜻하지 않게 심각한 곤경에 빠질 조짐",
+    "interpretation_en": "foretells you are unfortunately being led into serious complications by your love of adventure",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pen",
+      "original": "To dream of a pen, foretells you are unfortunately being led into serious complications by your love of adventure.",
+      "translation_ko": "펜 꿈은, 모험을 좋아하는 마음에 이끌려 뜻하지 않게 심각한 곤경에 빠질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "펜",
+    "term_en": "pen",
+    "context": "펜이 써지지 않음",
+    "interpretation_ko": "심각한 도덕적 잘못으로 고발당할 조짐",
+    "interpretation_en": "you will be charged with a serious breach of morality",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pen",
+      "original": "If the pen refuses to write, you will be charged with a serious breach of morality.",
+      "translation_ko": "펜이 써지지 않는 꿈은, 심각한 도덕적 잘못으로 고발당할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벌금",
+    "term_en": "penalty",
+    "context": "벌금이나 처벌을 부과받음",
+    "interpretation_ko": "짜증 나는 의무를 지고 반항하게 될 조짐",
+    "interpretation_en": "foretells that you will have duties that will rile you and find you rebellious",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Penalties",
+      "original": "To dream that you have penalties imposed upon you, foretells that you will have duties that will rile you and find you rebellious.",
+      "translation_ko": "벌금이나 처벌을 부과받는 꿈은, 짜증 나는 의무를 지고 반항하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벌금",
+    "term_en": "penalty",
+    "context": "벌금을 냄",
+    "interpretation_ko": "병과 재정적 손실을 뜻하는 조짐",
+    "interpretation_en": "denotes sickness and financial loss",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Penalties",
+      "original": "To pay a penalty, denotes sickness and financial loss.",
+      "translation_ko": "벌금을 내는 꿈은, 병과 재정적 손실을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벌금",
+    "term_en": "penalty",
+    "context": "벌금 내는 것을 피함",
+    "interpretation_ko": "어떤 다툼에서 승자가 될 조짐",
+    "interpretation_en": "you will be victor in some contest",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Penalties",
+      "original": "To escape the payment, you will be victor in some contest.",
+      "translation_ko": "벌금 내는 것을 피하는 꿈은, 어떤 다툼에서 승자가 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연필",
+    "term_en": "pencil",
+    "context": "연필 꿈을 꿈",
+    "interpretation_ko": "일이 순조로울 조짐",
+    "interpretation_en": "denotes favorable occupations",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pencil",
+      "original": "To dream of pencils, denotes favorable occupations.",
+      "translation_ko": "연필 꿈은, 일이 순조로울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연필",
+    "term_en": "pencil",
+    "context": "처녀가 연필로 글을 씀",
+    "interpretation_ko": "혼인이 순조로울 조짐",
+    "interpretation_en": "foretells she will be fortunate in marriage",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pencil",
+      "original": "For a young woman to write with one, foretells she will be fortunate in marriage, if she does not rub out words; in that case, she will be disappointed in her lover.",
+      "translation_ko": "처녀가 연필로 글을 쓰는 꿈은, 혼인이 순조로울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연필",
+    "term_en": "pencil",
+    "context": "처녀가 쓴 글을 지움",
+    "interpretation_ko": "애인에게 실망할 조짐",
+    "interpretation_en": "she will be disappointed in her lover",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pencil",
+      "original": "For a young woman to write with one, foretells she will be fortunate in marriage, if she does not rub out words; in that case, she will be disappointed in her lover.",
+      "translation_ko": "처녀가 쓴 글을 지우는 꿈은, 애인에게 실망할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "감옥 꿈을 꿈",
+    "interpretation_ko": "맺은 언약이 뜻하지 않게 손해로 돌아올 조짐",
+    "interpretation_en": "denotes you will have engagements which will, unfortunately, result in your loss",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Penitentiary",
+      "original": "To dream of a penitentiary, denotes you will have engagements which will, unfortunately, result in your loss.",
+      "translation_ko": "감옥 꿈은, 맺은 언약이 뜻하지 않게 손해로 돌아올 조짐이다"
+    }
+  }
+]

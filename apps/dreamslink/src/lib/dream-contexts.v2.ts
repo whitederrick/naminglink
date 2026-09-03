@@ -1107,6 +1107,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "prison::남이 감옥에 있는 것을 봄": "others urged grant privileges unworthy",
   "prison::정인이 감옥에 있는 것을 봄": "lover disappointed character deceiver",
   "prison::무리가 옥문을 부수려 하는 것을 봄": "mob attempting forerunner extort bounties",
+  "prison::감옥 꿈을 꿈": "penitentiary engagements loss",
   "kitchen-stove::부뚜막 아래로 물이 흐름": "water flowing underneath wet",
   "kitchen-stove::부뚜막 아래에 불을 땜": "lighting firewood kindling fire",
   "kitchen-stove::부뚜막과 솥이 깨짐": "cauldron pot cracked broken",
@@ -4934,5 +4935,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pelican::펠리컨 꿈을 꿈": "mingling disappointments successes",
   "pelican::펠리컨을 잡음": "catch overcome",
   "pelican::펠리컨을 죽임": "kill cruelly rights",
-  "pelican::펠리컨이 나는 것을 봄": "flying threatened changes"
+  "pelican::펠리컨이 나는 것을 봄": "flying threatened changes",
+  "pen::펜 꿈을 꿈": "adventure complications",
+  "pen::펜이 써지지 않음": "refuses write morality",
+  "penalty::벌금이나 처벌을 부과받음": "imposed duties rile",
+  "penalty::벌금을 냄": "pay sickness financial",
+  "penalty::벌금 내는 것을 피함": "escape victor contest",
+  "pencil::연필 꿈을 꿈": "favorable occupations",
+  "pencil::처녀가 연필로 글을 씀": "young woman fortunate marriage",
+  "pencil::처녀가 쓴 글을 지움": "rub disappointed lover"
 };

@@ -75,6 +75,7 @@
     "m163.json",
     "m164.json",
     "m165.json",
+    "m166.json",
     "m17.json",
     "m18.json",
     "m19.json",
@@ -8690,6 +8691,261 @@
       ]
     },
     {
+      "id": "prison",
+      "term_ko": "감옥",
+      "term_en": "prison",
+      "aliases": [
+        "감방",
+        "옥살이",
+        "교도소",
+        "형무소",
+        "빠져나왔다",
+        "탈옥",
+        "옥에 갇혀",
+        "옥에 갇혔다",
+        "옥에 갇힌",
+        "옥에 들어갔다",
+        "옥에 들어가",
+        "옥에 집어넣었다",
+        "옥중",
+        "옥문"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "감옥 꿈을 꿈",
+          "interpretation_ko": "맺은 언약이 뜻하지 않게 손해로 돌아올 조짐",
+          "interpretation_en": "denotes you will have engagements which will, unfortunately, result in your loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Penitentiary",
+              "original": "To dream of a penitentiary, denotes you will have engagements which will, unfortunately, result in your loss.",
+              "translation_ko": "감옥 꿈은, 맺은 언약이 뜻하지 않게 손해로 돌아올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 지하 감옥에 갇혀 있음",
+          "interpretation_ko": "제멋대로 굴다가 떳떳한 이들 사이에서 자리를 잃을 흉한 조짐",
+          "interpretation_en": "a dark foreboding; by her wilful indiscretion she will lose her position among honorable people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dungeon",
+              "original": "For a woman this is a dark foreboding; by her wilful indiscretion she will lose her position among honorable people.",
+              "translation_ko": "여성에게 이는 어두운 조짐이다. 제멋대로 굴다가 떳떳한 이들 사이에서 자리를 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "불이 밝혀진 지하 감옥을 봄",
+          "interpretation_ko": "스스로도 마음에 걸리는 일에 얽혀들 흉한 조짐",
+          "interpretation_en": "you are threatened with entanglements of which your better judgment warns you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dungeon",
+              "original": "To see a dungeon lighted up, portends that you are threatened with entanglements of which your better judgment warns you.",
+              "translation_ko": "불이 밝혀진 지하 감옥을 보는 꿈은, 스스로의 밝은 판단이 말리는 일에 얽혀들 위험을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "지하 감옥에 갇혀 있음",
+          "interpretation_ko": "살아가는 큰일마다 다투게 되나, 슬기롭게 처신하면 막힌 것과 적의 꾀에서 스스로 풀려날 조짐",
+          "interpretation_en": "struggles with the vital affairs of life, but by wise dealing you will disenthrall yourself of obstacles and the designs of enemies",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dungeon",
+              "original": "To dream of being in a dungeon, foretells for you struggles with the vital affairs of life but by wise dealing you will disenthrall yourself of obstacles and the designs of enemies.",
+              "translation_ko": "지하 감옥에 갇혀 있는 꿈은 살아가는 큰일마다 다툼이 있음을 알린다. 그러나 슬기롭게 처신하면 막힌 것과 적의 꾀에서 스스로 풀려난다"
+            }
+          ]
+        },
+        {
+          "context": "감옥에서 빠져나옴",
+          "interpretation_ko": "장사가 잘 풀리는 철을 맞을 길한 조짐",
+          "interpretation_en": "you will enjoy a season of favorable business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gaol",
+              "original": "but if you escape from the gaol, you will enjoy a season of favorable business.",
+              "translation_ko": "감옥에서 빠져나오면, 장사가 잘 풀리는 철을 누린다"
+            }
+          ]
+        },
+        {
+          "context": "남이 감옥에 있는 것을 봄",
+          "interpretation_ko": "미덥지 못하다고 여기는 이에게 특별한 대접을 베풀라는 재촉을 받을 흉한 조짐",
+          "interpretation_en": "you will be urged to grant privileges to persons whom you believe to be unworthy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jail",
+              "original": "To see others in jail, you will be urged to grant privileges to persons whom you believe to be unworthy",
+              "translation_ko": "남이 감옥에 있는 것을 보면, 미덥지 못하다고 여기는 이에게 특별한 대접을 베풀라는 재촉을 받는다"
+            }
+          ]
+        },
+        {
+          "context": "정인이 감옥에 있는 것을 봄",
+          "interpretation_ko": "그 사람됨에 실망하고 그가 속이는 자임이 드러날 흉한 조짐",
+          "interpretation_en": "she will be disappointed in his character, as he will prove a deceiver",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jail",
+              "original": "For a young woman to dream that her lover is in jail, she will be disappointed in his character, as he will prove a deceiver.",
+              "translation_ko": "젊은 여성이 정인이 감옥에 있는 꿈을 꾸면, 그 사람됨에 실망하고 그가 속이는 자임이 드러난다"
+            }
+          ]
+        },
+        {
+          "context": "무리가 옥문을 부수려 하는 것을 봄",
+          "interpretation_ko": "궂은 일이 닥칠 앞짐이며, 모진 수로 돈과 값진 것을 뜯어 갈 흉한 조짐",
+          "interpretation_en": "is a forerunner of evil, and desperate measures will be used to extort money and bounties from you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jailer",
+              "original": "To see a mob attempting to break open a jail, is a forerunner of evil, and desperate measures will be used to extort money and bounties from you.",
+              "translation_ko": "무리가 옥문을 부수려 하는 것을 보면 궂은 일이 닥칠 조짐이며, 모진 수로 돈과 값진 것을 뜯어 간다"
+            }
+          ]
+        },
+        {
+          "context": "감옥이 무너짐",
+          "interpretation_ko": "사면을 받을 길한 조짐",
+          "interpretation_en": "an auspicious sign of being pardoned",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "牢獄崩壞有赦吉",
+              "translation_ko": "감옥이 무너지면 사면이 있어 길하다"
+            }
+          ]
+        },
+        {
+          "context": "옥에 갇혀 앉아 있음",
+          "interpretation_ko": "사면을 받을 조짐",
+          "interpretation_en": "a sign of receiving a pardon",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "坐獄中必有恩赦",
+              "translation_ko": "옥에 갇혀 있으면 반드시 은사를 입는다"
+            }
+          ]
+        },
+        {
+          "context": "옥에 들어가 재앙을 당함",
+          "interpretation_ko": "영화롭고 귀해질 조짐",
+          "interpretation_en": "a sign of honor and high rank",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "入獄愛災主榮貴",
+              "translation_ko": "옥에 들어가 재앙을 당하면 영화롭고 귀해진다"
+            }
+          ]
+        },
+        {
+          "context": "옥중에서 죽는 사람을 봄",
+          "interpretation_ko": "관재와 송사가 흩어질 조짐",
+          "interpretation_en": "a sign that legal troubles will disperse",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "獄中死者官事散",
+              "translation_ko": "옥중에서 죽으면 관재가 흩어진다"
+            }
+          ]
+        },
+        {
+          "context": "남을 옥에 들여보냄",
+          "interpretation_ko": "재물을 얻을 길한 조짐",
+          "interpretation_en": "an auspicious sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "使人入獄得財吉",
+              "translation_ko": "남을 옥에 넣으면 재물을 얻어 길하다"
+            }
+          ]
+        },
+        {
+          "context": "감옥 안으로 들어감",
+          "interpretation_ko": "크게 귀해질 조짐",
+          "interpretation_en": "a sign of great honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "入牢獄主有大貴",
+              "translation_ko": "감옥에 들어가면 크게 귀해진다"
+            }
+          ]
+        },
+        {
+          "context": "도적이 스스로 옥에 들어감",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "盜賊自入獄大凶",
+              "translation_ko": "도적이 스스로 옥에 들어가면 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "감옥이 더럽고 냄새남",
+          "interpretation_ko": "온갖 일이 길할 조짐",
+          "interpretation_en": "a sign that all matters will go well",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "牢獄臭污百事吉",
+              "translation_ko": "감옥이 더럽고 냄새나면 온갖 일이 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "snake",
       "term_ko": "뱀",
       "term_en": "snake",
@@ -10106,247 +10362,6 @@
         }
       ],
       "label_ko": "산(山)"
-    },
-    {
-      "id": "prison",
-      "term_ko": "감옥",
-      "term_en": "prison",
-      "aliases": [
-        "감방",
-        "옥살이",
-        "교도소",
-        "형무소",
-        "빠져나왔다",
-        "탈옥",
-        "옥에 갇혀",
-        "옥에 갇혔다",
-        "옥에 갇힌",
-        "옥에 들어갔다",
-        "옥에 들어가",
-        "옥에 집어넣었다",
-        "옥중",
-        "옥문"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "감옥이 무너짐",
-          "interpretation_ko": "사면을 받을 길한 조짐",
-          "interpretation_en": "an auspicious sign of being pardoned",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "牢獄崩壞有赦吉",
-              "translation_ko": "감옥이 무너지면 사면이 있어 길하다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 지하 감옥에 갇혀 있음",
-          "interpretation_ko": "제멋대로 굴다가 떳떳한 이들 사이에서 자리를 잃을 흉한 조짐",
-          "interpretation_en": "a dark foreboding; by her wilful indiscretion she will lose her position among honorable people",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Dungeon",
-              "original": "For a woman this is a dark foreboding; by her wilful indiscretion she will lose her position among honorable people.",
-              "translation_ko": "여성에게 이는 어두운 조짐이다. 제멋대로 굴다가 떳떳한 이들 사이에서 자리를 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "불이 밝혀진 지하 감옥을 봄",
-          "interpretation_ko": "스스로도 마음에 걸리는 일에 얽혀들 흉한 조짐",
-          "interpretation_en": "you are threatened with entanglements of which your better judgment warns you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Dungeon",
-              "original": "To see a dungeon lighted up, portends that you are threatened with entanglements of which your better judgment warns you.",
-              "translation_ko": "불이 밝혀진 지하 감옥을 보는 꿈은, 스스로의 밝은 판단이 말리는 일에 얽혀들 위험을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "지하 감옥에 갇혀 있음",
-          "interpretation_ko": "살아가는 큰일마다 다투게 되나, 슬기롭게 처신하면 막힌 것과 적의 꾀에서 스스로 풀려날 조짐",
-          "interpretation_en": "struggles with the vital affairs of life, but by wise dealing you will disenthrall yourself of obstacles and the designs of enemies",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Dungeon",
-              "original": "To dream of being in a dungeon, foretells for you struggles with the vital affairs of life but by wise dealing you will disenthrall yourself of obstacles and the designs of enemies.",
-              "translation_ko": "지하 감옥에 갇혀 있는 꿈은 살아가는 큰일마다 다툼이 있음을 알린다. 그러나 슬기롭게 처신하면 막힌 것과 적의 꾀에서 스스로 풀려난다"
-            }
-          ]
-        },
-        {
-          "context": "감옥에서 빠져나옴",
-          "interpretation_ko": "장사가 잘 풀리는 철을 맞을 길한 조짐",
-          "interpretation_en": "you will enjoy a season of favorable business",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gaol",
-              "original": "but if you escape from the gaol, you will enjoy a season of favorable business.",
-              "translation_ko": "감옥에서 빠져나오면, 장사가 잘 풀리는 철을 누린다"
-            }
-          ]
-        },
-        {
-          "context": "남이 감옥에 있는 것을 봄",
-          "interpretation_ko": "미덥지 못하다고 여기는 이에게 특별한 대접을 베풀라는 재촉을 받을 흉한 조짐",
-          "interpretation_en": "you will be urged to grant privileges to persons whom you believe to be unworthy",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jail",
-              "original": "To see others in jail, you will be urged to grant privileges to persons whom you believe to be unworthy",
-              "translation_ko": "남이 감옥에 있는 것을 보면, 미덥지 못하다고 여기는 이에게 특별한 대접을 베풀라는 재촉을 받는다"
-            }
-          ]
-        },
-        {
-          "context": "정인이 감옥에 있는 것을 봄",
-          "interpretation_ko": "그 사람됨에 실망하고 그가 속이는 자임이 드러날 흉한 조짐",
-          "interpretation_en": "she will be disappointed in his character, as he will prove a deceiver",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jail",
-              "original": "For a young woman to dream that her lover is in jail, she will be disappointed in his character, as he will prove a deceiver.",
-              "translation_ko": "젊은 여성이 정인이 감옥에 있는 꿈을 꾸면, 그 사람됨에 실망하고 그가 속이는 자임이 드러난다"
-            }
-          ]
-        },
-        {
-          "context": "무리가 옥문을 부수려 하는 것을 봄",
-          "interpretation_ko": "궂은 일이 닥칠 앞짐이며, 모진 수로 돈과 값진 것을 뜯어 갈 흉한 조짐",
-          "interpretation_en": "is a forerunner of evil, and desperate measures will be used to extort money and bounties from you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jailer",
-              "original": "To see a mob attempting to break open a jail, is a forerunner of evil, and desperate measures will be used to extort money and bounties from you.",
-              "translation_ko": "무리가 옥문을 부수려 하는 것을 보면 궂은 일이 닥칠 조짐이며, 모진 수로 돈과 값진 것을 뜯어 간다"
-            }
-          ]
-        },
-        {
-          "context": "옥에 갇혀 앉아 있음",
-          "interpretation_ko": "사면을 받을 조짐",
-          "interpretation_en": "a sign of receiving a pardon",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "坐獄中必有恩赦",
-              "translation_ko": "옥에 갇혀 있으면 반드시 은사를 입는다"
-            }
-          ]
-        },
-        {
-          "context": "옥에 들어가 재앙을 당함",
-          "interpretation_ko": "영화롭고 귀해질 조짐",
-          "interpretation_en": "a sign of honor and high rank",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "入獄愛災主榮貴",
-              "translation_ko": "옥에 들어가 재앙을 당하면 영화롭고 귀해진다"
-            }
-          ]
-        },
-        {
-          "context": "옥중에서 죽는 사람을 봄",
-          "interpretation_ko": "관재와 송사가 흩어질 조짐",
-          "interpretation_en": "a sign that legal troubles will disperse",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "獄中死者官事散",
-              "translation_ko": "옥중에서 죽으면 관재가 흩어진다"
-            }
-          ]
-        },
-        {
-          "context": "남을 옥에 들여보냄",
-          "interpretation_ko": "재물을 얻을 길한 조짐",
-          "interpretation_en": "an auspicious sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "使人入獄得財吉",
-              "translation_ko": "남을 옥에 넣으면 재물을 얻어 길하다"
-            }
-          ]
-        },
-        {
-          "context": "감옥 안으로 들어감",
-          "interpretation_ko": "크게 귀해질 조짐",
-          "interpretation_en": "a sign of great honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "入牢獄主有大貴",
-              "translation_ko": "감옥에 들어가면 크게 귀해진다"
-            }
-          ]
-        },
-        {
-          "context": "도적이 스스로 옥에 들어감",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "盜賊自入獄大凶",
-              "translation_ko": "도적이 스스로 옥에 들어가면 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "감옥이 더럽고 냄새남",
-          "interpretation_ko": "온갖 일이 길할 조짐",
-          "interpretation_en": "a sign that all matters will go well",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "牢獄臭污百事吉",
-              "translation_ko": "감옥이 더럽고 냄새나면 온갖 일이 길하다"
-            }
-          ]
-        }
-      ]
     },
     {
       "id": "tree",
@@ -68300,6 +68315,128 @@
       ]
     },
     {
+      "id": "penalty",
+      "term_ko": "벌금",
+      "term_en": "penalty",
+      "aliases": [
+        "벌금이",
+        "벌금을",
+        "처벌을"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "벌금이나 처벌을 부과받음",
+          "interpretation_ko": "짜증 나는 의무를 지고 반항하게 될 조짐",
+          "interpretation_en": "foretells that you will have duties that will rile you and find you rebellious",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Penalties",
+              "original": "To dream that you have penalties imposed upon you, foretells that you will have duties that will rile you and find you rebellious.",
+              "translation_ko": "벌금이나 처벌을 부과받는 꿈은, 짜증 나는 의무를 지고 반항하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벌금을 냄",
+          "interpretation_ko": "병과 재정적 손실을 뜻하는 조짐",
+          "interpretation_en": "denotes sickness and financial loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Penalties",
+              "original": "To pay a penalty, denotes sickness and financial loss.",
+              "translation_ko": "벌금을 내는 꿈은, 병과 재정적 손실을 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벌금 내는 것을 피함",
+          "interpretation_ko": "어떤 다툼에서 승자가 될 조짐",
+          "interpretation_en": "you will be victor in some contest",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Penalties",
+              "original": "To escape the payment, you will be victor in some contest.",
+              "translation_ko": "벌금 내는 것을 피하는 꿈은, 어떤 다툼에서 승자가 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pencil",
+      "term_ko": "연필",
+      "term_en": "pencil",
+      "aliases": [
+        "연필이",
+        "연필을",
+        "연필로"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "연필 꿈을 꿈",
+          "interpretation_ko": "일이 순조로울 조짐",
+          "interpretation_en": "denotes favorable occupations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pencil",
+              "original": "To dream of pencils, denotes favorable occupations.",
+              "translation_ko": "연필 꿈은, 일이 순조로울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 연필로 글을 씀",
+          "interpretation_ko": "혼인이 순조로울 조짐",
+          "interpretation_en": "foretells she will be fortunate in marriage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pencil",
+              "original": "For a young woman to write with one, foretells she will be fortunate in marriage, if she does not rub out words; in that case, she will be disappointed in her lover.",
+              "translation_ko": "처녀가 연필로 글을 쓰는 꿈은, 혼인이 순조로울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 쓴 글을 지움",
+          "interpretation_ko": "애인에게 실망할 조짐",
+          "interpretation_en": "she will be disappointed in her lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pencil",
+              "original": "For a young woman to write with one, foretells she will be fortunate in marriage, if she does not rub out words; in that case, she will be disappointed in her lover.",
+              "translation_ko": "처녀가 쓴 글을 지우는 꿈은, 애인에게 실망할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pine-tree",
       "term_ko": "소나무",
       "term_en": "pine tree",
@@ -91407,6 +91544,52 @@
               "locator": "Pebbles",
               "original": "For a young woman to dream of a pebble-strewn walk, she will be vexed with many rivals and find that there are others with charms that attract besides her own.",
               "translation_ko": "처녀가 조약돌 깔린 길 꿈을 꾸면, 많은 경쟁자에게 시달리고 저 말고도 매력으로 이끄는 이가 있음을 알게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pen",
+      "term_ko": "펜",
+      "term_en": "pen",
+      "aliases": [
+        "펜이",
+        "펜을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "펜 꿈을 꿈",
+          "interpretation_ko": "모험을 좋아하는 마음에 이끌려 뜻하지 않게 심각한 곤경에 빠질 조짐",
+          "interpretation_en": "foretells you are unfortunately being led into serious complications by your love of adventure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pen",
+              "original": "To dream of a pen, foretells you are unfortunately being led into serious complications by your love of adventure.",
+              "translation_ko": "펜 꿈은, 모험을 좋아하는 마음에 이끌려 뜻하지 않게 심각한 곤경에 빠질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "펜이 써지지 않음",
+          "interpretation_ko": "심각한 도덕적 잘못으로 고발당할 조짐",
+          "interpretation_en": "you will be charged with a serious breach of morality",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pen",
+              "original": "If the pen refuses to write, you will be charged with a serious breach of morality.",
+              "translation_ko": "펜이 써지지 않는 꿈은, 심각한 도덕적 잘못으로 고발당할 조짐이다"
             }
           ]
         }
