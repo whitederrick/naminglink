@@ -6316,5 +6316,15 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "metamorphose": [
     "metamorphosed"
+  ],
+  "microscope": [
+    "microscopes"
+  ],
+  "midwife": [
+    "midwives"
+  ],
+  "mile-post": [
+    "milepost",
+    "mile posts"
   ]
 };

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "microscope",
+    "aliases": [
+      "현미경을",
+      "현미경이",
+      "돋보기 기계"
+    ],
+    "aliases_en": [
+      "microscopes"
+    ],
+    "contexts": {
+      "현미경을 봄": "들여다 놓여"
+    },
+    "contexts_en": {
+      "현미경을 봄": "failure small returns enterprises"
+    }
+  },
+  {
+    "id": "midwife",
+    "aliases": [
+      "산파가",
+      "산파를",
+      "조산사"
+    ],
+    "aliases_en": [
+      "midwives"
+    ],
+    "contexts": {
+      "산파를 봄": "나타났 왔다",
+      "처녀가 산파를 봄": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "산파를 봄": "unfortunate narrow escape death",
+      "처녀가 산파를 봄": "distress calumny attend"
+    }
+  },
+  {
+    "id": "mile-post",
+    "aliases": [
+      "이정표를",
+      "이정표가",
+      "거리 푯말"
+    ],
+    "aliases_en": [
+      "milepost",
+      "mile posts"
+    ],
+    "contexts": {
+      "이정표를 보거나 지나감": "지나 스쳐",
+      "쓰러진 이정표를 봄": "쓰러진 넘어진 자빠"
+    },
+    "contexts_en": {
+      "이정표를 보거나 지나감": "pass assailed doubtful fears",
+      "쓰러진 이정표를 봄": "accidents threatening disorder"
+    }
+  }
+]

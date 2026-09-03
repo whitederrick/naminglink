@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 123 — Mending~Metamorphose, 14건)
+// (지금 담긴 것: 배치 124 — Mice~Mile-post, 12건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +30,19 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "mending", ctx: "더러워진 옷을 기움", text: "더러워진 옷을 기웠다" },
-  { id: "mending", ctx: "깨끗한 옷을 기움", text: "깨끗한 옷을 기웠다" },
-  { id: "mending", ctx: "처녀가 옷을 기움", text: "처녀가 옷을 기웠다" },
-  { id: "mercury", ctx: "수은을 봄", text: "수은이 방울져 흘렀다" },
-  { id: "mercury", ctx: "여성이 수은 중독으로 앓음", text: "여자가 수은 중독으로 앓았다" },
-  { id: "jolly", ctx: "흥겨운 자리에 있음", text: "흥겨운 자리에 함께 있었다" },
-  { id: "meshes", ctx: "그물코에 얽힘", text: "그물코에 얽혔다" },
-  { id: "meshes", ctx: "처녀가 그물코에 얽힘", text: "처녀가 그물코에 얽혔다" },
-  { id: "meshes", ctx: "그물코에서 빠져나옴", text: "그물코에서 빠져나왔다" },
-  { id: "message", ctx: "기별을 받음", text: "기별을 받았다" },
-  { id: "message", ctx: "기별을 보냄", text: "기별을 보냈다" },
-  { id: "metamorphose", ctx: "무언가가 탈바꿈하는 것을 봄", text: "무언가가 탈바꿈하는 것을 보았다" },
+  { id: "mouse", ctx: "쥐를 봄", text: "쥐가 돌아다니고 있었다" },
+  { id: "mouse", ctx: "쥐를 죽임", text: "쥐를 죽였다" },
+  { id: "mouse", ctx: "쥐를 놓침", text: "쥐를 놓쳤다" },
+  { id: "mouse", ctx: "처녀가 쥐 꿈을 꿈", text: "처녀가 쥐 꿈을 꾸었다" },
+  { id: "mouse", ctx: "제 옷에 쥐가 있는 것을 봄", text: "내 옷에 쥐가 있었다" },
+  { id: "microscope", ctx: "현미경을 봄", text: "현미경을 들여다보았다" },
+  { id: "midwife", ctx: "산파를 봄", text: "산파가 나타났다" },
+  { id: "midwife", ctx: "처녀가 산파를 봄", text: "처녀가 산파를 보았다" },
+  { id: "mile-post", ctx: "이정표를 보거나 지나감", text: "이정표를 지나갔다" },
+  { id: "mile-post", ctx: "쓰러진 이정표를 봄", text: "쓰러진 이정표를 보았다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "jolly", ctx: "벗들과 흥겹게 어울림", text: "벗들과 흥겹게 어울렸다" },
-  { id: "net", ctx: "몸이 그물에 걸림", text: "그물이 펼쳐져 있었다" },
+  { id: "mouse", ctx: "쥐가 사람의 옷을 물어뜯음", text: "쥐가 옷을 물어뜯었다" },
+  { id: "mouse", ctx: "흰 쥐가 길을 인도함", text: "흰쥐가 앞장서 길을 인도했다" },
 ];
 
 let notFound = 0;

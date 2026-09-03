@@ -1039,6 +1039,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "mouse::흰 쥐가 길을 인도함": "white leading guided showed",
   "mouse::쥐가 사람의 옷을 물어뜯음": "clothes gnawing chewed bit",
   "mouse::쥐가 크게 내달림": "running dashing scurrying fast",
+  "mouse::쥐를 봄": "domestic insincerity discouraging tone",
+  "mouse::쥐를 죽임": "kill conquer",
+  "mouse::쥐를 놓침": "escape doubtful struggles",
+  "mouse::처녀가 쥐 꿈을 꿈": "secret deception practised",
+  "mouse::제 옷에 쥐가 있는 것을 봄": "clothing scandal figure",
   "cauldron::큰 솥을 봄": "huge large giant enormous",
   "cauldron::솥이 넘치도록 가득 참": "overflowing full brimming filled",
   "cauldron::무쇠솥이 깨짐": "cracked broke shattered",
@@ -4373,5 +4378,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "meshes::그물코에서 빠져나옴": "disengaging narrowly escape slander",
   "message::기별을 받음": "receiving changes affairs",
   "message::기별을 보냄": "sending placed unpleasant situations",
-  "metamorphose::무언가가 탈바꿈하는 것을 봄": "sudden take place frightful"
+  "metamorphose::무언가가 탈바꿈하는 것을 봄": "sudden take place frightful",
+  "microscope::현미경을 봄": "failure small returns enterprises",
+  "midwife::산파를 봄": "unfortunate narrow escape death",
+  "midwife::처녀가 산파를 봄": "distress calumny attend",
+  "mile-post::이정표를 보거나 지나감": "pass assailed doubtful fears",
+  "mile-post::쓰러진 이정표를 봄": "accidents threatening disorder"
 };

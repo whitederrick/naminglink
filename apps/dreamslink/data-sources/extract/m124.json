@@ -1,0 +1,152 @@
+[
+  {
+    "term_ko": "쥐",
+    "term_en": "mouse",
+    "context": "쥐를 봄",
+    "interpretation_ko": "집안이 어수선하고 벗의 마음이 참되지 못할 흉한 조짐 — 하는 일도 맥이 빠진다",
+    "interpretation_en": "foretells domestic troubles and the insincerity of friends; business affairs will assume a discouraging tone",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mice",
+      "original": "To dream of mice, foretells domestic troubles and the insincerity of friends.",
+      "translation_ko": "쥐의 꿈은, 집안이 어수선하고 벗의 마음이 참되지 못함을 알린다"
+    }
+  },
+  {
+    "term_ko": "쥐",
+    "term_en": "mouse",
+    "context": "쥐를 죽임",
+    "interpretation_ko": "적을 이길 길한 조짐",
+    "interpretation_en": "denotes that you will conquer your enemies",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mice",
+      "original": "To kill mice, denotes that you will conquer your enemies.",
+      "translation_ko": "쥐를 죽이면 적을 이긴다"
+    }
+  },
+  {
+    "term_ko": "쥐",
+    "term_en": "mouse",
+    "context": "쥐를 놓침",
+    "interpretation_ko": "이길지 질지 모를 다툼이 있을 조짐",
+    "interpretation_en": "is significant of doubtful struggles",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mice",
+      "original": "To let them escape you, is significant of doubtful struggles.",
+      "translation_ko": "쥐를 놓치면 이길지 질지 모를 다툼이 있다"
+    }
+  },
+  {
+    "term_ko": "쥐",
+    "term_en": "mouse",
+    "context": "처녀가 쥐 꿈을 꿈",
+    "interpretation_ko": "숨은 적이 있고 저를 속이는 일이 벌어지고 있는 흉한 조짐",
+    "interpretation_en": "warns her of secret enemies, and that deception is being practised upon her",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mice",
+      "original": "For a young woman to dream of mice, warns her of secret enemies, and that deception is being practised upon her.",
+      "translation_ko": "젊은 여성이 쥐 꿈을 꾸면, 숨은 적이 있고 저를 속이는 일이 벌어지고 있다"
+    }
+  },
+  {
+    "term_ko": "쥐",
+    "term_en": "mouse",
+    "context": "제 옷에 쥐가 있는 것을 봄",
+    "interpretation_ko": "제가 남우세스러운 소문의 한가운데 서게 될 흉한 조짐",
+    "interpretation_en": "it is a sign of scandal in which she will figure",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mice",
+      "original": "If she should see a mouse in her clothing, it is a sign of scandal in which she will figure.",
+      "translation_ko": "제 옷 속에 쥐가 있는 것을 보면, 남우세스러운 소문의 한가운데 서게 된다"
+    }
+  },
+  {
+    "term_ko": "현미경",
+    "term_en": "microscope",
+    "context": "현미경을 봄",
+    "interpretation_ko": "벌인 일이 실패하거나 얻는 것이 적을 흉한 조짐",
+    "interpretation_en": "denotes you will experience failure or small returns in your enterprises",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Microscope",
+      "original": "To dream of a microscope, denotes you will experience failure or small returns in your enterprises.",
+      "translation_ko": "현미경의 꿈은, 벌인 일이 실패하거나 얻는 것이 적음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "산파",
+    "term_en": "midwife",
+    "context": "산파를 봄",
+    "interpretation_ko": "궂은 병을 앓고 죽음을 아슬아슬하게 벗어날 흉한 조짐",
+    "interpretation_en": "signifies unfortunate sickness with a narrow escape from death",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Midwife",
+      "original": "To see a midwife in your dreams, signifies unfortunate sickness with a narrow escape from death.",
+      "translation_ko": "꿈에 산파를 보면, 궂은 병을 앓고 죽음을 아슬아슬하게 벗어난다"
+    }
+  },
+  {
+    "term_ko": "산파",
+    "term_en": "midwife",
+    "context": "처녀가 산파를 봄",
+    "interpretation_ko": "괴로운 일과 헐뜯는 말이 따라붙을 흉한 조짐",
+    "interpretation_en": "foretells that distress and calumny will attend her",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Midwife",
+      "original": "For a young woman to dream of such a person, foretells that distress and calumny will attend her.",
+      "translation_ko": "젊은 여성이 그런 사람을 꿈꾸면, 괴로운 일과 헐뜯는 말이 따라붙는다"
+    }
+  },
+  {
+    "term_ko": "이정표",
+    "term_en": "mile-post",
+    "context": "이정표를 보거나 지나감",
+    "interpretation_ko": "일이나 사랑에서 확신 없는 두려움에 시달릴 흉한 조짐",
+    "interpretation_en": "foretells that you will be assailed by doubtful fears in business or love",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mile-post",
+      "original": "To dream you see or pass a mile-post, foretells that you will be assailed by doubtful fears in business or love.",
+      "translation_ko": "이정표를 보거나 지나가는 꿈은, 일이나 사랑에서 확신 없는 두려움에 시달림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "이정표",
+    "term_en": "mile-post",
+    "context": "쓰러진 이정표를 봄",
+    "interpretation_ko": "사고가 나서 하는 일이 어지러워질 흉한 조짐",
+    "interpretation_en": "portends accidents are threatening to give disorder to your affairs",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mile-post",
+      "original": "To see one down, portends accidents are threatening to give disorder to your affairs.",
+      "translation_ko": "이정표가 쓰러진 것을 보면 사고가 나서 하는 일이 어지러워진다"
+    }
+  }
+]

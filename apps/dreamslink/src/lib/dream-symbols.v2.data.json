@@ -29,6 +29,7 @@
     "m121.json",
     "m122.json",
     "m123.json",
+    "m124.json",
     "m13.json",
     "m14.json",
     "m15.json",
@@ -16604,6 +16605,171 @@
         }
       ],
       "label_ko": "산(山)"
+    },
+    {
+      "id": "mouse",
+      "term_ko": "쥐",
+      "term_en": "mouse",
+      "aliases": [
+        "생쥐",
+        "들쥐",
+        "시궁쥐",
+        "쥐가",
+        "쥐를",
+        "쥐 떼",
+        "흰쥐",
+        "들쥐가"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "쥐를 봄",
+          "interpretation_ko": "집안이 어수선하고 벗의 마음이 참되지 못할 흉한 조짐 — 하는 일도 맥이 빠진다",
+          "interpretation_en": "foretells domestic troubles and the insincerity of friends; business affairs will assume a discouraging tone",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mice",
+              "original": "To dream of mice, foretells domestic troubles and the insincerity of friends.",
+              "translation_ko": "쥐의 꿈은, 집안이 어수선하고 벗의 마음이 참되지 못함을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "쥐를 죽임",
+          "interpretation_ko": "적을 이길 길한 조짐",
+          "interpretation_en": "denotes that you will conquer your enemies",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mice",
+              "original": "To kill mice, denotes that you will conquer your enemies.",
+              "translation_ko": "쥐를 죽이면 적을 이긴다"
+            }
+          ]
+        },
+        {
+          "context": "쥐를 놓침",
+          "interpretation_ko": "이길지 질지 모를 다툼이 있을 조짐",
+          "interpretation_en": "is significant of doubtful struggles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mice",
+              "original": "To let them escape you, is significant of doubtful struggles.",
+              "translation_ko": "쥐를 놓치면 이길지 질지 모를 다툼이 있다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 쥐 꿈을 꿈",
+          "interpretation_ko": "숨은 적이 있고 저를 속이는 일이 벌어지고 있는 흉한 조짐",
+          "interpretation_en": "warns her of secret enemies, and that deception is being practised upon her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mice",
+              "original": "For a young woman to dream of mice, warns her of secret enemies, and that deception is being practised upon her.",
+              "translation_ko": "젊은 여성이 쥐 꿈을 꾸면, 숨은 적이 있고 저를 속이는 일이 벌어지고 있다"
+            }
+          ]
+        },
+        {
+          "context": "제 옷에 쥐가 있는 것을 봄",
+          "interpretation_ko": "제가 남우세스러운 소문의 한가운데 서게 될 흉한 조짐",
+          "interpretation_en": "it is a sign of scandal in which she will figure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mice",
+              "original": "If she should see a mouse in her clothing, it is a sign of scandal in which she will figure.",
+              "translation_ko": "제 옷 속에 쥐가 있는 것을 보면, 남우세스러운 소문의 한가운데 서게 된다"
+            }
+          ]
+        },
+        {
+          "context": "쥐가 참새와 싸움",
+          "interpretation_ko": "관재와 송사가 있을 조짐",
+          "interpretation_en": "a sign of legal trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "雀鼠爭鬥有官事",
+              "translation_ko": "참새와 쥐가 다투면 관재가 있다"
+            }
+          ]
+        },
+        {
+          "context": "쥐가 고양이에게 잡힘",
+          "interpretation_ko": "큰 재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining great wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "貓捕鼠者大得財",
+              "translation_ko": "고양이가 쥐를 잡으면 크게 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "흰 쥐가 길을 인도함",
+          "interpretation_ko": "남이 이끌어 줄 조짐",
+          "interpretation_en": "a sign that someone will lend you a hand",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "白鼠引路人提攜",
+              "translation_ko": "흰 쥐가 길을 인도하면 사람이 이끌어 준다"
+            }
+          ]
+        },
+        {
+          "context": "쥐가 사람의 옷을 물어뜯음",
+          "interpretation_ko": "구하는 바를 얻을 조짐",
+          "interpretation_en": "a sign that what one seeks will be obtained",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "鼠咬人衣所求得",
+              "translation_ko": "쥐가 사람의 옷을 물면 구하는 바를 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "쥐가 크게 내달림",
+          "interpretation_ko": "기쁜 일이 있을 조짐",
+          "interpretation_en": "a sign of a joyful occasion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "鼠大走主有喜事",
+              "translation_ko": "쥐가 크게 달리면 기쁜 일이 있다"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "railway-car",
@@ -37101,95 +37267,6 @@
               "locator": "Mask",
               "original": "If she unmasks, or sees others doing so, she will fail to gain the admiration sought for.",
               "translation_ko": "가면을 벗거나 남이 벗는 것을 보면, 바라던 눈길과 사랑을 얻지 못한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mouse",
-      "term_ko": "쥐",
-      "term_en": "mouse",
-      "aliases": [
-        "생쥐",
-        "들쥐",
-        "시궁쥐"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "쥐가 참새와 싸움",
-          "interpretation_ko": "관재와 송사가 있을 조짐",
-          "interpretation_en": "a sign of legal trouble",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "雀鼠爭鬥有官事",
-              "translation_ko": "참새와 쥐가 다투면 관재가 있다"
-            }
-          ]
-        },
-        {
-          "context": "쥐가 고양이에게 잡힘",
-          "interpretation_ko": "큰 재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining great wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "貓捕鼠者大得財",
-              "translation_ko": "고양이가 쥐를 잡으면 크게 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "흰 쥐가 길을 인도함",
-          "interpretation_ko": "남이 이끌어 줄 조짐",
-          "interpretation_en": "a sign that someone will lend you a hand",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "白鼠引路人提攜",
-              "translation_ko": "흰 쥐가 길을 인도하면 사람이 이끌어 준다"
-            }
-          ]
-        },
-        {
-          "context": "쥐가 사람의 옷을 물어뜯음",
-          "interpretation_ko": "구하는 바를 얻을 조짐",
-          "interpretation_en": "a sign that what one seeks will be obtained",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "鼠咬人衣所求得",
-              "translation_ko": "쥐가 사람의 옷을 물면 구하는 바를 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "쥐가 크게 내달림",
-          "interpretation_ko": "기쁜 일이 있을 조짐",
-          "interpretation_en": "a sign of a joyful occasion",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "鼠大走主有喜事",
-              "translation_ko": "쥐가 크게 달리면 기쁜 일이 있다"
             }
           ]
         }
@@ -80415,6 +80492,100 @@
       ]
     },
     {
+      "id": "midwife",
+      "term_ko": "산파",
+      "term_en": "midwife",
+      "aliases": [
+        "산파가",
+        "산파를",
+        "조산사"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "산파를 봄",
+          "interpretation_ko": "궂은 병을 앓고 죽음을 아슬아슬하게 벗어날 흉한 조짐",
+          "interpretation_en": "signifies unfortunate sickness with a narrow escape from death",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Midwife",
+              "original": "To see a midwife in your dreams, signifies unfortunate sickness with a narrow escape from death.",
+              "translation_ko": "꿈에 산파를 보면, 궂은 병을 앓고 죽음을 아슬아슬하게 벗어난다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 산파를 봄",
+          "interpretation_ko": "괴로운 일과 헐뜯는 말이 따라붙을 흉한 조짐",
+          "interpretation_en": "foretells that distress and calumny will attend her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Midwife",
+              "original": "For a young woman to dream of such a person, foretells that distress and calumny will attend her.",
+              "translation_ko": "젊은 여성이 그런 사람을 꿈꾸면, 괴로운 일과 헐뜯는 말이 따라붙는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mile-post",
+      "term_ko": "이정표",
+      "term_en": "mile-post",
+      "aliases": [
+        "이정표를",
+        "이정표가",
+        "거리 푯말"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "이정표를 보거나 지나감",
+          "interpretation_ko": "일이나 사랑에서 확신 없는 두려움에 시달릴 흉한 조짐",
+          "interpretation_en": "foretells that you will be assailed by doubtful fears in business or love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mile-post",
+              "original": "To dream you see or pass a mile-post, foretells that you will be assailed by doubtful fears in business or love.",
+              "translation_ko": "이정표를 보거나 지나가는 꿈은, 일이나 사랑에서 확신 없는 두려움에 시달림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "쓰러진 이정표를 봄",
+          "interpretation_ko": "사고가 나서 하는 일이 어지러워질 흉한 조짐",
+          "interpretation_en": "portends accidents are threatening to give disorder to your affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mile-post",
+              "original": "To see one down, portends accidents are threatening to give disorder to your affairs.",
+              "translation_ko": "이정표가 쓰러진 것을 보면 사고가 나서 하는 일이 어지러워진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "millet",
       "term_ko": "좁쌀",
       "term_en": "millet",
@@ -91526,6 +91697,39 @@
               "locator": "Metamorphose",
               "original": "To dream of seeing anything metamorphose, denotes that sudden changes will take place in your life, for good or bad, as the metamorphose was pleasant or frightful.",
               "translation_ko": "무언가가 탈바꿈하는 것을 보는 꿈은, 삶에 갑작스러운 바뀜이 옴을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microscope",
+      "term_ko": "현미경",
+      "term_en": "microscope",
+      "aliases": [
+        "현미경을",
+        "현미경이",
+        "돋보기 기계"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "현미경을 봄",
+          "interpretation_ko": "벌인 일이 실패하거나 얻는 것이 적을 흉한 조짐",
+          "interpretation_en": "denotes you will experience failure or small returns in your enterprises",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Microscope",
+              "original": "To dream of a microscope, denotes you will experience failure or small returns in your enterprises.",
+              "translation_ko": "현미경의 꿈은, 벌인 일이 실패하거나 얻는 것이 적음을 뜻한다"
             }
           ]
         }

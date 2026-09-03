@@ -283,7 +283,12 @@
     "aliases": [
       "생쥐",
       "들쥐",
-      "시궁쥐"
+      "시궁쥐",
+      "쥐가",
+      "쥐를",
+      "쥐 떼",
+      "흰쥐",
+      "들쥐가"
     ],
     "aliases_en": [
       "rat",
@@ -296,14 +301,24 @@
       "쥐가 고양이에게 잡힘": "고양이 잡혀 물려",
       "흰 쥐가 길을 인도함": "흰쥐 하얀 인도 안내 앞장",
       "쥐가 사람의 옷을 물어뜯음": "옷을 물어뜯 갉아 뜯어",
-      "쥐가 크게 내달림": "내달 달려 뛰어다 빠르게"
+      "쥐가 크게 내달림": "내달 달려 뛰어다 빠르게",
+      "쥐를 봄": "돌아다 기어",
+      "쥐를 죽임": "죽였 때려잡",
+      "쥐를 놓침": "놓쳤 달아나",
+      "처녀가 쥐 꿈을 꿈": "처녀 아가씨",
+      "제 옷에 쥐가 있는 것을 봄": "옷에 옷속 품속"
     },
     "contexts_en": {
       "쥐가 참새와 싸움": "sparrow bird fighting fought",
       "쥐가 고양이에게 잡힘": "cat caught seized",
       "흰 쥐가 길을 인도함": "white leading guided showed",
       "쥐가 사람의 옷을 물어뜯음": "clothes gnawing chewed bit",
-      "쥐가 크게 내달림": "running dashing scurrying fast"
+      "쥐가 크게 내달림": "running dashing scurrying fast",
+      "쥐를 봄": "domestic insincerity discouraging tone",
+      "쥐를 죽임": "kill conquer",
+      "쥐를 놓침": "escape doubtful struggles",
+      "처녀가 쥐 꿈을 꿈": "secret deception practised",
+      "제 옷에 쥐가 있는 것을 봄": "clothing scandal figure"
     }
   },
   {
