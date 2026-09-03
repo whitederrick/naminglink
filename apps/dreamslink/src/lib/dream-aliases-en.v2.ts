@@ -6724,5 +6724,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "pawn-shop": [
     "pawnshop"
+  ],
+  "pearl": [
+    "pearls"
   ]
 };

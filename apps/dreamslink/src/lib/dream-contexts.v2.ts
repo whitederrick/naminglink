@@ -1989,6 +1989,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "wheat-flour::처녀가 제 몸에 밀가루가 묻은 것을 봄": "herself ruled husband cares",
   "wheat-flour::밀가루를 사고팖": "dealing hazardous speculations",
   "pear::배를 먹음": "ate peeled sweet juicy fruit",
+  "pear::우아한 나무에 달린 황금빛 열매를 감상함": "admire golden graceful promising",
+  "pear::배를 거둠": "gathering pleasant surprises",
+  "pear::배를 저장함": "preserve philosophically",
+  "pear::배를 구움": "baking insipid friendships",
   "apparel::옷차림 꿈을 꿈": "clean whole soiled shabby",
   "apparel::좋지만 유행이 지난 옷을 봄": "fashion outdated unfashionable",
   "apparel::유행이 지난 옷을 마다함": "refused refusing rejected declined",
@@ -4909,5 +4913,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pawn-shop::물건을 전당 잡힘": "pawn wife sweetheart",
   "pawn-shop::여성이 전당포에 감": "woman indiscretions regret",
   "pawn-shop::전당 잡힌 물건을 되찾음": "redeem regain positions",
-  "pawn-shop::전당포를 봄": "negligent trust honorable"
+  "pawn-shop::전당포를 봄": "negligent trust honorable",
+  "pearl::진주 꿈을 꿈": "forerunner business trade",
+  "pearl::애인이 진주를 선물함": "gifts festivity affianced",
+  "pearl::진주를 잃거나 깨뜨림": "loses breaks bereavement",
+  "pearl::진주를 홀린 듯 바라봄": "admiring covet pureness"
 };

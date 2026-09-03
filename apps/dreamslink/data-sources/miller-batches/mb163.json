@@ -1,0 +1,23 @@
+{
+  "batch": 163,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pearls",
+      "text": "To dream of pearls, is a forerunner of good business and trade and affairs of social nature. If a young woman dreams that her lover sends her gifts of pearls, she will indeed be most fortunate, as there will be occasions of festivity and pleasure for her, besides a loving and faithful affianced devoid of the jealous inclinations so ruinous to the peace of lovers. If she loses or breaks her pearls, she will suffer indescribable sadness and sorrow through bereavement or misunderstandings. To find herself admiring them, she will covet and strive for love or possessions with a pureness of purpose.",
+      "note": "새 상징 `pearl`(진주)"
+    },
+    {
+      "headword": "Pears",
+      "text": "To dream of eating pears, denotes poor success and debilitating health. To admire the golden fruit upon graceful trees, denotes that fortune will wear a more promising aspect than formerly. To dream of gathering them, denotes pleasant surprises will follow quickly upon disappointment. To preserve them, denotes that you will take reverses philosophically. Baking them, denotes insipid love and friendships.",
+      "note": "기존 상징 `pear`(배, 주공해몽)에 넷을 더한다. 「배를 먹으면」은 뺐다 — 이미 있는 `pear`의 「배를 먹음」(주공해몽 「식이자주실재백」)과 같은 그림(배를 먹음=흉)이라 가를 수 없다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "To dream of eating pears, denotes poor success and debilitating health.",
+      "reason": "`Pears` — 이미 있는 `pear`의 「배를 먹음」(주공해몽, 재물을 잃음)과 같은 그림(배를 먹음=흉)이라 가를 수 없다"
+    }
+  ]
+}

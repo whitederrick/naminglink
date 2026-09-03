@@ -72,6 +72,7 @@
     "m160.json",
     "m161.json",
     "m162.json",
+    "m163.json",
     "m17.json",
     "m18.json",
     "m19.json",
@@ -41778,6 +41779,98 @@
       ]
     },
     {
+      "id": "pear",
+      "term_ko": "배",
+      "term_en": "pear",
+      "aliases": [
+        "배를 먹",
+        "서양배",
+        "돌배",
+        "배즙"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "배를 먹음",
+          "interpretation_ko": "재물을 잃을 조짐",
+          "interpretation_en": "a sign of losing wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "食梨者主失財帛",
+              "translation_ko": "배를 먹으면 재물을 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "우아한 나무에 달린 황금빛 열매를 감상함",
+          "interpretation_ko": "운수가 전보다 더 밝은 낯빛을 띨 조짐",
+          "interpretation_en": "denotes that fortune will wear a more promising aspect than formerly",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pears",
+              "original": "To admire the golden fruit upon graceful trees, denotes that fortune will wear a more promising aspect than formerly.",
+              "translation_ko": "우아한 나무에 달린 황금빛 열매를 감상하는 꿈은, 운수가 전보다 더 밝은 낯빛을 띨 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "배를 거둠",
+          "interpretation_ko": "실망 뒤에 반가운 뜻밖의 일이 곧 따를 조짐",
+          "interpretation_en": "denotes pleasant surprises will follow quickly upon disappointment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pears",
+              "original": "To dream of gathering them, denotes pleasant surprises will follow quickly upon disappointment.",
+              "translation_ko": "배를 거두는 꿈은, 실망 뒤에 반가운 뜻밖의 일이 곧 따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "배를 저장함",
+          "interpretation_ko": "역경을 담담히 받아들일 조짐",
+          "interpretation_en": "denotes that you will take reverses philosophically",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pears",
+              "original": "To preserve them, denotes that you will take reverses philosophically.",
+              "translation_ko": "배를 저장하는 꿈은, 역경을 담담히 받아들일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "배를 구움",
+          "interpretation_ko": "사랑과 우정이 밍밍해질 조짐",
+          "interpretation_en": "denotes insipid love and friendships",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pears",
+              "original": "Baking them, denotes insipid love and friendships.",
+              "translation_ko": "배를 굽는 꿈은, 사랑과 우정이 밍밍해질 조짐이다"
+            }
+          ]
+        }
+      ],
+      "label_ko": "배(과일)"
+    },
+    {
       "id": "plate",
       "term_ko": "접시",
       "term_en": "plate",
@@ -53398,6 +53491,80 @@
               "locator": "Patent",
               "original": "To see one, you will suffer unpleasantness from illness.",
               "translation_ko": "특허를 보는 꿈은, 병으로 언짢은 일을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pearl",
+      "term_ko": "진주",
+      "term_en": "pearl",
+      "aliases": [
+        "진주가",
+        "진주를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "진주 꿈을 꿈",
+          "interpretation_ko": "사업과 거래, 사교의 일이 좋아질 전조",
+          "interpretation_en": "is a forerunner of good business and trade and affairs of social nature",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pearls",
+              "original": "To dream of pearls, is a forerunner of good business and trade and affairs of social nature.",
+              "translation_ko": "진주 꿈은, 사업과 거래, 사교의 일이 좋아질 전조다"
+            }
+          ]
+        },
+        {
+          "context": "애인이 진주를 선물함",
+          "interpretation_ko": "잔치와 기쁨을 누리고 질투 없이 사랑하고 신실한 약혼자를 둘 조짐",
+          "interpretation_en": "she will indeed be most fortunate, as there will be occasions of festivity and pleasure for her, besides a loving and faithful affianced devoid of the jealous inclinations so ruinous to the peace of lovers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pearls",
+              "original": "If a young woman dreams that her lover sends her gifts of pearls, she will indeed be most fortunate, as there will be occasions of festivity and pleasure for her, besides a loving and faithful affianced devoid of the jealous inclinations so ruinous to the peace of lovers.",
+              "translation_ko": "애인이 진주를 선물하는 꿈은, 잔치와 기쁨을 누리고 질투 없이 사랑하고 신실한 약혼자를 둘 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "진주를 잃거나 깨뜨림",
+          "interpretation_ko": "사별이나 오해로 이루 말할 수 없는 슬픔을 겪을 조짐",
+          "interpretation_en": "she will suffer indescribable sadness and sorrow through bereavement or misunderstandings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pearls",
+              "original": "If she loses or breaks her pearls, she will suffer indescribable sadness and sorrow through bereavement or misunderstandings.",
+              "translation_ko": "진주를 잃거나 깨뜨리는 꿈은, 사별이나 오해로 이루 말할 수 없는 슬픔을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "진주를 홀린 듯 바라봄",
+          "interpretation_ko": "순수한 마음으로 사랑이나 소유를 바라고 애쓸 조짐",
+          "interpretation_en": "she will covet and strive for love or possessions with a pureness of purpose",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pearls",
+              "original": "To find herself admiring them, she will covet and strive for love or possessions with a pureness of purpose.",
+              "translation_ko": "진주를 홀린 듯 바라보는 꿈은, 순수한 마음으로 사랑이나 소유를 바라고 애쓸 조짐이다"
             }
           ]
         }
@@ -102664,41 +102831,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "pear",
-      "term_ko": "배",
-      "term_en": "pear",
-      "aliases": [
-        "배를 먹",
-        "서양배",
-        "돌배",
-        "배즙"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "배를 먹음",
-          "interpretation_ko": "재물을 잃을 조짐",
-          "interpretation_en": "a sign of losing wealth",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "食梨者主失財帛",
-              "translation_ko": "배를 먹으면 재물을 잃는다"
-            }
-          ]
-        }
-      ],
-      "label_ko": "배(과일)"
     },
     {
       "id": "person-in-white",
