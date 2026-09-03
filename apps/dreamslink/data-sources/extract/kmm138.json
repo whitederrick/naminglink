@@ -1,0 +1,41 @@
+[
+  {
+    "id": "nails",
+    "aliases": [
+      "못을",
+      "못이",
+      "못질"
+    ],
+    "aliases_en": [
+      "iron nail"
+    ],
+    "contexts": {
+      "쇠못을 봄": "박혀 놓여",
+      "쇠못을 사고팖": "사고팔 장사 다루",
+      "녹슬거나 부러진 쇠못을 봄": "녹슨 녹슬 부러진"
+    },
+    "contexts_en": {
+      "쇠못을 봄": "toil small recompense",
+      "쇠못을 사고팖": "deal honorable work lowly",
+      "녹슬거나 부러진 쇠못을 봄": "rusty broken sickness failure"
+    }
+  },
+  {
+    "id": "napkin",
+    "aliases": [
+      "냅킨이",
+      "냅킨을"
+    ],
+    "aliases_en": [
+      "napkins"
+    ],
+    "contexts": {
+      "냅킨을 봄": "놓여 깔려",
+      "여성이 더러운 냅킨을 봄": "더러운 얼룩 여자가"
+    },
+    "contexts_en": {
+      "냅킨을 봄": "convivial entertainments figure prominently",
+      "여성이 더러운 냅킨을 봄": "woman soiled humiliating thrust"
+    }
+  }
+]

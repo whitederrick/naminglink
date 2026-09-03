@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "쇠못",
+    "term_en": "nails",
+    "context": "쇠못을 봄",
+    "interpretation_ko": "애는 많이 쓰나 갚음이 적을 흉한 조짐",
+    "interpretation_en": "indicates much toil and small recompense",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Nails",
+      "original": "To see nails in your dreams, indicates much toil and small recompense.",
+      "translation_ko": "꿈에 쇠못을 보면 애는 많이 쓰나 갚음이 적다"
+    }
+  },
+  {
+    "term_ko": "쇠못",
+    "term_en": "nails",
+    "context": "쇠못을 사고팖",
+    "interpretation_ko": "낮은 일일지라도 떳떳한 일을 하게 될 길한 조짐",
+    "interpretation_en": "shows that you will engage in honorable work, even if it be lowly",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Nails",
+      "original": "To deal in nails, shows that you will engage in honorable work, even if it be lowly.",
+      "translation_ko": "쇠못을 사고팔면, 낮은 일일지라도 떳떳한 일을 하게 된다"
+    }
+  },
+  {
+    "term_ko": "쇠못",
+    "term_en": "nails",
+    "context": "녹슬거나 부러진 쇠못을 봄",
+    "interpretation_ko": "병이 들고 하는 일이 그르칠 흉한 조짐",
+    "interpretation_en": "indicates sickness and failure in business",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Nails",
+      "original": "To see rusty or broken nails, indicates sickness and failure in business.",
+      "translation_ko": "녹슬거나 부러진 쇠못을 보면 병이 들고 하는 일이 그르친다"
+    }
+  },
+  {
+    "term_ko": "알몸",
+    "term_en": "naked body",
+    "context": "남이 알몸인 것을 봄",
+    "interpretation_ko": "속셈 있는 이들의 꾐에 넘어가 마땅한 길에서 벗어날 흉한 조짐",
+    "interpretation_en": "foretells that you will be tempted by designing persons to leave the path of duty",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Naked",
+      "original": "To see others naked, foretells that you will be tempted by designing persons to leave the path of duty.",
+      "translation_ko": "남이 알몸인 것을 보면, 속셈 있는 이들의 꾐에 넘어가 마땅한 길에서 벗어난다"
+    }
+  },
+  {
+    "term_ko": "알몸",
+    "term_en": "naked body",
+    "context": "제 알몸을 문득 깨닫고 가리려 함",
+    "interpretation_ko": "제 가장 고운 마음결에 어긋나는 즐거움을 좇았고 그것을 버리고 싶어 하는 조짐",
+    "interpretation_en": "denotes that you have sought illicit pleasure contrary to your noblest instincts and are desirous of abandoning those desires",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Naked",
+      "original": "To dream that you suddenly discover your nudity, and are trying to conceal it, denotes that you have sought illicit pleasure contrary to your noblest instincts and are desirous of abandoning those desires.",
+      "translation_ko": "제 알몸을 문득 깨닫고 가리려 하는 꿈은, 제 가장 고운 마음결에 어긋나는 즐거움을 좇았고 그것을 버리고 싶어 함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "알몸",
+    "term_en": "naked body",
+    "context": "처녀가 제 알몸에 반함",
+    "interpretation_ko": "고운 모습으로 얻기는 하나 떳떳한 이들의 마음을 오래 붙들지는 못할 조짐",
+    "interpretation_en": "foretells that she will win, but not hold honest men's regard. She will win fortune by her charms",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Naked",
+      "original": "For a young woman to dream that she admires her nudity, foretells that she will win, but not hold honest men's regard.",
+      "translation_ko": "처녀가 제 알몸에 반하는 꿈을 꾸면, 얻기는 하나 떳떳한 이들의 마음을 오래 붙들지는 못한다"
+    }
+  },
+  {
+    "term_ko": "알몸",
+    "term_en": "naked body",
+    "context": "처녀가 제 몸이 볼품없다고 여김",
+    "interpretation_ko": "헐뜯는 말에 이름이 더럽혀질 흉한 조짐",
+    "interpretation_en": "her reputation will be sullied by scandal",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Naked",
+      "original": "If she thinks herself ill-formed, her reputation will be sullied by scandal.",
+      "translation_ko": "제 몸이 볼품없다고 여기면, 헐뜯는 말에 이름이 더럽혀진다"
+    }
+  },
+  {
+    "term_ko": "알몸",
+    "term_en": "naked body",
+    "context": "처녀가 알몸으로 맑은 물에서 헤엄침",
+    "interpretation_ko": "떳떳하지 못한 사랑을 누리나 병이나 고운 모습을 잃음으로 값을 치를 흉한 조짐",
+    "interpretation_en": "she will enjoy illicit loves, but nature will revenge herself by sickness, or loss of charms",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Naked",
+      "original": "If she dreams of swimming in clear water naked, she will enjoy illicit loves, but nature will revenge herself by sickness, or loss of charms.",
+      "translation_ko": "알몸으로 맑은 물에서 헤엄치는 꿈을 꾸면, 떳떳하지 못한 사랑을 누리나 병이나 고운 모습을 잃음으로 값을 치른다"
+    }
+  },
+  {
+    "term_ko": "알몸",
+    "term_en": "naked body",
+    "context": "알몸의 사내들이 맑은 물에서 헤엄치는 것을 봄",
+    "interpretation_ko": "따르는 이가 많을 길한 조짐",
+    "interpretation_en": "she will have many admirers",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Naked",
+      "original": "If she sees naked men swimming in clear water, she will have many admirers.",
+      "translation_ko": "알몸의 사내들이 맑은 물에서 헤엄치는 것을 보면 따르는 이가 많다"
+    }
+  },
+  {
+    "term_ko": "알몸",
+    "term_en": "naked body",
+    "context": "알몸으로 헤엄치는 물이 흐림",
+    "interpretation_ko": "시샘하는 이가 궂은 말을 퍼뜨릴 흉한 조짐",
+    "interpretation_en": "a jealous admirer will cause ill-natured gossip about her",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Naked",
+      "original": "If the water is muddy, a jealous admirer will cause ill-natured gossip about her.",
+      "translation_ko": "물이 흐리면 시샘하는 이가 궂은 말을 퍼뜨린다"
+    }
+  },
+  {
+    "term_ko": "냅킨",
+    "term_en": "napkin",
+    "context": "냅킨을 봄",
+    "interpretation_ko": "제가 도드라지는 흥겨운 자리가 있을 길한 조짐",
+    "interpretation_en": "foretells convivial entertainments in which you will figure prominently",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Napkin",
+      "original": "To dream of a napkin, foretells convivial entertainments in which you will figure prominently.",
+      "translation_ko": "냅킨의 꿈은 제가 도드라지는 흥겨운 자리가 있음을 알린다"
+    }
+  },
+  {
+    "term_ko": "냅킨",
+    "term_en": "napkin",
+    "context": "여성이 더러운 냅킨을 봄",
+    "interpretation_ko": "부끄러운 일이 제게 들이닥칠 흉한 조짐",
+    "interpretation_en": "foretells that humiliating affairs will thrust themselves upon her",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Napkin",
+      "original": "For a woman to dream of soiled napkins, foretells that humiliating affairs will thrust themselves upon her.",
+      "translation_ko": "여성이 더러운 냅킨 꿈을 꾸면, 부끄러운 일이 제게 들이닥친다"
+    }
+  }
+]

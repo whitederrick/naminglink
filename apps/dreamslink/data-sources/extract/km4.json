@@ -932,7 +932,11 @@
       "나체",
       "맨몸",
       "벌거벗은 몸",
-      "발가벗"
+      "발가벗",
+      "알몸이",
+      "알몸을",
+      "알몸으로",
+      "알몸인"
     ],
     "aliases_en": [
       "naked",
@@ -940,8 +944,26 @@
       "bare body",
       "undressed"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "옷 없이 몸을 드러냄": "드러냈 드러내",
+      "남이 알몸인 것을 봄": "남이 남들 다른 사람",
+      "제 알몸을 문득 깨닫고 가리려 함": "가리려 감추려 문득",
+      "처녀가 제 알몸에 반함": "반했 감탄",
+      "처녀가 제 몸이 볼품없다고 여김": "볼품없 흉하다 못생겼",
+      "처녀가 알몸으로 맑은 물에서 헤엄침": "처녀 헤엄쳤",
+      "알몸의 사내들이 맑은 물에서 헤엄치는 것을 봄": "사내들 남자들",
+      "알몸으로 헤엄치는 물이 흐림": "흐렸 흐린 탁한"
+    },
+    "contexts_en": {
+      "옷 없이 몸을 드러냄": "exposed uncovered",
+      "남이 알몸인 것을 봄": "others tempted designing leave path duty",
+      "제 알몸을 문득 깨닫고 가리려 함": "suddenly discover conceal illicit noblest instincts",
+      "처녀가 제 알몸에 반함": "admires win hold honest regard charms",
+      "처녀가 제 몸이 볼품없다고 여김": "reputation sullied scandal",
+      "처녀가 알몸으로 맑은 물에서 헤엄침": "swimming clear loves revenge",
+      "알몸의 사내들이 맑은 물에서 헤엄치는 것을 봄": "men many admirers",
+      "알몸으로 헤엄치는 물이 흐림": "muddy jealous gossip"
+    }
   },
   {
     "id": "parrot",

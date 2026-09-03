@@ -768,6 +768,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "mosquito::모기가 사람을 묾": "bitten stung",
   "mosquito::모기를 봄": "strive vain impregnable sly secret",
   "mosquito::모기를 죽임": "kill eventually overcome obstacles bliss",
+  "naked-body::옷 없이 몸을 드러냄": "exposed uncovered",
+  "naked-body::남이 알몸인 것을 봄": "others tempted designing leave path duty",
+  "naked-body::제 알몸을 문득 깨닫고 가리려 함": "suddenly discover conceal illicit noblest instincts",
+  "naked-body::처녀가 제 알몸에 반함": "admires win hold honest regard charms",
+  "naked-body::처녀가 제 몸이 볼품없다고 여김": "reputation sullied scandal",
+  "naked-body::처녀가 알몸으로 맑은 물에서 헤엄침": "swimming clear loves revenge",
+  "naked-body::알몸의 사내들이 맑은 물에서 헤엄치는 것을 봄": "men many admirers",
+  "naked-body::알몸으로 헤엄치는 물이 흐림": "muddy jealous gossip",
   "sword::깃발과 칼이 산속으로 이끌어 들임": "banner flag mountain",
   "sword::칼을 뽑아 들고 길을 나섬": "journey traveled departed setting",
   "sword::남에게서 칼을 얻음": "received obtained acquired",
@@ -4550,5 +4558,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "myrtle::처녀가 도금양 가지를 몸에 꽂음": "young woman wearing sprig early intelligent",
   "myrtle::시든 도금양을 봄": "withered miss happiness careless conduct",
   "mystery::알 수 없는 일에 어리둥절함": "bewildered event strangers harass claim",
-  "mystery::세상의 신비를 파고듦": "studying creation higher atmosphere research learning"
+  "mystery::세상의 신비를 파고듦": "studying creation higher atmosphere research learning",
+  "nails::쇠못을 봄": "toil small recompense",
+  "nails::쇠못을 사고팖": "deal honorable work lowly",
+  "nails::녹슬거나 부러진 쇠못을 봄": "rusty broken sickness failure",
+  "napkin::냅킨을 봄": "convivial entertainments figure prominently",
+  "napkin::여성이 더러운 냅킨을 봄": "woman soiled humiliating thrust"
 };

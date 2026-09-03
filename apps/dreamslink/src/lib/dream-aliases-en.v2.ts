@@ -6442,5 +6442,11 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "mystery": [
     "mysteries",
     "mysterious"
+  ],
+  "nails": [
+    "iron nail"
+  ],
+  "napkin": [
+    "napkins"
   ]
 };

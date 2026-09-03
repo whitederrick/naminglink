@@ -1,0 +1,27 @@
+{
+  "batch": 138,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Nails",
+      "text": "To see nails in your dreams, indicates much toil and small recompense.\n\nTo deal in nails, shows that you will engage in honorable work, even if it be lowly.\n\nTo see rusty or broken nails, indicates sickness and failure in business.",
+      "note": "새 상징 `nails`(쇠못). **이름을 「못」으로 안 짓는다** — 한 글자인 데다 부정의 「못 갔다」·「못 했다」에서 뒤가 공백이라 `isStandalone` 을 지나 아무 문장에나 걸린다(§29 곁가지 ③). 별칭은 조사가 붙은 「못을」·「못이」로 올린다"
+    },
+    {
+      "headword": "Naked",
+      "text": "To dream that you are naked, foretells scandal and unwise engagements.\n\nTo see others naked, foretells that you will be tempted by designing persons to leave the path of duty. Sickness will be no small factor against your success.\n\nTo dream that you suddenly discover your nudity, and are trying to conceal it, denotes that you have sought illicit pleasure contrary to your noblest instincts and are desirous of abandoning those desires.\n\nFor a young woman to dream that she admires her nudity, foretells that she will win, but not hold honest men's regard. She will win fortune by her charms. If she thinks herself ill-formed, her reputation will be sullied by scandal. If she dreams of swimming in clear water naked, she will enjoy illicit loves, but nature will revenge herself by sickness, or loss of charms. If she sees naked men swimming in clear water, she will have many admirers. If the water is muddy, a jealous admirer will cause ill-natured gossip about her.",
+      "note": "「알몸」이 기존 `naked-body` 의 이름이다. **의미가 하나뿐이라 판별어 표가 비어 있었다**(열다섯 번째, 배치 35)"
+    },
+    {
+      "headword": "Napkin",
+      "text": "To dream of a napkin, foretells convivial entertainments in which you will figure prominently. For a woman to dream of soiled napkins, foretells that humiliating affairs will thrust themselves upon her.",
+      "note": "새 상징 `napkin`(냅킨)"
+    }
+  ],
+  "skipped_sentences": [
+    {
+      "sentence": "To dream that you are naked, foretells scandal and unwise engagements.",
+      "reason": "**두 원문이 같은 그림에 길흉을 반대로 말한다**(§31 곁가지) — `naked-body` 의 주공해몽 의미 「옷 없이 몸을 드러냄」(身體面目齒髮)이 **길**이고 밀러가 **흉**이다. 꿈의 그림이 같아 판별어를 가를 수 없고 `m138.json` 이 `r*.json` 보다 앞서 정렬되어 차례로도 못 푼다"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 137 — Mustard~Mystery, 14건 · 밀러 M 끝)
+// (지금 담긴 것: 배치 138 — Nails~Napkin, 14건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "mustard", ctx: "푸르게 자란 겨자를 봄", text: "겨자가 밭에 푸르게 자라 있었다" },
-  { id: "mustard", ctx: "겨자씨를 먹어 입안이 얼얼함", text: "겨자씨를 먹어 입안이 얼얼했다" },
-  { id: "mustard", ctx: "익힌 푸른 겨자를 먹음", text: "익힌 겨자를 먹었다" },
-  { id: "mustard", ctx: "처녀가 갓 자란 겨자를 먹음", text: "처녀가 갓 자란 겨자를 먹었다" },
-  { id: "dumb", ctx: "말 못 하는 이와 이야기를 나눔", text: "말 못 하는 이와 이야기를 나눴다" },
-  { id: "myrrh", ctx: "몰약을 봄", text: "몰약이 담겨 있었다" },
-  { id: "myrrh", ctx: "처녀가 몰약 꿈을 꿈", text: "처녀가 몰약 꿈을 꾸었다" },
-  { id: "myrtle", ctx: "잎이 우거지고 꽃이 핀 도금양을 봄", text: "도금양이 우거지고 꽃이 피어 있었다" },
-  { id: "myrtle", ctx: "처녀가 도금양 가지를 몸에 꽂음", text: "처녀가 도금양 가지를 꽂았다" },
-  { id: "myrtle", ctx: "시든 도금양을 봄", text: "시든 도금양을 보았다" },
-  { id: "mystery", ctx: "알 수 없는 일에 어리둥절함", text: "알 수 없는 일에 어리둥절했다" },
-  { id: "mystery", ctx: "세상의 신비를 파고듦", text: "신비를 파고들며 연구했다" },
+  { id: "nails", ctx: "쇠못을 봄", text: "못이 벽에 박혀 있었다" },
+  { id: "nails", ctx: "쇠못을 사고팖", text: "못을 사고파는 장사를 했다" },
+  { id: "nails", ctx: "녹슬거나 부러진 쇠못을 봄", text: "녹슨 못이 있었다" },
+  { id: "naked-body", ctx: "남이 알몸인 것을 봄", text: "남들이 알몸으로 있었다" },
+  { id: "naked-body", ctx: "제 알몸을 문득 깨닫고 가리려 함", text: "문득 제 알몸을 깨닫고 가리려 했다" },
+  { id: "naked-body", ctx: "처녀가 제 알몸에 반함", text: "제 알몸에 감탄했다" },
+  { id: "naked-body", ctx: "처녀가 제 몸이 볼품없다고 여김", text: "처녀가 제 알몸이 볼품없다고 여겼다" },
+  { id: "naked-body", ctx: "처녀가 알몸으로 맑은 물에서 헤엄침", text: "처녀가 알몸으로 맑은 물에서 헤엄쳤다" },
+  { id: "naked-body", ctx: "알몸의 사내들이 맑은 물에서 헤엄치는 것을 봄", text: "알몸의 사내들이 헤엄치는 것을 보았다" },
+  { id: "naked-body", ctx: "알몸으로 헤엄치는 물이 흐림", text: "알몸으로 헤엄치는데 물이 흐렸다" },
+  { id: "napkin", ctx: "냅킨을 봄", text: "냅킨이 깔려 있었다" },
+  { id: "napkin", ctx: "여성이 더러운 냅킨을 봄", text: "여자가 더러운 냅킨을 보았다" },
   // 지킴 — 이번 배치가 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "dumb", ctx: "말을 못 하게 됨", text: "말문이 막혔다" },
-  { id: "horseradish", ctx: "서양고추냉이를 봄", text: "겨자무를 보았다" },
+  { id: "naked-body", ctx: "옷 없이 몸을 드러냄", text: "알몸을 드러냈다" },
+  { id: "fingernail", ctx: "더러운 손톱을 봄", text: "더러운 손톱을 보았다" },
 ];
 
 let notFound = 0;
