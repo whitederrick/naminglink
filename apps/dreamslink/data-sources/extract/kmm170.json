@@ -1,0 +1,90 @@
+[
+  {
+    "id": "petticoat",
+    "aliases": [
+      "속치마가",
+      "속치마를"
+    ],
+    "aliases_en": [
+      "petticoats"
+    ],
+    "contexts": {
+      "새 속치마를 봄": "뽐내다 놀림감",
+      "때묻거나 찢어진 속치마를 봄": "때묻 찢어진 평판",
+      "처녀가 비단이나 깨끗한 속치마를 입는 꿈을 꿈": "비단 깨끗한 애지중지",
+      "처녀가 옷 입다 속치마를 빠뜨린 것을 알아챔": "빠뜨린 알아챈 불운",
+      "모임이나 걷는 중에 속치마가 흘러내리는 것을 봄": "흘러내리 애인을 붙들"
+    },
+    "contexts_en": {
+      "새 속치마를 봄": "pride belongings raillery",
+      "때묻거나 찢어진 속치마를 봄": "soiled torn reputation",
+      "처녀가 비단이나 깨끗한 속치마를 입는 꿈을 꿈": "silken clean doting",
+      "처녀가 옷 입다 속치마를 빠뜨린 것을 알아챔": "perceives left luck disappointment",
+      "모임이나 걷는 중에 속치마가 흘러내리는 것을 봄": "falling gathering retaining"
+    }
+  },
+  {
+    "id": "pewter",
+    "aliases": [
+      "백랍이",
+      "백랍을"
+    ],
+    "aliases_en": [],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "phantom",
+    "aliases": [
+      "환영이",
+      "환영을"
+    ],
+    "aliases_en": [
+      "phantoms"
+    ],
+    "contexts": {
+      "환영이 저를 쫓아옴": "쫓아 기이하고 불안",
+      "환영이 저에게서 달아남": "달아났 곤경이 작아"
+    },
+    "contexts_en": {
+      "환영이 저를 쫓아옴": "pursues strange disquieting",
+      "환영이 저에게서 달아남": "fleeing trouble smaller"
+    }
+  },
+  {
+    "id": "pheasant",
+    "aliases": [
+      "꿩이",
+      "꿩을"
+    ],
+    "aliases_en": [
+      "pheasants"
+    ],
+    "contexts": {
+      "꿩을 먹음": "먹었 아내의 질투",
+      "꿩을 쏨": "쏘았 이기적인 즐거움",
+      "꿩 꿈을 꿈": "좋은 우애"
+    },
+    "contexts_en": {
+      "꿩을 먹음": "eat jealousy wife",
+      "꿩을 쏨": "shoot sacrifice selfish",
+      "꿩 꿈을 꿈": "good fellowship friends"
+    }
+  },
+  {
+    "id": "phosphorus",
+    "aliases": [
+      "인이",
+      "인을"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "처녀가 인이 빛나는 꿈을 꿈": "처녀가 찬사받는 눈부시나",
+      "인이 빛나는 것을 봄": "덧없이 스러지는"
+    },
+    "contexts_en": {
+      "처녀가 인이 빛나는 꿈을 꿈": "young woman brilliant brief",
+      "인이 빛나는 것을 봄": "evanescent joys"
+    }
+  }
+]

@@ -6763,5 +6763,14 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "pest": [
     "pests"
+  ],
+  "petticoat": [
+    "petticoats"
+  ],
+  "phantom": [
+    "phantoms"
+  ],
+  "pheasant": [
+    "pheasants"
   ]
 };

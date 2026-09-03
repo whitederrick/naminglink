@@ -4969,5 +4969,17 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "perfume::처녀가 목욕물에 향을 더하는 꿈을 꿈": "bath ecstatic happenings",
   "perfume::남자에게 향수를 선물받음": "gift fascinating dangerous",
   "pest::온갖 성가심에 시달리는 꿈을 꿈": "worried disturbing elements",
-  "pest::남이 그렇게 시달리는 것을 봄": "others annoyed development"
+  "pest::남이 그렇게 시달리는 것을 봄": "others annoyed development",
+  "petticoat::새 속치마를 봄": "pride belongings raillery",
+  "petticoat::때묻거나 찢어진 속치마를 봄": "soiled torn reputation",
+  "petticoat::처녀가 비단이나 깨끗한 속치마를 입는 꿈을 꿈": "silken clean doting",
+  "petticoat::처녀가 옷 입다 속치마를 빠뜨린 것을 알아챔": "perceives left luck disappointment",
+  "petticoat::모임이나 걷는 중에 속치마가 흘러내리는 것을 봄": "falling gathering retaining",
+  "phantom::환영이 저를 쫓아옴": "pursues strange disquieting",
+  "phantom::환영이 저에게서 달아남": "fleeing trouble smaller",
+  "pheasant::꿩을 먹음": "eat jealousy wife",
+  "pheasant::꿩을 쏨": "shoot sacrifice selfish",
+  "pheasant::꿩 꿈을 꿈": "good fellowship friends",
+  "phosphorus::처녀가 인이 빛나는 꿈을 꿈": "young woman brilliant brief",
+  "phosphorus::인이 빛나는 것을 봄": "evanescent joys"
 };

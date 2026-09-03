@@ -1,0 +1,42 @@
+{
+  "batch": 170,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Petticoat",
+      "text": "To dream of seeing new petticoats, denotes that pride in your belongings will make you an object of raillery among your acquaintances. To see them soiled or torn, portends that your reputation will be in great danger. If a young woman dream that she wears silken, or clean, petticoats, it denotes that she will have a doting, but manly husband. If she suddenly perceives that she has left off her petticoat in dressing, it portends much ill luck and disappointment. To see her petticoat falling from its place while she is at some gathering, or while walking, she will have trouble in retaining her lover, and other disappointments may follow.",
+      "note": "새 상징 `petticoat`(속치마)"
+    },
+    {
+      "headword": "Pewter",
+      "text": "To dream of pewter, foretells straitened circumstances.",
+      "note": "새 상징 `pewter`(백랍). 「[153] See Dishes」는 아직 `dishes` 상징이 없는 cross-ref라 뺐다"
+    },
+    {
+      "headword": "Phantom",
+      "text": "To dream that a phantom pursues you, foretells strange and disquieting experiences. To see a phantom fleeing from you, foretells that trouble will assume smaller proportions.",
+      "note": "새 상징 `phantom`(환영). 이미 있는 `ghost`(귀신)와는 다른 낱말(넋 대 홀린 형상)이고, 쫓아오거나 달아나는 행동은 `ghost`에 없는 그림이라 새로 세운다. 「[154] See Ghost」는 참고로만 적어 둔다"
+    },
+    {
+      "headword": "Pheasant",
+      "text": "Dreaming of pheasants, omens good fellowship among your friends. To eat one, signifies that the jealousy of your wife will cause you to forego friendly intercourse with your friends. To shoot them, denotes that you will fail to sacrifice one selfish pleasure for the comfort of friends.",
+      "note": "새 상징 `pheasant`(꿩)"
+    },
+    {
+      "headword": "Phosphorus",
+      "text": "To dream of seeing phosphorus, is indicative of evanescent joys. For a young woman, it foretells a brilliant but brief success with admirers.",
+      "note": "새 상징 `phosphorus`(인)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "[153] See Dishes.",
+      "reason": "`Pewter` — 아직 `dishes` 상징이 사전에 없는 cross-reference"
+    },
+    {
+      "sentence": "[154] See Ghost.",
+      "reason": "`Phantom` — 참고 표시일 뿐, ghost와는 다른 낱말로 이미 갈랐다"
+    }
+  ]
+}

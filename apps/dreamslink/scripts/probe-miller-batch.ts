@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 169 — Perfume~Pest, 10건)
+// (지금 담긴 것: 배치 170 — Petticoat~Phosphorus, 13건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -480,6 +480,19 @@ const CASES: Case[] = [
   { id: "perfume", ctx: "남자에게 향수를 선물받음", text: "남자에게 향수를 선물받았다" },
   { id: "pest", ctx: "온갖 성가심에 시달리는 꿈을 꿈", text: "온갖 골칫거리에 시달리는 꿈을 꾸었다" },
   { id: "pest", ctx: "남이 그렇게 시달리는 것을 봄", text: "남이 골칫거리에 시달리는 것을 보았다" },
+  { id: "petticoat", ctx: "새 속치마를 봄", text: "새 속치마를 보았다" },
+  { id: "petticoat", ctx: "때묻거나 찢어진 속치마를 봄", text: "때묻거나 찢어진 속치마를 보았다" },
+  { id: "petticoat", ctx: "처녀가 비단이나 깨끗한 속치마를 입는 꿈을 꿈", text: "처녀가 비단이나 깨끗한 속치마를 입는 꿈을 꾸었다" },
+  { id: "petticoat", ctx: "처녀가 옷 입다 속치마를 빠뜨린 것을 알아챔", text: "처녀가 옷 입다 속치마를 빠뜨린 것을 알아챘다" },
+  { id: "petticoat", ctx: "모임이나 걷는 중에 속치마가 흘러내리는 것을 봄", text: "모임이나 걷는 중에 속치마가 흘러내리는 것을 보았다" },
+  { id: "pewter", ctx: "백랍 꿈을 꿈", text: "백랍 꿈을 꾸었다" },
+  { id: "phantom", ctx: "환영이 저를 쫓아옴", text: "환영이 저를 쫓아왔다" },
+  { id: "phantom", ctx: "환영이 저에게서 달아남", text: "환영이 저에게서 달아났다" },
+  { id: "pheasant", ctx: "꿩 꿈을 꿈", text: "꿩 꿈을 꾸었다" },
+  { id: "pheasant", ctx: "꿩을 먹음", text: "꿩을 먹었다" },
+  { id: "pheasant", ctx: "꿩을 쏨", text: "꿩을 쏘았다" },
+  { id: "phosphorus", ctx: "인이 빛나는 것을 봄", text: "인이 빛나는 것을 보았다" },
+  { id: "phosphorus", ctx: "처녀가 인이 빛나는 꿈을 꿈", text: "처녀가 인이 빛나는 꿈을 꾸었다" },
 ];
 
 let notFound = 0;
