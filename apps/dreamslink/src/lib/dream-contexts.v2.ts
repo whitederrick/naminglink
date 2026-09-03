@@ -3759,5 +3759,18 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "jug::주전자로 맛없는 것을 마심": "unpleasant disgust anticipations",
   "jumping::무엇을 뛰어넘음": "object succeed endeavor",
   "jumping::뛰다가 뒤로 떨어짐": "fall back disagreeable render intolerable",
-  "jumping::담에서 뛰어내림": "wall reckless speculations"
+  "jumping::담에서 뛰어내림": "wall reckless speculations",
+  "june::유월 꿈을 꿈": "unusual gains undertakings",
+  "june::초목이 시들고 가뭄이 땅을 말림": "vegetation decaying drouth devastating lasting",
+  "juniper::노간주나무를 봄": "portends happiness wealth sorrow depressed",
+  "juniper::노간주나무 열매를 먹거나 땀": "berries gather trouble sickness",
+  "jury::배심원이 됨": "dissatisfaction employments materially change position",
+  "jury::배심원단이 죄를 벗겨 줌": "cleared charge business move way",
+  "jury::배심원단이 죄가 있다고 함": "condemned overpower harass endurance",
+  "justice::남에게 바로잡아 달라 다그침": "demand person threatened embarrassments downfall",
+  "justice::남이 저에게 바로잡으라 다그침": "same conduct reputation assailed refute",
+  "kangaroo::캥거루를 봄": "outwit wily enemy unfavorable public",
+  "kangaroo::캥거루가 덤벼듦": "attacks reputation jeopardy",
+  "kangaroo::캥거루를 죽임": "kill succeed spite obstacles",
+  "kangaroo::캥거루 가죽을 봄": "hide fair way success"
 };

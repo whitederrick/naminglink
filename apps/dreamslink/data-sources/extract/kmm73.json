@@ -1,0 +1,116 @@
+[
+  {
+    "id": "june",
+    "aliases": [
+      "유월달",
+      "유월에",
+      "유월이"
+    ],
+    "aliases_en": [
+      "June"
+    ],
+    "contexts": {
+      "유월 꿈을 꿈": "소득 벌이가",
+      "초목이 시들고 가뭄이 땅을 말림": "시들 가뭄 메말라"
+    },
+    "contexts_en": {
+      "유월 꿈을 꿈": "unusual gains undertakings",
+      "초목이 시들고 가뭄이 땅을 말림": "vegetation decaying drouth devastating lasting"
+    }
+  },
+  {
+    "id": "juniper",
+    "aliases": [
+      "노간주",
+      "두송나무",
+      "노간주나무를",
+      "노간주나무가"
+    ],
+    "aliases_en": [
+      "a juniper tree",
+      "juniper"
+    ],
+    "contexts": {
+      "노간주나무를 봄": "보았다 보였다 서있",
+      "노간주나무 열매를 먹거나 땀": "열매 따먹 먹었"
+    },
+    "contexts_en": {
+      "노간주나무를 봄": "portends happiness wealth sorrow depressed",
+      "노간주나무 열매를 먹거나 땀": "berries gather trouble sickness"
+    }
+  },
+  {
+    "id": "jury",
+    "aliases": [
+      "배심원단",
+      "배심원이",
+      "배심원을"
+    ],
+    "aliases_en": [
+      "the jury"
+    ],
+    "contexts": {
+      "배심원이 됨": "제가 내가 되었",
+      "배심원단이 죄를 벗겨 줌": "벗겨 풀려 무죄",
+      "배심원단이 죄가 있다고 함": "죄가 유죄로 몰렸"
+    },
+    "contexts_en": {
+      "배심원이 됨": "dissatisfaction employments materially change position",
+      "배심원단이 죄를 벗겨 줌": "cleared charge business move way",
+      "배심원단이 죄가 있다고 함": "condemned overpower harass endurance"
+    }
+  },
+  {
+    "id": "justice",
+    "aliases": [
+      "정의를",
+      "정의가",
+      "바로잡아 달라"
+    ],
+    "aliases_en": [
+      "justice"
+    ],
+    "contexts": {
+      "남에게 바로잡아 달라 다그침": "남에게 상대에게 요구했",
+      "남이 저에게 바로잡으라 다그침": "남이 저에게 나에게 다그"
+    },
+    "contexts_en": {
+      "남에게 바로잡아 달라 다그침": "demand person threatened embarrassments downfall",
+      "남이 저에게 바로잡으라 다그침": "same conduct reputation assailed refute"
+    }
+  },
+  {
+    "id": "kaleidoscope",
+    "aliases": [
+      "만화경이",
+      "만화경을"
+    ],
+    "aliases_en": [
+      "kaleidoscopes"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "kangaroo",
+    "aliases": [
+      "캥거루가",
+      "캥거루를"
+    ],
+    "aliases_en": [
+      "a kangaroo"
+    ],
+    "contexts": {
+      "캥거루를 봄": "껑충 뛰어다니",
+      "캥거루가 덤벼듦": "덤벼 달려들 공격",
+      "캥거루를 죽임": "죽였 잡아죽",
+      "캥거루 가죽을 봄": "가죽 털가죽"
+    },
+    "contexts_en": {
+      "캥거루를 봄": "outwit wily enemy unfavorable public",
+      "캥거루가 덤벼듦": "attacks reputation jeopardy",
+      "캥거루를 죽임": "kill succeed spite obstacles",
+      "캥거루 가죽을 봄": "hide fair way success"
+    }
+  }
+]

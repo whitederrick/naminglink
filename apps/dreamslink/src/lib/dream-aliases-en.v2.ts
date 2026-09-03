@@ -5879,5 +5879,24 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "jumping-jack": [
     "a jumping-jack"
+  ],
+  "june": [
+    "June"
+  ],
+  "juniper": [
+    "a juniper tree",
+    "juniper"
+  ],
+  "jury": [
+    "the jury"
+  ],
+  "justice": [
+    "justice"
+  ],
+  "kaleidoscope": [
+    "kaleidoscopes"
+  ],
+  "kangaroo": [
+    "a kangaroo"
   ]
 };

@@ -72,6 +72,7 @@
     "m70.json",
     "m71.json",
     "m72.json",
+    "m73.json",
     "m7a.json",
     "m7b.json",
     "m8.json",
@@ -39149,6 +39150,80 @@
       ]
     },
     {
+      "id": "kangaroo",
+      "term_ko": "캥거루",
+      "term_en": "kangaroo",
+      "aliases": [
+        "캥거루가",
+        "캥거루를"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "캥거루를 봄",
+          "interpretation_ko": "저를 남들 앞에서 궁지에 몰려는 꾀 많은 적을 꾀로 이길 길한 조짐",
+          "interpretation_en": "you will outwit a wily enemy who seeks to place you in an unfavorable position before the public",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kangaroo",
+              "original": "To see a kangaroo in your dreams, you will outwit a wily enemy who seeks to place you in an unfavorable position before the public and the person you are striving to win.",
+              "translation_ko": "꿈에 캥거루를 보면, 저를 남들 앞에서 궁지에 몰려는 꾀 많은 적을 꾀로 이긴다"
+            }
+          ]
+        },
+        {
+          "context": "캥거루가 덤벼듦",
+          "interpretation_ko": "이름이 위태로워질 흉한 조짐",
+          "interpretation_en": "your reputation will be in jeopardy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kangaroo",
+              "original": "If a kangaroo attacks you, your reputation will be in jeopardy.",
+              "translation_ko": "캥거루가 덤벼들면 이름이 위태로워진다"
+            }
+          ]
+        },
+        {
+          "context": "캥거루를 죽임",
+          "interpretation_ko": "적과 걸림돌에도 아랑곳없이 뜻을 이룰 길한 조짐",
+          "interpretation_en": "you will succeed in spite of enemies and obstacles",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kangaroo",
+              "original": "If you kill one, you will succeed in spite of enemies and obstacles.",
+              "translation_ko": "그것을 죽이면 적과 걸림돌에도 아랑곳없이 뜻을 이룬다"
+            }
+          ]
+        },
+        {
+          "context": "캥거루 가죽을 봄",
+          "interpretation_ko": "일이 잘 풀릴 길로 들어섰다는 길한 조짐",
+          "interpretation_en": "denotes that you are in a fair way to success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kangaroo",
+              "original": "To see a kangaroo's hide, denotes that you are in a fair way to success.",
+              "translation_ko": "캥거루 가죽을 보면 일이 잘 풀릴 길로 들어섰다는 뜻이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "manure",
       "term_ko": "거름",
       "term_en": "manure",
@@ -50693,6 +50768,67 @@
               "locator": "Jumping",
               "original": "To jump down from a wall, denotes reckless speculations and disappointment in love.",
               "translation_ko": "담에서 뛰어내리면 무모하게 일을 벌이고 사랑에서 실망한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jury",
+      "term_ko": "배심원",
+      "term_en": "jury",
+      "aliases": [
+        "배심원단",
+        "배심원이",
+        "배심원을"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "배심원이 됨",
+          "interpretation_ko": "하는 일이 마뜩잖아 자리를 크게 바꾸려 들 조짐",
+          "interpretation_en": "denotes dissatisfaction with your employments, and you will seek to materially change your position",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jury",
+              "original": "To dream that you are on the jury, denotes dissatisfaction with your employments, and you will seek to materially change your position.",
+              "translation_ko": "배심원이 되는 꿈은 하던 일이 마뜩잖아 자리를 크게 바꾸려 들리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "배심원단이 죄를 벗겨 줌",
+          "interpretation_ko": "하는 일이 잘되고 일이 제 뜻대로 굴러갈 길한 조짐",
+          "interpretation_en": "your business will be successful and affairs will move your way",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jury",
+              "original": "If you are cleared from a charge by the jury, your business will be successful and affairs will move your way,",
+              "translation_ko": "배심원단이 혐의를 벗겨 주면 하는 일이 잘되고 일이 제 뜻대로 굴러간다"
+            }
+          ]
+        },
+        {
+          "context": "배심원단이 죄가 있다고 함",
+          "interpretation_ko": "적이 짓눌러 견디기 어려울 만큼 괴롭힐 흉한 조짐",
+          "interpretation_en": "enemies will overpower you and harass you beyond endurance",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jury",
+              "original": "but if you should be condemned, enemies will overpower you and harass you beyond endurance.",
+              "translation_ko": "죄가 있다는 판정을 받으면 적들이 짓눌러 견디기 어려울 만큼 괴롭힌다"
             }
           ]
         }
@@ -69412,6 +69548,148 @@
       ]
     },
     {
+      "id": "june",
+      "term_ko": "유월",
+      "term_en": "june",
+      "aliases": [
+        "유월달",
+        "유월에",
+        "유월이"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "유월 꿈을 꿈",
+          "interpretation_ko": "하는 일마다 남다른 소득이 있을 길한 조짐",
+          "interpretation_en": "foretells unusual gains in all undertakings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "June",
+              "original": "To dream of June, foretells unusual gains in all undertakings.",
+              "translation_ko": "유월의 꿈은 하는 일마다 남다른 소득이 있으리라는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "초목이 시들고 가뭄이 땅을 말림",
+          "interpretation_ko": "오래 남을 슬픔과 잃음이 있을 흉한 조짐",
+          "interpretation_en": "she will have sorrow and loss which will be lasting in its effects",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "June",
+              "original": "For a woman to think that vegetation is decaying, or that a drouth is devastating the land, she will have sorrow and loss which will be lasting in its effects.",
+              "translation_ko": "여자가 초목이 시들거나 가뭄이 땅을 말리는 것을 보면, 오래 남을 슬픔과 잃음이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "juniper",
+      "term_ko": "노간주나무",
+      "term_en": "juniper",
+      "aliases": [
+        "노간주",
+        "두송나무",
+        "노간주나무를",
+        "노간주나무가"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "노간주나무를 봄",
+          "interpretation_ko": "슬픔과 가라앉은 처지 끝에 즐거움과 넉넉함이 올 길한 조짐이며, 앓는 이에게는 곧 나을 조짐이다",
+          "interpretation_en": "portends happiness and wealth out of sorrow and depressed conditions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Juniper",
+              "original": "To dream of seeing a juniper tree, portends happiness and wealth out of sorrow and depressed conditions.",
+              "translation_ko": "노간주나무를 보는 꿈은 슬픔과 가라앉은 처지 끝에 오는 즐거움과 넉넉함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "노간주나무 열매를 먹거나 땀",
+          "interpretation_ko": "근심과 병이 따를 흉한 조짐",
+          "interpretation_en": "foretells trouble and sickness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Juniper",
+              "original": "To eat, or gather, the berries of a juniper tree, foretells trouble and sickness.",
+              "translation_ko": "노간주나무 열매를 먹거나 따면 근심과 병이 따른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "justice",
+      "term_ko": "정의",
+      "term_en": "justice",
+      "aliases": [
+        "정의를",
+        "정의가",
+        "바로잡아 달라"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남에게 바로잡아 달라 다그침",
+          "interpretation_ko": "제가 무너지기를 바라는 이들의 거짓말로 곤란해질 흉한 조짐",
+          "interpretation_en": "denotes that you are threatened with embarrassments through the false statements of people who are eager for your downfall",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Justice",
+              "original": "To dream that you demand justice from a person, denotes that you are threatened with embarrassments through the false statements of people who are eager for your downfall.",
+              "translation_ko": "남에게 바로잡아 달라 다그치는 꿈을 꾸면, 제가 무너지기를 바라는 이들의 거짓말로 곤란해진다"
+            }
+          ]
+        },
+        {
+          "context": "남이 저에게 바로잡으라 다그침",
+          "interpretation_ko": "제 몸가짐과 이름이 헐뜯기고 그 말을 시원하게 되받기 어려울 흉한 조짐",
+          "interpretation_en": "you will find that your conduct and reputation are being assailed, and it will be extremely doubtful if you refute the charges satisfactorily",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Justice",
+              "original": "If some one demands the same of you, you will find that your conduct and reputation are being assailed, and it will be extremely doubtful if you refute the charges satisfactorily.",
+              "translation_ko": "남이 저에게 그리 다그치면, 제 몸가짐과 이름이 헐뜯기고 그 말을 시원하게 되받기 어렵다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "letter",
       "term_ko": "편지",
       "term_en": "letter",
@@ -79864,6 +80142,38 @@
               "locator": "Jumping-jack",
               "original": "To dream of a jumping-jack, denotes that idleness and trivial pastimes will occupy your thoughts to the exclusion of serious and sustaining plans.",
               "translation_ko": "꼭두각시 인형의 꿈은 게으름과 하찮은 놀이가 마음을 채워 진지한 계획을 밀어내리라는 뜻이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kaleidoscope",
+      "term_ko": "만화경",
+      "term_en": "kaleidoscope",
+      "aliases": [
+        "만화경이",
+        "만화경을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "만화경이 돌아가는 것을 봄",
+          "interpretation_ko": "빠른 변화가 오나 그 안에 반가운 것이 거의 없을 흉한 조짐",
+          "interpretation_en": "portend swift changes with little of favorable promise in them",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kaleidoscope",
+              "original": "Kaleidoscopes working before you in a dream, portend swift changes with little of favorable promise in them.",
+              "translation_ko": "눈앞에서 만화경이 돌아가는 꿈은 반가운 것이 거의 없는 빠른 변화를 뜻한다"
             }
           ]
         }
