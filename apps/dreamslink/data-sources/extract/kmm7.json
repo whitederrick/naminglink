@@ -1259,7 +1259,10 @@
       "수렁",
       "습지",
       "진창 늪",
-      "늪에 빠"
+      "늪에 빠",
+      "늪지를",
+      "늪지가",
+      "진펄"
     ],
     "aliases_en": [
       "a bog",
@@ -1267,8 +1270,14 @@
       "a swamp",
       "a quagmire"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "늪지 꿈을 꿈": "펼쳐져 널려",
+      "늪지를 걸어서 지남": "걸어서 헤치고 건넜"
+    },
+    "contexts_en": {
+      "늪지 꿈을 꿈": "spread stretched",
+      "늪지를 걸어서 지남": "walking marshy overwork worry relative"
+    }
   },
   {
     "id": "bomb-shell",

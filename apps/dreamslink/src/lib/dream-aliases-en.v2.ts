@@ -6243,5 +6243,16 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "marmot": [
     "marmots"
+  ],
+  "mars": [
+    "the red planet"
+  ],
+  "martyr": [
+    "martyrs",
+    "martyrdom"
+  ],
+  "mask": [
+    "masks",
+    "masking"
   ]
 };

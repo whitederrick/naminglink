@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 117 — Marmalade~Marriage, 13건)
+// (지금 담긴 것: 배치 118 — Mars~Mask, 11건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,20 +30,18 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "marmalade", ctx: "마멀레이드를 먹음", text: "마멀레이드를 먹었다" },
-  { id: "marmalade", ctx: "처녀가 마멀레이드를 만듦", text: "처녀가 마멀레이드를 만들었다" },
-  { id: "marmot", ctx: "마멋을 봄", text: "마멋이 나타났다" },
-  { id: "marmot", ctx: "처녀가 마멋 꿈을 꿈", text: "처녀가 마멋 꿈을 꾸었다" },
-  { id: "wedding", ctx: "여성이 늙고 쇠약한 남자와 혼인함", text: "여자가 늙은 남자와 혼인했다" },
-  { id: "wedding", ctx: "혼례 중에 정인이 검은 옷을 입고 지나감", text: "혼례 중에 정인이 지나갔다" },
-  { id: "wedding", ctx: "칙칙한 옷의 하객이 있는 혼례를 봄", text: "칙칙한 옷의 하객이 있는 혼례를 보았다" },
-  { id: "wedding", ctx: "밝은 빛깔 옷의 하객이 있는 혼례를 봄", text: "밝은 옷의 하객이 있는 혼례를 보았다" },
-  { id: "wedding", ctx: "혼인을 약속함", text: "혼인을 약속했다" },
-  { id: "wedding", ctx: "혼례에 들러리로 참석함", text: "혼례에 들러리로 참석했다" },
-  { id: "wedding", ctx: "혼례에 궂은일이 생김", text: "혼례에 궂은일이 생겼다" },
+  { id: "mars", ctx: "화성을 봄", text: "화성이 빛났다" },
+  { id: "mars", ctx: "화성 쪽으로 끌려 올라감", text: "화성 쪽으로 끌려 올라갔다" },
+  { id: "bog", ctx: "늪지를 걸어서 지남", text: "늪지를 걸어서 지났다" },
+  { id: "martyr", ctx: "순교자를 봄", text: "순교자가 나타났다" },
+  { id: "martyr", ctx: "제가 순교자가 됨", text: "내가 순교자가 되었다" },
+  { id: "mask", ctx: "가면을 봄", text: "가면이 걸려 있었다" },
+  { id: "mask", ctx: "처녀가 가면을 씀", text: "처녀가 가면을 썼다" },
+  { id: "mask", ctx: "제가 가면을 씀", text: "내가 가면을 썼다" },
+  { id: "mask", ctx: "남이 가면을 쓴 것을 봄", text: "남이 가면을 쓴 것을 보았다" },
+  { id: "mask", ctx: "가면을 벗음", text: "가면을 벗었다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "wedding", ctx: "혼인하는 것을 봄", text: "혼례를 올리는 것을 보았다" },
-  { id: "bride", ctx: "혼례 단장에 불만을 느낌", text: "신부가 혼례 단장을 못마땅해했다" },
+  { id: "bog", ctx: "늪지 꿈을 꿈", text: "늪지가 펼쳐져 있었다" },
 ];
 
 let notFound = 0;

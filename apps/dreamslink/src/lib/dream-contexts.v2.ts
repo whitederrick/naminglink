@@ -2499,6 +2499,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "bequest::너른 땅과 집을 물려받게 됨": "vast ownership distant",
   "bequest::처녀가 너른 땅을 물려받게 됨": "young woman frugally poor",
   "bequest::재산이나 값진 것을 물려받게 됨": "fall heir property valuables danger",
+  "bog::늪지 꿈을 꿈": "spread stretched",
+  "bog::늪지를 걸어서 지남": "walking marshy overwork worry relative",
   "burial::햇빛이 비치는 가운데 친척의 장례에 참석함": "sunshine sunny bright shining relative",
   "burial::비 오고 음산한 날씨의 장례": "rain rainy dismal gloomy weather",
   "burial::슬픈 의식과 비통한 얼굴이 있는 장례": "sad sorrowing weeping mourning grief",
@@ -4306,5 +4308,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "marmalade::마멀레이드를 먹음": "eating sickness dissatisfaction",
   "marmalade::처녀가 마멀레이드를 만듦": "making unhappy domestic associations",
   "marmot::마멋을 봄": "sly enemies approaching fair",
-  "marmot::처녀가 마멋 꿈을 꿈": "temptation beset future"
+  "marmot::처녀가 마멋 꿈을 꿈": "temptation beset future",
+  "mars::화성을 봄": "miserable hardly worth cruel treatment",
+  "mars::화성 쪽으로 끌려 올라감": "drawn keen judgment advance",
+  "martyr::순교자를 봄": "false domestic unhappiness losses concern",
+  "martyr::제가 순교자가 됨": "separation slander",
+  "mask::가면을 봄": "unfaithful affairs suffer",
+  "mask::처녀가 가면을 씀": "wears endeavor impose friendly",
+  "mask::제가 가면을 씀": "wearing temporary misinterpreted estrangements",
+  "mask::남이 가면을 쓴 것을 봄": "others combat falsehood envy",
+  "mask::가면을 벗음": "unmasks fail admiration sought"
 };

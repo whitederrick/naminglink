@@ -1,0 +1,152 @@
+[
+  {
+    "term_ko": "화성",
+    "term_en": "mars",
+    "context": "화성을 봄",
+    "interpretation_ko": "벗의 모진 대접 때문에 삶이 고달프고 살맛이 나지 않을 흉한 조짐 — 적이 저를 무너뜨리려 든다",
+    "interpretation_en": "denotes that your life will be made miserable and hardly worth living by the cruel treatment of friends",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mars",
+      "original": "To dream of Mars, denotes that your life will be made miserable and hardly worth living by the cruel treatment of friends.",
+      "translation_ko": "화성의 꿈은, 벗의 모진 대접 때문에 삶이 고달프고 살맛이 나지 않음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "화성",
+    "term_en": "mars",
+    "context": "화성 쪽으로 끌려 올라감",
+    "interpretation_ko": "판단이 날카로워지고 배움과 재물에서 벗들을 앞지를 길한 조짐",
+    "interpretation_en": "you will develop keen judgment and advance beyond your friends in learning and wealth",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mars",
+      "original": "If you feel yourself drawn up toward the planet, you will develop keen judgment and advance beyond your friends in learning and wealth.",
+      "translation_ko": "그 별 쪽으로 제가 끌려 올라가는 느낌이 들면, 판단이 날카로워지고 배움과 재물에서 벗들을 앞지른다"
+    }
+  },
+  {
+    "term_ko": "늪지",
+    "term_en": "bog",
+    "context": "늪지를 걸어서 지남",
+    "interpretation_ko": "지나친 일과 걱정에서 병이 올 흉한 조짐 — 가까운 살붙이의 어리석은 처신 때문에 언짢은 일도 겪는다",
+    "interpretation_en": "denotes illness resulting from overwork and worry; you will suffer much displeasure from the unwise conduct of a near relative",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Marsh",
+      "original": "To dream of walking through marshy places, denotes illness resulting from overwork and worry.",
+      "translation_ko": "늪지를 걸어서 지나는 꿈은, 지나친 일과 걱정에서 병이 옴을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "순교자",
+    "term_en": "martyr",
+    "context": "순교자를 봄",
+    "interpretation_ko": "거짓된 벗과 집안의 언짢음, 그리고 가장 마음 쓰는 일에서의 잃음을 뜻하는 흉한 조짐",
+    "interpretation_en": "denotes that false friends, domestic unhappiness and losses in affairs which concern you most",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Martyr",
+      "original": "To dream of martyrs, denotes that false friends, domestic unhappiness and losses in affairs which concern you most.",
+      "translation_ko": "순교자의 꿈은, 거짓된 벗과 집안의 언짢음, 그리고 가장 마음 쓰는 일에서의 잃음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "순교자",
+    "term_en": "martyr",
+    "context": "제가 순교자가 됨",
+    "interpretation_ko": "벗과 헤어지고 적이 저를 헐뜯을 흉한 조짐",
+    "interpretation_en": "signifies the separation from friends, and enemies will slander you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Martyr",
+      "original": "To dream that you are a martyr, signifies the separation from friends, and enemies will slander you.",
+      "translation_ko": "제가 순교자가 되는 꿈은, 벗과 헤어지고 적이 저를 헐뜯음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "가면",
+    "term_en": "mask",
+    "context": "가면을 봄",
+    "interpretation_ko": "누군가 제게 마음을 저버리고 하는 일도 그 때문에 상할 흉한 조짐",
+    "interpretation_en": "denotes some person will be unfaithful to you, and your affairs will suffer also",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mask",
+      "original": "To see a mask in your dreams, denotes some person will be unfaithful to you, and your affairs will suffer also.",
+      "translation_ko": "꿈에 가면을 보면, 누군가 제게 마음을 저버리고 하는 일도 그 때문에 상한다"
+    }
+  },
+  {
+    "term_ko": "가면",
+    "term_en": "mask",
+    "context": "처녀가 가면을 씀",
+    "interpretation_ko": "저에게 다정한 이를 속이려 들 흉한 조짐",
+    "interpretation_en": "foretells she will endeavor to impose upon some friendly person",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mask",
+      "original": "For a young woman to dream that she wears a mask, foretells she will endeavor to impose upon some friendly person.",
+      "translation_ko": "젊은 여성이 가면을 쓰는 꿈을 꾸면, 저에게 다정한 이를 속이려 든다"
+    }
+  },
+  {
+    "term_ko": "가면",
+    "term_en": "mask",
+    "context": "제가 가면을 씀",
+    "interpretation_ko": "아끼는 이에게 한 일이 잘못 읽혀 잠깐 괴로우나, 그 잠깐의 멀어짐에서 오히려 얻는 것이 있을 조짐",
+    "interpretation_en": "denotes temporary trouble, as your conduct towards some dear one will be misinterpreted, but you will profit by the temporary estrangements",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mask",
+      "original": "To dream that you are wearing a mask, denotes temporary trouble, as your conduct towards some dear one will be misinterpreted, and your endeavors to aid that one will be misunderstood, but you will profit by the temporary estrangements.",
+      "translation_ko": "제가 가면을 쓰는 꿈은, 아끼는 이에게 한 일이 잘못 읽혀 잠깐 괴로우나 그 잠깐의 멀어짐에서 오히려 얻는 것이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "가면",
+    "term_en": "mask",
+    "context": "남이 가면을 쓴 것을 봄",
+    "interpretation_ko": "거짓과 시샘에 맞서게 될 조짐",
+    "interpretation_en": "denotes that you will combat falsehood and envy",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mask",
+      "original": "To see others masking, denotes that you will combat falsehood and envy.",
+      "translation_ko": "남이 가면을 쓴 것을 보면 거짓과 시샘에 맞서게 된다"
+    }
+  },
+  {
+    "term_ko": "가면",
+    "term_en": "mask",
+    "context": "가면을 벗음",
+    "interpretation_ko": "바라던 눈길과 사랑을 얻지 못할 흉한 조짐 — 이 꿈 뒤에는 몸가짐을 삼가야 한다",
+    "interpretation_en": "she will fail to gain the admiration sought for",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mask",
+      "original": "If she unmasks, or sees others doing so, she will fail to gain the admiration sought for.",
+      "translation_ko": "가면을 벗거나 남이 벗는 것을 보면, 바라던 눈길과 사랑을 얻지 못한다"
+    }
+  }
+]
