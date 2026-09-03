@@ -756,11 +756,17 @@
     ],
     "contexts": {
       "공작을 봄": "보았 발견 서있",
-      "공작이 날며 춤춤": "날며 춤추 날개 펼치"
+      "공작이 날며 춤춤": "날며 춤추 날개 펼치",
+      "공작 꿈을 꿈": "빛나는 흐름 슬픔",
+      "여성이 공작을 소유함": "여성이 소유 헤아려 속을",
+      "공작의 거친 울음소리를 들으며 화려한 깃털을 봄": "울음소리 곱고 훤칠"
     },
     "contexts_en": {
       "공작을 봄": "saw standing spotted",
-      "공작이 날며 춤춤": "flying dancing wings spread"
+      "공작이 날며 춤춤": "flying dancing wings spread",
+      "공작 꿈을 꿈": "brilliant stream sorrow",
+      "여성이 공작을 소유함": "owns deceived honor",
+      "공작의 거친 울음소리를 들으며 화려한 깃털을 봄": "harsh voices beautiful discomfort"
     }
   },
   {

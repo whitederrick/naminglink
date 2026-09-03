@@ -71,6 +71,7 @@
     "m16.json",
     "m160.json",
     "m161.json",
+    "m162.json",
     "m17.json",
     "m18.json",
     "m19.json",
@@ -34215,6 +34216,112 @@
       ]
     },
     {
+      "id": "peach",
+      "term_ko": "복숭아",
+      "term_en": "peach",
+      "aliases": [
+        "도화",
+        "복사꽃",
+        "천도"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [
+        "태몽"
+      ],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "복숭아를 보거나 먹음",
+          "interpretation_ko": "자식이 앓고 사업이 실망스럽게 돌아오며 바라던 즐거운 나들이가 어그러질 조짐",
+          "interpretation_en": "implies the sickness of children, disappointing returns in business, and failure to make anticipated visits of pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peaches",
+              "original": "Dreaming of seeing or eating peaches, implies the sickness of children, disappointing returns in business, and failure to make anticipated visits of pleasure; but if you see them on trees with foliage, you will secure some desired position or thing after much striving and risking of health and money.",
+              "translation_ko": "복숭아를 보거나 먹는 꿈은, 자식이 앓고 사업이 실망스럽게 돌아오며 바라던 즐거운 나들이가 어그러질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "잎이 우거진 나무에 달린 복숭아를 봄",
+          "interpretation_ko": "건강과 돈을 무릅쓰고 애쓴 끝에 바라던 자리나 것을 얻을 조짐",
+          "interpretation_en": "you will secure some desired position or thing after much striving and risking of health and money",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peaches",
+              "original": "Dreaming of seeing or eating peaches, implies the sickness of children, disappointing returns in business, and failure to make anticipated visits of pleasure; but if you see them on trees with foliage, you will secure some desired position or thing after much striving and risking of health and money.",
+              "translation_ko": "잎이 우거진 나무에 달린 복숭아를 보는 꿈은, 건강과 돈을 무릅쓰고 애쓴 끝에 바라던 자리나 것을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "마른 복숭아를 봄",
+          "interpretation_ko": "적이 저를 등쳐 먹을 조짐",
+          "interpretation_en": "denotes that enemies will steal from you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peaches",
+              "original": "To see dried peaches, denotes that enemies will steal from you.",
+              "translation_ko": "마른 복숭아를 보는 꿈은, 적이 저를 등쳐 먹을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 무성한 나무에서 탐스러운 복숭아를 땀",
+          "interpretation_ko": "제 매력과 자질로 재산 많고 세상 물정에 밝은 남편을 얻을 조짐",
+          "interpretation_en": "she will, by her personal charms and qualifications, win a husband rich in worldly goods and wise in travel",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peaches",
+              "original": "For a young woman to dream of gathering luscious peaches from well-filled trees, she will, by her personal charms and qualifications, win a husband rich in worldly goods and wise in travel.",
+              "translation_ko": "처녀가 무성한 나무에서 탐스러운 복숭아를 따는 꿈은, 제 매력과 자질로 재산 많고 세상 물정에 밝은 남편을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "복숭아가 설익고 옹이가 짐",
+          "interpretation_ko": "친척에게 박대받고 병으로 매력을 잃을 조짐",
+          "interpretation_en": "she will meet with unkindness from relatives and ill health will steal away her attractions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peaches",
+              "original": "If the peaches prove to be green and knotty, she will meet with unkindness from relatives and ill health will steal away her attractions.",
+              "translation_ko": "복숭아가 설익고 옹이가 지는 꿈은, 친척에게 박대받고 병으로 매력을 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "감과 복숭아를 먹음",
+          "interpretation_ko": "헤어졌다가 다시 만날 조짐",
+          "interpretation_en": "a sign of parting and then reuniting",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "食柿桃離而復合",
+              "translation_ko": "감과 복숭아를 먹으면 헤어졌다가 다시 합한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rice",
       "term_ko": "쌀",
       "term_en": "rice",
@@ -41577,6 +41684,94 @@
               "locator": "Pawn-shop",
               "original": "To dream that you see a pawn-shop, denotes you are negligent of your trust and are in danger of sacrificing your honorable name in some salacious affair.",
               "translation_ko": "전당포를 보는 꿈은, 믿음을 소홀히 하여 추잡한 일로 명예를 잃을 위험에 처했다는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peacock",
+      "term_ko": "공작",
+      "term_en": "peacock",
+      "aliases": [
+        "공작새"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "공작 꿈을 꿈",
+          "interpretation_ko": "기쁨과 재물의 빛나는 흐름 아래 슬픔과 실패가 도사려 작은 자극에도 뒤섞일 조짐",
+          "interpretation_en": "there lies below the brilliant and flashing ebb and flow of the stream of pleasure and riches, the slums of sorrow and failure, which threaten to mix with its clearness at the least disturbing influence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peacock",
+              "original": "For persons dreaming of peacocks, there lies below the brilliant and flashing ebb and flow of the stream of pleasure and riches, the slums of sorrow and failure, which threaten to mix with its clearness at the least disturbing influence.",
+              "translation_ko": "공작 꿈은, 기쁨과 재물의 빛나는 흐름 아래 슬픔과 실패가 도사려 작은 자극에도 뒤섞일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 공작을 소유함",
+          "interpretation_ko": "남자의 명예를 잘못 헤아려 속을 조짐",
+          "interpretation_en": "denotes that she will be deceived in her estimate of man's honor",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peacock",
+              "original": "For a woman to dream that she owns peacocks, denotes that she will be deceived in her estimate of man's honor.",
+              "translation_ko": "여성이 공작을 소유하는 꿈은, 남자의 명예를 잘못 헤아려 속을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "공작의 거친 울음소리를 들으며 화려한 깃털을 봄",
+          "interpretation_ko": "곱고 훤칠한 이가 저를 불편하고 불안하게 만들 조짐",
+          "interpretation_en": "denotes that some beautiful and well-appearing person will work you discomfort and uneasiness of mind",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peacock",
+              "original": "To hear their harsh voices while looking upon their proudly spread plumage, denotes that some beautiful and well-appearing person will work you discomfort and uneasiness of mind.",
+              "translation_ko": "공작의 거친 울음소리를 들으며 화려한 깃털을 보는 꿈은, 곱고 훤칠한 이가 저를 불편하고 불안하게 만들 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "공작을 봄",
+          "interpretation_ko": "크게 길하고 이로운 조짐",
+          "interpretation_en": "a very auspicious and favorable sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "孔雀者主大吉利",
+              "translation_ko": "공작은 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "공작이 날며 춤춤",
+          "interpretation_ko": "글재주로 이름이 날 조짐",
+          "interpretation_en": "a sign of literary distinction",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "孔雀飛舞有文章",
+              "translation_ko": "공작이 날아 춤추면 글재주가 있다"
             }
           ]
         }
@@ -90739,51 +90934,6 @@
       ]
     },
     {
-      "id": "peacock",
-      "term_ko": "공작",
-      "term_en": "peacock",
-      "aliases": [
-        "공작새"
-      ],
-      "category": "animal",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "공작을 봄",
-          "interpretation_ko": "크게 길하고 이로운 조짐",
-          "interpretation_en": "a very auspicious and favorable sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "孔雀者主大吉利",
-              "translation_ko": "공작은 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "공작이 날며 춤춤",
-          "interpretation_ko": "글재주로 이름이 날 조짐",
-          "interpretation_en": "a sign of literary distinction",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "孔雀飛舞有文章",
-              "translation_ko": "공작이 날아 춤추면 글재주가 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "persimmon",
       "term_ko": "감",
       "term_en": "persimmon",
@@ -102510,41 +102660,6 @@
               "locator": "Parsnips",
               "original": "To see or eat parsnips, is a favorable omen of successful business or trade, but love will take on unfavorable and gloomy aspects.",
               "translation_ko": "파스닙을 보거나 먹는 꿈은, 사업이나 거래는 순조로울 길조이나 애정은 어둡고 불리한 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "peach",
-      "term_ko": "복숭아",
-      "term_en": "peach",
-      "aliases": [
-        "도화",
-        "복사꽃",
-        "천도"
-      ],
-      "category": "object",
-      "polarity": "neutral",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "감과 복숭아를 먹음",
-          "interpretation_ko": "헤어졌다가 다시 만날 조짐",
-          "interpretation_en": "a sign of parting and then reuniting",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "食柿桃離而復合",
-              "translation_ko": "감과 복숭아를 먹으면 헤어졌다가 다시 합한다"
             }
           ]
         }

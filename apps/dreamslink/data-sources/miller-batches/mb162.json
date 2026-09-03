@@ -1,0 +1,23 @@
+{
+  "batch": 162,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Peaches",
+      "text": "Dreaming of seeing or eating peaches, implies the sickness of children, disappointing returns in business, and failure to make anticipated visits of pleasure; but if you see them on trees with foliage, you will secure some desired position or thing after much striving and risking of health and money. To see dried peaches, denotes that enemies will steal from you. For a young woman to dream of gathering luscious peaches from well-filled trees, she will, by her personal charms and qualifications, win a husband rich in worldly goods and wise in travel. If the peaches prove to be green and knotty, she will meet with unkindness from relatives and ill health will steal away her attractions.",
+      "note": "기존 상징 `peach`(복숭아, 주공해몽)에 다섯을 더한다. 「[151] See Orchard」는 이미 있는 `orchard`가 다른 내용을 가지고 있어 넘어간다"
+    },
+    {
+      "headword": "Peacock",
+      "text": "For persons dreaming of peacocks, there lies below the brilliant and flashing ebb and flow of the stream of pleasure and riches, the slums of sorrow and failure, which threaten to mix with its clearness at the least disturbing influence. For a woman to dream that she owns peacocks, denotes that she will be deceived in her estimate of man's honor. To hear their harsh voices while looking upon their proudly spread plumage, denotes that some beautiful and well-appearing person will work you discomfort and uneasiness of mind.",
+      "note": "기존 상징 `peacock`(공작, 주공해몽)에 셋을 더한다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "[151] See Orchard.",
+      "reason": "`Peaches` — 이미 있는 `orchard`가 다른 내용(과수원 자체)을 가지고 있어 특정 문장으로 옮길 것이 없다"
+    }
+  ]
+}
