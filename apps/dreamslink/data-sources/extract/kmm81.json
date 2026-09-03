@@ -1,0 +1,83 @@
+[
+  {
+    "id": "ladder",
+    "aliases": [
+      "사닥다리"
+    ],
+    "aliases_en": [
+      "a ladder",
+      "ladders"
+    ],
+    "contexts": {
+      "사다리를 올라감": "올랐다 올라갔다 올라가는",
+      "오르라고 사다리를 세워 줌": "세워 세운",
+      "사다리에서 떨어짐": "떨어졌 떨어지",
+      "부러진 사다리를 봄": "부러진 부러졌 망가진",
+      "사다리를 내려옴": "내려왔다 내려오는 내려가",
+      "사다리로 갇힌 데서 벗어남": "갇힌 벗어났다 빠져나",
+      "사다리를 오르다 어지러워짐": "어지러 아찔 현기증"
+    },
+    "contexts_en": {
+      "사다리를 올라감": "prosperity unstinted happiness",
+      "오르라고 사다리를 세워 줌": "raised height energetic nervy prominence",
+      "사다리에서 떨어짐": "fall despondency tradesman blasted crops",
+      "부러진 사다리를 봄": "broken betokens instance",
+      "사다리를 내려옴": "descend disappointment unrequited desires",
+      "사다리로 갇힌 데서 벗어남": "escape captivity confinement perilous paths",
+      "사다리를 오르다 어지러워짐": "dizzy honors haughty domineering"
+    }
+  },
+  {
+    "id": "ladle",
+    "aliases": [
+      "국자로",
+      "국자가"
+    ],
+    "aliases_en": [
+      "a ladle"
+    ],
+    "contexts": {
+      "국자를 봄": "보였다 놓여",
+      "국자가 깨졌거나 더러움": "깨졌 깨진 더러 지저분"
+    },
+    "contexts_en": {
+      "국자를 봄": "fortunate selection companion children",
+      "국자가 깨졌거나 더러움": "broken uncleanly grievous"
+    }
+  },
+  {
+    "id": "lagoon",
+    "aliases": [
+      "석호에",
+      "석호가"
+    ],
+    "aliases_en": [
+      "a lagoon"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "lament",
+    "aliases": [
+      "애통해했다",
+      "애통해하며",
+      "애통해하는",
+      "비통해했다",
+      "슬퍼했다",
+      "슬퍼하며"
+    ],
+    "aliases_en": [
+      "lamenting",
+      "lamented"
+    ],
+    "contexts": {
+      "벗이나 재물을 잃고 애통해함": "벗을 친구를 재물 돈을",
+      "살붙이를 잃고 애통해함": "살붙이 가족 부모 형제 친척"
+    },
+    "contexts_en": {
+      "벗이나 재물을 잃고 애통해함": "friends property struggles distress gain",
+      "살붙이를 잃고 애통해함": "relatives sickness harmony companions brighter"
+    }
+  }
+]

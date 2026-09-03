@@ -183,14 +183,25 @@
     "id": "crippled",
     "aliases": [
       "성치 않은 몸",
-      "다친 몸으로"
+      "다친 몸으로",
+      "절뚝이는",
+      "절뚝거리는",
+      "절뚝였다",
+      "몸이 성치 않은",
+      "성치 않은 사람"
     ],
     "aliases_en": [
       "the crippled",
       "maimed"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "몸이 성치 않은 이를 봄": "성치 굶주",
+      "여자가 다리를 저는 이를 봄": "여자가 여인이 아내가"
+    },
+    "contexts_en": {
+      "몸이 성치 않은 이를 봄": "famine distress trade poor",
+      "여자가 다리를 저는 이를 봄": "woman pleasures unfruitful disappointing"
+    }
   },
   {
     "id": "crochet-work",

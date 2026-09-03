@@ -2879,6 +2879,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "cries::살붙이나 벗이 도와 달라 외치는 소리를 들음": "help relatives friends",
   "criminal::죄를 지은 이와 어울림": "associating harassed unscrupulous",
   "criminal::범죄자가 법망을 피해 달아나는 것을 봄": "fleeing justice secrets",
+  "crippled::몸이 성치 않은 이를 봄": "famine distress trade poor",
+  "crippled::여자가 다리를 저는 이를 봄": "woman pleasures unfruitful disappointing",
   "crochet-work::코바늘뜨기를 함": "hook needle",
   "crochet-work::여자가 뜨개질을 함": "quiet peaceful home dutiful delight",
   "crochet-work::남자가 뜨개질 공장에 있음": "man thrift solid rise prospects",
@@ -3866,5 +3868,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lace::레이스를 삼": "buy conduct expensive establishment solid",
   "lace::레이스를 팖": "sell outrun resources",
   "lace::처녀가 레이스를 뜸": "making forecasts handsome wealthy",
-  "lace::혼례옷을 레이스로 꾸밈": "garnishing wedding garments charms removed"
+  "lace::혼례옷을 레이스로 꾸밈": "garnishing wedding garments charms removed",
+  "ladder::사다리를 올라감": "prosperity unstinted happiness",
+  "ladder::오르라고 사다리를 세워 줌": "raised height energetic nervy prominence",
+  "ladder::사다리에서 떨어짐": "fall despondency tradesman blasted crops",
+  "ladder::부러진 사다리를 봄": "broken betokens instance",
+  "ladder::사다리를 내려옴": "descend disappointment unrequited desires",
+  "ladder::사다리로 갇힌 데서 벗어남": "escape captivity confinement perilous paths",
+  "ladder::사다리를 오르다 어지러워짐": "dizzy honors haughty domineering",
+  "ladle::국자를 봄": "fortunate selection companion children",
+  "ladle::국자가 깨졌거나 더러움": "broken uncleanly grievous",
+  "lament::벗이나 재물을 잃고 애통해함": "friends property struggles distress gain",
+  "lament::살붙이를 잃고 애통해함": "relatives sickness harmony companions brighter"
 };

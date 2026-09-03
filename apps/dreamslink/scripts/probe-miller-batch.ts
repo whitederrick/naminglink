@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 80 — Label~Lace, 16건)
+// (지금 담긴 것: 배치 81 — Ladder~Lament, 13건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,22 +30,20 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "label", ctx: "꼬리표를 봄", text: "꼬리표를 보았다" },
-  { id: "labor", ctx: "짐승이 무거운 짐을 지고 일하는 것을 봄", text: "짐승이 무거운 짐을 지고 힘써 일하고 있었다" },
-  { id: "labor", ctx: "사람들이 힘써 일하는 것을 봄", text: "사람들이 힘써 일하고 있었다" },
-  { id: "labor", ctx: "제가 힘써 일함", text: "내가 힘써 일했다" },
-  { id: "laboratory", ctx: "실험실에 있음", text: "실험실에 들어갔다" },
-  { id: "laboratory", ctx: "연금술사가 되어 금을 만들려 함", text: "실험실에서 연금술로 금을 만들려 했다" },
-  { id: "labyrinth", ctx: "미로에 있음", text: "얽히고 갈피 잡기 어려운 미로에 있었다" },
-  { id: "labyrinth", ctx: "어둠 속 미로에 있음", text: "캄캄한 미로에 있었다" },
-  { id: "labyrinth", ctx: "푸른 덩굴과 나무로 된 미로에 있음", text: "푸른 덩굴로 된 미로에 있었다" },
-  { id: "labyrinth", ctx: "철길이 얽힌 미로에 있음", text: "철길이 얽힌 미로에 있었다" },
-  { id: "lace", ctx: "정인이 레이스를 걸침", text: "애인이 레이스를 걸치고 있었다" },
-  { id: "lace", ctx: "여자가 레이스 꿈을 꿈", text: "여자가 레이스 꿈을 꾸었다" },
-  { id: "lace", ctx: "레이스를 삼", text: "레이스를 샀다" },
-  { id: "lace", ctx: "레이스를 팖", text: "레이스를 팔았다" },
-  { id: "lace", ctx: "처녀가 레이스를 뜸", text: "처녀가 레이스를 떴다" },
-  { id: "lace", ctx: "혼례옷을 레이스로 꾸밈", text: "혼례옷을 레이스로 꾸몄다" },
+  { id: "ladder", ctx: "사다리를 올라감", text: "사다리를 올라갔다" },
+  { id: "ladder", ctx: "오르라고 사다리를 세워 줌", text: "누가 나보고 오르라고 사다리를 세워 주었다" },
+  { id: "ladder", ctx: "사다리에서 떨어짐", text: "사다리에서 떨어졌다" },
+  { id: "ladder", ctx: "부러진 사다리를 봄", text: "부러진 사다리가 놓여 있었다" },
+  { id: "ladder", ctx: "사다리를 내려옴", text: "사다리를 내려왔다" },
+  { id: "ladder", ctx: "사다리로 갇힌 데서 벗어남", text: "사다리를 타고 갇힌 곳에서 벗어났다" },
+  { id: "ladder", ctx: "사다리를 오르다 어지러워짐", text: "사다리를 오르다 어지러웠다" },
+  { id: "ladle", ctx: "국자가 깨졌거나 더러움", text: "깨진 국자가 있었다" },
+  { id: "lagoon", ctx: "석호를 봄", text: "석호가 눈앞에 펌쳐졌다" },
+  { id: "lament", ctx: "벗이나 재물을 잃고 애통해함", text: "친구를 잃고 애통해했다" },
+  { id: "lament", ctx: "살붙이를 잃고 애통해함", text: "가족을 잃고 애통해했다" },
+  { id: "crippled", ctx: "여자가 다리를 저는 이를 봄", text: "여자가 절뚝이는 사람을 보았다" },
+  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
+  { id: "crippled", ctx: "몸이 성치 않은 이를 봄", text: "몸이 성치 않은 사람들이 굶주리고 있었다" },
 ];
 
 let notFound = 0;

@@ -5957,5 +5957,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "lace": [
     "lace",
     "laces"
+  ],
+  "ladder": [
+    "a ladder",
+    "ladders"
+  ],
+  "ladle": [
+    "a ladle"
+  ],
+  "lagoon": [
+    "a lagoon"
+  ],
+  "lament": [
+    "lamenting",
+    "lamented"
   ]
 };
