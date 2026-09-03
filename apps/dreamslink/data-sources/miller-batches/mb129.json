@@ -1,0 +1,26 @@
+{
+  "batch": 129,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Molasses",
+      "text": "To dream of molasses, is a sign that some one is going to extend you pleasant hospitality, and, through its acceptance, you will meet agreeable and fortunate surprises. To eat it, foretells that you will be discouraged and disappointed in love. To have it smeared on your clothing, denotes you will have disagreeable offers of marriage, and probably losses in business.",
+      "note": "새 상징 `molasses`(당밀)"
+    },
+    {
+      "headword": "Moles",
+      "text": "To dream of moles, indicates secret enemies.\n\nTo dream of catching a mole, you will overcome any opposition and rise to prominence.\n\nTo see moles, or such blemishes, on the person, indicates illness and quarrels.",
+      "note": "**한 표제어가 두 사물을 말한다** — 앞 둘은 짐승(두더지), 셋째는 살갗의 점이다. 상징을 둘로 갈랐다(`mole` 두더지 · `blemish` 몸에 난 점). `blemish` 의 `term_en` 을 `mole` 로 안 쓴 이유는 「mole」이 「skin mole」을 품어 영어 문장에서 둘 다 걸리기 때문이다(§25 곁가지)"
+    },
+    {
+      "headword": "Monk",
+      "text": "To dream of seeing a monk, foretells dissensions in the family and unpleasant journeyings. To a young woman, this dream signifies that gossip and deceit will be used against her.\n\nTo dream that you are a monk, denotes personal loss and illness.",
+      "note": "「스님」이 기존 `monk` 의 이름이다(EXACT). 붙인다 — 별칭에 「수도승」·「수도사」를 함께 올린다"
+    },
+    {
+      "headword": "Monkey",
+      "text": "To dream of a monkey, denotes that deceitful people will flatter you to advance their own interests.\n\nTo see a dead monkey, signifies that your worst enemies will soon be removed.\n\nIf a young woman dreams of a monkey, she should insist on an early marriage, as her lover will suspect unfaithfulness.\n\nFor a woman to dream of feeding a monkey, denotes that she will be betrayed by a flatterer.",
+      "note": "「원숭이」가 기존 `monkey` 의 이름이다. 붙이면서 **`apes`(유인원)가 쥐고 있던 「원숭이」·`monkey`·`monkeys` 를 뺀다** — 이름을 서로 맞바꿔 쥐고 있었다(`monkey` 는 `ape` 를 쥐고 있었다). 옛 상처이고 이번 배치가 만든 것이 아니다"
+    }
+  ]
+}

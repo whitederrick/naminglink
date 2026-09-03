@@ -495,6 +495,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "monk::법사가 법좌에 오름": "dharma seat preaching pulpit ascended",
   "monk::스님이 사람에게 경 읽기를 가르침": "teaching taught learn",
   "monk::스님과 비구니가 경을 봄": "nun nuns together reading sutra",
+  "monk::스님을 봄": "dissensions family unpleasant journeyings",
+  "monk::처녀가 스님을 봄": "young woman gossip deceit",
+  "monk::제가 스님이 됨": "personal loss illness",
   "sun-and-moon::불이 해와 달을 태움": "fire burning burned flames",
   "sun-and-moon::배 위에서 해와 달을 봄": "boat deck watching aboard",
   "sun-and-moon::배를 타고 해와 달을 지나감": "sailed passed crossing past",
@@ -527,6 +530,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "marketplace::시장에서 상한 채소나 고기를 봄": "decayed vegetables meat losses",
   "monkey::산 원숭이를 봄": "wild mountain forest",
   "monkey::흰 원숭이를 봄": "white pale snowy",
+  "monkey::원숭이를 봄": "deceitful flatter advance interests",
+  "monkey::죽은 원숭이를 봄": "dead worst enemies removed",
+  "monkey::처녀가 원숭이를 봄": "young woman early marriage unfaithfulness",
+  "monkey::여성이 원숭이에게 먹이를 줌": "feeding betrayed",
   "rock::너럭바위가 편안하고 든든함": "flat comfortable solid steady broad",
   "rock::바위에 오름": "climbed climbing ascended top",
   "shooting-an-arrow::내가 남을 쏨": "aimed aiming target someone",
@@ -4433,5 +4440,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "mocking-bird::흉내지빠귀를 보거나 그 소리를 들음": "invited pleasant visit smoothly prosperously",
   "mocking-bird::여성이 다치거나 죽은 흉내지빠귀를 봄": "wounded dead disagreement lover",
   "model::모델을 봄": "social deplete purse quarrels regrets",
-  "model::처녀가 모델이 됨": "young woman seeking entangled love affair selfishness"
+  "model::처녀가 모델이 됨": "young woman seeking entangled love affair selfishness",
+  "molasses::당밀을 봄": "hospitality acceptance agreeable surprises",
+  "molasses::당밀을 먹음": "eat discouraged disappointed love",
+  "molasses::당밀이 옷에 묻음": "smeared clothing offers marriage losses",
+  "mole::두더지를 봄": "secret enemies",
+  "mole::두더지를 잡음": "catching overcome opposition prominence",
+  "blemish::몸에 난 점을 봄": "person illness quarrels"
 };

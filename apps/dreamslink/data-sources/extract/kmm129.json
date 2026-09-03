@@ -1,0 +1,62 @@
+[
+  {
+    "id": "molasses",
+    "aliases": [
+      "당밀이",
+      "당밀을",
+      "조청"
+    ],
+    "aliases_en": [
+      "treacle"
+    ],
+    "contexts": {
+      "당밀을 봄": "끈적 걸쭉",
+      "당밀을 먹음": "먹었 핥았",
+      "당밀이 옷에 묻음": "옷에 묻었 묻어"
+    },
+    "contexts_en": {
+      "당밀을 봄": "hospitality acceptance agreeable surprises",
+      "당밀을 먹음": "eat discouraged disappointed love",
+      "당밀이 옷에 묻음": "smeared clothing offers marriage losses"
+    }
+  },
+  {
+    "id": "mole",
+    "aliases": [
+      "두더지가",
+      "두더지를",
+      "두더지들"
+    ],
+    "aliases_en": [
+      "moles"
+    ],
+    "contexts": {
+      "두더지를 봄": "땅속 나타났",
+      "두더지를 잡음": "잡았 붙잡"
+    },
+    "contexts_en": {
+      "두더지를 봄": "secret enemies",
+      "두더지를 잡음": "catching overcome opposition prominence"
+    }
+  },
+  {
+    "id": "blemish",
+    "aliases": [
+      "점이 생겼다",
+      "점이 났다",
+      "몸에 점이",
+      "살갗에 점",
+      "검은 점이"
+    ],
+    "aliases_en": [
+      "blemishes",
+      "skin blemish"
+    ],
+    "contexts": {
+      "몸에 난 점을 봄": "살갗 생겼 자국"
+    },
+    "contexts_en": {
+      "몸에 난 점을 봄": "person illness quarrels"
+    }
+  }
+]

@@ -34,6 +34,7 @@
     "m126.json",
     "m127.json",
     "m128.json",
+    "m129.json",
     "m13.json",
     "m14.json",
     "m15.json",
@@ -31387,6 +31388,220 @@
       ]
     },
     {
+      "id": "monk",
+      "term_ko": "스님",
+      "term_en": "monk",
+      "aliases": [
+        "승려",
+        "법사",
+        "비구",
+        "사문",
+        "수도승",
+        "수도사",
+        "스님이",
+        "스님을"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스님을 봄",
+          "interpretation_ko": "집안에 불화가 생기고 달갑지 않은 길을 떠날 흉한 조짐",
+          "interpretation_en": "foretells dissensions in the family and unpleasant journeyings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Monk",
+              "original": "To dream of seeing a monk, foretells dissensions in the family and unpleasant journeyings.",
+              "translation_ko": "꿈에 스님을 보면 집안에 불화가 생기고 달갑지 않은 길을 떠난다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 스님을 봄",
+          "interpretation_ko": "험담과 속임수가 저를 겨눌 흉한 조짐",
+          "interpretation_en": "signifies that gossip and deceit will be used against her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Monk",
+              "original": "To a young woman, this dream signifies that gossip and deceit will be used against her.",
+              "translation_ko": "처녀에게 이 꿈은 험담과 속임수가 저를 겨눔을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제가 스님이 됨",
+          "interpretation_ko": "제 것을 잃고 앓을 흉한 조짐",
+          "interpretation_en": "denotes personal loss and illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Monk",
+              "original": "To dream that you are a monk, denotes personal loss and illness.",
+              "translation_ko": "제가 스님이 되는 꿈은 제 것을 잃고 앓음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "법사가 법좌에 오름",
+          "interpretation_ko": "질병이 있을 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "佛道僧尼鬼神",
+              "original": "法師登座主疾病",
+              "translation_ko": "법사가 법좌에 오르면 질병이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스님이 사람에게 경 읽기를 가르침",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "佛道僧尼鬼神",
+              "original": "僧師教人唸經吉",
+              "translation_ko": "스님이 사람에게 경 읽기를 가르치면 길하다"
+            }
+          ]
+        },
+        {
+          "context": "스님과 비구니가 경을 봄",
+          "interpretation_ko": "답답하고 번민할 조짐",
+          "interpretation_en": "a sign of stifling worry",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "佛道僧尼鬼神",
+              "original": "和尚尼姑看經悶",
+              "translation_ko": "스님과 비구니가 경을 보면 답답하고 번민스럽다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monkey",
+      "term_ko": "원숭이",
+      "term_en": "monkey",
+      "aliases": [
+        "잔나비",
+        "원숭이가",
+        "원숭이를",
+        "원숭이들"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "원숭이를 봄",
+          "interpretation_ko": "속임수 쓰는 이들이 제 잇속을 챙기려 저를 치켜세울 흉한 조짐",
+          "interpretation_en": "denotes that deceitful people will flatter you to advance their own interests",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Monkey",
+              "original": "To dream of a monkey, denotes that deceitful people will flatter you to advance their own interests.",
+              "translation_ko": "원숭이의 꿈은, 속임수 쓰는 이들이 제 잇속을 챙기려 저를 치켜세움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 원숭이를 봄",
+          "interpretation_ko": "가장 사나운 적이 곧 물러갈 길한 조짐",
+          "interpretation_en": "signifies that your worst enemies will soon be removed",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Monkey",
+              "original": "To see a dead monkey, signifies that your worst enemies will soon be removed.",
+              "translation_ko": "죽은 원숭이를 보면 가장 사나운 적이 곧 물러간다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 원숭이를 봄",
+          "interpretation_ko": "정인이 딴마음을 의심하니 혼인을 서둘러야 할 흉한 조짐",
+          "interpretation_en": "she should insist on an early marriage, as her lover will suspect unfaithfulness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Monkey",
+              "original": "If a young woman dreams of a monkey, she should insist on an early marriage, as her lover will suspect unfaithfulness.",
+              "translation_ko": "처녀가 원숭이 꿈을 꾸면, 정인이 딴마음을 의심하니 혼인을 서둘러야 한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 원숭이에게 먹이를 줌",
+          "interpretation_ko": "치켜세우는 이에게 속아 넘어갈 흉한 조짐",
+          "interpretation_en": "denotes that she will be betrayed by a flatterer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Monkey",
+              "original": "For a woman to dream of feeding a monkey, denotes that she will be betrayed by a flatterer.",
+              "translation_ko": "여성이 원숭이에게 먹이를 주는 꿈을 꾸면, 치켜세우는 이에게 속아 넘어간다"
+            }
+          ]
+        },
+        {
+          "context": "산 원숭이를 봄",
+          "interpretation_ko": "다툼과 송사의 실마리가 생길 조짐",
+          "interpretation_en": "a sign of the beginnings of a dispute or lawsuit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "山猴主有爭訟端",
+              "translation_ko": "산 원숭이는 다툼과 송사의 실마리가 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "흰 원숭이를 봄",
+          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining rank and salary",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "白猴主有祿位得",
+              "translation_ko": "흰 원숭이는 녹봉과 지위를 얻을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rice",
       "term_ko": "쌀",
       "term_en": "rice",
@@ -60980,62 +61195,61 @@
       ]
     },
     {
-      "id": "monk",
-      "term_ko": "스님",
-      "term_en": "monk",
+      "id": "molasses",
+      "term_ko": "당밀",
+      "term_en": "molasses",
       "aliases": [
-        "승려",
-        "법사",
-        "비구",
-        "사문"
+        "당밀이",
+        "당밀을",
+        "조청"
       ],
-      "category": "person",
+      "category": "object",
       "polarity": "ambivalent",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "법사가 법좌에 오름",
-          "interpretation_ko": "질병이 있을 조짐",
-          "interpretation_en": "a sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "佛道僧尼鬼神",
-              "original": "法師登座主疾病",
-              "translation_ko": "법사가 법좌에 오르면 질병이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "스님이 사람에게 경 읽기를 가르침",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
+          "context": "당밀을 봄",
+          "interpretation_ko": "누군가가 반갑게 맞아 주고 그것을 받아들여 좋고 복된 뜻밖의 일을 만날 길한 조짐",
+          "interpretation_en": "is a sign that some one is going to extend you pleasant hospitality, and, through its acceptance, you will meet agreeable and fortunate surprises",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "佛道僧尼鬼神",
-              "original": "僧師教人唸經吉",
-              "translation_ko": "스님이 사람에게 경 읽기를 가르치면 길하다"
+              "work": "miller",
+              "locator": "Molasses",
+              "original": "To dream of molasses, is a sign that some one is going to extend you pleasant hospitality, and, through its acceptance, you will meet agreeable and fortunate surprises.",
+              "translation_ko": "당밀의 꿈은, 누군가가 반갑게 맞아 주고 그것을 받아들여 좋고 복된 뜻밖의 일을 만남을 뜻한다"
             }
           ]
         },
         {
-          "context": "스님과 비구니가 경을 봄",
-          "interpretation_ko": "답답하고 번민할 조짐",
-          "interpretation_en": "a sign of stifling worry",
+          "context": "당밀을 먹음",
+          "interpretation_ko": "사랑에서 낙담하고 실망할 흉한 조짐",
+          "interpretation_en": "foretells that you will be discouraged and disappointed in love",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "佛道僧尼鬼神",
-              "original": "和尚尼姑看經悶",
-              "translation_ko": "스님과 비구니가 경을 보면 답답하고 번민스럽다"
+              "work": "miller",
+              "locator": "Molasses",
+              "original": "To eat it, foretells that you will be discouraged and disappointed in love.",
+              "translation_ko": "당밀을 먹으면 사랑에서 낙담하고 실망한다"
+            }
+          ]
+        },
+        {
+          "context": "당밀이 옷에 묻음",
+          "interpretation_ko": "달갑지 않은 혼담이 들어오고 하는 일에도 잃을 것이 있을 흉한 조짐",
+          "interpretation_en": "denotes you will have disagreeable offers of marriage, and probably losses in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Molasses",
+              "original": "To have it smeared on your clothing, denotes you will have disagreeable offers of marriage, and probably losses in business.",
+              "translation_ko": "당밀이 옷에 묻으면, 달갑지 않은 혼담이 들어오고 하는 일에도 잃을 것이 있다"
             }
           ]
         }
@@ -64003,7 +64217,6 @@
       "term_ko": "유인원",
       "term_en": "apes",
       "aliases": [
-        "원숭이",
         "고릴라",
         "침팬지",
         "성성이"
@@ -81564,45 +81777,47 @@
       ]
     },
     {
-      "id": "monkey",
-      "term_ko": "원숭이",
-      "term_en": "monkey",
+      "id": "mole",
+      "term_ko": "두더지",
+      "term_en": "mole",
       "aliases": [
-        "잔나비"
+        "두더지가",
+        "두더지를",
+        "두더지들"
       ],
       "category": "animal",
       "polarity": "ambivalent",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "산 원숭이를 봄",
-          "interpretation_ko": "다툼과 송사의 실마리가 생길 조짐",
-          "interpretation_en": "a sign of the beginnings of a dispute or lawsuit",
+          "context": "두더지를 봄",
+          "interpretation_ko": "몰래 해치려는 이가 있음을 알리는 흉한 조짐",
+          "interpretation_en": "indicates secret enemies",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "山猴主有爭訟端",
-              "translation_ko": "산 원숭이는 다툼과 송사의 실마리가 있을 조짐이다"
+              "work": "miller",
+              "locator": "Moles",
+              "original": "To dream of moles, indicates secret enemies.",
+              "translation_ko": "두더지의 꿈은 몰래 해치려는 이가 있음을 알린다"
             }
           ]
         },
         {
-          "context": "흰 원숭이를 봄",
-          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining rank and salary",
+          "context": "두더지를 잡음",
+          "interpretation_ko": "맞서는 것을 다 이겨 내고 이름을 드날릴 길한 조짐",
+          "interpretation_en": "you will overcome any opposition and rise to prominence",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "白猴主有祿位得",
-              "translation_ko": "흰 원숭이는 녹봉과 지위를 얻을 조짐이다"
+              "work": "miller",
+              "locator": "Moles",
+              "original": "To dream of catching a mole, you will overcome any opposition and rise to prominence.",
+              "translation_ko": "두더지를 잡는 꿈은, 맞서는 것을 다 이겨 내고 이름을 드날림을 뜻한다"
             }
           ]
         }
@@ -84726,6 +84941,41 @@
               "locator": "Bleeding",
               "original": "To dream of bleeding, denotes death by horrible accidents and malicious reports about you. Fortune will turn against you.",
               "translation_ko": "피를 흘리는 꿈을 꾸면 끔찍한 사고로 인한 죽음과 자신에 대한 악의적인 소문을 뜻하며 운이 등을 돌릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blemish",
+      "term_ko": "몸에 난 점",
+      "term_en": "blemish",
+      "aliases": [
+        "점이 생겼다",
+        "점이 났다",
+        "몸에 점이",
+        "살갗에 점",
+        "검은 점이"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "몸에 난 점을 봄",
+          "interpretation_ko": "병과 다툼이 있을 흉한 조짐",
+          "interpretation_en": "indicates illness and quarrels",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moles",
+              "original": "To see moles, or such blemishes, on the person, indicates illness and quarrels.",
+              "translation_ko": "몸에 난 점이나 그런 자국을 보면 병과 다툼이 있다"
             }
           ]
         }

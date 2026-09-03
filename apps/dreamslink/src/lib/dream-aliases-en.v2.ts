@@ -591,8 +591,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "marketplaces"
   ],
   "monkey": [
-    "monkeys",
-    "ape"
+    "monkeys"
   ],
   "rock": [
     "boulder",
@@ -2802,8 +2801,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "apes": [
     "ape",
-    "monkey",
-    "monkeys",
     "gorilla"
   ],
   "apparition": [
@@ -6364,5 +6361,15 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "model": [
     "models"
+  ],
+  "molasses": [
+    "treacle"
+  ],
+  "mole": [
+    "moles"
+  ],
+  "blemish": [
+    "blemishes",
+    "skin blemish"
   ]
 };

@@ -765,15 +765,12 @@
   {
     "id": "apes",
     "aliases": [
-      "원숭이",
       "고릴라",
       "침팬지",
       "성성이"
     ],
     "aliases_en": [
       "ape",
-      "monkey",
-      "monkeys",
       "gorilla"
     ],
     "contexts": {

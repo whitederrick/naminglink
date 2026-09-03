@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 128 — Miser~Models, 17건)
+// (지금 담긴 것: 배치 129 — Molasses~Monkey, 17건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,24 +30,24 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "miser", ctx: "구두쇠를 봄", text: "구두쇠가 나타났다" },
-  { id: "miser", ctx: "여성이 구두쇠의 도움을 받음", text: "구두쇠가 나를 도와주었다" },
-  { id: "miser", ctx: "제가 구두쇠 노릇을 함", text: "내가 인색하게 굴었다" },
-  { id: "miser", ctx: "벗들이 구두쇠임", text: "벗들이 구두쇠였다" },
-  { id: "fog", ctx: "안개에 둘러싸임", text: "안개에 둘러싸여 있었다" },
-  { id: "fog", ctx: "안개가 걷힘", text: "안개가 걷혔다" },
-  { id: "fog", ctx: "안개 속 다른 사람을 봄", text: "안개 속에서 다른 사람을 보았다" },
-  { id: "mistletoe", ctx: "겨우살이를 봄", text: "겨우살이가 매달려 있었다" },
-  { id: "mistletoe", ctx: "젊은이가 겨우살이를 봄", text: "젊은이가 겨우살이를 보았다" },
-  { id: "mistletoe", ctx: "궂은 조짐과 함께 겨우살이를 봄", text: "겨우살이가 궂은 조짐과 함께 보였다" },
-  { id: "mocking-bird", ctx: "흉내지빠귀를 보거나 그 소리를 들음", text: "흉내지빠귀가 지저귀는 소리를 들었다" },
-  { id: "mocking-bird", ctx: "여성이 다치거나 죽은 흉내지빠귀를 봄", text: "다친 흉내지빠귀를 보았다" },
-  { id: "model", ctx: "모델을 봄", text: "모델이 나타났다" },
-  { id: "model", ctx: "처녀가 모델이 됨", text: "처녀가 모델이 되려 했다" },
+  { id: "molasses", ctx: "당밀을 봄", text: "당밀이 끈적하게 담겨 있었다" },
+  { id: "molasses", ctx: "당밀을 먹음", text: "당밀을 먹었다" },
+  { id: "molasses", ctx: "당밀이 옷에 묻음", text: "당밀이 옷에 묻었다" },
+  { id: "mole", ctx: "두더지를 봄", text: "두더지가 땅속에서 나타났다" },
+  { id: "mole", ctx: "두더지를 잡음", text: "두더지를 잡았다" },
+  { id: "blemish", ctx: "몸에 난 점을 봄", text: "몸에 점이 생겼다" },
+  { id: "monk", ctx: "스님을 봄", text: "스님을 마주쳤다" },
+  { id: "monk", ctx: "처녀가 스님을 봄", text: "처녀가 스님을 보았다" },
+  { id: "monk", ctx: "제가 스님이 됨", text: "내가 스님이 되었다" },
+  { id: "monkey", ctx: "원숭이를 봄", text: "원숭이가 나타났다" },
+  { id: "monkey", ctx: "죽은 원숭이를 봄", text: "죽은 원숭이를 보았다" },
+  { id: "monkey", ctx: "처녀가 원숭이를 봄", text: "처녀가 원숭이를 보았다" },
+  { id: "monkey", ctx: "여성이 원숭이에게 먹이를 줌", text: "여자가 원숭이에게 먹이를 주었다" },
   // 지킴 — 이번 배치가 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "fog", ctx: "안개에서 빠져나옴", text: "안개에서 빠져나왔다" },
-  { id: "fog", ctx: "짙은 안개 속을 헤치고 감", text: "짙은 안개 속을 헤치고 갔다" },
-  { id: "mirror", ctx: "깨진 거울을 봄", text: "깨진 거울을 보았다" },
+  { id: "monkey", ctx: "흰 원숭이를 봄", text: "하얀 원숭이를 보았다" },
+  { id: "monkey", ctx: "산 원숭이를 봄", text: "산속에서 원숭이를 보았다" },
+  { id: "monk", ctx: "스님이 사람에게 경 읽기를 가르침", text: "스님이 경 읽기를 가르쳐 주었다" },
+  { id: "apes", ctx: "유인원을 보는 꿈을 꿈", text: "커다란 유인원을 보았다" },
 ];
 
 let notFound = 0;
