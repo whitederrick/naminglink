@@ -54,6 +54,7 @@
     "m144.json",
     "m145.json",
     "m146.json",
+    "m147.json",
     "m15.json",
     "m16.json",
     "m17.json",
@@ -29045,6 +29046,108 @@
       ]
     },
     {
+      "id": "coat",
+      "term_ko": "외투",
+      "term_en": "coat",
+      "aliases": [
+        "코트",
+        "웃옷"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "외투 꿈을 꿈",
+          "interpretation_ko": "남들의 심술로 애먹을 흉조",
+          "interpretation_en": "to dream of an overcoat, denotes you will suffer from contrariness, exhibited by others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Overcoat",
+              "original": "To dream of an overcoat, denotes you will suffer from contrariness, exhibited by others.",
+              "translation_ko": "외투 꿈은, 남들의 심술로 애먹을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "외투를 빌림",
+          "interpretation_ko": "낯선 이들의 실수로 불운을 겪을 흉조",
+          "interpretation_en": "to borrow one, foretells you will be unfortunate through mistakes made by strangers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Overcoat",
+              "original": "To borrow one, foretells you will be unfortunate through mistakes made by strangers.",
+              "translation_ko": "외투를 빌리는 꿈은, 낯선 이들의 실수로 불운을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남의 외투를 입음",
+          "interpretation_ko": "벗에게 보증을 서 달라고 청하게 될 조짐",
+          "interpretation_en": "you will ask some friend to go security for you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coat",
+              "original": "To dream of wearing another's coat, signifies that you will ask some friend to go security for you.",
+              "translation_ko": "남의 외투를 입는 꿈은 벗에게 보증을 서 달라고 청하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "외투가 찢어진 것을 봄",
+          "interpretation_ko": "가까운 벗을 잃고 일이 스산해질 조짐",
+          "interpretation_en": "the loss of a close friend and dreary business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coat",
+              "original": "To see your coat torn, denotes the loss of a close friend and dreary business.",
+              "translation_ko": "제 외투가 찢어진 것을 보면 가까운 벗을 잃고 일이 스산해진다"
+            }
+          ]
+        },
+        {
+          "context": "새 외투를 봄",
+          "interpretation_ko": "글로 얻는 영예가 있을 조짐",
+          "interpretation_en": "some literary honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coat",
+              "original": "To see a new coat, portends for you some literary honor.",
+              "translation_ko": "새 외투를 보면 글로 얻는 영예가 온다"
+            }
+          ]
+        },
+        {
+          "context": "외투를 잃어버림",
+          "interpretation_ko": "지나친 자신으로 잃은 재물을 다시 쌓아야 할 조짐",
+          "interpretation_en": "you will have to rebuild your fortune lost through being over-confident in speculations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coat",
+              "original": "To lose your coat, you will have to rebuild your fortune lost through being over-confident in speculations.",
+              "translation_ko": "외투를 잃어버리면, 지나친 자신으로 잃은 재물을 다시 쌓아야 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "coins",
       "term_ko": "동전",
       "term_en": "coins",
@@ -44984,80 +45087,6 @@
       ]
     },
     {
-      "id": "coat",
-      "term_ko": "외투",
-      "term_en": "coat",
-      "aliases": [
-        "코트",
-        "웃옷"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남의 외투를 입음",
-          "interpretation_ko": "벗에게 보증을 서 달라고 청하게 될 조짐",
-          "interpretation_en": "you will ask some friend to go security for you",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Coat",
-              "original": "To dream of wearing another's coat, signifies that you will ask some friend to go security for you.",
-              "translation_ko": "남의 외투를 입는 꿈은 벗에게 보증을 서 달라고 청하게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "외투가 찢어진 것을 봄",
-          "interpretation_ko": "가까운 벗을 잃고 일이 스산해질 조짐",
-          "interpretation_en": "the loss of a close friend and dreary business",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Coat",
-              "original": "To see your coat torn, denotes the loss of a close friend and dreary business.",
-              "translation_ko": "제 외투가 찢어진 것을 보면 가까운 벗을 잃고 일이 스산해진다"
-            }
-          ]
-        },
-        {
-          "context": "새 외투를 봄",
-          "interpretation_ko": "글로 얻는 영예가 있을 조짐",
-          "interpretation_en": "some literary honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Coat",
-              "original": "To see a new coat, portends for you some literary honor.",
-              "translation_ko": "새 외투를 보면 글로 얻는 영예가 온다"
-            }
-          ]
-        },
-        {
-          "context": "외투를 잃어버림",
-          "interpretation_ko": "지나친 자신으로 잃은 재물을 다시 쌓아야 할 조짐",
-          "interpretation_en": "you will have to rebuild your fortune lost through being over-confident in speculations",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Coat",
-              "original": "To lose your coat, you will have to rebuild your fortune lost through being over-confident in speculations.",
-              "translation_ko": "외투를 잃어버리면, 지나친 자신으로 잃은 재물을 다시 쌓아야 한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "cock-crowing",
       "term_ko": "수탉 울음",
       "term_en": "cock-crowing",
@@ -51422,6 +51451,80 @@
               "locator": "Ornament",
               "original": "Losing an ornament, brings the loss either of a lover, or a good situation.",
               "translation_ko": "장식품을 잃어버리는 꿈은, 정인이나 좋은 자리를 잃을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ouija",
+      "term_ko": "위자보드",
+      "term_en": "ouija",
+      "aliases": [
+        "위자보드가",
+        "위자보드를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "위자보드로 점을 침",
+          "interpretation_ko": "계획이 어그러지고 동업이 불운할 흉조",
+          "interpretation_en": "to dream of working on an ouija board, foretells the miscarriage of plans and unlucky partnerships",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ouija",
+              "original": "To dream of working on an ouija board, foretells the miscarriage of plans and unlucky partnerships.",
+              "translation_ko": "위자보드로 점을 치는 꿈은, 계획이 어그러지고 동업이 불운할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "위자보드가 작동하지 않음",
+          "interpretation_ko": "일 대신 즐거움을 앞세워 생긴 골칫거리를 예고하는 흉조",
+          "interpretation_en": "to fail to work, one is ominous of complications, caused by substituting pleasure for business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ouija",
+              "original": "To fail to work, one is ominous of complications, caused by substituting pleasure for business.",
+              "translation_ko": "위자보드가 작동하지 않는 꿈은, 일 대신 즐거움을 앞세워 생긴 골칫거리를 예고한다"
+            }
+          ]
+        },
+        {
+          "context": "위자보드가 술술 글자를 씀",
+          "interpretation_ko": "잘 짜인 일에서 좋은 결과를 얻을 길조",
+          "interpretation_en": "if it writes fluently, you may expect fortunate results from some well-planned enterprise",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ouija",
+              "original": "If it writes fluently, you may expect fortunate results from some well-planned enterprise.",
+              "translation_ko": "위자보드가 술술 글자를 쓰는 꿈은, 잘 짜인 일에서 좋은 결과를 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "잃어버린 위자보드를 되찾음",
+          "interpretation_ko": "억울한 일이 좋게 풀릴 길조",
+          "interpretation_en": "to recover it, foretells that grievances will meet a favorable adjustment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ouija",
+              "original": "To recover it, foretells that grievances will meet a favorable adjustment.",
+              "translation_ko": "잃어버린 위자보드를 되찾는 꿈은, 억울한 일이 좋게 풀릴 조짐이다"
             }
           ]
         }
@@ -65353,6 +65456,67 @@
               "locator": "捕禁刑罰獄具",
               "original": "為吏所錄有急事",
               "translation_ko": "관리에게 적히면 급한 일이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "owl",
+      "term_ko": "부엉이",
+      "term_en": "owl",
+      "aliases": [
+        "부엉이가",
+        "부엉이를",
+        "올빼미"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "부엉이의 엄숙하고 기이한 소리를 들음",
+          "interpretation_ko": "건강과 기쁨 뒤로 죽음이 바짝 다가온다는 경고 — 집 떠난 이의 궂은 소식이 뒤따를 흉조",
+          "interpretation_en": "to hear the solemn, unearthly sound of the muffled voice of the owl, warns dreamers that death creeps closely in the wake of health and joy; bad tidings of the absent will surely follow this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Owl",
+              "original": "To hear the solemn, unearthly sound of the muffled voice of the owl, warns dreamers that death creeps closely in the wake of health and joy. Precaution should be taken that life is not ruthlessly exposed to his unyielding grasp. Bad tidings of the absent will surely follow this dream.",
+              "translation_ko": "부엉이의 엄숙하고 기이한 소리를 듣는 꿈은, 건강과 기쁨 뒤로 죽음이 바짝 다가온다는 경고다. 목숨을 함부로 위태롭게 두지 않도록 조심해야 한다. 집 떠난 이의 궂은 소식이 반드시 뒤따를 것이다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 부엉이를 봄",
+          "interpretation_ko": "위중한 병이나 죽음에서 아슬아슬하게 벗어날 길조",
+          "interpretation_en": "to see a dead owl, denotes a narrow escape from desperate illness or death",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Owl",
+              "original": "To see a dead owl, denotes a narrow escape from desperate illness or death.",
+              "translation_ko": "죽은 부엉이를 보는 꿈은, 위중한 병이나 죽음에서 아슬아슬하게 벗어날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부엉이를 봄",
+          "interpretation_ko": "은밀히 헐뜯음을 당하고 원수의 위험에 놓일 흉조",
+          "interpretation_en": "to see an owl, foretells that you will be secretly maligned and be in danger from enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Owl",
+              "original": "To see an owl, foretells that you will be secretly maligned and be in danger from enemies.",
+              "translation_ko": "부엉이를 보는 꿈은, 은밀히 헐뜯음을 당하고 원수의 위험에 놓일 조짐이다"
             }
           ]
         }
@@ -87644,6 +87808,98 @@
       ]
     },
     {
+      "id": "oven",
+      "term_ko": "오븐",
+      "term_en": "oven",
+      "aliases": [
+        "오븐이",
+        "오븐을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여성의 오븐이 새빨갛게 달아오름",
+          "interpretation_ko": "다정하고 사심 없는 성품 덕에 가족과 벗의 사랑을 받을 길조",
+          "interpretation_en": "for a woman to dream that her baking oven is red hot, denotes that she will be loved by her own family and friends, for her sweet and unselfish nature",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oven",
+              "original": "For a woman to dream that her baking oven is red hot, denotes that she will be loved by her own family and friends, for her sweet and unselfish nature.",
+              "translation_ko": "여성의 오븐이 새빨갛게 달아오르는 꿈은, 다정하고 사심 없는 성품 덕에 가족과 벗의 사랑을 받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "오븐이 고장 남",
+          "interpretation_ko": "자식과 하인 때문에 여러 골칫거리를 겪을 흉조",
+          "interpretation_en": "if the oven is broken, she will undergo many vexations from children and servants",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oven",
+              "original": "If the oven is broken, she will undergo many vexations from children and servants.",
+              "translation_ko": "오븐이 고장 나는 꿈은, 자식과 하인 때문에 여러 골칫거리를 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "over-alls",
+      "term_ko": "작업복",
+      "term_en": "over-alls",
+      "aliases": [
+        "작업복이",
+        "작업복을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여성이 남자가 작업복 입은 것을 봄",
+          "interpretation_ko": "정인의 참모습에 속고 있다는 흉조",
+          "interpretation_en": "for a woman to dream that she sees a man wearing over-alls, she will be deceived as to the real character of her lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Over-alls",
+              "original": "For a woman to dream that she sees a man wearing over-alls, she will be deceived as to the real character of her lover.",
+              "translation_ko": "여성이 작업복 입은 남자를 보는 꿈은, 정인의 참모습에 속고 있다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아내가 남편의 잦은 부재를 의심함",
+          "interpretation_ko": "남편의 진심을 의심하게 될 흉조",
+          "interpretation_en": "if a wife, she will be deceived in her husband's frequent absence, and the real cause will create suspicions of his fidelity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Over-alls",
+              "original": "If a wife, she will be deceived in her husband's frequent absence, and the real cause will create suspicions of his fidelity.",
+              "translation_ko": "아내라면, 남편이 자주 자리를 비우는 진짜 까닭을 두고 그의 진심을 의심하게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pan",
       "term_ko": "냄비",
       "term_en": "pan",
@@ -89903,6 +90159,7 @@
       "term_en": "baking",
       "aliases": [
         "빵을 굽",
+        "빵 굽는",
         "제빵",
         "오븐에 굽",
         "빵 만들"

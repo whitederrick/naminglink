@@ -1,0 +1,81 @@
+[
+  {
+    "id": "ouija",
+    "aliases": [
+      "위자보드가",
+      "위자보드를"
+    ],
+    "aliases_en": [
+      "a ouija board"
+    ],
+    "contexts": {
+      "위자보드로 점을 침": "점을 계획이 어그러",
+      "위자보드가 작동하지 않음": "작동하지 실패",
+      "위자보드가 술술 글자를 씀": "술술 글자를 짜인",
+      "잃어버린 위자보드를 되찾음": "되찾는 되찾았"
+    },
+    "contexts_en": {
+      "위자보드로 점을 침": "miscarriage plans unlucky partnerships",
+      "위자보드가 작동하지 않음": "fail complications substituting pleasure",
+      "위자보드가 술술 글자를 씀": "writes fluently fortunate enterprise",
+      "잃어버린 위자보드를 되찾음": "recover grievances favorable adjustment"
+    }
+  },
+  {
+    "id": "oven",
+    "aliases": [
+      "오븐이",
+      "오븐을"
+    ],
+    "aliases_en": [
+      "ovens"
+    ],
+    "contexts": {
+      "여성의 오븐이 새빨갛게 달아오름": "새빨갛게 달아올랐",
+      "오븐이 고장 남": "고장 났다 부서졌"
+    },
+    "contexts_en": {
+      "여성의 오븐이 새빨갛게 달아오름": "baking red hot loved unselfish",
+      "오븐이 고장 남": "broken vexations children servants"
+    }
+  },
+  {
+    "id": "over-alls",
+    "aliases": [
+      "작업복이",
+      "작업복을"
+    ],
+    "aliases_en": [
+      "overalls"
+    ],
+    "contexts": {
+      "여성이 남자가 작업복 입은 것을 봄": "입은 것을 참모습",
+      "아내가 남편의 잦은 부재를 의심함": "아내가 잦은 부재"
+    },
+    "contexts_en": {
+      "여성이 남자가 작업복 입은 것을 봄": "man wearing deceived character lover",
+      "아내가 남편의 잦은 부재를 의심함": "wife frequent absence fidelity"
+    }
+  },
+  {
+    "id": "owl",
+    "aliases": [
+      "부엉이가",
+      "부엉이를",
+      "올빼미"
+    ],
+    "aliases_en": [
+      "owls"
+    ],
+    "contexts": {
+      "부엉이의 엄숙하고 기이한 소리를 들음": "엄숙하고 기이한 소리 죽음이",
+      "죽은 부엉이를 봄": "죽은 아슬아슬하게",
+      "부엉이를 봄": "헐뜯음 원수"
+    },
+    "contexts_en": {
+      "부엉이의 엄숙하고 기이한 소리를 들음": "solemn unearthly muffled voice death",
+      "죽은 부엉이를 봄": "dead narrow escape illness",
+      "부엉이를 봄": "secretly maligned danger enemies"
+    }
+  }
+]

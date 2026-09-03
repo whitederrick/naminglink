@@ -6622,5 +6622,17 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "otter": [
     "otters"
+  ],
+  "ouija": [
+    "a ouija board"
+  ],
+  "oven": [
+    "ovens"
+  ],
+  "over-alls": [
+    "overalls"
+  ],
+  "owl": [
+    "owls"
   ]
 };

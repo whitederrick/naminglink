@@ -1,0 +1,46 @@
+{
+  "batch": 147,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Ouija",
+      "text": "To dream of working on an ouija board, foretells the miscarriage of plans and unlucky partnerships. To fail to work, one is ominous of complications, caused by substituting pleasure for business. If it writes fluently, you may expect fortunate results from some well-planned enterprise. If a negro steals it, you will meet with trials and vexations past endurance. To recover it, foretells that grievances will meet a favorable adjustment.",
+      "note": "새 상징 `ouija`(위자보드). 「흑인이 훔쳐 감」 문장은 뺐다 — 그림 자체가 비하다(§31, 다섯 번째)"
+    },
+    {
+      "headword": "Oven",
+      "text": "For a woman to dream that her baking oven is red hot, denotes that she will be loved by her own family and friends, for her sweet and unselfish nature. If she is baking, temporary disappointments await her. If the oven is broken, she will undergo many vexations from children and servants.",
+      "note": "새 상징 `oven`(오븐). 「빵을 굽는 중」 문장은 뺐다 — 이미 있는 `baking`(밀러 `Baking`)의 「여성이 빵 굽는 꿈을 꿈」과 같은 그림인데 결말이 달라 가를 수 없다"
+    },
+    {
+      "headword": "Overcoat",
+      "text": "To dream of an overcoat, denotes you will suffer from contrariness, exhibited by others. To borrow one, foretells you will be unfortunate through mistakes made by strangers. If you see or are wearing a handsome new overcoat, you will be exceedingly fortunate in realizing your wishes.",
+      "note": "기존 상징 `coat`(외투, 밀러 `Coat`)에 둘을 더한다. 「멋진 새 외투」 문장은 뺐다 — 이미 있는 「새 외투를 봄」과 같은 그림이다"
+    },
+    {
+      "headword": "Over-alls",
+      "text": "For a woman to dream that she sees a man wearing over-alls, she will be deceived as to the real character of her lover. If a wife, she will be deceived in her husband's frequent absence, and the real cause will create suspicions of his fidelity.",
+      "note": "새 상징 `over-alls`(작업복)"
+    },
+    {
+      "headword": "Owl",
+      "text": "To hear the solemn, unearthly sound of the muffled voice of the owl, warns dreamers that death creeps closely in the wake of health and joy. Precaution should be taken that life is not ruthlessly exposed to his unyielding grasp. Bad tidings of the absent will surely follow this dream. To see a dead owl, denotes a narrow escape from desperate illness or death. To see an owl, foretells that you will be secretly maligned and be in danger from enemies.",
+      "note": "새 상징 `owl`(부엉이)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "If a negro steals it, you will meet with trials and vexations past endurance.",
+      "reason": "`Ouija` — 그림 자체가 비하다(§31)"
+    },
+    {
+      "sentence": "If she is baking, temporary disappointments await her.",
+      "reason": "`Oven` — 이미 있는 `baking`(밀러 `Baking`)의 「여성이 빵 굽는 꿈을 꿈」과 같은 그림이고 길흉 결말이 달라 가를 수 없다"
+    },
+    {
+      "sentence": "If you see or are wearing a handsome new overcoat, you will be exceedingly fortunate in realizing your wishes.",
+      "reason": "`Overcoat` — 이미 있는 `coat`의 「새 외투를 봄」(밀러 `Coat`)과 같은 그림이다"
+    }
+  ]
+}

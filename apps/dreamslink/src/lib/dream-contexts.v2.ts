@@ -2993,6 +2993,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "coat::외투가 찢어진 것을 봄": "torn loss dreary",
   "coat::새 외투를 봄": "literary honor",
   "coat::외투를 잃어버림": "lose lost rebuild",
+  "coat::외투 꿈을 꿈": "contrariness exhibited others",
+  "coat::외투를 빌림": "borrow strangers mistakes",
   "cocoanut::코코넛을 봄": "fatalities expectations guise",
   "cocoanut::죽은 코코넛 나무를 봄": "trees loss sorrow",
   "cock-crowing::아침에 수탉 우는 소리를 들음": "morning significant",
@@ -4744,5 +4746,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "orphan::고아를 위로함": "condoling sympathies sacrifice enjoyment",
   "orphan::친척인 고아가 있음": "related duties estrangement",
   "ostrich::타조 꿈을 꿈": "secretly amass degrading intrigues",
-  "ostrich::타조를 붙잡음": "catch resources travel knowledge"
+  "ostrich::타조를 붙잡음": "catch resources travel knowledge",
+  "ouija::위자보드로 점을 침": "miscarriage plans unlucky partnerships",
+  "ouija::위자보드가 작동하지 않음": "fail complications substituting pleasure",
+  "ouija::위자보드가 술술 글자를 씀": "writes fluently fortunate enterprise",
+  "ouija::잃어버린 위자보드를 되찾음": "recover grievances favorable adjustment",
+  "oven::여성의 오븐이 새빨갛게 달아오름": "baking red hot loved unselfish",
+  "oven::오븐이 고장 남": "broken vexations children servants",
+  "over-alls::여성이 남자가 작업복 입은 것을 봄": "man wearing deceived character lover",
+  "over-alls::아내가 남편의 잦은 부재를 의심함": "wife frequent absence fidelity",
+  "owl::부엉이의 엄숙하고 기이한 소리를 들음": "solemn unearthly muffled voice death",
+  "owl::죽은 부엉이를 봄": "dead narrow escape illness",
+  "owl::부엉이를 봄": "secretly maligned danger enemies"
 };
