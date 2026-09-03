@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 96 — Letter, 20건)
+// (지금 담긴 것: 배치 97 — Letter-carrier~Liar, 17건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,27 +30,24 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "letter", ctx: "처녀가 등기 편지를 받음", text: "처녀가 등기 편지를 받았다" },
-  { id: "letter", ctx: "등기 편지를 봄", text: "등기 편지를 보았다" },
-  { id: "letter", ctx: "익명의 편지를 봄", text: "익명의 편지를 받았다" },
-  { id: "letter", ctx: "궂은 기별이 담긴 편지를 받음", text: "나쁜 소식이 담긴 편지를 받았다" },
-  { id: "letter", ctx: "기쁜 기별이 담긴 편지를 받음", text: "기쁜 소식이 담긴 편지를 받았다" },
-  { id: "letter", ctx: "초록빛 종이에 쓴 정다운 편지", text: "초록 종이에 쓴 정다운 편지를 보았다" },
-  { id: "letter", ctx: "파란 잉크로 쓴 편지", text: "파란 잉크로 쓴 편지를 받았다" },
-  { id: "letter", ctx: "붉은 빛깔이 든 편지", text: "붉은 글씨가 든 편지를 보았다" },
-  { id: "letter", ctx: "처녀가 정인의 편지를 가슴에 품음", text: "처녀가 정인의 편지를 가슴에 품었다" },
-  { id: "letter", ctx: "편지를 읽지 못함", text: "편지를 읽지 못했다" },
-  { id: "letter", ctx: "편지를 가로채임", text: "누가 내 편지를 가로챘다" },
-  { id: "letter", ctx: "편지를 숨김", text: "편지를 감추려 했다" },
-  { id: "letter", ctx: "검은 테두리가 둘린 편지", text: "검은 테두리가 둘린 편지를 보았다" },
-  { id: "letter", ctx: "검은 종이에 흰 잉크로 쓴 편지를 받음", text: "검은 종이에 흰색 글씨로 쓴 편지를 받았다" },
-  { id: "letter", ctx: "편지를 씀", text: "편지를 썼다" },
-  { id: "letter", ctx: "찢어진 편지를 봄", text: "찢어진 편지를 보았다" },
-  { id: "letter", ctx: "편지를 손으로 건네받음", text: "편지를 손으로 건네받았다" },
-  { id: "letter", ctx: "벗에게서 편지를 자주 받음", text: "벗에게 편지를 자주 받았다" },
-  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
+  { id: "letter-carrier", ctx: "집배원이 편지를 갖고 옴", text: "집배원이 편지를 갖고 왔다" },
+  { id: "letter-carrier", ctx: "집배원의 호루라기 소리를 들음", text: "집배원의 호루라기 소리를 들었다" },
+  { id: "letter-carrier", ctx: "집배원이 편지 없이 지나감", text: "집배원이 그냥 지나갔다" },
+  { id: "letter-carrier", ctx: "집배원에게 부칠 편지를 줌", text: "집배원에게 부칠 편지를 건네주었다" },
+  { id: "letter-carrier", ctx: "집배원과 이야기를 나눔", text: "집배원과 이야기를 나누었다" },
+  { id: "letter-file", ctx: "편지꽂이를 봄", text: "편지꽂이가 놓여 있었다" },
+  { id: "letter-file", ctx: "여성이 편지꽂이를 봄", text: "여자가 편지꽂이를 보았다" },
+  { id: "lettuce", ctx: "상추가 파릇하게 잘 자란 것을 봄", text: "상추가 파릇하게 자라 있었다" },
+  { id: "lettuce", ctx: "상추를 먹음", text: "상추를 먹었다" },
+  { id: "lettuce", ctx: "여성이 상추 씨를 뿌림", text: "여자가 상추 씨를 뿌렸다" },
+  { id: "lettuce", ctx: "상추를 뜯어 모음", text: "상추를 뜯어 모았다" },
+  { id: "lettuce", ctx: "상추를 삼", text: "상추를 샀다" },
+  { id: "liar", ctx: "남들이 거짓말쟁이라고 여김", text: "사람들이 거짓말쟁이 같았다" },
+  { id: "liar", ctx: "남이 저를 거짓말쟁이라 부름", text: "누가 나를 거짓말쟁이라고 불렀다" },
+  { id: "liar", ctx: "여성이 정인을 거짓말쟁이로 여김", text: "여자가 정인을 거짓말쟁이로 여겼다" },
+  // 지킴 — 새 문장이 스치는 옛 상징의 답이 그대로인가(§25 곁가지)
   { id: "letter", ctx: "편지를 봉함", text: "편지를 봉했다" },
-  { id: "letter", ctx: "봉투를 봄", text: "봉투가 놓여 있었다" },
+  { id: "letter", ctx: "편지를 씀", text: "편지를 썼다" },
 ];
 
 let notFound = 0;

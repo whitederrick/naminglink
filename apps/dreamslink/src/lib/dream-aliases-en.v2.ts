@@ -6048,5 +6048,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "leprosy": [
     "leprosy",
     "leper"
+  ],
+  "letter-carrier": [
+    "letter carrier",
+    "postman",
+    "mailman"
+  ],
+  "letter-file": [
+    "letter file"
+  ],
+  "lettuce": [
+    "lettuces"
+  ],
+  "liar": [
+    "liars"
   ]
 };

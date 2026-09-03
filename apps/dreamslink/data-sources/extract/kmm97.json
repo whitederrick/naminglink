@@ -1,0 +1,93 @@
+[
+  {
+    "id": "letter-carrier",
+    "aliases": [
+      "우체부",
+      "우편배달부",
+      "우편집배원"
+    ],
+    "aliases_en": [
+      "letter carrier",
+      "postman",
+      "mailman"
+    ],
+    "contexts": {
+      "집배원이 편지를 갖고 옴": "갖고 가져 들고",
+      "집배원의 호루라기 소리를 들음": "호루라기 휘파람",
+      "집배원이 편지 없이 지나감": "지나 그냥",
+      "집배원에게 부칠 편지를 줌": "부칠 건네주 맡겼",
+      "집배원과 이야기를 나눔": "이야기 대화"
+    },
+    "contexts_en": {
+      "집배원이 편지를 갖고 옴": "coming unwelcome",
+      "집배원의 호루라기 소리를 들음": "whistle unexpected visitor",
+      "집배원이 편지 없이 지나감": "passes disappointment sadness befall",
+      "집배원에게 부칠 편지를 줌": "injury envy jealousy",
+      "집배원과 이야기를 나눔": "converse implicate scandalous"
+    }
+  },
+  {
+    "id": "letter-file",
+    "aliases": [
+      "편지 꽂이",
+      "편지꽂이가"
+    ],
+    "aliases_en": [
+      "letter file"
+    ],
+    "contexts": {
+      "편지꽂이를 봄": "꽂혀 놓여",
+      "여성이 편지꽂이를 봄": "여자 여성 처녀"
+    },
+    "contexts_en": {
+      "편지꽂이를 봄": "significant irksome journey",
+      "여성이 편지꽂이를 봄": "distressful unfaithful"
+    }
+  },
+  {
+    "id": "lettuce",
+    "aliases": [
+      "상춧잎",
+      "상추를",
+      "상추가"
+    ],
+    "aliases_en": [
+      "lettuces"
+    ],
+    "contexts": {
+      "상추가 파릇하게 잘 자란 것을 봄": "파릇 자라",
+      "상추를 먹음": "먹었 먹는",
+      "여성이 상추 씨를 뿌림": "씨를 뿌렸 심었",
+      "상추를 뜯어 모음": "뜯어 뜯었 모았",
+      "상추를 삼": "샀다 사서 구했"
+    },
+    "contexts_en": {
+      "상추가 파릇하게 잘 자란 것을 봄": "growing thrifty desired embarrassment",
+      "상추를 먹음": "illness separate companion",
+      "여성이 상추 씨를 뿌림": "sowing early death",
+      "상추를 뜯어 모음": "gather superabundant sensitiveness disposition",
+      "상추를 삼": "buy court downfall"
+    }
+  },
+  {
+    "id": "liar",
+    "aliases": [
+      "거짓말",
+      "허풍쟁이",
+      "거짓말을"
+    ],
+    "aliases_en": [
+      "liars"
+    ],
+    "contexts": {
+      "남들이 거짓말쟁이라고 여김": "남들이 사람들이",
+      "남이 저를 거짓말쟁이라 부름": "불렀 몰았",
+      "여성이 정인을 거짓말쟁이로 여김": "정인 애인 사랑하는"
+    },
+    "contexts_en": {
+      "남들이 거짓말쟁이라고 여김": "thinking scheme urgently forward",
+      "남이 저를 거짓말쟁이라 부름": "call vexations deceitful",
+      "여성이 정인을 거짓말쟁이로 여김": "sweetheart unbecoming valued"
+    }
+  }
+]

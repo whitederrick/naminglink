@@ -4059,5 +4059,20 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lentil::렌즈콩을 봄": "quarrels unhealthy surroundings",
   "lentil::처녀가 렌즈콩 꿈을 꿈": "dissatisfaction parental advice inevitable",
   "leprosy::제가 나병에 걸림": "infected dread lose money displeasure",
-  "leprosy::남이 나병에 걸린 것을 봄": "others afflicted discouraging indifference"
+  "leprosy::남이 나병에 걸린 것을 봄": "others afflicted discouraging indifference",
+  "letter-carrier::집배원이 편지를 갖고 옴": "coming unwelcome",
+  "letter-carrier::집배원의 호루라기 소리를 들음": "whistle unexpected visitor",
+  "letter-carrier::집배원이 편지 없이 지나감": "passes disappointment sadness befall",
+  "letter-carrier::집배원에게 부칠 편지를 줌": "injury envy jealousy",
+  "letter-carrier::집배원과 이야기를 나눔": "converse implicate scandalous",
+  "letter-file::편지꽂이를 봄": "significant irksome journey",
+  "letter-file::여성이 편지꽂이를 봄": "distressful unfaithful",
+  "lettuce::상추가 파릇하게 잘 자란 것을 봄": "growing thrifty desired embarrassment",
+  "lettuce::상추를 먹음": "illness separate companion",
+  "lettuce::여성이 상추 씨를 뿌림": "sowing early death",
+  "lettuce::상추를 뜯어 모음": "gather superabundant sensitiveness disposition",
+  "lettuce::상추를 삼": "buy court downfall",
+  "liar::남들이 거짓말쟁이라고 여김": "thinking scheme urgently forward",
+  "liar::남이 저를 거짓말쟁이라 부름": "call vexations deceitful",
+  "liar::여성이 정인을 거짓말쟁이로 여김": "sweetheart unbecoming valued"
 };

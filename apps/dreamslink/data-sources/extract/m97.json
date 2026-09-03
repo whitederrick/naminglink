@@ -1,0 +1,227 @@
+[
+  {
+    "term_ko": "집배원",
+    "term_en": "letter-carrier",
+    "context": "집배원이 편지를 갖고 옴",
+    "interpretation_ko": "머잖아 반갑지 않고 언짢은 기별을 받을 흉한 조짐",
+    "interpretation_en": "you will soon receive news of an unwelcome and an unpleasant character",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Letter-carrier",
+      "original": "If you dream of a letter-carrier coming with your letters, you will soon receive news of an unwelcome and an unpleasant character.",
+      "translation_ko": "집배원이 편지를 갖고 오는 꿈은, 머잖아 반갑지 않고 언짢은 기별을 받음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "집배원",
+    "term_en": "letter-carrier",
+    "context": "집배원의 호루라기 소리를 들음",
+    "interpretation_ko": "생각지 못한 손님이 찾아올 조짐",
+    "interpretation_en": "denotes the unexpected arrival of a visitor",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Letter-carrier",
+      "original": "To hear his whistle, denotes the unexpected arrival of a visitor.",
+      "translation_ko": "집배원의 호루라기 소리를 들으면 생각지 못한 손님이 찾아온다"
+    }
+  },
+  {
+    "term_ko": "집배원",
+    "term_en": "letter-carrier",
+    "context": "집배원이 편지 없이 지나감",
+    "interpretation_ko": "실망과 슬픔이 닥칠 흉한 조짐",
+    "interpretation_en": "disappointment and sadness will befall you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Letter-carrier",
+      "original": "If he passes without your mail, disappointment and sadness will befall you.",
+      "translation_ko": "집배원이 제 편지 없이 지나가면 실망과 슬픔이 닥친다"
+    }
+  },
+  {
+    "term_ko": "집배원",
+    "term_en": "letter-carrier",
+    "context": "집배원에게 부칠 편지를 줌",
+    "interpretation_ko": "시샘 때문에 해를 입을 흉한 조짐",
+    "interpretation_en": "you will suffer injury through envy or jealousy",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Letter-carrier",
+      "original": "If you give him letters to mail, you will suffer injury through envy or jealousy.",
+      "translation_ko": "집배원에게 부칠 편지를 건네주면 시샘 때문에 해를 입는다"
+    }
+  },
+  {
+    "term_ko": "집배원",
+    "term_en": "letter-carrier",
+    "context": "집배원과 이야기를 나눔",
+    "interpretation_ko": "말썽스러운 일에 제가 얽혀 들 흉한 조짐",
+    "interpretation_en": "you will implicate yourself in some scandalous proceedings",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Letter-carrier",
+      "original": "To converse with a letter-carrier, you will implicate yourself in some scandalous proceedings.",
+      "translation_ko": "집배원과 이야기를 나누면 말썽스러운 일에 제가 얽혀 든다"
+    }
+  },
+  {
+    "term_ko": "편지꽂이",
+    "term_en": "letter-file",
+    "context": "편지꽂이를 봄",
+    "interpretation_ko": "긴한 기별이 오고 그 때문에 성가신 길을 나서게 될 조짐",
+    "interpretation_en": "is significant of important news, which will cause you an irksome journey",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Letter-file",
+      "original": "To see a letter-file in your dreams, is significant of important news, which will cause you an irksome journey.",
+      "translation_ko": "꿈에 편지꽂이를 보면 긴한 기별이 오고, 그 때문에 성가신 길을 나서게 된다"
+    }
+  },
+  {
+    "term_ko": "편지꽂이",
+    "term_en": "letter-file",
+    "context": "여성이 편지꽂이를 봄",
+    "interpretation_ko": "괴로운 기별이 오고 벗이 마음을 저버릴 흉한 조짐",
+    "interpretation_en": "this dream implies distressful news and unfaithful friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Letter-file",
+      "original": "For a woman, this dream implies distressful news and unfaithful friends.",
+      "translation_ko": "여성에게 이 꿈은 괴로운 기별과 마음을 저버리는 벗을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "상추",
+    "term_en": "lettuce",
+    "context": "상추가 파릇하게 잘 자란 것을 봄",
+    "interpretation_ko": "대수롭지 않은 곤란을 겪은 뒤 몹시 바라던 것을 누릴 길한 조짐",
+    "interpretation_en": "denotes that you will enjoy some greatly desired good, after an unimportant embarrassment",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lettuce",
+      "original": "To see lettuce growing green and thrifty, denotes that you will enjoy some greatly desired good, after an unimportant embarrassment.",
+      "translation_ko": "상추가 파릇하고 실하게 자란 것을 보면, 대수롭지 않은 곤란을 겪은 뒤 몹시 바라던 것을 누린다"
+    }
+  },
+  {
+    "term_ko": "상추",
+    "term_en": "lettuce",
+    "context": "상추를 먹음",
+    "interpretation_ko": "병이 들어 정인이나 벗과 갈라지거나, 자잘한 시샘이 생길 흉한 조짐",
+    "interpretation_en": "illness will separate you from your lover or companion, or perhaps it may be petty jealousy",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lettuce",
+      "original": "If you eat lettuce, illness will separate you from your lover or companion, or perhaps it may be petty jealousy.",
+      "translation_ko": "상추를 먹으면 병이 들어 정인이나 벗과 갈라지거나, 자잘한 시샘이 생긴다"
+    }
+  },
+  {
+    "term_ko": "상추",
+    "term_en": "lettuce",
+    "context": "여성이 상추 씨를 뿌림",
+    "interpretation_ko": "제 이른 병이나 죽음을 스스로 불러올 흉한 조짐",
+    "interpretation_en": "portends she will be the cause of her own early sickness or death",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lettuce",
+      "original": "For a woman to dream of sowing lettuce, portends she will be the cause of her own early sickness or death.",
+      "translation_ko": "여성이 상추 씨를 뿌리는 꿈은, 제 이른 병이나 죽음을 스스로 불러옴을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "상추",
+    "term_en": "lettuce",
+    "context": "상추를 뜯어 모음",
+    "interpretation_ko": "지나치게 예민하고 시샘이 많아 그것이 큰 괴로움과 아픔을 부를 흉한 조짐",
+    "interpretation_en": "denotes your superabundant sensitiveness, and that your jealous disposition will cause you unmitigated distress and pain",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lettuce",
+      "original": "To gather it, denotes your superabundant sensitiveness, and that your jealous disposition will cause you unmitigated distress and pain.",
+      "translation_ko": "상추를 뜯어 모으면, 지나치게 예민하고 시샘이 많아 그것이 큰 괴로움과 아픔을 부른다"
+    }
+  },
+  {
+    "term_ko": "상추",
+    "term_en": "lettuce",
+    "context": "상추를 삼",
+    "interpretation_ko": "제 무너짐을 제가 불러들일 흉한 조짐",
+    "interpretation_en": "denotes that you will court your own downfall",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lettuce",
+      "original": "To buy lettuce, denotes that you will court your own downfall.",
+      "translation_ko": "상추를 사면 제 무너짐을 제가 불러들인다"
+    }
+  },
+  {
+    "term_ko": "거짓말쟁이",
+    "term_en": "liar",
+    "context": "남들이 거짓말쟁이라고 여김",
+    "interpretation_ko": "애써 밀어붙이던 일에 믿음을 잃을 흉한 조짐",
+    "interpretation_en": "foretells you will lose faith in some scheme which you had urgently put forward",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Liar",
+      "original": "To dream of thinking people are liars, foretells you will lose faith in some scheme which you had urgently put forward.",
+      "translation_ko": "사람들이 거짓말쟁이라고 여기는 꿈은, 애써 밀어붙이던 일에 믿음을 잃음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "거짓말쟁이",
+    "term_en": "liar",
+    "context": "남이 저를 거짓말쟁이라 부름",
+    "interpretation_ko": "남을 속이는 이들 때문에 성가신 일을 겪을 흉한 조짐",
+    "interpretation_en": "means you will have vexations through deceitful persons",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Liar",
+      "original": "For some one to call you a liar, means you will have vexations through deceitful persons.",
+      "translation_ko": "누가 저를 거짓말쟁이라 부르면, 남을 속이는 이들 때문에 성가신 일을 겪는다"
+    }
+  },
+  {
+    "term_ko": "거짓말쟁이",
+    "term_en": "liar",
+    "context": "여성이 정인을 거짓말쟁이로 여김",
+    "interpretation_ko": "제 온당치 못한 처신 때문에 귀한 벗을 잃게 될 흉한 조짐",
+    "interpretation_en": "warns her that her unbecoming conduct is likely to lose her a valued friend",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Liar",
+      "original": "For a woman to think her sweetheart a liar, warns her that her unbecoming conduct is likely to lose her a valued friend.",
+      "translation_ko": "여성이 제 정인을 거짓말쟁이로 여기는 꿈은, 온당치 못한 처신 때문에 귀한 벗을 잃게 됨을 알린다"
+    }
+  }
+]
