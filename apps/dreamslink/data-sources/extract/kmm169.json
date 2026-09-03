@@ -1,0 +1,52 @@
+[
+  {
+    "id": "perfume",
+    "aliases": [
+      "향수가",
+      "향수를",
+      "향수병을",
+      "향을"
+    ],
+    "aliases_en": [
+      "perfumes"
+    ],
+    "contexts": {
+      "향수를 들이마심": "들이마셨 행복한",
+      "몸이나 옷에 향수를 뿌림": "뿌렸 치켜세움",
+      "향수에 취할 만큼 짓눌림": "취할 짓눌리 판단력",
+      "향수를 쏟음": "쏟았 즐거움을 주던",
+      "향수병을 깨뜨림": "깨뜨렸 재앙으로",
+      "향수를 증류함": "증류했 즐거운 성격",
+      "처녀가 목욕물에 향을 더하는 꿈을 꿈": "처녀가 목욕물 기쁜",
+      "남자에게 향수를 선물받음": "선물받 매혹적 위태로운"
+    },
+    "contexts_en": {
+      "향수를 들이마심": "inhaling happy incidents",
+      "몸이나 옷에 향수를 뿌림": "garments adulation",
+      "향수에 취할 만큼 짓눌림": "oppressed intoxication impair",
+      "향수를 쏟음": "spill lose pleasure",
+      "향수병을 깨뜨림": "break bottle disastrously",
+      "향수를 증류함": "distilling employments associations",
+      "처녀가 목욕물에 향을 더하는 꿈을 꿈": "bath ecstatic happenings",
+      "남자에게 향수를 선물받음": "gift fascinating dangerous"
+    }
+  },
+  {
+    "id": "pest",
+    "aliases": [
+      "골칫거리가",
+      "골칫거리를"
+    ],
+    "aliases_en": [
+      "pests"
+    ],
+    "contexts": {
+      "온갖 성가심에 시달리는 꿈을 꿈": "성가심 어수선한",
+      "남이 그렇게 시달리는 것을 봄": "남이 언짢은 발전"
+    },
+    "contexts_en": {
+      "온갖 성가심에 시달리는 꿈을 꿈": "worried disturbing elements",
+      "남이 그렇게 시달리는 것을 봄": "others annoyed development"
+    }
+  }
+]

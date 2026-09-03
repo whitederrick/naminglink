@@ -1,0 +1,18 @@
+{
+  "batch": 169,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Perfume",
+      "text": "To dream of inhaling perfume, is an augury of happy incidents. For you to perfume your garments and person, denotes that you will seek and obtain adulation. Being oppressed by it to intoxication, denotes that excesses in joy will impair your mental qualities. To spill perfume, denotes that you will lose something which affords you pleasure. To break a bottle of perfume, foretells that your most cherished wishes and desires will end disastrously, even while they promise a happy culmination. To dream that you are distilling perfume, denotes that your employments and associations will be of the pleasantest character. For a young woman to dream of perfuming her bath, foretells ecstatic happenings. If she receives it as a gift from a man, she will experience fascinating, but dangerous pleasures.",
+      "note": "새 상징 `perfume`(향수)"
+    },
+    {
+      "headword": "Pest",
+      "text": "To dream of being worried over a pest of any nature, foretells that disturbing elements will prevail in your immediate future. To see others thus worried, denotes that you will be annoyed by some displeasing development.",
+      "note": "새 상징 `pest`(골칫거리)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

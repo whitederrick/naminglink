@@ -1,0 +1,152 @@
+[
+  {
+    "term_ko": "향수",
+    "term_en": "perfume",
+    "context": "향수를 들이마심",
+    "interpretation_ko": "행복한 일이 있을 조짐",
+    "interpretation_en": "is an augury of happy incidents",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Perfume",
+      "original": "To dream of inhaling perfume, is an augury of happy incidents.",
+      "translation_ko": "향수를 들이마시는 꿈은, 행복한 일이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "향수",
+    "term_en": "perfume",
+    "context": "몸이나 옷에 향수를 뿌림",
+    "interpretation_ko": "치켜세움을 바라고 얻을 조짐",
+    "interpretation_en": "denotes that you will seek and obtain adulation",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Perfume",
+      "original": "For you to perfume your garments and person, denotes that you will seek and obtain adulation.",
+      "translation_ko": "몸이나 옷에 향수를 뿌리는 꿈은, 치켜세움을 바라고 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "향수",
+    "term_en": "perfume",
+    "context": "향수에 취할 만큼 짓눌림",
+    "interpretation_ko": "기쁨이 지나쳐 판단력이 흐려질 조짐",
+    "interpretation_en": "denotes that excesses in joy will impair your mental qualities",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Perfume",
+      "original": "Being oppressed by it to intoxication, denotes that excesses in joy will impair your mental qualities.",
+      "translation_ko": "향수에 취할 만큼 짓눌리는 꿈은, 기쁨이 지나쳐 판단력이 흐려질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "향수",
+    "term_en": "perfume",
+    "context": "향수를 쏟음",
+    "interpretation_ko": "즐거움을 주던 것을 잃을 조짐",
+    "interpretation_en": "denotes that you will lose something which affords you pleasure",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Perfume",
+      "original": "To spill perfume, denotes that you will lose something which affords you pleasure.",
+      "translation_ko": "향수를 쏟는 꿈은, 즐거움을 주던 것을 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "향수",
+    "term_en": "perfume",
+    "context": "향수병을 깨뜨림",
+    "interpretation_ko": "가장 아끼던 바람이 행복한 결말을 약속하다가도 끝내 재앙으로 끝날 조짐",
+    "interpretation_en": "foretells that your most cherished wishes and desires will end disastrously, even while they promise a happy culmination",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Perfume",
+      "original": "To break a bottle of perfume, foretells that your most cherished wishes and desires will end disastrously, even while they promise a happy culmination.",
+      "translation_ko": "향수병을 깨뜨리는 꿈은, 가장 아끼던 바람이 행복한 결말을 약속하다가도 끝내 재앙으로 끝날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "향수",
+    "term_en": "perfume",
+    "context": "향수를 증류함",
+    "interpretation_ko": "하는 일과 어울리는 이들이 더없이 즐거운 성격일 조짐",
+    "interpretation_en": "denotes that your employments and associations will be of the pleasantest character",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Perfume",
+      "original": "To dream that you are distilling perfume, denotes that your employments and associations will be of the pleasantest character.",
+      "translation_ko": "향수를 증류하는 꿈은, 하는 일과 어울리는 이들이 더없이 즐거운 성격일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "향수",
+    "term_en": "perfume",
+    "context": "처녀가 목욕물에 향을 더하는 꿈을 꿈",
+    "interpretation_ko": "더없이 기쁜 일이 생길 조짐",
+    "interpretation_en": "foretells ecstatic happenings",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Perfume",
+      "original": "For a young woman to dream of perfuming her bath, foretells ecstatic happenings.",
+      "translation_ko": "처녀가 목욕물에 향을 더하는 꿈은, 더없이 기쁜 일이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "향수",
+    "term_en": "perfume",
+    "context": "남자에게 향수를 선물받음",
+    "interpretation_ko": "매혹적이나 위태로운 즐거움을 겪을 조짐",
+    "interpretation_en": "she will experience fascinating, but dangerous pleasures",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Perfume",
+      "original": "If she receives it as a gift from a man, she will experience fascinating, but dangerous pleasures.",
+      "translation_ko": "남자에게 향수를 선물받는 꿈은, 매혹적이나 위태로운 즐거움을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "골칫거리",
+    "term_en": "pest",
+    "context": "온갖 성가심에 시달리는 꿈을 꿈",
+    "interpretation_ko": "다가올 앞날에 어수선한 일이 이어질 조짐",
+    "interpretation_en": "foretells that disturbing elements will prevail in your immediate future",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pest",
+      "original": "To dream of being worried over a pest of any nature, foretells that disturbing elements will prevail in your immediate future.",
+      "translation_ko": "온갖 성가심에 시달리는 꿈은, 다가올 앞날에 어수선한 일이 이어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "골칫거리",
+    "term_en": "pest",
+    "context": "남이 그렇게 시달리는 것을 봄",
+    "interpretation_ko": "언짢은 일로 성가실 조짐",
+    "interpretation_en": "denotes that you will be annoyed by some displeasing development",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pest",
+      "original": "To see others thus worried, denotes that you will be annoyed by some displeasing development.",
+      "translation_ko": "남이 그렇게 시달리는 것을 보는 꿈은, 언짢은 일로 성가실 조짐이다"
+    }
+  }
+]

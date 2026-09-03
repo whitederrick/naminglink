@@ -4959,5 +4959,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "peppermint::박하 꿈을 꿈": "pleasant entertainments interesting",
   "peppermint::자라는 박하를 봄": "growing dash romance",
   "peppermint::박하 향이 나는 음료를 즐김": "drinks assignations attractive",
-  "peppermint::처녀가 박하 향이 나는 음료를 즐기는 꿈을 꿈": "young woman seductive warns"
+  "peppermint::처녀가 박하 향이 나는 음료를 즐기는 꿈을 꿈": "young woman seductive warns",
+  "perfume::향수를 들이마심": "inhaling happy incidents",
+  "perfume::몸이나 옷에 향수를 뿌림": "garments adulation",
+  "perfume::향수에 취할 만큼 짓눌림": "oppressed intoxication impair",
+  "perfume::향수를 쏟음": "spill lose pleasure",
+  "perfume::향수병을 깨뜨림": "break bottle disastrously",
+  "perfume::향수를 증류함": "distilling employments associations",
+  "perfume::처녀가 목욕물에 향을 더하는 꿈을 꿈": "bath ecstatic happenings",
+  "perfume::남자에게 향수를 선물받음": "gift fascinating dangerous",
+  "pest::온갖 성가심에 시달리는 꿈을 꿈": "worried disturbing elements",
+  "pest::남이 그렇게 시달리는 것을 봄": "others annoyed development"
 };
