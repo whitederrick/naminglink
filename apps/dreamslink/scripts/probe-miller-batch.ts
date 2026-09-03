@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 102 — Limp~Linseed Oil, 9건)
+// (지금 담긴 것: 배치 103 — Lion, 14건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,16 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "crippled", ctx: "제가 절뚝이며 걸음", text: "제가 절뚝거리며 걸었다" },
-  { id: "crippled", ctx: "남이 절뚝이는 것을 봄", text: "남이 절뚝거리는 것을 보았다" },
-  { id: "linen", ctx: "린넨을 봄", text: "린넨 천이 놓여 있었다" },
-  { id: "linen", ctx: "린넨 옷을 입은 사람을 봄", text: "린넨 옷을 입은 사람이 나타났다" },
-  { id: "linen", ctx: "깨끗하고 고운 린넨 옷을 입음", text: "깨끗한 린넨 옷을 입고 있었다" },
-  { id: "linen", ctx: "더러워진 린넨 옷을 입음", text: "더러워진 린넨 옷을 입고 있었다" },
-  { id: "linseed-oil", ctx: "아마씨기름을 봄", text: "아마씨기름을 짜낸 것을 보았다" },
+  { id: "lion", ctx: "사자를 봄", text: "사자가 어슬렁거리고 있었다" },
+  { id: "lion", ctx: "사자를 굴복시킴", text: "사자를 굴복시켰다" },
+  { id: "lion", ctx: "사자에게 눌림", text: "사자에게 눌렸다" },
+  { id: "lion", ctx: "우리에 갇힌 사자를 봄", text: "우리에 갇힌 사자를 보았다" },
+  { id: "lion", ctx: "사람이 사자를 다루는 것을 봄", text: "어떤 사람이 사자를 다루고 있었다" },
+  { id: "lion", ctx: "처녀가 새끼 사자를 봄", text: "처녀가 새끼 사자를 보았다" },
+  { id: "lion", ctx: "새끼 사자를 봄", text: "새끼 사자를 보았다" },
+  { id: "lion", ctx: "사자 굴 속의 다니엘을 봄", text: "사자 굴 속의 다니엘을 보았다" },
+  { id: "lion", ctx: "사자의 울음소리를 들음", text: "사자의 울음소리를 들었다" },
+  { id: "lion", ctx: "사자 머리가 이빨을 드러내고 으르렁댐", text: "사자가 이빨을 드러내고 으르렁댔다" },
+  { id: "lion", ctx: "사자 가죽을 봄", text: "사자 가죽을 보았다" },
+  { id: "lion", ctx: "사자를 탐", text: "사자를 타고 있었다" },
+  { id: "lion", ctx: "주머니칼로 아이들을 사자에게서 지킴", text: "주머니칼로 아이들을 사자에게서 지켰다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "crippled", ctx: "몸이 성치 않은 이를 봄", text: "몸이 성치 않은 사람을 보았다" },
-  { id: "crippled", ctx: "여자가 다리를 저는 이를 봄", text: "아내가 다리를 저는 사람을 보았다" },
+  { id: "lion", ctx: "사자가 크게 울부짖음", text: "사자가 크게 울부짖었다" },
 ];
 
 let notFound = 0;
