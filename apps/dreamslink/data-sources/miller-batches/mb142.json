@@ -1,0 +1,73 @@
+{
+  "batch": 142,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Oak",
+      "text": "To dream of seeing a forest of oaks, signifies great prosperity in all conditions of life. To see an oak full of acorns, denotes increase and promotion. If blasted oak, it denotes sudden and shocking surprises. For sweethearts to dream of oaks, denotes that they will soon begin life together under favorable circumstances.",
+      "note": "새 상징 `oak`(참나무) — 밀러 N 이 끝나고 O 의 첫 표제어다"
+    },
+    {
+      "headword": "Oar",
+      "text": "To dream of handling oars, portends disappointments for you, inasmuch as you will sacrifice your own pleasure for the comfort of others. To lose an oar, denotes vain efforts to carry out designs satisfactorily. A broken oar represents interruption in some anticipated pleasure.",
+      "note": "새 상징 `oar`(노, 한 글자)"
+    },
+    {
+      "headword": "Oath",
+      "text": "Whenever you take an oath in your dreams, prepare for dissension and altercations on waking.",
+      "note": "새 상징 `oath`(맹세)"
+    },
+    {
+      "headword": "Oatmeal",
+      "text": "To dream of eating oatmeal, signifies the enjoyment of worthily earned fortune. For a young woman to dream of preparing it for the table, denotes that she will soon preside over the destiny of others.",
+      "note": "새 상징 `oatmeal`(오트밀)"
+    },
+    {
+      "headword": "Oats",
+      "text": "To dream that oats hold the vision, portends a variety of good things. The farmer will especially advance in fortune and domestic harmony. To see decayed oats, foretells that sorrow will displace bright hopes.",
+      "note": "새 상징 `oats`(귀리)"
+    },
+    {
+      "headword": "Obedience",
+      "text": "To dream that you render obedience to another, foretells for you a common place, a pleasant but uneventful period of life. If others are obedient to you, it shows that you will command fortune and high esteem.",
+      "note": "새 상징 `obedience`(순종)"
+    },
+    {
+      "headword": "Obelisk",
+      "text": "An obelisk looming up stately and cold in your dreams is the forerunner of melancholy tidings. For lovers to stand at the base of an obelisk, denotes fatal disagreements.",
+      "note": "새 상징 `obelisk`(오벨리스크)"
+    },
+    {
+      "headword": "Obituary",
+      "text": "To dream of writing an obituary, denotes that unpleasant and discordant duties will devolve upon you. If you read one, news of a distracting nature will soon reach you.",
+      "note": "새 상징 `obituary`(부고)"
+    },
+    {
+      "headword": "Obligation",
+      "text": "To dream of obligating yourself in any incident, denotes that you will be fretted and worried by the thoughtless complaints of others. If others obligate themselves to you, it portends that you will win the regard of acquaintances and friends.",
+      "note": "새 상징 `obligation`(책무)"
+    },
+    {
+      "headword": "Observatory",
+      "text": "To dream of viewing the heavens and beautiful landscapes from an observatory, denotes your swift elevation to prominent positions and places of trust. For a young woman this dream signals the realization of the highest earthly joys. If the heavens are clouded, your highest aims will miss materialization.",
+      "note": "새 상징 `observatory`(천문대). 처녀 갈래는 일반 진술과 결과가 달라(높은 지위 대 이승의 기쁨) 남겼다"
+    },
+    {
+      "headword": "Occultist",
+      "text": "To dream that you listen to the teachings of an occultist, denotes that you will strive to elevate others to a higher plane of justice and forbearance. If you accept his views, you will find honest delight by keeping your mind and person above material frivolities and pleasures.",
+      "note": "새 상징 `occultist`(신비주의자)"
+    },
+    {
+      "headword": "Ocean",
+      "text": "To dream of the ocean when it is calm is propitious. The sailor will have a pleasant and profitable voyage. The business man will enjoy a season of remuneration, and the young man will revel in his sweetheart's charms. To be far out on the ocean, and hear the waves lash the ship, forebodes disaster in business life, and quarrels and stormy periods in the household. To be on shore and see the waves of the ocean foaming against each other, foretells your narrow escape from injury and the designs of enemies. To dream of seeing the ocean so shallow as to allow wading, or a view of the bottom, signifies prosperity and pleasure with a commingling of sorrow and hardships. To sail on the ocean when it is calm, is always propitious.",
+      "note": "기존 상징 `sea`(바다, 주공해몽 하나뿐)에 넷을 더한다 — 「바다」·「대양」이 이미 그 상징의 별칭이다. 마지막 문장(「고요한 바다에서 배를 몲」)은 첫 문장과 같은 그림(잔잔한 바다=길함)이라 뺐다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "To sail on the ocean when it is calm, is always propitious.",
+      "reason": "`Ocean` 첫 문장(「바다가 잔잔함」)과 같은 그림을 되풀이한다"
+    }
+  ]
+}

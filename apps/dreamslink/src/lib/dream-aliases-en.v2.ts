@@ -6524,5 +6524,33 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "nymph": [
     "nymphs"
+  ],
+  "oak": [
+    "oaks",
+    "an oak"
+  ],
+  "oath": [
+    "an oath"
+  ],
+  "oats": [
+    "an oat"
+  ],
+  "obedience": [
+    "obedient"
+  ],
+  "obelisk": [
+    "an obelisk"
+  ],
+  "obituary": [
+    "obituaries"
+  ],
+  "obligation": [
+    "obligations"
+  ],
+  "observatory": [
+    "observatories"
+  ],
+  "occultist": [
+    "an occultist"
   ]
 };

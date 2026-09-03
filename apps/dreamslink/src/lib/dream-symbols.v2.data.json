@@ -49,6 +49,7 @@
     "m14.json",
     "m140.json",
     "m141.json",
+    "m142.json",
     "m15.json",
     "m16.json",
     "m17.json",
@@ -39514,6 +39515,100 @@
       ]
     },
     {
+      "id": "sea",
+      "term_ko": "바다",
+      "term_en": "sea",
+      "aliases": [
+        "해변",
+        "대양",
+        "바닷물",
+        "바닷가",
+        "먼바다",
+        "파도가",
+        "파도를"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "바다가 잔잔함",
+          "interpretation_ko": "뱃사람은 즐겁고 이문 남는 항해를, 장사꾼은 벌이 좋은 한 철을, 젊은이는 정인의 매력을 만끽할 길조",
+          "interpretation_en": "to dream of the ocean when it is calm is propitious; the sailor will have a pleasant and profitable voyage; the business man will enjoy a season of remuneration, and the young man will revel in his sweetheart's charms",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ocean",
+              "original": "To dream of the ocean when it is calm is propitious. The sailor will have a pleasant and profitable voyage. The business man will enjoy a season of remuneration, and the young man will revel in his sweetheart's charms.",
+              "translation_ko": "바다가 잔잔한 꿈은 상서롭다. 뱃사람은 즐겁고 이문 남는 항해를 할 것이요, 장사꾼은 벌이 좋은 한 철을 누릴 것이며, 젊은이는 정인의 매력을 만끽할 것이다"
+            }
+          ]
+        },
+        {
+          "context": "먼바다에서 파도가 배를 침",
+          "interpretation_ko": "사업에 재앙이 있고 집안에 다툼과 사나운 시절이 있을 흉조",
+          "interpretation_en": "to be far out on the ocean, and hear the waves lash the ship, forebodes disaster in business life, and quarrels and stormy periods in the household",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ocean",
+              "original": "To be far out on the ocean, and hear the waves lash the ship, forebodes disaster in business life, and quarrels and stormy periods in the household.",
+              "translation_ko": "먼바다에 나가 파도가 배를 치는 소리를 듣는 꿈은, 사업에 재앙이 있고 집안에 다툼과 사나운 시절이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "물가에서 파도가 부서지는 것을 봄",
+          "interpretation_ko": "다침과 원수의 술수에서 아슬아슬하게 벗어날 길조",
+          "interpretation_en": "to be on shore and see the waves of the ocean foaming against each other, foretells your narrow escape from injury and the designs of enemies",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ocean",
+              "original": "To be on shore and see the waves of the ocean foaming against each other, foretells your narrow escape from injury and the designs of enemies.",
+              "translation_ko": "물가에서 파도가 서로 부딪쳐 부서지는 것을 보는 꿈은, 다침과 원수의 술수에서 아슬아슬하게 벗어날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "바다가 얕아 걸어 들어갈 만함을 봄",
+          "interpretation_ko": "번영과 즐거움에 슬픔과 어려움이 섞여 들 조짐",
+          "interpretation_en": "to dream of seeing the ocean so shallow as to allow wading, or a view of the bottom, signifies prosperity and pleasure with a commingling of sorrow and hardships",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ocean",
+              "original": "To dream of seeing the ocean so shallow as to allow wading, or a view of the bottom, signifies prosperity and pleasure with a commingling of sorrow and hardships.",
+              "translation_ko": "바다가 얕아 걸어 들어갈 만하거나 바닥이 보이는 꿈은, 번영과 즐거움에 슬픔과 어려움이 섞여 듦을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "강과 바다가 넘쳐 불어남",
+          "interpretation_ko": "크게 길하고 번창할 조짐",
+          "interpretation_en": "a sign of great fortune and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "江海漲漫大吉昌",
+              "translation_ko": "강과 바다가 넘쳐 불어나면 크게 길하고 창성하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "snow",
       "term_ko": "눈",
       "term_en": "snow",
@@ -50197,6 +50292,81 @@
               "locator": "Nymph",
               "original": "To dream that she impersonates a nymph, is a sign that she is using her attractions for selfish purposes, and thus the undoing of men.",
               "translation_ko": "처녀가 제가 님프인 척하는 꿈은, 제 매력을 사사로운 목적으로 이용해 남자를 망치고 있다는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oak",
+      "term_ko": "참나무",
+      "term_en": "oak",
+      "aliases": [
+        "참나무가",
+        "참나무를",
+        "떡갈나무"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "참나무 숲을 봄",
+          "interpretation_ko": "살아가는 모든 형편에서 크게 번창할 길조",
+          "interpretation_en": "to dream of seeing a forest of oaks, signifies great prosperity in all conditions of life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oak",
+              "original": "To dream of seeing a forest of oaks, signifies great prosperity in all conditions of life.",
+              "translation_ko": "참나무 숲을 보는 꿈은 살아가는 모든 형편에서 크게 번창할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "도토리가 가득한 참나무를 봄",
+          "interpretation_ko": "늘어남과 승진이 있을 길조",
+          "interpretation_en": "to see an oak full of acorns, denotes increase and promotion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oak",
+              "original": "To see an oak full of acorns, denotes increase and promotion.",
+              "translation_ko": "도토리가 가득한 참나무를 보는 꿈은 늘어남과 승진을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "벼락 맞은 참나무를 봄",
+          "interpretation_ko": "갑작스럽고 충격적인 놀람이 있을 흉조",
+          "interpretation_en": "if blasted oak, it denotes sudden and shocking surprises",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oak",
+              "original": "If blasted oak, it denotes sudden and shocking surprises.",
+              "translation_ko": "벼락 맞은 참나무를 보는 꿈은 갑작스럽고 충격적인 놀람을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "연인들이 참나무 꿈을 꿈",
+          "interpretation_ko": "머잖아 좋은 형편에서 함께 살림을 시작할 길조",
+          "interpretation_en": "for sweethearts to dream of oaks, denotes that they will soon begin life together under favorable circumstances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oak",
+              "original": "For sweethearts to dream of oaks, denotes that they will soon begin life together under favorable circumstances.",
+              "translation_ko": "연인들이 참나무 꿈을 꾸면, 머잖아 좋은 형편에서 함께 살림을 시작할 조짐이다"
             }
           ]
         }
@@ -64082,6 +64252,127 @@
               "locator": "Nuts",
               "original": "For a woman to dream of nuts, foretells that her fortune will be on blissful heights.",
               "translation_ko": "여성이 견과 꿈을 꾸면, 살림이 더없이 좋은 자리에 오를 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oar",
+      "term_ko": "노",
+      "term_en": "oar",
+      "aliases": [
+        "노를",
+        "노가",
+        "노에"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "노를 저음",
+          "interpretation_ko": "남을 편안케 하려 제 즐거움을 희생하고 실망을 겪을 흉조",
+          "interpretation_en": "to dream of handling oars, portends disappointments for you, inasmuch as you will sacrifice your own pleasure for the comfort of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oar",
+              "original": "To dream of handling oars, portends disappointments for you, inasmuch as you will sacrifice your own pleasure for the comfort of others.",
+              "translation_ko": "노를 젓는 꿈은, 남을 편안케 하려 제 즐거움을 희생하니 실망이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "노를 잃어버림",
+          "interpretation_ko": "계획을 뜻대로 이루지 못하는 헛수고가 있을 흉조",
+          "interpretation_en": "to lose an oar, denotes vain efforts to carry out designs satisfactorily",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oar",
+              "original": "To lose an oar, denotes vain efforts to carry out designs satisfactorily.",
+              "translation_ko": "노를 잃어버리는 꿈은 계획을 뜻대로 이루지 못하는 헛수고를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "노가 부러짐",
+          "interpretation_ko": "기다리던 즐거움이 끊길 흉조",
+          "interpretation_en": "a broken oar represents interruption in some anticipated pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oar",
+              "original": "A broken oar represents interruption in some anticipated pleasure.",
+              "translation_ko": "노가 부러지는 꿈은 기다리던 즐거움이 끊기는 것을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "observatory",
+      "term_ko": "천문대",
+      "term_en": "observatory",
+      "aliases": [
+        "천문대에서",
+        "천문대를"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "천문대에서 하늘을 봄",
+          "interpretation_ko": "높은 자리와 신임받는 곳으로 빠르게 오를 길조",
+          "interpretation_en": "to dream of viewing the heavens and beautiful landscapes from an observatory, denotes your swift elevation to prominent positions and places of trust",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Observatory",
+              "original": "To dream of viewing the heavens and beautiful landscapes from an observatory, denotes your swift elevation to prominent positions and places of trust.",
+              "translation_ko": "천문대에서 하늘과 아름다운 풍경을 보는 꿈은, 높은 자리와 신임받는 곳으로 빠르게 오를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 천문대에서 하늘을 봄",
+          "interpretation_ko": "더없는 이승의 기쁨을 이룰 길조",
+          "interpretation_en": "for a young woman this dream signals the realization of the highest earthly joys",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Observatory",
+              "original": "For a young woman this dream signals the realization of the highest earthly joys.",
+              "translation_ko": "처녀가 천문대에서 하늘을 보는 꿈은, 더없는 이승의 기쁨을 이룰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "천문대에서 본 하늘이 흐림",
+          "interpretation_ko": "품은 높은 뜻이 이루어지지 못할 흉조",
+          "interpretation_en": "if the heavens are clouded, your highest aims will miss materialization",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Observatory",
+              "original": "If the heavens are clouded, your highest aims will miss materialization.",
+              "translation_ko": "천문대에서 본 하늘이 흐린 꿈은, 품은 높은 뜻이 이루어지지 못할 조짐이다"
             }
           ]
         }
@@ -85603,6 +85894,330 @@
       ]
     },
     {
+      "id": "oatmeal",
+      "term_ko": "오트밀",
+      "term_en": "oatmeal",
+      "aliases": [
+        "오트밀이",
+        "오트밀을"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "오트밀을 먹음",
+          "interpretation_ko": "떳떳이 번 재물을 누리는 즐거움이 있을 길조",
+          "interpretation_en": "to dream of eating oatmeal, signifies the enjoyment of worthily earned fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oatmeal",
+              "original": "To dream of eating oatmeal, signifies the enjoyment of worthily earned fortune.",
+              "translation_ko": "오트밀을 먹는 꿈은 떳떳이 번 재물을 누리는 즐거움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 오트밀을 상에 차림",
+          "interpretation_ko": "머잖아 남의 살림을 도맡을 길조",
+          "interpretation_en": "for a young woman to dream of preparing it for the table, denotes that she will soon preside over the destiny of others",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oatmeal",
+              "original": "For a young woman to dream of preparing it for the table, denotes that she will soon preside over the destiny of others.",
+              "translation_ko": "처녀가 오트밀을 상에 차리는 꿈은, 머잖아 남의 살림을 도맡을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oats",
+      "term_ko": "귀리",
+      "term_en": "oats",
+      "aliases": [
+        "귀리가",
+        "귀리를"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "귀리가 눈에 가득함",
+          "interpretation_ko": "여러 좋은 일이 있을 길조 — 농사짓는 이에게 특히 좋다",
+          "interpretation_en": "to dream that oats hold the vision, portends a variety of good things; the farmer will especially advance in fortune and domestic harmony",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oats",
+              "original": "To dream that oats hold the vision, portends a variety of good things. The farmer will especially advance in fortune and domestic harmony.",
+              "translation_ko": "귀리가 눈에 가득한 꿈은 여러 좋은 일이 있을 조짐이다. 농사짓는 이는 특히 재물과 집안의 화목이 늘 것이다"
+            }
+          ]
+        },
+        {
+          "context": "썩은 귀리를 봄",
+          "interpretation_ko": "밝던 희망이 슬픔으로 바뀔 흉조",
+          "interpretation_en": "to see decayed oats, foretells that sorrow will displace bright hopes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oats",
+              "original": "To see decayed oats, foretells that sorrow will displace bright hopes.",
+              "translation_ko": "썩은 귀리를 보는 꿈은, 밝던 희망이 슬픔으로 바뀔 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obedience",
+      "term_ko": "순종",
+      "term_en": "obedience",
+      "aliases": [
+        "순종을",
+        "순종하는",
+        "순종했다",
+        "순종하고"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남에게 순종함",
+          "interpretation_ko": "평범하지만 무탈하고 즐거운 시절이 있을 조짐",
+          "interpretation_en": "to dream that you render obedience to another, foretells for you a common place, a pleasant but uneventful period of life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Obedience",
+              "original": "To dream that you render obedience to another, foretells for you a common place, a pleasant but uneventful period of life.",
+              "translation_ko": "남에게 순종하는 꿈은, 평범하지만 무탈하고 즐거운 시절이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 나에게 순종함",
+          "interpretation_ko": "재물과 큰 존경을 거느리게 될 길조",
+          "interpretation_en": "if others are obedient to you, it shows that you will command fortune and high esteem",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Obedience",
+              "original": "If others are obedient to you, it shows that you will command fortune and high esteem.",
+              "translation_ko": "남들이 나에게 순종하는 꿈은, 재물과 큰 존경을 거느리게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obelisk",
+      "term_ko": "오벨리스크",
+      "term_en": "obelisk",
+      "aliases": [
+        "오벨리스크가",
+        "오벨리스크를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "오벨리스크가 위엄 있고 차갑게 솟아 있음을 봄",
+          "interpretation_ko": "서글픈 소식이 다가온다는 흉조",
+          "interpretation_en": "an obelisk looming up stately and cold in your dreams is the forerunner of melancholy tidings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Obelisk",
+              "original": "An obelisk looming up stately and cold in your dreams is the forerunner of melancholy tidings.",
+              "translation_ko": "오벨리스크가 위엄 있고 차갑게 솟아 있는 꿈은, 서글픈 소식이 다가온다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "연인들이 오벨리스크 밑에 섬",
+          "interpretation_ko": "치명적인 불화가 있을 흉조",
+          "interpretation_en": "for lovers to stand at the base of an obelisk, denotes fatal disagreements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Obelisk",
+              "original": "For lovers to stand at the base of an obelisk, denotes fatal disagreements.",
+              "translation_ko": "연인들이 오벨리스크 밑에 서는 꿈은, 치명적인 불화를 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obituary",
+      "term_ko": "부고",
+      "term_en": "obituary",
+      "aliases": [
+        "부고를",
+        "부고가"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "부고를 씀",
+          "interpretation_ko": "언짢고 어수선한 일들이 떠맡겨질 흉조",
+          "interpretation_en": "to dream of writing an obituary, denotes that unpleasant and discordant duties will devolve upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Obituary",
+              "original": "To dream of writing an obituary, denotes that unpleasant and discordant duties will devolve upon you.",
+              "translation_ko": "부고를 쓰는 꿈은, 언짢고 어수선한 일들이 나에게 떠맡겨질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부고를 읽음",
+          "interpretation_ko": "머잖아 마음을 어지럽히는 소식이 닿을 흉조",
+          "interpretation_en": "if you read one, news of a distracting nature will soon reach you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Obituary",
+              "original": "If you read one, news of a distracting nature will soon reach you.",
+              "translation_ko": "부고를 읽는 꿈은, 머잖아 마음을 어지럽히는 소식이 닿을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obligation",
+      "term_ko": "책무",
+      "term_en": "obligation",
+      "aliases": [
+        "책무를",
+        "책무가"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 책무를 짐",
+          "interpretation_ko": "남의 생각 없는 불평 때문에 짜증 나고 시달릴 흉조",
+          "interpretation_en": "to dream of obligating yourself in any incident, denotes that you will be fretted and worried by the thoughtless complaints of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Obligation",
+              "original": "To dream of obligating yourself in any incident, denotes that you will be fretted and worried by the thoughtless complaints of others.",
+              "translation_ko": "스스로 책무를 지는 꿈은, 남의 생각 없는 불평 때문에 짜증 나고 시달릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 나에게 책무를 짐",
+          "interpretation_ko": "지인과 벗의 존중을 얻을 길조",
+          "interpretation_en": "if others obligate themselves to you, it portends that you will win the regard of acquaintances and friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Obligation",
+              "original": "If others obligate themselves to you, it portends that you will win the regard of acquaintances and friends.",
+              "translation_ko": "남들이 나에게 책무를 지는 꿈은, 지인과 벗의 존중을 얻을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "occultist",
+      "term_ko": "신비주의자",
+      "term_en": "occultist",
+      "aliases": [
+        "신비주의자가",
+        "신비주의자의"
+      ],
+      "category": "person",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "신비주의자의 가르침을 들음",
+          "interpretation_ko": "남들을 더 높은 정의와 너그러움으로 이끌려 애쓸 길조",
+          "interpretation_en": "to dream that you listen to the teachings of an occultist, denotes that you will strive to elevate others to a higher plane of justice and forbearance",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Occultist",
+              "original": "To dream that you listen to the teachings of an occultist, denotes that you will strive to elevate others to a higher plane of justice and forbearance.",
+              "translation_ko": "신비주의자의 가르침을 듣는 꿈은, 남들을 더 높은 정의와 너그러움으로 이끌려 애쓸 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "신비주의자의 견해를 받아들임",
+          "interpretation_ko": "마음과 몸을 세속 위에 두어 참된 기쁨을 찾을 길조",
+          "interpretation_en": "if you accept his views, you will find honest delight by keeping your mind and person above material frivolities and pleasures",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Occultist",
+              "original": "If you accept his views, you will find honest delight by keeping your mind and person above material frivolities and pleasures.",
+              "translation_ko": "신비주의자의 견해를 받아들이는 꿈은, 마음과 몸을 세속의 경박함과 쾌락 위에 두어 참된 기쁨을 찾을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "oil",
       "term_ko": "기름",
       "term_en": "oil",
@@ -97019,6 +97634,38 @@
       ]
     },
     {
+      "id": "oath",
+      "term_ko": "맹세",
+      "term_en": "oath",
+      "aliases": [
+        "맹세를",
+        "맹세했다"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "맹세를 함",
+          "interpretation_ko": "깨어나서 불화와 다툼을 겪을 흉조",
+          "interpretation_en": "whenever you take an oath in your dreams, prepare for dissension and altercations on waking",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oath",
+              "original": "Whenever you take an oath in your dreams, prepare for dissension and altercations on waking.",
+              "translation_ko": "꿈에 맹세를 하면, 깨어나서 불화와 다툼을 겪을 채비를 해야 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "official-post",
       "term_ko": "벼슬",
       "term_en": "official post",
@@ -98192,40 +98839,6 @@
               "locator": "宮室屋宇倉庫",
               "original": "寺舍有經病人痊",
               "translation_ko": "절에 경전이 있으면 병자가 낫는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sea",
-      "term_ko": "바다",
-      "term_en": "sea",
-      "aliases": [
-        "해변",
-        "대양",
-        "바닷물",
-        "바닷가"
-      ],
-      "category": "nature",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "강과 바다가 넘쳐 불어남",
-          "interpretation_ko": "크게 길하고 번창할 조짐",
-          "interpretation_en": "a sign of great fortune and prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "江海漲漫大吉昌",
-              "translation_ko": "강과 바다가 넘쳐 불어나면 크게 길하고 창성하다"
             }
           ]
         }

@@ -1176,7 +1176,10 @@
       "해변",
       "대양",
       "바닷물",
-      "바닷가"
+      "바닷가",
+      "먼바다",
+      "파도가",
+      "파도를"
     ],
     "aliases_en": [
       "the sea",
@@ -1186,8 +1189,20 @@
       "waves",
       "rough waves"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "강과 바다가 넘쳐 불어남": "넘쳐 불어나",
+      "바다가 잔잔함": "잔잔한 뱃사람 항해",
+      "먼바다에서 파도가 배를 침": "먼바다 파도가 배를",
+      "물가에서 파도가 부서지는 것을 봄": "물가에서 부서지는",
+      "바다가 얕아 걸어 들어갈 만함을 봄": "얕아 걸어 들어갈"
+    },
+    "contexts_en": {
+      "강과 바다가 넘쳐 불어남": "overflow great fortune",
+      "바다가 잔잔함": "calm propitious sailor voyage",
+      "먼바다에서 파도가 배를 침": "crashed lash ship disaster stormy",
+      "물가에서 파도가 부서지는 것을 봄": "shore foaming narrow escape enemies",
+      "바다가 얕아 걸어 들어갈 만함을 봄": "shallow wading bottom commingling"
+    }
   },
   {
     "id": "slope",

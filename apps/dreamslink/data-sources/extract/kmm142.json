@@ -1,0 +1,203 @@
+[
+  {
+    "id": "oak",
+    "aliases": [
+      "참나무가",
+      "참나무를",
+      "떡갈나무"
+    ],
+    "aliases_en": [
+      "oaks",
+      "an oak"
+    ],
+    "contexts": {
+      "참나무 숲을 봄": "숲을 보았",
+      "도토리가 가득한 참나무를 봄": "도토리가 가득",
+      "벼락 맞은 참나무를 봄": "벼락 맞은 벼락 맞았",
+      "연인들이 참나무 꿈을 꿈": "연인들이 사귀는 이들이"
+    },
+    "contexts_en": {
+      "참나무 숲을 봄": "forest great prosperity conditions",
+      "도토리가 가득한 참나무를 봄": "full acorns increase promotion",
+      "벼락 맞은 참나무를 봄": "blasted sudden shocking surprises",
+      "연인들이 참나무 꿈을 꿈": "sweethearts begin life favorable"
+    }
+  },
+  {
+    "id": "oar",
+    "aliases": [
+      "노를",
+      "노가",
+      "노에"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "노를 저음": "저었 저어",
+      "노를 잃어버림": "잃어버렸 잃어버린",
+      "노가 부러짐": "부러졌 부러진"
+    },
+    "contexts_en": {
+      "노를 저음": "handling disappointments sacrifice comfort",
+      "노를 잃어버림": "lose vain designs satisfactorily",
+      "노가 부러짐": "broken interruption anticipated"
+    }
+  },
+  {
+    "id": "oath",
+    "aliases": [
+      "맹세를",
+      "맹세했다"
+    ],
+    "aliases_en": [
+      "an oath"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "oatmeal",
+    "aliases": [
+      "오트밀이",
+      "오트밀을"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "오트밀을 먹음": "먹었 먹는",
+      "처녀가 오트밀을 상에 차림": "처녀가 상에 차렸"
+    },
+    "contexts_en": {
+      "오트밀을 먹음": "eating enjoyment worthily earned",
+      "처녀가 오트밀을 상에 차림": "young woman preparing table destiny"
+    }
+  },
+  {
+    "id": "oats",
+    "aliases": [
+      "귀리가",
+      "귀리를"
+    ],
+    "aliases_en": [
+      "an oat"
+    ],
+    "contexts": {
+      "귀리가 눈에 가득함": "눈에 가득 농사짓는",
+      "썩은 귀리를 봄": "썩은 썩어"
+    },
+    "contexts_en": {
+      "귀리가 눈에 가득함": "hold vision variety farmer",
+      "썩은 귀리를 봄": "decayed sorrow displace hopes"
+    }
+  },
+  {
+    "id": "obedience",
+    "aliases": [
+      "순종을",
+      "순종하는",
+      "순종했다",
+      "순종하고"
+    ],
+    "aliases_en": [
+      "obedient"
+    ],
+    "contexts": {
+      "남에게 순종함": "남에게 무탈하고",
+      "남들이 나에게 순종함": "남들이 존경 명령"
+    },
+    "contexts_en": {
+      "남에게 순종함": "render another common place uneventful",
+      "남들이 나에게 순종함": "others command fortune esteem"
+    }
+  },
+  {
+    "id": "obelisk",
+    "aliases": [
+      "오벨리스크가",
+      "오벨리스크를"
+    ],
+    "aliases_en": [
+      "an obelisk"
+    ],
+    "contexts": {
+      "오벨리스크가 위엄 있고 차갑게 솟아 있음을 봄": "위엄 있고 차갑게 솟아",
+      "연인들이 오벨리스크 밑에 섬": "연인들이 밑에 섰다"
+    },
+    "contexts_en": {
+      "오벨리스크가 위엄 있고 차갑게 솟아 있음을 봄": "looming stately cold melancholy",
+      "연인들이 오벨리스크 밑에 섬": "lovers base fatal disagreements"
+    }
+  },
+  {
+    "id": "obituary",
+    "aliases": [
+      "부고를",
+      "부고가"
+    ],
+    "aliases_en": [
+      "obituaries"
+    ],
+    "contexts": {
+      "부고를 씀": "쓰는 작성했",
+      "부고를 읽음": "읽는 읽었"
+    },
+    "contexts_en": {
+      "부고를 씀": "writing unpleasant discordant duties",
+      "부고를 읽음": "read distracting reach"
+    }
+  },
+  {
+    "id": "obligation",
+    "aliases": [
+      "책무를",
+      "책무가"
+    ],
+    "aliases_en": [
+      "obligations"
+    ],
+    "contexts": {
+      "스스로 책무를 짐": "스스로 짊어",
+      "남들이 나에게 책무를 짐": "남들이 지는"
+    },
+    "contexts_en": {
+      "스스로 책무를 짐": "obligating yourself fretted worried",
+      "남들이 나에게 책무를 짐": "others obligate regard acquaintances"
+    }
+  },
+  {
+    "id": "observatory",
+    "aliases": [
+      "천문대에서",
+      "천문대를"
+    ],
+    "aliases_en": [
+      "observatories"
+    ],
+    "contexts": {
+      "천문대에서 하늘을 봄": "아름다운 풍경 신임받는",
+      "처녀가 천문대에서 하늘을 봄": "처녀가 이승의 기쁨",
+      "천문대에서 본 하늘이 흐림": "흐린 흐렸"
+    },
+    "contexts_en": {
+      "천문대에서 하늘을 봄": "heavens landscapes swift elevation trust",
+      "처녀가 천문대에서 하늘을 봄": "young woman realization earthly joys",
+      "천문대에서 본 하늘이 흐림": "clouded aims materialization"
+    }
+  },
+  {
+    "id": "occultist",
+    "aliases": [
+      "신비주의자가",
+      "신비주의자의"
+    ],
+    "aliases_en": [
+      "an occultist"
+    ],
+    "contexts": {
+      "신비주의자의 가르침을 들음": "가르침을 들었",
+      "신비주의자의 견해를 받아들임": "견해를 받아들"
+    },
+    "contexts_en": {
+      "신비주의자의 가르침을 들음": "listen teachings elevate justice forbearance",
+      "신비주의자의 견해를 받아들임": "accept views delight frivolities"
+    }
+  }
+]
