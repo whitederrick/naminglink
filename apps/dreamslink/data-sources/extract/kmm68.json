@@ -1,0 +1,104 @@
+[
+  {
+    "id": "january",
+    "aliases": [
+      "정월달",
+      "일월에",
+      "새해 첫달"
+    ],
+    "aliases_en": [
+      "January"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "jaundice",
+    "aliases": [
+      "황달이",
+      "황달을",
+      "황달에"
+    ],
+    "aliases_en": [
+      "jaundice"
+    ],
+    "contexts": {
+      "제가 황달을 앓음": "제가 내가 나는",
+      "남이 황달을 앓는 것을 봄": "남이 남들 다른이"
+    },
+    "contexts_en": {
+      "제가 황달을 앓음": "prosperity temporary embarrassments",
+      "남이 황달을 앓는 것을 봄": "others worried unpleasant discouraging"
+    }
+  },
+  {
+    "id": "javelin",
+    "aliases": [
+      "투창이",
+      "투창을",
+      "투창에",
+      "던지는 창"
+    ],
+    "aliases_en": [
+      "a javelin",
+      "javelins"
+    ],
+    "contexts": {
+      "투창으로 몸을 지킴": "막았 지켰 맞섰",
+      "투창에 찔림": "찔렸 꿰뚫",
+      "남들이 투창을 들고 있는 것을 봄": "남들이 들고 사람들이"
+    },
+    "contexts_en": {
+      "투창으로 몸을 지킴": "defending private searched dishonesty innocence",
+      "투창에 찔림": "pierced succeed giving",
+      "남들이 투창을 들고 있는 것을 봄": "others carrying interests threatened"
+    }
+  },
+  {
+    "id": "jaws",
+    "aliases": [
+      "턱이",
+      "턱을",
+      "턱에",
+      "아래턱",
+      "위턱",
+      "아가리"
+    ],
+    "aliases_en": [
+      "jaws",
+      "jaw"
+    ],
+    "contexts": {
+      "크고 일그러진 턱을 봄": "일그러 우락부락 커다란",
+      "사나운 짐승의 아가리 속에 있음": "짐승 아가리 사나운",
+      "제 턱이 아픔": "아팠 쑤시 욱신"
+    },
+    "contexts_en": {
+      "크고 일그러진 턱을 봄": "heavy misshapen disagreements feeling",
+      "사나운 짐승의 아가리 속에 있음": "wild beast injury happiness",
+      "제 턱이 아픔": "ache pain climatic malaria finances"
+    }
+  },
+  {
+    "id": "jay-bird",
+    "aliases": [
+      "어치가",
+      "어치를",
+      "산까치"
+    ],
+    "aliases_en": [
+      "a jay-bird",
+      "jay"
+    ],
+    "contexts": {
+      "어치를 봄": "반갑 지저귀 날아",
+      "어치를 잡음": "잡았 붙잡 사로잡",
+      "죽은 어치를 봄": "죽은 주검 죽어"
+    },
+    "contexts_en": {
+      "어치를 봄": "pleasant visits friends gossips",
+      "어치를 잡음": "catch unfruitful tasks",
+      "죽은 어치를 봄": "dead domestic unhappiness vicissitudes"
+    }
+  }
+]

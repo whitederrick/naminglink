@@ -786,7 +786,11 @@
     "aliases": [
       "단지",
       "옹기",
-      "독을"
+      "독을",
+      "항아리가",
+      "항아리를",
+      "독이",
+      "장독"
     ],
     "aliases_en": [
       "pot",
@@ -794,8 +798,20 @@
       "clay jar",
       "crock"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "항아리 안으로 들어감": "안으로 들어갔",
+      "빈 항아리를 봄": "비어 텅빈 비었다",
+      "가득 찬 항아리를 봄": "가득 그득 채워",
+      "항아리를 삼": "샀다 사들 장만",
+      "깨진 항아리를 봄": "깨진 깨졌 금이"
+    },
+    "contexts_en": {
+      "항아리 안으로 들어감": "climbed inside",
+      "빈 항아리를 봄": "empty impoverishment",
+      "가득 찬 항아리를 봄": "full successful",
+      "항아리를 삼": "buy precarious burden heavy",
+      "깨진 항아리를 봄": "broken distressing sickness deep disappointment"
+    }
   },
   {
     "id": "letter",

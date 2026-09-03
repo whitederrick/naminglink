@@ -67,6 +67,7 @@
     "m65.json",
     "m66.json",
     "m67.json",
+    "m68.json",
     "m7a.json",
     "m7b.json",
     "m8.json",
@@ -29426,6 +29427,100 @@
       ]
     },
     {
+      "id": "jar",
+      "term_ko": "항아리",
+      "term_en": "jar",
+      "aliases": [
+        "단지",
+        "옹기",
+        "독을",
+        "항아리가",
+        "항아리를",
+        "독이",
+        "장독"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "항아리 안으로 들어감",
+          "interpretation_ko": "크게 부귀할 조짐",
+          "interpretation_en": "a sign of great wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "入盆甕器大富貴",
+              "translation_ko": "동이와 항아리에 들어가면 크게 부귀하다"
+            }
+          ]
+        },
+        {
+          "context": "빈 항아리를 봄",
+          "interpretation_ko": "살림이 쪼들리고 괴로울 흉한 조짐",
+          "interpretation_en": "denotes impoverishment and distress",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jar",
+              "original": "To dream of empty jars, denotes impoverishment and distress.",
+              "translation_ko": "빈 항아리의 꿈은 궁핍과 괴로움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가득 찬 항아리를 봄",
+          "interpretation_ko": "하는 일이 잘될 길한 조짐",
+          "interpretation_en": "you will be successful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jar",
+              "original": "To see them full, you will be successful.",
+              "translation_ko": "그것이 가득 찬 것을 보면 하는 일이 잘된다"
+            }
+          ]
+        },
+        {
+          "context": "항아리를 삼",
+          "interpretation_ko": "이룸이 아슬아슬하고 짐이 무거울 흉한 조짐",
+          "interpretation_en": "your success will be precarious and your burden will be heavy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jar",
+              "original": "If you buy jars, your success will be precarious and your burden will be heavy.",
+              "translation_ko": "항아리를 사면 이룸이 아슬아슬하고 짐이 무거워진다"
+            }
+          ]
+        },
+        {
+          "context": "깨진 항아리를 봄",
+          "interpretation_ko": "괴로운 병이나 깊은 실망이 기다릴 흉한 조짐",
+          "interpretation_en": "distressing sickness or deep disappointment awaits you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jar",
+              "original": "To see broken jars, distressing sickness or deep disappointment awaits you.",
+              "translation_ko": "깨진 항아리를 보면 괴로운 병이나 깊은 실망이 기다린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "killing-someone",
       "term_ko": "살인",
       "term_en": "killing someone",
@@ -49624,6 +49719,193 @@
       ]
     },
     {
+      "id": "javelin",
+      "term_ko": "투창",
+      "term_en": "javelin",
+      "aliases": [
+        "투창이",
+        "투창을",
+        "투창에",
+        "던지는 창"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "투창으로 몸을 지킴",
+          "interpretation_ko": "가장 사사로운 일까지 들춰져 부정하다는 말을 듣지만 오랜 다툼 끝에 결백을 밝힐 조짐",
+          "interpretation_en": "your most private affairs will be searched into to establish claims of dishonesty, and you will prove your innocence after much wrangling",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Javelin",
+              "original": "To dream of defending yourself with a javelin, your most private affairs will be searched into to establish claims of dishonesty, and you will prove your innocence after much wrangling.",
+              "translation_ko": "투창으로 몸을 지키는 꿈을 꾸면, 가장 사사로운 일까지 들춰져 부정하다는 말을 듣지만 오랜 다툼 끝에 결백을 밝힌다"
+            }
+          ]
+        },
+        {
+          "context": "투창에 찔림",
+          "interpretation_ko": "적이 뜻을 이루어 근심을 안길 흉한 조짐",
+          "interpretation_en": "enemies will succeed in giving you trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Javelin",
+              "original": "If you are pierced by a javelin, enemies will succeed in giving you trouble.",
+              "translation_ko": "투창에 찔리면 적들이 뜻을 이루어 근심을 안긴다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 투창을 들고 있는 것을 봄",
+          "interpretation_ko": "하는 일이 위태로워질 흉한 조짐",
+          "interpretation_en": "your interests are threatened",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Javelin",
+              "original": "To see others carrying javelins, your interests are threatened.",
+              "translation_ko": "남들이 투창을 들고 있는 것을 보면 하는 일이 위태로워진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jaws",
+      "term_ko": "턱",
+      "term_en": "jaws",
+      "aliases": [
+        "턱이",
+        "턱을",
+        "턱에",
+        "아래턱",
+        "위턱",
+        "아가리"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "크고 일그러진 턱을 봄",
+          "interpretation_ko": "벗들 사이에 뜻이 어긋나고 언짢은 마음이 드러날 흉한 조짐",
+          "interpretation_en": "denotes disagreements, and ill feeling will be shown between friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jaws",
+              "original": "To dream of seeing heavy, misshapen jaws, denotes disagreements, and ill feeling will be shown between friends.",
+              "translation_ko": "크고 일그러진 턱을 보는 꿈은 벗들 사이의 불화와 언짢은 마음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "사나운 짐승의 아가리 속에 있음",
+          "interpretation_ko": "적이 하는 일과 즐거움을 해칠 흉한 조짐",
+          "interpretation_en": "enemies will work injury to your affairs and happiness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jaws",
+              "original": "If you dream that you are in the jaws of a wild beast, enemies will work injury to your affairs and happiness.",
+              "translation_ko": "사나운 짐승의 아가리 속에 있는 꿈을 꾸면 적들이 하는 일과 즐거움을 해친다"
+            }
+          ]
+        },
+        {
+          "context": "제 턱이 아픔",
+          "interpretation_ko": "날씨가 크게 바뀌는 데 시달리고 돌림병으로 몸과 살림에 손해가 있을 흉한 조짐",
+          "interpretation_en": "you will be exposed to climatic changes, and malaria may cause you loss in health and finances",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jaws",
+              "original": "If your own jaws ache with pain, you will be exposed to climatic changes, and malaria may cause you loss in health and finances.",
+              "translation_ko": "제 턱이 아프면 날씨가 크게 바뀌는 데 시달리고 돌림병으로 몸과 살림에 손해가 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jay-bird",
+      "term_ko": "어치",
+      "term_en": "jay-bird",
+      "aliases": [
+        "어치가",
+        "어치를",
+        "산까치"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "어치를 봄",
+          "interpretation_ko": "벗이 반갑게 찾아오고 재미난 이야기를 나눌 길한 조짐",
+          "interpretation_en": "foretells pleasant visits from friends and interesting gossips",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jay-bird",
+              "original": "To dream of a jay-bird, foretells pleasant visits from friends and interesting gossips.",
+              "translation_ko": "어치 꿈은 벗의 반가운 방문과 재미난 이야기를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "어치를 잡음",
+          "interpretation_ko": "즐겁기는 하나 열매 없는 일거리에 매일 조짐",
+          "interpretation_en": "denotes pleasant, though unfruitful, tasks",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jay-bird",
+              "original": "To catch a jay-bird, denotes pleasant, though unfruitful, tasks.",
+              "translation_ko": "어치를 잡으면 즐겁기는 하나 열매 없는 일거리에 매인다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 어치를 봄",
+          "interpretation_ko": "집안이 편치 못하고 굽이가 잦을 흉한 조짐",
+          "interpretation_en": "denotes domestic unhappiness and many vicissitudes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jay-bird",
+              "original": "To see a dead jay-bird, denotes domestic unhappiness and many vicissitudes.",
+              "translation_ko": "죽은 어치를 보면 집안이 편치 못하고 굽이가 잦다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "kitchen",
       "term_ko": "부엌",
       "term_en": "kitchen",
@@ -68147,6 +68429,53 @@
       ]
     },
     {
+      "id": "jaundice",
+      "term_ko": "황달",
+      "term_en": "jaundice",
+      "aliases": [
+        "황달이",
+        "황달을",
+        "황달에"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 황달을 앓음",
+          "interpretation_ko": "한동안 곤란을 겪은 뒤 살림이 넉넉해질 길한 조짐",
+          "interpretation_en": "denotes prosperity after temporary embarrassments",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jaundice",
+              "original": "To dream that you have the jaundice, denotes prosperity after temporary embarrassments.",
+              "translation_ko": "황달을 앓는 꿈은 한동안의 곤란 뒤에 오는 넉넉함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 황달을 앓는 것을 봄",
+          "interpretation_ko": "달갑지 않은 이들과 어두운 앞날로 속을 썩일 흉한 조짐",
+          "interpretation_en": "you will be worried with unpleasant companions and discouraging prospects",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jaundice",
+              "original": "To see others with jaundice, you will be worried with unpleasant companions and discouraging prospects.",
+              "translation_ko": "남이 황달을 앓는 것을 보면 달갑지 않은 이들과 어두운 앞날로 속을 썩인다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "letter",
       "term_ko": "편지",
       "term_en": "letter",
@@ -78487,33 +78816,33 @@
       ]
     },
     {
-      "id": "jar",
-      "term_ko": "항아리",
-      "term_en": "jar",
+      "id": "january",
+      "term_ko": "정월",
+      "term_en": "january",
       "aliases": [
-        "단지",
-        "옹기",
-        "독을"
+        "정월달",
+        "일월에",
+        "새해 첫달"
       ],
-      "category": "object",
-      "polarity": "positive",
+      "category": "nature",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "항아리 안으로 들어감",
-          "interpretation_ko": "크게 부귀할 조짐",
-          "interpretation_en": "a sign of great wealth and honor",
-          "polarity": "positive",
+          "context": "정월 꿈을 꿈",
+          "interpretation_ko": "마음이 가지 않는 벗이나 아이들 때문에 괴로울 흉한 조짐",
+          "interpretation_en": "denotes you will be afflicted with unloved companions or children",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "入盆甕器大富貴",
-              "translation_ko": "동이와 항아리에 들어가면 크게 부귀하다"
+              "work": "miller",
+              "locator": "January",
+              "original": "To dream of this month, denotes you will be afflicted with unloved companions or children.",
+              "translation_ko": "이 달의 꿈은 마음이 가지 않는 벗이나 아이들 때문에 괴로우리라는 뜻이다"
             }
           ]
         }
