@@ -1,0 +1,58 @@
+{
+  "batch": 143,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "October",
+      "text": "To imagine you are in October is ominous of gratifying success in your undertakings. You will also make new acquaintances which will ripen into lasting friendships.",
+      "note": "새 상징 `october`(10월) — `november`(139)와 같은 자리"
+    },
+    {
+      "headword": "Oculist",
+      "text": "To dream of consulting an oculist, denotes that you will be dissatisfied with your progress in life, and will use artificial means of advancement.",
+      "note": "새 상징 `oculist`(안과의사)"
+    },
+    {
+      "headword": "Odd-Fellow",
+      "text": "To dream of this order, signifies that you will have sincere friends, and misfortune will touch you but lightly. To join this order, foretells that you will win distinction and conjugal bliss.",
+      "note": "새 상징 `odd-fellow`(우애조합, 19세기 미국의 공제조합)"
+    },
+    {
+      "headword": "Odor",
+      "text": "To dream of inhaling sweet odors, is a sign of a beautiful woman ministering to your daily life, and successful financiering. To smell disgusting odors, foretells unpleasant disagreements and unreliable servants.",
+      "note": "새 상징 `odor`(냄새). `aroma`(향기)와는 그림이 달라 안 겹친다"
+    },
+    {
+      "headword": "Offense",
+      "text": "To dream of being offended, denotes that errors will be detected in your conduct, which will cause you inward rage while attempting to justify yourself. To give offense, predicts for you many struggles before reaching your aims. For a young woman to give, or take offense, signifies that she will regret hasty conclusions, and disobedience to parents or guardian.",
+      "note": "기존 상징 `humiliation`(모욕, 밀러 `Affront`)에 셋을 더한다. Affront(당함)와 Offense(제 잘못이 드러남·남에게 줌·처녀가 주거나 받음)는 각도가 달라 겹치지 않는다"
+    },
+    {
+      "headword": "Offering",
+      "text": "To bring or make an offering, foretells that you will be cringing and hypocritical unless you cultivate higher views of duty.",
+      "note": "새 상징 `offering`(제물)"
+    },
+    {
+      "headword": "Office",
+      "text": "For a person to dream that he holds office, denotes that his aspirations will sometimes make him undertake dangerous paths, but his boldness will be rewarded with success. If he fails by any means to secure a desired office he will suffer keen disappointment in his affairs. To dream that you are turned out of office, signifies loss of valuables.",
+      "note": "기존 상징 `official-post`(벼슬, 주공해몽)에 셋을 더한다. 「관직」·「공직」을 이미 `official-post`·`official-s-seat`·`receiving-an-official-post` 셋이 나눠 쥐고 있어, 가장 일반적인 `official-post`에 붙였다"
+    },
+    {
+      "headword": "Offspring",
+      "text": "To dream of your own offspring, denotes cheerfulness and the merry voices of neighbors and children. To see the offspring of domestic animals, denotes increase in prosperity.",
+      "note": "둘로 갈라 붙인다 — 「제 자식을 봄」은 사람 아이라 `child`(아이, 밀러 `Children`)에, 「집짐승의 새끼를 봄」은 짐승이라 `brood`(새끼, 밀러 `Brood`)에"
+    },
+    {
+      "headword": "Oil",
+      "text": "To dream of anointing with oil, foretells events in which you will be the particular moving power. Quantities of oil, prognosticates excesses in pleasurable enterprises. For a man to dream that he deals in oil, denotes unsuccessful love making, as he will expect unusual concessions. For a woman to dream that she is anointed with oil, shows that she will be open to indiscreet advances.",
+      "note": "기존 상징 `oil`(기름)에 넷을 더한다. 기존 둘은 밀러 `Grease`(기름 속에 있음)와 주공해몽에서 왔다 — `Oil`은 다른 표제어다"
+    },
+    {
+      "headword": "Oilcloth",
+      "text": "To dream of oilcloth is a warning that you will meet coldness and treachery. To deal in it, denotes uncertain speculations.",
+      "note": "새 상징 `oilcloth`(방수포)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

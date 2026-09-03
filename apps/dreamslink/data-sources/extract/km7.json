@@ -1044,8 +1044,18 @@
       "appointment",
       "promotion"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "새로 벼슬을 받음": "새로 받았",
+      "관직을 지님": "지니는 지녔 위태한 대담함",
+      "바라던 관직을 얻지 못함": "바라던 얻지 못하 실망",
+      "관직에서 쫓겨남": "쫓겨나 쫓겨났 값진 것을"
+    },
+    "contexts_en": {
+      "새로 벼슬을 받음": "newly appointed",
+      "관직을 지님": "holds office dangerous boldness",
+      "바라던 관직을 얻지 못함": "fails secure desired keen",
+      "관직에서 쫓겨남": "turned loss valuables"
+    }
   },
   {
     "id": "palace",

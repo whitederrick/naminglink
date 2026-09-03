@@ -999,7 +999,10 @@
       "치욕",
       "망신",
       "수모",
-      "굴욕"
+      "굴욕",
+      "모욕당하는",
+      "모욕당했다",
+      "모욕당해"
     ],
     "aliases_en": [
       "humiliated",
@@ -1012,12 +1015,18 @@
     "contexts": {
       "모욕당하는 꿈을 꿈": "눈물 울게 서럽",
       "젊은 여성이 모욕당함": "젊은여성 아가씨 처녀",
-      "남에게 모욕을 당함": "남에게 남이 타인"
+      "남에게 모욕을 당함": "남에게 남이 타인",
+      "모욕당했다고 느낌": "행실 잘못 분노",
+      "남에게 모욕을 줌": "여러 싸움 뜻을 이루기까지 주었",
+      "처녀가 모욕을 주거나 받음": "성급한 판단 불순종 주거나"
     },
     "contexts_en": {
       "모욕당하는 꿈을 꿈": "weep tears cried",
       "젊은 여성이 모욕당함": "young woman maiden",
-      "남에게 모욕을 당함": "someone another stranger"
+      "남에게 모욕을 당함": "someone another stranger",
+      "모욕당했다고 느낌": "errors conduct inward rage",
+      "남에게 모욕을 줌": "give offense struggles aims",
+      "처녀가 모욕을 주거나 받음": "hasty conclusions disobedience"
     }
   },
   {

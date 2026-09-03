@@ -606,7 +606,8 @@
       "제 아이가 몹시 앓거나 죽은 것을 봄": "몹시 위독 앓는",
       "이미 죽은 제 아이를 봄": "이미 죽은 잃은",
       "풀 죽은 아이들을 봄": "시무룩 낙담 기죽",
-      "아이들과 뛰놀며 놂": "뛰놀 뛰어놀 함께"
+      "아이들과 뛰놀며 놂": "뛰놀 뛰어놀 함께",
+      "제 자식을 봄": "자식을 명랑함 즐거운 목소리"
     },
     "contexts_en": {
       "어린 아들딸을 품에 안음": "held embraced arms hugging cradled",
@@ -617,7 +618,8 @@
       "제 아이가 몹시 앓거나 죽은 것을 봄": "desperately fear welfare",
       "이미 죽은 제 아이를 봄": "worry disappointment near",
       "풀 죽은 아이들을 봄": "disappointed underhanded forebodings",
-      "아이들과 뛰놀며 놂": "romp play speculating"
+      "아이들과 뛰놀며 놂": "romp play speculating",
+      "제 자식을 봄": "own offspring cheerfulness merry voices"
     }
   },
   {
@@ -1032,11 +1034,19 @@
     ],
     "contexts": {
       "기름을 먹음": "먹었 마셨",
-      "기름 속에 있음": "속에 뒤집어 범벅"
+      "기름 속에 있음": "속에 뒤집어 범벅",
+      "기름을 바르는 의식을 치름": "바르는 의식 움직이는",
+      "기름이 많이 있는 것을 봄": "많이 지나침 즐거운",
+      "남성이 기름 장사를 함": "남성이 장사 사랑을 얻는",
+      "여성이 기름을 바름": "여성이 여자가 발랐 무분별한 추근"
     },
     "contexts_en": {
       "기름을 먹음": "ate drank",
-      "기름 속에 있음": "travels disagreeable polished strangers"
+      "기름 속에 있음": "travels disagreeable polished strangers",
+      "기름을 바르는 의식을 치름": "anointing moving power",
+      "기름이 많이 있는 것을 봄": "quantities excesses pleasurable",
+      "남성이 기름 장사를 함": "deals unsuccessful concessions",
+      "여성이 기름을 바름": "woman anointed indiscreet advances"
     }
   },
   {

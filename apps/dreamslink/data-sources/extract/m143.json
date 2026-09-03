@@ -1,0 +1,317 @@
+[
+  {
+    "term_ko": "10월",
+    "term_en": "october",
+    "context": "10월이라고 상상함",
+    "interpretation_ko": "하는 일에서 만족스러운 성공이 있고 오래가는 우정을 맺을 길조",
+    "interpretation_en": "to imagine you are in October is ominous of gratifying success in your undertakings; you will also make new acquaintances which will ripen into lasting friendships",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "October",
+      "original": "To imagine you are in October is ominous of gratifying success in your undertakings. You will also make new acquaintances which will ripen into lasting friendships.",
+      "translation_ko": "10월이라고 상상하는 꿈은 하는 일에서 만족스러운 성공이 있을 조짐이다. 새로 사귄 이들과는 오래가는 우정을 맺게 될 것이다"
+    }
+  },
+  {
+    "term_ko": "안과의사",
+    "term_en": "oculist",
+    "context": "안과의사와 상담함",
+    "interpretation_ko": "살아가는 나아감에 만족하지 못해 인위적인 수단을 쓰려 할 흉조",
+    "interpretation_en": "to dream of consulting an oculist, denotes that you will be dissatisfied with your progress in life, and will use artificial means of advancement",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Oculist",
+      "original": "To dream of consulting an oculist, denotes that you will be dissatisfied with your progress in life, and will use artificial means of advancement.",
+      "translation_ko": "안과의사와 상담하는 꿈은, 살아가는 나아감에 만족하지 못해 인위적인 수단으로 나아가려 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우애조합",
+    "term_en": "odd-fellow",
+    "context": "우애조합을 봄",
+    "interpretation_ko": "진실한 벗을 두고 불운이 가벼이 스칠 길조",
+    "interpretation_en": "to dream of this order, signifies that you will have sincere friends, and misfortune will touch you but lightly",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Odd-Fellow",
+      "original": "To dream of this order, signifies that you will have sincere friends, and misfortune will touch you but lightly.",
+      "translation_ko": "우애조합 꿈은, 진실한 벗을 두고 불운이 가벼이 스칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우애조합",
+    "term_en": "odd-fellow",
+    "context": "우애조합에 가입함",
+    "interpretation_ko": "이름을 얻고 부부의 즐거움을 누릴 길조",
+    "interpretation_en": "to join this order, foretells that you will win distinction and conjugal bliss",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Odd-Fellow",
+      "original": "To join this order, foretells that you will win distinction and conjugal bliss.",
+      "translation_ko": "우애조합에 가입하는 꿈은, 이름을 얻고 부부의 즐거움을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "냄새",
+    "term_en": "odor",
+    "context": "달콤한 냄새를 맡음",
+    "interpretation_ko": "아리따운 여인이 나날의 삶을 보살피고 재정에서도 성공할 길조",
+    "interpretation_en": "to dream of inhaling sweet odors, is a sign of a beautiful woman ministering to your daily life, and successful financiering",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Odor",
+      "original": "To dream of inhaling sweet odors, is a sign of a beautiful woman ministering to your daily life, and successful financiering.",
+      "translation_ko": "달콤한 냄새를 맡는 꿈은, 아리따운 여인이 나날의 삶을 보살피고 재정에서도 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "냄새",
+    "term_en": "odor",
+    "context": "역겨운 냄새를 맡음",
+    "interpretation_ko": "언짢은 다툼과 미덥잖은 하인이 있을 흉조",
+    "interpretation_en": "to smell disgusting odors, foretells unpleasant disagreements and unreliable servants",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Odor",
+      "original": "To smell disgusting odors, foretells unpleasant disagreements and unreliable servants.",
+      "translation_ko": "역겨운 냄새를 맡는 꿈은, 언짢은 다툼과 미덥잖은 하인을 알린다"
+    }
+  },
+  {
+    "term_ko": "모욕",
+    "term_en": "humiliation",
+    "context": "모욕당했다고 느낌",
+    "interpretation_ko": "제 행실의 잘못이 드러나 속으로 분노하게 될 흉조",
+    "interpretation_en": "to dream of being offended, denotes that errors will be detected in your conduct, which will cause you inward rage while attempting to justify yourself",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Offense",
+      "original": "To dream of being offended, denotes that errors will be detected in your conduct, which will cause you inward rage while attempting to justify yourself.",
+      "translation_ko": "모욕당했다고 느끼는 꿈은, 제 행실에서 잘못이 드러나 스스로를 변호하려다 속으로 분노할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "모욕",
+    "term_en": "humiliation",
+    "context": "남에게 모욕을 줌",
+    "interpretation_ko": "뜻을 이루기까지 여러 싸움을 겪을 흉조",
+    "interpretation_en": "to give offense, predicts for you many struggles before reaching your aims",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Offense",
+      "original": "To give offense, predicts for you many struggles before reaching your aims.",
+      "translation_ko": "남에게 모욕을 주는 꿈은, 뜻을 이루기까지 여러 싸움을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "모욕",
+    "term_en": "humiliation",
+    "context": "처녀가 모욕을 주거나 받음",
+    "interpretation_ko": "성급한 판단과 부모나 보호자에 대한 불순종을 뉘우칠 흉조",
+    "interpretation_en": "for a young woman to give, or take offense, signifies that she will regret hasty conclusions, and disobedience to parents or guardian",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Offense",
+      "original": "For a young woman to give, or take offense, signifies that she will regret hasty conclusions, and disobedience to parents or guardian.",
+      "translation_ko": "처녀가 모욕을 주거나 받는 꿈은, 성급한 판단과 부모나 보호자에 대한 불순종을 뉘우칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "제물",
+    "term_en": "offering",
+    "context": "제물을 바침",
+    "interpretation_ko": "소임을 향한 눈을 더 높이 두지 않으면 굽실대고 위선을 떨게 될 흉조",
+    "interpretation_en": "to bring or make an offering, foretells that you will be cringing and hypocritical unless you cultivate higher views of duty",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Offering",
+      "original": "To bring or make an offering, foretells that you will be cringing and hypocritical unless you cultivate higher views of duty.",
+      "translation_ko": "제물을 바치는 꿈은, 소임을 향한 눈을 더 높이 두지 않으면 굽실대고 위선을 떨게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벼슬",
+    "term_en": "official post",
+    "context": "관직을 지님",
+    "interpretation_ko": "위태한 길로 이끌리나 대담함이 성공으로 갚아질 길조",
+    "interpretation_en": "for a person to dream that he holds office, denotes that his aspirations will sometimes make him undertake dangerous paths, but his boldness will be rewarded with success",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Office",
+      "original": "For a person to dream that he holds office, denotes that his aspirations will sometimes make him undertake dangerous paths, but his boldness will be rewarded with success.",
+      "translation_ko": "관직을 지니는 꿈은, 품은 뜻이 때로 위태한 길로 이끌지만 대담함이 성공으로 갚아질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벼슬",
+    "term_en": "official post",
+    "context": "바라던 관직을 얻지 못함",
+    "interpretation_ko": "하는 일에서 뼈아픈 실망을 겪을 흉조",
+    "interpretation_en": "if he fails by any means to secure a desired office he will suffer keen disappointment in his affairs",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Office",
+      "original": "If he fails by any means to secure a desired office he will suffer keen disappointment in his affairs.",
+      "translation_ko": "바라던 관직을 어떻게든 얻지 못하는 꿈은, 하는 일에서 뼈아픈 실망을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벼슬",
+    "term_en": "official post",
+    "context": "관직에서 쫓겨남",
+    "interpretation_ko": "값진 것을 잃을 흉조",
+    "interpretation_en": "to dream that you are turned out of office, signifies loss of valuables",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Office",
+      "original": "To dream that you are turned out of office, signifies loss of valuables.",
+      "translation_ko": "관직에서 쫓겨나는 꿈은, 값진 것을 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "아이",
+    "term_en": "child",
+    "context": "제 자식을 봄",
+    "interpretation_ko": "명랑함과 이웃·아이들의 즐거운 목소리가 있을 길조",
+    "interpretation_en": "to dream of your own offspring, denotes cheerfulness and the merry voices of neighbors and children",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Offspring",
+      "original": "To dream of your own offspring, denotes cheerfulness and the merry voices of neighbors and children.",
+      "translation_ko": "제 자식을 보는 꿈은, 명랑함과 이웃과 아이들의 즐거운 목소리를 알린다"
+    }
+  },
+  {
+    "term_ko": "새끼",
+    "term_en": "brood",
+    "context": "집짐승의 새끼를 봄",
+    "interpretation_ko": "재물이 늘어날 길조",
+    "interpretation_en": "to see the offspring of domestic animals, denotes increase in prosperity",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Offspring",
+      "original": "To see the offspring of domestic animals, denotes increase in prosperity.",
+      "translation_ko": "집짐승의 새끼를 보는 꿈은, 재물이 늘어날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "기름",
+    "term_en": "oil",
+    "context": "기름을 바르는 의식을 치름",
+    "interpretation_ko": "스스로가 움직이는 힘이 되는 일들이 있을 길조",
+    "interpretation_en": "to dream of anointing with oil, foretells events in which you will be the particular moving power",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Oil",
+      "original": "To dream of anointing with oil, foretells events in which you will be the particular moving power.",
+      "translation_ko": "기름을 바르는 의식을 치르는 꿈은, 스스로가 움직이는 힘이 되는 일들이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "기름",
+    "term_en": "oil",
+    "context": "기름이 많이 있는 것을 봄",
+    "interpretation_ko": "즐거운 일에서 지나침이 있을 흉조",
+    "interpretation_en": "quantities of oil, prognosticates excesses in pleasurable enterprises",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Oil",
+      "original": "Quantities of oil, prognosticates excesses in pleasurable enterprises.",
+      "translation_ko": "기름이 많이 있는 것을 보는 꿈은, 즐거운 일에서 지나침이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "기름",
+    "term_en": "oil",
+    "context": "남성이 기름 장사를 함",
+    "interpretation_ko": "지나친 양보를 바라다가 사랑을 얻는 데 실패할 흉조",
+    "interpretation_en": "for a man to dream that he deals in oil, denotes unsuccessful love making, as he will expect unusual concessions",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Oil",
+      "original": "For a man to dream that he deals in oil, denotes unsuccessful love making, as he will expect unusual concessions.",
+      "translation_ko": "남성이 기름 장사를 하는 꿈은, 지나친 양보를 바라다가 사랑을 얻는 데 실패할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "기름",
+    "term_en": "oil",
+    "context": "여성이 기름을 바름",
+    "interpretation_ko": "무분별한 추근댐에 열려 있게 될 흉조",
+    "interpretation_en": "for a woman to dream that she is anointed with oil, shows that she will be open to indiscreet advances",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Oil",
+      "original": "For a woman to dream that she is anointed with oil, shows that she will be open to indiscreet advances.",
+      "translation_ko": "여성이 기름을 바르는 꿈은, 무분별한 추근댐에 열려 있게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "방수포",
+    "term_en": "oilcloth",
+    "context": "방수포를 봄",
+    "interpretation_ko": "냉대와 배신을 만날 흉조",
+    "interpretation_en": "to dream of oilcloth is a warning that you will meet coldness and treachery",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Oilcloth",
+      "original": "To dream of oilcloth is a warning that you will meet coldness and treachery.",
+      "translation_ko": "방수포 꿈은 냉대와 배신을 만나리라는 경고다"
+    }
+  },
+  {
+    "term_ko": "방수포",
+    "term_en": "oilcloth",
+    "context": "방수포 장사를 함",
+    "interpretation_ko": "앞을 알 수 없는 투기가 있을 흉조",
+    "interpretation_en": "to deal in it, denotes uncertain speculations",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Oilcloth",
+      "original": "To deal in it, denotes uncertain speculations.",
+      "translation_ko": "방수포 장사를 하는 꿈은, 앞을 알 수 없는 투기를 알린다"
+    }
+  }
+]

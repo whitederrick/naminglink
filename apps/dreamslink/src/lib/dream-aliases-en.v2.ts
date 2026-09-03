@@ -6552,5 +6552,23 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "occultist": [
     "an occultist"
+  ],
+  "october": [
+    "octobers"
+  ],
+  "oculist": [
+    "an oculist"
+  ],
+  "odd-fellow": [
+    "this order"
+  ],
+  "odor": [
+    "odors"
+  ],
+  "offering": [
+    "an offering"
+  ],
+  "oilcloth": [
+    "an oilcloth"
   ]
 };

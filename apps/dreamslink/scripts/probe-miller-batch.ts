@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 142 — Oak~Ocean, 33건 — 밀러 O 의 시작)
+// (지금 담긴 것: 배치 143 — October~Oilcloth, 24건 — 5판 묶음의 마지막 판)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -114,6 +114,31 @@ const CASES: Case[] = [
   { id: "sea", ctx: "바다가 얕아 걸어 들어갈 만함을 봄", text: "바다가 얕아 걸어 들어갈 만했다" },
   // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
   { id: "sea", ctx: "강과 바다가 넘쳐 불어남", text: "강과 바다가 넘쳐 불어났다" },
+  { id: "october", ctx: "10월이라고 상상함", text: "10월이라고 상상했다" },
+  { id: "oculist", ctx: "안과의사와 상담함", text: "안과의사와 상담했다" },
+  { id: "odd-fellow", ctx: "우애조합을 봄", text: "우애조합을 보았다" },
+  { id: "odd-fellow", ctx: "우애조합에 가입함", text: "우애조합에 가입했다" },
+  { id: "odor", ctx: "달콤한 냄새를 맡음", text: "달콤한 냄새를 맡았다" },
+  { id: "odor", ctx: "역겨운 냄새를 맡음", text: "역겨운 냄새를 맡았다" },
+  { id: "humiliation", ctx: "모욕당했다고 느낌", text: "제 행실의 잘못이 드러나 속으로 분노하며 모욕당했다" },
+  { id: "humiliation", ctx: "남에게 모욕을 줌", text: "남에게 모욕을 주었다" },
+  { id: "humiliation", ctx: "처녀가 모욕을 주거나 받음", text: "처녀가 모욕을 주거나 받았다" },
+  { id: "offering", ctx: "제물을 바침", text: "제물을 바쳤다" },
+  { id: "official-post", ctx: "관직을 지님", text: "관직을 지녔다" },
+  { id: "official-post", ctx: "바라던 관직을 얻지 못함", text: "바라던 관직을 얻지 못했다" },
+  { id: "official-post", ctx: "관직에서 쫓겨남", text: "관직에서 쫓겨났다" },
+  { id: "child", ctx: "제 자식을 봄", text: "제 자식을 보았다" },
+  { id: "brood", ctx: "집짐승의 새끼를 봄", text: "집짐승의 새끼를 보았다" },
+  { id: "oil", ctx: "기름을 바르는 의식을 치름", text: "기름을 바르는 의식을 치렀다" },
+  { id: "oil", ctx: "기름이 많이 있는 것을 봄", text: "기름이 많이 있는 것을 보았다" },
+  { id: "oil", ctx: "남성이 기름 장사를 함", text: "남자가 기름 장사를 했다" },
+  { id: "oil", ctx: "여성이 기름을 바름", text: "여자가 기름을 발랐다" },
+  { id: "oilcloth", ctx: "방수포를 봄", text: "방수포를 보았다" },
+  { id: "oilcloth", ctx: "방수포 장사를 함", text: "방수포 장사를 했다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "humiliation", ctx: "모욕당하는 꿈을 꿈", text: "모욕당하는 꿈을 꾸었다" },
+  { id: "official-post", ctx: "새로 벼슬을 받음", text: "새로 벼슬을 받았다" },
+  { id: "child", ctx: "아름다운 아이들을 여럿 봄", text: "아름다운 아이들을 여럿 보았다" },
 ];
 
 let notFound = 0;

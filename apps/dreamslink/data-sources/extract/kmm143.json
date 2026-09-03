@@ -1,0 +1,94 @@
+[
+  {
+    "id": "october",
+    "aliases": [
+      "10월에",
+      "시월",
+      "시월에"
+    ],
+    "aliases_en": [
+      "octobers"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "oculist",
+    "aliases": [
+      "안과의사가",
+      "안과의사와"
+    ],
+    "aliases_en": [
+      "an oculist"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "odd-fellow",
+    "aliases": [
+      "우애조합이",
+      "우애조합을",
+      "우애조합에"
+    ],
+    "aliases_en": [
+      "this order"
+    ],
+    "contexts": {
+      "우애조합을 봄": "진실한 벗들 불운이 가벼이",
+      "우애조합에 가입함": "가입하는 가입했"
+    },
+    "contexts_en": {
+      "우애조합을 봄": "sincere friends misfortune lightly",
+      "우애조합에 가입함": "join distinction conjugal bliss"
+    }
+  },
+  {
+    "id": "odor",
+    "aliases": [
+      "냄새가",
+      "냄새를"
+    ],
+    "aliases_en": [
+      "odors"
+    ],
+    "contexts": {
+      "달콤한 냄새를 맡음": "달콤한 아리따운 여인",
+      "역겨운 냄새를 맡음": "역겨운 다툼 하인"
+    },
+    "contexts_en": {
+      "달콤한 냄새를 맡음": "inhaling sweet beautiful woman financiering",
+      "역겨운 냄새를 맡음": "disgusting disagreements unreliable servants"
+    }
+  },
+  {
+    "id": "offering",
+    "aliases": [
+      "제물을",
+      "제물이"
+    ],
+    "aliases_en": [
+      "an offering"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "oilcloth",
+    "aliases": [
+      "방수포가",
+      "방수포를"
+    ],
+    "aliases_en": [
+      "an oilcloth"
+    ],
+    "contexts": {
+      "방수포를 봄": "냉대와 배신",
+      "방수포 장사를 함": "장사를 팔고"
+    },
+    "contexts_en": {
+      "방수포를 봄": "coldness treachery",
+      "방수포 장사를 함": "deal uncertain speculations"
+    }
+  }
+]

@@ -50,6 +50,7 @@
     "m140.json",
     "m141.json",
     "m142.json",
+    "m143.json",
     "m15.json",
     "m16.json",
     "m17.json",
@@ -15581,6 +15582,169 @@
       ]
     },
     {
+      "id": "child",
+      "term_ko": "아이",
+      "term_en": "child",
+      "aliases": [
+        "어린아이",
+        "어린이",
+        "자식",
+        "꼬마",
+        "아들딸",
+        "아이들"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "아름다운 아이들을 여럿 봄",
+          "interpretation_ko": "크게 넉넉해지고 복이 있을 조짐",
+          "interpretation_en": "great prosperity and blessings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Children",
+              "original": "To dream of seeing many beautiful children is portentous of great prosperity and blessings.",
+              "translation_ko": "아름다운 아이들을 여럿 보는 꿈은 크게 넉넉해지고 복이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제 자식을 봄",
+          "interpretation_ko": "명랑함과 이웃·아이들의 즐거운 목소리가 있을 길조",
+          "interpretation_en": "to dream of your own offspring, denotes cheerfulness and the merry voices of neighbors and children",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Offspring",
+              "original": "To dream of your own offspring, denotes cheerfulness and the merry voices of neighbors and children.",
+              "translation_ko": "제 자식을 보는 꿈은, 명랑함과 이웃과 아이들의 즐거운 목소리를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "어머니가 가볍게 앓는 아이를 봄",
+          "interpretation_ko": "아이는 도리어 튼튼하겠으나 다른 자잘한 일이 마음을 어지럽힐 조짐",
+          "interpretation_en": "she may see it enjoying robust health, but trifles of another nature may harass her",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Children",
+              "original": "For a mother to dream of seeing her child sick from slight cause, she may see it enjoying robust health, but trifles of another nature may harass her.",
+              "translation_ko": "어머니가 대수롭지 않은 까닭으로 앓는 아이를 보는 꿈을 꾸면, 아이는 도리어 튼튼하겠으나 다른 자잘한 일이 마음을 어지럽힌다"
+            }
+          ]
+        },
+        {
+          "context": "아이들이 일하거나 공부하는 것을 봄",
+          "interpretation_ko": "평온한 때와 두루 넉넉함이 있을 조짐",
+          "interpretation_en": "peaceful times and general prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Children",
+              "original": "To see children working or studying, denotes peaceful times and general prosperity.",
+              "translation_ko": "아이들이 일하거나 공부하는 것을 보면 평온한 때와 두루 넉넉함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제 아이가 몹시 앓거나 죽은 것을 봄",
+          "interpretation_ko": "그 아이의 앞날이 크게 위태로우니 두려워할 것이 많은 조짐",
+          "interpretation_en": "you have much to fear, for its welfare is sadly threatened",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Children",
+              "original": "To dream of seeing your child desperately ill or dead, you have much to fear, for its welfare is sadly threatened.",
+              "translation_ko": "제 아이가 몹시 앓거나 죽은 것을 보는 꿈은, 그 아이의 앞날이 크게 위태로우니 두려워할 것이 많음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "이미 죽은 제 아이를 봄",
+          "interpretation_ko": "가까운 앞날에 근심과 실망이 있을 조짐",
+          "interpretation_en": "worry and disappointment in the near future",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Children",
+              "original": "To dream of your dead child, denotes worry and disappointment in the near future.",
+              "translation_ko": "이미 죽은 제 아이를 꿈에 보면 가까운 앞날의 근심과 실망을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "풀 죽은 아이들을 봄",
+          "interpretation_ko": "적에게서 곤란이 오고, 벗인 척하는 이들의 뒷일로 마음이 불안해질 조짐",
+          "interpretation_en": "trouble from enemies, and anxious forebodings from underhanded work of seemingly friendly people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Children",
+              "original": "To dream of seeing disappointed children, denotes trouble from enemies, and anxious forebodings from underhanded work of seemingly friendly people.",
+              "translation_ko": "풀 죽은 아이들을 보는 꿈은 적에게서 오는 곤란과, 벗인 척하는 이들의 뒷일에서 오는 불안한 예감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "아이들과 뛰놀며 놂",
+          "interpretation_ko": "벌여 놓은 일과 사랑이 모두 잘될 조짐",
+          "interpretation_en": "all your speculating and love enterprises will prevail",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Children",
+              "original": "To romp and play with children, denotes that all your speculating and love enterprises will prevail.",
+              "translation_ko": "아이들과 뛰놀며 노는 꿈은 벌여 놓은 일과 사랑이 모두 잘됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "어린 아들딸을 품에 안음",
+          "interpretation_ko": "구설에 오를 조짐",
+          "interpretation_en": "a sign of gossip and disputes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "抱小兒女主口舌",
+              "translation_ko": "어린 아들딸을 안으면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "어린아이가 죽음",
+          "interpretation_ko": "구설에 오를 조짐",
+          "interpretation_en": "a sign of gossip and disputes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "小兒死者主口舌",
+              "translation_ko": "어린아이가 죽으면 구설이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "face",
       "term_ko": "얼굴",
       "term_en": "face",
@@ -18259,155 +18423,6 @@
               "locator": "Landau",
               "original": "If the vehicle is overturned, then pleasure will abruptly turn into woe.",
               "translation_ko": "마차가 뒤집히면 즐거움이 갑자기 슬픔으로 바뀐다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "child",
-      "term_ko": "아이",
-      "term_en": "child",
-      "aliases": [
-        "어린아이",
-        "어린이",
-        "자식",
-        "꼬마",
-        "아들딸",
-        "아이들"
-      ],
-      "category": "person",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "아름다운 아이들을 여럿 봄",
-          "interpretation_ko": "크게 넉넉해지고 복이 있을 조짐",
-          "interpretation_en": "great prosperity and blessings",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Children",
-              "original": "To dream of seeing many beautiful children is portentous of great prosperity and blessings.",
-              "translation_ko": "아름다운 아이들을 여럿 보는 꿈은 크게 넉넉해지고 복이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "어머니가 가볍게 앓는 아이를 봄",
-          "interpretation_ko": "아이는 도리어 튼튼하겠으나 다른 자잘한 일이 마음을 어지럽힐 조짐",
-          "interpretation_en": "she may see it enjoying robust health, but trifles of another nature may harass her",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Children",
-              "original": "For a mother to dream of seeing her child sick from slight cause, she may see it enjoying robust health, but trifles of another nature may harass her.",
-              "translation_ko": "어머니가 대수롭지 않은 까닭으로 앓는 아이를 보는 꿈을 꾸면, 아이는 도리어 튼튼하겠으나 다른 자잘한 일이 마음을 어지럽힌다"
-            }
-          ]
-        },
-        {
-          "context": "아이들이 일하거나 공부하는 것을 봄",
-          "interpretation_ko": "평온한 때와 두루 넉넉함이 있을 조짐",
-          "interpretation_en": "peaceful times and general prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Children",
-              "original": "To see children working or studying, denotes peaceful times and general prosperity.",
-              "translation_ko": "아이들이 일하거나 공부하는 것을 보면 평온한 때와 두루 넉넉함을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "제 아이가 몹시 앓거나 죽은 것을 봄",
-          "interpretation_ko": "그 아이의 앞날이 크게 위태로우니 두려워할 것이 많은 조짐",
-          "interpretation_en": "you have much to fear, for its welfare is sadly threatened",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Children",
-              "original": "To dream of seeing your child desperately ill or dead, you have much to fear, for its welfare is sadly threatened.",
-              "translation_ko": "제 아이가 몹시 앓거나 죽은 것을 보는 꿈은, 그 아이의 앞날이 크게 위태로우니 두려워할 것이 많음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "이미 죽은 제 아이를 봄",
-          "interpretation_ko": "가까운 앞날에 근심과 실망이 있을 조짐",
-          "interpretation_en": "worry and disappointment in the near future",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Children",
-              "original": "To dream of your dead child, denotes worry and disappointment in the near future.",
-              "translation_ko": "이미 죽은 제 아이를 꿈에 보면 가까운 앞날의 근심과 실망을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "풀 죽은 아이들을 봄",
-          "interpretation_ko": "적에게서 곤란이 오고, 벗인 척하는 이들의 뒷일로 마음이 불안해질 조짐",
-          "interpretation_en": "trouble from enemies, and anxious forebodings from underhanded work of seemingly friendly people",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Children",
-              "original": "To dream of seeing disappointed children, denotes trouble from enemies, and anxious forebodings from underhanded work of seemingly friendly people.",
-              "translation_ko": "풀 죽은 아이들을 보는 꿈은 적에게서 오는 곤란과, 벗인 척하는 이들의 뒷일에서 오는 불안한 예감을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "아이들과 뛰놀며 놂",
-          "interpretation_ko": "벌여 놓은 일과 사랑이 모두 잘될 조짐",
-          "interpretation_en": "all your speculating and love enterprises will prevail",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Children",
-              "original": "To romp and play with children, denotes that all your speculating and love enterprises will prevail.",
-              "translation_ko": "아이들과 뛰놀며 노는 꿈은 벌여 놓은 일과 사랑이 모두 잘됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "어린 아들딸을 품에 안음",
-          "interpretation_ko": "구설에 오를 조짐",
-          "interpretation_en": "a sign of gossip and disputes",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "抱小兒女主口舌",
-              "translation_ko": "어린 아들딸을 안으면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "어린아이가 죽음",
-          "interpretation_ko": "구설에 오를 조짐",
-          "interpretation_en": "a sign of gossip and disputes",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "小兒死者主口舌",
-              "translation_ko": "어린아이가 죽으면 구설이 있다"
             }
           ]
         }
@@ -31379,6 +31394,114 @@
       ]
     },
     {
+      "id": "humiliation",
+      "term_ko": "모욕",
+      "term_en": "humiliation",
+      "aliases": [
+        "치욕",
+        "망신",
+        "수모",
+        "굴욕",
+        "모욕당하는",
+        "모욕당했다",
+        "모욕당해"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "모욕당하는 꿈을 꿈",
+          "interpretation_ko": "좋지 않은 꿈으로, 꿈꾼 사람은 반드시 눈물을 흘리며 울게 될 조짐",
+          "interpretation_en": "this is a bad dream; the dreamer is sure to shed tears and weep",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Affront",
+              "original": "This is a bad dream.  The dreamer is sure to shed tears and weep.",
+              "translation_ko": "좋지 않은 꿈이다. 꿈꾼 사람은 반드시 눈물을 흘리며 울게 된다"
+            }
+          ]
+        },
+        {
+          "context": "모욕당했다고 느낌",
+          "interpretation_ko": "제 행실의 잘못이 드러나 속으로 분노하게 될 흉조",
+          "interpretation_en": "to dream of being offended, denotes that errors will be detected in your conduct, which will cause you inward rage while attempting to justify yourself",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Offense",
+              "original": "To dream of being offended, denotes that errors will be detected in your conduct, which will cause you inward rage while attempting to justify yourself.",
+              "translation_ko": "모욕당했다고 느끼는 꿈은, 제 행실에서 잘못이 드러나 스스로를 변호하려다 속으로 분노할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 모욕을 줌",
+          "interpretation_ko": "뜻을 이루기까지 여러 싸움을 겪을 흉조",
+          "interpretation_en": "to give offense, predicts for you many struggles before reaching your aims",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Offense",
+              "original": "To give offense, predicts for you many struggles before reaching your aims.",
+              "translation_ko": "남에게 모욕을 주는 꿈은, 뜻을 이루기까지 여러 싸움을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 모욕을 주거나 받음",
+          "interpretation_ko": "성급한 판단과 부모나 보호자에 대한 불순종을 뉘우칠 흉조",
+          "interpretation_en": "for a young woman to give, or take offense, signifies that she will regret hasty conclusions, and disobedience to parents or guardian",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Offense",
+              "original": "For a young woman to give, or take offense, signifies that she will regret hasty conclusions, and disobedience to parents or guardian.",
+              "translation_ko": "처녀가 모욕을 주거나 받는 꿈은, 성급한 판단과 부모나 보호자에 대한 불순종을 뉘우칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 모욕당함",
+          "interpretation_ko": "불친절한 사람이 자신의 무지를 이용해 낯선 사람과 곤란한 처지에 빠뜨리거나 친구와의 이해관계를 위태롭게 할 조짐",
+          "interpretation_en": "a sign that some unfriendly person will take advantage of her ignorance to place her in a compromising situation with a stranger, or to jeopardize her interests with a friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Affront",
+              "original": "For a young woman to dream that she is affronted, denotes that some unfriendly person will take advantage of her ignorance to place her in a compromising situation with a stranger, or to jeopardize her interests with a friend.",
+              "translation_ko": "젊은 여성이 모욕당하는 꿈을 꾸면 불친절한 사람이 자신의 무지를 이용해 낯선 사람과 곤란한 처지에 빠뜨리거나 친구와의 이해관계를 위태롭게 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 모욕을 당함",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "被人凌辱主得財",
+              "translation_ko": "남에게 능욕을 당하면 재물을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "lace",
       "term_ko": "레이스",
       "term_en": "lace",
@@ -32953,6 +33076,110 @@
               "locator": "鏡環釵釧梳篦",
               "original": "針線得者百事就",
               "translation_ko": "바늘과 실을 얻으면 온갖 일이 이루어진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oil",
+      "term_ko": "기름",
+      "term_en": "oil",
+      "aliases": [
+        "참기름",
+        "들기름",
+        "식용유"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기름을 먹음",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "食油鹽醬酸豉吉",
+              "translation_ko": "기름·소금·장·신 메주를 먹으면 길하다"
+            }
+          ]
+        },
+        {
+          "context": "기름을 바르는 의식을 치름",
+          "interpretation_ko": "스스로가 움직이는 힘이 되는 일들이 있을 길조",
+          "interpretation_en": "to dream of anointing with oil, foretells events in which you will be the particular moving power",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oil",
+              "original": "To dream of anointing with oil, foretells events in which you will be the particular moving power.",
+              "translation_ko": "기름을 바르는 의식을 치르는 꿈은, 스스로가 움직이는 힘이 되는 일들이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "기름이 많이 있는 것을 봄",
+          "interpretation_ko": "즐거운 일에서 지나침이 있을 흉조",
+          "interpretation_en": "quantities of oil, prognosticates excesses in pleasurable enterprises",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oil",
+              "original": "Quantities of oil, prognosticates excesses in pleasurable enterprises.",
+              "translation_ko": "기름이 많이 있는 것을 보는 꿈은, 즐거운 일에서 지나침이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남성이 기름 장사를 함",
+          "interpretation_ko": "지나친 양보를 바라다가 사랑을 얻는 데 실패할 흉조",
+          "interpretation_en": "for a man to dream that he deals in oil, denotes unsuccessful love making, as he will expect unusual concessions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oil",
+              "original": "For a man to dream that he deals in oil, denotes unsuccessful love making, as he will expect unusual concessions.",
+              "translation_ko": "남성이 기름 장사를 하는 꿈은, 지나친 양보를 바라다가 사랑을 얻는 데 실패할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 기름을 바름",
+          "interpretation_ko": "무분별한 추근댐에 열려 있게 될 흉조",
+          "interpretation_en": "for a woman to dream that she is anointed with oil, shows that she will be open to indiscreet advances",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oil",
+              "original": "For a woman to dream that she is anointed with oil, shows that she will be open to indiscreet advances.",
+              "translation_ko": "여성이 기름을 바르는 꿈은, 무분별한 추근댐에 열려 있게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "기름 속에 있음",
+          "interpretation_ko": "달갑지 않으나 점잖은 낯선 이들과 함께 길을 즐기게 될 조짐",
+          "interpretation_en": "is significant of travels being enjoyed with disagreeable but polished strangers",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grease",
+              "original": "To dream you are in grease, is significant of travels being enjoyed with disagreeable but polished strangers.",
+              "translation_ko": "기름 속에 있는 꿈은, 달갑지 않으나 점잖은 낯선 이들과 함께 길을 즐김을 뜻한다"
             }
           ]
         }
@@ -42712,6 +42939,81 @@
       ]
     },
     {
+      "id": "brood",
+      "term_ko": "새끼",
+      "term_en": "brood",
+      "aliases": [
+        "병아리떼",
+        "한배 새끼",
+        "가금 새끼"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "집짐승의 새끼를 봄",
+          "interpretation_ko": "재물이 늘어날 길조",
+          "interpretation_en": "to see the offspring of domestic animals, denotes increase in prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Offspring",
+              "original": "To see the offspring of domestic animals, denotes increase in prosperity.",
+              "translation_ko": "집짐승의 새끼를 보는 꿈은, 재물이 늘어날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 새끼를 거느린 가금을 봄",
+          "interpretation_ko": "여러 가지 성가신 근심을 겪을 조짐",
+          "interpretation_en": "a sign that your cares will be varied and irksome",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Brood",
+              "original": "To see a fowl with her brood, denotes that, if you are a woman, your cares will be varied and irksome.",
+              "translation_ko": "새끼를 거느린 가금을 보면, 여성일 경우 여러 가지 성가신 근심을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "많은 아이를 돌보게 되는 꿈으로 이어짐",
+          "interpretation_ko": "많은 아이를 돌보게 되는데 그중 일부가 말썽을 부리고 다루기 힘들 조짐",
+          "interpretation_en": "a sign that many children will be in your care, and some of them will prove wayward and unruly",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Brood",
+              "original": "Many children will be in your care, and some of them will prove wayward and unruly.",
+              "translation_ko": "많은 아이를 돌보게 되는데 그중 일부가 말썽을 부리고 다루기 힘들 것이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 아닌 사람이 새끼를 거느린 꿈을 봄",
+          "interpretation_ko": "재물이 쌓일 조짐",
+          "interpretation_en": "a sign of accumulation of wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Brood",
+              "original": "Brood, to others, denotes accumulation of wealth.",
+              "translation_ko": "여성이 아닌 다른 사람에게 새끼 꿈은 재물이 쌓일 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bull",
       "term_ko": "황소",
       "term_en": "bull",
@@ -50373,6 +50675,83 @@
       ]
     },
     {
+      "id": "official-post",
+      "term_ko": "벼슬",
+      "term_en": "official post",
+      "aliases": [
+        "관직",
+        "임관",
+        "승진",
+        "취임"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "새로 벼슬을 받음",
+          "interpretation_ko": "귀한 아들을 둘 조짐",
+          "interpretation_en": "a sign of having a noble son",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "新授官爵主貴子",
+              "translation_ko": "새로 관작을 받으면 귀한 아들을 둔다"
+            }
+          ]
+        },
+        {
+          "context": "관직을 지님",
+          "interpretation_ko": "위태한 길로 이끌리나 대담함이 성공으로 갚아질 길조",
+          "interpretation_en": "for a person to dream that he holds office, denotes that his aspirations will sometimes make him undertake dangerous paths, but his boldness will be rewarded with success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Office",
+              "original": "For a person to dream that he holds office, denotes that his aspirations will sometimes make him undertake dangerous paths, but his boldness will be rewarded with success.",
+              "translation_ko": "관직을 지니는 꿈은, 품은 뜻이 때로 위태한 길로 이끌지만 대담함이 성공으로 갚아질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "바라던 관직을 얻지 못함",
+          "interpretation_ko": "하는 일에서 뼈아픈 실망을 겪을 흉조",
+          "interpretation_en": "if he fails by any means to secure a desired office he will suffer keen disappointment in his affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Office",
+              "original": "If he fails by any means to secure a desired office he will suffer keen disappointment in his affairs.",
+              "translation_ko": "바라던 관직을 어떻게든 얻지 못하는 꿈은, 하는 일에서 뼈아픈 실망을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "관직에서 쫓겨남",
+          "interpretation_ko": "값진 것을 잃을 흉조",
+          "interpretation_en": "to dream that you are turned out of office, signifies loss of valuables",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Office",
+              "original": "To dream that you are turned out of office, signifies loss of valuables.",
+              "translation_ko": "관직에서 쫓겨나는 꿈은, 값진 것을 잃을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "official-robe",
       "term_ko": "관복",
       "term_en": "official robe",
@@ -53501,67 +53880,6 @@
               "locator": "Breath",
               "original": "Losing one's breath, denotes signal failure where success seemed assured.",
               "translation_ko": "숨을 잃으면 성공이 확실해 보이던 순간에 큰 실패를 겪을 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "brood",
-      "term_ko": "새끼",
-      "term_en": "brood",
-      "aliases": [
-        "병아리떼",
-        "한배 새끼",
-        "가금 새끼"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "여성이 새끼를 거느린 가금을 봄",
-          "interpretation_ko": "여러 가지 성가신 근심을 겪을 조짐",
-          "interpretation_en": "a sign that your cares will be varied and irksome",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Brood",
-              "original": "To see a fowl with her brood, denotes that, if you are a woman, your cares will be varied and irksome.",
-              "translation_ko": "새끼를 거느린 가금을 보면, 여성일 경우 여러 가지 성가신 근심을 겪을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "많은 아이를 돌보게 되는 꿈으로 이어짐",
-          "interpretation_ko": "많은 아이를 돌보게 되는데 그중 일부가 말썽을 부리고 다루기 힘들 조짐",
-          "interpretation_en": "a sign that many children will be in your care, and some of them will prove wayward and unruly",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Brood",
-              "original": "Many children will be in your care, and some of them will prove wayward and unruly.",
-              "translation_ko": "많은 아이를 돌보게 되는데 그중 일부가 말썽을 부리고 다루기 힘들 것이다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 아닌 사람이 새끼를 거느린 꿈을 봄",
-          "interpretation_ko": "재물이 쌓일 조짐",
-          "interpretation_en": "a sign of accumulation of wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Brood",
-              "original": "Brood, to others, denotes accumulation of wealth.",
-              "translation_ko": "여성이 아닌 다른 사람에게 새끼 꿈은 재물이 쌓일 조짐이다"
             }
           ]
         }
@@ -60297,69 +60615,6 @@
               "locator": "Infirmary",
               "original": "To dream that you leave an infirmary, denotes your escape from wily enemies who will cause you much worry.",
               "translation_ko": "요양원을 나서는 꿈을 꾸면 속을 썩이던 교활한 적에게서 빠져나온다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "humiliation",
-      "term_ko": "모욕",
-      "term_en": "humiliation",
-      "aliases": [
-        "치욕",
-        "망신",
-        "수모",
-        "굴욕"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "모욕당하는 꿈을 꿈",
-          "interpretation_ko": "좋지 않은 꿈으로, 꿈꾼 사람은 반드시 눈물을 흘리며 울게 될 조짐",
-          "interpretation_en": "this is a bad dream; the dreamer is sure to shed tears and weep",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Affront",
-              "original": "This is a bad dream.  The dreamer is sure to shed tears and weep.",
-              "translation_ko": "좋지 않은 꿈이다. 꿈꾼 사람은 반드시 눈물을 흘리며 울게 된다"
-            }
-          ]
-        },
-        {
-          "context": "젊은 여성이 모욕당함",
-          "interpretation_ko": "불친절한 사람이 자신의 무지를 이용해 낯선 사람과 곤란한 처지에 빠뜨리거나 친구와의 이해관계를 위태롭게 할 조짐",
-          "interpretation_en": "a sign that some unfriendly person will take advantage of her ignorance to place her in a compromising situation with a stranger, or to jeopardize her interests with a friend",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Affront",
-              "original": "For a young woman to dream that she is affronted, denotes that some unfriendly person will take advantage of her ignorance to place her in a compromising situation with a stranger, or to jeopardize her interests with a friend.",
-              "translation_ko": "젊은 여성이 모욕당하는 꿈을 꾸면 불친절한 사람이 자신의 무지를 이용해 낯선 사람과 곤란한 처지에 빠뜨리거나 친구와의 이해관계를 위태롭게 할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "남에게 모욕을 당함",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "被人凌辱主得財",
-              "translation_ko": "남에게 능욕을 당하면 재물을 얻는다"
             }
           ]
         }
@@ -86218,48 +86473,139 @@
       ]
     },
     {
-      "id": "oil",
-      "term_ko": "기름",
-      "term_en": "oil",
+      "id": "odd-fellow",
+      "term_ko": "우애조합",
+      "term_en": "odd-fellow",
       "aliases": [
-        "참기름",
-        "들기름",
-        "식용유"
+        "우애조합이",
+        "우애조합을",
+        "우애조합에"
       ],
-      "category": "object",
-      "polarity": "neutral",
+      "category": "person",
+      "polarity": "positive",
       "works": [
-        "miller",
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "기름을 먹음",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
+          "context": "우애조합을 봄",
+          "interpretation_ko": "진실한 벗을 두고 불운이 가벼이 스칠 길조",
+          "interpretation_en": "to dream of this order, signifies that you will have sincere friends, and misfortune will touch you but lightly",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "食油鹽醬酸豉吉",
-              "translation_ko": "기름·소금·장·신 메주를 먹으면 길하다"
+              "work": "miller",
+              "locator": "Odd-Fellow",
+              "original": "To dream of this order, signifies that you will have sincere friends, and misfortune will touch you but lightly.",
+              "translation_ko": "우애조합 꿈은, 진실한 벗을 두고 불운이 가벼이 스칠 조짐이다"
             }
           ]
         },
         {
-          "context": "기름 속에 있음",
-          "interpretation_ko": "달갑지 않으나 점잖은 낯선 이들과 함께 길을 즐기게 될 조짐",
-          "interpretation_en": "is significant of travels being enjoyed with disagreeable but polished strangers",
-          "polarity": "neutral",
+          "context": "우애조합에 가입함",
+          "interpretation_ko": "이름을 얻고 부부의 즐거움을 누릴 길조",
+          "interpretation_en": "to join this order, foretells that you will win distinction and conjugal bliss",
+          "polarity": "positive",
           "cites": [
             {
               "work": "miller",
-              "locator": "Grease",
-              "original": "To dream you are in grease, is significant of travels being enjoyed with disagreeable but polished strangers.",
-              "translation_ko": "기름 속에 있는 꿈은, 달갑지 않으나 점잖은 낯선 이들과 함께 길을 즐김을 뜻한다"
+              "locator": "Odd-Fellow",
+              "original": "To join this order, foretells that you will win distinction and conjugal bliss.",
+              "translation_ko": "우애조합에 가입하는 꿈은, 이름을 얻고 부부의 즐거움을 누릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "odor",
+      "term_ko": "냄새",
+      "term_en": "odor",
+      "aliases": [
+        "냄새가",
+        "냄새를"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "달콤한 냄새를 맡음",
+          "interpretation_ko": "아리따운 여인이 나날의 삶을 보살피고 재정에서도 성공할 길조",
+          "interpretation_en": "to dream of inhaling sweet odors, is a sign of a beautiful woman ministering to your daily life, and successful financiering",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Odor",
+              "original": "To dream of inhaling sweet odors, is a sign of a beautiful woman ministering to your daily life, and successful financiering.",
+              "translation_ko": "달콤한 냄새를 맡는 꿈은, 아리따운 여인이 나날의 삶을 보살피고 재정에서도 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "역겨운 냄새를 맡음",
+          "interpretation_ko": "언짢은 다툼과 미덥잖은 하인이 있을 흉조",
+          "interpretation_en": "to smell disgusting odors, foretells unpleasant disagreements and unreliable servants",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Odor",
+              "original": "To smell disgusting odors, foretells unpleasant disagreements and unreliable servants.",
+              "translation_ko": "역겨운 냄새를 맡는 꿈은, 언짢은 다툼과 미덥잖은 하인을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oilcloth",
+      "term_ko": "방수포",
+      "term_en": "oilcloth",
+      "aliases": [
+        "방수포가",
+        "방수포를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "방수포를 봄",
+          "interpretation_ko": "냉대와 배신을 만날 흉조",
+          "interpretation_en": "to dream of oilcloth is a warning that you will meet coldness and treachery",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oilcloth",
+              "original": "To dream of oilcloth is a warning that you will meet coldness and treachery.",
+              "translation_ko": "방수포 꿈은 냉대와 배신을 만나리라는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "방수포 장사를 함",
+          "interpretation_ko": "앞을 알 수 없는 투기가 있을 흉조",
+          "interpretation_en": "to deal in it, denotes uncertain speculations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oilcloth",
+              "original": "To deal in it, denotes uncertain speculations.",
+              "translation_ko": "방수포 장사를 하는 꿈은, 앞을 알 수 없는 투기를 알린다"
             }
           ]
         }
@@ -97666,34 +98012,97 @@
       ]
     },
     {
-      "id": "official-post",
-      "term_ko": "벼슬",
-      "term_en": "official post",
+      "id": "october",
+      "term_ko": "10월",
+      "term_en": "october",
       "aliases": [
-        "관직",
-        "임관",
-        "승진",
-        "취임"
+        "10월에",
+        "시월",
+        "시월에"
       ],
-      "category": "action",
+      "category": "nature",
       "polarity": "positive",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "새로 벼슬을 받음",
-          "interpretation_ko": "귀한 아들을 둘 조짐",
-          "interpretation_en": "a sign of having a noble son",
+          "context": "10월이라고 상상함",
+          "interpretation_ko": "하는 일에서 만족스러운 성공이 있고 오래가는 우정을 맺을 길조",
+          "interpretation_en": "to imagine you are in October is ominous of gratifying success in your undertakings; you will also make new acquaintances which will ripen into lasting friendships",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "新授官爵主貴子",
-              "translation_ko": "새로 관작을 받으면 귀한 아들을 둔다"
+              "work": "miller",
+              "locator": "October",
+              "original": "To imagine you are in October is ominous of gratifying success in your undertakings. You will also make new acquaintances which will ripen into lasting friendships.",
+              "translation_ko": "10월이라고 상상하는 꿈은 하는 일에서 만족스러운 성공이 있을 조짐이다. 새로 사귄 이들과는 오래가는 우정을 맺게 될 것이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oculist",
+      "term_ko": "안과의사",
+      "term_en": "oculist",
+      "aliases": [
+        "안과의사가",
+        "안과의사와"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "안과의사와 상담함",
+          "interpretation_ko": "살아가는 나아감에 만족하지 못해 인위적인 수단을 쓰려 할 흉조",
+          "interpretation_en": "to dream of consulting an oculist, denotes that you will be dissatisfied with your progress in life, and will use artificial means of advancement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oculist",
+              "original": "To dream of consulting an oculist, denotes that you will be dissatisfied with your progress in life, and will use artificial means of advancement.",
+              "translation_ko": "안과의사와 상담하는 꿈은, 살아가는 나아감에 만족하지 못해 인위적인 수단으로 나아가려 할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "offering",
+      "term_ko": "제물",
+      "term_en": "offering",
+      "aliases": [
+        "제물을",
+        "제물이"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제물을 바침",
+          "interpretation_ko": "소임을 향한 눈을 더 높이 두지 않으면 굽실대고 위선을 떨게 될 흉조",
+          "interpretation_en": "to bring or make an offering, foretells that you will be cringing and hypocritical unless you cultivate higher views of duty",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Offering",
+              "original": "To bring or make an offering, foretells that you will be cringing and hypocritical unless you cultivate higher views of duty.",
+              "translation_ko": "제물을 바치는 꿈은, 소임을 향한 눈을 더 높이 두지 않으면 굽실대고 위선을 떨게 될 조짐이다"
             }
           ]
         }
