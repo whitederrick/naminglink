@@ -1,0 +1,107 @@
+[
+  {
+    "term_ko": "보험 외판원",
+    "term_en": "life-insurance man",
+    "context": "보험 외판원을 봄",
+    "interpretation_ko": "머잖아 낯선 이를 만나 하는 일에 보탬을 받고, 이해가 서로 맞물려 집안 살림에도 바뀜이 있을 조짐",
+    "interpretation_en": "means that you are soon to meet a stranger who will contribute to your business interests, and change in your home life is foreshadowed, as interests will be mutual",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Life-insurance Man",
+      "original": "To see life-insurance men in a dream, means that you are soon to meet a stranger who will contribute to your business interests, and change in your home life is foreshadowed, as interests will be mutual.",
+      "translation_ko": "꿈에 생명보험 사람들을 보면, 머잖아 낯선 이를 만나 하는 일에 보탬을 받고, 이해가 서로 맞물려 집안 살림에도 바뀜이 있다"
+    }
+  },
+  {
+    "term_ko": "보험 외판원",
+    "term_en": "life-insurance man",
+    "context": "보험 외판원이 일그러져 보임",
+    "interpretation_ko": "좋기보다 언짢은 쪽에 가까운 흉한 조짐",
+    "interpretation_en": "the dream is more unfortunate than good",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Life-insurance Man",
+      "original": "If they appear distorted or unnatural, the dream is more unfortunate than good.",
+      "translation_ko": "그들이 일그러지거나 괴이하게 보이면, 그 꿈은 좋기보다 언짢은 쪽에 가깝다"
+    }
+  },
+  {
+    "term_ko": "환한 빛",
+    "term_en": "illumination",
+    "context": "밝은 빛을 봄",
+    "interpretation_ko": "하는 일이 잘될 길한 조짐",
+    "interpretation_en": "success will attend you",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Light",
+      "original": "If you dream of light, success will attend you.",
+      "translation_ko": "빛의 꿈은 하는 일이 잘될 것을 알린다"
+    }
+  },
+  {
+    "term_ko": "환한 빛",
+    "term_en": "illumination",
+    "context": "빛이 꺼짐",
+    "interpretation_ko": "벌여 놓은 일이 아무것도 되지 않아 언짢게 놀랄 흉한 조짐. 기이한 빛을 보는 것도 같다",
+    "interpretation_en": "you will be disagreeably surprised by some undertaking resulting in nothing",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Light",
+      "original": "To dream of weird light, or if the light goes out, you will be disagreeably surprised by some undertaking resulting in nothing.",
+      "translation_ko": "기이한 빛이나 빛이 꺼지는 꿈은, 벌여 놓은 일이 아무것도 되지 않아 언짢게 놀람을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "환한 빛",
+    "term_en": "illumination",
+    "context": "어스름한 빛을 봄",
+    "interpretation_ko": "일이 반쯤만 이루어질 조짐",
+    "interpretation_en": "indicates partial success",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Light",
+      "original": "To see a dim light, indicates partial success.",
+      "translation_ko": "어스름한 빛을 보면 일이 반쯤만 이루어진다"
+    }
+  },
+  {
+    "term_ko": "등대 불빛",
+    "term_en": "beacon light",
+    "context": "폭풍 속에서 등대를 봄",
+    "interpretation_ko": "어려움과 슬픔이 닥치나, 넉넉함과 기쁨 앞에서 그것이 흩어질 조짐",
+    "interpretation_en": "difficulties and grief will assail you, but they will disperse before prosperity and happiness",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lighthouse",
+      "original": "If you see a lighthouse through a storm, difficulties and grief will assail you, but they will disperse before prosperity and happiness.",
+      "translation_ko": "폭풍 너머로 등대를 보면 어려움과 슬픔이 닥치나, 넉넉함과 기쁨 앞에서 그것이 흩어진다"
+    }
+  },
+  {
+    "term_ko": "등대 불빛",
+    "term_en": "beacon light",
+    "context": "잔잔한 바다에서 등대를 봄",
+    "interpretation_ko": "고요한 즐거움과 마음 맞는 벗을 뜻하는 길한 조짐",
+    "interpretation_en": "denotes calm joys and congenial friends",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lighthouse",
+      "original": "To see a lighthouse from a placid sea, denotes calm joys and congenial friends.",
+      "translation_ko": "잔잔한 바다에서 등대를 보면 고요한 즐거움과 마음 맞는 벗을 얻는다"
+    }
+  }
+]

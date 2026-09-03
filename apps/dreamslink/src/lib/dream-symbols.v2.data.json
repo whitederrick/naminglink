@@ -101,6 +101,7 @@
     "m96.json",
     "m97.json",
     "m98.json",
+    "m99.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -15072,6 +15073,171 @@
       ]
     },
     {
+      "id": "illumination",
+      "term_ko": "환한 빛",
+      "term_en": "illumination",
+      "aliases": [
+        "빛이",
+        "빛을",
+        "빛과",
+        "빛무리",
+        "빛살",
+        "밝은 빛",
+        "어스름한 빛",
+        "빛나는",
+        "빛났다"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기이한 빛을 봄",
+          "interpretation_ko": "가는 곳마다 실망과 실패를 만날 흉한 조짐",
+          "interpretation_en": "you will meet with disappointments and failures on every hand",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Illumination",
+              "original": "If you see strange and weird illuminations in your dreams, you will meet with disappointments and failures on every hand.",
+              "translation_ko": "낯설고 기이한 빛을 꿈에서 보면 가는 곳마다 실망과 실패를 만난다"
+            }
+          ]
+        },
+        {
+          "context": "얼굴이 환하게 빛나는 것을 봄",
+          "interpretation_ko": "안팎의 일이 자리를 잡지 못하고 어수선할 흉한 조짐",
+          "interpretation_en": "indicate unsettled business, both private and official",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Illumination",
+              "original": "Illuminated faces, indicate unsettled business, both private and official.",
+              "translation_ko": "환하게 빛나는 얼굴들은 사사로운 일과 공적인 일이 다 어수선함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "하늘이 환한데 달과 별과 해가 괴이함",
+          "interpretation_ko": "가장 모진 꼴의 괴로움이 닥치고 초상·집안의 근심·나라의 소란이 있을 흉한 조짐",
+          "interpretation_en": "you may look for distress in its worst form; death, family troubles, and national upheavals will occur",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Illumination",
+              "original": "To see the heavens illuminated, with the moon in all her weirdness, unnatural stars and a red sun, or a golden one, you may look for distress in its worst form.",
+              "translation_ko": "하늘이 환한데 달이 괴이하고 별이 낯설며 해가 붉거나 금빛이면, 가장 모진 꼴의 괴로움을 각오해야 한다"
+            }
+          ]
+        },
+        {
+          "context": "환한 하늘에 아이들이 있는 것을 봄",
+          "interpretation_ko": "아끼는 이가 소홀히 하는 듯해 북받친 마음에 되돌릴 수 없는 잘못을 저지를 수 있으니 마음을 다스리라는 경고",
+          "interpretation_en": "warns you to control your feelings, as irrevocable wrong may be done in a frenzy of feeling arising over seeming neglect by your dear ones",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Illumination",
+              "original": "To see children in the lighted heavens, warns you to control your feelings, as irrevocable wrong may be done in a frenzy of feeling arising over seeming neglect by your dear ones.",
+              "translation_ko": "환한 하늘에 아이들이 있는 것을 보면, 아끼는 이들이 소홀한 듯해 북받친 마음에 돌이킬 수 없는 잘못을 저지를 수 있으니 마음을 다스리라는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "하늘에 빛나는 사람이나 짐승의 모습을 봄",
+          "interpretation_ko": "일이 어그러지고 근심이 따르며 먹구름이 복을 가릴 흉한 조짐",
+          "interpretation_en": "denotes failure and trouble; dark clouds overshadow fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Illumination",
+              "original": "To see illuminated human figures or animals in the heavens, denotes failure and trouble; dark clouds overshadow fortune.",
+              "translation_ko": "하늘에 빛나는 사람이나 짐승의 모습을 보면 실패와 근심이 따르고 먹구름이 복을 가린다"
+            }
+          ]
+        },
+        {
+          "context": "빛나던 것이 땅에 떨어지고 사람들이 총을 쏨",
+          "interpretation_ko": "떨쳐 일어서려는 힘과 뜻 앞에서 근심과 걸림돌이 모두 사라질 길한 조짐",
+          "interpretation_en": "many troubles and obstacles will go to nought before your energy and determination to rise",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Illumination",
+              "original": "To see them fall to the earth and men shoot them with guns, many troubles and obstacles will go to nought before your energy and determination to rise.",
+              "translation_ko": "그것들이 땅에 떨어지고 사람들이 총을 쏘는 것을 보면, 일어서려는 기운과 결심 앞에서 숱한 근심과 걸림돌이 사라진다"
+            }
+          ]
+        },
+        {
+          "context": "빛나는 뱀이나 기어 다니는 것을 봄",
+          "interpretation_ko": "적이 둘러싸고 모진 수를 써서 무너뜨리려 들 흉한 조짐",
+          "interpretation_en": "enemies will surround you, and use hellish means to overthrow you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Illumination",
+              "original": "To see illuminated snakes, or any other creeping thing, enemies will surround you, and use hellish means to overthrow you.",
+              "translation_ko": "빛나는 뱀이나 그 밖에 기어 다니는 것을 보면, 적들이 에워싸고 모진 수를 써서 무너뜨리려 든다"
+            }
+          ]
+        },
+        {
+          "context": "밝은 빛을 봄",
+          "interpretation_ko": "하는 일이 잘될 길한 조짐",
+          "interpretation_en": "success will attend you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Light",
+              "original": "If you dream of light, success will attend you.",
+              "translation_ko": "빛의 꿈은 하는 일이 잘될 것을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "빛이 꺼짐",
+          "interpretation_ko": "벌여 놓은 일이 아무것도 되지 않아 언짢게 놀랄 흉한 조짐. 기이한 빛을 보는 것도 같다",
+          "interpretation_en": "you will be disagreeably surprised by some undertaking resulting in nothing",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Light",
+              "original": "To dream of weird light, or if the light goes out, you will be disagreeably surprised by some undertaking resulting in nothing.",
+              "translation_ko": "기이한 빛이나 빛이 꺼지는 꿈은, 벌여 놓은 일이 아무것도 되지 않아 언짢게 놀람을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "어스름한 빛을 봄",
+          "interpretation_ko": "일이 반쯤만 이루어질 조짐",
+          "interpretation_en": "indicates partial success",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Light",
+              "original": "To see a dim light, indicates partial success.",
+              "translation_ko": "어스름한 빛을 보면 일이 반쯤만 이루어진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "knee",
       "term_ko": "무릎",
       "term_en": "knee",
@@ -24025,125 +24191,6 @@
       ]
     },
     {
-      "id": "illumination",
-      "term_ko": "환한 빛",
-      "term_en": "illumination",
-      "aliases": [
-        "빛이",
-        "빛을",
-        "빛과",
-        "빛무리",
-        "빛살"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "기이한 빛을 봄",
-          "interpretation_ko": "가는 곳마다 실망과 실패를 만날 흉한 조짐",
-          "interpretation_en": "you will meet with disappointments and failures on every hand",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Illumination",
-              "original": "If you see strange and weird illuminations in your dreams, you will meet with disappointments and failures on every hand.",
-              "translation_ko": "낯설고 기이한 빛을 꿈에서 보면 가는 곳마다 실망과 실패를 만난다"
-            }
-          ]
-        },
-        {
-          "context": "얼굴이 환하게 빛나는 것을 봄",
-          "interpretation_ko": "안팎의 일이 자리를 잡지 못하고 어수선할 흉한 조짐",
-          "interpretation_en": "indicate unsettled business, both private and official",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Illumination",
-              "original": "Illuminated faces, indicate unsettled business, both private and official.",
-              "translation_ko": "환하게 빛나는 얼굴들은 사사로운 일과 공적인 일이 다 어수선함을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "하늘이 환한데 달과 별과 해가 괴이함",
-          "interpretation_ko": "가장 모진 꼴의 괴로움이 닥치고 초상·집안의 근심·나라의 소란이 있을 흉한 조짐",
-          "interpretation_en": "you may look for distress in its worst form; death, family troubles, and national upheavals will occur",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Illumination",
-              "original": "To see the heavens illuminated, with the moon in all her weirdness, unnatural stars and a red sun, or a golden one, you may look for distress in its worst form.",
-              "translation_ko": "하늘이 환한데 달이 괴이하고 별이 낯설며 해가 붉거나 금빛이면, 가장 모진 꼴의 괴로움을 각오해야 한다"
-            }
-          ]
-        },
-        {
-          "context": "환한 하늘에 아이들이 있는 것을 봄",
-          "interpretation_ko": "아끼는 이가 소홀히 하는 듯해 북받친 마음에 되돌릴 수 없는 잘못을 저지를 수 있으니 마음을 다스리라는 경고",
-          "interpretation_en": "warns you to control your feelings, as irrevocable wrong may be done in a frenzy of feeling arising over seeming neglect by your dear ones",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Illumination",
-              "original": "To see children in the lighted heavens, warns you to control your feelings, as irrevocable wrong may be done in a frenzy of feeling arising over seeming neglect by your dear ones.",
-              "translation_ko": "환한 하늘에 아이들이 있는 것을 보면, 아끼는 이들이 소홀한 듯해 북받친 마음에 돌이킬 수 없는 잘못을 저지를 수 있으니 마음을 다스리라는 경고다"
-            }
-          ]
-        },
-        {
-          "context": "하늘에 빛나는 사람이나 짐승의 모습을 봄",
-          "interpretation_ko": "일이 어그러지고 근심이 따르며 먹구름이 복을 가릴 흉한 조짐",
-          "interpretation_en": "denotes failure and trouble; dark clouds overshadow fortune",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Illumination",
-              "original": "To see illuminated human figures or animals in the heavens, denotes failure and trouble; dark clouds overshadow fortune.",
-              "translation_ko": "하늘에 빛나는 사람이나 짐승의 모습을 보면 실패와 근심이 따르고 먹구름이 복을 가린다"
-            }
-          ]
-        },
-        {
-          "context": "빛나던 것이 땅에 떨어지고 사람들이 총을 쏨",
-          "interpretation_ko": "떨쳐 일어서려는 힘과 뜻 앞에서 근심과 걸림돌이 모두 사라질 길한 조짐",
-          "interpretation_en": "many troubles and obstacles will go to nought before your energy and determination to rise",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Illumination",
-              "original": "To see them fall to the earth and men shoot them with guns, many troubles and obstacles will go to nought before your energy and determination to rise.",
-              "translation_ko": "그것들이 땅에 떨어지고 사람들이 총을 쏘는 것을 보면, 일어서려는 기운과 결심 앞에서 숱한 근심과 걸림돌이 사라진다"
-            }
-          ]
-        },
-        {
-          "context": "빛나는 뱀이나 기어 다니는 것을 봄",
-          "interpretation_ko": "적이 둘러싸고 모진 수를 써서 무너뜨리려 들 흉한 조짐",
-          "interpretation_en": "enemies will surround you, and use hellish means to overthrow you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Illumination",
-              "original": "To see illuminated snakes, or any other creeping thing, enemies will surround you, and use hellish means to overthrow you.",
-              "translation_ko": "빛나는 뱀이나 그 밖에 기어 다니는 것을 보면, 적들이 에워싸고 모진 수를 써서 무너뜨리려 든다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "ink-stick",
       "term_ko": "먹",
       "term_en": "ink stick",
@@ -25159,6 +25206,112 @@
               "locator": "衣帳毯褥匙櫡",
               "original": "得盆子者所求得",
               "translation_ko": "동이를 얻으면 구하는 바를 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beacon-light",
+      "term_ko": "등대 불빛",
+      "term_en": "beacon light",
+      "aliases": [
+        "등대",
+        "봉화",
+        "등댓불",
+        "신호 불빛",
+        "등대를",
+        "등대가"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "선원이 등대 불빛을 봄",
+          "interpretation_ko": "잔잔한 바다와 번영하는 항해를 예고하는 조짐",
+          "interpretation_en": "a sign portending fair seas and a prosperous voyage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Beacon-light",
+              "original": "For a sailor to see a beacon-light, portends fair seas and a prosperous voyage.",
+              "translation_ko": "선원이 등대 불빛을 보면 잔잔한 바다와 번영하는 항해를 예고하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "곤경에 처한 사람이 등대 불빛을 봄",
+          "interpretation_ko": "젊은이들 사이에서 따뜻하고 변치 않는 애착이 생길 조짐",
+          "interpretation_en": "a sign that warm and unbroken attachments will arise among the young",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Beacon-light",
+              "original": "For persons in distress, warm attachments and unbroken, will arise among the young.",
+              "translation_ko": "곤경에 처한 사람에게는 젊은이들 사이에서 따뜻하고 변치 않는 애착이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "병든 사람이 등대 불빛을 봄",
+          "interpretation_ko": "빠른 회복과 계속되는 건강, 사업에 새로운 활력이 생길 조짐",
+          "interpretation_en": "a sign of speedy recovery and continued health, and that business will gain new impetus",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Beacon-light",
+              "original": "To the sick, speedy recovery and continued health. Business will gain new impetus.",
+              "translation_ko": "병든 사람에게는 빠른 회복과 계속되는 건강을, 사업에는 새로운 활력을 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 봄",
+          "interpretation_ko": "행운이 유리하게 결정된다고 여기던 바로 그때 상황이 뒤바뀔 조짐",
+          "interpretation_en": "a sign of reverses at the time when you thought Fortune was deciding in your favor",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Beacon-light",
+              "original": "To see it go out in time of storm or distress, indicates reverses at the time when you thought Fortune was deciding in your favor.",
+              "translation_ko": "폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 보면, 행운이 자신에게 유리하게 결정된다고 여기던 바로 그때 상황이 뒤바뀔 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "폭풍 속에서 등대를 봄",
+          "interpretation_ko": "어려움과 슬픔이 닥치나, 넉넉함과 기쁨 앞에서 그것이 흩어질 조짐",
+          "interpretation_en": "difficulties and grief will assail you, but they will disperse before prosperity and happiness",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lighthouse",
+              "original": "If you see a lighthouse through a storm, difficulties and grief will assail you, but they will disperse before prosperity and happiness.",
+              "translation_ko": "폭풍 너머로 등대를 보면 어려움과 슬픔이 닥치나, 넉넉함과 기쁨 앞에서 그것이 흩어진다"
+            }
+          ]
+        },
+        {
+          "context": "잔잔한 바다에서 등대를 봄",
+          "interpretation_ko": "고요한 즐거움과 마음 맞는 벗을 뜻하는 길한 조짐",
+          "interpretation_en": "denotes calm joys and congenial friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lighthouse",
+              "original": "To see a lighthouse from a placid sea, denotes calm joys and congenial friends.",
+              "translation_ko": "잔잔한 바다에서 등대를 보면 고요한 즐거움과 마음 맞는 벗을 얻는다"
             }
           ]
         }
@@ -36820,82 +36973,6 @@
               "locator": "龜鱉魚蝦昆蟲",
               "original": "蝙蝠群飛陰事長",
               "translation_ko": "박쥐가 떼지어 날면 은밀한 일이 길어진다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "beacon-light",
-      "term_ko": "등대 불빛",
-      "term_en": "beacon light",
-      "aliases": [
-        "등대",
-        "봉화",
-        "등댓불",
-        "신호 불빛"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "선원이 등대 불빛을 봄",
-          "interpretation_ko": "잔잔한 바다와 번영하는 항해를 예고하는 조짐",
-          "interpretation_en": "a sign portending fair seas and a prosperous voyage",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Beacon-light",
-              "original": "For a sailor to see a beacon-light, portends fair seas and a prosperous voyage.",
-              "translation_ko": "선원이 등대 불빛을 보면 잔잔한 바다와 번영하는 항해를 예고하는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "곤경에 처한 사람이 등대 불빛을 봄",
-          "interpretation_ko": "젊은이들 사이에서 따뜻하고 변치 않는 애착이 생길 조짐",
-          "interpretation_en": "a sign that warm and unbroken attachments will arise among the young",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Beacon-light",
-              "original": "For persons in distress, warm attachments and unbroken, will arise among the young.",
-              "translation_ko": "곤경에 처한 사람에게는 젊은이들 사이에서 따뜻하고 변치 않는 애착이 생길 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "병든 사람이 등대 불빛을 봄",
-          "interpretation_ko": "빠른 회복과 계속되는 건강, 사업에 새로운 활력이 생길 조짐",
-          "interpretation_en": "a sign of speedy recovery and continued health, and that business will gain new impetus",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Beacon-light",
-              "original": "To the sick, speedy recovery and continued health. Business will gain new impetus.",
-              "translation_ko": "병든 사람에게는 빠른 회복과 계속되는 건강을, 사업에는 새로운 활력을 뜻하는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 봄",
-          "interpretation_ko": "행운이 유리하게 결정된다고 여기던 바로 그때 상황이 뒤바뀔 조짐",
-          "interpretation_en": "a sign of reverses at the time when you thought Fortune was deciding in your favor",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Beacon-light",
-              "original": "To see it go out in time of storm or distress, indicates reverses at the time when you thought Fortune was deciding in your favor.",
-              "translation_ko": "폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 보면, 행운이 자신에게 유리하게 결정된다고 여기던 바로 그때 상황이 뒤바뀔 조짐이다"
             }
           ]
         }
@@ -75227,6 +75304,53 @@
               "locator": "License",
               "original": "For a woman to see a marriage license, foretells that she will soon enter unpleasant bonds, which will humiliate her pride.",
               "translation_ko": "여성이 혼인 허가증을 보는 꿈은, 머잖아 언짢은 매임 속으로 들어가 제 자존심이 꺾임을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life-insurance-man",
+      "term_ko": "보험 외판원",
+      "term_en": "life-insurance man",
+      "aliases": [
+        "생명보험 사원",
+        "보험 모집인",
+        "보험회사 사람"
+      ],
+      "category": "person",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "보험 외판원을 봄",
+          "interpretation_ko": "머잖아 낯선 이를 만나 하는 일에 보탬을 받고, 이해가 서로 맞물려 집안 살림에도 바뀜이 있을 조짐",
+          "interpretation_en": "means that you are soon to meet a stranger who will contribute to your business interests, and change in your home life is foreshadowed, as interests will be mutual",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Life-insurance Man",
+              "original": "To see life-insurance men in a dream, means that you are soon to meet a stranger who will contribute to your business interests, and change in your home life is foreshadowed, as interests will be mutual.",
+              "translation_ko": "꿈에 생명보험 사람들을 보면, 머잖아 낯선 이를 만나 하는 일에 보탬을 받고, 이해가 서로 맞물려 집안 살림에도 바뀜이 있다"
+            }
+          ]
+        },
+        {
+          "context": "보험 외판원이 일그러져 보임",
+          "interpretation_ko": "좋기보다 언짢은 쪽에 가까운 흉한 조짐",
+          "interpretation_en": "the dream is more unfortunate than good",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Life-insurance Man",
+              "original": "If they appear distorted or unnatural, the dream is more unfortunate than good.",
+              "translation_ko": "그들이 일그러지거나 괴이하게 보이면, 그 꿈은 좋기보다 언짢은 쪽에 가깝다"
             }
           ]
         }

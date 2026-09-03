@@ -6076,5 +6076,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "life-boat": [
     "lifeboat",
     "life boat"
+  ],
+  "life-insurance-man": [
+    "life insurance men",
+    "insurance agent"
   ]
 };

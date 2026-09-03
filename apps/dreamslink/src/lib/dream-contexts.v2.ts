@@ -1987,7 +1987,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "beacon-light::선원이 등대 불빛을 봄": "sailor seaman voyage",
   "beacon-light::곤경에 처한 사람이 등대 불빛을 봄": "distress trouble troubled",
   "beacon-light::병든 사람이 등대 불빛을 봄": "illness sick ailing patient",
-  "beacon-light::폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 봄": "extinguished darkened storm faded",
+  "beacon-light::폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 봄": "extinguished darkened faded",
+  "beacon-light::폭풍 속에서 등대를 봄": "storm grief disperse",
+  "beacon-light::잔잔한 바다에서 등대를 봄": "placid calm congenial",
   "beads::구슬(염주) 꿈을 꿈": "dreamt appeared merely",
   "beads::구슬을 셈": "counting counted number",
   "beads::구슬을 꿰어 줄에 꿈": "stringing strung threaded",
@@ -3779,6 +3781,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "illumination::하늘에 빛나는 사람이나 짐승의 모습을 봄": "figures animals overshadow fortune",
   "illumination::빛나던 것이 땅에 떨어지고 사람들이 총을 쏨": "shoot guns obstacles nought determination",
   "illumination::빛나는 뱀이나 기어 다니는 것을 봄": "snakes creeping surround hellish overthrow",
+  "illumination::밝은 빛을 봄": "success attend",
+  "illumination::빛이 꺼짐": "disagreeably surprised undertaking resulting",
+  "illumination::어스름한 빛을 봄": "dim partial",
   "image::형상을 봄": "poor success business love",
   "image::집 안에 형상을 세움": "set home weak minded astray",
   "image::흉하게 생긴 형상을 봄": "ugly",
@@ -4086,5 +4091,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "life-boat::구명보트에 타고 있음": "threatened evil",
   "life-boat::구명보트가 가라앉는 것을 봄": "sinking contribute",
   "life-boat::구명보트에서 길을 잃음": "lost overcome trouble included",
-  "life-boat::구명보트에서 구조됨": "saved calamity"
+  "life-boat::구명보트에서 구조됨": "saved calamity",
+  "life-insurance-man::보험 외판원을 봄": "stranger contribute mutual",
+  "life-insurance-man::보험 외판원이 일그러져 보임": "distorted unnatural unfortunate"
 };

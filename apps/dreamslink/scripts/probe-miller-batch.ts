@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 98 — Library~Life-boat, 14건)
+// (지금 담긴 것: 배치 99 — Life-insurance Man~Lighthouse, 11건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +30,18 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "library", ctx: "도서관에 있음", text: "도서관에 있었다" },
-  { id: "library", ctx: "공부가 아닌 다른 일로 도서관에 있음", text: "공부가 아닌 다른 일로 도서관에 갔다" },
-  { id: "lice", ctx: "머릿니가 나오는 꿈을 꿈", text: "머릿니가 우글거렸다" },
-  { id: "lice", ctx: "가축에 이가 붙음", text: "가축에 머릿니가 붙어 있었다" },
-  { id: "lice", ctx: "제 몸에 이가 붙음", text: "내 몸에 머릿니가 붙어 있었다" },
-  { id: "lice", ctx: "이를 잡음", text: "머릿니를 잡았다" },
-  { id: "license", ctx: "허가증을 봄", text: "허가증을 받았다" },
-  { id: "license", ctx: "여성이 혼인 허가증을 봄", text: "여자가 혼인 허가증을 보았다" },
-  { id: "life-boat", ctx: "구명보트에 타고 있음", text: "구명보트에 타고 있었다" },
-  { id: "life-boat", ctx: "구명보트가 가라앉는 것을 봄", text: "구명보트가 가라앉는 것을 보았다" },
-  { id: "life-boat", ctx: "구명보트에서 길을 잃음", text: "구명보트에서 길을 잃었다" },
-  { id: "life-boat", ctx: "구명보트에서 구조됨", text: "구명보트에서 구조되었다" },
-  // 지킴 — 새 이름이 스치는 옛 상징의 답이 그대로인가(§25 곁가지)
-  { id: "teeth", ctx: "이가 저절로 빠짐", text: "이가 빠졌다" },
-  { id: "boat", ctx: "맑은 물 위의 배를 봄", text: "보트가 떠 있었다" },
+  { id: "life-insurance-man", ctx: "보험 외판원을 봄", text: "보험 외판원이 찾아왔다" },
+  { id: "life-insurance-man", ctx: "보험 외판원이 일그러져 보임", text: "보험 외판원이 일그러져 보였다" },
+  { id: "illumination", ctx: "밝은 빛을 봄", text: "밝은 빛이 보였다" },
+  { id: "illumination", ctx: "빛이 꺼짐", text: "빛이 꺼졌다" },
+  { id: "illumination", ctx: "어스름한 빛을 봄", text: "어스름한 빛이 보였다" },
+  { id: "beacon-light", ctx: "폭풍 속에서 등대를 봄", text: "폭풍 속에서 등대를 보았다" },
+  { id: "beacon-light", ctx: "잔잔한 바다에서 등대를 봄", text: "잔잔한 바다에서 등대를 보았다" },
+  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
+  { id: "beacon-light", ctx: "폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 봄", text: "등대 불빛이 꺼졌다" },
+  { id: "beacon-light", ctx: "선원이 등대 불빛을 봄", text: "뱃사람이 등대 불빛을 보았다" },
+  { id: "illumination", ctx: "기이한 빛을 봄", text: "기이한 빛을 보았다" },
+  { id: "illumination", ctx: "빛나는 뱀이나 기어 다니는 것을 봄", text: "빛나는 뱀이 기어 다녔다" },
 ];
 
 let notFound = 0;

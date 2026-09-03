@@ -1991,7 +1991,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "beacon-light::선원이 등대 불빛을 봄": "선원 뱃사람 항해 배를탄",
   "beacon-light::곤경에 처한 사람이 등대 불빛을 봄": "어려움 처한 힘든 위기",
   "beacon-light::병든 사람이 등대 불빛을 봄": "병든 아픈 앓던 환자",
-  "beacon-light::폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 봄": "꺼지 꺼졌 폭풍 사라졌",
+  "beacon-light::폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 봄": "꺼지 꺼졌 사라졌",
+  "beacon-light::폭풍 속에서 등대를 봄": "폭풍 비바람",
+  "beacon-light::잔잔한 바다에서 등대를 봄": "잔잔 고요",
   "beads::구슬(염주) 꿈을 꿈": "나왔 등장 그저 단순",
   "beads::구슬을 셈": "세었 세는 헤아 개수",
   "beads::구슬을 꿰어 줄에 꿈": "꿰어 꿰었 실에 엮어",
@@ -3783,6 +3785,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "illumination::하늘에 빛나는 사람이나 짐승의 모습을 봄": "짐승 사람의 모습이",
   "illumination::빛나던 것이 땅에 떨어지고 사람들이 총을 쏨": "총을 쏘았 땅에",
   "illumination::빛나는 뱀이나 기어 다니는 것을 봄": "뱀이 기어 벌레",
+  "illumination::밝은 빛을 봄": "환했 밝았 밝은",
+  "illumination::빛이 꺼짐": "꺼졌 꺼지 사그라",
+  "illumination::어스름한 빛을 봄": "어스름 희미 어둑",
   "image::형상을 봄": "여럿 형상들",
   "image::집 안에 형상을 세움": "세웠 세워 모셔",
   "image::흉하게 생긴 형상을 봄": "흉하게 흉측",
@@ -4090,5 +4095,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "life-boat::구명보트에 타고 있음": "타고 탔다",
   "life-boat::구명보트가 가라앉는 것을 봄": "가라앉 침몰",
   "life-boat::구명보트에서 길을 잃음": "길을 잃었 표류",
-  "life-boat::구명보트에서 구조됨": "구조 살아났 구해졌"
+  "life-boat::구명보트에서 구조됨": "구조 살아났 구해졌",
+  "life-insurance-man::보험 외판원을 봄": "찾아왔 만났",
+  "life-insurance-man::보험 외판원이 일그러져 보임": "일그러 괴이하게 이상하게"
 };

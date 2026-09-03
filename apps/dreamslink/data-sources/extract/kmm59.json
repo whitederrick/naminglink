@@ -6,7 +6,11 @@
       "빛을",
       "빛과",
       "빛무리",
-      "빛살"
+      "빛살",
+      "밝은 빛",
+      "어스름한 빛",
+      "빛나는",
+      "빛났다"
     ],
     "aliases_en": [
       "illuminations",
@@ -19,7 +23,10 @@
       "환한 하늘에 아이들이 있는 것을 봄": "아이들 어린이",
       "하늘에 빛나는 사람이나 짐승의 모습을 봄": "짐승 사람의 모습이",
       "빛나던 것이 땅에 떨어지고 사람들이 총을 쏨": "총을 쏘았 땅에",
-      "빛나는 뱀이나 기어 다니는 것을 봄": "뱀이 기어 벌레"
+      "빛나는 뱀이나 기어 다니는 것을 봄": "뱀이 기어 벌레",
+      "밝은 빛을 봄": "환했 밝았 밝은",
+      "빛이 꺼짐": "꺼졌 꺼지 사그라",
+      "어스름한 빛을 봄": "어스름 희미 어둑"
     },
     "contexts_en": {
       "기이한 빛을 봄": "strange disappointments failures",
@@ -28,7 +35,10 @@
       "환한 하늘에 아이들이 있는 것을 봄": "children lighted control frenzy neglect",
       "하늘에 빛나는 사람이나 짐승의 모습을 봄": "figures animals overshadow fortune",
       "빛나던 것이 땅에 떨어지고 사람들이 총을 쏨": "shoot guns obstacles nought determination",
-      "빛나는 뱀이나 기어 다니는 것을 봄": "snakes creeping surround hellish overthrow"
+      "빛나는 뱀이나 기어 다니는 것을 봄": "snakes creeping surround hellish overthrow",
+      "밝은 빛을 봄": "success attend",
+      "빛이 꺼짐": "disagreeably surprised undertaking resulting",
+      "어스름한 빛을 봄": "dim partial"
     }
   },
   {

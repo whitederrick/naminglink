@@ -1,0 +1,22 @@
+[
+  {
+    "id": "life-insurance-man",
+    "aliases": [
+      "생명보험 사원",
+      "보험 모집인",
+      "보험회사 사람"
+    ],
+    "aliases_en": [
+      "life insurance men",
+      "insurance agent"
+    ],
+    "contexts": {
+      "보험 외판원을 봄": "찾아왔 만났",
+      "보험 외판원이 일그러져 보임": "일그러 괴이하게 이상하게"
+    },
+    "contexts_en": {
+      "보험 외판원을 봄": "stranger contribute mutual",
+      "보험 외판원이 일그러져 보임": "distorted unnatural unfortunate"
+    }
+  }
+]
