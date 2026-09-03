@@ -4074,5 +4074,17 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lettuce::상추를 삼": "buy court downfall",
   "liar::남들이 거짓말쟁이라고 여김": "thinking scheme urgently forward",
   "liar::남이 저를 거짓말쟁이라 부름": "call vexations deceitful",
-  "liar::여성이 정인을 거짓말쟁이로 여김": "sweetheart unbecoming valued"
+  "liar::여성이 정인을 거짓말쟁이로 여김": "sweetheart unbecoming valued",
+  "library::도서관에 있음": "discontented environments associations ancient customs",
+  "library::공부가 아닌 다른 일로 도서관에 있음": "purpose deceive literary aspirations illicit",
+  "lice::머릿니가 나오는 꿈을 꿈": "waking offensive ailments",
+  "lice::가축에 이가 붙음": "stock famine",
+  "lice::제 몸에 이가 붙음": "body unpleasantly acquaintances",
+  "lice::이를 잡음": "catching sickness morbidity",
+  "license::허가증을 봄": "disputes married exasperate cheerfulness",
+  "license::여성이 혼인 허가증을 봄": "marriage bonds humiliate pride",
+  "life-boat::구명보트에 타고 있음": "threatened evil",
+  "life-boat::구명보트가 가라앉는 것을 봄": "sinking contribute",
+  "life-boat::구명보트에서 길을 잃음": "lost overcome trouble included",
+  "life-boat::구명보트에서 구조됨": "saved calamity"
 };

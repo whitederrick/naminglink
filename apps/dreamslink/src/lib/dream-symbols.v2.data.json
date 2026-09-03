@@ -100,6 +100,7 @@
     "m95.json",
     "m96.json",
     "m97.json",
+    "m98.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -44004,6 +44005,156 @@
       ]
     },
     {
+      "id": "lice",
+      "term_ko": "머릿니",
+      "term_en": "lice",
+      "aliases": [
+        "서캐",
+        "몸니",
+        "이 떼"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "머릿니가 나오는 꿈을 꿈",
+          "interpretation_ko": "깨어 있는 동안의 걱정과 괴로움이 많고, 흔히 남 보기 언짢은 병까지 뜻하는 흉한 조짐",
+          "interpretation_en": "contains much waking worry and distress; it often implies offensive ailments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lice",
+              "original": "A dream of lice contains much waking worry and distress. It often implies offensive ailments.",
+              "translation_ko": "이가 나오는 꿈에는 깨어 있는 동안의 걱정과 괴로움이 많고, 흔히 남 보기 언짢은 병까지 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가축에 이가 붙음",
+          "interpretation_ko": "굶주림과 잃음을 알리는 흉한 조짐",
+          "interpretation_en": "foretells famine and loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lice",
+              "original": "Lice on stock, foretells famine and loss.",
+              "translation_ko": "기르는 짐승에 이가 붙으면 굶주림과 잃음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "제 몸에 이가 붙음",
+          "interpretation_ko": "아는 이들에게 언짢게 굴게 될 흉한 조짐",
+          "interpretation_en": "denotes that you will conduct yourself unpleasantly with your acquaintances",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lice",
+              "original": "To have lice on your body, denotes that you will conduct yourself unpleasantly with your acquaintances.",
+              "translation_ko": "제 몸에 이가 붙으면 아는 이들에게 언짢게 굴게 된다"
+            }
+          ]
+        },
+        {
+          "context": "이를 잡음",
+          "interpretation_ko": "병이 들고 마음이 병들어 갈 흉한 조짐",
+          "interpretation_en": "foretells sickness, and that you will cultivate morbidity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lice",
+              "original": "To dream of catching lice, foretells sickness, and that you will cultivate morbidity.",
+              "translation_ko": "이를 잡는 꿈은 병이 들고 마음이 병들어 감을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life-boat",
+      "term_ko": "구명보트",
+      "term_en": "life-boat",
+      "aliases": [
+        "구명정",
+        "구명선",
+        "구명 보트"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "구명보트에 타고 있음",
+          "interpretation_ko": "닥쳐오던 나쁜 일에서 벗어날 길한 조짐",
+          "interpretation_en": "denotes escape from threatened evil",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Life-boat",
+              "original": "To dream of being in a life-boat, denotes escape from threatened evil.",
+              "translation_ko": "구명보트에 타고 있는 꿈은 닥쳐오던 나쁜 일에서 벗어남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "구명보트가 가라앉는 것을 봄",
+          "interpretation_ko": "벗들이 제 괴로움을 보태게 될 흉한 조짐",
+          "interpretation_en": "friends will contribute to your distress",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Life-boat",
+              "original": "To see a life-boat sinking, friends will contribute to your distress.",
+              "translation_ko": "구명보트가 가라앉는 것을 보면 벗들이 제 괴로움을 보탠다"
+            }
+          ]
+        },
+        {
+          "context": "구명보트에서 길을 잃음",
+          "interpretation_ko": "괴로운 일에 짓눌리고 벗들까지 얼마쯤 얽혀 들 흉한 조짐",
+          "interpretation_en": "you will be overcome with trouble, in which your friends will be included to some extent",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Life-boat",
+              "original": "To be lost in a life-boat, you will be overcome with trouble, in which your friends will be included to some extent.",
+              "translation_ko": "구명보트에서 길을 잃으면 괴로운 일에 짓눌리고 벗들까지 얼마쯤 얽혀 든다"
+            }
+          ]
+        },
+        {
+          "context": "구명보트에서 구조됨",
+          "interpretation_ko": "큰 재앙을 벗어날 길한 조짐",
+          "interpretation_en": "you will escape a great calamity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Life-boat",
+              "original": "If you are saved, you will escape a great calamity.",
+              "translation_ko": "구조되면 큰 재앙을 벗어난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "manure",
       "term_ko": "거름",
       "term_en": "manure",
@@ -74982,6 +75133,100 @@
               "locator": "Letter-file",
               "original": "For a woman, this dream implies distressful news and unfaithful friends.",
               "translation_ko": "여성에게 이 꿈은 괴로운 기별과 마음을 저버리는 벗을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "library",
+      "term_ko": "도서관",
+      "term_en": "library",
+      "aliases": [
+        "서고",
+        "도서실",
+        "책을 빌리는 곳"
+      ],
+      "category": "place",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "도서관에 있음",
+          "interpretation_ko": "제 둘레와 사귀는 이들에 싫증이 나서, 배움과 옛것을 살피는 데서 벗을 찾게 될 조짐",
+          "interpretation_en": "denotes that you will grow discontented with your environments and associations and seek companionship in study and the exploration of ancient customs",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Library",
+              "original": "To dream that you are in a library, denotes that you will grow discontented with your environments and associations and seek companionship in study and the exploration of ancient customs.",
+              "translation_ko": "도서관에 있는 꿈은, 제 둘레와 사귀는 이들에 싫증이 나서 배움과 옛것을 살피는 데서 벗을 찾게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "공부가 아닌 다른 일로 도서관에 있음",
+          "interpretation_ko": "제 처신이 벗들을 속이게 되고, 학문에 뜻을 둔 줄 알게 해 놓고 실은 떳떳하지 못한 만남을 갖게 될 흉한 조짐",
+          "interpretation_en": "foretells that your conduct will deceive your friends, and where you would have them believe that you had literary aspirations, you will find illicit assignations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Library",
+              "original": "To find yourself in a library for other purpose than study, foretells that your conduct will deceive your friends, and where you would have them believe that you had literary aspirations, you will find illicit assignations.",
+              "translation_ko": "공부가 아닌 다른 일로 도서관에 있는 꿈은, 제 처신이 벗들을 속이게 되고 학문에 뜻을 둔 줄 알게 해 놓고 실은 떳떳하지 못한 만남을 갖게 됨을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "license",
+      "term_ko": "허가증",
+      "term_en": "license",
+      "aliases": [
+        "면허증",
+        "인가증",
+        "혼인 허가증"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "허가증을 봄",
+          "interpretation_ko": "다툼과 잃음의 조짐. 혼인한 여인들이 제 즐거움을 흐트러뜨린다",
+          "interpretation_en": "is an omen of disputes and loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "License",
+              "original": "To dream of a license, is an omen of disputes and loss. Married women will exasperate your cheerfulness.",
+              "translation_ko": "허가증의 꿈은 다툼과 잃음의 조짐이다. 혼인한 여인들이 제 즐거움을 흐트러뜨린다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 혼인 허가증을 봄",
+          "interpretation_ko": "머잖아 언짢은 매임 속으로 들어가 제 자존심이 꺾일 흉한 조짐",
+          "interpretation_en": "foretells that she will soon enter unpleasant bonds, which will humiliate her pride",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "License",
+              "original": "For a woman to see a marriage license, foretells that she will soon enter unpleasant bonds, which will humiliate her pride.",
+              "translation_ko": "여성이 혼인 허가증을 보는 꿈은, 머잖아 언짢은 매임 속으로 들어가 제 자존심이 꺾임을 알린다"
             }
           ]
         }

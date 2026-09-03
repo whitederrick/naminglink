@@ -1,0 +1,88 @@
+[
+  {
+    "id": "library",
+    "aliases": [
+      "서고",
+      "도서실",
+      "책을 빌리는 곳"
+    ],
+    "aliases_en": [
+      "libraries"
+    ],
+    "contexts": {
+      "도서관에 있음": "고서 뒤적",
+      "공부가 아닌 다른 일로 도서관에 있음": "몰래 아닌 만나려"
+    },
+    "contexts_en": {
+      "도서관에 있음": "discontented environments associations ancient customs",
+      "공부가 아닌 다른 일로 도서관에 있음": "purpose deceive literary aspirations illicit"
+    }
+  },
+  {
+    "id": "lice",
+    "aliases": [
+      "서캐",
+      "몸니",
+      "이 떼"
+    ],
+    "aliases_en": [
+      "louse",
+      "nits"
+    ],
+    "contexts": {
+      "머릿니가 나오는 꿈을 꿈": "들끓 우글",
+      "가축에 이가 붙음": "가축 짐승 소에",
+      "제 몸에 이가 붙음": "몸에 살갗 머리에",
+      "이를 잡음": "잡았 잡는"
+    },
+    "contexts_en": {
+      "머릿니가 나오는 꿈을 꿈": "waking offensive ailments",
+      "가축에 이가 붙음": "stock famine",
+      "제 몸에 이가 붙음": "body unpleasantly acquaintances",
+      "이를 잡음": "catching sickness morbidity"
+    }
+  },
+  {
+    "id": "license",
+    "aliases": [
+      "면허증",
+      "인가증",
+      "혼인 허가증"
+    ],
+    "aliases_en": [
+      "licence"
+    ],
+    "contexts": {
+      "허가증을 봄": "받았 내주",
+      "여성이 혼인 허가증을 봄": "혼인 결혼"
+    },
+    "contexts_en": {
+      "허가증을 봄": "disputes married exasperate cheerfulness",
+      "여성이 혼인 허가증을 봄": "marriage bonds humiliate pride"
+    }
+  },
+  {
+    "id": "life-boat",
+    "aliases": [
+      "구명정",
+      "구명선",
+      "구명 보트"
+    ],
+    "aliases_en": [
+      "lifeboat",
+      "life boat"
+    ],
+    "contexts": {
+      "구명보트에 타고 있음": "타고 탔다",
+      "구명보트가 가라앉는 것을 봄": "가라앉 침몰",
+      "구명보트에서 길을 잃음": "길을 잃었 표류",
+      "구명보트에서 구조됨": "구조 살아났 구해졌"
+    },
+    "contexts_en": {
+      "구명보트에 타고 있음": "threatened evil",
+      "구명보트가 가라앉는 것을 봄": "sinking contribute",
+      "구명보트에서 길을 잃음": "lost overcome trouble included",
+      "구명보트에서 구조됨": "saved calamity"
+    }
+  }
+]

@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 97 — Letter-carrier~Liar, 17건)
+// (지금 담긴 것: 배치 98 — Library~Life-boat, 14건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,24 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "letter-carrier", ctx: "집배원이 편지를 갖고 옴", text: "집배원이 편지를 갖고 왔다" },
-  { id: "letter-carrier", ctx: "집배원의 호루라기 소리를 들음", text: "집배원의 호루라기 소리를 들었다" },
-  { id: "letter-carrier", ctx: "집배원이 편지 없이 지나감", text: "집배원이 그냥 지나갔다" },
-  { id: "letter-carrier", ctx: "집배원에게 부칠 편지를 줌", text: "집배원에게 부칠 편지를 건네주었다" },
-  { id: "letter-carrier", ctx: "집배원과 이야기를 나눔", text: "집배원과 이야기를 나누었다" },
-  { id: "letter-file", ctx: "편지꽂이를 봄", text: "편지꽂이가 놓여 있었다" },
-  { id: "letter-file", ctx: "여성이 편지꽂이를 봄", text: "여자가 편지꽂이를 보았다" },
-  { id: "lettuce", ctx: "상추가 파릇하게 잘 자란 것을 봄", text: "상추가 파릇하게 자라 있었다" },
-  { id: "lettuce", ctx: "상추를 먹음", text: "상추를 먹었다" },
-  { id: "lettuce", ctx: "여성이 상추 씨를 뿌림", text: "여자가 상추 씨를 뿌렸다" },
-  { id: "lettuce", ctx: "상추를 뜯어 모음", text: "상추를 뜯어 모았다" },
-  { id: "lettuce", ctx: "상추를 삼", text: "상추를 샀다" },
-  { id: "liar", ctx: "남들이 거짓말쟁이라고 여김", text: "사람들이 거짓말쟁이 같았다" },
-  { id: "liar", ctx: "남이 저를 거짓말쟁이라 부름", text: "누가 나를 거짓말쟁이라고 불렀다" },
-  { id: "liar", ctx: "여성이 정인을 거짓말쟁이로 여김", text: "여자가 정인을 거짓말쟁이로 여겼다" },
-  // 지킴 — 새 문장이 스치는 옛 상징의 답이 그대로인가(§25 곁가지)
-  { id: "letter", ctx: "편지를 봉함", text: "편지를 봉했다" },
-  { id: "letter", ctx: "편지를 씀", text: "편지를 썼다" },
+  { id: "library", ctx: "도서관에 있음", text: "도서관에 있었다" },
+  { id: "library", ctx: "공부가 아닌 다른 일로 도서관에 있음", text: "공부가 아닌 다른 일로 도서관에 갔다" },
+  { id: "lice", ctx: "머릿니가 나오는 꿈을 꿈", text: "머릿니가 우글거렸다" },
+  { id: "lice", ctx: "가축에 이가 붙음", text: "가축에 머릿니가 붙어 있었다" },
+  { id: "lice", ctx: "제 몸에 이가 붙음", text: "내 몸에 머릿니가 붙어 있었다" },
+  { id: "lice", ctx: "이를 잡음", text: "머릿니를 잡았다" },
+  { id: "license", ctx: "허가증을 봄", text: "허가증을 받았다" },
+  { id: "license", ctx: "여성이 혼인 허가증을 봄", text: "여자가 혼인 허가증을 보았다" },
+  { id: "life-boat", ctx: "구명보트에 타고 있음", text: "구명보트에 타고 있었다" },
+  { id: "life-boat", ctx: "구명보트가 가라앉는 것을 봄", text: "구명보트가 가라앉는 것을 보았다" },
+  { id: "life-boat", ctx: "구명보트에서 길을 잃음", text: "구명보트에서 길을 잃었다" },
+  { id: "life-boat", ctx: "구명보트에서 구조됨", text: "구명보트에서 구조되었다" },
+  // 지킴 — 새 이름이 스치는 옛 상징의 답이 그대로인가(§25 곁가지)
+  { id: "teeth", ctx: "이가 저절로 빠짐", text: "이가 빠졌다" },
+  { id: "boat", ctx: "맑은 물 위의 배를 봄", text: "보트가 떠 있었다" },
 ];
 
 let notFound = 0;

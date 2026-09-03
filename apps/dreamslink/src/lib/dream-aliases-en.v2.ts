@@ -6062,5 +6062,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "liar": [
     "liars"
+  ],
+  "library": [
+    "libraries"
+  ],
+  "lice": [
+    "louse",
+    "nits"
+  ],
+  "license": [
+    "licence"
+  ],
+  "life-boat": [
+    "lifeboat",
+    "life boat"
   ]
 };
