@@ -6687,5 +6687,11 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "parents": [
     "your parents"
+  ],
+  "park": [
+    "parks"
+  ],
+  "parsnip": [
+    "parsnips"
   ]
 };

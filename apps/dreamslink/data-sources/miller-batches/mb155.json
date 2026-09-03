@@ -1,0 +1,28 @@
+{
+  "batch": 155,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Park",
+      "text": "To dream of walking through a well-kept park, denotes enjoyable leisure. If you walk with your lover, you will be comfortably and happily married. Ill-kept parks, devoid of green grasses and foliage, is ominous of unexpected reverses.",
+      "note": "새 상징 `park`(공원)"
+    },
+    {
+      "headword": "Parrot",
+      "text": "Parrots chattering in your dreams, signifies frivolous employments and idle gossip among your friends. To see them in repose, denotes a peaceful intermission of family broils. For a young woman to dream that she owns a parrot, denotes that her lover will believe her to be quarrelsome. To teach a parrot, you will have trouble in your private affairs. A dead parrot, foretells the loss of social friends.",
+      "note": "기존 상징 `parrot`(앵무새, 주공해몽)에 다섯을 더한다"
+    },
+    {
+      "headword": "Parsley",
+      "text": "To dream of parsley, denotes hard-earned success, usually the surroundings of the dreamer are healthful and lively. To eat parsley, is a sign of good health, but the care of a large family will be your portion.",
+      "note": "새 상징 `parsley`(파슬리)"
+    },
+    {
+      "headword": "Parsnips",
+      "text": "To see or eat parsnips, is a favorable omen of successful business or trade, but love will take on unfavorable and gloomy aspects.",
+      "note": "새 상징 `parsnip`(파스닙). 한 문장에 사업(길)과 애정(흉)이 함께 있어 하나로 남긴다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

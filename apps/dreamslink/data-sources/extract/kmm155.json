@@ -1,0 +1,50 @@
+[
+  {
+    "id": "park",
+    "aliases": [
+      "공원이",
+      "공원을"
+    ],
+    "aliases_en": [
+      "parks"
+    ],
+    "contexts": {
+      "잘 가꾼 공원을 거님": "가꾼 여유",
+      "연인과 공원을 거님": "연인과 편안 혼인",
+      "풀과 나무가 시든 공원을 봄": "시든 나무 역경"
+    },
+    "contexts_en": {
+      "잘 가꾼 공원을 거님": "well-kept walking leisure",
+      "연인과 공원을 거님": "lover comfortably married",
+      "풀과 나무가 시든 공원을 봄": "ill-kept devoid reverses"
+    }
+  },
+  {
+    "id": "parsley",
+    "aliases": [
+      "파슬리가",
+      "파슬리를"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "파슬리를 봄": "애써 얻은 성공",
+      "파슬리를 먹음": "먹었 대가족"
+    },
+    "contexts_en": {
+      "파슬리를 봄": "hard-earned success lively",
+      "파슬리를 먹음": "eat good health family"
+    }
+  },
+  {
+    "id": "parsnip",
+    "aliases": [
+      "파스닙이",
+      "파스닙을"
+    ],
+    "aliases_en": [
+      "parsnips"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

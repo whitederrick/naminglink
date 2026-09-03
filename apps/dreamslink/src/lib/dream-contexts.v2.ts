@@ -779,6 +779,12 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "naked-body::처녀가 알몸으로 맑은 물에서 헤엄침": "swimming clear loves revenge",
   "naked-body::알몸의 사내들이 맑은 물에서 헤엄치는 것을 봄": "men many admirers",
   "naked-body::알몸으로 헤엄치는 물이 흐림": "muddy jealous gossip",
+  "parrot::앵무새들이 재잘거림": "chattering frivolous gossip",
+  "parrot::가만히 있는 앵무새를 봄": "repose peaceful intermission",
+  "parrot::처녀가 앵무새를 가짐": "owns lover quarrelsome",
+  "parrot::앵무새를 가르침": "teach private affairs",
+  "parrot::죽은 앵무새를 봄": "dead loss social",
+  "parrot::앵무새를 봄": "wife sign",
   "sword::깃발과 칼이 산속으로 이끌어 들임": "banner flag mountain",
   "sword::칼을 뽑아 들고 길을 나섬": "journey traveled departed setting",
   "sword::남에게서 칼을 얻음": "received obtained acquired",
@@ -4838,5 +4844,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "parents::처녀가 부모가 집에서 행복한 꿈을 꿈": "young woman marriage prosperity",
   "parents::부모가 창백하고 검은 옷을 입고 나타남": "pale black grave disappointments",
   "parents::부모가 건강하고 만족스러워 보임": "robust contented fortunate flourish",
-  "parents::부모가 편찮거나 슬퍼 보임": "indisposed sad passing recognition"
+  "parents::부모가 편찮거나 슬퍼 보임": "indisposed sad passing recognition",
+  "park::잘 가꾼 공원을 거님": "well-kept walking leisure",
+  "park::연인과 공원을 거님": "lover comfortably married",
+  "park::풀과 나무가 시든 공원을 봄": "ill-kept devoid reverses",
+  "parsley::파슬리를 봄": "hard-earned success lively",
+  "parsley::파슬리를 먹음": "eat good health family"
 };

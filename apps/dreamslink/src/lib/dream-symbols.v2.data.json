@@ -63,6 +63,7 @@
     "m152.json",
     "m153.json",
     "m154.json",
+    "m155.json",
     "m16.json",
     "m17.json",
     "m18.json",
@@ -33879,6 +33880,109 @@
       ]
     },
     {
+      "id": "parrot",
+      "term_ko": "앵무새",
+      "term_en": "parrot",
+      "aliases": [
+        "앵무",
+        "앵무새들"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "앵무새를 봄",
+          "interpretation_ko": "부인의 구설이 있을 조짐",
+          "interpretation_en": "a sign of gossip involving a woman",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "鸚鵡婦人主口舌",
+              "translation_ko": "앵무새와 부인은 구설의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "앵무새들이 재잘거림",
+          "interpretation_ko": "경박한 일과 벗들 사이의 뜬소문을 뜻하는 조짐",
+          "interpretation_en": "signifies frivolous employments and idle gossip among your friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parrot",
+              "original": "Parrots chattering in your dreams, signifies frivolous employments and idle gossip among your friends.",
+              "translation_ko": "앵무새들이 재잘거리는 꿈은, 경박한 일과 벗들 사이의 뜬소문을 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "가만히 있는 앵무새를 봄",
+          "interpretation_ko": "집안 다툼이 잠시 그칠 조짐",
+          "interpretation_en": "denotes a peaceful intermission of family broils",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parrot",
+              "original": "To see them in repose, denotes a peaceful intermission of family broils.",
+              "translation_ko": "가만히 있는 앵무새를 보는 꿈은, 집안 다툼이 잠시 그칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 앵무새를 가짐",
+          "interpretation_ko": "애인이 저를 다투기 좋아하는 사람으로 여길 조짐",
+          "interpretation_en": "denotes that her lover will believe her to be quarrelsome",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parrot",
+              "original": "For a young woman to dream that she owns a parrot, denotes that her lover will believe her to be quarrelsome.",
+              "translation_ko": "처녀가 앵무새를 갖는 꿈은, 애인이 저를 다투기 좋아하는 사람으로 여길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "앵무새를 가르침",
+          "interpretation_ko": "사사로운 일에 곤란을 겪을 조짐",
+          "interpretation_en": "you will have trouble in your private affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parrot",
+              "original": "To teach a parrot, you will have trouble in your private affairs.",
+              "translation_ko": "앵무새를 가르치는 꿈은, 사사로운 일에 곤란을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 앵무새를 봄",
+          "interpretation_ko": "사교의 벗을 잃을 조짐",
+          "interpretation_en": "foretells the loss of social friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parrot",
+              "original": "A dead parrot, foretells the loss of social friends.",
+              "translation_ko": "죽은 앵무새를 보는 꿈은, 사교의 벗을 잃을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rice",
       "term_ko": "쌀",
       "term_en": "rice",
@@ -66763,6 +66867,66 @@
       ]
     },
     {
+      "id": "park",
+      "term_ko": "공원",
+      "term_en": "park",
+      "aliases": [
+        "공원이",
+        "공원을"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "잘 가꾼 공원을 거님",
+          "interpretation_ko": "즐거운 여유를 누릴 조짐",
+          "interpretation_en": "denotes enjoyable leisure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Park",
+              "original": "To dream of walking through a well-kept park, denotes enjoyable leisure.",
+              "translation_ko": "잘 가꾼 공원을 거니는 꿈은, 즐거운 여유를 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "연인과 공원을 거님",
+          "interpretation_ko": "편안하고 행복하게 혼인할 조짐",
+          "interpretation_en": "you will be comfortably and happily married",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Park",
+              "original": "If you walk with your lover, you will be comfortably and happily married.",
+              "translation_ko": "연인과 공원을 거니는 꿈은, 편안하고 행복하게 혼인할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "풀과 나무가 시든 공원을 봄",
+          "interpretation_ko": "뜻밖의 역경이 닥칠 흉조",
+          "interpretation_en": "is ominous of unexpected reverses",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Park",
+              "original": "Ill-kept parks, devoid of green grasses and foliage, is ominous of unexpected reverses.",
+              "translation_ko": "풀과 나무가 시든 공원을 보는 꿈은, 뜻밖의 역경이 닥칠 흉조다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pavilion",
       "term_ko": "누각",
       "term_en": "pavilion",
@@ -89521,6 +89685,52 @@
       ]
     },
     {
+      "id": "parsley",
+      "term_ko": "파슬리",
+      "term_en": "parsley",
+      "aliases": [
+        "파슬리가",
+        "파슬리를"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "파슬리를 봄",
+          "interpretation_ko": "애써 얻은 성공을 이루고 건강하고 활기찬 환경에 있을 조짐",
+          "interpretation_en": "denotes hard-earned success, usually the surroundings of the dreamer are healthful and lively",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parsley",
+              "original": "To dream of parsley, denotes hard-earned success, usually the surroundings of the dreamer are healthful and lively.",
+              "translation_ko": "파슬리를 보는 꿈은, 애써 얻은 성공을 이루고 건강하고 활기찬 환경에 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "파슬리를 먹음",
+          "interpretation_ko": "건강할 조짐이나 대가족을 돌보는 몫을 지게 됨",
+          "interpretation_en": "is a sign of good health, but the care of a large family will be your portion",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parsley",
+              "original": "To eat parsley, is a sign of good health, but the care of a large family will be your portion.",
+              "translation_ko": "파슬리를 먹는 꿈은, 건강할 조짐이나 대가족을 돌보는 몫을 지게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "peacock",
       "term_ko": "공작",
       "term_en": "peacock",
@@ -101265,31 +101475,32 @@
       ]
     },
     {
-      "id": "parrot",
-      "term_ko": "앵무새",
-      "term_en": "parrot",
+      "id": "parsnip",
+      "term_ko": "파스닙",
+      "term_en": "parsnip",
       "aliases": [
-        "앵무"
+        "파스닙이",
+        "파스닙을"
       ],
-      "category": "animal",
-      "polarity": "negative",
+      "category": "object",
+      "polarity": "neutral",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "앵무새를 봄",
-          "interpretation_ko": "부인의 구설이 있을 조짐",
-          "interpretation_en": "a sign of gossip involving a woman",
-          "polarity": "negative",
+          "context": "파스닙을 보거나 먹음",
+          "interpretation_ko": "사업이나 거래는 순조로울 길조이나 애정은 어둡고 불리한 조짐",
+          "interpretation_en": "is a favorable omen of successful business or trade, but love will take on unfavorable and gloomy aspects",
+          "polarity": "neutral",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "鸚鵡婦人主口舌",
-              "translation_ko": "앵무새와 부인은 구설의 조짐이다"
+              "work": "miller",
+              "locator": "Parsnips",
+              "original": "To see or eat parsnips, is a favorable omen of successful business or trade, but love will take on unfavorable and gloomy aspects.",
+              "translation_ko": "파스닙을 보거나 먹는 꿈은, 사업이나 거래는 순조로울 길조이나 애정은 어둡고 불리한 조짐이다"
             }
           ]
         }
