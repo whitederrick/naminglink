@@ -1,0 +1,167 @@
+[
+  {
+    "term_ko": "코바늘뜨기",
+    "term_en": "crochet work",
+    "context": "여자가 뜨개질을 함",
+    "interpretation_ko": "조용하고 평안한 집안을 이루고 정다운 짝과 착한 아이들이 기쁨을 줄 길한 조짐",
+    "interpretation_en": "denotes that she will possess a quiet and peaceful home, where a loving companion and dutiful children delight to give pleasure",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Knitting",
+      "original": "For a woman to dream of knitting, denotes that she will possess a quiet and peaceful home, where a loving companion and dutiful children delight to give pleasure.",
+      "translation_ko": "여자가 뜨개질하는 꿈을 꾸면 조용하고 평안한 집안을 이루고 정다운 짝과 착한 아이들이 기쁨을 준다"
+    }
+  },
+  {
+    "term_ko": "코바늘뜨기",
+    "term_en": "crochet work",
+    "context": "남자가 뜨개질 공장에 있음",
+    "interpretation_ko": "알뜰함과 앞날의 든든한 오름을 가리키는 길한 조짐",
+    "interpretation_en": "indicates thrift and a solid rise in prospects",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Knitting",
+      "original": "For a man to be in a kniting-mill, indicates thrift and a solid rise in prospects.",
+      "translation_ko": "남자가 뜨개질 공장에 있으면 알뜰함과 앞날의 든든한 오름을 가리킨다"
+    }
+  },
+  {
+    "term_ko": "코바늘뜨기",
+    "term_en": "crochet work",
+    "context": "처녀가 뜨개질을 함",
+    "interpretation_ko": "서두르나 좋게 풀릴 혼인의 조짐",
+    "interpretation_en": "is an omen of a hasty but propitious marriage",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Knitting",
+      "original": "For a young woman to dream of knitting, is an omen of a hasty but propitious marriage.",
+      "translation_ko": "젊은 여성이 뜨개질하는 꿈은 서두르나 좋게 풀릴 혼인의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "코바늘뜨기",
+    "term_en": "crochet work",
+    "context": "처녀가 뜨개질 공장에서 일함",
+    "interpretation_ko": "미덥고 한결같은 정인을 만날 길한 조짐",
+    "interpretation_en": "denotes that she will have a worthy and loyal lover",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Knitting",
+      "original": "For a young woman to dream that she works in a knitting-mill, denotes that she will have a worthy and loyal lover.",
+      "translation_ko": "젊은 여성이 뜨개질 공장에서 일하는 꿈을 꾸면 미덥고 한결같은 정인을 만난다"
+    }
+  },
+  {
+    "term_ko": "코바늘뜨기",
+    "term_en": "crochet work",
+    "context": "일하던 공장이 허물어져 있음",
+    "interpretation_ko": "재물과 사랑에서 뒤집히는 일을 겪을 흉한 조짐",
+    "interpretation_en": "she will meet with reverses in fortune and love",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Knitting",
+      "original": "To see the mill in which she works dilapidated, she will meet with reverses in fortune and love.",
+      "translation_ko": "일하던 공장이 허물어진 것을 보면 재물과 사랑에서 뒤집히는 일을 겪는다"
+    }
+  },
+  {
+    "term_ko": "문고리",
+    "term_en": "knocker",
+    "context": "문고리를 두드림",
+    "interpretation_ko": "남에게 도움과 조언을 청할 수밖에 없게 될 조짐",
+    "interpretation_en": "foretells you will be forced to ask aid and counsel of others",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Knocker",
+      "original": "To dream of using a knocker, foretells you will be forced to ask aid and counsel of others.",
+      "translation_ko": "문고리를 두드리는 꿈을 꾸면 남에게 도움과 조언을 청할 수밖에 없게 된다"
+    }
+  },
+  {
+    "term_ko": "노크 소리",
+    "term_en": "knocking",
+    "context": "두드리는 소리를 들음",
+    "interpretation_ko": "머지않아 무거운 기별을 받을 흉한 조짐",
+    "interpretation_en": "denotes that tidings of a grave nature will soon be received by you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Knocking",
+      "original": "To hear knocking in your dreams, denotes that tidings of a grave nature will soon be received by you.",
+      "translation_ko": "꿈에 두드리는 소리를 들으면 머지않아 무거운 기별을 받는다"
+    }
+  },
+  {
+    "term_ko": "노크 소리",
+    "term_en": "knocking",
+    "context": "두드리는 소리에 잠이 깸",
+    "interpretation_ko": "그 기별이 더욱 무겁게 다가올 흉한 조짐",
+    "interpretation_en": "the news will affect you the more seriously",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Knocking",
+      "original": "If you are awakened by the knocking, the news will affect you the more seriously.",
+      "translation_ko": "그 소리에 잠이 깨면 그 기별이 더욱 무겁게 다가온다"
+    }
+  },
+  {
+    "term_ko": "매듭",
+    "term_en": "knot",
+    "context": "매듭을 봄",
+    "interpretation_ko": "아주 하찮은 일로 크게 속을 태울 흉한 조짐",
+    "interpretation_en": "denotes much worry over the most trifling affairs",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Knots",
+      "original": "To dream of seeing knots, denotes much worry over the most trifling affairs.",
+      "translation_ko": "매듭을 보는 꿈은 아주 하찮은 일로 크게 속을 태움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "매듭",
+    "term_en": "knot",
+    "context": "매듭을 묶음",
+    "interpretation_ko": "홀로 서는 성품을 지녀 짓궂은 정인이나 벗의 잔소리를 물리칠 길한 조짐",
+    "interpretation_en": "signifies an independent nature, and you will refuse to be nagged by ill-disposed lover or friend",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Knots",
+      "original": "To tie a knot, signifies an independent nature, and you will refuse to be nagged by ill-disposed lover or friend.",
+      "translation_ko": "매듭을 묶으면 홀로 서는 성품을 지녀 짓궂은 정인이나 벗의 잔소리를 물리친다"
+    }
+  },
+  {
+    "term_ko": "크리슈나",
+    "term_en": "Krishna",
+    "context": "크리슈나를 봄",
+    "interpretation_ko": "숨은 앎을 좇는 데서 가장 큰 기쁨을 얻고, 벗의 비웃음을 견디며 삶과 슬픔을 넉넉히 바라보게 될 길한 조짐",
+    "interpretation_en": "denotes that your greatest joy will be in pursuit of occult knowledge, and you will school yourself to the taunts of friends, and cultivate a philosophical bearing toward life and sorrow",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Krishna",
+      "original": "To see Krishna in your dreams, denotes that your greatest joy will be in pursuit of occult knowledge, and you will school yourself to the taunts of friends, and cultivate a philosophical bearing toward life and sorrow.",
+      "translation_ko": "꿈에 크리슈나를 보면 숨은 앎을 좇는 데서 가장 큰 기쁨을 얻고, 벗의 비웃음을 견디며 삶과 슬픔을 넉넉히 바라보게 된다"
+    }
+  }
+]

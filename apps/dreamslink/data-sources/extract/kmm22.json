@@ -197,14 +197,31 @@
     "aliases": [
       "뜨개질",
       "코바늘",
-      "코바늘로 떴다"
+      "코바늘로 떴다",
+      "뜨개질을",
+      "뜨개질하",
+      "뜨개질 공장"
     ],
     "aliases_en": [
       "crocheting",
       "crochet"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "코바늘뜨기를 함": "코바늘",
+      "여자가 뜨개질을 함": "여자가 여인이",
+      "남자가 뜨개질 공장에 있음": "남자가 사내가",
+      "처녀가 뜨개질을 함": "처녀 아가씨",
+      "처녀가 뜨개질 공장에서 일함": "공장에서 일했 일하고",
+      "일하던 공장이 허물어져 있음": "허물어 무너져 낡아"
+    },
+    "contexts_en": {
+      "코바늘뜨기를 함": "hook needle",
+      "여자가 뜨개질을 함": "quiet peaceful home dutiful delight",
+      "남자가 뜨개질 공장에 있음": "man thrift solid rise prospects",
+      "처녀가 뜨개질을 함": "hasty propitious",
+      "처녀가 뜨개질 공장에서 일함": "works worthy loyal",
+      "일하던 공장이 허물어져 있음": "dilapidated reverses"
+    }
   },
   {
     "id": "crockery",

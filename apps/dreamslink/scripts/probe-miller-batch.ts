@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 78 — Knee~Knife Grinder, 17건)
+// (지금 담긴 것: 배치 79 — Knitting~Krishna, 12건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,25 +30,20 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "knee", ctx: "무릎 꿈을 꿈", text: "무릎이 나오는 언짢은 꿈자리였다" },
-  { id: "knee", ctx: "무릎이 너무 큼", text: "무릎이 너무 커다랬다" },
-  { id: "knee", ctx: "무릎이 뻣뻣하고 아픔", text: "무릎이 뻣뻣하고 아팠다" },
-  { id: "knee", ctx: "무릎이 곱고 매끈함", text: "무릎이 곱고 매끈했다" },
-  { id: "knee", ctx: "무릎이 더러움", text: "무릎이 더러웠다" },
-  { id: "knee", ctx: "무릎이 볼품없음", text: "무릎이 볼품없었다" },
-  { id: "sword", ctx: "칼을 봄", text: "칼 때문에 헤어짐과 다툼이 있었다" },
-  { id: "sword", ctx: "녹슨 칼을 봄", text: "녹슨 칼을 보았다" },
-  { id: "sword", ctx: "시퍼렇게 잘 벼린 칼을 봄", text: "시퍼렇게 번쩍이는 칼을 보았다" },
-  { id: "sword", ctx: "동강 난 칼을 봄", text: "동강 난 칼을 보았다" },
-  { id: "knife-grinder", ctx: "칼갈이를 봄", text: "칼갈이를 보았다" },
-  { id: "knife-grinder", ctx: "여자가 칼갈이 꿈을 꿈", text: "여자가 칼갈이 꿈을 꾸었다" },
+  { id: "crochet-work", ctx: "여자가 뜨개질을 함", text: "여자가 뜨개질을 하고 있었다" },
+  { id: "crochet-work", ctx: "남자가 뜨개질 공장에 있음", text: "남자가 뜨개질 공장에 있었다" },
+  { id: "crochet-work", ctx: "처녀가 뜨개질을 함", text: "처녀가 뜨개질을 하고 있었다" },
+  { id: "crochet-work", ctx: "처녀가 뜨개질 공장에서 일함", text: "처녀가 뜨개질 공장에서 일하고 있었다" },
+  { id: "crochet-work", ctx: "일하던 공장이 허물어져 있음", text: "뜨개질 공장이 허물어져 있었다" },
+  { id: "knocker", ctx: "문고리를 두드림", text: "문고리를 두드렸다" },
+  { id: "knocking", ctx: "두드리는 소리를 들음", text: "두드리는 소리가 들렸다" },
+  { id: "knocking", ctx: "두드리는 소리에 잠이 깸", text: "노크 소리에 잠에서 깨어났다" },
+  { id: "knot", ctx: "매듭을 봄", text: "매듭을 보았다" },
+  { id: "knot", ctx: "매듭을 묶음", text: "매듭을 묶었다" },
+  { id: "krishna", ctx: "크리슈나를 봄", text: "크리슈나를 보았다" },
 
-  // 이 배치가 판별어를 더한 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "sword", ctx: "칼을 잃어버림", text: "칼을 잃어버렸다" },
-  { id: "sword", ctx: "부러진 칼로 남을 찌름", text: "부러진 칼로 남을 찔렀다" },
-  { id: "sword", ctx: "칼을 갈아 날이 날카로워짐", text: "숫돌에 칼을 갈아 날카롭게 했다" },
-  { id: "sword", ctx: "칼에 스스로 다침", text: "칼에 손을 다쳤다" },
-  { id: "sword", ctx: "깃발과 칼이 산속으로 이끌어 들임", text: "깃발과 칼이 산속으로 이끌었다" },
+  // 이 배치가 판별어 표를 채운 상징 — **옛 답이 그대로인가**를 함께 잰다.
+  { id: "crochet-work", ctx: "코바늘뜨기를 함", text: "코바늘로 떴다" },
 ];
 
 let notFound = 0;

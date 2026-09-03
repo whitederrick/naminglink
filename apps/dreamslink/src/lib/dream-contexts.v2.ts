@@ -2879,6 +2879,12 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "cries::살붙이나 벗이 도와 달라 외치는 소리를 들음": "help relatives friends",
   "criminal::죄를 지은 이와 어울림": "associating harassed unscrupulous",
   "criminal::범죄자가 법망을 피해 달아나는 것을 봄": "fleeing justice secrets",
+  "crochet-work::코바늘뜨기를 함": "hook needle",
+  "crochet-work::여자가 뜨개질을 함": "quiet peaceful home dutiful delight",
+  "crochet-work::남자가 뜨개질 공장에 있음": "man thrift solid rise prospects",
+  "crochet-work::처녀가 뜨개질을 함": "hasty propitious",
+  "crochet-work::처녀가 뜨개질 공장에서 일함": "works worthy loyal",
+  "crochet-work::일하던 공장이 허물어져 있음": "dilapidated reverses",
   "crockery::깨끗한 사기그릇이 넉넉히 있음": "abundance clean housekeeper",
   "crockery::장사하는 이가 사기그릇 가게에 있음": "merchant details profit",
   "crockery::젊은 여성이 사기그릇 가게 꿈을 꿈": "young woman sturdy",
@@ -3841,5 +3847,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "knee::무릎이 더러움": "soiled dissipation portended",
   "knee::무릎이 볼품없음": "unshapely displace ardent hopes",
   "knife-grinder::칼갈이를 봄": "unwarrantable liberties possessions",
-  "knife-grinder::여자가 칼갈이 꿈을 꿈": "woman omens unhappy unions drudgery"
+  "knife-grinder::여자가 칼갈이 꿈을 꿈": "woman omens unhappy unions drudgery",
+  "knocking::두드리는 소리를 들음": "hear tidings grave nature received",
+  "knocking::두드리는 소리에 잠이 깸": "awakened news affect seriously",
+  "knot::매듭을 봄": "seeing worry trifling affairs",
+  "knot::매듭을 묶음": "tie independent nature refuse nagged"
 };

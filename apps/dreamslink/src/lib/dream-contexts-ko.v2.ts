@@ -2883,6 +2883,12 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "cries::살붙이나 벗이 도와 달라 외치는 소리를 들음": "도와 살려 가족",
   "criminal::죄를 지은 이와 어울림": "어울 함께 사귀",
   "criminal::범죄자가 법망을 피해 달아나는 것을 봄": "달아나 도망 쫓기",
+  "crochet-work::코바늘뜨기를 함": "코바늘",
+  "crochet-work::여자가 뜨개질을 함": "여자가 여인이",
+  "crochet-work::남자가 뜨개질 공장에 있음": "남자가 사내가",
+  "crochet-work::처녀가 뜨개질을 함": "처녀 아가씨",
+  "crochet-work::처녀가 뜨개질 공장에서 일함": "공장에서 일했 일하고",
+  "crochet-work::일하던 공장이 허물어져 있음": "허물어 무너져 낡아",
   "crockery::깨끗한 사기그릇이 넉넉히 있음": "깨끗 넉넉 많이",
   "crockery::장사하는 이가 사기그릇 가게에 있음": "장사 상인 가게에",
   "crockery::젊은 여성이 사기그릇 가게 꿈을 꿈": "여자 여성 처녀",
@@ -3845,5 +3851,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "knee::무릎이 더러움": "더러 때가 지저분",
   "knee::무릎이 볼품없음": "볼품없 흉하게 못생",
   "knife-grinder::칼갈이를 봄": "보았다 보였다",
-  "knife-grinder::여자가 칼갈이 꿈을 꿈": "여자가 여성이"
+  "knife-grinder::여자가 칼갈이 꿈을 꿈": "여자가 여성이",
+  "knocking::두드리는 소리를 들음": "들었 들려 들리",
+  "knocking::두드리는 소리에 잠이 깸": "잠에서 깨어났 눈이 떠졌",
+  "knot::매듭을 봄": "보았다 보였다",
+  "knot::매듭을 묶음": "묶었 매었 지었다"
 };

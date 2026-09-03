@@ -1,0 +1,67 @@
+[
+  {
+    "id": "knocker",
+    "aliases": [
+      "문고리가",
+      "문고리를",
+      "쇠고리"
+    ],
+    "aliases_en": [
+      "a knocker"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "knocking",
+    "aliases": [
+      "노크",
+      "문 두드리는 소리",
+      "두드리는 소리",
+      "두드리는 소리에"
+    ],
+    "aliases_en": [
+      "knocking"
+    ],
+    "contexts": {
+      "두드리는 소리를 들음": "들었 들려 들리",
+      "두드리는 소리에 잠이 깸": "잠에서 깨어났 눈이 떠졌"
+    },
+    "contexts_en": {
+      "두드리는 소리를 들음": "hear tidings grave nature received",
+      "두드리는 소리에 잠이 깸": "awakened news affect seriously"
+    }
+  },
+  {
+    "id": "knot",
+    "aliases": [
+      "매듭이",
+      "매듭을",
+      "옭매듭"
+    ],
+    "aliases_en": [
+      "knots",
+      "a knot"
+    ],
+    "contexts": {
+      "매듭을 봄": "보았다 보였다",
+      "매듭을 묶음": "묶었 매었 지었다"
+    },
+    "contexts_en": {
+      "매듭을 봄": "seeing worry trifling affairs",
+      "매듭을 묶음": "tie independent nature refuse nagged"
+    }
+  },
+  {
+    "id": "krishna",
+    "aliases": [
+      "크리슈나가",
+      "크리슈나를"
+    ],
+    "aliases_en": [
+      "Krishna"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]
