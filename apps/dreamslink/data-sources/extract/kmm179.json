@@ -1,0 +1,69 @@
+[
+  {
+    "id": "pincers",
+    "aliases": [
+      "펜치",
+      "집게가",
+      "집게를"
+    ],
+    "aliases_en": [
+      "pincer",
+      "tongs"
+    ],
+    "contexts": {
+      "제 살에 집게가 닿음": "살에 닿는 느꼈",
+      "집게 꿈을 꿈": "언뜻"
+    },
+    "contexts_en": {
+      "제 살에 집게가 닿음": "feeling flesh",
+      "집게 꿈을 꿈": "glimpsed"
+    }
+  },
+  {
+    "id": "pineapple",
+    "aliases": [
+      "파인애플이",
+      "파인애플을"
+    ],
+    "aliases_en": [
+      "pineapples"
+    ],
+    "contexts": {
+      "파인애플 꿈을 꿈": "탐스러운",
+      "파인애플을 준비하다 손가락을 찔림": "찔렸 찌른 준비하다"
+    },
+    "contexts_en": {
+      "파인애플 꿈을 꿈": "tempting",
+      "파인애플을 준비하다 손가락을 찔림": "prick fingers preparing"
+    }
+  },
+  {
+    "id": "pins",
+    "aliases": [
+      "핀을",
+      "핀이",
+      "옷핀을",
+      "옷핀이"
+    ],
+    "aliases_en": [
+      "pin",
+      "a pin"
+    ],
+    "contexts": {
+      "옷핀 꿈을 꿈": "반짝이는",
+      "처녀가 옷핀 꿈을 꿈": "처녀가 연인에게",
+      "옷핀을 삼킴": "삼켰 삼키는",
+      "옷핀을 잃어버림": "잃어버렸 잃어버린",
+      "휘거나 녹슨 옷핀을 봄": "휘었 녹슨",
+      "제 살에 옷핀을 찔러 넣음": "찔러 넣었 꽂았"
+    },
+    "contexts_en": {
+      "옷핀 꿈을 꿈": "shiny",
+      "처녀가 옷핀 꿈을 꿈": "young woman lover unladylike",
+      "옷핀을 삼킴": "swallowing swallowed",
+      "옷핀을 잃어버림": "lose losing petty",
+      "휘거나 녹슨 옷핀을 봄": "bent rusty",
+      "제 살에 옷핀을 찔러 넣음": "stick flesh irritate"
+    }
+  }
+]

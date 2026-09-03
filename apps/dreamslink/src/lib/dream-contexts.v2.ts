@@ -1663,6 +1663,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pine-tree::소나무가 배 위에 자람": "boat ship deck",
   "pine-tree::집 안에 소나무가 자람": "house indoors inside",
   "pine-tree::지붕 위에 소나무와 잣나무가 자람": "roof cypress rooftop",
+  "pine-tree::소나무를 봄": "towering",
+  "pine-tree::여성이 죽은 소나무를 봄": "dead woman bereavement",
   "vessel::그릇에 보석을 박아 꾸밈": "jewel gems inlaid decorated ornamented",
   "vessel::그릇이 우물에 떨어짐": "well fell dropped",
   "vessel::부뚜막 아래에서 그릇이 울림": "stove hearth rang sound noise",
@@ -5033,5 +5035,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pill::남에게 알약을 줌": "give others criticised",
   "pimple::제 살갗에 여드름이 가득함": "flesh full trifles",
   "pimple::남에게 여드름이 난 것을 봄": "others troubled illness",
-  "pimple::여성이 여드름으로 미모가 상함": "beauty marred criticised"
+  "pimple::여성이 여드름으로 미모가 상함": "beauty marred criticised",
+  "pincers::제 살에 집게가 닿음": "feeling flesh",
+  "pincers::집게 꿈을 꿈": "glimpsed",
+  "pineapple::파인애플 꿈을 꿈": "tempting",
+  "pineapple::파인애플을 준비하다 손가락을 찔림": "prick fingers preparing",
+  "pins::옷핀 꿈을 꿈": "shiny",
+  "pins::처녀가 옷핀 꿈을 꿈": "young woman lover unladylike",
+  "pins::옷핀을 삼킴": "swallowing swallowed",
+  "pins::옷핀을 잃어버림": "lose losing petty",
+  "pins::휘거나 녹슨 옷핀을 봄": "bent rusty",
+  "pins::제 살에 옷핀을 찔러 넣음": "stick flesh irritate"
 };

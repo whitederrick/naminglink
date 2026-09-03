@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "소나무",
+    "term_en": "pine tree",
+    "context": "소나무를 봄",
+    "interpretation_ko": "어떤 일을 하든 한결같이 성공할 조짐",
+    "interpretation_en": "foretells unvarying success in any undertaking",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Pine Tree",
+      "original": "To see a pine tree in a dream, foretells unvarying success in any undertaking.",
+      "translation_ko": "소나무를 보는 꿈은, 어떤 일을 하든 한결같이 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "소나무",
+    "term_en": "pine tree",
+    "context": "여성이 죽은 소나무를 봄",
+    "interpretation_ko": "사별과 근심을 겪을 조짐",
+    "interpretation_en": "represents bereavement and cares",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Pine Tree",
+      "original": "Dead pine, for a woman, represents bereavement and cares.",
+      "translation_ko": "여성이 죽은 소나무를 보는 꿈은, 사별과 근심을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "집게",
+    "term_en": "pincers",
+    "context": "제 살에 집게가 닿음",
+    "interpretation_ko": "성가신 근심에 시달릴 조짐",
+    "interpretation_en": "denotes that you will be burdened with exasperating cares",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Pincers",
+      "original": "To dream of feeling pincers on your flesh, denotes that you will be burdened with exasperating cares.",
+      "translation_ko": "제 살에 집게가 닿는 것을 느끼는 꿈은, 성가신 근심에 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "집게",
+    "term_en": "pincers",
+    "context": "집게 꿈을 꿈",
+    "interpretation_ko": "불운한 일이 생길 조짐",
+    "interpretation_en": "signifies unfortunate incidents",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pincers",
+      "original": "Any dream of pincers, signifies unfortunate incidents.",
+      "translation_ko": "집게가 나오는 꿈은 무엇이든, 불운한 일이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "파인애플",
+    "term_en": "pineapple",
+    "context": "파인애플 꿈을 꿈",
+    "interpretation_ko": "매우 상서로운 조짐. 파인애플을 따거나 먹으면 머지않아 성공이 따를 것",
+    "interpretation_en": "is exceedingly propitious. Success will follow in the near future, if you gather pineapples or eat them",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pineapple",
+      "original": "To dream of pineapples, is exceedingly propitious. Success will follow in the near future, if you gather pineapples or eat them.",
+      "translation_ko": "파인애플 꿈은, 매우 상서로운 조짐이다. 파인애플을 따거나 먹으면 머지않아 성공이 따를 것이다"
+    }
+  },
+  {
+    "term_ko": "파인애플",
+    "term_en": "pineapple",
+    "context": "파인애플을 준비하다 손가락을 찔림",
+    "interpretation_ko": "여러 일로 상당한 애를 먹지만 끝내는 기쁨과 성공을 가져올 조짐",
+    "interpretation_en": "you will experience considerable vexation over matters which will finally bring pleasure and success",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pineapple",
+      "original": "To dream that you prick your fingers while preparing a pineapple for the table, you will experience considerable vexation over matters which will finally bring pleasure and success.",
+      "translation_ko": "식탁에 낼 파인애플을 준비하다 손가락을 찔리는 꿈은, 여러 일로 상당한 애를 먹지만 끝내는 기쁨과 성공을 가져올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "옷핀",
+    "term_en": "pins",
+    "context": "옷핀 꿈을 꿈",
+    "interpretation_ko": "가정 안에 다툼과 불화가 생길 조짐",
+    "interpretation_en": "augurs differences and quarrels in families",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pins",
+      "original": "To dream of pins, augurs differences and quarrels ill families.",
+      "translation_ko": "옷핀 꿈은, 가정 안에 다툼과 불화가 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "옷핀",
+    "term_en": "pins",
+    "context": "처녀가 옷핀 꿈을 꿈",
+    "interpretation_ko": "연인에게 경솔한 행동을 할 것이라는 경고",
+    "interpretation_en": "warn her of unladylike conduct towards her lover",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pins",
+      "original": "To a young woman, they warn her of unladylike conduct towards her lover.",
+      "translation_ko": "처녀가 옷핀 꿈을 꾸면, 연인에게 경솔한 행동을 할 것이라는 경고다"
+    }
+  },
+  {
+    "term_ko": "옷핀",
+    "term_en": "pins",
+    "context": "옷핀을 삼킴",
+    "interpretation_ko": "사고로 위태로운 처지에 몰릴 조짐",
+    "interpretation_en": "denotes that accidents will force you into perilous conditions",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pins",
+      "original": "To dream of swallowing a pin, denotes that accidents will force you into perilous conditions.",
+      "translation_ko": "옷핀을 삼키는 꿈은, 사고로 위태로운 처지에 몰릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "옷핀",
+    "term_en": "pins",
+    "context": "옷핀을 잃어버림",
+    "interpretation_ko": "자잘한 손실이나 다툼을 뜻함",
+    "interpretation_en": "implies a petty loss or disagreement",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pins",
+      "original": "To lose one, implies a petty loss or disagreement.",
+      "translation_ko": "옷핀을 잃어버리는 꿈은, 자잘한 손실이나 다툼을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "옷핀",
+    "term_en": "pins",
+    "context": "휘거나 녹슨 옷핀을 봄",
+    "interpretation_ko": "부주의한 처신으로 신망을 잃을 조짐",
+    "interpretation_en": "signifies that you will lose esteem because of your careless ways",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pins",
+      "original": "To see a bent or rusty pin, signifies that you will lose esteem because of your careless ways.",
+      "translation_ko": "휘거나 녹슨 옷핀을 보는 꿈은, 부주의한 처신으로 신망을 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "옷핀",
+    "term_en": "pins",
+    "context": "제 살에 옷핀을 찔러 넣음",
+    "interpretation_ko": "누군가가 저를 성가시게 할 조짐",
+    "interpretation_en": "denotes that some person will irritate you",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Pins",
+      "original": "To stick one into your flesh, denotes that some person will irritate you.",
+      "translation_ko": "제 살에 옷핀을 찔러 넣는 꿈은, 누군가가 저를 성가시게 할 조짐이다"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "batch": 179,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pincers",
+      "text": "To dream of feeling pincers on your flesh, denotes that you will be burdened with exasperating cares. Any dream of pincers, signifies unfortunate incidents.",
+      "note": "새 상징 `pincers`(집게)"
+    },
+    {
+      "headword": "Pineapple",
+      "text": "To dream of pineapples, is exceedingly propitious. Success will follow in the near future, if you gather pineapples or eat them. To dream that you prick your fingers while preparing a pineapple for the table, you will experience considerable vexation over matters which will finally bring pleasure and success.",
+      "note": "새 상징 `pineapple`(파인애플)"
+    },
+    {
+      "headword": "Pine Tree",
+      "text": "To see a pine tree in a dream, foretells unvarying success in any undertaking. Dead pine, for a woman, represents bereavement and cares.",
+      "note": "기존 상징 `pine-tree`(소나무, 주공해몽)에 둘을 더한다"
+    },
+    {
+      "headword": "Pins",
+      "text": "To dream of pins, augurs differences and quarrels ill families. To a young woman, they warn her of unladylike conduct towards her lover. To dream of swallowing a pin, denotes that accidents will force you into perilous conditions. To lose one, implies a petty loss or disagreement. To see a bent or rusty pin, signifies that you will lose esteem because of your careless ways. To stick one into your flesh, denotes that some person will irritate you.",
+      "note": "새 상징 `pins`(옷핀). 원문의 「quarrels ill families」는 1901년판의 오식(「in families」의 뜻)이나 인용은 원문 그대로 옮긴다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

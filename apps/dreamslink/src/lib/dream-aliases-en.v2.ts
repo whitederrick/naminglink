@@ -1139,8 +1139,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "needle": [
     "needles",
-    "sewing needle",
-    "pin"
+    "sewing needle"
   ],
   "pardon": [
     "amnesty",
@@ -6802,5 +6801,16 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "pimple": [
     "pimples"
+  ],
+  "pincers": [
+    "pincer",
+    "tongs"
+  ],
+  "pineapple": [
+    "pineapples"
+  ],
+  "pins": [
+    "pin",
+    "a pin"
   ]
 };
