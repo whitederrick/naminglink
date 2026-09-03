@@ -1,0 +1,51 @@
+[
+  {
+    "id": "kiss",
+    "aliases": [
+      "뽀뽀",
+      "키스",
+      "입을 맞췄다",
+      "입을 맞추다",
+      "입 맞추다",
+      "입을 맞추는",
+      "입 맞추는",
+      "입맞추",
+      "입을 맞춘",
+      "입 맞춘"
+    ],
+    "aliases_en": [
+      "kissing",
+      "kissed"
+    ],
+    "contexts": {
+      "아이들이 입 맞추는 것을 봄": "아이들 어린이",
+      "어머니에게 입을 맞춤": "어머니 어머님 엄마",
+      "형제자매에게 입을 맞춤": "형제 자매 누이 오라비",
+      "어두운 데서 정인에게 입을 맞춤": "어두운 어둠 캄캄",
+      "밝은 데서 정인에게 입을 맞춤": "밝은 환한 대낮",
+      "낯선 여자에게 입을 맞춤": "낯선 모르는 여자에게",
+      "떳떳하지 못하게 몰래 입을 맞춤": "떳떳하지 남몰래 몰래",
+      "맞수가 제 정인에게 입 맞추는 것을 봄": "맞수 연적 라이벌",
+      "부부가 서로 입을 맞춤": "부부 내외가 서로",
+      "목에 입을 맞춤": "목에 목덜미",
+      "적에게 입을 맞춤": "적에게 원수에게",
+      "정인에게 입 맞추는 것을 남에게 들킴": "들켰 들키 남이 보는",
+      "정인이 다른 이에게 입 맞추는 것을 봄": "정인이 애인이 다른 이에게"
+    },
+    "contexts_en": {
+      "아이들이 입 맞추는 것을 봄": "children reunions families satisfactory",
+      "어머니에게 입을 맞춤": "mother enterprises honored beloved",
+      "형제자매에게 입을 맞춤": "brother sister association",
+      "어두운 데서 정인에게 입을 맞춤": "dark dangers immoral engagements",
+      "밝은 데서 정인에게 입을 맞춤": "light honorable intentions occupy connection",
+      "낯선 여자에게 입을 맞춤": "strange loose morals perverted integrity",
+      "떳떳하지 못하게 몰래 입을 맞춤": "illicitly dangerous indulgence tragedy",
+      "맞수가 제 정인에게 입 맞추는 것을 봄": "rival esteem losing",
+      "부부가 서로 입을 맞춤": "married harmony prized",
+      "목에 입을 맞춤": "neck passionate inclinations mastery",
+      "적에게 입을 맞춤": "enemy advance reconciliation angry",
+      "정인에게 입 맞추는 것을 남에게 들킴": "spiteful envy entertained false",
+      "정인이 다른 이에게 입 맞추는 것을 봄": "another disappointed hopes marriage"
+    }
+  }
+]

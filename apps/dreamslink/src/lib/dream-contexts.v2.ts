@@ -3802,5 +3802,18 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "kidneys::제 콩팥 꿈을 꿈": "serious illness marriage relations",
   "kidneys::콩팥이 너무 세게 움직임": "freely party racy intrigue",
   "kidneys::콩팥이 제 일을 하지 않음": "refuse perform sensation detriment",
-  "kidneys::콩팥 곰국을 먹음": "eat stew officious disgust secret"
+  "kidneys::콩팥 곰국을 먹음": "eat stew officious disgust secret",
+  "kiss::아이들이 입 맞추는 것을 봄": "children reunions families satisfactory",
+  "kiss::어머니에게 입을 맞춤": "mother enterprises honored beloved",
+  "kiss::형제자매에게 입을 맞춤": "brother sister association",
+  "kiss::어두운 데서 정인에게 입을 맞춤": "dark dangers immoral engagements",
+  "kiss::밝은 데서 정인에게 입을 맞춤": "light honorable intentions occupy connection",
+  "kiss::낯선 여자에게 입을 맞춤": "strange loose morals perverted integrity",
+  "kiss::떳떳하지 못하게 몰래 입을 맞춤": "illicitly dangerous indulgence tragedy",
+  "kiss::맞수가 제 정인에게 입 맞추는 것을 봄": "rival esteem losing",
+  "kiss::부부가 서로 입을 맞춤": "married harmony prized",
+  "kiss::목에 입을 맞춤": "neck passionate inclinations mastery",
+  "kiss::적에게 입을 맞춤": "enemy advance reconciliation angry",
+  "kiss::정인에게 입 맞추는 것을 남에게 들킴": "spiteful envy entertained false",
+  "kiss::정인이 다른 이에게 입 맞추는 것을 봄": "another disappointed hopes marriage"
 };

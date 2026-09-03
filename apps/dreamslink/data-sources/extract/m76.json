@@ -1,0 +1,197 @@
+[
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "아이들이 입 맞추는 것을 봄",
+    "interpretation_ko": "집안이 즐겁게 다시 모이고 하는 일이 흡족할 길한 조짐",
+    "interpretation_en": "denotes happy reunions in families and satisfactory work",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "To dream that you see children kissing, denotes happy reunions in families and satisfactory work.",
+      "translation_ko": "아이들이 입 맞추는 것을 보는 꿈은 집안의 즐거운 재회와 흡족한 일을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "어머니에게 입을 맞춤",
+    "interpretation_ko": "벌인 일이 크게 잘되고 벗에게 높이 여겨지고 사랑받을 길한 조짐",
+    "interpretation_en": "you will be very successful in your enterprises, and be honored and beloved by your friends",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "To dream that you kiss your mother, you will be very successful in your enterprises, and be honored and beloved by your friends.",
+      "translation_ko": "어머니에게 입 맞추는 꿈을 꾸면 벌인 일이 크게 잘되고 벗에게 높이 여겨지고 사랑받는다"
+    }
+  },
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "형제자매에게 입을 맞춤",
+    "interpretation_ko": "함께 지내는 데서 큰 즐거움과 좋은 것이 있을 길한 조짐",
+    "interpretation_en": "denotes much pleasure and good in your association",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "To kiss a brother or sister, denotes much pleasure and good in your association.",
+      "translation_ko": "형제나 자매에게 입 맞추면 함께 지내는 데서 큰 즐거움과 좋은 것이 있다"
+    }
+  },
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "어두운 데서 정인에게 입을 맞춤",
+    "interpretation_ko": "위태로운 일과 떳떳하지 못한 관계가 있을 흉한 조짐",
+    "interpretation_en": "denotes dangers and immoral engagements",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "To kiss your sweetheart in the dark, denotes dangers and immoral engagements.",
+      "translation_ko": "어두운 데서 정인에게 입 맞추면 위태로운 일과 떳떳하지 못한 관계가 있다"
+    }
+  },
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "밝은 데서 정인에게 입을 맞춤",
+    "interpretation_ko": "여자를 대하는 마음이 늘 떳떳할 길한 조짐",
+    "interpretation_en": "signifies honorable intentions occupy your mind always in connection with women",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "To kiss her in the light, signifies honorable intentions occupy your mind always in connection with women.",
+      "translation_ko": "밝은 데서 그에게 입 맞추면 여자를 대하는 마음이 늘 떳떳하다"
+    }
+  },
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "낯선 여자에게 입을 맞춤",
+    "interpretation_ko": "몸가짐이 헤퍼지고 곧음이 비뚤어질 흉한 조짐",
+    "interpretation_en": "denotes loose morals and perverted integrity",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "To kiss a strange woman, denotes loose morals and perverted integrity.",
+      "translation_ko": "낯선 여자에게 입 맞추면 몸가짐이 헤퍼지고 곧음이 비뚤어진다"
+    }
+  },
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "떳떳하지 못하게 몰래 입을 맞춤",
+    "interpretation_ko": "위태로운 노릇에 빠지고 낮은 욕심이 반듯하던 집안에 비극을 불러올 흉한 조짐",
+    "interpretation_en": "denotes dangerous past-times; the indulgence of a low passion may bring a tragedy into well-thought-of homes",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "To dream of kissing illicitly, denotes dangerous past-times.",
+      "translation_ko": "떳떳하지 못하게 입 맞추는 꿈은 위태로운 노릇을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "맞수가 제 정인에게 입 맞추는 것을 봄",
+    "interpretation_ko": "그의 마음을 잃을 위태로움이 있는 흉한 조짐",
+    "interpretation_en": "you are in danger of losing her esteem",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "To see your rival kiss your sweetheart, you are in danger of losing her esteem.",
+      "translation_ko": "맞수가 제 정인에게 입 맞추는 것을 보면 그의 마음을 잃을 위태로움이 있다"
+    }
+  },
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "부부가 서로 입을 맞춤",
+    "interpretation_ko": "집안 살림에 화목이 귀히 여겨질 길한 조짐",
+    "interpretation_en": "denotes that harmony is prized in the home life",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "For married people to kiss each other, denotes that harmony is prized in the home life.",
+      "translation_ko": "부부가 서로 입 맞추면 집안 살림에 화목이 귀히 여겨진다"
+    }
+  },
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "목에 입을 맞춤",
+    "interpretation_ko": "정욕에 기울고 저를 다스리는 힘이 약할 흉한 조짐",
+    "interpretation_en": "denotes passionate inclinations and weak mastery of self",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "To dream of kissing a person on the neck, denotes passionate inclinations and weak mastery of self.",
+      "translation_ko": "목에 입 맞추는 꿈은 정욕에 기울고 저를 다스리는 힘이 약함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "적에게 입을 맞춤",
+    "interpretation_ko": "성난 벗과 화해하려 먼저 손을 내밀 길한 조짐",
+    "interpretation_en": "you will make advance towards reconciliation with an angry friend",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "If you dream of kissing an enemy, you will make advance towards reconciliation with an angry friend.",
+      "translation_ko": "적에게 입 맞추는 꿈을 꾸면 성난 벗과 화해하려 먼저 손을 내민다"
+    }
+  },
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "정인에게 입 맞추는 것을 남에게 들킴",
+    "interpretation_ko": "거짓된 벗이 짓궂은 시샘을 품고 있을 흉한 조짐",
+    "interpretation_en": "indicates that spiteful envy is entertained for her by a false friend",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "For a young woman to dream that some person sees her kiss her lover, indicates that spiteful envy is entertained for her by a false friend.",
+      "translation_ko": "젊은 여성이 정인에게 입 맞추는 것을 남이 보는 꿈을 꾸면, 거짓된 벗이 짓궂은 시샘을 품고 있다"
+    }
+  },
+  {
+    "term_ko": "입맞춤",
+    "term_en": "kiss",
+    "context": "정인이 다른 이에게 입 맞추는 것을 봄",
+    "interpretation_ko": "혼인에 걸던 바람이 어그러질 흉한 조짐",
+    "interpretation_en": "she will be disappointed in her hopes of marriage",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Kiss",
+      "original": "For her to see her lover kiss another, she will be disappointed in her hopes of marriage.",
+      "translation_ko": "정인이 다른 이에게 입 맞추는 것을 보면 혼인에 걸던 바람이 어그러진다"
+    }
+  }
+]
