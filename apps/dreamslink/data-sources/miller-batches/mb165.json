@@ -1,0 +1,23 @@
+{
+  "batch": 165,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pebbles",
+      "text": "For a young woman to dream of a pebble-strewn walk, she will be vexed with many rivals and find that there are others with charms that attract besides her own. She who dreams of pebbles is selfish and should cultivate leniency towards others' faults.",
+      "note": "새 상징 `pebble`(조약돌)"
+    },
+    {
+      "headword": "Pecans",
+      "text": "To dream of eating this appetizing nut, you will see one of your dearest plans come to full fruition, and seeming failure prove a prosperous source of gain. To see them growing among leaves, signifies a long, peaceful existence. Failure in love or business will follow in proportion as the pecan is decayed. If they are difficult to crack and the fruit is small, you will succeed after much trouble and expense, but returns will be meagre.",
+      "note": "새 상징 `pecan`(피칸). 이미 있는 `nuts`(견과, 밀러 `Nuts`)와는 다른 특정 견과라 새로 세운다"
+    },
+    {
+      "headword": "Pelican",
+      "text": "To dream of a pelican, denotes a mingling of disappointments with successes. To catch one, you will be able to overcome disappointing influences. To kill one, denotes that you will cruelly set aside the rights of others. To see them flying, you are threatened with changes, which will impress you with ideas of uncertainty as to good.",
+      "note": "새 상징 `pelican`(펠리컨)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

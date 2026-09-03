@@ -4924,5 +4924,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pea::완두콩을 거둠": "gather culminate labors",
   "pea::통조림 완두콩 꿈을 꿈": "canned enthralled uncertainties",
   "pea::마른 완두콩을 봄": "overtaxing",
-  "pea::마른 완두콩을 먹음": "dried eat decrease"
+  "pea::마른 완두콩을 먹음": "dried eat decrease",
+  "pebble::처녀가 조약돌 깔린 길 꿈을 꿈": "vexed rivals charms",
+  "pebble::조약돌 꿈을 꿈": "selfish leniency faults",
+  "pecan::맛있는 피칸을 먹음": "appetizing dearest fruition",
+  "pecan::잎 사이에 자라는 피칸을 봄": "growing leaves peaceful",
+  "pecan::피칸이 썩은 정도만큼 사랑이나 사업에서 실패함": "decayed proportion failure",
+  "pecan::깨기 어렵고 열매가 작은 피칸을 봄": "difficult crack meagre",
+  "pelican::펠리컨 꿈을 꿈": "mingling disappointments successes",
+  "pelican::펠리컨을 잡음": "catch overcome",
+  "pelican::펠리컨을 죽임": "kill cruelly rights",
+  "pelican::펠리컨이 나는 것을 봄": "flying threatened changes"
 };

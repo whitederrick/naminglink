@@ -1,0 +1,64 @@
+[
+  {
+    "id": "pebble",
+    "aliases": [
+      "조약돌이",
+      "조약돌을"
+    ],
+    "aliases_en": [
+      "pebbles"
+    ],
+    "contexts": {
+      "처녀가 조약돌 깔린 길 꿈을 꿈": "처녀가 경쟁자에게 시달",
+      "조약돌 꿈을 꿈": "이기적인 너그러워지도록"
+    },
+    "contexts_en": {
+      "처녀가 조약돌 깔린 길 꿈을 꿈": "vexed rivals charms",
+      "조약돌 꿈을 꿈": "selfish leniency faults"
+    }
+  },
+  {
+    "id": "pecan",
+    "aliases": [
+      "피칸이",
+      "피칸을"
+    ],
+    "aliases_en": [
+      "pecans"
+    ],
+    "contexts": {
+      "맛있는 피칸을 먹음": "맛있는 아끼던 계획",
+      "잎 사이에 자라는 피칸을 봄": "자라는 평온한",
+      "피칸이 썩은 정도만큼 사랑이나 사업에서 실패함": "썩은 정도 애정",
+      "깨기 어렵고 열매가 작은 피칸을 봄": "깨기 어렵고 변변찮을"
+    },
+    "contexts_en": {
+      "맛있는 피칸을 먹음": "appetizing dearest fruition",
+      "잎 사이에 자라는 피칸을 봄": "growing leaves peaceful",
+      "피칸이 썩은 정도만큼 사랑이나 사업에서 실패함": "decayed proportion failure",
+      "깨기 어렵고 열매가 작은 피칸을 봄": "difficult crack meagre"
+    }
+  },
+  {
+    "id": "pelican",
+    "aliases": [
+      "펠리컨이",
+      "펠리컨을"
+    ],
+    "aliases_en": [
+      "pelicans"
+    ],
+    "contexts": {
+      "펠리컨 꿈을 꿈": "실망과 성공이",
+      "펠리컨을 잡음": "잡았 이겨낼",
+      "펠리컨을 죽임": "죽였 매정하게",
+      "펠리컨이 나는 것을 봄": "나는 날아 변화"
+    },
+    "contexts_en": {
+      "펠리컨 꿈을 꿈": "mingling disappointments successes",
+      "펠리컨을 잡음": "catch overcome",
+      "펠리컨을 죽임": "kill cruelly rights",
+      "펠리컨이 나는 것을 봄": "flying threatened changes"
+    }
+  }
+]
