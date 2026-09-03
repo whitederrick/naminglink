@@ -24,11 +24,15 @@
     ],
     "contexts": {
       "단도를 봄": "놓인 번쩍 들려",
-      "남의 손에서 단도를 빼앗음": "빼앗 낚아 손에서"
+      "남의 손에서 단도를 빼앗음": "빼앗 낚아 손에서",
+      "누가 단도로 저를 찌름": "누가 저를 찔렀",
+      "제가 남을 단도로 공격함": "제가 남을 공격했"
     },
     "contexts_en": {
       "단도를 봄": "threatening enemies seen",
-      "남의 손에서 단도를 빼앗음": "wrench counteract overcome"
+      "남의 손에서 단도를 빼앗음": "wrench counteract overcome",
+      "누가 단도로 저를 찌름": "stabbing secret",
+      "제가 남을 단도로 공격함": "attack suspect unfaithfulness"
     }
   },
   {

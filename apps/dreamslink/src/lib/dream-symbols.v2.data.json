@@ -97,6 +97,7 @@
     "m183.json",
     "m184.json",
     "m185.json",
+    "m186.json",
     "m19.json",
     "m2.json",
     "m20.json",
@@ -1977,7 +1978,6 @@
       "term_ko": "칼",
       "term_en": "sword",
       "aliases": [
-        "단검",
         "장검",
         "식칼",
         "도검",
@@ -43580,6 +43580,94 @@
       ]
     },
     {
+      "id": "plum",
+      "term_ko": "자두",
+      "term_en": "plum",
+      "aliases": [
+        "자두가",
+        "자두를"
+      ],
+      "category": "action",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "나무에 달리지 않은 덜 익은 자두를 봄",
+          "interpretation_ko": "제 몸과 가족 간의 불화를 뜻함",
+          "interpretation_en": "are signs of personal and relative discomfort",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plums",
+              "original": "Plums, if they are green, unless seen on trees, are signs of personal and relative discomfort.",
+              "translation_ko": "나무에 달리지 않은 덜 익은 자두를 보는 꿈은, 제 몸과 가족 간의 불화를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "잘 익은 자두를 봄",
+          "interpretation_ko": "즐거운 일이 생기나 오래가지는 못할 조짐",
+          "interpretation_en": "denotes joyous occasions, which, however, will be of short duration",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plums",
+              "original": "To see them ripe, denotes joyous occasions, which, however, will be of short duration.",
+              "translation_ko": "잘 익은 자두를 보는 꿈은, 즐거운 일이 생기나 오래가지는 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자두를 먹음",
+          "interpretation_ko": "잠깐의 연애 놀음과 덧없는 즐거움에 빠질 조짐",
+          "interpretation_en": "denotes that you will engage in flirtations and other evanescent pleasures",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plums",
+              "original": "To eat them, denotes that you will engage in flirtations and other evanescent pleasures.",
+              "translation_ko": "자두를 먹는 꿈은, 잠깐의 연애 놀음과 덧없는 즐거움에 빠질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자두를 땀",
+          "interpretation_ko": "바라던 것을 얻으나 생각만큼 든든하지는 못할 조짐",
+          "interpretation_en": "you will obtain your desires, but they will not prove so solid as you had imagined",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plums",
+              "original": "To gather them, you will obtain your desires, but they will not prove so solid as you had imagined.",
+              "translation_ko": "자두를 따는 꿈은, 바라던 것을 얻으나 생각만큼 든든하지는 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "땅에서 자두를 줍다가 썩은 것을 발견함",
+          "interpretation_ko": "바라던 것이 이루어지지 않았음을 인정하게 되고, 즐거움만으로 채워진 삶은 없음을 깨달을 조짐",
+          "interpretation_en": "you will be forced to admit that your expectations are unrealized, and that there is no life filled with pleasure alone",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plums",
+              "original": "If you find yourself gathering them up from the ground, and find rotten ones among the good, you will be forced to admit that your expectations are unrealized, and that there is no life filled with pleasure alone.",
+              "translation_ko": "땅에서 자두를 줍다가 좋은 것 사이에 썩은 것이 섞인 것을 발견하는 꿈은, 바라던 것이 이루어지지 않았음을 인정하게 되고 즐거움만으로 채워진 삶은 없음을 깨달을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "sea",
       "term_ko": "바다",
       "term_en": "sea",
@@ -49141,6 +49229,80 @@
               "locator": "Goblet",
               "original": "For a woman to give a man a glass goblet full of water, denotes illicit pleasures.",
               "translation_ko": "여성이 남자에게 물이 가득 든 유리잔을 주면, 떳떳하지 못한 즐거움을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dagger",
+      "term_ko": "단도",
+      "term_en": "dagger",
+      "aliases": [
+        "단도를 보았다",
+        "단도를 빼앗"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "단도를 봄",
+          "interpretation_ko": "위협하는 적이 있다는 뜻",
+          "interpretation_en": "threatening enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dagger",
+              "original": "If seen in a dream, denotes threatening enemies.",
+              "translation_ko": "꿈에 보이면 위협하는 적을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "누가 단도로 저를 찌름",
+          "interpretation_ko": "은밀한 적이 마음을 어지럽힐 조짐",
+          "interpretation_en": "denotes that secret enemies will cause you uneasiness of mind",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poinard",
+              "original": "To dream of some one stabbing you with a poinard, denotes that secret enemies will cause you uneasiness of mind.",
+              "translation_ko": "누가 단도로 저를 찌르는 꿈은, 은밀한 적이 마음을 어지럽힐 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제가 남을 단도로 공격함",
+          "interpretation_ko": "벗을 불신하게 될 조짐",
+          "interpretation_en": "you will unfortunately suspect your friends of unfaithfulness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poinard",
+              "original": "If you attack any person with one of these weapons, you will unfortunately suspect your friends of unfaithfulness.",
+              "translation_ko": "제가 남을 단도로 공격하는 꿈은, 벗을 불신하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남의 손에서 단도를 빼앗음",
+          "interpretation_ko": "적의 기운을 꺾고 불운을 이겨 낼 조짐",
+          "interpretation_en": "you will be able to counteract the influence of your enemies and overcome misfortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dagger",
+              "original": "If you wrench the dagger from the hand of another, it denotes that you will be able to counteract the influence of your enemies and overcome misfortune.",
+              "translation_ko": "남의 손에서 단도를 빼앗는 꿈은, 적의 기운을 꺾고 불운을 이겨 냄을 뜻한다"
             }
           ]
         }
@@ -70675,6 +70837,66 @@
       ]
     },
     {
+      "id": "pocketbook",
+      "term_ko": "지갑",
+      "term_en": "pocketbook",
+      "aliases": [
+        "지갑이",
+        "지갑을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "돈과 지폐가 든 지갑을 찾아냄",
+          "interpretation_ko": "매우 운이 좋아 거의 모든 바람을 이룰 조짐",
+          "interpretation_en": "you will be quite lucky, gaining in nearly every instance your desire",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pocketbook",
+              "original": "To find a pocketbook filled with bills and money in your dreams, you will be quite lucky, gaining in nearly every instance your desire.",
+              "translation_ko": "돈과 지폐가 든 지갑을 찾아내는 꿈은, 매우 운이 좋아 거의 모든 바람을 이룰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빈 지갑을 찾아냄",
+          "interpretation_ko": "큰 바람에서 실망할 조짐",
+          "interpretation_en": "you will be disappointed in some big hope",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pocketbook",
+              "original": "If empty, you will be disappointed in some big hope.",
+              "translation_ko": "빈 지갑을 찾아내는 꿈은, 큰 바람에서 실망할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지갑을 잃어버림",
+          "interpretation_ko": "가장 가까운 벗과 뜻이 어긋나 큰 위안과 실질적인 이득을 잃을 조짐",
+          "interpretation_en": "you will unfortunately disagree with your best friend, and thereby lose much comfort and real gain",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pocketbook",
+              "original": "If you lose your pocketbook, you will unfortunately disagree with your best friend, and thereby lose much comfort and real gain.",
+              "translation_ko": "지갑을 잃어버리는 꿈은, 가장 가까운 벗과 뜻이 어긋나 큰 위안과 실질적인 이득을 잃을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "queen",
       "term_ko": "왕비",
       "term_en": "queen",
@@ -81920,52 +82142,6 @@
               "locator": "Cuspidor",
               "original": "To spit in one, foretells that reflections wil{sic} be cast upon your conduct.",
               "translation_ko": "거기에 침을 뱉으면, 제 몸가짐을 두고 뒷말이 돈다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "dagger",
-      "term_ko": "단도",
-      "term_en": "dagger",
-      "aliases": [
-        "단도를 보았다",
-        "단도를 빼앗"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "단도를 봄",
-          "interpretation_ko": "위협하는 적이 있다는 뜻",
-          "interpretation_en": "threatening enemies",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Dagger",
-              "original": "If seen in a dream, denotes threatening enemies.",
-              "translation_ko": "꿈에 보이면 위협하는 적을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "남의 손에서 단도를 빼앗음",
-          "interpretation_ko": "적의 기운을 꺾고 불운을 이겨 낼 조짐",
-          "interpretation_en": "you will be able to counteract the influence of your enemies and overcome misfortune",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Dagger",
-              "original": "If you wrench the dagger from the hand of another, it denotes that you will be able to counteract the influence of your enemies and overcome misfortune.",
-              "translation_ko": "남의 손에서 단도를 빼앗는 꿈은, 적의 기운을 꺾고 불운을 이겨 냄을 뜻한다"
             }
           ]
         }
@@ -106018,6 +106194,38 @@
               "locator": "Planet",
               "original": "To dream of a planet, foretells an uncomfortable journey and depressing work.",
               "translation_ko": "행성 꿈은, 불편한 여정과 답답한 일을 예고한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pocket",
+      "term_ko": "주머니",
+      "term_en": "pocket",
+      "aliases": [
+        "주머니가",
+        "주머니를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제 주머니 꿈을 꿈",
+          "interpretation_ko": "저를 겨눈 악의적인 언동의 조짐",
+          "interpretation_en": "is a sign of evil demonstrations against you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pocket",
+              "original": "To dream of your pocket, is a sign of evil demonstrations against you.",
+              "translation_ko": "제 주머니 꿈은, 저를 겨눈 악의적인 언동의 조짐이다"
             }
           ]
         }

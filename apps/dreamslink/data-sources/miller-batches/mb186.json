@@ -1,0 +1,34 @@
+{
+  "batch": 186,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Plums",
+      "text": "Plums, if they are green, unless seen on trees, are signs of personal and relative discomfort. To see them ripe, denotes joyous occasions, which, however, will be of short duration. To eat them, denotes that you will engage in flirtations and other evanescent pleasures. To gather them, you will obtain your desires, but they will not prove so solid as you had imagined. If you find yourself gathering them up from the ground, and find rotten ones among the good, you will be forced to admit that your expectations are unrealized, and that there is no life filled with pleasure alone.",
+      "note": "새 상징 `plum`(자두)"
+    },
+    {
+      "headword": "Pocket",
+      "text": "To dream of your pocket, is a sign of evil demonstrations against you.",
+      "note": "새 상징 `pocket`(주머니)"
+    },
+    {
+      "headword": "Pocketbook",
+      "text": "To find a pocketbook filled with bills and money in your dreams, you will be quite lucky, gaining in nearly every instance your desire. If empty, you will be disappointed in some big hope. If you lose your pocketbook, you will unfortunately disagree with your best friend, and thereby lose much comfort and real gain.",
+      "note": "새 상징 `pocketbook`(지갑)"
+    },
+    {
+      "headword": "Poinard",
+      "text": "To dream of some one stabbing you with a poinard, denotes that secret enemies will cause you uneasiness of mind. If you attack any person with one of these weapons, you will unfortunately suspect your friends of unfaithfulness.",
+      "note": "기존 상징 `dagger`(단도, 밀러 `Dagger`)에 둘을 더한다. 각주 [163]은 「Dagger 항목 참고」라는 지시다. 또한 `sword`(칼)의 별칭에 있던 「단검」·「dagger」는 이 전용 상징과 겹쳐서 뺀다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "headword": "Poinard",
+      "sentence": "Dreaming of poinards, omens evil.",
+      "reason": "기존 dagger의 「단도를 봄」(밀러 Dagger, 흉 — 위협하는 적이 있다는 뜻)과 같은 그림(단도를 보는 꿈은 흉함)이고 같은 극성이라 가를 수 없다"
+    }
+  ]
+}

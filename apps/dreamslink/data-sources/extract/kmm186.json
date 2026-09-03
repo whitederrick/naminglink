@@ -1,0 +1,61 @@
+[
+  {
+    "id": "plum",
+    "aliases": [
+      "자두가",
+      "자두를"
+    ],
+    "aliases_en": [
+      "a plum",
+      "plums"
+    ],
+    "contexts": {
+      "나무에 달리지 않은 덜 익은 자두를 봄": "달리지",
+      "잘 익은 자두를 봄": "무르익은",
+      "자두를 먹음": "먹었 먹는",
+      "자두를 땀": "땄다 따는 따서",
+      "땅에서 자두를 줍다가 썩은 것을 발견함": "줍다가 썩은"
+    },
+    "contexts_en": {
+      "나무에 달리지 않은 덜 익은 자두를 봄": "green unless trees",
+      "잘 익은 자두를 봄": "ripe",
+      "자두를 먹음": "eat flirtations",
+      "자두를 땀": "gather desires",
+      "땅에서 자두를 줍다가 썩은 것을 발견함": "ground rotten"
+    }
+  },
+  {
+    "id": "pocket",
+    "aliases": [
+      "주머니가",
+      "주머니를"
+    ],
+    "aliases_en": [
+      "a pocket",
+      "pockets"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "pocketbook",
+    "aliases": [
+      "지갑이",
+      "지갑을"
+    ],
+    "aliases_en": [
+      "a pocketbook",
+      "pocketbooks"
+    ],
+    "contexts": {
+      "돈과 지폐가 든 지갑을 찾아냄": "돈과 지폐가",
+      "빈 지갑을 찾아냄": "비어 텅빈 비었다",
+      "지갑을 잃어버림": "잃어버렸 잃어버린"
+    },
+    "contexts_en": {
+      "돈과 지폐가 든 지갑을 찾아냄": "bills money",
+      "빈 지갑을 찾아냄": "empty",
+      "지갑을 잃어버림": "lose losing"
+    }
+  }
+]

@@ -951,7 +951,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "sword": [
     "blade",
     "knife",
-    "dagger",
     "swords",
     "saber"
   ],
@@ -6847,5 +6846,17 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "plaster": [
     "plaster",
     "plastered"
+  ],
+  "plum": [
+    "a plum",
+    "plums"
+  ],
+  "pocket": [
+    "a pocket",
+    "pockets"
+  ],
+  "pocketbook": [
+    "a pocketbook",
+    "pocketbooks"
   ]
 };

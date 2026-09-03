@@ -2,7 +2,6 @@
   {
     "id": "sword",
     "aliases": [
-      "단검",
       "장검",
       "식칼",
       "도검",
@@ -14,7 +13,6 @@
     "aliases_en": [
       "blade",
       "knife",
-      "dagger",
       "swords",
       "saber"
     ],

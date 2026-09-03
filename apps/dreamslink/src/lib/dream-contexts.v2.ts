@@ -3318,6 +3318,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "custom-house::세관에서 나옴": "leave loss securing",
   "dagger::단도를 봄": "threatening enemies seen",
   "dagger::남의 손에서 단도를 빼앗음": "wrench counteract overcome",
+  "dagger::누가 단도로 저를 찌름": "stabbing secret",
+  "dagger::제가 남을 단도로 공격함": "attack suspect unfaithfulness",
   "daisy::데이지 한 다발을 봄": "bunch sadness implies",
   "daisy::데이지가 활짝 핀 들에 있음": "field bloom shining",
   "daisy::철 아닌 때에 데이지를 봄": "season assailed guise",
@@ -5086,5 +5088,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "plank::튼튼하고 좋은 널빤지를 건넘": "good sound",
   "plaster::벽에 반듯하게 석고를 바른 것을 봄": "walls plainly",
   "plaster::제 몸에 석고가 떨어져 내림": "fall upon",
-  "plaster::미장이들이 일하는 것을 봄": "plasterers"
+  "plaster::미장이들이 일하는 것을 봄": "plasterers",
+  "plum::나무에 달리지 않은 덜 익은 자두를 봄": "green unless trees",
+  "plum::잘 익은 자두를 봄": "ripe",
+  "plum::자두를 먹음": "eat flirtations",
+  "plum::자두를 땀": "gather desires",
+  "plum::땅에서 자두를 줍다가 썩은 것을 발견함": "ground rotten",
+  "pocketbook::돈과 지폐가 든 지갑을 찾아냄": "bills money",
+  "pocketbook::빈 지갑을 찾아냄": "empty",
+  "pocketbook::지갑을 잃어버림": "lose losing"
 };
