@@ -969,8 +969,14 @@
       "a laurel tree",
       "bay laurel"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "월계수(베이 트리) 꿈을 꿈": "베이 트리",
+      "처녀가 정인의 머리에 월계관을 씌움": "월계관 씌웠 씌우"
+    },
+    "contexts_en": {
+      "월계수(베이 트리) 꿈을 꿈": "prosperous leisure amusements knowledge",
+      "처녀가 정인의 머리에 월계관을 씌움": "wreath head faithful woo"
+    }
   },
   {
     "id": "bayonet",

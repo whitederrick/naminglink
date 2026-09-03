@@ -973,7 +973,11 @@
     "aliases": [
       "소송",
       "재판",
-      "고소"
+      "고소",
+      "법을 배우고",
+      "법을 배우는",
+      "법을 배웠다",
+      "법 공부"
     ],
     "aliases_en": [
       "lawsuits",
@@ -981,8 +985,20 @@
       "court case",
       "litigation"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "관가에 들어가 송사함": "관가 관청",
+      "송사에 휘말림": "휘말 걸려들",
+      "제 쪽 송사가 떳떳하지 못함을 앎": "떳떳 부끄러운 거짓으로",
+      "젊은이가 법을 배움": "법을 배우 공부하",
+      "여자가 송사에 나섬": "여자가 여인이"
+    },
+    "contexts_en": {
+      "관가에 들어가 송사함": "office magistrate government",
+      "송사에 휘말림": "engaging poisoning public opinion",
+      "제 쪽 송사가 떳떳하지 못함을 앎": "dishonest dispossess owners advancement",
+      "젊은이가 법을 배움": "studying rapid chosen profession",
+      "여자가 송사에 나섬": "woman calumniated among"
+    }
   },
   {
     "id": "mouth-organ",

@@ -1023,11 +1023,13 @@
     ],
     "contexts": {
       "법정에서 변호사를 봄": "법정 재판 판사",
-      "변호사가 자신을 변호함": "변호해 나를 편에서 맡아"
+      "변호사가 자신을 변호함": "변호해 나를 편에서 맡아",
+      "처녀가 변호사와 얽힘": "얽혀 얽히 사귀"
     },
     "contexts_en": {
       "법정에서 변호사를 봄": "court trial judge",
-      "변호사가 자신을 변호함": "defending defended behalf"
+      "변호사가 자신을 변호함": "defending defended behalf",
+      "처녀가 변호사와 얽힘": "connected unwittingly indiscretions mortifying"
     }
   },
   {

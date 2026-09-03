@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 88 — Latin~Laundry, 16건)
+// (지금 담긴 것: 배치 89 — Laurel~Lawyer, 14건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,22 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "latin", ctx: "라틴어를 배움", text: "라틴어를 배우고 있었다" },
-  { id: "laudanum", ctx: "아편을 먹음", text: "아편을 먹었다" },
-  { id: "laudanum", ctx: "남이 아편 먹는 것을 말림", text: "남이 아편 먹는 것을 말렸다" },
-  { id: "laudanum", ctx: "정인이 실망하여 아편을 먹는 것을 봄", text: "정인이 아편을 먹는 것을 보았다" },
-  { id: "laudanum", ctx: "남에게 아편을 줌", text: "남에게 아편을 주었다" },
-  { id: "laughing", ctx: "웃으며 즐거워함", text: "웃으며 즐거워했다" },
-  { id: "laughing", ctx: "괴상한 것을 보고 걷잡을 수 없이 웃음", text: "괴상한 것을 보고 웃었다" },
-  { id: "laughing", ctx: "아이들의 즐거운 웃음소리를 들음", text: "아이들의 웃음소리를 들었다" },
-  { id: "laughing", ctx: "남의 낭패를 보고 웃음", text: "남의 낭패를 보고 웃었다" },
-  { id: "laughing", ctx: "비웃는 웃음소리를 들음", text: "비웃는 소리를 들었다" },
-  { id: "laundry", ctx: "빨래를 함", text: "빨래를 빨았다" },
-  { id: "laundry", ctx: "빨래가 깨끗하게 되어 나옴", text: "빨래가 깨끗하게 되어 나왔다" },
-  { id: "laundry", ctx: "빨래가 엉망으로 나옴", text: "빨래가 엉망으로 나왔다" },
-  { id: "laundry", ctx: "어여쁜 처녀들이 빨래하는 것을 봄", text: "어여쁜 처녀들이 빨래하고 있었다" },
-  { id: "laundry", ctx: "세탁부가 집에 찾아옴", text: "세탁부가 집에 찾아왔다" },
-  { id: "laundry", ctx: "빨래 수레를 봄", text: "빨래 수레를 보았다" },
+  { id: "bay-tree", ctx: "처녀가 정인의 머리에 월계관을 씌움", text: "정인의 머리에 월계관을 씌웠다" },
+  { id: "lawsuit", ctx: "송사에 휘말림", text: "소송에 휘말렸다" },
+  { id: "lawsuit", ctx: "제 쪽 송사가 떳떳하지 못함을 앎", text: "내 쪽 소송이 떳떳하지 못하다는 것을 알고 있었다" },
+  { id: "lawsuit", ctx: "젊은이가 법을 배움", text: "젊은이가 법을 배우고 있었다" },
+  { id: "lawsuit", ctx: "여자가 송사에 나섬", text: "여자가 소송에 나섰다" },
+  { id: "grass", ctx: "잘 가꾼 잔디밭을 거닒", text: "잘 가꾼 잔디밭을 거닐었다" },
+  { id: "grass", ctx: "잔디밭에서 즐거운 모임에 어울림", text: "잔디밭에서 즐거운 모임에 어울렸다" },
+  { id: "grass", ctx: "처녀가 푸른 잔디밭에서 벗이나 정인을 기다림", text: "푸른 잔디밭에서 정인을 기다렸다" },
+  { id: "grass", ctx: "풀이 죽고 잔디밭이 질척함", text: "풀이 죽고 잔디밭이 질척했다" },
+  { id: "grass", ctx: "풀숲에 뱀이 기어가는 것을 봄", text: "풀숲에 뱀이 기어가는 것을 보았다" },
+  { id: "attorney", ctx: "처녀가 변호사와 얽힘", text: "변호사와 얽혀 있었다" },
+  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
+  { id: "grass", ctx: "시든 풀을 봄", text: "시든 풀을 보았다" },
+  { id: "grass", ctx: "푸른 풀밭을 봄", text: "푸른 풀밭을 보았다" },
+  { id: "attorney", ctx: "법정에서 변호사를 봄", text: "법정에서 변호사를 보았다" },
 ];
 
 let notFound = 0;

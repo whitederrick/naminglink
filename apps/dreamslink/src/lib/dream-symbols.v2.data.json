@@ -91,6 +91,7 @@
     "m86.json",
     "m87.json",
     "m88.json",
+    "m89.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -10966,6 +10967,211 @@
       ]
     },
     {
+      "id": "grass",
+      "term_ko": "풀",
+      "term_en": "grass",
+      "aliases": [
+        "잡초",
+        "풀밭",
+        "수풀",
+        "잔디",
+        "잔디밭",
+        "풀숲"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "문 앞에 풀이 자람",
+          "interpretation_ko": "높은 벼슬에 오를 조짐",
+          "interpretation_en": "a sign of rising to high office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "門前生草作刺史",
+              "translation_ko": "문 앞에 풀이 자라면 자사가 된다"
+            }
+          ]
+        },
+        {
+          "context": "푸른 풀밭을 봄",
+          "interpretation_ko": "삶이 즐겁게 나아가고 재물이 빠르게 쌓이며 정분도 무사히 이어질 더없이 길한 조짐",
+          "interpretation_en": "It gives promise of a happy and well advanced life, rapid accumulation of wealth, fame, and a safe voyage through the turbulent sea of love",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grass",
+              "original": "It gives promise of a happy and well advanced life to the tradesman, rapid accumulation of wealth, fame to literary and artistic people, and a safe voyage through the turbulent sea of love is promised to all lovers.",
+              "translation_ko": "장사하는 이에게는 즐겁고 잘 나아가는 삶을, 빠르게 쌓이는 재물을, 글하고 그리는 이에게는 이름을, 정을 나누는 모든 이에게는 거친 사랑의 바다를 무사히 건넘을 약속한다"
+            }
+          ]
+        },
+        {
+          "context": "푸른 풀밭 너머 험한 산을 봄",
+          "interpretation_ko": "먼 뒷날의 걱정거리를 알리는 조짐",
+          "interpretation_en": "is momentous of remote trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grass",
+              "original": "To see a rugged mountain beyond the green expanse of grass, is momentous of remote trouble.",
+              "translation_ko": "푸른 풀밭 너머 험한 산을 보면, 먼 뒷날의 걱정거리를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "푸른 풀밭을 지나다 시든 자리를 지남",
+          "interpretation_ko": "병이 나거나 하는 일이 곤란해질 흉한 조짐",
+          "interpretation_en": "it denotes your sickness or embarrassments in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grass",
+              "original": "If in passing through green grass, you pass withered places, it denotes your sickness or embarrassments in business.",
+              "translation_ko": "푸른 풀밭을 지나다 시든 자리를 지나면, 병이 나거나 하는 일이 곤란해진다"
+            }
+          ]
+        },
+        {
+          "context": "시든 풀을 봄",
+          "interpretation_ko": "위의 길한 뜻이 거꾸로 되는 흉한 조짐",
+          "interpretation_en": "if you dream of withered grass, the reverse is predicted",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grass",
+              "original": "If you dream of withered grass, the reverse is predicted.",
+              "translation_ko": "시든 풀을 꿈꾸면, 그 반대가 점쳐진다"
+            }
+          ]
+        },
+        {
+          "context": "잘 가꾼 잔디밭을 거닒",
+          "interpretation_ko": "기쁜 일과 큰 넉넉함이 있을 길한 조짐",
+          "interpretation_en": "denotes occasions for joy and great prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lawns",
+              "original": "To dream of walking upon well-kept lawns, denotes occasions for joy and great prosperity.",
+              "translation_ko": "잘 가꾼 잔디밭을 거니는 꿈은 기쁜 일과 큰 넉넉함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "잔디밭에서 즐거운 모임에 어울림",
+          "interpretation_ko": "세상의 놀이가 많고 벌인 일도 잘 굴러갈 길한 조짐",
+          "interpretation_en": "denotes many secular amusements, and business engagements will be successfully carried on",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lawns",
+              "original": "To join a merry party upon a lawn, denotes many secular amusements, and business engagements will be successfully carried on.",
+              "translation_ko": "잔디밭에서 즐거운 모임에 어울리면, 세상의 놀이가 많고 벌인 일도 잘 굴러간다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 푸른 잔디밭에서 벗이나 정인을 기다림",
+          "interpretation_ko": "재물과 혼인에 걸고 있던 가장 큰 바람이 이루어질 길한 조짐",
+          "interpretation_en": "denotes that her most ardent wishes concerning wealth and marriage will be gratified",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lawns",
+              "original": "For a young woman to wait upon a green lawn for the coming of a friend or lover, denotes that her most ardent wishes concerning wealth and marriage will be gratified.",
+              "translation_ko": "젊은 여성이 푸른 잔디밭에서 벗이나 정인이 오기를 기다리면, 재물과 혼인에 걸고 있던 가장 큰 바람이 이루어진다"
+            }
+          ]
+        },
+        {
+          "context": "풀이 죽고 잔디밭이 질척함",
+          "interpretation_ko": "다투고 갈라설 일이 있을 흉한 조짐",
+          "interpretation_en": "quarrels and separation may be expected",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lawns",
+              "original": "If the grass be dead and the lawn marshy, quarrels and separation may be expected.",
+              "translation_ko": "풀이 죽고 잔디밭이 질척하면 다투고 갈라설 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "풀숲에 뱀이 기어가는 것을 봄",
+          "interpretation_ko": "배신과 모진 헐뜯음으로 마음이 절망에 잠길 흉한 조짐",
+          "interpretation_en": "betrayal and cruel insinuations will fill you with despair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lawns",
+              "original": "To see serpents crawling in the grass before you, betrayal and cruel insinuations will fill you with despair.",
+              "translation_ko": "풀숲에 뱀이 기어가는 것을 보면, 배신과 모진 헐뜯음으로 마음이 절망에 잠긴다"
+            }
+          ]
+        },
+        {
+          "context": "풀과 나무가 우거짐",
+          "interpretation_ko": "집안이 흥할 조짐",
+          "interpretation_en": "a sign that the household will prosper",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "草木茂盛家道興",
+              "translation_ko": "풀과 나무가 우거지면 집안이 흥한다"
+            }
+          ]
+        },
+        {
+          "context": "밭에 풀이 자람",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "田中生草主得財",
+              "translation_ko": "밭에 풀이 자라면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "집 안에 풀이 자람",
+          "interpretation_ko": "집이 비게 될 조짐",
+          "interpretation_en": "a sign that the house will be emptied",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "屋中生草家欲空",
+              "translation_ko": "집 안에 풀이 자라면 집이 비게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "husband",
       "term_ko": "남편",
       "term_en": "husband",
@@ -19203,139 +19409,6 @@
               "locator": "Friend",
               "original": "To dream that you are shaking hands with a person who has wronged you, and he is taking his departure and looks sad, foretells you will have differences with a close friend and alienation will perhaps follow.",
               "translation_ko": "나를 해친 사람과 손을 잡는데 그가 떠나며 슬픈 낯을 하고 있는 꿈은, 가까운 벗과 뜻이 갈리고 사이가 멀어짐이 따를 수 있음을 알린다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "grass",
-      "term_ko": "풀",
-      "term_en": "grass",
-      "aliases": [
-        "잡초",
-        "풀밭",
-        "수풀",
-        "잔디"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "문 앞에 풀이 자람",
-          "interpretation_ko": "높은 벼슬에 오를 조짐",
-          "interpretation_en": "a sign of rising to high office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "門前生草作刺史",
-              "translation_ko": "문 앞에 풀이 자라면 자사가 된다"
-            }
-          ]
-        },
-        {
-          "context": "푸른 풀밭을 봄",
-          "interpretation_ko": "삶이 즐겁게 나아가고 재물이 빠르게 쌓이며 정분도 무사히 이어질 더없이 길한 조짐",
-          "interpretation_en": "It gives promise of a happy and well advanced life, rapid accumulation of wealth, fame, and a safe voyage through the turbulent sea of love",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Grass",
-              "original": "It gives promise of a happy and well advanced life to the tradesman, rapid accumulation of wealth, fame to literary and artistic people, and a safe voyage through the turbulent sea of love is promised to all lovers.",
-              "translation_ko": "장사하는 이에게는 즐겁고 잘 나아가는 삶을, 빠르게 쌓이는 재물을, 글하고 그리는 이에게는 이름을, 정을 나누는 모든 이에게는 거친 사랑의 바다를 무사히 건넘을 약속한다"
-            }
-          ]
-        },
-        {
-          "context": "푸른 풀밭 너머 험한 산을 봄",
-          "interpretation_ko": "먼 뒷날의 걱정거리를 알리는 조짐",
-          "interpretation_en": "is momentous of remote trouble",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Grass",
-              "original": "To see a rugged mountain beyond the green expanse of grass, is momentous of remote trouble.",
-              "translation_ko": "푸른 풀밭 너머 험한 산을 보면, 먼 뒷날의 걱정거리를 알린다"
-            }
-          ]
-        },
-        {
-          "context": "푸른 풀밭을 지나다 시든 자리를 지남",
-          "interpretation_ko": "병이 나거나 하는 일이 곤란해질 흉한 조짐",
-          "interpretation_en": "it denotes your sickness or embarrassments in business",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Grass",
-              "original": "If in passing through green grass, you pass withered places, it denotes your sickness or embarrassments in business.",
-              "translation_ko": "푸른 풀밭을 지나다 시든 자리를 지나면, 병이 나거나 하는 일이 곤란해진다"
-            }
-          ]
-        },
-        {
-          "context": "시든 풀을 봄",
-          "interpretation_ko": "위의 길한 뜻이 거꾸로 되는 흉한 조짐",
-          "interpretation_en": "if you dream of withered grass, the reverse is predicted",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Grass",
-              "original": "If you dream of withered grass, the reverse is predicted.",
-              "translation_ko": "시든 풀을 꿈꾸면, 그 반대가 점쳐진다"
-            }
-          ]
-        },
-        {
-          "context": "풀과 나무가 우거짐",
-          "interpretation_ko": "집안이 흥할 조짐",
-          "interpretation_en": "a sign that the household will prosper",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "草木茂盛家道興",
-              "translation_ko": "풀과 나무가 우거지면 집안이 흥한다"
-            }
-          ]
-        },
-        {
-          "context": "밭에 풀이 자람",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "田中生草主得財",
-              "translation_ko": "밭에 풀이 자라면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "집 안에 풀이 자람",
-          "interpretation_ko": "집이 비게 될 조짐",
-          "interpretation_en": "a sign that the house will be emptied",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "屋中生草家欲空",
-              "translation_ko": "집 안에 풀이 자라면 집이 비게 된다"
             }
           ]
         }
@@ -32971,6 +33044,100 @@
       ]
     },
     {
+      "id": "lawsuit",
+      "term_ko": "송사",
+      "term_en": "lawsuit",
+      "aliases": [
+        "소송",
+        "재판",
+        "고소",
+        "법을 배우고",
+        "법을 배우는",
+        "법을 배웠다",
+        "법 공부"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "관가에 들어가 송사함",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "入官詞訟主大吉",
+              "translation_ko": "관가에 들어가 송사하면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "송사에 휘말림",
+          "interpretation_ko": "적이 세상의 눈길을 저에게 등지게 하고 있음을 알리는 흉한 조짐",
+          "interpretation_en": "warns you of enemies who are poisoning public opinion against you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Law and Lawsuits",
+              "original": "To dream of engaging in a lawsuit, warns you of enemies who are poisoning public opinion against you.",
+              "translation_ko": "송사에 휘말리는 꿈은, 적이 세상의 눈길을 저에게 등지게 하고 있음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "제 쪽 송사가 떳떳하지 못함을 앎",
+          "interpretation_ko": "제 잇속을 위해 참임자의 것을 빼앗으려 들 흉한 조짐",
+          "interpretation_en": "you will seek to dispossess true owners for your own advancement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Law and Lawsuits",
+              "original": "If you know that the suit is dishonest on your part, you will seek to dispossess true owners for your own advancement.",
+              "translation_ko": "제 쪽 송사가 떳떳하지 못함을 알고 있으면, 제 잇속을 위해 참임자의 것을 빼앗으려 든다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이가 법을 배움",
+          "interpretation_ko": "고른 길에서 빠르게 올라설 길한 조짐",
+          "interpretation_en": "he will make rapid rise in any chosen profession",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Law and Lawsuits",
+              "original": "If a young man is studying law, he will make rapid rise in any chosen profession.",
+              "translation_ko": "젊은이가 법을 배우고 있으면 고른 길에서 빠르게 올라선다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 송사에 나섬",
+          "interpretation_ko": "헐뜯기고 벗들 가운데서 적을 보게 될 흉한 조짐",
+          "interpretation_en": "means she will be calumniated, and find enemies among friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Law and Lawsuits",
+              "original": "For a woman to dream that she engages in a law suit, means she will be calumniated, and find enemies among friends.",
+              "translation_ko": "여자가 송사에 나서는 꿈을 꾸면 헐뜯기고 벗들 가운데서 적을 보게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "melon",
       "term_ko": "오이",
       "term_en": "melon",
@@ -44335,6 +44502,68 @@
               "locator": "Assassin",
               "original": "To see an assassin under any condition is a warning that losses may befall you through secret enemies.",
               "translation_ko": "어떤 상황에서든 암살자를 보는 것은 숨은 원수로 인해 손실을 입을 수 있다는 경고다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attorney",
+      "term_ko": "변호사",
+      "term_en": "attorney",
+      "aliases": [
+        "법률가",
+        "변호인",
+        "대리인",
+        "법정 대리인"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "법정에서 변호사를 봄",
+          "interpretation_ko": "세속적 이해가 걸린 당사자 사이에 심각한 분쟁이 생기고 원수가 거짓 주장으로 다가오는 조짐",
+          "interpretation_en": "disputes of a serious nature will arise between parties interested in worldly things; enemies are stealing upon you with false claims",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Attorney",
+              "original": "To see an attorney at the bar, denotes that disputes of a serious nature will arise between parties interested in worldly things. Enemies are stealing upon you with false claims.",
+              "translation_ko": "법정에서 변호사를 보면 세속적 이해가 걸린 당사자 사이에 심각한 분쟁이 생기고, 원수가 거짓 주장으로 다가오는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "변호사가 자신을 변호함",
+          "interpretation_ko": "친구들이 다가올 곤경에서 돕겠지만 원수보다 더 큰 근심을 안길 조짐",
+          "interpretation_en": "your friends will assist you in coming trouble, but they will cause you more worry than enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Attorney",
+              "original": "If you see an attorney defending you, your friends will assist you in coming trouble, but they will cause you more worry than enemies.",
+              "translation_ko": "변호사가 자신을 변호하는 것을 보면 친구들이 다가올 곤경에서 돕겠지만 원수보다 더 큰 근심을 안길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 변호사와 얽힘",
+          "interpretation_ko": "저도 모르게 삼가지 못한 일을 저질러 언짢고 부끄러운 입길에 오를 흉한 조짐",
+          "interpretation_en": "foretells that she will unwittingly commit indiscretions, which will subject her to unfavorable and mortifying criticism",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lawyer",
+              "original": "For a young woman to dream that she is connected in any way with a lawyer, foretells that she will unwittingly commit indiscretions, which will subject her to unfavorable and mortifying criticism.",
+              "translation_ko": "젊은 여성이 변호사와 어떻게든 얽히는 꿈을 꾸면, 저도 모르게 삼가지 못한 일을 저질러 언짢고 부끄러운 입길에 오른다"
             }
           ]
         }
@@ -57750,54 +57979,6 @@
       ]
     },
     {
-      "id": "attorney",
-      "term_ko": "변호사",
-      "term_en": "attorney",
-      "aliases": [
-        "법률가",
-        "변호인",
-        "대리인",
-        "법정 대리인"
-      ],
-      "category": "person",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "법정에서 변호사를 봄",
-          "interpretation_ko": "세속적 이해가 걸린 당사자 사이에 심각한 분쟁이 생기고 원수가 거짓 주장으로 다가오는 조짐",
-          "interpretation_en": "disputes of a serious nature will arise between parties interested in worldly things; enemies are stealing upon you with false claims",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Attorney",
-              "original": "To see an attorney at the bar, denotes that disputes of a serious nature will arise between parties interested in worldly things. Enemies are stealing upon you with false claims.",
-              "translation_ko": "법정에서 변호사를 보면 세속적 이해가 걸린 당사자 사이에 심각한 분쟁이 생기고, 원수가 거짓 주장으로 다가오는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "변호사가 자신을 변호함",
-          "interpretation_ko": "친구들이 다가올 곤경에서 돕겠지만 원수보다 더 큰 근심을 안길 조짐",
-          "interpretation_en": "your friends will assist you in coming trouble, but they will cause you more worry than enemies",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Attorney",
-              "original": "If you see an attorney defending you, your friends will assist you in coming trouble, but they will cause you more worry than enemies.",
-              "translation_ko": "변호사가 자신을 변호하는 것을 보면 친구들이 다가올 곤경에서 돕겠지만 원수보다 더 큰 근심을 안길 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "august",
       "term_ko": "팔월",
       "term_en": "august",
@@ -59065,6 +59246,59 @@
               "locator": "Battle",
               "original": "If you are defeated in battle, it denotes that bad deals made by others will mar your prospects for good.",
               "translation_ko": "전투에서 패배하면 다른 사람들이 벌인 나쁜 거래가 좋은 전망을 망칠 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bay-tree",
+      "term_ko": "월계수",
+      "term_en": "bay tree",
+      "aliases": [
+        "월계수 나무",
+        "월계관",
+        "베이 트리"
+      ],
+      "category": "nature",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "월계수(베이 트리) 꿈을 꿈",
+          "interpretation_ko": "번영하는 여가 속에서 여러 즐거운 오락을 만나고 많은 지식을 얻을 조짐, 대체로 누구에게나 좋은 꿈",
+          "interpretation_en": "a sign of a palmy leisure with many pleasing diversions and much knowledge gained in rest from work; generally a good dream for everybody",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bay Tree",
+              "original": "A palmy leisure awaits you in which you will meet many pleasing varieties of diversions. Much knowledge will be reaped in the rest from work. It is generally a good dream for everybody.",
+              "translation_ko": "월계수 꿈을 꾸면 여러 즐거운 오락을 만나는 번영의 여가가 기다리고 있으며, 일에서 벗어난 휴식 속에서 많은 지식을 얻게 된다. 대체로 누구에게나 좋은 꿈이다"
+            },
+            {
+              "work": "miller",
+              "locator": "Laurel",
+              "original": "Dreaming of the laurel, brings success and fame.",
+              "translation_ko": "월계수의 꿈은 잘되고 이름을 얻음을 가져온다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 정인의 머리에 월계관을 씌움",
+          "interpretation_ko": "한결같고 이름난 지아비가 저를 찾아올 길한 조짐",
+          "interpretation_en": "denotes that she will have a faithful man, and one of fame to woo her",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laurel",
+              "original": "For a young woman to wreath laurel about her lover's head, denotes that she will have a faithful man, and one of fame to woo her.",
+              "translation_ko": "젊은 여성이 정인의 머리에 월계관을 씌우는 꿈을 꾸면, 한결같고 이름난 지아비가 저를 찾아온다"
             }
           ]
         }
@@ -75834,39 +76068,6 @@
       ]
     },
     {
-      "id": "bay-tree",
-      "term_ko": "월계수",
-      "term_en": "bay tree",
-      "aliases": [
-        "월계수 나무",
-        "월계관",
-        "베이 트리"
-      ],
-      "category": "nature",
-      "polarity": "positive",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "월계수(베이 트리) 꿈을 꿈",
-          "interpretation_ko": "번영하는 여가 속에서 여러 즐거운 오락을 만나고 많은 지식을 얻을 조짐, 대체로 누구에게나 좋은 꿈",
-          "interpretation_en": "a sign of a palmy leisure with many pleasing diversions and much knowledge gained in rest from work; generally a good dream for everybody",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bay Tree",
-              "original": "A palmy leisure awaits you in which you will meet many pleasing varieties of diversions. Much knowledge will be reaped in the rest from work. It is generally a good dream for everybody.",
-              "translation_ko": "월계수 꿈을 꾸면 여러 즐거운 오락을 만나는 번영의 여가가 기다리고 있으며, 일에서 벗어난 휴식 속에서 많은 지식을 얻게 된다. 대체로 누구에게나 좋은 꿈이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "bayonet",
       "term_ko": "총검",
       "term_en": "bayonet",
@@ -83622,39 +83823,6 @@
               "locator": "Latin",
               "original": "To dream of studying this language, denotes victory and distinction in your efforts to sustain your opinion on subjects of grave interest to the public welfare.",
               "translation_ko": "이 말을 배우는 꿈은, 여러 사람의 삶에 걸린 무거운 일에서 제 뜻을 지켜 내고 이름을 얻음을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "lawsuit",
-      "term_ko": "송사",
-      "term_en": "lawsuit",
-      "aliases": [
-        "소송",
-        "재판",
-        "고소"
-      ],
-      "category": "action",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "관가에 들어가 송사함",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "入官詞訟主大吉",
-              "translation_ko": "관가에 들어가 송사하면 크게 길하다"
             }
           ]
         }

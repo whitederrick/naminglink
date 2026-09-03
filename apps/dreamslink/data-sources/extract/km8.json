@@ -445,7 +445,9 @@
       "잡초",
       "풀밭",
       "수풀",
-      "잔디"
+      "잔디",
+      "잔디밭",
+      "풀숲"
     ],
     "aliases_en": [
       "weeds",
@@ -461,7 +463,12 @@
       "푸른 풀밭을 봄": "푸른 파란 싱그",
       "푸른 풀밭 너머 험한 산을 봄": "너머 험한 산이",
       "푸른 풀밭을 지나다 시든 자리를 지남": "지나다 지나가다 밟았",
-      "시든 풀을 봄": "시든 마른 누렇"
+      "시든 풀을 봄": "시든 마른 누렇",
+      "잘 가꾼 잔디밭을 거닒": "거닐 가꾼",
+      "잔디밭에서 즐거운 모임에 어울림": "모임 어울 잔치",
+      "처녀가 푸른 잔디밭에서 벗이나 정인을 기다림": "기다 정인을",
+      "풀이 죽고 잔디밭이 질척함": "질척 축축",
+      "풀숲에 뱀이 기어가는 것을 봄": "뱀이 기어가"
     },
     "contexts_en": {
       "문 앞에 풀이 자람": "gate door entrance front",
@@ -471,7 +478,12 @@
       "푸른 풀밭을 봄": "promise happy advanced accumulation voyage",
       "푸른 풀밭 너머 험한 산을 봄": "rugged mountain beyond expanse remote",
       "푸른 풀밭을 지나다 시든 자리를 지남": "passing through places sickness embarrassments",
-      "시든 풀을 봄": "withered reverse predicted"
+      "시든 풀을 봄": "withered reverse predicted",
+      "잘 가꾼 잔디밭을 거닒": "walking well-kept occasions",
+      "잔디밭에서 즐거운 모임에 어울림": "merry party secular",
+      "처녀가 푸른 잔디밭에서 벗이나 정인을 기다림": "wait ardent wishes gratified",
+      "풀이 죽고 잔디밭이 질척함": "dead marshy quarrels separation",
+      "풀숲에 뱀이 기어가는 것을 봄": "serpents crawling betrayal insinuations"
     }
   },
   {
