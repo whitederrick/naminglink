@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 166 — Pen~Penitentiary, 10건)
+// (지금 담긴 것: 배치 167 — Penny~Pepper, 12건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -450,6 +450,20 @@ const CASES: Case[] = [
   { id: "pencil", ctx: "처녀가 연필로 글을 씀", text: "처녀가 연필로 글을 썼다" },
   { id: "pencil", ctx: "처녀가 쓴 글을 지움", text: "처녀가 연필로 쓴 글을 지웠다" },
   { id: "prison", ctx: "감옥 꿈을 꿈", text: "감옥 꿈을 꾸었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "coins", ctx: "금돈을 봄", text: "금돈을 보았다" },
+  { id: "coins", ctx: "동전 꿈을 꿈", text: "동전 꿈을 꾸었다" },
+  { id: "coins", ctx: "동전을 잃음", text: "동전을 잃었다" },
+  { id: "coins", ctx: "동전을 찾음", text: "동전을 찾았다" },
+  { id: "coins", ctx: "동전을 셈", text: "동전을 셌다" },
+  { id: "pension", ctx: "연금을 받음", text: "연금을 받았다" },
+  { id: "pension", ctx: "연금 신청에 실패함", text: "연금 신청에 실패했다" },
+  { id: "pepper", ctx: "후추가 혀를 태움", text: "후추가 혀를 태웠다" },
+  { id: "pepper", ctx: "자라는 붉은 고추를 봄", text: "자라는 붉은 고추를 보았다" },
+  { id: "pepper", ctx: "쌓인 붉은 고추 꼬투리를 봄", text: "쌓인 붉은 고추 꼬투리를 보았다" },
+  { id: "pepper", ctx: "검은 후추를 갊", text: "검은 후추를 갈았다" },
+  { id: "pepper", ctx: "식탁 위 그릇에 담긴 후추를 봄", text: "식탁 위 그릇에 담긴 후추를 보았다" },
+  { id: "pepper", ctx: "처녀가 음식에 후추를 뿌림", text: "처녀가 음식에 후추를 뿌렸다" },
 ];
 
 let notFound = 0;

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "pension",
+    "aliases": [
+      "연금이",
+      "연금을"
+    ],
+    "aliases_en": [
+      "pensions"
+    ],
+    "contexts": {
+      "연금을 받음": "받았 벗의 도움",
+      "연금 신청에 실패함": "신청 실패하 잃을"
+    },
+    "contexts_en": {
+      "연금을 받음": "drawing aided labors",
+      "연금 신청에 실패함": "application fail undertaking"
+    }
+  },
+  {
+    "id": "pepper",
+    "aliases": [
+      "후추가",
+      "후추를",
+      "고추"
+    ],
+    "aliases_en": [
+      "peppers"
+    ],
+    "contexts": {
+      "후추가 혀를 태움": "혀를 태우 뜬소문",
+      "자라는 붉은 고추를 봄": "자라는 붉은 배우자",
+      "쌓인 붉은 고추 꼬투리를 봄": "쌓인 꼬투리 권리",
+      "검은 후추를 갊": "검은 갈았 희생될",
+      "식탁 위 그릇에 담긴 후추를 봄": "식탁 그릇 질책",
+      "처녀가 음식에 후추를 뿌림": "처녀가 뿌렸 속을"
+    },
+    "contexts_en": {
+      "후추가 혀를 태움": "burning tongue gossip",
+      "자라는 붉은 고추를 봄": "red growing thrifty",
+      "쌓인 붉은 고추 꼬투리를 봄": "piles pods rights",
+      "검은 후추를 갊": "grind black victimized",
+      "식탁 위 그릇에 담긴 후추를 봄": "stands table reproaches",
+      "처녀가 음식에 후추를 뿌림": "young woman food deceived"
+    }
+  }
+]

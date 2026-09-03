@@ -3066,6 +3066,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "coins::구리돈을 봄": "copper despair burdens",
   "coins::니켈 동전을 봄": "nickel lowest devolve",
   "coins::반짝이는 은돈을 지니고 있음": "bright clean propitious",
+  "coins::동전 꿈을 꿈": "unsatisfactory pursuits smallness",
+  "coins::동전을 잃음": "lose deference failures",
+  "coins::동전을 찾음": "find advance improvement",
+  "coins::동전을 셈": "count business economical",
   "colonel::대령을 보거나 그 명을 받음": "commanded seeing prominence",
   "colonel::내가 대령임": "position above acquaintances",
   "collar::옷깃을 두름": "wearing honors thrust",
@@ -4943,5 +4947,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "penalty::벌금 내는 것을 피함": "escape victor contest",
   "pencil::연필 꿈을 꿈": "favorable occupations",
   "pencil::처녀가 연필로 글을 씀": "young woman fortunate marriage",
-  "pencil::처녀가 쓴 글을 지움": "rub disappointed lover"
+  "pencil::처녀가 쓴 글을 지움": "rub disappointed lover",
+  "pension::연금을 받음": "drawing aided labors",
+  "pension::연금 신청에 실패함": "application fail undertaking",
+  "pepper::후추가 혀를 태움": "burning tongue gossip",
+  "pepper::자라는 붉은 고추를 봄": "red growing thrifty",
+  "pepper::쌓인 붉은 고추 꼬투리를 봄": "piles pods rights",
+  "pepper::검은 후추를 갊": "grind black victimized",
+  "pepper::식탁 위 그릇에 담긴 후추를 봄": "stands table reproaches",
+  "pepper::처녀가 음식에 후추를 뿌림": "young woman food deceived"
 };

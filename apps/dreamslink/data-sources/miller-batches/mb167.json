@@ -1,0 +1,30 @@
+{
+  "batch": 167,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Penny",
+      "text": "To dream of pennies, denotes unsatisfactory pursuits. Business will suffer, and lovers and friends will complain of the smallness of affection. To lose them, signifies small deference and failures. To find them, denotes that prospects will advance to your improvement. To count pennies, foretells that you will be business-like and economical.",
+      "note": "기존 상징 `coins`(동전, 밀러 다른 표제어)에 넷을 더한다. 「동전」이 이미 그 상징의 별칭이다"
+    },
+    {
+      "headword": "Pension",
+      "text": "To dream of drawing a pension, foretells that you will be aided in your labors by friends. To fail in your application for a pension, denotes that you will lose in an undertaking and suffer the loss of friendships.",
+      "note": "새 상징 `pension`(연금)"
+    },
+    {
+      "headword": "People",
+      "text": "[152] See Crowd.",
+      "note": "이미 있는 `crowd`(군중)를 가리키는 cross-ref뿐이라 옮길 문장이 없다"
+    },
+    {
+      "headword": "Pepper",
+      "text": "To dream of pepper burning your tongue, foretells that you will suffer from your acquaintances through your love of gossip. To see red pepper growing, foretells for you a thrifty and an independent partner in the marriage state. To see piles of red pepper pods, signifies that you will aggressively maintain your rights. To grind black pepper, denotes that you will be victimized by the wiles of ingenious men or women. To see it in stands on the table, omens sharp reproaches or quarrels. For a young woman to put it on her food, foretells that she will be deceived by her friends.",
+      "note": "새 상징 `pepper`(후추)"
+    }
+  ],
+  "skipped": [
+    { "headword": "People", "reason": "「[152] See Crowd」뿐인 cross-ref. 이미 있는 `crowd`가 가리키는 대상이라 옮길 문장이 없다" }
+  ],
+  "skipped_sentences": []
+}

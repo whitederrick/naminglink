@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "동전",
+    "term_en": "coins",
+    "context": "동전 꿈을 꿈",
+    "interpretation_ko": "만족스럽지 못한 일을 좇을 조짐이며 사업이 어려워지고 연인과 벗이 애정이 작다고 불평할 조짐",
+    "interpretation_en": "denotes unsatisfactory pursuits. Business will suffer, and lovers and friends will complain of the smallness of affection",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Penny",
+      "original": "To dream of pennies, denotes unsatisfactory pursuits. Business will suffer, and lovers and friends will complain of the smallness of affection.",
+      "translation_ko": "동전 꿈은, 만족스럽지 못한 일을 좇을 조짐이며 사업이 어려워지고 연인과 벗이 애정이 작다고 불평할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "동전",
+    "term_en": "coins",
+    "context": "동전을 잃음",
+    "interpretation_ko": "하찮게 여겨지고 일이 어긋날 조짐",
+    "interpretation_en": "signifies small deference and failures",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Penny",
+      "original": "To lose them, signifies small deference and failures.",
+      "translation_ko": "동전을 잃는 꿈은, 하찮게 여겨지고 일이 어긋날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "동전",
+    "term_en": "coins",
+    "context": "동전을 찾음",
+    "interpretation_ko": "앞날이 나아질 조짐",
+    "interpretation_en": "denotes that prospects will advance to your improvement",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Penny",
+      "original": "To find them, denotes that prospects will advance to your improvement.",
+      "translation_ko": "동전을 찾는 꿈은, 앞날이 나아질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "동전",
+    "term_en": "coins",
+    "context": "동전을 셈",
+    "interpretation_ko": "사업 수완이 있고 알뜰할 조짐",
+    "interpretation_en": "foretells that you will be business-like and economical",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Penny",
+      "original": "To count pennies, foretells that you will be business-like and economical.",
+      "translation_ko": "동전을 세는 꿈은, 사업 수완이 있고 알뜰할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연금",
+    "term_en": "pension",
+    "context": "연금을 받음",
+    "interpretation_ko": "벗의 도움으로 일이 수월해질 조짐",
+    "interpretation_en": "foretells that you will be aided in your labors by friends",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pension",
+      "original": "To dream of drawing a pension, foretells that you will be aided in your labors by friends.",
+      "translation_ko": "연금을 받는 꿈은, 벗의 도움으로 일이 수월해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연금",
+    "term_en": "pension",
+    "context": "연금 신청에 실패함",
+    "interpretation_ko": "하려던 일에서 지고 벗을 잃을 조짐",
+    "interpretation_en": "denotes that you will lose in an undertaking and suffer the loss of friendships",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pension",
+      "original": "To fail in your application for a pension, denotes that you will lose in an undertaking and suffer the loss of friendships.",
+      "translation_ko": "연금 신청에 실패하는 꿈은, 하려던 일에서 지고 벗을 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "후추",
+    "term_en": "pepper",
+    "context": "후추가 혀를 태움",
+    "interpretation_ko": "뜬소문을 좋아하다 아는 이들에게 고초를 겪을 조짐",
+    "interpretation_en": "foretells that you will suffer from your acquaintances through your love of gossip",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pepper",
+      "original": "To dream of pepper burning your tongue, foretells that you will suffer from your acquaintances through your love of gossip.",
+      "translation_ko": "후추가 혀를 태우는 꿈은, 뜬소문을 좋아하다 아는 이들에게 고초를 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "후추",
+    "term_en": "pepper",
+    "context": "자라는 붉은 고추를 봄",
+    "interpretation_ko": "알뜰하고 독립적인 배우자를 얻을 조짐",
+    "interpretation_en": "foretells for you a thrifty and an independent partner in the marriage state",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pepper",
+      "original": "To see red pepper growing, foretells for you a thrifty and an independent partner in the marriage state.",
+      "translation_ko": "자라는 붉은 고추를 보는 꿈은, 알뜰하고 독립적인 배우자를 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "후추",
+    "term_en": "pepper",
+    "context": "쌓인 붉은 고추 꼬투리를 봄",
+    "interpretation_ko": "제 권리를 적극적으로 지켜낼 조짐",
+    "interpretation_en": "signifies that you will aggressively maintain your rights",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pepper",
+      "original": "To see piles of red pepper pods, signifies that you will aggressively maintain your rights.",
+      "translation_ko": "쌓인 붉은 고추 꼬투리를 보는 꿈은, 제 권리를 적극적으로 지켜낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "후추",
+    "term_en": "pepper",
+    "context": "검은 후추를 갊",
+    "interpretation_ko": "꾀 많은 이의 술수에 희생될 조짐",
+    "interpretation_en": "denotes that you will be victimized by the wiles of ingenious men or women",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pepper",
+      "original": "To grind black pepper, denotes that you will be victimized by the wiles of ingenious men or women.",
+      "translation_ko": "검은 후추를 가는 꿈은, 꾀 많은 이의 술수에 희생될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "후추",
+    "term_en": "pepper",
+    "context": "식탁 위 그릇에 담긴 후추를 봄",
+    "interpretation_ko": "날카로운 질책이나 다툼을 예고하는 조짐",
+    "interpretation_en": "omens sharp reproaches or quarrels",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pepper",
+      "original": "To see it in stands on the table, omens sharp reproaches or quarrels.",
+      "translation_ko": "식탁 위 그릇에 담긴 후추를 보는 꿈은, 날카로운 질책이나 다툼을 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "후추",
+    "term_en": "pepper",
+    "context": "처녀가 음식에 후추를 뿌림",
+    "interpretation_ko": "벗에게 속을 조짐",
+    "interpretation_en": "foretells that she will be deceived by her friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pepper",
+      "original": "For a young woman to put it on her food, foretells that she will be deceived by her friends.",
+      "translation_ko": "처녀가 음식에 후추를 뿌리는 꿈은, 벗에게 속을 조짐이다"
+    }
+  }
+]
