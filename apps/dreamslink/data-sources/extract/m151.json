@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "중풍",
+    "term_en": "palsy",
+    "context": "제가 중풍에 걸림",
+    "interpretation_ko": "불안정한 계약을 맺고 있다는 조짐",
+    "interpretation_en": "you are making unstable contracts",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Palsy",
+      "original": "To dream that you are afflicted with palsy, denotes that you are making unstable contracts.",
+      "translation_ko": "제가 중풍에 걸리는 꿈은, 불안정한 계약을 맺고 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "중풍",
+    "term_en": "palsy",
+    "context": "벗이 중풍에 걸림을 봄",
+    "interpretation_ko": "그의 신의가 불확실하고 병도 집에 들 수 있다는 조짐",
+    "interpretation_en": "there will be uncertainty as to his faithfulness and sickness, too, may enter your home",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Palsy",
+      "original": "To see your friend so afflicted, there will be uncertainty as to his faithfulness and sickness, too, may enter your home.",
+      "translation_ko": "벗이 중풍에 걸린 것을 보는 꿈은, 그의 신의가 불확실하고 병도 집에 들 수 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "중풍",
+    "term_en": "palsy",
+    "context": "연인의 애인이 중풍에 걸림",
+    "interpretation_ko": "어떤 문제로 다툼이 생겨 행복이 흐려질 조짐",
+    "interpretation_en": "dissatisfaction over some question will mar their happiness",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Palsy",
+      "original": "For lovers to dream that their sweethearts have palsy, signifies that dissatisfaction over some question will mar their happiness.",
+      "translation_ko": "연인의 애인이 중풍에 걸리는 꿈은, 어떤 문제로 다툼이 생겨 행복이 흐려질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "팬케이크",
+    "term_en": "pancake",
+    "context": "팬케이크를 먹음",
+    "interpretation_ko": "지금 벌이는 일마다 큰 성공을 거둘 조짐",
+    "interpretation_en": "you will have excellent success in all enterprises undertaken at this time",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pancake",
+      "original": "To dream of eating pancakes, denotes that you will have excellent success in all enterprises undertaken at this time.",
+      "translation_ko": "팬케이크를 먹는 꿈은, 지금 벌이는 일마다 큰 성공을 거둘 조짐이다"
+    }
+  },
+  {
+    "term_ko": "팬케이크",
+    "term_en": "pancake",
+    "context": "팬케이크를 구움",
+    "interpretation_ko": "검소하고 알뜰하게 살림을 꾸릴 조짐",
+    "interpretation_en": "you will be economical and thrifty in your home",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pancake",
+      "original": "To cook them, denotes that you will be economical and thrifty in your home.",
+      "translation_ko": "팬케이크를 굽는 꿈은, 검소하고 알뜰하게 살림을 꾸릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "유리",
+    "term_en": "glass",
+    "context": "유리판을 다룸",
+    "interpretation_ko": "불확실한 일을 다루고 있다는 조짐",
+    "interpretation_en": "you are dealing in uncertainties",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pane of Glass",
+      "original": "To dream that you handle a pane of glass, denotes that you are dealing in uncertainties.",
+      "translation_ko": "유리판을 다루는 꿈은, 불확실한 일을 다루고 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "유리",
+    "term_en": "glass",
+    "context": "유리창 너머로 남과 이야기함",
+    "interpretation_ko": "눈앞에 장애물이 있어 적잖이 불편할 조짐",
+    "interpretation_en": "there are obstacles in your immediate future, and they will cause you no slight inconvenience",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pane of Glass",
+      "original": "To talk to a person through a pane of glass, denotes that there are obstacles in your immediate future, and they will cause you no slight inconvenience.",
+      "translation_ko": "유리창 너머로 남과 이야기하는 꿈은, 눈앞에 장애물이 있어 적잖이 불편할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "파노라마",
+    "term_en": "panorama",
+    "context": "파노라마를 봄",
+    "interpretation_ko": "직업이나 거처를 바꿀 조짐",
+    "interpretation_en": "you will change your occupation or residence",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Panorama",
+      "original": "To dream of a panorama, denotes that you will change your occupation or residence.",
+      "translation_ko": "파노라마를 보는 꿈은, 직업이나 거처를 바꿀 조짐이다"
+    }
+  }
+]

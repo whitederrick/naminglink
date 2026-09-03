@@ -1,0 +1,50 @@
+[
+  {
+    "id": "palsy",
+    "aliases": [
+      "중풍에",
+      "중풍이"
+    ],
+    "aliases_en": [
+      "afflicted with palsy"
+    ],
+    "contexts": {
+      "제가 중풍에 걸림": "불안정한 계약",
+      "벗이 중풍에 걸림을 봄": "벗이 신의 불확실",
+      "연인의 애인이 중풍에 걸림": "연인 애인 다툼"
+    },
+    "contexts_en": {
+      "제가 중풍에 걸림": "unstable contracts",
+      "벗이 중풍에 걸림을 봄": "friend faithfulness uncertainty",
+      "연인의 애인이 중풍에 걸림": "lovers sweethearts dissatisfaction"
+    }
+  },
+  {
+    "id": "pancake",
+    "aliases": [
+      "팬케이크가",
+      "팬케이크를"
+    ],
+    "aliases_en": [
+      "pancakes"
+    ],
+    "contexts": {
+      "팬케이크를 먹음": "먹었 성공 거둘",
+      "팬케이크를 구움": "구웠 검소 알뜰"
+    },
+    "contexts_en": {
+      "팬케이크를 먹음": "eating excellent success",
+      "팬케이크를 구움": "cook economical thrifty"
+    }
+  },
+  {
+    "id": "panorama",
+    "aliases": [
+      "파노라마가",
+      "파노라마를"
+    ],
+    "aliases_en": [],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

@@ -26,18 +26,21 @@
     "aliases": [
       "유리",
       "유리창",
-      "유리그릇"
+      "유리그릇",
+      "유리판"
     ],
     "aliases_en": [
       "glass"
     ],
     "contexts": {
-      "유리 너머로 내다봄": "너머로 내다",
+      "유리 너머로 내다봄": "내다봤 내다보",
       "유리 그릇이나 창을 깨뜨림": "깨뜨 깨졌 깨서",
       "새긴 유리를 받음": "받았 받은",
       "새긴 유리 장식을 선물함": "선물했 선물하 주었",
       "유리창 너머가 맑게 보임": "맑게 또렷",
-      "유리가 뿌옇게 흐림": "뿌옇 흐릿 흐려"
+      "유리가 뿌옇게 흐림": "뿌옇 흐릿 흐려",
+      "유리판을 다룸": "다뤘 다루는 불확실",
+      "유리창 너머로 남과 이야기함": "이야기 장애물 불편"
     },
     "contexts_en": {
       "유리 너머로 내다봄": "looking through bitter hopes",
@@ -45,7 +48,9 @@
       "새긴 유리를 받음": "receive cut admired brilliancy",
       "새긴 유리 장식을 선물함": "presents ornaments fail undertakings",
       "유리창 너머가 맑게 보임": "clearly window employment subordinately",
-      "유리가 뿌옇게 흐림": "clouded unfortunately situated"
+      "유리가 뿌옇게 흐림": "clouded unfortunately situated",
+      "유리판을 다룸": "handle dealing uncertainties",
+      "유리창 너머로 남과 이야기함": "talk person obstacles inconvenience"
     }
   },
   {

@@ -59,6 +59,7 @@
     "m149.json",
     "m15.json",
     "m150.json",
+    "m151.json",
     "m16.json",
     "m17.json",
     "m18.json",
@@ -22412,6 +22413,138 @@
       ]
     },
     {
+      "id": "glass",
+      "term_ko": "유리",
+      "term_en": "glass",
+      "aliases": [
+        "유리",
+        "유리창",
+        "유리그릇",
+        "유리판"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "유리 너머로 내다봄",
+          "interpretation_ko": "쓰라린 낙심이 가장 밝은 바람을 흐릴 흉한 조짐",
+          "interpretation_en": "denotes that bitter disappointments will cloud your brightest hopes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Glass",
+              "original": "To dream that you are looking through glass, denotes that bitter disappointments will cloud your brightest hopes.",
+              "translation_ko": "유리 너머로 내다보는 꿈은, 쓰라린 낙심이 가장 밝은 바람을 흐림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "유리판을 다룸",
+          "interpretation_ko": "불확실한 일을 다루고 있다는 조짐",
+          "interpretation_en": "you are dealing in uncertainties",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pane of Glass",
+              "original": "To dream that you handle a pane of glass, denotes that you are dealing in uncertainties.",
+              "translation_ko": "유리판을 다루는 꿈은, 불확실한 일을 다루고 있다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "유리창 너머로 남과 이야기함",
+          "interpretation_ko": "눈앞에 장애물이 있어 적잖이 불편할 조짐",
+          "interpretation_en": "there are obstacles in your immediate future, and they will cause you no slight inconvenience",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pane of Glass",
+              "original": "To talk to a person through a pane of glass, denotes that there are obstacles in your immediate future, and they will cause you no slight inconvenience.",
+              "translation_ko": "유리창 너머로 남과 이야기하는 꿈은, 눈앞에 장애물이 있어 적잖이 불편할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "유리 그릇이나 창을 깨뜨림",
+          "interpretation_ko": "벌인 일이 좋지 않게 끝날 흉한 조짐",
+          "interpretation_en": "foretells the unfavorable termination to enterprises",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Glass",
+              "original": "To break glass dishes, or windows, foretells the unfavorable termination to enterprises.",
+              "translation_ko": "유리 그릇이나 창을 깨뜨리면, 벌인 일이 좋지 않게 끝남을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "새긴 유리를 받음",
+          "interpretation_ko": "빛나는 재주로 우러름을 받을 길한 조짐",
+          "interpretation_en": "denotes that you will be admired for your brilliancy and talent",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Glass",
+              "original": "To receive cut glass, denotes that you will be admired for your brilliancy and talent.",
+              "translation_ko": "새긴 유리를 받는 것은, 빛나는 재주로 우러름을 받음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "새긴 유리 장식을 선물함",
+          "interpretation_ko": "벌인 일이 어그러질 흉한 조짐",
+          "interpretation_en": "signifies that you will fail in your undertakings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Glass",
+              "original": "To make presents of cut glass ornaments, signifies that you will fail in your undertakings.",
+              "translation_ko": "새긴 유리 장식을 선물하면, 벌인 일이 어그러짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "유리창 너머가 맑게 보임",
+          "interpretation_ko": "일자리는 얻으나 남의 밑에서 일하게 될 조짐",
+          "interpretation_en": "you will have employment, but will have to work subordinately",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Glass",
+              "original": "To look clearly through a glass window, you will have employment, but will have to work subordinately.",
+              "translation_ko": "유리창 너머가 맑게 보이면, 일자리는 얻으나 남의 밑에서 일하게 된다"
+            }
+          ]
+        },
+        {
+          "context": "유리가 뿌옇게 흐림",
+          "interpretation_ko": "처지가 딱하게 될 흉한 조짐",
+          "interpretation_en": "you will be unfortunately situated",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Glass",
+              "original": "If the glass is clouded, you will be unfortunately situated.",
+              "translation_ko": "유리가 흐리면, 처지가 딱하게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "handkerchief",
       "term_ko": "손수건",
       "term_en": "handkerchief",
@@ -30777,109 +30910,6 @@
               "locator": "Gate",
               "original": "To swing on one, foretells you will engage in idle and dissolute pleasures.",
               "translation_ko": "그것에 매달려 흔들리면, 헛되고 흐트러진 놀이에 빠짐을 알린다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "glass",
-      "term_ko": "유리",
-      "term_en": "glass",
-      "aliases": [
-        "유리",
-        "유리창",
-        "유리그릇"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "유리 너머로 내다봄",
-          "interpretation_ko": "쓰라린 낙심이 가장 밝은 바람을 흐릴 흉한 조짐",
-          "interpretation_en": "denotes that bitter disappointments will cloud your brightest hopes",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Glass",
-              "original": "To dream that you are looking through glass, denotes that bitter disappointments will cloud your brightest hopes.",
-              "translation_ko": "유리 너머로 내다보는 꿈은, 쓰라린 낙심이 가장 밝은 바람을 흐림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "유리 그릇이나 창을 깨뜨림",
-          "interpretation_ko": "벌인 일이 좋지 않게 끝날 흉한 조짐",
-          "interpretation_en": "foretells the unfavorable termination to enterprises",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Glass",
-              "original": "To break glass dishes, or windows, foretells the unfavorable termination to enterprises.",
-              "translation_ko": "유리 그릇이나 창을 깨뜨리면, 벌인 일이 좋지 않게 끝남을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "새긴 유리를 받음",
-          "interpretation_ko": "빛나는 재주로 우러름을 받을 길한 조짐",
-          "interpretation_en": "denotes that you will be admired for your brilliancy and talent",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Glass",
-              "original": "To receive cut glass, denotes that you will be admired for your brilliancy and talent.",
-              "translation_ko": "새긴 유리를 받는 것은, 빛나는 재주로 우러름을 받음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "새긴 유리 장식을 선물함",
-          "interpretation_ko": "벌인 일이 어그러질 흉한 조짐",
-          "interpretation_en": "signifies that you will fail in your undertakings",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Glass",
-              "original": "To make presents of cut glass ornaments, signifies that you will fail in your undertakings.",
-              "translation_ko": "새긴 유리 장식을 선물하면, 벌인 일이 어그러짐을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "유리창 너머가 맑게 보임",
-          "interpretation_ko": "일자리는 얻으나 남의 밑에서 일하게 될 조짐",
-          "interpretation_en": "you will have employment, but will have to work subordinately",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Glass",
-              "original": "To look clearly through a glass window, you will have employment, but will have to work subordinately.",
-              "translation_ko": "유리창 너머가 맑게 보이면, 일자리는 얻으나 남의 밑에서 일하게 된다"
-            }
-          ]
-        },
-        {
-          "context": "유리가 뿌옇게 흐림",
-          "interpretation_ko": "처지가 딱하게 될 흉한 조짐",
-          "interpretation_en": "you will be unfortunately situated",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Glass",
-              "original": "If the glass is clouded, you will be unfortunately situated.",
-              "translation_ko": "유리가 흐리면, 처지가 딱하게 된다"
             }
           ]
         }
@@ -66134,6 +66164,66 @@
       ]
     },
     {
+      "id": "palsy",
+      "term_ko": "중풍",
+      "term_en": "palsy",
+      "aliases": [
+        "중풍에",
+        "중풍이"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 중풍에 걸림",
+          "interpretation_ko": "불안정한 계약을 맺고 있다는 조짐",
+          "interpretation_en": "you are making unstable contracts",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palsy",
+              "original": "To dream that you are afflicted with palsy, denotes that you are making unstable contracts.",
+              "translation_ko": "제가 중풍에 걸리는 꿈은, 불안정한 계약을 맺고 있다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벗이 중풍에 걸림을 봄",
+          "interpretation_ko": "그의 신의가 불확실하고 병도 집에 들 수 있다는 조짐",
+          "interpretation_en": "there will be uncertainty as to his faithfulness and sickness, too, may enter your home",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palsy",
+              "original": "To see your friend so afflicted, there will be uncertainty as to his faithfulness and sickness, too, may enter your home.",
+              "translation_ko": "벗이 중풍에 걸린 것을 보는 꿈은, 그의 신의가 불확실하고 병도 집에 들 수 있다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "연인의 애인이 중풍에 걸림",
+          "interpretation_ko": "어떤 문제로 다툼이 생겨 행복이 흐려질 조짐",
+          "interpretation_en": "dissatisfaction over some question will mar their happiness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palsy",
+              "original": "For lovers to dream that their sweethearts have palsy, signifies that dissatisfaction over some question will mar their happiness.",
+              "translation_ko": "연인의 애인이 중풍에 걸리는 꿈은, 어떤 문제로 다툼이 생겨 행복이 흐려질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pavilion",
       "term_ko": "누각",
       "term_en": "pavilion",
@@ -88693,6 +88783,52 @@
       ]
     },
     {
+      "id": "pancake",
+      "term_ko": "팬케이크",
+      "term_en": "pancake",
+      "aliases": [
+        "팬케이크가",
+        "팬케이크를"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "팬케이크를 먹음",
+          "interpretation_ko": "지금 벌이는 일마다 큰 성공을 거둘 조짐",
+          "interpretation_en": "you will have excellent success in all enterprises undertaken at this time",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pancake",
+              "original": "To dream of eating pancakes, denotes that you will have excellent success in all enterprises undertaken at this time.",
+              "translation_ko": "팬케이크를 먹는 꿈은, 지금 벌이는 일마다 큰 성공을 거둘 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "팬케이크를 구움",
+          "interpretation_ko": "검소하고 알뜰하게 살림을 꾸릴 조짐",
+          "interpretation_en": "you will be economical and thrifty in your home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pancake",
+              "original": "To cook them, denotes that you will be economical and thrifty in your home.",
+              "translation_ko": "팬케이크를 굽는 꿈은, 검소하고 알뜰하게 살림을 꾸릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "paper",
       "term_ko": "종이",
       "term_en": "paper",
@@ -100414,6 +100550,38 @@
               "locator": "Palisade",
               "original": "To dream of the palisades, denotes that you will alter well-formed plans to please strangers, and by so doing, you will impair your own interests.",
               "translation_ko": "말뚝 울타리 꿈은, 낯선 이를 기쁘게 하려 잘 세운 계획을 바꾸다 제 이익을 해칠 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panorama",
+      "term_ko": "파노라마",
+      "term_en": "panorama",
+      "aliases": [
+        "파노라마가",
+        "파노라마를"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "파노라마를 봄",
+          "interpretation_ko": "직업이나 거처를 바꿀 조짐",
+          "interpretation_en": "you will change your occupation or residence",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Panorama",
+              "original": "To dream of a panorama, denotes that you will change your occupation or residence.",
+              "translation_ko": "파노라마를 보는 꿈은, 직업이나 거처를 바꿀 조짐이다"
             }
           ]
         }

@@ -6663,5 +6663,11 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "palm-tree": [
     "palm trees",
     "avenue of palms"
+  ],
+  "palsy": [
+    "afflicted with palsy"
+  ],
+  "pancake": [
+    "pancakes"
   ]
 };

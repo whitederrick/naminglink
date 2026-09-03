@@ -1,0 +1,37 @@
+{
+  "batch": 151,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Palsy",
+      "text": "To dream that you are afflicted with palsy, denotes that you are making unstable contracts. To see your friend so afflicted, there will be uncertainty as to his faithfulness and sickness, too, may enter your home. For lovers to dream that their sweethearts have palsy, signifies that dissatisfaction over some question will mar their happiness.",
+      "note": "새 상징 `palsy`(중풍)"
+    },
+    {
+      "headword": "Pancake",
+      "text": "To dream of eating pancakes, denotes that you will have excellent success in all enterprises undertaken at this time. To cook them, denotes that you will be economical and thrifty in your home.",
+      "note": "새 상징 `pancake`(팬케이크)"
+    },
+    {
+      "headword": "Pane of Glass",
+      "text": "To dream that you handle a pane of glass, denotes that you are dealing in uncertainties. If you break it, your failure will be accentuated. To talk to a person through a pane of glass, denotes that there are obstacles in your immediate future, and they will cause you no slight inconvenience.",
+      "note": "기존 상징 `glass`(유리, 밀러 `Glass`)에 둘을 더한다. 「깨면 실패가 두드러짐」은 이미 있는 `glass`의 「유리 그릇이나 창을 깨뜨림」과 같은 그림(유리를 깨뜨림=불리한 결말)이라 뺐다"
+    },
+    {
+      "headword": "Panorama",
+      "text": "To dream of a panorama, denotes that you will change your occupation or residence. You should curb your inclinations for change of scene and friends.",
+      "note": "새 상징 `panorama`(파노라마). 뒷문장은 총평·조언이라 안 넣었다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "If you break it, your failure will be accentuated.",
+      "reason": "`Pane of Glass` — 이미 있는 `glass`의 「유리 그릇이나 창을 깨뜨림」(밀러 `Glass`)과 같은 그림(유리를 깨뜨림=불리한 결말)이라 가를 수 없다"
+    },
+    {
+      "sentence": "You should curb your inclinations for change of scene and friends.",
+      "reason": "`Panorama` — 구체적인 꿈의 그림이 없는 총평·조언이다"
+    }
+  ]
+}

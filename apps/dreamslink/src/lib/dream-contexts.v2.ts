@@ -3784,6 +3784,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "glass::새긴 유리 장식을 선물함": "presents ornaments fail undertakings",
   "glass::유리창 너머가 맑게 보임": "clearly window employment subordinately",
   "glass::유리가 뿌옇게 흐림": "clouded unfortunately situated",
+  "glass::유리판을 다룸": "handle dealing uncertainties",
+  "glass::유리창 너머로 남과 이야기함": "talk person obstacles inconvenience",
   "glass-house::유리집을 봄": "injured listening flattery",
   "glass-house::처녀가 유리집에서 삶": "young woman living coming reputation",
   "gleaning::가을걷이 때 이삭 줍는 이들을 봄": "harvest prosperous farmer bountiful",
@@ -4796,5 +4798,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "palmistry::나의 손금을 봄": "own palms opposite sex condemn",
   "palm-tree::야자수를 봄": "hopeful situations happiness",
   "palm-tree::처녀가 야자수 늘어선 길을 지남": "passing cheerful faithful husband",
-  "palm-tree::야자수가 시듦": "withered unexpected sorrowful"
+  "palm-tree::야자수가 시듦": "withered unexpected sorrowful",
+  "palsy::제가 중풍에 걸림": "unstable contracts",
+  "palsy::벗이 중풍에 걸림을 봄": "friend faithfulness uncertainty",
+  "palsy::연인의 애인이 중풍에 걸림": "lovers sweethearts dissatisfaction",
+  "pancake::팬케이크를 먹음": "eating excellent success",
+  "pancake::팬케이크를 구움": "cook economical thrifty"
 };
