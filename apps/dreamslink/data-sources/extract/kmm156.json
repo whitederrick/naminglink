@@ -1,0 +1,86 @@
+[
+  {
+    "id": "parting",
+    "aliases": [
+      "작별을",
+      "작별하는",
+      "작별했다",
+      "헤어짐",
+      "헤어졌다"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "벗과 작별함": "벗과 성가심",
+      "원수와 헤어짐": "원수와 성공"
+    },
+    "contexts_en": {
+      "벗과 작별함": "friends vexations daily",
+      "원수와 헤어짐": "enemies success love"
+    }
+  },
+  {
+    "id": "partner",
+    "aliases": [
+      "동업자가",
+      "동업자를"
+    ],
+    "aliases_en": [
+      "business partner"
+    ],
+    "contexts": {
+      "동업자가 사기그릇 바구니를 지다 떨어뜨려 뒤섞음": "떨어뜨려 뒤섞 손실",
+      "그 일로 동업자를 꾸짖음": "꾸짖 되찾을"
+    },
+    "contexts_en": {
+      "동업자가 사기그릇 바구니를 지다 떨어뜨려 뒤섞음": "crockery fall mixed loss",
+      "그 일로 동업자를 꾸짖음": "reprimand recover"
+    }
+  },
+  {
+    "id": "partnership",
+    "aliases": [
+      "동업을",
+      "동업하는",
+      "동업했다"
+    ],
+    "aliases_en": [
+      "partnerships"
+    ],
+    "contexts": {
+      "남자와 동업을 맺음": "남자와 맺음 불안정",
+      "여자와 동업함": "여자와 숨기려",
+      "불쾌했던 동업을 해소함": "불쾌했던 바라던",
+      "즐거웠던 동업을 해소함": "즐거웠던 심란한"
+    },
+    "contexts_en": {
+      "남자와 동업을 맺음": "uncertain fluctuating",
+      "여자와 동업함": "woman hidden friends",
+      "불쾌했던 동업을 해소함": "dissolve unpleasant desires",
+      "즐거웠던 동업을 해소함": "disquieting turns"
+    }
+  },
+  {
+    "id": "partridge",
+    "aliases": [
+      "자고새가",
+      "자고새를"
+    ],
+    "aliases_en": [
+      "partridges"
+    ],
+    "contexts": {
+      "자고새를 덫으로 잡음": "덫으로 잡았 기대",
+      "자고새를 죽임": "죽였 재산을 남에게",
+      "자고새를 먹음": "먹었 영예",
+      "자고새가 나는 것을 봄": "나는 날아 밝은",
+      "자고새를 봄": "모으기 좋은 여건"
+    },
+    "contexts_en": {
+      "자고새를 덫으로 잡음": "ensnare fortunate expectations",
+      "자고새를 죽임": "kill wealth given others",
+      "자고새를 먹음": "eat deserved honors",
+      "자고새가 나는 것을 봄": "flying promising future",
+      "자고새를 봄": "accumulation property"
+    }
+  }
+]

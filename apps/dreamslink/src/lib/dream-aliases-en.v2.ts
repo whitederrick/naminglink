@@ -6693,5 +6693,14 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "parsnip": [
     "parsnips"
+  ],
+  "partner": [
+    "business partner"
+  ],
+  "partnership": [
+    "partnerships"
+  ],
+  "partridge": [
+    "partridges"
   ]
 };

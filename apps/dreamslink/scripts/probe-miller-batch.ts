@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 155 — Park~Parsnips, 11건)
+// (지금 담긴 것: 배치 156 — Parting~Partridge, 13건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -340,6 +340,19 @@ const CASES: Case[] = [
   { id: "parsley", ctx: "파슬리를 봄", text: "파슬리를 보았다" },
   { id: "parsley", ctx: "파슬리를 먹음", text: "파슬리를 먹었다" },
   { id: "parsnip", ctx: "파스닙을 보거나 먹음", text: "파스닙을 보았다" },
+  { id: "parting", ctx: "벗과 작별함", text: "벗과 작별했다" },
+  { id: "parting", ctx: "원수와 헤어짐", text: "원수와 헤어졌다" },
+  { id: "partner", ctx: "동업자가 사기그릇 바구니를 지다 떨어뜨려 뒤섞음", text: "동업자가 사기그릇 바구니를 지다 떨어뜨려 뒤섞었다" },
+  { id: "partner", ctx: "그 일로 동업자를 꾸짖음", text: "그 일로 동업자를 꾸짖었다" },
+  { id: "partnership", ctx: "남자와 동업을 맺음", text: "남자와 동업을 맺었다" },
+  { id: "partnership", ctx: "여자와 동업함", text: "여자와 동업했다" },
+  { id: "partnership", ctx: "불쾌했던 동업을 해소함", text: "불쾌했던 동업을 해소했다" },
+  { id: "partnership", ctx: "즐거웠던 동업을 해소함", text: "즐거웠던 동업을 해소했다" },
+  { id: "partridge", ctx: "자고새를 봄", text: "자고새를 보았다" },
+  { id: "partridge", ctx: "자고새를 덫으로 잡음", text: "자고새를 덫으로 잡았다" },
+  { id: "partridge", ctx: "자고새를 죽임", text: "자고새를 죽였다" },
+  { id: "partridge", ctx: "자고새를 먹음", text: "자고새를 먹었다" },
+  { id: "partridge", ctx: "자고새가 나는 것을 봄", text: "자고새가 나는 것을 보았다" },
 ];
 
 let notFound = 0;

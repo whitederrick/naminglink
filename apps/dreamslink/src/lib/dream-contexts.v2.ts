@@ -4849,5 +4849,18 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "park::연인과 공원을 거님": "lover comfortably married",
   "park::풀과 나무가 시든 공원을 봄": "ill-kept devoid reverses",
   "parsley::파슬리를 봄": "hard-earned success lively",
-  "parsley::파슬리를 먹음": "eat good health family"
+  "parsley::파슬리를 먹음": "eat good health family",
+  "parting::벗과 작별함": "friends vexations daily",
+  "parting::원수와 헤어짐": "enemies success love",
+  "partner::동업자가 사기그릇 바구니를 지다 떨어뜨려 뒤섞음": "crockery fall mixed loss",
+  "partner::그 일로 동업자를 꾸짖음": "reprimand recover",
+  "partnership::남자와 동업을 맺음": "uncertain fluctuating",
+  "partnership::여자와 동업함": "woman hidden friends",
+  "partnership::불쾌했던 동업을 해소함": "dissolve unpleasant desires",
+  "partnership::즐거웠던 동업을 해소함": "disquieting turns",
+  "partridge::자고새를 덫으로 잡음": "ensnare fortunate expectations",
+  "partridge::자고새를 죽임": "kill wealth given others",
+  "partridge::자고새를 먹음": "eat deserved honors",
+  "partridge::자고새가 나는 것을 봄": "flying promising future",
+  "partridge::자고새를 봄": "accumulation property"
 };

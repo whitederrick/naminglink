@@ -1,0 +1,197 @@
+[
+  {
+    "term_ko": "작별",
+    "term_en": "parting",
+    "context": "벗과 작별함",
+    "interpretation_ko": "일상에 자잘한 성가심이 많이 생길 조짐",
+    "interpretation_en": "many little vexations will come into your daily life",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Parting",
+      "original": "To dream of parting with friends and companions, denotes that many little vexations will come into your daily life.",
+      "translation_ko": "벗과 작별하는 꿈은, 일상에 자잘한 성가심이 많이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "작별",
+    "term_en": "parting",
+    "context": "원수와 헤어짐",
+    "interpretation_ko": "사랑과 사업에서 성공할 조짐",
+    "interpretation_en": "it is a sign of success in love and business",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Parting",
+      "original": "If you part with enemies, it is a sign of success in love and business.",
+      "translation_ko": "원수와 헤어지는 꿈은, 사랑과 사업에서 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "동업자",
+    "term_en": "partner",
+    "context": "동업자가 사기그릇 바구니를 지다 떨어뜨려 뒤섞음",
+    "interpretation_ko": "동업자의 부주의한 처리로 사업에 손실을 입을 조짐",
+    "interpretation_en": "denotes your business will sustain a loss through the indiscriminate dealings of your partner",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Partner",
+      "original": "To dream of seeing your business partner with a basket of crockery on his back, and, letting it fall, gets it mixed with other crockery, denotes your business will sustain a loss through the indiscriminate dealings of your partner.",
+      "translation_ko": "동업자가 사기그릇 바구니를 지다 떨어뜨려 뒤섞는 꿈은, 동업자의 부주의한 처리로 사업에 손실을 입을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "동업자",
+    "term_en": "partner",
+    "context": "그 일로 동업자를 꾸짖음",
+    "interpretation_ko": "얼마간 손실을 되찾을 조짐",
+    "interpretation_en": "you will, to some extent, recover the loss",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Partner",
+      "original": "If you reprimand him for it, you will, to some extent, recover the loss.",
+      "translation_ko": "그 일로 동업자를 꾸짖는 꿈은, 얼마간 손실을 되찾을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "동업",
+    "term_en": "partnership",
+    "context": "남자와 동업을 맺음",
+    "interpretation_ko": "불안정하고 오락가락하는 돈 문제를 겪을 조짐",
+    "interpretation_en": "denotes uncertain and fluctuating money affairs",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Partnership",
+      "original": "To dream of forming a partnership with a man, denotes uncertain and fluctuating money affairs.",
+      "translation_ko": "남자와 동업을 맺는 꿈은, 불안정하고 오락가락하는 돈 문제를 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "동업",
+    "term_en": "partnership",
+    "context": "여자와 동업함",
+    "interpretation_ko": "벗에게 숨기려 애쓸 일을 벌일 조짐",
+    "interpretation_en": "you will engage in some enterprise which you will endeavor to keep hidden from friends",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Partnership",
+      "original": "If your partner be a woman, you will engage in some enterprise which you will endeavor to keep hidden from friends.",
+      "translation_ko": "여자와 동업하는 꿈은, 벗에게 숨기려 애쓸 일을 벌일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "동업",
+    "term_en": "partnership",
+    "context": "불쾌했던 동업을 해소함",
+    "interpretation_ko": "바라던 대로 일이 풀릴 조짐",
+    "interpretation_en": "denotes that things will arrange themselves agreeable to your desires",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Partnership",
+      "original": "To dissolve an unpleasant partnership, denotes that things will arrange themselves agreeable to your desires; but if the partnership was pleasant, there will be disquieting news and disagreeable turns in your affairs.",
+      "translation_ko": "불쾌했던 동업을 해소하는 꿈은, 바라던 대로 일이 풀릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "동업",
+    "term_en": "partnership",
+    "context": "즐거웠던 동업을 해소함",
+    "interpretation_ko": "심란한 소식과 일이 어긋나는 조짐",
+    "interpretation_en": "there will be disquieting news and disagreeable turns in your affairs",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Partnership",
+      "original": "To dissolve an unpleasant partnership, denotes that things will arrange themselves agreeable to your desires; but if the partnership was pleasant, there will be disquieting news and disagreeable turns in your affairs.",
+      "translation_ko": "즐거웠던 동업을 해소하는 꿈은, 심란한 소식과 일이 어긋나는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "자고새",
+    "term_en": "partridge",
+    "context": "자고새를 봄",
+    "interpretation_ko": "재산을 모으기 좋은 여건이 다가올 조짐",
+    "interpretation_en": "denotes that conditions will be good in your immediate future for the accumulation of property",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Partridge",
+      "original": "Partridges seen in your dreams, denotes that conditions will be good in your immediate future for the accumulation of property.",
+      "translation_ko": "자고새를 보는 꿈은, 재산을 모으기 좋은 여건이 다가올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "자고새",
+    "term_en": "partridge",
+    "context": "자고새를 덫으로 잡음",
+    "interpretation_ko": "바라던 일이 잘 풀릴 조짐",
+    "interpretation_en": "signifies that you will be fortunate in expectations",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Partridge",
+      "original": "To ensnare them, signifies that you will be fortunate in expectations.",
+      "translation_ko": "자고새를 덫으로 잡는 꿈은, 바라던 일이 잘 풀릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "자고새",
+    "term_en": "partridge",
+    "context": "자고새를 죽임",
+    "interpretation_ko": "성공하되 재산 상당수를 남에게 내줄 조짐",
+    "interpretation_en": "foretells that you will be successful, but much of your wealth will be given to others",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Partridge",
+      "original": "To kill them, foretells that you will be successful, but much of your wealth will be given to others.",
+      "translation_ko": "자고새를 죽이는 꿈은, 성공하되 재산 상당수를 남에게 내줄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "자고새",
+    "term_en": "partridge",
+    "context": "자고새를 먹음",
+    "interpretation_ko": "합당한 영예를 누릴 조짐",
+    "interpretation_en": "signifies the enjoyment of deserved honors",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Partridge",
+      "original": "To eat them, signifies the enjoyment of deserved honors.",
+      "translation_ko": "자고새를 먹는 꿈은, 합당한 영예를 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "자고새",
+    "term_en": "partridge",
+    "context": "자고새가 나는 것을 봄",
+    "interpretation_ko": "밝은 미래가 앞에 있다는 조짐",
+    "interpretation_en": "denotes that a promising future is before you",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Partridge",
+      "original": "To see them flying, denotes that a promising future is before you.",
+      "translation_ko": "자고새가 나는 것을 보는 꿈은, 밝은 미래가 앞에 있다는 조짐이다"
+    }
+  }
+]
