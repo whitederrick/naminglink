@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "무릎",
+    "term_en": "knee",
+    "context": "무릎 꿈을 꿈",
+    "interpretation_ko": "복이 따르지 않는 흉한 조짐",
+    "interpretation_en": "is an unfortunate omen",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Knee",
+      "original": "To dream of knees is an unfortunate omen.",
+      "translation_ko": "무릎 꿈은 복이 따르지 않는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "무릎",
+    "term_en": "knee",
+    "context": "무릎이 너무 큼",
+    "interpretation_ko": "갑작스레 불운이 닥칠 흉한 조짐",
+    "interpretation_en": "denotes sudden ill luck for you",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Knee",
+      "original": "To dream that your knees are too large, denotes sudden ill luck for you.",
+      "translation_ko": "무릎이 너무 큰 꿈을 꾸면 갑작스레 불운이 닥친다"
+    }
+  },
+  {
+    "term_ko": "무릎",
+    "term_en": "knee",
+    "context": "무릎이 뻣뻣하고 아픔",
+    "interpretation_ko": "빠르고 무서운 재앙이 기다릴 흉한 조짐",
+    "interpretation_en": "swift and fearful calamity awaits you",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Knee",
+      "original": "If they are stiff and pain you, swift and fearful calamity awaits you.",
+      "translation_ko": "무릎이 뻣뻣하고 아프면 빠르고 무서운 재앙이 기다린다"
+    }
+  },
+  {
+    "term_ko": "무릎",
+    "term_en": "knee",
+    "context": "무릎이 곱고 매끈함",
+    "interpretation_ko": "따르는 이가 많으나 혼인을 청하는 이는 없을 조짐",
+    "interpretation_en": "predicts she will have many admirers, but none to woo her in wedlock",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Knee",
+      "original": "For a woman to dream that she has well-formed and smooth knees, predicts she will have many admirers, but none to woo her in wedlock.",
+      "translation_ko": "여자가 제 무릎이 곱고 매끈한 꿈을 꾸면 따르는 이가 많으나 혼인을 청하는 이는 없다"
+    }
+  },
+  {
+    "term_ko": "무릎",
+    "term_en": "knee",
+    "context": "무릎이 더러움",
+    "interpretation_ko": "방탕한 생활로 병이 들 흉한 조짐",
+    "interpretation_en": "sickness from dissipation is portended",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Knee",
+      "original": "If they are soiled, sickness from dissipation is portended.",
+      "translation_ko": "무릎이 더러우면 방탕한 생활로 병이 든다"
+    }
+  },
+  {
+    "term_ko": "무릎",
+    "term_en": "knee",
+    "context": "무릎이 볼품없음",
+    "interpretation_ko": "간절히 품던 바람이 궂은 변화에 밀려날 흉한 조짐",
+    "interpretation_en": "unhappy changes in her fortune will displace ardent hopes",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Knee",
+      "original": "If they are unshapely, unhappy changes in her fortune will displace ardent hopes.",
+      "translation_ko": "무릎이 볼품없으면 간절히 품던 바람이 궂은 변화에 밀려난다"
+    }
+  },
+  {
+    "term_ko": "칼",
+    "term_en": "sword",
+    "context": "칼을 봄",
+    "interpretation_ko": "헤어짐과 다툼이 있고 하는 일에 손해가 따를 흉한 조짐",
+    "interpretation_en": "portends separation and quarrels, and losses in affairs of a business character",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Knife",
+      "original": "To dream of a knife is bad for the dreamer, as it portends separation and quarrels, and losses in affairs of a business character.",
+      "translation_ko": "칼의 꿈은 꿈꾼 이에게 나쁘며, 헤어짐과 다툼과 일의 손해를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "칼",
+    "term_en": "sword",
+    "context": "녹슨 칼을 봄",
+    "interpretation_ko": "집안 사람의 불만과 푸념이 있고 정인과 갈라설 흉한 조짐",
+    "interpretation_en": "means dissatisfaction, and complaints of those in the home, and separation of lovers",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Knife",
+      "original": "To see rusty knives, means dissatisfaction, and complaints of those in the home, and separation of lovers.",
+      "translation_ko": "녹슨 칼을 보면 집안 사람의 불만과 푸념이 있고 정인과 갈라선다"
+    }
+  },
+  {
+    "term_ko": "칼",
+    "term_en": "sword",
+    "context": "시퍼렇게 잘 벼린 칼을 봄",
+    "interpretation_ko": "속을 태우게 되고 적이 늘 에워싸고 있을 흉한 조짐",
+    "interpretation_en": "denotes worry; foes are ever surrounding you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Knife",
+      "original": "Sharp knives and highly polished, denotes worry.",
+      "translation_ko": "날이 서고 번쩍이는 칼은 속을 태우게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "칼",
+    "term_en": "sword",
+    "context": "동강 난 칼을 봄",
+    "interpretation_ko": "사랑에서든 하는 일에서든 지고 말 흉한 조짐",
+    "interpretation_en": "denotes defeat whatever the pursuit, whether in love or business",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Knife",
+      "original": "Broken knives, denotes defeat whatever the pursuit, whether in love or business.",
+      "translation_ko": "동강 난 칼은 사랑에서든 일에서든 지고 마는 것을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "칼갈이",
+    "term_en": "knife grinder",
+    "context": "칼갈이를 봄",
+    "interpretation_ko": "제 물건에 함부로 손대는 이가 있을 흉한 조짐",
+    "interpretation_en": "foretells unwarrantable liberties will be taken with your possessions",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Knife Grinder",
+      "original": "To dream of a knife grinder, foretells unwarrantable liberties will be taken with your possessions.",
+      "translation_ko": "칼 가는 이의 꿈은 제 물건에 함부로 손대는 이가 있으리라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "칼갈이",
+    "term_en": "knife grinder",
+    "context": "여자가 칼갈이 꿈을 꿈",
+    "interpretation_ko": "혼인이 즐겁지 못하고 고된 일이 많을 흉한 조짐",
+    "interpretation_en": "this omens unhappy unions and much drudgery",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Knife Grinder",
+      "original": "For a woman, this omens unhappy unions and much drudgery.",
+      "translation_ko": "여자에게 이 꿈은 즐겁지 못한 혼인과 고된 일을 뜻한다"
+    }
+  }
+]

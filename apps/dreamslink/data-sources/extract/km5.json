@@ -6,7 +6,10 @@
       "장검",
       "식칼",
       "도검",
-      "비수"
+      "비수",
+      "칼이",
+      "칼을",
+      "부엌칼"
     ],
     "aliases_en": [
       "blade",
@@ -37,8 +40,12 @@
       "칼을 들고 스스로를 찌름": "스스로를 자결 자살 자기를",
       "칼에 찔림": "찔렸 찔려 찔림",
       "칼을 들고 서로 싸움": "싸웠 싸움 결투 맞붙",
-      "칼에 스스로 다침": "베였 베어서 자기손 상처",
-      "칼로 남을 벰": "베었 베어버 목을 내리쳐"
+      "칼에 스스로 다침": "베였 베어서 자기손 상처 다쳤 손을",
+      "칼로 남을 벰": "베었 베어버 목을 내리쳐",
+      "칼을 봄": "헤어짐 다툼이",
+      "녹슨 칼을 봄": "녹슨 녹이 녹슬",
+      "시퍼렇게 잘 벼린 칼을 봄": "시퍼런 시퍼렇 번쩍이",
+      "동강 난 칼을 봄": "동강 날이 나간"
     },
     "contexts_en": {
       "깃발과 칼이 산속으로 이끌어 들임": "banner flag mountain",
@@ -63,7 +70,11 @@
       "칼에 찔림": "stabbed pierced",
       "칼을 들고 서로 싸움": "fight fought duel battle",
       "칼에 스스로 다침": "cut wounded scratched",
-      "칼로 남을 벰": "slashed beheaded chopped"
+      "칼로 남을 벰": "slashed beheaded chopped",
+      "칼을 봄": "portends separation quarrels business character",
+      "녹슨 칼을 봄": "rusty dissatisfaction complaints lovers",
+      "시퍼렇게 잘 벼린 칼을 봄": "polished worry foes surrounding",
+      "동강 난 칼을 봄": "defeat pursuit whether"
     }
   },
   {

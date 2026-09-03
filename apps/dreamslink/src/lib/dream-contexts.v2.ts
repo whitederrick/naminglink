@@ -674,6 +674,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "sword::칼을 들고 서로 싸움": "fight fought duel battle",
   "sword::칼에 스스로 다침": "cut wounded scratched",
   "sword::칼로 남을 벰": "slashed beheaded chopped",
+  "sword::칼을 봄": "portends separation quarrels business character",
+  "sword::녹슨 칼을 봄": "rusty dissatisfaction complaints lovers",
+  "sword::시퍼렇게 잘 벼린 칼을 봄": "polished worry foes surrounding",
+  "sword::동강 난 칼을 봄": "defeat pursuit whether",
   "fish::물고기가 물 위로 날아오름": "flying flew air",
   "fish::우물 안에 물고기가 있음": "well",
   "fish::그물을 쳐서 물고기를 잡음": "net nets fishing",
@@ -3829,5 +3833,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "kite::아이들이 연을 날리는 것을 봄": "children pleasant light occupation",
   "kite::연이 보이지 않을 만큼 높이 오름": "ascends beyond vision aspirations resolve",
   "knapsack::배낭을 봄": "greatest pleasure away associations",
-  "knapsack::낡고 해진 배낭을 봄": "dilapidated poverty disagreeableness"
+  "knapsack::낡고 해진 배낭을 봄": "dilapidated poverty disagreeableness",
+  "knee::무릎 꿈을 꿈": "unfortunate omen",
+  "knee::무릎이 너무 큼": "too large sudden ill luck",
+  "knee::무릎이 뻣뻣하고 아픔": "stiff pain swift fearful calamity",
+  "knee::무릎이 곱고 매끈함": "well-formed smooth admirers wedlock",
+  "knee::무릎이 더러움": "soiled dissipation portended",
+  "knee::무릎이 볼품없음": "unshapely displace ardent hopes",
+  "knife-grinder::칼갈이를 봄": "unwarrantable liberties possessions",
+  "knife-grinder::여자가 칼갈이 꿈을 꿈": "woman omens unhappy unions drudgery"
 };

@@ -5920,5 +5920,12 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "knapsack": [
     "a knapsack"
+  ],
+  "knee": [
+    "knees",
+    "a knee"
+  ],
+  "knife-grinder": [
+    "a knife grinder"
   ]
 };

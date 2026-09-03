@@ -1,0 +1,50 @@
+[
+  {
+    "id": "knee",
+    "aliases": [
+      "무릎이",
+      "무릎을",
+      "무릎에",
+      "무르팍"
+    ],
+    "aliases_en": [
+      "knees",
+      "a knee"
+    ],
+    "contexts": {
+      "무릎 꿈을 꿈": "언짢은 꿈자리",
+      "무릎이 너무 큼": "너무 커다란 굵은",
+      "무릎이 뻣뻣하고 아픔": "뻣뻣 아팠 쑤시",
+      "무릎이 곱고 매끈함": "곱고 매끈 반드러",
+      "무릎이 더러움": "더러 때가 지저분",
+      "무릎이 볼품없음": "볼품없 흉하게 못생"
+    },
+    "contexts_en": {
+      "무릎 꿈을 꿈": "unfortunate omen",
+      "무릎이 너무 큼": "too large sudden ill luck",
+      "무릎이 뻣뻣하고 아픔": "stiff pain swift fearful calamity",
+      "무릎이 곱고 매끈함": "well-formed smooth admirers wedlock",
+      "무릎이 더러움": "soiled dissipation portended",
+      "무릎이 볼품없음": "unshapely displace ardent hopes"
+    }
+  },
+  {
+    "id": "knife-grinder",
+    "aliases": [
+      "칼 가는 사람",
+      "칼갈이꾼",
+      "숫돌질하는 사람"
+    ],
+    "aliases_en": [
+      "a knife grinder"
+    ],
+    "contexts": {
+      "칼갈이를 봄": "보았다 보였다",
+      "여자가 칼갈이 꿈을 꿈": "여자가 여성이"
+    },
+    "contexts_en": {
+      "칼갈이를 봄": "unwarrantable liberties possessions",
+      "여자가 칼갈이 꿈을 꿈": "woman omens unhappy unions drudgery"
+    }
+  }
+]

@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 77 — Kitchen~Knapsack, 18건)
+// (지금 담긴 것: 배치 78 — Knee~Knife Grinder, 17건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,26 +30,25 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "kitchen", ctx: "부엌을 봄", text: "부엌에서 갑작스러운 일을 맞닥뜨렸다" },
-  { id: "kitchen", ctx: "부엌이 정갈하고 반듯함", text: "부엌이 정갈하고 반듯했다" },
-  { id: "kite", ctx: "연을 날림", text: "연을 날렸다" },
-  { id: "kite", ctx: "연이 땅에 떨어진 것을 봄", text: "연이 땅에 떨어져 있었다" },
-  { id: "kite", ctx: "연을 만듦", text: "연을 손수 만들었다" },
-  { id: "kite", ctx: "아이들이 연을 날리는 것을 봄", text: "아이들이 연을 날리고 있었다" },
-  { id: "kite", ctx: "연이 보이지 않을 만큼 높이 오름", text: "연이 까마득히 높이 올랐다" },
-  { id: "cat", ctx: "곱고 통통한 흰 새끼 고양이를 봄", text: "통통한 흰 새끼 고양이를 보았다" },
-  { id: "cat", ctx: "얼룩지고 여윈 새끼 고양이를 봄", text: "얼룩진 새끼 고양이를 보았다" },
-  { id: "cat", ctx: "새끼 고양이를 봄", text: "새끼 고양이를 보았다" },
-  { id: "cat", ctx: "새끼 고양이를 죽임", text: "새끼 고양이를 죽였다" },
-  { id: "cat", ctx: "뱀이 새끼 고양이를 물어 죽이는 것을 봄", text: "뱀이 새끼 고양이를 물어 죽이는 것을 보았다" },
-  { id: "knapsack", ctx: "배낭을 봄", text: "배낭을 보았다" },
-  { id: "knapsack", ctx: "낡고 해진 배낭을 봄", text: "낡고 해진 배낭을 보았다" },
+  { id: "knee", ctx: "무릎 꿈을 꿈", text: "무릎이 나오는 언짢은 꿈자리였다" },
+  { id: "knee", ctx: "무릎이 너무 큼", text: "무릎이 너무 커다랬다" },
+  { id: "knee", ctx: "무릎이 뻣뻣하고 아픔", text: "무릎이 뻣뻣하고 아팠다" },
+  { id: "knee", ctx: "무릎이 곱고 매끈함", text: "무릎이 곱고 매끈했다" },
+  { id: "knee", ctx: "무릎이 더러움", text: "무릎이 더러웠다" },
+  { id: "knee", ctx: "무릎이 볼품없음", text: "무릎이 볼품없었다" },
+  { id: "sword", ctx: "칼을 봄", text: "칼 때문에 헤어짐과 다툼이 있었다" },
+  { id: "sword", ctx: "녹슨 칼을 봄", text: "녹슨 칼을 보았다" },
+  { id: "sword", ctx: "시퍼렇게 잘 벼린 칼을 봄", text: "시퍼렇게 번쩍이는 칼을 보았다" },
+  { id: "sword", ctx: "동강 난 칼을 봄", text: "동강 난 칼을 보았다" },
+  { id: "knife-grinder", ctx: "칼갈이를 봄", text: "칼갈이를 보았다" },
+  { id: "knife-grinder", ctx: "여자가 칼갈이 꿈을 꿈", text: "여자가 칼갈이 꿈을 꾸었다" },
 
   // 이 배치가 판별어를 더한 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "cat", ctx: "깨끗한 흰 고양이를 봄", text: "깨끗한 하얀 고양이를 보았다" },
-  { id: "cat", ctx: "여위고 지저분한 고양이를 만남", text: "여위고 지저분한 고양이를 만났다" },
-  { id: "kitchen", ctx: "부엌에서 불이 남", text: "부엌에서 불이 났다" },
-  { id: "kitchen", ctx: "부엌과 부뚜막을 고쳐 지음", text: "부엌과 부뚜막을 고쳐 지었다" },
+  { id: "sword", ctx: "칼을 잃어버림", text: "칼을 잃어버렸다" },
+  { id: "sword", ctx: "부러진 칼로 남을 찌름", text: "부러진 칼로 남을 찔렀다" },
+  { id: "sword", ctx: "칼을 갈아 날이 날카로워짐", text: "숫돌에 칼을 갈아 날카롭게 했다" },
+  { id: "sword", ctx: "칼에 스스로 다침", text: "칼에 손을 다쳤다" },
+  { id: "sword", ctx: "깃발과 칼이 산속으로 이끌어 들임", text: "깃발과 칼이 산속으로 이끌었다" },
 ];
 
 let notFound = 0;
