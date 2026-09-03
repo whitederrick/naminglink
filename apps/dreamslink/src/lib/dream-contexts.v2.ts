@@ -1395,6 +1395,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "handkerchief::처녀가 손수건을 흔들어 인사함": "wave adieu recognition questionable trip",
   "paper::오색 종이를 봄": "colored colorful saw",
   "paper::오색 종이를 삼킴": "swallowed swallowing ate",
+  "paper::종이나 양피지를 다루거나 참조함": "refer handle losses lawsuit",
+  "paper::처녀가 종이나 양피지 꿈을 꿈": "young woman angry lover acquaintances",
+  "paper::기혼자가 종이나 양피지 꿈을 꿈": "married disagreements home",
   "pork::돼지고기를 먹음": "eating ate eat",
   "pork::칼로 돼지고기를 자름": "knife cutting cut sliced",
   "sparrow::참새가 쥐와 싸움": "mouse rat fighting fought",
@@ -4803,5 +4806,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "palsy::벗이 중풍에 걸림을 봄": "friend faithfulness uncertainty",
   "palsy::연인의 애인이 중풍에 걸림": "lovers sweethearts dissatisfaction",
   "pancake::팬케이크를 먹음": "eating excellent success",
-  "pancake::팬케이크를 구움": "cook economical thrifty"
+  "pancake::팬케이크를 구움": "cook economical thrifty",
+  "panther::흑표범을 보고 겁에 질림": "fright canceled contracts",
+  "panther::흑표범을 죽이거나 제압함": "killing overpowering joy",
+  "panther::흑표범이 위협하듯 나타남": "menaces disappointments recede",
+  "panther::흑표범 울음소리를 듣고 공포를 느낌": "voice terror unfavorable discord",
+  "pantomime::무언극을 봄": "friends deceive",
+  "pantomime::무언극에 참여함": "participate offense satisfactory"
 };

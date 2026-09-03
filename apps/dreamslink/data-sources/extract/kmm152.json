@@ -1,0 +1,42 @@
+[
+  {
+    "id": "panther",
+    "aliases": [
+      "흑표범이",
+      "흑표범을"
+    ],
+    "aliases_en": [
+      "panthers"
+    ],
+    "contexts": {
+      "흑표범을 보고 겁에 질림": "겁에 질려 계약",
+      "흑표범을 죽이거나 제압함": "죽이거나 제압 기쁨",
+      "흑표범이 위협하듯 나타남": "위협 실망 저버릴",
+      "흑표범 울음소리를 듣고 공포를 느낌": "울음소리 공포 소식 불화"
+    },
+    "contexts_en": {
+      "흑표범을 보고 겁에 질림": "fright canceled contracts",
+      "흑표범을 죽이거나 제압함": "killing overpowering joy",
+      "흑표범이 위협하듯 나타남": "menaces disappointments recede",
+      "흑표범 울음소리를 듣고 공포를 느낌": "voice terror unfavorable discord"
+    }
+  },
+  {
+    "id": "pantomime",
+    "aliases": [
+      "무언극이",
+      "무언극을"
+    ],
+    "aliases_en": [
+      "pantomimes"
+    ],
+    "contexts": {
+      "무언극을 봄": "벗에게 속을",
+      "무언극에 참여함": "참여했 언짢은 만족스럽지"
+    },
+    "contexts_en": {
+      "무언극을 봄": "friends deceive",
+      "무언극에 참여함": "participate offense satisfactory"
+    }
+  }
+]

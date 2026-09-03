@@ -1,0 +1,32 @@
+{
+  "batch": 152,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Panther",
+      "text": "To see a panther and experience fright, denotes that contracts in love or business may be canceled unexpectedly, owing to adverse influences working against your honor. But killing, or over-powering it, you will experience joy and be successful in your undertakings. Your surroundings will take on fair prospects. If one menaces you by its presence, you will have disappointments in business. Other people will likely recede from their promises to you. If you hear the voice of a panther, and experience terror or fright, you will have unfavorable news, coming in the way of reducing profit or gain, and you may have social discord; no fright forebodes less evil. A panther, like the cat, seen in a dream, portends evil to the dreamer, unless he kills it.",
+      "note": "새 상징 `panther`(흑표범). 표범(`leopard`)과는 다른 짐승으로 갈랐다(원문에서도 별개 표제어). 마지막 「고양이처럼, 죽이지 않으면 흉하다」는 앞의 겁에 질림·죽임/제압 두 문장을 같은 틀로 되풀이한 것이라 뺐다. 「덜 겁내면 덜 흉하다」도 총평이라 뺐다"
+    },
+    {
+      "headword": "Pantomime",
+      "text": "To dream of seeing pantomimes, denotes that your friends will deceive you. If you participate in them, you will have cause of offense. Affairs will not prove satisfactory.",
+      "note": "새 상징 `pantomime`(무언극). 「일이 만족스럽지 못하다」는 참여함의 결말로 붙였다"
+    },
+    {
+      "headword": "Paper or parchment",
+      "text": "If you have occasion in your dreams to refer to, or handle, any paper or parchment, you will be threatened with losses. They are likely to be in the nature of a lawsuit. For a young woman, it means that she will be angry with her lover and that she fears the opinion of acquaintances. Beware, if you are married, of disagreements in the precincts of the home.",
+      "note": "기존 상징 `paper`(종이, 주공해몽)에 셋을 더한다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "A panther, like the cat, seen in a dream, portends evil to the dreamer, unless he kills it.",
+      "reason": "`Panther` — 앞의 「겁에 질림」·「죽이거나 제압함」 두 문장을 같은 틀로 되풀이한 요약이라 뺐다"
+    },
+    {
+      "sentence": "no fright forebodes less evil",
+      "reason": "`Panther` — 구체적인 꿈의 그림이 없는 총평이다"
+    }
+  ]
+}

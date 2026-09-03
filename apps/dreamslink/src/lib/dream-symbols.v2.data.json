@@ -60,6 +60,7 @@
     "m15.json",
     "m150.json",
     "m151.json",
+    "m152.json",
     "m16.json",
     "m17.json",
     "m18.json",
@@ -40577,6 +40578,97 @@
       ]
     },
     {
+      "id": "paper",
+      "term_ko": "종이",
+      "term_en": "paper",
+      "aliases": [
+        "백지",
+        "한지",
+        "종잇장",
+        "양피지"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "종이나 양피지를 다루거나 참조함",
+          "interpretation_ko": "손실을 볼 조짐이며 대개 송사와 관련됨",
+          "interpretation_en": "you will be threatened with losses. They are likely to be in the nature of a lawsuit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paper or parchment",
+              "original": "If you have occasion in your dreams to refer to, or handle, any paper or parchment, you will be threatened with losses. They are likely to be in the nature of a lawsuit.",
+              "translation_ko": "종이나 양피지를 다루거나 참조하는 꿈은, 손실을 볼 조짐이며 대개 송사와 관련된다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 종이나 양피지 꿈을 꿈",
+          "interpretation_ko": "애인에게 화가 나고 남들 평판을 두려워할 조짐",
+          "interpretation_en": "she will be angry with her lover and that she fears the opinion of acquaintances",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paper or parchment",
+              "original": "For a young woman, it means that she will be angry with her lover and that she fears the opinion of acquaintances.",
+              "translation_ko": "처녀가 종이나 양피지 꿈을 꾸면, 애인에게 화가 나고 남들 평판을 두려워할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "기혼자가 종이나 양피지 꿈을 꿈",
+          "interpretation_ko": "집안에 다툼이 있을까 조심할 조짐",
+          "interpretation_en": "beware, if you are married, of disagreements in the precincts of the home",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paper or parchment",
+              "original": "Beware, if you are married, of disagreements in the precincts of the home.",
+              "translation_ko": "기혼자가 종이나 양피지 꿈을 꾸면, 집안에 다툼이 있을까 조심할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "오색 종이를 봄",
+          "interpretation_ko": "재물에 크게 이로울 조짐",
+          "interpretation_en": "a sign of great gain in wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "五色紙者大益財",
+              "translation_ko": "오색 종이는 재물에 크게 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "오색 종이를 삼킴",
+          "interpretation_ko": "글재주가 나아질 조짐",
+          "interpretation_en": "a sign that one's learning and writing will advance",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "吞五色紙詩書進",
+              "translation_ko": "오색 종이를 삼키면 시와 글이 나아진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "plate",
       "term_ko": "접시",
       "term_en": "plate",
@@ -52048,6 +52140,80 @@
               "locator": "Palmistry",
               "original": "If a minister's hand, she will need friends, even in her elevation.",
               "translation_ko": "목사의 손금을 보는 꿈은, 높은 자리에 올라도 벗이 필요할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panther",
+      "term_ko": "흑표범",
+      "term_en": "panther",
+      "aliases": [
+        "흑표범이",
+        "흑표범을"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "흑표범을 보고 겁에 질림",
+          "interpretation_ko": "애정이나 사업의 계약이 갑자기 깨질 조짐",
+          "interpretation_en": "contracts in love or business may be canceled unexpectedly, owing to adverse influences working against your honor",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Panther",
+              "original": "To see a panther and experience fright, denotes that contracts in love or business may be canceled unexpectedly, owing to adverse influences working against your honor.",
+              "translation_ko": "흑표범을 보고 겁에 질리는 꿈은, 애정이나 사업의 계약이 갑자기 깨질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "흑표범을 죽이거나 제압함",
+          "interpretation_ko": "기쁨을 누리고 하는 일마다 성공할 조짐",
+          "interpretation_en": "you will experience joy and be successful in your undertakings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Panther",
+              "original": "But killing, or over-powering it, you will experience joy and be successful in your undertakings.",
+              "translation_ko": "흑표범을 죽이거나 제압하는 꿈은, 기쁨을 누리고 하는 일마다 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "흑표범이 위협하듯 나타남",
+          "interpretation_ko": "사업에 실망할 일이 생기고 남들이 약속을 저버릴 조짐",
+          "interpretation_en": "you will have disappointments in business. Other people will likely recede from their promises to you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Panther",
+              "original": "If one menaces you by its presence, you will have disappointments in business. Other people will likely recede from their promises to you.",
+              "translation_ko": "흑표범이 위협하듯 나타나는 꿈은, 사업에 실망할 일이 생기고 남들이 약속을 저버릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "흑표범 울음소리를 듣고 공포를 느낌",
+          "interpretation_ko": "불리한 소식이 들려와 이익이 줄고 불화가 생길 조짐",
+          "interpretation_en": "you will have unfavorable news, coming in the way of reducing profit or gain, and you may have social discord",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Panther",
+              "original": "If you hear the voice of a panther, and experience terror or fright, you will have unfavorable news, coming in the way of reducing profit or gain, and you may have social discord; no fright forebodes less evil.",
+              "translation_ko": "흑표범 울음소리를 듣고 공포를 느끼는 꿈은, 불리한 소식이 들려와 이익이 줄고 불화가 생길 조짐이다"
             }
           ]
         }
@@ -88829,47 +88995,46 @@
       ]
     },
     {
-      "id": "paper",
-      "term_ko": "종이",
-      "term_en": "paper",
+      "id": "pantomime",
+      "term_ko": "무언극",
+      "term_en": "pantomime",
       "aliases": [
-        "백지",
-        "한지",
-        "종잇장"
+        "무언극이",
+        "무언극을"
       ],
-      "category": "object",
-      "polarity": "positive",
+      "category": "action",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "오색 종이를 봄",
-          "interpretation_ko": "재물에 크게 이로울 조짐",
-          "interpretation_en": "a sign of great gain in wealth",
-          "polarity": "positive",
+          "context": "무언극을 봄",
+          "interpretation_ko": "벗에게 속을 조짐",
+          "interpretation_en": "your friends will deceive you",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "五色紙者大益財",
-              "translation_ko": "오색 종이는 재물에 크게 이롭다"
+              "work": "miller",
+              "locator": "Pantomime",
+              "original": "To dream of seeing pantomimes, denotes that your friends will deceive you.",
+              "translation_ko": "무언극을 보는 꿈은, 벗에게 속을 조짐이다"
             }
           ]
         },
         {
-          "context": "오색 종이를 삼킴",
-          "interpretation_ko": "글재주가 나아질 조짐",
-          "interpretation_en": "a sign that one's learning and writing will advance",
-          "polarity": "positive",
+          "context": "무언극에 참여함",
+          "interpretation_ko": "언짢은 일이 생기고 일이 만족스럽지 못할 조짐",
+          "interpretation_en": "you will have cause of offense. Affairs will not prove satisfactory",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "吞五色紙詩書進",
-              "translation_ko": "오색 종이를 삼키면 시와 글이 나아진다"
+              "work": "miller",
+              "locator": "Pantomime",
+              "original": "If you participate in them, you will have cause of offense. Affairs will not prove satisfactory.",
+              "translation_ko": "무언극에 참여하는 꿈은, 언짢은 일이 생기고 일이 만족스럽지 못할 조짐이다"
             }
           ]
         }

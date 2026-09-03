@@ -657,7 +657,8 @@
     "aliases": [
       "백지",
       "한지",
-      "종잇장"
+      "종잇장",
+      "양피지"
     ],
     "aliases_en": [
       "papers",
@@ -665,11 +666,17 @@
     ],
     "contexts": {
       "오색 종이를 봄": "보았 보였 오색 알록",
-      "오색 종이를 삼킴": "삼켰 삼키 먹었 씹어"
+      "오색 종이를 삼킴": "삼켰 삼키 먹었 씹어",
+      "종이나 양피지를 다루거나 참조함": "다루거나 참조 손실 송사",
+      "처녀가 종이나 양피지 꿈을 꿈": "처녀가 애인에게 화가",
+      "기혼자가 종이나 양피지 꿈을 꿈": "기혼자 집안 다툼"
     },
     "contexts_en": {
       "오색 종이를 봄": "colored colorful saw",
-      "오색 종이를 삼킴": "swallowed swallowing ate"
+      "오색 종이를 삼킴": "swallowed swallowing ate",
+      "종이나 양피지를 다루거나 참조함": "refer handle losses lawsuit",
+      "처녀가 종이나 양피지 꿈을 꿈": "young woman angry lover acquaintances",
+      "기혼자가 종이나 양피지 꿈을 꿈": "married disagreements home"
     }
   },
   {
