@@ -27,6 +27,7 @@
     "m12.json",
     "m120.json",
     "m121.json",
+    "m122.json",
     "m13.json",
     "m14.json",
     "m15.json",
@@ -22054,6 +22055,141 @@
       ]
     },
     {
+      "id": "melon",
+      "term_ko": "오이",
+      "term_en": "melon",
+      "aliases": [
+        "참외",
+        "물외",
+        "오이를 먹었다",
+        "멜론",
+        "참외를",
+        "참외가"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "오이 꿈을 꿈",
+          "interpretation_ko": "넉넉함을 뜻하며 몸이 건강하고 살림이 일어날 조짐",
+          "interpretation_en": "a dream of plenty, denoting health and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cucumber",
+              "original": "This is a dream of plenty, denoting health and prosperity.",
+              "translation_ko": "이는 넉넉함의 꿈이며 건강과 일어나는 살림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "참외를 먹음",
+          "interpretation_ko": "성급하게 움직여 애를 태울 흉한 조짐",
+          "interpretation_en": "signifies that hasty action will cause you anxiety",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Melon",
+              "original": "To eat them, signifies that hasty action will cause you anxiety.",
+              "translation_ko": "참외를 먹으면 성급하게 움직여 애를 태운다"
+            }
+          ]
+        },
+        {
+          "context": "푸른 덩굴에 열린 참외를 봄",
+          "interpretation_ko": "지금의 어려움이 오히려 복으로 돌아설 길한 조짐",
+          "interpretation_en": "denotes that present troubles will result in good fortune for you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Melon",
+              "original": "To see them growing on green vines, denotes that present troubles will result in good fortune for you.",
+              "translation_ko": "푸른 덩굴에 열린 참외를 보면, 지금의 어려움이 오히려 복으로 돌아선다"
+            }
+          ]
+        },
+        {
+          "context": "참외를 봄",
+          "interpretation_ko": "몸이 성치 않고 하는 일에 손해가 있을 흉한 조짐",
+          "interpretation_en": "denotes ill health and unfortunate ventures in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Melon",
+              "original": "To dream of melons, denotes ill health and unfortunate ventures in business.",
+              "translation_ko": "참외의 꿈은 몸이 성치 않고 하는 일에 손해가 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "앓는 이가 오이를 상에 냄",
+          "interpretation_ko": "빠르게 나을 조짐",
+          "interpretation_en": "their speedy recovery",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cucumber",
+              "original": "For the sick to dream of serving cucumbers, denotes their speedy recovery.",
+              "translation_ko": "앓는 이가 오이를 상에 내는 꿈은 빠른 회복을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "혼인한 이에게 오이 꿈이 나타남",
+          "interpretation_ko": "반가운 변화가 올 조짐",
+          "interpretation_en": "a pleasant change",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cucumber",
+              "original": "For the married, a pleasant change.",
+              "translation_ko": "혼인한 이에게는 반가운 변화를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "문드러진 오이를 먹음",
+          "interpretation_ko": "병이 생길 조짐",
+          "interpretation_en": "a sign of falling ill",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "食爛瓜主生疾病",
+              "translation_ko": "문드러진 오이를 먹으면 병이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "오이씨를 먹음",
+          "interpretation_ko": "귀한 자식을 낳을 조짐",
+          "interpretation_en": "a sign of bearing a noble child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "食瓜子主生貴子",
+              "translation_ko": "오이씨를 먹으면 귀한 자식을 낳는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rabbit",
       "term_ko": "토끼",
       "term_en": "rabbit",
@@ -36970,96 +37106,6 @@
       ]
     },
     {
-      "id": "melon",
-      "term_ko": "오이",
-      "term_en": "melon",
-      "aliases": [
-        "참외",
-        "물외",
-        "오이를 먹었다"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "오이 꿈을 꿈",
-          "interpretation_ko": "넉넉함을 뜻하며 몸이 건강하고 살림이 일어날 조짐",
-          "interpretation_en": "a dream of plenty, denoting health and prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cucumber",
-              "original": "This is a dream of plenty, denoting health and prosperity.",
-              "translation_ko": "이는 넉넉함의 꿈이며 건강과 일어나는 살림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "앓는 이가 오이를 상에 냄",
-          "interpretation_ko": "빠르게 나을 조짐",
-          "interpretation_en": "their speedy recovery",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cucumber",
-              "original": "For the sick to dream of serving cucumbers, denotes their speedy recovery.",
-              "translation_ko": "앓는 이가 오이를 상에 내는 꿈은 빠른 회복을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "혼인한 이에게 오이 꿈이 나타남",
-          "interpretation_ko": "반가운 변화가 올 조짐",
-          "interpretation_en": "a pleasant change",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cucumber",
-              "original": "For the married, a pleasant change.",
-              "translation_ko": "혼인한 이에게는 반가운 변화를 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "문드러진 오이를 먹음",
-          "interpretation_ko": "병이 생길 조짐",
-          "interpretation_en": "a sign of falling ill",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "食爛瓜主生疾病",
-              "translation_ko": "문드러진 오이를 먹으면 병이 생긴다"
-            }
-          ]
-        },
-        {
-          "context": "오이씨를 먹음",
-          "interpretation_ko": "귀한 자식을 낳을 조짐",
-          "interpretation_en": "a sign of bearing a noble child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "食瓜子主生貴子",
-              "translation_ko": "오이씨를 먹으면 귀한 자식을 낳는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "mouse",
       "term_ko": "쥐",
       "term_en": "mouse",
@@ -39585,6 +39631,80 @@
               "work": "miller",
               "locator": "Bed-chamber",
               "original": "To see one newly furnished, a happy change for the dreamer. Journeys to distant places, and pleasant companions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beggar",
+      "term_ko": "거지",
+      "term_en": "beggar",
+      "aliases": [
+        "동냥",
+        "걸인",
+        "노숙자",
+        "빌어먹는 이",
+        "동냥아치"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "늙고 쇠약한 거지를 봄",
+          "interpretation_ko": "관리 소홀의 조짐이며, 절약하지 않으면 재산을 많이 잃고 추문이 명성에 해가 될 조짐",
+          "interpretation_en": "a sign of bad management, and unless you are economical you will lose much property; scandalous reports will prove detrimental to your fame",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Beggar",
+              "original": "To see an old, decrepit beggar, is a sign of bad management, and unless you are economical, you will lose much property. Scandalous reports will prove detrimental to your fame."
+            }
+          ]
+        },
+        {
+          "context": "여성이 거지를 봄",
+          "interpretation_ko": "형편을 낫게 하고 즐기려는 계획이 언짢게 막힐 흉한 조짐",
+          "interpretation_en": "she will meet with disagreeable interferences in her plans for betterment and enjoyment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mendicant",
+              "original": "For a woman to dream of mendicants, she will meet with disagreeable interferences in her plans for betterment and enjoyment.",
+              "translation_ko": "여성이 빌어먹는 이를 보는 꿈은, 형편을 낫게 하고 즐기려는 계획이 언짢게 막힘을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "거지에게 적선함",
+          "interpretation_ko": "현재 처지에 대한 불만을 뜻하는 조짐",
+          "interpretation_en": "a sign denoting dissatisfaction with present surroundings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Beggar",
+              "original": "To give to a beggar, denotes dissatisfaction with present surroundings."
+            }
+          ]
+        },
+        {
+          "context": "거지에게 적선을 거절하는 꿈을 꿈",
+          "interpretation_ko": "전반적으로 나쁜 조짐",
+          "interpretation_en": "a sign that is altogether bad",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Beggar",
+              "original": "To dream that you refuse to give to a beggar is altogether bad."
             }
           ]
         }
@@ -47323,6 +47443,84 @@
       ]
     },
     {
+      "id": "memorandum",
+      "term_ko": "메모",
+      "term_en": "memorandum",
+      "aliases": [
+        "메모를",
+        "메모가",
+        "쪽지",
+        "메모하는",
+        "메모했다",
+        "메모하고"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "메모를 함",
+          "interpretation_ko": "돈이 안 되는 일에 뛰어들어 걱정이 많아질 흉한 조짐",
+          "interpretation_en": "denotes that you will engage in an unprofitable business, and much worry will result for you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Memorandum",
+              "original": "To dream that you make memoranda, denotes that you will engage in an unprofitable business, and much worry will result for you.",
+              "translation_ko": "메모를 하는 꿈은, 돈이 안 되는 일에 뛰어들어 걱정이 많아짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 메모하는 것을 봄",
+          "interpretation_ko": "누군가 도와 달라고 조르며 저를 성가시게 할 흉한 조짐",
+          "interpretation_en": "signifies that some person will worry you with appeals for aid",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Memorandum",
+              "original": "To see others making a memorandum, signifies that some person will worry you with appeals for aid.",
+              "translation_ko": "남이 메모하는 것을 보면, 누군가 도와 달라고 조르며 저를 성가시게 한다"
+            }
+          ]
+        },
+        {
+          "context": "메모를 잃음",
+          "interpretation_ko": "장사에서 자잘하게 손해를 볼 흉한 조짐",
+          "interpretation_en": "you will experience a slight loss in trade",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Memorandum",
+              "original": "To lose your memorandum, you will experience a slight loss in trade.",
+              "translation_ko": "메모를 잃으면 장사에서 자잘하게 손해를 본다"
+            }
+          ]
+        },
+        {
+          "context": "메모를 주움",
+          "interpretation_ko": "새 할 일을 맡아 남들에게 큰 즐거움을 줄 길한 조짐",
+          "interpretation_en": "you will assume new duties that will cause much pleasure to others",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Memorandum",
+              "original": "To find a memorandum, you will assume new duties that will cause much pleasure to others.",
+              "translation_ko": "메모를 주우면 새 할 일을 맡아 남들에게 큰 즐거움을 준다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "money",
       "term_ko": "돈",
       "term_en": "money",
@@ -50055,64 +50253,6 @@
               "work": "miller",
               "locator": "Beets",
               "original": "If they are served in soiled or impure dishes, distressful awakenings will disturb you."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "beggar",
-      "term_ko": "거지",
-      "term_en": "beggar",
-      "aliases": [
-        "동냥",
-        "걸인",
-        "노숙자"
-      ],
-      "category": "person",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "늙고 쇠약한 거지를 봄",
-          "interpretation_ko": "관리 소홀의 조짐이며, 절약하지 않으면 재산을 많이 잃고 추문이 명성에 해가 될 조짐",
-          "interpretation_en": "a sign of bad management, and unless you are economical you will lose much property; scandalous reports will prove detrimental to your fame",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Beggar",
-              "original": "To see an old, decrepit beggar, is a sign of bad management, and unless you are economical, you will lose much property. Scandalous reports will prove detrimental to your fame."
-            }
-          ]
-        },
-        {
-          "context": "거지에게 적선함",
-          "interpretation_ko": "현재 처지에 대한 불만을 뜻하는 조짐",
-          "interpretation_en": "a sign denoting dissatisfaction with present surroundings",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Beggar",
-              "original": "To give to a beggar, denotes dissatisfaction with present surroundings."
-            }
-          ]
-        },
-        {
-          "context": "거지에게 적선을 거절하는 꿈을 꿈",
-          "interpretation_ko": "전반적으로 나쁜 조짐",
-          "interpretation_en": "a sign that is altogether bad",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Beggar",
-              "original": "To dream that you refuse to give to a beggar is altogether bad."
             }
           ]
         }
@@ -79988,6 +80128,56 @@
       ]
     },
     {
+      "id": "melancholy",
+      "term_ko": "우울",
+      "term_en": "melancholy",
+      "aliases": [
+        "우울해",
+        "우울했다",
+        "울적",
+        "우울해했다",
+        "우울해하는",
+        "우울해져"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무슨 일로 우울해함",
+          "interpretation_ko": "잘될 줄 알았던 일에서 실망할 흉한 조짐",
+          "interpretation_en": "is a sign of disappointment in what was thought to be favorable undertakings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Melancholy",
+              "original": "To dream that you feel melancholy over any event, is a sign of disappointment in what was thought to be favorable undertakings.",
+              "translation_ko": "무슨 일로 우울해하는 꿈은, 잘될 줄 알았던 일에서 실망함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 우울해하는 것을 봄",
+          "interpretation_ko": "하는 일이 언짢게 끊길 흉한 조짐 — 정인에게는 헤어짐을 가져온다",
+          "interpretation_en": "denotes unpleasant interruption in affairs; to lovers, it brings separation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Melancholy",
+              "original": "To dream that you see others melancholy, denotes unpleasant interruption in affairs.",
+              "translation_ko": "남이 우울해하는 것을 보면 하는 일이 언짢게 끊긴다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "millet",
       "term_ko": "좁쌀",
       "term_en": "millet",
@@ -90998,6 +91188,72 @@
               "locator": "Mechanic",
               "original": "To dream of a mechanic, denotes change in your dwelling place and a more active business.",
               "translation_ko": "기계공의 꿈은, 사는 곳이 바뀌고 하는 일이 더 활기차짐을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memorial",
+      "term_ko": "기념비",
+      "term_en": "memorial",
+      "aliases": [
+        "기념비를",
+        "기념비가",
+        "추모비"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기념비를 봄",
+          "interpretation_ko": "살붙이에게 괴로운 일과 병이 닥쳐 참을성 있게 살펴야 할 자리가 생길 조짐",
+          "interpretation_en": "signifies there will be occasion for you to show patient kindness, as trouble and sickness threatens your relatives",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Memorial",
+              "original": "To dream of a memorial, signifies there will be occasion for you to show patient kindness, as trouble and sickness threatens your relatives.",
+              "translation_ko": "기념비의 꿈은, 살붙이에게 괴로운 일과 병이 닥쳐 참을성 있게 살펴야 할 자리가 생김을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "menagerie",
+      "term_ko": "동물원",
+      "term_en": "menagerie",
+      "aliases": [
+        "동물원에",
+        "동물원을",
+        "짐승 우리 구경"
+      ],
+      "category": "place",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "동물원에 감",
+          "interpretation_ko": "갖가지 괴로운 일이 있을 흉한 조짐",
+          "interpretation_en": "denotes various troubles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Menagerie",
+              "original": "To dream of visiting a menagerie, denotes various troubles.",
+              "translation_ko": "동물원에 가는 꿈은 갖가지 괴로운 일이 있음을 뜻한다"
             }
           ]
         }

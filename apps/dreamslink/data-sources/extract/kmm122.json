@@ -1,0 +1,84 @@
+[
+  {
+    "id": "melancholy",
+    "aliases": [
+      "우울해",
+      "우울했다",
+      "울적",
+      "우울해했다",
+      "우울해하는",
+      "우울해져"
+    ],
+    "aliases_en": [
+      "melancholic"
+    ],
+    "contexts": {
+      "무슨 일로 우울해함": "내가 제가",
+      "남이 우울해하는 것을 봄": "남이 다른 사람이"
+    },
+    "contexts_en": {
+      "무슨 일로 우울해함": "feel event disappointment favorable undertakings",
+      "남이 우울해하는 것을 봄": "others interruption lovers separation"
+    }
+  },
+  {
+    "id": "memorandum",
+    "aliases": [
+      "메모를",
+      "메모가",
+      "쪽지",
+      "메모하는",
+      "메모했다",
+      "메모하고"
+    ],
+    "aliases_en": [
+      "memoranda"
+    ],
+    "contexts": {
+      "메모를 함": "적었 남겼 끄적",
+      "남이 메모하는 것을 봄": "남이 다른 사람이",
+      "메모를 잃음": "잃어 잃었",
+      "메모를 주움": "주웠 주운 찾았"
+    },
+    "contexts_en": {
+      "메모를 함": "make unprofitable worry result",
+      "남이 메모하는 것을 봄": "others making appeals aid",
+      "메모를 잃음": "lose slight trade",
+      "메모를 주움": "find assume duties pleasure"
+    }
+  },
+  {
+    "id": "memorial",
+    "aliases": [
+      "기념비를",
+      "기념비가",
+      "추모비"
+    ],
+    "aliases_en": [
+      "memorials"
+    ],
+    "contexts": {
+      "기념비를 봄": "세워져 우뚝"
+    },
+    "contexts_en": {
+      "기념비를 봄": "occasion patient kindness threatens relatives"
+    }
+  },
+  {
+    "id": "menagerie",
+    "aliases": [
+      "동물원에",
+      "동물원을",
+      "짐승 우리 구경"
+    ],
+    "aliases_en": [
+      "menageries"
+    ],
+    "contexts": {
+      "동물원에 감": "갔다 구경"
+    },
+    "contexts_en": {
+      "동물원에 감": "visiting various troubles"
+    }
+  }
+]

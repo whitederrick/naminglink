@@ -692,6 +692,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "melon::오이 꿈을 꿈": "넉넉 풍성 건강",
   "melon::앓는 이가 오이를 상에 냄": "앓는 병든 차려",
   "melon::혼인한 이에게 오이 꿈이 나타남": "혼인 결혼한 부부",
+  "melon::참외를 먹음": "먹었 먹는",
+  "melon::푸른 덩굴에 열린 참외를 봄": "덩굴 넝쿨",
+  "melon::참외를 봄": "참외 멜론",
   "millet::좁쌀을 먹음": "먹었 먹어 씹어 삼켰",
   "millet::좁쌀을 봄": "보았 바라보 쳐다 눈에띄",
   "rouge::연지를 얻음": "얻었 얻어 생겼 받았",
@@ -2186,6 +2189,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "beggar::늙고 쇠약한 거지를 봄": "늙고 쇠약 노인 병약",
   "beggar::거지에게 적선함": "적선 도와줬 베풀 은전",
   "beggar::거지에게 적선을 거절하는 꿈을 꿈": "거절 거부 뿌리쳤 외면",
+  "beggar::여성이 거지를 봄": "여자가 여성이",
   "belladonna::벨라도나(독말풀류) 꿈을 꿈": "보았 보였 발견",
   "belladonna::여성이 벨라도나 꿈을 꿈": "여성 여자 부인",
   "belladonna::벨라도나를 복용함": "복용 삼켰 먹었 마셨",
@@ -4353,5 +4357,13 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "medal::훈장을 잃음": "잃어 잃었",
   "medicine::맛이 좋은 약을 먹음": "맛이 좋은 달콤",
   "medicine::역겨운 약을 먹음": "역겨 고약 쓴맛",
-  "medicine::남에게 약을 줌": "남에게 건네 주었"
+  "medicine::남에게 약을 줌": "남에게 건네 주었",
+  "melancholy::무슨 일로 우울해함": "내가 제가",
+  "melancholy::남이 우울해하는 것을 봄": "남이 다른 사람이",
+  "memorandum::메모를 함": "적었 남겼 끄적",
+  "memorandum::남이 메모하는 것을 봄": "남이 다른 사람이",
+  "memorandum::메모를 잃음": "잃어 잃었",
+  "memorandum::메모를 주움": "주웠 주운 찾았",
+  "memorial::기념비를 봄": "세워져 우뚝",
+  "menagerie::동물원에 감": "갔다 구경"
 };

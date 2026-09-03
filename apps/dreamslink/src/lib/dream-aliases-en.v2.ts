@@ -6288,5 +6288,17 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "medicine": [
     "medicines"
+  ],
+  "melancholy": [
+    "melancholic"
+  ],
+  "memorandum": [
+    "memoranda"
+  ],
+  "memorial": [
+    "memorials"
+  ],
+  "menagerie": [
+    "menageries"
   ]
 };

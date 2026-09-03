@@ -292,7 +292,9 @@
     "aliases": [
       "동냥",
       "걸인",
-      "노숙자"
+      "노숙자",
+      "빌어먹는 이",
+      "동냥아치"
     ],
     "aliases_en": [
       "a tramp",
@@ -302,12 +304,14 @@
     "contexts": {
       "늙고 쇠약한 거지를 봄": "늙고 쇠약 노인 병약",
       "거지에게 적선함": "적선 도와줬 베풀 은전",
-      "거지에게 적선을 거절하는 꿈을 꿈": "거절 거부 뿌리쳤 외면"
+      "거지에게 적선을 거절하는 꿈을 꿈": "거절 거부 뿌리쳤 외면",
+      "여성이 거지를 봄": "여자가 여성이"
     },
     "contexts_en": {
       "늙고 쇠약한 거지를 봄": "elderly feeble aged infirm",
       "거지에게 적선함": "alms charity gave coin",
-      "거지에게 적선을 거절하는 꿈을 꿈": "refused refusing denied turned"
+      "거지에게 적선을 거절하는 꿈을 꿈": "refused refusing denied turned",
+      "여성이 거지를 봄": "mendicants disagreeable interferences betterment"
     }
   },
   {

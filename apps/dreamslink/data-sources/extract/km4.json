@@ -507,7 +507,10 @@
     "aliases": [
       "참외",
       "물외",
-      "오이를 먹었다"
+      "오이를 먹었다",
+      "멜론",
+      "참외를",
+      "참외가"
     ],
     "aliases_en": [
       "cucumber",
@@ -519,14 +522,20 @@
       "오이씨를 먹음": "씨를 씨앗 종자",
       "오이 꿈을 꿈": "넉넉 풍성 건강",
       "앓는 이가 오이를 상에 냄": "앓는 병든 차려",
-      "혼인한 이에게 오이 꿈이 나타남": "혼인 결혼한 부부"
+      "혼인한 이에게 오이 꿈이 나타남": "혼인 결혼한 부부",
+      "참외를 먹음": "먹었 먹는",
+      "푸른 덩굴에 열린 참외를 봄": "덩굴 넝쿨",
+      "참외를 봄": "참외 멜론"
     },
     "contexts_en": {
       "문드러진 오이를 먹음": "rotten spoiled mushy decayed",
       "오이씨를 먹음": "seed seeds pips",
       "오이 꿈을 꿈": "plenty health prosperity",
       "앓는 이가 오이를 상에 냄": "sick serving recovery",
-      "혼인한 이에게 오이 꿈이 나타남": "married pleasant change"
+      "혼인한 이에게 오이 꿈이 나타남": "married pleasant change",
+      "참외를 먹음": "eat hasty action",
+      "푸른 덩굴에 열린 참외를 봄": "growing green vines present",
+      "참외를 봄": "unfortunate ventures"
     }
   },
   {

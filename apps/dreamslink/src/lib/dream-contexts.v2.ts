@@ -688,6 +688,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "melon::오이 꿈을 꿈": "plenty health prosperity",
   "melon::앓는 이가 오이를 상에 냄": "sick serving recovery",
   "melon::혼인한 이에게 오이 꿈이 나타남": "married pleasant change",
+  "melon::참외를 먹음": "eat hasty action",
+  "melon::푸른 덩굴에 열린 참외를 봄": "growing green vines present",
+  "melon::참외를 봄": "unfortunate ventures",
   "millet::좁쌀을 먹음": "ate eating eaten swallowed",
   "millet::좁쌀을 봄": "saw seeing looked noticed",
   "rouge::연지를 얻음": "obtained received found",
@@ -2182,6 +2185,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "beggar::늙고 쇠약한 거지를 봄": "elderly feeble aged infirm",
   "beggar::거지에게 적선함": "alms charity gave coin",
   "beggar::거지에게 적선을 거절하는 꿈을 꿈": "refused refusing denied turned",
+  "beggar::여성이 거지를 봄": "mendicants disagreeable interferences betterment",
   "belladonna::벨라도나(독말풀류) 꿈을 꿈": "saw noticed found",
   "belladonna::여성이 벨라도나 꿈을 꿈": "woman lady female",
   "belladonna::벨라도나를 복용함": "took taking swallowed dose",
@@ -4349,5 +4353,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "medal::훈장을 잃음": "lose misfortune unfaithfulness",
   "medicine::맛이 좋은 약을 먹음": "pleasant taste short time",
   "medicine::역겨운 약을 먹음": "disgusting protracted deep sorrow",
-  "medicine::남에게 약을 줌": "give others injure trusted"
+  "medicine::남에게 약을 줌": "give others injure trusted",
+  "melancholy::무슨 일로 우울해함": "feel event disappointment favorable undertakings",
+  "melancholy::남이 우울해하는 것을 봄": "others interruption lovers separation",
+  "memorandum::메모를 함": "make unprofitable worry result",
+  "memorandum::남이 메모하는 것을 봄": "others making appeals aid",
+  "memorandum::메모를 잃음": "lose slight trade",
+  "memorandum::메모를 주움": "find assume duties pleasure",
+  "memorial::기념비를 봄": "occasion patient kindness threatens relatives",
+  "menagerie::동물원에 감": "visiting various troubles"
 };

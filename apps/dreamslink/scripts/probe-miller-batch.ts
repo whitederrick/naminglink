@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 121 — Meadow~Medicine, 12건)
+// (지금 담긴 것: 배치 122 — Melancholy~Mendicant, 14건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,19 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "meadow", ctx: "초원을 봄", text: "드넓은 초원이 펼쳐져 있었다" },
-  { id: "eating", ctx: "끼니를 봄", text: "끼니가 차려져 있었다" },
-  { id: "measles", ctx: "제가 홍역에 걸림", text: "내가 홍역에 걸렸다" },
-  { id: "measles", ctx: "남이 홍역에 걸린 것을 봄", text: "남이 홍역에 걸린 것을 보았다" },
-  { id: "mechanic", ctx: "기계공을 봄", text: "기계공이 일하는 것을 보았다" },
-  { id: "medal", ctx: "훈장을 봄", text: "훈장을 받았다" },
-  { id: "medal", ctx: "훈장을 잃음", text: "훈장을 잃어버렸다" },
-  { id: "medicine", ctx: "맛이 좋은 약을 먹음", text: "맛이 좋은 약을 먹었다" },
-  { id: "medicine", ctx: "역겨운 약을 먹음", text: "역겨운 약을 먹었다" },
-  { id: "medicine", ctx: "남에게 약을 줌", text: "남에게 약을 건넸다" },
+  { id: "melancholy", ctx: "무슨 일로 우울해함", text: "내가 그 일로 우울해했다" },
+  { id: "melancholy", ctx: "남이 우울해하는 것을 봄", text: "남이 우울해하는 것을 보았다" },
+  { id: "melon", ctx: "참외를 먹음", text: "참외를 먹었다" },
+  { id: "melon", ctx: "푸른 덩굴에 열린 참외를 봄", text: "푸른 덩굴에 열린 참외를 보았다" },
+  { id: "melon", ctx: "참외를 봄", text: "참외가 있었다" },
+  { id: "memorandum", ctx: "메모를 함", text: "메모를 적었다" },
+  { id: "memorandum", ctx: "남이 메모하는 것을 봄", text: "남이 메모하는 것을 보았다" },
+  { id: "memorandum", ctx: "메모를 잃음", text: "메모를 잃어버렸다" },
+  { id: "memorandum", ctx: "메모를 주움", text: "메모를 주웠다" },
+  { id: "memorial", ctx: "기념비를 봄", text: "기념비가 세워져 있었다" },
+  { id: "menagerie", ctx: "동물원에 감", text: "동물원에 갔다" },
+  { id: "beggar", ctx: "여성이 거지를 봄", text: "여자가 거지를 보았다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "eating", ctx: "혼자서 먹음", text: "혼자 밥을 먹었다" },
-  { id: "eating", ctx: "남과 함께 먹음", text: "여럿이 둘러앉아 밥을 먹었다" },
+  { id: "melon", ctx: "오이 꿈을 꿈", text: "오이가 풍성했다" },
+  { id: "beggar", ctx: "늙고 쇠약한 거지를 봄", text: "늙고 쇠약한 거지를 보았다" },
 ];
 
 let notFound = 0;
