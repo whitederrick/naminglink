@@ -6140,5 +6140,20 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "lottery": [
     "lotteries",
     "a lottery ticket"
+  ],
+  "love": [
+    "loving",
+    "beloved"
+  ],
+  "lovely": [
+    "loveliness"
+  ],
+  "lucky": [
+    "luck",
+    "fortunate"
+  ],
+  "luggage": [
+    "baggage",
+    "suitcase"
   ]
 };

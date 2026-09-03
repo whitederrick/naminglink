@@ -12,6 +12,7 @@
     "m106.json",
     "m107.json",
     "m108.json",
+    "m109.json",
     "m11.json",
     "m12.json",
     "m13.json",
@@ -23268,6 +23269,124 @@
       ]
     },
     {
+      "id": "candy",
+      "term_ko": "사탕",
+      "term_en": "candy",
+      "aliases": [
+        "캔디",
+        "사탕과자",
+        "알사탕",
+        "목캔디"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사탕을 만듦",
+          "interpretation_ko": "부지런히 일해 이문이 남을 조짐",
+          "interpretation_en": "profit accruing from industry",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Candy",
+              "original": "To dream of making candy, denotes profit accruing from industry.",
+              "translation_ko": "사탕을 만드는 꿈은 부지런히 일해 이문이 남음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 알사탕을 먹거나 버림",
+          "interpretation_ko": "시샘하는 이들의 자잘한 심술에 시달릴 흉한 조짐",
+          "interpretation_en": "foretells her life will be harassed by little spites from the envious",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lozenges",
+              "original": "For a woman to eat or throw them away, foretells her life will be harassed by little spites from the envious.",
+              "translation_ko": "여성이 알사탕을 먹거나 버리면, 시샘하는 이들의 자잘한 심술에 시달린다"
+            }
+          ]
+        },
+        {
+          "context": "알사탕을 봄",
+          "interpretation_ko": "자잘한 일에서 잘될 길한 조짐",
+          "interpretation_en": "foretells success in small matters",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lozenges",
+              "original": "To dream of lozenges, foretells success in small matters.",
+              "translation_ko": "알사탕의 꿈은 자잘한 일에서 잘됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "바삭한 새 사탕을 먹음",
+          "interpretation_ko": "사람들과 어울리는 즐거움과 사랑이 오갈 조짐",
+          "interpretation_en": "social pleasures and much love-making among the young and old",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Candy",
+              "original": "To dream of eating crisp, new candy, implies social pleasures and much love-making among the young and old.",
+              "translation_ko": "바삭한 새 사탕을 먹는 꿈은 어울리는 즐거움과 젊은이 늙은이 사이에 오가는 사랑을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "신 사탕을 봄",
+          "interpretation_ko": "병이 나거나, 너무 오래 감춘 비밀에서 역겨운 성가심이 자랄 조짐",
+          "interpretation_en": "illness, or disgusting annoyances growing out of confidences too long kept",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Candy",
+              "original": "Sour candy is a sign of illness or that disgusting annoyances will grow out of confidences too long kept.",
+              "translation_ko": "신 사탕은 병의 조짐이거나, 너무 오래 지킨 비밀에서 역겨운 성가심이 자란다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "사탕 상자를 받음",
+          "interpretation_ko": "크게 추어올림을 받고 대체로 번영할 조짐",
+          "interpretation_en": "the recipient of much adulation; it generally means prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Candy",
+              "original": "To receive a box of bonbons, signifies to a young person that he or she will be the recipient of much adulation.  It generally means prosperity.",
+              "translation_ko": "사탕 상자를 받으면 젊은이에게는 크게 추어올림을 받는다는 뜻이다. 대체로 번영을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "사탕 상자를 보냄",
+          "interpretation_ko": "무언가를 제안하나 실망을 만날 조짐",
+          "interpretation_en": "you will make a proposition, but will meet with disappointment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Candy",
+              "original": "If you send a box you will make a proposition, but will meet with disappointment.",
+              "translation_ko": "상자를 보내면 무언가를 제안하게 되나 실망을 만난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cauldron",
       "term_ko": "솥",
       "term_en": "cauldron",
@@ -29812,6 +29931,115 @@
       ]
     },
     {
+      "id": "love",
+      "term_ko": "사랑",
+      "term_en": "love",
+      "aliases": [
+        "사랑을",
+        "사랑이",
+        "사랑에",
+        "사랑하는",
+        "사랑했다",
+        "사랑하고",
+        "사랑한다",
+        "사랑받는",
+        "사랑받았다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무언가를 사랑함",
+          "interpretation_ko": "지금 제가 놓인 자리에 흡족해할 길한 조짐",
+          "interpretation_en": "denotes satisfaction with your present environments",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Love",
+              "original": "To dream of loving any object, denotes satisfaction with your present environments.",
+              "translation_ko": "무언가를 사랑하는 꿈은, 지금 제가 놓인 자리에 흡족해함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남의 사랑이 기쁜 예감으로 가득 참",
+          "interpretation_ko": "하는 일이 잘돼 흡족하고 삶의 애타는 걱정에서 놓여날 길한 조짐",
+          "interpretation_en": "successful affairs will give you contentment and freedom from the anxious cares of life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Love",
+              "original": "To dream that the love of others fills you with happy forebodings, successful affairs will give you contentment and freedom from the anxious cares of life.",
+              "translation_ko": "남의 사랑이 기쁜 예감으로 저를 채우는 꿈은, 하는 일이 잘돼 흡족하고 삶의 애타는 걱정에서 놓여남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "사랑이 어긋나거나 되돌아오지 않음",
+          "interpretation_ko": "사는 꼴을 바꿀지 혼인해 앞날을 걸어 볼지 마음속 다툼으로 풀 죽을 흉한 조짐",
+          "interpretation_en": "you will become despondent over some conflicting question arising in your mind",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Love",
+              "original": "If you find that your love fails, or is not reciprocated, you will become despondent over some conflicting question arising in your mind as to whether it is best to change your mode of living or to marry and trust fortune for the future advancement of your state.",
+              "translation_ko": "제 사랑이 어긋나거나 되돌아오지 않으면, 사는 꼴을 바꿀지 혼인해 앞날을 걸어 볼지 마음속 다툼으로 풀이 죽는다"
+            }
+          ]
+        },
+        {
+          "context": "짝이 사랑을 주는 것을 봄",
+          "interpretation_ko": "집안에 큰 즐거움이 있고 밝은 아이들이 집을 환하게 할 길한 조짐",
+          "interpretation_en": "foretells great happiness around the hearthstone, and bright children will contribute to the sunshine of the home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Love",
+              "original": "For a husband or wife to dream that their companion is loving, foretells great happiness around the hearthstone, and bright children will contribute to the sunshine of the home.",
+              "translation_ko": "지아비나 아내가 제 짝이 사랑을 준다고 꿈꾸면, 집안에 큰 즐거움이 있고 밝은 아이들이 집을 환하게 한다"
+            }
+          ]
+        },
+        {
+          "context": "어버이의 사랑을 봄",
+          "interpretation_ko": "사람됨이 반듯해지고 복과 자리가 꾸준히 나아갈 길한 조짐",
+          "interpretation_en": "foretells uprightness in character and a continual progress toward fortune and elevation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Love",
+              "original": "To dream of the love of parents, foretells uprightness in character and a continual progress toward fortune and elevation.",
+              "translation_ko": "어버이의 사랑을 꿈꾸면, 사람됨이 반듯해지고 복과 자리가 꾸준히 나아간다"
+            }
+          ]
+        },
+        {
+          "context": "짐승의 사랑을 봄",
+          "interpretation_ko": "제가 가진 것에 마음이 넉넉해질 길한 조짐. 스스로는 그렇게 여기지 않더라도 한동안 복이 따른다",
+          "interpretation_en": "indicates contentment with what you possess, though you may not think so; for a time, fortune will crown you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Love",
+              "original": "The love of animals, indicates contentment with what you possess, though you may not think so.",
+              "translation_ko": "짐승의 사랑은, 스스로는 그렇게 여기지 않더라도 제가 가진 것에 마음이 넉넉해짐을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rice",
       "term_ko": "쌀",
       "term_en": "rice",
@@ -32121,94 +32349,6 @@
               "locator": "Canal",
               "original": "But if the water be turbid she will often find herself tangled in meshes of perplexity and will be the victim of nervous troubles.",
               "translation_ko": "그러나 물이 탁하면 자주 곤경의 그물에 얽히고 신경을 앓는 이가 된다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "candy",
-      "term_ko": "사탕",
-      "term_en": "candy",
-      "aliases": [
-        "캔디",
-        "사탕과자"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "사탕을 만듦",
-          "interpretation_ko": "부지런히 일해 이문이 남을 조짐",
-          "interpretation_en": "profit accruing from industry",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Candy",
-              "original": "To dream of making candy, denotes profit accruing from industry.",
-              "translation_ko": "사탕을 만드는 꿈은 부지런히 일해 이문이 남음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "바삭한 새 사탕을 먹음",
-          "interpretation_ko": "사람들과 어울리는 즐거움과 사랑이 오갈 조짐",
-          "interpretation_en": "social pleasures and much love-making among the young and old",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Candy",
-              "original": "To dream of eating crisp, new candy, implies social pleasures and much love-making among the young and old.",
-              "translation_ko": "바삭한 새 사탕을 먹는 꿈은 어울리는 즐거움과 젊은이 늙은이 사이에 오가는 사랑을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "신 사탕을 봄",
-          "interpretation_ko": "병이 나거나, 너무 오래 감춘 비밀에서 역겨운 성가심이 자랄 조짐",
-          "interpretation_en": "illness, or disgusting annoyances growing out of confidences too long kept",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Candy",
-              "original": "Sour candy is a sign of illness or that disgusting annoyances will grow out of confidences too long kept.",
-              "translation_ko": "신 사탕은 병의 조짐이거나, 너무 오래 지킨 비밀에서 역겨운 성가심이 자란다는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "사탕 상자를 받음",
-          "interpretation_ko": "크게 추어올림을 받고 대체로 번영할 조짐",
-          "interpretation_en": "the recipient of much adulation; it generally means prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Candy",
-              "original": "To receive a box of bonbons, signifies to a young person that he or she will be the recipient of much adulation.  It generally means prosperity.",
-              "translation_ko": "사탕 상자를 받으면 젊은이에게는 크게 추어올림을 받는다는 뜻이다. 대체로 번영을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "사탕 상자를 보냄",
-          "interpretation_ko": "무언가를 제안하나 실망을 만날 조짐",
-          "interpretation_en": "you will make a proposition, but will meet with disappointment",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Candy",
-              "original": "If you send a box you will make a proposition, but will meet with disappointment.",
-              "translation_ko": "상자를 보내면 무언가를 제안하게 되나 실망을 만난다"
             }
           ]
         }
@@ -57753,6 +57893,128 @@
       ]
     },
     {
+      "id": "lovely",
+      "term_ko": "사랑스러운 것",
+      "term_en": "lovely",
+      "aliases": [
+        "사랑스러운",
+        "사랑스러웠다",
+        "어여쁜 것"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사랑스러운 것들을 봄",
+          "interpretation_ko": "저와 이어진 모든 이에게 좋은 일이 갈 길한 조짐",
+          "interpretation_en": "brings favor to all persons connected with you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lovely",
+              "original": "Dreaming of lovely things, brings favor to all persons connected with you.",
+              "translation_ko": "사랑스러운 것들의 꿈은, 저와 이어진 모든 이에게 좋은 일이 감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "정인이 사랑스러움",
+          "interpretation_ko": "머잖아 좋은 혼인이 있을 길한 조짐",
+          "interpretation_en": "foretells for him a speedy and favorable marriage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lovely",
+              "original": "For a lover to dream that his sweetheart is lovely of person and character, foretells for him a speedy and favorable marriage.",
+              "translation_ko": "정인의 몸가짐과 사람됨이 사랑스러운 꿈을 꾸면, 머잖아 좋은 혼인이 있다"
+            }
+          ]
+        },
+        {
+          "context": "제 모습이 사랑스러움",
+          "interpretation_ko": "빛나는 빛과 함께 기쁨으로 깨어나라고 운수가 이르는 길한 조짐",
+          "interpretation_en": "fate bids you, with a gleaming light, awake to happiness",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lovely",
+              "original": "If through the vista of dreams you see your own fair loveliness, fate bids you, with a gleaming light, awake to happiness.",
+              "translation_ko": "꿈결 너머로 제 고운 모습을 보면, 빛나는 빛과 함께 기쁨으로 깨어나라고 운수가 이른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "luggage",
+      "term_ko": "짐가방",
+      "term_en": "luggage",
+      "aliases": [
+        "짐가방을",
+        "짐가방이",
+        "여행 가방"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "짐가방을 봄",
+          "interpretation_ko": "달갑지 않은 걱정거리가 생길 흉한 조짐 — 마음에 안 드는 사람들에게 매이게 된다",
+          "interpretation_en": "denotes unpleasant cares; you will be encumbered with people who will prove distasteful to you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Luggage",
+              "original": "To dream of luggage, denotes unpleasant cares.",
+              "translation_ko": "짐가방의 꿈은 달갑지 않은 걱정거리가 생김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제 짐가방을 들고 감",
+          "interpretation_ko": "제 괴로움에만 빠져 남의 슬픔을 못 보게 될 흉한 조짐",
+          "interpretation_en": "you will be so full of your own distresses that you will be blinded to the sorrows of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Luggage",
+              "original": "If you are carrying your own luggage, you will be so full of your own distresses that you will be blinded to the sorrows of others.",
+              "translation_ko": "제 짐가방을 들고 가면, 제 괴로움에만 빠져 남의 슬픔을 못 보게 된다"
+            }
+          ]
+        },
+        {
+          "context": "짐가방을 잃음",
+          "interpretation_ko": "요행수가 어그러지거나 집안이 갈라질 흉한 조짐. 혼인 안 한 이에게는 약혼이 깨짐을 알린다",
+          "interpretation_en": "denotes some unfortunate speculation or family dissensions; to the unmarried, it foretells broken engagements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Luggage",
+              "original": "To lose your luggage, denotes some unfortunate speculation or family dissensions To the unmarried, it foretells broken engagements.",
+              "translation_ko": "짐가방을 잃으면 요행수가 어그러지거나 집안이 갈라진다. 혼인 안 한 이에게는 약혼이 깨짐을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "main-hall",
       "term_ko": "대청",
       "term_en": "main hall",
@@ -77197,6 +77459,53 @@
               "locator": "Lord's Prayer",
               "original": "To hear others repeat it, denotes the danger of some friend.",
               "translation_ko": "남이 그것을 외우는 것을 들으면 어떤 벗에게 위험이 닥친다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lucky",
+      "term_ko": "행운",
+      "term_en": "lucky",
+      "aliases": [
+        "운이 좋았다",
+        "운이 좋은",
+        "재수가 좋았다"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "운이 좋음",
+          "interpretation_ko": "꿈꾼 이에게 매우 좋은 조짐 — 바라던 것이 이루어지고 즐거운 일이 맡겨진다",
+          "interpretation_en": "is highly favorable to the dreamer; fulfilment of wishes may be expected and pleasant duties will devolve upon you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lucky",
+              "original": "To dream of being lucky, is highly favorable to the dreamer.",
+              "translation_ko": "운이 좋은 꿈은 꿈꾼 이에게 매우 좋은 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "낙심한 이가 행운의 꿈을 꿈",
+          "interpretation_ko": "마음이 일어서고 넉넉함이 되살아날 길한 조짐",
+          "interpretation_en": "this dream forebodes an uplifting and a renewal of prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lucky",
+              "original": "To the despondent, this dream forebodes an uplifting and a renewal of prosperity.",
+              "translation_ko": "낙심한 이에게 이 꿈은 마음이 일어서고 넉넉함이 되살아남을 알린다"
             }
           ]
         }

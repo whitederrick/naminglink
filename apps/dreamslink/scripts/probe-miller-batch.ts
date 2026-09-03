@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 108 — Loom~Louse, 16건)
+// (지금 담긴 것: 배치 109 — Love~Luggage, 18건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,23 +30,25 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "weaving", ctx: "낯선 이가 베틀을 다루는 것을 봄", text: "낯선 사람이 베틀을 다루고 있었다" },
-  { id: "weaving", ctx: "어여쁜 여인들이 베틀을 다루는 것을 봄", text: "어여쁜 여인들이 베틀을 돌보고 있었다" },
-  { id: "weaving", ctx: "여성이 옛날 베틀로 베를 짬", text: "여자가 옛날 베틀로 베를 짰다" },
-  { id: "weaving", ctx: "멈춰 있는 베틀을 봄", text: "멈춰 있는 베틀을 보았다" },
-  { id: "lord-s-prayer", ctx: "주기도문을 외움", text: "주기도문을 외웠다" },
-  { id: "lord-s-prayer", ctx: "남이 주기도문을 외우는 것을 들음", text: "남이 주기도문을 외우는 것을 들었다" },
-  { id: "lottery", ctx: "복권을 봄", text: "복권을 샀다" },
-  { id: "lottery", ctx: "남이 복권에 당첨되는 것을 봄", text: "남이 복권에 당첨되는 것을 보았다" },
-  { id: "lottery", ctx: "당첨 번호를 가짐", text: "복권 당첨 번호를 쥐고 있었다" },
-  { id: "lottery", ctx: "복권 추첨에 마음을 쏟음", text: "복권 추첨에 마음을 쏟고 있었다" },
-  { id: "lottery", ctx: "복권에서 잃음", text: "복권에서 잃었다" },
-  { id: "lottery", ctx: "처녀가 복권 꿈을 꿈", text: "처녀가 복권 꿈을 꾸었다" },
-  { id: "lice", ctx: "머릿니 한 마리를 봄", text: "머릿니 한 마리를 보았다" },
+  { id: "love", ctx: "무언가를 사랑함", text: "무언가를 사랑하고 있었다" },
+  { id: "love", ctx: "남의 사랑이 기쁜 예감으로 가득 참", text: "남의 사랑이 기쁜 예감으로 가득 찼다" },
+  { id: "love", ctx: "사랑이 어긋나거나 되돌아오지 않음", text: "내 사랑이 어긋났다" },
+  { id: "love", ctx: "짝이 사랑을 주는 것을 봄", text: "아내가 사랑을 주는 것을 보았다" },
+  { id: "love", ctx: "어버이의 사랑을 봄", text: "어버이의 사랑을 보았다" },
+  { id: "love", ctx: "짐승의 사랑을 봄", text: "짐승의 사랑을 보았다" },
+  { id: "lovely", ctx: "사랑스러운 것들을 봄", text: "사랑스러운 것들이 있었다" },
+  { id: "lovely", ctx: "정인이 사랑스러움", text: "정인이 사랑스러웠다" },
+  { id: "lovely", ctx: "제 모습이 사랑스러움", text: "내 모습이 사랑스러웠다" },
+  { id: "candy", ctx: "여성이 알사탕을 먹거나 버림", text: "여자가 알사탕을 먹었다" },
+  { id: "candy", ctx: "알사탕을 봄", text: "알사탕이 있었다" },
+  { id: "lucky", ctx: "운이 좋음", text: "운이 좋았다" },
+  { id: "lucky", ctx: "낙심한 이가 행운의 꿈을 꿈", text: "낙심한 채로 행운의 꿈을 꾸었다" },
+  { id: "luggage", ctx: "짐가방을 봄", text: "짐가방이 놓여 있었다" },
+  { id: "luggage", ctx: "제 짐가방을 들고 감", text: "내 짐가방을 들고 갔다" },
+  { id: "luggage", ctx: "짐가방을 잃음", text: "짐가방을 잃어버렸다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "weaving", ctx: "날실을 걸어 베를 짬", text: "날실을 걸어 베를 짰다" },
-  { id: "lice", ctx: "머릿니가 나오는 꿈을 꿈", text: "머릿니가 우글거렸다" },
-  { id: "lice", ctx: "이를 잡음", text: "머릿니를 잡았다" },
+  { id: "candy", ctx: "사탕을 만듦", text: "사탕을 만들었다" },
+  { id: "candy", ctx: "신 사탕을 봄", text: "시큼한 사탕을 보았다" },
 ];
 
 let notFound = 0;

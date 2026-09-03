@@ -1,0 +1,99 @@
+[
+  {
+    "id": "love",
+    "aliases": [
+      "사랑을",
+      "사랑이",
+      "사랑에",
+      "사랑하는",
+      "사랑했다",
+      "사랑하고",
+      "사랑한다",
+      "사랑받는",
+      "사랑받았다"
+    ],
+    "aliases_en": [
+      "loving",
+      "beloved"
+    ],
+    "contexts": {
+      "무언가를 사랑함": "아꼈 아끼는",
+      "남의 사랑이 기쁜 예감으로 가득 참": "예감 벅찼",
+      "사랑이 어긋나거나 되돌아오지 않음": "어긋 짝사랑 돌아오지",
+      "짝이 사랑을 주는 것을 봄": "짝이 아내가 지아비가 남편이",
+      "어버이의 사랑을 봄": "어버이 부모",
+      "짐승의 사랑을 봄": "짐승 동물"
+    },
+    "contexts_en": {
+      "무언가를 사랑함": "object satisfaction environments",
+      "남의 사랑이 기쁜 예감으로 가득 참": "forebodings contentment freedom anxious",
+      "사랑이 어긋나거나 되돌아오지 않음": "fails reciprocated despondent conflicting",
+      "짝이 사랑을 주는 것을 봄": "husband wife companion hearthstone sunshine",
+      "어버이의 사랑을 봄": "parents uprightness character elevation",
+      "짐승의 사랑을 봄": "animals possess crown"
+    }
+  },
+  {
+    "id": "lovely",
+    "aliases": [
+      "사랑스러운",
+      "사랑스러웠다",
+      "어여쁜 것"
+    ],
+    "aliases_en": [
+      "loveliness"
+    ],
+    "contexts": {
+      "사랑스러운 것들을 봄": "것들 물건들",
+      "정인이 사랑스러움": "정인 애인",
+      "제 모습이 사랑스러움": "모습이 스스로"
+    },
+    "contexts_en": {
+      "사랑스러운 것들을 봄": "favor persons connected",
+      "정인이 사랑스러움": "sweetheart character speedy marriage",
+      "제 모습이 사랑스러움": "vista own fair gleaming awake"
+    }
+  },
+  {
+    "id": "lucky",
+    "aliases": [
+      "운이 좋았다",
+      "운이 좋은",
+      "재수가 좋았다"
+    ],
+    "aliases_en": [
+      "luck",
+      "fortunate"
+    ],
+    "contexts": {
+      "운이 좋음": "운이 재수",
+      "낙심한 이가 행운의 꿈을 꿈": "낙심 풀죽 의기소침"
+    },
+    "contexts_en": {
+      "운이 좋음": "favorable fulfilment wishes devolve",
+      "낙심한 이가 행운의 꿈을 꿈": "despondent uplifting renewal"
+    }
+  },
+  {
+    "id": "luggage",
+    "aliases": [
+      "짐가방을",
+      "짐가방이",
+      "여행 가방"
+    ],
+    "aliases_en": [
+      "baggage",
+      "suitcase"
+    ],
+    "contexts": {
+      "짐가방을 봄": "놓여 쌓여",
+      "제 짐가방을 들고 감": "들고 메고 끌고",
+      "짐가방을 잃음": "잃어 잃었 분실"
+    },
+    "contexts_en": {
+      "짐가방을 봄": "unpleasant cares encumbered distasteful",
+      "제 짐가방을 들고 감": "carrying own distresses blinded sorrows",
+      "짐가방을 잃음": "lose unfortunate speculation dissensions"
+    }
+  }
+]

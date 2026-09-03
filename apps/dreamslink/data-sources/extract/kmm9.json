@@ -335,7 +335,9 @@
     "id": "candy",
     "aliases": [
       "캔디",
-      "사탕과자"
+      "사탕과자",
+      "알사탕",
+      "목캔디"
     ],
     "aliases_en": [
       "candies",
@@ -347,14 +349,18 @@
       "바삭한 새 사탕을 먹음": "먹었 바삭 씹었",
       "신 사탕을 봄": "신맛 시큼 새콤",
       "사탕 상자를 받음": "받았 선물로",
-      "사탕 상자를 보냄": "보냈 부쳤 건넸"
+      "사탕 상자를 보냄": "보냈 부쳤 건넸",
+      "여성이 알사탕을 먹거나 버림": "여자가 여성이 버렸",
+      "알사탕을 봄": "알사탕 목캔디"
     },
     "contexts_en": {
       "사탕을 만듦": "making profit industry",
       "바삭한 새 사탕을 먹음": "eating crisp pleasures",
       "신 사탕을 봄": "sour illness annoyances",
       "사탕 상자를 받음": "receive box adulation",
-      "사탕 상자를 보냄": "send proposition disappointment"
+      "사탕 상자를 보냄": "send proposition disappointment",
+      "여성이 알사탕을 먹거나 버림": "throw away harassed spites envious",
+      "알사탕을 봄": "lozenges small matters"
     }
   },
   {
