@@ -378,7 +378,9 @@
       "흙탕",
       "흙탕물",
       "진창을",
-      "진창이"
+      "진창이",
+      "진흙이",
+      "진흙을"
     ],
     "aliases_en": [
       "muddy",
@@ -389,13 +391,21 @@
       "진흙 속에 빠져 있음": "빠져 빠졌 갇혀 허우적 헤어나",
       "진흙이 옷을 더럽힘": "옷이 옷을 옷에 묻었 더럽",
       "진흙이 적삼을 더럽힘": "적삼 저고리 소매 윗도리",
-      "진창을 헤치고 감": "헤치 헤치고 지나갔"
+      "진창을 헤치고 감": "헤치 헤치고 지나갔",
+      "진흙을 밟고 걸어감": "걸어 걸었",
+      "남이 진흙을 밟고 가는 것을 봄": "남이 남들 다른 사람",
+      "농사짓는 이가 진흙 꿈을 꿈": "농사 농부",
+      "옷에 묻은 진흙을 긁어냄": "긁어 털어 떼어"
     },
     "contexts_en": {
       "진흙 속에 빠져 있음": "stuck sinking trapped mired struggling",
       "진흙이 옷을 더럽힘": "clothes clothing soiled dirtied stained",
       "진흙이 적삼을 더럽힘": "shirt jacket sleeve blouse",
-      "진창을 헤치고 감": "going wishes plans temporary check"
+      "진창을 헤치고 감": "going wishes plans temporary check",
+      "진흙을 밟고 걸어감": "confidence friendships disturbances family",
+      "남이 진흙을 밟고 가는 것을 봄": "others walking ugly rumors employee",
+      "농사짓는 이가 진흙 꿈을 꿈": "farmer short crops unsatisfactory gains",
+      "옷에 묻은 진흙을 긁어냄": "scrape escape calumny"
     }
   },
   {

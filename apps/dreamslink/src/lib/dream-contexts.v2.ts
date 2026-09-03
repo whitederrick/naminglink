@@ -685,6 +685,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "mud::진흙이 옷을 더럽힘": "clothes clothing soiled dirtied stained",
   "mud::진흙이 적삼을 더럽힘": "shirt jacket sleeve blouse",
   "mud::진창을 헤치고 감": "going wishes plans temporary check",
+  "mud::진흙을 밟고 걸어감": "confidence friendships disturbances family",
+  "mud::남이 진흙을 밟고 가는 것을 봄": "others walking ugly rumors employee",
+  "mud::농사짓는 이가 진흙 꿈을 꿈": "farmer short crops unsatisfactory gains",
+  "mud::옷에 묻은 진흙을 긁어냄": "scrape escape calumny",
   "song::노래하는 것을 봄": "watched saw watching someone else",
   "song::마루 위에서 노래하고 풍악을 울림": "floor porch music instruments festive",
   "song::병자가 노래함": "sick patient ill invalid",
@@ -1031,6 +1035,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "mountain::산길을 가다 재물을 얻음": "treasure money wealth found",
   "mountain::물건을 안고 산에 오름": "carrying object bundle load",
   "mountain::산속에서 농사를 지음": "farming planting crops field",
+  "mountain::처녀가 웃는 사촌·죽은 오라비와 산을 넘음": "crossing cousin brother smiling allurements",
+  "mountain::산을 넘다 지쳐 더 가기를 마다함": "exhausted refuses further slightly exalted",
+  "mountain::곱고 푸른 길로 산에 오름": "ascend pleasant verdant swiftly prominence",
+  "mountain::가파른 산을 오르다 꼭대기에 못 미침": "rugged reach top reverses weakness",
+  "mountain::산을 오르다 아슬아슬한 곳에서 잠이 깸": "awaken dangerous point flattering turn",
   "prison::감옥이 무너짐": "collapsed crumbling ruined",
   "prison::옥에 갇혀 앉아 있음": "sitting locked confined",
   "prison::옥에 들어가 재앙을 당함": "disaster calamity misfortune",
@@ -4497,5 +4506,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "mother::어머니가 저를 부르는 소리를 들음": "call derelict wrong course",
   "mother::어머니가 아파 우는 소리를 들음": "cry pain omens illness affliction",
   "mother-in-law::시어머니를 봄": "pleasant reconciliations serious disagreement",
-  "mother-in-law::여성이 시어머니와 다툼": "dispute quarrelsome unfeeling annoyance"
+  "mother-in-law::여성이 시어머니와 다툼": "dispute quarrelsome unfeeling annoyance",
+  "mouse-trap::쥐덫을 봄": "careful character wary persons designs",
+  "mouse-trap::쥐덫에 쥐가 가득 든 것을 봄": "mice fall hands enemies",
+  "mouse-trap::쥐덫을 놓음": "set artfully devise means opponents"
 };

@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "처녀가 웃는 사촌·죽은 오라비와 산을 넘음",
+    "interpretation_ko": "삶이 뚜렷하게 나아지나 벗의 꾐과 속임을 조심해야 할 조짐",
+    "interpretation_en": "denotes she will have a distinctive change in her life for the better, but there are warnings against allurements and deceitfulness of friends",
+    "polarity": "neutral",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mountain",
+      "original": "For a young woman to dream of crossing a mountain in company with her cousin and dead brother, who was smiling, denotes she will have a distinctive change in her life for the better, but there are warnings against allurements and deceitfulness of friends.",
+      "translation_ko": "처녀가 웃는 사촌과 죽은 오라비와 함께 산을 넘는 꿈을 꾸면, 삶이 뚜렷하게 나아지나 벗의 꾐과 속임을 조심해야 한다"
+    }
+  },
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "산을 넘다 지쳐 더 가기를 마다함",
+    "interpretation_ko": "바라던 만큼 높은 자리에 오르지 못해 조금 실망할 흉한 조짐",
+    "interpretation_en": "she will be slightly disappointed in not gaining quite so exalted a position as was hoped for by her",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mountain",
+      "original": "If she becomes exhausted and refuses to go further, she will be slightly disappointed in not gaining quite so exalted a position as was hoped for by her.",
+      "translation_ko": "지쳐서 더 가기를 마다하면, 바라던 만큼 높은 자리에 오르지 못해 조금 실망한다"
+    }
+  },
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "곱고 푸른 길로 산에 오름",
+    "interpretation_ko": "재물과 높은 이름에 빠르게 오를 길한 조짐",
+    "interpretation_en": "you will rise swiftly to wealth and prominence",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mountain",
+      "original": "If you ascend a mountain in your dreams, and the way is pleasant and verdant, you will rise swiftly to wealth and prominence.",
+      "translation_ko": "산에 오르는데 길이 곱고 푸르면, 재물과 높은 이름에 빠르게 오른다"
+    }
+  },
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "가파른 산을 오르다 꼭대기에 못 미침",
+    "interpretation_ko": "살면서 뒷걸음질 칠 일이 있으니 제 속의 약한 것을 이겨 내야 할 흉한 조짐",
+    "interpretation_en": "you may expect reverses in your life, and should strive to overcome all weakness in your nature",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mountain",
+      "original": "If the mountain is rugged, and you fail to reach the top, you may expect reverses in your life, and should strive to overcome all weakness in your nature.",
+      "translation_ko": "산이 가파른데 꼭대기에 이르지 못하면, 살면서 뒷걸음질 칠 일이 있으니 제 속의 약한 것을 이겨 내야 한다"
+    }
+  },
+  {
+    "term_ko": "산",
+    "term_en": "mountain",
+    "context": "산을 오르다 아슬아슬한 곳에서 잠이 깸",
+    "interpretation_ko": "어두워 보이던 일이 그럴듯하게 돌아설 길한 조짐",
+    "interpretation_en": "denotes that you will find affairs taking a flattering turn when they appear gloomy",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mountain",
+      "original": "To awaken when you are at a dangerous point in ascending, denotes that you will find affairs taking a flattering turn when they appear gloomy.",
+      "translation_ko": "산을 오르다 아슬아슬한 곳에서 잠이 깨면, 어두워 보이던 일이 그럴듯하게 돌아선다"
+    }
+  },
+  {
+    "term_ko": "쥐덫",
+    "term_en": "mouse-trap",
+    "context": "쥐덫을 봄",
+    "interpretation_ko": "속을 노리는 이들이 있으니 제 몸가짐을 조심해야 할 흉한 조짐",
+    "interpretation_en": "signifies your need to be careful of character, as wary persons have designs upon you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mouse-trap",
+      "original": "To see a mouse-trap in dreams, signifies your need to be careful of character, as wary persons have designs upon you.",
+      "translation_ko": "꿈에 쥐덫을 보면, 속을 노리는 이들이 있으니 제 몸가짐을 조심해야 한다"
+    }
+  },
+  {
+    "term_ko": "쥐덫",
+    "term_en": "mouse-trap",
+    "context": "쥐덫에 쥐가 가득 든 것을 봄",
+    "interpretation_ko": "적의 손아귀에 떨어지기 쉬운 흉한 조짐",
+    "interpretation_en": "you will likely fall into the hands of enemies",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mouse-trap",
+      "original": "To see it full of mice, you will likely fall into the hands of enemies.",
+      "translation_ko": "쥐덫에 쥐가 가득 든 것을 보면 적의 손아귀에 떨어지기 쉽다"
+    }
+  },
+  {
+    "term_ko": "쥐덫",
+    "term_en": "mouse-trap",
+    "context": "쥐덫을 놓음",
+    "interpretation_ko": "꾀를 내어 맞수를 이겨 낼 길한 조짐",
+    "interpretation_en": "you will artfully devise means to overcome your opponents",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mouse-trap",
+      "original": "To set a trap, you will artfully devise means to overcome your opponents.",
+      "translation_ko": "덫을 놓으면 꾀를 내어 맞수를 이겨 낸다"
+    }
+  },
+  {
+    "term_ko": "진흙",
+    "term_en": "mud",
+    "context": "진흙을 밟고 걸어감",
+    "interpretation_ko": "벗을 믿지 못하게 되고 집안에 잃을 것과 소란이 있을 흉한 조짐",
+    "interpretation_en": "denotes that you will have cause to lose confidence in friendships, and there will be losses and disturbances in family circles",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mud",
+      "original": "To dream that you walk in mud, denotes that you will have cause to lose confidence in friendships, and there will be losses and disturbances in family circles.",
+      "translation_ko": "진흙을 밟고 걷는 꿈은, 벗을 믿지 못하게 되고 집안에 잃을 것과 소란이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "진흙",
+    "term_en": "mud",
+    "context": "남이 진흙을 밟고 가는 것을 봄",
+    "interpretation_ko": "벗이나 부리는 사람에 대한 궂은 소문이 들려올 흉한 조짐",
+    "interpretation_en": "ugly rumors will reach you of some friend or employee",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mud",
+      "original": "To see others walking in mud, ugly rumors will reach you of some friend or employee.",
+      "translation_ko": "남이 진흙을 밟고 가는 것을 보면, 벗이나 부리는 사람에 대한 궂은 소문이 들려온다"
+    }
+  },
+  {
+    "term_ko": "진흙",
+    "term_en": "mud",
+    "context": "농사짓는 이가 진흙 꿈을 꿈",
+    "interpretation_ko": "거둠이 적고 짐승을 쳐도 벌이가 시원찮을 흉한 조짐",
+    "interpretation_en": "this dream is significant of short crops and unsatisfactory gains from stock",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mud",
+      "original": "To the farmer, this dream is significant of short crops and unsatisfactory gains from stock.",
+      "translation_ko": "농사짓는 이에게 이 꿈은 거둠이 적고 짐승을 쳐도 벌이가 시원찮음을 알린다"
+    }
+  },
+  {
+    "term_ko": "진흙",
+    "term_en": "mud",
+    "context": "옷에 묻은 진흙을 긁어냄",
+    "interpretation_ko": "적이 퍼뜨리는 헐뜯음에서 벗어날 길한 조짐",
+    "interpretation_en": "signifies that you will escape the calumny of enemies",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mud",
+      "original": "To scrape it off, signifies that you will escape the calumny of enemies.",
+      "translation_ko": "그것을 긁어내면 적이 퍼뜨리는 헐뜯음에서 벗어난다"
+    }
+  }
+]

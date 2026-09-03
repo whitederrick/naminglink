@@ -1,0 +1,33 @@
+{
+  "batch": 134,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Mountain",
+      "text": "For a young woman to dream of crossing a mountain in company with her cousin and dead brother, who was smiling, denotes she will have a distinctive change in her life for the better, but there are warnings against allurements and deceitfulness of friends. If she becomes exhausted and refuses to go further, she will be slightly disappointed in not gaining quite so exalted a position as was hoped for by her.\n\nIf you ascend a mountain in your dreams, and the way is pleasant and verdant, you will rise swiftly to wealth and prominence. If the mountain is rugged, and you fail to reach the top, you may expect reverses in your life, and should strive to overcome all weakness in your nature. To awaken when you are at a dangerous point in ascending, denotes that you will find affairs taking a flattering turn when they appear gloomy.",
+      "note": "「산」이 기존 `mountain` 의 이름이다. 열이던 의미가 열다섯이 된다 — 판별어를 적기 전에 기존 열의 낱말을 한 줄씩 읽었다"
+    },
+    {
+      "headword": "Mouse-trap",
+      "text": "To see a mouse-trap in dreams, signifies your need to be careful of character, as wary persons have designs upon you.\n\nTo see it full of mice, you will likely fall into the hands of enemies.\n\nTo set a trap, you will artfully devise means to overcome your opponents.",
+      "note": "새 상징 `mouse-trap`(쥐덫). 한국어는 안전하다 — 「쥐덫」의 「쥐」 뒤가 조사가 아니라 `isStandalone` 이 막는다. **영어는 안 막힌다**(「mouse-trap」의 `mouse`) — 배치 133 `mother-in-law` 와 같은 자리다"
+    },
+    {
+      "headword": "Mud",
+      "text": "To dream that you walk in mud, denotes that you will have cause to lose confidence in friendships, and there will be losses and disturbances in family circles.\n\nTo see others walking in mud, ugly rumors will reach you of some friend or employee. To the farmer, this dream is significant of short crops and unsatisfactory gains from stock.\n\nTo see mud on your clothing, your reputation is being assailed. To scrape it off, signifies that you will escape the calumny of enemies.",
+      "note": "「진흙」이 기존 `mud` 의 이름이다"
+    }
+  ],
+  "skipped": [
+    {
+      "headword": "Mouse",
+      "reason": "**같은 그림이 이미 있다** — 「For a woman to dream of a mouse, denotes that she will have an enemy who will annoy her by artfulness and treachery」는 `mouse` 에 이미 들어와 있는 밀러 `Mice` 의 「처녀가 쥐 꿈을 꿈」(warns her of secret enemies, and that deception is being practised upon her)과 같은 꿈·같은 풀이다. 표제어를 통째로 건너뛴다(§31 곁가지)"
+    }
+  ],
+  "skipped_sentences": [
+    {
+      "sentence": "To see mud on your clothing, your reputation is being assailed.",
+      "reason": "**같은 그림이 이미 있다** — `mud` 의 주공해몽 의미 「진흙이 옷을 더럽힘」(垢污沐浴凌辱)이다. 낱말(「옷」)을 가를 수 없고 `m134.json` 이 `r*.json` 보다 앞서 정렬되어 차례로도 못 푼다(§30 곁가지, 배치 78)"
+    }
+  ]
+}

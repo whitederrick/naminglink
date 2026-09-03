@@ -40,6 +40,7 @@
     "m131.json",
     "m132.json",
     "m133.json",
+    "m134.json",
     "m14.json",
     "m15.json",
     "m16.json",
@@ -9581,6 +9582,240 @@
       ]
     },
     {
+      "id": "mountain",
+      "term_ko": "산",
+      "term_en": "mountain",
+      "aliases": [
+        "산속",
+        "봉우리",
+        "산등성이",
+        "산을",
+        "산이",
+        "산에"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "산이 해와 달을 물고 있음",
+          "interpretation_ko": "아랫사람이 주인을 속일 조짐",
+          "interpretation_en": "a sign that a servant will deceive the master",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月啣山奴欺主",
+              "translation_ko": "해와 달이 산에 걸리면 종이 주인을 속인다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 웃는 사촌·죽은 오라비와 산을 넘음",
+          "interpretation_ko": "삶이 뚜렷하게 나아지나 벗의 꾐과 속임을 조심해야 할 조짐",
+          "interpretation_en": "denotes she will have a distinctive change in her life for the better, but there are warnings against allurements and deceitfulness of friends",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mountain",
+              "original": "For a young woman to dream of crossing a mountain in company with her cousin and dead brother, who was smiling, denotes she will have a distinctive change in her life for the better, but there are warnings against allurements and deceitfulness of friends.",
+              "translation_ko": "처녀가 웃는 사촌과 죽은 오라비와 함께 산을 넘는 꿈을 꾸면, 삶이 뚜렷하게 나아지나 벗의 꾐과 속임을 조심해야 한다"
+            }
+          ]
+        },
+        {
+          "context": "산을 넘다 지쳐 더 가기를 마다함",
+          "interpretation_ko": "바라던 만큼 높은 자리에 오르지 못해 조금 실망할 흉한 조짐",
+          "interpretation_en": "she will be slightly disappointed in not gaining quite so exalted a position as was hoped for by her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mountain",
+              "original": "If she becomes exhausted and refuses to go further, she will be slightly disappointed in not gaining quite so exalted a position as was hoped for by her.",
+              "translation_ko": "지쳐서 더 가기를 마다하면, 바라던 만큼 높은 자리에 오르지 못해 조금 실망한다"
+            }
+          ]
+        },
+        {
+          "context": "곱고 푸른 길로 산에 오름",
+          "interpretation_ko": "재물과 높은 이름에 빠르게 오를 길한 조짐",
+          "interpretation_en": "you will rise swiftly to wealth and prominence",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mountain",
+              "original": "If you ascend a mountain in your dreams, and the way is pleasant and verdant, you will rise swiftly to wealth and prominence.",
+              "translation_ko": "산에 오르는데 길이 곱고 푸르면, 재물과 높은 이름에 빠르게 오른다"
+            }
+          ]
+        },
+        {
+          "context": "가파른 산을 오르다 꼭대기에 못 미침",
+          "interpretation_ko": "살면서 뒷걸음질 칠 일이 있으니 제 속의 약한 것을 이겨 내야 할 흉한 조짐",
+          "interpretation_en": "you may expect reverses in your life, and should strive to overcome all weakness in your nature",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mountain",
+              "original": "If the mountain is rugged, and you fail to reach the top, you may expect reverses in your life, and should strive to overcome all weakness in your nature.",
+              "translation_ko": "산이 가파른데 꼭대기에 이르지 못하면, 살면서 뒷걸음질 칠 일이 있으니 제 속의 약한 것을 이겨 내야 한다"
+            }
+          ]
+        },
+        {
+          "context": "산을 오르다 아슬아슬한 곳에서 잠이 깸",
+          "interpretation_ko": "어두워 보이던 일이 그럴듯하게 돌아설 길한 조짐",
+          "interpretation_en": "denotes that you will find affairs taking a flattering turn when they appear gloomy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mountain",
+              "original": "To awaken when you are at a dangerous point in ascending, denotes that you will find affairs taking a flattering turn when they appear gloomy.",
+              "translation_ko": "산을 오르다 아슬아슬한 곳에서 잠이 깨면, 어두워 보이던 일이 그럴듯하게 돌아선다"
+            }
+          ]
+        },
+        {
+          "context": "불이 산과 들을 태움",
+          "interpretation_ko": "크게 출세할 조짐",
+          "interpretation_en": "a sign of great advancement in the world",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "火燒山野大顯達",
+              "translation_ko": "불이 산과 들을 태우면 크게 현달한다"
+            }
+          ]
+        },
+        {
+          "context": "산에 올랐다가 땅에 떨어짐",
+          "interpretation_ko": "지위를 잃을 조짐",
+          "interpretation_en": "a sign of losing one's position",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "昇山落地主失位",
+              "translation_ko": "산에 올랐다가 땅에 떨어지면 지위를 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "산에 오르며 두려워함",
+          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining salary and position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "上山恐怕祿位至",
+              "translation_ko": "산에 오르며 두려워하면 녹봉과 지위가 온다"
+            }
+          ]
+        },
+        {
+          "context": "오르던 산이 무너져 내림",
+          "interpretation_ko": "흉악한 일이 생길 조짐",
+          "interpretation_en": "a sign of grave misfortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "上山毀壞主凶惡",
+              "translation_ko": "산에 올랐는데 산이 무너지면 흉악하다"
+            }
+          ]
+        },
+        {
+          "context": "높은 산을 유람하며 구경함",
+          "interpretation_ko": "봄과 여름에 길한 조짐",
+          "interpretation_en": "an auspicious sign in spring and summer",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "遊看高山春夏吉",
+              "translation_ko": "높은 산을 유람하며 구경하면 봄과 여름에 길하다"
+            }
+          ]
+        },
+        {
+          "context": "높은 산에 자리 잡고 삶",
+          "interpretation_ko": "기쁜 일이 생길 조짐",
+          "interpretation_en": "a sign of a joyful event",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "居住高山有喜事",
+              "translation_ko": "높은 산에 살면 기쁜 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "산길을 가다 재물을 얻음",
+          "interpretation_ko": "복된 인연이 닿을 조짐",
+          "interpretation_en": "a sign of blessed fortune and good ties",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "山行得財有福緣",
+              "translation_ko": "산길을 가다 재물을 얻으면 복된 인연이 있다"
+            }
+          ]
+        },
+        {
+          "context": "물건을 안고 산에 오름",
+          "interpretation_ko": "귀한 자식을 밸 조짐",
+          "interpretation_en": "a sign of conceiving a noble child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "抱物上山孕貴子",
+              "translation_ko": "물건을 안고 산에 오르면 귀한 자식을 밴다"
+            }
+          ]
+        },
+        {
+          "context": "산속에서 농사를 지음",
+          "interpretation_ko": "입고 먹을 것이 넉넉해질 조짐",
+          "interpretation_en": "a sign of abundant food and clothing",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "山中農稼衣食豐",
+              "translation_ko": "산속에서 농사를 지으면 입을 것과 먹을 것이 넉넉하다"
+            }
+          ]
+        }
+      ],
+      "label_ko": "산(山)"
+    },
+    {
       "id": "prison",
       "term_ko": "감옥",
       "term_en": "prison",
@@ -16954,166 +17189,6 @@
       ]
     },
     {
-      "id": "mountain",
-      "term_ko": "산",
-      "term_en": "mountain",
-      "aliases": [
-        "산속",
-        "봉우리",
-        "산등성이"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "산이 해와 달을 물고 있음",
-          "interpretation_ko": "아랫사람이 주인을 속일 조짐",
-          "interpretation_en": "a sign that a servant will deceive the master",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月啣山奴欺主",
-              "translation_ko": "해와 달이 산에 걸리면 종이 주인을 속인다"
-            }
-          ]
-        },
-        {
-          "context": "불이 산과 들을 태움",
-          "interpretation_ko": "크게 출세할 조짐",
-          "interpretation_en": "a sign of great advancement in the world",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "火燒山野大顯達",
-              "translation_ko": "불이 산과 들을 태우면 크게 현달한다"
-            }
-          ]
-        },
-        {
-          "context": "산에 올랐다가 땅에 떨어짐",
-          "interpretation_ko": "지위를 잃을 조짐",
-          "interpretation_en": "a sign of losing one's position",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "昇山落地主失位",
-              "translation_ko": "산에 올랐다가 땅에 떨어지면 지위를 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "산에 오르며 두려워함",
-          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining salary and position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "上山恐怕祿位至",
-              "translation_ko": "산에 오르며 두려워하면 녹봉과 지위가 온다"
-            }
-          ]
-        },
-        {
-          "context": "오르던 산이 무너져 내림",
-          "interpretation_ko": "흉악한 일이 생길 조짐",
-          "interpretation_en": "a sign of grave misfortune",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "上山毀壞主凶惡",
-              "translation_ko": "산에 올랐는데 산이 무너지면 흉악하다"
-            }
-          ]
-        },
-        {
-          "context": "높은 산을 유람하며 구경함",
-          "interpretation_ko": "봄과 여름에 길한 조짐",
-          "interpretation_en": "an auspicious sign in spring and summer",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "遊看高山春夏吉",
-              "translation_ko": "높은 산을 유람하며 구경하면 봄과 여름에 길하다"
-            }
-          ]
-        },
-        {
-          "context": "높은 산에 자리 잡고 삶",
-          "interpretation_ko": "기쁜 일이 생길 조짐",
-          "interpretation_en": "a sign of a joyful event",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "居住高山有喜事",
-              "translation_ko": "높은 산에 살면 기쁜 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "산길을 가다 재물을 얻음",
-          "interpretation_ko": "복된 인연이 닿을 조짐",
-          "interpretation_en": "a sign of blessed fortune and good ties",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "山行得財有福緣",
-              "translation_ko": "산길을 가다 재물을 얻으면 복된 인연이 있다"
-            }
-          ]
-        },
-        {
-          "context": "물건을 안고 산에 오름",
-          "interpretation_ko": "귀한 자식을 밸 조짐",
-          "interpretation_en": "a sign of conceiving a noble child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "抱物上山孕貴子",
-              "translation_ko": "물건을 안고 산에 오르면 귀한 자식을 밴다"
-            }
-          ]
-        },
-        {
-          "context": "산속에서 농사를 지음",
-          "interpretation_ko": "입고 먹을 것이 넉넉해질 조짐",
-          "interpretation_en": "a sign of abundant food and clothing",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "山中農稼衣食豐",
-              "translation_ko": "산속에서 농사를 지으면 입을 것과 먹을 것이 넉넉하다"
-            }
-          ]
-        }
-      ],
-      "label_ko": "산(山)"
-    },
-    {
       "id": "mouse",
       "term_ko": "쥐",
       "term_en": "mouse",
@@ -22858,6 +22933,142 @@
               "locator": "飲食酒肉瓜菜",
               "original": "食瓜子主生貴子",
               "translation_ko": "오이씨를 먹으면 귀한 자식을 낳는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mud",
+      "term_ko": "진흙",
+      "term_en": "mud",
+      "aliases": [
+        "진창",
+        "흙탕",
+        "흙탕물",
+        "진창을",
+        "진창이",
+        "진흙이",
+        "진흙을"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "진흙 속에 빠져 있음",
+          "interpretation_ko": "구하는 바가 이루어지지 않을 조짐",
+          "interpretation_en": "a sign that what one seeks will not come about",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "在泥中所求不成",
+              "translation_ko": "진흙 속에 있으면 구하는 바가 이루어지지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "진창을 헤치고 감",
+          "interpretation_ko": "둘레가 뜻밖으로 바뀌어 간절히 바라던 일이 한동안 막힐 흉한 조짐",
+          "interpretation_en": "indicates that your dearest wishes and plans will receive a temporary check by the intervention of unusual changes in your surroundings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mire",
+              "original": "To dream of going through mire, indicates that your dearest wishes and plans will receive a temporary check by the intervention of unusual changes in your surroundings.",
+              "translation_ko": "진창을 헤치고 가는 꿈은, 둘레가 뜻밖으로 바뀌어 간절히 바라던 일이 한동안 막힘을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "진흙을 밟고 걸어감",
+          "interpretation_ko": "벗을 믿지 못하게 되고 집안에 잃을 것과 소란이 있을 흉한 조짐",
+          "interpretation_en": "denotes that you will have cause to lose confidence in friendships, and there will be losses and disturbances in family circles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mud",
+              "original": "To dream that you walk in mud, denotes that you will have cause to lose confidence in friendships, and there will be losses and disturbances in family circles.",
+              "translation_ko": "진흙을 밟고 걷는 꿈은, 벗을 믿지 못하게 되고 집안에 잃을 것과 소란이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 진흙을 밟고 가는 것을 봄",
+          "interpretation_ko": "벗이나 부리는 사람에 대한 궂은 소문이 들려올 흉한 조짐",
+          "interpretation_en": "ugly rumors will reach you of some friend or employee",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mud",
+              "original": "To see others walking in mud, ugly rumors will reach you of some friend or employee.",
+              "translation_ko": "남이 진흙을 밟고 가는 것을 보면, 벗이나 부리는 사람에 대한 궂은 소문이 들려온다"
+            }
+          ]
+        },
+        {
+          "context": "농사짓는 이가 진흙 꿈을 꿈",
+          "interpretation_ko": "거둠이 적고 짐승을 쳐도 벌이가 시원찮을 흉한 조짐",
+          "interpretation_en": "this dream is significant of short crops and unsatisfactory gains from stock",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mud",
+              "original": "To the farmer, this dream is significant of short crops and unsatisfactory gains from stock.",
+              "translation_ko": "농사짓는 이에게 이 꿈은 거둠이 적고 짐승을 쳐도 벌이가 시원찮음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "옷에 묻은 진흙을 긁어냄",
+          "interpretation_ko": "적이 퍼뜨리는 헐뜯음에서 벗어날 길한 조짐",
+          "interpretation_en": "signifies that you will escape the calumny of enemies",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mud",
+              "original": "To scrape it off, signifies that you will escape the calumny of enemies.",
+              "translation_ko": "그것을 긁어내면 적이 퍼뜨리는 헐뜯음에서 벗어난다"
+            }
+          ]
+        },
+        {
+          "context": "진흙이 옷을 더럽힘",
+          "interpretation_ko": "출산이 흉할 조짐",
+          "interpretation_en": "an inauspicious sign for childbirth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "污泥衣裳主產凶",
+              "translation_ko": "진흙이 옷을 더럽히면 출산이 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "진흙이 적삼을 더럽힘",
+          "interpretation_ko": "몸이 욕을 당할 조짐",
+          "interpretation_en": "a sign of personal disgrace",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "泥污衫衣主身辱",
+              "translation_ko": "진흙이 적삼을 더럽히면 몸이 욕을 당한다"
             }
           ]
         }
@@ -48910,84 +49121,6 @@
       ]
     },
     {
-      "id": "mud",
-      "term_ko": "진흙",
-      "term_en": "mud",
-      "aliases": [
-        "진창",
-        "흙탕",
-        "흙탕물",
-        "진창을",
-        "진창이"
-      ],
-      "category": "nature",
-      "polarity": "negative",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "진흙 속에 빠져 있음",
-          "interpretation_ko": "구하는 바가 이루어지지 않을 조짐",
-          "interpretation_en": "a sign that what one seeks will not come about",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "在泥中所求不成",
-              "translation_ko": "진흙 속에 있으면 구하는 바가 이루어지지 않는다"
-            }
-          ]
-        },
-        {
-          "context": "진창을 헤치고 감",
-          "interpretation_ko": "둘레가 뜻밖으로 바뀌어 간절히 바라던 일이 한동안 막힐 흉한 조짐",
-          "interpretation_en": "indicates that your dearest wishes and plans will receive a temporary check by the intervention of unusual changes in your surroundings",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Mire",
-              "original": "To dream of going through mire, indicates that your dearest wishes and plans will receive a temporary check by the intervention of unusual changes in your surroundings.",
-              "translation_ko": "진창을 헤치고 가는 꿈은, 둘레가 뜻밖으로 바뀌어 간절히 바라던 일이 한동안 막힘을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "진흙이 옷을 더럽힘",
-          "interpretation_ko": "출산이 흉할 조짐",
-          "interpretation_en": "an inauspicious sign for childbirth",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "污泥衣裳主產凶",
-              "translation_ko": "진흙이 옷을 더럽히면 출산이 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "진흙이 적삼을 더럽힘",
-          "interpretation_ko": "몸이 욕을 당할 조짐",
-          "interpretation_en": "a sign of personal disgrace",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "泥污衫衣主身辱",
-              "translation_ko": "진흙이 적삼을 더럽히면 몸이 욕을 당한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "net",
       "term_ko": "그물",
       "term_en": "net",
@@ -61900,6 +62033,67 @@
               "locator": "Mourning",
               "original": "To lovers, this dream foretells misunderstanding and probable separation.",
               "translation_ko": "사랑하는 사이에서 이 꿈은 오해가 생기고 헤어지기 쉬움을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mouse-trap",
+      "term_ko": "쥐덫",
+      "term_en": "mouse-trap",
+      "aliases": [
+        "쥐덫이",
+        "쥐덫을",
+        "쥐 잡는 덫"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "쥐덫을 봄",
+          "interpretation_ko": "속을 노리는 이들이 있으니 제 몸가짐을 조심해야 할 흉한 조짐",
+          "interpretation_en": "signifies your need to be careful of character, as wary persons have designs upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mouse-trap",
+              "original": "To see a mouse-trap in dreams, signifies your need to be careful of character, as wary persons have designs upon you.",
+              "translation_ko": "꿈에 쥐덫을 보면, 속을 노리는 이들이 있으니 제 몸가짐을 조심해야 한다"
+            }
+          ]
+        },
+        {
+          "context": "쥐덫에 쥐가 가득 든 것을 봄",
+          "interpretation_ko": "적의 손아귀에 떨어지기 쉬운 흉한 조짐",
+          "interpretation_en": "you will likely fall into the hands of enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mouse-trap",
+              "original": "To see it full of mice, you will likely fall into the hands of enemies.",
+              "translation_ko": "쥐덫에 쥐가 가득 든 것을 보면 적의 손아귀에 떨어지기 쉽다"
+            }
+          ]
+        },
+        {
+          "context": "쥐덫을 놓음",
+          "interpretation_ko": "꾀를 내어 맞수를 이겨 낼 길한 조짐",
+          "interpretation_en": "you will artfully devise means to overcome your opponents",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mouse-trap",
+              "original": "To set a trap, you will artfully devise means to overcome your opponents.",
+              "translation_ko": "덫을 놓으면 꾀를 내어 맞수를 이겨 낸다"
             }
           ]
         }

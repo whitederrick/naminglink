@@ -118,7 +118,10 @@
     "aliases": [
       "산속",
       "봉우리",
-      "산등성이"
+      "산등성이",
+      "산을",
+      "산이",
+      "산에"
     ],
     "aliases_en": [
       "mountains",
@@ -138,7 +141,12 @@
       "높은 산에 자리 잡고 삶": "자리잡 살고있 터를 거처 머물",
       "산길을 가다 재물을 얻음": "재물 보물 돈을 얻었",
       "물건을 안고 산에 오름": "안고 짊어 지고서 물건",
-      "산속에서 농사를 지음": "농사 밭을 씨앗 경작"
+      "산속에서 농사를 지음": "농사 밭을 씨앗 경작",
+      "처녀가 웃는 사촌·죽은 오라비와 산을 넘음": "사촌 오라비 넘었",
+      "산을 넘다 지쳐 더 가기를 마다함": "지쳐 마다 그만두",
+      "곱고 푸른 길로 산에 오름": "푸른 우거진 곱고",
+      "가파른 산을 오르다 꼭대기에 못 미침": "가파른 꼭대기 험한",
+      "산을 오르다 아슬아슬한 곳에서 잠이 깸": "잠이 깼다 아슬아슬"
     },
     "contexts_en": {
       "산이 해와 달을 물고 있음": "sun moon holding",
@@ -150,7 +158,12 @@
       "높은 산에 자리 잡고 삶": "living settled dwelling home",
       "산길을 가다 재물을 얻음": "treasure money wealth found",
       "물건을 안고 산에 오름": "carrying object bundle load",
-      "산속에서 농사를 지음": "farming planting crops field"
+      "산속에서 농사를 지음": "farming planting crops field",
+      "처녀가 웃는 사촌·죽은 오라비와 산을 넘음": "crossing cousin brother smiling allurements",
+      "산을 넘다 지쳐 더 가기를 마다함": "exhausted refuses further slightly exalted",
+      "곱고 푸른 길로 산에 오름": "ascend pleasant verdant swiftly prominence",
+      "가파른 산을 오르다 꼭대기에 못 미침": "rugged reach top reverses weakness",
+      "산을 오르다 아슬아슬한 곳에서 잠이 깸": "awaken dangerous point flattering turn"
     }
   },
   {
