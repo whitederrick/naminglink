@@ -1,0 +1,32 @@
+{
+  "batch": 177,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pigeon",
+      "text": "To dream of seeing pigeons and hearing them cooing above their cotes, denotes domestic peace and pleasure-giving children. For a young woman, this dream indicates an early and comfortable union. To see them being used in a shooting match, and, if you participate, it denotes that cruelty in your nature will show in your dealings, and you are warned of low and debasing pleasures. To see them flying, denotes freedom from misunderstanding, and perhaps news from the absent.",
+      "note": "기존 상징 `dove`(비둘기, 밀러 `Doves`)에 둘을 더한다. 앞 두 문장(구구대는 소리를 들음·처녀의 이른 혼인)은 뺐다 — 이미 있는 `dove`의 「비둘기가 짝을 짓고 둥지를 지음」(밀러 `Doves`, 「집안이 평온하고 아이들이 순함」)과 같은 그림(가정의 평온·자녀)이라 가를 수 없다"
+    },
+    {
+      "headword": "Pilgrim",
+      "text": "To dream of pilgrims, denotes that you will go on an extended journey, leaving home and its dearest objects in the mistaken idea that it must be thus for their good. To dream that you are a pilgrim, portends struggles with poverty and unsympathetic companions. For a young woman to dream that a pilgrim approaches her, she will fall an easy dupe to deceit. If he leaves her, she will awaken to her weakness of character and strive to strengthen independent thought.",
+      "note": "새 상징 `pilgrim`(순례자)"
+    },
+    {
+      "headword": "Pill",
+      "text": "To dream that you take pills, denotes that you will have responsibilities to look after, but they will bring you no little comfort and enjoyment. To give them to others, signifies that you will be criticised for your disagreeableness.",
+      "note": "새 상징 `pill`(알약)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "To dream of seeing pigeons and hearing them cooing above their cotes, denotes domestic peace and pleasure-giving children.",
+      "reason": "`Pigeon` — 이미 있는 `dove`의 「비둘기가 짝을 짓고 둥지를 지음」(밀러 `Doves`)과 같은 그림(가정의 평온·자녀)이라 가를 수 없다"
+    },
+    {
+      "sentence": "For a young woman, this dream indicates an early and comfortable union.",
+      "reason": "`Pigeon` — 앞 문장(같은 그림이라 뺀 문장)에 딸린 연속절"
+    }
+  ]
+}

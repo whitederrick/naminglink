@@ -1,0 +1,43 @@
+[
+  {
+    "id": "pilgrim",
+    "aliases": [
+      "순례자가",
+      "순례자를",
+      "순례자임을"
+    ],
+    "aliases_en": [
+      "pilgrims"
+    ],
+    "contexts": {
+      "순례자 꿈을 꿈": "착각 아끼는 것들",
+      "제가 순례자임을 꿈꿈": "제가 가난 무정한",
+      "처녀에게 순례자가 다가옴": "처녀에게 다가 속임수",
+      "순례자가 처녀를 떠남": "떠났 약점 스스로"
+    },
+    "contexts_en": {
+      "순례자 꿈을 꿈": "extended journey mistaken",
+      "제가 순례자임을 꿈꿈": "struggles poverty unsympathetic",
+      "처녀에게 순례자가 다가옴": "approaches easy dupe",
+      "순례자가 처녀를 떠남": "leaves weakness independent"
+    }
+  },
+  {
+    "id": "pill",
+    "aliases": [
+      "알약이",
+      "알약을"
+    ],
+    "aliases_en": [
+      "pills"
+    ],
+    "contexts": {
+      "알약을 먹음": "먹었 책임 위안",
+      "남에게 알약을 줌": "남에게 무뚝뚝함"
+    },
+    "contexts_en": {
+      "알약을 먹음": "take responsibilities comfort",
+      "남에게 알약을 줌": "give others criticised"
+    }
+  }
+]

@@ -579,6 +579,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "dove::비둘기가 편지를 물어다 줌": "letter brings tidings reconciliation",
   "dove::편지를 가져온 비둘기가 지쳐 보임": "exhausted sadness invalid",
   "dove::비둘기가 가져온 편지에 파멸을 알리는 글이 있음": "doomed desperate financial",
+  "dove::사격 시합에 쓰이는 비둘기를 봄": "shooting match cruelty",
+  "dove::비둘기가 나는 것을 봄": "flying freedom misunderstanding",
   "fireworks::불꽃놀이를 봄": "set off",
   "fireworks::불꽃놀이를 구경함": "enjoyment good health",
   "fireworks::처녀가 불꽃놀이를 봄": "entertainments visiting distant",
@@ -5019,5 +5021,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "picnic::소풍 꿈을 꿈": "undivided happiness young",
   "picnic::소풍에서 폭풍우나 방해되는 일이 생김": "storms interfering displacement",
   "pie::파이를 먹음": "eating watch enemies",
-  "pie::처녀가 파이를 만드는 꿈을 꿈": "young woman flirt pastime"
+  "pie::처녀가 파이를 만드는 꿈을 꿈": "young woman flirt pastime",
+  "pilgrim::순례자 꿈을 꿈": "extended journey mistaken",
+  "pilgrim::제가 순례자임을 꿈꿈": "struggles poverty unsympathetic",
+  "pilgrim::처녀에게 순례자가 다가옴": "approaches easy dupe",
+  "pilgrim::순례자가 처녀를 떠남": "leaves weakness independent",
+  "pill::알약을 먹음": "take responsibilities comfort",
+  "pill::남에게 알약을 줌": "give others criticised"
 };

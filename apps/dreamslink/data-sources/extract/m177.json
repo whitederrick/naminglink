@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "비둘기",
+    "term_en": "dove",
+    "context": "사격 시합에 쓰이는 비둘기를 봄",
+    "interpretation_ko": "본성의 잔인함이 일 처리에 드러나고 천박하고 타락한 즐거움을 조심하라는 경고",
+    "interpretation_en": "it denotes that cruelty in your nature will show in your dealings, and you are warned of low and debasing pleasures",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pigeon",
+      "original": "To see them being used in a shooting match, and, if you participate, it denotes that cruelty in your nature will show in your dealings, and you are warned of low and debasing pleasures.",
+      "translation_ko": "사격 시합에 쓰이는 비둘기를 보는 꿈은, 본성의 잔인함이 일 처리에 드러나고 천박하고 타락한 즐거움을 조심하라는 경고다"
+    }
+  },
+  {
+    "term_ko": "비둘기",
+    "term_en": "dove",
+    "context": "비둘기가 나는 것을 봄",
+    "interpretation_ko": "오해에서 벗어나고 어쩌면 떠나 있는 이의 소식을 들을 조짐",
+    "interpretation_en": "denotes freedom from misunderstanding, and perhaps news from the absent",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pigeon",
+      "original": "To see them flying, denotes freedom from misunderstanding, and perhaps news from the absent.",
+      "translation_ko": "비둘기가 나는 것을 보는 꿈은, 오해에서 벗어나고 어쩌면 떠나 있는 이의 소식을 들을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "순례자",
+    "term_en": "pilgrim",
+    "context": "순례자 꿈을 꿈",
+    "interpretation_ko": "그들을 위해서라 착각하며 집과 가장 아끼는 것들을 두고 먼 길을 떠날 조짐",
+    "interpretation_en": "denotes that you will go on an extended journey, leaving home and its dearest objects in the mistaken idea that it must be thus for their good",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Pilgrim",
+      "original": "To dream of pilgrims, denotes that you will go on an extended journey, leaving home and its dearest objects in the mistaken idea that it must be thus for their good.",
+      "translation_ko": "순례자 꿈은, 그들을 위해서라 착각하며 집과 가장 아끼는 것들을 두고 먼 길을 떠날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "순례자",
+    "term_en": "pilgrim",
+    "context": "제가 순례자임을 꿈꿈",
+    "interpretation_ko": "가난과 무정한 동무들과 씨름할 조짐",
+    "interpretation_en": "portends struggles with poverty and unsympathetic companions",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Pilgrim",
+      "original": "To dream that you are a pilgrim, portends struggles with poverty and unsympathetic companions.",
+      "translation_ko": "제가 순례자임을 꿈꾸면, 가난과 무정한 동무들과 씨름할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "순례자",
+    "term_en": "pilgrim",
+    "context": "처녀에게 순례자가 다가옴",
+    "interpretation_ko": "속임수에 쉽게 넘어갈 조짐",
+    "interpretation_en": "she will fall an easy dupe to deceit",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pilgrim",
+      "original": "For a young woman to dream that a pilgrim approaches her, she will fall an easy dupe to deceit.",
+      "translation_ko": "처녀에게 순례자가 다가오는 꿈은, 속임수에 쉽게 넘어갈 조짐이다"
+    }
+  },
+  {
+    "term_ko": "순례자",
+    "term_en": "pilgrim",
+    "context": "순례자가 처녀를 떠남",
+    "interpretation_ko": "제 성품의 약점을 깨닫고 스스로 생각하는 힘을 기르려 애쓸 조짐",
+    "interpretation_en": "she will awaken to her weakness of character and strive to strengthen independent thought",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pilgrim",
+      "original": "If he leaves her, she will awaken to her weakness of character and strive to strengthen independent thought.",
+      "translation_ko": "순례자가 처녀를 떠나는 꿈은, 제 성품의 약점을 깨닫고 스스로 생각하는 힘을 기르려 애쓸 조짐이다"
+    }
+  },
+  {
+    "term_ko": "알약",
+    "term_en": "pill",
+    "context": "알약을 먹음",
+    "interpretation_ko": "돌봐야 할 책임이 생기나 적잖은 위안과 즐거움을 안겨줄 조짐",
+    "interpretation_en": "denotes that you will have responsibilities to look after, but they will bring you no little comfort and enjoyment",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pill",
+      "original": "To dream that you take pills, denotes that you will have responsibilities to look after, but they will bring you no little comfort and enjoyment.",
+      "translation_ko": "알약을 먹는 꿈은, 돌봐야 할 책임이 생기나 적잖은 위안과 즐거움을 안겨줄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "알약",
+    "term_en": "pill",
+    "context": "남에게 알약을 줌",
+    "interpretation_ko": "무뚝뚝함으로 비판받을 조짐",
+    "interpretation_en": "signifies that you will be criticised for your disagreeableness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pill",
+      "original": "To give them to others, signifies that you will be criticised for your disagreeableness.",
+      "translation_ko": "남에게 알약을 주는 꿈은, 무뚝뚝함으로 비판받을 조짐이다"
+    }
+  }
+]
