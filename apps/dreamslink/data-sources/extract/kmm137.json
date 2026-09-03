@@ -1,0 +1,84 @@
+[
+  {
+    "id": "mustard",
+    "aliases": [
+      "겨자가",
+      "겨자를",
+      "겨자씨"
+    ],
+    "aliases_en": [
+      "mustard seed"
+    ],
+    "contexts": {
+      "푸르게 자란 겨자를 봄": "푸르 밭에",
+      "겨자씨를 먹어 입안이 얼얼함": "얼얼 매웠 입안",
+      "익힌 푸른 겨자를 먹음": "익힌 삶은 데친",
+      "처녀가 갓 자란 겨자를 먹음": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "푸르게 자란 겨자를 봄": "growing green farmer seafaring prognosticates",
+      "겨자씨를 먹어 입안이 얼얼함": "burning mouth repent hasty",
+      "익힌 푸른 겨자를 먹음": "cooked lavish waste mental strain",
+      "처녀가 갓 자란 겨자를 먹음": "young woman newly sacrifice personal"
+    }
+  },
+  {
+    "id": "myrrh",
+    "aliases": [
+      "몰약이",
+      "몰약을"
+    ],
+    "aliases_en": [
+      "myrrh resin"
+    ],
+    "contexts": {
+      "몰약을 봄": "놓여 담겨",
+      "처녀가 몰약 꿈을 꿈": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "몰약을 봄": "investments satisfaction",
+      "처녀가 몰약 꿈을 꿈": "young woman pleasing surprise wealthy acquaintance"
+    }
+  },
+  {
+    "id": "myrtle",
+    "aliases": [
+      "도금양이",
+      "도금양을",
+      "도금양 가지"
+    ],
+    "aliases_en": [
+      "myrtles"
+    ],
+    "contexts": {
+      "잎이 우거지고 꽃이 핀 도금양을 봄": "우거 꽃이 피어",
+      "처녀가 도금양 가지를 몸에 꽂음": "처녀 꽂았 달았",
+      "시든 도금양을 봄": "시든 마른 말라"
+    },
+    "contexts_en": {
+      "잎이 우거지고 꽃이 핀 도금양을 봄": "foliage bloom desires gratified possess",
+      "처녀가 도금양 가지를 몸에 꽂음": "young woman wearing sprig early intelligent",
+      "시든 도금양을 봄": "withered miss happiness careless conduct"
+    }
+  },
+  {
+    "id": "mystery",
+    "aliases": [
+      "수수께끼 같은",
+      "알 수 없는 일",
+      "신비"
+    ],
+    "aliases_en": [
+      "mysteries",
+      "mysterious"
+    ],
+    "contexts": {
+      "알 수 없는 일에 어리둥절함": "어리둥절 얼떨떨 영문을",
+      "세상의 신비를 파고듦": "파고들 캐묻 연구"
+    },
+    "contexts_en": {
+      "알 수 없는 일에 어리둥절함": "bewildered event strangers harass claim",
+      "세상의 신비를 파고듦": "studying creation higher atmosphere research learning"
+    }
+  }
+]

@@ -3332,6 +3332,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "drunk::몹시 취해 있음": "intoxication cultivating illicit",
   "duet::이중주를 켜는 소리를 들음": "played playing instruments",
   "duet::두 사람이 함께 부르는 노래를 들음": "sung singing song voices",
+  "dumb::말을 못 하게 됨": "persuade others",
+  "dumb::말 못 하는 이와 이야기를 나눔": "converse unusual crosses higher tendered",
   "dust::먼지를 뒤집어씀": "covering covered",
   "dust::처녀가 먼지를 뒤집어씀": "young woman lover",
   "dust::먼지를 털어 냄": "free yourself judicious measures",
@@ -4537,5 +4539,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "musk::사향 냄새를 맡음": "unexpected occasions joy lovers agree unfaithful",
   "mustache::제게 콧수염이 있음": "egotism effrontery poor inheritance betray",
   "mustache::여성이 콧수염에 반함": "admiring virtue danger mindful conduct",
-  "mustache::사내가 콧수염을 깎음": "shaved turn evil companions reinstate"
+  "mustache::사내가 콧수염을 깎음": "shaved turn evil companions reinstate",
+  "mustard::푸르게 자란 겨자를 봄": "growing green farmer seafaring prognosticates",
+  "mustard::겨자씨를 먹어 입안이 얼얼함": "burning mouth repent hasty",
+  "mustard::익힌 푸른 겨자를 먹음": "cooked lavish waste mental strain",
+  "mustard::처녀가 갓 자란 겨자를 먹음": "young woman newly sacrifice personal",
+  "myrrh::몰약을 봄": "investments satisfaction",
+  "myrrh::처녀가 몰약 꿈을 꿈": "young woman pleasing surprise wealthy acquaintance",
+  "myrtle::잎이 우거지고 꽃이 핀 도금양을 봄": "foliage bloom desires gratified possess",
+  "myrtle::처녀가 도금양 가지를 몸에 꽂음": "young woman wearing sprig early intelligent",
+  "myrtle::시든 도금양을 봄": "withered miss happiness careless conduct",
+  "mystery::알 수 없는 일에 어리둥절함": "bewildered event strangers harass claim",
+  "mystery::세상의 신비를 파고듦": "studying creation higher atmosphere research learning"
 };

@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 136 — Music~Mustache, 16건)
+// (지금 담긴 것: 배치 137 — Mustard~Mystery, 14건 · 밀러 M 끝)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,23 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "music", ctx: "고운 가락의 풍악을 들음", text: "고운 가락의 음악을 들었다" },
-  { id: "music", ctx: "어지러운 가락의 풍악을 들음", text: "어지럽고 시끄러운 음악이 들렸다" },
-  { id: "musical-instrument", ctx: "악기를 봄", text: "악기가 늘어놓여 있었다" },
-  { id: "musical-instrument", ctx: "부서진 악기를 봄", text: "부서진 악기를 보았다" },
-  { id: "musical-instrument", ctx: "처녀가 악기 꿈을 꿈", text: "처녀가 악기 꿈을 꾸었다" },
-  { id: "mushroom", ctx: "버섯을 봄", text: "버섯이 돋아 있었다" },
-  { id: "mushroom", ctx: "버섯을 먹음", text: "버섯을 먹었다" },
-  { id: "mushroom", ctx: "처녀가 버섯 꿈을 꿈", text: "처녀가 버섯 꿈을 꾸었다" },
-  { id: "musk", ctx: "사향 냄새를 맡음", text: "사향 냄새를 맡았다" },
-  { id: "clam", ctx: "민물 홍합 꿈을 꿈", text: "민물 홍합 꿈을 꾸었다" },
-  { id: "mustache", ctx: "제게 콧수염이 있음", text: "내게 콧수염이 났다" },
-  { id: "mustache", ctx: "여성이 콧수염에 반함", text: "여자가 콧수염에 반했다" },
-  { id: "mustache", ctx: "사내가 콧수염을 깎음", text: "콧수염을 깎았다" },
+  { id: "mustard", ctx: "푸르게 자란 겨자를 봄", text: "겨자가 밭에 푸르게 자라 있었다" },
+  { id: "mustard", ctx: "겨자씨를 먹어 입안이 얼얼함", text: "겨자씨를 먹어 입안이 얼얼했다" },
+  { id: "mustard", ctx: "익힌 푸른 겨자를 먹음", text: "익힌 겨자를 먹었다" },
+  { id: "mustard", ctx: "처녀가 갓 자란 겨자를 먹음", text: "처녀가 갓 자란 겨자를 먹었다" },
+  { id: "dumb", ctx: "말 못 하는 이와 이야기를 나눔", text: "말 못 하는 이와 이야기를 나눴다" },
+  { id: "myrrh", ctx: "몰약을 봄", text: "몰약이 담겨 있었다" },
+  { id: "myrrh", ctx: "처녀가 몰약 꿈을 꿈", text: "처녀가 몰약 꿈을 꾸었다" },
+  { id: "myrtle", ctx: "잎이 우거지고 꽃이 핀 도금양을 봄", text: "도금양이 우거지고 꽃이 피어 있었다" },
+  { id: "myrtle", ctx: "처녀가 도금양 가지를 몸에 꽂음", text: "처녀가 도금양 가지를 꽂았다" },
+  { id: "myrtle", ctx: "시든 도금양을 봄", text: "시든 도금양을 보았다" },
+  { id: "mystery", ctx: "알 수 없는 일에 어리둥절함", text: "알 수 없는 일에 어리둥절했다" },
+  { id: "mystery", ctx: "세상의 신비를 파고듦", text: "신비를 파고들며 연구했다" },
   // 지킴 — 이번 배치가 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "music", ctx: "남이 풍악을 울림", text: "남이 풍악을 울렸다" },
-  { id: "clam", ctx: "조개를 먹음", text: "조개를 먹었다" },
-  { id: "beard", ctx: "수염을 보는 꿈을 꿈", text: "수염을 보았다" },
+  { id: "dumb", ctx: "말을 못 하게 됨", text: "말문이 막혔다" },
+  { id: "horseradish", ctx: "서양고추냉이를 봄", text: "겨자무를 보았다" },
 ];
 
 let notFound = 0;

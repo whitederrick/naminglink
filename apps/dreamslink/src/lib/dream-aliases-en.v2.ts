@@ -6429,5 +6429,18 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "mustache": [
     "mustaches",
     "moustache"
+  ],
+  "mustard": [
+    "mustard seed"
+  ],
+  "myrrh": [
+    "myrrh resin"
+  ],
+  "myrtle": [
+    "myrtles"
+  ],
+  "mystery": [
+    "mysteries",
+    "mysterious"
   ]
 };

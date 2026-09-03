@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "겨자",
+    "term_en": "mustard",
+    "context": "푸르게 자란 겨자를 봄",
+    "interpretation_ko": "농사짓는 이에게는 잘 풀림과 기쁨을, 뱃일하는 이에게는 재물을 알리는 길한 조짐",
+    "interpretation_en": "foretells success and joy to the farmer, and to the seafaring it prognosticates wealth",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mustard",
+      "original": "To see mustard growing, and green, foretells success and joy to the farmer, and to the seafaring it prognosticates wealth.",
+      "translation_ko": "겨자가 푸르게 자란 것을 보면, 농사짓는 이에게는 잘 풀림과 기쁨이 뱃일하는 이에게는 재물이 있다"
+    }
+  },
+  {
+    "term_ko": "겨자",
+    "term_en": "mustard",
+    "context": "겨자씨를 먹어 입안이 얼얼함",
+    "interpretation_ko": "서둘러 한 일을 두고 몹시 뉘우칠 흉한 조짐",
+    "interpretation_en": "denotes that you will repent bitterly some hasty action, which has caused you to suffer",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mustard",
+      "original": "To eat mustard seed and feel the burning in your mouth, denotes that you will repent bitterly some hasty action, which has caused you to suffer.",
+      "translation_ko": "겨자씨를 먹어 입안이 얼얼한 꿈은, 서둘러 한 일을 두고 몹시 뉘우침을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "겨자",
+    "term_en": "mustard",
+    "context": "익힌 푸른 겨자를 먹음",
+    "interpretation_ko": "재물을 헤프게 써 버리고 마음이 지칠 흉한 조짐",
+    "interpretation_en": "indicates the lavish waste of fortune, and mental strain",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mustard",
+      "original": "To dream of eating green mustard cooked, indicates the lavish waste of fortune, and mental strain.",
+      "translation_ko": "익힌 푸른 겨자를 먹는 꿈은, 재물을 헤프게 써 버리고 마음이 지침을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "겨자",
+    "term_en": "mustard",
+    "context": "처녀가 갓 자란 겨자를 먹음",
+    "interpretation_ko": "제 바람을 좇느라 재물을 내놓을 흉한 조짐",
+    "interpretation_en": "foretells that she will sacrifice wealth for personal desires",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mustard",
+      "original": "For a young woman to eat newly grown mustard, foretells that she will sacrifice wealth for personal desires.",
+      "translation_ko": "처녀가 갓 자란 겨자를 먹으면, 제 바람을 좇느라 재물을 내놓는다"
+    }
+  },
+  {
+    "term_ko": "말을 못 함",
+    "term_en": "dumb",
+    "context": "말 못 하는 이와 이야기를 나눔",
+    "interpretation_ko": "남다른 고달픔이 저를 더 높은 자리에 걸맞게 만들고 그 자리가 주어질 길한 조짐",
+    "interpretation_en": "foretells that unusual crosses in your life will fit you for higher positions, which will be tendered you",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Mute",
+      "original": "To converse with a mute in your dreams, foretells that unusual crosses in your life will fit you for higher positions, which will be tendered you.",
+      "translation_ko": "말 못 하는 이와 이야기를 나누는 꿈은, 남다른 고달픔이 저를 더 높은 자리에 걸맞게 만들고 그 자리가 주어짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "몰약",
+    "term_en": "myrrh",
+    "context": "몰약을 봄",
+    "interpretation_ko": "묻어 둔 것이 흡족한 열매를 낼 길한 조짐",
+    "interpretation_en": "signifies your investments will give satisfaction",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Myrrh",
+      "original": "To see myrrh in a dream, signifies your investments will give satisfaction.",
+      "translation_ko": "꿈에 몰약을 보면 묻어 둔 것이 흡족한 열매를 낸다"
+    }
+  },
+  {
+    "term_ko": "몰약",
+    "term_en": "myrrh",
+    "context": "처녀가 몰약 꿈을 꿈",
+    "interpretation_ko": "재물 있는 이를 새로 알게 되는 반가운 뜻밖의 일이 있을 길한 조짐",
+    "interpretation_en": "brings a pleasing surprise to her in the way of a new and wealthy acquaintance",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Myrrh",
+      "original": "For a young woman to dream of myrrh, brings a pleasing surprise to her in the way of a new and wealthy acquaintance.",
+      "translation_ko": "처녀가 몰약 꿈을 꾸면, 재물 있는 이를 새로 알게 되는 반가운 뜻밖의 일이 있다"
+    }
+  },
+  {
+    "term_ko": "도금양",
+    "term_en": "myrtle",
+    "context": "잎이 우거지고 꽃이 핀 도금양을 봄",
+    "interpretation_ko": "바라던 것이 이루어지고 즐거움이 가득할 길한 조짐",
+    "interpretation_en": "denotes that your desires will be gratified, and pleasures will possess you",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Myrtle",
+      "original": "To see myrtle in foliage and bloom in your dream, denotes that your desires will be gratified, and pleasures will possess you.",
+      "translation_ko": "잎이 우거지고 꽃이 핀 도금양을 보는 꿈은, 바라던 것이 이루어지고 즐거움이 가득함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "도금양",
+    "term_en": "myrtle",
+    "context": "처녀가 도금양 가지를 몸에 꽂음",
+    "interpretation_ko": "살림 넉넉하고 슬기로운 사내와 일찍 혼인할 길한 조짐",
+    "interpretation_en": "foretells to her an early marriage with a well-to do and intelligent man",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Myrtle",
+      "original": "For a young woman to dream of wearing a sprig of myrtle, foretells to her an early marriage with a well-to do and intelligent man.",
+      "translation_ko": "처녀가 도금양 가지를 몸에 꽂는 꿈을 꾸면, 살림 넉넉하고 슬기로운 사내와 일찍 혼인한다"
+    }
+  },
+  {
+    "term_ko": "도금양",
+    "term_en": "myrtle",
+    "context": "시든 도금양을 봄",
+    "interpretation_ko": "몸가짐을 함부로 하다 즐거움을 놓칠 흉한 조짐",
+    "interpretation_en": "denotes that she will miss happiness through careless conduct",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Myrtle",
+      "original": "To see it withered, denotes that she will miss happiness through careless conduct.",
+      "translation_ko": "도금양이 시든 것을 보면, 몸가짐을 함부로 하다 즐거움을 놓친다"
+    }
+  },
+  {
+    "term_ko": "수수께끼",
+    "term_en": "mystery",
+    "context": "알 수 없는 일에 어리둥절함",
+    "interpretation_ko": "낯선 이들이 제 괴로움을 들고 와 도움을 청해 시달릴 흉한 조짐",
+    "interpretation_en": "denotes that strangers will harass you with their troubles and claim your aid",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Mystery",
+      "original": "To find yourself bewildered by some mysterious event, denotes that strangers will harass you with their troubles and claim your aid.",
+      "translation_ko": "알 수 없는 일에 어리둥절해 있는 꿈은, 낯선 이들이 제 괴로움을 들고 와 도움을 청해 시달림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "수수께끼",
+    "term_en": "mystery",
+    "context": "세상의 신비를 파고듦",
+    "interpretation_ko": "삶이 바뀌어 더 높은 배움과 살핌의 자리로 올라 참된 즐거움과 복에 가까워질 길한 조짐",
+    "interpretation_en": "denotes that a change will take place in your life, throwing you into a higher atmosphere of research and learning",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Mystery",
+      "original": "To find yourself studying the mysteries of creation, denotes that a change will take place in your life, throwing you into a higher atmosphere of research and learning, and thus advancing you nearer the attainment of true pleasure and fortune.",
+      "translation_ko": "세상의 신비를 파고드는 꿈은, 삶이 바뀌어 더 높은 배움과 살핌의 자리로 올라 참된 즐거움과 복에 가까워짐을 뜻한다"
+    }
+  }
+]

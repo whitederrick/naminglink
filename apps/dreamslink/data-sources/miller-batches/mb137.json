@@ -1,0 +1,37 @@
+{
+  "batch": 137,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Mustard",
+      "text": "To see mustard growing, and green, foretells success and joy to the farmer, and to the seafaring it prognosticates wealth.\n\nTo eat mustard seed and feel the burning in your mouth, denotes that you will repent bitterly some hasty action, which has caused you to suffer.\n\nTo dream of eating green mustard cooked, indicates the lavish waste of fortune, and mental strain.\n\nFor a young woman to eat newly grown mustard, foretells that she will sacrifice wealth for personal desires.",
+      "note": "새 상징 `mustard`(겨자). 「겨자무」(`horseradish`)가 「겨자」를 품지만 뒤의 「무」가 조사가 아니라 막힌다"
+    },
+    {
+      "headword": "Mute",
+      "text": "To converse with a mute in your dreams, foretells that unusual crosses in your life will fit you for higher positions, which will be tendered you.\n\nTo dream that you are a mute, portends calamities and unjust persecution.",
+      "note": "「말을 못 함」이 기존 `dumb` 의 이름이다. **의미가 하나뿐이라 판별어 표가 비어 있었다**(열네 번째, 배치 35)"
+    },
+    {
+      "headword": "Myrrh",
+      "text": "To see myrrh in a dream, signifies your investments will give satisfaction. For a young woman to dream of myrrh, brings a pleasing surprise to her in the way of a new and wealthy acquaintance.",
+      "note": "새 상징 `myrrh`(몰약)"
+    },
+    {
+      "headword": "Myrtle",
+      "text": "To see myrtle in foliage and bloom in your dream, denotes that your desires will be gratified, and pleasures will possess you.\n\nFor a young woman to dream of wearing a sprig of myrtle, foretells to her an early marriage with a well-to do and intelligent man.\n\nTo see it withered, denotes that she will miss happiness through careless conduct.",
+      "note": "새 상징 `myrtle`(도금양). 「양」(sheep)을 품지만 앞 글자가 한글이라 막힌다"
+    },
+    {
+      "headword": "Mystery",
+      "text": "To find yourself bewildered by some mysterious event, denotes that strangers will harass you with their troubles and claim your aid. It warns you also of neglected duties, for which you feel much aversion. Business will wind you into unpleasant complications.\n\nTo find yourself studying the mysteries of creation, denotes that a change will take place in your life, throwing you into a higher atmosphere of research and learning, and thus advancing you nearer the attainment of true pleasure and fortune.",
+      "note": "새 상징 `mystery`(수수께끼). **밀러의 M 이 여기서 끝난다** — 다음은 `Nails` 부터다"
+    }
+  ],
+  "skipped_sentences": [
+    {
+      "sentence": "To dream that you are a mute, portends calamities and unjust persecution.",
+      "reason": "같은 그림이 `dumb` 의 밀러 `Dumb` 의미 「말을 못 하게 됨」에 있다. 풀이는 다르지만 꿈의 그림이 같아 판별어를 가를 수 없고, `m137.json` 이 그 파일보다 앞서 정렬되어 차례로도 못 푼다"
+    }
+  ]
+}

@@ -119,7 +119,9 @@
       "말문이 막혔다",
       "벙어리가",
       "벙어리를",
-      "목소리가 안 나왔다"
+      "목소리가 안 나왔다",
+      "말 못 하는",
+      "벙어리와"
     ],
     "aliases_en": [
       "dumb",
@@ -127,8 +129,14 @@
       "unable to speak",
       "speechless"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "말을 못 하게 됨": "말문 목소리 벙어리가",
+      "말 못 하는 이와 이야기를 나눔": "이야기 나눴 말을 걸었다"
+    },
+    "contexts_en": {
+      "말을 못 하게 됨": "persuade others",
+      "말 못 하는 이와 이야기를 나눔": "converse unusual crosses higher tendered"
+    }
   },
   {
     "id": "dun",
