@@ -1,0 +1,23 @@
+{
+  "batch": 183,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Plague",
+      "text": "To dream of a plague raging, denotes disappointing returns in business, and your wife or lover will lead you a wretched existence. If you are afflicted with the plague, you will keep your business out of embarrassment with the greatest maneuvering. If you are trying to escape it, some trouble, which looks impenetrable, is pursuing you.",
+      "note": "기존 상징 `epidemic`(돌림병, 밀러 `Epidemic`)에 셋을 더한다"
+    },
+    {
+      "headword": "Plain",
+      "text": "For a young woman to dream of crossing a plain, denotes that she will be fortunately situated, if the grasses are green and luxuriant; if they are arid, or the grass is dead, she will have much discomfort and loneliness.",
+      "note": "새 상징 `plain`(평원). 각주 [159]는 「Prairie 항목 참고」라는 지시일 뿐 내용이 아니라 옮기지 않는다"
+    },
+    {
+      "headword": "Plane",
+      "text": "To dream that you use a plane, denotes that your liberality and successful efforts will be highly commended. To see carpenters using their planes, denotes that you will progress smoothly in your undertakings. To dream of seeing planes, denotes congeniality and even success. A love of the real, and not the false, is portended by this dream.",
+      "note": "새 상징 `plane`(대패, 목공 연장). 1901년판이라 비행기 뜻은 없다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

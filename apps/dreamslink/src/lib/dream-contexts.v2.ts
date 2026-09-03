@@ -3577,6 +3577,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "epicure::미식가와 한 상에 앉음": "sitting table distinction selfish",
   "epicure::제가 미식가가 됨": "yourself cultivate polish",
   "epicure::여성이 미식가의 입맛을 맞추려 애씀": "woman satisfy distinguished tyrant",
+  "epidemic::돌림병이 도는 것을 봄": "spreading",
+  "epidemic::역병이 창궐함": "raging",
+  "epidemic::역병에 걸림": "afflicted",
+  "epidemic::역병에서 벗어나려 함": "escape escaping",
   "ermine::담비 옷을 입음": "wear costly raiment exaltation",
   "ermine::남이 담비 옷을 입은 것을 봄": "others clothed wealthy literature",
   "ermine::정인이 담비 옷을 입은 것을 봄": "sweetheart purity faithfulness",
@@ -5063,5 +5067,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pirate::처녀가 애인이 해적임을 꿈꿈": "lover unworthiness",
   "pirate::처녀가 해적에게 붙잡힘": "captured pretenses",
   "pitchfork::쇠스랑 꿈을 꿈": "betterment laboring",
-  "pitchfork::쇠스랑을 든 사람에게 공격당함": "attacked enemies"
+  "pitchfork::쇠스랑을 든 사람에게 공격당함": "attacked enemies",
+  "plain::처녀가 풀이 푸르고 무성한 평원을 지남": "green luxuriant",
+  "plain::처녀가 풀이 메마르거나 죽은 평원을 지남": "arid dead",
+  "plane::대패를 씀": "using used",
+  "plane::목수들이 대패를 쓰는 것을 봄": "carpenters",
+  "plane::대패 꿈을 꿈": "chanced"
 };

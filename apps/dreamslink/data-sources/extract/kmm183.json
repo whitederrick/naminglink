@@ -1,0 +1,43 @@
+[
+  {
+    "id": "plain",
+    "aliases": [
+      "평원이",
+      "평원을",
+      "들판"
+    ],
+    "aliases_en": [
+      "a plain",
+      "plains"
+    ],
+    "contexts": {
+      "처녀가 풀이 푸르고 무성한 평원을 지남": "푸르고 무성한",
+      "처녀가 풀이 메마르거나 죽은 평원을 지남": "메마르거나 죽은"
+    },
+    "contexts_en": {
+      "처녀가 풀이 푸르고 무성한 평원을 지남": "green luxuriant",
+      "처녀가 풀이 메마르거나 죽은 평원을 지남": "arid dead"
+    }
+  },
+  {
+    "id": "plane",
+    "aliases": [
+      "대패가",
+      "대패를"
+    ],
+    "aliases_en": [
+      "a plane",
+      "planes"
+    ],
+    "contexts": {
+      "대패를 씀": "썼다 사용했",
+      "목수들이 대패를 쓰는 것을 봄": "목수 목수들이",
+      "대패 꿈을 꿈": "우연히"
+    },
+    "contexts_en": {
+      "대패를 씀": "using used",
+      "목수들이 대패를 쓰는 것을 봄": "carpenters",
+      "대패 꿈을 꿈": "chanced"
+    }
+  }
+]

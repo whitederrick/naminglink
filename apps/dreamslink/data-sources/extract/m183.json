@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "역병",
+    "term_en": "epidemic",
+    "context": "역병이 창궐함",
+    "interpretation_ko": "사업에서 실망스러운 결실을 보고, 아내나 애인 때문에 비참한 나날을 보낼 조짐",
+    "interpretation_en": "denotes disappointing returns in business, and your wife or lover will lead you a wretched existence",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Plague",
+      "original": "To dream of a plague raging, denotes disappointing returns in business, and your wife or lover will lead you a wretched existence.",
+      "translation_ko": "역병이 창궐하는 꿈은, 사업에서 실망스러운 결실을 보고 아내나 애인 때문에 비참한 나날을 보낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "역병",
+    "term_en": "epidemic",
+    "context": "역병에 걸림",
+    "interpretation_ko": "일이 부끄러워지지 않도록 갖은 수완을 다해 사업을 지켜낼 조짐",
+    "interpretation_en": "you will keep your business out of embarrassment with the greatest maneuvering",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Plague",
+      "original": "If you are afflicted with the plague, you will keep your business out of embarrassment with the greatest maneuvering.",
+      "translation_ko": "역병에 걸리는 꿈은, 일이 부끄러워지지 않도록 갖은 수완을 다해 사업을 지켜낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "역병",
+    "term_en": "epidemic",
+    "context": "역병에서 벗어나려 함",
+    "interpretation_ko": "뚫고 나가기 힘들어 보이는 어떤 곤란이 저를 쫓아오고 있음을 뜻함",
+    "interpretation_en": "some trouble, which looks impenetrable, is pursuing you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Plague",
+      "original": "If you are trying to escape it, some trouble, which looks impenetrable, is pursuing you.",
+      "translation_ko": "역병에서 벗어나려 하는 꿈은, 뚫고 나가기 힘들어 보이는 어떤 곤란이 저를 쫓아오고 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "평원",
+    "term_en": "plain",
+    "context": "처녀가 풀이 푸르고 무성한 평원을 지남",
+    "interpretation_ko": "좋은 처지에 놓일 조짐",
+    "interpretation_en": "denotes that she will be fortunately situated, if the grasses are green and luxuriant",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Plain",
+      "original": "For a young woman to dream of crossing a plain, denotes that she will be fortunately situated, if the grasses are green and luxuriant; if they are arid, or the grass is dead, she will have much discomfort and loneliness.",
+      "translation_ko": "처녀가 풀이 푸르고 무성한 평원을 지나는 꿈은, 좋은 처지에 놓일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "평원",
+    "term_en": "plain",
+    "context": "처녀가 풀이 메마르거나 죽은 평원을 지남",
+    "interpretation_ko": "큰 불편과 외로움을 겪을 조짐",
+    "interpretation_en": "if they are arid, or the grass is dead, she will have much discomfort and loneliness",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Plain",
+      "original": "For a young woman to dream of crossing a plain, denotes that she will be fortunately situated, if the grasses are green and luxuriant; if they are arid, or the grass is dead, she will have much discomfort and loneliness.",
+      "translation_ko": "처녀가 풀이 메마르거나 죽은 평원을 지나는 꿈은, 큰 불편과 외로움을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "대패",
+    "term_en": "plane",
+    "context": "대패를 씀",
+    "interpretation_ko": "너그러움과 성공적인 노력이 크게 칭찬받을 조짐",
+    "interpretation_en": "denotes that your liberality and successful efforts will be highly commended",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Plane",
+      "original": "To dream that you use a plane, denotes that your liberality and successful efforts will be highly commended.",
+      "translation_ko": "대패를 쓰는 꿈은, 너그러움과 성공적인 노력이 크게 칭찬받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "대패",
+    "term_en": "plane",
+    "context": "목수들이 대패를 쓰는 것을 봄",
+    "interpretation_ko": "하는 일이 순조롭게 나아갈 조짐",
+    "interpretation_en": "denotes that you will progress smoothly in your undertakings",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Plane",
+      "original": "To see carpenters using their planes, denotes that you will progress smoothly in your undertakings.",
+      "translation_ko": "목수들이 대패를 쓰는 것을 보는 꿈은, 하는 일이 순조롭게 나아갈 조짐이다"
+    }
+  },
+  {
+    "term_ko": "대패",
+    "term_en": "plane",
+    "context": "대패 꿈을 꿈",
+    "interpretation_ko": "다정한 마음과 뜻밖의 성공을 뜻하며, 거짓이 아닌 진실을 사랑함을 알리는 조짐",
+    "interpretation_en": "denotes congeniality and even success. A love of the real, and not the false, is portended by this dream",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Plane",
+      "original": "To dream of seeing planes, denotes congeniality and even success. A love of the real, and not the false, is portended by this dream.",
+      "translation_ko": "대패 꿈은, 다정한 마음과 뜻밖의 성공을 뜻하며 거짓이 아닌 진실을 사랑함을 알리는 조짐이다"
+    }
+  }
+]

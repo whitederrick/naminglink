@@ -6826,5 +6826,13 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "pitchfork": [
     "pitchforks",
     "a pitchfork"
+  ],
+  "plain": [
+    "a plain",
+    "plains"
+  ],
+  "plane": [
+    "a plane",
+    "planes"
   ]
 };

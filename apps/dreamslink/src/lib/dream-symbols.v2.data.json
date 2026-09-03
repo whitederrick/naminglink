@@ -94,6 +94,7 @@
     "m180.json",
     "m181.json",
     "m182.json",
+    "m183.json",
     "m19.json",
     "m2.json",
     "m20.json",
@@ -50167,6 +50168,82 @@
       ]
     },
     {
+      "id": "epidemic",
+      "term_ko": "역병",
+      "term_en": "epidemic",
+      "aliases": [
+        "돌림병이",
+        "돌림병을",
+        "전염병",
+        "역병"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "돌림병이 도는 것을 봄",
+          "interpretation_ko": "마음이 지치고 하기 싫은 일에 시달릴 흉한 조짐",
+          "interpretation_en": "prostration of mental faculties and worry from distasteful tasks",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Epidemic",
+              "original": "To dream of an epidemic, signifies prostration of mental faculties and worry from distasteful tasks. Contagion among relatives or friends is foretold by dreams of this nature.",
+              "translation_ko": "돌림병 꿈은 마음이 지치고 하기 싫은 일에 시달림을 뜻한다. 살붙이나 벗 사이에 옮는 병이 있음을 알리는 꿈이기도 하다"
+            }
+          ]
+        },
+        {
+          "context": "역병이 창궐함",
+          "interpretation_ko": "사업에서 실망스러운 결실을 보고, 아내나 애인 때문에 비참한 나날을 보낼 조짐",
+          "interpretation_en": "denotes disappointing returns in business, and your wife or lover will lead you a wretched existence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plague",
+              "original": "To dream of a plague raging, denotes disappointing returns in business, and your wife or lover will lead you a wretched existence.",
+              "translation_ko": "역병이 창궐하는 꿈은, 사업에서 실망스러운 결실을 보고 아내나 애인 때문에 비참한 나날을 보낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "역병에 걸림",
+          "interpretation_ko": "일이 부끄러워지지 않도록 갖은 수완을 다해 사업을 지켜낼 조짐",
+          "interpretation_en": "you will keep your business out of embarrassment with the greatest maneuvering",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plague",
+              "original": "If you are afflicted with the plague, you will keep your business out of embarrassment with the greatest maneuvering.",
+              "translation_ko": "역병에 걸리는 꿈은, 일이 부끄러워지지 않도록 갖은 수완을 다해 사업을 지켜낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "역병에서 벗어나려 함",
+          "interpretation_ko": "뚫고 나가기 힘들어 보이는 어떤 곤란이 저를 쫓아오고 있음을 뜻함",
+          "interpretation_en": "some trouble, which looks impenetrable, is pursuing you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plague",
+              "original": "If you are trying to escape it, some trouble, which looks impenetrable, is pursuing you.",
+              "translation_ko": "역병에서 벗어나려 하는 꿈은, 뚫고 나가기 힘들어 보이는 어떤 곤란이 저를 쫓아오고 있음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ermine",
       "term_ko": "담비 옷",
       "term_en": "ermine",
@@ -70238,6 +70315,66 @@
               "locator": "Pimple",
               "original": "For a woman to dream that her beauty is marred by pimples, her conduct in home or social circles will be criticised by friends and acquaintances. You may have small annoyances to follow this dream.",
               "translation_ko": "여성이 여드름으로 미모가 상하는 꿈은, 집이나 사교 모임에서 행실을 비판받고 자잘한 성가심이 뒤따를 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plane",
+      "term_ko": "대패",
+      "term_en": "plane",
+      "aliases": [
+        "대패가",
+        "대패를"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "대패를 씀",
+          "interpretation_ko": "너그러움과 성공적인 노력이 크게 칭찬받을 조짐",
+          "interpretation_en": "denotes that your liberality and successful efforts will be highly commended",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plane",
+              "original": "To dream that you use a plane, denotes that your liberality and successful efforts will be highly commended.",
+              "translation_ko": "대패를 쓰는 꿈은, 너그러움과 성공적인 노력이 크게 칭찬받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목수들이 대패를 쓰는 것을 봄",
+          "interpretation_ko": "하는 일이 순조롭게 나아갈 조짐",
+          "interpretation_en": "denotes that you will progress smoothly in your undertakings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plane",
+              "original": "To see carpenters using their planes, denotes that you will progress smoothly in your undertakings.",
+              "translation_ko": "목수들이 대패를 쓰는 것을 보는 꿈은, 하는 일이 순조롭게 나아갈 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "대패 꿈을 꿈",
+          "interpretation_ko": "다정한 마음과 뜻밖의 성공을 뜻하며, 거짓이 아닌 진실을 사랑함을 알리는 조짐",
+          "interpretation_en": "denotes congeniality and even success. A love of the real, and not the false, is portended by this dream",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plane",
+              "original": "To dream of seeing planes, denotes congeniality and even success. A love of the real, and not the false, is portended by this dream.",
+              "translation_ko": "대패 꿈은, 다정한 마음과 뜻밖의 성공을 뜻하며 거짓이 아닌 진실을 사랑함을 알리는 조짐이다"
             }
           ]
         }
@@ -93949,6 +94086,53 @@
       ]
     },
     {
+      "id": "plain",
+      "term_ko": "평원",
+      "term_en": "plain",
+      "aliases": [
+        "평원이",
+        "평원을",
+        "들판"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "처녀가 풀이 푸르고 무성한 평원을 지남",
+          "interpretation_ko": "좋은 처지에 놓일 조짐",
+          "interpretation_en": "denotes that she will be fortunately situated, if the grasses are green and luxuriant",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plain",
+              "original": "For a young woman to dream of crossing a plain, denotes that she will be fortunately situated, if the grasses are green and luxuriant; if they are arid, or the grass is dead, she will have much discomfort and loneliness.",
+              "translation_ko": "처녀가 풀이 푸르고 무성한 평원을 지나는 꿈은, 좋은 처지에 놓일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 풀이 메마르거나 죽은 평원을 지남",
+          "interpretation_ko": "큰 불편과 외로움을 겪을 조짐",
+          "interpretation_en": "if they are arid, or the grass is dead, she will have much discomfort and loneliness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plain",
+              "original": "For a young woman to dream of crossing a plain, denotes that she will be fortunately situated, if the grasses are green and luxuriant; if they are arid, or the grass is dead, she will have much discomfort and loneliness.",
+              "translation_ko": "처녀가 풀이 메마르거나 죽은 평원을 지나는 꿈은, 큰 불편과 외로움을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pork",
       "term_ko": "돼지고기",
       "term_en": "pork",
@@ -101050,40 +101234,6 @@
               "locator": "帝王文武呼召",
               "original": "使命入門大吉利",
               "translation_ko": "사신이 문에 들어오면 크게 길하고 이롭다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "epidemic",
-      "term_ko": "돌림병",
-      "term_en": "epidemic",
-      "aliases": [
-        "돌림병이",
-        "돌림병을",
-        "전염병",
-        "역병"
-      ],
-      "category": "nature",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "돌림병이 도는 것을 봄",
-          "interpretation_ko": "마음이 지치고 하기 싫은 일에 시달릴 흉한 조짐",
-          "interpretation_en": "prostration of mental faculties and worry from distasteful tasks",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Epidemic",
-              "original": "To dream of an epidemic, signifies prostration of mental faculties and worry from distasteful tasks. Contagion among relatives or friends is foretold by dreams of this nature.",
-              "translation_ko": "돌림병 꿈은 마음이 지치고 하기 싫은 일에 시달림을 뜻한다. 살붙이나 벗 사이에 옮는 병이 있음을 알리는 꿈이기도 하다"
             }
           ]
         }
