@@ -1,0 +1,167 @@
+[
+  {
+    "term_ko": "옥",
+    "term_en": "jade",
+    "context": "보석을 몸에 지님",
+    "interpretation_ko": "높은 자리에 오르고 품은 뜻을 이룰 길한 조짐",
+    "interpretation_en": "brings rank and satisfied ambitions",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jewels",
+      "original": "To wear them, brings rank and satisfied ambitions.",
+      "translation_ko": "그것을 몸에 지니면 높은 자리와 이루어진 뜻이 따른다"
+    }
+  },
+  {
+    "term_ko": "옥",
+    "term_en": "jade",
+    "context": "남이 보석을 지닌 것을 봄",
+    "interpretation_ko": "저나 벗이 드러난 자리에 오를 길한 조짐",
+    "interpretation_en": "distinguished places will be held by you, or by some friend",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jewels",
+      "original": "To see others wearing them, distinguished places will be held by you, or by some friend.",
+      "translation_ko": "남이 그것을 지닌 것을 보면 저나 벗이 드러난 자리에 오른다"
+    }
+  },
+  {
+    "term_ko": "옥",
+    "term_en": "jade",
+    "context": "보석으로 꾸민 옷을 봄",
+    "interpretation_ko": "드문 복이 따르고 물려받거나 크게 벌여 높은 자리에 오를 길한 조짐",
+    "interpretation_en": "betokens rare good fortune to the dreamer; inheritance or speculation will raise him to high positions",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jewels",
+      "original": "To dream of jeweled garments, betokens rare good fortune to the dreamer.",
+      "translation_ko": "보석으로 꾸민 옷의 꿈은 꿈꾼 이에게 드문 복을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "옥",
+    "term_en": "jade",
+    "context": "보석을 물려받음",
+    "interpretation_ko": "남달리 넉넉해지나 온전히 흡족하지는 않을 조짐",
+    "interpretation_en": "your prosperity will be unusual, but not entirely satisfactory",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jewels",
+      "original": "If you inherit jewelry, your prosperity will be unusual, but not entirely satisfactory.",
+      "translation_ko": "보석붙이를 물려받으면 남달리 넉넉해지나 온전히 흡족하지는 않다"
+    }
+  },
+  {
+    "term_ko": "옥",
+    "term_en": "jade",
+    "context": "보석을 남에게 줌",
+    "interpretation_ko": "살림의 밑천이 위태로워지고 저도 모르게 제게 해가 될 흉한 조짐",
+    "interpretation_en": "warns you that some vital estate is threatening you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jewels",
+      "original": "To dream of giving jewelry away, warns you that some vital estate is threatening you.",
+      "translation_ko": "보석붙이를 남에게 주는 꿈은 살림의 밑천이 위태로워짐을 알리는 경고다"
+    }
+  },
+  {
+    "term_ko": "옥",
+    "term_en": "jade",
+    "context": "처녀가 보석을 받음",
+    "interpretation_ko": "큰 즐거움과 바라던 혼인이 있을 길한 조짐",
+    "interpretation_en": "indicates much pleasure and a desirable marriage",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jewels",
+      "original": "For a young woman to dream that she receives jewelry, indicates much pleasure and a desirable marriage.",
+      "translation_ko": "젊은 여성이 보석붙이를 받는 꿈을 꾸면 큰 즐거움과 바라던 혼인이 있다"
+    }
+  },
+  {
+    "term_ko": "옥",
+    "term_en": "jade",
+    "context": "보석을 잃음",
+    "interpretation_ko": "치켜세우고 속이는 이들을 만날 흉한 조짐",
+    "interpretation_en": "she will meet people who will flatter and deceive her",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jewels",
+      "original": "To dream that she loses jewels, she will meet people who will flatter and deceive her.",
+      "translation_ko": "보석을 잃는 꿈을 꾸면 치켜세우고 속이는 이들을 만난다"
+    }
+  },
+  {
+    "term_ko": "옥",
+    "term_en": "jade",
+    "context": "보석을 찾아냄",
+    "interpretation_ko": "마음 쓰던 일이 빠르고 눈부시게 나아갈 길한 조짐",
+    "interpretation_en": "denotes rapid and brilliant advancement in affairs of interest",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jewels",
+      "original": "To find jewels, denotes rapid and brilliant advancement in affairs of interest.",
+      "translation_ko": "보석을 찾아내면 마음 쓰던 일이 빠르고 눈부시게 나아간다"
+    }
+  },
+  {
+    "term_ko": "옥",
+    "term_en": "jade",
+    "context": "보석을 삼",
+    "interpretation_ko": "무거운 일, 그 가운데서도 마음에 얽힌 일이 크게 잘될 길한 조짐",
+    "interpretation_en": "proves that you will be very successful in momentous affairs, especially those pertaining to the heart",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jewels",
+      "original": "To buy them, proves that you will be very successful in momentous affairs, especially those pertaining to the heart.",
+      "translation_ko": "그것을 사면 무거운 일, 그 가운데서도 마음에 얽힌 일이 크게 잘된다"
+    }
+  },
+  {
+    "term_ko": "옥",
+    "term_en": "jade",
+    "context": "깨진 보석붙이를 봄",
+    "interpretation_ko": "가장 바라던 것을 이루지 못해 크게 실망할 흉한 조짐",
+    "interpretation_en": "denotes keen disappointment in attaining one's highest desires",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jewelry",
+      "original": "To dream of broken jewelry, denotes keen disappointment in attaining one's highest desires.",
+      "translation_ko": "깨진 보석붙이의 꿈은 가장 바라던 것을 이루지 못하는 크나큰 실망을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "옥",
+    "term_en": "jade",
+    "context": "보석붙이가 삭아 있음",
+    "interpretation_ko": "믿던 벗이 저를 저버리고 일의 근심이 얹힐 흉한 조짐",
+    "interpretation_en": "trusted friends will fail you, and business cares will be on you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jewelry",
+      "original": "If the jewelry be cankered, trusted friends will fail you, and business cares will be on you.",
+      "translation_ko": "보석붙이가 삭아 있으면 믿던 벗이 저를 저버리고 일의 근심이 얹힌다"
+    }
+  }
+]

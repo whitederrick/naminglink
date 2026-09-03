@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 69 — Jealousy~Jockey, 17건)
+// (지금 담긴 것: 배치 70 — Jewelry·Jewels, 15건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,25 +30,23 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "envy", ctx: "아내를 시샘함", text: "아내를 시샘했다" },
-  { id: "envy", ctx: "남편을 시샘함", text: "남편을 시샘했다" },
-  { id: "envy", ctx: "처녀가 정인을 시샘함", text: "처녀가 정인을 시샘했다" },
-  { id: "envy", ctx: "정인을 시샘함", text: "애인을 시샘했다" },
-  { id: "envy", ctx: "여느 일로 서로 시샘함", text: "여느 일로 서로 시샘했다" },
-  { id: "jelly", ctx: "젤리를 먹음", text: "젤리를 떠먹었다" },
-  { id: "jelly", ctx: "젤리를 만듦", text: "젤리를 만들었다" },
-  { id: "jessamine", ctx: "재스민을 봄", text: "재스민을 보았다" },
-  { id: "dance", ctx: "정인이 춤추는 것을 봄", text: "애인이 춤추는 것을 보았다" },
-  { id: "dance", ctx: "발레 하는 여자들이 춤추는 것을 봄", text: "발레 하는 여자들이 춤추는 것을 보았다" },
-  { id: "jockey", ctx: "기수를 봄", text: "뜻밖의 선물을 준 기수를 보았다" },
-  { id: "jockey", ctx: "처녀가 기수와 가까이 지냄", text: "처녀가 기수와 가까이 지냈다" },
-  { id: "jockey", ctx: "기수가 말에서 떨어지는 것을 봄", text: "기수가 말에서 떨어졌다" },
+  { id: "jade", ctx: "보석을 몸에 지님", text: "보석을 몸에 지녔다" },
+  { id: "jade", ctx: "남이 보석을 지닌 것을 봄", text: "남이 보석을 지닌 것을 보았다" },
+  { id: "jade", ctx: "보석으로 꾸민 옷을 봄", text: "보석으로 꾸민 옷을 보았다" },
+  { id: "jade", ctx: "보석을 물려받음", text: "보석을 물려받았다" },
+  { id: "jade", ctx: "보석을 남에게 줌", text: "보석을 남에게 주었다" },
+  { id: "jade", ctx: "처녀가 보석을 받음", text: "처녀가 보석을 선물로 받았다" },
+  { id: "jade", ctx: "보석을 잃음", text: "보석을 잃어버렸다" },
+  { id: "jade", ctx: "보석을 찾아냄", text: "보석을 찾아냈다" },
+  { id: "jade", ctx: "보석을 삼", text: "보석을 샀다" },
+  { id: "jade", ctx: "깨진 보석붙이를 봄", text: "깨진 보석붙이를 보았다" },
+  { id: "jade", ctx: "보석붙이가 삭아 있음", text: "보석붙이가 삭아 있었다" },
 
   // 이 배치가 판별어를 더한 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "envy", ctx: "남을 시샘함", text: "남을 시샘했다" },
-  { id: "envy", ctx: "남에게 시샘받음", text: "남들이 나를 시샘했다" },
-  { id: "dance", ctx: "제가 춤을 춤", text: "내가 춤을 췄다" },
-  { id: "dance", ctx: "즐거운 아이들이 춤추는 것을 봄", text: "즐거운 아이들이 춤추는 것을 보았다" },
+  { id: "jade", ctx: "보석을 봄", text: "보석을 보았다" },
+  { id: "jade", ctx: "금은과 주옥을 봄", text: "금은과 주옥을 보았다" },
+  { id: "jade", ctx: "옥 그릇과 기물을 얻음", text: "옥 그릇과 기물을 받았다" },
+  { id: "jade", ctx: "주옥이 품에 가득함", text: "주옥이 품에 가득했다" },
 ];
 
 let notFound = 0;

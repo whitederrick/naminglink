@@ -337,7 +337,13 @@
     "aliases": [
       "구슬",
       "옥돌",
-      "보석"
+      "보석",
+      "보석을",
+      "보석이",
+      "보석붙이",
+      "패물을",
+      "주옥",
+      "금은"
     ],
     "aliases_en": [
       "jade stone",
@@ -350,14 +356,36 @@
       "옥이 산처럼 쌓임": "산처럼 쌓여 쌓인 무더기",
       "주옥이 품에 가득함": "품에 가슴에 가득 넘치",
       "옥 그릇과 기물을 얻음": "그릇 기물 얻었 받았",
-      "보석을 봄": "보석 패물"
+      "보석을 봄": "패물",
+      "보석을 몸에 지님": "지녔 걸쳤 차고",
+      "남이 보석을 지닌 것을 봄": "남이 남들 다른이",
+      "보석으로 꾸민 옷을 봄": "꾸민 옷을 박힌",
+      "보석을 물려받음": "물려받 상속",
+      "보석을 남에게 줌": "주었 건네 내주",
+      "처녀가 보석을 받음": "처녀 아가씨 선물로",
+      "보석을 잃음": "잃었 잃어 잃고",
+      "보석을 찾아냄": "찾아냈 주웠 발견",
+      "보석을 삼": "샀다 사들 장만",
+      "깨진 보석붙이를 봄": "깨진 깨졌 부서",
+      "보석붙이가 삭아 있음": "삭아 녹슬 빛바랜"
     },
     "contexts_en": {
       "금은과 주옥을 봄": "gold silver pearl",
       "옥이 산처럼 쌓임": "piled heap stacked mound",
       "주옥이 품에 가득함": "bosom chest overflowing arms",
       "옥 그릇과 기물을 얻음": "vessel bowl utensil received",
-      "보석을 봄": "gems happy fate both"
+      "보석을 봄": "gems happy fate both",
+      "보석을 몸에 지님": "rank satisfied ambitions",
+      "남이 보석을 지닌 것을 봄": "others wearing distinguished places",
+      "보석으로 꾸민 옷을 봄": "jeweled garments betokens rare",
+      "보석을 물려받음": "inherit prosperity unusual entirely",
+      "보석을 남에게 줌": "giving away warns vital estate threatening",
+      "처녀가 보석을 받음": "receives desirable marriage",
+      "보석을 잃음": "loses flatter deceive",
+      "보석을 찾아냄": "find rapid brilliant advancement",
+      "보석을 삼": "buy momentous pertaining heart",
+      "깨진 보석붙이를 봄": "broken keen disappointment attaining highest",
+      "보석붙이가 삭아 있음": "cankered trusted fail cares"
     }
   },
   {
