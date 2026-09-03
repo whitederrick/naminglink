@@ -8,6 +8,7 @@
     "m102.json",
     "m103.json",
     "m104.json",
+    "m105.json",
     "m11.json",
     "m12.json",
     "m13.json",
@@ -19510,6 +19511,140 @@
       ]
     },
     {
+      "id": "bread",
+      "term_ko": "빵",
+      "term_en": "bread",
+      "aliases": [
+        "식빵",
+        "빵조각",
+        "빵 한 덩이",
+        "밀빵",
+        "빵 덩이",
+        "빵덩어리"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여성이 빵을 먹는 꿈을 꿈",
+          "interpretation_ko": "고집 센 아이들 때문에 괴로워하며 헛된 수고와 근심으로 많은 날을 보낼 조짐",
+          "interpretation_en": "a sign that she will be afflicted with children of stubborn will, for whom she will spend many days of useless labor and worry",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bread",
+              "original": "For a woman to dream of eating bread, denotes that she will be afflicted\nwith children of stubborn will, for whom she will spend many days of useless\nlabor and worry.",
+              "translation_ko": "여성이 빵을 먹는 꿈을 꾸면 고집 센 아이들 때문에 괴로워하며 헛된 수고와 근심으로 많은 날을 보낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빵 덩이가 케이크임",
+          "interpretation_ko": "제 복을 기뻐할 만한 길한 조짐 — 사랑과 재물이 알아서 따라온다",
+          "interpretation_en": "the dreamer has cause to rejoice over his good fortune, as love and wealth will wait obsequiously upon you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Loaves",
+              "original": "If they be of cake, the dreamer has cause to rejoice over his good fortune, as love and wealth will wait obsequiously upon you.",
+              "translation_ko": "그 덩이가 케이크이면, 제 복을 기뻐할 만하다 — 사랑과 재물이 알아서 따라온다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 빵 덩이를 봄",
+          "interpretation_ko": "사랑하는 사이에 불만과 다툼이 생길 흉한 조짐",
+          "interpretation_en": "bring discontent and bickerings between those who love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Loaves",
+              "original": "Broken loaves, bring discontent and bickerings between those who love.",
+              "translation_ko": "부서진 빵 덩이는 사랑하는 사이에 불만과 다툼을 가져온다"
+            }
+          ]
+        },
+        {
+          "context": "빵 덩이가 크게 불어남",
+          "interpretation_ko": "크게 잘될 길한 조짐. 정인은 제가 고른 짝과 즐겁다",
+          "interpretation_en": "prognosticates great success; lovers will be happy in their chosen ones",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Loaves",
+              "original": "To see loaves multiply phenomenally, prognosticates great success.",
+              "translation_ko": "빵 덩이가 놀랍게 불어나는 것을 보면 크게 잘된다"
+            }
+          ]
+        },
+        {
+          "context": "빵 덩이를 봄",
+          "interpretation_ko": "아끼며 사는 살림을 뜻하는 조짐",
+          "interpretation_en": "denotes frugality",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Loaves",
+              "original": "To dream of loaves of bread, denotes frugality.",
+              "translation_ko": "빵 덩이의 꿈은 아끼며 사는 살림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "다른 사람과 빵을 나눔",
+          "interpretation_ko": "평생 안정된 생계를 보장받을 조짐",
+          "interpretation_en": "a sign of an assured competence through life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bread",
+              "original": "To dream of breaking bread with others, indicates an assured\ncompetence through life.",
+              "translation_ko": "다른 사람과 빵을 나누는 꿈을 꾸면 평생 안정된 생계를 보장받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "불결한 빵이 많이 있는 것을 봄",
+          "interpretation_ko": "궁핍과 비참함이 짓누를 조짐",
+          "interpretation_en": "a sign that want and misery will burden the dreamer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bread",
+              "original": "To see a lot of impure bread, want and misery will burden the dreamer.",
+              "translation_ko": "불결한 빵이 많이 있는 것을 보면 궁핍과 비참함이 짓누를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빵이 좋고 그것을 먹을 수 있음",
+          "interpretation_ko": "좋은 조짐",
+          "interpretation_en": "a favorable dream",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bread",
+              "original": "If the bread is good and you have access to it, it is a favorable dream.",
+              "translation_ko": "빵이 좋고 그것을 먹을 수 있으면 좋은 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "buddha",
       "term_ko": "부처",
       "term_en": "buddha",
@@ -38660,82 +38795,6 @@
       ]
     },
     {
-      "id": "bread",
-      "term_ko": "빵",
-      "term_en": "bread",
-      "aliases": [
-        "식빵",
-        "빵조각",
-        "빵 한 덩이",
-        "밀빵"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "여성이 빵을 먹는 꿈을 꿈",
-          "interpretation_ko": "고집 센 아이들 때문에 괴로워하며 헛된 수고와 근심으로 많은 날을 보낼 조짐",
-          "interpretation_en": "a sign that she will be afflicted with children of stubborn will, for whom she will spend many days of useless labor and worry",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bread",
-              "original": "For a woman to dream of eating bread, denotes that she will be afflicted\nwith children of stubborn will, for whom she will spend many days of useless\nlabor and worry.",
-              "translation_ko": "여성이 빵을 먹는 꿈을 꾸면 고집 센 아이들 때문에 괴로워하며 헛된 수고와 근심으로 많은 날을 보낼 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "다른 사람과 빵을 나눔",
-          "interpretation_ko": "평생 안정된 생계를 보장받을 조짐",
-          "interpretation_en": "a sign of an assured competence through life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bread",
-              "original": "To dream of breaking bread with others, indicates an assured\ncompetence through life.",
-              "translation_ko": "다른 사람과 빵을 나누는 꿈을 꾸면 평생 안정된 생계를 보장받을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "불결한 빵이 많이 있는 것을 봄",
-          "interpretation_ko": "궁핍과 비참함이 짓누를 조짐",
-          "interpretation_en": "a sign that want and misery will burden the dreamer",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bread",
-              "original": "To see a lot of impure bread, want and misery will burden the dreamer.",
-              "translation_ko": "불결한 빵이 많이 있는 것을 보면 궁핍과 비참함이 짓누를 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "빵이 좋고 그것을 먹을 수 있음",
-          "interpretation_ko": "좋은 조짐",
-          "interpretation_en": "a favorable dream",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bread",
-              "original": "If the bread is good and you have access to it, it is a favorable dream.",
-              "translation_ko": "빵이 좋고 그것을 먹을 수 있으면 좋은 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "breakfast",
       "term_ko": "아침 식사",
       "term_en": "breakfast",
@@ -38882,6 +38941,85 @@
               "locator": "Bull",
               "original": "To dream of a white bull, denotes that you will lift yourself up to a higher plane of life than those who persist in making material things their God. It usually denotes gain.",
               "translation_ko": "흰 황소 꿈을 꾸면 물질을 최고로 여기는 이들보다 더 높은 삶의 경지로 올라서게 되며, 대개 이득을 뜻하는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "burden",
+      "term_ko": "짐",
+      "term_en": "burden",
+      "aliases": [
+        "무거운 짐",
+        "짐꾸러미",
+        "봇짐",
+        "부담",
+        "짐을",
+        "짐이",
+        "이삿짐 보따리"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무거운 짐을 짊어짐",
+          "interpretation_ko": "권력자의 편애로 생긴 근심과 부당함의 무게에 짓눌릴 조짐",
+          "interpretation_en": "a sign that you will be tied down by oppressive weights of care and injustice, caused from favoritism shown your enemies by those in power",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Burden",
+              "original": "To dream that you carry a heavy burden, signifies that you will be tied down by oppressive weights of care and injustice, caused from favoritism shown your enemies by those in power.",
+              "translation_ko": "무거운 짐을 짊어지는 꿈을 꾸면 권력자의 편애로 생긴 근심과 부당함의 무게에 짓눌릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "짐에 눌려 쓰러짐",
+          "interpretation_ko": "저를 바라보는 이들에게 필요한 것을 마련해 주지 못할 흉한 조짐",
+          "interpretation_en": "denotes your inability to attain comforts that are necessary to those looking to you for subsistence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Load",
+              "original": "To fall under a load, denotes your inability to attain comforts that are necessary to those looking to you for subsistence.",
+              "translation_ko": "짐에 눌려 쓰러지면, 저를 바라보는 이들에게 필요한 것을 마련해 주지 못한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 짐을 지는 것을 봄",
+          "interpretation_ko": "그들에게 시련이 있고 제가 그 일에 마음을 쓰게 될 조짐",
+          "interpretation_en": "denotes trials for them in which you will be interested",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Load",
+              "original": "To see others thus engaged, denotes trials for them in which you will be interested.",
+              "translation_ko": "남이 짐을 지는 것을 보면, 그들에게 시련이 있고 제가 그 일에 마음을 쓰게 된다"
+            }
+          ]
+        },
+        {
+          "context": "짐에서 벗어나려 애씀",
+          "interpretation_ko": "성공의 정점까지 오를 조짐",
+          "interpretation_en": "a sign that you will climb to the topmost heights of success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Burden",
+              "original": "But to struggle free from it, you will climb to the topmost heights of success.",
+              "translation_ko": "짐에서 벗어나려 애쓰면 성공의 정점까지 오를 조짐이다"
             }
           ]
         }
@@ -45235,6 +45373,81 @@
               "locator": "Lizard",
               "original": "For a woman to dream that a lizard crawls up her skirt, or scratches her, she will have much misfortune and sorrow.",
               "translation_ko": "여성이 도마뱀이 치마 위로 기어오르거나 할퀴는 꿈을 꾸면, 궂은일과 슬픔이 크다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lobster",
+      "term_ko": "바닷가재",
+      "term_en": "lobster",
+      "aliases": [
+        "랍스터",
+        "바닷가재가",
+        "바닷가재를"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "바닷가재를 봄",
+          "interpretation_ko": "큰 도움과 재물을 얻을 길한 조짐",
+          "interpretation_en": "denotes great favors, and riches will endow you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lobster",
+              "original": "To dream of seeing lobsters, denotes great favors, and riches will endow you.",
+              "translation_ko": "바닷가재를 보는 꿈은 큰 도움과 재물을 얻음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "바닷가재를 먹음",
+          "interpretation_ko": "노는 데만 마음을 둔 이들과 너무 어울려 물들 흉한 조짐",
+          "interpretation_en": "you will sustain contamination by associating too freely with pleasure-seeking people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lobster",
+              "original": "If you eat them, you will sustain contamination by associating too freely with pleasure-seeking people.",
+              "translation_ko": "바닷가재를 먹으면, 노는 데만 마음을 둔 이들과 너무 어울려 물든다"
+            }
+          ]
+        },
+        {
+          "context": "바닷가재로 만든 샐러드를 봄",
+          "interpretation_ko": "잘돼도 넉넉한 성품이 변하지 않고, 제가 여기는 즐거움을 마음껏 누릴 길한 조짐",
+          "interpretation_en": "success will not change your generous nature, but you will enjoy to the fullest your ideas of pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lobster",
+              "original": "If the lobsters are made into a salad, success will not change your generous nature, but you will enjoy to the fullest your ideas of pleasure.",
+              "translation_ko": "바닷가재로 샐러드를 만들면, 잘돼도 넉넉한 성품이 변하지 않고 제가 여기는 즐거움을 마음껏 누린다"
+            }
+          ]
+        },
+        {
+          "context": "바닷가재를 주문함",
+          "interpretation_ko": "높은 자리에 앉아 많은 아랫사람을 거느릴 길한 조짐",
+          "interpretation_en": "you will hold prominent positions and command many subordinates",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lobster",
+              "original": "To order a lobster, you will hold prominent positions and command many subordinates.",
+              "translation_ko": "바닷가재를 주문하면 높은 자리에 앉아 많은 아랫사람을 거느린다"
             }
           ]
         }
@@ -63950,54 +64163,6 @@
       ]
     },
     {
-      "id": "burden",
-      "term_ko": "짐",
-      "term_en": "burden",
-      "aliases": [
-        "무거운 짐",
-        "짐꾸러미",
-        "봇짐",
-        "부담"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "무거운 짐을 짊어짐",
-          "interpretation_ko": "권력자의 편애로 생긴 근심과 부당함의 무게에 짓눌릴 조짐",
-          "interpretation_en": "a sign that you will be tied down by oppressive weights of care and injustice, caused from favoritism shown your enemies by those in power",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Burden",
-              "original": "To dream that you carry a heavy burden, signifies that you will be tied down by oppressive weights of care and injustice, caused from favoritism shown your enemies by those in power.",
-              "translation_ko": "무거운 짐을 짊어지는 꿈을 꾸면 권력자의 편애로 생긴 근심과 부당함의 무게에 짓눌릴 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "짐에서 벗어나려 애씀",
-          "interpretation_ko": "성공의 정점까지 오를 조짐",
-          "interpretation_en": "a sign that you will climb to the topmost heights of success",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Burden",
-              "original": "But to struggle free from it, you will climb to the topmost heights of success.",
-              "translation_ko": "짐에서 벗어나려 애쓰면 성공의 정점까지 오를 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "buried-alive",
       "term_ko": "생매장",
       "term_en": "buried alive",
@@ -76358,6 +76523,53 @@
               "locator": "Liver",
               "original": "To dream of eating liver, indicates that some deceitful person has installed himself in the affection of your sweetheart.",
               "translation_ko": "간을 먹는 꿈은, 속임수 쓰는 이가 정인의 마음에 들어앉았음을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "loadstone",
+      "term_ko": "자석",
+      "term_en": "loadstone",
+      "aliases": [
+        "자석이",
+        "자석을",
+        "지남석"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "자석을 봄",
+          "interpretation_ko": "제가 살림을 일으킬 좋은 기회를 스스로 만들어 낼 길한 조짐",
+          "interpretation_en": "denotes you will make favorable opportunities for your own advancement in a material way",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Loadstone",
+              "original": "To dream of a loadstone, denotes you will make favorable opportunities for your own advancement in a material way.",
+              "translation_ko": "자석의 꿈은, 제가 살림을 일으킬 좋은 기회를 스스로 만들어 냄을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 자석에 끌림",
+          "interpretation_ko": "집안에 기쁜 바뀜이 있을 길한 조짐",
+          "interpretation_en": "is an omen of happy changes in her family",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Loadstone",
+              "original": "For a young woman to think a loadstone is attracting her, is an omen of happy changes in her family.",
+              "translation_ko": "젊은 여성이 자석이 저를 끌어당긴다고 여기면, 집안에 기쁜 바뀜이 있다"
             }
           ]
         }

@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "짐",
+    "term_en": "burden",
+    "context": "짐에 눌려 쓰러짐",
+    "interpretation_ko": "저를 바라보는 이들에게 필요한 것을 마련해 주지 못할 흉한 조짐",
+    "interpretation_en": "denotes your inability to attain comforts that are necessary to those looking to you for subsistence",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Load",
+      "original": "To fall under a load, denotes your inability to attain comforts that are necessary to those looking to you for subsistence.",
+      "translation_ko": "짐에 눌려 쓰러지면, 저를 바라보는 이들에게 필요한 것을 마련해 주지 못한다"
+    }
+  },
+  {
+    "term_ko": "짐",
+    "term_en": "burden",
+    "context": "남이 짐을 지는 것을 봄",
+    "interpretation_ko": "그들에게 시련이 있고 제가 그 일에 마음을 쓰게 될 조짐",
+    "interpretation_en": "denotes trials for them in which you will be interested",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Load",
+      "original": "To see others thus engaged, denotes trials for them in which you will be interested.",
+      "translation_ko": "남이 짐을 지는 것을 보면, 그들에게 시련이 있고 제가 그 일에 마음을 쓰게 된다"
+    }
+  },
+  {
+    "term_ko": "자석",
+    "term_en": "loadstone",
+    "context": "자석을 봄",
+    "interpretation_ko": "제가 살림을 일으킬 좋은 기회를 스스로 만들어 낼 길한 조짐",
+    "interpretation_en": "denotes you will make favorable opportunities for your own advancement in a material way",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Loadstone",
+      "original": "To dream of a loadstone, denotes you will make favorable opportunities for your own advancement in a material way.",
+      "translation_ko": "자석의 꿈은, 제가 살림을 일으킬 좋은 기회를 스스로 만들어 냄을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "자석",
+    "term_en": "loadstone",
+    "context": "처녀가 자석에 끌림",
+    "interpretation_ko": "집안에 기쁜 바뀜이 있을 길한 조짐",
+    "interpretation_en": "is an omen of happy changes in her family",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Loadstone",
+      "original": "For a young woman to think a loadstone is attracting her, is an omen of happy changes in her family.",
+      "translation_ko": "젊은 여성이 자석이 저를 끌어당긴다고 여기면, 집안에 기쁜 바뀜이 있다"
+    }
+  },
+  {
+    "term_ko": "빵",
+    "term_en": "bread",
+    "context": "빵 덩이가 케이크임",
+    "interpretation_ko": "제 복을 기뻐할 만한 길한 조짐 — 사랑과 재물이 알아서 따라온다",
+    "interpretation_en": "the dreamer has cause to rejoice over his good fortune, as love and wealth will wait obsequiously upon you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Loaves",
+      "original": "If they be of cake, the dreamer has cause to rejoice over his good fortune, as love and wealth will wait obsequiously upon you.",
+      "translation_ko": "그 덩이가 케이크이면, 제 복을 기뻐할 만하다 — 사랑과 재물이 알아서 따라온다"
+    }
+  },
+  {
+    "term_ko": "빵",
+    "term_en": "bread",
+    "context": "부서진 빵 덩이를 봄",
+    "interpretation_ko": "사랑하는 사이에 불만과 다툼이 생길 흉한 조짐",
+    "interpretation_en": "bring discontent and bickerings between those who love",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Loaves",
+      "original": "Broken loaves, bring discontent and bickerings between those who love.",
+      "translation_ko": "부서진 빵 덩이는 사랑하는 사이에 불만과 다툼을 가져온다"
+    }
+  },
+  {
+    "term_ko": "빵",
+    "term_en": "bread",
+    "context": "빵 덩이가 크게 불어남",
+    "interpretation_ko": "크게 잘될 길한 조짐. 정인은 제가 고른 짝과 즐겁다",
+    "interpretation_en": "prognosticates great success; lovers will be happy in their chosen ones",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Loaves",
+      "original": "To see loaves multiply phenomenally, prognosticates great success.",
+      "translation_ko": "빵 덩이가 놀랍게 불어나는 것을 보면 크게 잘된다"
+    }
+  },
+  {
+    "term_ko": "빵",
+    "term_en": "bread",
+    "context": "빵 덩이를 봄",
+    "interpretation_ko": "아끼며 사는 살림을 뜻하는 조짐",
+    "interpretation_en": "denotes frugality",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Loaves",
+      "original": "To dream of loaves of bread, denotes frugality.",
+      "translation_ko": "빵 덩이의 꿈은 아끼며 사는 살림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "바닷가재",
+    "term_en": "lobster",
+    "context": "바닷가재를 봄",
+    "interpretation_ko": "큰 도움과 재물을 얻을 길한 조짐",
+    "interpretation_en": "denotes great favors, and riches will endow you",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Lobster",
+      "original": "To dream of seeing lobsters, denotes great favors, and riches will endow you.",
+      "translation_ko": "바닷가재를 보는 꿈은 큰 도움과 재물을 얻음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "바닷가재",
+    "term_en": "lobster",
+    "context": "바닷가재를 먹음",
+    "interpretation_ko": "노는 데만 마음을 둔 이들과 너무 어울려 물들 흉한 조짐",
+    "interpretation_en": "you will sustain contamination by associating too freely with pleasure-seeking people",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Lobster",
+      "original": "If you eat them, you will sustain contamination by associating too freely with pleasure-seeking people.",
+      "translation_ko": "바닷가재를 먹으면, 노는 데만 마음을 둔 이들과 너무 어울려 물든다"
+    }
+  },
+  {
+    "term_ko": "바닷가재",
+    "term_en": "lobster",
+    "context": "바닷가재로 만든 샐러드를 봄",
+    "interpretation_ko": "잘돼도 넉넉한 성품이 변하지 않고, 제가 여기는 즐거움을 마음껏 누릴 길한 조짐",
+    "interpretation_en": "success will not change your generous nature, but you will enjoy to the fullest your ideas of pleasure",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Lobster",
+      "original": "If the lobsters are made into a salad, success will not change your generous nature, but you will enjoy to the fullest your ideas of pleasure.",
+      "translation_ko": "바닷가재로 샐러드를 만들면, 잘돼도 넉넉한 성품이 변하지 않고 제가 여기는 즐거움을 마음껏 누린다"
+    }
+  },
+  {
+    "term_ko": "바닷가재",
+    "term_en": "lobster",
+    "context": "바닷가재를 주문함",
+    "interpretation_ko": "높은 자리에 앉아 많은 아랫사람을 거느릴 길한 조짐",
+    "interpretation_en": "you will hold prominent positions and command many subordinates",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Lobster",
+      "original": "To order a lobster, you will hold prominent positions and command many subordinates.",
+      "translation_ko": "바닷가재를 주문하면 높은 자리에 앉아 많은 아랫사람을 거느린다"
+    }
+  }
+]

@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 104 — Lips~Lizard, 18건)
+// (지금 담긴 것: 배치 105 — Load~Lobster, 16건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,25 +30,23 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "lips", ctx: "두껍고 보기 흉한 입술을 봄", text: "두껍고 흉한 입술을 보았다" },
-  { id: "lips", ctx: "도톰하고 붉은 입술을 봄", text: "도톰하고 붉은 입술을 보았다" },
-  { id: "lips", ctx: "얇은 입술을 봄", text: "얇은 입술을 보았다" },
-  { id: "lips", ctx: "부르트거나 부은 입술을 봄", text: "입술이 부은 것을 보았다" },
-  { id: "liquor", ctx: "술을 삼", text: "술을 샀다" },
-  { id: "liquor", ctx: "술을 팜", text: "술을 팔았다" },
-  { id: "liquor", ctx: "통에 든 술을 봄", text: "나무통에 든 술을 보았다" },
-  { id: "liquor", ctx: "병에 든 술을 봄", text: "병에 든 술을 보았다" },
-  { id: "liquor", ctx: "여성이 술을 다루거나 마심", text: "여자가 술을 다루고 있었다" },
-  { id: "liver", ctx: "간이 상한 것을 봄", text: "간이 상한 것을 보았다" },
-  { id: "liver", ctx: "간을 먹음", text: "간을 먹었다" },
-  { id: "lizard", ctx: "도마뱀을 봄", text: "도마뱀이 기어다니고 있었다" },
-  { id: "lizard", ctx: "도마뱀을 죽임", text: "도마뱀을 죽였다" },
-  { id: "lizard", ctx: "도마뱀이 달아남", text: "도마뱀이 달아났다" },
-  { id: "lizard", ctx: "도마뱀이 치마 위로 기어오르거나 할큄", text: "도마뱀이 치마 위로 기어올랐다" },
+  { id: "burden", ctx: "짐에 눌려 쓰러짐", text: "짐에 눌려 쓰러졌다" },
+  { id: "burden", ctx: "남이 짐을 지는 것을 봄", text: "남이 짐을 지고 가는 것을 보았다" },
+  { id: "loadstone", ctx: "자석을 봄", text: "자석이 놓여 있었다" },
+  { id: "loadstone", ctx: "처녀가 자석에 끌림", text: "처녀가 자석에 끌려갔다" },
+  { id: "bread", ctx: "빵 덩이가 케이크임", text: "빵 덩이가 케이크였다" },
+  { id: "bread", ctx: "부서진 빵 덩이를 봄", text: "부서진 빵 덩이를 보았다" },
+  { id: "bread", ctx: "빵 덩이가 크게 불어남", text: "빵 덩이가 크게 불어났다" },
+  { id: "bread", ctx: "빵 덩이를 봄", text: "빵 덩이가 있었다" },
+  { id: "lobster", ctx: "바닷가재를 봄", text: "바닷가재가 집게를 들고 있었다" },
+  { id: "lobster", ctx: "바닷가재를 먹음", text: "바닷가재를 먹었다" },
+  { id: "lobster", ctx: "바닷가재로 만든 샐러드를 봄", text: "바닷가재로 만든 샐러드를 보았다" },
+  { id: "lobster", ctx: "바닷가재를 주문함", text: "바닷가재를 주문했다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "liquor", ctx: "남이 권하는 술을 마심", text: "남이 권하는 술을 마셨다" },
-  { id: "liquor", ctx: "술을 마심", text: "혼자 술을 마셨다" },
-  { id: "liquor", ctx: "술에 취하도록 마심", text: "술에 취하도록 마셨다" },
+  { id: "burden", ctx: "무거운 짐을 짊어짐", text: "무거운 짐을 짊어졌다" },
+  { id: "burden", ctx: "짐에서 벗어나려 애씀", text: "짐에서 벗어나려 애썼다" },
+  { id: "bread", ctx: "다른 사람과 빵을 나눔", text: "다른 사람과 빵을 나눠 먹었다" },
+  { id: "bread", ctx: "불결한 빵이 많이 있는 것을 봄", text: "곰팡이 핀 빵이 잔뜩 있었다" },
 ];
 
 let notFound = 0;

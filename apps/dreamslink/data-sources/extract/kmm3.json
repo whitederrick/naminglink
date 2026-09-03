@@ -298,7 +298,9 @@
       "식빵",
       "빵조각",
       "빵 한 덩이",
-      "밀빵"
+      "밀빵",
+      "빵 덩이",
+      "빵덩어리"
     ],
     "aliases_en": [
       "a loaf",
@@ -310,13 +312,21 @@
       "여성이 빵을 먹는 꿈을 꿈": "여자가 여성이 부인이 아내가",
       "다른 사람과 빵을 나눔": "나눠 나누 함께 건네",
       "불결한 빵이 많이 있는 것을 봄": "불결 더러운 곰팡 잔뜩",
-      "빵이 좋고 그것을 먹을 수 있음": "맛있 좋은 신선 갓구운"
+      "빵이 좋고 그것을 먹을 수 있음": "맛있 좋은 신선 갓구운",
+      "부서진 빵 덩이를 봄": "부서진 깨진 조각난",
+      "빵 덩이가 크게 불어남": "불어났 불어나 늘어났 많아졌",
+      "빵 덩이를 봄": "덩이 덩어리",
+      "빵 덩이가 케이크임": "케이크"
     },
     "contexts_en": {
       "여성이 빵을 먹는 꿈을 꿈": "woman wife eating",
       "다른 사람과 빵을 나눔": "sharing shared together",
       "불결한 빵이 많이 있는 것을 봄": "filthy dirty mouldy stale",
-      "빵이 좋고 그것을 먹을 수 있음": "good fresh tasty wholesome"
+      "빵이 좋고 그것을 먹을 수 있음": "good fresh tasty wholesome",
+      "부서진 빵 덩이를 봄": "broken discontent bickerings",
+      "빵 덩이가 크게 불어남": "multiply phenomenally prognosticates",
+      "빵 덩이를 봄": "frugality",
+      "빵 덩이가 케이크임": "cake rejoice obsequiously"
     }
   },
   {

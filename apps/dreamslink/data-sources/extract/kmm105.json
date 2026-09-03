@@ -1,0 +1,45 @@
+[
+  {
+    "id": "loadstone",
+    "aliases": [
+      "자석이",
+      "자석을",
+      "지남석"
+    ],
+    "aliases_en": [
+      "lodestone",
+      "magnet"
+    ],
+    "contexts": {
+      "자석을 봄": "놓여 들고",
+      "처녀가 자석에 끌림": "처녀 끌려 끌어당"
+    },
+    "contexts_en": {
+      "자석을 봄": "favorable opportunities advancement material",
+      "처녀가 자석에 끌림": "attracting happy changes family"
+    }
+  },
+  {
+    "id": "lobster",
+    "aliases": [
+      "랍스터",
+      "바닷가재가",
+      "바닷가재를"
+    ],
+    "aliases_en": [
+      "lobsters"
+    ],
+    "contexts": {
+      "바닷가재를 봄": "집게 빨간",
+      "바닷가재를 먹음": "먹었 먹는",
+      "바닷가재로 만든 샐러드를 봄": "샐러드 무침",
+      "바닷가재를 주문함": "주문 시켰"
+    },
+    "contexts_en": {
+      "바닷가재를 봄": "favors riches endow",
+      "바닷가재를 먹음": "contamination associating pleasure-seeking",
+      "바닷가재로 만든 샐러드를 봄": "salad generous nature fullest",
+      "바닷가재를 주문함": "order prominent positions subordinates"
+    }
+  }
+]

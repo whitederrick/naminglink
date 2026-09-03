@@ -396,7 +396,10 @@
       "무거운 짐",
       "짐꾸러미",
       "봇짐",
-      "부담"
+      "부담",
+      "짐을",
+      "짐이",
+      "이삿짐 보따리"
     ],
     "aliases_en": [
       "a burden",
@@ -406,11 +409,15 @@
     ],
     "contexts": {
       "무거운 짐을 짊어짐": "무거운 짊어 등에지 어깨에 이고",
-      "짐에서 벗어나려 애씀": "벗어나 내려놓 애쓰 떨쳐"
+      "짐에서 벗어나려 애씀": "벗어나 내려놓 애쓰 떨쳐",
+      "짐에 눌려 쓰러짐": "눌려 쓰러 깔렸",
+      "남이 짐을 지는 것을 봄": "남이 남들이 다른 사람이"
     },
     "contexts_en": {
       "무거운 짐을 짊어짐": "shoulders bearing",
-      "짐에서 벗어나려 애씀": "escape struggling shedding throwing"
+      "짐에서 벗어나려 애씀": "escape struggling shedding throwing",
+      "짐에 눌려 쓰러짐": "fall inability comforts subsistence",
+      "남이 짐을 지는 것을 봄": "others engaged trials interested"
     }
   },
   {

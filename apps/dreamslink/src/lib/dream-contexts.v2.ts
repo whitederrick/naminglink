@@ -2049,6 +2049,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "bread::다른 사람과 빵을 나눔": "sharing shared together",
   "bread::불결한 빵이 많이 있는 것을 봄": "filthy dirty mouldy stale",
   "bread::빵이 좋고 그것을 먹을 수 있음": "good fresh tasty wholesome",
+  "bread::부서진 빵 덩이를 봄": "broken discontent bickerings",
+  "bread::빵 덩이가 크게 불어남": "multiply phenomenally prognosticates",
+  "bread::빵 덩이를 봄": "frugality",
+  "bread::빵 덩이가 케이크임": "cake rejoice obsequiously",
   "breakfast::아침 식사 꿈을 꿈(정신노동에 종사하는 사람)": "scholar writing mental clerk",
   "breakfast::신선한 우유와 달걀, 잘 차려진 잘 익은 과일 접시로 된 아침 식사를 봄": "milk eggs fruit spread",
   "breakfast::혼자 식사를 함": "alone solitary",
@@ -2445,6 +2449,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "bulldog::불도그가 우호적으로 다가옴": "friendly approached wagging gentle",
   "burden::무거운 짐을 짊어짐": "shoulders bearing",
   "burden::짐에서 벗어나려 애씀": "escape struggling shedding throwing",
+  "burden::짐에 눌려 쓰러짐": "fall inability comforts subsistence",
+  "burden::남이 짐을 지는 것을 봄": "others engaged trials interested",
   "alligator::악어 꿈을 꿈": "deceived warmest assail",
   "alligator::악어 등을 밟고 섬": "stepping back extricate",
   "alligator::악어를 봄(죽이지 않음)": "killing spared alive",
@@ -4156,5 +4162,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lizard::도마뱀을 봄": "attacks enemies",
   "lizard::도마뱀을 죽임": "kill regain lost reputation",
   "lizard::도마뱀이 달아남": "escape vexations crosses",
-  "lizard::도마뱀이 치마 위로 기어오르거나 할큄": "crawls skirt scratches widow sustenance"
+  "lizard::도마뱀이 치마 위로 기어오르거나 할큄": "crawls skirt scratches widow sustenance",
+  "loadstone::자석을 봄": "favorable opportunities advancement material",
+  "loadstone::처녀가 자석에 끌림": "attracting happy changes family",
+  "lobster::바닷가재를 봄": "favors riches endow",
+  "lobster::바닷가재를 먹음": "contamination associating pleasure-seeking",
+  "lobster::바닷가재로 만든 샐러드를 봄": "salad generous nature fullest",
+  "lobster::바닷가재를 주문함": "order prominent positions subordinates"
 };
