@@ -96,6 +96,7 @@
     "m91.json",
     "m92.json",
     "m93.json",
+    "m94.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -21666,6 +21667,135 @@
       ]
     },
     {
+      "id": "borrowing",
+      "term_ko": "빌림",
+      "term_en": "borrowing",
+      "aliases": [
+        "빌려",
+        "대출",
+        "차용",
+        "빌렸다",
+        "빌려서",
+        "빌리는",
+        "빌린",
+        "빌려주었다",
+        "빌려줬다",
+        "빌려주는",
+        "빌려준",
+        "빌려주기를",
+        "빌려주겠다고",
+        "빌려갔다",
+        "빌려 달라"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무언가를 빌리는 꿈을 꿈",
+          "interpretation_ko": "손실과 부족한 지원의 조짐",
+          "interpretation_en": "a sign of loss and meagre support",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Borrowing",
+              "original": "Borrowing is a sign of loss and meagre support.",
+              "translation_ko": "무언가를 빌리는 꿈은 손실과 부족한 지원의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "은행가가 다른 은행에서 돈을 빌리는 꿈을 꿈",
+          "interpretation_ko": "이 경고를 받아들이지 않으면 자기 은행에 예금 인출 사태가 일어나 파산 상태에 빠질 조짐",
+          "interpretation_en": "a sign that a run on his own will leave him in a state of collapse, unless he accepts this warning",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Borrowing",
+              "original": "For a banker to dream of borrowing from another bank,\na run on his own will leave him in a state of collapse,\nunless he accepts this warning.",
+              "translation_ko": "은행가가 다른 은행에서 돈을 빌리는 꿈을 꾸면, 이 경고를 받아들이지 않는 한 자기 은행에 예금 인출 사태가 일어나 파산 상태에 빠질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "다른 사람이 자신에게서 빌림",
+          "interpretation_ko": "필요한 때 도움을 받거나 제안받을 조짐이며 진실한 친구들이 함께할 조짐",
+          "interpretation_en": "a sign that help in time of need will be extended or offered you, and true friends will attend you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Borrowing",
+              "original": "If another borrows from you,\nhelp in time of need will be extended or offered you.\nTrue friends will attend you.",
+              "translation_ko": "다른 사람이 자신에게서 빌리면 필요한 때 도움을 받거나 제안받을 조짐이며 진실한 친구들이 함께할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 제게 빌려주겠다고 함",
+          "interpretation_ko": "살림이 넉넉해지고 가까운 사귐이 있을 길한 조짐",
+          "interpretation_en": "denotes prosperity and close friendships",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lending",
+              "original": "For others to offer to lend you articles, or money, denotes prosperity and close friendships.",
+              "translation_ko": "남이 제게 물건이나 돈을 빌려주겠다고 하면 살림이 넉넉해지고 가까운 사귐이 있다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 돈을 빌려줌",
+          "interpretation_ko": "빚을 갚기 어려워지고 가까운 사이가 언짢아질 흉한 조짐",
+          "interpretation_en": "foretells difficulties in meeting payments of debts and unpleasant influence in private",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lending",
+              "original": "To dream that you are lending money, foretells difficulties in meeting payments of debts and unpleasant influence in private.",
+              "translation_ko": "남에게 돈을 빌려주는 꿈을 꾸면 빚을 갚기 어려워지고 가까운 사이가 언짢아진다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 물건을 빌려줌",
+          "interpretation_ko": "너그럽게 굴다 살림이 여위어질 흉한 조짐",
+          "interpretation_en": "denotes impoverishment through generosity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lending",
+              "original": "To lend other articles, denotes impoverishment through generosity.",
+              "translation_ko": "남에게 물건을 빌려주면 너그럽게 굴다 살림이 여위어진다"
+            }
+          ]
+        },
+        {
+          "context": "빌려주기를 마다함",
+          "interpretation_ko": "제 이로움에 눈이 밝고 벗들의 믿음도 지킬 길한 조짐",
+          "interpretation_en": "you will be awake to your interests and keep the respect of friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lending",
+              "original": "To refuse to lend things, you will be awake to your interests and keep the respect of friends.",
+              "translation_ko": "빌려주기를 마다하면 제 이로움에 눈이 밝고 벗들의 믿음도 지킨다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bride",
       "term_ko": "신부",
       "term_en": "bride",
@@ -43178,6 +43308,81 @@
       ]
     },
     {
+      "id": "lemons",
+      "term_ko": "레몬",
+      "term_en": "lemons",
+      "aliases": [
+        "레몬을",
+        "레몬이",
+        "레몬나무"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "나무에 달린 레몬을 봄",
+          "interpretation_ko": "아끼는 이를 두고 시샘하나, 곧 그 의심이 터무니없음을 알게 될 조짐",
+          "interpretation_en": "denotes jealousy toward some beloved object, but demonstrations will convince you of the absurdity of the charge",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lemons",
+              "original": "To dream of seeing lemons on their native trees among rich foliage, denotes jealousy toward some beloved object, but demonstrations will convince you of the absurdity of the charge.",
+              "translation_ko": "잎이 우거진 나무에 달린 레몬을 보는 꿈은, 아끼는 이를 두고 시샘하나 곧 그 의심이 터무니없음을 알게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "레몬을 먹음",
+          "interpretation_ko": "부끄러움과 실망을 알리는 흉한 조짐",
+          "interpretation_en": "foretells humiliation and disappointments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lemons",
+              "original": "To eat lemons, foretells humiliation and disappointments.",
+              "translation_ko": "레몬을 먹으면 부끄러움과 실망이 있다"
+            }
+          ]
+        },
+        {
+          "context": "덜 익은 푸른 레몬을 봄",
+          "interpretation_ko": "병과 옮는 병을 뜻하는 흉한 조짐",
+          "interpretation_en": "denotes sickness and contagion",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lemons",
+              "original": "Green lemons, denotes sickness and contagion.",
+              "translation_ko": "덜 익은 푸른 레몬은 병과 옮는 병을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "쪼그라든 레몬을 봄",
+          "interpretation_ko": "혼인한 이에게는 갈라섬을, 정인에게는 헤어짐을 뜻하는 흉한 조짐",
+          "interpretation_en": "denotes divorce, if married, and separation, to lovers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lemons",
+              "original": "To see shriveled lemons, denotes divorce, if married, and separation, to lovers.",
+              "translation_ko": "쪼그라든 레몬을 보면 혼인한 이에게는 갈라섬을, 정인에게는 헤어짐을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "manure",
       "term_ko": "거름",
       "term_en": "manure",
@@ -46488,67 +46693,6 @@
               "locator": "Boots",
               "original": "Old and torn boots, indicate sickness and snares before you.",
               "translation_ko": "낡고 해진 부츠는 병과 함정이 앞에 있다는 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "borrowing",
-      "term_ko": "빌림",
-      "term_en": "borrowing",
-      "aliases": [
-        "빌려",
-        "대출",
-        "차용"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "무언가를 빌리는 꿈을 꿈",
-          "interpretation_ko": "손실과 부족한 지원의 조짐",
-          "interpretation_en": "a sign of loss and meagre support",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Borrowing",
-              "original": "Borrowing is a sign of loss and meagre support.",
-              "translation_ko": "무언가를 빌리는 꿈은 손실과 부족한 지원의 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "은행가가 다른 은행에서 돈을 빌리는 꿈을 꿈",
-          "interpretation_ko": "이 경고를 받아들이지 않으면 자기 은행에 예금 인출 사태가 일어나 파산 상태에 빠질 조짐",
-          "interpretation_en": "a sign that a run on his own will leave him in a state of collapse, unless he accepts this warning",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Borrowing",
-              "original": "For a banker to dream of borrowing from another bank,\na run on his own will leave him in a state of collapse,\nunless he accepts this warning.",
-              "translation_ko": "은행가가 다른 은행에서 돈을 빌리는 꿈을 꾸면, 이 경고를 받아들이지 않는 한 자기 은행에 예금 인출 사태가 일어나 파산 상태에 빠질 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "다른 사람이 자신에게서 빌림",
-          "interpretation_ko": "필요한 때 도움을 받거나 제안받을 조짐이며 진실한 친구들이 함께할 조짐",
-          "interpretation_en": "a sign that help in time of need will be extended or offered you, and true friends will attend you",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Borrowing",
-              "original": "If another borrows from you,\nhelp in time of need will be extended or offered you.\nTrue friends will attend you.",
-              "translation_ko": "다른 사람이 자신에게서 빌리면 필요한 때 도움을 받거나 제안받을 조짐이며 진실한 친구들이 함께할 조짐이다"
             }
           ]
         }
@@ -84683,6 +84827,38 @@
               "locator": "Legislature",
               "original": "To dream that you are a member of a legislature, foretells you will be vain of your possessions and will treat members of your family unkindly.",
               "translation_ko": "제가 국회의 한 사람이 되는 꿈을 꾸면, 가진 것을 뽐내고 집안 사람들을 모질게 대한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lemonade",
+      "term_ko": "레모네이드",
+      "term_en": "lemonade",
+      "aliases": [
+        "레몬수",
+        "레모네이드를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "레모네이드를 마심",
+          "interpretation_ko": "남의 즐거움을 위해 제 돈을 걷어 가는 인색한 자리에 남들과 함께 고개를 끄덕일 흉한 조짐",
+          "interpretation_en": "you will concur with others in signifying some entertainment as a niggardly device to raise funds for the personal enjoyment of others at your expense",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lemonade",
+              "original": "If you drink lemonade in a dream, you will concur with others in signifying some entertainment as a niggardly device to raise funds for the personal enjoyment of others at your expense.",
+              "translation_ko": "꿈에 레모네이드를 마시면, 남의 즐거움을 위해 제 돈을 걷어 가는 인색한 자리에 남들과 함께 고개를 끄덕이게 된다"
             }
           ]
         }

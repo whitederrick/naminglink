@@ -2111,6 +2111,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "borrowing::무언가를 빌리는 꿈을 꿈": "something object needed",
   "borrowing::은행가가 다른 은행에서 돈을 빌리는 꿈을 꿈": "bank banker money",
   "borrowing::다른 사람이 자신에게서 빌림": "lent someone else repay",
+  "borrowing::남에게 돈을 빌려줌": "lending difficulties payments debts unpleasant",
+  "borrowing::남에게 물건을 빌려줌": "articles impoverishment generosity",
+  "borrowing::빌려주기를 마다함": "refuse awake interests respect",
+  "borrowing::남이 제게 빌려주겠다고 함": "offer prosperity close friendships",
   "brain::자신의 뇌를 봄": "myself human mine",
   "brain::동물의 뇌를 봄": "animal beast cow pig",
   "brain::그것(동물의 뇌)을 먹음": "eating eaten swallowed tasted",
@@ -4024,5 +4028,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "legs::다리를 잘라 냄": "amputated valued unbearable",
   "legs::처녀가 제 다리를 뽐냄": "vanity repulsed",
   "legs::다리에 털이 많음": "hairy dominate husband",
-  "legs::제 다리가 깨끗하고 맵시 있음": "clean devoted future"
+  "legs::제 다리가 깨끗하고 맵시 있음": "clean devoted future",
+  "lemons::나무에 달린 레몬을 봄": "native trees foliage jealousy absurdity",
+  "lemons::레몬을 먹음": "eat humiliation disappointments",
+  "lemons::덜 익은 푸른 레몬을 봄": "green sickness contagion",
+  "lemons::쪼그라든 레몬을 봄": "shriveled divorce married separation"
 };

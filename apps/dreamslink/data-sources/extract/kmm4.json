@@ -473,7 +473,19 @@
     "aliases": [
       "빌려",
       "대출",
-      "차용"
+      "차용",
+      "빌렸다",
+      "빌려서",
+      "빌리는",
+      "빌린",
+      "빌려주었다",
+      "빌려줬다",
+      "빌려주는",
+      "빌려준",
+      "빌려주기를",
+      "빌려주겠다고",
+      "빌려갔다",
+      "빌려 달라"
     ],
     "aliases_en": [
       "borrow",
@@ -481,14 +493,22 @@
       "a loan"
     ],
     "contexts": {
-      "무언가를 빌리는 꿈을 꿈": "물건을 무언가 얻어",
-      "은행가가 다른 은행에서 돈을 빌리는 꿈을 꿈": "은행 은행가 돈을",
-      "다른 사람이 자신에게서 빌림": "다른사람이 남이 빌려갔 갚겠"
+      "무언가를 빌리는 꿈을 꿈": "무언가 얻어",
+      "은행가가 다른 은행에서 돈을 빌리는 꿈을 꿈": "은행 은행가",
+      "다른 사람이 자신에게서 빌림": "빌려갔 갚겠",
+      "남에게 돈을 빌려줌": "돈을",
+      "남에게 물건을 빌려줌": "물건을",
+      "빌려주기를 마다함": "마다 거절",
+      "남이 제게 빌려주겠다고 함": "주겠다고 준다고"
     },
     "contexts_en": {
       "무언가를 빌리는 꿈을 꿈": "something object needed",
       "은행가가 다른 은행에서 돈을 빌리는 꿈을 꿈": "bank banker money",
-      "다른 사람이 자신에게서 빌림": "lent someone else repay"
+      "다른 사람이 자신에게서 빌림": "lent someone else repay",
+      "남에게 돈을 빌려줌": "lending difficulties payments debts unpleasant",
+      "남에게 물건을 빌려줌": "articles impoverishment generosity",
+      "빌려주기를 마다함": "refuse awake interests respect",
+      "남이 제게 빌려주겠다고 함": "offer prosperity close friendships"
     }
   },
   {

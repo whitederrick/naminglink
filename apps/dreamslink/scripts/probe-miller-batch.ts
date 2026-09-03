@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 93 — Leeward~Legs, 14건)
+// (지금 담긴 것: 배치 94 — Lemonade~Lending, 12건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,20 +30,19 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "leeward", ctx: "바람을 등지고 배를 몰음", text: "바람을 등지고 배를 몰았다" },
-  { id: "legerdemain", ctx: "요술을 부리거나 남이 부리는 것을 봄", text: "누가 요술을 부리고 있었다" },
-  { id: "legislature", ctx: "제가 국회의 한 사람이 됨", text: "내가 국회의원이 되어 있었다" },
-  { id: "legs", ctx: "고운 여자의 다리를 흐뭇하게 봄", text: "고운 여자의 다리를 보고 있었다" },
-  { id: "legs", ctx: "볼품없는 다리를 봄", text: "볼품없는 다리를 보았다" },
-  { id: "legs", ctx: "다친 다리를 봄", text: "다친 다리를 보았다" },
-  { id: "legs", ctx: "제 다리가 나무다리임", text: "내 다리가 나무다리였다" },
-  { id: "legs", ctx: "다리에 헌데가 남", text: "다리에 헌데가 났다" },
-  { id: "legs", ctx: "다리가 셋 넘게 있음", text: "다리가 여럿 달려 있었다" },
-  { id: "legs", ctx: "다리를 쓰지 못함", text: "다리를 움직이지 못했다" },
-  { id: "legs", ctx: "다리를 잘라 냄", text: "다리를 잘라 냈다" },
-  { id: "legs", ctx: "처녀가 제 다리를 뽐냄", text: "제 다리를 뽐내고 있었다" },
-  { id: "legs", ctx: "다리에 털이 많음", text: "다리에 털이 많았다" },
-  { id: "legs", ctx: "제 다리가 깨끗하고 맵시 있음", text: "내 다리가 깨끗하고 맵시 있었다" },
+  { id: "lemonade", ctx: "레모네이드를 마심", text: "레모네이드를 마셨다" },
+  { id: "lemons", ctx: "나무에 달린 레몬을 봄", text: "나무에 달린 레몬을 보았다" },
+  { id: "lemons", ctx: "레몬을 먹음", text: "레몬을 먹었다" },
+  { id: "lemons", ctx: "덜 익은 푸른 레몬을 봄", text: "덜 익은 푸른 레몬을 보았다" },
+  { id: "lemons", ctx: "쪼그라든 레몬을 봄", text: "쪼그라든 레몬을 보았다" },
+  { id: "borrowing", ctx: "남이 제게 빌려주겠다고 함", text: "남이 나에게 돈을 빌려주겠다고 했다" },
+  { id: "borrowing", ctx: "남에게 돈을 빌려줌", text: "남에게 돈을 빌려주었다" },
+  { id: "borrowing", ctx: "남에게 물건을 빌려줌", text: "남에게 물건을 빌려주었다" },
+  { id: "borrowing", ctx: "빌려주기를 마다함", text: "빌려주기를 마다했다" },
+  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
+  { id: "borrowing", ctx: "무언가를 빌리는 꿈을 꿈", text: "무언가를 빌렸다" },
+  { id: "borrowing", ctx: "은행가가 다른 은행에서 돈을 빌리는 꿈을 꿈", text: "은행가가 다른 은행에서 돈을 빌렸다" },
+  { id: "borrowing", ctx: "다른 사람이 자신에게서 빌림", text: "누가 나에게서 빌려갔다" },
 ];
 
 let notFound = 0;
