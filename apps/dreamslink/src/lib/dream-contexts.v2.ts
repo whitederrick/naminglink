@@ -904,6 +904,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "prison::불이 밝혀진 지하 감옥을 봄": "lighted entanglements",
   "prison::지하 감옥에 갇혀 있음": "struggles disenthrall obstacles",
   "prison::감옥에서 빠져나옴": "escape favorable season",
+  "prison::남이 감옥에 있는 것을 봄": "others urged grant privileges unworthy",
+  "prison::정인이 감옥에 있는 것을 봄": "lover disappointed character deceiver",
+  "prison::무리가 옥문을 부수려 하는 것을 봄": "mob attempting forerunner extort bounties",
   "kitchen-stove::부뚜막 아래로 물이 흐름": "water flowing underneath wet",
   "kitchen-stove::부뚜막 아래에 불을 땜": "lighting firewood kindling fire",
   "kitchen-stove::부뚜막과 솥이 깨짐": "cauldron pot cracked broken",
@@ -3681,5 +3684,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ivory::큰 상아 덩이를 나르는 것을 봄": "huge pieces carried financial unalloyed",
   "ivy::나무나 집에 담쟁이가 자란 것을 봄": "growing trees houses excellent health increase",
   "ivy::달빛에 담벼락을 타고 오른 담쟁이를 봄": "clinging wall moonlight clandestine meetings",
-  "ivy::시든 담쟁이를 봄": "withered broken engagements sadness"
+  "ivy::시든 담쟁이를 봄": "withered broken engagements sadness",
+  "jackdaw::갈까마귀를 봄": "health quarrels",
+  "jackdaw::갈까마귀를 잡음": "catch outwit enemies",
+  "jackdaw::갈까마귀를 죽임": "kill possession disputed property",
+  "jam::잼을 먹음": "eating pure surprises journeys",
+  "jam::잼을 만듦": "making happy home appreciative",
+  "janitor::관리인을 봄": "bad management disobedient children",
+  "janitor::관리인을 찾다가 못 찾음": "look fail petty annoyances placid",
+  "janitor::관리인을 찾아냄": "find pleasant associations strangers hindrances",
+  "jasper::벽옥을 봄": "happy omen bringing success",
+  "jasper::처녀가 벽옥을 잃음": "young woman lose sign disagreement"
 };

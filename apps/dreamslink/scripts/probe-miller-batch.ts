@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 66 — Ironing~Ivy, 18건)
+// (지금 담긴 것: 배치 67 — Jackdaw~Jasper, 18건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,26 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "iron", ctx: "다림질을 함", text: "다림질을 하고 있었다" },
-  { id: "iron", ctx: "다림질하다 손을 뎀", text: "다림질하다 손을 데었다" },
-  { id: "iron", ctx: "다림질하다 옷을 눌어붙게 태움", text: "다림질하다 옷을 눌어붙게 태웠다" },
-  { id: "iron", ctx: "다리미가 너무 차가움", text: "다리미가 너무 차가웠다" },
-  { id: "island", ctx: "섬을 봄", text: "멀리 섬을 보았다" },
-  { id: "island", ctx: "맑은 냇물 가운데 섬에 있음", text: "맑은 시냇물 가운데 섬에 있었다" },
-  { id: "island", ctx: "메마른 섬을 봄", text: "메마른 섬을 보았다" },
-  { id: "island", ctx: "섬에 사람들이 있는 것을 봄", text: "섬에 사람들이 있었다" },
-  { id: "itch", ctx: "몸이 근질거림", text: "몸이 근질거렸다" },
-  { id: "itch", ctx: "가려움을 앓는 이를 피하려 함", text: "가려운 사람에게 닿지 않으려 애썼다" },
-  { id: "itch", ctx: "제가 가려움을 앓음", text: "내가 가려움을 앓고 있었다" },
-  { id: "itch", ctx: "처녀가 그런 꿈을 꿈", text: "처녀가 가려운 꿈을 꾸었다" },
-  { id: "ivory", ctx: "상아를 봄", text: "하얀 상아를 보았다" },
-  { id: "ivory", ctx: "큰 상아 덩이를 나르는 것을 봄", text: "커다란 상아 덩이를 나르는 것을 보았다" },
-  { id: "ivy", ctx: "나무나 집에 담쟁이가 자란 것을 봄", text: "집에 담쟁이가 자란 것을 보았다" },
-  { id: "ivy", ctx: "달빛에 담벼락을 타고 오른 담쟁이를 봄", text: "달빛에 담벼락을 타고 오른 담쟁이를 보았다" },
-  { id: "ivy", ctx: "시든 담쟁이를 봄", text: "시든 담쟁이를 보았다" },
+  { id: "jackdaw", ctx: "갈까마귀를 봄", text: "갈까마귀를 보았다" },
+  { id: "jackdaw", ctx: "갈까마귀를 잡음", text: "갈까마귀를 붙잡았다" },
+  { id: "jackdaw", ctx: "갈까마귀를 죽임", text: "갈까마귀를 죽였다" },
+  { id: "prison", ctx: "남이 감옥에 있는 것을 봄", text: "남이 감옥에 있는 것을 보았다" },
+  { id: "prison", ctx: "정인이 감옥에 있는 것을 봄", text: "애인이 감옥에 있었다" },
+  { id: "jailer", ctx: "간수를 봄", text: "간수를 보았다" },
+  { id: "prison", ctx: "무리가 옥문을 부수려 하는 것을 봄", text: "무리가 옥문을 부수려 했다" },
+  { id: "jam", ctx: "잼을 먹음", text: "잼을 발라 먹었다" },
+  { id: "jam", ctx: "잼을 만듦", text: "잼을 만들었다" },
+  { id: "janitor", ctx: "관리인을 봄", text: "관리인을 보았다" },
+  { id: "janitor", ctx: "관리인을 찾다가 못 찾음", text: "관리인을 찾지 못했다" },
+  { id: "janitor", ctx: "관리인을 찾아냄", text: "관리인을 찾아냈다" },
+  { id: "jasper", ctx: "벽옥을 봄", text: "벽옥을 보았다" },
+  { id: "jasper", ctx: "처녀가 벽옥을 잃음", text: "처녀가 벽옥을 잃었다" },
 
-  // 이 배치가 판별어 표를 채운 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "iron", ctx: "다리미에 불이 담겨 있음", text: "다리미에 숯불이 담겨 있었다" },
+  // 별칭 임자를 옮긴 자리 — **옛 답이 그대로인가**를 함께 잰다.
+  { id: "crow", ctx: "까마귀를 봄", text: "까마귀를 보았다" },
+  { id: "prison", ctx: "감옥에서 빠져나옴", text: "감옥에서 도망쳐 나왔다" },
+  { id: "prison", ctx: "여성이 지하 감옥에 갇혀 있음", text: "여자가 지하 감옥에 갇혀 있었다" },
+  { id: "prison", ctx: "남을 옥에 들여보냄", text: "남을 옥에 집어넣었다" },
+  { id: "prison", ctx: "옥에 갇혀 앉아 있음", text: "옥에 갇혀 앉아 있었다" },
 ];
 
 let notFound = 0;

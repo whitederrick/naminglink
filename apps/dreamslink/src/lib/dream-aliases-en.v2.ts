@@ -5808,5 +5808,21 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "ivy": [
     "ivy"
+  ],
+  "jackdaw": [
+    "a jackdaw",
+    "jackdaws"
+  ],
+  "jailer": [
+    "a jailer"
+  ],
+  "jam": [
+    "jam"
+  ],
+  "janitor": [
+    "a janitor"
+  ],
+  "jasper": [
+    "jasper"
   ]
 };

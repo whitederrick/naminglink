@@ -1,0 +1,98 @@
+[
+  {
+    "id": "jackdaw",
+    "aliases": [
+      "갈까마귀가",
+      "갈까마귀를"
+    ],
+    "aliases_en": [
+      "a jackdaw",
+      "jackdaws"
+    ],
+    "contexts": {
+      "갈까마귀를 봄": "보았다 보였다",
+      "갈까마귀를 잡음": "잡았 붙잡 사로잡",
+      "갈까마귀를 죽임": "죽였 잡아죽 때려"
+    },
+    "contexts_en": {
+      "갈까마귀를 봄": "health quarrels",
+      "갈까마귀를 잡음": "catch outwit enemies",
+      "갈까마귀를 죽임": "kill possession disputed property"
+    }
+  },
+  {
+    "id": "jailer",
+    "aliases": [
+      "간수가",
+      "간수를",
+      "옥지기",
+      "옥사장"
+    ],
+    "aliases_en": [
+      "a jailer"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "jam",
+    "aliases": [
+      "잼을",
+      "잼이",
+      "잼에",
+      "딸기잼"
+    ],
+    "aliases_en": [
+      "jam"
+    ],
+    "contexts": {
+      "잼을 먹음": "먹었 먹고 발라",
+      "잼을 만듦": "만들 졸였 조렸"
+    },
+    "contexts_en": {
+      "잼을 먹음": "eating pure surprises journeys",
+      "잼을 만듦": "making happy home appreciative"
+    }
+  },
+  {
+    "id": "janitor",
+    "aliases": [
+      "수위",
+      "건물 관리인",
+      "관리인이",
+      "관리인을"
+    ],
+    "aliases_en": [
+      "a janitor"
+    ],
+    "contexts": {
+      "관리인을 봄": "어지럽 어수선",
+      "관리인을 찾다가 못 찾음": "찾지 못했다 없었다",
+      "관리인을 찾아냄": "찾아냈 찾았다 만났다"
+    },
+    "contexts_en": {
+      "관리인을 봄": "bad management disobedient children",
+      "관리인을 찾다가 못 찾음": "look fail petty annoyances placid",
+      "관리인을 찾아냄": "find pleasant associations strangers hindrances"
+    }
+  },
+  {
+    "id": "jasper",
+    "aliases": [
+      "벽옥이",
+      "벽옥을",
+      "재스퍼"
+    ],
+    "aliases_en": [
+      "jasper"
+    ],
+    "contexts": {
+      "벽옥을 봄": "보았다 보였다",
+      "처녀가 벽옥을 잃음": "처녀 아가씨 잃었"
+    },
+    "contexts_en": {
+      "벽옥을 봄": "happy omen bringing success",
+      "처녀가 벽옥을 잃음": "young woman lose sign disagreement"
+    }
+  }
+]

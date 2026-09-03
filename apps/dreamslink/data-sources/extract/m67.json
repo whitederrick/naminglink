@@ -1,0 +1,212 @@
+[
+  {
+    "term_ko": "갈까마귀",
+    "term_en": "jackdaw",
+    "context": "갈까마귀를 봄",
+    "interpretation_ko": "몸이 상하고 다툼이 있을 흉한 조짐",
+    "interpretation_en": "denotes ill health and quarrels",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Jackdaw",
+      "original": "To see a jackdaw, denotes ill health and quarrels.",
+      "translation_ko": "갈까마귀를 보면 몸이 상하고 다툼이 있다"
+    }
+  },
+  {
+    "term_ko": "갈까마귀",
+    "term_en": "jackdaw",
+    "context": "갈까마귀를 잡음",
+    "interpretation_ko": "적을 꾀로 이길 길한 조짐",
+    "interpretation_en": "you will outwit enemies",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Jackdaw",
+      "original": "To catch one, you will outwit enemies.",
+      "translation_ko": "그것을 잡으면 적을 꾀로 이긴다"
+    }
+  },
+  {
+    "term_ko": "갈까마귀",
+    "term_en": "jackdaw",
+    "context": "갈까마귀를 죽임",
+    "interpretation_ko": "다투던 재산을 손에 넣을 길한 조짐",
+    "interpretation_en": "you will come into possession of disputed property",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Jackdaw",
+      "original": "To kill one, you will come into possession of disputed property.",
+      "translation_ko": "그것을 죽이면 다투던 재산을 손에 넣는다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "남이 감옥에 있는 것을 봄",
+    "interpretation_ko": "미덥지 못하다고 여기는 이에게 특별한 대접을 베풀라는 재촉을 받을 흉한 조짐",
+    "interpretation_en": "you will be urged to grant privileges to persons whom you believe to be unworthy",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Jail",
+      "original": "To see others in jail, you will be urged to grant privileges to persons whom you believe to be unworthy",
+      "translation_ko": "남이 감옥에 있는 것을 보면, 미덥지 못하다고 여기는 이에게 특별한 대접을 베풀라는 재촉을 받는다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "정인이 감옥에 있는 것을 봄",
+    "interpretation_ko": "그 사람됨에 실망하고 그가 속이는 자임이 드러날 흉한 조짐",
+    "interpretation_en": "she will be disappointed in his character, as he will prove a deceiver",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Jail",
+      "original": "For a young woman to dream that her lover is in jail, she will be disappointed in his character, as he will prove a deceiver.",
+      "translation_ko": "젊은 여성이 정인이 감옥에 있는 꿈을 꾸면, 그 사람됨에 실망하고 그가 속이는 자임이 드러난다"
+    }
+  },
+  {
+    "term_ko": "간수",
+    "term_en": "jailer",
+    "context": "간수를 봄",
+    "interpretation_ko": "배신이 하는 일을 어렵게 하고 나쁜 뜻을 품은 이에게 얽매일 흉한 조짐",
+    "interpretation_en": "denotes that treachery will embarrass your interests",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Jailer",
+      "original": "To see a jailer, denotes that treachery will embarrass your interests and evil women will enthrall you.",
+      "translation_ko": "간수를 보면 배신이 하는 일을 어렵게 하고 나쁜 뜻을 품은 이에게 얽매인다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "무리가 옥문을 부수려 하는 것을 봄",
+    "interpretation_ko": "궂은 일이 닥칠 앞짐이며, 모진 수로 돈과 값진 것을 뜯어 갈 흉한 조짐",
+    "interpretation_en": "is a forerunner of evil, and desperate measures will be used to extort money and bounties from you",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Jailer",
+      "original": "To see a mob attempting to break open a jail, is a forerunner of evil, and desperate measures will be used to extort money and bounties from you.",
+      "translation_ko": "무리가 옥문을 부수려 하는 것을 보면 궂은 일이 닥칠 조짐이며, 모진 수로 돈과 값진 것을 뜯어 간다"
+    }
+  },
+  {
+    "term_ko": "과일 잼",
+    "term_en": "jam",
+    "context": "잼을 먹음",
+    "interpretation_ko": "즐거운 뜻밖의 일과 길 떠남이 있을 길한 조짐",
+    "interpretation_en": "denotes pleasant surprises and journeys",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jam",
+      "original": "To dream of eating jam, if pure, denotes pleasant surprises and journeys.",
+      "translation_ko": "잼을 먹는 꿈은, 그것이 순수하다면 즐거운 뜻밖의 일과 여행을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "과일 잼",
+    "term_en": "jam",
+    "context": "잼을 만듦",
+    "interpretation_ko": "집안이 즐겁고 고마운 벗을 얻을 길한 조짐",
+    "interpretation_en": "foretells to a woman a happy home and appreciative friends",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jam",
+      "original": "To dream of making jam, foretells to a woman a happy home and appreciative friends.",
+      "translation_ko": "잼을 만드는 꿈은 여자에게 즐거운 집안과 고마운 벗들을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "관리인",
+    "term_en": "janitor",
+    "context": "관리인을 봄",
+    "interpretation_ko": "일이 어지럽게 굴러가고 아이들이 말을 안 들으며, 미덥지 못한 아랫사람이 성가시게 굴 흉한 조짐",
+    "interpretation_en": "denotes bad management and disobedient children; unworthy servants will annoy you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Janitor",
+      "original": "To dream of a janitor, denotes bad management and disobedient children.",
+      "translation_ko": "관리인 꿈은 어지러운 살림살이와 말 안 듣는 아이들을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "관리인",
+    "term_en": "janitor",
+    "context": "관리인을 찾다가 못 찾음",
+    "interpretation_ko": "자잘한 성가심이 잔잔하던 삶을 흔들 흉한 조짐",
+    "interpretation_en": "petty annoyances will disturb your otherwise placid existence",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Janitor",
+      "original": "To look for a janitor and fail to find him, petty annoyances will disturb your otherwise placid existence.",
+      "translation_ko": "관리인을 찾다가 못 찾으면 자잘한 성가심이 잔잔하던 삶을 흔든다"
+    }
+  },
+  {
+    "term_ko": "관리인",
+    "term_en": "janitor",
+    "context": "관리인을 찾아냄",
+    "interpretation_ko": "낯선 이들과 좋은 사이를 맺고 하는 일에 걸림이 없을 길한 조짐",
+    "interpretation_en": "you will have pleasant associations with strangers, and your affairs will have no hindrances",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Janitor",
+      "original": "If you find him, you will have pleasant associations with strangers, and your affairs will have no hindrances.",
+      "translation_ko": "그를 찾아내면 낯선 이들과 좋은 사이를 맺고 하는 일에 걸림이 없다"
+    }
+  },
+  {
+    "term_ko": "벽옥",
+    "term_en": "jasper",
+    "context": "벽옥을 봄",
+    "interpretation_ko": "일이 잘되고 사랑이 따를 길한 조짐",
+    "interpretation_en": "is a happy omen, bringing success and love",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jasper",
+      "original": "To dream of seeing jasper, is a happy omen, bringing success and love.",
+      "translation_ko": "벽옥을 보는 꿈은 성공과 사랑을 가져오는 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벽옥",
+    "term_en": "jasper",
+    "context": "처녀가 벽옥을 잃음",
+    "interpretation_ko": "정인과 뜻이 어긋날 흉한 조짐",
+    "interpretation_en": "is a sign of disagreement with her lover",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Jasper",
+      "original": "For a young woman to lose a jasper, is a sign of disagreement with her lover.",
+      "translation_ko": "젊은 여성이 벽옥을 잃으면 정인과 뜻이 어긋난다"
+    }
+  }
+]

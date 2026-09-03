@@ -161,7 +161,15 @@
       "교도소",
       "형무소",
       "빠져나왔다",
-      "탈옥"
+      "탈옥",
+      "옥에 갇혀",
+      "옥에 갇혔다",
+      "옥에 갇힌",
+      "옥에 들어갔다",
+      "옥에 들어가",
+      "옥에 집어넣었다",
+      "옥중",
+      "옥문"
     ],
     "aliases_en": [
       "jail",
@@ -181,7 +189,10 @@
       "여성이 지하 감옥에 갇혀 있음": "여자가 처녀가 여성이",
       "불이 밝혀진 지하 감옥을 봄": "밝혀진 환하 불빛이 밝은",
       "지하 감옥에 갇혀 있음": "지하 토굴 지하실",
-      "감옥에서 빠져나옴": "빠져나 도망 탈옥"
+      "감옥에서 빠져나옴": "빠져나 도망 탈옥",
+      "남이 감옥에 있는 것을 봄": "남이 남들이",
+      "정인이 감옥에 있는 것을 봄": "정인이 애인이 사랑하는",
+      "무리가 옥문을 부수려 하는 것을 봄": "무리가 떼거리 부수려"
     },
     "contexts_en": {
       "감옥이 무너짐": "collapsed crumbling ruined",
@@ -195,7 +206,10 @@
       "여성이 지하 감옥에 갇혀 있음": "woman indiscretion honorable",
       "불이 밝혀진 지하 감옥을 봄": "lighted entanglements",
       "지하 감옥에 갇혀 있음": "struggles disenthrall obstacles",
-      "감옥에서 빠져나옴": "escape favorable season"
+      "감옥에서 빠져나옴": "escape favorable season",
+      "남이 감옥에 있는 것을 봄": "others urged grant privileges unworthy",
+      "정인이 감옥에 있는 것을 봄": "lover disappointed character deceiver",
+      "무리가 옥문을 부수려 하는 것을 봄": "mob attempting forerunner extort bounties"
     }
   },
   {
