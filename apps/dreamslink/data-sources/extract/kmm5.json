@@ -367,7 +367,10 @@
       "극심한 아픔",
       "고뇌",
       "몸부림",
-      "괴로워함"
+      "괴로워함",
+      "아파하는",
+      "아파했다",
+      "아파하는 것을"
     ],
     "aliases_en": [
       "agonizing",
@@ -376,12 +379,16 @@
       "in agony"
     ],
     "contexts": {
-      "고통스러운 꿈을 꿈": "몸부림 신음 아파하",
-      "돈이나 재산을 잃어 고통스러워함": "돈을 재산을 잃어 손실"
+      "고통스러운 꿈을 꿈": "몸부림 신음 꿈꾸",
+      "돈이나 재산을 잃어 고통스러워함": "돈을 재산을 잃어 손실",
+      "제가 아파함": "부질없는 후회 하찮은",
+      "남이 아파하는 것을 봄": "남이 잘못을 저지르"
     },
     "contexts_en": {
       "고통스러운 꿈을 꿈": "writhing groaning pain",
-      "돈이나 재산을 잃어 고통스러워함": "money property lost losing"
+      "돈이나 재산을 잃어 고통스러워함": "money property lost losing",
+      "제가 아파함": "own unhappiness useless regrets trivial",
+      "남이 아파하는 것을 봄": "others warns mistakes life"
     }
   },
   {

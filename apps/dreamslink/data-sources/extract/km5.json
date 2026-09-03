@@ -397,7 +397,9 @@
       "들통",
       "두레박",
       "물동이",
-      "바께쓰"
+      "바께쓰",
+      "통을",
+      "통이"
     ],
     "aliases_en": [
       "buckets",
@@ -408,12 +410,16 @@
     "contexts": {
       "물통에 물이 가득 담김": "가득 넘치 채워 담겨",
       "물통이 비어 물이 없음": "비어 텅빈 말라 없었",
-      "남이 큰 물통을 보내옴": "보내 가져다 선물 커다란"
+      "남이 큰 물통을 보내옴": "보내 가져다 선물 커다란",
+      "젖이 가득한 통을 봄": "젖이 담긴 앞날이",
+      "처녀가 통을 나름": "처녀가 나르는 집안일"
     },
     "contexts_en": {
       "물통에 물이 가득 담김": "full filled brimming",
       "물통이 비어 물이 없음": "empty dry nothing",
-      "남이 큰 물통을 보내옴": "sent brought large"
+      "남이 큰 물통을 보내옴": "sent brought large",
+      "젖이 가득한 통을 봄": "pails milk fair prospects",
+      "처녀가 통을 나름": "young woman carrying household employment"
     }
   },
   {

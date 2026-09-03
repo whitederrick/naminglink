@@ -56,6 +56,7 @@
     "m146.json",
     "m147.json",
     "m148.json",
+    "m149.json",
     "m15.json",
     "m16.json",
     "m17.json",
@@ -35585,6 +35586,100 @@
       ]
     },
     {
+      "id": "bucket",
+      "term_ko": "물통",
+      "term_en": "bucket",
+      "aliases": [
+        "양동이",
+        "들통",
+        "두레박",
+        "물동이",
+        "바께쓰",
+        "통을",
+        "통이"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "물통에 물이 가득 담김",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "桶盛水者主大吉",
+              "translation_ko": "통에 물이 담기면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "젖이 가득한 통을 봄",
+          "interpretation_ko": "좋은 앞날과 즐거운 어울림이 있을 길조",
+          "interpretation_en": "to dream of full pails of milk, is a sign of fair prospects and pleasant associations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pail",
+              "original": "To dream of full pails of milk, is a sign of fair prospects and pleasant associations.",
+              "translation_ko": "젖이 가득한 통을 보는 꿈은, 좋은 앞날과 즐거운 어울림이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 통을 나름",
+          "interpretation_ko": "집안일을 맡게 될 조짐",
+          "interpretation_en": "for a young woman to be carrying a pail, denotes household employment",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pail",
+              "original": "For a young woman to be carrying a pail, denotes household employment.",
+              "translation_ko": "처녀가 통을 나르는 꿈은, 집안일을 맡게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "물통이 비어 물이 없음",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "桶無水者主大凶",
+              "translation_ko": "통에 물이 없으면 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "남이 큰 물통을 보내옴",
+          "interpretation_ko": "이익을 얻을 조짐",
+          "interpretation_en": "a sign of gaining profit",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "人送大桶主得利",
+              "translation_ko": "남이 큰 통을 보내오면 이익을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bugle",
       "term_ko": "나팔",
       "term_en": "bugle",
@@ -40267,6 +40362,190 @@
       ]
     },
     {
+      "id": "painting",
+      "term_ko": "그림",
+      "term_en": "painting",
+      "aliases": [
+        "그림이",
+        "그림을",
+        "페인트가",
+        "페인트를",
+        "페인트칠",
+        "페인트칠한",
+        "칠했다",
+        "그림들"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "새로 페인트칠한 집을 봄",
+          "interpretation_ko": "꾸민 계획이 성공할 길조",
+          "interpretation_en": "to see newly painted houses in dreams, foretells that you will succeed with some devised plan",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paint and Painting",
+              "original": "To see newly painted houses in dreams, foretells that you will succeed with some devised plan.",
+              "translation_ko": "새로 페인트칠한 집을 보는 꿈은, 꾸민 계획이 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "옷에 페인트가 묻음",
+          "interpretation_ko": "남의 무심한 비판으로 언짢을 흉조",
+          "interpretation_en": "to have paint on your clothing, you will be made unhappy by the thoughtless criticisms of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paint and Painting",
+              "original": "To have paint on your clothing, you will be made unhappy by the thoughtless criticisms of others.",
+              "translation_ko": "옷에 페인트가 묻는 꿈은, 남의 무심한 비판으로 언짢을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 붓을 쥐고 칠함",
+          "interpretation_ko": "지금 하는 일에 흡족할 길조",
+          "interpretation_en": "to dream that you use the brush yourself, denotes that you will be well pleased with your present occupation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paint and Painting",
+              "original": "To dream that you use the brush yourself, denotes that you will be well pleased with your present occupation.",
+              "translation_ko": "스스로 붓을 쥐고 칠하는 꿈은, 지금 하는 일에 흡족할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아름다운 그림들을 봄",
+          "interpretation_ko": "벗들이 거짓된 태도를 보이고 즐거움도 헛될 흉조",
+          "interpretation_en": "to dream of seeing beautiful paintings, denotes that friends will assume false positions towards you, and you will find that pleasure is illusive",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paint and Painting",
+              "original": "To dream of seeing beautiful paintings, denotes that friends will assume false positions towards you, and you will find that pleasure is illusive.",
+              "translation_ko": "아름다운 그림들을 보는 꿈은, 벗들이 거짓된 태도를 보이고 즐거움도 헛될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 그림을 그림",
+          "interpretation_ko": "정인이 마음을 다른 이에게 옮겨 속게 될 흉조",
+          "interpretation_en": "for a young woman to dream of painting a picture, she will be deceived in her lover, as he will transfer his love to another",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Paint and Painting",
+              "original": "For a young woman to dream of painting a picture, she will be deceived in her lover, as he will transfer his love to another.",
+              "translation_ko": "처녀가 그림을 그리는 꿈은, 정인이 마음을 다른 이에게 옮겨 속게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palace",
+      "term_ko": "궁궐",
+      "term_en": "palace",
+      "aliases": [
+        "대궐",
+        "궁전",
+        "왕궁"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "궁궐을 거닐며 웅장함에 감탄함",
+          "interpretation_ko": "앞날이 밝아지고 새로운 위엄을 갖추게 될 길조",
+          "interpretation_en": "wandering through a palace and noting its grandeur, signifies that your prospects are growing brighter and you will assume new dignity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palace",
+              "original": "Wandering through a palace and noting its grandeur, signifies that your prospects are growing brighter and you will assume new dignity.",
+              "translation_ko": "궁궐을 거닐며 그 웅장함에 감탄하는 꿈은, 앞날이 밝아지고 새로운 위엄을 갖추게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "신사 숙녀들이 춤추고 담소하는 것을 보고 들음",
+          "interpretation_ko": "이롭고 즐거운 어울림에 들게 될 길조",
+          "interpretation_en": "to see and hear fine ladies and men dancing and conversing, denotes that you will engage in profitable and pleasing associations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palace",
+              "original": "To see and hear fine ladies and men dancing and conversing, denotes that you will engage in profitable and pleasing associations.",
+              "translation_ko": "신사 숙녀들이 춤추고 담소하는 것을 보고 듣는 꿈은, 이롭고 즐거운 어울림에 들게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "형편이 넉넉지 않은 처녀가 잔치에 대등하게 낌",
+          "interpretation_ko": "혼인이나 친척의 후함으로 살림이 나아질 길조",
+          "interpretation_en": "for a young woman of moderate means to dream that she is a participant in the entertainment, and of equal social standing with others, is a sign of her advancement through marriage, or the generosity of relatives",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palace",
+              "original": "For a young woman of moderate means to dream that she is a participant in the entertainment, and of equal social standing with others, is a sign of her advancement through marriage, or the generosity of relatives.",
+              "translation_ko": "형편이 넉넉지 않은 처녀가 잔치에 남들과 대등하게 끼는 꿈은, 혼인이나 친척의 후함으로 살림이 나아질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "형편이 어려운 처녀에게 이 꿈이 속임수처럼 다가옴",
+          "interpretation_ko": "게으르고 헛된 몽상이 빚어낸 속기 쉬운 꿈이라는 흉조",
+          "interpretation_en": "this is often a very deceitful and misleading dream to the young woman of humble circumstances; as it is generally induced in such cases by the unhealthy day dreams of her idle, empty brain",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Palace",
+              "original": "This is often a very deceitful and misleading dream to the young woman of humble circumstances; as it is generally induced in such cases by the unhealthy day dreams of her idle, empty brain.",
+              "translation_ko": "형편이 어려운 처녀에게는 이 꿈이 자주 속임수처럼 다가온다. 게으르고 헛된 몽상이 빚어낸 것이기 때문이다"
+            }
+          ]
+        },
+        {
+          "context": "제왕의 궁궐에 들어감",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "入帝王宮行大吉",
+              "translation_ko": "제왕의 궁에 들어가 다니면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "plate",
       "term_ko": "접시",
       "term_en": "plate",
@@ -41366,6 +41645,85 @@
               "locator": "Enemy",
               "original": "For them to get the better of you is ominous of adverse fortunes.",
               "translation_ko": "그들이 나를 이기는 것은 운이 등을 돌림을 알리는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agony",
+      "term_ko": "고통",
+      "term_en": "agony",
+      "aliases": [
+        "극심한 아픔",
+        "고뇌",
+        "몸부림",
+        "괴로워함",
+        "아파하는",
+        "아파했다",
+        "아파하는 것을"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "고통스러운 꿈을 꿈",
+          "interpretation_ko": "어떤 이들이 믿게 하려는 것만큼 좋은 꿈은 아니며, 근심과 기쁨이 뒤섞이되 근심이 더 많음을 뜻하는 조짐",
+          "interpretation_en": "this is not as good a dream as some would wish you to believe; it portends worry and pleasure intermingled, more of the former than of the latter",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Agony",
+              "original": "This is not as good a dream, as some would wish you to believe. It portends worry and pleasure intermingled, more of the former than of the latter.",
+              "translation_ko": "어떤 이들이 믿게 하려는 것만큼 좋은 꿈은 아니다. 근심과 기쁨이 뒤섞이되 근심이 더 많음을 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제가 아파함",
+          "interpretation_ko": "부질없는 후회만 남을 흉조",
+          "interpretation_en": "to dream that you are in pain, will make sure of your own unhappiness; this dream foretells useless regrets over some trivial transaction",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pain",
+              "original": "To dream that you are in pain, will make sure of your own unhappiness. This dream foretells useless regrets over some trivial transaction.",
+              "translation_ko": "제가 아파하는 꿈은, 스스로 불행해질 것을 다짐하는 것과 같다. 하찮은 일에 부질없는 후회만 남을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 아파하는 것을 봄",
+          "interpretation_ko": "살아가며 잘못을 저지르고 있다는 경고",
+          "interpretation_en": "to see others in pain, warns you that you are making mistakes in your life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pain",
+              "original": "To see others in pain, warns you that you are making mistakes in your life.",
+              "translation_ko": "남이 아파하는 것을 보는 꿈은, 살아가며 잘못을 저지르고 있다는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "돈이나 재산을 잃어 고통스러워함",
+          "interpretation_ko": "불안한 상황이나 소중한 친척의 병 때문에 어지럽고 근거 없는 두려움에 시달릴 조짐",
+          "interpretation_en": "a sign that disturbing and imaginary fears will rack you over the critical condition of affairs, or the illness of some dear relative",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Agony",
+              "original": "To be in agony over the loss of money, or property, denotes that disturbing and imaginary fears will rack you over the critical condition of affairs, or the illness of some dear relative.",
+              "translation_ko": "돈이나 재산을 잃어 고통스러워하는 꿈을 꾸면 위태로운 상황이나 소중한 친척의 병 때문에 어지럽고 근거 없는 두려움에 시달릴 조짐이다"
             }
           ]
         }
@@ -54710,69 +55068,6 @@
       ]
     },
     {
-      "id": "bucket",
-      "term_ko": "물통",
-      "term_en": "bucket",
-      "aliases": [
-        "양동이",
-        "들통",
-        "두레박",
-        "물동이",
-        "바께쓰"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "물통에 물이 가득 담김",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "桶盛水者主大吉",
-              "translation_ko": "통에 물이 담기면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "물통이 비어 물이 없음",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "桶無水者主大凶",
-              "translation_ko": "통에 물이 없으면 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "남이 큰 물통을 보내옴",
-          "interpretation_ko": "이익을 얻을 조짐",
-          "interpretation_en": "a sign of gaining profit",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "人送大桶主得利",
-              "translation_ko": "남이 큰 통을 보내오면 이익을 얻는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "buddhist-temple",
       "term_ko": "절",
       "term_en": "buddhist temple",
@@ -67548,54 +67843,6 @@
               "locator": "Afternoon",
               "original": "A cloudy, rainy afternoon, implies disappointment and displeasure.",
               "translation_ko": "흐리고 비 오는 오후는 실망과 불쾌함을 뜻하는 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "agony",
-      "term_ko": "고통",
-      "term_en": "agony",
-      "aliases": [
-        "극심한 아픔",
-        "고뇌",
-        "몸부림",
-        "괴로워함"
-      ],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "고통스러운 꿈을 꿈",
-          "interpretation_ko": "어떤 이들이 믿게 하려는 것만큼 좋은 꿈은 아니며, 근심과 기쁨이 뒤섞이되 근심이 더 많음을 뜻하는 조짐",
-          "interpretation_en": "this is not as good a dream as some would wish you to believe; it portends worry and pleasure intermingled, more of the former than of the latter",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Agony",
-              "original": "This is not as good a dream, as some would wish you to believe. It portends worry and pleasure intermingled, more of the former than of the latter.",
-              "translation_ko": "어떤 이들이 믿게 하려는 것만큼 좋은 꿈은 아니다. 근심과 기쁨이 뒤섞이되 근심이 더 많음을 뜻하는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "돈이나 재산을 잃어 고통스러워함",
-          "interpretation_ko": "불안한 상황이나 소중한 친척의 병 때문에 어지럽고 근거 없는 두려움에 시달릴 조짐",
-          "interpretation_en": "a sign that disturbing and imaginary fears will rack you over the critical condition of affairs, or the illness of some dear relative",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Agony",
-              "original": "To be in agony over the loss of money, or property, denotes that disturbing and imaginary fears will rack you over the critical condition of affairs, or the illness of some dear relative.",
-              "translation_ko": "돈이나 재산을 잃어 고통스러워하는 꿈을 꾸면 위태로운 상황이나 소중한 친척의 병 때문에 어지럽고 근거 없는 두려움에 시달릴 조짐이다"
             }
           ]
         }
@@ -99864,33 +100111,32 @@
       ]
     },
     {
-      "id": "palace",
-      "term_ko": "궁궐",
-      "term_en": "palace",
+      "id": "palisade",
+      "term_ko": "말뚝 울타리",
+      "term_en": "palisade",
       "aliases": [
-        "대궐",
-        "궁전",
-        "왕궁"
+        "말뚝 울타리가",
+        "말뚝 울타리를"
       ],
-      "category": "place",
-      "polarity": "positive",
+      "category": "object",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "제왕의 궁궐에 들어감",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
+          "context": "말뚝 울타리 꿈을 꿈",
+          "interpretation_ko": "낯선 이를 기쁘게 하려 잘 세운 계획을 바꾸다 제 이익을 해칠 흉조",
+          "interpretation_en": "to dream of the palisades, denotes that you will alter well-formed plans to please strangers, and by so doing, you will impair your own interests",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "入帝王宮行大吉",
-              "translation_ko": "제왕의 궁에 들어가 다니면 크게 길하다"
+              "work": "miller",
+              "locator": "Palisade",
+              "original": "To dream of the palisades, denotes that you will alter well-formed plans to please strangers, and by so doing, you will impair your own interests.",
+              "translation_ko": "말뚝 울타리 꿈은, 낯선 이를 기쁘게 하려 잘 세운 계획을 바꾸다 제 이익을 해칠 조짐이다"
             }
           ]
         }

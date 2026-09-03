@@ -1069,8 +1069,20 @@
       "royal palace",
       "court"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "제왕의 궁궐에 들어감": "제왕 임금 들어감",
+      "궁궐을 거닐며 웅장함에 감탄함": "거닐며 웅장함 앞날이",
+      "신사 숙녀들이 춤추고 담소하는 것을 보고 들음": "신사 숙녀들이 춤추고",
+      "형편이 넉넉지 않은 처녀가 잔치에 대등하게 낌": "넉넉지 않은 잔치에",
+      "형편이 어려운 처녀에게 이 꿈이 속임수처럼 다가옴": "어려운 속임수처럼 헛된"
+    },
+    "contexts_en": {
+      "제왕의 궁궐에 들어감": "entering imperial",
+      "궁궐을 거닐며 웅장함에 감탄함": "wandering grandeur prospects dignity",
+      "신사 숙녀들이 춤추고 담소하는 것을 보고 들음": "fine ladies dancing conversing",
+      "형편이 넉넉지 않은 처녀가 잔치에 대등하게 낌": "moderate means participant advancement",
+      "형편이 어려운 처녀에게 이 꿈이 속임수처럼 다가옴": "humble deceitful misleading idle"
+    }
   },
   {
     "id": "qilin",

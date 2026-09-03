@@ -1,0 +1,42 @@
+{
+  "batch": 149,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pail",
+      "text": "To dream of full pails of milk, is a sign of fair prospects and pleasant associations. An empty pail is a sign of famine, or bad crops. For a young woman to be carrying a pail, denotes household employment.",
+      "note": "기존 상징 `bucket`(물통, 주공해몽)에 둘을 더한다. 「양동이」가 이미 그 상징의 별칭이다. 「빈 통은 흉작·굶주림의 조짐」은 뺐다 — 이미 있는 주공해몽 「통에 물이 없으면 크게 흉하다」(물통이 비어 물이 없음)와 같은 그림(빈 물통=흉조)이라 가를 수 없다"
+    },
+    {
+      "headword": "Pain",
+      "text": "To dream that you are in pain, will make sure of your own unhappiness. This dream foretells useless regrets over some trivial transaction. To see others in pain, warns you that you are making mistakes in your life.",
+      "note": "기존 상징 `agony`(고통, 밀러 `Agony`)에 둘을 더한다. Agony(「이 꿈은 근심과 기쁨이 섞임」)와는 각도가 달라 겹치지 않는다"
+    },
+    {
+      "headword": "Paint and Painting",
+      "text": "To see newly painted houses in dreams, foretells that you will succeed with some devised plan. To have paint on your clothing, you will be made unhappy by the thoughtless criticisms of others. To dream that you use the brush yourself, denotes that you will be well pleased with your present occupation. To dream of seeing beautiful paintings, denotes that friends will assume false positions towards you, and you will find that pleasure is illusive. For a young woman to dream of painting a picture, she will be deceived in her lover, as he will transfer his love to another.",
+      "note": "새 상징 `painting`(그림). 밀러가 페인트(도료)와 그림(회화)을 한 표제어로 묶었다"
+    },
+    {
+      "headword": "Palace",
+      "text": "Wandering through a palace and noting its grandeur, signifies that your prospects are growing brighter and you will assume new dignity. To see and hear fine ladies and men dancing and conversing, denotes that you will engage in profitable and pleasing associations. For a young woman of moderate means to dream that she is a participant in the entertainment, and of equal social standing with others, is a sign of her advancement through marriage, or the generosity of relatives. This is often a very deceitful and misleading dream to the young woman of humble circumstances; as it is generally induced in such cases by the unhealthy day dreams of her idle, empty brain. She should strive after this dream, to live by honest work, and restrain deceitful ambition by observing the fireside counsels of mother, and friends.",
+      "note": "기존 상징 `palace`(궁궐, 주공해몽)에 넷을 더한다. 「궁전」이 이미 그 상징의 별칭이다. 원문 자신이 「[145] See Opulence」라 적었다(배치 145와 이어지는 자리). 마지막 「어머니의 훈계를 새겨라」는 총평이라 안 넣었다"
+    },
+    {
+      "headword": "Palisade",
+      "text": "To dream of the palisades, denotes that you will alter well-formed plans to please strangers, and by so doing, you will impair your own interests.",
+      "note": "새 상징 `palisade`(말뚝 울타리)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "She should strive after this dream, to live by honest work, and restrain deceitful ambition by observing the fireside counsels of mother, and friends.",
+      "reason": "`Palace` — 구체적인 꿈의 그림이 없는 총평·조언이다"
+    },
+    {
+      "sentence": "An empty pail is a sign of famine, or bad crops.",
+      "reason": "`Pail` — 이미 있는 `bucket`의 「물통이 비어 물이 없음」(주공해몽 「桶無水者主大凶」)과 같은 그림(빈 물통=흉조)이라 가를 수 없다"
+    }
+  ]
+}
