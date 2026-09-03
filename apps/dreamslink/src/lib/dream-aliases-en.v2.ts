@@ -579,7 +579,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "plowing",
     "cultivating",
     "tilling",
-    "sowing"
+    "sowing",
+    "a plow",
+    "plows"
   ],
   "flute": [
     "flutes",

@@ -534,22 +534,38 @@
       "씨뿌리",
       "경작",
       "파종",
-      "농작"
+      "농작",
+      "쟁기가",
+      "쟁기를",
+      "쟁기",
+      "밭을 가는",
+      "밭 갈고",
+      "밭을 갈았다"
     ],
     "aliases_en": [
       "farm",
       "plowing",
       "cultivating",
       "tilling",
-      "sowing"
+      "sowing",
+      "a plow",
+      "plows"
     ],
     "contexts": {
       "산속에서 농사를 지음": "산속 산에서 산중 깊은",
-      "남에게 밭 갈고 씨 뿌리는 법을 가르침": "가르치 가르쳐 남에게 알려주"
+      "남에게 밭 갈고 씨 뿌리는 법을 가르침": "가르치 가르쳐 남에게 알려주",
+      "쟁기 꿈을 꿈": "쟁기",
+      "사람들이 밭을 가는 것을 봄": "사람들이",
+      "처녀가 애인이 밭을 가는 것을 봄": "애인이",
+      "제가 직접 밭을 갊": "제가 직접 스스로"
     },
     "contexts_en": {
       "산속에서 농사를 지음": "mountain mountains hills",
-      "남에게 밭 갈고 씨 뿌리는 법을 가르침": "teaching taught showed others"
+      "남에게 밭 갈고 씨 뿌리는 법을 가르침": "teaching taught showed others",
+      "쟁기 꿈을 꿈": "chanced",
+      "사람들이 밭을 가는 것을 봄": "persons advancement",
+      "처녀가 애인이 밭을 가는 것을 봄": "lover noble wealthy",
+      "제가 직접 밭을 갊": "yourself rapid increase"
     }
   },
   {
@@ -969,11 +985,13 @@
     ],
     "contexts": {
       "집안에 기쁜 일이 있음": "집안에 경사가",
-      "어떤 일로 기쁨을 느낌": "느꼈 벅찼 차올랐"
+      "어떤 일로 기쁨을 느낌": "느꼈 벅찼 차올랐",
+      "기쁨이나 즐거움을 누리는 꿈을 꿈": "이득 즐거움을 누리는"
     },
     "contexts_en": {
       "집안에 기쁜 일이 있음": "household auspicious",
-      "어떤 일로 기쁨을 느낌": "feel harmony among"
+      "어떤 일로 기쁨을 느낌": "feel harmony among",
+      "기쁨이나 즐거움을 누리는 꿈을 꿈": "gain personal enjoyment"
     }
   },
   {

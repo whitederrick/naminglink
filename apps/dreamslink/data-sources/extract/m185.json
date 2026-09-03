@@ -1,0 +1,107 @@
+[
+  {
+    "term_ko": "연극",
+    "term_en": "drama",
+    "context": "처녀가 연극에 감",
+    "interpretation_ko": "다정한 벗에게 구애받고, 앞날과 즐거움을 위해 혼인할 조짐",
+    "interpretation_en": "foretells that she will be courted by a genial friend, and will marry to further her prospects and pleasure seeking",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Play",
+      "original": "For a young woman to dream that she attends a play, foretells that she will be courted by a genial friend, and will marry to further her prospects and pleasure seeking.",
+      "translation_ko": "처녀가 연극에 가는 꿈은, 다정한 벗에게 구애받고 앞날과 즐거움을 위해 혼인할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연극",
+    "term_en": "drama",
+    "context": "연극을 오가는 데 곤란을 겪거나 어수선하고 흉한 장면을 봄",
+    "interpretation_ko": "달갑잖은 뜻밖의 일을 여럿 마주할 조짐",
+    "interpretation_en": "she will be confronted with many displeasing surprises",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Play",
+      "original": "If there is trouble in getting to and from the play, or discordant and hideous scenes, she will be confronted with many displeasing surprises.",
+      "translation_ko": "연극을 오가는 데 곤란을 겪거나 어수선하고 흉한 장면을 보는 꿈은, 달갑잖은 뜻밖의 일을 여럿 마주할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "기쁨",
+    "term_en": "joy",
+    "context": "기쁨이나 즐거움을 누리는 꿈을 꿈",
+    "interpretation_ko": "이득과 개인적인 즐거움을 뜻함",
+    "interpretation_en": "denotes gain and personal enjoyment",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pleasure",
+      "original": "To dream of pleasure, denotes gain and personal enjoyment.",
+      "translation_ko": "기쁨이나 즐거움을 누리는 꿈은, 이득과 개인적인 즐거움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "농사",
+    "term_en": "farming",
+    "context": "쟁기 꿈을 꿈",
+    "interpretation_ko": "남다른 성공을 뜻하며, 하는 일이 흡족하게 마무리될 조짐",
+    "interpretation_en": "signifies unusual success, and affairs will reach a pleasing culmination",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Plow",
+      "original": "To dream of a plow, signifies unusual success, and affairs will reach a pleasing culmination.",
+      "translation_ko": "쟁기 꿈은, 남다른 성공을 뜻하며 하는 일이 흡족하게 마무리될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "농사",
+    "term_en": "farming",
+    "context": "사람들이 밭을 가는 것을 봄",
+    "interpretation_ko": "활기와, 앎과 재산에서의 나아감을 뜻함",
+    "interpretation_en": "denotes activity and advancement in knowledge and fortune",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Plow",
+      "original": "To see persons plowing, denotes activity and advancement in knowledge and fortune.",
+      "translation_ko": "사람들이 밭을 가는 것을 보는 꿈은, 활기와 앎과 재산에서의 나아감을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "농사",
+    "term_en": "farming",
+    "context": "처녀가 애인이 밭을 가는 것을 봄",
+    "interpretation_ko": "고귀하고 부유한 남편을 얻어 깊고 오래갈 기쁨을 누릴 조짐",
+    "interpretation_en": "indicates that she will have a noble and wealthy husband. Her joys will be deep and lasting",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Plow",
+      "original": "For a young woman to see her lover plowing, indicates that she will have a noble and wealthy husband. Her joys will be deep and lasting.",
+      "translation_ko": "처녀가 애인이 밭을 가는 것을 보는 꿈은, 고귀하고 부유한 남편을 얻어 깊고 오래갈 기쁨을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "농사",
+    "term_en": "farming",
+    "context": "제가 직접 밭을 갊",
+    "interpretation_ko": "재산과 기쁨이 빠르게 늘어날 조짐",
+    "interpretation_en": "denotes rapid increase in property and joys",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Plow",
+      "original": "To plow yourself, denotes rapid increase in property and joys.",
+      "translation_ko": "제가 직접 밭을 가는 꿈은, 재산과 기쁨이 빠르게 늘어날 조짐이다"
+    }
+  }
+]

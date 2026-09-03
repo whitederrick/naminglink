@@ -150,12 +150,16 @@
     "contexts": {
       "연극을 봄": "관람 구경했",
       "연극이 지루함": "지루 따분 하품 재미없",
-      "연극을 씀": "썼다 쓰고 희곡 대본 극본"
+      "연극을 씀": "썼다 쓰고 희곡 대본 극본",
+      "처녀가 연극에 감": "다정한 벗에게 구애받",
+      "연극을 오가는 데 곤란을 겪거나 어수선하고 흉한 장면을 봄": "오가는 곤란 어수선 흉한"
     },
     "contexts_en": {
       "연극을 봄": "reunions distant",
       "연극이 지루함": "bored performance uncongenial companion",
-      "연극을 씀": "write writing distress debt"
+      "연극을 씀": "write writing distress debt",
+      "처녀가 연극에 감": "courted marry",
+      "연극을 오가는 데 곤란을 겪거나 어수선하고 흉한 장면을 봄": "trouble discordant hideous"
     }
   },
   {

@@ -96,6 +96,7 @@
     "m182.json",
     "m183.json",
     "m184.json",
+    "m185.json",
     "m19.json",
     "m2.json",
     "m20.json",
@@ -31451,6 +31452,118 @@
       "label_ko": "눈(眼)"
     },
     {
+      "id": "farming",
+      "term_ko": "농사",
+      "term_en": "farming",
+      "aliases": [
+        "밭갈이",
+        "씨뿌리",
+        "경작",
+        "파종",
+        "농작",
+        "쟁기가",
+        "쟁기를",
+        "쟁기",
+        "밭을 가는",
+        "밭 갈고",
+        "밭을 갈았다"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "쟁기 꿈을 꿈",
+          "interpretation_ko": "남다른 성공을 뜻하며, 하는 일이 흡족하게 마무리될 조짐",
+          "interpretation_en": "signifies unusual success, and affairs will reach a pleasing culmination",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plow",
+              "original": "To dream of a plow, signifies unusual success, and affairs will reach a pleasing culmination.",
+              "translation_ko": "쟁기 꿈은, 남다른 성공을 뜻하며 하는 일이 흡족하게 마무리될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "사람들이 밭을 가는 것을 봄",
+          "interpretation_ko": "활기와, 앎과 재산에서의 나아감을 뜻함",
+          "interpretation_en": "denotes activity and advancement in knowledge and fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plow",
+              "original": "To see persons plowing, denotes activity and advancement in knowledge and fortune.",
+              "translation_ko": "사람들이 밭을 가는 것을 보는 꿈은, 활기와 앎과 재산에서의 나아감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 애인이 밭을 가는 것을 봄",
+          "interpretation_ko": "고귀하고 부유한 남편을 얻어 깊고 오래갈 기쁨을 누릴 조짐",
+          "interpretation_en": "indicates that she will have a noble and wealthy husband. Her joys will be deep and lasting",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plow",
+              "original": "For a young woman to see her lover plowing, indicates that she will have a noble and wealthy husband. Her joys will be deep and lasting.",
+              "translation_ko": "처녀가 애인이 밭을 가는 것을 보는 꿈은, 고귀하고 부유한 남편을 얻어 깊고 오래갈 기쁨을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제가 직접 밭을 갊",
+          "interpretation_ko": "재산과 기쁨이 빠르게 늘어날 조짐",
+          "interpretation_en": "denotes rapid increase in property and joys",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Plow",
+              "original": "To plow yourself, denotes rapid increase in property and joys.",
+              "translation_ko": "제가 직접 밭을 가는 꿈은, 재산과 기쁨이 빠르게 늘어날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "산속에서 농사를 지음",
+          "interpretation_ko": "입고 먹을 것이 넉넉해질 조짐",
+          "interpretation_en": "a sign of abundant food and clothing",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "山中農稼衣食豐",
+              "translation_ko": "산속에서 농사를 지으면 입을 것과 먹을 것이 넉넉하다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 밭 갈고 씨 뿌리는 법을 가르침",
+          "interpretation_ko": "먼 길을 떠나게 될 조짐",
+          "interpretation_en": "a sign of a long journey ahead",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "教人耕種遠行至",
+              "translation_ko": "남에게 밭 갈고 씨 뿌리기를 가르치면 먼 길 갈 일이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "feather",
       "term_ko": "깃털",
       "term_en": "feather",
@@ -39409,6 +39522,93 @@
               "locator": "Judgment Day",
               "original": "If she sees the dead rising, and all the earth solemnly and fearfully awaiting the end, there will be much struggling for her, and her friends will refuse her aid.",
               "translation_ko": "죽은 이들이 일어나고 온 땅이 엄숙하고 두렵게 끝을 기다리는 것을 보면, 몹시 애쓰게 되나 벗들이 도움을 마다한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drama",
+      "term_ko": "연극",
+      "term_en": "drama",
+      "aliases": [
+        "무대극"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "연극을 봄",
+          "interpretation_ko": "멀리 있는 벗과 반갑게 다시 만날 조짐",
+          "interpretation_en": "pleasant reunions with distant friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Drama",
+              "original": "To see a drama, signifies pleasant reunions with distant friends.",
+              "translation_ko": "연극을 보는 꿈은, 멀리 있는 벗과 반갑게 다시 만남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 연극에 감",
+          "interpretation_ko": "다정한 벗에게 구애받고, 앞날과 즐거움을 위해 혼인할 조짐",
+          "interpretation_en": "foretells that she will be courted by a genial friend, and will marry to further her prospects and pleasure seeking",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Play",
+              "original": "For a young woman to dream that she attends a play, foretells that she will be courted by a genial friend, and will marry to further her prospects and pleasure seeking.",
+              "translation_ko": "처녀가 연극에 가는 꿈은, 다정한 벗에게 구애받고 앞날과 즐거움을 위해 혼인할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "연극을 오가는 데 곤란을 겪거나 어수선하고 흉한 장면을 봄",
+          "interpretation_ko": "달갑잖은 뜻밖의 일을 여럿 마주할 조짐",
+          "interpretation_en": "she will be confronted with many displeasing surprises",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Play",
+              "original": "If there is trouble in getting to and from the play, or discordant and hideous scenes, she will be confronted with many displeasing surprises.",
+              "translation_ko": "연극을 오가는 데 곤란을 겪거나 어수선하고 흉한 장면을 보는 꿈은, 달갑잖은 뜻밖의 일을 여럿 마주할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "연극이 지루함",
+          "interpretation_ko": "잔치나 은밀한 자리에서 마음에 안 맞는 이를 어쩔 수 없이 곁에 둘 조짐",
+          "interpretation_en": "you will be forced to accept an uncongenial companion at some entertainment or secret affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Drama",
+              "original": "To be bored with the performance of a drama, you will be forced to accept an uncongenial companion at some entertainment or secret affair.",
+              "translation_ko": "연극이 지루한 꿈은, 잔치나 은밀한 자리에서 마음에 안 맞는 이를 어쩔 수 없이 곁에 두게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "연극을 씀",
+          "interpretation_ko": "괴로움과 빚에 빠졌다가 기적처럼 헤어날 조짐",
+          "interpretation_en": "you will be plunged into distress and debt, to be extricated as if by a miracle",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Drama",
+              "original": "To write one, portends that you will be plunged into distress and debt, to be extricated as if by a miracle.",
+              "translation_ko": "연극을 쓰는 꿈은, 괴로움과 빚에 빠졌다가 기적처럼 헤어남을 알린다"
             }
           ]
         }
@@ -62537,65 +62737,6 @@
       ]
     },
     {
-      "id": "drama",
-      "term_ko": "연극",
-      "term_en": "drama",
-      "aliases": [
-        "무대극"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "연극을 봄",
-          "interpretation_ko": "멀리 있는 벗과 반갑게 다시 만날 조짐",
-          "interpretation_en": "pleasant reunions with distant friends",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Drama",
-              "original": "To see a drama, signifies pleasant reunions with distant friends.",
-              "translation_ko": "연극을 보는 꿈은, 멀리 있는 벗과 반갑게 다시 만남을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "연극이 지루함",
-          "interpretation_ko": "잔치나 은밀한 자리에서 마음에 안 맞는 이를 어쩔 수 없이 곁에 둘 조짐",
-          "interpretation_en": "you will be forced to accept an uncongenial companion at some entertainment or secret affair",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Drama",
-              "original": "To be bored with the performance of a drama, you will be forced to accept an uncongenial companion at some entertainment or secret affair.",
-              "translation_ko": "연극이 지루한 꿈은, 잔치나 은밀한 자리에서 마음에 안 맞는 이를 어쩔 수 없이 곁에 두게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "연극을 씀",
-          "interpretation_ko": "괴로움과 빚에 빠졌다가 기적처럼 헤어날 조짐",
-          "interpretation_en": "you will be plunged into distress and debt, to be extricated as if by a miracle",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Drama",
-              "original": "To write one, portends that you will be plunged into distress and debt, to be extricated as if by a miracle.",
-              "translation_ko": "연극을 쓰는 꿈은, 괴로움과 빚에 빠졌다가 기적처럼 헤어남을 알린다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "dust",
       "term_ko": "먼지",
       "term_en": "dust",
@@ -66301,6 +66442,69 @@
               "locator": "Jolly",
               "original": "If there comes the least rift in the merriment, worry will intermingle with the success of the future.",
               "translation_ko": "흥이 조금이라도 깨지면 앞으로 잘되는 가운데 근심이 섞여 든다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "joy",
+      "term_ko": "기쁨",
+      "term_en": "joy",
+      "aliases": [
+        "기쁜",
+        "기뻐",
+        "경사",
+        "즐거"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "어떤 일로 기쁨을 느낌",
+          "interpretation_ko": "벗들 사이가 두루 화목할 길한 조짐",
+          "interpretation_en": "denotes harmony among friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Joy",
+              "original": "To dream that you feel joy over any event, denotes harmony among friends.",
+              "translation_ko": "어떤 일로 기쁨을 느끼는 꿈은 벗들 사이의 화목을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "기쁨이나 즐거움을 누리는 꿈을 꿈",
+          "interpretation_ko": "이득과 개인적인 즐거움을 뜻함",
+          "interpretation_en": "denotes gain and personal enjoyment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pleasure",
+              "original": "To dream of pleasure, denotes gain and personal enjoyment.",
+              "translation_ko": "기쁨이나 즐거움을 누리는 꿈은, 이득과 개인적인 즐거움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "집안에 기쁜 일이 있음",
+          "interpretation_ko": "온갖 일이 길할 조짐",
+          "interpretation_en": "a sign that all matters will go well",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "家中歡喜百事吉",
+              "translation_ko": "집안이 기쁘면 온갖 일이 길하다"
             }
           ]
         }
@@ -84206,55 +84410,6 @@
       ]
     },
     {
-      "id": "farming",
-      "term_ko": "농사",
-      "term_en": "farming",
-      "aliases": [
-        "밭갈이",
-        "씨뿌리",
-        "경작",
-        "파종",
-        "농작"
-      ],
-      "category": "action",
-      "polarity": "neutral",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "산속에서 농사를 지음",
-          "interpretation_ko": "입고 먹을 것이 넉넉해질 조짐",
-          "interpretation_en": "a sign of abundant food and clothing",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "山中農稼衣食豐",
-              "translation_ko": "산속에서 농사를 지으면 입을 것과 먹을 것이 넉넉하다"
-            }
-          ]
-        },
-        {
-          "context": "남에게 밭 갈고 씨 뿌리는 법을 가르침",
-          "interpretation_ko": "먼 길을 떠나게 될 조짐",
-          "interpretation_en": "a sign of a long journey ahead",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "教人耕種遠行至",
-              "translation_ko": "남에게 밭 갈고 씨 뿌리기를 가르치면 먼 길 갈 일이 온다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "fates",
       "term_ko": "운명의 여신",
       "term_en": "fates",
@@ -88076,55 +88231,6 @@
               "locator": "Journeyman",
               "original": "For a woman, this dream brings pleasant trips, though unexpected ones.",
               "translation_ko": "여자에게 이 꿈은 뜻밖이기는 하나 즐거운 나들이를 가져온다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "joy",
-      "term_ko": "기쁨",
-      "term_en": "joy",
-      "aliases": [
-        "기쁜",
-        "기뻐",
-        "경사",
-        "즐거"
-      ],
-      "category": "action",
-      "polarity": "positive",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "어떤 일로 기쁨을 느낌",
-          "interpretation_ko": "벗들 사이가 두루 화목할 길한 조짐",
-          "interpretation_en": "denotes harmony among friends",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Joy",
-              "original": "To dream that you feel joy over any event, denotes harmony among friends.",
-              "translation_ko": "어떤 일로 기쁨을 느끼는 꿈은 벗들 사이의 화목을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "집안에 기쁜 일이 있음",
-          "interpretation_ko": "온갖 일이 길할 조짐",
-          "interpretation_en": "a sign that all matters will go well",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "家中歡喜百事吉",
-              "translation_ko": "집안이 기쁘면 온갖 일이 길하다"
             }
           ]
         }

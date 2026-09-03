@@ -1,0 +1,23 @@
+{
+  "batch": 185,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Play",
+      "text": "For a young woman to dream that she attends a play, foretells that she will be courted by a genial friend, and will marry to further her prospects and pleasure seeking. If there is trouble in getting to and from the play, or discordant and hideous scenes, she will be confronted with many displeasing surprises.",
+      "note": "기존 상징 `drama`(연극, 밀러 `Drama`)에 둘을 더한다. 각주 [161]은 「Theater 항목 참고」라는 지시일 뿐 내용이 아니라 옮기지 않는다"
+    },
+    {
+      "headword": "Pleasure",
+      "text": "To dream of pleasure, denotes gain and personal enjoyment.",
+      "note": "기존 상징 `joy`(기쁨, 주공해몽)에 하나를 더한다. 각주 [162]는 「Joy 항목 참고」라는 지시일 뿐 내용이 아니라 옮기지 않는다"
+    },
+    {
+      "headword": "Plow",
+      "text": "To dream of a plow, signifies unusual success, and affairs will reach a pleasing culmination. To see persons plowing, denotes activity and advancement in knowledge and fortune. For a young woman to see her lover plowing, indicates that she will have a noble and wealthy husband. Her joys will be deep and lasting. To plow yourself, denotes rapid increase in property and joys.",
+      "note": "기존 상징 `farming`(농사, 밀러 `Farming`)에 넷을 더한다 — 그 상징의 별칭에 이미 「plowing」·「밭갈이」가 있다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}
