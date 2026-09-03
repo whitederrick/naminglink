@@ -660,13 +660,15 @@
       "몸이 그물에 걸림": "걸렸 걸려 잡혔 갇혔",
       "그물이 몸을 덮어씌움": "덮어 씌워 뒤집어 덮쳤",
       "고기 그물을 봄": "고기 물고기 어망",
-      "찢어진 그물을 봄": "찢어진 해진 구멍"
+      "찢어진 그물을 봄": "찢어진 해진 구멍",
+      "그물로 무언가를 옭아 잡음": "옭아 잡았 옭아맸 낚아챘"
     },
     "contexts_en": {
       "몸이 그물에 걸림": "caught trapped tangled snared",
       "그물이 몸을 덮어씌움": "covered thrown draped",
       "고기 그물을 봄": "numerous small pleasures gains",
-      "찢어진 그물을 봄": "torn vexatious disappointments"
+      "찢어진 그물을 봄": "torn vexatious disappointments",
+      "그물로 무언가를 옭아 잡음": "ensnaring unscrupulous dealings deportment"
     }
   },
   {
@@ -1103,8 +1105,22 @@
       "sewing needle",
       "pin"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "바늘을 얻음": "얻었 얻어 생겼",
+      "바늘을 씀": "썼다 사용했 바느질했",
+      "바늘에 실을 뀀": "실을 꿰었 실을 꿰는",
+      "바늘을 찾음": "찾고 있는 찾다가 찾으려",
+      "바늘을 찾아냄": "찾아냈 발견했",
+      "바늘이 부러짐": "부러졌 부러뜨렸"
+    },
+    "contexts_en": {
+      "바늘을 얻음": "obtained mirrors bracelets combs",
+      "바늘을 씀": "warning affliction loss sympathy",
+      "바늘에 실을 뀀": "threading burdened care household",
+      "바늘을 찾음": "looking useless worries",
+      "바늘을 찾아냄": "find friends appreciate",
+      "바늘이 부러짐": "break loneliness poverty"
+    }
   },
   {
     "id": "pardon",

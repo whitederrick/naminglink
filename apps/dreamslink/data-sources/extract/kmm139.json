@@ -1,0 +1,174 @@
+[
+  {
+    "id": "navy",
+    "aliases": [
+      "해군이",
+      "해군을"
+    ],
+    "aliases_en": [
+      "the navy"
+    ],
+    "contexts": {
+      "해군을 봄": "장애물과 싸워 이기 뱃길 나들이 여행",
+      "해군을 보며 놀라거나 당황함": "놀랐 당황했",
+      "낡고 초라한 해군을 봄": "낡고 초라한 낡은"
+    },
+    "contexts_en": {
+      "해군을 봄": "victorious struggles obstacles voyages tours recreation",
+      "해군을 보며 놀라거나 당황함": "frightened disconcerted",
+      "낡고 초라한 해군을 봄": "dilapidated unfortunate friendships"
+    }
+  },
+  {
+    "id": "nearsighted",
+    "aliases": [
+      "근시가",
+      "근시라서",
+      "근시인",
+      "근시였다",
+      "근시라는"
+    ],
+    "aliases_en": [
+      "shortsighted"
+    ],
+    "contexts": {
+      "제가 근시임을 봄": "제가 나는 내가",
+      "애인이 근시임을 봄": "애인이 연인이 남자친구 여자친구"
+    },
+    "contexts_en": {
+      "제가 근시임을 봄": "embarrassing failure unwelcome visits",
+      "애인이 근시임을 봄": "sweetheart disappoint"
+    }
+  },
+  {
+    "id": "neck",
+    "aliases": [
+      "목이",
+      "목을",
+      "목에"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "제 목을 봄": "집안일이 사업에 끼어",
+      "남의 목을 감탄하며 봄": "남의 다른 사람의 감탄",
+      "여성이 제 목이 굵음을 봄": "굵은 굵어 여성이 여자가"
+    },
+    "contexts_en": {
+      "제 목을 봄": "own vexatious family relations",
+      "남의 목을 감탄하며 봄": "admire another worldly mindedness",
+      "여성이 제 목이 굵음을 봄": "thick woman querulous shrew"
+    }
+  },
+  {
+    "id": "necklace",
+    "aliases": [
+      "목걸이가",
+      "목걸이를",
+      "목걸이는"
+    ],
+    "aliases_en": [
+      "necklaces"
+    ],
+    "contexts": {
+      "여성이 목걸이를 받음": "받는 받았 선물로",
+      "목걸이를 잃어버림": "잃어버렸 잃어버린 잃었"
+    },
+    "contexts_en": {
+      "여성이 목걸이를 받음": "receiving loving husband beautiful home",
+      "목걸이를 잃어버림": "lose bereavement"
+    }
+  },
+  {
+    "id": "necromancer",
+    "aliases": [
+      "강신술사가",
+      "강신술사를",
+      "영매"
+    ],
+    "aliases_en": [
+      "necromancy"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "neighbor",
+    "aliases": [
+      "이웃이",
+      "이웃을",
+      "이웃집"
+    ],
+    "aliases_en": [
+      "neighbors"
+    ],
+    "contexts": {
+      "이웃을 봄": "이웃을 이웃들",
+      "이웃이 슬퍼하거나 성난 모습임": "슬퍼하 성난 화난"
+    },
+    "contexts_en": {
+      "이웃을 봄": "profitable hours strife gossip",
+      "이웃이 슬퍼하거나 성난 모습임": "sad angry dissensions quarrels"
+    }
+  },
+  {
+    "id": "nephew",
+    "aliases": [
+      "조카가",
+      "조카를"
+    ],
+    "aliases_en": [
+      "nephews"
+    ],
+    "contexts": {
+      "잘생기고 볼품 있는 조카를 봄": "잘생긴 멋진 훤칠한",
+      "볼품없는 조카를 봄": "볼품없 못생긴 초라한"
+    },
+    "contexts_en": {
+      "잘생기고 볼품 있는 조카를 봄": "handsome well looking pleasing competency",
+      "볼품없는 조카를 봄": "disappointment discomfort"
+    }
+  },
+  {
+    "id": "nettles",
+    "aliases": [
+      "쐐기풀이",
+      "쐐기풀을"
+    ],
+    "aliases_en": [
+      "nettle"
+    ],
+    "contexts": {
+      "쐐기풀을 봄": "형편이 팍팍 말썽 거역",
+      "쐐기풀 사이를 쏘이지 않고 걸음": "쏘이지 않고 걸었",
+      "쐐기풀에 쏘임": "쏘였 쏘이면",
+      "처녀가 쐐기풀 사이를 지나감": "처녀가 청혼 여러 남자"
+    },
+    "contexts_en": {
+      "쐐기풀을 봄": "stringent circumstances disobedience children servants",
+      "쐐기풀 사이를 쏘이지 않고 걸음": "walk among prosperous fortunate",
+      "쐐기풀에 쏘임": "stung discontented unhappy",
+      "처녀가 쐐기풀 사이를 지나감": "young woman marriage anxious foreboding"
+    }
+  },
+  {
+    "id": "newspaper",
+    "aliases": [
+      "신문이",
+      "신문을",
+      "신문지"
+    ],
+    "aliases_en": [
+      "newspapers"
+    ],
+    "contexts": {
+      "신문을 봄": "속임수 평판이 거래에서",
+      "신문을 찍어냄": "찍어냈 인쇄했 발행했",
+      "신문을 읽으려다 못 읽음": "읽으려다 읽지 못했"
+    },
+    "contexts_en": {
+      "신문을 봄": "frauds detected dealings reputation",
+      "신문을 찍어냄": "print foreign journeys friends",
+      "신문을 읽으려다 못 읽음": "trying failing uncertain enterprise"
+    }
+  }
+]

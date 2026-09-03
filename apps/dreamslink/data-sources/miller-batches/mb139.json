@@ -1,0 +1,99 @@
+{
+  "batch": 139,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Navy",
+      "text": "To dream of the navy, denotes victorious struggles with unsightly obstacles, and the promise of voyages and tours of recreation. If in your dream you seem frightened or disconcerted, you will have strange obstacles to overcome before you reach fortune. A dilapidated navy is an indication of unfortunate friendships in business or love.",
+      "note": "새 상징 `navy`(해군). 「[133] See Gunboat」는 참조일 뿐 본문에 실제 내용이 있다. `함대`(fleet, 배치 미상의 기존 상징)와는 다른 그림(장애물과 싸워 이김·여행·낡은 함대=불운한 벗)이라 겹치지 않는다 — 「함대」는 이미 `fleet` 의 별칭이라 쓰지 않았다"
+    },
+    {
+      "headword": "Nearsighted",
+      "text": "To dream that you are nearsighted, signifies embarrassing failure and unexpected visits from unwelcome persons. For a young woman, this dream foretells unexpected rivalry. To dream that your sweetheart is nearsighted, denotes that she will disappoint you.",
+      "note": "새 상징 `nearsighted`(근시). 처녀 갈래(「뜻밖의 경쟁」)는 일반 진술(「낯 뜨거운 실패」)과 **성별만 다른 구분**이라 뺐다(§30 곁가지 「여성이~」 규칙)"
+    },
+    {
+      "headword": "Neck",
+      "text": "To dream that you see your own neck, foretells that vexatious family relations will interfere with your business. To admire the neck of another, signifies your worldly mindedness will cause broken domestic ties. For a woman to dream that her neck is thick, foretells that she will become querulous and something of a shrew if she fails to control her temper.",
+      "note": "새 상징 `neck`(목, 한 글자). 기존 1글자 상징(손·발·귀·눈 등)과 같은 규칙 — 별칭은 「목이」·「목을」·「목에」로 조사째 올렸다"
+    },
+    {
+      "headword": "Necklace",
+      "text": "For a woman to dream of receiving a necklace, omens for her a loving husband and a beautiful home. To lose a necklace, she will early feel the heavy hand of bereavement.",
+      "note": "새 상징 `necklace`(목걸이). 「구슬 목걸이」(beads)·「로켓 목걸이」(locket)·「금목걸이」(gold-ornament)가 이미 「목걸이」를 품고 있으나 전부 수식어가 붙은 특정 목걸이라 겹치지 않는다(§29 곁가지 「품음」 판정 — 앞이 한글이면 막히고, 뒤가 공백이면 함께 걸려도 옳다)"
+    },
+    {
+      "headword": "Necromancer",
+      "text": "To dream of a necromancer and his arts, denotes that you are threatened with strange acquaintances who will influence you for evil.",
+      "note": "새 상징 `necromancer`(강신술사). 「[134] See Hypnotist」가 붙어 있으나 `Hypnotist` 표제어는 이 사전에 없다(H 구간에서 처리된 적이 없다 — `Crowd` 속에 묻힌 최면술사 문장 하나만 있었고 그것도 안 뽑혔다). 최면(`conjuring`)과는 「낯선 이의 나쁜 영향」 대 「최면으로 남을 부림」으로 그림이 달라 겹치지 않는다"
+    },
+    {
+      "headword": "Needle",
+      "text": "To use a needle in your dream, is a warning of approaching affliction, in which you will suffer keenly the loss of sympathy, which is rightfully yours. To dream of threading a needle, denotes that you will be burdened with the care of others than your own household. To look for a needle, foretells useless worries. To find a needle, foretells that you will have friends who will appreciate you. To break one, signifies loneliness and poverty.",
+      "note": "기존 상징 `needle`(바늘)에 다섯을 더한다. 기존 의미(「바늘을 얻음」, 주공해몽)는 **판별어 표가 비어 있었다**(의미가 하나뿐이던 상징, 열아홉 번째) — 이번에 채웠다. 「찾음」/「찾아냄」은 어간이 아니라 「찾고 있」/「찾아냈」으로 갈라 활용형이 부딪치지 않게 했다"
+    },
+    {
+      "headword": "Neighbor",
+      "text": "To see your neighbors in your dreams, denotes many profitable hours will be lost in useless strife and gossip. If they appear sad, or angry, it foretells dissensions and quarrels.",
+      "note": "새 상징 `neighbor`(이웃)"
+    },
+    {
+      "headword": "Nephew",
+      "text": "To dream of your nephew, denotes you are soon to come into a pleasing competency, if he is handsome and well looking; otherwise, there will be disappointment and discomfort for you.",
+      "note": "새 상징 `nephew`(조카)"
+    },
+    {
+      "headword": "Nest",
+      "text": "To dream of seeing birds' nests, denotes that you will be interested in an enterprise which will be prosperous. For a young woman, this dream foretells change of abode. To see an empty nest, indicates sorrow through the absence of a friend. Hens' nests, foretells that you will be interested in domesticities, and children will be cheerful and obedient. To dream of a nest filled with broken or bad eggs, portends disappointments and failure.",
+      "note": "기존 상징 `bird-s-nest`(새 둥지)에 셋을 더한다(원문 자신이 「[136] See Birds' Nest」로 그 상징을 가리킨다). 「빈 둥지」 문장은 **뺐다** — 이미 있는 `Bird's Nest`(다른 표제어)의 「빈 새 둥지를 봄」과 같은 그림(§31 곁가지). 「처녀는 이사」 변주도 성별만 다른 구분이라 뺐다"
+    },
+    {
+      "headword": "Nets",
+      "text": "To dream of ensnaring anything with a net, denotes that you will be unscrupulous in your dealings and deportment with others. To dream of an old or torn net, denotes that your property has mortgages, or attachments, which will cause you trouble.",
+      "note": "기존 상징 `net`(그물)에 하나를 더한다. 「낡거나 찢어진 그물」 문장은 **뺐다** — 이미 있는 `Fish-net`(다른 표제어)의 「찢어진 그물을 봄」과 같은 그림이라 판별어로 가를 수 없다"
+    },
+    {
+      "headword": "Nettles",
+      "text": "If in your dreams you walk among nettles without being stung, you will be prosperous. To be stung by them, you will be discontented with yourself and make others unhappy. For a young woman to dream of passing through nettles, foretells that she will be offered marriage by different men, and her decision will fill her with anxious foreboding. To dream of nettles, is portentous of stringent circumstances and disobedience from children or servants."
+      ,"note": "새 상징 `nettles`(쐐기풀). 가장 넓은 진술(「쐐기풀 꿈은 형편이 팍팍해짐」)을 첫째로 두어 기본값으로 삼았다"
+    },
+    {
+      "headword": "News",
+      "text": "To hear good news in a dream, denotes that you will be fortunate in affairs, and have harmonious companions; but if the news be bad, contrary conditions will exist.",
+      "note": "기존 상징 `message`(기별)에 둘을 더한다. 「소식」이 이미 그 상징의 별칭이라 새 상징을 세우지 않았다(§25 곁가지)"
+    },
+    {
+      "headword": "Newspaper",
+      "text": "To dream of newspapers, denotes that frauds will be detected in your dealings, and your reputation will likewise be affected. To print a newspaper, you will have opportunities of making foreign journeys and friends. Trying, but failing to read a newspaper, denotes that you will fail in some uncertain enterprise.",
+      "note": "새 상징 `newspaper`(신문). `advertisement` 의 「신문 광고」와 「신문」이 겹치지만 뒤가 공백이라 둘 다 걸려도 옳다(신문 광고도 신문의 일부)"
+    }
+  ],
+  "skipped": [
+    {
+      "headword": "Need",
+      "reason": "**이미 있는 `adversity`(Miller `Adversity`)와 같은 그림이다** — 둘 다 「자신이 처함」·「남이 처한 것을 봄」의 같은 얼개이고, 「궁핍」은 이미 `adversity`·`poverty` 둘의 별칭이라 새 상징에 쓸 한국어 낱말이 없다(§25 곁가지 「이용자가 칠 말이 있나」)"
+    },
+    {
+      "headword": "Negro",
+      "reason": "**그림 자체가 비하다**(§31) — 한 인종이 나타나는 것을 두고 「호감·연적·불화·의심」을 점친다. `Gypsy`(42)·`Jew`(69)·`Mulatto`(135)와 같은 자리다. 비하를 빼면 남는 꿈이 없다"
+    }
+  ],
+  "skipped_sentences": [
+    {
+      "sentence": "For a young woman, this dream foretells unexpected rivalry.",
+      "reason": "`Nearsighted` — 일반 진술과 성별만 다른 구분이라 판별어로 가를 수 없다(§30 곁가지)"
+    },
+    {
+      "sentence": "For a young woman, this dream foretells change of abode.",
+      "reason": "`Nest` — 「새 둥지를 봄」과 성별만 다른 구분이라 뺐다"
+    },
+    {
+      "sentence": "To see an empty nest, indicates sorrow through the absence of a friend.",
+      "reason": "`Nest` — 이미 있는 `Bird's Nest`(다른 표제어)의 「빈 새 둥지를 봄」과 같은 그림(§31 곁가지)"
+    },
+    {
+      "sentence": "To dream of an old or torn net, denotes that your property has mortgages, or attachments, which will cause you trouble.",
+      "reason": "`Nets` — 이미 있는 `Fish-net`(다른 표제어)의 「찢어진 그물을 봄」과 같은 그림이라 판별어로 가를 수 없다"
+    }
+  ]
+}

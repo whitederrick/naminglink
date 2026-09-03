@@ -201,16 +201,22 @@
       "birds nest"
     ],
     "contexts": {
-      "빈 새 둥지를 봄": "텅빈 비어있 아무것도",
+      "빈 새 둥지를 봄": "텅빈 비어있 비어 아무것도",
       "둥지 안에 알이 있음": "알이 알들 알을 계란",
       "둥지 안에 새끼가 있음": "새끼가 어린새 부화한",
-      "둥지 속 새끼들이 외롭고 버려져 있음": "버려 외롭 홀로 어미없"
+      "둥지 속 새끼들이 외롭고 버려져 있음": "버려 외롭 홀로 어미없",
+      "새 둥지를 봄": "번창할 사업에 마음이 끌렸",
+      "암탉이 둥지를 틈": "암탉이 닭이 닭의",
+      "둥지 안에 깨지거나 상한 알이 있음": "깨진 상한 썩은"
     },
     "contexts_en": {
       "빈 새 둥지를 봄": "empty deserted bare",
       "둥지 안에 알이 있음": "eggs egg",
       "둥지 안에 새끼가 있음": "chicks fledglings hatched young",
-      "둥지 속 새끼들이 외롭고 버려져 있음": "abandoned lonely forsaken alone"
+      "둥지 속 새끼들이 외롭고 버려져 있음": "abandoned lonely forsaken alone",
+      "새 둥지를 봄": "seeing prosperous enterprise interested",
+      "암탉이 둥지를 틈": "hens domesticities cheerful obedient",
+      "둥지 안에 깨지거나 상한 알이 있음": "broken bad disappointments failure"
     }
   },
   {

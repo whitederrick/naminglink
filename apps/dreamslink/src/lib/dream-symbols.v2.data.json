@@ -45,6 +45,7 @@
     "m136.json",
     "m137.json",
     "m138.json",
+    "m139.json",
     "m14.json",
     "m15.json",
     "m16.json",
@@ -24364,6 +24365,124 @@
       ]
     },
     {
+      "id": "bird-s-nest",
+      "term_ko": "새 둥지",
+      "term_en": "bird's nest",
+      "aliases": [
+        "둥지",
+        "새집",
+        "보금자리",
+        "새 둥우리"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "새 둥지를 봄",
+          "interpretation_ko": "번창할 사업에 마음이 끌릴 길조",
+          "interpretation_en": "denotes that you will be interested in an enterprise which will be prosperous",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nest",
+              "original": "To dream of seeing birds' nests, denotes that you will be interested in an enterprise which will be prosperous.",
+              "translation_ko": "꿈에 새 둥지를 보면 번창할 사업에 마음이 끌릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "암탉이 둥지를 틈",
+          "interpretation_ko": "집안일에 마음이 끌리고 자식들이 명랑하고 순할 길조",
+          "interpretation_en": "foretells that you will be interested in domesticities, and children will be cheerful and obedient",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nest",
+              "original": "Hens' nests, foretells that you will be interested in domesticities, and children will be cheerful and obedient.",
+              "translation_ko": "암탉이 둥지를 튼 꿈은 집안일에 마음이 끌리고 자식들이 명랑하고 순할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "둥지 안에 깨지거나 상한 알이 있음",
+          "interpretation_ko": "낙담과 실패를 겪을 흉조",
+          "interpretation_en": "portends disappointments and failure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nest",
+              "original": "To dream of a nest filled with broken or bad eggs, portends disappointments and failure.",
+              "translation_ko": "둥지 안에 깨지거나 상한 알이 있는 꿈은 낙담과 실패를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "빈 새 둥지를 봄",
+          "interpretation_ko": "사업 전망이 어둡고 우울할 조짐",
+          "interpretation_en": "a sign of gloom and a dull outlook for business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bird's Nest",
+              "original": "To see an empty bird's nest, denotes gloom and a dull outlook for business.",
+              "translation_ko": "빈 새 둥지를 보면 사업 전망이 어둡고 우울할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "둥지 안에 알이 있음",
+          "interpretation_ko": "모든 일에서 좋은 결과가 따를 조짐",
+          "interpretation_en": "a sign that good results will follow all engagements",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bird's Nest",
+              "original": "With eggs in the nest, good results will follow all engagements.",
+              "translation_ko": "둥지 안에 알이 있으면 모든 일에서 좋은 결과가 따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "둥지 안에 새끼가 있음",
+          "interpretation_ko": "여행이 성공적이고 거래가 만족스러울 조짐",
+          "interpretation_en": "a sign of successful journeys and satisfactory dealings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bird's Nest",
+              "original": "If young ones are in the nest, it denotes successful journeys and satisfactory dealings.",
+              "translation_ko": "둥지 안에 새끼가 있으면 여행이 성공적이고 거래가 만족스러울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "둥지 속 새끼들이 외롭고 버려져 있음",
+          "interpretation_ko": "자신의 슬픔과 어리석음이 근심을 불러올 조짐",
+          "interpretation_en": "a sign that sorrow and folly of yours will cause you anxiety",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bird's Nest",
+              "original": "If they are lonely and deserted, sorrow, and folly of yours will cause you anxiety.",
+              "translation_ko": "둥지 속 새끼들이 외롭고 버려져 있으면 자신의 슬픔과 어리석음이 근심을 불러올 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "book",
       "term_ko": "책",
       "term_en": "book",
@@ -32719,6 +32838,110 @@
       ]
     },
     {
+      "id": "needle",
+      "term_ko": "바늘",
+      "term_en": "needle",
+      "aliases": [
+        "바느질",
+        "재봉바늘",
+        "실바늘"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "바늘을 씀",
+          "interpretation_ko": "다가올 근심의 조짐 — 마땅히 내 것이어야 할 공감을 잃는 아픔을 겪을 흉조",
+          "interpretation_en": "is a warning of approaching affliction, in which you will suffer keenly the loss of sympathy, which is rightfully yours",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Needle",
+              "original": "To use a needle in your dream, is a warning of approaching affliction, in which you will suffer keenly the loss of sympathy, which is rightfully yours.",
+              "translation_ko": "꿈에 바늘을 쓰면 다가올 근심의 조짐이니, 마땅히 내 것이어야 할 공감을 잃는 아픔을 뼈저리게 겪게 된다"
+            }
+          ]
+        },
+        {
+          "context": "바늘에 실을 뀀",
+          "interpretation_ko": "제집 아닌 남의 보살핌을 떠맡을 흉조",
+          "interpretation_en": "denotes that you will be burdened with the care of others than your own household",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Needle",
+              "original": "To dream of threading a needle, denotes that you will be burdened with the care of others than your own household.",
+              "translation_ko": "바늘에 실을 꿰는 꿈은 제집 아닌 남의 보살핌을 떠맡을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "바늘을 찾음",
+          "interpretation_ko": "쓸데없는 걱정을 하게 될 흉조",
+          "interpretation_en": "foretells useless worries",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Needle",
+              "original": "To look for a needle, foretells useless worries.",
+              "translation_ko": "바늘을 찾는 꿈은 쓸데없는 걱정을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "바늘을 찾아냄",
+          "interpretation_ko": "나를 알아주는 벗이 생길 길조",
+          "interpretation_en": "foretells that you will have friends who will appreciate you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Needle",
+              "original": "To find a needle, foretells that you will have friends who will appreciate you.",
+              "translation_ko": "바늘을 찾아내는 꿈은 나를 알아주는 벗이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "바늘이 부러짐",
+          "interpretation_ko": "외로움과 궁핍을 겪을 흉조",
+          "interpretation_en": "signifies loneliness and poverty",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Needle",
+              "original": "To break one, signifies loneliness and poverty.",
+              "translation_ko": "바늘이 부러지는 꿈은 외로움과 궁핍을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "바늘을 얻음",
+          "interpretation_ko": "온갖 일이 이루어질 조짐",
+          "interpretation_en": "a sign that all matters come to fruition",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "鏡環釵釧梳篦",
+              "original": "針線得者百事就",
+              "translation_ko": "바늘과 실을 얻으면 온갖 일이 이루어진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rice",
       "term_ko": "쌀",
       "term_en": "rice",
@@ -38915,6 +39138,96 @@
       ]
     },
     {
+      "id": "net",
+      "term_ko": "그물",
+      "term_en": "net",
+      "aliases": [
+        "어망",
+        "투망",
+        "그물망"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "몸이 그물에 걸림",
+          "interpretation_ko": "관재와 송사가 있을 조짐",
+          "interpretation_en": "a sign of legal trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "身被羅網主官事",
+              "translation_ko": "몸이 그물에 걸리면 관재가 있다"
+            }
+          ]
+        },
+        {
+          "context": "그물로 무언가를 옭아 잡음",
+          "interpretation_ko": "남과의 거래와 처신에서 부정직해질 흉조",
+          "interpretation_en": "denotes that you will be unscrupulous in your dealings and deportment with others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nets",
+              "original": "To dream of ensnaring anything with a net, denotes that you will be unscrupulous in your dealings and deportment with others.",
+              "translation_ko": "그물로 무언가를 옭아 잡는 꿈은 남과의 거래와 처신에서 부정직해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "고기 그물을 봄",
+          "interpretation_ko": "자잘한 즐거움과 이득이 여럿 있을 길한 조짐",
+          "interpretation_en": "portends numerous small pleasures and gains",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fish-net",
+              "original": "To dream of a fish-net, portends numerous small pleasures and gains.",
+              "translation_ko": "고기 그물 꿈은, 자잘한 즐거움과 이득이 여럿 있음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "찢어진 그물을 봄",
+          "interpretation_ko": "성가신 낙담이 있을 흉한 조짐",
+          "interpretation_en": "represents vexatious disappointments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fish-net",
+              "original": "A torn one, represents vexatious disappointments.",
+              "translation_ko": "찢어진 그물은 성가신 낙담을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "그물이 몸을 덮어씌움",
+          "interpretation_ko": "술과 음식이 생길 조짐",
+          "interpretation_en": "a sign of food and drink to come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "被羅網罩主酒食",
+              "translation_ko": "그물에 덮이면 술과 음식이 생긴다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "plate",
       "term_ko": "접시",
       "term_en": "plate",
@@ -41727,82 +42040,6 @@
               "work": "miller",
               "locator": "Bet",
               "original": "Betting at gaming tables, denotes that immoral devices will be used to wring money from you."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bird-s-nest",
-      "term_ko": "새 둥지",
-      "term_en": "bird's nest",
-      "aliases": [
-        "둥지",
-        "새집",
-        "보금자리",
-        "새 둥우리"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "빈 새 둥지를 봄",
-          "interpretation_ko": "사업 전망이 어둡고 우울할 조짐",
-          "interpretation_en": "a sign of gloom and a dull outlook for business",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bird's Nest",
-              "original": "To see an empty bird's nest, denotes gloom and a dull outlook for business.",
-              "translation_ko": "빈 새 둥지를 보면 사업 전망이 어둡고 우울할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "둥지 안에 알이 있음",
-          "interpretation_ko": "모든 일에서 좋은 결과가 따를 조짐",
-          "interpretation_en": "a sign that good results will follow all engagements",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bird's Nest",
-              "original": "With eggs in the nest, good results will follow all engagements.",
-              "translation_ko": "둥지 안에 알이 있으면 모든 일에서 좋은 결과가 따를 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "둥지 안에 새끼가 있음",
-          "interpretation_ko": "여행이 성공적이고 거래가 만족스러울 조짐",
-          "interpretation_en": "a sign of successful journeys and satisfactory dealings",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bird's Nest",
-              "original": "If young ones are in the nest, it denotes successful journeys and satisfactory dealings.",
-              "translation_ko": "둥지 안에 새끼가 있으면 여행이 성공적이고 거래가 만족스러울 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "둥지 속 새끼들이 외롭고 버려져 있음",
-          "interpretation_ko": "자신의 슬픔과 어리석음이 근심을 불러올 조짐",
-          "interpretation_en": "a sign that sorrow and folly of yours will cause you anxiety",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bird's Nest",
-              "original": "If they are lonely and deserted, sorrow, and folly of yours will cause you anxiety.",
-              "translation_ko": "둥지 속 새끼들이 외롭고 버려져 있으면 자신의 슬픔과 어리석음이 근심을 불러올 조짐이다"
             }
           ]
         }
@@ -49241,6 +49478,82 @@
       ]
     },
     {
+      "id": "message",
+      "term_ko": "기별",
+      "term_en": "message",
+      "aliases": [
+        "기별을",
+        "기별이",
+        "전갈",
+        "소식"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기별을 받음",
+          "interpretation_ko": "하는 일에 바뀜이 생길 조짐",
+          "interpretation_en": "denotes that changes will take place in your affairs",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Message",
+              "original": "To dream of receiving a message, denotes that changes will take place in your affairs.",
+              "translation_ko": "기별을 받는 꿈은 하는 일에 바뀜이 생김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "기별을 보냄",
+          "interpretation_ko": "언짢은 자리에 놓이게 될 흉한 조짐",
+          "interpretation_en": "denotes that you will be placed in unpleasant situations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Message",
+              "original": "To dream of sending a message, denotes that you will be placed in unpleasant situations.",
+              "translation_ko": "기별을 보내는 꿈은 언짢은 자리에 놓이게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "좋은 소식을 들음",
+          "interpretation_ko": "하는 일이 잘 풀리고 화목한 벗을 사귈 길조",
+          "interpretation_en": "denotes that you will be fortunate in affairs, and have harmonious companions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "News",
+              "original": "To hear good news in a dream, denotes that you will be fortunate in affairs, and have harmonious companions;",
+              "translation_ko": "꿈에 좋은 소식을 들으면 하는 일이 잘 풀리고 화목한 벗을 사귈 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "나쁜 소식을 들음",
+          "interpretation_ko": "그와 반대되는 처지에 놓일 흉조",
+          "interpretation_en": "if the news be bad, contrary conditions will exist",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "News",
+              "original": "if the news be bad, contrary conditions will exist.",
+              "translation_ko": "나쁜 소식이면 그와 반대되는 처지에 놓일 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "miser",
       "term_ko": "구두쇠",
       "term_en": "miser",
@@ -49469,76 +49782,74 @@
       ]
     },
     {
-      "id": "net",
-      "term_ko": "그물",
-      "term_en": "net",
+      "id": "nettles",
+      "term_ko": "쐐기풀",
+      "term_en": "nettles",
       "aliases": [
-        "어망",
-        "투망",
-        "그물망"
+        "쐐기풀이",
+        "쐐기풀을"
       ],
-      "category": "object",
+      "category": "nature",
       "polarity": "ambivalent",
       "works": [
-        "miller",
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "몸이 그물에 걸림",
-          "interpretation_ko": "관재와 송사가 있을 조짐",
-          "interpretation_en": "a sign of legal trouble",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "身被羅網主官事",
-              "translation_ko": "몸이 그물에 걸리면 관재가 있다"
-            }
-          ]
-        },
-        {
-          "context": "고기 그물을 봄",
-          "interpretation_ko": "자잘한 즐거움과 이득이 여럿 있을 길한 조짐",
-          "interpretation_en": "portends numerous small pleasures and gains",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fish-net",
-              "original": "To dream of a fish-net, portends numerous small pleasures and gains.",
-              "translation_ko": "고기 그물 꿈은, 자잘한 즐거움과 이득이 여럿 있음을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "찢어진 그물을 봄",
-          "interpretation_ko": "성가신 낙담이 있을 흉한 조짐",
-          "interpretation_en": "represents vexatious disappointments",
+          "context": "쐐기풀을 봄",
+          "interpretation_ko": "형편이 팍팍해지고 자식이나 하인이 말을 안 들을 흉조",
+          "interpretation_en": "is portentous of stringent circumstances and disobedience from children or servants",
           "polarity": "negative",
           "cites": [
             {
               "work": "miller",
-              "locator": "Fish-net",
-              "original": "A torn one, represents vexatious disappointments.",
-              "translation_ko": "찢어진 그물은 성가신 낙담을 뜻한다"
+              "locator": "Nettles",
+              "original": "To dream of nettles, is portentous of stringent circumstances and disobedience from children or servants.",
+              "translation_ko": "꿈에 쐐기풀을 보면 형편이 팍팍해지고 자식이나 하인이 말을 안 들을 조짐이다"
             }
           ]
         },
         {
-          "context": "그물이 몸을 덮어씌움",
-          "interpretation_ko": "술과 음식이 생길 조짐",
-          "interpretation_en": "a sign of food and drink to come",
+          "context": "쐐기풀 사이를 쏘이지 않고 걸음",
+          "interpretation_ko": "번창할 길조",
+          "interpretation_en": "if in your dreams you walk among nettles without being stung, you will be prosperous",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "被羅網罩主酒食",
-              "translation_ko": "그물에 덮이면 술과 음식이 생긴다"
+              "work": "miller",
+              "locator": "Nettles",
+              "original": "If in your dreams you walk among nettles without being stung, you will be prosperous.",
+              "translation_ko": "꿈에 쐐기풀 사이를 쏘이지 않고 걸으면 번창할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쐐기풀에 쏘임",
+          "interpretation_ko": "스스로에게 불만스러워하고 남까지 불행하게 만들 흉조",
+          "interpretation_en": "to be stung by them, you will be discontented with yourself and make others unhappy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nettles",
+              "original": "To be stung by them, you will be discontented with yourself and make others unhappy.",
+              "translation_ko": "쐐기풀에 쏘이면 스스로에게 불만스러워하고 남까지 불행하게 만들 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 쐐기풀 사이를 지나감",
+          "interpretation_ko": "여러 남자에게서 청혼을 받고 그 결정으로 근심에 싸일 조짐",
+          "interpretation_en": "foretells that she will be offered marriage by different men, and her decision will fill her with anxious foreboding",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nettles",
+              "original": "For a young woman to dream of passing through nettles, foretells that she will be offered marriage by different men, and her decision will fill her with anxious foreboding.",
+              "translation_ko": "처녀가 쐐기풀 사이를 지나는 꿈은, 여러 남자에게서 청혼을 받고 그 결정으로 근심에 싸일 조짐이다"
             }
           ]
         }
@@ -62878,6 +63189,127 @@
       ]
     },
     {
+      "id": "navy",
+      "term_ko": "해군",
+      "term_en": "navy",
+      "aliases": [
+        "해군이",
+        "해군을"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "해군을 봄",
+          "interpretation_ko": "보기 흉한 장애물과 싸워 이기고 즐거운 뱃길 나들이가 있을 길한 조짐",
+          "interpretation_en": "denotes victorious struggles with unsightly obstacles, and the promise of voyages and tours of recreation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Navy",
+              "original": "To dream of the navy, denotes victorious struggles with unsightly obstacles, and the promise of voyages and tours of recreation.",
+              "translation_ko": "꿈에 해군을 보면, 보기 흉한 장애물과 싸워 이기고 즐거운 뱃길 나들이와 여행이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "해군을 보며 놀라거나 당황함",
+          "interpretation_ko": "복을 얻기 전에 낯선 장애물을 이겨내야 할 조짐",
+          "interpretation_en": "you will have strange obstacles to overcome before you reach fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Navy",
+              "original": "If in your dream you seem frightened or disconcerted, you will have strange obstacles to overcome before you reach fortune.",
+              "translation_ko": "꿈에서 놀라거나 당황했다면, 복을 얻기 전에 낯선 장애물을 이겨내야 한다"
+            }
+          ]
+        },
+        {
+          "context": "낡고 초라한 해군을 봄",
+          "interpretation_ko": "사업이나 애정에서 불운한 벗 사귐이 있을 흉조",
+          "interpretation_en": "a dilapidated navy is an indication of unfortunate friendships in business or love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Navy",
+              "original": "A dilapidated navy is an indication of unfortunate friendships in business or love.",
+              "translation_ko": "낡고 초라한 해군은 사업이나 애정에서 불운한 벗 사귐을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neck",
+      "term_ko": "목",
+      "term_en": "neck",
+      "aliases": [
+        "목이",
+        "목을",
+        "목에"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제 목을 봄",
+          "interpretation_ko": "성가신 집안일이 사업에 끼어들 흉조",
+          "interpretation_en": "foretells that vexatious family relations will interfere with your business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Neck",
+              "original": "To dream that you see your own neck, foretells that vexatious family relations will interfere with your business.",
+              "translation_ko": "제 목을 보는 꿈은, 성가신 집안일이 사업에 끼어들 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남의 목을 감탄하며 봄",
+          "interpretation_ko": "속된 마음 탓에 집안의 정이 끊어질 흉조",
+          "interpretation_en": "signifies your worldly mindedness will cause broken domestic ties",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Neck",
+              "original": "To admire the neck of another, signifies your worldly mindedness will cause broken domestic ties.",
+              "translation_ko": "남의 목을 감탄하며 보면, 속된 마음 탓에 집안의 정이 끊어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 제 목이 굵음을 봄",
+          "interpretation_ko": "성미를 다스리지 못하면 잔소리 많고 표독스러워질 조짐",
+          "interpretation_en": "foretells that she will become querulous and something of a shrew if she fails to control her temper",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Neck",
+              "original": "For a woman to dream that her neck is thick, foretells that she will become querulous and something of a shrew if she fails to control her temper.",
+              "translation_ko": "여성이 제 목이 굵은 꿈을 꾸면, 성미를 다스리지 못할 경우 잔소리 많고 표독스러워질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "newborn-baby",
       "term_ko": "갓난아이",
       "term_en": "newborn baby",
@@ -62938,6 +63370,67 @@
               "locator": "Infants",
               "original": "To see an infant swimming, portends a fortunate escape from some entanglement.",
               "translation_ko": "갓난아이가 헤엄치는 것을 보면 얽힌 일에서 다행히 빠져나온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "newspaper",
+      "term_ko": "신문",
+      "term_en": "newspaper",
+      "aliases": [
+        "신문이",
+        "신문을",
+        "신문지"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "신문을 봄",
+          "interpretation_ko": "내 거래에서 속임수가 드러나고 평판도 상할 흉조",
+          "interpretation_en": "denotes that frauds will be detected in your dealings, and your reputation will likewise be affected",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Newspaper",
+              "original": "To dream of newspapers, denotes that frauds will be detected in your dealings, and your reputation will likewise be affected.",
+              "translation_ko": "꿈에 신문을 보면 내 거래에서 속임수가 드러나고 평판도 상할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "신문을 찍어냄",
+          "interpretation_ko": "외국을 오가는 여행과 벗을 사귈 기회가 생길 길조",
+          "interpretation_en": "you will have opportunities of making foreign journeys and friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Newspaper",
+              "original": "To print a newspaper, you will have opportunities of making foreign journeys and friends.",
+              "translation_ko": "신문을 찍어내는 꿈은 외국을 오가는 여행과 벗을 사귈 기회가 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "신문을 읽으려다 못 읽음",
+          "interpretation_ko": "확실치 않은 일에서 실패할 흉조",
+          "interpretation_en": "denotes that you will fail in some uncertain enterprise",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Newspaper",
+              "original": "Trying, but failing to read a newspaper, denotes that you will fail in some uncertain enterprise.",
+              "translation_ko": "신문을 읽으려다 못 읽는 꿈은 확실치 않은 일에서 실패할 조짐이다"
             }
           ]
         }
@@ -82934,54 +83427,6 @@
       ]
     },
     {
-      "id": "message",
-      "term_ko": "기별",
-      "term_en": "message",
-      "aliases": [
-        "기별을",
-        "기별이",
-        "전갈",
-        "소식"
-      ],
-      "category": "object",
-      "polarity": "neutral",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "기별을 받음",
-          "interpretation_ko": "하는 일에 바뀜이 생길 조짐",
-          "interpretation_en": "denotes that changes will take place in your affairs",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Message",
-              "original": "To dream of receiving a message, denotes that changes will take place in your affairs.",
-              "translation_ko": "기별을 받는 꿈은 하는 일에 바뀜이 생김을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "기별을 보냄",
-          "interpretation_ko": "언짢은 자리에 놓이게 될 흉한 조짐",
-          "interpretation_en": "denotes that you will be placed in unpleasant situations",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Message",
-              "original": "To dream of sending a message, denotes that you will be placed in unpleasant situations.",
-              "translation_ko": "기별을 보내는 꿈은 언짢은 자리에 놓이게 됨을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "midwife",
       "term_ko": "산파",
       "term_en": "midwife",
@@ -84058,6 +84503,195 @@
               "locator": "Napkin",
               "original": "For a woman to dream of soiled napkins, foretells that humiliating affairs will thrust themselves upon her.",
               "translation_ko": "여성이 더러운 냅킨 꿈을 꾸면, 부끄러운 일이 제게 들이닥친다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nearsighted",
+      "term_ko": "근시",
+      "term_en": "nearsighted",
+      "aliases": [
+        "근시가",
+        "근시라서",
+        "근시인",
+        "근시였다",
+        "근시라는"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 근시임을 봄",
+          "interpretation_ko": "낯 뜨거운 실패와 반갑잖은 손이 뜻밖에 찾아올 흉조",
+          "interpretation_en": "signifies embarrassing failure and unexpected visits from unwelcome persons",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nearsighted",
+              "original": "To dream that you are nearsighted, signifies embarrassing failure and unexpected visits from unwelcome persons.",
+              "translation_ko": "제가 근시라는 꿈은, 낯 뜨거운 실패와 반갑잖은 손이 뜻밖에 찾아올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "애인이 근시임을 봄",
+          "interpretation_ko": "애인이 나를 실망시킬 조짐",
+          "interpretation_en": "denotes that she will disappoint you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nearsighted",
+              "original": "To dream that your sweetheart is nearsighted, denotes that she will disappoint you.",
+              "translation_ko": "애인이 근시인 꿈은, 그가 나를 실망시킬 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "necklace",
+      "term_ko": "목걸이",
+      "term_en": "necklace",
+      "aliases": [
+        "목걸이가",
+        "목걸이를",
+        "목걸이는"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여성이 목걸이를 받음",
+          "interpretation_ko": "정 깊은 남편과 아름다운 집이 생길 길조",
+          "interpretation_en": "omens for her a loving husband and a beautiful home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Necklace",
+              "original": "For a woman to dream of receiving a necklace, omens for her a loving husband and a beautiful home.",
+              "translation_ko": "여성이 목걸이를 받는 꿈은, 정 깊은 남편과 아름다운 집을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "목걸이를 잃어버림",
+          "interpretation_ko": "일찍 상을 당하는 아픔을 겪을 흉조",
+          "interpretation_en": "she will early feel the heavy hand of bereavement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Necklace",
+              "original": "To lose a necklace, she will early feel the heavy hand of bereavement.",
+              "translation_ko": "목걸이를 잃어버리면, 일찍이 상을 당하는 아픔을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neighbor",
+      "term_ko": "이웃",
+      "term_en": "neighbor",
+      "aliases": [
+        "이웃이",
+        "이웃을",
+        "이웃집"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "이웃을 봄",
+          "interpretation_ko": "쓸데없는 다툼과 뒷말로 이로운 시간을 허비할 흉조",
+          "interpretation_en": "denotes many profitable hours will be lost in useless strife and gossip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Neighbor",
+              "original": "To see your neighbors in your dreams, denotes many profitable hours will be lost in useless strife and gossip.",
+              "translation_ko": "꿈에 이웃을 보면, 쓸데없는 다툼과 뒷말로 이로운 시간을 여럿 허비할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "이웃이 슬퍼하거나 성난 모습임",
+          "interpretation_ko": "다툼과 불화가 있을 흉조",
+          "interpretation_en": "if they appear sad, or angry, it foretells dissensions and quarrels",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Neighbor",
+              "original": "If they appear sad, or angry, it foretells dissensions and quarrels.",
+              "translation_ko": "이웃이 슬퍼하거나 성난 모습이면, 다툼과 불화가 있을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nephew",
+      "term_ko": "조카",
+      "term_en": "nephew",
+      "aliases": [
+        "조카가",
+        "조카를"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "잘생기고 볼품 있는 조카를 봄",
+          "interpretation_ko": "곧 만족스러운 살림을 갖추게 될 길조",
+          "interpretation_en": "denotes you are soon to come into a pleasing competency, if he is handsome and well looking",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nephew",
+              "original": "To dream of your nephew, denotes you are soon to come into a pleasing competency, if he is handsome and well looking;",
+              "translation_ko": "잘생기고 볼품 있는 조카가 나오는 꿈은, 곧 만족스러운 살림을 갖추게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "볼품없는 조카를 봄",
+          "interpretation_ko": "실망스럽고 불편한 일이 있을 흉조",
+          "interpretation_en": "otherwise, there will be disappointment and discomfort for you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nephew",
+              "original": "otherwise, there will be disappointment and discomfort for you.",
+              "translation_ko": "그렇지 않으면 실망스럽고 불편한 일이 있을 조짐이다"
             }
           ]
         }
@@ -95352,33 +95986,33 @@
       ]
     },
     {
-      "id": "needle",
-      "term_ko": "바늘",
-      "term_en": "needle",
+      "id": "necromancer",
+      "term_ko": "강신술사",
+      "term_en": "necromancer",
       "aliases": [
-        "바느질",
-        "재봉바늘",
-        "실바늘"
+        "강신술사가",
+        "강신술사를",
+        "영매"
       ],
-      "category": "object",
-      "polarity": "positive",
+      "category": "person",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "바늘을 얻음",
-          "interpretation_ko": "온갖 일이 이루어질 조짐",
-          "interpretation_en": "a sign that all matters come to fruition",
-          "polarity": "positive",
+          "context": "강신술사와 그 술법을 봄",
+          "interpretation_ko": "낯선 이들이 나를 나쁜 쪽으로 이끌 위험이 있는 흉조",
+          "interpretation_en": "denotes that you are threatened with strange acquaintances who will influence you for evil",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "鏡環釵釧梳篦",
-              "original": "針線得者百事就",
-              "translation_ko": "바늘과 실을 얻으면 온갖 일이 이루어진다"
+              "work": "miller",
+              "locator": "Necromancer",
+              "original": "To dream of a necromancer and his arts, denotes that you are threatened with strange acquaintances who will influence you for evil.",
+              "translation_ko": "강신술사와 그 술법을 보는 꿈은, 낯선 이들이 나를 나쁜 쪽으로 이끌 위험이 있음을 알린다"
             }
           ]
         }

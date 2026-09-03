@@ -6448,5 +6448,29 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "napkin": [
     "napkins"
+  ],
+  "navy": [
+    "the navy"
+  ],
+  "nearsighted": [
+    "shortsighted"
+  ],
+  "necklace": [
+    "necklaces"
+  ],
+  "necromancer": [
+    "necromancy"
+  ],
+  "neighbor": [
+    "neighbors"
+  ],
+  "nephew": [
+    "nephews"
+  ],
+  "nettles": [
+    "nettle"
+  ],
+  "newspaper": [
+    "newspapers"
   ]
 };

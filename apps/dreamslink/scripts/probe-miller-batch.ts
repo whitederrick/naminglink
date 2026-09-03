@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 138 — Nails~Napkin, 14건)
+// (지금 담긴 것: 배치 139 — Navy~Newspaper, 39건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +30,47 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "nails", ctx: "쇠못을 봄", text: "못이 벽에 박혀 있었다" },
-  { id: "nails", ctx: "쇠못을 사고팖", text: "못을 사고파는 장사를 했다" },
-  { id: "nails", ctx: "녹슬거나 부러진 쇠못을 봄", text: "녹슨 못이 있었다" },
-  { id: "naked-body", ctx: "남이 알몸인 것을 봄", text: "남들이 알몸으로 있었다" },
-  { id: "naked-body", ctx: "제 알몸을 문득 깨닫고 가리려 함", text: "문득 제 알몸을 깨닫고 가리려 했다" },
-  { id: "naked-body", ctx: "처녀가 제 알몸에 반함", text: "제 알몸에 감탄했다" },
-  { id: "naked-body", ctx: "처녀가 제 몸이 볼품없다고 여김", text: "처녀가 제 알몸이 볼품없다고 여겼다" },
-  { id: "naked-body", ctx: "처녀가 알몸으로 맑은 물에서 헤엄침", text: "처녀가 알몸으로 맑은 물에서 헤엄쳤다" },
-  { id: "naked-body", ctx: "알몸의 사내들이 맑은 물에서 헤엄치는 것을 봄", text: "알몸의 사내들이 헤엄치는 것을 보았다" },
-  { id: "naked-body", ctx: "알몸으로 헤엄치는 물이 흐림", text: "알몸으로 헤엄치는데 물이 흐렸다" },
-  { id: "napkin", ctx: "냅킨을 봄", text: "냅킨이 깔려 있었다" },
-  { id: "napkin", ctx: "여성이 더러운 냅킨을 봄", text: "여자가 더러운 냅킨을 보았다" },
-  // 지킴 — 이번 배치가 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "naked-body", ctx: "옷 없이 몸을 드러냄", text: "알몸을 드러냈다" },
-  { id: "fingernail", ctx: "더러운 손톱을 봄", text: "더러운 손톱을 보았다" },
+  { id: "navy", ctx: "해군을 봄", text: "꿈에 해군을 보았다" },
+  { id: "navy", ctx: "해군을 보며 놀라거나 당황함", text: "해군을 보고 몹시 놀랐다" },
+  { id: "navy", ctx: "낡고 초라한 해군을 봄", text: "낡고 초라한 해군을 보았다" },
+  { id: "nearsighted", ctx: "제가 근시임을 봄", text: "내가 근시라는 것을 알았다" },
+  { id: "nearsighted", ctx: "애인이 근시임을 봄", text: "애인이 근시였다" },
+  { id: "neck", ctx: "제 목을 봄", text: "내 목을 보았다" },
+  { id: "neck", ctx: "남의 목을 감탄하며 봄", text: "남의 목을 감탄하며 보았다" },
+  { id: "neck", ctx: "여성이 제 목이 굵음을 봄", text: "여자가 제 목이 굵은 것을 보았다" },
+  { id: "necklace", ctx: "여성이 목걸이를 받음", text: "여자가 목걸이를 선물받았다" },
+  { id: "necklace", ctx: "목걸이를 잃어버림", text: "목걸이를 잃어버렸다" },
+  { id: "necromancer", ctx: "강신술사와 그 술법을 봄", text: "강신술사가 술법을 부리는 것을 보았다" },
+  { id: "needle", ctx: "바늘을 씀", text: "바느질을 하려고 바늘을 썼다" },
+  { id: "needle", ctx: "바늘에 실을 뀀", text: "바늘에 실을 꿰었다" },
+  { id: "needle", ctx: "바늘을 찾음", text: "바늘을 찾고 있었다" },
+  { id: "needle", ctx: "바늘을 찾아냄", text: "바늘을 찾아냈다" },
+  { id: "needle", ctx: "바늘이 부러짐", text: "바늘이 부러졌다" },
+  { id: "neighbor", ctx: "이웃을 봄", text: "이웃을 보았다" },
+  { id: "neighbor", ctx: "이웃이 슬퍼하거나 성난 모습임", text: "이웃이 슬퍼하는 모습이었다" },
+  { id: "nephew", ctx: "잘생기고 볼품 있는 조카를 봄", text: "잘생긴 조카를 보았다" },
+  { id: "nephew", ctx: "볼품없는 조카를 봄", text: "볼품없는 조카를 보았다" },
+  { id: "bird-s-nest", ctx: "새 둥지를 봄", text: "새 둥지를 보았다" },
+  { id: "bird-s-nest", ctx: "암탉이 둥지를 틈", text: "암탉이 둥지를 틀었다" },
+  { id: "bird-s-nest", ctx: "둥지 안에 깨지거나 상한 알이 있음", text: "둥지 안에 깨진 알이 있었다" },
+  { id: "net", ctx: "그물로 무언가를 옭아 잡음", text: "그물로 무언가를 옭아 잡았다" },
+  { id: "nettles", ctx: "쐐기풀을 봄", text: "쐐기풀을 보았다" },
+  { id: "nettles", ctx: "쐐기풀 사이를 쏘이지 않고 걸음", text: "쐐기풀 사이를 쏘이지 않고 걸었다" },
+  { id: "nettles", ctx: "쐐기풀에 쏘임", text: "쐐기풀에 쏘였다" },
+  { id: "nettles", ctx: "처녀가 쐐기풀 사이를 지나감", text: "처녀가 쐐기풀 사이를 지나갔다" },
+  { id: "message", ctx: "좋은 소식을 들음", text: "좋은 소식을 들었다" },
+  { id: "message", ctx: "나쁜 소식을 들음", text: "나쁜 소식을 들었다" },
+  { id: "newspaper", ctx: "신문을 봄", text: "신문을 보았다" },
+  { id: "newspaper", ctx: "신문을 찍어냄", text: "신문을 찍어냈다" },
+  { id: "newspaper", ctx: "신문을 읽으려다 못 읽음", text: "신문을 읽으려다 못 읽었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가(§25 곁가지 · §30 곁가지)
+  { id: "needle", ctx: "바늘을 얻음", text: "바늘이 생겼다" },
+  { id: "bird-s-nest", ctx: "빈 새 둥지를 봄", text: "새 둥지가 텅 비어 있었다" },
+  { id: "bird-s-nest", ctx: "둥지 안에 알이 있음", text: "둥지 안에 알이 있었다" },
+  { id: "net", ctx: "고기 그물을 봄", text: "고기 그물을 보았다" },
+  { id: "net", ctx: "찢어진 그물을 봄", text: "찢어진 그물을 보았다" },
+  { id: "message", ctx: "기별을 받음", text: "기별을 받았다" },
+  { id: "message", ctx: "기별을 보냄", text: "기별을 보냈다" },
 ];
 
 let notFound = 0;

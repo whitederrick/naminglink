@@ -77,11 +77,15 @@
     ],
     "contexts": {
       "기별을 받음": "받았 받는",
-      "기별을 보냄": "보냈 부쳤"
+      "기별을 보냄": "보냈 부쳤",
+      "좋은 소식을 들음": "좋은 반가운 기쁜",
+      "나쁜 소식을 들음": "나쁜 궂은 언짢은"
     },
     "contexts_en": {
       "기별을 받음": "receiving changes affairs",
-      "기별을 보냄": "sending placed unpleasant situations"
+      "기별을 보냄": "sending placed unpleasant situations",
+      "좋은 소식을 들음": "good fortunate harmonious companions",
+      "나쁜 소식을 들음": "bad contrary conditions"
     }
   },
   {
