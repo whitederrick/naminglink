@@ -1,0 +1,81 @@
+[
+  {
+    "id": "mason",
+    "aliases": [
+      "석공이",
+      "석공을",
+      "돌쟁이"
+    ],
+    "aliases_en": [
+      "masons",
+      "stonemason"
+    ],
+    "contexts": {
+      "석공이 일하는 것을 봄": "일하는 다듬는",
+      "예복을 갖춘 석공 무리를 봄": "예복 무리 떼지어"
+    },
+    "contexts_en": {
+      "석공이 일하는 것을 봄": "plying trade rise circumstances atmosphere",
+      "예복을 갖춘 석공 무리를 봄": "band order regalia protect evils"
+    }
+  },
+  {
+    "id": "mast",
+    "aliases": [
+      "돛대를",
+      "돛대가",
+      "돛폭대"
+    ],
+    "aliases_en": [
+      "masts"
+    ],
+    "contexts": {
+      "배의 돛대를 봄": "솟아 우뚝",
+      "부서진 배의 돛대를 봄": "부서진 난파 꺾인",
+      "뱃사람이 돛대 꿈을 꿈": "뱃사람 선원"
+    },
+    "contexts_en": {
+      "배의 돛대를 봄": "long pleasant voyages gaining possessions",
+      "부서진 배의 돛대를 봄": "wrecked sudden circumstances anticipated",
+      "뱃사람이 돛대 꿈을 꿈": "sailor eventful trip"
+    }
+  },
+  {
+    "id": "master",
+    "aliases": [
+      "상전",
+      "주인이",
+      "주인을"
+    ],
+    "aliases_en": [
+      "a master"
+    ],
+    "contexts": {
+      "제게 주인이 있음": "내게 제게 모시는",
+      "제가 주인이 되어 여럿을 거느림": "거느리 부리는 여럿을"
+    },
+    "contexts_en": {
+      "제게 주인이 있음": "incompetency leadership strong-willed",
+      "제가 주인이 되어 여럿을 거느림": "command excel judgment positions wealth"
+    }
+  },
+  {
+    "id": "match",
+    "aliases": [
+      "성냥을",
+      "성냥이",
+      "성냥갑"
+    ],
+    "aliases_en": [
+      "matches"
+    ],
+    "contexts": {
+      "성냥을 봄": "놓여 들었",
+      "어둠 속에서 성냥을 그음": "어둠 그었 켰다"
+    },
+    "contexts_en": {
+      "성냥을 봄": "prosperity least",
+      "어둠 속에서 성냥을 그음": "strike dark unexpected news foreboded"
+    }
+  }
+]

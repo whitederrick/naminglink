@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 118 — Mars~Mask, 11건)
+// (지금 담긴 것: 배치 119 — Mason~Match, 14건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,18 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "mars", ctx: "화성을 봄", text: "화성이 빛났다" },
-  { id: "mars", ctx: "화성 쪽으로 끌려 올라감", text: "화성 쪽으로 끌려 올라갔다" },
-  { id: "bog", ctx: "늪지를 걸어서 지남", text: "늪지를 걸어서 지났다" },
-  { id: "martyr", ctx: "순교자를 봄", text: "순교자가 나타났다" },
-  { id: "martyr", ctx: "제가 순교자가 됨", text: "내가 순교자가 되었다" },
-  { id: "mask", ctx: "가면을 봄", text: "가면이 걸려 있었다" },
-  { id: "mask", ctx: "처녀가 가면을 씀", text: "처녀가 가면을 썼다" },
-  { id: "mask", ctx: "제가 가면을 씀", text: "내가 가면을 썼다" },
-  { id: "mask", ctx: "남이 가면을 쓴 것을 봄", text: "남이 가면을 쓴 것을 보았다" },
-  { id: "mask", ctx: "가면을 벗음", text: "가면을 벗었다" },
+  { id: "mason", ctx: "석공이 일하는 것을 봄", text: "석공이 일하는 것을 보았다" },
+  { id: "mason", ctx: "예복을 갖춘 석공 무리를 봄", text: "예복을 갖춘 석공 무리를 보았다" },
+  { id: "carnival", ctx: "처녀가 가장무도회에 끼어듦", text: "처녀가 가장무도회에 끼어들었다" },
+  { id: "carnival", ctx: "가장무도회에 감", text: "가장무도회에 갔다" },
+  { id: "mast", ctx: "배의 돛대를 봄", text: "배의 돛대가 우뚝 솟아 있었다" },
+  { id: "mast", ctx: "부서진 배의 돛대를 봄", text: "부서진 배의 돛대를 보았다" },
+  { id: "mast", ctx: "뱃사람이 돛대 꿈을 꿈", text: "뱃사람이 돛대 꿈을 꾸었다" },
+  { id: "master", ctx: "제게 주인이 있음", text: "내게 주인이 있었다" },
+  { id: "master", ctx: "제가 주인이 되어 여럿을 거느림", text: "내가 주인이 되어 여럿을 거느렸다" },
+  { id: "straw-mat", ctx: "깔개를 멀리해야 함", text: "깔개가 눈에 띄었다" },
+  { id: "match", ctx: "성냥을 봄", text: "성냥이 놓여 있었다" },
+  { id: "match", ctx: "어둠 속에서 성냥을 그음", text: "어둠 속에서 성냥을 그었다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "bog", ctx: "늪지 꿈을 꿈", text: "늪지가 펼쳐져 있었다" },
+  { id: "carnival", ctx: "카니발에 어울려 참여함", text: "카니발에 어울려 참여했다" },
+  { id: "straw-mat", ctx: "돗자리를 집 안으로 들임", text: "돗자리를 집 안으로 들여놓았다" },
 ];
 
 let notFound = 0;

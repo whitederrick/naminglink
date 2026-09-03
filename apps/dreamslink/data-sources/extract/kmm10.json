@@ -136,7 +136,9 @@
     "id": "carnival",
     "aliases": [
       "축제",
-      "가장무도회"
+      "가장무도회",
+      "가장무도회에",
+      "복면 무도회"
     ],
     "aliases_en": [
       "a carnival",
@@ -145,12 +147,16 @@
     "contexts": {
       "카니발에 어울려 참여함": "참여 어울려 즐겼",
       "가면을 쓰거나 광대 차림이 보이는 카니발": "가면 광대 분장 탈을",
-      "축제 자리에 있음": "축제 자리에"
+      "축제 자리에 있음": "축제 자리에",
+      "처녀가 가장무도회에 끼어듦": "처녀 아가씨",
+      "가장무도회에 감": "가장무도회"
     },
     "contexts_en": {
       "카니발에 어울려 참여함": "participating pleasure recreation",
       "가면을 쓰거나 광대 차림이 보이는 카니발": "masks clownish incongruous discord",
-      "축제 자리에 있음": "indifference realities dependent"
+      "축제 자리에 있음": "indifference realities dependent",
+      "처녀가 가장무도회에 끼어듦": "participates deceived",
+      "가장무도회에 감": "attending masquerade indulge foolish harmful neglect"
     }
   },
   {

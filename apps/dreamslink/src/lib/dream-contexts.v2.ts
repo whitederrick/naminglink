@@ -1465,6 +1465,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "straw-mat::돗자리와 대자리를 봄": "bamboo together",
   "straw-mat::돗자리를 훼손함": "damaged ruined broke",
   "straw-mat::돗자리를 펴고 여럿이 함께 앉음": "spread sat sitting",
+  "straw-mat::깔개를 멀리해야 함": "usher perplexities",
   "bird::공중에서 새가 욺": "sky air crying chirping sang",
   "bird::나는 새가 품에 들어옴": "bosom chest embrace flew nestled arms",
   "bird::나는 새를 붙잡음": "caught grabbed seized",
@@ -2645,6 +2646,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "carnival::카니발에 어울려 참여함": "participating pleasure recreation",
   "carnival::가면을 쓰거나 광대 차림이 보이는 카니발": "masks clownish incongruous discord",
   "carnival::축제 자리에 있음": "indifference realities dependent",
+  "carnival::처녀가 가장무도회에 끼어듦": "participates deceived",
+  "carnival::가장무도회에 감": "attending masquerade indulge foolish harmful neglect",
   "cartridge::탄약통을 봄": "quarrels dissensions threatens",
   "cartridge::탄약통이 비어 있음": "empty foolish variances",
   "carving::새고기를 썲": "fowl chicken poorly",
@@ -4317,5 +4320,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "mask::처녀가 가면을 씀": "wears endeavor impose friendly",
   "mask::제가 가면을 씀": "wearing temporary misinterpreted estrangements",
   "mask::남이 가면을 쓴 것을 봄": "others combat falsehood envy",
-  "mask::가면을 벗음": "unmasks fail admiration sought"
+  "mask::가면을 벗음": "unmasks fail admiration sought",
+  "mason::석공이 일하는 것을 봄": "plying trade rise circumstances atmosphere",
+  "mason::예복을 갖춘 석공 무리를 봄": "band order regalia protect evils",
+  "mast::배의 돛대를 봄": "long pleasant voyages gaining possessions",
+  "mast::부서진 배의 돛대를 봄": "wrecked sudden circumstances anticipated",
+  "mast::뱃사람이 돛대 꿈을 꿈": "sailor eventful trip",
+  "master::제게 주인이 있음": "incompetency leadership strong-willed",
+  "master::제가 주인이 되어 여럿을 거느림": "command excel judgment positions wealth",
+  "match::성냥을 봄": "prosperity least",
+  "match::어둠 속에서 성냥을 그음": "strike dark unexpected news foreboded"
 };

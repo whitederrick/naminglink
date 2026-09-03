@@ -6254,5 +6254,18 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "mask": [
     "masks",
     "masking"
+  ],
+  "mason": [
+    "masons",
+    "stonemason"
+  ],
+  "mast": [
+    "masts"
+  ],
+  "master": [
+    "a master"
+  ],
+  "match": [
+    "matches"
   ]
 };

@@ -23,6 +23,7 @@
     "m116.json",
     "m117.json",
     "m118.json",
+    "m119.json",
     "m12.json",
     "m13.json",
     "m14.json",
@@ -18809,6 +18810,154 @@
       ]
     },
     {
+      "id": "straw-mat",
+      "term_ko": "돗자리",
+      "term_en": "straw mat",
+      "aliases": [
+        "멍석",
+        "삿자리",
+        "깔개",
+        "매트",
+        "깔개를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "돗자리를 집 안으로 들임",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "薦蓆入吉出則凶",
+              "translation_ko": "돗자리를 들이면 길하고 내보내면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "깔개를 멀리해야 함",
+          "interpretation_ko": "슬픔과 얽힌 일로 이끄는 흉한 조짐 — 꿈에 깔개가 보이면 가까이하지 말 것",
+          "interpretation_en": "keep away from mats in your dreams, as they will usher you into sorrow and perplexities",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mat",
+              "original": "Keep away from mats in your dreams, as they will usher you into sorrow and perplexities.",
+              "translation_ko": "꿈속의 깔개는 멀리하라 — 슬픔과 얽힌 일로 이끈다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리를 집 밖으로 내보냄",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "薦蓆入吉出則凶",
+              "translation_ko": "돗자리를 들이면 길하고 내보내면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리가 해어져 찢어짐",
+          "interpretation_ko": "자리와 지위를 잃을 조짐",
+          "interpretation_en": "a sign of losing one's post",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "破蓆者主失官位",
+              "translation_ko": "돗자리가 찢어지면 벼슬자리를 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리를 새것으로 바꿔 들임",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "換蓆入吉出則凶",
+              "translation_ko": "돗자리를 바꿔 들이면 길하고 내보내면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리를 바꾸어 내보냄",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "換蓆入吉出則凶",
+              "translation_ko": "돗자리를 바꿔 들이면 길하고 내보내면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리와 대자리를 봄",
+          "interpretation_ko": "힘 있는 도움을 받을 조짐",
+          "interpretation_en": "a sign of receiving powerful help",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "蓆簞者主有力助",
+              "translation_ko": "돗자리와 대자리는 힘 있는 도움이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리를 훼손함",
+          "interpretation_ko": "아내가 부정을 저지를 조짐",
+          "interpretation_en": "a sign of a wife's infidelity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "毀蓆幔者妻有姦",
+              "translation_ko": "돗자리와 장막을 훼손하면 아내가 간통한다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리를 펴고 여럿이 함께 앉음",
+          "interpretation_ko": "벼슬자리를 얻을 조짐",
+          "interpretation_en": "a sign of gaining an official post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "舖蓆合坐得官位",
+              "translation_ko": "돗자리를 펴고 함께 앉으면 벼슬자리를 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "thief",
       "term_ko": "도둑",
       "term_en": "thief",
@@ -22416,137 +22565,6 @@
               "locator": "天地日月星辰",
               "original": "巡天摩星位公卿",
               "translation_ko": "하늘을 돌며 별을 만지면 공경의 지위에 오른다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "straw-mat",
-      "term_ko": "돗자리",
-      "term_en": "straw mat",
-      "aliases": [
-        "멍석",
-        "삿자리",
-        "깔개"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "돗자리를 집 안으로 들임",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "薦蓆入吉出則凶",
-              "translation_ko": "돗자리를 들이면 길하고 내보내면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리를 집 밖으로 내보냄",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "薦蓆入吉出則凶",
-              "translation_ko": "돗자리를 들이면 길하고 내보내면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리가 해어져 찢어짐",
-          "interpretation_ko": "자리와 지위를 잃을 조짐",
-          "interpretation_en": "a sign of losing one's post",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "破蓆者主失官位",
-              "translation_ko": "돗자리가 찢어지면 벼슬자리를 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리를 새것으로 바꿔 들임",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "換蓆入吉出則凶",
-              "translation_ko": "돗자리를 바꿔 들이면 길하고 내보내면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리를 바꾸어 내보냄",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "換蓆入吉出則凶",
-              "translation_ko": "돗자리를 바꿔 들이면 길하고 내보내면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리와 대자리를 봄",
-          "interpretation_ko": "힘 있는 도움을 받을 조짐",
-          "interpretation_en": "a sign of receiving powerful help",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "蓆簞者主有力助",
-              "translation_ko": "돗자리와 대자리는 힘 있는 도움이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리를 훼손함",
-          "interpretation_ko": "아내가 부정을 저지를 조짐",
-          "interpretation_en": "a sign of a wife's infidelity",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "毀蓆幔者妻有姦",
-              "translation_ko": "돗자리와 장막을 훼손하면 아내가 간통한다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리를 펴고 여럿이 함께 앉음",
-          "interpretation_ko": "벼슬자리를 얻을 조짐",
-          "interpretation_en": "a sign of gaining an official post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "舖蓆合坐得官位",
-              "translation_ko": "돗자리를 펴고 함께 앉으면 벼슬자리를 얻는다"
             }
           ]
         }
@@ -33042,6 +33060,96 @@
               "locator": "Canal",
               "original": "But if the water be turbid she will often find herself tangled in meshes of perplexity and will be the victim of nervous troubles.",
               "translation_ko": "그러나 물이 탁하면 자주 곤경의 그물에 얽히고 신경을 앓는 이가 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carnival",
+      "term_ko": "카니발",
+      "term_en": "carnival",
+      "aliases": [
+        "축제",
+        "가장무도회",
+        "가장무도회에",
+        "복면 무도회"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "카니발에 어울려 참여함",
+          "interpretation_ko": "머지않아 흔치 않은 즐거움이나 놀이를 누릴 조짐",
+          "interpretation_en": "you are soon to enjoy some unusual pleasure or recreation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carnival",
+              "original": "To dream that you are participating in a carnival, portends that you are soon to enjoy some unusual pleasure or recreation.",
+              "translation_ko": "카니발에 참여하는 꿈은 머지않아 흔치 않은 즐거움이나 놀이를 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 가장무도회에 끼어듦",
+          "interpretation_ko": "속임을 당할 흉한 조짐",
+          "interpretation_en": "denotes that she will be deceived",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Masquerade",
+              "original": "For a young woman to dream that she participates in a masquerade, denotes that she will be deceived.",
+              "translation_ko": "젊은 여성이 가장무도회에 끼어드는 꿈을 꾸면 속임을 당한다"
+            }
+          ]
+        },
+        {
+          "context": "가장무도회에 감",
+          "interpretation_ko": "일과 집안일을 팽개치고 어리석고 해로운 즐거움에 빠질 흉한 조짐",
+          "interpretation_en": "denotes that you will indulge in foolish and harmful pleasures to the neglect of business and domestic duties",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Masquerade",
+              "original": "To dream of attending a masquerade, denotes that you will indulge in foolish and harmful pleasures to the neglect of business and domestic duties.",
+              "translation_ko": "가장무도회에 가는 꿈은, 일과 집안일을 팽개치고 어리석고 해로운 즐거움에 빠짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가면을 쓰거나 광대 차림이 보이는 카니발",
+          "interpretation_ko": "집안이 불화하고, 일은 시원치 않으며, 사랑은 되돌아오지 않을 조짐",
+          "interpretation_en": "discord in the home; business will be unsatisfactory and love unrequited",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carnival",
+              "original": "A carnival when masks are used, or when incongruous or clownish figures are seen, implies discord in the home; business will be unsatisfactory and love unrequited.",
+              "translation_ko": "가면을 쓰거나 어울리지 않는 광대 같은 모습이 보이는 카니발은 집안의 불화를 뜻한다. 일은 시원치 않고 사랑은 되돌아오지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "축제 자리에 있음",
+          "interpretation_ko": "삶의 찬 이치에 무심하고 사람을 일찍 늙게 하는 즐거움을 좇아, 아쉽지는 않으나 남에게 크게 기대게 될 조짐",
+          "interpretation_en": "denotes indifference to the cold realities of life, and a love for those pleasures that make one old before his time",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Festival",
+              "original": "To dream of being at a festival, denotes indifference to the cold realities of life, and a love for those pleasures that make one old before his time. You will never want, but will be largely dependent on others.",
+              "translation_ko": "축제 자리에 있는 꿈은, 삶의 찬 이치에 무심함과 사람을 일찍 늙게 하는 즐거움을 좋아함을 뜻한다. 아쉬울 일은 없겠으나 남에게 크게 기대어 살게 된다"
             }
           ]
         }
@@ -51050,66 +51158,6 @@
       ]
     },
     {
-      "id": "carnival",
-      "term_ko": "카니발",
-      "term_en": "carnival",
-      "aliases": [
-        "축제",
-        "가장무도회"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "카니발에 어울려 참여함",
-          "interpretation_ko": "머지않아 흔치 않은 즐거움이나 놀이를 누릴 조짐",
-          "interpretation_en": "you are soon to enjoy some unusual pleasure or recreation",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carnival",
-              "original": "To dream that you are participating in a carnival, portends that you are soon to enjoy some unusual pleasure or recreation.",
-              "translation_ko": "카니발에 참여하는 꿈은 머지않아 흔치 않은 즐거움이나 놀이를 누릴 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "가면을 쓰거나 광대 차림이 보이는 카니발",
-          "interpretation_ko": "집안이 불화하고, 일은 시원치 않으며, 사랑은 되돌아오지 않을 조짐",
-          "interpretation_en": "discord in the home; business will be unsatisfactory and love unrequited",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carnival",
-              "original": "A carnival when masks are used, or when incongruous or clownish figures are seen, implies discord in the home; business will be unsatisfactory and love unrequited.",
-              "translation_ko": "가면을 쓰거나 어울리지 않는 광대 같은 모습이 보이는 카니발은 집안의 불화를 뜻한다. 일은 시원치 않고 사랑은 되돌아오지 않는다"
-            }
-          ]
-        },
-        {
-          "context": "축제 자리에 있음",
-          "interpretation_ko": "삶의 찬 이치에 무심하고 사람을 일찍 늙게 하는 즐거움을 좇아, 아쉽지는 않으나 남에게 크게 기대게 될 조짐",
-          "interpretation_en": "denotes indifference to the cold realities of life, and a love for those pleasures that make one old before his time",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Festival",
-              "original": "To dream of being at a festival, denotes indifference to the cold realities of life, and a love for those pleasures that make one old before his time. You will never want, but will be largely dependent on others.",
-              "translation_ko": "축제 자리에 있는 꿈은, 삶의 찬 이치에 무심함과 사람을 일찍 늙게 하는 즐거움을 좋아함을 뜻한다. 아쉬울 일은 없겠으나 남에게 크게 기대어 살게 된다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "cauliflower",
       "term_ko": "콜리플라워",
       "term_en": "cauliflower",
@@ -59405,6 +59453,67 @@
               "locator": "Marble",
               "original": "To see it broken, you will fall into disfavor among your associates by defying all moral codes.",
               "translation_ko": "대리석이 깨진 것을 보면, 도리를 저버려 둘레 사람들에게 밉보인다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mast",
+      "term_ko": "돛대",
+      "term_en": "mast",
+      "aliases": [
+        "돛대를",
+        "돛대가",
+        "돛폭대"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "배의 돛대를 봄",
+          "interpretation_ko": "길고 즐거운 뱃길과 많은 새 벗, 그리고 새로 얻는 것이 있을 길한 조짐",
+          "interpretation_en": "denotes long and pleasant voyages, the making of many new friends, and the gaining of new possessions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mast",
+              "original": "To dream of seeing the masts of ships, denotes long and pleasant voyages, the making of many new friends, and the gaining of new possessions.",
+              "translation_ko": "배의 돛대를 보는 꿈은, 길고 즐거운 뱃길과 많은 새 벗, 그리고 새로 얻는 것이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 배의 돛대를 봄",
+          "interpretation_ko": "형편이 갑자기 바뀌어 바라던 즐거움을 접어야 할 흉한 조짐",
+          "interpretation_en": "denotes sudden changes in your circumstances which will necessitate giving over anticipated pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mast",
+              "original": "To see the masts of wrecked ships, denotes sudden changes in your circumstances which will necessitate giving over anticipated pleasures.",
+              "translation_ko": "부서진 배의 돛대를 보면, 형편이 갑자기 바뀌어 바라던 즐거움을 접어야 한다"
+            }
+          ]
+        },
+        {
+          "context": "뱃사람이 돛대 꿈을 꿈",
+          "interpretation_ko": "머잖아 사연 많은 뱃길에 오를 조짐",
+          "interpretation_en": "he will soon sail on an eventful trip",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mast",
+              "original": "If a sailor dreams of a mast, he will soon sail on an eventful trip.",
+              "translation_ko": "뱃사람이 돛대 꿈을 꾸면 머잖아 사연 많은 뱃길에 오른다"
             }
           ]
         }
@@ -79354,6 +79463,147 @@
               "locator": "Martyr",
               "original": "To dream that you are a martyr, signifies the separation from friends, and enemies will slander you.",
               "translation_ko": "제가 순교자가 되는 꿈은, 벗과 헤어지고 적이 저를 헐뜯음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mason",
+      "term_ko": "석공",
+      "term_en": "mason",
+      "aliases": [
+        "석공이",
+        "석공을",
+        "돌쟁이"
+      ],
+      "category": "person",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "석공이 일하는 것을 봄",
+          "interpretation_ko": "형편이 나아지고 더 마음 맞는 사람들에 둘러싸일 길한 조짐",
+          "interpretation_en": "denotes a rise in your circumstances and a more congenial social atmosphere will surround you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mason",
+              "original": "To dream that you see a mason plying his trade, denotes a rise in your circumstances and a more congenial social atmosphere will surround you.",
+              "translation_ko": "석공이 제 일을 하는 것을 보는 꿈은, 형편이 나아지고 더 마음 맞는 사람들에 둘러싸임을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "예복을 갖춘 석공 무리를 봄",
+          "interpretation_ko": "저 말고도 삶의 나쁜 일에서 지켜야 할 이들이 생길 조짐",
+          "interpretation_en": "it denotes that you will have others beside yourself to protect and keep from the evils of life",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mason",
+              "original": "If you dream of seeing a band of the order of masons in full regalia, it denotes that you will have others beside yourself to protect and keep from the evils of life.",
+              "translation_ko": "예복을 갖춘 석공 무리를 보는 꿈은, 저 말고도 삶의 나쁜 일에서 지켜야 할 이들이 생김을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "master",
+      "term_ko": "주인",
+      "term_en": "master",
+      "aliases": [
+        "상전",
+        "주인이",
+        "주인을"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제게 주인이 있음",
+          "interpretation_ko": "남을 이끌 그릇이 못 된다는 조짐 — 뜻이 굳은 사람 밑에서 더 잘해 낸다",
+          "interpretation_en": "is a sign of incompetency on your part to command others, and you will do better work under the leadership of some strong-willed person",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Master",
+              "original": "To dream that you have a master, is a sign of incompetency on your part to command others, and you will do better work under the leadership of some strong-willed person.",
+              "translation_ko": "제게 주인이 있는 꿈은, 남을 이끌 그릇이 못 된다는 뜻이다 — 뜻이 굳은 사람 밑에서 더 잘해 낸다"
+            }
+          ]
+        },
+        {
+          "context": "제가 주인이 되어 여럿을 거느림",
+          "interpretation_ko": "삶의 미묘한 자리에서 판단이 뛰어나고 높은 자리와 큰 재물을 갖게 될 길한 조짐",
+          "interpretation_en": "you will excel in judgment in the fine points of life, and will hold high positions and possess much wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Master",
+              "original": "If you are a master, and command many people under you, you will excel in judgment in the fine points of life, and will hold high positions and possess much wealth.",
+              "translation_ko": "제가 주인이 되어 여럿을 거느리면, 삶의 미묘한 자리에서 판단이 뛰어나고 높은 자리와 큰 재물을 갖게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match",
+      "term_ko": "성냥",
+      "term_en": "match",
+      "aliases": [
+        "성냥을",
+        "성냥이",
+        "성냥갑"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "성냥을 봄",
+          "interpretation_ko": "생각지 못한 때에 넉넉함과 바뀜이 올 길한 조짐",
+          "interpretation_en": "denotes prosperity and change when least expected",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Match",
+              "original": "To dream of matches, denotes prosperity and change when least expected.",
+              "translation_ko": "성냥의 꿈은 생각지 못한 때에 넉넉함과 바뀜이 옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "어둠 속에서 성냥을 그음",
+          "interpretation_ko": "생각지 못한 기별과 복이 올 길한 조짐",
+          "interpretation_en": "unexpected news and fortune is foreboded",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Match",
+              "original": "To strike a match in the dark, unexpected news and fortune is foreboded.",
+              "translation_ko": "어둠 속에서 성냥을 그으면 생각지 못한 기별과 복이 온다"
             }
           ]
         }
