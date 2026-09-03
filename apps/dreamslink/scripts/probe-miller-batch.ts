@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 157 — Party~Password, 9건)
+// (지금 담긴 것: 배치 158 — Pasteboard~Pastry, 5건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -366,6 +366,11 @@ const CASES: Case[] = [
   { id: "bell", ctx: "직접 조종을 울림", text: "직접 조종을 울렸다" },
   { id: "password", ctx: "암호 꿈을 꿈", text: "암호 꿈을 꾸었다" },
   { id: "password", ctx: "여성이 암호를 넘겨줌", text: "여성이 암호를 넘겨주었다" },
+  { id: "pasteboard", ctx: "판지 꿈을 꿈", text: "판지 꿈을 꾸었다" },
+  { id: "pasteboard", ctx: "판지를 자름", text: "판지를 잘랐다" },
+  { id: "pastry", ctx: "패스트리 꿈을 꿈", text: "패스트리 꿈을 꾸었다" },
+  { id: "pastry", ctx: "패스트리를 먹음", text: "패스트리를 먹었다" },
+  { id: "pastry", ctx: "처녀가 패스트리를 만드는 꿈을 꿈", text: "처녀가 패스트리를 만드는 꿈을 꾸었다" },
 ];
 
 let notFound = 0;

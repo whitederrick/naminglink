@@ -1,0 +1,23 @@
+{
+  "batch": 158,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pasteboard",
+      "text": "To dream of pasteboard, denotes that unfaithful friends will deceive you concerning important matters. To cut pasteboard, you will throw aside difficulties in your struggle to reach eminent positions.",
+      "note": "새 상징 `pasteboard`(판지)"
+    },
+    {
+      "headword": "Pastry",
+      "text": "To dream of pastry, denotes that you will be deceived by some artful person. To eat it, implies heartfelt friendships. If a young woman dreams that she is cooking it, she will fail to deceive others as to her real intentions.",
+      "note": "새 상징 `pastry`(패스트리). 「[149] See Pies」는 아직 `pie` 상징이 없어 뺐다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "[149] See Pies.",
+      "reason": "`Pastry` — 아직 `pie` 상징이 사전에 없는 cross-reference"
+    }
+  ]
+}

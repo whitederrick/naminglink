@@ -1,0 +1,77 @@
+[
+  {
+    "term_ko": "판지",
+    "term_en": "pasteboard",
+    "context": "판지 꿈을 꿈",
+    "interpretation_ko": "신의 없는 벗이 중요한 일에서 저를 속일 조짐",
+    "interpretation_en": "denotes that unfaithful friends will deceive you concerning important matters",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pasteboard",
+      "original": "To dream of pasteboard, denotes that unfaithful friends will deceive you concerning important matters.",
+      "translation_ko": "판지 꿈은, 신의 없는 벗이 중요한 일에서 저를 속일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "판지",
+    "term_en": "pasteboard",
+    "context": "판지를 자름",
+    "interpretation_ko": "높은 자리에 오르려는 싸움에서 어려움을 떨쳐낼 조짐",
+    "interpretation_en": "you will throw aside difficulties in your struggle to reach eminent positions",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pasteboard",
+      "original": "To cut pasteboard, you will throw aside difficulties in your struggle to reach eminent positions.",
+      "translation_ko": "판지를 자르는 꿈은, 높은 자리에 오르려는 싸움에서 어려움을 떨쳐낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "패스트리",
+    "term_en": "pastry",
+    "context": "패스트리 꿈을 꿈",
+    "interpretation_ko": "교활한 사람에게 속을 조짐",
+    "interpretation_en": "denotes that you will be deceived by some artful person",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pastry",
+      "original": "To dream of pastry, denotes that you will be deceived by some artful person.",
+      "translation_ko": "패스트리 꿈은, 교활한 사람에게 속을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "패스트리",
+    "term_en": "pastry",
+    "context": "패스트리를 먹음",
+    "interpretation_ko": "진심 어린 우정을 뜻함",
+    "interpretation_en": "implies heartfelt friendships",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pastry",
+      "original": "To eat it, implies heartfelt friendships.",
+      "translation_ko": "패스트리를 먹는 꿈은, 진심 어린 우정을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "패스트리",
+    "term_en": "pastry",
+    "context": "처녀가 패스트리를 만드는 꿈을 꿈",
+    "interpretation_ko": "제 참된 마음을 두고 남을 속이는 데 실패할 조짐",
+    "interpretation_en": "she will fail to deceive others as to her real intentions",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pastry",
+      "original": "If a young woman dreams that she is cooking it, she will fail to deceive others as to her real intentions.",
+      "translation_ko": "처녀가 패스트리를 만드는 꿈을 꾸면, 제 참된 마음을 두고 남을 속이는 데 실패할 조짐이다"
+    }
+  }
+]

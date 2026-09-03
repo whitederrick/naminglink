@@ -4875,5 +4875,10 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "passenger::승객들이 떠남": "떠났 기회를 잃을",
   "passenger::제가 집을 떠나는 승객 중 하나임": "집을 떠나는 불만을 품고",
   "password::암호 꿈을 꿈": "영향력 있는 도움",
-  "password::여성이 암호를 넘겨줌": "넘겨주었 경박하거나"
+  "password::여성이 암호를 넘겨줌": "넘겨주었 경박하거나",
+  "pasteboard::판지 꿈을 꿈": "신의 없는 벗이 속일",
+  "pasteboard::판지를 자름": "자르는 잘랐 어려움을 떨쳐",
+  "pastry::패스트리를 먹음": "먹었 우정",
+  "pastry::처녀가 패스트리를 만드는 꿈을 꿈": "만드는 만들었 참된 마음",
+  "pastry::패스트리 꿈을 꿈": "교활한 사람"
 };

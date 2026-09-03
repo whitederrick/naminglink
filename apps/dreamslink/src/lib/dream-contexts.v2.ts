@@ -4871,5 +4871,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "passenger::승객들이 떠남": "leaving lose opportunity",
   "passenger::제가 집을 떠나는 승객 중 하나임": "dissatisfied present seek change",
   "password::암호 꿈을 꿈": "influential aid trouble",
-  "password::여성이 암호를 넘겨줌": "given away frivolous illicit"
+  "password::여성이 암호를 넘겨줌": "given away frivolous illicit",
+  "pasteboard::판지 꿈을 꿈": "unfaithful friends deceive",
+  "pasteboard::판지를 자름": "cut throw aside difficulties",
+  "pastry::패스트리를 먹음": "eat heartfelt friendships",
+  "pastry::처녀가 패스트리를 만드는 꿈을 꿈": "cooking fail deceive intentions",
+  "pastry::패스트리 꿈을 꿈": "artful person"
 };
