@@ -6506,5 +6506,23 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "november": [
     "novembers"
+  ],
+  "nuns": [
+    "a nun"
+  ],
+  "nurse": [
+    "nurses"
+  ],
+  "nursing": [
+    "nurses her baby"
+  ],
+  "nuts": [
+    "a nut"
+  ],
+  "nutmegs": [
+    "a nutmeg"
+  ],
+  "nymph": [
+    "nymphs"
   ]
 };

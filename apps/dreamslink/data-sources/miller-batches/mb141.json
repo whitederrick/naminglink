@@ -1,0 +1,43 @@
+{
+  "batch": 141,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Nuns",
+      "text": "For a religiously inclined man to dream of nuns, foretells that material joys will interfere with his spirituality. He should be wise in the control of self. For a woman to dream of nuns, foretells her widowhood, or her separation from her lover. If she dreams that she is a nun, it portends her discontentment with present environments. To see a dead nun, signifies despair over the unfaithfulness of loved ones, and impoverished fortune. For one to dream that she discards the robes of her order, foretells that longing for worldly pleasures will unfit her for her chosen duties.",
+      "note": "새 상징 `nuns`(수녀). `buddhist-nun`(비구니, 주공해몽)과는 다른 그림이라 안 겹친다"
+    },
+    {
+      "headword": "Nuptial",
+      "text": "For a woman to dream of her nuptials, she will soon enter upon new engagements, which will afford her distinction, pleasure, and harmony.",
+      "note": "기존 상징 `wedding`(혼례, 밀러 `Marriage`)에 하나를 더한다. 원문 자신이 「[139] See Marriage」라 적었다"
+    },
+    {
+      "headword": "Nurse",
+      "text": "To dream that a nurse is retained in your home, foretells distressing illness, or unlucky visiting among friends. To see a nurse leaving your house, omens good health in the family. For a young woman to dream that she is a nurse, denotes that she will gain the esteem of people, through her self-sacrifice. If she parts from a patient, she will yield to the persuasion of deceit.",
+      "note": "새 상징 `nurse`(간호사)"
+    },
+    {
+      "headword": "Nursing",
+      "text": "For a woman to dream of nursing her baby, denotes pleasant employment. For a young woman to dream of nursing a baby, foretells that she will occupy positions of honor and trust. For a man to dream of seeing his wife nurse their baby, denotes harmony in his pursuits.",
+      "note": "새 상징 `nursing`(수유). 기존 `milk`(젖)는 젖이라는 물질을 다루고, 이것은 아기를 돌보는 몸짓이라 그림이 다르다"
+    },
+    {
+      "headword": "Nuts",
+      "text": "To dream of gathering nuts, augurs successful enterprises, and much favor in love. To eat them, prosperity will aid you in grasping any desired pleasure. For a woman to dream of nuts, foretells that her fortune will be on blissful heights.",
+      "note": "새 상징 `nuts`(견과). 「견과」를 `almonds`(아몬드)가 별칭으로 쥐고 있었다 — 아직 없던 상징의 이름을 먼저 쥔 자리라(§32와 같다) `almonds`에서 빼서 이쪽에 준다"
+    },
+    {
+      "headword": "Nutmegs",
+      "text": "To dream of nutmegs, is a sign of prosperity, and pleasant journeyings.",
+      "note": "새 상징 `nutmegs`(육두구)"
+    },
+    {
+      "headword": "Nymph",
+      "text": "To see nymphs bathing in clear water, denotes that passionate desires will find an ecstatic realization. Convivial entertainments will enchant you. To see them out of their sphere, denotes disappointment with the world. For a young woman to see them bathing, denotes that she will have great favor and pleasure, but they will not rest strictly within the moral code. To dream that she impersonates a nymph, is a sign that she is using her attractions for selfish purposes, and thus the undoing of men.",
+      "note": "새 상징 `nymph`(님프). 「요정」은 이미 `fairy`의 별칭이라 그리스 신화의 물의 정령을 가리키는 「님프」로 지었다 — 그림도 다르다(목욕하는 님프 대 「요정을 봄」)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

@@ -48,6 +48,7 @@
     "m139.json",
     "m14.json",
     "m140.json",
+    "m141.json",
     "m15.json",
     "m16.json",
     "m17.json",
@@ -19880,6 +19881,160 @@
       ]
     },
     {
+      "id": "wedding",
+      "term_ko": "혼례",
+      "term_en": "wedding",
+      "aliases": [
+        "결혼식",
+        "혼인",
+        "혼인하는",
+        "결혼했다",
+        "결혼하는",
+        "혼례를",
+        "혼례가",
+        "예식",
+        "혼인했다",
+        "혼인하고",
+        "혼인하여"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "혼인하는 것을 봄",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "見嫁娶及孝主凶",
+              "translation_ko": "혼인과 상 치르는 것을 보면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 늙고 쇠약한 남자와 혼인함",
+          "interpretation_ko": "괴로운 일과 병을 크게 겪을 흉한 조짐",
+          "interpretation_en": "denotes she will have a vast amount of trouble and sickness to encounter",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "For a woman to dream that she marries an old, decrepit man, wrinkled face and gray headed, denotes she will have a vast amount of trouble and sickness to encounter.",
+              "translation_ko": "여성이 얼굴에 주름지고 머리가 센 늙고 쇠약한 남자와 혼인하는 꿈은, 괴로운 일과 병을 크게 겪음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "혼례 중에 정인이 검은 옷을 입고 지나감",
+          "interpretation_ko": "벗의 차가움과 매정함에 마음이 무너질 흉한 조짐",
+          "interpretation_en": "she will be driven to desperation by the coldness and lack of sympathy of a friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "If, while the ceremony is in progress, her lover passes, wearing black and looking at her in a reproachful way, she will be driven to desperation by the coldness and lack of sympathy of a friend.",
+              "translation_ko": "혼례가 치러지는 동안 정인이 검은 옷을 입고 나무라는 눈으로 지나가면, 벗의 차가움과 매정함에 마음이 무너진다"
+            }
+          ]
+        },
+        {
+          "context": "칙칙한 옷의 하객이 있는 혼례를 봄",
+          "interpretation_ko": "슬픔과 상이 기다리는 흉한 조짐",
+          "interpretation_en": "there will be mourning and sorrow in store for the dreamer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "if they are dressed in black or other somber hues, there will be mourning and sorrow in store for the dreamer.",
+              "translation_ko": "하객이 검거나 칙칙한 빛깔의 옷을 입었으면 슬픔과 상이 기다린다"
+            }
+          ]
+        },
+        {
+          "context": "밝은 빛깔 옷의 하객이 있는 혼례를 봄",
+          "interpretation_ko": "큰 즐거움이 있을 길한 조짐",
+          "interpretation_en": "denotes high enjoyment, if the wedding guests attend in pleasing colors and are happy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "To dream of seeing a marriage, denotes high enjoyment, if the wedding guests attend in pleasing colors and are happy;",
+              "translation_ko": "혼례를 보는 꿈은, 하객이 고운 빛깔의 옷을 입고 즐거워한다면 큰 즐거움이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "혼인을 약속함",
+          "interpretation_ko": "멀리 있는 이에게서 언짢은 기별이 올 흉한 조짐",
+          "interpretation_en": "you will have unpleasant news from the absent",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "If you dream of contracting a marriage, you will have unpleasant news from the absent.",
+              "translation_ko": "혼인을 약속하는 꿈은, 멀리 있는 이에게서 언짢은 기별이 옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "혼례에 들러리로 참석함",
+          "interpretation_ko": "아끼는 이들의 살뜰함에서 큰 즐거움을 얻고 하는 일도 유난히 잘 풀릴 길한 조짐",
+          "interpretation_en": "you will experience much pleasure from the thoughtfulness of loved ones, and business affairs will be unusually promising",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "If you are an attendant at a wedding, you will experience much pleasure from the thoughtfulness of loved ones, and business affairs will be unusually promising.",
+              "translation_ko": "혼례에 들러리로 참석하면, 아끼는 이들의 살뜰함에서 큰 즐거움을 얻고 하는 일도 유난히 잘 풀린다"
+            }
+          ]
+        },
+        {
+          "context": "혼례에 궂은일이 생김",
+          "interpretation_ko": "집안에 괴로운 일이나 병, 죽음이 있을 흉한 조짐",
+          "interpretation_en": "foretells distress, sickness, or death in your family",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "To dream of any unfortunate occurrence in connection with a marriage, foretells distress, sickness, or death in your family.",
+              "translation_ko": "혼례에 궂은일이 생기는 꿈은, 집안에 괴로운 일이나 병, 죽음이 있음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 제 혼례를 봄",
+          "interpretation_ko": "머잖아 새 인연을 맺어 이름을 얻고 즐거움과 화목을 누릴 길조",
+          "interpretation_en": "for a woman to dream of her nuptials, she will soon enter upon new engagements, which will afford her distinction, pleasure, and harmony",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nuptial",
+              "original": "For a woman to dream of her nuptials, she will soon enter upon new engagements, which will afford her distinction, pleasure, and harmony.",
+              "translation_ko": "여성이 제 혼례 꿈을 꾸면, 머잖아 새 인연을 맺어 이름을 얻고 즐거움과 화목을 누릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "abdomen",
       "term_ko": "배",
       "term_en": "abdomen",
@@ -23746,146 +23901,6 @@
               "locator": "天地日月星辰",
               "original": "巡天摩星位公卿",
               "translation_ko": "하늘을 돌며 별을 만지면 공경의 지위에 오른다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wedding",
-      "term_ko": "혼례",
-      "term_en": "wedding",
-      "aliases": [
-        "결혼식",
-        "혼인",
-        "혼인하는",
-        "결혼했다",
-        "결혼하는",
-        "혼례를",
-        "혼례가",
-        "예식",
-        "혼인했다",
-        "혼인하고",
-        "혼인하여"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "혼인하는 것을 봄",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "見嫁娶及孝主凶",
-              "translation_ko": "혼인과 상 치르는 것을 보면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 늙고 쇠약한 남자와 혼인함",
-          "interpretation_ko": "괴로운 일과 병을 크게 겪을 흉한 조짐",
-          "interpretation_en": "denotes she will have a vast amount of trouble and sickness to encounter",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Marriage",
-              "original": "For a woman to dream that she marries an old, decrepit man, wrinkled face and gray headed, denotes she will have a vast amount of trouble and sickness to encounter.",
-              "translation_ko": "여성이 얼굴에 주름지고 머리가 센 늙고 쇠약한 남자와 혼인하는 꿈은, 괴로운 일과 병을 크게 겪음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "혼례 중에 정인이 검은 옷을 입고 지나감",
-          "interpretation_ko": "벗의 차가움과 매정함에 마음이 무너질 흉한 조짐",
-          "interpretation_en": "she will be driven to desperation by the coldness and lack of sympathy of a friend",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Marriage",
-              "original": "If, while the ceremony is in progress, her lover passes, wearing black and looking at her in a reproachful way, she will be driven to desperation by the coldness and lack of sympathy of a friend.",
-              "translation_ko": "혼례가 치러지는 동안 정인이 검은 옷을 입고 나무라는 눈으로 지나가면, 벗의 차가움과 매정함에 마음이 무너진다"
-            }
-          ]
-        },
-        {
-          "context": "칙칙한 옷의 하객이 있는 혼례를 봄",
-          "interpretation_ko": "슬픔과 상이 기다리는 흉한 조짐",
-          "interpretation_en": "there will be mourning and sorrow in store for the dreamer",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Marriage",
-              "original": "if they are dressed in black or other somber hues, there will be mourning and sorrow in store for the dreamer.",
-              "translation_ko": "하객이 검거나 칙칙한 빛깔의 옷을 입었으면 슬픔과 상이 기다린다"
-            }
-          ]
-        },
-        {
-          "context": "밝은 빛깔 옷의 하객이 있는 혼례를 봄",
-          "interpretation_ko": "큰 즐거움이 있을 길한 조짐",
-          "interpretation_en": "denotes high enjoyment, if the wedding guests attend in pleasing colors and are happy",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Marriage",
-              "original": "To dream of seeing a marriage, denotes high enjoyment, if the wedding guests attend in pleasing colors and are happy;",
-              "translation_ko": "혼례를 보는 꿈은, 하객이 고운 빛깔의 옷을 입고 즐거워한다면 큰 즐거움이 있음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "혼인을 약속함",
-          "interpretation_ko": "멀리 있는 이에게서 언짢은 기별이 올 흉한 조짐",
-          "interpretation_en": "you will have unpleasant news from the absent",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Marriage",
-              "original": "If you dream of contracting a marriage, you will have unpleasant news from the absent.",
-              "translation_ko": "혼인을 약속하는 꿈은, 멀리 있는 이에게서 언짢은 기별이 옴을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "혼례에 들러리로 참석함",
-          "interpretation_ko": "아끼는 이들의 살뜰함에서 큰 즐거움을 얻고 하는 일도 유난히 잘 풀릴 길한 조짐",
-          "interpretation_en": "you will experience much pleasure from the thoughtfulness of loved ones, and business affairs will be unusually promising",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Marriage",
-              "original": "If you are an attendant at a wedding, you will experience much pleasure from the thoughtfulness of loved ones, and business affairs will be unusually promising.",
-              "translation_ko": "혼례에 들러리로 참석하면, 아끼는 이들의 살뜰함에서 큰 즐거움을 얻고 하는 일도 유난히 잘 풀린다"
-            }
-          ]
-        },
-        {
-          "context": "혼례에 궂은일이 생김",
-          "interpretation_ko": "집안에 괴로운 일이나 병, 죽음이 있을 흉한 조짐",
-          "interpretation_en": "foretells distress, sickness, or death in your family",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Marriage",
-              "original": "To dream of any unfortunate occurrence in connection with a marriage, foretells distress, sickness, or death in your family.",
-              "translation_ko": "혼례에 궂은일이 생기는 꿈은, 집안에 괴로운 일이나 병, 죽음이 있음을 알린다"
             }
           ]
         }
@@ -39319,6 +39334,96 @@
       ]
     },
     {
+      "id": "nuns",
+      "term_ko": "수녀",
+      "term_en": "nuns",
+      "aliases": [
+        "수녀가",
+        "수녀를",
+        "수녀님",
+        "수녀임을"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "신앙심 깊은 남성이 수녀 꿈을 꿈",
+          "interpretation_ko": "세속의 기쁨이 신앙을 가로막을 흉조 — 스스로를 다스려야 한다",
+          "interpretation_en": "for a religiously inclined man to dream of nuns, foretells that material joys will interfere with his spirituality; he should be wise in the control of self",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nuns",
+              "original": "For a religiously inclined man to dream of nuns, foretells that material joys will interfere with his spirituality. He should be wise in the control of self.",
+              "translation_ko": "신앙심 깊은 남성이 수녀 꿈을 꾸면, 세속의 기쁨이 그의 신앙을 가로막을 조짐이다. 스스로를 슬기롭게 다스려야 한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 수녀 꿈을 꿈",
+          "interpretation_ko": "과부가 되거나 정인과 헤어질 흉조",
+          "interpretation_en": "for a woman to dream of nuns, foretells her widowhood, or her separation from her lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nuns",
+              "original": "For a woman to dream of nuns, foretells her widowhood, or her separation from her lover.",
+              "translation_ko": "여성이 수녀 꿈을 꾸면, 과부가 되거나 정인과 헤어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 제가 수녀임을 봄",
+          "interpretation_ko": "지금 처지에 만족하지 못할 흉조",
+          "interpretation_en": "if she dreams that she is a nun, it portends her discontentment with present environments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nuns",
+              "original": "If she dreams that she is a nun, it portends her discontentment with present environments.",
+              "translation_ko": "여성이 제가 수녀인 꿈을 꾸면, 지금 처지에 만족하지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 수녀를 봄",
+          "interpretation_ko": "사랑하는 이의 배신에 절망하고 살림이 곤궁해질 흉조",
+          "interpretation_en": "to see a dead nun, signifies despair over the unfaithfulness of loved ones, and impoverished fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nuns",
+              "original": "To see a dead nun, signifies despair over the unfaithfulness of loved ones, and impoverished fortune.",
+              "translation_ko": "죽은 수녀를 보는 꿈은, 사랑하는 이의 배신에 절망하고 살림이 곤궁해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "수녀가 수도복을 벗어 버림",
+          "interpretation_ko": "세속의 즐거움을 향한 그리움이 맡은 소임에 어울리지 않게 만들 흉조",
+          "interpretation_en": "for one to dream that she discards the robes of her order, foretells that longing for worldly pleasures will unfit her for her chosen duties",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nuns",
+              "original": "For one to dream that she discards the robes of her order, foretells that longing for worldly pleasures will unfit her for her chosen duties.",
+              "translation_ko": "수녀가 수도복을 벗어 버리는 꿈은, 세속의 즐거움을 향한 그리움이 맡은 소임에 어울리지 않게 만들 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "plate",
       "term_ko": "접시",
       "term_en": "plate",
@@ -49942,6 +50047,156 @@
               "locator": "Nettles",
               "original": "For a young woman to dream of passing through nettles, foretells that she will be offered marriage by different men, and her decision will fill her with anxious foreboding.",
               "translation_ko": "처녀가 쐐기풀 사이를 지나는 꿈은, 여러 남자에게서 청혼을 받고 그 결정으로 근심에 싸일 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nurse",
+      "term_ko": "간호사",
+      "term_en": "nurse",
+      "aliases": [
+        "간호사가",
+        "간호사를",
+        "간호사임을"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "집에 간호사를 둠",
+          "interpretation_ko": "괴로운 병이나 벗과의 불운한 왕래가 있을 흉조",
+          "interpretation_en": "to dream that a nurse is retained in your home, foretells distressing illness, or unlucky visiting among friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nurse",
+              "original": "To dream that a nurse is retained in your home, foretells distressing illness, or unlucky visiting among friends.",
+              "translation_ko": "집에 간호사를 두는 꿈은, 괴로운 병이나 벗과의 불운한 왕래를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "간호사가 집을 나서는 것을 봄",
+          "interpretation_ko": "집안에 건강이 깃들 길조",
+          "interpretation_en": "to see a nurse leaving your house, omens good health in the family",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nurse",
+              "original": "To see a nurse leaving your house, omens good health in the family.",
+              "translation_ko": "간호사가 집을 나서는 것을 보는 꿈은, 집안에 건강이 깃들 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 제가 간호사임을 봄",
+          "interpretation_ko": "자기희생으로 사람들의 존경을 얻을 길조",
+          "interpretation_en": "for a young woman to dream that she is a nurse, denotes that she will gain the esteem of people, through her self-sacrifice",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nurse",
+              "original": "For a young woman to dream that she is a nurse, denotes that she will gain the esteem of people, through her self-sacrifice.",
+              "translation_ko": "처녀가 제가 간호사인 꿈을 꾸면, 자기희생으로 사람들의 존경을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "간호사가 환자와 헤어짐",
+          "interpretation_ko": "속임수의 꾐에 넘어갈 흉조",
+          "interpretation_en": "if she parts from a patient, she will yield to the persuasion of deceit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nurse",
+              "original": "If she parts from a patient, she will yield to the persuasion of deceit.",
+              "translation_ko": "간호사가 환자와 헤어지는 꿈은, 속임수의 꾐에 넘어갈 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nymph",
+      "term_ko": "님프",
+      "term_en": "nymph",
+      "aliases": [
+        "님프가",
+        "님프를",
+        "님프인"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "님프가 맑은 물에서 목욕하는 것을 봄",
+          "interpretation_ko": "뜨거운 욕망이 황홀하게 이루어지고 흥겨운 잔치를 즐길 길조",
+          "interpretation_en": "to see nymphs bathing in clear water, denotes that passionate desires will find an ecstatic realization; convivial entertainments will enchant you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nymph",
+              "original": "To see nymphs bathing in clear water, denotes that passionate desires will find an ecstatic realization. Convivial entertainments will enchant you.",
+              "translation_ko": "님프가 맑은 물에서 목욕하는 것을 보는 꿈은, 뜨거운 욕망이 황홀하게 이루어질 조짐이다. 흥겨운 잔치가 마음을 사로잡을 것이다"
+            }
+          ]
+        },
+        {
+          "context": "님프가 제 영역을 벗어나 있는 것을 봄",
+          "interpretation_ko": "세상에 대한 실망이 있을 흉조",
+          "interpretation_en": "to see them out of their sphere, denotes disappointment with the world",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nymph",
+              "original": "To see them out of their sphere, denotes disappointment with the world.",
+              "translation_ko": "님프가 제 영역을 벗어나 있는 것을 보는 꿈은, 세상에 대한 실망을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 님프가 목욕하는 것을 봄",
+          "interpretation_ko": "큰 호감과 즐거움을 얻으나 바른 도리를 벗어날 흉조",
+          "interpretation_en": "for a young woman to see them bathing, denotes that she will have great favor and pleasure, but they will not rest strictly within the moral code",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nymph",
+              "original": "For a young woman to see them bathing, denotes that she will have great favor and pleasure, but they will not rest strictly within the moral code.",
+              "translation_ko": "처녀가 님프가 목욕하는 것을 보는 꿈은, 큰 호감과 즐거움을 얻겠으나 그것이 온전히 바른 도리 안에 머물지는 않을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 제가 님프인 척함",
+          "interpretation_ko": "제 매력을 사사로이 이용해 남자를 망치고 있다는 흉조",
+          "interpretation_en": "to dream that she impersonates a nymph, is a sign that she is using her attractions for selfish purposes, and thus the undoing of men",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nymph",
+              "original": "To dream that she impersonates a nymph, is a sign that she is using her attractions for selfish purposes, and thus the undoing of men.",
+              "translation_ko": "처녀가 제가 님프인 척하는 꿈은, 제 매력을 사사로운 목적으로 이용해 남자를 망치고 있다는 조짐이다"
             }
           ]
         }
@@ -63712,6 +63967,127 @@
       ]
     },
     {
+      "id": "nursing",
+      "term_ko": "수유",
+      "term_en": "nursing",
+      "aliases": [
+        "수유를",
+        "젖을 물림",
+        "아기에게 젖을"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여성이 제 아기에게 젖을 물림",
+          "interpretation_ko": "즐거운 일거리가 있을 길조",
+          "interpretation_en": "for a woman to dream of nursing her baby, denotes pleasant employment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nursing",
+              "original": "For a woman to dream of nursing her baby, denotes pleasant employment.",
+              "translation_ko": "여성이 제 아기에게 젖을 물리는 꿈은 즐거운 일거리를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 아기에게 젖을 물림",
+          "interpretation_ko": "명예롭고 신임받는 자리에 오를 길조",
+          "interpretation_en": "for a young woman to dream of nursing a baby, foretells that she will occupy positions of honor and trust",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nursing",
+              "original": "For a young woman to dream of nursing a baby, foretells that she will occupy positions of honor and trust.",
+              "translation_ko": "처녀가 아기에게 젖을 물리는 꿈은, 명예롭고 신임받는 자리에 오를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남성이 아내가 아기에게 젖을 물리는 것을 봄",
+          "interpretation_ko": "하는 일에 화목이 깃들 길조",
+          "interpretation_en": "for a man to dream of seeing his wife nurse their baby, denotes harmony in his pursuits",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nursing",
+              "original": "For a man to dream of seeing his wife nurse their baby, denotes harmony in his pursuits.",
+              "translation_ko": "남성이 아내가 아기에게 젖을 물리는 것을 보는 꿈은, 하는 일에 화목이 깃들 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nuts",
+      "term_ko": "견과",
+      "term_en": "nuts",
+      "aliases": [
+        "견과가",
+        "견과를"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "견과를 주움",
+          "interpretation_ko": "하는 일이 잘되고 애정에서도 큰 호감을 얻을 길조",
+          "interpretation_en": "to dream of gathering nuts, augurs successful enterprises, and much favor in love",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nuts",
+              "original": "To dream of gathering nuts, augurs successful enterprises, and much favor in love.",
+              "translation_ko": "견과를 줍는 꿈은 하는 일이 잘되고 애정에서도 큰 호감을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "견과를 먹음",
+          "interpretation_ko": "바라던 즐거움을 무엇이든 붙잡도록 번영이 도울 길조",
+          "interpretation_en": "to eat them, prosperity will aid you in grasping any desired pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nuts",
+              "original": "To eat them, prosperity will aid you in grasping any desired pleasure.",
+              "translation_ko": "견과를 먹는 꿈은, 바라던 즐거움을 무엇이든 붙잡도록 번영이 도울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 견과 꿈을 꿈",
+          "interpretation_ko": "살림이 더없이 좋은 자리에 오를 길조",
+          "interpretation_en": "for a woman to dream of nuts, foretells that her fortune will be on blissful heights",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nuts",
+              "original": "For a woman to dream of nuts, foretells that her fortune will be on blissful heights.",
+              "translation_ko": "여성이 견과 꿈을 꾸면, 살림이 더없이 좋은 자리에 오를 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "official",
       "term_ko": "관리",
       "term_en": "official",
@@ -65822,8 +66198,7 @@
       "term_en": "almonds",
       "aliases": [
         "편도",
-        "아몬드 알",
-        "견과"
+        "아몬드 알"
       ],
       "category": "object",
       "polarity": "ambivalent",
@@ -96606,6 +96981,38 @@
               "locator": "November",
               "original": "To dream of November, augers a season of indifferent success in all affairs.",
               "translation_ko": "11월 꿈은 모든 일에서 그저 그런 성과가 있을 철임을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nutmegs",
+      "term_ko": "육두구",
+      "term_en": "nutmegs",
+      "aliases": [
+        "육두구가",
+        "육두구를"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "육두구 꿈을 꿈",
+          "interpretation_ko": "번영과 즐거운 여정이 있을 길조",
+          "interpretation_en": "to dream of nutmegs, is a sign of prosperity, and pleasant journeyings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Nutmegs",
+              "original": "To dream of nutmegs, is a sign of prosperity, and pleasant journeyings.",
+              "translation_ko": "육두구 꿈은 번영과 즐거운 여정의 조짐이다"
             }
           ]
         }
