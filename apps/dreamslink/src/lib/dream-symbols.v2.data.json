@@ -99,6 +99,7 @@
     "m185.json",
     "m186.json",
     "m187.json",
+    "m188.json",
     "m19.json",
     "m2.json",
     "m20.json",
@@ -16080,6 +16081,165 @@
       ]
     },
     {
+      "id": "cards",
+      "term_ko": "카드놀이",
+      "term_en": "cards",
+      "aliases": [
+        "트럼프 카드",
+        "화투",
+        "포커"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "어울려 재미로 카드놀이를 함",
+          "interpretation_ko": "오래 품어 온 바람이 웬만큼 이루어지고 작은 병통은 사라질 조짐",
+          "interpretation_en": "fair realization of hopes that have long buoyed you up; small ills will vanish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cards",
+              "original": "If playing them in your dreams with others for social pastime, you will meet with fair realization of hopes that have long buoyed you up.  Small ills will vanish.",
+              "translation_ko": "여럿이 재미로 카드놀이를 하면, 오래 품어 온 바람이 웬만큼 이루어지고 작은 병통은 사라진다"
+            }
+          ]
+        },
+        {
+          "context": "돈을 걸고 카드놀이를 함",
+          "interpretation_ko": "만만찮은 어려움에 말려들 조짐",
+          "interpretation_en": "you will be involved in difficulties of a serious nature",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cards",
+              "original": "But playing for stakes will involve you in difficulties of a serious nature.",
+              "translation_ko": "그러나 판돈을 걸고 하면 만만찮은 어려움에 말려든다"
+            }
+          ]
+        },
+        {
+          "context": "카드놀이에서 짐",
+          "interpretation_ko": "적을 만나게 될 조짐",
+          "interpretation_en": "you will encounter enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cards",
+              "original": "If you lose at cards you will encounter enemies.",
+              "translation_ko": "카드놀이에서 지면 적을 만나게 된다"
+            }
+          ]
+        },
+        {
+          "context": "카드놀이에서 이김",
+          "interpretation_ko": "법 앞에서 떳떳함을 밝히게 되나 그러기까지 애를 먹을 조짐",
+          "interpretation_en": "you will justify yourself in the eyes of the law, but will have trouble in so doing",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cards",
+              "original": "If you win you will justify yourself in the eyes of the law, but will have trouble in so doing.",
+              "translation_ko": "이기면 법 앞에서 스스로 떳떳함을 밝히게 되나, 그러기까지 애를 먹는다"
+            }
+          ]
+        },
+        {
+          "context": "연인이 카드놀이를 함",
+          "interpretation_ko": "그 뜻이 바른지 의심할 일이 생길 조짐",
+          "interpretation_en": "she will have cause to question his good intentions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cards",
+              "original": "If a young woman dreams that her sweetheart is playing at cards, she will have cause to question his good intentions.",
+              "translation_ko": "젊은 여성이 제 연인이 카드놀이를 하는 꿈을 꾸면, 그 뜻이 바른지 의심할 일이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "다이아몬드 짝패를 봄",
+          "interpretation_ko": "재물이 있을 조짐",
+          "interpretation_en": "diamonds indicate wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cards",
+              "original": "In social games, seeing diamonds indicate wealth",
+              "translation_ko": "어울려 하는 놀이에서 다이아몬드 짝패를 보면 재물을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "클로버 짝패를 봄",
+          "interpretation_ko": "배필이 까다로워 자리를 비운 까닭을 대기 어려울 조짐",
+          "interpretation_en": "your partner in life will be exacting, and you may have trouble explaining your absence at times",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cards",
+              "original": "clubs, that your partner in life will be exacting, and that you may have trouble in explaining your absence at times",
+              "translation_ko": "클로버는 배필이 까다로워, 때로 자리를 비운 까닭을 대기 어려움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "하트 짝패를 봄",
+          "interpretation_ko": "변치 않는 정과 아늑한 살림이 있을 조짐",
+          "interpretation_en": "hearts denote fidelity and cosy surroundings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cards",
+              "original": "hearts denote fidelity and cosy surroundings",
+              "translation_ko": "하트는 변치 않는 정과 아늑한 살림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "스페이드 짝패를 봄",
+          "interpretation_ko": "홀로 되어 큰 재산을 떠안게 될 조짐",
+          "interpretation_en": "you will be a widow and encumbered with a large estate",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cards",
+              "original": "spades signify that you will be a widow and encumbered with a large estate",
+              "translation_ko": "스페이드는 홀로 되어 큰 재산을 떠안게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "포커를 침",
+          "interpretation_ko": "나쁜 벗을 조심하라는 경고. 특히 처녀가 이 놀음에 빠지면 도덕적 특성을 잃을 것",
+          "interpretation_en": "warns you against evil company; and young women, especially, will lose their moral distinctiveness if they find themselves engaged in this game",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poker",
+              "original": "To play at poker, warns you against evil company; and young women, especially, will lose their moral distinctiveness if they find themselves engaged in this game.",
+              "translation_ko": "포커를 치는 꿈은, 나쁜 벗을 조심하라는 경고다. 특히 처녀가 이 놀음에 빠지면 도덕적 특성을 잃을 것이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "carriage",
       "term_ko": "마차",
       "term_en": "carriage",
@@ -19113,151 +19273,6 @@
               "locator": "被害鬥傷打罵",
               "original": "刀斧自傷主大吉",
               "translation_ko": "칼과 도끼에 스스로 다치면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cards",
-      "term_ko": "카드놀이",
-      "term_en": "cards",
-      "aliases": [
-        "트럼프 카드",
-        "화투",
-        "포커"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "어울려 재미로 카드놀이를 함",
-          "interpretation_ko": "오래 품어 온 바람이 웬만큼 이루어지고 작은 병통은 사라질 조짐",
-          "interpretation_en": "fair realization of hopes that have long buoyed you up; small ills will vanish",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cards",
-              "original": "If playing them in your dreams with others for social pastime, you will meet with fair realization of hopes that have long buoyed you up.  Small ills will vanish.",
-              "translation_ko": "여럿이 재미로 카드놀이를 하면, 오래 품어 온 바람이 웬만큼 이루어지고 작은 병통은 사라진다"
-            }
-          ]
-        },
-        {
-          "context": "돈을 걸고 카드놀이를 함",
-          "interpretation_ko": "만만찮은 어려움에 말려들 조짐",
-          "interpretation_en": "you will be involved in difficulties of a serious nature",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cards",
-              "original": "But playing for stakes will involve you in difficulties of a serious nature.",
-              "translation_ko": "그러나 판돈을 걸고 하면 만만찮은 어려움에 말려든다"
-            }
-          ]
-        },
-        {
-          "context": "카드놀이에서 짐",
-          "interpretation_ko": "적을 만나게 될 조짐",
-          "interpretation_en": "you will encounter enemies",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cards",
-              "original": "If you lose at cards you will encounter enemies.",
-              "translation_ko": "카드놀이에서 지면 적을 만나게 된다"
-            }
-          ]
-        },
-        {
-          "context": "카드놀이에서 이김",
-          "interpretation_ko": "법 앞에서 떳떳함을 밝히게 되나 그러기까지 애를 먹을 조짐",
-          "interpretation_en": "you will justify yourself in the eyes of the law, but will have trouble in so doing",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cards",
-              "original": "If you win you will justify yourself in the eyes of the law, but will have trouble in so doing.",
-              "translation_ko": "이기면 법 앞에서 스스로 떳떳함을 밝히게 되나, 그러기까지 애를 먹는다"
-            }
-          ]
-        },
-        {
-          "context": "연인이 카드놀이를 함",
-          "interpretation_ko": "그 뜻이 바른지 의심할 일이 생길 조짐",
-          "interpretation_en": "she will have cause to question his good intentions",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cards",
-              "original": "If a young woman dreams that her sweetheart is playing at cards, she will have cause to question his good intentions.",
-              "translation_ko": "젊은 여성이 제 연인이 카드놀이를 하는 꿈을 꾸면, 그 뜻이 바른지 의심할 일이 생긴다"
-            }
-          ]
-        },
-        {
-          "context": "다이아몬드 짝패를 봄",
-          "interpretation_ko": "재물이 있을 조짐",
-          "interpretation_en": "diamonds indicate wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cards",
-              "original": "In social games, seeing diamonds indicate wealth",
-              "translation_ko": "어울려 하는 놀이에서 다이아몬드 짝패를 보면 재물을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "클로버 짝패를 봄",
-          "interpretation_ko": "배필이 까다로워 자리를 비운 까닭을 대기 어려울 조짐",
-          "interpretation_en": "your partner in life will be exacting, and you may have trouble explaining your absence at times",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cards",
-              "original": "clubs, that your partner in life will be exacting, and that you may have trouble in explaining your absence at times",
-              "translation_ko": "클로버는 배필이 까다로워, 때로 자리를 비운 까닭을 대기 어려움을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "하트 짝패를 봄",
-          "interpretation_ko": "변치 않는 정과 아늑한 살림이 있을 조짐",
-          "interpretation_en": "hearts denote fidelity and cosy surroundings",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cards",
-              "original": "hearts denote fidelity and cosy surroundings",
-              "translation_ko": "하트는 변치 않는 정과 아늑한 살림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "스페이드 짝패를 봄",
-          "interpretation_ko": "홀로 되어 큰 재산을 떠안게 될 조짐",
-          "interpretation_en": "you will be a widow and encumbered with a large estate",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cards",
-              "original": "spades signify that you will be a widow and encumbered with a large estate",
-              "translation_ko": "스페이드는 홀로 되어 큰 재산을 떠안게 됨을 뜻한다"
             }
           ]
         }
@@ -29834,6 +29849,115 @@
               "locator": "Lighthouse",
               "original": "To see a lighthouse from a placid sea, denotes calm joys and congenial friends.",
               "translation_ko": "잔잔한 바다에서 등대를 보면 고요한 즐거움과 마음 맞는 벗을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bear",
+      "term_ko": "곰",
+      "term_en": "bear",
+      "aliases": [
+        "반달곰",
+        "불곰",
+        "흑곰",
+        "북극곰이",
+        "북극곰을",
+        "북극곰"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [
+        "태몽"
+      ],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "곰 꿈을 꿈",
+          "interpretation_ko": "온갖 일에서 압도적인 경쟁을 뜻하는 조짐",
+          "interpretation_en": "a sign significant of overwhelming competition in pursuits of every kind",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bear",
+              "original": "Bear is significant of overwhelming competition in pursuits of every kind.",
+              "translation_ko": "곰 꿈은 온갖 일에서 압도적인 경쟁을 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "북극곰의 가죽을 봄",
+          "interpretation_ko": "어떤 반대도 성공적으로 이겨낼 조짐",
+          "interpretation_en": "denotes that you will successfully overcome any opposition",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Polar Bear",
+              "original": "To see the skin of one, denotes that you will successfully overcome any opposition.",
+              "translation_ko": "북극곰의 가죽을 보는 꿈은, 어떤 반대도 성공적으로 이겨낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "북극곰 꿈을 꿈",
+          "interpretation_ko": "속임수의 조짐. 불운이 그럴듯한 겉모습으로 다가오고, 가장 지독한 원수가 우정의 옷을 입으며, 라이벌이 저를 밀어내려 할 것",
+          "interpretation_en": "are prognostic of deceit, as misfortune will approach you in a seeming fair aspect. Your bitterest enemies will wear the garb of friendship. Rivals will try to supersede you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Polar Bear",
+              "original": "Polar bears in dreams, are prognostic of deceit, as misfortune will approach you in a seeming fair aspect. Your bitterest enemies will wear the garb of friendship. Rivals will try to supersede you.",
+              "translation_ko": "북극곰 꿈은, 속임수의 조짐이다. 불운이 그럴듯한 겉모습으로 다가오고, 가장 지독한 원수가 우정의 옷을 입으며, 라이벌이 저를 밀어내려 할 것이다"
+            }
+          ]
+        },
+        {
+          "context": "곰을 죽임",
+          "interpretation_ko": "이전의 얽힌 문제에서 벗어날 조짐",
+          "interpretation_en": "a sign portending extrication from former entanglements",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bear",
+              "original": "To kill a bear, portends extrication from former entanglements.",
+              "translation_ko": "곰을 죽이면 이전의 얽힌 문제에서 벗어날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 곰 꿈을 꿈",
+          "interpretation_ko": "위협적인 경쟁자가 생기거나 어떤 불행을 겪을 조짐",
+          "interpretation_en": "a sign that she will have a threatening rival or some misfortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bear",
+              "original": "A young woman who dreams of a bear will have a threatening rival or some misfortune.",
+              "translation_ko": "곰 꿈을 꾸는 젊은 여성은 위협적인 경쟁자가 생기거나 어떤 불행을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "곰을 봄",
+          "interpretation_ko": "귀한 자식을 낳을 조짐",
+          "interpretation_en": "a sign of giving birth to a noble child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "熊羆主身生貴子",
+              "translation_ko": "곰과 큰곰은 몸에 귀한 자식을 낳을 조짐이다"
             }
           ]
         }
@@ -46112,84 +46236,6 @@
               "locator": "Beads",
               "original": "To scatter them, signifies loss of caste among your acquaintances.",
               "translation_ko": "구슬을 흩뿌리면 지인들 사이에서 지위(체면)를 잃을 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bear",
-      "term_ko": "곰",
-      "term_en": "bear",
-      "aliases": [
-        "반달곰",
-        "불곰",
-        "흑곰"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "곰 꿈을 꿈",
-          "interpretation_ko": "온갖 일에서 압도적인 경쟁을 뜻하는 조짐",
-          "interpretation_en": "a sign significant of overwhelming competition in pursuits of every kind",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bear",
-              "original": "Bear is significant of overwhelming competition in pursuits of every kind.",
-              "translation_ko": "곰 꿈은 온갖 일에서 압도적인 경쟁을 뜻하는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "곰을 죽임",
-          "interpretation_ko": "이전의 얽힌 문제에서 벗어날 조짐",
-          "interpretation_en": "a sign portending extrication from former entanglements",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bear",
-              "original": "To kill a bear, portends extrication from former entanglements.",
-              "translation_ko": "곰을 죽이면 이전의 얽힌 문제에서 벗어날 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "젊은 여성이 곰 꿈을 꿈",
-          "interpretation_ko": "위협적인 경쟁자가 생기거나 어떤 불행을 겪을 조짐",
-          "interpretation_en": "a sign that she will have a threatening rival or some misfortune",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bear",
-              "original": "A young woman who dreams of a bear will have a threatening rival or some misfortune.",
-              "translation_ko": "곰 꿈을 꾸는 젊은 여성은 위협적인 경쟁자가 생기거나 어떤 불행을 겪을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "곰을 봄",
-          "interpretation_ko": "귀한 자식을 낳을 조짐",
-          "interpretation_en": "a sign of giving birth to a noble child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "熊羆主身生貴子",
-              "translation_ko": "곰과 큰곰은 몸에 귀한 자식을 낳을 조짐이다"
             }
           ]
         }
@@ -95123,6 +95169,52 @@
       ]
     },
     {
+      "id": "skunk",
+      "term_ko": "스컹크",
+      "term_en": "skunk",
+      "aliases": [
+        "스컹크가",
+        "스컹크를"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스컹크 꿈을 꿈",
+          "interpretation_ko": "음란한 추문을 뜻함",
+          "interpretation_en": "signifies salacious scandals",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pole-cat",
+              "original": "To dream of a pole-cat, signifies salacious scandals.",
+              "translation_ko": "스컹크 꿈은, 음란한 추문을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "옷에 밴 스컹크 냄새를 맡거나 다른 데서 그 냄새를 맡음",
+          "interpretation_ko": "행실이 무례하다 여겨지고 일이 만족스럽지 못할 조짐",
+          "interpretation_en": "you will find that your conduct will be considered rude, and your affairs will prove unsatisfactory",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pole-cat",
+              "original": "To inhale the odor of a pole-cat on your clothes, or otherwise smell one, you will find that your conduct will be considered rude, and your affairs will prove unsatisfactory.",
+              "translation_ko": "옷에 밴 스컹크 냄새를 맡거나 다른 데서 그 냄새를 맡는 꿈은, 행실이 무례하다 여겨지고 일이 만족스럽지 못할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "soldier",
       "term_ko": "군사",
       "term_en": "soldier",
@@ -106380,6 +106472,38 @@
               "locator": "Pocket",
               "original": "To dream of your pocket, is a sign of evil demonstrations against you.",
               "translation_ko": "제 주머니 꿈은, 저를 겨눈 악의적인 언동의 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poker",
+      "term_ko": "부지깽이",
+      "term_en": "poker",
+      "aliases": [
+        "부지깽이가",
+        "부지깽이를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "빨갛게 달군 부지깽이를 보거나 그것으로 싸움",
+          "interpretation_ko": "투지 넘치는 기운으로 곤란에 맞설 조짐",
+          "interpretation_en": "signifies that you will meet trouble with combative energy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poker",
+              "original": "To dream of seeing a red hot poker, or fighting with one, signifies that you will meet trouble with combative energy.",
+              "translation_ko": "빨갛게 달군 부지깽이를 보거나 그것으로 싸우는 꿈은, 투지 넘치는 기운으로 곤란에 맞설 조짐이다"
             }
           ]
         }

@@ -1,0 +1,23 @@
+{
+  "batch": 188,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Poker",
+      "text": "To dream of seeing a red hot poker, or fighting with one, signifies that you will meet trouble with combative energy. To play at poker, warns you against evil company; and young women, especially, will lose their moral distinctiveness if they find themselves engaged in this game.",
+      "note": "새 상징 `poker`(부지깽이, 불에 달군 쇠막대). 카드놀이 「포커」는 기존 상징 `cards`(카드놀이)에 붙인다 — 그 별칭에 이미 「포커」가 있다"
+    },
+    {
+      "headword": "Polar Bear",
+      "text": "Polar bears in dreams, are prognostic of deceit, as misfortune will approach you in a seeming fair aspect. Your bitterest enemies will wear the garb of friendship. Rivals will try to supersede you. To see the skin of one, denotes that you will successfully overcome any opposition.",
+      "note": "기존 상징 `bear`(곰, 밀러 `Bear`)에 둘을 더한다. 각주 [164]는 「Bear 항목 참고」라는 지시다"
+    },
+    {
+      "headword": "Pole-cat",
+      "text": "To dream of a pole-cat, signifies salacious scandals. To inhale the odor of a pole-cat on your clothes, or otherwise smell one, you will find that your conduct will be considered rude, and your affairs will prove unsatisfactory.",
+      "note": "새 상징 `skunk`(스컹크)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

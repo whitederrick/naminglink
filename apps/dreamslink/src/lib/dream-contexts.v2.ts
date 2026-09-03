@@ -580,6 +580,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "bear::곰을 죽임": "killed killing slew slain shot",
   "bear::젊은 여성이 곰 꿈을 꿈": "woman girl maiden young lady",
   "bear::곰을 봄": "saw seeing watched sight beheld",
+  "bear::북극곰 꿈을 꿈": "deceit",
+  "bear::북극곰의 가죽을 봄": "skin overcome opposition",
   "combing-one-s-hair::머리를 빗음": "illness relative decay",
   "combing-one-s-hair::머리를 곱게 빗음": "neatly tidily groomed",
   "combing-one-s-hair::여성이 고운 머리카락을 빗음": "beautiful careless personal advancement",
@@ -2844,6 +2846,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "cards::클로버 짝패를 봄": "clubs",
   "cards::하트 짝패를 봄": "hearts",
   "cards::스페이드 짝패를 봄": "spades",
+  "cards::포커를 침": "poker moral distinctiveness",
   "carnival::카니발에 어울려 참여함": "participating pleasure recreation",
   "carnival::가면을 쓰거나 광대 차림이 보이는 카니발": "masks clownish incongruous discord",
   "carnival::축제 자리에 있음": "indifference realities dependent",
@@ -5105,5 +5108,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "poison::친척이나 자녀가 중독됨": "relatives children",
   "poison::원수나 적이 중독됨": "enemy rival overcome",
   "poison::중독에서 회복함": "recover effects",
-  "poison::의사의 권유로 독성 있는 약을 먹음": "strychnine physician"
+  "poison::의사의 권유로 독성 있는 약을 먹음": "strychnine physician",
+  "skunk::스컹크 꿈을 꿈": "scandals",
+  "skunk::옷에 밴 스컹크 냄새를 맡거나 다른 데서 그 냄새를 맡음": "odor smell inhale"
 };

@@ -736,24 +736,33 @@
     "aliases": [
       "반달곰",
       "불곰",
-      "흑곰"
+      "흑곰",
+      "북극곰이",
+      "북극곰을",
+      "북극곰"
     ],
     "aliases_en": [
       "bears",
       "black bear",
-      "grizzly"
+      "grizzly",
+      "a polar bear",
+      "polar bears"
     ],
     "contexts": {
       "곰 꿈을 꿈": "쫓아오 덤벼 위협 마주쳐 나타난",
       "곰을 죽임": "죽였 죽임 사살 처치 때려잡",
       "젊은 여성이 곰 꿈을 꿈": "처녀 아가씨 미혼 여자 여성",
-      "곰을 봄": "보았 봤다 목격 바라보 눈앞"
+      "곰을 봄": "보았 봤다 목격 바라보 눈앞",
+      "북극곰 꿈을 꿈": "북극곰",
+      "북극곰의 가죽을 봄": "가죽을"
     },
     "contexts_en": {
       "곰 꿈을 꿈": "encountered threatening charging appeared rival",
       "곰을 죽임": "killed killing slew slain shot",
       "젊은 여성이 곰 꿈을 꿈": "woman girl maiden young lady",
-      "곰을 봄": "saw seeing watched sight beheld"
+      "곰을 봄": "saw seeing watched sight beheld",
+      "북극곰 꿈을 꿈": "deceit",
+      "북극곰의 가죽을 봄": "skin overcome opposition"
     }
   },
   {

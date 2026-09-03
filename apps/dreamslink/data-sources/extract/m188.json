@@ -1,0 +1,92 @@
+[
+  {
+    "term_ko": "부지깽이",
+    "term_en": "poker",
+    "context": "빨갛게 달군 부지깽이를 보거나 그것으로 싸움",
+    "interpretation_ko": "투지 넘치는 기운으로 곤란에 맞설 조짐",
+    "interpretation_en": "signifies that you will meet trouble with combative energy",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Poker",
+      "original": "To dream of seeing a red hot poker, or fighting with one, signifies that you will meet trouble with combative energy.",
+      "translation_ko": "빨갛게 달군 부지깽이를 보거나 그것으로 싸우는 꿈은, 투지 넘치는 기운으로 곤란에 맞설 조짐이다"
+    }
+  },
+  {
+    "term_ko": "카드놀이",
+    "term_en": "cards",
+    "context": "포커를 침",
+    "interpretation_ko": "나쁜 벗을 조심하라는 경고. 특히 처녀가 이 놀음에 빠지면 도덕적 특성을 잃을 것",
+    "interpretation_en": "warns you against evil company; and young women, especially, will lose their moral distinctiveness if they find themselves engaged in this game",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Poker",
+      "original": "To play at poker, warns you against evil company; and young women, especially, will lose their moral distinctiveness if they find themselves engaged in this game.",
+      "translation_ko": "포커를 치는 꿈은, 나쁜 벗을 조심하라는 경고다. 특히 처녀가 이 놀음에 빠지면 도덕적 특성을 잃을 것이다"
+    }
+  },
+  {
+    "term_ko": "곰",
+    "term_en": "bear",
+    "context": "북극곰의 가죽을 봄",
+    "interpretation_ko": "어떤 반대도 성공적으로 이겨낼 조짐",
+    "interpretation_en": "denotes that you will successfully overcome any opposition",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Polar Bear",
+      "original": "To see the skin of one, denotes that you will successfully overcome any opposition.",
+      "translation_ko": "북극곰의 가죽을 보는 꿈은, 어떤 반대도 성공적으로 이겨낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "곰",
+    "term_en": "bear",
+    "context": "북극곰 꿈을 꿈",
+    "interpretation_ko": "속임수의 조짐. 불운이 그럴듯한 겉모습으로 다가오고, 가장 지독한 원수가 우정의 옷을 입으며, 라이벌이 저를 밀어내려 할 것",
+    "interpretation_en": "are prognostic of deceit, as misfortune will approach you in a seeming fair aspect. Your bitterest enemies will wear the garb of friendship. Rivals will try to supersede you",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Polar Bear",
+      "original": "Polar bears in dreams, are prognostic of deceit, as misfortune will approach you in a seeming fair aspect. Your bitterest enemies will wear the garb of friendship. Rivals will try to supersede you.",
+      "translation_ko": "북극곰 꿈은, 속임수의 조짐이다. 불운이 그럴듯한 겉모습으로 다가오고, 가장 지독한 원수가 우정의 옷을 입으며, 라이벌이 저를 밀어내려 할 것이다"
+    }
+  },
+  {
+    "term_ko": "스컹크",
+    "term_en": "skunk",
+    "context": "스컹크 꿈을 꿈",
+    "interpretation_ko": "음란한 추문을 뜻함",
+    "interpretation_en": "signifies salacious scandals",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Pole-cat",
+      "original": "To dream of a pole-cat, signifies salacious scandals.",
+      "translation_ko": "스컹크 꿈은, 음란한 추문을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "스컹크",
+    "term_en": "skunk",
+    "context": "옷에 밴 스컹크 냄새를 맡거나 다른 데서 그 냄새를 맡음",
+    "interpretation_ko": "행실이 무례하다 여겨지고 일이 만족스럽지 못할 조짐",
+    "interpretation_en": "you will find that your conduct will be considered rude, and your affairs will prove unsatisfactory",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pole-cat",
+      "original": "To inhale the odor of a pole-cat on your clothes, or otherwise smell one, you will find that your conduct will be considered rude, and your affairs will prove unsatisfactory.",
+      "translation_ko": "옷에 밴 스컹크 냄새를 맡거나 다른 데서 그 냄새를 맡는 꿈은, 행실이 무례하다 여겨지고 일이 만족스럽지 못할 조짐이다"
+    }
+  }
+]

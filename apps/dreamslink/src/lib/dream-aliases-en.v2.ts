@@ -620,7 +620,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "bear": [
     "bears",
     "black bear",
-    "grizzly"
+    "grizzly",
+    "a polar bear",
+    "polar bears"
   ],
   "bodhisattva": [
     "bodhisattvas",
@@ -6862,5 +6864,13 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "poison": [
     "poisonous",
     "poisoned"
+  ],
+  "poker": [
+    "a poker",
+    "red hot poker"
+  ],
+  "skunk": [
+    "a skunk",
+    "skunks"
   ]
 };
