@@ -6778,5 +6778,11 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "piano": [
     "pianos"
+  ],
+  "pickaxe": [
+    "pickaxes"
+  ],
+  "pickle": [
+    "pickles"
   ]
 };

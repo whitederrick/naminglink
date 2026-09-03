@@ -1,0 +1,23 @@
+{
+  "batch": 173,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pickaxe",
+      "text": "To dream of a pickaxe, denotes a relentless enemy is working to overthrow you socially. A broken one, implies disaster to all your interests.",
+      "note": "새 상징 `pickaxe`(곡괭이)"
+    },
+    {
+      "headword": "Pickles",
+      "text": "To dream of pickles, denotes that you will follow worthless pursuits if you fail to call energy and judgment to your aid. For a young woman to dream of eating pickles, foretells an unambitious career. To dream of pickles, denotes vexation in love, but final triumph. For a young woman to dream that she is eating them, or is hungry for them, foretells she will find many rivals, and will be overcome unless she is careful of her private affairs. Impure pickles, indicate disappointing engagements and love quarrels.",
+      "note": "새 상징 `pickle`(피클). 원문 자신이 「To dream of pickles, denotes...」를 문장 그대로 두 번 적었다(오탈자로 보이지 않는다 — 1901년판 원문 그대로). 둘째 것(「사랑의 번민이나 결국 이김」)은 첫째와 문맥 이름이 완전히 같은 채 결말만 달라 가를 수 없어 뺐다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "To dream of pickles, denotes vexation in love, but final triumph.",
+      "reason": "`Pickles` — 원문이 「To dream of pickles, denotes...」를 문장 그대로 두 번 적었다. 첫 번째 것과 영어 트리거 문구가 완전히 같아 문맥 이름을 가를 수 없고(같은 work·같은 이름은 조립기가 하나로 합친다), 결말만 달라 판별어로도 못 가른다"
+    }
+  ]
+}

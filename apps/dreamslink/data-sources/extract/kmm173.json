@@ -1,0 +1,42 @@
+[
+  {
+    "id": "pickaxe",
+    "aliases": [
+      "곡괭이가",
+      "곡괭이를"
+    ],
+    "aliases_en": [
+      "pickaxes"
+    ],
+    "contexts": {
+      "곡괭이 꿈을 꿈": "가차없는 사회적",
+      "부러진 곡괭이를 봄": "부러진 재앙"
+    },
+    "contexts_en": {
+      "곡괭이 꿈을 꿈": "relentless enemy overthrow",
+      "부러진 곡괭이를 봄": "broken disaster interests"
+    }
+  },
+  {
+    "id": "pickle",
+    "aliases": [
+      "피클이",
+      "피클을"
+    ],
+    "aliases_en": [
+      "pickles"
+    ],
+    "contexts": {
+      "피클 꿈을 꿈": "기력과 판단력",
+      "처녀가 피클을 먹는 꿈을 꿈": "처녀가 야망 없는",
+      "처녀가 피클을 먹거나 몹시 먹고 싶어함": "몹시 먹고 경쟁자",
+      "상한 피클을 봄": "상한 실망스러운"
+    },
+    "contexts_en": {
+      "피클 꿈을 꿈": "worthless pursuits energy",
+      "처녀가 피클을 먹는 꿈을 꿈": "young woman unambitious career",
+      "처녀가 피클을 먹거나 몹시 먹고 싶어함": "hungry rivals overcome",
+      "상한 피클을 봄": "impure disappointing quarrels"
+    }
+  }
+]

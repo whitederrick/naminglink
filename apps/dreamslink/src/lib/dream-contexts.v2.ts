@@ -4995,5 +4995,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "piano::슬프고 애처로운 음악을 들음": "sad plaintive sorrowful",
   "piano::피아노가 부서지고 음이 안 맞는 것을 봄": "broken tune dissatisfaction",
   "piano::낡은 구식 피아노를 봄": "old-fashioned neglected",
-  "piano::처녀가 어렵고도 황홀한 곡을 연주함": "young woman entrancing devoted"
+  "piano::처녀가 어렵고도 황홀한 곡을 연주함": "young woman entrancing devoted",
+  "pickaxe::곡괭이 꿈을 꿈": "relentless enemy overthrow",
+  "pickaxe::부러진 곡괭이를 봄": "broken disaster interests",
+  "pickle::피클 꿈을 꿈": "worthless pursuits energy",
+  "pickle::처녀가 피클을 먹는 꿈을 꿈": "young woman unambitious career",
+  "pickle::처녀가 피클을 먹거나 몹시 먹고 싶어함": "hungry rivals overcome",
+  "pickle::상한 피클을 봄": "impure disappointing quarrels"
 };

@@ -1,0 +1,92 @@
+[
+  {
+    "term_ko": "곡괭이",
+    "term_en": "pickaxe",
+    "context": "곡괭이 꿈을 꿈",
+    "interpretation_ko": "가차없는 적이 사회적으로 저를 무너뜨리려 애쓰고 있다는 조짐",
+    "interpretation_en": "denotes a relentless enemy is working to overthrow you socially",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pickaxe",
+      "original": "To dream of a pickaxe, denotes a relentless enemy is working to overthrow you socially.",
+      "translation_ko": "곡괭이 꿈은, 가차없는 적이 사회적으로 저를 무너뜨리려 애쓰고 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "곡괭이",
+    "term_en": "pickaxe",
+    "context": "부러진 곡괭이를 봄",
+    "interpretation_ko": "이해관계 전반에 재앙이 닥칠 조짐",
+    "interpretation_en": "implies disaster to all your interests",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pickaxe",
+      "original": "A broken one, implies disaster to all your interests.",
+      "translation_ko": "부러진 곡괭이를 보는 꿈은, 이해관계 전반에 재앙이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "피클",
+    "term_en": "pickle",
+    "context": "피클 꿈을 꿈",
+    "interpretation_ko": "기력과 판단력을 끌어오지 못하면 헛된 일을 좇을 조짐",
+    "interpretation_en": "denotes that you will follow worthless pursuits if you fail to call energy and judgment to your aid",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pickles",
+      "original": "To dream of pickles, denotes that you will follow worthless pursuits if you fail to call energy and judgment to your aid.",
+      "translation_ko": "피클 꿈은, 기력과 판단력을 끌어오지 못하면 헛된 일을 좇을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "피클",
+    "term_en": "pickle",
+    "context": "처녀가 피클을 먹는 꿈을 꿈",
+    "interpretation_ko": "야망 없는 삶을 예고하는 조짐",
+    "interpretation_en": "foretells an unambitious career",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pickles",
+      "original": "For a young woman to dream of eating pickles, foretells an unambitious career.",
+      "translation_ko": "처녀가 피클을 먹는 꿈은, 야망 없는 삶을 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "피클",
+    "term_en": "pickle",
+    "context": "처녀가 피클을 먹거나 몹시 먹고 싶어함",
+    "interpretation_ko": "경쟁자가 많아지고 사사로운 일을 조심하지 않으면 밀릴 조짐",
+    "interpretation_en": "foretells she will find many rivals, and will be overcome unless she is careful of her private affairs",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pickles",
+      "original": "For a young woman to dream that she is eating them, or is hungry for them, foretells she will find many rivals, and will be overcome unless she is careful of her private affairs.",
+      "translation_ko": "처녀가 피클을 먹거나 몹시 먹고 싶어하는 꿈은, 경쟁자가 많아지고 사사로운 일을 조심하지 않으면 밀릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "피클",
+    "term_en": "pickle",
+    "context": "상한 피클을 봄",
+    "interpretation_ko": "실망스러운 약속과 애정 다툼을 가리키는 조짐",
+    "interpretation_en": "indicate disappointing engagements and love quarrels",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pickles",
+      "original": "Impure pickles, indicate disappointing engagements and love quarrels.",
+      "translation_ko": "상한 피클을 보는 꿈은, 실망스러운 약속과 애정 다툼을 가리키는 조짐이다"
+    }
+  }
+]
