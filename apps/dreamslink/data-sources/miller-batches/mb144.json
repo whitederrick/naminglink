@@ -1,0 +1,53 @@
+{
+  "batch": 144,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Ointment",
+      "text": "To dream of ointment, denotes that you will form friendships which will prove beneficial and pleasing to you. For a young woman to dream that she makes ointment, denotes that she will be able to command her own affairs whether they be of a private or public character.",
+      "note": "새 상징 `ointment`(연고)"
+    },
+    {
+      "headword": "Old Man, or Woman",
+      "text": "To dream of seeing an old man, or woman, denotes that unhappy cares will oppress you, if they appear otherwise than serene.",
+      "note": "새 상징 `old-man-or-woman`(노인). 원문 자신이 「[140] See Faces, Men, and Women」이라 적었지만 그런 일반 상징이 없고 내용도 `face`와 달라 새로 세웠다"
+    },
+    {
+      "headword": "Olives",
+      "text": "Gathering olives with a merry band of friends, foretells favorable results in business, and delightful surprises. If you take them from bottles, it foretells conviviality. To break a bottle of olives, indicates disappointments on the eve of pleasure. To eat them, signifies contentment and faithful friends.",
+      "note": "새 상징 `olives`(올리브)"
+    },
+    {
+      "headword": "Omelet",
+      "text": "To see omelet being served in your dream, warns you of flattery and deceit, which is about to be used against you. To eat it, shows that you will be imposed upon by some one seemingly worthy of your confidence.",
+      "note": "새 상징 `omelet`(오믈렛)"
+    },
+    {
+      "headword": "Omnibus",
+      "text": "To dream that you are being drawn through the streets in an omnibus, foretells misunderstandings with friends, and unwise promises will be made by you.",
+      "note": "기존 상징 `carriage`(마차)에 하나를 더한다. 원문 자신이 「[141] See Carriage」라 적었다"
+    },
+    {
+      "headword": "One-Eyed",
+      "text": "To see one-eyed creatures in your dreams, is portentous of an over-whelming intimation of secret intriguing against your fortune and happiness.",
+      "note": "새 상징 `one-eyed`(애꾸눈)"
+    },
+    {
+      "headword": "Onions",
+      "text": "Seeing quantities of onions in your dreams, represents the amount of spite and envy that you will meet, by being successful. If you eat them, you will overcome all opposition. If you see them growing, there will be just enough of rivalry in your affairs, to make things interesting. Cooked onions, denote placidity and small gains in business. To dream that you are cutting onions and feel the escaping juice in your eyes, denotes that you will be defeated by your rivals.",
+      "note": "새 상징 `onions`(양파). `green-onion`(대파)·`chinese-onion`(염교)과는 다른 채소다"
+    },
+    {
+      "headword": "Opera",
+      "text": "To dream of attending an opera, denotes that you will be entertained by congenial friends, and find that your immediate affairs will be favorable.",
+      "note": "새 상징 `opera`(오페라)"
+    },
+    {
+      "headword": "Opium",
+      "text": "To dream of opium, signifies strangers will obstruct your chances of improving your fortune, by sly and seductive means.",
+      "note": "기존 상징 `laudanum`(아편, 밀러 `Laudanum`)에 하나를 더한다. 「아편」이 이미 그 상징의 이름이다 — 낯선 이들이 훼방 놓는다는 각도가 달라 겹치지 않는다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

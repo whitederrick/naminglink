@@ -6570,5 +6570,27 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "oilcloth": [
     "an oilcloth"
+  ],
+  "ointment": [
+    "an ointment"
+  ],
+  "old-man-or-woman": [
+    "an old man",
+    "an old woman"
+  ],
+  "olives": [
+    "an olive"
+  ],
+  "omelet": [
+    "an omelet"
+  ],
+  "one-eyed": [
+    "a one-eyed"
+  ],
+  "onions": [
+    "an onion"
+  ],
+  "opera": [
+    "an opera"
   ]
 };

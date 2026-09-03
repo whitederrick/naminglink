@@ -1,0 +1,121 @@
+[
+  {
+    "id": "ointment",
+    "aliases": [
+      "연고가",
+      "연고를"
+    ],
+    "aliases_en": [
+      "an ointment"
+    ],
+    "contexts": {
+      "연고 꿈을 꿈": "우정을 이롭고",
+      "처녀가 연고를 만듦": "처녀가 만드는 만들었"
+    },
+    "contexts_en": {
+      "연고 꿈을 꿈": "friendships beneficial pleasing",
+      "처녀가 연고를 만듦": "young woman makes command affairs"
+    }
+  },
+  {
+    "id": "old-man-or-woman",
+    "aliases": [
+      "노인이",
+      "노인을"
+    ],
+    "aliases_en": [
+      "an old man",
+      "an old woman"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "olives",
+    "aliases": [
+      "올리브가",
+      "올리브를"
+    ],
+    "aliases_en": [
+      "an olive"
+    ],
+    "contexts": {
+      "즐거운 벗들과 올리브를 땀": "즐거운 벗들과 땄다",
+      "병에서 올리브를 꺼냄": "병에서 꺼냈",
+      "올리브 병을 깨뜨림": "병을 깨뜨렸",
+      "올리브를 먹음": "먹었 먹는"
+    },
+    "contexts_en": {
+      "즐거운 벗들과 올리브를 땀": "gathering merry friends business",
+      "병에서 올리브를 꺼냄": "taking conviviality",
+      "올리브 병을 깨뜨림": "break bottle disappointments eve",
+      "올리브를 먹음": "eat contentment faithful"
+    }
+  },
+  {
+    "id": "omelet",
+    "aliases": [
+      "오믈렛이",
+      "오믈렛을"
+    ],
+    "aliases_en": [
+      "an omelet"
+    ],
+    "contexts": {
+      "오믈렛이 나오는 것을 봄": "나오는 서빙 차려진",
+      "오믈렛을 먹음": "먹었 먹는"
+    },
+    "contexts_en": {
+      "오믈렛이 나오는 것을 봄": "served flattery deceit",
+      "오믈렛을 먹음": "eat imposed confidence"
+    }
+  },
+  {
+    "id": "one-eyed",
+    "aliases": [
+      "애꾸눈이",
+      "애꾸눈을"
+    ],
+    "aliases_en": [
+      "a one-eyed"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "onions",
+    "aliases": [
+      "양파가",
+      "양파를"
+    ],
+    "aliases_en": [
+      "an onion"
+    ],
+    "contexts": {
+      "양파가 많이 있는 것을 봄": "많이 시샘 질투",
+      "양파를 먹음": "먹었 먹는 반대를",
+      "양파가 자라는 것을 봄": "자라는 자랐",
+      "익힌 양파를 봄": "익힌 익혀",
+      "양파를 썰다가 눈에 즙이 스밈": "썰다가 즙이 매워"
+    },
+    "contexts_en": {
+      "양파가 많이 있는 것을 봄": "quantities spite envy successful",
+      "양파를 먹음": "overcome opposition",
+      "양파가 자라는 것을 봄": "growing rivalry interesting",
+      "익힌 양파를 봄": "cooked placidity gains",
+      "양파를 썰다가 눈에 즙이 스밈": "cutting juice eyes defeated rivals"
+    }
+  },
+  {
+    "id": "opera",
+    "aliases": [
+      "오페라가",
+      "오페라를"
+    ],
+    "aliases_en": [
+      "an opera"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "term_ko": "연고",
+    "term_en": "ointment",
+    "context": "연고 꿈을 꿈",
+    "interpretation_ko": "이롭고 즐거운 우정을 맺을 길조",
+    "interpretation_en": "to dream of ointment, denotes that you will form friendships which will prove beneficial and pleasing to you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ointment",
+      "original": "To dream of ointment, denotes that you will form friendships which will prove beneficial and pleasing to you.",
+      "translation_ko": "연고 꿈은 이롭고 즐거운 우정을 맺을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연고",
+    "term_en": "ointment",
+    "context": "처녀가 연고를 만듦",
+    "interpretation_ko": "사사로운 일이든 공적인 일이든 스스로 다스릴 수 있게 될 길조",
+    "interpretation_en": "for a young woman to dream that she makes ointment, denotes that she will be able to command her own affairs whether they be of a private or public character",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ointment",
+      "original": "For a young woman to dream that she makes ointment, denotes that she will be able to command her own affairs whether they be of a private or public character.",
+      "translation_ko": "처녀가 연고를 만드는 꿈은, 사사로운 일이든 공적인 일이든 스스로 다스릴 수 있게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "노인",
+    "term_en": "old man, or woman",
+    "context": "노인을 봄",
+    "interpretation_ko": "노인이 평온해 보이지 않으면 언짢은 근심에 짓눌릴 흉조",
+    "interpretation_en": "to dream of seeing an old man, or woman, denotes that unhappy cares will oppress you, if they appear otherwise than serene",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Old Man, or Woman",
+      "original": "To dream of seeing an old man, or woman, denotes that unhappy cares will oppress you, if they appear otherwise than serene.",
+      "translation_ko": "노인을 보는 꿈은, 그가 평온해 보이지 않는 한 언짢은 근심에 짓눌릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "올리브",
+    "term_en": "olives",
+    "context": "즐거운 벗들과 올리브를 땀",
+    "interpretation_ko": "사업에서 좋은 결과와 뜻밖의 기쁨이 있을 길조",
+    "interpretation_en": "gathering olives with a merry band of friends, foretells favorable results in business, and delightful surprises",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Olives",
+      "original": "Gathering olives with a merry band of friends, foretells favorable results in business, and delightful surprises.",
+      "translation_ko": "즐거운 벗들과 올리브를 따는 꿈은, 사업에서 좋은 결과와 뜻밖의 기쁨이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "올리브",
+    "term_en": "olives",
+    "context": "병에서 올리브를 꺼냄",
+    "interpretation_ko": "흥겨운 자리가 있을 길조",
+    "interpretation_en": "if you take them from bottles, it foretells conviviality",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Olives",
+      "original": "If you take them from bottles, it foretells conviviality",
+      "translation_ko": "병에서 올리브를 꺼내는 꿈은 흥겨운 자리를 알린다"
+    }
+  },
+  {
+    "term_ko": "올리브",
+    "term_en": "olives",
+    "context": "올리브 병을 깨뜨림",
+    "interpretation_ko": "즐거움을 앞두고 낙담할 흉조",
+    "interpretation_en": "to break a bottle of olives, indicates disappointments on the eve of pleasure",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Olives",
+      "original": "To break a bottle of olives, indicates disappointments on the eve of pleasure.",
+      "translation_ko": "올리브가 든 병을 깨뜨리는 꿈은, 즐거움을 앞두고 낙담할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "올리브",
+    "term_en": "olives",
+    "context": "올리브를 먹음",
+    "interpretation_ko": "만족과 신실한 벗이 있을 길조",
+    "interpretation_en": "to eat them, signifies contentment and faithful friends",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Olives",
+      "original": "To eat them, signifies contentment and faithful friends.",
+      "translation_ko": "올리브를 먹는 꿈은 만족과 신실한 벗을 알린다"
+    }
+  },
+  {
+    "term_ko": "오믈렛",
+    "term_en": "omelet",
+    "context": "오믈렛이 나오는 것을 봄",
+    "interpretation_ko": "아첨과 속임수가 나를 노리고 있다는 흉조",
+    "interpretation_en": "to see omelet being served in your dream, warns you of flattery and deceit, which is about to be used against you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Omelet",
+      "original": "To see omelet being served in your dream, warns you of flattery and deceit, which is about to be used against you.",
+      "translation_ko": "오믈렛이 나오는 꿈은, 아첨과 속임수가 나를 노리고 있다는 경고다"
+    }
+  },
+  {
+    "term_ko": "오믈렛",
+    "term_en": "omelet",
+    "context": "오믈렛을 먹음",
+    "interpretation_ko": "미더워 보이는 이에게 이용당할 흉조",
+    "interpretation_en": "to eat it, shows that you will be imposed upon by some one seemingly worthy of your confidence",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Omelet",
+      "original": "To eat it, shows that you will be imposed upon by some one seemingly worthy of your confidence.",
+      "translation_ko": "오믈렛을 먹는 꿈은, 미더워 보이는 이에게 이용당할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "마차",
+    "term_en": "carriage",
+    "context": "합승마차를 타고 거리를 지남",
+    "interpretation_ko": "벗과의 오해와 경솔한 약속이 있을 흉조",
+    "interpretation_en": "to dream that you are being drawn through the streets in an omnibus, foretells misunderstandings with friends, and unwise promises will be made by you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Omnibus",
+      "original": "To dream that you are being drawn through the streets in an omnibus, foretells misunderstandings with friends, and unwise promises will be made by you.",
+      "translation_ko": "합승마차를 타고 거리를 지나는 꿈은, 벗과의 오해와 경솔한 약속을 알린다"
+    }
+  },
+  {
+    "term_ko": "애꾸눈",
+    "term_en": "one-eyed",
+    "context": "애꾸눈 생물을 봄",
+    "interpretation_ko": "내 복과 행복을 노리는 은밀한 음모가 있다는 흉조",
+    "interpretation_en": "to see one-eyed creatures in your dreams, is portentous of an over-whelming intimation of secret intriguing against your fortune and happiness",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "One-Eyed",
+      "original": "To see one-eyed creatures in your dreams, is portentous of an over-whelming intimation of secret intriguing against your fortune and happiness.",
+      "translation_ko": "애꾸눈 생물을 보는 꿈은, 내 복과 행복을 노리는 은밀한 음모가 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "양파",
+    "term_en": "onions",
+    "context": "양파가 많이 있는 것을 봄",
+    "interpretation_ko": "성공한 나를 향한 시샘과 질투가 있을 흉조",
+    "interpretation_en": "seeing quantities of onions in your dreams, represents the amount of spite and envy that you will meet, by being successful",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Onions",
+      "original": "Seeing quantities of onions in your dreams, represents the amount of spite and envy that you will meet, by being successful.",
+      "translation_ko": "양파가 많이 있는 꿈은, 성공한 나를 향한 시샘과 질투를 뜻한다"
+    }
+  },
+  {
+    "term_ko": "양파",
+    "term_en": "onions",
+    "context": "양파를 먹음",
+    "interpretation_ko": "모든 반대를 이겨 낼 길조",
+    "interpretation_en": "if you eat them, you will overcome all opposition",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Onions",
+      "original": "If you eat them, you will overcome all opposition.",
+      "translation_ko": "양파를 먹는 꿈은 모든 반대를 이겨 낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "양파",
+    "term_en": "onions",
+    "context": "양파가 자라는 것을 봄",
+    "interpretation_ko": "일에 흥을 돋울 만큼의 경쟁이 있을 조짐",
+    "interpretation_en": "if you see them growing, there will be just enough of rivalry in your affairs, to make things interesting",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Onions",
+      "original": "If you see them growing, there will be just enough of rivalry in your affairs, to make things interesting.",
+      "translation_ko": "양파가 자라는 것을 보는 꿈은, 일에 흥을 돋울 만큼의 경쟁이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "양파",
+    "term_en": "onions",
+    "context": "익힌 양파를 봄",
+    "interpretation_ko": "평온함과 자잘한 이득이 있을 길조",
+    "interpretation_en": "cooked onions, denote placidity and small gains in business",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Onions",
+      "original": "Cooked onions, denote placidity and small gains in business.",
+      "translation_ko": "익힌 양파를 보는 꿈은, 평온함과 자잘한 이득을 알린다"
+    }
+  },
+  {
+    "term_ko": "양파",
+    "term_en": "onions",
+    "context": "양파를 썰다가 눈에 즙이 스밈",
+    "interpretation_ko": "경쟁자에게 질 흉조",
+    "interpretation_en": "to dream that you are cutting onions and feel the escaping juice in your eyes, denotes that you will be defeated by your rivals",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Onions",
+      "original": "To dream that you are cutting onions and feel the escaping juice in your eyes, denotes that you will be defeated by your rivals.",
+      "translation_ko": "양파를 썰다가 눈에 매운 즙이 스미는 꿈은, 경쟁자에게 질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "오페라",
+    "term_en": "opera",
+    "context": "오페라를 관람함",
+    "interpretation_ko": "마음 맞는 벗들과 즐거운 시간을 보내고 당면한 일도 순조로울 길조",
+    "interpretation_en": "to dream of attending an opera, denotes that you will be entertained by congenial friends, and find that your immediate affairs will be favorable",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Opera",
+      "original": "To dream of attending an opera, denotes that you will be entertained by congenial friends, and find that your immediate affairs will be favorable.",
+      "translation_ko": "오페라를 관람하는 꿈은, 마음 맞는 벗들과 즐거운 시간을 보내고 당면한 일도 순조로울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "아편",
+    "term_en": "laudanum",
+    "context": "아편 꿈을 꿈",
+    "interpretation_ko": "낯선 이들이 교활한 수로 내 살림이 나아지는 것을 가로막을 흉조",
+    "interpretation_en": "to dream of opium, signifies strangers will obstruct your chances of improving your fortune, by sly and seductive means",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Opium",
+      "original": "To dream of opium, signifies strangers will obstruct your chances of improving your fortune, by sly and seductive means.",
+      "translation_ko": "아편 꿈은, 낯선 이들이 교활하고 홀리는 수로 내 살림이 나아지는 것을 가로막을 조짐이다"
+    }
+  }
+]

@@ -51,6 +51,7 @@
     "m141.json",
     "m142.json",
     "m143.json",
+    "m144.json",
     "m15.json",
     "m16.json",
     "m17.json",
@@ -15582,6 +15583,166 @@
       ]
     },
     {
+      "id": "carriage",
+      "term_ko": "마차",
+      "term_en": "carriage",
+      "aliases": [
+        "사륜마차",
+        "마차를 탔다",
+        "무개마차",
+        "합승마차"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "마차를 봄",
+          "interpretation_ko": "흡족한 일이 있고 남을 찾아다니게 될 조짐",
+          "interpretation_en": "you will be gratified, and you will make visits",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carriage",
+              "original": "To see a carriage, implies that you will be gratified, and that you will make visits.",
+              "translation_ko": "마차를 보면 흡족한 일이 있고 남을 찾아다니게 된다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 타고 감",
+          "interpretation_ko": "곧 지나갈 병을 앓은 뒤 건강과 좋은 자리를 누릴 조짐",
+          "interpretation_en": "a sickness that will soon pass, and then health and advantageous positions",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carriage",
+              "original": "To ride in one, you will have a sickness that will soon pass, and you will enjoy health and advantageous positions.",
+              "translation_ko": "마차를 타고 가면 곧 지나갈 병을 앓고, 그 뒤 건강과 이로운 자리를 누린다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 찾아다님",
+          "interpretation_ko": "고되게 일해야 하나 끝내는 웬만한 살림을 갖출 조짐",
+          "interpretation_en": "you will have to labor hard, but will eventually be possessed with a fair competency",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carriage",
+              "original": "To dream that you are looking for a carriage, you will have to labor hard, but will eventually be possessed with a fair competency.",
+              "translation_ko": "마차를 찾아다니는 꿈은 고되게 일해야 하나 끝내는 웬만한 살림을 갖추게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "합승마차를 타고 거리를 지남",
+          "interpretation_ko": "벗과의 오해와 경솔한 약속이 있을 흉조",
+          "interpretation_en": "to dream that you are being drawn through the streets in an omnibus, foretells misunderstandings with friends, and unwise promises will be made by you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Omnibus",
+              "original": "To dream that you are being drawn through the streets in an omnibus, foretells misunderstandings with friends, and unwise promises will be made by you.",
+              "translation_ko": "합승마차를 타고 거리를 지나는 꿈은, 벗과의 오해와 경솔한 약속을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 몲",
+          "interpretation_ko": "헤퍼 보인다는 억울한 말을 듣고, 떳떳지 못해 보이는 일을 하게 될 조짐",
+          "interpretation_en": "unjust criticism of your seeming extravagance; you will be compelled to do things which appear undignified",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "To dream of driving a carriage, signifies unjust criticism of your seeming extravagance. You will be compelled to do things which appear undignified.",
+              "translation_ko": "마차를 모는 꿈은, 헤퍼 보인다는 억울한 말을 듣고 떳떳지 못해 보이는 일을 하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남자가 남이 모는 마차에 실려 감",
+          "interpretation_ko": "여자와의 일에서 바라던 바를 빠르게 이룰 조짐",
+          "interpretation_en": "in affairs with women, you will drive your wishes to a speedy consummation",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If you are a man, you will, in affairs with women, drive your wishes to a speedy consummation.",
+              "translation_ko": "남자라면, 여자와의 일에서 바라던 바를 빠르게 이룬다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 남이 모는 마차에 실려 감",
+          "interpretation_ko": "남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여길 조짐",
+          "interpretation_en": "you will hold men's hearts at low value after succeeding in getting a hold on them",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If a woman, you will hold men's hearts at low value after succeeding in getting a hold on them.",
+              "translation_ko": "여자라면, 남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여기게 된다"
+            }
+          ]
+        },
+        {
+          "context": "남이 모는 마차에 실려 감",
+          "interpretation_ko": "세상을 더 잘 아는 덕을 보고, 어려움 속에서도 늘 길을 찾을 조짐",
+          "interpretation_en": "you will profit by superior knowledge of the world, and will always find some path through difficulties",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If you are driven in these conveyances by others, you will profit by superior knowledge of the world, and will always find some path through difficulties.",
+              "translation_ko": "남이 모는 수레에 실려 가면, 세상을 더 잘 아는 덕을 보고 어려움 속에서도 늘 길을 찾는다"
+            }
+          ]
+        },
+        {
+          "context": "벗이나 정인과 함께 마차를 타고 감",
+          "interpretation_ko": "가볍고 즐거운 일들이 잇달아 삶을 스쳐 갈 길한 조짐",
+          "interpretation_en": "denotes that incidents of a light, but pleasant character will pass in rapid succession through your life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Landau",
+              "original": "To dream that you ride in a landau, with your friend or sweetheart, denotes that incidents of a light, but pleasant character will pass in rapid succession through your life.",
+              "translation_ko": "벗이나 정인과 함께 마차를 타고 가는 꿈을 꾸면, 가볍고 즐거운 일들이 잇달아 삶을 스쳐 간다"
+            }
+          ]
+        },
+        {
+          "context": "마차가 뒤집힘",
+          "interpretation_ko": "즐거움이 갑자기 슬픔으로 바뀔 흉한 조짐",
+          "interpretation_en": "then pleasure will abruptly turn into woe",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Landau",
+              "original": "If the vehicle is overturned, then pleasure will abruptly turn into woe.",
+              "translation_ko": "마차가 뒤집히면 즐거움이 갑자기 슬픔으로 바뀐다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "child",
       "term_ko": "아이",
       "term_en": "child",
@@ -18278,151 +18439,6 @@
               "locator": "Cards",
               "original": "spades signify that you will be a widow and encumbered with a large estate",
               "translation_ko": "스페이드는 홀로 되어 큰 재산을 떠안게 됨을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "carriage",
-      "term_ko": "마차",
-      "term_en": "carriage",
-      "aliases": [
-        "사륜마차",
-        "마차를 탔다",
-        "무개마차"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "마차를 봄",
-          "interpretation_ko": "흡족한 일이 있고 남을 찾아다니게 될 조짐",
-          "interpretation_en": "you will be gratified, and you will make visits",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carriage",
-              "original": "To see a carriage, implies that you will be gratified, and that you will make visits.",
-              "translation_ko": "마차를 보면 흡족한 일이 있고 남을 찾아다니게 된다"
-            }
-          ]
-        },
-        {
-          "context": "마차를 타고 감",
-          "interpretation_ko": "곧 지나갈 병을 앓은 뒤 건강과 좋은 자리를 누릴 조짐",
-          "interpretation_en": "a sickness that will soon pass, and then health and advantageous positions",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carriage",
-              "original": "To ride in one, you will have a sickness that will soon pass, and you will enjoy health and advantageous positions.",
-              "translation_ko": "마차를 타고 가면 곧 지나갈 병을 앓고, 그 뒤 건강과 이로운 자리를 누린다"
-            }
-          ]
-        },
-        {
-          "context": "마차를 찾아다님",
-          "interpretation_ko": "고되게 일해야 하나 끝내는 웬만한 살림을 갖출 조짐",
-          "interpretation_en": "you will have to labor hard, but will eventually be possessed with a fair competency",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carriage",
-              "original": "To dream that you are looking for a carriage, you will have to labor hard, but will eventually be possessed with a fair competency.",
-              "translation_ko": "마차를 찾아다니는 꿈은 고되게 일해야 하나 끝내는 웬만한 살림을 갖추게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "마차를 몲",
-          "interpretation_ko": "헤퍼 보인다는 억울한 말을 듣고, 떳떳지 못해 보이는 일을 하게 될 조짐",
-          "interpretation_en": "unjust criticism of your seeming extravagance; you will be compelled to do things which appear undignified",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "To dream of driving a carriage, signifies unjust criticism of your seeming extravagance. You will be compelled to do things which appear undignified.",
-              "translation_ko": "마차를 모는 꿈은, 헤퍼 보인다는 억울한 말을 듣고 떳떳지 못해 보이는 일을 하게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "남자가 남이 모는 마차에 실려 감",
-          "interpretation_ko": "여자와의 일에서 바라던 바를 빠르게 이룰 조짐",
-          "interpretation_en": "in affairs with women, you will drive your wishes to a speedy consummation",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "If you are a man, you will, in affairs with women, drive your wishes to a speedy consummation.",
-              "translation_ko": "남자라면, 여자와의 일에서 바라던 바를 빠르게 이룬다"
-            }
-          ]
-        },
-        {
-          "context": "여자가 남이 모는 마차에 실려 감",
-          "interpretation_ko": "남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여길 조짐",
-          "interpretation_en": "you will hold men's hearts at low value after succeeding in getting a hold on them",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "If a woman, you will hold men's hearts at low value after succeeding in getting a hold on them.",
-              "translation_ko": "여자라면, 남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여기게 된다"
-            }
-          ]
-        },
-        {
-          "context": "남이 모는 마차에 실려 감",
-          "interpretation_ko": "세상을 더 잘 아는 덕을 보고, 어려움 속에서도 늘 길을 찾을 조짐",
-          "interpretation_en": "you will profit by superior knowledge of the world, and will always find some path through difficulties",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "If you are driven in these conveyances by others, you will profit by superior knowledge of the world, and will always find some path through difficulties.",
-              "translation_ko": "남이 모는 수레에 실려 가면, 세상을 더 잘 아는 덕을 보고 어려움 속에서도 늘 길을 찾는다"
-            }
-          ]
-        },
-        {
-          "context": "벗이나 정인과 함께 마차를 타고 감",
-          "interpretation_ko": "가볍고 즐거운 일들이 잇달아 삶을 스쳐 갈 길한 조짐",
-          "interpretation_en": "denotes that incidents of a light, but pleasant character will pass in rapid succession through your life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Landau",
-              "original": "To dream that you ride in a landau, with your friend or sweetheart, denotes that incidents of a light, but pleasant character will pass in rapid succession through your life.",
-              "translation_ko": "벗이나 정인과 함께 마차를 타고 가는 꿈을 꾸면, 가볍고 즐거운 일들이 잇달아 삶을 스쳐 간다"
-            }
-          ]
-        },
-        {
-          "context": "마차가 뒤집힘",
-          "interpretation_ko": "즐거움이 갑자기 슬픔으로 바뀔 흉한 조짐",
-          "interpretation_en": "then pleasure will abruptly turn into woe",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Landau",
-              "original": "If the vehicle is overturned, then pleasure will abruptly turn into woe.",
-              "translation_ko": "마차가 뒤집히면 즐거움이 갑자기 슬픔으로 바뀐다"
             }
           ]
         }
@@ -38838,6 +38854,94 @@
       ]
     },
     {
+      "id": "laudanum",
+      "term_ko": "아편",
+      "term_en": "laudanum",
+      "aliases": [
+        "아편팅크",
+        "아편을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "아편 꿈을 꿈",
+          "interpretation_ko": "낯선 이들이 교활한 수로 내 살림이 나아지는 것을 가로막을 흉조",
+          "interpretation_en": "to dream of opium, signifies strangers will obstruct your chances of improving your fortune, by sly and seductive means",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Opium",
+              "original": "To dream of opium, signifies strangers will obstruct your chances of improving your fortune, by sly and seductive means.",
+              "translation_ko": "아편 꿈은, 낯선 이들이 교활하고 홀리는 수로 내 살림이 나아지는 것을 가로막을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아편을 먹음",
+          "interpretation_ko": "제 마음이 여려 남에게 지나치게 휘둘릴 흉한 조짐",
+          "interpretation_en": "signifies weakness of your own; and that you will have a tendency to be unduly influenced by others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laudanum",
+              "original": "To dream that you take laudanum, signifies weakness of your own; and that you will have a tendency to be unduly influenced by others.",
+              "translation_ko": "아편을 먹는 꿈은, 제 마음이 여려 남에게 지나치게 휘둘림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 아편 먹는 것을 말림",
+          "interpretation_ko": "남에게 큰 기쁨과 좋은 것을 건네는 사람이 될 길한 조짐",
+          "interpretation_en": "indicates that you will be the means of conveying great joy and good to people",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laudanum",
+              "original": "To prevent others from taking this drug, indicates that you will be the means of conveying great joy and good to people.",
+              "translation_ko": "남이 이 약을 먹는 것을 말리면, 남에게 큰 기쁨과 좋은 것을 건네는 사람이 된다"
+            }
+          ]
+        },
+        {
+          "context": "정인이 실망하여 아편을 먹는 것을 봄",
+          "interpretation_ko": "사랑이 언짢아지고 벗을 잃을 흉한 조짐",
+          "interpretation_en": "signifies unhappy affairs and the loss of a friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laudanum",
+              "original": "To see your lover taking laudanum through disappointment, signifies unhappy affairs and the loss of a friend.",
+              "translation_ko": "정인이 실망하여 아편을 먹는 것을 보면 사랑이 언짢아지고 벗을 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 아편을 줌",
+          "interpretation_ko": "집안 사람 가운데 누군가가 가벼운 병을 앓을 흉한 조짐",
+          "interpretation_en": "slight ailments will attack some member of your domestic circle",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laudanum",
+              "original": "To give it, slight ailments will attack some member of your domestic circle.",
+              "translation_ko": "남에게 그것을 주면 집안 사람 가운데 누군가가 가벼운 병을 앓는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "laughing",
       "term_ko": "웃음",
       "term_en": "laughing",
@@ -39646,6 +39750,94 @@
               "locator": "Nuns",
               "original": "For one to dream that she discards the robes of her order, foretells that longing for worldly pleasures will unfit her for her chosen duties.",
               "translation_ko": "수녀가 수도복을 벗어 버리는 꿈은, 세속의 즐거움을 향한 그리움이 맡은 소임에 어울리지 않게 만들 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "onions",
+      "term_ko": "양파",
+      "term_en": "onions",
+      "aliases": [
+        "양파가",
+        "양파를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "양파가 많이 있는 것을 봄",
+          "interpretation_ko": "성공한 나를 향한 시샘과 질투가 있을 흉조",
+          "interpretation_en": "seeing quantities of onions in your dreams, represents the amount of spite and envy that you will meet, by being successful",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Onions",
+              "original": "Seeing quantities of onions in your dreams, represents the amount of spite and envy that you will meet, by being successful.",
+              "translation_ko": "양파가 많이 있는 꿈은, 성공한 나를 향한 시샘과 질투를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "양파를 먹음",
+          "interpretation_ko": "모든 반대를 이겨 낼 길조",
+          "interpretation_en": "if you eat them, you will overcome all opposition",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Onions",
+              "original": "If you eat them, you will overcome all opposition.",
+              "translation_ko": "양파를 먹는 꿈은 모든 반대를 이겨 낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "양파가 자라는 것을 봄",
+          "interpretation_ko": "일에 흥을 돋울 만큼의 경쟁이 있을 조짐",
+          "interpretation_en": "if you see them growing, there will be just enough of rivalry in your affairs, to make things interesting",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Onions",
+              "original": "If you see them growing, there will be just enough of rivalry in your affairs, to make things interesting.",
+              "translation_ko": "양파가 자라는 것을 보는 꿈은, 일에 흥을 돋울 만큼의 경쟁이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "익힌 양파를 봄",
+          "interpretation_ko": "평온함과 자잘한 이득이 있을 길조",
+          "interpretation_en": "cooked onions, denote placidity and small gains in business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Onions",
+              "original": "Cooked onions, denote placidity and small gains in business.",
+              "translation_ko": "익힌 양파를 보는 꿈은, 평온함과 자잘한 이득을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "양파를 썰다가 눈에 즙이 스밈",
+          "interpretation_ko": "경쟁자에게 질 흉조",
+          "interpretation_en": "to dream that you are cutting onions and feel the escaping juice in your eyes, denotes that you will be defeated by your rivals",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Onions",
+              "original": "To dream that you are cutting onions and feel the escaping juice in your eyes, denotes that you will be defeated by your rivals.",
+              "translation_ko": "양파를 썰다가 눈에 매운 즙이 스미는 꿈은, 경쟁자에게 질 조짐이다"
             }
           ]
         }
@@ -49012,80 +49204,6 @@
       ]
     },
     {
-      "id": "laudanum",
-      "term_ko": "아편",
-      "term_en": "laudanum",
-      "aliases": [
-        "아편팅크",
-        "아편을"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "아편을 먹음",
-          "interpretation_ko": "제 마음이 여려 남에게 지나치게 휘둘릴 흉한 조짐",
-          "interpretation_en": "signifies weakness of your own; and that you will have a tendency to be unduly influenced by others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Laudanum",
-              "original": "To dream that you take laudanum, signifies weakness of your own; and that you will have a tendency to be unduly influenced by others.",
-              "translation_ko": "아편을 먹는 꿈은, 제 마음이 여려 남에게 지나치게 휘둘림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "남이 아편 먹는 것을 말림",
-          "interpretation_ko": "남에게 큰 기쁨과 좋은 것을 건네는 사람이 될 길한 조짐",
-          "interpretation_en": "indicates that you will be the means of conveying great joy and good to people",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Laudanum",
-              "original": "To prevent others from taking this drug, indicates that you will be the means of conveying great joy and good to people.",
-              "translation_ko": "남이 이 약을 먹는 것을 말리면, 남에게 큰 기쁨과 좋은 것을 건네는 사람이 된다"
-            }
-          ]
-        },
-        {
-          "context": "정인이 실망하여 아편을 먹는 것을 봄",
-          "interpretation_ko": "사랑이 언짢아지고 벗을 잃을 흉한 조짐",
-          "interpretation_en": "signifies unhappy affairs and the loss of a friend",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Laudanum",
-              "original": "To see your lover taking laudanum through disappointment, signifies unhappy affairs and the loss of a friend.",
-              "translation_ko": "정인이 실망하여 아편을 먹는 것을 보면 사랑이 언짢아지고 벗을 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "남에게 아편을 줌",
-          "interpretation_ko": "집안 사람 가운데 누군가가 가벼운 병을 앓을 흉한 조짐",
-          "interpretation_en": "slight ailments will attack some member of your domestic circle",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Laudanum",
-              "original": "To give it, slight ailments will attack some member of your domestic circle.",
-              "translation_ko": "남에게 그것을 주면 집안 사람 가운데 누군가가 가벼운 병을 앓는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "leaves",
       "term_ko": "나뭇잎",
       "term_en": "leaves",
@@ -50820,6 +50938,80 @@
               "locator": "冠帶衣服鞋襪",
               "original": "洗笏染服新官來",
               "translation_ko": "홀을 씻고 관복을 물들이면 새 관직이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olives",
+      "term_ko": "올리브",
+      "term_en": "olives",
+      "aliases": [
+        "올리브가",
+        "올리브를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "즐거운 벗들과 올리브를 땀",
+          "interpretation_ko": "사업에서 좋은 결과와 뜻밖의 기쁨이 있을 길조",
+          "interpretation_en": "gathering olives with a merry band of friends, foretells favorable results in business, and delightful surprises",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Olives",
+              "original": "Gathering olives with a merry band of friends, foretells favorable results in business, and delightful surprises.",
+              "translation_ko": "즐거운 벗들과 올리브를 따는 꿈은, 사업에서 좋은 결과와 뜻밖의 기쁨이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "병에서 올리브를 꺼냄",
+          "interpretation_ko": "흥겨운 자리가 있을 길조",
+          "interpretation_en": "if you take them from bottles, it foretells conviviality",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Olives",
+              "original": "If you take them from bottles, it foretells conviviality",
+              "translation_ko": "병에서 올리브를 꺼내는 꿈은 흥겨운 자리를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "올리브 병을 깨뜨림",
+          "interpretation_ko": "즐거움을 앞두고 낙담할 흉조",
+          "interpretation_en": "to break a bottle of olives, indicates disappointments on the eve of pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Olives",
+              "original": "To break a bottle of olives, indicates disappointments on the eve of pleasure.",
+              "translation_ko": "올리브가 든 병을 깨뜨리는 꿈은, 즐거움을 앞두고 낙담할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "올리브를 먹음",
+          "interpretation_ko": "만족과 신실한 벗이 있을 길조",
+          "interpretation_en": "to eat them, signifies contentment and faithful friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Olives",
+              "original": "To eat them, signifies contentment and faithful friends.",
+              "translation_ko": "올리브를 먹는 꿈은 만족과 신실한 벗을 알린다"
             }
           ]
         }
@@ -86612,6 +86804,98 @@
       ]
     },
     {
+      "id": "ointment",
+      "term_ko": "연고",
+      "term_en": "ointment",
+      "aliases": [
+        "연고가",
+        "연고를"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "연고 꿈을 꿈",
+          "interpretation_ko": "이롭고 즐거운 우정을 맺을 길조",
+          "interpretation_en": "to dream of ointment, denotes that you will form friendships which will prove beneficial and pleasing to you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ointment",
+              "original": "To dream of ointment, denotes that you will form friendships which will prove beneficial and pleasing to you.",
+              "translation_ko": "연고 꿈은 이롭고 즐거운 우정을 맺을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 연고를 만듦",
+          "interpretation_ko": "사사로운 일이든 공적인 일이든 스스로 다스릴 수 있게 될 길조",
+          "interpretation_en": "for a young woman to dream that she makes ointment, denotes that she will be able to command her own affairs whether they be of a private or public character",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ointment",
+              "original": "For a young woman to dream that she makes ointment, denotes that she will be able to command her own affairs whether they be of a private or public character.",
+              "translation_ko": "처녀가 연고를 만드는 꿈은, 사사로운 일이든 공적인 일이든 스스로 다스릴 수 있게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "omelet",
+      "term_ko": "오믈렛",
+      "term_en": "omelet",
+      "aliases": [
+        "오믈렛이",
+        "오믈렛을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "오믈렛이 나오는 것을 봄",
+          "interpretation_ko": "아첨과 속임수가 나를 노리고 있다는 흉조",
+          "interpretation_en": "to see omelet being served in your dream, warns you of flattery and deceit, which is about to be used against you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Omelet",
+              "original": "To see omelet being served in your dream, warns you of flattery and deceit, which is about to be used against you.",
+              "translation_ko": "오믈렛이 나오는 꿈은, 아첨과 속임수가 나를 노리고 있다는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "오믈렛을 먹음",
+          "interpretation_ko": "미더워 보이는 이에게 이용당할 흉조",
+          "interpretation_en": "to eat it, shows that you will be imposed upon by some one seemingly worthy of your confidence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Omelet",
+              "original": "To eat it, shows that you will be imposed upon by some one seemingly worthy of your confidence.",
+              "translation_ko": "오믈렛을 먹는 꿈은, 미더워 보이는 이에게 이용당할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pan",
       "term_ko": "냄비",
       "term_en": "pan",
@@ -98137,6 +98421,102 @@
               "locator": "文書筆硯兵器",
               "original": "公座移動主遷官",
               "translation_ko": "관청 자리가 옮겨지면 벼슬이 옮겨 간다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "old-man-or-woman",
+      "term_ko": "노인",
+      "term_en": "old man, or woman",
+      "aliases": [
+        "노인이",
+        "노인을"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "노인을 봄",
+          "interpretation_ko": "노인이 평온해 보이지 않으면 언짢은 근심에 짓눌릴 흉조",
+          "interpretation_en": "to dream of seeing an old man, or woman, denotes that unhappy cares will oppress you, if they appear otherwise than serene",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Old Man, or Woman",
+              "original": "To dream of seeing an old man, or woman, denotes that unhappy cares will oppress you, if they appear otherwise than serene.",
+              "translation_ko": "노인을 보는 꿈은, 그가 평온해 보이지 않는 한 언짢은 근심에 짓눌릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "one-eyed",
+      "term_ko": "애꾸눈",
+      "term_en": "one-eyed",
+      "aliases": [
+        "애꾸눈이",
+        "애꾸눈을"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "애꾸눈 생물을 봄",
+          "interpretation_ko": "내 복과 행복을 노리는 은밀한 음모가 있다는 흉조",
+          "interpretation_en": "to see one-eyed creatures in your dreams, is portentous of an over-whelming intimation of secret intriguing against your fortune and happiness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "One-Eyed",
+              "original": "To see one-eyed creatures in your dreams, is portentous of an over-whelming intimation of secret intriguing against your fortune and happiness.",
+              "translation_ko": "애꾸눈 생물을 보는 꿈은, 내 복과 행복을 노리는 은밀한 음모가 있다는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opera",
+      "term_ko": "오페라",
+      "term_en": "opera",
+      "aliases": [
+        "오페라가",
+        "오페라를"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "오페라를 관람함",
+          "interpretation_ko": "마음 맞는 벗들과 즐거운 시간을 보내고 당면한 일도 순조로울 길조",
+          "interpretation_en": "to dream of attending an opera, denotes that you will be entertained by congenial friends, and find that your immediate affairs will be favorable",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Opera",
+              "original": "To dream of attending an opera, denotes that you will be entertained by congenial friends, and find that your immediate affairs will be favorable.",
+              "translation_ko": "오페라를 관람하는 꿈은, 마음 맞는 벗들과 즐거운 시간을 보내고 당면한 일도 순조로울 조짐이다"
             }
           ]
         }

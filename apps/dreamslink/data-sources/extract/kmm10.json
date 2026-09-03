@@ -245,7 +245,8 @@
     "aliases": [
       "사륜마차",
       "마차를 탔다",
-      "무개마차"
+      "무개마차",
+      "합승마차"
     ],
     "aliases_en": [
       "a carriage",
@@ -260,7 +261,8 @@
       "여자가 남이 모는 마차에 실려 감": "여자 여인",
       "남이 모는 마차에 실려 감": "실려 실렸 태워",
       "벗이나 정인과 함께 마차를 타고 감": "정인과 벗과 함께",
-      "마차가 뒤집힘": "뒤집 엎어졌"
+      "마차가 뒤집힘": "뒤집 엎어졌",
+      "합승마차를 타고 거리를 지남": "합승마차 거리를 지나 오해"
     },
     "contexts_en": {
       "마차를 봄": "seeing gratified visits",
@@ -271,7 +273,8 @@
       "여자가 남이 모는 마차에 실려 감": "lady hearts value",
       "남이 모는 마차에 실려 감": "driven superior knowledge difficulties",
       "벗이나 정인과 함께 마차를 타고 감": "landau sweetheart incidents succession",
-      "마차가 뒤집힘": "overturned abruptly woe"
+      "마차가 뒤집힘": "overturned abruptly woe",
+      "합승마차를 타고 거리를 지남": "omnibus streets misunderstandings promises"
     }
   },
   {

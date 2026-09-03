@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 143 — October~Oilcloth, 24건 — 5판 묶음의 마지막 판)
+// (지금 담긴 것: 배치 144 — Ointment~Opium, 19건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -139,6 +139,27 @@ const CASES: Case[] = [
   { id: "humiliation", ctx: "모욕당하는 꿈을 꿈", text: "모욕당하는 꿈을 꾸었다" },
   { id: "official-post", ctx: "새로 벼슬을 받음", text: "새로 벼슬을 받았다" },
   { id: "child", ctx: "아름다운 아이들을 여럿 봄", text: "아름다운 아이들을 여럿 보았다" },
+  { id: "ointment", ctx: "연고 꿈을 꿈", text: "연고 꿈을 꾸었다" },
+  { id: "ointment", ctx: "처녀가 연고를 만듦", text: "처녀가 연고를 만들었다" },
+  { id: "old-man-or-woman", ctx: "노인을 봄", text: "노인을 보았다" },
+  { id: "olives", ctx: "즐거운 벗들과 올리브를 땀", text: "즐거운 벗들과 올리브를 땄다" },
+  { id: "olives", ctx: "병에서 올리브를 꺼냄", text: "병에서 올리브를 꺼냈다" },
+  { id: "olives", ctx: "올리브 병을 깨뜨림", text: "올리브 병을 깨뜨렸다" },
+  { id: "olives", ctx: "올리브를 먹음", text: "올리브를 먹었다" },
+  { id: "omelet", ctx: "오믈렛이 나오는 것을 봄", text: "오믈렛이 나오는 것을 보았다" },
+  { id: "omelet", ctx: "오믈렛을 먹음", text: "오믈렛을 먹었다" },
+  { id: "carriage", ctx: "합승마차를 타고 거리를 지남", text: "합승마차를 타고 거리를 지났다" },
+  { id: "one-eyed", ctx: "애꾸눈 생물을 봄", text: "애꾸눈 생물을 보았다" },
+  { id: "onions", ctx: "양파가 많이 있는 것을 봄", text: "양파가 많이 있는 것을 보았다" },
+  { id: "onions", ctx: "양파를 먹음", text: "양파를 먹었다" },
+  { id: "onions", ctx: "양파가 자라는 것을 봄", text: "양파가 자라는 것을 보았다" },
+  { id: "onions", ctx: "익힌 양파를 봄", text: "익힌 양파를 보았다" },
+  { id: "onions", ctx: "양파를 썰다가 눈에 즙이 스밈", text: "양파를 썰다가 눈에 즙이 스몄다" },
+  { id: "opera", ctx: "오페라를 관람함", text: "오페라를 관람했다" },
+  { id: "laudanum", ctx: "아편 꿈을 꿈", text: "아편 꿈을 꾸었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "carriage", ctx: "마차를 타고 감", text: "마차를 타고 갔다" },
+  { id: "laudanum", ctx: "아편을 먹음", text: "아편을 먹었다" },
 ];
 
 let notFound = 0;
