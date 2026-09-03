@@ -95,6 +95,7 @@
     "m90.json",
     "m91.json",
     "m92.json",
+    "m93.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -13095,6 +13096,184 @@
               "locator": "帝王文武呼召",
               "original": "王侯並坐大吉利",
               "translation_ko": "왕과 제후와 나란히 앉으면 크게 길하고 이롭다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legs",
+      "term_ko": "사람의 다리",
+      "term_en": "legs",
+      "aliases": [
+        "다리가",
+        "다리를",
+        "다리는",
+        "다리에",
+        "두 다리",
+        "허벅지",
+        "나무다리",
+        "의족"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "고운 여자의 다리를 흐뭇하게 봄",
+          "interpretation_ko": "판단을 잃고 어떤 어여쁜 이 앞에서 어리석게 굴 흉한 조짐",
+          "interpretation_en": "you will lose your judgment, and act very silly over some fair charmer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legs",
+              "original": "If you dream of admiring well-shaped feminine legs, you will lose your judgment, and act very silly over some fair charmer.",
+              "translation_ko": "맵시 고운 여자의 다리를 흐뭇하게 보는 꿈을 꾸면, 판단을 잃고 어떤 어여쁜 이 앞에서 어리석게 군다"
+            }
+          ]
+        },
+        {
+          "context": "볼품없는 다리를 봄",
+          "interpretation_ko": "이문 없는 일과 성미 사나운 동무를 뜻하는 흉한 조짐",
+          "interpretation_en": "denotes unprofitable occupations and ill-tempered comrades",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legs",
+              "original": "To see misshapen legs, denotes unprofitable occupations and ill-tempered comrades.",
+              "translation_ko": "볼품없는 다리를 보면 이문 없는 일과 성미 사나운 동무를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "다친 다리를 봄",
+          "interpretation_ko": "잃을 것이 있고 괴로운 병치레가 있을 흉한 조짐",
+          "interpretation_en": "foretells losses and agonizing attacks of malaria",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legs",
+              "original": "A wounded leg, foretells losses and agonizing attacks of malaria.",
+              "translation_ko": "다친 다리는 잃을 것과 괴로운 병치레를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "제 다리가 나무다리임",
+          "interpretation_ko": "벗들 앞에서 저를 거짓되게 낮출 흉한 조짐",
+          "interpretation_en": "denotes that you will bemean yourself in a false way to your friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legs",
+              "original": "To dream that you have a wooden leg, denotes that you will bemean yourself in a false way to your friends.",
+              "translation_ko": "제 다리가 나무다리인 꿈을 꾸면 벗들 앞에서 저를 거짓되게 낮춘다"
+            }
+          ]
+        },
+        {
+          "context": "다리에 헌데가 남",
+          "interpretation_ko": "남을 돕느라 벌이가 새어 나갈 흉한 조짐",
+          "interpretation_en": "it signifies a drain on your income to aid others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legs",
+              "original": "If ulcers are on your legs, it signifies a drain on your income to aid others.",
+              "translation_ko": "다리에 헌데가 나면 남을 돕느라 벌이가 새어 나간다"
+            }
+          ]
+        },
+        {
+          "context": "다리가 셋 넘게 있음",
+          "interpretation_ko": "제게 보탬이 될 것보다 더 많은 일을 머릿속으로만 벌여 놓을 흉한 조짐",
+          "interpretation_en": "indicates that more enterprises are planned in your imagination than will ever benefit you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legs",
+              "original": "To dream that you have three, or more, legs, indicates that more enterprises are planned in your imagination than will ever benefit you.",
+              "translation_ko": "다리가 셋 넘게 있는 꿈을 꾸면, 제게 보탬이 될 것보다 더 많은 일을 머릿속으로만 벌여 놓는다"
+            }
+          ]
+        },
+        {
+          "context": "다리를 쓰지 못함",
+          "interpretation_ko": "가난해질 흉한 조짐",
+          "interpretation_en": "it portends poverty",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legs",
+              "original": "If you can't use your legs, it portends poverty.",
+              "translation_ko": "다리를 쓰지 못하면 가난해진다"
+            }
+          ]
+        },
+        {
+          "context": "다리를 잘라 냄",
+          "interpretation_ko": "아끼던 벗을 잃고 집안 일로 삶이 견디기 어려워질 흉한 조짐",
+          "interpretation_en": "you will lose valued friends, and the home influence will render life unbearable",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legs",
+              "original": "To have a leg amputated, you will lose valued friends, and the home influence will render life unbearable.",
+              "translation_ko": "다리를 잘라 내면 아끼던 벗을 잃고 집안 일로 삶이 견디기 어려워진다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 제 다리를 뽐냄",
+          "interpretation_ko": "헛된 우쭐함을 뜻하고, 마음에 둔 이에게 물리침을 받을 흉한 조짐",
+          "interpretation_en": "denotes vanity, and she will be repulsed by the man she admires",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legs",
+              "original": "For a young woman to admire her own legs, denotes vanity, and she will be repulsed by the man she admires.",
+              "translation_ko": "젊은 여성이 제 다리를 뽐내면 헛된 우쭐함을 뜻하고, 마음에 둔 이에게 물리침을 받는다"
+            }
+          ]
+        },
+        {
+          "context": "다리에 털이 많음",
+          "interpretation_ko": "지아비를 제 뜻대로 휘두를 조짐",
+          "interpretation_en": "she will dominate her husband",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legs",
+              "original": "If she has hairy legs, she will dominate her husband.",
+              "translation_ko": "다리에 털이 많으면 지아비를 제 뜻대로 휘두른다"
+            }
+          ]
+        },
+        {
+          "context": "제 다리가 깨끗하고 맵시 있음",
+          "interpretation_ko": "앞날이 즐겁고 마음을 다하는 벗이 있을 길한 조짐",
+          "interpretation_en": "it denotes a happy future and devoted friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legs",
+              "original": "If your own legs are clean and well shaped, it denotes a happy future and devoted friends.",
+              "translation_ko": "제 다리가 깨끗하고 맵시 있으면 앞날이 즐겁고 마음을 다하는 벗이 있다"
             }
           ]
         }
@@ -84405,6 +84584,105 @@
               "locator": "Leaking",
               "original": "To dream of seeing a leak in anything, is usually significant of loss and vexations.",
               "translation_ko": "어딘가에서 새는 곳을 보는 꿈은 잃음과 성가신 일을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leeward",
+      "term_ko": "순풍",
+      "term_en": "leeward",
+      "aliases": [
+        "바람을 등지고",
+        "순풍에",
+        "순풍을"
+      ],
+      "category": "nature",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "바람을 등지고 배를 몰음",
+          "interpretation_ko": "뱃사람에게는 넉넉하고 즐거운 뱃길을, 다른 이에게는 즐거운 나들이를 뜻하는 길한 조짐",
+          "interpretation_en": "denotes to the sailor a prosperous and merry voyage; to others, a pleasant journey",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leeward",
+              "original": "To dream of sailing leeward, denotes to the sailor a prosperous and merry voyage.",
+              "translation_ko": "바람을 등지고 배를 모는 꿈은 뱃사람에게 넉넉하고 즐거운 뱃길을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legerdemain",
+      "term_ko": "요술",
+      "term_en": "legerdemain",
+      "aliases": [
+        "요술을",
+        "눈속임",
+        "손재주를"
+      ],
+      "category": "action",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "요술을 부리거나 남이 부리는 것을 봄",
+          "interpretation_ko": "제 기운과 헤아리는 힘을 다 짜내어 빠져나와야 하는 자리에 놓일 조짐",
+          "interpretation_en": "signifies you will be placed in a position where your energy and power of planning will be called into strenuous play to extricate yourself",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legerdemain",
+              "original": "To dream of practising legerdemain, or seeing others doing so, signifies you will be placed in a position where your energy and power of planning will be called into strenuous play to extricate yourself.",
+              "translation_ko": "요술을 부리거나 남이 부리는 것을 보는 꿈은, 제 기운과 헤아리는 힘을 다 짜내어 빠져나와야 하는 자리에 놓임을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legislature",
+      "term_ko": "국회",
+      "term_en": "legislature",
+      "aliases": [
+        "국회의원",
+        "국회에",
+        "국회가"
+      ],
+      "category": "place",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 국회의 한 사람이 됨",
+          "interpretation_ko": "가진 것을 뽐내고 집안 사람들을 모질게 대하며, 참으로 나아가는 것은 없을 흉한 조짐",
+          "interpretation_en": "foretells you will be vain of your possessions and will treat members of your family unkindly; you will have no real advancement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Legislature",
+              "original": "To dream that you are a member of a legislature, foretells you will be vain of your possessions and will treat members of your family unkindly.",
+              "translation_ko": "제가 국회의 한 사람이 되는 꿈을 꾸면, 가진 것을 뽐내고 집안 사람들을 모질게 대한다"
             }
           ]
         }

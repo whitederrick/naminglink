@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 92 — Ledger·Leeches, 13건)
+// (지금 담긴 것: 배치 93 — Leeward~Legs, 14건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,20 +30,20 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "ledger", ctx: "장부를 적음", text: "장부를 기록하고 있었다" },
-  { id: "ledger", ctx: "장부에 잘못 적음", text: "장부에 잘못 적었다" },
-  { id: "ledger", ctx: "장부를 금고에 넣음", text: "장부를 금고에 넣었다" },
-  { id: "ledger", ctx: "장부를 어디 두었는지 잃어버림", text: "장부를 어디에 두었는지 잃어버렸다" },
-  { id: "ledger", ctx: "장부가 불에 타 없어짐", text: "장부가 불에 타 없어졌다" },
-  { id: "ledger", ctx: "여자에게 장부를 맡김", text: "여자에게 장부를 맡겼다" },
-  { id: "ledger", ctx: "처녀가 장부 꿈을 꿈", text: "처녀가 장부 꿈을 꾸었다" },
-  { id: "ledger", ctx: "장부에 떼인 셈이 적혀 있음", text: "장부에 떼인 셈이 적혀 있었다" },
-  { id: "ledger", ctx: "장부의 셈이 좋음", text: "장부의 셈이 좋았다" },
-  { id: "leech", ctx: "병을 고치려고 거머리를 몸에 붙임", text: "병을 고치려고 거머리를 몸에 붙였다" },
-  { id: "leech", ctx: "남의 몸에 거머리를 붙이는 것을 봄", text: "남의 몸에 거머리를 붙이는 것을 보았다" },
-  { id: "leech", ctx: "거머리에게 물림", text: "거머리에게 물렸다" },
-  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "leech", ctx: "거머리를 봄", text: "거머리가 꿈틀거리고 있었다" },
+  { id: "leeward", ctx: "바람을 등지고 배를 몰음", text: "바람을 등지고 배를 몰았다" },
+  { id: "legerdemain", ctx: "요술을 부리거나 남이 부리는 것을 봄", text: "누가 요술을 부리고 있었다" },
+  { id: "legislature", ctx: "제가 국회의 한 사람이 됨", text: "내가 국회의원이 되어 있었다" },
+  { id: "legs", ctx: "고운 여자의 다리를 흐뭇하게 봄", text: "고운 여자의 다리를 보고 있었다" },
+  { id: "legs", ctx: "볼품없는 다리를 봄", text: "볼품없는 다리를 보았다" },
+  { id: "legs", ctx: "다친 다리를 봄", text: "다친 다리를 보았다" },
+  { id: "legs", ctx: "제 다리가 나무다리임", text: "내 다리가 나무다리였다" },
+  { id: "legs", ctx: "다리에 헌데가 남", text: "다리에 헌데가 났다" },
+  { id: "legs", ctx: "다리가 셋 넘게 있음", text: "다리가 여럿 달려 있었다" },
+  { id: "legs", ctx: "다리를 쓰지 못함", text: "다리를 움직이지 못했다" },
+  { id: "legs", ctx: "다리를 잘라 냄", text: "다리를 잘라 냈다" },
+  { id: "legs", ctx: "처녀가 제 다리를 뽐냄", text: "제 다리를 뽐내고 있었다" },
+  { id: "legs", ctx: "다리에 털이 많음", text: "다리에 털이 많았다" },
+  { id: "legs", ctx: "제 다리가 깨끗하고 맵시 있음", text: "내 다리가 깨끗하고 맵시 있었다" },
 ];
 
 let notFound = 0;

@@ -4013,5 +4013,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ledger::여자에게 장부를 맡김": "woman lose money combine",
   "ledger::처녀가 장부 꿈을 꿈": "solid proposal marriage",
   "ledger::장부에 떼인 셈이 적혀 있음": "worthless accounts management losses",
-  "ledger::장부의 셈이 좋음": "improved conditions assume"
+  "ledger::장부의 셈이 좋음": "improved conditions assume",
+  "legs::고운 여자의 다리를 흐뭇하게 봄": "feminine judgment silly charmer",
+  "legs::볼품없는 다리를 봄": "misshapen unprofitable occupations comrades",
+  "legs::다친 다리를 봄": "wounded agonizing malaria",
+  "legs::제 다리가 나무다리임": "wooden bemean false way",
+  "legs::다리에 헌데가 남": "ulcers drain income",
+  "legs::다리가 셋 넘게 있음": "three enterprises imagination benefit",
+  "legs::다리를 쓰지 못함": "portends poverty",
+  "legs::다리를 잘라 냄": "amputated valued unbearable",
+  "legs::처녀가 제 다리를 뽐냄": "vanity repulsed",
+  "legs::다리에 털이 많음": "hairy dominate husband",
+  "legs::제 다리가 깨끗하고 맵시 있음": "clean devoted future"
 };

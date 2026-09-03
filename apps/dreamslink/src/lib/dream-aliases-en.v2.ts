@@ -6017,5 +6017,21 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "ledger": [
     "a ledger",
     "ledgers"
+  ],
+  "leeward": [
+    "leeward",
+    "sailing leeward"
+  ],
+  "legerdemain": [
+    "legerdemain",
+    "sleight of hand"
+  ],
+  "legislature": [
+    "a legislature",
+    "legislator"
+  ],
+  "legs": [
+    "legs",
+    "a leg"
   ]
 };
