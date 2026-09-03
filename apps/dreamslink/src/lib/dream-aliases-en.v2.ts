@@ -6708,5 +6708,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "password": [
     "passwords"
+  ],
+  "patch": [
+    "patches",
+    "patching"
   ]
 };

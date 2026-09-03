@@ -67,6 +67,7 @@
     "m156.json",
     "m157.json",
     "m158.json",
+    "m159.json",
     "m16.json",
     "m17.json",
     "m18.json",
@@ -33980,6 +33981,112 @@
               "locator": "Parrot",
               "original": "A dead parrot, foretells the loss of social friends.",
               "translation_ko": "죽은 앵무새를 보는 꿈은, 사교의 벗을 잃을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "patch",
+      "term_ko": "기운 자국",
+      "term_en": "patch",
+      "aliases": [
+        "기운 자국이",
+        "기운 자국을",
+        "옷을 깁고",
+        "옷을 기움",
+        "옷을 기웠다",
+        "옷을 깁는"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "옷에 기운 자국을 댐",
+          "interpretation_ko": "의무를 다하는 데 헛된 자존심을 부리지 않을 조짐",
+          "interpretation_en": "denotes that you will show no false pride in the discharge of obligations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Patch",
+              "original": "To dream that you have patches upon your clothing, denotes that you will show no false pride in the discharge of obligations.",
+              "translation_ko": "옷에 기운 자국을 댄 꿈은, 의무를 다하는 데 헛된 자존심을 부리지 않을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 기운 자국을 댄 옷을 입은 것을 봄",
+          "interpretation_ko": "궁핍과 불행이 가까이 왔다는 조짐",
+          "interpretation_en": "denotes want and misery are near",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Patch",
+              "original": "To see others wearing patches, denotes want and misery are near.",
+              "translation_ko": "남이 기운 자국을 댄 옷을 입은 것을 보는 꿈은, 궁핍과 불행이 가까이 왔다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 새 옷에서 기운 자국을 발견함",
+          "interpretation_ko": "가장 행복한 순간이 다가온다 여길 때 곤경에 부딪힐 조짐",
+          "interpretation_en": "it indicates that she will find trouble facing her when she imagines her happiest moments are approaching near",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Patch",
+              "original": "If a young woman discovers a patch on her new dress, it indicates that she will find trouble facing her when she imagines her happiest moments are approaching near.",
+              "translation_ko": "처녀가 새 옷에서 기운 자국을 발견하는 꿈은, 가장 행복한 순간이 다가온다 여길 때 곤경에 부딪힐 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 기운 자국을 숨기려 함",
+          "interpretation_ko": "애인에게서 제 성격의 흠을 감추려 애쓸 조짐",
+          "interpretation_en": "she will endeavor to keep some ugly trait in her character from her lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Patch",
+              "original": "If she tries to hide the patches, she will endeavor to keep some ugly trait in her character from her lover.",
+              "translation_ko": "처녀가 기운 자국을 숨기려 하는 꿈은, 애인에게서 제 성격의 흠을 감추려 애쓸 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 옷을 깁고 있음",
+          "interpretation_ko": "마음에 안 드는 일을 떠맡을 조짐",
+          "interpretation_en": "she will assume duties for which she has no liking",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Patch",
+              "original": "If she is patching, she will assume duties for which she has no liking.",
+              "translation_ko": "처녀가 옷을 깁고 있는 꿈은, 마음에 안 드는 일을 떠맡을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여인이 집안일로 옷을 기움",
+          "interpretation_ko": "가족 간 가깝고 다정한 정을 뜻하나 살림이 넉넉지 않을 조짐",
+          "interpretation_en": "denotes close and loving bonds in the family, but a scarcity of means is portended",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Patch",
+              "original": "For a woman to do family patching, denotes close and loving bonds in the family, but a scarcity of means is portended.",
+              "translation_ko": "여인이 집안일로 옷을 깁는 꿈은, 가족 간 가깝고 다정한 정을 뜻하나 살림이 넉넉지 않을 조짐이다"
             }
           ]
         }

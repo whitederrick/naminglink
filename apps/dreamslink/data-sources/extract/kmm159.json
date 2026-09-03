@@ -1,0 +1,33 @@
+[
+  {
+    "id": "patch",
+    "aliases": [
+      "기운 자국이",
+      "기운 자국을",
+      "옷을 깁고",
+      "옷을 기움",
+      "옷을 기웠다",
+      "옷을 깁는"
+    ],
+    "aliases_en": [
+      "patches",
+      "patching"
+    ],
+    "contexts": {
+      "옷에 기운 자국을 댐": "댔다 헛된 자존심",
+      "남이 기운 자국을 댄 옷을 입은 것을 봄": "남이 궁핍 불행",
+      "처녀가 새 옷에서 기운 자국을 발견함": "발견 행복한 순간",
+      "처녀가 기운 자국을 숨기려 함": "숨기려 흠을 감추려",
+      "처녀가 옷을 깁고 있음": "처녀가 좋아하지 않는",
+      "여인이 집안일로 옷을 기움": "여인이 집안일 다정한 넉넉지"
+    },
+    "contexts_en": {
+      "옷에 기운 자국을 댐": "false pride obligations",
+      "남이 기운 자국을 댄 옷을 입은 것을 봄": "others wearing want misery",
+      "처녀가 새 옷에서 기운 자국을 발견함": "new dress happiest approaching",
+      "처녀가 기운 자국을 숨기려 함": "hide ugly trait lover",
+      "처녀가 옷을 깁고 있음": "young woman assume liking",
+      "여인이 집안일로 옷을 기움": "family close loving scarcity"
+    }
+  }
+]

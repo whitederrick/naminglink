@@ -4876,5 +4876,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pasteboard::판지를 자름": "cut throw aside difficulties",
   "pastry::패스트리를 먹음": "eat heartfelt friendships",
   "pastry::처녀가 패스트리를 만드는 꿈을 꿈": "cooking fail deceive intentions",
-  "pastry::패스트리 꿈을 꿈": "artful person"
+  "pastry::패스트리 꿈을 꿈": "artful person",
+  "patch::옷에 기운 자국을 댐": "false pride obligations",
+  "patch::남이 기운 자국을 댄 옷을 입은 것을 봄": "others wearing want misery",
+  "patch::처녀가 새 옷에서 기운 자국을 발견함": "new dress happiest approaching",
+  "patch::처녀가 기운 자국을 숨기려 함": "hide ugly trait lover",
+  "patch::처녀가 옷을 깁고 있음": "young woman assume liking",
+  "patch::여인이 집안일로 옷을 기움": "family close loving scarcity"
 };
