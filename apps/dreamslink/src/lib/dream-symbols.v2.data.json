@@ -81,6 +81,7 @@
     "m169.json",
     "m17.json",
     "m170.json",
+    "m171.json",
     "m18.json",
     "m19.json",
     "m2.json",
@@ -30443,6 +30444,109 @@
       ]
     },
     {
+      "id": "doctor",
+      "term_ko": "의사",
+      "term_en": "doctor",
+      "aliases": [
+        "의사가",
+        "의사를",
+        "진찰"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "의사를 사사로이 만남",
+          "interpretation_ko": "몸이 성하고 살림이 두루 넉넉할 조짐",
+          "interpretation_en": "good health and general prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doctor",
+              "original": "This is a most auspicious dream, denoting good health and general prosperity, if you meet him socially, for you will not then spend your money for his services.",
+              "translation_ko": "사사로이 만나는 것이면 아주 좋은 꿈이며, 몸이 성하고 살림이 두루 넉넉함을 뜻한다. 그에게 돈을 쓸 일이 없기 때문이다"
+            }
+          ]
+        },
+        {
+          "context": "아픈 처녀가 의사 꿈을 꿈",
+          "interpretation_ko": "병이나 근심이 있으나 곧 이겨낼 조짐",
+          "interpretation_en": "she will have sickness or worry, but will soon overcome them",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Physician",
+              "original": "If she is sick and thus dreams, she will have sickness or worry, but will soon overcome them, unless the physician appears very anxious, and then her trials may increase, ending in loss and sorrow.",
+              "translation_ko": "아픈 처녀가 의사 꿈을 꾸면, 병이나 근심이 있으나 곧 이겨낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 의사 꿈을 꿈",
+          "interpretation_ko": "부질없는 소일거리에 빠져 제 아름다움을 희생하고 있다는 조짐",
+          "interpretation_en": "denotes that she is sacrificing her beauty in engaging in frivolous pastimes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Physician",
+              "original": "For a young woman to dream of a physician, denotes that she is sacrificing her beauty in engaging in frivolous pastimes.",
+              "translation_ko": "처녀가 의사 꿈을 꾸면, 부질없는 소일거리에 빠져 제 아름다움을 희생하고 있다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "의사가 몹시 근심스러워 보임",
+          "interpretation_ko": "시련이 커져 손실과 슬픔으로 끝날 조짐",
+          "interpretation_en": "unless the physician appears very anxious, and then her trials may increase, ending in loss and sorrow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Physician",
+              "original": "If she is sick and thus dreams, she will have sickness or worry, but will soon overcome them, unless the physician appears very anxious, and then her trials may increase, ending in loss and sorrow.",
+              "translation_ko": "의사가 몹시 근심스러워 보이는 꿈은, 시련이 커져 손실과 슬픔으로 끝날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "의사에게 진찰을 받음",
+          "interpretation_ko": "기운 빠지는 병과 집안 사이의 언짢은 다툼이 있을 조짐",
+          "interpretation_en": "discouraging illness and disagreeable differences between members of a family",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doctor",
+              "original": "To dream of a doctor professionally, signifies discouraging illness and disagreeable differences between members of a family.",
+              "translation_ko": "의사를 일로 만나는 꿈은, 기운 빠지는 병과 집안 사이의 언짢은 다툼을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "의사가 살을 째는데 피가 나지 않음",
+          "interpretation_ko": "악한 이에게 시달리고 남의 빚을 물게 될 조짐",
+          "interpretation_en": "you will be tormented and injured by some evil person, who may try to make you pay out money for his debts",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Doctor",
+              "original": "To dream that a doctor makes an incision in your flesh, trying to discover blood, but failing in his efforts, denotes that you will be tormented and injured by some evil person, who may try to make you pay out money for his debts.",
+              "translation_ko": "의사가 피를 찾으려 살을 째는데 찾지 못하는 꿈은, 악한 이에게 시달리고 남의 빚을 물게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "duck",
       "term_ko": "오리",
       "term_en": "duck",
@@ -54310,6 +54414,82 @@
       ]
     },
     {
+      "id": "photograph",
+      "term_ko": "사진",
+      "term_en": "photograph",
+      "aliases": [
+        "사진이",
+        "사진을",
+        "사진들을",
+        "사진들이"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사진들을 봄",
+          "interpretation_ko": "다가오는 속임수를 알리는 조짐",
+          "interpretation_en": "it is a sign of approaching deception",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Photography",
+              "original": "If you see photographs in your dreams, it is a sign of approaching deception.",
+              "translation_ko": "사진들을 보는 꿈은, 다가오는 속임수를 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "애인의 사진을 받음",
+          "interpretation_ko": "애인이 겉보기와 달리 온전한 정성을 주지 않는다는 경고",
+          "interpretation_en": "you are warned that he is not giving you his undivided loyalty, while he tries to so impress you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Photography",
+              "original": "If you receive the photograph of your lover, you are warned that he is not giving you his undivided loyalty, while he tries to so impress you.",
+              "translation_ko": "애인의 사진을 받는 꿈은, 애인이 겉보기와 달리 온전한 정성을 주지 않는다는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "기혼자가 남의 사진을 지님",
+          "interpretation_ko": "달갑잖은 행실이 드러날 조짐",
+          "interpretation_en": "foretells unwelcome disclosures of one's conduct",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Photography",
+              "original": "For married people to dream of the possession of other persons' photographs, foretells unwelcome disclosures of one's conduct.",
+              "translation_ko": "기혼자가 남의 사진을 지니는 꿈은, 달갑잖은 행실이 드러날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제 사진을 찍음",
+          "interpretation_ko": "저도 모르게 저와 남에게 곤란을 일으킬 조짐",
+          "interpretation_en": "foretells that you will unwarily cause yourself and others' trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Photography",
+              "original": "To dream that you are having your own photograph made, foretells that you will unwarily cause yourself and others' trouble.",
+              "translation_ko": "제 사진을 찍는 꿈은, 저도 모르게 저와 남에게 곤란을 일으킬 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rain",
       "term_ko": "비",
       "term_en": "rain",
@@ -61318,67 +61498,6 @@
               "locator": "Docks",
               "original": "If you are there, wandering alone, and darkness overtakes you, you will meet with deadly enemies, but if the sun be shining, you will escape threatening dangers.",
               "translation_ko": "거기서 홀로 헤매는데 어둠이 덮치면 목숨을 노리는 적을 만나고, 해가 비치면 닥친 위험을 벗어난다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "doctor",
-      "term_ko": "의사",
-      "term_en": "doctor",
-      "aliases": [
-        "의사가",
-        "의사를",
-        "진찰"
-      ],
-      "category": "person",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "의사를 사사로이 만남",
-          "interpretation_ko": "몸이 성하고 살림이 두루 넉넉할 조짐",
-          "interpretation_en": "good health and general prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Doctor",
-              "original": "This is a most auspicious dream, denoting good health and general prosperity, if you meet him socially, for you will not then spend your money for his services.",
-              "translation_ko": "사사로이 만나는 것이면 아주 좋은 꿈이며, 몸이 성하고 살림이 두루 넉넉함을 뜻한다. 그에게 돈을 쓸 일이 없기 때문이다"
-            }
-          ]
-        },
-        {
-          "context": "의사에게 진찰을 받음",
-          "interpretation_ko": "기운 빠지는 병과 집안 사이의 언짢은 다툼이 있을 조짐",
-          "interpretation_en": "discouraging illness and disagreeable differences between members of a family",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Doctor",
-              "original": "To dream of a doctor professionally, signifies discouraging illness and disagreeable differences between members of a family.",
-              "translation_ko": "의사를 일로 만나는 꿈은, 기운 빠지는 병과 집안 사이의 언짢은 다툼을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "의사가 살을 째는데 피가 나지 않음",
-          "interpretation_ko": "악한 이에게 시달리고 남의 빚을 물게 될 조짐",
-          "interpretation_en": "you will be tormented and injured by some evil person, who may try to make you pay out money for his debts",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Doctor",
-              "original": "To dream that a doctor makes an incision in your flesh, trying to discover blood, but failing in his efforts, denotes that you will be tormented and injured by some evil person, who may try to make you pay out money for his debts.",
-              "translation_ko": "의사가 피를 찾으려 살을 째는데 찾지 못하는 꿈은, 악한 이에게 시달리고 남의 빚을 물게 됨을 뜻한다"
             }
           ]
         }

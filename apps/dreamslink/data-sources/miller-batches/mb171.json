@@ -1,0 +1,18 @@
+{
+  "batch": 171,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Photography",
+      "text": "If you see photographs in your dreams, it is a sign of approaching deception. If you receive the photograph of your lover, you are warned that he is not giving you his undivided loyalty, while he tries to so impress you. For married people to dream of the possession of other persons' photographs, foretells unwelcome disclosures of one's conduct. To dream that you are having your own photograph made, foretells that you will unwarily cause yourself and others' trouble.",
+      "note": "새 상징 `photograph`(사진)"
+    },
+    {
+      "headword": "Physician",
+      "text": "For a young woman to dream of a physician, denotes that she is sacrificing her beauty in engaging in frivolous pastimes. If she is sick and thus dreams, she will have sickness or worry, but will soon overcome them, unless the physician appears very anxious, and then her trials may increase, ending in loss and sorrow.",
+      "note": "기존 상징 `doctor`(의사, 밀러 다른 표제어)에 셋을 더한다. physician과 doctor는 같은 낱말이라 상징을 나누지 않았다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

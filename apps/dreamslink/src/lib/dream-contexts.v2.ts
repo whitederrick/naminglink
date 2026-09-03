@@ -3411,6 +3411,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "doctor::의사를 사사로이 만남": "socially auspicious prosperity",
   "doctor::의사에게 진찰을 받음": "professionally discouraging differences",
   "doctor::의사가 살을 째는데 피가 나지 않음": "incision flesh tormented",
+  "doctor::처녀가 의사 꿈을 꿈": "young woman sacrificing frivolous",
+  "doctor::아픈 처녀가 의사 꿈을 꿈": "sick worry overcome",
+  "doctor::의사가 몹시 근심스러워 보임": "anxious trials sorrow",
   "dome::둥근지붕 위에서 낯선 경치를 내려다봄": "viewing strange landscape",
   "dome::둥근지붕을 멀리서 바라봄": "behold distance ambition",
   "dominoes::도미노 놀이에서 짐": "lose affronted uneasiness",
@@ -4981,5 +4984,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pheasant::꿩을 쏨": "shoot sacrifice selfish",
   "pheasant::꿩 꿈을 꿈": "good fellowship friends",
   "phosphorus::처녀가 인이 빛나는 꿈을 꿈": "young woman brilliant brief",
-  "phosphorus::인이 빛나는 것을 봄": "evanescent joys"
+  "phosphorus::인이 빛나는 것을 봄": "evanescent joys",
+  "photograph::사진들을 봄": "approaching deception",
+  "photograph::애인의 사진을 받음": "lover undivided loyalty",
+  "photograph::기혼자가 남의 사진을 지님": "married possession disclosures",
+  "photograph::제 사진을 찍음": "own unwarily trouble"
 };

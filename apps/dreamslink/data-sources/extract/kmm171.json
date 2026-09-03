@@ -1,0 +1,26 @@
+[
+  {
+    "id": "photograph",
+    "aliases": [
+      "사진이",
+      "사진을",
+      "사진들을",
+      "사진들이"
+    ],
+    "aliases_en": [
+      "photographs"
+    ],
+    "contexts": {
+      "사진들을 봄": "다가오는 속임수",
+      "애인의 사진을 받음": "애인의 온전한 정성",
+      "기혼자가 남의 사진을 지님": "기혼자 지니 행실이",
+      "제 사진을 찍음": "찍었 저도 모르게"
+    },
+    "contexts_en": {
+      "사진들을 봄": "approaching deception",
+      "애인의 사진을 받음": "lover undivided loyalty",
+      "기혼자가 남의 사진을 지님": "married possession disclosures",
+      "제 사진을 찍음": "own unwarily trouble"
+    }
+  }
+]

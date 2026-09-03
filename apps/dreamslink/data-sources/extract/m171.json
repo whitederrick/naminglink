@@ -1,0 +1,107 @@
+[
+  {
+    "term_ko": "사진",
+    "term_en": "photograph",
+    "context": "사진들을 봄",
+    "interpretation_ko": "다가오는 속임수를 알리는 조짐",
+    "interpretation_en": "it is a sign of approaching deception",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Photography",
+      "original": "If you see photographs in your dreams, it is a sign of approaching deception.",
+      "translation_ko": "사진들을 보는 꿈은, 다가오는 속임수를 알리는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "사진",
+    "term_en": "photograph",
+    "context": "애인의 사진을 받음",
+    "interpretation_ko": "애인이 겉보기와 달리 온전한 정성을 주지 않는다는 경고",
+    "interpretation_en": "you are warned that he is not giving you his undivided loyalty, while he tries to so impress you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Photography",
+      "original": "If you receive the photograph of your lover, you are warned that he is not giving you his undivided loyalty, while he tries to so impress you.",
+      "translation_ko": "애인의 사진을 받는 꿈은, 애인이 겉보기와 달리 온전한 정성을 주지 않는다는 경고다"
+    }
+  },
+  {
+    "term_ko": "사진",
+    "term_en": "photograph",
+    "context": "기혼자가 남의 사진을 지님",
+    "interpretation_ko": "달갑잖은 행실이 드러날 조짐",
+    "interpretation_en": "foretells unwelcome disclosures of one's conduct",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Photography",
+      "original": "For married people to dream of the possession of other persons' photographs, foretells unwelcome disclosures of one's conduct.",
+      "translation_ko": "기혼자가 남의 사진을 지니는 꿈은, 달갑잖은 행실이 드러날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "사진",
+    "term_en": "photograph",
+    "context": "제 사진을 찍음",
+    "interpretation_ko": "저도 모르게 저와 남에게 곤란을 일으킬 조짐",
+    "interpretation_en": "foretells that you will unwarily cause yourself and others' trouble",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Photography",
+      "original": "To dream that you are having your own photograph made, foretells that you will unwarily cause yourself and others' trouble.",
+      "translation_ko": "제 사진을 찍는 꿈은, 저도 모르게 저와 남에게 곤란을 일으킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "의사",
+    "term_en": "doctor",
+    "context": "아픈 처녀가 의사 꿈을 꿈",
+    "interpretation_ko": "병이나 근심이 있으나 곧 이겨낼 조짐",
+    "interpretation_en": "she will have sickness or worry, but will soon overcome them",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Physician",
+      "original": "If she is sick and thus dreams, she will have sickness or worry, but will soon overcome them, unless the physician appears very anxious, and then her trials may increase, ending in loss and sorrow.",
+      "translation_ko": "아픈 처녀가 의사 꿈을 꾸면, 병이나 근심이 있으나 곧 이겨낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "의사",
+    "term_en": "doctor",
+    "context": "처녀가 의사 꿈을 꿈",
+    "interpretation_ko": "부질없는 소일거리에 빠져 제 아름다움을 희생하고 있다는 조짐",
+    "interpretation_en": "denotes that she is sacrificing her beauty in engaging in frivolous pastimes",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Physician",
+      "original": "For a young woman to dream of a physician, denotes that she is sacrificing her beauty in engaging in frivolous pastimes.",
+      "translation_ko": "처녀가 의사 꿈을 꾸면, 부질없는 소일거리에 빠져 제 아름다움을 희생하고 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "의사",
+    "term_en": "doctor",
+    "context": "의사가 몹시 근심스러워 보임",
+    "interpretation_ko": "시련이 커져 손실과 슬픔으로 끝날 조짐",
+    "interpretation_en": "unless the physician appears very anxious, and then her trials may increase, ending in loss and sorrow",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Physician",
+      "original": "If she is sick and thus dreams, she will have sickness or worry, but will soon overcome them, unless the physician appears very anxious, and then her trials may increase, ending in loss and sorrow.",
+      "translation_ko": "의사가 몹시 근심스러워 보이는 꿈은, 시련이 커져 손실과 슬픔으로 끝날 조짐이다"
+    }
+  }
+]

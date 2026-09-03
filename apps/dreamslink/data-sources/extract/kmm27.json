@@ -13,12 +13,18 @@
     "contexts": {
       "의사를 사사로이 만남": "사사로이 사석 친구로",
       "의사에게 진찰을 받음": "진찰 진료 병원에서",
-      "의사가 살을 째는데 피가 나지 않음": "살을 째고 피가 나지"
+      "의사가 살을 째는데 피가 나지 않음": "살을 째고 피가 나지",
+      "처녀가 의사 꿈을 꿈": "처녀가 소일거리 희생",
+      "아픈 처녀가 의사 꿈을 꿈": "아픈 이겨낼",
+      "의사가 몹시 근심스러워 보임": "몹시 근심스러 시련"
     },
     "contexts_en": {
       "의사를 사사로이 만남": "socially auspicious prosperity",
       "의사에게 진찰을 받음": "professionally discouraging differences",
-      "의사가 살을 째는데 피가 나지 않음": "incision flesh tormented"
+      "의사가 살을 째는데 피가 나지 않음": "incision flesh tormented",
+      "처녀가 의사 꿈을 꿈": "young woman sacrificing frivolous",
+      "아픈 처녀가 의사 꿈을 꿈": "sick worry overcome",
+      "의사가 몹시 근심스러워 보임": "anxious trials sorrow"
     }
   },
   {

@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 170 — Petticoat~Phosphorus, 13건)
+// (지금 담긴 것: 배치 171 — Photography~Physician, 7건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -493,6 +493,16 @@ const CASES: Case[] = [
   { id: "pheasant", ctx: "꿩을 쏨", text: "꿩을 쏘았다" },
   { id: "phosphorus", ctx: "인이 빛나는 것을 봄", text: "인이 빛나는 것을 보았다" },
   { id: "phosphorus", ctx: "처녀가 인이 빛나는 꿈을 꿈", text: "처녀가 인이 빛나는 꿈을 꾸었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "doctor", ctx: "의사를 사사로이 만남", text: "의사를 사사로이 만났다" },
+  { id: "doctor", ctx: "의사에게 진찰을 받음", text: "의사에게 진찰을 받았다" },
+  { id: "photograph", ctx: "사진들을 봄", text: "사진들을 보았다" },
+  { id: "photograph", ctx: "애인의 사진을 받음", text: "애인의 사진을 받았다" },
+  { id: "photograph", ctx: "기혼자가 남의 사진을 지님", text: "기혼자가 남의 사진을 지녔다" },
+  { id: "photograph", ctx: "제 사진을 찍음", text: "제 사진을 찍었다" },
+  { id: "doctor", ctx: "처녀가 의사 꿈을 꿈", text: "처녀가 의사 꿈을 꾸었다" },
+  { id: "doctor", ctx: "아픈 처녀가 의사 꿈을 꿈", text: "아픈 처녀가 의사 꿈을 꾸었다" },
+  { id: "doctor", ctx: "의사가 몹시 근심스러워 보임", text: "의사가 몹시 근심스러워 보였다" },
 ];
 
 let notFound = 0;
