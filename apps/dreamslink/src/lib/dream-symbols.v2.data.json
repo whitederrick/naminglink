@@ -74,6 +74,7 @@
     "m72.json",
     "m73.json",
     "m74.json",
+    "m75.json",
     "m7a.json",
     "m7b.json",
     "m8.json",
@@ -11648,6 +11649,358 @@
       ]
     },
     {
+      "id": "key",
+      "term_ko": "열쇠",
+      "term_en": "key",
+      "aliases": [
+        "열쇠가",
+        "열쇠를",
+        "열쇠로",
+        "열쇠 꾸러미",
+        "열쇠 구멍",
+        "열쇠구멍"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "열쇠를 봄",
+          "interpretation_ko": "뜻밖의 변화가 있을 조짐",
+          "interpretation_en": "denotes unexpected changes",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "To dream of keys, denotes unexpected changes.",
+              "translation_ko": "열쇠의 꿈은 뜻밖의 변화를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "장신구 열쇠를 잃음",
+          "interpretation_ko": "정인과 다투고 그 일로 몹시 마음이 어지러울 흉한 조짐",
+          "interpretation_en": "denotes she will have quarrels with her lover, and will suffer much disquiet therefrom",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "For a young woman to dream of losing the key to any personal ornament, denotes she will have quarrels with her lover, and will suffer much disquiet therefrom.",
+              "translation_ko": "젊은 여성이 장신구 열쇠를 잃는 꿈을 꾸면 정인과 다투고 그 일로 몹시 마음이 어지럽다"
+            }
+          ]
+        },
+        {
+          "context": "열쇠를 잃음",
+          "interpretation_ko": "달갑지 않은 일을 겪게 될 흉한 조짐",
+          "interpretation_en": "unpleasant adventures will affect you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "If the keys are lost, unpleasant adventures will affect you.",
+              "translation_ko": "열쇠를 잃으면 달갑지 않은 일을 겪는다"
+            }
+          ]
+        },
+        {
+          "context": "열쇠를 찾아냄",
+          "interpretation_ko": "집안이 평안해지고 하는 일이 활기차게 돌아설 길한 조짐",
+          "interpretation_en": "brings domestic peace and brisk turns to business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "To find keys, brings domestic peace and brisk turns to business.",
+              "translation_ko": "열쇠를 찾아내면 집안이 평안해지고 하는 일이 활기차게 돌아선다"
+            }
+          ]
+        },
+        {
+          "context": "부러진 열쇠를 봄",
+          "interpretation_ko": "죽음이나 시샘으로 갈라설 흉한 조짐",
+          "interpretation_en": "portends separation either through death or jealousy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "Broken keys, portends separation either through death or jealousy.",
+              "translation_ko": "부러진 열쇠는 죽음이나 시샘으로 인한 갈라섬을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "열쇠로 문을 엶",
+          "interpretation_ko": "새 정인을 만나나 그를 너무 믿게 될 조짐",
+          "interpretation_en": "she will have a new lover and have over-confidence in him",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "If she dreams of unlocking a door with a key, she will have a new lover and have over-confidence in him.",
+              "translation_ko": "열쇠로 문을 여는 꿈을 꾸면 새 정인을 만나나 그를 너무 믿게 된다"
+            }
+          ]
+        },
+        {
+          "context": "열쇠로 문을 잠금",
+          "interpretation_ko": "지아비를 잘 골라 맞을 길한 조짐",
+          "interpretation_en": "she will be successful in selecting a husband",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "If she locks a door with a key, she will be successful in selecting a husband.",
+              "translation_ko": "열쇠로 문을 잠그면 지아비를 잘 골라 맞는다"
+            }
+          ]
+        },
+        {
+          "context": "열쇠를 남에게 줌",
+          "interpretation_ko": "말을 가려 하지 못해 제 이름을 스스로 흐릴 흉한 조짐",
+          "interpretation_en": "she will fail to use judgment in conversation and darken her own reputation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Key",
+              "original": "If she gives the key away, she will fail to use judgment in conversation and darken her own reputation.",
+              "translation_ko": "열쇠를 남에게 주면 말을 가려 하지 못해 제 이름을 스스로 흐린다"
+            }
+          ]
+        },
+        {
+          "context": "남이 열쇠 구멍으로 엿보는 것을 봄",
+          "interpretation_ko": "거짓된 벗이 제 사사로운 일을 캐어 저를 딛고 오르려 들 흉한 조짐",
+          "interpretation_en": "you will have false friends delving into your private matters to advance themselves over you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Keyhole",
+              "original": "If you catch others peeping through a keyhole, you will have false friends delving into your private matters to advance themselves over you.",
+              "translation_ko": "남이 열쇠 구멍으로 엿보는 것을 잡으면, 거짓된 벗이 제 사사로운 일을 캐어 저를 딛고 오르려 든다"
+            }
+          ]
+        },
+        {
+          "context": "열쇠 구멍으로 남을 엿봄",
+          "interpretation_ko": "믿고 맡긴 말을 옮겨 남을 해칠 흉한 조짐",
+          "interpretation_en": "you will damage some person by disclosing confidence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Keyhole",
+              "original": "To dream that you spy upon others through a keyhole, you will damage some person by disclosing confidence.",
+              "translation_ko": "열쇠 구멍으로 남을 엿보는 꿈을 꾸면, 믿고 맡긴 말을 옮겨 남을 해친다"
+            }
+          ]
+        },
+        {
+          "context": "열쇠 구멍을 못 찾음",
+          "interpretation_ko": "저도 모르게 벗을 다치게 할 흉한 조짐",
+          "interpretation_en": "you will unconsciously injure a friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Keyhole",
+              "original": "To dream that you cannot find the keyhole, you will unconsciously injure a friend.",
+              "translation_ko": "열쇠 구멍을 못 찾는 꿈을 꾸면 저도 모르게 벗을 다치게 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "king",
+      "term_ko": "임금",
+      "term_en": "king",
+      "aliases": [
+        "국왕",
+        "군주",
+        "황제",
+        "폐하",
+        "왕이"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "임금을 의장 앞에서 마주함",
+          "interpretation_ko": "특별한 일이 있어 길한 조짐",
+          "interpretation_en": "a sign of something extraordinary and auspicious",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "君王對仗有異吉",
+              "translation_ko": "임금을 의장 앞에서 마주하면 특별한 일이 있어 길하다"
+            }
+          ]
+        },
+        {
+          "context": "먼 길에서 다른 나라의 황제를 만남",
+          "interpretation_ko": "즐거움도 배움도 없는 긴 길을 떠날 조짐",
+          "interpretation_en": "you will make a long journey, which will bring neither pleasure nor much knowledge",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Emperor",
+              "original": "To dream of going abroad and meeting the emperor of a nation in your travels, denotes that you will make a long journey, which will bring neither pleasure nor much knowledge.",
+              "translation_ko": "먼 나라에 가서 그 나라 황제를 만나는 꿈은, 즐거움도 이렇다 할 배움도 없는 긴 길을 떠남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "임금을 봄",
+          "interpretation_ko": "온 힘을 다해 애쓰고 있으나 뜻이 저를 부리고 있다는 조짐",
+          "interpretation_en": "you are struggling with your might, and ambition is your master",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "King",
+              "original": "To dream of a king, you are struggling with your might, and ambition is your master.",
+              "translation_ko": "임금의 꿈은 온 힘을 다해 애쓰고 있으나 뜻이 저를 부리고 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제가 임금이 되어 관을 씀",
+          "interpretation_ko": "동무와 함께 일하는 이들 위로 오를 길한 조짐",
+          "interpretation_en": "you will rise above your comrades and co-workers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "King",
+              "original": "To dream that you are crowned king, you will rise above your comrades and co-workers.",
+              "translation_ko": "제가 임금으로 관을 쓰는 꿈을 꾸면 동무와 함께 일하는 이들 위로 오른다"
+            }
+          ]
+        },
+        {
+          "context": "임금에게 꾸중을 들음",
+          "interpretation_ko": "게을리한 일로 나무람을 들을 흉한 조짐",
+          "interpretation_en": "you will be reproved for a neglected duty",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "King",
+              "original": "If you are censured by a king, you will be reproved for a neglected duty.",
+              "translation_ko": "임금에게 꾸중을 들으면 게을리한 일로 나무람을 듣는다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 임금 앞에 나아감",
+          "interpretation_ko": "두려워하게 될 사람과 혼인할 흉한 조짐",
+          "interpretation_en": "she will marry a man whom she will fear",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "King",
+              "original": "For a young woman to be in the presence of a king, she will marry a man whom she will fear.",
+              "translation_ko": "젊은 여성이 임금 앞에 나아가면 두려워하게 될 사람과 혼인한다"
+            }
+          ]
+        },
+        {
+          "context": "임금에게 은혜를 입음",
+          "interpretation_ko": "높은 자리에 오르고 뜻이 맞는 짝을 만날 길한 조짐",
+          "interpretation_en": "she will rise to exalted positions and be congenially wedded",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "King",
+              "original": "To receive favors from a king, she will rise to exalted positions and be congenially wedded.",
+              "translation_ko": "임금에게 은혜를 입으면 높은 자리에 오르고 뜻이 맞는 짝을 만난다"
+            }
+          ]
+        },
+        {
+          "context": "임금의 행렬을 봄",
+          "interpretation_ko": "남다른 이름을 얻을 조짐",
+          "interpretation_en": "a sign of gaining a distinguished name",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "君王隊伍有異名",
+              "translation_ko": "임금의 행렬을 보면 남다른 이름을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "임금이 불러들임",
+          "interpretation_ko": "놀랄 만한 기쁨이 있을 조짐",
+          "interpretation_en": "a sign of surprising joy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "帝王文武呼召",
+              "original": "帝王宣召有驚喜",
+              "translation_ko": "임금이 불러들이면 놀랄 만한 기쁨이 있다"
+            }
+          ]
+        },
+        {
+          "context": "임금이 자리를 내려 줌",
+          "interpretation_ko": "재물이 생기고 길할 조짐",
+          "interpretation_en": "an auspicious sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "帝王文武呼召",
+              "original": "天子賜坐有財吉",
+              "translation_ko": "천자가 자리를 내려 주면 재물이 있고 길하다"
+            }
+          ]
+        },
+        {
+          "context": "임금·제후와 나란히 앉음",
+          "interpretation_ko": "크게 길하고 이로울 조짐",
+          "interpretation_en": "a very auspicious and favorable sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "帝王文武呼召",
+              "original": "王侯並坐大吉利",
+              "translation_ko": "왕과 제후와 나란히 앉으면 크게 길하고 이롭다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pig",
       "term_ko": "돼지",
       "term_en": "pig",
@@ -17732,138 +18085,6 @@
       ]
     },
     {
-      "id": "key",
-      "term_ko": "열쇠",
-      "term_en": "key",
-      "aliases": [
-        "열쇠가",
-        "열쇠를",
-        "열쇠로",
-        "열쇠 꾸러미"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "열쇠를 봄",
-          "interpretation_ko": "뜻밖의 변화가 있을 조짐",
-          "interpretation_en": "denotes unexpected changes",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Key",
-              "original": "To dream of keys, denotes unexpected changes.",
-              "translation_ko": "열쇠의 꿈은 뜻밖의 변화를 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "장신구 열쇠를 잃음",
-          "interpretation_ko": "정인과 다투고 그 일로 몹시 마음이 어지러울 흉한 조짐",
-          "interpretation_en": "denotes she will have quarrels with her lover, and will suffer much disquiet therefrom",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Key",
-              "original": "For a young woman to dream of losing the key to any personal ornament, denotes she will have quarrels with her lover, and will suffer much disquiet therefrom.",
-              "translation_ko": "젊은 여성이 장신구 열쇠를 잃는 꿈을 꾸면 정인과 다투고 그 일로 몹시 마음이 어지럽다"
-            }
-          ]
-        },
-        {
-          "context": "열쇠를 잃음",
-          "interpretation_ko": "달갑지 않은 일을 겪게 될 흉한 조짐",
-          "interpretation_en": "unpleasant adventures will affect you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Key",
-              "original": "If the keys are lost, unpleasant adventures will affect you.",
-              "translation_ko": "열쇠를 잃으면 달갑지 않은 일을 겪는다"
-            }
-          ]
-        },
-        {
-          "context": "열쇠를 찾아냄",
-          "interpretation_ko": "집안이 평안해지고 하는 일이 활기차게 돌아설 길한 조짐",
-          "interpretation_en": "brings domestic peace and brisk turns to business",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Key",
-              "original": "To find keys, brings domestic peace and brisk turns to business.",
-              "translation_ko": "열쇠를 찾아내면 집안이 평안해지고 하는 일이 활기차게 돌아선다"
-            }
-          ]
-        },
-        {
-          "context": "부러진 열쇠를 봄",
-          "interpretation_ko": "죽음이나 시샘으로 갈라설 흉한 조짐",
-          "interpretation_en": "portends separation either through death or jealousy",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Key",
-              "original": "Broken keys, portends separation either through death or jealousy.",
-              "translation_ko": "부러진 열쇠는 죽음이나 시샘으로 인한 갈라섬을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "열쇠로 문을 엶",
-          "interpretation_ko": "새 정인을 만나나 그를 너무 믿게 될 조짐",
-          "interpretation_en": "she will have a new lover and have over-confidence in him",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Key",
-              "original": "If she dreams of unlocking a door with a key, she will have a new lover and have over-confidence in him.",
-              "translation_ko": "열쇠로 문을 여는 꿈을 꾸면 새 정인을 만나나 그를 너무 믿게 된다"
-            }
-          ]
-        },
-        {
-          "context": "열쇠로 문을 잠금",
-          "interpretation_ko": "지아비를 잘 골라 맞을 길한 조짐",
-          "interpretation_en": "she will be successful in selecting a husband",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Key",
-              "original": "If she locks a door with a key, she will be successful in selecting a husband.",
-              "translation_ko": "열쇠로 문을 잠그면 지아비를 잘 골라 맞는다"
-            }
-          ]
-        },
-        {
-          "context": "열쇠를 남에게 줌",
-          "interpretation_ko": "말을 가려 하지 못해 제 이름을 스스로 흐릴 흉한 조짐",
-          "interpretation_en": "she will fail to use judgment in conversation and darken her own reputation",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Key",
-              "original": "If she gives the key away, she will fail to use judgment in conversation and darken her own reputation.",
-              "translation_ko": "열쇠를 남에게 주면 말을 가려 하지 못해 제 이름을 스스로 흐린다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "liquor",
       "term_ko": "술",
       "term_en": "liquor",
@@ -21394,6 +21615,131 @@
       ]
     },
     {
+      "id": "killing-someone",
+      "term_ko": "살인",
+      "term_en": "killing someone",
+      "aliases": [
+        "살해",
+        "살인자",
+        "죽이는",
+        "사람을 죽였다",
+        "남을 죽였다",
+        "목숨을 끊었다",
+        "사람을 죽이고",
+        "남을 죽이고",
+        "사나운 짐승을 죽였다",
+        "사나운 짐승을 죽이"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남을 죽임",
+          "interpretation_ko": "크게 부귀할 조짐",
+          "interpretation_en": "a sign of great wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺死他人大富貴",
+              "translation_ko": "남을 죽이면 크게 부귀하다"
+            }
+          ]
+        },
+        {
+          "context": "제가 사람을 죽임",
+          "interpretation_ko": "남의 무심함에 크게 괴롭고 낯이 깎이며 그 어두움이 가까운 이까지 시달리게 할 흉한 조짐",
+          "interpretation_en": "foretells that you will suffer great anguish and humiliation through the indifference of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Homicide",
+              "original": "To dream that you commit homicide, foretells that you will suffer great anguish and humiliation through the indifference of others, and your gloomy surroundings will cause perplexing worry to those close to you.",
+              "translation_ko": "제가 사람을 죽이는 꿈은, 남의 무심함에 크게 괴롭고 낯이 깎임을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "벗이 스스로 목숨을 끊음",
+          "interpretation_ko": "아주 중한 일을 정하는 데서 애를 먹을 흉한 조짐",
+          "interpretation_en": "you will have trouble in deciding a very important question",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Homicide",
+              "original": "To dream that a friend commits suicide, you will have trouble in deciding a very important question.",
+              "translation_ko": "벗이 스스로 목숨을 끊는 꿈은, 아주 중한 일을 정하는 데서 애를 먹음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "맨손인 사람을 죽임",
+          "interpretation_ko": "슬픔이 오고 하던 일이 어그러질 흉한 조짐",
+          "interpretation_en": "prognosticates sorrow and failure in affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Killing",
+              "original": "To dream of killing a defenseless man, prognosticates sorrow and failure in affairs.",
+              "translation_ko": "맨손인 사람을 죽이는 꿈은 슬픔과 일의 어그러짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제 몸을 지키려 죽이거나 사나운 짐승을 죽임",
+          "interpretation_ko": "이기고 자리가 오를 길한 조짐",
+          "interpretation_en": "it denotes victory and a rise in position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Killing",
+              "original": "If you kill one in defense, or kill a ferocious beast, it denotes victory and a rise in position.",
+              "translation_ko": "제 몸을 지키려 죽이거나 사나운 짐승을 죽이면 이기고 자리가 오른다"
+            }
+          ]
+        },
+        {
+          "context": "사람을 죽여 피가 옷을 적심",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺人血污衣得財",
+              "translation_ko": "사람을 죽여 피가 옷을 더럽히면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "사람을 죽이는 것을 봄",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "看見殺人主大吉",
+              "translation_ko": "사람을 죽이는 것을 보면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "married-couple",
       "term_ko": "부부",
       "term_en": "married couple",
@@ -24256,6 +24602,111 @@
       ]
     },
     {
+      "id": "goat",
+      "term_ko": "염소",
+      "term_en": "goat",
+      "aliases": [
+        "염소",
+        "숫염소",
+        "염소젖",
+        "새끼 염소",
+        "새끼염소"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "염소를 봄",
+          "interpretation_ko": "조심스레 일을 꾸려 재물이 꾸준히 불어날 길한 조짐",
+          "interpretation_en": "denotes cautious dealings and a steady increase of wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Goat",
+              "original": "To see them otherwise, denotes cautious dealings and a steady increase of wealth.",
+              "translation_ko": "달리 보이는 것은, 조심스러운 거래와 꾸준히 느는 재물을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "농가 둘레를 거니는 염소를 봄",
+          "interpretation_ko": "날씨가 알맞고 곡식이 잘될 길한 조짐",
+          "interpretation_en": "is significant of seasonable weather and a fine yield of crops",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Goat",
+              "original": "To dream of goats wandering around a farm, is significant of seasonable weather and a fine yield of crops",
+              "translation_ko": "농가 둘레를 거니는 염소 꿈은, 알맞은 날씨와 잘된 곡식을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "숫염소가 들이받음",
+          "interpretation_ko": "원수가 비밀이나 셈속을 손에 넣지 않도록 조심해야 할 흉한 조짐",
+          "interpretation_en": "beware that enemies do not get possession of your secrets or business plans",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Goat",
+              "original": "If a billy goat butts you, beware that enemies do not get possession of your secrets or business plans.",
+              "translation_ko": "숫염소가 들이받으면, 원수가 비밀이나 셈속을 손에 넣지 않도록 조심하라"
+            }
+          ]
+        },
+        {
+          "context": "여성이 숫염소를 타고 감",
+          "interpretation_ko": "거친 몸가짐 탓에 사람들의 입길에 오를 흉한 조짐",
+          "interpretation_en": "denotes that she will be held in disrepute because of her coarse and ill-bred conduct",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Goat",
+              "original": "For a woman to dream of riding a billy goat, denotes that she will be held in disrepute because of her coarse and ill-bred conduct.",
+              "translation_ko": "여성이 숫염소를 타는 꿈은, 거친 몸가짐 탓에 입길에 오름을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 염소젖을 마심",
+          "interpretation_ko": "재물을 보고 짝을 맺되 뉘우치지는 않을 조짐",
+          "interpretation_en": "she will marry for money and will not be disappointed",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Goat",
+              "original": "If a woman dreams that she drinks goat's milk, she will marry for money and will not be disappointed.",
+              "translation_ko": "여성이 염소젖을 마시는 꿈이면, 재물을 보고 짝을 맺되 뉘우치지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "새끼 염소를 봄",
+          "interpretation_ko": "몸가짐과 즐거움에 그리 엄하지 못해 아끼는 이의 마음을 아프게 할 흉한 조짐",
+          "interpretation_en": "denotes you will not be over-scrupulous in your morals or pleasures; you will be likely to bring grief to some loving heart",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kid",
+              "original": "To dream of a kid, denotes you will not be over-scrupulous in your morals or pleasures.",
+              "translation_ko": "새끼 염소의 꿈은 몸가짐과 즐거움에 그리 엄하지 못하리라는 뜻이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "gold",
       "term_ko": "황금",
       "term_en": "gold",
@@ -24881,112 +25332,6 @@
               "locator": "Hotel",
               "original": "To dream of hunting a hotel, you will be baffled in your search for wealth and happiness.",
               "translation_ko": "여관을 찾아다니는 꿈은, 재물과 즐거움을 찾는 일이 어긋남을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "king",
-      "term_ko": "임금",
-      "term_en": "king",
-      "aliases": [
-        "국왕",
-        "군주",
-        "황제",
-        "폐하",
-        "왕이"
-      ],
-      "category": "person",
-      "polarity": "positive",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "임금을 의장 앞에서 마주함",
-          "interpretation_ko": "특별한 일이 있어 길한 조짐",
-          "interpretation_en": "a sign of something extraordinary and auspicious",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "君王對仗有異吉",
-              "translation_ko": "임금을 의장 앞에서 마주하면 특별한 일이 있어 길하다"
-            }
-          ]
-        },
-        {
-          "context": "먼 길에서 다른 나라의 황제를 만남",
-          "interpretation_ko": "즐거움도 배움도 없는 긴 길을 떠날 조짐",
-          "interpretation_en": "you will make a long journey, which will bring neither pleasure nor much knowledge",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Emperor",
-              "original": "To dream of going abroad and meeting the emperor of a nation in your travels, denotes that you will make a long journey, which will bring neither pleasure nor much knowledge.",
-              "translation_ko": "먼 나라에 가서 그 나라 황제를 만나는 꿈은, 즐거움도 이렇다 할 배움도 없는 긴 길을 떠남을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "임금의 행렬을 봄",
-          "interpretation_ko": "남다른 이름을 얻을 조짐",
-          "interpretation_en": "a sign of gaining a distinguished name",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "君王隊伍有異名",
-              "translation_ko": "임금의 행렬을 보면 남다른 이름을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "임금이 불러들임",
-          "interpretation_ko": "놀랄 만한 기쁨이 있을 조짐",
-          "interpretation_en": "a sign of surprising joy",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "帝王文武呼召",
-              "original": "帝王宣召有驚喜",
-              "translation_ko": "임금이 불러들이면 놀랄 만한 기쁨이 있다"
-            }
-          ]
-        },
-        {
-          "context": "임금이 자리를 내려 줌",
-          "interpretation_ko": "재물이 생기고 길할 조짐",
-          "interpretation_en": "an auspicious sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "帝王文武呼召",
-              "original": "天子賜坐有財吉",
-              "translation_ko": "천자가 자리를 내려 주면 재물이 있고 길하다"
-            }
-          ]
-        },
-        {
-          "context": "임금·제후와 나란히 앉음",
-          "interpretation_ko": "크게 길하고 이로울 조짐",
-          "interpretation_en": "a very auspicious and favorable sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "帝王文武呼召",
-              "original": "王侯並坐大吉利",
-              "translation_ko": "왕과 제후와 나란히 앉으면 크게 길하고 이롭다"
             }
           ]
         }
@@ -29195,95 +29540,6 @@
       ]
     },
     {
-      "id": "goat",
-      "term_ko": "염소",
-      "term_en": "goat",
-      "aliases": [
-        "염소",
-        "숫염소",
-        "염소젖"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "염소를 봄",
-          "interpretation_ko": "조심스레 일을 꾸려 재물이 꾸준히 불어날 길한 조짐",
-          "interpretation_en": "denotes cautious dealings and a steady increase of wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Goat",
-              "original": "To see them otherwise, denotes cautious dealings and a steady increase of wealth.",
-              "translation_ko": "달리 보이는 것은, 조심스러운 거래와 꾸준히 느는 재물을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "농가 둘레를 거니는 염소를 봄",
-          "interpretation_ko": "날씨가 알맞고 곡식이 잘될 길한 조짐",
-          "interpretation_en": "is significant of seasonable weather and a fine yield of crops",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Goat",
-              "original": "To dream of goats wandering around a farm, is significant of seasonable weather and a fine yield of crops",
-              "translation_ko": "농가 둘레를 거니는 염소 꿈은, 알맞은 날씨와 잘된 곡식을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "숫염소가 들이받음",
-          "interpretation_ko": "원수가 비밀이나 셈속을 손에 넣지 않도록 조심해야 할 흉한 조짐",
-          "interpretation_en": "beware that enemies do not get possession of your secrets or business plans",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Goat",
-              "original": "If a billy goat butts you, beware that enemies do not get possession of your secrets or business plans.",
-              "translation_ko": "숫염소가 들이받으면, 원수가 비밀이나 셈속을 손에 넣지 않도록 조심하라"
-            }
-          ]
-        },
-        {
-          "context": "여성이 숫염소를 타고 감",
-          "interpretation_ko": "거친 몸가짐 탓에 사람들의 입길에 오를 흉한 조짐",
-          "interpretation_en": "denotes that she will be held in disrepute because of her coarse and ill-bred conduct",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Goat",
-              "original": "For a woman to dream of riding a billy goat, denotes that she will be held in disrepute because of her coarse and ill-bred conduct.",
-              "translation_ko": "여성이 숫염소를 타는 꿈은, 거친 몸가짐 탓에 입길에 오름을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 염소젖을 마심",
-          "interpretation_ko": "재물을 보고 짝을 맺되 뉘우치지는 않을 조짐",
-          "interpretation_en": "she will marry for money and will not be disappointed",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Goat",
-              "original": "If a woman dreams that she drinks goat's milk, she will marry for money and will not be disappointed.",
-              "translation_ko": "여성이 염소젖을 마시는 꿈이면, 재물을 보고 짝을 맺되 뉘우치지 않는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "god",
       "term_ko": "하느님",
       "term_en": "god",
@@ -30448,101 +30704,6 @@
               "locator": "Jug",
               "original": "To take an unpleasant drink from a jug, disappointment and disgust will follow pleasant anticipations.",
               "translation_ko": "주전자로 맛없는 것을 마시면 즐거운 기대 끝에 실망과 역겨움이 따른다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "killing-someone",
-      "term_ko": "살인",
-      "term_en": "killing someone",
-      "aliases": [
-        "살해",
-        "살인자",
-        "죽이는",
-        "사람을 죽였다",
-        "남을 죽였다",
-        "목숨을 끊었다",
-        "사람을 죽이고",
-        "남을 죽이고"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남을 죽임",
-          "interpretation_ko": "크게 부귀할 조짐",
-          "interpretation_en": "a sign of great wealth and honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺死他人大富貴",
-              "translation_ko": "남을 죽이면 크게 부귀하다"
-            }
-          ]
-        },
-        {
-          "context": "제가 사람을 죽임",
-          "interpretation_ko": "남의 무심함에 크게 괴롭고 낯이 깎이며 그 어두움이 가까운 이까지 시달리게 할 흉한 조짐",
-          "interpretation_en": "foretells that you will suffer great anguish and humiliation through the indifference of others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Homicide",
-              "original": "To dream that you commit homicide, foretells that you will suffer great anguish and humiliation through the indifference of others, and your gloomy surroundings will cause perplexing worry to those close to you.",
-              "translation_ko": "제가 사람을 죽이는 꿈은, 남의 무심함에 크게 괴롭고 낯이 깎임을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "벗이 스스로 목숨을 끊음",
-          "interpretation_ko": "아주 중한 일을 정하는 데서 애를 먹을 흉한 조짐",
-          "interpretation_en": "you will have trouble in deciding a very important question",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Homicide",
-              "original": "To dream that a friend commits suicide, you will have trouble in deciding a very important question.",
-              "translation_ko": "벗이 스스로 목숨을 끊는 꿈은, 아주 중한 일을 정하는 데서 애를 먹음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "사람을 죽여 피가 옷을 적심",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺人血污衣得財",
-              "translation_ko": "사람을 죽여 피가 옷을 더럽히면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "사람을 죽이는 것을 봄",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "看見殺人主大吉",
-              "translation_ko": "사람을 죽이는 것을 보면 크게 길하다"
             }
           ]
         }
@@ -39472,6 +39633,82 @@
               "locator": "Kangaroo",
               "original": "To see a kangaroo's hide, denotes that you are in a fair way to success.",
               "translation_ko": "캥거루 가죽을 보면 일이 잘 풀릴 길로 들어섰다는 뜻이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kidneys",
+      "term_ko": "콩팥",
+      "term_en": "kidneys",
+      "aliases": [
+        "콩팥이",
+        "콩팥을",
+        "콩팥에",
+        "콩팥 곰국"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제 콩팥 꿈을 꿈",
+          "interpretation_ko": "무거운 병이 닥치거나 혼인 살림에 근심이 생길 흉한 조짐",
+          "interpretation_en": "foretells you are threatened with a serious illness, or there will be trouble in marriage relations for you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kidneys",
+              "original": "To dream about your kidneys, foretells you are threatened with a serious illness, or there will be trouble in marriage relations for you.",
+              "translation_ko": "제 콩팥 꿈은 무거운 병이나 혼인 살림의 근심을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "콩팥이 너무 세게 움직임",
+          "interpretation_ko": "낯 뜨거운 일에 한몫 끼게 될 흉한 조짐",
+          "interpretation_en": "you will be a party to some racy intrigue",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kidneys",
+              "original": "If they act too freely, you will be a party to some racy intrigue.",
+              "translation_ko": "그것이 너무 세게 움직이면 낯 뜨거운 일에 한몫 끼게 된다"
+            }
+          ]
+        },
+        {
+          "context": "콩팥이 제 일을 하지 않음",
+          "interpretation_ko": "말썽이 크게 나 제게 해가 될 흉한 조짐",
+          "interpretation_en": "there will be a sensation, and to your detriment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kidneys",
+              "original": "If they refuse to perform their work, there will be a sensation, and to your detriment.",
+              "translation_ko": "그것이 제 일을 마다하면 말썽이 크게 나 제게 해가 된다"
+            }
+          ]
+        },
+        {
+          "context": "콩팥 곰국을 먹음",
+          "interpretation_ko": "참견하는 이가 남몰래 하던 사랑에 역겨움을 안길 흉한 조짐",
+          "interpretation_en": "some officious person will cause you disgust in some secret lover affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Kidneys",
+              "original": "If you eat kidney-stew, some officious person will cause you disgust in some secret lover affair.",
+              "translation_ko": "콩팥 곰국을 먹으면 참견하는 이가 남몰래 하던 사랑에 역겨움을 안긴다"
             }
           ]
         }

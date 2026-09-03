@@ -1,0 +1,227 @@
+[
+  {
+    "term_ko": "열쇠",
+    "term_en": "key",
+    "context": "남이 열쇠 구멍으로 엿보는 것을 봄",
+    "interpretation_ko": "거짓된 벗이 제 사사로운 일을 캐어 저를 딛고 오르려 들 흉한 조짐",
+    "interpretation_en": "you will have false friends delving into your private matters to advance themselves over you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Keyhole",
+      "original": "If you catch others peeping through a keyhole, you will have false friends delving into your private matters to advance themselves over you.",
+      "translation_ko": "남이 열쇠 구멍으로 엿보는 것을 잡으면, 거짓된 벗이 제 사사로운 일을 캐어 저를 딛고 오르려 든다"
+    }
+  },
+  {
+    "term_ko": "열쇠",
+    "term_en": "key",
+    "context": "열쇠 구멍으로 남을 엿봄",
+    "interpretation_ko": "믿고 맡긴 말을 옮겨 남을 해칠 흉한 조짐",
+    "interpretation_en": "you will damage some person by disclosing confidence",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Keyhole",
+      "original": "To dream that you spy upon others through a keyhole, you will damage some person by disclosing confidence.",
+      "translation_ko": "열쇠 구멍으로 남을 엿보는 꿈을 꾸면, 믿고 맡긴 말을 옮겨 남을 해친다"
+    }
+  },
+  {
+    "term_ko": "열쇠",
+    "term_en": "key",
+    "context": "열쇠 구멍을 못 찾음",
+    "interpretation_ko": "저도 모르게 벗을 다치게 할 흉한 조짐",
+    "interpretation_en": "you will unconsciously injure a friend",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Keyhole",
+      "original": "To dream that you cannot find the keyhole, you will unconsciously injure a friend.",
+      "translation_ko": "열쇠 구멍을 못 찾는 꿈을 꾸면 저도 모르게 벗을 다치게 한다"
+    }
+  },
+  {
+    "term_ko": "염소",
+    "term_en": "goat",
+    "context": "새끼 염소를 봄",
+    "interpretation_ko": "몸가짐과 즐거움에 그리 엄하지 못해 아끼는 이의 마음을 아프게 할 흉한 조짐",
+    "interpretation_en": "denotes you will not be over-scrupulous in your morals or pleasures; you will be likely to bring grief to some loving heart",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Kid",
+      "original": "To dream of a kid, denotes you will not be over-scrupulous in your morals or pleasures.",
+      "translation_ko": "새끼 염소의 꿈은 몸가짐과 즐거움에 그리 엄하지 못하리라는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "콩팥",
+    "term_en": "kidneys",
+    "context": "제 콩팥 꿈을 꿈",
+    "interpretation_ko": "무거운 병이 닥치거나 혼인 살림에 근심이 생길 흉한 조짐",
+    "interpretation_en": "foretells you are threatened with a serious illness, or there will be trouble in marriage relations for you",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Kidneys",
+      "original": "To dream about your kidneys, foretells you are threatened with a serious illness, or there will be trouble in marriage relations for you.",
+      "translation_ko": "제 콩팥 꿈은 무거운 병이나 혼인 살림의 근심을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "콩팥",
+    "term_en": "kidneys",
+    "context": "콩팥이 너무 세게 움직임",
+    "interpretation_ko": "낯 뜨거운 일에 한몫 끼게 될 흉한 조짐",
+    "interpretation_en": "you will be a party to some racy intrigue",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Kidneys",
+      "original": "If they act too freely, you will be a party to some racy intrigue.",
+      "translation_ko": "그것이 너무 세게 움직이면 낯 뜨거운 일에 한몫 끼게 된다"
+    }
+  },
+  {
+    "term_ko": "콩팥",
+    "term_en": "kidneys",
+    "context": "콩팥이 제 일을 하지 않음",
+    "interpretation_ko": "말썽이 크게 나 제게 해가 될 흉한 조짐",
+    "interpretation_en": "there will be a sensation, and to your detriment",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Kidneys",
+      "original": "If they refuse to perform their work, there will be a sensation, and to your detriment.",
+      "translation_ko": "그것이 제 일을 마다하면 말썽이 크게 나 제게 해가 된다"
+    }
+  },
+  {
+    "term_ko": "콩팥",
+    "term_en": "kidneys",
+    "context": "콩팥 곰국을 먹음",
+    "interpretation_ko": "참견하는 이가 남몰래 하던 사랑에 역겨움을 안길 흉한 조짐",
+    "interpretation_en": "some officious person will cause you disgust in some secret lover affair",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Kidneys",
+      "original": "If you eat kidney-stew, some officious person will cause you disgust in some secret lover affair.",
+      "translation_ko": "콩팥 곰국을 먹으면 참견하는 이가 남몰래 하던 사랑에 역겨움을 안긴다"
+    }
+  },
+  {
+    "term_ko": "살인",
+    "term_en": "killing someone",
+    "context": "맨손인 사람을 죽임",
+    "interpretation_ko": "슬픔이 오고 하던 일이 어그러질 흉한 조짐",
+    "interpretation_en": "prognosticates sorrow and failure in affairs",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Killing",
+      "original": "To dream of killing a defenseless man, prognosticates sorrow and failure in affairs.",
+      "translation_ko": "맨손인 사람을 죽이는 꿈은 슬픔과 일의 어그러짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "살인",
+    "term_en": "killing someone",
+    "context": "제 몸을 지키려 죽이거나 사나운 짐승을 죽임",
+    "interpretation_ko": "이기고 자리가 오를 길한 조짐",
+    "interpretation_en": "it denotes victory and a rise in position",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Killing",
+      "original": "If you kill one in defense, or kill a ferocious beast, it denotes victory and a rise in position.",
+      "translation_ko": "제 몸을 지키려 죽이거나 사나운 짐승을 죽이면 이기고 자리가 오른다"
+    }
+  },
+  {
+    "term_ko": "임금",
+    "term_en": "king",
+    "context": "임금을 봄",
+    "interpretation_ko": "온 힘을 다해 애쓰고 있으나 뜻이 저를 부리고 있다는 조짐",
+    "interpretation_en": "you are struggling with your might, and ambition is your master",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "King",
+      "original": "To dream of a king, you are struggling with your might, and ambition is your master.",
+      "translation_ko": "임금의 꿈은 온 힘을 다해 애쓰고 있으나 뜻이 저를 부리고 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "임금",
+    "term_en": "king",
+    "context": "제가 임금이 되어 관을 씀",
+    "interpretation_ko": "동무와 함께 일하는 이들 위로 오를 길한 조짐",
+    "interpretation_en": "you will rise above your comrades and co-workers",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "King",
+      "original": "To dream that you are crowned king, you will rise above your comrades and co-workers.",
+      "translation_ko": "제가 임금으로 관을 쓰는 꿈을 꾸면 동무와 함께 일하는 이들 위로 오른다"
+    }
+  },
+  {
+    "term_ko": "임금",
+    "term_en": "king",
+    "context": "임금에게 꾸중을 들음",
+    "interpretation_ko": "게을리한 일로 나무람을 들을 흉한 조짐",
+    "interpretation_en": "you will be reproved for a neglected duty",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "King",
+      "original": "If you are censured by a king, you will be reproved for a neglected duty.",
+      "translation_ko": "임금에게 꾸중을 들으면 게을리한 일로 나무람을 듣는다"
+    }
+  },
+  {
+    "term_ko": "임금",
+    "term_en": "king",
+    "context": "처녀가 임금 앞에 나아감",
+    "interpretation_ko": "두려워하게 될 사람과 혼인할 흉한 조짐",
+    "interpretation_en": "she will marry a man whom she will fear",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "King",
+      "original": "For a young woman to be in the presence of a king, she will marry a man whom she will fear.",
+      "translation_ko": "젊은 여성이 임금 앞에 나아가면 두려워하게 될 사람과 혼인한다"
+    }
+  },
+  {
+    "term_ko": "임금",
+    "term_en": "king",
+    "context": "임금에게 은혜를 입음",
+    "interpretation_ko": "높은 자리에 오르고 뜻이 맞는 짝을 만날 길한 조짐",
+    "interpretation_en": "she will rise to exalted positions and be congenially wedded",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "King",
+      "original": "To receive favors from a king, she will rise to exalted positions and be congenially wedded.",
+      "translation_ko": "임금에게 은혜를 입으면 높은 자리에 오르고 뜻이 맞는 짝을 만난다"
+    }
+  }
+]

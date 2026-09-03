@@ -1,0 +1,27 @@
+[
+  {
+    "id": "kidneys",
+    "aliases": [
+      "콩팥이",
+      "콩팥을",
+      "콩팥에",
+      "콩팥 곰국"
+    ],
+    "aliases_en": [
+      "kidneys",
+      "kidney-stew"
+    ],
+    "contexts": {
+      "제 콩팥 꿈을 꿈": "나의 제것 내것",
+      "콩팥이 너무 세게 움직임": "세게 활발 지나치게",
+      "콩팥이 제 일을 하지 않음": "멈췄 움직이지 하지않",
+      "콩팥 곰국을 먹음": "곰국 국을 먹었"
+    },
+    "contexts_en": {
+      "제 콩팥 꿈을 꿈": "serious illness marriage relations",
+      "콩팥이 너무 세게 움직임": "freely party racy intrigue",
+      "콩팥이 제 일을 하지 않음": "refuse perform sensation detriment",
+      "콩팥 곰국을 먹음": "eat stew officious disgust secret"
+    }
+  }
+]

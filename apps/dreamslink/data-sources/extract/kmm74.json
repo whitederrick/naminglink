@@ -24,7 +24,9 @@
       "열쇠가",
       "열쇠를",
       "열쇠로",
-      "열쇠 꾸러미"
+      "열쇠 꾸러미",
+      "열쇠 구멍",
+      "열쇠구멍"
     ],
     "aliases_en": [
       "keys",
@@ -38,7 +40,10 @@
       "장신구 열쇠를 잃음": "장신구 패물 노리개",
       "열쇠로 문을 엶": "열었 열고 열어",
       "열쇠로 문을 잠금": "잠갔 잠그 걸어잠",
-      "열쇠를 남에게 줌": "남에게 건네 주었다"
+      "열쇠를 남에게 줌": "남에게 건네 주었다",
+      "열쇠 구멍으로 남을 엿봄": "엿보 훔쳐보 들여다보",
+      "남이 열쇠 구멍으로 엿보는 것을 봄": "남이 남들 다른이",
+      "열쇠 구멍을 못 찾음": "구멍을 찾지 보이지"
     },
     "contexts_en": {
       "열쇠를 봄": "unexpected changes",
@@ -48,7 +53,10 @@
       "장신구 열쇠를 잃음": "losing personal ornament quarrels disquiet",
       "열쇠로 문을 엶": "unlocking new confidence",
       "열쇠로 문을 잠금": "locks selecting husband successful",
-      "열쇠를 남에게 줌": "gives away judgment conversation darken"
+      "열쇠를 남에게 줌": "gives away judgment conversation darken",
+      "열쇠 구멍으로 남을 엿봄": "spy keyhole damage disclose",
+      "남이 열쇠 구멍으로 엿보는 것을 봄": "catch peeping delving private advance",
+      "열쇠 구멍을 못 찾음": "cannot unconsciously injure"
     }
   }
 ]

@@ -133,7 +133,9 @@
     "aliases": [
       "염소",
       "숫염소",
-      "염소젖"
+      "염소젖",
+      "새끼 염소",
+      "새끼염소"
     ],
     "aliases_en": [
       "goats",
@@ -144,14 +146,16 @@
       "농가 둘레를 거니는 염소를 봄": "농가 거니 어슬렁",
       "숫염소가 들이받음": "들이받 받았 뿔로",
       "여성이 숫염소를 타고 감": "타고 올라타",
-      "여성이 염소젖을 마심": "염소젖 젖을"
+      "여성이 염소젖을 마심": "염소젖 젖을",
+      "새끼 염소를 봄": "새끼 어린"
     },
     "contexts_en": {
       "염소를 봄": "otherwise cautious dealings steady",
       "농가 둘레를 거니는 염소를 봄": "wandering farm seasonable weather",
       "숫염소가 들이받음": "billy butts beware secrets plans",
       "여성이 숫염소를 타고 감": "riding disrepute coarse conduct",
-      "여성이 염소젖을 마심": "drinks milk money disappointed"
+      "여성이 염소젖을 마심": "drinks milk money disappointed",
+      "새끼 염소를 봄": "scrupulous morals grief loving"
     }
   },
   {

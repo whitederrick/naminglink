@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 74 — Katydids~Key, 19건)
+// (지금 담긴 것: 배치 75 — Keyhole~King, 19건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,27 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "katydid", ctx: "여치 우는 소리를 들음", text: "여치 우는 소리를 들었다" },
-  { id: "katydid", ctx: "여자가 여치를 봄", text: "여자가 여치를 보았다" },
-  { id: "cask", ctx: "작은 통을 봄", text: "조그만 통을 보았다" },
-  { id: "cask", ctx: "깨진 통을 봄", text: "깨진 통을 보았다" },
-  { id: "cauldron", ctx: "물이 끓는 솥을 봄", text: "물이 펄펄 끓는 솥을 보았다" },
-  { id: "cauldron", ctx: "어두운 빛깔의 솥을 다룸", text: "어두운 솥을 다루었다" },
-  { id: "cauldron", ctx: "밝은 빛깔의 솥을 봄", text: "밝은 빛깔의 솥을 보았다" },
-  { id: "key", ctx: "열쇠를 봄", text: "열쇠를 보았다" },
-  { id: "key", ctx: "열쇠를 잃음", text: "열쇠를 잃어버렸다" },
-  { id: "key", ctx: "열쇠를 찾아냄", text: "열쇠를 찾아냈다" },
-  { id: "key", ctx: "부러진 열쇠를 봄", text: "부러진 열쇠를 보았다" },
-  { id: "key", ctx: "장신구 열쇠를 잃음", text: "장신구 열쇠를 잃어버렸다" },
-  { id: "key", ctx: "열쇠로 문을 엶", text: "열쇠로 문을 열었다" },
-  { id: "key", ctx: "열쇠로 문을 잠금", text: "열쇠로 문을 잠갔다" },
-  { id: "key", ctx: "열쇠를 남에게 줌", text: "열쇠를 남에게 주었다" },
+  { id: "key", ctx: "열쇠 구멍으로 남을 엿봄", text: "열쇠 구멍으로 남을 엿보았다" },
+  { id: "key", ctx: "남이 열쇠 구멍으로 엿보는 것을 봄", text: "남이 열쇠 구멍으로 엿보고 있었다" },
+  { id: "key", ctx: "열쇠 구멍을 못 찾음", text: "열쇠 구멍을 찾지 못했다" },
+  { id: "goat", ctx: "새끼 염소를 봄", text: "새끼 염소를 보았다" },
+  { id: "kidneys", ctx: "제 콩팥 꿈을 꿈", text: "나의 콩팥 꿈을 꾸었다" },
+  { id: "kidneys", ctx: "콩팥이 너무 세게 움직임", text: "콩팥이 지나치게 활발했다" },
+  { id: "kidneys", ctx: "콩팥이 제 일을 하지 않음", text: "콩팥이 멈췄다" },
+  { id: "kidneys", ctx: "콩팥 곰국을 먹음", text: "콩팥 곰국을 먹었다" },
+  { id: "killing-someone", ctx: "맨손인 사람을 죽임", text: "맨손인 사람을 죽였다" },
+  { id: "killing-someone", ctx: "제 몸을 지키려 죽이거나 사나운 짐승을 죽임", text: "사나운 짐승을 죽였다" },
+  { id: "king", ctx: "임금을 봄", text: "임금을 보며 야심에 발버둥쳤다" },
+  { id: "king", ctx: "제가 임금이 되어 관을 씀", text: "내가 임금으로 즉위했다" },
+  { id: "king", ctx: "임금에게 꾸중을 들음", text: "임금에게 꾸중을 들었다" },
+  { id: "king", ctx: "처녀가 임금 앞에 나아감", text: "처녀가 임금 앞에 나아갔다" },
+  { id: "king", ctx: "임금에게 은혜를 입음", text: "임금에게 은혜를 입었다" },
 
   // 이 배치가 판별어를 더한 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "cauldron", ctx: "큰 솥을 봄", text: "커다란 솥을 보았다" },
-  { id: "cauldron", ctx: "무쇠솥이 깨짐", text: "무쇠솥이 깨졌다" },
-  { id: "cask", ctx: "가득 찬 통을 봄", text: "가득 찬 나무통을 보았다" },
-  { id: "cask", ctx: "통이 비어 있음", text: "나무통이 비어 있었다" },
+  { id: "key", ctx: "열쇠를 찾아냄", text: "열쇠를 찾아냈다" },
+  { id: "goat", ctx: "숫염소가 들이받음", text: "숫염소가 들이받았다" },
+  { id: "killing-someone", ctx: "제가 사람을 죽임", text: "내가 사람을 죽였다" },
+  { id: "king", ctx: "임금이 불러들임", text: "임금이 나를 불렀다" },
 ];
 
 let notFound = 0;
