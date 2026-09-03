@@ -34,6 +34,23 @@ const HEADWORD = /^_([^_]+)_\.?\s*(?:\[\d+\])?\s*$/;
 const HEADWORD_INLINE_HEAD = /^_([^_\n]+)_\.\s{2,}(\S.*)$/;
 const HEADWORD_INLINE_TAIL = /^(.*\S)\s{2,}_([^_\n]+)_\.$/;
 
+/**
+ * **밑줄 표시가 아예 없는 표제어 둘** — 2026-09-03(배치 110)에 책 자신의 색인과 대조해
+ * 찾았다. 위 셋은 전부 `_…_.` 꼴이라 이 둘을 못 본다.
+ *
+ *   `… seeking to entrap you.  Lynx.`   줄끝에 맨 낱말로 붙어 있다  → `Lying` 본문에 묻혔다
+ *   `Swimming.[219]`                    제 줄에 있으나 밑줄이 없다 → `Swollen` 본문에 묻혔다
+ *
+ * **목록으로 얼린다**(§11). 「줄끝에 대문자 낱말 + 마침표」를 규칙으로 쓰면 평범한 문장
+ * 끝("…  Business.")까지 표제어로 세므로, 색인과 대조해 확인한 것만 적는다.
+ *
+ * 색인에만 있고 본문에 아예 없는 것 둘(`Tide`·`Kegs`)은 **여기 넣지 않는다** — 본문이
+ * 없으므로 표제어로 만들 수 없다(§4 — 「없다」를 찾아보고 적는다).
+ */
+const BARE_HEADWORDS = new Set(["Lynx", "Swimming"]);
+const BARE_TAIL = /^(.*\S)\s{2,}([A-Z][A-Za-z' -]*)\.$/;
+const BARE_OWN_LINE = /^([A-Z][A-Za-z' -]*)\.(?:\[\d+\])?\s*$/;
+
 // 서문 에세이 안에도 `_..._` 강조가 섞여 있다(예: 37번째 줄 책 제목). 진짜 사전은
 // 알파벳순 표제어로 시작하므로 첫 항목을 "Abandon"으로 확정해 그 앞은 건너뛴다.
 let started = false;
@@ -72,6 +89,23 @@ for (const line of lines) {
     currentLines.push(tail[1]);
     flush();
     currentHead = tail[2].trim();
+    currentLines = [];
+    continue;
+  }
+  // 밑줄 없는 줄끝형 — 목록에 있는 것만
+  const bareTail = line.match(BARE_TAIL);
+  if (bareTail && BARE_HEADWORDS.has(bareTail[2].trim())) {
+    currentLines.push(bareTail[1]);
+    flush();
+    currentHead = bareTail[2].trim();
+    currentLines = [];
+    continue;
+  }
+  // 밑줄 없는 제 줄형 — 목록에 있는 것만
+  const bareOwn = line.match(BARE_OWN_LINE);
+  if (bareOwn && BARE_HEADWORDS.has(bareOwn[1].trim())) {
+    flush();
+    currentHead = bareOwn[1].trim();
     currentLines = [];
     continue;
   }

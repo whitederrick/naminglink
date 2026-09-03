@@ -74,7 +74,10 @@
     "aliases": [
       "거짓말",
       "허풍쟁이",
-      "거짓말을"
+      "거짓말을",
+      "거짓말하는",
+      "거짓말했다",
+      "거짓말하고"
     ],
     "aliases_en": [
       "liars"
@@ -82,12 +85,18 @@
     "contexts": {
       "남들이 거짓말쟁이라고 여김": "남들이 사람들이",
       "남이 저를 거짓말쟁이라 부름": "불렀 몰았",
-      "여성이 정인을 거짓말쟁이로 여김": "정인 애인 사랑하는"
+      "여성이 정인을 거짓말쟁이로 여김": "정인 애인 사랑하는",
+      "벌을 피하려고 거짓말을 함": "벌을 피하려",
+      "벗을 지키려고 거짓말을 함": "벗을 지키려 감싸려",
+      "남이 거짓말하는 것을 들음": "들었 듣고"
     },
     "contexts_en": {
       "남들이 거짓말쟁이라고 여김": "thinking scheme urgently forward",
       "남이 저를 거짓말쟁이라 부름": "call vexations deceitful",
-      "여성이 정인을 거짓말쟁이로 여김": "sweetheart unbecoming valued"
+      "여성이 정인을 거짓말쟁이로 여김": "sweetheart unbecoming valued",
+      "벌을 피하려고 거짓말을 함": "escape punishment dishonorably innocent",
+      "벗을 지키려고 거짓말을 함": "protect undeserved chastisement unjust prominence",
+      "남이 거짓말하는 것을 들음": "entrap seeking"
     }
   }
 ]

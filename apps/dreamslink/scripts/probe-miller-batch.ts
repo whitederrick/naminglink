@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 109 — Love~Luggage, 18건)
+// (지금 담긴 것: 배치 110 — Lumber~Lyre, 18건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,25 +30,25 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "love", ctx: "무언가를 사랑함", text: "무언가를 사랑하고 있었다" },
-  { id: "love", ctx: "남의 사랑이 기쁜 예감으로 가득 참", text: "남의 사랑이 기쁜 예감으로 가득 찼다" },
-  { id: "love", ctx: "사랑이 어긋나거나 되돌아오지 않음", text: "내 사랑이 어긋났다" },
-  { id: "love", ctx: "짝이 사랑을 주는 것을 봄", text: "아내가 사랑을 주는 것을 보았다" },
-  { id: "love", ctx: "어버이의 사랑을 봄", text: "어버이의 사랑을 보았다" },
-  { id: "love", ctx: "짐승의 사랑을 봄", text: "짐승의 사랑을 보았다" },
-  { id: "lovely", ctx: "사랑스러운 것들을 봄", text: "사랑스러운 것들이 있었다" },
-  { id: "lovely", ctx: "정인이 사랑스러움", text: "정인이 사랑스러웠다" },
-  { id: "lovely", ctx: "제 모습이 사랑스러움", text: "내 모습이 사랑스러웠다" },
-  { id: "candy", ctx: "여성이 알사탕을 먹거나 버림", text: "여자가 알사탕을 먹었다" },
-  { id: "candy", ctx: "알사탕을 봄", text: "알사탕이 있었다" },
-  { id: "lucky", ctx: "운이 좋음", text: "운이 좋았다" },
-  { id: "lucky", ctx: "낙심한 이가 행운의 꿈을 꿈", text: "낙심한 채로 행운의 꿈을 꾸었다" },
-  { id: "luggage", ctx: "짐가방을 봄", text: "짐가방이 놓여 있었다" },
-  { id: "luggage", ctx: "제 짐가방을 들고 감", text: "내 짐가방을 들고 갔다" },
-  { id: "luggage", ctx: "짐가방을 잃음", text: "짐가방을 잃어버렸다" },
+  { id: "lumber", ctx: "목재를 봄", text: "목재가 쌓여 있었다" },
+  { id: "lumber", ctx: "쌓아 둔 목재가 타는 것을 봄", text: "쌓아 둔 목재가 불타고 있었다" },
+  { id: "lumber", ctx: "목재를 톱질함", text: "목재를 톱질했다" },
+  { id: "lute", ctx: "비파를 탐", text: "비파를 탔다" },
+  { id: "lute", ctx: "비파 소리를 들음", text: "비파 소리를 들었다" },
+  { id: "luxury", ctx: "사치에 둘러싸임", text: "사치에 둘러싸여 있었다" },
+  { id: "luxury", ctx: "가난한 여성이 사치를 누림", text: "가난한 여자가 사치를 누렸다" },
+  { id: "liar", ctx: "벌을 피하려고 거짓말을 함", text: "벌을 피하려고 거짓말을 했다" },
+  { id: "liar", ctx: "벗을 지키려고 거짓말을 함", text: "벗을 지키려고 거짓말을 했다" },
+  { id: "liar", ctx: "남이 거짓말하는 것을 들음", text: "남이 거짓말하는 것을 들었다" },
+  { id: "lynx", ctx: "스라소니를 봄", text: "스라소니가 어슬렁거렸다" },
+  { id: "lynx", ctx: "여성이 스라소니 꿈을 꿈", text: "여자가 스라소니 꿈을 꾸었다" },
+  { id: "lynx", ctx: "스라소니를 죽임", text: "스라소니를 죽였다" },
+  { id: "lyre", ctx: "리라 소리를 들음", text: "리라 소리를 들었다" },
+  { id: "lyre", ctx: "처녀가 리라를 탐", text: "처녀가 리라를 탔다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "candy", ctx: "사탕을 만듦", text: "사탕을 만들었다" },
-  { id: "candy", ctx: "신 사탕을 봄", text: "시큼한 사탕을 보았다" },
+  { id: "lute", ctx: "품속에 비파가 있음", text: "품속에 비파가 있었다" },
+  { id: "liar", ctx: "남들이 거짓말쟁이라고 여김", text: "사람들이 거짓말쟁이 같았다" },
+  { id: "liar", ctx: "여성이 정인을 거짓말쟁이로 여김", text: "여자가 정인을 거짓말쟁이로 여겼다" },
 ];
 
 let notFound = 0;

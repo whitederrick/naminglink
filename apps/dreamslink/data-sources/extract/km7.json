@@ -975,14 +975,26 @@
   },
   {
     "id": "lute",
-    "aliases": [],
+    "aliases": [
+      "류트",
+      "비파를",
+      "비파가"
+    ],
     "aliases_en": [
       "pipa",
       "biwa",
       "lutes"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "품속에 비파가 있음": "품속 품에",
+      "비파를 탐": "탔다 타고 뜯었",
+      "비파 소리를 들음": "소리를 들었 가락"
+    },
+    "contexts_en": {
+      "품속에 비파가 있음": "bosom carried",
+      "비파를 탐": "playing auspicious joyful absent",
+      "비파 소리를 들음": "hearing music pleasant occupations"
+    }
   },
   {
     "id": "millstone",

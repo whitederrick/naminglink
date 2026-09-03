@@ -1,0 +1,227 @@
+[
+  {
+    "term_ko": "목재",
+    "term_en": "lumber",
+    "context": "목재를 봄",
+    "interpretation_ko": "고된 일이 많은데 삯도 즐거움도 적을 흉한 조짐",
+    "interpretation_en": "denotes many difficult tasks and but little remuneration or pleasure",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lumber",
+      "original": "To dream of lumber, denotes many difficult tasks and but little remuneration or pleasure.",
+      "translation_ko": "목재의 꿈은, 고된 일이 많은데 삯도 즐거움도 적음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "목재",
+    "term_en": "lumber",
+    "context": "쌓아 둔 목재가 타는 것을 봄",
+    "interpretation_ko": "생각지 못한 데서 이익이 올 길한 조짐",
+    "interpretation_en": "indicates profit from an unexpected source",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lumber",
+      "original": "To see piles of lumber burning, indicates profit from an unexpected source.",
+      "translation_ko": "쌓아 둔 목재가 타는 것을 보면 생각지 못한 데서 이익이 온다"
+    }
+  },
+  {
+    "term_ko": "목재",
+    "term_en": "lumber",
+    "context": "목재를 톱질함",
+    "interpretation_ko": "슬기롭지 못한 거래와 언짢은 일을 뜻하는 흉한 조짐",
+    "interpretation_en": "denotes unwise transactions and unhappiness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lumber",
+      "original": "To dream of sawing lumber, denotes unwise transactions and unhappiness.",
+      "translation_ko": "목재를 톱질하는 꿈은 슬기롭지 못한 거래와 언짢은 일을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "비파",
+    "term_en": "lute",
+    "context": "비파를 탐",
+    "interpretation_ko": "멀리 있는 벗에게서 기쁜 기별이 올 길한 조짐",
+    "interpretation_en": "is auspicious of joyful news from absent friends",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lute",
+      "original": "To dream of playing on one, is auspicious of joyful news from absent friends.",
+      "translation_ko": "비파를 타는 꿈은 멀리 있는 벗에게서 기쁜 기별이 옴을 알린다"
+    }
+  },
+  {
+    "term_ko": "비파",
+    "term_en": "lute",
+    "context": "비파 소리를 들음",
+    "interpretation_ko": "즐거운 일거리가 따라올 길한 조짐",
+    "interpretation_en": "pleasant occupations follow the dreaming of hearing the music of a lute",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lute",
+      "original": "Pleasant occupations follow the dreaming of hearing the music of a lute.",
+      "translation_ko": "비파 소리를 듣는 꿈에는 즐거운 일거리가 따라온다"
+    }
+  },
+  {
+    "term_ko": "사치",
+    "term_en": "luxury",
+    "context": "사치에 둘러싸임",
+    "interpretation_ko": "재물은 많으나 헤픈 씀씀이와 제 몸 아끼는 마음이 벌이를 깎을 조짐",
+    "interpretation_en": "indicates much wealth, but dissipation and love of self will reduce your income",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Luxury",
+      "original": "To dream that you are surrounded by luxury, indicates much wealth, but dissipation and love of self will reduce your income.",
+      "translation_ko": "사치에 둘러싸인 꿈은, 재물은 많으나 헤픈 씀씀이와 제 몸 아끼는 마음이 벌이를 깎음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사치",
+    "term_en": "luxury",
+    "context": "가난한 여성이 사치를 누림",
+    "interpretation_ko": "머잖아 처지가 바뀔 길한 조짐",
+    "interpretation_en": "denotes an early change in her circumstances",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Luxury",
+      "original": "For a poor woman to dream that she enjoys much luxury, denotes an early change in her circumstances.",
+      "translation_ko": "가난한 여성이 사치를 누리는 꿈을 꾸면 머잖아 처지가 바뀐다"
+    }
+  },
+  {
+    "term_ko": "거짓말쟁이",
+    "term_en": "liar",
+    "context": "벌을 피하려고 거짓말을 함",
+    "interpretation_ko": "죄 없는 사람에게 떳떳하지 못하게 굴 흉한 조짐",
+    "interpretation_en": "denotes that you will act dishonorably towards some innocent person",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Lying",
+      "original": "To dream that you are lying to escape punishment, denotes that you will act dishonorably towards some innocent person.",
+      "translation_ko": "벌을 피하려고 거짓말하는 꿈은, 죄 없는 사람에게 떳떳하지 못하게 굶을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "거짓말쟁이",
+    "term_en": "liar",
+    "context": "벗을 지키려고 거짓말을 함",
+    "interpretation_ko": "제 처신에 애먼 말이 많이 오가나 그것을 딛고 올라서서 이름을 얻을 조짐",
+    "interpretation_en": "denotes that you will have many unjust criticisms passed upon your conduct, but you will rise above them and enjoy prominence",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Lying",
+      "original": "Lying to protect a friend from undeserved chastisement, denotes that you will have many unjust criticisms passed upon your conduct, but you will rise above them and enjoy prominence.",
+      "translation_ko": "애먼 벌을 받게 된 벗을 지키려고 거짓말하는 꿈은, 제 처신에 애먼 말이 많이 오가나 그것을 딛고 올라서서 이름을 얻음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "거짓말쟁이",
+    "term_en": "liar",
+    "context": "남이 거짓말하는 것을 들음",
+    "interpretation_ko": "그들이 저를 옭아매려 하고 있는 흉한 조짐",
+    "interpretation_en": "denotes that they are seeking to entrap you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Lying",
+      "original": "To hear others lying, denotes that they are seeking to entrap you.",
+      "translation_ko": "남이 거짓말하는 것을 들으면, 그들이 저를 옭아매려 하고 있는 것이다"
+    }
+  },
+  {
+    "term_ko": "스라소니",
+    "term_en": "lynx",
+    "context": "스라소니를 봄",
+    "interpretation_ko": "적이 하는 일을 갉아먹고 집안을 어지럽힐 흉한 조짐",
+    "interpretation_en": "enemies are undermining your business and disrupting your home affairs",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Lynx",
+      "original": "To dream of seeing a lynx, enemies are undermining your business and disrupting your home affairs.",
+      "translation_ko": "스라소니를 보는 꿈은, 적이 하는 일을 갉아먹고 집안을 어지럽힘을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "스라소니",
+    "term_en": "lynx",
+    "context": "여성이 스라소니 꿈을 꿈",
+    "interpretation_ko": "정인의 마음을 두고 다투는 약삭빠른 맞수가 있는 흉한 조짐",
+    "interpretation_en": "this dream indicates that she has a wary woman rivaling her in the affections of her lover",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Lynx",
+      "original": "For a woman, this dream indicates that she has a wary woman rivaling her in the affections of her lover.",
+      "translation_ko": "여성에게 이 꿈은, 정인의 마음을 두고 다투는 약삭빠른 맞수가 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "스라소니",
+    "term_en": "lynx",
+    "context": "스라소니를 죽임",
+    "interpretation_ko": "맞수를 이길 길한 조짐",
+    "interpretation_en": "she will overcome her rival",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Lynx",
+      "original": "If she kills the lynx, she will overcome her rival.",
+      "translation_ko": "스라소니를 죽이면 맞수를 이긴다"
+    }
+  },
+  {
+    "term_ko": "리라",
+    "term_en": "lyre",
+    "context": "리라 소리를 들음",
+    "interpretation_ko": "맑은 즐거움과 마음 맞는 벗을 얻을 길한 조짐. 하는 일도 매끄럽게 돌아간다",
+    "interpretation_en": "foretells chaste pleasures and congenial companionship; business will run smoothly",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lyre",
+      "original": "To dream of listening to the music of a lyre, foretells chaste pleasures and congenial companionship.",
+      "translation_ko": "리라 소리를 듣는 꿈은 맑은 즐거움과 마음 맞는 벗을 얻음을 알린다"
+    }
+  },
+  {
+    "term_ko": "리라",
+    "term_en": "lyre",
+    "context": "처녀가 리라를 탐",
+    "interpretation_ko": "훌륭한 사람의 사랑을 오롯이 받을 길한 조짐",
+    "interpretation_en": "denotes that she will enjoy the undivided affection of a worthy man",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lyre",
+      "original": "For a young woman to dream of playing on one, denotes that she will enjoy the undivided affection of a worthy man.",
+      "translation_ko": "젊은 여성이 리라를 타는 꿈은, 훌륭한 사람의 사랑을 오롯이 받음을 알린다"
+    }
+  }
+]
