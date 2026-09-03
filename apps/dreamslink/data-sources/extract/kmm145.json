@@ -1,0 +1,64 @@
+[
+  {
+    "id": "oranges",
+    "aliases": [
+      "오렌지가",
+      "오렌지를"
+    ],
+    "aliases_en": [
+      "an orange"
+    ],
+    "contexts": {
+      "건강한 오렌지 나무들을 봄": "나무들 건강한 번영",
+      "오렌지를 먹음": "먹었 먹는 근심 불만",
+      "처녀가 오렌지를 먹는 꿈을 꿈": "처녀가 정인을 잃었",
+      "처녀가 높이 던져 올린 좋은 오렌지를 봄": "던져 올린 구혼자",
+      "오렌지 껍질에 미끄러짐": "껍질에 미끄러",
+      "아내의 청으로 오렌지를 사고 아내가 먹음": "아내의 청으로 아내가"
+    },
+    "contexts_en": {
+      "건강한 오렌지 나무들을 봄": "trees healthy prosperous",
+      "오렌지를 먹음": "signally bad sickness dissatisfaction",
+      "처녀가 오렌지를 먹는 꿈을 꿈": "young woman lose lover",
+      "처녀가 높이 던져 올린 좋은 오렌지를 봄": "pitched high discreet husband",
+      "오렌지 껍질에 미끄러짐": "slip peel death relative",
+      "아내의 청으로 오렌지를 사고 아내가 먹음": "wife solicitation profit"
+    }
+  },
+  {
+    "id": "orang-utang",
+    "aliases": [
+      "오랑우탄이",
+      "오랑우탄을"
+    ],
+    "aliases_en": [
+      "an orang-utang"
+    ],
+    "contexts": {
+      "오랑우탄 꿈을 꿈": "영향력을 거짓 사사로운",
+      "처녀가 오랑우탄 꿈을 꿈": "처녀가 신의를 저버릴"
+    },
+    "contexts_en": {
+      "오랑우탄 꿈을 꿈": "falsely influence selfish schemes",
+      "처녀가 오랑우탄 꿈을 꿈": "young woman unfaithful lover"
+    }
+  },
+  {
+    "id": "orator",
+    "aliases": [
+      "웅변가가",
+      "웅변가와"
+    ],
+    "aliases_en": [
+      "an orator"
+    ],
+    "contexts": {
+      "웅변가의 언변에 홀림": "언변에 홀렸",
+      "처녀가 웅변가와 사랑에 빠짐": "처녀가 사랑에 빠졌"
+    },
+    "contexts_en": {
+      "웅변가의 언변에 홀림": "spell eloquence flattery detriment",
+      "처녀가 웅변가와 사랑에 빠짐": "young woman falls love outward show"
+    }
+  }
+]

@@ -1058,8 +1058,30 @@
       "orchards",
       "fruit garden"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "과수원 속을 거닒": "거닐었 걸었",
+      "정인과 함께 꽃 핀 과수원을 지남": "정인과 꽃이 만발한 구애",
+      "과수원에 무르익은 열매가 가득함": "무르익은 가득 섬김 결실",
+      "과수원에서 돼지가 떨어진 열매를 먹는 것을 봄": "돼지가 떨어진 것을 먹었",
+      "잘 익은 열매를 거둠": "거두는 거두었 넉넉함",
+      "과수원에 병충해가 듦": "병충해 비참",
+      "과수원을 지나다 가시덤불에 걸림": "가시덤불 연적",
+      "황폐한 과수원을 봄": "황폐한 무시",
+      "겨울에 잎이 진 과수원을 봄": "겨울처럼 낙엽 소홀",
+      "폭풍이 휩쓴 과수원을 봄": "폭풍이 휩쓴 손님"
+    },
+    "contexts_en": {
+      "과수원 속을 거닒": "walking gaining wealth",
+      "정인과 함께 꽃 핀 과수원을 지남": "sweetheart blossoming courtship",
+      "과수원에 무르익은 열매가 가득함": "recompense faithful happy homes",
+      "과수원에서 돼지가 떨어진 열매를 먹는 것을 봄": "hogs fallen eating lose property",
+      "잘 익은 열매를 거둠": "gather ripe plenty classes",
+      "과수원에 병충해가 듦": "blight miserable existence",
+      "과수원을 지나다 가시덤불에 걸림": "brambles jealous rival row partner",
+      "황폐한 과수원을 봄": "barren opportunities ignored",
+      "겨울에 잎이 진 과수원을 봄": "verdure winter careless future",
+      "폭풍이 휩쓴 과수원을 봄": "storm-swept unwelcome guest duties"
+    }
   },
   {
     "id": "receiving-an-official-post",

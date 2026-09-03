@@ -52,6 +52,7 @@
     "m142.json",
     "m143.json",
     "m144.json",
+    "m145.json",
     "m15.json",
     "m16.json",
     "m17.json",
@@ -17687,6 +17688,164 @@
       ]
     },
     {
+      "id": "orchard",
+      "term_ko": "과수원",
+      "term_en": "orchard",
+      "aliases": [
+        "과일밭"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "과수원 속을 거닒",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "果林中行主得財",
+              "translation_ko": "과수원 속을 거닐면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "정인과 함께 꽃 핀 과수원을 지남",
+          "interpretation_ko": "오랜 구애가 즐겁게 매듭지어질 길조",
+          "interpretation_en": "dreaming of passing through leaving and blossoming orchards with your sweetheart, omens a delightful consummation of a long courtship",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orchard",
+              "original": "Dreaming of passing through leaving and blossoming orchards with your sweetheart, omens a delightful consummation of a long courtship.",
+              "translation_ko": "정인과 함께 잎 무성하고 꽃 핀 과수원을 지나는 꿈은, 오랜 구애가 즐겁게 매듭지어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "과수원에 무르익은 열매가 가득함",
+          "interpretation_ko": "충직한 섬김에 대한 보답과 뜻한 일의 결실, 행복한 가정이 있을 길조",
+          "interpretation_en": "if the orchard is filled with ripening fruit, it denotes recompense for faithful service to those under masters, and full fruition of designs for the leaders of enterprises; happy homes, with loyal husbands and obedient children, for wives",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orchard",
+              "original": "If the orchard is filled with ripening fruit, it denotes recompense for faithful service to those under masters, and full fruition of designs for the leaders of enterprises. Happy homes, with loyal husbands and obedient children, for wives.",
+              "translation_ko": "과수원에 무르익은 열매가 가득한 꿈은, 섬기는 이에게는 충직한 섬김에 대한 보답을, 이끄는 이에게는 뜻한 일의 결실을 알린다. 아내에게는 다정한 남편과 순한 자식이 있는 행복한 가정을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "과수원에서 돼지가 떨어진 열매를 먹는 것을 봄",
+          "interpretation_ko": "제 것이 아닌 것을 주장하려다 재산을 잃을 흉조",
+          "interpretation_en": "if you are in an orchard and see hogs eating the fallen fruit, it is a sign that you will lose property in trying to claim what are not really your own belongings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orchard",
+              "original": "If you are in an orchard and see hogs eating the fallen fruit, it is a sign that you will lose property in trying to claim what are not really your own belongings.",
+              "translation_ko": "과수원에서 돼지가 떨어진 열매를 먹는 것을 보는 꿈은, 제 것이 아닌 것을 주장하려다 재산을 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "잘 익은 열매를 거둠",
+          "interpretation_ko": "누구에게나 넉넉함이 있을 길조",
+          "interpretation_en": "to gather the ripe fruit, is a happy omen of plenty to all classes",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orchard",
+              "original": "To gather the ripe fruit, is a happy omen of plenty to all classes.",
+              "translation_ko": "잘 익은 열매를 거두는 꿈은, 누구에게나 넉넉함이 있을 길한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "과수원에 병충해가 듦",
+          "interpretation_ko": "즐거움과 재물 가운데서도 비참한 처지에 놓일 흉조",
+          "interpretation_en": "orchards infested with blight, denotes a miserable existence, amid joy and wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orchard",
+              "original": "Orchards infested with blight, denotes a miserable existence, amid joy and wealth.",
+              "translation_ko": "병충해가 든 과수원은, 즐거움과 재물 가운데서도 비참한 처지에 놓일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "과수원을 지나다 가시덤불에 걸림",
+          "interpretation_ko": "질투하는 연적이나 배우자와의 큰 다툼을 경고하는 흉조",
+          "interpretation_en": "to be caught in brambles, while passing through an orchard, warns you of a jealous rival, or, if married, a private but large row with your partner",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orchard",
+              "original": "To be caught in brambles, while passing through an orchard, warns you of a jealous rival, or, if married, a private but large row with your partner.",
+              "translation_ko": "과수원을 지나다 가시덤불에 걸리는 꿈은, 질투하는 연적을 조심하라는 경고이거나 혼인한 이에게는 배우자와의 큰 다툼을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "황폐한 과수원을 봄",
+          "interpretation_ko": "더 높은 자리로 오를 기회를 흘려보낼 흉조",
+          "interpretation_en": "if you dream of seeing a barren orchard, opportunities to rise to higher stations in life will be ignored",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orchard",
+              "original": "If you dream of seeing a barren orchard, opportunities to rise to higher stations in life will be ignored.",
+              "translation_ko": "황폐한 과수원을 보는 꿈은, 더 높은 자리로 오를 기회를 흘려보낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "겨울에 잎이 진 과수원을 봄",
+          "interpretation_ko": "오늘의 즐거움에 취해 앞날을 소홀히 했다는 흉조",
+          "interpretation_en": "if you see one robbed of its verdure by seeming winter, it denotes that you have been careless of the future in the enjoyment of the present",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orchard",
+              "original": "If you see one robbed of its verdure by seeming winter, it denotes that you have been careless of the future in the enjoyment of the present.",
+              "translation_ko": "겨울인 듯 잎이 다 진 과수원을 보는 꿈은, 오늘의 즐거움에 취해 앞날을 소홀히 했음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "폭풍이 휩쓴 과수원을 봄",
+          "interpretation_ko": "반갑잖은 손님이나 골칫거리가 있을 흉조",
+          "interpretation_en": "to see a storm-swept orchard, brings an unwelcome guest, or duties",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orchard",
+              "original": "To see a storm-swept orchard, brings an unwelcome guest, or duties.",
+              "translation_ko": "폭풍이 휩쓴 과수원을 보는 꿈은, 반갑잖은 손님이나 골칫거리를 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "railway-car",
       "term_ko": "객차",
       "term_en": "railway car",
@@ -33196,6 +33355,108 @@
               "locator": "Grease",
               "original": "To dream you are in grease, is significant of travels being enjoyed with disagreeable but polished strangers.",
               "translation_ko": "기름 속에 있는 꿈은, 달갑지 않으나 점잖은 낯선 이들과 함께 길을 즐김을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oranges",
+      "term_ko": "오렌지",
+      "term_en": "oranges",
+      "aliases": [
+        "오렌지가",
+        "오렌지를"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "건강한 오렌지 나무들을 봄",
+          "interpretation_ko": "건강과 번영하는 형편이 있을 길조",
+          "interpretation_en": "seeing a number of orange trees in a healthy condition, bearing ripe fruit, is a sign of health and prosperous surroundings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oranges",
+              "original": "Seeing a number of orange trees in a healthy condition, bearing ripe fruit, is a sign of health and prosperous surroundings.",
+              "translation_ko": "무르익은 열매가 달린 건강한 오렌지 나무 여럿을 보는 꿈은, 건강과 번영하는 형편의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "오렌지를 먹음",
+          "interpretation_ko": "벗이나 친척의 병으로 근심하고 사업에도 불만이 감돌 흉조 — 맛 좋고 잘 익은 것이면 불운이 조금 누그러진다",
+          "interpretation_en": "to eat oranges is signally bad; sickness of friends or relatives will be a source of worry to you; dissatisfaction will pervade the atmosphere in business circles; if they are fine and well-flavored, there will be a slight abatement of ill luck",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oranges",
+              "original": "To eat oranges is signally bad.  Sickness of friends or relatives will be a source of worry to you.  Dissatisfaction will pervade the atmosphere in business circles.  If they are fine and well-flavored, there will be a slight abatement of ill luck.",
+              "translation_ko": "오렌지를 먹는 꿈은 매우 나쁘다. 벗이나 친척의 병으로 근심할 조짐이며, 사업에도 불만이 감돌 것이다. 맛 좋고 잘 익은 것이면 불운이 조금 누그러진다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 오렌지를 먹는 꿈을 꿈",
+          "interpretation_ko": "정인을 잃을 흉조",
+          "interpretation_en": "a young woman is likely to lose her lover, if she dreams of eating oranges",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oranges",
+              "original": "A young woman is likely to lose her lover, if she dreams of eating oranges.",
+              "translation_ko": "처녀가 오렌지를 먹는 꿈을 꾸면, 정인을 잃기 쉽다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 높이 던져 올린 좋은 오렌지를 봄",
+          "interpretation_ko": "여러 구혼자 가운데 남편감을 신중히 고를 길조",
+          "interpretation_en": "if she dreams of seeing a fine one pitched up high, she will be discreet in choosing a husband from many lovers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oranges",
+              "original": "If she dreams of seeing a fine one pitched up high, she will be discreet in choosing a husband from many lovers.",
+              "translation_ko": "처녀가 높이 던져 올린 좋은 오렌지를 보는 꿈은, 여러 구혼자 가운데 남편감을 신중히 고를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "오렌지 껍질에 미끄러짐",
+          "interpretation_ko": "친척의 죽음을 알리는 흉조",
+          "interpretation_en": "to slip on an orange peel, foretells the death of a relative",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oranges",
+              "original": "To slip on an orange peel, foretells the death of a relative.",
+              "translation_ko": "오렌지 껍질에 미끄러지는 꿈은, 친척의 죽음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "아내의 청으로 오렌지를 사고 아내가 먹음",
+          "interpretation_ko": "언짢은 얽힘이 풀려 이득으로 돌아설 길조",
+          "interpretation_en": "to buy oranges at your wife's solicitation, and she eats them, denotes that unpleasant complications will resolve themselves into profit",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Oranges",
+              "original": "To buy oranges at your wife's solicitation, and she eats them, denotes that unpleasant complications will resolve themselves into profit.",
+              "translation_ko": "아내의 청으로 오렌지를 사고 아내가 그것을 먹는 꿈은, 언짢은 얽힘이 풀려 이득으로 돌아설 조짐이다"
             }
           ]
         }
@@ -62495,6 +62756,67 @@
       ]
     },
     {
+      "id": "luxury",
+      "term_ko": "사치",
+      "term_en": "luxury",
+      "aliases": [
+        "사치를",
+        "사치가",
+        "호사"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사치에 둘러싸임",
+          "interpretation_ko": "재물은 많으나 헤픈 씀씀이와 제 몸 아끼는 마음이 벌이를 깎을 조짐",
+          "interpretation_en": "indicates much wealth, but dissipation and love of self will reduce your income",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Luxury",
+              "original": "To dream that you are surrounded by luxury, indicates much wealth, but dissipation and love of self will reduce your income.",
+              "translation_ko": "사치에 둘러싸인 꿈은, 재물은 많으나 헤픈 씀씀이와 제 몸 아끼는 마음이 벌이를 깎음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가난한 여성이 사치를 누림",
+          "interpretation_ko": "머잖아 처지가 바뀔 길한 조짐",
+          "interpretation_en": "denotes an early change in her circumstances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Luxury",
+              "original": "For a poor woman to dream that she enjoys much luxury, denotes an early change in her circumstances.",
+              "translation_ko": "가난한 여성이 사치를 누리는 꿈을 꾸면 머잖아 처지가 바뀐다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 요정 같은 호사 속에 삶을 봄",
+          "interpretation_ko": "속아 넘어가 한동안 사치를 누리다가 나중에 수치와 궁핍에 매인 자신을 볼 흉조",
+          "interpretation_en": "for a young woman to dream that she lives in fairy like opulence, denotes that she will be deceived, and will live for a time in luxurious ease and splendor, to find later that she is mated with shame and poverty",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Opulence",
+              "original": "For a young woman to dream that she lives in fairy like opulence, denotes that she will be deceived, and will live for a time in luxurious ease and splendor, to find later that she is mated with shame and poverty.",
+              "translation_ko": "처녀가 요정 같은 호사 속에 사는 꿈을 꾸면, 속아 넘어가 한동안 사치와 화려함을 누리다가 나중에 수치와 궁핍에 매인 자신을 보게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "lynx",
       "term_ko": "스라소니",
       "term_en": "lynx",
@@ -83700,53 +84022,6 @@
       ]
     },
     {
-      "id": "luxury",
-      "term_ko": "사치",
-      "term_en": "luxury",
-      "aliases": [
-        "사치를",
-        "사치가",
-        "호사"
-      ],
-      "category": "action",
-      "polarity": "neutral",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "사치에 둘러싸임",
-          "interpretation_ko": "재물은 많으나 헤픈 씀씀이와 제 몸 아끼는 마음이 벌이를 깎을 조짐",
-          "interpretation_en": "indicates much wealth, but dissipation and love of self will reduce your income",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Luxury",
-              "original": "To dream that you are surrounded by luxury, indicates much wealth, but dissipation and love of self will reduce your income.",
-              "translation_ko": "사치에 둘러싸인 꿈은, 재물은 많으나 헤픈 씀씀이와 제 몸 아끼는 마음이 벌이를 깎음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "가난한 여성이 사치를 누림",
-          "interpretation_ko": "머잖아 처지가 바뀔 길한 조짐",
-          "interpretation_en": "denotes an early change in her circumstances",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Luxury",
-              "original": "For a poor woman to dream that she enjoys much luxury, denotes an early change in her circumstances.",
-              "translation_ko": "가난한 여성이 사치를 누리는 꿈을 꾸면 머잖아 처지가 바뀐다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "lyre",
       "term_ko": "리라",
       "term_en": "lyre",
@@ -86896,6 +87171,98 @@
       ]
     },
     {
+      "id": "orang-utang",
+      "term_ko": "오랑우탄",
+      "term_en": "orang-utang",
+      "aliases": [
+        "오랑우탄이",
+        "오랑우탄을"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "오랑우탄 꿈을 꿈",
+          "interpretation_ko": "누군가 내 영향력을 거짓으로 빌려 사사로운 꾀를 부리고 있다는 흉조",
+          "interpretation_en": "to dream of an orang-utang, denotes that some person is falsely using your influence to further selfish schemes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orang-utang",
+              "original": "To dream of an orang-utang, denotes that some person is falsely using your influence to further selfish schemes.",
+              "translation_ko": "오랑우탄 꿈은, 누군가 내 영향력을 거짓으로 빌려 사사로운 꾀를 부리고 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 오랑우탄 꿈을 꿈",
+          "interpretation_ko": "정인이 신의를 저버릴 흉조",
+          "interpretation_en": "for a young woman, it portends an unfaithful lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orang-utang",
+              "original": "For a young woman, it portends an unfaithful lover.",
+              "translation_ko": "처녀가 이 꿈을 꾸면, 정인이 신의를 저버릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orator",
+      "term_ko": "웅변가",
+      "term_en": "orator",
+      "aliases": [
+        "웅변가가",
+        "웅변가와"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "웅변가의 언변에 홀림",
+          "interpretation_ko": "아첨하는 말에 이끌려 못난 이들을 도우려다 스스로 해를 입을 흉조",
+          "interpretation_en": "being under the spell of an orator's eloquence, denotes that you will heed the voice of flattery to your own detriment, as you will be persuaded into offering aid to unworthy people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orator",
+              "original": "Being under the spell of an orator's eloquence, denotes that you will heed the voice of flattery to your own detriment, as you will be persuaded into offering aid to unworthy people.",
+              "translation_ko": "웅변가의 언변에 홀리는 꿈은, 아첨하는 말에 이끌려 못난 이들을 도우려다 스스로 해를 입을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 웅변가와 사랑에 빠짐",
+          "interpretation_ko": "겉모습에 마음이 흔들리는 사람이라는 흉조",
+          "interpretation_en": "if a young woman falls in love with an orator, it is proof that in her loves she will be affected by outward show",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Orator",
+              "original": "If a young woman falls in love with an orator, it is proof that in her loves she will be affected by outward show.",
+              "translation_ko": "처녀가 웅변가와 사랑에 빠지는 꿈은, 그가 겉모습에 마음이 흔들리는 사람이라는 증거다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pan",
       "term_ko": "냄비",
       "term_en": "pan",
@@ -88019,6 +88386,54 @@
               "locator": "垢污沐浴凌辱",
               "original": "失大小便主失財",
               "translation_ko": "대소변을 잃으면 재물을 잃는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wealth",
+      "term_ko": "재물",
+      "term_en": "wealth",
+      "aliases": [
+        "재산",
+        "재화",
+        "패물"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "처녀가 참된 재물과 안락을 누림",
+          "interpretation_ko": "참된 재물의 꿈은 깨어나서 실제의 즐거움을 찾을 길조 — 요정 같은 호사의 꿈은 깨어나서 낙담만 남을 경고다",
+          "interpretation_en": "when young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Opulence",
+              "original": "When young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments; as the dreams are warnings, superinduced by their practicality being supplanted by their excitable imagination and lazy desires, which should be overcome with energy, and the replacing of practicality on her base.",
+              "translation_ko": "처녀가 참되고 실속 있는 재물과 안락을 누리는 꿈을 꾸면 늘 깨어나서 실제의 즐거움을 찾게 되지만, 이상하거나 요정 같은 사치와 기쁨의 꿈에 둘러싸이면 깨어난 뒤 낙담만 가득할 것이다. 이런 꿈은 실속이 들뜬 상상과 게으른 욕심에 밀려난 데서 오는 경고이니, 기운을 내어 실속을 되찾아야 한다"
+            }
+          ]
+        },
+        {
+          "context": "집안에서 재물을 나눔",
+          "interpretation_ko": "헤어지고 무너질 조짐",
+          "interpretation_en": "a sign of separation and ruin",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "家中分財主離敗",
+              "translation_ko": "집안에서 재물을 나누면 헤어지고 무너진다"
             }
           ]
         }
@@ -98523,37 +98938,6 @@
       ]
     },
     {
-      "id": "orchard",
-      "term_ko": "과수원",
-      "term_en": "orchard",
-      "aliases": [
-        "과일밭"
-      ],
-      "category": "place",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "과수원 속을 거닒",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "果林中行主得財",
-              "translation_ko": "과수원 속을 거닐면 재물을 얻는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "orchid",
       "term_ko": "난초",
       "term_en": "orchid",
@@ -100506,39 +100890,6 @@
               "locator": "垢污沐浴凌辱",
               "original": "洗頭遷居疾病除",
               "translation_ko": "머리를 감으면 거처를 옮기고 질병이 없어진다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wealth",
-      "term_ko": "재물",
-      "term_en": "wealth",
-      "aliases": [
-        "재산",
-        "재화",
-        "패물"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "집안에서 재물을 나눔",
-          "interpretation_ko": "헤어지고 무너질 조짐",
-          "interpretation_en": "a sign of separation and ruin",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "家中分財主離敗",
-              "translation_ko": "집안에서 재물을 나누면 헤어지고 무너진다"
             }
           ]
         }

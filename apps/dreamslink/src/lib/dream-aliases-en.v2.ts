@@ -6592,5 +6592,14 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "opera": [
     "an opera"
+  ],
+  "oranges": [
+    "an orange"
+  ],
+  "orang-utang": [
+    "an orang-utang"
+  ],
+  "orator": [
+    "an orator"
   ]
 };

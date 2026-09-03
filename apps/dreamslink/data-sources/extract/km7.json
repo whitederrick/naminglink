@@ -1170,8 +1170,14 @@
       "property",
       "assets"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "집안에서 재물을 나눔": "나누 헤어지고 무너",
+      "처녀가 참된 재물과 안락을 누림": "처녀가 참된 실속"
+    },
+    "contexts_en": {
+      "집안에서 재물을 나눔": "separation ruin",
+      "처녀가 참된 재물과 안락을 누림": "solid real comforts wake pleasure"
+    }
   },
   {
     "id": "wicked-person",
