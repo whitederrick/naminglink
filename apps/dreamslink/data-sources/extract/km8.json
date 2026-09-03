@@ -536,7 +536,9 @@
       "사람을 죽이고",
       "남을 죽이고",
       "사나운 짐승을 죽였다",
-      "사나운 짐승을 죽이"
+      "사나운 짐승을 죽이",
+      "과실치사",
+      "사람이 죽는 일"
     ],
     "aliases_en": [
       "murder",
@@ -551,7 +553,8 @@
       "제가 사람을 죽임": "제가 내가 저지",
       "벗이 스스로 목숨을 끊음": "스스로 목숨 벗이",
       "맨손인 사람을 죽임": "맨손 맨몸 무방비",
-      "제 몸을 지키려 죽이거나 사나운 짐승을 죽임": "지키려 사나운 짐승"
+      "제 몸을 지키려 죽이거나 사나운 짐승을 죽임": "지키려 사나운 짐승",
+      "여성이 사람을 죽이는 일에 얽힘": "여자가 여성이 얽혔"
     },
     "contexts_en": {
       "남을 죽임": "else stranger unknown",
@@ -560,7 +563,8 @@
       "제가 사람을 죽임": "anguish humiliation indifference gloomy",
       "벗이 스스로 목숨을 끊음": "friend commits suicide deciding important",
       "맨손인 사람을 죽임": "prognosticates sorrow failure",
-      "제 몸을 지키려 죽이거나 사나운 짐승을 죽임": "defense ferocious beast victory rise"
+      "제 몸을 지키려 죽이거나 사나운 짐승을 죽임": "defense ferocious beast victory rise",
+      "여성이 사람을 죽이는 일에 얽힘": "manslaughter desperately scared coupled scandalous"
     }
   },
   {

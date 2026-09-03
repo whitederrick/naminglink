@@ -18,6 +18,7 @@
     "m111.json",
     "m112.json",
     "m113.json",
+    "m114.json",
     "m12.json",
     "m13.json",
     "m14.json",
@@ -2656,6 +2657,365 @@
       ]
     },
     {
+      "id": "house",
+      "term_ko": "집",
+      "term_en": "house",
+      "aliases": [
+        "주택",
+        "가옥",
+        "저택",
+        "저택을",
+        "저택이",
+        "대저택"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "집을 지음",
+          "interpretation_ko": "지금의 일을 지혜롭게 바꿀 조짐",
+          "interpretation_en": "a sign that you will make wise changes in your present affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "House",
+              "original": "To dream of building a house, you will make wise changes in your present affairs.",
+              "translation_ko": "집을 짓는 꿈을 꾸면 지금의 일을 지혜롭게 바꾸게 된다"
+            }
+          ]
+        },
+        {
+          "context": "귀신 붙은 방이 있는 저택에 있음",
+          "interpretation_ko": "흡족한 가운데 갑작스러운 궂은일이 닥칠 흉한 조짐",
+          "interpretation_en": "denotes sudden misfortune in the midst of contentment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mansion",
+              "original": "To dream that you are in a mansion where there is a haunted chamber, denotes sudden misfortune in the midst of contentment.",
+              "translation_ko": "귀신 붙은 방이 있는 저택에 있는 꿈은, 흡족한 가운데 갑작스러운 궂은일이 닥침을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "멀리서 저택을 봄",
+          "interpretation_ko": "앞으로 자리가 오를 길한 조짐",
+          "interpretation_en": "foretells future advancement",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mansion",
+              "original": "To see a mansion from distant points, foretells future advancement.",
+              "translation_ko": "멀리서 저택을 보면 앞으로 자리가 오른다"
+            }
+          ]
+        },
+        {
+          "context": "저택 안에 있음",
+          "interpretation_ko": "넉넉한 재물을 갖게 될 길한 조짐",
+          "interpretation_en": "indicates for you wealthy possessions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mansion",
+              "original": "To dream of being in a mansion, indicates for you wealthy possessions.",
+              "translation_ko": "저택 안에 있는 꿈은 넉넉한 재물을 갖게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "우아한 집을 소유함",
+          "interpretation_ko": "더 나은 집으로 옮기고 운이 따를 조짐",
+          "interpretation_en": "a sign that you will soon move to a better home and fortune will favor you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "House",
+              "original": "To dream that you own an elegant house, denotes that you will soon leave your home for a better, and fortune will be kind to you.",
+              "translation_ko": "우아한 집을 소유한 꿈을 꾸면 곧 더 나은 집으로 옮기고 운이 따르게 된다"
+            }
+          ]
+        },
+        {
+          "context": "낡고 허름한 집을 봄",
+          "interpretation_ko": "사업이나 노력에 실패하고 건강이 나빠질 조짐",
+          "interpretation_en": "a sign of failure in business or effort, and declining health",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "House",
+              "original": "Old and dilapidated houses, denote failure in business or any effort, and declining health.",
+              "translation_ko": "낡고 허름한 집은 사업이나 어떤 노력이든 실패하고 건강이 나빠질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "불이 제 집을 태움",
+          "interpretation_ko": "집안이 흥할 조짐",
+          "interpretation_en": "a sign that the household will flourish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "火燒自屋主興旺",
+              "translation_ko": "불이 제 집을 태우면 흥왕할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "집 안에 불빛이 있음",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "宅中火光大吉利",
+              "translation_ko": "집 안에 불빛이 있으면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "남의 집을 사들임",
+          "interpretation_ko": "벼슬이 오를 조짐",
+          "interpretation_en": "a sign of advancement in office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "買人田宅主進職",
+              "translation_ko": "남의 밭과 집을 사면 벼슬이 오른다"
+            }
+          ]
+        },
+        {
+          "context": "성 위에 집을 지음",
+          "interpretation_ko": "크게 길하고 이로운 조짐",
+          "interpretation_en": "a very auspicious and favorable sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "蓋城上屋大吉利",
+              "translation_ko": "성 위에 집을 지으면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "집 지붕 위에 오름",
+          "interpretation_ko": "부유해질 조짐",
+          "interpretation_en": "a sign of becoming wealthy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "上屋主富出園吉",
+              "translation_ko": "지붕에 오르면 부유해지고 동산에 나가면 길하다"
+            }
+          ]
+        },
+        {
+          "context": "올라간 지붕이 부서짐",
+          "interpretation_ko": "집안 형편이 기울 흉한 조짐",
+          "interpretation_en": "an inauspicious sign that the household will decline",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "上屋破壞家道凶",
+              "translation_ko": "지붕에 올랐다가 부서지면 집안이 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "지붕을 새로 덮음",
+          "interpretation_ko": "오래 살 길한 조짐",
+          "interpretation_en": "an auspicious sign of long life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "覆蓋屋宇長命吉",
+              "translation_ko": "지붕을 덮으면 수명이 길고 길하다"
+            }
+          ]
+        },
+        {
+          "context": "집을 새로 고침",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "屋宅更新主大吉",
+              "translation_ko": "집을 새로 고치면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "바람에 집이 흔들림",
+          "interpretation_ko": "거처를 옮기게 될 조짐",
+          "interpretation_en": "a sign of moving house",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "風吹屋動主遷移",
+              "translation_ko": "바람이 불어 집이 흔들리면 거처를 옮긴다"
+            }
+          ]
+        },
+        {
+          "context": "살던 집에서 나옴",
+          "interpretation_ko": "아내에게 기쁜 일이 있을 조짐",
+          "interpretation_en": "a sign of a joyful event for one's wife",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "居出宅主妻喜事",
+              "translation_ko": "살던 집에서 나오면 아내에게 기쁜 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "집을 남에게 저당 잡힘",
+          "interpretation_ko": "관직을 얻을 조짐",
+          "interpretation_en": "a sign of gaining an official post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "人或典房主官位",
+              "translation_ko": "남에게 집을 저당 잡히면 관직을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "집을 팔거나 저당 잡힘",
+          "interpretation_ko": "지위를 잃을 조짐",
+          "interpretation_en": "a sign of losing one's position",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "典賣典舍主失位",
+              "translation_ko": "집을 팔거나 저당 잡히면 지위를 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "집에 사람이 하나도 없음",
+          "interpretation_ko": "죽음이 있을 흉한 조짐",
+          "interpretation_en": "an inauspicious sign of a death",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "屋宅無人主死亡",
+              "translation_ko": "집에 사람이 없으면 죽음이 있다"
+            }
+          ]
+        },
+        {
+          "context": "지붕 위로 배가 지나감",
+          "interpretation_ko": "어두운 일이 있을 조짐",
+          "interpretation_en": "a sign of shady, obscure affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "屋上穿舟有暗昧",
+              "translation_ko": "지붕 위로 배가 지나가면 어두운 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "남과 집을 두고 다툼",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "與人爭屋主大凶",
+              "translation_ko": "남과 집을 다투면 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "부인과 집을 두고 다툼",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "與婦人爭屋主吉",
+              "translation_ko": "부인과 집을 다투면 길하다"
+            }
+          ]
+        },
+        {
+          "context": "집 마당이 꺼져 내려앉음",
+          "interpretation_ko": "죽음이 있을 흉한 조짐",
+          "interpretation_en": "an inauspicious sign of a death",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "院宅坑下主死亡",
+              "translation_ko": "집 마당이 꺼져 내려앉으면 죽음이 있다"
+            }
+          ]
+        },
+        {
+          "context": "시골집을 손보아 고침",
+          "interpretation_ko": "큰 기쁨이 있을 조짐",
+          "interpretation_en": "a sign of great joy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "修理田舍有大喜",
+              "translation_ko": "시골집을 수리하면 큰 기쁨이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "boat",
       "term_ko": "배",
       "term_en": "boat",
@@ -4963,320 +5323,6 @@
               "locator": "塚墓棺槨迎送",
               "original": "塚墓上開花大吉",
               "translation_ko": "무덤 위에 꽃이 피면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "house",
-      "term_ko": "집",
-      "term_en": "house",
-      "aliases": [
-        "주택",
-        "가옥",
-        "저택"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "집을 지음",
-          "interpretation_ko": "지금의 일을 지혜롭게 바꿀 조짐",
-          "interpretation_en": "a sign that you will make wise changes in your present affairs",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "House",
-              "original": "To dream of building a house, you will make wise changes in your present affairs.",
-              "translation_ko": "집을 짓는 꿈을 꾸면 지금의 일을 지혜롭게 바꾸게 된다"
-            }
-          ]
-        },
-        {
-          "context": "우아한 집을 소유함",
-          "interpretation_ko": "더 나은 집으로 옮기고 운이 따를 조짐",
-          "interpretation_en": "a sign that you will soon move to a better home and fortune will favor you",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "House",
-              "original": "To dream that you own an elegant house, denotes that you will soon leave your home for a better, and fortune will be kind to you.",
-              "translation_ko": "우아한 집을 소유한 꿈을 꾸면 곧 더 나은 집으로 옮기고 운이 따르게 된다"
-            }
-          ]
-        },
-        {
-          "context": "낡고 허름한 집을 봄",
-          "interpretation_ko": "사업이나 노력에 실패하고 건강이 나빠질 조짐",
-          "interpretation_en": "a sign of failure in business or effort, and declining health",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "House",
-              "original": "Old and dilapidated houses, denote failure in business or any effort, and declining health.",
-              "translation_ko": "낡고 허름한 집은 사업이나 어떤 노력이든 실패하고 건강이 나빠질 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "불이 제 집을 태움",
-          "interpretation_ko": "집안이 흥할 조짐",
-          "interpretation_en": "a sign that the household will flourish",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "火燒自屋主興旺",
-              "translation_ko": "불이 제 집을 태우면 흥왕할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "집 안에 불빛이 있음",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "宅中火光大吉利",
-              "translation_ko": "집 안에 불빛이 있으면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "남의 집을 사들임",
-          "interpretation_ko": "벼슬이 오를 조짐",
-          "interpretation_en": "a sign of advancement in office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "買人田宅主進職",
-              "translation_ko": "남의 밭과 집을 사면 벼슬이 오른다"
-            }
-          ]
-        },
-        {
-          "context": "성 위에 집을 지음",
-          "interpretation_ko": "크게 길하고 이로운 조짐",
-          "interpretation_en": "a very auspicious and favorable sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "蓋城上屋大吉利",
-              "translation_ko": "성 위에 집을 지으면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "집 지붕 위에 오름",
-          "interpretation_ko": "부유해질 조짐",
-          "interpretation_en": "a sign of becoming wealthy",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "上屋主富出園吉",
-              "translation_ko": "지붕에 오르면 부유해지고 동산에 나가면 길하다"
-            }
-          ]
-        },
-        {
-          "context": "올라간 지붕이 부서짐",
-          "interpretation_ko": "집안 형편이 기울 흉한 조짐",
-          "interpretation_en": "an inauspicious sign that the household will decline",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "上屋破壞家道凶",
-              "translation_ko": "지붕에 올랐다가 부서지면 집안이 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "지붕을 새로 덮음",
-          "interpretation_ko": "오래 살 길한 조짐",
-          "interpretation_en": "an auspicious sign of long life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "覆蓋屋宇長命吉",
-              "translation_ko": "지붕을 덮으면 수명이 길고 길하다"
-            }
-          ]
-        },
-        {
-          "context": "집을 새로 고침",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "屋宅更新主大吉",
-              "translation_ko": "집을 새로 고치면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "바람에 집이 흔들림",
-          "interpretation_ko": "거처를 옮기게 될 조짐",
-          "interpretation_en": "a sign of moving house",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "風吹屋動主遷移",
-              "translation_ko": "바람이 불어 집이 흔들리면 거처를 옮긴다"
-            }
-          ]
-        },
-        {
-          "context": "살던 집에서 나옴",
-          "interpretation_ko": "아내에게 기쁜 일이 있을 조짐",
-          "interpretation_en": "a sign of a joyful event for one's wife",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "居出宅主妻喜事",
-              "translation_ko": "살던 집에서 나오면 아내에게 기쁜 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "집을 남에게 저당 잡힘",
-          "interpretation_ko": "관직을 얻을 조짐",
-          "interpretation_en": "a sign of gaining an official post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "人或典房主官位",
-              "translation_ko": "남에게 집을 저당 잡히면 관직을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "집을 팔거나 저당 잡힘",
-          "interpretation_ko": "지위를 잃을 조짐",
-          "interpretation_en": "a sign of losing one's position",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "典賣典舍主失位",
-              "translation_ko": "집을 팔거나 저당 잡히면 지위를 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "집에 사람이 하나도 없음",
-          "interpretation_ko": "죽음이 있을 흉한 조짐",
-          "interpretation_en": "an inauspicious sign of a death",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "屋宅無人主死亡",
-              "translation_ko": "집에 사람이 없으면 죽음이 있다"
-            }
-          ]
-        },
-        {
-          "context": "지붕 위로 배가 지나감",
-          "interpretation_ko": "어두운 일이 있을 조짐",
-          "interpretation_en": "a sign of shady, obscure affairs",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "屋上穿舟有暗昧",
-              "translation_ko": "지붕 위로 배가 지나가면 어두운 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "남과 집을 두고 다툼",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "與人爭屋主大凶",
-              "translation_ko": "남과 집을 다투면 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "부인과 집을 두고 다툼",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "與婦人爭屋主吉",
-              "translation_ko": "부인과 집을 다투면 길하다"
-            }
-          ]
-        },
-        {
-          "context": "집 마당이 꺼져 내려앉음",
-          "interpretation_ko": "죽음이 있을 흉한 조짐",
-          "interpretation_en": "an inauspicious sign of a death",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "院宅坑下主死亡",
-              "translation_ko": "집 마당이 꺼져 내려앉으면 죽음이 있다"
-            }
-          ]
-        },
-        {
-          "context": "시골집을 손보아 고침",
-          "interpretation_ko": "큰 기쁨이 있을 조짐",
-          "interpretation_en": "a sign of great joy",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "修理田舍有大喜",
-              "translation_ko": "시골집을 수리하면 큰 기쁨이 있다"
             }
           ]
         }
@@ -21391,6 +21437,147 @@
       ]
     },
     {
+      "id": "killing-someone",
+      "term_ko": "살인",
+      "term_en": "killing someone",
+      "aliases": [
+        "살해",
+        "살인자",
+        "죽이는",
+        "사람을 죽였다",
+        "남을 죽였다",
+        "목숨을 끊었다",
+        "사람을 죽이고",
+        "남을 죽이고",
+        "사나운 짐승을 죽였다",
+        "사나운 짐승을 죽이",
+        "과실치사",
+        "사람이 죽는 일"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남을 죽임",
+          "interpretation_ko": "크게 부귀할 조짐",
+          "interpretation_en": "a sign of great wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺死他人大富貴",
+              "translation_ko": "남을 죽이면 크게 부귀하다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 사람을 죽이는 일에 얽힘",
+          "interpretation_ko": "제 이름이 남우세스러운 소문에 엮일까 몹시 두려워할 흉한 조짐",
+          "interpretation_en": "denotes that she will be desperately scared lest her name be coupled with some scandalous sensation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Manslaughter",
+              "original": "For a woman to dream that she sees, or is in any way connected with, manslaughter, denotes that she will be desperately scared lest her name be coupled with some scandalous sensation.",
+              "translation_ko": "여성이 사람을 죽이는 일을 보거나 그 일에 얽히는 꿈은, 제 이름이 남우세스러운 소문에 엮일까 몹시 두려워함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제가 사람을 죽임",
+          "interpretation_ko": "남의 무심함에 크게 괴롭고 낯이 깎이며 그 어두움이 가까운 이까지 시달리게 할 흉한 조짐",
+          "interpretation_en": "foretells that you will suffer great anguish and humiliation through the indifference of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Homicide",
+              "original": "To dream that you commit homicide, foretells that you will suffer great anguish and humiliation through the indifference of others, and your gloomy surroundings will cause perplexing worry to those close to you.",
+              "translation_ko": "제가 사람을 죽이는 꿈은, 남의 무심함에 크게 괴롭고 낯이 깎임을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "벗이 스스로 목숨을 끊음",
+          "interpretation_ko": "아주 중한 일을 정하는 데서 애를 먹을 흉한 조짐",
+          "interpretation_en": "you will have trouble in deciding a very important question",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Homicide",
+              "original": "To dream that a friend commits suicide, you will have trouble in deciding a very important question.",
+              "translation_ko": "벗이 스스로 목숨을 끊는 꿈은, 아주 중한 일을 정하는 데서 애를 먹음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "맨손인 사람을 죽임",
+          "interpretation_ko": "슬픔이 오고 하던 일이 어그러질 흉한 조짐",
+          "interpretation_en": "prognosticates sorrow and failure in affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Killing",
+              "original": "To dream of killing a defenseless man, prognosticates sorrow and failure in affairs.",
+              "translation_ko": "맨손인 사람을 죽이는 꿈은 슬픔과 일의 어그러짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제 몸을 지키려 죽이거나 사나운 짐승을 죽임",
+          "interpretation_ko": "이기고 자리가 오를 길한 조짐",
+          "interpretation_en": "it denotes victory and a rise in position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Killing",
+              "original": "If you kill one in defense, or kill a ferocious beast, it denotes victory and a rise in position.",
+              "translation_ko": "제 몸을 지키려 죽이거나 사나운 짐승을 죽이면 이기고 자리가 오른다"
+            }
+          ]
+        },
+        {
+          "context": "사람을 죽여 피가 옷을 적심",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺人血污衣得財",
+              "translation_ko": "사람을 죽여 피가 옷을 더럽히면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "사람을 죽이는 것을 봄",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "看見殺人主大吉",
+              "translation_ko": "사람을 죽이는 것을 보면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "lark",
       "term_ko": "종달새",
       "term_en": "lark",
@@ -25055,131 +25242,6 @@
               "locator": "Ink",
               "original": "To see bottles of ink in your dreams, indicates enemies and unsuccessful interests.",
               "translation_ko": "먹물 병들을 보는 꿈은 적과 풀리지 않는 일을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "killing-someone",
-      "term_ko": "살인",
-      "term_en": "killing someone",
-      "aliases": [
-        "살해",
-        "살인자",
-        "죽이는",
-        "사람을 죽였다",
-        "남을 죽였다",
-        "목숨을 끊었다",
-        "사람을 죽이고",
-        "남을 죽이고",
-        "사나운 짐승을 죽였다",
-        "사나운 짐승을 죽이"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남을 죽임",
-          "interpretation_ko": "크게 부귀할 조짐",
-          "interpretation_en": "a sign of great wealth and honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺死他人大富貴",
-              "translation_ko": "남을 죽이면 크게 부귀하다"
-            }
-          ]
-        },
-        {
-          "context": "제가 사람을 죽임",
-          "interpretation_ko": "남의 무심함에 크게 괴롭고 낯이 깎이며 그 어두움이 가까운 이까지 시달리게 할 흉한 조짐",
-          "interpretation_en": "foretells that you will suffer great anguish and humiliation through the indifference of others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Homicide",
-              "original": "To dream that you commit homicide, foretells that you will suffer great anguish and humiliation through the indifference of others, and your gloomy surroundings will cause perplexing worry to those close to you.",
-              "translation_ko": "제가 사람을 죽이는 꿈은, 남의 무심함에 크게 괴롭고 낯이 깎임을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "벗이 스스로 목숨을 끊음",
-          "interpretation_ko": "아주 중한 일을 정하는 데서 애를 먹을 흉한 조짐",
-          "interpretation_en": "you will have trouble in deciding a very important question",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Homicide",
-              "original": "To dream that a friend commits suicide, you will have trouble in deciding a very important question.",
-              "translation_ko": "벗이 스스로 목숨을 끊는 꿈은, 아주 중한 일을 정하는 데서 애를 먹음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "맨손인 사람을 죽임",
-          "interpretation_ko": "슬픔이 오고 하던 일이 어그러질 흉한 조짐",
-          "interpretation_en": "prognosticates sorrow and failure in affairs",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Killing",
-              "original": "To dream of killing a defenseless man, prognosticates sorrow and failure in affairs.",
-              "translation_ko": "맨손인 사람을 죽이는 꿈은 슬픔과 일의 어그러짐을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "제 몸을 지키려 죽이거나 사나운 짐승을 죽임",
-          "interpretation_ko": "이기고 자리가 오를 길한 조짐",
-          "interpretation_en": "it denotes victory and a rise in position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Killing",
-              "original": "If you kill one in defense, or kill a ferocious beast, it denotes victory and a rise in position.",
-              "translation_ko": "제 몸을 지키려 죽이거나 사나운 짐승을 죽이면 이기고 자리가 오른다"
-            }
-          ]
-        },
-        {
-          "context": "사람을 죽여 피가 옷을 적심",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺人血污衣得財",
-              "translation_ko": "사람을 죽여 피가 옷을 더럽히면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "사람을 죽이는 것을 봄",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "看見殺人主大吉",
-              "translation_ko": "사람을 죽이는 것을 보면 크게 길하다"
             }
           ]
         }
@@ -56335,6 +56397,68 @@
       ]
     },
     {
+      "id": "headgear",
+      "term_ko": "머리쓰개",
+      "term_en": "headgear",
+      "aliases": [
+        "머리쓰개",
+        "머릿수건",
+        "만틸라",
+        "레이스 머릿수건"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "값진 머리쓰개를 봄",
+          "interpretation_ko": "이름을 얻고 하는 일이 잘될 길한 조짐",
+          "interpretation_en": "you will become famous and successful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Headgear",
+              "original": "To dream of seeing rich headgear, you will become famous and successful.",
+              "translation_ko": "값진 머리쓰개를 보는 꿈은, 이름을 얻고 하는 일이 잘됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "만틸라를 봄",
+          "interpretation_ko": "슬기롭지 못한 일을 벌여 좋지 않은 눈길을 받을 흉한 조짐",
+          "interpretation_en": "denotes an unwise enterprise which will bring you into unfavorable notice",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mantilla",
+              "original": "To dream of seeing a mantilla, denotes an unwise enterprise which will bring you into unfavorable notice.",
+              "translation_ko": "만틸라를 보는 꿈은, 슬기롭지 못한 일을 벌여 좋지 않은 눈길을 받음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "낡고 해진 머리쓰개를 봄",
+          "interpretation_ko": "가진 것을 남에게 내주게 될 흉한 조짐",
+          "interpretation_en": "you will have to yield up your possessions to others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Headgear",
+              "original": "To see old and worn headgear, you will have to yield up your possessions to others.",
+              "translation_ko": "낡고 해진 머리쓰개를 보면, 가진 것을 남에게 내주게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "hell",
       "term_ko": "지옥",
       "term_en": "hell",
@@ -58749,6 +58873,67 @@
               "locator": "宮室屋宇倉庫",
               "original": "正堂倒陷家主凶",
               "translation_ko": "안채 대청이 무너져 내리면 집주인이 흉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "man-of-war",
+      "term_ko": "군함",
+      "term_en": "man-of-war",
+      "aliases": [
+        "군함이",
+        "군함을",
+        "전함"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "군함을 봄",
+          "interpretation_ko": "먼 길과 나라·벗과의 헤어짐, 그리고 나랏일의 다툼을 알리는 흉한 조짐",
+          "interpretation_en": "denotes long journeys and separation from country and friends, dissension in political affairs is portended",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Man-of-war",
+              "original": "To dream of a man-of-war, denotes long journeys and separation from country and friends, dissension in political affairs is portended.",
+              "translation_ko": "군함의 꿈은 먼 길과 나라·벗과의 헤어짐, 그리고 나랏일의 다툼을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "군함이 부서진 것을 봄",
+          "interpretation_ko": "바깥의 힘이 집안일에 해를 끼칠 흉한 조짐",
+          "interpretation_en": "foreign elements will work damage to home interests",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Man-of-war",
+              "original": "If she is crippled, foreign elements will work damage to home interests.",
+              "translation_ko": "군함이 부서져 있으면 바깥의 힘이 집안일에 해를 끼친다"
+            }
+          ]
+        },
+        {
+          "context": "군함이 거친 바다를 감",
+          "interpretation_ko": "바깥 세력과의 다툼이 제 개인 일까지 위태롭게 할 흉한 조짐",
+          "interpretation_en": "trouble with foreign powers may endanger private affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Man-of-war",
+              "original": "If she is sailing upon rough seas, trouble with foreign powers may endanger private affairs.",
+              "translation_ko": "군함이 거친 바다를 가면, 바깥 세력과의 다툼이 제 개인 일까지 위태롭게 한다"
             }
           ]
         }
@@ -75283,52 +75468,6 @@
       ]
     },
     {
-      "id": "headgear",
-      "term_ko": "머리쓰개",
-      "term_en": "headgear",
-      "aliases": [
-        "머리쓰개",
-        "머릿수건"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "값진 머리쓰개를 봄",
-          "interpretation_ko": "이름을 얻고 하는 일이 잘될 길한 조짐",
-          "interpretation_en": "you will become famous and successful",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Headgear",
-              "original": "To dream of seeing rich headgear, you will become famous and successful.",
-              "translation_ko": "값진 머리쓰개를 보는 꿈은, 이름을 얻고 하는 일이 잘됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "낡고 해진 머리쓰개를 봄",
-          "interpretation_ko": "가진 것을 남에게 내주게 될 흉한 조짐",
-          "interpretation_en": "you will have to yield up your possessions to others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Headgear",
-              "original": "To see old and worn headgear, you will have to yield up your possessions to others.",
-              "translation_ko": "낡고 해진 머리쓰개를 보면, 가진 것을 남에게 내주게 된다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "hieroglyph",
       "term_ko": "상형문자",
       "term_en": "hieroglyph",
@@ -78313,6 +78452,53 @@
               "locator": "Malt",
               "original": "To dream of taking malted drinks, denotes that you will interest yourself in some dangerous affair, but will reap much benefit therefrom.",
               "translation_ko": "맥아로 만든 것을 마시는 꿈은, 위태로운 일에 마음을 두게 되나 그것에서 얻는 것이 많음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manners",
+      "term_ko": "몸가짐",
+      "term_en": "manners",
+      "aliases": [
+        "몸가짐이",
+        "몸가짐을",
+        "예의범절"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "몸가짐이 험한 사람을 봄",
+          "interpretation_ko": "그 일에 얽힌 이의 껄끄러움 때문에 벌인 일을 못 마칠 흉한 조짐",
+          "interpretation_en": "denotes failure to carry out undertakings through the disagreeableness of a person connected with the affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Manners",
+              "original": "To dream of seeing ugly-mannered persons, denotes failure to carry out undertakings through the disagreeableness of a person connected with the affair.",
+              "translation_ko": "몸가짐이 험한 사람들을 보는 꿈은, 그 일에 얽힌 이의 껄끄러움 때문에 벌인 일을 못 마침을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "몸가짐이 상냥한 사람을 만남",
+          "interpretation_ko": "제게 중한 일이 좋게 돌아서서 기쁘게 놀랄 길한 조짐",
+          "interpretation_en": "you will be pleasantly surprised by affairs of moment with you taking a favorable turn",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Manners",
+              "original": "If you meet people with affable manners, you will be pleasantly surprised by affairs of moment with you taking a favorable turn.",
+              "translation_ko": "몸가짐이 상냥한 사람들을 만나면, 제게 중한 일이 좋게 돌아서서 기쁘게 놀란다"
             }
           ]
         }
@@ -89167,6 +89353,39 @@
               "locator": "龍蛇禽獸等類",
               "original": "鴛鴦散去主妻凶",
               "translation_ko": "원앙이 흩어져 가면 아내에게 흉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manufactory",
+      "term_ko": "공장",
+      "term_en": "manufactory",
+      "aliases": [
+        "공장을",
+        "공장이",
+        "제조소"
+      ],
+      "category": "place",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "큰 공장을 봄",
+          "interpretation_ko": "장사판이 여느 때보다 활기찰 길한 조짐",
+          "interpretation_en": "denotes unusual activity in business circles",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Manufactory",
+              "original": "To dream of a large manufactory, denotes unusual activity in business circles.",
+              "translation_ko": "큰 공장의 꿈은 장사판이 여느 때보다 활기참을 뜻한다"
             }
           ]
         }

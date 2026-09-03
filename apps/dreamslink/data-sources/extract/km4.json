@@ -4,7 +4,10 @@
     "aliases": [
       "주택",
       "가옥",
-      "저택"
+      "저택",
+      "저택을",
+      "저택이",
+      "대저택"
     ],
     "aliases_en": [
       "home",
@@ -15,7 +18,7 @@
       "불이 제 집을 태움": "화재 불타 불길 태우 타버",
       "집 안에 불빛이 있음": "불빛 환하 밝은 등불",
       "남의 집을 사들임": "사들 구입 매입 샀다",
-      "성 위에 집을 지음": "성벽 성곽 지었 짓고 건축",
+      "성 위에 집을 지음": "성벽 성곽 성채",
       "집 지붕 위에 오름": "올라 올라가 올라섰 기어올",
       "올라간 지붕이 부서짐": "부서 무너지 무너져 내려앉지붕",
       "지붕을 새로 덮음": "덮었 덮고 이엉 기와",
@@ -30,9 +33,12 @@
       "부인과 집을 두고 다툼": "아내 부인 마누라 아내와",
       "집 마당이 꺼져 내려앉음": "마당 꺼져 함몰 푹꺼 가라앉",
       "시골집을 손보아 고침": "시골 고향 손보 손질",
-      "집을 지음": "신축 세우 짓는 목수",
+      "집을 지음": "신축 세우 짓는 목수 지었 짓고 건축",
       "우아한 집을 소유함": "우아 화려 훌륭 소유",
-      "낡고 허름한 집을 봄": "낡은 허름 폐가 오래된"
+      "낡고 허름한 집을 봄": "낡은 허름 폐가 오래된",
+      "귀신 붙은 방이 있는 저택에 있음": "귀신 유령",
+      "멀리서 저택을 봄": "멀리서 멀찍이",
+      "저택 안에 있음": "저택"
     },
     "contexts_en": {
       "불이 제 집을 태움": "fire burning burned burnt ablaze",
@@ -55,7 +61,10 @@
       "시골집을 손보아 고침": "countryside village hometown rural",
       "집을 지음": "constructing construction carpenter erecting",
       "우아한 집을 소유함": "elegant owning owned mansion",
-      "낡고 허름한 집을 봄": "dilapidated shabby ruined decaying"
+      "낡고 허름한 집을 봄": "dilapidated shabby ruined decaying",
+      "귀신 붙은 방이 있는 저택에 있음": "haunted chamber sudden midst contentment",
+      "멀리서 저택을 봄": "distant points future advancement",
+      "저택 안에 있음": "wealthy possessions"
     }
   },
   {

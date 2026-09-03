@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 113 — Mallet~Man, 11건)
+// (지금 담긴 것: 배치 114 — Manners~Manufactory, 15건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,18 +30,22 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "gavel", ctx: "나무망치를 봄", text: "나무망치가 놓여 있었다" },
-  { id: "malice", ctx: "남에게 악의를 품음", text: "남에게 악의를 품었다" },
-  { id: "malice", ctx: "남이 악의로 저를 대함", text: "남이 악의로 나를 대했다" },
-  { id: "malt", ctx: "맥아를 봄", text: "맥아가 쌓여 있었다" },
-  { id: "malt", ctx: "맥아로 만든 것을 마심", text: "맥아로 만든 것을 마셨다" },
-  { id: "man", ctx: "잘생기고 몸이 좋은 남자를 봄", text: "잘생긴 남자를 보았다" },
-  { id: "man", ctx: "못생기고 험상궂은 남자를 봄", text: "험상궂은 남자를 보았다" },
-  { id: "man", ctx: "여성이 잘생긴 남자를 봄", text: "여자가 잘생긴 남자를 보았다" },
-  { id: "man", ctx: "여성이 못생긴 남자를 봄", text: "아내가 못생긴 남자를 보았다" },
+  { id: "manners", ctx: "몸가짐이 험한 사람을 봄", text: "몸가짐이 험한 사람을 보았다" },
+  { id: "manners", ctx: "몸가짐이 상냥한 사람을 만남", text: "몸가짐이 상냥한 사람을 만났다" },
+  { id: "man-of-war", ctx: "군함을 봄", text: "군함이 정박해 있었다" },
+  { id: "man-of-war", ctx: "군함이 부서진 것을 봄", text: "군함이 부서져 있었다" },
+  { id: "man-of-war", ctx: "군함이 거친 바다를 감", text: "군함이 거친 바다를 갔다" },
+  { id: "house", ctx: "귀신 붙은 방이 있는 저택에 있음", text: "귀신 붙은 방이 있는 저택에 있었다" },
+  { id: "house", ctx: "멀리서 저택을 봄", text: "멀리서 저택을 보았다" },
+  { id: "house", ctx: "저택 안에 있음", text: "저택 안에 있었다" },
+  { id: "killing-someone", ctx: "여성이 사람을 죽이는 일에 얽힘", text: "여자가 사람을 죽이는 일에 얽혔다" },
+  { id: "headgear", ctx: "만틸라를 봄", text: "만틸라를 보았다" },
+  { id: "manufactory", ctx: "큰 공장을 봄", text: "커다란 공장을 보았다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "gavel", ctx: "의사봉을 두드림", text: "의사봉을 두드렸다" },
-  { id: "man", ctx: "남자가 알몸으로 있음", text: "남자가 알몸으로 있었다" },
+  { id: "house", ctx: "집을 지음", text: "집을 새로 지었다" },
+  { id: "house", ctx: "우아한 집을 소유함", text: "우아한 집을 소유하고 있었다" },
+  { id: "headgear", ctx: "값진 머리쓰개를 봄", text: "값진 머리쓰개를 보았다" },
+  { id: "killing-someone", ctx: "남을 죽임", text: "남을 죽였다" },
 ];
 
 let notFound = 0;

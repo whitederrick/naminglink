@@ -6203,5 +6203,17 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "malt": [
     "malted"
+  ],
+  "manners": [
+    "politeness",
+    "good manners"
+  ],
+  "man-of-war": [
+    "warship",
+    "men-of-war"
+  ],
+  "manufactory": [
+    "factory",
+    "factories"
   ]
 };

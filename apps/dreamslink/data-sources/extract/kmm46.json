@@ -3,18 +3,22 @@
     "id": "headgear",
     "aliases": [
       "머리쓰개",
-      "머릿수건"
+      "머릿수건",
+      "만틸라",
+      "레이스 머릿수건"
     ],
     "aliases_en": [
       "headgear"
     ],
     "contexts": {
       "값진 머리쓰개를 봄": "값진 화려 번쩍",
-      "낡고 해진 머리쓰개를 봄": "낡고 해진 헤진"
+      "낡고 해진 머리쓰개를 봄": "낡고 해진 헤진",
+      "만틸라를 봄": "만틸라 레이스"
     },
     "contexts_en": {
       "값진 머리쓰개를 봄": "rich famous successful",
-      "낡고 해진 머리쓰개를 봄": "worn yield possessions others"
+      "낡고 해진 머리쓰개를 봄": "worn yield possessions others",
+      "만틸라를 봄": "mantilla unwise enterprise unfavorable notice"
     }
   },
   {

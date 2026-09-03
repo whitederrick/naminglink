@@ -1,0 +1,62 @@
+[
+  {
+    "id": "manners",
+    "aliases": [
+      "몸가짐이",
+      "몸가짐을",
+      "예의범절"
+    ],
+    "aliases_en": [
+      "politeness",
+      "good manners"
+    ],
+    "contexts": {
+      "몸가짐이 험한 사람을 봄": "험한 무례 버릇없",
+      "몸가짐이 상냥한 사람을 만남": "상냥 싹싹 공손"
+    },
+    "contexts_en": {
+      "몸가짐이 험한 사람을 봄": "ugly-mannered failure undertakings disagreeableness",
+      "몸가짐이 상냥한 사람을 만남": "affable pleasantly surprised favorable turn"
+    }
+  },
+  {
+    "id": "man-of-war",
+    "aliases": [
+      "군함이",
+      "군함을",
+      "전함"
+    ],
+    "aliases_en": [
+      "warship",
+      "men-of-war"
+    ],
+    "contexts": {
+      "군함을 봄": "떠올랐 정박 나타났",
+      "군함이 부서진 것을 봄": "부서 망가",
+      "군함이 거친 바다를 감": "거친 풍랑"
+    },
+    "contexts_en": {
+      "군함을 봄": "long journeys separation country dissension",
+      "군함이 부서진 것을 봄": "crippled elements damage interests",
+      "군함이 거친 바다를 감": "sailing rough seas powers endanger"
+    }
+  },
+  {
+    "id": "manufactory",
+    "aliases": [
+      "공장을",
+      "공장이",
+      "제조소"
+    ],
+    "aliases_en": [
+      "factory",
+      "factories"
+    ],
+    "contexts": {
+      "큰 공장을 봄": "커다란 거대한 커다"
+    },
+    "contexts_en": {
+      "큰 공장을 봄": "large unusual activity circles"
+    }
+  }
+]

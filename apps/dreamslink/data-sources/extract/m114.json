@@ -1,0 +1,167 @@
+[
+  {
+    "term_ko": "몸가짐",
+    "term_en": "manners",
+    "context": "몸가짐이 험한 사람을 봄",
+    "interpretation_ko": "그 일에 얽힌 이의 껄끄러움 때문에 벌인 일을 못 마칠 흉한 조짐",
+    "interpretation_en": "denotes failure to carry out undertakings through the disagreeableness of a person connected with the affair",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Manners",
+      "original": "To dream of seeing ugly-mannered persons, denotes failure to carry out undertakings through the disagreeableness of a person connected with the affair.",
+      "translation_ko": "몸가짐이 험한 사람들을 보는 꿈은, 그 일에 얽힌 이의 껄끄러움 때문에 벌인 일을 못 마침을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "몸가짐",
+    "term_en": "manners",
+    "context": "몸가짐이 상냥한 사람을 만남",
+    "interpretation_ko": "제게 중한 일이 좋게 돌아서서 기쁘게 놀랄 길한 조짐",
+    "interpretation_en": "you will be pleasantly surprised by affairs of moment with you taking a favorable turn",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Manners",
+      "original": "If you meet people with affable manners, you will be pleasantly surprised by affairs of moment with you taking a favorable turn.",
+      "translation_ko": "몸가짐이 상냥한 사람들을 만나면, 제게 중한 일이 좋게 돌아서서 기쁘게 놀란다"
+    }
+  },
+  {
+    "term_ko": "군함",
+    "term_en": "man-of-war",
+    "context": "군함을 봄",
+    "interpretation_ko": "먼 길과 나라·벗과의 헤어짐, 그리고 나랏일의 다툼을 알리는 흉한 조짐",
+    "interpretation_en": "denotes long journeys and separation from country and friends, dissension in political affairs is portended",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Man-of-war",
+      "original": "To dream of a man-of-war, denotes long journeys and separation from country and friends, dissension in political affairs is portended.",
+      "translation_ko": "군함의 꿈은 먼 길과 나라·벗과의 헤어짐, 그리고 나랏일의 다툼을 알린다"
+    }
+  },
+  {
+    "term_ko": "군함",
+    "term_en": "man-of-war",
+    "context": "군함이 부서진 것을 봄",
+    "interpretation_ko": "바깥의 힘이 집안일에 해를 끼칠 흉한 조짐",
+    "interpretation_en": "foreign elements will work damage to home interests",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Man-of-war",
+      "original": "If she is crippled, foreign elements will work damage to home interests.",
+      "translation_ko": "군함이 부서져 있으면 바깥의 힘이 집안일에 해를 끼친다"
+    }
+  },
+  {
+    "term_ko": "군함",
+    "term_en": "man-of-war",
+    "context": "군함이 거친 바다를 감",
+    "interpretation_ko": "바깥 세력과의 다툼이 제 개인 일까지 위태롭게 할 흉한 조짐",
+    "interpretation_en": "trouble with foreign powers may endanger private affairs",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Man-of-war",
+      "original": "If she is sailing upon rough seas, trouble with foreign powers may endanger private affairs.",
+      "translation_ko": "군함이 거친 바다를 가면, 바깥 세력과의 다툼이 제 개인 일까지 위태롭게 한다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "귀신 붙은 방이 있는 저택에 있음",
+    "interpretation_ko": "흡족한 가운데 갑작스러운 궂은일이 닥칠 흉한 조짐",
+    "interpretation_en": "denotes sudden misfortune in the midst of contentment",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mansion",
+      "original": "To dream that you are in a mansion where there is a haunted chamber, denotes sudden misfortune in the midst of contentment.",
+      "translation_ko": "귀신 붙은 방이 있는 저택에 있는 꿈은, 흡족한 가운데 갑작스러운 궂은일이 닥침을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "멀리서 저택을 봄",
+    "interpretation_ko": "앞으로 자리가 오를 길한 조짐",
+    "interpretation_en": "foretells future advancement",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mansion",
+      "original": "To see a mansion from distant points, foretells future advancement.",
+      "translation_ko": "멀리서 저택을 보면 앞으로 자리가 오른다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "저택 안에 있음",
+    "interpretation_ko": "넉넉한 재물을 갖게 될 길한 조짐",
+    "interpretation_en": "indicates for you wealthy possessions",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mansion",
+      "original": "To dream of being in a mansion, indicates for you wealthy possessions.",
+      "translation_ko": "저택 안에 있는 꿈은 넉넉한 재물을 갖게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "살인",
+    "term_en": "killing someone",
+    "context": "여성이 사람을 죽이는 일에 얽힘",
+    "interpretation_ko": "제 이름이 남우세스러운 소문에 엮일까 몹시 두려워할 흉한 조짐",
+    "interpretation_en": "denotes that she will be desperately scared lest her name be coupled with some scandalous sensation",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Manslaughter",
+      "original": "For a woman to dream that she sees, or is in any way connected with, manslaughter, denotes that she will be desperately scared lest her name be coupled with some scandalous sensation.",
+      "translation_ko": "여성이 사람을 죽이는 일을 보거나 그 일에 얽히는 꿈은, 제 이름이 남우세스러운 소문에 엮일까 몹시 두려워함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "머리쓰개",
+    "term_en": "headgear",
+    "context": "만틸라를 봄",
+    "interpretation_ko": "슬기롭지 못한 일을 벌여 좋지 않은 눈길을 받을 흉한 조짐",
+    "interpretation_en": "denotes an unwise enterprise which will bring you into unfavorable notice",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mantilla",
+      "original": "To dream of seeing a mantilla, denotes an unwise enterprise which will bring you into unfavorable notice.",
+      "translation_ko": "만틸라를 보는 꿈은, 슬기롭지 못한 일을 벌여 좋지 않은 눈길을 받음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "공장",
+    "term_en": "manufactory",
+    "context": "큰 공장을 봄",
+    "interpretation_ko": "장사판이 여느 때보다 활기찰 길한 조짐",
+    "interpretation_en": "denotes unusual activity in business circles",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Manufactory",
+      "original": "To dream of a large manufactory, denotes unusual activity in business circles.",
+      "translation_ko": "큰 공장의 꿈은 장사판이 여느 때보다 활기참을 뜻한다"
+    }
+  }
+]

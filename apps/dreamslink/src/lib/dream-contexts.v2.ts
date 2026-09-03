@@ -580,6 +580,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "house::집을 지음": "constructing construction carpenter erecting",
   "house::우아한 집을 소유함": "elegant owning owned mansion",
   "house::낡고 허름한 집을 봄": "dilapidated shabby ruined decaying",
+  "house::귀신 붙은 방이 있는 저택에 있음": "haunted chamber sudden midst contentment",
+  "house::멀리서 저택을 봄": "distant points future advancement",
+  "house::저택 안에 있음": "wealthy possessions",
   "dragon::용을 타고 하늘에 오름": "sky clouds heavens skyward",
   "dragon::용을 타고 물에 들어감": "water river sea ocean submerged",
   "dragon::용이 물속에서 잠듦": "sleeping asleep slept dormant",
@@ -1518,6 +1521,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "killing-someone::벗이 스스로 목숨을 끊음": "friend commits suicide deciding important",
   "killing-someone::맨손인 사람을 죽임": "prognosticates sorrow failure",
   "killing-someone::제 몸을 지키려 죽이거나 사나운 짐승을 죽임": "defense ferocious beast victory rise",
+  "killing-someone::여성이 사람을 죽이는 일에 얽힘": "manslaughter desperately scared coupled scandalous",
   "pine-tree::소나무가 배 위에 자람": "boat ship deck",
   "pine-tree::집 안에 소나무가 자람": "house indoors inside",
   "pine-tree::지붕 위에 소나무와 잣나무가 자람": "roof cypress rooftop",
@@ -3713,6 +3717,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "hay::짐승에게 건초를 먹임": "feed stock offer aid return",
   "headgear::값진 머리쓰개를 봄": "rich famous successful",
   "headgear::낡고 해진 머리쓰개를 봄": "worn yield possessions others",
+  "headgear::만틸라를 봄": "mantilla unwise enterprise unfavorable notice",
   "heart::심장이 아프고 숨이 막힘": "paining suffocating trouble business",
   "heart::제 심장을 봄": "seeing sickness failure energy",
   "heart::짐승의 심장을 봄": "animal overcome merit respect",
@@ -4261,5 +4266,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "malice::남에게 악의를 품음": "entertaining stand opinion disagreeable temper",
   "malice::남이 악의로 저를 대함": "persons using enemy friendly garb",
   "malt::맥아를 봄": "betokens pleasant existence advance station",
-  "malt::맥아로 만든 것을 마심": "drinks interest dangerous reap benefit"
+  "malt::맥아로 만든 것을 마심": "drinks interest dangerous reap benefit",
+  "manners::몸가짐이 험한 사람을 봄": "ugly-mannered failure undertakings disagreeableness",
+  "manners::몸가짐이 상냥한 사람을 만남": "affable pleasantly surprised favorable turn",
+  "man-of-war::군함을 봄": "long journeys separation country dissension",
+  "man-of-war::군함이 부서진 것을 봄": "crippled elements damage interests",
+  "man-of-war::군함이 거친 바다를 감": "sailing rough seas powers endanger",
+  "manufactory::큰 공장을 봄": "large unusual activity circles"
 };
