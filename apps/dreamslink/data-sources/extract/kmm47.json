@@ -60,7 +60,8 @@
       "가죽",
       "생가죽",
       "가죽옷",
-      "가죽 장신구"
+      "가죽 장신구",
+      "모로코 가죽"
     ],
     "aliases_en": [
       "the hide of an animal"
@@ -70,14 +71,16 @@
       "가죽옷을 입음": "입었 입고",
       "가죽 장신구를 봄": "장신구 꾸미개",
       "가죽이 무더기로 쌓여 있음": "쌓여 무더기",
-      "가죽을 사고팖": "사고팔 거래 장사"
+      "가죽을 사고팖": "사고팔 거래 장사",
+      "모로코 가죽을 봄": "모로코"
     },
     "contexts_en": {
       "짐승 가죽을 봄": "beast rough tanned",
       "가죽옷을 입음": "dressed lucky speculations",
       "가죽 장신구를 봄": "ornaments faithfulness",
       "가죽이 무더기로 쌓여 있음": "piles fortune",
-      "가죽을 사고팖": "deal disposition accumulation"
+      "가죽을 사고팖": "deal disposition accumulation",
+      "모로코 가죽을 봄": "morocco substantial aid unexpected sources"
     }
   },
   {

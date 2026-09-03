@@ -1,0 +1,227 @@
+[
+  {
+    "term_ko": "괴물",
+    "term_en": "monster",
+    "context": "괴물에게 쫓김",
+    "interpretation_ko": "슬픔과 궂은 일이 코앞에 크게 자리할 흉한 조짐",
+    "interpretation_en": "denotes that sorrow and misfortune hold prominent places in your immediate future",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Monster",
+      "original": "To dream of being pursued by a monster, denotes that sorrow and misfortune hold prominent places in your immediate future.",
+      "translation_ko": "괴물에게 쫓기는 꿈은, 슬픔과 궂은 일이 코앞에 크게 자리함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "괴물",
+    "term_en": "monster",
+    "context": "괴물을 죽임",
+    "interpretation_ko": "적을 잘 이겨 내고 높은 자리에 오를 길한 조짐",
+    "interpretation_en": "denotes that you will successfully cope with enemies and rise to eminent positions",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Monster",
+      "original": "To slay a monster, denotes that you will successfully cope with enemies and rise to eminent positions.",
+      "translation_ko": "괴물을 죽이는 꿈은, 적을 잘 이겨 내고 높은 자리에 오름을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "달",
+    "term_en": "moon",
+    "context": "하늘이 여느 때와 같은데 달을 봄",
+    "interpretation_ko": "사랑에서도 하는 일에서도 잘 풀릴 길한 조짐",
+    "interpretation_en": "prognosticates success in love and business affairs",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Moon",
+      "original": "To dream of seeing the moon with the aspect of the heavens remaining normal, prognosticates success in love and business affairs.",
+      "translation_ko": "하늘이 여느 때와 같은데 달을 보는 꿈은, 사랑에서도 하는 일에서도 잘 풀림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "달",
+    "term_en": "moon",
+    "context": "기괴한 달을 봄",
+    "interpretation_ko": "사랑이 어긋나고 집안이 편치 않으며 하는 일도 실망스러울 흉한 조짐",
+    "interpretation_en": "denotes unpropitious lovemaking, domestic infelicities and disappointing enterprises of a business character",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Moon",
+      "original": "A weird and uncanny moon, denotes unpropitious lovemaking, domestic infelicities and disappointing enterprises of a business character.",
+      "translation_ko": "기괴하고 으스스한 달은, 사랑이 어긋나고 집안이 편치 않으며 하는 일도 실망스러움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "달",
+    "term_en": "moon",
+    "context": "월식이 드는 것을 봄",
+    "interpretation_ko": "돌림병이 마을을 휩쓸 흉한 조짐",
+    "interpretation_en": "denotes that contagion will ravage your community",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Moon",
+      "original": "The moon in eclipse, denotes that contagion will ravage your community.",
+      "translation_ko": "월식이 드는 것은 돌림병이 마을을 휩쓺을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "달",
+    "term_en": "moon",
+    "context": "초승달을 봄",
+    "interpretation_ko": "재물이 늘고 마음 맞는 짝을 만날 길한 조짐",
+    "interpretation_en": "denotes an increase in wealth and congenial partners in marriage",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Moon",
+      "original": "To see the new moon, denotes an increase in wealth and congenial partners in marriage.",
+      "translation_ko": "초승달을 보면 재물이 늘고 마음 맞는 짝을 만난다"
+    }
+  },
+  {
+    "term_ko": "달",
+    "term_en": "moon",
+    "context": "처녀가 달에게 제 앞날을 물음",
+    "interpretation_ko": "곧 마음에 둔 이와 혼인하게 될 길한 조짐",
+    "interpretation_en": "denotes that she will soon be rewarded with marriage to the one of her choice",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Moon",
+      "original": "For a young woman to dream that she appeals to the moon to know her fate, denotes that she will soon be rewarded with marriage to the one of her choice.",
+      "translation_ko": "처녀가 달에게 제 앞날을 묻는 꿈을 꾸면, 곧 마음에 둔 이와 혼인하게 된다"
+    }
+  },
+  {
+    "term_ko": "달",
+    "term_en": "moon",
+    "context": "달이 둘로 보임",
+    "interpretation_ko": "잇속을 밝히다 정인을 잃을 흉한 조짐",
+    "interpretation_en": "she will lose her lover by being mercenary",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Moon",
+      "original": "If she sees two moons, she will lose her lover by being mercenary.",
+      "translation_ko": "달이 둘로 보이면 잇속을 밝히다 정인을 잃는다"
+    }
+  },
+  {
+    "term_ko": "달",
+    "term_en": "moon",
+    "context": "달빛이 점점 사그라짐",
+    "interpretation_ko": "여자다운 재치가 모자라 한평생의 큰 기쁨을 놓칠 흉한 조짐",
+    "interpretation_en": "she will let the supreme happiness of her life slip for want of womanly tact",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Moon",
+      "original": "If she sees the moon grow dim, she will let the supreme happiness of her life slip for want of womanly tact.",
+      "translation_ko": "달이 점점 사그라지는 것을 보면, 여자다운 재치가 모자라 한평생의 큰 기쁨을 놓친다"
+    }
+  },
+  {
+    "term_ko": "달",
+    "term_en": "moon",
+    "context": "핏빛으로 붉은 달을 봄",
+    "interpretation_ko": "싸움과 다툼이 있고 정인이 나라를 지키러 떠나는 것을 볼 흉한 조짐",
+    "interpretation_en": "indicates war and strife, and she will see her lover march away in defence of his country",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Moon",
+      "original": "To see a blood red moon, indicates war and strife, and she will see her lover march away in defence of his country.",
+      "translation_ko": "핏빛으로 붉은 달을 보면, 싸움과 다툼이 있고 정인이 나라를 지키러 떠나는 것을 본다"
+    }
+  },
+  {
+    "term_ko": "영안실",
+    "term_en": "morgue",
+    "context": "누구를 찾으러 영안실에 감",
+    "interpretation_ko": "겨레붙이나 벗의 부고에 놀랄 흉한 조짐",
+    "interpretation_en": "denotes that you will be shocked by news of the death of a relative or friend",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Morgue",
+      "original": "To dream that you visit a morgue searching for some one, denotes that you will be shocked by news of the death of a relative or friend.",
+      "translation_ko": "누구를 찾으러 영안실에 가는 꿈은, 겨레붙이나 벗의 부고에 놀람을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "영안실",
+    "term_en": "morgue",
+    "context": "영안실에 주검이 많은 것을 봄",
+    "interpretation_ko": "슬픔과 괴로운 일을 많이 겪게 될 흉한 조짐",
+    "interpretation_en": "much sorrow and trouble will come under your notice",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Morgue",
+      "original": "To see many corpses there, much sorrow and trouble will come under your notice.",
+      "translation_ko": "그곳에 주검이 많은 것을 보면 슬픔과 괴로운 일을 많이 겪는다"
+    }
+  },
+  {
+    "term_ko": "새벽",
+    "term_en": "daybreak",
+    "context": "맑은 아침 동이 트는 것을 봄",
+    "interpretation_ko": "복된 운과 즐거움이 가까이 다가올 길한 조짐",
+    "interpretation_en": "prognosticates a near approach of fortune and pleasure",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Morning",
+      "original": "To see the morning dawn clear in your dreams, prognosticates a near approach of fortune and pleasure.",
+      "translation_ko": "맑은 아침 동이 트는 것을 보면 복된 운과 즐거움이 가까이 다가온다"
+    }
+  },
+  {
+    "term_ko": "새벽",
+    "term_en": "daybreak",
+    "context": "흐린 아침을 봄",
+    "interpretation_ko": "묵직한 일들이 저를 짓누를 흉한 조짐",
+    "interpretation_en": "portends weighty affairs will overwhelm you",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Morning",
+      "original": "A cloudy morning, portends weighty affairs will overwhelm you.",
+      "translation_ko": "흐린 아침은 묵직한 일들이 저를 짓누름을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "짐승 가죽",
+    "term_en": "hide",
+    "context": "모로코 가죽을 봄",
+    "interpretation_ko": "뜻밖의 곳에서 든든한 도움을 받을 길한 조짐",
+    "interpretation_en": "foretells that you will receive substantial aid from unexpected sources",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Morocco",
+      "original": "To see morocco in your dreams, foretells that you will receive substantial aid from unexpected sources.",
+      "translation_ko": "꿈에 모로코 가죽을 보면 뜻밖의 곳에서 든든한 도움을 받는다"
+    }
+  }
+]

@@ -62,7 +62,11 @@
       "달빛",
       "보름달",
       "초승달",
-      "월광"
+      "월광",
+      "달이",
+      "달을",
+      "그믐달",
+      "월식"
     ],
     "aliases_en": [
       "the moon",
@@ -82,7 +86,15 @@
       "달을 삼킴": "삼켰 삼켜 삼키 먹었",
       "달에 절하여 예를 올림": "절을 절하 절했 예를 기도",
       "달이 품 안으로 들어옴": "들어왔 들어오 가슴속 품속",
-      "달에 절하고 향을 사름": "향을 향불 피웠 피우"
+      "달에 절하고 향을 사름": "향을 향불 피웠 피우",
+      "하늘이 여느 때와 같은데 달을 봄": "여느 예사 평소",
+      "기괴한 달을 봄": "기괴 괴이 으스스",
+      "월식이 드는 것을 봄": "월식 이지러",
+      "초승달을 봄": "초승 갓뜬 눈썹달",
+      "처녀가 달에게 제 앞날을 물음": "처녀 앞날 물었",
+      "달이 둘로 보임": "둘로 두개 쌍으로",
+      "달빛이 점점 사그라짐": "사그라 스러져 잦아",
+      "핏빛으로 붉은 달을 봄": "핏빛 붉은 붉게"
     },
     "contexts_en": {
       "달이 막 떠오름": "rose risen appeared",
@@ -96,7 +108,15 @@
       "달을 삼킴": "swallowed swallow ate",
       "달에 절하여 예를 올림": "bowed bowing worship prayed",
       "달이 품 안으로 들어옴": "entered entering bosom chest",
-      "달에 절하고 향을 사름": "incense burned burning"
+      "달에 절하고 향을 사름": "incense burned burning",
+      "하늘이 여느 때와 같은데 달을 봄": "aspect heavens remaining normal",
+      "기괴한 달을 봄": "weird uncanny unpropitious infelicities",
+      "월식이 드는 것을 봄": "eclipse contagion ravage community",
+      "초승달을 봄": "increase wealth congenial partners",
+      "처녀가 달에게 제 앞날을 물음": "appeals soon choice",
+      "달이 둘로 보임": "two moons mercenary",
+      "달빛이 점점 사그라짐": "supreme slip womanly tact",
+      "핏빛으로 붉은 달을 봄": "blood crimson war strife defence"
     }
   },
   {

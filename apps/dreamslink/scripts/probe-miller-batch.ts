@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 130 — Money, 15건)
+// (지금 담긴 것: 배치 131 — Monster~Morocco, 20건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,22 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "money", ctx: "돈이 많이 있는 것을 봄", text: "돈이 수북하게 쌓여 있었다" },
-  { id: "money", ctx: "돈을 치러 줌", text: "돈을 치렀다" },
-  { id: "money", ctx: "돈을 잃어버림", text: "돈을 잃어버렸다" },
-  { id: "money", ctx: "돈을 세어 보니 모자람", text: "돈을 세어 보니 모자랐다" },
-  { id: "money", ctx: "돈을 훔침", text: "돈을 훔쳤다" },
-  { id: "money", ctx: "돈을 모아 둠", text: "돈을 모아 두었다" },
-  { id: "money", ctx: "돈을 삼킴", text: "돈을 삼켰다" },
-  { id: "money", ctx: "처녀가 주운 돈뭉치를 제 것이라 함", text: "돈뭉치를 주웠는데 처녀가 제것이라고 했다" },
-  { id: "gold", ctx: "황금을 받음", text: "황금을 받았다" },
+  { id: "monster", ctx: "괴물에게 쫓김", text: "괴물에게 쫓겼다" },
+  { id: "monster", ctx: "괴물을 죽임", text: "괴물을 죽였다" },
+  { id: "moon", ctx: "하늘이 여느 때와 같은데 달을 봄", text: "여느 때와 같은 하늘에 달이 있었다" },
+  { id: "moon", ctx: "기괴한 달을 봄", text: "기괴한 달을 보았다" },
+  { id: "moon", ctx: "월식이 드는 것을 봄", text: "월식이 드는 것을 보았다" },
+  { id: "moon", ctx: "초승달을 봄", text: "초승달을 보았다" },
+  { id: "moon", ctx: "처녀가 달에게 제 앞날을 물음", text: "처녀가 달에게 앞날을 물었다" },
+  { id: "moon", ctx: "달이 둘로 보임", text: "달이 둘로 보였다" },
+  { id: "moon", ctx: "달빛이 점점 사그라짐", text: "달빛이 점점 사그라들었다" },
+  { id: "moon", ctx: "핏빛으로 붉은 달을 봄", text: "핏빛으로 붉은 달을 보았다" },
+  { id: "morgue", ctx: "누구를 찾으러 영안실에 감", text: "누구를 찾으러 영안실에 갔다" },
+  { id: "morgue", ctx: "영안실에 주검이 많은 것을 봄", text: "영안실에 주검이 많이 있었다" },
+  { id: "daybreak", ctx: "맑은 아침 동이 트는 것을 봄", text: "맑은 아침 동이 트는 것을 보았다" },
+  { id: "daybreak", ctx: "흐린 아침을 봄", text: "흐린 아침이었다" },
+  { id: "hide", ctx: "모로코 가죽을 봄", text: "모로코 가죽을 보았다" },
   // 지킴 — 이번 배치가 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "money", ctx: "남에게 돈과 물건을 돌려줌", text: "남에게 돈을 돌려주었다" },
-  { id: "money", ctx: "돈과 물건을 주움", text: "길에 떨어진 돈을 주웠다" },
-  { id: "money", ctx: "가을과 겨울에 돈을 봄", text: "가을에 돈을 보았다" },
-  { id: "gold", ctx: "황금을 손에 쥠", text: "황금을 손에 쥐었다" },
-  { id: "gold", ctx: "황금을 잃어버림", text: "황금을 잃어버렸다" },
-  { id: "paper-money", ctx: "남에게서 지전을 받음", text: "남에게서 노잣돈을 받았다" },
+  { id: "moon", ctx: "달을 삼킴", text: "달을 삼켰다" },
+  { id: "moon", ctx: "달이 어둑하게 흐림", text: "달이 어둑하게 흐렸다" },
+  { id: "moon", ctx: "달이 산에 걸림", text: "달이 산봉우리에 걸려 있었다" },
+  { id: "daybreak", ctx: "날이 밝아 오는 것을 봄", text: "날이 밝아 오는 것을 지켜보았다" },
+  { id: "hide", ctx: "가죽옷을 입음", text: "가죽옷을 입고 있었다" },
 ];
 
 let notFound = 0;

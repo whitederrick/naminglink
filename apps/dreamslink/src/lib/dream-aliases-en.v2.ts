@@ -6371,5 +6371,11 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "blemish": [
     "blemishes",
     "skin blemish"
+  ],
+  "monster": [
+    "monsters"
+  ],
+  "morgue": [
+    "morgues"
   ]
 };

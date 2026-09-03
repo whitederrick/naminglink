@@ -1,0 +1,40 @@
+[
+  {
+    "id": "monster",
+    "aliases": [
+      "괴물이",
+      "괴물을",
+      "괴수"
+    ],
+    "aliases_en": [
+      "monsters"
+    ],
+    "contexts": {
+      "괴물에게 쫓김": "쫓겼 쫓기 뒤쫓",
+      "괴물을 죽임": "죽였 베었 물리쳤"
+    },
+    "contexts_en": {
+      "괴물에게 쫓김": "pursued sorrow misfortune prominent",
+      "괴물을 죽임": "slay cope enemies eminent"
+    }
+  },
+  {
+    "id": "morgue",
+    "aliases": [
+      "영안실에",
+      "영안실을",
+      "주검을 두는 곳"
+    ],
+    "aliases_en": [
+      "morgues"
+    ],
+    "contexts": {
+      "누구를 찾으러 영안실에 감": "찾으러 갔다 들어갔",
+      "영안실에 주검이 많은 것을 봄": "주검 많이 여럿"
+    },
+    "contexts_en": {
+      "누구를 찾으러 영안실에 감": "visit searching shocked news relative",
+      "영안실에 주검이 많은 것을 봄": "many corpses sorrow trouble notice"
+    }
+  }
+]

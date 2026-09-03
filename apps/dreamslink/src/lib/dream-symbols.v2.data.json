@@ -37,6 +37,7 @@
     "m129.json",
     "m13.json",
     "m130.json",
+    "m131.json",
     "m14.json",
     "m15.json",
     "m16.json",
@@ -5691,6 +5692,313 @@
               "locator": "Letter",
               "original": "To dream often of receiving a letter from a friend, foretells his arrival, or you will hear from him by letter or otherwise.",
               "translation_ko": "벗에게서 편지를 받는 꿈을 자주 꾸면, 그 벗이 찾아오거나 그에게서 소식이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moon",
+      "term_ko": "달",
+      "term_en": "moon",
+      "aliases": [
+        "달빛",
+        "보름달",
+        "초승달",
+        "월광",
+        "달이",
+        "달을",
+        "그믐달",
+        "월식"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [
+        "태몽"
+      ],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "하늘이 여느 때와 같은데 달을 봄",
+          "interpretation_ko": "사랑에서도 하는 일에서도 잘 풀릴 길한 조짐",
+          "interpretation_en": "prognosticates success in love and business affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moon",
+              "original": "To dream of seeing the moon with the aspect of the heavens remaining normal, prognosticates success in love and business affairs.",
+              "translation_ko": "하늘이 여느 때와 같은데 달을 보는 꿈은, 사랑에서도 하는 일에서도 잘 풀림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "기괴한 달을 봄",
+          "interpretation_ko": "사랑이 어긋나고 집안이 편치 않으며 하는 일도 실망스러울 흉한 조짐",
+          "interpretation_en": "denotes unpropitious lovemaking, domestic infelicities and disappointing enterprises of a business character",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moon",
+              "original": "A weird and uncanny moon, denotes unpropitious lovemaking, domestic infelicities and disappointing enterprises of a business character.",
+              "translation_ko": "기괴하고 으스스한 달은, 사랑이 어긋나고 집안이 편치 않으며 하는 일도 실망스러움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "월식이 드는 것을 봄",
+          "interpretation_ko": "돌림병이 마을을 휩쓸 흉한 조짐",
+          "interpretation_en": "denotes that contagion will ravage your community",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moon",
+              "original": "The moon in eclipse, denotes that contagion will ravage your community.",
+              "translation_ko": "월식이 드는 것은 돌림병이 마을을 휩쓺을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "초승달을 봄",
+          "interpretation_ko": "재물이 늘고 마음 맞는 짝을 만날 길한 조짐",
+          "interpretation_en": "denotes an increase in wealth and congenial partners in marriage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moon",
+              "original": "To see the new moon, denotes an increase in wealth and congenial partners in marriage.",
+              "translation_ko": "초승달을 보면 재물이 늘고 마음 맞는 짝을 만난다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 달에게 제 앞날을 물음",
+          "interpretation_ko": "곧 마음에 둔 이와 혼인하게 될 길한 조짐",
+          "interpretation_en": "denotes that she will soon be rewarded with marriage to the one of her choice",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moon",
+              "original": "For a young woman to dream that she appeals to the moon to know her fate, denotes that she will soon be rewarded with marriage to the one of her choice.",
+              "translation_ko": "처녀가 달에게 제 앞날을 묻는 꿈을 꾸면, 곧 마음에 둔 이와 혼인하게 된다"
+            }
+          ]
+        },
+        {
+          "context": "달이 둘로 보임",
+          "interpretation_ko": "잇속을 밝히다 정인을 잃을 흉한 조짐",
+          "interpretation_en": "she will lose her lover by being mercenary",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moon",
+              "original": "If she sees two moons, she will lose her lover by being mercenary.",
+              "translation_ko": "달이 둘로 보이면 잇속을 밝히다 정인을 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "달빛이 점점 사그라짐",
+          "interpretation_ko": "여자다운 재치가 모자라 한평생의 큰 기쁨을 놓칠 흉한 조짐",
+          "interpretation_en": "she will let the supreme happiness of her life slip for want of womanly tact",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moon",
+              "original": "If she sees the moon grow dim, she will let the supreme happiness of her life slip for want of womanly tact.",
+              "translation_ko": "달이 점점 사그라지는 것을 보면, 여자다운 재치가 모자라 한평생의 큰 기쁨을 놓친다"
+            }
+          ]
+        },
+        {
+          "context": "핏빛으로 붉은 달을 봄",
+          "interpretation_ko": "싸움과 다툼이 있고 정인이 나라를 지키러 떠나는 것을 볼 흉한 조짐",
+          "interpretation_en": "indicates war and strife, and she will see her lover march away in defence of his country",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moon",
+              "original": "To see a blood red moon, indicates war and strife, and she will see her lover march away in defence of his country.",
+              "translation_ko": "핏빛으로 붉은 달을 보면, 싸움과 다툼이 있고 정인이 나라를 지키러 떠나는 것을 본다"
+            }
+          ]
+        },
+        {
+          "context": "달이 막 떠오름",
+          "interpretation_ko": "집안이 번창할 조짐",
+          "interpretation_en": "a sign that the household will prosper",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月初出家道昌",
+              "translation_ko": "해와 달이 처음 떠오르면 집안이 창성한다"
+            }
+          ]
+        },
+        {
+          "context": "달빛이 몸을 비춤",
+          "interpretation_ko": "중한 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining an important position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月照身得重位",
+              "translation_ko": "해와 달이 몸을 비추면 중한 지위를 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "달이 떨어짐",
+          "interpretation_ko": "부모를 잃을 근심이 있을 조짐",
+          "interpretation_en": "a sign of grief over losing one's parents",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月落憂沒父母",
+              "translation_ko": "해와 달이 떨어지면 부모를 잃을 근심이 있다"
+            }
+          ]
+        },
+        {
+          "context": "달이 어둑하게 흐림",
+          "interpretation_ko": "임신한 부인에게 길한 조짐",
+          "interpretation_en": "an auspicious sign for a pregnant woman",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月昏暗孕婦吉",
+              "translation_ko": "해와 달이 어두우면 임신한 부인에게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "달이 막 떠오르려 함",
+          "interpretation_ko": "관직을 얻을 조짐",
+          "interpretation_en": "a sign of obtaining a government post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月欲出有官職",
+              "translation_ko": "해와 달이 떠오르려 하면 관직이 있다"
+            }
+          ]
+        },
+        {
+          "context": "해와 달이 한자리에서 만남",
+          "interpretation_ko": "아내가 아이를 가질 조짐",
+          "interpretation_en": "a sign that one's wife will conceive a child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月合會妻有子",
+              "translation_ko": "해와 달이 합하여 만나면 아내가 아이를 갖는다"
+            }
+          ]
+        },
+        {
+          "context": "달이 산에 걸림",
+          "interpretation_ko": "아랫사람이 주인을 속일 조짐",
+          "interpretation_en": "a sign that a servant will deceive the master",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月啣山奴欺主",
+              "translation_ko": "해와 달이 산에 걸리면 종이 주인을 속인다"
+            }
+          ]
+        },
+        {
+          "context": "달을 등에 지거나 품에 안음",
+          "interpretation_ko": "왕후처럼 귀해질 조짐",
+          "interpretation_en": "a sign of becoming as noble as a lord",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "負抱日月貴侯王",
+              "translation_ko": "해와 달을 지거나 안으면 왕후처럼 귀해진다"
+            }
+          ]
+        },
+        {
+          "context": "달을 삼킴",
+          "interpretation_ko": "귀한 아들을 낳을 조짐",
+          "interpretation_en": "a sign of bearing a noble son",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "吞日月當生貴子",
+              "translation_ko": "해와 달을 삼키면 귀한 아들을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "달에 절하여 예를 올림",
+          "interpretation_ko": "크게 길하고 창성할 조짐",
+          "interpretation_en": "a sign of great fortune and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "禮拜日月大吉昌",
+              "translation_ko": "해와 달에 절하면 크게 길하고 창성한다"
+            }
+          ]
+        },
+        {
+          "context": "달이 품 안으로 들어옴",
+          "interpretation_ko": "딸을 낳을 조짐",
+          "interpretation_en": "a sign of bearing a daughter",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日入懷貴子月女",
+              "translation_ko": "해가 품에 들면 귀한 아들을 낳고 달이 들면 딸을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "달에 절하고 향을 사름",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "拜星月燒香大吉",
+              "translation_ko": "별과 달에 절하고 향을 사르면 크게 길하다"
             }
           ]
         }
@@ -13988,196 +14296,6 @@
               "locator": "金銀珠玉絹帛",
               "original": "錢春夏吉秋冬凶",
               "translation_ko": "돈은 봄여름에는 길하고 가을겨울에는 흉하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "moon",
-      "term_ko": "달",
-      "term_en": "moon",
-      "aliases": [
-        "달빛",
-        "보름달",
-        "초승달",
-        "월광"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "달이 막 떠오름",
-          "interpretation_ko": "집안이 번창할 조짐",
-          "interpretation_en": "a sign that the household will prosper",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月初出家道昌",
-              "translation_ko": "해와 달이 처음 떠오르면 집안이 창성한다"
-            }
-          ]
-        },
-        {
-          "context": "달빛이 몸을 비춤",
-          "interpretation_ko": "중한 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining an important position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月照身得重位",
-              "translation_ko": "해와 달이 몸을 비추면 중한 지위를 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "달이 떨어짐",
-          "interpretation_ko": "부모를 잃을 근심이 있을 조짐",
-          "interpretation_en": "a sign of grief over losing one's parents",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月落憂沒父母",
-              "translation_ko": "해와 달이 떨어지면 부모를 잃을 근심이 있다"
-            }
-          ]
-        },
-        {
-          "context": "달이 어둑하게 흐림",
-          "interpretation_ko": "임신한 부인에게 길한 조짐",
-          "interpretation_en": "an auspicious sign for a pregnant woman",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月昏暗孕婦吉",
-              "translation_ko": "해와 달이 어두우면 임신한 부인에게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "달이 막 떠오르려 함",
-          "interpretation_ko": "관직을 얻을 조짐",
-          "interpretation_en": "a sign of obtaining a government post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月欲出有官職",
-              "translation_ko": "해와 달이 떠오르려 하면 관직이 있다"
-            }
-          ]
-        },
-        {
-          "context": "해와 달이 한자리에서 만남",
-          "interpretation_ko": "아내가 아이를 가질 조짐",
-          "interpretation_en": "a sign that one's wife will conceive a child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月合會妻有子",
-              "translation_ko": "해와 달이 합하여 만나면 아내가 아이를 갖는다"
-            }
-          ]
-        },
-        {
-          "context": "달이 산에 걸림",
-          "interpretation_ko": "아랫사람이 주인을 속일 조짐",
-          "interpretation_en": "a sign that a servant will deceive the master",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月啣山奴欺主",
-              "translation_ko": "해와 달이 산에 걸리면 종이 주인을 속인다"
-            }
-          ]
-        },
-        {
-          "context": "달을 등에 지거나 품에 안음",
-          "interpretation_ko": "왕후처럼 귀해질 조짐",
-          "interpretation_en": "a sign of becoming as noble as a lord",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "負抱日月貴侯王",
-              "translation_ko": "해와 달을 지거나 안으면 왕후처럼 귀해진다"
-            }
-          ]
-        },
-        {
-          "context": "달을 삼킴",
-          "interpretation_ko": "귀한 아들을 낳을 조짐",
-          "interpretation_en": "a sign of bearing a noble son",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "吞日月當生貴子",
-              "translation_ko": "해와 달을 삼키면 귀한 아들을 낳는다"
-            }
-          ]
-        },
-        {
-          "context": "달에 절하여 예를 올림",
-          "interpretation_ko": "크게 길하고 창성할 조짐",
-          "interpretation_en": "a sign of great fortune and prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "禮拜日月大吉昌",
-              "translation_ko": "해와 달에 절하면 크게 길하고 창성한다"
-            }
-          ]
-        },
-        {
-          "context": "달이 품 안으로 들어옴",
-          "interpretation_ko": "딸을 낳을 조짐",
-          "interpretation_en": "a sign of bearing a daughter",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日入懷貴子月女",
-              "translation_ko": "해가 품에 들면 귀한 아들을 낳고 달이 들면 딸을 낳는다"
-            }
-          ]
-        },
-        {
-          "context": "달에 절하고 향을 사름",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "拜星月燒香大吉",
-              "translation_ko": "별과 달에 절하고 향을 사르면 크게 길하다"
             }
           ]
         }
@@ -30333,6 +30451,118 @@
       ]
     },
     {
+      "id": "hide",
+      "term_ko": "짐승 가죽",
+      "term_en": "hide",
+      "aliases": [
+        "짐승 가죽",
+        "가죽",
+        "생가죽",
+        "가죽옷",
+        "가죽 장신구",
+        "모로코 가죽"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "짐승 가죽을 봄",
+          "interpretation_ko": "남는 것이 있고 일자리가 오래갈 길한 조짐",
+          "interpretation_en": "denotes profit and permanent employment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hide",
+              "original": "To dream of the hide of an animal, denotes profit and permanent employment.",
+              "translation_ko": "짐승 가죽 꿈은, 남는 것과 오래가는 일자리를 뜻한다"
+            },
+            {
+              "work": "miller",
+              "locator": "Leather",
+              "original": "To dream of leather, denotes successful business and favorable engagements with women.",
+              "translation_ko": "가죽의 꿈은 일이 잘되고 여자들과의 사귐이 이로움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "모로코 가죽을 봄",
+          "interpretation_ko": "뜻밖의 곳에서 든든한 도움을 받을 길한 조짐",
+          "interpretation_en": "foretells that you will receive substantial aid from unexpected sources",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Morocco",
+              "original": "To see morocco in your dreams, foretells that you will receive substantial aid from unexpected sources.",
+              "translation_ko": "꿈에 모로코 가죽을 보면 뜻밖의 곳에서 든든한 도움을 받는다"
+            }
+          ]
+        },
+        {
+          "context": "가죽옷을 입음",
+          "interpretation_ko": "복이 따르는 투자를 하게 될 길한 조짐",
+          "interpretation_en": "you will go into lucky speculations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leather",
+              "original": "You will go into lucky speculations if you dream that you are dressed in leather.",
+              "translation_ko": "가죽옷을 입은 꿈을 꾸면 복이 따르는 투자를 하게 된다"
+            }
+          ]
+        },
+        {
+          "context": "가죽 장신구를 봄",
+          "interpretation_ko": "사랑과 집안에 한결같을 길한 조짐",
+          "interpretation_en": "denotes faithfulness in love and to the home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leather",
+              "original": "Ornaments of leather, denotes faithfulness in love and to the home.",
+              "translation_ko": "가죽으로 만든 장신구는 사랑과 집안에 한결같음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가죽이 무더기로 쌓여 있음",
+          "interpretation_ko": "재물과 기쁨이 있을 길한 조짐",
+          "interpretation_en": "denotes fortune and happiness",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leather",
+              "original": "Piles of leather, denotes fortune and happiness.",
+              "translation_ko": "가죽이 무더기로 쌓여 있으면 재물과 기쁨이 있다"
+            }
+          ]
+        },
+        {
+          "context": "가죽을 사고팖",
+          "interpretation_ko": "지금 하는 일을 바꾸지 않아도 재물이 쌓일 길한 조짐",
+          "interpretation_en": "signifies no change in the disposition of your engagements is necessary for successful accumulation of wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leather",
+              "original": "To deal in leather, signifies no change in the disposition of your engagements is necessary for successful accumulation of wealth.",
+              "translation_ko": "가죽을 사고팔면 지금 하는 일을 바꾸지 않아도 재물이 쌓인다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "hotel",
       "term_ko": "여관",
       "term_en": "hotel",
@@ -36462,103 +36692,6 @@
               "locator": "Hay",
               "original": "To feed hay to stock, indicates that you will offer aid to some one who will return the favor with love and advancement to higher states.",
               "translation_ko": "짐승에게 건초를 먹이면, 남을 도운 것이 사랑과 오름으로 되돌아온다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "hide",
-      "term_ko": "짐승 가죽",
-      "term_en": "hide",
-      "aliases": [
-        "짐승 가죽",
-        "가죽",
-        "생가죽",
-        "가죽옷",
-        "가죽 장신구"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "짐승 가죽을 봄",
-          "interpretation_ko": "남는 것이 있고 일자리가 오래갈 길한 조짐",
-          "interpretation_en": "denotes profit and permanent employment",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Hide",
-              "original": "To dream of the hide of an animal, denotes profit and permanent employment.",
-              "translation_ko": "짐승 가죽 꿈은, 남는 것과 오래가는 일자리를 뜻한다"
-            },
-            {
-              "work": "miller",
-              "locator": "Leather",
-              "original": "To dream of leather, denotes successful business and favorable engagements with women.",
-              "translation_ko": "가죽의 꿈은 일이 잘되고 여자들과의 사귐이 이로움을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "가죽옷을 입음",
-          "interpretation_ko": "복이 따르는 투자를 하게 될 길한 조짐",
-          "interpretation_en": "you will go into lucky speculations",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Leather",
-              "original": "You will go into lucky speculations if you dream that you are dressed in leather.",
-              "translation_ko": "가죽옷을 입은 꿈을 꾸면 복이 따르는 투자를 하게 된다"
-            }
-          ]
-        },
-        {
-          "context": "가죽 장신구를 봄",
-          "interpretation_ko": "사랑과 집안에 한결같을 길한 조짐",
-          "interpretation_en": "denotes faithfulness in love and to the home",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Leather",
-              "original": "Ornaments of leather, denotes faithfulness in love and to the home.",
-              "translation_ko": "가죽으로 만든 장신구는 사랑과 집안에 한결같음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "가죽이 무더기로 쌓여 있음",
-          "interpretation_ko": "재물과 기쁨이 있을 길한 조짐",
-          "interpretation_en": "denotes fortune and happiness",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Leather",
-              "original": "Piles of leather, denotes fortune and happiness.",
-              "translation_ko": "가죽이 무더기로 쌓여 있으면 재물과 기쁨이 있다"
-            }
-          ]
-        },
-        {
-          "context": "가죽을 사고팖",
-          "interpretation_ko": "지금 하는 일을 바꾸지 않아도 재물이 쌓일 길한 조짐",
-          "interpretation_en": "signifies no change in the disposition of your engagements is necessary for successful accumulation of wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Leather",
-              "original": "To deal in leather, signifies no change in the disposition of your engagements is necessary for successful accumulation of wealth.",
-              "translation_ko": "가죽을 사고팔면 지금 하는 일을 바꾸지 않아도 재물이 쌓인다"
             }
           ]
         }
@@ -43969,6 +44102,85 @@
               "locator": "Damask Rose",
               "original": "but if she received them in winter, she will cherish blasted hopes.",
               "translation_ko": "겨울에 받으면 이룰 수 없는 바람을 품게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daybreak",
+      "term_ko": "새벽",
+      "term_en": "daybreak",
+      "aliases": [
+        "동틀 무렵",
+        "날이 밝아",
+        "먼동",
+        "아침이 밝았다",
+        "아침 동이",
+        "흐린 아침",
+        "맑은 아침"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "날이 밝아 오는 것을 봄",
+          "interpretation_ko": "벌인 일이 잘될 조짐",
+          "interpretation_en": "successful undertakings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Daybreak",
+              "original": "To watch the day break in a dream, omens successful undertakings,",
+              "translation_ko": "꿈에 날이 밝아 오는 것을 지켜보면 벌인 일이 잘된다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 아침 동이 트는 것을 봄",
+          "interpretation_ko": "복된 운과 즐거움이 가까이 다가올 길한 조짐",
+          "interpretation_en": "prognosticates a near approach of fortune and pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Morning",
+              "original": "To see the morning dawn clear in your dreams, prognosticates a near approach of fortune and pleasure.",
+              "translation_ko": "맑은 아침 동이 트는 것을 보면 복된 운과 즐거움이 가까이 다가온다"
+            }
+          ]
+        },
+        {
+          "context": "흐린 아침을 봄",
+          "interpretation_ko": "묵직한 일들이 저를 짓누를 흉한 조짐",
+          "interpretation_en": "portends weighty affairs will overwhelm you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Morning",
+              "original": "A cloudy morning, portends weighty affairs will overwhelm you.",
+              "translation_ko": "흐린 아침은 묵직한 일들이 저를 짓누름을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "새벽 빛이 흐릿하고 기괴함",
+          "interpretation_ko": "일과 사랑이 다 된 듯해도 어그러질 조짐",
+          "interpretation_en": "disappointment when success in business or love seems assured",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Daybreak",
+              "original": "unless the scene is indistinct and weird; then it may imply disappointment when success in business or love seems assured.",
+              "translation_ko": "그 광경이 흐릿하고 기괴하면, 일과 사랑이 다 된 듯해도 어그러질 수 있다"
             }
           ]
         }
@@ -73277,53 +73489,6 @@
       ]
     },
     {
-      "id": "daybreak",
-      "term_ko": "새벽",
-      "term_en": "daybreak",
-      "aliases": [
-        "동틀 무렵",
-        "날이 밝아",
-        "먼동"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "날이 밝아 오는 것을 봄",
-          "interpretation_ko": "벌인 일이 잘될 조짐",
-          "interpretation_en": "successful undertakings",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Daybreak",
-              "original": "To watch the day break in a dream, omens successful undertakings,",
-              "translation_ko": "꿈에 날이 밝아 오는 것을 지켜보면 벌인 일이 잘된다"
-            }
-          ]
-        },
-        {
-          "context": "새벽 빛이 흐릿하고 기괴함",
-          "interpretation_ko": "일과 사랑이 다 된 듯해도 어그러질 조짐",
-          "interpretation_en": "disappointment when success in business or love seems assured",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Daybreak",
-              "original": "unless the scene is indistinct and weird; then it may imply disappointment when success in business or love seems assured.",
-              "translation_ko": "그 광경이 흐릿하고 기괴하면, 일과 사랑이 다 된 듯해도 어그러질 수 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "debt",
       "term_ko": "채무",
       "term_en": "debt",
@@ -81949,6 +82114,100 @@
               "locator": "Moles",
               "original": "To dream of catching a mole, you will overcome any opposition and rise to prominence.",
               "translation_ko": "두더지를 잡는 꿈은, 맞서는 것을 다 이겨 내고 이름을 드날림을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monster",
+      "term_ko": "괴물",
+      "term_en": "monster",
+      "aliases": [
+        "괴물이",
+        "괴물을",
+        "괴수"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "괴물에게 쫓김",
+          "interpretation_ko": "슬픔과 궂은 일이 코앞에 크게 자리할 흉한 조짐",
+          "interpretation_en": "denotes that sorrow and misfortune hold prominent places in your immediate future",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Monster",
+              "original": "To dream of being pursued by a monster, denotes that sorrow and misfortune hold prominent places in your immediate future.",
+              "translation_ko": "괴물에게 쫓기는 꿈은, 슬픔과 궂은 일이 코앞에 크게 자리함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "괴물을 죽임",
+          "interpretation_ko": "적을 잘 이겨 내고 높은 자리에 오를 길한 조짐",
+          "interpretation_en": "denotes that you will successfully cope with enemies and rise to eminent positions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Monster",
+              "original": "To slay a monster, denotes that you will successfully cope with enemies and rise to eminent positions.",
+              "translation_ko": "괴물을 죽이는 꿈은, 적을 잘 이겨 내고 높은 자리에 오름을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "morgue",
+      "term_ko": "영안실",
+      "term_en": "morgue",
+      "aliases": [
+        "영안실에",
+        "영안실을",
+        "주검을 두는 곳"
+      ],
+      "category": "place",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "누구를 찾으러 영안실에 감",
+          "interpretation_ko": "겨레붙이나 벗의 부고에 놀랄 흉한 조짐",
+          "interpretation_en": "denotes that you will be shocked by news of the death of a relative or friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Morgue",
+              "original": "To dream that you visit a morgue searching for some one, denotes that you will be shocked by news of the death of a relative or friend.",
+              "translation_ko": "누구를 찾으러 영안실에 가는 꿈은, 겨레붙이나 벗의 부고에 놀람을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "영안실에 주검이 많은 것을 봄",
+          "interpretation_ko": "슬픔과 괴로운 일을 많이 겪게 될 흉한 조짐",
+          "interpretation_en": "much sorrow and trouble will come under your notice",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Morgue",
+              "original": "To see many corpses there, much sorrow and trouble will come under your notice.",
+              "translation_ko": "그곳에 주검이 많은 것을 보면 슬픔과 괴로운 일을 많이 겪는다"
             }
           ]
         }

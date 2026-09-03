@@ -282,7 +282,11 @@
     "aliases": [
       "동틀 무렵",
       "날이 밝아",
-      "먼동"
+      "먼동",
+      "아침이 밝았다",
+      "아침 동이",
+      "흐린 아침",
+      "맑은 아침"
     ],
     "aliases_en": [
       "day break",
@@ -290,11 +294,15 @@
     ],
     "contexts": {
       "날이 밝아 오는 것을 봄": "밝아 지켜 동트",
-      "새벽 빛이 흐릿하고 기괴함": "흐릿 기괴 어슴푸레"
+      "새벽 빛이 흐릿하고 기괴함": "흐릿 기괴 어슴푸레",
+      "맑은 아침 동이 트는 것을 봄": "맑은 개인 화창",
+      "흐린 아침을 봄": "흐린 구름 잔뜩"
     },
     "contexts_en": {
       "날이 밝아 오는 것을 봄": "watch successful undertakings",
-      "새벽 빛이 흐릿하고 기괴함": "indistinct weird assured"
+      "새벽 빛이 흐릿하고 기괴함": "indistinct weird assured",
+      "맑은 아침 동이 트는 것을 봄": "morning clear near approach fortune pleasure",
+      "흐린 아침을 봄": "cloudy portends weighty overwhelm"
     }
   }
 ]
