@@ -1,0 +1,31 @@
+{
+  "batch": 127,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Mining",
+      "text": "To see mining in your dreams, denotes that an enemy is seeking your ruin by bringing up past immoralities in your life. You will be likely to make unpleasant journeys, if you stand near the mine.\n\nIf you dream of hunting for mines, you will engage in worthless pursuits.",
+      "note": "새 상징을 안 세운다 — 「광산 일」이 기존 `mine`(광산)을 부분 문자열로 품는다. `mine` 에 붙인다"
+    },
+    {
+      "headword": "Minister",
+      "text": "To dream of seeing a minister, denotes unfortunate changes and unpleasant journeys.\n\nTo hear a minister exhort, foretells that some designing person will influence you to evil.\n\nTo dream that you are a minister, denotes that you will usurp another's rights.",
+      "note": "「목사」가 기존 `clergyman` 의 이름이다(EXACT). `clergyman` 에 붙인다"
+    },
+    {
+      "headword": "Minuet",
+      "text": "To dream of seeing the minuet danced, signifies a pleasant existence with congenial companions.\n\nTo dance it yourself, good fortune and domestic joys are foretold.",
+      "note": "새 상징 `minuet`(미뉴에트). 별칭에 「미뉴에트 춤」을 안 넣는다 — 「춤」이 `dance` 의 이름이라 둘 다 걸린다"
+    },
+    {
+      "headword": "Minx",
+      "text": "To dream of a minx, denotes you will have sly enemies to overcome.\n\nIf you kill one, you will win your desires. For a young woman to dream that she is partial to minx furs, she will find protection and love in some person who will be inordinately jealous.",
+      "note": "1901년의 `minx` 는 짐승(밍크)이다. 새 상징 `mink`(밍크) — 「밍크」를 `fur`(모피)가 별칭으로 쥐고 있어 그쪽에서 뺀다"
+    },
+    {
+      "headword": "Mire",
+      "text": "To dream of going through mire, indicates that your dearest wishes and plans will receive a temporary check by the intervention of unusual changes in your surroundings.",
+      "note": "「진창」이 기존 `mud`(진흙)의 별칭이고 `aliases_en` 에 이미 `mire` 가 있다. `mud` 에 붙인다"
+    }
+  ]
+}

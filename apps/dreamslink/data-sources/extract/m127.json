@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "광산",
+    "term_en": "mine",
+    "context": "광산에서 일하는 것을 봄",
+    "interpretation_ko": "누군가가 지난 허물을 들추어 저를 무너뜨리려 하는 흉한 조짐",
+    "interpretation_en": "denotes that an enemy is seeking your ruin by bringing up past immoralities in your life",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mining",
+      "original": "To see mining in your dreams, denotes that an enemy is seeking your ruin by bringing up past immoralities in your life.",
+      "translation_ko": "꿈에 광산에서 일하는 것을 보면, 누군가가 지난 허물을 들추어 저를 무너뜨리려 한다"
+    }
+  },
+  {
+    "term_ko": "광산",
+    "term_en": "mine",
+    "context": "광산 가까이 서 있음",
+    "interpretation_ko": "달갑지 않은 길을 떠나게 될 흉한 조짐",
+    "interpretation_en": "You will be likely to make unpleasant journeys, if you stand near the mine",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mining",
+      "original": "You will be likely to make unpleasant journeys, if you stand near the mine.",
+      "translation_ko": "광산 가까이 서 있으면 달갑지 않은 길을 떠나게 되기 쉽다"
+    }
+  },
+  {
+    "term_ko": "광산",
+    "term_en": "mine",
+    "context": "광맥을 찾아다님",
+    "interpretation_ko": "값어치 없는 일에 매달릴 흉한 조짐",
+    "interpretation_en": "you will engage in worthless pursuits",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mining",
+      "original": "If you dream of hunting for mines, you will engage in worthless pursuits.",
+      "translation_ko": "광맥을 찾아다니는 꿈은 값어치 없는 일에 매달림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "목사",
+    "term_en": "clergyman",
+    "context": "목사를 봄",
+    "interpretation_ko": "궂은 변화와 달갑지 않은 길을 뜻하는 흉한 조짐",
+    "interpretation_en": "denotes unfortunate changes and unpleasant journeys",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Minister",
+      "original": "To dream of seeing a minister, denotes unfortunate changes and unpleasant journeys.",
+      "translation_ko": "꿈에 목사를 보면 궂은 변화와 달갑지 않은 길이 있다"
+    }
+  },
+  {
+    "term_ko": "목사",
+    "term_en": "clergyman",
+    "context": "목사의 설교를 들음",
+    "interpretation_ko": "속셈이 있는 이가 저를 나쁜 길로 이끌 흉한 조짐",
+    "interpretation_en": "foretells that some designing person will influence you to evil",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Minister",
+      "original": "To hear a minister exhort, foretells that some designing person will influence you to evil.",
+      "translation_ko": "목사가 훈계하는 것을 들으면, 속셈이 있는 이가 저를 나쁜 길로 이끈다"
+    }
+  },
+  {
+    "term_ko": "목사",
+    "term_en": "clergyman",
+    "context": "제가 목사가 됨",
+    "interpretation_ko": "남의 몫을 가로챌 흉한 조짐",
+    "interpretation_en": "denotes that you will usurp another's rights",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Minister",
+      "original": "To dream that you are a minister, denotes that you will usurp another's rights.",
+      "translation_ko": "제가 목사가 되는 꿈은 남의 몫을 가로챔을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "미뉴에트",
+    "term_en": "minuet",
+    "context": "미뉴에트 추는 것을 봄",
+    "interpretation_ko": "마음 맞는 이들과 즐겁게 지낼 길한 조짐",
+    "interpretation_en": "signifies a pleasant existence with congenial companions",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Minuet",
+      "original": "To dream of seeing the minuet danced, signifies a pleasant existence with congenial companions.",
+      "translation_ko": "미뉴에트를 추는 것을 보는 꿈은 마음 맞는 이들과 즐겁게 지냄을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "미뉴에트",
+    "term_en": "minuet",
+    "context": "제가 미뉴에트를 춤",
+    "interpretation_ko": "복된 운과 집안의 기쁨이 있을 길한 조짐",
+    "interpretation_en": "good fortune and domestic joys are foretold",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Minuet",
+      "original": "To dance it yourself, good fortune and domestic joys are foretold.",
+      "translation_ko": "제가 미뉴에트를 추면 복된 운과 집안의 기쁨이 있다"
+    }
+  },
+  {
+    "term_ko": "밍크",
+    "term_en": "mink",
+    "context": "밍크를 봄",
+    "interpretation_ko": "몰래 해치려는 이를 이겨 내야 할 흉한 조짐",
+    "interpretation_en": "denotes you will have sly enemies to overcome",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Minx",
+      "original": "To dream of a minx, denotes you will have sly enemies to overcome.",
+      "translation_ko": "밍크의 꿈은 몰래 해치려는 이를 이겨 내야 함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "밍크",
+    "term_en": "mink",
+    "context": "밍크를 죽임",
+    "interpretation_ko": "바라던 것을 얻을 길한 조짐",
+    "interpretation_en": "you will win your desires",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Minx",
+      "original": "If you kill one, you will win your desires.",
+      "translation_ko": "밍크를 죽이면 바라던 것을 얻는다"
+    }
+  },
+  {
+    "term_ko": "밍크",
+    "term_en": "mink",
+    "context": "처녀가 밍크 모피를 좋아함",
+    "interpretation_ko": "지켜 주고 아껴 주는 이를 만나나 그가 몹시 시샘이 많을 조짐",
+    "interpretation_en": "she will find protection and love in some person who will be inordinately jealous",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Minx",
+      "original": "For a young woman to dream that she is partial to minx furs, she will find protection and love in some person who will be inordinately jealous.",
+      "translation_ko": "처녀가 밍크 모피를 좋아하는 꿈을 꾸면, 지켜 주고 아껴 주는 이를 만나나 그가 몹시 시샘이 많다"
+    }
+  },
+  {
+    "term_ko": "진흙",
+    "term_en": "mud",
+    "context": "진창을 헤치고 감",
+    "interpretation_ko": "둘레가 뜻밖으로 바뀌어 간절히 바라던 일이 한동안 막힐 흉한 조짐",
+    "interpretation_en": "indicates that your dearest wishes and plans will receive a temporary check by the intervention of unusual changes in your surroundings",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Mire",
+      "original": "To dream of going through mire, indicates that your dearest wishes and plans will receive a temporary check by the intervention of unusual changes in your surroundings.",
+      "translation_ko": "진창을 헤치고 가는 꿈은, 둘레가 뜻밖으로 바뀌어 간절히 바라던 일이 한동안 막힘을 뜻한다"
+    }
+  }
+]

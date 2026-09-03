@@ -376,7 +376,9 @@
     "aliases": [
       "진창",
       "흙탕",
-      "흙탕물"
+      "흙탕물",
+      "진창을",
+      "진창이"
     ],
     "aliases_en": [
       "muddy",
@@ -386,12 +388,14 @@
     "contexts": {
       "진흙 속에 빠져 있음": "빠져 빠졌 갇혀 허우적 헤어나",
       "진흙이 옷을 더럽힘": "옷이 옷을 옷에 묻었 더럽",
-      "진흙이 적삼을 더럽힘": "적삼 저고리 소매 윗도리"
+      "진흙이 적삼을 더럽힘": "적삼 저고리 소매 윗도리",
+      "진창을 헤치고 감": "헤치 헤치고 지나갔"
     },
     "contexts_en": {
       "진흙 속에 빠져 있음": "stuck sinking trapped mired struggling",
       "진흙이 옷을 더럽힘": "clothes clothing soiled dirtied stained",
-      "진흙이 적삼을 더럽힘": "shirt jacket sleeve blouse"
+      "진흙이 적삼을 더럽힘": "shirt jacket sleeve blouse",
+      "진창을 헤치고 감": "going wishes plans temporary check"
     }
   },
   {

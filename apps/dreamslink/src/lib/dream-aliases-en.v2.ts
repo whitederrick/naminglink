@@ -6344,5 +6344,12 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "mineral-water": [
     "spa water"
+  ],
+  "minuet": [
+    "minuets"
+  ],
+  "mink": [
+    "minx",
+    "minks"
   ]
 };

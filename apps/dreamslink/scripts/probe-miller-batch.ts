@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 126 — Mill~Mineral Water, 14건)
+// (지금 담긴 것: 배치 127 — Mining~Mire, 16건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +30,23 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "mill", ctx: "방앗간을 봄", text: "방앗간이 돌아가고 있었다" },
-  { id: "mill", ctx: "허물어진 방앗간을 봄", text: "허물어진 방앗간을 보았다" },
-  { id: "mill-dam", ctx: "맑은 물이 물방아 둑을 넘쳐흐름", text: "맑은 물이 물방아 둑을 넘쳐흘렀다" },
-  { id: "mill-dam", ctx: "흐린 물이 물방아 둑을 넘침", text: "흐린 물이 물방아 둑을 넘쳤다" },
-  { id: "mill-dam", ctx: "물방아 둑이 말라 있음", text: "물방아 둑이 말라 있었다" },
-  { id: "miller", ctx: "방앗간지기를 봄", text: "방앗간지기가 나타났다" },
-  { id: "miller", ctx: "방앗간지기가 방아를 못 돌림", text: "방앗간지기가 방아를 못 돌리고 있었다" },
-  { id: "mine", ctx: "광산 안에 있음", text: "광산 안에 들어가 있었다" },
+  { id: "mine", ctx: "광산에서 일하는 것을 봄", text: "광산에서 사람들이 일하고 있었다" },
+  { id: "mine", ctx: "광산 가까이 서 있음", text: "광산 가까이 서 있었다" },
+  { id: "mine", ctx: "광맥을 찾아다님", text: "광맥을 찾아다녔다" },
+  { id: "clergyman", ctx: "목사를 봄", text: "목사를 마주쳤다" },
+  { id: "clergyman", ctx: "목사의 설교를 들음", text: "목사가 훈계하는 것을 들었다" },
+  { id: "clergyman", ctx: "제가 목사가 됨", text: "내가 목사가 되었다" },
+  { id: "minuet", ctx: "미뉴에트 추는 것을 봄", text: "남들이 미뉴에트를 추는 것을 구경했다" },
+  { id: "minuet", ctx: "제가 미뉴에트를 춤", text: "내가 미뉴에트를 추었다" },
+  { id: "mink", ctx: "밍크를 봄", text: "밍크가 나타났다" },
+  { id: "mink", ctx: "밍크를 죽임", text: "밍크를 죽였다" },
+  { id: "mink", ctx: "처녀가 밍크 모피를 좋아함", text: "처녀가 밍크 모피를 좋아했다" },
+  { id: "mud", ctx: "진창을 헤치고 감", text: "진창을 헤치고 갔다" },
+  // 지킴 — 이번 배치가 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
+  { id: "clergyman", ctx: "목사와 혼인함", text: "목사와 혼인했다" },
+  { id: "mud", ctx: "진흙 속에 빠져 있음", text: "진흙 속에 빠져 허우적거렸다" },
+  { id: "fur", ctx: "모피를 걸침", text: "모피를 걸치고 있었다" },
   { id: "mine", ctx: "광산을 가짐", text: "광산을 소유하고 있었다" },
-  { id: "mineral", ctx: "광물을 봄", text: "캐낸 광물이 반짝였다" },
-  { id: "mineral", ctx: "광물이 나는 땅을 걸어감", text: "광물이 나는 땅을 걸어갔다" },
-  { id: "mineral-water", ctx: "광천수를 마심", text: "광천수를 마셨다" },
-  // 지킴 — 새 이름이 스치는 옛 상징의 답이 그대로인가(§25 곁가지)
-  { id: "colliery", ctx: "탄광에서 광부를 봄", text: "석탄 광산을 보았다" },
-  { id: "millet", ctx: "좁쌀을 먹음", text: "좁쌀이 있었다" },
 ];
 
 let notFound = 0;

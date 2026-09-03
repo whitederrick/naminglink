@@ -1,0 +1,43 @@
+[
+  {
+    "id": "minuet",
+    "aliases": [
+      "미뉴에트를",
+      "미뉴에트가",
+      "미뉴에트 곡"
+    ],
+    "aliases_en": [
+      "minuets"
+    ],
+    "contexts": {
+      "미뉴에트 추는 것을 봄": "구경 남들이",
+      "제가 미뉴에트를 춤": "제가 내가 추었"
+    },
+    "contexts_en": {
+      "미뉴에트 추는 것을 봄": "danced pleasant existence congenial",
+      "제가 미뉴에트를 춤": "yourself domestic joys"
+    }
+  },
+  {
+    "id": "mink",
+    "aliases": [
+      "밍크가",
+      "밍크를",
+      "밍크 털"
+    ],
+    "aliases_en": [
+      "minx",
+      "minks"
+    ],
+    "contexts": {
+      "밍크를 봄": "나타났 어슬렁",
+      "밍크를 죽임": "죽였 잡았",
+      "처녀가 밍크 모피를 좋아함": "처녀 모피 아가씨"
+    },
+    "contexts_en": {
+      "밍크를 봄": "sly enemies overcome",
+      "밍크를 죽임": "kill win desires",
+      "처녀가 밍크 모피를 좋아함": "young woman partial protection jealous"
+    }
+  }
+]

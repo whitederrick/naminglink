@@ -63,18 +63,26 @@
     "aliases": [
       "광산에",
       "광산을",
-      "갱도"
+      "갱도",
+      "광산에서",
+      "광맥"
     ],
     "aliases_en": [
       "mines"
     ],
     "contexts": {
       "광산 안에 있음": "안에 들어가",
-      "광산을 가짐": "가졌 소유 제것"
+      "광산을 가짐": "가졌 소유 제것",
+      "광산에서 일하는 것을 봄": "일하 캐고 캐는",
+      "광산 가까이 서 있음": "가까이 옆에 곁에",
+      "광맥을 찾아다님": "뒤지 헤매 찾아다"
     },
     "contexts_en": {
       "광산 안에 있음": "failure affairs inside",
-      "광산을 가짐": "own future wealth"
+      "광산을 가짐": "own future wealth",
+      "광산에서 일하는 것을 봄": "enemy ruin immoralities",
+      "광산 가까이 서 있음": "stand near unpleasant journeys",
+      "광맥을 찾아다님": "hunting worthless pursuits"
     }
   },
   {

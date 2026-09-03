@@ -32,6 +32,7 @@
     "m124.json",
     "m125.json",
     "m126.json",
+    "m127.json",
     "m13.json",
     "m14.json",
     "m15.json",
@@ -33942,6 +33943,97 @@
       ]
     },
     {
+      "id": "clergyman",
+      "term_ko": "목사",
+      "term_en": "clergyman",
+      "aliases": [
+        "성직자",
+        "전도사",
+        "목사가",
+        "목사를",
+        "목사의"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "목사를 봄",
+          "interpretation_ko": "궂은 변화와 달갑지 않은 길을 뜻하는 흉한 조짐",
+          "interpretation_en": "denotes unfortunate changes and unpleasant journeys",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minister",
+              "original": "To dream of seeing a minister, denotes unfortunate changes and unpleasant journeys.",
+              "translation_ko": "꿈에 목사를 보면 궂은 변화와 달갑지 않은 길이 있다"
+            }
+          ]
+        },
+        {
+          "context": "목사의 설교를 들음",
+          "interpretation_ko": "속셈이 있는 이가 저를 나쁜 길로 이끌 흉한 조짐",
+          "interpretation_en": "foretells that some designing person will influence you to evil",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minister",
+              "original": "To hear a minister exhort, foretells that some designing person will influence you to evil.",
+              "translation_ko": "목사가 훈계하는 것을 들으면, 속셈이 있는 이가 저를 나쁜 길로 이끈다"
+            }
+          ]
+        },
+        {
+          "context": "제가 목사가 됨",
+          "interpretation_ko": "남의 몫을 가로챌 흉한 조짐",
+          "interpretation_en": "denotes that you will usurp another's rights",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minister",
+              "original": "To dream that you are a minister, denotes that you will usurp another's rights.",
+              "translation_ko": "제가 목사가 되는 꿈은 남의 몫을 가로챔을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "장례 설교를 하려고 목사를 부름",
+          "interpretation_ko": "병과 궂은 기운에 맞서 애쓰나 헛되이 밀릴 조짐",
+          "interpretation_en": "you will vainly strive against sickness and evil influences, but they will prevail",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Clergyman",
+              "original": "To dream that you send for a clergyman to preach a funeral sermon, denotes that you will vainly strive against sickness and to ward off evil influences, but they will prevail in spite of your earnest endeavors.",
+              "translation_ko": "장례 설교를 하려고 목사를 부르는 꿈은, 병과 궂은 기운을 막으려 애쓰나 진심 어린 애씀에도 그것들이 이기게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "목사와 혼인함",
+          "interpretation_ko": "마음이 크게 괴롭고 운이 어긋나 곤경에 빠질 조짐",
+          "interpretation_en": "she will be the object of much mental distress, and fortune will lead her into adversity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Clergyman",
+              "original": "If a young woman marries a clergyman in her dream, she will be the object of much mental distress, and the wayward hand of fortune will lead her into the morass of adversity.",
+              "translation_ko": "젊은 여성이 꿈에서 목사와 혼인하면, 마음이 크게 괴롭고 어긋난 운이 그를 곤경의 수렁으로 이끈다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "climbing",
       "term_ko": "기어오르기",
       "term_en": "climbing",
@@ -37459,6 +37551,97 @@
               "locator": "Mask",
               "original": "If she unmasks, or sees others doing so, she will fail to gain the admiration sought for.",
               "translation_ko": "가면을 벗거나 남이 벗는 것을 보면, 바라던 눈길과 사랑을 얻지 못한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mine",
+      "term_ko": "광산",
+      "term_en": "mine",
+      "aliases": [
+        "광산에",
+        "광산을",
+        "갱도",
+        "광산에서",
+        "광맥"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "광산 안에 있음",
+          "interpretation_ko": "하는 일이 실패할 흉한 조짐",
+          "interpretation_en": "denotes failure in affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mine",
+              "original": "To dream of being in a mine, denotes failure in affairs.",
+              "translation_ko": "광산 안에 있는 꿈은 하는 일이 실패함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "광산을 가짐",
+          "interpretation_ko": "앞으로 재물을 얻을 길한 조짐",
+          "interpretation_en": "denotes future wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mine",
+              "original": "To own a mine, denotes future wealth.",
+              "translation_ko": "광산을 가지면 앞으로 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "광산에서 일하는 것을 봄",
+          "interpretation_ko": "누군가가 지난 허물을 들추어 저를 무너뜨리려 하는 흉한 조짐",
+          "interpretation_en": "denotes that an enemy is seeking your ruin by bringing up past immoralities in your life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mining",
+              "original": "To see mining in your dreams, denotes that an enemy is seeking your ruin by bringing up past immoralities in your life.",
+              "translation_ko": "꿈에 광산에서 일하는 것을 보면, 누군가가 지난 허물을 들추어 저를 무너뜨리려 한다"
+            }
+          ]
+        },
+        {
+          "context": "광산 가까이 서 있음",
+          "interpretation_ko": "달갑지 않은 길을 떠나게 될 흉한 조짐",
+          "interpretation_en": "You will be likely to make unpleasant journeys, if you stand near the mine",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mining",
+              "original": "You will be likely to make unpleasant journeys, if you stand near the mine.",
+              "translation_ko": "광산 가까이 서 있으면 달갑지 않은 길을 떠나게 되기 쉽다"
+            }
+          ]
+        },
+        {
+          "context": "광맥을 찾아다님",
+          "interpretation_ko": "값어치 없는 일에 매달릴 흉한 조짐",
+          "interpretation_en": "you will engage in worthless pursuits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mining",
+              "original": "If you dream of hunting for mines, you will engage in worthless pursuits.",
+              "translation_ko": "광맥을 찾아다니는 꿈은 값어치 없는 일에 매달림을 뜻한다"
             }
           ]
         }
@@ -45125,8 +45308,7 @@
       "term_en": "fur",
       "aliases": [
         "모피",
-        "털가죽",
-        "밍크"
+        "털가죽"
       ],
       "category": "object",
       "polarity": "positive",
@@ -47860,6 +48042,84 @@
               "locator": "金銀珠玉絹帛",
               "original": "錢春夏吉秋冬凶",
               "translation_ko": "돈은 봄여름에는 길하고 가을겨울에는 흉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mud",
+      "term_ko": "진흙",
+      "term_en": "mud",
+      "aliases": [
+        "진창",
+        "흙탕",
+        "흙탕물",
+        "진창을",
+        "진창이"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "진흙 속에 빠져 있음",
+          "interpretation_ko": "구하는 바가 이루어지지 않을 조짐",
+          "interpretation_en": "a sign that what one seeks will not come about",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "在泥中所求不成",
+              "translation_ko": "진흙 속에 있으면 구하는 바가 이루어지지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "진창을 헤치고 감",
+          "interpretation_ko": "둘레가 뜻밖으로 바뀌어 간절히 바라던 일이 한동안 막힐 흉한 조짐",
+          "interpretation_en": "indicates that your dearest wishes and plans will receive a temporary check by the intervention of unusual changes in your surroundings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mire",
+              "original": "To dream of going through mire, indicates that your dearest wishes and plans will receive a temporary check by the intervention of unusual changes in your surroundings.",
+              "translation_ko": "진창을 헤치고 가는 꿈은, 둘레가 뜻밖으로 바뀌어 간절히 바라던 일이 한동안 막힘을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "진흙이 옷을 더럽힘",
+          "interpretation_ko": "출산이 흉할 조짐",
+          "interpretation_en": "an inauspicious sign for childbirth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "污泥衣裳主產凶",
+              "translation_ko": "진흙이 옷을 더럽히면 출산이 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "진흙이 적삼을 더럽힘",
+          "interpretation_ko": "몸이 욕을 당할 조짐",
+          "interpretation_en": "a sign of personal disgrace",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "泥污衫衣主身辱",
+              "translation_ko": "진흙이 적삼을 더럽히면 몸이 욕을 당한다"
             }
           ]
         }
@@ -60476,6 +60736,67 @@
       ]
     },
     {
+      "id": "mink",
+      "term_ko": "밍크",
+      "term_en": "mink",
+      "aliases": [
+        "밍크가",
+        "밍크를",
+        "밍크 털"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "밍크를 봄",
+          "interpretation_ko": "몰래 해치려는 이를 이겨 내야 할 흉한 조짐",
+          "interpretation_en": "denotes you will have sly enemies to overcome",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minx",
+              "original": "To dream of a minx, denotes you will have sly enemies to overcome.",
+              "translation_ko": "밍크의 꿈은 몰래 해치려는 이를 이겨 내야 함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "밍크를 죽임",
+          "interpretation_ko": "바라던 것을 얻을 길한 조짐",
+          "interpretation_en": "you will win your desires",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minx",
+              "original": "If you kill one, you will win your desires.",
+              "translation_ko": "밍크를 죽이면 바라던 것을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 밍크 모피를 좋아함",
+          "interpretation_ko": "지켜 주고 아껴 주는 이를 만나나 그가 몹시 시샘이 많을 조짐",
+          "interpretation_en": "she will find protection and love in some person who will be inordinately jealous",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minx",
+              "original": "For a young woman to dream that she is partial to minx furs, she will find protection and love in some person who will be inordinately jealous.",
+              "translation_ko": "처녀가 밍크 모피를 좋아하는 꿈을 꾸면, 지켜 주고 아껴 주는 이를 만나나 그가 몹시 시샘이 많다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "monk",
       "term_ko": "스님",
       "term_en": "monk",
@@ -60532,67 +60853,6 @@
               "locator": "佛道僧尼鬼神",
               "original": "和尚尼姑看經悶",
               "translation_ko": "스님과 비구니가 경을 보면 답답하고 번민스럽다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mud",
-      "term_ko": "진흙",
-      "term_en": "mud",
-      "aliases": [
-        "진창",
-        "흙탕",
-        "흙탕물"
-      ],
-      "category": "nature",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "진흙 속에 빠져 있음",
-          "interpretation_ko": "구하는 바가 이루어지지 않을 조짐",
-          "interpretation_en": "a sign that what one seeks will not come about",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "在泥中所求不成",
-              "translation_ko": "진흙 속에 있으면 구하는 바가 이루어지지 않는다"
-            }
-          ]
-        },
-        {
-          "context": "진흙이 옷을 더럽힘",
-          "interpretation_ko": "출산이 흉할 조짐",
-          "interpretation_en": "an inauspicious sign for childbirth",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "污泥衣裳主產凶",
-              "translation_ko": "진흙이 옷을 더럽히면 출산이 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "진흙이 적삼을 더럽힘",
-          "interpretation_ko": "몸이 욕을 당할 조짐",
-          "interpretation_en": "a sign of personal disgrace",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "泥污衫衣主身辱",
-              "translation_ko": "진흙이 적삼을 더럽히면 몸이 욕을 당한다"
             }
           ]
         }
@@ -69512,52 +69772,6 @@
               "locator": "Clarionet",
               "original": "{I}f it is broken, you will incur the displeasure of a close friend.",
               "translation_ko": "그것이 부서지면 가까운 벗의 노여움을 사게 된다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "clergyman",
-      "term_ko": "목사",
-      "term_en": "clergyman",
-      "aliases": [
-        "성직자",
-        "전도사"
-      ],
-      "category": "person",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "장례 설교를 하려고 목사를 부름",
-          "interpretation_ko": "병과 궂은 기운에 맞서 애쓰나 헛되이 밀릴 조짐",
-          "interpretation_en": "you will vainly strive against sickness and evil influences, but they will prevail",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Clergyman",
-              "original": "To dream that you send for a clergyman to preach a funeral sermon, denotes that you will vainly strive against sickness and to ward off evil influences, but they will prevail in spite of your earnest endeavors.",
-              "translation_ko": "장례 설교를 하려고 목사를 부르는 꿈은, 병과 궂은 기운을 막으려 애쓰나 진심 어린 애씀에도 그것들이 이기게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "목사와 혼인함",
-          "interpretation_ko": "마음이 크게 괴롭고 운이 어긋나 곤경에 빠질 조짐",
-          "interpretation_en": "she will be the object of much mental distress, and fortune will lead her into adversity",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Clergyman",
-              "original": "If a young woman marries a clergyman in her dream, she will be the object of much mental distress, and the wayward hand of fortune will lead her into the morass of adversity.",
-              "translation_ko": "젊은 여성이 꿈에서 목사와 혼인하면, 마음이 크게 괴롭고 어긋난 운이 그를 곤경의 수렁으로 이끈다"
             }
           ]
         }
@@ -80979,53 +81193,6 @@
       ]
     },
     {
-      "id": "mine",
-      "term_ko": "광산",
-      "term_en": "mine",
-      "aliases": [
-        "광산에",
-        "광산을",
-        "갱도"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "광산 안에 있음",
-          "interpretation_ko": "하는 일이 실패할 흉한 조짐",
-          "interpretation_en": "denotes failure in affairs",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Mine",
-              "original": "To dream of being in a mine, denotes failure in affairs.",
-              "translation_ko": "광산 안에 있는 꿈은 하는 일이 실패함을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "광산을 가짐",
-          "interpretation_ko": "앞으로 재물을 얻을 길한 조짐",
-          "interpretation_en": "denotes future wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Mine",
-              "original": "To own a mine, denotes future wealth.",
-              "translation_ko": "광산을 가지면 앞으로 재물을 얻는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "mineral",
       "term_ko": "광물",
       "term_en": "mineral",
@@ -81067,6 +81234,53 @@
               "locator": "Mineral",
               "original": "To walk over mineral land, signifies distress, from which you will escape and be bettered in your surroundings.",
               "translation_ko": "광물이 나는 땅을 걸어가면, 괴로운 일이 있으나 거기서 벗어나 형편이 나아진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "minuet",
+      "term_ko": "미뉴에트",
+      "term_en": "minuet",
+      "aliases": [
+        "미뉴에트를",
+        "미뉴에트가",
+        "미뉴에트 곡"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "미뉴에트 추는 것을 봄",
+          "interpretation_ko": "마음 맞는 이들과 즐겁게 지낼 길한 조짐",
+          "interpretation_en": "signifies a pleasant existence with congenial companions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minuet",
+              "original": "To dream of seeing the minuet danced, signifies a pleasant existence with congenial companions.",
+              "translation_ko": "미뉴에트를 추는 것을 보는 꿈은 마음 맞는 이들과 즐겁게 지냄을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제가 미뉴에트를 춤",
+          "interpretation_ko": "복된 운과 집안의 기쁨이 있을 길한 조짐",
+          "interpretation_en": "good fortune and domestic joys are foretold",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minuet",
+              "original": "To dance it yourself, good fortune and domestic joys are foretold.",
+              "translation_ko": "제가 미뉴에트를 추면 복된 운과 집안의 기쁨이 있다"
             }
           ]
         }
