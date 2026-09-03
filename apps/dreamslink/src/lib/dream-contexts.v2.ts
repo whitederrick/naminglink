@@ -1516,6 +1516,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ox::소를 끌고 집으로 돌아옴": "returned brought home",
   "ox::소를 잡음": "caught captured seized",
   "ox::소를 잡아 고기를 먹음": "meat beef eaten eating",
+  "ox::잘 먹여 살진 소를 봄": "well-fed community adulation",
+  "ox::짝 맞춰 멍에를 씌운 소를 봄": "well-matched yoked wealthy marriage",
+  "ox::죽은 소를 봄": "dead bereavement",
+  "ox::소가 맑은 못이나 시내에서 물을 마심": "drinking pond stream estate",
   "banner::깃발에 용이 그려져 있음": "dragon drawn painted embroidered",
   "banner::깃발과 부절을 품에 안음": "embraced bosom chest hugged",
   "banner::깃발과 칼이 산속으로 이끌어 들임": "sword mountain led",
@@ -4757,5 +4761,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "over-alls::아내가 남편의 잦은 부재를 의심함": "wife frequent absence fidelity",
   "owl::부엉이의 엄숙하고 기이한 소리를 들음": "solemn unearthly muffled voice death",
   "owl::죽은 부엉이를 봄": "dead narrow escape illness",
-  "owl::부엉이를 봄": "secretly maligned danger enemies"
+  "owl::부엉이를 봄": "secretly maligned danger enemies",
+  "oysters::굴을 먹음": "eat propriety morality pleasures gaining",
+  "oysters::굴 장사를 함": "deal modest sweetheart fortune",
+  "oysters::굴을 봄": "easy circumstances children promised",
+  "pacify::괴로운 이들을 달램": "suffering ones sweetness disposition",
+  "pacify::남의 분노를 달램": "anger labor advancement",
+  "pacify::정인이 애인의 질투 어린 의심을 달램": "soothing jealous suspicions unfortunately",
+  "packet::소포가 들어오는 것을 봄": "coming pleasant recreation",
+  "packet::소포가 나가는 것을 봄": "going losses disappointments"
 };

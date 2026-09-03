@@ -1,0 +1,72 @@
+[
+  {
+    "id": "oysters",
+    "aliases": [
+      "굴이",
+      "굴을"
+    ],
+    "aliases_en": [
+      "an oyster"
+    ],
+    "contexts": {
+      "굴을 먹음": "천한 쾌락 욕심",
+      "굴 장사를 함": "장사를 조심스럽지",
+      "굴을 봄": "보았 넉넉해지고 자식"
+    },
+    "contexts_en": {
+      "굴을 먹음": "eat propriety morality pleasures gaining",
+      "굴 장사를 함": "deal modest sweetheart fortune",
+      "굴을 봄": "easy circumstances children promised"
+    }
+  },
+  {
+    "id": "oyster-shells",
+    "aliases": [
+      "굴 껍데기가",
+      "굴 껍데기를"
+    ],
+    "aliases_en": [
+      "an oyster shell"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "pacify",
+    "aliases": [
+      "달래는",
+      "달랬다"
+    ],
+    "aliases_en": [
+      "pacifying"
+    ],
+    "contexts": {
+      "괴로운 이들을 달램": "괴로운 다정한 사랑받을",
+      "남의 분노를 달램": "분노를 애쓰게",
+      "정인이 애인의 질투 어린 의심을 달램": "질투 어린 의심 불행하게"
+    },
+    "contexts_en": {
+      "괴로운 이들을 달램": "suffering ones sweetness disposition",
+      "남의 분노를 달램": "anger labor advancement",
+      "정인이 애인의 질투 어린 의심을 달램": "soothing jealous suspicions unfortunately"
+    }
+  },
+  {
+    "id": "packet",
+    "aliases": [
+      "소포가",
+      "소포를"
+    ],
+    "aliases_en": [
+      "packets"
+    ],
+    "contexts": {
+      "소포가 들어오는 것을 봄": "들어오는 들어왔",
+      "소포가 나가는 것을 봄": "나가는 나갔"
+    },
+    "contexts_en": {
+      "소포가 들어오는 것을 봄": "coming pleasant recreation",
+      "소포가 나가는 것을 봄": "going losses disappointments"
+    }
+  }
+]

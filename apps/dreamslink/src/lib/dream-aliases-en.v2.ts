@@ -6634,5 +6634,17 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "owl": [
     "owls"
+  ],
+  "oysters": [
+    "an oyster"
+  ],
+  "oyster-shells": [
+    "an oyster shell"
+  ],
+  "pacify": [
+    "pacifying"
+  ],
+  "packet": [
+    "packets"
   ]
 };

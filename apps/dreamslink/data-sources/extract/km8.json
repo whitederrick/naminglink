@@ -181,7 +181,11 @@
       "소를 타고 성 안으로 들어감": "타고 성안 올라타",
       "소를 끌고 집으로 돌아옴": "돌아옴 돌아왔 집으로 데리고",
       "소를 잡음": "붙잡 사로잡 잡았",
-      "소를 잡아 고기를 먹음": "고기 먹었 먹는 쇠고기"
+      "소를 잡아 고기를 먹음": "고기 먹었 먹는 쇠고기",
+      "잘 먹여 살진 소를 봄": "먹여 살진 마을",
+      "짝 맞춰 멍에를 씌운 소를 봄": "짝지어 멍에",
+      "죽은 소를 봄": "죽은 상을",
+      "소가 맑은 못이나 시내에서 물을 마심": "맑은 못이나 물을 마셨"
     },
     "contexts_en": {
       "누런 소가 집으로 옴": "yellow brown",
@@ -196,7 +200,11 @@
       "소를 타고 성 안으로 들어감": "riding rode castle fortress",
       "소를 끌고 집으로 돌아옴": "returned brought home",
       "소를 잡음": "caught captured seized",
-      "소를 잡아 고기를 먹음": "meat beef eaten eating"
+      "소를 잡아 고기를 먹음": "meat beef eaten eating",
+      "잘 먹여 살진 소를 봄": "well-fed community adulation",
+      "짝 맞춰 멍에를 씌운 소를 봄": "well-matched yoked wealthy marriage",
+      "죽은 소를 봄": "dead bereavement",
+      "소가 맑은 못이나 시내에서 물을 마심": "drinking pond stream estate"
     }
   },
   {

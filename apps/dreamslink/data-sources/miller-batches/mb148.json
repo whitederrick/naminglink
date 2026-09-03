@@ -1,0 +1,38 @@
+{
+  "batch": 148,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Ox",
+      "text": "To see a well-fed ox, signifies that you will become a leading person in your community, and receive much adulation from women. To see fat oxen in green pastures, signifies fortune, and your rise to positions beyond your expectations. If they are lean, your fortune will dwindle, and your friends will fall away from you. If you see oxen well-matched and yoked, it betokens a happy and wealthy marriage, or that you are already joined to your true mate. To see a dead ox, is a sign of bereavement. If they are drinking from a clear pond, or stream, you will possess some long-desired estate, perhaps it will be in the form of a lovely and devoted woman. If a woman she will win the embraces of her lover.",
+      "note": "기존 상징 `ox`(소, 주공해몽)에 넷을 더한다. 「푸른 목장의 살진/여윈 소」 문장은 뺐다 — 이미 있는 `cattle`(소떼, 밀러 `Cattle`)의 같은 그림과 결말이 달라 가를 수 없다. 원문 자신이 「[144] See Cattle」라 적었다 — 밀러 O 가 여기서 끝난다"
+    },
+    {
+      "headword": "Oysters",
+      "text": "If you dream that you eat oysters, it denotes that you will lose all sense of propriety and morality in your pursuit of low pleasures, and the indulgence of an insatiate thirst for gaining. To deal in oysters, denotes that you will not be over-modest in your mode of winning a sweetheart, or a fortune. To see them, denotes easy circumstances, and many children are promised you.",
+      "note": "새 상징 `oysters`(굴)"
+    },
+    {
+      "headword": "Oyster Shells",
+      "text": "To see oyster shells in your dreams, denotes that you will be frustrated in your attempt to secure the fortune of another.",
+      "note": "새 상징 `oyster-shells`(굴 껍데기)"
+    },
+    {
+      "headword": "Pacify",
+      "text": "To endeavor to pacify suffering ones, denotes that you will be loved for your sweetness of disposition. To a young woman, this dream is one of promise of a devoted husband or friends. Pacifying the anger of others, denotes that you will labor for the advancement of others. If a lover dreams of soothing the jealous suspicions of his sweetheart, he will find that his love will be unfortunately placed.",
+      "note": "새 상징 `pacify`(달래다) — 밀러 P 의 첫 표제어"
+    },
+    {
+      "headword": "Packet",
+      "text": "To dream of seeing a packet coming in, foretells that some pleasant recreation is in store for you. To see one going out, you will experience slight losses and disappointments.",
+      "note": "새 상징 `packet`(소포)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "To see fat oxen in green pastures, signifies fortune, and your rise to positions beyond your expectations. If they are lean, your fortune will dwindle, and your friends will fall away from you.",
+      "reason": "`Ox` — 이미 있는 `cattle`(밀러 `Cattle`)의 「살진 소떼가 푸른 목장에서 한가로이 풀을 뜯음」·「여위고 털이 헝클어진 소떼를 봄」과 같은 그림인데 결말이 달라 가를 수 없다"
+    }
+  ]
+}
