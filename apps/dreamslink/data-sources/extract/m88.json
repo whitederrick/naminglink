@@ -1,0 +1,242 @@
+[
+  {
+    "term_ko": "라틴어",
+    "term_en": "latin",
+    "context": "라틴어를 배움",
+    "interpretation_ko": "여러 사람의 삶에 걸린 무거운 일에서 제 뜻을 지켜 내고 이름을 얻을 길한 조짐",
+    "interpretation_en": "denotes victory and distinction in your efforts to sustain your opinion on subjects of grave interest to the public welfare",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Latin",
+      "original": "To dream of studying this language, denotes victory and distinction in your efforts to sustain your opinion on subjects of grave interest to the public welfare.",
+      "translation_ko": "이 말을 배우는 꿈은, 여러 사람의 삶에 걸린 무거운 일에서 제 뜻을 지켜 내고 이름을 얻음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "아편",
+    "term_en": "laudanum",
+    "context": "아편을 먹음",
+    "interpretation_ko": "제 마음이 여려 남에게 지나치게 휘둘릴 흉한 조짐",
+    "interpretation_en": "signifies weakness of your own; and that you will have a tendency to be unduly influenced by others",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Laudanum",
+      "original": "To dream that you take laudanum, signifies weakness of your own; and that you will have a tendency to be unduly influenced by others.",
+      "translation_ko": "아편을 먹는 꿈은, 제 마음이 여려 남에게 지나치게 휘둘림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "아편",
+    "term_en": "laudanum",
+    "context": "남이 아편 먹는 것을 말림",
+    "interpretation_ko": "남에게 큰 기쁨과 좋은 것을 건네는 사람이 될 길한 조짐",
+    "interpretation_en": "indicates that you will be the means of conveying great joy and good to people",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Laudanum",
+      "original": "To prevent others from taking this drug, indicates that you will be the means of conveying great joy and good to people.",
+      "translation_ko": "남이 이 약을 먹는 것을 말리면, 남에게 큰 기쁨과 좋은 것을 건네는 사람이 된다"
+    }
+  },
+  {
+    "term_ko": "아편",
+    "term_en": "laudanum",
+    "context": "정인이 실망하여 아편을 먹는 것을 봄",
+    "interpretation_ko": "사랑이 언짢아지고 벗을 잃을 흉한 조짐",
+    "interpretation_en": "signifies unhappy affairs and the loss of a friend",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Laudanum",
+      "original": "To see your lover taking laudanum through disappointment, signifies unhappy affairs and the loss of a friend.",
+      "translation_ko": "정인이 실망하여 아편을 먹는 것을 보면 사랑이 언짢아지고 벗을 잃는다"
+    }
+  },
+  {
+    "term_ko": "아편",
+    "term_en": "laudanum",
+    "context": "남에게 아편을 줌",
+    "interpretation_ko": "집안 사람 가운데 누군가가 가벼운 병을 앓을 흉한 조짐",
+    "interpretation_en": "slight ailments will attack some member of your domestic circle",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Laudanum",
+      "original": "To give it, slight ailments will attack some member of your domestic circle.",
+      "translation_ko": "남에게 그것을 주면 집안 사람 가운데 누군가가 가벼운 병을 앓는다"
+    }
+  },
+  {
+    "term_ko": "웃음",
+    "term_en": "laughing",
+    "context": "웃으며 즐거워함",
+    "interpretation_ko": "벌인 일이 잘되고 밝은 벗을 얻을 길한 조짐",
+    "interpretation_en": "means success in your undertakings, and bright companions socially",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Laughing",
+      "original": "To dream that you laugh and feel cheerful, means success in your undertakings, and bright companions socially.",
+      "translation_ko": "웃으며 즐거워하는 꿈은 벌인 일이 잘되고 밝은 벗을 얻음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "웃음",
+    "term_en": "laughing",
+    "context": "괴상한 것을 보고 걷잡을 수 없이 웃음",
+    "interpretation_ko": "실망하고 둘레와 어울리지 못할 흉한 조짐",
+    "interpretation_en": "denotes disappointment and lack of harmony in your surroundings",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Laughing",
+      "original": "Laughing immoderately at some weird object, denotes disappointment and lack of harmony in your surroundings.",
+      "translation_ko": "괴상한 것을 보고 걷잡을 수 없이 웃으면, 실망하고 둘레와 어울리지 못한다"
+    }
+  },
+  {
+    "term_ko": "웃음",
+    "term_en": "laughing",
+    "context": "아이들의 즐거운 웃음소리를 들음",
+    "interpretation_ko": "꿈꾼 이에게 기쁨과 튼튼함이 올 길한 조짐",
+    "interpretation_en": "means joy and health to the dreamer",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Laughing",
+      "original": "To hear the happy laughter of children, means joy and health to the dreamer.",
+      "translation_ko": "아이들의 즐거운 웃음소리를 들으면 꿈꾼 이에게 기쁨과 튼튼함이 온다"
+    }
+  },
+  {
+    "term_ko": "웃음",
+    "term_en": "laughing",
+    "context": "남의 낭패를 보고 웃음",
+    "interpretation_ko": "제 욕심을 채우려고 벗을 알면서 해칠 흉한 조짐",
+    "interpretation_en": "denotes that you will wilfully injure your friends to gratify your own selfish desires",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Laughing",
+      "original": "To laugh at the discomfiture of others, denotes that you will wilfully injure your friends to gratify your own selfish desires.",
+      "translation_ko": "남의 낭패를 보고 웃으면, 제 욕심을 채우려고 벗을 알면서 해친다"
+    }
+  },
+  {
+    "term_ko": "웃음",
+    "term_en": "laughing",
+    "context": "비웃는 웃음소리를 들음",
+    "interpretation_ko": "병이 들고 하는 일이 실망스러울 흉한 조짐",
+    "interpretation_en": "denotes illness and disappointing affairs",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Laughing",
+      "original": "To hear mocking laughter, denotes illness and disappointing affairs.",
+      "translation_ko": "비웃는 웃음소리를 들으면 병이 들고 하는 일이 실망스럽다"
+    }
+  },
+  {
+    "term_ko": "빨래",
+    "term_en": "laundry",
+    "context": "빨래를 함",
+    "interpretation_ko": "애는 쓰나 끝내 살림을 일으킬 길한 조짐",
+    "interpretation_en": "denotes struggles, but a final victory in winning fortune",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Laundry",
+      "original": "To dream of laundering clothes, denotes struggles, but a final victory in winning fortune.",
+      "translation_ko": "빨래를 하는 꿈은 애는 쓰나 끝내 살림을 일으킴을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "빨래",
+    "term_en": "laundry",
+    "context": "빨래가 깨끗하게 되어 나옴",
+    "interpretation_ko": "애쓴 일이 온전한 기쁨을 가져다줄 길한 조짐",
+    "interpretation_en": "then your endeavors will bring complete happiness",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Laundry",
+      "original": "If the clothes are done satisfactorily, then your endeavors will bring complete happiness.",
+      "translation_ko": "빨래가 마음에 들게 되어 나오면 애쓴 일이 온전한 기쁨을 가져다준다"
+    }
+  },
+  {
+    "term_ko": "빨래",
+    "term_en": "laundry",
+    "context": "빨래가 엉망으로 나옴",
+    "interpretation_ko": "살림이 나아져도 즐거움은 얻지 못할 흉한 조짐",
+    "interpretation_en": "your fortune will fail to procure pleasure",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Laundry",
+      "original": "If they come out the reverse, your fortune will fail to procure pleasure.",
+      "translation_ko": "빨래가 그 반대로 나오면 살림이 나아져도 즐거움은 얻지 못한다"
+    }
+  },
+  {
+    "term_ko": "빨래",
+    "term_en": "laundry",
+    "context": "어여쁜 처녀들이 빨래하는 것을 봄",
+    "interpretation_ko": "제 자리에 맞지 않는 즐거움을 좇을 흉한 조짐",
+    "interpretation_en": "you will seek pleasure out of your rank",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Laundry",
+      "original": "To see pretty girls at this work, you will seek pleasure out of your rank.",
+      "translation_ko": "어여쁜 처녀들이 이 일을 하는 것을 보면 제 자리에 맞지 않는 즐거움을 좇는다"
+    }
+  },
+  {
+    "term_ko": "빨래",
+    "term_en": "laundry",
+    "context": "세탁부가 집에 찾아옴",
+    "interpretation_ko": "병이 들거나 아주 값진 것을 잃을 낌새가 있는 흉한 조짐",
+    "interpretation_en": "you are in danger of sickness, or of losing something very valuable",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Laundry",
+      "original": "If a laundryman calls at your house, you are in danger of sickness, or of losing something very valuable.",
+      "translation_ko": "세탁부가 집에 찾아오면 병이 들거나 아주 값진 것을 잃을 낌새가 있다"
+    }
+  },
+  {
+    "term_ko": "빨래",
+    "term_en": "laundry",
+    "context": "빨래 수레를 봄",
+    "interpretation_ko": "겨루고 다툴 일이 있을 흉한 조짐",
+    "interpretation_en": "portends rivalry and contention",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Laundry",
+      "original": "To see laundry wagons, portends rivalry and contention.",
+      "translation_ko": "빨래 수레를 보면 겨루고 다툴 일이 있다"
+    }
+  }
+]

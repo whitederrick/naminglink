@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 87 — Lap~Latch, 18건)
+// (지금 담긴 것: 배치 88 — Latin~Laundry, 16건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,25 +30,22 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "knee", ctx: "남의 무릎에 앉음", text: "남의 무릎에 앉아 있었다" },
-  { id: "knee", ctx: "처녀가 남을 제 무릎에 앉힘", text: "누군가를 내 무릎에 앉혔다" },
-  { id: "knee", ctx: "무릎에 뱀이 있음", text: "무릎에 뱀이 있었다" },
-  { id: "knee", ctx: "무릎에 고양이가 있음", text: "무릎에 고양이가 있었다" },
-  { id: "blanket", ctx: "무릎덮개를 봄", text: "무릎덮개를 보았다" },
-  { id: "blanket", ctx: "무릎덮개를 잃어버림", text: "무릎덮개를 잃어버렸다" },
-  { id: "lard", ctx: "돼지기름을 봄", text: "돼지기름이 굳어 있었다" },
-  { id: "lard", ctx: "여자가 녹은 돼지기름에 손이 빠짐", text: "녹은 돼지기름에 손이 빠져 있었다" },
-  { id: "lark", ctx: "종달새가 나는 것을 봄", text: "종달새가 나는 것을 보았다" },
-  { id: "lark", ctx: "종달새가 날며 지저귀는 소리를 들음", text: "종달새가 지저귀는 소리를 들었다" },
-  { id: "lark", ctx: "종달새가 땅으로 떨어지며 지저귐", text: "종달새가 땅으로 떨어지며 울었다" },
-  { id: "lark", ctx: "다치거나 죽은 종달새를 봄", text: "죽은 종달새를 보았다" },
-  { id: "lark", ctx: "종달새를 죽임", text: "종달새를 죽였다" },
-  { id: "lark", ctx: "종달새가 둘레를 돌다 몸에 내려앉음", text: "종달새가 내 어깨에 내려앉았다" },
-  { id: "lark", ctx: "덫으로 종달새를 잡음", text: "덫으로 종달새를 잡았다" },
-  { id: "lark", ctx: "종달새가 먹이를 먹는 것을 봄", text: "종달새가 먹이를 먹고 있었다" },
-  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "knee", ctx: "무릎이 뻣뻣하고 아픔", text: "무릎이 뻣뻣하고 아팠다" },
-  { id: "blanket", ctx: "새 것이고 흰 담요를 봄", text: "새것인 하얀 담요를 보았다" },
+  { id: "latin", ctx: "라틴어를 배움", text: "라틴어를 배우고 있었다" },
+  { id: "laudanum", ctx: "아편을 먹음", text: "아편을 먹었다" },
+  { id: "laudanum", ctx: "남이 아편 먹는 것을 말림", text: "남이 아편 먹는 것을 말렸다" },
+  { id: "laudanum", ctx: "정인이 실망하여 아편을 먹는 것을 봄", text: "정인이 아편을 먹는 것을 보았다" },
+  { id: "laudanum", ctx: "남에게 아편을 줌", text: "남에게 아편을 주었다" },
+  { id: "laughing", ctx: "웃으며 즐거워함", text: "웃으며 즐거워했다" },
+  { id: "laughing", ctx: "괴상한 것을 보고 걷잡을 수 없이 웃음", text: "괴상한 것을 보고 웃었다" },
+  { id: "laughing", ctx: "아이들의 즐거운 웃음소리를 들음", text: "아이들의 웃음소리를 들었다" },
+  { id: "laughing", ctx: "남의 낭패를 보고 웃음", text: "남의 낭패를 보고 웃었다" },
+  { id: "laughing", ctx: "비웃는 웃음소리를 들음", text: "비웃는 소리를 들었다" },
+  { id: "laundry", ctx: "빨래를 함", text: "빨래를 빨았다" },
+  { id: "laundry", ctx: "빨래가 깨끗하게 되어 나옴", text: "빨래가 깨끗하게 되어 나왔다" },
+  { id: "laundry", ctx: "빨래가 엉망으로 나옴", text: "빨래가 엉망으로 나왔다" },
+  { id: "laundry", ctx: "어여쁜 처녀들이 빨래하는 것을 봄", text: "어여쁜 처녀들이 빨래하고 있었다" },
+  { id: "laundry", ctx: "세탁부가 집에 찾아옴", text: "세탁부가 집에 찾아왔다" },
+  { id: "laundry", ctx: "빨래 수레를 봄", text: "빨래 수레를 보았다" },
 ];
 
 let notFound = 0;

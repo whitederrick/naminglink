@@ -5990,5 +5990,20 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "lark": [
     "larks",
     "a lark"
+  ],
+  "latin": [
+    "latin"
+  ],
+  "laudanum": [
+    "laudanum"
+  ],
+  "laughing": [
+    "laughter",
+    "laugh",
+    "laughing"
+  ],
+  "laundry": [
+    "laundering",
+    "washing clothes"
   ]
 };

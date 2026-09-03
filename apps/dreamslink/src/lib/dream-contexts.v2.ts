@@ -3953,5 +3953,20 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lark::종달새를 죽임": "injury innocence wantonness",
   "lark::종달새가 둘레를 돌다 몸에 내려앉음": "around fortune promising countenance",
   "lark::덫으로 종달새를 잡음": "catch traps honor easily",
-  "lark::종달새가 먹이를 먹는 것을 봄": "eating plentiful harvest"
+  "lark::종달새가 먹이를 먹는 것을 봄": "eating plentiful harvest",
+  "laudanum::아편을 먹음": "weakness unduly influenced determination",
+  "laudanum::남이 아편 먹는 것을 말림": "prevent drug conveying",
+  "laudanum::정인이 실망하여 아편을 먹는 것을 봄": "lover disappointment unhappy",
+  "laudanum::남에게 아편을 줌": "give slight ailments domestic circle",
+  "laughing::웃으며 즐거워함": "cheerful undertakings bright companions",
+  "laughing::괴상한 것을 보고 걷잡을 수 없이 웃음": "immoderately weird harmony surroundings",
+  "laughing::아이들의 즐거운 웃음소리를 들음": "children joy health dreamer",
+  "laughing::남의 낭패를 보고 웃음": "discomfiture wilfully injure selfish",
+  "laughing::비웃는 웃음소리를 들음": "mocking illness disappointing",
+  "laundry::빨래를 함": "struggles final victory winning",
+  "laundry::빨래가 깨끗하게 되어 나옴": "satisfactorily endeavors complete happiness",
+  "laundry::빨래가 엉망으로 나옴": "reverse fail procure pleasure",
+  "laundry::어여쁜 처녀들이 빨래하는 것을 봄": "pretty girls seek rank",
+  "laundry::세탁부가 집에 찾아옴": "laundryman calls house danger valuable",
+  "laundry::빨래 수레를 봄": "wagons rivalry contention"
 };
