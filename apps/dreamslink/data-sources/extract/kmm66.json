@@ -1,0 +1,96 @@
+[
+  {
+    "id": "island",
+    "aliases": [
+      "섬을",
+      "섬이",
+      "섬에",
+      "무인도",
+      "외딴섬"
+    ],
+    "aliases_en": [
+      "an island",
+      "islands"
+    ],
+    "contexts": {
+      "섬을 봄": "멀리 저편에",
+      "맑은 냇물 가운데 섬에 있음": "맑은 냇물 시냇물",
+      "메마른 섬을 봄": "메마른 헐벗은 황량",
+      "섬에 사람들이 있는 것을 봄": "사람들이 사람들을 무리가"
+    },
+    "contexts_en": {
+      "섬을 봄": "comfort easy circumstances striving obligations",
+      "맑은 냇물 가운데 섬에 있음": "clear stream journeys fortunate enterprises",
+      "메마른 섬을 봄": "barren forfeiture money intemperance",
+      "섬에 사람들이 있는 것을 봄": "people struggle raise higher prominent"
+    }
+  },
+  {
+    "id": "itch",
+    "aliases": [
+      "가려운",
+      "가려워",
+      "가려웠다",
+      "근질거렸다",
+      "근질거리",
+      "근질근질",
+      "옴이 올랐다"
+    ],
+    "aliases_en": [
+      "the itch",
+      "itching"
+    ],
+    "contexts": {
+      "몸이 근질거림": "근질 간질",
+      "가려움을 앓는 이를 피하려 함": "피하려 닿지 않으려",
+      "제가 가려움을 앓음": "제가 내가 나는",
+      "처녀가 그런 꿈을 꿈": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "몸이 근질거림": "unpleasant avocations",
+      "가려움을 앓는 이를 피하려 함": "persons endeavor escape contact distressing",
+      "제가 가려움을 앓음": "yourself harshly used defend incriminating",
+      "처녀가 그런 꿈을 꿈": "young woman omens dissolute companionship"
+    }
+  },
+  {
+    "id": "ivory",
+    "aliases": [
+      "상아가",
+      "상아를",
+      "코끼리 어금니"
+    ],
+    "aliases_en": [
+      "ivory"
+    ],
+    "contexts": {
+      "상아를 봄": "빛깔이 하얀",
+      "큰 상아 덩이를 나르는 것을 봄": "덩이 나르는 커다란"
+    },
+    "contexts_en": {
+      "상아를 봄": "favorable fortune dreamer",
+      "큰 상아 덩이를 나르는 것을 봄": "huge pieces carried financial unalloyed"
+    }
+  },
+  {
+    "id": "ivy",
+    "aliases": [
+      "담쟁이덩굴",
+      "담쟁이가",
+      "담쟁이를"
+    ],
+    "aliases_en": [
+      "ivy"
+    ],
+    "contexts": {
+      "나무나 집에 담쟁이가 자란 것을 봄": "자란 뻗은 우거",
+      "달빛에 담벼락을 타고 오른 담쟁이를 봄": "달빛 담벼락 타고",
+      "시든 담쟁이를 봄": "시든 마른 말라"
+    },
+    "contexts_en": {
+      "나무나 집에 담쟁이가 자란 것을 봄": "growing trees houses excellent health increase",
+      "달빛에 담벼락을 타고 오른 담쟁이를 봄": "clinging wall moonlight clandestine meetings",
+      "시든 담쟁이를 봄": "withered broken engagements sadness"
+    }
+  }
+]

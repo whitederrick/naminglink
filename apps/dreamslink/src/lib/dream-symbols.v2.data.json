@@ -65,6 +65,7 @@
     "m63.json",
     "m64.json",
     "m65.json",
+    "m66.json",
     "m7a.json",
     "m7b.json",
     "m8.json",
@@ -29189,6 +29190,101 @@
       ]
     },
     {
+      "id": "iron",
+      "term_ko": "다리미",
+      "term_en": "iron",
+      "aliases": [
+        "인두",
+        "다림질",
+        "다림질하다",
+        "다림질하",
+        "다림질한",
+        "다림질을",
+        "다리미가",
+        "다리미를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "다림질을 함",
+          "interpretation_ko": "집안이 편안하고 하는 일이 반듯하게 돌아갈 길한 조짐",
+          "interpretation_en": "denotes domestic comforts and orderly business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ironing",
+              "original": "To dream of ironing, denotes domestic comforts and orderly business.",
+              "translation_ko": "다림질하는 꿈은 집안의 평안과 반듯한 살림살이를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "다림질하다 손을 뎀",
+          "interpretation_ko": "병이나 시샘이 마음의 평안을 흔들 흉한 조짐",
+          "interpretation_en": "it foretells she will have illness or jealousy to disturb her peace",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ironing",
+              "original": "If a woman dreams that she burns her hands while ironing, it foretells she will have illness or jealousy to disturb her peace.",
+              "translation_ko": "여자가 다림질하다 손을 데는 꿈을 꾸면 병이나 시샘이 마음의 평안을 흔든다"
+            }
+          ]
+        },
+        {
+          "context": "다림질하다 옷을 눌어붙게 태움",
+          "interpretation_ko": "맞수가 나타나 언짢음과 의심을 안길 흉한 조짐",
+          "interpretation_en": "she will have a rival who will cause her much displeasure and suspicions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ironing",
+              "original": "If she scorches the clothes, she will have a rival who will cause her much displeasure and suspicions.",
+              "translation_ko": "옷을 눌어붙게 태우면 맞수가 나타나 언짢음과 의심을 안긴다"
+            }
+          ]
+        },
+        {
+          "context": "다리미가 너무 차가움",
+          "interpretation_ko": "집안에 정이 모자랄 흉한 조짐",
+          "interpretation_en": "she will lack affection in her home",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ironing",
+              "original": "If the irons seem too cold, she will lack affection in her home.",
+              "translation_ko": "다리미가 너무 차게 느껴지면 집안에 정이 모자란다"
+            }
+          ]
+        },
+        {
+          "context": "다리미에 불이 담겨 있음",
+          "interpretation_ko": "좋은 일이 이루어질 조짐",
+          "interpretation_en": "a sign that a good matter will come together",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "熨斗盛火好事成",
+              "translation_ko": "다리미에 불이 담기면 좋은 일이 이루어진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "jade",
       "term_ko": "옥",
       "term_en": "jade",
@@ -38144,6 +38240,162 @@
               "locator": "龜鱉魚蝦昆蟲",
               "original": "身坐魚蟲病患除",
               "translation_ko": "몸이 물고기와 벌레 위에 앉으면 병이 없어진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "island",
+      "term_ko": "섬",
+      "term_en": "island",
+      "aliases": [
+        "섬을",
+        "섬이",
+        "섬에",
+        "무인도",
+        "외딴섬"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "섬을 봄",
+          "interpretation_ko": "떳떳한 빚을 갚으려 애태우고 애쓴 끝에 편안하고 넉넉해질 길한 조짐",
+          "interpretation_en": "denotes comfort and easy circumstances after much striving and worrying to meet honorable obligations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Island",
+              "original": "To see an island, denotes comfort and easy circumstances after much striving and worrying to meet honorable obligations.",
+              "translation_ko": "섬을 보면 떳떳한 빚을 갚으려 애태우고 애쓴 끝에 편안하고 넉넉해진다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 냇물 가운데 섬에 있음",
+          "interpretation_ko": "즐거운 길과 복된 일이 있을 길한 조짐이며, 여자에게는 좋은 혼인의 조짐",
+          "interpretation_en": "signifies pleasant journeys and fortunate enterprises; to a woman, this omens a happy marriage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Island",
+              "original": "To dream that you are on an island in a clear stream, signifies pleasant journeys and fortunate enterprises.",
+              "translation_ko": "맑은 냇물 가운데 섬에 있는 꿈을 꾸면 즐거운 길과 복된 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "메마른 섬을 봄",
+          "interpretation_ko": "무절제 탓에 기쁨과 재물을 잃을 흉한 조짐",
+          "interpretation_en": "indicates forfeiture of happiness and money through intemperance",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Island",
+              "original": "A barren island, indicates forfeiture of happiness and money through intemperance.",
+              "translation_ko": "메마른 섬은 무절제 탓에 기쁨과 재물을 잃음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "섬에 사람들이 있는 것을 봄",
+          "interpretation_ko": "드러난 자리에서 위로 오르려 애쓸 조짐",
+          "interpretation_en": "denotes a struggle to raise yourself higher in prominent circles",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Island",
+              "original": "To see people on an island, denotes a struggle to raise yourself higher in prominent circles.",
+              "translation_ko": "섬에 사람들이 있는 것을 보면 드러난 자리에서 위로 오르려 애쓴다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "itch",
+      "term_ko": "가려움",
+      "term_en": "itch",
+      "aliases": [
+        "가려운",
+        "가려워",
+        "가려웠다",
+        "근질거렸다",
+        "근질거리",
+        "근질근질",
+        "옴이 올랐다"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "몸이 근질거림",
+          "interpretation_ko": "달갑지 않은 일거리에 매일 흉한 조짐",
+          "interpretation_en": "denotes unpleasant avocations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Itch",
+              "original": "To dream that you itch, denotes unpleasant avocations.",
+              "translation_ko": "몸이 근질거리는 꿈은 달갑지 않은 일거리를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가려움을 앓는 이를 피하려 함",
+          "interpretation_ko": "궂은 결과를 두려워하나 애쓴 것이 도리어 기쁜 성과로 돌아올 길한 조짐",
+          "interpretation_en": "you will stand in fear of distressing results when your endeavors will bring pleasant success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Itch",
+              "original": "To see persons with the itch, and you endeavor to escape contact, you will stand in fear of distressing results when your endeavors will bring pleasant success.",
+              "translation_ko": "가려움을 앓는 이를 보고 닿지 않으려 애쓰면, 궂은 결과를 두려워하나 애쓴 것이 기쁜 성과로 돌아온다"
+            }
+          ]
+        },
+        {
+          "context": "제가 가려움을 앓음",
+          "interpretation_ko": "모진 대접을 받고 남을 탓하며 스스로를 지키려 들 흉한 조짐",
+          "interpretation_en": "you will be harshly used, and will defend yourself by incriminating others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Itch",
+              "original": "If you dream you have the itch yourself, you will be harshly used, and will defend yourself by incriminating others.",
+              "translation_ko": "제가 가려움을 앓는 꿈을 꾸면 모진 대접을 받고 남을 탓하며 스스로를 지키려 든다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 그런 꿈을 꿈",
+          "interpretation_ko": "몸가짐이 헤픈 무리와 어울리게 될 흉한 조짐",
+          "interpretation_en": "omens she will fall into dissolute companionship",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Itch",
+              "original": "For a young woman to have this dream, omens she will fall into dissolute companionship.",
+              "translation_ko": "젊은 여성이 이 꿈을 꾸면 몸가짐이 헤픈 무리와 어울리게 된다"
             }
           ]
         }
@@ -49133,6 +49385,67 @@
               "locator": "Invite",
               "original": "For a woman to dream that she is invited to attend a party, she will have pleasant anticipations, but ill luck will mar them.",
               "translation_ko": "여자가 잔치에 부름받는 꿈을 꾸면 즐거운 기대를 품으나 불운이 그것을 흐린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ivy",
+      "term_ko": "담쟁이",
+      "term_en": "ivy",
+      "aliases": [
+        "담쟁이덩굴",
+        "담쟁이가",
+        "담쟁이를"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "나무나 집에 담쟁이가 자란 것을 봄",
+          "interpretation_ko": "몸이 아주 튼튼해지고 복이 불어날 길한 조짐이며, 처녀에게는 값진 이름을 여럿 얻을 조짐",
+          "interpretation_en": "predicts excellent health and increase of fortune; innumerable joys will succeed this dream",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ivy",
+              "original": "To dream of seeing ivy growing on trees or houses, predicts excellent health and increase of fortune.",
+              "translation_ko": "나무나 집에 담쟁이가 자란 것을 보는 꿈은 아주 좋은 건강과 불어나는 복을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "달빛에 담벼락을 타고 오른 담쟁이를 봄",
+          "interpretation_ko": "젊은 사내와 남몰래 만나게 될 조짐",
+          "interpretation_en": "she will have clandestine meetings with young men",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ivy",
+              "original": "If she sees ivy clinging to the wall in the moonlight, she will have clandestine meetings with young men.",
+              "translation_ko": "달빛 속에서 담벼락을 타고 오른 담쟁이를 보면 젊은 사내들과 남몰래 만나게 된다"
+            }
+          ]
+        },
+        {
+          "context": "시든 담쟁이를 봄",
+          "interpretation_ko": "약속이 깨지고 슬픔이 따를 흉한 조짐",
+          "interpretation_en": "denotes broken engagements and sadness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ivy",
+              "original": "Withered ivy, denotes broken engagements and sadness.",
+              "translation_ko": "시든 담쟁이는 깨진 약속과 슬픔을 뜻한다"
             }
           ]
         }
@@ -67520,6 +67833,53 @@
       ]
     },
     {
+      "id": "ivory",
+      "term_ko": "상아",
+      "term_en": "ivory",
+      "aliases": [
+        "상아가",
+        "상아를",
+        "코끼리 어금니"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "상아를 봄",
+          "interpretation_ko": "꿈꾼 이의 복에 이로운 길한 조짐",
+          "interpretation_en": "is favorable to the fortune of the dreamer",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ivory",
+              "original": "To dream of ivory, is favorable to the fortune of the dreamer.",
+              "translation_ko": "상아 꿈은 꿈꾼 이의 복에 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "큰 상아 덩이를 나르는 것을 봄",
+          "interpretation_ko": "재물이 넉넉해지고 티 없는 즐거움이 따를 길한 조짐",
+          "interpretation_en": "denotes financial success and pleasures unalloyed",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ivory",
+              "original": "To see huge pieces of ivory being carried, denotes financial success and pleasures unalloyed.",
+              "translation_ko": "큰 상아 덩이를 나르는 것을 보면 재물이 넉넉해지고 티 없는 즐거움이 따른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "letter",
       "term_ko": "편지",
       "term_en": "letter",
@@ -77787,38 +78147,6 @@
               "locator": "Interpreter",
               "original": "To dream of an interpreter, denotes you will undertake affairs which will fail in profit.",
               "translation_ko": "통역하는 이의 꿈은 손댄 일이 이문 없이 끝나리라는 뜻이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "iron",
-      "term_ko": "다리미",
-      "term_en": "iron",
-      "aliases": [
-        "인두",
-        "다림질"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "다리미에 불이 담겨 있음",
-          "interpretation_ko": "좋은 일이 이루어질 조짐",
-          "interpretation_en": "a sign that a good matter will come together",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "熨斗盛火好事成",
-              "translation_ko": "다리미에 불이 담기면 좋은 일이 이루어진다"
             }
           ]
         }

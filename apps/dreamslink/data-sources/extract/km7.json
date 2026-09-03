@@ -916,15 +916,33 @@
     "id": "iron",
     "aliases": [
       "인두",
-      "다림질"
+      "다림질",
+      "다림질하다",
+      "다림질하",
+      "다림질한",
+      "다림질을",
+      "다리미가",
+      "다리미를"
     ],
     "aliases_en": [
       "flatiron",
       "ironing",
       "clothes iron"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "다리미에 불이 담겨 있음": "불이 담겨 숯불",
+      "다림질을 함": "다림질을 다렸다 폈다",
+      "다림질하다 손을 뎀": "손을 데었 데어",
+      "다림질하다 옷을 눌어붙게 태움": "눌어 태웠 그을",
+      "다리미가 너무 차가움": "차가워 차가웠 식어 싸늘"
+    },
+    "contexts_en": {
+      "다리미에 불이 담겨 있음": "coals charcoal",
+      "다림질을 함": "domestic comforts orderly",
+      "다림질하다 손을 뎀": "burns hands illness jealousy disturb",
+      "다림질하다 옷을 눌어붙게 태움": "scorches rival displeasure suspicions",
+      "다리미가 너무 차가움": "cold lack affection home"
+    }
   },
   {
     "id": "lute",

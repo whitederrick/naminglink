@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 65 — Invective~Iron, 18건)
+// (지금 담긴 것: 배치 66 — Ironing~Ivy, 18건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,27 +30,26 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "verbal-abuse", ctx: "제가 욕설을 퍼부음", text: "내가 욕설을 퍼부었다" },
-  { id: "verbal-abuse", ctx: "남들이 욕설하는 것을 들음", text: "남들이 욕설하는 것을 들었다" },
-  { id: "inventor", ctx: "발명가를 봄", text: "발명가를 보았다" },
-  { id: "inventor", ctx: "제가 무엇을 발명함", text: "내가 무엇을 발명했다" },
-  { id: "invite", ctx: "남을 집으로 부름", text: "남을 집으로 초대했다" },
-  { id: "invite", ctx: "남에게 오라는 부름을 받음", text: "오라는 초대를 받았다" },
-  { id: "invite", ctx: "여자가 잔치에 부름받음", text: "여자가 잔치에 초대받았다" },
-  { id: "iron-2", ctx: "쇳덩이에 짓눌림", text: "쇳덩이가 나를 짓눌렀다" },
-  { id: "iron-2", ctx: "쇠붙이로 침", text: "쇠붙이로 내리쳤다" },
-  { id: "iron-2", ctx: "쇠붙이를 만듦", text: "쇠붙이를 만들었다" },
-  { id: "iron-2", ctx: "쇠붙이를 팖", text: "쇠붙이를 팔았다" },
-  { id: "iron-2", ctx: "낡고 녹슨 쇠붙이를 봄", text: "낡고 녹슨 쇠붙이를 보았다" },
-  { id: "iron-2", ctx: "쇠붙이 값이 내림", text: "쇠붙이 값이 떨어졌다" },
-  { id: "iron-2", ctx: "쇠붙이 값이 오름", text: "쇠붙이 값이 올랐다" },
-  { id: "iron-2", ctx: "벌겋게 달군 쇠붙이를 봄", text: "벌겋게 달군 쇠붙이를 보았다" },
+  { id: "iron", ctx: "다림질을 함", text: "다림질을 하고 있었다" },
+  { id: "iron", ctx: "다림질하다 손을 뎀", text: "다림질하다 손을 데었다" },
+  { id: "iron", ctx: "다림질하다 옷을 눌어붙게 태움", text: "다림질하다 옷을 눌어붙게 태웠다" },
+  { id: "iron", ctx: "다리미가 너무 차가움", text: "다리미가 너무 차가웠다" },
+  { id: "island", ctx: "섬을 봄", text: "멀리 섬을 보았다" },
+  { id: "island", ctx: "맑은 냇물 가운데 섬에 있음", text: "맑은 시냇물 가운데 섬에 있었다" },
+  { id: "island", ctx: "메마른 섬을 봄", text: "메마른 섬을 보았다" },
+  { id: "island", ctx: "섬에 사람들이 있는 것을 봄", text: "섬에 사람들이 있었다" },
+  { id: "itch", ctx: "몸이 근질거림", text: "몸이 근질거렸다" },
+  { id: "itch", ctx: "가려움을 앓는 이를 피하려 함", text: "가려운 사람에게 닿지 않으려 애썼다" },
+  { id: "itch", ctx: "제가 가려움을 앓음", text: "내가 가려움을 앓고 있었다" },
+  { id: "itch", ctx: "처녀가 그런 꿈을 꿈", text: "처녀가 가려운 꿈을 꾸었다" },
+  { id: "ivory", ctx: "상아를 봄", text: "하얀 상아를 보았다" },
+  { id: "ivory", ctx: "큰 상아 덩이를 나르는 것을 봄", text: "커다란 상아 덩이를 나르는 것을 보았다" },
+  { id: "ivy", ctx: "나무나 집에 담쟁이가 자란 것을 봄", text: "집에 담쟁이가 자란 것을 보았다" },
+  { id: "ivy", ctx: "달빛에 담벼락을 타고 오른 담쟁이를 봄", text: "달빛에 담벼락을 타고 오른 담쟁이를 보았다" },
+  { id: "ivy", ctx: "시든 담쟁이를 봄", text: "시든 담쟁이를 보았다" },
 
   // 이 배치가 판별어 표를 채운 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "verbal-abuse", ctx: "남에게 욕을 먹고 모욕을 당함", text: "남에게 모욕을 당했다" },
-  { id: "iron-2", ctx: "쇠로 만든 기물을 봄", text: "쇠로 만든 기물을 보았다" },
-  // 「무쇠」 vs `iron`(다리미) — 밀러 `Ironing` 자리는 건드리지 않았다
-  { id: "iron", ctx: "다리미에 불이 담겨 있음", text: "다리미에 불이 담겨 있었다" },
+  { id: "iron", ctx: "다리미에 불이 담겨 있음", text: "다리미에 숯불이 담겨 있었다" },
 ];
 
 let notFound = 0;

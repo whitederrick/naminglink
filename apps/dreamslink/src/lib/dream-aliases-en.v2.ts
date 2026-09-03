@@ -5794,5 +5794,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "invite": [
     "invited",
     "an invitation"
+  ],
+  "island": [
+    "an island",
+    "islands"
+  ],
+  "itch": [
+    "the itch",
+    "itching"
+  ],
+  "ivory": [
+    "ivory"
+  ],
+  "ivy": [
+    "ivy"
   ]
 };
