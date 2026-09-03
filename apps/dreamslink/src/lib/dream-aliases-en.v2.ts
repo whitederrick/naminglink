@@ -6102,5 +6102,15 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "linseed-oil": [
     "flaxseed oil"
+  ],
+  "lips": [
+    "a lip",
+    "her lips"
+  ],
+  "liver": [
+    "livers"
+  ],
+  "lizard": [
+    "lizards"
   ]
 };

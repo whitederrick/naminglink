@@ -1,0 +1,227 @@
+[
+  {
+    "term_ko": "입술",
+    "term_en": "lips",
+    "context": "두껍고 보기 흉한 입술을 봄",
+    "interpretation_ko": "언짢은 마주침과 성급한 판단, 그리고 부부 사이의 성마름을 뜻하는 흉한 조짐",
+    "interpretation_en": "signifies disagreeable encounters, hasty decision, and ill temper in the marriage relation",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Lips",
+      "original": "To dream of thick, unsightly lips, signifies disagreeable encounters, hasty decision, and ill temper in the marriage relation.",
+      "translation_ko": "두껍고 보기 흉한 입술의 꿈은, 언짢은 마주침과 성급한 판단, 그리고 부부 사이의 성마름을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "입술",
+    "term_en": "lips",
+    "context": "도톰하고 붉은 입술을 봄",
+    "interpretation_ko": "고르고 넉넉함을 뜻하는 길한 조짐. 정인에게는 사랑이 되돌아오고 마음이 한결같음을 알린다",
+    "interpretation_en": "indicates harmony and affluence; to a lover, it augurs reciprocation in love, and fidelity",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Lips",
+      "original": "Full, sweet, cherry lips, indicates harmony and affluence.",
+      "translation_ko": "도톰하고 앵두 같은 입술은 고르고 넉넉함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "입술",
+    "term_en": "lips",
+    "context": "얇은 입술을 봄",
+    "interpretation_ko": "가장 얽힌 일도 훤히 꿰뚫을 길한 조짐",
+    "interpretation_en": "signifies mastery of the most intricate subjects",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Lips",
+      "original": "Thin lips, signifies mastery of the most intricate subjects.",
+      "translation_ko": "얇은 입술은 가장 얽힌 일도 훤히 꿰뚫음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "입술",
+    "term_en": "lips",
+    "context": "부르트거나 부은 입술을 봄",
+    "interpretation_ko": "궁핍과 몸에 해로운 바람을 뜻하는 흉한 조짐",
+    "interpretation_en": "denotes privations and unhealthful desires",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Lips",
+      "original": "Sore, or swollen lips, denotes privations and unhealthful desires.",
+      "translation_ko": "부르트거나 부은 입술은 궁핍과 몸에 해로운 바람을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "술",
+    "term_en": "liquor",
+    "context": "술을 삼",
+    "interpretation_ko": "제 몫이 아닌 남의 것을 제 욕심으로 차지할 흉한 조짐",
+    "interpretation_en": "denotes selfish usurpation of property upon which you have no legal claim",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Liquor",
+      "original": "To dream of buying liquor, denotes selfish usurpation of property upon which you have no legal claim",
+      "translation_ko": "술을 사는 꿈은, 제 몫이 아닌 남의 것을 제 욕심으로 차지함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "술",
+    "term_en": "liquor",
+    "context": "술을 팜",
+    "interpretation_ko": "인색하게 베푼다는 말을 들을 흉한 조짐",
+    "interpretation_en": "you will be criticised for niggardly benevolence",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Liquor",
+      "original": "If you sell it, you will be criticised for niggardly benevolence.",
+      "translation_ko": "술을 팔면 인색하게 베푼다는 말을 듣는다"
+    }
+  },
+  {
+    "term_ko": "술",
+    "term_en": "liquor",
+    "context": "통에 든 술을 봄",
+    "interpretation_ko": "넉넉해지나 집안을 즐겁게 꾸리는 데는 좋지 않은 조짐",
+    "interpretation_en": "denotes prosperity, but unfavorable tendency toward making home pleasant",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Liquor",
+      "original": "To see liquor in barrels, denotes prosperity, but unfavorable tendency toward making home pleasant.",
+      "translation_ko": "통에 든 술을 보면 넉넉해지나, 집안을 즐겁게 꾸리는 데는 좋지 않다"
+    }
+  },
+  {
+    "term_ko": "술",
+    "term_en": "liquor",
+    "context": "병에 든 술을 봄",
+    "interpretation_ko": "복이 눈에 잡히는 꼴로 나타날 길한 조짐",
+    "interpretation_en": "fortune will appear in a very tangible form",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Liquor",
+      "original": "If in bottles, fortune will appear in a very tangible form.",
+      "translation_ko": "병에 든 술이면 복이 눈에 잡히는 꼴로 나타난다"
+    }
+  },
+  {
+    "term_ko": "술",
+    "term_en": "liquor",
+    "context": "여성이 술을 다루거나 마심",
+    "interpretation_ko": "얽매이지 않는 즐거운 삶을 살 조짐. 마음은 좋으나 생각이 얕고, 남에게 술을 내면 맞수에게도 넉넉히 굴며 정인이나 지아비의 무심함에도 즐거움이 크게 상하지 않는다",
+    "interpretation_en": "foretells for her a happy Bohemian kind of existence; she will be good natured but shallow minded",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Liquor",
+      "original": "For a woman to dream of handling, or drinking liquor, foretells for her a happy Bohemian kind of existence.",
+      "translation_ko": "여성이 술을 다루거나 마시는 꿈은, 얽매이지 않는 즐거운 삶을 살 것을 알린다"
+    }
+  },
+  {
+    "term_ko": "사람의 간",
+    "term_en": "liver",
+    "context": "간이 상한 것을 봄",
+    "interpretation_ko": "투정 많은 사람이 짝이 되어 흠잡기로 날을 보내고 마음이 편치 않을 흉한 조짐",
+    "interpretation_en": "denotes a querulous person will be your mate, and fault-finding will occupy her time, and disquiet will fill your hours",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Liver",
+      "original": "To dream of a disordered liver, denotes a querulous person will be your mate, and fault-finding will occupy her time, and disquiet will fill your hours.",
+      "translation_ko": "간이 상한 꿈은, 투정 많은 사람이 짝이 되어 흠잡기로 날을 보내고 마음이 편치 않음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "사람의 간",
+    "term_en": "liver",
+    "context": "간을 먹음",
+    "interpretation_ko": "속임수 쓰는 이가 정인의 마음에 들어앉은 흉한 조짐",
+    "interpretation_en": "indicates that some deceitful person has installed himself in the affection of your sweetheart",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Liver",
+      "original": "To dream of eating liver, indicates that some deceitful person has installed himself in the affection of your sweetheart.",
+      "translation_ko": "간을 먹는 꿈은, 속임수 쓰는 이가 정인의 마음에 들어앉았음을 알린다"
+    }
+  },
+  {
+    "term_ko": "도마뱀",
+    "term_en": "lizard",
+    "context": "도마뱀을 봄",
+    "interpretation_ko": "적이 저를 치고 들어올 흉한 조짐",
+    "interpretation_en": "foretells attacks upon you by enemies",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Lizard",
+      "original": "To dream of lizards, foretells attacks upon you by enemies.",
+      "translation_ko": "도마뱀의 꿈은 적이 저를 치고 들어옴을 알린다"
+    }
+  },
+  {
+    "term_ko": "도마뱀",
+    "term_en": "lizard",
+    "context": "도마뱀을 죽임",
+    "interpretation_ko": "잃었던 이름이나 재물을 되찾을 길한 조짐",
+    "interpretation_en": "you will regain your lost reputation or fortune",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Lizard",
+      "original": "If you kill a lizard, you will regain your lost reputation or fortune; but if it should escape, you will meet vexations and crosses in love and business.",
+      "translation_ko": "도마뱀을 죽이면 잃었던 이름이나 재물을 되찾는다"
+    }
+  },
+  {
+    "term_ko": "도마뱀",
+    "term_en": "lizard",
+    "context": "도마뱀이 달아남",
+    "interpretation_ko": "사랑에서도 일에서도 성가신 일과 어긋남을 만날 흉한 조짐",
+    "interpretation_en": "you will meet vexations and crosses in love and business",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Lizard",
+      "original": "If you kill a lizard, you will regain your lost reputation or fortune; but if it should escape, you will meet vexations and crosses in love and business.",
+      "translation_ko": "도마뱀이 달아나면 사랑에서도 일에서도 성가신 일과 어긋남을 만난다"
+    }
+  },
+  {
+    "term_ko": "도마뱀",
+    "term_en": "lizard",
+    "context": "도마뱀이 치마 위로 기어오르거나 할큄",
+    "interpretation_ko": "여성에게 궂은일과 슬픔이 클 흉한 조짐 — 지아비가 병을 앓다 세상을 떠 홀로 남고, 제 손으로 겨우 살림을 꾸리게 된다",
+    "interpretation_en": "she will have much misfortune and sorrow; her husband will be a victim to invalidism and she will be left a widow",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Lizard",
+      "original": "For a woman to dream that a lizard crawls up her skirt, or scratches her, she will have much misfortune and sorrow.",
+      "translation_ko": "여성이 도마뱀이 치마 위로 기어오르거나 할퀴는 꿈을 꾸면, 궂은일과 슬픔이 크다"
+    }
+  }
+]

@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 103 — Lion, 14건)
+// (지금 담긴 것: 배치 104 — Lips~Lizard, 18건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +30,25 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "lion", ctx: "사자를 봄", text: "사자가 어슬렁거리고 있었다" },
-  { id: "lion", ctx: "사자를 굴복시킴", text: "사자를 굴복시켰다" },
-  { id: "lion", ctx: "사자에게 눌림", text: "사자에게 눌렸다" },
-  { id: "lion", ctx: "우리에 갇힌 사자를 봄", text: "우리에 갇힌 사자를 보았다" },
-  { id: "lion", ctx: "사람이 사자를 다루는 것을 봄", text: "어떤 사람이 사자를 다루고 있었다" },
-  { id: "lion", ctx: "처녀가 새끼 사자를 봄", text: "처녀가 새끼 사자를 보았다" },
-  { id: "lion", ctx: "새끼 사자를 봄", text: "새끼 사자를 보았다" },
-  { id: "lion", ctx: "사자 굴 속의 다니엘을 봄", text: "사자 굴 속의 다니엘을 보았다" },
-  { id: "lion", ctx: "사자의 울음소리를 들음", text: "사자의 울음소리를 들었다" },
-  { id: "lion", ctx: "사자 머리가 이빨을 드러내고 으르렁댐", text: "사자가 이빨을 드러내고 으르렁댔다" },
-  { id: "lion", ctx: "사자 가죽을 봄", text: "사자 가죽을 보았다" },
-  { id: "lion", ctx: "사자를 탐", text: "사자를 타고 있었다" },
-  { id: "lion", ctx: "주머니칼로 아이들을 사자에게서 지킴", text: "주머니칼로 아이들을 사자에게서 지켰다" },
+  { id: "lips", ctx: "두껍고 보기 흉한 입술을 봄", text: "두껍고 흉한 입술을 보았다" },
+  { id: "lips", ctx: "도톰하고 붉은 입술을 봄", text: "도톰하고 붉은 입술을 보았다" },
+  { id: "lips", ctx: "얇은 입술을 봄", text: "얇은 입술을 보았다" },
+  { id: "lips", ctx: "부르트거나 부은 입술을 봄", text: "입술이 부은 것을 보았다" },
+  { id: "liquor", ctx: "술을 삼", text: "술을 샀다" },
+  { id: "liquor", ctx: "술을 팜", text: "술을 팔았다" },
+  { id: "liquor", ctx: "통에 든 술을 봄", text: "나무통에 든 술을 보았다" },
+  { id: "liquor", ctx: "병에 든 술을 봄", text: "병에 든 술을 보았다" },
+  { id: "liquor", ctx: "여성이 술을 다루거나 마심", text: "여자가 술을 다루고 있었다" },
+  { id: "liver", ctx: "간이 상한 것을 봄", text: "간이 상한 것을 보았다" },
+  { id: "liver", ctx: "간을 먹음", text: "간을 먹었다" },
+  { id: "lizard", ctx: "도마뱀을 봄", text: "도마뱀이 기어다니고 있었다" },
+  { id: "lizard", ctx: "도마뱀을 죽임", text: "도마뱀을 죽였다" },
+  { id: "lizard", ctx: "도마뱀이 달아남", text: "도마뱀이 달아났다" },
+  { id: "lizard", ctx: "도마뱀이 치마 위로 기어오르거나 할큄", text: "도마뱀이 치마 위로 기어올랐다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "lion", ctx: "사자가 크게 울부짖음", text: "사자가 크게 울부짖었다" },
+  { id: "liquor", ctx: "남이 권하는 술을 마심", text: "남이 권하는 술을 마셨다" },
+  { id: "liquor", ctx: "술을 마심", text: "혼자 술을 마셨다" },
+  { id: "liquor", ctx: "술에 취하도록 마심", text: "술에 취하도록 마셨다" },
 ];
 
 let notFound = 0;

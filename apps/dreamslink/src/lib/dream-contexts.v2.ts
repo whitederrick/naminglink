@@ -1230,6 +1230,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "liquor::높은 누각에서 술을 마심": "pavilion tower upstairs",
   "liquor::배 위에서 술을 마심": "boat ship aboard deck",
   "liquor::여성이 흥청거리며 술을 마심": "hilarious discredit pleasure",
+  "liquor::술을 삼": "buying usurpation legal claim",
+  "liquor::술을 팜": "sell criticised niggardly benevolence",
+  "liquor::통에 든 술을 봄": "barrels tendency home pleasant",
+  "liquor::병에 든 술을 봄": "bottles tangible",
+  "liquor::여성이 술을 다루거나 마심": "handling Bohemian shallow contentment",
   "stone::강물 속의 모래와 돌": "river sand stream water",
   "stone::돌 위에 누움": "lying lay rested",
   "stone::돌을 옮겨 집에 들임": "carried brought home moved",
@@ -4141,5 +4146,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "linen::린넨 옷을 입은 사람을 봄": "garments tidings inheritance",
   "linen::깨끗하고 고운 린넨 옷을 입음": "apparelled clean fullest assured",
   "linen::더러워진 린넨 옷을 입음": "soiled mingled occasionally",
-  "linseed-oil::아마씨기름을 봄": "impetuous extravagance checked kindly interference"
+  "linseed-oil::아마씨기름을 봄": "impetuous extravagance checked kindly interference",
+  "lips::두껍고 보기 흉한 입술을 봄": "thick unsightly disagreeable hasty temper",
+  "lips::도톰하고 붉은 입술을 봄": "full sweet cherry harmony affluence fidelity",
+  "lips::얇은 입술을 봄": "thin mastery intricate subjects",
+  "lips::부르트거나 부은 입술을 봄": "sore swollen privations unhealthful",
+  "liver::간이 상한 것을 봄": "disordered querulous fault-finding disquiet",
+  "liver::간을 먹음": "eating deceitful installed affection",
+  "lizard::도마뱀을 봄": "attacks enemies",
+  "lizard::도마뱀을 죽임": "kill regain lost reputation",
+  "lizard::도마뱀이 달아남": "escape vexations crosses",
+  "lizard::도마뱀이 치마 위로 기어오르거나 할큄": "crawls skirt scratches widow sustenance"
 };

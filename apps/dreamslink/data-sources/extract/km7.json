@@ -234,7 +234,11 @@
       "막걸리",
       "맥주",
       "청주",
-      "음주"
+      "음주",
+      "양주",
+      "위스키",
+      "술을",
+      "술이"
     ],
     "aliases_en": [
       "alcohol",
@@ -250,7 +254,12 @@
       "귀인과 마주 앉아 술을 마심": "귀인 마주 앉아 어른과 높은사람",
       "높은 누각에서 술을 마심": "누각 정자 다락 높은곳",
       "배 위에서 술을 마심": "배위 배에서 뱃놀이 선상",
-      "여성이 흥청거리며 술을 마심": "흥청 왁자 떠들썩 진탕"
+      "여성이 흥청거리며 술을 마심": "흥청 왁자 떠들썩 진탕",
+      "술을 삼": "샀다 사서 구입",
+      "술을 팜": "팔았 팔고 판매",
+      "통에 든 술을 봄": "통에 나무통 술통",
+      "병에 든 술을 봄": "병에 술병 유리병",
+      "여성이 술을 다루거나 마심": "여자가 여성이 아낙"
     },
     "contexts_en": {
       "남이 권하는 술을 마심": "offered pouring urged poured",
@@ -260,7 +269,12 @@
       "귀인과 마주 앉아 술을 마심": "noble dignitary facing sitting",
       "높은 누각에서 술을 마심": "pavilion tower upstairs",
       "배 위에서 술을 마심": "boat ship aboard deck",
-      "여성이 흥청거리며 술을 마심": "hilarious discredit pleasure"
+      "여성이 흥청거리며 술을 마심": "hilarious discredit pleasure",
+      "술을 삼": "buying usurpation legal claim",
+      "술을 팜": "sell criticised niggardly benevolence",
+      "통에 든 술을 봄": "barrels tendency home pleasant",
+      "병에 든 술을 봄": "bottles tangible",
+      "여성이 술을 다루거나 마심": "handling Bohemian shallow contentment"
     }
   },
   {
