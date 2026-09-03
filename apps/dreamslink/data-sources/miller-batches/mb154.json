@@ -1,0 +1,27 @@
+{
+  "batch": 154,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pardon",
+      "text": "To dream that you are endeavoring to gain pardon for an offense which you never committed, denotes that you will be troubled, and seemingly with cause, over your affairs, but it will finally appear that it was for your advancement. If offense was committed, you will realize embarrassment in affairs. To receive pardon, you will prosper after a series of misfortunes.",
+      "note": "기존 상징 `pardon`(사면, 주공해몽)에 둘을 더한다. 「사면을 받음」은 뺐다 — 이미 있는 `pardon`의 「큰 사면을 받음」과 같은 그림(사면을 받음)인데 주공해몽은 흉, 밀러는 길로 정반대다(§31, 노새·오디와 같은 자리) — 옛 판정을 그대로 두고 건너뛴다. 「[147] See kindred words」는 구체적 대상이 없는 cross-ref라 뺐다"
+    },
+    {
+      "headword": "Parents",
+      "text": "To see your parents looking cheerful while dreaming, denotes harmony and pleasant associates. If they appear to you after they are dead, it is a warning of approaching trouble, and you should be particular of your dealings. To see them while they are living, and they seem to be in your home and happy, denotes pleasant changes for you. To a young woman, this usually brings marriage and prosperity. If pale and attired in black, grave disappointments will harass you. To dream of seeing your parents looking robust and contented, denotes you are under fortunate environments; your business and love interests will flourish. If they appear indisposed or sad, you will find life's favors passing you by without recognition.",
+      "note": "새 상징 `parents`(부모). 이미 있는 `father`·`mother`(밀러 별개 표제어)와는 다르다 — 원문이 「[148] See Father and Mother」로 그쪽을 가리키지만, 여기 일곱 문장은 부모 어느 한쪽이 아니라 둘을 뭉뚱그린 그림이라 새로 세웠다(Palace가 「[145] See Opulence」를 가리키면서도 독립 상징으로 남은 것과 같은 자리, 배치 149)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "To receive pardon, you will prosper after a series of misfortunes.",
+      "reason": "`Pardon` — 이미 있는 `pardon`의 「큰 사면을 받음」(주공해몽, 흉)과 같은 그림인데 밀러는 길로 정반대다. 못 가르니 옛 판정을 그대로 둔다"
+    },
+    {
+      "sentence": "[147] See kindred words.",
+      "reason": "`Pardon` — 구체적 대상이 없는 cross-reference"
+    }
+  ]
+}

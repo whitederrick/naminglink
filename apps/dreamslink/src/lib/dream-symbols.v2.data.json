@@ -62,6 +62,7 @@
     "m151.json",
     "m152.json",
     "m153.json",
+    "m154.json",
     "m16.json",
     "m17.json",
     "m18.json",
@@ -27861,6 +27862,123 @@
               "locator": "被害鬥傷打罵",
               "original": "殺驢騾馬有酒食",
               "translation_ko": "나귀와 노새와 말을 잡으면 술과 음식이 생긴다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parents",
+      "term_ko": "부모",
+      "term_en": "parents",
+      "aliases": [
+        "부모가",
+        "부모님이",
+        "부모님"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "부모가 즐거워 보임",
+          "interpretation_ko": "화목과 즐거운 벗들이 있을 조짐",
+          "interpretation_en": "denotes harmony and pleasant associates",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parents",
+              "original": "To see your parents looking cheerful while dreaming, denotes harmony and pleasant associates.",
+              "translation_ko": "부모가 즐거워 보이는 꿈은, 화목과 즐거운 벗들이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "돌아가신 부모가 나타남",
+          "interpretation_ko": "다가올 곤경을 미리 알리니 거래를 조심하라는 조짐",
+          "interpretation_en": "it is a warning of approaching trouble, and you should be particular of your dealings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parents",
+              "original": "If they appear to you after they are dead, it is a warning of approaching trouble, and you should be particular of your dealings.",
+              "translation_ko": "돌아가신 부모가 나타나는 꿈은, 다가올 곤경을 미리 알리니 거래를 조심하라는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "살아있는 부모가 집에서 행복해 보임",
+          "interpretation_ko": "즐거운 변화가 있을 조짐",
+          "interpretation_en": "denotes pleasant changes for you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parents",
+              "original": "To see them while they are living, and they seem to be in your home and happy, denotes pleasant changes for you.",
+              "translation_ko": "살아있는 부모가 집에서 행복해 보이는 꿈은, 즐거운 변화가 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 부모가 집에서 행복한 꿈을 꿈",
+          "interpretation_ko": "혼인과 번영을 가져다줄 조짐",
+          "interpretation_en": "to a young woman, this usually brings marriage and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parents",
+              "original": "To a young woman, this usually brings marriage and prosperity.",
+              "translation_ko": "처녀가 부모가 집에서 행복한 꿈을 꾸면, 혼인과 번영을 가져다줄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부모가 창백하고 검은 옷을 입고 나타남",
+          "interpretation_ko": "큰 실망을 겪을 조짐",
+          "interpretation_en": "grave disappointments will harass you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parents",
+              "original": "If pale and attired in black, grave disappointments will harass you.",
+              "translation_ko": "부모가 창백하고 검은 옷을 입고 나타나는 꿈은, 큰 실망을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부모가 건강하고 만족스러워 보임",
+          "interpretation_ko": "좋은 환경에 있어 사업과 애정이 번창할 조짐",
+          "interpretation_en": "you are under fortunate environments; your business and love interests will flourish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parents",
+              "original": "To dream of seeing your parents looking robust and contented, denotes you are under fortunate environments; your business and love interests will flourish.",
+              "translation_ko": "부모가 건강하고 만족스러워 보이는 꿈은, 좋은 환경에 있어 사업과 애정이 번창할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부모가 편찮거나 슬퍼 보임",
+          "interpretation_ko": "인생의 행운이 그냥 지나칠 조짐",
+          "interpretation_en": "you will find life's favors passing you by without recognition",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parents",
+              "original": "If they appear indisposed or sad, you will find life's favors passing you by without recognition.",
+              "translation_ko": "부모가 편찮거나 슬퍼 보이는 꿈은, 인생의 행운이 그냥 지나칠 조짐이다"
             }
           ]
         }
@@ -66581,6 +66699,70 @@
       ]
     },
     {
+      "id": "pardon",
+      "term_ko": "사면",
+      "term_en": "pardon",
+      "aliases": [
+        "특사",
+        "방면",
+        "용서",
+        "사면령",
+        "용서받으려"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "큰 사면을 받음",
+          "interpretation_ko": "집안에 흉한 일이 있을 조짐",
+          "interpretation_en": "a sign of misfortune in the household",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "得大赦者宅舍凶",
+              "translation_ko": "큰 사면을 받으면 집이 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "저지르지 않은 잘못을 용서받으려 함",
+          "interpretation_ko": "걱정거리가 있어 보이나 실은 발전을 위한 것으로 드러날 조짐",
+          "interpretation_en": "you will be troubled, and seemingly with cause, over your affairs, but it will finally appear that it was for your advancement",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pardon",
+              "original": "To dream that you are endeavoring to gain pardon for an offense which you never committed, denotes that you will be troubled, and seemingly with cause, over your affairs, but it will finally appear that it was for your advancement.",
+              "translation_ko": "저지르지 않은 잘못을 용서받으려 하는 꿈은, 걱정거리가 있어 보이나 실은 발전을 위한 것으로 드러날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "실제로 잘못을 저지른 채 용서를 구함",
+          "interpretation_ko": "곤경스러운 일을 겪을 조짐",
+          "interpretation_en": "if offense was committed, you will realize embarrassment in affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pardon",
+              "original": "If offense was committed, you will realize embarrassment in affairs.",
+              "translation_ko": "실제로 잘못을 저지른 채 용서를 구하는 꿈은, 곤경스러운 일을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "pavilion",
       "term_ko": "누각",
       "term_en": "pavilion",
@@ -101077,40 +101259,6 @@
               "locator": "文書筆硯兵器",
               "original": "受人紙錢主大吉",
               "translation_ko": "남에게서 지전을 받으면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "pardon",
-      "term_ko": "사면",
-      "term_en": "pardon",
-      "aliases": [
-        "특사",
-        "방면",
-        "용서",
-        "사면령"
-      ],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "큰 사면을 받음",
-          "interpretation_ko": "집안에 흉한 일이 있을 조짐",
-          "interpretation_en": "a sign of misfortune in the household",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "得大赦者宅舍凶",
-              "translation_ko": "큰 사면을 받으면 집이 흉하다"
             }
           ]
         }

@@ -1011,6 +1011,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "needle::바늘을 찾음": "looking useless worries",
   "needle::바늘을 찾아냄": "find friends appreciate",
   "needle::바늘이 부러짐": "break loneliness poverty",
+  "pardon::저지르지 않은 잘못을 용서받으려 함": "never advancement troubled",
+  "pardon::실제로 잘못을 저지른 채 용서를 구함": "offense committed embarrassment",
+  "pardon::큰 사면을 받음": "great received",
   "soldier::군인이 집에 들어옴": "entered house home",
   "soldier::군사가 흩어지는 것을 봄": "scattered scattering dispersed",
   "wild-duck::물오리가 집 안으로 들어옴": "came inside house",
@@ -4828,5 +4831,12 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "paradise::낙원으로 가다 헤매고 길을 잃음": "bewildered lost disappointing",
   "paradise::낙원에 있음": "loyal friends willing aid",
   "paralysis::마비에 걸림": "financial reverses literary",
-  "paralysis::연인이 마비에 걸림": "lovers cessation affections"
+  "paralysis::연인이 마비에 걸림": "lovers cessation affections",
+  "parents::부모가 즐거워 보임": "cheerful harmony associates",
+  "parents::돌아가신 부모가 나타남": "dead warning trouble",
+  "parents::살아있는 부모가 집에서 행복해 보임": "home happy pleasant changes",
+  "parents::처녀가 부모가 집에서 행복한 꿈을 꿈": "young woman marriage prosperity",
+  "parents::부모가 창백하고 검은 옷을 입고 나타남": "pale black grave disappointments",
+  "parents::부모가 건강하고 만족스러워 보임": "robust contented fortunate flourish",
+  "parents::부모가 편찮거나 슬퍼 보임": "indisposed sad passing recognition"
 };

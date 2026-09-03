@@ -1,0 +1,31 @@
+[
+  {
+    "id": "parents",
+    "aliases": [
+      "부모가",
+      "부모님이",
+      "부모님"
+    ],
+    "aliases_en": [
+      "your parents"
+    ],
+    "contexts": {
+      "부모가 즐거워 보임": "즐거워 화목 벗들",
+      "돌아가신 부모가 나타남": "돌아가신 곤경 조심",
+      "살아있는 부모가 집에서 행복해 보임": "살아있는",
+      "처녀가 부모가 집에서 행복한 꿈을 꿈": "처녀 혼인 번영",
+      "부모가 창백하고 검은 옷을 입고 나타남": "창백 검은 옷을 실망",
+      "부모가 건강하고 만족스러워 보임": "건강하 만족스러 번창",
+      "부모가 편찮거나 슬퍼 보임": "편찮 슬퍼 지나칠"
+    },
+    "contexts_en": {
+      "부모가 즐거워 보임": "cheerful harmony associates",
+      "돌아가신 부모가 나타남": "dead warning trouble",
+      "살아있는 부모가 집에서 행복해 보임": "home happy pleasant changes",
+      "처녀가 부모가 집에서 행복한 꿈을 꿈": "young woman marriage prosperity",
+      "부모가 창백하고 검은 옷을 입고 나타남": "pale black grave disappointments",
+      "부모가 건강하고 만족스러워 보임": "robust contented fortunate flourish",
+      "부모가 편찮거나 슬퍼 보임": "indisposed sad passing recognition"
+    }
+  }
+]

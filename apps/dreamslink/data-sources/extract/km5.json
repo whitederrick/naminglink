@@ -1143,7 +1143,8 @@
       "특사",
       "방면",
       "용서",
-      "사면령"
+      "사면령",
+      "용서받으려"
     ],
     "aliases_en": [
       "amnesty",
@@ -1151,8 +1152,16 @@
       "clemency",
       "forgiven"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "저지르지 않은 잘못을 용서받으려 함": "저지르지 않은 발전",
+      "실제로 잘못을 저지른 채 용서를 구함": "실제로 저지른 곤경스러운",
+      "큰 사면을 받음": "받았 받은"
+    },
+    "contexts_en": {
+      "저지르지 않은 잘못을 용서받으려 함": "never advancement troubled",
+      "실제로 잘못을 저지른 채 용서를 구함": "offense committed embarrassment",
+      "큰 사면을 받음": "great received"
+    }
   },
   {
     "id": "prisoner",
