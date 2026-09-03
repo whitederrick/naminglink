@@ -1,0 +1,197 @@
+[
+  {
+    "term_ko": "베짜기",
+    "term_en": "weaving",
+    "context": "낯선 이가 베틀을 다루는 것을 봄",
+    "interpretation_ko": "둘레 사람들의 말 많음 때문에 성가시고 부질없이 속상할 흉한 조짐. 기쁘게 바라던 일에 실망도 따른다",
+    "interpretation_en": "denotes much vexation and useless irritation from the talkativeness of those about you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Loom",
+      "original": "To dream of standing by and seeing a loom operated by a stranger, denotes much vexation and useless irritation from the talkativeness of those about you.",
+      "translation_ko": "곁에 서서 낯선 이가 베틀을 다루는 것을 보는 꿈은, 둘레 사람들의 말 많음 때문에 성가시고 부질없이 속상함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "베짜기",
+    "term_en": "weaving",
+    "context": "어여쁜 여인들이 베틀을 다루는 것을 봄",
+    "interpretation_ko": "사랑하는 이에게 더할 나위 없이 좋은 길한 조짐. 혼인한 이에게는 뜻이 맞는 일거리를, 부부에게는 취향이 가까워짐을 알린다",
+    "interpretation_en": "denotes unqualified success to those in love; it predicts congenial pursuits to the married",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Loom",
+      "original": "To see good-looking women attending the loom, denotes unqualified success to those in love.",
+      "translation_ko": "어여쁜 여인들이 베틀을 돌보는 것을 보면, 사랑하는 이에게 더할 나위 없이 좋다"
+    }
+  },
+  {
+    "term_ko": "베짜기",
+    "term_en": "weaving",
+    "context": "여성이 옛날 베틀로 베를 짬",
+    "interpretation_ko": "살림 잘하는 지아비를 만나고 고운 아이들이 삶을 기쁘게 채울 길한 조짐",
+    "interpretation_en": "signifies that she will have a thrifty husband and beautiful children will fill her life with happy solicitations",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Loom",
+      "original": "For a woman to dream of weaving on an oldtime loom, signifies that she will have a thrifty husband and beautiful children will fill her life with happy solicitations.",
+      "translation_ko": "여성이 옛날 베틀로 베를 짜는 꿈은, 살림 잘하는 지아비를 만나고 고운 아이들이 삶을 기쁘게 채움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "베짜기",
+    "term_en": "weaving",
+    "context": "멈춰 있는 베틀을 봄",
+    "interpretation_ko": "뿌루퉁하고 고집 센 사람이 저를 몹시 애태울 흉한 조짐",
+    "interpretation_en": "denotes a sulky and stubborn person, who will cause you much anxious care",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Loom",
+      "original": "To see an idle loom, denotes a sulky and stubborn person, who will cause you much anxious care.",
+      "translation_ko": "멈춰 있는 베틀을 보면, 뿌루퉁하고 고집 센 사람이 저를 몹시 애태운다"
+    }
+  },
+  {
+    "term_ko": "주기도문",
+    "term_en": "lord's prayer",
+    "context": "주기도문을 외움",
+    "interpretation_ko": "숨은 적에게 위협받아, 어려움을 넘기려면 벗들의 도움과 힘이 필요할 조짐",
+    "interpretation_en": "foretells that you are threatened with secret foes and will need the alliance and the support of friends to tide you over difficulties",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Lord's Prayer",
+      "original": "To dream of repeating the Lord's Prayer, foretells that you are threatened with secret foes and will need the alliance and the support of friends to tide you over difficulties.",
+      "translation_ko": "주기도문을 외우는 꿈은, 숨은 적에게 위협받아 어려움을 넘기려면 벗들의 도움과 힘이 필요함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "주기도문",
+    "term_en": "lord's prayer",
+    "context": "남이 주기도문을 외우는 것을 들음",
+    "interpretation_ko": "어떤 벗에게 위험이 닥칠 흉한 조짐",
+    "interpretation_en": "denotes the danger of some friend",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Lord's Prayer",
+      "original": "To hear others repeat it, denotes the danger of some friend.",
+      "translation_ko": "남이 그것을 외우는 것을 들으면 어떤 벗에게 위험이 닥친다"
+    }
+  },
+  {
+    "term_ko": "복권",
+    "term_en": "lottery",
+    "context": "복권을 봄",
+    "interpretation_ko": "하는 일에서 좋지 않은 사귐을 갖게 될 흉한 조짐. 사랑은 잠깐의 즐거움만 준다",
+    "interpretation_en": "denotes you will have unfavorable friendships in business; your love affairs will produce temporary pleasure",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lottery",
+      "original": "To dream of a lottery, denotes you will have unfavorable friendships in business.",
+      "translation_ko": "복권의 꿈은, 하는 일에서 좋지 않은 사귐을 갖게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "복권",
+    "term_en": "lottery",
+    "context": "남이 복권에 당첨되는 것을 봄",
+    "interpretation_ko": "흥겨운 자리와 놀이가 있어 벗이 여럿 모일 길한 조짐",
+    "interpretation_en": "denotes convivialities and amusements, bringing many friends together",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lottery",
+      "original": "To see others winning in a lottery, denotes convivialities and amusements, bringing many friends together.",
+      "translation_ko": "남이 복권에 당첨되는 것을 보면, 흥겨운 자리와 놀이가 있어 벗이 여럿 모인다"
+    }
+  },
+  {
+    "term_ko": "복권",
+    "term_en": "lottery",
+    "context": "당첨 번호를 가짐",
+    "interpretation_ko": "요행으로 얻는 것이 있으나 그것이 헷갈리고 애태울 조짐",
+    "interpretation_en": "you will gain in a speculation which will perplex and give you much anxiety",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lottery",
+      "original": "If you hold the lucky number, you will gain in a speculation which will perplex and give you much anxiety.",
+      "translation_ko": "당첨 번호를 쥐고 있으면, 요행으로 얻는 것이 있으나 그것이 헷갈리고 애태운다"
+    }
+  },
+  {
+    "term_ko": "복권",
+    "term_en": "lottery",
+    "context": "복권 추첨에 마음을 쏟음",
+    "interpretation_ko": "쓸모없는 일에 뛰어들어 좋지 않은 길을 나서게 될 흉한 조짐",
+    "interpretation_en": "you will engage in some worthless enterprise, which will cause you to make an unpropitious journey",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lottery",
+      "original": "To dream of a lottery, and that you are taking great interest in the drawing, you will engage in some worthless enterprise, which will cause you to make an unpropitious journey.",
+      "translation_ko": "복권 추첨에 마음을 쏟는 꿈은, 쓸모없는 일에 뛰어들어 좋지 않은 길을 나서게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "복권",
+    "term_en": "lottery",
+    "context": "복권에서 잃음",
+    "interpretation_ko": "꿍꿍이 있는 이들에게 당하고 하는 일이 우울해질 흉한 조짐",
+    "interpretation_en": "you will be the victim of designing persons; gloomy depressions in your affairs will result",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lottery",
+      "original": "If you lose in a lottery, you will be the victim of designing persons.",
+      "translation_ko": "복권에서 잃으면 꿍꿍이 있는 이들에게 당한다"
+    }
+  },
+  {
+    "term_ko": "복권",
+    "term_en": "lottery",
+    "context": "처녀가 복권 꿈을 꿈",
+    "interpretation_ko": "일을 함부로 하는 버릇이 실망을 부르고, 미덥지도 한결같지도 않은 지아비를 만날 흉한 조짐",
+    "interpretation_en": "denotes that her careless way of doing things will bring her disappointment, and a husband who will not be altogether reliable or constant",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Lottery",
+      "original": "For a young woman to dream of a lottery in any way, denotes that her careless way of doing things will bring her disappointment, and a husband who will not be altogether reliable or constant.",
+      "translation_ko": "젊은 여성이 복권 꿈을 꾸면, 일을 함부로 하는 버릇이 실망을 부르고 미덥지도 한결같지도 않은 지아비를 만난다"
+    }
+  },
+  {
+    "term_ko": "머릿니",
+    "term_en": "lice",
+    "context": "머릿니 한 마리를 봄",
+    "interpretation_ko": "몸이 걱정되어 마음이 불편하고, 적이 애를 태울 흉한 조짐",
+    "interpretation_en": "foretells that you will have uneasy feelings regarding your health, and an enemy will give you exasperating vexation",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Louse",
+      "original": "To dream of a louse, foretells that you will have uneasy feelings regarding your health, and an enemy will give you exasperating vexation.",
+      "translation_ko": "이 한 마리의 꿈은, 몸이 걱정되어 마음이 불편하고 적이 애를 태움을 뜻한다"
+    }
+  }
+]

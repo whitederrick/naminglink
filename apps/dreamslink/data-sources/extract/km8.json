@@ -1208,7 +1208,12 @@
       "길쌈",
       "직조",
       "베틀",
-      "베를 짜"
+      "베를 짜",
+      "베틀을",
+      "베틀이",
+      "베를 짜는",
+      "베를 짰다",
+      "베를 짜서"
     ],
     "aliases_en": [
       "weaving cloth",
@@ -1216,7 +1221,19 @@
       "weave",
       "woven"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "날실을 걸어 베를 짬": "날실 걸어",
+      "낯선 이가 베틀을 다루는 것을 봄": "낯선 모르는",
+      "어여쁜 여인들이 베틀을 다루는 것을 봄": "어여쁜 예쁜 여인들",
+      "여성이 옛날 베틀로 베를 짬": "옛날 오래된",
+      "멈춰 있는 베틀을 봄": "멈춰 쉬고"
+    },
+    "contexts_en": {
+      "날실을 걸어 베를 짬": "warp threads",
+      "낯선 이가 베틀을 다루는 것을 봄": "stranger vexation irritation talkativeness",
+      "어여쁜 여인들이 베틀을 다루는 것을 봄": "good-looking attending unqualified congenial",
+      "여성이 옛날 베틀로 베를 짬": "oldtime thrifty husband solicitations",
+      "멈춰 있는 베틀을 봄": "idle sulky stubborn anxious"
+    }
   }
 ]

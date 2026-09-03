@@ -1,0 +1,49 @@
+[
+  {
+    "id": "lord-s-prayer",
+    "aliases": [
+      "주기도",
+      "주기도문을",
+      "주기도문이"
+    ],
+    "aliases_en": [
+      "the lord's prayer"
+    ],
+    "contexts": {
+      "주기도문을 외움": "외웠 읊었 바쳤",
+      "남이 주기도문을 외우는 것을 들음": "남이 다른 사람이 들었"
+    },
+    "contexts_en": {
+      "주기도문을 외움": "repeating threatened secret foes alliance",
+      "남이 주기도문을 외우는 것을 들음": "hear others danger friend"
+    }
+  },
+  {
+    "id": "lottery",
+    "aliases": [
+      "복권을",
+      "복권이",
+      "로또"
+    ],
+    "aliases_en": [
+      "lotteries",
+      "a lottery ticket"
+    ],
+    "contexts": {
+      "복권을 봄": "샀다 긁었",
+      "남이 복권에 당첨되는 것을 봄": "남이 다른 사람이",
+      "당첨 번호를 가짐": "당첨 번호",
+      "복권 추첨에 마음을 쏟음": "추첨 뽑는",
+      "복권에서 잃음": "잃었 꽝이 떨어졌",
+      "처녀가 복권 꿈을 꿈": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "복권을 봄": "unfavorable friendships temporary",
+      "남이 복권에 당첨되는 것을 봄": "winning convivialities amusements",
+      "당첨 번호를 가짐": "lucky number speculation perplex",
+      "복권 추첨에 마음을 쏟음": "drawing interest worthless unpropitious",
+      "복권에서 잃음": "lose victim designing gloomy",
+      "처녀가 복권 꿈을 꿈": "careless disappointment reliable constant"
+    }
+  }
+]

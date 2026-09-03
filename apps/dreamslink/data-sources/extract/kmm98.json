@@ -23,7 +23,8 @@
     "aliases": [
       "서캐",
       "몸니",
-      "이 떼"
+      "이 떼",
+      "이 한 마리"
     ],
     "aliases_en": [
       "louse",
@@ -33,13 +34,15 @@
       "머릿니가 나오는 꿈을 꿈": "들끓 우글",
       "가축에 이가 붙음": "가축 짐승 소에",
       "제 몸에 이가 붙음": "몸에 살갗 머리에",
-      "이를 잡음": "잡았 잡는"
+      "이를 잡음": "잡았 잡는",
+      "머릿니 한 마리를 봄": "마리"
     },
     "contexts_en": {
       "머릿니가 나오는 꿈을 꿈": "waking offensive ailments",
       "가축에 이가 붙음": "stock famine",
       "제 몸에 이가 붙음": "body unpleasantly acquaintances",
-      "이를 잡음": "catching sickness morbidity"
+      "이를 잡음": "catching sickness morbidity",
+      "머릿니 한 마리를 봄": "uneasy regarding exasperating"
     }
   },
   {

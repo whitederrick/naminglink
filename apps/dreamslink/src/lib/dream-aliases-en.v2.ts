@@ -6133,5 +6133,12 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "lodger": [
     "lodgers",
     "a boarder"
+  ],
+  "lord-s-prayer": [
+    "the lord's prayer"
+  ],
+  "lottery": [
+    "lotteries",
+    "a lottery ticket"
   ]
 };

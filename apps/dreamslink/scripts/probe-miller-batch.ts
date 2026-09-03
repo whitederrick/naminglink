@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 107 — Locomotive~Lodger, 13건)
+// (지금 담긴 것: 배치 108 — Loom~Louse, 16건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,20 +30,23 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "engine", ctx: "기관차가 빠르게 달림", text: "기관차가 빠르게 달렸다" },
-  { id: "engine", ctx: "기관차가 완전히 부서진 것을 봄", text: "기관차가 완전히 부서져 있었다" },
-  { id: "engine", ctx: "기관차가 오는 소리를 들음", text: "기관차가 오는 소리를 들었다" },
-  { id: "engine", ctx: "기관차의 기적 소리를 들음", text: "기관차의 기적 소리를 들었다" },
-  { id: "grasshopper", ctx: "메뚜기를 봄", text: "메뚜기가 새까맣게 무리 지어 있었다" },
-  { id: "grasshopper", ctx: "여성이 메뚜기 꿈을 꿈", text: "여자가 메뚜기 꿈을 꾸었다" },
-  { id: "lodger", ctx: "하숙인을 둠", text: "하숙인을 두었다" },
-  { id: "lodger", ctx: "하숙인이 셈을 안 치르고 떠남", text: "하숙인이 셈을 밀린 채 떠났다" },
-  { id: "lodger", ctx: "하숙인이 셈을 치름", text: "하숙인이 셈을 치렀다" },
+  { id: "weaving", ctx: "낯선 이가 베틀을 다루는 것을 봄", text: "낯선 사람이 베틀을 다루고 있었다" },
+  { id: "weaving", ctx: "어여쁜 여인들이 베틀을 다루는 것을 봄", text: "어여쁜 여인들이 베틀을 돌보고 있었다" },
+  { id: "weaving", ctx: "여성이 옛날 베틀로 베를 짬", text: "여자가 옛날 베틀로 베를 짰다" },
+  { id: "weaving", ctx: "멈춰 있는 베틀을 봄", text: "멈춰 있는 베틀을 보았다" },
+  { id: "lord-s-prayer", ctx: "주기도문을 외움", text: "주기도문을 외웠다" },
+  { id: "lord-s-prayer", ctx: "남이 주기도문을 외우는 것을 들음", text: "남이 주기도문을 외우는 것을 들었다" },
+  { id: "lottery", ctx: "복권을 봄", text: "복권을 샀다" },
+  { id: "lottery", ctx: "남이 복권에 당첨되는 것을 봄", text: "남이 복권에 당첨되는 것을 보았다" },
+  { id: "lottery", ctx: "당첨 번호를 가짐", text: "복권 당첨 번호를 쥐고 있었다" },
+  { id: "lottery", ctx: "복권 추첨에 마음을 쏟음", text: "복권 추첨에 마음을 쏟고 있었다" },
+  { id: "lottery", ctx: "복권에서 잃음", text: "복권에서 잃었다" },
+  { id: "lottery", ctx: "처녀가 복권 꿈을 꿈", text: "처녀가 복권 꿈을 꾸었다" },
+  { id: "lice", ctx: "머릿니 한 마리를 봄", text: "머릿니 한 마리를 보았다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "engine", ctx: "기관차를 봄", text: "기관차가 지나가는 것을 보았다" },
-  { id: "engine", ctx: "고장 난 기관차를 봄", text: "고장 난 기관차를 보았다" },
-  { id: "grasshopper", ctx: "푸른 남새 위의 메뚜기를 봄", text: "푸른 채소 위에 메뚜기가 있었다" },
-  { id: "grasshopper", ctx: "시든 풀 위의 메뚜기를 봄", text: "시든 풀 위에 메뚜기가 있었다" },
+  { id: "weaving", ctx: "날실을 걸어 베를 짬", text: "날실을 걸어 베를 짰다" },
+  { id: "lice", ctx: "머릿니가 나오는 꿈을 꿈", text: "머릿니가 우글거렸다" },
+  { id: "lice", ctx: "이를 잡음", text: "머릿니를 잡았다" },
 ];
 
 let notFound = 0;
