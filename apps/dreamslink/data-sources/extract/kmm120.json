@@ -1,0 +1,40 @@
+[
+  {
+    "id": "mausoleum",
+    "aliases": [
+      "영묘를",
+      "영묘가",
+      "능묘"
+    ],
+    "aliases_en": [
+      "mausoleums"
+    ],
+    "contexts": {
+      "영묘를 봄": "우뚝 솟아",
+      "영묘 안에 있음": "안에 들어가"
+    },
+    "contexts_en": {
+      "영묘를 봄": "sickness death trouble prominent",
+      "영묘 안에 있음": "inside foretells illness"
+    }
+  },
+  {
+    "id": "may",
+    "aliases": [
+      "5월",
+      "오월이",
+      "오월에"
+    ],
+    "aliases_en": [
+      "the month of may"
+    ],
+    "contexts": {
+      "오월을 봄": "5월 다섯째",
+      "철에 맞지 않게 자연이 괴이해 보임": "괴이 이상하게 철에"
+    },
+    "contexts_en": {
+      "오월을 봄": "prosperous times young",
+      "철에 맞지 않게 자연이 괴이해 보임": "nature freakish clouding"
+    }
+  }
+]

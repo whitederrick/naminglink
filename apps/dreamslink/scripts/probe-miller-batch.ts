@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 119 — Mason~Match, 14건)
+// (지금 담긴 것: 배치 120 — Matting~May Bugs, 12건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +30,19 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "mason", ctx: "석공이 일하는 것을 봄", text: "석공이 일하는 것을 보았다" },
-  { id: "mason", ctx: "예복을 갖춘 석공 무리를 봄", text: "예복을 갖춘 석공 무리를 보았다" },
-  { id: "carnival", ctx: "처녀가 가장무도회에 끼어듦", text: "처녀가 가장무도회에 끼어들었다" },
-  { id: "carnival", ctx: "가장무도회에 감", text: "가장무도회에 갔다" },
-  { id: "mast", ctx: "배의 돛대를 봄", text: "배의 돛대가 우뚝 솟아 있었다" },
-  { id: "mast", ctx: "부서진 배의 돛대를 봄", text: "부서진 배의 돛대를 보았다" },
-  { id: "mast", ctx: "뱃사람이 돛대 꿈을 꿈", text: "뱃사람이 돛대 꿈을 꾸었다" },
-  { id: "master", ctx: "제게 주인이 있음", text: "내게 주인이 있었다" },
-  { id: "master", ctx: "제가 주인이 되어 여럿을 거느림", text: "내가 주인이 되어 여럿을 거느렸다" },
-  { id: "straw-mat", ctx: "깔개를 멀리해야 함", text: "깔개가 눈에 띄었다" },
-  { id: "match", ctx: "성냥을 봄", text: "성냥이 놓여 있었다" },
-  { id: "match", ctx: "어둠 속에서 성냥을 그음", text: "어둠 속에서 성냥을 그었다" },
+  { id: "straw-mat", ctx: "바닥에 깐 자리를 봄", text: "바닥에 깔린 돗자리를 보았다" },
+  { id: "mattress", ctx: "요를 봄", text: "요가 개어져 놓여 있었다" },
+  { id: "mattress", ctx: "새 요 위에서 잠", text: "새것인 요 위에서 잠들었다" },
+  { id: "mattress", ctx: "요 만드는 공장을 봄", text: "요 만드는 공장을 보았다" },
+  { id: "mausoleum", ctx: "영묘를 봄", text: "영묘가 우뚝 솟아 있었다" },
+  { id: "mausoleum", ctx: "영묘 안에 있음", text: "영묘 안에 들어가 있었다" },
+  { id: "may", ctx: "오월을 봄", text: "꿈에 5월이었다" },
+  { id: "may", ctx: "철에 맞지 않게 자연이 괴이해 보임", text: "오월인데 자연이 괴이해 보였다" },
+  { id: "beetles", ctx: "풍뎅이를 봄", text: "풍뎅이가 보였다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "carnival", ctx: "카니발에 어울려 참여함", text: "카니발에 어울려 참여했다" },
-  { id: "straw-mat", ctx: "돗자리를 집 안으로 들임", text: "돗자리를 집 안으로 들여놓았다" },
+  { id: "mattress", ctx: "요를 펴서 깖", text: "요를 펴서 깔았다" },
+  { id: "beetles", ctx: "몸에 딱정벌레가 있는 것을 봄", text: "몸에 딱정벌레가 기어 다녔다" },
+  { id: "straw-mat", ctx: "깔개를 멀리해야 함", text: "매트가 눈에 띄었다" },
 ];
 
 let notFound = 0;

@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "돗자리",
+    "term_en": "straw mat",
+    "context": "바닥에 깐 자리를 봄",
+    "interpretation_ko": "앞날이 즐겁고 멀리 있는 이에게서 반가운 기별이 올 길한 조짐",
+    "interpretation_en": "foretells pleasant prospects and cheerful news from the absent",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Matting",
+      "original": "To dream of matting, foretells pleasant prospects and cheerful news from the absent.",
+      "translation_ko": "바닥에 깐 자리의 꿈은, 앞날이 즐겁고 멀리 있는 이에게서 반가운 기별이 옴을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "요",
+    "term_en": "mattress",
+    "context": "요를 봄",
+    "interpretation_ko": "머잖아 새 할 일과 짊어질 것이 생길 조짐",
+    "interpretation_en": "denotes that new duties and responsibilities will shortly be assumed",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mattress",
+      "original": "To dream of a mattress, denotes that new duties and responsibilities will shortly be assumed.",
+      "translation_ko": "요의 꿈은, 머잖아 새 할 일과 짊어질 것이 생김을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "요",
+    "term_en": "mattress",
+    "context": "새 요 위에서 잠",
+    "interpretation_ko": "지금 놓인 자리에 흡족해할 길한 조짐",
+    "interpretation_en": "signifies contentment with present surroundings",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mattress",
+      "original": "To sleep on a new mattress, signifies contentment with present surroundings.",
+      "translation_ko": "새 요 위에서 자면 지금 놓인 자리에 흡족해한다"
+    }
+  },
+  {
+    "term_ko": "요",
+    "term_en": "mattress",
+    "context": "요 만드는 공장을 봄",
+    "interpretation_ko": "알뜰한 동무와 함께 일하게 되고 머잖아 재물을 모을 길한 조짐",
+    "interpretation_en": "denotes that you will be connected in business with thrifty partners and will soon amass wealth",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mattress",
+      "original": "To dream of a mattress factory, denotes that you will be connected in business with thrifty partners and will soon amass wealth.",
+      "translation_ko": "요 만드는 공장의 꿈은, 알뜰한 동무와 함께 일하게 되고 머잖아 재물을 모음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "영묘",
+    "term_en": "mausoleum",
+    "context": "영묘를 봄",
+    "interpretation_ko": "이름난 벗의 병이나 죽음, 또는 그에게 닥친 괴로움을 알리는 흉한 조짐",
+    "interpretation_en": "indicates the sickness, death, or trouble of some prominent friend",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mausoleum",
+      "original": "To dream of a mausoleum, indicates the sickness, death, or trouble of some prominent friend.",
+      "translation_ko": "영묘의 꿈은, 이름난 벗의 병이나 죽음, 또는 그에게 닥친 괴로움을 알린다"
+    }
+  },
+  {
+    "term_ko": "영묘",
+    "term_en": "mausoleum",
+    "context": "영묘 안에 있음",
+    "interpretation_ko": "제가 앓게 될 흉한 조짐",
+    "interpretation_en": "foretells your own illness",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Mausoleum",
+      "original": "To find yourself inside a mausoleum, foretells your own illness.",
+      "translation_ko": "영묘 안에 있으면 제가 앓게 된다"
+    }
+  },
+  {
+    "term_ko": "오월",
+    "term_en": "may",
+    "context": "오월을 봄",
+    "interpretation_ko": "넉넉한 때가 오고 젊은이에게는 즐거움이 있을 길한 조짐",
+    "interpretation_en": "denotes prosperous times, and pleasure for the young",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "May",
+      "original": "To dream of the month of May, denotes prosperous times, and pleasure for the young.",
+      "translation_ko": "오월이라는 달의 꿈은, 넉넉한 때가 오고 젊은이에게는 즐거움이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "오월",
+    "term_en": "may",
+    "context": "철에 맞지 않게 자연이 괴이해 보임",
+    "interpretation_ko": "갑작스러운 슬픔과 실망이 즐거움을 흐릴 흉한 조짐",
+    "interpretation_en": "denotes sudden sorrow and disappointment clouding pleasure",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "May",
+      "original": "To dream that nature appears freakish, denotes sudden sorrow and disappointment clouding pleasure.",
+      "translation_ko": "자연이 괴이해 보이는 꿈은, 갑작스러운 슬픔과 실망이 즐거움을 흐림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "딱정벌레",
+    "term_en": "beetles",
+    "context": "풍뎅이를 봄",
+    "interpretation_ko": "마음 맞는 동무를 바랐는데 성미 사나운 이를 만날 흉한 조짐",
+    "interpretation_en": "denotes an ill-tempered companion where a congenial one was expected",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "May Bugs",
+      "original": "To dream of May bugs, denotes an ill-tempered companion where a congenial one was expected.",
+      "translation_ko": "풍뎅이의 꿈은, 마음 맞는 동무를 바랐는데 성미 사나운 이를 만남을 뜻한다"
+    }
+  }
+]

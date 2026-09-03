@@ -25,6 +25,7 @@
     "m118.json",
     "m119.json",
     "m12.json",
+    "m120.json",
     "m13.json",
     "m14.json",
     "m15.json",
@@ -16761,6 +16762,169 @@
       ]
     },
     {
+      "id": "straw-mat",
+      "term_ko": "돗자리",
+      "term_en": "straw mat",
+      "aliases": [
+        "멍석",
+        "삿자리",
+        "깔개",
+        "매트",
+        "깔개를",
+        "바닥 자리"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "돗자리를 집 안으로 들임",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "薦蓆入吉出則凶",
+              "translation_ko": "돗자리를 들이면 길하고 내보내면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "깔개를 멀리해야 함",
+          "interpretation_ko": "슬픔과 얽힌 일로 이끄는 흉한 조짐 — 꿈에 깔개가 보이면 가까이하지 말 것",
+          "interpretation_en": "keep away from mats in your dreams, as they will usher you into sorrow and perplexities",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mat",
+              "original": "Keep away from mats in your dreams, as they will usher you into sorrow and perplexities.",
+              "translation_ko": "꿈속의 깔개는 멀리하라 — 슬픔과 얽힌 일로 이끈다"
+            }
+          ]
+        },
+        {
+          "context": "바닥에 깐 자리를 봄",
+          "interpretation_ko": "앞날이 즐겁고 멀리 있는 이에게서 반가운 기별이 올 길한 조짐",
+          "interpretation_en": "foretells pleasant prospects and cheerful news from the absent",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Matting",
+              "original": "To dream of matting, foretells pleasant prospects and cheerful news from the absent.",
+              "translation_ko": "바닥에 깐 자리의 꿈은, 앞날이 즐겁고 멀리 있는 이에게서 반가운 기별이 옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리를 집 밖으로 내보냄",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "薦蓆入吉出則凶",
+              "translation_ko": "돗자리를 들이면 길하고 내보내면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리가 해어져 찢어짐",
+          "interpretation_ko": "자리와 지위를 잃을 조짐",
+          "interpretation_en": "a sign of losing one's post",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "破蓆者主失官位",
+              "translation_ko": "돗자리가 찢어지면 벼슬자리를 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리를 새것으로 바꿔 들임",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "換蓆入吉出則凶",
+              "translation_ko": "돗자리를 바꿔 들이면 길하고 내보내면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리를 바꾸어 내보냄",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "換蓆入吉出則凶",
+              "translation_ko": "돗자리를 바꿔 들이면 길하고 내보내면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리와 대자리를 봄",
+          "interpretation_ko": "힘 있는 도움을 받을 조짐",
+          "interpretation_en": "a sign of receiving powerful help",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "蓆簞者主有力助",
+              "translation_ko": "돗자리와 대자리는 힘 있는 도움이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리를 훼손함",
+          "interpretation_ko": "아내가 부정을 저지를 조짐",
+          "interpretation_en": "a sign of a wife's infidelity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "毀蓆幔者妻有姦",
+              "translation_ko": "돗자리와 장막을 훼손하면 아내가 간통한다"
+            }
+          ]
+        },
+        {
+          "context": "돗자리를 펴고 여럿이 함께 앉음",
+          "interpretation_ko": "벼슬자리를 얻을 조짐",
+          "interpretation_en": "a sign of gaining an official post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "舖蓆合坐得官位",
+              "translation_ko": "돗자리를 펴고 함께 앉으면 벼슬자리를 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "actor",
       "term_ko": "배우",
       "term_en": "actor",
@@ -18804,154 +18968,6 @@
               "locator": "捕禁刑罰獄具",
               "original": "枷鎖怕怖主分散",
               "translation_ko": "족쇄를 두려워하면 흩어져 헤어진다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "straw-mat",
-      "term_ko": "돗자리",
-      "term_en": "straw mat",
-      "aliases": [
-        "멍석",
-        "삿자리",
-        "깔개",
-        "매트",
-        "깔개를"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "돗자리를 집 안으로 들임",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "薦蓆入吉出則凶",
-              "translation_ko": "돗자리를 들이면 길하고 내보내면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "깔개를 멀리해야 함",
-          "interpretation_ko": "슬픔과 얽힌 일로 이끄는 흉한 조짐 — 꿈에 깔개가 보이면 가까이하지 말 것",
-          "interpretation_en": "keep away from mats in your dreams, as they will usher you into sorrow and perplexities",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Mat",
-              "original": "Keep away from mats in your dreams, as they will usher you into sorrow and perplexities.",
-              "translation_ko": "꿈속의 깔개는 멀리하라 — 슬픔과 얽힌 일로 이끈다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리를 집 밖으로 내보냄",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "薦蓆入吉出則凶",
-              "translation_ko": "돗자리를 들이면 길하고 내보내면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리가 해어져 찢어짐",
-          "interpretation_ko": "자리와 지위를 잃을 조짐",
-          "interpretation_en": "a sign of losing one's post",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "破蓆者主失官位",
-              "translation_ko": "돗자리가 찢어지면 벼슬자리를 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리를 새것으로 바꿔 들임",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "換蓆入吉出則凶",
-              "translation_ko": "돗자리를 바꿔 들이면 길하고 내보내면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리를 바꾸어 내보냄",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "換蓆入吉出則凶",
-              "translation_ko": "돗자리를 바꿔 들이면 길하고 내보내면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리와 대자리를 봄",
-          "interpretation_ko": "힘 있는 도움을 받을 조짐",
-          "interpretation_en": "a sign of receiving powerful help",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "蓆簞者主有力助",
-              "translation_ko": "돗자리와 대자리는 힘 있는 도움이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리를 훼손함",
-          "interpretation_ko": "아내가 부정을 저지를 조짐",
-          "interpretation_en": "a sign of a wife's infidelity",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "毀蓆幔者妻有姦",
-              "translation_ko": "돗자리와 장막을 훼손하면 아내가 간통한다"
-            }
-          ]
-        },
-        {
-          "context": "돗자리를 펴고 여럿이 함께 앉음",
-          "interpretation_ko": "벼슬자리를 얻을 조짐",
-          "interpretation_en": "a sign of gaining an official post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "舖蓆合坐得官位",
-              "translation_ko": "돗자리를 펴고 함께 앉으면 벼슬자리를 얻는다"
             }
           ]
         }
@@ -47144,6 +47160,85 @@
       ]
     },
     {
+      "id": "mattress",
+      "term_ko": "요",
+      "term_en": "mattress",
+      "aliases": [
+        "이부자리",
+        "매트리스",
+        "깔개",
+        "요를",
+        "요가",
+        "침요"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "요를 펴서 깖",
+          "interpretation_ko": "모든 일이 평온할 조짐",
+          "interpretation_en": "a sign that all matters will be settled and calm",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "毯褥舖陳萬事穩",
+              "translation_ko": "담요와 요를 펴서 깔면 온갖 일이 평온하다"
+            }
+          ]
+        },
+        {
+          "context": "요를 봄",
+          "interpretation_ko": "머잖아 새 할 일과 짊어질 것이 생길 조짐",
+          "interpretation_en": "denotes that new duties and responsibilities will shortly be assumed",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mattress",
+              "original": "To dream of a mattress, denotes that new duties and responsibilities will shortly be assumed.",
+              "translation_ko": "요의 꿈은, 머잖아 새 할 일과 짊어질 것이 생김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "새 요 위에서 잠",
+          "interpretation_ko": "지금 놓인 자리에 흡족해할 길한 조짐",
+          "interpretation_en": "signifies contentment with present surroundings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mattress",
+              "original": "To sleep on a new mattress, signifies contentment with present surroundings.",
+              "translation_ko": "새 요 위에서 자면 지금 놓인 자리에 흡족해한다"
+            }
+          ]
+        },
+        {
+          "context": "요 만드는 공장을 봄",
+          "interpretation_ko": "알뜰한 동무와 함께 일하게 되고 머잖아 재물을 모을 길한 조짐",
+          "interpretation_en": "denotes that you will be connected in business with thrifty partners and will soon amass wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mattress",
+              "original": "To dream of a mattress factory, denotes that you will be connected in business with thrifty partners and will soon amass wealth.",
+              "translation_ko": "요 만드는 공장의 꿈은, 알뜰한 동무와 함께 일하게 되고 머잖아 재물을 모음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "money",
       "term_ko": "돈",
       "term_en": "money",
@@ -49758,6 +49853,67 @@
               "work": "miller",
               "locator": "Beer",
               "original": "To habitue's of this beverage, harmonious prospectives are foreshadowed, if pleasing, natural and cleanly conditions survive."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beetles",
+      "term_ko": "딱정벌레",
+      "term_en": "beetles",
+      "aliases": [
+        "풍뎅이",
+        "갑충",
+        "등딱지 벌레",
+        "풍뎅이가",
+        "풍뎅이를"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "몸에 딱정벌레가 있는 것을 봄",
+          "interpretation_ko": "가난과 자잘한 병을 뜻하는 조짐",
+          "interpretation_en": "a sign denoting poverty and small ills",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Beetles",
+              "original": "To dream of seeing them on your person, denotes poverty and small ills."
+            }
+          ]
+        },
+        {
+          "context": "풍뎅이를 봄",
+          "interpretation_ko": "마음 맞는 동무를 바랐는데 성미 사나운 이를 만날 흉한 조짐",
+          "interpretation_en": "denotes an ill-tempered companion where a congenial one was expected",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "May Bugs",
+              "original": "To dream of May bugs, denotes an ill-tempered companion where a congenial one was expected.",
+              "translation_ko": "풍뎅이의 꿈은, 마음 맞는 동무를 바랐는데 성미 사나운 이를 만남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "딱정벌레를 죽임",
+          "interpretation_ko": "좋은 조짐",
+          "interpretation_en": "a good sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Beetles",
+              "original": "To kill them is good."
             }
           ]
         }
@@ -64643,51 +64799,6 @@
               "locator": "Beaver",
               "original": "If you dream of killing them for their skins, you will be accused of fraud and improper conduct toward the innocent.",
               "translation_ko": "비버를 가죽 때문에 죽이는 꿈을 꾸면 사기와 무고한 사람에 대한 부적절한 행위로 비난받을 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "beetles",
-      "term_ko": "딱정벌레",
-      "term_en": "beetles",
-      "aliases": [
-        "풍뎅이",
-        "갑충",
-        "등딱지 벌레"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "몸에 딱정벌레가 있는 것을 봄",
-          "interpretation_ko": "가난과 자잘한 병을 뜻하는 조짐",
-          "interpretation_en": "a sign denoting poverty and small ills",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Beetles",
-              "original": "To dream of seeing them on your person, denotes poverty and small ills."
-            }
-          ]
-        },
-        {
-          "context": "딱정벌레를 죽임",
-          "interpretation_ko": "좋은 조짐",
-          "interpretation_en": "a good sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Beetles",
-              "original": "To kill them is good."
             }
           ]
         }
@@ -79610,6 +79721,100 @@
       ]
     },
     {
+      "id": "mausoleum",
+      "term_ko": "영묘",
+      "term_en": "mausoleum",
+      "aliases": [
+        "영묘를",
+        "영묘가",
+        "능묘"
+      ],
+      "category": "place",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "영묘를 봄",
+          "interpretation_ko": "이름난 벗의 병이나 죽음, 또는 그에게 닥친 괴로움을 알리는 흉한 조짐",
+          "interpretation_en": "indicates the sickness, death, or trouble of some prominent friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mausoleum",
+              "original": "To dream of a mausoleum, indicates the sickness, death, or trouble of some prominent friend.",
+              "translation_ko": "영묘의 꿈은, 이름난 벗의 병이나 죽음, 또는 그에게 닥친 괴로움을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "영묘 안에 있음",
+          "interpretation_ko": "제가 앓게 될 흉한 조짐",
+          "interpretation_en": "foretells your own illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mausoleum",
+              "original": "To find yourself inside a mausoleum, foretells your own illness.",
+              "translation_ko": "영묘 안에 있으면 제가 앓게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "may",
+      "term_ko": "오월",
+      "term_en": "may",
+      "aliases": [
+        "5월",
+        "오월이",
+        "오월에"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "오월을 봄",
+          "interpretation_ko": "넉넉한 때가 오고 젊은이에게는 즐거움이 있을 길한 조짐",
+          "interpretation_en": "denotes prosperous times, and pleasure for the young",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "May",
+              "original": "To dream of the month of May, denotes prosperous times, and pleasure for the young.",
+              "translation_ko": "오월이라는 달의 꿈은, 넉넉한 때가 오고 젊은이에게는 즐거움이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "철에 맞지 않게 자연이 괴이해 보임",
+          "interpretation_ko": "갑작스러운 슬픔과 실망이 즐거움을 흐릴 흉한 조짐",
+          "interpretation_en": "denotes sudden sorrow and disappointment clouding pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "May",
+              "original": "To dream that nature appears freakish, denotes sudden sorrow and disappointment clouding pleasure.",
+              "translation_ko": "자연이 괴이해 보이는 꿈은, 갑작스러운 슬픔과 실망이 즐거움을 흐림을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "millet",
       "term_ko": "좁쌀",
       "term_en": "millet",
@@ -90554,39 +90759,6 @@
               "locator": "Marigold",
               "original": "To dream of seeing marigolds, denotes contentment with frugality should be your aim.",
               "translation_ko": "금잔화를 보는 꿈은, 아끼며 사는 데서 오는 흡족함을 목표로 삼으라는 뜻이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mattress",
-      "term_ko": "요",
-      "term_en": "mattress",
-      "aliases": [
-        "이부자리",
-        "매트리스",
-        "깔개"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "요를 펴서 깖",
-          "interpretation_ko": "모든 일이 평온할 조짐",
-          "interpretation_en": "a sign that all matters will be settled and calm",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "毯褥舖陳萬事穩",
-              "translation_ko": "담요와 요를 펴서 깔면 온갖 일이 평온하다"
             }
           ]
         }

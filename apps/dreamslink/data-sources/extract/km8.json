@@ -298,7 +298,8 @@
       "삿자리",
       "깔개",
       "매트",
-      "깔개를"
+      "깔개를",
+      "바닥 자리"
     ],
     "aliases_en": [
       "a mat",
@@ -315,7 +316,8 @@
       "돗자리와 대자리를 봄": "대자리 두장 나란히",
       "돗자리를 훼손함": "훼손 망가 부수 상하",
       "돗자리를 펴고 여럿이 함께 앉음": "펴고 깔고 앉아 여럿",
-      "깔개를 멀리해야 함": "깔개 매트"
+      "깔개를 멀리해야 함": "깔개 매트",
+      "바닥에 깐 자리를 봄": "바닥에 깔린"
     },
     "contexts_en": {
       "돗자리를 집 안으로 들임": "brought inside carried",
@@ -326,7 +328,8 @@
       "돗자리와 대자리를 봄": "bamboo together",
       "돗자리를 훼손함": "damaged ruined broke",
       "돗자리를 펴고 여럿이 함께 앉음": "spread sat sitting",
-      "깔개를 멀리해야 함": "usher perplexities"
+      "깔개를 멀리해야 함": "usher perplexities",
+      "바닥에 깐 자리를 봄": "matting prospects cheerful absent"
     }
   },
   {

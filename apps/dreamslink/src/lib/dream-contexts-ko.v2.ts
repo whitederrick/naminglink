@@ -1470,6 +1470,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "straw-mat::돗자리를 훼손함": "훼손 망가 부수 상하",
   "straw-mat::돗자리를 펴고 여럿이 함께 앉음": "펴고 깔고 앉아 여럿",
   "straw-mat::깔개를 멀리해야 함": "깔개 매트",
+  "straw-mat::바닥에 깐 자리를 봄": "바닥에 깔린",
   "bird::공중에서 새가 욺": "공중 하늘 울었 울음 지저귀",
   "bird::나는 새가 품에 들어옴": "품에 품으로 안겼 들어옴",
   "bird::나는 새를 붙잡음": "붙잡 잡았 손에잡",
@@ -1802,6 +1803,10 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "ink-stick::붉은 먹물임": "붉은 빨간",
   "ink-stick::먹물을 만듦": "만들 갈았",
   "ink-stick::먹물 병을 봄": "병들 병이",
+  "mattress::요를 펴서 깖": "펴서 깔았",
+  "mattress::요를 봄": "놓여 개어",
+  "mattress::새 요 위에서 잠": "새것 새로운 잠들었",
+  "mattress::요 만드는 공장을 봄": "공장",
   "oil::기름을 먹음": "먹었 마셨",
   "oil::기름 속에 있음": "속에 뒤집어 범벅",
   "shackles::칼과 족쇄가 몸에 채워짐": "칼과 채워 몸에",
@@ -2406,6 +2411,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "beaver::비버를 가죽 때문에 죽이는 꿈을 꿈": "죽였 가죽 사냥 잡아",
   "beetles::몸에 딱정벌레가 있는 것을 봄": "몸에 기어 붙어 옷에",
   "beetles::딱정벌레를 죽임": "죽였 밟아 잡아죽",
+  "beetles::풍뎅이를 봄": "풍뎅이",
   "beheading::자신이 참수당하는 꿈을 꿈": "내가 자신이 스스로 당했",
   "beheading::피가 많이 흐르며 다른 사람이 참수당하는 것을 봄": "피가 다른사람 흐르 낭자",
   "bellman::종치기(벨맨)를 봄": "보았 마주쳤 나타났",
@@ -4333,5 +4339,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "master::제게 주인이 있음": "내게 제게 모시는",
   "master::제가 주인이 되어 여럿을 거느림": "거느리 부리는 여럿을",
   "match::성냥을 봄": "놓여 들었",
-  "match::어둠 속에서 성냥을 그음": "어둠 그었 켰다"
+  "match::어둠 속에서 성냥을 그음": "어둠 그었 켰다",
+  "mausoleum::영묘를 봄": "우뚝 솟아",
+  "mausoleum::영묘 안에 있음": "안에 들어가",
+  "may::오월을 봄": "5월 다섯째",
+  "may::철에 맞지 않게 자연이 괴이해 보임": "괴이 이상하게 철에"
 };

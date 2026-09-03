@@ -624,7 +624,9 @@
     "aliases": [
       "풍뎅이",
       "갑충",
-      "등딱지 벌레"
+      "등딱지 벌레",
+      "풍뎅이가",
+      "풍뎅이를"
     ],
     "aliases_en": [
       "a beetle",
@@ -633,11 +635,13 @@
     ],
     "contexts": {
       "몸에 딱정벌레가 있는 것을 봄": "몸에 기어 붙어 옷에",
-      "딱정벌레를 죽임": "죽였 밟아 잡아죽"
+      "딱정벌레를 죽임": "죽였 밟아 잡아죽",
+      "풍뎅이를 봄": "풍뎅이"
     },
     "contexts_en": {
       "몸에 딱정벌레가 있는 것을 봄": "body crawling clinging skin",
-      "딱정벌레를 죽임": "killed killing crushed squashed"
+      "딱정벌레를 죽임": "killed killing crushed squashed",
+      "풍뎅이를 봄": "ill-tempered companion congenial expected"
     }
   },
   {

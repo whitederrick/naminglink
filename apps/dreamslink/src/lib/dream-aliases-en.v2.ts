@@ -6267,5 +6267,11 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "match": [
     "matches"
+  ],
+  "mausoleum": [
+    "mausoleums"
+  ],
+  "may": [
+    "the month of may"
   ]
 };

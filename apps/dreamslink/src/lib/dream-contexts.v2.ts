@@ -1466,6 +1466,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "straw-mat::돗자리를 훼손함": "damaged ruined broke",
   "straw-mat::돗자리를 펴고 여럿이 함께 앉음": "spread sat sitting",
   "straw-mat::깔개를 멀리해야 함": "usher perplexities",
+  "straw-mat::바닥에 깐 자리를 봄": "matting prospects cheerful absent",
   "bird::공중에서 새가 욺": "sky air crying chirping sang",
   "bird::나는 새가 품에 들어옴": "bosom chest embrace flew nestled arms",
   "bird::나는 새를 붙잡음": "caught grabbed seized",
@@ -1798,6 +1799,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ink-stick::붉은 먹물임": "serious trouble",
   "ink-stick::먹물을 만듦": "make low debasing disreputable",
   "ink-stick::먹물 병을 봄": "bottles enemies unsuccessful interests",
+  "mattress::요를 펴서 깖": "spread laid",
+  "mattress::요를 봄": "duties responsibilities assumed",
+  "mattress::새 요 위에서 잠": "sleep contentment present surroundings",
+  "mattress::요 만드는 공장을 봄": "factory connected thrifty partners amass",
   "oil::기름을 먹음": "ate drank",
   "oil::기름 속에 있음": "travels disagreeable polished strangers",
   "shackles::칼과 족쇄가 몸에 채워짐": "cangue locked bound body",
@@ -2402,6 +2407,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "beaver::비버를 가죽 때문에 죽이는 꿈을 꿈": "killed killing fur hunting",
   "beetles::몸에 딱정벌레가 있는 것을 봄": "body crawling clinging skin",
   "beetles::딱정벌레를 죽임": "killed killing crushed squashed",
+  "beetles::풍뎅이를 봄": "ill-tempered companion congenial expected",
   "beheading::자신이 참수당하는 꿈을 꿈": "myself own personally",
   "beheading::피가 많이 흐르며 다른 사람이 참수당하는 것을 봄": "blood another someone bleeding",
   "bellman::종치기(벨맨)를 봄": "saw met appeared",
@@ -4329,5 +4335,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "master::제게 주인이 있음": "incompetency leadership strong-willed",
   "master::제가 주인이 되어 여럿을 거느림": "command excel judgment positions wealth",
   "match::성냥을 봄": "prosperity least",
-  "match::어둠 속에서 성냥을 그음": "strike dark unexpected news foreboded"
+  "match::어둠 속에서 성냥을 그음": "strike dark unexpected news foreboded",
+  "mausoleum::영묘를 봄": "sickness death trouble prominent",
+  "mausoleum::영묘 안에 있음": "inside foretells illness",
+  "may::오월을 봄": "prosperous times young",
+  "may::철에 맞지 않게 자연이 괴이해 보임": "nature freakish clouding"
 };

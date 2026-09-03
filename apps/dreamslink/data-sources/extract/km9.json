@@ -995,15 +995,28 @@
     "aliases": [
       "이부자리",
       "매트리스",
-      "깔개"
+      "깔개",
+      "요를",
+      "요가",
+      "침요"
     ],
     "aliases_en": [
       "bedding",
       "sleeping mat",
       "futon"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "요를 펴서 깖": "펴서 깔았",
+      "요를 봄": "놓여 개어",
+      "새 요 위에서 잠": "새것 새로운 잠들었",
+      "요 만드는 공장을 봄": "공장"
+    },
+    "contexts_en": {
+      "요를 펴서 깖": "spread laid",
+      "요를 봄": "duties responsibilities assumed",
+      "새 요 위에서 잠": "sleep contentment present surroundings",
+      "요 만드는 공장을 봄": "factory connected thrifty partners amass"
+    }
   },
   {
     "id": "oil",
