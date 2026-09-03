@@ -1,0 +1,41 @@
+[
+  {
+    "id": "malice",
+    "aliases": [
+      "악의를",
+      "악의가",
+      "앙심"
+    ],
+    "aliases_en": [
+      "malicious",
+      "maliciously"
+    ],
+    "contexts": {
+      "남에게 악의를 품음": "품었 품고",
+      "남이 악의로 저를 대함": "남이 남들이 나를"
+    },
+    "contexts_en": {
+      "남에게 악의를 품음": "entertaining stand opinion disagreeable temper",
+      "남이 악의로 저를 대함": "persons using enemy friendly garb"
+    }
+  },
+  {
+    "id": "malt",
+    "aliases": [
+      "맥아를",
+      "맥아가",
+      "엿기름"
+    ],
+    "aliases_en": [
+      "malted"
+    ],
+    "contexts": {
+      "맥아를 봄": "쌓여 놓여",
+      "맥아로 만든 것을 마심": "마셨 마시"
+    },
+    "contexts_en": {
+      "맥아를 봄": "betokens pleasant existence advance station",
+      "맥아로 만든 것을 마심": "drinks interest dangerous reap benefit"
+    }
+  }
+]

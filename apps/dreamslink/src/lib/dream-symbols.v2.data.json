@@ -17,6 +17,7 @@
     "m110.json",
     "m111.json",
     "m112.json",
+    "m113.json",
     "m12.json",
     "m13.json",
     "m14.json",
@@ -25294,6 +25295,127 @@
               "locator": "Ladder",
               "original": "To grow dizzy as you ascend a ladder, denotes that you will not wear new honors serenely.",
               "translation_ko": "사다리를 오르다 어지러워지면 새로 얻은 자리를 의젓하게 지니지 못한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "man",
+      "term_ko": "남자",
+      "term_en": "man",
+      "aliases": [
+        "사내",
+        "남성",
+        "사나이",
+        "남자가",
+        "남자를",
+        "사내가"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남자와 몸을 섞음",
+          "interpretation_ko": "재물을 잃을 조짐",
+          "interpretation_en": "a sign of losing wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "交接男子主失財",
+              "translation_ko": "남자와 몸을 섞으면 재물을 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 잘생긴 남자를 봄",
+          "interpretation_ko": "돋보이는 자리를 받게 될 길한 조짐",
+          "interpretation_en": "she is likely to have distinction offered her",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Man",
+              "original": "For a woman to dream of a handsome man, she is likely to have distinction offered her.",
+              "translation_ko": "여성이 잘생긴 남자 꿈을 꾸면 돋보이는 자리를 받게 된다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 못생긴 남자를 봄",
+          "interpretation_ko": "벗이라 여기던 이 때문에 어려움을 겪을 흉한 조짐",
+          "interpretation_en": "she will experience trouble through some one whom she considers a friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Man",
+              "original": "If he is ugly, she will experience trouble through some one whom she considers a friend.",
+              "translation_ko": "그가 못생겼으면 벗이라 여기던 이 때문에 어려움을 겪는다"
+            }
+          ]
+        },
+        {
+          "context": "잘생기고 몸이 좋은 남자를 봄",
+          "interpretation_ko": "삶을 크게 누리고 넉넉한 것을 얻을 길한 조짐",
+          "interpretation_en": "denotes that you will enjoy life vastly and come into rich possessions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Man",
+              "original": "To dream of a man, if handsome, well formed and supple, denotes that you will enjoy life vastly and come into rich possessions.",
+              "translation_ko": "잘생기고 몸이 좋은 남자의 꿈은, 삶을 크게 누리고 넉넉한 것을 얻음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "못생기고 험상궂은 남자를 봄",
+          "interpretation_ko": "실망을 만나고 얽힌 일이 많아질 흉한 조짐",
+          "interpretation_en": "you will meet disappointments and many perplexities will involve you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Man",
+              "original": "If he is misshapen and sour-visaged, you will meet disappointments and many perplexities will involve you.",
+              "translation_ko": "그가 못생기고 험상궂으면 실망을 만나고 얽힌 일이 많아진다"
+            }
+          ]
+        },
+        {
+          "context": "남자가 알몸으로 있음",
+          "interpretation_ko": "운수가 트일 조짐",
+          "interpretation_en": "a sign that one's fortune will open up",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "男子裸體命通達",
+              "translation_ko": "남자가 알몸이면 운수가 통달한다"
+            }
+          ]
+        },
+        {
+          "context": "남자가 여승으로 변함",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "男子化為尼姑凶",
+              "translation_ko": "남자가 여승으로 변하면 흉하다"
             }
           ]
         }
@@ -55484,6 +55606,68 @@
       ]
     },
     {
+      "id": "gavel",
+      "term_ko": "의사봉",
+      "term_en": "gavel",
+      "aliases": [
+        "의사봉",
+        "나무망치",
+        "나무 망치",
+        "나무망치를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "의사봉을 봄",
+          "interpretation_ko": "남는 것은 없으나 싫지도 않은 일에 매일 조짐",
+          "interpretation_en": "denotes you will be burdened with some unprofitable yet not unpleasant pursuit",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gavel",
+              "original": "To dream of a gavel, denotes you will be burdened with some unprofitable yet not unpleasant pursuit.",
+              "translation_ko": "의사봉 꿈은, 남는 것 없으나 싫지도 않은 일에 매임을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "나무망치를 봄",
+          "interpretation_ko": "몸이 성치 않다는 까닭으로 벗에게 모진 대접을 받을 흉한 조짐 — 집안도 어수선하다",
+          "interpretation_en": "denotes you will meet unkind treatment from friends on account of your ill health; disorder in the home is indicated",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mallet",
+              "original": "To dream of a mallet, denotes you will meet unkind treatment from friends on account of your ill health.",
+              "translation_ko": "나무망치의 꿈은, 몸이 성치 않다는 까닭으로 벗에게 모진 대접을 받음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "의사봉을 두드림",
+          "interpretation_ko": "벗들에게 주제넘게 참견할 흉한 조짐",
+          "interpretation_en": "denotes that officiousness will be shown by you toward your friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gavel",
+              "original": "To use one, denotes that officiousness will be shown by you toward your friends.",
+              "translation_ko": "그것을 쓰면, 벗들에게 주제넘게 참견함을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "genealogy",
       "term_ko": "족보",
       "term_en": "genealogy",
@@ -58565,67 +58749,6 @@
               "locator": "宮室屋宇倉庫",
               "original": "正堂倒陷家主凶",
               "translation_ko": "안채 대청이 무너져 내리면 집주인이 흉하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "man",
-      "term_ko": "남자",
-      "term_en": "man",
-      "aliases": [
-        "사내",
-        "남성",
-        "사나이"
-      ],
-      "category": "person",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남자와 몸을 섞음",
-          "interpretation_ko": "재물을 잃을 조짐",
-          "interpretation_en": "a sign of losing wealth",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "交接男子主失財",
-              "translation_ko": "남자와 몸을 섞으면 재물을 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "남자가 알몸으로 있음",
-          "interpretation_ko": "운수가 트일 조짐",
-          "interpretation_en": "a sign that one's fortune will open up",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "男子裸體命通達",
-              "translation_ko": "남자가 알몸이면 운수가 통달한다"
-            }
-          ]
-        },
-        {
-          "context": "남자가 여승으로 변함",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "男子化為尼姑凶",
-              "translation_ko": "남자가 여승으로 변하면 흉하다"
             }
           ]
         }
@@ -74269,52 +74392,6 @@
       ]
     },
     {
-      "id": "gavel",
-      "term_ko": "의사봉",
-      "term_en": "gavel",
-      "aliases": [
-        "의사봉",
-        "나무망치"
-      ],
-      "category": "object",
-      "polarity": "neutral",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "의사봉을 봄",
-          "interpretation_ko": "남는 것은 없으나 싫지도 않은 일에 매일 조짐",
-          "interpretation_en": "denotes you will be burdened with some unprofitable yet not unpleasant pursuit",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gavel",
-              "original": "To dream of a gavel, denotes you will be burdened with some unprofitable yet not unpleasant pursuit.",
-              "translation_ko": "의사봉 꿈은, 남는 것 없으나 싫지도 않은 일에 매임을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "의사봉을 두드림",
-          "interpretation_ko": "벗들에게 주제넘게 참견할 흉한 조짐",
-          "interpretation_en": "denotes that officiousness will be shown by you toward your friends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gavel",
-              "original": "To use one, denotes that officiousness will be shown by you toward your friends.",
-              "translation_ko": "그것을 쓰면, 벗들에게 주제넘게 참견함을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "glass-house",
       "term_ko": "유리집",
       "term_en": "glass house",
@@ -78142,6 +78219,100 @@
               "locator": "Magnifying-glass",
               "original": "For a woman to think she owns one, foretells she will encourage the attention of persons who will ignore her later.",
               "translation_ko": "여성이 돋보기를 제 것으로 여기는 꿈은, 나중에 저를 본체만체할 이들의 눈길을 부추기게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malice",
+      "term_ko": "악의",
+      "term_en": "malice",
+      "aliases": [
+        "악의를",
+        "악의가",
+        "앙심"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남에게 악의를 품음",
+          "interpretation_ko": "성미가 사나워 벗들에게 낮게 보일 흉한 조짐 — 성을 다스려야 한다",
+          "interpretation_en": "denotes that you will stand low in the opinion of friends because of a disagreeable temper",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Malice",
+              "original": "To dream of entertaining malice for any person, denotes that you will stand low in the opinion of friends because of a disagreeable temper.",
+              "translation_ko": "남에게 악의를 품는 꿈은, 성미가 사나워 벗들에게 낮게 보임을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 악의로 저를 대함",
+          "interpretation_ko": "벗의 탈을 쓴 적이 저를 해치고 있는 흉한 조짐",
+          "interpretation_en": "an enemy in friendly garb is working you harm",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Malice",
+              "original": "If you dream of persons maliciously using you, an enemy in friendly garb is working you harm.",
+              "translation_ko": "남이 악의로 저를 부리는 꿈은, 벗의 탈을 쓴 적이 저를 해치고 있음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "malt",
+      "term_ko": "맥아",
+      "term_en": "malt",
+      "aliases": [
+        "맥아를",
+        "맥아가",
+        "엿기름"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "맥아를 봄",
+          "interpretation_ko": "즐거운 삶과 제 자리를 높여 줄 재물이 올 길한 조짐",
+          "interpretation_en": "betokens a pleasant existence and riches that will advance your station",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Malt",
+              "original": "To dream of malt, betokens a pleasant existence and riches that will advance your station.",
+              "translation_ko": "맥아의 꿈은 즐거운 삶과 제 자리를 높여 줄 재물이 옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "맥아로 만든 것을 마심",
+          "interpretation_ko": "위태로운 일에 마음을 두게 되나 그것에서 얻는 것이 많을 조짐",
+          "interpretation_en": "denotes that you will interest yourself in some dangerous affair, but will reap much benefit therefrom",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Malt",
+              "original": "To dream of taking malted drinks, denotes that you will interest yourself in some dangerous affair, but will reap much benefit therefrom.",
+              "translation_ko": "맥아로 만든 것을 마시는 꿈은, 위태로운 일에 마음을 두게 되나 그것에서 얻는 것이 많음을 뜻한다"
             }
           ]
         }

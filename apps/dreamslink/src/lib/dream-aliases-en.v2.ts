@@ -6196,5 +6196,12 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "magpie": [
     "magpies"
+  ],
+  "malice": [
+    "malicious",
+    "maliciously"
+  ],
+  "malt": [
+    "malted"
   ]
 };

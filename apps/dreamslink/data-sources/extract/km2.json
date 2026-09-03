@@ -420,7 +420,10 @@
     "aliases": [
       "사내",
       "남성",
-      "사나이"
+      "사나이",
+      "남자가",
+      "남자를",
+      "사내가"
     ],
     "aliases_en": [
       "male",
@@ -431,12 +434,20 @@
     "contexts": {
       "남자와 몸을 섞음": "몸을섞 정을통 관계를 동침",
       "남자가 알몸으로 있음": "알몸 벌거 나체",
-      "남자가 여승으로 변함": "여승 비구니 변하 바뀌"
+      "남자가 여승으로 변함": "여승 비구니 변하 바뀌",
+      "잘생기고 몸이 좋은 남자를 봄": "잘생긴 훤칠 미남",
+      "못생기고 험상궂은 남자를 봄": "못생긴 험상궂 흉한 몰골",
+      "여성이 잘생긴 남자를 봄": "여자가 여성이 처녀가",
+      "여성이 못생긴 남자를 봄": "아내가 여인이"
     },
     "contexts_en": {
       "남자와 몸을 섞음": "sex intercourse slept lovemaking",
       "남자가 알몸으로 있음": "naked nude undressed bare",
-      "남자가 여승으로 변함": "nun turned transformed became"
+      "남자가 여승으로 변함": "nun turned transformed became",
+      "잘생기고 몸이 좋은 남자를 봄": "handsome supple vastly possessions",
+      "못생기고 험상궂은 남자를 봄": "misshapen sour-visaged perplexities",
+      "여성이 잘생긴 남자를 봄": "distinction offered",
+      "여성이 못생긴 남자를 봄": "ugly experience considers"
     }
   },
   {

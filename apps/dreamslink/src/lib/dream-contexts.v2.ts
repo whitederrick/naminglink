@@ -286,6 +286,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "man::남자와 몸을 섞음": "sex intercourse slept lovemaking",
   "man::남자가 알몸으로 있음": "naked nude undressed bare",
   "man::남자가 여승으로 변함": "nun turned transformed became",
+  "man::잘생기고 몸이 좋은 남자를 봄": "handsome supple vastly possessions",
+  "man::못생기고 험상궂은 남자를 봄": "misshapen sour-visaged perplexities",
+  "man::여성이 잘생긴 남자를 봄": "distinction offered",
+  "man::여성이 못생긴 남자를 봄": "ugly experience considers",
   "thunder::우레가 크게 침": "loud loudly crashed struck",
   "thunder::우렛소리가 두렵게 들림": "frightening scary afraid terrified",
   "thunder::우레가 땅에서 울림": "ground below beneath",
@@ -3575,6 +3579,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "gauze::정인이 여인의 망사 옷을 봄": "lover sweetheart clothed influence",
   "gavel::의사봉을 봄": "burdened unprofitable unpleasant pursuit",
   "gavel::의사봉을 두드림": "use officiousness shown toward friends",
+  "gavel::나무망치를 봄": "mallet unkind treatment disorder",
   "genealogy::제 족보를 봄": "burdened cares domains",
   "genealogy::남들이 족보를 살피는 것을 봄": "others studying yield rights",
   "genealogy::족보의 가지가 빠져 있음": "branches missing ignore straightened",
@@ -4252,5 +4257,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "magic::마술 부리는 사람을 봄": "interesting travel higher education mercenary",
   "magnifying-glass::돋보기로 들여다봄": "look through failure satisfactory",
   "magnifying-glass::여성이 돋보기를 가짐": "owns encourage attention ignore",
-  "magpie::까치를 봄": "dissatisfaction quarrels conduct speech"
+  "magpie::까치를 봄": "dissatisfaction quarrels conduct speech",
+  "malice::남에게 악의를 품음": "entertaining stand opinion disagreeable temper",
+  "malice::남이 악의로 저를 대함": "persons using enemy friendly garb",
+  "malt::맥아를 봄": "betokens pleasant existence advance station",
+  "malt::맥아로 만든 것을 마심": "drinks interest dangerous reap benefit"
 };

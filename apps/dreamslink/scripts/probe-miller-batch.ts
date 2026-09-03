@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 112 — Magic~Magpie, 10건)
+// (지금 담긴 것: 배치 113 — Mallet~Man, 11건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,17 +30,18 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "magic", ctx: "마술로 뜻한 바를 이룸", text: "마술로 뜻한 바를 이루었다" },
-  { id: "magic", ctx: "남이 마술을 부리는 것을 봄", text: "남이 마술을 부리는 것을 보았다" },
-  { id: "magic", ctx: "마술 부리는 사람을 봄", text: "마술 부리는 사람을 보았다" },
-  { id: "judge", ctx: "치안 판사를 봄", text: "치안 판사를 보았다" },
-  { id: "magnifying-glass", ctx: "돋보기로 들여다봄", text: "돋보기로 들여다보았다" },
-  { id: "magnifying-glass", ctx: "여성이 돋보기를 가짐", text: "여자가 돋보기를 가졌다" },
-  { id: "magpie", ctx: "까치를 봄", text: "까치가 울었다" },
+  { id: "gavel", ctx: "나무망치를 봄", text: "나무망치가 놓여 있었다" },
+  { id: "malice", ctx: "남에게 악의를 품음", text: "남에게 악의를 품었다" },
+  { id: "malice", ctx: "남이 악의로 저를 대함", text: "남이 악의로 나를 대했다" },
+  { id: "malt", ctx: "맥아를 봄", text: "맥아가 쌓여 있었다" },
+  { id: "malt", ctx: "맥아로 만든 것을 마심", text: "맥아로 만든 것을 마셨다" },
+  { id: "man", ctx: "잘생기고 몸이 좋은 남자를 봄", text: "잘생긴 남자를 보았다" },
+  { id: "man", ctx: "못생기고 험상궂은 남자를 봄", text: "험상궂은 남자를 보았다" },
+  { id: "man", ctx: "여성이 잘생긴 남자를 봄", text: "여자가 잘생긴 남자를 보았다" },
+  { id: "man", ctx: "여성이 못생긴 남자를 봄", text: "아내가 못생긴 남자를 보았다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "judge", ctx: "판사 앞에 서게 됨", text: "판사 앞에 섰다" },
-  { id: "judge", ctx: "판결이 제게 이롭게 남", text: "판결이 나에게 이롭게 났다" },
-  { id: "conjurer", ctx: "요술쟁이를 봄", text: "마술사를 보았다" },
+  { id: "gavel", ctx: "의사봉을 두드림", text: "의사봉을 두드렸다" },
+  { id: "man", ctx: "남자가 알몸으로 있음", text: "남자가 알몸으로 있었다" },
 ];
 
 let notFound = 0;
