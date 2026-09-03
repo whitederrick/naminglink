@@ -921,15 +921,44 @@
     "aliases": [
       "등잔",
       "촛불",
-      "호롱불"
+      "호롱불",
+      "등잔불"
     ],
     "aliases_en": [
       "lantern",
       "candle",
       "oil lamp"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "등불과 촛불이 밝게 빛남": "밝게 환하게",
+      "기름이 가득 찬 등불을 봄": "기름이 가득",
+      "비어 있는 등불을 봄": "비어 바닥났",
+      "등불이 맑은 불꽃으로 탐": "맑은 불꽃",
+      "등불빛이 흐릿함": "흐릿 침침 뿌옇",
+      "켜 놓은 등불을 떨어뜨림": "떨어뜨",
+      "등불이 터짐": "터졌 터지 폭발",
+      "깨진 등불을 봄": "깨진 깨졌",
+      "등불을 켬": "켰다 붙였",
+      "등불을 들고 다님": "들고",
+      "들고 가던 등불이 꺼짐": "꺼졌 꺼지",
+      "겁에 질려 창밖으로 어지러운 빛을 비춤": "창밖 겁에",
+      "등불에 옷이 붙음": "옷에 옷이"
+    },
+    "contexts_en": {
+      "등불과 촛불이 밝게 빛남": "brightly burning shining",
+      "기름이 가득 찬 등불을 봄": "filled activity gratifying results",
+      "비어 있는 등불을 봄": "empty depression despondency",
+      "등불이 맑은 불꽃으로 탐": "lighted clear flame merited bliss",
+      "등불빛이 흐릿함": "dull misty radiance jealousy envy",
+      "켜 놓은 등불을 떨어뜨림": "drop plans abruptly",
+      "등불이 터짐": "explodes unite damaging interests",
+      "깨진 등불을 봄": "broken death relatives",
+      "등불을 켬": "change affairs profit soon",
+      "등불을 들고 다님": "carry independent self-sustaining convictions",
+      "들고 가던 등불이 꺼짐": "fails unfortunate conclusions perhaps",
+      "겁에 질려 창밖으로 어지러운 빛을 비춤": "affrighted bewildering window ensnare",
+      "등불에 옷이 붙음": "ignite apparel humiliation encouragement sympathy"
+    }
   },
   {
     "id": "lawsuit",
