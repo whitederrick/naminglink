@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 79 — Knitting~Krishna, 12건)
+// (지금 담긴 것: 배치 80 — Label~Lace, 16건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,20 +30,22 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "crochet-work", ctx: "여자가 뜨개질을 함", text: "여자가 뜨개질을 하고 있었다" },
-  { id: "crochet-work", ctx: "남자가 뜨개질 공장에 있음", text: "남자가 뜨개질 공장에 있었다" },
-  { id: "crochet-work", ctx: "처녀가 뜨개질을 함", text: "처녀가 뜨개질을 하고 있었다" },
-  { id: "crochet-work", ctx: "처녀가 뜨개질 공장에서 일함", text: "처녀가 뜨개질 공장에서 일하고 있었다" },
-  { id: "crochet-work", ctx: "일하던 공장이 허물어져 있음", text: "뜨개질 공장이 허물어져 있었다" },
-  { id: "knocker", ctx: "문고리를 두드림", text: "문고리를 두드렸다" },
-  { id: "knocking", ctx: "두드리는 소리를 들음", text: "두드리는 소리가 들렸다" },
-  { id: "knocking", ctx: "두드리는 소리에 잠이 깸", text: "노크 소리에 잠에서 깨어났다" },
-  { id: "knot", ctx: "매듭을 봄", text: "매듭을 보았다" },
-  { id: "knot", ctx: "매듭을 묶음", text: "매듭을 묶었다" },
-  { id: "krishna", ctx: "크리슈나를 봄", text: "크리슈나를 보았다" },
-
-  // 이 배치가 판별어 표를 채운 상징 — **옛 답이 그대로인가**를 함께 잰다.
-  { id: "crochet-work", ctx: "코바늘뜨기를 함", text: "코바늘로 떴다" },
+  { id: "label", ctx: "꼬리표를 봄", text: "꼬리표를 보았다" },
+  { id: "labor", ctx: "짐승이 무거운 짐을 지고 일하는 것을 봄", text: "짐승이 무거운 짐을 지고 힘써 일하고 있었다" },
+  { id: "labor", ctx: "사람들이 힘써 일하는 것을 봄", text: "사람들이 힘써 일하고 있었다" },
+  { id: "labor", ctx: "제가 힘써 일함", text: "내가 힘써 일했다" },
+  { id: "laboratory", ctx: "실험실에 있음", text: "실험실에 들어갔다" },
+  { id: "laboratory", ctx: "연금술사가 되어 금을 만들려 함", text: "실험실에서 연금술로 금을 만들려 했다" },
+  { id: "labyrinth", ctx: "미로에 있음", text: "얽히고 갈피 잡기 어려운 미로에 있었다" },
+  { id: "labyrinth", ctx: "어둠 속 미로에 있음", text: "캄캄한 미로에 있었다" },
+  { id: "labyrinth", ctx: "푸른 덩굴과 나무로 된 미로에 있음", text: "푸른 덩굴로 된 미로에 있었다" },
+  { id: "labyrinth", ctx: "철길이 얽힌 미로에 있음", text: "철길이 얽힌 미로에 있었다" },
+  { id: "lace", ctx: "정인이 레이스를 걸침", text: "애인이 레이스를 걸치고 있었다" },
+  { id: "lace", ctx: "여자가 레이스 꿈을 꿈", text: "여자가 레이스 꿈을 꾸었다" },
+  { id: "lace", ctx: "레이스를 삼", text: "레이스를 샀다" },
+  { id: "lace", ctx: "레이스를 팖", text: "레이스를 팔았다" },
+  { id: "lace", ctx: "처녀가 레이스를 뜸", text: "처녀가 레이스를 떴다" },
+  { id: "lace", ctx: "혼례옷을 레이스로 꾸밈", text: "혼례옷을 레이스로 꾸몄다" },
 ];
 
 let notFound = 0;

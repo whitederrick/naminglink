@@ -1,0 +1,112 @@
+[
+  {
+    "id": "label",
+    "aliases": [
+      "꼬리표가",
+      "꼬리표를",
+      "이름표",
+      "딱지가 붙"
+    ],
+    "aliases_en": [
+      "a label"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "labor",
+    "aliases": [
+      "힘써 일하고",
+      "힘써 일하는",
+      "힘써 일했다",
+      "힘써 일한",
+      "고된 일",
+      "노역을"
+    ],
+    "aliases_en": [
+      "laboring",
+      "toiling"
+    ],
+    "contexts": {
+      "짐승이 무거운 짐을 지고 일하는 것을 봄": "짐승 소가 무거운 짐을",
+      "사람들이 힘써 일하는 것을 봄": "사람들이 남들이",
+      "제가 힘써 일함": "제가 내가 나는"
+    },
+    "contexts_en": {
+      "짐승이 무거운 짐을 지고 일하는 것을 봄": "domestic animals burdens prosperous unjust servants",
+      "사람들이 힘써 일하는 것을 봄": "men profitable robust",
+      "제가 힘써 일함": "yourself favorable outlook bountiful crops farming"
+    }
+  },
+  {
+    "id": "laboratory",
+    "aliases": [
+      "실험실에",
+      "실험실이",
+      "연구실"
+    ],
+    "aliases_en": [
+      "a laboratory"
+    ],
+    "contexts": {
+      "실험실에 있음": "있었 들어갔",
+      "연금술사가 되어 금을 만들려 함": "연금술 금으로 바꾸"
+    },
+    "contexts_en": {
+      "실험실에 있음": "energies wasted unfruitful practical",
+      "연금술사가 되어 금을 만들려 함": "alchemist discover process far-reaching apex"
+    }
+  },
+  {
+    "id": "labyrinth",
+    "aliases": [
+      "미로가",
+      "미로를",
+      "미로에",
+      "미궁"
+    ],
+    "aliases_en": [
+      "a labyrinth"
+    ],
+    "contexts": {
+      "미로에 있음": "얽히고 갈피",
+      "어둠 속 미로에 있음": "어둠 캄캄 밤의",
+      "푸른 덩굴과 나무로 된 미로에 있음": "덩굴 푸른 나무로",
+      "철길이 얽힌 미로에 있음": "철길 기찻길 선로"
+    },
+    "contexts_en": {
+      "미로에 있음": "entangled intricate perplexing intolerable",
+      "어둠 속 미로에 있음": "night darkness agonizing sickness",
+      "푸른 덩굴과 나무로 된 미로에 있음": "green vines timbers unexpected despair",
+      "철길이 얽힌 미로에 있음": "network railroads tedious journeys"
+    }
+  },
+  {
+    "id": "lace",
+    "aliases": [
+      "레이스가",
+      "레이스를",
+      "레이스로"
+    ],
+    "aliases_en": [
+      "lace",
+      "laces"
+    ],
+    "contexts": {
+      "정인이 레이스를 걸침": "정인 애인 걸치",
+      "여자가 레이스 꿈을 꿈": "여자가 여인이",
+      "레이스를 삼": "샀다 사들 장만",
+      "레이스를 팖": "팔았 파는 내다",
+      "처녀가 레이스를 뜸": "처녀 아가씨 떴다",
+      "혼례옷을 레이스로 꾸밈": "혼례옷 신부옷 꾸몄"
+    },
+    "contexts_en": {
+      "정인이 레이스를 걸침": "sweetheart wears fidelity rise position",
+      "여자가 레이스 꿈을 꿈": "woman realization ambitious edict",
+      "레이스를 삼": "buy conduct expensive establishment solid",
+      "레이스를 팖": "sell outrun resources",
+      "처녀가 레이스를 뜸": "making forecasts handsome wealthy",
+      "혼례옷을 레이스로 꾸밈": "garnishing wedding garments charms removed"
+    }
+  }
+]

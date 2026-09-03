@@ -3851,5 +3851,20 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "knocking::두드리는 소리를 들음": "hear tidings grave nature received",
   "knocking::두드리는 소리에 잠이 깸": "awakened news affect seriously",
   "knot::매듭을 봄": "seeing worry trifling affairs",
-  "knot::매듭을 묶음": "tie independent nature refuse nagged"
+  "knot::매듭을 묶음": "tie independent nature refuse nagged",
+  "labor::짐승이 무거운 짐을 지고 일하는 것을 봄": "domestic animals burdens prosperous unjust servants",
+  "labor::사람들이 힘써 일하는 것을 봄": "men profitable robust",
+  "labor::제가 힘써 일함": "yourself favorable outlook bountiful crops farming",
+  "laboratory::실험실에 있음": "energies wasted unfruitful practical",
+  "laboratory::연금술사가 되어 금을 만들려 함": "alchemist discover process far-reaching apex",
+  "labyrinth::미로에 있음": "entangled intricate perplexing intolerable",
+  "labyrinth::어둠 속 미로에 있음": "night darkness agonizing sickness",
+  "labyrinth::푸른 덩굴과 나무로 된 미로에 있음": "green vines timbers unexpected despair",
+  "labyrinth::철길이 얽힌 미로에 있음": "network railroads tedious journeys",
+  "lace::정인이 레이스를 걸침": "sweetheart wears fidelity rise position",
+  "lace::여자가 레이스 꿈을 꿈": "woman realization ambitious edict",
+  "lace::레이스를 삼": "buy conduct expensive establishment solid",
+  "lace::레이스를 팖": "sell outrun resources",
+  "lace::처녀가 레이스를 뜸": "making forecasts handsome wealthy",
+  "lace::혼례옷을 레이스로 꾸밈": "garnishing wedding garments charms removed"
 };

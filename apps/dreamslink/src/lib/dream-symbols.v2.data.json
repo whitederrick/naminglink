@@ -82,6 +82,7 @@
     "m7a.json",
     "m7b.json",
     "m8.json",
+    "m80.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -25892,6 +25893,109 @@
       ]
     },
     {
+      "id": "lace",
+      "term_ko": "레이스",
+      "term_en": "lace",
+      "aliases": [
+        "레이스가",
+        "레이스를",
+        "레이스로"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "정인이 레이스를 걸침",
+          "interpretation_ko": "사랑에 한결같음이 있고 자리가 오를 길한 조짐",
+          "interpretation_en": "this dream brings fidelity in love and a rise in position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lace",
+              "original": "See to it, if you are a lover, that your sweetheart wears lace, as this dream brings fidelity in love and a rise in position.",
+              "translation_ko": "정인이 레이스를 걸친 꿈은 사랑의 한결같음과 자리의 오름을 가져온다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 레이스 꿈을 꿈",
+          "interpretation_ko": "가장 크게 품은 바람이 이루어져 즐겁고, 따르는 이들이 뜻을 거스르지 않을 길한 조짐",
+          "interpretation_en": "she will be happy in the realization of her most ambitious desires, and lovers will bow to her edict",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lace",
+              "original": "If a woman dreams of lace, she will be happy in the realization of her most ambitious desires, and lovers will bow to her edict.",
+              "translation_ko": "여자가 레이스 꿈을 꾸면 가장 크게 품은 바람이 이루어져 즐겁고, 따르는 이들이 뜻을 거스르지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "레이스를 삼",
+          "interpretation_ko": "씀씀이 큰 살림을 꾸리게 되나 재물이 든든한 벗이 되어 줄 길한 조짐",
+          "interpretation_en": "you will conduct an expensive establishment, but wealth will be a solid friend",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lace",
+              "original": "If you buy lace, you will conduct an expensive establishment, but wealth will be a solid friend.",
+              "translation_ko": "레이스를 사면 씀씀이 큰 살림을 꾸리게 되나 재물이 든든한 벗이 되어 준다"
+            }
+          ]
+        },
+        {
+          "context": "레이스를 팖",
+          "interpretation_ko": "바라는 것이 가진 밑천을 넘어설 흉한 조짐",
+          "interpretation_en": "your desires will outrun your resources",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lace",
+              "original": "If you sell laces, your desires will outrun your resources.",
+              "translation_ko": "레이스를 팔면 바라는 것이 가진 밑천을 넘어선다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 레이스를 뜸",
+          "interpretation_ko": "훤하고 넉넉한 지아비를 얻을 길한 조짐",
+          "interpretation_en": "forecasts that she will win a handsome, wealthy husband",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lace",
+              "original": "For a young girl to dream of making lace, forecasts that she will win a handsome, wealthy husband.",
+              "translation_ko": "처녀가 레이스를 뜨는 꿈을 꾸면 훤하고 넉넉한 지아비를 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "혼례옷을 레이스로 꾸밈",
+          "interpretation_ko": "따르는 이가 많으나 혼례는 멀리 밀려날 조짐",
+          "interpretation_en": "she will be favored with lovers who will bow to her charms, but the wedding will be far removed from her",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lace",
+              "original": "If she dreams of garnishing her wedding garments with lace, she will be favored with lovers who will bow to her charms, but the wedding will be far removed from her.",
+              "translation_ko": "혼례옷을 레이스로 꾸미는 꿈을 꾸면 따르는 이가 많으나 혼례는 멀리 밀려난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "long-journey",
       "term_ko": "먼 길 떠남",
       "term_en": "long journey",
@@ -40449,6 +40553,82 @@
       ]
     },
     {
+      "id": "labyrinth",
+      "term_ko": "미로",
+      "term_en": "labyrinth",
+      "aliases": [
+        "미로가",
+        "미로를",
+        "미로에",
+        "미궁"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "미로에 있음",
+          "interpretation_ko": "얽히고 갈피 잡기 어려운 일에 휘말리고 집안이 견디기 어려워질 흉한 조짐",
+          "interpretation_en": "you will find yourself entangled in intricate and perplexing business conditions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Labyrinth",
+              "original": "If you dream of a labyrinth, you will find yourself entangled in intricate and perplexing business conditions, and your wife will make the home environment intolerable; children and sweethearts will prove ill-tempered and unattractive.",
+              "translation_ko": "미로의 꿈을 꾸면 얽히고 갈피 잡기 어려운 일에 휘말리고 집안이 견디기 어려워진다"
+            }
+          ]
+        },
+        {
+          "context": "어둠 속 미로에 있음",
+          "interpretation_ko": "지나가되 몹시 괴로운 병과 근심이 있을 흉한 조짐",
+          "interpretation_en": "it foretells passing, but agonizing sickness and trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Labyrinth",
+              "original": "If you are in a labyrinth of night or darkness, it foretells passing, but agonizing sickness and trouble.",
+              "translation_ko": "밤이나 어둠의 미로에 있으면 지나가되 몹시 괴로운 병과 근심이 있다"
+            }
+          ]
+        },
+        {
+          "context": "푸른 덩굴과 나무로 된 미로에 있음",
+          "interpretation_ko": "잃음과 절망의 씨앗처럼 보이던 것에서 뜻밖의 기쁨이 올 길한 조짐",
+          "interpretation_en": "denotes unexpected happiness from what was seemingly a cause for loss and despair",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Labyrinth",
+              "original": "A labyrinth of green vines and timbers, denotes unexpected happiness from what was seemingly a cause for loss and despair.",
+              "translation_ko": "푸른 덩굴과 나무로 된 미로는, 잃음과 절망의 씨앗처럼 보이던 것에서 오는 뜻밖의 기쁨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "철길이 얽힌 미로에 있음",
+          "interpretation_ko": "길고 지루한 여정이 있을 조짐이며, 재미난 사람은 만나나 재물의 보탬은 없다",
+          "interpretation_en": "assures you of long and tedious journeys; interesting people will be met, but no financial success will aid you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Labyrinth",
+              "original": "In a network, or labyrinth of railroads, assures you of long and tedious journeys.",
+              "translation_ko": "철길이 그물처럼 얽힌 미로에 있으면 길고 지루한 여정이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "manure",
       "term_ko": "거름",
       "term_en": "manure",
@@ -52054,6 +52234,70 @@
               "locator": "Jury",
               "original": "but if you should be condemned, enemies will overpower you and harass you beyond endurance.",
               "translation_ko": "죄가 있다는 판정을 받으면 적들이 짓눌러 견디기 어려울 만큼 괴롭힌다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labor",
+      "term_ko": "노역",
+      "term_en": "labor",
+      "aliases": [
+        "힘써 일하고",
+        "힘써 일하는",
+        "힘써 일했다",
+        "힘써 일한",
+        "고된 일",
+        "노역을"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "짐승이 무거운 짐을 지고 일하는 것을 봄",
+          "interpretation_ko": "살림은 넉넉해지나 부리는 이들에게 모질게 굴 조짐",
+          "interpretation_en": "denotes that you will be prosperous, but unjust to your servants, or those employed by you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Labor",
+              "original": "To dream that you watch domestic animals laboring under heavy burdens, denotes that you will be prosperous, but unjust to your servants, or those employed by you.",
+              "translation_ko": "집짐승이 무거운 짐을 지고 일하는 것을 보는 꿈을 꾸면, 살림은 넉넉해지나 부리는 이들에게 모질게 군다"
+            }
+          ]
+        },
+        {
+          "context": "사람들이 힘써 일하는 것을 봄",
+          "interpretation_ko": "이문이 남는 일과 튼튼한 몸을 뜻하는 길한 조짐",
+          "interpretation_en": "signifies profitable work, and robust health",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Labor",
+              "original": "To see men toiling, signifies profitable work, and robust health.",
+              "translation_ko": "사람들이 힘써 일하는 것을 보면 이문이 남는 일과 튼튼한 몸을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제가 힘써 일함",
+          "interpretation_ko": "새로 벌이는 일의 앞날이 밝고, 농사를 짓는다면 거둠이 넉넉할 길한 조짐",
+          "interpretation_en": "denotes favorable outlook for any new enterprise, and bountiful crops if the dreamer is interested in farming",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Labor",
+              "original": "To labor yourself, denotes favorable outlook for any new enterprise, and bountiful crops if the dreamer is interested in farming.",
+              "translation_ko": "제가 힘써 일하면 새로 벌이는 일의 앞날이 밝고 농사를 짓는다면 거둠이 넉넉하다"
             }
           ]
         }
@@ -71045,6 +71289,53 @@
       ]
     },
     {
+      "id": "laboratory",
+      "term_ko": "실험실",
+      "term_en": "laboratory",
+      "aliases": [
+        "실험실에",
+        "실험실이",
+        "연구실"
+      ],
+      "category": "place",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "실험실에 있음",
+          "interpretation_ko": "더 실속 있는 일에서 잘될 수 있는데도 열매 없는 일에 기운을 크게 허비할 흉한 조짐",
+          "interpretation_en": "denotes great energies wasted in unfruitful enterprises when you might succeed in some more practical business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laboratory",
+              "original": "To dream of being in a laboratory, denotes great energies wasted in unfruitful enterprises when you might succeed in some more practical business.",
+              "translation_ko": "실험실에 있는 꿈은 더 실속 있는 일에서 잘될 수 있는데도 열매 없는 일에 기운을 허비함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "연금술사가 되어 금을 만들려 함",
+          "interpretation_ko": "멀리 내다보는 흥미로운 일을 품으나 뜻의 꼭대기에는 이르지 못할 흉한 조짐",
+          "interpretation_en": "you will entertain far-reaching and interesting projects, but you will fail to reach the apex of your ambition",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laboratory",
+              "original": "If you think yourself an alchemist, and try to discover a process to turn other things into gold, you will entertain far-reaching and interesting projects, but you will fail to reach the apex of your ambition.",
+              "translation_ko": "제가 연금술사가 되어 다른 것을 금으로 바꾸려 하면, 멀리 내다보는 흥미로운 일을 품으나 뜻의 꼭대기에는 이르지 못한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "letter",
       "term_ko": "편지",
       "term_en": "letter",
@@ -81561,6 +81852,40 @@
               "locator": "Krishna",
               "original": "To see Krishna in your dreams, denotes that your greatest joy will be in pursuit of occult knowledge, and you will school yourself to the taunts of friends, and cultivate a philosophical bearing toward life and sorrow.",
               "translation_ko": "꿈에 크리슈나를 보면 숨은 앎을 좇는 데서 가장 큰 기쁨을 얻고, 벗의 비웃음을 견디며 삶과 슬픔을 넉넉히 바라보게 된다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "label",
+      "term_ko": "꼬리표",
+      "term_en": "label",
+      "aliases": [
+        "꼬리표가",
+        "꼬리표를",
+        "이름표",
+        "딱지가 붙"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "꼬리표를 봄",
+          "interpretation_ko": "적에게 제 속사정을 들여다보이게 하고 그 소홀함으로 손해를 볼 흉한 조짐",
+          "interpretation_en": "foretells you will let an enemy see the inside of your private affairs, and will suffer from the negligence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Label",
+              "original": "To dream of a label, foretells you will let an enemy see the inside of your private affairs, and will suffer from the negligence.",
+              "translation_ko": "꼬리표의 꿈은 적에게 제 속사정을 들여다보이게 하고 그 소홀함으로 손해를 보리라는 뜻이다"
             }
           ]
         }

@@ -5940,5 +5940,22 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "krishna": [
     "Krishna"
+  ],
+  "label": [
+    "a label"
+  ],
+  "labor": [
+    "laboring",
+    "toiling"
+  ],
+  "laboratory": [
+    "a laboratory"
+  ],
+  "labyrinth": [
+    "a labyrinth"
+  ],
+  "lace": [
+    "lace",
+    "laces"
   ]
 };
