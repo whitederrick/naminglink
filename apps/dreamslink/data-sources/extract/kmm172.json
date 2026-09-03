@@ -1,0 +1,30 @@
+[
+  {
+    "id": "piano",
+    "aliases": [
+      "피아노가",
+      "피아노를"
+    ],
+    "aliases_en": [
+      "pianos"
+    ],
+    "contexts": {
+      "피아노를 봄": "즐거운",
+      "피아노에서 감미로운 화음을 들음": "감미로운 화음 성공",
+      "귀에 거슬리는 음악이 연주됨": "거슬리는 짜증나는",
+      "슬프고 애처로운 음악을 들음": "애처로운 슬픈 소식",
+      "피아노가 부서지고 음이 안 맞는 것을 봄": "부서지고 불만",
+      "낡은 구식 피아노를 봄": "낡은 구식 저버렸",
+      "처녀가 어렵고도 황홀한 곡을 연주함": "처녀가 황홀한 헌신적"
+    },
+    "contexts_en": {
+      "피아노를 봄": "seeing joyful occasion",
+      "피아노에서 감미로운 화음을 들음": "sweet voluptuous harmony",
+      "귀에 거슬리는 음악이 연주됨": "discordant exasperating",
+      "슬프고 애처로운 음악을 들음": "sad plaintive sorrowful",
+      "피아노가 부서지고 음이 안 맞는 것을 봄": "broken tune dissatisfaction",
+      "낡은 구식 피아노를 봄": "old-fashioned neglected",
+      "처녀가 어렵고도 황홀한 곡을 연주함": "young woman entrancing devoted"
+    }
+  }
+]

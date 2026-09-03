@@ -1,0 +1,13 @@
+{
+  "batch": 172,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Piano",
+      "text": "To dream of seeing a piano, denotes some joyful occasion. To hear sweet and voluptuous harmony from a piano, signals success and health. If discordant music is being played, you will have many exasperating matters to consider. Sad and plaintive music, foretells sorrowful tidings. To find your piano broken and out of tune, portends dissatisfaction with your own accomplishments and disappointment in the failure of your friends or children to win honors. To see an old-fashioned piano, denotes that you have, in trying moments, neglected the advices and opportunities of the past, and are warned not to do so again. For a young woman to dream that she is executing difficult, but entrancing music, she will succeed in winning an indifferent friend to be a most devoted and loyal lover.",
+      "note": "새 상징 `piano`(피아노). 이미 있는 `musical-instrument`(악기)와는 특정 악기라 다르다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

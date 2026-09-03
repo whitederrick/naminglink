@@ -4988,5 +4988,12 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "photograph::사진들을 봄": "approaching deception",
   "photograph::애인의 사진을 받음": "lover undivided loyalty",
   "photograph::기혼자가 남의 사진을 지님": "married possession disclosures",
-  "photograph::제 사진을 찍음": "own unwarily trouble"
+  "photograph::제 사진을 찍음": "own unwarily trouble",
+  "piano::피아노를 봄": "seeing joyful occasion",
+  "piano::피아노에서 감미로운 화음을 들음": "sweet voluptuous harmony",
+  "piano::귀에 거슬리는 음악이 연주됨": "discordant exasperating",
+  "piano::슬프고 애처로운 음악을 들음": "sad plaintive sorrowful",
+  "piano::피아노가 부서지고 음이 안 맞는 것을 봄": "broken tune dissatisfaction",
+  "piano::낡은 구식 피아노를 봄": "old-fashioned neglected",
+  "piano::처녀가 어렵고도 황홀한 곡을 연주함": "young woman entrancing devoted"
 };

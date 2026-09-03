@@ -82,6 +82,7 @@
     "m17.json",
     "m170.json",
     "m171.json",
+    "m172.json",
     "m18.json",
     "m19.json",
     "m2.json",
@@ -28422,6 +28423,122 @@
               "locator": "Peas",
               "original": "To eat dried peas, foretells that you will, after much success, suffer a slight decrease in pleasure or wealth.",
               "translation_ko": "마른 완두콩을 먹는 꿈은, 큰 성공 뒤에 즐거움이나 재산이 조금 줄어들 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "piano",
+      "term_ko": "피아노",
+      "term_en": "piano",
+      "aliases": [
+        "피아노가",
+        "피아노를"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "피아노를 봄",
+          "interpretation_ko": "즐거운 일이 있을 조짐",
+          "interpretation_en": "denotes some joyful occasion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Piano",
+              "original": "To dream of seeing a piano, denotes some joyful occasion.",
+              "translation_ko": "피아노를 보는 꿈은, 즐거운 일이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "피아노에서 감미로운 화음을 들음",
+          "interpretation_ko": "성공과 건강을 알리는 조짐",
+          "interpretation_en": "signals success and health",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Piano",
+              "original": "To hear sweet and voluptuous harmony from a piano, signals success and health.",
+              "translation_ko": "피아노에서 감미로운 화음을 듣는 꿈은, 성공과 건강을 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "귀에 거슬리는 음악이 연주됨",
+          "interpretation_ko": "짜증나는 일을 여럿 겪을 조짐",
+          "interpretation_en": "you will have many exasperating matters to consider",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Piano",
+              "original": "If discordant music is being played, you will have many exasperating matters to consider.",
+              "translation_ko": "귀에 거슬리는 음악이 연주되는 꿈은, 짜증나는 일을 여럿 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "슬프고 애처로운 음악을 들음",
+          "interpretation_ko": "슬픈 소식을 알리는 조짐",
+          "interpretation_en": "foretells sorrowful tidings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Piano",
+              "original": "Sad and plaintive music, foretells sorrowful tidings.",
+              "translation_ko": "슬프고 애처로운 음악을 듣는 꿈은, 슬픈 소식을 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "피아노가 부서지고 음이 안 맞는 것을 봄",
+          "interpretation_ko": "제 성취에 불만을 느끼고 벗이나 자식이 영예를 못 얻어 실망할 조짐",
+          "interpretation_en": "portends dissatisfaction with your own accomplishments and disappointment in the failure of your friends or children to win honors",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Piano",
+              "original": "To find your piano broken and out of tune, portends dissatisfaction with your own accomplishments and disappointment in the failure of your friends or children to win honors.",
+              "translation_ko": "피아노가 부서지고 음이 안 맞는 것을 보는 꿈은, 제 성취에 불만을 느끼고 벗이나 자식이 영예를 못 얻어 실망할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "낡은 구식 피아노를 봄",
+          "interpretation_ko": "힘든 때에 과거의 조언과 기회를 저버렸으니 되풀이하지 말라는 경고",
+          "interpretation_en": "denotes that you have, in trying moments, neglected the advices and opportunities of the past, and are warned not to do so again",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Piano",
+              "original": "To see an old-fashioned piano, denotes that you have, in trying moments, neglected the advices and opportunities of the past, and are warned not to do so again.",
+              "translation_ko": "낡은 구식 피아노를 보는 꿈은, 힘든 때에 과거의 조언과 기회를 저버렸으니 되풀이하지 말라는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 어렵고도 황홀한 곡을 연주함",
+          "interpretation_ko": "무심하던 벗을 헌신적이고 신실한 애인으로 얻을 조짐",
+          "interpretation_en": "she will succeed in winning an indifferent friend to be a most devoted and loyal lover",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Piano",
+              "original": "For a young woman to dream that she is executing difficult, but entrancing music, she will succeed in winning an indifferent friend to be a most devoted and loyal lover.",
+              "translation_ko": "처녀가 어렵고도 황홀한 곡을 연주하는 꿈은, 무심하던 벗을 헌신적이고 신실한 애인으로 얻을 조짐이다"
             }
           ]
         }
