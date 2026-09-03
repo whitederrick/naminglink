@@ -21,6 +21,7 @@
     "m114.json",
     "m115.json",
     "m116.json",
+    "m117.json",
     "m12.json",
     "m13.json",
     "m14.json",
@@ -22545,6 +22546,146 @@
               "locator": "衣帳毯褥匙櫡",
               "original": "舖蓆合坐得官位",
               "translation_ko": "돗자리를 펴고 함께 앉으면 벼슬자리를 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wedding",
+      "term_ko": "혼례",
+      "term_en": "wedding",
+      "aliases": [
+        "결혼식",
+        "혼인",
+        "혼인하는",
+        "결혼했다",
+        "결혼하는",
+        "혼례를",
+        "혼례가",
+        "예식",
+        "혼인했다",
+        "혼인하고",
+        "혼인하여"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "혼인하는 것을 봄",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "見嫁娶及孝主凶",
+              "translation_ko": "혼인과 상 치르는 것을 보면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 늙고 쇠약한 남자와 혼인함",
+          "interpretation_ko": "괴로운 일과 병을 크게 겪을 흉한 조짐",
+          "interpretation_en": "denotes she will have a vast amount of trouble and sickness to encounter",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "For a woman to dream that she marries an old, decrepit man, wrinkled face and gray headed, denotes she will have a vast amount of trouble and sickness to encounter.",
+              "translation_ko": "여성이 얼굴에 주름지고 머리가 센 늙고 쇠약한 남자와 혼인하는 꿈은, 괴로운 일과 병을 크게 겪음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "혼례 중에 정인이 검은 옷을 입고 지나감",
+          "interpretation_ko": "벗의 차가움과 매정함에 마음이 무너질 흉한 조짐",
+          "interpretation_en": "she will be driven to desperation by the coldness and lack of sympathy of a friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "If, while the ceremony is in progress, her lover passes, wearing black and looking at her in a reproachful way, she will be driven to desperation by the coldness and lack of sympathy of a friend.",
+              "translation_ko": "혼례가 치러지는 동안 정인이 검은 옷을 입고 나무라는 눈으로 지나가면, 벗의 차가움과 매정함에 마음이 무너진다"
+            }
+          ]
+        },
+        {
+          "context": "칙칙한 옷의 하객이 있는 혼례를 봄",
+          "interpretation_ko": "슬픔과 상이 기다리는 흉한 조짐",
+          "interpretation_en": "there will be mourning and sorrow in store for the dreamer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "if they are dressed in black or other somber hues, there will be mourning and sorrow in store for the dreamer.",
+              "translation_ko": "하객이 검거나 칙칙한 빛깔의 옷을 입었으면 슬픔과 상이 기다린다"
+            }
+          ]
+        },
+        {
+          "context": "밝은 빛깔 옷의 하객이 있는 혼례를 봄",
+          "interpretation_ko": "큰 즐거움이 있을 길한 조짐",
+          "interpretation_en": "denotes high enjoyment, if the wedding guests attend in pleasing colors and are happy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "To dream of seeing a marriage, denotes high enjoyment, if the wedding guests attend in pleasing colors and are happy;",
+              "translation_ko": "혼례를 보는 꿈은, 하객이 고운 빛깔의 옷을 입고 즐거워한다면 큰 즐거움이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "혼인을 약속함",
+          "interpretation_ko": "멀리 있는 이에게서 언짢은 기별이 올 흉한 조짐",
+          "interpretation_en": "you will have unpleasant news from the absent",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "If you dream of contracting a marriage, you will have unpleasant news from the absent.",
+              "translation_ko": "혼인을 약속하는 꿈은, 멀리 있는 이에게서 언짢은 기별이 옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "혼례에 들러리로 참석함",
+          "interpretation_ko": "아끼는 이들의 살뜰함에서 큰 즐거움을 얻고 하는 일도 유난히 잘 풀릴 길한 조짐",
+          "interpretation_en": "you will experience much pleasure from the thoughtfulness of loved ones, and business affairs will be unusually promising",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "If you are an attendant at a wedding, you will experience much pleasure from the thoughtfulness of loved ones, and business affairs will be unusually promising.",
+              "translation_ko": "혼례에 들러리로 참석하면, 아끼는 이들의 살뜰함에서 큰 즐거움을 얻고 하는 일도 유난히 잘 풀린다"
+            }
+          ]
+        },
+        {
+          "context": "혼례에 궂은일이 생김",
+          "interpretation_ko": "집안에 괴로운 일이나 병, 죽음이 있을 흉한 조짐",
+          "interpretation_en": "foretells distress, sickness, or death in your family",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marriage",
+              "original": "To dream of any unfortunate occurrence in connection with a marriage, foretells distress, sickness, or death in your family.",
+              "translation_ko": "혼례에 궂은일이 생기는 꿈은, 집안에 괴로운 일이나 병, 죽음이 있음을 알린다"
             }
           ]
         }
@@ -78890,6 +79031,100 @@
       ]
     },
     {
+      "id": "marmalade",
+      "term_ko": "마멀레이드",
+      "term_en": "marmalade",
+      "aliases": [
+        "마멀레이드를",
+        "마멀레이드가",
+        "잼"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "마멀레이드를 먹음",
+          "interpretation_ko": "병이 들고 마음에 안 차는 일이 많을 흉한 조짐",
+          "interpretation_en": "denotes sickness and much dissatisfaction",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marmalade",
+              "original": "To dream of eating marmalade, denotes sickness and much dissatisfaction",
+              "translation_ko": "마멀레이드를 먹는 꿈은 병이 들고 마음에 안 차는 일이 많음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 마멀레이드를 만듦",
+          "interpretation_ko": "집안 사람들과의 사이가 언짢아질 흉한 조짐",
+          "interpretation_en": "denotes unhappy domestic associations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marmalade",
+              "original": "For a young woman to dream of making it, denotes unhappy domestic associations.",
+              "translation_ko": "젊은 여성이 그것을 만드는 꿈을 꾸면 집안 사람들과의 사이가 언짢아진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marmot",
+      "term_ko": "마멋",
+      "term_en": "marmot",
+      "aliases": [
+        "마멋이",
+        "마멋을",
+        "마르모트"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "마멋을 봄",
+          "interpretation_ko": "교활한 적이 고운 여인의 모습으로 다가오는 흉한 조짐",
+          "interpretation_en": "denotes that sly enemies are approaching you in the shape of fair women",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marmot",
+              "original": "To dream of seeing a marmot, denotes that sly enemies are approaching you in the shape of fair women.",
+              "translation_ko": "마멋을 보는 꿈은, 교활한 적이 고운 여인의 모습으로 다가옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 마멋 꿈을 꿈",
+          "interpretation_ko": "앞으로 마음을 흔드는 꾐이 따라붙을 흉한 조짐",
+          "interpretation_en": "foretells that temptation will beset her in the future",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marmot",
+              "original": "For a young woman to dream of a marmot, foretells that temptation will beset her in the future.",
+              "translation_ko": "젊은 여성이 마멋 꿈을 꾸면, 앞으로 마음을 흔드는 꾐이 따라붙는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "millet",
       "term_ko": "좁쌀",
       "term_en": "millet",
@@ -92439,41 +92674,6 @@
               "locator": "金銀珠玉絹帛",
               "original": "家中分財主離敗",
               "translation_ko": "집안에서 재물을 나누면 헤어지고 무너진다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wedding",
-      "term_ko": "혼례",
-      "term_en": "wedding",
-      "aliases": [
-        "결혼식",
-        "혼인",
-        "혼인하는",
-        "결혼했다",
-        "결혼하는"
-      ],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "혼인하는 것을 봄",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "見嫁娶及孝主凶",
-              "translation_ko": "혼인과 상 치르는 것을 보면 흉하다"
             }
           ]
         }

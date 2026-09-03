@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 116 — March~Market, 13건)
+// (지금 담긴 것: 배치 117 — Marmalade~Marriage, 13건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,20 +30,20 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "march", ctx: "음악에 맞춰 행진함", text: "음악에 맞춰 행진했다" },
-  { id: "march", ctx: "여성이 사내들이 행진하는 것을 봄", text: "여자가 사내들이 행진하는 것을 보았다" },
-  { id: "march-month", ctx: "삼월을 봄", text: "꿈에 3월이었다" },
-  { id: "horse", ctx: "메마른 풀밭의 암말을 봄", text: "메마른 풀밭의 암말을 보았다" },
-  { id: "horse", ctx: "처녀가 암말을 봄", text: "처녀가 암말을 보았다" },
-  { id: "horse", ctx: "풀밭의 암말을 봄", text: "풀밭의 암말을 보았다" },
-  { id: "marigold", ctx: "금잔화를 봄", text: "노란 금잔화가 피어 있었다" },
-  { id: "mariner", ctx: "제가 뱃사람이 됨", text: "내가 뱃사람이 되었다" },
-  { id: "mariner", ctx: "제 배가 저 없이 떠나는 것을 봄", text: "뱃사람이 탈 배가 나를 두고 떠났다" },
-  { id: "marketplace", ctx: "시장 안에 있음", text: "시장이 북적였다" },
-  { id: "marketplace", ctx: "시장에서 상한 채소나 고기를 봄", text: "시장에서 상한 채소를 보았다" },
+  { id: "marmalade", ctx: "마멀레이드를 먹음", text: "마멀레이드를 먹었다" },
+  { id: "marmalade", ctx: "처녀가 마멀레이드를 만듦", text: "처녀가 마멀레이드를 만들었다" },
+  { id: "marmot", ctx: "마멋을 봄", text: "마멋이 나타났다" },
+  { id: "marmot", ctx: "처녀가 마멋 꿈을 꿈", text: "처녀가 마멋 꿈을 꾸었다" },
+  { id: "wedding", ctx: "여성이 늙고 쇠약한 남자와 혼인함", text: "여자가 늙은 남자와 혼인했다" },
+  { id: "wedding", ctx: "혼례 중에 정인이 검은 옷을 입고 지나감", text: "혼례 중에 정인이 지나갔다" },
+  { id: "wedding", ctx: "칙칙한 옷의 하객이 있는 혼례를 봄", text: "칙칙한 옷의 하객이 있는 혼례를 보았다" },
+  { id: "wedding", ctx: "밝은 빛깔 옷의 하객이 있는 혼례를 봄", text: "밝은 옷의 하객이 있는 혼례를 보았다" },
+  { id: "wedding", ctx: "혼인을 약속함", text: "혼인을 약속했다" },
+  { id: "wedding", ctx: "혼례에 들러리로 참석함", text: "혼례에 들러리로 참석했다" },
+  { id: "wedding", ctx: "혼례에 궂은일이 생김", text: "혼례에 궂은일이 생겼다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "horse", ctx: "새끼 밴 암말을 봄", text: "새끼 밴 암말을 보았다" },
-  { id: "marketplace", ctx: "시장에 사람이 하나도 없음", text: "시장에 아무도 없었다" },
+  { id: "wedding", ctx: "혼인하는 것을 봄", text: "혼례를 올리는 것을 보았다" },
+  { id: "bride", ctx: "혼례 단장에 불만을 느낌", text: "신부가 혼례 단장을 못마땅해했다" },
 ];
 
 let notFound = 0;

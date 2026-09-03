@@ -1,0 +1,40 @@
+[
+  {
+    "id": "marmalade",
+    "aliases": [
+      "마멀레이드를",
+      "마멀레이드가",
+      "잼"
+    ],
+    "aliases_en": [
+      "marmalades"
+    ],
+    "contexts": {
+      "마멀레이드를 먹음": "먹었 먹는",
+      "처녀가 마멀레이드를 만듦": "만들 졸였 처녀"
+    },
+    "contexts_en": {
+      "마멀레이드를 먹음": "eating sickness dissatisfaction",
+      "처녀가 마멀레이드를 만듦": "making unhappy domestic associations"
+    }
+  },
+  {
+    "id": "marmot",
+    "aliases": [
+      "마멋이",
+      "마멋을",
+      "마르모트"
+    ],
+    "aliases_en": [
+      "marmots"
+    ],
+    "contexts": {
+      "마멋을 봄": "나타났 다가왔",
+      "처녀가 마멋 꿈을 꿈": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "마멋을 봄": "sly enemies approaching fair",
+      "처녀가 마멋 꿈을 꿈": "temptation beset future"
+    }
+  }
+]

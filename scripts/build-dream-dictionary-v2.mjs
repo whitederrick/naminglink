@@ -204,6 +204,7 @@ const FALLBACK_FIRST = new Map([
   // 떨어질 자리는 「번개를 봄」이다(배치 54의 `hunting`·`embrace` 와 같은 판단).
   ["lightning", "번개를 봄"],
   ["lion", "사자를 봄"],
+  ["wedding", "혼인하는 것을 봄"],
   ["house", "집을 지음"],
   ["headgear", "값진 머리쓰개를 봄"],
   // 좁은 쪽(여성이 ~)을 추출 파일 앞에 두어 동점을 풀었다 — 기본값은 옛 값 그대로 얼린다

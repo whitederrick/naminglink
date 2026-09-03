@@ -1811,6 +1811,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "siblings::형제가 활기 넘치는 모습을 봄": "lively vigorous healthy cheerful robust",
   "siblings::형제가 가난하고 곤경에 처하거나 도움을 구걸함": "poor poverty begging destitute distress",
   "siblings::형제가 서로 헤어짐": "parted parting separated farewell",
+  "wedding::혼인하는 것을 봄": "held taking place",
+  "wedding::여성이 늙고 쇠약한 남자와 혼인함": "decrepit wrinkled gray vast encounter",
+  "wedding::혼례 중에 정인이 검은 옷을 입고 지나감": "passes reproachful desperation coldness",
+  "wedding::칙칙한 옷의 하객이 있는 혼례를 봄": "somber hues mourning store",
+  "wedding::밝은 빛깔 옷의 하객이 있는 혼례를 봄": "guests pleasing colors enjoyment",
+  "wedding::혼인을 약속함": "contracting unpleasant absent",
+  "wedding::혼례에 들러리로 참석함": "attendant thoughtfulness promising",
+  "wedding::혼례에 궂은일이 생김": "unfortunate occurrence distress family",
   "wheat-flour::밀가루와 겨가 서로 섞임": "bran mixed",
   "wheat-flour::밀가루를 봄": "frugal happy life",
   "wheat-flour::처녀가 제 몸에 밀가루가 묻은 것을 봄": "herself ruled husband cares",
@@ -4294,5 +4302,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "march-month::삼월을 봄": "portends disappointing returns honesty",
   "marigold::금잔화를 봄": "contentment frugality aim",
   "mariner::제가 뱃사람이 됨": "long journey distant countries pleasure",
-  "mariner::제 배가 저 없이 떠나는 것을 봄": "vessel sailing discomfort rivals"
+  "mariner::제 배가 저 없이 떠나는 것을 봄": "vessel sailing discomfort rivals",
+  "marmalade::마멀레이드를 먹음": "eating sickness dissatisfaction",
+  "marmalade::처녀가 마멀레이드를 만듦": "making unhappy domestic associations",
+  "marmot::마멋을 봄": "sly enemies approaching fair",
+  "marmot::처녀가 마멋 꿈을 꿈": "temptation beset future"
 };
