@@ -1,0 +1,107 @@
+[
+  {
+    "term_ko": "몸이 성치 않은 이",
+    "term_en": "crippled",
+    "context": "제가 절뚝이며 걸음",
+    "interpretation_ko": "생각지 못한 자잘한 걱정이 닥쳐 즐거움을 크게 깎아 낼 흉한 조짐",
+    "interpretation_en": "denotes that a small worry will unexpectedly confront you, detracting much from your enjoyment",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Limp",
+      "original": "To dream that you limp in your walk, denotes that a small worry will unexpectedly confront you, detracting much from your enjoyment.",
+      "translation_ko": "제가 절뚝이며 걷는 꿈은, 생각지 못한 자잘한 걱정이 닥쳐 즐거움을 크게 깎아 냄을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "몸이 성치 않은 이",
+    "term_en": "crippled",
+    "context": "남이 절뚝이는 것을 봄",
+    "interpretation_ko": "벗의 처신에 절로 언짢아질 흉한 조짐. 자잘한 실패가 따른다",
+    "interpretation_en": "signifies that you will be naturally offended at the conduct of a friend; small failures attend this dream",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Limp",
+      "original": "To see others limping, signifies that you will be naturally offended at the conduct of a friend. Small failures attend this dream.",
+      "translation_ko": "남이 절뚝이는 것을 보면 벗의 처신에 절로 언짢아진다. 자잘한 실패가 따른다"
+    }
+  },
+  {
+    "term_ko": "린넨",
+    "term_en": "linen",
+    "context": "린넨을 봄",
+    "interpretation_ko": "넉넉함과 즐거움을 알리는 길한 조짐",
+    "interpretation_en": "augurs prosperity and enjoyment",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Linen",
+      "original": "To see linen in your dream, augurs prosperity and enjoyment.",
+      "translation_ko": "꿈에 린넨을 보면 넉넉함과 즐거움이 온다"
+    }
+  },
+  {
+    "term_ko": "린넨",
+    "term_en": "linen",
+    "context": "린넨 옷을 입은 사람을 봄",
+    "interpretation_ko": "머잖아 물려받을 것에 얽힌 기쁜 기별을 받을 길한 조짐",
+    "interpretation_en": "you will shortly be the recipient of joyful tidings in the nature of an inheritance",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Linen",
+      "original": "If a person appears to you dressed in linen garments, you will shortly be the recipient of joyful tidings in the nature of an inheritance.",
+      "translation_ko": "린넨 옷을 입은 사람이 나타나면, 머잖아 물려받을 것에 얽힌 기쁜 기별을 받는다"
+    }
+  },
+  {
+    "term_ko": "린넨",
+    "term_en": "linen",
+    "context": "깨끗하고 고운 린넨 옷을 입음",
+    "interpretation_ko": "복과 삶의 넉넉한 즐거움이 틀림없이 올 길한 조짐",
+    "interpretation_en": "your fortune and fullest enjoyment in life is assured",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Linen",
+      "original": "If you are apparelled in clean, fine linen, your fortune and fullest enjoyment in life is assured.",
+      "translation_ko": "깨끗하고 고운 린넨 옷을 입고 있으면, 복과 삶의 넉넉한 즐거움이 틀림없이 온다"
+    }
+  },
+  {
+    "term_ko": "린넨",
+    "term_en": "linen",
+    "context": "더러워진 린넨 옷을 입음",
+    "interpretation_ko": "좋은 일에 섞여 슬픔과 궂은 운이 이따금 닥칠 흉한 조짐",
+    "interpretation_en": "sorrow and ill luck will be met with occasionally, mingled with the good in your life",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Linen",
+      "original": "If it be soiled, sorrow and ill luck will be met with occasionally, mingled with the good in your life.",
+      "translation_ko": "린넨이 더러워져 있으면, 좋은 일에 섞여 슬픔과 궂은 운이 이따금 닥친다"
+    }
+  },
+  {
+    "term_ko": "아마씨기름",
+    "term_en": "linseed oil",
+    "context": "아마씨기름을 봄",
+    "interpretation_ko": "앞뒤 없이 헤프던 씀씀이가 벗의 고마운 참견으로 잡힐 조짐",
+    "interpretation_en": "denotes your impetuous extravagance will be checked by the kindly interference of a friend",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Linseed Oil",
+      "original": "To see linseed oil in your dreams, denotes your impetuous extravagance will be checked by the kindly interference of a friend.",
+      "translation_ko": "꿈에 아마씨기름을 보면, 앞뒤 없이 헤프던 씀씀이가 벗의 고마운 참견으로 잡힌다"
+    }
+  }
+]

@@ -2988,6 +2988,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "criminal::범죄자가 법망을 피해 달아나는 것을 봄": "달아나 도망 쫓기",
   "crippled::몸이 성치 않은 이를 봄": "성치 굶주",
   "crippled::여자가 다리를 저는 이를 봄": "여자가 여인이 아내가",
+  "crippled::제가 절뚝이며 걸음": "제가 나는 걸을 걸으며",
+  "crippled::남이 절뚝이는 것을 봄": "남이 남들이 다른 사람이",
   "crochet-work::코바늘뜨기를 함": "코바늘",
   "crochet-work::여자가 뜨개질을 함": "여자가 여인이",
   "crochet-work::남자가 뜨개질 공장에 있음": "남자가 사내가",
@@ -4124,5 +4126,10 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "lily::백합 향기를 맡음": "향기 냄새 맡았",
   "lime::석회를 봄": "덩어리 가루",
   "lime-kiln::석회 가마를 봄": "가마 굽는",
-  "limes::라임을 먹음": "먹었 먹는"
+  "limes::라임을 먹음": "먹었 먹는",
+  "linen::린넨을 봄": "천이 옷감",
+  "linen::린넨 옷을 입은 사람을 봄": "입은 차림",
+  "linen::깨끗하고 고운 린넨 옷을 입음": "깨끗 고운",
+  "linen::더러워진 린넨 옷을 입음": "더러 때묻 얼룩",
+  "linseed-oil::아마씨기름을 봄": "짜낸 기름통"
 };

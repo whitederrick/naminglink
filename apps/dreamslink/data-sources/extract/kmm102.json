@@ -1,0 +1,43 @@
+[
+  {
+    "id": "linen",
+    "aliases": [
+      "아마포",
+      "린넨 옷",
+      "린넨을",
+      "린넨이"
+    ],
+    "aliases_en": [
+      "linens"
+    ],
+    "contexts": {
+      "린넨을 봄": "천이 옷감",
+      "린넨 옷을 입은 사람을 봄": "입은 차림",
+      "깨끗하고 고운 린넨 옷을 입음": "깨끗 고운",
+      "더러워진 린넨 옷을 입음": "더러 때묻 얼룩"
+    },
+    "contexts_en": {
+      "린넨을 봄": "augurs prosperity",
+      "린넨 옷을 입은 사람을 봄": "garments tidings inheritance",
+      "깨끗하고 고운 린넨 옷을 입음": "apparelled clean fullest assured",
+      "더러워진 린넨 옷을 입음": "soiled mingled occasionally"
+    }
+  },
+  {
+    "id": "linseed-oil",
+    "aliases": [
+      "아마인유",
+      "아마씨 기름을",
+      "아마씨기름을"
+    ],
+    "aliases_en": [
+      "flaxseed oil"
+    ],
+    "contexts": {
+      "아마씨기름을 봄": "짜낸 기름통"
+    },
+    "contexts_en": {
+      "아마씨기름을 봄": "impetuous extravagance checked kindly interference"
+    }
+  }
+]

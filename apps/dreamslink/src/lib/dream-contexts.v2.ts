@@ -2984,6 +2984,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "criminal::범죄자가 법망을 피해 달아나는 것을 봄": "fleeing justice secrets",
   "crippled::몸이 성치 않은 이를 봄": "famine distress trade poor",
   "crippled::여자가 다리를 저는 이를 봄": "woman pleasures unfruitful disappointing",
+  "crippled::제가 절뚝이며 걸음": "walk unexpectedly detracting",
+  "crippled::남이 절뚝이는 것을 봄": "others limping offended conduct",
   "crochet-work::코바늘뜨기를 함": "hook needle",
   "crochet-work::여자가 뜨개질을 함": "quiet peaceful home dutiful delight",
   "crochet-work::남자가 뜨개질 공장에 있음": "man thrift solid rise prospects",
@@ -4120,5 +4122,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lily::백합 향기를 맡음": "breathe fragrance purify enhance mental",
   "lime::석회를 봄": "disaster prostrate revive richer",
   "lime-kiln::석회 가마를 봄": "immediate favor speculations",
-  "limes::라임을 먹음": "eating continued adverse straits"
+  "limes::라임을 먹음": "eating continued adverse straits",
+  "linen::린넨을 봄": "augurs prosperity",
+  "linen::린넨 옷을 입은 사람을 봄": "garments tidings inheritance",
+  "linen::깨끗하고 고운 린넨 옷을 입음": "apparelled clean fullest assured",
+  "linen::더러워진 린넨 옷을 입음": "soiled mingled occasionally",
+  "linseed-oil::아마씨기름을 봄": "impetuous extravagance checked kindly interference"
 };

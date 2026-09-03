@@ -203,6 +203,7 @@ const FALLBACK_FIRST = new Map([
   // 옛 기본값 「번갯빛이 몸을 비춤」은 조건이 붙은 좁은 자리라, 막연한 「번개 꿈」이
   // 떨어질 자리는 「번개를 봄」이다(배치 54의 `hunting`·`embrace` 와 같은 판단).
   ["lightning", "번개를 봄"],
+  ["crippled", "몸이 성치 않은 이를 봄"],
   ["fleeing", "몸이 달아나 벗어남"],
   ["bequest", "유산(증여)에 관한 꿈을 꿈"],
   ["banishment", "외국으로 추방됨"],

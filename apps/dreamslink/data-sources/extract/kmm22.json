@@ -188,7 +188,13 @@
       "절뚝거리는",
       "절뚝였다",
       "몸이 성치 않은",
-      "성치 않은 사람"
+      "성치 않은 사람",
+      "절뚝거렸다",
+      "절뚝거리며",
+      "절뚝이며",
+      "다리를 절었다",
+      "다리를 저는",
+      "다리를 절며"
     ],
     "aliases_en": [
       "the crippled",
@@ -196,11 +202,15 @@
     ],
     "contexts": {
       "몸이 성치 않은 이를 봄": "성치 굶주",
-      "여자가 다리를 저는 이를 봄": "여자가 여인이 아내가"
+      "여자가 다리를 저는 이를 봄": "여자가 여인이 아내가",
+      "제가 절뚝이며 걸음": "제가 나는 걸을 걸으며",
+      "남이 절뚝이는 것을 봄": "남이 남들이 다른 사람이"
     },
     "contexts_en": {
       "몸이 성치 않은 이를 봄": "famine distress trade poor",
-      "여자가 다리를 저는 이를 봄": "woman pleasures unfruitful disappointing"
+      "여자가 다리를 저는 이를 봄": "woman pleasures unfruitful disappointing",
+      "제가 절뚝이며 걸음": "walk unexpectedly detracting",
+      "남이 절뚝이는 것을 봄": "others limping offended conduct"
     }
   },
   {

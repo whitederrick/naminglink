@@ -6096,5 +6096,11 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "limes": [
     "lime fruit"
+  ],
+  "linen": [
+    "linens"
+  ],
+  "linseed-oil": [
+    "flaxseed oil"
   ]
 };
