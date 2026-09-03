@@ -767,7 +767,8 @@
     "id": "blanket",
     "aliases": [
       "모포",
-      "무릎담요"
+      "무릎담요",
+      "무릎덮개"
     ],
     "aliases_en": [
       "blankets",
@@ -777,13 +778,17 @@
       "담요가 더러워진 꿈을 꿈": "더러 지저분 얼룩진",
       "새 것이고 흰 담요를 봄": "새것 하얀 백색",
       "담요와 요를 펴서 깖": "펴서 깔았 요를 펼쳐",
-      "좋은 이불을 스스로 덮음": "덮었 이불을 덮고"
+      "좋은 이불을 스스로 덮음": "덮었 이불을 덮고",
+      "무릎덮개를 봄": "무릎덮개",
+      "무릎덮개를 잃어버림": "잃어버 잃었"
     },
     "contexts_en": {
       "담요가 더러워진 꿈을 꿈": "soiled dirty stained filthy",
       "새 것이고 흰 담요를 봄": "white clean unused",
       "담요와 요를 펴서 깖": "spread laid mattress bedding",
-      "좋은 이불을 스스로 덮음": "covered quilt myself"
+      "좋은 이불을 스스로 덮음": "covered quilt myself",
+      "무릎덮개를 봄": "lap-robe suspicious engagements surveillance",
+      "무릎덮개를 잃어버림": "condemned injure affairs"
     }
   },
   {

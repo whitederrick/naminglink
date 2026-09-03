@@ -1,0 +1,51 @@
+[
+  {
+    "id": "lard",
+    "aliases": [
+      "돼지비계",
+      "라드"
+    ],
+    "aliases_en": [
+      "lard"
+    ],
+    "contexts": {
+      "돼지기름을 봄": "보였다 굳어",
+      "여자가 녹은 돼지기름에 손이 빠짐": "녹은 손이 손을"
+    },
+    "contexts_en": {
+      "돼지기름을 봄": "rise fortune gratify",
+      "여자가 녹은 돼지기름에 손이 빠짐": "melted hand disappointment social circles"
+    }
+  },
+  {
+    "id": "lark",
+    "aliases": [
+      "종다리",
+      "종달새들"
+    ],
+    "aliases_en": [
+      "larks",
+      "a lark"
+    ],
+    "contexts": {
+      "종달새가 나는 것을 봄": "나는 날아오르",
+      "종달새가 날며 지저귀는 소리를 들음": "지저귀 노랫소리",
+      "종달새가 땅으로 떨어지며 지저귐": "떨어지며 땅으로",
+      "다치거나 죽은 종달새를 봄": "다친 죽은 주검",
+      "종달새를 죽임": "죽였",
+      "종달새가 둘레를 돌다 몸에 내려앉음": "내려앉 어깨에 몸에",
+      "덫으로 종달새를 잡음": "덫으로 덫에 올가미",
+      "종달새가 먹이를 먹는 것을 봄": "먹이를 모이를 쪼아"
+    },
+    "contexts_en": {
+      "종달새가 나는 것을 봄": "flying aims purposes selfishness graces",
+      "종달새가 날며 지저귀는 소리를 들음": "singing change abode flourish",
+      "종달새가 땅으로 떨어지며 지저귐": "earth despairing gloom bewildering",
+      "다치거나 죽은 종달새를 봄": "wounded sadness",
+      "종달새를 죽임": "injury innocence wantonness",
+      "종달새가 둘레를 돌다 몸에 내려앉음": "around fortune promising countenance",
+      "덫으로 종달새를 잡음": "catch traps honor easily",
+      "종달새가 먹이를 먹는 것을 봄": "eating plentiful harvest"
+    }
+  }
+]

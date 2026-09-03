@@ -89,6 +89,7 @@
     "m84.json",
     "m85.json",
     "m86.json",
+    "m87.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -14369,6 +14370,166 @@
       ]
     },
     {
+      "id": "knee",
+      "term_ko": "무릎",
+      "term_en": "knee",
+      "aliases": [
+        "무릎이",
+        "무릎을",
+        "무릎에",
+        "무르팍"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무릎 꿈을 꿈",
+          "interpretation_ko": "복이 따르지 않는 흉한 조짐",
+          "interpretation_en": "is an unfortunate omen",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Knee",
+              "original": "To dream of knees is an unfortunate omen.",
+              "translation_ko": "무릎 꿈은 복이 따르지 않는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "무릎이 너무 큼",
+          "interpretation_ko": "갑작스레 불운이 닥칠 흉한 조짐",
+          "interpretation_en": "denotes sudden ill luck for you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Knee",
+              "original": "To dream that your knees are too large, denotes sudden ill luck for you.",
+              "translation_ko": "무릎이 너무 큰 꿈을 꾸면 갑작스레 불운이 닥친다"
+            }
+          ]
+        },
+        {
+          "context": "무릎이 뻣뻣하고 아픔",
+          "interpretation_ko": "빠르고 무서운 재앙이 기다릴 흉한 조짐",
+          "interpretation_en": "swift and fearful calamity awaits you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Knee",
+              "original": "If they are stiff and pain you, swift and fearful calamity awaits you.",
+              "translation_ko": "무릎이 뻣뻣하고 아프면 빠르고 무서운 재앙이 기다린다"
+            }
+          ]
+        },
+        {
+          "context": "무릎이 곱고 매끈함",
+          "interpretation_ko": "따르는 이가 많으나 혼인을 청하는 이는 없을 조짐",
+          "interpretation_en": "predicts she will have many admirers, but none to woo her in wedlock",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Knee",
+              "original": "For a woman to dream that she has well-formed and smooth knees, predicts she will have many admirers, but none to woo her in wedlock.",
+              "translation_ko": "여자가 제 무릎이 곱고 매끈한 꿈을 꾸면 따르는 이가 많으나 혼인을 청하는 이는 없다"
+            }
+          ]
+        },
+        {
+          "context": "무릎이 더러움",
+          "interpretation_ko": "방탕한 생활로 병이 들 흉한 조짐",
+          "interpretation_en": "sickness from dissipation is portended",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Knee",
+              "original": "If they are soiled, sickness from dissipation is portended.",
+              "translation_ko": "무릎이 더러우면 방탕한 생활로 병이 든다"
+            }
+          ]
+        },
+        {
+          "context": "무릎이 볼품없음",
+          "interpretation_ko": "간절히 품던 바람이 궂은 변화에 밀려날 흉한 조짐",
+          "interpretation_en": "unhappy changes in her fortune will displace ardent hopes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Knee",
+              "original": "If they are unshapely, unhappy changes in her fortune will displace ardent hopes.",
+              "translation_ko": "무릎이 볼품없으면 간절히 품던 바람이 궂은 변화에 밀려난다"
+            }
+          ]
+        },
+        {
+          "context": "남의 무릎에 앉음",
+          "interpretation_ko": "성가신 얽매임에서 벗어나 마음 놓을 길한 조짐",
+          "interpretation_en": "denotes pleasant security from vexing engagements",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lap",
+              "original": "To dream of sitting on some person's lap, denotes pleasant security from vexing engagements.",
+              "translation_ko": "남의 무릎에 앉는 꿈은 성가신 얽매임에서 벗어나 마음 놓음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 남을 제 무릎에 앉힘",
+          "interpretation_ko": "언짢은 입길에 오를 흉한 조짐",
+          "interpretation_en": "she will be exposed to unfavorable criticism",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lap",
+              "original": "If a young woman dreams that she is holding a person on her lap, she will be exposed to unfavorable criticism.",
+              "translation_ko": "젊은 여성이 남을 제 무릎에 앉히는 꿈을 꾸면 언짢은 입길에 오른다"
+            }
+          ]
+        },
+        {
+          "context": "무릎에 뱀이 있음",
+          "interpretation_ko": "적의 손에 부끄러움을 당할 낌새가 있는 흉한 조짐",
+          "interpretation_en": "foretells she is threatened with humiliation at the hands of enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lap",
+              "original": "To see a serpent in her lap, foretells she is threatened with humiliation at the hands of enemies.",
+              "translation_ko": "무릎에 뱀이 있는 것을 보면 적의 손에 부끄러움을 당할 낌새가 있다"
+            }
+          ]
+        },
+        {
+          "context": "무릎에 고양이가 있음",
+          "interpretation_ko": "홀리는 적에게 휘말릴 흉한 조짐",
+          "interpretation_en": "she will be endangered by a seductive enemy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lap",
+              "original": "If she sees a cat in her lap, she will be endangered by a seductive enemy.",
+              "translation_ko": "무릎에 고양이가 있는 것을 보면 홀리는 적에게 휘말린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "lake",
       "term_ko": "호수",
       "term_en": "lake",
@@ -19583,6 +19744,136 @@
       ]
     },
     {
+      "id": "lark",
+      "term_ko": "종달새",
+      "term_en": "lark",
+      "aliases": [
+        "종다리",
+        "종달새들"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "종달새가 나는 것을 봄",
+          "interpretation_ko": "높은 뜻을 품고 그것을 이루며 제 욕심을 벗고 어진 마음을 기를 길한 조짐",
+          "interpretation_en": "denotes high aims and purposes through the attainment of which you will throw off selfishness and cultivate kindly graces of mind",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lark",
+              "original": "To see larks flying, denotes high aims and purposes through the attainment of which you will throw off selfishness and cultivate kindly graces of mind.",
+              "translation_ko": "종달새가 나는 것을 보면, 높은 뜻을 품고 그것을 이루며 제 욕심을 벗고 어진 마음을 기른다"
+            }
+          ]
+        },
+        {
+          "context": "종달새가 날며 지저귀는 소리를 들음",
+          "interpretation_ko": "새로 옮긴 집에서 크게 즐겁고 일도 잘될 길한 조짐",
+          "interpretation_en": "you will be very happy in a new change of abode, and business will flourish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lark",
+              "original": "To hear them singing as they fly, you will be very happy in a new change of abode, and business will flourish.",
+              "translation_ko": "종달새가 날며 지저귀는 소리를 들으면 새로 옮긴 집에서 크게 즐겁고 일도 잘된다"
+            }
+          ]
+        },
+        {
+          "context": "종달새가 땅으로 떨어지며 지저귐",
+          "interpretation_ko": "즐거움의 어지러운 기쁨 속에서 절망스러운 어둠이 덮칠 흉한 조짐",
+          "interpretation_en": "despairing gloom will overtake you in pleasure's bewildering delights",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lark",
+              "original": "To see them fall to the earth and singing as they fall, despairing gloom will overtake you in pleasure's bewildering delights.",
+              "translation_ko": "종달새가 땅으로 떨어지며 지저귀는 것을 보면, 즐거움의 어지러운 기쁨 속에서 절망스러운 어둠이 덮친다"
+            }
+          ]
+        },
+        {
+          "context": "다치거나 죽은 종달새를 봄",
+          "interpretation_ko": "슬픔이나 죽음을 알리는 흉한 조짐",
+          "interpretation_en": "portends sadness or death",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lark",
+              "original": "A wounded or dead lark, portends sadness or death.",
+              "translation_ko": "다치거나 죽은 종달새는 슬픔이나 죽음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "종달새를 죽임",
+          "interpretation_ko": "함부로 굴어 죄 없는 것을 다치게 할 흉한 조짐",
+          "interpretation_en": "portends injury to innocence through wantonness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lark",
+              "original": "To kill a lark, portends injury to innocence through wantonness.",
+              "translation_ko": "종달새를 죽이면 함부로 굴어 죄 없는 것을 다치게 한다"
+            }
+          ]
+        },
+        {
+          "context": "종달새가 둘레를 돌다 몸에 내려앉음",
+          "interpretation_ko": "복이 제게 낯을 돌려 줄 길한 조짐",
+          "interpretation_en": "Fortune will turn her promising countenance towards you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lark",
+              "original": "If they fly around and light on you, Fortune will turn her promising countenance towards you.",
+              "translation_ko": "종달새가 둘레를 돌다 몸에 내려앉으면 복이 제게 낯을 돌려 준다"
+            }
+          ]
+        },
+        {
+          "context": "덫으로 종달새를 잡음",
+          "interpretation_ko": "이름과 사랑을 쉬이 얻을 길한 조짐",
+          "interpretation_en": "you will win honor and love easily",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lark",
+              "original": "To catch them in traps, you will win honor and love easily.",
+              "translation_ko": "덫으로 종달새를 잡으면 이름과 사랑을 쉬이 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "종달새가 먹이를 먹는 것을 봄",
+          "interpretation_ko": "거둠이 넉넉할 길한 조짐",
+          "interpretation_en": "denotes a plentiful harvest",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lark",
+              "original": "To see them eating, denotes a plentiful harvest.",
+              "translation_ko": "종달새가 먹이를 먹는 것을 보면 거둠이 넉넉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "liquor",
       "term_ko": "술",
       "term_en": "liquor",
@@ -23995,6 +24286,110 @@
       ]
     },
     {
+      "id": "blanket",
+      "term_ko": "담요",
+      "term_en": "blanket",
+      "aliases": [
+        "모포",
+        "무릎담요",
+        "무릎덮개"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "담요가 더러워진 꿈을 꿈",
+          "interpretation_ko": "배신을 뜻하는 조짐",
+          "interpretation_en": "a sign of treachery",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Blanket",
+              "original": "Blankets in your dream means treachery if soiled.",
+              "translation_ko": "담요가 더러워진 꿈을 꾸면 배신을 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "새 것이고 흰 담요를 봄",
+          "interpretation_ko": "실패가 두려운 곳에서 성공하고, 보이지 않는 힘으로 치명적인 병을 피할 조짐",
+          "interpretation_en": "a sign of success where failure is feared, and that a fatal sickness will be avoided through unseen agencies",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Blanket",
+              "original": "If new and white, success where failure is feared, and a fatal sickness will be avoided through unseen agencies.",
+              "translation_ko": "새 것이고 흰 담요를 보면 실패가 두려운 곳에서 성공하고, 보이지 않는 힘으로 치명적인 병을 피할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "무릎덮개를 잃어버림",
+          "interpretation_ko": "적이 제 몸가짐을 헐뜯어 일을 그르치게 할 흉한 조짐",
+          "interpretation_en": "your actions will be condemned by enemies to injure your affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lap-robe",
+              "original": "To lose one, your actions will be condemned by enemies to injure your affairs.",
+              "translation_ko": "무릎덮개를 잃어버리면 적이 제 몸가짐을 헐뜯어 일을 그르치게 한다"
+            }
+          ]
+        },
+        {
+          "context": "무릎덮개를 봄",
+          "interpretation_ko": "미심쩍은 얽매임 때문에 적이나 벗의 눈길 아래 놓일 흉한 조짐",
+          "interpretation_en": "indicates suspicious engagements will place you under the surveillance of enemies or friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lap-robe",
+              "original": "To dream of a lap-robe, indicates suspicious engagements will place you under the surveillance of enemies or friends.",
+              "translation_ko": "무릎덮개의 꿈은, 미심쩍은 얽매임 때문에 적이나 벗의 눈길 아래 놓임을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "담요와 요를 펴서 깖",
+          "interpretation_ko": "모든 일이 평온할 조짐",
+          "interpretation_en": "a sign that all matters will be settled and calm",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "毯褥舖陳萬事穩",
+              "translation_ko": "담요와 요를 펴서 깔면 온갖 일이 평온하다"
+            }
+          ]
+        },
+        {
+          "context": "좋은 이불을 스스로 덮음",
+          "interpretation_ko": "부귀를 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "好被自蓋得富貴",
+              "translation_ko": "좋은 이불을 스스로 덮으면 부귀를 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bridle",
       "term_ko": "굴레",
       "term_en": "bridle",
@@ -26714,110 +27109,6 @@
               "locator": "Hotel",
               "original": "To dream of hunting a hotel, you will be baffled in your search for wealth and happiness.",
               "translation_ko": "여관을 찾아다니는 꿈은, 재물과 즐거움을 찾는 일이 어긋남을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "knee",
-      "term_ko": "무릎",
-      "term_en": "knee",
-      "aliases": [
-        "무릎이",
-        "무릎을",
-        "무릎에",
-        "무르팍"
-      ],
-      "category": "body",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "무릎 꿈을 꿈",
-          "interpretation_ko": "복이 따르지 않는 흉한 조짐",
-          "interpretation_en": "is an unfortunate omen",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Knee",
-              "original": "To dream of knees is an unfortunate omen.",
-              "translation_ko": "무릎 꿈은 복이 따르지 않는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "무릎이 너무 큼",
-          "interpretation_ko": "갑작스레 불운이 닥칠 흉한 조짐",
-          "interpretation_en": "denotes sudden ill luck for you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Knee",
-              "original": "To dream that your knees are too large, denotes sudden ill luck for you.",
-              "translation_ko": "무릎이 너무 큰 꿈을 꾸면 갑작스레 불운이 닥친다"
-            }
-          ]
-        },
-        {
-          "context": "무릎이 뻣뻣하고 아픔",
-          "interpretation_ko": "빠르고 무서운 재앙이 기다릴 흉한 조짐",
-          "interpretation_en": "swift and fearful calamity awaits you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Knee",
-              "original": "If they are stiff and pain you, swift and fearful calamity awaits you.",
-              "translation_ko": "무릎이 뻣뻣하고 아프면 빠르고 무서운 재앙이 기다린다"
-            }
-          ]
-        },
-        {
-          "context": "무릎이 곱고 매끈함",
-          "interpretation_ko": "따르는 이가 많으나 혼인을 청하는 이는 없을 조짐",
-          "interpretation_en": "predicts she will have many admirers, but none to woo her in wedlock",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Knee",
-              "original": "For a woman to dream that she has well-formed and smooth knees, predicts she will have many admirers, but none to woo her in wedlock.",
-              "translation_ko": "여자가 제 무릎이 곱고 매끈한 꿈을 꾸면 따르는 이가 많으나 혼인을 청하는 이는 없다"
-            }
-          ]
-        },
-        {
-          "context": "무릎이 더러움",
-          "interpretation_ko": "방탕한 생활로 병이 들 흉한 조짐",
-          "interpretation_en": "sickness from dissipation is portended",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Knee",
-              "original": "If they are soiled, sickness from dissipation is portended.",
-              "translation_ko": "무릎이 더러우면 방탕한 생활로 병이 든다"
-            }
-          ]
-        },
-        {
-          "context": "무릎이 볼품없음",
-          "interpretation_ko": "간절히 품던 바람이 궂은 변화에 밀려날 흉한 조짐",
-          "interpretation_en": "unhappy changes in her fortune will displace ardent hopes",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Knee",
-              "original": "If they are unshapely, unhappy changes in her fortune will displace ardent hopes.",
-              "translation_ko": "무릎이 볼품없으면 간절히 품던 바람이 궂은 변화에 밀려난다"
             }
           ]
         }
@@ -35527,81 +35818,6 @@
               "locator": "Bishop",
               "original": "If you meet the approval of a much admired bishop, you will be successful in your undertakings in love or business.",
               "translation_ko": "크게 존경받는 주교의 인정을 받으면 사랑이나 사업에서 성공을 거둘 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "blanket",
-      "term_ko": "담요",
-      "term_en": "blanket",
-      "aliases": [
-        "모포",
-        "무릎담요"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "담요가 더러워진 꿈을 꿈",
-          "interpretation_ko": "배신을 뜻하는 조짐",
-          "interpretation_en": "a sign of treachery",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Blanket",
-              "original": "Blankets in your dream means treachery if soiled.",
-              "translation_ko": "담요가 더러워진 꿈을 꾸면 배신을 뜻하는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "새 것이고 흰 담요를 봄",
-          "interpretation_ko": "실패가 두려운 곳에서 성공하고, 보이지 않는 힘으로 치명적인 병을 피할 조짐",
-          "interpretation_en": "a sign of success where failure is feared, and that a fatal sickness will be avoided through unseen agencies",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Blanket",
-              "original": "If new and white, success where failure is feared, and a fatal sickness will be avoided through unseen agencies.",
-              "translation_ko": "새 것이고 흰 담요를 보면 실패가 두려운 곳에서 성공하고, 보이지 않는 힘으로 치명적인 병을 피할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "담요와 요를 펴서 깖",
-          "interpretation_ko": "모든 일이 평온할 조짐",
-          "interpretation_en": "a sign that all matters will be settled and calm",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "毯褥舖陳萬事穩",
-              "translation_ko": "담요와 요를 펴서 깔면 온갖 일이 평온하다"
-            }
-          ]
-        },
-        {
-          "context": "좋은 이불을 스스로 덮음",
-          "interpretation_ko": "부귀를 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth and honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "好被自蓋得富貴",
-              "translation_ko": "좋은 이불을 스스로 덮으면 부귀를 얻는다"
             }
           ]
         }
@@ -72544,6 +72760,52 @@
               "locator": "Lament",
               "original": "To lament the loss of relatives, denotes sickness or disappointments, which will bring you into closer harmony with companions, and will result in brighter prospects for the future.",
               "translation_ko": "살붙이를 잃고 애통해하면 병이나 실망이 있으나 그로써 곁의 사람들과 더 가까워지고 앞날이 밝아진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lard",
+      "term_ko": "돼지기름",
+      "term_en": "lard",
+      "aliases": [
+        "돼지비계",
+        "라드"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "돼지기름을 봄",
+          "interpretation_ko": "머지않아 살림이 나아져 흐뭇해질 길한 조짐",
+          "interpretation_en": "signifies a rise in fortune will soon gratify you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lard",
+              "original": "To dream of lard, signifies a rise in fortune will soon gratify you.",
+              "translation_ko": "돼지기름의 꿈은 머지않아 살림이 나아져 흐뭇해짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 녹은 돼지기름에 손이 빠짐",
+          "interpretation_ko": "사람들 틈에서 올라서려다 실망할 흉한 조짐",
+          "interpretation_en": "foretells her disappointment in attempting to rise in social circles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lard",
+              "original": "For a woman to find her hand in melted lard, foretells her disappointment in attempting to rise in social circles.",
+              "translation_ko": "여자가 녹은 돼지기름에 제 손이 빠져 있는 것을 보면, 사람들 틈에서 올라서려다 실망한다"
             }
           ]
         }
