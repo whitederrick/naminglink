@@ -1,0 +1,69 @@
+[
+  {
+    "id": "manuscript",
+    "aliases": [
+      "원고를",
+      "원고가",
+      "글 뭉치"
+    ],
+    "aliases_en": [
+      "manuscripts"
+    ],
+    "contexts": {
+      "덜 쓴 원고를 봄": "미완 끝내지",
+      "또렷하게 다 쓴 원고를 봄": "또렷 깨끗하게",
+      "원고를 쓰고 있음": "쓰고 작업",
+      "원고가 출판사에서 퇴짜 맞음": "퇴짜 거절 출판사",
+      "원고를 잃음": "잃어 잃었 분실",
+      "원고가 타는 것을 봄": "타는 불타 태워"
+    },
+    "contexts_en": {
+      "덜 쓴 원고를 봄": "unfinished forebodes",
+      "또렷하게 다 쓴 원고를 봄": "clearly hopes realized",
+      "원고를 쓰고 있음": "fears cherished blurs undertakings",
+      "원고가 출판사에서 퇴짜 맞음": "rejected publishers hopeless sanguine",
+      "원고를 잃음": "lose subjected",
+      "원고가 타는 것을 봄": "burn profit elevation"
+    }
+  },
+  {
+    "id": "map",
+    "aliases": [
+      "지도를",
+      "지도가",
+      "약도"
+    ],
+    "aliases_en": [
+      "maps"
+    ],
+    "contexts": {
+      "지도를 봄": "살펴 들여다",
+      "지도를 찾아 헤맴": "찾아 찾으려"
+    },
+    "contexts_en": {
+      "지도를 봄": "studying change contemplated",
+      "지도를 찾아 헤맴": "looking discontent surroundings energy ambition"
+    }
+  },
+  {
+    "id": "marble",
+    "aliases": [
+      "대리석을",
+      "대리석이",
+      "대리석 돌"
+    ],
+    "aliases_en": [
+      "marbles"
+    ],
+    "contexts": {
+      "대리석 채석장을 봄": "채석장 캐는",
+      "대리석을 닦음": "닦았 윤을 광을",
+      "깨진 대리석을 봄": "깨진 부서진 금이"
+    },
+    "contexts_en": {
+      "대리석 채석장을 봄": "quarry financial devoid affection",
+      "대리석을 닦음": "polishing pleasing inheritance",
+      "깨진 대리석을 봄": "broken disfavor associates defying moral"
+    }
+  }
+]

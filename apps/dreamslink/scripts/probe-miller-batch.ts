@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 114 — Manners~Manufactory, 15건)
+// (지금 담긴 것: 배치 115 — Manuscript~Marble, 13건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,22 +30,20 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "manners", ctx: "몸가짐이 험한 사람을 봄", text: "몸가짐이 험한 사람을 보았다" },
-  { id: "manners", ctx: "몸가짐이 상냥한 사람을 만남", text: "몸가짐이 상냥한 사람을 만났다" },
-  { id: "man-of-war", ctx: "군함을 봄", text: "군함이 정박해 있었다" },
-  { id: "man-of-war", ctx: "군함이 부서진 것을 봄", text: "군함이 부서져 있었다" },
-  { id: "man-of-war", ctx: "군함이 거친 바다를 감", text: "군함이 거친 바다를 갔다" },
-  { id: "house", ctx: "귀신 붙은 방이 있는 저택에 있음", text: "귀신 붙은 방이 있는 저택에 있었다" },
-  { id: "house", ctx: "멀리서 저택을 봄", text: "멀리서 저택을 보았다" },
-  { id: "house", ctx: "저택 안에 있음", text: "저택 안에 있었다" },
-  { id: "killing-someone", ctx: "여성이 사람을 죽이는 일에 얽힘", text: "여자가 사람을 죽이는 일에 얽혔다" },
-  { id: "headgear", ctx: "만틸라를 봄", text: "만틸라를 보았다" },
-  { id: "manufactory", ctx: "큰 공장을 봄", text: "커다란 공장을 보았다" },
-  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "house", ctx: "집을 지음", text: "집을 새로 지었다" },
-  { id: "house", ctx: "우아한 집을 소유함", text: "우아한 집을 소유하고 있었다" },
-  { id: "headgear", ctx: "값진 머리쓰개를 봄", text: "값진 머리쓰개를 보았다" },
-  { id: "killing-someone", ctx: "남을 죽임", text: "남을 죽였다" },
+  { id: "manuscript", ctx: "덜 쓴 원고를 봄", text: "미완의 원고를 보았다" },
+  { id: "manuscript", ctx: "또렷하게 다 쓴 원고를 봄", text: "또렷하게 다 쓴 원고를 보았다" },
+  { id: "manuscript", ctx: "원고를 쓰고 있음", text: "원고를 쓰고 있었다" },
+  { id: "manuscript", ctx: "원고가 출판사에서 퇴짜 맞음", text: "원고가 출판사에서 퇴짜를 맞았다" },
+  { id: "manuscript", ctx: "원고를 잃음", text: "원고를 잃어버렸다" },
+  { id: "manuscript", ctx: "원고가 타는 것을 봄", text: "원고가 불타는 것을 보았다" },
+  { id: "map", ctx: "지도를 봄", text: "지도를 들여다보았다" },
+  { id: "map", ctx: "지도를 찾아 헤맴", text: "지도를 찾아 헤맸다" },
+  { id: "marble", ctx: "대리석 채석장을 봄", text: "대리석 채석장을 보았다" },
+  { id: "marble", ctx: "대리석을 닦음", text: "대리석을 닦았다" },
+  { id: "marble", ctx: "깨진 대리석을 봄", text: "깨진 대리석을 보았다" },
+  // 지킴 — 새 이름이 스치는 옛 상징의 답이 그대로인가(§25 곁가지)
+  { id: "atlas", ctx: "지도책을 들여다봄", text: "지도책을 보았다" },
+  { id: "manure", ctx: "거름더미를 봄", text: "거름더미를 보았다" },
 ];
 
 let notFound = 0;

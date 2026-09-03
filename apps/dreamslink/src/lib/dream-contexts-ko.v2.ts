@@ -4276,5 +4276,16 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "man-of-war::군함을 봄": "떠올랐 정박 나타났",
   "man-of-war::군함이 부서진 것을 봄": "부서 망가",
   "man-of-war::군함이 거친 바다를 감": "거친 풍랑",
-  "manufactory::큰 공장을 봄": "커다란 거대한 커다"
+  "manufactory::큰 공장을 봄": "커다란 거대한 커다",
+  "manuscript::덜 쓴 원고를 봄": "미완 끝내지",
+  "manuscript::또렷하게 다 쓴 원고를 봄": "또렷 깨끗하게",
+  "manuscript::원고를 쓰고 있음": "쓰고 작업",
+  "manuscript::원고가 출판사에서 퇴짜 맞음": "퇴짜 거절 출판사",
+  "manuscript::원고를 잃음": "잃어 잃었 분실",
+  "manuscript::원고가 타는 것을 봄": "타는 불타 태워",
+  "map::지도를 봄": "살펴 들여다",
+  "map::지도를 찾아 헤맴": "찾아 찾으려",
+  "marble::대리석 채석장을 봄": "채석장 캐는",
+  "marble::대리석을 닦음": "닦았 윤을 광을",
+  "marble::깨진 대리석을 봄": "깨진 부서진 금이"
 };

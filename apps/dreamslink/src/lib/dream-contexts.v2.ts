@@ -4272,5 +4272,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "man-of-war::군함을 봄": "long journeys separation country dissension",
   "man-of-war::군함이 부서진 것을 봄": "crippled elements damage interests",
   "man-of-war::군함이 거친 바다를 감": "sailing rough seas powers endanger",
-  "manufactory::큰 공장을 봄": "large unusual activity circles"
+  "manufactory::큰 공장을 봄": "large unusual activity circles",
+  "manuscript::덜 쓴 원고를 봄": "unfinished forebodes",
+  "manuscript::또렷하게 다 쓴 원고를 봄": "clearly hopes realized",
+  "manuscript::원고를 쓰고 있음": "fears cherished blurs undertakings",
+  "manuscript::원고가 출판사에서 퇴짜 맞음": "rejected publishers hopeless sanguine",
+  "manuscript::원고를 잃음": "lose subjected",
+  "manuscript::원고가 타는 것을 봄": "burn profit elevation",
+  "map::지도를 봄": "studying change contemplated",
+  "map::지도를 찾아 헤맴": "looking discontent surroundings energy ambition",
+  "marble::대리석 채석장을 봄": "quarry financial devoid affection",
+  "marble::대리석을 닦음": "polishing pleasing inheritance",
+  "marble::깨진 대리석을 봄": "broken disfavor associates defying moral"
 };

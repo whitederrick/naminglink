@@ -19,6 +19,7 @@
     "m112.json",
     "m113.json",
     "m114.json",
+    "m115.json",
     "m12.json",
     "m13.json",
     "m14.json",
@@ -30333,6 +30334,109 @@
       ]
     },
     {
+      "id": "manuscript",
+      "term_ko": "원고",
+      "term_en": "manuscript",
+      "aliases": [
+        "원고를",
+        "원고가",
+        "글 뭉치"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "덜 쓴 원고를 봄",
+          "interpretation_ko": "실망이 있을 흉한 조짐",
+          "interpretation_en": "forebodes disappointment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Manuscript",
+              "original": "To dream of manuscript in an unfinished state, forebodes disappointment.",
+              "translation_ko": "덜 쓴 원고의 꿈은 실망이 있음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "또렷하게 다 쓴 원고를 봄",
+          "interpretation_ko": "크게 바라던 것이 이루어질 길한 조짐",
+          "interpretation_en": "great hopes will be realized",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Manuscript",
+              "original": "If finished and clearly written, great hopes will be realized.",
+              "translation_ko": "다 쓰고 또렷하게 쓴 것이면 크게 바라던 것이 이루어진다"
+            }
+          ]
+        },
+        {
+          "context": "원고를 쓰고 있음",
+          "interpretation_ko": "아끼는 바람 때문에 걱정이 많으나, 글을 흐리지 않으면 하는 일이 잘될 조짐",
+          "interpretation_en": "you will have many fears for some cherished hope, but if you keep the blurs out of your work you will succeed in your undertakings",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Manuscript",
+              "original": "If you are at work on manuscript, you will have many fears for some cherished hope, but if you keep the blurs out of your work you will succeed in your undertakings.",
+              "translation_ko": "원고를 쓰고 있으면, 아끼는 바람 때문에 걱정이 많으나 글을 흐리지 않으면 하는 일이 잘된다"
+            }
+          ]
+        },
+        {
+          "context": "원고가 출판사에서 퇴짜 맞음",
+          "interpretation_ko": "한동안 앞이 캄캄하나 끝내는 가장 바라던 것이 이루어질 조짐",
+          "interpretation_en": "you will be hopeless for a time, but eventually your most sanguine desires will become a reality",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Manuscript",
+              "original": "If it is rejected by the publishers, you will be hopeless for a time, but eventually your most sanguine desires will become a reality.",
+              "translation_ko": "원고가 출판사에서 퇴짜를 맞으면, 한동안 앞이 캄캄하나 끝내는 가장 바라던 것이 이루어진다"
+            }
+          ]
+        },
+        {
+          "context": "원고를 잃음",
+          "interpretation_ko": "실망을 겪을 흉한 조짐",
+          "interpretation_en": "you will be subjected to disappointment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Manuscript",
+              "original": "If you lose it, you will be subjected to disappointment.",
+              "translation_ko": "원고를 잃으면 실망을 겪는다"
+            }
+          ]
+        },
+        {
+          "context": "원고가 타는 것을 봄",
+          "interpretation_ko": "제가 한 일이 이문과 큰 오름을 가져다줄 길한 조짐",
+          "interpretation_en": "some work of your own will bring you profit and much elevation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Manuscript",
+              "original": "If you see it burn, some work of your own will bring you profit and much elevation.",
+              "translation_ko": "원고가 타는 것을 보면, 제가 한 일이 이문과 큰 오름을 가져다준다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rice",
       "term_ko": "쌀",
       "term_en": "rice",
@@ -58940,6 +59044,67 @@
       ]
     },
     {
+      "id": "marble",
+      "term_ko": "대리석",
+      "term_en": "marble",
+      "aliases": [
+        "대리석을",
+        "대리석이",
+        "대리석 돌"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "대리석 채석장을 봄",
+          "interpretation_ko": "살림은 넉넉해지나 사람 사이에 정이 메마를 조짐",
+          "interpretation_en": "denotes that you life will be a financial success, but that your social surroundings will be devoid of affection",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marble",
+              "original": "To dream of a marble quarry, denotes that you life will be a financial success, but that your social surroundings will be devoid of affection.",
+              "translation_ko": "대리석 채석장의 꿈은, 살림은 넉넉해지나 사람 사이에 정이 메마름을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "대리석을 닦음",
+          "interpretation_ko": "기쁜 물림을 받게 될 길한 조짐",
+          "interpretation_en": "you will come into a pleasing inheritance",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marble",
+              "original": "To dream of polishing marble, you will come into a pleasing inheritance.",
+              "translation_ko": "대리석을 닦는 꿈은 기쁜 물림을 받게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "깨진 대리석을 봄",
+          "interpretation_ko": "도리를 저버려 둘레 사람들에게 밉보일 흉한 조짐",
+          "interpretation_en": "you will fall into disfavor among your associates by defying all moral codes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marble",
+              "original": "To see it broken, you will fall into disfavor among your associates by defying all moral codes.",
+              "translation_ko": "대리석이 깨진 것을 보면, 도리를 저버려 둘레 사람들에게 밉보인다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "meat",
       "term_ko": "고기",
       "term_en": "meat",
@@ -78499,6 +78664,53 @@
               "locator": "Manners",
               "original": "If you meet people with affable manners, you will be pleasantly surprised by affairs of moment with you taking a favorable turn.",
               "translation_ko": "몸가짐이 상냥한 사람들을 만나면, 제게 중한 일이 좋게 돌아서서 기쁘게 놀란다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map",
+      "term_ko": "지도",
+      "term_en": "map",
+      "aliases": [
+        "지도를",
+        "지도가",
+        "약도"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "지도를 봄",
+          "interpretation_ko": "하는 일에 바꿈을 꾀하게 될 조짐 — 실망스러운 일도 있으나 그 바꿈으로 얻는 것이 크다",
+          "interpretation_en": "denotes a change will be contemplated in your business; some disappointing things will occur, but much profit also will follow the change",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Map",
+              "original": "To dream of a map, or studying one, denotes a change will be contemplated in your business.",
+              "translation_ko": "지도를 보거나 들여다보는 꿈은, 하는 일에 바꿈을 꾀하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "지도를 찾아 헤맴",
+          "interpretation_ko": "제 둘레가 갑자기 못마땅해져 그것이 새 기운을 불어넣고, 그로써 더 나은 자리로 올라설 길한 조짐",
+          "interpretation_en": "denotes that a sudden discontent with your surroundings will inspire you with new energy, and thus you will rise into better conditions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Map",
+              "original": "To dream of looking for one, denotes that a sudden discontent with your surroundings will inspire you with new energy, and thus you will rise into better conditions.",
+              "translation_ko": "지도를 찾아 헤매는 꿈은, 제 둘레가 갑자기 못마땅해져 그것이 새 기운을 불어넣고 그로써 더 나은 자리로 올라섬을 뜻한다"
             }
           ]
         }
