@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mother",
+    "aliases": [
+      "어머니가",
+      "어머니를",
+      "어머니와",
+      "엄마"
+    ],
+    "aliases_en": [
+      "mothers",
+      "my mother"
+    ],
+    "contexts": {
+      "집에 있는 어머니를 봄": "집안에 계신",
+      "어머니와 이야기를 나눔": "이야기 대화 말을 나눴",
+      "여성이 어머니 꿈을 꿈": "여성이 여자가 딸이",
+      "어머니가 여위었거나 죽은 것을 봄": "여위 야윈 죽은",
+      "어머니가 저를 부르는 소리를 들음": "부르는 불렀 불러",
+      "어머니가 아파 우는 소리를 들음": "우는 울음 아파"
+    },
+    "contexts_en": {
+      "집에 있는 어머니를 봄": "appears home pleasing results enterprise",
+      "어머니와 이야기를 나눔": "conversation soon good news anxious",
+      "여성이 어머니 꿈을 꿈": "woman pleasant duties connubial",
+      "어머니가 여위었거나 죽은 것을 봄": "emaciated dead sadness dishonor",
+      "어머니가 저를 부르는 소리를 들음": "call derelict wrong course",
+      "어머니가 아파 우는 소리를 들음": "cry pain omens illness affliction"
+    }
+  },
+  {
+    "id": "mother-in-law",
+    "aliases": [
+      "시어머니가",
+      "시어머니를",
+      "장모",
+      "장모님"
+    ],
+    "aliases_en": [
+      "mothers-in-law"
+    ],
+    "contexts": {
+      "시어머니를 봄": "만났 나타났",
+      "여성이 시어머니와 다툼": "다퉜 다투 말다툼"
+    },
+    "contexts_en": {
+      "시어머니를 봄": "pleasant reconciliations serious disagreement",
+      "여성이 시어머니와 다툼": "dispute quarrelsome unfeeling annoyance"
+    }
+  }
+]

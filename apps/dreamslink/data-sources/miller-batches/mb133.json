@@ -1,0 +1,32 @@
+{
+  "batch": 133,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Moth",
+      "text": "To see a moth in a dream, small worries will lash you into hurried contracts, which will prove unsatisfactory. Quarrels of a domestic nature are prognosticated.",
+      "note": "「나방」이 기존 `moth` 의 이름이다. **의미가 하나뿐이라 판별어 표가 비어 있었다** — 이 세션 열 번째다(배치 35)"
+    },
+    {
+      "headword": "Mother",
+      "text": "To see your mother in dreams as she appears in the home, signifies pleasing results from any enterprise.\n\nTo hold her in conversation, you will soon have good news from interests you are anxious over.\n\nFor a woman to dream of mother, signifies pleasant duties and connubial bliss.\n\nTo see one's mother emaciated or dead, foretells sadness caused by death or dishonor.\n\nTo hear your mother call you, denotes that you are derelict in your duties, and that you are pursuing the wrong course in business.\n\nTo hear her cry as if in pain, omens her illness, or some affliction is menacing you.",
+      "note": "새 상징 `mother`(어머니). 한국어는 안전하다 — 「시어머니」의 「어머니」는 **앞 글자가 한글이라** `isStandalone` 이 막는다. **영어는 안 막힌다** — 「mother-in-law」의 `mother` 뒤가 붙임표라 낱말 끝으로 읽혀 두 상징이 다 걸린다. 표제어가 둘이므로 상징도 둘로 두되 이 사실을 적어 둔다"
+    },
+    {
+      "headword": "Mother-in-law",
+      "text": "To dream of your mother-in-law, denotes there will be pleasant reconciliations for you after some serious disagreement. For a woman to dispute with her mother-in-law, she will find that quarrelsome and unfeeling people will give her annoyance.",
+      "note": "새 상징 `mother-in-law`(시어머니). 「장모」도 별칭으로 올린다"
+    },
+    {
+      "headword": "Mourning",
+      "text": "To dream that you wear mourning, omens ill luck and unhappiness.\n\nIf others wear it, there will be disturbing influences among your friends causing you unexpected dissatisfaction and loss. To lovers, this dream foretells misunderstanding and probable separation.",
+      "note": "「상복」이 기존 `mourning-clothes` 의 이름이다. 이것도 **판별어 표가 비어 있었다**(열한 번째)"
+    }
+  ],
+  "skipped_sentences": [
+    {
+      "sentence": "To dream that you wear mourning, omens ill luck and unhappiness.",
+      "reason": "**같은 그림이 이미 있다** — `mourning-clothes` 의 주공해몽 의미 「몸에 상복을 입음」(哀樂病死歌唱)이 바로 이 그림이다. 길흉이 반대이지만 **꿈의 그림이 같아 낱말로도 차례로도 가를 수 없다** — 넣으면 뒤엣것이 어떤 문장으로도 안 뽑힌다(§31 곁가지). 두 원문이 엇갈리는 자리이므로 옛 판정을 그대로 둔다"
+    }
+  ]
+}

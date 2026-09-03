@@ -177,6 +177,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lead::납 광석을 봄": "ore distress accidents gloomy cast",
   "lead::납을 찾아다님": "hunt discontentment constant changing employment",
   "lead::납을 녹임": "melt impatience upon",
+  "mourning-clothes::몸에 상복을 입음": "wearing worn body",
+  "mourning-clothes::남이 상복을 입은 것을 봄": "others disturbing influences dissatisfaction",
+  "mourning-clothes::정인에게 보이는 상복": "lovers misunderstanding probable separation",
   "plate::사기 접시를 봄": "earthen simple seeing",
   "plate::접시를 다룸": "handling good fortune",
   "plate::접시가 깨짐": "broken short-lived cause",
@@ -579,6 +582,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "leech::병을 고치려고 거머리를 몸에 붙임": "medicinal purposes serious escape",
   "leech::남의 몸에 거머리를 붙이는 것을 봄": "others sickness trouble friends",
   "leech::거머리에게 물림": "bite danger unexpected heed warning",
+  "moth::나방이 등불로 날아듦": "lamp flame flew",
+  "moth::나방을 봄": "small worries hurried contracts unsatisfactory",
   "house::불이 제 집을 태움": "fire burning burned burnt ablaze",
   "house::집 안에 불빛이 있음": "light lit glowing lamp bright",
   "house::남의 집을 사들임": "bought buying purchased",
@@ -4484,5 +4489,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "mortified-flesh::썩은 살을 봄": "disastrous enterprises disappointment",
   "moses::모세를 봄": "personal gain connubial alliance congratulation",
   "moss::이끼를 봄": "dependent positions",
-  "moss::기름진 땅에 이끼가 자람": "rich soil favored honors"
+  "moss::기름진 땅에 이끼가 자람": "rich soil favored honors",
+  "mother::집에 있는 어머니를 봄": "appears home pleasing results enterprise",
+  "mother::어머니와 이야기를 나눔": "conversation soon good news anxious",
+  "mother::여성이 어머니 꿈을 꿈": "woman pleasant duties connubial",
+  "mother::어머니가 여위었거나 죽은 것을 봄": "emaciated dead sadness dishonor",
+  "mother::어머니가 저를 부르는 소리를 들음": "call derelict wrong course",
+  "mother::어머니가 아파 우는 소리를 들음": "cry pain omens illness affliction",
+  "mother-in-law::시어머니를 봄": "pleasant reconciliations serious disagreement",
+  "mother-in-law::여성이 시어머니와 다툼": "dispute quarrelsome unfeeling annoyance"
 };

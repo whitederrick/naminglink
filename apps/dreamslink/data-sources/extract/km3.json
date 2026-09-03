@@ -988,13 +988,21 @@
     "id": "moth",
     "aliases": [
       "부나비",
-      "불나비"
+      "불나비",
+      "나방이",
+      "나방을"
     ],
     "aliases_en": [
       "moths"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "나방이 등불로 날아듦": "등불 불빛 날아들",
+      "나방을 봄": "팔랑 훨훨"
+    },
+    "contexts_en": {
+      "나방이 등불로 날아듦": "lamp flame flew",
+      "나방을 봄": "small worries hurried contracts unsatisfactory"
+    }
   },
   {
     "id": "music",

@@ -967,15 +967,25 @@
     "id": "mourning-clothes",
     "aliases": [
       "소복",
-      "장례복"
+      "장례복",
+      "상복을",
+      "상복이"
     ],
     "aliases_en": [
       "mourning clothes",
       "funeral clothes",
       "a mourning dress"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "몸에 상복을 입음": "입었 걸쳤",
+      "남이 상복을 입은 것을 봄": "남이 남들 다른 사람",
+      "정인에게 보이는 상복": "정인 애인 사랑하는"
+    },
+    "contexts_en": {
+      "몸에 상복을 입음": "wearing worn body",
+      "남이 상복을 입은 것을 봄": "others disturbing influences dissatisfaction",
+      "정인에게 보이는 상복": "lovers misunderstanding probable separation"
+    }
   },
   {
     "id": "mulberry-tree",

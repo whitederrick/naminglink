@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 132 — Mortgage~Moss, 14건)
+// (지금 담긴 것: 배치 133 — Moth~Mourning, 13건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +30,20 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "mortgage", ctx: "제 재산을 저당 잡힘", text: "내 집을 저당 잡혔다" },
-  { id: "mortgage", ctx: "남에게 저당을 잡음", text: "남에게 저당을 잡았다" },
-  { id: "mortgage", ctx: "저당 문서를 읽어 봄", text: "저당 문서를 읽어 보았다" },
-  { id: "mortgage", ctx: "저당 문서를 잃어버림", text: "저당 문서를 잃어버렸다" },
-  { id: "morose", ctx: "제가 시무룩함", text: "내가 시무룩했다" },
-  { id: "morose", ctx: "남이 시무룩한 것을 봄", text: "남들이 시무룩한 것을 보았다" },
-  { id: "mortification", ctx: "제 행동을 부끄러워함", text: "내가 한 일이 부끄러웠다" },
-  { id: "mortified-flesh", ctx: "썩은 살을 봄", text: "썩은 살이 드러나 있었다" },
-  { id: "moses", ctx: "모세를 봄", text: "모세가 나타났다" },
-  { id: "mosquito", ctx: "모기를 봄", text: "모기가 앵앵거리며 날아다녔다" },
-  { id: "mosquito", ctx: "모기를 죽임", text: "모기를 죽였다" },
-  { id: "moss", ctx: "이끼를 봄", text: "돌에 이끼가 끼어 있었다" },
-  { id: "moss", ctx: "기름진 땅에 이끼가 자람", text: "기름진 땅에 이끼가 자라 있었다" },
+  { id: "moth", ctx: "나방을 봄", text: "나방이 팔랑거렸다" },
+  { id: "mother", ctx: "집에 있는 어머니를 봄", text: "어머니가 집안에 계셨다" },
+  { id: "mother", ctx: "어머니와 이야기를 나눔", text: "어머니와 이야기를 나눴다" },
+  { id: "mother", ctx: "여성이 어머니 꿈을 꿈", text: "여자가 어머니 꿈을 꾸었다" },
+  { id: "mother", ctx: "어머니가 여위었거나 죽은 것을 봄", text: "어머니가 몹시 야윈 모습이었다" },
+  { id: "mother", ctx: "어머니가 저를 부르는 소리를 들음", text: "어머니가 나를 부르는 소리를 들었다" },
+  { id: "mother", ctx: "어머니가 아파 우는 소리를 들음", text: "어머니가 아파 우는 소리를 들었다" },
+  { id: "mother-in-law", ctx: "시어머니를 봄", text: "시어머니를 만났다" },
+  { id: "mother-in-law", ctx: "여성이 시어머니와 다툼", text: "시어머니와 말다툼을 했다" },
+  { id: "mourning-clothes", ctx: "남이 상복을 입은 것을 봄", text: "남들이 상복을 입고 있었다" },
+  { id: "mourning-clothes", ctx: "정인에게 보이는 상복", text: "애인이 상복 꿈을 꾸었다" },
   // 지킴 — 이번 배치가 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "mosquito", ctx: "모기가 사람을 묾", text: "모기에게 물렸다" },
+  { id: "moth", ctx: "나방이 등불로 날아듦", text: "나방이 등불로 날아들었다" },
+  { id: "mourning-clothes", ctx: "몸에 상복을 입음", text: "상복을 입고 있었다" },
 ];
 
 let notFound = 0;

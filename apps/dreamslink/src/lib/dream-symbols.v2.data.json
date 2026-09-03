@@ -39,6 +39,7 @@
     "m130.json",
     "m131.json",
     "m132.json",
+    "m133.json",
     "m14.json",
     "m15.json",
     "m16.json",
@@ -32039,6 +32040,110 @@
       ]
     },
     {
+      "id": "mother",
+      "term_ko": "어머니",
+      "term_en": "mother",
+      "aliases": [
+        "어머니가",
+        "어머니를",
+        "어머니와",
+        "엄마"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "집에 있는 어머니를 봄",
+          "interpretation_ko": "무슨 일을 하든 흐뭇한 열매를 거둘 길한 조짐",
+          "interpretation_en": "signifies pleasing results from any enterprise",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mother",
+              "original": "To see your mother in dreams as she appears in the home, signifies pleasing results from any enterprise.",
+              "translation_ko": "집에 계신 그대로의 어머니를 꿈에 보면, 무슨 일을 하든 흐뭇한 열매를 거둔다"
+            }
+          ]
+        },
+        {
+          "context": "어머니와 이야기를 나눔",
+          "interpretation_ko": "마음 졸이던 일에서 곧 좋은 소식이 올 길한 조짐",
+          "interpretation_en": "you will soon have good news from interests you are anxious over",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mother",
+              "original": "To hold her in conversation, you will soon have good news from interests you are anxious over.",
+              "translation_ko": "어머니와 이야기를 나누면, 마음 졸이던 일에서 곧 좋은 소식이 온다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 어머니 꿈을 꿈",
+          "interpretation_ko": "즐거운 할 일과 부부의 다복함이 있을 길한 조짐",
+          "interpretation_en": "signifies pleasant duties and connubial bliss",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mother",
+              "original": "For a woman to dream of mother, signifies pleasant duties and connubial bliss.",
+              "translation_ko": "여성이 어머니 꿈을 꾸면 즐거운 할 일과 부부의 다복함이 있다"
+            }
+          ]
+        },
+        {
+          "context": "어머니가 여위었거나 죽은 것을 봄",
+          "interpretation_ko": "죽음이나 욕된 일로 슬퍼질 흉한 조짐",
+          "interpretation_en": "foretells sadness caused by death or dishonor",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mother",
+              "original": "To see one's mother emaciated or dead, foretells sadness caused by death or dishonor.",
+              "translation_ko": "어머니가 여위었거나 죽은 것을 보면, 죽음이나 욕된 일로 슬퍼진다"
+            }
+          ]
+        },
+        {
+          "context": "어머니가 저를 부르는 소리를 들음",
+          "interpretation_ko": "제 할 일을 게을리하고 하는 일에서도 길을 잘못 들고 있는 흉한 조짐",
+          "interpretation_en": "denotes that you are derelict in your duties, and that you are pursuing the wrong course in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mother",
+              "original": "To hear your mother call you, denotes that you are derelict in your duties, and that you are pursuing the wrong course in business.",
+              "translation_ko": "어머니가 저를 부르는 소리를 들으면, 제 할 일을 게을리하고 하는 일에서도 길을 잘못 들고 있는 것이다"
+            }
+          ]
+        },
+        {
+          "context": "어머니가 아파 우는 소리를 들음",
+          "interpretation_ko": "어머니가 앓거나 무슨 화가 저를 노리는 흉한 조짐",
+          "interpretation_en": "omens her illness, or some affliction is menacing you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mother",
+              "original": "To hear her cry as if in pain, omens her illness, or some affliction is menacing you.",
+              "translation_ko": "어머니가 아파 우는 소리를 들으면, 어머니가 앓거나 무슨 화가 저를 노린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rice",
       "term_ko": "쌀",
       "term_en": "rice",
@@ -61738,6 +61843,69 @@
       ]
     },
     {
+      "id": "mourning-clothes",
+      "term_ko": "상복",
+      "term_en": "mourning clothes",
+      "aliases": [
+        "소복",
+        "장례복",
+        "상복을",
+        "상복이"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "몸에 상복을 입음",
+          "interpretation_ko": "관직과 녹봉이 이를 조짐",
+          "interpretation_en": "a sign that office and salary will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "身著孝服官祿至",
+              "translation_ko": "몸에 상복을 입으면 관직과 녹봉이 이른다"
+            }
+          ]
+        },
+        {
+          "context": "남이 상복을 입은 것을 봄",
+          "interpretation_ko": "벗들 사이가 어수선해져 뜻밖의 언짢음과 잃을 것이 생길 흉한 조짐",
+          "interpretation_en": "there will be disturbing influences among your friends causing you unexpected dissatisfaction and loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mourning",
+              "original": "If others wear it, there will be disturbing influences among your friends causing you unexpected dissatisfaction and loss.",
+              "translation_ko": "남이 상복을 입은 것을 보면, 벗들 사이가 어수선해져 뜻밖의 언짢음과 잃을 것이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "정인에게 보이는 상복",
+          "interpretation_ko": "오해가 생기고 헤어지기 쉬운 흉한 조짐",
+          "interpretation_en": "this dream foretells misunderstanding and probable separation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mourning",
+              "original": "To lovers, this dream foretells misunderstanding and probable separation.",
+              "translation_ko": "사랑하는 사이에서 이 꿈은 오해가 생기고 헤어지기 쉬움을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "newborn-baby",
       "term_ko": "갓난아이",
       "term_en": "newborn baby",
@@ -82448,6 +82616,103 @@
       ]
     },
     {
+      "id": "moth",
+      "term_ko": "나방",
+      "term_en": "moth",
+      "aliases": [
+        "부나비",
+        "불나비",
+        "나방이",
+        "나방을"
+      ],
+      "category": "animal",
+      "polarity": "neutral",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "나방을 봄",
+          "interpretation_ko": "자잘한 걱정에 쫓겨 서둘러 맺은 약속이 마뜩잖게 될 흉한 조짐",
+          "interpretation_en": "small worries will lash you into hurried contracts, which will prove unsatisfactory",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Moth",
+              "original": "To see a moth in a dream, small worries will lash you into hurried contracts, which will prove unsatisfactory.",
+              "translation_ko": "꿈에 나방을 보면, 자잘한 걱정에 쫓겨 서둘러 맺은 약속이 마뜩잖게 된다"
+            }
+          ]
+        },
+        {
+          "context": "나방이 등불로 날아듦",
+          "interpretation_ko": "다른 사람이 무너질 조짐",
+          "interpretation_en": "a sign that another person will fail",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "飛蛾入燈他人敗",
+              "translation_ko": "나방이 등불에 날아들면 남이 패한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mother-in-law",
+      "term_ko": "시어머니",
+      "term_en": "mother-in-law",
+      "aliases": [
+        "시어머니가",
+        "시어머니를",
+        "장모",
+        "장모님"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "시어머니를 봄",
+          "interpretation_ko": "크게 틀어졌던 사이가 기꺼이 풀릴 길한 조짐",
+          "interpretation_en": "denotes there will be pleasant reconciliations for you after some serious disagreement",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mother-in-law",
+              "original": "To dream of your mother-in-law, denotes there will be pleasant reconciliations for you after some serious disagreement.",
+              "translation_ko": "시어머니의 꿈은 크게 틀어졌던 사이가 기꺼이 풀림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 시어머니와 다툼",
+          "interpretation_ko": "다투기 좋아하고 매정한 이들에게 시달릴 흉한 조짐",
+          "interpretation_en": "she will find that quarrelsome and unfeeling people will give her annoyance",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mother-in-law",
+              "original": "For a woman to dispute with her mother-in-law, she will find that quarrelsome and unfeeling people will give her annoyance.",
+              "translation_ko": "여성이 시어머니와 다투면, 다투기 좋아하고 매정한 이들에게 시달린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "moving-house",
       "term_ko": "이사",
       "term_en": "moving house",
@@ -93761,70 +94026,6 @@
               "locator": "Moses",
               "original": "To dream that you see Moses, means personal gain and a connubial alliance which will be a source of sweet congratulation to yourself.",
               "translation_ko": "꿈에 모세를 보면, 제게 이득이 있고 기꺼이 축하할 만한 혼인이 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "moth",
-      "term_ko": "나방",
-      "term_en": "moth",
-      "aliases": [
-        "부나비",
-        "불나비"
-      ],
-      "category": "animal",
-      "polarity": "neutral",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "나방이 등불로 날아듦",
-          "interpretation_ko": "다른 사람이 무너질 조짐",
-          "interpretation_en": "a sign that another person will fail",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "飛蛾入燈他人敗",
-              "translation_ko": "나방이 등불에 날아들면 남이 패한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mourning-clothes",
-      "term_ko": "상복",
-      "term_en": "mourning clothes",
-      "aliases": [
-        "소복",
-        "장례복"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "몸에 상복을 입음",
-          "interpretation_ko": "관직과 녹봉이 이를 조짐",
-          "interpretation_en": "a sign that office and salary will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "身著孝服官祿至",
-              "translation_ko": "몸에 상복을 입으면 관직과 녹봉이 이른다"
             }
           ]
         }

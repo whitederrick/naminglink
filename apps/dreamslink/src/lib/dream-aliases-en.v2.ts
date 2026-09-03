@@ -6395,5 +6395,12 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "moss": [
     "mosses"
+  ],
+  "mother": [
+    "mothers",
+    "my mother"
+  ],
+  "mother-in-law": [
+    "mothers-in-law"
   ]
 };
