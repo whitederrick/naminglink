@@ -102,10 +102,19 @@
       "백자"
     ],
     "aliases_en": [
-      "chinaware"
+      "chinaware",
+      "porcelain"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "도자기를 칠하거나 매만짐": "칠하거나 매만",
+      "도자기 꿈을 꿈": "좋은 기회",
+      "깨지거나 얼룩진 도자기를 봄": "깨지거나 얼룩진"
+    },
+    "contexts_en": {
+      "도자기를 칠하거나 매만짐": "painting arranging matron",
+      "도자기 꿈을 꿈": "favorable opportunities progressing",
+      "깨지거나 얼룩진 도자기를 봄": "broken soiled offense"
+    }
   },
   {
     "id": "china-store",

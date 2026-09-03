@@ -3957,7 +3957,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "a chimney"
   ],
   "china": [
-    "chinaware"
+    "chinaware",
+    "porcelain"
   ],
   "china-store": [
     "a china store"
@@ -6891,5 +6892,25 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "pope": [
     "the Pope"
+  ],
+  "poplar": [
+    "poplars",
+    "a poplar",
+    "tulip poplar"
+  ],
+  "poppy": [
+    "poppies",
+    "a poppy"
+  ],
+  "porch": [
+    "a porch"
+  ],
+  "porcupine": [
+    "a porcupine",
+    "porcupines"
+  ],
+  "porter": [
+    "a porter",
+    "porters"
   ]
 };

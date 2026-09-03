@@ -1,0 +1,110 @@
+[
+  {
+    "id": "poplar",
+    "aliases": [
+      "포플러가",
+      "포플러를",
+      "포플러 나무"
+    ],
+    "aliases_en": [
+      "poplars",
+      "a poplar",
+      "tulip poplar"
+    ],
+    "contexts": {
+      "포플러가 잎이 무성하거나 꽃이 핌을 봄": "무성하거나 꽃이",
+      "처녀가 정인과 함께 포플러 꽃그늘 아래 섬": "정인과 꽃그늘",
+      "잎이 지고 시든 포플러를 봄": "지고 시든"
+    },
+    "contexts_en": {
+      "포플러가 잎이 무성하거나 꽃이 핌을 봄": "bloom omen good",
+      "처녀가 정인과 함께 포플러 꽃그늘 아래 섬": "lover blossoms extravagant",
+      "잎이 지고 시든 포플러를 봄": "leafless withered disappointments"
+    }
+  },
+  {
+    "id": "poppy",
+    "aliases": [
+      "양귀비가",
+      "양귀비를"
+    ],
+    "aliases_en": [
+      "poppies",
+      "a poppy"
+    ],
+    "contexts": {
+      "양귀비 꿈을 꿈": "쾌락과 그럴듯한",
+      "양귀비 향을 맡음": "향을 맡았"
+    },
+    "contexts_en": {
+      "양귀비 꿈을 꿈": "seductive pleasures flattering",
+      "양귀비 향을 맡음": "inhale odor persuasions"
+    }
+  },
+  {
+    "id": "porch",
+    "aliases": [
+      "현관이",
+      "현관을",
+      "현관에서"
+    ],
+    "aliases_en": [
+      "a porch"
+    ],
+    "contexts": {
+      "현관 꿈을 꿈": "불확실",
+      "처녀가 현관에서 정인과 함께 있음": "정인과 함께",
+      "현관을 지음": "지었 지은 짓는"
+    },
+    "contexts_en": {
+      "현관 꿈을 꿈": "undertakings uncertainties future",
+      "처녀가 현관에서 정인과 함께 있음": "lover doubts intentions",
+      "현관을 지음": "build duties assume"
+    }
+  },
+  {
+    "id": "porcupine",
+    "aliases": [
+      "고슴도치가",
+      "고슴도치를"
+    ],
+    "aliases_en": [
+      "a porcupine",
+      "porcupines"
+    ],
+    "contexts": {
+      "고슴도치 꿈을 꿈": "사업을 냉담함",
+      "처녀가 고슴도치 꿈을 꿈": "처녀가 아가씨가",
+      "죽은 고슴도치를 봄": "죽은 언짢은"
+    },
+    "contexts_en": {
+      "고슴도치 꿈을 꿈": "disapprove enterprise coldness",
+      "처녀가 고슴도치 꿈을 꿈": "young woman fear lover",
+      "죽은 고슴도치를 봄": "dead abolishment possessions"
+    }
+  },
+  {
+    "id": "porter",
+    "aliases": [
+      "짐꾼이",
+      "짐꾼을",
+      "짐꾼과"
+    ],
+    "aliases_en": [
+      "a porter",
+      "porters"
+    ],
+    "contexts": {
+      "짐꾼을 봄": "뚜렷한 파란만장",
+      "제가 짐꾼이라고 상상함": "상상",
+      "짐꾼을 고용함": "고용",
+      "짐꾼을 해고함": "해고"
+    },
+    "contexts_en": {
+      "짐꾼을 봄": "bad luck eventful",
+      "제가 짐꾼이라고 상상함": "imagine humble circumstances",
+      "짐꾼을 고용함": "hire success enjoy",
+      "짐꾼을 해고함": "discharge disagreeable charges"
+    }
+  }
+]

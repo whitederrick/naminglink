@@ -693,11 +693,13 @@
     ],
     "contexts": {
       "돼지고기를 먹음": "먹었 먹는 씹어 삼켰",
-      "칼로 돼지고기를 자름": "칼로 자르 잘랐 썰었 베어"
+      "칼로 돼지고기를 자름": "칼로 자르 잘랐 썰었 베어",
+      "돼지고기를 봄": "다툼에서 승리"
     },
     "contexts_en": {
       "돼지고기를 먹음": "eating ate eat",
-      "칼로 돼지고기를 자름": "knife cutting cut sliced"
+      "칼로 돼지고기를 자름": "knife cutting cut sliced",
+      "돼지고기를 봄": "conflict victoriously"
     }
   },
   {
