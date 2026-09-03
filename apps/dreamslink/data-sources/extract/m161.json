@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "똥배",
+    "term_en": "paunch",
+    "context": "큰 똥배를 봄",
+    "interpretation_ko": "부유하나 기품이 전혀 없다는 조짐",
+    "interpretation_en": "denotes wealth and the total absence of refinement",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Paunch",
+      "original": "To see a large paunch, denotes wealth and the total absence of refinement.",
+      "translation_ko": "큰 똥배를 보는 꿈은, 부유하나 기품이 전혀 없다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "똥배",
+    "term_en": "paunch",
+    "context": "쪼그라든 똥배를 봄",
+    "interpretation_ko": "병과 역경을 알리는 조짐",
+    "interpretation_en": "foretells illness and reverses",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Paunch",
+      "original": "To see a shriveled paunch, foretells illness and reverses.",
+      "translation_ko": "쪼그라든 똥배를 보는 꿈은, 병과 역경을 알리는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "극빈자",
+    "term_en": "pauper",
+    "context": "제가 극빈자임을 꿈꿈",
+    "interpretation_ko": "언짢은 일이 생길 조짐",
+    "interpretation_en": "implies unpleasant happenings for you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Pauper",
+      "original": "To dream that you are a pauper, implies unpleasant happenings for you.",
+      "translation_ko": "제가 극빈자임을 꿈꾸면, 언짢은 일이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "극빈자",
+    "term_en": "pauper",
+    "context": "극빈자들을 봄",
+    "interpretation_ko": "베풂을 청할 일이 생길 조짐",
+    "interpretation_en": "denotes that there will be a call upon your generosity",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Pauper",
+      "original": "To see paupers, denotes that there will be a call upon your generosity.",
+      "translation_ko": "극빈자들을 보는 꿈은, 베풂을 청할 일이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "전당포",
+    "term_en": "pawn-shop",
+    "context": "전당포에 들어감",
+    "interpretation_ko": "깨어 있을 때 실망과 손실을 겪을 조짐",
+    "interpretation_en": "you will find disappointments and losses in your waking moments",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Pawn-shop",
+      "original": "If in your dreams you enter a pawn-shop, you will find disappointments and losses in your waking moments.",
+      "translation_ko": "전당포에 들어가는 꿈은, 깨어 있을 때 실망과 손실을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "전당포",
+    "term_en": "pawn-shop",
+    "context": "물건을 전당 잡힘",
+    "interpretation_ko": "아내나 애인과 언짢은 일을 겪고 사업에서도 실망할 조짐",
+    "interpretation_en": "you will have unpleasant scenes with your wife or sweetheart, and perhaps disappointments in business",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pawn-shop",
+      "original": "To pawn articles, you will have unpleasant scenes with your wife or sweetheart, and perhaps disappointments in business.",
+      "translation_ko": "물건을 전당 잡히는 꿈은, 아내나 애인과 언짢은 일을 겪고 사업에서도 실망할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "전당포",
+    "term_en": "pawn-shop",
+    "context": "여성이 전당포에 감",
+    "interpretation_ko": "경솔한 짓을 저지르고 벗을 잃어 뉘우칠 조짐",
+    "interpretation_en": "denotes that she is guilty of indiscretions, and she is likely to regret the loss of a friend",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pawn-shop",
+      "original": "For a woman to go to a pawn-shop, denotes that she is guilty of indiscretions, and she is likely to regret the loss of a friend.",
+      "translation_ko": "여성이 전당포에 가는 꿈은, 경솔한 짓을 저지르고 벗을 잃어 뉘우칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "전당포",
+    "term_en": "pawn-shop",
+    "context": "전당 잡힌 물건을 되찾음",
+    "interpretation_ko": "잃었던 자리를 되찾을 조짐",
+    "interpretation_en": "denotes that you will regain lost positions",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pawn-shop",
+      "original": "To redeem an article, denotes that you will regain lost positions.",
+      "translation_ko": "전당 잡힌 물건을 되찾는 꿈은, 잃었던 자리를 되찾을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "전당포",
+    "term_en": "pawn-shop",
+    "context": "전당포를 봄",
+    "interpretation_ko": "믿음을 소홀히 하여 추잡한 일로 명예를 잃을 위험에 처했다는 조짐",
+    "interpretation_en": "denotes you are negligent of your trust and are in danger of sacrificing your honorable name in some salacious affair",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Pawn-shop",
+      "original": "To dream that you see a pawn-shop, denotes you are negligent of your trust and are in danger of sacrificing your honorable name in some salacious affair.",
+      "translation_ko": "전당포를 보는 꿈은, 믿음을 소홀히 하여 추잡한 일로 명예를 잃을 위험에 처했다는 조짐이다"
+    }
+  }
+]

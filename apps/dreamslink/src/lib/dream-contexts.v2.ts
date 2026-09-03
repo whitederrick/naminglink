@@ -4891,5 +4891,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "patent::특허를 삼": "buy tiresome fruitless journey",
   "patent::특허를 봄": "see unpleasantness illness",
   "patent-medicine::건강을 찾아 특효약에 의지함": "desperate measures fortune envious",
-  "patent-medicine::특효약을 보거나 만듦": "manufacture obscurity imaginings"
+  "patent-medicine::특효약을 보거나 만듦": "manufacture obscurity imaginings",
+  "paunch::큰 똥배를 봄": "large wealth refinement",
+  "paunch::쪼그라든 똥배를 봄": "shriveled illness reverses",
+  "pauper::제가 극빈자임을 꿈꿈": "unpleasant happenings",
+  "pauper::극빈자들을 봄": "call generosity",
+  "pawn-shop::전당포에 들어감": "enter disappointments losses",
+  "pawn-shop::물건을 전당 잡힘": "pawn wife sweetheart",
+  "pawn-shop::여성이 전당포에 감": "woman indiscretions regret",
+  "pawn-shop::전당 잡힌 물건을 되찾음": "redeem regain positions",
+  "pawn-shop::전당포를 봄": "negligent trust honorable"
 };

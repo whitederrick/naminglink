@@ -1,0 +1,28 @@
+{
+  "batch": 161,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Paunch",
+      "text": "To see a large paunch, denotes wealth and the total absence of refinement. To see a shriveled paunch, foretells illness and reverses.",
+      "note": "새 상징 `paunch`(똥배)"
+    },
+    {
+      "headword": "Pauper",
+      "text": "To dream that you are a pauper, implies unpleasant happenings for you. To see paupers, denotes that there will be a call upon your generosity.",
+      "note": "새 상징 `pauper`(극빈자). 이미 있는 `beggar`(거지)와는 다른 낱말(재산 없음 대 구걸함)이라 갈랐다. 「[150] See Beggars and kindred words」는 구체적 문장이 없는 cross-ref"
+    },
+    {
+      "headword": "Pawn-shop",
+      "text": "If in your dreams you enter a pawn-shop, you will find disappointments and losses in your waking moments. To pawn articles, you will have unpleasant scenes with your wife or sweetheart, and perhaps disappointments in business. For a woman to go to a pawn-shop, denotes that she is guilty of indiscretions, and she is likely to regret the loss of a friend. To redeem an article, denotes that you will regain lost positions. To dream that you see a pawn-shop, denotes you are negligent of your trust and are in danger of sacrificing your honorable name in some salacious affair.",
+      "note": "새 상징 `pawn-shop`(전당포)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "sentence": "[150] See Beggars and kindred words.",
+      "reason": "`Pauper` — 구체적 대상이 없는 cross-reference"
+    }
+  ]
+}
