@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 124 — Mice~Mile-post, 12건)
+// (지금 담긴 것: 배치 125 — Milk·Milking, 12건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,19 +30,19 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "mouse", ctx: "쥐를 봄", text: "쥐가 돌아다니고 있었다" },
-  { id: "mouse", ctx: "쥐를 죽임", text: "쥐를 죽였다" },
-  { id: "mouse", ctx: "쥐를 놓침", text: "쥐를 놓쳤다" },
-  { id: "mouse", ctx: "처녀가 쥐 꿈을 꿈", text: "처녀가 쥐 꿈을 꾸었다" },
-  { id: "mouse", ctx: "제 옷에 쥐가 있는 것을 봄", text: "내 옷에 쥐가 있었다" },
-  { id: "microscope", ctx: "현미경을 봄", text: "현미경을 들여다보았다" },
-  { id: "midwife", ctx: "산파를 봄", text: "산파가 나타났다" },
-  { id: "midwife", ctx: "처녀가 산파를 봄", text: "처녀가 산파를 보았다" },
-  { id: "mile-post", ctx: "이정표를 보거나 지나감", text: "이정표를 지나갔다" },
-  { id: "mile-post", ctx: "쓰러진 이정표를 봄", text: "쓰러진 이정표를 보았다" },
+  { id: "milk", ctx: "젖을 마심", text: "젖을 마셨다" },
+  { id: "milk", ctx: "젖이 많이 있는 것을 봄", text: "젖이 가득 있었다" },
+  { id: "milk", ctx: "젖을 사고팖", text: "젖을 사고팔았다" },
+  { id: "milk", ctx: "젖을 남에게 줌", text: "젖을 남에게 내주었다" },
+  { id: "milk", ctx: "젖을 엎지름", text: "젖을 엎질렀다" },
+  { id: "milk", ctx: "더러운 젖을 봄", text: "더러운 젖을 보았다" },
+  { id: "milk", ctx: "쉬어 버린 젖을 봄", text: "쉬어 버린 젖을 보았다" },
+  { id: "milk", ctx: "젖을 마시려다 못 마심", text: "젖을 마시려다 삼키지 못했다" },
+  { id: "milk", ctx: "뜨거운 젖을 봄", text: "뜨거운 젖을 보았다" },
+  { id: "milk", ctx: "젖으로 목욕함", text: "젖으로 목욕했다" },
+  { id: "milk", ctx: "젖을 짬", text: "젖을 짰다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "mouse", ctx: "쥐가 사람의 옷을 물어뜯음", text: "쥐가 옷을 물어뜯었다" },
-  { id: "mouse", ctx: "흰 쥐가 길을 인도함", text: "흰쥐가 앞장서 길을 인도했다" },
+  { id: "milk", ctx: "남과 함께 젖을 먹음", text: "남과 함께 젖을 먹었다" },
 ];
 
 let notFound = 0;

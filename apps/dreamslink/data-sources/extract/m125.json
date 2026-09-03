@@ -1,0 +1,167 @@
+[
+  {
+    "term_ko": "젖",
+    "term_en": "milk",
+    "context": "젖을 마심",
+    "interpretation_ko": "농사짓는 이에게는 넉넉한 거둠을, 집안에는 즐거움을 주는 길한 조짐 — 길 떠난 이에게는 복된 뱃길을, 여성에게는 매우 좋은 꿈이다",
+    "interpretation_en": "denotes abundant harvest to the farmer and pleasure in the home; for a traveler, it foretells a fortunate voyage",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Milk",
+      "original": "To dream of drinking milk, denotes abundant harvest to the farmer and pleasure in the home; for a traveler, it foretells a fortunate voyage.",
+      "translation_ko": "젖을 마시는 꿈은, 농사짓는 이에게는 넉넉한 거둠을 집안에는 즐거움을 뜻하고, 길 떠난 이에게는 복된 뱃길을 알린다"
+    }
+  },
+  {
+    "term_ko": "젖",
+    "term_en": "milk",
+    "context": "젖이 많이 있는 것을 봄",
+    "interpretation_ko": "재물과 튼튼함을 뜻하는 길한 조짐",
+    "interpretation_en": "signifies riches and health",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Milk",
+      "original": "To see milk in large quantities, signifies riches and health.",
+      "translation_ko": "젖이 많이 있는 것을 보면 재물과 튼튼함을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "젖",
+    "term_en": "milk",
+    "context": "젖을 사고팖",
+    "interpretation_ko": "재물이 크게 불어날 길한 조짐",
+    "interpretation_en": "denotes great increase in fortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Milk",
+      "original": "To dream of dealing in milk commercially, denotes great increase in fortune.",
+      "translation_ko": "젖을 사고파는 꿈은 재물이 크게 불어남을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "젖",
+    "term_en": "milk",
+    "context": "젖을 남에게 줌",
+    "interpretation_ko": "제 살림에 해가 될 만큼 지나치게 베풀 흉한 조짐",
+    "interpretation_en": "shows that you will be too benevolent for the good of your own fortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Milk",
+      "original": "To give milk away, shows that you will be too benevolent for the good of your own fortune.",
+      "translation_ko": "젖을 남에게 주면, 제 살림에 해가 될 만큼 지나치게 베푼다"
+    }
+  },
+  {
+    "term_ko": "젖",
+    "term_en": "milk",
+    "context": "젖을 엎지름",
+    "interpretation_ko": "자잘하게 잃고 벗들 때문에 잠깐 언짢을 흉한 조짐",
+    "interpretation_en": "denotes that you will experience a slight loss and suffer temporary unhappiness at the hands of friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Milk",
+      "original": "To spill milk, denotes that you will experience a slight loss and suffer temporary unhappiness at the hands of friends.",
+      "translation_ko": "젖을 엎지르면 자잘하게 잃고 벗들 때문에 잠깐 언짢아진다"
+    }
+  },
+  {
+    "term_ko": "젖",
+    "term_en": "milk",
+    "context": "더러운 젖을 봄",
+    "interpretation_ko": "자잘한 괴로움에 시달릴 흉한 조짐",
+    "interpretation_en": "denotes that you will be tormented with petty troubles",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Milk",
+      "original": "To dream of impure milk, denotes that you will be tormented with petty troubles.",
+      "translation_ko": "더러운 젖의 꿈은 자잘한 괴로움에 시달림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "젖",
+    "term_en": "milk",
+    "context": "쉬어 버린 젖을 봄",
+    "interpretation_ko": "벗의 괴로움 때문에 마음이 어지러울 흉한 조짐",
+    "interpretation_en": "denotes that you will be disturbed over the distress of friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Milk",
+      "original": "To dream of sour milk, denotes that you will be disturbed over the distress of friends.",
+      "translation_ko": "쉬어 버린 젖의 꿈은, 벗의 괴로움 때문에 마음이 어지러움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "젖",
+    "term_en": "milk",
+    "context": "젖을 마시려다 못 마심",
+    "interpretation_ko": "값진 것이나 높이 여기던 이의 우정을 잃을 위험이 있는 흉한 조짐",
+    "interpretation_en": "signifies that you will be in danger of losing something of value or the friendship of a highly esteemed person",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Milk",
+      "original": "To dream of trying unsuccessfully to drink milk, signifies that you will be in danger of losing something of value or the friendship of a highly esteemed person.",
+      "translation_ko": "젖을 마시려다 못 마시는 꿈은, 값진 것이나 높이 여기던 이의 우정을 잃을 위험이 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "젖",
+    "term_en": "milk",
+    "context": "뜨거운 젖을 봄",
+    "interpretation_ko": "힘든 다툼이 있으나 끝내 재물과 바라던 것을 얻을 길한 조짐",
+    "interpretation_en": "foretells a struggle, but the final winning of riches and desires",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Milk",
+      "original": "To dream of hot milk, foretells a struggle, but the final winning of riches and desires.",
+      "translation_ko": "뜨거운 젖의 꿈은, 힘든 다툼이 있으나 끝내 재물과 바라던 것을 얻음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "젖",
+    "term_en": "milk",
+    "context": "젖으로 목욕함",
+    "interpretation_ko": "즐거움과 마음 맞는 벗의 어울림을 뜻하는 길한 조짐",
+    "interpretation_en": "denotes pleasures and companionships of congenial friends",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Milk",
+      "original": "To dream of bathing in milk, denotes pleasures and companionships of congenial friends.",
+      "translation_ko": "젖으로 목욕하는 꿈은 즐거움과 마음 맞는 벗의 어울림을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "젖",
+    "term_en": "milk",
+    "context": "젖을 짬",
+    "interpretation_ko": "큰 기회가 저에게서 막히는 것을 보게 되나, 끝내는 그것이 저에게 좋게 돌아설 조짐",
+    "interpretation_en": "signifies you will see great opportunities withheld from you, but which will result in final favor for you",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Milking",
+      "original": "To dream of milking, and it flows in great streams from the udder, while the cow is restless and threatening, signifies you will see great opportunities withheld from you, but which will result in final favor for you.",
+      "translation_ko": "젖을 짜는데 젖통에서 크게 쏟아지고 소가 사납게 구는 꿈은, 큰 기회가 저에게서 막히는 것을 보게 되나 끝내는 그것이 저에게 좋게 돌아섬을 뜻한다"
+    }
+  }
+]

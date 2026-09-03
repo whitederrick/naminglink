@@ -1059,15 +1059,44 @@
     "id": "milk",
     "aliases": [
       "모유",
-      "우유"
+      "우유",
+      "젖을",
+      "젖이",
+      "젖소 젖"
     ],
     "aliases_en": [
       "breast milk",
       "suckling",
       "nursing"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "남과 함께 젖을 먹음": "함께 같이 여럿이",
+      "젖을 마심": "마셨 들이켰",
+      "젖이 많이 있는 것을 봄": "많이 가득 잔뜩",
+      "젖을 사고팖": "사고팔 장사 팔았",
+      "젖을 남에게 줌": "남에게 내주었",
+      "젖을 엎지름": "엎질 쏟았",
+      "더러운 젖을 봄": "더러 불결",
+      "쉬어 버린 젖을 봄": "쉬어 시큼 상한",
+      "젖을 마시려다 못 마심": "마시려다 삼키지",
+      "뜨거운 젖을 봄": "뜨거 따뜻",
+      "젖으로 목욕함": "목욕 씻었",
+      "젖을 짬": "짜는 짰다 젖통"
+    },
+    "contexts_en": {
+      "남과 함께 젖을 먹음": "together shared",
+      "젖을 마심": "drinking abundant harvest farmer voyage",
+      "젖이 많이 있는 것을 봄": "large quantities riches health",
+      "젖을 사고팖": "dealing commercially increase",
+      "젖을 남에게 줌": "give away benevolent",
+      "젖을 엎지름": "spill slight temporary unhappiness",
+      "더러운 젖을 봄": "impure tormented petty",
+      "쉬어 버린 젖을 봄": "sour disturbed distress",
+      "젖을 마시려다 못 마심": "unsuccessfully danger losing esteemed",
+      "뜨거운 젖을 봄": "struggle final winning desires",
+      "젖으로 목욕함": "bathing pleasures companionships congenial",
+      "젖을 짬": "streams udder restless withheld opportunities"
+    }
   },
   {
     "id": "official-s-seat",
