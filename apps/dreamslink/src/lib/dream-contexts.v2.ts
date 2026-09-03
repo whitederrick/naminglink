@@ -4168,5 +4168,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lobster::바닷가재를 봄": "favors riches endow",
   "lobster::바닷가재를 먹음": "contamination associating pleasure-seeking",
   "lobster::바닷가재로 만든 샐러드를 봄": "salad generous nature fullest",
-  "lobster::바닷가재를 주문함": "order prominent positions subordinates"
+  "lobster::바닷가재를 주문함": "order prominent positions subordinates",
+  "lock::자물쇠를 봄": "bewilderment",
+  "lock::자물쇠가 열림": "command discover injury rival",
+  "lock::자물쇠가 열리지 않음": "resists derided scorned perilous",
+  "lock::정혼자의 목에 자물쇠를 채움": "fiance neck distrustful fidelity",
+  "locket::정인이 목에 로켓 목걸이를 걸어 줌": "places offerings wedded lovely",
+  "locket::로켓 목걸이를 잃어버림": "lose sadness",
+  "locket::정인이 로켓 목걸이를 돌려줌": "returns disappointing displeasing",
+  "locket::로켓 목걸이를 깨뜨림": "breaks changeable unstable constancy",
+  "lockjaw::제가 파상풍에 걸림": "trouble ahead betray confidence",
+  "lockjaw::남이 파상풍에 걸린 것을 봄": "others unconsciously detract assigning",
+  "lockjaw::가축이 파상풍에 걸림": "stock lose friend"
 };

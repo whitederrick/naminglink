@@ -9,6 +9,7 @@
     "m103.json",
     "m104.json",
     "m105.json",
+    "m106.json",
     "m11.json",
     "m12.json",
     "m13.json",
@@ -45454,6 +45455,157 @@
       ]
     },
     {
+      "id": "lock",
+      "term_ko": "자물쇠",
+      "term_en": "lock",
+      "aliases": [
+        "자물통",
+        "맹꽁이자물쇠",
+        "자물쇠가",
+        "자물쇠를"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "자물쇠를 봄",
+          "interpretation_ko": "갈피를 잡지 못하고 어리둥절해질 조짐",
+          "interpretation_en": "denotes bewilderment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lock",
+              "original": "To dream of a lock, denotes bewilderment.",
+              "translation_ko": "자물쇠의 꿈은 갈피를 잡지 못하고 어리둥절해짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "자물쇠가 열림",
+          "interpretation_ko": "누군가 저를 해치고 있음을 알아차릴 조짐. 사랑 중이면 맞수를 이길 길을 찾고 다니는 길도 잘 풀린다",
+          "interpretation_en": "you will discover that some person is working you injury; if you are in love, you will find means to aid you in overcoming a rival",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lock",
+              "original": "If the lock works at your command, or efforts, you will discover that some person is working you injury.",
+              "translation_ko": "자물쇠가 제 뜻대로 열리면, 누군가 저를 해치고 있음을 알아차린다"
+            }
+          ]
+        },
+        {
+          "context": "자물쇠가 열리지 않음",
+          "interpretation_ko": "사랑에서 비웃음과 업신여김을 받고, 험한 길을 나서도 얻을 것이 없을 흉한 조짐",
+          "interpretation_en": "you will be derided and scorned in love and perilous voyages will bring to you no benefit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lock",
+              "original": "If the lock resists your efforts, you will be derided and scorned in love and perilous voyages will bring to you no benefit.",
+              "translation_ko": "자물쇠가 아무리 해도 열리지 않으면, 사랑에서 비웃음과 업신여김을 받고 험한 길을 나서도 얻을 것이 없다"
+            }
+          ]
+        },
+        {
+          "context": "정혼자의 목에 자물쇠를 채움",
+          "interpretation_ko": "그 사람의 한결같음을 못 미더워하는 것이나, 뒤에 그 의심이 풀릴 조짐",
+          "interpretation_en": "foretells that you are distrustful of her fidelity, but future episodes will disabuse your mind of doubt",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lock",
+              "original": "To put a lock upon your fiance'e's neck and arm, foretells that you are distrustful of her fidelity, but future episodes will disabuse your mind of doubt.",
+              "translation_ko": "정혼자의 목과 팔에 자물쇠를 채우는 꿈은, 그 사람의 한결같음을 못 미더워하는 것이나 뒤에 그 의심이 풀림을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "locket",
+      "term_ko": "로켓 목걸이",
+      "term_en": "locket",
+      "aliases": [
+        "사진 목걸이",
+        "로켓펜던트",
+        "목걸이 로켓"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "정인이 목에 로켓 목걸이를 걸어 줌",
+          "interpretation_ko": "고운 선물을 여럿 받고 머잖아 혼인하며, 사랑스러운 아이들이 삶을 채울 길한 조짐",
+          "interpretation_en": "she will be the recipient of many beautiful offerings, and will soon be wedded, and lovely children will crown her life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Locket",
+              "original": "If a young woman dreams that her lover places a locket around her neck, she will be the recipient of many beautiful offerings, and will soon be wedded, and lovely children will crown her life.",
+              "translation_ko": "젊은 여성이 정인이 제 목에 로켓 목걸이를 걸어 주는 꿈을 꾸면, 고운 선물을 여럿 받고 머잖아 혼인하며 사랑스러운 아이들이 삶을 채운다"
+            }
+          ]
+        },
+        {
+          "context": "로켓 목걸이를 잃어버림",
+          "interpretation_ko": "죽음이 삶에 슬픔을 던져 넣을 흉한 조짐",
+          "interpretation_en": "death will throw sadness into her life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Locket",
+              "original": "If she should lose a locket, death will throw sadness into her life.",
+              "translation_ko": "로켓 목걸이를 잃어버리면 죽음이 삶에 슬픔을 던져 넣는다"
+            }
+          ]
+        },
+        {
+          "context": "정인이 로켓 목걸이를 돌려줌",
+          "interpretation_ko": "실망스러운 일을 마주할 흉한 조짐. 사랑하는 이가 저를 애태우고 마음 상하게 군다",
+          "interpretation_en": "he will confront disappointing issues; the woman he loves will worry him and conduct herself in a displeasing way toward him",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Locket",
+              "original": "If a lover dreams that his sweetheart returns his locket, he will confront disappointing issues.",
+              "translation_ko": "정인이 제 로켓 목걸이를 돌려주는 꿈을 꾸면, 실망스러운 일을 마주한다"
+            }
+          ]
+        },
+        {
+          "context": "로켓 목걸이를 깨뜨림",
+          "interpretation_ko": "변덕스럽고 미덥지 못한 지아비를 만날 흉한 조짐 — 일에서도 마음에서도 한결같음을 싫어하는 사람이다",
+          "interpretation_en": "she will have a changeable and unstable husband, who will dislike constancy in any form, be it business or affection",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Locket",
+              "original": "If a woman dreams that she breaks a locket, she will have a changeable and unstable husband, who will dislike constancy in any form, be it business or affection,",
+              "translation_ko": "여성이 로켓 목걸이를 깨뜨리는 꿈을 꾸면, 변덕스럽고 미덥지 못한 지아비를 만난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "manure",
       "term_ko": "거름",
       "term_en": "manure",
@@ -57120,6 +57272,67 @@
               "locator": "Liar",
               "original": "For a woman to think her sweetheart a liar, warns her that her unbecoming conduct is likely to lose her a valued friend.",
               "translation_ko": "여성이 제 정인을 거짓말쟁이로 여기는 꿈은, 온당치 못한 처신 때문에 귀한 벗을 잃게 됨을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lockjaw",
+      "term_ko": "파상풍",
+      "term_en": "lockjaw",
+      "aliases": [
+        "파상풍이",
+        "파상풍에",
+        "턱이 굳는 병"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 파상풍에 걸림",
+          "interpretation_ko": "누군가 저의 믿음을 저버려 앞날에 괴로운 일이 있을 흉한 조짐",
+          "interpretation_en": "signifies there is trouble ahead for you, as some person is going to betray your confidence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lockjaw",
+              "original": "To dream that you have lockjaw, signifies there is trouble ahead for you, as some person is going to betray your confidence.",
+              "translation_ko": "제가 파상풍에 걸리는 꿈은, 누군가 저의 믿음을 저버려 앞날에 괴로운 일이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 파상풍에 걸린 것을 봄",
+          "interpretation_ko": "벗들이 저도 모르게 언짢은 일을 떠맡겨 즐거움을 깎을 흉한 조짐",
+          "interpretation_en": "foretells her friends will unconsciously detract from her happiness by assigning her unpleasant tasks",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lockjaw",
+              "original": "For a woman to see others with lockjaw, foretells her friends will unconsciously detract from her happiness by assigning her unpleasant tasks.",
+              "translation_ko": "여성이 남이 파상풍에 걸린 것을 보면, 벗들이 저도 모르게 언짢은 일을 떠맡겨 즐거움을 깎는다"
+            }
+          ]
+        },
+        {
+          "context": "가축이 파상풍에 걸림",
+          "interpretation_ko": "벗을 잃을 흉한 조짐",
+          "interpretation_en": "you will lose a friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lockjaw",
+              "original": "If stock have it, you will lose a friend.",
+              "translation_ko": "기르는 짐승이 파상풍에 걸리면 벗을 잃는다"
             }
           ]
         }

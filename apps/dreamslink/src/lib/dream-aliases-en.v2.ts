@@ -6119,5 +6119,15 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "lobster": [
     "lobsters"
+  ],
+  "lock": [
+    "padlock",
+    "locks"
+  ],
+  "locket": [
+    "lockets"
+  ],
+  "lockjaw": [
+    "tetanus"
   ]
 };

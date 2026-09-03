@@ -1,0 +1,71 @@
+[
+  {
+    "id": "lock",
+    "aliases": [
+      "자물통",
+      "맹꽁이자물쇠",
+      "자물쇠가",
+      "자물쇠를"
+    ],
+    "aliases_en": [
+      "padlock",
+      "locks"
+    ],
+    "contexts": {
+      "자물쇠를 봄": "달려 채워져",
+      "자물쇠가 열림": "열렸 풀렸",
+      "자물쇠가 열리지 않음": "열리지 꿈쩍",
+      "정혼자의 목에 자물쇠를 채움": "목과 팔에 채웠"
+    },
+    "contexts_en": {
+      "자물쇠를 봄": "bewilderment",
+      "자물쇠가 열림": "command discover injury rival",
+      "자물쇠가 열리지 않음": "resists derided scorned perilous",
+      "정혼자의 목에 자물쇠를 채움": "fiance neck distrustful fidelity"
+    }
+  },
+  {
+    "id": "locket",
+    "aliases": [
+      "사진 목걸이",
+      "로켓펜던트",
+      "목걸이 로켓"
+    ],
+    "aliases_en": [
+      "lockets"
+    ],
+    "contexts": {
+      "정인이 목에 로켓 목걸이를 걸어 줌": "걸어 채워주",
+      "로켓 목걸이를 잃어버림": "잃어 잃었",
+      "정인이 로켓 목걸이를 돌려줌": "돌려 되돌려",
+      "로켓 목걸이를 깨뜨림": "깨뜨 깨졌 부서"
+    },
+    "contexts_en": {
+      "정인이 목에 로켓 목걸이를 걸어 줌": "places offerings wedded lovely",
+      "로켓 목걸이를 잃어버림": "lose sadness",
+      "정인이 로켓 목걸이를 돌려줌": "returns disappointing displeasing",
+      "로켓 목걸이를 깨뜨림": "breaks changeable unstable constancy"
+    }
+  },
+  {
+    "id": "lockjaw",
+    "aliases": [
+      "파상풍이",
+      "파상풍에",
+      "턱이 굳는 병"
+    ],
+    "aliases_en": [
+      "tetanus"
+    ],
+    "contexts": {
+      "제가 파상풍에 걸림": "내가 제가",
+      "남이 파상풍에 걸린 것을 봄": "남이 남들이 다른 사람",
+      "가축이 파상풍에 걸림": "가축 짐승 소가"
+    },
+    "contexts_en": {
+      "제가 파상풍에 걸림": "trouble ahead betray confidence",
+      "남이 파상풍에 걸린 것을 봄": "others unconsciously detract assigning",
+      "가축이 파상풍에 걸림": "stock lose friend"
+    }
+  }
+]
