@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "행렬",
+    "term_en": "procession",
+    "context": "행렬 꿈을 꿈",
+    "interpretation_ko": "바라던 일이 이루어질지 놀라 두려워하게 될 조짐",
+    "interpretation_en": "denotes that alarming fears will possess you relative to the fulfilment of expectations",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Procession",
+      "original": "To dream of a procession, denotes that alarming fears will possess you relative to the fulfilment of expectations.",
+      "translation_ko": "행렬 꿈은, 바라던 일이 이루어질지 놀라 두려워하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "행렬",
+    "term_en": "procession",
+    "context": "장례 행렬을 봄",
+    "interpretation_ko": "슬픔이 빠르게 다가와 즐거움에 그늘을 드리울 조짐",
+    "interpretation_en": "sorrow is fast approaching, and will throw a shadow around pleasures",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Procession",
+      "original": "If it be a funeral procession, sorrow is fast approaching, and will throw a shadow around pleasures.",
+      "translation_ko": "장례 행렬이면, 슬픔이 빠르게 다가와 즐거움에 그늘을 드리울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "행렬",
+    "term_en": "procession",
+    "context": "횃불 행렬을 보거나 참여함",
+    "interpretation_ko": "참된 값어치를 깎아 먹는 흥청거림에 빠질 조짐",
+    "interpretation_en": "denotes that you will engage in gaieties which will detract from your real merit",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Procession",
+      "original": "To see or participate in a torch-light procession, denotes that you will engage in gaieties which will detract from your real merit.",
+      "translation_ko": "횃불 행렬을 보거나 참여하는 꿈은, 참된 값어치를 깎아 먹는 흥청거림에 빠질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "신성모독",
+    "term_en": "blasphemy",
+    "context": "욕설하는 꿈을 꿈",
+    "interpretation_ko": "남에게 거칠고 무정해질 성향을 기를 조짐",
+    "interpretation_en": "denotes that you will cultivate those traits which render you coarse and unfeeling toward your fellow man",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Profanity",
+      "original": "To dream of profanity, denotes that you will cultivate those traits which render you coarse and unfeeling toward your fellow man.",
+      "translation_ko": "욕설하는 꿈은, 남에게 거칠고 무정해질 성향을 기를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "신성모독",
+    "term_en": "blasphemy",
+    "context": "남이 욕설하는 것을 봄",
+    "interpretation_ko": "어떻게든 해를 입고 모욕까지 당할 조짐",
+    "interpretation_en": "is a sign that you will be injured in some way, and probably insulted also",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Profanity",
+      "original": "To dream that others use profanity, is a sign that you will be injured in some way, and probably insulted also.",
+      "translation_ko": "남이 욕설하는 것을 보는 꿈은, 어떻게든 해를 입고 모욕까지 당할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "이득",
+    "term_en": "gain",
+    "context": "이득을 봄",
+    "interpretation_ko": "머잖아 성공할 조짐",
+    "interpretation_en": "brings success in your immediate future",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Profits",
+      "original": "To dream of profits, brings success in your immediate future.",
+      "translation_ko": "이득을 보는 꿈은, 머잖아 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "산책",
+    "term_en": "promenade",
+    "context": "산책함",
+    "interpretation_ko": "활기차고 보람 있는 일에 나설 조짐",
+    "interpretation_en": "foretells that you will engage in energetic and profitable pursuits",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Promenade",
+      "original": "To dream of promenading, foretells that you will engage in energetic and profitable pursuits.",
+      "translation_ko": "산책하는 꿈은, 활기차고 보람 있는 일에 나설 조짐이다"
+    }
+  },
+  {
+    "term_ko": "산책",
+    "term_en": "promenade",
+    "context": "남이 산책하는 것을 봄",
+    "interpretation_ko": "하는 일에 경쟁자가 있을 조짐",
+    "interpretation_en": "signifies that you will have rivals in your pursuits",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Promenade",
+      "original": "To see others promenading, signifies that you will have rivals in your pursuits.",
+      "translation_ko": "남이 산책하는 것을 보는 꿈은, 하는 일에 경쟁자가 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "재산",
+    "term_en": "wealth",
+    "context": "너른 재산을 가짐",
+    "interpretation_ko": "일에서 성공하고 벗을 얻을 조짐",
+    "interpretation_en": "denotes that you will be successful in affairs, and gain friendships",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Property",
+      "original": "To dream that you own vast property, denotes that you will be successful in affairs, and gain friendships.",
+      "translation_ko": "너른 재산을 가진 꿈은, 일에서 성공하고 벗을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "몸 파는 이",
+    "term_en": "harlot",
+    "context": "몸 파는 이와 어울림",
+    "interpretation_ko": "잘못 고른 즐거움과 사귐의 말썽이 있고 하는 일도 기울 흉한 조짐",
+    "interpretation_en": "denotes that you will incur the righteous scorn of friends for some ill-mannered conduct",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Prostitute",
+      "original": "To dream that you are in the company of a prostitute, denotes that you will incur the righteous scorn of friends for some ill-mannered conduct.",
+      "translation_ko": "몸 파는 이와 어울리는 꿈은, 예의 없는 행실로 벗들의 정당한 손가락질을 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "몸 파는 이",
+    "term_en": "harlot",
+    "context": "처녀가 몸 파는 이 꿈을 꿈",
+    "interpretation_ko": "제 순결이나 진심에 대해 애인을 속이게 될 조짐",
+    "interpretation_en": "foretells that she will deceive her lover as to her purity or candor",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Prostitute",
+      "original": "For a young woman to dream of a prostitute, foretells that she will deceive her lover as to her purity or candor.",
+      "translation_ko": "처녀가 몸 파는 이 꿈을 꾸면, 제 순결이나 진심에 대해 애인을 속이게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "몸 파는 이",
+    "term_en": "harlot",
+    "context": "기혼 여성이 몸 파는 이 꿈을 꿈",
+    "interpretation_ko": "남편을 의심하여 다툼이 뒤따를 조짐",
+    "interpretation_en": "brings suspicion of her husband and consequent quarrels",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Prostitute",
+      "original": "This dream to a married woman brings suspicion of her husband and consequent quarrels.",
+      "translation_ko": "기혼 여성이 이 꿈을 꾸면, 남편을 의심하여 다툼이 뒤따를 조짐이다"
+    }
+  }
+]

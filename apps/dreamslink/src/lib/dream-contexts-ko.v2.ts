@@ -1507,6 +1507,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "palace::형편이 어려운 처녀에게 이 꿈이 속임수처럼 다가옴": "어려운 속임수처럼 헛된",
   "wealth::집안에서 재물을 나눔": "나누 헤어지고 무너",
   "wealth::처녀가 참된 재물과 안락을 누림": "처녀가 참된 실속",
+  "wealth::너른 재산을 가짐": "너른 성공하고",
   "wicked-person::악한 사람과 말을 나눔": "대화 말을나 이야기 얘기",
   "wicked-person::악한 사람이 서로 끌어당김": "끌어당 잡아끌 붙잡 끌려",
   "horse::말이 뜰 앞에서 춤추듯 뛰놂": "춤추 뛰놀 뛰노 마당",
@@ -2403,6 +2404,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "blasphemy::신성모독 꿈을 꿈": "신성 모독하 욕설",
   "blasphemy::자기 자신을 저주하는 꿈을 꿈": "자신을 스스로 자기를",
   "blasphemy::남에게 저주받는 꿈을 꿈": "남에게 저주받 욕먹",
+  "blasphemy::욕설하는 꿈을 꿈": "거칠고 무정",
+  "blasphemy::남이 욕설하는 것을 봄": "해를 입고",
   "blow::매를 맞는 꿈을 꿈": "매를맞 맞는 두들겨",
   "blow::매를 얻어맞음": "얻어맞 머리를 세게",
   "blow::스스로를 방어함": "방어 막았 피했 저항",
@@ -3997,6 +4000,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "harem::여성이 하렘에서 가장 아낌을 받음": "아낌 총애 으뜸",
   "harlot::몸 파는 이와 어울림": "어울 함께 곁에",
   "harlot::몸 파는 이와 짝을 맺음": "짝을 혼인 결혼",
+  "harlot::처녀가 몸 파는 이 꿈을 꿈": "처녀가 순결",
+  "harlot::기혼 여성이 몸 파는 이 꿈을 꿈": "기혼 남편을 의심",
   "harp::하프의 구슬픈 가락을 들음": "구슬 가락 들었",
   "harp::부서진 하프를 봄": "부서 망가 깨진",
   "harp::하프를 손수 켬": "손수 직접 켰다",
@@ -5199,5 +5204,10 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "printing-office::인쇄소를 운영함": "운영 궂은운수",
   "printing-office::처녀의 애인이 인쇄소와 관계있음을 봄": "애인이 인색",
   "privacy::사생활을 침해당함": "고압적",
-  "privacy::여성이 남편이나 애인의 사생활을 침범함": "침범 저버릴"
+  "privacy::여성이 남편이나 애인의 사생활을 침범함": "침범 저버릴",
+  "procession::행렬 꿈을 꿈": "놀라 두려워",
+  "procession::장례 행렬을 봄": "장례 그늘",
+  "procession::횃불 행렬을 보거나 참여함": "횃불 흥청거림",
+  "promenade::산책함": "활기차고 보람",
+  "promenade::남이 산책하는 것을 봄": "남이 경쟁자"
 };

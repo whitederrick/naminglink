@@ -385,7 +385,14 @@
     "aliases": [
       "불경",
       "모독",
-      "신을 욕"
+      "신을 욕",
+      "욕설했다",
+      "욕설하는",
+      "욕설을",
+      "욕설했다",
+      "욕설하는",
+      "욕설을",
+      "욕설하며"
     ],
     "aliases_en": [
       "profanity",
@@ -395,12 +402,16 @@
     "contexts": {
       "신성모독 꿈을 꿈": "신성 모독하 욕설",
       "자기 자신을 저주하는 꿈을 꿈": "자신을 스스로 자기를",
-      "남에게 저주받는 꿈을 꿈": "남에게 저주받 욕먹"
+      "남에게 저주받는 꿈을 꿈": "남에게 저주받 욕먹",
+      "욕설하는 꿈을 꿈": "거칠고 무정",
+      "남이 욕설하는 것을 봄": "해를 입고"
     },
     "contexts_en": {
       "신성모독 꿈을 꿈": "blasphemous impious irreverent",
       "자기 자신을 저주하는 꿈을 꿈": "myself oneself inwardly",
-      "남에게 저주받는 꿈을 꿈": "others cursed someone another"
+      "남에게 저주받는 꿈을 꿈": "others cursed someone another",
+      "욕설하는 꿈을 꿈": "coarse unfeeling traits",
+      "남이 욕설하는 것을 봄": "injured insulted"
     }
   },
   {

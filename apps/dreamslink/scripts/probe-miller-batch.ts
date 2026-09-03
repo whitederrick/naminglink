@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 195 — Printing Office~Prize Fighter, 5개 헤드워드)
+// (지금 담긴 것: 배치 196 — Procession~Prostitute, 6개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -811,6 +811,21 @@ const CASES: Case[] = [
   // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
   { id: "prison", ctx: "감옥 꿈을 꿈", text: "감옥 꿈을 꾸었다" },
   { id: "prison", ctx: "감옥에서 빠져나옴", text: "감옥에서 빠져나왔다" },
+  { id: "procession", ctx: "행렬 꿈을 꿈", text: "행렬 꿈을 꾸었다" },
+  { id: "procession", ctx: "장례 행렬을 봄", text: "장례 행렬을 보았다" },
+  { id: "procession", ctx: "횃불 행렬을 보거나 참여함", text: "횃불 행렬에 참여했다" },
+  { id: "blasphemy", ctx: "욕설하는 꿈을 꿈", text: "욕설하며 거칠고 무정한 성격을 길렀다" },
+  { id: "blasphemy", ctx: "남이 욕설하는 것을 봄", text: "남이 욕설하는 것을 보고 해를 입고 모욕당했다" },
+  { id: "gain", ctx: "이득을 봄", text: "이득을 보았다" },
+  { id: "promenade", ctx: "산책함", text: "산책했다" },
+  { id: "promenade", ctx: "남이 산책하는 것을 봄", text: "남이 산책하는 것을 보았다" },
+  { id: "wealth", ctx: "너른 재산을 가짐", text: "너른 재산을 가졌다" },
+  { id: "harlot", ctx: "처녀가 몸 파는 이 꿈을 꿈", text: "처녀가 몸 파는 이 꿈을 꾸었다" },
+  { id: "harlot", ctx: "기혼 여성이 몸 파는 이 꿈을 꿈", text: "기혼 여성이 몸 파는 이 꿈을 꾸었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "blasphemy", ctx: "신성모독 꿈을 꿈", text: "신성모독 꿈을 꾸었다" },
+  { id: "wealth", ctx: "처녀가 참된 재물과 안락을 누림", text: "처녀가 참된 재물과 안락을 누렸다" },
+  { id: "harlot", ctx: "몸 파는 이와 어울림", text: "몸 파는 이와 어울렸다" },
 ];
 
 let notFound = 0;

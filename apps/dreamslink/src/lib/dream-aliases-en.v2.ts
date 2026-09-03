@@ -6953,5 +6953,16 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "prize-fighter": [
     "a prize fighter"
+  ],
+  "procession": [
+    "a procession"
+  ],
+  "gain": [
+    "a gain",
+    "gains",
+    "profits"
+  ],
+  "promenade": [
+    "promenading"
   ]
 };

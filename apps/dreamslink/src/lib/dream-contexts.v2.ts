@@ -1503,6 +1503,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "palace::형편이 어려운 처녀에게 이 꿈이 속임수처럼 다가옴": "humble deceitful misleading idle",
   "wealth::집안에서 재물을 나눔": "separation ruin",
   "wealth::처녀가 참된 재물과 안락을 누림": "solid real comforts wake pleasure",
+  "wealth::너른 재산을 가짐": "vast successful friendships",
   "wicked-person::악한 사람과 말을 나눔": "talking conversation spoke chatting",
   "wicked-person::악한 사람이 서로 끌어당김": "pulling dragging tugging grabbing",
   "horse::말이 뜰 앞에서 춤추듯 뛰놂": "dancing prancing frolicking courtyard yard",
@@ -2399,6 +2400,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "blasphemy::신성모독 꿈을 꿈": "blasphemous impious irreverent",
   "blasphemy::자기 자신을 저주하는 꿈을 꿈": "myself oneself inwardly",
   "blasphemy::남에게 저주받는 꿈을 꿈": "others cursed someone another",
+  "blasphemy::욕설하는 꿈을 꿈": "coarse unfeeling traits",
+  "blasphemy::남이 욕설하는 것을 봄": "injured insulted",
   "blow::매를 맞는 꿈을 꿈": "blows beaten flogged lashed",
   "blow::매를 얻어맞음": "struck head skull violently",
   "blow::스스로를 방어함": "defend defending warded resisted",
@@ -3993,6 +3996,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "harem::여성이 하렘에서 가장 아낌을 받음": "favorite preferred material fleeting",
   "harlot::몸 파는 이와 어울림": "company chosen pleasures social depression",
   "harlot::몸 파는 이와 짝을 맺음": "marry threatened enemy",
+  "harlot::처녀가 몸 파는 이 꿈을 꿈": "young woman deceive purity",
+  "harlot::기혼 여성이 몸 파는 이 꿈을 꿈": "married suspicion quarrels",
   "harp::하프의 구슬픈 가락을 들음": "strains ending seems profitable",
   "harp::부서진 하프를 봄": "broken betokens illness troth",
   "harp::하프를 손수 켬": "play yourself trusting placing",
@@ -5195,5 +5200,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "printing-office::인쇄소를 운영함": "run hard luck",
   "printing-office::처녀의 애인이 인쇄소와 관계있음을 봄": "sweetheart lavish stingy",
   "privacy::사생활을 침해당함": "intrusion overbearing worry",
-  "privacy::여성이 남편이나 애인의 사생활을 침범함": "intrudes disabuse confidence"
+  "privacy::여성이 남편이나 애인의 사생활을 침범함": "intrudes disabuse confidence",
+  "procession::행렬 꿈을 꿈": "alarming fears expectations",
+  "procession::장례 행렬을 봄": "funeral sorrow shadow",
+  "procession::횃불 행렬을 보거나 참여함": "torch-light gaieties merit",
+  "promenade::산책함": "energetic profitable pursuits",
+  "promenade::남이 산책하는 것을 봄": "others rivals"
 };

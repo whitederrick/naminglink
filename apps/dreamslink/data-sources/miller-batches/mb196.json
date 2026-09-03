@@ -1,0 +1,38 @@
+{
+  "batch": 196,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Procession",
+      "text": "To dream of a procession, denotes that alarming fears will possess you relative to the fulfilment of expectations. If it be a funeral procession, sorrow is fast approaching, and will throw a shadow around pleasures. To see or participate in a torch-light procession, denotes that you will engage in gaieties which will detract from your real merit.",
+      "note": "새 상징 `procession`(행렬). 기존 `king`의 「임금의 행렬을 봄」은 왕의 행렬이라는 좁은 그림이고 판별어일 뿐 별칭이 아니라 안 겹친다"
+    },
+    {
+      "headword": "Profanity",
+      "text": "To dream of profanity, denotes that you will cultivate those traits which render you coarse and unfeeling toward your fellow man. To dream that others use profanity, is a sign that you will be injured in some way, and probably insulted also.",
+      "note": "기존 상징 `blasphemy`(신성모독)에 더한다 — \"profanity\"가 이미 그 영어 별칭이다"
+    },
+    {
+      "headword": "Profits",
+      "text": "To dream of profits, brings success in your immediate future.",
+      "note": "새 상징 `gain`(이득). 각주 [175]는 「Gain 항목 참고」이지만 그 표제어는 아직 안 뽑혔다(원문이 순수 알파벳순이 아니다) — 지금은 새로 만들고, 나중에 Gain을 만나면 합친다"
+    },
+    {
+      "headword": "Promenade",
+      "text": "To dream of promenading, foretells that you will engage in energetic and profitable pursuits. To see others promenading, signifies that you will have rivals in your pursuits.",
+      "note": "새 상징 `promenade`(산책)"
+    },
+    {
+      "headword": "Property",
+      "text": "To dream that you own vast property, denotes that you will be successful in affairs, and gain friendships.",
+      "note": "기존 상징 `wealth`(재산)에 더한다 — \"property\"가 이미 그 영어 별칭이다. 각주 [176]은 「Wealth 항목 참고」다"
+    },
+    {
+      "headword": "Prostitute",
+      "text": "To dream that you are in the company of a prostitute, denotes that you will incur the righteous scorn of friends for some ill-mannered conduct. For a young woman to dream of a prostitute, foretells that she will deceive her lover as to her purity or candor. This dream to a married woman brings suspicion of her husband and consequent quarrels.",
+      "note": "기존 상징 `harlot`(몸 파는 이)에 더한다. 첫 문장은 기존 「몸 파는 이와 어울림」(밀러 Harlot)과 같은 그림이라 인용을 포갠다. 나머지 둘(처녀·기혼 여성)만 새 문맥. 각주 [177]은 「Harlot 항목 참고」다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

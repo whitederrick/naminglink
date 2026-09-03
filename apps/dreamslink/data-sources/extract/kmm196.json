@@ -1,0 +1,54 @@
+[
+  {
+    "id": "procession",
+    "aliases": [
+      "행렬이",
+      "행렬을"
+    ],
+    "aliases_en": [
+      "a procession"
+    ],
+    "contexts": {
+      "행렬 꿈을 꿈": "놀라 두려워",
+      "장례 행렬을 봄": "장례 그늘",
+      "횃불 행렬을 보거나 참여함": "횃불 흥청거림"
+    },
+    "contexts_en": {
+      "행렬 꿈을 꿈": "alarming fears expectations",
+      "장례 행렬을 봄": "funeral sorrow shadow",
+      "횃불 행렬을 보거나 참여함": "torch-light gaieties merit"
+    }
+  },
+  {
+    "id": "gain",
+    "aliases": [
+      "이득이",
+      "이득을"
+    ],
+    "aliases_en": [
+      "a gain",
+      "gains",
+      "profits"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "promenade",
+    "aliases": [
+      "산책했다",
+      "산책하는"
+    ],
+    "aliases_en": [
+      "promenading"
+    ],
+    "contexts": {
+      "산책함": "활기차고 보람",
+      "남이 산책하는 것을 봄": "남이 경쟁자"
+    },
+    "contexts_en": {
+      "산책함": "energetic profitable pursuits",
+      "남이 산책하는 것을 봄": "others rivals"
+    }
+  }
+]

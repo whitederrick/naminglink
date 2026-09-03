@@ -108,6 +108,7 @@
     "m193.json",
     "m194.json",
     "m195.json",
+    "m196.json",
     "m2.json",
     "m20.json",
     "m21.json",
@@ -38383,6 +38384,102 @@
       ]
     },
     {
+      "id": "blasphemy",
+      "term_ko": "신성모독",
+      "term_en": "blasphemy",
+      "aliases": [
+        "불경",
+        "모독",
+        "신을 욕",
+        "욕설했다",
+        "욕설하는",
+        "욕설을",
+        "욕설했다",
+        "욕설하는",
+        "욕설을",
+        "욕설하며"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "신성모독 꿈을 꿈",
+          "interpretation_ko": "우정을 가장한 적이 자신의 삶에 스며들어 큰 해를 끼칠 조짐",
+          "interpretation_en": "a sign of an enemy creeping into your life, who under assumed friendship will do you great harm",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Blasphemy",
+              "original": "Blasphemy, denotes an enemy creeping into your life, who under assumed friendship will do you great harm.",
+              "translation_ko": "신성모독 꿈은 우정을 가장한 적이 자신의 삶에 스며들어 큰 해를 끼칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "욕설하는 꿈을 꿈",
+          "interpretation_ko": "남에게 거칠고 무정해질 성향을 기를 조짐",
+          "interpretation_en": "denotes that you will cultivate those traits which render you coarse and unfeeling toward your fellow man",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Profanity",
+              "original": "To dream of profanity, denotes that you will cultivate those traits which render you coarse and unfeeling toward your fellow man.",
+              "translation_ko": "욕설하는 꿈은, 남에게 거칠고 무정해질 성향을 기를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 욕설하는 것을 봄",
+          "interpretation_ko": "어떻게든 해를 입고 모욕까지 당할 조짐",
+          "interpretation_en": "is a sign that you will be injured in some way, and probably insulted also",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Profanity",
+              "original": "To dream that others use profanity, is a sign that you will be injured in some way, and probably insulted also.",
+              "translation_ko": "남이 욕설하는 것을 보는 꿈은, 어떻게든 해를 입고 모욕까지 당할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자기 자신을 저주하는 꿈을 꿈",
+          "interpretation_ko": "나쁜 운수를 뜻하는 조짐",
+          "interpretation_en": "a sign of evil fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Blasphemy",
+              "original": "To dream you are cursing yourself, means evil fortune.",
+              "translation_ko": "자기 자신을 저주하는 꿈을 꾸면 나쁜 운수를 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 저주받는 꿈을 꿈",
+          "interpretation_ko": "애정과 번영을 통한 안도를 뜻하는 조짐",
+          "interpretation_en": "a sign signifying relief through affection and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Blasphemy",
+              "original": "To dream you are cursed by others, signifies relief through affection and prosperity.",
+              "translation_ko": "남에게 저주받는 꿈을 꾸면 애정과 번영을 통한 안도를 뜻하는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bracelet",
       "term_ko": "팔찌",
       "term_en": "bracelet",
@@ -52592,6 +52689,88 @@
       ]
     },
     {
+      "id": "harlot",
+      "term_ko": "몸 파는 이",
+      "term_en": "harlot",
+      "aliases": [
+        "몸 파는 이",
+        "창녀",
+        "기녀",
+        "몸을 파는"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "몸 파는 이와 어울림",
+          "interpretation_ko": "잘못 고른 즐거움과 사귐의 말썽이 있고 하는 일도 기울 흉한 조짐",
+          "interpretation_en": "denotes that you will incur the righteous scorn of friends for some ill-mannered conduct",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Prostitute",
+              "original": "To dream that you are in the company of a prostitute, denotes that you will incur the righteous scorn of friends for some ill-mannered conduct.",
+              "translation_ko": "몸 파는 이와 어울리는 꿈은, 예의 없는 행실로 벗들의 정당한 손가락질을 받을 조짐이다"
+            },
+            {
+              "work": "miller",
+              "locator": "Harlot",
+              "original": "To dream of being in the company of a harlot, denotes ill-chosen pleasures and trouble in your social circles, and business will suffer depression.",
+              "translation_ko": "몸 파는 이와 어울리는 꿈은, 잘못 고른 즐거움과 사귐의 말썽, 기우는 일을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 몸 파는 이 꿈을 꿈",
+          "interpretation_ko": "제 순결이나 진심에 대해 애인을 속이게 될 조짐",
+          "interpretation_en": "foretells that she will deceive her lover as to her purity or candor",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Prostitute",
+              "original": "For a young woman to dream of a prostitute, foretells that she will deceive her lover as to her purity or candor.",
+              "translation_ko": "처녀가 몸 파는 이 꿈을 꾸면, 제 순결이나 진심에 대해 애인을 속이게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "기혼 여성이 몸 파는 이 꿈을 꿈",
+          "interpretation_ko": "남편을 의심하여 다툼이 뒤따를 조짐",
+          "interpretation_en": "brings suspicion of her husband and consequent quarrels",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Prostitute",
+              "original": "This dream to a married woman brings suspicion of her husband and consequent quarrels.",
+              "translation_ko": "기혼 여성이 이 꿈을 꾸면, 남편을 의심하여 다툼이 뒤따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "몸 파는 이와 짝을 맺음",
+          "interpretation_ko": "원수 때문에 목숨이 위태로울 흉한 조짐",
+          "interpretation_en": "life will be threatened by an enemy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Harlot",
+              "original": "If you marry one, life will be threatened by an enemy.",
+              "translation_ko": "그런 이와 짝을 맺으면, 원수 때문에 목숨이 위태로워진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "heart",
       "term_ko": "심장",
       "term_en": "heart",
@@ -59679,67 +59858,6 @@
               "locator": "Blackberries",
               "original": "Eating them denotes losses.",
               "translation_ko": "블랙베리를 먹으면 손해를 뜻하는 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "blasphemy",
-      "term_ko": "신성모독",
-      "term_en": "blasphemy",
-      "aliases": [
-        "불경",
-        "모독",
-        "신을 욕"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "신성모독 꿈을 꿈",
-          "interpretation_ko": "우정을 가장한 적이 자신의 삶에 스며들어 큰 해를 끼칠 조짐",
-          "interpretation_en": "a sign of an enemy creeping into your life, who under assumed friendship will do you great harm",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Blasphemy",
-              "original": "Blasphemy, denotes an enemy creeping into your life, who under assumed friendship will do you great harm.",
-              "translation_ko": "신성모독 꿈은 우정을 가장한 적이 자신의 삶에 스며들어 큰 해를 끼칠 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "자기 자신을 저주하는 꿈을 꿈",
-          "interpretation_ko": "나쁜 운수를 뜻하는 조짐",
-          "interpretation_en": "a sign of evil fortune",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Blasphemy",
-              "original": "To dream you are cursing yourself, means evil fortune.",
-              "translation_ko": "자기 자신을 저주하는 꿈을 꾸면 나쁜 운수를 뜻하는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "남에게 저주받는 꿈을 꿈",
-          "interpretation_ko": "애정과 번영을 통한 안도를 뜻하는 조짐",
-          "interpretation_en": "a sign signifying relief through affection and prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Blasphemy",
-              "original": "To dream you are cursed by others, signifies relief through affection and prosperity.",
-              "translation_ko": "남에게 저주받는 꿈을 꾸면 애정과 번영을 통한 안도를 뜻하는 조짐이다"
             }
           ]
         }
@@ -72579,6 +72697,66 @@
       ]
     },
     {
+      "id": "procession",
+      "term_ko": "행렬",
+      "term_en": "procession",
+      "aliases": [
+        "행렬이",
+        "행렬을"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "행렬 꿈을 꿈",
+          "interpretation_ko": "바라던 일이 이루어질지 놀라 두려워하게 될 조짐",
+          "interpretation_en": "denotes that alarming fears will possess you relative to the fulfilment of expectations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Procession",
+              "original": "To dream of a procession, denotes that alarming fears will possess you relative to the fulfilment of expectations.",
+              "translation_ko": "행렬 꿈은, 바라던 일이 이루어질지 놀라 두려워하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "장례 행렬을 봄",
+          "interpretation_ko": "슬픔이 빠르게 다가와 즐거움에 그늘을 드리울 조짐",
+          "interpretation_en": "sorrow is fast approaching, and will throw a shadow around pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Procession",
+              "original": "If it be a funeral procession, sorrow is fast approaching, and will throw a shadow around pleasures.",
+              "translation_ko": "장례 행렬이면, 슬픔이 빠르게 다가와 즐거움에 그늘을 드리울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "횃불 행렬을 보거나 참여함",
+          "interpretation_ko": "참된 값어치를 깎아 먹는 흥청거림에 빠질 조짐",
+          "interpretation_en": "denotes that you will engage in gaieties which will detract from your real merit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Procession",
+              "original": "To see or participate in a torch-light procession, denotes that you will engage in gaieties which will detract from your real merit.",
+              "translation_ko": "횃불 행렬을 보거나 참여하는 꿈은, 참된 값어치를 깎아 먹는 흥청거림에 빠질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "queen",
       "term_ko": "왕비",
       "term_en": "queen",
@@ -73322,6 +73500,68 @@
               "locator": "宮室屋宇倉庫",
               "original": "牆上掘土主更政",
               "translation_ko": "담 위에서 흙을 파면 정사가 바뀐다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wealth",
+      "term_ko": "재물",
+      "term_en": "wealth",
+      "aliases": [
+        "재산",
+        "재화",
+        "패물"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "처녀가 참된 재물과 안락을 누림",
+          "interpretation_ko": "참된 재물의 꿈은 깨어나서 실제의 즐거움을 찾을 길조 — 요정 같은 호사의 꿈은 깨어나서 낙담만 남을 경고다",
+          "interpretation_en": "when young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Opulence",
+              "original": "When young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments; as the dreams are warnings, superinduced by their practicality being supplanted by their excitable imagination and lazy desires, which should be overcome with energy, and the replacing of practicality on her base.",
+              "translation_ko": "처녀가 참되고 실속 있는 재물과 안락을 누리는 꿈을 꾸면 늘 깨어나서 실제의 즐거움을 찾게 되지만, 이상하거나 요정 같은 사치와 기쁨의 꿈에 둘러싸이면 깨어난 뒤 낙담만 가득할 것이다. 이런 꿈은 실속이 들뜬 상상과 게으른 욕심에 밀려난 데서 오는 경고이니, 기운을 내어 실속을 되찾아야 한다"
+            }
+          ]
+        },
+        {
+          "context": "너른 재산을 가짐",
+          "interpretation_ko": "일에서 성공하고 벗을 얻을 조짐",
+          "interpretation_en": "denotes that you will be successful in affairs, and gain friendships",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Property",
+              "original": "To dream that you own vast property, denotes that you will be successful in affairs, and gain friendships.",
+              "translation_ko": "너른 재산을 가진 꿈은, 일에서 성공하고 벗을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "집안에서 재물을 나눔",
+          "interpretation_ko": "헤어지고 무너질 조짐",
+          "interpretation_en": "a sign of separation and ruin",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "家中分財主離敗",
+              "translation_ko": "집안에서 재물을 나누면 헤어지고 무너진다"
             }
           ]
         }
@@ -88479,54 +88719,6 @@
       ]
     },
     {
-      "id": "harlot",
-      "term_ko": "몸 파는 이",
-      "term_en": "harlot",
-      "aliases": [
-        "몸 파는 이",
-        "창녀",
-        "기녀",
-        "몸을 파는"
-      ],
-      "category": "person",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "몸 파는 이와 어울림",
-          "interpretation_ko": "잘못 고른 즐거움과 사귐의 말썽이 있고 하는 일도 기울 흉한 조짐",
-          "interpretation_en": "denotes ill-chosen pleasures and trouble in your social circles, and business will suffer depression",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Harlot",
-              "original": "To dream of being in the company of a harlot, denotes ill-chosen pleasures and trouble in your social circles, and business will suffer depression.",
-              "translation_ko": "몸 파는 이와 어울리는 꿈은, 잘못 고른 즐거움과 사귐의 말썽, 기우는 일을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "몸 파는 이와 짝을 맺음",
-          "interpretation_ko": "원수 때문에 목숨이 위태로울 흉한 조짐",
-          "interpretation_en": "life will be threatened by an enemy",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Harlot",
-              "original": "If you marry one, life will be threatened by an enemy.",
-              "translation_ko": "그런 이와 짝을 맺으면, 원수 때문에 목숨이 위태로워진다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "hash",
       "term_ko": "다진 고기 요리",
       "term_en": "hash",
@@ -96475,6 +96667,52 @@
       ]
     },
     {
+      "id": "promenade",
+      "term_ko": "산책",
+      "term_en": "promenade",
+      "aliases": [
+        "산책했다",
+        "산책하는"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "산책함",
+          "interpretation_ko": "활기차고 보람 있는 일에 나설 조짐",
+          "interpretation_en": "foretells that you will engage in energetic and profitable pursuits",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Promenade",
+              "original": "To dream of promenading, foretells that you will engage in energetic and profitable pursuits.",
+              "translation_ko": "산책하는 꿈은, 활기차고 보람 있는 일에 나설 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 산책하는 것을 봄",
+          "interpretation_ko": "하는 일에 경쟁자가 있을 조짐",
+          "interpretation_en": "signifies that you will have rivals in your pursuits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Promenade",
+              "original": "To see others promenading, signifies that you will have rivals in your pursuits.",
+              "translation_ko": "남이 산책하는 것을 보는 꿈은, 하는 일에 경쟁자가 있을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "quarrel",
       "term_ko": "말다툼",
       "term_en": "quarrel",
@@ -97313,54 +97551,6 @@
               "locator": "垢污沐浴凌辱",
               "original": "失大小便主失財",
               "translation_ko": "대소변을 잃으면 재물을 잃는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wealth",
-      "term_ko": "재물",
-      "term_en": "wealth",
-      "aliases": [
-        "재산",
-        "재화",
-        "패물"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "처녀가 참된 재물과 안락을 누림",
-          "interpretation_ko": "참된 재물의 꿈은 깨어나서 실제의 즐거움을 찾을 길조 — 요정 같은 호사의 꿈은 깨어나서 낙담만 남을 경고다",
-          "interpretation_en": "when young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Opulence",
-              "original": "When young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments; as the dreams are warnings, superinduced by their practicality being supplanted by their excitable imagination and lazy desires, which should be overcome with energy, and the replacing of practicality on her base.",
-              "translation_ko": "처녀가 참되고 실속 있는 재물과 안락을 누리는 꿈을 꾸면 늘 깨어나서 실제의 즐거움을 찾게 되지만, 이상하거나 요정 같은 사치와 기쁨의 꿈에 둘러싸이면 깨어난 뒤 낙담만 가득할 것이다. 이런 꿈은 실속이 들뜬 상상과 게으른 욕심에 밀려난 데서 오는 경고이니, 기운을 내어 실속을 되찾아야 한다"
-            }
-          ]
-        },
-        {
-          "context": "집안에서 재물을 나눔",
-          "interpretation_ko": "헤어지고 무너질 조짐",
-          "interpretation_en": "a sign of separation and ruin",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "家中分財主離敗",
-              "translation_ko": "집안에서 재물을 나누면 헤어지고 무너진다"
             }
           ]
         }
@@ -104106,6 +104296,38 @@
               "locator": "Future",
               "original": "To dream of the future, is a prognostic of careful reckoning and avoiding of detrimental extravagance.",
               "translation_ko": "앞날을 꿈꾸는 것은, 꼼꼼한 셈과 해로운 헤픔을 피함을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gain",
+      "term_ko": "이득",
+      "term_en": "gain",
+      "aliases": [
+        "이득이",
+        "이득을"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "이득을 봄",
+          "interpretation_ko": "머잖아 성공할 조짐",
+          "interpretation_en": "brings success in your immediate future",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Profits",
+              "original": "To dream of profits, brings success in your immediate future.",
+              "translation_ko": "이득을 보는 꿈은, 머잖아 성공할 조짐이다"
             }
           ]
         }
