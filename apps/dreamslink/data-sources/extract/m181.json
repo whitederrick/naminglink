@@ -1,0 +1,92 @@
+[
+  {
+    "term_ko": "권총",
+    "term_en": "gun",
+    "context": "권총 꿈을 봄",
+    "interpretation_ko": "대체로 나쁜 운을 뜻함",
+    "interpretation_en": "denotes bad fortune, generally",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pistol",
+      "original": "Seeing a pistol in your dream, denotes bad fortune, generally.",
+      "translation_ko": "권총을 보는 꿈은, 대체로 나쁜 운을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "권총",
+    "term_en": "gun",
+    "context": "권총을 소유함",
+    "interpretation_ko": "천박하고 음흉한 성정을 기르게 될 조짐",
+    "interpretation_en": "you will cultivate a low, designing character",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pistol",
+      "original": "If you own one, you will cultivate a low, designing character.",
+      "translation_ko": "권총을 소유한 꿈은, 천박하고 음흉한 성정을 기르게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "구덩이",
+    "term_en": "pit",
+    "context": "깊은 구덩이를 들여다봄",
+    "interpretation_ko": "사업에서 섣부른 위험을 무릅쓰고 구애를 놓고도 불안해질 조짐",
+    "interpretation_en": "you will run silly risks in business ventures and will draw uneasiness about your wooing",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Pit",
+      "original": "If you are looking into a deep pit in your dream, you will run silly risks in business ventures and will draw uneasiness about your wooing.",
+      "translation_ko": "깊은 구덩이를 들여다보는 꿈은, 사업에서 섣부른 위험을 무릅쓰고 구애를 놓고도 불안해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "구덩이",
+    "term_en": "pit",
+    "context": "구덩이에 빠짐",
+    "interpretation_ko": "재앙과 깊은 슬픔을 뜻함",
+    "interpretation_en": "denotes calamity and deep sorrow",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pit",
+      "original": "To fall into a pit denotes calamity and deep sorrow.",
+      "translation_ko": "구덩이에 빠지는 꿈은, 재앙과 깊은 슬픔을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "구덩이",
+    "term_en": "pit",
+    "context": "구덩이에 빠지려다 잠에서 깸",
+    "interpretation_ko": "곤경에서 그런대로 잘 벗어날 조짐",
+    "interpretation_en": "brings you out of distress in fairly good shape",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pit",
+      "original": "To wake as you begin to feel yourself falling into the pit, brings you out of distress in fairly good shape.",
+      "translation_ko": "구덩이에 빠지려는 것을 느끼다 잠에서 깨는 꿈은, 곤경에서 그런대로 잘 벗어날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "구덩이",
+    "term_en": "pit",
+    "context": "구덩이 속으로 내려감",
+    "interpretation_ko": "더 큰 성공을 위해 건강과 재산을 걸고서라도 위험을 무릅쓸 조짐",
+    "interpretation_en": "you will knowingly risk health and fortune for greater success",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pit",
+      "original": "To dream that you are descending into one, signifies that you will knowingly risk health and fortune for greater success.",
+      "translation_ko": "구덩이 속으로 내려가는 꿈은, 더 큰 성공을 위해 건강과 재산을 걸고서라도 위험을 무릅쓸 조짐이다"
+    }
+  }
+]

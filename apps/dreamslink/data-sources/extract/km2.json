@@ -1086,16 +1086,33 @@
     "id": "pit",
     "aliases": [
       "웅덩이",
-      "도랑"
+      "도랑",
+      "구덩이가",
+      "구덩이를",
+      "구덩이에"
     ],
     "aliases_en": [
       "hole",
       "ditch",
       "hollow",
-      "trench"
+      "trench",
+      "a pit",
+      "pits"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "문 앞에 구덩이와 도랑이 있음": "문앞 도랑",
+      "깊은 구덩이를 들여다봄": "들여다보 들여다본",
+      "구덩이에 빠짐": "빠졌 떨어졌",
+      "구덩이에 빠지려다 잠에서 깸": "깨어났 잠에서",
+      "구덩이 속으로 내려감": "내려갔 내려가는"
+    },
+    "contexts_en": {
+      "문 앞에 구덩이와 도랑이 있음": "front door",
+      "깊은 구덩이를 들여다봄": "looking deep",
+      "구덩이에 빠짐": "fall fell",
+      "구덩이에 빠지려다 잠에서 깸": "wake woke",
+      "구덩이 속으로 내려감": "descending descend"
+    }
   },
   {
     "id": "roof-beam",

@@ -1,0 +1,29 @@
+{
+  "batch": 181,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pistol",
+      "text": "Seeing a pistol in your dream, denotes bad fortune, generally. If you own one, you will cultivate a low, designing character.",
+      "note": "기존 상징 `gun`(총, 밀러 `Gun`)에 둘을 더한다"
+    },
+    {
+      "headword": "Pit",
+      "text": "If you are looking into a deep pit in your dream, you will run silly risks in business ventures and will draw uneasiness about your wooing. To fall into a pit denotes calamity and deep sorrow. To wake as you begin to feel yourself falling into the pit, brings you out of distress in fairly good shape. To dream that you are descending into one, signifies that you will knowingly risk health and fortune for greater success.",
+      "note": "기존 상징 `pit`(구덩이, 주공해몽)에 넷을 더한다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "headword": "Pistol",
+      "sentence": "If you hear the report of one, you will be made aware of some scheme to ruin your interests.",
+      "reason": "기존 gun의 「총소리를 들음」(밀러 Gun, 흉 — 일자리를 잃고 일을 그르침)과 같은 그림(총소리를 들음)이고 같은 극성이라 가를 수 없다"
+    },
+    {
+      "headword": "Pistol",
+      "sentence": "To dream of shooting off your pistol, signifies that you will bear some innocent person envy, and you will go far to revenge the imagined wrong.",
+      "reason": "기존 gun의 「총으로 남을 쏨」(밀러 Gun, 흉 — 낯이 깎임)과 같은 그림(총을 쏨)이고 같은 극성이라 가를 수 없다"
+    }
+  ]
+}

@@ -463,7 +463,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "hole",
     "ditch",
     "hollow",
-    "trench"
+    "trench",
+    "a pit",
+    "pits"
   ],
   "roof-beam": [
     "beam",

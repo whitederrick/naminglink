@@ -155,15 +155,19 @@
     ],
     "contexts": {
       "총소리를 들음": "소리를 들었 울렸",
-      "총으로 남을 쏨": "남을 사람을 쐈다",
+      "총으로 남을 쏨": "남을 사람을",
       "총에 맞음": "맞았 맞아 총상",
-      "여성이 총을 쏨": "여자가 여성이"
+      "여성이 총을 쏨": "여자가 여성이",
+      "권총 꿈을 봄": "언뜻",
+      "권총을 소유함": "소유했 가졌 지녔"
     },
     "contexts_en": {
       "총소리를 들음": "hearing sound loss employment proprietors",
       "총으로 남을 쏨": "shoot person fall dishonor",
       "총에 맞음": "shot annoyed evil acute",
-      "여성이 총을 쏨": "woman quarreling disagreeable reputation"
+      "여성이 총을 쏨": "woman quarreling disagreeable reputation",
+      "권총 꿈을 봄": "glimpse",
+      "권총을 소유함": "own owned possess"
     }
   },
   {
