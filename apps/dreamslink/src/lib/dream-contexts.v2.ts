@@ -3879,5 +3879,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ladle::국자를 봄": "fortunate selection companion children",
   "ladle::국자가 깨졌거나 더러움": "broken uncleanly grievous",
   "lament::벗이나 재물을 잃고 애통해함": "friends property struggles distress gain",
-  "lament::살붙이를 잃고 애통해함": "relatives sickness harmony companions brighter"
+  "lament::살붙이를 잃고 애통해함": "relatives sickness harmony companions brighter",
+  "lake::맑고 잔잔한 호수에서 즐거운 벗들과 배를 띄움": "sailing smooth congenial demands",
+  "lake::처녀가 거친 흙탕 호수에 홀로 있음": "alone turbulent vicissitudes extravagances",
+  "lake::배에 물이 들어오나 애써 뭍에 닿음": "boat struggling persuasion distinction",
+  "lake::같은 처지의 젊은 남녀가 스스로 헤어나는 것을 봄": "couple rescuing indiscretions reinstating",
+  "lake::메마른 바위와 헐벗은 나무에 둘러싸인 흙탕 호수를 봄": "bleak rocks bare unhappy terminations",
+  "lake::푸른 나무에 둘러싸인 흙탕 호수를 봄": "green moral fortify remunerative",
+  "lake::맑으나 메마른 땅에 둘러싸인 호수를 봄": "barrenness profitable marred dissipation",
+  "lake::맑은 호수에 제 모습이 비침": "yourself joys ardent",
+  "lake::잎이 우거진 나무가 호수에 비침": "foliaged satiety draught",
+  "lake::호수에 사는 흉한 것들이 솟아올라 위협함": "slimy uncanny inhabitants menace squandering"
 };

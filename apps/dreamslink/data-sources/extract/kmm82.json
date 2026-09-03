@@ -1,0 +1,36 @@
+[
+  {
+    "id": "lake",
+    "aliases": [
+      "호숫가"
+    ],
+    "aliases_en": [
+      "a lake",
+      "lakes"
+    ],
+    "contexts": {
+      "맑고 잔잔한 호수에서 즐거운 벗들과 배를 띄움": "잔잔 벗들 즐거운",
+      "처녀가 거친 흙탕 호수에 홀로 있음": "혼자 홀로 거칠",
+      "배에 물이 들어오나 애써 뭍에 닿음": "들어왔 가라앉 나루",
+      "같은 처지의 젊은 남녀가 스스로 헤어나는 것을 봄": "남녀 젊은",
+      "메마른 바위와 헐벗은 나무에 둘러싸인 흙탕 호수를 봄": "바위 헐벗",
+      "푸른 나무에 둘러싸인 흙탕 호수를 봄": "푸른",
+      "맑으나 메마른 땅에 둘러싸인 호수를 봄": "메마른 땅에",
+      "맑은 호수에 제 모습이 비침": "모습이",
+      "잎이 우거진 나무가 호수에 비침": "우거진 나뭇잎",
+      "호수에 사는 흉한 것들이 솟아올라 위협함": "솟아올 끈적 섬뜩"
+    },
+    "contexts_en": {
+      "맑고 잔잔한 호수에서 즐거운 벗들과 배를 띄움": "sailing smooth congenial demands",
+      "처녀가 거친 흙탕 호수에 홀로 있음": "alone turbulent vicissitudes extravagances",
+      "배에 물이 들어오나 애써 뭍에 닿음": "boat struggling persuasion distinction",
+      "같은 처지의 젊은 남녀가 스스로 헤어나는 것을 봄": "couple rescuing indiscretions reinstating",
+      "메마른 바위와 헐벗은 나무에 둘러싸인 흙탕 호수를 봄": "bleak rocks bare unhappy terminations",
+      "푸른 나무에 둘러싸인 흙탕 호수를 봄": "green moral fortify remunerative",
+      "맑으나 메마른 땅에 둘러싸인 호수를 봄": "barrenness profitable marred dissipation",
+      "맑은 호수에 제 모습이 비침": "yourself joys ardent",
+      "잎이 우거진 나무가 호수에 비침": "foliaged satiety draught",
+      "호수에 사는 흉한 것들이 솟아올라 위협함": "slimy uncanny inhabitants menace squandering"
+    }
+  }
+]

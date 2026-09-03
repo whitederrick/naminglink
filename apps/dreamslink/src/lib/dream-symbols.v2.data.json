@@ -84,6 +84,7 @@
     "m8.json",
     "m80.json",
     "m81.json",
+    "m82.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -13820,6 +13821,163 @@
               "locator": "被害鬥傷打罵",
               "original": "斷頭而行主大喜",
               "translation_ko": "머리가 잘린 채로 걸어가면 큰 기쁨이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lake",
+      "term_ko": "호수",
+      "term_en": "lake",
+      "aliases": [
+        "호숫가"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "맑고 잔잔한 호수에서 즐거운 벗들과 배를 띄움",
+          "interpretation_ko": "큰 기쁨이 있고 바라는 만큼 재물이 따라올 길한 조짐",
+          "interpretation_en": "you will have much happiness, and wealth will meet your demands",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lake",
+              "original": "To dream of sailing on a clear and smooth lake, with happy and congenial companions, you will have much happiness, and wealth will meet your demands.",
+              "translation_ko": "맑고 잔잔한 호수에서 즐겁고 마음 맞는 벗들과 배를 띄우는 꿈을 꾸면, 큰 기쁨이 있고 바라는 만큼 재물이 따라온다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 거친 흙탕 호수에 홀로 있음",
+          "interpretation_ko": "굽이치는 일이 여럿 닥치고 지난날의 헤픔과 바른 가르침을 저버린 것을 뉘우칠 흉한 조짐",
+          "interpretation_en": "foretells many vicissitudes are approaching her, and she will regret former extravagances, and disregard of virtuous teaching",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lake",
+              "original": "For a young woman to dream that she is alone on a turbulent and muddy lake, foretells many vicissitudes are approaching her, and she will regret former extravagances, and disregard of virtuous teaching.",
+              "translation_ko": "젊은 여성이 거칠고 흙탕인 호수에 홀로 있는 꿈을 꾸면, 굽이치는 일이 여럿 닥치고 지난날의 헤픔과 바른 가르침을 저버린 것을 뉘우친다"
+            }
+          ]
+        },
+        {
+          "context": "배에 물이 들어오나 애써 뭍에 닿음",
+          "interpretation_ko": "그릇된 꾐에 넘어가나 끝내 이겨 내고 이름과 자리가 오를 조짐",
+          "interpretation_en": "it denotes she will be under wrong persuasion, but will eventually overcome it, and rise to honor and distinction",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lake",
+              "original": "If the water gets into the boat, but by intense struggling she reaches the boat-house safely, it denotes she will be under wrong persuasion, but will eventually overcome it, and rise to honor and distinction.",
+              "translation_ko": "배에 물이 들어오나 힘껏 애써 무사히 나루에 닿으면, 그릇된 꾐에 넘어가나 끝내 이겨 내고 이름과 자리가 오른다"
+            }
+          ]
+        },
+        {
+          "context": "같은 처지의 젊은 남녀가 스스로 헤어나는 것을 봄",
+          "interpretation_ko": "벗이 삼가지 못한 일을 저지르나 다시 제 마음에 들게 될 조짐",
+          "interpretation_en": "she will find that some friend has committed indiscretions, but will succeed in reinstating himself in her favor",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lake",
+              "original": "If she sees a young couple in the same position as herself, who succeed in rescuing themselves, she will find that some friend has committed indiscretions, but will succeed in reinstating himself in her favor.",
+              "translation_ko": "저와 같은 처지의 젊은 남녀가 스스로 헤어나는 것을 보면, 벗이 삼가지 못한 일을 저지르나 다시 제 마음에 들게 된다"
+            }
+          ]
+        },
+        {
+          "context": "메마른 바위와 헐벗은 나무에 둘러싸인 흙탕 호수를 봄",
+          "interpretation_ko": "일과 사랑이 언짢게 끝날 흉한 조짐",
+          "interpretation_en": "denotes unhappy terminations to business and affection",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lake",
+              "original": "A muddy lake, surrounded with bleak rocks and bare trees, denotes unhappy terminations to business and affection.",
+              "translation_ko": "메마른 바위와 헐벗은 나무에 둘러싸인 흙탕 호수는 일과 사랑이 언짢게 끝남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "푸른 나무에 둘러싸인 흙탕 호수를 봄",
+          "interpretation_ko": "타고난 바름이 들끓는 욕심을 이겨 내고 기운을 안전하고 이로운 데로 돌릴 길한 조짐",
+          "interpretation_en": "portends that the moral in your nature will fortify itself against passionate desires, and overcoming the same will direct your energy into a safe and remunerative channel",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lake",
+              "original": "A muddy lake, surrounded by green trees, portends that the moral in your nature will fortify itself against passionate desires, and overcoming the same will direct your energy into a safe and remunerative channel.",
+              "translation_ko": "푸른 나무에 둘러싸인 흙탕 호수는, 타고난 바름이 들끓는 욕심을 이겨 내고 기운을 안전하고 이로운 데로 돌림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "맑으나 메마른 땅에 둘러싸인 호수를 봄",
+          "interpretation_ko": "이로울 삶이 바르지 못한 들뜸으로 망가질 흉한 조짐",
+          "interpretation_en": "a profitable existence will be marred by immoral and passionate dissipation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lake",
+              "original": "If the lake be clear and surrounded by barrenness, a profitable existence will be marred by immoral and passionate dissipation.",
+              "translation_ko": "호수가 맑으나 메마른 땅에 둘러싸여 있으면, 이로울 삶이 바르지 못한 들뜸으로 망가진다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 호수에 제 모습이 비침",
+          "interpretation_ko": "다가올 기쁨과 마음을 다하는 벗이 여럿 있을 길한 조짐",
+          "interpretation_en": "denotes coming joys and many ardent friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lake",
+              "original": "To see yourself reflected in a clear lake, denotes coming joys and many ardent friends.",
+              "translation_ko": "맑은 호수에 제 모습이 비치면 다가올 기쁨과 마음을 다하는 벗이 여럿 있다"
+            }
+          ]
+        },
+        {
+          "context": "잎이 우거진 나무가 호수에 비침",
+          "interpretation_ko": "사랑이 주는 뜨거움과 기쁨을 실컷 누릴 길한 조짐",
+          "interpretation_en": "you will enjoy to a satiety Love's draught of passion and happiness",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lake",
+              "original": "To see foliaged trees reflected in the lake, you will enjoy to a satiety Love's draught of passion and happiness.",
+              "translation_ko": "잎이 우거진 나무가 호수에 비치면 사랑이 주는 뜨거움과 기쁨을 실컷 누린다"
+            }
+          ]
+        },
+        {
+          "context": "호수에 사는 흉한 것들이 솟아올라 위협함",
+          "interpretation_ko": "그릇된 즐거움에 때와 기운과 몸을 헤프게 써서 일이 어그러지고 몸이 상할 흉한 조짐",
+          "interpretation_en": "denotes failure and ill health from squandering time, energy and health on illicit pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lake",
+              "original": "To see slimy and uncanny inhabitants of the lake rise up and menace you, denotes failure and ill health from squandering time, energy and health on illicit pleasures.",
+              "translation_ko": "호수에 사는 끈적하고 섬뜩한 것들이 솟아올라 위협하면, 그릇된 즐거움에 때와 기운과 몸을 헤프게 써서 일이 어그러지고 몸이 상한다"
             }
           ]
         }
