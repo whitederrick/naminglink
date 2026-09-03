@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 100 — Lightning, 12건)
+// (지금 담긴 것: 배치 101 — Lightning-rod~Limes, 17건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,19 +30,24 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
+  { id: "lightning-rod", ctx: "피뢰침을 봄", text: "지붕에 피뢰침이 달려 있었다" },
+  { id: "lightning-rod", ctx: "피뢰침이 뱀으로 바뀜", text: "피뢰침이 뱀으로 바뀌었다" },
+  { id: "lightning-rod", ctx: "번개가 피뢰침을 때림", text: "번개가 피뢰침을 때렸다" },
+  { id: "lightning-rod", ctx: "피뢰침을 세움", text: "피뢰침을 세웠다" },
+  { id: "lightning-rod", ctx: "피뢰침을 떼어 냄", text: "피뢰침을 떼어 냈다" },
+  { id: "lightning-rod", ctx: "피뢰침이 여럿 있는 것을 봄", text: "피뢰침이 여러 개 서 있었다" },
+  { id: "lily", ctx: "백합을 봄", text: "백합 한 송이를 보았다" },
+  { id: "lily", ctx: "백합이 잎 무성하게 자란 것을 봄", text: "백합이 잎이 무성하게 자라 있었다" },
+  { id: "lily", ctx: "백합꽃 사이에 어린아이들이 있는 것을 봄", text: "백합꽃 사이에 어린아이들이 있었다" },
+  { id: "lily", ctx: "처녀가 백합을 바라보거나 꺾음", text: "처녀가 백합을 꺾었다" },
+  { id: "lily", ctx: "시든 백합을 봄", text: "시든 백합을 보았다" },
+  { id: "lily", ctx: "백합 향기를 맡음", text: "백합 향기를 맡았다" },
+  { id: "lime", ctx: "석회를 봄", text: "석회 덩어리가 있었다" },
+  { id: "lime-kiln", ctx: "석회 가마를 봄", text: "석회가마를 보았다" },
+  { id: "limes", ctx: "라임을 먹음", text: "라임을 먹었다" },
+  // 지킴 — 새 이름이 스치는 옛 상징의 답이 그대로인가(§25 곁가지)
   { id: "lightning", ctx: "번개를 봄", text: "번개를 보았다" },
-  { id: "lightning", ctx: "번개가 곁의 물건에 떨어짐", text: "번개가 곁의 물건에 떨어졌다" },
-  { id: "lightning", ctx: "검은 구름을 가르는 시퍼런 번개를 봄", text: "시퍼런 번개가 검은 구름을 가르며 쳤다" },
-  { id: "lightning", ctx: "번개가 제게 떨어짐", text: "번개가 나를 때렸다" },
-  { id: "lightning", ctx: "머리 위에서 번개가 침", text: "머리 위에서 번개가 쳤다" },
-  { id: "lightning", ctx: "남쪽에서 번개가 침", text: "남쪽에서 번개가 쳤다" },
-  { id: "lightning", ctx: "남서쪽에서 번개가 침", text: "남서쪽에서 번개가 쳤다" },
-  { id: "lightning", ctx: "서쪽에서 번개가 침", text: "서쪽에서 번개가 쳤다" },
-  { id: "lightning", ctx: "북쪽에서 번개가 침", text: "북쪽에서 번개가 쳤다" },
-  { id: "lightning", ctx: "동쪽에서 번개가 침", text: "동쪽에서 번개가 쳤다" },
-  { id: "lightning", ctx: "어둡고 불길한 구름에서 번개가 침", text: "어두운 먹구름에서 번개가 쳤다" },
-  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "lightning", ctx: "번갯빛이 몸을 비춤", text: "번갯빛이 몸을 비추었다" },
+  { id: "flower", ctx: "마른 나무에 꽃이 핌", text: "꽃이 피어 있었다" },
 ];
 
 let notFound = 0;

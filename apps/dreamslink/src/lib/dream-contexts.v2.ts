@@ -4105,5 +4105,20 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "life-boat::구명보트에서 길을 잃음": "lost overcome trouble included",
   "life-boat::구명보트에서 구조됨": "saved calamity",
   "life-insurance-man::보험 외판원을 봄": "stranger contribute mutual",
-  "life-insurance-man::보험 외판원이 일그러져 보임": "distorted unnatural unfortunate"
+  "life-insurance-man::보험 외판원이 일그러져 보임": "distorted unnatural unfortunate",
+  "lightning-rod::피뢰침을 봄": "threatened destruction cherished",
+  "lightning-rod::피뢰침이 뱀으로 바뀜": "serpent schemes against",
+  "lightning-rod::번개가 피뢰침을 때림": "strikes accident sudden",
+  "lightning-rod::피뢰침을 세움": "having beware enterprise overtaken",
+  "lightning-rod::피뢰침을 떼어 냄": "plans further interests",
+  "lightning-rod::피뢰침이 여럿 있는 것을 봄": "many variety misfortunes",
+  "lily::백합을 봄": "chastisement",
+  "lily::백합이 잎 무성하게 자란 것을 봄": "growing foliage marriage separation",
+  "lily::백합꽃 사이에 어린아이들이 있는 것을 봄": "little children fragile constitutions",
+  "lily::처녀가 백합을 바라보거나 꺾음": "admiring gathering sadness coupled dissolution",
+  "lily::시든 백합을 봄": "withered nearer suspected",
+  "lily::백합 향기를 맡음": "breathe fragrance purify enhance mental",
+  "lime::석회를 봄": "disaster prostrate revive richer",
+  "lime-kiln::석회 가마를 봄": "immediate favor speculations",
+  "limes::라임을 먹음": "eating continued adverse straits"
 };

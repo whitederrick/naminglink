@@ -1,0 +1,108 @@
+[
+  {
+    "id": "lightning-rod",
+    "aliases": [
+      "피뢰침이",
+      "피뢰침을",
+      "벼락 막이"
+    ],
+    "aliases_en": [
+      "lightning rod",
+      "lightning rods"
+    ],
+    "contexts": {
+      "피뢰침을 봄": "달린 솟아",
+      "피뢰침이 뱀으로 바뀜": "뱀으로 뱀이",
+      "번개가 피뢰침을 때림": "번개가 벼락이",
+      "피뢰침을 세움": "세웠 세우 설치 달았",
+      "피뢰침을 떼어 냄": "떼어 뜯어 내렸",
+      "피뢰침이 여럿 있는 것을 봄": "여러 많은"
+    },
+    "contexts_en": {
+      "피뢰침을 봄": "threatened destruction cherished",
+      "피뢰침이 뱀으로 바뀜": "serpent schemes against",
+      "번개가 피뢰침을 때림": "strikes accident sudden",
+      "피뢰침을 세움": "having beware enterprise overtaken",
+      "피뢰침을 떼어 냄": "plans further interests",
+      "피뢰침이 여럿 있는 것을 봄": "many variety misfortunes"
+    }
+  },
+  {
+    "id": "lily",
+    "aliases": [
+      "백합꽃",
+      "나리꽃",
+      "백합이",
+      "백합을"
+    ],
+    "aliases_en": [
+      "lilies"
+    ],
+    "contexts": {
+      "백합을 봄": "송이",
+      "백합이 잎 무성하게 자란 것을 봄": "무성 자란 우거",
+      "백합꽃 사이에 어린아이들이 있는 것을 봄": "아이들 어린아이",
+      "처녀가 백합을 바라보거나 꺾음": "처녀 아가씨 꺾었",
+      "시든 백합을 봄": "시든 시들 말라",
+      "백합 향기를 맡음": "향기 냄새 맡았"
+    },
+    "contexts_en": {
+      "백합을 봄": "chastisement",
+      "백합이 잎 무성하게 자란 것을 봄": "growing foliage marriage separation",
+      "백합꽃 사이에 어린아이들이 있는 것을 봄": "little children fragile constitutions",
+      "처녀가 백합을 바라보거나 꺾음": "admiring gathering sadness coupled dissolution",
+      "시든 백합을 봄": "withered nearer suspected",
+      "백합 향기를 맡음": "breathe fragrance purify enhance mental"
+    }
+  },
+  {
+    "id": "lime",
+    "aliases": [
+      "석회를",
+      "석회가",
+      "생석회"
+    ],
+    "aliases_en": [
+      "quicklime"
+    ],
+    "contexts": {
+      "석회를 봄": "덩어리 가루"
+    },
+    "contexts_en": {
+      "석회를 봄": "disaster prostrate revive richer"
+    }
+  },
+  {
+    "id": "lime-kiln",
+    "aliases": [
+      "석회 가마",
+      "석회를 굽는 가마"
+    ],
+    "aliases_en": [
+      "lime kiln"
+    ],
+    "contexts": {
+      "석회 가마를 봄": "가마 굽는"
+    },
+    "contexts_en": {
+      "석회 가마를 봄": "immediate favor speculations"
+    }
+  },
+  {
+    "id": "limes",
+    "aliases": [
+      "라임을",
+      "라임이",
+      "라임 열매"
+    ],
+    "aliases_en": [
+      "lime fruit"
+    ],
+    "contexts": {
+      "라임을 먹음": "먹었 먹는"
+    },
+    "contexts_en": {
+      "라임을 먹음": "eating continued adverse straits"
+    }
+  }
+]

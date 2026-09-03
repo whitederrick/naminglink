@@ -6080,5 +6080,21 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "life-insurance-man": [
     "life insurance men",
     "insurance agent"
+  ],
+  "lightning-rod": [
+    "lightning rod",
+    "lightning rods"
+  ],
+  "lily": [
+    "lilies"
+  ],
+  "lime": [
+    "quicklime"
+  ],
+  "lime-kiln": [
+    "lime kiln"
+  ],
+  "limes": [
+    "lime fruit"
   ]
 };
