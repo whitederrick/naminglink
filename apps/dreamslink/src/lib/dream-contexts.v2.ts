@@ -185,6 +185,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "plate::접시가 깨짐": "broken short-lived cause",
   "plate::선반에 반들반들한 접시가 놓임": "shelves polished marriage",
   "plate::더러운 접시를 봄": "soiled dissatisfaction unpromising",
+  "plate::미혼 여성이 접시 꿈을 꿈": "economy",
+  "plate::기혼 여성이 접시 꿈을 꿈": "household",
   "soybean::콩이 자라는 것을 봄": "growing thriving field",
   "soybean::마른 콩을 봄": "dried withered shriveled",
   "soybean::콩을 먹는 꿈을 꿈": "eating eaten swallowed",
@@ -5072,5 +5074,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "plain::처녀가 풀이 메마르거나 죽은 평원을 지남": "arid dead",
   "plane::대패를 씀": "using used",
   "plane::목수들이 대패를 쓰는 것을 봄": "carpenters",
-  "plane::대패 꿈을 꿈": "chanced"
+  "plane::대패 꿈을 꿈": "chanced",
+  "plank::처녀가 진흙탕 물 위 썩은 널빤지를 건넘": "muddy rotten",
+  "plank::튼튼하고 좋은 널빤지를 건넘": "good sound",
+  "plaster::벽에 반듯하게 석고를 바른 것을 봄": "walls plainly",
+  "plaster::제 몸에 석고가 떨어져 내림": "fall upon",
+  "plaster::미장이들이 일하는 것을 봄": "plasterers"
 };

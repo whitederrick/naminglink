@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "행성",
+    "term_en": "planet",
+    "context": "행성 꿈을 꿈",
+    "interpretation_ko": "불편한 여정과 답답한 일을 예고함",
+    "interpretation_en": "foretells an uncomfortable journey and depressing work",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Planet",
+      "original": "To dream of a planet, foretells an uncomfortable journey and depressing work.",
+      "translation_ko": "행성 꿈은, 불편한 여정과 답답한 일을 예고한다"
+    }
+  },
+  {
+    "term_ko": "널빤지",
+    "term_en": "plank",
+    "context": "처녀가 진흙탕 물 위 썩은 널빤지를 건넘",
+    "interpretation_ko": "사랑하는 이의 무관심을 뼈저리게 느끼거나 다른 곤란이 생기고, 정절을 지키려는 다짐이 무너질 위험에 처할 조짐",
+    "interpretation_en": "denotes that she will feel keenly the indifference shown her by one she loves, or other troubles may arise; or her defence of honor may be in danger of collapse",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Plank",
+      "original": "For a young woman to dream that she is walking across muddy water on a rotten plank, denotes that she will feel keenly the indifference shown her by one she loves, or other troubles may arise; or her defence of honor may be in danger of collapse.",
+      "translation_ko": "처녀가 진흙탕 물 위 썩은 널빤지를 건너는 꿈은, 사랑하는 이의 무관심을 뼈저리게 느끼거나 다른 곤란이 생기고, 정절을 지키려는 다짐이 무너질 위험에 처할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "널빤지",
+    "term_en": "plank",
+    "context": "튼튼하고 좋은 널빤지를 건넘",
+    "interpretation_ko": "좋은 조짐이나, 이런 꿈을 꾼 뒤에는 유달리 몸가짐을 삼가야 함",
+    "interpretation_en": "is a good omen, but a person will have to be unusually careful in conduct after such a dream",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Plank",
+      "original": "Walking a good, sound plank, is a good omen, but a person will have to be unusually careful in conduct after such a dream.",
+      "translation_ko": "튼튼하고 좋은 널빤지를 건너는 꿈은 좋은 조짐이나, 이런 꿈을 꾼 뒤에는 유달리 몸가짐을 삼가야 한다"
+    }
+  },
+  {
+    "term_ko": "석고",
+    "term_en": "plaster",
+    "context": "벽에 반듯하게 석고를 바른 것을 봄",
+    "interpretation_ko": "성공이 따르나 오래가지는 못할 조짐",
+    "interpretation_en": "denotes that success will come, but it will not be stable",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Plaster",
+      "original": "To dream of seeing walls plainly plastered, denotes that success will come, but it will not be stable.",
+      "translation_ko": "벽에 반듯하게 석고를 바른 것을 보는 꿈은, 성공이 따르나 오래가지는 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "석고",
+    "term_en": "plaster",
+    "context": "제 몸에 석고가 떨어져 내림",
+    "interpretation_ko": "가눌 길 없는 재앙과 들통남을 뜻함",
+    "interpretation_en": "denotes unmitigated disasters and disclosure",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Plaster",
+      "original": "To have plaster fall upon you, denotes unmitigated disasters and disclosure.",
+      "translation_ko": "제 몸에 석고가 떨어져 내리는 꿈은, 가눌 길 없는 재앙과 들통남을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "석고",
+    "term_en": "plaster",
+    "context": "미장이들이 일하는 것을 봄",
+    "interpretation_ko": "궁핍을 벗어날 만큼 넉넉해질 조짐",
+    "interpretation_en": "denotes that you will have a sufficient competency to live above penury",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Plaster",
+      "original": "To see plasterers at work, denotes that you will have a sufficient competency to live above penury.",
+      "translation_ko": "미장이들이 일하는 것을 보는 꿈은, 궁핍을 벗어날 만큼 넉넉해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "접시",
+    "term_en": "plate",
+    "context": "미혼 여성이 접시 꿈을 꿈",
+    "interpretation_ko": "검소하게 살림하고 훌륭한 남편을 얻을 조짐",
+    "interpretation_en": "denotes that she will practise economy and win a worthy husband",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Plate",
+      "original": "For a woman to dream of plates, denotes that she will practise economy and win a worthy husband.",
+      "translation_ko": "미혼 여성이 접시 꿈을 꾸면, 검소하게 살림하고 훌륭한 남편을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "접시",
+    "term_en": "plate",
+    "context": "기혼 여성이 접시 꿈을 꿈",
+    "interpretation_ko": "지혜롭게 집안을 다스려 남편의 사랑과 존중을 지켜낼 조짐",
+    "interpretation_en": "she will retain her husband's love and respect by the wise ordering of his household",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Plate",
+      "original": "If already married, she will retain her husband's love and respect by the wise ordering of his household.",
+      "translation_ko": "기혼 여성이 접시 꿈을 꾸면, 지혜롭게 집안을 다스려 남편의 사랑과 존중을 지켜낼 조짐이다"
+    }
+  }
+]

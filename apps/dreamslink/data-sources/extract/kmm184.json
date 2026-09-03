@@ -1,0 +1,58 @@
+[
+  {
+    "id": "planet",
+    "aliases": [
+      "행성이",
+      "행성을"
+    ],
+    "aliases_en": [
+      "a planet",
+      "planets"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "plank",
+    "aliases": [
+      "널빤지가",
+      "널빤지를"
+    ],
+    "aliases_en": [
+      "a plank",
+      "planks"
+    ],
+    "contexts": {
+      "처녀가 진흙탕 물 위 썩은 널빤지를 건넘": "진흙탕 썩은",
+      "튼튼하고 좋은 널빤지를 건넘": "튼튼하고 좋은"
+    },
+    "contexts_en": {
+      "처녀가 진흙탕 물 위 썩은 널빤지를 건넘": "muddy rotten",
+      "튼튼하고 좋은 널빤지를 건넘": "good sound"
+    }
+  },
+  {
+    "id": "plaster",
+    "aliases": [
+      "석고가",
+      "석고를",
+      "회반죽",
+      "미장이가",
+      "미장이들이"
+    ],
+    "aliases_en": [
+      "plaster",
+      "plastered"
+    ],
+    "contexts": {
+      "벽에 반듯하게 석고를 바른 것을 봄": "벽에 반듯하게 바른",
+      "제 몸에 석고가 떨어져 내림": "떨어져 내렸",
+      "미장이들이 일하는 것을 봄": "미장이"
+    },
+    "contexts_en": {
+      "벽에 반듯하게 석고를 바른 것을 봄": "walls plainly",
+      "제 몸에 석고가 떨어져 내림": "fall upon",
+      "미장이들이 일하는 것을 봄": "plasterers"
+    }
+  }
+]

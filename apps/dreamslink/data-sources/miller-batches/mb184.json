@@ -1,0 +1,28 @@
+{
+  "batch": 184,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Planet",
+      "text": "To dream of a planet, foretells an uncomfortable journey and depressing work.",
+      "note": "새 상징 `planet`(행성)"
+    },
+    {
+      "headword": "Plank",
+      "text": "For a young woman to dream that she is walking across muddy water on a rotten plank, denotes that she will feel keenly the indifference shown her by one she loves, or other troubles may arise; or her defence of honor may be in danger of collapse. Walking a good, sound plank, is a good omen, but a person will have to be unusually careful in conduct after such a dream.",
+      "note": "새 상징 `plank`(널빤지). 기존 `lumber`(목재)의 별칭에 있던 「널빤지」·「planks」는 겹쳐서 뺀다"
+    },
+    {
+      "headword": "Plaster",
+      "text": "To dream of seeing walls plainly plastered, denotes that success will come, but it will not be stable. To have plaster fall upon you, denotes unmitigated disasters and disclosure. To see plasterers at work, denotes that you will have a sufficient competency to live above penury.",
+      "note": "새 상징 `plaster`(석고, 회반죽). 기존 `alabaster`(설화석고)의 별칭에 있던 bare 「석고」는 겹쳐서 뺀다"
+    },
+    {
+      "headword": "Plate",
+      "text": "For a woman to dream of plates, denotes that she will practise economy and win a worthy husband. If already married, she will retain her husband's love and respect by the wise ordering of his household.",
+      "note": "기존 상징 `plate`(접시)에 둘을 더한다. 각주 [160]은 「Dishes 항목 참고」라는 지시일 뿐 내용이 아니라 옮기지 않는다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}
