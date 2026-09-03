@@ -4201,6 +4201,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "jug::깨진 주전자를 봄": "broken sickness failures employment",
   "jug::주전자로 술을 마심": "drink wine robust circles optimistic",
   "jug::주전자로 맛없는 것을 마심": "unpleasant disgust anticipations",
+  "jug::주전자 꿈을 꿈": "chanced",
   "jumping::무엇을 뛰어넘음": "object succeed endeavor",
   "jumping::뛰다가 뒤로 떨어짐": "fall back disagreeable render intolerable",
   "jumping::담에서 뛰어내림": "wall reckless speculations",
@@ -5060,5 +5061,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pirate::해적 꿈을 꿈": "unfamiliar",
   "pirate::제가 해적이 되는 꿈을 꿈": "yourself becoming",
   "pirate::처녀가 애인이 해적임을 꿈꿈": "lover unworthiness",
-  "pirate::처녀가 해적에게 붙잡힘": "captured pretenses"
+  "pirate::처녀가 해적에게 붙잡힘": "captured pretenses",
+  "pitchfork::쇠스랑 꿈을 꿈": "betterment laboring",
+  "pitchfork::쇠스랑을 든 사람에게 공격당함": "attacked enemies"
 };

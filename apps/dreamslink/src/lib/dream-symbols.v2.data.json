@@ -93,6 +93,7 @@
     "m18.json",
     "m180.json",
     "m181.json",
+    "m182.json",
     "m19.json",
     "m2.json",
     "m20.json",
@@ -33023,6 +33024,110 @@
       ]
     },
     {
+      "id": "jug",
+      "term_ko": "주전자",
+      "term_en": "jug",
+      "aliases": [
+        "주전자가",
+        "주전자를",
+        "주전자에",
+        "물주전자"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "주전자 꿈을 꿈",
+          "interpretation_ko": "너그럽고 다정한 성품을 지니며 하는 일마다 성공이 따를 조짐",
+          "interpretation_en": "denotes that you will be of a generous and congenial disposition. Success will attend your efforts",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pitcher",
+              "original": "To dream of a pitcher, denotes that you will be of a generous and congenial disposition. Success will attend your efforts.",
+              "translation_ko": "주전자 꿈은, 너그럽고 다정한 성품을 지니며 하는 일마다 성공이 따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 물이 가득 찬 주전자를 봄",
+          "interpretation_ko": "저 말고도 여럿이 제 앞날을 헤아려 주고 참된 벗들이 뜻을 모아 이롭게 할 길한 조짐",
+          "interpretation_en": "your welfare is being considered by more than yourself; many true friends will unite to please and profit you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jug",
+              "original": "If you dream of jugs well filled with transparent liquids, your welfare is being considered by more than yourself.",
+              "translation_ko": "맑은 물이 가득 찬 주전자의 꿈을 꾸면 저 말고도 여럿이 제 앞날을 헤아려 준다"
+            }
+          ]
+        },
+        {
+          "context": "빈 주전자를 봄",
+          "interpretation_ko": "제 몸가짐 탓에 벗과 자리에서 멀어질 흉한 조짐",
+          "interpretation_en": "your conduct will estrange you from friends and station",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jug",
+              "original": "If the jugs are empty, your conduct will estrange you from friends and station.",
+              "translation_ko": "주전자가 비어 있으면 제 몸가짐 탓에 벗과 자리에서 멀어진다"
+            }
+          ]
+        },
+        {
+          "context": "깨진 주전자를 봄",
+          "interpretation_ko": "병이 들고 하던 일이 어그러질 흉한 조짐",
+          "interpretation_en": "indicate sickness and failures in employment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jug",
+              "original": "Broken jugs, indicate sickness and failures in employment.",
+              "translation_ko": "깨진 주전자는 병과 일의 어그러짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "주전자로 술을 마심",
+          "interpretation_ko": "몸이 튼튼해지고 어느 자리에서나 즐거움을 찾을 길한 조짐",
+          "interpretation_en": "you will enjoy robust health and find pleasure in all circles",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jug",
+              "original": "If you drink wine from a jug, you will enjoy robust health and find pleasure in all circles.",
+              "translation_ko": "주전자로 술을 마시면 몸이 튼튼해지고 어느 자리에서나 즐거움을 찾는다"
+            }
+          ]
+        },
+        {
+          "context": "주전자로 맛없는 것을 마심",
+          "interpretation_ko": "즐거운 기대 끝에 실망과 역겨움이 따를 흉한 조짐",
+          "interpretation_en": "disappointment and disgust will follow pleasant anticipations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jug",
+              "original": "To take an unpleasant drink from a jug, disappointment and disgust will follow pleasant anticipations.",
+              "translation_ko": "주전자로 맛없는 것을 마시면 즐거운 기대 끝에 실망과 역겨움이 따른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "lace",
       "term_ko": "레이스",
       "term_en": "lace",
@@ -41081,96 +41186,6 @@
               "locator": "Jar",
               "original": "To see broken jars, distressing sickness or deep disappointment awaits you.",
               "translation_ko": "깨진 항아리를 보면 괴로운 병이나 깊은 실망이 기다린다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "jug",
-      "term_ko": "주전자",
-      "term_en": "jug",
-      "aliases": [
-        "주전자가",
-        "주전자를",
-        "주전자에",
-        "물주전자"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "맑은 물이 가득 찬 주전자를 봄",
-          "interpretation_ko": "저 말고도 여럿이 제 앞날을 헤아려 주고 참된 벗들이 뜻을 모아 이롭게 할 길한 조짐",
-          "interpretation_en": "your welfare is being considered by more than yourself; many true friends will unite to please and profit you",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jug",
-              "original": "If you dream of jugs well filled with transparent liquids, your welfare is being considered by more than yourself.",
-              "translation_ko": "맑은 물이 가득 찬 주전자의 꿈을 꾸면 저 말고도 여럿이 제 앞날을 헤아려 준다"
-            }
-          ]
-        },
-        {
-          "context": "빈 주전자를 봄",
-          "interpretation_ko": "제 몸가짐 탓에 벗과 자리에서 멀어질 흉한 조짐",
-          "interpretation_en": "your conduct will estrange you from friends and station",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jug",
-              "original": "If the jugs are empty, your conduct will estrange you from friends and station.",
-              "translation_ko": "주전자가 비어 있으면 제 몸가짐 탓에 벗과 자리에서 멀어진다"
-            }
-          ]
-        },
-        {
-          "context": "깨진 주전자를 봄",
-          "interpretation_ko": "병이 들고 하던 일이 어그러질 흉한 조짐",
-          "interpretation_en": "indicate sickness and failures in employment",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jug",
-              "original": "Broken jugs, indicate sickness and failures in employment.",
-              "translation_ko": "깨진 주전자는 병과 일의 어그러짐을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "주전자로 술을 마심",
-          "interpretation_ko": "몸이 튼튼해지고 어느 자리에서나 즐거움을 찾을 길한 조짐",
-          "interpretation_en": "you will enjoy robust health and find pleasure in all circles",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jug",
-              "original": "If you drink wine from a jug, you will enjoy robust health and find pleasure in all circles.",
-              "translation_ko": "주전자로 술을 마시면 몸이 튼튼해지고 어느 자리에서나 즐거움을 찾는다"
-            }
-          ]
-        },
-        {
-          "context": "주전자로 맛없는 것을 마심",
-          "interpretation_ko": "즐거운 기대 끝에 실망과 역겨움이 따를 흉한 조짐",
-          "interpretation_en": "disappointment and disgust will follow pleasant anticipations",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jug",
-              "original": "To take an unpleasant drink from a jug, disappointment and disgust will follow pleasant anticipations.",
-              "translation_ko": "주전자로 맛없는 것을 마시면 즐거운 기대 끝에 실망과 역겨움이 따른다"
             }
           ]
         }
@@ -84872,8 +84887,7 @@
       "term_en": "fork",
       "aliases": [
         "포크를",
-        "포크가",
-        "쇠스랑"
+        "포크가"
       ],
       "category": "object",
       "polarity": "negative",
@@ -93883,6 +93897,52 @@
               "locator": "Pineapple",
               "original": "To dream that you prick your fingers while preparing a pineapple for the table, you will experience considerable vexation over matters which will finally bring pleasure and success.",
               "translation_ko": "식탁에 낼 파인애플을 준비하다 손가락을 찔리는 꿈은, 여러 일로 상당한 애를 먹지만 끝내는 기쁨과 성공을 가져올 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pitchfork",
+      "term_ko": "쇠스랑",
+      "term_en": "pitchfork",
+      "aliases": [
+        "쇠스랑이",
+        "쇠스랑을"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "쇠스랑 꿈을 꿈",
+          "interpretation_ko": "재산을 늘리려는 애씀과, 몸이든 마음이든 크게 수고할 조짐",
+          "interpretation_en": "denotes struggles for betterment of fortune and great laboring, either physically or mentally",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pitchfork",
+              "original": "Pitchforks in dreams, denotes struggles for betterment of fortune and great laboring, either physically or mentally.",
+              "translation_ko": "쇠스랑이 나오는 꿈은, 재산을 늘리려는 애씀과 몸이든 마음이든 크게 수고할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쇠스랑을 든 사람에게 공격당함",
+          "interpretation_ko": "해치기를 서슴지 않을 개인적인 적이 있음을 뜻함",
+          "interpretation_en": "implies that you will have personal enemies who would not scruple to harm you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pitchfork",
+              "original": "To dream that you are attacked by some person using a pitchfork, implies that you will have personal enemies who would not scruple to harm you.",
+              "translation_ko": "쇠스랑을 든 사람에게 공격당하는 꿈은, 해치기를 서슴지 않을 개인적인 적이 있음을 뜻한다"
             }
           ]
         }

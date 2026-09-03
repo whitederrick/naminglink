@@ -6822,5 +6822,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "pirate": [
     "pirates",
     "a pirate"
+  ],
+  "pitchfork": [
+    "pitchforks",
+    "a pitchfork"
   ]
 };

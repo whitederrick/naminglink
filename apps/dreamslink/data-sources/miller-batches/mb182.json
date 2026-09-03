@@ -1,0 +1,24 @@
+{
+  "batch": 182,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pitcher",
+      "text": "To dream of a pitcher, denotes that you will be of a generous and congenial disposition. Success will attend your efforts.",
+      "note": "기존 상징 `jug`(주전자, 밀러 `Jug`)에 하나를 더한다"
+    },
+    {
+      "headword": "Pitchfork",
+      "text": "Pitchforks in dreams, denotes struggles for betterment of fortune and great laboring, either physically or mentally. To dream that you are attacked by some person using a pitchfork, implies that you will have personal enemies who would not scruple to harm you.",
+      "note": "새 상징 `pitchfork`(쇠스랑). 기존 `fork`(포크)의 별칭에 있던 「쇠스랑」은 겹쳐서 뺀다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "headword": "Pitcher",
+      "sentence": "A broken pitcher, denotes loss of friends.",
+      "reason": "기존 jug의 「깨진 주전자를 봄」(밀러 Jug, 흉 — 병과 일의 어그러짐)과 같은 그림(깨진 주전자)이고 같은 극성이라 가를 수 없다"
+    }
+  ]
+}

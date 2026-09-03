@@ -1,0 +1,21 @@
+[
+  {
+    "id": "pitchfork",
+    "aliases": [
+      "쇠스랑이",
+      "쇠스랑을"
+    ],
+    "aliases_en": [
+      "pitchforks",
+      "a pitchfork"
+    ],
+    "contexts": {
+      "쇠스랑 꿈을 꿈": "재산을 늘리려",
+      "쇠스랑을 든 사람에게 공격당함": "공격당했 공격했"
+    },
+    "contexts_en": {
+      "쇠스랑 꿈을 꿈": "betterment laboring",
+      "쇠스랑을 든 사람에게 공격당함": "attacked enemies"
+    }
+  }
+]

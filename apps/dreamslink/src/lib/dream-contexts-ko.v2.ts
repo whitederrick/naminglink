@@ -4205,6 +4205,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "jug::깨진 주전자를 봄": "깨진 깨졌 부서",
   "jug::주전자로 술을 마심": "술을 포도주 들이켰",
   "jug::주전자로 맛없는 것을 마심": "맛없 역겨 고약",
+  "jug::주전자 꿈을 꿈": "문득",
   "jumping::무엇을 뛰어넘음": "뛰어넘",
   "jumping::뛰다가 뒤로 떨어짐": "뒤로 떨어졌 자빠",
   "jumping::담에서 뛰어내림": "담에서 담벼락 뛰어내",
@@ -5064,5 +5065,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "pirate::해적 꿈을 꿈": "낯선",
   "pirate::제가 해적이 되는 꿈을 꿈": "제가 스스로",
   "pirate::처녀가 애인이 해적임을 꿈꿈": "애인이 연인이",
-  "pirate::처녀가 해적에게 붙잡힘": "붙잡혔 꾐에"
+  "pirate::처녀가 해적에게 붙잡힘": "붙잡혔 꾐에",
+  "pitchfork::쇠스랑 꿈을 꿈": "재산을 늘리려",
+  "pitchfork::쇠스랑을 든 사람에게 공격당함": "공격당했 공격했"
 };
