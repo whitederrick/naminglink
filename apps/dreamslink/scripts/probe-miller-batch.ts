@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 110 — Lumber~Lyre, 18건)
+// (지금 담긴 것: 배치 111 — Macadamize~Madstone, 13건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,25 +30,20 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "lumber", ctx: "목재를 봄", text: "목재가 쌓여 있었다" },
-  { id: "lumber", ctx: "쌓아 둔 목재가 타는 것을 봄", text: "쌓아 둔 목재가 불타고 있었다" },
-  { id: "lumber", ctx: "목재를 톱질함", text: "목재를 톱질했다" },
-  { id: "lute", ctx: "비파를 탐", text: "비파를 탔다" },
-  { id: "lute", ctx: "비파 소리를 들음", text: "비파 소리를 들었다" },
-  { id: "luxury", ctx: "사치에 둘러싸임", text: "사치에 둘러싸여 있었다" },
-  { id: "luxury", ctx: "가난한 여성이 사치를 누림", text: "가난한 여자가 사치를 누렸다" },
-  { id: "liar", ctx: "벌을 피하려고 거짓말을 함", text: "벌을 피하려고 거짓말을 했다" },
-  { id: "liar", ctx: "벗을 지키려고 거짓말을 함", text: "벗을 지키려고 거짓말을 했다" },
-  { id: "liar", ctx: "남이 거짓말하는 것을 들음", text: "남이 거짓말하는 것을 들었다" },
-  { id: "lynx", ctx: "스라소니를 봄", text: "스라소니가 어슬렁거렸다" },
-  { id: "lynx", ctx: "여성이 스라소니 꿈을 꿈", text: "여자가 스라소니 꿈을 꾸었다" },
-  { id: "lynx", ctx: "스라소니를 죽임", text: "스라소니를 죽였다" },
-  { id: "lyre", ctx: "리라 소리를 들음", text: "리라 소리를 들었다" },
-  { id: "lyre", ctx: "처녀가 리라를 탐", text: "처녀가 리라를 탔다" },
-  // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "lute", ctx: "품속에 비파가 있음", text: "품속에 비파가 있었다" },
-  { id: "liar", ctx: "남들이 거짓말쟁이라고 여김", text: "사람들이 거짓말쟁이 같았다" },
-  { id: "liar", ctx: "여성이 정인을 거짓말쟁이로 여김", text: "여자가 정인을 거짓말쟁이로 여겼다" },
+  { id: "macadamize", ctx: "자갈길을 보거나 그 위를 감", text: "자갈길을 걸었다" },
+  { id: "macaroni", ctx: "마카로니를 먹음", text: "마카로니를 먹었다" },
+  { id: "macaroni", ctx: "마카로니가 잔뜩 있는 것을 봄", text: "마카로니가 잔뜩 있었다" },
+  { id: "macaroni", ctx: "처녀가 마카로니 꿈을 꿈", text: "처녀가 마카로니 꿈을 꾸었다" },
+  { id: "machinery", ctx: "기계를 봄", text: "기계가 돌아가고 있었다" },
+  { id: "machinery", ctx: "낡은 기계를 봄", text: "낡은 기계를 보았다" },
+  { id: "machinery", ctx: "기계에 말려듦", text: "기계에 말려들었다" },
+  { id: "madness", ctx: "제가 미침", text: "내가 미쳤다" },
+  { id: "madness", ctx: "남이 미친 것을 봄", text: "남이 미친 것을 보았다" },
+  { id: "madness", ctx: "처녀가 광기의 꿈을 꿈", text: "처녀가 미친 사람 꿈을 꾸었다" },
+  { id: "madstone", ctx: "물린 자리에 독을 빨아내는 돌을 댐", text: "물린 자리에 독을 빨아내는 돌을 댔다" },
+  // 지킴 — 새 이름이 스치는 옛 상징의 답이 그대로인가(§25 곁가지)
+  { id: "dog", ctx: "미친개를 봄", text: "미친개를 보았다" },
+  { id: "gravel", ctx: "자갈을 봄", text: "자갈이 깔려 있었다" },
 ];
 
 let notFound = 0;

@@ -4234,5 +4234,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "lynx::여성이 스라소니 꿈을 꿈": "wary rivaling affections",
   "lynx::스라소니를 죽임": "kills overcome",
   "lyre::리라 소리를 들음": "listening chaste congenial smoothly",
-  "lyre::처녀가 리라를 탐": "playing undivided worthy"
+  "lyre::처녀가 리라를 탐": "playing undivided worthy",
+  "macadamize::자갈길을 보거나 그 위를 감": "pleasant journeys derive benefit",
+  "macaroni::마카로니를 먹음": "eating small losses",
+  "macaroni::마카로니가 잔뜩 있는 것을 봄": "large quantities save strictest economy",
+  "macaroni::처녀가 마카로니 꿈을 꿈": "stranger enter life",
+  "machinery::기계를 봄": "undertake project anxiety finally",
+  "machinery::낡은 기계를 봄": "old enemies strivings build",
+  "machinery::기계에 말려듦": "entangled loss unhappiness",
+  "madness::제가 미침": "trouble ahead sickness property",
+  "madness::남이 미친 것을 봄": "others malady inconstancy gloomy",
+  "madness::처녀가 광기의 꿈을 꿈": "disappointment marriage wealth",
+  "madstone::물린 자리에 독을 빨아내는 돌을 댐": "applied wound fangs machinations dishonorable"
 };

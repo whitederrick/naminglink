@@ -6169,5 +6169,22 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "lyre": [
     "lyres"
+  ],
+  "macadamize": [
+    "macadamized road"
+  ],
+  "macaroni": [
+    "pasta"
+  ],
+  "machinery": [
+    "machines",
+    "a machine"
+  ],
+  "madness": [
+    "mad",
+    "insanity"
+  ],
+  "madstone": [
+    "madstones"
   ]
 };

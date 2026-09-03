@@ -1,0 +1,103 @@
+[
+  {
+    "id": "macadamize",
+    "aliases": [
+      "자갈로 다진 길",
+      "자갈길을",
+      "자갈길이"
+    ],
+    "aliases_en": [
+      "macadamized road"
+    ],
+    "contexts": {
+      "자갈길을 보거나 그 위를 감": "걸었 달렸 지났"
+    },
+    "contexts_en": {
+      "자갈길을 보거나 그 위를 감": "pleasant journeys derive benefit"
+    }
+  },
+  {
+    "id": "macaroni",
+    "aliases": [
+      "마카로니를",
+      "마카로니가"
+    ],
+    "aliases_en": [
+      "pasta"
+    ],
+    "contexts": {
+      "마카로니를 먹음": "먹었 먹는",
+      "마카로니가 잔뜩 있는 것을 봄": "잔뜩 수북 많이",
+      "처녀가 마카로니 꿈을 꿈": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "마카로니를 먹음": "eating small losses",
+      "마카로니가 잔뜩 있는 것을 봄": "large quantities save strictest economy",
+      "처녀가 마카로니 꿈을 꿈": "stranger enter life"
+    }
+  },
+  {
+    "id": "machinery",
+    "aliases": [
+      "기계를",
+      "기계가",
+      "기곗소리"
+    ],
+    "aliases_en": [
+      "machines",
+      "a machine"
+    ],
+    "contexts": {
+      "기계를 봄": "돌아가 움직이",
+      "낡은 기계를 봄": "낡은 오래된 녹슨",
+      "기계에 말려듦": "말려 끼었 빨려"
+    },
+    "contexts_en": {
+      "기계를 봄": "undertake project anxiety finally",
+      "낡은 기계를 봄": "old enemies strivings build",
+      "기계에 말려듦": "entangled loss unhappiness"
+    }
+  },
+  {
+    "id": "madness",
+    "aliases": [
+      "미쳤다",
+      "미친 사람",
+      "실성했다",
+      "미친 것",
+      "미쳐서",
+      "미쳐 있"
+    ],
+    "aliases_en": [
+      "mad",
+      "insanity"
+    ],
+    "contexts": {
+      "제가 미침": "내가 제가",
+      "남이 미친 것을 봄": "남이 다른 사람이",
+      "처녀가 광기의 꿈을 꿈": "처녀 아가씨"
+    },
+    "contexts_en": {
+      "제가 미침": "trouble ahead sickness property",
+      "남이 미친 것을 봄": "others malady inconstancy gloomy",
+      "처녀가 광기의 꿈을 꿈": "disappointment marriage wealth"
+    }
+  },
+  {
+    "id": "madstone",
+    "aliases": [
+      "광견석",
+      "독을 빨아내는",
+      "독을 뽑는 돌"
+    ],
+    "aliases_en": [
+      "madstones"
+    ],
+    "contexts": {
+      "물린 자리에 독을 빨아내는 돌을 댐": "빨아내 물린 댔다"
+    },
+    "contexts_en": {
+      "물린 자리에 독을 빨아내는 돌을 댐": "applied wound fangs machinations dishonorable"
+    }
+  }
+]
