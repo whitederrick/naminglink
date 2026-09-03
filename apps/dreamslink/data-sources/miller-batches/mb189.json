@@ -1,0 +1,59 @@
+{
+  "batch": 189,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Police",
+      "text": "If the police are trying to arrest you for some crime of which you are innocent, it foretells that you will successfully outstrip rivalry. If the arrest is just, you will have a season of unfortunate incidents. To see police on parole, indicates alarming fluctuations in affairs.",
+      "note": "새 상징 `police`(경찰)"
+    },
+    {
+      "headword": "Polishing",
+      "text": "To dream of polishing any article, high attainments will place you in enviable positions.",
+      "note": "새 상징 `polishing`(닦아 광냄)"
+    },
+    {
+      "headword": "Politician",
+      "text": "To dream of a politician, denotes displeasing companionships, and incidences where you will lose time and means. If you engage in political wrangling, it portends that misunderstandings and ill feeling will be shown you by friends. For a young woman to dream of taking interest in politics, warns her against designing duplicity,",
+      "note": "새 상징 `politician`(정치인)"
+    },
+    {
+      "headword": "Pomegranate",
+      "text": "Pomegranates, when dreamed of, denotes that you will wisely use your talents for the enrichment of the mind rather than seeking those pleasures which destroy morality and health. If your sweetheart gives you one, you will be lured by artful wiles to the verge of distraction by woman's charms, but inner forces will hold you safe from thralldom. To eat one, signifies that you will yield yourself a captive to the personal charms of another.",
+      "note": "새 상징 `pomegranate`(석류)"
+    },
+    {
+      "headword": "Pond",
+      "text": "To see a pond in your dream, denotes that events will bring no emotion, and fortune will retain a placid outlook. If the pond is muddy, you will have domestic quarrels.",
+      "note": "기존 상징 `fish-pond`(연못, 밀러 `Fish-pond`)에 첫 문장만 더한다. term_ko가 이미 「연못」으로 같다"
+    },
+    {
+      "headword": "Pony",
+      "text": "To see ponies in your dreams, signifies moderate speculations will be rewarded with success.",
+      "note": "기존 상징 `horse`(말, 밀러 `Horse`)에 더한다. 「조랑말」·「pony」가 이미 그 별칭이다"
+    },
+    {
+      "headword": "Poor-house",
+      "text": "To see a poor-house in your dream, denotes you have unfaithful friends, who will care for you only as they can use your money and belongings.",
+      "note": "기존 상징 `alms-house`(구빈원, 밀러 `Alms-house`)에 더한다. 「빈민 구제소·a poorhouse」가 이미 그 별칭이다"
+    },
+    {
+      "headword": "Poor",
+      "text": "To dream that you, or any of your friends, appear to be poor, is significant of worry and losses.",
+      "note": "기존 상징 `pauper`(극빈자, 밀러 `Pauper`)에 더한다 — 각주 [167]이 「Pauper 항목 참고」이지만 이 문장 자체는 그 항목에 없던 내용(벗이 가난해 보임)이다"
+    },
+    {
+      "headword": "Pope",
+      "text": "Any dream in which you see the Pope, without speaking to him, warns you of servitude. You will bow to the will of some master, even to that of women. To speak to the Pope, denotes that certain high honors are in store for you. To see the Pope looking sad or displeased, warns you against vice or sorrow of some kind.",
+      "note": "새 상징 `pope`(교황)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "headword": "Pond",
+      "sentence": "If the pond is muddy, you will have domestic quarrels.",
+      "reason": "기존 fish-pond의 「흐린 연못을 봄」(밀러 Fish-pond, 흉 — 헤픈 지냄으로 몸이 상함)과 같은 그림(흐린 연못을 보는 꿈)이고 같은 극성이라 판별어로 가를 수 없다"
+    }
+  ]
+}

@@ -6872,5 +6872,24 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "skunk": [
     "a skunk",
     "skunks"
+  ],
+  "police": [
+    "the police",
+    "policeman"
+  ],
+  "polishing": [
+    "polishing",
+    "polished an article"
+  ],
+  "politician": [
+    "a politician",
+    "politicians"
+  ],
+  "pomegranate": [
+    "a pomegranate",
+    "pomegranates"
+  ],
+  "pope": [
+    "the Pope"
   ]
 };

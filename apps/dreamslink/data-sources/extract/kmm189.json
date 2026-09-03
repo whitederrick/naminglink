@@ -1,0 +1,104 @@
+[
+  {
+    "id": "police",
+    "aliases": [
+      "경찰이",
+      "경찰을",
+      "경찰에게"
+    ],
+    "aliases_en": [
+      "the police",
+      "policeman"
+    ],
+    "contexts": {
+      "죄 없이 경찰에게 체포당하려 함": "없이 무고하게",
+      "정당하게 체포됨": "정당하게 마땅히",
+      "가석방된 경찰을 봄": "가석방"
+    },
+    "contexts_en": {
+      "죄 없이 경찰에게 체포당하려 함": "innocent outstrip rivalry",
+      "정당하게 체포됨": "arrest unfortunate incidents",
+      "가석방된 경찰을 봄": "parole fluctuations"
+    }
+  },
+  {
+    "id": "polishing",
+    "aliases": [
+      "광을 냈다",
+      "윤이 나게 닦았다",
+      "반짝이게 닦았다"
+    ],
+    "aliases_en": [
+      "polishing",
+      "polished an article"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "politician",
+    "aliases": [
+      "정치인이",
+      "정치인을",
+      "정치인과",
+      "정치인들"
+    ],
+    "aliases_en": [
+      "a politician",
+      "politicians"
+    ],
+    "contexts": {
+      "정치인 꿈을 꿈": "달갑잖은",
+      "정치적 다툼에 얽힘": "다툼 다투 얽혀",
+      "처녀가 정치에 관심을 보이는 꿈을 꿈": "처녀가 아가씨가"
+    },
+    "contexts_en": {
+      "정치인 꿈을 꿈": "displeasing companionships",
+      "정치적 다툼에 얽힘": "wrangling misunderstandings",
+      "처녀가 정치에 관심을 보이는 꿈을 꿈": "young woman politics duplicity"
+    }
+  },
+  {
+    "id": "pomegranate",
+    "aliases": [
+      "석류가",
+      "석류를",
+      "석류는"
+    ],
+    "aliases_en": [
+      "a pomegranate",
+      "pomegranates"
+    ],
+    "contexts": {
+      "석류 꿈을 꿈": "재능을 지혜롭게",
+      "애인이 석류를 줌": "애인이 정인이 선물",
+      "석류를 먹음": "먹었 먹는"
+    },
+    "contexts_en": {
+      "석류 꿈을 꿈": "talents enrichment mind",
+      "애인이 석류를 줌": "sweetheart gives thralldom",
+      "석류를 먹음": "eat captive charms"
+    }
+  },
+  {
+    "id": "pope",
+    "aliases": [
+      "교황이",
+      "교황을",
+      "교황과"
+    ],
+    "aliases_en": [
+      "the Pope"
+    ],
+    "contexts": {
+      "말없이 교황을 봄": "말없이",
+      "교황과 이야기함": "이야기했 대화를",
+      "슬프거나 언짢아 보이는 교황을 봄": "슬프거나 언짢아"
+    },
+    "contexts_en": {
+      "말없이 교황을 봄": "servitude bow master",
+      "교황과 이야기함": "spoke honors store",
+      "슬프거나 언짢아 보이는 교황을 봄": "sad displeased vice sorrow"
+    }
+  }
+]

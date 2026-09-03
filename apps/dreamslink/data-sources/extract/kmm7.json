@@ -604,8 +604,14 @@
       "a poorhouse",
       "a charity house"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "젊은 여성이 구빈원 꿈을 꿈": "여성이 처녀가",
+      "구빈원을 봄": "신의 없는"
+    },
+    "contexts_en": {
+      "젊은 여성이 구빈원 꿈을 꿈": "young woman worldly marriage",
+      "구빈원을 봄": "unfaithful friends belongings"
+    }
   },
   {
     "id": "america",

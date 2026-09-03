@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 188 — Poker~Pole-cat, 6건)
+// (지금 담긴 것: 배치 189 — Police~Pope, 9개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -686,6 +686,31 @@ const CASES: Case[] = [
   { id: "cards", ctx: "돈을 걸고 카드놀이를 함", text: "판돈을 걸고 카드놀이를 했다" },
   { id: "cards", ctx: "카드놀이에서 짐", text: "카드놀이에서 졌다" },
   { id: "cards", ctx: "카드놀이에서 이김", text: "카드놀이에서 이겼다" },
+  { id: "police", ctx: "죄 없이 경찰에게 체포당하려 함", text: "죄 없이 경찰에게 체포당하려 했다" },
+  { id: "police", ctx: "정당하게 체포됨", text: "경찰에게 정당하게 체포됐다" },
+  { id: "police", ctx: "가석방된 경찰을 봄", text: "가석방된 경찰을 보았다" },
+  { id: "polishing", ctx: "물건을 닦아 광냄", text: "물건을 닦아서 광을 냈다" },
+  { id: "politician", ctx: "정치인 꿈을 꿈", text: "정치인 꿈을 꾸었다" },
+  { id: "politician", ctx: "정치적 다툼에 얽힘", text: "정치인과 다투다 정치적 다툼에 얽혔다" },
+  { id: "politician", ctx: "처녀가 정치에 관심을 보이는 꿈을 꿈", text: "처녀가 정치인들의 활동에 관심을 보이는 꿈을 꾸었다" },
+  { id: "pomegranate", ctx: "석류 꿈을 꿈", text: "석류 꿈을 꾸었다" },
+  { id: "pomegranate", ctx: "애인이 석류를 줌", text: "애인이 석류를 선물했다" },
+  { id: "pomegranate", ctx: "석류를 먹음", text: "석류를 먹었다" },
+  { id: "fish-pond", ctx: "연못을 봄", text: "연못을 보았다" },
+  { id: "horse", ctx: "조랑말을 봄", text: "조랑말을 보았다" },
+  { id: "alms-house", ctx: "구빈원을 봄", text: "구빈원을 보았다" },
+  { id: "pauper", ctx: "벗이 가난해 보임", text: "벗이 가난해 보였다" },
+  { id: "pope", ctx: "말없이 교황을 봄", text: "말없이 교황을 보았다" },
+  { id: "pope", ctx: "교황과 이야기함", text: "교황과 이야기했다" },
+  { id: "pope", ctx: "슬프거나 언짢아 보이는 교황을 봄", text: "슬프거나 언짢아 보이는 교황을 보았다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "fish-pond", ctx: "처녀가 맑은 연못에 빠짐", text: "처녀가 맑은 연못에 빠졌다" },
+  { id: "fish-pond", ctx: "텅 빈 연못을 봄", text: "말라서 텅 비어 있는 연못을 보았다" },
+  { id: "horse", ctx: "망아지를 봄", text: "망아지를 보았다" },
+  { id: "horse", ctx: "죽은 말을 봄", text: "죽은 말을 보았다" },
+  { id: "alms-house", ctx: "젊은 여성이 구빈원 꿈을 꿈", text: "젊은 여성이 구빈원 꿈을 꾸었다" },
+  { id: "pauper", ctx: "제가 극빈자임을 꿈꿈", text: "제가 극빈자임을 꿈꿨다" },
+  { id: "pauper", ctx: "극빈자들을 봄", text: "극빈자들을 보았다" },
 ];
 
 let notFound = 0;

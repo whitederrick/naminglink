@@ -20,18 +20,22 @@
     "aliases": [
       "극빈자가",
       "극빈자들을",
-      "극빈자임을"
+      "극빈자임을",
+      "벗이 가난해",
+      "친구가 가난해"
     ],
     "aliases_en": [
       "paupers"
     ],
     "contexts": {
       "제가 극빈자임을 꿈꿈": "제가 언짢은",
-      "극빈자들을 봄": "보았 베풂을 청할"
+      "극빈자들을 봄": "보았 베풂을 청할",
+      "벗이 가난해 보임": "벗이 친구가 가난해"
     },
     "contexts_en": {
       "제가 극빈자임을 꿈꿈": "unpleasant happenings",
-      "극빈자들을 봄": "call generosity"
+      "극빈자들을 봄": "call generosity",
+      "벗이 가난해 보임": "friends appear poor worry losses"
     }
   },
   {
