@@ -6472,5 +6472,39 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "newspaper": [
     "newspapers"
+  ],
+  "newspaper-reporter": [
+    "reporter",
+    "reporters"
+  ],
+  "new-year": [
+    "the new year"
+  ],
+  "niece": [
+    "nieces"
+  ],
+  "nightmare": [
+    "nightmares"
+  ],
+  "nightingale": [
+    "nightingales"
+  ],
+  "ninepins": [
+    "ninepin"
+  ],
+  "nobility": [
+    "the nobility"
+  ],
+  "noise": [
+    "noises"
+  ],
+  "noodles": [
+    "a noodle"
+  ],
+  "notary": [
+    "notaries"
+  ],
+  "november": [
+    "novembers"
   ]
 };

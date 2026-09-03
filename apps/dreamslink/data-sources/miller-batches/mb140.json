@@ -1,0 +1,83 @@
+{
+  "batch": 140,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Newspaper Reporter",
+      "text": "If in your dreams you unwillingly see them, you will be annoyed with small talk, and perhaps quarrels of a low character. If you are a newspaper reporter in your dreams, there will be a varied course of travel offered you, though you may experience unpleasant situations, yet there will be some honor and gain attached.",
+      "note": "새 상징 `newspaper-reporter`(신문 기자)"
+    },
+    {
+      "headword": "New Year",
+      "text": "To dream of the new year, signifies prosperity and connubial anticipations. If you contemplate the new year in weariness, engagement will be entered into inauspiciously.",
+      "note": "새 상징 `new-year`(새해). `january`(정월, 정월 꿈 자체가 다른 그림)와 겹치지 않는다"
+    },
+    {
+      "headword": "Niece",
+      "text": "For a woman to dream of her niece, foretells she will have unexpected trials and much useless worry in the near future.",
+      "note": "새 상징 `niece`(조카딸)"
+    },
+    {
+      "headword": "Night",
+      "text": "If you are surrounded by night in your dreams, you may expect unusual oppression and hardships in business. If the night seems to be vanishing, conditions which hitherto seemed unfavorable will now grow bright, and affairs will assume prosperous phases.",
+      "note": "기존 상징 `dark`(어둠)에 둘을 더한다. 원문 자신이 「[137] See Darkness」라 적었다. 「밤」을 새 상징으로 세우지 않았다 — 「밤」(night)이 「밤」(chestnut, `chestnut`·`acorn`의 별칭)과 동형이의어라 그 골칫거리를 피했다"
+    },
+    {
+      "headword": "Nightmare",
+      "text": "To dream of being attacked with this hideous sensation, denotes wrangling and failure in business. For a young woman, this is a dream prophetic of disappointment and unmerited slights. It may also warn the dreamer to be careful of her health, and food.",
+      "note": "새 상징 `nightmare`(악몽). 처녀 갈래는 일반 진술과 결과가 달라(다툼·사업 실패 대 실망·푸대접) 성별만의 구분이 아니므로 남겼다"
+    },
+    {
+      "headword": "Nightingale",
+      "text": "To dream that you are listening to the harmonious notes of the nightingale, foretells a pleasing existence, and prosperous and healthy surroundings. This is a most favorable dream to lovers, and parents. To see nightingales silent, foretells slight misunderstandings among friends.",
+      "note": "새 상징 `nightingale`(나이팅게일)"
+    },
+    {
+      "headword": "Ninepins",
+      "text": "To dream that you play ninepins, denotes that you are foolishly wasting your energy and opportunities. You should be careful in the selection of companions. All phases of this dream are bad.",
+      "note": "새 상징 `ninepins`(나인핀즈, 아홉 개 핀을 쓰는 옛 볼링 놀이). 「이 꿈은 다 나쁘다」는 총평이라 따로 안 넣고 해석에 붙였다"
+    },
+    {
+      "headword": "Nobility",
+      "text": "To dream of associating with the nobility, denotes that your aspirations are not of the right nature, as you prefer show and pleasures to the higher development of the mind. For a young woman to dream of the nobility, foretells that she will choose a lover for his outward appearance, instead of wisely accepting the man of merit for her protector.",
+      "note": "새 상징 `nobility`(귀족). 처녀 갈래는 일반 진술과 그림이 달라(귀족과 어울림 대 정인을 고름) 남겼다"
+    },
+    {
+      "headword": "Noise",
+      "text": "If you hear a strange noise in your dream, unfavorable news is presaged. If the noise awakes you, there will be a sudden change in your affairs.",
+      "note": "새 상징 `noise`(소음)"
+    },
+    {
+      "headword": "Noodles",
+      "text": "To dream of noodles, denotes an abnormal appetite and desires. There is little good in this dream.",
+      "note": "새 상징 `noodles`(국수). 둘째 문장은 총평이라 첫 문장에 이어 붙였다"
+    },
+    {
+      "headword": "Nose",
+      "text": "To see your own nose, indicates force of character, and consciousness of your ability to accomplish whatever enterprise you may choose to undertake. If your nose looks smaller than natural, there will be failure in your affairs. Hair growing on your nose, indicates extraordinary undertakings, and that they will be carried through by sheer force of character, or will. A bleeding nose, is prophetic of disaster, whatever the calling of the dreamer may be.",
+      "note": "새 상징 `nose`(코, 한 글자) 셋 + 기존 `bleeding`(출혈)에 하나(「코피」가 이미 그 상징의 별칭이다)"
+    },
+    {
+      "headword": "Notary",
+      "text": "To dream of a notary, is a prediction of unsatisfied desires, and probable lawsuits. For a woman to associate with a notary, foretells she will rashly risk her reputation, in gratification of foolish pleasure.",
+      "note": "새 상징 `notary`(공증인)"
+    },
+    {
+      "headword": "November",
+      "text": "To dream of November, augers a season of indifferent success in all affairs.",
+      "note": "새 상징 `november`(11월)"
+    },
+    {
+      "headword": "Numbness",
+      "text": "To dream that you feel a numbness creeping over you, in your dreams, is a sign of illness, and disquieting conditions",
+      "note": "기존 상징 `ache`(통증)에 하나를 더한다. 「저림」이 이미 그 상징의 별칭이다"
+    },
+    {
+      "headword": "Numbers",
+      "text": "To dream of numbers, denotes that unsettled conditions in business will cause you uneasiness and dissatisfaction.",
+      "note": "기존 상징 `figure`(숫자)에 하나를 더한다. 원문 자신이 「[138] See Figures」라 적었다(실제로는 `Figure`, 이미 있는 상징) — 내용은 다르다(마음의 어지러움 대 사업의 어수선함)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

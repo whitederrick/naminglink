@@ -178,7 +178,9 @@
     "aliases": [
       "캄캄",
       "어두컴컴",
-      "어둠 속"
+      "어둠 속",
+      "밤에",
+      "밤이"
     ],
     "aliases_en": [
       "darkness",
@@ -186,11 +188,15 @@
     ],
     "contexts": {
       "길을 가다 어둠이 덮침": "길을 가다 덮쳤",
-      "어둠 속에서 벗이나 아이를 잃음": "잃었 잃어버 놓쳤"
+      "어둠 속에서 벗이나 아이를 잃음": "잃었 잃어버 놓쳤",
+      "밤에 둘러싸임": "둘러싸 억눌림 곤란",
+      "밤이 걷히는 것을 봄": "걷히는 밝아지 번창"
     },
     "contexts_en": {
       "길을 가다 어둠이 덮침": "overtaking journey augurs",
-      "어둠 속에서 벗이나 아이를 잃음": "lose friend provocations"
+      "어둠 속에서 벗이나 아이를 잃음": "lose friend provocations",
+      "밤에 둘러싸임": "surrounded oppression hardships business",
+      "밤이 걷히는 것을 봄": "vanishing unfavorable grow bright prosperous"
     }
   },
   {

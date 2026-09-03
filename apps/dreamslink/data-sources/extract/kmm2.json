@@ -381,13 +381,15 @@
       "몸에 통증이 있음": "몸이 온몸 전신 여기저기",
       "젊은 여성이 가슴앓이를 함": "가슴앓 가슴이 심장 애태",
       "젊은 여성이 허리 통증을 앓음": "허리 요통 등허리",
-      "젊은 여성이 두통을 앓음": "두통 머리가 머리아 편두통"
+      "젊은 여성이 두통을 앓음": "두통 머리가 머리아 편두통",
+      "몸에 저림이 스멀스멀 번짐": "저려 저림 스멀"
     },
     "contexts_en": {
       "몸에 통증이 있음": "body limbs everywhere general",
       "젊은 여성이 가슴앓이를 함": "heartache heart chest lovesick",
       "젊은 여성이 허리 통증을 앓음": "backache back waist lumbar",
-      "젊은 여성이 두통을 앓음": "headache head migraine temples"
+      "젊은 여성이 두통을 앓음": "headache head migraine temples",
+      "몸에 저림이 스멀스멀 번짐": "numbness creeping illness disquieting"
     }
   },
   {

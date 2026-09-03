@@ -1,0 +1,392 @@
+[
+  {
+    "term_ko": "신문 기자",
+    "term_en": "newspaper reporter",
+    "context": "신문 기자를 마지못해 봄",
+    "interpretation_ko": "잡담에 시달리고 천박한 다툼까지 겪을 흉조",
+    "interpretation_en": "if in your dreams you unwillingly see them, you will be annoyed with small talk, and perhaps quarrels of a low character",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Newspaper Reporter",
+      "original": "If in your dreams you unwillingly see them, you will be annoyed with small talk, and perhaps quarrels of a low character.",
+      "translation_ko": "꿈에 신문 기자를 마지못해 보면, 잡담에 시달리고 천박한 다툼까지 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "신문 기자",
+    "term_en": "newspaper reporter",
+    "context": "제가 신문 기자임을 봄",
+    "interpretation_ko": "여러 갈래의 여행길이 열리고 명예와 이득이 따를 길조",
+    "interpretation_en": "if you are a newspaper reporter in your dreams, there will be a varied course of travel offered you, though you may experience unpleasant situations, yet there will be some honor and gain attached",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Newspaper Reporter",
+      "original": "If you are a newspaper reporter in your dreams, there will be a varied course of travel offered you, though you may experience unpleasant situations, yet there will be some honor and gain attached.",
+      "translation_ko": "제가 신문 기자인 꿈은, 여러 갈래의 여행길이 열리는데, 불쾌한 일도 있겠으나 명예와 이득도 따를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "새해",
+    "term_en": "new year",
+    "context": "새해를 봄",
+    "interpretation_ko": "번영과 혼인에 대한 기대가 있을 길조",
+    "interpretation_en": "signifies prosperity and connubial anticipations",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "New Year",
+      "original": "To dream of the new year, signifies prosperity and connubial anticipations.",
+      "translation_ko": "꿈에 새해를 맞으면 번영과 혼인의 기대가 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "새해",
+    "term_en": "new year",
+    "context": "지친 마음으로 새해를 생각함",
+    "interpretation_ko": "불길하게 약혼(계약)을 맺게 될 흉조",
+    "interpretation_en": "if you contemplate the new year in weariness, engagement will be entered into inauspiciously",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "New Year",
+      "original": "If you contemplate the new year in weariness, engagement will be entered into inauspiciously.",
+      "translation_ko": "지친 마음으로 새해를 생각하면 불길하게 약혼하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "조카딸",
+    "term_en": "niece",
+    "context": "여성이 제 조카딸을 봄",
+    "interpretation_ko": "머잖아 뜻밖의 시련과 부질없는 근심을 겪을 흉조",
+    "interpretation_en": "foretells she will have unexpected trials and much useless worry in the near future",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Niece",
+      "original": "For a woman to dream of her niece, foretells she will have unexpected trials and much useless worry in the near future.",
+      "translation_ko": "여성이 제 조카딸을 보는 꿈은, 머잖아 뜻밖의 시련과 부질없는 근심을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "어둠",
+    "term_en": "dark",
+    "context": "밤에 둘러싸임",
+    "interpretation_ko": "사업에서 남다른 억눌림과 곤란을 겪을 흉조",
+    "interpretation_en": "if you are surrounded by night in your dreams, you may expect unusual oppression and hardships in business",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Night",
+      "original": "If you are surrounded by night in your dreams, you may expect unusual oppression and hardships in business.",
+      "translation_ko": "밤에 둘러싸인 꿈은 사업에서 남다른 억눌림과 곤란을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "어둠",
+    "term_en": "dark",
+    "context": "밤이 걷히는 것을 봄",
+    "interpretation_ko": "여태 나쁘던 형편이 밝아지고 일이 번창할 길조",
+    "interpretation_en": "if the night seems to be vanishing, conditions which hitherto seemed unfavorable will now grow bright, and affairs will assume prosperous phases",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Night",
+      "original": "If the night seems to be vanishing, conditions which hitherto seemed unfavorable will now grow bright, and affairs will assume prosperous phases.",
+      "translation_ko": "밤이 걷히는 꿈은 여태 나쁘던 형편이 밝아지고 일이 번창할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "악몽",
+    "term_en": "nightmare",
+    "context": "악몽에 사로잡힘",
+    "interpretation_ko": "다툼과 사업의 실패를 겪을 흉조",
+    "interpretation_en": "to dream of being attacked with this hideous sensation, denotes wrangling and failure in business",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Nightmare",
+      "original": "To dream of being attacked with this hideous sensation, denotes wrangling and failure in business.",
+      "translation_ko": "이 끔찍한 느낌에 사로잡히는 꿈은 다툼과 사업의 실패를 알린다"
+    }
+  },
+  {
+    "term_ko": "악몽",
+    "term_en": "nightmare",
+    "context": "처녀가 악몽에 사로잡힘",
+    "interpretation_ko": "실망과 억울한 푸대접을 겪고, 건강과 먹거리도 살펴야 할 흉조",
+    "interpretation_en": "for a young woman, this is a dream prophetic of disappointment and unmerited slights; it may also warn the dreamer to be careful of her health, and food",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Nightmare",
+      "original": "For a young woman, this is a dream prophetic of disappointment and unmerited slights. It may also warn the dreamer to be careful of her health, and food.",
+      "translation_ko": "처녀가 악몽에 사로잡히면 실망과 억울한 푸대접을 겪고, 건강과 먹거리도 살펴야 한다"
+    }
+  },
+  {
+    "term_ko": "나이팅게일",
+    "term_en": "nightingale",
+    "context": "나이팅게일의 고운 노래를 들음",
+    "interpretation_ko": "즐거운 삶과 번창하고 건강한 형편이 있을 길조 — 연인·부모에게 더욱 좋다",
+    "interpretation_en": "to dream that you are listening to the harmonious notes of the nightingale, foretells a pleasing existence, and prosperous and healthy surroundings; this is a most favorable dream to lovers, and parents",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Nightingale",
+      "original": "To dream that you are listening to the harmonious notes of the nightingale, foretells a pleasing existence, and prosperous and healthy surroundings. This is a most favorable dream to lovers, and parents.",
+      "translation_ko": "나이팅게일의 고운 노랫소리를 듣는 꿈은 즐거운 삶과 번창하고 건강한 형편을 알린다. 연인과 부모에게 더없이 좋은 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나이팅게일",
+    "term_en": "nightingale",
+    "context": "나이팅게일이 잠잠한 것을 봄",
+    "interpretation_ko": "벗들 사이에 자잘한 오해가 있을 흉조",
+    "interpretation_en": "to see nightingales silent, foretells slight misunderstandings among friends",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Nightingale",
+      "original": "To see nightingales silent, foretells slight misunderstandings among friends.",
+      "translation_ko": "나이팅게일이 잠잠한 것을 보는 꿈은, 벗들 사이에 자잘한 오해가 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나인핀즈",
+    "term_en": "ninepins",
+    "context": "구주희를 함",
+    "interpretation_ko": "힘과 기회를 어리석게 허비하고 있다는 흉조 — 벗을 가려 사귈 것",
+    "interpretation_en": "to dream that you play ninepins, denotes that you are foolishly wasting your energy and opportunities; you should be careful in the selection of companions; all phases of this dream are bad",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ninepins",
+      "original": "To dream that you play ninepins, denotes that you are foolishly wasting your energy and opportunities. You should be careful in the selection of companions. All phases of this dream are bad.",
+      "translation_ko": "구주희를 하는 꿈은 힘과 기회를 어리석게 허비함을 뜻한다. 벗을 가려 사귀어야 한다. 이 꿈은 다 나쁘다"
+    }
+  },
+  {
+    "term_ko": "귀족",
+    "term_en": "nobility",
+    "context": "귀족과 어울림",
+    "interpretation_ko": "품은 뜻이 바르지 못해 겉치레와 쾌락을 좇고 있다는 흉조",
+    "interpretation_en": "to dream of associating with the nobility, denotes that your aspirations are not of the right nature, as you prefer show and pleasures to the higher development of the mind",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Nobility",
+      "original": "To dream of associating with the nobility, denotes that your aspirations are not of the right nature, as you prefer show and pleasures to the higher development of the mind.",
+      "translation_ko": "귀족과 어울리는 꿈은, 품은 뜻이 바르지 못하여 마음을 갈고닦기보다 겉치레와 쾌락을 좇고 있음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "귀족",
+    "term_en": "nobility",
+    "context": "처녀가 귀족 꿈을 꿈",
+    "interpretation_ko": "어질고 든든한 이 대신 겉모습만 보고 정인을 고를 흉조",
+    "interpretation_en": "for a young woman to dream of the nobility, foretells that she will choose a lover for his outward appearance, instead of wisely accepting the man of merit for her protector",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Nobility",
+      "original": "For a young woman to dream of the nobility, foretells that she will choose a lover for his outward appearance, instead of wisely accepting the man of merit for her protector.",
+      "translation_ko": "처녀가 귀족 꿈을 꾸면, 어질고 든든한 이 대신 겉모습만 보고 정인을 고를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "소음",
+    "term_en": "noise",
+    "context": "이상한 소음을 들음",
+    "interpretation_ko": "언짢은 소식이 있을 흉조",
+    "interpretation_en": "if you hear a strange noise in your dream, unfavorable news is presaged",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Noise",
+      "original": "If you hear a strange noise in your dream, unfavorable news is presaged.",
+      "translation_ko": "꿈에 이상한 소음을 들으면 언짢은 소식이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "소음",
+    "term_en": "noise",
+    "context": "소음에 잠을 깸",
+    "interpretation_ko": "갑작스러운 일의 변화가 있을 조짐",
+    "interpretation_en": "if the noise awakes you, there will be a sudden change in your affairs",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Noise",
+      "original": "If the noise awakes you, there will be a sudden change in your affairs.",
+      "translation_ko": "소음에 잠을 깨면 갑작스러운 일의 변화가 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "국수",
+    "term_en": "noodles",
+    "context": "국수를 봄",
+    "interpretation_ko": "비정상적인 식욕과 욕망이 있다는 흉조 — 이 꿈에 좋을 것이 별로 없다",
+    "interpretation_en": "to dream of noodles, denotes an abnormal appetite and desires; there is little good in this dream",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Noodles",
+      "original": "To dream of noodles, denotes an abnormal appetite and desires. There is little good in this dream.",
+      "translation_ko": "꿈에 국수를 보면 비정상적인 식욕과 욕망을 뜻한다. 이 꿈에 좋을 것이 별로 없다"
+    }
+  },
+  {
+    "term_ko": "코",
+    "term_en": "nose",
+    "context": "제 코를 봄",
+    "interpretation_ko": "강한 기개와 어떤 일이든 해낼 수 있다는 자각이 있을 길조",
+    "interpretation_en": "to see your own nose, indicates force of character, and consciousness of your ability to accomplish whatever enterprise you may choose to undertake",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Nose",
+      "original": "To see your own nose, indicates force of character, and consciousness of your ability to accomplish whatever enterprise you may choose to undertake.",
+      "translation_ko": "제 코를 보는 꿈은 강한 기개와 어떤 일이든 해낼 수 있다는 자각을 뜻하는 길조다"
+    }
+  },
+  {
+    "term_ko": "코",
+    "term_en": "nose",
+    "context": "제 코가 원래보다 작아 보임",
+    "interpretation_ko": "하는 일에서 실패가 있을 흉조",
+    "interpretation_en": "if your nose looks smaller than natural, there will be failure in your affairs",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Nose",
+      "original": "If your nose looks smaller than natural, there will be failure in your affairs.",
+      "translation_ko": "제 코가 원래보다 작아 보이는 꿈은 하는 일에서 실패가 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "코",
+    "term_en": "nose",
+    "context": "코에 털이 남을 봄",
+    "interpretation_ko": "남다른 일을 벌이고 순전한 기개와 의지로 이루어 낼 길조",
+    "interpretation_en": "hair growing on your nose, indicates extraordinary undertakings, and that they will be carried through by sheer force of character, or will",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Nose",
+      "original": "Hair growing on your nose, indicates extraordinary undertakings, and that they will be carried through by sheer force of character, or will.",
+      "translation_ko": "코에 털이 나는 꿈은 남다른 일을 벌이고 그것을 순전한 기개와 의지로 이루어 낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "출혈",
+    "term_en": "bleeding",
+    "context": "코피가 남",
+    "interpretation_ko": "누구에게든 재앙이 닥칠 흉조",
+    "interpretation_en": "a bleeding nose, is prophetic of disaster, whatever the calling of the dreamer may be",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Nose",
+      "original": "A bleeding nose, is prophetic of disaster, whatever the calling of the dreamer may be.",
+      "translation_ko": "코피가 나는 꿈은 어떤 이에게든 재앙이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "공증인",
+    "term_en": "notary",
+    "context": "공증인을 봄",
+    "interpretation_ko": "채워지지 않은 욕망과 있을 법한 송사가 있을 흉조",
+    "interpretation_en": "to dream of a notary, is a prediction of unsatisfied desires, and probable lawsuits",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Notary",
+      "original": "To dream of a notary, is a prediction of unsatisfied desires, and probable lawsuits.",
+      "translation_ko": "꿈에 공증인을 보면 채워지지 않은 욕망과 있을 법한 송사를 예고한다"
+    }
+  },
+  {
+    "term_ko": "공증인",
+    "term_en": "notary",
+    "context": "여성이 공증인과 어울림",
+    "interpretation_ko": "어리석은 쾌락을 좇다가 경솔하게 제 평판을 걸게 될 흉조",
+    "interpretation_en": "for a woman to associate with a notary, foretells she will rashly risk her reputation, in gratification of foolish pleasure",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Notary",
+      "original": "For a woman to associate with a notary, foretells she will rashly risk her reputation, in gratification of foolish pleasure.",
+      "translation_ko": "여성이 공증인과 어울리는 꿈은, 어리석은 쾌락을 좇다가 경솔하게 제 평판을 걸 조짐이다"
+    }
+  },
+  {
+    "term_ko": "11월",
+    "term_en": "november",
+    "context": "11월 꿈을 꿈",
+    "interpretation_ko": "모든 일에서 그저 그런 성과가 있을 시기라는 조짐",
+    "interpretation_en": "to dream of November, augers a season of indifferent success in all affairs",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "November",
+      "original": "To dream of November, augers a season of indifferent success in all affairs.",
+      "translation_ko": "11월 꿈은 모든 일에서 그저 그런 성과가 있을 철임을 알린다"
+    }
+  },
+  {
+    "term_ko": "통증",
+    "term_en": "ache",
+    "context": "몸에 저림이 스멀스멀 번짐",
+    "interpretation_ko": "병이 들고 마음이 어수선해질 흉조",
+    "interpretation_en": "to dream that you feel a numbness creeping over you, in your dreams, is a sign of illness, and disquieting conditions",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Numbness",
+      "original": "To dream that you feel a numbness creeping over you, in your dreams, is a sign of illness, and disquieting conditions",
+      "translation_ko": "몸에 저림이 스멀스멀 번지는 꿈은 병이 들고 마음이 어수선해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "숫자",
+    "term_en": "figure",
+    "context": "숫자 때문에 사업이 어수선함",
+    "interpretation_ko": "사업이 어수선해져 마음이 불편하고 못마땅해질 흉조",
+    "interpretation_en": "to dream of numbers, denotes that unsettled conditions in business will cause you uneasiness and dissatisfaction",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Numbers",
+      "original": "To dream of numbers, denotes that unsettled conditions in business will cause you uneasiness and dissatisfaction.",
+      "translation_ko": "숫자 꿈은 사업이 어수선해져 마음이 불편하고 못마땅해질 조짐이다"
+    }
+  }
+]

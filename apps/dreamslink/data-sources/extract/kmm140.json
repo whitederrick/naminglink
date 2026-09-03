@@ -1,0 +1,205 @@
+[
+  {
+    "id": "newspaper-reporter",
+    "aliases": [
+      "기자를",
+      "기자가",
+      "기자였다",
+      "신문기자"
+    ],
+    "aliases_en": [
+      "reporter",
+      "reporters"
+    ],
+    "contexts": {
+      "신문 기자를 마지못해 봄": "마지못해 잡담에 시달리",
+      "제가 신문 기자임을 봄": "제가 내가 여행길 명예"
+    },
+    "contexts_en": {
+      "신문 기자를 마지못해 봄": "unwillingly annoyed small talk quarrels",
+      "제가 신문 기자임을 봄": "varied travel honor gain"
+    }
+  },
+  {
+    "id": "new-year",
+    "aliases": [
+      "새해가",
+      "새해를",
+      "새해에"
+    ],
+    "aliases_en": [
+      "the new year"
+    ],
+    "contexts": {
+      "새해를 봄": "번영 혼인의 기대",
+      "지친 마음으로 새해를 생각함": "지친 지쳐서 피곤한"
+    },
+    "contexts_en": {
+      "새해를 봄": "prosperity connubial anticipations",
+      "지친 마음으로 새해를 생각함": "weariness inauspiciously"
+    }
+  },
+  {
+    "id": "niece",
+    "aliases": [
+      "조카딸이",
+      "조카딸을"
+    ],
+    "aliases_en": [
+      "nieces"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "nightmare",
+    "aliases": [
+      "악몽을",
+      "악몽에",
+      "가위눌림",
+      "가위에 눌렸다"
+    ],
+    "aliases_en": [
+      "nightmares"
+    ],
+    "contexts": {
+      "악몽에 사로잡힘": "다툼과 사업의 실패",
+      "처녀가 악몽에 사로잡힘": "처녀가 실망 푸대접 건강"
+    },
+    "contexts_en": {
+      "악몽에 사로잡힘": "hideous sensation wrangling failure",
+      "처녀가 악몽에 사로잡힘": "young woman disappointment unmerited slights"
+    }
+  },
+  {
+    "id": "nightingale",
+    "aliases": [
+      "나이팅게일이",
+      "나이팅게일을"
+    ],
+    "aliases_en": [
+      "nightingales"
+    ],
+    "contexts": {
+      "나이팅게일의 고운 노래를 들음": "고운 노래를 들었",
+      "나이팅게일이 잠잠한 것을 봄": "잠잠한 조용한 침묵"
+    },
+    "contexts_en": {
+      "나이팅게일의 고운 노래를 들음": "listening harmonious pleasing prosperous healthy",
+      "나이팅게일이 잠잠한 것을 봄": "silent misunderstandings friends"
+    }
+  },
+  {
+    "id": "ninepins",
+    "aliases": [
+      "구주희",
+      "나인핀",
+      "볼링핀 게임"
+    ],
+    "aliases_en": [
+      "ninepin"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "nobility",
+    "aliases": [
+      "귀족이",
+      "귀족을",
+      "귀족과"
+    ],
+    "aliases_en": [
+      "the nobility"
+    ],
+    "contexts": {
+      "귀족과 어울림": "어울리는 어울렸",
+      "처녀가 귀족 꿈을 꿈": "처녀가 정인을 겉모습"
+    },
+    "contexts_en": {
+      "귀족과 어울림": "associating aspirations show pleasures",
+      "처녀가 귀족 꿈을 꿈": "young woman outward appearance protector"
+    }
+  },
+  {
+    "id": "noise",
+    "aliases": [
+      "소음이",
+      "소음을",
+      "소음에"
+    ],
+    "aliases_en": [
+      "noises"
+    ],
+    "contexts": {
+      "이상한 소음을 들음": "이상한 낯선 들었",
+      "소음에 잠을 깸": "잠에서 깨어났"
+    },
+    "contexts_en": {
+      "이상한 소음을 들음": "strange unfavorable news presaged",
+      "소음에 잠을 깸": "awakes sudden change affairs"
+    }
+  },
+  {
+    "id": "noodles",
+    "aliases": [
+      "국수가",
+      "국수를"
+    ],
+    "aliases_en": [
+      "a noodle"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "nose",
+    "aliases": [
+      "코가",
+      "코를",
+      "코에"
+    ],
+    "aliases_en": [],
+    "contexts": {
+      "제 코를 봄": "코를 보았",
+      "제 코가 원래보다 작아 보임": "작아 보였 작게",
+      "코에 털이 남을 봄": "털이 자랐"
+    },
+    "contexts_en": {
+      "제 코를 봄": "own force character enterprise",
+      "제 코가 원래보다 작아 보임": "smaller natural failure",
+      "코에 털이 남을 봄": "hair growing extraordinary undertakings"
+    }
+  },
+  {
+    "id": "notary",
+    "aliases": [
+      "공증인이",
+      "공증인을"
+    ],
+    "aliases_en": [
+      "notaries"
+    ],
+    "contexts": {
+      "공증인을 봄": "공증인을 보았",
+      "여성이 공증인과 어울림": "여성이 여자가 어울렸"
+    },
+    "contexts_en": {
+      "공증인을 봄": "unsatisfied desires lawsuits",
+      "여성이 공증인과 어울림": "woman associate rashly reputation"
+    }
+  },
+  {
+    "id": "november",
+    "aliases": [
+      "십일월",
+      "11월에",
+      "십일월에"
+    ],
+    "aliases_en": [
+      "novembers"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

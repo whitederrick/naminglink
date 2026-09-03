@@ -1171,8 +1171,14 @@
       "losing blood",
       "a bleeding wound"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "피를 흘리는 꿈을 꿈": "사고 죽음 소문 등을",
+      "코피가 남": "코피 재앙"
+    },
+    "contexts_en": {
+      "피를 흘리는 꿈을 꿈": "horrible accidents malicious reports fortune",
+      "코피가 남": "nosebleed prophetic disaster"
+    }
   },
   {
     "id": "blind-man-s-buff",

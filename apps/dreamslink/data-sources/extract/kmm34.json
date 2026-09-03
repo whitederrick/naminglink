@@ -74,8 +74,14 @@
     "aliases_en": [
       "figures"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "숫자를 봄": "어지럽 그르치 손해",
+      "숫자 때문에 사업이 어수선함": "어수선 불편 못마땅"
+    },
+    "contexts_en": {
+      "숫자를 봄": "distress wrong loser deal",
+      "숫자 때문에 사업이 어수선함": "unsettled uneasiness dissatisfaction"
+    }
   },
   {
     "id": "filbert",
