@@ -4917,5 +4917,12 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pearl::진주 꿈을 꿈": "forerunner business trade",
   "pearl::애인이 진주를 선물함": "gifts festivity affianced",
   "pearl::진주를 잃거나 깨뜨림": "loses breaks bereavement",
-  "pearl::진주를 홀린 듯 바라봄": "admiring covet pureness"
+  "pearl::진주를 홀린 듯 바라봄": "admiring covet pureness",
+  "pea::완두콩을 먹음": "robust wealth",
+  "pea::자라는 완두콩을 봄": "growing fortunate enterprises",
+  "pea::완두콩을 심음": "plant grounded realized",
+  "pea::완두콩을 거둠": "gather culminate labors",
+  "pea::통조림 완두콩 꿈을 꿈": "canned enthralled uncertainties",
+  "pea::마른 완두콩을 봄": "overtaxing",
+  "pea::마른 완두콩을 먹음": "dried eat decrease"
 };

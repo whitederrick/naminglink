@@ -73,6 +73,7 @@
     "m161.json",
     "m162.json",
     "m163.json",
+    "m164.json",
     "m17.json",
     "m18.json",
     "m19.json",
@@ -27988,6 +27989,122 @@
               "locator": "Parents",
               "original": "If they appear indisposed or sad, you will find life's favors passing you by without recognition.",
               "translation_ko": "부모가 편찮거나 슬퍼 보이는 꿈은, 인생의 행운이 그냥 지나칠 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pea",
+      "term_ko": "완두콩",
+      "term_en": "pea",
+      "aliases": [
+        "완두콩이",
+        "완두콩을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "완두콩을 먹음",
+          "interpretation_ko": "튼튼한 건강과 재산이 쌓일 조짐이며 농부와 그 집 여인들에게는 활기찬 일이 많을 조짐",
+          "interpretation_en": "augurs robust health and the accumulation of wealth. Much activity is indicated for farmers and their women folks",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peas",
+              "original": "Dreaming of eating peas, augurs robust health and the accumulation of wealth. Much activity is indicated for farmers and their women folks.",
+              "translation_ko": "완두콩을 먹는 꿈은, 튼튼한 건강과 재산이 쌓일 조짐이며 농부와 그 집 여인들에게는 활기찬 일이 많을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자라는 완두콩을 봄",
+          "interpretation_ko": "사업이 잘 풀릴 조짐",
+          "interpretation_en": "denotes fortunate enterprises",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peas",
+              "original": "To see them growing, denotes fortunate enterprises.",
+              "translation_ko": "자라는 완두콩을 보는 꿈은, 사업이 잘 풀릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "완두콩을 심음",
+          "interpretation_ko": "품은 바람이 튼튼한 바탕 위에 있어 이루어질 조짐",
+          "interpretation_en": "denotes that your hopes are well grounded and they will be realized",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peas",
+              "original": "To plant them, denotes that your hopes are well grounded and they will be realized.",
+              "translation_ko": "완두콩을 심는 꿈은, 품은 바람이 튼튼한 바탕 위에 있어 이루어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "완두콩을 거둠",
+          "interpretation_ko": "계획이 좋게 마무리되어 애쓴 결실을 누릴 조짐",
+          "interpretation_en": "signifies that your plans will culminate in good and you will enjoy the fruits of your labors",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peas",
+              "original": "To gather them, signifies that your plans will culminate in good and you will enjoy the fruits of your labors.",
+              "translation_ko": "완두콩을 거두는 꿈은, 계획이 좋게 마무리되어 애쓴 결실을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "통조림 완두콩 꿈을 꿈",
+          "interpretation_ko": "가장 밝던 희망이 한동안 불확실함에 갇히지만 끝내 운수가 풀어줄 조짐",
+          "interpretation_en": "denotes that your brightest hopes will be enthralled in uncertainties for a short season, but they will finally be released by fortune",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peas",
+              "original": "To dream of canned peas, denotes that your brightest hopes will be enthralled in uncertainties for a short season, but they will finally be released by fortune.",
+              "translation_ko": "통조림 완두콩 꿈은, 가장 밝던 희망이 한동안 불확실함에 갇히지만 끝내 운수가 풀어줄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "마른 완두콩을 봄",
+          "interpretation_ko": "건강을 무리하게 쓰고 있다는 조짐",
+          "interpretation_en": "denotes that you are overtaxing your health",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peas",
+              "original": "To see dried peas, denotes that you are overtaxing your health.",
+              "translation_ko": "마른 완두콩을 보는 꿈은, 건강을 무리하게 쓰고 있다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "마른 완두콩을 먹음",
+          "interpretation_ko": "큰 성공 뒤에 즐거움이나 재산이 조금 줄어들 조짐",
+          "interpretation_en": "foretells that you will, after much success, suffer a slight decrease in pleasure or wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Peas",
+              "original": "To eat dried peas, foretells that you will, after much success, suffer a slight decrease in pleasure or wealth.",
+              "translation_ko": "마른 완두콩을 먹는 꿈은, 큰 성공 뒤에 즐거움이나 재산이 조금 줄어들 조짐이다"
             }
           ]
         }

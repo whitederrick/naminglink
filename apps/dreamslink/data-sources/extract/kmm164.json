@@ -1,0 +1,30 @@
+[
+  {
+    "id": "pea",
+    "aliases": [
+      "완두콩이",
+      "완두콩을"
+    ],
+    "aliases_en": [
+      "peas"
+    ],
+    "contexts": {
+      "완두콩을 먹음": "튼튼한 재산",
+      "자라는 완두콩을 봄": "자라는 사업이",
+      "완두콩을 심음": "심었 바탕 이루어질",
+      "완두콩을 거둠": "거두 계획 결실",
+      "통조림 완두콩 꿈을 꿈": "통조림 불확실함 운수",
+      "마른 완두콩을 봄": "보았 무리하게",
+      "마른 완두콩을 먹음": "마른 성공"
+    },
+    "contexts_en": {
+      "완두콩을 먹음": "robust wealth",
+      "자라는 완두콩을 봄": "growing fortunate enterprises",
+      "완두콩을 심음": "plant grounded realized",
+      "완두콩을 거둠": "gather culminate labors",
+      "통조림 완두콩 꿈을 꿈": "canned enthralled uncertainties",
+      "마른 완두콩을 봄": "overtaxing",
+      "마른 완두콩을 먹음": "dried eat decrease"
+    }
+  }
+]

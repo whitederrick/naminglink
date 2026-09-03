@@ -6727,5 +6727,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "pearl": [
     "pearls"
+  ],
+  "pea": [
+    "peas"
   ]
 };
