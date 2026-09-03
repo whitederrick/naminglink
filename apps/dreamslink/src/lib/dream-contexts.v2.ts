@@ -3275,6 +3275,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "eating::혼자서 먹음": "alone melancholy",
   "eating::남과 함께 먹음": "others cheerful environments",
   "eating::다 먹기 전에 딸이 고기 접시를 물려 감": "daughter platter carries",
+  "eating::끼니를 봄": "meals trifling momentous engagements",
   "eclipse::해가 가려지는 것을 봄": "sun secular families",
   "eclipse::달이 가려지는 것을 봄": "moon contagious",
   "ecstasy::황홀함을 느낌": "feeling visit friend",
@@ -4339,5 +4340,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "mausoleum::영묘를 봄": "sickness death trouble prominent",
   "mausoleum::영묘 안에 있음": "inside foretells illness",
   "may::오월을 봄": "prosperous times young",
-  "may::철에 맞지 않게 자연이 괴이해 보임": "nature freakish clouding"
+  "may::철에 맞지 않게 자연이 괴이해 보임": "nature freakish clouding",
+  "meadow::초원을 봄": "predicts happy reunions bright promises",
+  "measles::제가 홍역에 걸림": "worry anxious interfere",
+  "measles::남이 홍역에 걸린 것을 봄": "others disease troubled condition",
+  "mechanic::기계공을 봄": "dwelling active advancement wages",
+  "medal::훈장을 봄": "honors gained application industry",
+  "medal::훈장을 잃음": "lose misfortune unfaithfulness",
+  "medicine::맛이 좋은 약을 먹음": "pleasant taste short time",
+  "medicine::역겨운 약을 먹음": "disgusting protracted deep sorrow",
+  "medicine::남에게 약을 줌": "give others injure trusted"
 };

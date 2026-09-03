@@ -104,7 +104,9 @@
       "먹고 있었다",
       "먹다가",
       "먹는 중",
-      "먹기도 전"
+      "먹기도 전",
+      "끼니를",
+      "끼니가"
     ],
     "aliases_en": [
       "eating",
@@ -114,12 +116,14 @@
     "contexts": {
       "혼자서 먹음": "혼자 홀로",
       "남과 함께 먹음": "함께 같이 여럿이 둘러앉",
-      "다 먹기 전에 딸이 고기 접시를 물려 감": "딸이 접시를 치워 물려"
+      "다 먹기 전에 딸이 고기 접시를 물려 감": "딸이 접시를 치워 물려",
+      "끼니를 봄": "끼니"
     },
     "contexts_en": {
       "혼자서 먹음": "alone melancholy",
       "남과 함께 먹음": "others cheerful environments",
-      "다 먹기 전에 딸이 고기 접시를 물려 감": "daughter platter carries"
+      "다 먹기 전에 딸이 고기 접시를 물려 감": "daughter platter carries",
+      "끼니를 봄": "meals trifling momentous engagements"
     }
   },
   {

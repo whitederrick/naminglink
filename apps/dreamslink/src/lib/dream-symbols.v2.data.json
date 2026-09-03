@@ -26,6 +26,7 @@
     "m119.json",
     "m12.json",
     "m120.json",
+    "m121.json",
     "m13.json",
     "m14.json",
     "m15.json",
@@ -43411,6 +43412,89 @@
       ]
     },
     {
+      "id": "eating",
+      "term_ko": "음식을 먹음",
+      "term_en": "eating",
+      "aliases": [
+        "음식을 먹었다",
+        "밥을 먹었다",
+        "혼자 먹었다",
+        "같이 먹었다",
+        "식사를 했다",
+        "먹고 있었다",
+        "먹다가",
+        "먹는 중",
+        "먹기도 전",
+        "끼니를",
+        "끼니가"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "혼자서 먹음",
+          "interpretation_ko": "잃는 것이 있고 마음이 가라앉을 흉한 조짐",
+          "interpretation_en": "loss and melancholy spirits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eating",
+              "original": "To dream of eating alone, signifies loss and melancholy spirits.",
+              "translation_ko": "혼자서 먹는 꿈은 잃는 것과 가라앉은 마음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "끼니를 봄",
+          "interpretation_ko": "하찮은 일이 중한 일과 하는 일을 가로막게 둘 흉한 조짐",
+          "interpretation_en": "denotes that you will let trifling matters interfere with momentous affairs and business engagements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Meals",
+              "original": "To dream of meals, denotes that you will let trifling matters interfere with momentous affairs and business engagements.",
+              "translation_ko": "끼니의 꿈은, 하찮은 일이 중한 일과 하는 일을 가로막게 둠을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남과 함께 먹음",
+          "interpretation_ko": "제 몫이 늘고 둘레가 밝아지며 벌인 일이 잘될 길한 조짐",
+          "interpretation_en": "personal gain, cheerful environments and prosperous undertakings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eating",
+              "original": "To eat with others, denotes personal gain, cheerful environments and prosperous undertakings.",
+              "translation_ko": "남과 함께 먹는 꿈은 제 몫이 늘고 둘레가 밝아지며 벌인 일이 잘됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "다 먹기 전에 딸이 고기 접시를 물려 감",
+          "interpretation_ko": "아랫사람이나 딸린 이들 때문에 골치 아프고 성가신 일이 있을 흉한 조짐",
+          "interpretation_en": "you will have trouble and vexation from those beneath you or dependent upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Eating",
+              "original": "If your daughter carries away the platter of meat before you are done eating, it foretells that you will have trouble and vexation from those beneath you or dependent upon you.",
+              "translation_ko": "다 먹기도 전에 딸이 고기 접시를 들고 가 버리는 꿈은, 아랫사람이나 나에게 딸린 이들 때문에 골치 아프고 성가신 일이 있음을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "eel",
       "term_ko": "뱀장어",
       "term_en": "eel",
@@ -54983,73 +55067,6 @@
       ]
     },
     {
-      "id": "eating",
-      "term_ko": "음식을 먹음",
-      "term_en": "eating",
-      "aliases": [
-        "음식을 먹었다",
-        "밥을 먹었다",
-        "혼자 먹었다",
-        "같이 먹었다",
-        "식사를 했다",
-        "먹고 있었다",
-        "먹다가",
-        "먹는 중",
-        "먹기도 전"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "혼자서 먹음",
-          "interpretation_ko": "잃는 것이 있고 마음이 가라앉을 흉한 조짐",
-          "interpretation_en": "loss and melancholy spirits",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Eating",
-              "original": "To dream of eating alone, signifies loss and melancholy spirits.",
-              "translation_ko": "혼자서 먹는 꿈은 잃는 것과 가라앉은 마음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "남과 함께 먹음",
-          "interpretation_ko": "제 몫이 늘고 둘레가 밝아지며 벌인 일이 잘될 길한 조짐",
-          "interpretation_en": "personal gain, cheerful environments and prosperous undertakings",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Eating",
-              "original": "To eat with others, denotes personal gain, cheerful environments and prosperous undertakings.",
-              "translation_ko": "남과 함께 먹는 꿈은 제 몫이 늘고 둘레가 밝아지며 벌인 일이 잘됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "다 먹기 전에 딸이 고기 접시를 물려 감",
-          "interpretation_ko": "아랫사람이나 딸린 이들 때문에 골치 아프고 성가신 일이 있을 흉한 조짐",
-          "interpretation_en": "you will have trouble and vexation from those beneath you or dependent upon you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Eating",
-              "original": "If your daughter carries away the platter of meat before you are done eating, it foretells that you will have trouble and vexation from those beneath you or dependent upon you.",
-              "translation_ko": "다 먹기도 전에 딸이 고기 접시를 들고 가 버리는 꿈은, 아랫사람이나 나에게 딸린 이들 때문에 골치 아프고 성가신 일이 있음을 알린다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "elbow",
       "term_ko": "팔꿈치",
       "term_en": "elbow",
@@ -59730,6 +59747,68 @@
               "locator": "飲食酒肉瓜菜",
               "original": "食自死肉主別離",
               "translation_ko": "저절로 죽은 고기를 먹으면 이별이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medicine",
+      "term_ko": "먹는 약",
+      "term_en": "medicine",
+      "aliases": [
+        "약을",
+        "약이",
+        "약은",
+        "약물"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "맛이 좋은 약을 먹음",
+          "interpretation_ko": "괴로운 일이 오나 머잖아 그것이 저에게 좋게 돌아설 조짐",
+          "interpretation_en": "a trouble will come to you, but in a short time it will work for your good",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Medicine",
+              "original": "To dream of medicine, if pleasant to the taste, a trouble will come to you, but in a short time it will work for your good;",
+              "translation_ko": "약이 맛이 좋으면, 괴로운 일이 오나 머잖아 그것이 저에게 좋게 돌아선다"
+            }
+          ]
+        },
+        {
+          "context": "역겨운 약을 먹음",
+          "interpretation_ko": "오래 앓거나 깊은 슬픔이나 잃음이 저를 덮칠 흉한 조짐",
+          "interpretation_en": "you will suffer a protracted illness or some deep sorrow or loss will overcome you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Medicine",
+              "original": "but if you take disgusting medicine, you will suffer a protracted illness or some deep sorrow or loss will overcome you.",
+              "translation_ko": "역겨운 약을 먹으면 오래 앓거나 깊은 슬픔이나 잃음이 저를 덮친다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 약을 줌",
+          "interpretation_ko": "저를 믿은 사람을 해치려 들 흉한 조짐",
+          "interpretation_en": "denotes that you will work to injure some one who trusted you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Medicine",
+              "original": "To give medicine to others, denotes that you will work to injure some one who trusted you.",
+              "translation_ko": "남에게 약을 주면 저를 믿은 사람을 해치려 든다"
             }
           ]
         }
@@ -79815,6 +79894,100 @@
       ]
     },
     {
+      "id": "measles",
+      "term_ko": "홍역",
+      "term_en": "measles",
+      "aliases": [
+        "홍역에",
+        "홍역이",
+        "홍역을"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 홍역에 걸림",
+          "interpretation_ko": "걱정이 많고 애타는 마음이 하는 일을 가로막을 흉한 조짐",
+          "interpretation_en": "denotes much worry, and anxious care will interfere with your business affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Measles",
+              "original": "To dream that you have measles, denotes much worry, and anxious care will interfere with your business affairs.",
+              "translation_ko": "제가 홍역에 걸리는 꿈은, 걱정이 많고 애타는 마음이 하는 일을 가로막음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 홍역에 걸린 것을 봄",
+          "interpretation_ko": "남의 처지 때문에 마음이 괴로울 흉한 조짐",
+          "interpretation_en": "denotes that you will be troubled over the condition of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Measles",
+              "original": "To dream that others have this disease, denotes that you will be troubled over the condition of others.",
+              "translation_ko": "남이 그 병에 걸린 것을 보면 그 처지 때문에 마음이 괴롭다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medal",
+      "term_ko": "훈장",
+      "term_en": "medal",
+      "aliases": [
+        "훈장을",
+        "훈장이",
+        "메달"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "훈장을 봄",
+          "interpretation_ko": "부지런히 애써 얻은 이름을 뜻하는 길한 조짐",
+          "interpretation_en": "denotes honors gained by application and industry",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Medal",
+              "original": "To dream of medals, denotes honors gained by application and industry.",
+              "translation_ko": "훈장의 꿈은 부지런히 애써 얻은 이름을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "훈장을 잃음",
+          "interpretation_ko": "남이 마음을 저버려 궂은일을 겪을 흉한 조짐",
+          "interpretation_en": "denotes misfortune through the unfaithfulness of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Medal",
+              "original": "To lose a medal, denotes misfortune through the unfaithfulness of others.",
+              "translation_ko": "훈장을 잃으면 남이 마음을 저버려 궂은일을 겪는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "millet",
       "term_ko": "좁쌀",
       "term_en": "millet",
@@ -90759,6 +90932,72 @@
               "locator": "Marigold",
               "original": "To dream of seeing marigolds, denotes contentment with frugality should be your aim.",
               "translation_ko": "금잔화를 보는 꿈은, 아끼며 사는 데서 오는 흡족함을 목표로 삼으라는 뜻이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meadow",
+      "term_ko": "초원",
+      "term_en": "meadow",
+      "aliases": [
+        "초원을",
+        "초원이",
+        "목초지"
+      ],
+      "category": "place",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "초원을 봄",
+          "interpretation_ko": "앞날의 넉넉함이 밝게 약속된 가운데 반가운 만남이 있을 길한 조짐",
+          "interpretation_en": "predicts happy reunions under bright promises of future prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Meadow",
+              "original": "To dream of meadows, predicts happy reunions under bright promises of future prosperity.",
+              "translation_ko": "초원의 꿈은, 앞날의 넉넉함이 밝게 약속된 가운데 반가운 만남이 있음을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mechanic",
+      "term_ko": "기계공",
+      "term_en": "mechanic",
+      "aliases": [
+        "기계공이",
+        "기계공을",
+        "정비공"
+      ],
+      "category": "person",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기계공을 봄",
+          "interpretation_ko": "사는 곳이 바뀌고 하는 일이 더 활기차질 길한 조짐 — 기계를 다루는 기계공을 보면 삯이 오르는 일이 흔히 따른다",
+          "interpretation_en": "denotes change in your dwelling place and a more active business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mechanic",
+              "original": "To dream of a mechanic, denotes change in your dwelling place and a more active business.",
+              "translation_ko": "기계공의 꿈은, 사는 곳이 바뀌고 하는 일이 더 활기차짐을 뜻한다"
             }
           ]
         }

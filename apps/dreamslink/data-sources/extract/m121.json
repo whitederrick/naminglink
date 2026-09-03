@@ -1,0 +1,152 @@
+[
+  {
+    "term_ko": "초원",
+    "term_en": "meadow",
+    "context": "초원을 봄",
+    "interpretation_ko": "앞날의 넉넉함이 밝게 약속된 가운데 반가운 만남이 있을 길한 조짐",
+    "interpretation_en": "predicts happy reunions under bright promises of future prosperity",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Meadow",
+      "original": "To dream of meadows, predicts happy reunions under bright promises of future prosperity.",
+      "translation_ko": "초원의 꿈은, 앞날의 넉넉함이 밝게 약속된 가운데 반가운 만남이 있음을 알린다"
+    }
+  },
+  {
+    "term_ko": "음식을 먹음",
+    "term_en": "eating",
+    "context": "끼니를 봄",
+    "interpretation_ko": "하찮은 일이 중한 일과 하는 일을 가로막게 둘 흉한 조짐",
+    "interpretation_en": "denotes that you will let trifling matters interfere with momentous affairs and business engagements",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Meals",
+      "original": "To dream of meals, denotes that you will let trifling matters interfere with momentous affairs and business engagements.",
+      "translation_ko": "끼니의 꿈은, 하찮은 일이 중한 일과 하는 일을 가로막게 둠을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "홍역",
+    "term_en": "measles",
+    "context": "제가 홍역에 걸림",
+    "interpretation_ko": "걱정이 많고 애타는 마음이 하는 일을 가로막을 흉한 조짐",
+    "interpretation_en": "denotes much worry, and anxious care will interfere with your business affairs",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Measles",
+      "original": "To dream that you have measles, denotes much worry, and anxious care will interfere with your business affairs.",
+      "translation_ko": "제가 홍역에 걸리는 꿈은, 걱정이 많고 애타는 마음이 하는 일을 가로막음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "홍역",
+    "term_en": "measles",
+    "context": "남이 홍역에 걸린 것을 봄",
+    "interpretation_ko": "남의 처지 때문에 마음이 괴로울 흉한 조짐",
+    "interpretation_en": "denotes that you will be troubled over the condition of others",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Measles",
+      "original": "To dream that others have this disease, denotes that you will be troubled over the condition of others.",
+      "translation_ko": "남이 그 병에 걸린 것을 보면 그 처지 때문에 마음이 괴롭다"
+    }
+  },
+  {
+    "term_ko": "기계공",
+    "term_en": "mechanic",
+    "context": "기계공을 봄",
+    "interpretation_ko": "사는 곳이 바뀌고 하는 일이 더 활기차질 길한 조짐 — 기계를 다루는 기계공을 보면 삯이 오르는 일이 흔히 따른다",
+    "interpretation_en": "denotes change in your dwelling place and a more active business",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Mechanic",
+      "original": "To dream of a mechanic, denotes change in your dwelling place and a more active business.",
+      "translation_ko": "기계공의 꿈은, 사는 곳이 바뀌고 하는 일이 더 활기차짐을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "훈장",
+    "term_en": "medal",
+    "context": "훈장을 봄",
+    "interpretation_ko": "부지런히 애써 얻은 이름을 뜻하는 길한 조짐",
+    "interpretation_en": "denotes honors gained by application and industry",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Medal",
+      "original": "To dream of medals, denotes honors gained by application and industry.",
+      "translation_ko": "훈장의 꿈은 부지런히 애써 얻은 이름을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "훈장",
+    "term_en": "medal",
+    "context": "훈장을 잃음",
+    "interpretation_ko": "남이 마음을 저버려 궂은일을 겪을 흉한 조짐",
+    "interpretation_en": "denotes misfortune through the unfaithfulness of others",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Medal",
+      "original": "To lose a medal, denotes misfortune through the unfaithfulness of others.",
+      "translation_ko": "훈장을 잃으면 남이 마음을 저버려 궂은일을 겪는다"
+    }
+  },
+  {
+    "term_ko": "먹는 약",
+    "term_en": "medicine",
+    "context": "맛이 좋은 약을 먹음",
+    "interpretation_ko": "괴로운 일이 오나 머잖아 그것이 저에게 좋게 돌아설 조짐",
+    "interpretation_en": "a trouble will come to you, but in a short time it will work for your good",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Medicine",
+      "original": "To dream of medicine, if pleasant to the taste, a trouble will come to you, but in a short time it will work for your good;",
+      "translation_ko": "약이 맛이 좋으면, 괴로운 일이 오나 머잖아 그것이 저에게 좋게 돌아선다"
+    }
+  },
+  {
+    "term_ko": "먹는 약",
+    "term_en": "medicine",
+    "context": "역겨운 약을 먹음",
+    "interpretation_ko": "오래 앓거나 깊은 슬픔이나 잃음이 저를 덮칠 흉한 조짐",
+    "interpretation_en": "you will suffer a protracted illness or some deep sorrow or loss will overcome you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Medicine",
+      "original": "but if you take disgusting medicine, you will suffer a protracted illness or some deep sorrow or loss will overcome you.",
+      "translation_ko": "역겨운 약을 먹으면 오래 앓거나 깊은 슬픔이나 잃음이 저를 덮친다"
+    }
+  },
+  {
+    "term_ko": "먹는 약",
+    "term_en": "medicine",
+    "context": "남에게 약을 줌",
+    "interpretation_ko": "저를 믿은 사람을 해치려 들 흉한 조짐",
+    "interpretation_en": "denotes that you will work to injure some one who trusted you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Medicine",
+      "original": "To give medicine to others, denotes that you will work to injure some one who trusted you.",
+      "translation_ko": "남에게 약을 주면 저를 믿은 사람을 해치려 든다"
+    }
+  }
+]

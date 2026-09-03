@@ -1,0 +1,96 @@
+[
+  {
+    "id": "meadow",
+    "aliases": [
+      "초원을",
+      "초원이",
+      "목초지"
+    ],
+    "aliases_en": [
+      "meadows"
+    ],
+    "contexts": {
+      "초원을 봄": "펼쳐진 드넓"
+    },
+    "contexts_en": {
+      "초원을 봄": "predicts happy reunions bright promises"
+    }
+  },
+  {
+    "id": "measles",
+    "aliases": [
+      "홍역에",
+      "홍역이",
+      "홍역을"
+    ],
+    "aliases_en": [
+      "the measles"
+    ],
+    "contexts": {
+      "제가 홍역에 걸림": "내가 제가",
+      "남이 홍역에 걸린 것을 봄": "남이 다른 사람이"
+    },
+    "contexts_en": {
+      "제가 홍역에 걸림": "worry anxious interfere",
+      "남이 홍역에 걸린 것을 봄": "others disease troubled condition"
+    }
+  },
+  {
+    "id": "mechanic",
+    "aliases": [
+      "기계공이",
+      "기계공을",
+      "정비공"
+    ],
+    "aliases_en": [
+      "mechanics"
+    ],
+    "contexts": {
+      "기계공을 봄": "일하는 보았"
+    },
+    "contexts_en": {
+      "기계공을 봄": "dwelling active advancement wages"
+    }
+  },
+  {
+    "id": "medal",
+    "aliases": [
+      "훈장을",
+      "훈장이",
+      "메달"
+    ],
+    "aliases_en": [
+      "medals"
+    ],
+    "contexts": {
+      "훈장을 봄": "달렸 받았",
+      "훈장을 잃음": "잃어 잃었"
+    },
+    "contexts_en": {
+      "훈장을 봄": "honors gained application industry",
+      "훈장을 잃음": "lose misfortune unfaithfulness"
+    }
+  },
+  {
+    "id": "medicine",
+    "aliases": [
+      "약을",
+      "약이",
+      "약은",
+      "약물"
+    ],
+    "aliases_en": [
+      "medicines"
+    ],
+    "contexts": {
+      "맛이 좋은 약을 먹음": "맛이 좋은 달콤",
+      "역겨운 약을 먹음": "역겨 고약 쓴맛",
+      "남에게 약을 줌": "남에게 건네 주었"
+    },
+    "contexts_en": {
+      "맛이 좋은 약을 먹음": "pleasant taste short time",
+      "역겨운 약을 먹음": "disgusting protracted deep sorrow",
+      "남에게 약을 줌": "give others injure trusted"
+    }
+  }
+]

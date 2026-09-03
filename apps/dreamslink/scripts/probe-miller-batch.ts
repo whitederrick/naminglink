@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 120 — Matting~May Bugs, 12건)
+// (지금 담긴 것: 배치 121 — Meadow~Medicine, 12건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,19 +30,19 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "straw-mat", ctx: "바닥에 깐 자리를 봄", text: "바닥에 깔린 돗자리를 보았다" },
-  { id: "mattress", ctx: "요를 봄", text: "요가 개어져 놓여 있었다" },
-  { id: "mattress", ctx: "새 요 위에서 잠", text: "새것인 요 위에서 잠들었다" },
-  { id: "mattress", ctx: "요 만드는 공장을 봄", text: "요 만드는 공장을 보았다" },
-  { id: "mausoleum", ctx: "영묘를 봄", text: "영묘가 우뚝 솟아 있었다" },
-  { id: "mausoleum", ctx: "영묘 안에 있음", text: "영묘 안에 들어가 있었다" },
-  { id: "may", ctx: "오월을 봄", text: "꿈에 5월이었다" },
-  { id: "may", ctx: "철에 맞지 않게 자연이 괴이해 보임", text: "오월인데 자연이 괴이해 보였다" },
-  { id: "beetles", ctx: "풍뎅이를 봄", text: "풍뎅이가 보였다" },
+  { id: "meadow", ctx: "초원을 봄", text: "드넓은 초원이 펼쳐져 있었다" },
+  { id: "eating", ctx: "끼니를 봄", text: "끼니가 차려져 있었다" },
+  { id: "measles", ctx: "제가 홍역에 걸림", text: "내가 홍역에 걸렸다" },
+  { id: "measles", ctx: "남이 홍역에 걸린 것을 봄", text: "남이 홍역에 걸린 것을 보았다" },
+  { id: "mechanic", ctx: "기계공을 봄", text: "기계공이 일하는 것을 보았다" },
+  { id: "medal", ctx: "훈장을 봄", text: "훈장을 받았다" },
+  { id: "medal", ctx: "훈장을 잃음", text: "훈장을 잃어버렸다" },
+  { id: "medicine", ctx: "맛이 좋은 약을 먹음", text: "맛이 좋은 약을 먹었다" },
+  { id: "medicine", ctx: "역겨운 약을 먹음", text: "역겨운 약을 먹었다" },
+  { id: "medicine", ctx: "남에게 약을 줌", text: "남에게 약을 건넸다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "mattress", ctx: "요를 펴서 깖", text: "요를 펴서 깔았다" },
-  { id: "beetles", ctx: "몸에 딱정벌레가 있는 것을 봄", text: "몸에 딱정벌레가 기어 다녔다" },
-  { id: "straw-mat", ctx: "깔개를 멀리해야 함", text: "매트가 눈에 띄었다" },
+  { id: "eating", ctx: "혼자서 먹음", text: "혼자 밥을 먹었다" },
+  { id: "eating", ctx: "남과 함께 먹음", text: "여럿이 둘러앉아 밥을 먹었다" },
 ];
 
 let notFound = 0;

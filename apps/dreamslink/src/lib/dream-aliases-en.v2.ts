@@ -6273,5 +6273,20 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "may": [
     "the month of may"
+  ],
+  "meadow": [
+    "meadows"
+  ],
+  "measles": [
+    "the measles"
+  ],
+  "mechanic": [
+    "mechanics"
+  ],
+  "medal": [
+    "medals"
+  ],
+  "medicine": [
+    "medicines"
   ]
 };
