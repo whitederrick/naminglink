@@ -628,17 +628,31 @@
   },
   {
     "id": "mule",
-    "aliases": [],
+    "aliases": [
+      "노새가",
+      "노새를",
+      "노새들"
+    ],
     "aliases_en": [
       "mules"
     ],
     "contexts": {
       "노새를 타고 감": "타고 올라타 등에",
-      "노새를 잡음": "잡았 붙잡 붙들"
+      "노새를 잡음": "잡았 붙잡 붙들",
+      "노새를 타고 탈 없이 다다름": "다다랐 이르렀 무사히",
+      "처녀가 흰 노새를 봄": "처녀 하얀 흰색",
+      "노새들이 풀려 돌아다님": "풀려 돌아다니 제멋대로",
+      "노새에게 걷어차임": "걷어차 차였",
+      "죽은 노새를 봄": "죽은 주검"
     },
     "contexts_en": {
       "노새를 타고 감": "rode riding mounted",
-      "노새를 잡음": "caught grabbed seized"
+      "노새를 잡음": "caught grabbed seized",
+      "노새를 타고 탈 없이 다다름": "destination interruption recompensed substantial",
+      "처녀가 흰 노새를 봄": "young woman white marry wealthy foreigner",
+      "노새들이 풀려 돌아다님": "loose beaux admirers offers",
+      "노새에게 걷어차임": "kicked disappointment love marriage",
+      "죽은 노새를 봄": "dead broken engagements social decline"
     }
   },
   {
@@ -1024,14 +1038,22 @@
   {
     "id": "mulberry",
     "aliases": [
-      "뽕나무 열매"
+      "뽕나무 열매",
+      "오디가",
+      "오디를"
     ],
     "aliases_en": [
       "mulberries",
       "mulberry fruit"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "오디를 먹음": "먹었 먹고 따먹",
+      "오디를 봄": "열려 달려"
+    },
+    "contexts_en": {
+      "오디를 먹음": "eating ate",
+      "오디를 봄": "sickness prevent desires relieve suffering"
+    }
   },
   {
     "id": "pillow",

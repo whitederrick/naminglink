@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 134 — Mountain~Mud, 17건)
+// (지금 담긴 것: 배치 135 — Muff~Museum, 16건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,24 +30,23 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "mountain", ctx: "처녀가 웃는 사촌·죽은 오라비와 산을 넘음", text: "사촌과 죽은 오라비와 함께 산을 넘었다" },
-  { id: "mountain", ctx: "산을 넘다 지쳐 더 가기를 마다함", text: "산을 넘다 지쳐서 더 가기를 마다했다" },
-  { id: "mountain", ctx: "곱고 푸른 길로 산에 오름", text: "푸른 길을 따라 산에 올랐다" },
-  { id: "mountain", ctx: "가파른 산을 오르다 꼭대기에 못 미침", text: "가파른 산을 오르다 꼭대기에 이르지 못했다" },
-  { id: "mountain", ctx: "산을 오르다 아슬아슬한 곳에서 잠이 깸", text: "산을 오르다 아슬아슬한 곳에서 잠이 깼다" },
-  { id: "mouse-trap", ctx: "쥐덫을 봄", text: "쥐덫이 덩그러니 놓여 있었다" },
-  { id: "mouse-trap", ctx: "쥐덫에 쥐가 가득 든 것을 봄", text: "쥐덫에 쥐가 가득 들어 있었다" },
-  { id: "mouse-trap", ctx: "쥐덫을 놓음", text: "쥐덫을 놓았다" },
-  { id: "mud", ctx: "진흙을 밟고 걸어감", text: "진흙을 밟고 걸어갔다" },
-  { id: "mud", ctx: "남이 진흙을 밟고 가는 것을 봄", text: "남들이 진흙을 밟고 가는 것을 보았다" },
-  { id: "mud", ctx: "농사짓는 이가 진흙 꿈을 꿈", text: "농부가 진흙 꿈을 꾸었다" },
-  { id: "mud", ctx: "옷에 묻은 진흙을 긁어냄", text: "옷에 묻은 진흙을 긁어냈다" },
+  { id: "muff", ctx: "토시를 낌", text: "토시를 끼었다" },
+  { id: "muff", ctx: "정인이 토시를 낀 것을 봄", text: "애인이 토시를 끼고 있었다" },
+  { id: "mulberry", ctx: "오디를 봄", text: "오디가 주렁주렁 달려 있었다" },
+  { id: "mule", ctx: "노새를 타고 탈 없이 다다름", text: "노새를 타고 무사히 다다랐다" },
+  { id: "mule", ctx: "처녀가 흰 노새를 봄", text: "처녀가 하얀 노새를 보았다" },
+  { id: "mule", ctx: "노새들이 풀려 돌아다님", text: "노새들이 풀려 돌아다녔다" },
+  { id: "mule", ctx: "노새에게 걷어차임", text: "노새에게 걷어차였다" },
+  { id: "mule", ctx: "죽은 노새를 봄", text: "죽은 노새를 보았다" },
+  { id: "muscle", ctx: "근육이 잘 붙은 것을 봄", text: "근육이 우람하게 붙어 있었다" },
+  { id: "muscle", ctx: "근육이 쪼그라든 것을 봄", text: "근육이 쪼그라들어 있었다" },
+  { id: "muscle", ctx: "여성이 근육 꿈을 꿈", text: "여자가 근육 꿈을 꾸었다" },
+  { id: "museum", ctx: "박물관을 봄", text: "박물관을 둘러보았다" },
+  { id: "museum", ctx: "박물관이 마뜩잖음", text: "박물관이 지루하고 싫었다" },
   // 지킴 — 이번 배치가 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "mud", ctx: "진흙 속에 빠져 있음", text: "진흙 속에 빠져 허우적거렸다" },
-  { id: "mud", ctx: "진창을 헤치고 감", text: "진창을 헤치고 갔다" },
-  { id: "mountain", ctx: "산에 오르며 두려워함", text: "산에 오르며 무서웠다" },
-  { id: "mountain", ctx: "높은 산을 유람하며 구경함", text: "높은 산을 구경하며 다녔다" },
-  { id: "mouse", ctx: "처녀가 쥐 꿈을 꿈", text: "처녀가 쥐 꿈을 꾸었다" },
+  { id: "mulberry", ctx: "오디를 먹음", text: "오디를 따먹었다" },
+  { id: "mule", ctx: "노새를 타고 감", text: "노새를 타고 갔다" },
+  { id: "mule", ctx: "노새를 잡음", text: "노새를 붙잡았다" },
 ];
 
 let notFound = 0;

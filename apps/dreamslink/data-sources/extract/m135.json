@@ -1,0 +1,197 @@
+[
+  {
+    "term_ko": "토시",
+    "term_en": "muff",
+    "context": "토시를 낌",
+    "interpretation_ko": "운수가 오르내려도 살림이 넉넉하게 받쳐 줄 길한 조짐",
+    "interpretation_en": "denotes that you will be well provided for against the vicissitudes of fortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Muff",
+      "original": "To dream of wearing a muff, denotes that you will be well provided for against the vicissitudes of fortune.",
+      "translation_ko": "토시를 끼는 꿈은, 운수가 오르내려도 살림이 넉넉하게 받쳐 줌을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "토시",
+    "term_en": "muff",
+    "context": "정인이 토시를 낀 것을 봄",
+    "interpretation_ko": "더 나은 사내가 제 자리를 빼앗을 흉한 조짐",
+    "interpretation_en": "denotes that a worthier man will usurp his place in her affections",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Muff",
+      "original": "For a lover to see his sweetheart wearing a muff, denotes that a worthier man will usurp his place in her affections.",
+      "translation_ko": "정인이 토시를 낀 것을 보면, 더 나은 사내가 제 자리를 빼앗는다"
+    }
+  },
+  {
+    "term_ko": "오디",
+    "term_en": "mulberry",
+    "context": "오디를 봄",
+    "interpretation_ko": "병 때문에 바라던 것을 얻지 못하고 남의 아픔을 자주 돌보게 될 흉한 조짐",
+    "interpretation_en": "denotes that sickness will prevent you from obtaining your desires, and you will be called upon often to relieve suffering",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Mulberries",
+      "original": "To see mulberries in your dreams, denotes that sickness will prevent you from obtaining your desires, and you will be called upon often to relieve suffering.",
+      "translation_ko": "꿈에 오디를 보면, 병 때문에 바라던 것을 얻지 못하고 남의 아픔을 자주 돌보게 된다"
+    }
+  },
+  {
+    "term_ko": "노새",
+    "term_en": "mule",
+    "context": "노새를 타고 탈 없이 다다름",
+    "interpretation_ko": "든든한 열매로 갚음을 받을 길한 조짐",
+    "interpretation_en": "you will be recompensed with substantial results",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mule",
+      "original": "but if you reach your destination without interruption, you will be recompensed with substantial results.",
+      "translation_ko": "다만 가로막힘 없이 갈 곳에 다다르면 든든한 열매로 갚음을 받는다"
+    }
+  },
+  {
+    "term_ko": "노새",
+    "term_en": "mule",
+    "context": "처녀가 흰 노새를 봄",
+    "interpretation_ko": "재물 있는 낯선 땅 사람과 혼인하나 취향은 맞지 않을 조짐",
+    "interpretation_en": "shows she will marry a wealthy foreigner, or one who, while wealthy, will not be congenial in tastes",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mule",
+      "original": "For a young woman to dream of a white mule, shows she will marry a wealthy foreigner, or one who, while wealthy, will not be congenial in tastes.",
+      "translation_ko": "처녀가 흰 노새 꿈을 꾸면, 재물 있는 낯선 땅 사람과 혼인하나 취향은 맞지 않는다"
+    }
+  },
+  {
+    "term_ko": "노새",
+    "term_en": "mule",
+    "context": "노새들이 풀려 돌아다님",
+    "interpretation_ko": "따르는 이와 사모하는 이는 있으나 혼담은 들어오지 않을 조짐",
+    "interpretation_en": "she will have beaux and admirers, but no offers of marriage",
+    "polarity": "neutral",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mule",
+      "original": "If she dreams of mules running loose, she will have beaux and admirers, but no offers of marriage.",
+      "translation_ko": "노새들이 풀려 돌아다니는 꿈을 꾸면, 따르는 이와 사모하는 이는 있으나 혼담은 들어오지 않는다"
+    }
+  },
+  {
+    "term_ko": "노새",
+    "term_en": "mule",
+    "context": "노새에게 걷어차임",
+    "interpretation_ko": "사랑과 혼인에서 실망할 흉한 조짐",
+    "interpretation_en": "foretells disappointment in love and marriage",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mule",
+      "original": "To be kicked by a mule, foretells disappointment in love and marriage.",
+      "translation_ko": "노새에게 걷어차이면 사랑과 혼인에서 실망한다"
+    }
+  },
+  {
+    "term_ko": "노새",
+    "term_en": "mule",
+    "context": "죽은 노새를 봄",
+    "interpretation_ko": "혼약이 깨지고 사람들 사이에서 밀려날 흉한 조짐",
+    "interpretation_en": "portends broken engagements and social decline",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Mule",
+      "original": "To see one dead, portends broken engagements and social decline.",
+      "translation_ko": "죽은 노새를 보면 혼약이 깨지고 사람들 사이에서 밀려난다"
+    }
+  },
+  {
+    "term_ko": "근육",
+    "term_en": "muscle",
+    "context": "근육이 잘 붙은 것을 봄",
+    "interpretation_ko": "적과 뜻밖에 부딪치나 그 나쁜 짓을 이겨 내고 재물을 얻을 길한 조짐",
+    "interpretation_en": "you will have strange encounters with enemies, but you will succeed in surmounting their evil works, and gain fortune",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Muscle",
+      "original": "To dream of seeing your muscle well developed, you will have strange encounters with enemies, but you will succeed in surmounting their evil works, and gain fortune.",
+      "translation_ko": "제 근육이 잘 붙은 것을 보는 꿈은, 적과 뜻밖에 부딪치나 그 나쁜 짓을 이겨 내고 재물을 얻음을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "근육",
+    "term_en": "muscle",
+    "context": "근육이 쪼그라든 것을 봄",
+    "interpretation_ko": "하는 일에서 뜻을 이루지 못할 흉한 조짐",
+    "interpretation_en": "your inability to succeed in your affairs is portended",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Muscle",
+      "original": "If they are shrunken, your inability to succeed in your affairs is portended.",
+      "translation_ko": "근육이 쪼그라들어 있으면 하는 일에서 뜻을 이루지 못한다"
+    }
+  },
+  {
+    "term_ko": "근육",
+    "term_en": "muscle",
+    "context": "여성이 근육 꿈을 꿈",
+    "interpretation_ko": "고된 일과 어려움이 있을 흉한 조짐",
+    "interpretation_en": "this dream is prophetic of toil and hardships",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Muscle",
+      "original": "For a woman, this dream is prophetic of toil and hardships.",
+      "translation_ko": "여성에게 이 꿈은 고된 일과 어려움을 알린다"
+    }
+  },
+  {
+    "term_ko": "박물관",
+    "term_en": "museum",
+    "context": "박물관을 봄",
+    "interpretation_ko": "제 자리라 여기는 것을 얻으려 여러 일을 겪으며 쓸모 있는 앎을 얻을 길한 조짐",
+    "interpretation_en": "denotes you will pass through many and varied scenes in striving for what appears your rightful position",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Museum",
+      "original": "To dream of a museum, denotes you will pass through many and varied scenes in striving for what appears your rightful position.",
+      "translation_ko": "박물관의 꿈은, 제 자리라 여기는 것을 얻으려 여러 일을 겪게 됨을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "박물관",
+    "term_en": "museum",
+    "context": "박물관이 마뜩잖음",
+    "interpretation_ko": "성가신 일이 여럿 생길 흉한 조짐",
+    "interpretation_en": "you will have many causes for vexation",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Museum",
+      "original": "If the museum is distasteful, you will have many causes for vexation.",
+      "translation_ko": "박물관이 마뜩잖으면 성가신 일이 여럿 생긴다"
+    }
+  }
+]

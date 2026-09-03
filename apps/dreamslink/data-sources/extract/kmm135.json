@@ -1,0 +1,61 @@
+[
+  {
+    "id": "muff",
+    "aliases": [
+      "토시를",
+      "토시가",
+      "머프"
+    ],
+    "aliases_en": [
+      "muffs"
+    ],
+    "contexts": {
+      "토시를 낌": "끼었 꼈다",
+      "정인이 토시를 낀 것을 봄": "정인 애인 사랑하는"
+    },
+    "contexts_en": {
+      "토시를 낌": "wearing well provided vicissitudes",
+      "정인이 토시를 낀 것을 봄": "sweetheart worthier usurp affections"
+    }
+  },
+  {
+    "id": "muscle",
+    "aliases": [
+      "근육이",
+      "근육을",
+      "알통"
+    ],
+    "aliases_en": [
+      "muscles"
+    ],
+    "contexts": {
+      "근육이 잘 붙은 것을 봄": "우람 단단 붙은",
+      "근육이 쪼그라든 것을 봄": "쪼그라 여위 말랐",
+      "여성이 근육 꿈을 꿈": "여성이 여자가"
+    },
+    "contexts_en": {
+      "근육이 잘 붙은 것을 봄": "developed strange encounters surmounting",
+      "근육이 쪼그라든 것을 봄": "shrunken inability succeed portended",
+      "여성이 근육 꿈을 꿈": "woman prophetic toil hardships"
+    }
+  },
+  {
+    "id": "museum",
+    "aliases": [
+      "박물관에",
+      "박물관을",
+      "박물관이"
+    ],
+    "aliases_en": [
+      "museums"
+    ],
+    "contexts": {
+      "박물관을 봄": "구경 둘러보 갔다",
+      "박물관이 마뜩잖음": "마뜩잖 싫었 지루"
+    },
+    "contexts_en": {
+      "박물관을 봄": "varied scenes striving rightful knowledge",
+      "박물관이 마뜩잖음": "distasteful causes vexation"
+    }
+  }
+]

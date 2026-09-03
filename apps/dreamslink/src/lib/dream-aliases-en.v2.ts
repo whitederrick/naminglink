@@ -6406,5 +6406,14 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "mouse-trap": [
     "mouse traps",
     "mousetrap"
+  ],
+  "muff": [
+    "muffs"
+  ],
+  "muscle": [
+    "muscles"
+  ],
+  "museum": [
+    "museums"
   ]
 };

@@ -1,0 +1,51 @@
+{
+  "batch": 135,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Muff",
+      "text": "To dream of wearing a muff, denotes that you will be well provided for against the vicissitudes of fortune.\n\nFor a lover to see his sweetheart wearing a muff, denotes that a worthier man will usurp his place in her affections.",
+      "note": "새 상징 `muff`(토시). 「머프」도 별칭으로 올린다"
+    },
+    {
+      "headword": "Mulberries",
+      "text": "To see mulberries in your dreams, denotes that sickness will prevent you from obtaining your desires, and you will be called upon often to relieve suffering.\n\nTo eat them, signifies bitter disappointments.",
+      "note": "「오디」가 기존 `mulberry` 의 이름이다. **의미가 하나뿐이라 판별어 표가 비어 있었다**(열두 번째, 배치 35)"
+    },
+    {
+      "headword": "Mule",
+      "text": "If you dream that your are riding on a mule, it denotes that you are engaging in pursuits which will cause you the greatest anxiety, but if you reach your destination without interruption, you will be recompensed with substantial results.\n\nFor a young woman to dream of a white mule, shows she will marry a wealthy foreigner, or one who, while wealthy, will not be congenial in tastes. If she dreams of mules running loose, she will have beaux and admirers, but no offers of marriage.\n\nTo be kicked by a mule, foretells disappointment in love and marriage.\n\nTo see one dead, portends broken engagements and social decline.",
+      "note": "「노새」가 기존 `mule` 의 이름이다"
+    },
+    {
+      "headword": "Muscle",
+      "text": "To dream of seeing your muscle well developed, you will have strange encounters with enemies, but you will succeed in surmounting their evil works, and gain fortune.\n\nIf they are shrunken, your inability to succeed in your affairs is portended. For a woman, this dream is prophetic of toil and hardships.",
+      "note": "새 상징 `muscle`(근육)"
+    },
+    {
+      "headword": "Museum",
+      "text": "To dream of a museum, denotes you will pass through many and varied scenes in striving for what appears your rightful position. You will acquire useful knowledge, which will stand you in better light than if you had pursued the usual course to learning. If the museum is distasteful, you will have many causes for vexation.",
+      "note": "새 상징 `museum`(박물관). 「물」(water)·「관」(coffin)을 품지만 앞 글자가 한글이라 `isStandalone` 이 막는다"
+    }
+  ],
+  "skipped": [
+    {
+      "headword": "Mulatto",
+      "reason": "**그림 자체가 비하다**(§31) — 한 인종이 나타나는 것을 두고 「새 사귐과 낯선 여자를 조심하라, 돈과 도덕을 잃을 것이다」로 점친다. 비하를 빼면 남는 꿈이 없다. `Gypsy`(42)·`Jew`(69)와 같은 자리다"
+    },
+    {
+      "headword": "Murder",
+      "reason": "**세 문장이 전부 같은 그림이 이미 있는 자리다** — 원문 자신이 「[132] See Killing and kindred words」라고 적어 두었다. ① 「To see murder committed」 = `killing-someone` 의 「사람을 죽이는 것을 봄」(주공해몽) ② 「If you commit murder」 = 같은 상징의 「제가 사람을 죽임」(밀러 `Homicide`) ③ 「To dream that you are murdered」 = `being-killed` 의 「남에게 죽임을 당함」(주공해몽). ①③은 주공해몽이 길, 밀러가 흉이라 **길흉이 반대인 자리**이고 꿈의 그림이 같아 가를 수 없다"
+    }
+  ],
+  "skipped_sentences": [
+    {
+      "sentence": "If you dream that your are riding on a mule, it denotes that you are engaging in pursuits which will cause you the greatest anxiety",
+      "reason": "같은 그림이 `mule` 의 주공해몽 의미 「노새를 타고 감」에 있다(길흉이 반대다). 뒷절 「but if you reach your destination without interruption…」은 그림이 달라 넣었다"
+    },
+    {
+      "sentence": "To eat them, signifies bitter disappointments.",
+      "reason": "같은 그림이 `mulberry` 의 주공해몽 의미 「오디를 먹음」에 있다(길흉이 반대다)"
+    }
+  ]
+}
