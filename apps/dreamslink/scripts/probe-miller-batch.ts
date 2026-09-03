@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 90 — Lazy~Leaping, 12건)
+// (지금 담긴 것: 배치 91 — Learning~Leaves, 12건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,19 +30,20 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "idleness", ctx: "처녀가 정인을 게으르다고 여김", text: "정인이 게으르다고 여겼다" },
-  { id: "lead", ctx: "납 광산을 봄", text: "납 광산을 보았다" },
-  { id: "lead", ctx: "납 광석을 봄", text: "납 광석을 보았다" },
-  { id: "lead", ctx: "납을 찾아다님", text: "납을 찾아다녔다" },
-  { id: "lead", ctx: "납을 녹임", text: "납을 녹였다" },
-  { id: "leak", ctx: "어딘가에서 물이 새는 것을 봄", text: "천장에서 물이 새고 있었다" },
-  { id: "jumping", ctx: "처녀가 가로막힌 것을 뛰어넘음", text: "여자가 장애물을 뛰어넘었다" },
+  { id: "being-taught-letters", ctx: "학식 있는 이들을 봄", text: "학식 있는 이들을 보았다" },
+  { id: "being-taught-letters", ctx: "여자가 학식 있는 이들과 어울림", text: "여자가 학식 있는 이들과 어울렸다" },
+  { id: "hide", ctx: "가죽옷을 입음", text: "가죽옷을 입고 있었다" },
+  { id: "hide", ctx: "가죽 장신구를 봄", text: "가죽 장신구를 보았다" },
+  { id: "hide", ctx: "가죽이 무더기로 쌓여 있음", text: "가죽이 무더기로 쌓여 있었다" },
+  { id: "hide", ctx: "가죽을 사고팖", text: "가죽을 사고팔았다" },
+  { id: "leaves", ctx: "처녀가 마른 나뭇잎 꿈을 꿈", text: "여자가 마른 나뭇잎을 보았다" },
+  { id: "leaves", ctx: "마른 나뭇잎을 봄", text: "마른 나뭇잎을 보았다" },
+  { id: "leaves", ctx: "나뭇잎이 푸르고 싱싱함", text: "나뭇잎이 푸르고 싱싱했다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "idleness", ctx: "처녀가 게으르게 지냄", text: "처녀가 게으르게 지냈다" },
-  { id: "idleness", ctx: "벗들이 빈둥거리는 것을 봄", text: "벗들이 빈둥거리고 있었다" },
-  { id: "lead", ctx: "납과 주석을 봄", text: "납과 주석을 보았다" },
-  { id: "jumping", ctx: "무엇을 뛰어넘음", text: "담을 뛰어넘었다" },
-  { id: "jumping", ctx: "담에서 뛰어내림", text: "담에서 뛰어내렸다" },
+  // 「학교에 있었다」는 `academy`(학교) 의 것이다 — 이 상징은 배움 쪽 말이 있어야 걸린다.
+  { id: "being-taught-letters", ctx: "배우는 곳에 있음", text: "학교에서 공부하고 있었다" },
+  { id: "being-taught-letters", ctx: "누군가 글을 가르쳐 줌", text: "누군가 글을 가르쳐 주었다" },
+  { id: "hide", ctx: "짐승 가죽을 봄", text: "짐승 가죽을 보았다" },
 ];
 
 let notFound = 0;

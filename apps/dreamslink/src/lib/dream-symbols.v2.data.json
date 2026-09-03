@@ -93,6 +93,7 @@
     "m88.json",
     "m89.json",
     "m90.json",
+    "m91.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -29011,6 +29012,122 @@
       ]
     },
     {
+      "id": "being-taught-letters",
+      "term_ko": "글을 배움",
+      "term_en": "being taught letters",
+      "aliases": [
+        "글공부",
+        "글씨공부",
+        "학문",
+        "글자를 배",
+        "배움",
+        "배우고",
+        "배우는",
+        "공부를",
+        "공부하",
+        "글을 가르쳐",
+        "학식",
+        "학자",
+        "공부하고",
+        "공부하는",
+        "공부했다",
+        "글자를 배웠다",
+        "글자를 배우는"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "누군가 글을 가르쳐 줌",
+          "interpretation_ko": "큰 부귀를 누릴 조짐",
+          "interpretation_en": "a sign of great wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "有人教書大富貴",
+              "translation_ko": "누군가 글을 가르쳐 주면 큰 부귀를 누린다"
+            }
+          ]
+        },
+        {
+          "context": "배움을 얻고자 애씀",
+          "interpretation_ko": "형편이 어떻든 앎을 바라는 마음이 커서 둘레보다 높은 자리에 서고 운도 너그러워질 길한 조짐",
+          "interpretation_en": "a keen desire for knowledge which will place you on a higher plane than your associates; fortune will also be more lenient to you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Education",
+              "original": "To dream that you are anxious to obtain an education, shows that whatever your circumstances in life may be there will be a keen desire for knowledge on your part, which will place you on a higher plane than your associates. Fortune will also be more lenient to you.",
+              "translation_ko": "배움을 얻고자 애태우는 꿈은, 살림 형편이 어떻든 앎을 바라는 마음이 커서 둘레 사람들보다 높은 자리에 서게 됨을 알린다. 운 또한 더 너그러워진다"
+            },
+            {
+              "work": "miller",
+              "locator": "Learning",
+              "original": "To dream of learning, denotes that you will take great interest in acquiring knowledge, and if you are economical of your time, you will advance far into the literary world.",
+              "translation_ko": "배움의 꿈은, 앎을 얻는 데 크게 마음을 쏟고 때를 아껴 쓰면 글의 세계에서 멀리 나아감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "배우는 곳에 있음",
+          "interpretation_ko": "힘이 되어 줄 벗을 많이 얻을 길한 조짐",
+          "interpretation_en": "foretells for you many influential friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Education",
+              "original": "To dream that you are in places of learning, foretells for you many influential friends.",
+              "translation_ko": "배우는 곳에 있는 꿈은, 힘이 되어 줄 벗을 많이 얻음을 알린다"
+            },
+            {
+              "work": "miller",
+              "locator": "Learning",
+              "original": "To enter halls, or places of learning, denotes rise from obscurity, and finance will be a congenial adherent.",
+              "translation_ko": "배움의 전당이나 배우는 곳에 들어가면, 묻혀 있던 데서 일어서고 재물이 마음 맞는 동무가 되어 준다"
+            }
+          ]
+        },
+        {
+          "context": "학식 있는 이들을 봄",
+          "interpretation_ko": "곁의 사람들이 재미있고 이름난 이들일 길한 조짐",
+          "interpretation_en": "foretells that your companions will be interesting and prominent",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Learning",
+              "original": "To see learned men, foretells that your companions will be interesting and prominent.",
+              "translation_ko": "학식 있는 이들을 보면 곁의 사람들이 재미있고 이름난 이들이다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 학식 있는 이들과 어울림",
+          "interpretation_ko": "뜻이 크고 올라서려는 애씀에서 남보다 뛰어날 길한 조짐",
+          "interpretation_en": "she will be ambitious and excel in her endeavors to rise into prominence",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Learning",
+              "original": "For a woman to dream that she is associated in any way with learned people, she will be ambitious and excel in her endeavors to rise into prominence.",
+              "translation_ko": "여자가 학식 있는 이들과 어떻게든 어울리는 꿈을 꾸면, 뜻이 크고 올라서려는 애씀에서 남보다 뛰어나다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bracelet",
       "term_ko": "팔찌",
       "term_en": "bracelet",
@@ -32056,6 +32173,103 @@
               "locator": "Hay",
               "original": "To feed hay to stock, indicates that you will offer aid to some one who will return the favor with love and advancement to higher states.",
               "translation_ko": "짐승에게 건초를 먹이면, 남을 도운 것이 사랑과 오름으로 되돌아온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hide",
+      "term_ko": "짐승 가죽",
+      "term_en": "hide",
+      "aliases": [
+        "짐승 가죽",
+        "가죽",
+        "생가죽",
+        "가죽옷",
+        "가죽 장신구"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "짐승 가죽을 봄",
+          "interpretation_ko": "남는 것이 있고 일자리가 오래갈 길한 조짐",
+          "interpretation_en": "denotes profit and permanent employment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hide",
+              "original": "To dream of the hide of an animal, denotes profit and permanent employment.",
+              "translation_ko": "짐승 가죽 꿈은, 남는 것과 오래가는 일자리를 뜻한다"
+            },
+            {
+              "work": "miller",
+              "locator": "Leather",
+              "original": "To dream of leather, denotes successful business and favorable engagements with women.",
+              "translation_ko": "가죽의 꿈은 일이 잘되고 여자들과의 사귐이 이로움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가죽옷을 입음",
+          "interpretation_ko": "복이 따르는 투자를 하게 될 길한 조짐",
+          "interpretation_en": "you will go into lucky speculations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leather",
+              "original": "You will go into lucky speculations if you dream that you are dressed in leather.",
+              "translation_ko": "가죽옷을 입은 꿈을 꾸면 복이 따르는 투자를 하게 된다"
+            }
+          ]
+        },
+        {
+          "context": "가죽 장신구를 봄",
+          "interpretation_ko": "사랑과 집안에 한결같을 길한 조짐",
+          "interpretation_en": "denotes faithfulness in love and to the home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leather",
+              "original": "Ornaments of leather, denotes faithfulness in love and to the home.",
+              "translation_ko": "가죽으로 만든 장신구는 사랑과 집안에 한결같음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가죽이 무더기로 쌓여 있음",
+          "interpretation_ko": "재물과 기쁨이 있을 길한 조짐",
+          "interpretation_en": "denotes fortune and happiness",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leather",
+              "original": "Piles of leather, denotes fortune and happiness.",
+              "translation_ko": "가죽이 무더기로 쌓여 있으면 재물과 기쁨이 있다"
+            }
+          ]
+        },
+        {
+          "context": "가죽을 사고팖",
+          "interpretation_ko": "지금 하는 일을 바꾸지 않아도 재물이 쌓일 길한 조짐",
+          "interpretation_en": "signifies no change in the disposition of your engagements is necessary for successful accumulation of wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leather",
+              "original": "To deal in leather, signifies no change in the disposition of your engagements is necessary for successful accumulation of wealth.",
+              "translation_ko": "가죽을 사고팔면 지금 하는 일을 바꾸지 않아도 재물이 쌓인다"
             }
           ]
         }
@@ -42490,6 +42704,81 @@
       ]
     },
     {
+      "id": "leaves",
+      "term_ko": "나뭇잎",
+      "term_en": "leaves",
+      "aliases": [
+        "잎사귀",
+        "나뭇잎들",
+        "낙엽"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "나뭇잎을 봄",
+          "interpretation_ko": "기쁨이 있고 하는 일이 놀랍게 나아질 길한 조짐",
+          "interpretation_en": "denotes happiness and wonderful improvement in your business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leaves",
+              "original": "To dream of leaves, denotes happiness and wonderful improvement in your business.",
+              "translation_ko": "나뭇잎의 꿈은 기쁨과 하는 일의 놀라운 나아짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 마른 나뭇잎 꿈을 꿈",
+          "interpretation_ko": "혼인으로 가는 길에 홀로 남겨질 흉한 조짐이며, 때로 죽음을 가리키기도 한다",
+          "interpretation_en": "she will be left lonely on the road to conjugality; death is sometimes implied",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leaves",
+              "original": "If a young woman dreams of withered leaves, she will be left lonely on the road to conjugality.",
+              "translation_ko": "젊은 여성이 마른 나뭇잎 꿈을 꾸면 혼인으로 가는 길에 홀로 남겨진다"
+            }
+          ]
+        },
+        {
+          "context": "마른 나뭇잎을 봄",
+          "interpretation_ko": "헛된 바람과 어두운 걱정이 마음을 낙담과 잃음의 소용돌이로 몰아갈 흉한 조짐",
+          "interpretation_en": "indicate false hopes and gloomy forebodings will harass your spirit into a whirlpool of despondency and loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leaves",
+              "original": "Withered leaves, indicate false hopes and gloomy forebodings will harass your spirit into a whirlpool of despondency and loss.",
+              "translation_ko": "마른 나뭇잎은, 헛된 바람과 어두운 걱정이 마음을 낙담과 잃음의 소용돌이로 몰아감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "나뭇잎이 푸르고 싱싱함",
+          "interpretation_ko": "물려받을 것이 생기고 넉넉하고 훤한 지아비를 얻을 길한 조짐",
+          "interpretation_en": "she will come into a legacy and marry a wealthy and prepossessing husband",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leaves",
+              "original": "If the leaves are green and fresh, she will come into a legacy and marry a wealthy and prepossessing husband.",
+              "translation_ko": "나뭇잎이 푸르고 싱싱하면 물려받을 것이 생기고 넉넉하고 훤한 지아비를 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "manure",
       "term_ko": "거름",
       "term_en": "manure",
@@ -45375,75 +45664,6 @@
               "work": "miller",
               "locator": "Beggar",
               "original": "To dream that you refuse to give to a beggar is altogether bad."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "being-taught-letters",
-      "term_ko": "글을 배움",
-      "term_en": "being taught letters",
-      "aliases": [
-        "글공부",
-        "글씨공부",
-        "학문",
-        "글자를 배",
-        "배움",
-        "배우고",
-        "배우는",
-        "공부를",
-        "공부하",
-        "글을 가르쳐"
-      ],
-      "category": "action",
-      "polarity": "positive",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "누군가 글을 가르쳐 줌",
-          "interpretation_ko": "큰 부귀를 누릴 조짐",
-          "interpretation_en": "a sign of great wealth and honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "有人教書大富貴",
-              "translation_ko": "누군가 글을 가르쳐 주면 큰 부귀를 누린다"
-            }
-          ]
-        },
-        {
-          "context": "배움을 얻고자 애씀",
-          "interpretation_ko": "형편이 어떻든 앎을 바라는 마음이 커서 둘레보다 높은 자리에 서고 운도 너그러워질 길한 조짐",
-          "interpretation_en": "a keen desire for knowledge which will place you on a higher plane than your associates; fortune will also be more lenient to you",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Education",
-              "original": "To dream that you are anxious to obtain an education, shows that whatever your circumstances in life may be there will be a keen desire for knowledge on your part, which will place you on a higher plane than your associates. Fortune will also be more lenient to you.",
-              "translation_ko": "배움을 얻고자 애태우는 꿈은, 살림 형편이 어떻든 앎을 바라는 마음이 커서 둘레 사람들보다 높은 자리에 서게 됨을 알린다. 운 또한 더 너그러워진다"
-            }
-          ]
-        },
-        {
-          "context": "배우는 곳에 있음",
-          "interpretation_ko": "힘이 되어 줄 벗을 많이 얻을 길한 조짐",
-          "interpretation_en": "foretells for you many influential friends",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Education",
-              "original": "To dream that you are in places of learning, foretells for you many influential friends.",
-              "translation_ko": "배우는 곳에 있는 꿈은, 힘이 되어 줄 벗을 많이 얻음을 알린다"
             }
           ]
         }
@@ -82581,39 +82801,6 @@
               "locator": "Herring",
               "original": "To dream of seeing herring, indicates a tight squeeze to escape financial embarrassment, but you will have success later.",
               "translation_ko": "청어를 보는 꿈은, 돈에 쪼들리다 가까스로 빠져나오고 뒤에는 잘됨을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "hide",
-      "term_ko": "짐승 가죽",
-      "term_en": "hide",
-      "aliases": [
-        "짐승 가죽",
-        "가죽",
-        "생가죽"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "짐승 가죽을 봄",
-          "interpretation_ko": "남는 것이 있고 일자리가 오래갈 길한 조짐",
-          "interpretation_en": "denotes profit and permanent employment",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Hide",
-              "original": "To dream of the hide of an animal, denotes profit and permanent employment.",
-              "translation_ko": "짐승 가죽 꿈은, 남는 것과 오래가는 일자리를 뜻한다"
             }
           ]
         }

@@ -1254,6 +1254,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "being-taught-letters::누군가 글을 가르쳐 줌": "someone teaching instructed",
   "being-taught-letters::배움을 얻고자 애씀": "anxious obtain desire knowledge",
   "being-taught-letters::배우는 곳에 있음": "places influential friends",
+  "being-taught-letters::학식 있는 이들을 봄": "learned men companions prominent",
+  "being-taught-letters::여자가 학식 있는 이들과 어울림": "associated ambitious excel endeavors",
   "camel::낙타를 봄": "single alone standing",
   "camel::짐 나르는 낙타를 봄": "burden beast carrying load",
   "camel::낙타를 가짐": "own owning possess mine",
@@ -3635,6 +3637,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "hermit::은둔자를 봄": "sadness loneliness unfaithfulness",
   "hermit::제가 은둔자가 됨": "yourself researches intricate discussions",
   "hermit::은둔자가 사는 곳에 머무름": "abode unselfishness alike",
+  "hide::짐승 가죽을 봄": "beast rough tanned",
+  "hide::가죽옷을 입음": "dressed lucky speculations",
+  "hide::가죽 장신구를 봄": "ornaments faithfulness",
+  "hide::가죽이 무더기로 쌓여 있음": "piles fortune",
+  "hide::가죽을 사고팖": "deal disposition accumulation",
   "hidden::무엇을 숨겨 둠": "away object embarrassment circumstances",
   "hidden::숨겨진 것을 찾아냄": "find things unexpected pleasures",
   "hidden::처녀가 물건을 숨김": "young woman hiding adverse gossip orderly",
@@ -3989,5 +3996,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "laundry::빨래가 엉망으로 나옴": "reverse fail procure pleasure",
   "laundry::어여쁜 처녀들이 빨래하는 것을 봄": "pretty girls seek rank",
   "laundry::세탁부가 집에 찾아옴": "laundryman calls house danger valuable",
-  "laundry::빨래 수레를 봄": "wagons rivalry contention"
+  "laundry::빨래 수레를 봄": "wagons rivalry contention",
+  "leaves::나뭇잎을 봄": "happiness wonderful improvement",
+  "leaves::처녀가 마른 나뭇잎 꿈을 꿈": "lonely road conjugality implied",
+  "leaves::마른 나뭇잎을 봄": "withered false hopes gloomy forebodings",
+  "leaves::나뭇잎이 푸르고 싱싱함": "green fresh legacy prepossessing"
 };

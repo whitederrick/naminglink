@@ -1,0 +1,26 @@
+[
+  {
+    "id": "leaves",
+    "aliases": [
+      "잎사귀",
+      "나뭇잎들",
+      "낙엽"
+    ],
+    "aliases_en": [
+      "leaves",
+      "a leaf"
+    ],
+    "contexts": {
+      "나뭇잎을 봄": "보였다 무성",
+      "처녀가 마른 나뭇잎 꿈을 꿈": "처녀 아가씨 여자가",
+      "마른 나뭇잎을 봄": "마른 시든 누렇",
+      "나뭇잎이 푸르고 싱싱함": "푸르 싱싱 초록"
+    },
+    "contexts_en": {
+      "나뭇잎을 봄": "happiness wonderful improvement",
+      "처녀가 마른 나뭇잎 꿈을 꿈": "lonely road conjugality implied",
+      "마른 나뭇잎을 봄": "withered false hopes gloomy forebodings",
+      "나뭇잎이 푸르고 싱싱함": "green fresh legacy prepossessing"
+    }
+  }
+]

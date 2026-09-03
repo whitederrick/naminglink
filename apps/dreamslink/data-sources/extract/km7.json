@@ -724,7 +724,14 @@
       "배우는",
       "공부를",
       "공부하",
-      "글을 가르쳐"
+      "글을 가르쳐",
+      "학식",
+      "학자",
+      "공부하고",
+      "공부하는",
+      "공부했다",
+      "글자를 배웠다",
+      "글자를 배우는"
     ],
     "aliases_en": [
       "learning letters",
@@ -734,12 +741,16 @@
     "contexts": {
       "누군가 글을 가르쳐 줌": "가르쳐 가르치 스승이 선생님",
       "배움을 얻고자 애씀": "간절 애썼 애태우 배우려",
-      "배우는 곳에 있음": "학교 서당 강의실 교실"
+      "배우는 곳에 있음": "학교 서당 강의실 교실",
+      "학식 있는 이들을 봄": "학식 학자",
+      "여자가 학식 있는 이들과 어울림": "여자가 어울 사귀"
     },
     "contexts_en": {
       "누군가 글을 가르쳐 줌": "someone teaching instructed",
       "배움을 얻고자 애씀": "anxious obtain desire knowledge",
-      "배우는 곳에 있음": "places influential friends"
+      "배우는 곳에 있음": "places influential friends",
+      "학식 있는 이들을 봄": "learned men companions prominent",
+      "여자가 학식 있는 이들과 어울림": "associated ambitious excel endeavors"
     }
   },
   {

@@ -1258,6 +1258,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "being-taught-letters::누군가 글을 가르쳐 줌": "가르쳐 가르치 스승이 선생님",
   "being-taught-letters::배움을 얻고자 애씀": "간절 애썼 애태우 배우려",
   "being-taught-letters::배우는 곳에 있음": "학교 서당 강의실 교실",
+  "being-taught-letters::학식 있는 이들을 봄": "학식 학자",
+  "being-taught-letters::여자가 학식 있는 이들과 어울림": "여자가 어울 사귀",
   "camel::낙타를 봄": "홀로 마리 우두커니",
   "camel::짐 나르는 낙타를 봄": "짐을 실은 등짐 나르",
   "camel::낙타를 가짐": "가지고 소유 길렀 키우",
@@ -3639,6 +3641,11 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "hermit::은둔자를 봄": "보았 만났",
   "hermit::제가 은둔자가 됨": "내가 제가 스스로",
   "hermit::은둔자가 사는 곳에 머무름": "사는곳 거처 오두막",
+  "hide::짐승 가죽을 봄": "짐승 털이",
+  "hide::가죽옷을 입음": "입었 입고",
+  "hide::가죽 장신구를 봄": "장신구 꾸미개",
+  "hide::가죽이 무더기로 쌓여 있음": "쌓여 무더기",
+  "hide::가죽을 사고팖": "사고팔 거래 장사",
   "hidden::무엇을 숨겨 둠": "숨겨두 감춰두",
   "hidden::숨겨진 것을 찾아냄": "찾아냈 찾았",
   "hidden::처녀가 물건을 숨김": "처녀 아가씨",
@@ -3993,5 +4000,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "laundry::빨래가 엉망으로 나옴": "엉망 얼룩 잘못",
   "laundry::어여쁜 처녀들이 빨래하는 것을 봄": "처녀들 아가씨들",
   "laundry::세탁부가 집에 찾아옴": "세탁부 찾아왔",
-  "laundry::빨래 수레를 봄": "수레 짐칸"
+  "laundry::빨래 수레를 봄": "수레 짐칸",
+  "leaves::나뭇잎을 봄": "보였다 무성",
+  "leaves::처녀가 마른 나뭇잎 꿈을 꿈": "처녀 아가씨 여자가",
+  "leaves::마른 나뭇잎을 봄": "마른 시든 누렇",
+  "leaves::나뭇잎이 푸르고 싱싱함": "푸르 싱싱 초록"
 };
