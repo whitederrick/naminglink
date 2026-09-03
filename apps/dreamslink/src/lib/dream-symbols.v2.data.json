@@ -94,6 +94,7 @@
     "m89.json",
     "m90.json",
     "m91.json",
+    "m92.json",
     "m9a.json",
     "m9b.json",
     "miller-pilot.json",
@@ -16978,6 +16979,151 @@
               "locator": "門戶井灶廚廁",
               "original": "修造廚灶大吉利",
               "translation_ko": "부엌과 부뚜막을 고쳐 지으면 크게 길하고 이롭다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ledger",
+      "term_ko": "장부",
+      "term_en": "ledger",
+      "aliases": [
+        "장부를",
+        "회계 장부",
+        "거래 장부"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "장부를 적음",
+          "interpretation_ko": "골치 아픈 일과 실망스러운 형편에 맞서게 될 흉한 조짐",
+          "interpretation_en": "you will have perplexities and disappointing conditions to combat",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ledger",
+              "original": "To dream of keeping a ledger, you will have perplexities and disappointing conditions to combat.",
+              "translation_ko": "장부를 적는 꿈을 꾸면 골치 아픈 일과 실망스러운 형편에 맞서게 된다"
+            }
+          ]
+        },
+        {
+          "context": "장부에 잘못 적음",
+          "interpretation_ko": "자잘한 다툼이 있고 가벼운 잃음이 닥칠 흉한 조짐",
+          "interpretation_en": "you will have small disputes and a slight loss will befall you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ledger",
+              "original": "To dream that you make wrong entries on your ledger, you will have small disputes and a slight loss will befall you.",
+              "translation_ko": "장부에 잘못 적는 꿈을 꾸면 자잘한 다툼이 있고 가벼운 잃음이 닥친다"
+            }
+          ]
+        },
+        {
+          "context": "장부를 금고에 넣음",
+          "interpretation_ko": "형편이 거스르는 가운데서도 제 몫을 지켜 낼 길한 조짐",
+          "interpretation_en": "you will be able to protect your rights under adverse circumstances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ledger",
+              "original": "To put a ledger into a safe, you will be able to protect your rights under adverse circumstances.",
+              "translation_ko": "장부를 금고에 넣으면 형편이 거스르는 가운데서도 제 몫을 지켜 낸다"
+            }
+          ]
+        },
+        {
+          "context": "장부를 어디 두었는지 잃어버림",
+          "interpretation_ko": "할 일을 게을리하여 제 이로움이 어그러질 흉한 조짐",
+          "interpretation_en": "your interests will go awry through neglect of duty",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ledger",
+              "original": "To get your ledger misplaced, your interests will go awry through neglect of duty.",
+              "translation_ko": "장부를 어디 두었는지 잃어버리면 할 일을 게을리하여 제 이로움이 어그러진다"
+            }
+          ]
+        },
+        {
+          "context": "장부가 불에 타 없어짐",
+          "interpretation_ko": "벗의 부주의 때문에 시달릴 흉한 조짐",
+          "interpretation_en": "you will suffer through the carelessness of friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ledger",
+              "original": "To dream that your ledger gets destroyed by fire, you will suffer through the carelessness of friends.",
+              "translation_ko": "장부가 불에 타 없어지는 꿈을 꾸면 벗의 부주의 때문에 시달린다"
+            }
+          ]
+        },
+        {
+          "context": "여자에게 장부를 맡김",
+          "interpretation_ko": "즐거움과 일을 뒤섞으려다 돈을 잃을 흉한 조짐",
+          "interpretation_en": "you will lose money trying to combine pleasure with business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ledger",
+              "original": "To dream that you have a woman to keep your ledger, you will lose money trying to combine pleasure with business.",
+              "translation_ko": "여자에게 장부를 맡기는 꿈을 꾸면, 즐거움과 일을 뒤섞으려다 돈을 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 장부 꿈을 꿈",
+          "interpretation_ko": "듬직한 장사꾼이 혼인을 청해 올 길한 조짐",
+          "interpretation_en": "denotes she will have a solid business man to make her a proposal of marriage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ledger",
+              "original": "For a young woman to dream of ledgers, denotes she will have a solid business man to make her a proposal of marriage.",
+              "translation_ko": "젊은 여성이 장부 꿈을 꾸면 듬직한 장사꾼이 혼인을 청해 온다"
+            }
+          ]
+        },
+        {
+          "context": "장부에 떼인 셈이 적혀 있음",
+          "interpretation_ko": "일을 잘못 꾸려 잃을 것이 있을 흉한 조짐",
+          "interpretation_en": "denotes bad management and losses",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ledger",
+              "original": "To dream that your ledger has worthless accounts, denotes bad management and losses; but if the accounts are good, then your business will assume improved conditions.",
+              "translation_ko": "장부에 떼인 셈이 적혀 있으면 일을 잘못 꾸려 잃을 것이 있다"
+            }
+          ]
+        },
+        {
+          "context": "장부의 셈이 좋음",
+          "interpretation_ko": "하는 일의 형편이 나아질 길한 조짐",
+          "interpretation_en": "then your business will assume improved conditions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ledger",
+              "original": "To dream that your ledger has worthless accounts, denotes bad management and losses; but if the accounts are good, then your business will assume improved conditions.",
+              "translation_ko": "장부의 셈이 좋으면 하는 일의 형편이 나아진다"
             }
           ]
         }
@@ -42773,6 +42919,80 @@
               "locator": "Leaves",
               "original": "If the leaves are green and fresh, she will come into a legacy and marry a wealthy and prepossessing husband.",
               "translation_ko": "나뭇잎이 푸르고 싱싱하면 물려받을 것이 생기고 넉넉하고 훤한 지아비를 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "leech",
+      "term_ko": "거머리",
+      "term_en": "leech",
+      "aliases": [
+        "거머리들"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "거머리를 봄",
+          "interpretation_ko": "여자가 재물을 잃을 조짐",
+          "interpretation_en": "a sign that a woman will lose wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "水蛭主女人失財",
+              "translation_ko": "거머리는 여자가 재물을 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "병을 고치려고 거머리를 몸에 붙임",
+          "interpretation_ko": "집안에 무거운 병이 들 흉한 조짐(제가 그것을 벗어난다면)",
+          "interpretation_en": "you will have a serious illness in your family (if you escape yourself)",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leeches",
+              "original": "If they are applied to you for medicinal purposes, you will have a serious illness tn your family (if you escape yourself).",
+              "translation_ko": "병을 고치려고 거머리를 몸에 붙이면, 제가 벗어난다 해도 집안에 무거운 병이 든다"
+            }
+          ]
+        },
+        {
+          "context": "남의 몸에 거머리를 붙이는 것을 봄",
+          "interpretation_ko": "벗에게 병이나 근심이 있을 흉한 조짐",
+          "interpretation_en": "denotes sickness or trouble to friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leeches",
+              "original": "To see them applied to others, denotes sickness or trouble to friends.",
+              "translation_ko": "남의 몸에 거머리를 붙이는 것을 보면 벗에게 병이나 근심이 있다"
+            }
+          ]
+        },
+        {
+          "context": "거머리에게 물림",
+          "interpretation_ko": "생각지 못한 자리에서 위태로움이 있으니 이 알림을 새겨들어야 할 흉한 조짐",
+          "interpretation_en": "there is danger for you in unexpected places, and you should heed well this warning",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Leeches",
+              "original": "If they should bite you, there is danger for you in unexpected places, and you should heed well this warning.",
+              "translation_ko": "거머리에게 물리면 생각지 못한 자리에서 위태로움이 있으니 이 알림을 새겨들어야 한다"
             }
           ]
         }
@@ -84185,35 +84405,6 @@
               "locator": "Leaking",
               "original": "To dream of seeing a leak in anything, is usually significant of loss and vexations.",
               "translation_ko": "어딘가에서 새는 곳을 보는 꿈은 잃음과 성가신 일을 알린다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "leech",
-      "term_ko": "거머리",
-      "term_en": "leech",
-      "aliases": [],
-      "category": "animal",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "거머리를 봄",
-          "interpretation_ko": "여자가 재물을 잃을 조짐",
-          "interpretation_en": "a sign that a woman will lose wealth",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "水蛭主女人失財",
-              "translation_ko": "거머리는 여자가 재물을 잃을 조짐이다"
             }
           ]
         }

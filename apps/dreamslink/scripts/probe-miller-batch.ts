@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 91 — Learning~Leaves, 12건)
+// (지금 담긴 것: 배치 92 — Ledger·Leeches, 13건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,20 +30,20 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "being-taught-letters", ctx: "학식 있는 이들을 봄", text: "학식 있는 이들을 보았다" },
-  { id: "being-taught-letters", ctx: "여자가 학식 있는 이들과 어울림", text: "여자가 학식 있는 이들과 어울렸다" },
-  { id: "hide", ctx: "가죽옷을 입음", text: "가죽옷을 입고 있었다" },
-  { id: "hide", ctx: "가죽 장신구를 봄", text: "가죽 장신구를 보았다" },
-  { id: "hide", ctx: "가죽이 무더기로 쌓여 있음", text: "가죽이 무더기로 쌓여 있었다" },
-  { id: "hide", ctx: "가죽을 사고팖", text: "가죽을 사고팔았다" },
-  { id: "leaves", ctx: "처녀가 마른 나뭇잎 꿈을 꿈", text: "여자가 마른 나뭇잎을 보았다" },
-  { id: "leaves", ctx: "마른 나뭇잎을 봄", text: "마른 나뭇잎을 보았다" },
-  { id: "leaves", ctx: "나뭇잎이 푸르고 싱싱함", text: "나뭇잎이 푸르고 싱싱했다" },
+  { id: "ledger", ctx: "장부를 적음", text: "장부를 기록하고 있었다" },
+  { id: "ledger", ctx: "장부에 잘못 적음", text: "장부에 잘못 적었다" },
+  { id: "ledger", ctx: "장부를 금고에 넣음", text: "장부를 금고에 넣었다" },
+  { id: "ledger", ctx: "장부를 어디 두었는지 잃어버림", text: "장부를 어디에 두었는지 잃어버렸다" },
+  { id: "ledger", ctx: "장부가 불에 타 없어짐", text: "장부가 불에 타 없어졌다" },
+  { id: "ledger", ctx: "여자에게 장부를 맡김", text: "여자에게 장부를 맡겼다" },
+  { id: "ledger", ctx: "처녀가 장부 꿈을 꿈", text: "처녀가 장부 꿈을 꾸었다" },
+  { id: "ledger", ctx: "장부에 떼인 셈이 적혀 있음", text: "장부에 떼인 셈이 적혀 있었다" },
+  { id: "ledger", ctx: "장부의 셈이 좋음", text: "장부의 셈이 좋았다" },
+  { id: "leech", ctx: "병을 고치려고 거머리를 몸에 붙임", text: "병을 고치려고 거머리를 몸에 붙였다" },
+  { id: "leech", ctx: "남의 몸에 거머리를 붙이는 것을 봄", text: "남의 몸에 거머리를 붙이는 것을 보았다" },
+  { id: "leech", ctx: "거머리에게 물림", text: "거머리에게 물렸다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  // 「학교에 있었다」는 `academy`(학교) 의 것이다 — 이 상징은 배움 쪽 말이 있어야 걸린다.
-  { id: "being-taught-letters", ctx: "배우는 곳에 있음", text: "학교에서 공부하고 있었다" },
-  { id: "being-taught-letters", ctx: "누군가 글을 가르쳐 줌", text: "누군가 글을 가르쳐 주었다" },
-  { id: "hide", ctx: "짐승 가죽을 봄", text: "짐승 가죽을 보았다" },
+  { id: "leech", ctx: "거머리를 봄", text: "거머리가 꿈틀거리고 있었다" },
 ];
 
 let notFound = 0;

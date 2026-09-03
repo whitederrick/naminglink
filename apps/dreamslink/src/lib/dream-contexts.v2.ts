@@ -551,6 +551,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "fog::처녀가 안개 속에 있음": "salacious scandal innocence standing",
   "joy::집안에 기쁜 일이 있음": "household auspicious",
   "joy::어떤 일로 기쁨을 느낌": "feel harmony among",
+  "leech::거머리를 봄": "worm crawling",
+  "leech::병을 고치려고 거머리를 몸에 붙임": "medicinal purposes serious escape",
+  "leech::남의 몸에 거머리를 붙이는 것을 봄": "others sickness trouble friends",
+  "leech::거머리에게 물림": "bite danger unexpected heed warning",
   "house::불이 제 집을 태움": "fire burning burned burnt ablaze",
   "house::집 안에 불빛이 있음": "light lit glowing lamp bright",
   "house::남의 집을 사들임": "bought buying purchased",
@@ -4000,5 +4004,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "leaves::나뭇잎을 봄": "happiness wonderful improvement",
   "leaves::처녀가 마른 나뭇잎 꿈을 꿈": "lonely road conjugality implied",
   "leaves::마른 나뭇잎을 봄": "withered false hopes gloomy forebodings",
-  "leaves::나뭇잎이 푸르고 싱싱함": "green fresh legacy prepossessing"
+  "leaves::나뭇잎이 푸르고 싱싱함": "green fresh legacy prepossessing",
+  "ledger::장부를 적음": "keeping perplexities disappointing combat",
+  "ledger::장부에 잘못 적음": "wrong entries disputes slight",
+  "ledger::장부를 금고에 넣음": "safe protect rights adverse",
+  "ledger::장부를 어디 두었는지 잃어버림": "misplaced awry neglect duty",
+  "ledger::장부가 불에 타 없어짐": "destroyed fire carelessness",
+  "ledger::여자에게 장부를 맡김": "woman lose money combine",
+  "ledger::처녀가 장부 꿈을 꿈": "solid proposal marriage",
+  "ledger::장부에 떼인 셈이 적혀 있음": "worthless accounts management losses",
+  "ledger::장부의 셈이 좋음": "improved conditions assume"
 };

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ledger",
+    "aliases": [
+      "장부를",
+      "회계 장부",
+      "거래 장부"
+    ],
+    "aliases_en": [
+      "a ledger",
+      "ledgers"
+    ],
+    "contexts": {
+      "장부를 적음": "기록",
+      "장부에 잘못 적음": "잘못 틀리게",
+      "장부를 금고에 넣음": "금고",
+      "장부를 어디 두었는지 잃어버림": "잃어버 두었는지",
+      "장부가 불에 타 없어짐": "불에 불타 탔다",
+      "여자에게 장부를 맡김": "여자에게 맡겼",
+      "처녀가 장부 꿈을 꿈": "처녀 아가씨",
+      "장부에 떼인 셈이 적혀 있음": "떼인 부실",
+      "장부의 셈이 좋음": "좋았다 깨끗"
+    },
+    "contexts_en": {
+      "장부를 적음": "keeping perplexities disappointing combat",
+      "장부에 잘못 적음": "wrong entries disputes slight",
+      "장부를 금고에 넣음": "safe protect rights adverse",
+      "장부를 어디 두었는지 잃어버림": "misplaced awry neglect duty",
+      "장부가 불에 타 없어짐": "destroyed fire carelessness",
+      "여자에게 장부를 맡김": "woman lose money combine",
+      "처녀가 장부 꿈을 꿈": "solid proposal marriage",
+      "장부에 떼인 셈이 적혀 있음": "worthless accounts management losses",
+      "장부의 셈이 좋음": "improved conditions assume"
+    }
+  }
+]
