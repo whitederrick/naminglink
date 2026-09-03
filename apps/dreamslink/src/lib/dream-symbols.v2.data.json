@@ -3,6 +3,7 @@
   "builtFrom": [
     "m1.json",
     "m10.json",
+    "m100.json",
     "m11.json",
     "m12.json",
     "m13.json",
@@ -12868,6 +12869,197 @@
               "locator": "宮室屋宇倉庫",
               "original": "蓋城上屋大吉利",
               "translation_ko": "성 위에 집을 지으면 크게 길하고 이롭다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lightning",
+      "term_ko": "번개",
+      "term_en": "lightning",
+      "aliases": [
+        "번갯불",
+        "번갯빛",
+        "천둥번개",
+        "벼락",
+        "번개가",
+        "번개를"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "번개를 봄",
+          "interpretation_ko": "기쁨과 넉넉함이 오되 오래가지 않을 조짐",
+          "interpretation_en": "foreshadows happiness and prosperity of short duration",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lightning",
+              "original": "Lightning in your dreams, foreshadows happiness and prosperity of short duration.",
+              "translation_ko": "꿈속의 번개는 기쁨과 넉넉함이 오되 오래가지 않음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "번개가 곁의 물건에 떨어짐",
+          "interpretation_ko": "벗이 잘되는 바람에 제가 손해를 보거나, 남의 입방아에 시달릴 흉한 조짐",
+          "interpretation_en": "you will be damaged by the good fortune of a friend, or you may be worried by gossipers and scandalmongers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lightning",
+              "original": "If the lightning strikes some object near you, and you feel the shock, you will be damaged by the good fortune of a friend, or you may be worried by gossipers and scandalmongers.",
+              "translation_ko": "번개가 제 곁의 물건에 떨어져 그 울림을 느끼면, 벗이 잘되는 바람에 제가 손해를 보거나 남의 입방아에 시달린다"
+            }
+          ]
+        },
+        {
+          "context": "검은 구름을 가르는 시퍼런 번개를 봄",
+          "interpretation_ko": "복이 온 바로 뒤에 슬픔과 어려움이 따라올 흉한 조짐",
+          "interpretation_en": "sorrow and difficulties will follow close on to fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lightning",
+              "original": "To see livid lightning parting black clouds, sorrow and difficulties will follow close on to fortune.",
+              "translation_ko": "검은 구름을 가르는 시퍼런 번개를 보면, 복이 온 바로 뒤에 슬픔과 어려움이 따라온다"
+            }
+          ]
+        },
+        {
+          "context": "번개가 제게 떨어짐",
+          "interpretation_ko": "일이나 사랑에서 생각지 못한 슬픔이 덮칠 흉한 조짐",
+          "interpretation_en": "unexpected sorrows will overwhelm you in business or love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lightning",
+              "original": "If it strikes you, unexpected sorrows will overwhelm you in business or love.",
+              "translation_ko": "번개가 저를 때리면 일이나 사랑에서 생각지 못한 슬픔이 덮친다"
+            }
+          ]
+        },
+        {
+          "context": "머리 위에서 번개가 침",
+          "interpretation_ko": "기쁨과 얻음이 다가옴을 알리는 길한 조짐",
+          "interpretation_en": "heralds the advent of joy and gain",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lightning",
+              "original": "To see the lightning above your head, heralds the advent of joy and gain.",
+              "translation_ko": "머리 위의 번개를 보면 기쁨과 얻음이 다가옴을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "남쪽에서 번개가 침",
+          "interpretation_ko": "한동안 복이 저를 피해 숨을 흉한 조짐",
+          "interpretation_en": "fortune will hide herself from you for awhile",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lightning",
+              "original": "To see lightning in the south, fortune will hide herself from you for awhile.",
+              "translation_ko": "남쪽에서 번개를 보면 한동안 복이 저를 피해 숨는다"
+            }
+          ]
+        },
+        {
+          "context": "남서쪽에서 번개가 침",
+          "interpretation_ko": "운이 제 쪽으로 올 길한 조짐",
+          "interpretation_en": "luck will come your way",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lightning",
+              "original": "If in the southwest, luck will come your way.",
+              "translation_ko": "남서쪽이면 운이 제 쪽으로 온다"
+            }
+          ]
+        },
+        {
+          "context": "서쪽에서 번개가 침",
+          "interpretation_ko": "앞날이 전보다 밝아질 길한 조짐",
+          "interpretation_en": "your prospects will be brighter than formally",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lightning",
+              "original": "In the west, your prospects will be brighter than formally.",
+              "translation_ko": "서쪽이면 앞날이 전보다 밝아진다"
+            }
+          ]
+        },
+        {
+          "context": "북쪽에서 번개가 침",
+          "interpretation_ko": "앞날이 밝아지기 전에 걸림돌부터 치워야 할 조짐",
+          "interpretation_en": "obstacles will have to be removed before your prospects will brighten up",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lightning",
+              "original": "In the north, obstacles will have to be removed before your prospects will brighten up.",
+              "translation_ko": "북쪽이면 앞날이 밝아지기 전에 걸림돌부터 치워야 한다"
+            }
+          ]
+        },
+        {
+          "context": "동쪽에서 번개가 침",
+          "interpretation_ko": "도움과 복을 쉬이 얻을 길한 조짐",
+          "interpretation_en": "you will easily win favors and fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lightning",
+              "original": "If in the east, you will easily win favors and fortune.",
+              "translation_ko": "동쪽이면 도움과 복을 쉬이 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "어둡고 불길한 구름에서 번개가 침",
+          "interpretation_ko": "으름장과 잃음과 실망이 앞서 오는 흉한 조짐. 장사하는 이는 제 일에서 떠나지 말고, 아이와 병든 이는 잘 살펴야 한다",
+          "interpretation_en": "is always a forerunner of threats, of loss and of disappointments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lightning",
+              "original": "Lightning from dark and ominous-looking clouds, is always a forerunner of threats, of loss and of disappointments.",
+              "translation_ko": "어둡고 불길해 보이는 구름에서 치는 번개는 늘 으름장과 잃음과 실망이 앞서 옴을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "번갯빛이 몸을 비춤",
+          "interpretation_ko": "길한 경사가 있을 조짐",
+          "interpretation_en": "a sign of a joyous occasion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "電光照身有吉慶",
+              "translation_ko": "번갯빛이 몸을 비추면 길한 경사가 있다"
             }
           ]
         }
@@ -85944,39 +86136,6 @@
               "locator": "Lemonade",
               "original": "If you drink lemonade in a dream, you will concur with others in signifying some entertainment as a niggardly device to raise funds for the personal enjoyment of others at your expense.",
               "translation_ko": "꿈에 레모네이드를 마시면, 남의 즐거움을 위해 제 돈을 걷어 가는 인색한 자리에 남들과 함께 고개를 끄덕이게 된다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "lightning",
-      "term_ko": "번개",
-      "term_en": "lightning",
-      "aliases": [
-        "번갯불",
-        "번갯빛",
-        "천둥번개"
-      ],
-      "category": "nature",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "번갯빛이 몸을 비춤",
-          "interpretation_ko": "길한 경사가 있을 조짐",
-          "interpretation_en": "a sign of a joyous occasion",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "電光照身有吉慶",
-              "translation_ko": "번갯빛이 몸을 비추면 길한 경사가 있다"
             }
           ]
         }

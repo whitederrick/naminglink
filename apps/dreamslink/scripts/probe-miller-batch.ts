@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 99 — Life-insurance Man~Lighthouse, 11건)
+// (지금 담긴 것: 배치 100 — Lightning, 12건)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,18 +30,19 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "life-insurance-man", ctx: "보험 외판원을 봄", text: "보험 외판원이 찾아왔다" },
-  { id: "life-insurance-man", ctx: "보험 외판원이 일그러져 보임", text: "보험 외판원이 일그러져 보였다" },
-  { id: "illumination", ctx: "밝은 빛을 봄", text: "밝은 빛이 보였다" },
-  { id: "illumination", ctx: "빛이 꺼짐", text: "빛이 꺼졌다" },
-  { id: "illumination", ctx: "어스름한 빛을 봄", text: "어스름한 빛이 보였다" },
-  { id: "beacon-light", ctx: "폭풍 속에서 등대를 봄", text: "폭풍 속에서 등대를 보았다" },
-  { id: "beacon-light", ctx: "잔잔한 바다에서 등대를 봄", text: "잔잔한 바다에서 등대를 보았다" },
+  { id: "lightning", ctx: "번개를 봄", text: "번개를 보았다" },
+  { id: "lightning", ctx: "번개가 곁의 물건에 떨어짐", text: "번개가 곁의 물건에 떨어졌다" },
+  { id: "lightning", ctx: "검은 구름을 가르는 시퍼런 번개를 봄", text: "시퍼런 번개가 검은 구름을 가르며 쳤다" },
+  { id: "lightning", ctx: "번개가 제게 떨어짐", text: "번개가 나를 때렸다" },
+  { id: "lightning", ctx: "머리 위에서 번개가 침", text: "머리 위에서 번개가 쳤다" },
+  { id: "lightning", ctx: "남쪽에서 번개가 침", text: "남쪽에서 번개가 쳤다" },
+  { id: "lightning", ctx: "남서쪽에서 번개가 침", text: "남서쪽에서 번개가 쳤다" },
+  { id: "lightning", ctx: "서쪽에서 번개가 침", text: "서쪽에서 번개가 쳤다" },
+  { id: "lightning", ctx: "북쪽에서 번개가 침", text: "북쪽에서 번개가 쳤다" },
+  { id: "lightning", ctx: "동쪽에서 번개가 침", text: "동쪽에서 번개가 쳤다" },
+  { id: "lightning", ctx: "어둡고 불길한 구름에서 번개가 침", text: "어두운 먹구름에서 번개가 쳤다" },
   // 지킴 — 이번에 건드린 상징의 옛 답이 그대로인가(§25 곁가지)
-  { id: "beacon-light", ctx: "폭풍이나 곤경 속에서 등대 불빛이 꺼지는 것을 봄", text: "등대 불빛이 꺼졌다" },
-  { id: "beacon-light", ctx: "선원이 등대 불빛을 봄", text: "뱃사람이 등대 불빛을 보았다" },
-  { id: "illumination", ctx: "기이한 빛을 봄", text: "기이한 빛을 보았다" },
-  { id: "illumination", ctx: "빛나는 뱀이나 기어 다니는 것을 봄", text: "빛나는 뱀이 기어 다녔다" },
+  { id: "lightning", ctx: "번갯빛이 몸을 비춤", text: "번갯빛이 몸을 비추었다" },
 ];
 
 let notFound = 0;

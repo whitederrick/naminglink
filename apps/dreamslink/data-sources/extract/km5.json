@@ -1038,14 +1038,43 @@
     "aliases": [
       "번갯불",
       "번갯빛",
-      "천둥번개"
+      "천둥번개",
+      "벼락",
+      "번개가",
+      "번개를"
     ],
     "aliases_en": [
       "lightning bolt",
       "thunder"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "번갯빛이 몸을 비춤": "몸을 비추 비쳤 비췄",
+      "번개를 봄": "번쩍였 번쩍하",
+      "번개가 곁의 물건에 떨어짐": "곁의 곁에 가까이 물건에 충격",
+      "검은 구름을 가르는 시퍼런 번개를 봄": "시퍼런 가르",
+      "번개가 제게 떨어짐": "나를 내게 맞았",
+      "머리 위에서 번개가 침": "머리",
+      "남쪽에서 번개가 침": "남쪽",
+      "남서쪽에서 번개가 침": "남서",
+      "서쪽에서 번개가 침": "서쪽",
+      "북쪽에서 번개가 침": "북쪽",
+      "동쪽에서 번개가 침": "동쪽",
+      "어둡고 불길한 구름에서 번개가 침": "불길한 어두운 먹구름"
+    },
+    "contexts_en": {
+      "번갯빛이 몸을 비춤": "shone joyous occasion body lit",
+      "번개를 봄": "short duration",
+      "번개가 곁의 물건에 떨어짐": "object shock gossipers scandalmongers",
+      "검은 구름을 가르는 시퍼런 번개를 봄": "livid parting difficulties",
+      "번개가 제게 떨어짐": "unexpected overwhelm",
+      "머리 위에서 번개가 침": "above head heralds advent",
+      "남쪽에서 번개가 침": "hide awhile",
+      "남서쪽에서 번개가 침": "southwest luck",
+      "서쪽에서 번개가 침": "brighter formally",
+      "북쪽에서 번개가 침": "north obstacles removed",
+      "동쪽에서 번개가 침": "east favors",
+      "어둡고 불길한 구름에서 번개가 침": "ominous forerunner threats disappointments"
+    }
   },
   {
     "id": "mortar",
