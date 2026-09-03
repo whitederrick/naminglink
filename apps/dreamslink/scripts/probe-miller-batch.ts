@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 192 — Pot~Powder, 6개 헤드워드)
+// (지금 담긴 것: 배치 193 — Prairie~Preacher, 3개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -767,6 +767,20 @@ const CASES: Case[] = [
   { id: "cemetery", ctx: "아름답고 잘 손질된 묘지에 있음", text: "아름답고 잘 손질된 묘지에 있었다" },
   { id: "chicken-meat", ctx: "닭고기를 먹음", text: "닭고기를 먹었다" },
   { id: "chicken", ctx: "닭을 잡음", text: "닭을 붙잡았다" },
+  { id: "meadow", ctx: "물결치듯 풀과 꽃이 자란 초원을 봄", text: "물결치듯 풀과 꽃이 자란 초원을 보았다" },
+  { id: "meadow", ctx: "황량한 초원을 봄", text: "황량한 초원을 보았다" },
+  { id: "meadow", ctx: "초원에서 길을 잃음", text: "초원에서 길을 잃었다" },
+  { id: "devotion", ctx: "기도를 올리거나 남이 기도하는 것을 봄", text: "기도를 올렸다" },
+  { id: "clergyman", ctx: "목사와 다툼", text: "목사와 다투었다" },
+  { id: "clergyman", ctx: "목사가 저에게서 걸어감", text: "목사가 저에게서 걸어갔다" },
+  { id: "clergyman", ctx: "슬퍼 보이는 목사를 봄", text: "슬퍼 보이는 목사를 보았다" },
+  { id: "clergyman", ctx: "장발의 목사를 봄", text: "장발의 목사를 보았다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "meadow", ctx: "초원을 봄", text: "초원을 보았다" },
+  { id: "devotion", ctx: "젊은 여성이 정성껏 믿는 꿈을 꿈", text: "젊은 여성이 정성껏 믿는 꿈을 꾸었다" },
+  { id: "clergyman", ctx: "목사와 혼인함", text: "목사와 혼인했다" },
+  { id: "clergyman", ctx: "목사를 봄", text: "목사를 보았다" },
+  { id: "clergyman", ctx: "목사의 설교를 들음", text: "목사의 설교를 들었다" },
 ];
 
 let notFound = 0;

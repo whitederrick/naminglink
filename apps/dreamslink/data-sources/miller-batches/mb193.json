@@ -1,0 +1,23 @@
+{
+  "batch": 193,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Prairie",
+      "text": "To dream of a prairie, denotes that you will enjoy ease, and even luxury and unobstructed progress. An undulating prairie, covered with growing grasses and flowers, signifies joyous happenings. A barren prairie, represents loss and sadness through the absence of friends. To be lost on one, is a sign of sadness and ill luck.",
+      "note": "기존 상징 `meadow`(초원, 밀러 Meadow)에 넷을 더한다. 첫 문장은 기존 「초원을 봄」과 같은 그림(그냥 봄)·같은 극성(길)이라 같은 문맥 이름으로 인용을 포갠다"
+    },
+    {
+      "headword": "Prayer",
+      "text": "To dream of saying prayers, or seeing others doing so, foretells you will be threatened with failure, which will take strenuous efforts to avert.",
+      "note": "기존 상징 `devotion`(신앙, 밀러 Devotion)에 더한다"
+    },
+    {
+      "headword": "Preacher",
+      "text": "To dream of a preacher, denotes that your ways are not above reproach, and your affairs will not move evenly. To dream that you are a preacher, foretells for you losses in business, and distasteful amusements will jar upon you. To hear preaching, implies that you will undergo misfortune. To argue with a preacher, you will lose in some contest. To see one walk away from you, denotes that your affairs will move with new energy. If he looks sorrowful, reproaches will fall heavily upon you. To see a long-haired preacher, denotes that you are shortly to have disputes with overbearing and egotistical people.",
+      "note": "기존 상징 `clergyman`(목사, 밀러 Minister·Clergyman)에 더한다. 처음 셋은 기존 「목사를 봄」·「목사의 설교를 들음」·「제가 목사가 됨」과 각각 같은 그림이라 같은 문맥 이름으로 인용을 포갠다. 나머지 넷(다툼·걸어감·슬퍼 보임·장발)은 새 문맥이다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "초원",
+    "term_en": "meadow",
+    "context": "초원을 봄",
+    "interpretation_ko": "앞날의 넉넉함이 밝게 약속된 가운데 반가운 만남이 있을 길한 조짐",
+    "interpretation_en": "denotes that you will enjoy ease, and even luxury and unobstructed progress",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Prairie",
+      "original": "To dream of a prairie, denotes that you will enjoy ease, and even luxury and unobstructed progress.",
+      "translation_ko": "대초원 꿈은, 안락함과 사치, 막힘없는 진전을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "초원",
+    "term_en": "meadow",
+    "context": "물결치듯 풀과 꽃이 자란 초원을 봄",
+    "interpretation_ko": "즐거운 일들이 있을 조짐",
+    "interpretation_en": "signifies joyous happenings",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Prairie",
+      "original": "An undulating prairie, covered with growing grasses and flowers, signifies joyous happenings.",
+      "translation_ko": "물결치듯 굽이지고 풀과 꽃이 자란 대초원은, 즐거운 일들이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "초원",
+    "term_en": "meadow",
+    "context": "황량한 초원을 봄",
+    "interpretation_ko": "벗이 없어 손실과 슬픔을 겪을 조짐",
+    "interpretation_en": "represents loss and sadness through the absence of friends",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Prairie",
+      "original": "A barren prairie, represents loss and sadness through the absence of friends.",
+      "translation_ko": "황량한 대초원은, 벗이 없어 손실과 슬픔을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "초원",
+    "term_en": "meadow",
+    "context": "초원에서 길을 잃음",
+    "interpretation_ko": "슬픔과 궂은 운의 조짐",
+    "interpretation_en": "is a sign of sadness and ill luck",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Prairie",
+      "original": "To be lost on one, is a sign of sadness and ill luck.",
+      "translation_ko": "대초원에서 길을 잃는 꿈은, 슬픔과 궂은 운의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "신앙",
+    "term_en": "devotion",
+    "context": "기도를 올리거나 남이 기도하는 것을 봄",
+    "interpretation_ko": "실패의 위협을 겪고 이를 막으려 힘써야 할 조짐",
+    "interpretation_en": "foretells you will be threatened with failure, which will take strenuous efforts to avert",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Prayer",
+      "original": "To dream of saying prayers, or seeing others doing so, foretells you will be threatened with failure, which will take strenuous efforts to avert.",
+      "translation_ko": "기도를 올리거나 남이 기도하는 것을 보는 꿈은, 실패의 위협을 겪고 이를 막으려 힘써야 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목사",
+    "term_en": "clergyman",
+    "context": "목사를 봄",
+    "interpretation_ko": "궂은 변화와 달갑지 않은 길을 뜻하는 흉한 조짐",
+    "interpretation_en": "denotes that your ways are not above reproach, and your affairs will not move evenly",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Preacher",
+      "original": "To dream of a preacher, denotes that your ways are not above reproach, and your affairs will not move evenly.",
+      "translation_ko": "목사 꿈은, 저의 처신이 떳떳하지 못하고 일이 순조롭지 않을 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목사",
+    "term_en": "clergyman",
+    "context": "제가 목사가 됨",
+    "interpretation_ko": "남의 몫을 가로챌 흉한 조짐",
+    "interpretation_en": "foretells for you losses in business, and distasteful amusements will jar upon you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Preacher",
+      "original": "To dream that you are a preacher, foretells for you losses in business, and distasteful amusements will jar upon you.",
+      "translation_ko": "제가 목사가 되는 꿈은, 사업에서 손실을 보고 마뜩잖은 오락으로 거슬릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목사",
+    "term_en": "clergyman",
+    "context": "목사의 설교를 들음",
+    "interpretation_ko": "속셈이 있는 이가 저를 나쁜 길로 이끌 흉한 조짐",
+    "interpretation_en": "implies that you will undergo misfortune",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Preacher",
+      "original": "To hear preaching, implies that you will undergo misfortune.",
+      "translation_ko": "설교를 듣는 꿈은, 불운을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목사",
+    "term_en": "clergyman",
+    "context": "목사와 다툼",
+    "interpretation_ko": "어떤 겨룸에서 질 조짐",
+    "interpretation_en": "you will lose in some contest",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Preacher",
+      "original": "To argue with a preacher, you will lose in some contest.",
+      "translation_ko": "목사와 다투는 꿈은, 어떤 겨룸에서 질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목사",
+    "term_en": "clergyman",
+    "context": "목사가 저에게서 걸어감",
+    "interpretation_ko": "일이 새로운 활기로 나아갈 조짐",
+    "interpretation_en": "denotes that your affairs will move with new energy",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Preacher",
+      "original": "To see one walk away from you, denotes that your affairs will move with new energy.",
+      "translation_ko": "목사가 저에게서 걸어가는 것을 보는 꿈은, 일이 새로운 활기로 나아갈 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목사",
+    "term_en": "clergyman",
+    "context": "슬퍼 보이는 목사를 봄",
+    "interpretation_ko": "무거운 책망을 당할 조짐",
+    "interpretation_en": "reproaches will fall heavily upon you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Preacher",
+      "original": "If he looks sorrowful, reproaches will fall heavily upon you.",
+      "translation_ko": "슬퍼 보이는 목사를 보는 꿈은, 무거운 책망을 당할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목사",
+    "term_en": "clergyman",
+    "context": "장발의 목사를 봄",
+    "interpretation_ko": "거만하고 독선적인 이들과 곧 다툴 조짐",
+    "interpretation_en": "denotes that you are shortly to have disputes with overbearing and egotistical people",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Preacher",
+      "original": "To see a long-haired preacher, denotes that you are shortly to have disputes with overbearing and egotistical people.",
+      "translation_ko": "머리 긴 목사를 보는 꿈은, 거만하고 독선적인 이들과 곧 다툴 조짐이다"
+    }
+  }
+]

@@ -10,10 +10,16 @@
       "meadows"
     ],
     "contexts": {
-      "초원을 봄": "펼쳐진 드넓"
+      "초원을 봄": "펼쳐진 드넓",
+      "물결치듯 풀과 꽃이 자란 초원을 봄": "물결치듯 꽃들",
+      "황량한 초원을 봄": "황량한 벗이",
+      "초원에서 길을 잃음": "길을 잃었"
     },
     "contexts_en": {
-      "초원을 봄": "predicts happy reunions bright promises"
+      "초원을 봄": "predicts happy reunions bright promises",
+      "물결치듯 풀과 꽃이 자란 초원을 봄": "undulating grasses flowers joyous",
+      "황량한 초원을 봄": "barren absence friends",
+      "초원에서 길을 잃음": "lost sadness luck"
     }
   },
   {

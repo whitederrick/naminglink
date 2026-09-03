@@ -276,7 +276,10 @@
     "aliases": [
       "정성껏 믿",
       "독실",
-      "기도를 드렸다"
+      "기도를 드렸다",
+      "기도를 올렸다",
+      "기도를 올리는",
+      "기도를 올릴"
     ],
     "aliases_en": [
       "devout",
@@ -285,12 +288,14 @@
     "contexts": {
       "농사짓는 이가 신앙을 드러냄": "농부 농사 수확",
       "장사하는 이에게 신앙 꿈이 나타남": "장사 상인 거래",
-      "젊은 여성이 정성껏 믿는 꿈을 꿈": "여자 여성 처녀"
+      "젊은 여성이 정성껏 믿는 꿈을 꿈": "여자 여성 처녀",
+      "기도를 올리거나 남이 기도하는 것을 봄": "기도를 올리거나"
     },
     "contexts_en": {
       "농사짓는 이가 신앙을 드러냄": "farmer plenteous neighbors",
       "장사하는 이에게 신앙 꿈이 나타남": "business warning deceit",
-      "젊은 여성이 정성껏 믿는 꿈을 꿈": "young chastity adoring"
+      "젊은 여성이 정성껏 믿는 꿈을 꿈": "young chastity adoring",
+      "기도를 올리거나 남이 기도하는 것을 봄": "prayers threatened failure avert"
     }
   },
   {

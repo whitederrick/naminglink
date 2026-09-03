@@ -105,6 +105,7 @@
     "m190.json",
     "m191.json",
     "m192.json",
+    "m193.json",
     "m2.json",
     "m20.json",
     "m21.json",
@@ -19480,6 +19481,171 @@
               "locator": "被害鬥傷打罵",
               "original": "刀斧自傷主大吉",
               "translation_ko": "칼과 도끼에 스스로 다치면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clergyman",
+      "term_ko": "목사",
+      "term_en": "clergyman",
+      "aliases": [
+        "성직자",
+        "전도사",
+        "목사가",
+        "목사를",
+        "목사의"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "목사를 봄",
+          "interpretation_ko": "궂은 변화와 달갑지 않은 길을 뜻하는 흉한 조짐",
+          "interpretation_en": "denotes unfortunate changes and unpleasant journeys",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minister",
+              "original": "To dream of seeing a minister, denotes unfortunate changes and unpleasant journeys.",
+              "translation_ko": "꿈에 목사를 보면 궂은 변화와 달갑지 않은 길이 있다"
+            },
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "To dream of a preacher, denotes that your ways are not above reproach, and your affairs will not move evenly.",
+              "translation_ko": "목사 꿈은, 저의 처신이 떳떳하지 못하고 일이 순조롭지 않을 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목사의 설교를 들음",
+          "interpretation_ko": "속셈이 있는 이가 저를 나쁜 길로 이끌 흉한 조짐",
+          "interpretation_en": "foretells that some designing person will influence you to evil",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minister",
+              "original": "To hear a minister exhort, foretells that some designing person will influence you to evil.",
+              "translation_ko": "목사가 훈계하는 것을 들으면, 속셈이 있는 이가 저를 나쁜 길로 이끈다"
+            },
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "To hear preaching, implies that you will undergo misfortune.",
+              "translation_ko": "설교를 듣는 꿈은, 불운을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제가 목사가 됨",
+          "interpretation_ko": "남의 몫을 가로챌 흉한 조짐",
+          "interpretation_en": "denotes that you will usurp another's rights",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minister",
+              "original": "To dream that you are a minister, denotes that you will usurp another's rights.",
+              "translation_ko": "제가 목사가 되는 꿈은 남의 몫을 가로챔을 뜻한다"
+            },
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "To dream that you are a preacher, foretells for you losses in business, and distasteful amusements will jar upon you.",
+              "translation_ko": "제가 목사가 되는 꿈은, 사업에서 손실을 보고 마뜩잖은 오락으로 거슬릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "장례 설교를 하려고 목사를 부름",
+          "interpretation_ko": "병과 궂은 기운에 맞서 애쓰나 헛되이 밀릴 조짐",
+          "interpretation_en": "you will vainly strive against sickness and evil influences, but they will prevail",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Clergyman",
+              "original": "To dream that you send for a clergyman to preach a funeral sermon, denotes that you will vainly strive against sickness and to ward off evil influences, but they will prevail in spite of your earnest endeavors.",
+              "translation_ko": "장례 설교를 하려고 목사를 부르는 꿈은, 병과 궂은 기운을 막으려 애쓰나 진심 어린 애씀에도 그것들이 이기게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "목사와 혼인함",
+          "interpretation_ko": "마음이 크게 괴롭고 운이 어긋나 곤경에 빠질 조짐",
+          "interpretation_en": "she will be the object of much mental distress, and fortune will lead her into adversity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Clergyman",
+              "original": "If a young woman marries a clergyman in her dream, she will be the object of much mental distress, and the wayward hand of fortune will lead her into the morass of adversity.",
+              "translation_ko": "젊은 여성이 꿈에서 목사와 혼인하면, 마음이 크게 괴롭고 어긋난 운이 그를 곤경의 수렁으로 이끈다"
+            }
+          ]
+        },
+        {
+          "context": "목사와 다툼",
+          "interpretation_ko": "어떤 겨룸에서 질 조짐",
+          "interpretation_en": "you will lose in some contest",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "To argue with a preacher, you will lose in some contest.",
+              "translation_ko": "목사와 다투는 꿈은, 어떤 겨룸에서 질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목사가 저에게서 걸어감",
+          "interpretation_ko": "일이 새로운 활기로 나아갈 조짐",
+          "interpretation_en": "denotes that your affairs will move with new energy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "To see one walk away from you, denotes that your affairs will move with new energy.",
+              "translation_ko": "목사가 저에게서 걸어가는 것을 보는 꿈은, 일이 새로운 활기로 나아갈 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "슬퍼 보이는 목사를 봄",
+          "interpretation_ko": "무거운 책망을 당할 조짐",
+          "interpretation_en": "reproaches will fall heavily upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "If he looks sorrowful, reproaches will fall heavily upon you.",
+              "translation_ko": "슬퍼 보이는 목사를 보는 꿈은, 무거운 책망을 당할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "장발의 목사를 봄",
+          "interpretation_ko": "거만하고 독선적인 이들과 곧 다툴 조짐",
+          "interpretation_en": "denotes that you are shortly to have disputes with overbearing and egotistical people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "To see a long-haired preacher, denotes that you are shortly to have disputes with overbearing and egotistical people.",
+              "translation_ko": "머리 긴 목사를 보는 꿈은, 거만하고 독선적인 이들과 곧 다툴 조짐이다"
             }
           ]
         }
@@ -39297,97 +39463,6 @@
       ]
     },
     {
-      "id": "clergyman",
-      "term_ko": "목사",
-      "term_en": "clergyman",
-      "aliases": [
-        "성직자",
-        "전도사",
-        "목사가",
-        "목사를",
-        "목사의"
-      ],
-      "category": "person",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "목사를 봄",
-          "interpretation_ko": "궂은 변화와 달갑지 않은 길을 뜻하는 흉한 조짐",
-          "interpretation_en": "denotes unfortunate changes and unpleasant journeys",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Minister",
-              "original": "To dream of seeing a minister, denotes unfortunate changes and unpleasant journeys.",
-              "translation_ko": "꿈에 목사를 보면 궂은 변화와 달갑지 않은 길이 있다"
-            }
-          ]
-        },
-        {
-          "context": "목사의 설교를 들음",
-          "interpretation_ko": "속셈이 있는 이가 저를 나쁜 길로 이끌 흉한 조짐",
-          "interpretation_en": "foretells that some designing person will influence you to evil",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Minister",
-              "original": "To hear a minister exhort, foretells that some designing person will influence you to evil.",
-              "translation_ko": "목사가 훈계하는 것을 들으면, 속셈이 있는 이가 저를 나쁜 길로 이끈다"
-            }
-          ]
-        },
-        {
-          "context": "제가 목사가 됨",
-          "interpretation_ko": "남의 몫을 가로챌 흉한 조짐",
-          "interpretation_en": "denotes that you will usurp another's rights",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Minister",
-              "original": "To dream that you are a minister, denotes that you will usurp another's rights.",
-              "translation_ko": "제가 목사가 되는 꿈은 남의 몫을 가로챔을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "장례 설교를 하려고 목사를 부름",
-          "interpretation_ko": "병과 궂은 기운에 맞서 애쓰나 헛되이 밀릴 조짐",
-          "interpretation_en": "you will vainly strive against sickness and evil influences, but they will prevail",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Clergyman",
-              "original": "To dream that you send for a clergyman to preach a funeral sermon, denotes that you will vainly strive against sickness and to ward off evil influences, but they will prevail in spite of your earnest endeavors.",
-              "translation_ko": "장례 설교를 하려고 목사를 부르는 꿈은, 병과 궂은 기운을 막으려 애쓰나 진심 어린 애씀에도 그것들이 이기게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "목사와 혼인함",
-          "interpretation_ko": "마음이 크게 괴롭고 운이 어긋나 곤경에 빠질 조짐",
-          "interpretation_en": "she will be the object of much mental distress, and fortune will lead her into adversity",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Clergyman",
-              "original": "If a young woman marries a clergyman in her dream, she will be the object of much mental distress, and the wayward hand of fortune will lead her into the morass of adversity.",
-              "translation_ko": "젊은 여성이 꿈에서 목사와 혼인하면, 마음이 크게 괴롭고 어긋난 운이 그를 곤경의 수렁으로 이끈다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "climbing",
       "term_ko": "기어오르기",
       "term_en": "climbing",
@@ -50034,6 +50109,84 @@
       ]
     },
     {
+      "id": "devotion",
+      "term_ko": "신앙",
+      "term_en": "devotion",
+      "aliases": [
+        "정성껏 믿",
+        "독실",
+        "기도를 드렸다",
+        "기도를 올렸다",
+        "기도를 올리는",
+        "기도를 올릴"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기도를 올리거나 남이 기도하는 것을 봄",
+          "interpretation_ko": "실패의 위협을 겪고 이를 막으려 힘써야 할 조짐",
+          "interpretation_en": "foretells you will be threatened with failure, which will take strenuous efforts to avert",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Prayer",
+              "original": "To dream of saying prayers, or seeing others doing so, foretells you will be threatened with failure, which will take strenuous efforts to avert.",
+              "translation_ko": "기도를 올리거나 남이 기도하는 것을 보는 꿈은, 실패의 위협을 겪고 이를 막으려 힘써야 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "농사짓는 이가 신앙을 드러냄",
+          "interpretation_ko": "넉넉한 수확과 화목한 이웃이 있을 조짐",
+          "interpretation_en": "plenteous crops and peaceful neighbors",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Devotion",
+              "original": "For a farmer to dream of showing his devotion to God, or to his family, denotes plenteous crops and peaceful neighbors.",
+              "translation_ko": "농사짓는 이가 하늘이나 집안에 정성을 드러내는 꿈은, 넉넉한 수확과 화목한 이웃을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "장사하는 이에게 신앙 꿈이 나타남",
+          "interpretation_ko": "속임수로는 아무것도 얻을 수 없다는 경고",
+          "interpretation_en": "a warning that nothing is to be gained by deceit",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Devotion",
+              "original": "To business people, this is a warning that nothing is to be gained by deceit.",
+              "translation_ko": "장사하는 이에게는 속임수로 얻을 것이 없다는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 정성껏 믿는 꿈을 꿈",
+          "interpretation_ko": "몸가짐이 조촐하고 아끼는 남편을 얻을 조짐",
+          "interpretation_en": "implies her chastity and an adoring husband",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Devotion",
+              "original": "For a young woman to dream of being devout, implies her chastity and an adoring husband.",
+              "translation_ko": "젊은 여성이 정성껏 믿는 꿈은, 조촐한 몸가짐과 아끼는 남편을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "difficulty",
       "term_ko": "어려움",
       "term_en": "difficulty",
@@ -54334,6 +54487,87 @@
               "locator": "Mattress",
               "original": "To dream of a mattress factory, denotes that you will be connected in business with thrifty partners and will soon amass wealth.",
               "translation_ko": "요 만드는 공장의 꿈은, 알뜰한 동무와 함께 일하게 되고 머잖아 재물을 모음을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meadow",
+      "term_ko": "초원",
+      "term_en": "meadow",
+      "aliases": [
+        "초원을",
+        "초원이",
+        "목초지"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "초원을 봄",
+          "interpretation_ko": "앞날의 넉넉함이 밝게 약속된 가운데 반가운 만남이 있을 길한 조짐",
+          "interpretation_en": "predicts happy reunions under bright promises of future prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Meadow",
+              "original": "To dream of meadows, predicts happy reunions under bright promises of future prosperity.",
+              "translation_ko": "초원의 꿈은, 앞날의 넉넉함이 밝게 약속된 가운데 반가운 만남이 있음을 알린다"
+            },
+            {
+              "work": "miller",
+              "locator": "Prairie",
+              "original": "To dream of a prairie, denotes that you will enjoy ease, and even luxury and unobstructed progress.",
+              "translation_ko": "대초원 꿈은, 안락함과 사치, 막힘없는 진전을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "물결치듯 풀과 꽃이 자란 초원을 봄",
+          "interpretation_ko": "즐거운 일들이 있을 조짐",
+          "interpretation_en": "signifies joyous happenings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Prairie",
+              "original": "An undulating prairie, covered with growing grasses and flowers, signifies joyous happenings.",
+              "translation_ko": "물결치듯 굽이지고 풀과 꽃이 자란 대초원은, 즐거운 일들이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "황량한 초원을 봄",
+          "interpretation_ko": "벗이 없어 손실과 슬픔을 겪을 조짐",
+          "interpretation_en": "represents loss and sadness through the absence of friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Prairie",
+              "original": "A barren prairie, represents loss and sadness through the absence of friends.",
+              "translation_ko": "황량한 대초원은, 벗이 없어 손실과 슬픔을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "초원에서 길을 잃음",
+          "interpretation_ko": "슬픔과 궂은 운의 조짐",
+          "interpretation_en": "is a sign of sadness and ill luck",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Prairie",
+              "original": "To be lost on one, is a sign of sadness and ill luck.",
+              "translation_ko": "대초원에서 길을 잃는 꿈은, 슬픔과 궂은 운의 조짐이다"
             }
           ]
         }
@@ -63348,67 +63582,6 @@
               "locator": "Devil",
               "original": "If you dream of being pursued by his majesty, you will fall into snares set for you by enemies in the guise of friends.",
               "translation_ko": "악마에게 쫓기는 꿈을 꾸면, 벗의 탈을 쓴 적이 놓은 덫에 걸린다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "devotion",
-      "term_ko": "신앙",
-      "term_en": "devotion",
-      "aliases": [
-        "정성껏 믿",
-        "독실",
-        "기도를 드렸다"
-      ],
-      "category": "action",
-      "polarity": "positive",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "농사짓는 이가 신앙을 드러냄",
-          "interpretation_ko": "넉넉한 수확과 화목한 이웃이 있을 조짐",
-          "interpretation_en": "plenteous crops and peaceful neighbors",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Devotion",
-              "original": "For a farmer to dream of showing his devotion to God, or to his family, denotes plenteous crops and peaceful neighbors.",
-              "translation_ko": "농사짓는 이가 하늘이나 집안에 정성을 드러내는 꿈은, 넉넉한 수확과 화목한 이웃을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "장사하는 이에게 신앙 꿈이 나타남",
-          "interpretation_ko": "속임수로는 아무것도 얻을 수 없다는 경고",
-          "interpretation_en": "a warning that nothing is to be gained by deceit",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Devotion",
-              "original": "To business people, this is a warning that nothing is to be gained by deceit.",
-              "translation_ko": "장사하는 이에게는 속임수로 얻을 것이 없다는 경고다"
-            }
-          ]
-        },
-        {
-          "context": "젊은 여성이 정성껏 믿는 꿈을 꿈",
-          "interpretation_ko": "몸가짐이 조촐하고 아끼는 남편을 얻을 조짐",
-          "interpretation_en": "implies her chastity and an adoring husband",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Devotion",
-              "original": "For a young woman to dream of being devout, implies her chastity and an adoring husband.",
-              "translation_ko": "젊은 여성이 정성껏 믿는 꿈은, 조촐한 몸가짐과 아끼는 남편을 뜻한다"
             }
           ]
         }
@@ -106151,39 +106324,6 @@
               "locator": "Marigold",
               "original": "To dream of seeing marigolds, denotes contentment with frugality should be your aim.",
               "translation_ko": "금잔화를 보는 꿈은, 아끼며 사는 데서 오는 흡족함을 목표로 삼으라는 뜻이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "meadow",
-      "term_ko": "초원",
-      "term_en": "meadow",
-      "aliases": [
-        "초원을",
-        "초원이",
-        "목초지"
-      ],
-      "category": "place",
-      "polarity": "positive",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "초원을 봄",
-          "interpretation_ko": "앞날의 넉넉함이 밝게 약속된 가운데 반가운 만남이 있을 길한 조짐",
-          "interpretation_en": "predicts happy reunions under bright promises of future prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Meadow",
-              "original": "To dream of meadows, predicts happy reunions under bright promises of future prosperity.",
-              "translation_ko": "초원의 꿈은, 앞날의 넉넉함이 밝게 약속된 가운데 반가운 만남이 있음을 알린다"
             }
           ]
         }
