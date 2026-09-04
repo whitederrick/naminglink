@@ -143,6 +143,7 @@
     "m224.json",
     "m225.json",
     "m226.json",
+    "m227.json",
     "m23.json",
     "m24.json",
     "m25.json",
@@ -21781,6 +21782,153 @@
               "locator": "Poison",
               "original": "To take strychnine or other poisonous medicine under the advice of a physician, denotes that you will undertake some affair fraught with danger.",
               "translation_ko": "의사의 권유로 스트리크닌 등 독성 있는 약을 먹는 꿈은, 위험이 따르는 일에 나설 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "term_ko": "강",
+      "term_en": "river",
+      "aliases": [
+        "강물",
+        "하천",
+        "냇물",
+        "강가"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "맑고 잔잔하게 흐르는 강을 봄",
+          "interpretation_ko": "머지않아 즐거운 기쁨을 누리고, 번영이 좋은 약속을 가져올 조짐",
+          "interpretation_en": "you will soon succeed to the enjoyment of delightful pleasures, and prosperity will bear flattering promises",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "River",
+              "original": "If you see a clear, smooth, flowing river in your dream, you will soon succeed to the enjoyment of delightful pleasures, and prosperity will bear flattering promises.",
+              "translation_ko": "맑고 잔잔하게 흐르는 강을 보는 꿈은, 머지않아 즐거운 기쁨을 누리고 번영이 좋은 약속을 가져올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "강물이 흐리고 거칢",
+          "interpretation_ko": "삶에서 못마땅하고 질투 어린 다툼이 있을 조짐",
+          "interpretation_en": "there will be disagreeable and jealous contentions in your life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "River",
+              "original": "If the waters are muddy or tumultuous, there will be disagreeable and jealous contentions in your life.",
+              "translation_ko": "강물이 흐리고 거친 꿈은, 삶에서 못마땅하고 질투 어린 다툼이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "강물이 넘쳐 발이 묶임",
+          "interpretation_ko": "사업에서 일시적인 곤란을 겪거나, 은밀한 일탈이 알려져 평판에 혹독한 비판을 받을까 불안할 조짐",
+          "interpretation_en": "there will be temporary embarrassments in your business, or you will suffer uneasiness lest some private escapade will reach public notice and cause your reputation harsh criticisms",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "River",
+              "original": "If you are water-bound by the overflowing of a river, there will be temporary embarrassments in your business, or you will suffer uneasiness lest some private escapade will reach public notice and cause your reputation harsh criticisms.",
+              "translation_ko": "강물이 넘쳐 발이 묶이는 꿈은, 사업에서 일시적인 곤란을 겪거나 은밀한 일탈이 알려져 평판에 혹독한 비판을 받을까 불안할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 강을 항해하다 바닥에 시신을 봄",
+          "interpretation_ko": "지금의 즐거움과 행운 뒤에 곧 근심과 우울이 따를 조짐",
+          "interpretation_en": "you will find that trouble and gloom will follow swiftly upon present pleasures and fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "River",
+              "original": "If while sailing upon a clear river you see corpses in the bottom, you will find that trouble and gloom will follow swiftly upon present pleasures and fortune.",
+              "translation_ko": "맑은 강을 항해하다 바닥에 시신을 보는 꿈은, 지금의 즐거움과 행운 뒤에 곧 근심과 우울이 따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "메마른 강을 봄",
+          "interpretation_ko": "병과 심상찮은 불운의 조짐",
+          "interpretation_en": "denotes sickness and unusual ill-luck",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "River",
+              "original": "To see empty rivers, denotes sickness and unusual ill-luck.",
+              "translation_ko": "메마른 강을 보는 꿈은, 병과 심상찮은 불운의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "강과 바다가 넘쳐 불어남",
+          "interpretation_ko": "크게 길하고 번창할 조짐",
+          "interpretation_en": "a sign of great fortune and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "江海漲漫大吉昌",
+              "translation_ko": "강과 바다가 넘쳐 불어나면 크게 길하고 창성하다"
+            }
+          ]
+        },
+        {
+          "context": "강물에 모래와 돌이 있음",
+          "interpretation_ko": "글재주에 이로울 조짐",
+          "interpretation_en": "a sign of benefit to one's literary talent",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "河水沙石益文章",
+              "translation_ko": "강물의 모래와 돌은 문장에 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "불이 강물을 태움",
+          "interpretation_ko": "오래 살고 길할 조짐",
+          "interpretation_en": "an auspicious sign of a long life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "火燒河水長命吉",
+              "translation_ko": "불이 강물을 태우면 오래 살고 길하다"
+            }
+          ]
+        },
+        {
+          "context": "배를 타고 강을 건넘",
+          "interpretation_ko": "벼슬을 얻을 조짐",
+          "interpretation_en": "a sign of gaining an official post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "乘船渡江河得官",
+              "translation_ko": "배를 타고 강을 건너면 벼슬을 얻는다"
             }
           ]
         }
@@ -60038,82 +60186,6 @@
               "locator": "Rival",
               "original": "If you imagine that you are the successful rival, it is good for your advancement, and you will find congeniality in your choice of a companion.",
               "translation_ko": "제가 성공한 연적임을 상상하는 꿈은, 출세에 좋고 어울리는 짝을 찾을 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "river",
-      "term_ko": "강",
-      "term_en": "river",
-      "aliases": [
-        "강물",
-        "하천",
-        "냇물",
-        "강가"
-      ],
-      "category": "nature",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "강과 바다가 넘쳐 불어남",
-          "interpretation_ko": "크게 길하고 번창할 조짐",
-          "interpretation_en": "a sign of great fortune and prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "江海漲漫大吉昌",
-              "translation_ko": "강과 바다가 넘쳐 불어나면 크게 길하고 창성하다"
-            }
-          ]
-        },
-        {
-          "context": "강물에 모래와 돌이 있음",
-          "interpretation_ko": "글재주에 이로울 조짐",
-          "interpretation_en": "a sign of benefit to one's literary talent",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "河水沙石益文章",
-              "translation_ko": "강물의 모래와 돌은 문장에 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "불이 강물을 태움",
-          "interpretation_ko": "오래 살고 길할 조짐",
-          "interpretation_en": "an auspicious sign of a long life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "火燒河水長命吉",
-              "translation_ko": "불이 강물을 태우면 오래 살고 길하다"
-            }
-          ]
-        },
-        {
-          "context": "배를 타고 강을 건넘",
-          "interpretation_ko": "벼슬을 얻을 조짐",
-          "interpretation_en": "a sign of gaining an official post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "乘船渡江河得官",
-              "translation_ko": "배를 타고 강을 건너면 벼슬을 얻는다"
             }
           ]
         }

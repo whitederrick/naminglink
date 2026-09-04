@@ -378,13 +378,23 @@
       "강과 바다가 넘쳐 불어남": "바다 넘쳐 불어나 범람",
       "강물에 모래와 돌이 있음": "모래 자갈 돌이 바위",
       "불이 강물을 태움": "불이 불꽃 타올 태우",
-      "배를 타고 강을 건넘": "배를 건넜 건너 나룻배"
+      "배를 타고 강을 건넘": "배를 건넜 건너 나룻배",
+      "맑고 잔잔하게 흐르는 강을 봄": "맑고 잔잔",
+      "강물이 흐리고 거칢": "흐리고 거칠",
+      "강물이 넘쳐 발이 묶임": "발이 묶여",
+      "맑은 강을 항해하다 바닥에 시신을 봄": "항해하다 시신을",
+      "메마른 강을 봄": "메마른 불운"
     },
     "contexts_en": {
       "강과 바다가 넘쳐 불어남": "sea ocean overflow flooded swelling",
       "강물에 모래와 돌이 있음": "sand pebbles stones rocks",
       "불이 강물을 태움": "fire flames burning burned",
-      "배를 타고 강을 건넘": "boat crossed crossing ferry"
+      "배를 타고 강을 건넘": "boat crossed crossing ferry",
+      "맑고 잔잔하게 흐르는 강을 봄": "clear smooth pleasures",
+      "강물이 흐리고 거칢": "muddy tumultuous jealous",
+      "강물이 넘쳐 발이 묶임": "bound embarrassments escapade",
+      "맑은 강을 항해하다 바닥에 시신을 봄": "sailing corpses gloom",
+      "메마른 강을 봄": "empty sickness unusual"
     }
   },
   {
