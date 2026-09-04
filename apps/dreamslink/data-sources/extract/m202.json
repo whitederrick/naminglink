@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "부두",
+    "term_en": "docks",
+    "context": "부두에 서서 배들을 봄",
+    "interpretation_ko": "바라고 꾀한 일이 이루어질 조짐",
+    "interpretation_en": "denotes the fruition of wishes and designs",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quay",
+      "original": "To see vessels while standing on the quay, denotes the fruition of wishes and designs.",
+      "translation_ko": "부두에 서서 배들을 보는 꿈은, 바라고 꾀한 일이 이루어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "여왕",
+    "term_en": "queen",
+    "context": "여왕 꿈을 꿈",
+    "interpretation_ko": "성공적인 일들의 조짐",
+    "interpretation_en": "foretells succesful{sic} ventures",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Queen",
+      "original": "To dream of a queen, foretells succesful{sic} ventures.",
+      "translation_ko": "여왕 꿈은, 성공적인 일들의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "여왕",
+    "term_en": "queen",
+    "context": "늙거나 초췌해 보이는 여왕을 봄",
+    "interpretation_ko": "누리는 즐거움에 낙담이 뒤따를 조짐",
+    "interpretation_en": "there will be disappointments connected with your pleasures",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Queen",
+      "original": "If she looks old or haggard, there will be disappointments connected with your pleasures.",
+      "translation_ko": "늙거나 초췌해 보이는 여왕을 보는 꿈은, 누리는 즐거움에 낙담이 뒤따를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "질문",
+    "term_en": "question",
+    "context": "무언가의 옳고 그름을 따짐",
+    "interpretation_ko": "사랑하는 이의 불성실을 의심하고, 하는 투기를 두려워하게 될 조짐",
+    "interpretation_en": "denotes that you will suspect some one whom you love of unfaithfulness, and you will fear for your speculations",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Question",
+      "original": "To question the merits of a thing in your dreams, denotes that you will suspect some one whom you love of unfaithfulness, and you will fear for your speculations.",
+      "translation_ko": "무언가의 옳고 그름을 따지는 꿈은, 사랑하는 이의 불성실을 의심하고, 하는 투기를 두려워하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "질문",
+    "term_en": "question",
+    "context": "질문을 던짐",
+    "interpretation_ko": "진실을 힘써 좇아 뜻을 이룰 조짐",
+    "interpretation_en": "foretells that you will earnestly strive for truth and be successful",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Question",
+      "original": "To ask a question, foretells that you will earnestly strive for truth and be successful.",
+      "translation_ko": "질문을 던지는 꿈은, 진실을 힘써 좇아 뜻을 이룰 조짐이다"
+    }
+  },
+  {
+    "term_ko": "질문",
+    "term_en": "question",
+    "context": "질문을 받음",
+    "interpretation_ko": "부당한 대우를 받을 조짐",
+    "interpretation_en": "you will be unfairly dealt with",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Question",
+      "original": "If you are questioned, you will be unfairly dealt with.",
+      "translation_ko": "질문을 받는 꿈은, 부당한 대우를 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "유사",
+    "term_en": "quicksand",
+    "context": "유사에 빠짐",
+    "interpretation_ko": "손실과 속임을 겪을 조짐",
+    "interpretation_en": "you will meet with loss and deceit",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quicksand",
+      "original": "To find yourself in quicksand while dreaming, you will meet with loss and deceit.",
+      "translation_ko": "유사에 빠지는 꿈은, 손실과 속임을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "유사",
+    "term_en": "quicksand",
+    "context": "유사에서 헤어나지 못함",
+    "interpretation_ko": "감당 못 할 불운에 휘말릴 조짐",
+    "interpretation_en": "you will be involved in overwhelming misfortunes",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quicksand",
+      "original": "If you are unable to overcome it, you will be involved in overwhelming misfortunes.",
+      "translation_ko": "유사에서 헤어나지 못하는 꿈은, 감당 못 할 불운에 휘말릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "유사",
+    "term_en": "quicksand",
+    "context": "처녀가 애인에게 유사에서 구조됨",
+    "interpretation_ko": "한결같이 사랑해 줄 믿음직한 남편을 얻을 조짐",
+    "interpretation_en": "she will possess a worthy and faithful husband, who will still remain her lover",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quicksand",
+      "original": "For a young woman to be rescued by her lover from quicksand, she will possess a worthy and faithful husband, who will still remain her lover.",
+      "translation_ko": "처녀가 애인에게 유사에서 구조되는 꿈은, 한결같이 사랑해 줄 믿음직한 남편을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "깃털펜",
+    "term_en": "quill",
+    "context": "깃털펜 꿈을 꿈",
+    "interpretation_ko": "문필에 뜻 있는 이에게는 성공의 시기가 있을 조짐",
+    "interpretation_en": "denotes to the literary inclined a season of success",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Quills",
+      "original": "To dream of quills, denotes to the literary inclined a season of success.",
+      "translation_ko": "깃털펜 꿈은, 문필에 뜻 있는 이에게는 성공의 시기가 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "깃털펜",
+    "term_en": "quill",
+    "context": "장식으로 쓰인 깃털펜을 봄",
+    "interpretation_ko": "장사가 북적이고 보수도 얼마간 있을 조짐",
+    "interpretation_en": "signifies a rushing trade, and some remuneration",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Quills",
+      "original": "To dream of them as ornaments, signifies a rushing trade, and some remuneration.",
+      "translation_ko": "장식으로 쓰인 깃털펜을 보는 꿈은, 장사가 북적이고 보수도 얼마간 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "깃털펜",
+    "term_en": "quill",
+    "context": "처녀가 모자에 깃털펜을 꽂음",
+    "interpretation_ko": "여러 이를 사로잡으려 하고, 그 성패는 저의 매력에 달릴 조짐",
+    "interpretation_en": "denotes that she will attempt many conquests, and her success will depend upon her charms",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quills",
+      "original": "For a young woman to be putting a quill on her hat, denotes that she will attempt many conquests, and her success will depend upon her charms.",
+      "translation_ko": "처녀가 모자에 깃털펜을 꽂는 꿈은, 여러 이를 사로잡으려 하고, 그 성패는 저의 매력에 달릴 조짐이다"
+    }
+  }
+]

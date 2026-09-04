@@ -1762,6 +1762,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "queen::왕비가 불러 마시게 함": "summoned drink",
   "queen::황후를 봄": "exalted honors pride unpopular",
   "queen::황후와 황제를 함께 봄": "emperor substantial",
+  "queen::여왕 꿈을 꿈": "successful ventures",
+  "queen::늙거나 초췌해 보이는 여왕을 봄": "old haggard disappointments",
   "sea::강과 바다가 넘쳐 불어남": "overflow great fortune",
   "sea::바다가 잔잔함": "calm propitious sailor voyage",
   "sea::먼바다에서 파도가 배를 침": "crashed lash ship disaster stormy",
@@ -3480,6 +3482,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "docks::부두에 해가 비침": "sun shining escape",
   "docks::부두 위에 섬": "stand upon brave honor",
   "docks::부두에 닿으려다 실패함": "strive reach fail coveted",
+  "docks::부두에 서서 배들을 봄": "vessels fruition wishes",
   "doctor::의사를 사사로이 만남": "socially auspicious prosperity",
   "doctor::의사에게 진찰을 받음": "professionally discouraging differences",
   "doctor::의사가 살을 째는데 피가 나지 않음": "incision flesh tormented",
@@ -5256,5 +5259,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "quarry::채석장에서 인부들이 바삐 일하는 것을 봄": "workmen busy advance",
   "quarry::인적 없는 채석장을 봄": "idle failure death",
   "quartette::제가 사중창에서 연주하거나 노래함": "playing singing jolly",
-  "quartette::사중창을 보거나 들음": "aspire beyond"
+  "quartette::사중창을 보거나 들음": "aspire beyond",
+  "question::무언가의 옳고 그름을 따짐": "merits suspect unfaithfulness",
+  "question::질문을 던짐": "ask truth successful",
+  "question::질문을 받음": "unfairly dealt treatment",
+  "quicksand::유사에 빠짐": "loss deceit",
+  "quicksand::유사에서 헤어나지 못함": "unable overwhelming misfortunes",
+  "quicksand::처녀가 애인에게 유사에서 구조됨": "rescued worthy faithful",
+  "quill::깃털펜 꿈을 꿈": "literary inclined season",
+  "quill::장식으로 쓰인 깃털펜을 봄": "ornaments rushing trade",
+  "quill::처녀가 모자에 깃털펜을 꽂음": "hat conquests charms"
 };

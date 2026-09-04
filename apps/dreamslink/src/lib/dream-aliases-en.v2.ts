@@ -7019,5 +7019,16 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "quartette": [
     "a quartette"
+  ],
+  "question": [
+    "a question",
+    "questioned"
+  ],
+  "quicksand": [
+    "quicksand"
+  ],
+  "quill": [
+    "quills",
+    "a quill"
   ]
 };

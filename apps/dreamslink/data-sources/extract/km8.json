@@ -1176,12 +1176,16 @@
     "contexts": {
       "왕비가 불러 마시게 함": "마시 권하 술을",
       "황후를 봄": "황후를 황후가",
-      "황후와 황제를 함께 봄": "황제 함께 나란히"
+      "황후와 황제를 함께 봄": "황제 함께 나란히",
+      "여왕 꿈을 꿈": "성공적인",
+      "늙거나 초췌해 보이는 여왕을 봄": "늙거나 초췌"
     },
     "contexts_en": {
       "왕비가 불러 마시게 함": "summoned drink",
       "황후를 봄": "exalted honors pride unpopular",
-      "황후와 황제를 함께 봄": "emperor substantial"
+      "황후와 황제를 함께 봄": "emperor substantial",
+      "여왕 꿈을 꿈": "successful ventures",
+      "늙거나 초췌해 보이는 여왕을 봄": "old haggard disappointments"
     }
   },
   {

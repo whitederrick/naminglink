@@ -1,0 +1,39 @@
+{
+  "batch": 202,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Quay",
+      "text": "To dream of a quay, denotes that you will contemplate making a long tour in the near future. To see vessels while standing on the quay, denotes the fruition of wishes and designs.",
+      "note": "기존 상징 `docks`(부두)에 둘째 문장만 더한다 — 「부두」가 이미 그 별칭이다. 첫 문장(그냥 부두 꿈)은 기존 「부두에 있음」(밀러 Docks, 흉 — 언짢은 여정)과 같은 그림인데 정반대에 가까운 극성(밀러 Quay는 중립적인 「먼 여행을 헤아림」)이라 판별어로 못 가른다"
+    },
+    {
+      "headword": "Queen",
+      "text": "To dream of a queen, foretells succesful{sic} ventures. If she looks old or haggard, there will be disappointments connected with your pleasures.",
+      "note": "기존 상징 `queen`(여왕)에 더한다 — \"empress\"가 이미 그 영어 별칭이다. 원문의 「succesful{sic}」는 원서 자체의 오탈자 표시라 그대로 인용한다. 각주 [181]은 「Empress 항목 참고」다"
+    },
+    {
+      "headword": "Question",
+      "text": "To question the merits of a thing in your dreams, denotes that you will suspect some one whom you love of unfaithfulness, and you will fear for your speculations. To ask a question, foretells that you will earnestly strive for truth and be successful. If you are questioned, you will be unfairly dealt with.",
+      "note": "새 상징 `question`(질문)"
+    },
+    {
+      "headword": "Quicksand",
+      "text": "To find yourself in quicksand while dreaming, you will meet with loss and deceit. If you are unable to overcome it, you will be involved in overwhelming misfortunes. For a young woman to be rescued by her lover from quicksand, she will possess a worthy and faithful husband, who will still remain her lover.",
+      "note": "새 상징 `quicksand`(유사)"
+    },
+    {
+      "headword": "Quills",
+      "text": "To dream of quills, denotes to the literary inclined a season of success. To dream of them as ornaments, signifies a rushing trade, and some remuneration. For a young woman to be putting a quill on her hat, denotes that she will attempt many conquests, and her success will depend upon her charms.",
+      "note": "새 상징 `quill`(깃털펜)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "headword": "Quay",
+      "sentence": "To dream of a quay, denotes that you will contemplate making a long tour in the near future.",
+      "reason": "기존 docks의 「부두에 있음」(밀러 Docks, 흉 — 언짢은 여정과 사고)과 같은 그림(그냥 부두에 있음/부두 꿈)이라 판별어로 가를 수 없다"
+    }
+  ]
+}

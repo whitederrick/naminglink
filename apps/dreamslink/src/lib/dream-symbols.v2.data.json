@@ -116,6 +116,7 @@
     "m20.json",
     "m200.json",
     "m201.json",
+    "m202.json",
     "m21.json",
     "m22.json",
     "m23.json",
@@ -31571,6 +31572,108 @@
       ]
     },
     {
+      "id": "docks",
+      "term_ko": "부두",
+      "term_en": "docks",
+      "aliases": [
+        "선착장",
+        "부두에 있"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "부두에 있음",
+          "interpretation_ko": "언짢은 여정을 앞두고 사고가 위협할 조짐",
+          "interpretation_en": "you are about to make an unpropitious journey, and accidents will threaten you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Docks",
+              "original": "To dream of being on docks, denotes that you are about to make an unpropitious journey.  Accidents will threaten you.",
+              "translation_ko": "부두에 있는 꿈은, 언짢은 여정을 앞두고 있음을 뜻한다. 사고가 위협한다"
+            }
+          ]
+        },
+        {
+          "context": "부두 위에 섬",
+          "interpretation_ko": "번영의 세계에서 인정받으려는 싸움에 용감할 조짐이며 가장 높은 영예의 자리에 오를 조짐",
+          "interpretation_en": "denotes that you will be brave in your battle for recognition in prosperity's realm, and that you will be admitted to the highest posts of honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pier",
+              "original": "To stand upon a pier in your dream, denotes that you will be brave in your battle for recognition in prosperity's realm, and that you will be admitted to the highest posts of honor.",
+              "translation_ko": "부두 위에 서는 꿈은, 번영의 세계에서 인정받으려는 싸움에 용감할 조짐이며 가장 높은 영예의 자리에 오를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부두에 닿으려다 실패함",
+          "interpretation_ko": "가장 바라던 영예를 잃을 조짐",
+          "interpretation_en": "you will lose the distinction you most coveted",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pier",
+              "original": "If you strive to reach a pier and fail, you will lose the distinction you most coveted.",
+              "translation_ko": "부두에 닿으려다 실패하는 꿈은, 가장 바라던 영예를 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부두에 서서 배들을 봄",
+          "interpretation_ko": "바라고 꾀한 일이 이루어질 조짐",
+          "interpretation_en": "denotes the fruition of wishes and designs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quay",
+              "original": "To see vessels while standing on the quay, denotes the fruition of wishes and designs.",
+              "translation_ko": "부두에 서서 배들을 보는 꿈은, 바라고 꾀한 일이 이루어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부두를 홀로 헤매는데 어둠이 덮침",
+          "interpretation_ko": "목숨을 노리는 적을 만날 조짐",
+          "interpretation_en": "you will meet with deadly enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Docks",
+              "original": "If you are there, wandering alone, and darkness overtakes you, you will meet with deadly enemies, but if the sun be shining, you will escape threatening dangers.",
+              "translation_ko": "거기서 홀로 헤매는데 어둠이 덮치면 목숨을 노리는 적을 만나고, 해가 비치면 닥친 위험을 벗어난다"
+            }
+          ]
+        },
+        {
+          "context": "부두에 해가 비침",
+          "interpretation_ko": "닥친 위험을 벗어날 조짐",
+          "interpretation_en": "you will escape threatening dangers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Docks",
+              "original": "If you are there, wandering alone, and darkness overtakes you, you will meet with deadly enemies, but if the sun be shining, you will escape threatening dangers.",
+              "translation_ko": "거기서 홀로 헤매는데 어둠이 덮치면 목숨을 노리는 적을 만나고, 해가 비치면 닥친 위험을 벗어난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "doctor",
       "term_ko": "의사",
       "term_en": "doctor",
@@ -40424,94 +40527,6 @@
       ]
     },
     {
-      "id": "docks",
-      "term_ko": "부두",
-      "term_en": "docks",
-      "aliases": [
-        "선착장",
-        "부두에 있"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "부두에 있음",
-          "interpretation_ko": "언짢은 여정을 앞두고 사고가 위협할 조짐",
-          "interpretation_en": "you are about to make an unpropitious journey, and accidents will threaten you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Docks",
-              "original": "To dream of being on docks, denotes that you are about to make an unpropitious journey.  Accidents will threaten you.",
-              "translation_ko": "부두에 있는 꿈은, 언짢은 여정을 앞두고 있음을 뜻한다. 사고가 위협한다"
-            }
-          ]
-        },
-        {
-          "context": "부두 위에 섬",
-          "interpretation_ko": "번영의 세계에서 인정받으려는 싸움에 용감할 조짐이며 가장 높은 영예의 자리에 오를 조짐",
-          "interpretation_en": "denotes that you will be brave in your battle for recognition in prosperity's realm, and that you will be admitted to the highest posts of honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Pier",
-              "original": "To stand upon a pier in your dream, denotes that you will be brave in your battle for recognition in prosperity's realm, and that you will be admitted to the highest posts of honor.",
-              "translation_ko": "부두 위에 서는 꿈은, 번영의 세계에서 인정받으려는 싸움에 용감할 조짐이며 가장 높은 영예의 자리에 오를 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "부두에 닿으려다 실패함",
-          "interpretation_ko": "가장 바라던 영예를 잃을 조짐",
-          "interpretation_en": "you will lose the distinction you most coveted",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Pier",
-              "original": "If you strive to reach a pier and fail, you will lose the distinction you most coveted.",
-              "translation_ko": "부두에 닿으려다 실패하는 꿈은, 가장 바라던 영예를 잃을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "부두를 홀로 헤매는데 어둠이 덮침",
-          "interpretation_ko": "목숨을 노리는 적을 만날 조짐",
-          "interpretation_en": "you will meet with deadly enemies",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Docks",
-              "original": "If you are there, wandering alone, and darkness overtakes you, you will meet with deadly enemies, but if the sun be shining, you will escape threatening dangers.",
-              "translation_ko": "거기서 홀로 헤매는데 어둠이 덮치면 목숨을 노리는 적을 만나고, 해가 비치면 닥친 위험을 벗어난다"
-            }
-          ]
-        },
-        {
-          "context": "부두에 해가 비침",
-          "interpretation_ko": "닥친 위험을 벗어날 조짐",
-          "interpretation_en": "you will escape threatening dangers",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Docks",
-              "original": "If you are there, wandering alone, and darkness overtakes you, you will meet with deadly enemies, but if the sun be shining, you will escape threatening dangers.",
-              "translation_ko": "거기서 홀로 헤매는데 어둠이 덮치면 목숨을 노리는 적을 만나고, 해가 비치면 닥친 위험을 벗어난다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "doomsday",
       "term_ko": "최후의 심판",
       "term_en": "doomsday",
@@ -44735,6 +44750,97 @@
               "locator": "Publisher",
               "original": "If he loses it, you will suffer evil at the hands of strangers.",
               "translation_ko": "출판업자가 원고를 잃어버리는 꿈은, 낯선 이들에게 화를 입을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "queen",
+      "term_ko": "왕비",
+      "term_en": "queen",
+      "aliases": [
+        "황후",
+        "왕후",
+        "중전",
+        "여왕"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여왕 꿈을 꿈",
+          "interpretation_ko": "성공적인 일들의 조짐",
+          "interpretation_en": "foretells succesful{sic} ventures",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Queen",
+              "original": "To dream of a queen, foretells succesful{sic} ventures.",
+              "translation_ko": "여왕 꿈은, 성공적인 일들의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "늙거나 초췌해 보이는 여왕을 봄",
+          "interpretation_ko": "누리는 즐거움에 낙담이 뒤따를 조짐",
+          "interpretation_en": "there will be disappointments connected with your pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Queen",
+              "original": "If she looks old or haggard, there will be disappointments connected with your pleasures.",
+              "translation_ko": "늙거나 초췌해 보이는 여왕을 보는 꿈은, 누리는 즐거움에 낙담이 뒤따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "황후를 봄",
+          "interpretation_ko": "높은 자리에 오르나 우쭐대다 사람들의 미움을 살 조짐",
+          "interpretation_en": "you will be exalted to high honors, but you will let pride make you very unpopular",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Empress",
+              "original": "To dream of an empress, denotes that you will be exalted to high honors, but you will let pride make you very unpopular.",
+              "translation_ko": "황후 꿈은 높은 자리에 오름을 뜻하나, 우쭐대다 사람들에게 몹시 미움을 사게 된다"
+            }
+          ]
+        },
+        {
+          "context": "황후와 황제를 함께 봄",
+          "interpretation_ko": "딱히 나쁘지는 않으나 이렇다 할 좋은 것도 없는 조짐",
+          "interpretation_en": "is not particularly bad, but brings one no substantial good",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Empress",
+              "original": "To dream of an empress and an emperor is not particularly bad, but brings one no substantial good.",
+              "translation_ko": "황후와 황제를 함께 보는 꿈은 딱히 나쁘지는 않으나, 이렇다 할 좋은 것도 가져다주지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "왕비가 불러 마시게 함",
+          "interpretation_ko": "병이 생길 조짐",
+          "interpretation_en": "a sign of falling ill",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "帝王文武呼召",
+              "original": "后妃呼召飲有疾",
+              "translation_ko": "왕비가 불러 마시게 하면 병이 생긴다"
             }
           ]
         }
@@ -73510,63 +73616,183 @@
       ]
     },
     {
-      "id": "queen",
-      "term_ko": "왕비",
-      "term_en": "queen",
+      "id": "question",
+      "term_ko": "질문",
+      "term_en": "question",
       "aliases": [
-        "황후",
-        "왕후",
-        "중전",
-        "여왕"
+        "질문을",
+        "질문이",
+        "따졌다",
+        "따지는"
       ],
-      "category": "person",
-      "polarity": "neutral",
+      "category": "action",
+      "polarity": "ambivalent",
       "works": [
-        "miller",
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "왕비가 불러 마시게 함",
-          "interpretation_ko": "병이 생길 조짐",
-          "interpretation_en": "a sign of falling ill",
+          "context": "무언가의 옳고 그름을 따짐",
+          "interpretation_ko": "사랑하는 이의 불성실을 의심하고, 하는 투기를 두려워하게 될 조짐",
+          "interpretation_en": "denotes that you will suspect some one whom you love of unfaithfulness, and you will fear for your speculations",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "帝王文武呼召",
-              "original": "后妃呼召飲有疾",
-              "translation_ko": "왕비가 불러 마시게 하면 병이 생긴다"
+              "work": "miller",
+              "locator": "Question",
+              "original": "To question the merits of a thing in your dreams, denotes that you will suspect some one whom you love of unfaithfulness, and you will fear for your speculations.",
+              "translation_ko": "무언가의 옳고 그름을 따지는 꿈은, 사랑하는 이의 불성실을 의심하고, 하는 투기를 두려워하게 될 조짐이다"
             }
           ]
         },
         {
-          "context": "황후를 봄",
-          "interpretation_ko": "높은 자리에 오르나 우쭐대다 사람들의 미움을 살 조짐",
-          "interpretation_en": "you will be exalted to high honors, but you will let pride make you very unpopular",
-          "polarity": "neutral",
+          "context": "질문을 던짐",
+          "interpretation_ko": "진실을 힘써 좇아 뜻을 이룰 조짐",
+          "interpretation_en": "foretells that you will earnestly strive for truth and be successful",
+          "polarity": "positive",
           "cites": [
             {
               "work": "miller",
-              "locator": "Empress",
-              "original": "To dream of an empress, denotes that you will be exalted to high honors, but you will let pride make you very unpopular.",
-              "translation_ko": "황후 꿈은 높은 자리에 오름을 뜻하나, 우쭐대다 사람들에게 몹시 미움을 사게 된다"
+              "locator": "Question",
+              "original": "To ask a question, foretells that you will earnestly strive for truth and be successful.",
+              "translation_ko": "질문을 던지는 꿈은, 진실을 힘써 좇아 뜻을 이룰 조짐이다"
             }
           ]
         },
         {
-          "context": "황후와 황제를 함께 봄",
-          "interpretation_ko": "딱히 나쁘지는 않으나 이렇다 할 좋은 것도 없는 조짐",
-          "interpretation_en": "is not particularly bad, but brings one no substantial good",
+          "context": "질문을 받음",
+          "interpretation_ko": "부당한 대우를 받을 조짐",
+          "interpretation_en": "you will be unfairly dealt with",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Question",
+              "original": "If you are questioned, you will be unfairly dealt with.",
+              "translation_ko": "질문을 받는 꿈은, 부당한 대우를 받을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quicksand",
+      "term_ko": "유사",
+      "term_en": "quicksand",
+      "aliases": [
+        "유사에",
+        "유사가",
+        "유사에서"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "유사에 빠짐",
+          "interpretation_ko": "손실과 속임을 겪을 조짐",
+          "interpretation_en": "you will meet with loss and deceit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quicksand",
+              "original": "To find yourself in quicksand while dreaming, you will meet with loss and deceit.",
+              "translation_ko": "유사에 빠지는 꿈은, 손실과 속임을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "유사에서 헤어나지 못함",
+          "interpretation_ko": "감당 못 할 불운에 휘말릴 조짐",
+          "interpretation_en": "you will be involved in overwhelming misfortunes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quicksand",
+              "original": "If you are unable to overcome it, you will be involved in overwhelming misfortunes.",
+              "translation_ko": "유사에서 헤어나지 못하는 꿈은, 감당 못 할 불운에 휘말릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 애인에게 유사에서 구조됨",
+          "interpretation_ko": "한결같이 사랑해 줄 믿음직한 남편을 얻을 조짐",
+          "interpretation_en": "she will possess a worthy and faithful husband, who will still remain her lover",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quicksand",
+              "original": "For a young woman to be rescued by her lover from quicksand, she will possess a worthy and faithful husband, who will still remain her lover.",
+              "translation_ko": "처녀가 애인에게 유사에서 구조되는 꿈은, 한결같이 사랑해 줄 믿음직한 남편을 얻을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quill",
+      "term_ko": "깃털펜",
+      "term_en": "quill",
+      "aliases": [
+        "깃털펜이",
+        "깃털펜을"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "깃털펜 꿈을 꿈",
+          "interpretation_ko": "문필에 뜻 있는 이에게는 성공의 시기가 있을 조짐",
+          "interpretation_en": "denotes to the literary inclined a season of success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quills",
+              "original": "To dream of quills, denotes to the literary inclined a season of success.",
+              "translation_ko": "깃털펜 꿈은, 문필에 뜻 있는 이에게는 성공의 시기가 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "장식으로 쓰인 깃털펜을 봄",
+          "interpretation_ko": "장사가 북적이고 보수도 얼마간 있을 조짐",
+          "interpretation_en": "signifies a rushing trade, and some remuneration",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quills",
+              "original": "To dream of them as ornaments, signifies a rushing trade, and some remuneration.",
+              "translation_ko": "장식으로 쓰인 깃털펜을 보는 꿈은, 장사가 북적이고 보수도 얼마간 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 모자에 깃털펜을 꽂음",
+          "interpretation_ko": "여러 이를 사로잡으려 하고, 그 성패는 저의 매력에 달릴 조짐",
+          "interpretation_en": "denotes that she will attempt many conquests, and her success will depend upon her charms",
           "polarity": "neutral",
           "cites": [
             {
               "work": "miller",
-              "locator": "Empress",
-              "original": "To dream of an empress and an emperor is not particularly bad, but brings one no substantial good.",
-              "translation_ko": "황후와 황제를 함께 보는 꿈은 딱히 나쁘지는 않으나, 이렇다 할 좋은 것도 가져다주지 않는다"
+              "locator": "Quills",
+              "original": "For a young woman to be putting a quill on her hat, denotes that she will attempt many conquests, and her success will depend upon her charms.",
+              "translation_ko": "처녀가 모자에 깃털펜을 꽂는 꿈은, 여러 이를 사로잡으려 하고, 그 성패는 저의 매력에 달릴 조짐이다"
             }
           ]
         }

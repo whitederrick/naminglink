@@ -1,0 +1,67 @@
+[
+  {
+    "id": "question",
+    "aliases": [
+      "질문을",
+      "질문이",
+      "따졌다",
+      "따지는"
+    ],
+    "aliases_en": [
+      "a question",
+      "questioned"
+    ],
+    "contexts": {
+      "무언가의 옳고 그름을 따짐": "옳고 그름 사랑하는",
+      "질문을 던짐": "던졌 진실을",
+      "질문을 받음": "받았 부당한"
+    },
+    "contexts_en": {
+      "무언가의 옳고 그름을 따짐": "merits suspect unfaithfulness",
+      "질문을 던짐": "ask truth successful",
+      "질문을 받음": "unfairly dealt treatment"
+    }
+  },
+  {
+    "id": "quicksand",
+    "aliases": [
+      "유사에",
+      "유사가",
+      "유사에서"
+    ],
+    "aliases_en": [
+      "quicksand"
+    ],
+    "contexts": {
+      "유사에 빠짐": "손실과 속임",
+      "유사에서 헤어나지 못함": "헤어나지 감당",
+      "처녀가 애인에게 유사에서 구조됨": "처녀가 구조"
+    },
+    "contexts_en": {
+      "유사에 빠짐": "loss deceit",
+      "유사에서 헤어나지 못함": "unable overwhelming misfortunes",
+      "처녀가 애인에게 유사에서 구조됨": "rescued worthy faithful"
+    }
+  },
+  {
+    "id": "quill",
+    "aliases": [
+      "깃털펜이",
+      "깃털펜을"
+    ],
+    "aliases_en": [
+      "quills",
+      "a quill"
+    ],
+    "contexts": {
+      "깃털펜 꿈을 꿈": "문필 성공의",
+      "장식으로 쓰인 깃털펜을 봄": "장식 북적",
+      "처녀가 모자에 깃털펜을 꽂음": "모자에 꽂았"
+    },
+    "contexts_en": {
+      "깃털펜 꿈을 꿈": "literary inclined season",
+      "장식으로 쓰인 깃털펜을 봄": "ornaments rushing trade",
+      "처녀가 모자에 깃털펜을 꽂음": "hat conquests charms"
+    }
+  }
+]
