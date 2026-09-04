@@ -275,7 +275,11 @@
       "망자",
       "고인",
       "주검",
-      "돌아가신"
+      "돌아가신",
+      "죽었다가",
+      "죽었다가",
+      "죽었다가",
+      "죽었다가"
     ],
     "aliases_en": [
       "a dead person",
@@ -301,7 +305,9 @@
       "시신을 봄": "시신을 시체를 주검을",
       "죽은 아버지를 보고 이야기함": "아버지 아비 부친",
       "죽은 어머니를 봄": "어머니 어미 모친",
-      "죽은 형제나 살붙이·벗을 봄": "형제 살붙이 벗을"
+      "죽은 형제나 살붙이·벗을 봄": "형제 살붙이 벗을",
+      "제가 죽었다가 되살아남": "제가 번민",
+      "남이 죽었다가 되살아나는 것을 봄": "남이 배려 가벼워질"
     },
     "contexts_en": {
       "죽은 사람이 욺": "crying wept weeping",
@@ -321,7 +327,9 @@
       "시신을 봄": "sorrowful tidings gloomy",
       "죽은 아버지를 보고 이야기함": "father talk unlucky",
       "죽은 어머니를 봄": "mother morbidness inclination",
-      "죽은 형제나 살붙이·벗을 봄": "brother charity aid"
+      "죽은 형제나 살붙이·벗을 봄": "brother charity aid",
+      "제가 죽었다가 되살아남": "vexation eventually desires",
+      "남이 죽었다가 되살아나는 것을 봄": "troubles lightened thoughtfulness"
     }
   },
   {

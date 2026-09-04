@@ -1,0 +1,28 @@
+[
+  {
+    "id": "resign",
+    "aliases": ["사임했다", "사임한다는"],
+    "aliases_en": ["resign", "resigning"],
+    "contexts": {
+      "제가 어떤 직위에서 사임함": "직위에서 새로운",
+      "남들이 사임한다는 소식을 들음": "남들이 소식을"
+    },
+    "contexts_en": {
+      "제가 어떤 직위에서 사임함": "position embark enterprises",
+      "남들이 사임한다는 소식을 들음": "hear unpleasant tidings"
+    }
+  },
+  {
+    "id": "resuscitate",
+    "aliases": ["소생했다", "소생시켰다", "소생시킴"],
+    "aliases_en": ["resuscitated", "resuscitate"],
+    "contexts": {
+      "제가 소생함": "제가 손실 되찾고",
+      "남을 소생시킴": "남을 우정을"
+    },
+    "contexts_en": {
+      "제가 소생함": "losses regain happiness",
+      "남을 소생시킴": "friendships prominence pleasure"
+    }
+  }
+]

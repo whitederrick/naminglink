@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 217 — Reptile~Rescue, 2개 헤드워드)
+// (지금 담긴 것: 배치 218 — Resign~Resuscitate, 3개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,14 +30,15 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "reptile", ctx: "파충류가 저를 공격함", text: "파충류가 나를 공격했다" },
-  { id: "reptile", ctx: "파충류를 죽이는 데 성공함", text: "파충류를 죽이는 데 성공했다" },
-  { id: "reptile", ctx: "죽은 파충류가 되살아나는 것을 봄", text: "죽은 파충류가 되살아나는 것을 보았다" },
-  { id: "reptile", ctx: "다치지 않고 파충류를 손으로 다룸", text: "다치지 않고 파충류를 손으로 다루었다" },
-  { id: "reptile", ctx: "처녀가 여러 종류의 파충류를 봄", text: "처녀가 여러 종류의 파충류를 보았다" },
-  { id: "reptile", ctx: "처녀가 파충류에게 물림", text: "처녀가 파충류에게 물렸다" },
-  { id: "rescue", ctx: "어떤 위험에서 구조됨", text: "어떤 위험에서 구조되었다" },
-  { id: "rescue", ctx: "남을 구조함", text: "남을 구조했다" },
+  { id: "resign", ctx: "제가 어떤 직위에서 사임함", text: "제가 어떤 직위에서 사임했다" },
+  { id: "resign", ctx: "남들이 사임한다는 소식을 들음", text: "남들이 사임한다는 소식을 들었다" },
+  { id: "dead-person", ctx: "제가 죽었다가 되살아남", text: "제가 죽었다가 되살아나서 번민에 시달렸다" },
+  { id: "dead-person", ctx: "남이 죽었다가 되살아나는 것을 봄", text: "남이 죽었다가 되살아나서 벗들의 배려를 받았다" },
+  { id: "resuscitate", ctx: "제가 소생함", text: "제가 소생했다" },
+  { id: "resuscitate", ctx: "남을 소생시킴", text: "남을 소생시켰다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(dead-person)의 옛 답이 그대로인가
+  { id: "dead-person", ctx: "죽은 사람이 욺", text: "죽은 사람이 울었다" },
+  { id: "dead-person", ctx: "시신을 봄", text: "시신을 보았다" },
 ];
 
 let notFound = 0;

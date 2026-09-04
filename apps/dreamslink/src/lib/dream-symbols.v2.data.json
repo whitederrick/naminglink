@@ -133,6 +133,7 @@
     "m215.json",
     "m216.json",
     "m217.json",
+    "m218.json",
     "m22.json",
     "m23.json",
     "m24.json",
@@ -5531,6 +5532,313 @@
       ]
     },
     {
+      "id": "dead-person",
+      "term_ko": "죽은 사람",
+      "term_en": "dead person",
+      "aliases": [
+        "시신",
+        "시체",
+        "망자",
+        "고인",
+        "주검",
+        "돌아가신",
+        "죽었다가",
+        "죽었다가",
+        "죽었다가",
+        "죽었다가"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "관에 뉘어 놓은 시신을 봄",
+          "interpretation_ko": "곧 닥칠 어려움이 있을 조짐",
+          "interpretation_en": "immediate troubles to the dreamer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To see a corpse placed in its casket, denotes immediate troubles to the dreamer.",
+              "translation_ko": "관에 뉘어 놓은 시신을 보는 꿈은 곧 닥칠 어려움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "검은 옷을 입은 시신을 봄",
+          "interpretation_ko": "벗이 갑작스레 목숨을 잃거나 일이 크게 얽힐 조짐",
+          "interpretation_en": "the violent death of a friend or some desperate business entanglement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To see a corpse in black, denotes the violent death of a friend or some desperate business entanglement.",
+              "translation_ko": "검은 옷을 입은 시신을 보는 꿈은, 벗의 갑작스러운 죽음이나 크게 얽힌 일을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "싸움터에 시신이 널려 있는 것을 봄",
+          "interpretation_ko": "나라와 무리 사이에 다툼과 불만이 퍼질 조짐",
+          "interpretation_en": "war and general dissatisfaction between countries and political factions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To see a battle-field strewn with corpses, indicates war and general dissatisfaction between countries and political factions.",
+              "translation_ko": "싸움터에 시신이 널린 것을 보는 꿈은, 나라와 무리 사이의 다툼과 불만을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "짐승의 주검을 봄",
+          "interpretation_ko": "하는 일과 몸이 함께 나빠질 조짐",
+          "interpretation_en": "unhealthy situation, both as to business and health",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To see the corpse of an animal, denotes unhealthy situation, both as to business and health.",
+              "translation_ko": "짐승의 주검을 보는 꿈은, 일과 몸이 함께 나빠짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가까운 집안 사람의 시신을 봄",
+          "interpretation_ko": "그 사람이나 집안 누군가에게 흉한 일이 있거나 집안이 크게 어그러질 조짐",
+          "interpretation_en": "death to that person, or to some member of the family, or a serious rupture of domestic relations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To see the corpse of any one of your immediate family, indicates death to that person, or to some member of the family, or a serious rupture of domestic relations, also unusual business depression.",
+              "translation_ko": "가까운 집안 사람의 시신을 보는 꿈은, 그 사람이나 집안 누군가의 죽음, 또는 집안의 큰 어그러짐과 일의 침체를 알린다"
+            }
+          ]
+        },
+        {
+          "context": "시신의 한쪽 눈에만 돈을 얹음",
+          "interpretation_ko": "거의 가망이 없는 다툼 끝에 잃었던 것을 되찾을 조짐",
+          "interpretation_en": "you will be able to recover lost property after an almost hopeless struggle",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "If you only put it on one eye you will be able to recover lost property after an almost hopeless struggle.",
+              "translation_ko": "한쪽 눈에만 얹으면, 거의 가망 없는 다툼 끝에 잃은 것을 되찾는다"
+            }
+          ]
+        },
+        {
+          "context": "시신의 두 눈에 돈을 얹음",
+          "interpretation_ko": "막을 힘이 없는 채로 악한 이에게 빼앗길 조짐",
+          "interpretation_en": "unscrupulous enemies robbing you while you are powerless to resent injury",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To put money on the eyes of a corpse in your dreams, denotes that you will see unscrupulous enemies robbing you while you are powerless to resent injury.",
+              "translation_ko": "시신의 두 눈에 돈을 얹는 꿈은, 막을 힘이 없는 채로 악한 이에게 빼앗김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 일하는 가게 주인이 시신이 되어 있음",
+          "interpretation_ko": "연인이 품고 있던 기대에 못 미치게 될 조짐",
+          "interpretation_en": "she will fall below the standard of perfection in which she was held by her lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "For a young woman to dream that the proprietor of the store in which she works is a corpse, and she sees while sitting up with him that his face is clean shaven, foretells that she will fall below the standard of perfection in which she was held by her lover.",
+              "translation_ko": "젊은 여성이 일하는 가게 주인이 시신이 되어 있고 그 얼굴이 말끔히 면도된 것을 보는 꿈은, 연인이 품고 있던 기대에 못 미치게 됨을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "시신의 머리가 몸에서 떨어지는 것을 봄",
+          "interpretation_ko": "숨은 적이 해를 끼치며 일터에도 손해를 입힐 조짐",
+          "interpretation_en": "she is warned of secret enemies who, in harming her, will also detract from the interest of her employer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "If she sees the head of the corpse falling from the body, she is warned of secret enemies who, in harming her, will also detract from the interest of her employer.",
+              "translation_ko": "시신의 머리가 몸에서 떨어지는 것을 보면, 숨은 적이 해를 끼치며 일터에도 손해를 입힌다는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "시신을 봄",
+          "interpretation_ko": "멀리 있는 이의 슬픈 소식이 오고 하는 일도 어두워질 조짐",
+          "interpretation_en": "sorrowful tidings of the absent, and gloomy business prospects",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Corpse",
+              "original": "To dream of a corpse is fatal to happiness, as this dream indicates sorrowful tidings of the absent, and gloomy business prospects.",
+              "translation_ko": "시신 꿈은 기쁨에 해로우며, 멀리 있는 이의 슬픈 소식과 어두운 앞날을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "제가 죽었다가 되살아남",
+          "interpretation_ko": "큰 번민을 겪지만 결국 바라던 바를 이룰 조짐",
+          "interpretation_en": "you will have some great vexation, but will eventually gain your desires",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Resurrection",
+              "original": "To dream that you are resurrected from the dead, you will have some great vexation, but will eventually gain your desires.",
+              "translation_ko": "제가 죽었다가 되살아나는 꿈은, 큰 번민을 겪지만 결국 바라던 바를 이룰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 죽었다가 되살아나는 것을 봄",
+          "interpretation_ko": "벗들의 배려로 불행한 근심이 가벼워질 조짐",
+          "interpretation_en": "denotes unfortunate troubles will be lightened by the thoughtfulness of friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Resurrection",
+              "original": "To see others resurrected, denotes unfortunate troubles will be lightened by the thoughtfulness of friends",
+              "translation_ko": "남이 죽었다가 되살아나는 것을 보는 꿈은, 벗들의 배려로 불행한 근심이 가벼워질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 아버지를 보고 이야기함",
+          "interpretation_ko": "운 나쁜 거래가 곧 있을 조짐이니 계약을 조심할 것",
+          "interpretation_en": "some unlucky transaction is about to be made by you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dead",
+              "original": "If you see and talk with your father, some unlucky transaction is about to be made by you.",
+              "translation_ko": "죽은 아버지를 보고 이야기하면, 운 나쁜 거래가 곧 있게 된다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 어머니를 봄",
+          "interpretation_ko": "어두운 마음과 남을 미워하는 마음을 다스리라는 경고",
+          "interpretation_en": "warns you to control your inclination to cultivate morbidness and ill will towards your fellow creatures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dead",
+              "original": "To see your mother, warns you to control your inclination to cultivate morbidness and ill will towards your fellow creatures.",
+              "translation_ko": "죽은 어머니를 보면, 어두운 마음과 남을 미워하는 마음을 다스리라는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 형제나 살붙이·벗을 봄",
+          "interpretation_ko": "머지않아 도움이나 베풂을 청받을 조짐",
+          "interpretation_en": "you may be called on for charity or aid within a short time",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dead",
+              "original": "A brother, or other relatives or friends, denotes that you may be called on for charity or aid within a short time.",
+              "translation_ko": "형제나 다른 살붙이·벗이 나오면, 머지않아 도움이나 베풂을 청받는다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 사람이 욺",
+          "interpretation_ko": "구설수가 있을 조짐",
+          "interpretation_en": "a sign of quarrels and gossip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "死人哭泣有口舌",
+              "translation_ko": "죽은 사람이 울면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 사람이 일어서 있음",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "死人立者主大凶",
+              "translation_ko": "죽은 사람이 서 있으면 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 사람이 품에서 욺",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "死人哭懷者得財",
+              "translation_ko": "죽은 사람이 품에서 울면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 사람이 되살아남",
+          "interpretation_ko": "소식이 올 조짐",
+          "interpretation_en": "a sign that news will arrive",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "死人復活主有信",
+              "translation_ko": "죽은 사람이 되살아나면 소식이 있다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 사람이 음식을 먹음",
+          "interpretation_ko": "병이 생길 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "死人食者主疾病",
+              "translation_ko": "죽은 사람이 먹으면 질병이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "letter",
       "term_ko": "편지",
       "term_en": "letter",
@@ -6731,281 +7039,6 @@
               "locator": "Hand",
               "original": "In loosening them, you will force others to submit to your dictations.",
               "translation_ko": "묶인 것을 풀어내면, 남을 제 뜻에 따르게 한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "dead-person",
-      "term_ko": "죽은 사람",
-      "term_en": "dead person",
-      "aliases": [
-        "시신",
-        "시체",
-        "망자",
-        "고인",
-        "주검",
-        "돌아가신"
-      ],
-      "category": "person",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "관에 뉘어 놓은 시신을 봄",
-          "interpretation_ko": "곧 닥칠 어려움이 있을 조짐",
-          "interpretation_en": "immediate troubles to the dreamer",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Corpse",
-              "original": "To see a corpse placed in its casket, denotes immediate troubles to the dreamer.",
-              "translation_ko": "관에 뉘어 놓은 시신을 보는 꿈은 곧 닥칠 어려움을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "검은 옷을 입은 시신을 봄",
-          "interpretation_ko": "벗이 갑작스레 목숨을 잃거나 일이 크게 얽힐 조짐",
-          "interpretation_en": "the violent death of a friend or some desperate business entanglement",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Corpse",
-              "original": "To see a corpse in black, denotes the violent death of a friend or some desperate business entanglement.",
-              "translation_ko": "검은 옷을 입은 시신을 보는 꿈은, 벗의 갑작스러운 죽음이나 크게 얽힌 일을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "싸움터에 시신이 널려 있는 것을 봄",
-          "interpretation_ko": "나라와 무리 사이에 다툼과 불만이 퍼질 조짐",
-          "interpretation_en": "war and general dissatisfaction between countries and political factions",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Corpse",
-              "original": "To see a battle-field strewn with corpses, indicates war and general dissatisfaction between countries and political factions.",
-              "translation_ko": "싸움터에 시신이 널린 것을 보는 꿈은, 나라와 무리 사이의 다툼과 불만을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "짐승의 주검을 봄",
-          "interpretation_ko": "하는 일과 몸이 함께 나빠질 조짐",
-          "interpretation_en": "unhealthy situation, both as to business and health",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Corpse",
-              "original": "To see the corpse of an animal, denotes unhealthy situation, both as to business and health.",
-              "translation_ko": "짐승의 주검을 보는 꿈은, 일과 몸이 함께 나빠짐을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "가까운 집안 사람의 시신을 봄",
-          "interpretation_ko": "그 사람이나 집안 누군가에게 흉한 일이 있거나 집안이 크게 어그러질 조짐",
-          "interpretation_en": "death to that person, or to some member of the family, or a serious rupture of domestic relations",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Corpse",
-              "original": "To see the corpse of any one of your immediate family, indicates death to that person, or to some member of the family, or a serious rupture of domestic relations, also unusual business depression.",
-              "translation_ko": "가까운 집안 사람의 시신을 보는 꿈은, 그 사람이나 집안 누군가의 죽음, 또는 집안의 큰 어그러짐과 일의 침체를 알린다"
-            }
-          ]
-        },
-        {
-          "context": "시신의 한쪽 눈에만 돈을 얹음",
-          "interpretation_ko": "거의 가망이 없는 다툼 끝에 잃었던 것을 되찾을 조짐",
-          "interpretation_en": "you will be able to recover lost property after an almost hopeless struggle",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Corpse",
-              "original": "If you only put it on one eye you will be able to recover lost property after an almost hopeless struggle.",
-              "translation_ko": "한쪽 눈에만 얹으면, 거의 가망 없는 다툼 끝에 잃은 것을 되찾는다"
-            }
-          ]
-        },
-        {
-          "context": "시신의 두 눈에 돈을 얹음",
-          "interpretation_ko": "막을 힘이 없는 채로 악한 이에게 빼앗길 조짐",
-          "interpretation_en": "unscrupulous enemies robbing you while you are powerless to resent injury",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Corpse",
-              "original": "To put money on the eyes of a corpse in your dreams, denotes that you will see unscrupulous enemies robbing you while you are powerless to resent injury.",
-              "translation_ko": "시신의 두 눈에 돈을 얹는 꿈은, 막을 힘이 없는 채로 악한 이에게 빼앗김을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "젊은 여성이 일하는 가게 주인이 시신이 되어 있음",
-          "interpretation_ko": "연인이 품고 있던 기대에 못 미치게 될 조짐",
-          "interpretation_en": "she will fall below the standard of perfection in which she was held by her lover",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Corpse",
-              "original": "For a young woman to dream that the proprietor of the store in which she works is a corpse, and she sees while sitting up with him that his face is clean shaven, foretells that she will fall below the standard of perfection in which she was held by her lover.",
-              "translation_ko": "젊은 여성이 일하는 가게 주인이 시신이 되어 있고 그 얼굴이 말끔히 면도된 것을 보는 꿈은, 연인이 품고 있던 기대에 못 미치게 됨을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "시신의 머리가 몸에서 떨어지는 것을 봄",
-          "interpretation_ko": "숨은 적이 해를 끼치며 일터에도 손해를 입힐 조짐",
-          "interpretation_en": "she is warned of secret enemies who, in harming her, will also detract from the interest of her employer",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Corpse",
-              "original": "If she sees the head of the corpse falling from the body, she is warned of secret enemies who, in harming her, will also detract from the interest of her employer.",
-              "translation_ko": "시신의 머리가 몸에서 떨어지는 것을 보면, 숨은 적이 해를 끼치며 일터에도 손해를 입힌다는 경고다"
-            }
-          ]
-        },
-        {
-          "context": "시신을 봄",
-          "interpretation_ko": "멀리 있는 이의 슬픈 소식이 오고 하는 일도 어두워질 조짐",
-          "interpretation_en": "sorrowful tidings of the absent, and gloomy business prospects",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Corpse",
-              "original": "To dream of a corpse is fatal to happiness, as this dream indicates sorrowful tidings of the absent, and gloomy business prospects.",
-              "translation_ko": "시신 꿈은 기쁨에 해로우며, 멀리 있는 이의 슬픈 소식과 어두운 앞날을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 아버지를 보고 이야기함",
-          "interpretation_ko": "운 나쁜 거래가 곧 있을 조짐이니 계약을 조심할 것",
-          "interpretation_en": "some unlucky transaction is about to be made by you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Dead",
-              "original": "If you see and talk with your father, some unlucky transaction is about to be made by you.",
-              "translation_ko": "죽은 아버지를 보고 이야기하면, 운 나쁜 거래가 곧 있게 된다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 어머니를 봄",
-          "interpretation_ko": "어두운 마음과 남을 미워하는 마음을 다스리라는 경고",
-          "interpretation_en": "warns you to control your inclination to cultivate morbidness and ill will towards your fellow creatures",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Dead",
-              "original": "To see your mother, warns you to control your inclination to cultivate morbidness and ill will towards your fellow creatures.",
-              "translation_ko": "죽은 어머니를 보면, 어두운 마음과 남을 미워하는 마음을 다스리라는 경고다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 형제나 살붙이·벗을 봄",
-          "interpretation_ko": "머지않아 도움이나 베풂을 청받을 조짐",
-          "interpretation_en": "you may be called on for charity or aid within a short time",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Dead",
-              "original": "A brother, or other relatives or friends, denotes that you may be called on for charity or aid within a short time.",
-              "translation_ko": "형제나 다른 살붙이·벗이 나오면, 머지않아 도움이나 베풂을 청받는다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 사람이 욺",
-          "interpretation_ko": "구설수가 있을 조짐",
-          "interpretation_en": "a sign of quarrels and gossip",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "死人哭泣有口舌",
-              "translation_ko": "죽은 사람이 울면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 사람이 일어서 있음",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "死人立者主大凶",
-              "translation_ko": "죽은 사람이 서 있으면 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 사람이 품에서 욺",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "死人哭懷者得財",
-              "translation_ko": "죽은 사람이 품에서 울면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 사람이 되살아남",
-          "interpretation_ko": "소식이 올 조짐",
-          "interpretation_en": "a sign that news will arrive",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "死人復活主有信",
-              "translation_ko": "죽은 사람이 되살아나면 소식이 있다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 사람이 음식을 먹음",
-          "interpretation_ko": "병이 생길 조짐",
-          "interpretation_en": "a sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "死人食者主疾病",
-              "translation_ko": "죽은 사람이 먹으면 질병이 있다"
             }
           ]
         }
@@ -100180,6 +100213,99 @@
               "locator": "Rescue",
               "original": "To rescue others, foretells that you will be esteemed for your good deeds.",
               "translation_ko": "남을 구조하는 꿈은, 선행으로 존경받을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resign",
+      "term_ko": "사임",
+      "term_en": "resign",
+      "aliases": [
+        "사임했다",
+        "사임한다는"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 어떤 직위에서 사임함",
+          "interpretation_ko": "불운하게도 새로운 사업에 뛰어들 조짐",
+          "interpretation_en": "signifies that you will unfortunately embark in new enterprises",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Resign",
+              "original": "To dream that you resign any position, signifies that you will unfortunately embark in new enterprises.",
+              "translation_ko": "제가 어떤 직위에서 사임하는 꿈은, 불운하게도 새로운 사업에 뛰어들 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 사임한다는 소식을 들음",
+          "interpretation_ko": "달갑지 않은 소식을 들을 조짐",
+          "interpretation_en": "denotes that you will have unpleaasant{sic} tidings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Resign",
+              "original": "To hear of others resigning, denotes that you will have unpleaasant{sic} tidings.",
+              "translation_ko": "남들이 사임한다는 소식을 듣는 꿈은, 달갑지 않은 소식을 들을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resuscitate",
+      "term_ko": "소생",
+      "term_en": "resuscitate",
+      "aliases": [
+        "소생했다",
+        "소생시켰다",
+        "소생시킴"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 소생함",
+          "interpretation_ko": "큰 손실을 입지만 결국 잃은 것보다 더 많이 되찾고 행복이 따를 조짐",
+          "interpretation_en": "denotes that you will have heavy losses, but will eventually regain more than you lose, and happiness will attend you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Resuscitate",
+              "original": "To dream that you are being resuscitated, denotes that you will have heavy losses, but will eventually regain more than you lose, and happiness will attend you.",
+              "translation_ko": "제가 소생하는 꿈은, 큰 손실을 입지만 결국 잃은 것보다 더 많이 되찾고 행복이 따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남을 소생시킴",
+          "interpretation_ko": "새 우정을 맺어 명성과 즐거움을 얻을 조짐",
+          "interpretation_en": "you will form new friendships, which will give you prominence and pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Resuscitate",
+              "original": "To resuscitate another, you will form new friendships, which will give you prominence and pleasure.",
+              "translation_ko": "남을 소생시키는 꿈은, 새 우정을 맺어 명성과 즐거움을 얻을 조짐이다"
             }
           ]
         }

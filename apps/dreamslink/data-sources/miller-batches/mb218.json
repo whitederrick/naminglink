@@ -1,0 +1,23 @@
+{
+  "batch": 218,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Resign",
+      "text": "To dream that you resign any position, signifies that you will unfortunately embark in new enterprises. To hear of others resigning, denotes that you will have unpleasant tidings.",
+      "note": "새 상징 `resign`(사임). 원문의 오탈자(unpleaasant)는 정정된 표기(unpleasant)로 인용한다"
+    },
+    {
+      "headword": "Resurrection",
+      "text": "To dream that you are resurrected from the dead, you will have some great vexation, but will eventually gain your desires. To see others resurrected, denotes unfortunate troubles will be lightened by the thoughtfulness of friends.",
+      "note": "기존 상징 `dead-person`(죽은 사람)에 합친다. 이미 있는 「죽은 사람이 되살아남」(주공해몽, 「소식이 온다」)과 그림은 비슷하나 밀러는 「제가 되살아남」과 「남이 되살아남」을 갈라 각각 다른 결과를 말해 둘 다 새로 더한다"
+    },
+    {
+      "headword": "Resuscitate",
+      "text": "To dream that you are being resuscitated, denotes that you will have heavy losses, but will eventually regain more than you lose, and happiness will attend you. To resuscitate another, you will form new friendships, which will give you prominence and pleasure.",
+      "note": "새 상징 `resuscitate`(소생) — 죽음에서 돌아오는 `dead-person`/`resurrection`과 달리 위독하거나 정신을 잃은 상태에서 살아나는 그림이라 따로 세운다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

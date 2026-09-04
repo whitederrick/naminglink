@@ -101,6 +101,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "dead-person::죽은 아버지를 보고 이야기함": "아버지 아비 부친",
   "dead-person::죽은 어머니를 봄": "어머니 어미 모친",
   "dead-person::죽은 형제나 살붙이·벗을 봄": "형제 살붙이 벗을",
+  "dead-person::제가 죽었다가 되살아남": "제가 번민",
+  "dead-person::남이 죽었다가 되살아나는 것을 봄": "남이 배려 가벼워질",
   "wind::사나운 바람이 몰아침": "사나운 몰아치 거세 매섭",
   "wind::바람이 사람의 옷자락을 불어 젖힘": "옷자락 옷이 소매 치맛",
   "wind::갑자기 큰바람이 붊": "갑자기 별안간 세차게 강하게",
@@ -5385,5 +5387,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "reptile::처녀가 여러 종류의 파충류를 봄": "여러 종류",
   "reptile::처녀가 파충류에게 물림": "물렸다 연적",
   "rescue::어떤 위험에서 구조됨": "위험 손실",
-  "rescue::남을 구조함": "구조했다 선행"
+  "rescue::남을 구조함": "구조했다 선행",
+  "resign::제가 어떤 직위에서 사임함": "직위에서 새로운",
+  "resign::남들이 사임한다는 소식을 들음": "남들이 소식을",
+  "resuscitate::제가 소생함": "제가 손실 되찾고",
+  "resuscitate::남을 소생시킴": "남을 우정을"
 };

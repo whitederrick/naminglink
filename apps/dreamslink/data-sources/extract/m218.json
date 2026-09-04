@@ -1,0 +1,92 @@
+[
+  {
+    "term_ko": "사임",
+    "term_en": "resign",
+    "context": "제가 어떤 직위에서 사임함",
+    "interpretation_ko": "불운하게도 새로운 사업에 뛰어들 조짐",
+    "interpretation_en": "signifies that you will unfortunately embark in new enterprises",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Resign",
+      "original": "To dream that you resign any position, signifies that you will unfortunately embark in new enterprises.",
+      "translation_ko": "제가 어떤 직위에서 사임하는 꿈은, 불운하게도 새로운 사업에 뛰어들 조짐이다"
+    }
+  },
+  {
+    "term_ko": "사임",
+    "term_en": "resign",
+    "context": "남들이 사임한다는 소식을 들음",
+    "interpretation_ko": "달갑지 않은 소식을 들을 조짐",
+    "interpretation_en": "denotes that you will have unpleaasant{sic} tidings",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Resign",
+      "original": "To hear of others resigning, denotes that you will have unpleaasant{sic} tidings.",
+      "translation_ko": "남들이 사임한다는 소식을 듣는 꿈은, 달갑지 않은 소식을 들을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "죽은 사람",
+    "term_en": "dead person",
+    "context": "제가 죽었다가 되살아남",
+    "interpretation_ko": "큰 번민을 겪지만 결국 바라던 바를 이룰 조짐",
+    "interpretation_en": "you will have some great vexation, but will eventually gain your desires",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Resurrection",
+      "original": "To dream that you are resurrected from the dead, you will have some great vexation, but will eventually gain your desires.",
+      "translation_ko": "제가 죽었다가 되살아나는 꿈은, 큰 번민을 겪지만 결국 바라던 바를 이룰 조짐이다"
+    }
+  },
+  {
+    "term_ko": "죽은 사람",
+    "term_en": "dead person",
+    "context": "남이 죽었다가 되살아나는 것을 봄",
+    "interpretation_ko": "벗들의 배려로 불행한 근심이 가벼워질 조짐",
+    "interpretation_en": "denotes unfortunate troubles will be lightened by the thoughtfulness of friends",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Resurrection",
+      "original": "To see others resurrected, denotes unfortunate troubles will be lightened by the thoughtfulness of friends",
+      "translation_ko": "남이 죽었다가 되살아나는 것을 보는 꿈은, 벗들의 배려로 불행한 근심이 가벼워질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "소생",
+    "term_en": "resuscitate",
+    "context": "제가 소생함",
+    "interpretation_ko": "큰 손실을 입지만 결국 잃은 것보다 더 많이 되찾고 행복이 따를 조짐",
+    "interpretation_en": "denotes that you will have heavy losses, but will eventually regain more than you lose, and happiness will attend you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Resuscitate",
+      "original": "To dream that you are being resuscitated, denotes that you will have heavy losses, but will eventually regain more than you lose, and happiness will attend you.",
+      "translation_ko": "제가 소생하는 꿈은, 큰 손실을 입지만 결국 잃은 것보다 더 많이 되찾고 행복이 따를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "소생",
+    "term_en": "resuscitate",
+    "context": "남을 소생시킴",
+    "interpretation_ko": "새 우정을 맺어 명성과 즐거움을 얻을 조짐",
+    "interpretation_en": "you will form new friendships, which will give you prominence and pleasure",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Resuscitate",
+      "original": "To resuscitate another, you will form new friendships, which will give you prominence and pleasure.",
+      "translation_ko": "남을 소생시키는 꿈은, 새 우정을 맺어 명성과 즐거움을 얻을 조짐이다"
+    }
+  }
+]

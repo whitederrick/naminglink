@@ -97,6 +97,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "dead-person::죽은 아버지를 보고 이야기함": "father talk unlucky",
   "dead-person::죽은 어머니를 봄": "mother morbidness inclination",
   "dead-person::죽은 형제나 살붙이·벗을 봄": "brother charity aid",
+  "dead-person::제가 죽었다가 되살아남": "vexation eventually desires",
+  "dead-person::남이 죽었다가 되살아나는 것을 봄": "troubles lightened thoughtfulness",
   "wind::사나운 바람이 몰아침": "fierce raging violent savage",
   "wind::바람이 사람의 옷자락을 불어 젖힘": "clothes sleeve skirt blew",
   "wind::갑자기 큰바람이 붊": "suddenly sudden huge",
@@ -5381,5 +5383,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "reptile::처녀가 여러 종류의 파충류를 봄": "various conflicting fancies",
   "reptile::처녀가 파충류에게 물림": "bitten superseded rival",
   "rescue::어떤 위험에서 구조됨": "danger threatened misfortune",
-  "rescue::남을 구조함": "esteemed good deeds"
+  "rescue::남을 구조함": "esteemed good deeds",
+  "resign::제가 어떤 직위에서 사임함": "position embark enterprises",
+  "resign::남들이 사임한다는 소식을 들음": "hear unpleasant tidings",
+  "resuscitate::제가 소생함": "losses regain happiness",
+  "resuscitate::남을 소생시킴": "friendships prominence pleasure"
 };
