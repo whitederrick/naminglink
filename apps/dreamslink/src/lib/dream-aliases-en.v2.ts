@@ -6986,5 +6986,15 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "pump": [
     "a pump"
+  ],
+  "purchase": [
+    "a purchase",
+    "purchases"
+  ],
+  "putty": [
+    "putty"
+  ],
+  "pyramid": [
+    "pyramids"
   ]
 };

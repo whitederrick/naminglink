@@ -1912,6 +1912,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "dog::제 사냥개를 가짐": "owned signifies where expected",
   "dog::사냥개가 사냥에 나선 것을 봄": "hunt delights pleasant",
   "dog::여성이 사냥개 꿈을 꿈": "below station",
+  "dog::강아지 꿈을 꿈": "entertain innocent hapless",
   "insect::병든 몸에 벌레가 생김": "sick ill wound sores infested appeared",
   "insect::몸 위로 벌레가 기어감": "crawling crawled creeping",
   "insect::몸이 벌레 위에 앉음": "sat sitting pressed squashed",
@@ -5145,6 +5146,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pocketbook::돈과 지폐가 든 지갑을 찾아냄": "bills money",
   "pocketbook::빈 지갑을 찾아냄": "empty",
   "pocketbook::지갑을 잃어버림": "lose losing",
+  "pocketbook::지갑에 다이아몬드와 새 지폐가 가득함": "diamonds cheer harmony",
   "poison::제가 독에 중독됨": "immediately reach",
   "poison::남에게 독을 쓰려 함": "seek use others",
   "poison::처녀가 이런 방법으로 연적을 없애려 함": "rid herself securing",
@@ -5228,5 +5230,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pulse::남의 맥박을 짚음": "feeling another depredations",
   "pump::펌프를 봄": "energy faithfulness riches",
   "pump::부서진 펌프를 봄": "broken family cares",
-  "pump::펌프질을 함": "work pleasure profitable"
+  "pump::펌프질을 함": "work pleasure profitable",
+  "putty::퍼티로 작업함": "working hazardous chances",
+  "putty::퍼티로 창유리를 끼움": "window-pane poor results",
+  "pyramid::피라미드 꿈을 꿈": "many changes",
+  "pyramid::피라미드를 오름": "scale journey gratification",
+  "pyramid::처녀가 피라미드를 오름": "young woman husband congenial",
+  "pyramid::옛 피라미드의 신비를 탐구함": "studying mystery ancient learned"
 };

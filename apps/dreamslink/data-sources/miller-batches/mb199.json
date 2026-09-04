@@ -1,0 +1,33 @@
+{
+  "batch": 199,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pup",
+      "text": "To dream of pups, denotes that you will entertain the innocent and hapless, and thereby enjoy pleasure. The dream also shows that friendships will grow stronger, and fortune will increase if the pups are healthful and well formed, and vice versa if they are lean and filthy.",
+      "note": "기존 상징 `dog`(개)에 더한다. 조건절(마르고 지저분하면 반대)은 기존 「여위고 더러운 개를 봄」과 같은 그림이라 따로 안 가르고 한 문맥 안에 그대로 둔다. 각주 [178]은 「Dogs·Hound Pups 항목 참고」다"
+    },
+    {
+      "headword": "Purchases",
+      "text": "To dream of purchases usually augurs profit and advancement with pleasure.",
+      "note": "새 상징 `purchase`(구매)"
+    },
+    {
+      "headword": "Purse",
+      "text": "To dream of your purse being filled with diamonds and new bills, denotes for you associations where ``Good Cheer'' is the watchword, and harmony and tender loves will make earth a beautiful place.",
+      "note": "기존 상징 `pocketbook`(지갑)에 더한다. 각주 [179]는 「Pocket-book 항목 참고」다"
+    },
+    {
+      "headword": "Putty",
+      "text": "To dream of working in putty, denotes that hazardous chances will be taken with fortune. If you put in a window-pane with putty, you will seek fortune with poor results.",
+      "note": "새 상징 `putty`(퍼티)"
+    },
+    {
+      "headword": "Pyramid",
+      "text": "To dream of pyramids, denotes that many changes will come to you. If you scale them, you will journey along before you find the gratification of desires. For the young woman, it prognosticates a husband who is in no sense congenial. To dream that you are studying the mystery of the ancient pyramids, denotes that you will develop a love for the mysteries of nature, and you will become learned and polished.",
+      "note": "새 상징 `pyramid`(피라미드). P 표제어의 끝이다 — 다음은 Q 장(Quack Doctor)부터"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

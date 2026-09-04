@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "개",
+    "term_en": "dog",
+    "context": "강아지 꿈을 꿈",
+    "interpretation_ko": "가엾고 순한 것을 거두어 즐거움을 누리고, 우정이 굳세지며 재산이 늘 조짐. 다만 강아지가 튼튼하고 잘생겨야 하고, 마르고 지저분하면 반대다",
+    "interpretation_en": "denotes that you will entertain the innocent and hapless, and thereby enjoy pleasure. The dream also shows that friendships will grow stronger, and fortune will increase if the pups are healthful and well formed, and vice versa if they are lean and filthy",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Pup",
+      "original": "To dream of pups, denotes that you will entertain the innocent and hapless, and thereby enjoy pleasure. The dream also shows that friendships will grow stronger, and fortune will increase if the pups are healthful and well formed, and _vice versa_ if they are lean and filthy.",
+      "translation_ko": "강아지 꿈은, 가엾고 순한 것을 거두어 즐거움을 누리고, 우정이 굳세지며 재산이 늘 조짐이다. 다만 강아지가 튼튼하고 잘생겨야 하고, 마르고 지저분하면 반대다"
+    }
+  },
+  {
+    "term_ko": "구매",
+    "term_en": "purchase",
+    "context": "구매 꿈을 꿈",
+    "interpretation_ko": "대개 이문과 즐거운 발전이 있을 조짐",
+    "interpretation_en": "usually augurs profit and advancement with pleasure",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Purchases",
+      "original": "To dream of purchases usually augurs profit and advancement with pleasure.",
+      "translation_ko": "구매 꿈은, 대개 이문과 즐거운 발전이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지갑",
+    "term_en": "pocketbook",
+    "context": "지갑에 다이아몬드와 새 지폐가 가득함",
+    "interpretation_ko": "「반가운 마음」이 표어가 되는 사귐과, 조화롭고 다정한 사랑이 세상을 아름답게 할 조짐",
+    "interpretation_en": "denotes for you associations where \"Good Cheer\" is the watchword, and harmony and tender loves will make earth a beautiful place",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Purse",
+      "original": "To dream of your purse being filled with diamonds and new bills, denotes for you associations where ``Good Cheer'' is the watchword, and harmony and tender loves will make earth a beautiful place.",
+      "translation_ko": "지갑에 다이아몬드와 새 지폐가 가득한 꿈은, 「반가운 마음」이 표어가 되는 사귐과, 조화롭고 다정한 사랑이 세상을 아름답게 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "퍼티",
+    "term_en": "putty",
+    "context": "퍼티로 작업함",
+    "interpretation_ko": "운수를 걸고 위험한 시도를 하게 될 조짐",
+    "interpretation_en": "denotes that hazardous chances will be taken with fortune",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Putty",
+      "original": "To dream of working in putty, denotes that hazardous chances will be taken with fortune.",
+      "translation_ko": "퍼티로 작업하는 꿈은, 운수를 걸고 위험한 시도를 하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "퍼티",
+    "term_en": "putty",
+    "context": "퍼티로 창유리를 끼움",
+    "interpretation_ko": "운을 좇아도 성과가 시원찮을 조짐",
+    "interpretation_en": "you will seek fortune with poor results",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Putty",
+      "original": "If you put in a window-pane with putty, you will seek fortune with poor results.",
+      "translation_ko": "퍼티로 창유리를 끼우는 꿈은, 운을 좇아도 성과가 시원찮을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "피라미드",
+    "term_en": "pyramid",
+    "context": "피라미드 꿈을 꿈",
+    "interpretation_ko": "많은 변화가 다가올 조짐",
+    "interpretation_en": "denotes that many changes will come to you",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Pyramid",
+      "original": "To dream of pyramids, denotes that many changes will come to you.",
+      "translation_ko": "피라미드 꿈은, 많은 변화가 다가올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "피라미드",
+    "term_en": "pyramid",
+    "context": "피라미드를 오름",
+    "interpretation_ko": "바라던 것이 이루어지기까지 먼 길을 갈 조짐",
+    "interpretation_en": "you will journey along before you find the gratification of desires",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pyramid",
+      "original": "If you scale them, you will journey along before you find the gratification of desires.",
+      "translation_ko": "피라미드를 오르는 꿈은, 바라던 것이 이루어지기까지 먼 길을 갈 조짐이다"
+    }
+  },
+  {
+    "term_ko": "피라미드",
+    "term_en": "pyramid",
+    "context": "처녀가 피라미드를 오름",
+    "interpretation_ko": "뜻이 통하지 않는 남편을 맞을 조짐",
+    "interpretation_en": "it prognosticates a husband who is in no sense congenial",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pyramid",
+      "original": "For the young woman, it prognosticates a husband who is in no sense congenial.",
+      "translation_ko": "처녀가 피라미드를 오르는 꿈은, 뜻이 통하지 않는 남편을 맞을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "피라미드",
+    "term_en": "pyramid",
+    "context": "옛 피라미드의 신비를 탐구함",
+    "interpretation_ko": "자연의 신비를 사랑하게 되고, 학식과 세련됨을 갖추게 될 조짐",
+    "interpretation_en": "denotes that you will develop a love for the mysteries of nature, and you will become learned and polished",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Pyramid",
+      "original": "To dream that you are studying the mystery of the ancient pyramids, denotes that you will develop a love for the mysteries of nature, and you will become learned and polished.",
+      "translation_ko": "옛 피라미드의 신비를 탐구하는 꿈은, 자연의 신비를 사랑하게 되고, 학식과 세련됨을 갖추게 될 조짐이다"
+    }
+  }
+]

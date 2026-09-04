@@ -1,0 +1,56 @@
+[
+  {
+    "id": "purchase",
+    "aliases": [
+      "구매",
+      "구입"
+    ],
+    "aliases_en": [
+      "a purchase",
+      "purchases"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "putty",
+    "aliases": [
+      "퍼티가",
+      "퍼티를",
+      "퍼티로"
+    ],
+    "aliases_en": [
+      "putty"
+    ],
+    "contexts": {
+      "퍼티로 작업함": "작업 위험한",
+      "퍼티로 창유리를 끼움": "창유리 성과가"
+    },
+    "contexts_en": {
+      "퍼티로 작업함": "working hazardous chances",
+      "퍼티로 창유리를 끼움": "window-pane poor results"
+    }
+  },
+  {
+    "id": "pyramid",
+    "aliases": [
+      "피라미드가",
+      "피라미드를"
+    ],
+    "aliases_en": [
+      "pyramids"
+    ],
+    "contexts": {
+      "피라미드 꿈을 꿈": "많은 변화",
+      "피라미드를 오름": "올랐 갈망",
+      "처녀가 피라미드를 오름": "처녀가 남편",
+      "옛 피라미드의 신비를 탐구함": "신비를 탐구"
+    },
+    "contexts_en": {
+      "피라미드 꿈을 꿈": "many changes",
+      "피라미드를 오름": "scale journey gratification",
+      "처녀가 피라미드를 오름": "young woman husband congenial",
+      "옛 피라미드의 신비를 탐구함": "studying mystery ancient learned"
+    }
+  }
+]

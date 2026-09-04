@@ -111,6 +111,7 @@
     "m196.json",
     "m197.json",
     "m198.json",
+    "m199.json",
     "m2.json",
     "m20.json",
     "m21.json",
@@ -1146,6 +1147,20 @@
       "tags": [],
       "weight": 1,
       "meanings": [
+        {
+          "context": "강아지 꿈을 꿈",
+          "interpretation_ko": "가엾고 순한 것을 거두어 즐거움을 누리고, 우정이 굳세지며 재산이 늘 조짐. 다만 강아지가 튼튼하고 잘생겨야 하고, 마르고 지저분하면 반대다",
+          "interpretation_en": "denotes that you will entertain the innocent and hapless, and thereby enjoy pleasure. The dream also shows that friendships will grow stronger, and fortune will increase if the pups are healthful and well formed, and vice versa if they are lean and filthy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pup",
+              "original": "To dream of pups, denotes that you will entertain the innocent and hapless, and thereby enjoy pleasure. The dream also shows that friendships will grow stronger, and fortune will increase if the pups are healthful and well formed, and _vice versa_ if they are lean and filthy.",
+              "translation_ko": "강아지 꿈은, 가엾고 순한 것을 거두어 즐거움을 누리고, 우정이 굳세지며 재산이 늘 조짐이다. 다만 강아지가 튼튼하고 잘생겨야 하고, 마르고 지저분하면 반대다"
+            }
+          ]
+        },
         {
           "context": "사나운 개가 나타남",
           "interpretation_ko": "적이 생기고 돌이킬 수 없는 불운이 따를 조짐",
@@ -57186,6 +57201,80 @@
       ]
     },
     {
+      "id": "pocketbook",
+      "term_ko": "지갑",
+      "term_en": "pocketbook",
+      "aliases": [
+        "지갑이",
+        "지갑을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "돈과 지폐가 든 지갑을 찾아냄",
+          "interpretation_ko": "매우 운이 좋아 거의 모든 바람을 이룰 조짐",
+          "interpretation_en": "you will be quite lucky, gaining in nearly every instance your desire",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pocketbook",
+              "original": "To find a pocketbook filled with bills and money in your dreams, you will be quite lucky, gaining in nearly every instance your desire.",
+              "translation_ko": "돈과 지폐가 든 지갑을 찾아내는 꿈은, 매우 운이 좋아 거의 모든 바람을 이룰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빈 지갑을 찾아냄",
+          "interpretation_ko": "큰 바람에서 실망할 조짐",
+          "interpretation_en": "you will be disappointed in some big hope",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pocketbook",
+              "original": "If empty, you will be disappointed in some big hope.",
+              "translation_ko": "빈 지갑을 찾아내는 꿈은, 큰 바람에서 실망할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지갑을 잃어버림",
+          "interpretation_ko": "가장 가까운 벗과 뜻이 어긋나 큰 위안과 실질적인 이득을 잃을 조짐",
+          "interpretation_en": "you will unfortunately disagree with your best friend, and thereby lose much comfort and real gain",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pocketbook",
+              "original": "If you lose your pocketbook, you will unfortunately disagree with your best friend, and thereby lose much comfort and real gain.",
+              "translation_ko": "지갑을 잃어버리는 꿈은, 가장 가까운 벗과 뜻이 어긋나 큰 위안과 실질적인 이득을 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지갑에 다이아몬드와 새 지폐가 가득함",
+          "interpretation_ko": "「반가운 마음」이 표어가 되는 사귐과, 조화롭고 다정한 사랑이 세상을 아름답게 할 조짐",
+          "interpretation_en": "denotes for you associations where \"Good Cheer\" is the watchword, and harmony and tender loves will make earth a beautiful place",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Purse",
+              "original": "To dream of your purse being filled with diamonds and new bills, denotes for you associations where ``Good Cheer'' is the watchword, and harmony and tender loves will make earth a beautiful place.",
+              "translation_ko": "지갑에 다이아몬드와 새 지폐가 가득한 꿈은, 「반가운 마음」이 표어가 되는 사귐과, 조화롭고 다정한 사랑이 세상을 아름답게 할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "porter",
       "term_ko": "짐꾼",
       "term_en": "porter",
@@ -57414,6 +57503,80 @@
               "locator": "夫妻產孕交懽",
               "original": "妻有孕主外私情",
               "translation_ko": "아내가 아이를 배면 밖에 사사로운 정이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pyramid",
+      "term_ko": "피라미드",
+      "term_en": "pyramid",
+      "aliases": [
+        "피라미드가",
+        "피라미드를"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "피라미드 꿈을 꿈",
+          "interpretation_ko": "많은 변화가 다가올 조짐",
+          "interpretation_en": "denotes that many changes will come to you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pyramid",
+              "original": "To dream of pyramids, denotes that many changes will come to you.",
+              "translation_ko": "피라미드 꿈은, 많은 변화가 다가올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "피라미드를 오름",
+          "interpretation_ko": "바라던 것이 이루어지기까지 먼 길을 갈 조짐",
+          "interpretation_en": "you will journey along before you find the gratification of desires",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pyramid",
+              "original": "If you scale them, you will journey along before you find the gratification of desires.",
+              "translation_ko": "피라미드를 오르는 꿈은, 바라던 것이 이루어지기까지 먼 길을 갈 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 피라미드를 오름",
+          "interpretation_ko": "뜻이 통하지 않는 남편을 맞을 조짐",
+          "interpretation_en": "it prognosticates a husband who is in no sense congenial",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pyramid",
+              "original": "For the young woman, it prognosticates a husband who is in no sense congenial.",
+              "translation_ko": "처녀가 피라미드를 오르는 꿈은, 뜻이 통하지 않는 남편을 맞을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "옛 피라미드의 신비를 탐구함",
+          "interpretation_ko": "자연의 신비를 사랑하게 되고, 학식과 세련됨을 갖추게 될 조짐",
+          "interpretation_en": "denotes that you will develop a love for the mysteries of nature, and you will become learned and polished",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pyramid",
+              "original": "To dream that you are studying the mystery of the ancient pyramids, denotes that you will develop a love for the mysteries of nature, and you will become learned and polished.",
+              "translation_ko": "옛 피라미드의 신비를 탐구하는 꿈은, 자연의 신비를 사랑하게 되고, 학식과 세련됨을 갖추게 될 조짐이다"
             }
           ]
         }
@@ -72190,66 +72353,6 @@
               "locator": "Plaster",
               "original": "To see plasterers at work, denotes that you will have a sufficient competency to live above penury.",
               "translation_ko": "미장이들이 일하는 것을 보는 꿈은, 궁핍을 벗어날 만큼 넉넉해질 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "pocketbook",
-      "term_ko": "지갑",
-      "term_en": "pocketbook",
-      "aliases": [
-        "지갑이",
-        "지갑을"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "돈과 지폐가 든 지갑을 찾아냄",
-          "interpretation_ko": "매우 운이 좋아 거의 모든 바람을 이룰 조짐",
-          "interpretation_en": "you will be quite lucky, gaining in nearly every instance your desire",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Pocketbook",
-              "original": "To find a pocketbook filled with bills and money in your dreams, you will be quite lucky, gaining in nearly every instance your desire.",
-              "translation_ko": "돈과 지폐가 든 지갑을 찾아내는 꿈은, 매우 운이 좋아 거의 모든 바람을 이룰 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "빈 지갑을 찾아냄",
-          "interpretation_ko": "큰 바람에서 실망할 조짐",
-          "interpretation_en": "you will be disappointed in some big hope",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Pocketbook",
-              "original": "If empty, you will be disappointed in some big hope.",
-              "translation_ko": "빈 지갑을 찾아내는 꿈은, 큰 바람에서 실망할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "지갑을 잃어버림",
-          "interpretation_ko": "가장 가까운 벗과 뜻이 어긋나 큰 위안과 실질적인 이득을 잃을 조짐",
-          "interpretation_en": "you will unfortunately disagree with your best friend, and thereby lose much comfort and real gain",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Pocketbook",
-              "original": "If you lose your pocketbook, you will unfortunately disagree with your best friend, and thereby lose much comfort and real gain.",
-              "translation_ko": "지갑을 잃어버리는 꿈은, 가장 가까운 벗과 뜻이 어긋나 큰 위안과 실질적인 이득을 잃을 조짐이다"
             }
           ]
         }
@@ -97190,6 +97293,53 @@
       ]
     },
     {
+      "id": "putty",
+      "term_ko": "퍼티",
+      "term_en": "putty",
+      "aliases": [
+        "퍼티가",
+        "퍼티를",
+        "퍼티로"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "퍼티로 작업함",
+          "interpretation_ko": "운수를 걸고 위험한 시도를 하게 될 조짐",
+          "interpretation_en": "denotes that hazardous chances will be taken with fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Putty",
+              "original": "To dream of working in putty, denotes that hazardous chances will be taken with fortune.",
+              "translation_ko": "퍼티로 작업하는 꿈은, 운수를 걸고 위험한 시도를 하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "퍼티로 창유리를 끼움",
+          "interpretation_ko": "운을 좇아도 성과가 시원찮을 조짐",
+          "interpretation_en": "you will seek fortune with poor results",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Putty",
+              "original": "If you put in a window-pane with putty, you will seek fortune with poor results.",
+              "translation_ko": "퍼티로 창유리를 끼우는 꿈은, 운을 좇아도 성과가 시원찮을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "quarrel",
       "term_ko": "말다툼",
       "term_en": "quarrel",
@@ -108976,6 +109126,38 @@
               "locator": "Prize Fighter",
               "original": "For a young woman to see a prize fighter, foretells she will have pleasure in fast society, and will give her friends much concern about her reputation.",
               "translation_ko": "처녀가 권투 선수를 보는 꿈은, 방탕한 사교계에서 즐거움을 누리고, 벗들이 평판을 크게 염려하게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purchase",
+      "term_ko": "구매",
+      "term_en": "purchase",
+      "aliases": [
+        "구매",
+        "구입"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "구매 꿈을 꿈",
+          "interpretation_ko": "대개 이문과 즐거운 발전이 있을 조짐",
+          "interpretation_en": "usually augurs profit and advancement with pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Purchases",
+              "original": "To dream of purchases usually augurs profit and advancement with pleasure.",
+              "translation_ko": "구매 꿈은, 대개 이문과 즐거운 발전이 있을 조짐이다"
             }
           ]
         }
