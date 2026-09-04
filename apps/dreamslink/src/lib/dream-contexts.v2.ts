@@ -5284,5 +5284,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "quoits::콰이츠 던지기를 함": "low engagements employment",
   "quoits::콰이츠 던지기에서 짐": "lose distressing conditions",
   "racket::소란 꿈을 꿈": "foiled anticipated pleasure",
-  "racket::처녀가 소란 꿈을 꿈": "young woman disappointment amusement"
+  "racket::처녀가 소란 꿈을 꿈": "young woman disappointment amusement",
+  "radish::무밭이 자라는 것을 봄": "bed growing luck friends",
+  "radish::무를 먹음": "eat thoughtlessness suffer",
+  "radish::무를 보거나 심음": "plant anticipations realized",
+  "raffle::경품 추첨에 응함": "article victim speculation",
+  "raffle::교회 경품 추첨에 있음": "church disappointment clouding",
+  "raffle::처녀가 경품 추첨 꿈을 꿈": "young woman empty expectations",
+  "raft::뗏목 꿈을 꿈": "new locations enterprises",
+  "raft::뗏목을 타고 떠다님": "floating uncertain journeys",
+  "raft::뗏목을 타고 목적지에 다다름": "destination good fortune",
+  "raft::뗏목이 부서지거나 탈이 남": "breaks mishap accident sickness"
 };

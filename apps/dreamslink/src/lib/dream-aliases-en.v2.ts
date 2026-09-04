@@ -7052,5 +7052,16 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "racket": [
     "a racket"
+  ],
+  "radish": [
+    "radishes",
+    "a radish"
+  ],
+  "raffle": [
+    "a raffle",
+    "raffling"
+  ],
+  "raft": [
+    "a raft"
   ]
 };

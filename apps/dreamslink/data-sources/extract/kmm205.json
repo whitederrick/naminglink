@@ -1,0 +1,67 @@
+[
+  {
+    "id": "radish",
+    "aliases": [
+      "무가",
+      "무를",
+      "무밭"
+    ],
+    "aliases_en": [
+      "radishes",
+      "a radish"
+    ],
+    "contexts": {
+      "무밭이 자라는 것을 봄": "무밭 다정",
+      "무를 먹음": "먹었 경솔함",
+      "무를 보거나 심음": "심었 심는"
+    },
+    "contexts_en": {
+      "무밭이 자라는 것을 봄": "bed growing luck friends",
+      "무를 먹음": "eat thoughtlessness suffer",
+      "무를 보거나 심음": "plant anticipations realized"
+    }
+  },
+  {
+    "id": "raffle",
+    "aliases": [
+      "경품 추첨에",
+      "경품 추첨을"
+    ],
+    "aliases_en": [
+      "a raffle",
+      "raffling"
+    ],
+    "contexts": {
+      "경품 추첨에 응함": "응했 투기의",
+      "교회 경품 추첨에 있음": "교회 실망이",
+      "처녀가 경품 추첨 꿈을 꿈": "처녀가 헛된"
+    },
+    "contexts_en": {
+      "경품 추첨에 응함": "article victim speculation",
+      "교회 경품 추첨에 있음": "church disappointment clouding",
+      "처녀가 경품 추첨 꿈을 꿈": "young woman empty expectations"
+    }
+  },
+  {
+    "id": "raft",
+    "aliases": [
+      "뗏목이",
+      "뗏목을"
+    ],
+    "aliases_en": [
+      "a raft"
+    ],
+    "contexts": {
+      "뗏목 꿈을 꿈": "새로운 곳으로",
+      "뗏목을 타고 떠다님": "떠다녔 불확실",
+      "뗏목을 타고 목적지에 다다름": "목적지 행운",
+      "뗏목이 부서지거나 탈이 남": "부서졌 사고를"
+    },
+    "contexts_en": {
+      "뗏목 꿈을 꿈": "new locations enterprises",
+      "뗏목을 타고 떠다님": "floating uncertain journeys",
+      "뗏목을 타고 목적지에 다다름": "destination good fortune",
+      "뗏목이 부서지거나 탈이 남": "breaks mishap accident sickness"
+    }
+  }
+]

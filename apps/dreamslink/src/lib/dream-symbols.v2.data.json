@@ -119,6 +119,7 @@
     "m202.json",
     "m203.json",
     "m204.json",
+    "m205.json",
     "m21.json",
     "m22.json",
     "m23.json",
@@ -58128,6 +58129,80 @@
       ]
     },
     {
+      "id": "raft",
+      "term_ko": "뗏목",
+      "term_en": "raft",
+      "aliases": [
+        "뗏목이",
+        "뗏목을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "뗏목 꿈을 꿈",
+          "interpretation_ko": "새로운 곳으로 나아가 벌인 일이 성공할 조짐",
+          "interpretation_en": "denotes that you will go into new locations to engage in enterprises, which will prove successful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Raft",
+              "original": "To dream of a raft, denotes that you will go into new locations to engage in enterprises, which will prove successful.",
+              "translation_ko": "뗏목 꿈은, 새로운 곳으로 나아가 벌인 일이 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "뗏목을 타고 떠다님",
+          "interpretation_ko": "여정이 불확실할 조짐",
+          "interpretation_en": "denotes uncertain journeys",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Raft",
+              "original": "To dream of floating on a raft, denotes uncertain journeys.",
+              "translation_ko": "뗏목을 타고 떠다니는 꿈은, 여정이 불확실할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "뗏목을 타고 목적지에 다다름",
+          "interpretation_ko": "틀림없이 좋은 운이 찾아올 조짐",
+          "interpretation_en": "you will surely come into good fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Raft",
+              "original": "If you reach your destination, you will surely come into good fortune.",
+              "translation_ko": "뗏목을 타고 목적지에 다다르는 꿈은, 틀림없이 좋은 운이 찾아올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "뗏목이 부서지거나 탈이 남",
+          "interpretation_ko": "저나 벗이 사고를 겪거나, 병으로 궂은 결과를 볼 조짐",
+          "interpretation_en": "yourself or some friend will suffer from an accident, or sickness will bear unfortunate results",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Raft",
+              "original": "If a raft breaks, or any such mishap befalls it, yourself or some friend will suffer from an accident, or sickness will bear unfortunate results.",
+              "translation_ko": "뗏목이 부서지거나 탈이 나는 꿈은, 저나 벗이 사고를 겪거나, 병으로 궂은 결과를 볼 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rain",
       "term_ko": "비",
       "term_en": "rain",
@@ -73935,6 +74010,127 @@
               "locator": "Quills",
               "original": "For a young woman to be putting a quill on her hat, denotes that she will attempt many conquests, and her success will depend upon her charms.",
               "translation_ko": "처녀가 모자에 깃털펜을 꽂는 꿈은, 여러 이를 사로잡으려 하고, 그 성패는 저의 매력에 달릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "radish",
+      "term_ko": "무",
+      "term_en": "radish",
+      "aliases": [
+        "무가",
+        "무를",
+        "무밭"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무밭이 자라는 것을 봄",
+          "interpretation_ko": "행운의 조짐. 벗들이 유달리 다정하고 사업이 번창할 것",
+          "interpretation_en": "is an omen of good luck. Your friends will be unusually kind, and your business will prosper",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Radish",
+              "original": "To dream of seeing a bed of radishes growing, is an omen of good luck. Your friends will be unusually kind, and your business will prosper.",
+              "translation_ko": "무밭이 자라는 것을 보는 꿈은, 행운의 조짐이다. 벗들이 유달리 다정하고 사업이 번창할 것이다"
+            }
+          ]
+        },
+        {
+          "context": "무를 먹음",
+          "interpretation_ko": "가까운 이의 경솔함으로 조금 시달릴 조짐",
+          "interpretation_en": "you will suffer slightly through the thoughtlessness of some one near to you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Radish",
+              "original": "If you eat them, you will suffer slightly through the thoughtlessness of some one near to you.",
+              "translation_ko": "무를 먹는 꿈은, 가까운 이의 경솔함으로 조금 시달릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "무를 보거나 심음",
+          "interpretation_ko": "바라던 것이 즐겁게 이루어질 조짐",
+          "interpretation_en": "denotes that your anticipations will be happily realized",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Radish",
+              "original": "To see radishes, or plant them, denotes that your anticipations will be happily realized.",
+              "translation_ko": "무를 보거나 심는 꿈은, 바라던 것이 즐겁게 이루어질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raffle",
+      "term_ko": "경품 추첨",
+      "term_en": "raffle",
+      "aliases": [
+        "경품 추첨에",
+        "경품 추첨을"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "경품 추첨에 응함",
+          "interpretation_ko": "투기의 희생양이 될 조짐",
+          "interpretation_en": "you will fall a victim to speculation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Raffle",
+              "original": "If you dream of raffling any article, you will fall a victim to speculation.",
+              "translation_ko": "경품 추첨에 응하는 꿈은, 투기의 희생양이 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "교회 경품 추첨에 있음",
+          "interpretation_ko": "머잖아 앞날에 실망이 드리울 조짐",
+          "interpretation_en": "you will soon find that disappointment is clouding your future",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Raffle",
+              "original": "If you are at a church raffle, you will soon find that disappointment is clouding your future.",
+              "translation_ko": "교회 경품 추첨에 있는 꿈은, 머잖아 앞날에 실망이 드리울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 경품 추첨 꿈을 꿈",
+          "interpretation_ko": "헛된 기대를 뜻함",
+          "interpretation_en": "this dream means empty expectations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Raffle",
+              "original": "For a young woman, this dream means empty expectations.",
+              "translation_ko": "처녀가 이 꿈을 꾸면, 헛된 기대를 뜻한다"
             }
           ]
         }
