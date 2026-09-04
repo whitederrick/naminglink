@@ -452,6 +452,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "snake::뱀이 누렇거나 흼": "yellow white pale golden",
   "snake::뱀이 다가오고 새가 달려옴": "bird birds sparrow flying",
   "snake::거북과 뱀이 함께 있음": "turtle tortoise",
+  "snake::뱀 꿈이 병적인 우울을 가리킴": "morbidity depressed disappointment",
   "sun::해가 막 떠오름": "rose rising dawn daybreak morning",
   "sun::햇빛이 몸을 비춤": "shone body skin rays warm",
   "sun::해가 떨어짐": "setting sank west dusk twilight",
@@ -5602,5 +5603,17 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "sea-foam::여성이 바다 거품 꿈을 꿈": "indiscriminate demoralizing rectitude",
   "sea-foam::여성이 바다 거품으로 된 면사포를 씀": "bridal veil refinement modesty",
   "fur-seal::물개를 봄": "striving place power",
-  "fur-seal::물개 꿈을 자주 꿈": "aspirations discontent advance"
+  "fur-seal::물개 꿈을 자주 꿈": "aspirations discontent advance",
+  "secret-order::비밀결사 꿈을 꿈": "sensitive excited practical",
+  "secret-order::비밀결사에 가입함": "joins selfish designing",
+  "secret-order::여성이 비밀결사 꿈을 꿈": "guardians discreditable habits",
+  "secret-order::여성이 비밀결사의 수장을 만남": "meets head allurements",
+  "secret-order::여성이 어머니가 비밀결사에 가입했다고 여겨 맹세를 버리게 하려 애씀": "mother repudiate anguish",
+  "secret-order::비밀결사의 수장이 죽었다고 보거나 들음": "leader dead strains",
+  "seducer::여성이 유혹당함": "showy persons influenced",
+  "seducer::남성이 처녀를 유혹함": "girl warning guard",
+  "seducer::연인이 그 제안에 충격받거나 화를 냄": "shocked angry reproach",
+  "seducer::연인이 그 제안에 응함": "consents pecuniary used",
+  "serenade::세레나데를 들음": "hear pleasant news",
+  "serenade::자신이 세레나데를 부르는 이들 가운데 있음": "serenaders delightful future"
 };

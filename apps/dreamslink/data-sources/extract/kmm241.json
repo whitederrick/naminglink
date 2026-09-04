@@ -1,0 +1,99 @@
+[
+  {
+    "id": "secret-order",
+    "aliases": [
+      "비밀결사",
+      "비밀결사에",
+      "비밀결사의"
+    ],
+    "aliases_en": [
+      "a secret order",
+      "secret orders"
+    ],
+    "contexts": {
+      "비밀결사 꿈을 꿈": "예민하고 들뜬 이타적인",
+      "비밀결사에 가입함": "가입함 가입했 이기적이고",
+      "여성이 비밀결사 꿈을 꿈": "여성이 후견인의 습관에",
+      "여성이 비밀결사의 수장을 만남": "수장을 만났 유혹에",
+      "여성이 어머니가 비밀결사에 가입했다고 여겨 맹세를 버리게 하려 애씀": "어머니가 맹세를 불효로",
+      "비밀결사의 수장이 죽었다고 보거나 들음": "수장이 죽었다고 시련을"
+    },
+    "contexts_en": {
+      "비밀결사 꿈을 꿈": "sensitive excited practical",
+      "비밀결사에 가입함": "joins selfish designing",
+      "여성이 비밀결사 꿈을 꿈": "guardians discreditable habits",
+      "여성이 비밀결사의 수장을 만남": "meets head allurements",
+      "여성이 어머니가 비밀결사에 가입했다고 여겨 맹세를 버리게 하려 애씀": "mother repudiate anguish",
+      "비밀결사의 수장이 죽었다고 보거나 들음": "leader dead strains"
+    }
+  },
+  {
+    "id": "seducer",
+    "aliases": [
+      "유혹자",
+      "유혹당했다",
+      "유혹했다",
+      "유혹당함",
+      "유혹함",
+      "유혹했"
+    ],
+    "aliases_en": [
+      "a seducer",
+      "seduced"
+    ],
+    "contexts": {
+      "여성이 유혹당함": "여성이 유혹당함 화려한이들",
+      "남성이 처녀를 유혹함": "남성이 처녀를 거짓비난",
+      "연인이 그 제안에 충격받거나 화를 냄": "충격받 화를내 흠잡을데",
+      "연인이 그 제안에 응함": "응함 응했 금전적즐거움"
+    },
+    "contexts_en": {
+      "여성이 유혹당함": "showy persons influenced",
+      "남성이 처녀를 유혹함": "girl warning guard",
+      "연인이 그 제안에 충격받거나 화를 냄": "shocked angry reproach",
+      "연인이 그 제안에 응함": "consents pecuniary used"
+    }
+  },
+  {
+    "id": "seed",
+    "aliases": [
+      "씨앗"
+    ],
+    "aliases_en": [
+      "seed",
+      "seeds"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "sentry",
+    "aliases": [
+      "보초"
+    ],
+    "aliases_en": [
+      "a sentry",
+      "sentries"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "serenade",
+    "aliases": [
+      "세레나데"
+    ],
+    "aliases_en": [
+      "a serenade",
+      "serenades"
+    ],
+    "contexts": {
+      "세레나데를 들음": "들음 들었 반가운소식",
+      "자신이 세레나데를 부르는 이들 가운데 있음": "부르는 이들가운데 즐거운일"
+    },
+    "contexts_en": {
+      "세레나데를 들음": "hear pleasant news",
+      "자신이 세레나데를 부르는 이들 가운데 있음": "serenaders delightful future"
+    }
+  }
+]

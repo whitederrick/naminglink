@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 240 — Scythe·Sea·Sea Foam·Seal·Seamstress·Seaport·Seat)
+// (지금 담긴 것: 배치 241 — Secret Order·Seducer·Seed·Sentry·Serenade·Serpents)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,24 +30,24 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "scythe", ctx: "낫 꿈을 꿈", text: "낫 꿈을 꾸었다" },
-  { id: "scythe", ctx: "낡거나 부러진 낫을 봄", text: "낡거나 부러진 낫을 보았다" },
-  { id: "sea", ctx: "바다의 외로운 탄식 소리를 들음", text: "바다의 외로운 탄식 소리를 들었다" },
-  { id: "sea", ctx: "바다 꿈이 못다 채운 기대를 예고함", text: "바다 꿈을 꾸었는데 못다 채운 기대를 예고했다" },
-  { id: "sea", ctx: "여성이 연인과 함께 바다 위를 미끄러지듯 나아감", text: "여성이 연인과 함께 바다 위를 미끄러지듯 나아갔다" },
-  { id: "sea-foam", ctx: "여성이 바다 거품 꿈을 꿈", text: "여성이 바다 거품 꿈을 꾸었다" },
-  { id: "sea-foam", ctx: "여성이 바다 거품으로 된 면사포를 씀", text: "여성이 바다 거품으로 된 면사포를 썼다" },
-  { id: "fur-seal", ctx: "물개를 봄", text: "물개를 보았다" },
-  { id: "fur-seal", ctx: "물개 꿈을 자주 꿈", text: "물개 꿈을 자주 꾸었다" },
-  { id: "seamstress", ctx: "재봉사를 봄", text: "재봉사를 보았다" },
-  { id: "seaport", ctx: "항구도시를 방문함", text: "항구도시를 방문했다" },
-  { id: "chair", ctx: "남이 자신의 의자를 차지함", text: "남이 자신의 의자를 차지했다" },
-  { id: "chair", ctx: "여성에게 의자를 내줌", text: "여성에게 의자를 내주었다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(sea·chair)의 옛 답이 그대로인가
-  { id: "sea", ctx: "작은 배를 타고 항해함", text: "작은 배로 바다를 항해했다" },
-  { id: "sea", ctx: "바다가 잔잔함", text: "바다가 잔잔했다" },
-  { id: "chair", ctx: "의자를 봄", text: "의자를 보았다" },
-  { id: "chair", ctx: "벗이 의자에 꼼짝 않고 앉아 있음", text: "벗이 의자에 꼼짝 않고 앉아 있었다" },
+  { id: "secret-order", ctx: "비밀결사 꿈을 꿈", text: "비밀결사 꿈을 꾸었다" },
+  { id: "secret-order", ctx: "비밀결사에 가입함", text: "비밀결사에 가입했다" },
+  { id: "secret-order", ctx: "여성이 비밀결사 꿈을 꿈", text: "여성이 비밀결사 꿈을 꾸었다" },
+  { id: "secret-order", ctx: "여성이 비밀결사의 수장을 만남", text: "여성이 비밀결사의 수장을 만났다" },
+  { id: "secret-order", ctx: "여성이 어머니가 비밀결사에 가입했다고 여겨 맹세를 버리게 하려 애씀", text: "여성이 어머니가 비밀결사에 가입했다고 여겨 맹세를 버리게 하려 애썼다" },
+  { id: "secret-order", ctx: "비밀결사의 수장이 죽었다고 보거나 들음", text: "비밀결사의 수장이 죽었다고 들었다" },
+  { id: "seducer", ctx: "여성이 유혹당함", text: "여성이 유혹당했다" },
+  { id: "seducer", ctx: "남성이 처녀를 유혹함", text: "남성이 처녀를 유혹했다" },
+  { id: "seducer", ctx: "연인이 그 제안에 충격받거나 화를 냄", text: "유혹했는데 연인이 그 제안에 충격받았다" },
+  { id: "seducer", ctx: "연인이 그 제안에 응함", text: "유혹했는데 연인이 그 제안에 응했다" },
+  { id: "seed", ctx: "씨앗 꿈을 꿈", text: "씨앗 꿈을 꾸었다" },
+  { id: "sentry", ctx: "보초 꿈을 꿈", text: "보초 꿈을 꾸었다" },
+  { id: "serenade", ctx: "세레나데를 들음", text: "세레나데를 들었다" },
+  { id: "serenade", ctx: "자신이 세레나데를 부르는 이들 가운데 있음", text: "자신이 세레나데를 부르는 이들 가운데 있었다" },
+  { id: "snake", ctx: "뱀 꿈이 병적인 우울을 가리킴", text: "뱀 꿈을 꾸었는데 병적인 우울을 가리켰다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(snake)의 옛 답이 그대로인가
+  { id: "snake", ctx: "뱀이 문 안으로 들어옴", text: "뱀이 문 안으로 들어왔다" },
+  { id: "snake", ctx: "뱀이 사람에게 덤벼듦", text: "뱀이 사람에게 덤벼들었다" },
 ];
 
 let notFound = 0;

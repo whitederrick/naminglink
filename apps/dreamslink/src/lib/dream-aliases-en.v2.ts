@@ -7401,5 +7401,25 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "seaport": [
     "a seaport",
     "seaports"
+  ],
+  "secret-order": [
+    "a secret order",
+    "secret orders"
+  ],
+  "seducer": [
+    "a seducer",
+    "seduced"
+  ],
+  "seed": [
+    "seed",
+    "seeds"
+  ],
+  "sentry": [
+    "a sentry",
+    "sentries"
+  ],
+  "serenade": [
+    "a serenade",
+    "serenades"
   ]
 };

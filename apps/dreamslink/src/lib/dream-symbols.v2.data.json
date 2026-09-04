@@ -159,6 +159,7 @@
     "m239.json",
     "m24.json",
     "m240.json",
+    "m241.json",
     "m25.json",
     "m26.json",
     "m27a.json",
@@ -8134,6 +8135,267 @@
       ]
     },
     {
+      "id": "snake",
+      "term_ko": "뱀",
+      "term_en": "snake",
+      "aliases": [
+        "구렁이",
+        "독사",
+        "살모사",
+        "능구렁이"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [
+        "태몽"
+      ],
+      "weight": 3,
+      "meanings": [
+        {
+          "context": "뱀이 문 안으로 들어옴",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "龍蛇入門主得財",
+              "translation_ko": "용과 뱀이 문에 들어오면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "뱀 꿈이 병적인 우울을 가리킴",
+          "interpretation_ko": "억눌린 병적 우울과 침체한 처지를 가리키며, 흔히 실망이 뒤따를 조짐",
+          "interpretation_en": "is indicative of cultivated morbidity and depressed surroundings. There is usually a disappointment after this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Serpents",
+              "original": "To dream of serpents, is indicative of cultivated morbidity and depressed surroundings. There is usually a disappointment after this dream.",
+              "translation_ko": "뱀 꿈이 병적인 우울을 가리키는 것은, 억눌린 병적 우울과 침체한 처지를 가리키며 흔히 실망이 뒤따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 부뚜막에 들어옴",
+          "interpretation_ko": "관직이 이를 조짐",
+          "interpretation_en": "a sign that an official post will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "龍蛇入灶有官至",
+              "translation_ko": "용과 뱀이 부뚜막에 들어오면 관직이 이른다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 용으로 변함",
+          "interpretation_ko": "귀인의 도움을 얻을 조짐",
+          "interpretation_en": "a sign of receiving help from an influential person",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "蛇化龍得貴人助",
+              "translation_ko": "뱀이 용으로 변하면 귀인의 도움을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 사람을 죽임",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "龍蛇殺人主大凶",
+              "translation_ko": "용과 뱀이 사람을 죽이면 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 사람에게 덤벼듦",
+          "interpretation_ko": "큰 재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining great wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "蛇蛟人主得大財",
+              "translation_ko": "뱀이 사람에게 덤비면 큰 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 품속으로 들어옴",
+          "interpretation_ko": "귀한 자식을 낳을 조짐",
+          "interpretation_en": "a sign of giving birth to a noble child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "蛇入懷中生貴子",
+              "translation_ko": "뱀이 품속에 들어오면 귀한 자식을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 물속을 헤엄쳐 감",
+          "interpretation_ko": "좋은 자리로 옮겨 갈 조짐",
+          "interpretation_en": "a sign of promotion to a better post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "蛇行水內主榮遷",
+              "translation_ko": "뱀이 물속을 가면 영전한다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 사람을 따라감",
+          "interpretation_ko": "아내가 딴마음을 품을 조짐",
+          "interpretation_en": "a sign that one's wife will have a wandering heart",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "蛇隨人去妻外心",
+              "translation_ko": "뱀이 사람을 따라가면 아내가 딴마음을 품는다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 곡도로 들어감",
+          "interpretation_ko": "구설수가 있을 조짐",
+          "interpretation_en": "a sign of quarrels and gossip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "蛇入谷道主口舌",
+              "translation_ko": "뱀이 곡도로 들어가면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 몸을 휘감음",
+          "interpretation_ko": "귀한 자식을 낳을 조짐",
+          "interpretation_en": "a sign of giving birth to a noble child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "蛇遶身者生貴子",
+              "translation_ko": "뱀이 몸을 휘감으면 귀한 자식을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 여럿 몰려 있음",
+          "interpretation_ko": "저승 관아의 일이 생길 조짐",
+          "interpretation_en": "a sign of dealings with the netherworld court",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "蛇多者主陰司事",
+              "translation_ko": "뱀이 많으면 저승 관아의 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 붉거나 검음",
+          "interpretation_ko": "구설수가 있을 조짐",
+          "interpretation_en": "a sign of quarrels and gossip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "蛇赤黑口舌青吉",
+              "translation_ko": "뱀이 붉거나 검으면 구설이 있고 푸르면 길하다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 푸름",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "蛇赤黑口舌青吉",
+              "translation_ko": "뱀이 붉거나 검으면 구설이 있고 푸르면 길하다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 누렇거나 흼",
+          "interpretation_ko": "관재와 송사가 있을 조짐",
+          "interpretation_en": "a sign of legal trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "蛇黃白主有官事",
+              "translation_ko": "뱀이 누렇거나 희면 관재가 있다"
+            }
+          ]
+        },
+        {
+          "context": "뱀이 다가오고 새가 달려옴",
+          "interpretation_ko": "누군가 천거해 줄 조짐",
+          "interpretation_en": "a sign that someone will recommend you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "鳥赴蛇來人引薦",
+              "translation_ko": "새가 달려오고 뱀이 오면 사람이 천거해 준다"
+            }
+          ]
+        },
+        {
+          "context": "거북과 뱀이 함께 있음",
+          "interpretation_ko": "재물이 생길 조짐",
+          "interpretation_en": "a sign that wealth will be produced",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "龜蛇相同主生財",
+              "translation_ko": "거북과 뱀이 함께 있으면 재물이 생긴다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cat",
       "term_ko": "고양이",
       "term_en": "cat",
@@ -9123,252 +9385,6 @@
               "locator": "金銀珠玉絹帛",
               "original": "得玉碗器物皆吉",
               "translation_ko": "옥 그릇과 기물을 얻으면 모두 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "snake",
-      "term_ko": "뱀",
-      "term_en": "snake",
-      "aliases": [
-        "구렁이",
-        "독사",
-        "살모사",
-        "능구렁이"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 3,
-      "meanings": [
-        {
-          "context": "뱀이 문 안으로 들어옴",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "龍蛇入門主得財",
-              "translation_ko": "용과 뱀이 문에 들어오면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 부뚜막에 들어옴",
-          "interpretation_ko": "관직이 이를 조짐",
-          "interpretation_en": "a sign that an official post will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "龍蛇入灶有官至",
-              "translation_ko": "용과 뱀이 부뚜막에 들어오면 관직이 이른다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 용으로 변함",
-          "interpretation_ko": "귀인의 도움을 얻을 조짐",
-          "interpretation_en": "a sign of receiving help from an influential person",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "蛇化龍得貴人助",
-              "translation_ko": "뱀이 용으로 변하면 귀인의 도움을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 사람을 죽임",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "龍蛇殺人主大凶",
-              "translation_ko": "용과 뱀이 사람을 죽이면 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 사람에게 덤벼듦",
-          "interpretation_ko": "큰 재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining great wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "蛇蛟人主得大財",
-              "translation_ko": "뱀이 사람에게 덤비면 큰 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 품속으로 들어옴",
-          "interpretation_ko": "귀한 자식을 낳을 조짐",
-          "interpretation_en": "a sign of giving birth to a noble child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "蛇入懷中生貴子",
-              "translation_ko": "뱀이 품속에 들어오면 귀한 자식을 낳는다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 물속을 헤엄쳐 감",
-          "interpretation_ko": "좋은 자리로 옮겨 갈 조짐",
-          "interpretation_en": "a sign of promotion to a better post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "蛇行水內主榮遷",
-              "translation_ko": "뱀이 물속을 가면 영전한다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 사람을 따라감",
-          "interpretation_ko": "아내가 딴마음을 품을 조짐",
-          "interpretation_en": "a sign that one's wife will have a wandering heart",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "蛇隨人去妻外心",
-              "translation_ko": "뱀이 사람을 따라가면 아내가 딴마음을 품는다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 곡도로 들어감",
-          "interpretation_ko": "구설수가 있을 조짐",
-          "interpretation_en": "a sign of quarrels and gossip",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "蛇入谷道主口舌",
-              "translation_ko": "뱀이 곡도로 들어가면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 몸을 휘감음",
-          "interpretation_ko": "귀한 자식을 낳을 조짐",
-          "interpretation_en": "a sign of giving birth to a noble child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "蛇遶身者生貴子",
-              "translation_ko": "뱀이 몸을 휘감으면 귀한 자식을 낳는다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 여럿 몰려 있음",
-          "interpretation_ko": "저승 관아의 일이 생길 조짐",
-          "interpretation_en": "a sign of dealings with the netherworld court",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "蛇多者主陰司事",
-              "translation_ko": "뱀이 많으면 저승 관아의 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 붉거나 검음",
-          "interpretation_ko": "구설수가 있을 조짐",
-          "interpretation_en": "a sign of quarrels and gossip",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "蛇赤黑口舌青吉",
-              "translation_ko": "뱀이 붉거나 검으면 구설이 있고 푸르면 길하다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 푸름",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "蛇赤黑口舌青吉",
-              "translation_ko": "뱀이 붉거나 검으면 구설이 있고 푸르면 길하다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 누렇거나 흼",
-          "interpretation_ko": "관재와 송사가 있을 조짐",
-          "interpretation_en": "a sign of legal trouble",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "蛇黃白主有官事",
-              "translation_ko": "뱀이 누렇거나 희면 관재가 있다"
-            }
-          ]
-        },
-        {
-          "context": "뱀이 다가오고 새가 달려옴",
-          "interpretation_ko": "누군가 천거해 줄 조짐",
-          "interpretation_en": "a sign that someone will recommend you",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "鳥赴蛇來人引薦",
-              "translation_ko": "새가 달려오고 뱀이 오면 사람이 천거해 준다"
-            }
-          ]
-        },
-        {
-          "context": "거북과 뱀이 함께 있음",
-          "interpretation_ko": "재물이 생길 조짐",
-          "interpretation_en": "a sign that wealth will be produced",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "龜蛇相同主生財",
-              "translation_ko": "거북과 뱀이 함께 있으면 재물이 생긴다"
             }
           ]
         }
@@ -39733,6 +39749,109 @@
       ]
     },
     {
+      "id": "secret-order",
+      "term_ko": "비밀결사",
+      "term_en": "secret order",
+      "aliases": [
+        "비밀결사",
+        "비밀결사에",
+        "비밀결사의"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "비밀결사 꿈을 꿈",
+          "interpretation_ko": "예민하고 들뜬 기질을 가리키며, 실용적이고 이타적인 생각을 기르면 곧 떳떳한 즐거움과 바라던 문학적 명예를 얻을 기회가 생길 조짐",
+          "interpretation_en": "denotes a sensitive and excited organism, and the owner should cultivate practical and unselfish ideas and they may soon have opportunities for honest pleasures, and desired literary distinctions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Secret Order",
+              "original": "To dream of any secret order, denotes a sensitive and excited organism, and the owner should cultivate practical and unselfish ideas and they may soon have opportunities for honest pleasures, and desired literary distinctions.",
+              "translation_ko": "비밀결사 꿈은, 예민하고 들뜬 기질을 가리키며 실용적이고 이타적인 생각을 기르면 곧 떳떳한 즐거움과 바라던 문학적 명예를 얻을 기회가 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "비밀결사에 가입함",
+          "interpretation_ko": "이기적이고 속셈 있는 우정이 보일 조짐",
+          "interpretation_en": "there is a vision of selfish and designing friendships for one who joins a secret order",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Secret Order",
+              "original": "There is a vision of selfish and designing friendships for one who joins a secret order.",
+              "translation_ko": "비밀결사에 가입하는 꿈은, 이기적이고 속셈 있는 우정이 보일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 비밀결사 꿈을 꿈",
+          "interpretation_ko": "떳떳하지 못한 습관에 빠지지 않도록 후견인의 조언에 귀 기울여야 할 조짐",
+          "interpretation_en": "should heed the counsel of their guardians, lest they fall into discreditable habits after this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Secret Order",
+              "original": "Young women should heed the counsel of their guardians, lest they fall into discreditable habits after this dream.",
+              "translation_ko": "여성이 비밀결사 꿈을 꾸는 꿈은, 떳떳하지 못한 습관에 빠지지 않도록 후견인의 조언에 귀 기울여야 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 비밀결사의 수장을 만남",
+          "interpretation_ko": "화려하고 두드러지게 놓인 유혹에 맞서 힘과 도덕적 올바름으로 맞서야 할 조짐",
+          "interpretation_en": "she should oppose with energy and moral rectitude against allurements that are set brilliantly and prominently before those of her sex",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Secret Order",
+              "original": "If a young woman meets the head of the order, she should oppose with energy and moral rectitude against allurements that are set brilliantly and prominently before those of her sex.",
+              "translation_ko": "여성이 비밀결사의 수장을 만나는 꿈은, 화려하고 두드러지게 놓인 유혹에 맞서 힘과 도덕적 올바름으로 맞서야 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 어머니가 비밀결사에 가입했다고 여겨 맹세를 버리게 하려 애씀",
+          "interpretation_ko": "부모를 향한 사랑이 가득하지만, 생각 없는 불효로 그 마음을 아프게 할 조짐",
+          "interpretation_en": "denotes that she will be full of love for her parents, yet will wring their hearts with anguish by thoughtless disobedience",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Secret Order",
+              "original": "For her to think her mother has joined the order, and she is using her best efforts to have her mother repudiate her vows, denotes that she will be full of love for her parents, yet will wring their hearts with anguish by thoughtless disobedience.",
+              "translation_ko": "여성이 어머니가 비밀결사에 가입했다고 여겨 맹세를 버리게 하려 애쓰는 꿈은, 부모를 향한 사랑이 가득하지만 생각 없는 불효로 그 마음을 아프게 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "비밀결사의 수장이 죽었다고 보거나 들음",
+          "interpretation_ko": "심한 시련을 겪지만 결국 비교적 좋게 끝날 조짐",
+          "interpretation_en": "foretells severe strains, and trials will eventually end in comparative good",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Secret Order",
+              "original": "To see or hear that the leader is dead, foretells severe strains, and trials will eventually end in comparative good.",
+              "translation_ko": "비밀결사의 수장이 죽었다고 보거나 듣는 꿈은, 심한 시련을 겪지만 결국 비교적 좋게 끝날 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "stone",
       "term_ko": "돌",
       "term_en": "stone",
@@ -62160,6 +62279,84 @@
         }
       ],
       "label_ko": "학교(일반)"
+    },
+    {
+      "id": "seducer",
+      "term_ko": "유혹자",
+      "term_en": "seducer",
+      "aliases": [
+        "유혹자",
+        "유혹당했다",
+        "유혹했다",
+        "유혹당함",
+        "유혹함",
+        "유혹했"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여성이 유혹당함",
+          "interpretation_ko": "화려한 이들에게 쉽게 흔들릴 조짐",
+          "interpretation_en": "foretells that she will be easily influenced by showy persons",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Seducer",
+              "original": "For a young woman to dream of being seduced, foretells that she will be easily influenced by showy persons.",
+              "translation_ko": "여성이 유혹당하는 꿈은, 화려한 이들에게 쉽게 흔들릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남성이 처녀를 유혹함",
+          "interpretation_ko": "거짓 비난을 받을 이가 있으니 조심하라는 경고의 조짐",
+          "interpretation_en": "is a warning for him to be on his guard, as there are those who will falsely accuse him",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Seducer",
+              "original": "For a man to dream that he has seduced a girl, is a warning for him to be on his guard, as there are those who will falsely accuse him.",
+              "translation_ko": "남성이 처녀를 유혹하는 꿈은, 거짓 비난을 받을 이가 있으니 조심하라는 경고의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "연인이 그 제안에 충격받거나 화를 냄",
+          "interpretation_ko": "사랑하는 여인이 흠잡을 데 없는 사람임을 알게 될 조짐",
+          "interpretation_en": "he will find that the woman he loves is above reproach",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Seducer",
+              "original": "If his sweetheart appears shocked or angry under these proposals, he will find that the woman he loves is above reproach.",
+              "translation_ko": "연인이 그 제안에 충격받거나 화를 내는 꿈은, 사랑하는 여인이 흠잡을 데 없는 사람임을 알게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "연인이 그 제안에 응함",
+          "interpretation_ko": "그녀의 금전적 즐거움을 위해 이용당하고 있는 조짐",
+          "interpretation_en": "he is being used for her pecuniary pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Seducer",
+              "original": "If she consents, he is being used for her pecuniary pleasures.",
+              "translation_ko": "연인이 그 제안에 응하는 꿈은, 그녀의 금전적 즐거움을 위해 이용당하고 있는 조짐이다"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "silk",
@@ -104465,6 +104662,51 @@
       ]
     },
     {
+      "id": "serenade",
+      "term_ko": "세레나데",
+      "term_en": "serenade",
+      "aliases": [
+        "세레나데"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "세레나데를 들음",
+          "interpretation_ko": "멀리 있는 벗에게서 반가운 소식을 듣고, 바라던 일이 어긋나지 않을 조짐",
+          "interpretation_en": "you will have pleasant news from absent friends, and your anticipations will not fail you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Serenade",
+              "original": "To hear a serenade in your dream, you will have pleasant news from absent friends, and your anticipations will not fail you.",
+              "translation_ko": "세레나데를 듣는 꿈은, 멀리 있는 벗에게서 반가운 소식을 듣고 바라던 일이 어긋나지 않을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신이 세레나데를 부르는 이들 가운데 있음",
+          "interpretation_ko": "앞날에 즐거운 일이 많을 조짐",
+          "interpretation_en": "there are many delightful things in your future",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Serenade",
+              "original": "If you are one of the serenaders, there are many delightful things in your future.",
+              "translation_ko": "자신이 세레나데를 부르는 이들 가운데 있는 꿈은, 앞날에 즐거운 일이 많을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "shooting-an-arrow",
       "term_ko": "활쏘기",
       "term_en": "shooting an arrow",
@@ -117359,6 +117601,68 @@
               "locator": "Seaport",
               "original": "To dream of visiting a seaport, denotes that you will have opportunities of traveling and acquiring knowledge, but there will be some who will object to your anticipated tours.",
               "translation_ko": "항구도시를 방문하는 꿈은, 여행하고 견문을 넓힐 기회가 생기나 그 계획에 반대하는 이도 있을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seed",
+      "term_ko": "씨앗",
+      "term_en": "seed",
+      "aliases": [
+        "씨앗"
+      ],
+      "category": "nature",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "씨앗 꿈을 꿈",
+          "interpretation_ko": "당장은 조짐이 나빠 보여도 번영이 늘어날 조짐",
+          "interpretation_en": "foretells increasing prosperity, though present indications appear unfavorable",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Seed",
+              "original": "To dream of seed, foretells increasing prosperity, though present indications appear unfavorable.",
+              "translation_ko": "씨앗 꿈은, 당장은 조짐이 나빠 보여도 번영이 늘어날 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sentry",
+      "term_ko": "보초",
+      "term_en": "sentry",
+      "aliases": [
+        "보초"
+      ],
+      "category": "person",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "보초 꿈을 꿈",
+          "interpretation_ko": "다정한 보호자를 두고, 삶이 순탄히 흘러갈 조짐",
+          "interpretation_en": "denotes that you will have kind protectors, and your life will be smoothly conducted",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sentry",
+              "original": "To dream of a sentry, denotes that you will have kind protectors, and your life will be smoothly conducted.",
+              "translation_ko": "보초 꿈은, 다정한 보호자를 두고 삶이 순탄히 흘러갈 조짐이다"
             }
           ]
         }
