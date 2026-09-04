@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 236 — Sardonyx·Sash·Satan)
+// (지금 담긴 것: 배치 237 — Sausage·Saw·Sawdust·Scabbard·Scaffold)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +30,26 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "sardonyx", ctx: "사도닉스 꿈을 꿈", text: "사도닉스 꿈을 꾸었다" },
-  { id: "sardonyx", ctx: "여성이 사도닉스를 잃어버리거나 내버림", text: "여성이 사도닉스를 잃어버렸다" },
-  { id: "belt", ctx: "장식띠를 두름", text: "장식띠를 둘렀다" },
-  { id: "belt", ctx: "여성이 장식띠를 삼", text: "여성이 장식띠를 샀다" },
-  { id: "devil", ctx: "악마 꿈을 꿈", text: "악마 꿈을 꾸었다" },
-  { id: "devil", ctx: "악마를 죽임", text: "악마를 죽였다" },
-  { id: "devil", ctx: "악마가 문학의 모습으로 옴", text: "악마가 문학의 모습으로 왔다" },
-  { id: "devil", ctx: "악마가 부나 권력의 모습으로 옴", text: "악마가 부나 권력의 모습으로 왔다" },
-  { id: "devil", ctx: "악마가 음악의 모습으로 옴", text: "악마가 음악의 모습으로 왔다" },
-  { id: "devil", ctx: "악마가 아름다운 여인의 모습으로 옴", text: "악마가 아름다운 여인의 모습으로 왔다" },
-  { id: "devil", ctx: "악마로부터 자신을 지키려 함", text: "악마로부터 자신을 지키려 했다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(belt·devil)의 옛 답이 그대로인가
-  { id: "belt", ctx: "허리띠를 맴", text: "허리띠를 맸다" },
-  { id: "devil", ctx: "농사짓는 이가 악마를 봄", text: "농사짓는 이가 악마를 보았다" },
-  { id: "devil", ctx: "악마에게 쫓김", text: "악마에게 쫓겼다" },
+  { id: "sausage", ctx: "소시지를 만듦", text: "소시지를 만들었다" },
+  { id: "sausage", ctx: "소시지를 먹음", text: "소시지를 먹었다" },
+  { id: "saw", ctx: "톱을 손으로 사용함", text: "톱을 손으로 사용했다" },
+  { id: "saw", ctx: "기계 속 큰 톱들을 봄", text: "기계 속 큰 톱들을 보았다" },
+  { id: "saw", ctx: "여성이 기계 속 큰 톱들을 봄", text: "여성이 기계 속 큰 톱들을 보았다" },
+  { id: "saw", ctx: "녹슬거나 부러진 톱을 봄", text: "녹슬거나 부러진 톱을 보았다" },
+  { id: "saw", ctx: "톱을 잃어버림", text: "톱을 잃어버렸다" },
+  { id: "saw", ctx: "톱질 소리를 들음", text: "톱질 소리를 들었다" },
+  { id: "saw", ctx: "녹슨 톱을 찾음", text: "녹슨 톱을 찾았다" },
+  { id: "saw", ctx: "등에 톱을 짐", text: "등에 톱을 졌다" },
+  { id: "sawdust", ctx: "톱밥 꿈을 꿈", text: "톱밥 꿈을 꾸었다" },
+  { id: "scabbard", ctx: "칼집 꿈을 꿈", text: "칼집 꿈을 꾸었다" },
+  { id: "scabbard", ctx: "제 칼집이 어디 있는지 궁금해함", text: "제 칼집이 어디 있는지 궁금해했다" },
+  { id: "gallows", ctx: "처형대 꿈을 꿈", text: "처형대 꿈을 꾸었다" },
+  { id: "gallows", ctx: "처형대에 오름", text: "처형대에 올라 오해받고 비난받았다" },
+  { id: "gallows", ctx: "처형대에서 내려감", text: "처형대에서 내려갔다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(saw·gallows)의 옛 답이 그대로인가
+  { id: "saw", ctx: "톱을 봄", text: "톱을 보았다" },
+  { id: "gallows", ctx: "벗이 교수대에 오른 것을 봄", text: "벗이 교수대에 오른 것을 보았다" },
+  { id: "gallows", ctx: "제가 교수대에 오름", text: "내가 교수대에 올랐다" },
 ];
 
 let notFound = 0;

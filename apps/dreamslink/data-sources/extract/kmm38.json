@@ -118,7 +118,8 @@
       "목매달았다",
       "목매달아",
       "목을 매달았다",
-      "목맴"
+      "목맴",
+      "처형대"
     ],
     "aliases_en": [
       "the gallows",
@@ -130,7 +131,10 @@
       "처녀가 정인이 교수대에서 죽는 것을 봄": "처녀 정인 아가씨",
       "교수대에서 남을 구해 냄": "구해 구했 살려",
       "원수를 목매닮": "원수 목매 매달았",
-      "교수형을 보려고 사람들이 몰려듦": "몰려 모여든 구경꾼"
+      "교수형을 보려고 사람들이 몰려듦": "몰려 모여든 구경꾼",
+      "처형대 꿈을 꿈": "바라던애정 크게실망",
+      "처형대에 오름": "오해받 비난받 저지르지않은",
+      "처형대에서 내려감": "내려갔 잘못을저질 벌을받게"
     },
     "contexts_en": {
       "벗이 교수대에 오른 것을 봄": "friend execution emergencies calamity",
@@ -138,7 +142,10 @@
       "처녀가 정인이 교수대에서 죽는 것을 봄": "lover executed unscrupulous designing",
       "교수대에서 남을 구해 냄": "rescue desirable acquisitions",
       "원수를 목매닮": "hang enemy victory",
-      "교수형을 보려고 사람들이 몰려듦": "concourse gathering club demolish"
+      "교수형을 보려고 사람들이 몰려듦": "concourse gathering club demolish",
+      "처형대 꿈을 꿈": "keen disappointment affection",
+      "처형대에 오름": "misunderstood censured undeserved",
+      "처형대에서 내려감": "guilty wrongdoing penalty"
     }
   },
   {

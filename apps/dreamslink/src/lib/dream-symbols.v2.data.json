@@ -154,6 +154,7 @@
     "m234.json",
     "m235.json",
     "m236.json",
+    "m237.json",
     "m24.json",
     "m25.json",
     "m26.json",
@@ -21367,6 +21368,155 @@
       ]
     },
     {
+      "id": "gallows",
+      "term_ko": "교수대",
+      "term_en": "gallows",
+      "aliases": [
+        "교수대",
+        "교수형",
+        "목매달았다",
+        "목매달아",
+        "목을 매달았다",
+        "목맴",
+        "처형대"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "처형대 꿈을 꿈",
+          "interpretation_ko": "바라던 애정의 대상을 얻지 못해 크게 실망할 조짐",
+          "interpretation_en": "denotes that you will undergo keen disappointment in failing to secure the object of your affection",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scaffold",
+              "original": "To dream of a scaffold, denotes that you will undergo keen disappointment in failing to secure the object of your affection.",
+              "translation_ko": "처형대 꿈은, 바라던 애정의 대상을 얻지 못해 크게 실망할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처형대에 오름",
+          "interpretation_ko": "저지르지 않은 일로 벗들에게 오해받고 비난받을 조짐",
+          "interpretation_en": "you will be misunderstood and censured by your friends for some action, which you never committed",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scaffold",
+              "original": "To ascend one, you will be misunderstood and censured by your friends for some action, which you never committed.",
+              "translation_ko": "처형대에 오르는 꿈은, 저지르지 않은 일로 벗들에게 오해받고 비난받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처형대에서 내려감",
+          "interpretation_ko": "잘못을 저질러 그 벌을 받게 될 조짐",
+          "interpretation_en": "you will be guilty of wrong doing, and you will suffer the penalty",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scaffold",
+              "original": "To decend one, you will be guilty of wrong doing, and you will suffer the penalty.",
+              "translation_ko": "처형대에서 내려가는 꿈은, 잘못을 저질러 그 벌을 받게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벗이 교수대에 오른 것을 봄",
+          "interpretation_ko": "다급한 고비를 결단으로 넘겨야 하며 그러지 못하면 큰 화가 닥칠 흉한 조짐",
+          "interpretation_en": "foretells that desperate emergencies must be met with decision, or a great calamity will befall you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "To dream of seeing a friend on the gallows of execution, foretells that desperate emergencies must be met with decision, or a great calamity will befall you.",
+              "translation_ko": "벗이 교수대에 오른 것을 보는 꿈은, 다급한 고비를 결단으로 맞아야 하고 그러지 않으면 큰 화가 닥침을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "제가 교수대에 오름",
+          "interpretation_ko": "거짓된 벗들의 모진 마음 때문에 시달릴 흉한 조짐",
+          "interpretation_en": "denotes that you will suffer from the maliciousness of false friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "To dream that you are on a gallows, denotes that you will suffer from the maliciousness of false friends.",
+              "translation_ko": "제가 교수대에 오른 꿈은, 거짓된 벗들의 모진 마음에 시달림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 정인이 교수대에서 죽는 것을 봄",
+          "interpretation_ko": "속셈이 검은 사람과 짝을 맺을 흉한 조짐",
+          "interpretation_en": "denotes that she will marry an unscrupulous and designing man",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "For a young woman to dream that she sees her lover executed by this means, denotes that she will marry an unscrupulous and designing man.",
+              "translation_ko": "처녀가 정인이 이렇게 죽는 것을 보는 꿈은, 속셈이 검은 사람과 짝을 맺음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "교수대에서 남을 구해 냄",
+          "interpretation_ko": "바라던 것을 손에 넣을 길한 조짐",
+          "interpretation_en": "it portends desirable acquisitions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "If you rescue any one from the gallows, it portends desirable acquisitions.",
+              "translation_ko": "교수대에서 누군가를 구해 내면, 바라던 것을 얻음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "원수를 목매닮",
+          "interpretation_ko": "모든 자리에서 이길 길한 조짐",
+          "interpretation_en": "denotes victory in all spheres",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "To dream that you hang an enemy, denotes victory in all spheres.",
+              "translation_ko": "원수를 목매다는 꿈은, 모든 자리에서의 이김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "교수형을 보려고 사람들이 몰려듦",
+          "interpretation_ko": "여러 원수가 한데 뭉쳐 내 자리를 무너뜨리려 할 흉한 조짐",
+          "interpretation_en": "denotes that many enemies will club together to try to demolish your position",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hanging",
+              "original": "To see a large concourse of people gathering at a hanging, denotes that many enemies will club together to try to demolish your position in their midst.",
+              "translation_ko": "교수형에 사람들이 크게 몰려드는 것을 보면, 여러 원수가 한데 뭉쳐 내 자리를 무너뜨리려 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "goose",
       "term_ko": "거위",
       "term_en": "goose",
@@ -22542,6 +22692,154 @@
               "locator": "船車遊行物件",
               "original": "乘船渡江河得官",
               "translation_ko": "배를 타고 강을 건너면 벼슬을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saw",
+      "term_ko": "톱",
+      "term_en": "saw",
+      "aliases": [
+        "톱날",
+        "실톱",
+        "전기톱",
+        "톱질",
+        "톱들"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "톱을 봄",
+          "interpretation_ko": "끊고 결단할 일이 생길 조짐",
+          "interpretation_en": "a sign that a matter must be cut off and decided",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "鋸主有斷決之事",
+              "translation_ko": "톱은 끊어 결단할 일이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "톱을 손으로 사용함",
+          "interpretation_ko": "활기차고 바쁜 시간과 명랑한 가정생활을 가리키는 조짐",
+          "interpretation_en": "indicates an energetic and busy time, and cheerful home life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Saw",
+              "original": "To dream that you use a hand-saw, indicates an energetic and busy time, and cheerful home life.",
+              "translation_ko": "톱을 손으로 사용하는 꿈은, 활기차고 바쁜 시간과 명랑한 가정생활을 가리키는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 기계 속 큰 톱들을 봄",
+          "interpretation_ko": "존경받고 자신의 조언이 받아들여질 조짐",
+          "interpretation_en": "denotes that she will be esteemed, and her counsels will be heeded",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Saw",
+              "original": "For a woman, this dream denotes that she will be esteemed, and her counsels will be heeded.",
+              "translation_ko": "여성이 기계 속 큰 톱들을 보는 꿈은, 존경받고 자신의 조언이 받아들여질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "기계 속 큰 톱들을 봄",
+          "interpretation_ko": "큰 사업을 지휘하고, 그 사업이 좋은 성과를 낼 조짐",
+          "interpretation_en": "foretells that you will superintend a big enterprise, and the same will yield fair returns",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Saw",
+              "original": "To see big saws in machinery, foretells that you will superintend a big enterprise, and the same will yield fair returns.",
+              "translation_ko": "기계 속 큰 톱들을 보는 꿈은, 큰 사업을 지휘하고 그 사업이 좋은 성과를 낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "녹슬거나 부러진 톱을 봄",
+          "interpretation_ko": "실패와 사고의 조짐",
+          "interpretation_en": "denotes failure and accidents",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Saw",
+              "original": "To dream of rusty or broken saws, denotes failure and accidents.",
+              "translation_ko": "녹슬거나 부러진 톱을 보는 꿈은, 실패와 사고의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "톱을 잃어버림",
+          "interpretation_ko": "재앙으로 끝날 일에 휘말릴 조짐",
+          "interpretation_en": "you will engage in affairs which will culminate in disaster",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Saw",
+              "original": "To lose a saw, you will engage in affairs which will culminate in disaster.",
+              "translation_ko": "톱을 잃어버리는 꿈은, 재앙으로 끝날 일에 휘말릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "톱질 소리를 들음",
+          "interpretation_ko": "검약과 번영의 조짐",
+          "interpretation_en": "indicates thrift and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Saw",
+              "original": "To hear the buzz of a saw, indicates thrift and prosperity.",
+              "translation_ko": "톱질 소리를 듣는 꿈은, 검약과 번영의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "녹슨 톱을 찾음",
+          "interpretation_ko": "재산을 되찾을 조짐",
+          "interpretation_en": "denotes that you will probably restore your fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Saw",
+              "original": "To find a rusty saw, denotes that you will probably restore your fortune.",
+              "translation_ko": "녹슨 톱을 찾는 꿈은, 재산을 되찾을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "등에 톱을 짐",
+          "interpretation_ko": "크지만 수익성 있는 책임을 짊어질 조짐",
+          "interpretation_en": "foretells that you will carry large, but profitable, responsibilities",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Saw",
+              "original": "To carry a saw on your back, foretells that you will carry large, but profitable, responsibilities.",
+              "translation_ko": "등에 톱을 지는 꿈은, 크지만 수익성 있는 책임을 짊어질 조짐이다"
             }
           ]
         }
@@ -34539,112 +34837,6 @@
               "locator": "Frogs",
               "original": "To hear frogs, portends that you will go on a visit to friends, but it will in the end prove fruitless of good.",
               "translation_ko": "개구리 소리를 듣는 꿈은, 벗을 찾아가게 되나 끝내 얻는 것이 없음을 알린다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "gallows",
-      "term_ko": "교수대",
-      "term_en": "gallows",
-      "aliases": [
-        "교수대",
-        "교수형",
-        "목매달았다",
-        "목매달아",
-        "목을 매달았다",
-        "목맴"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "벗이 교수대에 오른 것을 봄",
-          "interpretation_ko": "다급한 고비를 결단으로 넘겨야 하며 그러지 못하면 큰 화가 닥칠 흉한 조짐",
-          "interpretation_en": "foretells that desperate emergencies must be met with decision, or a great calamity will befall you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "To dream of seeing a friend on the gallows of execution, foretells that desperate emergencies must be met with decision, or a great calamity will befall you.",
-              "translation_ko": "벗이 교수대에 오른 것을 보는 꿈은, 다급한 고비를 결단으로 맞아야 하고 그러지 않으면 큰 화가 닥침을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "제가 교수대에 오름",
-          "interpretation_ko": "거짓된 벗들의 모진 마음 때문에 시달릴 흉한 조짐",
-          "interpretation_en": "denotes that you will suffer from the maliciousness of false friends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "To dream that you are on a gallows, denotes that you will suffer from the maliciousness of false friends.",
-              "translation_ko": "제가 교수대에 오른 꿈은, 거짓된 벗들의 모진 마음에 시달림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 정인이 교수대에서 죽는 것을 봄",
-          "interpretation_ko": "속셈이 검은 사람과 짝을 맺을 흉한 조짐",
-          "interpretation_en": "denotes that she will marry an unscrupulous and designing man",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "For a young woman to dream that she sees her lover executed by this means, denotes that she will marry an unscrupulous and designing man.",
-              "translation_ko": "처녀가 정인이 이렇게 죽는 것을 보는 꿈은, 속셈이 검은 사람과 짝을 맺음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "교수대에서 남을 구해 냄",
-          "interpretation_ko": "바라던 것을 손에 넣을 길한 조짐",
-          "interpretation_en": "it portends desirable acquisitions",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "If you rescue any one from the gallows, it portends desirable acquisitions.",
-              "translation_ko": "교수대에서 누군가를 구해 내면, 바라던 것을 얻음을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "원수를 목매닮",
-          "interpretation_ko": "모든 자리에서 이길 길한 조짐",
-          "interpretation_en": "denotes victory in all spheres",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "To dream that you hang an enemy, denotes victory in all spheres.",
-              "translation_ko": "원수를 목매다는 꿈은, 모든 자리에서의 이김을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "교수형을 보려고 사람들이 몰려듦",
-          "interpretation_ko": "여러 원수가 한데 뭉쳐 내 자리를 무너뜨리려 할 흉한 조짐",
-          "interpretation_en": "denotes that many enemies will club together to try to demolish your position",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Hanging",
-              "original": "To see a large concourse of people gathering at a hanging, denotes that many enemies will club together to try to demolish your position in their midst.",
-              "translation_ko": "교수형에 사람들이 크게 몰려드는 것을 보면, 여러 원수가 한데 뭉쳐 내 자리를 무너뜨리려 한다"
             }
           ]
         }
@@ -103361,6 +103553,96 @@
       ]
     },
     {
+      "id": "sausage",
+      "term_ko": "소시지",
+      "term_en": "sausage",
+      "aliases": [
+        "소시지"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "소시지를 만듦",
+          "interpretation_ko": "여러 일에서 성공을 거둘 조짐",
+          "interpretation_en": "denotes that you will be successful in many undertakings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sausage",
+              "original": "To dream of making sausage, denotes that you will be successful in many undertakings.",
+              "translation_ko": "소시지를 만드는 꿈은, 여러 일에서 성공을 거둘 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "소시지를 먹음",
+          "interpretation_ko": "소박하지만 즐거운 가정을 이룰 조짐",
+          "interpretation_en": "you will have a humble, but pleasant home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sausage",
+              "original": "To eat them, you will have a humble, but pleasant home.",
+              "translation_ko": "소시지를 먹는 꿈은, 소박하지만 즐거운 가정을 이룰 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scabbard",
+      "term_ko": "칼집",
+      "term_en": "scabbard",
+      "aliases": [
+        "칼집"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "칼집 꿈을 꿈",
+          "interpretation_ko": "오해가 원만히 풀릴 조짐",
+          "interpretation_en": "denotes some misunderstanding will be amicably settled",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scabbard",
+              "original": "To dream of a scabbard, denotes some misunderstanding will be amicably settled.",
+              "translation_ko": "칼집 꿈은, 오해가 원만히 풀릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제 칼집이 어디 있는지 궁금해함",
+          "interpretation_ko": "감당하기 힘든 어려움을 마주할 조짐",
+          "interpretation_en": "you will have overpowering difficulties to meet",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scabbard",
+              "original": "If you wonder where your scabbard can be, you will have overpowering difficulties to meet.",
+              "translation_ko": "제 칼집이 어디 있는지 궁금해하는 꿈은, 감당하기 힘든 어려움을 마주할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "seal",
       "term_ko": "도장",
       "term_en": "seal",
@@ -116027,34 +116309,31 @@
       ]
     },
     {
-      "id": "saw",
-      "term_ko": "톱",
-      "term_en": "saw",
+      "id": "sawdust",
+      "term_ko": "톱밥",
+      "term_en": "sawdust",
       "aliases": [
-        "톱날",
-        "실톱",
-        "전기톱",
-        "톱질"
+        "톱밥"
       ],
       "category": "object",
-      "polarity": "neutral",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "톱을 봄",
-          "interpretation_ko": "끊고 결단할 일이 생길 조짐",
-          "interpretation_en": "a sign that a matter must be cut off and decided",
-          "polarity": "neutral",
+          "context": "톱밥 꿈을 꿈",
+          "interpretation_ko": "중대한 실수가 고통과 가정 불화를 부를 조짐",
+          "interpretation_en": "signifies that grievous mistakes will cause you distress and quarreling in your home",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "鋸主有斷決之事",
-              "translation_ko": "톱은 끊어 결단할 일이 있을 조짐이다"
+              "work": "miller",
+              "locator": "Sawdust",
+              "original": "To dream of sawdust, signifies that grievous mistakes will cause you distress and quarreling in your home.",
+              "translation_ko": "톱밥 꿈은, 중대한 실수가 고통과 가정 불화를 부를 조짐이다"
             }
           ]
         }

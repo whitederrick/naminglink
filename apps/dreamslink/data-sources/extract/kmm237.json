@@ -1,0 +1,49 @@
+[
+  {
+    "id": "sausage",
+    "aliases": [
+      "소시지"
+    ],
+    "aliases_en": [
+      "sausage",
+      "sausages"
+    ],
+    "contexts": {
+      "소시지를 만듦": "만드는 만들었 성공을거둘",
+      "소시지를 먹음": "먹는 먹었 소박하지만"
+    },
+    "contexts_en": {
+      "소시지를 만듦": "making successful undertakings",
+      "소시지를 먹음": "eat humble pleasant"
+    }
+  },
+  {
+    "id": "sawdust",
+    "aliases": [
+      "톱밥"
+    ],
+    "aliases_en": [
+      "sawdust"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "scabbard",
+    "aliases": [
+      "칼집"
+    ],
+    "aliases_en": [
+      "a scabbard",
+      "scabbards"
+    ],
+    "contexts": {
+      "칼집 꿈을 꿈": "오해가 원만히풀릴",
+      "제 칼집이 어디 있는지 궁금해함": "궁금해 감당하기힘든 어려움을"
+    },
+    "contexts_en": {
+      "칼집 꿈을 꿈": "misunderstanding amicably settled",
+      "제 칼집이 어디 있는지 궁금해함": "wonder overpowering difficulties"
+    }
+  }
+]

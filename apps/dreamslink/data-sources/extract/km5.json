@@ -1215,15 +1215,36 @@
       "톱날",
       "실톱",
       "전기톱",
-      "톱질"
+      "톱질",
+      "톱들"
     ],
     "aliases_en": [
       "handsaw",
       "sawblade",
       "sawing"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "기계 속 큰 톱들을 봄": "기계 큰사업 지휘하고",
+      "여성이 기계 속 큰 톱들을 봄": "여성이 존경받고 조언",
+      "녹슬거나 부러진 톱을 봄": "녹슬거나 부러진 실패와사고",
+      "톱을 잃어버림": "잃어버 재앙으로 휘말릴",
+      "톱질 소리를 들음": "톱질 소리를들 검약과번영",
+      "녹슨 톱을 찾음": "찾는 찾았 재산을되찾",
+      "등에 톱을 짐": "등에 짊어질 크지만수익성",
+      "톱을 봄": "끊고결단할",
+      "톱을 손으로 사용함": "손으로 활기차고 명랑한"
+    },
+    "contexts_en": {
+      "기계 속 큰 톱들을 봄": "machinery enterprise superintend",
+      "여성이 기계 속 큰 톱들을 봄": "woman esteemed counsels",
+      "녹슬거나 부러진 톱을 봄": "rusty broken failure accidents",
+      "톱을 잃어버림": "lose disaster culminate",
+      "톱질 소리를 들음": "buzz thrift prosperity",
+      "녹슨 톱을 찾음": "find restore fortune",
+      "등에 톱을 짐": "carry back responsibilities",
+      "톱을 봄": "cut off decided",
+      "톱을 손으로 사용함": "energetic busy cheerful"
+    }
   },
   {
     "id": "soldier",
