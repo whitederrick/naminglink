@@ -145,6 +145,7 @@
     "m226.json",
     "m227.json",
     "m228.json",
+    "m229.json",
     "m23.json",
     "m24.json",
     "m25.json",
@@ -10070,6 +10071,239 @@
       ]
     },
     {
+      "id": "chicken",
+      "term_ko": "닭",
+      "term_en": "chicken",
+      "aliases": [
+        "수탉",
+        "암탉",
+        "병아리",
+        "닭들",
+        "살아있는 가금",
+        "수탉들"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "병아리 떼를 봄",
+          "interpretation_ko": "여러 근심에서 걱정이 오나 그중 얼마는 이문이 될 조짐",
+          "interpretation_en": "worry from many cares, some of which will prove to your profit",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Chickens",
+              "original": "To dream of seeing a brood of chickens, denotes worry from many cares, some of which of which will prove to your profit.",
+              "translation_ko": "병아리 떼를 보는 꿈은 여러 근심에서 오는 걱정을 뜻하나, 그중 얼마는 이문이 된다"
+            }
+          ]
+        },
+        {
+          "context": "덜 자란 닭을 봄",
+          "interpretation_ko": "잘될 일이 있으나 그리 되려면 제 힘을 다해야 할 조짐",
+          "interpretation_en": "fortunate enterprises, but to make them so you will have to exert your physical strength",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Chickens",
+              "original": "Young or half grown chickens, signify fortunate enterprises, but to make them so you will have to exert your physical strength.",
+              "translation_ko": "어리거나 덜 자란 닭은 잘될 일을 뜻하나, 그리 되게 하려면 제 힘을 다해야 한다"
+            }
+          ]
+        },
+        {
+          "context": "닭들이 홰에 오르는 것을 봄",
+          "interpretation_ko": "적들이 나를 해칠 궁리를 하고 있을 조짐",
+          "interpretation_en": "enemies are planning to work you evil",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Chickens",
+              "original": "To see chickens going to roost, enemies are planning to work you evil.",
+              "translation_ko": "닭들이 홰에 오르는 것을 보면 적들이 나를 해칠 궁리를 하고 있다"
+            }
+          ]
+        },
+        {
+          "context": "닭을 잡아먹음",
+          "interpretation_ko": "이기심 때문에 좋던 이름이 깎이고, 일과 사랑이 위태로울 조짐",
+          "interpretation_en": "selfishness will detract from your otherwise good name; business and love will remain in precarious states",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Chickens",
+              "original": "To eat them, denotes that selfishness will detract from your otherwise good name.  Business and love will remain in precarious states.",
+              "translation_ko": "닭을 먹으면 이기심 때문에 좋던 이름이 깎인다. 일과 사랑은 위태로운 채로 있다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 살아있는 가금을 뒤쫓음",
+          "interpretation_ko": "부질없는 쾌락에 값진 시간을 쓸 조짐",
+          "interpretation_en": "foretells she will devote valuable time to frivolous pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Poultry",
+              "original": "For a young woman to dream that she is chasing live poultry, foretells she will devote valuable time to frivolous pleasure.",
+              "translation_ko": "처녀가 살아있는 가금을 뒤쫓는 꿈은, 부질없는 쾌락에 값진 시간을 쓸 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "수탉들이 싸우는 것을 봄",
+          "interpretation_ko": "다툼과 경쟁자를 만날 조짐",
+          "interpretation_en": "foretells altercations and rivals",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rooster",
+              "original": "To see roosters fighting, foretells altercations and rivals.",
+              "translation_ko": "수탉들이 싸우는 것을 보는 꿈은, 다툼과 경쟁자를 만날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "수탉 꿈을 꿈",
+          "interpretation_ko": "크게 성공하여 이름을 떨치나, 그 성공에 우쭐해질 조짐",
+          "interpretation_en": "foretells that you will be very successful and rise to prominence, but you will allow yourself to become conceited over your fortunate rise",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rooster",
+              "original": "To dream of a rooster, foretells that you will be very successful and rise to prominence, but you will allow yourself to become conceited over your fortunate rise.",
+              "translation_ko": "수탉 꿈은, 크게 성공하여 이름을 떨치나 그 성공에 우쭐해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "닭을 봄",
+          "interpretation_ko": "한동안 시름겹거나 몸이 앓을 흉한 조짐",
+          "interpretation_en": "denotes temporary worry or illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fowl",
+              "original": "To dream of seeing fowls, denotes temporary worry or illness.",
+              "translation_ko": "닭을 보는 꿈은 한동안의 시름이나 앓음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 닭을 봄",
+          "interpretation_ko": "잠시 앓거나 벗과 뜻이 어긋날 흉한 조짐",
+          "interpretation_en": "indicates a short illness or disagreement with her friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fowl",
+              "original": "For a woman to dream of fowls, indicates a short illness or disagreement with her friends.",
+              "translation_ko": "여성이 닭을 보는 꿈은, 잠시 앓거나 벗과 뜻이 어긋남을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "암탉을 봄",
+          "interpretation_ko": "식구가 늘어 즐거운 모임이 있을 길한 조짐",
+          "interpretation_en": "denotes pleasant family reunions with added members",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hen",
+              "original": "To dream of hens, denotes pleasant family reunions with added members.",
+              "translation_ko": "암탉 꿈은, 식구가 늘어 즐거운 모임이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "닭을 씻김",
+          "interpretation_ko": "벼슬을 얻을 조짐",
+          "interpretation_en": "a sign of gaining office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "洗雞得官鳴口舌",
+              "translation_ko": "닭을 씻으면 벼슬을 얻고 닭이 울면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "닭이 욺",
+          "interpretation_ko": "구설수가 있을 조짐",
+          "interpretation_en": "a sign of quarrels and gossip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "洗雞得官鳴口舌",
+              "translation_ko": "닭을 씻으면 벼슬을 얻고 닭이 울면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "닭이 알을 품음",
+          "interpretation_ko": "큰 기쁨이 있을 조짐",
+          "interpretation_en": "a sign of great joy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "雞抱卵主有大喜",
+              "translation_ko": "닭이 알을 품으면 큰 기쁨이 있다"
+            }
+          ]
+        },
+        {
+          "context": "닭이 나무 위에 있음",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "雞在樹上主得財",
+              "translation_ko": "닭이 나무 위에 있으면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "닭을 잡음",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺雞鵝鴨主大吉",
+              "translation_ko": "닭과 거위와 오리를 잡으면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "clergyman",
       "term_ko": "목사",
       "term_en": "clergyman",
@@ -12510,210 +12744,6 @@
               "locator": "被害鬥傷打罵",
               "original": "炙身見血流大吉",
               "translation_ko": "몸을 지져 피가 흐르는 것을 보면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "chicken",
-      "term_ko": "닭",
-      "term_en": "chicken",
-      "aliases": [
-        "수탉",
-        "암탉",
-        "병아리",
-        "닭들",
-        "살아있는 가금"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "병아리 떼를 봄",
-          "interpretation_ko": "여러 근심에서 걱정이 오나 그중 얼마는 이문이 될 조짐",
-          "interpretation_en": "worry from many cares, some of which will prove to your profit",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Chickens",
-              "original": "To dream of seeing a brood of chickens, denotes worry from many cares, some of which of which will prove to your profit.",
-              "translation_ko": "병아리 떼를 보는 꿈은 여러 근심에서 오는 걱정을 뜻하나, 그중 얼마는 이문이 된다"
-            }
-          ]
-        },
-        {
-          "context": "덜 자란 닭을 봄",
-          "interpretation_ko": "잘될 일이 있으나 그리 되려면 제 힘을 다해야 할 조짐",
-          "interpretation_en": "fortunate enterprises, but to make them so you will have to exert your physical strength",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Chickens",
-              "original": "Young or half grown chickens, signify fortunate enterprises, but to make them so you will have to exert your physical strength.",
-              "translation_ko": "어리거나 덜 자란 닭은 잘될 일을 뜻하나, 그리 되게 하려면 제 힘을 다해야 한다"
-            }
-          ]
-        },
-        {
-          "context": "닭들이 홰에 오르는 것을 봄",
-          "interpretation_ko": "적들이 나를 해칠 궁리를 하고 있을 조짐",
-          "interpretation_en": "enemies are planning to work you evil",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Chickens",
-              "original": "To see chickens going to roost, enemies are planning to work you evil.",
-              "translation_ko": "닭들이 홰에 오르는 것을 보면 적들이 나를 해칠 궁리를 하고 있다"
-            }
-          ]
-        },
-        {
-          "context": "닭을 잡아먹음",
-          "interpretation_ko": "이기심 때문에 좋던 이름이 깎이고, 일과 사랑이 위태로울 조짐",
-          "interpretation_en": "selfishness will detract from your otherwise good name; business and love will remain in precarious states",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Chickens",
-              "original": "To eat them, denotes that selfishness will detract from your otherwise good name.  Business and love will remain in precarious states.",
-              "translation_ko": "닭을 먹으면 이기심 때문에 좋던 이름이 깎인다. 일과 사랑은 위태로운 채로 있다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 살아있는 가금을 뒤쫓음",
-          "interpretation_ko": "부질없는 쾌락에 값진 시간을 쓸 조짐",
-          "interpretation_en": "foretells she will devote valuable time to frivolous pleasure",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Poultry",
-              "original": "For a young woman to dream that she is chasing live poultry, foretells she will devote valuable time to frivolous pleasure.",
-              "translation_ko": "처녀가 살아있는 가금을 뒤쫓는 꿈은, 부질없는 쾌락에 값진 시간을 쓸 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "닭을 봄",
-          "interpretation_ko": "한동안 시름겹거나 몸이 앓을 흉한 조짐",
-          "interpretation_en": "denotes temporary worry or illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fowl",
-              "original": "To dream of seeing fowls, denotes temporary worry or illness.",
-              "translation_ko": "닭을 보는 꿈은 한동안의 시름이나 앓음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 닭을 봄",
-          "interpretation_ko": "잠시 앓거나 벗과 뜻이 어긋날 흉한 조짐",
-          "interpretation_en": "indicates a short illness or disagreement with her friends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fowl",
-              "original": "For a woman to dream of fowls, indicates a short illness or disagreement with her friends.",
-              "translation_ko": "여성이 닭을 보는 꿈은, 잠시 앓거나 벗과 뜻이 어긋남을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "암탉을 봄",
-          "interpretation_ko": "식구가 늘어 즐거운 모임이 있을 길한 조짐",
-          "interpretation_en": "denotes pleasant family reunions with added members",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Hen",
-              "original": "To dream of hens, denotes pleasant family reunions with added members.",
-              "translation_ko": "암탉 꿈은, 식구가 늘어 즐거운 모임이 있음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "닭을 씻김",
-          "interpretation_ko": "벼슬을 얻을 조짐",
-          "interpretation_en": "a sign of gaining office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "洗雞得官鳴口舌",
-              "translation_ko": "닭을 씻으면 벼슬을 얻고 닭이 울면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "닭이 욺",
-          "interpretation_ko": "구설수가 있을 조짐",
-          "interpretation_en": "a sign of quarrels and gossip",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "洗雞得官鳴口舌",
-              "translation_ko": "닭을 씻으면 벼슬을 얻고 닭이 울면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "닭이 알을 품음",
-          "interpretation_ko": "큰 기쁨이 있을 조짐",
-          "interpretation_en": "a sign of great joy",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "雞抱卵主有大喜",
-              "translation_ko": "닭이 알을 품으면 큰 기쁨이 있다"
-            }
-          ]
-        },
-        {
-          "context": "닭이 나무 위에 있음",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "雞在樹上主得財",
-              "translation_ko": "닭이 나무 위에 있으면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "닭을 잡음",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺雞鵝鴨主大吉",
-              "translation_ko": "닭과 거위와 오리를 잡으면 크게 길하다"
             }
           ]
         }
@@ -38290,6 +38320,110 @@
       ]
     },
     {
+      "id": "roof",
+      "term_ko": "지붕",
+      "term_en": "roof",
+      "aliases": [
+        "옥상",
+        "기와",
+        "처마"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "지붕 위에 있는 자신을 발견함",
+          "interpretation_ko": "한없는 성공을 거둘 조짐",
+          "interpretation_en": "denotes unbounded success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Roof",
+              "original": "To find yourself on a roof in a dream, denotes unbounded success.",
+              "translation_ko": "지붕 위에 있는 자신을 발견하는 꿈은, 한없는 성공을 거둘 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지붕에서 겁에 질려 떨어진다고 생각함",
+          "interpretation_ko": "나아가더라도 제자리를 굳건히 지키지 못할 조짐",
+          "interpretation_en": "signifies that, while you may advance, you will have no firm hold on your position",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Roof",
+              "original": "To become frightened and think you are falling, signifies that, while you may advance, you will have no firm hold on your position.",
+              "translation_ko": "지붕에서 겁에 질려 떨어진다고 생각하는 꿈은, 나아가더라도 제자리를 굳건히 지키지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지붕이 무너져 내리는 것을 봄",
+          "interpretation_ko": "갑작스러운 재앙에 위협받을 조짐",
+          "interpretation_en": "you will be threatened with a sudden calamity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Roof",
+              "original": "To see a roof falling in, you will be threatened with a sudden calamity.",
+              "translation_ko": "지붕이 무너져 내리는 것을 보는 꿈은, 갑작스러운 재앙에 위협받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지붕을 고치거나 지음",
+          "interpretation_ko": "재산이 빠르게 불어날 조짐",
+          "interpretation_en": "you will rapidly increase your fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Roof",
+              "original": "To repair, or build a roof, you will rapidly increase your fortune.",
+              "translation_ko": "지붕을 고치거나 짓는 꿈은, 재산이 빠르게 불어날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지붕 위에서 잠을 잠",
+          "interpretation_ko": "적과 거짓 벗들로부터 안전하고 건강이 튼튼할 조짐",
+          "interpretation_en": "proclaims your security against enemies and false companions. Your health will be robust",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Roof",
+              "original": "To sleep on one, proclaims your security against enemies and false companions. Your health will be robust.",
+              "translation_ko": "지붕 위에서 잠을 자는 꿈은, 적과 거짓 벗들로부터 안전하고 건강이 튼튼할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지붕 위에 올라섬",
+          "interpretation_ko": "높은 벼슬을 얻을 조짐",
+          "interpretation_en": "a sign of gaining high office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "登天上屋得高官",
+              "translation_ko": "하늘에 올라 지붕 위에 오르면 높은 벼슬을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "stone",
       "term_ko": "돌",
       "term_en": "stone",
@@ -46740,6 +46874,103 @@
               "locator": "金銀珠玉絹帛",
               "original": "得金玉環生貴子",
               "translation_ko": "금과 옥으로 된 고리를 얻으면 귀한 자식을 낳는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rope",
+      "term_ko": "밧줄",
+      "term_en": "rope",
+      "aliases": [
+        "동아줄",
+        "새끼줄",
+        "포승줄",
+        "로프"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "밧줄이 몸을 묶음",
+          "interpretation_ko": "오래 살고 길할 조짐",
+          "interpretation_en": "a sign of long life and good fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "身體面目齒髮",
+              "original": "繩索繫身長命吉",
+              "translation_ko": "밧줄이 몸을 묶으면 오래 살고 길하다"
+            },
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "繩索繫身大吉利",
+              "translation_ko": "밧줄로 몸이 묶이면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "밧줄을 타고 오름",
+          "interpretation_ko": "자신을 해치려는 적들을 이겨낼 조짐",
+          "interpretation_en": "you will overcome enemies who are working to injure you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ropes",
+              "original": "If you climb one, you will overcome enemies who are working to injure you.",
+              "translation_ko": "밧줄을 타고 오르는 꿈은, 자신을 해치려는 적들을 이겨낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "밧줄을 타고 내려감",
+          "interpretation_ko": "가장 낙관하던 순간에 실망을 맛볼 조짐",
+          "interpretation_en": "brings disappointment to your most sanguine moments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ropes",
+              "original": "To decend{sic} a rope, brings disappointment to your most sanguine moments.",
+              "translation_ko": "밧줄을 타고 내려가는 꿈은, 가장 낙관하던 순간에 실망을 맛볼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "밧줄을 봄",
+          "interpretation_ko": "오래 살고 크게 길할 조짐",
+          "interpretation_en": "a very auspicious sign of long life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "繩索主長命大吉",
+              "translation_ko": "밧줄은 목숨이 길고 크게 길할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "밧줄이 끊어짐",
+          "interpretation_ko": "흉악한 일이 생길 조짐",
+          "interpretation_en": "a sign that a grievous matter will arise",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "繩索斷者主凶惡",
+              "translation_ko": "밧줄이 끊어지면 흉악하다"
             }
           ]
         }
@@ -76328,74 +76559,6 @@
       ]
     },
     {
-      "id": "rope",
-      "term_ko": "밧줄",
-      "term_en": "rope",
-      "aliases": [
-        "동아줄",
-        "새끼줄",
-        "포승줄",
-        "로프"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "밧줄이 몸을 묶음",
-          "interpretation_ko": "오래 살고 길할 조짐",
-          "interpretation_en": "a sign of long life and good fortune",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "身體面目齒髮",
-              "original": "繩索繫身長命吉",
-              "translation_ko": "밧줄이 몸을 묶으면 오래 살고 길하다"
-            },
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "繩索繫身大吉利",
-              "translation_ko": "밧줄로 몸이 묶이면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "밧줄을 봄",
-          "interpretation_ko": "오래 살고 크게 길할 조짐",
-          "interpretation_en": "a very auspicious sign of long life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "繩索主長命大吉",
-              "translation_ko": "밧줄은 목숨이 길고 크게 길할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "밧줄이 끊어짐",
-          "interpretation_ko": "흉악한 일이 생길 조짐",
-          "interpretation_en": "a sign that a grievous matter will arise",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "繩索斷者主凶惡",
-              "translation_ko": "밧줄이 끊어지면 흉악하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "scissors",
       "term_ko": "가위",
       "term_en": "scissors",
@@ -101547,6 +101710,99 @@
       ]
     },
     {
+      "id": "rook",
+      "term_ko": "떼까마귀",
+      "term_en": "rook",
+      "aliases": [
+        "떼까마귀"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "떼까마귀 꿈을 꿈",
+          "interpretation_ko": "벗들이 진실하더라도, 그들의 소박한 생각으로는 바라는 즐거움과 만족을 채워 주지 못할 조짐",
+          "interpretation_en": "denotes that while your friends are true, they will not afford you the pleasure and contentment for which you long, as your thoughts and tastes will outstrip their humble conception of life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rooks",
+              "original": "To dream of rooks, denotes that while your friends are true, they will not afford you the pleasure and contentment for which you long, as your thoughts and tastes will outstrip their humble conception of life.",
+              "translation_ko": "떼까마귀 꿈은, 벗들이 진실하더라도 그들의 소박한 생각으로는 바라는 즐거움과 만족을 채워 주지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 떼까마귀를 봄",
+          "interpretation_ko": "머지않아 병이나 죽음을 겪을 조짐",
+          "interpretation_en": "denotes sickness or death in your immediate future",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rooks",
+              "original": "A dead rook, denotes sickness or death in your immediate future.",
+              "translation_ko": "죽은 떼까마귀를 보는 꿈은, 머지않아 병이나 죽음을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "root",
+      "term_ko": "뿌리",
+      "term_en": "root",
+      "aliases": [
+        "뿌리를",
+        "뿌리가",
+        "나무뿌리",
+        "식물뿌리"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "식물이나 나무의 뿌리를 봄",
+          "interpretation_ko": "사업과 건강이 모두 기울어질 불운의 조짐",
+          "interpretation_en": "denotes misfortune, as both business and health will go into decline",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Roots",
+              "original": "To dream of seeing roots of plants or trees, denotes misfortune, as both business and health will go into decline.",
+              "translation_ko": "식물이나 나무의 뿌리를 보는 꿈은, 사업과 건강이 모두 기울어질 불운의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "뿌리를 약으로 씀",
+          "interpretation_ko": "다가오는 병이나 슬픔을 경계할 조짐",
+          "interpretation_en": "warns you of approaching illness or sorrow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Roots",
+              "original": "To use them as medicine, warns you of approaching illness or sorrow.",
+              "translation_ko": "뿌리를 약으로 쓰는 꿈은, 다가오는 병이나 슬픔을 경계할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rouge",
       "term_ko": "연지",
       "term_en": "rouge",
@@ -113851,39 +114107,6 @@
       ]
     },
     {
-      "id": "roof",
-      "term_ko": "지붕",
-      "term_en": "roof",
-      "aliases": [
-        "옥상",
-        "기와",
-        "처마"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "지붕 위에 올라섬",
-          "interpretation_ko": "높은 벼슬을 얻을 조짐",
-          "interpretation_en": "a sign of gaining high office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "登天上屋得高官",
-              "translation_ko": "하늘에 올라 지붕 위에 오르면 높은 벼슬을 얻는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "roof-beam",
       "term_ko": "들보",
       "term_en": "roof beam",
@@ -113909,6 +114132,38 @@
               "locator": "宮室屋宇倉庫",
               "original": "房樑忽折主大凶",
               "translation_ko": "들보가 갑자기 부러지면 크게 흉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roof-corner",
+      "term_ko": "지붕 모서리",
+      "term_en": "roof-corner",
+      "aliases": [
+        "지붕 모서리",
+        "지붕 귀퉁이"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "상복 입은 사람이 지붕 모서리에 앉아 있음을 봄",
+          "interpretation_ko": "사업에서 뜻밖의 침울한 실패를 겪고, 애정운도 순탄치 않을 조짐",
+          "interpretation_en": "foretells there will be unexpected and dismal failures in your business. Affairs will appear unfavorable in love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Roof Corner",
+              "original": "To see a person dressed in mourning sitting on a roof corner, foretells there will be unexpected and dismal failures in your business. Affairs will appear unfavorable in love.",
+              "translation_ko": "상복 입은 사람이 지붕 모서리에 앉아 있는 것을 보는 꿈은, 사업에서 뜻밖의 침울한 실패를 겪고 애정운도 순탄치 않을 조짐이다"
             }
           ]
         }

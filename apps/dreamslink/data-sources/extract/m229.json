@@ -1,0 +1,212 @@
+[
+  {
+    "term_ko": "지붕",
+    "term_en": "roof",
+    "context": "지붕 위에 있는 자신을 발견함",
+    "interpretation_ko": "한없는 성공을 거둘 조짐",
+    "interpretation_en": "denotes unbounded success",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Roof",
+      "original": "To find yourself on a roof in a dream, denotes unbounded success.",
+      "translation_ko": "지붕 위에 있는 자신을 발견하는 꿈은, 한없는 성공을 거둘 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지붕",
+    "term_en": "roof",
+    "context": "지붕에서 겁에 질려 떨어진다고 생각함",
+    "interpretation_ko": "나아가더라도 제자리를 굳건히 지키지 못할 조짐",
+    "interpretation_en": "signifies that, while you may advance, you will have no firm hold on your position",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Roof",
+      "original": "To become frightened and think you are falling, signifies that, while you may advance, you will have no firm hold on your position.",
+      "translation_ko": "지붕에서 겁에 질려 떨어진다고 생각하는 꿈은, 나아가더라도 제자리를 굳건히 지키지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지붕",
+    "term_en": "roof",
+    "context": "지붕이 무너져 내리는 것을 봄",
+    "interpretation_ko": "갑작스러운 재앙에 위협받을 조짐",
+    "interpretation_en": "you will be threatened with a sudden calamity",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Roof",
+      "original": "To see a roof falling in, you will be threatened with a sudden calamity.",
+      "translation_ko": "지붕이 무너져 내리는 것을 보는 꿈은, 갑작스러운 재앙에 위협받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지붕",
+    "term_en": "roof",
+    "context": "지붕을 고치거나 지음",
+    "interpretation_ko": "재산이 빠르게 불어날 조짐",
+    "interpretation_en": "you will rapidly increase your fortune",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Roof",
+      "original": "To repair, or build a roof, you will rapidly increase your fortune.",
+      "translation_ko": "지붕을 고치거나 짓는 꿈은, 재산이 빠르게 불어날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지붕",
+    "term_en": "roof",
+    "context": "지붕 위에서 잠을 잠",
+    "interpretation_ko": "적과 거짓 벗들로부터 안전하고 건강이 튼튼할 조짐",
+    "interpretation_en": "proclaims your security against enemies and false companions. Your health will be robust",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Roof",
+      "original": "To sleep on one, proclaims your security against enemies and false companions. Your health will be robust.",
+      "translation_ko": "지붕 위에서 잠을 자는 꿈은, 적과 거짓 벗들로부터 안전하고 건강이 튼튼할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지붕 모서리",
+    "term_en": "roof-corner",
+    "context": "상복 입은 사람이 지붕 모서리에 앉아 있음을 봄",
+    "interpretation_ko": "사업에서 뜻밖의 침울한 실패를 겪고, 애정운도 순탄치 않을 조짐",
+    "interpretation_en": "foretells there will be unexpected and dismal failures in your business. Affairs will appear unfavorable in love",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Roof Corner",
+      "original": "To see a person dressed in mourning sitting on a roof corner, foretells there will be unexpected and dismal failures in your business. Affairs will appear unfavorable in love.",
+      "translation_ko": "상복 입은 사람이 지붕 모서리에 앉아 있는 것을 보는 꿈은, 사업에서 뜻밖의 침울한 실패를 겪고 애정운도 순탄치 않을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "떼까마귀",
+    "term_en": "rook",
+    "context": "떼까마귀 꿈을 꿈",
+    "interpretation_ko": "벗들이 진실하더라도, 그들의 소박한 생각으로는 바라는 즐거움과 만족을 채워 주지 못할 조짐",
+    "interpretation_en": "denotes that while your friends are true, they will not afford you the pleasure and contentment for which you long, as your thoughts and tastes will outstrip their humble conception of life",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Rooks",
+      "original": "To dream of rooks, denotes that while your friends are true, they will not afford you the pleasure and contentment for which you long, as your thoughts and tastes will outstrip their humble conception of life.",
+      "translation_ko": "떼까마귀 꿈은, 벗들이 진실하더라도 그들의 소박한 생각으로는 바라는 즐거움과 만족을 채워 주지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "떼까마귀",
+    "term_en": "rook",
+    "context": "죽은 떼까마귀를 봄",
+    "interpretation_ko": "머지않아 병이나 죽음을 겪을 조짐",
+    "interpretation_en": "denotes sickness or death in your immediate future",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Rooks",
+      "original": "A dead rook, denotes sickness or death in your immediate future.",
+      "translation_ko": "죽은 떼까마귀를 보는 꿈은, 머지않아 병이나 죽음을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "닭",
+    "term_en": "chicken",
+    "context": "수탉들이 싸우는 것을 봄",
+    "interpretation_ko": "다툼과 경쟁자를 만날 조짐",
+    "interpretation_en": "foretells altercations and rivals",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Rooster",
+      "original": "To see roosters fighting, foretells altercations and rivals.",
+      "translation_ko": "수탉들이 싸우는 것을 보는 꿈은, 다툼과 경쟁자를 만날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "닭",
+    "term_en": "chicken",
+    "context": "수탉 꿈을 꿈",
+    "interpretation_ko": "크게 성공하여 이름을 떨치나, 그 성공에 우쭐해질 조짐",
+    "interpretation_en": "foretells that you will be very successful and rise to prominence, but you will allow yourself to become conceited over your fortunate rise",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Rooster",
+      "original": "To dream of a rooster, foretells that you will be very successful and rise to prominence, but you will allow yourself to become conceited over your fortunate rise.",
+      "translation_ko": "수탉 꿈은, 크게 성공하여 이름을 떨치나 그 성공에 우쭐해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "뿌리",
+    "term_en": "root",
+    "context": "식물이나 나무의 뿌리를 봄",
+    "interpretation_ko": "사업과 건강이 모두 기울어질 불운의 조짐",
+    "interpretation_en": "denotes misfortune, as both business and health will go into decline",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Roots",
+      "original": "To dream of seeing roots of plants or trees, denotes misfortune, as both business and health will go into decline.",
+      "translation_ko": "식물이나 나무의 뿌리를 보는 꿈은, 사업과 건강이 모두 기울어질 불운의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "뿌리",
+    "term_en": "root",
+    "context": "뿌리를 약으로 씀",
+    "interpretation_ko": "다가오는 병이나 슬픔을 경계할 조짐",
+    "interpretation_en": "warns you of approaching illness or sorrow",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Roots",
+      "original": "To use them as medicine, warns you of approaching illness or sorrow.",
+      "translation_ko": "뿌리를 약으로 쓰는 꿈은, 다가오는 병이나 슬픔을 경계할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "밧줄을 타고 오름",
+    "interpretation_ko": "자신을 해치려는 적들을 이겨낼 조짐",
+    "interpretation_en": "you will overcome enemies who are working to injure you",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ropes",
+      "original": "If you climb one, you will overcome enemies who are working to injure you.",
+      "translation_ko": "밧줄을 타고 오르는 꿈은, 자신을 해치려는 적들을 이겨낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "밧줄을 타고 내려감",
+    "interpretation_ko": "가장 낙관하던 순간에 실망을 맛볼 조짐",
+    "interpretation_en": "brings disappointment to your most sanguine moments",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ropes",
+      "original": "To decend{sic} a rope, brings disappointment to your most sanguine moments.",
+      "translation_ko": "밧줄을 타고 내려가는 꿈은, 가장 낙관하던 순간에 실망을 맛볼 조짐이다"
+    }
+  }
+]

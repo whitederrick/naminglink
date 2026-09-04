@@ -1084,8 +1084,22 @@
       "rooftop",
       "on the roof"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "지붕 위에 있는 자신을 발견함": "발견했 자신을 있는것을",
+      "지붕에서 겁에 질려 떨어진다고 생각함": "겁에 질려 떨어진다 굳건히",
+      "지붕이 무너져 내리는 것을 봄": "무너져 내리는 재앙",
+      "지붕을 고치거나 지음": "고치거나 고쳤 짓는 불어날",
+      "지붕 위에서 잠을 잠": "잠을 자는 잠들어 안전",
+      "지붕 위에 올라섬": "올라섰 올랐다 기어올라"
+    },
+    "contexts_en": {
+      "지붕 위에 있는 자신을 발견함": "unbounded success discover",
+      "지붕에서 겁에 질려 떨어진다고 생각함": "frightened precarious insecure",
+      "지붕이 무너져 내리는 것을 봄": "collapsing calamity threatened",
+      "지붕을 고치거나 지음": "repair rebuilding fortune",
+      "지붕 위에서 잠을 잠": "sleeping security robust",
+      "지붕 위에 올라섬": "climbed climbing ascended"
+    }
   },
   {
     "id": "royal-court",

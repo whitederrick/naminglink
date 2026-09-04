@@ -392,7 +392,8 @@
       "암탉",
       "병아리",
       "닭들",
-      "살아있는 가금"
+      "살아있는 가금",
+      "수탉들"
     ],
     "aliases_en": [
       "a chicken",
@@ -414,7 +415,9 @@
       "닭을 봄": "마당에 뜰에",
       "여성이 닭을 봄": "여자가 여성이",
       "암탉을 봄": "암탉 씨암탉",
-      "처녀가 살아있는 가금을 뒤쫓음": "뒤쫓 쫓아 부질없는"
+      "처녀가 살아있는 가금을 뒤쫓음": "뒤쫓 쫓아 부질없는",
+      "수탉 꿈을 꿈": "수탉 성공하여 떨치 우쭐",
+      "수탉들이 싸우는 것을 봄": "싸우는 다툼 경쟁자"
     },
     "contexts_en": {
       "닭을 씻김": "washing washed bathed",
@@ -429,7 +432,9 @@
       "닭을 봄": "fowls temporary worry",
       "여성이 닭을 봄": "short disagreement",
       "암탉을 봄": "pleasant family reunions added",
-      "처녀가 살아있는 가금을 뒤쫓음": "chasing frivolous pleasure"
+      "처녀가 살아있는 가금을 뒤쫓음": "chasing frivolous pleasure",
+      "수탉 꿈을 꿈": "successful prominence conceited",
+      "수탉들이 싸우는 것을 봄": "fighting altercations rivals"
     }
   },
   {

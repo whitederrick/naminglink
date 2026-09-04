@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 228 — Road·Rocks·Rocket·Roman Candle·Rocking-chair·Rogue·Rogue's Gallery)
+// (지금 담긴 것: 배치 229 — Roof·Roof Corner·Rooks·Rooster·Roots·Ropes)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,27 +30,26 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "road", ctx: "험한 미지의 길을 감", text: "험하고 미지의 길을 가는 꿈을 꿨다" },
-  { id: "road", ctx: "동행하는 벗과 함께 길을 감", text: "동행하는 벗과 함께 길을 갔다" },
-  { id: "road", ctx: "길을 잃음", text: "길을 잃어버렸다" },
-  { id: "rock", ctx: "바위를 봄", text: "바위를 보았는데 역경과 불화가 있을까 걱정이다" },
-  { id: "fireworks", ctx: "쏘아 올린 불꽃이 하늘로 치솟음", text: "불꽃놀이가 하늘로 치솟는 것을 보았다" },
-  { id: "fireworks", ctx: "쏘아 올린 불꽃이 떨어짐", text: "불꽃놀이가 떨어지는 것을 보았다" },
-  { id: "fireworks", ctx: "화려한 불꽃놀이용 통을 봄", text: "화려한 불꽃놀이를 보았다" },
-  { id: "fireworks", ctx: "쥐고 있던 불꽃놀이용 통이 빈 것을 발견함", text: "쥐고 있던 폭죽이 비어있는 것을 발견했다" },
-  { id: "rocking-chair", ctx: "흔들의자를 봄", text: "흔들의자를 보았다" },
-  { id: "rocking-chair", ctx: "어머니나 아내나 연인이 흔들의자에 앉아 있음", text: "어머니가 흔들의자에 앉아 있었다" },
-  { id: "rocking-chair", ctx: "빈 흔들의자를 봄", text: "흔들의자만 덩그러니 남아 있는 것을 보았다" },
-  { id: "rogue", ctx: "스스로를 무뢰한이라 여기거나 그렇게 보임", text: "스스로를 무뢰한이라 여겼다" },
-  { id: "rogue", ctx: "남편이나 연인이 무뢰한이라 여김", text: "남편이 무뢰한이라 여겼다" },
-  { id: "rogues-gallery", ctx: "수배자 사진첩 안에 있음", text: "수배자 사진첩 안에 있었다" },
-  { id: "rogues-gallery", ctx: "수배자 사진첩에서 본인의 모습을 봄", text: "수배자 사진첩에서 본인의 모습을 보았다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(road·rock·fireworks)의 옛 답이 그대로인가
-  { id: "road", ctx: "사방으로 길이 뚫려 있음", text: "사방으로 길이 뚫려 있었다" },
-  { id: "road", ctx: "풀과 꽃이 늘어선 오솔길을 걸음", text: "풀과 꽃이 늘어선 오솔길을 걸었다" },
-  { id: "rock", ctx: "너럭바위가 편안하고 든든함", text: "너럭바위가 편안하고 든든했다" },
-  { id: "rock", ctx: "바위에 오름", text: "바위에 올랐다" },
-  { id: "fireworks", ctx: "불꽃놀이를 구경함", text: "불꽃놀이를 구경했다" },
+  { id: "roof", ctx: "지붕 위에 있는 자신을 발견함", text: "지붕 위에 있는 자신을 발견했다" },
+  { id: "roof", ctx: "지붕에서 겁에 질려 떨어진다고 생각함", text: "지붕에서 겁에 질려 떨어진다고 생각했다" },
+  { id: "roof", ctx: "지붕이 무너져 내리는 것을 봄", text: "지붕이 무너져 내리는 것을 보았다" },
+  { id: "roof", ctx: "지붕을 고치거나 지음", text: "지붕을 고쳤다" },
+  { id: "roof", ctx: "지붕 위에서 잠을 잠", text: "지붕 위에서 잠을 잤다" },
+  { id: "roof-corner", ctx: "상복 입은 사람이 지붕 모서리에 앉아 있음을 봄", text: "상복 입은 사람이 지붕 모서리에 앉아 있는 것을 보았다" },
+  { id: "rook", ctx: "떼까마귀 꿈을 꿈", text: "떼까마귀 꿈을 꾸었다" },
+  { id: "rook", ctx: "죽은 떼까마귀를 봄", text: "죽은 떼까마귀를 보았다" },
+  { id: "chicken", ctx: "수탉 꿈을 꿈", text: "수탉 꿈을 꾸었다" },
+  { id: "chicken", ctx: "수탉들이 싸우는 것을 봄", text: "수탉들이 싸우는 것을 보았다" },
+  { id: "root", ctx: "식물이나 나무의 뿌리를 봄", text: "나무의 뿌리를 보았다" },
+  { id: "root", ctx: "뿌리를 약으로 씀", text: "뿌리를 약으로 썼다" },
+  { id: "rope", ctx: "밧줄을 타고 오름", text: "밧줄을 타고 올랐다" },
+  { id: "rope", ctx: "밧줄을 타고 내려감", text: "밧줄을 타고 내려갔다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(roof·chicken·rope)의 옛 답이 그대로인가
+  { id: "roof", ctx: "지붕 위에 올라섬", text: "지붕 위에 올라섰다" },
+  { id: "chicken", ctx: "닭이 욺", text: "닭이 울었다" },
+  { id: "rope", ctx: "밧줄이 몸을 묶음", text: "밧줄이 몸을 묶었다" },
+  { id: "rope", ctx: "밧줄을 봄", text: "밧줄이 놓여 있는 것을 보았다" },
+  { id: "rope", ctx: "밧줄이 끊어짐", text: "밧줄이 끊어졌다" },
 ];
 
 let notFound = 0;

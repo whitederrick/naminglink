@@ -1,0 +1,53 @@
+[
+  {
+    "id": "roof-corner",
+    "aliases": [
+      "지붕 모서리",
+      "지붕 귀퉁이"
+    ],
+    "aliases_en": [
+      "a roof corner"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "rook",
+    "aliases": [
+      "떼까마귀"
+    ],
+    "aliases_en": [
+      "rooks",
+      "a rook"
+    ],
+    "contexts": {
+      "떼까마귀 꿈을 꿈": "벗들이 진실하 소박한 만족을 채워",
+      "죽은 떼까마귀를 봄": "죽은 임박한 앞날에"
+    },
+    "contexts_en": {
+      "떼까마귀 꿈을 꿈": "friends true humble conception",
+      "죽은 떼까마귀를 봄": "dead sickness immediate"
+    }
+  },
+  {
+    "id": "root",
+    "aliases": [
+      "뿌리를",
+      "뿌리가",
+      "나무뿌리",
+      "식물뿌리"
+    ],
+    "aliases_en": [
+      "roots",
+      "a root"
+    ],
+    "contexts": {
+      "식물이나 나무의 뿌리를 봄": "식물 나무의 기울어질",
+      "뿌리를 약으로 씀": "약으로 다가오는 경계"
+    },
+    "contexts_en": {
+      "식물이나 나무의 뿌리를 봄": "plants trees decline",
+      "뿌리를 약으로 씀": "medicine illness sorrow"
+    }
+  }
+]

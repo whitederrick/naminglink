@@ -7218,5 +7218,16 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "rogues-gallery": [
     "a rogue's gallery",
     "rogues' gallery"
+  ],
+  "roof-corner": [
+    "a roof corner"
+  ],
+  "rook": [
+    "rooks",
+    "a rook"
+  ],
+  "root": [
+    "roots",
+    "a root"
   ]
 };

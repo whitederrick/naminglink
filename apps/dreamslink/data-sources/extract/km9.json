@@ -401,12 +401,16 @@
     "contexts": {
       "밧줄이 몸을 묶음": "묶였 묶여 묶인 감겼 결박 옭아",
       "밧줄을 봄": "놓여 늘어져 걸려있 가만히",
-      "밧줄이 끊어짐": "끊어 끊겼 끊긴 잘렸"
+      "밧줄이 끊어짐": "끊어 끊겼 끊긴 잘렸",
+      "밧줄을 타고 오름": "올랐 이겨낼 해치려는",
+      "밧줄을 타고 내려감": "내려 실망 낙관"
     },
     "contexts_en": {
       "밧줄이 몸을 묶음": "tied bound wrapped around restrained",
       "밧줄을 봄": "lying coiled hanging",
-      "밧줄이 끊어짐": "snapped broke breaking severed"
+      "밧줄이 끊어짐": "snapped broke breaking severed",
+      "밧줄을 타고 오름": "climb overcome enemies injure",
+      "밧줄을 타고 내려감": "descend disappointment sanguine"
     }
   },
   {
