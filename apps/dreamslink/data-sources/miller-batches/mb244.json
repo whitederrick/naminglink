@@ -1,0 +1,46 @@
+{
+  "batch": 244,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Sheep",
+      "text": "To see flocks of sheep, there will be much rejoicing among farmers, and other trades will prosper. To see them looking scraggy and sick, you will be thrown into despair by the miscarriage of some plan, which promised rich returns.",
+      "note": "기존 `sheep`(양)에 붙임 — 두 그림. 「shearing」·「eat the flesh」 두 문장은 기존 Lamb의 「어린 양의 털을 깎음」·「양고기를 먹음」과 같은 그림이라 건너뜀"
+    },
+    {
+      "headword": "Sheet Iron",
+      "text": "To see sheet iron in your dream, denotes you are unfortunately listening to the admonition of others. To walk on it, signifies distasteful engagements.",
+      "note": "새 상징 `sheet-iron`(함석) — 두 그림"
+    },
+    {
+      "headword": "Shells",
+      "text": "To walk among and gather shells in your dream, denotes extravagance. Pleasure will leave you naught but exasperating regrets and memories.",
+      "note": "새 상징 `shells`(조개껍데기) — 한 그림"
+    },
+    {
+      "headword": "Shelter",
+      "text": "To dream that you are building a shelter, signifies that you will escape the evil designs of enemies. If you are seeking shelter, you will be guilty of cheating, and will try to justify yourself.",
+      "note": "새 상징 `shelter`(피신처) — 두 그림"
+    },
+    {
+      "headword": "Shelves",
+      "text": "To see empty shelves in dreams, indicates losses and consequent gloom. Full shelves, augurs happy contentment through the fulfillment of hope and exertions.",
+      "note": "새 상징 `shelves`(선반) — 두 그림"
+    },
+    {
+      "headword": "Shepherd",
+      "text": "To see shepherds in your dreams watching their flocks, portends bounteous crops and pleasant relations for the farmer, also much enjoyment and profit for others. To see them in idleness, foretells sickness and bereavement.",
+      "note": "새 상징 `shepherd`(목자) — 두 그림"
+    },
+    {
+      "headword": "Sheriff",
+      "text": "To dream of seeing a sheriff, denotes that you will suffer great uneasiness over the uncertain changes which loom up before you. To imagine that you are elected sheriff or feel interested in the office, denotes that you will participate in some affair which will afford you neither profit nor honor. To escape arrest, you will be able to further engage in illicit affairs.",
+      "note": "새 상징 `sheriff`(보안관) — 세 그림"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    "Sheep — 「양털을 깎는 꿈은 이익이 쏟아질 조짐」(길)이 기존 Lamb의 「어린 양의 털을 깎음」(차갑고 잇속만 밝아짐, 흉)과 같은 그림(양털 깎기)이고 정반대 극성이라 건너뜀",
+    "Sheep — 「양고기를 먹는 꿈」이 기존 Lamb의 「양고기를 먹음」과 문맥 이름까지 같은 그림이라 건너뜀"
+  ]
+}

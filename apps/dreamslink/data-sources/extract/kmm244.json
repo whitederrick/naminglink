@@ -1,0 +1,110 @@
+[
+  {
+    "id": "sheet-iron",
+    "aliases": [
+      "함석지붕",
+      "양철판"
+    ],
+    "aliases_en": [
+      "sheet iron"
+    ],
+    "contexts": {
+      "함석을 봄": "부지불식간 훈계를 듣고있는",
+      "함석 위를 걸음": "위를 걸었다 달갑잖은"
+    },
+    "contexts_en": {
+      "함석을 봄": "unfortunately admonition others",
+      "함석 위를 걸음": "walk distasteful engagements"
+    }
+  },
+  {
+    "id": "shells",
+    "aliases": [
+      "조개껍질",
+      "조가비"
+    ],
+    "aliases_en": [
+      "shells",
+      "a shell"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "shelter",
+    "aliases": [
+      "피신처를",
+      "대피처"
+    ],
+    "aliases_en": [
+      "a shelter",
+      "shelter"
+    ],
+    "contexts": {
+      "피신처를 지음": "지었다 짓는 흉계를",
+      "피신처를 찾음": "찾았다 속임수를 정당화"
+    },
+    "contexts_en": {
+      "피신처를 지음": "building escape enemies",
+      "피신처를 찾음": "seeking cheating justify"
+    }
+  },
+  {
+    "id": "shelves",
+    "aliases": [
+      "선반이",
+      "선반에"
+    ],
+    "aliases_en": [
+      "shelves"
+    ],
+    "contexts": {
+      "빈 선반을 봄": "빈선반 손실과 우울",
+      "가득 찬 선반을 봄": "가득 행복한 만족을"
+    },
+    "contexts_en": {
+      "빈 선반을 봄": "empty losses gloom",
+      "가득 찬 선반을 봄": "full contentment hope"
+    }
+  },
+  {
+    "id": "shepherd",
+    "aliases": [
+      "목자가",
+      "양치기"
+    ],
+    "aliases_en": [
+      "a shepherd",
+      "shepherds"
+    ],
+    "contexts": {
+      "목자가 양떼를 지켜봄": "양떼를 지켜봄 풍성한",
+      "목자가 게으름을 피움": "게으름을 피우 사별"
+    },
+    "contexts_en": {
+      "목자가 양떼를 지켜봄": "watching flocks bounteous",
+      "목자가 게으름을 피움": "idleness sickness bereavement"
+    }
+  },
+  {
+    "id": "sheriff",
+    "aliases": [
+      "보안관을",
+      "보안관이"
+    ],
+    "aliases_en": [
+      "a sheriff",
+      "sheriff"
+    ],
+    "contexts": {
+      "보안관을 봄": "닥친 불확실한 변화로",
+      "자신이 보안관으로 뽑히거나 그 자리에 관심을 가짐": "뽑혔다 관심을 명예도",
+      "체포를 피해 달아남": "체포를 피해 달아 불법한"
+    },
+    "contexts_en": {
+      "보안관을 봄": "uneasiness uncertain changes",
+      "자신이 보안관으로 뽑히거나 그 자리에 관심을 가짐": "elected interested profit",
+      "체포를 피해 달아남": "escape arrest illicit"
+    }
+  }
+]

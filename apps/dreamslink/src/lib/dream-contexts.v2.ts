@@ -514,6 +514,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "sheep::여자가 양가죽을 벗기다 제 아이임을 앎": "peeling child sorrow rebound grief",
   "sheep::숫양이 저를 뒤쫓음": "pursues threatens misfortune",
   "sheep::숫양이 조용히 풀을 뜯음": "quietly grazing powerful",
+  "sheep::양떼를 봄": "flocks rejoicing farmers",
+  "sheep::야위고 병든 양을 봄": "scraggy despair returns",
   "pig::돼지를 잡음": "caught killed slaughtered butchered",
   "pig::돼지가 저절로 죽음": "died dead sick naturally itself",
   "pig::돼지가 사람으로 변함": "human person transformed turned",
@@ -5648,5 +5650,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "shaving::여성이 남자들이 면도하는 것을 봄": "sullied indulgence gross",
   "shaving::여성이 면도당하는 꿈을 꿈": "masculinity disgust",
   "shawl::숄 꿈을 꿈": "flattery favor",
-  "shawl::숄을 잃어버림": "lose sorrow jilted"
+  "shawl::숄을 잃어버림": "lose sorrow jilted",
+  "sheet-iron::함석을 봄": "unfortunately admonition others",
+  "sheet-iron::함석 위를 걸음": "walk distasteful engagements",
+  "shelter::피신처를 지음": "building escape enemies",
+  "shelter::피신처를 찾음": "seeking cheating justify",
+  "shelves::빈 선반을 봄": "empty losses gloom",
+  "shelves::가득 찬 선반을 봄": "full contentment hope",
+  "shepherd::목자가 양떼를 지켜봄": "watching flocks bounteous",
+  "shepherd::목자가 게으름을 피움": "idleness sickness bereavement",
+  "sheriff::보안관을 봄": "uneasiness uncertain changes",
+  "sheriff::자신이 보안관으로 뽑히거나 그 자리에 관심을 가짐": "elected interested profit",
+  "sheriff::체포를 피해 달아남": "escape arrest illicit"
 };

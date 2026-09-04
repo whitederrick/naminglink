@@ -162,6 +162,7 @@
     "m241.json",
     "m242.json",
     "m243.json",
+    "m244.json",
     "m25.json",
     "m26.json",
     "m27a.json",
@@ -2857,6 +2858,397 @@
       ]
     },
     {
+      "id": "sheep",
+      "term_ko": "양",
+      "term_en": "sheep",
+      "aliases": [
+        "양떼",
+        "면양",
+        "숫양",
+        "암양",
+        "어린 양",
+        "새끼 양",
+        "양들",
+        "양가죽",
+        "양털",
+        "양고기"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "양을 끌고 집으로 돌아옴",
+          "interpretation_ko": "기쁘고 즐거울 조짐",
+          "interpretation_en": "a sign of joy and merriment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "牽牛羊來家歡樂",
+              "translation_ko": "소와 양을 끌고 집에 오면 기쁘고 즐겁다"
+            }
+          ]
+        },
+        {
+          "context": "숫양이 저를 뒤쫓음",
+          "interpretation_ko": "불운이 닥칠 조짐",
+          "interpretation_en": "foretells that some misfortune threatens you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ram",
+              "original": "To dream that a ram pursues you, foretells that some misfortune threatens you.",
+              "translation_ko": "숫양이 저를 뒤쫓는 꿈은, 불운이 닥칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "숫양이 조용히 풀을 뜯음",
+          "interpretation_ko": "힘 있는 벗들이 저를 위해 힘써 줄 조짐",
+          "interpretation_en": "denotes that you will have powerful friends, who will use their best efforts for your good",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ram",
+              "original": "To see one quietly grazing denotes that you will have powerful friends, who will use their best efforts for your good.",
+              "translation_ko": "숫양이 조용히 풀을 뜯는 것을 보는 꿈은, 힘 있는 벗들이 저를 위해 힘써 줄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "양떼를 봄",
+          "interpretation_ko": "농부들 사이에 큰 기쁨이 있고 다른 사업도 번영할 조짐",
+          "interpretation_en": "there will be much rejoicing among farmers, and other trades will prosper",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sheep",
+              "original": "To see flocks of sheep, there will be much rejoicing among farmers, and other trades will prosper.",
+              "translation_ko": "양떼를 보는 꿈은, 농부들 사이에 큰 기쁨이 있고 다른 사업도 번영할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "야위고 병든 양을 봄",
+          "interpretation_ko": "큰 결실을 약속하던 계획이 어그러져 절망에 빠질 조짐",
+          "interpretation_en": "you will be thrown into despair by the miscarriage of some plan, which promised rich returns",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sheep",
+              "original": "To see them looking scraggy and sick, you will be thrown into despair by the miscarriage of some plan, which promised rich returns.",
+              "translation_ko": "야위고 병든 양을 보는 꿈은, 큰 결실을 약속하던 계획이 어그러져 절망에 빠질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "어린 양들이 푸른 들에서 뛰놂",
+          "interpretation_ko": "맑은 사귐과 기쁨을 뜻하고, 농사짓는 이에게는 넉넉한 거둠을, 다른 이에게는 살림이 느는 길한 조짐",
+          "interpretation_en": "betokens chaste friendships and joys; bounteous and profitable crops to the farmers, and increase of possessions for others",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "To dream of lambs frolicing{sic} in green pastures, betokens chaste friendships and joys.",
+              "translation_ko": "어린 양들이 푸른 들에서 뛰노는 꿈은 맑은 사귐과 기쁨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 어린 양을 봄",
+          "interpretation_ko": "슬픔과 쓸쓸함이 있을 흉한 조짐",
+          "interpretation_en": "signifies sadness and desolation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "To see a dead lamb, signifies sadness and desolation.",
+              "translation_ko": "죽은 어린 양을 보면 슬픔과 쓸쓸함이 있다"
+            }
+          ]
+        },
+        {
+          "context": "흰 양털에 피가 묻어 있음",
+          "interpretation_ko": "남이 저지른 잘못에 죄 없는 이들이 배신으로 시달릴 흉한 조짐",
+          "interpretation_en": "denotes that innocent ones will suffer from betrayal through the wrong doing of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "Blood showing on the white fleece of a lamb, denotes that innocent ones will suffer from betrayal through the wrong doing of others.",
+              "translation_ko": "흰 양털에 피가 비치면, 남이 저지른 잘못에 죄 없는 이들이 배신으로 시달린다"
+            }
+          ]
+        },
+        {
+          "context": "길 잃은 어린 양을 봄",
+          "interpretation_ko": "제멋대로인 사람들이 제 뜻 아래 들어오니 몸가짐을 삼가야 할 조짐",
+          "interpretation_en": "denotes that wayward people will be under your influence, and you should be careful of your conduct",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "A lost lamb, denotes that wayward people will be under your influence, and you should be careful of your conduct.",
+              "translation_ko": "길 잃은 어린 양은, 제멋대로인 사람들이 제 뜻 아래 들어오니 몸가짐을 삼가야 함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "양가죽을 봄",
+          "interpretation_ko": "남에게서 빼앗아 온 편안함과 즐거움을 뜻하는 조짐",
+          "interpretation_en": "denotes comfort and pleasure usurped from others",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "To see lamb skins, denotes comfort and pleasure usurped from others.",
+              "translation_ko": "양가죽을 보면 남에게서 빼앗아 온 편안함과 즐거움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "집에서 쓰려고 어린 양을 잡음",
+          "interpretation_ko": "즐거움과 만족을 내어 주고 살림이 넉넉해질 길한 조짐",
+          "interpretation_en": "prosperity will be gained through the sacrifice of pleasure and contentment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "To slaughter a lamb for domestic uses, prosperity will be gained through the sacrifice of pleasure and contentment.",
+              "translation_ko": "집에서 쓰려고 어린 양을 잡으면, 즐거움과 만족을 내어 주고 살림이 넉넉해진다"
+            }
+          ]
+        },
+        {
+          "context": "양고기를 먹음",
+          "interpretation_ko": "병이 들고 아이들의 앞날을 크게 걱정할 흉한 조짐",
+          "interpretation_en": "denotes illness, and much anxiety over the welfare of children",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "To eat lamb chops, denotes illness, and much anxiety over the welfare of children.",
+              "translation_ko": "양고기를 먹으면 병이 들고 아이들의 앞날을 크게 걱정한다"
+            }
+          ]
+        },
+        {
+          "context": "어린 양이 어미젖을 빪",
+          "interpretation_ko": "다정하고 슬기로운 집안 사람들로 기쁘고, 사랑스럽고 어여쁜 아이를 여럿 둘 길한 조짐",
+          "interpretation_en": "denotes happiness through pleasant and intelligent home companions, and many lovable and beautiful children",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "To see lambs taking nourishment from their mothers, denotes happiness through pleasant and intelligent home companions, and many lovable and beautiful children.",
+              "translation_ko": "어린 양이 어미젖을 빠는 것을 보면, 다정하고 슬기로운 집안 사람들로 기쁘고 사랑스럽고 어여쁜 아이를 여럿 둔다"
+            }
+          ]
+        },
+        {
+          "context": "개나 늑대가 어린 양을 물어뜯음",
+          "interpretation_ko": "죄 없는 이들이 넌지시 파고들어 꾀를 부리는 자들의 손에 시달릴 흉한 조짐",
+          "interpretation_en": "innocent people will suffer at the hands of insinuating and designing villains",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "To dream that dogs, or wolves devour lambs, innocent people will suffer at the hands of insinuating and designing villains.",
+              "translation_ko": "개나 늑대가 어린 양을 물어뜯는 꿈을 꾸면, 죄 없는 이들이 넌지시 파고들어 꾀를 부리는 자들의 손에 시달린다"
+            }
+          ]
+        },
+        {
+          "context": "어린 양이 우는 소리를 들음",
+          "interpretation_ko": "남이 제 너그러움에 기대어 올 조짐",
+          "interpretation_en": "your generosity will be appealed to",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "To hear the bleating of lambs, your generosity will be appealed to.",
+              "translation_ko": "어린 양이 우는 소리를 들으면 남이 제 너그러움에 기대어 온다"
+            }
+          ]
+        },
+        {
+          "context": "눈보라나 비를 맞는 어린 양을 봄",
+          "interpretation_ko": "누리려던 즐거움과 나아지려던 살림이 어긋날 흉한 조짐",
+          "interpretation_en": "denotes disappointment in expected enjoyment and betterment of fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "To see them in a winter storm, or rain, denotes disappointment in expected enjoyment and betterment of fortune.",
+              "translation_ko": "눈보라나 비를 맞는 어린 양을 보면, 누리려던 즐거움과 나아지려던 살림이 어긋난다"
+            }
+          ]
+        },
+        {
+          "context": "어린 양을 기름",
+          "interpretation_ko": "둘레가 즐겁고 이로울 길한 조짐",
+          "interpretation_en": "signifies that your environments will be pleasant and profitable",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "To own lambs in your dreams, signifies that your environments will be pleasant and profitable.",
+              "translation_ko": "어린 양을 제 것으로 기르는 꿈은 둘레가 즐겁고 이로움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "어린 양을 품에 안음",
+          "interpretation_ko": "즐거운 돌봄을 짊어지고 거기에 마음을 아낌없이 쏟을 길한 조짐",
+          "interpretation_en": "you will be encumbered with happy cares upon which you will lavish a wealth of devotion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "If you carry lambs in your arms, you will be encumbered with happy cares upon which you will lavish a wealth of devotion, and no expense will be regretted in responding to appeals from the objects of your affection.",
+              "translation_ko": "어린 양을 품에 안으면, 즐거운 돌봄을 짊어지고 거기에 마음을 아낌없이 쏟는다"
+            }
+          ]
+        },
+        {
+          "context": "어린 양의 털을 깎음",
+          "interpretation_ko": "차갑고 잇속만 밝은 사람이 되어, 바르기는 하나 모질어질 흉한 조짐",
+          "interpretation_en": "shows that you will be cold and mercenary; you will be honest, but inhumane",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "To shear lambs, shows that you will be cold and mercenary.",
+              "translation_ko": "어린 양의 털을 깎으면 차갑고 잇속만 밝은 사람이 된다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 양가죽을 벗기다 제 아이임을 앎",
+          "interpretation_ko": "남에게 슬픔을 안기고 그것이 제게도 되돌아와 아픔과 잃음이 될 흉한 조짐",
+          "interpretation_en": "denotes that she will cause others sorrow which will also rebound to her grief and loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Lamb",
+              "original": "For a woman to dream that she is peeling the skin from a lamb, and while doing so, she discovers that it is her child, denotes that she will cause others sorrow which will also rebound to her grief and loss.",
+              "translation_ko": "여자가 양가죽을 벗기다 그것이 제 아이임을 아는 꿈을 꾸면, 남에게 슬픔을 안기고 그것이 제게도 되돌아와 아픔과 잃음이 된다"
+            }
+          ]
+        },
+        {
+          "context": "양이 돼지처럼 걸어감",
+          "interpretation_ko": "길 떠난 사람이 돌아올 조짐",
+          "interpretation_en": "a sign that a traveler will arrive",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "羊作豚行行人至",
+              "translation_ko": "양이 돼지처럼 걸으면 길 가던 사람이 온다"
+            }
+          ]
+        },
+        {
+          "context": "양이 몸을 긁음",
+          "interpretation_ko": "구설에 오를 조짐",
+          "interpretation_en": "a sign of gossip and disputes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "豬羊搔癢主口舌",
+              "translation_ko": "돼지와 양이 가려워 몸을 긁으면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "양을 타고 거리로 나감",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "騎羊上街主得財",
+              "translation_ko": "양을 타고 거리에 나서면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "어미 양과 새끼 양을 봄",
+          "interpretation_ko": "수명이 늘어나 크게 길할 조짐",
+          "interpretation_en": "a very auspicious sign of a lengthened life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "牛馬豬羊六畜",
+              "original": "子母羊益命大吉",
+              "translation_ko": "어미 양과 새끼 양은 목숨을 더해 주니 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "양을 잡거나 때림",
+          "interpretation_ko": "병이 들어 흉할 조짐",
+          "interpretation_en": "an ill sign of falling sick",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺羊打羊主病凶",
+              "translation_ko": "양을 죽이거나 때리면 병이 들어 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "양이 수레를 끎",
+          "interpretation_ko": "일이 심상치 않게 될 조짐",
+          "interpretation_en": "a sign that matters will turn out unusual",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "以羊駕車事不常",
+              "translation_ko": "양이 수레를 끌면 일이 심상치 않다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "house",
       "term_ko": "집",
       "term_en": "house",
@@ -3210,369 +3602,6 @@
               "locator": "宮室屋宇倉庫",
               "original": "修理田舍有大喜",
               "translation_ko": "시골집을 수리하면 큰 기쁨이 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sheep",
-      "term_ko": "양",
-      "term_en": "sheep",
-      "aliases": [
-        "양떼",
-        "면양",
-        "숫양",
-        "암양",
-        "어린 양",
-        "새끼 양",
-        "양들",
-        "양가죽",
-        "양털",
-        "양고기"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "양을 끌고 집으로 돌아옴",
-          "interpretation_ko": "기쁘고 즐거울 조짐",
-          "interpretation_en": "a sign of joy and merriment",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "牽牛羊來家歡樂",
-              "translation_ko": "소와 양을 끌고 집에 오면 기쁘고 즐겁다"
-            }
-          ]
-        },
-        {
-          "context": "숫양이 저를 뒤쫓음",
-          "interpretation_ko": "불운이 닥칠 조짐",
-          "interpretation_en": "foretells that some misfortune threatens you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ram",
-              "original": "To dream that a ram pursues you, foretells that some misfortune threatens you.",
-              "translation_ko": "숫양이 저를 뒤쫓는 꿈은, 불운이 닥칠 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "숫양이 조용히 풀을 뜯음",
-          "interpretation_ko": "힘 있는 벗들이 저를 위해 힘써 줄 조짐",
-          "interpretation_en": "denotes that you will have powerful friends, who will use their best efforts for your good",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ram",
-              "original": "To see one quietly grazing denotes that you will have powerful friends, who will use their best efforts for your good.",
-              "translation_ko": "숫양이 조용히 풀을 뜯는 것을 보는 꿈은, 힘 있는 벗들이 저를 위해 힘써 줄 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "어린 양들이 푸른 들에서 뛰놂",
-          "interpretation_ko": "맑은 사귐과 기쁨을 뜻하고, 농사짓는 이에게는 넉넉한 거둠을, 다른 이에게는 살림이 느는 길한 조짐",
-          "interpretation_en": "betokens chaste friendships and joys; bounteous and profitable crops to the farmers, and increase of possessions for others",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "To dream of lambs frolicing{sic} in green pastures, betokens chaste friendships and joys.",
-              "translation_ko": "어린 양들이 푸른 들에서 뛰노는 꿈은 맑은 사귐과 기쁨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "죽은 어린 양을 봄",
-          "interpretation_ko": "슬픔과 쓸쓸함이 있을 흉한 조짐",
-          "interpretation_en": "signifies sadness and desolation",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "To see a dead lamb, signifies sadness and desolation.",
-              "translation_ko": "죽은 어린 양을 보면 슬픔과 쓸쓸함이 있다"
-            }
-          ]
-        },
-        {
-          "context": "흰 양털에 피가 묻어 있음",
-          "interpretation_ko": "남이 저지른 잘못에 죄 없는 이들이 배신으로 시달릴 흉한 조짐",
-          "interpretation_en": "denotes that innocent ones will suffer from betrayal through the wrong doing of others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "Blood showing on the white fleece of a lamb, denotes that innocent ones will suffer from betrayal through the wrong doing of others.",
-              "translation_ko": "흰 양털에 피가 비치면, 남이 저지른 잘못에 죄 없는 이들이 배신으로 시달린다"
-            }
-          ]
-        },
-        {
-          "context": "길 잃은 어린 양을 봄",
-          "interpretation_ko": "제멋대로인 사람들이 제 뜻 아래 들어오니 몸가짐을 삼가야 할 조짐",
-          "interpretation_en": "denotes that wayward people will be under your influence, and you should be careful of your conduct",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "A lost lamb, denotes that wayward people will be under your influence, and you should be careful of your conduct.",
-              "translation_ko": "길 잃은 어린 양은, 제멋대로인 사람들이 제 뜻 아래 들어오니 몸가짐을 삼가야 함을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "양가죽을 봄",
-          "interpretation_ko": "남에게서 빼앗아 온 편안함과 즐거움을 뜻하는 조짐",
-          "interpretation_en": "denotes comfort and pleasure usurped from others",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "To see lamb skins, denotes comfort and pleasure usurped from others.",
-              "translation_ko": "양가죽을 보면 남에게서 빼앗아 온 편안함과 즐거움을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "집에서 쓰려고 어린 양을 잡음",
-          "interpretation_ko": "즐거움과 만족을 내어 주고 살림이 넉넉해질 길한 조짐",
-          "interpretation_en": "prosperity will be gained through the sacrifice of pleasure and contentment",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "To slaughter a lamb for domestic uses, prosperity will be gained through the sacrifice of pleasure and contentment.",
-              "translation_ko": "집에서 쓰려고 어린 양을 잡으면, 즐거움과 만족을 내어 주고 살림이 넉넉해진다"
-            }
-          ]
-        },
-        {
-          "context": "양고기를 먹음",
-          "interpretation_ko": "병이 들고 아이들의 앞날을 크게 걱정할 흉한 조짐",
-          "interpretation_en": "denotes illness, and much anxiety over the welfare of children",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "To eat lamb chops, denotes illness, and much anxiety over the welfare of children.",
-              "translation_ko": "양고기를 먹으면 병이 들고 아이들의 앞날을 크게 걱정한다"
-            }
-          ]
-        },
-        {
-          "context": "어린 양이 어미젖을 빪",
-          "interpretation_ko": "다정하고 슬기로운 집안 사람들로 기쁘고, 사랑스럽고 어여쁜 아이를 여럿 둘 길한 조짐",
-          "interpretation_en": "denotes happiness through pleasant and intelligent home companions, and many lovable and beautiful children",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "To see lambs taking nourishment from their mothers, denotes happiness through pleasant and intelligent home companions, and many lovable and beautiful children.",
-              "translation_ko": "어린 양이 어미젖을 빠는 것을 보면, 다정하고 슬기로운 집안 사람들로 기쁘고 사랑스럽고 어여쁜 아이를 여럿 둔다"
-            }
-          ]
-        },
-        {
-          "context": "개나 늑대가 어린 양을 물어뜯음",
-          "interpretation_ko": "죄 없는 이들이 넌지시 파고들어 꾀를 부리는 자들의 손에 시달릴 흉한 조짐",
-          "interpretation_en": "innocent people will suffer at the hands of insinuating and designing villains",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "To dream that dogs, or wolves devour lambs, innocent people will suffer at the hands of insinuating and designing villains.",
-              "translation_ko": "개나 늑대가 어린 양을 물어뜯는 꿈을 꾸면, 죄 없는 이들이 넌지시 파고들어 꾀를 부리는 자들의 손에 시달린다"
-            }
-          ]
-        },
-        {
-          "context": "어린 양이 우는 소리를 들음",
-          "interpretation_ko": "남이 제 너그러움에 기대어 올 조짐",
-          "interpretation_en": "your generosity will be appealed to",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "To hear the bleating of lambs, your generosity will be appealed to.",
-              "translation_ko": "어린 양이 우는 소리를 들으면 남이 제 너그러움에 기대어 온다"
-            }
-          ]
-        },
-        {
-          "context": "눈보라나 비를 맞는 어린 양을 봄",
-          "interpretation_ko": "누리려던 즐거움과 나아지려던 살림이 어긋날 흉한 조짐",
-          "interpretation_en": "denotes disappointment in expected enjoyment and betterment of fortune",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "To see them in a winter storm, or rain, denotes disappointment in expected enjoyment and betterment of fortune.",
-              "translation_ko": "눈보라나 비를 맞는 어린 양을 보면, 누리려던 즐거움과 나아지려던 살림이 어긋난다"
-            }
-          ]
-        },
-        {
-          "context": "어린 양을 기름",
-          "interpretation_ko": "둘레가 즐겁고 이로울 길한 조짐",
-          "interpretation_en": "signifies that your environments will be pleasant and profitable",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "To own lambs in your dreams, signifies that your environments will be pleasant and profitable.",
-              "translation_ko": "어린 양을 제 것으로 기르는 꿈은 둘레가 즐겁고 이로움을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "어린 양을 품에 안음",
-          "interpretation_ko": "즐거운 돌봄을 짊어지고 거기에 마음을 아낌없이 쏟을 길한 조짐",
-          "interpretation_en": "you will be encumbered with happy cares upon which you will lavish a wealth of devotion",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "If you carry lambs in your arms, you will be encumbered with happy cares upon which you will lavish a wealth of devotion, and no expense will be regretted in responding to appeals from the objects of your affection.",
-              "translation_ko": "어린 양을 품에 안으면, 즐거운 돌봄을 짊어지고 거기에 마음을 아낌없이 쏟는다"
-            }
-          ]
-        },
-        {
-          "context": "어린 양의 털을 깎음",
-          "interpretation_ko": "차갑고 잇속만 밝은 사람이 되어, 바르기는 하나 모질어질 흉한 조짐",
-          "interpretation_en": "shows that you will be cold and mercenary; you will be honest, but inhumane",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "To shear lambs, shows that you will be cold and mercenary.",
-              "translation_ko": "어린 양의 털을 깎으면 차갑고 잇속만 밝은 사람이 된다"
-            }
-          ]
-        },
-        {
-          "context": "여자가 양가죽을 벗기다 제 아이임을 앎",
-          "interpretation_ko": "남에게 슬픔을 안기고 그것이 제게도 되돌아와 아픔과 잃음이 될 흉한 조짐",
-          "interpretation_en": "denotes that she will cause others sorrow which will also rebound to her grief and loss",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Lamb",
-              "original": "For a woman to dream that she is peeling the skin from a lamb, and while doing so, she discovers that it is her child, denotes that she will cause others sorrow which will also rebound to her grief and loss.",
-              "translation_ko": "여자가 양가죽을 벗기다 그것이 제 아이임을 아는 꿈을 꾸면, 남에게 슬픔을 안기고 그것이 제게도 되돌아와 아픔과 잃음이 된다"
-            }
-          ]
-        },
-        {
-          "context": "양이 돼지처럼 걸어감",
-          "interpretation_ko": "길 떠난 사람이 돌아올 조짐",
-          "interpretation_en": "a sign that a traveler will arrive",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "羊作豚行行人至",
-              "translation_ko": "양이 돼지처럼 걸으면 길 가던 사람이 온다"
-            }
-          ]
-        },
-        {
-          "context": "양이 몸을 긁음",
-          "interpretation_ko": "구설에 오를 조짐",
-          "interpretation_en": "a sign of gossip and disputes",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "豬羊搔癢主口舌",
-              "translation_ko": "돼지와 양이 가려워 몸을 긁으면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "양을 타고 거리로 나감",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "騎羊上街主得財",
-              "translation_ko": "양을 타고 거리에 나서면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "어미 양과 새끼 양을 봄",
-          "interpretation_ko": "수명이 늘어나 크게 길할 조짐",
-          "interpretation_en": "a very auspicious sign of a lengthened life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "牛馬豬羊六畜",
-              "original": "子母羊益命大吉",
-              "translation_ko": "어미 양과 새끼 양은 목숨을 더해 주니 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "양을 잡거나 때림",
-          "interpretation_ko": "병이 들어 흉할 조짐",
-          "interpretation_en": "an ill sign of falling sick",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺羊打羊主病凶",
-              "translation_ko": "양을 죽이거나 때리면 병이 들어 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "양이 수레를 끎",
-          "interpretation_ko": "일이 심상치 않게 될 조짐",
-          "interpretation_en": "a sign that matters will turn out unusual",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "以羊駕車事不常",
-              "translation_ko": "양이 수레를 끌면 일이 심상치 않다"
             }
           ]
         }
@@ -78948,6 +78977,66 @@
       ]
     },
     {
+      "id": "sheriff",
+      "term_ko": "보안관",
+      "term_en": "sheriff",
+      "aliases": [
+        "보안관을",
+        "보안관이"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "보안관을 봄",
+          "interpretation_ko": "눈앞에 닥친 불확실한 변화로 큰 불안을 겪을 조짐",
+          "interpretation_en": "denotes that you will suffer great uneasiness over the uncertain changes which loom up before you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sheriff",
+              "original": "To dream of seeing a sheriff, denotes that you will suffer great uneasiness over the uncertain changes which loom up before you.",
+              "translation_ko": "보안관을 보는 꿈은, 눈앞에 닥친 불확실한 변화로 큰 불안을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신이 보안관으로 뽑히거나 그 자리에 관심을 가짐",
+          "interpretation_ko": "이익도 명예도 없는 일에 관여할 조짐",
+          "interpretation_en": "denotes that you will participate in some affair which will afford you neither profit nor honor",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sheriff",
+              "original": "To imagine that you are elected sheriff or feel interested in the office, denotes that you will participate in some affair which will afford you neither profit nor honor.",
+              "translation_ko": "자신이 보안관으로 뽑히거나 그 자리에 관심을 가지는 꿈은, 이익도 명예도 없는 일에 관여할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "체포를 피해 달아남",
+          "interpretation_ko": "불법한 일에 더 깊이 발을 들일 조짐",
+          "interpretation_en": "you will be able to further engage in illicit affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sheriff",
+              "original": "To escape arrest, you will be able to further engage in illicit affairs.",
+              "translation_ko": "체포를 피해 달아나는 꿈은, 불법한 일에 더 깊이 발을 들일 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "siblings",
       "term_ko": "형제",
       "term_en": "siblings",
@@ -105276,6 +105365,190 @@
       ]
     },
     {
+      "id": "sheet-iron",
+      "term_ko": "함석",
+      "term_en": "sheet iron",
+      "aliases": [
+        "함석지붕",
+        "양철판"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "함석을 봄",
+          "interpretation_ko": "부지불식간 남의 훈계를 듣고 있는 조짐",
+          "interpretation_en": "denotes you are unfortunately listening to the admonition of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sheet Iron",
+              "original": "To see sheet iron in your dream, denotes you are unfortunately listening to the admonition of others.",
+              "translation_ko": "함석을 보는 꿈은, 부지불식간 남의 훈계를 듣고 있는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "함석 위를 걸음",
+          "interpretation_ko": "달갑잖은 약속에 얽매일 조짐",
+          "interpretation_en": "signifies distasteful engagements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sheet Iron",
+              "original": "To walk on it, signifies distasteful engagements.",
+              "translation_ko": "함석 위를 걷는 꿈은, 달갑잖은 약속에 얽매일 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "term_ko": "피신처",
+      "term_en": "shelter",
+      "aliases": [
+        "피신처를",
+        "대피처"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "피신처를 지음",
+          "interpretation_ko": "적의 흉계를 피할 조짐",
+          "interpretation_en": "signifies that you will escape the evil designs of enemies",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shelter",
+              "original": "To dream that you are building a shelter, signifies that you will escape the evil designs of enemies.",
+              "translation_ko": "피신처를 짓는 꿈은, 적의 흉계를 피할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "피신처를 찾음",
+          "interpretation_ko": "속임수를 저지르고 스스로 정당화하려 애쓸 조짐",
+          "interpretation_en": "you will be guilty of cheating, and will try to justify yourself",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shelter",
+              "original": "If you are seeking shelter, you will be guilty of cheating, and will try to justify yourself.",
+              "translation_ko": "피신처를 찾는 꿈은, 속임수를 저지르고 스스로 정당화하려 애쓸 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shelves",
+      "term_ko": "선반",
+      "term_en": "shelves",
+      "aliases": [
+        "선반이",
+        "선반에"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "빈 선반을 봄",
+          "interpretation_ko": "손실과 그로 인한 우울의 조짐",
+          "interpretation_en": "indicates losses and consequent gloom",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shelves",
+              "original": "To see empty shelves in dreams, indicates losses and consequent gloom.",
+              "translation_ko": "빈 선반을 보는 꿈은, 손실과 그로 인한 우울의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "가득 찬 선반을 봄",
+          "interpretation_ko": "바라던 일과 애쓴 것이 이뤄져 행복한 만족을 누릴 조짐",
+          "interpretation_en": "augurs happy contentment through the fulfillment of hope and exertions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shelves",
+              "original": "Full shelves, augurs happy contentment through the fulfillment of hope and exertions.",
+              "translation_ko": "가득 찬 선반을 보는 꿈은, 바라던 일과 애쓴 것이 이뤄져 행복한 만족을 누릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shepherd",
+      "term_ko": "목자",
+      "term_en": "shepherd",
+      "aliases": [
+        "목자가",
+        "양치기"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "목자가 양떼를 지켜봄",
+          "interpretation_ko": "농부에게는 풍성한 수확과 좋은 관계를, 남에게는 큰 즐거움과 이익을 가져올 조짐",
+          "interpretation_en": "portends bounteous crops and pleasant relations for the farmer, also much enjoyment and profit for others",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shepherd",
+              "original": "To see shepherds in your dreams watching their flocks, portends bounteous crops and pleasant relations for the farmer, also much enjoyment and profit for others.",
+              "translation_ko": "목자가 양떼를 지켜보는 꿈은, 농부에게는 풍성한 수확과 좋은 관계를, 남에게는 큰 즐거움과 이익을 가져올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목자가 게으름을 피움",
+          "interpretation_ko": "질병과 사별의 조짐",
+          "interpretation_en": "foretells sickness and bereavement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shepherd",
+              "original": "To see them in idleness, foretells sickness and bereavement.",
+              "translation_ko": "목자가 게으름을 피우는 꿈은, 질병과 사별의 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "shooting-an-arrow",
       "term_ko": "활쏘기",
       "term_en": "shooting an arrow",
@@ -118284,6 +118557,38 @@
               "locator": "Sentry",
               "original": "To dream of a sentry, denotes that you will have kind protectors, and your life will be smoothly conducted.",
               "translation_ko": "보초 꿈은, 다정한 보호자를 두고 삶이 순탄히 흘러갈 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shells",
+      "term_ko": "조개껍데기",
+      "term_en": "shells",
+      "aliases": [
+        "조개껍질",
+        "조가비"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "조개껍데기 사이를 걸으며 주움",
+          "interpretation_ko": "사치를 부릴 조짐. 즐거움은 애타는 후회와 기억만 남길 것",
+          "interpretation_en": "denotes extravagance. Pleasure will leave you naught but exasperating regrets and memories",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shells",
+              "original": "To walk among and gather shells in your dream, denotes extravagance. Pleasure will leave you naught but exasperating regrets and memories.",
+              "translation_ko": "조개껍데기 사이를 걸으며 줍는 꿈은, 사치를 부릴 조짐이다. 즐거움은 애타는 후회와 기억만 남길 것이다"
             }
           ]
         }

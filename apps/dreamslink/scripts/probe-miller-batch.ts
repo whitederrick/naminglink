@@ -1,6 +1,7 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 243 — Shakspeare·Shark·Shaving·Shawl, 기존 hut·washing-one-s-hair에
-// 판잣집·머리 감는 것을 지켜봄 붙임. Shears·Sheaves는 기존 가위·벼와 같은 그림이라 건너뜀)
+// (지금 담긴 것: 배치 244 — Sheet Iron·Shells·Shelter·Shelves·Shepherd·Sheriff,
+// 기존 sheep에 양떼·야윈 양 붙임. Sheep의 shearing·eat-flesh 문장은 기존 Lamb의
+// 같은 그림이라 건너뜀. bailiff의 "a sheriff" EN 별칭을 sheriff에 넘겼다)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -31,28 +32,24 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "shakspeare", ctx: "셰익스피어 꿈을 꿈", text: "셰익스피어 꿈을 꾸었다" },
-  { id: "shakspeare", ctx: "셰익스피어의 작품을 읽음", text: "셰익스피어의 작품을 읽었다" },
-  { id: "shark", ctx: "상어 꿈을 꿈", text: "상어 꿈을 꾸었다" },
-  { id: "shark", ctx: "상어가 쫓아와 공격함", text: "상어가 쫓아와 공격했다" },
-  { id: "shark", ctx: "맑은 물에서 노니는 상어를 봄", text: "맑은 물에서 노니는 상어를 보았다" },
-  { id: "shark", ctx: "죽은 상어를 봄", text: "죽은 상어를 보았다" },
-  { id: "shaving", ctx: "면도할 생각만 함", text: "면도할 생각만 했다" },
-  { id: "shaving", ctx: "남에게 면도를 받음", text: "남에게 면도를 받았다" },
-  { id: "shaving", ctx: "스스로 면도함", text: "스스로 면도했다" },
-  { id: "shaving", ctx: "면도 후 얼굴이 매끈함", text: "면도 후 얼굴이 매끈했다" },
-  { id: "shaving", ctx: "면도 후 얼굴이 늙고 거칢", text: "면도 후 얼굴이 늙고 거칠었다" },
-  { id: "shaving", ctx: "무딘 면도날에 얼굴이 당김", text: "무딘 면도날에 얼굴이 당겼다" },
-  { id: "shaving", ctx: "면도 중 수염이 세어 보임", text: "면도 중 수염이 세어 보였다" },
-  { id: "shaving", ctx: "여성이 남자들이 면도하는 것을 봄", text: "여성이 남자들이 면도하는 것을 보았다" },
-  { id: "shaving", ctx: "여성이 면도당하는 꿈을 꿈", text: "여성이 면도당하는 꿈을 꾸었다" },
-  { id: "shawl", ctx: "숄 꿈을 꿈", text: "숄 꿈을 꾸었다" },
-  { id: "shawl", ctx: "숄을 잃어버림", text: "숄을 잃어버렸다" },
-  { id: "hut", ctx: "판잣집 꿈을 꿈", text: "판잣집 꿈을 꾸었다" },
-  { id: "washing-one-s-hair", ctx: "남이 머리 감는 것을 지켜봄", text: "남이 머리 감는 것을 지켜보았다" },
-  // 지킴 — 이번에 손댄 기존 상징(hut·washing-one-s-hair)의 옛 답이 그대로인가
-  { id: "hut", ctx: "오두막을 봄", text: "오두막을 보았다" },
-  { id: "washing-one-s-hair", ctx: "머리를 감음", text: "머리를 감았다" },
+  { id: "sheep", ctx: "양떼를 봄", text: "양떼를 보았다" },
+  { id: "sheep", ctx: "야위고 병든 양을 봄", text: "야위고 병든 양을 보았다" },
+  { id: "sheet-iron", ctx: "함석을 봄", text: "함석을 보았다" },
+  { id: "sheet-iron", ctx: "함석 위를 걸음", text: "함석 위를 걸었다" },
+  { id: "shells", ctx: "조개껍데기 사이를 걸으며 주움", text: "조개껍데기 사이를 걸으며 주웠다" },
+  { id: "shelter", ctx: "피신처를 지음", text: "피신처를 지었다" },
+  { id: "shelter", ctx: "피신처를 찾음", text: "피신처를 찾았다" },
+  { id: "shelves", ctx: "빈 선반을 봄", text: "빈 선반을 보았다" },
+  { id: "shelves", ctx: "가득 찬 선반을 봄", text: "가득 찬 선반을 보았다" },
+  { id: "shepherd", ctx: "목자가 양떼를 지켜봄", text: "목자가 양떼를 지켜보았다" },
+  { id: "shepherd", ctx: "목자가 게으름을 피움", text: "목자가 게으름을 피웠다" },
+  { id: "sheriff", ctx: "보안관을 봄", text: "보안관을 보았다" },
+  { id: "sheriff", ctx: "자신이 보안관으로 뽑히거나 그 자리에 관심을 가짐", text: "자신이 보안관으로 뽑혔다" },
+  { id: "sheriff", ctx: "체포를 피해 달아남", text: "보안관에게 체포될 뻔했으나 피해 달아났다" },
+  // 지킴 — 이번에 손댄 기존 상징(sheep·bailiff)의 옛 답이 그대로인가
+  { id: "sheep", ctx: "어린 양의 털을 깎음", text: "어린 양의 털을 깎았다" },
+  { id: "sheep", ctx: "양고기를 먹음", text: "양고기를 먹었다" },
+  { id: "bailiff", ctx: "집행관 꿈을 꿈", text: "집행관 꿈을 꾸었다" },
 ];
 
 let notFound = 0;

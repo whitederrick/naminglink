@@ -2918,7 +2918,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "bailiff": [
     "a court officer",
-    "a sheriff",
     "a debt collector"
   ],
   "bake-house": [
@@ -7450,5 +7449,27 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "shawl": [
     "a shawl",
     "your shawl"
+  ],
+  "sheet-iron": [
+    "sheet iron"
+  ],
+  "shells": [
+    "shells",
+    "a shell"
+  ],
+  "shelter": [
+    "a shelter",
+    "shelter"
+  ],
+  "shelves": [
+    "shelves"
+  ],
+  "shepherd": [
+    "a shepherd",
+    "shepherds"
+  ],
+  "sheriff": [
+    "a sheriff",
+    "sheriff"
   ]
 };
