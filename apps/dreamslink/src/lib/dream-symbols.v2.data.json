@@ -129,6 +129,7 @@
     "m211.json",
     "m212.json",
     "m213.json",
+    "m214.json",
     "m22.json",
     "m23.json",
     "m24.json",
@@ -91386,6 +91387,53 @@
       ]
     },
     {
+      "id": "hotel-register",
+      "term_ko": "숙박부",
+      "term_en": "hotel-register",
+      "aliases": [
+        "숙박부가",
+        "숙박부에",
+        "숙박부를"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남이 저 대신 숙박부에 이름을 적어 줌",
+          "interpretation_ko": "제가 시작한 일을 남이 마무리 지을 조짐",
+          "interpretation_en": "denotes you will undertake some work which will be finished by others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Register",
+              "original": "To dream that some one registers your name at a hotel for you, denotes you will undertake some work which will be finished by others.",
+              "translation_ko": "남이 저 대신 숙박부에 이름을 적어 주는 꿈은, 제가 시작한 일을 남이 마무리 지을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "가명으로 숙박부에 이름을 적음",
+          "interpretation_ko": "죄책감을 안길 떳떳지 못한 일에 휘말릴 조짐",
+          "interpretation_en": "you will engage in some guilty enterprise which will give you much uneasiness of mind",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Register",
+              "original": "If you register under an assumed name, you will engage in some guilty enterprise which will give you much uneasiness of mind.",
+              "translation_ko": "가명으로 숙박부에 이름을 적는 꿈은, 죄책감을 안길 떳떳지 못한 일에 휘말릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "housekeeper",
       "term_ko": "가정부",
       "term_en": "housekeeper",
@@ -99600,6 +99648,99 @@
               "locator": "Raspberry",
               "original": "For a woman to eat them, means distress over circumstantial evidence in some occurrence causing gossip.",
               "translation_ko": "여성이 나무딸기를 먹는 꿈은, 구설을 낳는 일의 정황 증거로 괴로울 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refrigerator",
+      "term_ko": "냉장고",
+      "term_en": "refrigerator",
+      "aliases": [
+        "냉장고가",
+        "냉장고를",
+        "냉장고에"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "냉장고를 봄",
+          "interpretation_ko": "정직하게 생계를 꾸리려는 이를 이기심으로 화나게 하고 해칠 조짐",
+          "interpretation_en": "portends that your selfishness will offend and injure some one who endeavors to gain an honest livelihood",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Refrigerator",
+              "original": "To see a refrigerator in your dreams, portends that your selfishness will offend and injure some one who endeavors to gain an honest livelihood.",
+              "translation_ko": "냉장고를 보는 꿈은, 정직하게 생계를 꾸리려는 이를 이기심으로 화나게 하고 해칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "냉장고에 얼음을 넣음",
+          "interpretation_ko": "남의 눈총을 살 조짐",
+          "interpretation_en": "brings the dreamer into disfavor",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Refrigerator",
+              "original": "To put ice in one, brings the dreamer into disfavor.",
+              "translation_ko": "냉장고에 얼음을 넣는 꿈은, 남의 눈총을 살 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reindeer",
+      "term_ko": "순록",
+      "term_en": "reindeer",
+      "aliases": [
+        "순록이",
+        "순록을"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "순록 꿈을 꿈",
+          "interpretation_ko": "책무를 충실히 다하고 역경에 처한 벗에게 의리를 지킬 조짐",
+          "interpretation_en": "signifies faithful discharge of duties, and remaining staunch to friends in their adversity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Reindeer",
+              "original": "To dream of a reindeer, signifies faithful discharge of duties, and remaining staunch to friends in their adversity.",
+              "translation_ko": "순록 꿈은, 책무를 충실히 다하고 역경에 처한 벗에게 의리를 지킬 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "순록을 몲",
+          "interpretation_ko": "쓰라린 고통의 시간을 보내지만 벗들이 곁을 지켜 줄 조짐",
+          "interpretation_en": "foretells that you will have hours of bitter anguish, but friends will attend you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Reindeer",
+              "original": "To drive them, foretells that you will have hours of bitter anguish, but friends will attend you.",
+              "translation_ko": "순록을 모는 꿈은, 쓰라린 고통의 시간을 보내지만 벗들이 곁을 지켜 줄 조짐이다"
             }
           ]
         }

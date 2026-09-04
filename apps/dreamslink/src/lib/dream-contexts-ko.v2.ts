@@ -5355,5 +5355,11 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "reapers::추수꾼이 바삐 일하는 것을 봄": "바삐 일하는 번영",
   "reapers::추수꾼이 마른 그루터기 사이를 지나감": "마른 그루터기 흉작",
   "reapers::추수꾼들이 게으름을 피우는 것을 봄": "게으름 낙담할",
-  "reapers::부서진 수확기를 봄": "부서진 수확기 일자리"
+  "reapers::부서진 수확기를 봄": "부서진 수확기 일자리",
+  "refrigerator::냉장고를 봄": "이기심 해칠",
+  "refrigerator::냉장고에 얼음을 넣음": "얼음을 눈총을",
+  "hotel-register::남이 저 대신 숙박부에 이름을 적어 줌": "적어 마무리",
+  "hotel-register::가명으로 숙박부에 이름을 적음": "가명으로 죄책감",
+  "reindeer::순록 꿈을 꿈": "책무 의리",
+  "reindeer::순록을 몲": "몰았다 고통"
 };

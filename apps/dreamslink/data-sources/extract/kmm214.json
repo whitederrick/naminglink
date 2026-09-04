@@ -1,0 +1,41 @@
+[
+  {
+    "id": "refrigerator",
+    "aliases": ["냉장고가", "냉장고를", "냉장고에"],
+    "aliases_en": ["a refrigerator", "refrigerators"],
+    "contexts": {
+      "냉장고를 봄": "이기심 해칠",
+      "냉장고에 얼음을 넣음": "얼음을 눈총을"
+    },
+    "contexts_en": {
+      "냉장고를 봄": "selfishness offend injure",
+      "냉장고에 얼음을 넣음": "ice disfavor"
+    }
+  },
+  {
+    "id": "hotel-register",
+    "aliases": ["숙박부가", "숙박부에", "숙박부를"],
+    "aliases_en": ["a hotel register", "register at a hotel"],
+    "contexts": {
+      "남이 저 대신 숙박부에 이름을 적어 줌": "적어 마무리",
+      "가명으로 숙박부에 이름을 적음": "가명으로 죄책감"
+    },
+    "contexts_en": {
+      "남이 저 대신 숙박부에 이름을 적어 줌": "undertake finished others",
+      "가명으로 숙박부에 이름을 적음": "assumed guilty uneasiness"
+    }
+  },
+  {
+    "id": "reindeer",
+    "aliases": ["순록이", "순록을"],
+    "aliases_en": ["a reindeer", "reindeer"],
+    "contexts": {
+      "순록 꿈을 꿈": "책무 의리",
+      "순록을 몲": "몰았다 고통"
+    },
+    "contexts_en": {
+      "순록 꿈을 꿈": "faithful duties staunch",
+      "순록을 몲": "drive anguish attend"
+    }
+  }
+]

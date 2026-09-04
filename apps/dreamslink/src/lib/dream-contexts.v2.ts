@@ -5351,5 +5351,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "reapers::추수꾼이 바삐 일하는 것을 봄": "busy prosperity contentment",
   "reapers::추수꾼이 마른 그루터기 사이를 지나감": "stubble crops fall",
   "reapers::추수꾼들이 게으름을 피우는 것을 봄": "idle discouraging",
-  "reapers::부서진 수확기를 봄": "broken employment disappointment"
+  "reapers::부서진 수확기를 봄": "broken employment disappointment",
+  "refrigerator::냉장고를 봄": "selfishness offend injure",
+  "refrigerator::냉장고에 얼음을 넣음": "ice disfavor",
+  "hotel-register::남이 저 대신 숙박부에 이름을 적어 줌": "undertake finished others",
+  "hotel-register::가명으로 숙박부에 이름을 적음": "assumed guilty uneasiness",
+  "reindeer::순록 꿈을 꿈": "faithful duties staunch",
+  "reindeer::순록을 몲": "drive anguish attend"
 };
