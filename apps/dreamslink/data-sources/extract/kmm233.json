@@ -1,0 +1,107 @@
+[
+  {
+    "id": "ruins",
+    "aliases": [
+      "폐허",
+      "잔해"
+    ],
+    "aliases_en": [
+      "ruins",
+      "ancient ruins"
+    ],
+    "contexts": {
+      "폐허 꿈을 꿈": "파혼 사업이힘겨 농작물 건강이나빠",
+      "고대 폐허를 봄": "고대 여행을떠 소망 벗의부재"
+    },
+    "contexts_en": {
+      "폐허 꿈을 꿈": "broken engagements crops health",
+      "고대 폐허를 봄": "extensively realization absence"
+    }
+  },
+  {
+    "id": "running",
+    "aliases": [
+      "달리기",
+      "뜀박질",
+      "달렸다",
+      "달리는",
+      "달리다가",
+      "달아났다",
+      "달아나는",
+      "뛰어다니는"
+    ],
+    "aliases_en": [
+      "running",
+      "a race"
+    ],
+    "contexts": {
+      "남들과 함께 달림": "남들과 함께 축제 참여",
+      "달리다가 발을 헛디디거나 넘어짐": "헛디뎠 헛디디 넘어짐 넘어져",
+      "혼자 달림": "혼자 앞서고 높은자리",
+      "위험을 피해 달아남": "위험을 피해 절망",
+      "남이 그렇게 달아나는 것을 봄": "남이 그렇게 몰락위협",
+      "가축이 뛰어다니는 것을 봄": "가축이 뛰어다니 새거래"
+    },
+    "contexts_en": {
+      "남들과 함께 달림": "company festivity growing",
+      "달리다가 발을 헛디디거나 넘어짐": "stumble tumble lose",
+      "혼자 달림": "alone outstrip higher",
+      "위험을 피해 달아남": "danger threatened despair",
+      "남이 그렇게 달아나는 것을 봄": "others oppressed downfall",
+      "가축이 뛰어다니는 것을 봄": "stock careful trades"
+    }
+  },
+  {
+    "id": "rupture",
+    "aliases": [
+      "탈장",
+      "탈장되었다",
+      "탈장된"
+    ],
+    "aliases_en": [
+      "a rupture",
+      "ruptured"
+    ],
+    "contexts": {
+      "자신이 탈장됨": "자신이 몸의이상 불쾌한다툼",
+      "남이 탈장된 것을 봄": "남이 화해하기힘든 다툼에휘말"
+    },
+    "contexts_en": {
+      "자신이 탈장됨": "physical disorders contentions",
+      "남이 탈장된 것을 봄": "others irreconcilable quarrels"
+    }
+  },
+  {
+    "id": "rust",
+    "aliases": [
+      "녹슨",
+      "녹이"
+    ],
+    "aliases_en": [
+      "rust",
+      "rusty"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "rye",
+    "aliases": [
+      "호밀",
+      "호밀밭"
+    ],
+    "aliases_en": [
+      "rye"
+    ],
+    "contexts": {
+      "호밀을 봄": "번영이 밝은약속",
+      "호밀로 만든 커피를 봄": "커피를 건전한판단 불화없이",
+      "가축이 호밀밭에 들어가는 것을 봄": "가축이 호밀밭 번영할"
+    },
+    "contexts_en": {
+      "호밀을 봄": "prosperity brightest promises",
+      "호밀로 만든 커피를 봄": "coffee sound judgment friction",
+      "가축이 호밀밭에 들어가는 것을 봄": "stock entering fields prosperous"
+    }
+  }
+]

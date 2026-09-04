@@ -7259,5 +7259,24 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "rudder": [
     "a rudder",
     "rudders"
+  ],
+  "ruins": [
+    "ruins",
+    "ancient ruins"
+  ],
+  "running": [
+    "running",
+    "a race"
+  ],
+  "rupture": [
+    "a rupture",
+    "ruptured"
+  ],
+  "rust": [
+    "rust",
+    "rusty"
+  ],
+  "rye": [
+    "rye"
   ]
 };

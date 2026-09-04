@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 232 — Rosette·Rouge·Roundabout·Rowboat·Rubber·Ruby·Rudder)
+// (지금 담긴 것: 배치 233 — Ruins·Rum·Running·Rupture·Rust·Rye)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,30 +30,24 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "rosette", ctx: "로제트를 걸치거나 남이 건 것을 봄", text: "로제트를 걸쳤다" },
-  { id: "rouge", ctx: "연지를 사용함", text: "연지를 사용했다" },
-  { id: "rouge", ctx: "남이 얼굴에 연지를 바른 것을 봄", text: "남이 얼굴에 연지를 바른 것을 보았다" },
-  { id: "rouge", ctx: "손이나 옷에 연지가 묻은 것을 봄", text: "손이나 옷에 연지가 묻은 것을 보았다" },
-  { id: "rouge", ctx: "얼굴에서 연지가 지워짐", text: "얼굴에서 연지가 지워졌다" },
-  { id: "roundabout", ctx: "회전목마를 봄", text: "회전목마를 보았다" },
-  { id: "rowboat", ctx: "남들과 함께 노 젓는 배를 탐", text: "남들과 함께 노 젓는 배를 탔다" },
-  { id: "rowboat", ctx: "배가 뒤집힘", text: "노 젓는 배가 뒤집혔다" },
-  { id: "rowboat", ctx: "조정 경기에서 짐", text: "조정 경기에서 졌다" },
-  { id: "rowboat", ctx: "조정 경기에서 이김", text: "조정 경기에서 이겼다" },
-  { id: "india-rubber", ctx: "고무 옷을 입음", text: "고무 옷을 입었다" },
-  { id: "india-rubber", ctx: "고무 옷이 해지거나 찢어짐", text: "고무 옷이 찢어졌다" },
-  { id: "india-rubber", ctx: "속어로 '고무'라는 말을 씀", text: "속어로 고무를 사용했다" },
-  { id: "india-rubber", ctx: "제 팔다리가 고무처럼 늘어남", text: "제 팔다리가 고무처럼 늘어났다" },
-  { id: "india-rubber", ctx: "고무 제품 꿈을 꿈", text: "고무 제품 꿈을 꾸었다" },
-  { id: "ruby", ctx: "루비 꿈을 꿈", text: "루비 꿈을 꾸었다" },
-  { id: "ruby", ctx: "여성이 루비를 잃어버림", text: "여성이 루비를 잃어버렸다" },
-  { id: "rudder", ctx: "방향키 꿈을 꿈", text: "방향키 꿈을 꾸었다" },
-  { id: "rudder", ctx: "부러진 방향키를 봄", text: "부러진 방향키를 보았다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(rouge·india-rubber)의 옛 답이 그대로인가
-  { id: "rouge", ctx: "연지를 얻음", text: "연지를 얻었다" },
-  { id: "rouge", ctx: "연지를 봄", text: "연지를 보았다" },
-  { id: "india-rubber", ctx: "고무를 봄", text: "고무를 보았다" },
-  { id: "india-rubber", ctx: "고무를 잡아 늘임", text: "고무를 잡아 늘였다" },
+  { id: "ruins", ctx: "폐허 꿈을 꿈", text: "폐허 꿈을 꾸었다" },
+  { id: "ruins", ctx: "고대 폐허를 봄", text: "고대 폐허를 보았다" },
+  { id: "liquor", ctx: "럼주를 마심", text: "럼주를 마셨다" },
+  { id: "running", ctx: "남들과 함께 달림", text: "남들과 함께 달렸다" },
+  { id: "running", ctx: "달리다가 발을 헛디디거나 넘어짐", text: "달리다가 발을 헛디뎠다" },
+  { id: "running", ctx: "혼자 달림", text: "혼자 달렸다" },
+  { id: "running", ctx: "위험을 피해 달아남", text: "위험을 피해 달아났다" },
+  { id: "running", ctx: "남이 그렇게 달아나는 것을 봄", text: "남이 그렇게 달아나는 것을 보았다" },
+  { id: "running", ctx: "가축이 뛰어다니는 것을 봄", text: "가축이 뛰어다니는 것을 보았다" },
+  { id: "rupture", ctx: "자신이 탈장됨", text: "자신이 탈장되었다" },
+  { id: "rupture", ctx: "남이 탈장된 것을 봄", text: "남이 탈장된 것을 보았다" },
+  { id: "rust", ctx: "물건이나 낡은 양철·쇠붙이에 슨 녹을 봄", text: "낡은 쇠붙이에 슨 녹을 보았다" },
+  { id: "rye", ctx: "호밀을 봄", text: "호밀을 보았다" },
+  { id: "rye", ctx: "호밀로 만든 커피를 봄", text: "호밀로 만든 커피를 보았다" },
+  { id: "rye", ctx: "가축이 호밀밭에 들어가는 것을 봄", text: "가축이 호밀밭에 들어가는 것을 보았다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(liquor)의 옛 답이 그대로인가
+  { id: "liquor", ctx: "술을 마심", text: "혼자 술을 마셨다" },
+  { id: "liquor", ctx: "술에 취하도록 마심", text: "술에 취하도록 마셨다" },
 ];
 
 let notFound = 0;

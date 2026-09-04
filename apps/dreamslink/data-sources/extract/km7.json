@@ -238,7 +238,8 @@
       "양주",
       "위스키",
       "술을",
-      "술이"
+      "술이",
+      "럼주"
     ],
     "aliases_en": [
       "alcohol",
@@ -259,7 +260,8 @@
       "술을 팜": "팔았 팔고 판매",
       "통에 든 술을 봄": "통에 나무통 술통",
       "병에 든 술을 봄": "병에 술병 유리병",
-      "여성이 술을 다루거나 마심": "여자가 여성이 아낙"
+      "여성이 술을 다루거나 마심": "여자가 여성이 아낙",
+      "럼주를 마심": "럼주를 부유해지겠 품격을잃"
     },
     "contexts_en": {
       "남이 권하는 술을 마심": "offered pouring urged poured",
@@ -274,7 +276,8 @@
       "술을 팜": "sell criticised niggardly benevolence",
       "통에 든 술을 봄": "barrels tendency home pleasant",
       "병에 든 술을 봄": "bottles tangible",
-      "여성이 술을 다루거나 마심": "handling Bohemian shallow contentment"
+      "여성이 술을 다루거나 마심": "handling Bohemian shallow contentment",
+      "럼주를 마심": "rum wealth refinement gross"
     }
   },
   {

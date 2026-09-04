@@ -1433,6 +1433,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "liquor::통에 든 술을 봄": "barrels tendency home pleasant",
   "liquor::병에 든 술을 봄": "bottles tangible",
   "liquor::여성이 술을 다루거나 마심": "handling Bohemian shallow contentment",
+  "liquor::럼주를 마심": "rum wealth refinement gross",
   "stone::강물 속의 모래와 돌": "river sand stream water",
   "stone::돌 위에 누움": "lying lay rested",
   "stone::돌을 옮겨 집에 들임": "carried brought home moved",
@@ -5497,5 +5498,18 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ruby::루비 꿈을 꿈": "lucky speculations business",
   "ruby::여성이 루비를 잃어버림": "woman lose indifference lover",
   "rudder::방향키 꿈을 꿈": "pleasant journey foreign friendships",
-  "rudder::부러진 방향키를 봄": "broken disappointment sickness"
+  "rudder::부러진 방향키를 봄": "broken disappointment sickness",
+  "ruins::폐허 꿈을 꿈": "broken engagements crops health",
+  "ruins::고대 폐허를 봄": "extensively realization absence",
+  "running::남들과 함께 달림": "company festivity growing",
+  "running::달리다가 발을 헛디디거나 넘어짐": "stumble tumble lose",
+  "running::혼자 달림": "alone outstrip higher",
+  "running::위험을 피해 달아남": "danger threatened despair",
+  "running::남이 그렇게 달아나는 것을 봄": "others oppressed downfall",
+  "running::가축이 뛰어다니는 것을 봄": "stock careful trades",
+  "rupture::자신이 탈장됨": "physical disorders contentions",
+  "rupture::남이 탈장된 것을 봄": "others irreconcilable quarrels",
+  "rye::호밀을 봄": "prosperity brightest promises",
+  "rye::호밀로 만든 커피를 봄": "coffee sound judgment friction",
+  "rye::가축이 호밀밭에 들어가는 것을 봄": "stock entering fields prosperous"
 };

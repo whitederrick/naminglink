@@ -1,0 +1,38 @@
+{
+  "batch": 233,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Ruins",
+      "text": "To dream of ruins, signifies broken engagements to lovers, distressing conditions in business, destruction to crops, and failing health. To dream of ancient ruins, foretells that you will travel extensively, but there will be a note of sadness mixed with the pleasure in the realization of a long-cherished hope. You will feel the absence of some friend.",
+      "note": "새 상징 `ruins`(폐허) — 두 그림"
+    },
+    {
+      "headword": "Rum",
+      "text": "To dream of drinking rum, foretells that you will have wealth, but will lack moral refinement, as you will lean to gross pleasures.",
+      "note": "기존 상징 `liquor`(술)에 하나를 더한다 — 원문 각주 [195] 'See other intoxicating drinks' 그대로 따른다"
+    },
+    {
+      "headword": "Running",
+      "text": "To dream of running in company with others, is a sign that you will participate in some festivity, and you will find that your affairs are growing towards fortune. If you stumble or fall, you will lose property and reputation. Running alone, indicates that you will outstrip your friends in the race for wealth, and you will occupy a higher place in social life. If you run from danger, you will be threatened with losses, and you will despair of adjusting matters agreeably. To see others thus running, you will be oppressed by the threatened downfall of friends. To see stock running, warns you to be careful in making new trades or undertaking new tasks.",
+      "note": "새 상징 `running`(달리기) — 여섯 그림"
+    },
+    {
+      "headword": "Rupture",
+      "text": "To dream that you are ruptured, denotes you will have physical disorders or disagreeable contentions. If it be others you see in this condition, you will be in danger of irreconcilable quarrels.",
+      "note": "새 상징 `rupture`(탈장) — 두 그림"
+    },
+    {
+      "headword": "Rust",
+      "text": "To dream of rust on articles, old pieces of tin, or iron, is significant of depression of your surroundings. Sickness, decline in fortune and false friends are filling your sphere.",
+      "note": "새 상징 `rust`(녹) — 한 그림"
+    },
+    {
+      "headword": "Rye",
+      "text": "To see rye, is a dream of good, as prosperity envelopes your future in brightest promises. To see coffee made of rye, denotes that your pleasures will be tempered with sound judgment, and your affairs will be managed without disagreeable friction. To see stock entering rye fields, denotes that you will be prosperous.",
+      "note": "새 상징 `rye`(호밀) — 세 그림"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}
