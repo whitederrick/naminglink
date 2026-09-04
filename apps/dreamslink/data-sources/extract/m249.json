@@ -1,0 +1,227 @@
+[
+  {
+    "term_ko": "중상모략",
+    "term_en": "calumny",
+    "context": "남을 비방함",
+    "interpretation_ko": "이기심 탓에 벗을 잃는 아픔을 느낄 조짐",
+    "interpretation_en": "you will feel the loss of friends through selfishness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Slander",
+      "original": "If you slander any one, you will feel the loss of friends through selfishness.",
+      "translation_ko": "남을 비방하는 꿈은, 이기심 탓에 벗을 잃는 아픔을 느낄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "도살장",
+    "term_en": "slaughter-house",
+    "context": "도살장 꿈을 꿈",
+    "interpretation_ko": "연인이나 정부에게 사랑보다 두려움의 대상이 될 조짐. 사업이 은밀한 결함을 드러내고 매정한 뒷말이 있을 것",
+    "interpretation_en": "denotes that you will be feared more than loved by your sweetheart or mistress. Your business will divulge a private drain, and there will be unkind insinuations",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Slaughter-house",
+      "original": "To dream of a slaughter-house, denotes that you will be feared more than loved by your sweetheart or mistress. Your business will divulge a private drain, and there will be unkind insinuations.",
+      "translation_ko": "도살장 꿈은, 연인이나 정부에게 사랑보다 두려움의 대상이 될 조짐이다. 사업이 은밀한 결함을 드러내고 매정한 뒷말이 있을 것이다"
+    }
+  },
+  {
+    "term_ko": "잠",
+    "term_en": "sleep",
+    "context": "깨끗하고 산뜻한 잠자리에서 잠",
+    "interpretation_ko": "사랑하는 이들에게서 평온과 호의를 얻을 조짐",
+    "interpretation_en": "denotes peace and favor from those whom you love",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sleep",
+      "original": "To dream of sleeping on clean, fresh beds, denotes peace and favor from those whom you love.",
+      "translation_ko": "깨끗하고 산뜻한 잠자리에서 자는 꿈은, 사랑하는 이들에게서 평온과 호의를 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "잠",
+    "term_en": "sleep",
+    "context": "부자연스러운 곳에서 잠",
+    "interpretation_ko": "질병과 파혼의 조짐",
+    "interpretation_en": "foretells sickness and broken engagements",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sleep",
+      "original": "To sleep in unnatural resting places, foretells sickness and broken engagements.",
+      "translation_ko": "부자연스러운 곳에서 자는 꿈은, 질병과 파혼의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "잠",
+    "term_en": "sleep",
+    "context": "어린아이 곁에서 잠",
+    "interpretation_ko": "집안의 기쁨과 서로 화답하는 사랑의 조짐",
+    "interpretation_en": "betokens domestic joys and reciprocated love",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sleep",
+      "original": "To sleep beside a little child, betokens domestic joys and reciprocated love.",
+      "translation_ko": "어린아이 곁에서 자는 꿈은, 집안의 기쁨과 서로 화답하는 사랑의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "잠",
+    "term_en": "sleep",
+    "context": "남이 잠자는 것을 봄",
+    "interpretation_ko": "여성의 호의를 얻으려는 노력에서 모든 반대를 이겨낼 조짐",
+    "interpretation_en": "you will overcome all opposition in your pursuit for woman's favor",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sleep",
+      "original": "To see others sleeping, you will overcome all opposition in your pursuit for woman's favor.",
+      "translation_ko": "남이 잠자는 것을 보는 꿈은, 여성의 호의를 얻으려는 노력에서 모든 반대를 이겨낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "잠",
+    "term_en": "sleep",
+    "context": "혐오스러운 사람이나 물건과 함께 잠",
+    "interpretation_ko": "연인보다 사랑이 먼저 식어 그동안의 탈선에 대가를 치를 조짐",
+    "interpretation_en": "warns you that your love will wane before that of your sweetheart, and you will suffer for your escapades",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sleep",
+      "original": "To dream of sleeping with a repulsive person or object, warns you that your love will wane before that of your sweetheart, and you will suffer for your escapades.",
+      "translation_ko": "혐오스러운 사람이나 물건과 함께 자는 꿈은, 연인보다 사랑이 먼저 식어 그동안의 탈선에 대가를 치를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "잠",
+    "term_en": "sleep",
+    "context": "여성이 애인이나 매혹적인 것과 함께 자는 꿈을 꿈",
+    "interpretation_ko": "그의 매력에 기꺼이 희생물이 되지 말라는 경고",
+    "interpretation_en": "warns her against yielding herself a willing victim to his charms",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sleep",
+      "original": "For a young woman to dream of sleeping with her lover or some fascinating object, warns her against yielding herself a willing victim to his charms.",
+      "translation_ko": "여성이 애인이나 매혹적인 것과 함께 자는 꿈은, 그의 매력에 기꺼이 희생물이 되지 말라는 경고이다"
+    }
+  },
+  {
+    "term_ko": "썰매",
+    "term_en": "sleigh",
+    "context": "썰매를 봄",
+    "interpretation_ko": "연애에 실패하고 벗의 불쾌감을 살 조짐",
+    "interpretation_en": "foretells you will fail in some love adventure, and incur the displeasure of a friend",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Sleigh",
+      "original": "To see a sleigh in your dreams, foretells you will fail in some love adventure, and incur the displeasure of a friend.",
+      "translation_ko": "썰매를 보는 꿈은, 연애에 실패하고 벗의 불쾌감을 살 조짐이다"
+    }
+  },
+  {
+    "term_ko": "썰매",
+    "term_en": "sleigh",
+    "context": "썰매를 탐",
+    "interpretation_ko": "경솔한 약속을 맺게 될 조짐",
+    "interpretation_en": "foretells injudicious engagements will be entered into by you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sleigh",
+      "original": "To ride in one, foretells injudicious engagements will be entered into by you.",
+      "translation_ko": "썰매를 타는 꿈은, 경솔한 약속을 맺게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "미끄러지기",
+    "term_en": "sliding",
+    "context": "미끄러지는 꿈을 꿈",
+    "interpretation_ko": "일에서 실망을 겪고 연인이 맹세를 저버릴 조짐",
+    "interpretation_en": "portends disappointments in affairs, and sweethearts will break vows",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sliding",
+      "original": "To dream of sliding, portends disappointments in affairs, and sweethearts will break vows.",
+      "translation_ko": "미끄러지는 꿈은, 일에서 실망을 겪고 연인이 맹세를 저버릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "미끄러지기",
+    "term_en": "sliding",
+    "context": "푸른 잔디로 덮인 언덕을 미끄러져 내려감",
+    "interpretation_ko": "듣기 좋은 약속에 속아 파멸에 이를 조짐",
+    "interpretation_en": "foretells that you will be deceived into ruin by flattering promises",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sliding",
+      "original": "To slide down a hillside covered with green grass, foretells that you will be deceived into ruin by flattering promises.",
+      "translation_ko": "푸른 잔디로 덮인 언덕을 미끄러져 내려가는 꿈은, 듣기 좋은 약속에 속아 파멸에 이를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "모욕당함",
+    "term_en": "being humiliated",
+    "context": "남을 무시하거나 소홀히 대함",
+    "interpretation_ko": "음침하고 냉담한 태도를 기르게 되어 행복을 찾지 못할 조짐",
+    "interpretation_en": "denotes that you will fail to find happiness, as you will cultivate a morose and repellent bearing",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Slighted",
+      "original": "To dream of slighting any person or friend, denotes that you will fail to find happiness, as you will cultivate a morose and repellent bearing.",
+      "translation_ko": "남을 무시하거나 소홀히 대하는 꿈은, 음침하고 냉담한 태도를 기르게 되어 행복을 찾지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "신발",
+    "term_en": "shoes",
+    "context": "슬리퍼 꿈을 꿈",
+    "interpretation_ko": "불행한 결연이나 밀통을 저지르려 하고 있다는 경고. 기혼자의 호의를 얻어 추문까지는 아니어도 곤란을 겪을 조짐",
+    "interpretation_en": "warns you that you are about to perform an unfortunate alliance or intrigue. You are likely to find favor with a married person which will result in trouble, if not scandal",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Slippers",
+      "original": "To dream of slippers, warns you that you are about to perform an unfortunate alliance or intrigue. You are likely to find favor with a married person which will result in trouble, if not scandal.",
+      "translation_ko": "슬리퍼 꿈은, 불행한 결연이나 밀통을 저지르려 하고 있다는 경고이다. 기혼자의 호의를 얻어 추문까지는 아니어도 곤란을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "신발",
+    "term_en": "shoes",
+    "context": "슬리퍼를 남들이 크게 칭찬함",
+    "interpretation_ko": "불장난에 휘말려 망신을 살 조짐",
+    "interpretation_en": "foretells that you will be involved in a flirtation, which will suggest disgrace",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Slippers",
+      "original": "To dream that your slippers are much admired, foretells that you will be involved in a flirtation, which will suggest disgrace.",
+      "translation_ko": "슬리퍼를 남들이 크게 칭찬하는 꿈은, 불장난에 휘말려 망신을 살 조짐이다"
+    }
+  }
+]

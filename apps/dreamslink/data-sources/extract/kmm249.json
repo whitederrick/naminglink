@@ -1,0 +1,81 @@
+[
+  {
+    "id": "slaughter-house",
+    "aliases": [
+      "도살장을",
+      "도축장"
+    ],
+    "aliases_en": [
+      "a slaughter-house"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "sleep",
+    "aliases": [
+      "잠자리에서",
+      "잠자는",
+      "잠들었다",
+      "함께 잠",
+      "함께 자는"
+    ],
+    "aliases_en": [
+      "sleeping",
+      "asleep"
+    ],
+    "contexts": {
+      "깨끗하고 산뜻한 잠자리에서 잠": "깨끗하고 산뜻한 평온과",
+      "부자연스러운 곳에서 잠": "부자연스러운 질병과 파혼",
+      "어린아이 곁에서 잠": "어린아이 곁에서 집안의 기쁨",
+      "남이 잠자는 것을 봄": "남이 여성의 호의 반대를",
+      "혐오스러운 사람이나 물건과 함께 잠": "혐오스러운 사랑이 먼저 식어",
+      "여성이 애인이나 매혹적인 것과 함께 자는 꿈을 꿈": "매혹적인 희생물이 그의 매력"
+    },
+    "contexts_en": {
+      "깨끗하고 산뜻한 잠자리에서 잠": "clean fresh beds peace",
+      "부자연스러운 곳에서 잠": "unnatural resting sickness",
+      "어린아이 곁에서 잠": "little child domestic",
+      "남이 잠자는 것을 봄": "others overcome opposition",
+      "혐오스러운 사람이나 물건과 함께 잠": "repulsive object wane",
+      "여성이 애인이나 매혹적인 것과 함께 자는 꿈을 꿈": "fascinating victim charms"
+    }
+  },
+  {
+    "id": "sleigh",
+    "aliases": [
+      "썰매를",
+      "썰매가"
+    ],
+    "aliases_en": [
+      "a sleigh"
+    ],
+    "contexts": {
+      "썰매를 봄": "연애에 실패하고 불쾌감을",
+      "썰매를 탐": "탔다 경솔한 약속을"
+    },
+    "contexts_en": {
+      "썰매를 봄": "fail adventure displeasure",
+      "썰매를 탐": "ride injudicious engagements"
+    }
+  },
+  {
+    "id": "sliding",
+    "aliases": [
+      "미끄러지는",
+      "미끄러져 내려갔다"
+    ],
+    "aliases_en": [
+      "sliding",
+      "slide down"
+    ],
+    "contexts": {
+      "미끄러지는 꿈을 꿈": "일에서 실망을 맹세를 저버릴",
+      "푸른 잔디로 덮인 언덕을 미끄러져 내려감": "잔디로 덮인 언덕을 듣기 좋은"
+    },
+    "contexts_en": {
+      "미끄러지는 꿈을 꿈": "disappointments affairs vows",
+      "푸른 잔디로 덮인 언덕을 미끄러져 내려감": "hillside grass flattering"
+    }
+  }
+]

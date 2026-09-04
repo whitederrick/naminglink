@@ -1,7 +1,7 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 248 — Silver·Single·Skating·Skeleton·Skull. Singing은 기존
-// song(노래)의 EN 별칭 "singing"과 이름이 겹쳐 song에 합침. bones가 쥐고 있던
-// "a skeleton"/"a skull", head가 쥐고 있던 "skull"을 새 상징에 넘겼다)
+// (지금 담긴 것: 배치 249 — Slaughter-house·Sleep·Sleigh·Sliding, 기존 calumny(중상모략)·
+// being-humiliated(모욕당함)·shoes(신발)에 각 붙임. Sky는 기존 상징이 이미 문맥 15개 넘는
+// 거대 상징이라 boat/horse와 같은 이유로 건너뜀)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -32,29 +32,25 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "silver", ctx: "은 꿈을 꿈", text: "은 꿈을 꾸었다" },
-  { id: "silver", ctx: "은화를 주움", text: "은화를 주웠다" },
-  { id: "silver", ctx: "은식기 꿈을 꿈", text: "은식기 꿈을 꾸었다" },
-  { id: "being-single", ctx: "기혼자가 자신이 미혼이라고 여기는 꿈을 꿈", text: "기혼자가 자신이 미혼이라고 여겼다" },
-  { id: "song", ctx: "노래하는 소리를 들음", text: "노래하는 소리를 들었다" },
-  { id: "song", ctx: "행복해 보이는 가운데 자신이 노래함", text: "행복해 보이는 가운데 자신이 노래했다" },
-  { id: "song", ctx: "노래에 슬픈 가락이 섞임", text: "노래에 슬픈 가락이 섞였다" },
-  { id: "song", ctx: "상스러운 노래를 부름", text: "상스러운 노래를 불렀다" },
-  { id: "skating", ctx: "얼음 위에서 스케이트를 탐", text: "얼음 위에서 스케이트를 탔다" },
-  { id: "skating", ctx: "얼음이 깨져 빠짐", text: "스케이트를 타다가 얼음이 깨져 빠졌다" },
-  { id: "skating", ctx: "남이 스케이트 타는 것을 봄", text: "남이 스케이트 타는 것을 보았다" },
-  { id: "skating", ctx: "스케이트를 봄", text: "스케이트 한 켤레를 보았다" },
-  { id: "skating", ctx: "젊은이들이 롤러스케이트를 타는 것을 봄", text: "젊은이들이 롤러스케이트를 타는 것을 보았다" },
-  { id: "skeleton", ctx: "해골을 봄", text: "해골을 보았다" },
-  { id: "skeleton", ctx: "자신이 해골이 됨", text: "자신이 해골이 되었다" },
-  { id: "skeleton", ctx: "해골이 자신을 따라다니며 괴롭힘", text: "해골이 자신을 따라다니며 괴롭혔다" },
-  { id: "skull", ctx: "두개골이 자신을 보며 웃음", text: "두개골이 자신을 보며 웃었다" },
-  { id: "skull", ctx: "두개골을 손으로 만짐", text: "두개골을 손으로 만졌다" },
-  { id: "skull", ctx: "벗의 두개골을 봄", text: "벗의 두개골을 보았다" },
-  { id: "skull", ctx: "자신의 두개골을 봄", text: "자신의 두개골을 보았다" },
-  // 지킴 — 이번에 손댄 기존 상징(song·bones·head)의 옛 답이 그대로인가
-  { id: "song", ctx: "노래하는 것을 봄", text: "노래하는 것을 보았다" },
-  { id: "bones", ctx: "뼈 무더기를 봄", text: "뼈 무더기를 보았다" },
+  { id: "calumny", ctx: "남을 비방함", text: "남을 비방했다" },
+  { id: "slaughter-house", ctx: "도살장 꿈을 꿈", text: "도살장 꿈을 꾸었다" },
+  { id: "sleep", ctx: "깨끗하고 산뜻한 잠자리에서 잠", text: "깨끗하고 산뜻한 잠자리에서 잠들었다" },
+  { id: "sleep", ctx: "부자연스러운 곳에서 잠", text: "부자연스러운 곳에서 잠들었다" },
+  { id: "sleep", ctx: "어린아이 곁에서 잠", text: "어린아이 곁에서 잠들었다" },
+  { id: "sleep", ctx: "남이 잠자는 것을 봄", text: "남이 잠자는 것을 보았다" },
+  { id: "sleep", ctx: "혐오스러운 사람이나 물건과 함께 잠", text: "혐오스러운 사람과 함께 잠들었다" },
+  { id: "sleep", ctx: "여성이 애인이나 매혹적인 것과 함께 자는 꿈을 꿈", text: "여성이 애인이나 매혹적인 것과 함께 자는 꿈을 꾸었다" },
+  { id: "sleigh", ctx: "썰매를 봄", text: "썰매를 보았다" },
+  { id: "sleigh", ctx: "썰매를 탐", text: "썰매를 탔다" },
+  { id: "sliding", ctx: "미끄러지는 꿈을 꿈", text: "미끄러지는 꿈을 꾸었다" },
+  { id: "sliding", ctx: "푸른 잔디로 덮인 언덕을 미끄러져 내려감", text: "푸른 잔디로 덮인 언덕을 미끄러져 내려갔다" },
+  { id: "being-humiliated", ctx: "남을 무시하거나 소홀히 대함", text: "남을 무시하거나 소홀히 대했다" },
+  { id: "shoes", ctx: "슬리퍼 꿈을 꿈", text: "슬리퍼 꿈을 꾸었다" },
+  { id: "shoes", ctx: "슬리퍼를 남들이 크게 칭찬함", text: "슬리퍼를 남들이 크게 칭찬했다" },
+  // 지킴 — 이번에 손댄 기존 상징(calumny·being-humiliated·shoes)의 옛 답이 그대로인가
+  { id: "calumny", ctx: "내가 중상모략의 대상이 됨", text: "내가 중상모략의 대상이 되었다" },
+  { id: "being-humiliated", ctx: "남에게 천대를 받음", text: "남에게 천대를 받았다" },
+  { id: "shoes", ctx: "신을 얻음", text: "신을 얻었다" },
 ];
 
 let notFound = 0;

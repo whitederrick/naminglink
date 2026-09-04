@@ -1553,7 +1553,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "humiliated",
     "despised",
     "scorned",
-    "looked down on"
+    "looked down on",
+    "slighting",
+    "slighted"
   ],
   "being-taught-letters": [
     "learning letters",
@@ -7547,5 +7549,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "skull": [
     "a skull",
     "skulls"
+  ],
+  "slaughter-house": [
+    "a slaughter-house"
+  ],
+  "sleep": [
+    "sleeping",
+    "asleep"
+  ],
+  "sleigh": [
+    "a sleigh"
+  ],
+  "sliding": [
+    "sliding",
+    "slide down"
   ]
 };

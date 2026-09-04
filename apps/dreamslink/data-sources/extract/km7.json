@@ -748,16 +748,27 @@
       "멸시",
       "홀대",
       "무시당",
-      "업신여"
+      "업신여",
+      "무시하거나",
+      "소홀히 대함",
+      "소홀히 대했다"
     ],
     "aliases_en": [
       "humiliated",
       "despised",
       "scorned",
-      "looked down on"
+      "looked down on",
+      "slighting",
+      "slighted"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "남에게 천대를 받음": "받았다 당했다",
+      "남을 무시하거나 소홀히 대함": "무시하거나 소홀히 음침하고"
+    },
+    "contexts_en": {
+      "남에게 천대를 받음": "auspicious sign",
+      "남을 무시하거나 소홀히 대함": "friend morose repellent"
+    }
   },
   {
     "id": "being-taught-letters",

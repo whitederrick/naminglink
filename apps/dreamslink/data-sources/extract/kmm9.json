@@ -28,7 +28,9 @@
       "모함을 당했다",
       "누명을 썼다",
       "비방",
-      "모략"
+      "모략",
+      "비방함",
+      "비방했다"
     ],
     "aliases_en": [
       "slander",
@@ -37,11 +39,13 @@
     ],
     "contexts": {
       "내가 중상모략의 대상이 됨": "내가 나를 나에 당했",
-      "젊은 여성이 중상모략을 당함": "여자 여성 처녀 아가씨"
+      "젊은 여성이 중상모략을 당함": "여자 여성 처녀 아가씨",
+      "남을 비방함": "남을 이기심"
     },
     "contexts_en": {
       "내가 중상모략의 대상이 됨": "myself subject interests gossips",
-      "젊은 여성이 중상모략을 당함": "woman girl young lady"
+      "젊은 여성이 중상모략을 당함": "woman girl young lady",
+      "남을 비방함": "yourself loss selfishness"
     }
   },
   {
