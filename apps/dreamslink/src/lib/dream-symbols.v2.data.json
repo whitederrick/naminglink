@@ -140,6 +140,7 @@
     "m221.json",
     "m222.json",
     "m223.json",
+    "m224.json",
     "m23.json",
     "m24.json",
     "m25.json",
@@ -46339,6 +46340,97 @@
               "locator": "Ribbon",
               "original": "If she feels angry or displeased about them, she will find that some other woman is dividing her honors and pleasures with her in her social realm.",
               "translation_ko": "리본 때문에 화가 나거나 언짢은 꿈은, 다른 여성이 사교계에서 제 영예와 즐거움을 나눠 가지고 있음을 알게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ring",
+      "term_ko": "반지",
+      "term_en": "ring",
+      "aliases": [
+        "반지",
+        "금반지",
+        "옥반지",
+        "가락지"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "반지를 낌",
+          "interpretation_ko": "성공할 새 사업의 조짐",
+          "interpretation_en": "denotes new enterprises in which you will be successful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ring",
+              "original": "To dream of wearing rings, denotes new enterprises in which you will be successful.",
+              "translation_ko": "반지를 끼는 꿈은, 성공할 새 사업의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부러진 반지를 봄",
+          "interpretation_ko": "혼인 생활의 다툼과 불행, 연인 사이의 이별을 뜻하는 조짐",
+          "interpretation_en": "foretells quarrels and unhappiness in the married state, and separation to lovers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ring",
+              "original": "A broken ring, foretells quarrels and unhappiness in the married state, and separation to lovers.",
+              "translation_ko": "부러진 반지를 보는 꿈은, 혼인 생활의 다툼과 불행, 연인 사이의 이별을 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 반지를 받음",
+          "interpretation_ko": "정인의 행실에 대한 근심이 사라지고, 정인이 그녀의 즐거움과 앞날에 헌신할 조짐",
+          "interpretation_en": "denotes that worries over her lover's conduct will cease, as he will devote himself to her pleasures and future interest",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ring",
+              "original": "For a young woman to receive a ring, denotes that worries over her lover's conduct will cease, as he will devote himself to her pleasures and future interest.",
+              "translation_ko": "처녀가 반지를 받는 꿈은, 정인의 행실에 대한 근심이 사라지고 정인이 그녀의 즐거움과 앞날에 헌신할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 반지를 낀 것을 봄",
+          "interpretation_ko": "번영이 늘고 새 벗을 많이 사귈 조짐",
+          "interpretation_en": "denotes increasing prosperity and many new friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ring",
+              "original": "To see others with rings, denotes increasing prosperity and many new friends.",
+              "translation_ko": "남이 반지를 낀 것을 보는 꿈은, 번영이 늘고 새 벗을 많이 사귈 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "금과 옥으로 된 가락지를 얻음",
+          "interpretation_ko": "귀한 자식을 낳을 조짐",
+          "interpretation_en": "a sign of bearing a noble child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "得金玉環生貴子",
+              "translation_ko": "금과 옥으로 된 고리를 얻으면 귀한 자식을 낳는다"
             }
           ]
         }
@@ -113086,33 +113178,32 @@
       ]
     },
     {
-      "id": "ring",
-      "term_ko": "가락지",
-      "term_en": "ring",
+      "id": "riding-school",
+      "term_ko": "승마 학교",
+      "term_en": "riding-school",
       "aliases": [
-        "반지",
-        "금반지",
-        "옥반지"
+        "승마 학교가",
+        "승마 학교에"
       ],
-      "category": "object",
-      "polarity": "positive",
+      "category": "action",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "금과 옥으로 된 가락지를 얻음",
-          "interpretation_ko": "귀한 자식을 낳을 조짐",
-          "interpretation_en": "a sign of bearing a noble child",
-          "polarity": "positive",
+          "context": "승마 학교에 다님",
+          "interpretation_ko": "벗이 저에게 거짓되게 굴 조짐이나, 그로 인한 성가신 영향을 곧 떨쳐 낼 조짐",
+          "interpretation_en": "foretells some friend will act falsely by you, but you will throw off the vexing influence occasioned by it",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "得金玉環生貴子",
-              "translation_ko": "금과 옥으로 된 고리를 얻으면 귀한 자식을 낳는다"
+              "work": "miller",
+              "locator": "Riding School",
+              "original": "To attend a riding school, foretells some friend will act falsely by you, but you will throw off the vexing influence occasioned by it.",
+              "translation_ko": "승마 학교에 다니는 꿈은, 벗이 저에게 거짓되게 굴 조짐이나 그로 인한 성가신 영향을 곧 떨쳐 낼 조짐이다"
             }
           ]
         }

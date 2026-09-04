@@ -1,0 +1,18 @@
+{
+  "batch": 224,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Riding School",
+      "text": "To attend a riding school, foretells some friend will act falsely by you, but you will throw off the vexing influence occasioned by it.",
+      "note": "새 상징 `riding-school`(승마 학교)"
+    },
+    {
+      "headword": "Ring",
+      "text": "To dream of wearing rings, denotes new enterprises in which you will be successful. A broken ring, foretells quarrels and unhappiness in the married state, and separation to lovers. For a young woman to receive a ring, denotes that worries over her lover's conduct will cease, as he will devote himself to her pleasures and future interest. To see others with rings, denotes increasing prosperity and many new friends.",
+      "note": "기존 상징 `ring`(반지, 문맥 0개)에 넷을 처음 채운다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

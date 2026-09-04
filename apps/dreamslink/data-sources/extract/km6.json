@@ -1168,15 +1168,28 @@
     "aliases": [
       "반지",
       "금반지",
-      "옥반지"
+      "옥반지",
+      "가락지"
     ],
     "aliases_en": [
       "rings",
       "finger ring",
       "gold ring"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "반지를 낌": "꼈다 사업을",
+      "부러진 반지를 봄": "부러진 다툼",
+      "처녀가 반지를 받음": "받았다 근심이",
+      "남이 반지를 낀 것을 봄": "남이 번영",
+      "금과 옥으로 된 가락지를 얻음": "금과 옥으로"
+    },
+    "contexts_en": {
+      "반지를 낌": "wearing new enterprises",
+      "부러진 반지를 봄": "broken quarrels unhappiness",
+      "처녀가 반지를 받음": "receive worries cease",
+      "남이 반지를 낀 것을 봄": "others prosperity friends",
+      "금과 옥으로 된 가락지를 얻음": "jade noble bearing"
+    }
   },
   {
     "id": "scales",

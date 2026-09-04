@@ -1,0 +1,77 @@
+[
+  {
+    "term_ko": "승마 학교",
+    "term_en": "riding-school",
+    "context": "승마 학교에 다님",
+    "interpretation_ko": "벗이 저에게 거짓되게 굴 조짐이나, 그로 인한 성가신 영향을 곧 떨쳐 낼 조짐",
+    "interpretation_en": "foretells some friend will act falsely by you, but you will throw off the vexing influence occasioned by it",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Riding School",
+      "original": "To attend a riding school, foretells some friend will act falsely by you, but you will throw off the vexing influence occasioned by it.",
+      "translation_ko": "승마 학교에 다니는 꿈은, 벗이 저에게 거짓되게 굴 조짐이나 그로 인한 성가신 영향을 곧 떨쳐 낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "반지",
+    "term_en": "ring",
+    "context": "반지를 낌",
+    "interpretation_ko": "성공할 새 사업의 조짐",
+    "interpretation_en": "denotes new enterprises in which you will be successful",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ring",
+      "original": "To dream of wearing rings, denotes new enterprises in which you will be successful.",
+      "translation_ko": "반지를 끼는 꿈은, 성공할 새 사업의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "반지",
+    "term_en": "ring",
+    "context": "부러진 반지를 봄",
+    "interpretation_ko": "혼인 생활의 다툼과 불행, 연인 사이의 이별을 뜻하는 조짐",
+    "interpretation_en": "foretells quarrels and unhappiness in the married state, and separation to lovers",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ring",
+      "original": "A broken ring, foretells quarrels and unhappiness in the married state, and separation to lovers.",
+      "translation_ko": "부러진 반지를 보는 꿈은, 혼인 생활의 다툼과 불행, 연인 사이의 이별을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "반지",
+    "term_en": "ring",
+    "context": "처녀가 반지를 받음",
+    "interpretation_ko": "정인의 행실에 대한 근심이 사라지고, 정인이 그녀의 즐거움과 앞날에 헌신할 조짐",
+    "interpretation_en": "denotes that worries over her lover's conduct will cease, as he will devote himself to her pleasures and future interest",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Ring",
+      "original": "For a young woman to receive a ring, denotes that worries over her lover's conduct will cease, as he will devote himself to her pleasures and future interest.",
+      "translation_ko": "처녀가 반지를 받는 꿈은, 정인의 행실에 대한 근심이 사라지고 정인이 그녀의 즐거움과 앞날에 헌신할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "반지",
+    "term_en": "ring",
+    "context": "남이 반지를 낀 것을 봄",
+    "interpretation_ko": "번영이 늘고 새 벗을 많이 사귈 조짐",
+    "interpretation_en": "denotes increasing prosperity and many new friends",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Ring",
+      "original": "To see others with rings, denotes increasing prosperity and many new friends.",
+      "translation_ko": "남이 반지를 낀 것을 보는 꿈은, 번영이 늘고 새 벗을 많이 사귈 조짐이다"
+    }
+  }
+]
