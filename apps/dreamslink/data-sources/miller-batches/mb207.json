@@ -1,0 +1,16 @@
+{
+  "batch": 207,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rain",
+      "text": "To be out in a clear shower of rain, denotes that pleasure will be enjoyed with the zest of youth, and prosperity will come to you. If the rain descends from murky clouds, you will feel alarmed over the graveness of your undertakings. To see and hear rain approaching, and you escape being wet, you will succeed in your plans, and your designs will mature rapidly. To be sitting in the house and see through the window a downpour of rain, denotes that you will possess fortune, and passionate love will be requited. To hear the patter of rain on the roof, denotes a realization of domestic bliss and joy. Fortune will come in a small way. To dream that your house is leaking during a rain, if the water is clear, foretells that illicit pleasure will come to you rather unexpectedly; but if filthy or muddy, you may expect the reverse, and also exposure. To find yourself regretting some duty unperformed while listening to the rain, denotes that you will seek pleasure at the expense of another's sense of propriety and justice. To see it rain on others, foretells that you will exclude friends from your confidence. For a young woman to dream of getting her clothes wet and soiled while out in a rain, denotes that she will entertain some person indiscreetly, and will suffer the suspicions of friends for the unwise yielding to foolish enjoyments. To see it raining on farm stock, foretells disappointment in business, and unpleasantness in social circles. Stormy rains are always unfortunate.",
+      "note": "기존 상징 `rain`(비)에 더한다. 「먹구름에서 비가 내림」은 기존 「궂은비가 내려 어둑함」(陰雨晦暗主凶事, 흉)과 그림·극성이 같아 건너뛴다(§31 곁가지 — 같은 그림이 이미 있다). 「Stormy rains are always unfortunate」는 특정 꿈 그림이 없는 총평 문장이라 건너뛴다(배치 41 Grave와 같다)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    "If the rain descends from murky clouds, you will feel alarmed over the graveness of your undertakings. — 기존 「궂은비가 내려 어둑함」과 같은 그림·극성(흉)",
+    "Stormy rains are always unfortunate. — 특정 꿈 그림이 없는 총평 문장"
+  ]
+}

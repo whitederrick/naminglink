@@ -351,7 +351,9 @@
       "장맛비",
       "폭우",
       "빗줄기",
-      "장대비"
+      "장대비",
+      "궂은비",
+      "큰비"
     ],
     "aliases_en": [
       "rainfall",
@@ -363,13 +365,33 @@
       "비가 그쳐 흩어짐": "그쳐 그쳤 개었 멎었 흩어",
       "궂은비가 내려 어둑함": "궂은 어둑 우중충 음산 흐릿",
       "길을 가다 비를 만남": "길을 가다가 도중에 만났 길에서",
-      "큰비가 쏟아짐": "쏟아 퍼붓 억수 세차게"
+      "큰비가 쏟아짐": "쏟아 퍼붓 억수 세차게",
+      "화창한 소나기를 맞음": "화창한 상쾌하게 젊음의",
+      "비가 다가옴을 보고 듣되 젖지 않고 피함": "다가오는 피했다 성공할",
+      "집 안에서 창으로 비 내림을 봄": "창문으로 앉아서 격정적",
+      "지붕에 떨어지는 빗소리를 들음": "지붕에 후드득 타닥타닥",
+      "비가 새는 집에서 물이 맑음": "새어 맑았다 은밀한",
+      "비가 새는 집에서 물이 흐리고 더러움": "흐렸다 더러웠다 들통날",
+      "빗소리를 들으며 못다한 일을 후회함": "빗소리에 후회했다 도리를",
+      "남에게 비가 내리는 것을 봄": "남에게 밀어낼 믿음에서",
+      "처녀가 비에 옷이 젖고 더러워짐": "젖고 더러워졌다 경솔하게",
+      "가축에게 비가 내리는 것을 봄": "가축에게 실망할 불쾌해질"
     },
     "contexts_en": {
       "비가 그쳐 흩어짐": "stopped ceased dispersed clearing",
       "궂은비가 내려 어둑함": "drizzle dreary gloomy grey dismal",
       "길을 가다 비를 만남": "road walking journey path caught",
-      "큰비가 쏟아짐": "pouring heavy torrential"
+      "큰비가 쏟아짐": "pouring heavy torrential",
+      "화창한 소나기를 맞음": "fair youth zest prosperity",
+      "비가 다가옴을 보고 듣되 젖지 않고 피함": "escape wet succeed mature",
+      "집 안에서 창으로 비 내림을 봄": "window sitting passionate requited",
+      "지붕에 떨어지는 빗소리를 들음": "patter roof domestic bliss",
+      "비가 새는 집에서 물이 맑음": "pure illicit unexpectedly hidden",
+      "비가 새는 집에서 물이 흐리고 더러움": "filthy muddy reverse exposure",
+      "빗소리를 들으며 못다한 일을 후회함": "regretting duty listening",
+      "남에게 비가 내리는 것을 봄": "others exclude confidence",
+      "처녀가 비에 옷이 젖고 더러워짐": "soiled indiscreetly suspicions",
+      "가축에게 비가 내리는 것을 봄": "stock disappointment unpleasantness"
     }
   },
   {
