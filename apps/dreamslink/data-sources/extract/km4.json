@@ -1066,8 +1066,16 @@
       "salty",
       "sea salt"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "소금 꿈을 꿈": "매사가어긋 가족사이 불만",
+      "고기에 소금을 침": "고기에 소금을침 빚과저당",
+      "소금을 먹음": "먹었 길한"
+    },
+    "contexts_en": {
+      "소금 꿈을 꿈": "discordant surroundings awry",
+      "고기에 소금을 침": "meat debts mortgages",
+      "소금을 먹음": "auspicious sign"
+    }
   },
   {
     "id": "sunset-glow",

@@ -1,0 +1,257 @@
+[
+  {
+    "term_ko": "샐러드",
+    "term_en": "salad",
+    "context": "샐러드를 먹음",
+    "interpretation_ko": "병과 주변에 불쾌한 사람들이 있을 조짐",
+    "interpretation_en": "foretells sickness and disagreeable people around you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Salad",
+      "original": "To dream of eating salad, foretells sickness and disagreeable people around you.",
+      "translation_ko": "샐러드를 먹는 꿈은, 병과 주변에 불쾌한 사람들이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "샐러드",
+    "term_en": "salad",
+    "context": "여성이 샐러드를 만듦",
+    "interpretation_ko": "연인이 변덕스럽고 다투기 좋아하게 될 조짐",
+    "interpretation_en": "is a sign that her lover will be changeable and quarrelsome",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Salad",
+      "original": "For a young woman to dream of making it, is a sign that her lover will be changeable and quarrelsome.",
+      "translation_ko": "여성이 샐러드를 만드는 꿈은, 연인이 변덕스럽고 다투기 좋아하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연어",
+    "term_en": "salmon",
+    "context": "연어 꿈을 꿈",
+    "interpretation_ko": "행운과 즐거운 일들로 시간을 채울 조짐",
+    "interpretation_en": "denotes that much good luck and pleasant duties will employ your time",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Salmon",
+      "original": "Dreaming of salmon, denotes that much good luck and pleasant duties will employ your time.",
+      "translation_ko": "연어 꿈은, 행운과 즐거운 일들로 시간을 채울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연어",
+    "term_en": "salmon",
+    "context": "여성이 연어를 먹음",
+    "interpretation_ko": "명랑하고 넉넉히 부양해 줄 남자와 혼인할 조짐",
+    "interpretation_en": "foretells that she will marry a cheerful man, with means to keep her comfortable",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Salmon",
+      "original": "For a young woman to eat it, foretells that she will marry a cheerful man, with means to keep her comfortable.",
+      "translation_ko": "여성이 연어를 먹는 꿈은, 명랑하고 넉넉히 부양해 줄 남자와 혼인할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "소금",
+    "term_en": "salt",
+    "context": "소금 꿈을 꿈",
+    "interpretation_ko": "매사가 어긋나고, 가족 사이에 다툼과 불만이 드러날 불화의 조짐",
+    "interpretation_en": "is an omen of discordant surroundings when seen in dreams. You will usually find after dreaming of salt that everything goes awry, and quarrels and dissatisfaction show themselves in the family circle",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Salt",
+      "original": "Salt is an omen of discordant surroundings when seen in dreams. You will usually find after dreaming of salt that everything goes awry, and quarrels and dissatisfaction show themselves in the family circle.",
+      "translation_ko": "소금 꿈은, 매사가 어긋나고 가족 사이에 다툼과 불만이 드러날 불화의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "소금",
+    "term_en": "salt",
+    "context": "고기에 소금을 침",
+    "interpretation_ko": "빚과 저당이 자신을 괴롭힐 조짐",
+    "interpretation_en": "portends that debts and mortgages will harass you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Salt",
+      "original": "To salt meat, portends that debts and mortgages will harass you.",
+      "translation_ko": "고기에 소금을 치는 꿈은, 빚과 저당이 자신을 괴롭힐 조짐이다"
+    }
+  },
+  {
+    "term_ko": "초석",
+    "term_en": "saltpeter",
+    "context": "초석 꿈을 꿈",
+    "interpretation_ko": "생활의 변화가 이겨낼 수 없는 슬픔에 손실을 더할 조짐",
+    "interpretation_en": "denotes change in your living will add loss to some unconquerable grief",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Saltpeter",
+      "original": "To dream of saltpeter, denotes change in your living will add loss to some unconquerable grief.",
+      "translation_ko": "초석 꿈은, 생활의 변화가 이겨낼 수 없는 슬픔에 손실을 더할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연고",
+    "term_en": "ointment",
+    "context": "역경 속에서도 번영할 연고 꿈을 꿈",
+    "interpretation_ko": "역경 속에서도 번영하고, 적을 벗으로 바꿀 조짐",
+    "interpretation_en": "denotes you will prosper under adverse circumstances and convert enemies into friends",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Salve",
+      "original": "To dream of salve, denotes you will prosper under adverse circumstances and convert enemies into friends.",
+      "translation_ko": "연고 꿈은, 역경 속에서도 번영하고 적을 벗으로 바꿀 조짐이다"
+    }
+  },
+  {
+    "term_ko": "견본",
+    "term_en": "samples",
+    "context": "상품 견본을 받음",
+    "interpretation_ko": "사업이 나아질 조짐",
+    "interpretation_en": "denotes improvement in your business",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Samples",
+      "original": "To dream of receiving merchandise samples, denotes improvement in your business.",
+      "translation_ko": "상품 견본을 받는 꿈은, 사업이 나아질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "견본",
+    "term_en": "samples",
+    "context": "여행하는 남자가 견본을 잃어버림",
+    "interpretation_ko": "사업에서 곤란해지거나 애정 문제로 곤경에 빠질 조짐",
+    "interpretation_en": "implies he will find himself embarrassed in business affairs, or in trouble through love engagements",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Samples",
+      "original": "For a traveling man to lose his samples, implies he will find himself embarrassed in business affairs, or in trouble through love engagements.",
+      "translation_ko": "여행하는 남자가 견본을 잃어버리는 꿈은, 사업에서 곤란해지거나 애정 문제로 곤경에 빠질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "견본",
+    "term_en": "samples",
+    "context": "여성이 받은 견본을 살펴봄",
+    "interpretation_ko": "즐길 거리를 바꿔 볼 기회가 생길 조짐",
+    "interpretation_en": "denotes she will have chances to vary her amusements",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Samples",
+      "original": "For a woman to dream that she is examining samples sent her, denotes she will have chances to vary her amusements.",
+      "translation_ko": "여성이 받은 견본을 살펴보는 꿈은, 즐길 거리를 바꿔 볼 기회가 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "모래",
+    "term_en": "sand",
+    "context": "모래 꿈을 꿈",
+    "interpretation_ko": "기근과 손실을 가리키는 조짐",
+    "interpretation_en": "is indicative of famine and losses",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Sand",
+      "original": "To dream of sand, is indicative of famine and losses.",
+      "translation_ko": "모래 꿈은, 기근과 손실을 가리키는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "산스크리트",
+    "term_en": "sanskrit",
+    "context": "산스크리트 꿈을 꿈",
+    "interpretation_ko": "숨은 주제를 파고들려 벗들과 멀어지고, 교양 있고 진보적인 이들의 관심사에 몰두할 조짐",
+    "interpretation_en": "denotes that you will estrange yourself from friends in order to investigate hidden subjects, taking up those occupying the minds of cultured and progressive thinkers",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sanskrit",
+      "original": "To dream of Sanskrit, denotes that you will estrange yourself from friends in order to investigate hidden subjects, taking up those occupying the minds of cultured and progressive thinkers.",
+      "translation_ko": "산스크리트 꿈은, 숨은 주제를 파고들려 벗들과 멀어지고 교양 있고 진보적인 이들의 관심사에 몰두할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "사파이어",
+    "term_en": "sapphire",
+    "context": "사파이어 꿈을 꿈",
+    "interpretation_ko": "뜻밖의 이득을 얻을 조짐",
+    "interpretation_en": "is ominous of fortunate gain",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Sapphire",
+      "original": "To dream of sapphire, is ominous of fortunate gain, and to woman, a wise selection in a lover.",
+      "translation_ko": "사파이어 꿈은, 뜻밖의 이득을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "사파이어",
+    "term_en": "sapphire",
+    "context": "여성이 사파이어 꿈을 꿈",
+    "interpretation_ko": "연인을 지혜롭게 고를 조짐",
+    "interpretation_en": "is ominous of, to woman, a wise selection in a lover",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sapphire",
+      "original": "To dream of sapphire, is ominous of fortunate gain, and to woman, a wise selection in a lover.",
+      "translation_ko": "여성이 사파이어 꿈을 꾸면, 연인을 지혜롭게 고를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "정어리",
+    "term_en": "sardines",
+    "context": "정어리를 먹음",
+    "interpretation_ko": "뜻밖에 괴로운 일이 닥칠 조짐",
+    "interpretation_en": "foretells that distressing events will come unexpectedly upon you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sardines",
+      "original": "To eat sardines in a dream, foretells that distressing events will come unexpectedly upon you.",
+      "translation_ko": "정어리를 먹는 꿈은, 뜻밖에 괴로운 일이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "정어리",
+    "term_en": "sardines",
+    "context": "여성이 정어리를 상에 올림",
+    "interpretation_ko": "탐탁잖은 사람의 관심에 시달릴 조짐",
+    "interpretation_en": "denotes that she will be worried with the attentions of a person who is distasteful to her",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sardines",
+      "original": "For a young woman to dream of putting them on the table, denotes that she will be worried with the attentions of a person who is distasteful to her.",
+      "translation_ko": "여성이 정어리를 상에 올리는 꿈은, 탐탁잖은 사람의 관심에 시달릴 조짐이다"
+    }
+  }
+]

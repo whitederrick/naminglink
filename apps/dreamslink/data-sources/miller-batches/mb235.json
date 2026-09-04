@@ -1,0 +1,60 @@
+{
+  "batch": 235,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Salad",
+      "text": "To dream of eating salad, foretells sickness and disagreeable people around you. For a young woman to dream of making it, is a sign that her lover will be changeable and quarrelsome.",
+      "note": "새 상징 `salad`(샐러드) — 두 그림"
+    },
+    {
+      "headword": "Salmon",
+      "text": "Dreaming of salmon, denotes that much good luck and pleasant duties will employ your time. For a young woman to eat it, foretells that she will marry a cheerful man, with means to keep her comfortable.",
+      "note": "새 상징 `salmon`(연어) — 두 그림"
+    },
+    {
+      "headword": "Salt",
+      "text": "Salt is an omen of discordant surroundings when seen in dreams. You will usually find after dreaming of salt that everything goes awry, and quarrels and dissatisfaction show themselves in the family circle. To salt meat, portends that debts and mortgages will harass you.",
+      "note": "기존 상징 `salt`(소금, 문맥 0개이던 자리)에 둘을 채운다 — 「여성이 소금을 먹음」은 기존 「소금을 먹음」(길)과 같은 그림(성별만 다름)·정반대 극성이라 뺀다"
+    },
+    {
+      "headword": "Saltpeter",
+      "text": "To dream of saltpeter, denotes change in your living will add loss to some unconquerable grief.",
+      "note": "새 상징 `saltpeter`(초석) — 한 그림"
+    },
+    {
+      "headword": "Salve",
+      "text": "To dream of salve, denotes you will prosper under adverse circumstances and convert enemies into friends.",
+      "note": "기존 상징 `ointment`(연고, 밀러 별개 표제어 Ointment에서 온 것)에 하나를 더한다"
+    },
+    {
+      "headword": "Samples",
+      "text": "To dream of receiving merchandise samples, denotes improvement in your business. For a traveling man to lose his samples, implies he will find himself embarrassed in business affairs, or in trouble through love engagements. For a woman to dream that she is examining samples sent her, denotes she will have chances to vary her amusements.",
+      "note": "새 상징 `samples`(견본) — 세 그림"
+    },
+    {
+      "headword": "Sand",
+      "text": "To dream of sand, is indicative of famine and losses.",
+      "note": "새 상징 `sand`(모래) — 한 그림"
+    },
+    {
+      "headword": "Sanskrit",
+      "text": "To dream of Sanskrit, denotes that you will estrange yourself from friends in order to investigate hidden subjects, taking up those occupying the minds of cultured and progressive thinkers.",
+      "note": "새 상징 `sanskrit`(산스크리트) — 한 그림"
+    },
+    {
+      "headword": "Sapphire",
+      "text": "To dream of sapphire, is ominous of fortunate gain, and to woman, a wise selection in a lover.",
+      "note": "새 상징 `sapphire`(사파이어) — 두 그림(일반/여성)"
+    },
+    {
+      "headword": "Sardines",
+      "text": "To eat sardines in a dream, foretells that distressing events will come unexpectedly upon you. For a young woman to dream of putting them on the table, denotes that she will be worried with the attentions of a person who is distasteful to her.",
+      "note": "새 상징 `sardines`(정어리) — 두 그림"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    "Salt: \"For a young woman to eat salt, she will be deserted by her lover for a more beautiful and attractive girl, thus causing her deep chagrin.\" — 기존 `salt`의 주공해몽 「소금을 먹음」(길)과 같은 그림(성별만 다름)·정반대 극성"
+  ]
+}

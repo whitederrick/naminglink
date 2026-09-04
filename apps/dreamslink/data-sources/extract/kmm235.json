@@ -1,0 +1,126 @@
+[
+  {
+    "id": "salad",
+    "aliases": [
+      "샐러드"
+    ],
+    "aliases_en": [
+      "a salad",
+      "salads"
+    ],
+    "contexts": {
+      "샐러드를 먹음": "먹었 병과 불쾌한사람들",
+      "여성이 샐러드를 만듦": "만드는 만들었 변덕스럽고"
+    },
+    "contexts_en": {
+      "샐러드를 먹음": "eating sickness disagreeable",
+      "여성이 샐러드를 만듦": "making changeable quarrelsome"
+    }
+  },
+  {
+    "id": "salmon",
+    "aliases": [
+      "연어"
+    ],
+    "aliases_en": [
+      "salmon"
+    ],
+    "contexts": {
+      "연어 꿈을 꿈": "행운과 즐거운일들",
+      "여성이 연어를 먹음": "먹었 명랑하고 부양"
+    },
+    "contexts_en": {
+      "연어 꿈을 꿈": "good luck pleasant duties",
+      "여성이 연어를 먹음": "eat cheerful comfortable"
+    }
+  },
+  {
+    "id": "saltpeter",
+    "aliases": [
+      "초석"
+    ],
+    "aliases_en": [
+      "saltpeter"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "samples",
+    "aliases": [
+      "견본"
+    ],
+    "aliases_en": [
+      "samples",
+      "merchandise samples"
+    ],
+    "contexts": {
+      "상품 견본을 받음": "상품을받 개선될 사업이나아",
+      "여행하는 남자가 견본을 잃어버림": "여행하는 남자가 잃어버 곤란해",
+      "여성이 받은 견본을 살펴봄": "여성이 살펴봄 살펴보 즐길거리"
+    },
+    "contexts_en": {
+      "상품 견본을 받음": "receiving improvement business",
+      "여행하는 남자가 견본을 잃어버림": "traveling man lose embarrassed",
+      "여성이 받은 견본을 살펴봄": "examining amusements chances"
+    }
+  },
+  {
+    "id": "sand",
+    "aliases": [
+      "모래"
+    ],
+    "aliases_en": [
+      "sand"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "sanskrit",
+    "aliases": [
+      "산스크리트"
+    ],
+    "aliases_en": [
+      "sanskrit"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "sapphire",
+    "aliases": [
+      "사파이어"
+    ],
+    "aliases_en": [
+      "a sapphire",
+      "sapphires"
+    ],
+    "contexts": {
+      "사파이어 꿈을 꿈": "뜻밖의이득",
+      "여성이 사파이어 꿈을 꿈": "여성이 지혜롭게 연인을고를"
+    },
+    "contexts_en": {
+      "사파이어 꿈을 꿈": "fortunate gain ominous",
+      "여성이 사파이어 꿈을 꿈": "woman wise selection lover"
+    }
+  },
+  {
+    "id": "sardines",
+    "aliases": [
+      "정어리"
+    ],
+    "aliases_en": [
+      "sardines",
+      "a sardine"
+    ],
+    "contexts": {
+      "정어리를 먹음": "먹는 뜻밖에 괴로운일",
+      "여성이 정어리를 상에 올림": "상에올 상에 탐탁잖은"
+    },
+    "contexts_en": {
+      "정어리를 먹음": "eat distressing unexpectedly",
+      "여성이 정어리를 상에 올림": "putting table distasteful"
+    }
+  }
+]

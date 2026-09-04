@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 234 — Rye Bread·Saddle·Safe·Saffron·Sage·Sailing·Sailor)
+// (지금 담긴 것: 배치 235 — Salad·Salmon·Salt·Saltpeter·Salve·Samples·Sand·Sanskrit·Sapphire·Sardines)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,27 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "rye", ctx: "호밀빵을 보거나 먹음", text: "호밀빵을 먹었다" },
-  { id: "saddle", ctx: "안장 꿈을 꿈", text: "안장 꿈을 꾸었다" },
-  // "금고를 봄"은 밀러 원문에 장면 상세가 없어("seeing a safe" 뿐) 기존
-  // "가득 찬 금고를 봄"과 판별어 없이는 못 가른다 — 둘 다 긍정이라 동점이면
-  // 옛 것이 이겨도 무해하다고 보고 이 자리는 프로브에서 뺀다.
-  { id: "cash-box", ctx: "금고를 열려고 애씀", text: "금고를 열려고 애썼다" },
-  { id: "saffron", ctx: "사프란을 봄", text: "사프란을 보았다" },
-  { id: "saffron", ctx: "사프란으로 만든 차를 마심", text: "사프란으로 만든 차를 마셨다" },
-  { id: "garden-sage", ctx: "세이지 꿈을 꿈", text: "세이지 꿈을 꾸었다" },
-  { id: "garden-sage", ctx: "여성이 음식에 세이지가 지나치게 많다고 여김", text: "여성이 음식에 세이지가 지나치게 많다고 여겼다" },
-  { id: "sea", ctx: "작은 배를 타고 항해함", text: "작은 배로 바다를 항해했다" },
-  // "뱃사람 꿈을 꿈"도 밀러 원문에 장면 상세가 없어 기존 "제가 뱃사람이 됨"과
-  // 판별어 없이는 못 가른다 — 같은 이유로 이 자리는 프로브에서 뺀다.
-  { id: "mariner", ctx: "여성이 뱃사람 꿈을 꿈", text: "여성이 뱃사람 꿈을 꾸었다" },
-  { id: "mariner", ctx: "여성이 스스로 뱃사람이라고 여김", text: "여성이 스스로 뱃사람이라고 여겼다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(rye·cash-box·mariner·sea)의 옛 답이 그대로인가
-  { id: "rye", ctx: "호밀을 봄", text: "호밀을 보았다" },
-  { id: "cash-box", ctx: "가득 찬 금고를 봄", text: "가득 찬 금고를 보았다" },
-  { id: "cash-box", ctx: "금고가 비어 있음", text: "금고가 비어 있었다" },
-  { id: "mariner", ctx: "제가 뱃사람이 됨", text: "내가 뱃사람이 되었다" },
-  { id: "sea", ctx: "바다가 잔잔함", text: "바다가 잔잔했다" },
+  { id: "salad", ctx: "샐러드를 먹음", text: "샐러드를 먹었다" },
+  { id: "salad", ctx: "여성이 샐러드를 만듦", text: "여성이 샐러드를 만들었다" },
+  { id: "salmon", ctx: "연어 꿈을 꿈", text: "연어 꿈을 꾸었다" },
+  { id: "salmon", ctx: "여성이 연어를 먹음", text: "여성이 연어를 먹었다" },
+  { id: "salt", ctx: "소금 꿈을 꿈", text: "소금 꿈을 꾸었다" },
+  { id: "salt", ctx: "고기에 소금을 침", text: "고기에 소금을 쳤다" },
+  { id: "saltpeter", ctx: "초석 꿈을 꿈", text: "초석 꿈을 꾸었다" },
+  { id: "ointment", ctx: "역경 속에서도 번영할 연고 꿈을 꿈", text: "역경 속에서도 번영할 연고 꿈을 꾸었다" },
+  { id: "samples", ctx: "상품 견본을 받음", text: "상품 견본을 받았다" },
+  { id: "samples", ctx: "여행하는 남자가 견본을 잃어버림", text: "여행하는 남자가 견본을 잃어버렸다" },
+  { id: "samples", ctx: "여성이 받은 견본을 살펴봄", text: "여성이 받은 견본을 살펴보았다" },
+  { id: "sand", ctx: "모래 꿈을 꿈", text: "모래 꿈을 꾸었다" },
+  { id: "sanskrit", ctx: "산스크리트 꿈을 꿈", text: "산스크리트 꿈을 꾸었다" },
+  { id: "sapphire", ctx: "사파이어 꿈을 꿈", text: "사파이어 꿈을 꾸었다" },
+  { id: "sapphire", ctx: "여성이 사파이어 꿈을 꿈", text: "여성이 사파이어 꿈을 꾸었다" },
+  { id: "sardines", ctx: "정어리를 먹음", text: "정어리를 먹었다" },
+  { id: "sardines", ctx: "여성이 정어리를 상에 올림", text: "여성이 정어리를 상에 올렸다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(salt·ointment)의 옛 답이 그대로인가
+  { id: "salt", ctx: "소금을 먹음", text: "소금을 먹었다" },
+  { id: "ointment", ctx: "연고 꿈을 꿈", text: "연고 꿈을 꾸었다" },
+  { id: "ointment", ctx: "처녀가 연고를 만듦", text: "처녀가 연고를 만들었다" },
 ];
 
 let notFound = 0;
