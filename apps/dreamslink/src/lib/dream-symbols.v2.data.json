@@ -120,6 +120,7 @@
     "m203.json",
     "m204.json",
     "m205.json",
+    "m206.json",
     "m21.json",
     "m22.json",
     "m23.json",
@@ -36990,6 +36991,109 @@
       ]
     },
     {
+      "id": "railroad",
+      "term_ko": "철도",
+      "term_en": "railroad",
+      "aliases": [
+        "철도가",
+        "철도를",
+        "철길"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "철도 꿈을 꿈",
+          "interpretation_ko": "원수가 저를 밀어내려 하니 사업을 꼼꼼히 챙겨야 할 조짐",
+          "interpretation_en": "you will find that your business will need close attention, as enemies are trying to usurp you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Railroad",
+              "original": "If you dream of a railroad, you will find that your business will need close attention, as enemies are trying to usurp you.",
+              "translation_ko": "철도 꿈은, 원수가 저를 밀어내려 하니 사업을 꼼꼼히 챙겨야 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 철도 꿈을 꿈",
+          "interpretation_ko": "벗을 찾아 여행을 떠나 어느 정도 명예를 누릴 조짐",
+          "interpretation_en": "she will make a journey to visit friends, and will enjoy some distinction",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Railroad",
+              "original": "For a young woman to dream of railroads, she will make a journey to visit friends, and will enjoy some distinction.",
+              "translation_ko": "처녀가 철도 꿈을 꾸면, 벗을 찾아 여행을 떠나 어느 정도 명예를 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "철도에 놓인 장애물을 봄",
+          "interpretation_ko": "일에 부정한 술수가 있다는 뜻",
+          "interpretation_en": "indicates foul play in your affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Railroad",
+              "original": "To see an obstruction on these roads, indicates foul play in your affairs.",
+              "translation_ko": "철도에 놓인 장애물을 보는 꿈은, 일에 부정한 술수가 있다는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "철도 침목 위를 걸음",
+          "interpretation_ko": "근심하며 고되게 일할 시기의 조짐",
+          "interpretation_en": "signifies a time of worry and laborious work",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Railroad",
+              "original": "To walk the cross ties of a railroad, signifies a time of worry and laborious work.",
+              "translation_ko": "철도 침목 위를 걷는 꿈은, 근심하며 고되게 일할 시기의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "철도 레일 위를 걸음",
+          "interpretation_ko": "일을 능숙하게 다뤄 큰 행복을 얻을 조짐",
+          "interpretation_en": "you may expect to obtain much happiness from your skilful manipulation of affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Railroad",
+              "original": "To walk the rails, you may expect to obtain much happiness from your skilful manipulation of affairs.",
+              "translation_ko": "철도 레일 위를 걷는 꿈은, 일을 능숙하게 다뤄 큰 행복을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 물에 잠긴 철길을 봄",
+          "interpretation_ko": "즐거움이 한동안 불운을 씻어 내지만, 불사조처럼 다시 일어설 조짐",
+          "interpretation_en": "foretells that pleasure will wipe out misfortune for a time, but it will rise, phoenix like, again",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Railroad",
+              "original": "To see a road inundated with clear water, foretells that pleasure will wipe out misfortune for a time, but it will rise, phoenix like, again.",
+              "translation_ko": "맑은 물에 잠긴 철길을 보는 꿈은, 즐거움이 한동안 불운을 씻어 내지만, 불사조처럼 다시 일어설 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rice",
       "term_ko": "쌀",
       "term_en": "rice",
@@ -37939,6 +38043,114 @@
               "locator": "Amorous",
               "original": "To see animals thus, denotes you will engage in degrading pleasures with fast men or women.",
               "translation_ko": "동물이 색정적인 것을 보면 방탕한 남녀와 어울려 타락한 쾌락에 빠질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anger",
+      "term_ko": "분노",
+      "term_en": "anger",
+      "aliases": [
+        "격분",
+        "노여움",
+        "성냄",
+        "화를 냄",
+        "분노하는",
+        "분노했다",
+        "분노하여",
+        "격노하여",
+        "격노한",
+        "분노하는",
+        "분노했다",
+        "분노하여",
+        "격노하여",
+        "격노한",
+        "화를 내는",
+        "분노하는",
+        "분노했다",
+        "분노하여",
+        "격노하여",
+        "격노한",
+        "화를 내는",
+        "화를 냈다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "분노하는 꿈을 꿈",
+          "interpretation_ko": "끔찍한 시련이 기다리고, 사랑하는 이에게 실망하고 인연이 끊기며 적이 재산이나 명예를 새로 공격할 조짐",
+          "interpretation_en": "a sign that some awful trial awaits you — disappointments in loved ones, broken ties, and enemies who may make new attacks upon your property or character",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Anger",
+              "original": "To dream of anger, denotes that some awful trial awaits you. Disappointments in loved ones, and broken ties, of enemies may make new attacks upon your property or character.",
+              "translation_ko": "분노하는 꿈을 꾸면 끔찍한 시련이 기다린다. 사랑하는 이에게 실망하고 인연이 끊기며, 적이 재산이나 명예를 새로 공격할 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "제가 격노하여 물건을 부수고 소리 지름",
+          "interpretation_ko": "다툼과 벗이 다치는 일의 조짐",
+          "interpretation_en": "signifies quarrels, and injury to your friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rage",
+              "original": "To be in a rage and scolding and tearing up things generally, while dreaming, signifies quarrels, and injury to your friends.",
+              "translation_ko": "제가 격노하여 물건을 부수고 소리 지르는 꿈은, 다툼과 벗이 다치는 일의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 격노한 것을 봄",
+          "interpretation_ko": "사업이 불리해지고 사교 생활이 불행해질 조짐",
+          "interpretation_en": "is a sign of unfavorable conditions for business, and unhappiness in social life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rage",
+              "original": "To see others in a rage, is a sign of unfavorable conditions for business, and unhappiness in social life.",
+              "translation_ko": "남이 격노한 것을 보는 꿈은, 사업이 불리해지고 사교 생활이 불행해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 애인이 격노한 것을 봄",
+          "interpretation_ko": "사랑에 불협화음이 생기고 오해가 절로 일어날 조짐",
+          "interpretation_en": "denotes that there will be some discordant note in their love, and misunderstandings will naturally occur",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rage",
+              "original": "For a young woman to see her lover in a rage, denotes that there will be some discordant note in their love, and misunderstandings will naturally occur.",
+              "translation_ko": "처녀가 애인이 격노한 것을 보는 꿈은, 사랑에 불협화음이 생기고 오해가 절로 일어날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "친구나 친척이 화를 내는데 침착하게 맞섬",
+          "interpretation_ko": "다투는 친구들을 중재해 오래가는 호의와 감사를 얻을 조짐",
+          "interpretation_en": "a sign that you will mediate between opposing friends, and gain their lasting favor and gratitude",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Anger",
+              "original": "To dreams that friends or relatives are angry with you, while you meet their anger with composure, denotes you will mediate between opposing friends, and gain their lasting favor and gratitude.",
+              "translation_ko": "친구나 친척이 자신에게 화를 내는데 침착하게 맞서는 꿈을 꾸면, 다투는 친구들을 중재해 오래가는 호의와 감사를 얻게 된다"
             }
           ]
         }
@@ -76541,54 +76753,6 @@
       ]
     },
     {
-      "id": "anger",
-      "term_ko": "분노",
-      "term_en": "anger",
-      "aliases": [
-        "격분",
-        "노여움",
-        "성냄",
-        "화를 냄"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "분노하는 꿈을 꿈",
-          "interpretation_ko": "끔찍한 시련이 기다리고, 사랑하는 이에게 실망하고 인연이 끊기며 적이 재산이나 명예를 새로 공격할 조짐",
-          "interpretation_en": "a sign that some awful trial awaits you — disappointments in loved ones, broken ties, and enemies who may make new attacks upon your property or character",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Anger",
-              "original": "To dream of anger, denotes that some awful trial awaits you. Disappointments in loved ones, and broken ties, of enemies may make new attacks upon your property or character.",
-              "translation_ko": "분노하는 꿈을 꾸면 끔찍한 시련이 기다린다. 사랑하는 이에게 실망하고 인연이 끊기며, 적이 재산이나 명예를 새로 공격할 수 있다"
-            }
-          ]
-        },
-        {
-          "context": "친구나 친척이 화를 내는데 침착하게 맞섬",
-          "interpretation_ko": "다투는 친구들을 중재해 오래가는 호의와 감사를 얻을 조짐",
-          "interpretation_en": "a sign that you will mediate between opposing friends, and gain their lasting favor and gratitude",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Anger",
-              "original": "To dreams that friends or relatives are angry with you, while you meet their anger with composure, denotes you will mediate between opposing friends, and gain their lasting favor and gratitude.",
-              "translation_ko": "친구나 친척이 자신에게 화를 내는데 침착하게 맞서는 꿈을 꾸면, 다투는 친구들을 중재해 오래가는 호의와 감사를 얻게 된다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "annoy",
       "term_ko": "성가심",
       "term_en": "annoy",
@@ -77874,8 +78038,7 @@
       "term_en": "balcony",
       "aliases": [
         "베란다",
-        "테라스",
-        "난간"
+        "테라스"
       ],
       "category": "place",
       "polarity": "negative",
@@ -98529,6 +98692,53 @@
               "locator": "Racket",
               "original": "For a young woman, this dream is ominous of disappointment in not being able to participate in some amusement that has engaged her attention.",
               "translation_ko": "처녀가 소란 꿈을 꾸면, 마음에 두던 놀이에 끼지 못해 실망할 흉조다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "railing",
+      "term_ko": "난간",
+      "term_en": "railing",
+      "aliases": [
+        "난간이",
+        "난간을",
+        "난간을 붙잡"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "난간을 봄",
+          "interpretation_ko": "누군가 사랑이나 사업의 앞길을 막으려 한다는 뜻",
+          "interpretation_en": "denotes that some person is trying to obstruct your pathway in love or business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Railing",
+              "original": "To dream of seeing railings, denotes that some person is trying to obstruct your pathway in love or business.",
+              "translation_ko": "난간을 보는 꿈은, 누군가 사랑이나 사업의 앞길을 막으려 한다는 뜻이다"
+            }
+          ]
+        },
+        {
+          "context": "난간을 붙잡고 매달림",
+          "interpretation_ko": "마음에 둔 것을 얻고자 위험한 승부를 걸게 될 조짐. 사랑의 일일 수도, 더 현실적인 일일 수도 있음",
+          "interpretation_en": "foretells that some desperate chance will be taken by you to obtain some object upon which you have set your heart. It may be of love, or of a more material form",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Railing",
+              "original": "To dream of holding on to a railing, foretells that some desperate chance will be taken by you to obtain some object upon which you have set your heart. It may be of love, or of a more material form.",
+              "translation_ko": "난간을 붙잡고 매달리는 꿈은, 마음에 둔 것을 얻고자 위험한 승부를 걸게 될 조짐이다. 사랑의 일일 수도, 더 현실적인 일일 수도 있다"
             }
           ]
         }

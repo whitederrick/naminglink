@@ -1,0 +1,23 @@
+{
+  "batch": 206,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rage",
+      "text": "To be in a rage and scolding and tearing up things generally, while dreaming, signifies quarrels, and injury to your friends. To see others in a rage, is a sign of unfavorable conditions for business, and unhappiness in social life. For a young woman to see her lover in a rage, denotes that there will be some discordant note in their love, and misunderstandings will naturally occur.",
+      "note": "기존 상징 `anger`(분노)에 더한다 — \"rage\"가 이미 그 영어 별칭이다. 기존 「분노하는 꿈을 꿈」은 밀러 Anger 항목(다른 표제어)의 내용이라 그림이 다르다"
+    },
+    {
+      "headword": "Railing",
+      "text": "To dream of seeing railings, denotes that some person is trying to obstruct your pathway in love or business. To dream of holding on to a railing, foretells that some desperate chance will be taken by you to obtain some object upon which you have set your heart. It may be of love, or of a more material form.",
+      "note": "새 상징 `railing`(난간). 기존 `balcony`가 「난간」을 별칭으로 갖고 있었지만 그 상징의 실제 두 문맥 어디에도 안 쓰이고 있었다 — 밀러 Railing이 진짜 임자라 그쪽으로 옮긴다"
+    },
+    {
+      "headword": "Railroad",
+      "text": "If you dream of a railroad, you will find that your business will need close attention, as enemies are trying to usurp you. For a young woman to dream of railroads, she will make a journey to visit friends, and will enjoy some distinction. To see an obstruction on these roads, indicates foul play in your affairs. To walk the cross ties of a railroad, signifies a time of worry and laborious work. To walk the rails, you may expect to obtain much happiness from your skilful manipulation of affairs. To see a road inundated with clear water, foretells that pleasure will wipe out misfortune for a time, but it will rise, phoenix like, again.",
+      "note": "새 상징 `railroad`(철도)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

@@ -2534,6 +2534,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "anecdote::젊은 여성이 남이 들려주는 일화를 들음": "woman listening heard",
   "anger::분노하는 꿈을 꿈": "enraged furious raging",
   "anger::친구나 친척이 화를 내는데 침착하게 맞섬": "friend relative calmly soothing",
+  "anger::제가 격노하여 물건을 부수고 소리 지름": "scolding tearing quarrels",
+  "anger::남이 격노한 것을 봄": "unfavorable business unhappiness",
+  "anger::처녀가 애인이 격노한 것을 봄": "lover discordant misunderstandings",
   "annoy::성가신 일을 겪는 꿈을 꿈": "enemies working against",
   "annoy::꿈속에서 겪은 성가신 일": "tomorrow trifles trivial",
   "antelope::꿈에 영양을 봄": "seeing running herd",
@@ -5294,5 +5297,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "raft::뗏목 꿈을 꿈": "new locations enterprises",
   "raft::뗏목을 타고 떠다님": "floating uncertain journeys",
   "raft::뗏목을 타고 목적지에 다다름": "destination good fortune",
-  "raft::뗏목이 부서지거나 탈이 남": "breaks mishap accident sickness"
+  "raft::뗏목이 부서지거나 탈이 남": "breaks mishap accident sickness",
+  "railing::난간을 봄": "obstruct pathway",
+  "railing::난간을 붙잡고 매달림": "holding desperate chance",
+  "railroad::철도 꿈을 꿈": "close attention usurp",
+  "railroad::처녀가 철도 꿈을 꿈": "journey visit distinction",
+  "railroad::철도에 놓인 장애물을 봄": "obstruction foul play",
+  "railroad::철도 침목 위를 걸음": "cross ties worry laborious",
+  "railroad::철도 레일 위를 걸음": "walk rails skilful",
+  "railroad::맑은 물에 잠긴 철길을 봄": "inundated phoenix rise"
 };

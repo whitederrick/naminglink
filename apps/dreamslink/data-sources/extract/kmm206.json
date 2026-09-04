@@ -1,0 +1,50 @@
+[
+  {
+    "id": "railing",
+    "aliases": [
+      "난간이",
+      "난간을",
+      "난간을 붙잡"
+    ],
+    "aliases_en": [
+      "railings",
+      "a railing"
+    ],
+    "contexts": {
+      "난간을 봄": "막으려 사랑이나",
+      "난간을 붙잡고 매달림": "붙잡고 매달"
+    },
+    "contexts_en": {
+      "난간을 봄": "obstruct pathway",
+      "난간을 붙잡고 매달림": "holding desperate chance"
+    }
+  },
+  {
+    "id": "railroad",
+    "aliases": [
+      "철도가",
+      "철도를",
+      "철길"
+    ],
+    "aliases_en": [
+      "a railroad",
+      "railroads"
+    ],
+    "contexts": {
+      "철도 꿈을 꿈": "원수가 밀어내",
+      "처녀가 철도 꿈을 꿈": "처녀가 여행을",
+      "철도에 놓인 장애물을 봄": "장애물 부정한",
+      "철도 침목 위를 걸음": "침목 근심하며",
+      "철도 레일 위를 걸음": "레일 능숙하게",
+      "맑은 물에 잠긴 철길을 봄": "잠긴 불사조"
+    },
+    "contexts_en": {
+      "철도 꿈을 꿈": "close attention usurp",
+      "처녀가 철도 꿈을 꿈": "journey visit distinction",
+      "철도에 놓인 장애물을 봄": "obstruction foul play",
+      "철도 침목 위를 걸음": "cross ties worry laborious",
+      "철도 레일 위를 걸음": "walk rails skilful",
+      "맑은 물에 잠긴 철길을 봄": "inundated phoenix rise"
+    }
+  }
+]
