@@ -1004,6 +1004,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "dance::제가 춤을 춤": "yourself unexpected fortune",
   "dance::정인이 춤추는 것을 봄": "sweetheart companion hopeful disposition",
   "dance::발레 하는 여자들이 춤추는 것을 봄": "ballet girls undignified amusements low desires",
+  "dance::카드리유 춤을 춤": "quadrille pleasant engagement",
   "frost::서리가 내림": "fell settled white",
   "frost::어둡고 음산한 아침에 내린 서리를 봄": "dark gloomy morning exile",
   "frost::햇빛 드는 자그마한 들녘에 내린 서리를 봄": "sunlit landscape gilded",
@@ -2725,6 +2726,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "bleeding::코피가 남": "nosebleed prophetic disaster",
   "bog::늪지 꿈을 꿈": "spread stretched",
   "bog::늪지를 걸어서 지남": "walking marshy overwork worry relative",
+  "bog::수렁에 빠짐": "inability obligations illness",
+  "bog::남이 수렁에 빠진 것을 봄": "others situated failures",
   "burial::햇빛이 비치는 가운데 친척의 장례에 참석함": "sunshine sunny bright shining relative",
   "burial::비 오고 음산한 날씨의 장례": "rain rainy dismal gloomy weather",
   "burial::슬픈 의식과 비통한 얼굴이 있는 장례": "sad sorrowing weeping mourning grief",
@@ -5236,5 +5239,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pyramid::피라미드 꿈을 꿈": "many changes",
   "pyramid::피라미드를 오름": "scale journey gratification",
   "pyramid::처녀가 피라미드를 오름": "young woman husband congenial",
-  "pyramid::옛 피라미드의 신비를 탐구함": "studying mystery ancient learned"
+  "pyramid::옛 피라미드의 신비를 탐구함": "studying mystery ancient learned",
+  "quack-medicine::돌팔이 약을 먹음": "morbid industrious duty",
+  "quack-medicine::돌팔이 약 광고를 읽음": "advertisement companions distress",
+  "quail::살아있는 메추라기를 봄": "alive favorable omen",
+  "quail::죽은 메추라기를 봄": "dead serious luck",
+  "quail::메추라기를 쏨": "shoot friends",
+  "quail::메추라기를 먹음": "eat extravagance living"
 };

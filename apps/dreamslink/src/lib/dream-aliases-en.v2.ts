@@ -6996,5 +6996,15 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "pyramid": [
     "pyramids"
+  ],
+  "quack-doctor": [
+    "a quack doctor"
+  ],
+  "quack-medicine": [
+    "quack medicine"
+  ],
+  "quail": [
+    "a quail",
+    "quails"
   ]
 };

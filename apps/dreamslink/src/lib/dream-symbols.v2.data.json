@@ -114,6 +114,7 @@
     "m199.json",
     "m2.json",
     "m20.json",
+    "m200.json",
     "m21.json",
     "m22.json",
     "m23.json",
@@ -26935,6 +26936,127 @@
       ]
     },
     {
+      "id": "dance",
+      "term_ko": "춤",
+      "term_en": "dance",
+      "aliases": [
+        "무용",
+        "댄스",
+        "춤사위",
+        "춤을 췄다",
+        "춤추는",
+        "춤췄"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "즐거운 아이들이 춤추는 것을 봄",
+          "interpretation_ko": "혼인한 이에게는 다정하고 슬기로운 아이들과 밝은 집을, 젊은이에게는 쉬운 일과 많은 즐거움을 뜻함",
+          "interpretation_en": "to the married, loving, obedient and intelligent children and a cheerful and comfortable home; to young people, easy tasks and many pleasures",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dance",
+              "original": "To dream of seeing a crowd of merry children dancing, signifies to the married, loving, obedient and intelligent children and a cheerful and comfortable home. To young people, it denotes easy tasks and many pleasures.",
+              "translation_ko": "즐거운 아이들 무리가 춤추는 것을 보는 꿈은, 혼인한 이에게 다정하고 슬기로운 아이들과 밝고 편안한 집을 뜻한다. 젊은이에게는 쉬운 일과 많은 즐거움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "카드리유 춤을 춤",
+          "interpretation_ko": "즐거운 약속으로 시간을 보내게 될 조짐",
+          "interpretation_en": "foretells that some pleasant engagement will occupy your time",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quadrille",
+              "original": "To dream of dancing a quadrille, foretells that some pleasant engagement will occupy your time.",
+              "translation_ko": "카드리유 춤을 추는 꿈은, 즐거운 약속으로 시간을 보내게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "나이 든 이들이 춤추는 것을 봄",
+          "interpretation_ko": "하는 일의 앞날이 밝아질 조짐",
+          "interpretation_en": "a brighter outlook for business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dance",
+              "original": "To see older people dancing, denotes a brighter outlook for business.",
+              "translation_ko": "나이 든 이들이 춤추는 것을 보면 하는 일의 앞날이 밝아진다"
+            }
+          ]
+        },
+        {
+          "context": "제가 춤을 춤",
+          "interpretation_ko": "뜻밖의 좋은 운이 올 조짐",
+          "interpretation_en": "some unexpected good fortune will come to you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Dance",
+              "original": "To dream of dancing yourself, some unexpected good fortune will come to you.",
+              "translation_ko": "제가 춤추는 꿈은 뜻밖의 좋은 운을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "정인이 춤추는 것을 봄",
+          "interpretation_ko": "곁의 사람이 밝고 바라는 마음을 지녔을 길한 조짐",
+          "interpretation_en": "your companion will be possessed with a merry and hopeful disposition",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jig",
+              "original": "To see your sweetheart dancing a jig, your companion will be possessed with a merry and hopeful disposition.",
+              "translation_ko": "정인이 지그를 추는 것을 보면 곁의 사람이 밝고 바라는 마음을 지녔다"
+            }
+          ]
+        },
+        {
+          "context": "발레 하는 여자들이 춤추는 것을 봄",
+          "interpretation_ko": "떳떳하지 못한 놀이에 빠지고 낮은 바람을 좇을 흉한 조짐",
+          "interpretation_en": "you will engage in undignified amusements and follow low desires",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jig",
+              "original": "To see ballet girls dancing a jig, you will engage in undignified amusements and follow low desires.",
+              "translation_ko": "발레 하는 여자들이 지그를 추는 것을 보면 떳떳하지 못한 놀이에 빠지고 낮은 바람을 좇는다"
+            }
+          ]
+        },
+        {
+          "context": "춤추는 것을 봄",
+          "interpretation_ko": "구설수가 있을 조짐",
+          "interpretation_en": "a sign of quarrels and gossip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "見歌舞者口舌至",
+              "translation_ko": "노래하고 춤추는 것을 보면 구설이 이른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "death",
       "term_ko": "죽음",
       "term_en": "death",
@@ -31442,113 +31564,6 @@
               "locator": "Knitting",
               "original": "To see the mill in which she works dilapidated, she will meet with reverses in fortune and love.",
               "translation_ko": "일하던 공장이 허물어진 것을 보면 재물과 사랑에서 뒤집히는 일을 겪는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "dance",
-      "term_ko": "춤",
-      "term_en": "dance",
-      "aliases": [
-        "무용",
-        "댄스",
-        "춤사위",
-        "춤을 췄다",
-        "춤추는",
-        "춤췄"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "즐거운 아이들이 춤추는 것을 봄",
-          "interpretation_ko": "혼인한 이에게는 다정하고 슬기로운 아이들과 밝은 집을, 젊은이에게는 쉬운 일과 많은 즐거움을 뜻함",
-          "interpretation_en": "to the married, loving, obedient and intelligent children and a cheerful and comfortable home; to young people, easy tasks and many pleasures",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Dance",
-              "original": "To dream of seeing a crowd of merry children dancing, signifies to the married, loving, obedient and intelligent children and a cheerful and comfortable home. To young people, it denotes easy tasks and many pleasures.",
-              "translation_ko": "즐거운 아이들 무리가 춤추는 것을 보는 꿈은, 혼인한 이에게 다정하고 슬기로운 아이들과 밝고 편안한 집을 뜻한다. 젊은이에게는 쉬운 일과 많은 즐거움을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "나이 든 이들이 춤추는 것을 봄",
-          "interpretation_ko": "하는 일의 앞날이 밝아질 조짐",
-          "interpretation_en": "a brighter outlook for business",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Dance",
-              "original": "To see older people dancing, denotes a brighter outlook for business.",
-              "translation_ko": "나이 든 이들이 춤추는 것을 보면 하는 일의 앞날이 밝아진다"
-            }
-          ]
-        },
-        {
-          "context": "제가 춤을 춤",
-          "interpretation_ko": "뜻밖의 좋은 운이 올 조짐",
-          "interpretation_en": "some unexpected good fortune will come to you",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Dance",
-              "original": "To dream of dancing yourself, some unexpected good fortune will come to you.",
-              "translation_ko": "제가 춤추는 꿈은 뜻밖의 좋은 운을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "정인이 춤추는 것을 봄",
-          "interpretation_ko": "곁의 사람이 밝고 바라는 마음을 지녔을 길한 조짐",
-          "interpretation_en": "your companion will be possessed with a merry and hopeful disposition",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jig",
-              "original": "To see your sweetheart dancing a jig, your companion will be possessed with a merry and hopeful disposition.",
-              "translation_ko": "정인이 지그를 추는 것을 보면 곁의 사람이 밝고 바라는 마음을 지녔다"
-            }
-          ]
-        },
-        {
-          "context": "발레 하는 여자들이 춤추는 것을 봄",
-          "interpretation_ko": "떳떳하지 못한 놀이에 빠지고 낮은 바람을 좇을 흉한 조짐",
-          "interpretation_en": "you will engage in undignified amusements and follow low desires",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jig",
-              "original": "To see ballet girls dancing a jig, you will engage in undignified amusements and follow low desires.",
-              "translation_ko": "발레 하는 여자들이 지그를 추는 것을 보면 떳떳하지 못한 놀이에 빠지고 낮은 바람을 좇는다"
-            }
-          ]
-        },
-        {
-          "context": "춤추는 것을 봄",
-          "interpretation_ko": "구설수가 있을 조짐",
-          "interpretation_en": "a sign of quarrels and gossip",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "見歌舞者口舌至",
-              "translation_ko": "노래하고 춤추는 것을 보면 구설이 이른다"
             }
           ]
         }
@@ -47433,6 +47448,94 @@
       ]
     },
     {
+      "id": "bog",
+      "term_ko": "수렁",
+      "term_en": "bog",
+      "aliases": [
+        "수렁",
+        "습지",
+        "진창 늪",
+        "늪에 빠",
+        "늪지를",
+        "늪지가",
+        "진펄",
+        "늪지",
+        "수렁에 빠졌다",
+        "수렁에 빠지"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "늪지 꿈을 꿈",
+          "interpretation_ko": "일어서려는 노력이 소용없다고 느껴질 만큼 무거운 짐을 지게 되고, 병과 근심이 짓누를 조짐",
+          "interpretation_en": "a sign of burdens under whose weight you feel that endeavors to rise are useless, and that illness and other worries may oppress you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bog",
+              "original": "Bogs, denotes burdens under whose weight you feel that endeavors\nto rise are useless.  Illness and other worries may oppress you.",
+              "translation_ko": "늪지 꿈을 꾸면 일어서려는 노력이 소용없다고 느껴질 만큼 무거운 짐을 지게 되고, 병과 근심이 짓누를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "늪지를 걸어서 지남",
+          "interpretation_ko": "지나친 일과 걱정에서 병이 올 흉한 조짐 — 가까운 살붙이의 어리석은 처신 때문에 언짢은 일도 겪는다",
+          "interpretation_en": "denotes illness resulting from overwork and worry; you will suffer much displeasure from the unwise conduct of a near relative",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marsh",
+              "original": "To dream of walking through marshy places, denotes illness resulting from overwork and worry.",
+              "translation_ko": "늪지를 걸어서 지나는 꿈은, 지나친 일과 걱정에서 병이 옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "수렁에 빠짐",
+          "interpretation_ko": "책무를 다하지 못할 조짐. 이따금 병을 알리기도 함",
+          "interpretation_en": "implies your inability to meet obligations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quagmire",
+              "original": "To dream of being in a quagmire, implies your inability to meet obligations.",
+              "translation_ko": "수렁에 빠지는 꿈은, 책무를 다하지 못할 조짐이다"
+            },
+            {
+              "work": "miller",
+              "locator": "Quagmire",
+              "original": "Illness is sometimes indicated by this dream.",
+              "translation_ko": "이따금 병을 알리기도 한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 수렁에 빠진 것을 봄",
+          "interpretation_ko": "남의 실패가 저에게도 미칠 조짐",
+          "interpretation_en": "denotes that the failures of others will be felt by you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quagmire",
+              "original": "To see others thus situated, denotes that the failures of others will be felt by you.",
+              "translation_ko": "남이 수렁에 빠진 것을 보는 꿈은, 남의 실패가 저에게도 미칠 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bonnet",
       "term_ko": "보닛(모자)",
       "term_en": "bonnet",
@@ -57577,6 +57680,80 @@
               "locator": "Pyramid",
               "original": "To dream that you are studying the mystery of the ancient pyramids, denotes that you will develop a love for the mysteries of nature, and you will become learned and polished.",
               "translation_ko": "옛 피라미드의 신비를 탐구하는 꿈은, 자연의 신비를 사랑하게 되고, 학식과 세련됨을 갖추게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quail",
+      "term_ko": "메추라기",
+      "term_en": "quail",
+      "aliases": [
+        "메추라기가",
+        "메추라기를"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "살아있는 메추라기를 봄",
+          "interpretation_ko": "매우 좋은 조짐",
+          "interpretation_en": "is a very favorable omen, if they are alive",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quail",
+              "original": "To see quails in your dream, is a very favorable omen, if they are alive;",
+              "translation_ko": "살아있는 메추라기를 보는 꿈은, 매우 좋은 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 메추라기를 봄",
+          "interpretation_ko": "심한 궂은 운을 겪을 조짐",
+          "interpretation_en": "if dead, you will undergo serious ill luck",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quail",
+              "original": "if dead, you will undergo serious ill luck.",
+              "translation_ko": "죽은 메추라기를 보는 꿈은, 심한 궂은 운을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "메추라기를 쏨",
+          "interpretation_ko": "가장 가까운 벗에게 나쁜 감정을 드러낼 조짐",
+          "interpretation_en": "foretells that ill feelings will be shown by you to your best friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quail",
+              "original": "To shoot quail, foretells that ill feelings will be shown by you to your best friends.",
+              "translation_ko": "메추라기를 쏘는 꿈은, 가장 가까운 벗에게 나쁜 감정을 드러낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "메추라기를 먹음",
+          "interpretation_ko": "사는 데 사치를 부릴 조짐",
+          "interpretation_en": "signifies extravagance in your personal living",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quail",
+              "original": "To eat them, signifies extravagance in your personal living.",
+              "translation_ko": "메추라기를 먹는 꿈은, 사는 데 사치를 부릴 조짐이다"
             }
           ]
         }
@@ -78730,57 +78907,6 @@
       ]
     },
     {
-      "id": "bog",
-      "term_ko": "늪지",
-      "term_en": "bog",
-      "aliases": [
-        "수렁",
-        "습지",
-        "진창 늪",
-        "늪에 빠",
-        "늪지를",
-        "늪지가",
-        "진펄"
-      ],
-      "category": "nature",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "늪지 꿈을 꿈",
-          "interpretation_ko": "일어서려는 노력이 소용없다고 느껴질 만큼 무거운 짐을 지게 되고, 병과 근심이 짓누를 조짐",
-          "interpretation_en": "a sign of burdens under whose weight you feel that endeavors to rise are useless, and that illness and other worries may oppress you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bog",
-              "original": "Bogs, denotes burdens under whose weight you feel that endeavors\nto rise are useless.  Illness and other worries may oppress you.",
-              "translation_ko": "늪지 꿈을 꾸면 일어서려는 노력이 소용없다고 느껴질 만큼 무거운 짐을 지게 되고, 병과 근심이 짓누를 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "늪지를 걸어서 지남",
-          "interpretation_ko": "지나친 일과 걱정에서 병이 올 흉한 조짐 — 가까운 살붙이의 어리석은 처신 때문에 언짢은 일도 겪는다",
-          "interpretation_en": "denotes illness resulting from overwork and worry; you will suffer much displeasure from the unwise conduct of a near relative",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Marsh",
-              "original": "To dream of walking through marshy places, denotes illness resulting from overwork and worry.",
-              "translation_ko": "늪지를 걸어서 지나는 꿈은, 지나친 일과 걱정에서 병이 옴을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "boiler",
       "term_ko": "보일러",
       "term_en": "boiler",
@@ -97340,6 +97466,52 @@
       ]
     },
     {
+      "id": "quack-medicine",
+      "term_ko": "돌팔이 약",
+      "term_en": "quack-medicine",
+      "aliases": [
+        "돌팔이 약을",
+        "돌팔이 약이"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "돌팔이 약을 먹음",
+          "interpretation_ko": "어떤 근심 아래 병적으로 되어 가고 있으니, 부지런히 제 할 일에 힘써 극복해야 할 조짐",
+          "interpretation_en": "shows that you are growing morbid under some trouble, and should overcome it by industrious application to duty",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quack Medicine",
+              "original": "To dream you take quack medicine, shows that you are growing morbid under some trouble, and should overcome it by industrious application to duty.",
+              "translation_ko": "돌팔이 약을 먹는 꿈은, 어떤 근심 아래 병적으로 되어 가고 있으니, 부지런히 제 할 일에 힘써 극복해야 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "돌팔이 약 광고를 읽음",
+          "interpretation_ko": "달갑잖은 이들이 저를 해코지하고 괴롭힐 조짐",
+          "interpretation_en": "foretells unhappy companions will wrong and distress you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quack Medicine",
+              "original": "To read the advertisement of it, foretells unhappy companions will wrong and distress you.",
+              "translation_ko": "돌팔이 약 광고를 읽는 꿈은, 달갑잖은 이들이 저를 해코지하고 괴롭힐 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "quarrel",
       "term_ko": "말다툼",
       "term_en": "quarrel",
@@ -109220,6 +109392,38 @@
               "locator": "龍蛇禽獸等類",
               "original": "麒麟者名震天下",
               "translation_ko": "기린은 이름이 천하에 떨칠 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quack-doctor",
+      "term_ko": "돌팔이 의사",
+      "term_en": "quack-doctor",
+      "aliases": [
+        "돌팔이 의사가",
+        "돌팔이 의사를"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "돌팔이 의사 꿈을 꿈",
+          "interpretation_ko": "어떤 병과 그 잘못된 치료를 놀라 두려워하게 될 조짐",
+          "interpretation_en": "denotes you will be alarmed over some illness and its improper treatment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quack Doctor",
+              "original": "To see a quack doctor in your dreams, denotes you will be alarmed over some illness and its improper treatment.",
+              "translation_ko": "돌팔이 의사를 보는 꿈은, 어떤 병과 그 잘못된 치료를 놀라 두려워하게 될 조짐이다"
             }
           ]
         }

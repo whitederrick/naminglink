@@ -1,0 +1,167 @@
+[
+  {
+    "term_ko": "돌팔이 의사",
+    "term_en": "quack-doctor",
+    "context": "돌팔이 의사 꿈을 꿈",
+    "interpretation_ko": "어떤 병과 그 잘못된 치료를 놀라 두려워하게 될 조짐",
+    "interpretation_en": "denotes you will be alarmed over some illness and its improper treatment",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Quack Doctor",
+      "original": "To see a quack doctor in your dreams, denotes you will be alarmed over some illness and its improper treatment.",
+      "translation_ko": "돌팔이 의사를 보는 꿈은, 어떤 병과 그 잘못된 치료를 놀라 두려워하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "돌팔이 약",
+    "term_en": "quack-medicine",
+    "context": "돌팔이 약을 먹음",
+    "interpretation_ko": "어떤 근심 아래 병적으로 되어 가고 있으니, 부지런히 제 할 일에 힘써 극복해야 할 조짐",
+    "interpretation_en": "shows that you are growing morbid under some trouble, and should overcome it by industrious application to duty",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quack Medicine",
+      "original": "To dream you take quack medicine, shows that you are growing morbid under some trouble, and should overcome it by industrious application to duty.",
+      "translation_ko": "돌팔이 약을 먹는 꿈은, 어떤 근심 아래 병적으로 되어 가고 있으니, 부지런히 제 할 일에 힘써 극복해야 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "돌팔이 약",
+    "term_en": "quack-medicine",
+    "context": "돌팔이 약 광고를 읽음",
+    "interpretation_ko": "달갑잖은 이들이 저를 해코지하고 괴롭힐 조짐",
+    "interpretation_en": "foretells unhappy companions will wrong and distress you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quack Medicine",
+      "original": "To read the advertisement of it, foretells unhappy companions will wrong and distress you.",
+      "translation_ko": "돌팔이 약 광고를 읽는 꿈은, 달갑잖은 이들이 저를 해코지하고 괴롭힐 조짐이다"
+    }
+  },
+  {
+    "term_ko": "춤",
+    "term_en": "dance",
+    "context": "카드리유 춤을 춤",
+    "interpretation_ko": "즐거운 약속으로 시간을 보내게 될 조짐",
+    "interpretation_en": "foretells that some pleasant engagement will occupy your time",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quadrille",
+      "original": "To dream of dancing a quadrille, foretells that some pleasant engagement will occupy your time.",
+      "translation_ko": "카드리유 춤을 추는 꿈은, 즐거운 약속으로 시간을 보내게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수렁",
+    "term_en": "bog",
+    "context": "수렁에 빠짐",
+    "interpretation_ko": "책무를 다하지 못할 조짐. 이따금 병을 알리기도 함",
+    "interpretation_en": "implies your inability to meet obligations",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quagmire",
+      "original": "To dream of being in a quagmire, implies your inability to meet obligations.",
+      "translation_ko": "수렁에 빠지는 꿈은, 책무를 다하지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수렁",
+    "term_en": "bog",
+    "context": "수렁에 빠짐",
+    "interpretation_ko": "이따금 병을 알리기도 함",
+    "interpretation_en": "illness is sometimes indicated by this dream",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quagmire",
+      "original": "Illness is sometimes indicated by this dream.",
+      "translation_ko": "이따금 병을 알리기도 한다"
+    }
+  },
+  {
+    "term_ko": "수렁",
+    "term_en": "bog",
+    "context": "남이 수렁에 빠진 것을 봄",
+    "interpretation_ko": "남의 실패가 저에게도 미칠 조짐",
+    "interpretation_en": "denotes that the failures of others will be felt by you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quagmire",
+      "original": "To see others thus situated, denotes that the failures of others will be felt by you.",
+      "translation_ko": "남이 수렁에 빠진 것을 보는 꿈은, 남의 실패가 저에게도 미칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "메추라기",
+    "term_en": "quail",
+    "context": "살아있는 메추라기를 봄",
+    "interpretation_ko": "매우 좋은 조짐",
+    "interpretation_en": "is a very favorable omen, if they are alive",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Quail",
+      "original": "To see quails in your dream, is a very favorable omen, if they are alive;",
+      "translation_ko": "살아있는 메추라기를 보는 꿈은, 매우 좋은 조짐이다"
+    }
+  },
+  {
+    "term_ko": "메추라기",
+    "term_en": "quail",
+    "context": "죽은 메추라기를 봄",
+    "interpretation_ko": "심한 궂은 운을 겪을 조짐",
+    "interpretation_en": "if dead, you will undergo serious ill luck",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Quail",
+      "original": "if dead, you will undergo serious ill luck.",
+      "translation_ko": "죽은 메추라기를 보는 꿈은, 심한 궂은 운을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "메추라기",
+    "term_en": "quail",
+    "context": "메추라기를 쏨",
+    "interpretation_ko": "가장 가까운 벗에게 나쁜 감정을 드러낼 조짐",
+    "interpretation_en": "foretells that ill feelings will be shown by you to your best friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quail",
+      "original": "To shoot quail, foretells that ill feelings will be shown by you to your best friends.",
+      "translation_ko": "메추라기를 쏘는 꿈은, 가장 가까운 벗에게 나쁜 감정을 드러낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "메추라기",
+    "term_en": "quail",
+    "context": "메추라기를 먹음",
+    "interpretation_ko": "사는 데 사치를 부릴 조짐",
+    "interpretation_en": "signifies extravagance in your personal living",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Quail",
+      "original": "To eat them, signifies extravagance in your personal living.",
+      "translation_ko": "메추라기를 먹는 꿈은, 사는 데 사치를 부릴 조짐이다"
+    }
+  }
+]

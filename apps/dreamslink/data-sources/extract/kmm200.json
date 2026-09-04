@@ -1,0 +1,55 @@
+[
+  {
+    "id": "quack-doctor",
+    "aliases": [
+      "돌팔이 의사가",
+      "돌팔이 의사를"
+    ],
+    "aliases_en": [
+      "a quack doctor"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "quack-medicine",
+    "aliases": [
+      "돌팔이 약을",
+      "돌팔이 약이"
+    ],
+    "aliases_en": [
+      "quack medicine"
+    ],
+    "contexts": {
+      "돌팔이 약을 먹음": "병적으로 부지런히",
+      "돌팔이 약 광고를 읽음": "광고 해코지"
+    },
+    "contexts_en": {
+      "돌팔이 약을 먹음": "morbid industrious duty",
+      "돌팔이 약 광고를 읽음": "advertisement companions distress"
+    }
+  },
+  {
+    "id": "quail",
+    "aliases": [
+      "메추라기가",
+      "메추라기를"
+    ],
+    "aliases_en": [
+      "a quail",
+      "quails"
+    ],
+    "contexts": {
+      "살아있는 메추라기를 봄": "살아있는 좋은",
+      "죽은 메추라기를 봄": "죽은 심한",
+      "메추라기를 쏨": "쏘았 가까운 벗들",
+      "메추라기를 먹음": "먹었 사치"
+    },
+    "contexts_en": {
+      "살아있는 메추라기를 봄": "alive favorable omen",
+      "죽은 메추라기를 봄": "dead serious luck",
+      "메추라기를 쏨": "shoot friends",
+      "메추라기를 먹음": "eat extravagance living"
+    }
+  }
+]

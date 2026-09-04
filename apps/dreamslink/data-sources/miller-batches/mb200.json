@@ -1,0 +1,33 @@
+{
+  "batch": 200,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Quack Doctor",
+      "text": "To see a quack doctor in your dreams, denotes you will be alarmed over some illness and its improper treatment.",
+      "note": "새 상징 `quack-doctor`(돌팔이 의사) — Q장 첫 배치"
+    },
+    {
+      "headword": "Quack Medicine",
+      "text": "To dream you take quack medicine, shows that you are growing morbid under some trouble, and should overcome it by industrious application to duty. To read the advertisement of it, foretells unhappy companions will wrong and distress you.",
+      "note": "새 상징 `quack-medicine`(돌팔이 약)"
+    },
+    {
+      "headword": "Quadrille",
+      "text": "To dream of dancing a quadrille, foretells that some pleasant engagement will occupy your time.",
+      "note": "기존 상징 `dance`(춤)에 더한다 — \"dancing\"이 이미 그 영어 별칭이다. 각주 [180]은 「Dancing 항목 참고」다"
+    },
+    {
+      "headword": "Quagmire",
+      "text": "To dream of being in a quagmire, implies your inability to meet obligations. To see others thus situated, denotes that the failures of others will be felt by you. Illness is sometimes indicated by this dream.",
+      "note": "기존 상징 `bog`(수렁)에 더한다 — \"a quagmire\"가 이미 그 영어 별칭이다"
+    },
+    {
+      "headword": "Quail",
+      "text": "To see quails in your dream, is a very favorable omen, if they are alive; if dead, you will undergo serious ill luck. To shoot quail, foretells that ill feelings will be shown by you to your best friends. To eat them, signifies extravagance in your personal living.",
+      "note": "새 상징 `quail`(메추라기)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}
