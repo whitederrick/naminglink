@@ -1134,6 +1134,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "saw::톱을 손으로 사용함": "energetic busy cheerful",
   "soldier::군인이 집에 들어옴": "entered house home",
   "soldier::군사가 흩어지는 것을 봄": "scattered scattering dispersed",
+  "soldier::병사들이 행진하는 것을 봄": "marching excesses elevations",
+  "soldier::부상당한 병사들을 봄": "wounded misfortune sympathy",
+  "soldier::자신이 훌륭한 병사가 됨": "fulfilment ideals disrepute",
   "wild-duck::물오리가 집 안으로 들어옴": "came inside house",
   "wild-duck::맑은 시내에 물오리가 있음": "clear stream journeys sea",
   "bowing::웃어른께 몸소 절함": "elder elders senior",
@@ -5753,5 +5756,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "snail::달팽이가 기어감": "crawling unhealthful conditions",
   "snail::달팽이를 밟음": "step disagreeable contact",
   "sneeze::재채기를 함": "hasty tidings plans",
-  "sneeze::남이 재채기하는 것을 보거나 들음": "others bore visits"
+  "sneeze::남이 재채기하는 것을 보거나 들음": "others bore visits",
+  "snuff::코담배 꿈을 꿈": "enemies seducing confidence",
+  "snuff::여성이 코담배를 사용함": "complications separation friend",
+  "soap::비누 꿈을 꿈": "friendships entertainment farmers",
+  "soap::여성이 비누를 만듦": "making substantial competency",
+  "soda-fountain::소다수 판매대에 있음": "pleasure profit experiences",
+  "soda-fountain::남에게 시원한 음료를 대접함": "treat drinks rewarded",
+  "son::잘생기고 다정한 아들을 봄": "handsome dutiful satisfaction",
+  "son::아들이 다치거나 병들거나 사고를 당함": "maimed illness accident",
+  "son::어머니가 아들이 우물 바닥에 떨어져 우는 소리를 들음": "well cries grief",
+  "son::어머니가 아들을 구해냄": "rescues danger unexpectedly"
 };

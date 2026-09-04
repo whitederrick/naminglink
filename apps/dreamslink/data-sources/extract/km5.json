@@ -1253,21 +1253,30 @@
       "군사",
       "장병",
       "군졸",
-      "병졸"
+      "병졸",
+      "병사들",
+      "훌륭한 병사"
     ],
     "aliases_en": [
       "soldiers",
       "troops",
       "warrior",
-      "warriors"
+      "warriors",
+      "a worthy soldier"
     ],
     "contexts": {
       "군인이 집에 들어옴": "집에 들어왔 집으로",
-      "군사가 흩어지는 것을 봄": "흩어지 흩어졌 뿔뿔이"
+      "군사가 흩어지는 것을 봄": "흩어지 흩어졌 뿔뿔이",
+      "병사들이 행진하는 것을 봄": "행진하는 방종의 경쟁자들",
+      "부상당한 병사들을 봄": "부상당한 남의 불행 동정",
+      "자신이 훌륭한 병사가 됨": "훌륭한 이상을 여성이"
     },
     "contexts_en": {
       "군인이 집에 들어옴": "entered house home",
-      "군사가 흩어지는 것을 봄": "scattered scattering dispersed"
+      "군사가 흩어지는 것을 봄": "scattered scattering dispersed",
+      "병사들이 행진하는 것을 봄": "marching excesses elevations",
+      "부상당한 병사들을 봄": "wounded misfortune sympathy",
+      "자신이 훌륭한 병사가 됨": "fulfilment ideals disrepute"
     }
   },
   {

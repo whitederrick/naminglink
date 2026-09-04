@@ -1,0 +1,48 @@
+{
+  "batch": 251,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Snuff",
+      "text": "To dream of snuff, signifies your enemies are seducing the confidence of your friends. For a woman to use it in her dreams, foretells complications which will involve her separation from a favored friend.",
+      "note": "새 상징 `snuff`(코담배) — 두 그림"
+    },
+    {
+      "headword": "Soap",
+      "text": "To dream of soap, foretells that friendships will reveal interesting entertainment. Farmers will have success in their varied affairs. For a young woman to be making soap, omens a substantial and satisfactory competency will be hers.",
+      "note": "새 상징 `soap`(비누) — 두 그림"
+    },
+    {
+      "headword": "Socialist",
+      "text": "To see a socialist in your dreams, your unenvied position among friends and acquaintances is predicted. Your affairs will be neglected for other imaginary duties.",
+      "note": "새 상징 `socialist`(사회주의자) — 한 그림"
+    },
+    {
+      "headword": "Soda Fountain",
+      "text": "To dream of being at a soda fountain, denotes pleasure and profit after many exasperating experiences. To treat others to this and other delectable iced drinks; you will be rewarded in your efforts, though the outlook appears full of contradictions. Inharmonious environments, and desired results will be forthcoming.",
+      "note": "새 상징 `soda-fountain`(소다수 판매대) — 두 그림"
+    },
+    {
+      "headword": "Son",
+      "text": "To dream of your son, if you have one, as being handsome and dutiful, foretells that he will afford you proud satisfaction, and will aspire to high honors. If he is maimed, or suffering from illness or accident, there is trouble ahead for you. For a mother to dream that her son has fallen to the bottom of a well, and she hears cries, it is a sign of deep grief, losses and sickness. If she rescues him, threatened danger will pass away unexpectedly.",
+      "note": "새 상징 `son`(아들) — 네 그림"
+    },
+    {
+      "headword": "Soot",
+      "text": "If you see soot in your dreams, it means that you will meet with ill success in your affairs. Lovers will be quarrelsome and hard to please.",
+      "note": "새 상징 `soot`(검댕) — 한 그림"
+    },
+    {
+      "headword": "Sold",
+      "text": "To dream that you have sold anything, denotes that unfavorable business will worry you.",
+      "note": "새 상징 `having-sold`(팔았음) — 한 그림"
+    },
+    {
+      "headword": "Soldiers",
+      "text": "To see soldiers marching in your dreams, foretells for you a period of flagrant excesses, but at the same time you will be promoted to elevations above rivals. To see wounded soldiers, is a sign of the misfortune of others causing you serious complications in your affairs. Your sympathy will outstrip your judgment. To dream that you are a worthy soldier, you will have literal fulfilment of ideals. Women are in danger of disrepute if they find themselves dreaming of soldiers.",
+      "note": "기존 `soldier`(군인)에 붙임 — 세 그림"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

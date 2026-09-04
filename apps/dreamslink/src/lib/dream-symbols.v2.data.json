@@ -170,6 +170,7 @@
     "m249.json",
     "m25.json",
     "m250.json",
+    "m251.json",
     "m26.json",
     "m27a.json",
     "m27b.json",
@@ -49608,6 +49609,100 @@
       ]
     },
     {
+      "id": "soldier",
+      "term_ko": "군인",
+      "term_en": "soldier",
+      "aliases": [
+        "병사",
+        "군사",
+        "장병",
+        "군졸",
+        "병졸",
+        "병사들",
+        "훌륭한 병사"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "병사들이 행진하는 것을 봄",
+          "interpretation_ko": "지나친 방종의 시기가 오지만, 동시에 경쟁자들보다 높은 자리로 오를 조짐",
+          "interpretation_en": "foretells for you a period of flagrant excesses, but at the same time you will be promoted to elevations above rivals",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Soldiers",
+              "original": "To see soldiers marching in your dreams, foretells for you a period of flagrant excesses, but at the same time you will be promoted to elevations above rivals.",
+              "translation_ko": "병사들이 행진하는 것을 보는 꿈은, 지나친 방종의 시기가 오지만 동시에 경쟁자들보다 높은 자리로 오를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부상당한 병사들을 봄",
+          "interpretation_ko": "남의 불행이 자신의 일에 심각한 곤란을 일으킬 조짐. 판단보다 동정이 앞설 것",
+          "interpretation_en": "is a sign of the misfortune of others causing you serious complications in your affairs. Your sympathy will outstrip your judgment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Soldiers",
+              "original": "To see wounded soldiers, is a sign of the misfortune of others causing you serious complications in your affairs. Your sympathy will outstrip your judgment.",
+              "translation_ko": "부상당한 병사들을 보는 꿈은, 남의 불행이 자신의 일에 심각한 곤란을 일으킬 조짐이다. 판단보다 동정이 앞설 것이다"
+            }
+          ]
+        },
+        {
+          "context": "자신이 훌륭한 병사가 됨",
+          "interpretation_ko": "품은 이상을 그대로 이룰 조짐. 다만 여성이 이 꿈을 꾸면 평판이 위태로워질 위험이 있음",
+          "interpretation_en": "you will have literal fulfilment of ideals. Women are in danger of disrepute if they find themselves dreaming of soldiers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Soldiers",
+              "original": "To dream that you are a worthy soldier, you will have literal fulfilment of ideals. Women are in danger of disrepute if they find themselves dreaming of soldiers.",
+              "translation_ko": "자신이 훌륭한 병사가 되는 꿈은, 품은 이상을 그대로 이룰 조짐이다. 다만 여성이 이 꿈을 꾸면 평판이 위태로워질 위험이 있다"
+            }
+          ]
+        },
+        {
+          "context": "군사가 흩어지는 것을 봄",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "見軍兵散主有凶",
+              "translation_ko": "군사가 흩어지는 것을 보면 흉함이 있다"
+            }
+          ]
+        },
+        {
+          "context": "군인이 집에 들어옴",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "軍人入宅主大吉",
+              "translation_ko": "군인이 집에 들어오면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "tiger",
       "term_ko": "호랑이",
       "term_en": "tiger",
@@ -63754,6 +63849,80 @@
               "locator": "Skull",
               "original": "To see your own skull, denotes that you will be the servant of remorse.",
               "translation_ko": "자신의 두개골을 보는 꿈은, 회한의 종노릇을 하게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "son",
+      "term_ko": "아들",
+      "term_en": "son",
+      "aliases": [
+        "아들을",
+        "아들이"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "잘생기고 다정한 아들을 봄",
+          "interpretation_ko": "아들이 자랑스러운 만족을 안기고 높은 명예를 바랄 조짐",
+          "interpretation_en": "foretells that he will afford you proud satisfaction, and will aspire to high honors",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Son",
+              "original": "To dream of your son, if you have one, as being handsome and dutiful, foretells that he will afford you proud satisfaction, and will aspire to high honors.",
+              "translation_ko": "잘생기고 다정한 아들을 보는 꿈은, 아들이 자랑스러운 만족을 안기고 높은 명예를 바랄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아들이 다치거나 병들거나 사고를 당함",
+          "interpretation_ko": "앞으로 곤란이 닥칠 조짐",
+          "interpretation_en": "there is trouble ahead for you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Son",
+              "original": "If he is maimed, or suffering from illness or accident, there is trouble ahead for you.",
+              "translation_ko": "아들이 다치거나 병들거나 사고를 당하는 꿈은, 앞으로 곤란이 닥칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "어머니가 아들이 우물 바닥에 떨어져 우는 소리를 들음",
+          "interpretation_ko": "깊은 슬픔과 손실, 병의 조짐",
+          "interpretation_en": "it is a sign of deep grief, losses and sickness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Son",
+              "original": "For a mother to dream that her son has fallen to the bottom of a well, and she hears cries, it is a sign of deep grief, losses and sickness.",
+              "translation_ko": "어머니가 아들이 우물 바닥에 떨어져 우는 소리를 듣는 꿈은, 깊은 슬픔과 손실, 병의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "어머니가 아들을 구해냄",
+          "interpretation_ko": "위협하던 위험이 뜻밖에 사라질 조짐",
+          "interpretation_en": "threatened danger will pass away unexpectedly",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Son",
+              "original": "If she rescues him, threatened danger will pass away unexpectedly.",
+              "translation_ko": "어머니가 아들을 구해내는 꿈은, 위협하던 위험이 뜻밖에 사라질 조짐이다"
             }
           ]
         }
@@ -107489,49 +107658,138 @@
       ]
     },
     {
-      "id": "soldier",
-      "term_ko": "군사",
-      "term_en": "soldier",
+      "id": "snuff",
+      "term_ko": "코담배",
+      "term_en": "snuff",
       "aliases": [
-        "병사",
-        "군사",
-        "장병",
-        "군졸",
-        "병졸"
+        "코담배를",
+        "코담배가"
       ],
-      "category": "person",
-      "polarity": "ambivalent",
+      "category": "object",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "군사가 흩어지는 것을 봄",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
+          "context": "코담배 꿈을 꿈",
+          "interpretation_ko": "적이 벗의 믿음을 꾀어내고 있다는 조짐",
+          "interpretation_en": "signifies your enemies are seducing the confidence of your friends",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "見軍兵散主有凶",
-              "translation_ko": "군사가 흩어지는 것을 보면 흉함이 있다"
+              "work": "miller",
+              "locator": "Snuff",
+              "original": "To dream of snuff, signifies your enemies are seducing the confidence of your friends.",
+              "translation_ko": "코담배 꿈은, 적이 벗의 믿음을 꾀어내고 있다는 조짐이다"
             }
           ]
         },
         {
-          "context": "군인이 집에 들어옴",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
+          "context": "여성이 코담배를 사용함",
+          "interpretation_ko": "아끼던 벗과 헤어지게 될 복잡한 사정이 생길 조짐",
+          "interpretation_en": "foretells complications which will involve her separation from a favored friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snuff",
+              "original": "For a woman to use it in her dreams, foretells complications which will involve her separation from a favored friend.",
+              "translation_ko": "여성이 코담배를 사용하는 꿈은, 아끼던 벗과 헤어지게 될 복잡한 사정이 생길 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soap",
+      "term_ko": "비누",
+      "term_en": "soap",
+      "aliases": [
+        "비누를",
+        "비누가"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "비누 꿈을 꿈",
+          "interpretation_ko": "우정에서 흥미로운 즐거움을 얻을 조짐. 농부는 여러 일에서 성공할 것",
+          "interpretation_en": "foretells that friendships will reveal interesting entertainment. Farmers will have success in their varied affairs",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "軍人入宅主大吉",
-              "translation_ko": "군인이 집에 들어오면 크게 길하다"
+              "work": "miller",
+              "locator": "Soap",
+              "original": "To dream of soap, foretells that friendships will reveal interesting entertainment. Farmers will have success in their varied affairs.",
+              "translation_ko": "비누 꿈은, 우정에서 흥미로운 즐거움을 얻을 조짐이다. 농부는 여러 일에서 성공할 것이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 비누를 만듦",
+          "interpretation_ko": "넉넉하고 만족스러운 살림을 이룰 조짐",
+          "interpretation_en": "omens a substantial and satisfactory competency will be hers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Soap",
+              "original": "For a young woman to be making soap, omens a substantial and satisfactory competency will be hers.",
+              "translation_ko": "여성이 비누를 만드는 꿈은, 넉넉하고 만족스러운 살림을 이룰 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soda-fountain",
+      "term_ko": "소다수 판매대",
+      "term_en": "soda fountain",
+      "aliases": [
+        "소다수 판매대",
+        "소다수 가게"
+      ],
+      "category": "place",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "소다수 판매대에 있음",
+          "interpretation_ko": "많은 짜증스러운 일들 뒤에 즐거움과 이득이 있을 조짐",
+          "interpretation_en": "denotes pleasure and profit after many exasperating experiences",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Soda Fountain",
+              "original": "To dream of being at a soda fountain, denotes pleasure and profit after many exasperating experiences.",
+              "translation_ko": "소다수 판매대에 있는 꿈은, 많은 짜증스러운 일들 뒤에 즐거움과 이득이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 시원한 음료를 대접함",
+          "interpretation_ko": "애쓴 만큼 보답받겠지만 앞날은 모순으로 가득해 보이는 조짐. 어수선한 환경 속에서도 바라던 결과가 다가올 것",
+          "interpretation_en": "you will be rewarded in your efforts, though the outlook appears full of contradictions. Inharmonious environments, and desired results will be forthcoming",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Soda Fountain",
+              "original": "To treat others to this and other delectable iced drinks; you will be rewarded in your efforts, though the outlook appears full of contradictions. Inharmonious environments, and desired results will be forthcoming.",
+              "translation_ko": "남에게 시원한 음료를 대접하는 꿈은, 애쓴 만큼 보답받겠지만 앞날은 모순으로 가득해 보이는 조짐이다. 어수선한 환경 속에서도 바라던 결과가 다가올 것이다"
             }
           ]
         }
@@ -115195,6 +115453,38 @@
       ]
     },
     {
+      "id": "having-sold",
+      "term_ko": "팔았음",
+      "term_en": "having sold",
+      "aliases": [
+        "판 꿈",
+        "팔았다"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무언가를 판 꿈을 꿈",
+          "interpretation_ko": "달갑잖은 사업으로 근심하게 될 조짐",
+          "interpretation_en": "denotes that unfavorable business will worry you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sold",
+              "original": "To dream that you have sold anything, denotes that unfavorable business will worry you.",
+              "translation_ko": "무언가를 판 꿈은, 달갑잖은 사업으로 근심하게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "heat",
       "term_ko": "더위",
       "term_en": "heat",
@@ -120572,6 +120862,38 @@
       ]
     },
     {
+      "id": "socialist",
+      "term_ko": "사회주의자",
+      "term_en": "socialist",
+      "aliases": [
+        "사회주의자를",
+        "사회주의자가"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사회주의자를 봄",
+          "interpretation_ko": "벗과 지인들 사이에서 부럽잖은 처지가 될 조짐. 공허한 일에 매여 제 일을 소홀히 하게 될 것",
+          "interpretation_en": "your unenvied position among friends and acquaintances is predicted. Your affairs will be neglected for other imaginary duties",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Socialist",
+              "original": "To see a socialist in your dreams, your unenvied position among friends and acquaintances is predicted. Your affairs will be neglected for other imaginary duties.",
+              "translation_ko": "사회주의자를 보는 꿈은, 벗과 지인들 사이에서 부럽잖은 처지가 될 조짐이다. 공허한 일에 매여 제 일을 소홀히 하게 될 것이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "softshell-turtle",
       "term_ko": "자라",
       "term_en": "softshell turtle",
@@ -120631,6 +120953,38 @@
               "locator": "帝王文武呼召",
               "original": "人在外呼之招凶",
               "translation_ko": "남이 밖에서 부르면 흉을 부른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soot",
+      "term_ko": "검댕",
+      "term_en": "soot",
+      "aliases": [
+        "검댕을",
+        "그을음"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "검댕을 봄",
+          "interpretation_ko": "일에서 성과를 못 거둘 조짐. 연인 사이는 다투기 쉽고 비위 맞추기 어려워질 것",
+          "interpretation_en": "it means that you will meet with ill success in your affairs. Lovers will be quarrelsome and hard to please",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Soot",
+              "original": "If you see soot in your dreams, it means that you will meet with ill success in your affairs. Lovers will be quarrelsome and hard to please.",
+              "translation_ko": "검댕을 보는 꿈은, 일에서 성과를 못 거둘 조짐이다. 연인 사이는 다투기 쉽고 비위 맞추기 어려워질 것이다"
             }
           ]
         }

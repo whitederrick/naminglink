@@ -1175,7 +1175,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "soldiers",
     "troops",
     "warrior",
-    "warriors"
+    "warriors",
+    "a worthy soldier"
   ],
   "sweat": [
     "sweating",
@@ -7576,5 +7577,27 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "snouts": [
     "snouts"
+  ],
+  "snuff": [
+    "snuff"
+  ],
+  "soap": [
+    "soap"
+  ],
+  "socialist": [
+    "a socialist"
+  ],
+  "soda-fountain": [
+    "a soda fountain"
+  ],
+  "son": [
+    "your son",
+    "her son"
+  ],
+  "soot": [
+    "soot"
+  ],
+  "having-sold": [
+    "having sold"
   ]
 };

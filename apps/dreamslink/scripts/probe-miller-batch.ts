@@ -1,7 +1,6 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 250 — Smallpox·Snail·Sneeze·Snouts, 기존 smoke(연기)·snow(눈)·
-// sleigh(썰매)에 각 붙임. Snakes는 기존 snake가 이미 문맥 16개인 거대 상징이라
-// 건너뜀. river-snail이 쥐고 있던 EN 별칭 "snail"을 새 snail에 넘겼다)
+// (지금 담긴 것: 배치 251 — Snuff·Soap·Socialist·Soda Fountain·Son·Soot·Having-sold,
+// 기존 soldier(군인)에 세 그림 붙임)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -32,29 +31,25 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "smallpox", ctx: "천연두에 걸린 사람들을 봄", text: "천연두에 걸린 사람들을 보았다" },
-  { id: "smoke", ctx: "연기 꿈을 꿈", text: "연기 꿈을 꾸었다" },
-  { id: "smoke", ctx: "연기에 휩싸임", text: "연기에 휩싸였다" },
-  { id: "snail", ctx: "달팽이가 기어감", text: "달팽이가 기어갔다" },
-  { id: "snail", ctx: "달팽이를 밟음", text: "달팽이를 밟았다" },
-  { id: "sneeze", ctx: "재채기를 함", text: "재채기를 했다" },
-  { id: "sneeze", ctx: "남이 재채기하는 것을 보거나 들음", text: "남이 재채기하는 것을 들었다" },
-  { id: "snouts", ctx: "동물의 주둥이 꿈을 꿈", text: "동물의 주둥이 꿈을 꾸었다" },
-  { id: "snow", ctx: "눈을 봄", text: "눈을 보았다" },
-  { id: "snow", ctx: "눈보라 속에 있음", text: "눈보라 속에 있었다" },
-  { id: "snow", ctx: "눈을 먹음", text: "눈을 먹었다" },
-  { id: "snow", ctx: "더러운 눈을 봄", text: "더러운 눈을 보았다" },
-  { id: "snow", ctx: "눈이 녹는 것을 봄", text: "눈이 녹는 것을 보았다" },
-  { id: "snow", ctx: "창문으로 함박눈이 내리는 것을 봄", text: "창문으로 함박눈이 내리는 것을 보았다" },
-  { id: "snow", ctx: "멀리 눈 덮인 산을 봄", text: "멀리 눈 덮인 산을 보았다" },
-  { id: "snow", ctx: "눈 덮인 풍경 사이로 해가 비침", text: "눈 덮인 풍경 사이로 해가 비쳤다" },
-  { id: "snow", ctx: "눈싸움을 함", text: "눈싸움을 했다" },
-  { id: "snow", ctx: "눈에 갇히거나 길을 잃음", text: "눈에 갇혔다" },
-  { id: "sleigh", ctx: "여성이 썰매를 타는 꿈을 꿈", text: "여성이 썰매를 타는 꿈을 꾸었다" },
-  // 지킴 — 이번에 손댄 기존 상징(smoke·snow·sleigh)의 옛 답이 그대로인가
-  { id: "smoke", ctx: "불 연기가 검음", text: "불 연기가 검었다" },
-  { id: "snow", ctx: "눈이 내림", text: "눈이 펑펑 내렸다" },
-  { id: "sleigh", ctx: "썰매를 탐", text: "썰매를 탔다" },
+  { id: "snuff", ctx: "코담배 꿈을 꿈", text: "코담배 꿈을 꾸었다" },
+  { id: "snuff", ctx: "여성이 코담배를 사용함", text: "여성이 코담배를 사용했다" },
+  { id: "soap", ctx: "비누 꿈을 꿈", text: "비누 꿈을 꾸었다" },
+  { id: "soap", ctx: "여성이 비누를 만듦", text: "여성이 비누를 만들었다" },
+  { id: "socialist", ctx: "사회주의자를 봄", text: "사회주의자를 보았다" },
+  { id: "soda-fountain", ctx: "소다수 판매대에 있음", text: "소다수 판매대에 있었다" },
+  { id: "soda-fountain", ctx: "남에게 시원한 음료를 대접함", text: "소다수 판매대에서 남에게 시원한 음료를 대접했다" },
+  { id: "son", ctx: "잘생기고 다정한 아들을 봄", text: "잘생기고 다정한 아들을 보았다" },
+  { id: "son", ctx: "아들이 다치거나 병들거나 사고를 당함", text: "아들이 다치거나 병들었다" },
+  { id: "son", ctx: "어머니가 아들이 우물 바닥에 떨어져 우는 소리를 들음", text: "어머니가 아들이 우물 바닥에 떨어져 우는 소리를 들었다" },
+  { id: "son", ctx: "어머니가 아들을 구해냄", text: "어머니가 아들을 구해냈다" },
+  { id: "soot", ctx: "검댕을 봄", text: "검댕을 보았다" },
+  { id: "having-sold", ctx: "무언가를 판 꿈을 꿈", text: "무언가를 판 꿈을 꾸었다" },
+  { id: "soldier", ctx: "병사들이 행진하는 것을 봄", text: "병사들이 행진하는 것을 보았다" },
+  { id: "soldier", ctx: "부상당한 병사들을 봄", text: "부상당한 병사들을 보았다" },
+  { id: "soldier", ctx: "자신이 훌륭한 병사가 됨", text: "자신이 훌륭한 병사가 되었다" },
+  // 지킴 — 이번에 손댄 기존 상징(soldier)의 옛 답이 그대로인가
+  { id: "soldier", ctx: "군인이 집에 들어옴", text: "군인이 집에 들어왔다" },
+  { id: "soldier", ctx: "군사가 흩어지는 것을 봄", text: "군사가 흩어지는 것을 보았다" },
 ];
 
 let notFound = 0;
