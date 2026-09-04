@@ -165,6 +165,7 @@
     "m244.json",
     "m245.json",
     "m246.json",
+    "m247.json",
     "m25.json",
     "m26.json",
     "m27a.json",
@@ -19762,6 +19763,170 @@
       ]
     },
     {
+      "id": "illness",
+      "term_ko": "병",
+      "term_en": "illness",
+      "aliases": [
+        "질병",
+        "병환",
+        "질환",
+        "몸살",
+        "병든",
+        "병들었다",
+        "창백하고"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "병들어 누웠는데 남이 부축해 줌",
+          "interpretation_ko": "벼슬이 더해질 조짐",
+          "interpretation_en": "a sign of promotion in office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病臥為人扶加官",
+              "translation_ko": "병들어 누웠을 때 남이 부축하면 벼슬이 더해진다"
+            }
+          ]
+        },
+        {
+          "context": "질병 꿈을 꿈",
+          "interpretation_ko": "집안에 걱정거리와 실제 병이 생길 조짐. 불화도 함께 찾아올 것",
+          "interpretation_en": "is a sign of trouble and real sickness in your family. Discord is sure to find entrance also",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sickness",
+              "original": "To dream of sickness, is a sign of trouble and real sickness in your family. Discord is sure to find entrance also.",
+              "translation_ko": "질병 꿈은, 집안에 걱정거리와 실제 병이 생길 조짐이다. 불화도 함께 찾아올 것이다"
+            }
+          ]
+        },
+        {
+          "context": "가족이 창백하고 병든 것을 봄",
+          "interpretation_ko": "화목한 가정에 뜻밖의 일이 닥칠 조짐. 이 꿈에는 대개 병이 뒤따름",
+          "interpretation_en": "foretells that some event will break unexpectedly upon your harmonious hearthstone. Sickness is usually attendant upon this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sickness",
+              "original": "To see any of your family pale and sick, foretells that some event will break unexpectedly upon your harmonious hearthstone. Sickness is usually attendant upon this dream.",
+              "translation_ko": "가족이 창백하고 병든 것을 보는 꿈은, 화목한 가정에 뜻밖의 일이 닥칠 조짐이다. 이 꿈에는 대개 병이 뒤따른다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 제 병을 앓는 꿈을 꿈",
+          "interpretation_ko": "뜻밖의 일로 기다리던 나들이나 잔치를 놓쳐 크게 낙담할 흉한 조짐",
+          "interpretation_en": "foretells that some unforeseen event will throw her into a frenzy of despair by causing her to miss some anticipated visit or entertainment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Illness",
+              "original": "For a woman to dream of her own illness, foretells that some unforeseen event will throw her into a frenzy of despair by causing her to miss some anticipated visit or entertainment.",
+              "translation_ko": "여자가 제 병을 앓는 꿈을 꾸면 뜻밖의 일로 기다리던 방문이나 놀이를 놓쳐 크게 낙담한다"
+            }
+          ]
+        },
+        {
+          "context": "병이 위중함",
+          "interpretation_ko": "흉한 일이 있을 조짐",
+          "interpretation_en": "a sign of misfortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病重者主有凶事",
+              "translation_ko": "병이 무거우면 흉한 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "자기가 병듦",
+          "interpretation_ko": "기쁜 일이 있을 조짐",
+          "interpretation_en": "a sign of a joyful occasion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "自疾病者主有喜",
+              "translation_ko": "스스로 병들면 기쁜 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "병자가 노래함",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病人歌唱主大凶",
+              "translation_ko": "병자가 노래하면 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "병자가 울고 웃음",
+          "interpretation_ko": "병이 나을 조짐",
+          "interpretation_en": "a sign that the illness will be cured",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病人哭笑疾病除",
+              "translation_ko": "병자가 울고 웃으면 병이 낫는다"
+            }
+          ]
+        },
+        {
+          "context": "병자가 자리에서 일어남",
+          "interpretation_ko": "죽음에 이를 조짐",
+          "interpretation_en": "a sign of death",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病人起者必定死",
+              "translation_ko": "병자가 일어나면 반드시 죽는다"
+            }
+          ]
+        },
+        {
+          "context": "병자가 수레에 실림",
+          "interpretation_ko": "죽음에 이를 조짐",
+          "interpretation_en": "a sign of death",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病人裝車必死亡",
+              "translation_ko": "병자가 수레에 실리면 반드시 죽는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "illumination",
       "term_ko": "환한 빛",
       "term_en": "illumination",
@@ -26281,139 +26446,6 @@
       ]
     },
     {
-      "id": "illness",
-      "term_ko": "병",
-      "term_en": "illness",
-      "aliases": [
-        "질병",
-        "병환",
-        "질환",
-        "몸살"
-      ],
-      "category": "body",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "병들어 누웠는데 남이 부축해 줌",
-          "interpretation_ko": "벼슬이 더해질 조짐",
-          "interpretation_en": "a sign of promotion in office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病臥為人扶加官",
-              "translation_ko": "병들어 누웠을 때 남이 부축하면 벼슬이 더해진다"
-            }
-          ]
-        },
-        {
-          "context": "여자가 제 병을 앓는 꿈을 꿈",
-          "interpretation_ko": "뜻밖의 일로 기다리던 나들이나 잔치를 놓쳐 크게 낙담할 흉한 조짐",
-          "interpretation_en": "foretells that some unforeseen event will throw her into a frenzy of despair by causing her to miss some anticipated visit or entertainment",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Illness",
-              "original": "For a woman to dream of her own illness, foretells that some unforeseen event will throw her into a frenzy of despair by causing her to miss some anticipated visit or entertainment.",
-              "translation_ko": "여자가 제 병을 앓는 꿈을 꾸면 뜻밖의 일로 기다리던 방문이나 놀이를 놓쳐 크게 낙담한다"
-            }
-          ]
-        },
-        {
-          "context": "병이 위중함",
-          "interpretation_ko": "흉한 일이 있을 조짐",
-          "interpretation_en": "a sign of misfortune",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病重者主有凶事",
-              "translation_ko": "병이 무거우면 흉한 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "자기가 병듦",
-          "interpretation_ko": "기쁜 일이 있을 조짐",
-          "interpretation_en": "a sign of a joyful occasion",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "自疾病者主有喜",
-              "translation_ko": "스스로 병들면 기쁜 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "병자가 노래함",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病人歌唱主大凶",
-              "translation_ko": "병자가 노래하면 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "병자가 울고 웃음",
-          "interpretation_ko": "병이 나을 조짐",
-          "interpretation_en": "a sign that the illness will be cured",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病人哭笑疾病除",
-              "translation_ko": "병자가 울고 웃으면 병이 낫는다"
-            }
-          ]
-        },
-        {
-          "context": "병자가 자리에서 일어남",
-          "interpretation_ko": "죽음에 이를 조짐",
-          "interpretation_en": "a sign of death",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病人起者必定死",
-              "translation_ko": "병자가 일어나면 반드시 죽는다"
-            }
-          ]
-        },
-        {
-          "context": "병자가 수레에 실림",
-          "interpretation_ko": "죽음에 이를 조짐",
-          "interpretation_en": "a sign of death",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病人裝車必死亡",
-              "translation_ko": "병자가 수레에 실리면 반드시 죽는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "killing-someone",
       "term_ko": "살인",
       "term_en": "killing someone",
@@ -32251,6 +32283,126 @@
               "locator": "Shaking Hands",
               "original": "For a young woman to dream of shaking hands with a decrepit old man, foretells she will find trouble where amusement was sought.",
               "translation_ko": "여성이 노쇠한 남자와 악수하는 꿈은, 즐거움을 찾던 곳에서 곤란을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silk",
+      "term_ko": "비단",
+      "term_en": "silk",
+      "aliases": [
+        "실크",
+        "비단천",
+        "비단옷",
+        "비단을",
+        "비단이"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "비단옷을 입음",
+          "interpretation_ko": "높은 뜻이 이루어지고, 멀어졌던 이들과 다시 우호적인 관계를 맺을 조짐",
+          "interpretation_en": "is a sign of high ambitions being gratified, and friendly relations will be established between those who were estranged",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Silk",
+              "original": "To dream of wearing silk clothes, is a sign of high ambitions being gratified, and friendly relations will be established between those who were estranged.",
+              "translation_ko": "비단옷을 입는 꿈은, 높은 뜻이 이루어지고 멀어졌던 이들과 다시 우호적인 관계를 맺을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 낡은 비단 꿈을 꿈",
+          "interpretation_ko": "조상을 크게 자랑스러워하고, 부유하지만 나이 많은 이의 구애를 받을 조짐",
+          "interpretation_en": "denotes that she will have much pride in her ancestors, and will be wooed by a wealthy, but elderly person",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Silk",
+              "original": "For a young woman to dream of old silk, denotes that she will have much pride in her ancestors, and will be wooed by a wealthy, but elderly person.",
+              "translation_ko": "여성이 낡은 비단 꿈을 꾸면, 조상을 크게 자랑스러워하고 부유하지만 나이 많은 이의 구애를 받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "비단이 더럽거나 찢어짐",
+          "interpretation_ko": "조상에 대한 자부심을 욕된 처지로 끌어내릴 조짐",
+          "interpretation_en": "she will drag her ancestral pride in the slums of disgrace",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Silk",
+              "original": "If the silk is soiled or torn, she will drag her ancestral pride in the slums of disgrace.",
+              "translation_ko": "비단이 더럽거나 찢어진 꿈은, 조상에 대한 자부심을 욕된 처지로 끌어내릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "채색 비단을 남에게 줌",
+          "interpretation_ko": "권세를 얻을 조짐",
+          "interpretation_en": "a sign of gaining power",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "贈彩帛者主有權",
+              "translation_ko": "채색 비단을 주면 권세가 있다"
+            }
+          ]
+        },
+        {
+          "context": "귀인이 비단을 내려 줌",
+          "interpretation_ko": "벼슬자리를 얻을 조짐",
+          "interpretation_en": "a sign of gaining an official post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "貴人賜綾錦官至",
+              "translation_ko": "귀인이 능라와 비단을 내려 주면 벼슬이 온다"
+            }
+          ]
+        },
+        {
+          "context": "남이 명주 비단을 줌",
+          "interpretation_ko": "크게 길하고 번창할 조짐",
+          "interpretation_en": "a very auspicious sign of prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "人賜絹帛大吉昌",
+              "translation_ko": "남이 명주 비단을 주면 크게 길하고 번창한다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 비단을 줌",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "與人絲帛大凶惡",
+              "translation_ko": "남에게 비단을 주면 크게 흉하고 나쁘다"
             }
           ]
         }
@@ -63045,80 +63197,6 @@
       ]
     },
     {
-      "id": "silk",
-      "term_ko": "비단",
-      "term_en": "silk",
-      "aliases": [
-        "실크",
-        "비단천"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "채색 비단을 남에게 줌",
-          "interpretation_ko": "권세를 얻을 조짐",
-          "interpretation_en": "a sign of gaining power",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "贈彩帛者主有權",
-              "translation_ko": "채색 비단을 주면 권세가 있다"
-            }
-          ]
-        },
-        {
-          "context": "귀인이 비단을 내려 줌",
-          "interpretation_ko": "벼슬자리를 얻을 조짐",
-          "interpretation_en": "a sign of gaining an official post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "貴人賜綾錦官至",
-              "translation_ko": "귀인이 능라와 비단을 내려 주면 벼슬이 온다"
-            }
-          ]
-        },
-        {
-          "context": "남이 명주 비단을 줌",
-          "interpretation_ko": "크게 길하고 번창할 조짐",
-          "interpretation_en": "a very auspicious sign of prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "人賜絹帛大吉昌",
-              "translation_ko": "남이 명주 비단을 주면 크게 길하고 번창한다"
-            }
-          ]
-        },
-        {
-          "context": "남에게 비단을 줌",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "與人絲帛大凶惡",
-              "translation_ko": "남에게 비단을 주면 크게 흉하고 나쁘다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "soybean",
       "term_ko": "콩",
       "term_en": "soybean",
@@ -79318,6 +79396,128 @@
               "locator": "夫妻產孕交懽",
               "original": "兄弟分別口舌臨",
               "translation_ko": "형제가 헤어지면 구설이 닥친다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "side",
+      "term_ko": "옆면",
+      "term_en": "side",
+      "aliases": [
+        "옆구리가",
+        "옆구리를",
+        "옆면을"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "물체의 옆면만 봄",
+          "interpretation_ko": "누군가 자신의 정직한 제안을 무심하게 대할 조짐",
+          "interpretation_en": "denotes that some person is going to treat your honest proposals with indifference",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Side",
+              "original": "To dream of seeing only the side of any object, denotes that some person is going to treat your honest proposals with indifference.",
+              "translation_ko": "물체의 옆면만 보는 꿈은, 누군가 자신의 정직한 제안을 무심하게 대할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "옆구리가 아픔",
+          "interpretation_ko": "인내를 갉아먹을 성가신 일이 생길 조짐",
+          "interpretation_en": "there will be vexations in your affairs that will gall your endurance",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Side",
+              "original": "To dream that your side pains you, there will be vexations in your affairs that will gall your endurance.",
+              "translation_ko": "옆구리가 아픈 꿈은, 인내를 갉아먹을 성가신 일이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "옆구리가 살지고 건강함",
+          "interpretation_ko": "구애와 사업 모두에서 성공할 조짐",
+          "interpretation_en": "you will be successful in courtship and business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Side",
+              "original": "To dream that you have a fleshy, healthy side, you will be successful in courtship and business.",
+              "translation_ko": "옆구리가 살지고 건강한 꿈은, 구애와 사업 모두에서 성공할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sieve",
+      "term_ko": "체",
+      "term_en": "sieve",
+      "aliases": [
+        "체를",
+        "체가",
+        "체의"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "체 꿈을 꿈",
+          "interpretation_ko": "곧 성가신 거래를 하게 되어 손해를 볼 조짐",
+          "interpretation_en": "foretells some annoying transaction will soon be made by you, which will probably be to your loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sieve",
+              "original": "To dream of a sieve, foretells some annoying transaction will soon be made by you, which will probably be to your loss.",
+              "translation_ko": "체 꿈은, 곧 성가신 거래를 하게 되어 손해를 볼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "체의 눈이 너무 촘촘함",
+          "interpretation_ko": "자신에게 불리한 결정을 뒤집을 기회가 생길 조짐",
+          "interpretation_en": "you will have the chance to reverse a decision unfavorable to yourself",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sieve",
+              "original": "If the meshes are too small, you will have the chance to reverse a decision unfavorable to yourself.",
+              "translation_ko": "체의 눈이 너무 촘촘한 꿈은, 자신에게 불리한 결정을 뒤집을 기회가 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "체의 눈이 너무 성김",
+          "interpretation_ko": "최근 얻은 것을 결국 잃을 조짐",
+          "interpretation_en": "you will eventually lose what you have recently acquired",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sieve",
+              "original": "If too large, you will eventually lose what you have recently acquired.",
+              "translation_ko": "체의 눈이 너무 성긴 꿈은, 최근 얻은 것을 결국 잃을 조짐이다"
             }
           ]
         }
@@ -106197,6 +106397,99 @@
       ]
     },
     {
+      "id": "sigh",
+      "term_ko": "한숨",
+      "term_en": "sigh",
+      "aliases": [
+        "한숨을",
+        "한숨짓는"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "괴로운 일이나 슬픈 일로 한숨을 쉼",
+          "interpretation_ko": "뜻밖의 슬픔을 겪지만 어려운 시기에 한 줄기 위안이 있을 조짐",
+          "interpretation_en": "denotes that you will have unexpected sadness, but some redeeming brightness in your season of trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sigh",
+              "original": "To dream that you are sighing over any trouble or sad event, denotes that you will have unexpected sadness, but some redeeming brightness in your season of trouble.",
+              "translation_ko": "괴로운 일이나 슬픈 일로 한숨을 쉬는 꿈은, 뜻밖의 슬픔을 겪지만 어려운 시기에 한 줄기 위안이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 한숨짓는 소리를 들음",
+          "interpretation_ko": "가까운 벗의 잘못된 처신으로 짓눌릴 듯한 우울을 겪을 조짐",
+          "interpretation_en": "foretells that the misconduct of dear friends will oppress you with a weight of gloom",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sigh",
+              "original": "To hear the sighing of others, foretells that the misconduct of dear friends will oppress you with a weight of gloom.",
+              "translation_ko": "남이 한숨짓는 소리를 듣는 꿈은, 가까운 벗의 잘못된 처신으로 짓눌릴 듯한 우울을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silkworm",
+      "term_ko": "누에",
+      "term_en": "silkworm",
+      "aliases": [
+        "누에를",
+        "누에가",
+        "누에고치"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "누에 꿈을 꿈",
+          "interpretation_ko": "매우 수익성 좋은 일에 종사하며 두드러진 지위에 오를 조짐",
+          "interpretation_en": "you will engage in a very profitable work, which will also place you in a prominent position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Silkworm",
+              "original": "If you dream of a silkworm, you will engage in a very profitable work, which will also place you in a prominent position.",
+              "translation_ko": "누에 꿈은, 매우 수익성 좋은 일에 종사하며 두드러진 지위에 오를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 누에나 고치를 가르는 누에를 봄",
+          "interpretation_ko": "역경과 힘든 시절의 조짐",
+          "interpretation_en": "is a sign of reverses and trying times",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Silkworm",
+              "original": "To see them dead, or cutting through their cocoons, is a sign of reverses and trying times.",
+              "translation_ko": "죽은 누에나 고치를 가르는 누에를 보는 꿈은, 역경과 힘든 시절의 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "skunk",
       "term_ko": "스컹크",
       "term_en": "skunk",
@@ -119195,6 +119488,38 @@
               "locator": "Shrew",
               "original": "To dream of a shrew, foretells that you will have a task to keep some friend in a cheerful frame of mind, and that you will unfit yourself for the experiences of everyday existence.",
               "translation_ko": "잔소리꾼 꿈은, 벗을 즐거운 기분으로 지키는 일을 떠맡고 일상의 경험에 스스로 서툴러질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "siege",
+      "term_ko": "포위",
+      "term_en": "siege",
+      "aliases": [
+        "포위된",
+        "포위를"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여성이 포위된 채 주위에서 기병을 봄",
+          "interpretation_ko": "즐거움에 심한 지장이 있으나 끝내 이를 극복하고, 겉으로는 실망스러워 보이던 일에서 큰 기쁨과 이득을 얻을 조짐",
+          "interpretation_en": "denotes that she will have serious drawbacks to enjoyments, but will surmount them finally, and receive much pleasure and profit from seeming disappointments",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Siege",
+              "original": "For a young woman to dream that she is in a siege, and sees cavalry around her, denotes that she will have serious drawbacks to enjoyments, but will surmount them finally, and receive much pleasure and profit from seeming disappointments.",
+              "translation_ko": "여성이 포위된 채 주위에서 기병을 보는 꿈은, 즐거움에 심한 지장이 있으나 끝내 이를 극복하고 겉으로는 실망스러워 보이던 일에서 큰 기쁨과 이득을 얻을 조짐이다"
             }
           ]
         }

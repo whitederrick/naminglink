@@ -26,7 +26,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "illness": [
     "illness",
     "sick",
-    "disease",
     "fell ill"
   ],
   "basin": [
@@ -312,7 +311,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "silks",
     "silk cloth",
     "brocade",
-    "satin"
+    "satin",
+    "silk clothes",
+    "old silk"
   ],
   "flower": [
     "flowers",
@@ -7511,5 +7512,23 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "shroud": [
     "a shroud",
     "shrouded"
+  ],
+  "side": [
+    "the side",
+    "your side"
+  ],
+  "siege": [
+    "a siege"
+  ],
+  "sieve": [
+    "a sieve"
+  ],
+  "sigh": [
+    "a sigh",
+    "sighing"
+  ],
+  "silkworm": [
+    "a silkworm",
+    "silkworms"
   ]
 };

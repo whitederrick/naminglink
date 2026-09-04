@@ -369,25 +369,36 @@
     "id": "silk",
     "aliases": [
       "실크",
-      "비단천"
+      "비단천",
+      "비단옷",
+      "비단을",
+      "비단이"
     ],
     "aliases_en": [
       "silks",
       "silk cloth",
       "brocade",
-      "satin"
+      "satin",
+      "silk clothes",
+      "old silk"
     ],
     "contexts": {
       "채색 비단을 남에게 줌": "채색 알록 오색 색깔있",
-      "귀인이 비단을 내려 줌": "귀인 어른이 벼슬 높은분",
+      "귀인이 비단을 내려 줌": "귀인 어른이 벼슬",
       "남이 명주 비단을 줌": "명주 받았 얻었",
-      "남에게 비단을 줌": "남에게 남한테 건네"
+      "남에게 비단을 줌": "남에게 남한테 건네",
+      "비단옷을 입음": "비단옷을 입는 높은",
+      "여성이 낡은 비단 꿈을 꿈": "낡은 조상을 구애를",
+      "비단이 더럽거나 찢어짐": "더럽거나 찢어진 욕된"
     },
     "contexts_en": {
       "채색 비단을 남에게 줌": "colored colorful multicolored",
       "귀인이 비단을 내려 줌": "noble nobleman dignitary bestowed",
       "남이 명주 비단을 줌": "received",
-      "남에게 비단을 줌": "handed gave away"
+      "남에게 비단을 줌": "handed gave away",
+      "비단옷을 입음": "wearing ambitions gratified",
+      "여성이 낡은 비단 꿈을 꿈": "pride ancestors wooed",
+      "비단이 더럽거나 찢어짐": "soiled torn disgrace"
     }
   },
   {

@@ -1,6 +1,7 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 246 — Shooting·Shop·Shot·Shotgun·Shoulder·Shovel·Shrew·Shroud.
-// Shower는 기존 rain의 「화창한 소나기를 맞음」과 같은 그림이라 건너뜀)
+// (지금 담긴 것: 배치 247 — Side·Siege·Sieve·Sigh·Silkworm, 기존 illness(병)에 두 그림·
+// silk(비단)에 세 그림 붙임. Sickness의 「자신의 병」은 기존 「자기가 병듦」과 같은 그림
+// (길흉만 반대)이라 건너뜀. 247이 20판 묶음(228~247)의 마지막 배치다)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -31,22 +32,25 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "shooting", ctx: "사격을 보거나 들음", text: "사격을 보았다" },
-  { id: "shop", ctx: "가게 꿈을 꿈", text: "가게 꿈을 꾸었다" },
-  { id: "shot", ctx: "총에 맞아 죽어가는 느낌이 듦", text: "총에 맞아 죽어가는 느낌이 들었다" },
-  { id: "shot", ctx: "목사가 자신에게 총을 쏨", text: "목사가 자신에게 총을 쏘았다" },
-  { id: "shotgun", ctx: "산탄총 꿈을 꿈", text: "산탄총 꿈을 꾸었다" },
-  { id: "shotgun", ctx: "쌍발 산탄총의 두 총열을 다 쏨", text: "쌍발 산탄총의 두 총열을 다 쏘았다" },
-  { id: "shoulder", ctx: "맨 어깨를 봄", text: "맨 어깨를 보았다" },
-  { id: "shoulder", ctx: "자신의 야윈 어깨를 봄", text: "자신의 야윈 어깨를 보았다" },
-  { id: "shovel", ctx: "삽을 봄", text: "삽을 보았다" },
-  { id: "shovel", ctx: "부서지거나 낡은 삽을 봄", text: "부서지거나 낡은 삽을 보았다" },
-  { id: "shrew", ctx: "잔소리꾼 꿈을 꿈", text: "잔소리꾼 꿈을 꾸었다" },
-  { id: "shroud", ctx: "수의 꿈을 꿈", text: "수의 꿈을 꾸었다" },
-  { id: "shroud", ctx: "수의를 입은 시신들을 봄", text: "수의를 입은 시신들을 보았다" },
-  { id: "shroud", ctx: "시신에서 수의를 벗김", text: "시신에서 수의를 벗겼다" },
-  // 지킴 — 이번에 손대지 않은 rain의 옛 답이 그대로인가(Shower를 그 그림과 겹쳐 건너뜀)
-  { id: "rain", ctx: "화창한 소나기를 맞음", text: "화창한 소나기를 맞았다" },
+  { id: "illness", ctx: "질병 꿈을 꿈", text: "질병 꿈을 꾸었다" },
+  { id: "illness", ctx: "가족이 창백하고 병든 것을 봄", text: "가족이 창백하고 병든 것을 보았다" },
+  { id: "side", ctx: "물체의 옆면만 봄", text: "물체의 옆면만 보았다" },
+  { id: "side", ctx: "옆구리가 아픔", text: "옆구리가 아팠다" },
+  { id: "side", ctx: "옆구리가 살지고 건강함", text: "옆구리가 살지고 건강했다" },
+  { id: "siege", ctx: "여성이 포위된 채 주위에서 기병을 봄", text: "여성이 포위된 채 주위에서 기병을 보았다" },
+  { id: "sieve", ctx: "체 꿈을 꿈", text: "체 꿈을 꾸었다" },
+  { id: "sieve", ctx: "체의 눈이 너무 촘촘함", text: "체의 눈이 너무 촘촘했다" },
+  { id: "sieve", ctx: "체의 눈이 너무 성김", text: "체의 눈이 너무 성겼다" },
+  { id: "sigh", ctx: "괴로운 일이나 슬픈 일로 한숨을 쉼", text: "괴로운 일로 한숨을 쉬었다" },
+  { id: "sigh", ctx: "남이 한숨짓는 소리를 들음", text: "남이 한숨짓는 소리를 들었다" },
+  { id: "silk", ctx: "비단옷을 입음", text: "비단옷을 입었다" },
+  { id: "silk", ctx: "여성이 낡은 비단 꿈을 꿈", text: "여성이 낡은 비단 꿈을 꾸었다" },
+  { id: "silk", ctx: "비단이 더럽거나 찢어짐", text: "비단이 더럽거나 찢어졌다" },
+  { id: "silkworm", ctx: "누에 꿈을 꿈", text: "누에 꿈을 꾸었다" },
+  { id: "silkworm", ctx: "죽은 누에나 고치를 가르는 누에를 봄", text: "죽은 누에나 고치를 가르는 누에를 보았다" },
+  // 지킴 — 이번에 손댄 기존 상징(illness·silk)의 옛 답이 그대로인가
+  { id: "illness", ctx: "자기가 병듦", text: "자기가 병들었다" },
+  { id: "silk", ctx: "채색 비단을 남에게 줌", text: "채색 비단을 남에게 주었다" },
 ];
 
 let notFound = 0;

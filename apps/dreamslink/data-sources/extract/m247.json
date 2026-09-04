@@ -1,0 +1,242 @@
+[
+  {
+    "term_ko": "병",
+    "term_en": "illness",
+    "context": "질병 꿈을 꿈",
+    "interpretation_ko": "집안에 걱정거리와 실제 병이 생길 조짐. 불화도 함께 찾아올 것",
+    "interpretation_en": "is a sign of trouble and real sickness in your family. Discord is sure to find entrance also",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Sickness",
+      "original": "To dream of sickness, is a sign of trouble and real sickness in your family. Discord is sure to find entrance also.",
+      "translation_ko": "질병 꿈은, 집안에 걱정거리와 실제 병이 생길 조짐이다. 불화도 함께 찾아올 것이다"
+    }
+  },
+  {
+    "term_ko": "병",
+    "term_en": "illness",
+    "context": "가족이 창백하고 병든 것을 봄",
+    "interpretation_ko": "화목한 가정에 뜻밖의 일이 닥칠 조짐. 이 꿈에는 대개 병이 뒤따름",
+    "interpretation_en": "foretells that some event will break unexpectedly upon your harmonious hearthstone. Sickness is usually attendant upon this dream",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Sickness",
+      "original": "To see any of your family pale and sick, foretells that some event will break unexpectedly upon your harmonious hearthstone. Sickness is usually attendant upon this dream.",
+      "translation_ko": "가족이 창백하고 병든 것을 보는 꿈은, 화목한 가정에 뜻밖의 일이 닥칠 조짐이다. 이 꿈에는 대개 병이 뒤따른다"
+    }
+  },
+  {
+    "term_ko": "옆면",
+    "term_en": "side",
+    "context": "물체의 옆면만 봄",
+    "interpretation_ko": "누군가 자신의 정직한 제안을 무심하게 대할 조짐",
+    "interpretation_en": "denotes that some person is going to treat your honest proposals with indifference",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Side",
+      "original": "To dream of seeing only the side of any object, denotes that some person is going to treat your honest proposals with indifference.",
+      "translation_ko": "물체의 옆면만 보는 꿈은, 누군가 자신의 정직한 제안을 무심하게 대할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "옆면",
+    "term_en": "side",
+    "context": "옆구리가 아픔",
+    "interpretation_ko": "인내를 갉아먹을 성가신 일이 생길 조짐",
+    "interpretation_en": "there will be vexations in your affairs that will gall your endurance",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Side",
+      "original": "To dream that your side pains you, there will be vexations in your affairs that will gall your endurance.",
+      "translation_ko": "옆구리가 아픈 꿈은, 인내를 갉아먹을 성가신 일이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "옆면",
+    "term_en": "side",
+    "context": "옆구리가 살지고 건강함",
+    "interpretation_ko": "구애와 사업 모두에서 성공할 조짐",
+    "interpretation_en": "you will be successful in courtship and business",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Side",
+      "original": "To dream that you have a fleshy, healthy side, you will be successful in courtship and business.",
+      "translation_ko": "옆구리가 살지고 건강한 꿈은, 구애와 사업 모두에서 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "포위",
+    "term_en": "siege",
+    "context": "여성이 포위된 채 주위에서 기병을 봄",
+    "interpretation_ko": "즐거움에 심한 지장이 있으나 끝내 이를 극복하고, 겉으로는 실망스러워 보이던 일에서 큰 기쁨과 이득을 얻을 조짐",
+    "interpretation_en": "denotes that she will have serious drawbacks to enjoyments, but will surmount them finally, and receive much pleasure and profit from seeming disappointments",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Siege",
+      "original": "For a young woman to dream that she is in a siege, and sees cavalry around her, denotes that she will have serious drawbacks to enjoyments, but will surmount them finally, and receive much pleasure and profit from seeming disappointments.",
+      "translation_ko": "여성이 포위된 채 주위에서 기병을 보는 꿈은, 즐거움에 심한 지장이 있으나 끝내 이를 극복하고 겉으로는 실망스러워 보이던 일에서 큰 기쁨과 이득을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "체",
+    "term_en": "sieve",
+    "context": "체 꿈을 꿈",
+    "interpretation_ko": "곧 성가신 거래를 하게 되어 손해를 볼 조짐",
+    "interpretation_en": "foretells some annoying transaction will soon be made by you, which will probably be to your loss",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Sieve",
+      "original": "To dream of a sieve, foretells some annoying transaction will soon be made by you, which will probably be to your loss.",
+      "translation_ko": "체 꿈은, 곧 성가신 거래를 하게 되어 손해를 볼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "체",
+    "term_en": "sieve",
+    "context": "체의 눈이 너무 촘촘함",
+    "interpretation_ko": "자신에게 불리한 결정을 뒤집을 기회가 생길 조짐",
+    "interpretation_en": "you will have the chance to reverse a decision unfavorable to yourself",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Sieve",
+      "original": "If the meshes are too small, you will have the chance to reverse a decision unfavorable to yourself.",
+      "translation_ko": "체의 눈이 너무 촘촘한 꿈은, 자신에게 불리한 결정을 뒤집을 기회가 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "체",
+    "term_en": "sieve",
+    "context": "체의 눈이 너무 성김",
+    "interpretation_ko": "최근 얻은 것을 결국 잃을 조짐",
+    "interpretation_en": "you will eventually lose what you have recently acquired",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Sieve",
+      "original": "If too large, you will eventually lose what you have recently acquired.",
+      "translation_ko": "체의 눈이 너무 성긴 꿈은, 최근 얻은 것을 결국 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "한숨",
+    "term_en": "sigh",
+    "context": "괴로운 일이나 슬픈 일로 한숨을 쉼",
+    "interpretation_ko": "뜻밖의 슬픔을 겪지만 어려운 시기에 한 줄기 위안이 있을 조짐",
+    "interpretation_en": "denotes that you will have unexpected sadness, but some redeeming brightness in your season of trouble",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sigh",
+      "original": "To dream that you are sighing over any trouble or sad event, denotes that you will have unexpected sadness, but some redeeming brightness in your season of trouble.",
+      "translation_ko": "괴로운 일이나 슬픈 일로 한숨을 쉬는 꿈은, 뜻밖의 슬픔을 겪지만 어려운 시기에 한 줄기 위안이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "한숨",
+    "term_en": "sigh",
+    "context": "남이 한숨짓는 소리를 들음",
+    "interpretation_ko": "가까운 벗의 잘못된 처신으로 짓눌릴 듯한 우울을 겪을 조짐",
+    "interpretation_en": "foretells that the misconduct of dear friends will oppress you with a weight of gloom",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sigh",
+      "original": "To hear the sighing of others, foretells that the misconduct of dear friends will oppress you with a weight of gloom.",
+      "translation_ko": "남이 한숨짓는 소리를 듣는 꿈은, 가까운 벗의 잘못된 처신으로 짓눌릴 듯한 우울을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "비단",
+    "term_en": "silk",
+    "context": "비단옷을 입음",
+    "interpretation_ko": "높은 뜻이 이루어지고, 멀어졌던 이들과 다시 우호적인 관계를 맺을 조짐",
+    "interpretation_en": "is a sign of high ambitions being gratified, and friendly relations will be established between those who were estranged",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Silk",
+      "original": "To dream of wearing silk clothes, is a sign of high ambitions being gratified, and friendly relations will be established between those who were estranged.",
+      "translation_ko": "비단옷을 입는 꿈은, 높은 뜻이 이루어지고 멀어졌던 이들과 다시 우호적인 관계를 맺을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "비단",
+    "term_en": "silk",
+    "context": "여성이 낡은 비단 꿈을 꿈",
+    "interpretation_ko": "조상을 크게 자랑스러워하고, 부유하지만 나이 많은 이의 구애를 받을 조짐",
+    "interpretation_en": "denotes that she will have much pride in her ancestors, and will be wooed by a wealthy, but elderly person",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Silk",
+      "original": "For a young woman to dream of old silk, denotes that she will have much pride in her ancestors, and will be wooed by a wealthy, but elderly person.",
+      "translation_ko": "여성이 낡은 비단 꿈을 꾸면, 조상을 크게 자랑스러워하고 부유하지만 나이 많은 이의 구애를 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "비단",
+    "term_en": "silk",
+    "context": "비단이 더럽거나 찢어짐",
+    "interpretation_ko": "조상에 대한 자부심을 욕된 처지로 끌어내릴 조짐",
+    "interpretation_en": "she will drag her ancestral pride in the slums of disgrace",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Silk",
+      "original": "If the silk is soiled or torn, she will drag her ancestral pride in the slums of disgrace.",
+      "translation_ko": "비단이 더럽거나 찢어진 꿈은, 조상에 대한 자부심을 욕된 처지로 끌어내릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "누에",
+    "term_en": "silkworm",
+    "context": "누에 꿈을 꿈",
+    "interpretation_ko": "매우 수익성 좋은 일에 종사하며 두드러진 지위에 오를 조짐",
+    "interpretation_en": "you will engage in a very profitable work, which will also place you in a prominent position",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Silkworm",
+      "original": "If you dream of a silkworm, you will engage in a very profitable work, which will also place you in a prominent position.",
+      "translation_ko": "누에 꿈은, 매우 수익성 좋은 일에 종사하며 두드러진 지위에 오를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "누에",
+    "term_en": "silkworm",
+    "context": "죽은 누에나 고치를 가르는 누에를 봄",
+    "interpretation_ko": "역경과 힘든 시절의 조짐",
+    "interpretation_en": "is a sign of reverses and trying times",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Silkworm",
+      "original": "To see them dead, or cutting through their cocoons, is a sign of reverses and trying times.",
+      "translation_ko": "죽은 누에나 고치를 가르는 누에를 보는 꿈은, 역경과 힘든 시절의 조짐이다"
+    }
+  }
+]

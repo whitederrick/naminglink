@@ -1,0 +1,96 @@
+[
+  {
+    "id": "side",
+    "aliases": [
+      "옆구리가",
+      "옆구리를",
+      "옆면을"
+    ],
+    "aliases_en": [
+      "the side",
+      "your side"
+    ],
+    "contexts": {
+      "물체의 옆면만 봄": "물체의 무심하게 정직한",
+      "옆구리가 아픔": "아팠다 성가신 갉아먹을",
+      "옆구리가 살지고 건강함": "살지고 구애와 사업"
+    },
+    "contexts_en": {
+      "물체의 옆면만 봄": "object indifference proposals",
+      "옆구리가 아픔": "pains vexations endurance",
+      "옆구리가 살지고 건강함": "fleshy healthy courtship"
+    }
+  },
+  {
+    "id": "siege",
+    "aliases": [
+      "포위된",
+      "포위를"
+    ],
+    "aliases_en": [
+      "a siege"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "sieve",
+    "aliases": [
+      "체를",
+      "체가",
+      "체의"
+    ],
+    "aliases_en": [
+      "a sieve"
+    ],
+    "contexts": {
+      "체 꿈을 꿈": "성가신 거래를 손해를",
+      "체의 눈이 너무 촘촘함": "촘촘 불리한 결정 뒤집을",
+      "체의 눈이 너무 성김": "성겼다 최근 얻은 잃을"
+    },
+    "contexts_en": {
+      "체 꿈을 꿈": "annoying transaction loss",
+      "체의 눈이 너무 촘촘함": "meshes small reverse",
+      "체의 눈이 너무 성김": "too large eventually"
+    }
+  },
+  {
+    "id": "sigh",
+    "aliases": [
+      "한숨을",
+      "한숨짓는"
+    ],
+    "aliases_en": [
+      "a sigh",
+      "sighing"
+    ],
+    "contexts": {
+      "괴로운 일이나 슬픈 일로 한숨을 쉼": "괴로운 슬픈 뜻밖의 슬픔",
+      "남이 한숨짓는 소리를 들음": "남이 벗의 잘못된 처신"
+    },
+    "contexts_en": {
+      "괴로운 일이나 슬픈 일로 한숨을 쉼": "trouble sad unexpected",
+      "남이 한숨짓는 소리를 들음": "others misconduct gloom"
+    }
+  },
+  {
+    "id": "silkworm",
+    "aliases": [
+      "누에를",
+      "누에가",
+      "누에고치"
+    ],
+    "aliases_en": [
+      "a silkworm",
+      "silkworms"
+    ],
+    "contexts": {
+      "누에 꿈을 꿈": "수익성 종사하며 두드러진",
+      "죽은 누에나 고치를 가르는 누에를 봄": "죽은 고치를 가르는"
+    },
+    "contexts_en": {
+      "누에 꿈을 꿈": "profitable prominent position",
+      "죽은 누에나 고치를 가르는 누에를 봄": "dead cutting cocoons"
+    }
+  }
+]
