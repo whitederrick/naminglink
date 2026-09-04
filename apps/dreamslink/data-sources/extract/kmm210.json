@@ -1,0 +1,15 @@
+[
+  {
+    "id": "raspberry",
+    "aliases": ["나무딸기가", "나무딸기를", "라즈베리"],
+    "aliases_en": ["a raspberry", "raspberries"],
+    "contexts": {
+      "나무딸기를 봄": "얽히고설킨 흥미로울",
+      "여성이 나무딸기를 먹음": "여성이 여자가 구설 정황"
+    },
+    "contexts_en": {
+      "나무딸기를 봄": "entanglements interesting escape",
+      "여성이 나무딸기를 먹음": "gossip circumstantial"
+    }
+  }
+]

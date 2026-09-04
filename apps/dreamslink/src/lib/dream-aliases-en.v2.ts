@@ -7094,5 +7094,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "rapids": [
     "rapids"
+  ],
+  "raspberry": [
+    "a raspberry",
+    "raspberries"
   ]
 };

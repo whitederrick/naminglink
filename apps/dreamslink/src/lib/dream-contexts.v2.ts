@@ -1183,6 +1183,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "mouse::쥐를 놓침": "escape doubtful struggles",
   "mouse::처녀가 쥐 꿈을 꿈": "secret deception practised",
   "mouse::제 옷에 쥐가 있는 것을 봄": "clothing scandal figure",
+  "mouse::쥐를 잡음": "scorn baseness outstrip",
   "cauldron::큰 솥을 봄": "huge large giant enormous",
   "cauldron::솥이 넘치도록 가득 참": "overflowing full brimming filled",
   "cauldron::무쇠솥이 깨짐": "cracked broke shattered",
@@ -5329,5 +5330,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ramrod::꽂을대 꿈을 꿈": "unfortunate adventures grief",
   "ramrod::처녀가 구부러지거나 부러진 꽂을대를 봄": "bent broken fail",
   "ransom::몸값을 치르게 됨": "deceived worked money",
-  "ransom::처녀가 몸값 꿈을 꿈": "prognostic evil relieves"
+  "ransom::처녀가 몸값 꿈을 꿈": "prognostic evil relieves",
+  "raspberry::나무딸기를 봄": "entanglements interesting escape",
+  "raspberry::여성이 나무딸기를 먹음": "gossip circumstantial"
 };

@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 209 — Ram~Rapids(Rape 건너뜀), 4개 헤드워드)
+// (지금 담긴 것: 배치 210 — Raspberry~Rat, 2개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,18 +30,13 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "sheep", ctx: "숫양이 저를 뒤쫓음", text: "숫양이 나를 뒤쫓았다" },
-  { id: "sheep", ctx: "숫양이 조용히 풀을 뜯음", text: "숫양이 조용히 풀을 뜯고 있었다" },
-  { id: "ramble", ctx: "시골길을 정처 없이 거님", text: "시골길을 정처 없이 거닐었다" },
-  { id: "ramble", ctx: "처녀가 시골길을 정처 없이 거님", text: "처녀가 시골길을 정처 없이 거닐었다" },
-  { id: "ramrod", ctx: "꽂을대 꿈을 꿈", text: "꽂을대 꿈을 꾸었다" },
-  { id: "ramrod", ctx: "처녀가 구부러지거나 부러진 꽂을대를 봄", text: "처녀가 구부러진 꽂을대를 보았다" },
-  { id: "ransom", ctx: "몸값을 치르게 됨", text: "몸값을 치르게 되었다" },
-  { id: "ransom", ctx: "처녀가 몸값 꿈을 꿈", text: "처녀가 몸값 꿈을 꾸었다" },
-  { id: "rapids", ctx: "급류에 휩쓸려 감", text: "급류에 휩쓸려 갔다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(sheep)의 옛 답이 그대로인가
-  { id: "sheep", ctx: "어린 양들이 푸른 들에서 뛰놂", text: "어린 양들이 푸른 들에서 뛰놀았다" },
-  { id: "sheep", ctx: "죽은 어린 양을 봄", text: "죽은 어린 양을 보았다" },
+  { id: "raspberry", ctx: "나무딸기를 봄", text: "나무딸기를 보았다" },
+  { id: "raspberry", ctx: "여성이 나무딸기를 먹음", text: "여자가 나무딸기를 먹었다" },
+  { id: "mouse", ctx: "쥐를 잡음", text: "쥐를 잡았다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(mouse)의 옛 답이 그대로인가
+  { id: "mouse", ctx: "쥐를 봄", text: "쥐가 돌아다니는 것을 보았다" },
+  { id: "mouse", ctx: "쥐를 죽임", text: "쥐를 죽였다" },
+  { id: "mouse", ctx: "쥐가 고양이에게 잡힘", text: "쥐가 고양이에게 잡혔다" },
 ];
 
 let notFound = 0;

@@ -125,6 +125,7 @@
     "m208.json",
     "m209.json",
     "m21.json",
+    "m210.json",
     "m22.json",
     "m23.json",
     "m24.json",
@@ -16338,6 +16339,185 @@
       ]
     },
     {
+      "id": "mouse",
+      "term_ko": "쥐",
+      "term_en": "mouse",
+      "aliases": [
+        "생쥐",
+        "들쥐",
+        "시궁쥐",
+        "쥐가",
+        "쥐를",
+        "쥐 떼",
+        "흰쥐",
+        "들쥐가"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "쥐를 봄",
+          "interpretation_ko": "집안이 어수선하고 벗의 마음이 참되지 못할 흉한 조짐 — 하는 일도 맥이 빠진다",
+          "interpretation_en": "foretells domestic troubles and the insincerity of friends; business affairs will assume a discouraging tone",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mice",
+              "original": "To dream of mice, foretells domestic troubles and the insincerity of friends.",
+              "translation_ko": "쥐의 꿈은, 집안이 어수선하고 벗의 마음이 참되지 못함을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "쥐를 죽임",
+          "interpretation_ko": "적을 이길 길한 조짐",
+          "interpretation_en": "denotes that you will conquer your enemies",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mice",
+              "original": "To kill mice, denotes that you will conquer your enemies.",
+              "translation_ko": "쥐를 죽이면 적을 이긴다"
+            }
+          ]
+        },
+        {
+          "context": "쥐를 놓침",
+          "interpretation_ko": "이길지 질지 모를 다툼이 있을 조짐",
+          "interpretation_en": "is significant of doubtful struggles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mice",
+              "original": "To let them escape you, is significant of doubtful struggles.",
+              "translation_ko": "쥐를 놓치면 이길지 질지 모를 다툼이 있다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 쥐 꿈을 꿈",
+          "interpretation_ko": "숨은 적이 있고 저를 속이는 일이 벌어지고 있는 흉한 조짐",
+          "interpretation_en": "warns her of secret enemies, and that deception is being practised upon her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mice",
+              "original": "For a young woman to dream of mice, warns her of secret enemies, and that deception is being practised upon her.",
+              "translation_ko": "젊은 여성이 쥐 꿈을 꾸면, 숨은 적이 있고 저를 속이는 일이 벌어지고 있다"
+            }
+          ]
+        },
+        {
+          "context": "제 옷에 쥐가 있는 것을 봄",
+          "interpretation_ko": "제가 남우세스러운 소문의 한가운데 서게 될 흉한 조짐",
+          "interpretation_en": "it is a sign of scandal in which she will figure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mice",
+              "original": "If she should see a mouse in her clothing, it is a sign of scandal in which she will figure.",
+              "translation_ko": "제 옷 속에 쥐가 있는 것을 보면, 남우세스러운 소문의 한가운데 서게 된다"
+            }
+          ]
+        },
+        {
+          "context": "쥐를 잡음",
+          "interpretation_ko": "남의 비열함을 경멸하고 원수를 훌륭히 앞지를 조짐",
+          "interpretation_en": "means you will scorn the baseness of others, and worthily outstrip your enemies",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rat",
+              "original": "To catch rats, means you will scorn the baseness of others, and worthily outstrip your enemies.",
+              "translation_ko": "쥐를 잡는 꿈은, 남의 비열함을 경멸하고 원수를 훌륭히 앞지를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쥐가 참새와 싸움",
+          "interpretation_ko": "관재와 송사가 있을 조짐",
+          "interpretation_en": "a sign of legal trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "雀鼠爭鬥有官事",
+              "translation_ko": "참새와 쥐가 다투면 관재가 있다"
+            }
+          ]
+        },
+        {
+          "context": "쥐가 고양이에게 잡힘",
+          "interpretation_ko": "큰 재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining great wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "貓捕鼠者大得財",
+              "translation_ko": "고양이가 쥐를 잡으면 크게 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "흰 쥐가 길을 인도함",
+          "interpretation_ko": "남이 이끌어 줄 조짐",
+          "interpretation_en": "a sign that someone will lend you a hand",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "白鼠引路人提攜",
+              "translation_ko": "흰 쥐가 길을 인도하면 사람이 이끌어 준다"
+            }
+          ]
+        },
+        {
+          "context": "쥐가 사람의 옷을 물어뜯음",
+          "interpretation_ko": "구하는 바를 얻을 조짐",
+          "interpretation_en": "a sign that what one seeks will be obtained",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "鼠咬人衣所求得",
+              "translation_ko": "쥐가 사람의 옷을 물면 구하는 바를 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "쥐가 크게 내달림",
+          "interpretation_ko": "기쁜 일이 있을 조짐",
+          "interpretation_en": "a sign of a joyful occasion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "鼠大走主有喜事",
+              "translation_ko": "쥐가 크게 달리면 기쁜 일이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rabbit",
       "term_ko": "토끼",
       "term_en": "rabbit",
@@ -19250,171 +19430,6 @@
               "locator": "Lantern",
               "original": "If she blows it out, by her own imprudence she will lose a chance of getting married.",
               "translation_ko": "그 불을 불어 끄면 제 경솔함으로 혼인할 기회를 놓친다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mouse",
-      "term_ko": "쥐",
-      "term_en": "mouse",
-      "aliases": [
-        "생쥐",
-        "들쥐",
-        "시궁쥐",
-        "쥐가",
-        "쥐를",
-        "쥐 떼",
-        "흰쥐",
-        "들쥐가"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "쥐를 봄",
-          "interpretation_ko": "집안이 어수선하고 벗의 마음이 참되지 못할 흉한 조짐 — 하는 일도 맥이 빠진다",
-          "interpretation_en": "foretells domestic troubles and the insincerity of friends; business affairs will assume a discouraging tone",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Mice",
-              "original": "To dream of mice, foretells domestic troubles and the insincerity of friends.",
-              "translation_ko": "쥐의 꿈은, 집안이 어수선하고 벗의 마음이 참되지 못함을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "쥐를 죽임",
-          "interpretation_ko": "적을 이길 길한 조짐",
-          "interpretation_en": "denotes that you will conquer your enemies",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Mice",
-              "original": "To kill mice, denotes that you will conquer your enemies.",
-              "translation_ko": "쥐를 죽이면 적을 이긴다"
-            }
-          ]
-        },
-        {
-          "context": "쥐를 놓침",
-          "interpretation_ko": "이길지 질지 모를 다툼이 있을 조짐",
-          "interpretation_en": "is significant of doubtful struggles",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Mice",
-              "original": "To let them escape you, is significant of doubtful struggles.",
-              "translation_ko": "쥐를 놓치면 이길지 질지 모를 다툼이 있다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 쥐 꿈을 꿈",
-          "interpretation_ko": "숨은 적이 있고 저를 속이는 일이 벌어지고 있는 흉한 조짐",
-          "interpretation_en": "warns her of secret enemies, and that deception is being practised upon her",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Mice",
-              "original": "For a young woman to dream of mice, warns her of secret enemies, and that deception is being practised upon her.",
-              "translation_ko": "젊은 여성이 쥐 꿈을 꾸면, 숨은 적이 있고 저를 속이는 일이 벌어지고 있다"
-            }
-          ]
-        },
-        {
-          "context": "제 옷에 쥐가 있는 것을 봄",
-          "interpretation_ko": "제가 남우세스러운 소문의 한가운데 서게 될 흉한 조짐",
-          "interpretation_en": "it is a sign of scandal in which she will figure",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Mice",
-              "original": "If she should see a mouse in her clothing, it is a sign of scandal in which she will figure.",
-              "translation_ko": "제 옷 속에 쥐가 있는 것을 보면, 남우세스러운 소문의 한가운데 서게 된다"
-            }
-          ]
-        },
-        {
-          "context": "쥐가 참새와 싸움",
-          "interpretation_ko": "관재와 송사가 있을 조짐",
-          "interpretation_en": "a sign of legal trouble",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "雀鼠爭鬥有官事",
-              "translation_ko": "참새와 쥐가 다투면 관재가 있다"
-            }
-          ]
-        },
-        {
-          "context": "쥐가 고양이에게 잡힘",
-          "interpretation_ko": "큰 재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining great wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "貓捕鼠者大得財",
-              "translation_ko": "고양이가 쥐를 잡으면 크게 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "흰 쥐가 길을 인도함",
-          "interpretation_ko": "남이 이끌어 줄 조짐",
-          "interpretation_en": "a sign that someone will lend you a hand",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "白鼠引路人提攜",
-              "translation_ko": "흰 쥐가 길을 인도하면 사람이 이끌어 준다"
-            }
-          ]
-        },
-        {
-          "context": "쥐가 사람의 옷을 물어뜯음",
-          "interpretation_ko": "구하는 바를 얻을 조짐",
-          "interpretation_en": "a sign that what one seeks will be obtained",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "鼠咬人衣所求得",
-              "translation_ko": "쥐가 사람의 옷을 물면 구하는 바를 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "쥐가 크게 내달림",
-          "interpretation_ko": "기쁜 일이 있을 조짐",
-          "interpretation_en": "a sign of a joyful occasion",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "鼠大走主有喜事",
-              "translation_ko": "쥐가 크게 달리면 기쁜 일이 있다"
             }
           ]
         }
@@ -99202,6 +99217,53 @@
               "locator": "Ransom",
               "original": "For a young woman, this is prognostic of evil, unless some one pays the ransom and relieves her.",
               "translation_ko": "처녀가 몸값 꿈을 꾸면, 누군가 몸값을 치러 구해 주지 않는 한 흉한 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raspberry",
+      "term_ko": "나무딸기",
+      "term_en": "raspberry",
+      "aliases": [
+        "나무딸기가",
+        "나무딸기를",
+        "라즈베리"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "나무딸기를 봄",
+          "interpretation_ko": "얽히고설킨 일에 휘말릴 위험이 있으나, 거기서 벗어나기 전까지는 흥미로울 조짐",
+          "interpretation_en": "foretells you are in danger of entanglements which will prove interesting before you escape from them",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Raspberry",
+              "original": "To see raspberries in a dream, foretells you are in danger of entanglements which will prove interesting before you escape from them.",
+              "translation_ko": "나무딸기를 보는 꿈은, 얽히고설킨 일에 휘말릴 위험이 있으나 거기서 벗어나기 전까지는 흥미로울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 나무딸기를 먹음",
+          "interpretation_ko": "구설을 낳는 일의 정황 증거로 괴로울 조짐",
+          "interpretation_en": "means distress over circumstantial evidence in some occurrence causing gossip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Raspberry",
+              "original": "For a woman to eat them, means distress over circumstantial evidence in some occurrence causing gossip.",
+              "translation_ko": "여성이 나무딸기를 먹는 꿈은, 구설을 낳는 일의 정황 증거로 괴로울 조짐이다"
             }
           ]
         }

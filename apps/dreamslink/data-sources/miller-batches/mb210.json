@@ -1,0 +1,21 @@
+{
+  "batch": 210,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Raspberry",
+      "text": "To see raspberries in a dream, foretells you are in danger of entanglements which will prove interesting before you escape from them. For a woman to eat them, means distress over circumstantial evidence in some occurrence causing gossip.",
+      "note": "새 상징 `raspberry`(나무딸기). 「산딸기」는 이미 `blackberry`의 별칭이라 쓰지 않는다"
+    },
+    {
+      "headword": "Rat",
+      "text": "To dream of rats, denotes that you will be deceived, and injured by your neighbors. Quarrels with your companions is also foreboded. To catch rats, means you will scorn the baseness of others, and worthily outstrip your enemies. To kill one, denotes your victory in any contest.",
+      "note": "각주(See Mice)를 따른다. 「쥐를 죽임」은 기존 상징 `mouse`의 「쥐를 죽임」(밀러 Mice, 같은 그림·같은 결과)과 같아 건너뛴다. 「쥐 꿈을 꿈」도 기존 「쥐를 봄」(밀러 Mice)과 같은 그림이라 건너뛴다. 「쥐를 잡음」만 새 그림이라 mouse에 더한다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    "To dream of rats, denotes that you will be deceived, and injured by your neighbors. Quarrels with your companions is also foreboded. — 기존 mouse의 「쥐를 봄」(밀러 Mice)과 같은 그림",
+    "To kill one, denotes your victory in any contest. — 기존 mouse의 「쥐를 죽임」(밀러 Mice)과 같은 그림·같은 결과"
+  ]
+}

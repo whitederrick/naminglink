@@ -1,0 +1,47 @@
+[
+  {
+    "term_ko": "나무딸기",
+    "term_en": "raspberry",
+    "context": "나무딸기를 봄",
+    "interpretation_ko": "얽히고설킨 일에 휘말릴 위험이 있으나, 거기서 벗어나기 전까지는 흥미로울 조짐",
+    "interpretation_en": "foretells you are in danger of entanglements which will prove interesting before you escape from them",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Raspberry",
+      "original": "To see raspberries in a dream, foretells you are in danger of entanglements which will prove interesting before you escape from them.",
+      "translation_ko": "나무딸기를 보는 꿈은, 얽히고설킨 일에 휘말릴 위험이 있으나 거기서 벗어나기 전까지는 흥미로울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나무딸기",
+    "term_en": "raspberry",
+    "context": "여성이 나무딸기를 먹음",
+    "interpretation_ko": "구설을 낳는 일의 정황 증거로 괴로울 조짐",
+    "interpretation_en": "means distress over circumstantial evidence in some occurrence causing gossip",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Raspberry",
+      "original": "For a woman to eat them, means distress over circumstantial evidence in some occurrence causing gossip.",
+      "translation_ko": "여성이 나무딸기를 먹는 꿈은, 구설을 낳는 일의 정황 증거로 괴로울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "쥐",
+    "term_en": "mouse",
+    "context": "쥐를 잡음",
+    "interpretation_ko": "남의 비열함을 경멸하고 원수를 훌륭히 앞지를 조짐",
+    "interpretation_en": "means you will scorn the baseness of others, and worthily outstrip your enemies",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Rat",
+      "original": "To catch rats, means you will scorn the baseness of others, and worthily outstrip your enemies.",
+      "translation_ko": "쥐를 잡는 꿈은, 남의 비열함을 경멸하고 원수를 훌륭히 앞지를 조짐이다"
+    }
+  }
+]

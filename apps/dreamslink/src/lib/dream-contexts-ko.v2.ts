@@ -1187,6 +1187,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "mouse::쥐를 놓침": "놓쳤 달아나",
   "mouse::처녀가 쥐 꿈을 꿈": "처녀 아가씨",
   "mouse::제 옷에 쥐가 있는 것을 봄": "옷에 옷속 품속",
+  "mouse::쥐를 잡음": "잡았다 경멸했다",
   "cauldron::큰 솥을 봄": "커다란 커다 거대 엄청",
   "cauldron::솥이 넘치도록 가득 참": "넘치 가득 그득 넘쳐",
   "cauldron::무쇠솥이 깨짐": "무쇠 쇠로 깨져 깨진 금이",
@@ -5333,5 +5334,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "ramrod::꽂을대 꿈을 꿈": "불운한 슬퍼할",
   "ramrod::처녀가 구부러지거나 부러진 꽂을대를 봄": "구부러지거나 부러진 저버릴",
   "ransom::몸값을 치르게 됨": "치르게 속임을",
-  "ransom::처녀가 몸값 꿈을 꿈": "처녀가 구해주지"
+  "ransom::처녀가 몸값 꿈을 꿈": "처녀가 구해주지",
+  "raspberry::나무딸기를 봄": "얽히고설킨 흥미로울",
+  "raspberry::여성이 나무딸기를 먹음": "여성이 여자가 구설 정황"
 };
