@@ -164,6 +164,7 @@
     "m243.json",
     "m244.json",
     "m245.json",
+    "m246.json",
     "m25.json",
     "m26.json",
     "m27a.json",
@@ -79200,6 +79201,67 @@
       ]
     },
     {
+      "id": "shroud",
+      "term_ko": "수의",
+      "term_en": "shroud",
+      "aliases": [
+        "수의를",
+        "수의가",
+        "염포"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "수의 꿈을 꿈",
+          "interpretation_ko": "질병과 그에 따르는 고통과 근심, 악의를 품은 거짓 친구들의 술책이 있을 조짐. 이 꿈 뒤 사업이 기울 위험이 있음",
+          "interpretation_en": "denotes sickness and its attendant distress and anxiety, coupled with the machinations of the evil-minded and false friends. Business will threaten decline after this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shroud",
+              "original": "To dream of a shroud, denotes sickness and its attendant distress and anxiety, coupled with the machinations of the evil-minded and false friends. Business will threaten decline after this dream.",
+              "translation_ko": "수의 꿈은, 질병과 그에 따르는 고통과 근심, 악의를 품은 거짓 친구들의 술책이 있을 조짐이다. 이 꿈 뒤 사업이 기울 위험이 있다"
+            }
+          ]
+        },
+        {
+          "context": "수의를 입은 시신들을 봄",
+          "interpretation_ko": "수많은 불운의 조짐",
+          "interpretation_en": "denotes a multitude of misfortunes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shroud",
+              "original": "To see shrouded corpses, denotes a multitude of misfortunes.",
+              "translation_ko": "수의를 입은 시신들을 보는 꿈은, 수많은 불운의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "시신에서 수의를 벗김",
+          "interpretation_ko": "다툼이 불화로 이어질 조짐",
+          "interpretation_en": "denotes that quarrels will result in alienation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shroud",
+              "original": "To see a shroud removed from a corpse, denotes that quarrels will result in alienation.",
+              "translation_ko": "시신에서 수의를 벗기는 꿈은, 다툼이 불화로 이어질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "siblings",
       "term_ko": "형제",
       "term_en": "siblings",
@@ -105856,6 +105918,193 @@
       ]
     },
     {
+      "id": "shot",
+      "term_ko": "총에 맞음",
+      "term_en": "shot",
+      "aliases": [
+        "총에 맞아",
+        "총에 맞았다",
+        "총을 쐈다",
+        "총을 쏘았다"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "총에 맞아 죽어가는 느낌이 듦",
+          "interpretation_ko": "벗들의 나쁜 감정에서 뜻밖의 비난을 받을 조짐. 다만 깨어나 죽음을 피하면 나중에 완전히 화해할 것",
+          "interpretation_en": "denotes that you are to meet unexpected abuse from the ill feelings of friends, but if you escape death by waking, you will be fully reconciled with them later on",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shot",
+              "original": "To dream that you are shot, and are feeling the sensations of dying, denotes that you are to meet unexpected abuse from the ill feelings of friends, but if you escape death by waking, you will be fully reconciled with them later on.",
+              "translation_ko": "총에 맞아 죽어가는 느낌이 드는 꿈은, 벗들의 나쁜 감정에서 뜻밖의 비난을 받을 조짐이다. 다만 깨어나 죽음을 피하면 나중에 완전히 화해할 것이다"
+            }
+          ]
+        },
+        {
+          "context": "목사가 자신에게 총을 쏨",
+          "interpretation_ko": "자신이 품은 생각을 나무라는 벗의 주장에 시달릴 조짐",
+          "interpretation_en": "signifies that you will be annoyed by some friend advancing views condemnatory to those entertained by yourself",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shot",
+              "original": "To dream that a preacher shoots you, signifies that you will be annoyed by some friend advancing views condemnatory to those entertained by yourself.",
+              "translation_ko": "목사가 자신에게 총을 쏘는 꿈은, 자신이 품은 생각을 나무라는 벗의 주장에 시달릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shotgun",
+      "term_ko": "산탄총",
+      "term_en": "shotgun",
+      "aliases": [
+        "산탄총을",
+        "산탄총이",
+        "쌍발총"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "산탄총 꿈을 꿈",
+          "interpretation_ko": "아이들과 하인들로 인한 집안 다툼과 근심의 조짐",
+          "interpretation_en": "foretells domestic troubles and worry with children and servants",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shotgun",
+              "original": "To dream of a shotgun, foretells domestic troubles and worry with children and servants.",
+              "translation_ko": "산탄총 꿈은, 아이들과 하인들로 인한 집안 다툼과 근심의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쌍발 산탄총의 두 총열을 다 쏨",
+          "interpretation_ko": "사생활과 공적인 삶에서 격분할 무례한 대우를 겪어, 부드러운 태도가 무너지고 정당한 분노를 터뜨릴 조짐",
+          "interpretation_en": "foretells that you will meet such exasperating and unfeeling attention in your private and public life that suave manners giving way under the strain and your righteous wrath will be justifiable",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shotgun",
+              "original": "To shoot both barrels of a double-barreled shotgun, foretells that you will meet such exasperating and unfeeling attention in your private and public life that suave manners giving way under the strain and your righteous wrath will be justifiable.",
+              "translation_ko": "쌍발 산탄총의 두 총열을 다 쏘는 꿈은, 사생활과 공적인 삶에서 격분할 무례한 대우를 겪어 부드러운 태도가 무너지고 정당한 분노를 터뜨릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoulder",
+      "term_ko": "어깨",
+      "term_en": "shoulder",
+      "aliases": [
+        "어깨를",
+        "어깨가"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "맨 어깨를 봄",
+          "interpretation_ko": "행복한 변화로 세상을 예전과 다른 눈으로 보게 될 조짐",
+          "interpretation_en": "foretells that happy changes will make you look upon the world in a different light than formerly",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shoulder",
+              "original": "To dream of seeing naked shoulders, foretells that happy changes will make you look upon the world in a different light than formerly.",
+              "translation_ko": "맨 어깨를 보는 꿈은, 행복한 변화로 세상을 예전과 다른 눈으로 보게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신의 야윈 어깨를 봄",
+          "interpretation_ko": "즐거움과 기쁨을 남의 변덕에 기댈 조짐",
+          "interpretation_en": "denotes that you will depend upon the caprices of others for entertainment and pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shoulder",
+              "original": "To see your own shoulders appearing thin, denotes that you will depend upon the caprices of others for entertainment and pleasure.",
+              "translation_ko": "자신의 야윈 어깨를 보는 꿈은, 즐거움과 기쁨을 남의 변덕에 기댈 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shovel",
+      "term_ko": "삽",
+      "term_en": "shovel",
+      "aliases": [
+        "삽을",
+        "삽이"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "삽을 봄",
+          "interpretation_ko": "힘들지만 즐거운 일을 맡게 될 조짐",
+          "interpretation_en": "signifies laborious but withal pleasant work will be undertaken",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shovel",
+              "original": "To see a shovel in a dream, signifies laborious but withal pleasant work will be undertaken.",
+              "translation_ko": "삽을 보는 꿈은, 힘들지만 즐거운 일을 맡게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부서지거나 낡은 삽을 봄",
+          "interpretation_ko": "바라던 일이 좌절될 조짐",
+          "interpretation_en": "implies frustration of hopes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shovel",
+              "original": "A broken or old one, implies frustration of hopes.",
+              "translation_ko": "부서지거나 낡은 삽을 보는 꿈은, 바라던 일이 좌절될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "shrimp",
       "term_ko": "새우",
       "term_en": "shrimp",
@@ -118848,6 +119097,104 @@
               "locator": "Shells",
               "original": "To walk among and gather shells in your dream, denotes extravagance. Pleasure will leave you naught but exasperating regrets and memories.",
               "translation_ko": "조개껍데기 사이를 걸으며 줍는 꿈은, 사치를 부릴 조짐이다. 즐거움은 애타는 후회와 기억만 남길 것이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shooting",
+      "term_ko": "사격",
+      "term_en": "shooting",
+      "aliases": [
+        "사격을",
+        "사격이"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사격을 보거나 들음",
+          "interpretation_ko": "지나친 이기심으로 부부와 연인 사이가 불행해지고, 태만으로 사업과 일이 잘 안 풀릴 조짐",
+          "interpretation_en": "signifies unhappiness between married couples and sweethearts because of over-weaning selfishness, also unsatisfactory business and tasks because of negligence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shooting",
+              "original": "To dream that you see or hear shooting, signifies unhappiness between married couples and sweethearts because of over-weaning selfishness, also unsatisfactory business and tasks because of negligence.",
+              "translation_ko": "사격을 보거나 듣는 꿈은, 지나친 이기심으로 부부와 연인 사이가 불행해지고 태만으로 사업과 일이 잘 안 풀릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop",
+      "term_ko": "가게",
+      "term_en": "shop",
+      "aliases": [
+        "가게를",
+        "가게가",
+        "상점"
+      ],
+      "category": "place",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "가게 꿈을 꿈",
+          "interpretation_ko": "책략을 꾸미는 질투심 많은 친구들에게 출세의 모든 시도를 방해받을 조짐",
+          "interpretation_en": "denotes that you will be opposed in every attempt you make for advancement by scheming and jealous friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shop",
+              "original": "To dream of a shop, denotes that you will be opposed in every attempt you make for advancement by scheming and jealous friends.",
+              "translation_ko": "가게 꿈은, 책략을 꾸미는 질투심 많은 친구들에게 출세의 모든 시도를 방해받을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shrew",
+      "term_ko": "잔소리꾼",
+      "term_en": "shrew",
+      "aliases": [
+        "잔소리꾼을",
+        "잔소리꾼이",
+        "사나운 여자"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "잔소리꾼 꿈을 꿈",
+          "interpretation_ko": "벗을 즐거운 기분으로 지키는 일을 떠맡고, 일상의 경험에 스스로 서툴러질 조짐",
+          "interpretation_en": "foretells that you will have a task to keep some friend in a cheerful frame of mind, and that you will unfit yourself for the experiences of everyday existence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shrew",
+              "original": "To dream of a shrew, foretells that you will have a task to keep some friend in a cheerful frame of mind, and that you will unfit yourself for the experiences of everyday existence.",
+              "translation_ko": "잔소리꾼 꿈은, 벗을 즐거운 기분으로 지키는 일을 떠맡고 일상의 경험에 스스로 서툴러질 조짐이다"
             }
           ]
         }

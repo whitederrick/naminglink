@@ -7481,5 +7481,35 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "shoemaker": [
     "a shoemaker",
     "shoemaker"
+  ],
+  "shooting": [
+    "shooting",
+    "gunfire"
+  ],
+  "shop": [
+    "a shop",
+    "shops"
+  ],
+  "shot": [
+    "being shot",
+    "shoots you"
+  ],
+  "shotgun": [
+    "a shotgun",
+    "double-barreled shotgun"
+  ],
+  "shoulder": [
+    "shoulders",
+    "a shoulder"
+  ],
+  "shovel": [
+    "a shovel"
+  ],
+  "shrew": [
+    "a shrew"
+  ],
+  "shroud": [
+    "a shroud",
+    "shrouded"
   ]
 };

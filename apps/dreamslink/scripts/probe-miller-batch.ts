@@ -1,7 +1,6 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 245 — Shirt·Shirt-studs·Shoemaker, 기존 shoes(신)에 여섯 그림 붙임.
-// Ship은 기존 boat가 이미 문맥 30여 개인 복잡한 상징이라 일부러 건너뜀(horse/Ride와 같은
-// 판단) — 나중에 별도 배치로. Shoes의 「해지고 더러워짐」·「잃어버림」은 기존 그림과 같아 건너뜀)
+// (지금 담긴 것: 배치 246 — Shooting·Shop·Shot·Shotgun·Shoulder·Shovel·Shrew·Shroud.
+// Shower는 기존 rain의 「화창한 소나기를 맞음」과 같은 그림이라 건너뜀)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -32,23 +31,22 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "shirt", ctx: "셔츠를 입음", text: "셔츠를 입었다" },
-  { id: "shirt", ctx: "셔츠를 잃어버림", text: "셔츠를 잃어버렸다" },
-  { id: "shirt", ctx: "찢어진 셔츠를 봄", text: "찢어진 셔츠를 보았다" },
-  { id: "shirt", ctx: "더러워진 셔츠를 봄", text: "더러워진 셔츠를 보았다" },
-  { id: "shirt-studs", ctx: "셔츠 장식 단추 꿈을 꿈", text: "셔츠 장식 단추 꿈을 꾸었다" },
-  { id: "shirt-studs", ctx: "다이아몬드 장식 단추 중 가운데 것이 가장 큼", text: "다이아몬드 장식 단추 중 가운데 것이 가장 컸다" },
-  { id: "shoemaker", ctx: "구두장이를 봄", text: "구두장이를 보았다" },
-  { id: "shoemaker", ctx: "여성이 남편이나 애인이 구두장이인 꿈을 꿈", text: "여성이 남편이 구두장이인 꿈을 꾸었다" },
-  { id: "shoes", ctx: "구두를 닦아 광을 냄", text: "구두를 닦아 광을 냈다" },
-  { id: "shoes", ctx: "새 신을 신음", text: "새로 산 신발을 신었다" },
-  { id: "shoes", ctx: "새 신이 발을 조임", text: "새 신발이 발을 조였다" },
-  { id: "shoes", ctx: "신이 풀려 있음을 봄", text: "신이 풀려 있는 것을 보았다" },
-  { id: "shoes", ctx: "밤새 신을 도둑맞았으나 양말은 두 켤레 있음", text: "밤새 신을 도둑맞았으나 양말은 두 켤레 있었다" },
-  { id: "shoes", ctx: "여성이 신은 신발을 남들이 칭찬함", text: "여성이 신은 신발을 남들이 칭찬했다" },
-  // 지킴 — 이번에 손댄 기존 상징(shoes)의 옛 답이 그대로인가
-  { id: "shoes", ctx: "남이 자기 신을 신음", text: "남이 자기 신을 신었다" },
-  { id: "shoes", ctx: "신을 잃어버림", text: "신을 잃어버렸다" },
+  { id: "shooting", ctx: "사격을 보거나 들음", text: "사격을 보았다" },
+  { id: "shop", ctx: "가게 꿈을 꿈", text: "가게 꿈을 꾸었다" },
+  { id: "shot", ctx: "총에 맞아 죽어가는 느낌이 듦", text: "총에 맞아 죽어가는 느낌이 들었다" },
+  { id: "shot", ctx: "목사가 자신에게 총을 쏨", text: "목사가 자신에게 총을 쏘았다" },
+  { id: "shotgun", ctx: "산탄총 꿈을 꿈", text: "산탄총 꿈을 꾸었다" },
+  { id: "shotgun", ctx: "쌍발 산탄총의 두 총열을 다 쏨", text: "쌍발 산탄총의 두 총열을 다 쏘았다" },
+  { id: "shoulder", ctx: "맨 어깨를 봄", text: "맨 어깨를 보았다" },
+  { id: "shoulder", ctx: "자신의 야윈 어깨를 봄", text: "자신의 야윈 어깨를 보았다" },
+  { id: "shovel", ctx: "삽을 봄", text: "삽을 보았다" },
+  { id: "shovel", ctx: "부서지거나 낡은 삽을 봄", text: "부서지거나 낡은 삽을 보았다" },
+  { id: "shrew", ctx: "잔소리꾼 꿈을 꿈", text: "잔소리꾼 꿈을 꾸었다" },
+  { id: "shroud", ctx: "수의 꿈을 꿈", text: "수의 꿈을 꾸었다" },
+  { id: "shroud", ctx: "수의를 입은 시신들을 봄", text: "수의를 입은 시신들을 보았다" },
+  { id: "shroud", ctx: "시신에서 수의를 벗김", text: "시신에서 수의를 벗겼다" },
+  // 지킴 — 이번에 손대지 않은 rain의 옛 답이 그대로인가(Shower를 그 그림과 겹쳐 건너뜀)
+  { id: "rain", ctx: "화창한 소나기를 맞음", text: "화창한 소나기를 맞았다" },
 ];
 
 let notFound = 0;

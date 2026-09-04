@@ -1,0 +1,142 @@
+[
+  {
+    "id": "shooting",
+    "aliases": [
+      "사격을",
+      "사격이"
+    ],
+    "aliases_en": [
+      "shooting",
+      "gunfire"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "shop",
+    "aliases": [
+      "가게를",
+      "가게가",
+      "상점"
+    ],
+    "aliases_en": [
+      "a shop",
+      "shops"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "shot",
+    "aliases": [
+      "총에 맞아",
+      "총에 맞았다",
+      "총을 쐈다",
+      "총을 쏘았다"
+    ],
+    "aliases_en": [
+      "being shot",
+      "shoots you"
+    ],
+    "contexts": {
+      "총에 맞아 죽어가는 느낌이 듦": "죽어가는 느낌이 뜻밖의 비난",
+      "목사가 자신에게 총을 쏨": "목사가 나무라는 벗의 주장"
+    },
+    "contexts_en": {
+      "총에 맞아 죽어가는 느낌이 듦": "dying sensations abuse",
+      "목사가 자신에게 총을 쏨": "preacher condemnatory friend"
+    }
+  },
+  {
+    "id": "shotgun",
+    "aliases": [
+      "산탄총을",
+      "산탄총이",
+      "쌍발총"
+    ],
+    "aliases_en": [
+      "a shotgun",
+      "double-barreled shotgun"
+    ],
+    "contexts": {
+      "산탄총 꿈을 꿈": "아이들과 하인들로",
+      "쌍발 산탄총의 두 총열을 다 쏨": "총열을 쏘는 격분할"
+    },
+    "contexts_en": {
+      "산탄총 꿈을 꿈": "domestic troubles servants",
+      "쌍발 산탄총의 두 총열을 다 쏨": "double-barreled exasperating wrath"
+    }
+  },
+  {
+    "id": "shoulder",
+    "aliases": [
+      "어깨를",
+      "어깨가"
+    ],
+    "aliases_en": [
+      "shoulders",
+      "a shoulder"
+    ],
+    "contexts": {
+      "맨 어깨를 봄": "행복한 변화 예전과",
+      "자신의 야윈 어깨를 봄": "야윈 변덕에 기댈"
+    },
+    "contexts_en": {
+      "맨 어깨를 봄": "naked happy changes",
+      "자신의 야윈 어깨를 봄": "thin caprices entertainment"
+    }
+  },
+  {
+    "id": "shovel",
+    "aliases": [
+      "삽을",
+      "삽이"
+    ],
+    "aliases_en": [
+      "a shovel"
+    ],
+    "contexts": {
+      "삽을 봄": "힘들지만 즐거운",
+      "부서지거나 낡은 삽을 봄": "부서지거나 낡은 좌절될"
+    },
+    "contexts_en": {
+      "삽을 봄": "laborious pleasant undertaken",
+      "부서지거나 낡은 삽을 봄": "broken old frustration"
+    }
+  },
+  {
+    "id": "shrew",
+    "aliases": [
+      "잔소리꾼을",
+      "잔소리꾼이",
+      "사나운 여자"
+    ],
+    "aliases_en": [
+      "a shrew"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "shroud",
+    "aliases": [
+      "수의를",
+      "수의가",
+      "염포"
+    ],
+    "aliases_en": [
+      "a shroud",
+      "shrouded"
+    ],
+    "contexts": {
+      "수의 꿈을 꿈": "질병과 고통과 거짓 친구들",
+      "수의를 입은 시신들을 봄": "시신들을 수많은 불운",
+      "시신에서 수의를 벗김": "시신에서 벗기는 불화로"
+    },
+    "contexts_en": {
+      "수의 꿈을 꿈": "sickness distress machinations",
+      "수의를 입은 시신들을 봄": "corpses multitude misfortunes",
+      "시신에서 수의를 벗김": "removed quarrels alienation"
+    }
+  }
+]

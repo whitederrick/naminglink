@@ -5675,5 +5675,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "shirt-studs::셔츠 장식 단추 꿈을 꿈": "struggle humor pride",
   "shirt-studs::다이아몬드 장식 단추 중 가운데 것이 가장 큼": "diamonds center congenial",
   "shoemaker::구두장이를 봄": "unfavorable advancement",
-  "shoemaker::여성이 남편이나 애인이 구두장이인 꿈을 꿈": "husband lover competency"
+  "shoemaker::여성이 남편이나 애인이 구두장이인 꿈을 꿈": "husband lover competency",
+  "shot::총에 맞아 죽어가는 느낌이 듦": "dying sensations abuse",
+  "shot::목사가 자신에게 총을 쏨": "preacher condemnatory friend",
+  "shotgun::산탄총 꿈을 꿈": "domestic troubles servants",
+  "shotgun::쌍발 산탄총의 두 총열을 다 쏨": "double-barreled exasperating wrath",
+  "shoulder::맨 어깨를 봄": "naked happy changes",
+  "shoulder::자신의 야윈 어깨를 봄": "thin caprices entertainment",
+  "shovel::삽을 봄": "laborious pleasant undertaken",
+  "shovel::부서지거나 낡은 삽을 봄": "broken old frustration",
+  "shroud::수의 꿈을 꿈": "sickness distress machinations",
+  "shroud::수의를 입은 시신들을 봄": "corpses multitude misfortunes",
+  "shroud::시신에서 수의를 벗김": "removed quarrels alienation"
 };

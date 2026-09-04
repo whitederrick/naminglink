@@ -1,0 +1,50 @@
+{
+  "batch": 246,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Shooting",
+      "text": "To dream that you see or hear shooting, signifies unhappiness between married couples and sweethearts because of over-weaning selfishness, also unsatisfactory business and tasks because of negligence.",
+      "note": "새 상징 `shooting`(사격) — 한 그림"
+    },
+    {
+      "headword": "Shop",
+      "text": "To dream of a shop, denotes that you will be opposed in every attempt you make for advancement by scheming and jealous friends.",
+      "note": "새 상징 `shop`(가게) — 한 그림"
+    },
+    {
+      "headword": "Shot",
+      "text": "To dream that you are shot, and are feeling the sensations of dying, denotes that you are to meet unexpected abuse from the ill feelings of friends, but if you escape death by waking, you will be fully reconciled with them later on. To dream that a preacher shoots you, signifies that you will be annoyed by some friend advancing views condemnatory to those entertained by yourself.",
+      "note": "새 상징 `shot`(총에 맞음) — 두 그림"
+    },
+    {
+      "headword": "Shotgun",
+      "text": "To dream of a shotgun, foretells domestic troubles and worry with children and servants. To shoot both barrels of a double-barreled shotgun, foretells that you will meet such exasperating and unfeeling attention in your private and public life that suave manners giving way under the strain and your righteous wrath will be justifiable.",
+      "note": "새 상징 `shotgun`(산탄총) — 두 그림"
+    },
+    {
+      "headword": "Shoulder",
+      "text": "To dream of seeing naked shoulders, foretells that happy changes will make you look upon the world in a different light than formerly. To see your own shoulders appearing thin, denotes that you will depend upon the caprices of others for entertainment and pleasure.",
+      "note": "새 상징 `shoulder`(어깨) — 두 그림"
+    },
+    {
+      "headword": "Shovel",
+      "text": "To see a shovel in a dream, signifies laborious but withal pleasant work will be undertaken. A broken or old one, implies frustration of hopes.",
+      "note": "새 상징 `shovel`(삽) — 두 그림"
+    },
+    {
+      "headword": "Shrew",
+      "text": "To dream of a shrew, foretells that you will have a task to keep some friend in a cheerful frame of mind, and that you will unfit yourself for the experiences of everyday existence.",
+      "note": "새 상징 `shrew`(잔소리꾼) — 한 그림"
+    },
+    {
+      "headword": "Shroud",
+      "text": "To dream of a shroud, denotes sickness and its attendant distress and anxiety, coupled with the machinations of the evil-minded and false friends. Business will threaten decline after this dream. To see shrouded corpses, denotes a multitude of misfortunes. To see a shroud removed from a corpse, denotes that quarrels will result in alienation.",
+      "note": "새 상징 `shroud`(수의) — 세 그림"
+    }
+  ],
+  "skipped": [
+    "Shower — 「소나기를 맞아 창조의 이치를 살피는 기쁨」이 기존 rain의 「화창한 소나기를 맞음」(fair youth zest prosperity)과 같은 그림(맑게 갠 소나기를 맞는 긍정적 경험)이라 통째로 건너뜀"
+  ],
+  "skipped_sentences": []
+}
