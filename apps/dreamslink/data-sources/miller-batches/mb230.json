@@ -1,0 +1,13 @@
+{
+  "batch": 230,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Ropes (계속)",
+      "text": "To break them, signifies your ability to overcome enmity and competition. To tie ropes, or horses, denotes that you will have power to control others as you may wish. To walk a rope, signifies that you will engage in some hazardous speculation, but will surprisingly succeed. To see others walking a rope, you will benefit by the fortunate ventures of others. To jump a rope, foretells that you will startle your associates with a thrilling escapade bordering upon the sensational. To jump rope with children, shows that you are selfish and overbearing; failing to see that children owe very little duty to inhuman parents. To catch a rope with the foot, denotes that under cheerful conditions you will be benevolent and tender in your administrations. To dream that you let a rope down from an upper window to people below, thinking the proprietors would be adverse to receiving them into the hotel, denotes that you will engage in some affair which will not look exactly proper to your friends, but the same will afford you pleasure and interest. For a young woman, this dream is indicative of pleasures which do not bear the stamp of propriety.",
+      "note": "배치 229가 「Ropes」 표제어를 중간(「tied with them」)에서 끊고 다음 표제어로 넘어간 실수를 바로잡는다 — 새 표제어가 아니라 같은 「Ropes」의 나머지다. 기존 rope에 여덟을 더 붙인다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

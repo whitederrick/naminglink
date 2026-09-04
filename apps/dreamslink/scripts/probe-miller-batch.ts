@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 229 — Roof·Roof Corner·Rooks·Rooster·Roots·Ropes)
+// (지금 담긴 것: 배치 230 — Ropes 나머지 여덟)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,26 +30,20 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "roof", ctx: "지붕 위에 있는 자신을 발견함", text: "지붕 위에 있는 자신을 발견했다" },
-  { id: "roof", ctx: "지붕에서 겁에 질려 떨어진다고 생각함", text: "지붕에서 겁에 질려 떨어진다고 생각했다" },
-  { id: "roof", ctx: "지붕이 무너져 내리는 것을 봄", text: "지붕이 무너져 내리는 것을 보았다" },
-  { id: "roof", ctx: "지붕을 고치거나 지음", text: "지붕을 고쳤다" },
-  { id: "roof", ctx: "지붕 위에서 잠을 잠", text: "지붕 위에서 잠을 잤다" },
-  { id: "roof-corner", ctx: "상복 입은 사람이 지붕 모서리에 앉아 있음을 봄", text: "상복 입은 사람이 지붕 모서리에 앉아 있는 것을 보았다" },
-  { id: "rook", ctx: "떼까마귀 꿈을 꿈", text: "떼까마귀 꿈을 꾸었다" },
-  { id: "rook", ctx: "죽은 떼까마귀를 봄", text: "죽은 떼까마귀를 보았다" },
-  { id: "chicken", ctx: "수탉 꿈을 꿈", text: "수탉 꿈을 꾸었다" },
-  { id: "chicken", ctx: "수탉들이 싸우는 것을 봄", text: "수탉들이 싸우는 것을 보았다" },
-  { id: "root", ctx: "식물이나 나무의 뿌리를 봄", text: "나무의 뿌리를 보았다" },
-  { id: "root", ctx: "뿌리를 약으로 씀", text: "뿌리를 약으로 썼다" },
-  { id: "rope", ctx: "밧줄을 타고 오름", text: "밧줄을 타고 올랐다" },
-  { id: "rope", ctx: "밧줄을 타고 내려감", text: "밧줄을 타고 내려갔다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(roof·chicken·rope)의 옛 답이 그대로인가
-  { id: "roof", ctx: "지붕 위에 올라섬", text: "지붕 위에 올라섰다" },
-  { id: "chicken", ctx: "닭이 욺", text: "닭이 울었다" },
+  { id: "rope", ctx: "밧줄을 끊음", text: "밧줄을 끊었다" },
+  { id: "rope", ctx: "밧줄이나 말을 묶어 둠", text: "밧줄이나 말을 묶어 두었다" },
+  { id: "rope", ctx: "밧줄 위를 걸음", text: "밧줄 위를 걸었다" },
+  { id: "rope", ctx: "남이 밧줄 위를 걷는 것을 봄", text: "남이 밧줄 위를 걷는 것을 보았다" },
+  { id: "rope", ctx: "밧줄을 뛰어넘음", text: "밧줄을 뛰어넘었다" },
+  { id: "rope", ctx: "아이들과 줄넘기를 함", text: "아이들과 줄넘기를 했다" },
+  { id: "rope", ctx: "발로 밧줄을 붙잡음", text: "발로 밧줄을 붙잡았다" },
+  { id: "rope", ctx: "위층 창문에서 아래 사람들에게 밧줄을 전해 줌", text: "위층 창문에서 아래 사람들에게 밧줄을 전해 주었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(rope)의 옛 답이 그대로인가
   { id: "rope", ctx: "밧줄이 몸을 묶음", text: "밧줄이 몸을 묶었다" },
   { id: "rope", ctx: "밧줄을 봄", text: "밧줄이 놓여 있는 것을 보았다" },
   { id: "rope", ctx: "밧줄이 끊어짐", text: "밧줄이 끊어졌다" },
+  { id: "rope", ctx: "밧줄을 타고 오름", text: "밧줄을 타고 올랐다" },
+  { id: "rope", ctx: "밧줄을 타고 내려감", text: "밧줄을 타고 내려갔다" },
 ];
 
 let notFound = 0;

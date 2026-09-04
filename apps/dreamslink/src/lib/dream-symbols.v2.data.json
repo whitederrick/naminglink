@@ -147,6 +147,7 @@
     "m228.json",
     "m229.json",
     "m23.json",
+    "m230.json",
     "m24.json",
     "m25.json",
     "m26.json",
@@ -14593,6 +14594,216 @@
               "locator": "牛馬豬羊六畜",
               "original": "豬羊搔癢主口舌",
               "translation_ko": "돼지와 양이 가려워 몸을 긁으면 구설이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rope",
+      "term_ko": "밧줄",
+      "term_en": "rope",
+      "aliases": [
+        "동아줄",
+        "새끼줄",
+        "포승줄",
+        "로프",
+        "줄넘기"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "밧줄이 몸을 묶음",
+          "interpretation_ko": "오래 살고 길할 조짐",
+          "interpretation_en": "a sign of long life and good fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "身體面目齒髮",
+              "original": "繩索繫身長命吉",
+              "translation_ko": "밧줄이 몸을 묶으면 오래 살고 길하다"
+            },
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "繩索繫身大吉利",
+              "translation_ko": "밧줄로 몸이 묶이면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "밧줄을 타고 오름",
+          "interpretation_ko": "자신을 해치려는 적들을 이겨낼 조짐",
+          "interpretation_en": "you will overcome enemies who are working to injure you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ropes",
+              "original": "If you climb one, you will overcome enemies who are working to injure you.",
+              "translation_ko": "밧줄을 타고 오르는 꿈은, 자신을 해치려는 적들을 이겨낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "밧줄을 타고 내려감",
+          "interpretation_ko": "가장 낙관하던 순간에 실망을 맛볼 조짐",
+          "interpretation_en": "brings disappointment to your most sanguine moments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ropes",
+              "original": "To decend{sic} a rope, brings disappointment to your most sanguine moments.",
+              "translation_ko": "밧줄을 타고 내려가는 꿈은, 가장 낙관하던 순간에 실망을 맛볼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "밧줄을 끊음",
+          "interpretation_ko": "원한과 다툼을 이겨낼 능력이 있을 조짐",
+          "interpretation_en": "signifies your ability to overcome enmity and competition",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ropes",
+              "original": "To break them, signifies your ability to overcome enmity and competition.",
+              "translation_ko": "밧줄을 끊는 꿈은, 원한과 다툼을 이겨낼 능력이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "밧줄이나 말을 묶어 둠",
+          "interpretation_ko": "원하는 대로 남을 다스릴 힘을 가질 조짐",
+          "interpretation_en": "denotes that you will have power to control others as you may wish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ropes",
+              "original": "To tie ropes, or horses, denotes that you will have power to control others as you may wish.",
+              "translation_ko": "밧줄이나 말을 묶어 두는 꿈은, 원하는 대로 남을 다스릴 힘을 가질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 밧줄 위를 걷는 것을 봄",
+          "interpretation_ko": "남들의 행운이 가져온 이득을 함께 누릴 조짐",
+          "interpretation_en": "you will benefit by the fortunate ventures of others",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ropes",
+              "original": "To see others walking a rope, you will benefit by the fortunate ventures of others.",
+              "translation_ko": "남이 밧줄 위를 걷는 것을 보는 꿈은, 남들의 행운이 가져온 이득을 함께 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "밧줄 위를 걸음",
+          "interpretation_ko": "위험한 투기에 나서지만 뜻밖에 성공할 조짐",
+          "interpretation_en": "signifies that you will engage in some hazardous speculation, but will surprisingly succeed",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ropes",
+              "original": "To walk a rope, signifies that you will engage in some hazardous speculation, but will surprisingly succeed.",
+              "translation_ko": "밧줄 위를 걷는 꿈은, 위험한 투기에 나서지만 뜻밖에 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "밧줄을 뛰어넘음",
+          "interpretation_ko": "짜릿하고 파격적인 일탈로 주변을 놀라게 할 조짐",
+          "interpretation_en": "foretells that you will startle your associates with a thrilling escapade bordering upon the sensational",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ropes",
+              "original": "To jump a rope, foretells that you will startle your associates with a thrilling escapade bordering upon the sensational.",
+              "translation_ko": "밧줄을 뛰어넘는 꿈은, 짜릿하고 파격적인 일탈로 주변을 놀라게 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아이들과 줄넘기를 함",
+          "interpretation_ko": "이기적이고 남을 업신여겨, 아이들이 매정한 부모에게 빚진 것이 거의 없음을 못 볼 조짐",
+          "interpretation_en": "shows that you are selfish and overbearing; failing to see that children owe very little duty to inhuman parents",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ropes",
+              "original": "To jump rope with children, shows that you are selfish and overbearing; failing to see that children owe very little duty to inhuman parents.",
+              "translation_ko": "아이들과 줄넘기를 하는 꿈은, 이기적이고 남을 업신여겨 아이들이 매정한 부모에게 빚진 것이 거의 없음을 못 볼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "발로 밧줄을 붙잡음",
+          "interpretation_ko": "즐거운 조건 아래서 인자하고 다정하게 사람들을 대할 조짐",
+          "interpretation_en": "denotes that under cheerful conditions you will be benevolent and tender in your administrations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ropes",
+              "original": "To catch a rope with the foot, denotes that under cheerful conditions you will be benevolent and tender in your administrations.",
+              "translation_ko": "발로 밧줄을 붙잡는 꿈은, 즐거운 조건 아래서 인자하고 다정하게 사람들을 대할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "위층 창문에서 아래 사람들에게 밧줄을 전해 줌",
+          "interpretation_ko": "떳떳해 보이지 않는 일에 나서지만 즐거움과 흥미를 얻을 조짐(여성에게는 정숙함과는 거리가 먼 즐거움을 뜻함)",
+          "interpretation_en": "denotes that you will engage in some affair which will not look exactly proper to your friends, but the same will afford you pleasure and interest. For a young woman, this dream is indicative of pleasures which do not bear the stamp of propriety",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ropes",
+              "original": "To dream that you let a rope down from an upper window to people below, thinking the proprietors would be adverse to receiving them into the hotel, denotes that you will engage in some affair which will not look exactly proper to your friends, but the same will afford you pleasure and interest. For a young woman, this dream is indicative of pleasures which do not bear the stamp of propriety.",
+              "translation_ko": "위층 창문에서 아래 사람들에게 밧줄을 전해 주는 꿈은, 떳떳해 보이지 않는 일에 나서지만 즐거움과 흥미를 얻을 조짐이다(여성에게는 정숙함과는 거리가 먼 즐거움을 뜻한다)"
+            }
+          ]
+        },
+        {
+          "context": "밧줄을 봄",
+          "interpretation_ko": "오래 살고 크게 길할 조짐",
+          "interpretation_en": "a very auspicious sign of long life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "繩索主長命大吉",
+              "translation_ko": "밧줄은 목숨이 길고 크게 길할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "밧줄이 끊어짐",
+          "interpretation_ko": "흉악한 일이 생길 조짐",
+          "interpretation_en": "a sign that a grievous matter will arise",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "繩索斷者主凶惡",
+              "translation_ko": "밧줄이 끊어지면 흉악하다"
             }
           ]
         }
@@ -46874,103 +47085,6 @@
               "locator": "金銀珠玉絹帛",
               "original": "得金玉環生貴子",
               "translation_ko": "금과 옥으로 된 고리를 얻으면 귀한 자식을 낳는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "rope",
-      "term_ko": "밧줄",
-      "term_en": "rope",
-      "aliases": [
-        "동아줄",
-        "새끼줄",
-        "포승줄",
-        "로프"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "밧줄이 몸을 묶음",
-          "interpretation_ko": "오래 살고 길할 조짐",
-          "interpretation_en": "a sign of long life and good fortune",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "身體面目齒髮",
-              "original": "繩索繫身長命吉",
-              "translation_ko": "밧줄이 몸을 묶으면 오래 살고 길하다"
-            },
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "繩索繫身大吉利",
-              "translation_ko": "밧줄로 몸이 묶이면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "밧줄을 타고 오름",
-          "interpretation_ko": "자신을 해치려는 적들을 이겨낼 조짐",
-          "interpretation_en": "you will overcome enemies who are working to injure you",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ropes",
-              "original": "If you climb one, you will overcome enemies who are working to injure you.",
-              "translation_ko": "밧줄을 타고 오르는 꿈은, 자신을 해치려는 적들을 이겨낼 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "밧줄을 타고 내려감",
-          "interpretation_ko": "가장 낙관하던 순간에 실망을 맛볼 조짐",
-          "interpretation_en": "brings disappointment to your most sanguine moments",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ropes",
-              "original": "To decend{sic} a rope, brings disappointment to your most sanguine moments.",
-              "translation_ko": "밧줄을 타고 내려가는 꿈은, 가장 낙관하던 순간에 실망을 맛볼 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "밧줄을 봄",
-          "interpretation_ko": "오래 살고 크게 길할 조짐",
-          "interpretation_en": "a very auspicious sign of long life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "繩索主長命大吉",
-              "translation_ko": "밧줄은 목숨이 길고 크게 길할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "밧줄이 끊어짐",
-          "interpretation_ko": "흉악한 일이 생길 조짐",
-          "interpretation_en": "a sign that a grievous matter will arise",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "繩索斷者主凶惡",
-              "translation_ko": "밧줄이 끊어지면 흉악하다"
             }
           ]
         }

@@ -391,7 +391,8 @@
       "동아줄",
       "새끼줄",
       "포승줄",
-      "로프"
+      "로프",
+      "줄넘기"
     ],
     "aliases_en": [
       "ropes",
@@ -403,14 +404,30 @@
       "밧줄을 봄": "놓여 늘어져 걸려있 가만히",
       "밧줄이 끊어짐": "끊어 끊겼 끊긴 잘렸",
       "밧줄을 타고 오름": "올랐 이겨낼 해치려는",
-      "밧줄을 타고 내려감": "내려 실망 낙관"
+      "밧줄을 타고 내려감": "내려 실망 낙관",
+      "밧줄을 끊음": "끊었 원한 겨룸",
+      "밧줄이나 말을 묶어 둠": "말을 다스릴 원하는대로 힘을",
+      "밧줄 위를 걸음": "위를 걸으 투기 성공할",
+      "남이 밧줄 위를 걷는 것을 봄": "남이 남들의 행운 이득을",
+      "밧줄을 뛰어넘음": "뛰어넘 짜릿 파격 일탈",
+      "아이들과 줄넘기를 함": "줄넘기 이기적 업신여",
+      "발로 밧줄을 붙잡음": "발로 붙잡 인자 다정",
+      "위층 창문에서 아래 사람들에게 밧줄을 전해 줌": "위층 창문 전해줌 호텔"
     },
     "contexts_en": {
       "밧줄이 몸을 묶음": "tied bound wrapped around restrained",
       "밧줄을 봄": "lying coiled hanging",
       "밧줄이 끊어짐": "snapped broke breaking severed",
       "밧줄을 타고 오름": "climb overcome enemies injure",
-      "밧줄을 타고 내려감": "descend disappointment sanguine"
+      "밧줄을 타고 내려감": "descend disappointment sanguine",
+      "밧줄을 끊음": "ability enmity competition",
+      "밧줄이나 말을 묶어 둠": "horses control power wish",
+      "밧줄 위를 걸음": "walk hazardous speculation succeed",
+      "남이 밧줄 위를 걷는 것을 봄": "see others fortunate ventures",
+      "밧줄을 뛰어넘음": "jump startle sensational",
+      "아이들과 줄넘기를 함": "children selfish overbearing",
+      "발로 밧줄을 붙잡음": "catch foot benevolent tender",
+      "위층 창문에서 아래 사람들에게 밧줄을 전해 줌": "window hotel propriety"
     }
   },
   {

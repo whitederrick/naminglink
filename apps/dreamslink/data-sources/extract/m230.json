@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "밧줄을 끊음",
+    "interpretation_ko": "원한과 다툼을 이겨낼 능력이 있을 조짐",
+    "interpretation_en": "signifies your ability to overcome enmity and competition",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ropes",
+      "original": "To break them, signifies your ability to overcome enmity and competition.",
+      "translation_ko": "밧줄을 끊는 꿈은, 원한과 다툼을 이겨낼 능력이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "밧줄이나 말을 묶어 둠",
+    "interpretation_ko": "원하는 대로 남을 다스릴 힘을 가질 조짐",
+    "interpretation_en": "denotes that you will have power to control others as you may wish",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ropes",
+      "original": "To tie ropes, or horses, denotes that you will have power to control others as you may wish.",
+      "translation_ko": "밧줄이나 말을 묶어 두는 꿈은, 원하는 대로 남을 다스릴 힘을 가질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "남이 밧줄 위를 걷는 것을 봄",
+    "interpretation_ko": "남들의 행운이 가져온 이득을 함께 누릴 조짐",
+    "interpretation_en": "you will benefit by the fortunate ventures of others",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Ropes",
+      "original": "To see others walking a rope, you will benefit by the fortunate ventures of others.",
+      "translation_ko": "남이 밧줄 위를 걷는 것을 보는 꿈은, 남들의 행운이 가져온 이득을 함께 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "밧줄 위를 걸음",
+    "interpretation_ko": "위험한 투기에 나서지만 뜻밖에 성공할 조짐",
+    "interpretation_en": "signifies that you will engage in some hazardous speculation, but will surprisingly succeed",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ropes",
+      "original": "To walk a rope, signifies that you will engage in some hazardous speculation, but will surprisingly succeed.",
+      "translation_ko": "밧줄 위를 걷는 꿈은, 위험한 투기에 나서지만 뜻밖에 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "밧줄을 뛰어넘음",
+    "interpretation_ko": "짜릿하고 파격적인 일탈로 주변을 놀라게 할 조짐",
+    "interpretation_en": "foretells that you will startle your associates with a thrilling escapade bordering upon the sensational",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ropes",
+      "original": "To jump a rope, foretells that you will startle your associates with a thrilling escapade bordering upon the sensational.",
+      "translation_ko": "밧줄을 뛰어넘는 꿈은, 짜릿하고 파격적인 일탈로 주변을 놀라게 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "아이들과 줄넘기를 함",
+    "interpretation_ko": "이기적이고 남을 업신여겨, 아이들이 매정한 부모에게 빚진 것이 거의 없음을 못 볼 조짐",
+    "interpretation_en": "shows that you are selfish and overbearing; failing to see that children owe very little duty to inhuman parents",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Ropes",
+      "original": "To jump rope with children, shows that you are selfish and overbearing; failing to see that children owe very little duty to inhuman parents.",
+      "translation_ko": "아이들과 줄넘기를 하는 꿈은, 이기적이고 남을 업신여겨 아이들이 매정한 부모에게 빚진 것이 거의 없음을 못 볼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "발로 밧줄을 붙잡음",
+    "interpretation_ko": "즐거운 조건 아래서 인자하고 다정하게 사람들을 대할 조짐",
+    "interpretation_en": "denotes that under cheerful conditions you will be benevolent and tender in your administrations",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ropes",
+      "original": "To catch a rope with the foot, denotes that under cheerful conditions you will be benevolent and tender in your administrations.",
+      "translation_ko": "발로 밧줄을 붙잡는 꿈은, 즐거운 조건 아래서 인자하고 다정하게 사람들을 대할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밧줄",
+    "term_en": "rope",
+    "context": "위층 창문에서 아래 사람들에게 밧줄을 전해 줌",
+    "interpretation_ko": "떳떳해 보이지 않는 일에 나서지만 즐거움과 흥미를 얻을 조짐(여성에게는 정숙함과는 거리가 먼 즐거움을 뜻함)",
+    "interpretation_en": "denotes that you will engage in some affair which will not look exactly proper to your friends, but the same will afford you pleasure and interest. For a young woman, this dream is indicative of pleasures which do not bear the stamp of propriety",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ropes",
+      "original": "To dream that you let a rope down from an upper window to people below, thinking the proprietors would be adverse to receiving them into the hotel, denotes that you will engage in some affair which will not look exactly proper to your friends, but the same will afford you pleasure and interest. For a young woman, this dream is indicative of pleasures which do not bear the stamp of propriety.",
+      "translation_ko": "위층 창문에서 아래 사람들에게 밧줄을 전해 주는 꿈은, 떳떳해 보이지 않는 일에 나서지만 즐거움과 흥미를 얻을 조짐이다(여성에게는 정숙함과는 거리가 먼 즐거움을 뜻한다)"
+    }
+  }
+]
