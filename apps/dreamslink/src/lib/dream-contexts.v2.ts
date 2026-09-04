@@ -5615,5 +5615,18 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "seducer::연인이 그 제안에 충격받거나 화를 냄": "shocked angry reproach",
   "seducer::연인이 그 제안에 응함": "consents pecuniary used",
   "serenade::세레나데를 들음": "hear pleasant news",
-  "serenade::자신이 세레나데를 부르는 이들 가운데 있음": "serenaders delightful future"
+  "serenade::자신이 세레나데를 부르는 이들 가운데 있음": "serenaders delightful future",
+  "servant::하인 꿈을 꿈": "fortunate gloomy anger",
+  "servant::하인을 내보냄": "discharge regrets losses",
+  "servant::하인과 다툼": "quarrel censuring derelict",
+  "servant::하인에게 도둑맞음": "robbed ownership respect",
+  "shakers::셰이커 교단원을 봄": "sect business coldness",
+  "shakers::자신이 셰이커 교단에 속한다고 여김": "belong renounce localities",
+  "shaking-hands::여성이 저명한 통치자와 악수함": "prominent ruler strangers",
+  "shaking-hands::여성이 그 기회를 놓치지 않고 악수함": "avails opportunity favor",
+  "shaking-hands::여성이 손을 뻗어야 악수할 수 있음": "reach rivalry opposition",
+  "shaking-hands::여성이 장갑을 낀 채 악수함": "gloves overcome obstacles",
+  "shaking-hands::자신보다 낮은 이와 악수함": "beneath kindness benevolence",
+  "shaking-hands::자신이나 남의 손이 더러움을 느낌": "soiled enemies seeming",
+  "shaking-hands::여성이 노쇠한 남자와 악수함": "decrepit old trouble"
 };

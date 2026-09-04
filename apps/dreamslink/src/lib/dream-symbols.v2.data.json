@@ -160,6 +160,7 @@
     "m24.json",
     "m240.json",
     "m241.json",
+    "m242.json",
     "m25.json",
     "m26.json",
     "m27a.json",
@@ -31869,6 +31870,124 @@
       ]
     },
     {
+      "id": "shaking-hands",
+      "term_ko": "악수",
+      "term_en": "shaking hands",
+      "aliases": [
+        "악수",
+        "악수를",
+        "악수했다",
+        "악수할"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여성이 저명한 통치자와 악수함",
+          "interpretation_ko": "낯선 이들에게서 즐거움과 명예를 얻을 조짐",
+          "interpretation_en": "foretells she will be surrounded with pleasures and distinction from strangers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaking Hands",
+              "original": "For a young woman to dream that she shakes hands with some prominent ruler, foretells she will be surrounded with pleasures and distinction from strangers.",
+              "translation_ko": "여성이 저명한 통치자와 악수하는 꿈은, 낯선 이들에게서 즐거움과 명예를 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 그 기회를 놓치지 않고 악수함",
+          "interpretation_ko": "벗들 사이에서 높은 신망을 얻을 조짐",
+          "interpretation_en": "she will stand in high favor with friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaking Hands",
+              "original": "If she avails herself of the opportunity, she will stand in high favor with friends.",
+              "translation_ko": "여성이 그 기회를 놓치지 않고 악수하는 꿈은, 벗들 사이에서 높은 신망을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 손을 뻗어야 악수할 수 있음",
+          "interpretation_ko": "경쟁과 반대에 부딪힐 조짐",
+          "interpretation_en": "she will find rivalry and opposition",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaking Hands",
+              "original": "If she finds she must reach up to shake hands, she will find rivalry and opposition.",
+              "translation_ko": "여성이 손을 뻗어야 악수할 수 있는 꿈은, 경쟁과 반대에 부딪힐 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 장갑을 낀 채 악수함",
+          "interpretation_ko": "그 장애를 극복할 조짐",
+          "interpretation_en": "she will overcome these obstacles",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaking Hands",
+              "original": "If she has on gloves, she will overcome these obstacles.",
+              "translation_ko": "여성이 장갑을 낀 채 악수하는 꿈은, 그 장애를 극복할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신보다 낮은 이와 악수함",
+          "interpretation_ko": "친절과 자비로 사랑받고 존경받을 조짐",
+          "interpretation_en": "denotes you will be loved and honored for your kindness and benevolence",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaking Hands",
+              "original": "To shake hands with those beneath you, denotes you will be loved and honored for your kindness and benevolence.",
+              "translation_ko": "자신보다 낮은 이와 악수하는 꿈은, 친절과 자비로 사랑받고 존경받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신이나 남의 손이 더러움을 느낌",
+          "interpretation_ko": "겉으로는 벗인 척하는 적을 찾아낼 조짐",
+          "interpretation_en": "you will find enemies among seeming friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaking Hands",
+              "original": "If you think you or they have soiled hands, you will find enemies among seeming friends.",
+              "translation_ko": "자신이나 남의 손이 더러움을 느끼는 꿈은, 겉으로는 벗인 척하는 적을 찾아낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 노쇠한 남자와 악수함",
+          "interpretation_ko": "즐거움을 찾던 곳에서 곤란을 겪을 조짐",
+          "interpretation_en": "foretells she will find trouble where amusement was sought",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaking Hands",
+              "original": "For a young woman to dream of shaking hands with a decrepit old man, foretells she will find trouble where amusement was sought.",
+              "translation_ko": "여성이 노쇠한 남자와 악수하는 꿈은, 즐거움을 찾던 곳에서 곤란을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "weeping",
       "term_ko": "울음",
       "term_en": "weeping",
@@ -62353,6 +62472,80 @@
               "locator": "Seducer",
               "original": "If she consents, he is being used for her pecuniary pleasures.",
               "translation_ko": "연인이 그 제안에 응하는 꿈은, 그녀의 금전적 즐거움을 위해 이용당하고 있는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "servant",
+      "term_ko": "하인",
+      "term_en": "servant",
+      "aliases": [
+        "하인",
+        "머슴"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "하인 꿈을 꿈",
+          "interpretation_ko": "우울해 보이는 겉모습에도 운이 좋을 조짐. 분노가 쓸데없는 근심과 다툼을 부를 위험이 있음",
+          "interpretation_en": "is a sign that you will be fortunate, despite gloomy appearances. Anger is likely to precipitate you into useless worries and quarrels",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Servant",
+              "original": "To dream of a servant, is a sign that you will be fortunate, despite gloomy appearances. Anger is likely to precipitate you into useless worries and quarrels.",
+              "translation_ko": "하인 꿈은, 우울해 보이는 겉모습에도 운이 좋을 조짐이다. 분노가 쓸데없는 근심과 다툼을 부를 위험이 있다"
+            }
+          ]
+        },
+        {
+          "context": "하인을 내보냄",
+          "interpretation_ko": "후회와 손실의 조짐",
+          "interpretation_en": "foretells regrets and losses",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Servant",
+              "original": "To discharge one, foretells regrets and losses.",
+              "translation_ko": "하인을 내보내는 꿈은, 후회와 손실의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "하인과 다툼",
+          "interpretation_ko": "깨어나서 직무에 태만한 누군가를 나무랄 진짜 이유가 있을 조짐",
+          "interpretation_en": "indicates that you will, upon waking, have real cause for censuring some one who is derelict in duty",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Servant",
+              "original": "To quarrel with one in your dream, indicates that you will, upon waking, have real cause for censuring some one who is derelict in duty.",
+              "translation_ko": "하인과 다투는 꿈은, 깨어나서 직무에 태만한 누군가를 나무랄 진짜 이유가 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "하인에게 도둑맞음",
+          "interpretation_ko": "소유권의 법을 존중하지 않는 이가 가까이 있음을 보여주는 조짐",
+          "interpretation_en": "shows that you have some one near you, who does not respect the laws of ownership",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Servant",
+              "original": "To be robbed by one, shows that you have some one near you, who does not respect the laws of ownership.",
+              "translation_ko": "하인에게 도둑맞는 꿈은, 소유권의 법을 존중하지 않는 이가 가까이 있음을 보여주는 조짐이다"
             }
           ]
         }
@@ -104701,6 +104894,52 @@
               "locator": "Serenade",
               "original": "If you are one of the serenaders, there are many delightful things in your future.",
               "translation_ko": "자신이 세레나데를 부르는 이들 가운데 있는 꿈은, 앞날에 즐거운 일이 많을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shakers",
+      "term_ko": "셰이커 교단",
+      "term_en": "shakers",
+      "aliases": [
+        "셰이커 교단",
+        "셰이커 교단원"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "셰이커 교단원을 봄",
+          "interpretation_ko": "사업에 변화가 생기고, 연인에게 냉담해질 조짐",
+          "interpretation_en": "denotes that you will change in your business, and feel coldness growing towards your sweetheart",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shakers",
+              "original": "To dream of seeing members of the sect called Shakers in a dream, denotes that you will change in your business, and feel coldness growing towards your sweetheart.",
+              "translation_ko": "셰이커 교단원을 보는 꿈은, 사업에 변화가 생기고 연인에게 냉담해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신이 셰이커 교단에 속한다고 여김",
+          "interpretation_ko": "옛 인연을 뜻밖에 끊고, 낯선 곳에서 새 즐거움을 찾을 조짐",
+          "interpretation_en": "you will unexpectedly renounce all former ties, and seek new pleasures in distant localities",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shakers",
+              "original": "If you imagine you belong to them, you will unexpectedly renounce all former ties, and seek new pleasures in distant localities.",
+              "translation_ko": "자신이 셰이커 교단에 속한다고 여기는 꿈은, 옛 인연을 뜻밖에 끊고 낯선 곳에서 새 즐거움을 찾을 조짐이다"
             }
           ]
         }

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "servant",
+    "aliases": [
+      "하인",
+      "머슴"
+    ],
+    "aliases_en": [
+      "a servant",
+      "servants"
+    ],
+    "contexts": {
+      "하인 꿈을 꿈": "운이좋을 분노가 쓸데없는근심",
+      "하인을 내보냄": "내보냄 내보냈 후회와손실",
+      "하인과 다툼": "다투는 다퉜 태만한누군가",
+      "하인에게 도둑맞음": "도둑맞 도둑질 소유권을"
+    },
+    "contexts_en": {
+      "하인 꿈을 꿈": "fortunate gloomy anger",
+      "하인을 내보냄": "discharge regrets losses",
+      "하인과 다툼": "quarrel censuring derelict",
+      "하인에게 도둑맞음": "robbed ownership respect"
+    }
+  },
+  {
+    "id": "shakers",
+    "aliases": [
+      "셰이커 교단",
+      "셰이커 교단원"
+    ],
+    "aliases_en": [
+      "the Shakers"
+    ],
+    "contexts": {
+      "셰이커 교단원을 봄": "교단원을 사업에 냉담해질",
+      "자신이 셰이커 교단에 속한다고 여김": "속한다고 인연을 낯선"
+    },
+    "contexts_en": {
+      "셰이커 교단원을 봄": "sect business coldness",
+      "자신이 셰이커 교단에 속한다고 여김": "belong renounce localities"
+    }
+  },
+  {
+    "id": "shaking-hands",
+    "aliases": [
+      "악수",
+      "악수를",
+      "악수했다",
+      "악수할"
+    ],
+    "aliases_en": [
+      "shaking hands",
+      "shook hands"
+    ],
+    "contexts": {
+      "여성이 저명한 통치자와 악수함": "저명한 통치자와 명예를",
+      "여성이 그 기회를 놓치지 않고 악수함": "기회를 놓치지 않고 신망",
+      "여성이 손을 뻗어야 악수할 수 있음": "손을 뻗어야 경쟁과 반대",
+      "여성이 장갑을 낀 채 악수함": "장갑을 극복",
+      "자신보다 낮은 이와 악수함": "낮은 이와 친절과",
+      "자신이나 남의 손이 더러움을 느낌": "손이 더러움을",
+      "여성이 노쇠한 남자와 악수함": "노쇠한 남자와 곤란을"
+    },
+    "contexts_en": {
+      "여성이 저명한 통치자와 악수함": "prominent ruler strangers",
+      "여성이 그 기회를 놓치지 않고 악수함": "avails opportunity favor",
+      "여성이 손을 뻗어야 악수할 수 있음": "reach rivalry opposition",
+      "여성이 장갑을 낀 채 악수함": "gloves overcome obstacles",
+      "자신보다 낮은 이와 악수함": "beneath kindness benevolence",
+      "자신이나 남의 손이 더러움을 느낌": "soiled enemies seeming",
+      "여성이 노쇠한 남자와 악수함": "decrepit old trouble"
+    }
+  }
+]

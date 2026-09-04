@@ -7421,5 +7421,16 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "serenade": [
     "a serenade",
     "serenades"
+  ],
+  "servant": [
+    "a servant",
+    "servants"
+  ],
+  "shakers": [
+    "the Shakers"
+  ],
+  "shaking-hands": [
+    "shaking hands",
+    "shook hands"
   ]
 };

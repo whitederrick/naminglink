@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 241 — Secret Order·Seducer·Seed·Sentry·Serenade·Serpents)
+// (지금 담긴 것: 배치 242 — Servant·Shakers·Shaking Hands, Sewing은 needle과 같은 그림이라 건너뜀)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,24 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "secret-order", ctx: "비밀결사 꿈을 꿈", text: "비밀결사 꿈을 꾸었다" },
-  { id: "secret-order", ctx: "비밀결사에 가입함", text: "비밀결사에 가입했다" },
-  { id: "secret-order", ctx: "여성이 비밀결사 꿈을 꿈", text: "여성이 비밀결사 꿈을 꾸었다" },
-  { id: "secret-order", ctx: "여성이 비밀결사의 수장을 만남", text: "여성이 비밀결사의 수장을 만났다" },
-  { id: "secret-order", ctx: "여성이 어머니가 비밀결사에 가입했다고 여겨 맹세를 버리게 하려 애씀", text: "여성이 어머니가 비밀결사에 가입했다고 여겨 맹세를 버리게 하려 애썼다" },
-  { id: "secret-order", ctx: "비밀결사의 수장이 죽었다고 보거나 들음", text: "비밀결사의 수장이 죽었다고 들었다" },
-  { id: "seducer", ctx: "여성이 유혹당함", text: "여성이 유혹당했다" },
-  { id: "seducer", ctx: "남성이 처녀를 유혹함", text: "남성이 처녀를 유혹했다" },
-  { id: "seducer", ctx: "연인이 그 제안에 충격받거나 화를 냄", text: "유혹했는데 연인이 그 제안에 충격받았다" },
-  { id: "seducer", ctx: "연인이 그 제안에 응함", text: "유혹했는데 연인이 그 제안에 응했다" },
-  { id: "seed", ctx: "씨앗 꿈을 꿈", text: "씨앗 꿈을 꾸었다" },
-  { id: "sentry", ctx: "보초 꿈을 꿈", text: "보초 꿈을 꾸었다" },
-  { id: "serenade", ctx: "세레나데를 들음", text: "세레나데를 들었다" },
-  { id: "serenade", ctx: "자신이 세레나데를 부르는 이들 가운데 있음", text: "자신이 세레나데를 부르는 이들 가운데 있었다" },
-  { id: "snake", ctx: "뱀 꿈이 병적인 우울을 가리킴", text: "뱀 꿈을 꾸었는데 병적인 우울을 가리켰다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(snake)의 옛 답이 그대로인가
-  { id: "snake", ctx: "뱀이 문 안으로 들어옴", text: "뱀이 문 안으로 들어왔다" },
-  { id: "snake", ctx: "뱀이 사람에게 덤벼듦", text: "뱀이 사람에게 덤벼들었다" },
+  { id: "servant", ctx: "하인 꿈을 꿈", text: "하인 꿈을 꾸었다" },
+  { id: "servant", ctx: "하인을 내보냄", text: "하인을 내보냈다" },
+  { id: "servant", ctx: "하인과 다툼", text: "하인과 다퉜다" },
+  { id: "servant", ctx: "하인에게 도둑맞음", text: "하인에게 도둑맞았다" },
+  { id: "shakers", ctx: "셰이커 교단원을 봄", text: "셰이커 교단원을 보았다" },
+  { id: "shakers", ctx: "자신이 셰이커 교단에 속한다고 여김", text: "자신이 셰이커 교단에 속한다고 여겼다" },
+  { id: "shaking-hands", ctx: "여성이 저명한 통치자와 악수함", text: "여성이 저명한 통치자와 악수했다" },
+  { id: "shaking-hands", ctx: "여성이 그 기회를 놓치지 않고 악수함", text: "여성이 그 기회를 놓치지 않고 악수했다" },
+  { id: "shaking-hands", ctx: "여성이 손을 뻗어야 악수할 수 있음", text: "여성이 손을 뻗어야 악수할 수 있었다" },
+  { id: "shaking-hands", ctx: "여성이 장갑을 낀 채 악수함", text: "여성이 장갑을 낀 채 악수했다" },
+  { id: "shaking-hands", ctx: "자신보다 낮은 이와 악수함", text: "자신보다 낮은 이와 악수했다" },
+  { id: "shaking-hands", ctx: "자신이나 남의 손이 더러움을 느낌", text: "악수를 하는데 자신이나 남의 손이 더러움을 느꼈다" },
+  { id: "shaking-hands", ctx: "여성이 노쇠한 남자와 악수함", text: "여성이 노쇠한 남자와 악수했다" },
+  // 지킴 — 이번에 손대지 않은 needle 의 옛 답이 그대로인가 (Sewing을 needle과 겹친다고 판단해 건너뜀)
+  { id: "needle", ctx: "바늘을 씀", text: "바늘을 썼다" },
 ];
 
 let notFound = 0;

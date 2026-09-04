@@ -1,0 +1,25 @@
+{
+  "batch": 242,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Servant",
+      "text": "To dream of a servant, is a sign that you will be fortunate, despite gloomy appearances. Anger is likely to precipitate you into useless worries and quarrels. To discharge one, foretells regrets and losses. To quarrel with one in your dream, indicates that you will, upon waking, have real cause for censuring some one who is derelict in duty. To be robbed by one, shows that you have some one near you, who does not respect the laws of ownership.",
+      "note": "새 상징 `servant`(하인) — 네 그림"
+    },
+    {
+      "headword": "Shakers",
+      "text": "To dream of seeing members of the sect called Shakers in a dream, denotes that you will change in your business, and feel coldness growing towards your sweetheart. If you imagine you belong to them, you will unexpectedly renounce all former ties, and seek new pleasures in distant localities.",
+      "note": "새 상징 `shakers`(셰이커 교단) — 두 그림"
+    },
+    {
+      "headword": "Shaking Hands",
+      "text": "For a young woman to dream that she shakes hands with some prominent ruler, foretells she will be surrounded with pleasures and distinction from strangers. If she avails herself of the opportunity, she will stand in high favor with friends. If she finds she must reach up to shake hands, she will find rivalry and opposition. If she has on gloves, she will overcome these obstacles. To shake hands with those beneath you, denotes you will be loved and honored for your kindness and benevolence. If you think you or they have soiled hands, you will find enemies among seeming friends. For a young woman to dream of shaking hands with a decrepit old man, foretells she will find trouble where amusement was sought.",
+      "note": "새 상징 `shaking-hands`(악수) — 일곱 그림"
+    }
+  ],
+  "skipped": [
+    "Sewing — 「새 옷을 바느질하면 집안의 평화가 이루어진다」(길)가 기존 `needle`의 밀러 별개 표제어 Needle 「바늘을 씀」(근심·공감을 잃음, 흉)과 같은 그림(바늘 쓰기/바느질)·정반대 극성이라 통째로 건너뜀 — 기존 판별어가 이미 \"바느질했\"을 쥐고 있어 겹친다"
+  ],
+  "skipped_sentences": []
+}
