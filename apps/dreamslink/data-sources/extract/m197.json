@@ -1,0 +1,197 @@
+[
+  {
+    "term_ko": "세리",
+    "term_en": "publican",
+    "context": "세리 꿈을 꿈",
+    "interpretation_ko": "곤경에 처한 누군가에게 마음이 움직여 저의 이득을 덜어 그의 앞길을 도울 조짐",
+    "interpretation_en": "denotes that you will have your sympathies aroused by some one in a desperate condition, and you will diminish your own gain for his advancement",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Publican",
+      "original": "To dream of a publican, denotes that you will have your sympathies aroused by some one in a desperate condition, and you will diminish your own gain for his advancement.",
+      "translation_ko": "세리 꿈은, 곤경에 처한 누군가에게 마음이 움직여 저의 이득을 덜어 그의 앞길을 도울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "세리",
+    "term_en": "publican",
+    "context": "처녀가 세리 꿈을 꿈",
+    "interpretation_ko": "훌륭한 애인이 생기나, 못생긴 외모 탓에 공연히 그의 마음을 짓밟을 조짐",
+    "interpretation_en": "this dream brings a worthy lover; but because of his homeliness she will trample on his feelings unnecessarily",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Publican",
+      "original": "To a young woman, this dream brings a worthy lover; but because of his homeliness she will trample on his feelings unnecessarily.",
+      "translation_ko": "처녀가 이 꿈을 꾸면, 훌륭한 애인이 생기나 못생긴 외모 탓에 공연히 그의 마음을 짓밟을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "출판업자",
+    "term_en": "publisher",
+    "context": "출판업자 꿈을 꿈",
+    "interpretation_ko": "먼 길을 떠나고 문필업을 바라게 될 조짐",
+    "interpretation_en": "foretells long journeys and aspirations to the literary craft",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Publisher",
+      "original": "To dream of a publisher, foretells long journeys and aspirations to the literary craft.",
+      "translation_ko": "출판업자 꿈은, 먼 길을 떠나고 문필업을 바라게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "출판업자",
+    "term_en": "publisher",
+    "context": "여성이 남편이 출판업자인 꿈을 꿈",
+    "interpretation_ko": "남편이 아는 여러 여성을 질투하여 짜릿한 소동이 벌어질 조짐",
+    "interpretation_en": "she will be jealous of more than one woman of his acquaintance, and spicy scenes will ensue",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Publisher",
+      "original": "If a woman dreams that her husband is a publisher, she will be jealous of more than one woman of his acquaintance, and spicy scenes will ensue.",
+      "translation_ko": "여성이 남편이 출판업자인 꿈을 꾸면, 남편이 아는 여러 여성을 질투하여 짜릿한 소동이 벌어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "출판업자",
+    "term_en": "publisher",
+    "context": "출판업자가 원고를 거절함",
+    "interpretation_ko": "품었던 계획이 틀어져 실망을 겪을 조짐",
+    "interpretation_en": "denotes that you will suffer disappointment at the miscarriage of cherished designs",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Publisher",
+      "original": "For a publisher to reject your manuscript, denotes that you will suffer disappointment at the miscarriage of cherished designs.",
+      "translation_ko": "출판업자가 원고를 거절하는 꿈은, 품었던 계획이 틀어져 실망을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "출판업자",
+    "term_en": "publisher",
+    "context": "출판업자가 원고를 받아들임",
+    "interpretation_ko": "바라던 일이 온전히 이루어져 기뻐할 조짐",
+    "interpretation_en": "you will rejoice in the full fruition of your hopes",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Publisher",
+      "original": "If he accepts it, you will rejoice in the full fruition of your hopes.",
+      "translation_ko": "출판업자가 원고를 받아들이는 꿈은, 바라던 일이 온전히 이루어져 기뻐할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "출판업자",
+    "term_en": "publisher",
+    "context": "출판업자가 원고를 잃어버림",
+    "interpretation_ko": "낯선 이들에게 화를 입을 조짐",
+    "interpretation_en": "you will suffer evil at the hands of strangers",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Publisher",
+      "original": "If he loses it, you will suffer evil at the hands of strangers.",
+      "translation_ko": "출판업자가 원고를 잃어버리는 꿈은, 낯선 이들에게 화를 입을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "푸딩",
+    "term_en": "pudding",
+    "context": "푸딩을 봄",
+    "interpretation_ko": "큰 투자에도 돌아오는 것이 적을 조짐",
+    "interpretation_en": "denotes small returns from large investments, if you only see it",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Puddings",
+      "original": "To dream of puddings, denotes small returns from large investments, if you only see it.",
+      "translation_ko": "푸딩을 보기만 하는 꿈은, 큰 투자에도 돌아오는 것이 적을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "푸딩",
+    "term_en": "pudding",
+    "context": "푸딩을 먹음",
+    "interpretation_ko": "일이 실망스러울 조짐",
+    "interpretation_en": "is proof that your affairs will be disappointing",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Puddings",
+      "original": "To eat it, is proof that your affairs will be disappointing.",
+      "translation_ko": "푸딩을 먹는 꿈은, 일이 실망스러울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "푸딩",
+    "term_en": "pudding",
+    "context": "처녀가 푸딩을 만듦",
+    "interpretation_ko": "애인이 육욕적이고 세속적인 사람이라, 혼인하면 사랑도 재물도 사라질 조짐",
+    "interpretation_en": "denotes that her lover will be sensual and worldly minded, and if she marries him, she will see her love and fortune vanish",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Puddings",
+      "original": "For a young woman to cook, or otherwise prepare a pudding, denotes that her lover will be sensual and worldly minded, and if she marries him, she will see her love and fortune vanish.",
+      "translation_ko": "처녀가 푸딩을 만들거나 준비하는 꿈은, 애인이 육욕적이고 세속적인 사람이라, 혼인하면 사랑도 재물도 사라질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물웅덩이",
+    "term_en": "puddle",
+    "context": "맑은 물웅덩이를 밟음",
+    "interpretation_ko": "짜증이 나지만 앞으로 보람 있는 좋은 일도 있을 조짐",
+    "interpretation_en": "denotes a vexation, but some redeeming good in the future",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Puddle",
+      "original": "To find yourself stepping into puddles of clear water in a dream, denotes a vexation, but some redeeming good in the future.",
+      "translation_ko": "맑은 물웅덩이를 밟는 꿈은, 짜증이 나지만 앞으로 보람 있는 좋은 일도 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물웅덩이",
+    "term_en": "puddle",
+    "context": "흐린 물웅덩이를 밟음",
+    "interpretation_ko": "언짢은 일을 한동안 겪을 조짐",
+    "interpretation_en": "unpleasantness will go a few rounds with you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Puddle",
+      "original": "If the water be muddy, unpleasantness will go a few rounds with you.",
+      "translation_ko": "흐린 물웅덩이를 밟는 꿈은, 언짢은 일을 한동안 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물웅덩이",
+    "term_en": "puddle",
+    "context": "물웅덩이를 밟아 발이 젖음",
+    "interpretation_ko": "누린 즐거움이 나중에 해가 될 조짐",
+    "interpretation_en": "foretells that your pleasure will work you harm afterwards",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Puddle",
+      "original": "To wet your feet by stepping into puddles, foretells that your pleasure will work you harm afterwards.",
+      "translation_ko": "물웅덩이를 밟아 발이 젖는 꿈은, 누린 즐거움이 나중에 해가 될 조짐이다"
+    }
+  }
+]

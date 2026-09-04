@@ -1,0 +1,88 @@
+[
+  {
+    "id": "publican",
+    "aliases": [
+      "세리가",
+      "세리를"
+    ],
+    "aliases_en": [
+      "a publican"
+    ],
+    "contexts": {
+      "세리 꿈을 꿈": "곤경 이득을 덜어",
+      "처녀가 세리 꿈을 꿈": "처녀가 훌륭한 애인"
+    },
+    "contexts_en": {
+      "세리 꿈을 꿈": "sympathies desperate diminish",
+      "처녀가 세리 꿈을 꿈": "young woman worthy homeliness"
+    }
+  },
+  {
+    "id": "publisher",
+    "aliases": [
+      "출판업자가",
+      "출판업자를",
+      "출판업자와",
+      "출판업자인"
+    ],
+    "aliases_en": [
+      "a publisher"
+    ],
+    "contexts": {
+      "출판업자 꿈을 꿈": "문필업 열망",
+      "여성이 남편이 출판업자인 꿈을 꿈": "질투 소동",
+      "출판업자가 원고를 거절함": "거절 계획이 틀어져",
+      "출판업자가 원고를 받아들임": "받아들 온전히",
+      "출판업자가 원고를 잃어버림": "잃어버 낯선 이들"
+    },
+    "contexts_en": {
+      "출판업자 꿈을 꿈": "long journeys literary craft",
+      "여성이 남편이 출판업자인 꿈을 꿈": "jealous acquaintance spicy",
+      "출판업자가 원고를 거절함": "reject manuscript miscarriage",
+      "출판업자가 원고를 받아들임": "accepts fruition rejoice",
+      "출판업자가 원고를 잃어버림": "loses evil strangers"
+    }
+  },
+  {
+    "id": "pudding",
+    "aliases": [
+      "푸딩이",
+      "푸딩을"
+    ],
+    "aliases_en": [
+      "puddings"
+    ],
+    "contexts": {
+      "푸딩을 봄": "큰돈 투자",
+      "푸딩을 먹음": "먹었 실망스러울",
+      "처녀가 푸딩을 만듦": "만들 육욕적"
+    },
+    "contexts_en": {
+      "푸딩을 봄": "large investments returns",
+      "푸딩을 먹음": "eat disappointing",
+      "처녀가 푸딩을 만듦": "cook sensual worldly"
+    }
+  },
+  {
+    "id": "puddle",
+    "aliases": [
+      "물웅덩이가",
+      "물웅덩이를",
+      "물웅덩이에"
+    ],
+    "aliases_en": [
+      "a puddle",
+      "puddles"
+    ],
+    "contexts": {
+      "맑은 물웅덩이를 밟음": "맑은 짜증",
+      "흐린 물웅덩이를 밟음": "흐린 언짢은",
+      "물웅덩이를 밟아 발이 젖음": "발이 젖어"
+    },
+    "contexts_en": {
+      "맑은 물웅덩이를 밟음": "clear vexation redeeming",
+      "흐린 물웅덩이를 밟음": "muddy unpleasantness",
+      "물웅덩이를 밟아 발이 젖음": "wet feet afterwards"
+    }
+  }
+]

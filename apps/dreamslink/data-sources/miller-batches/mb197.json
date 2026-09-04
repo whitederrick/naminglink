@@ -1,0 +1,28 @@
+{
+  "batch": 197,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Publican",
+      "text": "To dream of a publican, denotes that you will have your sympathies aroused by some one in a desperate condition, and you will diminish your own gain for his advancement. To a young woman, this dream brings a worthy lover; but because of his homeliness she will trample on his feelings unnecessarily.",
+      "note": "새 상징 `publican`(세리) — 1901년 미국 관용의 성경적 의미(세금 징수인)로 옮긴다"
+    },
+    {
+      "headword": "Publisher",
+      "text": "To dream of a publisher, foretells long journeys and aspirations to the literary craft. If a woman dreams that her husband is a publisher, she will be jealous of more than one woman of his acquaintance, and spicy scenes will ensue. For a publisher to reject your manuscript, denotes that you will suffer disappointment at the miscarriage of cherished designs. If he accepts it, you will rejoice in the full fruition of your hopes. If he loses it, you will suffer evil at the hands of strangers.",
+      "note": "새 상징 `publisher`(출판업자)"
+    },
+    {
+      "headword": "Puddings",
+      "text": "To dream of puddings, denotes small returns from large investments, if you only see it. To eat it, is proof that your affairs will be disappointing. For a young woman to cook, or otherwise prepare a pudding, denotes that her lover will be sensual and worldly minded, and if she marries him, she will see her love and fortune vanish.",
+      "note": "새 상징 `pudding`(푸딩)"
+    },
+    {
+      "headword": "Puddle",
+      "text": "To find yourself stepping into puddles of clear water in a dream, denotes a vexation, but some redeeming good in the future. If the water be muddy, unpleasantness will go a few rounds with you. To wet your feet by stepping into puddles, foretells that your pleasure will work you harm afterwards.",
+      "note": "새 상징 `puddle`(물웅덩이)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

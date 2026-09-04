@@ -5205,5 +5205,18 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "procession::장례 행렬을 봄": "funeral sorrow shadow",
   "procession::횃불 행렬을 보거나 참여함": "torch-light gaieties merit",
   "promenade::산책함": "energetic profitable pursuits",
-  "promenade::남이 산책하는 것을 봄": "others rivals"
+  "promenade::남이 산책하는 것을 봄": "others rivals",
+  "publican::세리 꿈을 꿈": "sympathies desperate diminish",
+  "publican::처녀가 세리 꿈을 꿈": "young woman worthy homeliness",
+  "publisher::출판업자 꿈을 꿈": "long journeys literary craft",
+  "publisher::여성이 남편이 출판업자인 꿈을 꿈": "jealous acquaintance spicy",
+  "publisher::출판업자가 원고를 거절함": "reject manuscript miscarriage",
+  "publisher::출판업자가 원고를 받아들임": "accepts fruition rejoice",
+  "publisher::출판업자가 원고를 잃어버림": "loses evil strangers",
+  "pudding::푸딩을 봄": "large investments returns",
+  "pudding::푸딩을 먹음": "eat disappointing",
+  "pudding::처녀가 푸딩을 만듦": "cook sensual worldly",
+  "puddle::맑은 물웅덩이를 밟음": "clear vexation redeeming",
+  "puddle::흐린 물웅덩이를 밟음": "muddy unpleasantness",
+  "puddle::물웅덩이를 밟아 발이 젖음": "wet feet afterwards"
 };

@@ -6964,5 +6964,18 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "promenade": [
     "promenading"
+  ],
+  "publican": [
+    "a publican"
+  ],
+  "publisher": [
+    "a publisher"
+  ],
+  "pudding": [
+    "puddings"
+  ],
+  "puddle": [
+    "a puddle",
+    "puddles"
   ]
 };

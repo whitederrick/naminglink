@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 196 — Procession~Prostitute, 6개 헤드워드)
+// (지금 담긴 것: 배치 197 — Publican~Puddle, 4개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -826,6 +826,19 @@ const CASES: Case[] = [
   { id: "blasphemy", ctx: "신성모독 꿈을 꿈", text: "신성모독 꿈을 꾸었다" },
   { id: "wealth", ctx: "처녀가 참된 재물과 안락을 누림", text: "처녀가 참된 재물과 안락을 누렸다" },
   { id: "harlot", ctx: "몸 파는 이와 어울림", text: "몸 파는 이와 어울렸다" },
+  { id: "publican", ctx: "세리 꿈을 꿈", text: "세리 꿈을 꾸었다" },
+  { id: "publican", ctx: "처녀가 세리 꿈을 꿈", text: "처녀가 세리 꿈을 꾸었다" },
+  { id: "publisher", ctx: "출판업자 꿈을 꿈", text: "출판업자 꿈을 꾸었다" },
+  { id: "publisher", ctx: "여성이 남편이 출판업자인 꿈을 꿈", text: "여자가 남편이 출판업자인 꿈을 꾸고 다른 여자를 질투하며 소동을 벌였다" },
+  { id: "publisher", ctx: "출판업자가 원고를 거절함", text: "출판업자가 원고를 거절했다" },
+  { id: "publisher", ctx: "출판업자가 원고를 받아들임", text: "출판업자가 원고를 받아들였다" },
+  { id: "publisher", ctx: "출판업자가 원고를 잃어버림", text: "출판업자가 원고를 잃어버렸다" },
+  { id: "pudding", ctx: "푸딩을 봄", text: "푸딩을 보았다" },
+  { id: "pudding", ctx: "푸딩을 먹음", text: "푸딩을 먹었다" },
+  { id: "pudding", ctx: "처녀가 푸딩을 만듦", text: "처녀가 푸딩을 만들었다" },
+  { id: "puddle", ctx: "맑은 물웅덩이를 밟음", text: "맑은 물웅덩이를 밟았다" },
+  { id: "puddle", ctx: "흐린 물웅덩이를 밟음", text: "흐린 물웅덩이를 밟았다" },
+  { id: "puddle", ctx: "물웅덩이를 밟아 발이 젖음", text: "물웅덩이를 밟아 발이 젖었다" },
 ];
 
 let notFound = 0;
