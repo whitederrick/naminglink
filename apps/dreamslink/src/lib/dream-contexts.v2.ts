@@ -2405,6 +2405,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "blow::매를 맞는 꿈을 꿈": "blows beaten flogged lashed",
   "blow::매를 얻어맞음": "struck head skull violently",
   "blow::스스로를 방어함": "defend defending warded resisted",
+  "blow::몽둥이나 주먹으로 남을 침": "club fist quarrels recriminations",
   "boil::만성 단계에 이른 것처럼 보이는 종기가 난 꿈을 꿈": "chronic lingering persistent",
   "boil::고름과 피가 나오는 종기를 봄": "pus blood bleeding oozing",
   "boil::이마에 종기가 남": "forehead brow face",
@@ -3054,6 +3055,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "clay::여성이 찰흙 꿈을 꿈": "women misrepresentations social",
   "claret::적포도주를 마심": "drinking ennobling association",
   "claret::깨진 적포도주 병을 봄": "broken bottles persuasions",
+  "claret-cup-and-punch::펀치술을 마심": "selfish pleasures morality",
+  "claret-cup-and-punch::펀치술을 봄": "attention new acquaintances",
   "clarionet::클라리넷을 봄": "frivolity dignity indulge",
   "clarionet::클라리넷이 부서짐": "broken displeasure close",
   "clairvoyance::투시력으로 제 앞날을 봄": "future occupation designing",
@@ -5218,5 +5221,12 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pudding::처녀가 푸딩을 만듦": "cook sensual worldly",
   "puddle::맑은 물웅덩이를 밟음": "clear vexation redeeming",
   "puddle::흐린 물웅덩이를 밟음": "muddy unpleasantness",
-  "puddle::물웅덩이를 밟아 발이 젖음": "wet feet afterwards"
+  "puddle::물웅덩이를 밟아 발이 젖음": "wet feet afterwards",
+  "pulpit::설교단 꿈을 꿈": "sorrow vexation",
+  "pulpit::제가 설교단에 있음": "sickness unsatisfactory trades",
+  "pulse::제 맥박 꿈을 꿈": "affairs health debilitating",
+  "pulse::남의 맥박을 짚음": "feeling another depredations",
+  "pump::펌프를 봄": "energy faithfulness riches",
+  "pump::부서진 펌프를 봄": "broken family cares",
+  "pump::펌프질을 함": "work pleasure profitable"
 };

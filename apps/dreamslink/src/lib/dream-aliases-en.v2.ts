@@ -6977,5 +6977,14 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "puddle": [
     "a puddle",
     "puddles"
+  ],
+  "pulpit": [
+    "a pulpit"
+  ],
+  "pulse": [
+    "a pulse"
+  ],
+  "pump": [
+    "a pump"
   ]
 };

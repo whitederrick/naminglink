@@ -1,0 +1,60 @@
+[
+  {
+    "id": "pulpit",
+    "aliases": [
+      "설교단이",
+      "설교단을",
+      "설교단에"
+    ],
+    "aliases_en": [
+      "a pulpit"
+    ],
+    "contexts": {
+      "설교단 꿈을 꿈": "슬픔과 짜증",
+      "제가 설교단에 있음": "제가 병과"
+    },
+    "contexts_en": {
+      "설교단 꿈을 꿈": "sorrow vexation",
+      "제가 설교단에 있음": "sickness unsatisfactory trades"
+    }
+  },
+  {
+    "id": "pulse",
+    "aliases": [
+      "맥박이",
+      "맥박을"
+    ],
+    "aliases_en": [
+      "a pulse"
+    ],
+    "contexts": {
+      "제 맥박 꿈을 꿈": "나빠지고",
+      "남의 맥박을 짚음": "남의 짚었 넘어"
+    },
+    "contexts_en": {
+      "제 맥박 꿈을 꿈": "affairs health debilitating",
+      "남의 맥박을 짚음": "feeling another depredations"
+    }
+  },
+  {
+    "id": "pump",
+    "aliases": [
+      "펌프가",
+      "펌프를",
+      "펌프질을"
+    ],
+    "aliases_en": [
+      "a pump"
+    ],
+    "contexts": {
+      "펌프를 봄": "성실 재물",
+      "부서진 펌프를 봄": "부서진 살림 걱정",
+      "펌프질을 함": "펌프질 보람 있는"
+    },
+    "contexts_en": {
+      "펌프를 봄": "energy faithfulness riches",
+      "부서진 펌프를 봄": "broken family cares",
+      "펌프질을 함": "work pleasure profitable"
+    }
+  }
+]

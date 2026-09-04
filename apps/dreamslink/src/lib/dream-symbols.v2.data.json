@@ -110,6 +110,7 @@
     "m195.json",
     "m196.json",
     "m197.json",
+    "m198.json",
     "m2.json",
     "m20.json",
     "m21.json",
@@ -47338,6 +47339,85 @@
       ]
     },
     {
+      "id": "blow",
+      "term_ko": "타격",
+      "term_en": "blow",
+      "aliases": [
+        "구타",
+        "때림",
+        "얻어맞",
+        "몽둥이로 쳤다",
+        "주먹으로 쳤다",
+        "매를 맞는",
+        "매를 맞았다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "매를 맞는 꿈을 꿈",
+          "interpretation_ko": "자신에게 해가 될 조짐",
+          "interpretation_en": "a sign of injury to yourself",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Blows",
+              "original": "Denotes injury to yourself.",
+              "translation_ko": "자신에게 해가 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "몽둥이나 주먹으로 남을 침",
+          "interpretation_ko": "다툼과 서로 헐뜯음의 조짐",
+          "interpretation_en": "denotes quarrels and recriminations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Punch",
+              "original": "To dream that you are punching any person with a club or fist, denotes quarrels and recriminations.",
+              "translation_ko": "몽둥이나 주먹으로 남을 치는 꿈은, 다툼과 서로 헐뜯음의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "매를 얻어맞음",
+          "interpretation_ko": "뇌 질환이 위협할 조짐",
+          "interpretation_en": "a sign that brain trouble will threaten you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Blows",
+              "original": "If you receive a blow, brain trouble\nwill threaten you.",
+              "translation_ko": "매를 얻어맞으면 뇌 질환이 위협할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로를 방어함",
+          "interpretation_ko": "사업이 나아질 조짐",
+          "interpretation_en": "a sign that a rise in business will follow",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Blows",
+              "original": "If you defend yourself, a rise in business will follow.",
+              "translation_ko": "스스로를 방어하면 사업이 나아질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bonnet",
       "term_ko": "보닛(모자)",
       "term_en": "bonnet",
@@ -59949,67 +60029,6 @@
               "locator": "Blackberries",
               "original": "Eating them denotes losses.",
               "translation_ko": "블랙베리를 먹으면 손해를 뜻하는 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "blow",
-      "term_ko": "타격",
-      "term_en": "blow",
-      "aliases": [
-        "구타",
-        "때림",
-        "얻어맞"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "매를 맞는 꿈을 꿈",
-          "interpretation_ko": "자신에게 해가 될 조짐",
-          "interpretation_en": "a sign of injury to yourself",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Blows",
-              "original": "Denotes injury to yourself.",
-              "translation_ko": "자신에게 해가 될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "매를 얻어맞음",
-          "interpretation_ko": "뇌 질환이 위협할 조짐",
-          "interpretation_en": "a sign that brain trouble will threaten you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Blows",
-              "original": "If you receive a blow, brain trouble\nwill threaten you.",
-              "translation_ko": "매를 얻어맞으면 뇌 질환이 위협할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "스스로를 방어함",
-          "interpretation_ko": "사업이 나아질 조짐",
-          "interpretation_en": "a sign that a rise in business will follow",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Blows",
-              "original": "If you defend yourself, a rise in business will follow.",
-              "translation_ko": "스스로를 방어하면 사업이 나아질 조짐이다"
             }
           ]
         }
@@ -72969,6 +72988,67 @@
       ]
     },
     {
+      "id": "pump",
+      "term_ko": "펌프",
+      "term_en": "pump",
+      "aliases": [
+        "펌프가",
+        "펌프를",
+        "펌프질을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "펌프를 봄",
+          "interpretation_ko": "사업에 힘쓰고 성실하면 바라던 재물을 얻고 건강도 좋아질 조짐",
+          "interpretation_en": "denotes that energy and faithfulness to business will produce desired riches, good health also is usually betokened by this dream",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pump",
+              "original": "To see a pump in a dream, denotes that energy and faithfulness to business will produce desired riches, good health also is usually betokened by this dream.",
+              "translation_ko": "펌프를 보는 꿈은, 사업에 힘쓰고 성실하면 바라던 재물을 얻고 건강도 좋아질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 펌프를 봄",
+          "interpretation_ko": "살림 걱정에 앞길이 막히고, 기혼이든 미혼이든 힘이 꺾일 조짐",
+          "interpretation_en": "signifies that the means of advancing in life will be absorbed by family cares. To the married and the unmarried, it intimates blasted energies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pump",
+              "original": "To see a broken pump, signifies that the means of advancing in life will be absorbed by family cares. To the married and the unmarried, it intimates blasted energies.",
+              "translation_ko": "부서진 펌프를 보는 꿈은, 살림 걱정에 앞길이 막히고, 기혼이든 미혼이든 힘이 꺾일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "펌프질을 함",
+          "interpretation_ko": "삶이 즐거움과 보람 있는 일로 가득 찰 조짐",
+          "interpretation_en": "your life will be filled with pleasure and profitable undertakings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pump",
+              "original": "If you work a pump, your life will be filled with pleasure and profitable undertakings.",
+              "translation_ko": "펌프질을 하는 꿈은, 삶이 즐거움과 보람 있는 일로 가득 찰 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "queen",
       "term_ko": "왕비",
       "term_en": "queen",
@@ -81681,6 +81761,52 @@
               "locator": "Claret",
               "original": "To dream of seeing broken bottles of claret, portends you will be induced to commit immoralities by the false persuasions of deceitful persons.",
               "translation_ko": "깨진 적포도주 병을 보는 꿈은, 속이는 이들의 거짓 꾐에 넘어가 그릇된 일을 저지르게 됨을 알린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "claret-cup-and-punch",
+      "term_ko": "펀치술",
+      "term_en": "claret cup and punch",
+      "aliases": [
+        "펀치",
+        "화채술"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "펀치술을 봄",
+          "interpretation_ko": "새로 알게 된 이들이 베푸는 대접에 흡족할 조짐",
+          "interpretation_en": "you will be much pleased with the attention shown you by new acquaintances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Claret Cup and Punch",
+              "original": "To dream of claret cup or punch, foretells that you will be much pleased with the attention shown you by new acquaintances.",
+              "translation_ko": "펀치술 꿈은 새로 알게 된 이들이 베푸는 대접에 크게 흡족해하게 됨을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "펀치술을 마심",
+          "interpretation_ko": "명예와 도덕보다 이기적인 쾌락을 앞세우게 될 조짐",
+          "interpretation_en": "denotes that you will prefer selfish pleasures to honorable distinction and morality",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Punch",
+              "original": "To dream of drinking the concoction called punch, denotes that you will prefer selfish pleasures to honorable distinction and morality.",
+              "translation_ko": "펀치술이라 부르는 음료를 마시는 꿈은, 명예와 도덕보다 이기적인 쾌락을 앞세우게 될 조짐이다"
             }
           ]
         }
@@ -96971,6 +97097,99 @@
       ]
     },
     {
+      "id": "pulpit",
+      "term_ko": "설교단",
+      "term_en": "pulpit",
+      "aliases": [
+        "설교단이",
+        "설교단을",
+        "설교단에"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "설교단 꿈을 꿈",
+          "interpretation_ko": "슬픔과 짜증의 조짐",
+          "interpretation_en": "denotes sorrow and vexation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pulpit",
+              "original": "To dream of a pulpit, denotes sorrow and vexation.",
+              "translation_ko": "설교단 꿈은, 슬픔과 짜증의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제가 설교단에 있음",
+          "interpretation_ko": "병과, 어떤 성격의 사업이나 거래든 그 결과가 만족스럽지 못할 조짐",
+          "interpretation_en": "foretells sickness, and unsatisfactory results in business or trades of any character",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pulpit",
+              "original": "To dream that you are in a pulpit, foretells sickness, and unsatisfactory results in business or trades of any character.",
+              "translation_ko": "제가 설교단에 있는 꿈은, 병과, 어떤 성격의 사업이나 거래든 그 결과가 만족스럽지 못할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pulse",
+      "term_ko": "맥박",
+      "term_en": "pulse",
+      "aliases": [
+        "맥박이",
+        "맥박을"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제 맥박 꿈을 꿈",
+          "interpretation_ko": "일과 건강 모두 나빠지고 있으니 가까이 살피라는 경고",
+          "interpretation_en": "is warning to look after your affairs and health with close care, as both are taking on debilitating conditions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pulse",
+              "original": "To dream of your pulse, is warning to look after your affairs and health with close care, as both are taking on debilitating conditions.",
+              "translation_ko": "제 맥박 꿈은, 일과 건강 모두 나빠지고 있으니 가까이 살피라는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "남의 맥박을 짚음",
+          "interpretation_ko": "쾌락의 영역에서 도를 넘고 있다는 뜻",
+          "interpretation_en": "signifies that you are committing depredations in Pleasure's domain",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pulse",
+              "original": "To dream of feeling the pulse of another, signifies that you are committing depredations in Pleasure's domain.",
+              "translation_ko": "남의 맥박을 짚는 꿈은, 쾌락의 영역에서 도를 넘고 있다는 뜻이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "quarrel",
       "term_ko": "말다툼",
       "term_en": "quarrel",
@@ -101266,38 +101485,6 @@
               "locator": "哀樂病死歌唱",
               "original": "與人拍板有口舌",
               "translation_ko": "남과 박판을 치면 구설이 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "claret-cup-and-punch",
-      "term_ko": "펀치술",
-      "term_en": "claret cup and punch",
-      "aliases": [
-        "펀치",
-        "화채술"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "펀치술을 봄",
-          "interpretation_ko": "새로 알게 된 이들이 베푸는 대접에 흡족할 조짐",
-          "interpretation_en": "you will be much pleased with the attention shown you by new acquaintances",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Claret Cup and Punch",
-              "original": "To dream of claret cup or punch, foretells that you will be much pleased with the attention shown you by new acquaintances.",
-              "translation_ko": "펀치술 꿈은 새로 알게 된 이들이 베푸는 대접에 크게 흡족해하게 됨을 알린다"
             }
           ]
         }

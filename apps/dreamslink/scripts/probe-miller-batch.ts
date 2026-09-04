@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 197 — Publican~Puddle, 4개 헤드워드)
+// (지금 담긴 것: 배치 198 — Pulpit~Punch, 4개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -839,6 +839,18 @@ const CASES: Case[] = [
   { id: "puddle", ctx: "맑은 물웅덩이를 밟음", text: "맑은 물웅덩이를 밟았다" },
   { id: "puddle", ctx: "흐린 물웅덩이를 밟음", text: "흐린 물웅덩이를 밟았다" },
   { id: "puddle", ctx: "물웅덩이를 밟아 발이 젖음", text: "물웅덩이를 밟아 발이 젖었다" },
+  { id: "pulpit", ctx: "설교단 꿈을 꿈", text: "설교단 꿈을 꾸었다" },
+  { id: "pulpit", ctx: "제가 설교단에 있음", text: "제가 설교단에 있었다" },
+  { id: "pulse", ctx: "제 맥박 꿈을 꿈", text: "제 맥박 꿈을 꾸었다" },
+  { id: "pulse", ctx: "남의 맥박을 짚음", text: "남의 맥박을 짚었다" },
+  { id: "pump", ctx: "펌프를 봄", text: "펌프를 보았다" },
+  { id: "pump", ctx: "부서진 펌프를 봄", text: "부서진 펌프를 보았다" },
+  { id: "pump", ctx: "펌프질을 함", text: "펌프질을 했다" },
+  { id: "claret-cup-and-punch", ctx: "펀치술을 마심", text: "펀치술을 마시며 명예와 도덕을 저버렸다" },
+  { id: "blow", ctx: "몽둥이나 주먹으로 남을 침", text: "남을 몽둥이로 쳤다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징의 옛 답이 그대로인가
+  { id: "claret-cup-and-punch", ctx: "펀치술을 봄", text: "펀치술을 보았다" },
+  { id: "blow", ctx: "매를 맞는 꿈을 꿈", text: "매를 맞는 꿈을 꾸었다" },
 ];
 
 let notFound = 0;

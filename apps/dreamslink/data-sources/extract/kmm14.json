@@ -132,8 +132,14 @@
       "claret cup",
       "a punch"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "펀치술을 마심": "명예와 도덕",
+      "펀치술을 봄": "새로 알게"
+    },
+    "contexts_en": {
+      "펀치술을 마심": "selfish pleasures morality",
+      "펀치술을 봄": "attention new acquaintances"
+    }
   },
   {
     "id": "clarionet",

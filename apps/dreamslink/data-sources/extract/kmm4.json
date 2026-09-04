@@ -419,7 +419,11 @@
     "aliases": [
       "구타",
       "때림",
-      "얻어맞"
+      "얻어맞",
+      "몽둥이로 쳤다",
+      "주먹으로 쳤다",
+      "매를 맞는",
+      "매를 맞았다"
     ],
     "aliases_en": [
       "a beating",
@@ -429,12 +433,14 @@
     "contexts": {
       "매를 맞는 꿈을 꿈": "매를맞 맞는 두들겨",
       "매를 얻어맞음": "얻어맞 머리를 세게",
-      "스스로를 방어함": "방어 막았 피했 저항"
+      "스스로를 방어함": "방어 막았 피했 저항",
+      "몽둥이나 주먹으로 남을 침": "몽둥이 주먹으로 헐뜯"
     },
     "contexts_en": {
       "매를 맞는 꿈을 꿈": "blows beaten flogged lashed",
       "매를 얻어맞음": "struck head skull violently",
-      "스스로를 방어함": "defend defending warded resisted"
+      "스스로를 방어함": "defend defending warded resisted",
+      "몽둥이나 주먹으로 남을 침": "club fist quarrels recriminations"
     }
   },
   {

@@ -1,0 +1,28 @@
+{
+  "batch": 198,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Pulpit",
+      "text": "To dream of a pulpit, denotes sorrow and vexation. To dream that you are in a pulpit, foretells sickness, and unsatisfactory results in business or trades of any character.",
+      "note": "새 상징 `pulpit`(설교단) — 기존 clergyman의 「설교단에 선 목사를 봄」은 목사(사람)가 주인공인 다른 그림이고 별칭이 아니라 판별어라 안 겹친다"
+    },
+    {
+      "headword": "Pulse",
+      "text": "To dream of your pulse, is warning to look after your affairs and health with close care, as both are taking on debilitating conditions. To dream of feeling the pulse of another, signifies that you are committing depredations in Pleasure's domain.",
+      "note": "새 상징 `pulse`(맥박)"
+    },
+    {
+      "headword": "Pump",
+      "text": "To see a pump in a dream, denotes that energy and faithfulness to business will produce desired riches, good health also is usually betokened by this dream. To see a broken pump, signifies that the means of advancing in life will be absorbed by family cares. To the married and the unmarried, it intimates blasted energies. If you work a pump, your life will be filled with pleasure and profitable undertakings.",
+      "note": "새 상징 `pump`(펌프)"
+    },
+    {
+      "headword": "Punch",
+      "text": "To dream of drinking the concoction called punch, denotes that you will prefer selfish pleasures to honorable distinction and morality. To dream that you are punching any person with a club or fist, denotes quarrels and recriminations.",
+      "note": "둘로 나눠 붙인다 — 마시는 펀치술은 기존 `claret-cup-and-punch`(펀치, 지금까지 의미가 하나도 없었다)에, 주먹질은 기존 `blow`(구타)에. \"a punch\"가 이미 둘 다의 영어 별칭이다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}
