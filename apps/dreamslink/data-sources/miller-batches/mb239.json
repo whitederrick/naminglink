@@ -1,0 +1,62 @@
+{
+  "batch": 239,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "School",
+      "text": "To dream of attending school, indicates distinction in literary work. If you think you are young and at school as in your youth, you will find that sorrow and reverses will make you sincerely long for the simple trusts and pleasures of days of yore. To dream of teaching a school, foretells that you will strive for literary attainments, but the bare necessities of life must first be forthcoming. To visit the schoolhouse of your childhood days, portends that discontent and discouraging incidents overshadows the present.",
+      "note": "새 상징 `school`(학교, 일반) — 네 그림"
+    },
+    {
+      "headword": "School Teacher",
+      "text": "To dream of a school teacher, denotes you are likely to enjoy learning and amusements in a quiet way. If you are one, you are likely to reach desired success in literary and other works.",
+      "note": "새 상징 `school-teacher`(교사) — 두 그림"
+    },
+    {
+      "headword": "Scissors",
+      "text": "To dream of scissors is an unlucky omen; wives will be jealous and distrustful of their husbands, and sweethearts will quarrel and nag each other into crimination and recrimination. Dulness will overcast business horizons. To dream that you have your scissors sharpened, denotes that you will work to do that which will be repulsive to your feelings. To lose them, you will seek to escape from unpleasant tasks.",
+      "note": "기존 상징 `scissors`(가위)에 셋을 더한다 — 「가위가 부러짐」은 기존 주공해몽 「가위의 다리가 부러짐」(아내를 잃음)과 같은 그림이라 뺀다"
+    },
+    {
+      "headword": "Scorpion",
+      "text": "To dream of a scorpion, foretells that false friends will improve opportunities to undermine your prosperity. If you fail to kill it, you will suffer loss from an enemy's attack.",
+      "note": "새 상징 `scorpion`(독전갈) — 두 그림. 기존 `message`가 이미 bare \"전갈\"(기별)을 쥐고 있어 \"독전갈\"로 갈랐다"
+    },
+    {
+      "headword": "Scrap-book",
+      "text": "To dream of a scrap-book, denotes disagreeable acquaintances will shortly be made.",
+      "note": "새 상징 `scrap-book`(스크랩북) — 한 그림"
+    },
+    {
+      "headword": "Scratch",
+      "text": "To scratch others in your dream, denotes that you will be ill-tempered and fault-finding in your dealings with others. If you are scratched, you will be injured by the enmity of some deceitful person.",
+      "note": "새 상징 `scratch`(할큄) — 두 그림"
+    },
+    {
+      "headword": "Scratch Head",
+      "text": "To dream that you scratch your head, denotes strangers will annoy you by their flattering attentions, which you will feel are only shown to win favors from you.",
+      "note": "새 상징 `scratch-head`(머리를 긁음) — 한 그림"
+    },
+    {
+      "headword": "Screw",
+      "text": "To dream of seeing screws, denotes that tedious tasks must be performed, and peevishness in companions must be combated. It also denotes that you must be economical and painstaking.",
+      "note": "새 상징 `screw`(나사) — 한 그림"
+    },
+    {
+      "headword": "Sculptor",
+      "text": "To dream of a sculptor, foretells you will change from your present position to one less lucrative, but more distinguished. For a woman to dream that her husband or lover is a sculptor, foretells she will enjoy favors from men of high position.",
+      "note": "새 상징 `sculptor`(조각가) — 두 그림"
+    },
+    {
+      "headword": "Scum",
+      "text": "To dream of scum, signifies disappointment will be experienced by you over social defeats.",
+      "note": "새 상징 `scum`(거품 찌꺼기) — 한 그림"
+    }
+  ],
+  "skipped": [
+    "Screech-owl — 「부엉이의 날카롭고 소름 끼치는 소리를 들으면 벗의 위독한 병이나 죽음 소식에 충격받는다」가 기존 `owl`(밀러 별개 표제어 Owl)의 「부엉이의 엄숙하고 기이한 소리를 들음」(죽음·궂은 소식 경고)과 같은 그림이라 통째로 건너뜀"
+  ],
+  "skipped_sentences": [
+    "Scissors: \"To break them, there will be quarrels, and probable separations for you.\" — 기존 `scissors`의 주공해몽 「가위의 다리가 부러짐」(아내를 잃음)과 같은 그림·같은 부정적 결(관계의 상실)이라 중복으로 보고 뺀다"
+  ]
+}

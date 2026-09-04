@@ -156,6 +156,7 @@
     "m236.json",
     "m237.json",
     "m238.json",
+    "m239.json",
     "m24.json",
     "m25.json",
     "m26.json",
@@ -39481,6 +39482,106 @@
       ]
     },
     {
+      "id": "scissors",
+      "term_ko": "가위",
+      "term_en": "scissors",
+      "aliases": [],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "가위를 봄",
+          "interpretation_ko": "재물을 나눌 일이 생길 조짐",
+          "interpretation_en": "a sign of dividing property",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "剪刀主分財之事",
+              "translation_ko": "가위는 재물을 나누는 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "가위 꿈이 불길함",
+          "interpretation_ko": "아내들이 남편을 질투하고 의심하며, 연인들이 다투고 서로 헐뜯을 조짐. 사업 전망도 어두워짐",
+          "interpretation_en": "is an unlucky omen; wives will be jealous and distrustful of their husbands, and sweethearts will quarrel and nag each other into crimination and recrimination. Dulness will overcast business horizons",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scissors",
+              "original": "To dream of scissors is an unlucky omen; wives will be jealous and distrustful of their husbands, and sweethearts will quarrel and nag each other into crimination and recrimination. Dulness will overcast business horizons.",
+              "translation_ko": "가위 꿈이 불길한 것은, 아내들이 남편을 질투하고 의심하며 연인들이 다투고 서로 헐뜯을 조짐이다. 사업 전망도 어두워진다"
+            }
+          ]
+        },
+        {
+          "context": "가위를 갈게 함",
+          "interpretation_ko": "마음에 내키지 않는 일을 하게 될 조짐",
+          "interpretation_en": "denotes that you will work to do that which will be repulsive to your feelings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scissors",
+              "original": "To dream that you have your scissors sharpened, denotes that you will work to do that which will be repulsive to your feelings.",
+              "translation_ko": "가위를 갈게 하는 꿈은, 마음에 내키지 않는 일을 하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "가위를 잃어버림",
+          "interpretation_ko": "불쾌한 일에서 벗어나려 할 조짐",
+          "interpretation_en": "you will seek to escape from unpleasant tasks",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scissors",
+              "original": "To lose them, you will seek to escape from unpleasant tasks.",
+              "translation_ko": "가위를 잃어버리는 꿈은, 불쾌한 일에서 벗어나려 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "가위로 물건을 자름",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "剪刀剪物主得財",
+              "translation_ko": "가위로 물건을 자르면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "가위의 다리가 부러짐",
+          "interpretation_ko": "아내를 잃을 조짐",
+          "interpretation_en": "a sign of losing one's wife",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "剪刀折股妻妾亡",
+              "translation_ko": "가위의 다리가 부러지면 아내와 첩을 잃는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "sea",
       "term_ko": "바다",
       "term_en": "sea",
@@ -48815,7 +48916,8 @@
             }
           ]
         }
-      ]
+      ],
+      "label_ko": "학교(전문)"
     },
     {
       "id": "accounts",
@@ -61866,6 +61968,81 @@
           ]
         }
       ]
+    },
+    {
+      "id": "school",
+      "term_ko": "학교",
+      "term_en": "school",
+      "aliases": [
+        "학교",
+        "학교에"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "학교에 다님",
+          "interpretation_ko": "학문적 성과에서 두각을 나타낼 조짐",
+          "interpretation_en": "indicates distinction in literary work",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "School",
+              "original": "To dream of attending school, indicates distinction in literary work.",
+              "translation_ko": "학교에 다니는 꿈은, 학문적 성과에서 두각을 나타낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊어서 다시 학교에 다니는 듯 여김",
+          "interpretation_ko": "슬픔과 역경이 닥쳐 지난날의 순수한 믿음과 즐거움을 진심으로 그리워하게 될 조짐",
+          "interpretation_en": "you will find that sorrow and reverses will make you sincerely long for the simple trusts and pleasures of days of yore",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "School",
+              "original": "If you think you are young and at school as in your youth, you will find that sorrow and reverses will make you sincerely long for the simple trusts and pleasures of days of yore.",
+              "translation_ko": "젊어서 다시 학교에 다니는 듯 여기는 꿈은, 슬픔과 역경이 닥쳐 지난날의 순수한 믿음과 즐거움을 진심으로 그리워하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "학교에서 가르침",
+          "interpretation_ko": "학문적 성취를 이루려 애쓰나, 먼저 생계의 기본을 마련해야 할 조짐",
+          "interpretation_en": "foretells that you will strive for literary attainments, but the bare necessities of life must first be forthcoming",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "School",
+              "original": "To dream of teaching a school, foretells that you will strive for literary attainments, but the bare necessities of life must first be forthcoming.",
+              "translation_ko": "학교에서 가르치는 꿈은, 학문적 성취를 이루려 애쓰나 먼저 생계의 기본을 마련해야 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "어릴 적 다니던 학교 건물을 찾아감",
+          "interpretation_ko": "불만과 낙심스러운 일들이 지금을 그늘지게 할 조짐",
+          "interpretation_en": "portends that discontent and discouraging incidents overshadows the present",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "School",
+              "original": "To visit the schoolhouse of your childhood days, portends that discontent and discouraging incidents overshadows the present.",
+              "translation_ko": "어릴 적 다니던 학교 건물을 찾아가는 꿈은, 불만과 낙심스러운 일들이 지금을 그늘지게 할 조짐이다"
+            }
+          ]
+        }
+      ],
+      "label_ko": "학교(일반)"
     },
     {
       "id": "silk",
@@ -78020,63 +78197,6 @@
               "locator": "衣帳毯褥匙櫡",
               "original": "人與秤者主權位",
               "translation_ko": "남이 저울을 주면 권세와 지위를 얻는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "scissors",
-      "term_ko": "가위",
-      "term_en": "scissors",
-      "aliases": [],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "가위를 봄",
-          "interpretation_ko": "재물을 나눌 일이 생길 조짐",
-          "interpretation_en": "a sign of dividing property",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "剪刀主分財之事",
-              "translation_ko": "가위는 재물을 나누는 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "가위로 물건을 자름",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "剪刀剪物主得財",
-              "translation_ko": "가위로 물건을 자르면 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "가위의 다리가 부러짐",
-          "interpretation_ko": "아내를 잃을 조짐",
-          "interpretation_en": "a sign of losing one's wife",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "剪刀折股妻妾亡",
-              "translation_ko": "가위의 다리가 부러지면 아내와 첩을 잃는다"
             }
           ]
         }
@@ -103901,6 +104021,193 @@
       ]
     },
     {
+      "id": "school-teacher",
+      "term_ko": "교사",
+      "term_en": "school teacher",
+      "aliases": [
+        "교사",
+        "선생님",
+        "교사였다",
+        "교사인"
+      ],
+      "category": "person",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "교사 꿈을 꿈",
+          "interpretation_ko": "조용히 배움과 즐거움을 누릴 조짐",
+          "interpretation_en": "denotes you are likely to enjoy learning and amusements in a quiet way",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "School Teacher",
+              "original": "To dream of a school teacher, denotes you are likely to enjoy learning and amusements in a quiet way.",
+              "translation_ko": "교사 꿈은, 조용히 배움과 즐거움을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신이 교사임",
+          "interpretation_ko": "학문과 다른 일에서 바라던 성공을 이룰 조짐",
+          "interpretation_en": "you are likely to reach desired success in literary and other works",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "School Teacher",
+              "original": "If you are one, you are likely to reach desired success in literary and other works.",
+              "translation_ko": "자신이 교사인 꿈은, 학문과 다른 일에서 바라던 성공을 이룰 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scorpion",
+      "term_ko": "독전갈",
+      "term_en": "scorpion",
+      "aliases": [
+        "독전갈"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "독전갈 꿈을 꿈",
+          "interpretation_ko": "거짓된 벗들이 기회를 노려 번영을 무너뜨리려 들 조짐",
+          "interpretation_en": "foretells that false friends will improve opportunities to undermine your prosperity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scorpion",
+              "original": "To dream of a scorpion, foretells that false friends will improve opportunities to undermine your prosperity.",
+              "translation_ko": "독전갈 꿈은, 거짓된 벗들이 기회를 노려 번영을 무너뜨리려 들 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "독전갈을 죽이지 못함",
+          "interpretation_ko": "적의 공격으로 손실을 입을 조짐",
+          "interpretation_en": "you will suffer loss from an enemy's attack",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scorpion",
+              "original": "If you fail to kill it, you will suffer loss from an enemy's attack.",
+              "translation_ko": "독전갈을 죽이지 못하는 꿈은, 적의 공격으로 손실을 입을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scratch",
+      "term_ko": "할큄",
+      "term_en": "scratch",
+      "aliases": [
+        "할큄",
+        "할퀴는",
+        "할퀴었다"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남을 할큄",
+          "interpretation_ko": "성마르고 남을 흠잡기 좋아하게 될 조짐",
+          "interpretation_en": "denotes that you will be ill-tempered and fault-finding in your dealings with others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scratch",
+              "original": "To scratch others in your dream, denotes that you will be ill-tempered and fault-finding in your dealings with others.",
+              "translation_ko": "남을 할퀴는 꿈은, 성마르고 남을 흠잡기 좋아하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신이 할큄을 당함",
+          "interpretation_ko": "속임수를 쓰는 이의 적의에 다칠 조짐",
+          "interpretation_en": "you will be injured by the enmity of some deceitful person",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scratch",
+              "original": "If you are scratched, you will be injured by the enmity of some deceitful person.",
+              "translation_ko": "자신이 할큄을 당하는 꿈은, 속임수를 쓰는 이의 적의에 다칠 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sculptor",
+      "term_ko": "조각가",
+      "term_en": "sculptor",
+      "aliases": [
+        "조각가",
+        "조각가임을",
+        "조각가라고"
+      ],
+      "category": "person",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "조각가 꿈을 꿈",
+          "interpretation_ko": "지금 자리보다 벌이는 적지만 더 명망 있는 자리로 옮길 조짐",
+          "interpretation_en": "foretells you will change from your present position to one less lucrative, but more distinguished",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sculptor",
+              "original": "To dream of a sculptor, foretells you will change from your present position to one less lucrative, but more distinguished.",
+              "translation_ko": "조각가 꿈은, 지금 자리보다 벌이는 적지만 더 명망 있는 자리로 옮길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 남편이나 연인이 조각가임을 꿈꿈",
+          "interpretation_ko": "지위 높은 이들에게 호의를 누릴 조짐",
+          "interpretation_en": "foretells she will enjoy favors from men of high position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sculptor",
+              "original": "For a woman to dream that her husband or lover is a sculptor, foretells she will enjoy favors from men of high position.",
+              "translation_ko": "여성이 남편이나 연인이 조각가임을 꿈꾸는 꿈은, 지위 높은 이들에게 호의를 누릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "seal",
       "term_ko": "도장",
       "term_en": "seal",
@@ -116629,6 +116936,100 @@
       ]
     },
     {
+      "id": "scrap-book",
+      "term_ko": "스크랩북",
+      "term_en": "scrap-book",
+      "aliases": [
+        "스크랩북"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스크랩북 꿈을 꿈",
+          "interpretation_ko": "머잖아 달갑잖은 지인을 사귀게 될 조짐",
+          "interpretation_en": "denotes disagreeable acquaintances will shortly be made",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scrap-book",
+              "original": "To dream of a scrap-book, denotes disagreeable acquaintances will shortly be made.",
+              "translation_ko": "스크랩북 꿈은, 머잖아 달갑잖은 지인을 사귀게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scratch-head",
+      "term_ko": "머리를 긁음",
+      "term_en": "scratch head",
+      "aliases": [
+        "머리를 긁음",
+        "머리를 긁었다"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "머리를 긁음",
+          "interpretation_ko": "낯선 이들이 호의를 얻으려 아첨하며 성가시게 할 조짐",
+          "interpretation_en": "denotes strangers will annoy you by their flattering attentions, which you will feel are only shown to win favors from you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scratch Head",
+              "original": "To dream that you scratch your head, denotes strangers will annoy you by their flattering attentions, which you will feel are only shown to win favors from you.",
+              "translation_ko": "머리를 긁는 꿈은, 낯선 이들이 호의를 얻으려 아첨하며 성가시게 할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "screw",
+      "term_ko": "나사",
+      "term_en": "screw",
+      "aliases": [
+        "나사"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "나사를 봄",
+          "interpretation_ko": "지루한 일을 해내야 하고 동료의 짜증을 견뎌야 하며, 검소하고 애써야 할 조짐",
+          "interpretation_en": "denotes that tedious tasks must be performed, and peevishness in companions must be combated. It also denotes that you must be economical and painstaking",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Screw",
+              "original": "To dream of seeing screws, denotes that tedious tasks must be performed, and peevishness in companions must be combated. It also denotes that you must be economical and painstaking.",
+              "translation_ko": "나사를 보는 꿈은, 지루한 일을 해내야 하고 동료의 짜증을 견뎌야 하며 검소하고 애써야 할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "scripture",
       "term_ko": "경전",
       "term_en": "scripture",
@@ -116655,6 +117056,38 @@
               "locator": "宮室屋宇倉庫",
               "original": "寺舍有經病人痊",
               "translation_ko": "절에 경전이 있으면 병자가 낫는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scum",
+      "term_ko": "거품 찌꺼기",
+      "term_en": "scum",
+      "aliases": [
+        "거품 찌꺼기",
+        "찌꺼기"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "거품 찌꺼기 꿈을 꿈",
+          "interpretation_ko": "사교적 패배로 실망을 겪을 조짐",
+          "interpretation_en": "signifies disappointment will be experienced by you over social defeats",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scum",
+              "original": "To dream of scum, signifies disappointment will be experienced by you over social defeats.",
+              "translation_ko": "거품 찌꺼기 꿈은, 사교적 패배로 실망을 겪을 조짐이다"
             }
           ]
         }

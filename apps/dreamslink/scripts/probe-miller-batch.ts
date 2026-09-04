@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 238 — Scaffold 나머지·Scaldhead·Scales·Scandal·Scarcity·Scarlet Fever·Sceptre)
+// (지금 담긴 것: 배치 239 — School·School Teacher·Scissors·Scorpion·Scrap-book·Scratch·Scratch Head·Screw·Sculptor·Scum)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +30,29 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "gallows", ctx: "처형대에서 떨어짐", text: "처형대에서 떨어졌다" },
-  { id: "scaldhead", ctx: "남이 두피 딱지병에 걸린 것을 봄", text: "남이 두피 딱지병에 걸린 것을 보았다" },
-  { id: "scaldhead", ctx: "자신의 머리가 두피 딱지병에 걸림", text: "자신의 머리가 두피 딱지병에 걸렸다" },
-  { id: "scales", ctx: "저울에 닮", text: "저울에 달았다" },
-  { id: "scales", ctx: "여성이 연인을 저울에 닮", text: "여성이 연인을 저울에 달았다" },
-  { id: "scandal", ctx: "자신이 추문의 대상이 됨", text: "자신이 추문의 대상이 되었다" },
-  { id: "scandal", ctx: "여성이 추문을 이야기함", text: "여성이 추문을 이야기했다" },
-  { id: "scarcity", ctx: "궁핍 꿈을 꿈", text: "궁핍 꿈을 꾸었다" },
-  { id: "scarlet-fever", ctx: "성홍열 꿈을 꿈", text: "성홍열 꿈을 꾸었다" },
-  { id: "scarlet-fever", ctx: "친척이 성홍열로 급사함", text: "친척이 성홍열로 급사했다" },
-  { id: "sceptre", ctx: "왕홀을 휘두름", text: "왕홀을 휘둘렀다" },
-  { id: "sceptre", ctx: "남이 자신에게 왕홀을 휘두름", text: "남이 자신에게 왕홀을 휘둘렀다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(gallows·scales)의 옛 답이 그대로인가
-  { id: "gallows", ctx: "처형대 꿈을 꿈", text: "처형대 꿈을 꾸었다" },
-  { id: "scales", ctx: "남이 저울을 건네줌", text: "남이 저울을 건네주었다" },
+  { id: "school", ctx: "학교에 다님", text: "학교에 다녔다" },
+  { id: "school", ctx: "젊어서 다시 학교에 다니는 듯 여김", text: "젊어서 다시 학교에 다니는 듯 여겼다" },
+  { id: "school", ctx: "학교에서 가르침", text: "학교에서 가르쳤다" },
+  { id: "school", ctx: "어릴 적 다니던 학교 건물을 찾아감", text: "어릴 적 다니던 학교 건물을 찾아갔다" },
+  { id: "school-teacher", ctx: "교사 꿈을 꿈", text: "교사 꿈을 꾸었다" },
+  { id: "school-teacher", ctx: "자신이 교사임", text: "자신이 교사였다" },
+  { id: "scissors", ctx: "가위 꿈이 불길함", text: "가위 꿈을 꾸어 불길했다" },
+  { id: "scissors", ctx: "가위를 갈게 함", text: "가위를 갈게 했다" },
+  { id: "scissors", ctx: "가위를 잃어버림", text: "가위를 잃어버렸다" },
+  { id: "scorpion", ctx: "독전갈 꿈을 꿈", text: "독전갈 꿈을 꾸었다" },
+  { id: "scorpion", ctx: "독전갈을 죽이지 못함", text: "독전갈을 죽이지 못했다" },
+  { id: "scrap-book", ctx: "스크랩북 꿈을 꿈", text: "스크랩북 꿈을 꾸었다" },
+  { id: "scratch", ctx: "남을 할큄", text: "남을 할퀴었다" },
+  { id: "scratch", ctx: "자신이 할큄을 당함", text: "자신이 할큄을 당했다" },
+  { id: "scratch-head", ctx: "머리를 긁음", text: "머리를 긁었다" },
+  { id: "screw", ctx: "나사를 봄", text: "나사를 보았다" },
+  { id: "sculptor", ctx: "조각가 꿈을 꿈", text: "조각가 꿈을 꾸었다" },
+  { id: "sculptor", ctx: "여성이 남편이나 연인이 조각가임을 꿈꿈", text: "여성이 남편이 조각가임을 꿈꾸었다" },
+  { id: "scum", ctx: "거품 찌꺼기 꿈을 꿈", text: "거품 찌꺼기 꿈을 꾸었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(scissors)의 옛 답이 그대로인가
+  { id: "scissors", ctx: "가위를 봄", text: "가위를 보았다" },
+  { id: "scissors", ctx: "가위로 물건을 자름", text: "가위로 물건을 잘랐다" },
+  { id: "scissors", ctx: "가위의 다리가 부러짐", text: "가위의 다리가 부러졌다" },
 ];
 
 let notFound = 0;

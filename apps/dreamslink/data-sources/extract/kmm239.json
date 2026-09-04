@@ -1,0 +1,153 @@
+[
+  {
+    "id": "school",
+    "aliases": [
+      "학교",
+      "학교에"
+    ],
+    "aliases_en": [
+      "school",
+      "attending school"
+    ],
+    "contexts": {
+      "학교에 다님": "다니는 다녔 두각을",
+      "젊어서 다시 학교에 다니는 듯 여김": "젊어서 다시 지난날의 그리워",
+      "학교에서 가르침": "가르치는 가르쳤 생계의",
+      "어릴 적 다니던 학교 건물을 찾아감": "어릴적 건물을 낙심스러운"
+    },
+    "contexts_en": {
+      "학교에 다님": "distinction literary work",
+      "젊어서 다시 학교에 다니는 듯 여김": "young sorrow reverses yore",
+      "학교에서 가르침": "teaching attainments necessities",
+      "어릴 적 다니던 학교 건물을 찾아감": "visit schoolhouse discontent"
+    }
+  },
+  {
+    "id": "school-teacher",
+    "aliases": [
+      "교사",
+      "선생님",
+      "교사였다",
+      "교사인"
+    ],
+    "aliases_en": [
+      "a school teacher",
+      "school teachers"
+    ],
+    "contexts": {
+      "교사 꿈을 꿈": "배움과 즐거움을 조용히",
+      "자신이 교사임": "자신이 학문과 바라던성공"
+    },
+    "contexts_en": {
+      "교사 꿈을 꿈": "enjoy learning amusements",
+      "자신이 교사임": "yourself desired success"
+    }
+  },
+  {
+    "id": "scorpion",
+    "aliases": [
+      "독전갈"
+    ],
+    "aliases_en": [
+      "a scorpion",
+      "scorpions"
+    ],
+    "contexts": {
+      "독전갈 꿈을 꿈": "거짓된벗들 번영을무너뜨",
+      "독전갈을 죽이지 못함": "죽이지 못했 적의공격"
+    },
+    "contexts_en": {
+      "독전갈 꿈을 꿈": "false friends prosperity",
+      "독전갈을 죽이지 못함": "fail kill enemy"
+    }
+  },
+  {
+    "id": "scrap-book",
+    "aliases": [
+      "스크랩북"
+    ],
+    "aliases_en": [
+      "a scrap-book",
+      "scrapbook"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "scratch",
+    "aliases": [
+      "할큄",
+      "할퀴는",
+      "할퀴었다"
+    ],
+    "aliases_en": [
+      "scratch",
+      "scratched"
+    ],
+    "contexts": {
+      "남을 할큄": "남을 할퀴는 성마르고",
+      "자신이 할큄을 당함": "당함 당했 속임수를"
+    },
+    "contexts_en": {
+      "남을 할큄": "others ill-tempered fault-finding",
+      "자신이 할큄을 당함": "injured enmity deceitful"
+    }
+  },
+  {
+    "id": "scratch-head",
+    "aliases": [
+      "머리를 긁음",
+      "머리를 긁었다"
+    ],
+    "aliases_en": [
+      "scratch your head",
+      "scratches head"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "screw",
+    "aliases": [
+      "나사"
+    ],
+    "aliases_en": [
+      "a screw",
+      "screws"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "sculptor",
+    "aliases": [
+      "조각가",
+      "조각가임을",
+      "조각가라고"
+    ],
+    "aliases_en": [
+      "a sculptor",
+      "sculptors"
+    ],
+    "contexts": {
+      "조각가 꿈을 꿈": "지금자리보다 명망있는",
+      "여성이 남편이나 연인이 조각가임을 꿈꿈": "여성이 지위높은 호의를"
+    },
+    "contexts_en": {
+      "조각가 꿈을 꿈": "less lucrative distinguished",
+      "여성이 남편이나 연인이 조각가임을 꿈꿈": "husband lover favors position"
+    }
+  },
+  {
+    "id": "scum",
+    "aliases": [
+      "거품 찌꺼기",
+      "찌꺼기"
+    ],
+    "aliases_en": [
+      "scum"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

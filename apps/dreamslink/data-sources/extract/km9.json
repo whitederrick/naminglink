@@ -562,12 +562,18 @@
     "contexts": {
       "가위를 봄": "놓여 보였 발견",
       "가위로 물건을 자름": "잘랐 자르 오렸 베었 재단",
-      "가위의 다리가 부러짐": "부러 부러졌 부서 망가"
+      "가위의 다리가 부러짐": "부러 부러졌 부서 망가",
+      "가위 꿈이 불길함": "불길했 아내들이 헐뜯을",
+      "가위를 갈게 함": "갈게 갈았 내키지않는",
+      "가위를 잃어버림": "잃어버 불쾌한일 벗어나려"
     },
     "contexts_en": {
       "가위를 봄": "lying noticed spotted",
       "가위로 물건을 자름": "cut cutting snipped trimmed",
-      "가위의 다리가 부러짐": "broke broken snapped blade"
+      "가위의 다리가 부러짐": "broke broken snapped blade",
+      "가위 꿈이 불길함": "unlucky wives jealous",
+      "가위를 갈게 함": "sharpened repulsive feelings",
+      "가위를 잃어버림": "lose escape unpleasant"
     }
   },
   {

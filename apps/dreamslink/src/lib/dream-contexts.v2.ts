@@ -2017,6 +2017,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "scissors::가위를 봄": "lying noticed spotted",
   "scissors::가위로 물건을 자름": "cut cutting snipped trimmed",
   "scissors::가위의 다리가 부러짐": "broke broken snapped blade",
+  "scissors::가위 꿈이 불길함": "unlucky wives jealous",
+  "scissors::가위를 갈게 함": "sharpened repulsive feelings",
+  "scissors::가위를 잃어버림": "lose escape unpleasant",
   "urine::오줌이 몸을 더럽힘": "soiled stained wet dirty splashed",
   "urine::소변을 잃어버림": "lost losing incontinence hold",
   "cart-wheel::수레바퀴가 부서짐": "broke shattered smashed",
@@ -5576,5 +5579,17 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "scarlet-fever::성홍열 꿈을 꿈": "danger sickness enemy",
   "scarlet-fever::친척이 성홍열로 급사함": "relative dies treachery",
   "sceptre::왕홀을 휘두름": "chosen friends trust",
-  "sceptre::남이 자신에게 왕홀을 휘두름": "others supervision employment"
+  "sceptre::남이 자신에게 왕홀을 휘두름": "others supervision employment",
+  "school::학교에 다님": "distinction literary work",
+  "school::젊어서 다시 학교에 다니는 듯 여김": "young sorrow reverses yore",
+  "school::학교에서 가르침": "teaching attainments necessities",
+  "school::어릴 적 다니던 학교 건물을 찾아감": "visit schoolhouse discontent",
+  "school-teacher::교사 꿈을 꿈": "enjoy learning amusements",
+  "school-teacher::자신이 교사임": "yourself desired success",
+  "scorpion::독전갈 꿈을 꿈": "false friends prosperity",
+  "scorpion::독전갈을 죽이지 못함": "fail kill enemy",
+  "scratch::남을 할큄": "others ill-tempered fault-finding",
+  "scratch::자신이 할큄을 당함": "injured enmity deceitful",
+  "sculptor::조각가 꿈을 꿈": "less lucrative distinguished",
+  "sculptor::여성이 남편이나 연인이 조각가임을 꿈꿈": "husband lover favors position"
 };

@@ -7347,5 +7347,40 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "sceptre": [
     "a sceptre",
     "the sceptre"
+  ],
+  "school": [
+    "school",
+    "attending school"
+  ],
+  "school-teacher": [
+    "a school teacher",
+    "school teachers"
+  ],
+  "scorpion": [
+    "a scorpion",
+    "scorpions"
+  ],
+  "scrap-book": [
+    "a scrap-book",
+    "scrapbook"
+  ],
+  "scratch": [
+    "scratch",
+    "scratched"
+  ],
+  "scratch-head": [
+    "scratch your head",
+    "scratches head"
+  ],
+  "screw": [
+    "a screw",
+    "screws"
+  ],
+  "sculptor": [
+    "a sculptor",
+    "sculptors"
+  ],
+  "scum": [
+    "scum"
   ]
 };
