@@ -1,0 +1,26 @@
+{
+  "batch": 213,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Reading",
+      "text": "To be engaged in reading in your dreams, denotes that you will excel in some work, which appears difficult. To see others reading, denotes that your friends will be kind, and are well disposed. To give a reading, or to discuss reading, you will cultivate your literary ability. Indistinct, or incoherent reading, implies worries and disappointments.",
+      "note": "새 상징 `person-reading-a-book`(책 읽는 사람)에 세 그림을 더한다. 「남이 책 읽는 것을 봄」은 이미 있는 주공해몽 두 문맥(「책 읽는 사람을 봄」·「남이 책 읽는 것을 봄」)과 같은 그림(일반적인 목격)이라 건너뛴다"
+    },
+    {
+      "headword": "Reapers",
+      "text": "To dream of seeing reapers busy at work at their task, denotes prosperity and contentment. If they appear to be going through dried stubble, there will be a lack of good crops, and business will consequently fall off. To see idle ones, denotes that some discouraging event will come in the midst of prosperity. To see a broken reaping machine, signifies loss of employment, or disappointment in trades.",
+      "note": "새 상징 `reapers`(추수꾼). 각주가 「See Mowing」을 가리키나 이 사전에 `mowing`이 아직 없어 독립 상징으로 세운다"
+    },
+    {
+      "headword": "Reception",
+      "text": "To dream of attending a reception, denotes that you will have pleasant engagements. Confusion at a reception will work you disquietude.",
+      "note": "각주(See Entertainment)를 따라 기존 상징 `entertainment`(연회)에 합친다. 첫 문장(참석함, 길함)은 이미 있는 「즐거움을 위해 파티에 참석함」(밀러 Party)과 같은 그림·같은 결과라 건너뛴다 — 실제로 판별어를 짜 보니 두 낱말 다 「참석」을 중심으로 겹쳐 갈릴 수 없었다. 「혼란이 있음」(흉)만 새 그림이라 더한다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    "To see others reading, denotes that your friends will be kind, and are well disposed. — 기존 person-reading-a-book의 두 주공해몽 문맥과 같은 그림(일반적인 목격), 이미 둘이라 셋째를 가를 수 없다",
+    "To dream of attending a reception, denotes that you will have pleasant engagements. — 기존 entertainment의 「즐거움을 위해 파티에 참석함」(밀러 Party)과 같은 그림·같은 결과, 판별어로 못 가른다"
+  ]
+}

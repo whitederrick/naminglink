@@ -19,7 +19,9 @@
       "파티",
       "연회장",
       "연회에",
-      "연회를"
+      "연회를",
+      "환영회",
+      "환영회에서"
     ],
     "aliases_en": [
       "an entertainment",
@@ -28,12 +30,14 @@
     "contexts": {
       "풍악과 춤이 있는 연회에 감": "풍악 음악 춤이 노래가",
       "젊은이가 연회를 봄": "젊은이 나이에",
-      "즐거움을 위해 파티에 참석함": "즐거움을 위해 참석"
+      "즐거움을 위해 파티에 참석함": "즐거움을 위해 참석",
+      "환영회에서 혼란이 있음": "혼란 혼란이"
     },
     "contexts_en": {
       "풍악과 춤이 있는 연회에 감": "music dancing tidings absent",
       "젊은이가 연회를 봄": "young varied pleasures regard",
-      "즐거움을 위해 파티에 참석함": "attending kind much good"
+      "즐거움을 위해 파티에 참석함": "attending kind much good",
+      "환영회에서 혼란이 있음": "confusion disquietude"
     }
   },
   {

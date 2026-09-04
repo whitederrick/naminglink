@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 212 — Rattan Cane~Razor, 4개 헤드워드)
+// (지금 담긴 것: 배치 213 — Reading~Reception, 3개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,18 +30,18 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "rattan-cane", ctx: "등나무 지팡이 꿈을 꿈", text: "등나무 지팡이 꿈을 꾸었다" },
-  { id: "rattle", ctx: "아기가 딸랑이를 갖고 놂", text: "아기가 딸랑이를 갖고 놀았다" },
-  { id: "rattle", ctx: "처녀에게 아기가 딸랑이를 갖고 노는 꿈이 나타남", text: "처녀에게 아기가 딸랑이를 갖고 노는 꿈이 나타났다" },
-  { id: "rattle", ctx: "아기에게 딸랑이를 줌", text: "아기에게 딸랑이를 주었다" },
-  { id: "crow", ctx: "처녀에게 까마귀 꿈이 나타나 정인이 배신함", text: "처녀에게 까마귀 꿈이 나타나더니 정인이 배신했다" },
-  { id: "razor", ctx: "면도칼 꿈을 꿈", text: "면도칼 꿈을 꾸었다" },
-  { id: "razor", ctx: "면도칼에 몸을 벰", text: "면도칼에 몸을 베었다" },
-  { id: "razor", ctx: "면도칼로 싸움", text: "면도칼로 싸웠다" },
-  { id: "razor", ctx: "부러지거나 녹슨 면도칼을 봄", text: "녹슨 면도칼을 보았다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(crow)의 옛 답이 그대로인가
-  { id: "crow", ctx: "까마귀를 봄", text: "까마귀를 보았다" },
-  { id: "crow", ctx: "젊은 남성에게 까마귀 꿈이 나타남", text: "젊은 남자에게 까마귀 꿈이 나타났다" },
+  { id: "person-reading-a-book", ctx: "제가 책 읽기에 몰두함", text: "제가 책 읽기에 몰두했다" },
+  { id: "person-reading-a-book", ctx: "책을 읽어 주거나 책 이야기를 나눔", text: "책을 읽어 주거나 책 이야기를 나누었다" },
+  { id: "person-reading-a-book", ctx: "책 내용이 흐릿하거나 앞뒤가 안 맞음", text: "책을 읽는데 내용이 흐릿하고 앞뒤가 안 맞았다" },
+  { id: "reapers", ctx: "추수꾼이 바삐 일하는 것을 봄", text: "추수꾼이 바삐 일하는 것을 보았다" },
+  { id: "reapers", ctx: "추수꾼이 마른 그루터기 사이를 지나감", text: "추수꾼이 마른 그루터기 사이를 지나갔다" },
+  { id: "reapers", ctx: "추수꾼들이 게으름을 피우는 것을 봄", text: "추수꾼들이 게으름을 피우는 것을 보았다" },
+  { id: "reapers", ctx: "부서진 수확기를 봄", text: "부서진 수확기를 보았다" },
+  { id: "entertainment", ctx: "환영회에서 혼란이 있음", text: "환영회에서 혼란이 있었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징들의 옛 답이 그대로인가
+  { id: "person-reading-a-book", ctx: "책 읽는 사람을 봄", text: "책 읽는 사람을 보았다" },
+  { id: "person-reading-a-book", ctx: "남이 책 읽는 것을 봄", text: "남이 책 읽는 것을 보았다" },
+  { id: "entertainment", ctx: "즐거움을 위해 파티에 참석함", text: "즐거움을 위해 파티에 참석했다" },
 ];
 
 let notFound = 0;

@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "책 읽는 사람",
+    "term_en": "person reading a book",
+    "context": "제가 책 읽기에 몰두함",
+    "interpretation_ko": "어려워 보이는 일에서 뛰어날 조짐",
+    "interpretation_en": "denotes that you will excel in some work, which appears difficult",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Reading",
+      "original": "To be engaged in reading in your dreams, denotes that you will excel in some work, which appears difficult.",
+      "translation_ko": "제가 책 읽기에 몰두하는 꿈은, 어려워 보이는 일에서 뛰어날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "책 읽는 사람",
+    "term_en": "person reading a book",
+    "context": "책을 읽어 주거나 책 이야기를 나눔",
+    "interpretation_ko": "문학적 재능을 기를 조짐",
+    "interpretation_en": "you will cultivate your literary ability",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Reading",
+      "original": "To give a reading, or to discuss reading, you will cultivate your literary ability.",
+      "translation_ko": "책을 읽어 주거나 책 이야기를 나누는 꿈은, 문학적 재능을 기를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "책 읽는 사람",
+    "term_en": "person reading a book",
+    "context": "책 내용이 흐릿하거나 앞뒤가 안 맞음",
+    "interpretation_ko": "근심과 실망을 겪을 조짐",
+    "interpretation_en": "implies worries and disappointments",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Reading",
+      "original": "Indistinct, or incoherent reading, implies worries and disappointments.",
+      "translation_ko": "책 내용이 흐릿하거나 앞뒤가 안 맞는 꿈은, 근심과 실망을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "추수꾼",
+    "term_en": "reapers",
+    "context": "추수꾼이 바삐 일하는 것을 봄",
+    "interpretation_ko": "번영과 만족을 누릴 조짐",
+    "interpretation_en": "denotes prosperity and contentment",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Reapers",
+      "original": "To dream of seeing reapers busy at work at their task, denotes prosperity and contentment.",
+      "translation_ko": "추수꾼이 바삐 일하는 것을 보는 꿈은, 번영과 만족을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "추수꾼",
+    "term_en": "reapers",
+    "context": "추수꾼이 마른 그루터기 사이를 지나감",
+    "interpretation_ko": "흉작이 들어 사업이 부진할 조짐",
+    "interpretation_en": "there will be a lack of good crops, and business will consequently fall off",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Reapers",
+      "original": "If they appear to be going through dried stubble, there will be a lack of good crops, and business will consequently fall off.",
+      "translation_ko": "추수꾼이 마른 그루터기 사이를 지나가는 꿈은, 흉작이 들어 사업이 부진할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "추수꾼",
+    "term_en": "reapers",
+    "context": "추수꾼들이 게으름을 피우는 것을 봄",
+    "interpretation_ko": "번영 중에 낙담할 일이 생길 조짐",
+    "interpretation_en": "denotes that some discouraging event will come in the midst of prosperity",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Reapers",
+      "original": "To see idle ones, denotes that some discouraging event will come in the midst of prosperity.",
+      "translation_ko": "추수꾼들이 게으름을 피우는 것을 보는 꿈은, 번영 중에 낙담할 일이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "추수꾼",
+    "term_en": "reapers",
+    "context": "부서진 수확기를 봄",
+    "interpretation_ko": "일자리를 잃거나 사업에서 실망할 조짐",
+    "interpretation_en": "signifies loss of employment, or disappointment in trades",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Reapers",
+      "original": "To see a broken reaping machine, signifies loss of employment, or disappointment in trades.",
+      "translation_ko": "부서진 수확기를 보는 꿈은, 일자리를 잃거나 사업에서 실망할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연회",
+    "term_en": "entertainment",
+    "context": "환영회에서 혼란이 있음",
+    "interpretation_ko": "불안을 느낄 조짐",
+    "interpretation_en": "will work you disquietude",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Reception",
+      "original": "Confusion at a reception will work you disquietude.",
+      "translation_ko": "환영회에서 혼란이 있는 꿈은, 불안을 느낄 조짐이다"
+    }
+  }
+]

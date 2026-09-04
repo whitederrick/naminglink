@@ -1977,6 +1977,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "persimmon::감과 복숭아를 먹음": "복숭아 천도 도리",
   "person-reading-a-book::책 읽는 사람을 봄": "선비 학생 공부하는 글읽는",
   "person-reading-a-book::남이 책 읽는 것을 봄": "남이 다른 타인이 옆에서 누군가",
+  "person-reading-a-book::제가 책 읽기에 몰두함": "제가 몰두 어려운일",
+  "person-reading-a-book::책을 읽어 주거나 책 이야기를 나눔": "읽어 이야기를",
+  "person-reading-a-book::책 내용이 흐릿하거나 앞뒤가 안 맞음": "흐릿하 앞뒤가",
   "steamed-bun::만두를 먹음": "먹었 먹어 맛있 배불리",
   "steamed-bun::만두를 보고도 먹지 못함": "먹지 못했 못하고 바라만 굶주",
   "swallow::제비가 날아 품에 들어옴": "품에 품속 안겼 들어왔 가슴에",
@@ -3652,6 +3655,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "entertainment::풍악과 춤이 있는 연회에 감": "풍악 음악 춤이 노래가",
   "entertainment::젊은이가 연회를 봄": "젊은이 나이에",
   "entertainment::즐거움을 위해 파티에 참석함": "즐거움을 위해 참석",
+  "entertainment::환영회에서 혼란이 있음": "혼란 혼란이",
   "entrails::사람의 창자를 봄": "사람의",
   "entrails::들짐승의 창자를 봄": "들짐승 짐승의 맹수",
   "entrails::남의 창자를 찢음": "찢었 찢어 뜯어",
@@ -5347,5 +5351,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "razor::면도칼 꿈을 꿈": "다툼과 갈등",
   "razor::면도칼에 몸을 벰": "베었다 거래에서",
   "razor::면도칼로 싸움": "싸웠다 실망스러운 괴롭힐",
-  "razor::부러지거나 녹슨 면도칼을 봄": "부러지거나 녹슨"
+  "razor::부러지거나 녹슨 면도칼을 봄": "부러지거나 녹슨",
+  "reapers::추수꾼이 바삐 일하는 것을 봄": "바삐 일하는 번영",
+  "reapers::추수꾼이 마른 그루터기 사이를 지나감": "마른 그루터기 흉작",
+  "reapers::추수꾼들이 게으름을 피우는 것을 봄": "게으름 낙담할",
+  "reapers::부서진 수확기를 봄": "부서진 수확기 일자리"
 };

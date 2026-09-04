@@ -1973,6 +1973,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "persimmon::감과 복숭아를 먹음": "peach peaches",
   "person-reading-a-book::책 읽는 사람을 봄": "scholar student studying aloud",
   "person-reading-a-book::남이 책 읽는 것을 봄": "else another",
+  "person-reading-a-book::제가 책 읽기에 몰두함": "engaged excel difficult",
+  "person-reading-a-book::책을 읽어 주거나 책 이야기를 나눔": "discuss literary cultivate",
+  "person-reading-a-book::책 내용이 흐릿하거나 앞뒤가 안 맞음": "indistinct incoherent worries",
   "steamed-bun::만두를 먹음": "ate eating delicious full",
   "steamed-bun::만두를 보고도 먹지 못함": "unable hungry watched only stared",
   "swallow::제비가 날아 품에 들어옴": "arms bosom chest",
@@ -3648,6 +3651,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "entertainment::풍악과 춤이 있는 연회에 감": "music dancing tidings absent",
   "entertainment::젊은이가 연회를 봄": "young varied pleasures regard",
   "entertainment::즐거움을 위해 파티에 참석함": "attending kind much good",
+  "entertainment::환영회에서 혼란이 있음": "confusion disquietude",
   "entrails::사람의 창자를 봄": "human misery despair",
   "entrails::들짐승의 창자를 봄": "wild beast overthrow",
   "entrails::남의 창자를 찢음": "tear another persecutions",
@@ -5343,5 +5347,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "razor::면도칼 꿈을 꿈": "disagreements contentions troubles",
   "razor::면도칼에 몸을 벰": "cut unlucky deal",
   "razor::면도칼로 싸움": "fighting disappointing harassed",
-  "razor::부러지거나 녹슨 면도칼을 봄": "broken rusty distress"
+  "razor::부러지거나 녹슨 면도칼을 봄": "broken rusty distress",
+  "reapers::추수꾼이 바삐 일하는 것을 봄": "busy prosperity contentment",
+  "reapers::추수꾼이 마른 그루터기 사이를 지나감": "stubble crops fall",
+  "reapers::추수꾼들이 게으름을 피우는 것을 봄": "idle discouraging",
+  "reapers::부서진 수확기를 봄": "broken employment disappointment"
 };

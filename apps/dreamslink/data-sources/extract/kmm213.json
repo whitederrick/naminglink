@@ -1,0 +1,19 @@
+[
+  {
+    "id": "reapers",
+    "aliases": ["추수꾼이", "추수꾼들이", "추수꾼을", "수확기가", "수확기를"],
+    "aliases_en": ["a reaper", "reapers"],
+    "contexts": {
+      "추수꾼이 바삐 일하는 것을 봄": "바삐 일하는 번영",
+      "추수꾼이 마른 그루터기 사이를 지나감": "마른 그루터기 흉작",
+      "추수꾼들이 게으름을 피우는 것을 봄": "게으름 낙담할",
+      "부서진 수확기를 봄": "부서진 수확기 일자리"
+    },
+    "contexts_en": {
+      "추수꾼이 바삐 일하는 것을 봄": "busy prosperity contentment",
+      "추수꾼이 마른 그루터기 사이를 지나감": "stubble crops fall",
+      "추수꾼들이 게으름을 피우는 것을 봄": "idle discouraging",
+      "부서진 수확기를 봄": "broken employment disappointment"
+    }
+  }
+]

@@ -7110,5 +7110,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "razor": [
     "a razor",
     "razors"
+  ],
+  "reapers": [
+    "a reaper",
+    "reapers"
   ]
 };

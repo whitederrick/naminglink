@@ -128,6 +128,7 @@
     "m210.json",
     "m211.json",
     "m212.json",
+    "m213.json",
     "m22.json",
     "m23.json",
     "m24.json",
@@ -45028,6 +45029,103 @@
       "label_ko": "배(과일)"
     },
     {
+      "id": "person-reading-a-book",
+      "term_ko": "책 읽는 사람",
+      "term_en": "person reading a book",
+      "aliases": [
+        "글 읽는 사람",
+        "독서하는 사람",
+        "책을 읽는 사람",
+        "책을 읽고",
+        "책 읽기",
+        "책을 읽어",
+        "책을 읽었다",
+        "책을 읽는데",
+        "책 읽는 것을",
+        "책 읽는 것"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "책 읽는 사람을 봄",
+          "interpretation_ko": "총명해질 조짐",
+          "interpretation_en": "a sign of becoming bright and clever",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "見讀書者主聰明",
+              "translation_ko": "책 읽는 사람을 보면 총명해진다"
+            }
+          ]
+        },
+        {
+          "context": "제가 책 읽기에 몰두함",
+          "interpretation_ko": "어려워 보이는 일에서 뛰어날 조짐",
+          "interpretation_en": "denotes that you will excel in some work, which appears difficult",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Reading",
+              "original": "To be engaged in reading in your dreams, denotes that you will excel in some work, which appears difficult.",
+              "translation_ko": "제가 책 읽기에 몰두하는 꿈은, 어려워 보이는 일에서 뛰어날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "책을 읽어 주거나 책 이야기를 나눔",
+          "interpretation_ko": "문학적 재능을 기를 조짐",
+          "interpretation_en": "you will cultivate your literary ability",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Reading",
+              "original": "To give a reading, or to discuss reading, you will cultivate your literary ability.",
+              "translation_ko": "책을 읽어 주거나 책 이야기를 나누는 꿈은, 문학적 재능을 기를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "책 내용이 흐릿하거나 앞뒤가 안 맞음",
+          "interpretation_ko": "근심과 실망을 겪을 조짐",
+          "interpretation_en": "implies worries and disappointments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Reading",
+              "original": "Indistinct, or incoherent reading, implies worries and disappointments.",
+              "translation_ko": "책 내용이 흐릿하거나 앞뒤가 안 맞는 꿈은, 근심과 실망을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 책 읽는 것을 봄",
+          "interpretation_ko": "귀한 자식을 낳을 조짐",
+          "interpretation_en": "a sign of bearing a noble child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "觀人讀書生貴子",
+              "translation_ko": "남이 책 읽는 것을 보면 귀한 자식을 낳는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "petticoat",
       "term_ko": "속치마",
       "term_en": "petticoat",
@@ -52807,6 +52905,84 @@
       ]
     },
     {
+      "id": "entertainment",
+      "term_ko": "연회",
+      "term_en": "entertainment",
+      "aliases": [
+        "파티",
+        "연회장",
+        "연회에",
+        "연회를",
+        "환영회",
+        "환영회에서"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "즐거움을 위해 파티에 참석함",
+          "interpretation_ko": "삶에 좋은 것이 많다는 조짐이나 파티가 불화하면 예외",
+          "interpretation_en": "you will find that life has much good, unless the party is an inharmonious one",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Party",
+              "original": "To dream of attending a party of any kind for pleasure, you will find that life has much good, unless the party is an inharmonious one.",
+              "translation_ko": "즐거움을 위해 파티에 참석하는 꿈은, 삶에 좋은 것이 많다는 조짐이나 파티가 불화하면 예외다"
+            }
+          ]
+        },
+        {
+          "context": "환영회에서 혼란이 있음",
+          "interpretation_ko": "불안을 느낄 조짐",
+          "interpretation_en": "will work you disquietude",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Reception",
+              "original": "Confusion at a reception will work you disquietude.",
+              "translation_ko": "환영회에서 혼란이 있는 꿈은, 불안을 느낄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "풍악과 춤이 있는 연회에 감",
+          "interpretation_ko": "멀리 있는 이에게서 반가운 기별이 오고 몸과 살림이 넉넉해질 길한 조짐",
+          "interpretation_en": "you will have pleasant tidings of the absent, and enjoy health and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Entertainment",
+              "original": "To dream of an entertainment where there is music and dancing, you will have pleasant tidings of the absent, and enjoy health and prosperity.",
+              "translation_ko": "풍악과 춤이 있는 연회 꿈은, 멀리 있는 이에게서 오는 반가운 기별과 성한 몸, 넉넉한 살림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이가 연회를 봄",
+          "interpretation_ko": "여러 즐거움과 벗들의 두터운 대접이 있을 길한 조짐",
+          "interpretation_en": "a dream of many and varied pleasures and the high regard of friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Entertainment",
+              "original": "To the young, this is a dream of many and varied pleasures and the high regard of friends.",
+              "translation_ko": "젊은이에게 이는 여러 가지 즐거움과 벗들의 두터운 대접을 뜻하는 꿈이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "epidemic",
       "term_ko": "역병",
       "term_en": "epidemic",
@@ -58956,6 +59132,83 @@
               "locator": "Razor",
               "original": "A broken or rusty one, brings unavoidable distress.",
               "translation_ko": "부러지거나 녹슨 면도칼을 보는 꿈은, 피할 수 없는 고통을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reapers",
+      "term_ko": "추수꾼",
+      "term_en": "reapers",
+      "aliases": [
+        "추수꾼이",
+        "추수꾼들이",
+        "추수꾼을",
+        "수확기가",
+        "수확기를"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "추수꾼이 바삐 일하는 것을 봄",
+          "interpretation_ko": "번영과 만족을 누릴 조짐",
+          "interpretation_en": "denotes prosperity and contentment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Reapers",
+              "original": "To dream of seeing reapers busy at work at their task, denotes prosperity and contentment.",
+              "translation_ko": "추수꾼이 바삐 일하는 것을 보는 꿈은, 번영과 만족을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "추수꾼이 마른 그루터기 사이를 지나감",
+          "interpretation_ko": "흉작이 들어 사업이 부진할 조짐",
+          "interpretation_en": "there will be a lack of good crops, and business will consequently fall off",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Reapers",
+              "original": "If they appear to be going through dried stubble, there will be a lack of good crops, and business will consequently fall off.",
+              "translation_ko": "추수꾼이 마른 그루터기 사이를 지나가는 꿈은, 흉작이 들어 사업이 부진할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "추수꾼들이 게으름을 피우는 것을 봄",
+          "interpretation_ko": "번영 중에 낙담할 일이 생길 조짐",
+          "interpretation_en": "denotes that some discouraging event will come in the midst of prosperity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Reapers",
+              "original": "To see idle ones, denotes that some discouraging event will come in the midst of prosperity.",
+              "translation_ko": "추수꾼들이 게으름을 피우는 것을 보는 꿈은, 번영 중에 낙담할 일이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 수확기를 봄",
+          "interpretation_ko": "일자리를 잃거나 사업에서 실망할 조짐",
+          "interpretation_en": "signifies loss of employment, or disappointment in trades",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Reapers",
+              "original": "To see a broken reaping machine, signifies loss of employment, or disappointment in trades.",
+              "translation_ko": "부서진 수확기를 보는 꿈은, 일자리를 잃거나 사업에서 실망할 조짐이다"
             }
           ]
         }
@@ -66024,68 +66277,6 @@
               "locator": "Employment",
               "original": "Giving employment to others, indicates loss for yourself.",
               "translation_ko": "남에게 일자리를 주는 꿈은 제게 돌아올 손해를 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "entertainment",
-      "term_ko": "연회",
-      "term_en": "entertainment",
-      "aliases": [
-        "파티",
-        "연회장",
-        "연회에",
-        "연회를"
-      ],
-      "category": "place",
-      "polarity": "positive",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "즐거움을 위해 파티에 참석함",
-          "interpretation_ko": "삶에 좋은 것이 많다는 조짐이나 파티가 불화하면 예외",
-          "interpretation_en": "you will find that life has much good, unless the party is an inharmonious one",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Party",
-              "original": "To dream of attending a party of any kind for pleasure, you will find that life has much good, unless the party is an inharmonious one.",
-              "translation_ko": "즐거움을 위해 파티에 참석하는 꿈은, 삶에 좋은 것이 많다는 조짐이나 파티가 불화하면 예외다"
-            }
-          ]
-        },
-        {
-          "context": "풍악과 춤이 있는 연회에 감",
-          "interpretation_ko": "멀리 있는 이에게서 반가운 기별이 오고 몸과 살림이 넉넉해질 길한 조짐",
-          "interpretation_en": "you will have pleasant tidings of the absent, and enjoy health and prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Entertainment",
-              "original": "To dream of an entertainment where there is music and dancing, you will have pleasant tidings of the absent, and enjoy health and prosperity.",
-              "translation_ko": "풍악과 춤이 있는 연회 꿈은, 멀리 있는 이에게서 오는 반가운 기별과 성한 몸, 넉넉한 살림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "젊은이가 연회를 봄",
-          "interpretation_ko": "여러 즐거움과 벗들의 두터운 대접이 있을 길한 조짐",
-          "interpretation_en": "a dream of many and varied pleasures and the high regard of friends",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Entertainment",
-              "original": "To the young, this is a dream of many and varied pleasures and the high regard of friends.",
-              "translation_ko": "젊은이에게 이는 여러 가지 즐거움과 벗들의 두터운 대접을 뜻하는 꿈이다"
             }
           ]
         }
@@ -97824,54 +98015,6 @@
               "locator": "飲食酒肉瓜菜",
               "original": "食柿桃離而復合",
               "translation_ko": "감과 복숭아를 먹으면 헤어졌다가 다시 합한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "person-reading-a-book",
-      "term_ko": "책 읽는 사람",
-      "term_en": "person reading a book",
-      "aliases": [
-        "글 읽는 사람",
-        "독서하는 사람",
-        "책을 읽는 사람",
-        "책을 읽고"
-      ],
-      "category": "person",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "책 읽는 사람을 봄",
-          "interpretation_ko": "총명해질 조짐",
-          "interpretation_en": "a sign of becoming bright and clever",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "見讀書者主聰明",
-              "translation_ko": "책 읽는 사람을 보면 총명해진다"
-            }
-          ]
-        },
-        {
-          "context": "남이 책 읽는 것을 봄",
-          "interpretation_ko": "귀한 자식을 낳을 조짐",
-          "interpretation_en": "a sign of bearing a noble child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "觀人讀書生貴子",
-              "translation_ko": "남이 책 읽는 것을 보면 귀한 자식을 낳는다"
             }
           ]
         }
