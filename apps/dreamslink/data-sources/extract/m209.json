@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "양",
+    "term_en": "sheep",
+    "context": "숫양이 저를 뒤쫓음",
+    "interpretation_ko": "불운이 닥칠 조짐",
+    "interpretation_en": "foretells that some misfortune threatens you",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Ram",
+      "original": "To dream that a ram pursues you, foretells that some misfortune threatens you.",
+      "translation_ko": "숫양이 저를 뒤쫓는 꿈은, 불운이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "양",
+    "term_en": "sheep",
+    "context": "숫양이 조용히 풀을 뜯음",
+    "interpretation_ko": "힘 있는 벗들이 저를 위해 힘써 줄 조짐",
+    "interpretation_en": "denotes that you will have powerful friends, who will use their best efforts for your good",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Ram",
+      "original": "To see one quietly grazing denotes that you will have powerful friends, who will use their best efforts for your good.",
+      "translation_ko": "숫양이 조용히 풀을 뜯는 것을 보는 꿈은, 힘 있는 벗들이 저를 위해 힘써 줄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "정처 없이 거님",
+    "term_en": "ramble",
+    "context": "처녀가 시골길을 정처 없이 거님",
+    "interpretation_ko": "안락한 가정을 이루겠지만 이른 사별을 겪을 조짐",
+    "interpretation_en": "this dream promises a comfortable home, but early bereavement",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Ramble",
+      "original": "For a young woman, this dream promises a comfortable home, but early bereavement.",
+      "translation_ko": "처녀가 시골길을 정처 없이 거니는 꿈은, 안락한 가정을 이루겠지만 이른 사별을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "정처 없이 거님",
+    "term_en": "ramble",
+    "context": "시골길을 정처 없이 거님",
+    "interpretation_ko": "슬픔에 젖고 벗과 헤어질 조짐이나, 살림살이만큼은 바랄 것 없이 넉넉할 조짐",
+    "interpretation_en": "denotes that you will be oppressed with sadness, and the separation from friends, but your worldly surroundings will be all that one could desire",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ramble",
+      "original": "To dream that you are rambling through the country, denotes that you will be oppressed with sadness, and the separation from friends, but your worldly surroundings will be all that one could desire.",
+      "translation_ko": "시골길을 정처 없이 거니는 꿈은, 슬픔에 젖고 벗과 헤어질 조짐이나 살림살이만큼은 바랄 것 없이 넉넉할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "꽂을대",
+    "term_en": "ramrod",
+    "context": "꽂을대 꿈을 꿈",
+    "interpretation_ko": "불운한 일들을 겪고 슬퍼할 조짐",
+    "interpretation_en": "denotes unfortunate adventures. You will have cause for grief",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ramrod",
+      "original": "To dream of a ramrod, denotes unfortunate adventures. You will have cause for grief.",
+      "translation_ko": "꽂을대 꿈은, 불운한 일들을 겪고 슬퍼할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "꽂을대",
+    "term_en": "ramrod",
+    "context": "처녀가 구부러지거나 부러진 꽂을대를 봄",
+    "interpretation_ko": "소중한 벗이나 정인이 저를 저버릴 조짐",
+    "interpretation_en": "foretells that a dear friend or lover will fail her",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Ramrod",
+      "original": "For a young woman to see one bent or broken, foretells that a dear friend or lover will fail her.",
+      "translation_ko": "처녀가 구부러지거나 부러진 꽂을대를 보는 꿈은, 소중한 벗이나 정인이 저를 저버릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "몸값",
+    "term_en": "ransom",
+    "context": "몸값을 치르게 됨",
+    "interpretation_ko": "속임을 당하고 사방에서 돈에 이용당할 조짐",
+    "interpretation_en": "you will find that you are deceived and worked for money on all sides",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ransom",
+      "original": "To dream that a ransom is made for you, you will find that you are deceived and worked for money on all sides.",
+      "translation_ko": "몸값을 치르게 되는 꿈은, 속임을 당하고 사방에서 돈에 이용당할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "몸값",
+    "term_en": "ransom",
+    "context": "처녀가 몸값 꿈을 꿈",
+    "interpretation_ko": "누군가 몸값을 치러 구해 주지 않는 한 흉한 조짐",
+    "interpretation_en": "this is prognostic of evil, unless some one pays the ransom and relieves her",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Ransom",
+      "original": "For a young woman, this is prognostic of evil, unless some one pays the ransom and relieves her.",
+      "translation_ko": "처녀가 몸값 꿈을 꾸면, 누군가 몸값을 치러 구해 주지 않는 한 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "급류",
+    "term_en": "rapids",
+    "context": "급류에 휩쓸려 감",
+    "interpretation_ko": "본분을 소홀히 하고 유혹적인 쾌락을 좇다가 엄청난 손실을 입을 조짐",
+    "interpretation_en": "denotes that you will suffer appalling loss from the neglect of duty and the courting of seductive pleasures",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Rapids",
+      "original": "To imagine that you are being carried over rapids in a dream, denotes that you will suffer appalling loss from the neglect of duty and the courting of seductive pleasures.",
+      "translation_ko": "급류에 휩쓸려 가는 꿈은, 본분을 소홀히 하고 유혹적인 쾌락을 좇다가 엄청난 손실을 입을 조짐이다"
+    }
+  }
+]

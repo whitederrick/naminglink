@@ -495,6 +495,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "sheep::어린 양을 품에 안음": "carry arms encumbered lavish devotion",
   "sheep::어린 양의 털을 깎음": "shear cold mercenary inhumane",
   "sheep::여자가 양가죽을 벗기다 제 아이임을 앎": "peeling child sorrow rebound grief",
+  "sheep::숫양이 저를 뒤쫓음": "pursues threatens misfortune",
+  "sheep::숫양이 조용히 풀을 뜯음": "quietly grazing powerful",
   "pig::돼지를 잡음": "caught killed slaughtered butchered",
   "pig::돼지가 저절로 죽음": "died dead sick naturally itself",
   "pig::돼지가 사람으로 변함": "human person transformed turned",
@@ -5321,5 +5323,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "railroad::맑은 물에 잠긴 철길을 봄": "inundated phoenix rise",
   "rake::갈퀴를 사용함": "using superintend yourself",
   "rake::부러진 갈퀴를 봄": "broken sickness accident",
-  "rake::남이 갈퀴질하는 것을 봄": "raking rejoice fortunate"
+  "rake::남이 갈퀴질하는 것을 봄": "raking rejoice fortunate",
+  "ramble::시골길을 정처 없이 거님": "country sadness separation",
+  "ramble::처녀가 시골길을 정처 없이 거님": "comfortable home bereavement",
+  "ramrod::꽂을대 꿈을 꿈": "unfortunate adventures grief",
+  "ramrod::처녀가 구부러지거나 부러진 꽂을대를 봄": "bent broken fail",
+  "ransom::몸값을 치르게 됨": "deceived worked money",
+  "ransom::처녀가 몸값 꿈을 꿈": "prognostic evil relieves"
 };

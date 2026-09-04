@@ -1,0 +1,38 @@
+{
+  "batch": 209,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Ram",
+      "text": "To dream that a ram pursues you, foretells that some misfortune threatens you. To see one quietly grazing denotes that you will have powerful friends, who will use their best efforts for your good.",
+      "note": "각주 「[183] See Sheep and Lamb.」를 따라 기존 상징 `sheep`(양)에 합친다 — 별칭 「숫양」이 이미 있다. 두 그림 다 sheep의 기존 문맥과 안 겹친다"
+    },
+    {
+      "headword": "Ramble",
+      "text": "To dream that you are rambling through the country, denotes that you will be oppressed with sadness, and the separation from friends, but your worldly surroundings will be all that one could desire. For a young woman, this dream promises a comfortable home, but early bereavement.",
+      "note": "새 상징 `ramble`(정처 없이 거님)"
+    },
+    {
+      "headword": "Ramrod",
+      "text": "To dream of a ramrod, denotes unfortunate adventures. You will have cause for grief. For a young woman to see one bent or broken, foretells that a dear friend or lover will fail her.",
+      "note": "새 상징 `ramrod`(꽂을대)"
+    },
+    {
+      "headword": "Ransom",
+      "text": "To dream that a ransom is made for you, you will find that you are deceived and worked for money on all sides. For a young woman, this is prognostic of evil, unless some one pays the ransom and relieves her.",
+      "note": "새 상징 `ransom`(몸값)"
+    },
+    {
+      "headword": "Rape",
+      "text": "To dream that rape has been committed among your acquaintances, denotes that you will be shocked at the distress of some of your friends. For a young woman to dream that she has been the victim of rape, foretells that she will have troubles, which will wound her pride, and her lover will be estranged.",
+      "note": "건너뜀 — 성폭행을 「꿈의 길흉 판정」 대상으로 삼는 것은 오늘의 이용자에게 해로운 판정이다(Abortion·Incest와 같은 셋째 이유, 메모리 dream-dictionary-v2-rebuild-in-progress §「남은 일」 참고)"
+    },
+    {
+      "headword": "Rapids",
+      "text": "To imagine that you are being carried over rapids in a dream, denotes that you will suffer appalling loss from the neglect of duty and the courting of seductive pleasures.",
+      "note": "새 상징 `rapids`(급류)"
+    }
+  ],
+  "skipped": ["Rape"],
+  "skipped_sentences": []
+}
