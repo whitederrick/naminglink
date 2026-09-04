@@ -134,6 +134,7 @@
     "m216.json",
     "m217.json",
     "m218.json",
+    "m219.json",
     "m22.json",
     "m23.json",
     "m24.json",
@@ -19821,6 +19822,171 @@
       ]
     },
     {
+      "id": "religion",
+      "term_ko": "종교",
+      "term_en": "religion",
+      "aliases": [
+        "종교가",
+        "종교를",
+        "신앙심이",
+        "신앙심",
+        "신앙",
+        "부흥회",
+        "부흥회에서",
+        "부흥회",
+        "부흥회에서"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "종교를 이야기하며 신앙심이 깊어짐을 느낌",
+          "interpretation_ko": "삶의 평온을 해치는 일이 많아지고 사업이 못마땅해질 조짐",
+          "interpretation_en": "you will find much to mar the calmness of your life, and business will turn a disagreeable front to you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If you dream of discussing religion and feel religiously inclined, you will find much to mar the calmness of your life, and business will turn a disagreeable front to you.",
+              "translation_ko": "종교를 이야기하며 신앙심이 깊어짐을 느끼는 꿈은, 삶의 평온을 해치는 일이 많아지고 사업이 못마땅해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 스스로 지나치게 신앙심 깊다고 여김",
+          "interpretation_ko": "순진함과 선함을 꾸미려다 정인에게 정떨어질 조짐",
+          "interpretation_en": "she will disgust her lover with her efforts to act ingenuous innocence and goodness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If a young woman imagines that she is over religious, she will disgust her lover with her efforts to act ingenuous innocence and goodness.",
+              "translation_ko": "처녀가 스스로 지나치게 신앙심 깊다고 여기는 꿈은, 순진함과 선함을 꾸미려다 정인에게 정떨어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 신앙심이 없으나 잘못을 저지르지 않았다고 여김",
+          "interpretation_ko": "당당하고 솔직하며 남을 배려하는 성품으로 뭇사람의 존경과 사랑을 받을 조짐",
+          "interpretation_en": "it foretells that she will have that independent frankness and kind consideration for others, which wins for women profound respect, and love from the opposite sex as well as her own",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If she is irreligious and not a transgressor, it foretells that she will have that independent frankness and kind consideration for others, which wins for women profound respect, and love from the opposite sex as well as her own; but if she is a transgressor in the eyes of religion, she will find that there are moral laws, which, if disregarded, will place her outside the pale of honest recognition. She should look well after her conduct.",
+              "translation_ko": "처녀가 신앙심이 없으나 잘못을 저지르지 않았다고 여기는 꿈은, 당당하고 솔직하며 남을 배려하는 성품으로 뭇사람의 존경과 사랑을 받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 신앙심이 없고 종교의 눈으로 잘못을 저질렀다고 여김",
+          "interpretation_ko": "도덕률을 저버리면 떳떳한 인정 밖으로 밀려날 조짐이니 행실을 잘 살펴야 함",
+          "interpretation_en": "she will find that there are moral laws, which, if disregarded, will place her outside the pale of honest recognition. She should look well after her conduct",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If she is irreligious and not a transgressor, it foretells that she will have that independent frankness and kind consideration for others, which wins for women profound respect, and love from the opposite sex as well as her own; but if she is a transgressor in the eyes of religion, she will find that there are moral laws, which, if disregarded, will place her outside the pale of honest recognition. She should look well after her conduct.",
+              "translation_ko": "처녀가 신앙심이 없고 종교의 눈으로 잘못을 저질렀다고 여기는 꿈은, 도덕률을 저버리면 떳떳한 인정 밖으로 밀려날 조짐이니 행실을 잘 살펴야 한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 종교 때문에 욺",
+          "interpretation_ko": "마음속 바람이 실망으로 끝날 조짐",
+          "interpretation_en": "she will be disappointed in the desires of her heart",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If she weeps over religion, she will be disappointed in the desires of her heart.",
+              "translation_ko": "처녀가 종교 때문에 우는 꿈은, 마음속 바람이 실망으로 끝날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "종교 문제로 처녀가 죄는 없으나 반항적임",
+          "interpretation_ko": "짐을 용감히 짊어지고 거짓된 훈계에 굳세게 맞설 조짐",
+          "interpretation_en": "she will shoulder burdens bravely, and stand firm against deceitful admonitions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If she is defiant, but innocent of offence, she will shoulder burdens bravely, and stand firm against deceitful admonitions.",
+              "translation_ko": "종교 문제로 처녀가 죄는 없으나 반항적인 꿈은, 짐을 용감히 짊어지고 거짓된 훈계에 굳세게 맞설 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "신앙의 흥분 속에서 스스로를 자책함",
+          "interpretation_ko": "존경하는 이를 기쁘게 하려 제 개성을 거의 버리게 될 조짐",
+          "interpretation_en": "you will find that you will be almost induced to give up your own personality to please some one whom you hold in reverent esteem",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If you are self-reproached in the midst of a religious excitement, you will find that you will be almost induced to give up your own personality to please some one whom you hold in reverent esteem.",
+              "translation_ko": "신앙의 흥분 속에서 스스로를 자책하는 꿈은, 존경하는 이를 기쁘게 하려 제 개성을 거의 버리게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "종교의 힘이 약해지는 것을 봄",
+          "interpretation_ko": "삶이 전보다 자연과 더 조화를 이루고 편견이 누그러질 조짐",
+          "interpretation_en": "denotes that your life will be more in harmony with creation than formerly. Your prejudices will not be so aggressive",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "To see religion declining in power, denotes that your life will be more in harmony with creation than formerly. Your prejudices will not be so aggressive.",
+              "translation_ko": "종교의 힘이 약해지는 것을 보는 꿈은, 삶이 전보다 자연과 더 조화를 이루고 편견이 누그러질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "종교 부흥회에 참석함",
+          "interpretation_ko": "가족 간 다툼과 손해되는 약속들에 시달릴 조짐",
+          "interpretation_en": "foretells family disturbances and unprofitable engagements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Revival",
+              "original": "To dream you attend a religious revival, foretells family disturbances and unprofitable engagements.",
+              "translation_ko": "종교 부흥회에 참석하는 꿈은, 가족 간 다툼과 손해되는 약속들에 시달릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부흥회에서 적극적으로 참여함",
+          "interpretation_ko": "괴팍한 태도로 벗들의 눈총을 살 조짐",
+          "interpretation_en": "you will incur the displeasure of friends by your contrary ways",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Revival",
+              "original": "If you take a part in it, you will incur the displeasure of friends by your contrary ways.",
+              "translation_ko": "부흥회에서 적극적으로 참여하는 꿈은, 괴팍한 태도로 벗들의 눈총을 살 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "straw-mat",
       "term_ko": "돗자리",
       "term_en": "straw mat",
@@ -25376,139 +25542,6 @@
       ]
     },
     {
-      "id": "religion",
-      "term_ko": "종교",
-      "term_en": "religion",
-      "aliases": [
-        "종교가",
-        "종교를",
-        "신앙심이",
-        "신앙심",
-        "신앙"
-      ],
-      "category": "person",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "종교를 이야기하며 신앙심이 깊어짐을 느낌",
-          "interpretation_ko": "삶의 평온을 해치는 일이 많아지고 사업이 못마땅해질 조짐",
-          "interpretation_en": "you will find much to mar the calmness of your life, and business will turn a disagreeable front to you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Religion",
-              "original": "If you dream of discussing religion and feel religiously inclined, you will find much to mar the calmness of your life, and business will turn a disagreeable front to you.",
-              "translation_ko": "종교를 이야기하며 신앙심이 깊어짐을 느끼는 꿈은, 삶의 평온을 해치는 일이 많아지고 사업이 못마땅해질 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 스스로 지나치게 신앙심 깊다고 여김",
-          "interpretation_ko": "순진함과 선함을 꾸미려다 정인에게 정떨어질 조짐",
-          "interpretation_en": "she will disgust her lover with her efforts to act ingenuous innocence and goodness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Religion",
-              "original": "If a young woman imagines that she is over religious, she will disgust her lover with her efforts to act ingenuous innocence and goodness.",
-              "translation_ko": "처녀가 스스로 지나치게 신앙심 깊다고 여기는 꿈은, 순진함과 선함을 꾸미려다 정인에게 정떨어질 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 신앙심이 없으나 잘못을 저지르지 않았다고 여김",
-          "interpretation_ko": "당당하고 솔직하며 남을 배려하는 성품으로 뭇사람의 존경과 사랑을 받을 조짐",
-          "interpretation_en": "it foretells that she will have that independent frankness and kind consideration for others, which wins for women profound respect, and love from the opposite sex as well as her own",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Religion",
-              "original": "If she is irreligious and not a transgressor, it foretells that she will have that independent frankness and kind consideration for others, which wins for women profound respect, and love from the opposite sex as well as her own; but if she is a transgressor in the eyes of religion, she will find that there are moral laws, which, if disregarded, will place her outside the pale of honest recognition. She should look well after her conduct.",
-              "translation_ko": "처녀가 신앙심이 없으나 잘못을 저지르지 않았다고 여기는 꿈은, 당당하고 솔직하며 남을 배려하는 성품으로 뭇사람의 존경과 사랑을 받을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 신앙심이 없고 종교의 눈으로 잘못을 저질렀다고 여김",
-          "interpretation_ko": "도덕률을 저버리면 떳떳한 인정 밖으로 밀려날 조짐이니 행실을 잘 살펴야 함",
-          "interpretation_en": "she will find that there are moral laws, which, if disregarded, will place her outside the pale of honest recognition. She should look well after her conduct",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Religion",
-              "original": "If she is irreligious and not a transgressor, it foretells that she will have that independent frankness and kind consideration for others, which wins for women profound respect, and love from the opposite sex as well as her own; but if she is a transgressor in the eyes of religion, she will find that there are moral laws, which, if disregarded, will place her outside the pale of honest recognition. She should look well after her conduct.",
-              "translation_ko": "처녀가 신앙심이 없고 종교의 눈으로 잘못을 저질렀다고 여기는 꿈은, 도덕률을 저버리면 떳떳한 인정 밖으로 밀려날 조짐이니 행실을 잘 살펴야 한다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 종교 때문에 욺",
-          "interpretation_ko": "마음속 바람이 실망으로 끝날 조짐",
-          "interpretation_en": "she will be disappointed in the desires of her heart",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Religion",
-              "original": "If she weeps over religion, she will be disappointed in the desires of her heart.",
-              "translation_ko": "처녀가 종교 때문에 우는 꿈은, 마음속 바람이 실망으로 끝날 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "종교 문제로 처녀가 죄는 없으나 반항적임",
-          "interpretation_ko": "짐을 용감히 짊어지고 거짓된 훈계에 굳세게 맞설 조짐",
-          "interpretation_en": "she will shoulder burdens bravely, and stand firm against deceitful admonitions",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Religion",
-              "original": "If she is defiant, but innocent of offence, she will shoulder burdens bravely, and stand firm against deceitful admonitions.",
-              "translation_ko": "종교 문제로 처녀가 죄는 없으나 반항적인 꿈은, 짐을 용감히 짊어지고 거짓된 훈계에 굳세게 맞설 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "신앙의 흥분 속에서 스스로를 자책함",
-          "interpretation_ko": "존경하는 이를 기쁘게 하려 제 개성을 거의 버리게 될 조짐",
-          "interpretation_en": "you will find that you will be almost induced to give up your own personality to please some one whom you hold in reverent esteem",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Religion",
-              "original": "If you are self-reproached in the midst of a religious excitement, you will find that you will be almost induced to give up your own personality to please some one whom you hold in reverent esteem.",
-              "translation_ko": "신앙의 흥분 속에서 스스로를 자책하는 꿈은, 존경하는 이를 기쁘게 하려 제 개성을 거의 버리게 될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "종교의 힘이 약해지는 것을 봄",
-          "interpretation_ko": "삶이 전보다 자연과 더 조화를 이루고 편견이 누그러질 조짐",
-          "interpretation_en": "denotes that your life will be more in harmony with creation than formerly. Your prejudices will not be so aggressive",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Religion",
-              "original": "To see religion declining in power, denotes that your life will be more in harmony with creation than formerly. Your prejudices will not be so aggressive.",
-              "translation_ko": "종교의 힘이 약해지는 것을 보는 꿈은, 삶이 전보다 자연과 더 조화를 이루고 편견이 누그러질 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "rice-plant",
       "term_ko": "벼",
       "term_en": "rice plant",
@@ -29008,6 +29041,130 @@
               "locator": "Gold",
               "original": "If you dream that you contemplate working a gold mine, you will endeavor to usurp the rights of others, and should beware of domestic scandals.",
               "translation_ko": "금광을 파려고 마음먹는 꿈은, 남의 몫을 가로채려 함과 집안 말썽을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gun",
+      "term_ko": "총기",
+      "term_en": "gun",
+      "aliases": [
+        "총소리",
+        "총을",
+        "총이",
+        "총에",
+        "엽총",
+        "권총",
+        "소총",
+        "총으로",
+        "총을 쏘",
+        "총에 맞"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "권총 꿈을 봄",
+          "interpretation_ko": "대체로 나쁜 운을 뜻함",
+          "interpretation_en": "denotes bad fortune, generally",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pistol",
+              "original": "Seeing a pistol in your dream, denotes bad fortune, generally.",
+              "translation_ko": "권총을 보는 꿈은, 대체로 나쁜 운을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "권총을 소유함",
+          "interpretation_ko": "천박하고 음흉한 성정을 기르게 될 조짐",
+          "interpretation_en": "you will cultivate a low, designing character",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pistol",
+              "original": "If you own one, you will cultivate a low, designing character.",
+              "translation_ko": "권총을 소유한 꿈은, 천박하고 음흉한 성정을 기르게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀에게 애인이 권총을 든 것을 봄",
+          "interpretation_ko": "벗과 심각한 다툼을 겪고 정인과 헤어질 조짐",
+          "interpretation_en": "denotes that she will have a serious disagreement with some friend, and probably separation from her lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Revolver",
+              "original": "For a young woman to dream that she sees her sweetheart with a revolver, denotes that she will have a serious disagreement with some friend, and probably separation from her lover.",
+              "translation_ko": "처녀에게 애인이 권총을 든 것을 보는 꿈은, 벗과 심각한 다툼을 겪고 정인과 헤어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "총소리를 들음",
+          "interpretation_ko": "일자리를 잃고 가게를 꾸리는 이는 일을 그르칠 흉한 조짐",
+          "interpretation_en": "denotes loss of employment, and bad management to proprietors of establishments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gun",
+              "original": "Hearing the sound of a gun, denotes loss of employment, and bad management to proprietors of establishments.",
+              "translation_ko": "총소리를 들으면, 일자리를 잃고 가게를 꾸리는 이는 일을 그르침을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "총으로 남을 쏨",
+          "interpretation_ko": "낯이 깎여 떳떳하지 못하게 될 흉한 조짐",
+          "interpretation_en": "you will fall into dishonor",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gun",
+              "original": "If you shoot a person with a gun, you will fall into dishonor.",
+              "translation_ko": "총으로 남을 쏘면, 낯이 깎여 떳떳하지 못하게 된다"
+            }
+          ]
+        },
+        {
+          "context": "총에 맞음",
+          "interpretation_ko": "모진 이들에게 시달리고 자칫 앓아누울 흉한 조짐",
+          "interpretation_en": "you will be annoyed by evil persons, and perhaps suffer an acute illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gun",
+              "original": "If you are shot, you will be annoyed by evil persons, and perhaps suffer an acute illness.",
+              "translation_ko": "총에 맞으면, 모진 이들에게 시달리고 자칫 앓아눕는다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 총을 쏨",
+          "interpretation_ko": "다툼이 생기고 입길에 오를 흉한 조짐",
+          "interpretation_en": "forecasts for her a quarreling and disagreeable reputation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gun",
+              "original": "For a woman to dream of shooting, forecasts for her a quarreling and disagreeable reputation connected with sensations.",
+              "translation_ko": "여성이 총을 쏘는 꿈은, 다툼과 입길에 오르는 이름을 알린다"
             }
           ]
         }
@@ -33968,116 +34125,6 @@
               "locator": "Grasshopper",
               "original": "To call peoples' attention to the grasshoppers, shows that you are not discreet in dispatching your private business.",
               "translation_ko": "남에게 메뚜기를 가리켜 보이면, 제 일을 조심스럽게 다루지 못함을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "gun",
-      "term_ko": "총기",
-      "term_en": "gun",
-      "aliases": [
-        "총소리",
-        "총을",
-        "총이",
-        "총에",
-        "엽총",
-        "권총",
-        "소총",
-        "총으로",
-        "총을 쏘",
-        "총에 맞"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "권총 꿈을 봄",
-          "interpretation_ko": "대체로 나쁜 운을 뜻함",
-          "interpretation_en": "denotes bad fortune, generally",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Pistol",
-              "original": "Seeing a pistol in your dream, denotes bad fortune, generally.",
-              "translation_ko": "권총을 보는 꿈은, 대체로 나쁜 운을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "권총을 소유함",
-          "interpretation_ko": "천박하고 음흉한 성정을 기르게 될 조짐",
-          "interpretation_en": "you will cultivate a low, designing character",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Pistol",
-              "original": "If you own one, you will cultivate a low, designing character.",
-              "translation_ko": "권총을 소유한 꿈은, 천박하고 음흉한 성정을 기르게 될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "총소리를 들음",
-          "interpretation_ko": "일자리를 잃고 가게를 꾸리는 이는 일을 그르칠 흉한 조짐",
-          "interpretation_en": "denotes loss of employment, and bad management to proprietors of establishments",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gun",
-              "original": "Hearing the sound of a gun, denotes loss of employment, and bad management to proprietors of establishments.",
-              "translation_ko": "총소리를 들으면, 일자리를 잃고 가게를 꾸리는 이는 일을 그르침을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "총으로 남을 쏨",
-          "interpretation_ko": "낯이 깎여 떳떳하지 못하게 될 흉한 조짐",
-          "interpretation_en": "you will fall into dishonor",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gun",
-              "original": "If you shoot a person with a gun, you will fall into dishonor.",
-              "translation_ko": "총으로 남을 쏘면, 낯이 깎여 떳떳하지 못하게 된다"
-            }
-          ]
-        },
-        {
-          "context": "총에 맞음",
-          "interpretation_ko": "모진 이들에게 시달리고 자칫 앓아누울 흉한 조짐",
-          "interpretation_en": "you will be annoyed by evil persons, and perhaps suffer an acute illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gun",
-              "original": "If you are shot, you will be annoyed by evil persons, and perhaps suffer an acute illness.",
-              "translation_ko": "총에 맞으면, 모진 이들에게 시달리고 자칫 앓아눕는다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 총을 쏨",
-          "interpretation_ko": "다툼이 생기고 입길에 오를 흉한 조짐",
-          "interpretation_en": "forecasts for her a quarreling and disagreeable reputation",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gun",
-              "original": "For a woman to dream of shooting, forecasts for her a quarreling and disagreeable reputation connected with sensations.",
-              "translation_ko": "여성이 총을 쏘는 꿈은, 다툼과 입길에 오르는 이름을 알린다"
             }
           ]
         }
@@ -100306,6 +100353,100 @@
               "locator": "Resuscitate",
               "original": "To resuscitate another, you will form new friendships, which will give you prominence and pleasure.",
               "translation_ko": "남을 소생시키는 꿈은, 새 우정을 맺어 명성과 즐거움을 얻을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revelation",
+      "term_ko": "계시",
+      "term_en": "revelation",
+      "aliases": [
+        "계시가",
+        "계시를",
+        "계시를 받"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "즐거운 계시를 받음",
+          "interpretation_ko": "사업이나 사랑에서 밝은 전망을 기대할 조짐",
+          "interpretation_en": "you may expect a bright outlook, either in business or love",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Revelation",
+              "original": "To dream of a revelation, if it be of a pleasant nature, you may expect a bright outlook, either in business or love; but if the revelation be gloomy you will have many discouraging features to overcome.",
+              "translation_ko": "즐거운 계시를 받는 꿈은, 사업이나 사랑에서 밝은 전망을 기대할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "음울한 계시를 받음",
+          "interpretation_ko": "낙담스러운 일들을 여럿 이겨 내야 할 조짐",
+          "interpretation_en": "you will have many discouraging features to overcome",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Revelation",
+              "original": "To dream of a revelation, if it be of a pleasant nature, you may expect a bright outlook, either in business or love; but if the revelation be gloomy you will have many discouraging features to overcome.",
+              "translation_ko": "음울한 계시를 받는 꿈은, 낙담스러운 일들을 여럿 이겨 내야 할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revenge",
+      "term_ko": "복수",
+      "term_en": "revenge",
+      "aliases": [
+        "복수했다",
+        "복수하는",
+        "복수를"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "복수함",
+          "interpretation_ko": "나약하고 각박한 성정의 표시이니, 다스리지 않으면 곤경과 벗의 상실을 부를 조짐",
+          "interpretation_en": "is a sign of a weak and uncharitable nature, which if not properly governed, will bring you troubles and loss of friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Revenge",
+              "original": "To dream of taking revenge, is a sign of a weak and uncharitable nature, which if not properly governed, will bring you troubles and loss of friends.",
+              "translation_ko": "복수하는 꿈은, 나약하고 각박한 성정의 표시이니 다스리지 않으면 곤경과 벗의 상실을 부를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 저에게 복수함",
+          "interpretation_ko": "원수를 크게 두려워해야 할 조짐",
+          "interpretation_en": "there will be much to fear from enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Revenge",
+              "original": "If others revenge themselves on you, there will be much to fear from enemies.",
+              "translation_ko": "남이 저에게 복수하는 꿈은, 원수를 크게 두려워해야 할 조짐이다"
             }
           ]
         }

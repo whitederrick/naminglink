@@ -4027,6 +4027,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "gun::여성이 총을 쏨": "woman quarreling disagreeable reputation",
   "gun::권총 꿈을 봄": "glimpse",
   "gun::권총을 소유함": "own owned possess",
+  "gun::처녀에게 애인이 권총을 든 것을 봄": "sweetheart disagreement separation",
   "gutter::시궁창을 봄": "sign degradation cause unhappiness",
   "gutter::시궁창에서 값진 것을 주움": "find articles value right questioned",
   "hail::우박이 쏟아지는 속에 있음": "storm poor success undertaking",
@@ -5370,6 +5371,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "religion::종교 문제로 처녀가 죄는 없으나 반항적임": "defiant innocent burdens",
   "religion::신앙의 흥분 속에서 스스로를 자책함": "self-reproached esteem personality",
   "religion::종교의 힘이 약해지는 것을 봄": "declining harmony prejudices",
+  "religion::종교 부흥회에 참석함": "revival family disturbances",
+  "religion::부흥회에서 적극적으로 참여함": "part displeasure contrary",
   "rent::집을 빌림": "contracts profitable enter",
   "rent::재산을 세놓지 못함": "fail inactivity business",
   "rent::집세를 냄": "pay financial satisfactory",
@@ -5387,5 +5390,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "resign::제가 어떤 직위에서 사임함": "position embark enterprises",
   "resign::남들이 사임한다는 소식을 들음": "hear unpleasant tidings",
   "resuscitate::제가 소생함": "losses regain happiness",
-  "resuscitate::남을 소생시킴": "friendships prominence pleasure"
+  "resuscitate::남을 소생시킴": "friendships prominence pleasure",
+  "revelation::즐거운 계시를 받음": "pleasant bright outlook",
+  "revelation::음울한 계시를 받음": "gloomy discouraging overcome",
+  "revenge::복수함": "weak uncharitable govern",
+  "revenge::남이 저에게 복수함": "themselves fear enemies"
 };

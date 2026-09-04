@@ -1,0 +1,28 @@
+[
+  {
+    "id": "revelation",
+    "aliases": ["계시가", "계시를", "계시를 받"],
+    "aliases_en": ["a revelation"],
+    "contexts": {
+      "즐거운 계시를 받음": "즐거운 밝은",
+      "음울한 계시를 받음": "음울한 낙담"
+    },
+    "contexts_en": {
+      "즐거운 계시를 받음": "pleasant bright outlook",
+      "음울한 계시를 받음": "gloomy discouraging overcome"
+    }
+  },
+  {
+    "id": "revenge",
+    "aliases": ["복수했다", "복수하는", "복수를"],
+    "aliases_en": ["revenge", "avenge"],
+    "contexts": {
+      "복수함": "나약한 곤경",
+      "남이 저에게 복수함": "남이 저에게"
+    },
+    "contexts_en": {
+      "복수함": "weak uncharitable govern",
+      "남이 저에게 복수함": "themselves fear enemies"
+    }
+  }
+]

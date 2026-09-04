@@ -7154,5 +7154,12 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "resuscitate": [
     "resuscitated",
     "resuscitate"
+  ],
+  "revelation": [
+    "a revelation"
+  ],
+  "revenge": [
+    "revenge",
+    "avenge"
   ]
 };

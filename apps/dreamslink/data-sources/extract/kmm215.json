@@ -1,8 +1,21 @@
 [
   {
     "id": "religion",
-    "aliases": ["종교가", "종교를", "신앙심이", "신앙심", "신앙"],
-    "aliases_en": ["religious", "religiously"],
+    "aliases": [
+      "종교가",
+      "종교를",
+      "신앙심이",
+      "신앙심",
+      "신앙",
+      "부흥회",
+      "부흥회에서",
+      "부흥회",
+      "부흥회에서"
+    ],
+    "aliases_en": [
+      "religious",
+      "religiously"
+    ],
     "contexts": {
       "종교를 이야기하며 신앙심이 깊어짐을 느낌": "이야기하며 깊어짐",
       "처녀가 스스로 지나치게 신앙심 깊다고 여김": "지나치게 정떨어질",
@@ -11,7 +24,9 @@
       "처녀가 종교 때문에 욺": "울었다 실망",
       "종교 문제로 처녀가 죄는 없으나 반항적임": "반항적 용감히",
       "신앙의 흥분 속에서 스스로를 자책함": "자책 개성을",
-      "종교의 힘이 약해지는 것을 봄": "약해지는 조화"
+      "종교의 힘이 약해지는 것을 봄": "약해지는 조화",
+      "종교 부흥회에 참석함": "부흥회 가족간",
+      "부흥회에서 적극적으로 참여함": "적극적으로 참여했다"
     },
     "contexts_en": {
       "종교를 이야기하며 신앙심이 깊어짐을 느낌": "discussing calmness disagreeable",
@@ -21,7 +36,9 @@
       "처녀가 종교 때문에 욺": "weeps disappointed desires",
       "종교 문제로 처녀가 죄는 없으나 반항적임": "defiant innocent burdens",
       "신앙의 흥분 속에서 스스로를 자책함": "self-reproached esteem personality",
-      "종교의 힘이 약해지는 것을 봄": "declining harmony prejudices"
+      "종교의 힘이 약해지는 것을 봄": "declining harmony prejudices",
+      "종교 부흥회에 참석함": "revival family disturbances",
+      "부흥회에서 적극적으로 참여함": "part displeasure contrary"
     }
   }
 ]

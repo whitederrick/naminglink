@@ -1,0 +1,107 @@
+[
+  {
+    "term_ko": "계시",
+    "term_en": "revelation",
+    "context": "즐거운 계시를 받음",
+    "interpretation_ko": "사업이나 사랑에서 밝은 전망을 기대할 조짐",
+    "interpretation_en": "you may expect a bright outlook, either in business or love",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Revelation",
+      "original": "To dream of a revelation, if it be of a pleasant nature, you may expect a bright outlook, either in business or love; but if the revelation be gloomy you will have many discouraging features to overcome.",
+      "translation_ko": "즐거운 계시를 받는 꿈은, 사업이나 사랑에서 밝은 전망을 기대할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "계시",
+    "term_en": "revelation",
+    "context": "음울한 계시를 받음",
+    "interpretation_ko": "낙담스러운 일들을 여럿 이겨 내야 할 조짐",
+    "interpretation_en": "you will have many discouraging features to overcome",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Revelation",
+      "original": "To dream of a revelation, if it be of a pleasant nature, you may expect a bright outlook, either in business or love; but if the revelation be gloomy you will have many discouraging features to overcome.",
+      "translation_ko": "음울한 계시를 받는 꿈은, 낙담스러운 일들을 여럿 이겨 내야 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "복수",
+    "term_en": "revenge",
+    "context": "복수함",
+    "interpretation_ko": "나약하고 각박한 성정의 표시이니, 다스리지 않으면 곤경과 벗의 상실을 부를 조짐",
+    "interpretation_en": "is a sign of a weak and uncharitable nature, which if not properly governed, will bring you troubles and loss of friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Revenge",
+      "original": "To dream of taking revenge, is a sign of a weak and uncharitable nature, which if not properly governed, will bring you troubles and loss of friends.",
+      "translation_ko": "복수하는 꿈은, 나약하고 각박한 성정의 표시이니 다스리지 않으면 곤경과 벗의 상실을 부를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "복수",
+    "term_en": "revenge",
+    "context": "남이 저에게 복수함",
+    "interpretation_ko": "원수를 크게 두려워해야 할 조짐",
+    "interpretation_en": "there will be much to fear from enemies",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Revenge",
+      "original": "If others revenge themselves on you, there will be much to fear from enemies.",
+      "translation_ko": "남이 저에게 복수하는 꿈은, 원수를 크게 두려워해야 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "종교",
+    "term_en": "religion",
+    "context": "종교 부흥회에 참석함",
+    "interpretation_ko": "가족 간 다툼과 손해되는 약속들에 시달릴 조짐",
+    "interpretation_en": "foretells family disturbances and unprofitable engagements",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Revival",
+      "original": "To dream you attend a religious revival, foretells family disturbances and unprofitable engagements.",
+      "translation_ko": "종교 부흥회에 참석하는 꿈은, 가족 간 다툼과 손해되는 약속들에 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "종교",
+    "term_en": "religion",
+    "context": "부흥회에서 적극적으로 참여함",
+    "interpretation_ko": "괴팍한 태도로 벗들의 눈총을 살 조짐",
+    "interpretation_en": "you will incur the displeasure of friends by your contrary ways",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Revival",
+      "original": "If you take a part in it, you will incur the displeasure of friends by your contrary ways.",
+      "translation_ko": "부흥회에서 적극적으로 참여하는 꿈은, 괴팍한 태도로 벗들의 눈총을 살 조짐이다"
+    }
+  },
+  {
+    "term_ko": "총",
+    "term_en": "gun",
+    "context": "처녀에게 애인이 권총을 든 것을 봄",
+    "interpretation_ko": "벗과 심각한 다툼을 겪고 정인과 헤어질 조짐",
+    "interpretation_en": "denotes that she will have a serious disagreement with some friend, and probably separation from her lover",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Revolver",
+      "original": "For a young woman to dream that she sees her sweetheart with a revolver, denotes that she will have a serious disagreement with some friend, and probably separation from her lover.",
+      "translation_ko": "처녀에게 애인이 권총을 든 것을 보는 꿈은, 벗과 심각한 다툼을 겪고 정인과 헤어질 조짐이다"
+    }
+  }
+]

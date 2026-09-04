@@ -1,0 +1,28 @@
+{
+  "batch": 219,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Revelation",
+      "text": "To dream of a revelation, if it be of a pleasant nature, you may expect a bright outlook, either in business or love; but if the revelation be gloomy you will have many discouraging features to overcome.",
+      "note": "새 상징 `revelation`(계시)"
+    },
+    {
+      "headword": "Revenge",
+      "text": "To dream of taking revenge, is a sign of a weak and uncharitable nature, which if not properly governed, will bring you troubles and loss of friends. If others revenge themselves on you, there will be much to fear from enemies.",
+      "note": "새 상징 `revenge`(복수). \"복수\"가 이미 다른 상징(ambush)의 판별어로 쓰이고 있으나 별칭이 아니라 겹치지 않는다"
+    },
+    {
+      "headword": "Revival",
+      "text": "To dream you attend a religious revival, foretells family disturbances and unprofitable engagements. If you take a part in it, you will incur the displeasure of friends by your contrary ways.",
+      "note": "각주(See Religion)를 따라 기존 상징 `religion`(종교)에 합친다"
+    },
+    {
+      "headword": "Revolver",
+      "text": "For a young woman to dream that she sees her sweetheart with a revolver, denotes that she will have a serious disagreement with some friend, and probably separation from her lover.",
+      "note": "각주(See Pistol, Firearms, etc.)를 따라 기존 상징 `gun`(총)에 합친다 — 별칭 「권총」이 이미 있다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

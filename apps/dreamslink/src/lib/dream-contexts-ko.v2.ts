@@ -4031,6 +4031,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "gun::여성이 총을 쏨": "여자가 여성이",
   "gun::권총 꿈을 봄": "언뜻",
   "gun::권총을 소유함": "소유했 가졌 지녔",
+  "gun::처녀에게 애인이 권총을 든 것을 봄": "애인이 심각한",
   "gutter::시궁창을 봄": "보았 있었",
   "gutter::시궁창에서 값진 것을 주움": "주웠 값진 건졌",
   "hail::우박이 쏟아지는 속에 있음": "쏟아지 속에 맞으며",
@@ -5374,6 +5375,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "religion::종교 문제로 처녀가 죄는 없으나 반항적임": "반항적 용감히",
   "religion::신앙의 흥분 속에서 스스로를 자책함": "자책 개성을",
   "religion::종교의 힘이 약해지는 것을 봄": "약해지는 조화",
+  "religion::종교 부흥회에 참석함": "부흥회 가족간",
+  "religion::부흥회에서 적극적으로 참여함": "적극적으로 참여했다",
   "rent::집을 빌림": "빌렸다 계약을",
   "rent::재산을 세놓지 못함": "세놓지 침체",
   "rent::집세를 냄": "냈다 만족스러",
@@ -5391,5 +5394,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "resign::제가 어떤 직위에서 사임함": "직위에서 새로운",
   "resign::남들이 사임한다는 소식을 들음": "남들이 소식을",
   "resuscitate::제가 소생함": "제가 손실 되찾고",
-  "resuscitate::남을 소생시킴": "남을 우정을"
+  "resuscitate::남을 소생시킴": "남을 우정을",
+  "revelation::즐거운 계시를 받음": "즐거운 밝은",
+  "revelation::음울한 계시를 받음": "음울한 낙담",
+  "revenge::복수함": "나약한 곤경",
+  "revenge::남이 저에게 복수함": "남이 저에게"
 };
