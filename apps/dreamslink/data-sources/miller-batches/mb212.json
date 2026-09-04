@@ -1,0 +1,30 @@
+{
+  "batch": 212,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rattan Cane",
+      "text": "To dream of a rattan cane, foretells that you will depend largely upon the judgment of others, and you should cultivate independence in planning and executing your own affairs.",
+      "note": "새 상징. 이미 있는 `cane`(사탕수수, 다른 뜻의 영어 동음이의어)과 안 겹치도록 term_en을 `rattan-cane`으로 갈라 짓는다"
+    },
+    {
+      "headword": "Rattle",
+      "text": "To dream of seeing a baby play with its rattle, omens peaceful contentment in the home, and enterprises will be honorable and full of gain. To a young woman, it augurs an early marriage and tender cares of her own. To give a baby a rattle, denotes unfortunate investments.",
+      "note": "새 상징 `rattle`(딸랑이)"
+    },
+    {
+      "headword": "Raven",
+      "text": "To dream of a raven, denotes reverse in fortune and inharmonious surroundings. For a young woman, it is implied that her lover will betray her.",
+      "note": "각주(See Crow)를 따라 기존 상징 `crow`(까마귀)에 합친다 — 영어 별칭 「raven」이 이미 있다. 첫 문장은 기존 「까마귀를 봄」(밀러 Crow, 「불운과 슬픔」)과 같은 그림·비슷한 결과라 건너뛰고, 「처녀의 정인이 배신함」만 새 그림이라 더한다"
+    },
+    {
+      "headword": "Razor",
+      "text": "To dream of a razor, portends disagreements and contentions over troubles. To cut yourself with one, denotes that you will be unlucky in some deal which you are about to make. Fighting with a razor, foretells disappointing business, and that some one will keep you harassed almost beyond endurance. A broken or rusty one, brings unavoidable distress.",
+      "note": "새 상징 `razor`(면도칼)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    "To dream of a raven, denotes reverse in fortune and inharmonious surroundings. — 기존 crow의 「까마귀를 봄」(밀러 Crow, 불운과 슬픔)과 같은 그림"
+  ]
+}

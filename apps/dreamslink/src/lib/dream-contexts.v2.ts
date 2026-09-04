@@ -1997,6 +1997,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "crow::까마귀를 봄": "seeing misfortune grief",
   "crow::까마귀 우는 소리를 들음": "cawing influenced disposal",
   "crow::젊은 남성에게 까마귀 꿈이 나타남": "young man succumbing",
+  "crow::처녀에게 까마귀 꿈이 나타나 정인이 배신함": "lover betray",
   "elephant::흰 코끼리를 봄": "white",
   "elephant::코끼리를 타고 있음": "riding solid honors",
   "elephant::코끼리 여럿을 봄": "many tremendous",
@@ -5335,5 +5336,12 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ransom::몸값을 치르게 됨": "deceived worked money",
   "ransom::처녀가 몸값 꿈을 꿈": "prognostic evil relieves",
   "raspberry::나무딸기를 봄": "entanglements interesting escape",
-  "raspberry::여성이 나무딸기를 먹음": "gossip circumstantial"
+  "raspberry::여성이 나무딸기를 먹음": "gossip circumstantial",
+  "rattle::아기가 딸랑이를 갖고 놂": "peaceful contentment honorable gain",
+  "rattle::처녀에게 아기가 딸랑이를 갖고 노는 꿈이 나타남": "marriage tender cares",
+  "rattle::아기에게 딸랑이를 줌": "give unfortunate investments",
+  "razor::면도칼 꿈을 꿈": "disagreements contentions troubles",
+  "razor::면도칼에 몸을 벰": "cut unlucky deal",
+  "razor::면도칼로 싸움": "fighting disappointing harassed",
+  "razor::부러지거나 녹슨 면도칼을 봄": "broken rusty distress"
 };

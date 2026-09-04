@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 211 — Rat-trap, 1개 헤드워드)
+// (지금 담긴 것: 배치 212 — Rattan Cane~Razor, 4개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,13 +30,18 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "mouse-trap", ctx: "쥐덫에 빠짐", text: "쥐덫에 빠졌다" },
-  { id: "mouse-trap", ctx: "쥐덫이 비어 있는 것을 봄", text: "쥐덫이 비어 있는 것을 보았다" },
-  { id: "mouse-trap", ctx: "부서진 쥐덫을 봄", text: "부서진 쥐덫을 보았다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(mouse-trap)의 옛 답이 그대로인가
-  { id: "mouse-trap", ctx: "쥐덫을 봄", text: "쥐덫이 덩그러니 놓여 있는 것을 보았다" },
-  { id: "mouse-trap", ctx: "쥐덫에 쥐가 가득 든 것을 봄", text: "쥐덫에 쥐가 가득 든 것을 보았다" },
-  { id: "mouse-trap", ctx: "쥐덫을 놓음", text: "쥐덫을 놓았다" },
+  { id: "rattan-cane", ctx: "등나무 지팡이 꿈을 꿈", text: "등나무 지팡이 꿈을 꾸었다" },
+  { id: "rattle", ctx: "아기가 딸랑이를 갖고 놂", text: "아기가 딸랑이를 갖고 놀았다" },
+  { id: "rattle", ctx: "처녀에게 아기가 딸랑이를 갖고 노는 꿈이 나타남", text: "처녀에게 아기가 딸랑이를 갖고 노는 꿈이 나타났다" },
+  { id: "rattle", ctx: "아기에게 딸랑이를 줌", text: "아기에게 딸랑이를 주었다" },
+  { id: "crow", ctx: "처녀에게 까마귀 꿈이 나타나 정인이 배신함", text: "처녀에게 까마귀 꿈이 나타나더니 정인이 배신했다" },
+  { id: "razor", ctx: "면도칼 꿈을 꿈", text: "면도칼 꿈을 꾸었다" },
+  { id: "razor", ctx: "면도칼에 몸을 벰", text: "면도칼에 몸을 베었다" },
+  { id: "razor", ctx: "면도칼로 싸움", text: "면도칼로 싸웠다" },
+  { id: "razor", ctx: "부러지거나 녹슨 면도칼을 봄", text: "녹슨 면도칼을 보았다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(crow)의 옛 답이 그대로인가
+  { id: "crow", ctx: "까마귀를 봄", text: "까마귀를 보았다" },
+  { id: "crow", ctx: "젊은 남성에게 까마귀 꿈이 나타남", text: "젊은 남자에게 까마귀 꿈이 나타났다" },
 ];
 
 let notFound = 0;

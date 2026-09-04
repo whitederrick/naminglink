@@ -127,6 +127,7 @@
     "m21.json",
     "m210.json",
     "m211.json",
+    "m212.json",
     "m22.json",
     "m23.json",
     "m24.json",
@@ -40800,6 +40801,95 @@
       ]
     },
     {
+      "id": "crow",
+      "term_ko": "까마귀",
+      "term_en": "crow",
+      "aliases": [
+        "까마귀들",
+        "까마귀 떼"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "까마귀를 봄",
+          "interpretation_ko": "불운과 슬픔이 따를 조짐",
+          "interpretation_en": "misfortune and grief",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crow",
+              "original": "To dream of seeing a crow, betokens misfortune and grief.",
+              "translation_ko": "까마귀를 보는 꿈은 불운과 슬픔을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "처녀에게 까마귀 꿈이 나타나 정인이 배신함",
+          "interpretation_ko": "정인이 저를 배신할 조짐",
+          "interpretation_en": "it is implied that her lover will betray her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Raven",
+              "original": "For a young woman, it is implied that her lover will betray her.",
+              "translation_ko": "처녀에게 까마귀 꿈이 나타나면, 정인이 저를 배신할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "까마귀 우는 소리를 들음",
+          "interpretation_ko": "남의 말에 이끌려 재산을 잘못 처분할 조짐",
+          "interpretation_en": "you will be influenced by others to make a bad disposal of property",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crow",
+              "original": "To hear crows cawing, you will be influenced by others to make a bad disposal of property.",
+              "translation_ko": "까마귀 우는 소리를 들으면, 남의 말에 이끌려 재산을 잘못 처분한다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 남성에게 까마귀 꿈이 나타남",
+          "interpretation_ko": "꾐에 넘어갈 조짐",
+          "interpretation_en": "he is indicated as succumbing to wiles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crow",
+              "original": "To a young man, it is indicative of his succumbing to the wiles of designing women.",
+              "translation_ko": "젊은 남성에게는 꾐에 넘어감을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "까마귀가 시끄럽게 지저귐",
+          "interpretation_ko": "술과 음식이 생길 조짐",
+          "interpretation_en": "a sign of food and drink",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "鴉雀相噪主酒食",
+              "translation_ko": "까마귀와 참새가 서로 시끄럽게 울면 술과 음식이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "crowd",
       "term_ko": "군중",
       "term_en": "crowd",
@@ -51236,81 +51326,6 @@
       ]
     },
     {
-      "id": "crow",
-      "term_ko": "까마귀",
-      "term_en": "crow",
-      "aliases": [
-        "까마귀들",
-        "까마귀 떼"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "까마귀를 봄",
-          "interpretation_ko": "불운과 슬픔이 따를 조짐",
-          "interpretation_en": "misfortune and grief",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Crow",
-              "original": "To dream of seeing a crow, betokens misfortune and grief.",
-              "translation_ko": "까마귀를 보는 꿈은 불운과 슬픔을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "까마귀 우는 소리를 들음",
-          "interpretation_ko": "남의 말에 이끌려 재산을 잘못 처분할 조짐",
-          "interpretation_en": "you will be influenced by others to make a bad disposal of property",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Crow",
-              "original": "To hear crows cawing, you will be influenced by others to make a bad disposal of property.",
-              "translation_ko": "까마귀 우는 소리를 들으면, 남의 말에 이끌려 재산을 잘못 처분한다"
-            }
-          ]
-        },
-        {
-          "context": "젊은 남성에게 까마귀 꿈이 나타남",
-          "interpretation_ko": "꾐에 넘어갈 조짐",
-          "interpretation_en": "he is indicated as succumbing to wiles",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Crow",
-              "original": "To a young man, it is indicative of his succumbing to the wiles of designing women.",
-              "translation_ko": "젊은 남성에게는 꾐에 넘어감을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "까마귀가 시끄럽게 지저귐",
-          "interpretation_ko": "술과 음식이 생길 조짐",
-          "interpretation_en": "a sign of food and drink",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "鴉雀相噪主酒食",
-              "translation_ko": "까마귀와 참새가 서로 시끄럽게 울면 술과 음식이 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "cup",
       "term_ko": "잔",
       "term_en": "cup",
@@ -58866,6 +58881,81 @@
               "locator": "Raft",
               "original": "If a raft breaks, or any such mishap befalls it, yourself or some friend will suffer from an accident, or sickness will bear unfortunate results.",
               "translation_ko": "뗏목이 부서지거나 탈이 나는 꿈은, 저나 벗이 사고를 겪거나, 병으로 궂은 결과를 볼 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "razor",
+      "term_ko": "면도칼",
+      "term_en": "razor",
+      "aliases": [
+        "면도칼이",
+        "면도칼을",
+        "면도칼로"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "면도칼 꿈을 꿈",
+          "interpretation_ko": "다툼과 갈등으로 문제가 생길 조짐",
+          "interpretation_en": "portends disagreements and contentions over troubles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Razor",
+              "original": "To dream of a razor, portends disagreements and contentions over troubles.",
+              "translation_ko": "면도칼 꿈은, 다툼과 갈등으로 문제가 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "면도칼에 몸을 벰",
+          "interpretation_ko": "장차 하려는 거래에서 불운을 겪을 조짐",
+          "interpretation_en": "denotes that you will be unlucky in some deal which you are about to make",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Razor",
+              "original": "To cut yourself with one, denotes that you will be unlucky in some deal which you are about to make.",
+              "translation_ko": "면도칼에 몸을 베는 꿈은, 장차 하려는 거래에서 불운을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "면도칼로 싸움",
+          "interpretation_ko": "사업이 실망스러워지고, 누군가 저를 거의 견딜 수 없을 만큼 괴롭힐 조짐",
+          "interpretation_en": "foretells disappointing business, and that some one will keep you harassed almost beyond endurance",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Razor",
+              "original": "Fighting with a razor, foretells disappointing business, and that some one will keep you harassed almost beyond endurance.",
+              "translation_ko": "면도칼로 싸우는 꿈은, 사업이 실망스러워지고 누군가 저를 거의 견딜 수 없을 만큼 괴롭힐 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부러지거나 녹슨 면도칼을 봄",
+          "interpretation_ko": "피할 수 없는 고통을 겪을 조짐",
+          "interpretation_en": "brings unavoidable distress",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Razor",
+              "original": "A broken or rusty one, brings unavoidable distress.",
+              "translation_ko": "부러지거나 녹슨 면도칼을 보는 꿈은, 피할 수 없는 고통을 겪을 조짐이다"
             }
           ]
         }
@@ -74724,6 +74814,66 @@
               "locator": "Rake",
               "original": "To see others raking, foretells that you will rejoice in the fortunate condition of others.",
               "translation_ko": "남이 갈퀴질하는 것을 보는 꿈은, 남의 다행스러운 형편을 기뻐할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rattle",
+      "term_ko": "딸랑이",
+      "term_en": "rattle",
+      "aliases": [
+        "딸랑이가",
+        "딸랑이를"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "처녀에게 아기가 딸랑이를 갖고 노는 꿈이 나타남",
+          "interpretation_ko": "이른 혼인을 하고 손수 다정하게 돌볼 제 아이를 얻을 조짐",
+          "interpretation_en": "it augurs an early marriage and tender cares of her own",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rattle",
+              "original": "To a young woman, it augurs an early marriage and tender cares of her own.",
+              "translation_ko": "처녀에게 아기가 딸랑이를 갖고 노는 꿈이 나타나면, 이른 혼인을 하고 손수 다정하게 돌볼 제 아이를 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아기가 딸랑이를 갖고 놂",
+          "interpretation_ko": "평화롭고 만족스러운 가정을 이루고, 사업이 떳떳하며 이득이 가득할 조짐",
+          "interpretation_en": "omens peaceful contentment in the home, and enterprises will be honorable and full of gain",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rattle",
+              "original": "To dream of seeing a baby play with its rattle, omens peaceful contentment in the home, and enterprises will be honorable and full of gain.",
+              "translation_ko": "아기가 딸랑이를 갖고 노는 것을 보는 꿈은, 평화롭고 만족스러운 가정을 이루고 사업이 떳떳하며 이득이 가득할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아기에게 딸랑이를 줌",
+          "interpretation_ko": "불운한 투자를 할 조짐",
+          "interpretation_en": "denotes unfortunate investments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rattle",
+              "original": "To give a baby a rattle, denotes unfortunate investments.",
+              "translation_ko": "아기에게 딸랑이를 주는 꿈은, 불운한 투자를 할 조짐이다"
             }
           ]
         }
@@ -111329,6 +111479,38 @@
               "locator": "Rapids",
               "original": "To imagine that you are being carried over rapids in a dream, denotes that you will suffer appalling loss from the neglect of duty and the courting of seductive pleasures.",
               "translation_ko": "급류에 휩쓸려 가는 꿈은, 본분을 소홀히 하고 유혹적인 쾌락을 좇다가 엄청난 손실을 입을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rattan-cane",
+      "term_ko": "등나무 지팡이",
+      "term_en": "rattan-cane",
+      "aliases": [
+        "등나무 지팡이가",
+        "등나무 지팡이를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "등나무 지팡이 꿈을 꿈",
+          "interpretation_ko": "남의 판단에 크게 기대게 될 조짐이니 스스로 계획하고 행할 자립심을 길러야 함",
+          "interpretation_en": "foretells that you will depend largely upon the judgment of others, and you should cultivate independence in planning and executing your own affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rattan Cane",
+              "original": "To dream of a rattan cane, foretells that you will depend largely upon the judgment of others, and you should cultivate independence in planning and executing your own affairs.",
+              "translation_ko": "등나무 지팡이 꿈은, 남의 판단에 크게 기대게 될 조짐이니 스스로 계획하고 행할 자립심을 길러야 한다"
             }
           ]
         }

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "rattan-cane",
+    "aliases": ["등나무 지팡이가", "등나무 지팡이를"],
+    "aliases_en": ["a rattan cane", "rattan canes"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "rattle",
+    "aliases": ["딸랑이가", "딸랑이를"],
+    "aliases_en": ["a rattle", "rattles"],
+    "contexts": {
+      "아기가 딸랑이를 갖고 놂": "아기가 놀고있는 평화롭",
+      "처녀에게 아기가 딸랑이를 갖고 노는 꿈이 나타남": "처녀에게 혼인 다정하게",
+      "아기에게 딸랑이를 줌": "주었다 투자"
+    },
+    "contexts_en": {
+      "아기가 딸랑이를 갖고 놂": "peaceful contentment honorable gain",
+      "처녀에게 아기가 딸랑이를 갖고 노는 꿈이 나타남": "marriage tender cares",
+      "아기에게 딸랑이를 줌": "give unfortunate investments"
+    }
+  },
+  {
+    "id": "razor",
+    "aliases": ["면도칼이", "면도칼을", "면도칼로"],
+    "aliases_en": ["a razor", "razors"],
+    "contexts": {
+      "면도칼 꿈을 꿈": "다툼과 갈등",
+      "면도칼에 몸을 벰": "베었다 거래에서",
+      "면도칼로 싸움": "싸웠다 실망스러운 괴롭힐",
+      "부러지거나 녹슨 면도칼을 봄": "부러지거나 녹슨"
+    },
+    "contexts_en": {
+      "면도칼 꿈을 꿈": "disagreements contentions troubles",
+      "면도칼에 몸을 벰": "cut unlucky deal",
+      "면도칼로 싸움": "fighting disappointing harassed",
+      "부러지거나 녹슨 면도칼을 봄": "broken rusty distress"
+    }
+  }
+]
