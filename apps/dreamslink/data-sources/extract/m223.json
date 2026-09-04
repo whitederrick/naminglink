@@ -1,0 +1,47 @@
+[
+  {
+    "term_ko": "재산",
+    "term_en": "wealth",
+    "context": "재물을 가짐",
+    "interpretation_ko": "부단한 노력과 정성으로 높은 자리에 오를 조짐",
+    "interpretation_en": "denotes that you will rise to high places by your constant exertion and attention to your affairs",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Riches",
+      "original": "To dream that you are possessed of riches, denotes that you will rise to high places by your constant exertion and attention to your affairs.",
+      "translation_ko": "재물을 가진 꿈은, 부단한 노력과 정성으로 높은 자리에 오를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수수께끼",
+    "term_en": "riddles",
+    "context": "수수께끼 꿈을 꿈",
+    "interpretation_ko": "혼란과 불만의 조짐",
+    "interpretation_en": "the import of riddles is confusion and dissatisfaction",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Riddles",
+      "original": "The import of riddles is confusion and dissatisfaction.",
+      "translation_ko": "수수께끼 꿈은, 혼란과 불만의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수수께끼",
+    "term_en": "riddles",
+    "context": "수수께끼를 풀려고 함",
+    "interpretation_ko": "인내심을 시험하고 돈을 쓰게 할 사업에 뛰어들 조짐",
+    "interpretation_en": "denotes you will engage in some enterprise which will try your patience and employ your money",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Riddles",
+      "original": "To dream that you are trying to solve riddles, denotes you will engage in some enterprise which will try your patience and employ your money.",
+      "translation_ko": "수수께끼를 풀려고 하는 꿈은, 인내심을 시험하고 돈을 쓰게 할 사업에 뛰어들 조짐이다"
+    }
+  }
+]

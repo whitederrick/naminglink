@@ -1,0 +1,18 @@
+{
+  "batch": 223,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Riches",
+      "text": "To dream that you are possessed of riches, denotes that you will rise to high places by your constant exertion and attention to your affairs.",
+      "note": "각주(See Wealth)를 따라 기존 상징 `wealth`(재산)에 합친다. 이미 있는 「너른 재산을 가짐」(밀러 Property, 「성공하고 벗을 얻음」)과는 결과가 달라 새로 더한다"
+    },
+    {
+      "headword": "Riddles",
+      "text": "To dream that you are trying to solve riddles, denotes you will engage in some enterprise which will try your patience and employ your money. The import of riddles is confusion and dissatisfaction.",
+      "note": "새 상징 `riddles`(수수께끼)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

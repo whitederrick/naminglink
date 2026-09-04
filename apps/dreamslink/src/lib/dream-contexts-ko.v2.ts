@@ -1543,6 +1543,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "wealth::집안에서 재물을 나눔": "나누 헤어지고 무너",
   "wealth::처녀가 참된 재물과 안락을 누림": "처녀가 참된 실속",
   "wealth::너른 재산을 가짐": "너른 성공하고",
+  "wealth::재물을 가짐": "재물을 노력과",
   "wicked-person::악한 사람과 말을 나눔": "대화 말을나 이야기 얘기",
   "wicked-person::악한 사람이 서로 끌어당김": "끌어당 잡아끌 붙잡 끌려",
   "horse::말이 뜰 앞에서 춤추듯 뛰놂": "춤추 뛰놀 뛰노 마당",
@@ -5416,5 +5417,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "ribbon::처녀가 리본으로 치장함": "치장했다 혼담",
   "ribbon::다른 처녀들이 리본을 착용한 것을 봄": "다른 처녀들",
   "ribbon::리본을 삼": "샀다",
-  "ribbon::리본 때문에 화가 나거나 언짢음": "화가 언짢"
+  "ribbon::리본 때문에 화가 나거나 언짢음": "화가 언짢",
+  "riddles::수수께끼를 풀려고 함": "풀려고 인내심",
+  "riddles::수수께끼 꿈을 꿈": "혼란과 불만"
 };

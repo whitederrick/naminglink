@@ -1539,6 +1539,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "wealth::집안에서 재물을 나눔": "separation ruin",
   "wealth::처녀가 참된 재물과 안락을 누림": "solid real comforts wake pleasure",
   "wealth::너른 재산을 가짐": "vast successful friendships",
+  "wealth::재물을 가짐": "possessed rise exertion",
   "wicked-person::악한 사람과 말을 나눔": "talking conversation spoke chatting",
   "wicked-person::악한 사람이 서로 끌어당김": "pulling dragging tugging grabbing",
   "horse::말이 뜰 앞에서 춤추듯 뛰놂": "dancing prancing frolicking courtyard yard",
@@ -5412,5 +5413,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ribbon::처녀가 리본으로 치장함": "decorating marriage frivolity",
   "ribbon::다른 처녀들이 리본을 착용한 것을 봄": "girls wearing rivalry",
   "ribbon::리본을 삼": "buys pleasant easy",
-  "ribbon::리본 때문에 화가 나거나 언짢음": "angry displeased dividing"
+  "ribbon::리본 때문에 화가 나거나 언짢음": "angry displeased dividing",
+  "riddles::수수께끼를 풀려고 함": "solve patience enterprise",
+  "riddles::수수께끼 꿈을 꿈": "confusion dissatisfaction import"
 };

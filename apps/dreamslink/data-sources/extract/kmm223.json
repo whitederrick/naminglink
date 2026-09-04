@@ -1,0 +1,15 @@
+[
+  {
+    "id": "riddles",
+    "aliases": ["수수께끼가", "수수께끼를"],
+    "aliases_en": ["a riddle", "riddles"],
+    "contexts": {
+      "수수께끼를 풀려고 함": "풀려고 인내심",
+      "수수께끼 꿈을 꿈": "혼란과 불만"
+    },
+    "contexts_en": {
+      "수수께끼를 풀려고 함": "solve patience enterprise",
+      "수수께끼 꿈을 꿈": "confusion dissatisfaction import"
+    }
+  }
+]

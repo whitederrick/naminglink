@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 222 — Rice, 1개 헤드워드)
+// (지금 담긴 것: 배치 223 — Riches~Riddles, 2개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,13 +30,12 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "rice", ctx: "쌀을 봄", text: "쌀을 보았다" },
-  { id: "rice", ctx: "쌀을 먹음", text: "쌀을 먹었다" },
-  { id: "rice", ctx: "쌀에 흙이 섞이거나 더러움", text: "쌀에 흙이 섞여 더러웠다" },
-  { id: "rice", ctx: "처녀가 쌀로 밥을 지음", text: "처녀가 쌀로 밥을 지었다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(rice)의 옛 답이 그대로인가
-  { id: "rice", ctx: "새 옷에 쌀을 모아 담음", text: "새 옷에 쌀을 모아 담았다" },
-  { id: "rice", ctx: "쌀과 곡식이 수북이 쌓임", text: "쌀과 곡식이 수북이 쌓였다" },
+  { id: "wealth", ctx: "재물을 가짐", text: "재물을 가졌다" },
+  { id: "riddles", ctx: "수수께끼를 풀려고 함", text: "수수께끼를 풀려고 했다" },
+  { id: "riddles", ctx: "수수께끼 꿈을 꿈", text: "수수께끼 꿈을 꾸었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(wealth)의 옛 답이 그대로인가
+  { id: "wealth", ctx: "너른 재산을 가짐", text: "너른 재산을 가졌다" },
+  { id: "wealth", ctx: "처녀가 참된 재물과 안락을 누림", text: "처녀가 참된 재물과 안락을 누렸다" },
 ];
 
 let notFound = 0;

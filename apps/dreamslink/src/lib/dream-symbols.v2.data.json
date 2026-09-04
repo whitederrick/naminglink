@@ -139,6 +139,7 @@
     "m220.json",
     "m221.json",
     "m222.json",
+    "m223.json",
     "m23.json",
     "m24.json",
     "m25.json",
@@ -60167,6 +60168,82 @@
       ]
     },
     {
+      "id": "wealth",
+      "term_ko": "재물",
+      "term_en": "wealth",
+      "aliases": [
+        "재산",
+        "재화",
+        "패물"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "처녀가 참된 재물과 안락을 누림",
+          "interpretation_ko": "참된 재물의 꿈은 깨어나서 실제의 즐거움을 찾을 길조 — 요정 같은 호사의 꿈은 깨어나서 낙담만 남을 경고다",
+          "interpretation_en": "when young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Opulence",
+              "original": "When young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments; as the dreams are warnings, superinduced by their practicality being supplanted by their excitable imagination and lazy desires, which should be overcome with energy, and the replacing of practicality on her base.",
+              "translation_ko": "처녀가 참되고 실속 있는 재물과 안락을 누리는 꿈을 꾸면 늘 깨어나서 실제의 즐거움을 찾게 되지만, 이상하거나 요정 같은 사치와 기쁨의 꿈에 둘러싸이면 깨어난 뒤 낙담만 가득할 것이다. 이런 꿈은 실속이 들뜬 상상과 게으른 욕심에 밀려난 데서 오는 경고이니, 기운을 내어 실속을 되찾아야 한다"
+            }
+          ]
+        },
+        {
+          "context": "너른 재산을 가짐",
+          "interpretation_ko": "일에서 성공하고 벗을 얻을 조짐",
+          "interpretation_en": "denotes that you will be successful in affairs, and gain friendships",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Property",
+              "original": "To dream that you own vast property, denotes that you will be successful in affairs, and gain friendships.",
+              "translation_ko": "너른 재산을 가진 꿈은, 일에서 성공하고 벗을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "재물을 가짐",
+          "interpretation_ko": "부단한 노력과 정성으로 높은 자리에 오를 조짐",
+          "interpretation_en": "denotes that you will rise to high places by your constant exertion and attention to your affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Riches",
+              "original": "To dream that you are possessed of riches, denotes that you will rise to high places by your constant exertion and attention to your affairs.",
+              "translation_ko": "재물을 가진 꿈은, 부단한 노력과 정성으로 높은 자리에 오를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "집안에서 재물을 나눔",
+          "interpretation_ko": "헤어지고 무너질 조짐",
+          "interpretation_en": "a sign of separation and ruin",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "家中分財主離敗",
+              "translation_ko": "집안에서 재물을 나누면 헤어지고 무너진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wheat-flour",
       "term_ko": "밀가루",
       "term_en": "wheat flour",
@@ -76385,68 +76462,6 @@
               "locator": "宮室屋宇倉庫",
               "original": "牆上掘土主更政",
               "translation_ko": "담 위에서 흙을 파면 정사가 바뀐다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wealth",
-      "term_ko": "재물",
-      "term_en": "wealth",
-      "aliases": [
-        "재산",
-        "재화",
-        "패물"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "처녀가 참된 재물과 안락을 누림",
-          "interpretation_ko": "참된 재물의 꿈은 깨어나서 실제의 즐거움을 찾을 길조 — 요정 같은 호사의 꿈은 깨어나서 낙담만 남을 경고다",
-          "interpretation_en": "when young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Opulence",
-              "original": "When young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments; as the dreams are warnings, superinduced by their practicality being supplanted by their excitable imagination and lazy desires, which should be overcome with energy, and the replacing of practicality on her base.",
-              "translation_ko": "처녀가 참되고 실속 있는 재물과 안락을 누리는 꿈을 꾸면 늘 깨어나서 실제의 즐거움을 찾게 되지만, 이상하거나 요정 같은 사치와 기쁨의 꿈에 둘러싸이면 깨어난 뒤 낙담만 가득할 것이다. 이런 꿈은 실속이 들뜬 상상과 게으른 욕심에 밀려난 데서 오는 경고이니, 기운을 내어 실속을 되찾아야 한다"
-            }
-          ]
-        },
-        {
-          "context": "너른 재산을 가짐",
-          "interpretation_ko": "일에서 성공하고 벗을 얻을 조짐",
-          "interpretation_en": "denotes that you will be successful in affairs, and gain friendships",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Property",
-              "original": "To dream that you own vast property, denotes that you will be successful in affairs, and gain friendships.",
-              "translation_ko": "너른 재산을 가진 꿈은, 일에서 성공하고 벗을 얻을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "집안에서 재물을 나눔",
-          "interpretation_ko": "헤어지고 무너질 조짐",
-          "interpretation_en": "a sign of separation and ruin",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "家中分財主離敗",
-              "translation_ko": "집안에서 재물을 나누면 헤어지고 무너진다"
             }
           ]
         }
@@ -96374,7 +96389,8 @@
             }
           ]
         }
-      ]
+      ],
+      "label_ko": "수수께끼(불가사의)"
     },
     {
       "id": "napkin",
@@ -100798,6 +100814,53 @@
           ]
         }
       ]
+    },
+    {
+      "id": "riddles",
+      "term_ko": "수수께끼",
+      "term_en": "riddles",
+      "aliases": [
+        "수수께끼가",
+        "수수께끼를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "수수께끼 꿈을 꿈",
+          "interpretation_ko": "혼란과 불만의 조짐",
+          "interpretation_en": "the import of riddles is confusion and dissatisfaction",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Riddles",
+              "original": "The import of riddles is confusion and dissatisfaction.",
+              "translation_ko": "수수께끼 꿈은, 혼란과 불만의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "수수께끼를 풀려고 함",
+          "interpretation_ko": "인내심을 시험하고 돈을 쓰게 할 사업에 뛰어들 조짐",
+          "interpretation_en": "denotes you will engage in some enterprise which will try your patience and employ your money",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Riddles",
+              "original": "To dream that you are trying to solve riddles, denotes you will engage in some enterprise which will try your patience and employ your money.",
+              "translation_ko": "수수께끼를 풀려고 하는 꿈은, 인내심을 시험하고 돈을 쓰게 할 사업에 뛰어들 조짐이다"
+            }
+          ]
+        }
+      ],
+      "label_ko": "수수께끼(퀴즈)"
     },
     {
       "id": "rock",
