@@ -155,6 +155,7 @@
     "m235.json",
     "m236.json",
     "m237.json",
+    "m238.json",
     "m24.json",
     "m25.json",
     "m26.json",
@@ -18836,6 +18837,169 @@
       ]
     },
     {
+      "id": "gallows",
+      "term_ko": "교수대",
+      "term_en": "gallows",
+      "aliases": [
+        "교수대",
+        "교수형",
+        "목매달았다",
+        "목매달아",
+        "목을 매달았다",
+        "목맴",
+        "처형대"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "처형대 꿈을 꿈",
+          "interpretation_ko": "바라던 애정의 대상을 얻지 못해 크게 실망할 조짐",
+          "interpretation_en": "denotes that you will undergo keen disappointment in failing to secure the object of your affection",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scaffold",
+              "original": "To dream of a scaffold, denotes that you will undergo keen disappointment in failing to secure the object of your affection.",
+              "translation_ko": "처형대 꿈은, 바라던 애정의 대상을 얻지 못해 크게 실망할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처형대에 오름",
+          "interpretation_ko": "저지르지 않은 일로 벗들에게 오해받고 비난받을 조짐",
+          "interpretation_en": "you will be misunderstood and censured by your friends for some action, which you never committed",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scaffold",
+              "original": "To ascend one, you will be misunderstood and censured by your friends for some action, which you never committed.",
+              "translation_ko": "처형대에 오르는 꿈은, 저지르지 않은 일로 벗들에게 오해받고 비난받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처형대에서 내려감",
+          "interpretation_ko": "잘못을 저질러 그 벌을 받게 될 조짐",
+          "interpretation_en": "you will be guilty of wrong doing, and you will suffer the penalty",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scaffold",
+              "original": "To decend one, you will be guilty of wrong doing, and you will suffer the penalty.",
+              "translation_ko": "처형대에서 내려가는 꿈은, 잘못을 저질러 그 벌을 받게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처형대에서 떨어짐",
+          "interpretation_ko": "남을 속이고 해치는 데 관여하다가 뜻밖에 놀랄 조짐",
+          "interpretation_en": "you will be unexpectedly surprised while engaged in deceiving and working injury to others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scaffold",
+              "original": "To fall from one, you will be unexpectedly surprised while engaged in deceiving and working injury to others.",
+              "translation_ko": "처형대에서 떨어지는 꿈은, 남을 속이고 해치는 데 관여하다가 뜻밖에 놀랄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벗이 교수대에 오른 것을 봄",
+          "interpretation_ko": "다급한 고비를 결단으로 넘겨야 하며 그러지 못하면 큰 화가 닥칠 흉한 조짐",
+          "interpretation_en": "foretells that desperate emergencies must be met with decision, or a great calamity will befall you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "To dream of seeing a friend on the gallows of execution, foretells that desperate emergencies must be met with decision, or a great calamity will befall you.",
+              "translation_ko": "벗이 교수대에 오른 것을 보는 꿈은, 다급한 고비를 결단으로 맞아야 하고 그러지 않으면 큰 화가 닥침을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "제가 교수대에 오름",
+          "interpretation_ko": "거짓된 벗들의 모진 마음 때문에 시달릴 흉한 조짐",
+          "interpretation_en": "denotes that you will suffer from the maliciousness of false friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "To dream that you are on a gallows, denotes that you will suffer from the maliciousness of false friends.",
+              "translation_ko": "제가 교수대에 오른 꿈은, 거짓된 벗들의 모진 마음에 시달림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 정인이 교수대에서 죽는 것을 봄",
+          "interpretation_ko": "속셈이 검은 사람과 짝을 맺을 흉한 조짐",
+          "interpretation_en": "denotes that she will marry an unscrupulous and designing man",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "For a young woman to dream that she sees her lover executed by this means, denotes that she will marry an unscrupulous and designing man.",
+              "translation_ko": "처녀가 정인이 이렇게 죽는 것을 보는 꿈은, 속셈이 검은 사람과 짝을 맺음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "교수대에서 남을 구해 냄",
+          "interpretation_ko": "바라던 것을 손에 넣을 길한 조짐",
+          "interpretation_en": "it portends desirable acquisitions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "If you rescue any one from the gallows, it portends desirable acquisitions.",
+              "translation_ko": "교수대에서 누군가를 구해 내면, 바라던 것을 얻음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "원수를 목매닮",
+          "interpretation_ko": "모든 자리에서 이길 길한 조짐",
+          "interpretation_en": "denotes victory in all spheres",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gallows",
+              "original": "To dream that you hang an enemy, denotes victory in all spheres.",
+              "translation_ko": "원수를 목매다는 꿈은, 모든 자리에서의 이김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "교수형을 보려고 사람들이 몰려듦",
+          "interpretation_ko": "여러 원수가 한데 뭉쳐 내 자리를 무너뜨리려 할 흉한 조짐",
+          "interpretation_en": "denotes that many enemies will club together to try to demolish your position",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hanging",
+              "original": "To see a large concourse of people gathering at a hanging, denotes that many enemies will club together to try to demolish your position in their midst.",
+              "translation_ko": "교수형에 사람들이 크게 몰려드는 것을 보면, 여러 원수가 한데 뭉쳐 내 자리를 무너뜨리려 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ghost",
       "term_ko": "귀신",
       "term_en": "ghost",
@@ -21362,155 +21526,6 @@
               "locator": "Coffee",
               "original": "Green coffee, denotes you have bold enemies who will show you no quarter, but will fight for your overthrow.",
               "translation_ko": "덜 익은 푸른 커피는, 봐주는 법 없이 나를 무너뜨리려 싸울 대담한 적이 있음을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "gallows",
-      "term_ko": "교수대",
-      "term_en": "gallows",
-      "aliases": [
-        "교수대",
-        "교수형",
-        "목매달았다",
-        "목매달아",
-        "목을 매달았다",
-        "목맴",
-        "처형대"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "처형대 꿈을 꿈",
-          "interpretation_ko": "바라던 애정의 대상을 얻지 못해 크게 실망할 조짐",
-          "interpretation_en": "denotes that you will undergo keen disappointment in failing to secure the object of your affection",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Scaffold",
-              "original": "To dream of a scaffold, denotes that you will undergo keen disappointment in failing to secure the object of your affection.",
-              "translation_ko": "처형대 꿈은, 바라던 애정의 대상을 얻지 못해 크게 실망할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "처형대에 오름",
-          "interpretation_ko": "저지르지 않은 일로 벗들에게 오해받고 비난받을 조짐",
-          "interpretation_en": "you will be misunderstood and censured by your friends for some action, which you never committed",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Scaffold",
-              "original": "To ascend one, you will be misunderstood and censured by your friends for some action, which you never committed.",
-              "translation_ko": "처형대에 오르는 꿈은, 저지르지 않은 일로 벗들에게 오해받고 비난받을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "처형대에서 내려감",
-          "interpretation_ko": "잘못을 저질러 그 벌을 받게 될 조짐",
-          "interpretation_en": "you will be guilty of wrong doing, and you will suffer the penalty",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Scaffold",
-              "original": "To decend one, you will be guilty of wrong doing, and you will suffer the penalty.",
-              "translation_ko": "처형대에서 내려가는 꿈은, 잘못을 저질러 그 벌을 받게 될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "벗이 교수대에 오른 것을 봄",
-          "interpretation_ko": "다급한 고비를 결단으로 넘겨야 하며 그러지 못하면 큰 화가 닥칠 흉한 조짐",
-          "interpretation_en": "foretells that desperate emergencies must be met with decision, or a great calamity will befall you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "To dream of seeing a friend on the gallows of execution, foretells that desperate emergencies must be met with decision, or a great calamity will befall you.",
-              "translation_ko": "벗이 교수대에 오른 것을 보는 꿈은, 다급한 고비를 결단으로 맞아야 하고 그러지 않으면 큰 화가 닥침을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "제가 교수대에 오름",
-          "interpretation_ko": "거짓된 벗들의 모진 마음 때문에 시달릴 흉한 조짐",
-          "interpretation_en": "denotes that you will suffer from the maliciousness of false friends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "To dream that you are on a gallows, denotes that you will suffer from the maliciousness of false friends.",
-              "translation_ko": "제가 교수대에 오른 꿈은, 거짓된 벗들의 모진 마음에 시달림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 정인이 교수대에서 죽는 것을 봄",
-          "interpretation_ko": "속셈이 검은 사람과 짝을 맺을 흉한 조짐",
-          "interpretation_en": "denotes that she will marry an unscrupulous and designing man",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "For a young woman to dream that she sees her lover executed by this means, denotes that she will marry an unscrupulous and designing man.",
-              "translation_ko": "처녀가 정인이 이렇게 죽는 것을 보는 꿈은, 속셈이 검은 사람과 짝을 맺음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "교수대에서 남을 구해 냄",
-          "interpretation_ko": "바라던 것을 손에 넣을 길한 조짐",
-          "interpretation_en": "it portends desirable acquisitions",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "If you rescue any one from the gallows, it portends desirable acquisitions.",
-              "translation_ko": "교수대에서 누군가를 구해 내면, 바라던 것을 얻음을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "원수를 목매닮",
-          "interpretation_ko": "모든 자리에서 이길 길한 조짐",
-          "interpretation_en": "denotes victory in all spheres",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gallows",
-              "original": "To dream that you hang an enemy, denotes victory in all spheres.",
-              "translation_ko": "원수를 목매다는 꿈은, 모든 자리에서의 이김을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "교수형을 보려고 사람들이 몰려듦",
-          "interpretation_ko": "여러 원수가 한데 뭉쳐 내 자리를 무너뜨리려 할 흉한 조짐",
-          "interpretation_en": "denotes that many enemies will club together to try to demolish your position",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Hanging",
-              "original": "To see a large concourse of people gathering at a hanging, denotes that many enemies will club together to try to demolish your position in their midst.",
-              "translation_ko": "교수형에 사람들이 크게 몰려드는 것을 보면, 여러 원수가 한데 뭉쳐 내 자리를 무너뜨리려 한다"
             }
           ]
         }
@@ -77949,6 +77964,68 @@
       ]
     },
     {
+      "id": "scales",
+      "term_ko": "저울",
+      "term_en": "scales",
+      "aliases": [
+        "저울추",
+        "저울대",
+        "천칭"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "저울에 닮",
+          "interpretation_ko": "정의가 처신을 다스리고, 번영이 넓어지는 것을 보게 될 조짐",
+          "interpretation_en": "portends that justice will temper your conduct, and you will see your prosperity widening",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scales",
+              "original": "To dream of weighing on scales, portends that justice will temper your conduct, and you will see your prosperity widening.",
+              "translation_ko": "저울에 다는 꿈은, 정의가 처신을 다스리고 번영이 넓어지는 것을 보게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 연인을 저울에 닮",
+          "interpretation_ko": "연인이 견실한 사람임을 알게 되고, 성실함이 사랑의 무게를 채울 조짐",
+          "interpretation_en": "the indications are that she will find him of solid worth, and faithfulness will balance her love",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scales",
+              "original": "For a young woman to weigh her lover, the indications are that she will find him of solid worth, and faithfulness will balance her love.",
+              "translation_ko": "여성이 연인을 저울에 다는 꿈은, 연인이 견실한 사람임을 알게 되고 성실함이 사랑의 무게를 채울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 저울을 건네줌",
+          "interpretation_ko": "권세와 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining power and position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "人與秤者主權位",
+              "translation_ko": "남이 저울을 주면 권세와 지위를 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "scissors",
       "term_ko": "가위",
       "term_en": "scissors",
@@ -103643,6 +103720,187 @@
       ]
     },
     {
+      "id": "scaldhead",
+      "term_ko": "두피 딱지병",
+      "term_en": "scaldhead",
+      "aliases": [
+        "두피 딱지병",
+        "딱지머리"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남이 두피 딱지병에 걸린 것을 봄",
+          "interpretation_ko": "가까운 이의 병이나 부재로 불안을 느낄 조짐",
+          "interpretation_en": "there will be uneasiness felt over the sickness or absence of some one near to you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scaldhead",
+              "original": "To see any one with a scaldhead in your dreams, there will be uneasiness felt over the sickness or absence of some one near to you.",
+              "translation_ko": "남이 두피 딱지병에 걸린 것을 보는 꿈은, 가까운 이의 병이나 부재로 불안을 느낄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신의 머리가 두피 딱지병에 걸림",
+          "interpretation_ko": "자신이 병이나 사고를 겪을 위험이 있을 조짐",
+          "interpretation_en": "you are in danger of personal illness or accidents",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scaldhead",
+              "original": "If you dream that your own head is thus afflicted, you are in danger of personal illness or accidents.",
+              "translation_ko": "자신의 머리가 두피 딱지병에 걸리는 꿈은, 자신이 병이나 사고를 겪을 위험이 있을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scandal",
+      "term_ko": "추문",
+      "term_en": "scandal",
+      "aliases": [
+        "추문"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "자신이 추문의 대상이 됨",
+          "interpretation_ko": "좋고 참된 벗을 가리지 않고 방탕한 이들과 어울려 즐기며, 사업이 침체를 겪을 조짐",
+          "interpretation_en": "denotes that you are not particular to select good and true companions, but rather enjoy having fast men and women contribute to your pleasure. Trade and business of any character will suffer dulness after this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scandal",
+              "original": "To dream that you are an object of scandal, denotes that you are not particular to select good and true companions, but rather enjoy having fast men and women contribute to your pleasure. Trade and business of any character will suffer dulness after this dream.",
+              "translation_ko": "자신이 추문의 대상이 되는 꿈은, 좋고 참된 벗을 가리지 않고 방탕한 이들과 어울려 즐기며 사업이 침체를 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 추문을 이야기함",
+          "interpretation_ko": "명예롭다고 믿게 속이는 이에게 마땅히 아껴야 할 호의를 내줄 조짐. 그 뒤 혼인은 좀처럼 뒤따르지 않음",
+          "interpretation_en": "foretells that she will confer favors, which should be sacred, to some one who will deceive her into believing that he is honorably inclined. Marriage rarely follows swiftly after dreaming of scandal",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scandal",
+              "original": "For a young woman to dream that she discussed a scandal, foretells that she will confer favors, which should be sacred, to some one who will deceive her into believing that he is honorably inclined. Marriage rarely follows swiftly after dreaming of scandal.",
+              "translation_ko": "여성이 추문을 이야기하는 꿈은, 명예롭다고 믿게 속이는 이에게 마땅히 아껴야 할 호의를 내줄 조짐이다. 그 뒤 혼인은 좀처럼 뒤따르지 않는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scarlet-fever",
+      "term_ko": "성홍열",
+      "term_en": "scarlet fever",
+      "aliases": [
+        "성홍열"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "성홍열 꿈을 꿈",
+          "interpretation_ko": "병에 걸릴 위험이 있거나 적의 손아귀에 있을 조짐",
+          "interpretation_en": "foretells you are in danger of sickness, or in the power of an enemy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scarlet Fever",
+              "original": "To dream of scarlet fever, foretells you are in danger of sickness, or in the power of an enemy.",
+              "translation_ko": "성홍열 꿈은, 병에 걸릴 위험이 있거나 적의 손아귀에 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "친척이 성홍열로 급사함",
+          "interpretation_ko": "악랄한 배신에 압도당할 조짐",
+          "interpretation_en": "foretells you will be overcome by villainous treachery",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Scarlet Fever",
+              "original": "To dream a relative dies suddenly with it, foretells you will be overcome by villainous treachery.",
+              "translation_ko": "친척이 성홍열로 급사하는 꿈은, 악랄한 배신에 압도당할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sceptre",
+      "term_ko": "왕홀",
+      "term_en": "sceptre",
+      "aliases": [
+        "왕홀"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "왕홀을 휘두름",
+          "interpretation_ko": "벗들에게 신망받는 자리로 뽑히고, 그 기대를 저버리지 않을 조짐",
+          "interpretation_en": "foretells that you will be chosen by friends to positions of trust, and you will not disappoint their estimate of your ability",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sceptre",
+              "original": "To imagine in your dreams that you wield a sceptre, foretells that you will be chosen by friends to positions of trust, and you will not disappoint their estimate of your ability.",
+              "translation_ko": "왕홀을 휘두르는 꿈은, 벗들에게 신망받는 자리로 뽑히고 그 기대를 저버리지 않을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 자신에게 왕홀을 휘두름",
+          "interpretation_ko": "스스로 힘써 나서기보다 남의 지시 아래서 일자리를 구할 조짐",
+          "interpretation_en": "denotes that you will seek employment under the supervision of others, rather than exert your energies to act for yourself",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sceptre",
+              "original": "To dream that others wield the sceptre over you, denotes that you will seek employment under the supervision of others, rather than exert your energies to act for yourself.",
+              "translation_ko": "남이 자신에게 왕홀을 휘두르는 꿈은, 스스로 힘써 나서기보다 남의 지시 아래서 일자리를 구할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "seal",
       "term_ko": "도장",
       "term_en": "seal",
@@ -116340,33 +116598,31 @@
       ]
     },
     {
-      "id": "scales",
-      "term_ko": "저울",
-      "term_en": "scales",
+      "id": "scarcity",
+      "term_ko": "궁핍",
+      "term_en": "scarcity",
       "aliases": [
-        "저울추",
-        "저울대",
-        "천칭"
+        "궁핍"
       ],
       "category": "object",
-      "polarity": "positive",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "남이 저울을 건네줌",
-          "interpretation_ko": "권세와 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining power and position",
-          "polarity": "positive",
+          "context": "궁핍 꿈을 꿈",
+          "interpretation_ko": "집안에 근심이 있고 일이 기울 조짐",
+          "interpretation_en": "foretells sorrow in the household and failing affairs",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "人與秤者主權位",
-              "translation_ko": "남이 저울을 주면 권세와 지위를 얻는다"
+              "work": "miller",
+              "locator": "Scarcity",
+              "original": "To dream of scarcity, foretells sorrow in the household and failing affairs.",
+              "translation_ko": "궁핍 꿈은, 집안에 근심이 있고 일이 기울 조짐이다"
             }
           ]
         }

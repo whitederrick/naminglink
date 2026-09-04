@@ -1355,6 +1355,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ring::처녀가 반지를 받음": "receive worries cease",
   "ring::남이 반지를 낀 것을 봄": "others prosperity friends",
   "ring::금과 옥으로 된 가락지를 얻음": "jade noble bearing",
+  "scales::저울에 닮": "justice temper widening",
+  "scales::여성이 연인을 저울에 닮": "weigh lover solid faithfulness",
+  "scales::남이 저울을 건네줌": "handed given someone",
   "door::문이 높고 큼": "towering large huge grand",
   "door::문을 새로 냄": "installed added cut opening",
   "door::문이 홀연히 열림": "suddenly abruptly unexpectedly",
@@ -3973,6 +3976,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "gallows::처형대 꿈을 꿈": "keen disappointment affection",
   "gallows::처형대에 오름": "misunderstood censured undeserved",
   "gallows::처형대에서 내려감": "guilty wrongdoing penalty",
+  "gallows::처형대에서 떨어짐": "fall surprised deceiving",
   "game::사냥감을 잡음": "shooting killing fortunate undertakings",
   "game::사냥감을 놓침": "fail take hunt management loss",
   "garbage::쓰레기 더미를 봄": "heaps scandal unfavorable",
@@ -5564,5 +5568,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "sausage::소시지를 만듦": "making successful undertakings",
   "sausage::소시지를 먹음": "eat humble pleasant",
   "scabbard::칼집 꿈을 꿈": "misunderstanding amicably settled",
-  "scabbard::제 칼집이 어디 있는지 궁금해함": "wonder overpowering difficulties"
+  "scabbard::제 칼집이 어디 있는지 궁금해함": "wonder overpowering difficulties",
+  "scaldhead::남이 두피 딱지병에 걸린 것을 봄": "uneasiness sickness absence",
+  "scaldhead::자신의 머리가 두피 딱지병에 걸림": "own head danger accidents",
+  "scandal::자신이 추문의 대상이 됨": "companions pleasure dulness",
+  "scandal::여성이 추문을 이야기함": "discussed deceive marriage",
+  "scarlet-fever::성홍열 꿈을 꿈": "danger sickness enemy",
+  "scarlet-fever::친척이 성홍열로 급사함": "relative dies treachery",
+  "sceptre::왕홀을 휘두름": "chosen friends trust",
+  "sceptre::남이 자신에게 왕홀을 휘두름": "others supervision employment"
 };

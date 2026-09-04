@@ -1203,8 +1203,16 @@
       "weighing scale",
       "steelyard"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "저울에 닮": "정의가 처신을다스 번영이넓어",
+      "여성이 연인을 저울에 닮": "여성이 연인을 견실한",
+      "남이 저울을 건네줌": "건네주 건넸"
+    },
+    "contexts_en": {
+      "저울에 닮": "justice temper widening",
+      "여성이 연인을 저울에 닮": "weigh lover solid faithfulness",
+      "남이 저울을 건네줌": "handed given someone"
+    }
   },
   {
     "id": "softshell-turtle",

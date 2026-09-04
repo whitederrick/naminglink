@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 237 — Sausage·Saw·Sawdust·Scabbard·Scaffold)
+// (지금 담긴 것: 배치 238 — Scaffold 나머지·Scaldhead·Scales·Scandal·Scarcity·Scarlet Fever·Sceptre)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,26 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "sausage", ctx: "소시지를 만듦", text: "소시지를 만들었다" },
-  { id: "sausage", ctx: "소시지를 먹음", text: "소시지를 먹었다" },
-  { id: "saw", ctx: "톱을 손으로 사용함", text: "톱을 손으로 사용했다" },
-  { id: "saw", ctx: "기계 속 큰 톱들을 봄", text: "기계 속 큰 톱들을 보았다" },
-  { id: "saw", ctx: "여성이 기계 속 큰 톱들을 봄", text: "여성이 기계 속 큰 톱들을 보았다" },
-  { id: "saw", ctx: "녹슬거나 부러진 톱을 봄", text: "녹슬거나 부러진 톱을 보았다" },
-  { id: "saw", ctx: "톱을 잃어버림", text: "톱을 잃어버렸다" },
-  { id: "saw", ctx: "톱질 소리를 들음", text: "톱질 소리를 들었다" },
-  { id: "saw", ctx: "녹슨 톱을 찾음", text: "녹슨 톱을 찾았다" },
-  { id: "saw", ctx: "등에 톱을 짐", text: "등에 톱을 졌다" },
-  { id: "sawdust", ctx: "톱밥 꿈을 꿈", text: "톱밥 꿈을 꾸었다" },
-  { id: "scabbard", ctx: "칼집 꿈을 꿈", text: "칼집 꿈을 꾸었다" },
-  { id: "scabbard", ctx: "제 칼집이 어디 있는지 궁금해함", text: "제 칼집이 어디 있는지 궁금해했다" },
+  { id: "gallows", ctx: "처형대에서 떨어짐", text: "처형대에서 떨어졌다" },
+  { id: "scaldhead", ctx: "남이 두피 딱지병에 걸린 것을 봄", text: "남이 두피 딱지병에 걸린 것을 보았다" },
+  { id: "scaldhead", ctx: "자신의 머리가 두피 딱지병에 걸림", text: "자신의 머리가 두피 딱지병에 걸렸다" },
+  { id: "scales", ctx: "저울에 닮", text: "저울에 달았다" },
+  { id: "scales", ctx: "여성이 연인을 저울에 닮", text: "여성이 연인을 저울에 달았다" },
+  { id: "scandal", ctx: "자신이 추문의 대상이 됨", text: "자신이 추문의 대상이 되었다" },
+  { id: "scandal", ctx: "여성이 추문을 이야기함", text: "여성이 추문을 이야기했다" },
+  { id: "scarcity", ctx: "궁핍 꿈을 꿈", text: "궁핍 꿈을 꾸었다" },
+  { id: "scarlet-fever", ctx: "성홍열 꿈을 꿈", text: "성홍열 꿈을 꾸었다" },
+  { id: "scarlet-fever", ctx: "친척이 성홍열로 급사함", text: "친척이 성홍열로 급사했다" },
+  { id: "sceptre", ctx: "왕홀을 휘두름", text: "왕홀을 휘둘렀다" },
+  { id: "sceptre", ctx: "남이 자신에게 왕홀을 휘두름", text: "남이 자신에게 왕홀을 휘둘렀다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(gallows·scales)의 옛 답이 그대로인가
   { id: "gallows", ctx: "처형대 꿈을 꿈", text: "처형대 꿈을 꾸었다" },
-  { id: "gallows", ctx: "처형대에 오름", text: "처형대에 올라 오해받고 비난받았다" },
-  { id: "gallows", ctx: "처형대에서 내려감", text: "처형대에서 내려갔다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(saw·gallows)의 옛 답이 그대로인가
-  { id: "saw", ctx: "톱을 봄", text: "톱을 보았다" },
-  { id: "gallows", ctx: "벗이 교수대에 오른 것을 봄", text: "벗이 교수대에 오른 것을 보았다" },
-  { id: "gallows", ctx: "제가 교수대에 오름", text: "내가 교수대에 올랐다" },
+  { id: "scales", ctx: "남이 저울을 건네줌", text: "남이 저울을 건네주었다" },
 ];
 
 let notFound = 0;

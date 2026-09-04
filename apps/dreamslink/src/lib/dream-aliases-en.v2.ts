@@ -7330,5 +7330,22 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "scabbard": [
     "a scabbard",
     "scabbards"
+  ],
+  "scaldhead": [
+    "a scaldhead"
+  ],
+  "scandal": [
+    "scandal",
+    "an object of scandal"
+  ],
+  "scarcity": [
+    "scarcity"
+  ],
+  "scarlet-fever": [
+    "scarlet fever"
+  ],
+  "sceptre": [
+    "a sceptre",
+    "the sceptre"
   ]
 };

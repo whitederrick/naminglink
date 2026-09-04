@@ -1,0 +1,84 @@
+[
+  {
+    "id": "scaldhead",
+    "aliases": [
+      "두피 딱지병",
+      "딱지머리"
+    ],
+    "aliases_en": [
+      "a scaldhead"
+    ],
+    "contexts": {
+      "남이 두피 딱지병에 걸린 것을 봄": "남이 가까운이 불안을느낄",
+      "자신의 머리가 두피 딱지병에 걸림": "자신의 머리가 개인적인병 사고를"
+    },
+    "contexts_en": {
+      "남이 두피 딱지병에 걸린 것을 봄": "uneasiness sickness absence",
+      "자신의 머리가 두피 딱지병에 걸림": "own head danger accidents"
+    }
+  },
+  {
+    "id": "scandal",
+    "aliases": [
+      "추문"
+    ],
+    "aliases_en": [
+      "scandal",
+      "an object of scandal"
+    ],
+    "contexts": {
+      "자신이 추문의 대상이 됨": "자신이 방탕한이들과 사업이침체",
+      "여성이 추문을 이야기함": "여성이 이야기함 호의를내줄 혼인은"
+    },
+    "contexts_en": {
+      "자신이 추문의 대상이 됨": "companions pleasure dulness",
+      "여성이 추문을 이야기함": "discussed deceive marriage"
+    }
+  },
+  {
+    "id": "scarcity",
+    "aliases": [
+      "궁핍"
+    ],
+    "aliases_en": [
+      "scarcity"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "scarlet-fever",
+    "aliases": [
+      "성홍열"
+    ],
+    "aliases_en": [
+      "scarlet fever"
+    ],
+    "contexts": {
+      "성홍열 꿈을 꿈": "위험이있거나 적의손아귀",
+      "친척이 성홍열로 급사함": "친척이 급사 악랄한배신"
+    },
+    "contexts_en": {
+      "성홍열 꿈을 꿈": "danger sickness enemy",
+      "친척이 성홍열로 급사함": "relative dies treachery"
+    }
+  },
+  {
+    "id": "sceptre",
+    "aliases": [
+      "왕홀"
+    ],
+    "aliases_en": [
+      "a sceptre",
+      "the sceptre"
+    ],
+    "contexts": {
+      "왕홀을 휘두름": "휘두름 신망받는 저버리지",
+      "남이 자신에게 왕홀을 휘두름": "남이 지시아래서 일자리를"
+    },
+    "contexts_en": {
+      "왕홀을 휘두름": "chosen friends trust",
+      "남이 자신에게 왕홀을 휘두름": "others supervision employment"
+    }
+  }
+]

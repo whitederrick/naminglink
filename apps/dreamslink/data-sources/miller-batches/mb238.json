@@ -1,0 +1,45 @@
+{
+  "batch": 238,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Scaffold (계속)",
+      "text": "To fall from one, you will be unexpectedly surprised while engaged in deceiving and working injury to others.",
+      "note": "배치 237이 「Scaffold」 표제어를 다음 마커(_Scaldhead_.) 전에서 잘못 끊었다 — 이 한 문장은 그 표제어의 나머지다. 기존 gallows에 하나를 더 붙인다"
+    },
+    {
+      "headword": "Scaldhead",
+      "text": "To see any one with a scaldhead in your dreams, there will be uneasiness felt over the sickness or absence of some one near to you. If you dream that your own head is thus afflicted, you are in danger of personal illness or accidents.",
+      "note": "새 상징 `scaldhead`(두피 딱지병) — 두 그림"
+    },
+    {
+      "headword": "Scales",
+      "text": "To dream of weighing on scales, portends that justice will temper your conduct, and you will see your prosperity widening. For a young woman to weigh her lover, the indications are that she will find him of solid worth, and faithfulness will balance her love.",
+      "note": "기존 상징 `scales`(저울, 문맥 0개이던 자리)에 둘을 채운다"
+    },
+    {
+      "headword": "Scandal",
+      "text": "To dream that you are an object of scandal, denotes that you are not particular to select good and true companions, but rather enjoy having fast men and women contribute to your pleasure. Trade and business of any character will suffer dulness after this dream. For a young woman to dream that she discussed a scandal, foretells that she will confer favors, which should be sacred, to some one who will deceive her into believing that he is honorably inclined. Marriage rarely follows swiftly after dreaming of scandal.",
+      "note": "새 상징 `scandal`(추문) — 두 그림"
+    },
+    {
+      "headword": "Scarcity",
+      "text": "To dream of scarcity, foretells sorrow in the household and failing affairs.",
+      "note": "새 상징 `scarcity`(궁핍) — 한 그림"
+    },
+    {
+      "headword": "Scarlet Fever",
+      "text": "To dream of scarlet fever, foretells you are in danger of sickness, or in the power of an enemy. To dream a relative dies suddenly with it, foretells you will be overcome by villainous treachery.",
+      "note": "새 상징 `scarlet-fever`(성홍열) — 두 그림"
+    },
+    {
+      "headword": "Sceptre",
+      "text": "To imagine in your dreams that you wield a sceptre, foretells that you will be chosen by friends to positions of trust, and you will not disappoint their estimate of your ability. To dream that others wield the sceptre over you, denotes that you will seek employment under the supervision of others, rather than exert your energies to act for yourself.",
+      "note": "새 상징 `sceptre`(왕홀) — 두 그림"
+    }
+  ],
+  "skipped": [
+    "Scalding — 「화상을 입는 꿈은 즐거운 기대를 지울 우환의 조짐」이 기존 `burn`(밀러 별개 표제어 Burns)의 「화상을 입음」(길, 좋은 소식)과 같은 그림·정반대 극성이라 통째로 건너뜀"
+  ],
+  "skipped_sentences": []
+}

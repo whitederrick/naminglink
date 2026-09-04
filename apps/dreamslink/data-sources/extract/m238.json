@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "교수대",
+    "term_en": "gallows",
+    "context": "처형대에서 떨어짐",
+    "interpretation_ko": "남을 속이고 해치는 데 관여하다가 뜻밖에 놀랄 조짐",
+    "interpretation_en": "you will be unexpectedly surprised while engaged in deceiving and working injury to others",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Scaffold",
+      "original": "To fall from one, you will be unexpectedly surprised while engaged in deceiving and working injury to others.",
+      "translation_ko": "처형대에서 떨어지는 꿈은, 남을 속이고 해치는 데 관여하다가 뜻밖에 놀랄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "두피 딱지병",
+    "term_en": "scaldhead",
+    "context": "남이 두피 딱지병에 걸린 것을 봄",
+    "interpretation_ko": "가까운 이의 병이나 부재로 불안을 느낄 조짐",
+    "interpretation_en": "there will be uneasiness felt over the sickness or absence of some one near to you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Scaldhead",
+      "original": "To see any one with a scaldhead in your dreams, there will be uneasiness felt over the sickness or absence of some one near to you.",
+      "translation_ko": "남이 두피 딱지병에 걸린 것을 보는 꿈은, 가까운 이의 병이나 부재로 불안을 느낄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "두피 딱지병",
+    "term_en": "scaldhead",
+    "context": "자신의 머리가 두피 딱지병에 걸림",
+    "interpretation_ko": "자신이 병이나 사고를 겪을 위험이 있을 조짐",
+    "interpretation_en": "you are in danger of personal illness or accidents",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Scaldhead",
+      "original": "If you dream that your own head is thus afflicted, you are in danger of personal illness or accidents.",
+      "translation_ko": "자신의 머리가 두피 딱지병에 걸리는 꿈은, 자신이 병이나 사고를 겪을 위험이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "저울",
+    "term_en": "scales",
+    "context": "저울에 닮",
+    "interpretation_ko": "정의가 처신을 다스리고, 번영이 넓어지는 것을 보게 될 조짐",
+    "interpretation_en": "portends that justice will temper your conduct, and you will see your prosperity widening",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Scales",
+      "original": "To dream of weighing on scales, portends that justice will temper your conduct, and you will see your prosperity widening.",
+      "translation_ko": "저울에 다는 꿈은, 정의가 처신을 다스리고 번영이 넓어지는 것을 보게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "저울",
+    "term_en": "scales",
+    "context": "여성이 연인을 저울에 닮",
+    "interpretation_ko": "연인이 견실한 사람임을 알게 되고, 성실함이 사랑의 무게를 채울 조짐",
+    "interpretation_en": "the indications are that she will find him of solid worth, and faithfulness will balance her love",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Scales",
+      "original": "For a young woman to weigh her lover, the indications are that she will find him of solid worth, and faithfulness will balance her love.",
+      "translation_ko": "여성이 연인을 저울에 다는 꿈은, 연인이 견실한 사람임을 알게 되고 성실함이 사랑의 무게를 채울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "추문",
+    "term_en": "scandal",
+    "context": "자신이 추문의 대상이 됨",
+    "interpretation_ko": "좋고 참된 벗을 가리지 않고 방탕한 이들과 어울려 즐기며, 사업이 침체를 겪을 조짐",
+    "interpretation_en": "denotes that you are not particular to select good and true companions, but rather enjoy having fast men and women contribute to your pleasure. Trade and business of any character will suffer dulness after this dream",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Scandal",
+      "original": "To dream that you are an object of scandal, denotes that you are not particular to select good and true companions, but rather enjoy having fast men and women contribute to your pleasure. Trade and business of any character will suffer dulness after this dream.",
+      "translation_ko": "자신이 추문의 대상이 되는 꿈은, 좋고 참된 벗을 가리지 않고 방탕한 이들과 어울려 즐기며 사업이 침체를 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "추문",
+    "term_en": "scandal",
+    "context": "여성이 추문을 이야기함",
+    "interpretation_ko": "명예롭다고 믿게 속이는 이에게 마땅히 아껴야 할 호의를 내줄 조짐. 그 뒤 혼인은 좀처럼 뒤따르지 않음",
+    "interpretation_en": "foretells that she will confer favors, which should be sacred, to some one who will deceive her into believing that he is honorably inclined. Marriage rarely follows swiftly after dreaming of scandal",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Scandal",
+      "original": "For a young woman to dream that she discussed a scandal, foretells that she will confer favors, which should be sacred, to some one who will deceive her into believing that he is honorably inclined. Marriage rarely follows swiftly after dreaming of scandal.",
+      "translation_ko": "여성이 추문을 이야기하는 꿈은, 명예롭다고 믿게 속이는 이에게 마땅히 아껴야 할 호의를 내줄 조짐이다. 그 뒤 혼인은 좀처럼 뒤따르지 않는다"
+    }
+  },
+  {
+    "term_ko": "궁핍",
+    "term_en": "scarcity",
+    "context": "궁핍 꿈을 꿈",
+    "interpretation_ko": "집안에 근심이 있고 일이 기울 조짐",
+    "interpretation_en": "foretells sorrow in the household and failing affairs",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Scarcity",
+      "original": "To dream of scarcity, foretells sorrow in the household and failing affairs.",
+      "translation_ko": "궁핍 꿈은, 집안에 근심이 있고 일이 기울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "성홍열",
+    "term_en": "scarlet fever",
+    "context": "성홍열 꿈을 꿈",
+    "interpretation_ko": "병에 걸릴 위험이 있거나 적의 손아귀에 있을 조짐",
+    "interpretation_en": "foretells you are in danger of sickness, or in the power of an enemy",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Scarlet Fever",
+      "original": "To dream of scarlet fever, foretells you are in danger of sickness, or in the power of an enemy.",
+      "translation_ko": "성홍열 꿈은, 병에 걸릴 위험이 있거나 적의 손아귀에 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "성홍열",
+    "term_en": "scarlet fever",
+    "context": "친척이 성홍열로 급사함",
+    "interpretation_ko": "악랄한 배신에 압도당할 조짐",
+    "interpretation_en": "foretells you will be overcome by villainous treachery",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Scarlet Fever",
+      "original": "To dream a relative dies suddenly with it, foretells you will be overcome by villainous treachery.",
+      "translation_ko": "친척이 성홍열로 급사하는 꿈은, 악랄한 배신에 압도당할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "왕홀",
+    "term_en": "sceptre",
+    "context": "왕홀을 휘두름",
+    "interpretation_ko": "벗들에게 신망받는 자리로 뽑히고, 그 기대를 저버리지 않을 조짐",
+    "interpretation_en": "foretells that you will be chosen by friends to positions of trust, and you will not disappoint their estimate of your ability",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sceptre",
+      "original": "To imagine in your dreams that you wield a sceptre, foretells that you will be chosen by friends to positions of trust, and you will not disappoint their estimate of your ability.",
+      "translation_ko": "왕홀을 휘두르는 꿈은, 벗들에게 신망받는 자리로 뽑히고 그 기대를 저버리지 않을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "왕홀",
+    "term_en": "sceptre",
+    "context": "남이 자신에게 왕홀을 휘두름",
+    "interpretation_ko": "스스로 힘써 나서기보다 남의 지시 아래서 일자리를 구할 조짐",
+    "interpretation_en": "denotes that you will seek employment under the supervision of others, rather than exert your energies to act for yourself",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sceptre",
+      "original": "To dream that others wield the sceptre over you, denotes that you will seek employment under the supervision of others, rather than exert your energies to act for yourself.",
+      "translation_ko": "남이 자신에게 왕홀을 휘두르는 꿈은, 스스로 힘써 나서기보다 남의 지시 아래서 일자리를 구할 조짐이다"
+    }
+  }
+]
