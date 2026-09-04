@@ -1,0 +1,15 @@
+{
+  "batch": 211,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rat-trap",
+      "text": "To dream of falling into a rat-trap, denotes that you will be victimized and robbed of some valuable object. To see an empty one, foretells the absence of slander or competition. A broken one, denotes that you will be rid of unpleasant associations. To set one, you will be made aware of the designs of enemies, but the warning will enable you to outwit them.",
+      "note": "각주(See Mouse-trap)를 따라 기존 상징 `mouse-trap`(쥐덫)에 합친다. 「덫을 놓음」은 기존 「쥐덫을 놓음」(밀러 Mouse-trap, 같은 그림·같은 결과)과 같아 건너뛴다. 나머지 셋(빠짐·비어 있음·부서짐)은 새 그림이라 더한다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    "To set one, you will be made aware of the designs of enemies, but the warning will enable you to outwit them. — 기존 mouse-trap의 「쥐덫을 놓음」(밀러 Mouse-trap)과 같은 그림·같은 결과"
+  ]
+}

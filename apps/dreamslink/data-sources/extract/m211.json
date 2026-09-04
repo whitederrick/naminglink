@@ -1,0 +1,47 @@
+[
+  {
+    "term_ko": "쥐덫",
+    "term_en": "mouse-trap",
+    "context": "쥐덫에 빠짐",
+    "interpretation_ko": "남에게 당해서 귀중한 물건을 빼앗길 조짐",
+    "interpretation_en": "denotes that you will be victimized and robbed of some valuable object",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rat-trap",
+      "original": "To dream of falling into a rat-trap, denotes that you will be victimized and robbed of some valuable object.",
+      "translation_ko": "쥐덫에 빠지는 꿈은, 남에게 당해서 귀중한 물건을 빼앗길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "쥐덫",
+    "term_en": "mouse-trap",
+    "context": "쥐덫이 비어 있는 것을 봄",
+    "interpretation_ko": "비방이나 경쟁이 없을 조짐",
+    "interpretation_en": "foretells the absence of slander or competition",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rat-trap",
+      "original": "To see an empty one, foretells the absence of slander or competition.",
+      "translation_ko": "쥐덫이 비어 있는 것을 보는 꿈은, 비방이나 경쟁이 없을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "쥐덫",
+    "term_en": "mouse-trap",
+    "context": "부서진 쥐덫을 봄",
+    "interpretation_ko": "불쾌한 인연에서 벗어날 조짐",
+    "interpretation_en": "denotes that you will be rid of unpleasant associations",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rat-trap",
+      "original": "A broken one, denotes that you will be rid of unpleasant associations.",
+      "translation_ko": "부서진 쥐덫을 보는 꿈은, 불쾌한 인연에서 벗어날 조짐이다"
+    }
+  }
+]

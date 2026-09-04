@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 210 — Raspberry~Rat, 2개 헤드워드)
+// (지금 담긴 것: 배치 211 — Rat-trap, 1개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,13 +30,13 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "raspberry", ctx: "나무딸기를 봄", text: "나무딸기를 보았다" },
-  { id: "raspberry", ctx: "여성이 나무딸기를 먹음", text: "여자가 나무딸기를 먹었다" },
-  { id: "mouse", ctx: "쥐를 잡음", text: "쥐를 잡았다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(mouse)의 옛 답이 그대로인가
-  { id: "mouse", ctx: "쥐를 봄", text: "쥐가 돌아다니는 것을 보았다" },
-  { id: "mouse", ctx: "쥐를 죽임", text: "쥐를 죽였다" },
-  { id: "mouse", ctx: "쥐가 고양이에게 잡힘", text: "쥐가 고양이에게 잡혔다" },
+  { id: "mouse-trap", ctx: "쥐덫에 빠짐", text: "쥐덫에 빠졌다" },
+  { id: "mouse-trap", ctx: "쥐덫이 비어 있는 것을 봄", text: "쥐덫이 비어 있는 것을 보았다" },
+  { id: "mouse-trap", ctx: "부서진 쥐덫을 봄", text: "부서진 쥐덫을 보았다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(mouse-trap)의 옛 답이 그대로인가
+  { id: "mouse-trap", ctx: "쥐덫을 봄", text: "쥐덫이 덩그러니 놓여 있는 것을 보았다" },
+  { id: "mouse-trap", ctx: "쥐덫에 쥐가 가득 든 것을 봄", text: "쥐덫에 쥐가 가득 든 것을 보았다" },
+  { id: "mouse-trap", ctx: "쥐덫을 놓음", text: "쥐덫을 놓았다" },
 ];
 
 let notFound = 0;
