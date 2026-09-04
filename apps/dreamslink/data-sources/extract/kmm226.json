@@ -1,0 +1,19 @@
+[
+  {
+    "id": "rival",
+    "aliases": ["연적이", "연적을", "연적에게", "연적임을", "연적인"],
+    "aliases_en": ["a rival", "rivals"],
+    "contexts": {
+      "연적이 있음을 봄": "권리를 신망을",
+      "처녀에게 연적이 나타남": "처녀에게 소중히",
+      "연적이 저를 이겨냄": "이겨냈다 태만",
+      "제가 성공한 연적임을 상상함": "성공한 어울리는"
+    },
+    "contexts_en": {
+      "연적이 있음을 봄": "asserting rights prominence",
+      "처녀에게 연적이 나타남": "cherish mistake bonds",
+      "연적이 저를 이겨냄": "outwitted negligent detriment",
+      "제가 성공한 연적임을 상상함": "successful congeniality companion"
+    }
+  }
+]

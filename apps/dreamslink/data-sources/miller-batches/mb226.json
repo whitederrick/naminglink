@@ -1,0 +1,18 @@
+{
+  "batch": 226,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rising",
+      "text": "To dream of rising to high positions, denotes that study and advancement will bring you desired wealth. If you find yourself rising high into the air, you will come into unexpected riches and pleasures, but you are warned to be careful of your engagements, or you may incur displeasing prominence.",
+      "note": "기존 상징 `advancement`(전진)에 합친다. 이미 있는 「어떤 일에서든 전진함」(밀러 Advancement)과는 결과가 달라 새로 더한다"
+    },
+    {
+      "headword": "Rival",
+      "text": "To dream you have a rival, is a sign that you will be slow in asserting your rights, and will lose favor with people of prominence. For a young woman, this dream is a warning to cherish the love she already holds, as she might unfortunately make a mistake in seeking other bonds. If you find that a rival has outwitted you, it signifies that you will be negligent in your business, and that you love personal ease to your detriment. If you imagine that you are the successful rival, it is good for your advancement, and you will find congeniality in your choice of a companion.",
+      "note": "새 상징 `rival`(연적) — 이성 관계의 경쟁자를 가리키는 밀러 고유의 그림이라, 일반적인 원수를 가리키는 기존 `adversary`(원수·경쟁자)와 갈라 세운다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

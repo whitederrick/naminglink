@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 225 — Ringworms~Riot, 2개 헤드워드)
+// (지금 담긴 것: 배치 226 — Rising~Rival, 2개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,10 +30,15 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "ringworms", ctx: "제 몸에 버짐이 생김", text: "제 몸에 버짐이 생겼다" },
-  { id: "ringworms", ctx: "남에게 버짐이 있는 것을 봄", text: "남에게 버짐이 있는 것을 보았다" },
-  { id: "riot", ctx: "폭동 꿈을 꿈", text: "폭동 꿈을 꾸었다" },
-  { id: "riot", ctx: "폭동에서 벗이 죽는 것을 봄", text: "폭동에서 벗이 죽는 것을 보았다" },
+  { id: "advancement", ctx: "공부하고 애써 출세함", text: "공부하고 애써 출세했다" },
+  { id: "advancement", ctx: "공중으로 높이 떠오름", text: "공중으로 높이 떠올랐다" },
+  { id: "rival", ctx: "연적이 있음을 봄", text: "연적이 있음을 보았다" },
+  { id: "rival", ctx: "처녀에게 연적이 나타남", text: "처녀에게 연적이 나타났다" },
+  { id: "rival", ctx: "연적이 저를 이겨냄", text: "연적이 저를 이겨냈다" },
+  { id: "rival", ctx: "제가 성공한 연적임을 상상함", text: "제가 성공한 연적임을 상상했다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(advancement)의 옛 답이 그대로인가
+  { id: "advancement", ctx: "어떤 일에서든 전진함", text: "내가 스스로 승진했다" },
+  { id: "advancement", ctx: "다른 사람이 전진하는 것을 봄", text: "다른 동료가 진급했다" },
 ];
 
 let notFound = 0;

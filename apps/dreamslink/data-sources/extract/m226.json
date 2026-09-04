@@ -1,0 +1,92 @@
+[
+  {
+    "term_ko": "전진",
+    "term_en": "advancement",
+    "context": "공부하고 애써 출세함",
+    "interpretation_ko": "바라던 부를 가져올 조짐",
+    "interpretation_en": "denotes that study and advancement will bring you desired wealth",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rising",
+      "original": "To dream of rising to high positions, denotes that study and advancement will bring you desired wealth.",
+      "translation_ko": "공부하고 애써 출세하는 꿈은, 바라던 부를 가져올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "전진",
+    "term_en": "advancement",
+    "context": "공중으로 높이 떠오름",
+    "interpretation_ko": "뜻밖의 부와 즐거움을 얻지만, 약속에 신중해야 하며 그러지 않으면 달갑잖은 유명세를 치를 수 있는 조짐",
+    "interpretation_en": "you will come into unexpected riches and pleasures, but you are warned to be careful of your engagements, or you may incur displeasing prominence",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rising",
+      "original": "If you find yourself rising high into the air, you will come into unexpected riches and pleasures, but you are warned to be careful of your engagements, or you may incur displeasing prominence.",
+      "translation_ko": "공중으로 높이 떠오르는 꿈은, 뜻밖의 부와 즐거움을 얻지만 약속에 신중해야 하며 그러지 않으면 달갑잖은 유명세를 치를 수 있는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연적",
+    "term_en": "rival",
+    "context": "연적이 있음을 봄",
+    "interpretation_ko": "제 권리를 주장하는 데 굼뜨고, 유력한 이들에게 신망을 잃을 조짐",
+    "interpretation_en": "is a sign that you will be slow in asserting your rights, and will lose favor with people of prominence",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Rival",
+      "original": "To dream you have a rival, is a sign that you will be slow in asserting your rights, and will lose favor with people of prominence.",
+      "translation_ko": "연적이 있음을 보는 꿈은, 제 권리를 주장하는 데 굼뜨고 유력한 이들에게 신망을 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연적",
+    "term_en": "rival",
+    "context": "처녀에게 연적이 나타남",
+    "interpretation_ko": "이미 지닌 사랑을 소중히 여기라는 경고, 다른 인연을 찾다 실수를 저지를 수 있음",
+    "interpretation_en": "this dream is a warning to cherish the love she already holds, as she might unfortunately make a mistake in seeking other bonds",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Rival",
+      "original": "For a young woman, this dream is a warning to cherish the love she already holds, as she might unfortunately make a mistake in seeking other bonds.",
+      "translation_ko": "처녀에게 연적이 나타나는 꿈은, 이미 지닌 사랑을 소중히 여기라는 경고이니 다른 인연을 찾다 실수를 저지를 수 있다"
+    }
+  },
+  {
+    "term_ko": "연적",
+    "term_en": "rival",
+    "context": "연적이 저를 이겨냄",
+    "interpretation_ko": "사업에서 태만해지고, 편안함을 지나치게 좋아해 스스로에게 해가 될 조짐",
+    "interpretation_en": "it signifies that you will be negligent in your business, and that you love personal ease to your detriment",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rival",
+      "original": "If you find that a rival has outwitted you, it signifies that you will be negligent in your business, and that you love personal ease to your detriment.",
+      "translation_ko": "연적이 저를 이겨내는 꿈은, 사업에서 태만해지고 편안함을 지나치게 좋아해 스스로에게 해가 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연적",
+    "term_en": "rival",
+    "context": "제가 성공한 연적임을 상상함",
+    "interpretation_ko": "출세에 좋고, 어울리는 짝을 찾을 조짐",
+    "interpretation_en": "it is good for your advancement, and you will find congeniality in your choice of a companion",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rival",
+      "original": "If you imagine that you are the successful rival, it is good for your advancement, and you will find congeniality in your choice of a companion.",
+      "translation_ko": "제가 성공한 연적임을 상상하는 꿈은, 출세에 좋고 어울리는 짝을 찾을 조짐이다"
+    }
+  }
+]

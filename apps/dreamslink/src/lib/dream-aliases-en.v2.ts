@@ -7199,5 +7199,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "riot": [
     "a riot",
     "riots"
+  ],
+  "rival": [
+    "a rival",
+    "rivals"
   ]
 };

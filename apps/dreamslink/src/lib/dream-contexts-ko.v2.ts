@@ -2514,6 +2514,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "adulation::남이 나에게 아첨함": "나에게 내게 알랑거렸",
   "advancement::어떤 일에서든 전진함": "내가 스스로 승진 나아갔",
   "advancement::다른 사람이 전진하는 것을 봄": "다른 남이 동료가 지켜봤",
+  "advancement::공중으로 높이 떠오름": "공중으로 떠올랐다",
+  "advancement::공부하고 애써 출세함": "공부하고 지위로",
   "adventurer::모험가에게 희생당함": "희생 당했 속아 먹잇감",
   "adventurer::젊은 여성이 자신을 여성 모험가라고 생각함": "여성이 아가씨 자신을 생각",
   "adversary::적과 만나거나 맞섬": "만났 마주 맞섰 대치",
@@ -5428,5 +5430,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "ringworms::제 몸에 버짐이 생김": "몸에 애타는",
   "ringworms::남에게 버짐이 있는 것을 봄": "남에게 거지들",
   "riot::폭동 꿈을 꿈": "실망스러운",
-  "riot::폭동에서 벗이 죽는 것을 봄": "벗이 죽는"
+  "riot::폭동에서 벗이 죽는 것을 봄": "벗이 죽는",
+  "rival::연적이 있음을 봄": "권리를 신망을",
+  "rival::처녀에게 연적이 나타남": "처녀에게 소중히",
+  "rival::연적이 저를 이겨냄": "이겨냈다 태만",
+  "rival::제가 성공한 연적임을 상상함": "성공한 어울리는"
 };

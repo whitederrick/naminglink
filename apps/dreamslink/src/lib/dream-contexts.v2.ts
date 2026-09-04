@@ -2510,6 +2510,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "adulation::남이 나에게 아첨함": "fawns cajoles guise",
   "advancement::어떤 일에서든 전진함": "myself promoted",
   "advancement::다른 사람이 전진하는 것을 봄": "someone another watched",
+  "advancement::공중으로 높이 떠오름": "air riches pleasures",
+  "advancement::공부하고 애써 출세함": "positions study wealth",
   "adventurer::모험가에게 희생당함": "victim victimized cheated",
   "adventurer::젊은 여성이 자신을 여성 모험가라고 생각함": "woman herself thinks considered",
   "adversary::적과 만나거나 맞섬": "met meeting confronted facing",
@@ -5424,5 +5426,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ringworms::제 몸에 버짐이 생김": "slight illness exasperating",
   "ringworms::남에게 버짐이 있는 것을 봄": "beggars appeals charity",
   "riot::폭동 꿈을 꿈": "disappointing affairs",
-  "riot::폭동에서 벗이 죽는 것을 봄": "friend killed distress"
+  "riot::폭동에서 벗이 죽는 것을 봄": "friend killed distress",
+  "rival::연적이 있음을 봄": "asserting rights prominence",
+  "rival::처녀에게 연적이 나타남": "cherish mistake bonds",
+  "rival::연적이 저를 이겨냄": "outwitted negligent detriment",
+  "rival::제가 성공한 연적임을 상상함": "successful congeniality companion"
 };
