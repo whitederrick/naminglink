@@ -1,0 +1,38 @@
+{
+  "batch": 248,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Silver",
+      "text": "To dream of silver, is a warning against depending too largely on money for real happiness and contentment. To find silver money, is indicative of shortcomings in others. Hasty conclusions are too frequently drawn by yourself for your own peace of mind. To dream of silverware, denotes worries and unsatisfied desires.",
+      "note": "새 상징 `silver`(은) — 세 그림. term_ko가 한 글자라 조사 「은/는」과 동형이의 위험이 있음 — 별칭은 전부 은화·은식기 등 복합어로만 둠"
+    },
+    {
+      "headword": "Single",
+      "text": "For married persons to dream that they are single, foretells that their union will not be harmonious, and constant despondency will confront them.",
+      "note": "새 상징 `being-single`(미혼) — 한 그림"
+    },
+    {
+      "headword": "Singing",
+      "text": "To hear singing in your dreams, betokens a cheerful spirit and happy companions. You are soon to have promising news from the absent. If you are singing while everything around you gives promise of happiness, jealousy will insinuate a sense of insincerity into your joyousness. If there are notes of sadness in the song, you will be unpleasantly surprised at the turn your affairs will take. Ribald songs, signifies gruesome and extravagant waste.",
+      "note": "새 상징 `singing`(노래하기) — 네 그림"
+    },
+    {
+      "headword": "Skate",
+      "text": "To dream that you are skating on ice, foretells that you are in danger of losing employment, or valuable articles. If you break through the ice, you will have unworthy friends to counsel you. To see others skating, foretells that disagreeable people will connect your name in scandal with some person who admires you. To see skates, denotes discord among your associates. To see young people skating on roller skates, foretells that you will enjoy good health, and feel enthusiastic over the pleasures you are able to contribute to others.",
+      "note": "새 상징 `skating`(스케이트) — 다섯 그림"
+    },
+    {
+      "headword": "Skeleton",
+      "text": "To dream of seeing a skeleton, is prognostic of illness, misunderstanding and injury at the hands of others, especially enemies. To dream that you are a skeleton, is a sign that you are suffering under useless worry, and should cultivate a milder disposition. If you imagine that one haunts you, there will soon come to you a shocking accident or death, or the trouble may take the form of financial disaster.",
+      "note": "새 상징 `skeleton`(해골) — 세 그림. 기존 bones(뼈)가 EN 별칭으로 「a skeleton」을 쥐고 있어 놓아줌"
+    },
+    {
+      "headword": "Skull",
+      "text": "To dream of skulls grinning at you, is a sign of domestic quarrels and jars. Business will feel a shrinkage if you handle them. To see a friend's skull, denotes that you will receive injury from a friend because of your being preferred to him. To see your own skull, denotes that you will be the servant of remorse.",
+      "note": "새 상징 `skull`(두개골) — 네 그림. 기존 bones(뼈)가 EN 별칭으로 「a skull」을 쥐고 있어 놓아줌"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

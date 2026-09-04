@@ -1,0 +1,108 @@
+[
+  {
+    "id": "silver",
+    "aliases": [
+      "은화",
+      "은식기",
+      "은쟁반",
+      "은수저"
+    ],
+    "aliases_en": [
+      "silver money",
+      "silverware"
+    ],
+    "contexts": {
+      "은 꿈을 꿈": "돈에 의지 행복과 만족",
+      "은화를 주움": "은화를 주웠다 남의 부족한",
+      "은식기 꿈을 꿈": "은식기 근심과 채워지지"
+    },
+    "contexts_en": {
+      "은 꿈을 꿈": "depending contentment",
+      "은화를 주움": "shortcomings conclusions",
+      "은식기 꿈을 꿈": "worries unsatisfied"
+    }
+  },
+  {
+    "id": "being-single",
+    "aliases": [
+      "미혼이라고",
+      "독신이라고"
+    ],
+    "aliases_en": [
+      "being single"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "skating",
+    "aliases": [
+      "스케이트를",
+      "스케이트가",
+      "롤러스케이트"
+    ],
+    "aliases_en": [
+      "skating",
+      "roller skates"
+    ],
+    "contexts": {
+      "얼음 위에서 스케이트를 탐": "고용을 물건을 잃을 위험",
+      "얼음이 깨져 빠짐": "깨져 빠지는 가치 없는",
+      "남이 스케이트 타는 것을 봄": "남이 탐탁잖은 추문",
+      "스케이트를 봄": "켤레 동료들 사이에 불화",
+      "젊은이들이 롤러스케이트를 타는 것을 봄": "젊은이들이 롤러스케이트 건강을 열의를"
+    },
+    "contexts_en": {
+      "얼음 위에서 스케이트를 탐": "ice employment articles",
+      "얼음이 깨져 빠짐": "break unworthy counsel",
+      "남이 스케이트 타는 것을 봄": "others disagreeable scandal",
+      "스케이트를 봄": "discord associates",
+      "젊은이들이 롤러스케이트를 타는 것을 봄": "young enthusiastic health"
+    }
+  },
+  {
+    "id": "skeleton",
+    "aliases": [
+      "해골을",
+      "해골이"
+    ],
+    "aliases_en": [
+      "a skeleton",
+      "skeletons"
+    ],
+    "contexts": {
+      "해골을 봄": "질병 오해 남의 손에",
+      "자신이 해골이 됨": "자신이 되었다 쓸데없는 근심에",
+      "해골이 자신을 따라다니며 괴롭힘": "따라다니며 괴롭히는 충격적인"
+    },
+    "contexts_en": {
+      "해골을 봄": "prognostic illness misunderstanding",
+      "자신이 해골이 됨": "useless worry disposition",
+      "해골이 자신을 따라다니며 괴롭힘": "haunts accident death"
+    }
+  },
+  {
+    "id": "skull",
+    "aliases": [
+      "두개골이",
+      "두개골을",
+      "해골바가지"
+    ],
+    "aliases_en": [
+      "a skull",
+      "skulls"
+    ],
+    "contexts": {
+      "두개골이 자신을 보며 웃음": "보며 웃는 집안 다툼",
+      "두개골을 손으로 만짐": "손으로 만지는 사업이 위축",
+      "벗의 두개골을 봄": "벗의 앙갚음으로 해를 입을",
+      "자신의 두개골을 봄": "자신의 회한의 종노릇"
+    },
+    "contexts_en": {
+      "두개골이 자신을 보며 웃음": "grinning domestic quarrels",
+      "두개골을 손으로 만짐": "handle business shrinkage",
+      "벗의 두개골을 봄": "friend injury preferred",
+      "자신의 두개골을 봄": "own remorse servant"
+    }
+  }
+]

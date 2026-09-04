@@ -797,7 +797,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "song": [
     "singing",
-    "songs"
+    "songs",
+    "singing songs"
   ],
   "bee": [
     "bees",
@@ -1297,7 +1298,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "jewels"
   ],
   "head": [
-    "skull",
     "heads"
   ],
   "pan": [
@@ -3134,8 +3134,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "bones": [
     "a bone",
-    "a skeleton",
-    "a skull",
     "bone fragments"
   ],
   "bookcase": [
@@ -7530,5 +7528,24 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "silkworm": [
     "a silkworm",
     "silkworms"
+  ],
+  "silver": [
+    "silver money",
+    "silverware"
+  ],
+  "being-single": [
+    "being single"
+  ],
+  "skating": [
+    "skating",
+    "roller skates"
+  ],
+  "skeleton": [
+    "a skeleton",
+    "skeletons"
+  ],
+  "skull": [
+    "a skull",
+    "skulls"
   ]
 };

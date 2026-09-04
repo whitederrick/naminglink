@@ -166,6 +166,7 @@
     "m245.json",
     "m246.json",
     "m247.json",
+    "m248.json",
     "m25.json",
     "m26.json",
     "m27a.json",
@@ -32409,6 +32410,127 @@
       ]
     },
     {
+      "id": "song",
+      "term_ko": "노래",
+      "term_en": "song",
+      "aliases": [
+        "노랫소리",
+        "가요",
+        "노래하는",
+        "노래함",
+        "노래했다",
+        "상스러운 노래"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "노래하는 것을 봄",
+          "interpretation_ko": "구설수가 있을 조짐",
+          "interpretation_en": "a sign of quarrels and gossip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "見歌舞者口舌至",
+              "translation_ko": "노래하고 춤추는 것을 보면 구설이 이른다"
+            }
+          ]
+        },
+        {
+          "context": "노래하는 소리를 들음",
+          "interpretation_ko": "쾌활한 기운과 행복한 벗들의 조짐. 곧 멀리 있는 이에게서 반가운 소식을 받을 것",
+          "interpretation_en": "betokens a cheerful spirit and happy companions. You are soon to have promising news from the absent",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Singing",
+              "original": "To hear singing in your dreams, betokens a cheerful spirit and happy companions. You are soon to have promising news from the absent.",
+              "translation_ko": "노래하는 소리를 듣는 꿈은, 쾌활한 기운과 행복한 벗들의 조짐이다. 곧 멀리 있는 이에게서 반가운 소식을 받을 것이다"
+            }
+          ]
+        },
+        {
+          "context": "행복해 보이는 가운데 자신이 노래함",
+          "interpretation_ko": "질투가 그 기쁨에 진실하지 못한 느낌을 슬며시 끼워 넣을 조짐",
+          "interpretation_en": "jealousy will insinuate a sense of insincerity into your joyousness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Singing",
+              "original": "If you are singing while everything around you gives promise of happiness, jealousy will insinuate a sense of insincerity into your joyousness.",
+              "translation_ko": "행복해 보이는 가운데 자신이 노래하는 꿈은, 질투가 그 기쁨에 진실하지 못한 느낌을 슬며시 끼워 넣을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "노래에 슬픈 가락이 섞임",
+          "interpretation_ko": "일이 뜻밖의 방향으로 흘러 불쾌하게 놀랄 조짐",
+          "interpretation_en": "you will be unpleasantly surprised at the turn your affairs will take",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Singing",
+              "original": "If there are notes of sadness in the song, you will be unpleasantly surprised at the turn your affairs will take.",
+              "translation_ko": "노래에 슬픈 가락이 섞인 꿈은, 일이 뜻밖의 방향으로 흘러 불쾌하게 놀랄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "상스러운 노래를 부름",
+          "interpretation_ko": "끔찍하고 무절제한 낭비의 조짐",
+          "interpretation_en": "signifies gruesome and extravagant waste",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Singing",
+              "original": "Ribald songs, signifies gruesome and extravagant waste.",
+              "translation_ko": "상스러운 노래를 부르는 꿈은, 끔찍하고 무절제한 낭비의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "마루 위에서 노래하고 풍악을 울림",
+          "interpretation_ko": "초상이 날 조짐",
+          "interpretation_en": "a sign of a funeral",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "堂上歌樂主喪事",
+              "translation_ko": "마루 위에서 노래하고 풍악을 울리면 초상이 난다"
+            }
+          ]
+        },
+        {
+          "context": "병자가 노래함",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "病人歌唱主大凶",
+              "translation_ko": "병자가 노래하면 크게 흉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "weeping",
       "term_ko": "울음",
       "term_en": "weeping",
@@ -48937,6 +49059,95 @@
       ]
     },
     {
+      "id": "skating",
+      "term_ko": "스케이트",
+      "term_en": "skating",
+      "aliases": [
+        "스케이트를",
+        "스케이트가",
+        "롤러스케이트"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "얼음 위에서 스케이트를 탐",
+          "interpretation_ko": "일자리나 귀중한 물건을 잃을 위험이 있는 조짐",
+          "interpretation_en": "foretells that you are in danger of losing employment, or valuable articles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Skate",
+              "original": "To dream that you are skating on ice, foretells that you are in danger of losing employment, or valuable articles.",
+              "translation_ko": "얼음 위에서 스케이트를 타는 꿈은, 일자리나 귀중한 물건을 잃을 위험이 있는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "얼음이 깨져 빠짐",
+          "interpretation_ko": "가치 없는 벗에게 조언을 구하게 될 조짐",
+          "interpretation_en": "you will have unworthy friends to counsel you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Skate",
+              "original": "If you break through the ice, you will have unworthy friends to counsel you.",
+              "translation_ko": "얼음이 깨져 빠지는 꿈은, 가치 없는 벗에게 조언을 구하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 스케이트 타는 것을 봄",
+          "interpretation_ko": "탐탁잖은 이들이 자신을 흠모하는 이와 엮어 추문을 낼 조짐",
+          "interpretation_en": "foretells that disagreeable people will connect your name in scandal with some person who admires you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Skate",
+              "original": "To see others skating, foretells that disagreeable people will connect your name in scandal with some person who admires you.",
+              "translation_ko": "남이 스케이트 타는 것을 보는 꿈은, 탐탁잖은 이들이 자신을 흠모하는 이와 엮어 추문을 낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스케이트를 봄",
+          "interpretation_ko": "동료들 사이에 불화가 있음을 가리키는 조짐",
+          "interpretation_en": "denotes discord among your associates",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Skate",
+              "original": "To see skates, denotes discord among your associates.",
+              "translation_ko": "스케이트를 보는 꿈은, 동료들 사이에 불화가 있음을 가리키는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이들이 롤러스케이트를 타는 것을 봄",
+          "interpretation_ko": "건강을 누리고, 남에게 베풀 수 있는 즐거움에 열의를 느낄 조짐",
+          "interpretation_en": "foretells that you will enjoy good health, and feel enthusiastic over the pleasures you are able to contribute to others",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Skate",
+              "original": "To see young people skating on roller skates, foretells that you will enjoy good health, and feel enthusiastic over the pleasures you are able to contribute to others.",
+              "translation_ko": "젊은이들이 롤러스케이트를 타는 것을 보는 꿈은, 건강을 누리고 남에게 베풀 수 있는 즐거움에 열의를 느낄 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "snow",
       "term_ko": "눈",
       "term_en": "snow",
@@ -63191,6 +63402,81 @@
               "locator": "Shirt",
               "original": "A soiled shirt, denotes that contagious diseases will confront you.",
               "translation_ko": "더러워진 셔츠를 보는 꿈은, 전염병이 닥칠 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skull",
+      "term_ko": "두개골",
+      "term_en": "skull",
+      "aliases": [
+        "두개골이",
+        "두개골을",
+        "해골바가지"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "두개골이 자신을 보며 웃음",
+          "interpretation_ko": "집안 다툼과 불화의 조짐",
+          "interpretation_en": "is a sign of domestic quarrels and jars",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Skull",
+              "original": "To dream of skulls grinning at you, is a sign of domestic quarrels and jars.",
+              "translation_ko": "두개골이 자신을 보며 웃는 꿈은, 집안 다툼과 불화의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "두개골을 손으로 만짐",
+          "interpretation_ko": "사업이 위축될 조짐",
+          "interpretation_en": "business will feel a shrinkage if you handle them",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Skull",
+              "original": "Business will feel a shrinkage if you handle them.",
+              "translation_ko": "두개골을 손으로 만지는 꿈은, 사업이 위축될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벗의 두개골을 봄",
+          "interpretation_ko": "자신이 더 선택받은 데 대한 앙갚음으로 벗에게 해를 입을 조짐",
+          "interpretation_en": "denotes that you will receive injury from a friend because of your being preferred to him",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Skull",
+              "original": "To see a friend's skull, denotes that you will receive injury from a friend because of your being preferred to him.",
+              "translation_ko": "벗의 두개골을 보는 꿈은, 자신이 더 선택받은 데 대한 앙갚음으로 벗에게 해를 입을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신의 두개골을 봄",
+          "interpretation_ko": "회한의 종노릇을 하게 될 조짐",
+          "interpretation_en": "denotes that you will be the servant of remorse",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Skull",
+              "original": "To see your own skull, denotes that you will be the servant of remorse.",
+              "translation_ko": "자신의 두개골을 보는 꿈은, 회한의 종노릇을 하게 될 조짐이다"
             }
           ]
         }
@@ -79524,6 +79810,128 @@
       ]
     },
     {
+      "id": "silver",
+      "term_ko": "은",
+      "term_en": "silver",
+      "aliases": [
+        "은화",
+        "은식기",
+        "은쟁반",
+        "은수저"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "은 꿈을 꿈",
+          "interpretation_ko": "진정한 행복과 만족을 돈에 지나치게 의지하지 말라는 경고",
+          "interpretation_en": "is a warning against depending too largely on money for real happiness and contentment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Silver",
+              "original": "To dream of silver, is a warning against depending too largely on money for real happiness and contentment.",
+              "translation_ko": "은 꿈은, 진정한 행복과 만족을 돈에 지나치게 의지하지 말라는 경고이다"
+            }
+          ]
+        },
+        {
+          "context": "은화를 주움",
+          "interpretation_ko": "남의 부족한 점을 가리키는 조짐. 자신도 마음의 평화를 위해 성급한 결론을 너무 자주 내리게 됨",
+          "interpretation_en": "is indicative of shortcomings in others. Hasty conclusions are too frequently drawn by yourself for your own peace of mind",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Silver",
+              "original": "To find silver money, is indicative of shortcomings in others. Hasty conclusions are too frequently drawn by yourself for your own peace of mind.",
+              "translation_ko": "은화를 줍는 꿈은, 남의 부족한 점을 가리키는 조짐이다. 자신도 마음의 평화를 위해 성급한 결론을 너무 자주 내리게 된다"
+            }
+          ]
+        },
+        {
+          "context": "은식기 꿈을 꿈",
+          "interpretation_ko": "근심과 채워지지 않는 욕구의 조짐",
+          "interpretation_en": "denotes worries and unsatisfied desires",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Silver",
+              "original": "To dream of silverware, denotes worries and unsatisfied desires.",
+              "translation_ko": "은식기 꿈은, 근심과 채워지지 않는 욕구의 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skeleton",
+      "term_ko": "해골",
+      "term_en": "skeleton",
+      "aliases": [
+        "해골을",
+        "해골이"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "해골을 봄",
+          "interpretation_ko": "질병, 오해, 특히 적을 비롯한 남의 손에 의한 해를 예고하는 조짐",
+          "interpretation_en": "is prognostic of illness, misunderstanding and injury at the hands of others, especially enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Skeleton",
+              "original": "To dream of seeing a skeleton, is prognostic of illness, misunderstanding and injury at the hands of others, especially enemies.",
+              "translation_ko": "해골을 보는 꿈은, 질병·오해와 특히 적을 비롯한 남의 손에 의한 해를 예고하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신이 해골이 됨",
+          "interpretation_ko": "쓸데없는 근심에 시달리고 있으니 더 너그러운 기질을 길러야 한다는 조짐",
+          "interpretation_en": "is a sign that you are suffering under useless worry, and should cultivate a milder disposition",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Skeleton",
+              "original": "To dream that you are a skeleton, is a sign that you are suffering under useless worry, and should cultivate a milder disposition.",
+              "translation_ko": "자신이 해골이 되는 꿈은, 쓸데없는 근심에 시달리고 있으니 더 너그러운 기질을 길러야 한다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "해골이 자신을 따라다니며 괴롭힘",
+          "interpretation_ko": "충격적인 사고나 죽음, 또는 재정 파탄의 형태로 곧 곤란이 닥칠 조짐",
+          "interpretation_en": "there will soon come to you a shocking accident or death, or the trouble may take the form of financial disaster",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Skeleton",
+              "original": "If you imagine that one haunts you, there will soon come to you a shocking accident or death, or the trouble may take the form of financial disaster.",
+              "translation_ko": "해골이 자신을 따라다니며 괴롭히는 꿈은, 충격적인 사고나 죽음, 또는 재정 파탄의 형태로 곧 곤란이 닥칠 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "slope",
       "term_ko": "언덕",
       "term_en": "slope",
@@ -79586,66 +79994,6 @@
               "locator": "Hills",
               "original": "but if you fall back, you will have much envy and contrariness to fight against.",
               "translation_ko": "오르다 미끄러져 내려오면, 시샘과 어깃장에 맞서 싸워야 한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "song",
-      "term_ko": "노래",
-      "term_en": "song",
-      "aliases": [
-        "노랫소리",
-        "가요"
-      ],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "노래하는 것을 봄",
-          "interpretation_ko": "구설수가 있을 조짐",
-          "interpretation_en": "a sign of quarrels and gossip",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "見歌舞者口舌至",
-              "translation_ko": "노래하고 춤추는 것을 보면 구설이 이른다"
-            }
-          ]
-        },
-        {
-          "context": "마루 위에서 노래하고 풍악을 울림",
-          "interpretation_ko": "초상이 날 조짐",
-          "interpretation_en": "a sign of a funeral",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "堂上歌樂主喪事",
-              "translation_ko": "마루 위에서 노래하고 풍악을 울리면 초상이 난다"
-            }
-          ]
-        },
-        {
-          "context": "병자가 노래함",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "病人歌唱主大凶",
-              "translation_ko": "병자가 노래하면 크게 흉하다"
             }
           ]
         }
@@ -84794,7 +85142,6 @@
       "term_en": "bones",
       "aliases": [
         "뼈다귀",
-        "해골",
         "유골",
         "백골"
       ],
@@ -108531,6 +108878,38 @@
               "locator": "捕禁刑罰獄具",
               "original": "被人決罰祿位至",
               "translation_ko": "남에게 벌을 받으면 녹봉과 지위가 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "being-single",
+      "term_ko": "미혼",
+      "term_en": "being single",
+      "aliases": [
+        "미혼이라고",
+        "독신이라고"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기혼자가 자신이 미혼이라고 여기는 꿈을 꿈",
+          "interpretation_ko": "결혼 생활이 순탄치 않고 끊임없는 낙담에 시달릴 조짐",
+          "interpretation_en": "foretells that their union will not be harmonious, and constant despondency will confront them",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Single",
+              "original": "For married persons to dream that they are single, foretells that their union will not be harmonious, and constant despondency will confront them.",
+              "translation_ko": "기혼자가 자신이 미혼이라고 여기는 꿈은, 결혼 생활이 순탄치 않고 끊임없는 낙담에 시달릴 조짐이다"
             }
           ]
         }

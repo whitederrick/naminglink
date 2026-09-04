@@ -1,7 +1,7 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 247 — Side·Siege·Sieve·Sigh·Silkworm, 기존 illness(병)에 두 그림·
-// silk(비단)에 세 그림 붙임. Sickness의 「자신의 병」은 기존 「자기가 병듦」과 같은 그림
-// (길흉만 반대)이라 건너뜀. 247이 20판 묶음(228~247)의 마지막 배치다)
+// (지금 담긴 것: 배치 248 — Silver·Single·Skating·Skeleton·Skull. Singing은 기존
+// song(노래)의 EN 별칭 "singing"과 이름이 겹쳐 song에 합침. bones가 쥐고 있던
+// "a skeleton"/"a skull", head가 쥐고 있던 "skull"을 새 상징에 넘겼다)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -32,25 +32,29 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "illness", ctx: "질병 꿈을 꿈", text: "질병 꿈을 꾸었다" },
-  { id: "illness", ctx: "가족이 창백하고 병든 것을 봄", text: "가족이 창백하고 병든 것을 보았다" },
-  { id: "side", ctx: "물체의 옆면만 봄", text: "물체의 옆면만 보았다" },
-  { id: "side", ctx: "옆구리가 아픔", text: "옆구리가 아팠다" },
-  { id: "side", ctx: "옆구리가 살지고 건강함", text: "옆구리가 살지고 건강했다" },
-  { id: "siege", ctx: "여성이 포위된 채 주위에서 기병을 봄", text: "여성이 포위된 채 주위에서 기병을 보았다" },
-  { id: "sieve", ctx: "체 꿈을 꿈", text: "체 꿈을 꾸었다" },
-  { id: "sieve", ctx: "체의 눈이 너무 촘촘함", text: "체의 눈이 너무 촘촘했다" },
-  { id: "sieve", ctx: "체의 눈이 너무 성김", text: "체의 눈이 너무 성겼다" },
-  { id: "sigh", ctx: "괴로운 일이나 슬픈 일로 한숨을 쉼", text: "괴로운 일로 한숨을 쉬었다" },
-  { id: "sigh", ctx: "남이 한숨짓는 소리를 들음", text: "남이 한숨짓는 소리를 들었다" },
-  { id: "silk", ctx: "비단옷을 입음", text: "비단옷을 입었다" },
-  { id: "silk", ctx: "여성이 낡은 비단 꿈을 꿈", text: "여성이 낡은 비단 꿈을 꾸었다" },
-  { id: "silk", ctx: "비단이 더럽거나 찢어짐", text: "비단이 더럽거나 찢어졌다" },
-  { id: "silkworm", ctx: "누에 꿈을 꿈", text: "누에 꿈을 꾸었다" },
-  { id: "silkworm", ctx: "죽은 누에나 고치를 가르는 누에를 봄", text: "죽은 누에나 고치를 가르는 누에를 보았다" },
-  // 지킴 — 이번에 손댄 기존 상징(illness·silk)의 옛 답이 그대로인가
-  { id: "illness", ctx: "자기가 병듦", text: "자기가 병들었다" },
-  { id: "silk", ctx: "채색 비단을 남에게 줌", text: "채색 비단을 남에게 주었다" },
+  { id: "silver", ctx: "은 꿈을 꿈", text: "은 꿈을 꾸었다" },
+  { id: "silver", ctx: "은화를 주움", text: "은화를 주웠다" },
+  { id: "silver", ctx: "은식기 꿈을 꿈", text: "은식기 꿈을 꾸었다" },
+  { id: "being-single", ctx: "기혼자가 자신이 미혼이라고 여기는 꿈을 꿈", text: "기혼자가 자신이 미혼이라고 여겼다" },
+  { id: "song", ctx: "노래하는 소리를 들음", text: "노래하는 소리를 들었다" },
+  { id: "song", ctx: "행복해 보이는 가운데 자신이 노래함", text: "행복해 보이는 가운데 자신이 노래했다" },
+  { id: "song", ctx: "노래에 슬픈 가락이 섞임", text: "노래에 슬픈 가락이 섞였다" },
+  { id: "song", ctx: "상스러운 노래를 부름", text: "상스러운 노래를 불렀다" },
+  { id: "skating", ctx: "얼음 위에서 스케이트를 탐", text: "얼음 위에서 스케이트를 탔다" },
+  { id: "skating", ctx: "얼음이 깨져 빠짐", text: "스케이트를 타다가 얼음이 깨져 빠졌다" },
+  { id: "skating", ctx: "남이 스케이트 타는 것을 봄", text: "남이 스케이트 타는 것을 보았다" },
+  { id: "skating", ctx: "스케이트를 봄", text: "스케이트 한 켤레를 보았다" },
+  { id: "skating", ctx: "젊은이들이 롤러스케이트를 타는 것을 봄", text: "젊은이들이 롤러스케이트를 타는 것을 보았다" },
+  { id: "skeleton", ctx: "해골을 봄", text: "해골을 보았다" },
+  { id: "skeleton", ctx: "자신이 해골이 됨", text: "자신이 해골이 되었다" },
+  { id: "skeleton", ctx: "해골이 자신을 따라다니며 괴롭힘", text: "해골이 자신을 따라다니며 괴롭혔다" },
+  { id: "skull", ctx: "두개골이 자신을 보며 웃음", text: "두개골이 자신을 보며 웃었다" },
+  { id: "skull", ctx: "두개골을 손으로 만짐", text: "두개골을 손으로 만졌다" },
+  { id: "skull", ctx: "벗의 두개골을 봄", text: "벗의 두개골을 보았다" },
+  { id: "skull", ctx: "자신의 두개골을 봄", text: "자신의 두개골을 보았다" },
+  // 지킴 — 이번에 손댄 기존 상징(song·bones·head)의 옛 답이 그대로인가
+  { id: "song", ctx: "노래하는 것을 봄", text: "노래하는 것을 보았다" },
+  { id: "bones", ctx: "뼈 무더기를 봄", text: "뼈 무더기를 보았다" },
 ];
 
 let notFound = 0;

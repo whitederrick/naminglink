@@ -49,14 +49,11 @@
     "id": "bones",
     "aliases": [
       "뼈다귀",
-      "해골",
       "유골",
       "백골"
     ],
     "aliases_en": [
       "a bone",
-      "a skeleton",
-      "a skull",
       "bone fragments"
     ],
     "contexts": {

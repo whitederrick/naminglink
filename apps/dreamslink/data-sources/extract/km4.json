@@ -420,21 +420,34 @@
     "id": "song",
     "aliases": [
       "노랫소리",
-      "가요"
+      "가요",
+      "노래하는",
+      "노래함",
+      "노래했다",
+      "상스러운 노래"
     ],
     "aliases_en": [
       "singing",
-      "songs"
+      "songs",
+      "singing songs"
     ],
     "contexts": {
       "노래하는 것을 봄": "보았 지켜보 구경 다른사람",
       "마루 위에서 노래하고 풍악을 울림": "마루 풍악 악기 잔치 흥겹",
-      "병자가 노래함": "병자 아픈 환자 앓는 병든"
+      "병자가 노래함": "병자 아픈 환자 앓는 병든",
+      "노래하는 소리를 들음": "소리를 들음 쾌활한 행복한 벗들",
+      "행복해 보이는 가운데 자신이 노래함": "행복해 보이는 질투가",
+      "노래에 슬픈 가락이 섞임": "슬픈 가락이 뜻밖의 방향",
+      "상스러운 노래를 부름": "상스러운 끔찍하고 무절제한"
     },
     "contexts_en": {
       "노래하는 것을 봄": "watched saw watching someone else",
       "마루 위에서 노래하고 풍악을 울림": "floor porch music instruments festive",
-      "병자가 노래함": "sick patient ill invalid"
+      "병자가 노래함": "sick patient ill invalid",
+      "노래하는 소리를 들음": "hear cheerful companions",
+      "행복해 보이는 가운데 자신이 노래함": "everything promise insincerity",
+      "노래에 슬픈 가락이 섞임": "sadness notes surprised",
+      "상스러운 노래를 부름": "ribald gruesome extravagant"
     }
   },
   {
