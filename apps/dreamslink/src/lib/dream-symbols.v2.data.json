@@ -131,6 +131,7 @@
     "m213.json",
     "m214.json",
     "m215.json",
+    "m216.json",
     "m22.json",
     "m23.json",
     "m24.json",
@@ -59378,6 +59379,83 @@
       ]
     },
     {
+      "id": "rent",
+      "term_ko": "집세",
+      "term_en": "rent",
+      "aliases": [
+        "집세가",
+        "집세를",
+        "집세는",
+        "집을 빌렸다",
+        "세놓지"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "집을 빌림",
+          "interpretation_ko": "새 계약을 맺어 이득을 볼 조짐",
+          "interpretation_en": "is a sign that you will enter into new contracts, which will prove profitable",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rent",
+              "original": "To dream that you rent a house, is a sign that you will enter into new contracts, which will prove profitable.",
+              "translation_ko": "집을 빌리는 꿈은, 새 계약을 맺어 이득을 볼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "재산을 세놓지 못함",
+          "interpretation_ko": "사업이 크게 침체될 조짐",
+          "interpretation_en": "denotes that there will be much inactivity in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rent",
+              "original": "To fail to rent out property, denotes that there will be much inactivity in business.",
+              "translation_ko": "재산을 세놓지 못하는 꿈은, 사업이 크게 침체될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "집세를 냄",
+          "interpretation_ko": "재정 상태가 만족스러울 조짐",
+          "interpretation_en": "signifies that your financial interest will be satisfactory",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rent",
+              "original": "To pay rent, signifies that your financial interest will be satisfactory.",
+              "translation_ko": "집세를 내는 꿈은, 재정 상태가 만족스러울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "집세를 내지 못함",
+          "interpretation_ko": "장사가 기울고 사교 생활의 즐거움도 별 도움이 안 될 불운한 조짐",
+          "interpretation_en": "it is unlucky for you, as you will see a falling off in trade, and social pleasures will be of little benefit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rent",
+              "original": "If you can't pay your rent, it is unlucky for you, as you will see a falling off in trade, and social pleasures will be of little benefit.",
+              "translation_ko": "집세를 내지 못하는 꿈은, 장사가 기울고 사교 생활의 즐거움도 별 도움이 안 될 불운한 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "river",
       "term_ko": "강",
       "term_en": "river",
@@ -99903,6 +99981,52 @@
               "locator": "Reindeer",
               "original": "To drive them, foretells that you will have hours of bitter anguish, but friends will attend you.",
               "translation_ko": "순록을 모는 꿈은, 쓰라린 고통의 시간을 보내지만 벗들이 곁을 지켜 줄 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reprieve",
+      "term_ko": "집행유예",
+      "term_en": "reprieve",
+      "aliases": [
+        "집행유예가",
+        "집행유예를"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "형을 선고받았는데 집행유예를 받음",
+          "interpretation_ko": "불안하게 하던 어려움을 이겨 낼 조짐",
+          "interpretation_en": "foretells that you will overcome some difficulty which is causing you anxiety",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Reprieve",
+              "original": "To be under sentence in a dream and receive a reprieve, foretells that you will overcome some difficulty which is causing you anxiety.",
+              "translation_ko": "형을 선고받았는데 집행유예를 받는 꿈은, 불안하게 하던 어려움을 이겨 낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀에게 정인이 집행유예를 받는 꿈이 나타남",
+          "interpretation_ko": "정인에게 중요한 좋은 소식을 곧 듣게 될 조짐",
+          "interpretation_en": "denotes that she will soon hear of some good luck befalling him, which will be of vital interest to her",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Reprieve",
+              "original": "For a young woman to dream that her lover has been reprieved, denotes that she will soon hear of some good luck befalling him, which will be of vital interest to her.",
+              "translation_ko": "처녀에게 정인이 집행유예를 받는 꿈이 나타나면, 정인에게 중요한 좋은 소식을 곧 듣게 될 조짐이다"
             }
           ]
         }

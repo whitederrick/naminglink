@@ -7130,5 +7130,13 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "religion": [
     "religious",
     "religiously"
+  ],
+  "rent": [
+    "rent",
+    "house rent"
+  ],
+  "reprieve": [
+    "a reprieve",
+    "reprieved"
   ]
 };

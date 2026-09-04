@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rent",
+    "aliases": ["집세가", "집세를", "집세는", "집을 빌렸다", "세놓지"],
+    "aliases_en": ["rent", "house rent"],
+    "contexts": {
+      "집을 빌림": "빌렸다 계약을",
+      "재산을 세놓지 못함": "세놓지 침체",
+      "집세를 냄": "냈다 만족스러",
+      "집세를 내지 못함": "못했다 불운"
+    },
+    "contexts_en": {
+      "집을 빌림": "contracts profitable enter",
+      "재산을 세놓지 못함": "fail inactivity business",
+      "집세를 냄": "pay financial satisfactory",
+      "집세를 내지 못함": "unlucky falling trade"
+    }
+  },
+  {
+    "id": "reprieve",
+    "aliases": ["집행유예가", "집행유예를"],
+    "aliases_en": ["a reprieve", "reprieved"],
+    "contexts": {
+      "형을 선고받았는데 집행유예를 받음": "선고받 이겨낼",
+      "처녀에게 정인이 집행유예를 받는 꿈이 나타남": "처녀에게 정인이"
+    },
+    "contexts_en": {
+      "형을 선고받았는데 집행유예를 받음": "sentence overcome anxiety",
+      "처녀에게 정인이 집행유예를 받는 꿈이 나타남": "lover good luck"
+    }
+  }
+]

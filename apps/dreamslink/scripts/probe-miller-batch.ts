@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 215 — Religion, 1개 헤드워드, 끝 둘은 clergyman에 합침)
+// (지금 담긴 것: 배치 216 — Rent~Reprieve, 2개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,19 +30,12 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "religion", ctx: "종교를 이야기하며 신앙심이 깊어짐을 느낌", text: "종교를 이야기하며 신앙심이 깊어짐을 느꼈다" },
-  { id: "religion", ctx: "처녀가 스스로 지나치게 신앙심 깊다고 여김", text: "처녀가 스스로 지나치게 신앙심이 깊다고 여겼다" },
-  { id: "religion", ctx: "처녀가 신앙심이 없으나 잘못을 저지르지 않았다고 여김", text: "처녀가 신앙심은 없으나 잘못을 저지르지 않았다고 여겼다" },
-  { id: "religion", ctx: "처녀가 신앙심이 없고 종교의 눈으로 잘못을 저질렀다고 여김", text: "처녀가 신앙심이 없고 종교의 눈으로 잘못을 저질렀다고 여겼다" },
-  { id: "religion", ctx: "처녀가 종교 때문에 욺", text: "처녀가 종교 때문에 울었다" },
-  { id: "religion", ctx: "종교 문제로 처녀가 죄는 없으나 반항적임", text: "종교 문제로 처녀가 죄는 없으나 반항적이었다" },
-  { id: "religion", ctx: "신앙의 흥분 속에서 스스로를 자책함", text: "신앙의 흥분 속에서 스스로를 자책했다" },
-  { id: "religion", ctx: "종교의 힘이 약해지는 것을 봄", text: "종교의 힘이 약해지는 것을 보았다" },
-  { id: "clergyman", ctx: "목사가 사적인 자리에서 일을 그만두었다고 말함", text: "목사가 사적인 자리에서 일을 그만두었다고 말했다" },
-  { id: "clergyman", ctx: "목사가 직무상 경고하듯 일을 그만두었다고 말함", text: "목사가 직무상 경고하듯 일을 그만두었다고 말했다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(clergyman)의 옛 답이 그대로인가
-  { id: "clergyman", ctx: "목사를 봄", text: "목사를 만났다" },
-  { id: "clergyman", ctx: "제가 목사가 됨", text: "내가 목사가 되었다" },
+  { id: "rent", ctx: "집을 빌림", text: "집을 빌렸다" },
+  { id: "rent", ctx: "재산을 세놓지 못함", text: "재산을 세놓지 못했다" },
+  { id: "rent", ctx: "집세를 냄", text: "집세를 냈다" },
+  { id: "rent", ctx: "집세를 내지 못함", text: "집세를 내지 못했다" },
+  { id: "reprieve", ctx: "형을 선고받았는데 집행유예를 받음", text: "형을 선고받았는데 집행유예를 받았다" },
+  { id: "reprieve", ctx: "처녀에게 정인이 집행유예를 받는 꿈이 나타남", text: "처녀에게 정인이 집행유예를 받는 꿈이 나타났다" },
 ];
 
 let notFound = 0;

@@ -1,0 +1,18 @@
+{
+  "batch": 216,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rent",
+      "text": "To dream that you rent a house, is a sign that you will enter into new contracts, which will prove profitable. To fail to rent out property, denotes that there will be much inactivity in business. To pay rent, signifies that your financial interest will be satisfactory. If you can't pay your rent, it is unlucky for you, as you will see a falling off in trade, and social pleasures will be of little benefit.",
+      "note": "새 상징 `rent`(집세)"
+    },
+    {
+      "headword": "Reprieve",
+      "text": "To be under sentence in a dream and receive a reprieve, foretells that you will overcome some difficulty which is causing you anxiety. For a young woman to dream that her lover has been reprieved, denotes that she will soon hear of some good luck befalling him, which will be of vital interest to her.",
+      "note": "새 상징 `reprieve`(집행유예) — 기존 `pardon`(용서·사면)과는 다른 그림(형 선고를 받은 상태에서 집행이 유예됨)이라 따로 세운다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

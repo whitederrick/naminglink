@@ -5367,5 +5367,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "religion::처녀가 종교 때문에 욺": "weeps disappointed desires",
   "religion::종교 문제로 처녀가 죄는 없으나 반항적임": "defiant innocent burdens",
   "religion::신앙의 흥분 속에서 스스로를 자책함": "self-reproached esteem personality",
-  "religion::종교의 힘이 약해지는 것을 봄": "declining harmony prejudices"
+  "religion::종교의 힘이 약해지는 것을 봄": "declining harmony prejudices",
+  "rent::집을 빌림": "contracts profitable enter",
+  "rent::재산을 세놓지 못함": "fail inactivity business",
+  "rent::집세를 냄": "pay financial satisfactory",
+  "rent::집세를 내지 못함": "unlucky falling trade",
+  "reprieve::형을 선고받았는데 집행유예를 받음": "sentence overcome anxiety",
+  "reprieve::처녀에게 정인이 집행유예를 받는 꿈이 나타남": "lover good luck"
 };
