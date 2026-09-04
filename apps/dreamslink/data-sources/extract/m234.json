@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "호밀",
+    "term_en": "rye",
+    "context": "호밀빵을 보거나 먹음",
+    "interpretation_ko": "명랑하고 잘 꾸며진 가정을 이룰 조짐",
+    "interpretation_en": "foretells you will have a cheerful and well-appointed home",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rye Bread",
+      "original": "To see or eat rye bread in your dreams, foretells you will have a cheerful and well-appointed home.",
+      "translation_ko": "호밀빵을 보거나 먹는 꿈은, 명랑하고 잘 꾸며진 가정을 이룰 조짐이다"
+    }
+  },
+  {
+    "term_ko": "안장",
+    "term_en": "saddle",
+    "context": "안장 꿈을 꿈",
+    "interpretation_ko": "기분 좋은 소식과 예고 없던 손님을 맞을 조짐. 이로운 여행을 떠날 조짐이기도 함",
+    "interpretation_en": "foretells news of a pleasant nature, also unannounced visitors. You are also, probably, to take a trip which will prove advantageous",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Saddle",
+      "original": "To dream of saddles, foretells news of a pleasant nature, also unannounced visitors. You are also, probably, to take a trip which will prove advantageous.",
+      "translation_ko": "안장 꿈은, 기분 좋은 소식과 예고 없던 손님을 맞을 조짐이다. 이로운 여행을 떠날 조짐이기도 하다"
+    }
+  },
+  {
+    "term_ko": "금고",
+    "term_en": "cash box",
+    "context": "금고를 봄",
+    "interpretation_ko": "사업과 애정의 낙담스러운 일에서 벗어나 안전할 조짐",
+    "interpretation_en": "denotes security from discouraging affairs of business and love",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Safe",
+      "original": "To dream of seeing a safe, denotes security from discouraging affairs of business and love.",
+      "translation_ko": "금고를 보는 꿈은, 사업과 애정의 낙담스러운 일에서 벗어나 안전할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "금고",
+    "term_en": "cash box",
+    "context": "금고를 열려고 애씀",
+    "interpretation_ko": "계획이 빨리 이루어지지 않아 걱정할 조짐",
+    "interpretation_en": "you will be worried over the failure of your plans not reaching quick maturity",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Safe",
+      "original": "To be trying to unlock a safe, you will be worried over the failure of your plans not reaching quick maturity.",
+      "translation_ko": "금고를 열려고 애쓰는 꿈은, 계획이 빨리 이루어지지 않아 걱정할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "사프란",
+    "term_en": "saffron",
+    "context": "사프란을 봄",
+    "interpretation_ko": "헛된 희망을 품고 있으며, 모진 적들이 은밀히 앞날의 계획을 방해하고 있을 조짐",
+    "interpretation_en": "warns you that you are entertaining false hopes, as bitter enemies are interfering secretly with your plans for the future",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Saffron",
+      "original": "Saffron seen in a dream warns you that you are entertaining false hopes, as bitter enemies are interfering secretly with your plans for the future.",
+      "translation_ko": "사프란을 보는 꿈은, 헛된 희망을 품고 있으며 모진 적들이 은밀히 앞날의 계획을 방해하고 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "사프란",
+    "term_en": "saffron",
+    "context": "사프란으로 만든 차를 마심",
+    "interpretation_ko": "가족 안에서 다툼과 불화를 겪을 조짐",
+    "interpretation_en": "foretells that you will have quarrels and alienations in your family",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Saffron",
+      "original": "To drink a tea made from saffron, foretells that you will have quarrels and alienations in your family.",
+      "translation_ko": "사프란으로 만든 차를 마시는 꿈은, 가족 안에서 다툼과 불화를 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "세이지",
+    "term_en": "garden sage",
+    "context": "세이지 꿈을 꿈",
+    "interpretation_ko": "하인이나 가족이 검소하고 알뜰하게 살림할 조짐",
+    "interpretation_en": "foretells thrift and economy will be practised by your servants or family",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Sage",
+      "original": "To dream of sage, foretells thrift and economy will be practised by your servants or family.",
+      "translation_ko": "세이지 꿈은, 하인이나 가족이 검소하고 알뜰하게 살림할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "세이지",
+    "term_en": "garden sage",
+    "context": "여성이 음식에 세이지가 지나치게 많다고 여김",
+    "interpretation_ko": "애정과 재물 모두에서 쓸데없는 사치를 뉘우칠 조짐",
+    "interpretation_en": "omens she will regret useless extravagance in love as well as fortune",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sage",
+      "original": "For a woman to think she has too much in her viands, omens she will regret useless extravagance in love as well as fortune.",
+      "translation_ko": "여성이 음식에 세이지가 지나치게 많다고 여기는 꿈은, 애정과 재물 모두에서 쓸데없는 사치를 뉘우칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바다",
+    "term_en": "sea",
+    "context": "작은 배를 타고 항해함",
+    "interpretation_ko": "바라는 바가 가질 수 있는 힘을 넘어서지 않을 조짐",
+    "interpretation_en": "denotes that your desires will not excel your power of possessing them",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sailing",
+      "original": "To sail on a small vessel, denotes that your desires will not excel your power of possessing them.",
+      "translation_ko": "작은 배를 타고 항해하는 꿈은, 바라는 바가 가질 수 있는 힘을 넘어서지 않을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "뱃사람",
+    "term_en": "mariner",
+    "context": "뱃사람 꿈을 꿈",
+    "interpretation_ko": "길고 짜릿한 여정을 예고하는 조짐",
+    "interpretation_en": "portends long and exciting journeys",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sailor",
+      "original": "To dream of sailors, portends long and exciting journeys.",
+      "translation_ko": "선원 꿈은, 길고 짜릿한 여정을 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "뱃사람",
+    "term_en": "mariner",
+    "context": "여성이 스스로 뱃사람이라고 여김",
+    "interpretation_ko": "정숙하지 못한 일탈에 빠져 성실한 연인을 잃을 위험이 있을 조짐",
+    "interpretation_en": "she will indulge in some unmaidenly escapade, and be in danger of losing a faithful lover",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sailor",
+      "original": "If she dreams that she is a sailor, she will indulge in some unmaidenly escapade, and be in danger of losing a faithful lover.",
+      "translation_ko": "여성이 스스로 선원이라고 여기는 꿈은, 정숙하지 못한 일탈에 빠져 성실한 연인을 잃을 위험이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "뱃사람",
+    "term_en": "mariner",
+    "context": "여성이 뱃사람 꿈을 꿈",
+    "interpretation_ko": "경솔한 불장난으로 연인과 헤어질 조짐",
+    "interpretation_en": "is ominous of a separation from her lover through a frivolous flirtation",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sailor",
+      "original": "For a young woman to dream of sailors, is ominous of a separation from her lover through a frivolous flirtation.",
+      "translation_ko": "여성이 선원 꿈을 꾸는 꿈은, 경솔한 불장난으로 연인과 헤어질 조짐이다"
+    }
+  }
+]

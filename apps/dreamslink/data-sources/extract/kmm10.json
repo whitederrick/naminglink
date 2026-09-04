@@ -356,11 +356,15 @@
     ],
     "contexts": {
       "가득 찬 금고를 봄": "가득 그득 채워진",
-      "금고가 비어 있음": "비어 비었 아무것도"
+      "금고가 비어 있음": "비어 비었 아무것도",
+      "금고를 봄": "안전 낙담스러운 벗어나",
+      "금고를 열려고 애씀": "열려고 애쓰는 계획이걱정"
     },
     "contexts_en": {
       "가득 찬 금고를 봄": "full favorable prospects",
-      "금고가 비어 있음": "empty meager reimbursements"
+      "금고가 비어 있음": "empty meager reimbursements",
+      "금고를 봄": "security discouraging business",
+      "금고를 열려고 애씀": "unlock worried maturity"
     }
   },
   {

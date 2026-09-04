@@ -88,7 +88,8 @@
     "id": "rye",
     "aliases": [
       "호밀",
-      "호밀밭"
+      "호밀밭",
+      "호밀빵"
     ],
     "aliases_en": [
       "rye"
@@ -96,12 +97,14 @@
     "contexts": {
       "호밀을 봄": "번영이 밝은약속",
       "호밀로 만든 커피를 봄": "커피를 건전한판단 불화없이",
-      "가축이 호밀밭에 들어가는 것을 봄": "가축이 호밀밭 번영할"
+      "가축이 호밀밭에 들어가는 것을 봄": "가축이 호밀밭 번영할",
+      "호밀빵을 보거나 먹음": "호밀빵 명랑하고 잘꾸며진"
     },
     "contexts_en": {
       "호밀을 봄": "prosperity brightest promises",
       "호밀로 만든 커피를 봄": "coffee sound judgment friction",
-      "가축이 호밀밭에 들어가는 것을 봄": "stock entering fields prosperous"
+      "가축이 호밀밭에 들어가는 것을 봄": "stock entering fields prosperous",
+      "호밀빵을 보거나 먹음": "bread cheerful home"
     }
   }
 ]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "saddle",
+    "aliases": [
+      "안장"
+    ],
+    "aliases_en": [
+      "a saddle",
+      "saddles"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "saffron",
+    "aliases": [
+      "사프란"
+    ],
+    "aliases_en": [
+      "saffron"
+    ],
+    "contexts": {
+      "사프란을 봄": "헛된희망 모진적들 은밀히",
+      "사프란으로 만든 차를 마심": "차를 다툼과불화 가족"
+    },
+    "contexts_en": {
+      "사프란을 봄": "false hopes bitter enemies",
+      "사프란으로 만든 차를 마심": "drink tea quarrels alienations"
+    }
+  },
+  {
+    "id": "garden-sage",
+    "aliases": [
+      "세이지"
+    ],
+    "aliases_en": [
+      "garden sage"
+    ],
+    "contexts": {
+      "세이지 꿈을 꿈": "하인이나 검소하고 알뜰",
+      "여성이 음식에 세이지가 지나치게 많다고 여김": "지나치게 많다고 뉘우칠사치"
+    },
+    "contexts_en": {
+      "세이지 꿈을 꿈": "thrift economy servants",
+      "여성이 음식에 세이지가 지나치게 많다고 여김": "viands regret extravagance"
+    }
+  }
+]

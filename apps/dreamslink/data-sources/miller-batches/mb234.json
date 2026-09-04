@@ -1,0 +1,46 @@
+{
+  "batch": 234,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rye Bread",
+      "text": "To see or eat rye bread in your dreams, foretells you will have a cheerful and well-appointed home.",
+      "note": "기존 상징 `rye`(호밀)에 하나를 더한다"
+    },
+    {
+      "headword": "Saddle",
+      "text": "To dream of saddles, foretells news of a pleasant nature, also unannounced visitors. You are also, probably, to take a trip which will prove advantageous.",
+      "note": "새 상징 `saddle`(안장) — 한 그림"
+    },
+    {
+      "headword": "Safe",
+      "text": "To dream of seeing a safe, denotes security from discouraging affairs of business and love. To be trying to unlock a safe, you will be worried over the failure of your plans not reaching quick maturity. To find a safe empty, denotes trouble.",
+      "note": "기존 상징 `cash-box`(금고, 밀러 별개 표제어 Cash Box에서 온 것)에 둘을 더한다 — 「금고가 비어 있음」은 같은 그림이 이미 있어 뺀다"
+    },
+    {
+      "headword": "Saffron",
+      "text": "Saffron seen in a dream warns you that you are entertaining false hopes, as bitter enemies are interfering secretly with your plans for the future. To drink a tea made from saffron, foretells that you will have quarrels and alienations in your family.",
+      "note": "새 상징 `saffron`(사프란) — 두 그림"
+    },
+    {
+      "headword": "Sage",
+      "text": "To dream of sage, foretells thrift and economy will be practised by your servants or family. For a woman to think she has too much in her viands, omens she will regret useless extravagance in love as well as fortune.",
+      "note": "새 상징 `garden-sage`(세이지, 허브) — 두 그림. 기존 상징 `sage`(성현, 주공해몽)와는 완전히 다른 뜻이라 term_en을 \"garden sage\"로 갈라 같은 상징으로 안 묶이게 한다"
+    },
+    {
+      "headword": "Sailing",
+      "text": "To dream of sailing on calm waters, foretells easy access to blissful joys, and immunity from poverty and whatever brings misery. To sail on a small vessel, denotes that your desires will not excel your power of possessing them.",
+      "note": "기존 상징 `sea`(바다)에 하나만 더한다 — 원문 각주 [196] 'See Ocean and Sea' 그대로. 「잔잔한 물에서 항해」는 기존 밀러 Ocean 표제어의 「바다가 잔잔함」과 같은 그림이라 뺀다"
+    },
+    {
+      "headword": "Sailor",
+      "text": "To dream of sailors, portends long and exciting journeys. For a young woman to dream of sailors, is ominous of a separation from her lover through a frivolous flirtation. If she dreams that she is a sailor, she will indulge in some unmaidenly escapade, and be in danger of losing a faithful lover.",
+      "note": "기존 상징 `mariner`(뱃사람)에 셋을 더한다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    "Safe: \"To find a safe empty, denotes trouble.\" — 기존 `cash-box`의 밀러 Cash Box 표제어 「금고가 비어 있음」과 같은 그림",
+    "Sailing: \"To dream of sailing on calm waters, foretells easy access to blissful joys, and immunity from poverty and whatever brings misery.\" — 기존 `sea`의 밀러 Ocean 표제어 「바다가 잔잔함」과 같은 그림"
+  ]
+}

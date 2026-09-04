@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 233 — Ruins·Rum·Running·Rupture·Rust·Rye)
+// (지금 담긴 것: 배치 234 — Rye Bread·Saddle·Safe·Saffron·Sage·Sailing·Sailor)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,24 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "ruins", ctx: "폐허 꿈을 꿈", text: "폐허 꿈을 꾸었다" },
-  { id: "ruins", ctx: "고대 폐허를 봄", text: "고대 폐허를 보았다" },
-  { id: "liquor", ctx: "럼주를 마심", text: "럼주를 마셨다" },
-  { id: "running", ctx: "남들과 함께 달림", text: "남들과 함께 달렸다" },
-  { id: "running", ctx: "달리다가 발을 헛디디거나 넘어짐", text: "달리다가 발을 헛디뎠다" },
-  { id: "running", ctx: "혼자 달림", text: "혼자 달렸다" },
-  { id: "running", ctx: "위험을 피해 달아남", text: "위험을 피해 달아났다" },
-  { id: "running", ctx: "남이 그렇게 달아나는 것을 봄", text: "남이 그렇게 달아나는 것을 보았다" },
-  { id: "running", ctx: "가축이 뛰어다니는 것을 봄", text: "가축이 뛰어다니는 것을 보았다" },
-  { id: "rupture", ctx: "자신이 탈장됨", text: "자신이 탈장되었다" },
-  { id: "rupture", ctx: "남이 탈장된 것을 봄", text: "남이 탈장된 것을 보았다" },
-  { id: "rust", ctx: "물건이나 낡은 양철·쇠붙이에 슨 녹을 봄", text: "낡은 쇠붙이에 슨 녹을 보았다" },
+  { id: "rye", ctx: "호밀빵을 보거나 먹음", text: "호밀빵을 먹었다" },
+  { id: "saddle", ctx: "안장 꿈을 꿈", text: "안장 꿈을 꾸었다" },
+  // "금고를 봄"은 밀러 원문에 장면 상세가 없어("seeing a safe" 뿐) 기존
+  // "가득 찬 금고를 봄"과 판별어 없이는 못 가른다 — 둘 다 긍정이라 동점이면
+  // 옛 것이 이겨도 무해하다고 보고 이 자리는 프로브에서 뺀다.
+  { id: "cash-box", ctx: "금고를 열려고 애씀", text: "금고를 열려고 애썼다" },
+  { id: "saffron", ctx: "사프란을 봄", text: "사프란을 보았다" },
+  { id: "saffron", ctx: "사프란으로 만든 차를 마심", text: "사프란으로 만든 차를 마셨다" },
+  { id: "garden-sage", ctx: "세이지 꿈을 꿈", text: "세이지 꿈을 꾸었다" },
+  { id: "garden-sage", ctx: "여성이 음식에 세이지가 지나치게 많다고 여김", text: "여성이 음식에 세이지가 지나치게 많다고 여겼다" },
+  { id: "sea", ctx: "작은 배를 타고 항해함", text: "작은 배로 바다를 항해했다" },
+  // "뱃사람 꿈을 꿈"도 밀러 원문에 장면 상세가 없어 기존 "제가 뱃사람이 됨"과
+  // 판별어 없이는 못 가른다 — 같은 이유로 이 자리는 프로브에서 뺀다.
+  { id: "mariner", ctx: "여성이 뱃사람 꿈을 꿈", text: "여성이 뱃사람 꿈을 꾸었다" },
+  { id: "mariner", ctx: "여성이 스스로 뱃사람이라고 여김", text: "여성이 스스로 뱃사람이라고 여겼다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(rye·cash-box·mariner·sea)의 옛 답이 그대로인가
   { id: "rye", ctx: "호밀을 봄", text: "호밀을 보았다" },
-  { id: "rye", ctx: "호밀로 만든 커피를 봄", text: "호밀로 만든 커피를 보았다" },
-  { id: "rye", ctx: "가축이 호밀밭에 들어가는 것을 봄", text: "가축이 호밀밭에 들어가는 것을 보았다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(liquor)의 옛 답이 그대로인가
-  { id: "liquor", ctx: "술을 마심", text: "혼자 술을 마셨다" },
-  { id: "liquor", ctx: "술에 취하도록 마심", text: "술에 취하도록 마셨다" },
+  { id: "cash-box", ctx: "가득 찬 금고를 봄", text: "가득 찬 금고를 보았다" },
+  { id: "cash-box", ctx: "금고가 비어 있음", text: "금고가 비어 있었다" },
+  { id: "mariner", ctx: "제가 뱃사람이 됨", text: "내가 뱃사람이 되었다" },
+  { id: "sea", ctx: "바다가 잔잔함", text: "바다가 잔잔했다" },
 ];
 
 let notFound = 0;
