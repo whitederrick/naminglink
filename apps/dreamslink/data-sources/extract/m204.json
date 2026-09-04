@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "토끼",
+    "term_en": "rabbit",
+    "context": "토끼 꿈을 꿈",
+    "interpretation_ko": "형편이 좋게 바뀌고, 전보다 얻는 것에 흡족해할 조짐",
+    "interpretation_en": "foretells favorable turns in conditions, and you will be more pleased with your gains than formerly",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Rabbit",
+      "original": "To dream of rabbits, foretells favorable turns in conditions, and you will be more pleased with your gains than formerly.",
+      "translation_ko": "토끼 꿈은, 형편이 좋게 바뀌고, 전보다 얻는 것에 흡족해할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "토끼",
+    "term_en": "rabbit",
+    "context": "흰 토끼를 봄",
+    "interpretation_ko": "기혼이든 미혼이든 사랑에 신실할 조짐",
+    "interpretation_en": "denotes faithfulness in love, to the married or single",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Rabbit",
+      "original": "To see white rabbits, denotes faithfulness in love, to the married or single.",
+      "translation_ko": "흰 토끼를 보는 꿈은, 기혼이든 미혼이든 사랑에 신실할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "토끼",
+    "term_en": "rabbit",
+    "context": "토끼들이 뛰노는 것을 봄",
+    "interpretation_ko": "아이들이 저의 기쁨이 될 조짐",
+    "interpretation_en": "denotes that children will contribute to your joys",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Rabbit",
+      "original": "To see rabbits frolicing about, denotes that children will contribute to your joys.",
+      "translation_ko": "토끼들이 뛰노는 것을 보는 꿈은, 아이들이 저의 기쁨이 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "너구리",
+    "term_en": "raccoon",
+    "context": "너구리 꿈을 꿈",
+    "interpretation_ko": "원수가 다정한 겉모습으로 속이고 있다는 뜻",
+    "interpretation_en": "denotes you are being deceived by the friendly appearance of enemies",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Raccoon",
+      "original": "To dream of a raccoon, denotes you are being deceived by the friendly appearance of enemies.",
+      "translation_ko": "너구리 꿈은, 원수가 다정한 겉모습으로 속이고 있다는 뜻이다"
+    }
+  },
+  {
+    "term_ko": "경주",
+    "term_en": "race",
+    "context": "제가 경주에 나섬",
+    "interpretation_ko": "남들이 제가 가지려 애쓰는 것을 탐낼 조짐. 다만 경주에서 이기면 경쟁자를 이겨낼 것",
+    "interpretation_en": "foretells that others will aspire to the things you are working to possess, but if you win in the race, you will overcome your competitors",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Race",
+      "original": "To dream that you are in a race, foretells that others will aspire to the things you are working to possess, but if you win in the race, you will overcome your competitors.",
+      "translation_ko": "제가 경주에 나서는 꿈은, 남들이 제가 가지려 애쓰는 것을 탐낼 조짐이다. 다만 경주에서 이기면 경쟁자를 이겨낼 것이다"
+    }
+  },
+  {
+    "term_ko": "고문틀",
+    "term_en": "rack",
+    "context": "고문틀 꿈을 꿈",
+    "interpretation_ko": "어떤 약속의 결과를 몰라 애태우게 될 조짐",
+    "interpretation_en": "denotes the uncertainty of the outcome of some engagement which gives you much anxious thought",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rack",
+      "original": "To dream of a rack, denotes the uncertainty of the outcome of some engagement which gives you much anxious thought.",
+      "translation_ko": "고문틀 꿈은, 어떤 약속의 결과를 몰라 애태우게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "소란",
+    "term_en": "racket",
+    "context": "소란 꿈을 꿈",
+    "interpretation_ko": "바라던 즐거움이 어그러질 조짐",
+    "interpretation_en": "denotes that you will be foiled in some anticipated pleasure",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Racket",
+      "original": "To dream of a racket, denotes that you will be foiled in some anticipated pleasure.",
+      "translation_ko": "소란 꿈은, 바라던 즐거움이 어그러질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "소란",
+    "term_en": "racket",
+    "context": "처녀가 소란 꿈을 꿈",
+    "interpretation_ko": "마음에 두던 놀이에 끼지 못해 실망할 흉조",
+    "interpretation_en": "this dream is ominous of disappointment in not being able to participate in some amusement that has engaged her attention",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Racket",
+      "original": "For a young woman, this dream is ominous of disappointment in not being able to participate in some amusement that has engaged her attention.",
+      "translation_ko": "처녀가 소란 꿈을 꾸면, 마음에 두던 놀이에 끼지 못해 실망할 흉조다"
+    }
+  }
+]

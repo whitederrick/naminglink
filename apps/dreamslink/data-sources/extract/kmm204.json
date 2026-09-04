@@ -1,0 +1,58 @@
+[
+  {
+    "id": "raccoon",
+    "aliases": [
+      "너구리가",
+      "너구리를"
+    ],
+    "aliases_en": [
+      "a raccoon",
+      "raccoons"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "race",
+    "aliases": [
+      "경주에",
+      "경주를",
+      "경주에서"
+    ],
+    "aliases_en": [
+      "a race"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "rack",
+    "aliases": [
+      "고문틀이",
+      "고문틀을"
+    ],
+    "aliases_en": [
+      "a rack"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "racket",
+    "aliases": [
+      "소란이",
+      "소란을"
+    ],
+    "aliases_en": [
+      "a racket"
+    ],
+    "contexts": {
+      "소란 꿈을 꿈": "어그러질",
+      "처녀가 소란 꿈을 꿈": "처녀가 끼지"
+    },
+    "contexts_en": {
+      "소란 꿈을 꿈": "foiled anticipated pleasure",
+      "처녀가 소란 꿈을 꿈": "young woman disappointment amusement"
+    }
+  }
+]

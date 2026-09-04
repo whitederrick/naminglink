@@ -1,0 +1,33 @@
+{
+  "batch": 204,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rabbit",
+      "text": "To dream of rabbits, foretells favorable turns in conditions, and you will be more pleased with your gains than formerly. To see white rabbits, denotes faithfulness in love, to the married or single. To see rabbits frolicing about, denotes that children will contribute to your joys.",
+      "note": "기존 상징 `rabbit`(토끼, 주공해몽)에 더한다 — \"hare\"가 이미 그 영어 별칭이다. R장 첫 배치. 각주 [182]는 「Hare 항목 참고」다"
+    },
+    {
+      "headword": "Raccoon",
+      "text": "To dream of a raccoon, denotes you are being deceived by the friendly appearance of enemies.",
+      "note": "새 상징 `raccoon`(너구리)"
+    },
+    {
+      "headword": "Race",
+      "text": "To dream that you are in a race, foretells that others will aspire to the things you are working to possess, but if you win in the race, you will overcome your competitors.",
+      "note": "새 상징 `race`(경주)"
+    },
+    {
+      "headword": "Rack",
+      "text": "To dream of a rack, denotes the uncertainty of the outcome of some engagement which gives you much anxious thought.",
+      "note": "새 상징 `rack`(고문틀)"
+    },
+    {
+      "headword": "Racket",
+      "text": "To dream of a racket, denotes that you will be foiled in some anticipated pleasure. For a young woman, this dream is ominous of disappointment in not being able to participate in some amusement that has engaged her attention.",
+      "note": "새 상징 `racket`(소란)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

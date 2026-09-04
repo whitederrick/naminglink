@@ -360,6 +360,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "rabbit::죽은 토끼를 봄": "죽은 죽어",
   "rabbit::개에게 쫓기는 토끼를 봄": "쫓기 개에게",
   "rabbit::토끼를 쏘아 잡음": "쏘았 쏘아 총으로",
+  "rabbit::토끼 꿈을 꿈": "형편이 흡족",
+  "rabbit::흰 토끼를 봄": "새하얀 신실",
+  "rabbit::토끼들이 뛰노는 것을 봄": "뛰어노 아이들이",
   "shrine::신을 모신 사당에 들어감": "들어가 안으로 모신",
   "shrine::사당이 넓고 큼": "넓고 크고 웅장",
   "altar::제단 앞의 사제를 봄": "사제 목사 성직 제관",
@@ -5283,5 +5286,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "quinsy::편도염을 앓음": "힘빠지게",
   "quinsy::남이 편도염을 앓는 것을 봄": "남이 근심",
   "quoits::콰이츠 던지기를 함": "하찮은 일자리",
-  "quoits::콰이츠 던지기에서 짐": "졌다 괴로운"
+  "quoits::콰이츠 던지기에서 짐": "졌다 괴로운",
+  "racket::소란 꿈을 꿈": "어그러질",
+  "racket::처녀가 소란 꿈을 꿈": "처녀가 끼지"
 };

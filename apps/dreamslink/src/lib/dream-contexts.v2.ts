@@ -356,6 +356,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "rabbit::죽은 토끼를 봄": "dead betokens prosy affair",
   "rabbit::개에게 쫓기는 토끼를 봄": "chased dogs contentions friendly relations",
   "rabbit::토끼를 쏘아 잡음": "shoot violent measures rightful possessions",
+  "rabbit::토끼 꿈을 꿈": "favorable turns pleased gains",
+  "rabbit::흰 토끼를 봄": "white faithfulness love",
+  "rabbit::토끼들이 뛰노는 것을 봄": "frolicing children joys",
   "shrine::신을 모신 사당에 들어감": "entered walked inside enshrined",
   "shrine::사당이 넓고 큼": "large spacious wide grand",
   "altar::제단 앞의 사제를 봄": "priest clergyman minister",
@@ -5279,5 +5282,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "quinsy::편도염을 앓음": "afflicted discouraging employments",
   "quinsy::남이 편도염을 앓는 것을 봄": "others sickness anxiety",
   "quoits::콰이츠 던지기를 함": "low engagements employment",
-  "quoits::콰이츠 던지기에서 짐": "lose distressing conditions"
+  "quoits::콰이츠 던지기에서 짐": "lose distressing conditions",
+  "racket::소란 꿈을 꿈": "foiled anticipated pleasure",
+  "racket::처녀가 소란 꿈을 꿈": "young woman disappointment amusement"
 };

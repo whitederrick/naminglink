@@ -667,7 +667,9 @@
       "산토끼",
       "토끼가",
       "토끼를",
-      "멧토끼"
+      "멧토끼",
+      "토끼들이",
+      "토끼들을"
     ],
     "aliases_en": [
       "bunny",
@@ -682,7 +684,10 @@
       "토끼를 길들여 기름": "길들 기르 키우",
       "죽은 토끼를 봄": "죽은 죽어",
       "개에게 쫓기는 토끼를 봄": "쫓기 개에게",
-      "토끼를 쏘아 잡음": "쏘았 쏘아 총으로"
+      "토끼를 쏘아 잡음": "쏘았 쏘아 총으로",
+      "토끼 꿈을 꿈": "형편이 흡족",
+      "흰 토끼를 봄": "새하얀 신실",
+      "토끼들이 뛰노는 것을 봄": "뛰어노 아이들이"
     },
     "contexts_en": {
       "토끼 무리가 하늘로 오름": "sky rose flew group flock",
@@ -692,7 +697,10 @@
       "토끼를 길들여 기름": "pets orderly unintelligent companion",
       "죽은 토끼를 봄": "dead betokens prosy affair",
       "개에게 쫓기는 토끼를 봄": "chased dogs contentions friendly relations",
-      "토끼를 쏘아 잡음": "shoot violent measures rightful possessions"
+      "토끼를 쏘아 잡음": "shoot violent measures rightful possessions",
+      "토끼 꿈을 꿈": "favorable turns pleased gains",
+      "흰 토끼를 봄": "white faithfulness love",
+      "토끼들이 뛰노는 것을 봄": "frolicing children joys"
     }
   },
   {
