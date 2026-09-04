@@ -204,7 +204,9 @@
       "설교단에 선 목사를 봄": "강단 병과",
       "여성이 목사와 사랑에 빠짐": "사랑에 빠진 속임수",
       "목사가 여성에게 구애함": "구애 짓궂은",
-      "목사에게 고해함": "고해 굴욕"
+      "목사에게 고해함": "고해 굴욕",
+      "목사가 사적인 자리에서 일을 그만두었다고 말함": "사적인 뜻밖의",
+      "목사가 직무상 경고하듯 일을 그만두었다고 말함": "직무상 경고하듯"
     },
     "contexts_en": {
       "장례 설교를 하려고 목사를 부름": "funeral sermon sickness",
@@ -219,7 +221,9 @@
       "설교단에 선 목사를 봄": "pulpit ailment dreamer",
       "여성이 목사와 사랑에 빠짐": "deceptions unscrupulous lover",
       "목사가 여성에게 구애함": "courts gaiety joking",
-      "목사에게 고해함": "confess humiliation shame"
+      "목사에게 고해함": "confess humiliation shame",
+      "목사가 사적인 자리에서 일을 그만두었다고 말함": "social favorable tidings",
+      "목사가 직무상 경고하듯 일을 그만두었다고 말함": "professional warning intriguing"
     }
   },
   {

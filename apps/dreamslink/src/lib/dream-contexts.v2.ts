@@ -3115,6 +3115,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "clergyman::여성이 목사와 사랑에 빠짐": "deceptions unscrupulous lover",
   "clergyman::목사가 여성에게 구애함": "courts gaiety joking",
   "clergyman::목사에게 고해함": "confess humiliation shame",
+  "clergyman::목사가 사적인 자리에서 일을 그만두었다고 말함": "social favorable tidings",
+  "clergyman::목사가 직무상 경고하듯 일을 그만두었다고 말함": "professional warning intriguing",
   "climbing::언덕이나 산을 올라 꼭대기에 이름": "reaching overcome formidable",
   "climbing::꼭대기에 이르지 못함": "fail wrecked dearest",
   "climbing::사다리 맨 위까지 오름": "rung last succeed",
@@ -5357,5 +5359,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "hotel-register::남이 저 대신 숙박부에 이름을 적어 줌": "undertake finished others",
   "hotel-register::가명으로 숙박부에 이름을 적음": "assumed guilty uneasiness",
   "reindeer::순록 꿈을 꿈": "faithful duties staunch",
-  "reindeer::순록을 몲": "drive anguish attend"
+  "reindeer::순록을 몲": "drive anguish attend",
+  "religion::종교를 이야기하며 신앙심이 깊어짐을 느낌": "discussing calmness disagreeable",
+  "religion::처녀가 스스로 지나치게 신앙심 깊다고 여김": "disgust ingenuous innocence",
+  "religion::처녀가 신앙심이 없으나 잘못을 저지르지 않았다고 여김": "irreligious frankness respect",
+  "religion::처녀가 신앙심이 없고 종교의 눈으로 잘못을 저질렀다고 여김": "transgressor moral conduct",
+  "religion::처녀가 종교 때문에 욺": "weeps disappointed desires",
+  "religion::종교 문제로 처녀가 죄는 없으나 반항적임": "defiant innocent burdens",
+  "religion::신앙의 흥분 속에서 스스로를 자책함": "self-reproached esteem personality",
+  "religion::종교의 힘이 약해지는 것을 봄": "declining harmony prejudices"
 };

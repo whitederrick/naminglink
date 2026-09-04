@@ -1,0 +1,27 @@
+[
+  {
+    "id": "religion",
+    "aliases": ["종교가", "종교를", "신앙심이", "신앙심", "신앙"],
+    "aliases_en": ["religious", "religiously"],
+    "contexts": {
+      "종교를 이야기하며 신앙심이 깊어짐을 느낌": "이야기하며 깊어짐",
+      "처녀가 스스로 지나치게 신앙심 깊다고 여김": "지나치게 정떨어질",
+      "처녀가 신앙심이 없으나 잘못을 저지르지 않았다고 여김": "저지르지 존경과",
+      "처녀가 신앙심이 없고 종교의 눈으로 잘못을 저질렀다고 여김": "저질렀 도덕률",
+      "처녀가 종교 때문에 욺": "울었다 실망",
+      "종교 문제로 처녀가 죄는 없으나 반항적임": "반항적 용감히",
+      "신앙의 흥분 속에서 스스로를 자책함": "자책 개성을",
+      "종교의 힘이 약해지는 것을 봄": "약해지는 조화"
+    },
+    "contexts_en": {
+      "종교를 이야기하며 신앙심이 깊어짐을 느낌": "discussing calmness disagreeable",
+      "처녀가 스스로 지나치게 신앙심 깊다고 여김": "disgust ingenuous innocence",
+      "처녀가 신앙심이 없으나 잘못을 저지르지 않았다고 여김": "irreligious frankness respect",
+      "처녀가 신앙심이 없고 종교의 눈으로 잘못을 저질렀다고 여김": "transgressor moral conduct",
+      "처녀가 종교 때문에 욺": "weeps disappointed desires",
+      "종교 문제로 처녀가 죄는 없으나 반항적임": "defiant innocent burdens",
+      "신앙의 흥분 속에서 스스로를 자책함": "self-reproached esteem personality",
+      "종교의 힘이 약해지는 것을 봄": "declining harmony prejudices"
+    }
+  }
+]

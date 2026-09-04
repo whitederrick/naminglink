@@ -7126,5 +7126,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "reindeer": [
     "a reindeer",
     "reindeer"
+  ],
+  "religion": [
+    "religious",
+    "religiously"
   ]
 };

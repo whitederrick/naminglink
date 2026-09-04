@@ -130,6 +130,7 @@
     "m212.json",
     "m213.json",
     "m214.json",
+    "m215.json",
     "m22.json",
     "m23.json",
     "m24.json",
@@ -10024,6 +10025,261 @@
       ]
     },
     {
+      "id": "clergyman",
+      "term_ko": "목사",
+      "term_en": "clergyman",
+      "aliases": [
+        "성직자",
+        "전도사",
+        "목사가",
+        "목사를",
+        "목사의"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "목사를 봄",
+          "interpretation_ko": "궂은 변화와 달갑지 않은 길을 뜻하는 흉한 조짐",
+          "interpretation_en": "denotes unfortunate changes and unpleasant journeys",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minister",
+              "original": "To dream of seeing a minister, denotes unfortunate changes and unpleasant journeys.",
+              "translation_ko": "꿈에 목사를 보면 궂은 변화와 달갑지 않은 길이 있다"
+            },
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "To dream of a preacher, denotes that your ways are not above reproach, and your affairs will not move evenly.",
+              "translation_ko": "목사 꿈은, 저의 처신이 떳떳하지 못하고 일이 순조롭지 않을 흉한 조짐이다"
+            },
+            {
+              "work": "miller",
+              "locator": "Priest",
+              "original": "A priest is an augury of ill, if seen in dreams.",
+              "translation_ko": "꿈에 신부가 보이면 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목사의 설교를 들음",
+          "interpretation_ko": "속셈이 있는 이가 저를 나쁜 길로 이끌 흉한 조짐",
+          "interpretation_en": "foretells that some designing person will influence you to evil",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minister",
+              "original": "To hear a minister exhort, foretells that some designing person will influence you to evil.",
+              "translation_ko": "목사가 훈계하는 것을 들으면, 속셈이 있는 이가 저를 나쁜 길로 이끈다"
+            },
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "To hear preaching, implies that you will undergo misfortune.",
+              "translation_ko": "설교를 듣는 꿈은, 불운을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제가 목사가 됨",
+          "interpretation_ko": "남의 몫을 가로챌 흉한 조짐",
+          "interpretation_en": "denotes that you will usurp another's rights",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Minister",
+              "original": "To dream that you are a minister, denotes that you will usurp another's rights.",
+              "translation_ko": "제가 목사가 되는 꿈은 남의 몫을 가로챔을 뜻한다"
+            },
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "To dream that you are a preacher, foretells for you losses in business, and distasteful amusements will jar upon you.",
+              "translation_ko": "제가 목사가 되는 꿈은, 사업에서 손실을 보고 마뜩잖은 오락으로 거슬릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "장례 설교를 하려고 목사를 부름",
+          "interpretation_ko": "병과 궂은 기운에 맞서 애쓰나 헛되이 밀릴 조짐",
+          "interpretation_en": "you will vainly strive against sickness and evil influences, but they will prevail",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Clergyman",
+              "original": "To dream that you send for a clergyman to preach a funeral sermon, denotes that you will vainly strive against sickness and to ward off evil influences, but they will prevail in spite of your earnest endeavors.",
+              "translation_ko": "장례 설교를 하려고 목사를 부르는 꿈은, 병과 궂은 기운을 막으려 애쓰나 진심 어린 애씀에도 그것들이 이기게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "목사와 혼인함",
+          "interpretation_ko": "마음이 크게 괴롭고 운이 어긋나 곤경에 빠질 조짐",
+          "interpretation_en": "she will be the object of much mental distress, and fortune will lead her into adversity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Clergyman",
+              "original": "If a young woman marries a clergyman in her dream, she will be the object of much mental distress, and the wayward hand of fortune will lead her into the morass of adversity.",
+              "translation_ko": "젊은 여성이 꿈에서 목사와 혼인하면, 마음이 크게 괴롭고 어긋난 운이 그를 곤경의 수렁으로 이끈다"
+            }
+          ]
+        },
+        {
+          "context": "목사와 다툼",
+          "interpretation_ko": "어떤 겨룸에서 질 조짐",
+          "interpretation_en": "you will lose in some contest",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "To argue with a preacher, you will lose in some contest.",
+              "translation_ko": "목사와 다투는 꿈은, 어떤 겨룸에서 질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목사가 저에게서 걸어감",
+          "interpretation_ko": "일이 새로운 활기로 나아갈 조짐",
+          "interpretation_en": "denotes that your affairs will move with new energy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "To see one walk away from you, denotes that your affairs will move with new energy.",
+              "translation_ko": "목사가 저에게서 걸어가는 것을 보는 꿈은, 일이 새로운 활기로 나아갈 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "슬퍼 보이는 목사를 봄",
+          "interpretation_ko": "무거운 책망을 당할 조짐",
+          "interpretation_en": "reproaches will fall heavily upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "If he looks sorrowful, reproaches will fall heavily upon you.",
+              "translation_ko": "슬퍼 보이는 목사를 보는 꿈은, 무거운 책망을 당할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "장발의 목사를 봄",
+          "interpretation_ko": "거만하고 독선적인 이들과 곧 다툴 조짐",
+          "interpretation_en": "denotes that you are shortly to have disputes with overbearing and egotistical people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Preacher",
+              "original": "To see a long-haired preacher, denotes that you are shortly to have disputes with overbearing and egotistical people.",
+              "translation_ko": "머리 긴 목사를 보는 꿈은, 거만하고 독선적인 이들과 곧 다툴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "설교단에 선 목사를 봄",
+          "interpretation_ko": "꿈꾼 이에게 병과 어려움이 있을 조짐",
+          "interpretation_en": "it denotes sickness and trouble for the dreamer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Priest",
+              "original": "If he is in the pulpit, it denotes sickness and trouble for the dreamer.",
+              "translation_ko": "설교단에 선 신부를 보는 꿈은, 꿈꾼 이에게 병과 어려움이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 목사와 사랑에 빠짐",
+          "interpretation_ko": "속임수와 부정직한 애인을 조심하라는 경고",
+          "interpretation_en": "it warns her of deceptions and an unscrupulous lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Priest",
+              "original": "If a woman dreams that she is in love with a priest, it warns her of deceptions and an unscrupulous lover.",
+              "translation_ko": "여성이 신부와 사랑에 빠지는 꿈은, 속임수와 부정직한 애인을 조심하라는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "목사가 여성에게 구애함",
+          "interpretation_ko": "쾌락을 좋아하고 짓궂은 장난을 즐긴다는 책망을 들을 조짐",
+          "interpretation_en": "she will be reproached for her love of gaiety and practical joking",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Priest",
+              "original": "If the priest makes love to her, she will be reproached for her love of gaiety and practical joking.",
+              "translation_ko": "신부가 여성에게 구애하는 꿈은, 쾌락을 좋아하고 짓궂은 장난을 즐긴다는 책망을 들을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목사에게 고해함",
+          "interpretation_ko": "굴욕과 슬픔을 겪을 조짐",
+          "interpretation_en": "denotes that you will be subjected to humiliation and sorrow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Priest",
+              "original": "To confess to a priest, denotes that you will be subjected to humiliation and sorrow.",
+              "translation_ko": "신부에게 고해하는 꿈은, 굴욕과 슬픔을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목사가 사적인 자리에서 일을 그만두었다고 말함",
+          "interpretation_ko": "뜻밖의 좋은 소식을 받을 조짐",
+          "interpretation_en": "foretells that you will be the recipient of unexpected tidings of a favorable nature",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "To dream that a minister in a social way tells you that he has given up his work, foretells that you will be the recipient of unexpected tidings of a favorable nature, but if in a professional and warning way, it foretells that you will be overtaken in your deceitful intriguing, or other disappointments will follow.",
+              "translation_ko": "목사가 사적인 자리에서 일을 그만두었다고 말하는 꿈은, 뜻밖의 좋은 소식을 받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목사가 직무상 경고하듯 일을 그만두었다고 말함",
+          "interpretation_ko": "속임수 책략이 들통나거나 다른 실망스러운 일이 뒤따를 조짐",
+          "interpretation_en": "it foretells that you will be overtaken in your deceitful intriguing, or other disappointments will follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "To dream that a minister in a social way tells you that he has given up his work, foretells that you will be the recipient of unexpected tidings of a favorable nature, but if in a professional and warning way, it foretells that you will be overtaken in your deceitful intriguing, or other disappointments will follow.",
+              "translation_ko": "목사가 직무상 경고하듯 일을 그만두었다고 말하는 꿈은, 속임수 책략이 들통나거나 다른 실망스러운 일이 뒤따를 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "donkey",
       "term_ko": "당나귀",
       "term_en": "donkey",
@@ -12413,233 +12669,6 @@
               "locator": "被害鬥傷打罵",
               "original": "殺雞鵝鴨主大吉",
               "translation_ko": "닭과 거위와 오리를 잡으면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "clergyman",
-      "term_ko": "목사",
-      "term_en": "clergyman",
-      "aliases": [
-        "성직자",
-        "전도사",
-        "목사가",
-        "목사를",
-        "목사의"
-      ],
-      "category": "person",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "목사를 봄",
-          "interpretation_ko": "궂은 변화와 달갑지 않은 길을 뜻하는 흉한 조짐",
-          "interpretation_en": "denotes unfortunate changes and unpleasant journeys",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Minister",
-              "original": "To dream of seeing a minister, denotes unfortunate changes and unpleasant journeys.",
-              "translation_ko": "꿈에 목사를 보면 궂은 변화와 달갑지 않은 길이 있다"
-            },
-            {
-              "work": "miller",
-              "locator": "Preacher",
-              "original": "To dream of a preacher, denotes that your ways are not above reproach, and your affairs will not move evenly.",
-              "translation_ko": "목사 꿈은, 저의 처신이 떳떳하지 못하고 일이 순조롭지 않을 흉한 조짐이다"
-            },
-            {
-              "work": "miller",
-              "locator": "Priest",
-              "original": "A priest is an augury of ill, if seen in dreams.",
-              "translation_ko": "꿈에 신부가 보이면 흉한 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "목사의 설교를 들음",
-          "interpretation_ko": "속셈이 있는 이가 저를 나쁜 길로 이끌 흉한 조짐",
-          "interpretation_en": "foretells that some designing person will influence you to evil",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Minister",
-              "original": "To hear a minister exhort, foretells that some designing person will influence you to evil.",
-              "translation_ko": "목사가 훈계하는 것을 들으면, 속셈이 있는 이가 저를 나쁜 길로 이끈다"
-            },
-            {
-              "work": "miller",
-              "locator": "Preacher",
-              "original": "To hear preaching, implies that you will undergo misfortune.",
-              "translation_ko": "설교를 듣는 꿈은, 불운을 겪을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "제가 목사가 됨",
-          "interpretation_ko": "남의 몫을 가로챌 흉한 조짐",
-          "interpretation_en": "denotes that you will usurp another's rights",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Minister",
-              "original": "To dream that you are a minister, denotes that you will usurp another's rights.",
-              "translation_ko": "제가 목사가 되는 꿈은 남의 몫을 가로챔을 뜻한다"
-            },
-            {
-              "work": "miller",
-              "locator": "Preacher",
-              "original": "To dream that you are a preacher, foretells for you losses in business, and distasteful amusements will jar upon you.",
-              "translation_ko": "제가 목사가 되는 꿈은, 사업에서 손실을 보고 마뜩잖은 오락으로 거슬릴 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "장례 설교를 하려고 목사를 부름",
-          "interpretation_ko": "병과 궂은 기운에 맞서 애쓰나 헛되이 밀릴 조짐",
-          "interpretation_en": "you will vainly strive against sickness and evil influences, but they will prevail",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Clergyman",
-              "original": "To dream that you send for a clergyman to preach a funeral sermon, denotes that you will vainly strive against sickness and to ward off evil influences, but they will prevail in spite of your earnest endeavors.",
-              "translation_ko": "장례 설교를 하려고 목사를 부르는 꿈은, 병과 궂은 기운을 막으려 애쓰나 진심 어린 애씀에도 그것들이 이기게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "목사와 혼인함",
-          "interpretation_ko": "마음이 크게 괴롭고 운이 어긋나 곤경에 빠질 조짐",
-          "interpretation_en": "she will be the object of much mental distress, and fortune will lead her into adversity",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Clergyman",
-              "original": "If a young woman marries a clergyman in her dream, she will be the object of much mental distress, and the wayward hand of fortune will lead her into the morass of adversity.",
-              "translation_ko": "젊은 여성이 꿈에서 목사와 혼인하면, 마음이 크게 괴롭고 어긋난 운이 그를 곤경의 수렁으로 이끈다"
-            }
-          ]
-        },
-        {
-          "context": "목사와 다툼",
-          "interpretation_ko": "어떤 겨룸에서 질 조짐",
-          "interpretation_en": "you will lose in some contest",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Preacher",
-              "original": "To argue with a preacher, you will lose in some contest.",
-              "translation_ko": "목사와 다투는 꿈은, 어떤 겨룸에서 질 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "목사가 저에게서 걸어감",
-          "interpretation_ko": "일이 새로운 활기로 나아갈 조짐",
-          "interpretation_en": "denotes that your affairs will move with new energy",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Preacher",
-              "original": "To see one walk away from you, denotes that your affairs will move with new energy.",
-              "translation_ko": "목사가 저에게서 걸어가는 것을 보는 꿈은, 일이 새로운 활기로 나아갈 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "슬퍼 보이는 목사를 봄",
-          "interpretation_ko": "무거운 책망을 당할 조짐",
-          "interpretation_en": "reproaches will fall heavily upon you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Preacher",
-              "original": "If he looks sorrowful, reproaches will fall heavily upon you.",
-              "translation_ko": "슬퍼 보이는 목사를 보는 꿈은, 무거운 책망을 당할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "장발의 목사를 봄",
-          "interpretation_ko": "거만하고 독선적인 이들과 곧 다툴 조짐",
-          "interpretation_en": "denotes that you are shortly to have disputes with overbearing and egotistical people",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Preacher",
-              "original": "To see a long-haired preacher, denotes that you are shortly to have disputes with overbearing and egotistical people.",
-              "translation_ko": "머리 긴 목사를 보는 꿈은, 거만하고 독선적인 이들과 곧 다툴 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "설교단에 선 목사를 봄",
-          "interpretation_ko": "꿈꾼 이에게 병과 어려움이 있을 조짐",
-          "interpretation_en": "it denotes sickness and trouble for the dreamer",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Priest",
-              "original": "If he is in the pulpit, it denotes sickness and trouble for the dreamer.",
-              "translation_ko": "설교단에 선 신부를 보는 꿈은, 꿈꾼 이에게 병과 어려움이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 목사와 사랑에 빠짐",
-          "interpretation_ko": "속임수와 부정직한 애인을 조심하라는 경고",
-          "interpretation_en": "it warns her of deceptions and an unscrupulous lover",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Priest",
-              "original": "If a woman dreams that she is in love with a priest, it warns her of deceptions and an unscrupulous lover.",
-              "translation_ko": "여성이 신부와 사랑에 빠지는 꿈은, 속임수와 부정직한 애인을 조심하라는 경고다"
-            }
-          ]
-        },
-        {
-          "context": "목사가 여성에게 구애함",
-          "interpretation_ko": "쾌락을 좋아하고 짓궂은 장난을 즐긴다는 책망을 들을 조짐",
-          "interpretation_en": "she will be reproached for her love of gaiety and practical joking",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Priest",
-              "original": "If the priest makes love to her, she will be reproached for her love of gaiety and practical joking.",
-              "translation_ko": "신부가 여성에게 구애하는 꿈은, 쾌락을 좋아하고 짓궂은 장난을 즐긴다는 책망을 들을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "목사에게 고해함",
-          "interpretation_ko": "굴욕과 슬픔을 겪을 조짐",
-          "interpretation_en": "denotes that you will be subjected to humiliation and sorrow",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Priest",
-              "original": "To confess to a priest, denotes that you will be subjected to humiliation and sorrow.",
-              "translation_ko": "신부에게 고해하는 꿈은, 굴욕과 슬픔을 겪을 조짐이다"
             }
           ]
         }
@@ -25306,6 +25335,139 @@
               "locator": "Perfume",
               "original": "If she receives it as a gift from a man, she will experience fascinating, but dangerous pleasures.",
               "translation_ko": "남자에게 향수를 선물받는 꿈은, 매혹적이나 위태로운 즐거움을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "religion",
+      "term_ko": "종교",
+      "term_en": "religion",
+      "aliases": [
+        "종교가",
+        "종교를",
+        "신앙심이",
+        "신앙심",
+        "신앙"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "종교를 이야기하며 신앙심이 깊어짐을 느낌",
+          "interpretation_ko": "삶의 평온을 해치는 일이 많아지고 사업이 못마땅해질 조짐",
+          "interpretation_en": "you will find much to mar the calmness of your life, and business will turn a disagreeable front to you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If you dream of discussing religion and feel religiously inclined, you will find much to mar the calmness of your life, and business will turn a disagreeable front to you.",
+              "translation_ko": "종교를 이야기하며 신앙심이 깊어짐을 느끼는 꿈은, 삶의 평온을 해치는 일이 많아지고 사업이 못마땅해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 스스로 지나치게 신앙심 깊다고 여김",
+          "interpretation_ko": "순진함과 선함을 꾸미려다 정인에게 정떨어질 조짐",
+          "interpretation_en": "she will disgust her lover with her efforts to act ingenuous innocence and goodness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If a young woman imagines that she is over religious, she will disgust her lover with her efforts to act ingenuous innocence and goodness.",
+              "translation_ko": "처녀가 스스로 지나치게 신앙심 깊다고 여기는 꿈은, 순진함과 선함을 꾸미려다 정인에게 정떨어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 신앙심이 없으나 잘못을 저지르지 않았다고 여김",
+          "interpretation_ko": "당당하고 솔직하며 남을 배려하는 성품으로 뭇사람의 존경과 사랑을 받을 조짐",
+          "interpretation_en": "it foretells that she will have that independent frankness and kind consideration for others, which wins for women profound respect, and love from the opposite sex as well as her own",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If she is irreligious and not a transgressor, it foretells that she will have that independent frankness and kind consideration for others, which wins for women profound respect, and love from the opposite sex as well as her own; but if she is a transgressor in the eyes of religion, she will find that there are moral laws, which, if disregarded, will place her outside the pale of honest recognition. She should look well after her conduct.",
+              "translation_ko": "처녀가 신앙심이 없으나 잘못을 저지르지 않았다고 여기는 꿈은, 당당하고 솔직하며 남을 배려하는 성품으로 뭇사람의 존경과 사랑을 받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 신앙심이 없고 종교의 눈으로 잘못을 저질렀다고 여김",
+          "interpretation_ko": "도덕률을 저버리면 떳떳한 인정 밖으로 밀려날 조짐이니 행실을 잘 살펴야 함",
+          "interpretation_en": "she will find that there are moral laws, which, if disregarded, will place her outside the pale of honest recognition. She should look well after her conduct",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If she is irreligious and not a transgressor, it foretells that she will have that independent frankness and kind consideration for others, which wins for women profound respect, and love from the opposite sex as well as her own; but if she is a transgressor in the eyes of religion, she will find that there are moral laws, which, if disregarded, will place her outside the pale of honest recognition. She should look well after her conduct.",
+              "translation_ko": "처녀가 신앙심이 없고 종교의 눈으로 잘못을 저질렀다고 여기는 꿈은, 도덕률을 저버리면 떳떳한 인정 밖으로 밀려날 조짐이니 행실을 잘 살펴야 한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 종교 때문에 욺",
+          "interpretation_ko": "마음속 바람이 실망으로 끝날 조짐",
+          "interpretation_en": "she will be disappointed in the desires of her heart",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If she weeps over religion, she will be disappointed in the desires of her heart.",
+              "translation_ko": "처녀가 종교 때문에 우는 꿈은, 마음속 바람이 실망으로 끝날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "종교 문제로 처녀가 죄는 없으나 반항적임",
+          "interpretation_ko": "짐을 용감히 짊어지고 거짓된 훈계에 굳세게 맞설 조짐",
+          "interpretation_en": "she will shoulder burdens bravely, and stand firm against deceitful admonitions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If she is defiant, but innocent of offence, she will shoulder burdens bravely, and stand firm against deceitful admonitions.",
+              "translation_ko": "종교 문제로 처녀가 죄는 없으나 반항적인 꿈은, 짐을 용감히 짊어지고 거짓된 훈계에 굳세게 맞설 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "신앙의 흥분 속에서 스스로를 자책함",
+          "interpretation_ko": "존경하는 이를 기쁘게 하려 제 개성을 거의 버리게 될 조짐",
+          "interpretation_en": "you will find that you will be almost induced to give up your own personality to please some one whom you hold in reverent esteem",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "If you are self-reproached in the midst of a religious excitement, you will find that you will be almost induced to give up your own personality to please some one whom you hold in reverent esteem.",
+              "translation_ko": "신앙의 흥분 속에서 스스로를 자책하는 꿈은, 존경하는 이를 기쁘게 하려 제 개성을 거의 버리게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "종교의 힘이 약해지는 것을 봄",
+          "interpretation_ko": "삶이 전보다 자연과 더 조화를 이루고 편견이 누그러질 조짐",
+          "interpretation_en": "denotes that your life will be more in harmony with creation than formerly. Your prejudices will not be so aggressive",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Religion",
+              "original": "To see religion declining in power, denotes that your life will be more in harmony with creation than formerly. Your prejudices will not be so aggressive.",
+              "translation_ko": "종교의 힘이 약해지는 것을 보는 꿈은, 삶이 전보다 자연과 더 조화를 이루고 편견이 누그러질 조짐이다"
             }
           ]
         }

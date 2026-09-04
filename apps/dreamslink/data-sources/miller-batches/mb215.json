@@ -1,0 +1,15 @@
+{
+  "batch": 215,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Religion",
+      "text": "If you dream of discussing religion and feel religiously inclined, you will find much to mar the calmness of your life, and business will turn a disagreeable front to you. If a young woman imagines that she is over religious, she will disgust her lover with her efforts to act ingenuous innocence and goodness. If she is irreligious and not a transgressor, it foretells that she will have that independent frankness and kind consideration for others, which wins for women profound respect, and love from the opposite sex as well as her own; but if she is a transgressor in the eyes of religion, she will find that there are moral laws, which, if disregarded, will place her outside the pale of honest recognition. She should look well after her conduct. If she weeps over religion, she will be disappointed in the desires of her heart. If she is defiant, but innocent of offence, she will shoulder burdens bravely, and stand firm against deceitful admonitions. If you are self-reproached in the midst of a religious excitement, you will find that you will be almost induced to give up your own personality to please some one whom you hold in reverent esteem. To see religion declining in power, denotes that your life will be more in harmony with creation than formerly. Your prejudices will not be so aggressive. To dream that a minister in a social way tells you that he has given up his work, foretells that you will be the recipient of unexpected tidings of a favorable nature, but if in a professional and warning way, it foretells that you will be overtaken in your deceitful intriguing, or other disappointments will follow.",
+      "note": "새 상징 `religion`(종교) — 여덟 그림. 마지막 두 그림(목사가 사적으로/직무상 일을 그만둔다고 말함)은 기존 상징 `clergyman`(목사)에 합친다 — \"목사가\"가 이미 그 상징의 별칭이었다(§25 곁가지, 프로브가 잡음). 마지막에 이어지는 괄호 속 문단(Miller 자신의 해설 — 「이 꿈은 때로 그대로 실현된다」)은 꿈의 그림이 아니라 저자의 메타 논평이라 뺀다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    "(These dreams are sometimes fulfilled literally in actual life. ... they will see little of the solemnity of the church or preachers.) — 특정 꿈 그림이 아니라 저자의 메타 해설"
+  ]
+}
