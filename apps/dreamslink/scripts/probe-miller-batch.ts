@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 221 — Rib~Ribbon, 2개 헤드워드)
+// (지금 담긴 것: 배치 222 — Rice, 1개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,12 +30,13 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "rib", ctx: "갈비뼈를 봄", text: "갈비뼈를 보았다" },
-  { id: "ribbon", ctx: "남의 옷차림에서 리본이 나부끼는 것을 봄", text: "남의 옷차림에서 리본이 나부끼는 것을 보았다" },
-  { id: "ribbon", ctx: "처녀가 리본으로 치장함", text: "처녀가 리본으로 치장했다" },
-  { id: "ribbon", ctx: "다른 처녀들이 리본을 착용한 것을 봄", text: "다른 처녀들이 리본을 착용한 것을 보았다" },
-  { id: "ribbon", ctx: "리본을 삼", text: "리본을 샀다" },
-  { id: "ribbon", ctx: "리본 때문에 화가 나거나 언짢음", text: "리본 때문에 화가 났다" },
+  { id: "rice", ctx: "쌀을 봄", text: "쌀을 보았다" },
+  { id: "rice", ctx: "쌀을 먹음", text: "쌀을 먹었다" },
+  { id: "rice", ctx: "쌀에 흙이 섞이거나 더러움", text: "쌀에 흙이 섞여 더러웠다" },
+  { id: "rice", ctx: "처녀가 쌀로 밥을 지음", text: "처녀가 쌀로 밥을 지었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(rice)의 옛 답이 그대로인가
+  { id: "rice", ctx: "새 옷에 쌀을 모아 담음", text: "새 옷에 쌀을 모아 담았다" },
+  { id: "rice", ctx: "쌀과 곡식이 수북이 쌓임", text: "쌀과 곡식이 수북이 쌓였다" },
 ];
 
 let notFound = 0;

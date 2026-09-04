@@ -138,6 +138,7 @@
     "m22.json",
     "m220.json",
     "m221.json",
+    "m222.json",
     "m23.json",
     "m24.json",
     "m25.json",
@@ -19989,6 +19990,167 @@
       ]
     },
     {
+      "id": "rice",
+      "term_ko": "쌀",
+      "term_en": "rice",
+      "aliases": [
+        "백미",
+        "흰쌀",
+        "멥쌀",
+        "쌀알"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "쌀을 봄",
+          "interpretation_ko": "성공과 따뜻한 우정, 모든 장사의 번영, 농부의 풍작을 약속하는 조짐",
+          "interpretation_en": "as it foretells success and warm friendships. Prosperity to all trades is promised, and the farmer will be blessed with a bounteous harvest",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rice",
+              "original": "Rice is good to see in dreams, as it foretells success and warm friendships. Prosperity to all trades is promised, and the farmer will be blessed with a bounteous harvest.",
+              "translation_ko": "쌀을 보는 꿈은, 성공과 따뜻한 우정, 모든 장사의 번영, 농부의 풍작을 약속하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쌀을 먹음",
+          "interpretation_ko": "행복과 가정의 안락을 뜻하는 조짐",
+          "interpretation_en": "signifies happiness and domestic comfort",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rice",
+              "original": "To eat it, signifies happiness and domestic comfort.",
+              "translation_ko": "쌀을 먹는 꿈은, 행복과 가정의 안락을 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쌀에 흙이 섞이거나 더러움",
+          "interpretation_ko": "병들고 벗과 헤어질 조짐",
+          "interpretation_en": "denotes sickness and separation from friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rice",
+              "original": "To see it mixed with dirt or otherwise impure, denotes sickness and separation from friends.",
+              "translation_ko": "쌀에 흙이 섞이거나 더러운 꿈은, 병들고 벗과 헤어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 쌀로 밥을 지음",
+          "interpretation_ko": "새 소임을 맡아 더 행복해지고 부유함을 누릴 조짐",
+          "interpretation_en": "shows she will soon assume new duties, which will make her happier, and she will enjoy wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rice",
+              "original": "For a young woman to dream of cooking it, shows she will soon assume new duties, which will make her happier, and she will enjoy wealth.",
+              "translation_ko": "처녀가 쌀로 밥을 짓는 꿈은, 새 소임을 맡아 더 행복해지고 부유함을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "새 옷에 쌀을 모아 담음",
+          "interpretation_ko": "온갖 일이 흉할 조짐",
+          "interpretation_en": "a sign that all matters turn ill",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "新衣攢米百事凶",
+              "translation_ko": "새 옷에 쌀을 모으면 온갖 일이 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "멥쌀을 찧어 흰쌀로 만듦",
+          "interpretation_ko": "재물이 생길 길한 조짐",
+          "interpretation_en": "an auspicious sign of coming wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "粳精米者有財吉",
+              "translation_ko": "멥쌀을 찧어 흰쌀로 만들면 재물이 있어 길하다"
+            }
+          ]
+        },
+        {
+          "context": "쌀과 곡식이 수북이 쌓임",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "米谷堆吉散主凶",
+              "translation_ko": "쌀과 곡식이 쌓이면 길하고 흩어지면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "쌀과 곡식이 흩어짐",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "米谷堆吉散主凶",
+              "translation_ko": "쌀과 곡식이 쌓이면 길하고 흩어지면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "쌀과 보리가 나란히 놓임",
+          "interpretation_ko": "크게 길하고 이로울 조짐",
+          "interpretation_en": "a very auspicious and favorable sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "米麥相排大吉利",
+              "translation_ko": "쌀과 보리가 나란히 늘어서면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "쌀과 보리 위에 앉거나 누움",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "坐臥米麥主大吉",
+              "translation_ko": "쌀과 보리 위에 앉거나 누우면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "straw-mat",
       "term_ko": "돗자리",
       "term_en": "straw mat",
@@ -37811,110 +37973,6 @@
               "locator": "Reptile",
               "original": "If she is bitten by any of them, she will be superseded by a rival.",
               "translation_ko": "처녀가 파충류에게 물리는 꿈은, 연적에게 밀려날 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "rice",
-      "term_ko": "쌀",
-      "term_en": "rice",
-      "aliases": [
-        "백미",
-        "흰쌀",
-        "멥쌀",
-        "쌀알"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "새 옷에 쌀을 모아 담음",
-          "interpretation_ko": "온갖 일이 흉할 조짐",
-          "interpretation_en": "a sign that all matters turn ill",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "新衣攢米百事凶",
-              "translation_ko": "새 옷에 쌀을 모으면 온갖 일이 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "멥쌀을 찧어 흰쌀로 만듦",
-          "interpretation_ko": "재물이 생길 길한 조짐",
-          "interpretation_en": "an auspicious sign of coming wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "粳精米者有財吉",
-              "translation_ko": "멥쌀을 찧어 흰쌀로 만들면 재물이 있어 길하다"
-            }
-          ]
-        },
-        {
-          "context": "쌀과 곡식이 수북이 쌓임",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "米谷堆吉散主凶",
-              "translation_ko": "쌀과 곡식이 쌓이면 길하고 흩어지면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "쌀과 곡식이 흩어짐",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "米谷堆吉散主凶",
-              "translation_ko": "쌀과 곡식이 쌓이면 길하고 흩어지면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "쌀과 보리가 나란히 놓임",
-          "interpretation_ko": "크게 길하고 이로울 조짐",
-          "interpretation_en": "a very auspicious and favorable sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "米麥相排大吉利",
-              "translation_ko": "쌀과 보리가 나란히 늘어서면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "쌀과 보리 위에 앉거나 누움",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "坐臥米麥主大吉",
-              "translation_ko": "쌀과 보리 위에 앉거나 누우면 크게 길하다"
             }
           ]
         }

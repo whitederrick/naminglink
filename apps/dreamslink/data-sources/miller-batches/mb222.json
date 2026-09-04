@@ -1,0 +1,13 @@
+{
+  "batch": 222,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rice",
+      "text": "Rice is good to see in dreams, as it foretells success and warm friendships. Prosperity to all trades is promised, and the farmer will be blessed with a bounteous harvest. To eat it, signifies happiness and domestic comfort. To see it mixed with dirt or otherwise impure, denotes sickness and separation from friends. For a young woman to dream of cooking it, shows she will soon assume new duties, which will make her happier, and she will enjoy wealth.",
+      "note": "기존 상징 `rice`(쌀)에 밀러 넷을 더한다 — 기존 여섯 문맥(주공해몽)과 겹치지 않는 새 그림들이다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

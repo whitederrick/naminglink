@@ -1,0 +1,62 @@
+[
+  {
+    "term_ko": "쌀",
+    "term_en": "rice",
+    "context": "쌀을 봄",
+    "interpretation_ko": "성공과 따뜻한 우정, 모든 장사의 번영, 농부의 풍작을 약속하는 조짐",
+    "interpretation_en": "as it foretells success and warm friendships. Prosperity to all trades is promised, and the farmer will be blessed with a bounteous harvest",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rice",
+      "original": "Rice is good to see in dreams, as it foretells success and warm friendships. Prosperity to all trades is promised, and the farmer will be blessed with a bounteous harvest.",
+      "translation_ko": "쌀을 보는 꿈은, 성공과 따뜻한 우정, 모든 장사의 번영, 농부의 풍작을 약속하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "쌀",
+    "term_en": "rice",
+    "context": "쌀을 먹음",
+    "interpretation_ko": "행복과 가정의 안락을 뜻하는 조짐",
+    "interpretation_en": "signifies happiness and domestic comfort",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rice",
+      "original": "To eat it, signifies happiness and domestic comfort.",
+      "translation_ko": "쌀을 먹는 꿈은, 행복과 가정의 안락을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "쌀",
+    "term_en": "rice",
+    "context": "쌀에 흙이 섞이거나 더러움",
+    "interpretation_ko": "병들고 벗과 헤어질 조짐",
+    "interpretation_en": "denotes sickness and separation from friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rice",
+      "original": "To see it mixed with dirt or otherwise impure, denotes sickness and separation from friends.",
+      "translation_ko": "쌀에 흙이 섞이거나 더러운 꿈은, 병들고 벗과 헤어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "쌀",
+    "term_en": "rice",
+    "context": "처녀가 쌀로 밥을 지음",
+    "interpretation_ko": "새 소임을 맡아 더 행복해지고 부유함을 누릴 조짐",
+    "interpretation_en": "shows she will soon assume new duties, which will make her happier, and she will enjoy wealth",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Rice",
+      "original": "For a young woman to dream of cooking it, shows she will soon assume new duties, which will make her happier, and she will enjoy wealth.",
+      "translation_ko": "처녀가 쌀로 밥을 짓는 꿈은, 새 소임을 맡아 더 행복해지고 부유함을 누릴 조짐이다"
+    }
+  }
+]
