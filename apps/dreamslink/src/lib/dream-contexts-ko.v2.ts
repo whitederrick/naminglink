@@ -5424,5 +5424,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "ribbon::리본을 삼": "샀다",
   "ribbon::리본 때문에 화가 나거나 언짢음": "화가 언짢",
   "riddles::수수께끼를 풀려고 함": "풀려고 인내심",
-  "riddles::수수께끼 꿈을 꿈": "혼란과 불만"
+  "riddles::수수께끼 꿈을 꿈": "혼란과 불만",
+  "ringworms::제 몸에 버짐이 생김": "몸에 애타는",
+  "ringworms::남에게 버짐이 있는 것을 봄": "남에게 거지들",
+  "riot::폭동 꿈을 꿈": "실망스러운",
+  "riot::폭동에서 벗이 죽는 것을 봄": "벗이 죽는"
 };

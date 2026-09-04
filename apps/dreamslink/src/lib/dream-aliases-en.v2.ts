@@ -7191,5 +7191,13 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "riding-school": [
     "a riding school",
     "riding schools"
+  ],
+  "ringworms": [
+    "ringworm",
+    "ringworms"
+  ],
+  "riot": [
+    "a riot",
+    "riots"
   ]
 };

@@ -1,0 +1,18 @@
+{
+  "batch": 225,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Ringworms",
+      "text": "To dream of having ringworms appear on you, you will have a slight illness, and some exasperating difficulty in the near future. To see them on others, beggars and appeals for charity will beset you.",
+      "note": "새 상징 `ringworms`(버짐)"
+    },
+    {
+      "headword": "Riot",
+      "text": "To dream of riots, foretells disappointing affairs. To see a friend killed in a riot, you will have bad luck in all undertakings, and the death, or some serious illness, of some person will cause you distress.",
+      "note": "새 상징 `riot`(폭동)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "term_ko": "버짐",
+    "term_en": "ringworms",
+    "context": "제 몸에 버짐이 생김",
+    "interpretation_ko": "가벼운 병과 가까운 시일 안에 애타는 어려움을 겪을 조짐",
+    "interpretation_en": "you will have a slight illness, and some exasperating difficulty in the near future",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ringworms",
+      "original": "To dream of having ringworms appear on you, you will have a slight illness, and some exasperating difficulty in the near future.",
+      "translation_ko": "제 몸에 버짐이 생기는 꿈은, 가벼운 병과 가까운 시일 안에 애타는 어려움을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "버짐",
+    "term_en": "ringworms",
+    "context": "남에게 버짐이 있는 것을 봄",
+    "interpretation_ko": "거지들과 도움을 청하는 이들에게 시달릴 조짐",
+    "interpretation_en": "beggars and appeals for charity will beset you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Ringworms",
+      "original": "To see them on others, beggars and appeals for charity will beset you.",
+      "translation_ko": "남에게 버짐이 있는 것을 보는 꿈은, 거지들과 도움을 청하는 이들에게 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "폭동",
+    "term_en": "riot",
+    "context": "폭동 꿈을 꿈",
+    "interpretation_ko": "실망스러운 일들의 조짐",
+    "interpretation_en": "foretells disappointing affairs",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Riot",
+      "original": "To dream of riots, foretells disappointing affairs.",
+      "translation_ko": "폭동 꿈은, 실망스러운 일들의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "폭동",
+    "term_en": "riot",
+    "context": "폭동에서 벗이 죽는 것을 봄",
+    "interpretation_ko": "모든 일에서 불운을 겪고, 누군가의 죽음이나 중병으로 괴로울 조짐",
+    "interpretation_en": "you will have bad luck in all undertakings, and the death, or some serious illness, of some person will cause you distress",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Riot",
+      "original": "To see a friend killed in a riot, you will have bad luck in all undertakings, and the death, or some serious illness, of some person will cause you distress.",
+      "translation_ko": "폭동에서 벗이 죽는 것을 보는 꿈은, 모든 일에서 불운을 겪고 누군가의 죽음이나 중병으로 괴로울 조짐이다"
+    }
+  }
+]

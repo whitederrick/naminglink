@@ -5420,5 +5420,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "ribbon::리본을 삼": "buys pleasant easy",
   "ribbon::리본 때문에 화가 나거나 언짢음": "angry displeased dividing",
   "riddles::수수께끼를 풀려고 함": "solve patience enterprise",
-  "riddles::수수께끼 꿈을 꿈": "confusion dissatisfaction import"
+  "riddles::수수께끼 꿈을 꿈": "confusion dissatisfaction import",
+  "ringworms::제 몸에 버짐이 생김": "slight illness exasperating",
+  "ringworms::남에게 버짐이 있는 것을 봄": "beggars appeals charity",
+  "riot::폭동 꿈을 꿈": "disappointing affairs",
+  "riot::폭동에서 벗이 죽는 것을 봄": "friend killed distress"
 };

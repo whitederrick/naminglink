@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ringworms",
+    "aliases": ["버짐이", "버짐이 생김", "버짐이 있는"],
+    "aliases_en": ["ringworm", "ringworms"],
+    "contexts": {
+      "제 몸에 버짐이 생김": "몸에 애타는",
+      "남에게 버짐이 있는 것을 봄": "남에게 거지들"
+    },
+    "contexts_en": {
+      "제 몸에 버짐이 생김": "slight illness exasperating",
+      "남에게 버짐이 있는 것을 봄": "beggars appeals charity"
+    }
+  },
+  {
+    "id": "riot",
+    "aliases": ["폭동이", "폭동에서"],
+    "aliases_en": ["a riot", "riots"],
+    "contexts": {
+      "폭동 꿈을 꿈": "실망스러운",
+      "폭동에서 벗이 죽는 것을 봄": "벗이 죽는"
+    },
+    "contexts_en": {
+      "폭동 꿈을 꿈": "disappointing affairs",
+      "폭동에서 벗이 죽는 것을 봄": "friend killed distress"
+    }
+  }
+]

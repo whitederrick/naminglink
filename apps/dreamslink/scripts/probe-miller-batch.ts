@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 224 — Riding School~Ring, 2개 헤드워드)
+// (지금 담긴 것: 배치 225 — Ringworms~Riot, 2개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,12 +30,10 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "riding-school", ctx: "승마 학교에 다님", text: "승마 학교에 다녔다" },
-  { id: "ring", ctx: "반지를 낌", text: "반지를 꼈다" },
-  { id: "ring", ctx: "부러진 반지를 봄", text: "부러진 반지를 보았다" },
-  { id: "ring", ctx: "처녀가 반지를 받음", text: "처녀가 반지를 받았다" },
-  { id: "ring", ctx: "남이 반지를 낀 것을 봄", text: "남이 반지를 낀 것을 보았다" },
-  { id: "ring", ctx: "금과 옥으로 된 가락지를 얻음", text: "금과 옥으로 된 가락지를 얻었다" },
+  { id: "ringworms", ctx: "제 몸에 버짐이 생김", text: "제 몸에 버짐이 생겼다" },
+  { id: "ringworms", ctx: "남에게 버짐이 있는 것을 봄", text: "남에게 버짐이 있는 것을 보았다" },
+  { id: "riot", ctx: "폭동 꿈을 꿈", text: "폭동 꿈을 꾸었다" },
+  { id: "riot", ctx: "폭동에서 벗이 죽는 것을 봄", text: "폭동에서 벗이 죽는 것을 보았다" },
 ];
 
 let notFound = 0;
