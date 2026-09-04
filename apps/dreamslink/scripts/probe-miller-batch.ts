@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 235 — Salad·Salmon·Salt·Saltpeter·Salve·Samples·Sand·Sanskrit·Sapphire·Sardines)
+// (지금 담긴 것: 배치 236 — Sardonyx·Sash·Satan)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,27 +30,21 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "salad", ctx: "샐러드를 먹음", text: "샐러드를 먹었다" },
-  { id: "salad", ctx: "여성이 샐러드를 만듦", text: "여성이 샐러드를 만들었다" },
-  { id: "salmon", ctx: "연어 꿈을 꿈", text: "연어 꿈을 꾸었다" },
-  { id: "salmon", ctx: "여성이 연어를 먹음", text: "여성이 연어를 먹었다" },
-  { id: "salt", ctx: "소금 꿈을 꿈", text: "소금 꿈을 꾸었다" },
-  { id: "salt", ctx: "고기에 소금을 침", text: "고기에 소금을 쳤다" },
-  { id: "saltpeter", ctx: "초석 꿈을 꿈", text: "초석 꿈을 꾸었다" },
-  { id: "ointment", ctx: "역경 속에서도 번영할 연고 꿈을 꿈", text: "역경 속에서도 번영할 연고 꿈을 꾸었다" },
-  { id: "samples", ctx: "상품 견본을 받음", text: "상품 견본을 받았다" },
-  { id: "samples", ctx: "여행하는 남자가 견본을 잃어버림", text: "여행하는 남자가 견본을 잃어버렸다" },
-  { id: "samples", ctx: "여성이 받은 견본을 살펴봄", text: "여성이 받은 견본을 살펴보았다" },
-  { id: "sand", ctx: "모래 꿈을 꿈", text: "모래 꿈을 꾸었다" },
-  { id: "sanskrit", ctx: "산스크리트 꿈을 꿈", text: "산스크리트 꿈을 꾸었다" },
-  { id: "sapphire", ctx: "사파이어 꿈을 꿈", text: "사파이어 꿈을 꾸었다" },
-  { id: "sapphire", ctx: "여성이 사파이어 꿈을 꿈", text: "여성이 사파이어 꿈을 꾸었다" },
-  { id: "sardines", ctx: "정어리를 먹음", text: "정어리를 먹었다" },
-  { id: "sardines", ctx: "여성이 정어리를 상에 올림", text: "여성이 정어리를 상에 올렸다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(salt·ointment)의 옛 답이 그대로인가
-  { id: "salt", ctx: "소금을 먹음", text: "소금을 먹었다" },
-  { id: "ointment", ctx: "연고 꿈을 꿈", text: "연고 꿈을 꾸었다" },
-  { id: "ointment", ctx: "처녀가 연고를 만듦", text: "처녀가 연고를 만들었다" },
+  { id: "sardonyx", ctx: "사도닉스 꿈을 꿈", text: "사도닉스 꿈을 꾸었다" },
+  { id: "sardonyx", ctx: "여성이 사도닉스를 잃어버리거나 내버림", text: "여성이 사도닉스를 잃어버렸다" },
+  { id: "belt", ctx: "장식띠를 두름", text: "장식띠를 둘렀다" },
+  { id: "belt", ctx: "여성이 장식띠를 삼", text: "여성이 장식띠를 샀다" },
+  { id: "devil", ctx: "악마 꿈을 꿈", text: "악마 꿈을 꾸었다" },
+  { id: "devil", ctx: "악마를 죽임", text: "악마를 죽였다" },
+  { id: "devil", ctx: "악마가 문학의 모습으로 옴", text: "악마가 문학의 모습으로 왔다" },
+  { id: "devil", ctx: "악마가 부나 권력의 모습으로 옴", text: "악마가 부나 권력의 모습으로 왔다" },
+  { id: "devil", ctx: "악마가 음악의 모습으로 옴", text: "악마가 음악의 모습으로 왔다" },
+  { id: "devil", ctx: "악마가 아름다운 여인의 모습으로 옴", text: "악마가 아름다운 여인의 모습으로 왔다" },
+  { id: "devil", ctx: "악마로부터 자신을 지키려 함", text: "악마로부터 자신을 지키려 했다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(belt·devil)의 옛 답이 그대로인가
+  { id: "belt", ctx: "허리띠를 맴", text: "허리띠를 맸다" },
+  { id: "devil", ctx: "농사짓는 이가 악마를 봄", text: "농사짓는 이가 악마를 보았다" },
+  { id: "devil", ctx: "악마에게 쫓김", text: "악마에게 쫓겼다" },
 ];
 
 let notFound = 0;

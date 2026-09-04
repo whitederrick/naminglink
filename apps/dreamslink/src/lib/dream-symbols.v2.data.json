@@ -153,6 +153,7 @@
     "m233.json",
     "m234.json",
     "m235.json",
+    "m236.json",
     "m24.json",
     "m25.json",
     "m26.json",
@@ -15017,6 +15018,194 @@
       ]
     },
     {
+      "id": "belt",
+      "term_ko": "허리띠",
+      "term_en": "belt",
+      "aliases": [
+        "혁대",
+        "벨트",
+        "허리끈",
+        "허리춤",
+        "장식띠"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "최신 유행 벨트를 가진 꿈을 꿈",
+          "interpretation_ko": "곧 낯선 사람을 만나 약속을 하게 되고 그것이 번영을 해칠 조짐",
+          "interpretation_en": "a sign that you are soon to meet and make engagements with a stranger, which will demoralize your prosperity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Belt",
+              "original": "To dream that you have a new style belt, denotes you are soon to meet and make engagements with a stranger, which will demoralize your prosperity."
+            }
+          ]
+        },
+        {
+          "context": "여성이 장식띠를 삼",
+          "interpretation_ko": "연인에게 성실하고, 솔직하고 여성다운 태도로 존경을 얻을 조짐",
+          "interpretation_en": "she will be faithful to her lover, and win esteem by her frank, womanly ways",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sash",
+              "original": "For a young woman to buy one, she will be faithful to her lover, and win esteem by her frank, womanly ways.",
+              "translation_ko": "여성이 장식띠를 사는 꿈은, 연인에게 성실하고 솔직하고 여성다운 태도로 존경을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "장식띠를 두름",
+          "interpretation_ko": "바람기 있는 이의 애정을 붙잡으려 애쓸 조짐",
+          "interpretation_en": "foretells that you will seek to retain the affections of a flirtatious person",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sash",
+              "original": "To dream of wearing a sash, foretells that you will seek to retain the affections of a flirtatious person.",
+              "translation_ko": "장식띠를 두르는 꿈은, 바람기 있는 이의 애정을 붙잡으려 애쓸 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "허리띠가 몸을 죔",
+          "interpretation_ko": "속셈 있는 이들에게 휘둘릴 흉한 조짐",
+          "interpretation_en": "denotes that you will be influenced by designing people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Girdle",
+              "original": "To dream of wearing a girdle, and it presses you, denotes that you will be influenced by designing people.",
+              "translation_ko": "허리띠를 둘렀는데 그것이 몸을 죄는 꿈은, 속셈 있는 이들에게 휘둘림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 보석 박힌 허리띠를 두른 것을 봄",
+          "interpretation_ko": "이름보다 재물을 좇게 될 조짐",
+          "interpretation_en": "foretells that you will strive for wealth more than honor",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Girdle",
+              "original": "To see others wearing velvet, or jeweled girdles, foretells that you will strive for wealth more than honor.",
+              "translation_ko": "남이 우단이나 보석 박힌 허리띠를 두른 것을 보면, 이름보다 재물을 좇게 됨을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 허리띠를 받음",
+          "interpretation_ko": "높은 자리와 기림이 내릴 길한 조짐",
+          "interpretation_en": "signifies that honors will be conferred upon her",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Girdle",
+              "original": "For a woman to receive one, signifies that honors will be conferred upon her.",
+              "translation_ko": "여성이 그것을 받으면, 높은 자리와 기림이 내림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "유행이 지난 벨트를 봄",
+          "interpretation_ko": "무례함으로 마땅히 비난받을 조짐",
+          "interpretation_en": "a sign that you will be meritedly censured for rudeness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Belt",
+              "original": "If it is out of date, you will be meritedly censured for rudeness."
+            }
+          ]
+        },
+        {
+          "context": "남이 허리띠를 보내옴",
+          "interpretation_ko": "자리와 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "人送帶者主得位",
+              "translation_ko": "남이 띠를 보내오면 지위를 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "관복의 띠를 주움",
+          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining salary and position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "拾得官帶祿位至",
+              "translation_ko": "관대를 주우면 녹봉과 지위가 온다"
+            }
+          ]
+        },
+        {
+          "context": "허리띠를 맴",
+          "interpretation_ko": "벼슬이 이르러 길한 조짐",
+          "interpretation_en": "an auspicious sign that office will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "腰帶者主官至吉",
+              "translation_ko": "허리띠를 매면 벼슬이 이르러 길하다"
+            }
+          ]
+        },
+        {
+          "context": "옷의 띠가 저절로 풀림",
+          "interpretation_ko": "온갖 일이 길할 조짐",
+          "interpretation_en": "a sign that all matters go well",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "衣帶自解百事吉",
+              "translation_ko": "옷의 띠가 저절로 풀리면 온갖 일이 길하다"
+            }
+          ]
+        },
+        {
+          "context": "띠를 졸라맴",
+          "interpretation_ko": "흉한 일이 있을 조짐",
+          "interpretation_en": "a sign that something ill will happen",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "脫靴束帶主有凶",
+              "translation_ko": "신을 벗고 띠를 매면 흉한 일이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "city-wall",
       "term_ko": "성",
       "term_en": "city wall",
@@ -17196,165 +17385,6 @@
       ]
     },
     {
-      "id": "belt",
-      "term_ko": "허리띠",
-      "term_en": "belt",
-      "aliases": [
-        "혁대",
-        "벨트",
-        "허리끈",
-        "허리춤"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "최신 유행 벨트를 가진 꿈을 꿈",
-          "interpretation_ko": "곧 낯선 사람을 만나 약속을 하게 되고 그것이 번영을 해칠 조짐",
-          "interpretation_en": "a sign that you are soon to meet and make engagements with a stranger, which will demoralize your prosperity",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Belt",
-              "original": "To dream that you have a new style belt, denotes you are soon to meet and make engagements with a stranger, which will demoralize your prosperity."
-            }
-          ]
-        },
-        {
-          "context": "허리띠가 몸을 죔",
-          "interpretation_ko": "속셈 있는 이들에게 휘둘릴 흉한 조짐",
-          "interpretation_en": "denotes that you will be influenced by designing people",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Girdle",
-              "original": "To dream of wearing a girdle, and it presses you, denotes that you will be influenced by designing people.",
-              "translation_ko": "허리띠를 둘렀는데 그것이 몸을 죄는 꿈은, 속셈 있는 이들에게 휘둘림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "남이 보석 박힌 허리띠를 두른 것을 봄",
-          "interpretation_ko": "이름보다 재물을 좇게 될 조짐",
-          "interpretation_en": "foretells that you will strive for wealth more than honor",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Girdle",
-              "original": "To see others wearing velvet, or jeweled girdles, foretells that you will strive for wealth more than honor.",
-              "translation_ko": "남이 우단이나 보석 박힌 허리띠를 두른 것을 보면, 이름보다 재물을 좇게 됨을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 허리띠를 받음",
-          "interpretation_ko": "높은 자리와 기림이 내릴 길한 조짐",
-          "interpretation_en": "signifies that honors will be conferred upon her",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Girdle",
-              "original": "For a woman to receive one, signifies that honors will be conferred upon her.",
-              "translation_ko": "여성이 그것을 받으면, 높은 자리와 기림이 내림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "유행이 지난 벨트를 봄",
-          "interpretation_ko": "무례함으로 마땅히 비난받을 조짐",
-          "interpretation_en": "a sign that you will be meritedly censured for rudeness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Belt",
-              "original": "If it is out of date, you will be meritedly censured for rudeness."
-            }
-          ]
-        },
-        {
-          "context": "남이 허리띠를 보내옴",
-          "interpretation_ko": "자리와 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "人送帶者主得位",
-              "translation_ko": "남이 띠를 보내오면 지위를 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "관복의 띠를 주움",
-          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining salary and position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "拾得官帶祿位至",
-              "translation_ko": "관대를 주우면 녹봉과 지위가 온다"
-            }
-          ]
-        },
-        {
-          "context": "허리띠를 맴",
-          "interpretation_ko": "벼슬이 이르러 길한 조짐",
-          "interpretation_en": "an auspicious sign that office will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "腰帶者主官至吉",
-              "translation_ko": "허리띠를 매면 벼슬이 이르러 길하다"
-            }
-          ]
-        },
-        {
-          "context": "옷의 띠가 저절로 풀림",
-          "interpretation_ko": "온갖 일이 길할 조짐",
-          "interpretation_en": "a sign that all matters go well",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "衣帶自解百事吉",
-              "translation_ko": "옷의 띠가 저절로 풀리면 온갖 일이 길하다"
-            }
-          ]
-        },
-        {
-          "context": "띠를 졸라맴",
-          "interpretation_ko": "흉한 일이 있을 조짐",
-          "interpretation_en": "a sign that something ill will happen",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "脫靴束帶主有凶",
-              "translation_ko": "신을 벗고 띠를 매면 흉한 일이 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "cards",
       "term_ko": "카드놀이",
       "term_en": "cards",
@@ -18153,6 +18183,165 @@
               "locator": "Coins",
               "original": "If silver coins are your ideal of money, and they are bright and clean, or seen distinctly in your possession, the dream will be a propitious one.",
               "translation_ko": "은돈이 내가 여기는 돈이고 그것이 밝고 깨끗하거나 내 손안에 또렷이 보인다면, 그 꿈은 좋은 꿈이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "devil",
+      "term_ko": "악마",
+      "term_en": "devil",
+      "aliases": [
+        "마귀",
+        "사탄",
+        "악마에게"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "악마 꿈을 꿈",
+          "interpretation_ko": "위험한 모험을 겪고, 명예로운 겉모습을 지키려 술수를 써야 할 조짐",
+          "interpretation_en": "foretells that you will have some dangerous adventures, and you will be forced to use strategy to keep up honorable appearances",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Satan",
+              "original": "To dream of Satan, foretells that you will have some dangerous adventures, and you will be forced to use strategy to keep up honorable appearances.",
+              "translation_ko": "악마 꿈은, 위험한 모험을 겪고 명예로운 겉모습을 지키려 술수를 써야 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "악마를 죽임",
+          "interpretation_ko": "사악하거나 부도덕한 동무들을 버리고 더 높은 경지에서 살게 될 조짐",
+          "interpretation_en": "foretells that you will desert wicked or immoral companions to live upon a higher plane",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Satan",
+              "original": "To dream that you kill him, foretells that you will desert wicked or immoral companions to live upon a higher plane.",
+              "translation_ko": "악마를 죽이는 꿈은, 사악하거나 부도덕한 동무들을 버리고 더 높은 경지에서 살게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "악마가 문학의 모습으로 옴",
+          "interpretation_ko": "닥치는 대로 사귀는 벗들과 아첨꾼을 특히 경계하라는 경고로 새겨야 할 조짐",
+          "interpretation_en": "it should be heeded as a warning against promiscuous friendships, and especially flatterers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Satan",
+              "original": "If he comes to you under the guise of literature, it should be heeded as a warning against promiscuous friendships, and especially flatterers.",
+              "translation_ko": "악마가 문학의 모습으로 오는 꿈은, 닥치는 대로 사귀는 벗들과 아첨꾼을 특히 경계하라는 경고로 새겨야 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "악마가 부나 권력의 모습으로 옴",
+          "interpretation_ko": "화합이나 남을 높이는 데 제 영향력을 쓰지 못할 조짐",
+          "interpretation_en": "you will fail to use your influence for harmony, or the elevation of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Satan",
+              "original": "If he comes in the shape of wealth or power, you will fail to use your influence for harmony, or the elevation of others.",
+              "translation_ko": "악마가 부나 권력의 모습으로 오는 꿈은, 화합이나 남을 높이는 데 제 영향력을 쓰지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "악마가 음악의 모습으로 옴",
+          "interpretation_ko": "그 술수에 넘어가 무너질 조짐",
+          "interpretation_en": "you are likely to go down before his wiles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Satan",
+              "original": "If he takes the form of music, you are likely to go down before his wiles.",
+              "translation_ko": "악마가 음악의 모습으로 오는 꿈은, 그 술수에 넘어가 무너질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "악마가 아름다운 여인의 모습으로 옴",
+          "interpretation_ko": "이 부도덕한 괴물의 애무에 품었던 다정한 마음을 짓밟게 될 조짐",
+          "interpretation_en": "you will probably crush every kindly feeling you may have for the caresses of this moral monstrosity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Satan",
+              "original": "If in the form of a fair woman, you will probably crush every kindly feeling you may have for the caresses of this moral monstrosity.",
+              "translation_ko": "악마가 아름다운 여인의 모습으로 오는 꿈은, 이 부도덕한 괴물의 애무에 품었던 다정한 마음을 짓밟게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "악마로부터 자신을 지키려 함",
+          "interpretation_ko": "이기적인 쾌락의 굴레를 벗어던지고, 남에게 마땅한 몫을 주려 애쓸 조짐",
+          "interpretation_en": "denotes that you will endeavor to throw off the bondage of selfish pleasure, and seek to give others their best deserts",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Satan",
+              "original": "To feel that you are trying to shield yourself from satan, denotes that you will endeavor to throw off the bondage of selfish pleasure, and seek to give others their best deserts.",
+              "translation_ko": "악마로부터 자신을 지키려 하는 꿈은, 이기적인 쾌락의 굴레를 벗어던지고 남에게 마땅한 몫을 주려 애쓸 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "농사짓는 이가 악마를 봄",
+          "interpretation_ko": "농사를 망치고 기르던 짐승이 죽으며 집안에 병이 들 조짐",
+          "interpretation_en": "blasted crops and death among stock, also family sickness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Devil",
+              "original": "For farmers to dream of the devil, denotes blasted crops and death among stock, also family sickness.",
+              "translation_ko": "농사짓는 이가 악마 꿈을 꾸면, 망친 농사와 죽는 가축, 집안의 병을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "악마가 화려하게 차려입고 제 집으로 꾀어들임",
+          "interpretation_ko": "됨됨이가 바르지 못한 이들이 달콤한 말로 파멸을 꾀하고 있다는 경고",
+          "interpretation_en": "warns you that unscrupulous persons are seeking your ruin by the most ingenious flattery",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Devil",
+              "original": "To dream of the devil as being a large, imposingly dressed person, wearing many sparkling jewels on his body and hands, trying to persuade you to enter his abode, warns you that unscrupulous persons are seeking your ruin by the most ingenious flattery.",
+              "translation_ko": "악마가 크고 화려하게 차려입고 몸과 손에 반짝이는 보석을 두른 채 제 집으로 들어오라 꾀는 꿈은, 됨됨이가 바르지 못한 이들이 달콤한 말로 파멸을 꾀하고 있다는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "악마에게 쫓김",
+          "interpretation_ko": "벗의 탈을 쓴 적이 놓은 덫에 걸릴 조짐",
+          "interpretation_en": "you will fall into snares set for you by enemies in the guise of friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Devil",
+              "original": "If you dream of being pursued by his majesty, you will fall into snares set for you by enemies in the guise of friends.",
+              "translation_ko": "악마에게 쫓기는 꿈을 꾸면, 벗의 탈을 쓴 적이 놓은 덫에 걸린다"
             }
           ]
         }
@@ -67914,67 +68103,6 @@
       ]
     },
     {
-      "id": "devil",
-      "term_ko": "악마",
-      "term_en": "devil",
-      "aliases": [
-        "마귀",
-        "사탄",
-        "악마에게"
-      ],
-      "category": "person",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "농사짓는 이가 악마를 봄",
-          "interpretation_ko": "농사를 망치고 기르던 짐승이 죽으며 집안에 병이 들 조짐",
-          "interpretation_en": "blasted crops and death among stock, also family sickness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Devil",
-              "original": "For farmers to dream of the devil, denotes blasted crops and death among stock, also family sickness.",
-              "translation_ko": "농사짓는 이가 악마 꿈을 꾸면, 망친 농사와 죽는 가축, 집안의 병을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "악마가 화려하게 차려입고 제 집으로 꾀어들임",
-          "interpretation_ko": "됨됨이가 바르지 못한 이들이 달콤한 말로 파멸을 꾀하고 있다는 경고",
-          "interpretation_en": "warns you that unscrupulous persons are seeking your ruin by the most ingenious flattery",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Devil",
-              "original": "To dream of the devil as being a large, imposingly dressed person, wearing many sparkling jewels on his body and hands, trying to persuade you to enter his abode, warns you that unscrupulous persons are seeking your ruin by the most ingenious flattery.",
-              "translation_ko": "악마가 크고 화려하게 차려입고 몸과 손에 반짝이는 보석을 두른 채 제 집으로 들어오라 꾀는 꿈은, 됨됨이가 바르지 못한 이들이 달콤한 말로 파멸을 꾀하고 있다는 경고다"
-            }
-          ]
-        },
-        {
-          "context": "악마에게 쫓김",
-          "interpretation_ko": "벗의 탈을 쓴 적이 놓은 덫에 걸릴 조짐",
-          "interpretation_en": "you will fall into snares set for you by enemies in the guise of friends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Devil",
-              "original": "If you dream of being pursued by his majesty, you will fall into snares set for you by enemies in the guise of friends.",
-              "translation_ko": "악마에게 쫓기는 꿈을 꾸면, 벗의 탈을 쓴 적이 놓은 덫에 걸린다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "dew",
       "term_ko": "이슬",
       "term_en": "dew",
@@ -103182,6 +103310,51 @@
               "locator": "Sardines",
               "original": "For a young woman to dream of putting them on the table, denotes that she will be worried with the attentions of a person who is distasteful to her.",
               "translation_ko": "여성이 정어리를 상에 올리는 꿈은, 탐탁잖은 사람의 관심에 시달릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sardonyx",
+      "term_ko": "사도닉스",
+      "term_en": "sardonyx",
+      "aliases": [
+        "사도닉스"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사도닉스 꿈을 꿈",
+          "interpretation_ko": "가난을 힘차게 물리쳐 우울한 처지가 걷힐 조짐",
+          "interpretation_en": "signifies gloomy surroundings will be cleared away by your energetic overthrow of poverty",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sardonyx",
+              "original": "To dream of sardonyx, signifies gloomy surroundings will be cleared away by your energetic overthrow of poverty.",
+              "translation_ko": "사도닉스 꿈은, 가난을 힘차게 물리쳐 우울한 처지가 걷힐 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 사도닉스를 잃어버리거나 내버림",
+          "interpretation_ko": "형편을 나아지게 할 기회를 소홀히 할 조짐",
+          "interpretation_en": "it might imply a disregard of opportunities to improve her condition",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sardonyx",
+              "original": "For a woman, this dream denotes an increase in her possessions, unless she loses or throws them away, then it might imply a disregard of opportunities to improve her condition.",
+              "translation_ko": "여성이 사도닉스를 잃어버리거나 내버리는 꿈은, 형편을 나아지게 할 기회를 소홀히 할 조짐이다"
             }
           ]
         }

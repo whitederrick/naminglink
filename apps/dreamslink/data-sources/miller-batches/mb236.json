@@ -1,0 +1,23 @@
+{
+  "batch": 236,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Sardonyx",
+      "text": "To dream of sardonyx, signifies gloomy surroundings will be cleared away by your energetic overthrow of poverty. For a woman, this dream denotes an increase in her possessions, unless she loses or throws them away, then it might imply a disregard of opportunities to improve her condition.",
+      "note": "새 상징 `sardonyx`(사도닉스) — 두 그림"
+    },
+    {
+      "headword": "Sash",
+      "text": "To dream of wearing a sash, foretells that you will seek to retain the affections of a flirtatious person. For a young woman to buy one, she will be faithful to her lover, and win esteem by her frank, womanly ways.",
+      "note": "기존 상징 `belt`(허리띠, 영어 별칭에 이미 \"sash\"가 있던 자리 — 밀러 Girdle 표제어에서 옴)에 둘을 더한다"
+    },
+    {
+      "headword": "Satan",
+      "text": "To dream of Satan, foretells that you will have some dangerous adventures, and you will be forced to use strategy to keep up honorable appearances. To dream that you kill him, foretells that you will desert wicked or immoral companions to live upon a higher plane. If he comes to you under the guise of literature, it should be heeded as a warning against promiscuous friendships, and especially flatterers. If he comes in the shape of wealth or power, you will fail to use your influence for harmony, or the elevation of others. If he takes the form of music, you are likely to go down before his wiles. If in the form of a fair woman, you will probably crush every kindly feeling you may have for the caresses of this moral monstrosity. To feel that you are trying to shield yourself from satan, denotes that you will endeavor to throw off the bondage of selfish pleasure, and seek to give others their best deserts.",
+      "note": "기존 상징 `devil`(악마)에 일곱을 더한다 — 원문 각주 [197] 'See Devil' 그대로"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

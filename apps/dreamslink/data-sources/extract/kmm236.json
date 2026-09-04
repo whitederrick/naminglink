@@ -1,0 +1,19 @@
+[
+  {
+    "id": "sardonyx",
+    "aliases": [
+      "사도닉스"
+    ],
+    "aliases_en": [
+      "sardonyx"
+    ],
+    "contexts": {
+      "사도닉스 꿈을 꿈": "가난을 힘차게 우울한처지",
+      "여성이 사도닉스를 잃어버리거나 내버림": "잃어버렸 내버리 소홀히"
+    },
+    "contexts_en": {
+      "사도닉스 꿈을 꿈": "gloomy poverty overthrow",
+      "여성이 사도닉스를 잃어버리거나 내버림": "loses throws disregard"
+    }
+  }
+]

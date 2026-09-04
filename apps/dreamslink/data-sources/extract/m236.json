@@ -1,0 +1,167 @@
+[
+  {
+    "term_ko": "사도닉스",
+    "term_en": "sardonyx",
+    "context": "사도닉스 꿈을 꿈",
+    "interpretation_ko": "가난을 힘차게 물리쳐 우울한 처지가 걷힐 조짐",
+    "interpretation_en": "signifies gloomy surroundings will be cleared away by your energetic overthrow of poverty",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Sardonyx",
+      "original": "To dream of sardonyx, signifies gloomy surroundings will be cleared away by your energetic overthrow of poverty.",
+      "translation_ko": "사도닉스 꿈은, 가난을 힘차게 물리쳐 우울한 처지가 걷힐 조짐이다"
+    }
+  },
+  {
+    "term_ko": "사도닉스",
+    "term_en": "sardonyx",
+    "context": "여성이 사도닉스를 잃어버리거나 내버림",
+    "interpretation_ko": "형편을 나아지게 할 기회를 소홀히 할 조짐",
+    "interpretation_en": "it might imply a disregard of opportunities to improve her condition",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sardonyx",
+      "original": "For a woman, this dream denotes an increase in her possessions, unless she loses or throws them away, then it might imply a disregard of opportunities to improve her condition.",
+      "translation_ko": "여성이 사도닉스를 잃어버리거나 내버리는 꿈은, 형편을 나아지게 할 기회를 소홀히 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "허리띠",
+    "term_en": "belt",
+    "context": "여성이 장식띠를 삼",
+    "interpretation_ko": "연인에게 성실하고, 솔직하고 여성다운 태도로 존경을 얻을 조짐",
+    "interpretation_en": "she will be faithful to her lover, and win esteem by her frank, womanly ways",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sash",
+      "original": "For a young woman to buy one, she will be faithful to her lover, and win esteem by her frank, womanly ways.",
+      "translation_ko": "여성이 장식띠를 사는 꿈은, 연인에게 성실하고 솔직하고 여성다운 태도로 존경을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "허리띠",
+    "term_en": "belt",
+    "context": "장식띠를 두름",
+    "interpretation_ko": "바람기 있는 이의 애정을 붙잡으려 애쓸 조짐",
+    "interpretation_en": "foretells that you will seek to retain the affections of a flirtatious person",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sash",
+      "original": "To dream of wearing a sash, foretells that you will seek to retain the affections of a flirtatious person.",
+      "translation_ko": "장식띠를 두르는 꿈은, 바람기 있는 이의 애정을 붙잡으려 애쓸 조짐이다"
+    }
+  },
+  {
+    "term_ko": "악마",
+    "term_en": "devil",
+    "context": "악마 꿈을 꿈",
+    "interpretation_ko": "위험한 모험을 겪고, 명예로운 겉모습을 지키려 술수를 써야 할 조짐",
+    "interpretation_en": "foretells that you will have some dangerous adventures, and you will be forced to use strategy to keep up honorable appearances",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Satan",
+      "original": "To dream of Satan, foretells that you will have some dangerous adventures, and you will be forced to use strategy to keep up honorable appearances.",
+      "translation_ko": "악마 꿈은, 위험한 모험을 겪고 명예로운 겉모습을 지키려 술수를 써야 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "악마",
+    "term_en": "devil",
+    "context": "악마를 죽임",
+    "interpretation_ko": "사악하거나 부도덕한 동무들을 버리고 더 높은 경지에서 살게 될 조짐",
+    "interpretation_en": "foretells that you will desert wicked or immoral companions to live upon a higher plane",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Satan",
+      "original": "To dream that you kill him, foretells that you will desert wicked or immoral companions to live upon a higher plane.",
+      "translation_ko": "악마를 죽이는 꿈은, 사악하거나 부도덕한 동무들을 버리고 더 높은 경지에서 살게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "악마",
+    "term_en": "devil",
+    "context": "악마가 문학의 모습으로 옴",
+    "interpretation_ko": "닥치는 대로 사귀는 벗들과 아첨꾼을 특히 경계하라는 경고로 새겨야 할 조짐",
+    "interpretation_en": "it should be heeded as a warning against promiscuous friendships, and especially flatterers",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Satan",
+      "original": "If he comes to you under the guise of literature, it should be heeded as a warning against promiscuous friendships, and especially flatterers.",
+      "translation_ko": "악마가 문학의 모습으로 오는 꿈은, 닥치는 대로 사귀는 벗들과 아첨꾼을 특히 경계하라는 경고로 새겨야 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "악마",
+    "term_en": "devil",
+    "context": "악마가 부나 권력의 모습으로 옴",
+    "interpretation_ko": "화합이나 남을 높이는 데 제 영향력을 쓰지 못할 조짐",
+    "interpretation_en": "you will fail to use your influence for harmony, or the elevation of others",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Satan",
+      "original": "If he comes in the shape of wealth or power, you will fail to use your influence for harmony, or the elevation of others.",
+      "translation_ko": "악마가 부나 권력의 모습으로 오는 꿈은, 화합이나 남을 높이는 데 제 영향력을 쓰지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "악마",
+    "term_en": "devil",
+    "context": "악마가 음악의 모습으로 옴",
+    "interpretation_ko": "그 술수에 넘어가 무너질 조짐",
+    "interpretation_en": "you are likely to go down before his wiles",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Satan",
+      "original": "If he takes the form of music, you are likely to go down before his wiles.",
+      "translation_ko": "악마가 음악의 모습으로 오는 꿈은, 그 술수에 넘어가 무너질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "악마",
+    "term_en": "devil",
+    "context": "악마가 아름다운 여인의 모습으로 옴",
+    "interpretation_ko": "이 부도덕한 괴물의 애무에 품었던 다정한 마음을 짓밟게 될 조짐",
+    "interpretation_en": "you will probably crush every kindly feeling you may have for the caresses of this moral monstrosity",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Satan",
+      "original": "If in the form of a fair woman, you will probably crush every kindly feeling you may have for the caresses of this moral monstrosity.",
+      "translation_ko": "악마가 아름다운 여인의 모습으로 오는 꿈은, 이 부도덕한 괴물의 애무에 품었던 다정한 마음을 짓밟게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "악마",
+    "term_en": "devil",
+    "context": "악마로부터 자신을 지키려 함",
+    "interpretation_ko": "이기적인 쾌락의 굴레를 벗어던지고, 남에게 마땅한 몫을 주려 애쓸 조짐",
+    "interpretation_en": "denotes that you will endeavor to throw off the bondage of selfish pleasure, and seek to give others their best deserts",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Satan",
+      "original": "To feel that you are trying to shield yourself from satan, denotes that you will endeavor to throw off the bondage of selfish pleasure, and seek to give others their best deserts.",
+      "translation_ko": "악마로부터 자신을 지키려 하는 꿈은, 이기적인 쾌락의 굴레를 벗어던지고 남에게 마땅한 몫을 주려 애쓸 조짐이다"
+    }
+  }
+]

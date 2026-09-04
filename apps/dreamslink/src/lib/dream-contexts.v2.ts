@@ -1934,6 +1934,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "belt::허리띠가 몸을 죔": "presses influenced designing",
   "belt::남이 보석 박힌 허리띠를 두른 것을 봄": "velvet jeweled strive more",
   "belt::여성이 허리띠를 받음": "receive honors conferred upon",
+  "belt::장식띠를 두름": "flirtatious retain affections",
+  "belt::여성이 장식띠를 삼": "buy faithful esteem",
   "crane::학이 하늘로 올라감": "sky rose ascending soaring upward",
   "crane::학이 욺": "cried crying call calling",
   "crane::학이 품속으로 들어옴": "arms bosom embraced chest",
@@ -3517,6 +3519,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "devil::농사짓는 이가 악마를 봄": "farmers blasted stock",
   "devil::악마가 화려하게 차려입고 제 집으로 꾀어들임": "imposingly jewels flattery",
   "devil::악마에게 쫓김": "pursued snares guise",
+  "devil::악마 꿈을 꿈": "dangerous adventures strategy",
+  "devil::악마를 죽임": "kill desert companions",
+  "devil::악마가 문학의 모습으로 옴": "literature flatterers promiscuous",
+  "devil::악마가 부나 권력의 모습으로 옴": "wealth power influence",
+  "devil::악마가 음악의 모습으로 옴": "music wiles succumb",
+  "devil::악마가 아름다운 여인의 모습으로 옴": "fair woman caresses crush",
+  "devil::악마로부터 자신을 지키려 함": "shield selfish bondage",
   "dew::이슬이 몸에 내림": "falling fever malignant",
   "dew::햇빛에 반짝이는 풀 위의 이슬을 봄": "sparkling grass sunlight",
   "dew::홀몸인 이에게 이슬 꿈이 나타남": "single wealthy portion",
@@ -5537,5 +5546,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "sapphire::사파이어 꿈을 꿈": "fortunate gain ominous",
   "sapphire::여성이 사파이어 꿈을 꿈": "woman wise selection lover",
   "sardines::정어리를 먹음": "eat distressing unexpectedly",
-  "sardines::여성이 정어리를 상에 올림": "putting table distasteful"
+  "sardines::여성이 정어리를 상에 올림": "putting table distasteful",
+  "sardonyx::사도닉스 꿈을 꿈": "gloomy poverty overthrow",
+  "sardonyx::여성이 사도닉스를 잃어버리거나 내버림": "loses throws disregard"
 };

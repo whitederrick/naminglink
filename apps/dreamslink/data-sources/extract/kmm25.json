@@ -312,12 +312,26 @@
     "contexts": {
       "농사짓는 이가 악마를 봄": "농부 농사 가축",
       "악마가 화려하게 차려입고 제 집으로 꾀어들임": "차려입 보석 꾀어",
-      "악마에게 쫓김": "쫓겼 쫓기 달아나"
+      "악마에게 쫓김": "쫓겼 쫓기 달아나",
+      "악마 꿈을 꿈": "위험한모험 술수를써 명예로운",
+      "악마를 죽임": "죽임 죽였 사악하거나",
+      "악마가 문학의 모습으로 옴": "문학 아첨꾼 닥치는대로",
+      "악마가 부나 권력의 모습으로 옴": "부나 권력 화합이나",
+      "악마가 음악의 모습으로 옴": "음악 술수에넘어가 무너질",
+      "악마가 아름다운 여인의 모습으로 옴": "아름다운 여인 애무",
+      "악마로부터 자신을 지키려 함": "지키려 이기적인쾌락 굴레를벗어"
     },
     "contexts_en": {
       "농사짓는 이가 악마를 봄": "farmers blasted stock",
       "악마가 화려하게 차려입고 제 집으로 꾀어들임": "imposingly jewels flattery",
-      "악마에게 쫓김": "pursued snares guise"
+      "악마에게 쫓김": "pursued snares guise",
+      "악마 꿈을 꿈": "dangerous adventures strategy",
+      "악마를 죽임": "kill desert companions",
+      "악마가 문학의 모습으로 옴": "literature flatterers promiscuous",
+      "악마가 부나 권력의 모습으로 옴": "wealth power influence",
+      "악마가 음악의 모습으로 옴": "music wiles succumb",
+      "악마가 아름다운 여인의 모습으로 옴": "fair woman caresses crush",
+      "악마로부터 자신을 지키려 함": "shield selfish bondage"
     }
   },
   {
