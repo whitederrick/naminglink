@@ -163,6 +163,7 @@
     "m242.json",
     "m243.json",
     "m244.json",
+    "m245.json",
     "m25.json",
     "m26.json",
     "m27a.json",
@@ -12408,6 +12409,229 @@
               "locator": "天地日月星辰",
               "original": "狂風大雨人死亡",
               "translation_ko": "사나운 바람과 큰비는 사람이 죽는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoes",
+      "term_ko": "신발",
+      "term_en": "shoes",
+      "aliases": [
+        "구두",
+        "운동화",
+        "짚신",
+        "나막신",
+        "고무신",
+        "슬리퍼",
+        "샌들",
+        "신을",
+        "신이",
+        "신에"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남이 자기 신을 신음",
+          "interpretation_ko": "아내에게 사사로운 정이 있을 조짐",
+          "interpretation_en": "a sign of a secret affection in one's wife",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "人著己履妻有私",
+              "translation_ko": "남이 자기 신을 신으면 아내에게 사사로운 정이 있다"
+            }
+          ]
+        },
+        {
+          "context": "구두를 닦아 광을 냄",
+          "interpretation_ko": "일이 나아지고 어떤 중요한 일로 만족을 얻을 조짐",
+          "interpretation_en": "foretells improvement in your affairs, and some important event will cause you satisfaction",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shoes",
+              "original": "To have them blacked in your dreams, foretells improvement in your affairs, and some important event will cause you satisfaction.",
+              "translation_ko": "구두를 닦아 광을 내는 꿈은, 일이 나아지고 어떤 중요한 일로 만족을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "새 신을 신음",
+          "interpretation_ko": "이로운 변화가 있을 조짐",
+          "interpretation_en": "augur changes which will prove beneficial",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shoes",
+              "original": "New shoes, augur changes which will prove beneficial.",
+              "translation_ko": "새 신을 신는 꿈은, 이로운 변화가 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "새 신이 발을 조임",
+          "interpretation_ko": "장난기 많은 동성 친구들의 농담에 시달릴 조짐",
+          "interpretation_en": "you will be uncomfortably exposed to the practical joking of the fun-loving companions of your sex",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shoes",
+              "original": "If they pinch your feet, you will be uncomfortably exposed to the practical joking of the fun-loving companions of your sex.",
+              "translation_ko": "새 신이 발을 조이는 꿈은, 장난기 많은 동성 친구들의 농담에 시달릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "신이 풀려 있음을 봄",
+          "interpretation_ko": "손실과 다툼, 건강 악화의 조짐",
+          "interpretation_en": "denotes losses, quarrels and ill-health",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shoes",
+              "original": "To find them untied, denotes losses, quarrels and ill-health.",
+              "translation_ko": "신이 풀려 있는 것을 보는 꿈은, 손실과 다툼, 건강 악화의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "밤새 신을 도둑맞았으나 양말은 두 켤레 있음",
+          "interpretation_ko": "손해를 보지만 다른 일에서 얻는 바가 있을 조짐",
+          "interpretation_en": "denotes you will have a loss, but will gain in some other pursuit",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shoes",
+              "original": "To dream that your shoes have been stolen during the night, but you have two pairs of hose, denotes you will have a loss, but will gain in some other pursuit.",
+              "translation_ko": "밤새 신을 도둑맞았으나 양말은 두 켤레 있는 꿈은, 손해를 보지만 다른 일에서 얻는 바가 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 신은 신발을 남들이 칭찬함",
+          "interpretation_ko": "낯선 이나 남자들이 허물없이 다가오는 것을 조심하라는 경고",
+          "interpretation_en": "warns her to be cautious in allowing newly introduced people, and men of any kind, to approach her in a familiar way",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shoes",
+              "original": "For a young woman to dream that her shoes are admired while on her feet, warns her to be cautious in allowing newly introduced people, and men of any kind, to approach her in a familiar way.",
+              "translation_ko": "여성이 신은 신발을 남들이 칭찬하는 꿈은, 낯선 이나 남자들이 허물없이 다가오는 것을 조심하라는 경고이다"
+            }
+          ]
+        },
+        {
+          "context": "신을 얻음",
+          "interpretation_ko": "부리는 사람에게 길한 조짐",
+          "interpretation_en": "an auspicious sign for one's servants",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "得靴鞋主奴婢吉",
+              "translation_ko": "신을 얻으면 종에게 길한 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "신을 잃어버림",
+          "interpretation_ko": "부리는 사람이 달아날 조짐",
+          "interpretation_en": "a sign that one's servants will run away",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "失履主奴婢逃走",
+              "translation_ko": "신을 잃으면 종이 달아난다"
+            }
+          ]
+        },
+        {
+          "context": "신을 벗음",
+          "interpretation_ko": "흉한 일이 있을 조짐",
+          "interpretation_en": "a sign that something ill will happen",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "脫靴束帶主有凶",
+              "translation_ko": "신을 벗고 띠를 매면 흉한 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "신이 해져 떨어짐",
+          "interpretation_ko": "자손과 아내가 병들 조짐",
+          "interpretation_en": "a sign of illness for children and wife",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "鞋破子孫妻妾病",
+              "translation_ko": "신이 해지면 자손과 처첩이 병든다"
+            }
+          ]
+        },
+        {
+          "context": "삼으로 삼은 신을 신음",
+          "interpretation_ko": "온갖 일이 화합할 조짐",
+          "interpretation_en": "a sign that all matters come together well",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "著麻鞋百事和合",
+              "translation_ko": "삼신을 신으면 온갖 일이 화합한다"
+            }
+          ]
+        },
+        {
+          "context": "빌어서 신을 얻음",
+          "interpretation_ko": "남이 도와줄 조짐",
+          "interpretation_en": "a sign that others will lend help",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "乞得鞋履人助力",
+              "translation_ko": "빌어서 신을 얻으면 남이 힘을 도와준다"
+            }
+          ]
+        },
+        {
+          "context": "나막신이 벗겨짐",
+          "interpretation_ko": "액운에서 벗어날 조짐",
+          "interpretation_en": "a sign of escaping misfortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "木履脫時己出厄",
+              "translation_ko": "나막신이 벗겨지면 자기가 액에서 벗어난다"
             }
           ]
         }
@@ -27258,141 +27482,6 @@
               "locator": "田園五榖耕種",
               "original": "得禾忽失主得志",
               "translation_ko": "벼를 얻었다가 갑자기 잃으면 뜻을 이룬다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "shoes",
-      "term_ko": "신발",
-      "term_en": "shoes",
-      "aliases": [
-        "구두",
-        "운동화",
-        "짚신",
-        "나막신",
-        "고무신",
-        "슬리퍼",
-        "샌들"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남이 자기 신을 신음",
-          "interpretation_ko": "아내에게 사사로운 정이 있을 조짐",
-          "interpretation_en": "a sign of a secret affection in one's wife",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "人著己履妻有私",
-              "translation_ko": "남이 자기 신을 신으면 아내에게 사사로운 정이 있다"
-            }
-          ]
-        },
-        {
-          "context": "신을 얻음",
-          "interpretation_ko": "부리는 사람에게 길한 조짐",
-          "interpretation_en": "an auspicious sign for one's servants",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "得靴鞋主奴婢吉",
-              "translation_ko": "신을 얻으면 종에게 길한 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "신을 잃어버림",
-          "interpretation_ko": "부리는 사람이 달아날 조짐",
-          "interpretation_en": "a sign that one's servants will run away",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "失履主奴婢逃走",
-              "translation_ko": "신을 잃으면 종이 달아난다"
-            }
-          ]
-        },
-        {
-          "context": "신을 벗음",
-          "interpretation_ko": "흉한 일이 있을 조짐",
-          "interpretation_en": "a sign that something ill will happen",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "脫靴束帶主有凶",
-              "translation_ko": "신을 벗고 띠를 매면 흉한 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "신이 해져 떨어짐",
-          "interpretation_ko": "자손과 아내가 병들 조짐",
-          "interpretation_en": "a sign of illness for children and wife",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "鞋破子孫妻妾病",
-              "translation_ko": "신이 해지면 자손과 처첩이 병든다"
-            }
-          ]
-        },
-        {
-          "context": "삼으로 삼은 신을 신음",
-          "interpretation_ko": "온갖 일이 화합할 조짐",
-          "interpretation_en": "a sign that all matters come together well",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "著麻鞋百事和合",
-              "translation_ko": "삼신을 신으면 온갖 일이 화합한다"
-            }
-          ]
-        },
-        {
-          "context": "빌어서 신을 얻음",
-          "interpretation_ko": "남이 도와줄 조짐",
-          "interpretation_en": "a sign that others will lend help",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "乞得鞋履人助力",
-              "translation_ko": "빌어서 신을 얻으면 남이 힘을 도와준다"
-            }
-          ]
-        },
-        {
-          "context": "나막신이 벗겨짐",
-          "interpretation_ko": "액운에서 벗어날 조짐",
-          "interpretation_en": "a sign of escaping misfortune",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "木履脫時己出厄",
-              "translation_ko": "나막신이 벗겨지면 자기가 액에서 벗어난다"
             }
           ]
         }
@@ -62875,6 +62964,80 @@
               "locator": "Shark",
               "original": "To see a dead one, denotes reconciliation and renewed prosperity.",
               "translation_ko": "죽은 상어를 보는 꿈은, 화해와 되살아난 번영의 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shirt",
+      "term_ko": "셔츠",
+      "term_en": "shirt",
+      "aliases": [
+        "셔츠를",
+        "셔츠가"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "셔츠를 입음",
+          "interpretation_ko": "신의 없는 행실로 연인과 멀어질 조짐",
+          "interpretation_en": "is a sign that you will estrange yourself from your sweetheart by your faithless conduct",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shirt",
+              "original": "To dream of putting on your shirt, is a sign that you will estrange yourself from your sweetheart by your faithless conduct.",
+              "translation_ko": "셔츠를 입는 꿈은, 신의 없는 행실로 연인과 멀어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "셔츠를 잃어버림",
+          "interpretation_ko": "사업이나 사랑에서 망신을 당할 조짐",
+          "interpretation_en": "augurs disgrace in business or love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shirt",
+              "original": "To lose your shirt, augurs disgrace in business or love.",
+              "translation_ko": "셔츠를 잃어버리는 꿈은, 사업이나 사랑에서 망신을 당할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "찢어진 셔츠를 봄",
+          "interpretation_ko": "불운과 비참한 처지의 조짐",
+          "interpretation_en": "represents misfortune and miserable surroundings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shirt",
+              "original": "A torn shirt, represents misfortune and miserable surroundings.",
+              "translation_ko": "찢어진 셔츠를 보는 꿈은, 불운과 비참한 처지의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "더러워진 셔츠를 봄",
+          "interpretation_ko": "전염병이 닥칠 조짐",
+          "interpretation_en": "denotes that contagious diseases will confront you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shirt",
+              "original": "A soiled shirt, denotes that contagious diseases will confront you.",
+              "translation_ko": "더러워진 셔츠를 보는 꿈은, 전염병이 닥칠 조짐이다"
             }
           ]
         }
@@ -105543,6 +105706,102 @@
               "locator": "Shepherd",
               "original": "To see them in idleness, foretells sickness and bereavement.",
               "translation_ko": "목자가 게으름을 피우는 꿈은, 질병과 사별의 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shirt-studs",
+      "term_ko": "셔츠 장식 단추",
+      "term_en": "shirt-studs",
+      "aliases": [
+        "셔츠 장식 단추",
+        "커프스단추",
+        "소맷단추",
+        "장식 단추"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "셔츠 장식 단추 꿈을 꿈",
+          "interpretation_ko": "자존심을 다독이려 애쓰지만 대개 뜻대로 될 조짐",
+          "interpretation_en": "foretells you will struggle to humor your pride, and will usually be successful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shirt-studs",
+              "original": "To dream of shirt-studs, foretells you will struggle to humor your pride, and will usually be successful.",
+              "translation_ko": "셔츠 장식 단추 꿈은, 자존심을 다독이려 애쓰지만 대개 뜻대로 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "다이아몬드 장식 단추 중 가운데 것이 가장 큼",
+          "interpretation_ko": "부를 누리거나 마음 맞는 벗들에 둘러싸여 편안히 지낼 조짐",
+          "interpretation_en": "you will enjoy wealth, or have an easy time, surrounded by congenial friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shirt-studs",
+              "original": "If they are diamonds, and the center one is larger than the others, you will enjoy wealth, or have an easy time, surrounded by congenial friends.",
+              "translation_ko": "다이아몬드 장식 단추 중 가운데 것이 가장 큰 꿈은, 부를 누리거나 마음 맞는 벗들에 둘러싸여 편안히 지낼 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shoemaker",
+      "term_ko": "구두장이",
+      "term_en": "shoemaker",
+      "aliases": [
+        "구두장이",
+        "제화공",
+        "구두장이인",
+        "구두장이가"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "구두장이를 봄",
+          "interpretation_ko": "출세에 불리한 조짐이 있음을 경고",
+          "interpretation_en": "warns you that indications are unfavorable to your advancement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shoemaker",
+              "original": "To see a shoemaker in your dream, warns you that indications are unfavorable to your advancement.",
+              "translation_ko": "구두장이를 보는 꿈은, 출세에 불리한 조짐이 있음을 경고한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 남편이나 애인이 구두장이인 꿈을 꿈",
+          "interpretation_ko": "능력을 갖추어 바라던 바가 이루어질 조짐",
+          "interpretation_en": "foretells competency will be hers; her wishes will be gratified",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shoemaker",
+              "original": "For a woman to dream that her husband or lover is a shoemaker, foretells competency will be hers; her wishes will be gratified.",
+              "translation_ko": "여성이 남편이나 애인이 구두장이인 꿈은, 능력을 갖추어 바라던 바가 이루어질 조짐이다"
             }
           ]
         }

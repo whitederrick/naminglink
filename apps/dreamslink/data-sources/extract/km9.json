@@ -194,14 +194,16 @@
       "나막신",
       "고무신",
       "슬리퍼",
-      "샌들"
+      "샌들",
+      "신을",
+      "신이",
+      "신에"
     ],
     "aliases_en": [
       "shoe",
       "sneakers",
       "sandals",
-      "footwear",
-      "boots"
+      "footwear"
     ],
     "contexts": {
       "남이 자기 신을 신음": "남이 다른사람 타인이 누군가",
@@ -211,7 +213,13 @@
       "신이 해져 떨어짐": "해져 해진 낡아 낡은 구멍 닳아",
       "삼으로 삼은 신을 신음": "짚신 삼은 삼으로 미투리",
       "빌어서 신을 얻음": "빌려 빌린 빌어서 얻어신",
-      "나막신이 벗겨짐": "나막신 벗겨 미끄러"
+      "나막신이 벗겨짐": "나막신 벗겨 미끄러",
+      "구두를 닦아 광을 냄": "닦아 광을 만족을",
+      "새 신을 신음": "새로 이로운",
+      "새 신이 발을 조임": "조였다 장난기",
+      "신이 풀려 있음을 봄": "풀려 다툼 건강 악화",
+      "밤새 신을 도둑맞았으나 양말은 두 켤레 있음": "밤새 양말은 켤레",
+      "여성이 신은 신발을 남들이 칭찬함": "칭찬 낯선이나 허물없이"
     },
     "contexts_en": {
       "남이 자기 신을 신음": "someone else another wearing mine",
@@ -221,7 +229,13 @@
       "신이 해져 떨어짐": "worn torn tattered hole ragged",
       "삼으로 삼은 신을 신음": "straw hemp woven",
       "빌어서 신을 얻음": "borrowed borrowing lent begged",
-      "나막신이 벗겨짐": "clogs slipped came off"
+      "나막신이 벗겨짐": "clogs slipped came off",
+      "구두를 닦아 광을 냄": "blacked improvement satisfaction",
+      "새 신을 신음": "augur beneficial changes",
+      "새 신이 발을 조임": "pinch uncomfortably joking",
+      "신이 풀려 있음을 봄": "untied losses quarrels",
+      "밤새 신을 도둑맞았으나 양말은 두 켤레 있음": "stolen hose pursuit",
+      "여성이 신은 신발을 남들이 칭찬함": "admired cautious familiar"
     }
   },
   {

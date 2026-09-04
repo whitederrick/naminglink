@@ -1941,8 +1941,7 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "shoe",
     "sneakers",
     "sandals",
-    "footwear",
-    "boots"
+    "footwear"
   ],
   "hat": [
     "cap",
@@ -7471,5 +7470,16 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "sheriff": [
     "a sheriff",
     "sheriff"
+  ],
+  "shirt": [
+    "a shirt",
+    "your shirt"
+  ],
+  "shirt-studs": [
+    "shirt-studs"
+  ],
+  "shoemaker": [
+    "a shoemaker",
+    "shoemaker"
   ]
 };

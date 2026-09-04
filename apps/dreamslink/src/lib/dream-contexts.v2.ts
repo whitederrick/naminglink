@@ -1934,6 +1934,12 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "shoes::삼으로 삼은 신을 신음": "straw hemp woven",
   "shoes::빌어서 신을 얻음": "borrowed borrowing lent begged",
   "shoes::나막신이 벗겨짐": "clogs slipped came off",
+  "shoes::구두를 닦아 광을 냄": "blacked improvement satisfaction",
+  "shoes::새 신을 신음": "augur beneficial changes",
+  "shoes::새 신이 발을 조임": "pinch uncomfortably joking",
+  "shoes::신이 풀려 있음을 봄": "untied losses quarrels",
+  "shoes::밤새 신을 도둑맞았으나 양말은 두 켤레 있음": "stolen hose pursuit",
+  "shoes::여성이 신은 신발을 남들이 칭찬함": "admired cautious familiar",
   "hat::관을 쓰고 수레에 오름": "cart carriage wagon riding",
   "hat::스스로 두건과 모자를 씀": "myself headscarf kerchief wearing",
   "hat::관을 쓰고 높은 대에 오름": "high platform terrace climbed tall",
@@ -5661,5 +5667,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "shepherd::목자가 게으름을 피움": "idleness sickness bereavement",
   "sheriff::보안관을 봄": "uneasiness uncertain changes",
   "sheriff::자신이 보안관으로 뽑히거나 그 자리에 관심을 가짐": "elected interested profit",
-  "sheriff::체포를 피해 달아남": "escape arrest illicit"
+  "sheriff::체포를 피해 달아남": "escape arrest illicit",
+  "shirt::셔츠를 입음": "putting estrange faithless",
+  "shirt::셔츠를 잃어버림": "lose disgrace business",
+  "shirt::찢어진 셔츠를 봄": "torn misfortune miserable",
+  "shirt::더러워진 셔츠를 봄": "soiled contagious diseases",
+  "shirt-studs::셔츠 장식 단추 꿈을 꿈": "struggle humor pride",
+  "shirt-studs::다이아몬드 장식 단추 중 가운데 것이 가장 큼": "diamonds center congenial",
+  "shoemaker::구두장이를 봄": "unfavorable advancement",
+  "shoemaker::여성이 남편이나 애인이 구두장이인 꿈을 꿈": "husband lover competency"
 };

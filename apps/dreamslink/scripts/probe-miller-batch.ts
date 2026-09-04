@@ -1,7 +1,7 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 244 — Sheet Iron·Shells·Shelter·Shelves·Shepherd·Sheriff,
-// 기존 sheep에 양떼·야윈 양 붙임. Sheep의 shearing·eat-flesh 문장은 기존 Lamb의
-// 같은 그림이라 건너뜀. bailiff의 "a sheriff" EN 별칭을 sheriff에 넘겼다)
+// (지금 담긴 것: 배치 245 — Shirt·Shirt-studs·Shoemaker, 기존 shoes(신)에 여섯 그림 붙임.
+// Ship은 기존 boat가 이미 문맥 30여 개인 복잡한 상징이라 일부러 건너뜀(horse/Ride와 같은
+// 판단) — 나중에 별도 배치로. Shoes의 「해지고 더러워짐」·「잃어버림」은 기존 그림과 같아 건너뜀)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -32,24 +32,23 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "sheep", ctx: "양떼를 봄", text: "양떼를 보았다" },
-  { id: "sheep", ctx: "야위고 병든 양을 봄", text: "야위고 병든 양을 보았다" },
-  { id: "sheet-iron", ctx: "함석을 봄", text: "함석을 보았다" },
-  { id: "sheet-iron", ctx: "함석 위를 걸음", text: "함석 위를 걸었다" },
-  { id: "shells", ctx: "조개껍데기 사이를 걸으며 주움", text: "조개껍데기 사이를 걸으며 주웠다" },
-  { id: "shelter", ctx: "피신처를 지음", text: "피신처를 지었다" },
-  { id: "shelter", ctx: "피신처를 찾음", text: "피신처를 찾았다" },
-  { id: "shelves", ctx: "빈 선반을 봄", text: "빈 선반을 보았다" },
-  { id: "shelves", ctx: "가득 찬 선반을 봄", text: "가득 찬 선반을 보았다" },
-  { id: "shepherd", ctx: "목자가 양떼를 지켜봄", text: "목자가 양떼를 지켜보았다" },
-  { id: "shepherd", ctx: "목자가 게으름을 피움", text: "목자가 게으름을 피웠다" },
-  { id: "sheriff", ctx: "보안관을 봄", text: "보안관을 보았다" },
-  { id: "sheriff", ctx: "자신이 보안관으로 뽑히거나 그 자리에 관심을 가짐", text: "자신이 보안관으로 뽑혔다" },
-  { id: "sheriff", ctx: "체포를 피해 달아남", text: "보안관에게 체포될 뻔했으나 피해 달아났다" },
-  // 지킴 — 이번에 손댄 기존 상징(sheep·bailiff)의 옛 답이 그대로인가
-  { id: "sheep", ctx: "어린 양의 털을 깎음", text: "어린 양의 털을 깎았다" },
-  { id: "sheep", ctx: "양고기를 먹음", text: "양고기를 먹었다" },
-  { id: "bailiff", ctx: "집행관 꿈을 꿈", text: "집행관 꿈을 꾸었다" },
+  { id: "shirt", ctx: "셔츠를 입음", text: "셔츠를 입었다" },
+  { id: "shirt", ctx: "셔츠를 잃어버림", text: "셔츠를 잃어버렸다" },
+  { id: "shirt", ctx: "찢어진 셔츠를 봄", text: "찢어진 셔츠를 보았다" },
+  { id: "shirt", ctx: "더러워진 셔츠를 봄", text: "더러워진 셔츠를 보았다" },
+  { id: "shirt-studs", ctx: "셔츠 장식 단추 꿈을 꿈", text: "셔츠 장식 단추 꿈을 꾸었다" },
+  { id: "shirt-studs", ctx: "다이아몬드 장식 단추 중 가운데 것이 가장 큼", text: "다이아몬드 장식 단추 중 가운데 것이 가장 컸다" },
+  { id: "shoemaker", ctx: "구두장이를 봄", text: "구두장이를 보았다" },
+  { id: "shoemaker", ctx: "여성이 남편이나 애인이 구두장이인 꿈을 꿈", text: "여성이 남편이 구두장이인 꿈을 꾸었다" },
+  { id: "shoes", ctx: "구두를 닦아 광을 냄", text: "구두를 닦아 광을 냈다" },
+  { id: "shoes", ctx: "새 신을 신음", text: "새로 산 신발을 신었다" },
+  { id: "shoes", ctx: "새 신이 발을 조임", text: "새 신발이 발을 조였다" },
+  { id: "shoes", ctx: "신이 풀려 있음을 봄", text: "신이 풀려 있는 것을 보았다" },
+  { id: "shoes", ctx: "밤새 신을 도둑맞았으나 양말은 두 켤레 있음", text: "밤새 신을 도둑맞았으나 양말은 두 켤레 있었다" },
+  { id: "shoes", ctx: "여성이 신은 신발을 남들이 칭찬함", text: "여성이 신은 신발을 남들이 칭찬했다" },
+  // 지킴 — 이번에 손댄 기존 상징(shoes)의 옛 답이 그대로인가
+  { id: "shoes", ctx: "남이 자기 신을 신음", text: "남이 자기 신을 신었다" },
+  { id: "shoes", ctx: "신을 잃어버림", text: "신을 잃어버렸다" },
 ];
 
 let notFound = 0;

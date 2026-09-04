@@ -1,0 +1,31 @@
+{
+  "batch": 245,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Shirt",
+      "text": "To dream of putting on your shirt, is a sign that you will estrange yourself from your sweetheart by your faithless conduct. To lose your shirt, augurs disgrace in business or love. A torn shirt, represents misfortune and miserable surroundings. A soiled shirt, denotes that contagious diseases will confront you.",
+      "note": "새 상징 `shirt`(셔츠) — 네 그림"
+    },
+    {
+      "headword": "Shirt-studs",
+      "text": "To dream of shirt-studs, foretells you will struggle to humor your pride, and will usually be successful. If they are diamonds, and the center one is larger than the others, you will enjoy wealth, or have an easy time, surrounded by congenial friends.",
+      "note": "새 상징 `shirt-studs`(셔츠 장식 단추) — 두 그림"
+    },
+    {
+      "headword": "Shoemaker",
+      "text": "To see a shoemaker in your dream, warns you that indications are unfavorable to your advancement. For a woman to dream that her husband or lover is a shoemaker, foretells competency will be hers; her wishes will be gratified.",
+      "note": "새 상징 `shoemaker`(구두장이) — 두 그림"
+    },
+    {
+      "headword": "Shoes",
+      "text": "To have them blacked in your dreams, foretells improvement in your affairs, and some important event will cause you satisfaction. New shoes, augur changes which will prove beneficial. If they pinch your feet, you will be uncomfortably exposed to the practical joking of the fun-loving companions of your sex. To find them untied, denotes losses, quarrels and ill-health. To dream that your shoes have been stolen during the night, but you have two pairs of hose, denotes you will have a loss, but will gain in some other pursuit. For a young woman to dream that her shoes are admired while on her feet, warns her to be cautious in allowing newly introduced people, and men of any kind, to approach her in a familiar way.",
+      "note": "기존 `shoes`(신)에 붙임 — 여섯 그림. 「해지고 더러워짐」·「잃어버림」 두 문장은 기존 zhougong 그림(신이 해져 떨어짐·신을 잃어버림)과 같은 그림이라 건너뜀"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    "Shoes — 「신이 해지고 더러워짐」이 기존 「신이 해져 떨어짐」과 같은 그림이라 건너뜀",
+    "Shoes — 「신을 잃어버림」이 기존 zhougong의 같은 이름·같은 그림이라 건너뜀(work가 다른데 이름이 같아지면 뒤엣것이 영영 안 뽑힌다, §30 곁가지)"
+  ]
+}

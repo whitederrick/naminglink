@@ -1,0 +1,66 @@
+[
+  {
+    "id": "shirt",
+    "aliases": [
+      "셔츠를",
+      "셔츠가"
+    ],
+    "aliases_en": [
+      "a shirt",
+      "your shirt"
+    ],
+    "contexts": {
+      "셔츠를 입음": "입었다 신의없는 멀어질",
+      "셔츠를 잃어버림": "잃어버렸다 망신을 사업이나",
+      "찢어진 셔츠를 봄": "찢어진 불운과 비참한",
+      "더러워진 셔츠를 봄": "더러워진 전염병이 닥칠"
+    },
+    "contexts_en": {
+      "셔츠를 입음": "putting estrange faithless",
+      "셔츠를 잃어버림": "lose disgrace business",
+      "찢어진 셔츠를 봄": "torn misfortune miserable",
+      "더러워진 셔츠를 봄": "soiled contagious diseases"
+    }
+  },
+  {
+    "id": "shirt-studs",
+    "aliases": [
+      "셔츠 장식 단추",
+      "커프스단추",
+      "소맷단추",
+      "장식 단추"
+    ],
+    "aliases_en": [
+      "shirt-studs"
+    ],
+    "contexts": {
+      "셔츠 장식 단추 꿈을 꿈": "자존심을 다독이려 성공할",
+      "다이아몬드 장식 단추 중 가운데 것이 가장 큼": "다이아몬드 가운데 마음맞는"
+    },
+    "contexts_en": {
+      "셔츠 장식 단추 꿈을 꿈": "struggle humor pride",
+      "다이아몬드 장식 단추 중 가운데 것이 가장 큼": "diamonds center congenial"
+    }
+  },
+  {
+    "id": "shoemaker",
+    "aliases": [
+      "구두장이",
+      "제화공",
+      "구두장이인",
+      "구두장이가"
+    ],
+    "aliases_en": [
+      "a shoemaker",
+      "shoemaker"
+    ],
+    "contexts": {
+      "구두장이를 봄": "출세에 불리한",
+      "여성이 남편이나 애인이 구두장이인 꿈을 꿈": "남편 애인 능력을"
+    },
+    "contexts_en": {
+      "구두장이를 봄": "unfavorable advancement",
+      "여성이 남편이나 애인이 구두장이인 꿈을 꿈": "husband lover competency"
+    }
+  }
+]
