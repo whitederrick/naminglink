@@ -169,6 +169,7 @@
     "m248.json",
     "m249.json",
     "m25.json",
+    "m250.json",
     "m26.json",
     "m27a.json",
     "m27b.json",
@@ -11336,6 +11337,239 @@
         }
       ],
       "label_ko": "산(山)"
+    },
+    {
+      "id": "snow",
+      "term_ko": "눈",
+      "term_en": "snow",
+      "aliases": [
+        "함박눈",
+        "폭설",
+        "눈보라",
+        "눈발",
+        "눈싸움"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "눈을 봄",
+          "interpretation_ko": "실제 불행은 없으나 병이 있는 듯 보이고 사업이 순탄치 않을 조짐",
+          "interpretation_en": "denotes that while you have no real misfortune, there will be the appearance of illness, and unsatisfactory enterprises",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snow",
+              "original": "To see snow in your dreams, denotes that while you have no real misfortune, there will be the appearance of illness, and unsatisfactory enterprises.",
+              "translation_ko": "눈을 보는 꿈은, 실제 불행은 없으나 병이 있는 듯 보이고 사업이 순탄치 않을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "눈보라 속에 있음",
+          "interpretation_ko": "오래 기다리던 즐거움을 놓쳐 슬프고 실망할 조짐. 이 꿈 뒤에는 늘 얼마간 낙담이 따름",
+          "interpretation_en": "denotes sorrow and disappointment in failure to enjoy some long-expected pleasure. There always follows more or less discouragement after this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snow",
+              "original": "To find yourself in a snow storm, denotes sorrow and disappointment in failure to enjoy some long-expected pleasure. There always follows more or less discouragement after this dream.",
+              "translation_ko": "눈보라 속에 있는 꿈은, 오래 기다리던 즐거움을 놓쳐 슬프고 실망할 조짐이다. 이 꿈 뒤에는 늘 얼마간 낙담이 따른다"
+            }
+          ]
+        },
+        {
+          "context": "눈을 먹음",
+          "interpretation_ko": "품은 이상을 이루지 못할 조짐",
+          "interpretation_en": "you will fail to realize ideals",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snow",
+              "original": "If you eat snow, you will fail to realize ideals.",
+              "translation_ko": "눈을 먹는 꿈은, 품은 이상을 이루지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "더러운 눈을 봄",
+          "interpretation_ko": "자존심이 꺾여, 오만하게 얕보던 사람과 화해를 구하게 될 조짐",
+          "interpretation_en": "foretells that your pride will be humbled, and you will seek reconciliation with some person whom you held in haughty contempt",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snow",
+              "original": "To see dirty snow, foretells that your pride will be humbled, and you will seek reconciliation with some person whom you held in haughty contempt.",
+              "translation_ko": "더러운 눈을 보는 꿈은, 자존심이 꺾여 오만하게 얕보던 사람과 화해를 구하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "눈이 녹는 것을 봄",
+          "interpretation_ko": "두려움이 기쁨으로 바뀔 조짐",
+          "interpretation_en": "your fears will turn into joy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snow",
+              "original": "To see it melt, your fears will turn into joy.",
+              "translation_ko": "눈이 녹는 것을 보는 꿈은, 두려움이 기쁨으로 바뀔 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "창문으로 함박눈이 내리는 것을 봄",
+          "interpretation_ko": "연인과 격한 언쟁이 있고, 재정난으로 소원함이 더 커질 조짐",
+          "interpretation_en": "foretells that you will have an angry interview with your sweetheart, and the estrangement will be aggravated by financial depression",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snow",
+              "original": "To see large, white snowflakes falling while looking through a window, foretells that you will have an angry interview with your sweetheart, and the estrangement will be aggravated by financial depression.",
+              "translation_ko": "창문으로 함박눈이 내리는 것을 보는 꿈은, 연인과 격한 언쟁이 있고 재정난으로 소원함이 더 커질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "멀리 눈 덮인 산을 봄",
+          "interpretation_ko": "바람과 야심이 값진 발전을 가져오지 못할 것이라는 경고",
+          "interpretation_en": "warns you that your longings and ambitions will bring no worthy advancement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snow",
+              "original": "To see snow-capped mountains in the distance, warns you that your longings and ambitions will bring no worthy advancement.",
+              "translation_ko": "멀리 눈 덮인 산을 보는 꿈은, 바람과 야심이 값진 발전을 가져오지 못할 것이라는 경고이다"
+            }
+          ]
+        },
+        {
+          "context": "눈 덮인 풍경 사이로 해가 비침",
+          "interpretation_ko": "역경을 이겨내고 스스로 힘을 갖게 될 조짐",
+          "interpretation_en": "foretells that you will conquer adverse fortune and possess yourself of power",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snow",
+              "original": "To see the sun shining through landscapes of snow, foretells that you will conquer adverse fortune and possess yourself of power.",
+              "translation_ko": "눈 덮인 풍경 사이로 해가 비치는 꿈은, 역경을 이겨내고 스스로 힘을 갖게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "눈싸움을 함",
+          "interpretation_ko": "떳떳지 못한 일로 씨름하게 되고, 판단이 미덥지 못하면 낭패를 볼 조짐",
+          "interpretation_en": "denotes that you will have to struggle with dishonorable issues, and if your judgment is not well grounded, you will suffer defeat",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snow",
+              "original": "To dream of snowballing, denotes that you will have to struggle with dishonorable issues, and if your judgment is not well grounded, you will suffer defeat.",
+              "translation_ko": "눈싸움을 하는 꿈은, 떳떳지 못한 일로 씨름하게 되고 판단이 미덥지 못하면 낭패를 볼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "눈에 갇히거나 길을 잃음",
+          "interpretation_ko": "끊임없이 불운이 밀려들 조짐",
+          "interpretation_en": "there will be constant waves of ill luck breaking in upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snow",
+              "original": "If snowbound or lost, there will be constant waves of ill luck breaking in upon you.",
+              "translation_ko": "눈에 갇히거나 길을 잃는 꿈은, 끊임없이 불운이 밀려들 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "눈이 내림",
+          "interpretation_ko": "하는 일이 이루어지지 않을 조짐",
+          "interpretation_en": "a sign that one's undertakings will fail",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "霜雪降主事不成",
+              "translation_ko": "서리와 눈이 내리면 일이 이루어지지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "눈이 때맞추어 내림",
+          "interpretation_ko": "크게 길하고 이로울 조짐",
+          "interpretation_en": "a sign of great fortune and benefit",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "雪下及時大吉利",
+              "translation_ko": "눈이 때맞추어 내리면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "눈이 몸 위에 내려 쌓임",
+          "interpretation_ko": "온갖 일이 이루어질 조짐",
+          "interpretation_en": "a sign that all things will succeed",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "雪落身上萬事成",
+              "translation_ko": "눈이 몸 위에 내리면 만사가 이루어진다"
+            }
+          ]
+        },
+        {
+          "context": "눈이 몸에 묻지 않음",
+          "interpretation_ko": "상복을 입게 될 조짐",
+          "interpretation_en": "a sign of wearing mourning clothes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "雪不沾身主孝服",
+              "translation_ko": "눈이 몸에 묻지 않으면 상복을 입는다"
+            }
+          ]
+        },
+        {
+          "context": "눈이 집 뜰에 내림",
+          "interpretation_ko": "상을 당할 조짐",
+          "interpretation_en": "a sign of a death in the family",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "雪落家庭主喪事",
+              "translation_ko": "눈이 집 뜰에 내리면 상사가 생긴다"
+            }
+          ]
+        }
+      ],
+      "label_ko": "눈(雪)"
     },
     {
       "id": "tree",
@@ -49282,97 +49516,6 @@
       ]
     },
     {
-      "id": "snow",
-      "term_ko": "눈",
-      "term_en": "snow",
-      "aliases": [
-        "함박눈",
-        "폭설",
-        "눈보라",
-        "눈발"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "눈이 내림",
-          "interpretation_ko": "하는 일이 이루어지지 않을 조짐",
-          "interpretation_en": "a sign that one's undertakings will fail",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "霜雪降主事不成",
-              "translation_ko": "서리와 눈이 내리면 일이 이루어지지 않는다"
-            }
-          ]
-        },
-        {
-          "context": "눈이 때맞추어 내림",
-          "interpretation_ko": "크게 길하고 이로울 조짐",
-          "interpretation_en": "a sign of great fortune and benefit",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "雪下及時大吉利",
-              "translation_ko": "눈이 때맞추어 내리면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "눈이 몸 위에 내려 쌓임",
-          "interpretation_ko": "온갖 일이 이루어질 조짐",
-          "interpretation_en": "a sign that all things will succeed",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "雪落身上萬事成",
-              "translation_ko": "눈이 몸 위에 내리면 만사가 이루어진다"
-            }
-          ]
-        },
-        {
-          "context": "눈이 몸에 묻지 않음",
-          "interpretation_ko": "상복을 입게 될 조짐",
-          "interpretation_en": "a sign of wearing mourning clothes",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "雪不沾身主孝服",
-              "translation_ko": "눈이 몸에 묻지 않으면 상복을 입는다"
-            }
-          ]
-        },
-        {
-          "context": "눈이 집 뜰에 내림",
-          "interpretation_ko": "상을 당할 조짐",
-          "interpretation_en": "a sign of a death in the family",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "雪落家庭主喪事",
-              "translation_ko": "눈이 집 뜰에 내리면 상사가 생긴다"
-            }
-          ]
-        }
-      ],
-      "label_ko": "눈(雪)"
-    },
-    {
       "id": "soil",
       "term_ko": "흙",
       "term_en": "soil",
@@ -80130,6 +80273,66 @@
       ]
     },
     {
+      "id": "sleigh",
+      "term_ko": "썰매",
+      "term_en": "sleigh",
+      "aliases": [
+        "썰매를",
+        "썰매가"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "썰매를 봄",
+          "interpretation_ko": "연애에 실패하고 벗의 불쾌감을 살 조짐",
+          "interpretation_en": "foretells you will fail in some love adventure, and incur the displeasure of a friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sleigh",
+              "original": "To see a sleigh in your dreams, foretells you will fail in some love adventure, and incur the displeasure of a friend.",
+              "translation_ko": "썰매를 보는 꿈은, 연애에 실패하고 벗의 불쾌감을 살 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "썰매를 탐",
+          "interpretation_ko": "경솔한 약속을 맺게 될 조짐",
+          "interpretation_en": "foretells injudicious engagements will be entered into by you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sleigh",
+              "original": "To ride in one, foretells injudicious engagements will be entered into by you.",
+              "translation_ko": "썰매를 타는 꿈은, 경솔한 약속을 맺게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 썰매를 타는 꿈을 꿈",
+          "interpretation_ko": "연인 선택에 큰 반대에 부딪히고, 행실이 큰 눈총을 살 조짐",
+          "interpretation_en": "she will find much opposition to her choice of a lover, and her conduct will cause her much ill-favor",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snow",
+              "original": "For a young woman to dream of sleighing, she will find much opposition to her choice of a lover, and her conduct will cause her much ill-favor.",
+              "translation_ko": "여성이 썰매를 타는 꿈은, 연인 선택에 큰 반대에 부딪히고 행실이 큰 눈총을 살 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "slope",
       "term_ko": "언덕",
       "term_en": "slope",
@@ -80192,6 +80395,68 @@
               "locator": "Hills",
               "original": "but if you fall back, you will have much envy and contrariness to fight against.",
               "translation_ko": "오르다 미끄러져 내려오면, 시샘과 어깃장에 맞서 싸워야 한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smoke",
+      "term_ko": "연기",
+      "term_en": "smoke",
+      "aliases": [
+        "매연",
+        "연기에",
+        "연기를"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "연기 꿈을 꿈",
+          "interpretation_ko": "의심과 두려움으로 혼란스러울 조짐",
+          "interpretation_en": "foretells that you will be perplexed with doubts and fears",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Smoke",
+              "original": "To dream of smoke, foretells that you will be perplexed with doubts and fears.",
+              "translation_ko": "연기 꿈은, 의심과 두려움으로 혼란스러울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "연기에 휩싸임",
+          "interpretation_ko": "위험한 이들이 아첨으로 자신을 이용하고 있다는 조짐",
+          "interpretation_en": "denotes that dangerous persons are victimizing you with flattery",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Smoke",
+              "original": "To be overcome with smoke, denotes that dangerous persons are victimizing you with flattery.",
+              "translation_ko": "연기에 휩싸이는 꿈은, 위험한 이들이 아첨으로 자신을 이용하고 있다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "불 연기가 검음",
+          "interpretation_ko": "질병이 있을 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "火煙黑色主疾病",
+              "translation_ko": "불 연기가 검으면 질병이 있을 조짐이다"
             }
           ]
         }
@@ -107086,52 +107351,6 @@
       ]
     },
     {
-      "id": "sleigh",
-      "term_ko": "썰매",
-      "term_en": "sleigh",
-      "aliases": [
-        "썰매를",
-        "썰매가"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "썰매를 봄",
-          "interpretation_ko": "연애에 실패하고 벗의 불쾌감을 살 조짐",
-          "interpretation_en": "foretells you will fail in some love adventure, and incur the displeasure of a friend",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Sleigh",
-              "original": "To see a sleigh in your dreams, foretells you will fail in some love adventure, and incur the displeasure of a friend.",
-              "translation_ko": "썰매를 보는 꿈은, 연애에 실패하고 벗의 불쾌감을 살 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "썰매를 탐",
-          "interpretation_ko": "경솔한 약속을 맺게 될 조짐",
-          "interpretation_en": "foretells injudicious engagements will be entered into by you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Sleigh",
-              "original": "To ride in one, foretells injudicious engagements will be entered into by you.",
-              "translation_ko": "썰매를 타는 꿈은, 경솔한 약속을 맺게 될 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "sliding",
       "term_ko": "미끄러지기",
       "term_en": "sliding",
@@ -107172,6 +107391,98 @@
               "locator": "Sliding",
               "original": "To slide down a hillside covered with green grass, foretells that you will be deceived into ruin by flattering promises.",
               "translation_ko": "푸른 잔디로 덮인 언덕을 미끄러져 내려가는 꿈은, 듣기 좋은 약속에 속아 파멸에 이를 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snail",
+      "term_ko": "달팽이",
+      "term_en": "snail",
+      "aliases": [
+        "달팽이가",
+        "달팽이를"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "달팽이가 기어감",
+          "interpretation_ko": "건강에 해로운 상황이 자신을 둘러싸고 있다는 조짐",
+          "interpretation_en": "signifies that unhealthful conditions surround you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snail",
+              "original": "Snails crawling in your dream, signifies that unhealthful conditions surround you.",
+              "translation_ko": "달팽이가 기어가는 꿈은, 건강에 해로운 상황이 자신을 둘러싸고 있다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "달팽이를 밟음",
+          "interpretation_ko": "탐탁잖은 사람들과 부대끼게 될 조짐",
+          "interpretation_en": "denotes that you will come in contact with disagreeable people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snail",
+              "original": "To step on them, denotes that you will come in contact with disagreeable people.",
+              "translation_ko": "달팽이를 밟는 꿈은, 탐탁잖은 사람들과 부대끼게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sneeze",
+      "term_ko": "재채기",
+      "term_en": "sneeze",
+      "aliases": [
+        "재채기를",
+        "재채기하는"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "재채기를 함",
+          "interpretation_ko": "다급한 소식으로 계획을 바꾸게 될 조짐",
+          "interpretation_en": "denotes that hasty tidings will cause you to change your plans",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sneeze",
+              "original": "To dream that you sneeze, denotes that hasty tidings will cause you to change your plans.",
+              "translation_ko": "재채기를 하는 꿈은, 다급한 소식으로 계획을 바꾸게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 재채기하는 것을 보거나 들음",
+          "interpretation_ko": "귀찮게 찾아오는 이들에게 시달릴 조짐",
+          "interpretation_en": "some people will bore you with visits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sneeze",
+              "original": "To see or hear others sneeze, some people will bore you with visits.",
+              "translation_ko": "남이 재채기하는 것을 보거나 듣는 꿈은, 귀찮게 찾아오는 이들에게 시달릴 조짐이다"
             }
           ]
         }
@@ -120197,31 +120508,64 @@
       ]
     },
     {
-      "id": "smoke",
-      "term_ko": "연기",
-      "term_en": "smoke",
+      "id": "smallpox",
+      "term_ko": "천연두",
+      "term_en": "smallpox",
       "aliases": [
-        "매연"
+        "천연두에",
+        "천연두가"
       ],
-      "category": "nature",
+      "category": "body",
       "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "불 연기가 검음",
-          "interpretation_ko": "질병이 있을 조짐",
-          "interpretation_en": "a sign of illness",
+          "context": "천연두에 걸린 사람들을 봄",
+          "interpretation_ko": "뜻밖의 충격적인 병과 전염의 조짐. 계획한 일을 이루는 데 실패할 것",
+          "interpretation_en": "denotes unexpected and shocking sickness, and probably contagion. You will meet failure in accomplishing your designs",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "火煙黑色主疾病",
-              "translation_ko": "불 연기가 검으면 질병이 있을 조짐이다"
+              "work": "miller",
+              "locator": "Smallpox",
+              "original": "To see people with smallpox in your dream, denotes unexpected and shocking sickness, and probably contagion. You will meet failure in accomplishing your designs.",
+              "translation_ko": "천연두에 걸린 사람들을 보는 꿈은, 뜻밖의 충격적인 병과 전염의 조짐이다. 계획한 일을 이루는 데 실패할 것이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snouts",
+      "term_ko": "주둥이",
+      "term_en": "snouts",
+      "aliases": [
+        "주둥이",
+        "코끝"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "동물의 주둥이 꿈을 꿈",
+          "interpretation_ko": "위험한 시기가 다가옴을 예고하는 조짐. 적이 둘러싸고 어려움이 잦을 것",
+          "interpretation_en": "foretells dangerous seasons for you. Enemies are surrounding you, and difficulties will be numerous",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Snouts",
+              "original": "To dream of snouts, foretells dangerous seasons for you. Enemies are surrounding you, and difficulties will be numerous.",
+              "translation_ko": "동물의 주둥이 꿈은, 위험한 시기가 다가옴을 예고하는 조짐이다. 적이 둘러싸고 어려움이 잦을 것이다"
             }
           ]
         }

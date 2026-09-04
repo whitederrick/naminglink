@@ -925,7 +925,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "childbirth"
   ],
   "river-snail": [
-    "snail",
     "river snails",
     "freshwater snail"
   ],
@@ -7563,5 +7562,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "sliding": [
     "sliding",
     "slide down"
+  ],
+  "smallpox": [
+    "smallpox"
+  ],
+  "snail": [
+    "snails",
+    "a snail"
+  ],
+  "sneeze": [
+    "sneeze",
+    "sneezing"
+  ],
+  "snouts": [
+    "snouts"
   ]
 };

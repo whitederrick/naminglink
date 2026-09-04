@@ -313,7 +313,8 @@
       "함박눈",
       "폭설",
       "눈보라",
-      "눈발"
+      "눈발",
+      "눈싸움"
     ],
     "aliases_en": [
       "snowing",
@@ -327,14 +328,34 @@
       "눈이 때맞추어 내림": "때맞 제때 알맞",
       "눈이 몸 위에 내려 쌓임": "쌓였 쌓이 어깨 온몸 뒤덮",
       "눈이 몸에 묻지 않음": "묻지 스쳐 비껴 녹아",
-      "눈이 집 뜰에 내림": "뜰에 뜰이 마당 정원"
+      "눈이 집 뜰에 내림": "뜰에 뜰이 마당 정원",
+      "눈을 봄": "실제 불행은 병이 있음",
+      "눈보라 속에 있음": "속에 있는 오래 기다리던",
+      "눈을 먹음": "먹는 먹었다 이상을",
+      "더러운 눈을 봄": "더러운 자존심이 화해를",
+      "눈이 녹는 것을 봄": "녹는 것을 두려움이 기쁨으로",
+      "창문으로 함박눈이 내리는 것을 봄": "창문으로 내리는 언쟁이",
+      "멀리 눈 덮인 산을 봄": "덮인 산을 바람과 야심",
+      "눈 덮인 풍경 사이로 해가 비침": "풍경 사이로 해가 역경을",
+      "눈싸움을 함": "눈싸움을 씨름하게 판단이",
+      "눈에 갇히거나 길을 잃음": "갇혔다 길을 잃는 불운이"
     },
     "contexts_en": {
       "눈이 내림": "heavily thickly",
       "눈이 때맞추어 내림": "timely season proper",
       "눈이 몸 위에 내려 쌓임": "piled shoulders accumulated covered",
       "눈이 몸에 묻지 않음": "stick touch melted brushed",
-      "눈이 집 뜰에 내림": "yard garden courtyard"
+      "눈이 집 뜰에 내림": "yard garden courtyard",
+      "눈을 봄": "misfortune illness enterprises",
+      "눈보라 속에 있음": "trapped sorrow disappointment",
+      "눈을 먹음": "consume ideals realize",
+      "더러운 눈을 봄": "dirty pride humbled",
+      "눈이 녹는 것을 봄": "fears turn joy",
+      "창문으로 함박눈이 내리는 것을 봄": "window angry estrangement",
+      "멀리 눈 덮인 산을 봄": "capped mountains longings",
+      "눈 덮인 풍경 사이로 해가 비침": "sunshine landscapes conquer",
+      "눈싸움을 함": "snowballing dishonorable defeat",
+      "눈에 갇히거나 길을 잃음": "snowbound lost luck"
     }
   },
   {
@@ -1152,14 +1173,24 @@
   {
     "id": "smoke",
     "aliases": [
-      "매연"
+      "매연",
+      "연기에",
+      "연기를"
     ],
     "aliases_en": [
       "fumes",
       "smoky"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "불 연기가 검음": "검었다 검게 검다",
+      "연기 꿈을 꿈": "의심과 두려움으로",
+      "연기에 휩싸임": "휩싸였다 위험한 아첨으로"
+    },
+    "contexts_en": {
+      "불 연기가 검음": "black dark",
+      "연기 꿈을 꿈": "perplexed doubts fears",
+      "연기에 휩싸임": "overcome dangerous flattery"
+    }
   },
   {
     "id": "taking-one-s-own-life",

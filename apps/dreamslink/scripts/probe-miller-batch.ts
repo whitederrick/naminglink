@@ -1,7 +1,7 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 249 — Slaughter-house·Sleep·Sleigh·Sliding, 기존 calumny(중상모략)·
-// being-humiliated(모욕당함)·shoes(신발)에 각 붙임. Sky는 기존 상징이 이미 문맥 15개 넘는
-// 거대 상징이라 boat/horse와 같은 이유로 건너뜀)
+// (지금 담긴 것: 배치 250 — Smallpox·Snail·Sneeze·Snouts, 기존 smoke(연기)·snow(눈)·
+// sleigh(썰매)에 각 붙임. Snakes는 기존 snake가 이미 문맥 16개인 거대 상징이라
+// 건너뜀. river-snail이 쥐고 있던 EN 별칭 "snail"을 새 snail에 넘겼다)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -32,25 +32,29 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "calumny", ctx: "남을 비방함", text: "남을 비방했다" },
-  { id: "slaughter-house", ctx: "도살장 꿈을 꿈", text: "도살장 꿈을 꾸었다" },
-  { id: "sleep", ctx: "깨끗하고 산뜻한 잠자리에서 잠", text: "깨끗하고 산뜻한 잠자리에서 잠들었다" },
-  { id: "sleep", ctx: "부자연스러운 곳에서 잠", text: "부자연스러운 곳에서 잠들었다" },
-  { id: "sleep", ctx: "어린아이 곁에서 잠", text: "어린아이 곁에서 잠들었다" },
-  { id: "sleep", ctx: "남이 잠자는 것을 봄", text: "남이 잠자는 것을 보았다" },
-  { id: "sleep", ctx: "혐오스러운 사람이나 물건과 함께 잠", text: "혐오스러운 사람과 함께 잠들었다" },
-  { id: "sleep", ctx: "여성이 애인이나 매혹적인 것과 함께 자는 꿈을 꿈", text: "여성이 애인이나 매혹적인 것과 함께 자는 꿈을 꾸었다" },
-  { id: "sleigh", ctx: "썰매를 봄", text: "썰매를 보았다" },
+  { id: "smallpox", ctx: "천연두에 걸린 사람들을 봄", text: "천연두에 걸린 사람들을 보았다" },
+  { id: "smoke", ctx: "연기 꿈을 꿈", text: "연기 꿈을 꾸었다" },
+  { id: "smoke", ctx: "연기에 휩싸임", text: "연기에 휩싸였다" },
+  { id: "snail", ctx: "달팽이가 기어감", text: "달팽이가 기어갔다" },
+  { id: "snail", ctx: "달팽이를 밟음", text: "달팽이를 밟았다" },
+  { id: "sneeze", ctx: "재채기를 함", text: "재채기를 했다" },
+  { id: "sneeze", ctx: "남이 재채기하는 것을 보거나 들음", text: "남이 재채기하는 것을 들었다" },
+  { id: "snouts", ctx: "동물의 주둥이 꿈을 꿈", text: "동물의 주둥이 꿈을 꾸었다" },
+  { id: "snow", ctx: "눈을 봄", text: "눈을 보았다" },
+  { id: "snow", ctx: "눈보라 속에 있음", text: "눈보라 속에 있었다" },
+  { id: "snow", ctx: "눈을 먹음", text: "눈을 먹었다" },
+  { id: "snow", ctx: "더러운 눈을 봄", text: "더러운 눈을 보았다" },
+  { id: "snow", ctx: "눈이 녹는 것을 봄", text: "눈이 녹는 것을 보았다" },
+  { id: "snow", ctx: "창문으로 함박눈이 내리는 것을 봄", text: "창문으로 함박눈이 내리는 것을 보았다" },
+  { id: "snow", ctx: "멀리 눈 덮인 산을 봄", text: "멀리 눈 덮인 산을 보았다" },
+  { id: "snow", ctx: "눈 덮인 풍경 사이로 해가 비침", text: "눈 덮인 풍경 사이로 해가 비쳤다" },
+  { id: "snow", ctx: "눈싸움을 함", text: "눈싸움을 했다" },
+  { id: "snow", ctx: "눈에 갇히거나 길을 잃음", text: "눈에 갇혔다" },
+  { id: "sleigh", ctx: "여성이 썰매를 타는 꿈을 꿈", text: "여성이 썰매를 타는 꿈을 꾸었다" },
+  // 지킴 — 이번에 손댄 기존 상징(smoke·snow·sleigh)의 옛 답이 그대로인가
+  { id: "smoke", ctx: "불 연기가 검음", text: "불 연기가 검었다" },
+  { id: "snow", ctx: "눈이 내림", text: "눈이 펑펑 내렸다" },
   { id: "sleigh", ctx: "썰매를 탐", text: "썰매를 탔다" },
-  { id: "sliding", ctx: "미끄러지는 꿈을 꿈", text: "미끄러지는 꿈을 꾸었다" },
-  { id: "sliding", ctx: "푸른 잔디로 덮인 언덕을 미끄러져 내려감", text: "푸른 잔디로 덮인 언덕을 미끄러져 내려갔다" },
-  { id: "being-humiliated", ctx: "남을 무시하거나 소홀히 대함", text: "남을 무시하거나 소홀히 대했다" },
-  { id: "shoes", ctx: "슬리퍼 꿈을 꿈", text: "슬리퍼 꿈을 꾸었다" },
-  { id: "shoes", ctx: "슬리퍼를 남들이 크게 칭찬함", text: "슬리퍼를 남들이 크게 칭찬했다" },
-  // 지킴 — 이번에 손댄 기존 상징(calumny·being-humiliated·shoes)의 옛 답이 그대로인가
-  { id: "calumny", ctx: "내가 중상모략의 대상이 됨", text: "내가 중상모략의 대상이 되었다" },
-  { id: "being-humiliated", ctx: "남에게 천대를 받음", text: "남에게 천대를 받았다" },
-  { id: "shoes", ctx: "신을 얻음", text: "신을 얻었다" },
 ];
 
 let notFound = 0;

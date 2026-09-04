@@ -1,0 +1,64 @@
+[
+  {
+    "id": "smallpox",
+    "aliases": [
+      "천연두에",
+      "천연두가"
+    ],
+    "aliases_en": [
+      "smallpox"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "snail",
+    "aliases": [
+      "달팽이가",
+      "달팽이를"
+    ],
+    "aliases_en": [
+      "snails",
+      "a snail"
+    ],
+    "contexts": {
+      "달팽이가 기어감": "기어가는 건강에 해로운",
+      "달팽이를 밟음": "밟는 밟았다 탐탁잖은"
+    },
+    "contexts_en": {
+      "달팽이가 기어감": "crawling unhealthful conditions",
+      "달팽이를 밟음": "step disagreeable contact"
+    }
+  },
+  {
+    "id": "sneeze",
+    "aliases": [
+      "재채기를",
+      "재채기하는"
+    ],
+    "aliases_en": [
+      "sneeze",
+      "sneezing"
+    ],
+    "contexts": {
+      "재채기를 함": "다급한 소식으로 계획을",
+      "남이 재채기하는 것을 보거나 들음": "남이 귀찮게 찾아오는"
+    },
+    "contexts_en": {
+      "재채기를 함": "hasty tidings plans",
+      "남이 재채기하는 것을 보거나 들음": "others bore visits"
+    }
+  },
+  {
+    "id": "snouts",
+    "aliases": [
+      "주둥이",
+      "코끝"
+    ],
+    "aliases_en": [
+      "snouts"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

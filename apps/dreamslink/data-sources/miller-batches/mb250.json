@@ -1,0 +1,43 @@
+{
+  "batch": 250,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Smallpox",
+      "text": "To see people with smallpox in your dream, denotes unexpected and shocking sickness, and probably contagion. You will meet failure in accomplishing your designs.",
+      "note": "새 상징 `smallpox`(천연두) — 한 그림"
+    },
+    {
+      "headword": "Smoke",
+      "text": "To dream of smoke, foretells that you will be perplexed with doubts and fears. To be overcome with smoke, denotes that dangerous persons are victimizing you with flattery.",
+      "note": "새 상징 `smoke`(연기) — 두 그림"
+    },
+    {
+      "headword": "Snail",
+      "text": "Snails crawling in your dream, signifies that unhealthful conditions surround you. To step on them, denotes that you will come in contact with disagreeable people.",
+      "note": "새 상징 `snail`(달팽이) — 두 그림"
+    },
+    {
+      "headword": "Sneeze",
+      "text": "To dream that you sneeze, denotes that hasty tidings will cause you to change your plans. To see or hear others sneeze, some people will bore you with visits.",
+      "note": "새 상징 `sneeze`(재채기) — 두 그림"
+    },
+    {
+      "headword": "Snouts",
+      "text": "To dream of snouts, foretells dangerous seasons for you. Enemies are surrounding you, and difficulties will be numerous.",
+      "note": "새 상징 `snouts`(주둥이) — 한 그림"
+    },
+    {
+      "headword": "Snow",
+      "text": "To see snow in your dreams, denotes that while you have no real misfortune, there will be the appearance of illness, and unsatisfactory enterprises. To find yourself in a snow storm, denotes sorrow and disappointment in failure to enjoy some long-expected pleasure. There always follows more or less discouragement after this dream. If you eat snow, you will fail to realize ideals. To see dirty snow, foretells that your pride will be humbled, and you will seek reconciliation with some person whom you held in haughty contempt. To see it melt, your fears will turn into joy. To see large, white snowflakes falling while looking through a window, foretells that you will have an angry interview with your sweetheart, and the estrangement will be aggravated by financial depression. To see snow-capped mountains in the distance, warns you that your longings and ambitions will bring no worthy advancement. To see the sun shining through landscapes of snow, foretells that you will conquer adverse fortune and possess yourself of power. To dream of snowballing, denotes that you will have to struggle with dishonorable issues, and if your judgment is not well grounded, you will suffer defeat. If snowbound or lost, there will be constant waves of ill luck breaking in upon you.",
+      "note": "기존 `snow`(눈)에 붙임 — 아홉 그림. 「젊은 여성이 썰매 타는 꿈」 문장은 sleigh(썰매)로 보냄"
+    },
+    {
+      "headword": "Snow-sleighing",
+      "text": "For a young woman to dream of sleighing, she will find much opposition to her choice of a lover, and her conduct will cause her much ill-favor.",
+      "note": "기존 `sleigh`(썰매)에 붙임 — 한 그림(Snow 표제어 속 문장)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}
