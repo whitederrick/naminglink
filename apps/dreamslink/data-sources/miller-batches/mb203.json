@@ -1,0 +1,28 @@
+{
+  "batch": 203,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Quilts",
+      "text": "To dream of quilts, foretells pleasant and comfortable circumstances. For a young woman, this dream foretells that her practical and wise business-like ways will advance her into the favorable esteem of a man who will seek her for a wife. If the quilts are clean, but having holes in them, she will win a husband who appreciates her worth, but he will not be the one most desired by her for a companion. If the quilts are soiled, she will bear evidence of carelessness in her dress and manners, and thus fail to secure a very upright husband.",
+      "note": "기존 상징 `quilt`(솜이불)에 더한다 — \"quilts\"가 이미 그 영어 별칭이다. 지금까지 의미가 하나도 없었다"
+    },
+    {
+      "headword": "Quinine",
+      "text": "To dream of quinine, denotes you will soon be possessed of great happiness, though your prospects for much wealth may be meager. To take some, foretells improvement in health and energy. You will also make new friends, who will lend you commercial aid.",
+      "note": "새 상징 `quinine`(키니네)"
+    },
+    {
+      "headword": "Quinsy",
+      "text": "To dream of being afflicted with this disease, denotes discouraging employments. To see others with it, sickness will cause you much anxiety.",
+      "note": "새 상징 `quinsy`(편도염)"
+    },
+    {
+      "headword": "Quoits",
+      "text": "To play at quoits in dreams, foretells low engagements and loss of good employment. To lose, portends of distressing conditions.",
+      "note": "새 상징 `quoits`(콰이츠 던지기). Q장이 여기서 끝난다 — 다음은 R장 Rabbit부터"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

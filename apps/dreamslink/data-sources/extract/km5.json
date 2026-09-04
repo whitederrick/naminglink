@@ -680,7 +680,13 @@
     "aliases": [
       "침구",
       "금침",
-      "솜이불"
+      "솜이불",
+      "이불을",
+      "이불이",
+      "이불을",
+      "이불이",
+      "이불을",
+      "이불이"
     ],
     "aliases_en": [
       "quilts",
@@ -688,8 +694,20 @@
       "comforter",
       "duvet"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "솜이불 꿈을 꿈": "즐겁고 편안한",
+      "처녀가 솜이불 꿈을 꿈": "처녀가 살림 솜씨",
+      "깨끗하지만 구멍 난 솜이불을 봄": "구멍 값어치",
+      "더러운 솜이불을 봄": "더러운 조심성",
+      "좋은 이불을 스스로 덮음": "이불을 덮었"
+    },
+    "contexts_en": {
+      "솜이불 꿈을 꿈": "pleasant comfortable circumstances",
+      "처녀가 솜이불 꿈을 꿈": "practical business esteem",
+      "깨끗하지만 구멍 난 솜이불을 봄": "holes appreciates worth",
+      "더러운 솜이불을 봄": "soiled carelessness dress",
+      "좋은 이불을 스스로 덮음": "covered yourself warm"
+    }
   },
   {
     "id": "soil",

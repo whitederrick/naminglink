@@ -1,0 +1,56 @@
+[
+  {
+    "id": "quinine",
+    "aliases": [
+      "키니네가",
+      "키니네를"
+    ],
+    "aliases_en": [
+      "quinine"
+    ],
+    "contexts": {
+      "키니네 꿈을 꿈": "행복 재물",
+      "키니네를 먹음": "건강과 기력"
+    },
+    "contexts_en": {
+      "키니네 꿈을 꿈": "great happiness wealth meager",
+      "키니네를 먹음": "improvement health energy"
+    }
+  },
+  {
+    "id": "quinsy",
+    "aliases": [
+      "편도염을",
+      "편도염이"
+    ],
+    "aliases_en": [
+      "quinsy"
+    ],
+    "contexts": {
+      "편도염을 앓음": "힘빠지게",
+      "남이 편도염을 앓는 것을 봄": "남이 근심"
+    },
+    "contexts_en": {
+      "편도염을 앓음": "afflicted discouraging employments",
+      "남이 편도염을 앓는 것을 봄": "others sickness anxiety"
+    }
+  },
+  {
+    "id": "quoits",
+    "aliases": [
+      "콰이츠 던지기를",
+      "콰이츠 던지기에서"
+    ],
+    "aliases_en": [
+      "quoits"
+    ],
+    "contexts": {
+      "콰이츠 던지기를 함": "하찮은 일자리",
+      "콰이츠 던지기에서 짐": "졌다 괴로운"
+    },
+    "contexts_en": {
+      "콰이츠 던지기를 함": "low engagements employment",
+      "콰이츠 던지기에서 짐": "lose distressing conditions"
+    }
+  }
+]

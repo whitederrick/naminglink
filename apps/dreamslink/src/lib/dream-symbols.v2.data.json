@@ -117,6 +117,7 @@
     "m200.json",
     "m201.json",
     "m202.json",
+    "m203.json",
     "m21.json",
     "m22.json",
     "m23.json",
@@ -44841,6 +44842,102 @@
               "locator": "帝王文武呼召",
               "original": "后妃呼召飲有疾",
               "translation_ko": "왕비가 불러 마시게 하면 병이 생긴다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quilt",
+      "term_ko": "솜이불",
+      "term_en": "quilt",
+      "aliases": [
+        "침구",
+        "금침",
+        "솜이불",
+        "이불을",
+        "이불이",
+        "이불을",
+        "이불이",
+        "이불을",
+        "이불이"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "솜이불 꿈을 꿈",
+          "interpretation_ko": "즐겁고 편안한 형편의 조짐",
+          "interpretation_en": "foretells pleasant and comfortable circumstances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quilts",
+              "original": "To dream of quilts, foretells pleasant and comfortable circumstances.",
+              "translation_ko": "솜이불 꿈은, 즐겁고 편안한 형편의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 솜이불 꿈을 꿈",
+          "interpretation_ko": "실속 있고 지혜로운 살림 솜씨로 아내로 맞으려는 이의 호감을 얻을 조짐",
+          "interpretation_en": "this dream foretells that her practical and wise business-like ways will advance her into the favorable esteem of a man who will seek her for a wife",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quilts",
+              "original": "For a young woman, this dream foretells that her practical and wise business-like ways will advance her into the favorable esteem of a man who will seek her for a wife.",
+              "translation_ko": "처녀가 솜이불 꿈을 꾸면, 실속 있고 지혜로운 살림 솜씨로 아내로 맞으려는 이의 호감을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "깨끗하지만 구멍 난 솜이불을 봄",
+          "interpretation_ko": "제 값어치를 알아주는 남편을 얻지만, 가장 바라던 짝은 아닐 조짐",
+          "interpretation_en": "she will win a husband who appreciates her worth, but he will not be the one most desired by her for a companion",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quilts",
+              "original": "If the quilts are clean, but having holes in them, she will win a husband who appreciates her worth, but he will not be the one most desired by her for a companion.",
+              "translation_ko": "깨끗하지만 구멍 난 솜이불을 보는 꿈은, 제 값어치를 알아주는 남편을 얻지만, 가장 바라던 짝은 아닐 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "더러운 솜이불을 봄",
+          "interpretation_ko": "옷차림과 몸가짐이 조심성 없다는 증거가 되어, 훌륭한 남편을 얻는 데 실패할 조짐",
+          "interpretation_en": "she will bear evidence of carelessness in her dress and manners, and thus fail to secure a very upright husband",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quilts",
+              "original": "If the quilts are soiled, she will bear evidence of carelessness in her dress and manners, and thus fail to secure a very upright husband.",
+              "translation_ko": "더러운 솜이불을 보는 꿈은, 옷차림과 몸가짐이 조심성 없다는 증거가 되어, 훌륭한 남편을 얻는 데 실패할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "좋은 이불을 스스로 덮음",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "好被自蓋主大吉",
+              "translation_ko": "좋은 이불을 스스로 덮으면 크게 길하다"
             }
           ]
         }
@@ -98013,6 +98110,144 @@
       ]
     },
     {
+      "id": "quinine",
+      "term_ko": "키니네",
+      "term_en": "quinine",
+      "aliases": [
+        "키니네가",
+        "키니네를"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "키니네 꿈을 꿈",
+          "interpretation_ko": "머잖아 큰 행복을 누리겠지만, 재물 쪽 전망은 빈약할 조짐",
+          "interpretation_en": "denotes you will soon be possessed of great happiness, though your prospects for much wealth may be meager",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quinine",
+              "original": "To dream of quinine, denotes you will soon be possessed of great happiness, though your prospects for much wealth may be meager.",
+              "translation_ko": "키니네 꿈은, 머잖아 큰 행복을 누리겠지만, 재물 쪽 전망은 빈약할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "키니네를 먹음",
+          "interpretation_ko": "건강과 기력이 나아지고, 사업에 도움 될 새 벗도 사귈 조짐",
+          "interpretation_en": "foretells improvement in health and energy. You will also make new friends, who will lend you commercial aid",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quinine",
+              "original": "To take some, foretells improvement in health and energy. You will also make new friends, who will lend you commercial aid.",
+              "translation_ko": "키니네를 먹는 꿈은, 건강과 기력이 나아지고, 사업에 도움 될 새 벗도 사귈 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quinsy",
+      "term_ko": "편도염",
+      "term_en": "quinsy",
+      "aliases": [
+        "편도염을",
+        "편도염이"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "편도염을 앓음",
+          "interpretation_ko": "일이 힘 빠지게 될 조짐",
+          "interpretation_en": "denotes discouraging employments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quinsy",
+              "original": "To dream of being afflicted with this disease, denotes discouraging employments.",
+              "translation_ko": "편도염을 앓는 꿈은, 일이 힘 빠지게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 편도염을 앓는 것을 봄",
+          "interpretation_ko": "병으로 몹시 근심하게 될 조짐",
+          "interpretation_en": "sickness will cause you much anxiety",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quinsy",
+              "original": "To see others with it, sickness will cause you much anxiety.",
+              "translation_ko": "남이 편도염을 앓는 것을 보는 꿈은, 병으로 몹시 근심하게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quoits",
+      "term_ko": "콰이츠 던지기",
+      "term_en": "quoits",
+      "aliases": [
+        "콰이츠 던지기를",
+        "콰이츠 던지기에서"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "콰이츠 던지기를 함",
+          "interpretation_ko": "하찮은 약속과 좋은 일자리를 잃을 조짐",
+          "interpretation_en": "foretells low engagements and loss of good employment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quoits",
+              "original": "To play at quoits in dreams, foretells low engagements and loss of good employment.",
+              "translation_ko": "콰이츠 던지기를 하는 꿈은, 하찮은 약속과 좋은 일자리를 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "콰이츠 던지기에서 짐",
+          "interpretation_ko": "괴로운 처지의 조짐",
+          "interpretation_en": "portends of distressing conditions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quoits",
+              "original": "To lose, portends of distressing conditions.",
+              "translation_ko": "콰이츠 던지기에서 지는 꿈은, 괴로운 처지의 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rainbow",
       "term_ko": "무지개",
       "term_en": "rainbow",
@@ -109909,39 +110144,6 @@
               "locator": "Quarantine",
               "original": "To dream of being in quarantine, denotes that you will be placed in a disagreeable position by the malicious intriguing of enemies.",
               "translation_ko": "검역에 걸리는 꿈은, 원수의 악의적인 술수로 곤란한 처지에 놓일 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "quilt",
-      "term_ko": "이불",
-      "term_en": "quilt",
-      "aliases": [
-        "침구",
-        "금침",
-        "솜이불"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "좋은 이불을 스스로 덮음",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "好被自蓋主大吉",
-              "translation_ko": "좋은 이불을 스스로 덮으면 크게 길하다"
             }
           ]
         }

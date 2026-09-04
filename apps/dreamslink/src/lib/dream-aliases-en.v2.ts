@@ -7030,5 +7030,14 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "quill": [
     "quills",
     "a quill"
+  ],
+  "quinine": [
+    "quinine"
+  ],
+  "quinsy": [
+    "quinsy"
+  ],
+  "quoits": [
+    "quoits"
   ]
 };

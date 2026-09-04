@@ -976,6 +976,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "net::고기 그물을 봄": "numerous small pleasures gains",
   "net::찢어진 그물을 봄": "torn vexatious disappointments",
   "net::그물로 무언가를 옭아 잡음": "ensnaring unscrupulous dealings deportment",
+  "quilt::솜이불 꿈을 꿈": "pleasant comfortable circumstances",
+  "quilt::처녀가 솜이불 꿈을 꿈": "practical business esteem",
+  "quilt::깨끗하지만 구멍 난 솜이불을 봄": "holes appreciates worth",
+  "quilt::더러운 솜이불을 봄": "soiled carelessness dress",
+  "quilt::좋은 이불을 스스로 덮음": "covered yourself warm",
   "soil::몸이 흙 속으로 들어감": "buried sank inside",
   "soil::스스로 흙을 파 가짐": "dug digging took myself",
   "soil::꽃이나 나무 둘레의 갓 파헤친 흙을 봄": "freshly stirred thrift",
@@ -5268,5 +5273,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "quicksand::처녀가 애인에게 유사에서 구조됨": "rescued worthy faithful",
   "quill::깃털펜 꿈을 꿈": "literary inclined season",
   "quill::장식으로 쓰인 깃털펜을 봄": "ornaments rushing trade",
-  "quill::처녀가 모자에 깃털펜을 꽂음": "hat conquests charms"
+  "quill::처녀가 모자에 깃털펜을 꽂음": "hat conquests charms",
+  "quinine::키니네 꿈을 꿈": "great happiness wealth meager",
+  "quinine::키니네를 먹음": "improvement health energy",
+  "quinsy::편도염을 앓음": "afflicted discouraging employments",
+  "quinsy::남이 편도염을 앓는 것을 봄": "others sickness anxiety",
+  "quoits::콰이츠 던지기를 함": "low engagements employment",
+  "quoits::콰이츠 던지기에서 짐": "lose distressing conditions"
 };
