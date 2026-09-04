@@ -659,7 +659,10 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "fireworks": [
     "firework",
-    "firecrackers"
+    "firecrackers",
+    "rocket",
+    "rockets",
+    "roman candles"
   ],
   "fog": [
     "mist",
@@ -7203,5 +7206,17 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "rival": [
     "a rival",
     "rivals"
+  ],
+  "rocking-chair": [
+    "a rocking chair",
+    "rocking chairs"
+  ],
+  "rogue": [
+    "a rogue",
+    "rogues"
+  ],
+  "rogues-gallery": [
+    "a rogue's gallery",
+    "rogues' gallery"
   ]
 };

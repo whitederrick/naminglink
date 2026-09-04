@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 227 — River, 1개 헤드워드)
+// (지금 담긴 것: 배치 228 — Road·Rocks·Rocket·Roman Candle·Rocking-chair·Rogue·Rogue's Gallery)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,14 +30,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "river", ctx: "맑고 잔잔하게 흐르는 강을 봄", text: "맑고 잔잔하게 흐르는 강을 보았다" },
-  { id: "river", ctx: "강물이 흐리고 거칢", text: "강물이 흐리고 거칠었다" },
-  { id: "river", ctx: "강물이 넘쳐 발이 묶임", text: "강물이 넘쳐 발이 묶였다" },
-  { id: "river", ctx: "맑은 강을 항해하다 바닥에 시신을 봄", text: "맑은 강을 항해하다 바닥에 시신을 보았다" },
-  { id: "river", ctx: "메마른 강을 봄", text: "메마른 강을 보았다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(river)의 옛 답이 그대로인가
-  { id: "river", ctx: "강과 바다가 넘쳐 불어남", text: "강과 바다가 넘쳐 불어났다" },
-  { id: "river", ctx: "배를 타고 강을 건넘", text: "배를 타고 강을 건넜다" },
+  { id: "road", ctx: "험한 미지의 길을 감", text: "험하고 미지의 길을 가는 꿈을 꿨다" },
+  { id: "road", ctx: "동행하는 벗과 함께 길을 감", text: "동행하는 벗과 함께 길을 갔다" },
+  { id: "road", ctx: "길을 잃음", text: "길을 잃어버렸다" },
+  { id: "rock", ctx: "바위를 봄", text: "바위를 보았는데 역경과 불화가 있을까 걱정이다" },
+  { id: "fireworks", ctx: "쏘아 올린 불꽃이 하늘로 치솟음", text: "불꽃놀이가 하늘로 치솟는 것을 보았다" },
+  { id: "fireworks", ctx: "쏘아 올린 불꽃이 떨어짐", text: "불꽃놀이가 떨어지는 것을 보았다" },
+  { id: "fireworks", ctx: "화려한 불꽃놀이용 통을 봄", text: "화려한 불꽃놀이를 보았다" },
+  { id: "fireworks", ctx: "쥐고 있던 불꽃놀이용 통이 빈 것을 발견함", text: "쥐고 있던 폭죽이 비어있는 것을 발견했다" },
+  { id: "rocking-chair", ctx: "흔들의자를 봄", text: "흔들의자를 보았다" },
+  { id: "rocking-chair", ctx: "어머니나 아내나 연인이 흔들의자에 앉아 있음", text: "어머니가 흔들의자에 앉아 있었다" },
+  { id: "rocking-chair", ctx: "빈 흔들의자를 봄", text: "흔들의자만 덩그러니 남아 있는 것을 보았다" },
+  { id: "rogue", ctx: "스스로를 무뢰한이라 여기거나 그렇게 보임", text: "스스로를 무뢰한이라 여겼다" },
+  { id: "rogue", ctx: "남편이나 연인이 무뢰한이라 여김", text: "남편이 무뢰한이라 여겼다" },
+  { id: "rogues-gallery", ctx: "수배자 사진첩 안에 있음", text: "수배자 사진첩 안에 있었다" },
+  { id: "rogues-gallery", ctx: "수배자 사진첩에서 본인의 모습을 봄", text: "수배자 사진첩에서 본인의 모습을 보았다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(road·rock·fireworks)의 옛 답이 그대로인가
+  { id: "road", ctx: "사방으로 길이 뚫려 있음", text: "사방으로 길이 뚫려 있었다" },
+  { id: "road", ctx: "풀과 꽃이 늘어선 오솔길을 걸음", text: "풀과 꽃이 늘어선 오솔길을 걸었다" },
+  { id: "rock", ctx: "너럭바위가 편안하고 든든함", text: "너럭바위가 편안하고 든든했다" },
+  { id: "rock", ctx: "바위에 오름", text: "바위에 올랐다" },
+  { id: "fireworks", ctx: "불꽃놀이를 구경함", text: "불꽃놀이를 구경했다" },
 ];
 
 let notFound = 0;

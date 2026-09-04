@@ -1,0 +1,61 @@
+[
+  {
+    "id": "rocking-chair",
+    "aliases": [
+      "흔들의자"
+    ],
+    "aliases_en": [
+      "a rocking chair",
+      "rocking chairs"
+    ],
+    "contexts": {
+      "흔들의자를 봄": "다정한 어울림 어디서든 만족",
+      "어머니나 아내나 연인이 흔들의자에 앉아 있음": "어머니 아내 연인 앉아",
+      "빈 흔들의자를 봄": "덩그러니 사별 소원해"
+    },
+    "contexts_en": {
+      "흔들의자를 봄": "friendly intercourse contentment environment",
+      "어머니나 아내나 연인이 흔들의자에 앉아 있음": "mother wife sweetheart",
+      "빈 흔들의자를 봄": "vacant bereavement estrangement"
+    }
+  },
+  {
+    "id": "rogue",
+    "aliases": [
+      "불한당",
+      "건달",
+      "부랑아"
+    ],
+    "aliases_en": [
+      "a rogue",
+      "rogues"
+    ],
+    "contexts": {
+      "스스로를 무뢰한이라 여기거나 그렇게 보임": "스스로 자신이 저지를 경솔한",
+      "남편이나 연인이 무뢰한이라 여김": "남편 연인 애인 무심"
+    },
+    "contexts_en": {
+      "스스로를 무뢰한이라 여기거나 그렇게 보임": "think yourself indiscretion malady",
+      "남편이나 연인이 무뢰한이라 여김": "husband lover distressed neglect"
+    }
+  },
+  {
+    "id": "rogues-gallery",
+    "aliases": [
+      "범죄자 사진첩",
+      "지명수배 사진"
+    ],
+    "aliases_en": [
+      "a rogue's gallery",
+      "rogues' gallery"
+    ],
+    "contexts": {
+      "수배자 사진첩 안에 있음": "어울리게 알아주지 안에있",
+      "수배자 사진첩에서 본인의 모습을 봄": "본인의 모습을 위압당"
+    },
+    "contexts_en": {
+      "수배자 사진첩 안에 있음": "associated fail appreciate",
+      "수배자 사진첩에서 본인의 모습을 봄": "own picture overawed"
+    }
+  }
+]

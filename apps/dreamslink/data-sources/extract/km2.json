@@ -347,7 +347,10 @@
       "큰길이 무너져 내려앉음": "무너 내려앉 꺼져 갈라져",
       "좁고 험한 길에서 돌부리에 걸려 넘어짐": "돌부리 넘어졌 초조한 흥분",
       "제 길을 찾으려 애씀": "찾으려 해내지 못할",
-      "풀과 꽃이 늘어선 오솔길을 걸음": "풀과 꽃이 늘어선 짐에서 벗어날"
+      "풀과 꽃이 늘어선 오솔길을 걸음": "풀과 꽃이 늘어선 짐에서 벗어날",
+      "험한 미지의 길을 감": "미지의 낯선 처음 가는",
+      "동행하는 벗과 함께 길을 감": "동행 함께간 벗과 친구와",
+      "길을 잃음": "잃어버 잃었다 헤매다 헤매었"
     },
     "contexts_en": {
       "사방으로 길이 뚫려 있음": "directions crossroads everywhere",
@@ -356,7 +359,10 @@
       "큰길이 무너져 내려앉음": "collapsed caved sank crumbled",
       "좁고 험한 길에서 돌부리에 걸려 넘어짐": "narrow rough stumbling adversity",
       "제 길을 찾으려 애씀": "trying find fail accomplish",
-      "풀과 꽃이 늘어선 오솔길을 걸음": "grass flowers freedom oppressing"
+      "풀과 꽃이 늘어선 오솔길을 걸음": "grass flowers freedom oppressing",
+      "험한 미지의 길을 감": "unknown undertakings grief traveling",
+      "동행하는 벗과 함께 길을 감": "friends accompany ideal home",
+      "길을 잃음": "lose mistake trade loss"
     }
   },
   {

@@ -1,0 +1,227 @@
+[
+  {
+    "term_ko": "길",
+    "term_en": "road",
+    "context": "험한 미지의 길을 감",
+    "interpretation_ko": "새로운 일을 벌이나 근심과 시간 낭비 외에는 얻을 것이 없을 조짐",
+    "interpretation_en": "signifies new undertakings, which will bring little else than grief and loss of time",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Road",
+      "original": "Traveling over a rough, unknown road in a dream, signifies new undertakings, which will bring little else than grief and loss of time.",
+      "translation_ko": "험한 미지의 길을 가는 꿈은, 새로운 일을 벌이나 근심과 시간 낭비 외에는 얻을 것이 없을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "길",
+    "term_en": "road",
+    "context": "동행하는 벗과 함께 길을 감",
+    "interpretation_ko": "이상적인 가정을 이루어 화목한 자녀와 성실한 배우자를 얻을 조짐",
+    "interpretation_en": "you will be successful in building an ideal home, with happy children and faithful wife, or husband",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Road",
+      "original": "If friends accompany you, you will be successful in building an ideal home, with happy children and faithful wife, or husband.",
+      "translation_ko": "동행하는 벗과 함께 길을 가는 꿈은, 이상적인 가정을 이루어 화목한 자녀와 성실한 배우자를 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "길",
+    "term_en": "road",
+    "context": "길을 잃음",
+    "interpretation_ko": "거래에서 판단을 그르쳐 손해를 볼 조짐",
+    "interpretation_en": "foretells that you will make a mistake in deciding some question of trade, and suffer loss in consequence",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Road",
+      "original": "To lose the road, foretells that you will make a mistake in deciding some question of trade, and suffer loss in consequence.",
+      "translation_ko": "길을 잃는 꿈은, 거래에서 판단을 그르쳐 손해를 볼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바위",
+    "term_en": "rock",
+    "context": "바위를 봄",
+    "interpretation_ko": "역경을 만나고 불화와 전반적인 불행을 겪을 조짐",
+    "interpretation_en": "denotes that you will meet reverses, and that there will be discord and general unhappiness",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Rocks",
+      "original": "To dream of rocks, denotes that you will meet reverses, and that there will be discord and general unhappiness.",
+      "translation_ko": "바위 꿈은, 역경을 만나고 불화와 전반적인 불행을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "불꽃놀이",
+    "term_en": "fireworks",
+    "context": "쏘아 올린 불꽃이 하늘로 치솟음",
+    "interpretation_ko": "갑작스럽고 뜻밖의 출세와 성공적인 구애, 혼인 서약을 성실히 지킬 조짐",
+    "interpretation_en": "foretells sudden and unexpected elevation, successful wooing, and faithful keeping of the marriage vows",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rocket",
+      "original": "To see a rocket ascending in your dream, foretells sudden and unexpected elevation, successful wooing, and faithful keeping of the marriage vows.",
+      "translation_ko": "쏘아 올린 불꽃이 하늘로 치솟는 꿈은, 갑작스럽고 뜻밖의 출세와 성공적인 구애, 혼인 서약을 성실히 지킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "불꽃놀이",
+    "term_en": "fireworks",
+    "context": "쏘아 올린 불꽃이 떨어짐",
+    "interpretation_ko": "불행한 혼인을 겪을 조짐",
+    "interpretation_en": "unhappy unions may be expected",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rocket",
+      "original": "To see them falling, unhappy unions may be expected.",
+      "translation_ko": "쏘아 올린 불꽃이 떨어지는 꿈은, 불행한 혼인을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "불꽃놀이",
+    "term_en": "fireworks",
+    "context": "화려한 불꽃놀이용 통을 봄",
+    "interpretation_ko": "간절히 바라던 즐거움과 지위를 빠르게 얻을 조짐",
+    "interpretation_en": "is a sign of speedy attainment of coveted pleasures and positions",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Roman Candle",
+      "original": "To see Roman candles while dreaming, is a sign of speedy attainment of coveted pleasures and positions.",
+      "translation_ko": "화려한 불꽃놀이용 통을 보는 꿈은, 간절히 바라던 즐거움과 지위를 빠르게 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "불꽃놀이",
+    "term_en": "fireworks",
+    "context": "쥐고 있던 불꽃놀이용 통이 빈 것을 발견함",
+    "interpretation_ko": "오래 바라던 것을 손에 넣고도 실망할 조짐",
+    "interpretation_en": "denotes that you will be disappointed with the possession of some object which you have long striven to obtain",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Roman Candle",
+      "original": "To imagine that you have a loaded candle and find it empty, denotes that you will be disappointed with the possession of some object which you have long striven to obtain.",
+      "translation_ko": "쥐고 있던 불꽃놀이용 통이 빈 것을 발견하는 꿈은, 오래 바라던 것을 손에 넣고도 실망할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "흔들의자",
+    "term_en": "rocking-chair",
+    "context": "흔들의자를 봄",
+    "interpretation_ko": "다정한 어울림과 어디서든 만족을 누릴 조짐",
+    "interpretation_en": "bring friendly intercourse and contentment with any environment",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rocking-chair",
+      "original": "Rocking-chairs seen in dreams, bring friendly intercourse and contentment with any environment.",
+      "translation_ko": "흔들의자를 보는 꿈은, 다정한 어울림과 어디서든 만족을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "흔들의자",
+    "term_en": "rocking-chair",
+    "context": "어머니나 아내나 연인이 흔들의자에 앉아 있음",
+    "interpretation_ko": "이 땅이 줄 수 있는 가장 감미로운 기쁨을 누릴 조짐",
+    "interpretation_en": "is ominous of the sweetest joys that earth affords",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Rocking-chair",
+      "original": "To see a mother, wife, or sweetheart in a rocking chair, is ominous of the sweetest joys that earth affords.",
+      "translation_ko": "어머니나 아내나 연인이 흔들의자에 앉아 있는 꿈은, 이 땅이 줄 수 있는 가장 감미로운 기쁨을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "흔들의자",
+    "term_en": "rocking-chair",
+    "context": "빈 흔들의자를 봄",
+    "interpretation_ko": "사별이나 소원해짐이 닥치고, 그 불행을 자초할 조짐",
+    "interpretation_en": "forebodes bereavement or estrangement. The dreamer will surely merit misfortune in some form",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rocking-chair",
+      "original": "To see vacant rocking-chairs, forebodes bereavement or estrangement. The dreamer will surely merit misfortune in some form.",
+      "translation_ko": "빈 흔들의자를 보는 꿈은, 사별이나 소원해짐이 닥치고 그 불행을 자초할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "무뢰한",
+    "term_en": "rogue",
+    "context": "스스로를 무뢰한이라 여기거나 그렇게 보임",
+    "interpretation_ko": "경솔한 짓을 저질러 벗들을 불안하게 하고, 가벼운 병치레를 겪을 조짐",
+    "interpretation_en": "foretells you are about to commit some indiscretion which will give your friends uneasiness of mind. You are likely to suffer from a passing malady",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Rogue",
+      "original": "To see or think yourself a rogue, foretells you are about to commit some indiscretion which will give your friends uneasiness of mind. You are likely to suffer from a passing malady.",
+      "translation_ko": "스스로를 무뢰한이라 여기거나 그렇게 보는 꿈은, 경솔한 짓을 저질러 벗들을 불안하게 하고 가벼운 병치레를 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "무뢰한",
+    "term_en": "rogue",
+    "context": "남편이나 연인이 무뢰한이라 여김",
+    "interpretation_ko": "벗의 무심함에 마음 아파할 조짐",
+    "interpretation_en": "foretells she will be painfully distressed over neglect shown her by a friend",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Rogue",
+      "original": "For a woman to think her husband or lover is a rogue, foretells she will be painfully distressed over neglect shown her by a friend.",
+      "translation_ko": "남편이나 연인이 무뢰한이라 여기는 꿈은, 벗의 무심함에 마음 아파할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수배자 사진첩",
+    "term_en": "rogues-gallery",
+    "context": "수배자 사진첩 안에 있음",
+    "interpretation_ko": "자신을 알아주지 않는 이들과 어울리게 될 조짐",
+    "interpretation_en": "foretells you will be associated with people who will fail to appreciate you",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Rogue's Gallery",
+      "original": "To dream that you are in a rogue's gallery, foretells you will be associated with people who will fail to appreciate you.",
+      "translation_ko": "수배자 사진첩 안에 있는 꿈은, 자신을 알아주지 않는 이들과 어울리게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수배자 사진첩",
+    "term_en": "rogues-gallery",
+    "context": "수배자 사진첩에서 본인의 모습을 봄",
+    "interpretation_ko": "괴롭히는 적에게 위압당할 조짐",
+    "interpretation_en": "you will be overawed by a tormenting enemy",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rogue's Gallery",
+      "original": "To see your own picture, you will be overawed by a tormenting enemy.",
+      "translation_ko": "수배자 사진첩에서 본인의 모습을 보는 꿈은, 괴롭히는 적에게 위압당할 조짐이다"
+    }
+  }
+]

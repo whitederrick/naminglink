@@ -1,0 +1,48 @@
+{
+  "batch": 228,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Road",
+      "text": "Traveling over a rough, unknown road in a dream, signifies new undertakings, which will bring little else than grief and loss of time. If the road is bordered with trees and flowers, there will be some pleasant and unexpected fortune for you. If friends accompany you, you will be successful in building an ideal home, with happy children and faithful wife, or husband. To lose the road, foretells that you will make a mistake in deciding some question of trade, and suffer loss in consequence.",
+      "note": "기존 상징 `road`(길)에 세 그림을 더한다 — 「나무와 꽃이 늘어선 길」한 문장은 같은 상징의 밀러 Path 문맥 「풀과 꽃이 늘어선 오솔길을 걸음」과 같은 그림이라 뺀다(skipped_sentences)"
+    },
+    {
+      "headword": "Rocket",
+      "text": "To see a rocket ascending in your dream, foretells sudden and unexpected elevation, successful wooing, and faithful keeping of the marriage vows. To see them falling, unhappy unions may be expected.",
+      "note": "기존 상징 `fireworks`(폭죽)에 두 그림을 더한다 — 로켓도 쏘아 올리는 불꽃이라 같은 상징에 붙인다. 새 상징을 세우면 term_ko \"로켓\"이 이미 있는 `locket`(로켓 목걸이)과 겹쳐 화면에 둘 다 뜨는 위험이 있다"
+    },
+    {
+      "headword": "Rocking-chair",
+      "text": "Rocking-chairs seen in dreams, bring friendly intercourse and contentment with any environment. To see a mother, wife, or sweetheart in a rocking chair, is ominous of the sweetest joys that earth affords. To see vacant rocking-chairs, forebodes bereavement or estrangement. The dreamer will surely merit misfortune in some form.",
+      "note": "새 상징 `rocking-chair`(흔들의자) — 세 그림"
+    },
+    {
+      "headword": "Rocks",
+      "text": "To dream of rocks, denotes that you will meet reverses, and that there will be discord and general unhappiness. To climb a steep rock, foretells immediate struggles and disappointing surroundings.",
+      "note": "기존 상징 `rock`(바위)에 한 그림만 더한다 — 「가파른 바위를 오름」은 같은 상징의 주공해몽 문맥 「바위에 오름」(길, 벼슬이 오름)과 같은 그림·정반대 극성이라 뺀다(skipped_sentences)"
+    },
+    {
+      "headword": "Rogue",
+      "text": "To see or think yourself a rogue, foretells you are about to commit some indiscretion which will give your friends uneasiness of mind. You are likely to suffer from a passing malady. For a woman to think her husband or lover is a rogue, foretells she will be painfully distressed over neglect shown her by a friend.",
+      "note": "새 상징 `rogue`(무뢰한) — 두 그림. 기존 `wicked-person`의 별칭 \"악당\", `adventurer`의 별칭 \"사기꾼\"과 겹치지 않게 별칭을 골랐다"
+    },
+    {
+      "headword": "Rogue's Gallery",
+      "text": "To dream that you are in a rogue's gallery, foretells you will be associated with people who will fail to appreciate you. To see your own picture, you will be overawed by a tormenting enemy.",
+      "note": "새 상징 `rogues-gallery`(수배자 사진첩) — 두 그림. 기존 `art-gallery`의 영어 별칭이 전부 \"an art gallery\" 류 온전한 구라 겹치지 않는다"
+    },
+    {
+      "headword": "Roman Candle",
+      "text": "To see Roman candles while dreaming, is a sign of speedy attainment of coveted pleasures and positions. To imagine that you have a loaded candle and find it empty, denotes that you will be disappointed with the possession of some object which you have long striven to obtain.",
+      "note": "기존 상징 `fireworks`(폭죽)에 두 그림을 더한다 — 로마 폭죽도 불꽃놀이의 한 종류다. `candle`(양초) 상징과는 다른 물건(불꽃놀이용 통)이라 붙이지 않는다"
+    }
+  ],
+  "skipped": [
+    "Roast — 밀러 「roast를 보거나 먹음」=흉(가정 불화·은밀한 배신)이 기존 `meat`의 주공해몽 문맥 「익힌 고기를 먹음」=길과 같은 그림·정반대 극성이라(§31 곁가지) 통째로 건너뜀"
+  ],
+  "skipped_sentences": [
+    "Road: \"If the road is bordered with trees and flowers, there will be some pleasant and unexpected fortune for you.\" — 기존 `road`의 밀러 Path 문맥 「풀과 꽃이 늘어선 오솔길을 걸음」과 같은 그림",
+    "Rocks: \"To climb a steep rock, foretells immediate struggles and disappointing surroundings.\" — 기존 `rock`의 주공해몽 문맥 「바위에 오름」(길, 벼슬이 오름)과 같은 그림·정반대 극성"
+  ]
+}

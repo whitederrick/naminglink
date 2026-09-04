@@ -144,6 +144,7 @@
     "m225.json",
     "m226.json",
     "m227.json",
+    "m228.json",
     "m23.json",
     "m24.json",
     "m25.json",
@@ -20156,6 +20157,168 @@
       ]
     },
     {
+      "id": "road",
+      "term_ko": "길",
+      "term_en": "road",
+      "aliases": [
+        "도로",
+        "골목",
+        "큰길",
+        "길목",
+        "오솔길"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사방으로 길이 뚫려 있음",
+          "interpretation_ko": "이름과 이익을 함께 이룰 조짐",
+          "interpretation_en": "a sign of achieving both fame and profit",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "見四路通名利遂",
+              "translation_ko": "사방으로 길이 통한 것을 보면 명예와 이익을 이룬다"
+            }
+          ]
+        },
+        {
+          "context": "좁고 험한 길에서 돌부리에 걸려 넘어짐",
+          "interpretation_ko": "역경과 힘겹게 부딪치고 초조한 흥분에 짓눌릴 조짐",
+          "interpretation_en": "denotes that you will have a rough encounter with adversity, and feverish excitement will weigh heavily upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Path",
+              "original": "To dream that you are walking in a narrow and rough path, stumbling over rocks and other obstructions, denotes that you will have a rough encounter with adversity, and feverish excitement will weigh heavily upon you.",
+              "translation_ko": "좁고 험한 길에서 돌부리에 걸려 넘어지는 꿈은, 역경과 힘겹게 부딪치고 초조한 흥분에 짓눌릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제 길을 찾으려 애씀",
+          "interpretation_ko": "이루려 애쓰던 일을 끝내 해내지 못할 조짐",
+          "interpretation_en": "foretells that you will fail to accomplish some work that you have striven to push to desired ends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Path",
+              "original": "To dream that you are trying to find your path, foretells that you will fail to accomplish some work that you have striven to push to desired ends.",
+              "translation_ko": "제 길을 찾으려 애쓰는 꿈은, 이루려 애쓰던 일을 끝내 해내지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "풀과 꽃이 늘어선 오솔길을 걸음",
+          "interpretation_ko": "무거운 사랑의 짐에서 벗어날 조짐",
+          "interpretation_en": "denotes your freedom from oppressing loves",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Path",
+              "original": "To walk through a pathway bordered with green grass and flowers, denotes your freedom from oppressing loves.",
+              "translation_ko": "풀과 꽃이 늘어선 오솔길을 걷는 꿈은, 무거운 사랑의 짐에서 벗어날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "험한 미지의 길을 감",
+          "interpretation_ko": "새로운 일을 벌이나 근심과 시간 낭비 외에는 얻을 것이 없을 조짐",
+          "interpretation_en": "signifies new undertakings, which will bring little else than grief and loss of time",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Road",
+              "original": "Traveling over a rough, unknown road in a dream, signifies new undertakings, which will bring little else than grief and loss of time.",
+              "translation_ko": "험한 미지의 길을 가는 꿈은, 새로운 일을 벌이나 근심과 시간 낭비 외에는 얻을 것이 없을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "동행하는 벗과 함께 길을 감",
+          "interpretation_ko": "이상적인 가정을 이루어 화목한 자녀와 성실한 배우자를 얻을 조짐",
+          "interpretation_en": "you will be successful in building an ideal home, with happy children and faithful wife, or husband",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Road",
+              "original": "If friends accompany you, you will be successful in building an ideal home, with happy children and faithful wife, or husband.",
+              "translation_ko": "동행하는 벗과 함께 길을 가는 꿈은, 이상적인 가정을 이루어 화목한 자녀와 성실한 배우자를 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "길을 잃음",
+          "interpretation_ko": "거래에서 판단을 그르쳐 손해를 볼 조짐",
+          "interpretation_en": "foretells that you will make a mistake in deciding some question of trade, and suffer loss in consequence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Road",
+              "original": "To lose the road, foretells that you will make a mistake in deciding some question of trade, and suffer loss in consequence.",
+              "translation_ko": "길을 잃는 꿈은, 거래에서 판단을 그르쳐 손해를 볼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "길에서 재물을 주움",
+          "interpretation_ko": "일이 막힘없이 트일 조짐",
+          "interpretation_en": "a sign that affairs will run smoothly",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "道中得財主通達",
+              "translation_ko": "길에서 재물을 얻으면 일이 막힘없이 통한다"
+            }
+          ]
+        },
+        {
+          "context": "길이 진흙탕이고 가시덤불이 우거짐",
+          "interpretation_ko": "일이 이루어지지 않을 조짐",
+          "interpretation_en": "a sign that matters will not come together",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "道泥荊棘事不成",
+              "translation_ko": "길이 진흙과 가시덤불이면 일이 이루어지지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "큰길이 무너져 내려앉음",
+          "interpretation_ko": "재물을 잃을 조짐",
+          "interpretation_en": "a sign of losing wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "道路橋梁市集",
+              "original": "大道崩陷主失財",
+              "translation_ko": "큰길이 무너져 꺼지면 재물을 잃는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "straw-mat",
       "term_ko": "돗자리",
       "term_en": "straw mat",
@@ -29003,6 +29166,122 @@
       ]
     },
     {
+      "id": "fireworks",
+      "term_ko": "불꽃놀이",
+      "term_en": "fireworks",
+      "aliases": [
+        "폭죽"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "불꽃놀이를 봄",
+          "interpretation_ko": "온갖 근심이 흩어질 조짐",
+          "interpretation_en": "a sign that all worries will scatter",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "看放煙火百憂散",
+              "translation_ko": "불꽃놀이를 보면 온갖 근심이 흩어진다"
+            }
+          ]
+        },
+        {
+          "context": "쏘아 올린 불꽃이 하늘로 치솟음",
+          "interpretation_ko": "갑작스럽고 뜻밖의 출세와 성공적인 구애, 혼인 서약을 성실히 지킬 조짐",
+          "interpretation_en": "foretells sudden and unexpected elevation, successful wooing, and faithful keeping of the marriage vows",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rocket",
+              "original": "To see a rocket ascending in your dream, foretells sudden and unexpected elevation, successful wooing, and faithful keeping of the marriage vows.",
+              "translation_ko": "쏘아 올린 불꽃이 하늘로 치솟는 꿈은, 갑작스럽고 뜻밖의 출세와 성공적인 구애, 혼인 서약을 성실히 지킬 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쏘아 올린 불꽃이 떨어짐",
+          "interpretation_ko": "불행한 혼인을 겪을 조짐",
+          "interpretation_en": "unhappy unions may be expected",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rocket",
+              "original": "To see them falling, unhappy unions may be expected.",
+              "translation_ko": "쏘아 올린 불꽃이 떨어지는 꿈은, 불행한 혼인을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "화려한 불꽃놀이용 통을 봄",
+          "interpretation_ko": "간절히 바라던 즐거움과 지위를 빠르게 얻을 조짐",
+          "interpretation_en": "is a sign of speedy attainment of coveted pleasures and positions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Roman Candle",
+              "original": "To see Roman candles while dreaming, is a sign of speedy attainment of coveted pleasures and positions.",
+              "translation_ko": "화려한 불꽃놀이용 통을 보는 꿈은, 간절히 바라던 즐거움과 지위를 빠르게 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쥐고 있던 불꽃놀이용 통이 빈 것을 발견함",
+          "interpretation_ko": "오래 바라던 것을 손에 넣고도 실망할 조짐",
+          "interpretation_en": "denotes that you will be disappointed with the possession of some object which you have long striven to obtain",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Roman Candle",
+              "original": "To imagine that you have a loaded candle and find it empty, denotes that you will be disappointed with the possession of some object which you have long striven to obtain.",
+              "translation_ko": "쥐고 있던 불꽃놀이용 통이 빈 것을 발견하는 꿈은, 오래 바라던 것을 손에 넣고도 실망할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "불꽃놀이를 구경함",
+          "interpretation_ko": "즐거운 일과 성한 몸이 있을 길한 조짐",
+          "interpretation_en": "indicates enjoyment and good health",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fireworks",
+              "original": "To see fireworks, indicates enjoyment and good health.",
+              "translation_ko": "불꽃놀이를 보는 꿈은 즐거운 일과 성한 몸을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 불꽃놀이를 봄",
+          "interpretation_ko": "놀이 자리와 먼 곳으로의 즐거운 나들이가 있을 길한 조짐",
+          "interpretation_en": "this dream signifies entertainments and pleasant visiting to distant places",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fireworks",
+              "original": "For a young woman, this dream signifies entertainments and pleasant visiting to distant places.",
+              "translation_ko": "젊은 여성에게 이 꿈은 놀이 자리와 먼 곳으로의 즐거운 나들이를 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "flute",
       "term_ko": "피리",
       "term_en": "flute",
@@ -30537,126 +30816,6 @@
               "locator": "衣帳毯褥匙櫡",
               "original": "磁碟者主口舌至",
               "translation_ko": "사기 접시는 구설이 올 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "road",
-      "term_ko": "길",
-      "term_en": "road",
-      "aliases": [
-        "도로",
-        "골목",
-        "큰길",
-        "길목",
-        "오솔길"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "사방으로 길이 뚫려 있음",
-          "interpretation_ko": "이름과 이익을 함께 이룰 조짐",
-          "interpretation_en": "a sign of achieving both fame and profit",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "見四路通名利遂",
-              "translation_ko": "사방으로 길이 통한 것을 보면 명예와 이익을 이룬다"
-            }
-          ]
-        },
-        {
-          "context": "좁고 험한 길에서 돌부리에 걸려 넘어짐",
-          "interpretation_ko": "역경과 힘겹게 부딪치고 초조한 흥분에 짓눌릴 조짐",
-          "interpretation_en": "denotes that you will have a rough encounter with adversity, and feverish excitement will weigh heavily upon you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Path",
-              "original": "To dream that you are walking in a narrow and rough path, stumbling over rocks and other obstructions, denotes that you will have a rough encounter with adversity, and feverish excitement will weigh heavily upon you.",
-              "translation_ko": "좁고 험한 길에서 돌부리에 걸려 넘어지는 꿈은, 역경과 힘겹게 부딪치고 초조한 흥분에 짓눌릴 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "제 길을 찾으려 애씀",
-          "interpretation_ko": "이루려 애쓰던 일을 끝내 해내지 못할 조짐",
-          "interpretation_en": "foretells that you will fail to accomplish some work that you have striven to push to desired ends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Path",
-              "original": "To dream that you are trying to find your path, foretells that you will fail to accomplish some work that you have striven to push to desired ends.",
-              "translation_ko": "제 길을 찾으려 애쓰는 꿈은, 이루려 애쓰던 일을 끝내 해내지 못할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "풀과 꽃이 늘어선 오솔길을 걸음",
-          "interpretation_ko": "무거운 사랑의 짐에서 벗어날 조짐",
-          "interpretation_en": "denotes your freedom from oppressing loves",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Path",
-              "original": "To walk through a pathway bordered with green grass and flowers, denotes your freedom from oppressing loves.",
-              "translation_ko": "풀과 꽃이 늘어선 오솔길을 걷는 꿈은, 무거운 사랑의 짐에서 벗어날 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "길에서 재물을 주움",
-          "interpretation_ko": "일이 막힘없이 트일 조짐",
-          "interpretation_en": "a sign that affairs will run smoothly",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "道中得財主通達",
-              "translation_ko": "길에서 재물을 얻으면 일이 막힘없이 통한다"
-            }
-          ]
-        },
-        {
-          "context": "길이 진흙탕이고 가시덤불이 우거짐",
-          "interpretation_ko": "일이 이루어지지 않을 조짐",
-          "interpretation_en": "a sign that matters will not come together",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "道泥荊棘事不成",
-              "translation_ko": "길이 진흙과 가시덤불이면 일이 이루어지지 않는다"
-            }
-          ]
-        },
-        {
-          "context": "큰길이 무너져 내려앉음",
-          "interpretation_ko": "재물을 잃을 조짐",
-          "interpretation_en": "a sign of losing wealth",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "道路橋梁市集",
-              "original": "大道崩陷主失財",
-              "translation_ko": "큰길이 무너져 꺼지면 재물을 잃는다"
             }
           ]
         }
@@ -68059,66 +68218,6 @@
       ]
     },
     {
-      "id": "fireworks",
-      "term_ko": "불꽃놀이",
-      "term_en": "fireworks",
-      "aliases": [
-        "폭죽"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "불꽃놀이를 봄",
-          "interpretation_ko": "온갖 근심이 흩어질 조짐",
-          "interpretation_en": "a sign that all worries will scatter",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "看放煙火百憂散",
-              "translation_ko": "불꽃놀이를 보면 온갖 근심이 흩어진다"
-            }
-          ]
-        },
-        {
-          "context": "불꽃놀이를 구경함",
-          "interpretation_ko": "즐거운 일과 성한 몸이 있을 길한 조짐",
-          "interpretation_en": "indicates enjoyment and good health",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fireworks",
-              "original": "To see fireworks, indicates enjoyment and good health.",
-              "translation_ko": "불꽃놀이를 보는 꿈은 즐거운 일과 성한 몸을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 불꽃놀이를 봄",
-          "interpretation_ko": "놀이 자리와 먼 곳으로의 즐거운 나들이가 있을 길한 조짐",
-          "interpretation_en": "this dream signifies entertainments and pleasant visiting to distant places",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fireworks",
-              "original": "For a young woman, this dream signifies entertainments and pleasant visiting to distant places.",
-              "translation_ko": "젊은 여성에게 이 꿈은 놀이 자리와 먼 곳으로의 즐거운 나들이를 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "fox",
       "term_ko": "여우",
       "term_en": "fox",
@@ -76102,6 +76201,127 @@
               "locator": "Rhubarb",
               "original": "To eat it, denotes dissatisfaction with present employment.",
               "translation_ko": "대황을 먹는 꿈은, 지금 하는 일에 불만을 느낄 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rock",
+      "term_ko": "바위",
+      "term_en": "rock",
+      "aliases": [
+        "암석",
+        "반석",
+        "너럭바위"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "너럭바위가 편안하고 든든함",
+          "interpretation_ko": "근심과 의심이 없어질 조짐",
+          "interpretation_en": "a sign that worry and doubt will vanish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "盤石安穩無憂疑",
+              "translation_ko": "너럭바위가 편안하고 든든하면 근심과 의심이 없다"
+            }
+          ]
+        },
+        {
+          "context": "바위를 봄",
+          "interpretation_ko": "역경을 만나고 불화와 전반적인 불행을 겪을 조짐",
+          "interpretation_en": "denotes that you will meet reverses, and that there will be discord and general unhappiness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rocks",
+              "original": "To dream of rocks, denotes that you will meet reverses, and that there will be discord and general unhappiness.",
+              "translation_ko": "바위 꿈은, 역경을 만나고 불화와 전반적인 불행을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "바위에 오름",
+          "interpretation_ko": "벼슬이 오를 조짐",
+          "interpretation_en": "a sign of promotion in office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "登岩抱石官職遷",
+              "translation_ko": "바위에 올라 돌을 안으면 관직이 오른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rocking-chair",
+      "term_ko": "흔들의자",
+      "term_en": "rocking-chair",
+      "aliases": [
+        "흔들의자"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "흔들의자를 봄",
+          "interpretation_ko": "다정한 어울림과 어디서든 만족을 누릴 조짐",
+          "interpretation_en": "bring friendly intercourse and contentment with any environment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rocking-chair",
+              "original": "Rocking-chairs seen in dreams, bring friendly intercourse and contentment with any environment.",
+              "translation_ko": "흔들의자를 보는 꿈은, 다정한 어울림과 어디서든 만족을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "어머니나 아내나 연인이 흔들의자에 앉아 있음",
+          "interpretation_ko": "이 땅이 줄 수 있는 가장 감미로운 기쁨을 누릴 조짐",
+          "interpretation_en": "is ominous of the sweetest joys that earth affords",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rocking-chair",
+              "original": "To see a mother, wife, or sweetheart in a rocking chair, is ominous of the sweetest joys that earth affords.",
+              "translation_ko": "어머니나 아내나 연인이 흔들의자에 앉아 있는 꿈은, 이 땅이 줄 수 있는 가장 감미로운 기쁨을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빈 흔들의자를 봄",
+          "interpretation_ko": "사별이나 소원해짐이 닥치고, 그 불행을 자초할 조짐",
+          "interpretation_en": "forebodes bereavement or estrangement. The dreamer will surely merit misfortune in some form",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rocking-chair",
+              "original": "To see vacant rocking-chairs, forebodes bereavement or estrangement. The dreamer will surely merit misfortune in some form.",
+              "translation_ko": "빈 흔들의자를 보는 꿈은, 사별이나 소원해짐이 닥치고 그 불행을 자초할 조짐이다"
             }
           ]
         }
@@ -101234,46 +101454,93 @@
       ]
     },
     {
-      "id": "rock",
-      "term_ko": "바위",
-      "term_en": "rock",
+      "id": "rogue",
+      "term_ko": "무뢰한",
+      "term_en": "rogue",
       "aliases": [
-        "암석",
-        "반석"
+        "불한당",
+        "건달",
+        "부랑아"
       ],
-      "category": "nature",
-      "polarity": "positive",
+      "category": "person",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "너럭바위가 편안하고 든든함",
-          "interpretation_ko": "근심과 의심이 없어질 조짐",
-          "interpretation_en": "a sign that worry and doubt will vanish",
-          "polarity": "positive",
+          "context": "스스로를 무뢰한이라 여기거나 그렇게 보임",
+          "interpretation_ko": "경솔한 짓을 저질러 벗들을 불안하게 하고, 가벼운 병치레를 겪을 조짐",
+          "interpretation_en": "foretells you are about to commit some indiscretion which will give your friends uneasiness of mind. You are likely to suffer from a passing malady",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "盤石安穩無憂疑",
-              "translation_ko": "너럭바위가 편안하고 든든하면 근심과 의심이 없다"
+              "work": "miller",
+              "locator": "Rogue",
+              "original": "To see or think yourself a rogue, foretells you are about to commit some indiscretion which will give your friends uneasiness of mind. You are likely to suffer from a passing malady.",
+              "translation_ko": "스스로를 무뢰한이라 여기거나 그렇게 보는 꿈은, 경솔한 짓을 저질러 벗들을 불안하게 하고 가벼운 병치레를 겪을 조짐이다"
             }
           ]
         },
         {
-          "context": "바위에 오름",
-          "interpretation_ko": "벼슬이 오를 조짐",
-          "interpretation_en": "a sign of promotion in office",
-          "polarity": "positive",
+          "context": "남편이나 연인이 무뢰한이라 여김",
+          "interpretation_ko": "벗의 무심함에 마음 아파할 조짐",
+          "interpretation_en": "foretells she will be painfully distressed over neglect shown her by a friend",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "登岩抱石官職遷",
-              "translation_ko": "바위에 올라 돌을 안으면 관직이 오른다"
+              "work": "miller",
+              "locator": "Rogue",
+              "original": "For a woman to think her husband or lover is a rogue, foretells she will be painfully distressed over neglect shown her by a friend.",
+              "translation_ko": "남편이나 연인이 무뢰한이라 여기는 꿈은, 벗의 무심함에 마음 아파할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rogues-gallery",
+      "term_ko": "수배자 사진첩",
+      "term_en": "rogues-gallery",
+      "aliases": [
+        "범죄자 사진첩",
+        "지명수배 사진"
+      ],
+      "category": "place",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "수배자 사진첩 안에 있음",
+          "interpretation_ko": "자신을 알아주지 않는 이들과 어울리게 될 조짐",
+          "interpretation_en": "foretells you will be associated with people who will fail to appreciate you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rogue's Gallery",
+              "original": "To dream that you are in a rogue's gallery, foretells you will be associated with people who will fail to appreciate you.",
+              "translation_ko": "수배자 사진첩 안에 있는 꿈은, 자신을 알아주지 않는 이들과 어울리게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "수배자 사진첩에서 본인의 모습을 봄",
+          "interpretation_ko": "괴롭히는 적에게 위압당할 조짐",
+          "interpretation_en": "you will be overawed by a tormenting enemy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rogue's Gallery",
+              "original": "To see your own picture, you will be overawed by a tormenting enemy.",
+              "translation_ko": "수배자 사진첩에서 본인의 모습을 보는 꿈은, 괴롭히는 적에게 위압당할 조짐이다"
             }
           ]
         }
