@@ -1,0 +1,33 @@
+{
+  "batch": 201,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Quaker",
+      "text": "To dream of a Quaker, denotes that you will have faithful friends and fair business. If you are one, you will deport yourself honorably toward an enemy. For a young woman to attend a Quaker meeting, portends that she will by her modest manners win a faithful husband who will provide well for her household.",
+      "note": "새 상징 `quaker`(퀘이커 교도)"
+    },
+    {
+      "headword": "Quarantine",
+      "text": "To dream of being in quarantine, denotes that you will be placed in a disagreeable position by the malicious intriguing of enemies.",
+      "note": "새 상징 `quarantine`(검역)"
+    },
+    {
+      "headword": "Quarrel",
+      "text": "Quarrels in dreams, portends unhappiness, and fierce altercations. To a young woman, it is the signal of fatal unpleasantries, and to a married woman it brings separation or continuous disagreements. To hear others quarreling, denotes unsatisfactory business and disappointing trade.",
+      "note": "기존 상징 `quarrel`(말싸움)에 더한다"
+    },
+    {
+      "headword": "Quarry",
+      "text": "To dream of being in a quarry and seeing the workmen busy, denotes that you will advance by hard labor. An idle quarry, signifies failure, disappointment, and often death.",
+      "note": "새 상징 `quarry`(채석장)"
+    },
+    {
+      "headword": "Quartette",
+      "text": "To dream of a quartette, and you are playing or singing, denotes favorable affairs, jolly companions, and good times. To see or hear a quartette, foretells that you will aspire to something beyond you.",
+      "note": "새 상징 `quartette`(사중창)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

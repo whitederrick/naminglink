@@ -7006,5 +7006,18 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "quail": [
     "a quail",
     "quails"
+  ],
+  "quaker": [
+    "a quaker",
+    "quakers"
+  ],
+  "quarantine": [
+    "quarantine"
+  ],
+  "quarry": [
+    "a quarry"
+  ],
+  "quartette": [
+    "a quartette"
   ]
 };

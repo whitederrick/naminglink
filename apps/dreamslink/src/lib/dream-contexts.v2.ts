@@ -1228,6 +1228,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pan::깨지거나 녹슨 냄비를 봄": "rusty keen disappointment",
   "quarrel::남과 서로 욕하며 다툼": "cursing insulting",
   "quarrel::욕을 먹고도 모르는 척함": "ignored pretended endured silent",
+  "quarrel::다툼 꿈을 꿈": "unhappiness fierce altercations",
+  "quarrel::처녀가 다툼 꿈을 꿈": "young fatal unpleasantries",
+  "quarrel::기혼 여성이 다툼 꿈을 꿈": "married separation disagreements",
+  "quarrel::남이 다투는 소리를 들음": "hearing unsatisfactory disappointing",
   "soldier-setting-out::출정하는 사람이 막 길을 나섬": "leaving departing farewell",
   "soldier-setting-out::출정했던 사람이 돌아옴": "returned returning back home",
   "white-clothing::흰 옷을 입음": "wearing wore",
@@ -5245,5 +5249,12 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "quail::살아있는 메추라기를 봄": "alive favorable omen",
   "quail::죽은 메추라기를 봄": "dead serious luck",
   "quail::메추라기를 쏨": "shoot friends",
-  "quail::메추라기를 먹음": "eat extravagance living"
+  "quail::메추라기를 먹음": "eat extravagance living",
+  "quaker::퀘이커 교도 꿈을 꿈": "faithful friends fair business",
+  "quaker::제가 퀘이커 교도임을 봄": "deport honorably enemy",
+  "quaker::처녀가 퀘이커 교도 모임에 참석함": "meeting modest household",
+  "quarry::채석장에서 인부들이 바삐 일하는 것을 봄": "workmen busy advance",
+  "quarry::인적 없는 채석장을 봄": "idle failure death",
+  "quartette::제가 사중창에서 연주하거나 노래함": "playing singing jolly",
+  "quartette::사중창을 보거나 들음": "aspire beyond"
 };

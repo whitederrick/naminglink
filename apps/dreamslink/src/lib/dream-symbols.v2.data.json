@@ -115,6 +115,7 @@
     "m2.json",
     "m20.json",
     "m200.json",
+    "m201.json",
     "m21.json",
     "m22.json",
     "m23.json",
@@ -36714,6 +36715,125 @@
               "locator": "Potatoes",
               "original": "To see them rotting, denotes vanished pleasure and a darkening future.",
               "translation_ko": "썩은 감자를 보는 꿈은, 즐거움이 사라지고 앞날이 어두워질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quarrel",
+      "term_ko": "말싸움",
+      "term_en": "quarrel",
+      "aliases": [
+        "말싸움",
+        "언쟁",
+        "욕설",
+        "말씨름",
+        "다툼이",
+        "다툼을",
+        "다투는",
+        "다투었다",
+        "다툼",
+        "다툼이",
+        "다툼을",
+        "다투는",
+        "다투었다",
+        "다툼",
+        "다툼이",
+        "다툼을",
+        "다투는",
+        "다투었다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "다툼 꿈을 꿈",
+          "interpretation_ko": "불행과 격한 말다툼의 조짐",
+          "interpretation_en": "portends unhappiness, and fierce altercations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quarrel",
+              "original": "Quarrels in dreams, portends unhappiness, and fierce altercations.",
+              "translation_ko": "다툼 꿈은, 불행과 격한 말다툼의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 다툼 꿈을 꿈",
+          "interpretation_ko": "돌이킬 수 없는 불쾌한 일의 신호",
+          "interpretation_en": "it is the signal of fatal unpleasantries",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quarrel",
+              "original": "To a young woman, it is the signal of fatal unpleasantries,",
+              "translation_ko": "처녀가 다툼 꿈을 꾸면, 돌이킬 수 없는 불쾌한 일의 신호다"
+            }
+          ]
+        },
+        {
+          "context": "기혼 여성이 다툼 꿈을 꿈",
+          "interpretation_ko": "이별이나 끊임없는 불화를 부를 조짐",
+          "interpretation_en": "to a married woman it brings separation or continuous disagreements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quarrel",
+              "original": "and to a married woman it brings separation or continuous disagreements.",
+              "translation_ko": "기혼 여성이 다툼 꿈을 꾸면, 이별이나 끊임없는 불화를 부를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 다투는 소리를 들음",
+          "interpretation_ko": "사업이 시원찮고 거래가 실망스러울 조짐",
+          "interpretation_en": "denotes unsatisfactory business and disappointing trade",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quarrel",
+              "original": "To hear others quarreling, denotes unsatisfactory business and disappointing trade.",
+              "translation_ko": "남이 다투는 소리를 듣는 꿈은, 사업이 시원찮고 거래가 실망스러울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남과 서로 욕하며 다툼",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "與人相罵者主吉",
+              "translation_ko": "남과 서로 욕하면 길하다"
+            }
+          ]
+        },
+        {
+          "context": "욕을 먹고도 모르는 척함",
+          "interpretation_ko": "큰 귀함이 올 조짐",
+          "interpretation_en": "a sign that great honor will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "被罵佯顛大貴至",
+              "translation_ko": "욕을 먹고 미친 척하면 큰 귀함이 온다"
             }
           ]
         }
@@ -73329,6 +73449,67 @@
       ]
     },
     {
+      "id": "quaker",
+      "term_ko": "퀘이커 교도",
+      "term_en": "quaker",
+      "aliases": [
+        "퀘이커 교도가",
+        "퀘이커 교도를",
+        "퀘이커 교도임을"
+      ],
+      "category": "person",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "퀘이커 교도 꿈을 꿈",
+          "interpretation_ko": "믿음직한 벗과 공정한 사업이 있을 조짐",
+          "interpretation_en": "denotes that you will have faithful friends and fair business",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quaker",
+              "original": "To dream of a Quaker, denotes that you will have faithful friends and fair business.",
+              "translation_ko": "퀘이커 교도 꿈은, 믿음직한 벗과 공정한 사업이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제가 퀘이커 교도임을 봄",
+          "interpretation_ko": "원수를 대할 때도 떳떳하게 처신할 조짐",
+          "interpretation_en": "you will deport yourself honorably toward an enemy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quaker",
+              "original": "If you are one, you will deport yourself honorably toward an enemy.",
+              "translation_ko": "제가 퀘이커 교도임을 보는 꿈은, 원수를 대할 때도 떳떳하게 처신할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 퀘이커 교도 모임에 참석함",
+          "interpretation_ko": "조촐한 몸가짐으로 살림을 잘 돌볼 믿음직한 남편을 얻을 조짐",
+          "interpretation_en": "portends that she will by her modest manners win a faithful husband who will provide well for her household",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quaker",
+              "original": "For a young woman to attend a Quaker meeting, portends that she will by her modest manners win a faithful husband who will provide well for her household.",
+              "translation_ko": "처녀가 퀘이커 교도 모임에 참석하는 꿈은, 조촐한 몸가짐으로 살림을 잘 돌볼 믿음직한 남편을 얻을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "queen",
       "term_ko": "왕비",
       "term_en": "queen",
@@ -97512,48 +97693,94 @@
       ]
     },
     {
-      "id": "quarrel",
-      "term_ko": "말다툼",
-      "term_en": "quarrel",
+      "id": "quarry",
+      "term_ko": "채석장",
+      "term_en": "quarry",
       "aliases": [
-        "말싸움",
-        "언쟁",
-        "욕설",
-        "말씨름"
+        "채석장이",
+        "채석장을",
+        "채석장에서"
       ],
-      "category": "action",
-      "polarity": "positive",
+      "category": "place",
+      "polarity": "ambivalent",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "남과 서로 욕하며 다툼",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
+          "context": "채석장에서 인부들이 바삐 일하는 것을 봄",
+          "interpretation_ko": "힘든 노동으로 나아갈 조짐",
+          "interpretation_en": "denotes that you will advance by hard labor",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "與人相罵者主吉",
-              "translation_ko": "남과 서로 욕하면 길하다"
+              "work": "miller",
+              "locator": "Quarry",
+              "original": "To dream of being in a quarry and seeing the workmen busy, denotes that you will advance by hard labor.",
+              "translation_ko": "채석장에서 인부들이 바삐 일하는 것을 보는 꿈은, 힘든 노동으로 나아갈 조짐이다"
             }
           ]
         },
         {
-          "context": "욕을 먹고도 모르는 척함",
-          "interpretation_ko": "큰 귀함이 올 조짐",
-          "interpretation_en": "a sign that great honor will come",
+          "context": "인적 없는 채석장을 봄",
+          "interpretation_ko": "실패와 실망, 흔히 죽음까지 뜻함",
+          "interpretation_en": "signifies failure, disappointment, and often death",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quarry",
+              "original": "An idle quarry, signifies failure, disappointment, and often death.",
+              "translation_ko": "인적 없는 채석장은, 실패와 실망, 흔히 죽음까지 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quartette",
+      "term_ko": "사중창",
+      "term_en": "quartette",
+      "aliases": [
+        "사중창이",
+        "사중창을",
+        "사중창에서"
+      ],
+      "category": "action",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 사중창에서 연주하거나 노래함",
+          "interpretation_ko": "좋은 일과 유쾌한 벗들, 즐거운 시간이 있을 조짐",
+          "interpretation_en": "denotes favorable affairs, jolly companions, and good times",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "被罵佯顛大貴至",
-              "translation_ko": "욕을 먹고 미친 척하면 큰 귀함이 온다"
+              "work": "miller",
+              "locator": "Quartette",
+              "original": "To dream of a quartette, and you are playing or singing, denotes favorable affairs, jolly companions, and good times.",
+              "translation_ko": "사중창에서 제가 연주하거나 노래하는 꿈은, 좋은 일과 유쾌한 벗들, 즐거운 시간이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "사중창을 보거나 들음",
+          "interpretation_ko": "저를 넘어서는 것을 바라게 될 조짐",
+          "interpretation_en": "foretells that you will aspire to something beyond you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quartette",
+              "original": "To see or hear a quartette, foretells that you will aspire to something beyond you.",
+              "translation_ko": "사중창을 보거나 듣는 꿈은, 저를 넘어서는 것을 바라게 될 조짐이다"
             }
           ]
         }
@@ -109424,6 +109651,38 @@
               "locator": "Quack Doctor",
               "original": "To see a quack doctor in your dreams, denotes you will be alarmed over some illness and its improper treatment.",
               "translation_ko": "돌팔이 의사를 보는 꿈은, 어떤 병과 그 잘못된 치료를 놀라 두려워하게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quarantine",
+      "term_ko": "검역",
+      "term_en": "quarantine",
+      "aliases": [
+        "검역에",
+        "검역을"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "검역에 걸림",
+          "interpretation_ko": "원수의 악의적인 술수로 곤란한 처지에 놓일 조짐",
+          "interpretation_en": "denotes that you will be placed in a disagreeable position by the malicious intriguing of enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quarantine",
+              "original": "To dream of being in quarantine, denotes that you will be placed in a disagreeable position by the malicious intriguing of enemies.",
+              "translation_ko": "검역에 걸리는 꿈은, 원수의 악의적인 술수로 곤란한 처지에 놓일 조짐이다"
             }
           ]
         }

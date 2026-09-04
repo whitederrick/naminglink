@@ -1,0 +1,74 @@
+[
+  {
+    "id": "quaker",
+    "aliases": [
+      "퀘이커 교도가",
+      "퀘이커 교도를",
+      "퀘이커 교도임을"
+    ],
+    "aliases_en": [
+      "a quaker",
+      "quakers"
+    ],
+    "contexts": {
+      "퀘이커 교도 꿈을 꿈": "믿음직한 공정한",
+      "제가 퀘이커 교도임을 봄": "제가 원수를",
+      "처녀가 퀘이커 교도 모임에 참석함": "모임 조촐한"
+    },
+    "contexts_en": {
+      "퀘이커 교도 꿈을 꿈": "faithful friends fair business",
+      "제가 퀘이커 교도임을 봄": "deport honorably enemy",
+      "처녀가 퀘이커 교도 모임에 참석함": "meeting modest household"
+    }
+  },
+  {
+    "id": "quarantine",
+    "aliases": [
+      "검역에",
+      "검역을"
+    ],
+    "aliases_en": [
+      "quarantine"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "quarry",
+    "aliases": [
+      "채석장이",
+      "채석장을",
+      "채석장에서"
+    ],
+    "aliases_en": [
+      "a quarry"
+    ],
+    "contexts": {
+      "채석장에서 인부들이 바삐 일하는 것을 봄": "인부들 힘든 노동",
+      "인적 없는 채석장을 봄": "인적 없는 실패"
+    },
+    "contexts_en": {
+      "채석장에서 인부들이 바삐 일하는 것을 봄": "workmen busy advance",
+      "인적 없는 채석장을 봄": "idle failure death"
+    }
+  },
+  {
+    "id": "quartette",
+    "aliases": [
+      "사중창이",
+      "사중창을",
+      "사중창에서"
+    ],
+    "aliases_en": [
+      "a quartette"
+    ],
+    "contexts": {
+      "제가 사중창에서 연주하거나 노래함": "제가 연주 유쾌한",
+      "사중창을 보거나 들음": "넘어서는 바라게"
+    },
+    "contexts_en": {
+      "제가 사중창에서 연주하거나 노래함": "playing singing jolly",
+      "사중창을 보거나 들음": "aspire beyond"
+    }
+  }
+]

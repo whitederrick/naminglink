@@ -695,7 +695,21 @@
       "말싸움",
       "언쟁",
       "욕설",
-      "말씨름"
+      "말씨름",
+      "다툼이",
+      "다툼을",
+      "다투는",
+      "다투었다",
+      "다툼",
+      "다툼이",
+      "다툼을",
+      "다투는",
+      "다투었다",
+      "다툼",
+      "다툼이",
+      "다툼을",
+      "다투는",
+      "다투었다"
     ],
     "aliases_en": [
       "argument",
@@ -705,11 +719,19 @@
     ],
     "contexts": {
       "남과 서로 욕하며 다툼": "서로 욕하 언성 맞서",
-      "욕을 먹고도 모르는 척함": "모르는척 참았 못들은 무시"
+      "욕을 먹고도 모르는 척함": "모르는 참았",
+      "다툼 꿈을 꿈": "불행과 격한",
+      "처녀가 다툼 꿈을 꿈": "처녀가 돌이킬",
+      "기혼 여성이 다툼 꿈을 꿈": "기혼 이별",
+      "남이 다투는 소리를 들음": "남이 시원찮고"
     },
     "contexts_en": {
       "남과 서로 욕하며 다툼": "cursing insulting",
-      "욕을 먹고도 모르는 척함": "ignored pretended endured silent"
+      "욕을 먹고도 모르는 척함": "ignored pretended endured silent",
+      "다툼 꿈을 꿈": "unhappiness fierce altercations",
+      "처녀가 다툼 꿈을 꿈": "young fatal unpleasantries",
+      "기혼 여성이 다툼 꿈을 꿈": "married separation disagreements",
+      "남이 다투는 소리를 들음": "hearing unsatisfactory disappointing"
     }
   },
   {
