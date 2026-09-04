@@ -7161,5 +7161,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "revenge": [
     "revenge",
     "avenge"
+  ],
+  "rheumatism": [
+    "rheumatism"
+  ],
+  "rhinestones": [
+    "a rhinestone",
+    "rhinestones"
+  ],
+  "rhinoceros": [
+    "a rhinoceros",
+    "rhinoceroses"
+  ],
+  "rhubarb": [
+    "rhubarb"
   ]
 };

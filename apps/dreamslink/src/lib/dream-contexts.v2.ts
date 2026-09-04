@@ -5394,5 +5394,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "revelation::즐거운 계시를 받음": "pleasant bright outlook",
   "revelation::음울한 계시를 받음": "gloomy discouraging overcome",
   "revenge::복수함": "weak uncharitable govern",
-  "revenge::남이 저에게 복수함": "themselves fear enemies"
+  "revenge::남이 저에게 복수함": "themselves fear enemies",
+  "rheumatism::꿈에 류마티스가 저를 덮침을 느낌": "attacking unexpected delay",
+  "rheumatism::남이 류마티스로 괴로워하는 것을 봄": "afflicted disappointments",
+  "rhinestones::라인스톤 꿈을 꿈": "pleasures favors duration",
+  "rhinestones::처녀에게 라인스톤이 다이아몬드로 드러나는 꿈이 나타남": "diamond insignificant fortune",
+  "rhinoceros::코뿔소를 봄": "loss threatening secret",
+  "rhinoceros::코뿔소를 죽임": "killing bravely obstacles",
+  "rhubarb::대황이 자라는 것을 봄": "growing entertainments occupy",
+  "rhubarb::대황을 요리함": "cook arguments friend",
+  "rhubarb::대황을 먹음": "eat dissatisfaction employment"
 };

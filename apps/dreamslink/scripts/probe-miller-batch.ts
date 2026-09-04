@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 219 — Revelation~Revolver, 4개 헤드워드)
+// (지금 담긴 것: 배치 220 — Rheumatism~Rhubarb, 4개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,17 +30,15 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "revelation", ctx: "즐거운 계시를 받음", text: "즐거운 계시를 받았다" },
-  { id: "revelation", ctx: "음울한 계시를 받음", text: "음울한 계시를 받았다" },
-  { id: "revenge", ctx: "복수함", text: "복수했다" },
-  { id: "revenge", ctx: "남이 저에게 복수함", text: "남이 저에게 복수했다" },
-  { id: "religion", ctx: "종교 부흥회에 참석함", text: "종교 부흥회에 참석했다" },
-  { id: "religion", ctx: "부흥회에서 적극적으로 참여함", text: "부흥회에서 적극적으로 참여했다" },
-  { id: "gun", ctx: "처녀에게 애인이 권총을 든 것을 봄", text: "처녀에게 애인이 권총을 든 것을 보았다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(religion·gun)의 옛 답이 그대로인가
-  { id: "religion", ctx: "종교를 이야기하며 신앙심이 깊어짐을 느낌", text: "종교를 이야기하며 신앙심이 깊어짐을 느꼈다" },
-  { id: "gun", ctx: "권총을 소유함", text: "권총을 소유했다" },
-  { id: "gun", ctx: "권총 꿈을 봄", text: "권총 꿈을 언뜻 보았다" },
+  { id: "rheumatism", ctx: "꿈에 류마티스가 저를 덮침을 느낌", text: "꿈에 류마티스가 나를 덮침을 느꼈다" },
+  { id: "rheumatism", ctx: "남이 류마티스로 괴로워하는 것을 봄", text: "남이 류마티스로 괴로워하는 것을 보았다" },
+  { id: "rhinestones", ctx: "라인스톤 꿈을 꿈", text: "라인스톤 꿈을 꾸었다" },
+  { id: "rhinestones", ctx: "처녀에게 라인스톤이 다이아몬드로 드러나는 꿈이 나타남", text: "처녀에게 라인스톤이 다이아몬드로 드러나는 꿈이 나타났다" },
+  { id: "rhinoceros", ctx: "코뿔소를 봄", text: "코뿔소를 보았다" },
+  { id: "rhinoceros", ctx: "코뿔소를 죽임", text: "코뿔소를 죽였다" },
+  { id: "rhubarb", ctx: "대황이 자라는 것을 봄", text: "대황이 자라는 것을 보았다" },
+  { id: "rhubarb", ctx: "대황을 요리함", text: "대황을 요리했다" },
+  { id: "rhubarb", ctx: "대황을 먹음", text: "대황을 먹었다" },
 ];
 
 let notFound = 0;

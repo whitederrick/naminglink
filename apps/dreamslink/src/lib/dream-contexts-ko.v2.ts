@@ -5398,5 +5398,14 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "revelation::즐거운 계시를 받음": "즐거운 밝은",
   "revelation::음울한 계시를 받음": "음울한 낙담",
   "revenge::복수함": "나약한 곤경",
-  "revenge::남이 저에게 복수함": "남이 저에게"
+  "revenge::남이 저에게 복수함": "남이 저에게",
+  "rheumatism::꿈에 류마티스가 저를 덮침을 느낌": "덮침을 지연",
+  "rheumatism::남이 류마티스로 괴로워하는 것을 봄": "남이 괴로워하는",
+  "rhinestones::라인스톤 꿈을 꿈": "짧게 즐거움과",
+  "rhinestones::처녀에게 라인스톤이 다이아몬드로 드러나는 꿈이 나타남": "다이아몬드로 하찮아",
+  "rhinoceros::코뿔소를 봄": "손실이 은밀한",
+  "rhinoceros::코뿔소를 죽임": "죽였다 용감하게",
+  "rhubarb::대황이 자라는 것을 봄": "자라는 여흥",
+  "rhubarb::대황을 요리함": "요리했다 말다툼",
+  "rhubarb::대황을 먹음": "먹었다 불만"
 };

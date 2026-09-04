@@ -1,0 +1,28 @@
+{
+  "batch": 220,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rheumatism",
+      "text": "To feel rheumatism attacking you in a dream, foretells unexpected delay in the accomplishment of plans. To see others so afflicted brings disappointments.",
+      "note": "새 상징 `rheumatism`(류마티스)"
+    },
+    {
+      "headword": "Rhinestones",
+      "text": "To dream of rhinestones, denotes pleasures and favors of short duration. For a young woman to dream that a rhinestone proves to be a diamond, foretells she will be surprised to find that some insignificant act on her part will result in good fortune.",
+      "note": "새 상징 `rhinestones`(라인스톤)"
+    },
+    {
+      "headword": "Rhinoceros",
+      "text": "To dream that you see a rhinoceros, foretells you will have a great loss threatening you, and that you will have secret troubles. To kill one, shows that you will bravely overcome obstacles.",
+      "note": "새 상징 `rhinoceros`(코뿔소)"
+    },
+    {
+      "headword": "Rhubarb",
+      "text": "To dream of rhubarb growing, denotes that pleasant entertainments will occupy your time for a while. To cook it, foretells spirited arguments in which you will lose a friend. To eat it, denotes dissatisfaction with present employment.",
+      "note": "새 상징 `rhubarb`(대황)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

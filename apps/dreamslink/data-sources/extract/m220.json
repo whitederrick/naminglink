@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "류마티스",
+    "term_en": "rheumatism",
+    "context": "꿈에 류마티스가 저를 덮침을 느낌",
+    "interpretation_ko": "계획을 이루는 데 뜻밖의 지연을 겪을 조짐",
+    "interpretation_en": "foretells unexpected delay in the accomplishment of plans",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rheumatism",
+      "original": "To feel rheumatism attacking you in a dream, foretells unexpected delay in the accomplishment of plans.",
+      "translation_ko": "꿈에 류마티스가 저를 덮침을 느끼는 꿈은, 계획을 이루는 데 뜻밖의 지연을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "류마티스",
+    "term_en": "rheumatism",
+    "context": "남이 류마티스로 괴로워하는 것을 봄",
+    "interpretation_ko": "실망스러운 일을 안길 조짐",
+    "interpretation_en": "brings disappointments",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Rheumatism",
+      "original": "To see others so afflicted brings disappointments.",
+      "translation_ko": "남이 류마티스로 괴로워하는 것을 보는 꿈은, 실망스러운 일을 안길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "라인스톤",
+    "term_en": "rhinestones",
+    "context": "라인스톤 꿈을 꿈",
+    "interpretation_ko": "짧게 끝날 즐거움과 호의를 뜻하는 조짐",
+    "interpretation_en": "denotes pleasures and favors of short duration",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rhinestones",
+      "original": "To dream of rhinestones, denotes pleasures and favors of short duration.",
+      "translation_ko": "라인스톤 꿈은, 짧게 끝날 즐거움과 호의를 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "라인스톤",
+    "term_en": "rhinestones",
+    "context": "처녀에게 라인스톤이 다이아몬드로 드러나는 꿈이 나타남",
+    "interpretation_ko": "하찮아 보이던 일이 좋은 결과로 이어져 놀랄 조짐",
+    "interpretation_en": "foretells she will be surprised to find that some insignificant act on her part will result in good fortune",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Rhinestones",
+      "original": "For a young woman to dream that a rhinestone proves to be a diamond, foretells she will be surprised to find that some insignificant act on her part will result in good fortune.",
+      "translation_ko": "처녀에게 라인스톤이 다이아몬드로 드러나는 꿈이 나타나면, 하찮아 보이던 일이 좋은 결과로 이어져 놀랄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "코뿔소",
+    "term_en": "rhinoceros",
+    "context": "코뿔소를 봄",
+    "interpretation_ko": "큰 손실이 위협하고 은밀한 근심이 있을 조짐",
+    "interpretation_en": "foretells you will have a great loss threatening you, and that you will have secret troubles",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Rhinoceros",
+      "original": "To dream that you see a rhinoceros, foretells you will have a great loss threatening you, and that you will have secret troubles.",
+      "translation_ko": "코뿔소를 보는 꿈은, 큰 손실이 위협하고 은밀한 근심이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "코뿔소",
+    "term_en": "rhinoceros",
+    "context": "코뿔소를 죽임",
+    "interpretation_ko": "용감하게 장애물을 이겨 낼 조짐",
+    "interpretation_en": "shows that you will bravely overcome obstacles",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rhinoceros",
+      "original": "To kill one, shows that you will bravely overcome obstacles.",
+      "translation_ko": "코뿔소를 죽이는 꿈은, 용감하게 장애물을 이겨 낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "대황",
+    "term_en": "rhubarb",
+    "context": "대황이 자라는 것을 봄",
+    "interpretation_ko": "한동안 즐거운 여흥으로 시간을 보낼 조짐",
+    "interpretation_en": "denotes that pleasant entertainments will occupy your time for a while",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Rhubarb",
+      "original": "To dream of rhubarb growing, denotes that pleasant entertainments will occupy your time for a while.",
+      "translation_ko": "대황이 자라는 것을 보는 꿈은, 한동안 즐거운 여흥으로 시간을 보낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "대황",
+    "term_en": "rhubarb",
+    "context": "대황을 요리함",
+    "interpretation_ko": "격한 말다툼으로 벗을 잃을 조짐",
+    "interpretation_en": "foretells spirited arguments in which you will lose a friend",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rhubarb",
+      "original": "To cook it, foretells spirited arguments in which you will lose a friend.",
+      "translation_ko": "대황을 요리하는 꿈은, 격한 말다툼으로 벗을 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "대황",
+    "term_en": "rhubarb",
+    "context": "대황을 먹음",
+    "interpretation_ko": "지금 하는 일에 불만을 느낄 조짐",
+    "interpretation_en": "denotes dissatisfaction with present employment",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rhubarb",
+      "original": "To eat it, denotes dissatisfaction with present employment.",
+      "translation_ko": "대황을 먹는 꿈은, 지금 하는 일에 불만을 느낄 조짐이다"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "rheumatism",
+    "aliases": ["류마티스가", "류마티스로"],
+    "aliases_en": ["rheumatism"],
+    "contexts": {
+      "꿈에 류마티스가 저를 덮침을 느낌": "덮침을 지연",
+      "남이 류마티스로 괴로워하는 것을 봄": "남이 괴로워하는"
+    },
+    "contexts_en": {
+      "꿈에 류마티스가 저를 덮침을 느낌": "attacking unexpected delay",
+      "남이 류마티스로 괴로워하는 것을 봄": "afflicted disappointments"
+    }
+  },
+  {
+    "id": "rhinestones",
+    "aliases": ["라인스톤이", "라인스톤을"],
+    "aliases_en": ["a rhinestone", "rhinestones"],
+    "contexts": {
+      "라인스톤 꿈을 꿈": "짧게 즐거움과",
+      "처녀에게 라인스톤이 다이아몬드로 드러나는 꿈이 나타남": "다이아몬드로 하찮아"
+    },
+    "contexts_en": {
+      "라인스톤 꿈을 꿈": "pleasures favors duration",
+      "처녀에게 라인스톤이 다이아몬드로 드러나는 꿈이 나타남": "diamond insignificant fortune"
+    }
+  },
+  {
+    "id": "rhinoceros",
+    "aliases": ["코뿔소가", "코뿔소를"],
+    "aliases_en": ["a rhinoceros", "rhinoceroses"],
+    "contexts": {
+      "코뿔소를 봄": "손실이 은밀한",
+      "코뿔소를 죽임": "죽였다 용감하게"
+    },
+    "contexts_en": {
+      "코뿔소를 봄": "loss threatening secret",
+      "코뿔소를 죽임": "killing bravely obstacles"
+    }
+  },
+  {
+    "id": "rhubarb",
+    "aliases": ["대황이", "대황을"],
+    "aliases_en": ["rhubarb"],
+    "contexts": {
+      "대황이 자라는 것을 봄": "자라는 여흥",
+      "대황을 요리함": "요리했다 말다툼",
+      "대황을 먹음": "먹었다 불만"
+    },
+    "contexts_en": {
+      "대황이 자라는 것을 봄": "growing entertainments occupy",
+      "대황을 요리함": "cook arguments friend",
+      "대황을 먹음": "eat dissatisfaction employment"
+    }
+  }
+]
