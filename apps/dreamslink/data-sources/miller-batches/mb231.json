@@ -1,0 +1,23 @@
+{
+  "batch": 231,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rosebush",
+      "text": "To see a rosebush in foliage but no blossoms, denotes prosperous circumstances are enclosing you. To see a dead rosebush, foretells misfortune and sickness for you or relatives.",
+      "note": "새 상징 `rosebush`(장미 덤불) — 두 그림"
+    },
+    {
+      "headword": "Rosemary",
+      "text": "Rosemary, if seen in dreams, denotes that sadness and indifference will cause unhappiness in homes where there is every appearance of prosperity.",
+      "note": "새 상징 `rosemary`(로즈메리) — 한 그림"
+    },
+    {
+      "headword": "Roses",
+      "text": "To dream of seeing roses blooming and fragrant, denotes that some joyful occasion is nearing, and you will possess the faithful love of your sweetheart. For a young woman to dream of gathering roses, shows she will soon have an offer of marriage, which will be much to her liking. Withered roses, signify the absence of loved ones. White roses, if seen without sunshine or dew, denotes serious if not fatal illness. To inhale their fragrance, brings unalloyed pleasure. For a young woman to dream of banks of roses, and that she is gathering and tying them into bouquets, signifies that she will be made very happy by the offering of some person whom she regards very highly.",
+      "note": "새 상징 `rose`(장미, 일반) — 여섯 그림. 기존 `damask-rose`(다마스크 장미)는 특정 품종이라 겹치지 않는다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "rosebush",
+    "aliases": [
+      "장미 덤불",
+      "장미덤불"
+    ],
+    "aliases_en": [
+      "a rosebush",
+      "rosebushes"
+    ],
+    "contexts": {
+      "잎만 무성하고 꽃이 없는 장미 덤불을 봄": "무성하 꽃이없 번영한",
+      "죽은 장미 덤불을 봄": "죽은 불운과 병이닥칠"
+    },
+    "contexts_en": {
+      "잎만 무성하고 꽃이 없는 장미 덤불을 봄": "foliage blossoms prosperous circumstances",
+      "죽은 장미 덤불을 봄": "dead misfortune sickness"
+    }
+  },
+  {
+    "id": "rosemary",
+    "aliases": [
+      "로즈메리"
+    ],
+    "aliases_en": [
+      "rosemary"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "rose",
+    "aliases": [
+      "장미꽃",
+      "장미를",
+      "장미가"
+    ],
+    "aliases_en": [
+      "roses",
+      "a rose"
+    ],
+    "contexts": {
+      "장미가 활짝 피어 향기로움을 봄": "만발 활짝핀 기쁜일",
+      "여성이 장미를 꺾음": "여성이 꺾음 꺾었 혼인제안",
+      "시든 장미를 봄": "시든 부재 곁에없",
+      "햇빛도 이슬도 없이 흰 장미를 봄": "흰장미 햇빛도 이슬도",
+      "장미 향기를 맡음": "향기를 맡음 맡았",
+      "여성이 무더기로 장미를 모아 꽃다발을 묶음": "무더기 꽃다발 존경하는"
+    },
+    "contexts_en": {
+      "장미가 활짝 피어 향기로움을 봄": "blooming fragrant joyful occasion",
+      "여성이 장미를 꺾음": "gathering marriage offer liking",
+      "시든 장미를 봄": "withered absence loved",
+      "햇빛도 이슬도 없이 흰 장미를 봄": "white sunshine dew fatal",
+      "장미 향기를 맡음": "inhale unalloyed pleasure",
+      "여성이 무더기로 장미를 모아 꽃다발을 묶음": "banks bouquets highly regards"
+    }
+  }
+]

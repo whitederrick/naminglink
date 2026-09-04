@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 230 — Ropes 나머지 여덟)
+// (지금 담긴 것: 배치 231 — Rosebush·Rosemary·Roses)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,20 +30,15 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "rope", ctx: "밧줄을 끊음", text: "밧줄을 끊었다" },
-  { id: "rope", ctx: "밧줄이나 말을 묶어 둠", text: "밧줄이나 말을 묶어 두었다" },
-  { id: "rope", ctx: "밧줄 위를 걸음", text: "밧줄 위를 걸었다" },
-  { id: "rope", ctx: "남이 밧줄 위를 걷는 것을 봄", text: "남이 밧줄 위를 걷는 것을 보았다" },
-  { id: "rope", ctx: "밧줄을 뛰어넘음", text: "밧줄을 뛰어넘었다" },
-  { id: "rope", ctx: "아이들과 줄넘기를 함", text: "아이들과 줄넘기를 했다" },
-  { id: "rope", ctx: "발로 밧줄을 붙잡음", text: "발로 밧줄을 붙잡았다" },
-  { id: "rope", ctx: "위층 창문에서 아래 사람들에게 밧줄을 전해 줌", text: "위층 창문에서 아래 사람들에게 밧줄을 전해 주었다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(rope)의 옛 답이 그대로인가
-  { id: "rope", ctx: "밧줄이 몸을 묶음", text: "밧줄이 몸을 묶었다" },
-  { id: "rope", ctx: "밧줄을 봄", text: "밧줄이 놓여 있는 것을 보았다" },
-  { id: "rope", ctx: "밧줄이 끊어짐", text: "밧줄이 끊어졌다" },
-  { id: "rope", ctx: "밧줄을 타고 오름", text: "밧줄을 타고 올랐다" },
-  { id: "rope", ctx: "밧줄을 타고 내려감", text: "밧줄을 타고 내려갔다" },
+  { id: "rosebush", ctx: "잎만 무성하고 꽃이 없는 장미 덤불을 봄", text: "잎만 무성하고 꽃이 없는 장미 덤불을 보았다" },
+  { id: "rosebush", ctx: "죽은 장미 덤불을 봄", text: "죽은 장미 덤불을 보았다" },
+  { id: "rosemary", ctx: "로즈메리를 봄", text: "로즈메리를 보았다" },
+  { id: "rose", ctx: "장미가 활짝 피어 향기로움을 봄", text: "장미가 활짝 피어 향기로운 것을 보았다" },
+  { id: "rose", ctx: "여성이 장미를 꺾음", text: "여성이 장미를 꺾었다" },
+  { id: "rose", ctx: "시든 장미를 봄", text: "시든 장미를 보았다" },
+  { id: "rose", ctx: "햇빛도 이슬도 없이 흰 장미를 봄", text: "햇빛도 이슬도 없이 흰 장미를 보았다" },
+  { id: "rose", ctx: "장미 향기를 맡음", text: "장미 향기를 맡았다" },
+  { id: "rose", ctx: "여성이 무더기로 장미를 모아 꽃다발을 묶음", text: "여성이 무더기로 장미를 모아 꽃다발을 묶었다" },
 ];
 
 let notFound = 0;

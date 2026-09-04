@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "장미 덤불",
+    "term_en": "rosebush",
+    "context": "잎만 무성하고 꽃이 없는 장미 덤불을 봄",
+    "interpretation_ko": "번영한 처지가 자신을 감쌀 조짐",
+    "interpretation_en": "denotes prosperous circumstances are enclosing you",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Rosebush",
+      "original": "To see a rosebush in foliage but no blossoms, denotes prosperous circumstances are enclosing you.",
+      "translation_ko": "잎만 무성하고 꽃이 없는 장미 덤불을 보는 꿈은, 번영한 처지가 자신을 감쌀 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장미 덤불",
+    "term_en": "rosebush",
+    "context": "죽은 장미 덤불을 봄",
+    "interpretation_ko": "자신이나 가족에게 불운과 병이 닥칠 조짐",
+    "interpretation_en": "foretells misfortune and sickness for you or relatives",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Rosebush",
+      "original": "To see a dead rosebush, foretells misfortune and sickness for you or relatives.",
+      "translation_ko": "죽은 장미 덤불을 보는 꿈은, 자신이나 가족에게 불운과 병이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "로즈메리",
+    "term_en": "rosemary",
+    "context": "로즈메리를 봄",
+    "interpretation_ko": "번영한 듯 보이는 집에 슬픔과 무관심이 불행을 부를 조짐",
+    "interpretation_en": "denotes that sadness and indifference will cause unhappiness in homes where there is every appearance of prosperity",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Rosemary",
+      "original": "Rosemary, if seen in dreams, denotes that sadness and indifference will cause unhappiness in homes where there is every appearance of prosperity.",
+      "translation_ko": "로즈메리를 보는 꿈은, 번영한 듯 보이는 집에 슬픔과 무관심이 불행을 부를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장미",
+    "term_en": "rose",
+    "context": "장미가 활짝 피어 향기로움을 봄",
+    "interpretation_ko": "기쁜 일이 다가오고, 연인의 성실한 사랑을 얻을 조짐",
+    "interpretation_en": "denotes that some joyful occasion is nearing, and you will possess the faithful love of your sweetheart",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Roses",
+      "original": "To dream of seeing roses blooming and fragrant, denotes that some joyful occasion is nearing, and you will possess the faithful love of your sweetheart.",
+      "translation_ko": "장미가 활짝 피어 향기로운 것을 보는 꿈은, 기쁜 일이 다가오고 연인의 성실한 사랑을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장미",
+    "term_en": "rose",
+    "context": "여성이 장미를 꺾음",
+    "interpretation_ko": "마음에 쏙 드는 혼인 제안을 곧 받을 조짐",
+    "interpretation_en": "shows she will soon have an offer of marriage, which will be much to her liking",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Roses",
+      "original": "For a young woman to dream of gathering roses, shows she will soon have an offer of marriage, which will be much to her liking.",
+      "translation_ko": "여성이 장미를 꺾는 꿈은, 마음에 쏙 드는 혼인 제안을 곧 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장미",
+    "term_en": "rose",
+    "context": "시든 장미를 봄",
+    "interpretation_ko": "사랑하는 이들이 곁에 없을 조짐",
+    "interpretation_en": "signify the absence of loved ones",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Roses",
+      "original": "Withered roses, signify the absence of loved ones.",
+      "translation_ko": "시든 장미를 보는 꿈은, 사랑하는 이들이 곁에 없을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장미",
+    "term_en": "rose",
+    "context": "햇빛도 이슬도 없이 흰 장미를 봄",
+    "interpretation_ko": "심각하거나 치명적인 병에 걸릴 조짐",
+    "interpretation_en": "denotes serious if not fatal illness",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Roses",
+      "original": "White roses, if seen without sunshine or dew, denotes serious if not fatal illness.",
+      "translation_ko": "햇빛도 이슬도 없이 흰 장미를 보는 꿈은, 심각하거나 치명적인 병에 걸릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장미",
+    "term_en": "rose",
+    "context": "장미 향기를 맡음",
+    "interpretation_ko": "거짓 없는 순수한 기쁨을 누릴 조짐",
+    "interpretation_en": "brings unalloyed pleasure",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Roses",
+      "original": "To inhale their fragrance, brings unalloyed pleasure.",
+      "translation_ko": "장미 향기를 맡는 꿈은, 거짓 없는 순수한 기쁨을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장미",
+    "term_en": "rose",
+    "context": "여성이 무더기로 장미를 모아 꽃다발을 묶음",
+    "interpretation_ko": "몹시 존경하는 이의 선물로 큰 행복을 누릴 조짐",
+    "interpretation_en": "signifies that she will be made very happy by the offering of some person whom she regards very highly",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Roses",
+      "original": "For a young woman to dream of banks of roses, and that she is gathering and tying them into bouquets, signifies that she will be made very happy by the offering of some person whom she regards very highly.",
+      "translation_ko": "여성이 무더기로 장미를 모아 꽃다발을 묶는 꿈은, 몹시 존경하는 이의 선물로 큰 행복을 누릴 조짐이다"
+    }
+  }
+]

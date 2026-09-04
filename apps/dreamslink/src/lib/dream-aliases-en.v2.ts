@@ -7229,5 +7229,16 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "root": [
     "roots",
     "a root"
+  ],
+  "rosebush": [
+    "a rosebush",
+    "rosebushes"
+  ],
+  "rosemary": [
+    "rosemary"
+  ],
+  "rose": [
+    "roses",
+    "a rose"
   ]
 };

@@ -5472,5 +5472,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "rook::떼까마귀 꿈을 꿈": "friends true humble conception",
   "rook::죽은 떼까마귀를 봄": "dead sickness immediate",
   "root::식물이나 나무의 뿌리를 봄": "plants trees decline",
-  "root::뿌리를 약으로 씀": "medicine illness sorrow"
+  "root::뿌리를 약으로 씀": "medicine illness sorrow",
+  "rosebush::잎만 무성하고 꽃이 없는 장미 덤불을 봄": "foliage blossoms prosperous circumstances",
+  "rosebush::죽은 장미 덤불을 봄": "dead misfortune sickness",
+  "rose::장미가 활짝 피어 향기로움을 봄": "blooming fragrant joyful occasion",
+  "rose::여성이 장미를 꺾음": "gathering marriage offer liking",
+  "rose::시든 장미를 봄": "withered absence loved",
+  "rose::햇빛도 이슬도 없이 흰 장미를 봄": "white sunshine dew fatal",
+  "rose::장미 향기를 맡음": "inhale unalloyed pleasure",
+  "rose::여성이 무더기로 장미를 모아 꽃다발을 묶음": "banks bouquets highly regards"
 };
