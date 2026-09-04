@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 216 — Rent~Reprieve, 2개 헤드워드)
+// (지금 담긴 것: 배치 217 — Reptile~Rescue, 2개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,12 +30,14 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "rent", ctx: "집을 빌림", text: "집을 빌렸다" },
-  { id: "rent", ctx: "재산을 세놓지 못함", text: "재산을 세놓지 못했다" },
-  { id: "rent", ctx: "집세를 냄", text: "집세를 냈다" },
-  { id: "rent", ctx: "집세를 내지 못함", text: "집세를 내지 못했다" },
-  { id: "reprieve", ctx: "형을 선고받았는데 집행유예를 받음", text: "형을 선고받았는데 집행유예를 받았다" },
-  { id: "reprieve", ctx: "처녀에게 정인이 집행유예를 받는 꿈이 나타남", text: "처녀에게 정인이 집행유예를 받는 꿈이 나타났다" },
+  { id: "reptile", ctx: "파충류가 저를 공격함", text: "파충류가 나를 공격했다" },
+  { id: "reptile", ctx: "파충류를 죽이는 데 성공함", text: "파충류를 죽이는 데 성공했다" },
+  { id: "reptile", ctx: "죽은 파충류가 되살아나는 것을 봄", text: "죽은 파충류가 되살아나는 것을 보았다" },
+  { id: "reptile", ctx: "다치지 않고 파충류를 손으로 다룸", text: "다치지 않고 파충류를 손으로 다루었다" },
+  { id: "reptile", ctx: "처녀가 여러 종류의 파충류를 봄", text: "처녀가 여러 종류의 파충류를 보았다" },
+  { id: "reptile", ctx: "처녀가 파충류에게 물림", text: "처녀가 파충류에게 물렸다" },
+  { id: "rescue", ctx: "어떤 위험에서 구조됨", text: "어떤 위험에서 구조되었다" },
+  { id: "rescue", ctx: "남을 구조함", text: "남을 구조했다" },
 ];
 
 let notFound = 0;

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "reptile",
+    "aliases": ["파충류가", "파충류를", "파충류에게"],
+    "aliases_en": ["a reptile", "reptiles"],
+    "contexts": {
+      "파충류가 저를 공격함": "공격했다 심각한",
+      "파충류를 죽이는 데 성공함": "죽이는 장애물",
+      "죽은 파충류가 되살아나는 것을 봄": "되살아나 다툼과",
+      "다치지 않고 파충류를 손으로 다룸": "다치지 언짢은",
+      "처녀가 여러 종류의 파충류를 봄": "여러 종류",
+      "처녀가 파충류에게 물림": "물렸다 연적"
+    },
+    "contexts_en": {
+      "파충류가 저를 공격함": "attacks trouble serious",
+      "파충류를 죽이는 데 성공함": "killing overcome obstacles",
+      "죽은 파충류가 되살아나는 것을 봄": "revive disputes renewed",
+      "다치지 않고 파충류를 손으로 다룸": "handle oppressed bitterness",
+      "처녀가 여러 종류의 파충류를 봄": "various conflicting fancies",
+      "처녀가 파충류에게 물림": "bitten superseded rival"
+    }
+  },
+  {
+    "id": "rescue",
+    "aliases": ["구조가", "구조를", "구조되었다", "구조됐다", "구조했다"],
+    "aliases_en": ["a rescue", "rescued"],
+    "contexts": {
+      "어떤 위험에서 구조됨": "위험 손실",
+      "남을 구조함": "구조했다 선행"
+    },
+    "contexts_en": {
+      "어떤 위험에서 구조됨": "danger threatened misfortune",
+      "남을 구조함": "esteemed good deeds"
+    }
+  }
+]

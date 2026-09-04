@@ -5373,5 +5373,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "rent::집세를 냄": "pay financial satisfactory",
   "rent::집세를 내지 못함": "unlucky falling trade",
   "reprieve::형을 선고받았는데 집행유예를 받음": "sentence overcome anxiety",
-  "reprieve::처녀에게 정인이 집행유예를 받는 꿈이 나타남": "lover good luck"
+  "reprieve::처녀에게 정인이 집행유예를 받는 꿈이 나타남": "lover good luck",
+  "reptile::파충류가 저를 공격함": "attacks trouble serious",
+  "reptile::파충류를 죽이는 데 성공함": "killing overcome obstacles",
+  "reptile::죽은 파충류가 되살아나는 것을 봄": "revive disputes renewed",
+  "reptile::다치지 않고 파충류를 손으로 다룸": "handle oppressed bitterness",
+  "reptile::처녀가 여러 종류의 파충류를 봄": "various conflicting fancies",
+  "reptile::처녀가 파충류에게 물림": "bitten superseded rival",
+  "rescue::어떤 위험에서 구조됨": "danger threatened misfortune",
+  "rescue::남을 구조함": "esteemed good deeds"
 };

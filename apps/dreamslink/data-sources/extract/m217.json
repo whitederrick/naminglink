@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "파충류",
+    "term_en": "reptile",
+    "context": "파충류가 저를 공격함",
+    "interpretation_ko": "심각한 문제가 앞에 놓일 조짐",
+    "interpretation_en": "there will be trouble of a serious nature ahead for you",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Reptile",
+      "original": "If a reptile attacks you in a dream, there will be trouble of a serious nature ahead for you.",
+      "translation_ko": "파충류가 저를 공격하는 꿈은, 심각한 문제가 앞에 놓일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "파충류",
+    "term_en": "reptile",
+    "context": "파충류를 죽이는 데 성공함",
+    "interpretation_ko": "마침내 장애물을 이겨 낼 조짐",
+    "interpretation_en": "you will finally overcome obstacles",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Reptile",
+      "original": "If you succeed in killing it, you will finally overcome obstacles.",
+      "translation_ko": "파충류를 죽이는 데 성공하는 꿈은, 마침내 장애물을 이겨 낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "파충류",
+    "term_en": "reptile",
+    "context": "죽은 파충류가 되살아나는 것을 봄",
+    "interpretation_ko": "해결된 줄 알았던 다툼과 불화가 다시 일어나 격한 앙심으로 번질 조짐",
+    "interpretation_en": "denotes that disputes and disagreements, which were thought to be settled, will be renewed and pushed with bitter animosity",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Reptile",
+      "original": "To see a dead reptile come to life, denotes that disputes and disagreements, which were thought to be settled, will be renewed and pushed with bitter animosity.",
+      "translation_ko": "죽은 파충류가 되살아나는 것을 보는 꿈은, 해결된 줄 알았던 다툼과 불화가 다시 일어나 격한 앙심으로 번질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "파충류",
+    "term_en": "reptile",
+    "context": "다치지 않고 파충류를 손으로 다룸",
+    "interpretation_ko": "벗들의 언짢은 기분과 앙심에 짓눌리지만 결국 좋은 관계를 되찾을 조짐",
+    "interpretation_en": "foretells that you will be oppressed by the ill humor and bitterness of friends, but you will succeed in restoring pleasant relations",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Reptile",
+      "original": "To handle them without harm to yourself, foretells that you will be oppressed by the ill humor and bitterness of friends, but you will succeed in restoring pleasant relations.",
+      "translation_ko": "다치지 않고 파충류를 손으로 다루는 꿈은, 벗들의 언짢은 기분과 앙심에 짓눌리지만 결국 좋은 관계를 되찾을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "파충류",
+    "term_en": "reptile",
+    "context": "처녀가 여러 종류의 파충류를 봄",
+    "interpretation_ko": "여러 갈등에 시달리고 정인이 다른 이에게 마음을 둘 조짐",
+    "interpretation_en": "she will have many conflicting troubles. Her lover will develop fancies for others",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Reptile",
+      "original": "For a young woman to see various kinds of reptiles, she will have many conflicting troubles. Her lover will develop fancies for others.",
+      "translation_ko": "처녀가 여러 종류의 파충류를 보는 꿈은, 여러 갈등에 시달리고 정인이 다른 이에게 마음을 둘 조짐이다"
+    }
+  },
+  {
+    "term_ko": "파충류",
+    "term_en": "reptile",
+    "context": "처녀가 파충류에게 물림",
+    "interpretation_ko": "연적에게 밀려날 조짐",
+    "interpretation_en": "she will be superseded by a rival",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Reptile",
+      "original": "If she is bitten by any of them, she will be superseded by a rival.",
+      "translation_ko": "처녀가 파충류에게 물리는 꿈은, 연적에게 밀려날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "구조",
+    "term_en": "rescue",
+    "context": "어떤 위험에서 구조됨",
+    "interpretation_ko": "불운의 위협을 받으나 약간의 손실로 벗어날 조짐",
+    "interpretation_en": "denotes that you will be threatened with misfortune, and will escape with a slight loss",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rescue",
+      "original": "To dream of being rescued from any danger, denotes that you will be threatened with misfortune, and will escape with a slight loss.",
+      "translation_ko": "어떤 위험에서 구조되는 꿈은, 불운의 위협을 받으나 약간의 손실로 벗어날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "구조",
+    "term_en": "rescue",
+    "context": "남을 구조함",
+    "interpretation_ko": "선행으로 존경받을 조짐",
+    "interpretation_en": "foretells that you will be esteemed for your good deeds",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rescue",
+      "original": "To rescue others, foretells that you will be esteemed for your good deeds.",
+      "translation_ko": "남을 구조하는 꿈은, 선행으로 존경받을 조짐이다"
+    }
+  }
+]

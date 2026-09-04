@@ -1,0 +1,18 @@
+{
+  "batch": 217,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Reptile",
+      "text": "If a reptile attacks you in a dream, there will be trouble of a serious nature ahead for you. If you succeed in killing it, you will finally overcome obstacles. To see a dead reptile come to life, denotes that disputes and disagreements, which were thought to be settled, will be renewed and pushed with bitter animosity. To handle them without harm to yourself, foretells that you will be oppressed by the ill humor and bitterness of friends, but you will succeed in restoring pleasant relations. For a young woman to see various kinds of reptiles, she will have many conflicting troubles. Her lover will develop fancies for others. If she is bitten by any of them, she will be superseded by a rival.",
+      "note": "새 상징 `reptile`(파충류) — 특정 종(뱀 등)이 아니라 파충류 일반을 가리키는 그림이라 `snake`와 별도로 세운다"
+    },
+    {
+      "headword": "Rescue",
+      "text": "To dream of being rescued from any danger, denotes that you will be threatened with misfortune, and will escape with a slight loss. To rescue others, foretells that you will be esteemed for your good deeds.",
+      "note": "새 상징 `rescue`(구조) — 기존 상징들에 흩어진 「특정 위험(늪·재난·익사)에서 구조됨」과 달리 위험을 특정하지 않는 일반적인 그림이라 따로 세운다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}
