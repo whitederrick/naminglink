@@ -161,6 +161,7 @@
     "m240.json",
     "m241.json",
     "m242.json",
+    "m243.json",
     "m25.json",
     "m26.json",
     "m27a.json",
@@ -23172,6 +23173,155 @@
               "locator": "捕禁刑罰獄具",
               "original": "枷鎖怕怖主分散",
               "translation_ko": "족쇄를 두려워하면 흩어져 헤어진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shaving",
+      "term_ko": "면도",
+      "term_en": "shaving",
+      "aliases": [
+        "면도",
+        "면도를",
+        "면도했다",
+        "면도할",
+        "면도하는",
+        "면도당하는",
+        "면도날"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "면도할 생각만 함",
+          "interpretation_ko": "사업의 성공적 발전을 계획하지만 성공에 필요한 힘을 내지 못할 조짐",
+          "interpretation_en": "denotes you will plan for the successful development of enterprises, but will fail to generate energy sufficient to succeed",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shave",
+              "original": "To merely contemplate getting a shave, in your dream, denotes you will plan for the successful development of enterprises, but will fail to generate energy sufficient to succeed.",
+              "translation_ko": "면도할 생각만 하는 꿈은, 사업의 성공적 발전을 계획하지만 성공에 필요한 힘을 내지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 면도를 받음",
+          "interpretation_ko": "사기꾼에게 속아 넘어갈 조짐",
+          "interpretation_en": "portends that you will let imposters defraud you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaving",
+              "original": "To dream that you are being shaved, portends that you will let imposters defraud you.",
+              "translation_ko": "남에게 면도를 받는 꿈은, 사기꾼에게 속아 넘어갈 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 면도함",
+          "interpretation_ko": "잔소리 심한 이 때문에 다툼이 있더라도 자신의 사업을 다스리고 집안을 이끌 조짐",
+          "interpretation_en": "foretells that you will govern your own business and dictate to your household, notwithstanding that the presence of a shrew may cause you quarrels",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaving",
+              "original": "To shave yourself, foretells that you will govern your own business and dictate to your household, notwithstanding that the presence of a shrew may cause you quarrels.",
+              "translation_ko": "스스로 면도하는 꿈은, 잔소리 심한 이 때문에 다툼이 있더라도 자신의 사업을 다스리고 집안을 이끌 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "면도 후 얼굴이 매끈함",
+          "interpretation_ko": "평온을 누리고 동료들에게 행실을 의심받지 않을 조짐",
+          "interpretation_en": "you will enjoy quiet, and your conduct will not be questioned by your companions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaving",
+              "original": "If your face appears smooth, you will enjoy quiet, and your conduct will hot be questioned by your companions.",
+              "translation_ko": "면도 후 얼굴이 매끈하면, 평온을 누리고 동료들에게 행실을 의심받지 않을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "면도 후 얼굴이 늙고 거칢",
+          "interpretation_ko": "결혼 생활에 풍파가 잦을 조짐",
+          "interpretation_en": "there will be many squalls or, the matrimonial sea",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaving",
+              "original": "If old and rough, there will be many squalls or, the matrimonial sea.",
+              "translation_ko": "얼굴이 늙고 거칠면, 결혼 생활에 풍파가 잦을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "무딘 면도날에 얼굴이 당김",
+          "interpretation_ko": "벗들에게 사생활을 비난받을 빌미를 줄 조짐",
+          "interpretation_en": "you will give your friends cause to criticize your private life",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaving",
+              "original": "If your razor is dull and pulls your face, you will give your friends cause to criticize your private life.",
+              "translation_ko": "무딘 면도날이 얼굴을 당기면, 벗들에게 사생활을 비난받을 빌미를 줄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "면도 중 수염이 세어 보임",
+          "interpretation_ko": "자신에게 권리를 주장하는 이들에게 정의감을 전혀 갖지 못할 조짐",
+          "interpretation_en": "you will be absolutely devoid of any sense of justice to those having claims upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaving",
+              "original": "If your beard seems gray, you will be absolutely devoid of any sense of justice to those having claims upon you.",
+              "translation_ko": "수염이 세어 보이면, 자신에게 권리를 주장하는 이들에게 정의감을 전혀 갖지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 남자들이 면도하는 것을 봄",
+          "interpretation_ko": "방탕한 쾌락에 빠져 본성이 더럽혀질 조짐",
+          "interpretation_en": "foretells that her nature will become sullied by indulgence in gross pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaving",
+              "original": "For a woman to see men shaving, foretells that her nature will become sullied by indulgence in gross pleasures.",
+              "translation_ko": "여성이 남자들이 면도하는 것을 보는 꿈은, 방탕한 쾌락에 빠져 본성이 더럽혀질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 면도당하는 꿈을 꿈",
+          "interpretation_ko": "남성스러움이 지나쳐 남자들이 정떨어져 돌아설 조짐",
+          "interpretation_en": "she will assume so much masculinity that men will turn from her in disgust",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shaving",
+              "original": "If she dreams of being shaved, she will assume so much masculinity that men will turn from her in disgust.",
+              "translation_ko": "여성이 자신이 면도당하는 꿈을 꾸면, 남성스러움이 지나쳐 남자들이 정떨어져 돌아설 조짐이다"
             }
           ]
         }
@@ -57396,6 +57546,83 @@
       ]
     },
     {
+      "id": "hut",
+      "term_ko": "오두막",
+      "term_en": "hut",
+      "aliases": [
+        "오두막집",
+        "초가집",
+        "움막",
+        "오막살이",
+        "판잣집"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "오두막을 봄",
+          "interpretation_ko": "이렇다 할 것 없는 그저 그런 성공에 그칠 조짐",
+          "interpretation_en": "denotes indifferent success",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hut",
+              "original": "To dream of a hut, denotes indifferent success.",
+              "translation_ko": "오두막 꿈은 이렇다 할 것 없는 성공을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "판잣집 꿈을 꿈",
+          "interpretation_ko": "건강을 찾아 집을 떠나고, 번영이 줄어들 조짐",
+          "interpretation_en": "denotes that you will leave home in the quest of health. This also warns you of decreasing prosperity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shanty",
+              "original": "To dream of a shanty, denotes that you will leave home in the quest of health. This also warns you of decreasing prosperity.",
+              "translation_ko": "판잣집 꿈은, 건강을 찾아 집을 떠날 조짐이다. 번영이 줄어들 조짐이기도 하다"
+            }
+          ]
+        },
+        {
+          "context": "오두막에서 잠을 잠",
+          "interpretation_ko": "몸이 상하고 마음이 흡족하지 못할 흉한 조짐",
+          "interpretation_en": "denotes ill health and dissatisfaction",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hut",
+              "original": "To dream that you are sleeping in a hut, denotes ill health and dissatisfaction.",
+              "translation_ko": "오두막에서 잠자는 꿈은 병약함과 불만족을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "푸른 들판에 있는 오두막을 봄",
+          "interpretation_ko": "살림이 넉넉해지나 기쁨은 오르내릴 조짐",
+          "interpretation_en": "denotes prosperity, but fluctuating happiness",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hut",
+              "original": "To see a hut in a green pasture, denotes prosperity, but fluctuating happiness.",
+              "translation_ko": "푸른 목초지의 오두막을 보면 번영하되 행복은 오르내린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "idleness",
       "term_ko": "게으름",
       "term_en": "idleness",
@@ -62546,6 +62773,79 @@
               "locator": "Servant",
               "original": "To be robbed by one, shows that you have some one near you, who does not respect the laws of ownership.",
               "translation_ko": "하인에게 도둑맞는 꿈은, 소유권의 법을 존중하지 않는 이가 가까이 있음을 보여주는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shark",
+      "term_ko": "상어",
+      "term_en": "shark",
+      "aliases": [
+        "상어"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "상어 꿈을 꿈",
+          "interpretation_ko": "만만찮은 적이 있음을 가리키는 조짐",
+          "interpretation_en": "denotes formidable enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shark",
+              "original": "To dream of sharks, denotes formidable enemies.",
+              "translation_ko": "상어 꿈은, 만만찮은 적이 있음을 가리키는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "상어가 쫓아와 공격함",
+          "interpretation_ko": "피할 수 없는 역경으로 낙담에 빠질 조짐",
+          "interpretation_en": "denotes that unavoidable reverses will sink you into dispondent foreboding",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shark",
+              "original": "To see a shark pursuing and attacking you, denotes that unavoidable reverses will sink you into dispondent foreboding.",
+              "translation_ko": "상어가 쫓아와 공격하는 꿈은, 피할 수 없는 역경으로 낙담에 빠질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 물에서 노니는 상어를 봄",
+          "interpretation_ko": "여성과 번영의 햇살을 누리는 동안에도 질투가 은밀히 불안과 불행을 빚어낼 조짐",
+          "interpretation_en": "foretells that while you are basking in the sunshine of women and prosperity, jealousy is secretly, but surely, working you disquiet, and unhappy fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shark",
+              "original": "To see them sporting in clear water, foretells that while you are basking in the sunshine of women and prosperity, jealousy is secretly, but surely, working you disquiet, and unhappy fortune.",
+              "translation_ko": "맑은 물에서 노니는 상어를 보는 꿈은, 여성과 번영의 햇살을 누리는 동안에도 질투가 은밀히 그러나 확실히 불안과 불행을 빚어낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 상어를 봄",
+          "interpretation_ko": "화해와 되살아난 번영의 조짐",
+          "interpretation_en": "denotes reconciliation and renewed prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shark",
+              "original": "To see a dead one, denotes reconciliation and renewed prosperity.",
+              "translation_ko": "죽은 상어를 보는 꿈은, 화해와 되살아난 번영의 조짐이다"
             }
           ]
         }
@@ -71643,68 +71943,6 @@
               "locator": "Infirmary",
               "original": "To dream that you leave an infirmary, denotes your escape from wily enemies who will cause you much worry.",
               "translation_ko": "요양원을 나서는 꿈을 꾸면 속을 썩이던 교활한 적에게서 빠져나온다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "hut",
-      "term_ko": "오두막",
-      "term_en": "hut",
-      "aliases": [
-        "오두막집",
-        "초가집",
-        "움막",
-        "오막살이"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "오두막을 봄",
-          "interpretation_ko": "이렇다 할 것 없는 그저 그런 성공에 그칠 조짐",
-          "interpretation_en": "denotes indifferent success",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Hut",
-              "original": "To dream of a hut, denotes indifferent success.",
-              "translation_ko": "오두막 꿈은 이렇다 할 것 없는 성공을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "오두막에서 잠을 잠",
-          "interpretation_ko": "몸이 상하고 마음이 흡족하지 못할 흉한 조짐",
-          "interpretation_en": "denotes ill health and dissatisfaction",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Hut",
-              "original": "To dream that you are sleeping in a hut, denotes ill health and dissatisfaction.",
-              "translation_ko": "오두막에서 잠자는 꿈은 병약함과 불만족을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "푸른 들판에 있는 오두막을 봄",
-          "interpretation_ko": "살림이 넉넉해지나 기쁨은 오르내릴 조짐",
-          "interpretation_en": "denotes prosperity, but fluctuating happiness",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Hut",
-              "original": "To see a hut in a green pasture, denotes prosperity, but fluctuating happiness.",
-              "translation_ko": "푸른 목초지의 오두막을 보면 번영하되 행복은 오르내린다"
             }
           ]
         }
@@ -104946,6 +105184,98 @@
       ]
     },
     {
+      "id": "shakspeare",
+      "term_ko": "셰익스피어",
+      "term_en": "shakspeare",
+      "aliases": [
+        "셰익스피어"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "셰익스피어 꿈을 꿈",
+          "interpretation_ko": "불행과 낙담이 중대한 일에 많은 근심을 일으키고, 사랑은 열정의 열기를 잃을 조짐",
+          "interpretation_en": "denotes that unhappiness and dispondency will work much anxiety to momentous affairs, and love will be stripped of passion's fever",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shakspeare",
+              "original": "To dream of Shakspeare, denotes that unhappiness and dispondency will work much anxiety to momentous affairs, and love will be stripped of passion's fever.",
+              "translation_ko": "셰익스피어 꿈은, 불행과 낙담이 중대한 일에 많은 근심을 일으키고 사랑은 열정의 열기를 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "셰익스피어의 작품을 읽음",
+          "interpretation_ko": "문학적 성취에 변함없이 매진할 조짐",
+          "interpretation_en": "denotes that you will unalterably attach yourself to literary accomplishments",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shakspeare",
+              "original": "To read Shakspeare's works, denotes that you will unalterably attach yourself to literary accomplishments.",
+              "translation_ko": "셰익스피어의 작품을 읽는 꿈은, 문학적 성취에 변함없이 매진할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shawl",
+      "term_ko": "숄",
+      "term_en": "shawl",
+      "aliases": [
+        "숄을",
+        "숄이",
+        "숄에"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "숄 꿈을 꿈",
+          "interpretation_ko": "누군가 아첨과 호의를 건넬 조짐",
+          "interpretation_en": "denotes that some one will offer you flattery and favor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shawl",
+              "original": "To dream of a shawl, denotes that some one will offer you flattery and favor.",
+              "translation_ko": "숄 꿈은, 누군가 아첨과 호의를 건넬 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "숄을 잃어버림",
+          "interpretation_ko": "슬픔과 불편의 조짐. 여성이라면 잘생긴 남자에게 버림받을 위험이 있음",
+          "interpretation_en": "foretells sorrow and discomfort. A young woman is in danger of being jilted by a good-looking man, after this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shawl",
+              "original": "To lose your shawl, foretells sorrow and discomfort. A young woman is in danger of being jilted by a good-looking man, after this dream.",
+              "translation_ko": "숄을 잃어버리는 꿈은, 슬픔과 불편의 조짐이다. 여성이라면 잘생긴 남자에게 버림받을 위험이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "shooting-an-arrow",
       "term_ko": "활쏘기",
       "term_en": "shooting an arrow",
@@ -105553,6 +105883,58 @@
               "locator": "垢污沐浴凌辱",
               "original": "失大小便主失財",
               "translation_ko": "대소변을 잃으면 재물을 잃는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "washing-one-s-hair",
+      "term_ko": "머리 감기",
+      "term_en": "washing one's hair",
+      "aliases": [
+        "머리감",
+        "샴푸",
+        "세발",
+        "머리를 감았다",
+        "머리를 감는",
+        "머리를 감을",
+        "머리 감는"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "머리를 감음",
+          "interpretation_ko": "거처를 옮기고 병이 나을 조짐",
+          "interpretation_en": "a sign of moving house and recovering from illness",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "洗頭遷居疾病除",
+              "translation_ko": "머리를 감으면 거처를 옮기고 질병이 없어진다"
+            }
+          ]
+        },
+        {
+          "context": "남이 머리 감는 것을 지켜봄",
+          "interpretation_ko": "남을 기쁘게 하려 품위 없는 일에 관여할 조짐",
+          "interpretation_en": "denotes that you will engage in undignified affairs to please others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Shampoo",
+              "original": "To dream of seeing shampooing going on, denotes that you will engage in undignified affairs to please others",
+              "translation_ko": "남이 머리 감는 것을 지켜보는 꿈은, 남을 기쁘게 하려 품위 없는 일에 관여할 조짐이다"
             }
           ]
         }
@@ -118715,39 +119097,6 @@
               "locator": "身體面目齒髮",
               "original": "梳頭洗面百憂去",
               "translation_ko": "머리를 빗고 얼굴을 씻으면 온갖 근심이 사라진다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "washing-one-s-hair",
-      "term_ko": "머리 감기",
-      "term_en": "washing one's hair",
-      "aliases": [
-        "머리감",
-        "샴푸",
-        "세발"
-      ],
-      "category": "action",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "머리를 감음",
-          "interpretation_ko": "거처를 옮기고 병이 나을 조짐",
-          "interpretation_en": "a sign of moving house and recovering from illness",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "洗頭遷居疾病除",
-              "translation_ko": "머리를 감으면 거처를 옮기고 질병이 없어진다"
             }
           ]
         }

@@ -5,21 +5,25 @@
       "오두막집",
       "초가집",
       "움막",
-      "오막살이"
+      "오막살이",
+      "판잣집"
     ],
     "aliases_en": [
       "a hut",
-      "huts"
+      "huts",
+      "a shanty"
     ],
     "contexts": {
       "오두막을 봄": "허름 낡은 덩그러니",
       "오두막에서 잠을 잠": "잠을 잤다 자고 누워",
-      "푸른 들판에 있는 오두막을 봄": "푸른 초원 들판 목장"
+      "푸른 들판에 있는 오두막을 봄": "푸른 초원 들판 목장",
+      "판잣집 꿈을 꿈": "판잣집 떠날 번영이"
     },
     "contexts_en": {
       "오두막을 봄": "indifferent",
       "오두막에서 잠을 잠": "sleeping dissatisfaction",
-      "푸른 들판에 있는 오두막을 봄": "green pasture prosperity fluctuating"
+      "푸른 들판에 있는 오두막을 봄": "green pasture prosperity fluctuating",
+      "판잣집 꿈을 꿈": "quest decreasing warns"
     }
   },
   {

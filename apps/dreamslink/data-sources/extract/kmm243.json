@@ -1,0 +1,101 @@
+[
+  {
+    "id": "shakspeare",
+    "aliases": [
+      "셰익스피어"
+    ],
+    "aliases_en": [
+      "shakspeare",
+      "shakespeare"
+    ],
+    "contexts": {
+      "셰익스피어 꿈을 꿈": "낙담이 근심을 열정의열기",
+      "셰익스피어의 작품을 읽음": "작품을 읽는 문학적성취"
+    },
+    "contexts_en": {
+      "셰익스피어 꿈을 꿈": "dispondency anxiety passion",
+      "셰익스피어의 작품을 읽음": "read works literary"
+    }
+  },
+  {
+    "id": "shark",
+    "aliases": [
+      "상어"
+    ],
+    "aliases_en": [
+      "a shark",
+      "sharks"
+    ],
+    "contexts": {
+      "상어 꿈을 꿈": "만만찮은 적이있음",
+      "상어가 쫓아와 공격함": "쫓아와 공격 피할수없는",
+      "맑은 물에서 노니는 상어를 봄": "맑은물에서 노니는 은밀히",
+      "죽은 상어를 봄": "죽은 화해와 되살아난"
+    },
+    "contexts_en": {
+      "상어 꿈을 꿈": "formidable enemies",
+      "상어가 쫓아와 공격함": "pursuing attacking reverses",
+      "맑은 물에서 노니는 상어를 봄": "sporting clear jealousy",
+      "죽은 상어를 봄": "dead reconciliation renewed"
+    }
+  },
+  {
+    "id": "shaving",
+    "aliases": [
+      "면도",
+      "면도를",
+      "면도했다",
+      "면도할",
+      "면도하는",
+      "면도당하는",
+      "면도날"
+    ],
+    "aliases_en": [
+      "shaving",
+      "getting a shave",
+      "being shaved"
+    ],
+    "contexts": {
+      "면도할 생각만 함": "생각만 사업의 힘을 내지",
+      "남에게 면도를 받음": "받았다 사기꾼에게 속아 넘어갈",
+      "스스로 면도함": "스스로 잔소리 심한 집안을 이끌",
+      "면도 후 얼굴이 매끈함": "매끈 평온을 의심받지",
+      "면도 후 얼굴이 늙고 거칢": "늙고 거칠었다 결혼 풍파",
+      "무딘 면도날에 얼굴이 당김": "무딘 면도날에 사생활을 비난받을",
+      "면도 중 수염이 세어 보임": "수염이 세어 정의감을 권리를 주장",
+      "여성이 남자들이 면도하는 것을 봄": "남자들이 방탕한 본성이 더럽혀질",
+      "여성이 면도당하는 꿈을 꿈": "면도당하는 남성스러움이 정떨어져"
+    },
+    "contexts_en": {
+      "면도할 생각만 함": "contemplate enterprises fail",
+      "남에게 면도를 받음": "imposters defraud trust",
+      "스스로 면도함": "govern dictate shrew",
+      "면도 후 얼굴이 매끈함": "smooth quiet questioned",
+      "면도 후 얼굴이 늙고 거칢": "rough squalls matrimonial",
+      "무딘 면도날에 얼굴이 당김": "razor dull pulls",
+      "면도 중 수염이 세어 보임": "beard gray justice",
+      "여성이 남자들이 면도하는 것을 봄": "sullied indulgence gross",
+      "여성이 면도당하는 꿈을 꿈": "masculinity disgust"
+    }
+  },
+  {
+    "id": "shawl",
+    "aliases": [
+      "숄을",
+      "숄이",
+      "숄에"
+    ],
+    "aliases_en": [
+      "a shawl",
+      "your shawl"
+    ],
+    "contexts": {
+      "숄 꿈을 꿈": "아첨과 호의를건넬",
+      "숄을 잃어버림": "잃어버렸다 슬픔과 잘생긴 남자"
+    },
+    "contexts_en": {
+      "숄 꿈을 꿈": "flattery favor",
+      "숄을 잃어버림": "lose sorrow jilted"
+    }
+  }
+]

@@ -5650,7 +5650,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "hut": [
     "a hut",
-    "huts"
+    "huts",
+    "a shanty"
   ],
   "hyacinth": [
     "hyacinths"
@@ -7432,5 +7433,22 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "shaking-hands": [
     "shaking hands",
     "shook hands"
+  ],
+  "shakspeare": [
+    "shakspeare",
+    "shakespeare"
+  ],
+  "shark": [
+    "a shark",
+    "sharks"
+  ],
+  "shaving": [
+    "shaving",
+    "getting a shave",
+    "being shaved"
+  ],
+  "shawl": [
+    "a shawl",
+    "your shawl"
   ]
 };

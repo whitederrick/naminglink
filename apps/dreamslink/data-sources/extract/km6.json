@@ -1258,14 +1258,24 @@
     "aliases": [
       "머리감",
       "샴푸",
-      "세발"
+      "세발",
+      "머리를 감았다",
+      "머리를 감는",
+      "머리를 감을",
+      "머리 감는"
     ],
     "aliases_en": [
       "washing hair",
       "shampoo",
       "hair wash"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "머리를 감음": "거처를 옮기고 질병이",
+      "남이 머리 감는 것을 지켜봄": "지켜보 남을 품위"
+    },
+    "contexts_en": {
+      "머리를 감음": "moving house recovering",
+      "남이 머리 감는 것을 지켜봄": "seeing shampooing undignified"
+    }
   }
 ]

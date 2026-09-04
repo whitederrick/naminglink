@@ -1,0 +1,48 @@
+{
+  "batch": 243,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Shakspeare",
+      "text": "To dream of Shakspeare, denotes that unhappiness and dispondency will work much anxiety to momentous affairs, and love will be stripped of passion's fever. To read Shakspeare's works, denotes that you will unalterably attach yourself to literary accomplishments.",
+      "note": "새 상징 `shakspeare`(셰익스피어) — 두 그림"
+    },
+    {
+      "headword": "Shampoo",
+      "text": "To dream of seeing shampooing going on, denotes that you will engage in undignified affairs to please others",
+      "note": "기존 `washing-one-s-hair`(머리 감기)에 붙임 — 한 그림. 「자신의 머리를 감음」 문장은 기존 「머리를 감음」과 같은 그림이라 건너뜀"
+    },
+    {
+      "headword": "Shanty",
+      "text": "To dream of a shanty, denotes that you will leave home in the quest of health. This also warns you of decreasing prosperity.",
+      "note": "기존 `hut`(오두막)에 붙임 — 한 그림"
+    },
+    {
+      "headword": "Shark",
+      "text": "To dream of sharks, denotes formidable enemies. To see a shark pursuing and attacking you, denotes that unavoidable reverses will sink you into dispondent foreboding. To see them sporting in clear water, foretells that while you are basking in the sunshine of women and prosperity, jealousy is secretly, but surely, working you disquiet, and unhappy fortune. To see a dead one, denotes reconciliation and renewed prosperity.",
+      "note": "새 상징 `shark`(상어) — 네 그림"
+    },
+    {
+      "headword": "Shave",
+      "text": "To merely contemplate getting a shave, in your dream, denotes you will plan for the successful development of enterprises, but will fail to generate energy sufficient to succeed.",
+      "note": "새 상징 `shaving`(면도)의 첫 그림 — Shaving과 합침(같은 행위)"
+    },
+    {
+      "headword": "Shaving",
+      "text": "To dream that you are being shaved, portends that you will let imposters defraud you. To shave yourself, foretells that you will govern your own business and dictate to your household, notwithstanding that the presence of a shrew may cause you quarrels. If your face appears smooth, you will enjoy quiet, and your conduct will hot be questioned by your companions. If old and rough, there will be many squalls or, the matrimonial sea. If your razor is dull and pulls your face, you will give your friends cause to criticize your private life. If your beard seems gray, you will be absolutely devoid of any sense of justice to those having claims upon you. For a woman to see men shaving, foretells that her nature will become sullied by indulgence in gross pleasures. If she dreams of being shaved, she will assume so much masculinity that men will turn from her in disgust.",
+      "note": "`shaving`(면도)에 여덟 그림 더함(매끈함/거칢은 둘로 나눔) — 합쳐 아홉"
+    },
+    {
+      "headword": "Shawl",
+      "text": "To dream of a shawl, denotes that some one will offer you flattery and favor. To lose your shawl, foretells sorrow and discomfort. A young woman is in danger of being jilted by a good-looking man, after this dream.",
+      "note": "새 상징 `shawl`(숄) — 두 그림"
+    }
+  ],
+  "skipped": [
+    "Shears — 「가위를 보면 인색해짐」·「부러진 가위를 보면 벗을 잃음」 둘 다 기존 `가위`(scissors)가 이미 가진 그림(가위를 봄·가위의 다리가 부러짐)과 같은 그림이라 통째로 건너뜀",
+    "Sheaves — 「볏단 꿈은 길한 조짐」이 기존 `rice-plant`(벼)의 「벼와 곡식을 얻음」(크게 길한 조짐)과 같은 그림이라 건너뜀"
+  ],
+  "skipped_sentences": [
+    "Shampoo — 「자신의 머리를 감는 꿈은 은밀한 여행」 문장은 기존 washing-one-s-hair의 「머리를 감음」과 같은 그림(자신이 머리를 감음)이라 건너뜀 — 지켜보는 쪽(남이 감는 것을 봄)만 새로 넣음"
+  ]
+}

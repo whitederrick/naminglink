@@ -1,5 +1,6 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 242 — Servant·Shakers·Shaking Hands, Sewing은 needle과 같은 그림이라 건너뜀)
+// (지금 담긴 것: 배치 243 — Shakspeare·Shark·Shaving·Shawl, 기존 hut·washing-one-s-hair에
+// 판잣집·머리 감는 것을 지켜봄 붙임. Shears·Sheaves는 기존 가위·벼와 같은 그림이라 건너뜀)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,21 +31,28 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "servant", ctx: "하인 꿈을 꿈", text: "하인 꿈을 꾸었다" },
-  { id: "servant", ctx: "하인을 내보냄", text: "하인을 내보냈다" },
-  { id: "servant", ctx: "하인과 다툼", text: "하인과 다퉜다" },
-  { id: "servant", ctx: "하인에게 도둑맞음", text: "하인에게 도둑맞았다" },
-  { id: "shakers", ctx: "셰이커 교단원을 봄", text: "셰이커 교단원을 보았다" },
-  { id: "shakers", ctx: "자신이 셰이커 교단에 속한다고 여김", text: "자신이 셰이커 교단에 속한다고 여겼다" },
-  { id: "shaking-hands", ctx: "여성이 저명한 통치자와 악수함", text: "여성이 저명한 통치자와 악수했다" },
-  { id: "shaking-hands", ctx: "여성이 그 기회를 놓치지 않고 악수함", text: "여성이 그 기회를 놓치지 않고 악수했다" },
-  { id: "shaking-hands", ctx: "여성이 손을 뻗어야 악수할 수 있음", text: "여성이 손을 뻗어야 악수할 수 있었다" },
-  { id: "shaking-hands", ctx: "여성이 장갑을 낀 채 악수함", text: "여성이 장갑을 낀 채 악수했다" },
-  { id: "shaking-hands", ctx: "자신보다 낮은 이와 악수함", text: "자신보다 낮은 이와 악수했다" },
-  { id: "shaking-hands", ctx: "자신이나 남의 손이 더러움을 느낌", text: "악수를 하는데 자신이나 남의 손이 더러움을 느꼈다" },
-  { id: "shaking-hands", ctx: "여성이 노쇠한 남자와 악수함", text: "여성이 노쇠한 남자와 악수했다" },
-  // 지킴 — 이번에 손대지 않은 needle 의 옛 답이 그대로인가 (Sewing을 needle과 겹친다고 판단해 건너뜀)
-  { id: "needle", ctx: "바늘을 씀", text: "바늘을 썼다" },
+  { id: "shakspeare", ctx: "셰익스피어 꿈을 꿈", text: "셰익스피어 꿈을 꾸었다" },
+  { id: "shakspeare", ctx: "셰익스피어의 작품을 읽음", text: "셰익스피어의 작품을 읽었다" },
+  { id: "shark", ctx: "상어 꿈을 꿈", text: "상어 꿈을 꾸었다" },
+  { id: "shark", ctx: "상어가 쫓아와 공격함", text: "상어가 쫓아와 공격했다" },
+  { id: "shark", ctx: "맑은 물에서 노니는 상어를 봄", text: "맑은 물에서 노니는 상어를 보았다" },
+  { id: "shark", ctx: "죽은 상어를 봄", text: "죽은 상어를 보았다" },
+  { id: "shaving", ctx: "면도할 생각만 함", text: "면도할 생각만 했다" },
+  { id: "shaving", ctx: "남에게 면도를 받음", text: "남에게 면도를 받았다" },
+  { id: "shaving", ctx: "스스로 면도함", text: "스스로 면도했다" },
+  { id: "shaving", ctx: "면도 후 얼굴이 매끈함", text: "면도 후 얼굴이 매끈했다" },
+  { id: "shaving", ctx: "면도 후 얼굴이 늙고 거칢", text: "면도 후 얼굴이 늙고 거칠었다" },
+  { id: "shaving", ctx: "무딘 면도날에 얼굴이 당김", text: "무딘 면도날에 얼굴이 당겼다" },
+  { id: "shaving", ctx: "면도 중 수염이 세어 보임", text: "면도 중 수염이 세어 보였다" },
+  { id: "shaving", ctx: "여성이 남자들이 면도하는 것을 봄", text: "여성이 남자들이 면도하는 것을 보았다" },
+  { id: "shaving", ctx: "여성이 면도당하는 꿈을 꿈", text: "여성이 면도당하는 꿈을 꾸었다" },
+  { id: "shawl", ctx: "숄 꿈을 꿈", text: "숄 꿈을 꾸었다" },
+  { id: "shawl", ctx: "숄을 잃어버림", text: "숄을 잃어버렸다" },
+  { id: "hut", ctx: "판잣집 꿈을 꿈", text: "판잣집 꿈을 꾸었다" },
+  { id: "washing-one-s-hair", ctx: "남이 머리 감는 것을 지켜봄", text: "남이 머리 감는 것을 지켜보았다" },
+  // 지킴 — 이번에 손댄 기존 상징(hut·washing-one-s-hair)의 옛 답이 그대로인가
+  { id: "hut", ctx: "오두막을 봄", text: "오두막을 보았다" },
+  { id: "washing-one-s-hair", ctx: "머리를 감음", text: "머리를 감았다" },
 ];
 
 let notFound = 0;
