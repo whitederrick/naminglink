@@ -7071,5 +7071,13 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "railroad": [
     "a railroad",
     "railroads"
+  ],
+  "raisins": [
+    "a raisin",
+    "raisin"
+  ],
+  "rake": [
+    "a rake",
+    "rakes"
   ]
 };

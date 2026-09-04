@@ -651,11 +651,17 @@
     ],
     "contexts": {
       "붉은 무지개를 봄": "붉은 빨간 붉게 적색",
-      "검은 무지개를 봄": "검은 까만 검게 흑색 검었 검은색"
+      "검은 무지개를 봄": "검은 까만 검게 흑색 검었 검은색",
+      "무지개를 봄": "예사롭지 풍년이",
+      "연인들이 무지개를 봄": "연인들이 혼인에서",
+      "푸른 나무 위로 낮게 걸린 무지개를 봄": "낮게 걸린 나무"
     },
     "contexts_en": {
-      "붉은 무지개를 봄": "red crimson scarlet",
-      "검은 무지개를 봄": "black dark"
+      "붉은 무지개를 봄": "crimson scarlet",
+      "검은 무지개를 봄": "black dark",
+      "무지개를 봄": "unusual happenings promising crops",
+      "연인들이 무지개를 봄": "lovers omen union",
+      "푸른 나무 위로 낮게 걸린 무지개를 봄": "hanging low green trees"
     }
   },
   {

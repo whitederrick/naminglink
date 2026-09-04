@@ -1,0 +1,24 @@
+[
+  {
+    "id": "raisins",
+    "aliases": ["건포도가", "건포도를", "말린 포도"],
+    "aliases_en": ["a raisin", "raisin"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "rake",
+    "aliases": ["갈퀴가", "갈퀴를", "갈퀴질하는", "갈퀴질했다", "갈퀴질을"],
+    "aliases_en": ["a rake", "rakes"],
+    "contexts": {
+      "갈퀴를 사용함": "사용했다 스스로",
+      "부러진 갈퀴를 봄": "부러진 병이나",
+      "남이 갈퀴질하는 것을 봄": "갈퀴질하는 기뻐할"
+    },
+    "contexts_en": {
+      "갈퀴를 사용함": "using superintend yourself",
+      "부러진 갈퀴를 봄": "broken sickness accident",
+      "남이 갈퀴질하는 것을 봄": "raking rejoice fortunate"
+    }
+  }
+]

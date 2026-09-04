@@ -122,6 +122,7 @@
     "m205.json",
     "m206.json",
     "m207.json",
+    "m208.json",
     "m21.json",
     "m22.json",
     "m23.json",
@@ -45424,6 +45425,92 @@
       ]
     },
     {
+      "id": "rainbow",
+      "term_ko": "무지개",
+      "term_en": "rainbow",
+      "aliases": [],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무지개를 봄",
+          "interpretation_ko": "예사롭지 않은 좋은 일이 일어날 조짐. 형편이 더 나아지고 풍년이 들 조짐",
+          "interpretation_en": "is prognostic of unusual happenings. Affairs will assume a more promising countenance, and crops will give promise of a plentiful yield",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rainbow",
+              "original": "To see a rainbow in a dream, is prognostic of unusual happenings. Affairs will assume a more promising countenance, and crops will give promise of a plentiful yield.",
+              "translation_ko": "무지개를 보는 꿈은, 예사롭지 않은 좋은 일이 일어날 조짐이다. 형편이 더 나아지고 풍년이 들 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "연인들이 무지개를 봄",
+          "interpretation_ko": "혼인에서 큰 행복을 얻을 조짐",
+          "interpretation_en": "is an omen of much happiness from their union",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rainbow",
+              "original": "For lovers to see the rainbow, is an omen of much happiness from their union.",
+              "translation_ko": "연인들이 무지개를 보는 꿈은, 혼인에서 큰 행복을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "푸른 나무 위로 낮게 걸린 무지개를 봄",
+          "interpretation_ko": "무슨 일이든 반드시 성공할 조짐",
+          "interpretation_en": "signifies unconditional success in any undertaking",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rainbow",
+              "original": "To see the rainbow hanging low over green trees, signifies unconditional success in any undertaking.",
+              "translation_ko": "푸른 나무 위로 낮게 걸린 무지개를 보는 꿈은, 무슨 일이든 반드시 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "붉은 무지개를 봄",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "赤虹見吉黑虹凶",
+              "translation_ko": "붉은 무지개를 보면 길하고 검은 무지개는 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "검은 무지개를 봄",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "赤虹見吉黑虹凶",
+              "translation_ko": "붉은 무지개를 보면 길하고 검은 무지개는 흉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "sea",
       "term_ko": "바다",
       "term_en": "sea",
@@ -74493,6 +74580,69 @@
       ]
     },
     {
+      "id": "rake",
+      "term_ko": "갈퀴",
+      "term_en": "rake",
+      "aliases": [
+        "갈퀴가",
+        "갈퀴를",
+        "갈퀴질하는",
+        "갈퀴질했다",
+        "갈퀴질을"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "갈퀴를 사용함",
+          "interpretation_ko": "남에게 맡긴 일은 스스로 감독하지 않으면 결코 이루어지지 않을 조짐",
+          "interpretation_en": "portends that some work which you have left to others will never be accomplished unless you superintend it yourself",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rake",
+              "original": "To dream of using a rake, portends that some work which you have left to others will never be accomplished unless you superintend it yourself.",
+              "translation_ko": "갈퀴를 사용하는 꿈은, 남에게 맡긴 일은 스스로 감독하지 않으면 결코 이루어지지 않을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부러진 갈퀴를 봄",
+          "interpretation_ko": "병이나 사고로 계획이 실패할 조짐",
+          "interpretation_en": "denotes that sickness, or some accident will bring failure to your plans",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rake",
+              "original": "To see a broken rake, denotes that sickness, or some accident will bring failure to your plans.",
+              "translation_ko": "부러진 갈퀴를 보는 꿈은, 병이나 사고로 계획이 실패할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 갈퀴질하는 것을 봄",
+          "interpretation_ko": "남의 다행스러운 형편을 기뻐할 조짐",
+          "interpretation_en": "foretells that you will rejoice in the fortunate condition of others",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rake",
+              "original": "To see others raking, foretells that you will rejoice in the fortunate condition of others.",
+              "translation_ko": "남이 갈퀴질하는 것을 보는 꿈은, 남의 다행스러운 형편을 기뻐할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "rope",
       "term_ko": "밧줄",
       "term_en": "rope",
@@ -98889,49 +99039,6 @@
       ]
     },
     {
-      "id": "rainbow",
-      "term_ko": "무지개",
-      "term_en": "rainbow",
-      "aliases": [],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "붉은 무지개를 봄",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "赤虹見吉黑虹凶",
-              "translation_ko": "붉은 무지개를 보면 길하고 검은 무지개는 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "검은 무지개를 봄",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "赤虹見吉黑虹凶",
-              "translation_ko": "붉은 무지개를 보면 길하고 검은 무지개는 흉하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "rock",
       "term_ko": "바위",
       "term_en": "rock",
@@ -110882,6 +110989,39 @@
               "locator": "Rack",
               "original": "To dream of a rack, denotes the uncertainty of the outcome of some engagement which gives you much anxious thought.",
               "translation_ko": "고문틀 꿈은, 어떤 약속의 결과를 몰라 애태우게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raisins",
+      "term_ko": "건포도",
+      "term_en": "raisins",
+      "aliases": [
+        "건포도가",
+        "건포도를",
+        "말린 포도"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "건포도를 먹음",
+          "interpretation_ko": "이루어질 듯하던 희망이 낙담으로 어두워질 조짐",
+          "interpretation_en": "implies that discouragements will darken your hopes when they seem about to be realized",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Raisins",
+              "original": "To dream of eating raisins, implies that discouragements will darken your hopes when they seem about to be realized.",
+              "translation_ko": "건포도를 먹는 꿈은, 이루어질 듯하던 희망이 낙담으로 어두워질 조짐이다"
             }
           ]
         }

@@ -1,0 +1,23 @@
+{
+  "batch": 208,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rainbow",
+      "text": "To see a rainbow in a dream, is prognostic of unusual happenings. Affairs will assume a more promising countenance, and crops will give promise of a plentiful yield. For lovers to see the rainbow, is an omen of much happiness from their union. To see the rainbow hanging low over green trees, signifies unconditional success in any undertaking.",
+      "note": "기존 상징 `rainbow`(무지개)에 더한다 — 주공해몽은 「붉은/검은 무지개」 색깔로만 갈렸는데 밀러는 색깔 조건이 없는 일반적인 무지개를 본다. 조건 없는 쪽이 더 넓어 기본값(첫 의미)이 바뀌는 것을 그대로 둔다(배치 194 cowslip과 같은 자리)"
+    },
+    {
+      "headword": "Raisins",
+      "text": "To dream of eating raisins, implies that discouragements will darken your hopes when they seem about to be realized.",
+      "note": "새 상징 `raisins`(건포도)"
+    },
+    {
+      "headword": "Rake",
+      "text": "To dream of using a rake, portends that some work which you have left to others will never be accomplished unless you superintend it yourself. To see a broken rake, denotes that sickness, or some accident will bring failure to your plans. To see others raking, foretells that you will rejoice in the fortunate condition of others.",
+      "note": "새 상징 `rake`(갈퀴)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

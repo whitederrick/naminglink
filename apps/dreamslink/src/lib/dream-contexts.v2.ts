@@ -148,8 +148,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "manure::거름더미를 봄": "dunghill unexpected profits",
   "moving-house::남의 새 집으로 옮겨 듦": "new clean bright fine",
   "moving-house::헐고 낡은 집으로 옮겨 감": "old shabby dilapidated ruined",
-  "rainbow::붉은 무지개를 봄": "red crimson scarlet",
+  "rainbow::붉은 무지개를 봄": "crimson scarlet",
   "rainbow::검은 무지개를 봄": "black dark",
+  "rainbow::무지개를 봄": "unusual happenings promising crops",
+  "rainbow::연인들이 무지개를 봄": "lovers omen union",
+  "rainbow::푸른 나무 위로 낮게 걸린 무지개를 봄": "hanging low green trees",
   "shrimp::새우가 물고기로 변함": "fish became turned changed",
   "shrimp::새우와 조개가 울며 달아남": "clam fleeing fled",
   "bat::박쥐 꿈을 꿈": "saw appeared encountered",
@@ -5315,5 +5318,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "railroad::철도에 놓인 장애물을 봄": "obstruction foul play",
   "railroad::철도 침목 위를 걸음": "cross ties worry laborious",
   "railroad::철도 레일 위를 걸음": "walk rails skilful",
-  "railroad::맑은 물에 잠긴 철길을 봄": "inundated phoenix rise"
+  "railroad::맑은 물에 잠긴 철길을 봄": "inundated phoenix rise",
+  "rake::갈퀴를 사용함": "using superintend yourself",
+  "rake::부러진 갈퀴를 봄": "broken sickness accident",
+  "rake::남이 갈퀴질하는 것을 봄": "raking rejoice fortunate"
 };
