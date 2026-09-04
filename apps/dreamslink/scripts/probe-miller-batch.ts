@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 231 — Rosebush·Rosemary·Roses)
+// (지금 담긴 것: 배치 232 — Rosette·Rouge·Roundabout·Rowboat·Rubber·Ruby·Rudder)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,15 +30,30 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "rosebush", ctx: "잎만 무성하고 꽃이 없는 장미 덤불을 봄", text: "잎만 무성하고 꽃이 없는 장미 덤불을 보았다" },
-  { id: "rosebush", ctx: "죽은 장미 덤불을 봄", text: "죽은 장미 덤불을 보았다" },
-  { id: "rosemary", ctx: "로즈메리를 봄", text: "로즈메리를 보았다" },
-  { id: "rose", ctx: "장미가 활짝 피어 향기로움을 봄", text: "장미가 활짝 피어 향기로운 것을 보았다" },
-  { id: "rose", ctx: "여성이 장미를 꺾음", text: "여성이 장미를 꺾었다" },
-  { id: "rose", ctx: "시든 장미를 봄", text: "시든 장미를 보았다" },
-  { id: "rose", ctx: "햇빛도 이슬도 없이 흰 장미를 봄", text: "햇빛도 이슬도 없이 흰 장미를 보았다" },
-  { id: "rose", ctx: "장미 향기를 맡음", text: "장미 향기를 맡았다" },
-  { id: "rose", ctx: "여성이 무더기로 장미를 모아 꽃다발을 묶음", text: "여성이 무더기로 장미를 모아 꽃다발을 묶었다" },
+  { id: "rosette", ctx: "로제트를 걸치거나 남이 건 것을 봄", text: "로제트를 걸쳤다" },
+  { id: "rouge", ctx: "연지를 사용함", text: "연지를 사용했다" },
+  { id: "rouge", ctx: "남이 얼굴에 연지를 바른 것을 봄", text: "남이 얼굴에 연지를 바른 것을 보았다" },
+  { id: "rouge", ctx: "손이나 옷에 연지가 묻은 것을 봄", text: "손이나 옷에 연지가 묻은 것을 보았다" },
+  { id: "rouge", ctx: "얼굴에서 연지가 지워짐", text: "얼굴에서 연지가 지워졌다" },
+  { id: "roundabout", ctx: "회전목마를 봄", text: "회전목마를 보았다" },
+  { id: "rowboat", ctx: "남들과 함께 노 젓는 배를 탐", text: "남들과 함께 노 젓는 배를 탔다" },
+  { id: "rowboat", ctx: "배가 뒤집힘", text: "노 젓는 배가 뒤집혔다" },
+  { id: "rowboat", ctx: "조정 경기에서 짐", text: "조정 경기에서 졌다" },
+  { id: "rowboat", ctx: "조정 경기에서 이김", text: "조정 경기에서 이겼다" },
+  { id: "india-rubber", ctx: "고무 옷을 입음", text: "고무 옷을 입었다" },
+  { id: "india-rubber", ctx: "고무 옷이 해지거나 찢어짐", text: "고무 옷이 찢어졌다" },
+  { id: "india-rubber", ctx: "속어로 '고무'라는 말을 씀", text: "속어로 고무를 사용했다" },
+  { id: "india-rubber", ctx: "제 팔다리가 고무처럼 늘어남", text: "제 팔다리가 고무처럼 늘어났다" },
+  { id: "india-rubber", ctx: "고무 제품 꿈을 꿈", text: "고무 제품 꿈을 꾸었다" },
+  { id: "ruby", ctx: "루비 꿈을 꿈", text: "루비 꿈을 꾸었다" },
+  { id: "ruby", ctx: "여성이 루비를 잃어버림", text: "여성이 루비를 잃어버렸다" },
+  { id: "rudder", ctx: "방향키 꿈을 꿈", text: "방향키 꿈을 꾸었다" },
+  { id: "rudder", ctx: "부러진 방향키를 봄", text: "부러진 방향키를 보았다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(rouge·india-rubber)의 옛 답이 그대로인가
+  { id: "rouge", ctx: "연지를 얻음", text: "연지를 얻었다" },
+  { id: "rouge", ctx: "연지를 봄", text: "연지를 보았다" },
+  { id: "india-rubber", ctx: "고무를 봄", text: "고무를 보았다" },
+  { id: "india-rubber", ctx: "고무를 잡아 늘임", text: "고무를 잡아 늘였다" },
 ];
 
 let notFound = 0;

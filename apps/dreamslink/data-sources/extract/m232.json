@@ -1,0 +1,287 @@
+[
+  {
+    "term_ko": "로제트",
+    "term_en": "rosette",
+    "context": "로제트를 걸치거나 남이 건 것을 봄",
+    "interpretation_ko": "부질없이 시간을 허비할 조짐. 짜릿한 즐거움을 맛보아도 실망으로 끝날 조짐",
+    "interpretation_en": "is significant of frivolous waste of time; though you will experience the thrills of pleasure, they will bring disappointments",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rosette",
+      "original": "To wear or see rosettes on others while in dreams, is significant of frivolous waste of time; though you will experience the thrills of pleasure, they will bring disappointments.",
+      "translation_ko": "로제트를 걸치거나 남이 건 것을 보는 꿈은, 부질없이 시간을 허비할 조짐이다. 짜릿한 즐거움을 맛보아도 실망으로 끝날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연지",
+    "term_en": "rouge",
+    "context": "연지를 사용함",
+    "interpretation_ko": "바라는 바를 이루려 속임수를 쓸 조짐",
+    "interpretation_en": "denotes that you will practice deceit to obtain your wishes",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rouge",
+      "original": "To dream of using rouge, denotes that you will practice deceit to obtain your wishes.",
+      "translation_ko": "연지를 사용하는 꿈은, 바라는 바를 이루려 속임수를 쓸 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연지",
+    "term_en": "rouge",
+    "context": "남이 얼굴에 연지를 바른 것을 봄",
+    "interpretation_ko": "속임수를 꾸미는 이들에게 교묘히 이용당하고 있을 조짐",
+    "interpretation_en": "warns you that you are being artfully used to further the designs of some deceitful persons",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Rouge",
+      "original": "To see others with it on their faces, warns you that you are being artfully used to further the designs of some deceitful persons.",
+      "translation_ko": "남이 얼굴에 연지를 바른 것을 보는 꿈은, 속임수를 꾸미는 이들에게 교묘히 이용당하고 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연지",
+    "term_en": "rouge",
+    "context": "손이나 옷에 연지가 묻은 것을 봄",
+    "interpretation_ko": "어떤 계략이 들통날 조짐",
+    "interpretation_en": "you will be detected in some scheme",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rouge",
+      "original": "If you see it on your hands, or clothing, you will be detected in some scheme.",
+      "translation_ko": "손이나 옷에 연지가 묻은 것을 보는 꿈은, 어떤 계략이 들통날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연지",
+    "term_en": "rouge",
+    "context": "얼굴에서 연지가 지워짐",
+    "interpretation_ko": "경쟁자 앞에서 굴욕을 당하고, 부자연스러운 태도로 연인을 잃을 조짐",
+    "interpretation_en": "you will be humiliated before some rival, and lose your lover by assuming unnatural manners",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rouge",
+      "original": "If it comes off of your face, you will be humiliated before some rival, and lose your lover by assuming unnatural manners.",
+      "translation_ko": "얼굴에서 연지가 지워지는 꿈은, 경쟁자 앞에서 굴욕을 당하고 부자연스러운 태도로 연인을 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "회전목마",
+    "term_en": "roundabout",
+    "context": "회전목마를 봄",
+    "interpretation_ko": "재산이나 애정에서 나아가려 애쓰나 뜻을 이루지 못할 조짐",
+    "interpretation_en": "denotes that you will struggle unsuccessfully to advance in fortune or love",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Roundabout",
+      "original": "To dream of seeing a roundabout, denotes that you will struggle unsuccessfully to advance in fortune or love.",
+      "translation_ko": "회전목마를 보는 꿈은, 재산이나 애정에서 나아가려 애쓰나 뜻을 이루지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "노 젓는 배",
+    "term_en": "rowboat",
+    "context": "남들과 함께 노 젓는 배를 탐",
+    "interpretation_ko": "유쾌하고 세속적인 이들과 어울려 큰 즐거움을 누릴 조짐",
+    "interpretation_en": "denotes that you will derive much pleasure from the companionship of gay and worldly persons",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Rowboat",
+      "original": "To dream that you are in a rowboat with others, denotes that you will derive much pleasure from the companionship of gay and worldly persons.",
+      "translation_ko": "남들과 함께 노 젓는 배를 타는 꿈은, 유쾌하고 세속적인 이들과 어울려 큰 즐거움을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "노 젓는 배",
+    "term_en": "rowboat",
+    "context": "배가 뒤집힘",
+    "interpretation_ko": "유혹적인 사업에 손대어 금전 손실을 볼 조짐",
+    "interpretation_en": "you will suffer financial losses by engaging in seductive enterprises",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rowboat",
+      "original": "If the boat is capsized, you will suffer financial losses by engaging in seductive enterprises.",
+      "translation_ko": "배가 뒤집히는 꿈은, 유혹적인 사업에 손대어 금전 손실을 볼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "노 젓는 배",
+    "term_en": "rowboat",
+    "context": "조정 경기에서 짐",
+    "interpretation_ko": "연인을 두고 경쟁자에게 밀릴 조짐",
+    "interpretation_en": "you will lose favors to your rivals with your sweetheart",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rowboat",
+      "original": "If you find yourself defeated in a rowing race, you will lose favors to your rivals with your sweetheart.",
+      "translation_ko": "조정 경기에서 지는 꿈은, 연인을 두고 경쟁자에게 밀릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "노 젓는 배",
+    "term_en": "rowboat",
+    "context": "조정 경기에서 이김",
+    "interpretation_ko": "여성들 사이에서 쉽게 우위를 차지하고 일이 순조로울 조짐",
+    "interpretation_en": "you will easily obtain supremacy with women. Your affairs will move agreeably",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rowboat",
+      "original": "If you are the victor, you will easily obtain supremacy with women. Your affairs will move agreeably.",
+      "translation_ko": "조정 경기에서 이기는 꿈은, 여성들 사이에서 쉽게 우위를 차지하고 일이 순조로울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "고무",
+    "term_en": "India rubber",
+    "context": "고무 옷을 입음",
+    "interpretation_ko": "한결같이 순결하고 도덕적인 태도로 명예를 얻을 조짐",
+    "interpretation_en": "is a sign that you will have honors conferred upon you because of your steady and unchanging stand of purity and morality",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rubber",
+      "original": "To dream of being clothed in rubber garments, is a sign that you will have honors conferred upon you because of your steady and unchanging stand of purity and morality.",
+      "translation_ko": "고무 옷을 입는 꿈은, 한결같이 순결하고 도덕적인 태도로 명예를 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "고무",
+    "term_en": "India rubber",
+    "context": "고무 옷이 해지거나 찢어짐",
+    "interpretation_ko": "품행을 조심해야 하며, 추문이 평판을 노릴 조짐",
+    "interpretation_en": "you should be cautious in your conduct, as scandal is ready to attack your reputation",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rubber",
+      "original": "If the garments are ragged or torn, you should be cautious in your conduct, as scandal is ready to attack your reputation.",
+      "translation_ko": "고무 옷이 해지거나 찢어지는 꿈은, 품행을 조심해야 하며 추문이 평판을 노릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "고무",
+    "term_en": "India rubber",
+    "context": "속어로 '고무'라는 말을 씀",
+    "interpretation_ko": "즐거움과 벗을 고르는 데 까다롭지 않을 조짐",
+    "interpretation_en": "foretells that you will be easy to please in your choice of pleasure and companions",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Rubber",
+      "original": "To dream of using ``rubber'' as a slang term, foretells that you will be easy to please in your choice of pleasure and companions.",
+      "translation_ko": "속어로 '고무'라는 말을 쓰는 꿈은, 즐거움과 벗을 고르는 데 까다롭지 않을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "고무",
+    "term_en": "India rubber",
+    "context": "제 팔다리가 고무처럼 늘어남",
+    "interpretation_ko": "병이 다가오고 있고, 구애와 사업에서 속임수를 쓰게 될 조짐",
+    "interpretation_en": "it is a sign that illness is threatening you, and you are likely to use deceit in your wooing and business",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Rubber",
+      "original": "If you find that your limbs will stretch like rubber, it is a sign that illness is threatening you, and you are likely to use deceit in your wooing and business.",
+      "translation_ko": "제 팔다리가 고무처럼 늘어나는 꿈은, 병이 다가오고 있고 구애와 사업에서 속임수를 쓰게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "고무",
+    "term_en": "India rubber",
+    "context": "고무 제품 꿈을 꿈",
+    "interpretation_ko": "일을 은밀하게 처리하여, 벗들이 자신의 행동을 여러 차례 이해하지 못할 조짐",
+    "interpretation_en": "denotes that your affairs will be conducted on a secret basis, and your friends will fail to understand your conduct in many instances",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rubber",
+      "original": "To dream of rubber goods, denotes that your affairs will be conducted on a secret basis, and your friends will fail to understand your conduct in many instances.",
+      "translation_ko": "고무 제품 꿈은, 일을 은밀하게 처리하여 벗들이 자신의 행동을 여러 차례 이해하지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "루비",
+    "term_en": "ruby",
+    "context": "루비 꿈을 꿈",
+    "interpretation_ko": "사업이나 애정의 투기에서 운이 좋을 조짐",
+    "interpretation_en": "foretells you will be lucky in speculations of business or love",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ruby",
+      "original": "To dream of a ruby, foretells you will be lucky in speculations of business or love.",
+      "translation_ko": "루비 꿈은, 사업이나 애정의 투기에서 운이 좋을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "루비",
+    "term_en": "ruby",
+    "context": "여성이 루비를 잃어버림",
+    "interpretation_ko": "연인의 애정이 식어감을 뜻하는 조짐",
+    "interpretation_en": "is a sign of approaching indifference of her lover",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Ruby",
+      "original": "For a woman to lose one, is a sign of approaching indifference of her lover.",
+      "translation_ko": "여성이 루비를 잃어버리는 꿈은, 연인의 애정이 식어감을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "방향키",
+    "term_en": "rudder",
+    "context": "방향키 꿈을 꿈",
+    "interpretation_ko": "머지않아 외국으로 즐거운 여행을 떠나고, 새 우정을 맺을 조짐",
+    "interpretation_en": "you will soon make a pleasant journey to foreign lands, and new friendships will be formed",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rudder",
+      "original": "To dream of a rudder, you will soom{sic} make a pleasant journey to foreign lands, and new friendships will be formed.",
+      "translation_ko": "방향키 꿈은, 머지않아 외국으로 즐거운 여행을 떠나고 새 우정을 맺을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "방향키",
+    "term_en": "rudder",
+    "context": "부러진 방향키를 봄",
+    "interpretation_ko": "실망과 병을 예고하는 조짐",
+    "interpretation_en": "augurs disappointment and sickness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rudder",
+      "original": "A broken rudder, augurs disappointment and sickness.",
+      "translation_ko": "부러진 방향키를 보는 꿈은, 실망과 병을 예고하는 조짐이다"
+    }
+  }
+]

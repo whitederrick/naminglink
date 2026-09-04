@@ -1,0 +1,45 @@
+{
+  "batch": 232,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rosette",
+      "text": "To wear or see rosettes on others while in dreams, is significant of frivolous waste of time; though you will experience the thrills of pleasure, they will bring disappointments.",
+      "note": "새 상징 `rosette`(로제트) — 한 그림"
+    },
+    {
+      "headword": "Rouge",
+      "text": "To dream of using rouge, denotes that you will practice deceit to obtain your wishes. To see others with it on their faces, warns you that you are being artfully used to further the designs of some deceitful persons. If you see it on your hands, or clothing, you will be detected in some scheme. If it comes off of your face, you will be humiliated before some rival, and lose your lover by assuming unnatural manners.",
+      "note": "기존 상징 `rouge`(연지)에 넷을 더한다"
+    },
+    {
+      "headword": "Roundabout",
+      "text": "To dream of seeing a roundabout, denotes that you will struggle unsuccessfully to advance in fortune or love.",
+      "note": "새 상징 `roundabout`(회전목마) — 한 그림"
+    },
+    {
+      "headword": "Rowboat",
+      "text": "To dream that you are in a rowboat with others, denotes that you will derive much pleasure from the companionship of gay and worldly persons. If the boat is capsized, you will suffer financial losses by engaging in seductive enterprises. If you find yourself defeated in a rowing race, you will lose favors to your rivals with your sweetheart. If you are the victor, you will easily obtain supremacy with women. Your affairs will move agreeably.",
+      "note": "새 상징 `rowboat`(노 젓는 배) — 네 그림. 기존 `boat`(배, 일반)와 `life-boat`(구명보트)처럼 종류가 다른 배라 따로 세운다"
+    },
+    {
+      "headword": "Rubber",
+      "text": "To dream of being clothed in rubber garments, is a sign that you will have honors conferred upon you because of your steady and unchanging stand of purity and morality. If the garments are ragged or torn, you should be cautious in your conduct, as scandal is ready to attack your reputation. To dream of using ``rubber'' as a slang term, foretells that you will be easy to please in your choice of pleasure and companions. If you find that your limbs will stretch like rubber, it is a sign that illness is threatening you, and you are likely to use deceit in your wooing and business. To dream of rubber goods, denotes that your affairs will be conducted on a secret basis, and your friends will fail to understand your conduct in many instances.",
+      "note": "기존 상징 `india-rubber`(고무, 밀러 별개 표제어 India Rubber에서 온 것)에 다섯을 더한다 — 같은 재료를 다루는 딴 표제어라 새 상징을 세우지 않는다"
+    },
+    {
+      "headword": "Ruby",
+      "text": "To dream of a ruby, foretells you will be lucky in speculations of business or love. For a woman to lose one, is a sign of approaching indifference of her lover.",
+      "note": "새 상징 `ruby`(루비) — 두 그림"
+    },
+    {
+      "headword": "Rudder",
+      "text": "To dream of a rudder, you will soom{sic} make a pleasant journey to foreign lands, and new friendships will be formed. A broken rudder, augurs disappointment and sickness.",
+      "note": "새 상징 `rudder`(방향키) — 두 그림. 기존 `boat`의 「배를 타고 키를 봄」은 배 위에서 방향타를 보는 장면이라 겹치지 않는다"
+    }
+  ],
+  "skipped": [
+    "Rubbish — 「쓰레기 꿈은 일을 서투르게 다스릴 조짐」이 기존 `garbage`(밀러 별개 표제어 Garbage)의 「쓰레기 더미를 봄」과 같은 그림(둘 다 밀러 자신의 글이고, 근거 문헌이 다른 것도 아니다)이라 중복으로 보고 뺀다"
+  ],
+  "skipped_sentences": []
+}

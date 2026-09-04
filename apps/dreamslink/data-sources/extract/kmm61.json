@@ -10,11 +10,21 @@
     ],
     "contexts": {
       "고무를 봄": "덩어리",
-      "고무를 잡아 늘임": "늘였 늘리 잡아당"
+      "고무를 잡아 늘임": "늘였 늘리 잡아당",
+      "고무 옷을 입음": "입었다 순결하고 명예를",
+      "고무 옷이 해지거나 찢어짐": "해지거나 찢어 추문 조심해야",
+      "속어로 '고무'라는 말을 씀": "속어로 슬랭 까다롭지",
+      "제 팔다리가 고무처럼 늘어남": "팔다리가 늘어남 병이다가오",
+      "고무 제품 꿈을 꿈": "제품 은밀하게 이해하지못"
     },
     "contexts_en": {
       "고무를 봄": "unfavorable changes affairs",
-      "고무를 잡아 늘임": "stretch establish greater support"
+      "고무를 잡아 늘임": "stretch establish greater support",
+      "고무 옷을 입음": "clothed honors purity morality",
+      "고무 옷이 해지거나 찢어짐": "ragged torn scandal cautious",
+      "속어로 '고무'라는 말을 씀": "slang term easy please",
+      "제 팔다리가 고무처럼 늘어남": "limbs elastic illness deceit",
+      "고무 제품 꿈을 꿈": "goods secret conduct"
     }
   },
   {

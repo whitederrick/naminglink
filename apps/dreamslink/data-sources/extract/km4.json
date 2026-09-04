@@ -592,11 +592,19 @@
     ],
     "contexts": {
       "연지를 얻음": "얻었 얻어 생겼 받았",
-      "연지를 봄": "보았 바라보 쳐다 눈에띄"
+      "연지를 봄": "보았 바라보 쳐다 눈에띄",
+      "연지를 사용함": "사용했 이루려 속임수",
+      "남이 얼굴에 연지를 바른 것을 봄": "남이 발랐 이용당",
+      "손이나 옷에 연지가 묻은 것을 봄": "손이나 옷에 묻은 들통날",
+      "얼굴에서 연지가 지워짐": "지워졌 굴욕 부자연스"
     },
     "contexts_en": {
       "연지를 얻음": "obtained received found",
-      "연지를 봄": "saw seeing looked noticed"
+      "연지를 봄": "saw seeing looked noticed",
+      "연지를 사용함": "practice trickery wishes",
+      "남이 얼굴에 연지를 바른 것을 봄": "others faces artfully deceitful",
+      "손이나 옷에 연지가 묻은 것을 봄": "hands clothing detected scheme",
+      "얼굴에서 연지가 지워짐": "comes off humiliated rival"
     }
   },
   {

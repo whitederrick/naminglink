@@ -1,0 +1,85 @@
+[
+  {
+    "id": "rosette",
+    "aliases": [
+      "로제트"
+    ],
+    "aliases_en": [
+      "rosettes",
+      "a rosette"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "roundabout",
+    "aliases": [
+      "회전목마"
+    ],
+    "aliases_en": [
+      "a roundabout"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "rowboat",
+    "aliases": [
+      "노 젓는 배",
+      "조정 경기"
+    ],
+    "aliases_en": [
+      "a rowboat",
+      "rowing"
+    ],
+    "contexts": {
+      "남들과 함께 노 젓는 배를 탐": "남들과 함께 유쾌하 세속적",
+      "배가 뒤집힘": "뒤집 유혹적 금전손실",
+      "조정 경기에서 짐": "졌다 패배 밀릴",
+      "조정 경기에서 이김": "이겼다 승리 우위를"
+    },
+    "contexts_en": {
+      "남들과 함께 노 젓는 배를 탐": "companionship gay worldly",
+      "배가 뒤집힘": "capsized financial losses",
+      "조정 경기에서 짐": "defeated race rivals",
+      "조정 경기에서 이김": "victor supremacy agreeably"
+    }
+  },
+  {
+    "id": "ruby",
+    "aliases": [
+      "루비"
+    ],
+    "aliases_en": [
+      "a ruby",
+      "rubies"
+    ],
+    "contexts": {
+      "루비 꿈을 꿈": "사업이나 애정의 투기 운이좋을",
+      "여성이 루비를 잃어버림": "여성이 잃어버 애정이식어"
+    },
+    "contexts_en": {
+      "루비 꿈을 꿈": "lucky speculations business",
+      "여성이 루비를 잃어버림": "woman lose indifference lover"
+    }
+  },
+  {
+    "id": "rudder",
+    "aliases": [
+      "타륜",
+      "조타장치"
+    ],
+    "aliases_en": [
+      "a rudder",
+      "rudders"
+    ],
+    "contexts": {
+      "방향키 꿈을 꿈": "외국으로 즐거운여행 새우정",
+      "부러진 방향키를 봄": "부러진 실망과 병을예고"
+    },
+    "contexts_en": {
+      "방향키 꿈을 꿈": "pleasant journey foreign friendships",
+      "부러진 방향키를 봄": "broken disappointment sickness"
+    }
+  }
+]
