@@ -7175,5 +7175,13 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "rhubarb": [
     "rhubarb"
+  ],
+  "rib": [
+    "a rib",
+    "ribs"
+  ],
+  "ribbon": [
+    "a ribbon",
+    "ribbons"
   ]
 };

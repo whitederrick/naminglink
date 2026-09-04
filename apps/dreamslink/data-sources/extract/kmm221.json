@@ -1,0 +1,28 @@
+[
+  {
+    "id": "rib",
+    "aliases": ["갈비뼈가", "갈비뼈를"],
+    "aliases_en": ["a rib", "ribs"],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "ribbon",
+    "aliases": ["리본이", "리본을", "리본으로"],
+    "aliases_en": ["a ribbon", "ribbons"],
+    "contexts": {
+      "남의 옷차림에서 리본이 나부끼는 것을 봄": "나부끼는 동무들",
+      "처녀가 리본으로 치장함": "치장했다 혼담",
+      "다른 처녀들이 리본을 착용한 것을 봄": "다른 처녀들",
+      "리본을 삼": "샀다",
+      "리본 때문에 화가 나거나 언짢음": "화가 언짢"
+    },
+    "contexts_en": {
+      "남의 옷차림에서 리본이 나부끼는 것을 봄": "floating costume companions",
+      "처녀가 리본으로 치장함": "decorating marriage frivolity",
+      "다른 처녀들이 리본을 착용한 것을 봄": "girls wearing rivalry",
+      "리본을 삼": "buys pleasant easy",
+      "리본 때문에 화가 나거나 언짢음": "angry displeased dividing"
+    }
+  }
+]

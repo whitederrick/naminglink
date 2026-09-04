@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 220 — Rheumatism~Rhubarb, 4개 헤드워드)
+// (지금 담긴 것: 배치 221 — Rib~Ribbon, 2개 헤드워드)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,15 +30,12 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "rheumatism", ctx: "꿈에 류마티스가 저를 덮침을 느낌", text: "꿈에 류마티스가 나를 덮침을 느꼈다" },
-  { id: "rheumatism", ctx: "남이 류마티스로 괴로워하는 것을 봄", text: "남이 류마티스로 괴로워하는 것을 보았다" },
-  { id: "rhinestones", ctx: "라인스톤 꿈을 꿈", text: "라인스톤 꿈을 꾸었다" },
-  { id: "rhinestones", ctx: "처녀에게 라인스톤이 다이아몬드로 드러나는 꿈이 나타남", text: "처녀에게 라인스톤이 다이아몬드로 드러나는 꿈이 나타났다" },
-  { id: "rhinoceros", ctx: "코뿔소를 봄", text: "코뿔소를 보았다" },
-  { id: "rhinoceros", ctx: "코뿔소를 죽임", text: "코뿔소를 죽였다" },
-  { id: "rhubarb", ctx: "대황이 자라는 것을 봄", text: "대황이 자라는 것을 보았다" },
-  { id: "rhubarb", ctx: "대황을 요리함", text: "대황을 요리했다" },
-  { id: "rhubarb", ctx: "대황을 먹음", text: "대황을 먹었다" },
+  { id: "rib", ctx: "갈비뼈를 봄", text: "갈비뼈를 보았다" },
+  { id: "ribbon", ctx: "남의 옷차림에서 리본이 나부끼는 것을 봄", text: "남의 옷차림에서 리본이 나부끼는 것을 보았다" },
+  { id: "ribbon", ctx: "처녀가 리본으로 치장함", text: "처녀가 리본으로 치장했다" },
+  { id: "ribbon", ctx: "다른 처녀들이 리본을 착용한 것을 봄", text: "다른 처녀들이 리본을 착용한 것을 보았다" },
+  { id: "ribbon", ctx: "리본을 삼", text: "리본을 샀다" },
+  { id: "ribbon", ctx: "리본 때문에 화가 나거나 언짢음", text: "리본 때문에 화가 났다" },
 ];
 
 let notFound = 0;

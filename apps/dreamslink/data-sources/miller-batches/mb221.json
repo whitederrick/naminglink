@@ -1,0 +1,18 @@
+{
+  "batch": 221,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Rib",
+      "text": "To dream of seeing ribs, denotes poverty and misery.",
+      "note": "새 상징 `rib`(갈비뼈)"
+    },
+    {
+      "headword": "Ribbon",
+      "text": "Seeing ribbons floating from the costume of any person in your dreams, indicates you will have gay and pleasant companions, and practical cares will not trouble you greatly. For a young woman to dream of decorating herself with ribbons, she will soon have a desirable offer of marriage, but frivolity may cause her to make a mistake. If she sees other girls wearing ribbons, she will encounter rivalry in her endeavors to secure a husband. If she buys them, she will have a pleasant and easy place in life. If she feels angry or displeased about them, she will find that some other woman is dividing her honors and pleasures with her in her social realm.",
+      "note": "새 상징 `ribbon`(리본)"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

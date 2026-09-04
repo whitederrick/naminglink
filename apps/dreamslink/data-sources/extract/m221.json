@@ -1,0 +1,92 @@
+[
+  {
+    "term_ko": "갈비뼈",
+    "term_en": "rib",
+    "context": "갈비뼈를 봄",
+    "interpretation_ko": "가난과 고통의 조짐",
+    "interpretation_en": "denotes poverty and misery",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Rib",
+      "original": "To dream of seeing ribs, denotes poverty and misery.",
+      "translation_ko": "갈비뼈를 보는 꿈은, 가난과 고통의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "리본",
+    "term_en": "ribbon",
+    "context": "남의 옷차림에서 리본이 나부끼는 것을 봄",
+    "interpretation_ko": "쾌활하고 유쾌한 동무들을 사귀고, 실질적인 근심이 크게 괴롭히지 않을 조짐",
+    "interpretation_en": "indicates you will have gay and pleasant companions, and practical cares will not trouble you greatly",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Ribbon",
+      "original": "Seeing ribbons floating from the costume of any person in your dreams, indicates you will have gay and pleasant companions, and practical cares will not trouble you greatly.",
+      "translation_ko": "남의 옷차림에서 리본이 나부끼는 것을 보는 꿈은, 쾌활하고 유쾌한 동무들을 사귀고 실질적인 근심이 크게 괴롭히지 않을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "리본",
+    "term_en": "ribbon",
+    "context": "처녀가 리본으로 치장함",
+    "interpretation_ko": "곧 바람직한 혼담을 받겠지만, 경솔함 때문에 실수를 저지를 수 있는 조짐",
+    "interpretation_en": "she will soon have a desirable offer of marriage, but frivolity may cause her to make a mistake",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Ribbon",
+      "original": "For a young woman to dream of decorating herself with ribbons, she will soon have a desirable offer of marriage, but frivolity may cause her to make a mistake.",
+      "translation_ko": "처녀가 리본으로 치장하는 꿈은, 곧 바람직한 혼담을 받겠지만 경솔함 때문에 실수를 저지를 수 있는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "리본",
+    "term_en": "ribbon",
+    "context": "다른 처녀들이 리본을 착용한 것을 봄",
+    "interpretation_ko": "남편을 얻으려는 노력에서 경쟁을 만날 조짐",
+    "interpretation_en": "she will encounter rivalry in her endeavors to secure a husband",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Ribbon",
+      "original": "If she sees other girls wearing ribbons, she will encounter rivalry in her endeavors to secure a husband.",
+      "translation_ko": "다른 처녀들이 리본을 착용한 것을 보는 꿈은, 남편을 얻으려는 노력에서 경쟁을 만날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "리본",
+    "term_en": "ribbon",
+    "context": "리본을 삼",
+    "interpretation_ko": "삶에서 즐겁고 편안한 자리를 얻을 조짐",
+    "interpretation_en": "she will have a pleasant and easy place in life",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ribbon",
+      "original": "If she buys them, she will have a pleasant and easy place in life.",
+      "translation_ko": "리본을 사는 꿈은, 삶에서 즐겁고 편안한 자리를 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "리본",
+    "term_en": "ribbon",
+    "context": "리본 때문에 화가 나거나 언짢음",
+    "interpretation_ko": "다른 여성이 사교계에서 제 영예와 즐거움을 나눠 가지고 있음을 알게 될 조짐",
+    "interpretation_en": "she will find that some other woman is dividing her honors and pleasures with her in her social realm",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ribbon",
+      "original": "If she feels angry or displeased about them, she will find that some other woman is dividing her honors and pleasures with her in her social realm.",
+      "translation_ko": "리본 때문에 화가 나거나 언짢은 꿈은, 다른 여성이 사교계에서 제 영예와 즐거움을 나눠 가지고 있음을 알게 될 조짐이다"
+    }
+  }
+]

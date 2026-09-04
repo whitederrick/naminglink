@@ -5403,5 +5403,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "rhinoceros::코뿔소를 죽임": "killing bravely obstacles",
   "rhubarb::대황이 자라는 것을 봄": "growing entertainments occupy",
   "rhubarb::대황을 요리함": "cook arguments friend",
-  "rhubarb::대황을 먹음": "eat dissatisfaction employment"
+  "rhubarb::대황을 먹음": "eat dissatisfaction employment",
+  "ribbon::남의 옷차림에서 리본이 나부끼는 것을 봄": "floating costume companions",
+  "ribbon::처녀가 리본으로 치장함": "decorating marriage frivolity",
+  "ribbon::다른 처녀들이 리본을 착용한 것을 봄": "girls wearing rivalry",
+  "ribbon::리본을 삼": "buys pleasant easy",
+  "ribbon::리본 때문에 화가 나거나 언짢음": "angry displeased dividing"
 };
