@@ -1,5 +1,5 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 239 — School·School Teacher·Scissors·Scorpion·Scrap-book·Scratch·Scratch Head·Screw·Sculptor·Scum)
+// (지금 담긴 것: 배치 240 — Scythe·Sea·Sea Foam·Seal·Seamstress·Seaport·Seat)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -30,29 +30,24 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "school", ctx: "학교에 다님", text: "학교에 다녔다" },
-  { id: "school", ctx: "젊어서 다시 학교에 다니는 듯 여김", text: "젊어서 다시 학교에 다니는 듯 여겼다" },
-  { id: "school", ctx: "학교에서 가르침", text: "학교에서 가르쳤다" },
-  { id: "school", ctx: "어릴 적 다니던 학교 건물을 찾아감", text: "어릴 적 다니던 학교 건물을 찾아갔다" },
-  { id: "school-teacher", ctx: "교사 꿈을 꿈", text: "교사 꿈을 꾸었다" },
-  { id: "school-teacher", ctx: "자신이 교사임", text: "자신이 교사였다" },
-  { id: "scissors", ctx: "가위 꿈이 불길함", text: "가위 꿈을 꾸어 불길했다" },
-  { id: "scissors", ctx: "가위를 갈게 함", text: "가위를 갈게 했다" },
-  { id: "scissors", ctx: "가위를 잃어버림", text: "가위를 잃어버렸다" },
-  { id: "scorpion", ctx: "독전갈 꿈을 꿈", text: "독전갈 꿈을 꾸었다" },
-  { id: "scorpion", ctx: "독전갈을 죽이지 못함", text: "독전갈을 죽이지 못했다" },
-  { id: "scrap-book", ctx: "스크랩북 꿈을 꿈", text: "스크랩북 꿈을 꾸었다" },
-  { id: "scratch", ctx: "남을 할큄", text: "남을 할퀴었다" },
-  { id: "scratch", ctx: "자신이 할큄을 당함", text: "자신이 할큄을 당했다" },
-  { id: "scratch-head", ctx: "머리를 긁음", text: "머리를 긁었다" },
-  { id: "screw", ctx: "나사를 봄", text: "나사를 보았다" },
-  { id: "sculptor", ctx: "조각가 꿈을 꿈", text: "조각가 꿈을 꾸었다" },
-  { id: "sculptor", ctx: "여성이 남편이나 연인이 조각가임을 꿈꿈", text: "여성이 남편이 조각가임을 꿈꾸었다" },
-  { id: "scum", ctx: "거품 찌꺼기 꿈을 꿈", text: "거품 찌꺼기 꿈을 꾸었다" },
-  // 지킴 — 이번 배치가 건드린 기존 상징(scissors)의 옛 답이 그대로인가
-  { id: "scissors", ctx: "가위를 봄", text: "가위를 보았다" },
-  { id: "scissors", ctx: "가위로 물건을 자름", text: "가위로 물건을 잘랐다" },
-  { id: "scissors", ctx: "가위의 다리가 부러짐", text: "가위의 다리가 부러졌다" },
+  { id: "scythe", ctx: "낫 꿈을 꿈", text: "낫 꿈을 꾸었다" },
+  { id: "scythe", ctx: "낡거나 부러진 낫을 봄", text: "낡거나 부러진 낫을 보았다" },
+  { id: "sea", ctx: "바다의 외로운 탄식 소리를 들음", text: "바다의 외로운 탄식 소리를 들었다" },
+  { id: "sea", ctx: "바다 꿈이 못다 채운 기대를 예고함", text: "바다 꿈을 꾸었는데 못다 채운 기대를 예고했다" },
+  { id: "sea", ctx: "여성이 연인과 함께 바다 위를 미끄러지듯 나아감", text: "여성이 연인과 함께 바다 위를 미끄러지듯 나아갔다" },
+  { id: "sea-foam", ctx: "여성이 바다 거품 꿈을 꿈", text: "여성이 바다 거품 꿈을 꾸었다" },
+  { id: "sea-foam", ctx: "여성이 바다 거품으로 된 면사포를 씀", text: "여성이 바다 거품으로 된 면사포를 썼다" },
+  { id: "fur-seal", ctx: "물개를 봄", text: "물개를 보았다" },
+  { id: "fur-seal", ctx: "물개 꿈을 자주 꿈", text: "물개 꿈을 자주 꾸었다" },
+  { id: "seamstress", ctx: "재봉사를 봄", text: "재봉사를 보았다" },
+  { id: "seaport", ctx: "항구도시를 방문함", text: "항구도시를 방문했다" },
+  { id: "chair", ctx: "남이 자신의 의자를 차지함", text: "남이 자신의 의자를 차지했다" },
+  { id: "chair", ctx: "여성에게 의자를 내줌", text: "여성에게 의자를 내주었다" },
+  // 지킴 — 이번 배치가 건드린 기존 상징(sea·chair)의 옛 답이 그대로인가
+  { id: "sea", ctx: "작은 배를 타고 항해함", text: "작은 배로 바다를 항해했다" },
+  { id: "sea", ctx: "바다가 잔잔함", text: "바다가 잔잔했다" },
+  { id: "chair", ctx: "의자를 봄", text: "의자를 보았다" },
+  { id: "chair", ctx: "벗이 의자에 꼼짝 않고 앉아 있음", text: "벗이 의자에 꼼짝 않고 앉아 있었다" },
 ];
 
 let notFound = 0;

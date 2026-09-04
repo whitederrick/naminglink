@@ -1,0 +1,82 @@
+[
+  {
+    "id": "scythe",
+    "aliases": [
+      "낫을",
+      "낫이",
+      "낫으로"
+    ],
+    "aliases_en": [
+      "a scythe",
+      "scythes"
+    ],
+    "contexts": {
+      "낫 꿈을 꿈": "사고나 병으로 일과여행",
+      "낡거나 부러진 낫을 봄": "낡거나 부러진 벗과헤어"
+    },
+    "contexts_en": {
+      "낫 꿈을 꿈": "accidents sickness journeys",
+      "낡거나 부러진 낫을 봄": "old broken separation"
+    }
+  },
+  {
+    "id": "sea-foam",
+    "aliases": [
+      "바다 거품",
+      "바다거품"
+    ],
+    "aliases_en": [
+      "sea foam"
+    ],
+    "contexts": {
+      "여성이 바다 거품 꿈을 꿈": "여성이 무분별하고 타락시키는",
+      "여성이 바다 거품으로 된 면사포를 씀": "면사포를 썼다 참된교양"
+    },
+    "contexts_en": {
+      "여성이 바다 거품 꿈을 꿈": "indiscriminate demoralizing rectitude",
+      "여성이 바다 거품으로 된 면사포를 씀": "bridal veil refinement modesty"
+    }
+  },
+  {
+    "id": "fur-seal",
+    "aliases": [
+      "물개"
+    ],
+    "aliases_en": [
+      "fur seal",
+      "seals"
+    ],
+    "contexts": {
+      "물개를 봄": "감당할힘 자리를좇",
+      "물개 꿈을 자주 꿈": "자주 높은포부 자리를높이려"
+    },
+    "contexts_en": {
+      "물개를 봄": "striving place power",
+      "물개 꿈을 자주 꿈": "aspirations discontent advance"
+    }
+  },
+  {
+    "id": "seamstress",
+    "aliases": [
+      "재봉사"
+    ],
+    "aliases_en": [
+      "a seamstress",
+      "seamstresses"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "seaport",
+    "aliases": [
+      "항구도시"
+    ],
+    "aliases_en": [
+      "a seaport",
+      "seaports"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

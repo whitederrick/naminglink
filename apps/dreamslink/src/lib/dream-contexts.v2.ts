@@ -1847,6 +1847,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "sea::물가에서 파도가 부서지는 것을 봄": "shore foaming narrow escape enemies",
   "sea::바다가 얕아 걸어 들어갈 만함을 봄": "shallow wading bottom commingling",
   "sea::작은 배를 타고 항해함": "small vessel desires excel",
+  "sea::바다의 외로운 탄식 소리를 들음": "lonely sighing weary unfruitful",
+  "sea::바다 꿈이 못다 채운 기대를 예고함": "unfulfilled anticipations craving",
+  "sea::여성이 연인과 함께 바다 위를 미끄러지듯 나아감": "glides swiftly maidenly vows",
   "slope::비탈길을 걸어 오름": "walked upward path",
   "slope::언덕을 올라 꼭대기에 이름": "climbing top reached good",
   "slope::언덕을 오르다 미끄러져 내려옴": "fall back envy contrariness fight",
@@ -3060,6 +3063,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "chains::남이 사슬에 묶인 것을 봄": "others another people",
   "chair::의자를 봄": "obligation failure vacate",
   "chair::벗이 의자에 꼼짝 않고 앉아 있음": "friend sitting motionless",
+  "chair::남이 자신의 의자를 차지함": "taken tormented calling",
+  "chair::여성에게 의자를 내줌": "give woman yielding",
   "chairman::의장을 봄": "public body elevation",
   "chairman::의장이 언짢은 낯빛임": "humor unsatisfactory",
   "chairman::내가 의장임": "justice kindness distinguished",
@@ -5591,5 +5596,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "scratch::남을 할큄": "others ill-tempered fault-finding",
   "scratch::자신이 할큄을 당함": "injured enmity deceitful",
   "sculptor::조각가 꿈을 꿈": "less lucrative distinguished",
-  "sculptor::여성이 남편이나 연인이 조각가임을 꿈꿈": "husband lover favors position"
+  "sculptor::여성이 남편이나 연인이 조각가임을 꿈꿈": "husband lover favors position",
+  "scythe::낫 꿈을 꿈": "accidents sickness journeys",
+  "scythe::낡거나 부러진 낫을 봄": "old broken separation",
+  "sea-foam::여성이 바다 거품 꿈을 꿈": "indiscriminate demoralizing rectitude",
+  "sea-foam::여성이 바다 거품으로 된 면사포를 씀": "bridal veil refinement modesty",
+  "fur-seal::물개를 봄": "striving place power",
+  "fur-seal::물개 꿈을 자주 꿈": "aspirations discontent advance"
 };

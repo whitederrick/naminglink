@@ -1,0 +1,197 @@
+[
+  {
+    "term_ko": "낫",
+    "term_en": "scythe",
+    "context": "낫 꿈을 꿈",
+    "interpretation_ko": "사고나 병으로 일과 여행이 막힐 조짐",
+    "interpretation_en": "foretells accidents or sickness will prevent you from attending to your affairs, or making journeys",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Scythe",
+      "original": "To dream of a scythe, foretells accidents or sickness will prevent you from attending to your affairs, or making journeys.",
+      "translation_ko": "낫 꿈은, 사고나 병으로 일과 여행이 막힐 조짐이다"
+    }
+  },
+  {
+    "term_ko": "낫",
+    "term_en": "scythe",
+    "context": "낡거나 부러진 낫을 봄",
+    "interpretation_ko": "벗과 헤어지거나 사업이 실패할 조짐",
+    "interpretation_en": "implies separation from friends, or failure in some business enterprise",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Scythe",
+      "original": "An old or broken scythe, implies separation from friends, or failure in some business enterprise.",
+      "translation_ko": "낡거나 부러진 낫을 보는 꿈은, 벗과 헤어지거나 사업이 실패할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바다",
+    "term_en": "sea",
+    "context": "바다의 외로운 탄식 소리를 들음",
+    "interpretation_ko": "사랑과 우정이 없는 지치고 헛된 삶을 살 운명일 조짐",
+    "interpretation_en": "foretells that you will be fated to spend a weary and unfruitful life devoid of love and comradeship",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Sea",
+      "original": "To dream of hearing the lonely sighing of the sea, foretells that you will be fated to spend a weary and unfruitful life devoid of love and comradeship.",
+      "translation_ko": "바다의 외로운 탄식 소리를 듣는 꿈은, 사랑과 우정이 없는 지치고 헛된 삶을 살 운명일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바다",
+    "term_en": "sea",
+    "context": "바다 꿈이 못다 채운 기대를 예고함",
+    "interpretation_ko": "물질적 즐거움을 누리면서도 육신이 채울 수 없는 갈망이 속에 남을 조짐",
+    "interpretation_en": "prognosticate unfulfilled anticipations, while pleasures of a material form are enjoyed, there is an inward craving for pleasure that flesh cannot requite",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Sea",
+      "original": "Dreams of the sea, prognosticate unfulfilled anticipations, while pleasures of a material form are enjoyed, there is an inward craving for pleasure that flesh cannot requite.",
+      "translation_ko": "바다 꿈이 못다 채운 기대를 예고하는 것은, 물질적 즐거움을 누리면서도 육신이 채울 수 없는 갈망이 속에 남을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바다",
+    "term_en": "sea",
+    "context": "여성이 연인과 함께 바다 위를 미끄러지듯 나아감",
+    "interpretation_ko": "처녀다운 소망이 달콤하게 이루어지고, 변치 않는 맹세가 완성될 문 앞에 기쁨이 지킬 조짐",
+    "interpretation_en": "there will come to her sweet fruition of maidenly hopes, and joy will stand guard at the door of the consummation of changeless vows",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sea",
+      "original": "For a young woman to dream that she glides swiftly over the sea with her lover, there will come to her sweet fruition of maidenly hopes, and joy will stand guard at the door of the consummation of changeless vows.",
+      "translation_ko": "여성이 연인과 함께 바다 위를 미끄러지듯 나아가는 꿈은, 처녀다운 소망이 달콤하게 이루어지고 변치 않는 맹세가 완성될 문 앞에 기쁨이 지킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바다 거품",
+    "term_en": "sea foam",
+    "context": "여성이 바다 거품 꿈을 꿈",
+    "interpretation_ko": "무분별하고 타락시키는 즐거움이 올바른 길에서 벗어나게 할 조짐",
+    "interpretation_en": "foretells that indiscriminate and demoralizing pleasures will distract her from the paths of rectitude",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Sea Foam",
+      "original": "For a woman to dream of sea foam, foretells that indiscriminate and demoralizing pleasures will distract her from the paths of rectitude.",
+      "translation_ko": "여성이 바다 거품 꿈을 꾸는 꿈은, 무분별하고 타락시키는 즐거움이 올바른 길에서 벗어나게 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바다 거품",
+    "term_en": "sea foam",
+    "context": "여성이 바다 거품으로 된 면사포를 씀",
+    "interpretation_ko": "참된 교양과 타고난 정숙함을 버리고 물질적 쾌락에 빠져, 뜻을 채워 주지 못해 가까운 이들에게 슬픔을 안길 조짐",
+    "interpretation_en": "she will engulf herself in material pleasure to the exclusion of true refinement and innate modesty. She will be likely to cause sorrow to some of those dear to her, through their inability to gratify her ambition",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Sea Foam",
+      "original": "If she wears a bridal veil of sea foam, she will engulf herself in material pleasure to the exclusion of true refinement and innate modesty. She will be likely to cause sorrow to some of those dear to her, through their inability to gratify her ambition.",
+      "translation_ko": "여성이 바다 거품으로 된 면사포를 쓰는 꿈은, 참된 교양과 타고난 정숙함을 버리고 물질적 쾌락에 빠져 뜻을 채워 주지 못해 가까운 이들에게 슬픔을 안길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물개",
+    "term_en": "fur seal",
+    "context": "물개를 봄",
+    "interpretation_ko": "감당할 힘을 넘어서는 자리를 좇고 있을 조짐",
+    "interpretation_en": "denotes that you are striving for a place above your power to maintain",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Seal",
+      "original": "To dream that you see seals, denotes that you are striving for a place above your power to maintain.",
+      "translation_ko": "물개를 보는 꿈은, 감당할 힘을 넘어서는 자리를 좇고 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물개",
+    "term_en": "fur seal",
+    "context": "물개 꿈을 자주 꿈",
+    "interpretation_ko": "높은 포부를 품고, 불만이 자신을 몰아붙여 자리를 높이려 애쓰게 할 조짐",
+    "interpretation_en": "usually show that the dreamer has high aspirations and discontent will harass him into struggles to advance his position",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Seal",
+      "original": "Dreams of seals usually show that the dreamer has high aspirations and discontent will harass him into struggles to advance his position.",
+      "translation_ko": "물개 꿈을 자주 꾸는 것은, 높은 포부를 품고 불만이 자신을 몰아붙여 자리를 높이려 애쓰게 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "재봉사",
+    "term_en": "seamstress",
+    "context": "재봉사를 봄",
+    "interpretation_ko": "뜻밖의 행운으로 즐거운 방문을 못 하게 될 조짐",
+    "interpretation_en": "portends you will be deterred from making pleasant visits by unexpected luck",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Seamstress",
+      "original": "To see a seamstress in a dream, portends you will be deterred from making pleasant visits by unexpected luck.",
+      "translation_ko": "재봉사를 보는 꿈은, 뜻밖의 행운으로 즐거운 방문을 못 하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "항구도시",
+    "term_en": "seaport",
+    "context": "항구도시를 방문함",
+    "interpretation_ko": "여행하고 견문을 넓힐 기회가 생기나, 그 계획에 반대하는 이도 있을 조짐",
+    "interpretation_en": "denotes that you will have opportunities of traveling and acquiring knowledge, but there will be some who will object to your anticipated tours",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Seaport",
+      "original": "To dream of visiting a seaport, denotes that you will have opportunities of traveling and acquiring knowledge, but there will be some who will object to your anticipated tours.",
+      "translation_ko": "항구도시를 방문하는 꿈은, 여행하고 견문을 넓힐 기회가 생기나 그 계획에 반대하는 이도 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "의자",
+    "term_en": "chair",
+    "context": "남이 자신의 의자를 차지함",
+    "interpretation_ko": "도움을 청하는 사람들에게 시달릴 조짐",
+    "interpretation_en": "denotes you will be tormented by people calling on you for aid",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Seat",
+      "original": "To think, in a dream, that some one has taken your seat, denotes you will be tormented by people calling on you for aid.",
+      "translation_ko": "남이 자신의 자리를 차지하는 꿈은, 도움을 청하는 사람들에게 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "의자",
+    "term_en": "chair",
+    "context": "여성에게 의자를 내줌",
+    "interpretation_ko": "어떤 매력적인 이의 술수에 넘어갈 조짐",
+    "interpretation_en": "implies your yielding to some fair one's artfulness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Seat",
+      "original": "To give a woman your seat, implies your yielding to some fair one's artfulness.",
+      "translation_ko": "여성에게 자리를 내주는 꿈은, 어떤 매력적인 이의 술수에 넘어갈 조짐이다"
+    }
+  }
+]

@@ -291,11 +291,15 @@
     ],
     "contexts": {
       "의자를 봄": "보았 놓여 하나",
-      "벗이 의자에 꼼짝 않고 앉아 있음": "벗이 친구 앉아 꼼짝"
+      "벗이 의자에 꼼짝 않고 앉아 있음": "벗이 친구 앉아 꼼짝",
+      "남이 자신의 의자를 차지함": "차지함 차지했 도움을청하는",
+      "여성에게 의자를 내줌": "내줌 내주었 매력적인이의술수"
     },
     "contexts_en": {
       "의자를 봄": "obligation failure vacate",
-      "벗이 의자에 꼼짝 않고 앉아 있음": "friend sitting motionless"
+      "벗이 의자에 꼼짝 않고 앉아 있음": "friend sitting motionless",
+      "남이 자신의 의자를 차지함": "taken tormented calling",
+      "여성에게 의자를 내줌": "give woman yielding"
     }
   },
   {

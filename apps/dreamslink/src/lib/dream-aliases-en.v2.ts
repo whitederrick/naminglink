@@ -7382,5 +7382,24 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "scum": [
     "scum"
+  ],
+  "scythe": [
+    "a scythe",
+    "scythes"
+  ],
+  "sea-foam": [
+    "sea foam"
+  ],
+  "fur-seal": [
+    "fur seal",
+    "seals"
+  ],
+  "seamstress": [
+    "a seamstress",
+    "seamstresses"
+  ],
+  "seaport": [
+    "a seaport",
+    "seaports"
   ]
 };

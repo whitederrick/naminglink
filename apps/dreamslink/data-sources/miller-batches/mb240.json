@@ -1,0 +1,43 @@
+{
+  "batch": 240,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Scythe",
+      "text": "To dream of a scythe, foretells accidents or sickness will prevent you from attending to your affairs, or making journeys. An old or broken scythe, implies separation from friends, or failure in some business enterprise.",
+      "note": "새 상징 `scythe`(낫) — 두 그림"
+    },
+    {
+      "headword": "Sea",
+      "text": "To dream of hearing the lonely sighing of the sea, foretells that you will be fated to spend a weary and unfruitful life devoid of love and comradeship. Dreams of the sea, prognosticate unfulfilled anticipations, while pleasures of a material form are enjoyed, there is an inward craving for pleasure that flesh cannot requite. For a young woman to dream that she glides swiftly over the sea with her lover, there will come to her sweet fruition of maidenly hopes, and joy will stand guard at the door of the consummation of changeless vows.",
+      "note": "기존 상징 `sea`(바다)에 셋을 더한다 — 원문 각주 [198] 'See Ocean' 그대로"
+    },
+    {
+      "headword": "Sea Foam",
+      "text": "For a woman to dream of sea foam, foretells that indiscriminate and demoralizing pleasures will distract her from the paths of rectitude. If she wears a bridal veil of sea foam, she will engulf herself in material pleasure to the exclusion of true refinement and innate modesty. She will be likely to cause sorrow to some of those dear to her, through their inability to gratify her ambition.",
+      "note": "새 상징 `sea-foam`(바다 거품) — 두 그림"
+    },
+    {
+      "headword": "Seal",
+      "text": "To dream that you see seals, denotes that you are striving for a place above your power to maintain. Dreams of seals usually show that the dreamer has high aspirations and discontent will harass him into struggles to advance his position.",
+      "note": "새 상징 `fur-seal`(물개) — 두 그림. 기존 `seal`(인장·직인)과는 완전히 다른 뜻이라 term_en을 갈라 같은 상징으로 안 묶이게 한다"
+    },
+    {
+      "headword": "Seamstress",
+      "text": "To see a seamstress in a dream, portends you will be deterred from making pleasant visits by unexpected luck.",
+      "note": "새 상징 `seamstress`(재봉사) — 한 그림"
+    },
+    {
+      "headword": "Seaport",
+      "text": "To dream of visiting a seaport, denotes that you will have opportunities of traveling and acquiring knowledge, but there will be some who will object to your anticipated tours.",
+      "note": "새 상징 `seaport`(항구도시) — 한 그림"
+    },
+    {
+      "headword": "Seat",
+      "text": "To think, in a dream, that some one has taken your seat, denotes you will be tormented by people calling on you for aid. To give a woman your seat, implies your yielding to some fair one's artfulness.",
+      "note": "기존 상징 `chair`(의자, 영어 별칭에 이미 \"seat\"가 있던 자리)에 둘을 더한다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}
