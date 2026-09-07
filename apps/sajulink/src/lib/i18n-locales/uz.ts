@@ -32,6 +32,7 @@ export const uz: Dictionary = {
   "form": {
     "title": "Sizning tug'ilgan sanangiz",
     "description": "Tug'ilgan vaqtni bilish talqinni aniqroq qiladi, lekin u majburiy emas.",
+    "intro": "Saju-Link tug'ilgan sana va vaqtni to'rt ustunning sakkiz belgisi sifatida o'zgartiradi, so'ngra besh element va o'n xudolar munosabatlari orqali qaysi elementar kuch yetishmayotganini yoki ortiqcha ekanligini o'qiydi. Soat ustuni tug'ilgan joydagi haqiqiy quyosh vaqtiga moslashtiriladi, va Bugungi Taqdir bugungi kun ustunini ushbu chart bilan solishtirib yigirma munosabat elementini baholaydi.\nHisoblashda ishlatilgan har qanday kesish nuqtasi va baholash jadvali quyidagi asoslash hujjatida e'lon qilingan.",
     "meLegend": "Siz haqingizda",
     "nickname": "Qanday atalsin",
     "nicknamePlaceholder": "masalan: Men",

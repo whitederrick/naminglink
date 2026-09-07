@@ -18,6 +18,7 @@ export const fr: Dictionary = {
   "dream": {
     "title": "Interprétation des rêves",
     "subtitle": "Écrivez le rêve que vous avez eu et nous le chercherons dans un dictionnaire des symboles traditionnels coréens des rêves.",
+    "intro": "Dream-Link recherche des mots symboliques dans ce que vous écrivez, puis choisit la signification qui correspond à la situation de ce rêve — que vous l'ayez vu ou vécu, dans quelle direction le soleil s'est déplacé — parmi les plusieurs significations traditionnelles qu'un symbole peut porter. Chaque signification dans le dictionnaire est associée au passage original dont elle provient, et lorsque un rêve contient plusieurs symboles, la lecture mixte est présentée comme mixte plutôt que forcée en un seul verdict.\nAucune IA ne rédige l'interprétation — seul le dictionnaire et les règles de contexte la choisissent.",
     "textLabel": "De quoi avez-vous rêvé ?",
     "textPlaceholder": "Écrivez-le comme vous vous en souvenez. Par exemple : une carpe a sauté hors de l'eau claire",
     "moodLabel": "Comment vous vous êtes senti au réveil",

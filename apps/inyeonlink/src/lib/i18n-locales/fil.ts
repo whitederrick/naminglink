@@ -32,6 +32,7 @@ export const fil: Dictionary = {
     title: "Petsa ng kapanganakan ng dalawa",
     description:
       "Mas matalas ang pagbasa kung alam ang oras ng kapanganakan, pero hindi ito kinakailangan.",
+    intro: "Binubuo ng Inyeon-Link ang sariling walong karakter ng bawat tao, pagkatapos ay sinusuri ang dalawang axis. Ang pagkakatugma ng saju ay tumitingin sa apat na bagay — kung ano ang bawat day master sa isa't isa sa mga termino ng Sampung Diyos, kung ang Limang Elemento ay nagbibigay ng kailangan ng isa't isa, kung ang alinman sa mga tsart ay nasa posisyon ng asawa (Direktang Yaman o Direktang Opisyal), at kung ang mga sangay ng araw ay nag-uugnay o nag-aaway — habang ang pagkakatugma ng zodiac ay tumitingin lamang sa sangay ng taon. Ang dalawang axis ay pinagsama gamit ang isang pinabigat na average, at ang pagbasa ay gumagana kahit na walang oras ng kapanganakan.\nBawat timbang at patakaran na ginamit dito ay nakapubliko sa dokumento ng pangangatwiran sa ibaba.",
     personA: "Unang tao",
     personB: "Pangalawang tao",
     nickname: "Itatawag sa kanya",
@@ -247,6 +248,7 @@ export const fil: Dictionary = {
     formTitle: "Anong uri ng tao ang bagay sa iyo",
     formDescription:
       "Isang petsa ng kapanganakan lang ang kailangan. Puwede mo itong basahin kahit hindi mo alam ang kaarawan ninuman — o kahit wala ka pang iniisip na tao.",
+    formIntro: "Ang Affinity ay gumagana kahit walang petsa ng kapanganakan ng ibang tao. Binabaligtad nito ang makina ng pagkakatugma — sinusubukan ang bawat halaga na maaaring hawakan ng nawawalang bahagi — at hinahanap kung aling uri ang pinaka-angkop sa iyo sa bawat isa sa parehong apat na axis: relasyon ng day master, suplay ng elemento, relasyon ng day branch, at ang posisyon ng asawa. Ipinapakita nito ang bawat axis nang hiwalay sa halip na pagsamahin ang mga ito sa isang iskor, dahil sa isang totoong tao, ang day master at ang mga elemento ay hindi gumagalaw nang hiwalay, kaya ang pagsasama-sama ng pinakamataas na resulta sa bawat axis ay ilalarawan ang isang tao na hindi talaga umiiral.\nAng parehong lohika ay ginagamit ng Saju compatibility.",
     meLegend: "Ikaw",
     genderHint:
       "Iba ang pagbasa ng tradisyonal na Saju sa puwesto ng asawa depende sa kasarian. Kung hindi mo ito itatakda, tinatanggal ang bahaging iyon sa halip na hulaan.",

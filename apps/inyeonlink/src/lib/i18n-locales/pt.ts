@@ -31,6 +31,7 @@ export const pt: Dictionary = {
     title: "As duas datas de nascimento",
     description:
       "Saber o horário de nascimento deixa a leitura mais precisa, mas não é obrigatório.",
+    intro: "Inyeon-Link constrói os oito caracteres de cada pessoa e, em seguida, avalia dois eixos. A compatibilidade de saju verifica quatro aspectos — o que cada dia mestre representa para o outro em termos dos Dez Deuses, se os Cinco Elementos fornecem o que o outro precisa, se algum dos gráficos está na posição de cônjuge (Riqueza Direta ou Oficial Direto), e se os ramos do dia se combinam ou colidem — enquanto a compatibilidade zodiacal considera apenas o ramo do ano. Os dois eixos são combinados com uma média ponderada, e a leitura funciona mesmo sem um horário de nascimento.\nCada peso e regra utilizada aqui está publicada no documento de raciocínio abaixo.",
     personA: "Primeira pessoa",
     personB: "Segunda pessoa",
     nickname: "Como chamar a pessoa",
@@ -246,6 +247,7 @@ export const pt: Dictionary = {
     formTitle: "Que tipo de pessoa combina com você",
     formDescription:
       "Basta uma data de nascimento. Você pode ler isto sem saber o aniversário de ninguém — ou sem ter ninguém em mente ainda.",
+    formIntro: "A afinidade funciona sem a data de nascimento da outra pessoa. Ela executa o motor de compatibilidade ao contrário — testando cada valor que o lado ausente poderia ter — e encontra qual tipo se encaixa melhor em você em cada um dos mesmos quatro eixos: relação do dia mestre, suprimento elemental, relação do ramo do dia e a posição do cônjuge. Ela mostra cada eixo separadamente em vez de somá-los em uma única pontuação, porque em uma pessoa real o dia mestre e os elementos não se movem independentemente, então juntar o melhor resultado em cada eixo descreveria alguém que não poderia realmente existir.\nO mesmo raciocínio é usado pela compatibilidade de Saju.",
     meLegend: "Você",
     genderHint:
       "O Saju tradicional lê a posição do cônjuge de forma diferente conforme o gênero. Deixe em branco e esse fator é descartado, em vez de adivinhado.",

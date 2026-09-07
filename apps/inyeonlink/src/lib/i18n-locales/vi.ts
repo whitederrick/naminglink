@@ -32,6 +32,7 @@ export const vi: Dictionary = {
     title: "Ngày sinh của cả hai người",
     description:
       "Biết giờ sinh thì luận sẽ sắc hơn, nhưng không có cũng vẫn xem được.",
+    intro: "Inyeon-Link xây dựng tám ký tự của mỗi người, sau đó đánh giá hai trục. Sự tương thích saju kiểm tra bốn điều — mỗi ngày chủ là gì đối với người kia theo các thuật ngữ của Mười Thần, liệu Ngũ Hành có cung cấp những gì mà người kia cần, liệu biểu đồ nào có nằm ở vị trí của người phối ngẫu (Tài Chính Trực tiếp hoặc Quan Chức Trực tiếp) hay không, và liệu các nhánh ngày có kết hợp hay xung khắc — trong khi sự tương thích của cung hoàng đạo chỉ xem xét nhánh năm. Hai trục được kết hợp với một trung bình có trọng số, và việc đọc vẫn hoạt động ngay cả khi không có thời gian sinh.\nMỗi trọng số và quy tắc được sử dụng ở đây đều được công bố trong tài liệu lý do bên dưới.",
     personA: "Người thứ nhất",
     personB: "Người thứ hai",
     nickname: "Cách gọi",
@@ -247,6 +248,7 @@ export const vi: Dictionary = {
     formTitle: "Người hợp với bạn có nét thế nào",
     formDescription:
       "Chỉ cần một ngày sinh. Bạn xem được ngay cả khi chưa biết ngày sinh của ai — hoặc chưa có ai trong lòng.",
+    formIntro: "Affinity hoạt động mà không cần ngày sinh của người kia. Nó chạy động cơ tương thích theo chiều ngược lại — thử mọi giá trị mà phía thiếu có thể có — và tìm ra loại nào phù hợp nhất với bạn trên mỗi trong bốn trục: mối quan hệ với ngày chủ, cung cấp nguyên tố, mối quan hệ với nhánh ngày, và vị trí của người phối ngẫu. Nó hiển thị mỗi trục riêng biệt thay vì gộp chúng thành một điểm số, vì trong một người thực, ngày chủ và các nguyên tố không di chuyển độc lập, vì vậy việc ghép nối kết quả hàng đầu trên mỗi trục sẽ mô tả một người không thể tồn tại.\nLý do tương tự cũng được sử dụng trong sự tương thích Saju.",
     meLegend: "Bạn",
     genderHint:
       "Tứ Trụ truyền thống luận vị trí phối ngẫu khác nhau theo giới tính. Để trống thì mục đó bị bỏ ra chứ không đoán bừa.",

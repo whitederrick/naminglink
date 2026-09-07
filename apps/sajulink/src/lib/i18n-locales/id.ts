@@ -32,6 +32,7 @@ export const id: Dictionary = {
   "form": {
     "title": "Tanggal lahir Anda",
     "description": "Mengetahui jam lahir membuat pembacaan lebih tajam, tetapi tidak wajib.",
+    "intro": "Saju-Link mengubah tanggal dan waktu lahir menjadi delapan karakter dari empat pilar, kemudian membaca kekuatan elemen mana yang hilang atau berlebihan melalui hubungan Lima Elemen dan Sepuluh Dewa. Pilar jam diperbaiki ke waktu matahari yang sebenarnya di tempat lahir, dan Hari Ini memiliki skor dua puluh item hubungan dengan mencocokkan pilar hari hari ini terhadap bagan yang sama.\nSetiap batas dan tabel penilaian yang digunakan dalam perhitungan dipublikasikan dalam dokumen alasan di bawah.",
     "meLegend": "Tentang Anda",
     "nickname": "Panggilan",
     "nicknamePlaceholder": "mis. Saya",

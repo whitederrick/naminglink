@@ -18,6 +18,7 @@ export const pl: Dictionary = {
   "dream": {
     "title": "Interpretacja snów",
     "subtitle": "Zapisz sen, który miałeś, a my poszukamy go w słowniku tradycyjnych koreańskich symboli snów.",
+    "intro": "Dream-Link szuka słów symbolicznych w tym, co napiszesz, a następnie wybiera znaczenie, które pasuje do sytuacji tego snu — niezależnie od tego, czy to widziałeś, czy zrobiłeś, w którą stronę poruszało się słońce — z kilku tradycyjnych znaczeń, jakie może mieć symbol. Każde znaczenie w słowniku jest powiązane z oryginalnym fragmentem, z którego pochodzi, a gdy sen zawiera kilka symboli, mieszane odczytanie jest przedstawiane jako mieszane, a nie zmuszone do jednego werdyktu.\nŻadne AI nie pisze odczytania — tylko słownik i zasady kontekstu je wybierają.",
     "textLabel": "O czym śniłeś?",
     "textPlaceholder": "Zapisz to, jak pamiętasz. Na przykład: karp wyskoczył z czystej wody",
     "moodLabel": "Jak się czułeś po przebudzeniu",

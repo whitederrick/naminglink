@@ -31,6 +31,7 @@ export const fr: Dictionary = {
     title: "Les deux dates de naissance",
     description:
       "Connaître l'heure de naissance affine la lecture, mais ce n'est pas obligatoire.",
+    intro: "Inyeon-Link construit les huit caractères de chaque personne, puis évalue deux axes. La compatibilité saju vérifie quatre éléments : ce que chaque jour maître représente pour l'autre en termes de Dix Dieux, si les Cinq Éléments fournissent ce dont l'autre a besoin, si l'un des deux thèmes se trouve dans la position de conjoint (Richesse Directe ou Officier Direct), et si les branches du jour s'harmonisent ou s'opposent — tandis que la compatibilité zodiacale ne considère que la branche de l'année. Les deux axes sont combinés avec une moyenne pondérée, et la lecture fonctionne même sans heure de naissance.\nChaque poids et règle utilisés ici sont publiés dans le document de raisonnement ci-dessous.",
     personA: "Première personne",
     personB: "Deuxième personne",
     nickname: "Comment l'appeler",
@@ -247,6 +248,7 @@ export const fr: Dictionary = {
     formTitle: "Quel genre de personne vous convient",
     formDescription:
       "Une seule date de naissance suffit. Vous pouvez lire ceci sans connaître l'anniversaire de qui que ce soit — ou sans avoir encore quelqu'un en tête.",
+    formIntro: "L'affinité fonctionne sans la date de naissance de l'autre personne. Elle fait fonctionner le moteur de compatibilité à l'envers — en essayant chaque valeur que le côté manquant pourrait avoir — et trouve quel type vous convient le mieux sur chacun des mêmes quatre axes : relation avec le maître du jour, approvisionnement élémentaire, relation avec la branche du jour, et la position du conjoint. Elle montre chaque axe séparément au lieu de les additionner en un seul score, car chez une personne réelle, le maître du jour et les éléments ne se déplacent pas indépendamment, donc assembler le meilleur résultat sur chaque axe décrirait quelqu'un qui ne pourrait en réalité pas exister.\nLe même raisonnement est utilisé par la compatibilité Saju.",
     meLegend: "Vous",
     genderHint:
       "Le Saju traditionnel lit la position du conjoint différemment selon le genre. Si vous ne le précisez pas, ce facteur est retiré plutôt que deviné.",

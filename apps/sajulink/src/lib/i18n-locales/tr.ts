@@ -32,6 +32,7 @@ export const tr: Dictionary = {
   "form": {
     "title": "Doğum tarihiniz",
     "description": "Doğum saatini bilmek yorumu keskinleştirir ama zorunlu değildir.",
+    "intro": "Saju-Link, doğum tarihi ve saatini dört sütunun sekiz karakterine dönüştürür, ardından Beş Element ve On Tanrı ilişkileri aracılığıyla hangi elementsel gücün eksik veya fazla olduğunu okur. Saat sütunu, doğum yerindeki gerçek güneş saatine göre düzeltilir ve Bugünün Şansı, bugünün gün sütununu aynı haritayla eşleştirerek yirmi ilişki öğesini puanlar.\nHesaplamada kullanılan her kesim ve puanlama tablosu, aşağıdaki mantık belgesinde yayımlanmıştır.",
     "meLegend": "Hakkınızda",
     "nickname": "Nasıl anılsın",
     "nicknamePlaceholder": "örn. Ben",

@@ -142,6 +142,8 @@ export type Dictionary = {
   dream: {
     title: string;
     subtitle: string;
+    /** 처음 오는 사람에게 폼 위에서 보여 주는 설명 문단(2026-09-07, 애드센스 저가치콘텐츠 대응). */
+    intro: string;
     textLabel: string;
     textPlaceholder: string;
     moodLabel: string;
@@ -254,6 +256,8 @@ const ko: Dictionary = {
   dream: {
     title: "꿈 해몽",
     subtitle: "꾼 꿈을 적어 주시면 전통 해몽 상징 사전에서 찾아 풀어 드립니다.",
+    intro:
+      "드림링크는 적어 주신 문장에서 상징이 될 만한 낱말을 찾아, 그 상징이 전통 해몽에서 갖는 여러 뜻 중 지금 이 꿈의 상황(본 것인지 한 것인지, 해가 뜨는지 지는지 같은 방향)에 맞는 것을 골라 보여드립니다. 사전의 뜻 하나하나에는 그 근거가 된 원문 구절이 함께 붙어 있고, 상징이 여러 개면 그 조합으로 나온 길흉을 섞인 그대로 말씀드립니다.\n인공지능이 풀이를 만들지 않습니다 — 사전과 문맥 판정 규칙만으로 찾습니다.",
     textLabel: "어떤 꿈을 꾸셨나요",
     textPlaceholder: "기억나는 대로 적어 주세요. 예: 맑은 물에서 잉어가 뛰어올랐다",
     moodLabel: "깨어났을 때 기분",
@@ -442,6 +446,8 @@ const en: Dictionary = {
   dream: {
     title: "Dream reading",
     subtitle: "Write down the dream you had and we will look it up in a dictionary of traditional Korean dream symbols.",
+    intro:
+      "Dream-Link looks for symbol words in what you write, then picks the meaning that fits this dream's situation — whether you saw it or did it, which direction the sun moved — from the several traditional meanings a symbol can carry. Every meaning in the dictionary is paired with the original passage it comes from, and when a dream holds several symbols, the mixed reading is shown as mixed rather than forced into one verdict.\nNo AI writes the reading — only the dictionary and the context rules choose it.",
     textLabel: "What did you dream about?",
     textPlaceholder: "Write it as you remember it. For example: a carp leapt out of clear water",
     moodLabel: "How you felt on waking",

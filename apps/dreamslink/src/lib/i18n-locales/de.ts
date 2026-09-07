@@ -18,6 +18,7 @@ export const de: Dictionary = {
   "dream": {
     "title": "Traumdeutung",
     "subtitle": "Schreiben Sie den Traum auf, den Sie hatten, und wir werden ihn in einem Wörterbuch traditioneller koreanischer Traumsymbole nachschlagen.",
+    "intro": "Dream-Link sucht nach symbolischen Wörtern in dem, was Sie schreiben, und wählt dann die Bedeutung aus, die zur Situation dieses Traums passt — ob Sie es gesehen oder getan haben, in welche Richtung die Sonne sich bewegt hat — aus den mehreren traditionellen Bedeutungen, die ein Symbol tragen kann. Jede Bedeutung im Wörterbuch ist mit dem ursprünglichen Abschnitt verbunden, aus dem sie stammt, und wenn ein Traum mehrere Symbole enthält, wird die gemischte Deutung als gemischt angezeigt, anstatt in ein Urteil gezwungen zu werden.\nKein KI-System erstellt die Deutung — nur das Wörterbuch und die Kontextregeln wählen sie aus.",
     "textLabel": "Wovon haben Sie geträumt?",
     "textPlaceholder": "Schreiben Sie es, wie Sie sich erinnern. Zum Beispiel: Ein Karpfen sprang aus klarem Wasser",
     "moodLabel": "Wie Sie sich beim Aufwachen gefühlt haben",

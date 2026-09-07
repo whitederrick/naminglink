@@ -32,6 +32,7 @@ export const pl: Dictionary = {
   "form": {
     "title": "Twoja data urodzenia",
     "description": "Znajomość godziny urodzenia wyostrza odczyt, ale nie jest wymagana.",
+    "intro": "Saju-Link przekształca datę i godzinę urodzenia w osiem znaków czterech filarów, a następnie odczytuje, która siła elementarna jest brakująca lub nadmiarowa poprzez relacje Pięciu Elementów i Dziesięciu Bogów. Filar godziny jest korygowany do rzeczywistego czasu słonecznego w miejscu urodzenia, a dzisiejsza fortuna ocenia dwadzieścia elementów relacyjnych, porównując dzisiejszy filar dnia z tym samym wykresem.\nKażda granica i tabela punktów użyta w obliczeniach jest opublikowana w dokumencie uzasadniającym poniżej.",
     "meLegend": "O tobie",
     "nickname": "Nazwa wyświetlana",
     "nicknamePlaceholder": "np. Ja",

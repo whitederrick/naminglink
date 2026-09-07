@@ -32,6 +32,7 @@ export const fr: Dictionary = {
   "form": {
     "title": "Votre date de naissance",
     "description": "Connaître l'heure de naissance affine la lecture, mais ce n'est pas obligatoire.",
+    "intro": "Saju-Link transforme une date et une heure de naissance en huit caractères des quatre piliers, puis lit quelle force élémentaire manque ou déborde à travers les relations des Cinq Éléments et des Dix Dieux. Le pilier horaire est corrigé à l'heure solaire réelle au lieu de naissance, et la Fortune d'Aujourd'hui évalue vingt éléments de relation en faisant correspondre le pilier du jour d'aujourd'hui avec ce même tableau.\nChaque seuil et tableau de notation utilisé dans le calcul est publié dans le document de raisonnement ci-dessous.",
     "meLegend": "À propos de vous",
     "nickname": "Comment l'appeler",
     "nicknamePlaceholder": "ex. : Moi",

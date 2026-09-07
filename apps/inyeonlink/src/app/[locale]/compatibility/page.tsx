@@ -62,6 +62,15 @@ export default async function CompatibilityPage({
             <p className="break-keep-all mt-3 text-muted">
               {dictionary.form.description}
             </p>
+            {/*
+              애드센스가 "가치가 별로 없는 콘텐츠"로 지목했던 sajulink와 같은 자리
+              (2026-09-07) — 이 화면도 사실상 입력 폼뿐이라 사람이 읽는 설명이 description
+              한 문장뿐이었다. `/affinity`는 다른 계산(상대 자리를 비운 역산)이라 문구를
+              공유하지 않고 따로 쓴다.
+            */}
+            <p className="break-keep-all mt-3 whitespace-pre-line text-sm leading-6">
+              {dictionary.form.intro}
+            </p>
             {/* **설명 바로 아래다(사용자 결정).** 예전에는 폼 아래 미저장 안내 다음에 있었는데,
                 푸터와 가까워 푸터의 안내 링크와 중복처럼 보였다. 무엇을 근거로 계산하는지는
                 생년월일을 넣기 **전에** 궁금해지는 것이라 이 자리가 맞다. */}

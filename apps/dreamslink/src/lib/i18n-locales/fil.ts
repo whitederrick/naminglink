@@ -18,6 +18,7 @@ export const fil: Dictionary = {
   "dream": {
     "title": "Pagsusuri ng Panaginip",
     "subtitle": "Isulat ang panaginip na napanaginipan mo at hahanapin namin ito sa isang diksyunaryo ng mga tradisyonal na simbolo ng panaginip sa Korea.",
+    "intro": "Ang Dream-Link ay naghahanap ng mga simbolo sa iyong isinulat, at pinipili ang kahulugan na akma sa sitwasyon ng panaginip na ito — kung ito ay iyong nakita o ginawa, kung aling direksyon ang inilipat ng araw — mula sa ilang tradisyonal na kahulugan na maaaring taglayin ng isang simbolo. Bawat kahulugan sa diksyunaryo ay nakapareha sa orihinal na talata na pinagmulan nito, at kapag ang isang panaginip ay may ilang simbolo, ang pinaghalong pagbasa ay ipinapakita bilang halo-halo sa halip na pilitin sa isang hatol.\nWalang AI na sumusulat ng pagbasa — tanging ang diksyunaryo at ang mga patakaran ng konteksto ang pumipili nito.",
     "textLabel": "Ano ang napanaginipan mo?",
     "textPlaceholder": "Isulat ito ayon sa iyong alaala. Halimbawa: isang isdang karp ang tumalon mula sa malinaw na tubig",
     "moodLabel": "Paano ka nakaramdam nang magising ka",

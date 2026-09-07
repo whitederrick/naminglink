@@ -31,6 +31,7 @@ export const it: Dictionary = {
     title: "Le due date di nascita",
     description:
       "Conoscere l'ora di nascita rende la lettura più precisa, ma non è obbligatorio.",
+    intro: "Inyeon-Link costruisce gli otto caratteri di ciascuna persona, quindi valuta due assi. La compatibilità del saju verifica quattro aspetti: cosa rappresenta ciascun giorno maestro per l'altro in termini di Dieci Dei, se i Cinque Elementi forniscono ciò di cui l'altro ha bisogno, se uno dei due grafici si trova nella posizione del coniuge (Ricchezza Diretta o Ufficiale Diretta), e se i rami del giorno si combinano o si scontrano — mentre la compatibilità zodiacale considera solo il ramo dell'anno. I due assi vengono combinati con una media ponderata, e la lettura funziona anche senza un orario di nascita.\nOgni peso e regola utilizzati qui sono pubblicati nel documento di ragionamento qui sotto.",
     personA: "Prima persona",
     personB: "Seconda persona",
     nickname: "Come chiamarla",
@@ -246,6 +247,7 @@ export const it: Dictionary = {
     formTitle: "Che tipo di persona fa per te",
     formDescription:
       "Basta una sola data di nascita. Puoi leggere questo profilo senza conoscere il compleanno di nessuno, o anche senza avere ancora nessuno in mente.",
+    formIntro: "L'affinità funziona senza la data di nascita dell'altra persona. Inverte il motore di compatibilità — provando ogni valore che il lato mancante potrebbe avere — e trova quale tipo ti si addice meglio su ciascuno dei quattro assi: relazione con il giorno maestro, fornitura elementale, relazione con il ramo del giorno e posizione del coniuge. Mostra ogni asse singolarmente invece di sommarli in un punteggio unico, perché in una persona reale il giorno maestro e gli elementi non si muovono indipendentemente, quindi unire il miglior risultato su ogni asse descriverebbe qualcuno che non potrebbe effettivamente esistere.\nLo stesso ragionamento è utilizzato dalla compatibilità Saju.",
     meLegend: "Tu",
     genderHint:
       "Il Saju tradizionale legge la posizione del coniuge in modo diverso a seconda del genere. Se lo lasci vuoto, quel fattore viene escluso invece che indovinato.",

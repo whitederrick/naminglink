@@ -32,6 +32,7 @@ export const vi: Dictionary = {
   "form": {
     "title": "Ngày sinh của bạn",
     "description": "Biết giờ sinh thì luận sẽ sắc hơn, nhưng không có cũng vẫn xem được.",
+    "intro": "Saju-Link chuyển đổi ngày và giờ sinh thành tám ký tự của bốn trụ, sau đó đọc ra sức mạnh nguyên tố nào đang thiếu hoặc thừa thông qua mối quan hệ của Ngũ Hành và Mười Thần. Trụ giờ được điều chỉnh theo thời gian mặt trời thực tế tại nơi sinh, và Điểm vận may hôm nay chấm điểm hai mươi mục quan hệ bằng cách so sánh trụ ngày hôm nay với cùng một biểu đồ này.\nMọi giá trị cắt và bảng điểm được sử dụng trong tính toán đều được công bố trong tài liệu lý do bên dưới.",
     "meLegend": "Về bạn",
     "nickname": "Cách gọi",
     "nicknamePlaceholder": "ví dụ: Tôi",

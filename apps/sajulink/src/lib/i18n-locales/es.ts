@@ -32,6 +32,7 @@ export const es: Dictionary = {
   "form": {
     "title": "Tu fecha de nacimiento",
     "description": "Conocer la hora de nacimiento afina la lectura, pero no es obligatorio.",
+    "intro": "Saju-Link convierte una fecha y hora de nacimiento en los ocho caracteres de los cuatro pilares, luego lee qué fuerza elemental está ausente o desbordante a través de las relaciones de los Cinco Elementos y los Diez Dioses. El pilar de la hora se corrige a la hora solar verdadera en el lugar de nacimiento, y la Fortuna de Hoy puntúa veinte elementos de relación al comparar el pilar del día de hoy con este mismo gráfico.\nCada umbral y tabla de puntuación utilizada en el cálculo se publica en el documento de razonamiento a continuación.",
     "meLegend": "Sobre ti",
     "nickname": "Cómo llamarle",
     "nicknamePlaceholder": "p. ej. Yo",

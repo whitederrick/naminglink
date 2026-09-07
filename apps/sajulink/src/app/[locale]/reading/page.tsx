@@ -54,6 +54,15 @@ export default async function ReadingPage({
           <section className="mt-10">
             <PageTitle title={dictionary.form.title} locale={locale} path="/reading" />
             <p className="break-keep-all mt-3 text-muted">{dictionary.form.description}</p>
+            {/*
+              애드센스가 "가치가 별로 없는 콘텐츠"로 지목한 자리 — 이 화면이 사실상 입력 폼뿐이라
+              사람이 읽는 설명이 서너 낱말짜리 description 하나뿐이었다(2026-09-07). `/today`는
+              같은 폼을 재방문자용으로 그대로 재사용하는 화면이라 이 문단을 넣지 않는다 — 넣으면
+              두 화면이 다시 완전히 같은 문구가 된다.
+            */}
+            <p className="break-keep-all mt-3 whitespace-pre-line text-sm leading-6">
+              {dictionary.form.intro}
+            </p>
             {/* 무엇을 근거로 계산하는지는 생년월일을 넣기 **전에** 궁금해지는 것이라 이 자리다. */}
             <GuideLink locale={locale} from="reading" align="start" className="mt-3" />
           </section>

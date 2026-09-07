@@ -64,6 +64,11 @@ export default async function AffinityPage({
             <p className="break-keep-all mt-3 text-muted">
               {dictionary.affinity.formDescription}
             </p>
+            {/* /compatibility와 같은 이유로 넣는다(2026-09-07) — 이 화면 고유의 문구:
+                궁합 계산을 거꾸로 돌려 상대 자리를 비운 채 대입하는 방식을 설명한다. */}
+            <p className="break-keep-all mt-3 whitespace-pre-line text-sm leading-6">
+              {dictionary.affinity.formIntro}
+            </p>
             {/* 궁합 입력 화면과 같은 자리다 — 두 화면이 형제로 읽혀야 한다. */}
             <GuideLink locale={locale} from="affinity" align="start" className="mt-3" />
           </section>

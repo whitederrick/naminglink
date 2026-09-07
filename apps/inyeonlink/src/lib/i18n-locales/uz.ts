@@ -33,6 +33,7 @@ export const uz: Dictionary = {
     title: "Ikkala tug'ilgan sana",
     description:
       "Tug'ilgan vaqtni bilish talqinni aniqroq qiladi, lekin u majburiy emas.",
+    intro: "Inyeon-Link har bir insonning o'ziga xos sakkiz xarakterini yaratadi, so'ngra ikkita o'qni baholaydi. Saju mosligi to'rt narsani tekshiradi — har bir kun ustasi boshqa kishi uchun Ten Gods terminlari bo'yicha nima ekanligini, besh elementlar bir-birining ehtiyojlarini qondiradimi, har qanday jadval turmush o'rtog'i pozitsiyasida (To'g'ridan-to'g'ri Boylik yoki To'g'ridan-to'g'ri Ofitser) o'tiradimi, va kun tarmoqlari birlashadimi yoki to'qnashadimi — zodiak mosligi esa faqat yil tarmog'iga qaraydi. Ikkita o'q og'irlangan o'rtacha bilan birlashtiriladi va o'qish tug'ilish vaqti bo'lmasa ham ishlaydi.\nBu yerda ishlatilgan har bir og'irlik va qoidalar quyidagi asoslash hujjatida e'lon qilingan.",
     personA: "Birinchi inson",
     personB: "Ikkinchi inson",
     nickname: "Qanday atalsin",
@@ -248,6 +249,7 @@ export const uz: Dictionary = {
     formTitle: "Sizga qanday odam mos keladi",
     formDescription:
       "Bitta tug'ilgan sananing o'zi kifoya. Hech kimning tug'ilgan kunini bilmasangiz ham — hatto ko'nglingizda hech kim bo'lmasa ham — o'qishingiz mumkin.",
+    formIntro: "O'zaro moslik boshqa odamning tug'ilgan sanasini bilmasdan ishlaydi. U moslik mexanizmini teskari ishlatadi — yo'qolgan tomon uchun mumkin bo'lgan har bir qiymatni sinab ko'radi — va sizga eng mos keladigan turini har bir to'rt o'lchovda topadi: kun ustuni munosabati, elementlar ta'minoti, kun shoxlari munosabati va turmush o'rtog'ining pozitsiyasi. Har bir o'lchovni alohida ko'rsatadi, barchasini bitta ballga qo'shmasdan, chunki haqiqiy insonda kun ustuni va elementlar mustaqil harakat qilmaydi, shuning uchun har bir o'lchovdagi eng yuqori natijalarni birlashtirish haqiqatan ham mavjud bo'lmagan bir insonni tasvirlaydi.\nXuddi shu mantiq Saju mosligi uchun ham qo'llaniladi.",
     meLegend: "Siz",
     genderHint:
       "An'anaviy Saju turmush o'rtoq o'rnini jinsga qarab boshqacha o'qiydi. Belgilamasangiz, o'sha bo'lim taxmin qilinmaydi, balki hisobdan chiqariladi.",

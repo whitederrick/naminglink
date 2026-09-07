@@ -32,6 +32,7 @@ export const tr: Dictionary = {
     title: "İki doğum tarihi",
     description:
       "Doğum saatini bilmek yorumu keskinleştirir ama zorunlu değildir.",
+    intro: "Inyeon-Link, her kişinin kendi sekiz karakterini oluşturur ve ardından iki ekseni değerlendirir. Saju uyumluluğu dört şeyi kontrol eder — her bir gün ustasının diğerine Ten Gods terimleriyle ne olduğunu, Beş Elementin diğerinin ihtiyaç duyduğu enerjiyi sağlayıp sağlamadığını, her iki haritin de eş pozisyonunda (Doğrudan Zenginlik veya Doğrudan Memur) olup olmadığını ve gün dallarının birleşip birleşmediğini veya çatışıp çatışmadığını — oysa burç uyumluluğu yalnızca yıl dalını dikkate alır. İki eksen, ağırlıklı bir ortalama ile birleştirilir ve okuma, doğum saati olmadan bile çalışır.\nBurada kullanılan her ağırlık ve kural, aşağıdaki mantık belgesinde yayımlanmıştır.",
     personA: "Birinci kişi",
     personB: "İkinci kişi",
     nickname: "Nasıl anılsın",
@@ -248,6 +249,7 @@ export const tr: Dictionary = {
     formTitle: "Size nasıl biri uyar",
     formDescription:
       "Tek bir doğum tarihi yeter. Kimsenin doğum gününü bilmeden de, aklınızda henüz biri yokken de okuyabilirsiniz.",
+    formIntro: "İlişki, diğer kişinin doğum tarihine ihtiyaç duymadan çalışır. Eksik tarafın alabileceği her değeri deneyerek uyumluluk motorunu tersine çalıştırır ve aynı dört eksenden hangisinin size en uygun olduğunu bulur: gün ustası ilişkisi, elementsel destek, gün dalı ilişkisi ve eş pozisyonu. Her ekseni kendi başına gösterir, çünkü gerçek bir kişide gün ustası ve elementler bağımsız hareket etmez, bu nedenle her eksendeki en iyi sonucu birleştirmek, gerçekte var olamayacak birini tanımlayacaktır.\nAynı mantık, Saju uyumluluğu için de kullanılmaktadır.",
     meLegend: "Siz",
     genderHint:
       "Geleneksel Saju eş konumunu cinsiyete göre farklı okur. Boş bırakırsanız o etken tahmin edilmez, hesaplamadan çıkarılır.",

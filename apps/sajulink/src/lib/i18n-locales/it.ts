@@ -32,6 +32,7 @@ export const it: Dictionary = {
   "form": {
     "title": "La tua data di nascita",
     "description": "Conoscere l'ora di nascita rende la lettura più precisa, ma non è obbligatorio.",
+    "intro": "Saju-Link trasforma una data e un'ora di nascita nei otto caratteri dei quattro pilastri, quindi legge quale forza elementale è mancante o in eccesso attraverso le relazioni dei Cinque Elementi e dei Dieci Dei. Il pilastro dell'ora è corretto all'ora solare vera nel luogo di nascita, e l'Ora di Oggi valuta venti elementi di relazione confrontando il pilastro del giorno di oggi con questo stesso grafico.\nOgni valore limite e tabella di punteggio utilizzati nel calcolo sono pubblicati nel documento di ragionamento qui sotto.",
     "meLegend": "Informazioni su di te",
     "nickname": "Come chiamarla",
     "nicknamePlaceholder": "es. Io",

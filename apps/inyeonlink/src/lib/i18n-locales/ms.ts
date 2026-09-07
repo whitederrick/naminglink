@@ -32,6 +32,7 @@ export const ms: Dictionary = {
     title: "Kedua-dua tarikh lahir",
     description:
       "Mengetahui waktu lahir menjadikan bacaan lebih tajam, tetapi ia tidak diwajibkan.",
+    intro: "Inyeon-Link membina lapan watak setiap orang, kemudian menilai dua paksi. Keserasian saju memeriksa empat perkara — apa yang setiap day master adalah kepada yang lain dalam istilah Sepuluh Dewa, sama ada Lima Elemen membekalkan apa yang diperlukan oleh yang lain, sama ada mana-mana carta berada dalam posisi pasangan (Kekayaan Langsung atau Pegawai Langsung), dan sama ada cabang hari bergabung atau bertentangan — sementara keserasian zodiak hanya melihat cabang tahun. Dua paksi digabungkan dengan purata tertimbang, dan bacaan ini berfungsi walaupun tanpa waktu kelahiran.\nSetiap berat dan peraturan yang digunakan di sini diterbitkan dalam dokumen alasan di bawah.",
     personA: "Orang pertama",
     personB: "Orang kedua",
     nickname: "Panggilan",
@@ -248,6 +249,7 @@ export const ms: Dictionary = {
     formTitle: "Orang seperti apa yang sesuai dengan anda",
     formDescription:
       "Satu tarikh lahir sudah memadai. Anda boleh membacanya tanpa mengetahui hari lahir sesiapa — atau tanpa ada sesiapa dalam fikiran lagi.",
+    formIntro: "Affinity berfungsi tanpa tarikh lahir orang lain. Ia menjalankan enjin keserasian secara terbalik — mencuba setiap nilai yang mungkin dipegang oleh sisi yang hilang — dan mencari jenis yang paling sesuai untuk anda pada setiap daripada empat paksi yang sama: hubungan penguasa hari, bekalan unsur, hubungan cabang hari, dan kedudukan pasangan. Ia menunjukkan setiap paksi secara berasingan dan bukannya menggabungkannya menjadi satu skor, kerana dalam seorang individu yang sebenar, penguasa hari dan unsur tidak bergerak secara bebas, jadi menggabungkan hasil terbaik pada setiap paksi akan menggambarkan seseorang yang sebenarnya tidak wujud.\nAlasan yang sama digunakan oleh keserasian Saju.",
     meLegend: "Anda",
     genderHint:
       "Saju tradisional membaca kedudukan pasangan secara berbeza mengikut jantina. Biarkan ia kosong dan faktor itu digugurkan, bukan diteka.",

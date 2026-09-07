@@ -32,6 +32,7 @@ export const id: Dictionary = {
     title: "Kedua tanggal lahir",
     description:
       "Mengetahui jam lahir membuat pembacaan lebih tajam, tetapi tidak wajib.",
+    intro: "Inyeon-Link membangun delapan karakter masing-masing orang, kemudian menilai dua sumbu. Kecocokan saju memeriksa empat hal — apa yang masing-masing day master bagi yang lain dalam istilah Sepuluh Dewa, apakah Lima Elemen menyediakan apa yang dibutuhkan oleh yang lain, apakah salah satu bagan berada di posisi pasangan (Kekayaan Langsung atau Pejabat Langsung), dan apakah cabang hari saling menggabungkan atau bertentangan — sementara kecocokan zodiak hanya melihat cabang tahun. Kedua sumbu digabungkan dengan rata-rata berbobot, dan pembacaan ini tetap berfungsi bahkan tanpa waktu lahir.\nSetiap bobot dan aturan yang digunakan di sini dipublikasikan dalam dokumen alasan di bawah.",
     personA: "Orang pertama",
     personB: "Orang kedua",
     nickname: "Panggilan",
@@ -247,6 +248,7 @@ export const id: Dictionary = {
     formTitle: "Orang seperti apa yang cocok untuk Anda",
     formDescription:
       "Cukup satu tanggal lahir. Anda bisa membacanya tanpa tahu tanggal lahir siapa pun — atau bahkan tanpa ada seseorang dalam pikiran.",
+    formIntro: "Affinity bekerja tanpa tanggal lahir orang lain. Ini menjalankan mesin kecocokan secara terbalik — mencoba setiap nilai yang bisa dimiliki sisi yang hilang — dan menemukan jenis yang paling cocok untuk Anda di setiap dari empat sumbu yang sama: hubungan penguasa hari, pasokan elemen, hubungan cabang hari, dan posisi pasangan. Ini menunjukkan setiap sumbu secara terpisah alih-alih menggabungkannya menjadi satu skor, karena dalam diri seseorang yang nyata, penguasa hari dan elemen tidak bergerak secara independen, jadi menggabungkan hasil terbaik di setiap sumbu akan menggambarkan seseorang yang sebenarnya tidak bisa ada.\nAlasan yang sama digunakan oleh kecocokan Saju.",
     meLegend: "Anda",
     genderHint:
       "Saju tradisional membaca posisi pasangan secara berbeda menurut jenis kelamin. Jika dibiarkan kosong, faktor itu dilewati alih-alih ditebak.",

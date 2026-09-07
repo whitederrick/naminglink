@@ -32,6 +32,7 @@ export const fil: Dictionary = {
   "form": {
     "title": "Ang iyong petsa ng kapanganakan",
     "description": "Mas matalas ang pagbasa kung alam ang oras ng kapanganakan, pero hindi ito kinakailangan.",
+    "intro": "Ang Saju-Link ay nagiging walong karakter ng apat na haligi mula sa petsa at oras ng kapanganakan, at binabasa kung aling puwersa ng elemento ang nawawala o labis sa pamamagitan ng mga relasyon ng Limang Elemento at Sampung Diyos. Ang haligi ng oras ay itinatama sa tunay na oras ng araw sa lugar ng kapanganakan, at ang Kapalaran Ngayon ay nag-uulat ng dalawampung item ng relasyon sa pamamagitan ng pagtutugma ng haligi ng araw ngayon laban sa parehong tsart.\nAng bawat cutoff at scoring table na ginamit sa pagkalkula ay nakalathala sa dokumento ng pangangatwiran sa ibaba.",
     "meLegend": "Tungkol sa iyo",
     "nickname": "Itatawag sa kanya",
     "nicknamePlaceholder": "hal. Ako",

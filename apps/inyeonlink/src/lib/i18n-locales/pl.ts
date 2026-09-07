@@ -32,6 +32,7 @@ export const pl: Dictionary = {
     title: "Obie daty urodzenia",
     description:
       "Znajomość godziny urodzenia wyostrza odczyt, ale nie jest wymagana.",
+    intro: "Inyeon-Link tworzy osiem znaków każdej osoby, a następnie ocenia dwa osie. Zgodność saju sprawdza cztery rzeczy — co każdy dzień mistrz oznacza dla drugiego w terminach Dziesięciu Bogów, czy Pięć Żywiołów dostarcza to, czego potrzebuje druga osoba, czy którykolwiek z wykresów znajduje się w pozycji małżonka (Bezpośrednie Bogactwo lub Bezpośredni Oficer), oraz czy gałęzie dnia łączą się czy kolidują — podczas gdy zgodność zodiakalna patrzy tylko na gałąź roku. Obie osie są łączone z użyciem średniej ważonej, a odczyt działa nawet bez czasu urodzenia.\nKażda waga i zasada użyta tutaj jest opublikowana w dokumencie uzasadniającym poniżej.",
     personA: "Pierwsza osoba",
     personB: "Druga osoba",
     nickname: "Nazwa wyświetlana",
@@ -247,6 +248,7 @@ export const pl: Dictionary = {
     formTitle: "Jaka osoba do Ciebie pasuje",
     formDescription:
       "Wystarczy jedna data urodzenia. Możesz to przeczytać, nie znając niczyjej daty — albo nie mając jeszcze nikogo na myśli.",
+    formIntro: "Inne osoby nie muszą podawać daty urodzenia. Działa to na zasadzie odwrotnej do tradycyjnego obliczania zgodności — próbuje każdej wartości, jaką mogłaby mieć brakująca strona — i znajduje, jaki typ najlepiej do Ciebie pasuje w każdej z tych samych czterech osi: relacja z dziennym mistrzem, dostarczanie elementów, relacja z gałęzią dnia oraz pozycja małżonka. Pokazuje każdą oś osobno, zamiast łączyć je w jeden wynik, ponieważ w rzeczywistej osobie dzienny mistrz i elementy nie poruszają się niezależnie, więc łączenie najlepszego wyniku na każdej osi opisałoby kogoś, kto nie mógłby naprawdę istnieć.\nTa sama logika jest stosowana w zgodności Saju.",
     meLegend: "Ty",
     genderHint:
       "Tradycyjne Saju czyta pozycję małżeńską inaczej u każdej płci. Zostaw to pole puste, a ten czynnik zostanie pominięty, a nie zgadnięty.",

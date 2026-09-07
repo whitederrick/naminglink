@@ -144,6 +144,8 @@ export type Dictionary = {
   form: {
     title: string;
     description: string;
+    /** 처음 오는 사람에게 폼 위에서 보여 주는 설명 문단(2026-09-07, 애드센스 저가치콘텐츠 대응). */
+    intro: string;
     personA: string;
     personB: string;
     nickname: string;
@@ -248,6 +250,11 @@ export type Dictionary = {
     menu: string;
     formTitle: string;
     formDescription: string;
+    /**
+     * 폼 위에 보여 주는 설명 문단(2026-09-07). 결과 화면의 `intro`(아래)와는 다른 자리 —
+     * 그건 결과가 나온 뒤에 보여 준다.
+     */
+    formIntro: string;
     meLegend: string;
     /** 내 성별을 왜 받는지 — 궁합과 이유가 달라 따로 적는다 */
     genderHint: string;
@@ -512,6 +519,8 @@ const ko: Dictionary = {
     title: "두 인연의 생년월일",
     description:
       "출생 시각을 알면 더 정확한 분석이 가능하지만, 몰라도 분석할 수 있습니다.",
+    intro:
+      "인연링크는 두 사람의 사주를 각각 여덟 글자로 세운 뒤 두 축으로 나눠 봅니다. 사주 궁합은 일간이 서로에게 십신으로 무엇인지, 오행이 상대에게 필요한 기운을 갖고 있는지, 배우자 자리(정재·정관)에 해당하는지, 일지가 합인지 충인지 네 항목으로 보고, 띠 궁합은 태어난 해의 지지 하나만 따로 봅니다. 두 축을 가중 평균해 하나의 값을 내며, 출생 시각을 몰라도 계산됩니다.\n각 항목의 비중과 계산 방식은 전부 아래 계산 근거 문서에 공개돼 있습니다.",
     personA: "나의 정보",
     personB: "나의 인연",
     nickname: "성명(본명)",
@@ -727,6 +736,8 @@ const ko: Dictionary = {
     formTitle: "나에게 맞는 사람은 어떤 결인가",
     formDescription:
       "생년월일 하나만 넣으면 됩니다. 상대의 생일을 몰라도, 아직 그런 사람이 없어도 볼 수 있습니다.",
+    formIntro:
+      "인연의 결은 상대의 생년월일을 몰라도 볼 수 있습니다. 사주 궁합이 두 사람을 맞대어 계산하는 방식을 거꾸로 돌려, 상대 자리에 들어올 수 있는 값을 전부 대입해 일간 관계·오행 보완·일지 관계·배우자성 네 항목 각각에서 나와 가장 잘 맞는 결을 찾는 것입니다. 항목별 점수만 보여드리고 하나의 총점으로 합치지 않는 것은, 실제 사람에게서는 일간과 오행이 따로 움직이지 않아 항목별 1등을 이어 붙인 조합이 현실에 없는 사람이 되기 때문입니다.\n같은 계산 근거를 사주 궁합에서도 그대로 씁니다.",
     meLegend: "나",
     genderHint:
       "전통 명리는 배우자 자리를 성별로 나눠 봅니다. 밝히지 않으시면 그 항목을 빼고 나머지로만 봅니다.",
@@ -1143,6 +1154,8 @@ const en: Dictionary = {
     title: "Both birth dates",
     description:
       "Knowing the birth time makes the reading sharper, but it is not required.",
+    intro:
+      "Inyeon-Link builds each person's own eight characters, then scores two axes. Saju compatibility checks four things — what each day master is to the other in Ten Gods terms, whether the Five Elements supply what the other needs, whether either chart sits in the spouse position (Direct Wealth or Direct Officer), and whether the day branches combine or clash — while zodiac compatibility looks only at the year branch. The two axes are combined with a weighted average, and the reading works even without a birth time.\nEvery weight and rule used here is published in the reasoning document below.",
     personA: "First person",
     personB: "Second person",
     nickname: "What to call them",
@@ -1358,6 +1371,8 @@ const en: Dictionary = {
     formTitle: "What kind of person suits you",
     formDescription:
       "One birth date is all it takes. You can read this without knowing anyone's birthday — or without having anyone in mind yet.",
+    formIntro:
+      "Affinity works without the other person's birth date. It runs the compatibility engine in reverse — trying every value the missing side could hold — and finds which type fits you best on each of the same four axes: day-master relationship, elemental supply, day-branch relationship, and the spouse position. It shows each axis on its own instead of adding them into one score, because in a real person the day master and the elements don't move independently, so stitching together the top result on every axis would describe someone who couldn't actually exist.\nThe same reasoning is used by Saju compatibility.",
     meLegend: "You",
     genderHint:
       "Traditional Saju reads the spouse position differently by gender. Leave it unset and that factor is dropped rather than guessed.",

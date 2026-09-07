@@ -18,6 +18,7 @@ export const uz: Dictionary = {
   "dream": {
     "title": "Tushlarni talqin qilish",
     "subtitle": "O'zingiz ko'rgan tushni yozing va biz uni an'anaviy koreys tush ramzlari lug'atida qidiramiz.",
+    "intro": "Dream-Link siz yozgan narsalardagi ramz so'zlarini qidiradi, so'ngra bu tushning holatiga mos keladigan ma'noni tanlaydi — siz uni ko'rdingizmi yoki qildingizmi, quyosh qaysi yo'nalishda harakat qilgan — ramzning olib yurishi mumkin bo'lgan bir nechta an'anaviy ma'nolardan. Lug'atdagi har bir ma'no o'zining kelib chiqish joyi bilan birga berilgan va agar tushda bir nechta ramzlar bo'lsa, aralash o'qish aralash holda ko'rsatiladi, bir xil hukmga majburlanmaydi.\nHech qanday sun'iy intellekt o'qishni yozmaydi — faqat lug'at va kontekst qoidalari uni tanlaydi.",
     "textLabel": "Siz nima haqida tush ko'rdingiz?",
     "textPlaceholder": "Esingizda qolganidek yozing. Masalan: toza suvdan bir baliq sakrab chiqdi",
     "moodLabel": "Uyanish paytida his qilgan his-tuyg'ularingiz",

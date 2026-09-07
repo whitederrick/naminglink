@@ -32,6 +32,7 @@ export const de: Dictionary = {
     title: "Beide Geburtsdaten",
     description:
       "Mit bekannter Geburtszeit wird die Deutung schärfer, nötig ist sie aber nicht.",
+    intro: "Inyeon-Link erstellt die acht Zeichen jeder Person und bewertet dann zwei Achsen. Die Saju-Kompatibilität überprüft vier Dinge – was jeder Tagmeister in Bezug auf die zehn Götter für den anderen bedeutet, ob die fünf Elemente das bieten, was der andere benötigt, ob eines der Diagramme in der Eheposition (Direkter Reichtum oder Direkter Beamter) sitzt und ob die Tagesäste harmonieren oder sich widersprechen – während die Tierkreis-Kompatibilität nur den Jahresast betrachtet. Die beiden Achsen werden mit einem gewichteten Durchschnitt kombiniert, und die Lesung funktioniert sogar ohne Geburtszeit.\nJedes Gewicht und jede Regel, die hier verwendet werden, sind im untenstehenden Dokument zur Begründung veröffentlicht.",
     personA: "Erste Person",
     personB: "Zweite Person",
     nickname: "Anzeigename",
@@ -247,6 +248,7 @@ export const de: Dictionary = {
     formTitle: "Welcher Mensch zu Ihnen passt",
     formDescription:
       "Ein Geburtsdatum genügt. Sie können das lesen, ohne den Geburtstag einer anderen Person zu kennen — oder ohne dass Sie schon jemanden im Sinn haben.",
+    formIntro: "Affinity funktioniert ohne das Geburtsdatum der anderen Person. Es dreht die Kompatibilitätsmaschine um — indem es jeden möglichen Wert für die fehlende Seite ausprobiert — und findet heraus, welcher Typ am besten zu dir passt, basierend auf den gleichen vier Achsen: Beziehung zum Tagmeister, Elementarversorgung, Beziehung zum Tageszweig und die Position des Ehepartners. Es zeigt jede Achse einzeln an, anstatt sie zu einem Gesamtwert zu addieren, da der Tagmeister und die Elemente bei einer realen Person nicht unabhängig voneinander agieren, sodass das Zusammenfügen des besten Ergebnisses auf jeder Achse jemanden beschreiben würde, der tatsächlich nicht existieren kann.\nDasselbe Prinzip wird auch bei der Saju-Kompatibilität verwendet.",
     meLegend: "Sie",
     genderHint:
       "Im traditionellen Saju wird die Ehepartner-Position je nach Geschlecht anders gelesen. Ohne Angabe wird dieser Faktor weggelassen statt geraten.",

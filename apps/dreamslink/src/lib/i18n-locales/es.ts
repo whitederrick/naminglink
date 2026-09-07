@@ -18,6 +18,7 @@ export const es: Dictionary = {
   "dream": {
     "title": "Lectura de sueños",
     "subtitle": "Escribe el sueño que tuviste y lo buscaremos en un diccionario de símbolos tradicionales coreanos de sueños.",
+    "intro": "Dream-Link busca palabras simbólicas en lo que escribes, luego elige el significado que se ajusta a la situación de este sueño — ya sea que lo hayas visto o hecho, en qué dirección se movió el sol — de los varios significados tradicionales que un símbolo puede tener. Cada significado en el diccionario está emparejado con el pasaje original del que proviene, y cuando un sueño contiene varios símbolos, la lectura mixta se muestra como mixta en lugar de forzada a un solo veredicto.\nNinguna IA escribe la interpretación — solo el diccionario y las reglas de contexto la eligen.",
     "textLabel": "¿De qué soñaste?",
     "textPlaceholder": "Escríbelo como lo recuerdas. Por ejemplo: un pez carpa saltó de agua clara",
     "moodLabel": "Cómo te sentiste al despertar",

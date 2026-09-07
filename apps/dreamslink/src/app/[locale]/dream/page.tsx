@@ -66,6 +66,14 @@ export default async function Page({
             <p className="break-keep-all mt-3 text-sm leading-6 text-muted">
               {dictionary.dream.subtitle}
             </p>
+            {/*
+              애드센스가 "가치가 별로 없는 콘텐츠"로 지목했던 sajulink와 같은 자리
+              (2026-09-07) — 이 화면도 텍스트 입력창 하나뿐이라 사람이 읽는 설명이
+              subtitle 한 문장뿐이었다.
+            */}
+            <p className="break-keep-all mt-3 whitespace-pre-line text-sm leading-6">
+              {dictionary.dream.intro}
+            </p>
             {/* 무엇을 근거로 푸는지는 꿈을 적기 **전에** 궁금해지는 것이라 이 자리다. */}
             <GuideLink locale={locale} from="dream" align="start" className="mt-3" />
             {/* 사전을 훑어보는 길. **상징 페이지가 고아가 되지 않게 하는 입구이기도 하다** —

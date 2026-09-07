@@ -31,6 +31,7 @@ export const es: Dictionary = {
     title: "Ambas fechas de nacimiento",
     description:
       "Conocer la hora de nacimiento afina la lectura, pero no es obligatorio.",
+    intro: "Inyeon-Link construye los ocho caracteres de cada persona, luego evalúa dos ejes. La compatibilidad de saju verifica cuatro cosas: qué es cada día maestro para el otro en términos de Diez Dioses, si los Cinco Elementos suministran lo que el otro necesita, si alguno de los gráficos se encuentra en la posición del cónyuge (Riqueza Directa o Oficial Directo), y si las ramas del día se combinan o chocan, mientras que la compatibilidad zodiacal solo considera la rama del año. Los dos ejes se combinan con un promedio ponderado, y la lectura funciona incluso sin una hora de nacimiento.\nCada peso y regla utilizada aquí se publica en el documento de razonamiento a continuación.",
     personA: "Primera persona",
     personB: "Segunda persona",
     nickname: "Cómo llamarle",
@@ -246,6 +247,7 @@ export const es: Dictionary = {
     formTitle: "Qué tipo de persona te conviene",
     formDescription:
       "Basta con una fecha de nacimiento. Puedes leer esto sin saber el cumpleaños de nadie, o sin tener aún a nadie en mente.",
+    formIntro: "La afinidad funciona sin la fecha de nacimiento de la otra persona. Invierte el motor de compatibilidad — probando cada valor que podría tener el lado faltante — y encuentra qué tipo se adapta mejor a ti en cada uno de los mismos cuatro ejes: relación del día maestro, suministro elemental, relación de la rama del día y la posición del cónyuge. Muestra cada eje por separado en lugar de sumarlos en una sola puntuación, porque en una persona real el día maestro y los elementos no se mueven de manera independiente, así que combinar el mejor resultado en cada eje describiría a alguien que realmente no podría existir.\nEl mismo razonamiento se utiliza en la compatibilidad de Saju.",
     meLegend: "Tú",
     genderHint:
       "El Saju tradicional lee la posición del cónyuge de forma distinta según el género. Si lo dejas sin indicar, ese factor se descarta en vez de suponerse.",

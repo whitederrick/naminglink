@@ -145,6 +145,12 @@ export type Dictionary = {
   form: {
     title: string;
     description: string;
+    /**
+     * 처음 오는 사람(`/reading`)에게만 보여 주는 설명 문단. `/today`는 같은 사전을 쓰지만
+     * 이 키는 읽지 않는다 — 재방문자용 화면이라 이미 아는 내용을 다시 실으면 두 화면이
+     * 완전히 같은 문구가 된다.
+     */
+    intro: string;
     /** 입력 묶음의 legend. 한 사람만 받으므로 자리 이름이 하나다. */
     meLegend: string;
     nickname: string;
@@ -562,6 +568,8 @@ const ko: Dictionary = {
     title: "생년월일",
     description:
       "출생 시각을 알면 더 정확한 분석이 가능하지만, 몰라도 분석할 수 있습니다.",
+    intro:
+      "사주링크는 생년월일시를 사주 원국 여덟 글자로 바꾸고, 오행의 세력과 십신 관계로 지금 이 사람에게 부족하거나 넘치는 기운을 읽습니다. 태어난 곳의 실제 태양 시각(진태양시)으로 시각을 보정해 시주를 정하고, 오늘의 운세는 이 원국에 오늘의 일진을 대어 스무 가지 관계 항목을 채점한 결과입니다.\n계산에 쓰인 경계값과 점수표는 전부 아래 계산 근거 문서에 공개돼 있습니다.",
     meLegend: "나의 정보",
     nickname: "성명(본명)",
     nicknamePlaceholder: "예: 김서윤",
@@ -1178,6 +1186,8 @@ const en: Dictionary = {
     title: "Your birth date",
     description:
       "Knowing the birth time makes the reading sharper, but it is not required.",
+    intro:
+      "Saju-Link turns a birth date and time into the eight characters of the four pillars, then reads which elemental force is missing or overflowing through the Five Elements and the Ten Gods relationships. The hour pillar is corrected to true solar time at the birthplace, and Today's Fortune scores twenty relationship items by matching today's day-pillar against this same chart.\nEvery cutoff and scoring table used in the calculation is published in the reasoning document below.",
     meLegend: "About you",
     nickname: "What to call them",
     nicknamePlaceholder: "e.g. Me",

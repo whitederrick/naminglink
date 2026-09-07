@@ -18,6 +18,7 @@ export const tr: Dictionary = {
   "dream": {
     "title": "Rüya okuma",
     "subtitle": "Gördüğünüz rüyayı yazın, biz de geleneksel Kore rüya sembolleri sözlüğünde bakacağız.",
+    "intro": "Dream-Link, yazdıklarınızda sembol kelimeleri arar ve ardından bu rüyanın durumu için uygun olan anlamı seçer — gördüğünüz veya yaptığınız, güneşin hangi yönde hareket ettiği gibi — bir sembolün taşıyabileceği birkaç geleneksel anlamdan. Sözlükteki her anlam, geldiği orijinal pasajla eşleştirilmiştir ve bir rüya birden fazla sembol içeriyorsa, karışık okuma karışık olarak gösterilir, tek bir sonuca zorlanmaz.\nHiçbir yapay zeka okumayı yazmaz — sadece sözlük ve bağlam kuralları bunu seçer.",
     "textLabel": "Ne hakkında rüya gördünüz?",
     "textPlaceholder": "Hatırladığınız gibi yazın. Örneğin: berrak sudan bir sazan sıçradı",
     "moodLabel": "Uyanınca nasıl hissettiniz",

@@ -32,6 +32,7 @@ export const ms: Dictionary = {
   "form": {
     "title": "Tarikh lahir anda",
     "description": "Mengetahui waktu lahir menjadikan bacaan lebih tajam, tetapi ia tidak diwajibkan.",
+    "intro": "Saju-Link mengubah tarikh dan waktu lahir kepada lapan watak dari empat tiang, kemudian membaca kekuatan elemen mana yang hilang atau berlebihan melalui hubungan Lima Elemen dan Sepuluh Dewa. Tiang jam diperbetulkan kepada waktu solar sebenar di tempat lahir, dan Hari Ini punya Skor nasib sebanyak dua puluh item hubungan dengan memadankan tiang hari hari ini dengan carta yang sama.\nSetiap nilai ambang dan jadual penilaian yang digunakan dalam pengiraan diterbitkan dalam dokumen alasan di bawah.",
     "meLegend": "Tentang anda",
     "nickname": "Panggilan",
     "nicknamePlaceholder": "cth. Saya",

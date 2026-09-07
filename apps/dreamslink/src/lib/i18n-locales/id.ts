@@ -18,6 +18,7 @@ export const id: Dictionary = {
   "dream": {
     "title": "Pembacaan mimpi",
     "subtitle": "Tuliskan mimpi yang Anda alami dan kami akan mencarinya dalam kamus simbol mimpi tradisional Korea.",
+    "intro": "Dream-Link mencari kata simbol dalam apa yang Anda tulis, kemudian memilih makna yang sesuai dengan situasi mimpi ini — apakah Anda melihatnya atau melakukannya, arah mana matahari bergerak — dari beberapa makna tradisional yang dapat dibawa oleh sebuah simbol. Setiap makna dalam kamus dipasangkan dengan kutipan asli dari mana ia berasal, dan ketika sebuah mimpi memiliki beberapa simbol, pembacaan campuran ditampilkan sebagai campuran daripada dipaksakan menjadi satu keputusan.\nTidak ada AI yang menulis pembacaan — hanya kamus dan aturan konteks yang memilihnya.",
     "textLabel": "Apa yang Anda impikan?",
     "textPlaceholder": "Tuliskan seperti yang Anda ingat. Misalnya: seekor ikan mas melompat keluar dari air jernih",
     "moodLabel": "Bagaimana perasaan Anda saat terbangun",

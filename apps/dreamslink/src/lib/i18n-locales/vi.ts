@@ -18,6 +18,7 @@ export const vi: Dictionary = {
   "dream": {
     "title": "Giải mã giấc mơ",
     "subtitle": "Hãy viết lại giấc mơ bạn đã có và chúng tôi sẽ tìm kiếm trong từ điển các biểu tượng giấc mơ truyền thống của Hàn Quốc.",
+    "intro": "Dream-Link tìm kiếm các từ biểu tượng trong những gì bạn viết, sau đó chọn ý nghĩa phù hợp với tình huống của giấc mơ này — cho dù bạn đã thấy hay đã làm, hướng di chuyển của mặt trời — từ nhiều ý nghĩa truyền thống mà một biểu tượng có thể mang lại. Mỗi ý nghĩa trong từ điển đều được ghép với đoạn văn gốc mà nó xuất phát, và khi một giấc mơ chứa nhiều biểu tượng, việc đọc kết hợp sẽ được hiển thị như một sự kết hợp thay vì bị ép vào một phán quyết duy nhất.\nKhông có AI nào viết phần giải thích — chỉ có từ điển và các quy tắc ngữ cảnh chọn lựa.",
     "textLabel": "Bạn đã mơ về điều gì?",
     "textPlaceholder": "Viết lại như bạn nhớ. Ví dụ: một con cá chép nhảy ra khỏi nước trong vắt",
     "moodLabel": "Cảm giác của bạn khi tỉnh dậy",

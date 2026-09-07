@@ -32,6 +32,7 @@ export const de: Dictionary = {
   "form": {
     "title": "Ihr Geburtsdatum",
     "description": "Mit bekannter Geburtszeit wird die Deutung schärfer, nötig ist sie aber nicht.",
+    "intro": "Saju-Link wandelt ein Geburtsdatum und eine Geburtszeit in die acht Zeichen der vier Säulen um und liest, welche elementare Kraft durch die Beziehungen der fünf Elemente und der zehn Götter fehlt oder überfließt. Die Stunden-Säule wird auf die wahre Sonnenzeit am Geburtsort korrigiert, und das heutige Glück bewertet zwanzig Beziehungsgegenstände, indem die heutige Tages-Säule mit demselben Diagramm verglichen wird.\nJede Grenzwert- und Punktetabelle, die in der Berechnung verwendet wird, ist im untenstehenden Dokument zur Begründung veröffentlicht.",
     "meLegend": "Über Sie",
     "nickname": "Anzeigename",
     "nicknamePlaceholder": "z. B. Ich",
