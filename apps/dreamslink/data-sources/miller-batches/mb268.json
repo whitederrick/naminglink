@@ -1,0 +1,17 @@
+{
+  "batch": 268,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Tea", "text": "To dream that you are brewing tea, foretells that you will be guilty of indiscreet actions, and will feel deeply remorseful.\n\nTo see your friends drinking tea, and you with them, denotes that social pleasures will pall on you, and you will seek to change your feelings by serving others in their sorrows.\n\nTo see dregs in your tea, warns you of trouble in love, and affairs of a social nature.\n\nTo spill tea, is a sign of domestic confusion and grief.\n\nTo find your tea chest empty, unfolds much disagreeable gossip and news.\n\nTo dream that you are thirsty for tea, denotes that you will be surprised with uninvited guests.", "note": "새 상징 tea(차) — 20판 묶음(268~287)의 첫 배치, 다음 20판 묶음 시작" },
+    { "headword": "Teacups", "text": "To dream of teacups, foretells that affairs of enjoyment will be attended by you.  For a woman to break or see them broken, omens her pleasure and good fortune will be marred by a sudden trouble.\n\nTo drink wine from one, foretells fortune and pleasure will be combined in the near future.", "note": "기존 cup(잔)에 문맥 2개 추가 — 「찻잔」이 이미 별칭이었다. 둘째 문장(깨짐)은 기존 cup 「잔이 깨짐」(zhougong)과 같은 그림·다른 풀이라 건너뜀" },
+    { "headword": "Teakettle", "text": "To dream you see a teakettle, implies sudden news which will be likely to distress you.  For a woman to pour sparkling, cold water from a teakettle, she will have unexpected favor shown her.", "note": "새 상징 teakettle(찻주전자) — 기존 jug(주전자)와는 다른 상징으로 세움(같은 별칭 「주전자」를 쓰지 않도록 「찻주전자」로 지음)" },
+    { "headword": "Tears", "text": "To dream that you are in tears, denotes that some affliction will soon envelope you.\n\nTo see others shedding tears, foretells that your sorrows will affect the happiness of others,", "note": "두 문장 다 기존 weeping(울음)의 「우는 꿈을 꿈」·「남이 우는 것을 봄」(둘 다 밀러 Crying 헤드워드)과 같은 그림·다른 풀이라 통째로 건너뜀" },
+    { "headword": "Teasing", "text": "To find yourself teasing any person while dreaming, denotes that you will be loved and sought after because of your cheerful and amiable manners.  Your business will be eventually successful.\n\nTo dream of being teased, denotes that you will win the love of merry and well-to-do persons.\n\nFor a young woman to dream of being teased, foretells that she will form a hasty attachment, but will not be successful in consummating an early marriage.", "note": "새 상징 teasing(놀림)" }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    { "headword": "Teacups", "sentence": "For a woman to break or see them broken, omens her pleasure and good fortune will be marred by a sudden trouble.", "reason": "기존 cup 「잔이 깨짐」(zhougong)과 같은 그림·다른 풀이" },
+    { "headword": "Tears", "sentence": "To dream that you are in tears, denotes that some affliction will soon envelope you.", "reason": "기존 weeping 「우는 꿈을 꿈」(밀러 Crying)과 같은 그림·다른 풀이" },
+    { "headword": "Tears", "sentence": "To see others shedding tears, foretells that your sorrows will affect the happiness of others,", "reason": "기존 weeping 「남이 우는 것을 봄」(밀러 Crying)과 같은 그림·다른 풀이" }
+  ]
+}

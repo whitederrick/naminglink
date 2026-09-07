@@ -188,6 +188,7 @@
     "m265.json",
     "m266.json",
     "m267.json",
+    "m268.json",
     "m27a.json",
     "m27b.json",
     "m28.json",
@@ -36251,6 +36252,113 @@
       ]
     },
     {
+      "id": "cup",
+      "term_ko": "잔",
+      "term_en": "cup",
+      "aliases": [
+        "술잔",
+        "찻잔",
+        "유리잔",
+        "머그",
+        "은잔",
+        "물잔"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "잔이 깨짐",
+          "interpretation_ko": "궂은일이 생길 조짐",
+          "interpretation_en": "a sign that bad affairs will arise",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "鐺盞破主有惡事",
+              "translation_ko": "냄비와 잔이 깨지면 나쁜 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "찻잔으로 포도주를 마심",
+          "interpretation_ko": "머잖아 행운과 즐거움이 함께 찾아올 조짐",
+          "interpretation_en": "foretells fortune and pleasure will be combined in the near future",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Teacups",
+              "original": "To drink wine from one, foretells fortune and pleasure will be combined in the near future.",
+              "translation_ko": "찻잔으로 포도주를 마시는 꿈은, 머잖아 행운과 즐거움이 함께 찾아올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "찻잔 꿈을 꿈",
+          "interpretation_ko": "즐거운 일들을 맞이하게 될 조짐",
+          "interpretation_en": "foretells that affairs of enjoyment will be attended by you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Teacups",
+              "original": "To dream of teacups, foretells that affairs of enjoyment will be attended by you.",
+              "translation_ko": "찻잔 꿈은, 즐거운 일들을 맞이하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "은잔으로 물을 마심",
+          "interpretation_ko": "머지않아 일이 좋지 않게 될 흉한 조짐",
+          "interpretation_en": "you will meet unfavorable business results in the near future",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Goblet",
+              "original": "If you dream that you drink water from a silver goblet, you will meet unfavorable business results in the near future.",
+              "translation_ko": "은잔으로 물을 마시는 꿈은, 머지않아 일이 좋지 않게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "옛 모양의 잔을 봄",
+          "interpretation_ko": "낯선 이에게서 도움과 베풂을 받을 길한 조짐",
+          "interpretation_en": "you will receive favors and benefits from strangers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Goblet",
+              "original": "To see goblets of ancient design, you will receive favors and benefits from strangers.",
+              "translation_ko": "옛 모양의 잔을 보면, 낯선 이에게서 도움과 베풂을 받는다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 남자에게 물이 든 유리잔을 줌",
+          "interpretation_ko": "떳떳하지 못한 즐거움에 빠질 흉한 조짐",
+          "interpretation_en": "denotes illicit pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Goblet",
+              "original": "For a woman to give a man a glass goblet full of water, denotes illicit pleasures.",
+              "translation_ko": "여성이 남자에게 물이 가득 든 유리잔을 주면, 떳떳하지 못한 즐거움을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "docks",
       "term_ko": "부두",
       "term_en": "docks",
@@ -42427,6 +42535,112 @@
               "locator": "Sugar",
               "original": "To hear a negro singing while unloading sugar, some seemingly insignificant affair will bring you great benefit, either in business or social states.",
               "translation_ko": "누군가 노래를 부르며 설탕 짐을 부리는 것을 듣는 꿈은, 하찮아 보이는 일이 사업이나 사교에서 큰 이득을 가져다줄 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "term_ko": "차(茶)",
+      "term_en": "tea",
+      "aliases": [
+        "차를",
+        "차가",
+        "홍차",
+        "녹차",
+        "찻잔",
+        "찻잎"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 차를 우림",
+          "interpretation_ko": "경솔한 짓을 저질러 깊이 뉘우칠 조짐",
+          "interpretation_en": "foretells that you will be guilty of indiscreet actions, and will feel deeply remorseful",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tea",
+              "original": "To dream that you are brewing tea, foretells that you will be guilty of indiscreet actions, and will feel deeply remorseful.",
+              "translation_ko": "스스로 차를 우리는 꿈은, 경솔한 짓을 저질러 깊이 뉘우칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벗들과 함께 차를 마심",
+          "interpretation_ko": "사교의 즐거움이 시들해지고, 남의 슬픔을 돌보며 마음을 달래려 할 조짐",
+          "interpretation_en": "denotes that social pleasures will pall on you, and you will seek to change your feelings by serving others in their sorrows",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tea",
+              "original": "To see your friends drinking tea, and you with them, denotes that social pleasures will pall on you, and you will seek to change your feelings by serving others in their sorrows.",
+              "translation_ko": "벗들과 함께 차를 마시는 꿈은, 사교의 즐거움이 시들해지고 남의 슬픔을 돌보며 마음을 달래려 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "찻잔에 남은 찌꺼기를 봄",
+          "interpretation_ko": "사랑과 사교 관계에서 곤란을 겪을 것이라는 경고",
+          "interpretation_en": "warns you of trouble in love, and affairs of a social nature",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tea",
+              "original": "To see dregs in your tea, warns you of trouble in love, and affairs of a social nature.",
+              "translation_ko": "찻잔에 남은 찌꺼기를 보는 꿈은, 사랑과 사교 관계에서 곤란을 겪을 것이라는 경고이다"
+            }
+          ]
+        },
+        {
+          "context": "차를 쏟음",
+          "interpretation_ko": "집안이 어수선해지고 슬픔이 생길 조짐",
+          "interpretation_en": "is a sign of domestic confusion and grief",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tea",
+              "original": "To spill tea, is a sign of domestic confusion and grief.",
+              "translation_ko": "차를 쏟는 꿈은, 집안이 어수선해지고 슬픔이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "찻잎 통이 비어 있는 것을 봄",
+          "interpretation_ko": "달갑잖은 뒷말과 소식이 잇따를 조짐",
+          "interpretation_en": "unfolds much disagreeable gossip and news",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tea",
+              "original": "To find your tea chest empty, unfolds much disagreeable gossip and news.",
+              "translation_ko": "찻잎 통이 비어 있는 것을 보는 꿈은, 달갑잖은 뒷말과 소식이 잇따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "차를 애타게 마시고 싶어함",
+          "interpretation_ko": "청하지 않은 손님이 찾아와 놀랄 조짐",
+          "interpretation_en": "denotes that you will be surprised with uninvited guests",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tea",
+              "original": "To dream that you are thirsty for tea, denotes that you will be surprised with uninvited guests.",
+              "translation_ko": "차를 애타게 마시고 싶어하는 꿈은, 청하지 않은 손님이 찾아와 놀랄 조짐이다"
             }
           ]
         }
@@ -57168,85 +57382,6 @@
               "locator": "Crockery",
               "original": "An untidy store, with empty shelves, implies loss.",
               "translation_ko": "어수선하고 선반이 빈 가게는 잃음을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cup",
-      "term_ko": "잔",
-      "term_en": "cup",
-      "aliases": [
-        "술잔",
-        "찻잔",
-        "유리잔",
-        "머그",
-        "은잔",
-        "물잔"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "잔이 깨짐",
-          "interpretation_ko": "궂은일이 생길 조짐",
-          "interpretation_en": "a sign that bad affairs will arise",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "鐺盞破主有惡事",
-              "translation_ko": "냄비와 잔이 깨지면 나쁜 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "은잔으로 물을 마심",
-          "interpretation_ko": "머지않아 일이 좋지 않게 될 흉한 조짐",
-          "interpretation_en": "you will meet unfavorable business results in the near future",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Goblet",
-              "original": "If you dream that you drink water from a silver goblet, you will meet unfavorable business results in the near future.",
-              "translation_ko": "은잔으로 물을 마시는 꿈은, 머지않아 일이 좋지 않게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "옛 모양의 잔을 봄",
-          "interpretation_ko": "낯선 이에게서 도움과 베풂을 받을 길한 조짐",
-          "interpretation_en": "you will receive favors and benefits from strangers",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Goblet",
-              "original": "To see goblets of ancient design, you will receive favors and benefits from strangers.",
-              "translation_ko": "옛 모양의 잔을 보면, 낯선 이에게서 도움과 베풂을 받는다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 남자에게 물이 든 유리잔을 줌",
-          "interpretation_ko": "떳떳하지 못한 즐거움에 빠질 흉한 조짐",
-          "interpretation_en": "denotes illicit pleasures",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Goblet",
-              "original": "For a woman to give a man a glass goblet full of water, denotes illicit pleasures.",
-              "translation_ko": "여성이 남자에게 물이 가득 든 유리잔을 주면, 떳떳하지 못한 즐거움을 뜻한다"
             }
           ]
         }
@@ -84417,6 +84552,67 @@
               "locator": "Taxes",
               "original": "If you are unable to pay them, you will be unfortunate in experiments you are making.",
               "translation_ko": "세금을 낼 수 없는 꿈은, 벌이던 시도에서 불운을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teasing",
+      "term_ko": "놀림",
+      "term_en": "teasing",
+      "aliases": [
+        "놀렸다",
+        "놀리는",
+        "놀림을"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 남을 놀림",
+          "interpretation_ko": "밝고 다정한 태도 덕에 사랑받고 사람들이 따를 조짐 — 사업도 끝내 잘될 것",
+          "interpretation_en": "denotes that you will be loved and sought after because of your cheerful and amiable manners; your business will be eventually successful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Teasing",
+              "original": "To find yourself teasing any person while dreaming, denotes that you will be loved and sought after because of your cheerful and amiable manners. Your business will be eventually successful.",
+              "translation_ko": "스스로 남을 놀리는 꿈은, 밝고 다정한 태도 덕에 사랑받고 사람들이 따를 조짐이다 — 사업도 끝내 잘될 것이다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 놀림을 당함",
+          "interpretation_ko": "쾌활하고 형편 좋은 이들의 사랑을 얻을 조짐",
+          "interpretation_en": "denotes that you will win the love of merry and well-to-do persons",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Teasing",
+              "original": "To dream of being teased, denotes that you will win the love of merry and well-to-do persons.",
+              "translation_ko": "남에게 놀림을 당하는 꿈은, 쾌활하고 형편 좋은 이들의 사랑을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 남에게 놀림을 당함",
+          "interpretation_ko": "성급하게 정을 붙이나 이른 혼인을 이루지는 못할 조짐",
+          "interpretation_en": "foretells that she will form a hasty attachment, but will not be successful in consummating an early marriage",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Teasing",
+              "original": "For a young woman to dream of being teased, foretells that she will form a hasty attachment, but will not be successful in consummating an early marriage.",
+              "translation_ko": "여성이 남에게 놀림을 당하는 꿈은, 성급하게 정을 붙이나 이른 혼인을 이루지는 못할 조짐이다"
             }
           ]
         }
@@ -112472,6 +112668,53 @@
               "locator": "Tassels",
               "original": "For a young woman to lose them, denotes she will undergo some unpleasant experience.",
               "translation_ko": "여성이 술 장식을 잃어버리는 꿈은, 달갑잖은 일을 겪게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teakettle",
+      "term_ko": "찻주전자",
+      "term_en": "teakettle",
+      "aliases": [
+        "찻주전자가",
+        "찻주전자를",
+        "찻주전자에서"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "찻주전자를 봄",
+          "interpretation_ko": "갑작스러운 소식으로 시달릴 조짐",
+          "interpretation_en": "implies sudden news which will be likely to distress you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Teakettle",
+              "original": "To dream you see a teakettle, implies sudden news which will be likely to distress you.",
+              "translation_ko": "찻주전자를 보는 꿈은, 갑작스러운 소식으로 시달릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 찻주전자에서 반짝이는 찬물을 따름",
+          "interpretation_ko": "뜻밖의 호의를 받게 될 조짐",
+          "interpretation_en": "she will have unexpected favor shown her",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Teakettle",
+              "original": "For a woman to pour sparkling, cold water from a teakettle, she will have unexpected favor shown her.",
+              "translation_ko": "여성이 찻주전자에서 반짝이는 찬물을 따르는 꿈은, 뜻밖의 호의를 받게 될 조짐이다"
             }
           ]
         }

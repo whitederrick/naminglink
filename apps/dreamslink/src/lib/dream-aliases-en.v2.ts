@@ -7879,5 +7879,17 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "taxes": [
     "taxes",
     "a tax"
+  ],
+  "tea": [
+    "tea",
+    "brewing tea"
+  ],
+  "teakettle": [
+    "teakettle",
+    "a teakettle"
+  ],
+  "teasing": [
+    "teasing",
+    "teased"
   ]
 };

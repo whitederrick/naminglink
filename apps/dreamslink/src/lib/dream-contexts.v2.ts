@@ -1910,6 +1910,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "cup::은잔으로 물을 마심": "silver drink water unfavorable",
   "cup::옛 모양의 잔을 봄": "ancient design favors benefits",
   "cup::여성이 남자에게 물이 든 유리잔을 줌": "give man full illicit",
+  "cup::찻잔 꿈을 꿈": "enjoyment attended",
+  "cup::찻잔으로 포도주를 마심": "wine combined future",
   "garden::동산으로 나감": "went outside",
   "garden::늘 푸른 나무와 꽃이 가득한 정원을 봄": "evergreen flowers peace comfort",
   "garden::정원에서 채소를 봄": "vegetables misery calumny",
@@ -6005,5 +6007,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "tattoo::스스로 문신가가 됨": "tattooist estrange friends",
   "taxes::스스로 세금을 냄": "pay destroying evil",
   "taxes::남들이 세금을 냄": "others aid friends",
-  "taxes::세금을 낼 수 없음": "unable unfortunate experiments"
+  "taxes::세금을 낼 수 없음": "unable unfortunate experiments",
+  "tea::스스로 차를 우림": "indiscreet remorseful",
+  "tea::벗들과 함께 차를 마심": "friends pall sorrows",
+  "tea::찻잔에 남은 찌꺼기를 봄": "dregs trouble love",
+  "tea::차를 쏟음": "spill confusion grief",
+  "tea::찻잎 통이 비어 있는 것을 봄": "chest empty gossip",
+  "tea::차를 애타게 마시고 싶어함": "thirsty uninvited guests",
+  "teakettle::찻주전자를 봄": "sudden news distress",
+  "teakettle::여성이 찻주전자에서 반짝이는 찬물을 따름": "woman pour unexpected",
+  "teasing::스스로 남을 놀림": "cheerful amiable manners",
+  "teasing::남에게 놀림을 당함": "win merry persons",
+  "teasing::여성이 남에게 놀림을 당함": "woman hasty attachment"
 };

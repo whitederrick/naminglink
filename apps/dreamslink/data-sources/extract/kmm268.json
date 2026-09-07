@@ -1,0 +1,75 @@
+[
+  {
+    "id": "tea",
+    "aliases": [
+      "차를",
+      "차가",
+      "홍차",
+      "녹차",
+      "찻잔",
+      "찻잎"
+    ],
+    "aliases_en": [
+      "tea",
+      "brewing tea"
+    ],
+    "contexts": {
+      "스스로 차를 우림": "그냥",
+      "벗들과 함께 차를 마심": "벗들과",
+      "찻잔에 남은 찌꺼기를 봄": "찌꺼기",
+      "차를 쏟음": "쏟았다 쏟는",
+      "찻잎 통이 비어 있는 것을 봄": "찻잎",
+      "차를 애타게 마시고 싶어함": "애타게 마시고"
+    },
+    "contexts_en": {
+      "스스로 차를 우림": "indiscreet remorseful",
+      "벗들과 함께 차를 마심": "friends pall sorrows",
+      "찻잔에 남은 찌꺼기를 봄": "dregs trouble love",
+      "차를 쏟음": "spill confusion grief",
+      "찻잎 통이 비어 있는 것을 봄": "chest empty gossip",
+      "차를 애타게 마시고 싶어함": "thirsty uninvited guests"
+    }
+  },
+  {
+    "id": "teakettle",
+    "aliases": [
+      "찻주전자가",
+      "찻주전자를",
+      "찻주전자에서"
+    ],
+    "aliases_en": [
+      "teakettle",
+      "a teakettle"
+    ],
+    "contexts": {
+      "찻주전자를 봄": "그냥",
+      "여성이 찻주전자에서 반짝이는 찬물을 따름": "여성이 반짝이는"
+    },
+    "contexts_en": {
+      "찻주전자를 봄": "sudden news distress",
+      "여성이 찻주전자에서 반짝이는 찬물을 따름": "woman pour unexpected"
+    }
+  },
+  {
+    "id": "teasing",
+    "aliases": [
+      "놀렸다",
+      "놀리는",
+      "놀림을"
+    ],
+    "aliases_en": [
+      "teasing",
+      "teased"
+    ],
+    "contexts": {
+      "스스로 남을 놀림": "그냥",
+      "남에게 놀림을 당함": "놀림을",
+      "여성이 남에게 놀림을 당함": "여성이 당했다"
+    },
+    "contexts_en": {
+      "스스로 남을 놀림": "cheerful amiable manners",
+      "남에게 놀림을 당함": "win merry persons",
+      "여성이 남에게 놀림을 당함": "woman hasty attachment"
+    }
+  }
+]
