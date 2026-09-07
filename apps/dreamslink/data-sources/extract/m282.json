@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "우산",
+    "term_en": "umbrella",
+    "context": "우산을 가지고 다님",
+    "interpretation_ko": "근심과 성가신 일이 닥칠 조짐",
+    "interpretation_en": "denotes that trouble and annoyances will beset you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Umbrella",
+      "original": "To dream of carrying an umbrella, denotes that trouble and annoyances will beset you.",
+      "translation_ko": "우산을 가지고 다니는 꿈은, 근심과 성가신 일이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우산",
+    "term_en": "umbrella",
+    "context": "남이 우산을 든 것을 봄",
+    "interpretation_ko": "자선으로 도움을 청받을 조짐",
+    "interpretation_en": "foretells that you will be appealed to for aid by charity",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Umbrella",
+      "original": "To see others carrying them, foretells that you will be appealed to for aid by charity.",
+      "translation_ko": "남이 우산을 든 것을 보는 꿈은, 자선으로 도움을 청받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우산",
+    "term_en": "umbrella",
+    "context": "우산을 빌림",
+    "interpretation_ko": "다정한 벗과 오해가 생길 조짐",
+    "interpretation_en": "you will have a misunderstanding, perhaps, with a warm friend",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Umbrella",
+      "original": "To borrow one, you will have a misunderstanding, perhaps, with a warm friend.",
+      "translation_ko": "우산을 빌리는 꿈은, 다정한 벗과 오해가 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우산",
+    "term_en": "umbrella",
+    "context": "우산을 빌려줌",
+    "interpretation_ko": "거짓 벗에게서 해를 입을 조짐",
+    "interpretation_en": "portends injury from false friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Umbrella",
+      "original": "To lend one, portends injury from false friends.",
+      "translation_ko": "우산을 빌려주는 꿈은, 거짓 벗에게서 해를 입을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우산",
+    "term_en": "umbrella",
+    "context": "우산을 잃음",
+    "interpretation_ko": "믿음을 준 이와 말썽이 생길 조짐",
+    "interpretation_en": "denotes trouble with some one who holds your confidence",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Umbrella",
+      "original": "To lose one, denotes trouble with some one who holds your confidence.",
+      "translation_ko": "우산을 잃는 꿈은, 믿음을 준 이와 말썽이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우산",
+    "term_en": "umbrella",
+    "context": "갈가리 찢어지거나 부서진 우산을 봄",
+    "interpretation_ko": "억울하게 헐뜯기고 나쁘게 알려질 조짐",
+    "interpretation_en": "foretells that you will be misrepresented and maligned",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Umbrella",
+      "original": "To see one torn to pieces, or broken, foretells that you will be misrepresented and maligned.",
+      "translation_ko": "갈가리 찢어지거나 부서진 우산을 보는 꿈은, 억울하게 헐뜯기고 나쁘게 알려질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우산",
+    "term_en": "umbrella",
+    "context": "물이 새는 우산을 들고 다님",
+    "interpretation_ko": "연인이나 길동무를 향해 아픔과 언짢음을 느낄 조짐",
+    "interpretation_en": "denotes that pain and displeasure will be felt by you towards your sweetheart or companions",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Umbrella",
+      "original": "To carry a leaky one, denotes that pain and displeasure will be felt by you towards your sweetheart or companions.",
+      "translation_ko": "물이 새는 우산을 들고 다니는 꿈은, 연인이나 길동무를 향해 아픔과 언짢음을 느낄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우산",
+    "term_en": "umbrella",
+    "context": "맑은 소나기나 햇빛 속에서 새 우산을 씀",
+    "interpretation_ko": "더없는 즐거움과 번영의 조짐",
+    "interpretation_en": "omens exquisite pleasure and prosperity",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Umbrella",
+      "original": "To carry a new umbrella over you in a clear shower, or sunshine, omens exquisite pleasure and prosperity.",
+      "translation_ko": "맑은 소나기나 햇빛 속에서 새 우산을 쓰는 꿈은, 더없는 즐거움과 번영의 조짐이다"
+    }
+  }
+]

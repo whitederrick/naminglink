@@ -1,0 +1,11 @@
+{
+  "batch": 282,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Umbrella",
+      "text": "To dream of carrying an umbrella, denotes that trouble and annoyances will beset you.\n\nTo see others carrying them, foretells that you will be appealed to for aid by charity.\n\nTo borrow one, you will have a misunderstanding, perhaps, with a warm friend.\n\nTo lend one, portends injury from false friends.  To lose one, denotes trouble with some one who holds your confidence.\n\nTo see one torn to pieces, or broken, foretells that you will be misrepresented and maligned.\n\nTo carry a leaky one, denotes that pain and displeasure will be felt by you towards your sweetheart or companions.\n\nTo carry a new umbrella over you in a clear shower, or sunshine, omens exquisite pleasure and prosperity.",
+      "note": "기존 umbrella(우산) 상징에 문맥 8개 추가 — 문맥이 많은 큰 표제어라 단독 배치로 뗌(§33). 「부서진 우산을 봄」은 기존 「부서진 양산을 봄」과 그림이 겹치지만 풀이가 다르다(건강 흉조 vs 명예 훼손) — 판별어를 「찢어진」으로 갈라 함께 남김"
+    }
+  ]
+}
