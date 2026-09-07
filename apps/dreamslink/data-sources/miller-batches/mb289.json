@@ -1,0 +1,51 @@
+{
+  "batch": 289,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Vexed",
+      "text": "If you are vexed in your dreams, you will find many worries scattered through your early awakening.\n\nIf you think some person is vexed with you, it is a sign that you will not shortly reconcile some slight misunderstanding.",
+      "note": "기존 annoy(성가심) 상징이 이미 영어 별칭으로 \"vexation\"·한국어 별칭으로 \"짜증\"을 쥐고 있어 새 상징을 세우지 않고 문맥 둘을 붙였다"
+    },
+    {
+      "headword": "Vicar",
+      "text": "To dream of a vicar, foretells that you will do foolish things while furious with jealousy and envy.\n\nFor a young woman to dream she marries a vicar, foretells that she will fail to awake reciprocal affection in the man she desires, and will live a spinster, or marry to keep from being one.",
+      "note": "기존 clergyman(목사) 상징에 문맥 둘을 붙였다. 둘째 문장은 기존 \"목사와 혼인함\"과 같은 그림(혼인)이지만 판단의 초점이 달라(마음의 고통 vs 애정을 못 얻음) 문맥 이름을 갈라 별개 의미로 남겼다(cite를 포개지 않음 — 기존 m16.json은 손대지 않음)"
+    },
+    {
+      "headword": "Vice",
+      "text": "To dream that you are favoring any vice, signifies you are about to endanger your reputation, by letting evil persuasions entice you.\n\nIf you see others indulging in vice, some ill fortune will engulf the interest of some relative or associate.",
+      "note": "새 상징 vice(악덕)"
+    },
+    {
+      "headword": "Victim",
+      "text": "To dream that you are the victim of any scheme, foretells that you will be oppressed and over-powered by your enemies. Your family relations will also be strained.\n\nTo victimize others, denotes that you will amass wealth dishonorably and prefer illicit relations, to the sorrow of your companions.",
+      "note": "새 상징 victim(피해자)"
+    },
+    {
+      "headword": "Victory",
+      "text": "To dream that you win a victory, foretells that you will successfully resist the attacks of enemies, and will have the love of women for the asking.",
+      "note": "새 상징 victory(승리)"
+    },
+    {
+      "headword": "Village",
+      "text": "To dream that you are in a village, denotes that you will enjoy good health and find yourself fortunately provided for.\n\nTo revisit the village home of your youth, denotes that you will have pleasant surprises in store and favorable news from absent friends.\n\nIf the village looks dilapidated, or the dream indistinct, it foretells that trouble and sadness will soon come to you.",
+      "note": "새 상징 village(마을)"
+    },
+    {
+      "headword": "Vine",
+      "text": "To dream of vines, is propitious of success and happiness. Good health is in store for those who see flowering vines. If they are dead, you will fail in some momentous enterprise.\n\nTo see poisonous vines, foretells that you will be the victim of a plausible scheme and you will impair your health.",
+      "note": "기존 grape(포도) 상징에 문맥 넷을 붙였다 — 포도나무(vine)는 포도(grape)와 같은 식물이라 별개 상징을 세우면 term_ko \"포도나무\"가 PARTICLES의 \"나\" 때문에 grape와 동시에 걸린다(품음 결함, CLAUDE.md §25 곁가지). grape의 기존 discriminator(먹었·주렁주렁·처녀·말을 타고 덩굴·독이)와 겹치지 않는 새 낱말로 넷을 갈랐다"
+    },
+    {
+      "headword": "Vinegar",
+      "text": "To dream of drinking vinegar, denotes that you will be exasperated and worried into assenting to some engagement which will fill you with evil foreboding.\n\nTo use vinegar on vegetables, foretells a deepening of already distressing affairs.\n\nTo dream of vinegar at all times, denotes inharmonious and unfavorable aspects.",
+      "note": "새 상징 vinegar(식초)"
+    },
+    {
+      "headword": "Vineyard",
+      "text": "To dream of a vineyard, denotes favorable speculations and auspicious love-making.\n\nTo visit a vineyard which is not well-kept and filled with bad odors, denotes disappointment will overshadow your most sanguine anticipations.",
+      "note": "새 상징 vineyard(포도밭) — term_ko \"포도밭\"은 \"포도\" 뒤가 \"밭\"(조사 아님)이라 grape와 안 겹친다(vine과 다른 자리)"
+    }
+  ]
+}

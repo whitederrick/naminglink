@@ -8221,5 +8221,30 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "vertigo": [
     "vertigo"
+  ],
+  "vice": [
+    "vice",
+    "vices"
+  ],
+  "victim": [
+    "victim",
+    "a victim",
+    "victimize",
+    "victimizing"
+  ],
+  "victory": [
+    "victory",
+    "a victory"
+  ],
+  "village": [
+    "village",
+    "a village"
+  ],
+  "vinegar": [
+    "vinegar"
+  ],
+  "vineyard": [
+    "vineyard",
+    "a vineyard"
   ]
 };

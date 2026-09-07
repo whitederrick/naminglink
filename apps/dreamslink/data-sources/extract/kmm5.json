@@ -743,6 +743,7 @@
     "id": "annoy",
     "aliases": [
       "짜증",
+      "성가신",
       "귀찮음",
       "거슬림",
       "신경 쓰임"
@@ -755,11 +756,15 @@
     ],
     "contexts": {
       "성가신 일을 겪는 꿈을 꿈": "적이 해치려 방해",
-      "꿈속에서 겪은 성가신 일": "이튿날 다음날 사소"
+      "꿈속에서 겪은 성가신 일": "이튿날 다음날 사소",
+      "제가 꿈에서 짜증이 남": "근심 흩어",
+      "남이 저에게 짜증이 났다고 여김": "오해 풀리지"
     },
     "contexts_en": {
       "성가신 일을 겪는 꿈을 꿈": "enemies working against",
-      "꿈속에서 겪은 성가신 일": "tomorrow trifles trivial"
+      "꿈속에서 겪은 성가신 일": "tomorrow trifles trivial",
+      "제가 꿈에서 짜증이 남": "worries scattered awakening",
+      "남이 저에게 짜증이 났다고 여김": "misunderstanding reconcile"
     }
   },
   {

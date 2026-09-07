@@ -154,7 +154,8 @@
     "aliases": [
       "포도",
       "포도송이",
-      "포도알"
+      "포도알",
+      "포도덩굴"
     ],
     "aliases_en": [
       "grapes"
@@ -164,14 +165,22 @@
       "잎 사이에 주렁주렁 달린 포도를 봄": "주렁주렁 매달 달린",
       "처녀가 포도 꿈을 꿈": "처녀 아가씨",
       "말을 타고 가다 포도를 따 먹음": "말을 타고 덩굴",
-      "먹는 포도에 독이 있을까 의심함": "독이 의심 꺼림"
+      "먹는 포도에 독이 있을까 의심함": "독이 의심 꺼림",
+      "포도 덩굴 꿈을 꿈": "번영 기쁨",
+      "꽃 핀 포도덩굴을 봄": "꽃송이 활짝",
+      "포도덩굴이 말라 죽어 있음": "시들어 실패",
+      "독이 있는 포도덩굴을 봄": "속임수 해칠"
     },
     "contexts_en": {
       "포도를 먹음": "eat hardened many cares",
       "잎 사이에 주렁주렁 달린 포도를 봄": "hanging profuseness leaves eminent",
       "처녀가 포도 꿈을 꿈": "young woman ardent wish gratified",
       "말을 타고 가다 포도를 따 먹음": "riding horseback bushes profitable",
-      "먹는 포도에 독이 있을까 의심함": "poisonous quality doubts fears"
+      "먹는 포도에 독이 있을까 의심함": "poisonous quality doubts fears",
+      "포도 덩굴 꿈을 꿈": "propitious success happiness",
+      "꽃 핀 포도덩굴을 봄": "flowering blossom vitality",
+      "포도덩굴이 말라 죽어 있음": "vines died failed enterprise",
+      "독이 있는 포도덩굴을 봄": "venomous scheme harm"
     }
   },
   {

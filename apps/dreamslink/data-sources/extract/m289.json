@@ -1,0 +1,317 @@
+[
+  {
+    "term_ko": "성가심",
+    "term_en": "annoy",
+    "context": "제가 꿈에서 짜증이 남",
+    "interpretation_ko": "이른 아침까지 근심이 여기저기 흩어져 있을 조짐",
+    "interpretation_en": "you will find many worries scattered through your early awakening",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Vexed",
+      "original": "If you are vexed in your dreams, you will find many worries scattered through your early awakening.",
+      "translation_ko": "꿈에서 짜증이 나면, 이른 아침까지 근심이 여기저기 흩어져 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "성가심",
+    "term_en": "annoy",
+    "context": "남이 저에게 짜증이 났다고 여김",
+    "interpretation_ko": "사소한 오해가 곧 풀리지 않을 조짐",
+    "interpretation_en": "it is a sign that you will not shortly reconcile some slight misunderstanding",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Vexed",
+      "original": "If you think some person is vexed with you, it is a sign that you will not shortly reconcile some slight misunderstanding.",
+      "translation_ko": "남이 저에게 짜증이 났다고 여기는 꿈은, 사소한 오해가 곧 풀리지 않을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목사",
+    "term_en": "clergyman",
+    "context": "목사 꿈을 꿈",
+    "interpretation_ko": "질투와 시기심에 사로잡혀 어리석은 짓을 할 조짐",
+    "interpretation_en": "foretells that you will do foolish things while furious with jealousy and envy",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Vicar",
+      "original": "To dream of a vicar, foretells that you will do foolish things while furious with jealousy and envy.",
+      "translation_ko": "목사 꿈은, 질투와 시기심에 사로잡혀 어리석은 짓을 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목사",
+    "term_en": "clergyman",
+    "context": "여성이 목사와 혼인했지만 화답하는 애정을 얻지 못함",
+    "interpretation_ko": "바라는 이에게서 화답하는 애정을 얻지 못해 노처녀로 지내거나 벗어나려 혼인하게 될 조짐",
+    "interpretation_en": "she will fail to awake reciprocal affection in the man she desires, and will live a spinster, or marry to keep from being one",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Vicar",
+      "original": "For a young woman to dream she marries a vicar, foretells that she will fail to awake reciprocal affection in the man she desires, and will live a spinster, or marry to keep from being one.",
+      "translation_ko": "젊은 여성이 꿈에서 부목사와 혼인하면, 바라는 남자에게서 화답하는 애정을 얻지 못해 노처녀로 살거나 벗어나려 혼인하게 된다"
+    }
+  },
+  {
+    "term_ko": "악덕",
+    "term_en": "vice",
+    "context": "제가 악덕을 편듦",
+    "interpretation_ko": "나쁜 꾐에 넘어가 평판을 위태롭게 할 조짐",
+    "interpretation_en": "signifies you are about to endanger your reputation, by letting evil persuasions entice you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Vice",
+      "original": "To dream that you are favoring any vice, signifies you are about to endanger your reputation, by letting evil persuasions entice you.",
+      "translation_ko": "제가 어떤 악덕을 편드는 꿈은, 나쁜 꾐에 넘어가 평판을 위태롭게 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "악덕",
+    "term_en": "vice",
+    "context": "남이 악덕에 빠진 것을 봄",
+    "interpretation_ko": "친척이나 동료의 이익에 불운이 덮칠 조짐",
+    "interpretation_en": "some ill fortune will engulf the interest of some relative or associate",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Vice",
+      "original": "If you see others indulging in vice, some ill fortune will engulf the interest of some relative or associate.",
+      "translation_ko": "남이 악덕에 빠진 것을 보는 꿈은, 친척이나 동료의 이익에 불운이 덮칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "피해자",
+    "term_en": "victim",
+    "context": "제가 어떤 계략의 피해자가 됨",
+    "interpretation_ko": "적에게 억눌리고 짓눌리며 가족 관계도 팽팽해질 조짐",
+    "interpretation_en": "you will be oppressed and over-powered by your enemies. Your family relations will also be strained",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Victim",
+      "original": "To dream that you are the victim of any scheme, foretells that you will be oppressed and over-powered by your enemies. Your family relations will also be strained.",
+      "translation_ko": "제가 어떤 계략의 피해자가 되는 꿈은, 적에게 억눌리고 짓눌리며 가족 관계도 팽팽해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "피해자",
+    "term_en": "victim",
+    "context": "남을 피해자로 삼음",
+    "interpretation_ko": "부정하게 재물을 모으고 옳지 못한 관계를 즐겨 벗들을 슬프게 할 조짐",
+    "interpretation_en": "denotes that you will amass wealth dishonorably and prefer illicit relations, to the sorrow of your companions",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Victim",
+      "original": "To victimize others, denotes that you will amass wealth dishonorably and prefer illicit relations, to the sorrow of your companions.",
+      "translation_ko": "남을 피해자로 삼는 꿈은, 부정하게 재물을 모으고 옳지 못한 관계를 즐겨 벗들을 슬프게 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "승리",
+    "term_en": "victory",
+    "context": "승리를 거둠",
+    "interpretation_ko": "적의 공격을 성공적으로 물리치고 구하는 대로 여인의 사랑을 얻을 길한 조짐",
+    "interpretation_en": "foretells that you will successfully resist the attacks of enemies, and will have the love of women for the asking",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Victory",
+      "original": "To dream that you win a victory, foretells that you will successfully resist the attacks of enemies, and will have the love of women for the asking.",
+      "translation_ko": "승리를 거두는 꿈은, 적의 공격을 성공적으로 물리치고 구하는 대로 여인의 사랑을 얻을 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "마을",
+    "term_en": "village",
+    "context": "마을에 있음",
+    "interpretation_ko": "좋은 건강을 누리고 형편이 다행히 넉넉해질 길한 조짐",
+    "interpretation_en": "denotes that you will enjoy good health and find yourself fortunately provided for",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Village",
+      "original": "To dream that you are in a village, denotes that you will enjoy good health and find yourself fortunately provided for.",
+      "translation_ko": "마을에 있는 꿈은, 좋은 건강을 누리고 형편이 다행히 넉넉해질 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "마을",
+    "term_en": "village",
+    "context": "어릴 적 마을로 돌아감",
+    "interpretation_ko": "즐거운 뜻밖의 일과 멀리 있는 벗의 반가운 소식이 있을 길한 조짐",
+    "interpretation_en": "denotes that you will have pleasant surprises in store and favorable news from absent friends",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Village",
+      "original": "To revisit the village home of your youth, denotes that you will have pleasant surprises in store and favorable news from absent friends.",
+      "translation_ko": "어릴 적 마을로 돌아가는 꿈은, 즐거운 뜻밖의 일과 멀리 있는 벗의 반가운 소식이 있을 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "마을",
+    "term_en": "village",
+    "context": "허름한 마을을 보거나 꿈이 흐릿함",
+    "interpretation_ko": "근심과 슬픔이 곧 닥칠 흉한 조짐",
+    "interpretation_en": "it foretells that trouble and sadness will soon come to you",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Village",
+      "original": "If the village looks dilapidated, or the dream indistinct, it foretells that trouble and sadness will soon come to you.",
+      "translation_ko": "허름해 보이는 마을을 보거나 꿈이 흐릿하면, 근심과 슬픔이 곧 닥칠 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "포도",
+    "term_en": "grape",
+    "context": "포도 덩굴 꿈을 꿈",
+    "interpretation_ko": "번영과 기쁨을 알리는 길한 조짐",
+    "interpretation_en": "is propitious of success and happiness",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Vine",
+      "original": "To dream of vines, is propitious of success and happiness.",
+      "translation_ko": "포도 덩굴 꿈은, 번영과 기쁨을 알리는 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "포도",
+    "term_en": "grape",
+    "context": "꽃 핀 포도덩굴을 봄",
+    "interpretation_ko": "좋은 건강이 있을 길한 조짐",
+    "interpretation_en": "good health is in store",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Vine",
+      "original": "Good health is in store for those who see flowering vines.",
+      "translation_ko": "꽃 핀 포도덩굴을 보는 꿈은, 좋은 건강이 있을 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "포도",
+    "term_en": "grape",
+    "context": "포도덩굴이 말라 죽어 있음",
+    "interpretation_ko": "중대한 일에서 실패할 흉한 조짐",
+    "interpretation_en": "you will fail in some momentous enterprise",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Vine",
+      "original": "If they are dead, you will fail in some momentous enterprise.",
+      "translation_ko": "포도덩굴이 말라 죽어 있는 꿈은, 중대한 일에서 실패할 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "포도",
+    "term_en": "grape",
+    "context": "독이 있는 포도덩굴을 봄",
+    "interpretation_ko": "그럴듯한 속임수의 피해자가 되어 건강을 해칠 흉한 조짐",
+    "interpretation_en": "foretells that you will be the victim of a plausible scheme and you will impair your health",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Vine",
+      "original": "To see poisonous vines, foretells that you will be the victim of a plausible scheme and you will impair your health.",
+      "translation_ko": "독이 있는 포도덩굴을 보는 꿈은, 그럴듯한 속임수의 피해자가 되어 건강을 해칠 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "식초",
+    "term_en": "vinegar",
+    "context": "식초를 마심",
+    "interpretation_ko": "짜증이 나고 근심하다 못마땅한 약속에 응하게 될 흉한 조짐",
+    "interpretation_en": "denotes that you will be exasperated and worried into assenting to some engagement which will fill you with evil foreboding",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Vinegar",
+      "original": "To dream of drinking vinegar, denotes that you will be exasperated and worried into assenting to some engagement which will fill you with evil foreboding.",
+      "translation_ko": "식초를 마시는 꿈은, 짜증이 나고 근심하다 못마땅한 약속에 응하게 될 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "식초",
+    "term_en": "vinegar",
+    "context": "채소에 식초를 씀",
+    "interpretation_ko": "이미 힘겨운 일이 더욱 깊어질 흉한 조짐",
+    "interpretation_en": "foretells a deepening of already distressing affairs",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Vinegar",
+      "original": "To use vinegar on vegetables, foretells a deepening of already distressing affairs.",
+      "translation_ko": "채소에 식초를 쓰는 꿈은, 이미 힘겨운 일이 더욱 깊어질 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "식초",
+    "term_en": "vinegar",
+    "context": "때를 가리지 않고 식초 꿈을 꿈",
+    "interpretation_ko": "어긋나고 마뜩잖은 기운이 감도는 흉한 조짐",
+    "interpretation_en": "denotes inharmonious and unfavorable aspects",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Vinegar",
+      "original": "To dream of vinegar at all times, denotes inharmonious and unfavorable aspects.",
+      "translation_ko": "때를 가리지 않고 식초 꿈을 꾸면, 어긋나고 마뜩잖은 기운이 감도는 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "포도밭",
+    "term_en": "vineyard",
+    "context": "포도밭 꿈을 꿈",
+    "interpretation_ko": "유리한 투기와 즐거운 연애가 있을 길한 조짐",
+    "interpretation_en": "denotes favorable speculations and auspicious love-making",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Vineyard",
+      "original": "To dream of a vineyard, denotes favorable speculations and auspicious love-making.",
+      "translation_ko": "포도밭 꿈은, 유리한 투기와 즐거운 연애가 있을 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "포도밭",
+    "term_en": "vineyard",
+    "context": "잘 가꾸지 않고 냄새 나는 포도밭을 찾아감",
+    "interpretation_ko": "품었던 큰 기대에 실망이 드리울 흉한 조짐",
+    "interpretation_en": "denotes disappointment will overshadow your most sanguine anticipations",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Vineyard",
+      "original": "To visit a vineyard which is not well-kept and filled with bad odors, denotes disappointment will overshadow your most sanguine anticipations.",
+      "translation_ko": "잘 가꾸지 않고 냄새 나는 포도밭을 찾아가는 꿈은, 품었던 큰 기대에 실망이 드리울 흉한 조짐이다"
+    }
+  }
+]
