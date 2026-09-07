@@ -66,7 +66,8 @@
     "aliases": [
       "수수께끼 같은",
       "알 수 없는 일",
-      "신비"
+      "신비",
+      "낯선 이"
     ],
     "aliases_en": [
       "mysteries",
@@ -74,10 +75,14 @@
     ],
     "contexts": {
       "알 수 없는 일에 어리둥절함": "어리둥절 얼떨떨 영문을",
-      "세상의 신비를 파고듦": "파고들 캐묻 연구"
+      "세상의 신비를 파고듦": "파고들 캐묻 연구",
+      "낯선 이를 만남": "만났",
+      "스스로 낯선 이가 된 듯 느낌": "느꼈"
     },
     "contexts_en": {
       "알 수 없는 일에 어리둥절함": "bewildered event strangers harass claim",
+      "낯선 이를 만남": "meeting persons looking",
+      "스스로 낯선 이가 된 듯 느낌": "feel shadow luck",
       "세상의 신비를 파고듦": "studying creation higher atmosphere research learning"
     }
   }

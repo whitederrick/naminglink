@@ -1,0 +1,46 @@
+{
+  "batch": 284,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "United States Mail Box",
+      "text": "To see a United States mail box, in a dream, denotes that you are about to enter into transactions which will be claimed to be illegal.\n\nTo put a letter in one, denotes you will be held responsible for some irregularity of another.",
+      "note": "새 상징 mailbox(우편함)"
+    },
+    {
+      "headword": "Unknown",
+      "text": "To dream of meeting unknown persons, foretells change for good, or bad as the person is good looking, or ugly, or deformed.\n\nTo feel that you are unknown, denotes that strange things will cast a shadow of ill luck over you.",
+      "note": "기존 mystery(수수께끼) 상징에 문맥 2개 추가 — 각주 [234] See Mystery"
+    },
+    {
+      "headword": "Urgent",
+      "text": "To dream that you are supporting an urgent petition, is a sign that you will engage in some affair which will need fine financiering to carry it through successfully.",
+      "note": "새 상징 urgent-petition(긴급 청원)"
+    },
+    {
+      "headword": "Urinal",
+      "text": "To dream of a urinal, disorder will predominate in your home.",
+      "note": "새 상징 urinal(소변기)"
+    },
+    {
+      "headword": "Urine",
+      "text": "To dream of seeing urine, denotes ill health will make you disagreeable and unpleasant with your friends.\n\nTo dream that you are urinating, is an omen of bad luck, and trying seasons to love.",
+      "note": "기존 urine(오줌) 상징에 문맥 2개 추가"
+    },
+    {
+      "headword": "Urn",
+      "text": "To dream of an urn, foretells you will prosper in some respects, and in others disfavor will be apparent.  To see broken urns, unhappiness will confront you.",
+      "note": "기존 jar(항아리) 상징에 문맥 1개 추가 — 둘째 문장(깨진 단지를 봄)은 기존 「깨진 항아리를 봄」과 같은 그림이라 §31로 건너뜀"
+    },
+    {
+      "headword": "Usurer",
+      "text": "To find yourself a usurer in your dreams, foretells that you will be treated with coldness by your associates, and your business will decline to your consternation.\n\nIf others are usurers, you will discard some former friend on account of treachery.",
+      "note": "새 상징 usurer(고리대금업자)"
+    },
+    {
+      "headword": "Usurper",
+      "text": "To dream that you are a usurper, foretells you will have trouble in establishing a good title to property.\n\nIf others are trying to usurp your rights, there will be a struggle between you and your competitors, but you will eventually win.\n\nFor a young woman to have this dream, she will be a party to a spicy rivalry, in which she will win.",
+      "note": "새 상징 usurper(찬탈자)"
+    }
+  ]
+}

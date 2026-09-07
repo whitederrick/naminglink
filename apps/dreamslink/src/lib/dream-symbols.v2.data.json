@@ -207,6 +207,7 @@
     "m281.json",
     "m282.json",
     "m283.json",
+    "m284.json",
     "m29.json",
     "m3.json",
     "m30.json",
@@ -40072,6 +40073,114 @@
       ]
     },
     {
+      "id": "jar",
+      "term_ko": "항아리",
+      "term_en": "jar",
+      "aliases": [
+        "단지",
+        "옹기",
+        "독을",
+        "항아리가",
+        "항아리를",
+        "독이",
+        "장독"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "항아리 안으로 들어감",
+          "interpretation_ko": "크게 부귀할 조짐",
+          "interpretation_en": "a sign of great wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "入盆甕器大富貴",
+              "translation_ko": "동이와 항아리에 들어가면 크게 부귀하다"
+            }
+          ]
+        },
+        {
+          "context": "단지 꿈을 꿈",
+          "interpretation_ko": "어떤 면에서는 번창하나 다른 면에서는 눈총을 받을 조짐",
+          "interpretation_en": "foretells you will prosper in some respects, and in others disfavor will be apparent",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Urn",
+              "original": "To dream of an urn, foretells you will prosper in some respects, and in others disfavor will be apparent.",
+              "translation_ko": "단지 꿈을 꾸면, 어떤 면에서는 번창하나 다른 면에서는 눈총을 받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빈 항아리를 봄",
+          "interpretation_ko": "살림이 쪼들리고 괴로울 흉한 조짐",
+          "interpretation_en": "denotes impoverishment and distress",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jar",
+              "original": "To dream of empty jars, denotes impoverishment and distress.",
+              "translation_ko": "빈 항아리의 꿈은 궁핍과 괴로움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "가득 찬 항아리를 봄",
+          "interpretation_ko": "하는 일이 잘될 길한 조짐",
+          "interpretation_en": "you will be successful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jar",
+              "original": "To see them full, you will be successful.",
+              "translation_ko": "그것이 가득 찬 것을 보면 하는 일이 잘된다"
+            }
+          ]
+        },
+        {
+          "context": "항아리를 삼",
+          "interpretation_ko": "이룸이 아슬아슬하고 짐이 무거울 흉한 조짐",
+          "interpretation_en": "your success will be precarious and your burden will be heavy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jar",
+              "original": "If you buy jars, your success will be precarious and your burden will be heavy.",
+              "translation_ko": "항아리를 사면 이룸이 아슬아슬하고 짐이 무거워진다"
+            }
+          ]
+        },
+        {
+          "context": "깨진 항아리를 봄",
+          "interpretation_ko": "괴로운 병이나 깊은 실망이 기다릴 흉한 조짐",
+          "interpretation_en": "distressing sickness or deep disappointment awaits you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Jar",
+              "original": "To see broken jars, distressing sickness or deep disappointment awaits you.",
+              "translation_ko": "깨진 항아리를 보면 괴로운 병이나 깊은 실망이 기다린다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "jug",
       "term_ko": "주전자",
       "term_en": "jug",
@@ -49917,100 +50026,6 @@
               "locator": "衣帳毯褥匙櫡",
               "original": "熨斗盛火好事成",
               "translation_ko": "다리미에 불이 담기면 좋은 일이 이루어진다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "jar",
-      "term_ko": "항아리",
-      "term_en": "jar",
-      "aliases": [
-        "단지",
-        "옹기",
-        "독을",
-        "항아리가",
-        "항아리를",
-        "독이",
-        "장독"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "항아리 안으로 들어감",
-          "interpretation_ko": "크게 부귀할 조짐",
-          "interpretation_en": "a sign of great wealth and honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "入盆甕器大富貴",
-              "translation_ko": "동이와 항아리에 들어가면 크게 부귀하다"
-            }
-          ]
-        },
-        {
-          "context": "빈 항아리를 봄",
-          "interpretation_ko": "살림이 쪼들리고 괴로울 흉한 조짐",
-          "interpretation_en": "denotes impoverishment and distress",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jar",
-              "original": "To dream of empty jars, denotes impoverishment and distress.",
-              "translation_ko": "빈 항아리의 꿈은 궁핍과 괴로움을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "가득 찬 항아리를 봄",
-          "interpretation_ko": "하는 일이 잘될 길한 조짐",
-          "interpretation_en": "you will be successful",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jar",
-              "original": "To see them full, you will be successful.",
-              "translation_ko": "그것이 가득 찬 것을 보면 하는 일이 잘된다"
-            }
-          ]
-        },
-        {
-          "context": "항아리를 삼",
-          "interpretation_ko": "이룸이 아슬아슬하고 짐이 무거울 흉한 조짐",
-          "interpretation_en": "your success will be precarious and your burden will be heavy",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jar",
-              "original": "If you buy jars, your success will be precarious and your burden will be heavy.",
-              "translation_ko": "항아리를 사면 이룸이 아슬아슬하고 짐이 무거워진다"
-            }
-          ]
-        },
-        {
-          "context": "깨진 항아리를 봄",
-          "interpretation_ko": "괴로운 병이나 깊은 실망이 기다릴 흉한 조짐",
-          "interpretation_en": "distressing sickness or deep disappointment awaits you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Jar",
-              "original": "To see broken jars, distressing sickness or deep disappointment awaits you.",
-              "translation_ko": "깨진 항아리를 보면 괴로운 병이나 깊은 실망이 기다린다"
             }
           ]
         }
@@ -65653,6 +65668,83 @@
       ]
     },
     {
+      "id": "mystery",
+      "term_ko": "수수께끼",
+      "term_en": "mystery",
+      "aliases": [
+        "수수께끼 같은",
+        "알 수 없는 일",
+        "신비",
+        "낯선 이"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "알 수 없는 일에 어리둥절함",
+          "interpretation_ko": "낯선 이들이 제 괴로움을 들고 와 도움을 청해 시달릴 흉한 조짐",
+          "interpretation_en": "denotes that strangers will harass you with their troubles and claim your aid",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mystery",
+              "original": "To find yourself bewildered by some mysterious event, denotes that strangers will harass you with their troubles and claim your aid.",
+              "translation_ko": "알 수 없는 일에 어리둥절해 있는 꿈은, 낯선 이들이 제 괴로움을 들고 와 도움을 청해 시달림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "세상의 신비를 파고듦",
+          "interpretation_ko": "삶이 바뀌어 더 높은 배움과 살핌의 자리로 올라 참된 즐거움과 복에 가까워질 길한 조짐",
+          "interpretation_en": "denotes that a change will take place in your life, throwing you into a higher atmosphere of research and learning",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Mystery",
+              "original": "To find yourself studying the mysteries of creation, denotes that a change will take place in your life, throwing you into a higher atmosphere of research and learning, and thus advancing you nearer the attainment of true pleasure and fortune.",
+              "translation_ko": "세상의 신비를 파고드는 꿈은, 삶이 바뀌어 더 높은 배움과 살핌의 자리로 올라 참된 즐거움과 복에 가까워짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "낯선 이를 만남",
+          "interpretation_ko": "좋게든 나쁘게든 변화가 있을 조짐이며 그 사람이 잘생기거나 못생기거나 볼품없음에 따라 갈림",
+          "interpretation_en": "foretells change for good, or bad as the person is good looking, or ugly, or deformed",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Unknown",
+              "original": "To dream of meeting unknown persons, foretells change for good, or bad as the person is good looking, or ugly, or deformed.",
+              "translation_ko": "낯선 이를 만나는 꿈은, 좋게든 나쁘게든 변화가 있을 조짐이며 그 사람이 잘생기거나 못생기거나 볼품없음에 따라 갈린다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 낯선 이가 된 듯 느낌",
+          "interpretation_ko": "낯선 일들이 불운의 그림자를 드리울 조짐",
+          "interpretation_en": "denotes that strange things will cast a shadow of ill luck over you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Unknown",
+              "original": "To feel that you are unknown, denotes that strange things will cast a shadow of ill luck over you.",
+              "translation_ko": "스스로 낯선 이가 된 듯 느끼는 꿈은, 낯선 일들이 불운의 그림자를 드리울 조짐이다"
+            }
+          ]
+        }
+      ],
+      "label_ko": "수수께끼(불가사의)"
+    },
+    {
       "id": "nettles",
       "term_ko": "쐐기풀",
       "term_en": "nettles",
@@ -70459,6 +70551,87 @@
               "locator": "Uncle",
               "original": "To have a misunderstanding with your uncle, denotes that your family relations will be unpleasant, and illness will be continually present.",
               "translation_ko": "삼촌과 오해가 생기는 꿈은, 집안 사이가 언짢아지고 병치레가 끊이지 않을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urine",
+      "term_ko": "오줌",
+      "term_en": "urine",
+      "aliases": [
+        "소변",
+        "방뇨"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "오줌이 몸을 더럽힘",
+          "interpretation_ko": "크게 길하고 일이 형통할 조짐",
+          "interpretation_en": "a very auspicious sign that things will go smoothly",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "身體面目齒髮",
+              "original": "屎尿污人大吉亨",
+              "translation_ko": "똥오줌이 사람을 더럽히면 크게 길하고 형통하다"
+            },
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "尿屎污身主得財",
+              "translation_ko": "오줌과 똥이 몸을 더럽히면 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "오줌을 봄",
+          "interpretation_ko": "몸이 편치 않아 벗들에게 무뚝뚝하고 불쾌하게 굴 조짐",
+          "interpretation_en": "denotes ill health will make you disagreeable and unpleasant with your friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Urine",
+              "original": "To dream of seeing urine, denotes ill health will make you disagreeable and unpleasant with your friends.",
+              "translation_ko": "오줌을 보는 꿈은, 몸이 편치 않아 벗들에게 무뚝뚝하고 불쾌하게 굴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 오줌을 눔",
+          "interpretation_ko": "불운과 사랑에서의 힘겨운 시기를 예고",
+          "interpretation_en": "is an omen of bad luck, and trying seasons to love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Urine",
+              "original": "To dream that you are urinating, is an omen of bad luck, and trying seasons to love.",
+              "translation_ko": "스스로 오줌을 누는 꿈은, 불운과 사랑에서의 힘겨운 시기를 예고한다"
+            }
+          ]
+        },
+        {
+          "context": "소변을 잃어버림",
+          "interpretation_ko": "재물을 잃을 조짐",
+          "interpretation_en": "a sign of losing wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "失大小便主失財",
+              "translation_ko": "대소변을 잃으면 재물을 잃는다"
             }
           ]
         }
@@ -88776,6 +88949,67 @@
       ]
     },
     {
+      "id": "usurper",
+      "term_ko": "찬탈자",
+      "term_en": "usurper",
+      "aliases": [
+        "찬탈자가",
+        "찬탈자임을",
+        "빼앗으려 했다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 찬탈자임을 봄",
+          "interpretation_ko": "재산의 온전한 권리를 세우는 데 말썽을 겪을 조짐",
+          "interpretation_en": "foretells you will have trouble in establishing a good title to property",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Usurper",
+              "original": "To dream that you are a usurper, foretells you will have trouble in establishing a good title to property.",
+              "translation_ko": "스스로 찬탈자임을 보는 꿈은, 재산의 온전한 권리를 세우는 데 말썽을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 제 권리를 빼앗으려 함",
+          "interpretation_ko": "경쟁자와 다투게 되나 끝내 이길 조짐",
+          "interpretation_en": "there will be a struggle between you and your competitors, but you will eventually win",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Usurper",
+              "original": "If others are trying to usurp your rights, there will be a struggle between you and your competitors, but you will eventually win.",
+              "translation_ko": "남들이 제 권리를 빼앗으려 하는 꿈은, 경쟁자와 다투게 되나 끝내 이길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 스스로 찬탈자가 되는 꿈을 꿈",
+          "interpretation_ko": "짜릿한 경쟁에 얽혀 들지만 끝내 이길 조짐",
+          "interpretation_en": "she will be a party to a spicy rivalry, in which she will win",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Usurper",
+              "original": "For a young woman to have this dream, she will be a party to a spicy rivalry, in which she will win.",
+              "translation_ko": "처녀가 이 꿈을 꾸면, 짜릿한 경쟁에 얽혀 들지만 끝내 이길 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "vessel",
       "term_ko": "그릇",
       "term_en": "vessel",
@@ -106275,6 +106509,53 @@
       ]
     },
     {
+      "id": "mailbox",
+      "term_ko": "우체통",
+      "term_en": "mailbox",
+      "aliases": [
+        "우체통이",
+        "우체통을",
+        "우체통에"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "우체통을 봄",
+          "interpretation_ko": "불법으로 몰릴 거래에 들어서려는 조짐",
+          "interpretation_en": "denotes that you are about to enter into transactions which will be claimed to be illegal",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "United States Mail Box",
+              "original": "To see a United States mail box, in a dream, denotes that you are about to enter into transactions which will be claimed to be illegal.",
+              "translation_ko": "우체통을 보는 꿈은, 불법으로 몰릴 거래에 들어서려는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "우체통에 편지를 넣음",
+          "interpretation_ko": "남의 잘못을 대신 책임지게 될 조짐",
+          "interpretation_en": "denotes you will be held responsible for some irregularity of another",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "United States Mail Box",
+              "original": "To put a letter in one, denotes you will be held responsible for some irregularity of another.",
+              "translation_ko": "우체통에 편지를 넣는 꿈은, 남의 잘못을 대신 책임지게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "malice",
       "term_ko": "악의",
       "term_en": "malice",
@@ -108068,54 +108349,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "mystery",
-      "term_ko": "수수께끼",
-      "term_en": "mystery",
-      "aliases": [
-        "수수께끼 같은",
-        "알 수 없는 일",
-        "신비"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "알 수 없는 일에 어리둥절함",
-          "interpretation_ko": "낯선 이들이 제 괴로움을 들고 와 도움을 청해 시달릴 흉한 조짐",
-          "interpretation_en": "denotes that strangers will harass you with their troubles and claim your aid",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Mystery",
-              "original": "To find yourself bewildered by some mysterious event, denotes that strangers will harass you with their troubles and claim your aid.",
-              "translation_ko": "알 수 없는 일에 어리둥절해 있는 꿈은, 낯선 이들이 제 괴로움을 들고 와 도움을 청해 시달림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "세상의 신비를 파고듦",
-          "interpretation_ko": "삶이 바뀌어 더 높은 배움과 살핌의 자리로 올라 참된 즐거움과 복에 가까워질 길한 조짐",
-          "interpretation_en": "denotes that a change will take place in your life, throwing you into a higher atmosphere of research and learning",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Mystery",
-              "original": "To find yourself studying the mysteries of creation, denotes that a change will take place in your life, throwing you into a higher atmosphere of research and learning, and thus advancing you nearer the attainment of true pleasure and fortune.",
-              "translation_ko": "세상의 신비를 파고드는 꿈은, 삶이 바뀌어 더 높은 배움과 살핌의 자리로 올라 참된 즐거움과 복에 가까워짐을 뜻한다"
-            }
-          ]
-        }
-      ],
-      "label_ko": "수수께끼(불가사의)"
     },
     {
       "id": "napkin",
@@ -117611,52 +117844,46 @@
       ]
     },
     {
-      "id": "urine",
-      "term_ko": "오줌",
-      "term_en": "urine",
+      "id": "usurer",
+      "term_ko": "고리대금업자",
+      "term_en": "usurer",
       "aliases": [
-        "소변",
-        "방뇨"
+        "고리대금업자가",
+        "고리대금업자임을"
       ],
-      "category": "body",
-      "polarity": "ambivalent",
+      "category": "action",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "오줌이 몸을 더럽힘",
-          "interpretation_ko": "크게 길하고 일이 형통할 조짐",
-          "interpretation_en": "a very auspicious sign that things will go smoothly",
-          "polarity": "positive",
+          "context": "스스로 고리대금업자임을 봄",
+          "interpretation_ko": "길동무에게 냉대받고 사업이 기울어 당황할 조짐",
+          "interpretation_en": "foretells that you will be treated with coldness by your associates, and your business will decline to your consternation",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "身體面目齒髮",
-              "original": "屎尿污人大吉亨",
-              "translation_ko": "똥오줌이 사람을 더럽히면 크게 길하고 형통하다"
-            },
-            {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "尿屎污身主得財",
-              "translation_ko": "오줌과 똥이 몸을 더럽히면 재물을 얻는다"
+              "work": "miller",
+              "locator": "Usurer",
+              "original": "To find yourself a usurer in your dreams, foretells that you will be treated with coldness by your associates, and your business will decline to your consternation.",
+              "translation_ko": "스스로 고리대금업자임을 보는 꿈은, 길동무에게 냉대받고 사업이 기울어 당황할 조짐이다"
             }
           ]
         },
         {
-          "context": "소변을 잃어버림",
-          "interpretation_ko": "재물을 잃을 조짐",
-          "interpretation_en": "a sign of losing wealth",
+          "context": "남들이 고리대금업자임을 봄",
+          "interpretation_ko": "배신 때문에 옛 벗을 저버릴 조짐",
+          "interpretation_en": "you will discard some former friend on account of treachery",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "失大小便主失財",
-              "translation_ko": "대소변을 잃으면 재물을 잃는다"
+              "work": "miller",
+              "locator": "Usurer",
+              "original": "If others are usurers, you will discard some former friend on account of treachery.",
+              "translation_ko": "남들이 고리대금업자임을 보는 꿈은, 배신 때문에 옛 벗을 저버릴 조짐이다"
             }
           ]
         }
@@ -131348,6 +131575,70 @@
               "locator": "Tweezers",
               "original": "To see tweezers in a dream, denotes uncomfortable situations will fill you with discontent, and your companions will abuse you.",
               "translation_ko": "핀셋 꿈을 꾸면, 거북한 처지가 불만을 채우고 길동무가 자신을 헐뜯을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urgent-petition",
+      "term_ko": "긴급 청원",
+      "term_en": "urgent petition",
+      "aliases": [
+        "긴급 청원이",
+        "긴급 청원을"
+      ],
+      "category": "action",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "긴급 청원을 지지함",
+          "interpretation_ko": "빈틈없는 자금 마련이 있어야 성공으로 이끌 수 있는 일에 나서게 될 조짐",
+          "interpretation_en": "is a sign that you will engage in some affair which will need fine financiering to carry it through successfully",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Urgent",
+              "original": "To dream that you are supporting an urgent petition, is a sign that you will engage in some affair which will need fine financiering to carry it through successfully.",
+              "translation_ko": "긴급 청원을 지지하는 꿈은, 빈틈없는 자금 마련이 있어야 성공으로 이끌 수 있는 일에 나서게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urinal",
+      "term_ko": "소변기",
+      "term_en": "urinal",
+      "aliases": [
+        "소변기가",
+        "소변기를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "소변기 꿈을 꿈",
+          "interpretation_ko": "집안에 어수선함이 지배할 조짐",
+          "interpretation_en": "disorder will predominate in your home",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Urinal",
+              "original": "To dream of a urinal, disorder will predominate in your home.",
+              "translation_ko": "소변기 꿈을 꾸면, 집안에 어수선함이 지배할 조짐이다"
             }
           ]
         }

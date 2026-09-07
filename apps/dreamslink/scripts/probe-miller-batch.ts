@@ -1,12 +1,13 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 283 — Uncle~Uniform. 새 상징 셋(uncle·subway·
-// uniform), 기존 naked-body(알몸)·adversity(역경)에 문맥을 나눠 붙임.
-// Underground의 첫 문장(지하 거처에 있음)은 기존 Basement 표제어와 같은
-// 그림이라 §31로 건너뛰고 둘째 문장(지하철을 탐)만 새 상징(subway)으로
-// 세웠다. Undress는 aliases_en에 이미 "undressed"가 있어 naked-body에
-// 합쳤는데, 셋째 문장(남들이 옷 벗은 것을 봄)은 기존 「남이 알몸인 것을
-// 봄」과 같은 그림이라 §31로 건너뜀. Unfortunate는 별칭 「불운한 처지」가
-// 이미 있어 adversity에 합쳤다.
+// (지금 담긴 것: 배치 284 — United States Mail Box~Usurper. 새 상징
+// 다섯(mailbox·urgent-petition·urinal·usurer·usurper), 기존 mystery
+// (수수께끼)·urine(오줌)·jar(항아리)에 문맥을 나눠 붙임. Unknown은 각주
+// [234] See Mystery로 mystery에 합침. Urn은 jar가 이미 영어 별칭
+// "urn"을 쥐고 있어 합쳤는데, 둘째 문장(깨진 단지)은 기존 「깨진 항아리를
+// 봄」과 같은 그림이라 §31로 건너뜀. urine은 m284가 기존 오줌 출처(r3)
+// 보다 사전순으로 앞서 기본값이 바뀔 뻔했으나, 두 문장이 서로 다른
+// 문헌(주공해몽 길조 vs 밀러 흉조)의 다른 판단이라 있던 주공해몽 답을
+// 그대로 얼렸다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -37,24 +38,26 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 283 새 문맥 (13건) ────────────────────────────────────────────
-  { id: "uncle", ctx: "꿈에 삼촌을 봄", text: "꿈에 삼촌을 보았다" },
-  { id: "uncle", ctx: "삼촌이 상심한 모습을 되풀이해서 봄", text: "삼촌이 상심한 모습을 되풀이해서 보았다" },
-  { id: "uncle", ctx: "삼촌이 죽은 것을 봄", text: "삼촌이 죽은 것을 보았다" },
-  { id: "uncle", ctx: "삼촌과 오해가 생김", text: "삼촌과 오해가 생겼다" },
-  { id: "subway", ctx: "지하철을 탐", text: "지하철을 탔다" },
-  { id: "naked-body", ctx: "스스로 옷을 벗고 있음", text: "스스로 옷을 벗고 있었다" },
-  { id: "naked-body", ctx: "여성이 제 나라 통치자가 옷 벗은 것을 봄", text: "여성이 제 나라 통치자가 옷 벗은 것을 보았다" },
-  { id: "adversity", ctx: "스스로 불운하다고 여김", text: "스스로 불운하다고 여겼다" },
-  { id: "uniform", ctx: "제복을 봄", text: "제복을 보았다" },
-  { id: "uniform", ctx: "처녀가 제복을 입음", text: "처녀가 제복을 입었다" },
-  { id: "uniform", ctx: "처녀가 제복을 벗어 버림", text: "처녀가 제복을 벗어 버렸다" },
-  { id: "uniform", ctx: "낯선 제복을 입은 이들을 봄", text: "낯선 제복을 입은 이들을 보았다" },
-  { id: "uniform", ctx: "제복 입은 벗이나 친척이 슬픈 낯빛인 것을 봄", text: "제복 입은 벗이 슬픈 낯빛인 것을 보았다" },
+  // ── 배치 284 새 문맥 (14건) ────────────────────────────────────────────
+  { id: "mailbox", ctx: "우체통을 봄", text: "우체통을 보았다" },
+  { id: "mailbox", ctx: "우체통에 편지를 넣음", text: "우체통에 편지를 넣었다" },
+  { id: "mystery", ctx: "낯선 이를 만남", text: "낯선 이를 만났다" },
+  { id: "mystery", ctx: "스스로 낯선 이가 된 듯 느낌", text: "스스로 낯선 이가 된 듯 느꼈다" },
+  { id: "urgent-petition", ctx: "긴급 청원을 지지함", text: "긴급 청원을 지지했다" },
+  { id: "urinal", ctx: "소변기 꿈을 꿈", text: "소변기 꿈을 꾸었다" },
+  { id: "urine", ctx: "오줌을 봄", text: "오줌을 보았는데 벗들에게 무뚝뚝하게 굴었다" },
+  { id: "urine", ctx: "스스로 오줌을 눔", text: "스스로 오줌을 누었는데 사랑에서 힘겨운 시기였다" },
+  { id: "jar", ctx: "단지 꿈을 꿈", text: "단지 꿈을 꾸었는데 어떤 면에서는 눈총을 받았다" },
+  { id: "usurer", ctx: "스스로 고리대금업자임을 봄", text: "스스로 고리대금업자임을 보았다" },
+  { id: "usurer", ctx: "남들이 고리대금업자임을 봄", text: "남들이 고리대금업자임을 보았다" },
+  { id: "usurper", ctx: "스스로 찬탈자임을 봄", text: "스스로 찬탈자임을 보았다" },
+  { id: "usurper", ctx: "남들이 제 권리를 빼앗으려 함", text: "남들이 제 권리를 빼앗으려 했다" },
+  { id: "usurper", ctx: "처녀가 스스로 찬탈자가 되는 꿈을 꿈", text: "처녀가 스스로 찬탈자가 되는 꿈을 꾸었는데 짜릿한 경쟁에서 이겼다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────
-  { id: "naked-body", ctx: "남이 알몸인 것을 봄", text: "남이 알몸인 것을 보았다" },
-  { id: "adversity", ctx: "역경에 처함", text: "내가 역경에 처했다" },
+  { id: "mystery", ctx: "알 수 없는 일에 어리둥절함", text: "알 수 없는 일에 어리둥절했다" },
+  { id: "urine", ctx: "오줌이 몸을 더럽힘", text: "오줌이 몸을 더럽혔다" },
+  { id: "jar", ctx: "빈 항아리를 봄", text: "텅빈 항아리를 보았다" },
 ];
 
 let notFound = 0;

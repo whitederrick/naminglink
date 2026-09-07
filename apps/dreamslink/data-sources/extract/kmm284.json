@@ -1,0 +1,97 @@
+[
+  {
+    "id": "mailbox",
+    "aliases": [
+      "우체통이",
+      "우체통을",
+      "우체통에"
+    ],
+    "aliases_en": [
+      "mailbox",
+      "mail box",
+      "post box"
+    ],
+    "contexts": {
+      "우체통을 봄": "그냥",
+      "우체통에 편지를 넣음": "편지를 넣었"
+    },
+    "contexts_en": {
+      "우체통을 봄": "transactions illegal",
+      "우체통에 편지를 넣음": "letter responsible irregularity"
+    }
+  },
+  {
+    "id": "urgent-petition",
+    "aliases": [
+      "긴급 청원이",
+      "긴급 청원을"
+    ],
+    "aliases_en": [
+      "urgent petition"
+    ],
+    "contexts": {
+      "긴급 청원을 지지함": "그냥"
+    },
+    "contexts_en": {
+      "긴급 청원을 지지함": "supporting financiering successfully"
+    }
+  },
+  {
+    "id": "urinal",
+    "aliases": [
+      "소변기가",
+      "소변기를"
+    ],
+    "aliases_en": [
+      "a urinal",
+      "urinals"
+    ],
+    "contexts": {
+      "소변기 꿈을 꿈": "그냥"
+    },
+    "contexts_en": {
+      "소변기 꿈을 꿈": "disorder predominate home"
+    }
+  },
+  {
+    "id": "usurer",
+    "aliases": [
+      "고리대금업자가",
+      "고리대금업자임을"
+    ],
+    "aliases_en": [
+      "usurer",
+      "usurers"
+    ],
+    "contexts": {
+      "스스로 고리대금업자임을 봄": "그냥",
+      "남들이 고리대금업자임을 봄": "남들이"
+    },
+    "contexts_en": {
+      "스스로 고리대금업자임을 봄": "coldness associates decline",
+      "남들이 고리대금업자임을 봄": "others discard treachery"
+    }
+  },
+  {
+    "id": "usurper",
+    "aliases": [
+      "찬탈자가",
+      "찬탈자임을",
+      "빼앗으려 했다"
+    ],
+    "aliases_en": [
+      "usurper",
+      "usurpers"
+    ],
+    "contexts": {
+      "스스로 찬탈자임을 봄": "그냥",
+      "남들이 제 권리를 빼앗으려 함": "빼앗",
+      "처녀가 스스로 찬탈자가 되는 꿈을 꿈": "처녀가"
+    },
+    "contexts_en": {
+      "스스로 찬탈자임을 봄": "trouble title property",
+      "남들이 제 권리를 빼앗으려 함": "usurp struggle competitors",
+      "처녀가 스스로 찬탈자가 되는 꿈을 꿈": "young woman spicy rivalry"
+    }
+  }
+]

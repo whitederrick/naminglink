@@ -1,0 +1,212 @@
+[
+  {
+    "term_ko": "우체통",
+    "term_en": "mailbox",
+    "context": "우체통을 봄",
+    "interpretation_ko": "불법으로 몰릴 거래에 들어서려는 조짐",
+    "interpretation_en": "denotes that you are about to enter into transactions which will be claimed to be illegal",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "United States Mail Box",
+      "original": "To see a United States mail box, in a dream, denotes that you are about to enter into transactions which will be claimed to be illegal.",
+      "translation_ko": "우체통을 보는 꿈은, 불법으로 몰릴 거래에 들어서려는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우체통",
+    "term_en": "mailbox",
+    "context": "우체통에 편지를 넣음",
+    "interpretation_ko": "남의 잘못을 대신 책임지게 될 조짐",
+    "interpretation_en": "denotes you will be held responsible for some irregularity of another",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "United States Mail Box",
+      "original": "To put a letter in one, denotes you will be held responsible for some irregularity of another.",
+      "translation_ko": "우체통에 편지를 넣는 꿈은, 남의 잘못을 대신 책임지게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수수께끼",
+    "term_en": "mystery",
+    "context": "낯선 이를 만남",
+    "interpretation_ko": "좋게든 나쁘게든 변화가 있을 조짐이며 그 사람이 잘생기거나 못생기거나 볼품없음에 따라 갈림",
+    "interpretation_en": "foretells change for good, or bad as the person is good looking, or ugly, or deformed",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Unknown",
+      "original": "To dream of meeting unknown persons, foretells change for good, or bad as the person is good looking, or ugly, or deformed.",
+      "translation_ko": "낯선 이를 만나는 꿈은, 좋게든 나쁘게든 변화가 있을 조짐이며 그 사람이 잘생기거나 못생기거나 볼품없음에 따라 갈린다"
+    }
+  },
+  {
+    "term_ko": "수수께끼",
+    "term_en": "mystery",
+    "context": "스스로 낯선 이가 된 듯 느낌",
+    "interpretation_ko": "낯선 일들이 불운의 그림자를 드리울 조짐",
+    "interpretation_en": "denotes that strange things will cast a shadow of ill luck over you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Unknown",
+      "original": "To feel that you are unknown, denotes that strange things will cast a shadow of ill luck over you.",
+      "translation_ko": "스스로 낯선 이가 된 듯 느끼는 꿈은, 낯선 일들이 불운의 그림자를 드리울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "긴급 청원",
+    "term_en": "urgent petition",
+    "context": "긴급 청원을 지지함",
+    "interpretation_ko": "빈틈없는 자금 마련이 있어야 성공으로 이끌 수 있는 일에 나서게 될 조짐",
+    "interpretation_en": "is a sign that you will engage in some affair which will need fine financiering to carry it through successfully",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Urgent",
+      "original": "To dream that you are supporting an urgent petition, is a sign that you will engage in some affair which will need fine financiering to carry it through successfully.",
+      "translation_ko": "긴급 청원을 지지하는 꿈은, 빈틈없는 자금 마련이 있어야 성공으로 이끌 수 있는 일에 나서게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "소변기",
+    "term_en": "urinal",
+    "context": "소변기 꿈을 꿈",
+    "interpretation_ko": "집안에 어수선함이 지배할 조짐",
+    "interpretation_en": "disorder will predominate in your home",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Urinal",
+      "original": "To dream of a urinal, disorder will predominate in your home.",
+      "translation_ko": "소변기 꿈을 꾸면, 집안에 어수선함이 지배할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "오줌",
+    "term_en": "urine",
+    "context": "오줌을 봄",
+    "interpretation_ko": "몸이 편치 않아 벗들에게 무뚝뚝하고 불쾌하게 굴 조짐",
+    "interpretation_en": "denotes ill health will make you disagreeable and unpleasant with your friends",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Urine",
+      "original": "To dream of seeing urine, denotes ill health will make you disagreeable and unpleasant with your friends.",
+      "translation_ko": "오줌을 보는 꿈은, 몸이 편치 않아 벗들에게 무뚝뚝하고 불쾌하게 굴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "오줌",
+    "term_en": "urine",
+    "context": "스스로 오줌을 눔",
+    "interpretation_ko": "불운과 사랑에서의 힘겨운 시기를 예고",
+    "interpretation_en": "is an omen of bad luck, and trying seasons to love",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Urine",
+      "original": "To dream that you are urinating, is an omen of bad luck, and trying seasons to love.",
+      "translation_ko": "스스로 오줌을 누는 꿈은, 불운과 사랑에서의 힘겨운 시기를 예고한다"
+    }
+  },
+  {
+    "term_ko": "항아리",
+    "term_en": "jar",
+    "context": "단지 꿈을 꿈",
+    "interpretation_ko": "어떤 면에서는 번창하나 다른 면에서는 눈총을 받을 조짐",
+    "interpretation_en": "foretells you will prosper in some respects, and in others disfavor will be apparent",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Urn",
+      "original": "To dream of an urn, foretells you will prosper in some respects, and in others disfavor will be apparent.",
+      "translation_ko": "단지 꿈을 꾸면, 어떤 면에서는 번창하나 다른 면에서는 눈총을 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "고리대금업자",
+    "term_en": "usurer",
+    "context": "스스로 고리대금업자임을 봄",
+    "interpretation_ko": "길동무에게 냉대받고 사업이 기울어 당황할 조짐",
+    "interpretation_en": "foretells that you will be treated with coldness by your associates, and your business will decline to your consternation",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Usurer",
+      "original": "To find yourself a usurer in your dreams, foretells that you will be treated with coldness by your associates, and your business will decline to your consternation.",
+      "translation_ko": "스스로 고리대금업자임을 보는 꿈은, 길동무에게 냉대받고 사업이 기울어 당황할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "고리대금업자",
+    "term_en": "usurer",
+    "context": "남들이 고리대금업자임을 봄",
+    "interpretation_ko": "배신 때문에 옛 벗을 저버릴 조짐",
+    "interpretation_en": "you will discard some former friend on account of treachery",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Usurer",
+      "original": "If others are usurers, you will discard some former friend on account of treachery.",
+      "translation_ko": "남들이 고리대금업자임을 보는 꿈은, 배신 때문에 옛 벗을 저버릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "찬탈자",
+    "term_en": "usurper",
+    "context": "스스로 찬탈자임을 봄",
+    "interpretation_ko": "재산의 온전한 권리를 세우는 데 말썽을 겪을 조짐",
+    "interpretation_en": "foretells you will have trouble in establishing a good title to property",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Usurper",
+      "original": "To dream that you are a usurper, foretells you will have trouble in establishing a good title to property.",
+      "translation_ko": "스스로 찬탈자임을 보는 꿈은, 재산의 온전한 권리를 세우는 데 말썽을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "찬탈자",
+    "term_en": "usurper",
+    "context": "남들이 제 권리를 빼앗으려 함",
+    "interpretation_ko": "경쟁자와 다투게 되나 끝내 이길 조짐",
+    "interpretation_en": "there will be a struggle between you and your competitors, but you will eventually win",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Usurper",
+      "original": "If others are trying to usurp your rights, there will be a struggle between you and your competitors, but you will eventually win.",
+      "translation_ko": "남들이 제 권리를 빼앗으려 하는 꿈은, 경쟁자와 다투게 되나 끝내 이길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "찬탈자",
+    "term_en": "usurper",
+    "context": "처녀가 스스로 찬탈자가 되는 꿈을 꿈",
+    "interpretation_ko": "짜릿한 경쟁에 얽혀 들지만 끝내 이길 조짐",
+    "interpretation_en": "she will be a party to a spicy rivalry, in which she will win",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Usurper",
+      "original": "For a young woman to have this dream, she will be a party to a spicy rivalry, in which she will win.",
+      "translation_ko": "처녀가 이 꿈을 꾸면, 짜릿한 경쟁에 얽혀 들지만 끝내 이길 조짐이다"
+    }
+  }
+]

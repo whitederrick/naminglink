@@ -8135,5 +8135,25 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "uniform",
     "uniforms",
     "a uniform"
+  ],
+  "mailbox": [
+    "mailbox",
+    "mail box",
+    "post box"
+  ],
+  "urgent-petition": [
+    "urgent petition"
+  ],
+  "urinal": [
+    "a urinal",
+    "urinals"
+  ],
+  "usurer": [
+    "usurer",
+    "usurers"
+  ],
+  "usurper": [
+    "usurper",
+    "usurpers"
   ]
 };

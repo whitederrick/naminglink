@@ -607,11 +607,15 @@
     ],
     "contexts": {
       "오줌이 몸을 더럽힘": "더럽 묻었 젖었 지렸 얼룩",
-      "소변을 잃어버림": "잃어 잃었 못참 참지"
+      "소변을 잃어버림": "잃어 잃었 못참 참지",
+      "오줌을 봄": "벗들에게",
+      "스스로 오줌을 눔": "시기"
     },
     "contexts_en": {
       "오줌이 몸을 더럽힘": "soiled stained wet dirty splashed",
-      "소변을 잃어버림": "lost losing incontinence hold"
+      "소변을 잃어버림": "lost losing incontinence hold",
+      "오줌을 봄": "disagreeable friends",
+      "스스로 오줌을 눔": "bad luck trying"
     }
   },
   {
