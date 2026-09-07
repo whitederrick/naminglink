@@ -7272,7 +7272,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "rupture": [
     "a rupture",
-    "ruptured"
+    "ruptured",
+    "a truss",
+    "trusses"
   ],
   "rust": [
     "rust",
@@ -8064,5 +8066,21 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "trowel": [
     "a trowel",
     "trowels"
+  ],
+  "trusts": [
+    "trusts",
+    "a trust"
+  ],
+  "tub": [
+    "a tub",
+    "tubs"
+  ],
+  "tunnel": [
+    "a tunnel",
+    "tunnels"
+  ],
+  "racetrack": [
+    "racetrack",
+    "a racing turf"
   ]
 };

@@ -1,0 +1,36 @@
+{
+  "batch": 279,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Truss",
+      "text": "To see a truss in your dream, your ill health and unfortunate business engagements are predicted.",
+      "note": "기존 rupture(탈장) 상징에 문맥 1개 추가 — 새 이름 「탈장대」가 「탈장」을 품어(§25 곁가지) 그 상징에 합쳤다"
+    },
+    {
+      "headword": "Trusts",
+      "text": "To dream of trusts, foretells indifferent success in trade or law.\n\nIf you imagine you are a member of a trust, you will be successful in designs of a speculative nature.",
+      "note": "새 상징 trusts(트러스트)"
+    },
+    {
+      "headword": "Tub",
+      "text": "To dream of seeing a tub full of water, denotes domestic contentment.\nAn empty tub proclaims unhappiness and waning of fortune.\n\nA broken tub, foretells family disagreements and quarrels.",
+      "note": "새 상징 tub(목욕통)"
+    },
+    {
+      "headword": "Tumble",
+      "text": "To dream that you tumble off of any thing, denotes that you are given to carelessness, and should strive to be prompt with your affairs.\n\nTo see others tumbliing,{sic} is a sign that you will profit by the negligence of others.",
+      "note": "기존 fall(추락) 상징에 문맥 2개 추가 — 이미 별칭 「굴러떨어」를 쥐고 있어 새 이름을 세우면 겹쳤다"
+    },
+    {
+      "headword": "Tunnel",
+      "text": "To dream of going through a tunnel is bad for those in business and in love.\n\nTo see a train coming towards you while in a tunnel, foretells ill health and change in occupation.\n\nTo pass through a tunnel in a car, denotes unsatisfactory business, and much unpleasant and expensive travel.\n\nTo see a tunnel caving in, portends failure and malignant enemies.\n\nTo look into one, denotes that you will soon be compelled to face a desperate issue.",
+      "note": "새 상징 tunnel(터널)"
+    },
+    {
+      "headword": "Turf",
+      "text": "To dream of a racing turf, signifies that you will have pleasure and wealth at your command, but your morals will be questioned by your most intimate friends.\n\nTo see a green turf, indicates that interesting affairs will hold your attention.",
+      "note": "새 상징 경마장(racetrack) — 첫 문장만. 둘째 문장(푸른 잔디를 봄)은 기존 grass(풀)의 「푸른 풀밭을 봄」과 같은 그림이라 §31로 건너뜀. 「잔디」는 이미 grass의 별칭이라(§25 곁가지) 경마·도박이라는 다른 그림에는 「경마장」으로 이름을 갈랐다"
+    }
+  ]
+}

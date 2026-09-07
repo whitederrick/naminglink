@@ -1,0 +1,212 @@
+[
+  {
+    "term_ko": "탈장",
+    "term_en": "rupture",
+    "context": "탈장대(지지대)를 봄",
+    "interpretation_ko": "몸이 편치 않고 사업이 사나워질 조짐",
+    "interpretation_en": "your ill health and unfortunate business engagements are predicted",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Truss",
+      "original": "To see a truss in your dream, your ill health and unfortunate business engagements are predicted.",
+      "translation_ko": "탈장대를 보는 꿈은, 몸이 편치 않고 사업이 사나워질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "트러스트",
+    "term_en": "trusts",
+    "context": "트러스트 꿈을 꿈",
+    "interpretation_ko": "장사나 소송에서 그저 그런 성과를 예고",
+    "interpretation_en": "foretells indifferent success in trade or law",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Trusts",
+      "original": "To dream of trusts, foretells indifferent success in trade or law.",
+      "translation_ko": "트러스트 꿈을 꾸면, 장사나 소송에서 그저 그런 성과를 예고한다"
+    }
+  },
+  {
+    "term_ko": "트러스트",
+    "term_en": "trusts",
+    "context": "스스로 트러스트의 일원이라 여김",
+    "interpretation_ko": "투기성 계획에서 성공할 조짐",
+    "interpretation_en": "you will be successful in designs of a speculative nature",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Trusts",
+      "original": "If you imagine you are a member of a trust, you will be successful in designs of a speculative nature.",
+      "translation_ko": "스스로 트러스트의 일원이라 여기는 꿈은, 투기성 계획에서 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목욕통",
+    "term_en": "tub",
+    "context": "물이 가득 찬 목욕통을 봄",
+    "interpretation_ko": "집안이 화목할 조짐",
+    "interpretation_en": "denotes domestic contentment",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tub",
+      "original": "To dream of seeing a tub full of water, denotes domestic contentment.",
+      "translation_ko": "물이 가득 찬 목욕통을 보는 꿈은, 집안이 화목할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목욕통",
+    "term_en": "tub",
+    "context": "빈 목욕통을 봄",
+    "interpretation_ko": "불행과 운수가 기울 조짐",
+    "interpretation_en": "proclaims unhappiness and waning of fortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tub",
+      "original": "An empty tub proclaims unhappiness and waning of fortune.",
+      "translation_ko": "빈 목욕통을 보는 꿈은, 불행과 운수가 기울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목욕통",
+    "term_en": "tub",
+    "context": "부서진 목욕통을 봄",
+    "interpretation_ko": "집안 다툼과 불화의 조짐",
+    "interpretation_en": "foretells family disagreements and quarrels",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tub",
+      "original": "A broken tub, foretells family disagreements and quarrels.",
+      "translation_ko": "부서진 목욕통을 보는 꿈은, 집안 다툼과 불화의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "추락",
+    "term_en": "fall",
+    "context": "무언가에서 굴러떨어짐",
+    "interpretation_ko": "부주의한 성정을 드러내니 매사에 서둘러 처리하려 애써야 할 조짐",
+    "interpretation_en": "denotes that you are given to carelessness, and should strive to be prompt with your affairs",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tumble",
+      "original": "To dream that you tumble off of any thing, denotes that you are given to carelessness, and should strive to be prompt with your affairs.",
+      "translation_ko": "무언가에서 굴러떨어지는 꿈은, 부주의한 성정을 드러내니 매사에 서둘러 처리하려 애써야 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "추락",
+    "term_en": "fall",
+    "context": "남이 굴러떨어지는 것을 봄",
+    "interpretation_ko": "남의 게으름 덕에 이득을 볼 조짐",
+    "interpretation_en": "is a sign that you will profit by the negligence of others",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tumble",
+      "original": "To see others tumbliing,{sic} is a sign that you will profit by the negligence of others.",
+      "translation_ko": "남이 굴러떨어지는 것을 보는 꿈은, 남의 게으름 덕에 이득을 볼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "터널",
+    "term_en": "tunnel",
+    "context": "터널을 지나감",
+    "interpretation_ko": "사업과 사랑 모두에 나쁜 조짐",
+    "interpretation_en": "is bad for those in business and in love",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tunnel",
+      "original": "To dream of going through a tunnel is bad for those in business and in love.",
+      "translation_ko": "터널을 지나가는 꿈은, 사업과 사랑 모두에 나쁜 조짐이다"
+    }
+  },
+  {
+    "term_ko": "터널",
+    "term_en": "tunnel",
+    "context": "터널 안에서 기차가 다가오는 것을 봄",
+    "interpretation_ko": "몸이 편치 않고 하는 일이 바뀔 조짐",
+    "interpretation_en": "foretells ill health and change in occupation",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tunnel",
+      "original": "To see a train coming towards you while in a tunnel, foretells ill health and change in occupation.",
+      "translation_ko": "터널 안에서 기차가 다가오는 것을 보는 꿈은, 몸이 편치 않고 하는 일이 바뀔 조짐이다"
+    }
+  },
+  {
+    "term_ko": "터널",
+    "term_en": "tunnel",
+    "context": "차를 타고 터널을 지나감",
+    "interpretation_ko": "사업이 뜻대로 안 되고 여행이 불쾌하며 돈이 많이 들 조짐",
+    "interpretation_en": "denotes unsatisfactory business, and much unpleasant and expensive travel",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tunnel",
+      "original": "To pass through a tunnel in a car, denotes unsatisfactory business, and much unpleasant and expensive travel.",
+      "translation_ko": "차를 타고 터널을 지나가는 꿈은, 사업이 뜻대로 안 되고 여행이 불쾌하며 돈이 많이 들 조짐이다"
+    }
+  },
+  {
+    "term_ko": "터널",
+    "term_en": "tunnel",
+    "context": "터널이 무너져 내리는 것을 봄",
+    "interpretation_ko": "실패와 사나운 적의 조짐",
+    "interpretation_en": "portends failure and malignant enemies",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tunnel",
+      "original": "To see a tunnel caving in, portends failure and malignant enemies.",
+      "translation_ko": "터널이 무너져 내리는 것을 보는 꿈은, 실패와 사나운 적의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "터널",
+    "term_en": "tunnel",
+    "context": "터널 안을 들여다봄",
+    "interpretation_ko": "머잖아 절박한 일에 맞서야 할 조짐",
+    "interpretation_en": "denotes that you will soon be compelled to face a desperate issue",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tunnel",
+      "original": "To look into one, denotes that you will soon be compelled to face a desperate issue.",
+      "translation_ko": "터널 안을 들여다보는 꿈은, 머잖아 절박한 일에 맞서야 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "경마장",
+    "term_en": "racetrack",
+    "context": "경마장 꿈을 꿈",
+    "interpretation_ko": "즐거움과 재물을 마음대로 누리나 가까운 벗들에게 품행을 의심받을 조짐",
+    "interpretation_en": "signifies that you will have pleasure and wealth at your command, but your morals will be questioned by your most intimate friends",
+    "polarity": "neutral",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Turf",
+      "original": "To dream of a racing turf, signifies that you will have pleasure and wealth at your command, but your morals will be questioned by your most intimate friends.",
+      "translation_ko": "경마장 꿈을 꾸면, 즐거움과 재물을 마음대로 누리나 가까운 벗들에게 품행을 의심받을 조짐이다"
+    }
+  }
+]

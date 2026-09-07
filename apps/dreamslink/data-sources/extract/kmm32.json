@@ -180,7 +180,10 @@
       "떨어졌다",
       "추락했다",
       "굴러떨어",
-      "떨어지는"
+      "떨어지는",
+      "굴러떨어졌다",
+      "굴러떨어지는",
+      "떨어져"
     ],
     "aliases_en": [
       "a fall",
@@ -188,11 +191,15 @@
     ],
     "contexts": {
       "떨어져 몹시 놀람": "놀랐 무서웠 아찔",
-      "떨어져 다침": "다쳤 다치 부러졌"
+      "떨어져 다침": "다쳤 다치 부러졌",
+      "무언가에서 굴러떨어짐": "무언가에서",
+      "남이 굴러떨어지는 것을 봄": "남이"
     },
     "contexts_en": {
       "떨어져 몹시 놀람": "frightened struggle eventually",
-      "떨어져 다침": "injured hardships loss"
+      "떨어져 다침": "injured hardships loss",
+      "무언가에서 굴러떨어짐": "carelessness prompt affairs",
+      "남이 굴러떨어지는 것을 봄": "others profit negligence"
     }
   },
   {

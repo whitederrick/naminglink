@@ -1,0 +1,87 @@
+[
+  {
+    "id": "trusts",
+    "aliases": [
+      "트러스트가",
+      "트러스트를",
+      "트러스트의"
+    ],
+    "aliases_en": [
+      "trusts",
+      "a trust"
+    ],
+    "contexts": {
+      "트러스트 꿈을 꿈": "그냥",
+      "스스로 트러스트의 일원이라 여김": "일원"
+    },
+    "contexts_en": {
+      "트러스트 꿈을 꿈": "indifferent trade law",
+      "스스로 트러스트의 일원이라 여김": "member speculative"
+    }
+  },
+  {
+    "id": "tub",
+    "aliases": [
+      "목욕통이",
+      "목욕통을"
+    ],
+    "aliases_en": [
+      "a tub",
+      "tubs"
+    ],
+    "contexts": {
+      "물이 가득 찬 목욕통을 봄": "가득",
+      "빈 목욕통을 봄": "비어",
+      "부서진 목욕통을 봄": "부서진"
+    },
+    "contexts_en": {
+      "물이 가득 찬 목욕통을 봄": "full water contentment",
+      "빈 목욕통을 봄": "empty unhappiness waning",
+      "부서진 목욕통을 봄": "broken family quarrels"
+    }
+  },
+  {
+    "id": "tunnel",
+    "aliases": [
+      "터널이",
+      "터널을",
+      "터널에"
+    ],
+    "aliases_en": [
+      "a tunnel",
+      "tunnels"
+    ],
+    "contexts": {
+      "터널을 지나감": "그냥",
+      "터널 안에서 기차가 다가오는 것을 봄": "기차가 다가",
+      "차를 타고 터널을 지나감": "차를 타고",
+      "터널이 무너져 내리는 것을 봄": "무너져",
+      "터널 안을 들여다봄": "들여다"
+    },
+    "contexts_en": {
+      "터널을 지나감": "going business love",
+      "터널 안에서 기차가 다가오는 것을 봄": "train coming ill health",
+      "차를 타고 터널을 지나감": "pass car unsatisfactory expensive",
+      "터널이 무너져 내리는 것을 봄": "caving portends malignant",
+      "터널 안을 들여다봄": "look desperate compelled"
+    }
+  },
+  {
+    "id": "racetrack",
+    "aliases": [
+      "경마장이",
+      "경마장을",
+      "경마장에"
+    ],
+    "aliases_en": [
+      "racetrack",
+      "a racing turf"
+    ],
+    "contexts": {
+      "경마장 꿈을 꿈": "그냥"
+    },
+    "contexts_en": {
+      "경마장 꿈을 꿈": "pleasure wealth morals questioned"
+    }
+  }
+]

@@ -56,19 +56,25 @@
     "aliases": [
       "탈장",
       "탈장되었다",
-      "탈장된"
+      "탈장된",
+      "탈장대가",
+      "탈장대를"
     ],
     "aliases_en": [
       "a rupture",
-      "ruptured"
+      "ruptured",
+      "a truss",
+      "trusses"
     ],
     "contexts": {
       "자신이 탈장됨": "자신이 몸의이상 불쾌한다툼",
-      "남이 탈장된 것을 봄": "남이 화해하기힘든 다툼에휘말"
+      "남이 탈장된 것을 봄": "남이 화해하기힘든 다툼에휘말",
+      "탈장대(지지대)를 봄": "탈장대"
     },
     "contexts_en": {
       "자신이 탈장됨": "physical disorders contentions",
-      "남이 탈장된 것을 봄": "others irreconcilable quarrels"
+      "남이 탈장된 것을 봄": "others irreconcilable quarrels",
+      "탈장대(지지대)를 봄": "unfortunate engagements predicted"
     }
   },
   {
