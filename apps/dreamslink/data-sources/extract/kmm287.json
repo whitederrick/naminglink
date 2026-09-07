@@ -1,0 +1,38 @@
+[
+  {
+    "id": "veil",
+    "aliases": [
+      "베일이",
+      "베일을",
+      "베일에"
+    ],
+    "aliases_en": [
+      "a veil",
+      "veils",
+      "bridal veil",
+      "mourning veil"
+    ],
+    "contexts": {
+      "스스로 베일을 씀": "그냥",
+      "남들이 베일을 쓴 것을 봄": "남들이",
+      "낡거나 찢어진 베일을 봄": "낡거나 찢어진",
+      "처녀가 베일을 잃음": "잃었",
+      "신부의 베일을 봄": "신부의",
+      "처녀가 신부 베일을 씀": "처녀가",
+      "신부 베일이 헐거워지거나 무슨 일이 생김": "헐거워지 사고",
+      "베일을 벗어 던짐": "던졌",
+      "상복 베일 꿈을 꿈": "상복"
+    },
+    "contexts_en": {
+      "스스로 베일을 씀": "sincere lover stratagem",
+      "남들이 베일을 쓴 것을 봄": "others maligned defamed",
+      "낡거나 찢어진 베일을 봄": "old torn deceit sinister",
+      "처녀가 베일을 잃음": "loses sees through retaliate",
+      "신부의 베일을 봄": "successful change happiness",
+      "처녀가 신부 베일을 씀": "wears lasting profit enjoyment",
+      "신부 베일이 헐거워지거나 무슨 일이 생김": "loose accident sadness pain",
+      "베일을 벗어 던짐": "throw aside separation disgrace",
+      "상복 베일 꿈을 꿈": "distress embarrassment business"
+    }
+  }
+]

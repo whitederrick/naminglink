@@ -210,6 +210,7 @@
     "m284.json",
     "m285.json",
     "m286.json",
+    "m287.json",
     "m29.json",
     "m3.json",
     "m30.json",
@@ -26544,6 +26545,151 @@
               "locator": "Shaving",
               "original": "If she dreams of being shaved, she will assume so much masculinity that men will turn from her in disgust.",
               "translation_ko": "여성이 자신이 면도당하는 꿈을 꾸면, 남성스러움이 지나쳐 남자들이 정떨어져 돌아설 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "veil",
+      "term_ko": "베일",
+      "term_en": "veil",
+      "aliases": [
+        "베일이",
+        "베일을",
+        "베일에"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 베일을 씀",
+          "interpretation_ko": "연인에게 온전히 진실하지 못하고 그를 붙잡으려 술수를 써야 할 조짐",
+          "interpretation_en": "denotes that you will not be perfectly sincere with your lover, and you will be forced to use stratagem to retain him",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veil",
+              "original": "To dream that you wear a veil, denotes that you will not be perfectly sincere with your lover, and you will be forced to use stratagem to retain him.",
+              "translation_ko": "스스로 베일을 쓰는 꿈은, 연인에게 온전히 진실하지 못하고 그를 붙잡으려 술수를 써야 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 베일을 쓴 것을 봄",
+          "interpretation_ko": "겉으로만 벗인 이들에게 헐뜯기고 명예가 더럽혀질 조짐",
+          "interpretation_en": "you will be maligned and defamed by apparent friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veil",
+              "original": "To see others wearing veils, you will be maligned and defamed by apparent friends.",
+              "translation_ko": "남들이 베일을 쓴 것을 보는 꿈은, 겉으로만 벗인 이들에게 헐뜯기고 명예가 더럽혀질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "낡거나 찢어진 베일을 봄",
+          "interpretation_ko": "음흉한 속셈으로 속임수가 자신을 둘러싸고 있음을 경고",
+          "interpretation_en": "warns you that deceit is being thrown around you with sinister design",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veil",
+              "original": "An old, or torn veil, warns you that deceit is being thrown around you with sinister design.",
+              "translation_ko": "낡거나 찢어진 베일을 보는 꿈은, 음흉한 속셈으로 속임수가 자신을 둘러싸고 있음을 경고한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 베일을 잃음",
+          "interpretation_ko": "연인이 자신의 거짓됨을 꿰뚫어 보고 똑같이 되갚을 조짐",
+          "interpretation_en": "denotes that her lover sees through her deceitful ways and is likely to retaliate with the same",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veil",
+              "original": "For a young woman to dream that she loses her veil, denotes that her lover sees through her deceitful ways and is likely to retaliate with the same.",
+              "translation_ko": "처녀가 베일을 잃는 꿈은, 연인이 자신의 거짓됨을 꿰뚫어 보고 똑같이 되갚을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "신부의 베일을 봄",
+          "interpretation_ko": "머잖아 성공적인 변화를 맞고 자리도 크게 즐거워질 조짐",
+          "interpretation_en": "foretells that you will make a successful change in the immediate future, and much happiness in your position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veil",
+              "original": "To dream of seeing a bridal veil, foretells that you will make a successful change in the immediate future, and much happiness in your position.",
+              "translation_ko": "신부의 베일을 보는 꿈은, 머잖아 성공적인 변화를 맞고 자리도 크게 즐거워질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 신부 베일을 씀",
+          "interpretation_ko": "오래도록 이득과 즐거움을 안길 일에 나설 조짐",
+          "interpretation_en": "denotes that she will engage in some affair which will afford her lasting profit and enjoyment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veil",
+              "original": "For a young woman to dream that she wears a bridal veil, denotes that she will engage in some affair which will afford her lasting profit and enjoyment.",
+              "translation_ko": "처녀가 신부 베일을 쓰는 꿈은, 오래도록 이득과 즐거움을 안길 일에 나설 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "신부 베일이 헐거워지거나 무슨 일이 생김",
+          "interpretation_ko": "슬픔과 아픔을 짊어질 조짐",
+          "interpretation_en": "she will be burdened with sadness and pain",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veil",
+              "original": "If it gets loose, or any accident befalls it, she will be burdened with sadness and pain.",
+              "translation_ko": "신부 베일이 헐거워지거나 무슨 일이 생기는 꿈은, 슬픔과 아픔을 짊어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "베일을 벗어 던짐",
+          "interpretation_ko": "헤어짐이나 망신을 가리키는 조짐",
+          "interpretation_en": "indicates separation or disgrace",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veil",
+              "original": "To throw a veil aside, indicates separation or disgrace.",
+              "translation_ko": "베일을 벗어 던지는 꿈은, 헤어짐이나 망신을 가리키는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "상복 베일 꿈을 꿈",
+          "interpretation_ko": "괴로움과 말썽, 그리고 사업에서의 곤란을 뜻하는 조짐",
+          "interpretation_en": "signifies distress and trouble, and embarrassment in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veil",
+              "original": "To see mourning veils in your dreams, signifies distress and trouble, and embarrassment in business.",
+              "translation_ko": "상복 베일 꿈을 꾸면, 괴로움과 말썽, 그리고 사업에서의 곤란을 뜻하는 조짐이다"
             }
           ]
         }

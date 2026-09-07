@@ -6329,5 +6329,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "vase::깨진 꽃병을 봄": "broken early sorrow",
   "vase::처녀가 꽃병을 받음": "receive dearest wish",
   "vat::큰 통 꿈을 꿈": "anguish cruel unwittingly",
-  "vatican::바티칸 꿈을 꿈": "unexpected favors distinguished"
+  "vatican::바티칸 꿈을 꿈": "unexpected favors distinguished",
+  "veil::스스로 베일을 씀": "sincere lover stratagem",
+  "veil::남들이 베일을 쓴 것을 봄": "others maligned defamed",
+  "veil::낡거나 찢어진 베일을 봄": "old torn deceit sinister",
+  "veil::처녀가 베일을 잃음": "loses sees through retaliate",
+  "veil::신부의 베일을 봄": "successful change happiness",
+  "veil::처녀가 신부 베일을 씀": "wears lasting profit enjoyment",
+  "veil::신부 베일이 헐거워지거나 무슨 일이 생김": "loose accident sadness pain",
+  "veil::베일을 벗어 던짐": "throw aside separation disgrace",
+  "veil::상복 베일 꿈을 꿈": "distress embarrassment business"
 };

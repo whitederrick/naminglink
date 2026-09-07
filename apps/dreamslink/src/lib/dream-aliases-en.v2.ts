@@ -8195,5 +8195,11 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "vatican": [
     "vatican",
     "the vatican"
+  ],
+  "veil": [
+    "a veil",
+    "veils",
+    "bridal veil",
+    "mourning veil"
   ]
 };
