@@ -214,6 +214,7 @@
     "m288.json",
     "m289.json",
     "m29.json",
+    "m290.json",
     "m3.json",
     "m30.json",
     "m31.json",
@@ -45495,6 +45496,95 @@
       ]
     },
     {
+      "id": "adder",
+      "term_ko": "독사",
+      "term_en": "adder",
+      "aliases": [
+        "살무사",
+        "독뱀",
+        "독을 가진 뱀"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "독사가 죽은 듯 누워 숨쉬던 친구를 물고, 그 친구가 일어나 앉으려다 둘 다 덤불 속으로 사라짐",
+          "interpretation_ko": "친구들의 불운에 크게 상심하고 자신에게도 손실이 닥칠 조짐",
+          "interpretation_en": "you will be greatly distressed over the ill luck of friends, and a loss threatened to yourself",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Adder",
+              "original": "To dream of seeing an adder strike, and a friend, who is dead but seems to be lying down and breathing, rises partly to a sitting position when the adder strikes at him, and then both disappearing into some bushes nearby, denotes that you will be greatly distressed over the ill luck of friends, and a loss threatened to yourself.",
+              "translation_ko": "독사가 죽은 듯 누워 숨쉬던 친구를 물고, 그 친구가 일어나 앉으려다 둘 다 덤불 속으로 사라지는 꿈을 꾸면 친구들의 불운에 크게 상심하고 자신에게도 손실이 닥칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 독사를 봄",
+          "interpretation_ko": "기만적인 사람이 자신에게 곤란을 일으킬 조짐",
+          "interpretation_en": "a deceitful person is going to cause her trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Adder",
+              "original": "For a young woman to see an adder, foretells a deceitful person is going to cause her trouble.",
+              "translation_ko": "젊은 여성이 독사를 보면 기만적인 사람이 자신에게 곤란을 일으킬 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "독사가 그녀에게서 달아남",
+          "interpretation_ko": "자신에게 가해지는 공격에서 스스로의 평판을 지켜낼 수 있을 조짐",
+          "interpretation_en": "she will be able to defend her character in attacks made on her",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Adder",
+              "original": "If it runs from her, she will be able to defend her character in attacks made on her.",
+              "translation_ko": "독사가 그녀에게서 달아나면 자신에게 가해지는 공격에서 스스로의 평판을 지켜낼 수 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "독사 꿈을 꿈",
+          "interpretation_ko": "재앙이 다가오고 있다는 흉한 조짐",
+          "interpretation_en": "foretells that calamities are threatening you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Viper",
+              "original": "To dream of a viper, foretells that calamities are threatening you.",
+              "translation_ko": "독사 꿈은, 재앙이 다가오고 있다는 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여러 조각으로 나뉘는 알록달록한 독사가 공격함",
+          "interpretation_ko": "적들이 저를 파멸시키려 작정하고, 따로따로면서도 하나가 되어 저를 몰아내려 할 조짐",
+          "interpretation_en": "denotes that your enemies are bent on your ruin and will work unitedly, yet apart, to displace you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Viper",
+              "original": "To dream that a many-hued viper, and capable of throwing itself into many pieces, or unjointing itself, attacks you, denotes that your enemies are bent on your ruin and will work unitedly, yet apart, to displace you.",
+              "translation_ko": "여러 조각으로 나뉘거나 마디를 풀 수 있는 알록달록한 독사가 저를 공격하는 꿈은, 적들이 저를 파멸시키려 작정하고 따로따로면서도 하나가 되어 저를 몰아내려 할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "adultery",
       "term_ko": "간통",
       "term_en": "adultery",
@@ -62311,6 +62401,81 @@
       ]
     },
     {
+      "id": "fiddle",
+      "term_ko": "바이올린",
+      "term_en": "fiddle",
+      "aliases": [
+        "바이올린을",
+        "바이올린이",
+        "깽깽이"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "바이올린을 봄",
+          "interpretation_ko": "집안이 화목하고 밖에서도 기쁜 일이 많을 길한 조짐",
+          "interpretation_en": "foretells harmony in the home and many joyful occasions abroad",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fiddle",
+              "original": "To dream of a fiddle, foretells harmony in the home and many joyful occasions abroad.",
+              "translation_ko": "바이올린 꿈은, 집안의 화목과 밖에서 있을 많은 기쁜 일을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 바이올린을 연주함",
+          "interpretation_ko": "명예를 얻고 후한 선물을 받을 길한 조짐",
+          "interpretation_en": "denotes that she will be honored and receive lavish gifts",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Violin",
+              "original": "For a young woman to play on one in her dreams, denotes that she will be honored and receive lavish gifts.",
+              "translation_ko": "젊은 여성이 바이올린을 연주하는 꿈은, 명예를 얻고 후한 선물을 받을 길한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성의 바이올린 연주 시도가 서투름",
+          "interpretation_ko": "호의를 잃고 결코 가질 수 없는 것을 바라게 될 흉한 조짐",
+          "interpretation_en": "she will lose favor, and aspire to things she never can possess",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Violin",
+              "original": "If her attempt to play is unsuccessful, she will lose favor, and aspire to things she never can possess.",
+              "translation_ko": "여성의 바이올린 연주 시도가 서투르면, 호의를 잃고 결코 가질 수 없는 것을 바라게 될 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 바이올린을 봄",
+          "interpretation_ko": "슬픈 사별과 이별을 알리는 흉한 조짐",
+          "interpretation_en": "indicates sad bereavement and separation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Violin",
+              "original": "A broken one, indicates sad bereavement and separation.",
+              "translation_ko": "부서진 바이올린을 보는 꿈은, 슬픈 사별과 이별을 알리는 흉한 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "fishing",
       "term_ko": "낚시",
       "term_en": "fishing",
@@ -71419,6 +71584,83 @@
       ]
     },
     {
+      "id": "virgin",
+      "term_ko": "순결",
+      "term_en": "virgin",
+      "aliases": [
+        "숫처녀",
+        "처녀성",
+        "정조",
+        "순결한",
+        "순결하다고"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "순결한 사람 꿈을 꿈",
+          "interpretation_ko": "투기에서 비교적 운이 따를 조짐",
+          "interpretation_en": "denotes that you will have comparative luck in your speculations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Virgin",
+              "original": "To dream of a virgin, denotes that you will have comparative luck in your speculations.",
+              "translation_ko": "순결한 사람 꿈은, 투기에서 비교적 운이 따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "기혼 여성이 스스로 순결하다고 여김",
+          "interpretation_ko": "지난날을 뉘우치게 되고 앞날에도 나아질 기약이 없을 흉한 조짐",
+          "interpretation_en": "foretells that she will suffer remorse over her past, and the future will hold no promise of better things",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Virgin",
+              "original": "For a married woman to dream that she is a virgin, foretells that she will suffer remorse over her past, and the future will hold no promise of better things.",
+              "translation_ko": "기혼 여성이 스스로 순결하다고 여기는 꿈은, 지난날을 뉘우치게 되고 앞날에도 나아질 기약이 없을 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "미혼 여성이 순결을 잃었다고 여김",
+          "interpretation_ko": "남자 친구들과 조심성 없이 지내 평판을 크게 잃을 위험에 처할 조짐",
+          "interpretation_en": "foretells that she will run great risk of losing her reputation by being indiscreet with her male friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Virgin",
+              "original": "For a young woman to dream that she is no longer a virgin, foretells that she will run great risk of losing her reputation by being indiscreet with her male friends.",
+              "translation_ko": "미혼 여성이 순결을 잃었다고 여기는 꿈은, 남자 친구들과 조심성 없이 지내 평판을 크게 잃을 위험에 처할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남성이 순결한 이와 부적절한 관계를 맺는 꿈을 꿈",
+          "interpretation_ko": "일을 이루지 못하고 남들의 하소연으로 큰 근심에 시달리며 부당한 관계로 뜻이 꺾일 흉한 조짐",
+          "interpretation_en": "denotes that he will fail to accomplish an enterprise, and much worry will be caused him by the appeals of people. His aspirations will be foiled through unwarranted associations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Virgin",
+              "original": "For a man to dream of illicit association with a virgin, denotes that he will fail to accomplish an enterprise, and much worry will be caused him by the appeals of people. His aspirations will be foiled through unwarranted associations.",
+              "translation_ko": "남성이 순결한 이와 부적절한 관계를 맺는 꿈은, 일을 이루지 못하고 남들의 하소연으로 큰 근심에 시달리며 부당한 관계로 뜻이 꺾일 흉한 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wealth",
       "term_ko": "재물",
       "term_en": "wealth",
@@ -72010,67 +72252,6 @@
         }
       ],
       "label_ko": "산(산성)"
-    },
-    {
-      "id": "adder",
-      "term_ko": "독사",
-      "term_en": "adder",
-      "aliases": [
-        "살무사",
-        "독뱀",
-        "독을 가진 뱀"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "독사가 죽은 듯 누워 숨쉬던 친구를 물고, 그 친구가 일어나 앉으려다 둘 다 덤불 속으로 사라짐",
-          "interpretation_ko": "친구들의 불운에 크게 상심하고 자신에게도 손실이 닥칠 조짐",
-          "interpretation_en": "you will be greatly distressed over the ill luck of friends, and a loss threatened to yourself",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Adder",
-              "original": "To dream of seeing an adder strike, and a friend, who is dead but seems to be lying down and breathing, rises partly to a sitting position when the adder strikes at him, and then both disappearing into some bushes nearby, denotes that you will be greatly distressed over the ill luck of friends, and a loss threatened to yourself.",
-              "translation_ko": "독사가 죽은 듯 누워 숨쉬던 친구를 물고, 그 친구가 일어나 앉으려다 둘 다 덤불 속으로 사라지는 꿈을 꾸면 친구들의 불운에 크게 상심하고 자신에게도 손실이 닥칠 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "젊은 여성이 독사를 봄",
-          "interpretation_ko": "기만적인 사람이 자신에게 곤란을 일으킬 조짐",
-          "interpretation_en": "a deceitful person is going to cause her trouble",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Adder",
-              "original": "For a young woman to see an adder, foretells a deceitful person is going to cause her trouble.",
-              "translation_ko": "젊은 여성이 독사를 보면 기만적인 사람이 자신에게 곤란을 일으킬 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "독사가 그녀에게서 달아남",
-          "interpretation_ko": "자신에게 가해지는 공격에서 스스로의 평판을 지켜낼 수 있을 조짐",
-          "interpretation_en": "she will be able to defend her character in attacks made on her",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Adder",
-              "original": "If it runs from her, she will be able to defend her character in attacks made on her.",
-              "translation_ko": "독사가 그녀에게서 달아나면 자신에게 가해지는 공격에서 스스로의 평판을 지켜낼 수 있을 조짐이다"
-            }
-          ]
-        }
-      ]
     },
     {
       "id": "adulation",
@@ -90274,6 +90455,67 @@
               "locator": "Vinegar",
               "original": "To dream of vinegar at all times, denotes inharmonious and unfavorable aspects.",
               "translation_ko": "때를 가리지 않고 식초 꿈을 꾸면, 어긋나고 마뜩잖은 기운이 감도는 흉한 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "violets",
+      "term_ko": "제비꽃",
+      "term_en": "violets",
+      "aliases": [
+        "제비꽃이",
+        "제비꽃을",
+        "오랑캐꽃"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제비꽃을 보거나 땀",
+          "interpretation_ko": "훌륭한 이의 호의를 얻을 즐거운 일이 있을 길한 조짐",
+          "interpretation_en": "brings joyous occasions in which you will find favor with some superior person",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Violets",
+              "original": "To see violets in your dreams, or gather them, brings joyous occasions in which you will find favor with some superior person.",
+              "translation_ko": "제비꽃을 보거나 따는 꿈은, 훌륭한 이의 호의를 얻을 즐거운 일이 있을 길한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 제비꽃을 땀",
+          "interpretation_ko": "머잖아 미래의 남편을 만날 길한 조짐",
+          "interpretation_en": "denotes that she will soon meet her future husband",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Violets",
+              "original": "For a young woman to gather them, denotes that she will soon meet her future husband.",
+              "translation_ko": "젊은 여성이 제비꽃을 따는 꿈은, 머잖아 미래의 남편을 만날 길한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "시들거나 마른 제비꽃을 봄",
+          "interpretation_ko": "사랑이 업신여겨져 버림받을 흉한 조짐",
+          "interpretation_en": "denotes that her love will be scorned and thrown aside",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Violets",
+              "original": "To see them dry, or withered, denotes that her love will be scorned and thrown aside.",
+              "translation_ko": "시들거나 마른 제비꽃을 보는 꿈은, 사랑이 업신여겨져 버림받을 흉한 조짐이다"
             }
           ]
         }
@@ -119281,6 +119523,53 @@
       ]
     },
     {
+      "id": "violence",
+      "term_ko": "폭력",
+      "term_en": "violence",
+      "aliases": [
+        "폭력이",
+        "폭력을",
+        "폭행"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 남에게 폭력을 당함",
+          "interpretation_ko": "적에게 압도당할 조짐",
+          "interpretation_en": "denotes that you will be overcome by enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Violence",
+              "original": "To dream that any person does you violence, denotes that you will be overcome by enemies.",
+              "translation_ko": "제가 남에게 폭력을 당하는 꿈은, 적에게 압도당할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제가 남에게 폭력을 씀",
+          "interpretation_ko": "일을 그르게 행하여 재물과 호의를 잃을 조짐",
+          "interpretation_en": "you will lose fortune and favor by your reprehensible way of conducting your affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Violence",
+              "original": "If you do some other persons violence, you will lose fortune and favor by your reprehensible way of conducting your affairs.",
+              "translation_ko": "제가 남에게 폭력을 쓰는 꿈은, 일을 그르게 행하여 재물과 호의를 잃을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "washing-one-s-hair",
       "term_ko": "머리 감기",
       "term_en": "washing one's hair",
@@ -125478,39 +125767,6 @@
               "locator": "飲食酒肉瓜菜",
               "original": "食油鹽醬酸豉吉",
               "translation_ko": "기름·소금·장·신 메주를 먹으면 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fiddle",
-      "term_ko": "바이올린",
-      "term_en": "fiddle",
-      "aliases": [
-        "바이올린을",
-        "바이올린이",
-        "깽깽이"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "바이올린을 봄",
-          "interpretation_ko": "집안이 화목하고 밖에서도 기쁜 일이 많을 길한 조짐",
-          "interpretation_en": "foretells harmony in the home and many joyful occasions abroad",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fiddle",
-              "original": "To dream of a fiddle, foretells harmony in the home and many joyful occasions abroad.",
-              "translation_ko": "바이올린 꿈은, 집안의 화목과 밖에서 있을 많은 기쁜 일을 알린다"
             }
           ]
         }

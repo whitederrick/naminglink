@@ -10,8 +10,18 @@
       "a fiddle",
       "fiddles"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "바이올린을 봄": "그냥",
+      "젊은 여성이 바이올린을 연주함": "명예 선물",
+      "여성의 바이올린 연주 시도가 서투름": "서투 실패",
+      "부서진 바이올린을 봄": "부서진"
+    },
+    "contexts_en": {
+      "바이올린을 봄": "harmony joyful",
+      "젊은 여성이 바이올린을 연주함": "honored lavish gifts",
+      "여성의 바이올린 연주 시도가 서투름": "unsuccessful lose favor",
+      "부서진 바이올린을 봄": "broken bereavement separation"
+    }
   },
   {
     "id": "fiend",

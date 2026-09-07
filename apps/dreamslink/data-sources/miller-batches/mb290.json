@@ -1,0 +1,31 @@
+{
+  "batch": 290,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Violence",
+      "text": "To dream that any person does you violence, denotes that you will be overcome by enemies.\n\nIf you do some other persons violence, you will lose fortune and favor by your reprehensible way of conducting your affairs.",
+      "note": "새 상징 violence(폭력)"
+    },
+    {
+      "headword": "Violets",
+      "text": "To see violets in your dreams, or gather them, brings joyous occasions in which you will find favor with some superior person.\n\nFor a young woman to gather them, denotes that she will soon meet her future husband.\n\nTo see them dry, or withered, denotes that her love will be scorned and thrown aside.",
+      "note": "새 상징 violets(제비꽃)"
+    },
+    {
+      "headword": "Violin",
+      "text": "To see, or hear a violin in dreams, foretells harmony and peace in the family, and financial affairs will cause no apprehension.\n\nFor a young woman to play on one in her dreams, denotes that she will be honored and receive lavish gifts.\n\nIf her attempt to play is unsuccessful, she will lose favor, and aspire to things she never can possess.\n\nA broken one, indicates sad bereavement and separation.",
+      "note": "기존 fiddle(바이올린) 상징에 문맥 셋을 붙였다 — 첫 문장은 기존 「바이올린을 봄」(Fiddle 표제어, 집안 화목·길조)과 같은 그림이라 §31로 건너뜀"
+    },
+    {
+      "headword": "Viper",
+      "text": "To dream of a viper, foretells that calamities are threatening you.\nTo dream that a many-hued viper, and capable of throwing itself into many pieces, or unjointing itself, attacks you, denotes that your enemies are bent on your ruin and will work unitedly, yet apart, to displace you.",
+      "note": "기존 adder(독사) 상징에 문맥 둘을 붙였다 — adder의 영어 별칭에 이미 \"viper\"가 있어(snake·asp도 마찬가지로 쥐고 있음) 새 상징을 세우지 않고 adder에 합쳤다"
+    },
+    {
+      "headword": "Virgin",
+      "text": "To dream of a virgin, denotes that you will have comparative luck in your speculations.  For a married woman to dream that she is a virgin, foretells that she will suffer remorse over her past, and the future will hold no promise of better things.\n\nFor a young woman to dream that she is no longer a virgin, foretells that she will run great risk of losing her reputation by being indiscreet with her male friends.\n\nFor a man to dream of illicit association with a virgin, denotes that he will fail to accomplish an enterprise, and much worry will be caused him by the appeals of people. His aspirations will be foiled through unwarranted associations.",
+      "note": "새 상징 virgin(순결) — term_ko를 \"처녀\"로 하면 이 사전 전체에서 \"처녀가 ~\"로 시작하는 수백 개 문맥과 무관하게 아무 문장에나 걸릴 위험이 있어(그 낱말은 어느 상징에도 등록돼 있지 않다) 더 구체적인 \"순결\"로 세우고 \"동정\"은 \"동정심\"(공감)과 동형이의어라 별칭에서 뺐다"
+    }
+  ]
+}

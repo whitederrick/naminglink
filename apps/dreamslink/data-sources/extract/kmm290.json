@@ -1,0 +1,71 @@
+[
+  {
+    "id": "violence",
+    "aliases": [
+      "폭력이",
+      "폭력을",
+      "폭행"
+    ],
+    "aliases_en": [
+      "violence",
+      "violent"
+    ],
+    "contexts": {
+      "제가 남에게 폭력을 당함": "당함 적에게",
+      "제가 남에게 폭력을 씀": "그르게 재물"
+    },
+    "contexts_en": {
+      "제가 남에게 폭력을 당함": "overcome enemies",
+      "제가 남에게 폭력을 씀": "reprehensible fortune favor"
+    }
+  },
+  {
+    "id": "violets",
+    "aliases": [
+      "제비꽃이",
+      "제비꽃을",
+      "오랑캐꽃"
+    ],
+    "aliases_en": [
+      "violets",
+      "a violet"
+    ],
+    "contexts": {
+      "제비꽃을 보거나 땀": "훌륭한 호의",
+      "젊은 여성이 제비꽃을 땀": "미래의 남편",
+      "시들거나 마른 제비꽃을 봄": "시들거나 마른"
+    },
+    "contexts_en": {
+      "제비꽃을 보거나 땀": "joyous favor superior",
+      "젊은 여성이 제비꽃을 땀": "future husband meet",
+      "시들거나 마른 제비꽃을 봄": "dry withered scorned"
+    }
+  },
+  {
+    "id": "virgin",
+    "aliases": [
+      "숫처녀",
+      "처녀성",
+      "정조",
+      "순결한",
+      "순결하다고"
+    ],
+    "aliases_en": [
+      "virgin",
+      "a virgin",
+      "virginity"
+    ],
+    "contexts": {
+      "순결한 사람 꿈을 꿈": "투기 운이",
+      "기혼 여성이 스스로 순결하다고 여김": "기혼 뉘우",
+      "미혼 여성이 순결을 잃었다고 여김": "미혼 남자친구들",
+      "남성이 순결한 이와 부적절한 관계를 맺는 꿈을 꿈": "남성이 부적절"
+    },
+    "contexts_en": {
+      "순결한 사람 꿈을 꿈": "comparative luck speculations",
+      "기혼 여성이 스스로 순결하다고 여김": "married remorse past",
+      "미혼 여성이 순결을 잃었다고 여김": "reputation indiscreet",
+      "남성이 순결한 이와 부적절한 관계를 맺는 꿈을 꿈": "illicit unwarranted associations"
+    }
+  }
+]
