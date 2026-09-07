@@ -5989,5 +5989,21 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "tannery::스스로 무두장이가 됨": "tanner taste dependent",
   "tannery::가죽공장에서 가죽을 삼": "buy leather successful",
   "tape::테이프 꿈을 꿈": "wearisome unprofitable",
-  "tape::여성이 테이프를 삼": "buy misfortune oppression"
+  "tape::여성이 테이프를 삼": "buy misfortune oppression",
+  "tapestry::화려한 태피스트리를 봄": "luxurious liking gratify",
+  "tapestry::여성이 자기 방에 태피스트리가 걸려 있는 꿈을 꿈": "rooms hung wed",
+  "tar::타르를 봄": "pitfalls treacherous enemies",
+  "tar::손이나 옷에 타르가 묻음": "hands clothing sickness",
+  "tarantula::타란튤라를 봄": "enemies overwhelm loss",
+  "tarantula::타란튤라를 죽임": "kill successful ill-luck",
+  "target::과녁 꿈을 꿈": "affair demanding attention",
+  "target::여성이 스스로 과녁이 되었다고 여김": "reputation envy associates",
+  "tassels::술 장식을 봄": "height desires ambition",
+  "tassels::여성이 술 장식을 잃어버림": "lose unpleasant experience",
+  "tattoo::스스로의 몸에 문신이 새겨져 있는 것을 봄": "difficulty absence home",
+  "tattoo::남들의 몸에 새겨진 문신을 봄": "others jealousy",
+  "tattoo::스스로 문신가가 됨": "tattooist estrange friends",
+  "taxes::스스로 세금을 냄": "pay destroying evil",
+  "taxes::남들이 세금을 냄": "others aid friends",
+  "taxes::세금을 낼 수 없음": "unable unfortunate experiments"
 };

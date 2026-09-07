@@ -1,0 +1,154 @@
+[
+  {
+    "id": "tapestry",
+    "aliases": [
+      "태피스트리가",
+      "태피스트리를",
+      "벽걸이"
+    ],
+    "aliases_en": [
+      "tapestry",
+      "tapestries"
+    ],
+    "contexts": {
+      "화려한 태피스트리를 봄": "그냥",
+      "여성이 자기 방에 태피스트리가 걸려 있는 꿈을 꿈": "여성이 방에"
+    },
+    "contexts_en": {
+      "화려한 태피스트리를 봄": "luxurious liking gratify",
+      "여성이 자기 방에 태피스트리가 걸려 있는 꿈을 꿈": "rooms hung wed"
+    }
+  },
+  {
+    "id": "tapeworm",
+    "aliases": [
+      "촌충이",
+      "촌충을"
+    ],
+    "aliases_en": [
+      "tapeworm",
+      "a tapeworm"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "tar",
+    "aliases": [
+      "타르가",
+      "타르를"
+    ],
+    "aliases_en": [
+      "tar"
+    ],
+    "contexts": {
+      "타르를 봄": "그냥",
+      "손이나 옷에 타르가 묻음": "손이나 옷에"
+    },
+    "contexts_en": {
+      "타르를 봄": "pitfalls treacherous enemies",
+      "손이나 옷에 타르가 묻음": "hands clothing sickness"
+    }
+  },
+  {
+    "id": "tarantula",
+    "aliases": [
+      "타란튤라가",
+      "타란튤라를"
+    ],
+    "aliases_en": [
+      "tarantula",
+      "a tarantula"
+    ],
+    "contexts": {
+      "타란튤라를 봄": "그냥",
+      "타란튤라를 죽임": "죽였다 죽이는"
+    },
+    "contexts_en": {
+      "타란튤라를 봄": "enemies overwhelm loss",
+      "타란튤라를 죽임": "kill successful ill-luck"
+    }
+  },
+  {
+    "id": "target",
+    "aliases": [
+      "과녁이",
+      "과녁을"
+    ],
+    "aliases_en": [
+      "target",
+      "a target"
+    ],
+    "contexts": {
+      "과녁 꿈을 꿈": "그냥",
+      "여성이 스스로 과녁이 되었다고 여김": "여성이 되었다고"
+    },
+    "contexts_en": {
+      "과녁 꿈을 꿈": "affair demanding attention",
+      "여성이 스스로 과녁이 되었다고 여김": "reputation envy associates"
+    }
+  },
+  {
+    "id": "tassels",
+    "aliases": [
+      "술 장식이",
+      "술 장식을"
+    ],
+    "aliases_en": [
+      "tassels",
+      "a tassel"
+    ],
+    "contexts": {
+      "술 장식을 봄": "그냥",
+      "여성이 술 장식을 잃어버림": "잃어버렸다 잃어버린"
+    },
+    "contexts_en": {
+      "술 장식을 봄": "height desires ambition",
+      "여성이 술 장식을 잃어버림": "lose unpleasant experience"
+    }
+  },
+  {
+    "id": "tattoo",
+    "aliases": [
+      "문신이",
+      "문신을",
+      "문신가"
+    ],
+    "aliases_en": [
+      "tattoo",
+      "tattooed"
+    ],
+    "contexts": {
+      "스스로의 몸에 문신이 새겨져 있는 것을 봄": "그냥",
+      "남들의 몸에 새겨진 문신을 봄": "남들의",
+      "스스로 문신가가 됨": "문신가가"
+    },
+    "contexts_en": {
+      "스스로의 몸에 문신이 새겨져 있는 것을 봄": "difficulty absence home",
+      "남들의 몸에 새겨진 문신을 봄": "others jealousy",
+      "스스로 문신가가 됨": "tattooist estrange friends"
+    }
+  },
+  {
+    "id": "taxes",
+    "aliases": [
+      "세금을",
+      "세금이",
+      "세금을 낼"
+    ],
+    "aliases_en": [
+      "taxes",
+      "a tax"
+    ],
+    "contexts": {
+      "스스로 세금을 냄": "그냥",
+      "남들이 세금을 냄": "남들이",
+      "세금을 낼 수 없음": "돈이 없어"
+    },
+    "contexts_en": {
+      "스스로 세금을 냄": "pay destroying evil",
+      "남들이 세금을 냄": "others aid friends",
+      "세금을 낼 수 없음": "unable unfortunate experiments"
+    }
+  }
+]

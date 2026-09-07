@@ -7848,5 +7848,36 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "tape": [
     "tape",
     "a tape"
+  ],
+  "tapestry": [
+    "tapestry",
+    "tapestries"
+  ],
+  "tapeworm": [
+    "tapeworm",
+    "a tapeworm"
+  ],
+  "tar": [
+    "tar"
+  ],
+  "tarantula": [
+    "tarantula",
+    "a tarantula"
+  ],
+  "target": [
+    "target",
+    "a target"
+  ],
+  "tassels": [
+    "tassels",
+    "a tassel"
+  ],
+  "tattoo": [
+    "tattoo",
+    "tattooed"
+  ],
+  "taxes": [
+    "taxes",
+    "a tax"
   ]
 };

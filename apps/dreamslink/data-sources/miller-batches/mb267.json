@@ -1,0 +1,16 @@
+{
+  "batch": 267,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Tapestry", "text": "To dream of seeing rich tapestry, foretells that luxurious living will be to your liking, and if the tapestries are not worn or ragged, you will be able to gratify your inclinations.\n\nIf a young woman dreams that her rooms are hung with tapestry, she will soon wed some one who is rich and above her in standing.", "note": "새 상징 tapestry(벽걸이 태피스트리)" },
+    { "headword": "Tapeworm", "text": "To dream you see a tapeworm, or have one, denotes disagreeable prospects for health or for pleasure.", "note": "새 상징 tapeworm(촌충)" },
+    { "headword": "Tar", "text": "If you see tar in dreams, it warns you against pitfalls and designs of treacherous enemies.\n\nTo have tar on your hands or clothing, denotes sickness and grief.", "note": "새 상징 tar(타르)" },
+    { "headword": "Tarantula", "text": "To see a tarantula in your dream, signifies enemies are about to overwhelm you with loss.  To kill one, denotes you will be successful after much ill-luck.", "note": "새 상징 tarantula(타란튤라)" },
+    { "headword": "Target", "text": "To dream of a target, foretells you will have some affair demanding your attention from other more pleasant ones.\n\nFor a young woman to think she is a target, denotes her reputation is in danger through the envy of friendly associates.", "note": "새 상징 target(과녁)" },
+    { "headword": "Tassels", "text": "To see tassels in a dream, denotes you will reach the height of your desires and ambition.  For a young woman to lose them, denotes she will undergo some unpleasant experience.", "note": "새 상징 tassels(술 장식)" },
+    { "headword": "Tattoo", "text": "To see your body appearing tattooed, foretells that some difficulty will cause you to make a long and tedious absence from your home.\n\nTo see tattooes on others, foretells that strange loves will make you an object of jealousy.\n\nTo dream you are a tattooist, is a sign that you will estrange yourself from friends because of your fancy for some strange experience.", "note": "새 상징 tattoo(문신)" },
+    { "headword": "Taxes", "text": "To dream that you pay your taxes, foretells you will succeed in destroying evil influences rising around you.\n\nIf others pay them, you will be forced to ask aid of friends.\n\nIf you are unable to pay them, you will be unfortunate in experiments you are making.", "note": "새 상징 taxes(세금) — 20판 묶음(248~267)의 마지막 배치" }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

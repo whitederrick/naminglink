@@ -1,0 +1,257 @@
+[
+  {
+    "term_ko": "벽걸이 태피스트리",
+    "term_en": "tapestry",
+    "context": "화려한 태피스트리를 봄",
+    "interpretation_ko": "호사스러운 삶이 취향에 맞고, 태피스트리가 낡거나 해지지 않았다면 바라는 바를 채울 수 있을 조짐",
+    "interpretation_en": "foretells that luxurious living will be to your liking, and if the tapestries are not worn or ragged, you will be able to gratify your inclinations",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tapestry",
+      "original": "To dream of seeing rich tapestry, foretells that luxurious living will be to your liking, and if the tapestries are not worn or ragged, you will be able to gratify your inclinations.",
+      "translation_ko": "화려한 태피스트리를 보는 꿈은, 호사스러운 삶이 취향에 맞고 태피스트리가 낡거나 해지지 않았다면 바라는 바를 채울 수 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벽걸이 태피스트리",
+    "term_en": "tapestry",
+    "context": "여성이 자기 방에 태피스트리가 걸려 있는 꿈을 꿈",
+    "interpretation_ko": "머잖아 부유하고 신분도 높은 이와 혼인하게 될 조짐",
+    "interpretation_en": "she will soon wed some one who is rich and above her in standing",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tapestry",
+      "original": "If a young woman dreams that her rooms are hung with tapestry, she will soon wed some one who is rich and above her in standing.",
+      "translation_ko": "여성이 자기 방에 태피스트리가 걸려 있는 꿈을 꾸면, 머잖아 부유하고 신분도 높은 이와 혼인하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "촌충",
+    "term_en": "tapeworm",
+    "context": "촌충을 보거나 몸에 지님",
+    "interpretation_ko": "건강이나 즐거움에서 달갑잖은 전망을 뜻함",
+    "interpretation_en": "denotes disagreeable prospects for health or for pleasure",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Tapeworm",
+      "original": "To dream you see a tapeworm, or have one, denotes disagreeable prospects for health or for pleasure.",
+      "translation_ko": "촌충을 보거나 몸에 지니는 꿈은, 건강이나 즐거움에서 달갑잖은 전망을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "타르",
+    "term_en": "tar",
+    "context": "타르를 봄",
+    "interpretation_ko": "믿을 수 없는 원수의 함정과 계략을 경계하라는 조짐",
+    "interpretation_en": "it warns you against pitfalls and designs of treacherous enemies",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tar",
+      "original": "If you see tar in dreams, it warns you against pitfalls and designs of treacherous enemies.",
+      "translation_ko": "타르를 보는 꿈은, 믿을 수 없는 원수의 함정과 계략을 경계하라는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "타르",
+    "term_en": "tar",
+    "context": "손이나 옷에 타르가 묻음",
+    "interpretation_ko": "병과 슬픔을 뜻함",
+    "interpretation_en": "denotes sickness and grief",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tar",
+      "original": "To have tar on your hands or clothing, denotes sickness and grief.",
+      "translation_ko": "손이나 옷에 타르가 묻는 꿈은, 병과 슬픔을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "타란튤라",
+    "term_en": "tarantula",
+    "context": "타란튤라를 봄",
+    "interpretation_ko": "원수들이 곧 손실로 짓누르려 한다는 조짐",
+    "interpretation_en": "signifies enemies are about to overwhelm you with loss",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Tarantula",
+      "original": "To see a tarantula in your dream, signifies enemies are about to overwhelm you with loss.",
+      "translation_ko": "타란튤라를 보는 꿈은, 원수들이 곧 손실로 짓누르려 한다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "타란튤라",
+    "term_en": "tarantula",
+    "context": "타란튤라를 죽임",
+    "interpretation_ko": "온갖 불운을 겪은 뒤에 성공할 조짐",
+    "interpretation_en": "denotes you will be successful after much ill-luck",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Tarantula",
+      "original": "To kill one, denotes you will be successful after much ill-luck.",
+      "translation_ko": "타란튤라를 죽이는 꿈은, 온갖 불운을 겪은 뒤에 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "과녁",
+    "term_en": "target",
+    "context": "과녁 꿈을 꿈",
+    "interpretation_ko": "더 즐거운 다른 일들에서 눈을 돌려야 할 사안이 생길 조짐",
+    "interpretation_en": "foretells you will have some affair demanding your attention from other more pleasant ones",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Target",
+      "original": "To dream of a target, foretells you will have some affair demanding your attention from other more pleasant ones.",
+      "translation_ko": "과녁 꿈은, 더 즐거운 다른 일들에서 눈을 돌려야 할 사안이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "과녁",
+    "term_en": "target",
+    "context": "여성이 스스로 과녁이 되었다고 여김",
+    "interpretation_ko": "가까운 이들의 시샘으로 평판이 위태로워질 조짐",
+    "interpretation_en": "denotes her reputation is in danger through the envy of friendly associates",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Target",
+      "original": "For a young woman to think she is a target, denotes her reputation is in danger through the envy of friendly associates.",
+      "translation_ko": "여성이 스스로 과녁이 되었다고 여기는 꿈은, 가까운 이들의 시샘으로 평판이 위태로워질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "술 장식",
+    "term_en": "tassels",
+    "context": "술 장식을 봄",
+    "interpretation_ko": "바라던 것과 품은 뜻의 정점에 이를 조짐",
+    "interpretation_en": "denotes you will reach the height of your desires and ambition",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tassels",
+      "original": "To see tassels in a dream, denotes you will reach the height of your desires and ambition.",
+      "translation_ko": "술 장식을 보는 꿈은, 바라던 것과 품은 뜻의 정점에 이를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "술 장식",
+    "term_en": "tassels",
+    "context": "여성이 술 장식을 잃어버림",
+    "interpretation_ko": "달갑잖은 일을 겪게 될 조짐",
+    "interpretation_en": "denotes she will undergo some unpleasant experience",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tassels",
+      "original": "For a young woman to lose them, denotes she will undergo some unpleasant experience.",
+      "translation_ko": "여성이 술 장식을 잃어버리는 꿈은, 달갑잖은 일을 겪게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "문신",
+    "term_en": "tattoo",
+    "context": "스스로의 몸에 문신이 새겨져 있는 것을 봄",
+    "interpretation_ko": "어려운 일로 집을 오래 떠나 있게 될 조짐",
+    "interpretation_en": "foretells that some difficulty will cause you to make a long and tedious absence from your home",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Tattoo",
+      "original": "To see your body appearing tattooed, foretells that some difficulty will cause you to make a long and tedious absence from your home.",
+      "translation_ko": "스스로의 몸에 문신이 새겨져 있는 것을 보는 꿈은, 어려운 일로 집을 오래 떠나 있게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "문신",
+    "term_en": "tattoo",
+    "context": "남들의 몸에 새겨진 문신을 봄",
+    "interpretation_ko": "낯선 사랑이 자신을 시샘의 대상으로 만들 조짐",
+    "interpretation_en": "foretells that strange loves will make you an object of jealousy",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Tattoo",
+      "original": "To see tattooes on others, foretells that strange loves will make you an object of jealousy.",
+      "translation_ko": "남들의 몸에 새겨진 문신을 보는 꿈은, 낯선 사랑이 자신을 시샘의 대상으로 만들 조짐이다"
+    }
+  },
+  {
+    "term_ko": "문신",
+    "term_en": "tattoo",
+    "context": "스스로 문신가가 됨",
+    "interpretation_ko": "낯선 경험을 좇는 취향 탓에 벗들과 멀어질 조짐",
+    "interpretation_en": "is a sign that you will estrange yourself from friends because of your fancy for some strange experience",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Tattoo",
+      "original": "To dream you are a tattooist, is a sign that you will estrange yourself from friends because of your fancy for some strange experience.",
+      "translation_ko": "스스로 문신가가 되는 꿈은, 낯선 경험을 좇는 취향 탓에 벗들과 멀어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "세금",
+    "term_en": "taxes",
+    "context": "스스로 세금을 냄",
+    "interpretation_ko": "주위에 이는 나쁜 기운을 없애는 데 성공할 조짐",
+    "interpretation_en": "foretells you will succeed in destroying evil influences rising around you",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Taxes",
+      "original": "To dream that you pay your taxes, foretells you will succeed in destroying evil influences rising around you.",
+      "translation_ko": "스스로 세금을 내는 꿈은, 주위에 이는 나쁜 기운을 없애는 데 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "세금",
+    "term_en": "taxes",
+    "context": "남들이 세금을 냄",
+    "interpretation_ko": "벗에게 도움을 청해야 할 처지에 놓일 조짐",
+    "interpretation_en": "you will be forced to ask aid of friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Taxes",
+      "original": "If others pay them, you will be forced to ask aid of friends.",
+      "translation_ko": "남들이 세금을 내는 꿈은, 벗에게 도움을 청해야 할 처지에 놓일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "세금",
+    "term_en": "taxes",
+    "context": "세금을 낼 수 없음",
+    "interpretation_ko": "벌이던 시도에서 불운을 겪을 조짐",
+    "interpretation_en": "you will be unfortunate in experiments you are making",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Taxes",
+      "original": "If you are unable to pay them, you will be unfortunate in experiments you are making.",
+      "translation_ko": "세금을 낼 수 없는 꿈은, 벌이던 시도에서 불운을 겪을 조짐이다"
+    }
+  }
+]

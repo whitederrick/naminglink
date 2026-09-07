@@ -1,10 +1,8 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 266 — 새 상징 여덟(tail·tailor·talisman·
-// talking·tallow·tambourine·tannery·tape)을 세우고, 기존
-// cistern(저수조)에 문맥 1개를 보탰다("물탱크"가 이미 별칭이었다).
-// Tank 첫 문장(그냥 탱크, 길함)은 기존 cistern 「저수조를 봄」
-// (밀러 Cistern, 흉함)과 같은 그림·다른 풀이라 건너뛰었다. cistern
-// 은 m16 이 m266 보다 앞서 정렬돼 기본값 플립이 없었다.
+// (지금 담긴 것: 배치 267 — 20판 묶음(248~267)의 마지막 배치. 새
+// 상징 여덟(tapestry·tapeworm·tar·tarantula·target·tassels·
+// tattoo·taxes)을 세웠다. 전부 새 상징이라 기존 상징 지킴 케이스가
+// 없다 — 이 판 이후 전수 스윕·git push·배포 확인이 뒤따른다.)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -35,30 +33,24 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 266 새 문맥 (19건) ──────────────────────────────────────────────
-  { id: "tail", ctx: "짐승의 꼬리만 봄", text: "짐승의 꼬리만 보았다" },
-  { id: "tail", ctx: "짐승의 꼬리를 자름", text: "짐승의 꼬리를 잘랐다" },
-  { id: "tail", ctx: "스스로에게 짐승의 꼬리가 자라남", text: "스스로에게 짐승의 꼬리가 자라났다" },
-  { id: "tailor", ctx: "재단사 꿈을 꿈", text: "재단사 꿈을 꾸었다" },
-  { id: "tailor", ctx: "재단사와 오해가 생김", text: "재단사와 오해가 생겼다" },
-  { id: "tailor", ctx: "재단사가 치수를 잼", text: "재단사가 치수를 쟀다" },
-  { id: "talisman", ctx: "스스로 부적을 지님", text: "스스로 부적을 지녔다" },
-  { id: "talisman", ctx: "여성이 애인에게서 부적을 받음", text: "여성이 애인에게서 부적을 받았다" },
-  { id: "talking", ctx: "스스로 말하는 꿈을 꿈", text: "스스로 말하는 꿈을 꾸었다" },
-  { id: "talking", ctx: "남들이 큰 소리로 말하는 것을 들음", text: "남들이 큰 소리로 말하는 것을 들었다" },
-  { id: "talking", ctx: "남들이 자신에 대해 말하고 있다고 여김", text: "남들이 자신에 대해 말하고 있다고 여겼다" },
-  { id: "tallow", ctx: "짐승기름 꿈을 꿈", text: "짐승기름 꿈을 꾸었다" },
-  { id: "tambourine", ctx: "탬버린 꿈을 꿈", text: "탬버린 꿈을 꾸었다" },
-  { id: "cistern", ctx: "물이 새는 저수조를 봄", text: "물이 새는 저수조를 보았다" },
-  { id: "tannery", ctx: "가죽공장 꿈을 꿈", text: "가죽공장 꿈을 꾸었다" },
-  { id: "tannery", ctx: "스스로 무두장이가 됨", text: "스스로 무두장이가 되었다" },
-  { id: "tannery", ctx: "가죽공장에서 가죽을 삼", text: "가죽공장에서 가죽을 샀다" },
-  { id: "tape", ctx: "테이프 꿈을 꿈", text: "테이프 꿈을 꾸었다" },
-  { id: "tape", ctx: "여성이 테이프를 삼", text: "여성이 테이프를 샀다" },
-
-  // ── 지킴 케이스 — 이번에 손댄 기존 상징(cistern)의 옛 답이 그대로인지 ──
-  { id: "cistern", ctx: "저수조를 봄", text: "저수조를 보았다" },
-  { id: "cistern", ctx: "저수조가 비어 있음", text: "저수조가 비어 있었다" },
+  // ── 배치 267 새 문맥 (17건, 20판 묶음의 마지막) ────────────────────────
+  { id: "tapestry", ctx: "화려한 태피스트리를 봄", text: "화려한 태피스트리를 보았다" },
+  { id: "tapestry", ctx: "여성이 자기 방에 태피스트리가 걸려 있는 꿈을 꿈", text: "여성이 자기 방에 태피스트리가 걸려 있는 꿈을 꾸었다" },
+  { id: "tapeworm", ctx: "촌충을 보거나 몸에 지님", text: "촌충을 보았다" },
+  { id: "tar", ctx: "타르를 봄", text: "타르를 보았다" },
+  { id: "tar", ctx: "손이나 옷에 타르가 묻음", text: "손이나 옷에 타르가 묻었다" },
+  { id: "tarantula", ctx: "타란튤라를 봄", text: "타란튤라를 보았다" },
+  { id: "tarantula", ctx: "타란튤라를 죽임", text: "타란튤라를 죽였다" },
+  { id: "target", ctx: "과녁 꿈을 꿈", text: "과녁 꿈을 꾸었다" },
+  { id: "target", ctx: "여성이 스스로 과녁이 되었다고 여김", text: "여성이 스스로 과녁이 되었다고 여겼다" },
+  { id: "tassels", ctx: "술 장식을 봄", text: "술 장식을 보았다" },
+  { id: "tassels", ctx: "여성이 술 장식을 잃어버림", text: "여성이 술 장식을 잃어버렸다" },
+  { id: "tattoo", ctx: "스스로의 몸에 문신이 새겨져 있는 것을 봄", text: "스스로의 몸에 문신이 새겨져 있는 것을 보았다" },
+  { id: "tattoo", ctx: "남들의 몸에 새겨진 문신을 봄", text: "남들의 몸에 새겨진 문신을 보았다" },
+  { id: "tattoo", ctx: "스스로 문신가가 됨", text: "스스로 문신가가 되었다" },
+  { id: "taxes", ctx: "스스로 세금을 냄", text: "스스로 세금을 냈다" },
+  { id: "taxes", ctx: "남들이 세금을 냄", text: "남들이 세금을 냈다" },
+  { id: "taxes", ctx: "세금을 낼 수 없음", text: "세금 낼 돈이 없었다" },
 ];
 
 let notFound = 0;
