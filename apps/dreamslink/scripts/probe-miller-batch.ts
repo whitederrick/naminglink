@@ -1,13 +1,12 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 284 — United States Mail Box~Usurper. 새 상징
-// 다섯(mailbox·urgent-petition·urinal·usurer·usurper), 기존 mystery
-// (수수께끼)·urine(오줌)·jar(항아리)에 문맥을 나눠 붙임. Unknown은 각주
-// [234] See Mystery로 mystery에 합침. Urn은 jar가 이미 영어 별칭
-// "urn"을 쥐고 있어 합쳤는데, 둘째 문장(깨진 단지)은 기존 「깨진 항아리를
-// 봄」과 같은 그림이라 §31로 건너뜀. urine은 m284가 기존 오줌 출처(r3)
-// 보다 사전순으로 앞서 기본값이 바뀔 뻔했으나, 두 문장이 서로 다른
-// 문헌(주공해몽 길조 vs 밀러 흉조)의 다른 판단이라 있던 주공해몽 답을
-// 그대로 얼렸다.
+// (지금 담긴 것: 배치 285 — Vaccinate~Varnishing. 새 상징 여섯(vaccinate·
+// vagrant·valentine·valley·vapor-bath·varnishing). Vagrant는 기존
+// beggar(거지)가 영어 별칭 "a vagrant"를 쥐고 있었으나 개념이 달라(구걸
+// vs 떠돎) 새 상징을 세우고 그 별칭을 beggar에서 회수했다. beggar의
+// 「거지에게 적선함」(흉)과 Vagrant의 「부랑자에게 베풂」(길)이 같은
+// 그림에 정반대 극성인데, 서로 다른 헤드워드(Beggar vs Vagrant)의 각자
+// 판단이라 §31 건너뛰기 대상으로 보지 않고 둘 다 남겼다 — 다른 상징
+// 이름이라 discriminator 충돌도 없다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -38,26 +37,25 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 284 새 문맥 (14건) ────────────────────────────────────────────
-  { id: "mailbox", ctx: "우체통을 봄", text: "우체통을 보았다" },
-  { id: "mailbox", ctx: "우체통에 편지를 넣음", text: "우체통에 편지를 넣었다" },
-  { id: "mystery", ctx: "낯선 이를 만남", text: "낯선 이를 만났다" },
-  { id: "mystery", ctx: "스스로 낯선 이가 된 듯 느낌", text: "스스로 낯선 이가 된 듯 느꼈다" },
-  { id: "urgent-petition", ctx: "긴급 청원을 지지함", text: "긴급 청원을 지지했다" },
-  { id: "urinal", ctx: "소변기 꿈을 꿈", text: "소변기 꿈을 꾸었다" },
-  { id: "urine", ctx: "오줌을 봄", text: "오줌을 보았는데 벗들에게 무뚝뚝하게 굴었다" },
-  { id: "urine", ctx: "스스로 오줌을 눔", text: "스스로 오줌을 누었는데 사랑에서 힘겨운 시기였다" },
-  { id: "jar", ctx: "단지 꿈을 꿈", text: "단지 꿈을 꾸었는데 어떤 면에서는 눈총을 받았다" },
-  { id: "usurer", ctx: "스스로 고리대금업자임을 봄", text: "스스로 고리대금업자임을 보았다" },
-  { id: "usurer", ctx: "남들이 고리대금업자임을 봄", text: "남들이 고리대금업자임을 보았다" },
-  { id: "usurper", ctx: "스스로 찬탈자임을 봄", text: "스스로 찬탈자임을 보았다" },
-  { id: "usurper", ctx: "남들이 제 권리를 빼앗으려 함", text: "남들이 제 권리를 빼앗으려 했다" },
-  { id: "usurper", ctx: "처녀가 스스로 찬탈자가 되는 꿈을 꿈", text: "처녀가 스스로 찬탈자가 되는 꿈을 꾸었는데 짜릿한 경쟁에서 이겼다" },
+  // ── 배치 285 새 문맥 (15건) ────────────────────────────────────────────
+  { id: "vaccinate", ctx: "스스로 예방접종을 받음", text: "스스로 예방접종을 받았다" },
+  { id: "vaccinate", ctx: "남들이 예방접종을 받는 것을 봄", text: "남들이 예방접종을 받는 것을 보았다" },
+  { id: "vaccinate", ctx: "처녀가 다리에 예방접종을 받음", text: "처녀가 다리에 예방접종을 받았다" },
+  { id: "vagrant", ctx: "스스로 부랑자임을 봄", text: "스스로 부랑자임을 보았다" },
+  { id: "vagrant", ctx: "부랑자들을 봄", text: "부랑자들을 보았다" },
+  { id: "vagrant", ctx: "부랑자에게 베풂", text: "부랑자에게 베풀었다" },
+  { id: "valentine", ctx: "발렌타인 카드를 보냄", text: "발렌타인 카드를 보냈다" },
+  { id: "valentine", ctx: "처녀가 발렌타인 카드를 받음", text: "처녀가 발렌타인 카드를 받았다" },
+  { id: "valley", ctx: "푸르고 아늑한 계곡을 걸음", text: "푸르고 아늑한 계곡을 걸었다" },
+  { id: "valley", ctx: "메마른 계곡을 걸음", text: "메마른 계곡을 걸었다" },
+  { id: "valley", ctx: "질척한 계곡을 걸음", text: "질척한 계곡을 걸었다" },
+  { id: "vapor-bath", ctx: "증기욕 꿈을 꿈", text: "증기욕 꿈을 꾸었다" },
+  { id: "vapor-bath", ctx: "증기욕에서 나옴", text: "증기욕에서 나왔다" },
+  { id: "varnishing", ctx: "스스로 무언가에 니스칠을 함", text: "스스로 무언가에 니스칠을 했다" },
+  { id: "varnishing", ctx: "남들이 니스칠을 하는 것을 봄", text: "남들이 니스칠을 하는 것을 보았다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────
-  { id: "mystery", ctx: "알 수 없는 일에 어리둥절함", text: "알 수 없는 일에 어리둥절했다" },
-  { id: "urine", ctx: "오줌이 몸을 더럽힘", text: "오줌이 몸을 더럽혔다" },
-  { id: "jar", ctx: "빈 항아리를 봄", text: "텅빈 항아리를 보았다" },
+  { id: "beggar", ctx: "거지에게 적선함", text: "거지에게 적선했다" },
 ];
 
 let notFound = 0;

@@ -2536,7 +2536,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "beggar": [
     "a tramp",
-    "a vagrant",
     "begging"
   ],
   "belladonna": [
@@ -8155,5 +8154,30 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "usurper": [
     "usurper",
     "usurpers"
+  ],
+  "vaccinate": [
+    "vaccinate",
+    "vaccinated",
+    "vaccination"
+  ],
+  "vagrant": [
+    "vagrant",
+    "vagrants"
+  ],
+  "valentine": [
+    "valentine",
+    "valentines"
+  ],
+  "valley": [
+    "valley",
+    "valleys"
+  ],
+  "vapor-bath": [
+    "vapor bath",
+    "steam bath"
+  ],
+  "varnishing": [
+    "varnishing",
+    "varnish"
   ]
 };

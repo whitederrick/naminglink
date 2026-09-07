@@ -208,6 +208,7 @@
     "m282.json",
     "m283.json",
     "m284.json",
+    "m285.json",
     "m29.json",
     "m3.json",
     "m30.json",
@@ -89010,6 +89011,189 @@
       ]
     },
     {
+      "id": "vaccinate",
+      "term_ko": "예방접종",
+      "term_en": "vaccinate",
+      "aliases": [
+        "예방접종을",
+        "예방접종이"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 예방접종을 받음",
+          "interpretation_ko": "여성의 매력에 이끌리기 쉬운 성정이 슬픔을 부를 조짐",
+          "interpretation_en": "foretells that your susceptibility to female charms will be played upon to your sorrow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vaccinate",
+              "original": "To dream of being vaccinated, foretells that your susceptibility to female charms will be played upon to your sorrow.",
+              "translation_ko": "스스로 예방접종을 받는 꿈은, 여성의 매력에 이끌리기 쉬운 성정이 슬픔을 부를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 예방접종을 받는 것을 봄",
+          "interpretation_ko": "바라던 만족을 얻지 못하고 일도 그 때문에 기울 조짐",
+          "interpretation_en": "shows you will fail to find contentment where it is sought, and your affairs will suffer decline in consequence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vaccinate",
+              "original": "To dream that others are vaccinated, shows you will fail to find contentment where it is sought, and your affairs will suffer decline in consequence.",
+              "translation_ko": "남들이 예방접종을 받는 것을 보는 꿈은, 바라던 만족을 얻지 못하고 일도 그 때문에 기울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 다리에 예방접종을 받음",
+          "interpretation_ko": "배신으로 인해 파멸을 예고",
+          "interpretation_en": "foreshadows her undoing through treachery",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vaccinate",
+              "original": "For a young woman to be vaccinated on her leg, foreshadows her undoing through treachery.",
+              "translation_ko": "처녀가 다리에 예방접종을 받는 꿈은, 배신으로 인해 파멸을 예고한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vagrant",
+      "term_ko": "부랑자",
+      "term_en": "vagrant",
+      "aliases": [
+        "부랑자가",
+        "부랑자를",
+        "부랑자임을",
+        "부랑자에게",
+        "부랑자들"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 부랑자임을 봄",
+          "interpretation_ko": "가난과 고통의 조짐",
+          "interpretation_en": "portends poverty and misery",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vagrant",
+              "original": "To dream that you are a vagrant, portends poverty and misery.",
+              "translation_ko": "스스로 부랑자임을 보는 꿈은, 가난과 고통의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부랑자들을 봄",
+          "interpretation_ko": "동네에 돌림병이 번질 조짐",
+          "interpretation_en": "is a sign of contagion invading your community",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vagrant",
+              "original": "To see vagrants is a sign of contagion invading your community.",
+              "translation_ko": "부랑자들을 보는 꿈은, 동네에 돌림병이 번질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부랑자에게 베풂",
+          "interpretation_ko": "너그러움을 칭송받을 조짐",
+          "interpretation_en": "denotes that your generosity will be applauded",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vagrant",
+              "original": "To give to a vagrant, denotes that your generosity will be applauded.",
+              "translation_ko": "부랑자에게 베푸는 꿈은, 너그러움을 칭송받을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valley",
+      "term_ko": "계곡",
+      "term_en": "valley",
+      "aliases": [
+        "계곡을",
+        "계곡이"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "푸르고 아늑한 계곡을 걸음",
+          "interpretation_ko": "사업이 크게 나아지고 연인들이 즐겁고 다정할 조짐",
+          "interpretation_en": "foretells great improvements in business, and lovers will be happy and congenial",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Valley",
+              "original": "To find yourself walking through green and pleasant valleys, foretells great improvements in business, and lovers will be happy and congenial.",
+              "translation_ko": "푸르고 아늑한 계곡을 걷는 꿈은, 사업이 크게 나아지고 연인들이 즐겁고 다정할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "메마른 계곡을 걸음",
+          "interpretation_ko": "앞의 길한 뜻과 반대되는 조짐",
+          "interpretation_en": "the reverse is predicted",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Valley",
+              "original": "If the valley is barren, the reverse is predicted.",
+              "translation_ko": "메마른 계곡을 걷는 꿈은, 앞의 길한 뜻과 반대되는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "질척한 계곡을 걸음",
+          "interpretation_ko": "병이나 언짢은 일이 뒤따를 조짐",
+          "interpretation_en": "illness or vexations may follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Valley",
+              "original": "If marshy, illness or vexations may follow.",
+              "translation_ko": "질척한 계곡을 걷는 꿈은, 병이나 언짢은 일이 뒤따를 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "vessel",
       "term_ko": "그릇",
       "term_en": "vessel",
@@ -117884,6 +118068,145 @@
               "locator": "Usurer",
               "original": "If others are usurers, you will discard some former friend on account of treachery.",
               "translation_ko": "남들이 고리대금업자임을 보는 꿈은, 배신 때문에 옛 벗을 저버릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "valentine",
+      "term_ko": "발렌타인 카드",
+      "term_en": "valentine",
+      "aliases": [
+        "발렌타인",
+        "발렌타인 카드를",
+        "발렌타인 카드가"
+      ],
+      "category": "action",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "발렌타인 카드를 보냄",
+          "interpretation_ko": "스스로를 이롭게 할 기회를 놓칠 조짐",
+          "interpretation_en": "foretells that you will lose opportunities of enriching yourself",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Valentine",
+              "original": "To dream that you are sending valentines, foretells that you will lose opportunities of enriching yourself.",
+              "translation_ko": "발렌타인 카드를 보내는 꿈은, 스스로를 이롭게 할 기회를 놓칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 발렌타인 카드를 받음",
+          "interpretation_ko": "보호자들의 만류에도 여리지만 열렬한 연인과 혼인할 조짐",
+          "interpretation_en": "denotes that she will marry a weak, but ardent lover against the counsels of her guardians",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Valentine",
+              "original": "For a young woman to receive one, denotes that she will marry a weak, but ardent lover against the counsels of her guardians.",
+              "translation_ko": "처녀가 발렌타인 카드를 받는 꿈은, 보호자들의 만류에도 여리지만 열렬한 연인과 혼인할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vapor-bath",
+      "term_ko": "증기욕",
+      "term_en": "vapor bath",
+      "aliases": [
+        "증기욕을",
+        "증기욕에서"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "증기욕 꿈을 꿈",
+          "interpretation_ko": "짜증 잘 내는 이들과 어울릴 조짐",
+          "interpretation_en": "you will have fretful people for companions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vapor Bath",
+              "original": "To dream of a vapor bath, you will have fretful people for companions, unless you dream of emerging from one, and then you will find that your cares will be temporary.",
+              "translation_ko": "증기욕 꿈을 꾸면, 짜증 잘 내는 이들과 어울릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "증기욕에서 나옴",
+          "interpretation_ko": "근심이 오래가지 않을 조짐",
+          "interpretation_en": "you will find that your cares will be temporary",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vapor Bath",
+              "original": "unless you dream of emerging from one, and then you will find that your cares will be temporary.",
+              "translation_ko": "증기욕에서 나오는 꿈은, 근심이 오래가지 않을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "varnishing",
+      "term_ko": "니스칠",
+      "term_en": "varnishing",
+      "aliases": [
+        "니스칠을",
+        "니스칠이"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 무언가에 니스칠을 함",
+          "interpretation_ko": "속임수로 명성을 얻으려 할 조짐",
+          "interpretation_en": "denotes that you will seek to win distinction by fraudulent means",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Varnishing",
+              "original": "To dream of varnishing anything, denotes that you will seek to win distinction by fraudulent means.",
+              "translation_ko": "스스로 무언가에 니스칠을 하는 꿈은, 속임수로 명성을 얻으려 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 니스칠을 하는 것을 봄",
+          "interpretation_ko": "벗들이 제 잇속을 채우려 애쓰는 데서 위험이 닥칠 조짐",
+          "interpretation_en": "foretells that you are threatened with danger from the endeavor of friends to add to their own possessions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Varnishing",
+              "original": "To see others varnishing, foretells that you are threatened with danger from the endeavor of friends to add to their own possessions.",
+              "translation_ko": "남들이 니스칠을 하는 것을 보는 꿈은, 벗들이 제 잇속을 채우려 애쓰는 데서 위험이 닥칠 조짐이다"
             }
           ]
         }

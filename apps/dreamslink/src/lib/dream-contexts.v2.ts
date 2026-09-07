@@ -6297,5 +6297,20 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "usurer::남들이 고리대금업자임을 봄": "others discard treachery",
   "usurper::스스로 찬탈자임을 봄": "trouble title property",
   "usurper::남들이 제 권리를 빼앗으려 함": "usurp struggle competitors",
-  "usurper::처녀가 스스로 찬탈자가 되는 꿈을 꿈": "young woman spicy rivalry"
+  "usurper::처녀가 스스로 찬탈자가 되는 꿈을 꿈": "young woman spicy rivalry",
+  "vaccinate::스스로 예방접종을 받음": "susceptibility charms sorrow",
+  "vaccinate::남들이 예방접종을 받는 것을 봄": "others contentment decline",
+  "vaccinate::처녀가 다리에 예방접종을 받음": "leg undoing treachery",
+  "vagrant::스스로 부랑자임을 봄": "poverty misery",
+  "vagrant::부랑자들을 봄": "contagion invading community",
+  "vagrant::부랑자에게 베풂": "give generosity applauded",
+  "valentine::발렌타인 카드를 보냄": "sending lose opportunities",
+  "valentine::처녀가 발렌타인 카드를 받음": "receive marry weak ardent",
+  "valley::푸르고 아늑한 계곡을 걸음": "green pleasant congenial",
+  "valley::메마른 계곡을 걸음": "barren reverse",
+  "valley::질척한 계곡을 걸음": "marshy vexations",
+  "vapor-bath::증기욕 꿈을 꿈": "fretful companions",
+  "vapor-bath::증기욕에서 나옴": "emerging temporary cares",
+  "varnishing::스스로 무언가에 니스칠을 함": "distinction fraudulent means",
+  "varnishing::남들이 니스칠을 하는 것을 봄": "others danger possessions"
 };

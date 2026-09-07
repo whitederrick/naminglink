@@ -1,0 +1,127 @@
+[
+  {
+    "id": "vaccinate",
+    "aliases": [
+      "예방접종을",
+      "예방접종이"
+    ],
+    "aliases_en": [
+      "vaccinate",
+      "vaccinated",
+      "vaccination"
+    ],
+    "contexts": {
+      "스스로 예방접종을 받음": "그냥",
+      "남들이 예방접종을 받는 것을 봄": "남들이",
+      "처녀가 다리에 예방접종을 받음": "다리에"
+    },
+    "contexts_en": {
+      "스스로 예방접종을 받음": "susceptibility charms sorrow",
+      "남들이 예방접종을 받는 것을 봄": "others contentment decline",
+      "처녀가 다리에 예방접종을 받음": "leg undoing treachery"
+    }
+  },
+  {
+    "id": "vagrant",
+    "aliases": [
+      "부랑자가",
+      "부랑자를",
+      "부랑자임을",
+      "부랑자에게",
+      "부랑자들"
+    ],
+    "aliases_en": [
+      "vagrant",
+      "vagrants"
+    ],
+    "contexts": {
+      "스스로 부랑자임을 봄": "그냥",
+      "부랑자들을 봄": "부랑자들",
+      "부랑자에게 베풂": "베풀"
+    },
+    "contexts_en": {
+      "스스로 부랑자임을 봄": "poverty misery",
+      "부랑자들을 봄": "contagion invading community",
+      "부랑자에게 베풂": "give generosity applauded"
+    }
+  },
+  {
+    "id": "valentine",
+    "aliases": [
+      "발렌타인",
+      "발렌타인 카드를",
+      "발렌타인 카드가"
+    ],
+    "aliases_en": [
+      "valentine",
+      "valentines"
+    ],
+    "contexts": {
+      "발렌타인 카드를 보냄": "그냥",
+      "처녀가 발렌타인 카드를 받음": "받았"
+    },
+    "contexts_en": {
+      "발렌타인 카드를 보냄": "sending lose opportunities",
+      "처녀가 발렌타인 카드를 받음": "receive marry weak ardent"
+    }
+  },
+  {
+    "id": "valley",
+    "aliases": [
+      "계곡을",
+      "계곡이"
+    ],
+    "aliases_en": [
+      "valley",
+      "valleys"
+    ],
+    "contexts": {
+      "푸르고 아늑한 계곡을 걸음": "그냥",
+      "메마른 계곡을 걸음": "메마른",
+      "질척한 계곡을 걸음": "질척한"
+    },
+    "contexts_en": {
+      "푸르고 아늑한 계곡을 걸음": "green pleasant congenial",
+      "메마른 계곡을 걸음": "barren reverse",
+      "질척한 계곡을 걸음": "marshy vexations"
+    }
+  },
+  {
+    "id": "vapor-bath",
+    "aliases": [
+      "증기욕을",
+      "증기욕에서"
+    ],
+    "aliases_en": [
+      "vapor bath",
+      "steam bath"
+    ],
+    "contexts": {
+      "증기욕 꿈을 꿈": "그냥",
+      "증기욕에서 나옴": "나왔"
+    },
+    "contexts_en": {
+      "증기욕 꿈을 꿈": "fretful companions",
+      "증기욕에서 나옴": "emerging temporary cares"
+    }
+  },
+  {
+    "id": "varnishing",
+    "aliases": [
+      "니스칠을",
+      "니스칠이"
+    ],
+    "aliases_en": [
+      "varnishing",
+      "varnish"
+    ],
+    "contexts": {
+      "스스로 무언가에 니스칠을 함": "그냥",
+      "남들이 니스칠을 하는 것을 봄": "남들이"
+    },
+    "contexts_en": {
+      "스스로 무언가에 니스칠을 함": "distinction fraudulent means",
+      "남들이 니스칠을 하는 것을 봄": "others danger possessions"
+    }
+  }
+]

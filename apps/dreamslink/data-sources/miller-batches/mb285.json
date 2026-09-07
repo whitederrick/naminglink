@@ -1,0 +1,36 @@
+{
+  "batch": 285,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Vaccinate",
+      "text": "To dream of being vaccinated, foretells that your susceptibility to female charms will be played upon to your sorrow.\n\nTo dream that others are vaccinated, shows you will fail to find contentment where it is sought, and your affairs will suffer decline in consequence.\n\nFor a young woman to be vaccinated on her leg, foreshadows her undoing through treachery.",
+      "note": "새 상징 vaccinate(예방접종)"
+    },
+    {
+      "headword": "Vagrant",
+      "text": "To dream that you are a vagrant, portends poverty and misery.\nTo see vagrants is a sign of contagion invading your community.\nTo give to a vagrant, denotes that your generosity will be applauded.",
+      "note": "새 상징 vagrant(부랑자) — 기존 beggar(거지)가 영어 별칭 「a vagrant」를 쥐고 있었으나 개념이 달라(구걸하는 이 vs 떠도는 이) 새 상징을 세우고 그 별칭을 회수함"
+    },
+    {
+      "headword": "Valentine",
+      "text": "To dream that you are sending valentines, foretells that you will lose opportunities of enriching yourself.\n\nFor a young woman to receive one, denotes that she will marry a weak, but ardent lover against the counsels of her guardians.",
+      "note": "새 상징 valentine(발렌타인 카드)"
+    },
+    {
+      "headword": "Valley",
+      "text": "To find yourself walking through green and pleasant valleys, foretells great improvements in business, and lovers will be happy and congenial.  If the valley is barren, the reverse is predicted.  If marshy, illness or vexations may follow.",
+      "note": "새 상징 valley(계곡)"
+    },
+    {
+      "headword": "Vapor Bath",
+      "text": "To dream of a vapor bath, you will have fretful people for companions, unless you dream of emerging from one, and then you will find that your cares will be temporary.",
+      "note": "새 상징 vapor-bath(증기욕)"
+    },
+    {
+      "headword": "Varnishing",
+      "text": "To dream of varnishing anything, denotes that you will seek to win distinction by fraudulent means.\n\nTo see others varnishing, foretells that you are threatened with danger from the endeavor of friends to add to their own possessions.",
+      "note": "새 상징 varnishing(니스칠)"
+    }
+  ]
+}
