@@ -619,11 +619,15 @@
     ],
     "contexts": {
       "금은보화를 봄": "재물 온갖 잔뜩 쌓인",
-      "금은과 주옥을 봄": "주옥 구슬 진주 옥과"
+      "금은과 주옥을 봄": "주옥 구슬 진주 옥과",
+      "보물을 찾아냄": "찾아",
+      "보물을 잃음": "잃었"
     },
     "contexts_en": {
       "금은보화를 봄": "heap wealth",
-      "금은과 주옥을 봄": "pearl jade gems"
+      "금은과 주옥을 봄": "pearl jade gems",
+      "보물을 찾아냄": "find aided generosity",
+      "보물을 잃음": "lose inconstancy"
     }
   },
   {

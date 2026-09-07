@@ -90,7 +90,9 @@
       "큰 나무가 갑자기 부러짐": "부러졌 부러지 꺾였 갑자기",
       "나무를 메고 집으로 옴": "메고 지고 짊어 들고왔",
       "큰 나무를 베어 넘김": "베어 베었 도끼 잘랐 톱으로",
-      "풀과 나무가 우거짐": "우거 무성 빽빽 울창"
+      "풀과 나무가 우거짐": "우거 무성 빽빽 울창",
+      "새 잎이 돋은 나무를 봄": "신록",
+      "갓 베어진 푸른 나무를 봄": "푸른 쓰러진"
     },
     "contexts_en": {
       "마른 나무에 다시 싹이 틈": "sprout budding shoot revived",
@@ -107,7 +109,9 @@
       "큰 나무가 갑자기 부러짐": "snapped suddenly broken",
       "나무를 메고 집으로 옴": "carrying carried shoulder home",
       "큰 나무를 베어 넘김": "cutting chopped axe felled",
-      "풀과 나무가 우거짐": "lush dense overgrown thick"
+      "풀과 나무가 우거짐": "lush dense overgrown thick",
+      "새 잎이 돋은 나무를 봄": "foliage consummation hopes",
+      "갓 베어진 푸른 나무를 봄": "green newly unhappiness"
     }
   },
   {

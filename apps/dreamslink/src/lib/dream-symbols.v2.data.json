@@ -197,6 +197,7 @@
     "m274.json",
     "m275.json",
     "m276.json",
+    "m277.json",
     "m27a.json",
     "m27b.json",
     "m28.json",
@@ -9368,6 +9369,264 @@
       ]
     },
     {
+      "id": "tree",
+      "term_ko": "나무",
+      "term_en": "tree",
+      "aliases": [
+        "고목",
+        "거목",
+        "수목"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "마른 나무에 다시 싹이 틈",
+          "interpretation_ko": "자손이 번성할 조짐",
+          "interpretation_en": "a sign that descendants will flourish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "枯木再發子孫興",
+              "translation_ko": "마른 나무에 다시 싹이 트면 자손이 흥한다"
+            }
+          ]
+        },
+        {
+          "context": "새 잎이 돋은 나무를 봄",
+          "interpretation_ko": "바라던 바가 행복하게 이루어질 조짐",
+          "interpretation_en": "foretells a happy consummation of hopes and desires",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trees",
+              "original": "To dream of trees in new foliage, foretells a happy consummation of hopes and desires.",
+              "translation_ko": "새 잎이 돋은 나무를 보는 꿈은, 바라던 바가 행복하게 이루어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "갓 베어진 푸른 나무를 봄",
+          "interpretation_ko": "즐거움과 번영의 자리에 뜻밖의 불행이 닥칠 조짐",
+          "interpretation_en": "portends unhappiness coming unexpectedly upon scenes of enjoyment, or prosperity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trees",
+              "original": "To see green tress newly felled, portends unhappiness coming unexpectedly upon scenes of enjoyment, or prosperity.",
+              "translation_ko": "갓 베어진 푸른 나무를 보는 꿈은, 즐거움과 번영의 자리에 뜻밖의 불행이 닥칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "나무가 말라 죽음",
+          "interpretation_ko": "집안이 편치 않을 조짐",
+          "interpretation_en": "a sign of unrest in the household",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "樹木枯死宅不安",
+              "translation_ko": "나무가 말라 죽으면 집안이 편안하지 않다"
+            }
+          ]
+        },
+        {
+          "context": "나무가 시들어 잎이 짐",
+          "interpretation_ko": "주인에게 흉한 조짐",
+          "interpretation_en": "an inauspicious sign for the head of the house",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "樹木凋零主人凶",
+              "translation_ko": "나무가 시들어 잎이 지면 주인이 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "숲속에 나무가 새로 자람",
+          "interpretation_ko": "귀한 자식을 얻을 조짐",
+          "interpretation_en": "a sign of gaining a noble child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "林中樹生添貴子",
+              "translation_ko": "숲속에 나무가 자라면 귀한 자식이 는다"
+            }
+          ]
+        },
+        {
+          "context": "나무를 심음",
+          "interpretation_ko": "크게 길하고 번창할 조짐",
+          "interpretation_en": "a very auspicious sign of prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "種植樹木大吉昌",
+              "translation_ko": "나무를 심으면 크게 길하고 번창한다"
+            }
+          ]
+        },
+        {
+          "context": "큰 나무에 오름",
+          "interpretation_ko": "명예와 이익이 드러날 조짐",
+          "interpretation_en": "a sign that fame and profit will be made manifest",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "登大樹名利顯揚",
+              "translation_ko": "큰 나무에 오르면 이름과 이익이 드러나 높아진다"
+            }
+          ]
+        },
+        {
+          "context": "오른 나무가 갑자기 부러짐",
+          "interpretation_ko": "죽거나 다칠 조짐",
+          "interpretation_en": "a sign of death or injury",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "上樹忽折有死傷",
+              "translation_ko": "나무에 올랐는데 갑자기 부러지면 죽거나 다친다"
+            }
+          ]
+        },
+        {
+          "context": "마른 나무에 꽃이 핌",
+          "interpretation_ko": "자손이 번성할 조짐",
+          "interpretation_en": "a sign that descendants will flourish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "枯木開花子孫興",
+              "translation_ko": "마른 나무에 꽃이 피면 자손이 흥한다"
+            }
+          ]
+        },
+        {
+          "context": "큰 나무가 집 위로 넘어짐",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "大樹落人屋上吉",
+              "translation_ko": "큰 나무가 남의 집 위에 떨어지면 길하다"
+            }
+          ]
+        },
+        {
+          "context": "나무 아래에 서 있음",
+          "interpretation_ko": "귀인의 보살핌을 받을 조짐",
+          "interpretation_en": "a sign of being sheltered by a benefactor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "立樹下貴人庇蔭",
+              "translation_ko": "나무 아래 서면 귀인이 감싸 보살펴 준다"
+            }
+          ]
+        },
+        {
+          "context": "집 마루 위에 나무가 자람",
+          "interpretation_ko": "부모에게 근심이 생길 조짐",
+          "interpretation_en": "a sign of worry for one's parents",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "樹生堂上父母憂",
+              "translation_ko": "나무가 마루 위에 자라면 부모에게 근심이 있다"
+            }
+          ]
+        },
+        {
+          "context": "큰 나무가 갑자기 부러짐",
+          "interpretation_ko": "흉악한 일이 생길 조짐",
+          "interpretation_en": "a sign of grave misfortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "大樹忽折主凶惡",
+              "translation_ko": "큰 나무가 갑자기 부러지면 흉악하다"
+            }
+          ]
+        },
+        {
+          "context": "나무를 메고 집으로 옴",
+          "interpretation_ko": "재물을 얻어 기쁠 조짐",
+          "interpretation_en": "a sign of joy from gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "擔木來家得財喜",
+              "translation_ko": "나무를 메고 집에 오면 재물을 얻어 기쁘다"
+            }
+          ]
+        },
+        {
+          "context": "큰 나무를 베어 넘김",
+          "interpretation_ko": "재물을 많이 얻을 조짐",
+          "interpretation_en": "a sign of gaining much wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "砍伐大樹多得財",
+              "translation_ko": "큰 나무를 베면 재물을 많이 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "풀과 나무가 우거짐",
+          "interpretation_ko": "집안이 흥할 조짐",
+          "interpretation_en": "a sign that the household will prosper",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "地理山石樹木",
+              "original": "草木茂盛家道興",
+              "translation_ko": "풀과 나무가 우거지면 집안이 흥한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cat",
       "term_ko": "고양이",
       "term_en": "cat",
@@ -12259,235 +12518,6 @@
         }
       ],
       "label_ko": "눈(雪)"
-    },
-    {
-      "id": "tree",
-      "term_ko": "나무",
-      "term_en": "tree",
-      "aliases": [
-        "고목",
-        "거목",
-        "수목"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "마른 나무에 다시 싹이 틈",
-          "interpretation_ko": "자손이 번성할 조짐",
-          "interpretation_en": "a sign that descendants will flourish",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "枯木再發子孫興",
-              "translation_ko": "마른 나무에 다시 싹이 트면 자손이 흥한다"
-            }
-          ]
-        },
-        {
-          "context": "나무가 말라 죽음",
-          "interpretation_ko": "집안이 편치 않을 조짐",
-          "interpretation_en": "a sign of unrest in the household",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "樹木枯死宅不安",
-              "translation_ko": "나무가 말라 죽으면 집안이 편안하지 않다"
-            }
-          ]
-        },
-        {
-          "context": "나무가 시들어 잎이 짐",
-          "interpretation_ko": "주인에게 흉한 조짐",
-          "interpretation_en": "an inauspicious sign for the head of the house",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "樹木凋零主人凶",
-              "translation_ko": "나무가 시들어 잎이 지면 주인이 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "숲속에 나무가 새로 자람",
-          "interpretation_ko": "귀한 자식을 얻을 조짐",
-          "interpretation_en": "a sign of gaining a noble child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "林中樹生添貴子",
-              "translation_ko": "숲속에 나무가 자라면 귀한 자식이 는다"
-            }
-          ]
-        },
-        {
-          "context": "나무를 심음",
-          "interpretation_ko": "크게 길하고 번창할 조짐",
-          "interpretation_en": "a very auspicious sign of prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "種植樹木大吉昌",
-              "translation_ko": "나무를 심으면 크게 길하고 번창한다"
-            }
-          ]
-        },
-        {
-          "context": "큰 나무에 오름",
-          "interpretation_ko": "명예와 이익이 드러날 조짐",
-          "interpretation_en": "a sign that fame and profit will be made manifest",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "登大樹名利顯揚",
-              "translation_ko": "큰 나무에 오르면 이름과 이익이 드러나 높아진다"
-            }
-          ]
-        },
-        {
-          "context": "오른 나무가 갑자기 부러짐",
-          "interpretation_ko": "죽거나 다칠 조짐",
-          "interpretation_en": "a sign of death or injury",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "上樹忽折有死傷",
-              "translation_ko": "나무에 올랐는데 갑자기 부러지면 죽거나 다친다"
-            }
-          ]
-        },
-        {
-          "context": "마른 나무에 꽃이 핌",
-          "interpretation_ko": "자손이 번성할 조짐",
-          "interpretation_en": "a sign that descendants will flourish",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "枯木開花子孫興",
-              "translation_ko": "마른 나무에 꽃이 피면 자손이 흥한다"
-            }
-          ]
-        },
-        {
-          "context": "큰 나무가 집 위로 넘어짐",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "大樹落人屋上吉",
-              "translation_ko": "큰 나무가 남의 집 위에 떨어지면 길하다"
-            }
-          ]
-        },
-        {
-          "context": "나무 아래에 서 있음",
-          "interpretation_ko": "귀인의 보살핌을 받을 조짐",
-          "interpretation_en": "a sign of being sheltered by a benefactor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "立樹下貴人庇蔭",
-              "translation_ko": "나무 아래 서면 귀인이 감싸 보살펴 준다"
-            }
-          ]
-        },
-        {
-          "context": "집 마루 위에 나무가 자람",
-          "interpretation_ko": "부모에게 근심이 생길 조짐",
-          "interpretation_en": "a sign of worry for one's parents",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "樹生堂上父母憂",
-              "translation_ko": "나무가 마루 위에 자라면 부모에게 근심이 있다"
-            }
-          ]
-        },
-        {
-          "context": "큰 나무가 갑자기 부러짐",
-          "interpretation_ko": "흉악한 일이 생길 조짐",
-          "interpretation_en": "a sign of grave misfortune",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "大樹忽折主凶惡",
-              "translation_ko": "큰 나무가 갑자기 부러지면 흉악하다"
-            }
-          ]
-        },
-        {
-          "context": "나무를 메고 집으로 옴",
-          "interpretation_ko": "재물을 얻어 기쁠 조짐",
-          "interpretation_en": "a sign of joy from gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "擔木來家得財喜",
-              "translation_ko": "나무를 메고 집에 오면 재물을 얻어 기쁘다"
-            }
-          ]
-        },
-        {
-          "context": "큰 나무를 베어 넘김",
-          "interpretation_ko": "재물을 많이 얻을 조짐",
-          "interpretation_en": "a sign of gaining much wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "砍伐大樹多得財",
-              "translation_ko": "큰 나무를 베면 재물을 많이 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "풀과 나무가 우거짐",
-          "interpretation_ko": "집안이 흥할 조짐",
-          "interpretation_en": "a sign that the household will prosper",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "地理山石樹木",
-              "original": "草木茂盛家道興",
-              "translation_ko": "풀과 나무가 우거지면 집안이 흥한다"
-            }
-          ]
-        }
-      ]
     },
     {
       "id": "bathing",
@@ -59277,6 +59307,83 @@
       ]
     },
     {
+      "id": "ditch",
+      "term_ko": "도랑",
+      "term_en": "ditch",
+      "aliases": [
+        "도랑에 빠졌다",
+        "개천 도랑",
+        "참호가",
+        "참호를",
+        "참호들"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "도랑에 빠짐",
+          "interpretation_ko": "낯이 깎이고 제 것을 잃을 조짐",
+          "interpretation_en": "degradation and personal loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ditch",
+              "original": "To dream of falling in a ditch, denotes degradation and personal loss;",
+              "translation_ko": "도랑에 빠지는 꿈은 낯 깎임과 제 것의 잃음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "도랑을 뛰어넘음",
+          "interpretation_ko": "잘못했다는 의심을 씻고 살아갈 조짐",
+          "interpretation_en": "you will live down any suspicion of wrong-doing",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ditch",
+              "original": "but if you jump over it, you will live down any suspicion of wrong-doing.",
+              "translation_ko": "그것을 뛰어넘으면, 잘못했다는 의심을 씻고 살아간다"
+            }
+          ]
+        },
+        {
+          "context": "참호들을 봄",
+          "interpretation_ko": "멀리서 배신이 다가옴을 경고하니 새 일을 벌이거나 낯선 이와 얽힐 때 조심할 조짐",
+          "interpretation_en": "warns you of distant treachery. You will sustain loss if not careful in undertaking new enterprises, or associating with strangers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trenches",
+              "original": "To see trenches in dreams, warns you of distant treachery.  You will sustain loss if not careful in undertaking new enterprises, or associating with strangers.",
+              "translation_ko": "참호들을 보는 꿈은, 멀리서 배신이 다가옴을 경고하니 새 일을 벌이거나 낯선 이와 얽힐 때 조심할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "메워진 참호를 봄",
+          "interpretation_ko": "여러 근심이 모여들 조짐",
+          "interpretation_en": "denotes many anxieties are gathering around you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trenches",
+              "original": "To see filled trenches, denotes many anxieties are gathering around you.",
+              "translation_ko": "메워진 참호를 보는 꿈은, 여러 근심이 모여들 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "divination",
       "term_ko": "점치기",
       "term_en": "divination",
@@ -61212,6 +61319,83 @@
               "locator": "Garlic",
               "original": "To eat garlic in your dreams, denotes that you will take a sensible view of life and leave its ideals to take care of themselves.",
               "translation_ko": "꿈에 마늘을 먹는 것은, 삶을 분수에 맞게 보고 헛된 이상은 제 갈 길로 두게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gold-and-silver-treasure",
+      "term_ko": "금은보화",
+      "term_en": "gold and silver treasure",
+      "aliases": [
+        "금은보배",
+        "보물",
+        "재보",
+        "금은"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "금은보화를 봄",
+          "interpretation_ko": "부귀해질 조짐",
+          "interpretation_en": "a sign of wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "金銀寶者主富貴",
+              "translation_ko": "금은보화는 부귀할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "보물을 찾아냄",
+          "interpretation_ko": "뜻밖의 너그러움의 도움으로 재물을 좇는 길에서 크게 힘을 얻을 조짐",
+          "interpretation_en": "you will be greatly aided in your pursuit of fortune by some unexpected generosity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Treasures",
+              "original": "To dream that you find treasures, denotes that you will be greatly aided in your pursuit of fortune by some unexpected generosity.",
+              "translation_ko": "보물을 찾아내는 꿈은, 뜻밖의 너그러움의 도움으로 재물을 좇는 길에서 크게 힘을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "보물을 잃음",
+          "interpretation_ko": "사업이 사나워지고 벗의 마음이 변덕스러워질 조짐",
+          "interpretation_en": "bad luck in business and the inconstancy of friends is foretold",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Treasures",
+              "original": "If you lose treasures, bad luck in business and the inconstancy of friends is foretold.",
+              "translation_ko": "보물을 잃는 꿈은, 사업이 사나워지고 벗의 마음이 변덕스러워질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "금은과 주옥을 봄",
+          "interpretation_ko": "크게 길하고 이로운 조짐",
+          "interpretation_en": "a very auspicious and favorable sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "金銀珠玉大吉利",
+              "translation_ko": "금은과 주옥은 크게 길하고 이롭다"
             }
           ]
         }
@@ -69089,6 +69273,80 @@
               "locator": "Train",
               "original": "To find yourself, in a dream, on top of a sleeping car, denotes you will make a journey with an unpleasant companion, with whom you will spend money and time that could be used in a more profitable and congenial way, and whom you will seek to avoid.",
               "translation_ko": "잠자는 객차 위에 있는 꿈은, 달갑잖은 길동무와 여행하며 돈과 시간을 허비하고 그를 피하려 애쓸 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "triplets",
+      "term_ko": "세쌍둥이",
+      "term_en": "triplets",
+      "aliases": [
+        "세쌍둥이가",
+        "세쌍둥이를"
+      ],
+      "category": "person",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "세쌍둥이를 봄",
+          "interpretation_ko": "두려워하던 일에서 성공할 조짐",
+          "interpretation_en": "foretells success in affairs where failure was feared",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Triplets",
+              "original": "To dream of seeing triplets, foretells success in affairs where failure was feared.",
+              "translation_ko": "세쌍둥이를 보는 꿈은, 두려워하던 일에서 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남자가 아내에게 세쌍둥이가 있는 꿈을 꿈",
+          "interpretation_ko": "오래 다투던 일이 즐겁게 끝날 조짐",
+          "interpretation_en": "signifies a pleasant termination to some affair which has been long in dispute",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Triplets",
+              "original": "For a man to dream that his wife has them, signifies a pleasant termination to some affair which has been long in dispute.",
+              "translation_ko": "남자가 아내에게 세쌍둥이가 있는 꿈을 꾸면, 오래 다투던 일이 즐겁게 끝날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "갓 태어난 세쌍둥이가 우는 소리를 들음",
+          "interpretation_ko": "다툼이 급히 풀려 즐거울 조짐",
+          "interpretation_en": "signifies disagreements which will be hastily reconciled to your pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Triplets",
+              "original": "To hear newly-born triplets crying, signifies disagreements which will be hastily reconciled to your pleasure.",
+              "translation_ko": "갓 태어난 세쌍둥이가 우는 소리를 들으면, 다툼이 급히 풀려 즐거울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 세쌍둥이를 낳는 꿈을 꿈",
+          "interpretation_ko": "사랑에서 잃음과 낙담을 겪으나 끝내 부를 이룰 조짐",
+          "interpretation_en": "denotes that she will suffer loss and disappointment in love, but will succeed to wealth",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Triplets",
+              "original": "For a young woman to dream that she has triplets, denotes that she will suffer loss and disappointment in love, but will succeed to wealth.",
+              "translation_ko": "처녀가 세쌍둥이를 낳는 꿈은, 사랑에서 잃음과 낙담을 겪으나 끝내 부를 이룰 조짐이다"
             }
           ]
         }
@@ -98317,52 +98575,6 @@
       ]
     },
     {
-      "id": "ditch",
-      "term_ko": "도랑",
-      "term_en": "ditch",
-      "aliases": [
-        "도랑에 빠졌다",
-        "개천 도랑"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "도랑에 빠짐",
-          "interpretation_ko": "낯이 깎이고 제 것을 잃을 조짐",
-          "interpretation_en": "degradation and personal loss",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ditch",
-              "original": "To dream of falling in a ditch, denotes degradation and personal loss;",
-              "translation_ko": "도랑에 빠지는 꿈은 낯 깎임과 제 것의 잃음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "도랑을 뛰어넘음",
-          "interpretation_ko": "잘못했다는 의심을 씻고 살아갈 조짐",
-          "interpretation_en": "you will live down any suspicion of wrong-doing",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ditch",
-              "original": "but if you jump over it, you will live down any suspicion of wrong-doing.",
-              "translation_ko": "그것을 뛰어넘으면, 잘못했다는 의심을 씻고 살아간다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "dividend",
       "term_ko": "배당금",
       "term_en": "dividend",
@@ -101448,54 +101660,6 @@
               "locator": "Goggles",
               "original": "For a young woman to dream of goggles, means that she will listen to persuasion which will mar her fortune.",
               "translation_ko": "처녀의 보안경 꿈은, 꾐에 넘어가 복을 그르침을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "gold-and-silver-treasure",
-      "term_ko": "금은보화",
-      "term_en": "gold and silver treasure",
-      "aliases": [
-        "금은보배",
-        "보물",
-        "재보",
-        "금은"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "금은보화를 봄",
-          "interpretation_ko": "부귀해질 조짐",
-          "interpretation_en": "a sign of wealth and honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "金銀寶者主富貴",
-              "translation_ko": "금은보화는 부귀할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "금은과 주옥을 봄",
-          "interpretation_ko": "크게 길하고 이로운 조짐",
-          "interpretation_en": "a very auspicious and favorable sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "金銀珠玉大吉利",
-              "translation_ko": "금은과 주옥은 크게 길하고 이롭다"
             }
           ]
         }
@@ -115878,6 +116042,144 @@
       ]
     },
     {
+      "id": "tripe",
+      "term_ko": "천엽",
+      "term_en": "tripe",
+      "aliases": [
+        "천엽이",
+        "천엽을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "천엽을 봄",
+          "interpretation_ko": "병과 위험의 조짐",
+          "interpretation_en": "means sickness and danger",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tripe",
+              "original": "To see tripe in a dream, means sickness and danger.",
+              "translation_ko": "천엽을 보는 꿈은, 병과 위험의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "천엽을 먹음",
+          "interpretation_ko": "중대한 일에서 실망할 조짐",
+          "interpretation_en": "denotes that you will be disappointed in some serious matter",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tripe",
+              "original": "To eat tripe, denotes that you will be disappointed in some serious matter.",
+              "translation_ko": "천엽을 먹는 꿈은, 중대한 일에서 실망할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trophy",
+      "term_ko": "전리품",
+      "term_en": "trophy",
+      "aliases": [
+        "전리품이",
+        "전리품을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "전리품을 봄",
+          "interpretation_ko": "그저 아는 사이일 뿐인 이들의 애씀으로 즐거움이나 복이 올 조짐",
+          "interpretation_en": "signifies some pleasure or fortune will come to you through the endeavors of mere acquaintances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trophy",
+              "original": "To see trophies in a dream, signifies some pleasure or fortune will come to you through the endeavors of mere acquaintances.",
+              "translation_ko": "전리품을 보는 꿈은, 그저 아는 사이일 뿐인 이들의 애씀으로 즐거움이나 복이 올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 전리품을 남에게 줌",
+          "interpretation_ko": "즐거움과 복이 미덥지 않을 조짐",
+          "interpretation_en": "implies doubtful pleasures and fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trophy",
+              "original": "For a woman to give away a trophy, implies doubtful pleasures and fortune.",
+              "translation_ko": "여성이 전리품을 남에게 주는 꿈은, 즐거움과 복이 미덥지 않을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trousers",
+      "term_ko": "바지",
+      "term_en": "trousers",
+      "aliases": [
+        "바지가",
+        "바지를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "바지 꿈을 꿈",
+          "interpretation_ko": "떳떳하지 못한 일에 이끌릴 조짐",
+          "interpretation_en": "foretells that you will be tempted to dishonorable deeds",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trousers",
+              "original": "To dream of trousers, foretells that you will be tempted to dishonorable deeds.",
+              "translation_ko": "바지 꿈을 꾸면, 떳떳하지 못한 일에 이끌릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "바지를 뒤집어 입음",
+          "interpretation_ko": "무언가에 홀려 마음을 빼앗길 조짐",
+          "interpretation_en": "you will find that a fascination is fastening its hold upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trousers",
+              "original": "If you put them on wrong side out, you will find that a fascination is fastening its hold upon you.",
+              "translation_ko": "바지를 뒤집어 입는 꿈은, 무언가에 홀려 마음을 빼앗길 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "urine",
       "term_ko": "오줌",
       "term_en": "urine",
@@ -129486,6 +129788,38 @@
               "locator": "帝王文武呼召",
               "original": "合伴同行凶事至",
               "translation_ko": "짝을 지어 함께 가면 흉한 일이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "triangle",
+      "term_ko": "삼각형",
+      "term_en": "triangle",
+      "aliases": [
+        "삼각형이",
+        "삼각형을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "삼각형 꿈을 꿈",
+          "interpretation_ko": "벗과 헤어지고 애정 문제가 다툼으로 끝날 조짐",
+          "interpretation_en": "foretells separation from friends, and love affairs will terminate in disagreements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Triangle",
+              "original": "To dream of a triangle, foretells separation from friends, and love affairs will terminate in disagreements.",
+              "translation_ko": "삼각형 꿈을 꾸면, 벗과 헤어지고 애정 문제가 다툼으로 끝날 조짐이다"
             }
           ]
         }

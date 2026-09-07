@@ -267,7 +267,10 @@
     "id": "ditch",
     "aliases": [
       "도랑에 빠졌다",
-      "개천 도랑"
+      "개천 도랑",
+      "참호가",
+      "참호를",
+      "참호들"
     ],
     "aliases_en": [
       "a ditch",
@@ -275,11 +278,15 @@
     ],
     "contexts": {
       "도랑에 빠짐": "빠졌 빠져 굴러",
-      "도랑을 뛰어넘음": "뛰어넘 건너뛰 넘었"
+      "도랑을 뛰어넘음": "뛰어넘 건너뛰 넘었",
+      "참호들을 봄": "배신 낯선",
+      "메워진 참호를 봄": "메워진"
     },
     "contexts_en": {
       "도랑에 빠짐": "falling degradation personal",
-      "도랑을 뛰어넘음": "jump suspicion wrong-doing"
+      "도랑을 뛰어넘음": "jump suspicion wrong-doing",
+      "참호들을 봄": "treachery enterprises strangers",
+      "메워진 참호를 봄": "filled anxieties gathering"
     }
   },
   {

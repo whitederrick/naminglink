@@ -8034,5 +8034,25 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "tray",
     "trays",
     "a tray"
+  ],
+  "triangle": [
+    "a triangle",
+    "triangles"
+  ],
+  "tripe": [
+    "tripe"
+  ],
+  "triplets": [
+    "triplets",
+    "a triplet"
+  ],
+  "trophy": [
+    "trophy",
+    "trophies",
+    "a trophy"
+  ],
+  "trousers": [
+    "trousers",
+    "pants"
   ]
 };

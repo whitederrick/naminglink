@@ -1,0 +1,257 @@
+[
+  {
+    "term_ko": "금은보화",
+    "term_en": "gold and silver treasure",
+    "context": "보물을 찾아냄",
+    "interpretation_ko": "뜻밖의 너그러움의 도움으로 재물을 좇는 길에서 크게 힘을 얻을 조짐",
+    "interpretation_en": "you will be greatly aided in your pursuit of fortune by some unexpected generosity",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Treasures",
+      "original": "To dream that you find treasures, denotes that you will be greatly aided in your pursuit of fortune by some unexpected generosity.",
+      "translation_ko": "보물을 찾아내는 꿈은, 뜻밖의 너그러움의 도움으로 재물을 좇는 길에서 크게 힘을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "금은보화",
+    "term_en": "gold and silver treasure",
+    "context": "보물을 잃음",
+    "interpretation_ko": "사업이 사나워지고 벗의 마음이 변덕스러워질 조짐",
+    "interpretation_en": "bad luck in business and the inconstancy of friends is foretold",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Treasures",
+      "original": "If you lose treasures, bad luck in business and the inconstancy of friends is foretold.",
+      "translation_ko": "보물을 잃는 꿈은, 사업이 사나워지고 벗의 마음이 변덕스러워질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "새 잎이 돋은 나무를 봄",
+    "interpretation_ko": "바라던 바가 행복하게 이루어질 조짐",
+    "interpretation_en": "foretells a happy consummation of hopes and desires",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Trees",
+      "original": "To dream of trees in new foliage, foretells a happy consummation of hopes and desires.",
+      "translation_ko": "새 잎이 돋은 나무를 보는 꿈은, 바라던 바가 행복하게 이루어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나무",
+    "term_en": "tree",
+    "context": "갓 베어진 푸른 나무를 봄",
+    "interpretation_ko": "즐거움과 번영의 자리에 뜻밖의 불행이 닥칠 조짐",
+    "interpretation_en": "portends unhappiness coming unexpectedly upon scenes of enjoyment, or prosperity",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Trees",
+      "original": "To see green tress newly felled, portends unhappiness coming unexpectedly upon scenes of enjoyment, or prosperity.",
+      "translation_ko": "갓 베어진 푸른 나무를 보는 꿈은, 즐거움과 번영의 자리에 뜻밖의 불행이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "도랑",
+    "term_en": "ditch",
+    "context": "참호들을 봄",
+    "interpretation_ko": "멀리서 배신이 다가옴을 경고하니 새 일을 벌이거나 낯선 이와 얽힐 때 조심할 조짐",
+    "interpretation_en": "warns you of distant treachery. You will sustain loss if not careful in undertaking new enterprises, or associating with strangers",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Trenches",
+      "original": "To see trenches in dreams, warns you of distant treachery.  You will sustain loss if not careful in undertaking new enterprises, or associating with strangers.",
+      "translation_ko": "참호들을 보는 꿈은, 멀리서 배신이 다가옴을 경고하니 새 일을 벌이거나 낯선 이와 얽힐 때 조심할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "도랑",
+    "term_en": "ditch",
+    "context": "메워진 참호를 봄",
+    "interpretation_ko": "여러 근심이 모여들 조짐",
+    "interpretation_en": "denotes many anxieties are gathering around you",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Trenches",
+      "original": "To see filled trenches, denotes many anxieties are gathering around you.",
+      "translation_ko": "메워진 참호를 보는 꿈은, 여러 근심이 모여들 조짐이다"
+    }
+  },
+  {
+    "term_ko": "삼각형",
+    "term_en": "triangle",
+    "context": "삼각형 꿈을 꿈",
+    "interpretation_ko": "벗과 헤어지고 애정 문제가 다툼으로 끝날 조짐",
+    "interpretation_en": "foretells separation from friends, and love affairs will terminate in disagreements",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Triangle",
+      "original": "To dream of a triangle, foretells separation from friends, and love affairs will terminate in disagreements.",
+      "translation_ko": "삼각형 꿈을 꾸면, 벗과 헤어지고 애정 문제가 다툼으로 끝날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "천엽",
+    "term_en": "tripe",
+    "context": "천엽을 봄",
+    "interpretation_ko": "병과 위험의 조짐",
+    "interpretation_en": "means sickness and danger",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tripe",
+      "original": "To see tripe in a dream, means sickness and danger.",
+      "translation_ko": "천엽을 보는 꿈은, 병과 위험의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "천엽",
+    "term_en": "tripe",
+    "context": "천엽을 먹음",
+    "interpretation_ko": "중대한 일에서 실망할 조짐",
+    "interpretation_en": "denotes that you will be disappointed in some serious matter",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tripe",
+      "original": "To eat tripe, denotes that you will be disappointed in some serious matter.",
+      "translation_ko": "천엽을 먹는 꿈은, 중대한 일에서 실망할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "세쌍둥이",
+    "term_en": "triplets",
+    "context": "세쌍둥이를 봄",
+    "interpretation_ko": "두려워하던 일에서 성공할 조짐",
+    "interpretation_en": "foretells success in affairs where failure was feared",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Triplets",
+      "original": "To dream of seeing triplets, foretells success in affairs where failure was feared.",
+      "translation_ko": "세쌍둥이를 보는 꿈은, 두려워하던 일에서 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "세쌍둥이",
+    "term_en": "triplets",
+    "context": "남자가 아내에게 세쌍둥이가 있는 꿈을 꿈",
+    "interpretation_ko": "오래 다투던 일이 즐겁게 끝날 조짐",
+    "interpretation_en": "signifies a pleasant termination to some affair which has been long in dispute",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Triplets",
+      "original": "For a man to dream that his wife has them, signifies a pleasant termination to some affair which has been long in dispute.",
+      "translation_ko": "남자가 아내에게 세쌍둥이가 있는 꿈을 꾸면, 오래 다투던 일이 즐겁게 끝날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "세쌍둥이",
+    "term_en": "triplets",
+    "context": "갓 태어난 세쌍둥이가 우는 소리를 들음",
+    "interpretation_ko": "다툼이 급히 풀려 즐거울 조짐",
+    "interpretation_en": "signifies disagreements which will be hastily reconciled to your pleasure",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Triplets",
+      "original": "To hear newly-born triplets crying, signifies disagreements which will be hastily reconciled to your pleasure.",
+      "translation_ko": "갓 태어난 세쌍둥이가 우는 소리를 들으면, 다툼이 급히 풀려 즐거울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "세쌍둥이",
+    "term_en": "triplets",
+    "context": "처녀가 세쌍둥이를 낳는 꿈을 꿈",
+    "interpretation_ko": "사랑에서 잃음과 낙담을 겪으나 끝내 부를 이룰 조짐",
+    "interpretation_en": "denotes that she will suffer loss and disappointment in love, but will succeed to wealth",
+    "polarity": "neutral",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Triplets",
+      "original": "For a young woman to dream that she has triplets, denotes that she will suffer loss and disappointment in love, but will succeed to wealth.",
+      "translation_ko": "처녀가 세쌍둥이를 낳는 꿈은, 사랑에서 잃음과 낙담을 겪으나 끝내 부를 이룰 조짐이다"
+    }
+  },
+  {
+    "term_ko": "전리품",
+    "term_en": "trophy",
+    "context": "전리품을 봄",
+    "interpretation_ko": "그저 아는 사이일 뿐인 이들의 애씀으로 즐거움이나 복이 올 조짐",
+    "interpretation_en": "signifies some pleasure or fortune will come to you through the endeavors of mere acquaintances",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Trophy",
+      "original": "To see trophies in a dream, signifies some pleasure or fortune will come to you through the endeavors of mere acquaintances.",
+      "translation_ko": "전리품을 보는 꿈은, 그저 아는 사이일 뿐인 이들의 애씀으로 즐거움이나 복이 올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "전리품",
+    "term_en": "trophy",
+    "context": "여성이 전리품을 남에게 줌",
+    "interpretation_ko": "즐거움과 복이 미덥지 않을 조짐",
+    "interpretation_en": "implies doubtful pleasures and fortune",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Trophy",
+      "original": "For a woman to give away a trophy, implies doubtful pleasures and fortune.",
+      "translation_ko": "여성이 전리품을 남에게 주는 꿈은, 즐거움과 복이 미덥지 않을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바지",
+    "term_en": "trousers",
+    "context": "바지 꿈을 꿈",
+    "interpretation_ko": "떳떳하지 못한 일에 이끌릴 조짐",
+    "interpretation_en": "foretells that you will be tempted to dishonorable deeds",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Trousers",
+      "original": "To dream of trousers, foretells that you will be tempted to dishonorable deeds.",
+      "translation_ko": "바지 꿈을 꾸면, 떳떳하지 못한 일에 이끌릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바지",
+    "term_en": "trousers",
+    "context": "바지를 뒤집어 입음",
+    "interpretation_ko": "무언가에 홀려 마음을 빼앗길 조짐",
+    "interpretation_en": "you will find that a fascination is fastening its hold upon you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Trousers",
+      "original": "If you put them on wrong side out, you will find that a fascination is fastening its hold upon you.",
+      "translation_ko": "바지를 뒤집어 입는 꿈은, 무언가에 홀려 마음을 빼앗길 조짐이다"
+    }
+  }
+]

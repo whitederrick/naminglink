@@ -1,0 +1,99 @@
+[
+  {
+    "id": "triangle",
+    "aliases": [
+      "삼각형이",
+      "삼각형을"
+    ],
+    "aliases_en": [
+      "a triangle",
+      "triangles"
+    ],
+    "contexts": {
+      "삼각형 꿈을 꿈": "그냥"
+    },
+    "contexts_en": {
+      "삼각형 꿈을 꿈": "separation friends disagreements"
+    }
+  },
+  {
+    "id": "tripe",
+    "aliases": [
+      "천엽이",
+      "천엽을"
+    ],
+    "aliases_en": [
+      "tripe"
+    ],
+    "contexts": {
+      "천엽을 봄": "그냥",
+      "천엽을 먹음": "먹었"
+    },
+    "contexts_en": {
+      "천엽을 봄": "sickness danger",
+      "천엽을 먹음": "eat disappointed serious"
+    }
+  },
+  {
+    "id": "triplets",
+    "aliases": [
+      "세쌍둥이가",
+      "세쌍둥이를"
+    ],
+    "aliases_en": [
+      "triplets",
+      "a triplet"
+    ],
+    "contexts": {
+      "세쌍둥이를 봄": "그냥",
+      "남자가 아내에게 세쌍둥이가 있는 꿈을 꿈": "아내에게",
+      "갓 태어난 세쌍둥이가 우는 소리를 들음": "우는 소리",
+      "처녀가 세쌍둥이를 낳는 꿈을 꿈": "처녀가 낳는"
+    },
+    "contexts_en": {
+      "세쌍둥이를 봄": "success feared",
+      "남자가 아내에게 세쌍둥이가 있는 꿈을 꿈": "wife pleasant dispute",
+      "갓 태어난 세쌍둥이가 우는 소리를 들음": "newly-born crying hastily",
+      "처녀가 세쌍둥이를 낳는 꿈을 꿈": "young woman loss disappointment wealth"
+    }
+  },
+  {
+    "id": "trophy",
+    "aliases": [
+      "전리품이",
+      "전리품을"
+    ],
+    "aliases_en": [
+      "trophy",
+      "trophies",
+      "a trophy"
+    ],
+    "contexts": {
+      "전리품을 봄": "그냥",
+      "여성이 전리품을 남에게 줌": "여성이 주었"
+    },
+    "contexts_en": {
+      "전리품을 봄": "pleasure fortune acquaintances",
+      "여성이 전리품을 남에게 줌": "woman give doubtful"
+    }
+  },
+  {
+    "id": "trousers",
+    "aliases": [
+      "바지가",
+      "바지를"
+    ],
+    "aliases_en": [
+      "trousers",
+      "pants"
+    ],
+    "contexts": {
+      "바지 꿈을 꿈": "그냥",
+      "바지를 뒤집어 입음": "뒤집어"
+    },
+    "contexts_en": {
+      "바지 꿈을 꿈": "tempted dishonorable",
+      "바지를 뒤집어 입음": "wrong side fascination"
+    }
+  }
+]

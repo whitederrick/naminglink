@@ -1,9 +1,13 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 276 — Train~Tray. 새 상징 다섯(train·traitor·
-// transfiguration·trap·tray), 기존 long-journey에 문맥 5개 추가.
-// Traveling의 첫 문장(여행 자체를 꿈꿈)은 기존 long-journey의
-// 「길을 떠남」과 같은 그림이라 §31로 건너뜀 — 장면 자체에 가를 낱말이
-// 없었다.
+// (지금 담긴 것: 배치 277 — Treasures~Trousers. 새 상징 다섯(triangle·
+// tripe·triplets·trophy·trousers), 기존 tree·ditch·gold-and-silver-
+// treasure에 문맥을 나눠 붙임. Trees의 「dead trees」·「climb a tree」는
+// 기존 tree와 같은 그림이라, 「cut one down」은 같은 그림에 극성이
+// 정반대라 §31로 건너뜀. Treasures는 새 상징 「보물」로 세우려 했으나
+// gold-and-silver-treasure가 이미 「보물」을 별칭으로 쥐고 있어(audit-
+// cross-symbol-aliases가 잡음) 그 상징에 합쳤다. Trenches(→Ditch)도
+// ditch에 aliases_en "trench"를 더하려다 pit이 이미 그 낱말을 쥐고 있어
+// 뺐다(한국어 별칭 "참호"만 남김).
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -34,31 +38,29 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 276 새 문맥 (19건) ────────────────────────────────────────────
-  { id: "train", ctx: "기차가 움직이는 것을 봄", text: "기차가 움직이는 것을 보았다" },
-  { id: "train", ctx: "궤도 없이도 기차가 매끄럽게 나아감", text: "궤도도 없이 기차가 매끄럽게 나아갔다" },
-  { id: "train", ctx: "화물열차를 봄", text: "화물열차를 보았다" },
-  { id: "train", ctx: "잠자는 객차 위에 있음", text: "잠자는 객차 위에 있었다" },
-  { id: "traitor", ctx: "꿈에 배신자를 봄", text: "꿈에 배신자를 보았다" },
-  { id: "traitor", ctx: "누가 자신을 배신자라 부르거나 스스로 그렇다 여김", text: "누가 나를 배신자라 불렀다" },
-  { id: "transfiguration", ctx: "거룩한 변모를 꿈꿈", text: "거룩한 변모를 꿈꾸었다" },
-  { id: "transfiguration", ctx: "스스로 변모한 모습을 봄", text: "스스로 변모한 모습을 보았다" },
-  { id: "trap", ctx: "함정을 놓음", text: "함정을 놓았다" },
-  { id: "trap", ctx: "함정에 걸림", text: "함정에 걸렸다" },
-  { id: "trap", ctx: "함정으로 짐승을 잡음", text: "함정으로 짐승을 잡았다" },
-  { id: "trap", ctx: "빈 함정을 봄", text: "함정을 보았는데 아무것도 없이 비어 있었다" },
-  { id: "trap", ctx: "낡거나 부서진 함정을 봄", text: "낡고 부서진 함정을 보았다" },
-  { id: "long-journey", ctx: "낯설고 험한 곳으로 여행함", text: "낯선 곳으로 여행을 가다가 험한 길을 만났다" },
-  { id: "long-journey", ctx: "메마르고 바위투성이인 비탈을 지남", text: "바위투성이 비탈로 여행을 갔다" },
-  { id: "long-journey", ctx: "기름지고 푸른 언덕이나 산을 지남", text: "기름진 언덕으로 여행을 갔다" },
-  { id: "long-journey", ctx: "홀로 차를 타고 여행함", text: "홀로 차를 타고 여행을 갔다" },
-  { id: "long-journey", ctx: "붐비는 차를 타고 여행함", text: "붐비는 차를 타고 여행을 갔다" },
-  { id: "tray", ctx: "쟁반들을 봄", text: "쟁반들을 보았다" },
-  { id: "tray", ctx: "쟁반에 값진 것이 가득함", text: "쟁반에 값진 것이 가득했다" },
+  // ── 배치 277 새 문맥 (17건) ────────────────────────────────────────────
+  { id: "gold-and-silver-treasure", ctx: "보물을 찾아냄", text: "보물을 찾아냈다" },
+  { id: "gold-and-silver-treasure", ctx: "보물을 잃음", text: "보물을 잃었다" },
+  { id: "tree", ctx: "새 잎이 돋은 나무를 봄", text: "나무에 신록이 우거진 것을 보았다" },
+  { id: "tree", ctx: "갓 베어진 푸른 나무를 봄", text: "누가 베어낸 푸른 나무가 쓰러진 것을 보았다" },
+  { id: "ditch", ctx: "참호들을 봄", text: "참호들을 보았는데 낯선 사람의 배신이 걱정됐다" },
+  { id: "ditch", ctx: "메워진 참호를 봄", text: "메워진 참호를 보았다" },
+  { id: "triangle", ctx: "삼각형 꿈을 꿈", text: "삼각형 꿈을 꾸었다" },
+  { id: "tripe", ctx: "천엽을 봄", text: "천엽을 보았다" },
+  { id: "tripe", ctx: "천엽을 먹음", text: "천엽을 먹었다" },
+  { id: "triplets", ctx: "세쌍둥이를 봄", text: "세쌍둥이를 보았다" },
+  { id: "triplets", ctx: "남자가 아내에게 세쌍둥이가 있는 꿈을 꿈", text: "아내에게 세쌍둥이가 있는 꿈을 꾸었다" },
+  { id: "triplets", ctx: "갓 태어난 세쌍둥이가 우는 소리를 들음", text: "갓 태어난 세쌍둥이가 우는 소리를 들었다" },
+  { id: "triplets", ctx: "처녀가 세쌍둥이를 낳는 꿈을 꿈", text: "처녀가 세쌍둥이를 낳는 꿈을 꾸었다" },
+  { id: "trophy", ctx: "전리품을 봄", text: "전리품을 보았다" },
+  { id: "trophy", ctx: "여성이 전리품을 남에게 줌", text: "여성이 전리품을 남에게 주었다" },
+  { id: "trousers", ctx: "바지 꿈을 꿈", text: "바지 꿈을 꾸었다" },
+  { id: "trousers", ctx: "바지를 뒤집어 입음", text: "바지를 뒤집어 입었다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────
-  { id: "long-journey", ctx: "길을 떠남", text: "길을 떠났다" },
-  { id: "long-journey", ctx: "먼 길을 오가며 다님", text: "여행을 하며 먼 곳을 오가며 지냈다" },
+  { id: "gold-and-silver-treasure", ctx: "금은보화를 봄", text: "금은보화가 잔뜩 쌓인 것을 보았다" },
+  { id: "tree", ctx: "큰 나무에 오름", text: "큰 나무에 기어올랐다" },
+  { id: "ditch", ctx: "도랑에 빠짐", text: "도랑에 빠졌다" },
 ];
 
 let notFound = 0;

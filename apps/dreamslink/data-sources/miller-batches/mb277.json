@@ -1,0 +1,46 @@
+{
+  "batch": 277,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Treasures",
+      "text": "To dream that you find treasures, denotes that you will be greatly aided in your pursuit of fortune by some unexpected generosity.\n\nIf you lose treasures, bad luck in business and the inconstancy of friends is foretold.",
+      "note": "기존 gold-and-silver-treasure(금은보화) 상징에 문맥 2개 추가 — 새 상징 「보물」로 세우려 했으나 gold-and-silver-treasure가 이미 「보물」을 별칭으로 쥐고 있어(audit-cross-symbol-aliases가 잡음) 합침"
+    },
+    {
+      "headword": "Trees",
+      "text": "To dream of trees in new foliage, foretells a happy consummation of hopes and desires.  Dead trees signal sorrow and loss.\n\nTo climb a tree is a sign of swift elevation and preferment.\n\nTo cut one down, or pull it up by the roots, denotes that you will waste your energies and wealth foolishly.\n\nTo see green tress newly felled, portends unhappiness coming unexpectedly upon scenes of enjoyment, or prosperity.",
+      "note": "기존 tree(나무) 상징에 문맥 2개 추가. 「Dead trees」는 기존 「나무가 말라 죽음」(흉)과, 「climb a tree」는 기존 「큰 나무에 오름」(길)과 같은 그림이라 §31로 건너뜀. 「cut one down」은 기존 「큰 나무를 베어 넘김」(길)과 같은 그림인데 극성이 정반대(밀러는 흉)라 §31로 건너뜀. 각주 [230] See Forest는 별도로 뽑을 본문이 없다"
+    },
+    {
+      "headword": "Trenches",
+      "text": "To see trenches in dreams, warns you of distant treachery.  You will sustain loss if not careful in undertaking new enterprises, or associating with strangers.\n\nTo see filled trenches, denotes many anxieties are gathering around you.",
+      "note": "기존 ditch(도랑) 상징에 문맥 2개 추가 — 각주 [231] See Ditch. 참호(trench)를 도랑과 같은 것으로 다루는 원문 지시를 그대로 따름"
+    },
+    {
+      "headword": "Triangle",
+      "text": "To dream of a triangle, foretells separation from friends, and love affairs will terminate in disagreements.",
+      "note": "새 상징 triangle(삼각형)"
+    },
+    {
+      "headword": "Tripe",
+      "text": "To see tripe in a dream, means sickness and danger.\n\nTo eat tripe, denotes that you will be disappointed in some serious matter.",
+      "note": "새 상징 tripe(천엽)"
+    },
+    {
+      "headword": "Triplets",
+      "text": "To dream of seeing triplets, foretells success in affairs where failure was feared.\n\nFor a man to dream that his wife has them, signifies a pleasant termination to some affair which has been long in dispute.\n\nTo hear newly-born triplets crying, signifies disagreements which will be hastily reconciled to your pleasure.\n\nFor a young woman to dream that she has triplets, denotes that she will suffer loss and disappointment in love, but will succeed to wealth.",
+      "note": "새 상징 triplets(세쌍둥이)"
+    },
+    {
+      "headword": "Trophy",
+      "text": "To see trophies in a dream, signifies some pleasure or fortune will come to you through the endeavors of mere acquaintances.  For a woman to give away a trophy, implies doubtful pleasures and fortune.",
+      "note": "새 상징 trophy(전리품)"
+    },
+    {
+      "headword": "Trousers",
+      "text": "To dream of trousers, foretells that you will be tempted to dishonorable deeds.\n\nIf you put them on wrong side out, you will find that a fascination is fastening its hold upon you.",
+      "note": "새 상징 trousers(바지)"
+    }
+  ]
+}
