@@ -181,10 +181,13 @@
       "방아깨비",
       "메뚜기 떼",
       "메뚜기가",
-      "메뚜기를"
+      "메뚜기를",
+      "해충이",
+      "해충을"
     ],
     "aliases_en": [
-      "grasshoppers"
+      "grasshoppers",
+      "vermin"
     ],
     "contexts": {
       "푸른 남새 위의 메뚜기를 봄": "남새 채소 푸른",
@@ -192,7 +195,10 @@
       "해와 나 사이에 있는 메뚜기를 봄": "해와 햇빛 사이",
       "남에게 메뚜기를 가리켜 보임": "가리 알려 보여",
       "메뚜기를 봄": "무리 떼지어 새까맣게",
-      "여성이 메뚜기 꿈을 꿈": "여자가 여성이 처녀가"
+      "여성이 메뚜기 꿈을 꿈": "여자가 여성이 처녀가",
+      "해충이 기어다니는 것을 봄": "기어다니",
+      "해충을 없애는 데 성공함": "없애는",
+      "해충을 없애지 못함": "없애지"
     },
     "contexts_en": {
       "푸른 남새 위의 메뚜기를 봄": "green vegetables enemies threaten interests",
@@ -200,7 +206,10 @@
       "해와 나 사이에 있는 메뚜기를 봄": "between sun vexatious caution adjust",
       "남에게 메뚜기를 가리켜 보임": "call attention discreet dispatching private",
       "메뚜기를 봄": "locusts discrepancies worry suffer",
-      "여성이 메뚜기 꿈을 꿈": "bestow affections ungenerous"
+      "여성이 메뚜기 꿈을 꿈": "bestow affections ungenerous",
+      "해충이 기어다니는 것을 봄": "crawling sickness trouble",
+      "해충을 없애는 데 성공함": "succeed ridding fairly",
+      "해충을 없애지 못함": "otherwise death relatives"
     }
   },
   {

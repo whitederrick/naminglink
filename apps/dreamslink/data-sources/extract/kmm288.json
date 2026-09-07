@@ -1,0 +1,101 @@
+[
+  {
+    "id": "vein",
+    "aliases": [
+      "정맥이",
+      "정맥을"
+    ],
+    "aliases_en": [
+      "vein",
+      "veins"
+    ],
+    "contexts": {
+      "정상적인 정맥을 봄": "그냥",
+      "피가 나는 정맥을 봄": "피가",
+      "부어오른 정맥을 봄": "부어"
+    },
+    "contexts_en": {
+      "정상적인 정맥을 봄": "normal insures slander",
+      "피가 나는 정맥을 봄": "bleeding great sorrow",
+      "부어오른 정맥을 봄": "swollen hastily distinction"
+    }
+  },
+  {
+    "id": "velvet",
+    "aliases": [
+      "벨벳이",
+      "벨벳을"
+    ],
+    "aliases_en": [
+      "velvet",
+      "velvets"
+    ],
+    "contexts": {
+      "벨벳 꿈을 꿈": "그냥",
+      "스스로 벨벳을 입음": "입었",
+      "낡은 벨벳을 봄": "낡은",
+      "처녀가 벨벳 옷을 입음": "처녀가 옷을"
+    },
+    "contexts_en": {
+      "벨벳 꿈을 꿈": "successful enterprises",
+      "스스로 벨벳을 입음": "wear distinction conferred",
+      "낡은 벨벳을 봄": "old prosperity pride",
+      "처녀가 벨벳 옷을 입음": "young woman honors wealthy"
+    }
+  },
+  {
+    "id": "veneer",
+    "aliases": [
+      "베니어를",
+      "베니어가"
+    ],
+    "aliases_en": [
+      "veneer",
+      "veneering"
+    ],
+    "contexts": {
+      "스스로 베니어를 바름": "그냥"
+    },
+    "contexts_en": {
+      "스스로 베니어를 바름": "systematically deceive misleading"
+    }
+  },
+  {
+    "id": "ventriloquist",
+    "aliases": [
+      "복화술사가",
+      "복화술사의",
+      "복화술사라고"
+    ],
+    "aliases_en": [
+      "ventriloquist",
+      "a ventriloquist"
+    ],
+    "contexts": {
+      "복화술사 꿈을 꿈": "그냥",
+      "스스로 복화술사라고 여김": "여겼",
+      "처녀가 복화술사의 목소리에 홀림": "처녀가"
+    },
+    "contexts_en": {
+      "복화술사 꿈을 꿈": "treasonable detrimental interest",
+      "스스로 복화술사라고 여김": "conduct honorably trust",
+      "처녀가 복화술사의 목소리에 홀림": "mystified voice illicit"
+    }
+  },
+  {
+    "id": "vertigo",
+    "aliases": [
+      "현기증이",
+      "현기증을"
+    ],
+    "aliases_en": [
+      "vertigo"
+    ],
+    "contexts": {
+      "스스로 현기증이 있음": "그냥"
+    },
+    "contexts_en": {
+      "스스로 현기증이 있음": "loss domestic gloomy"
+    }
+  }
+]

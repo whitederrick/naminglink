@@ -205,11 +205,17 @@
     ],
     "contexts": {
       "연인들이 발코니에서 슬픈 작별을 함": "연인 작별 이별 헤어지",
-      "발코니 꿈을 꿈": "보았 바라보 서있"
+      "발코니 꿈을 꿈": "보았 바라보 서있",
+      "베란다에서 근심거리를 성공으로 이끎": "근심",
+      "처녀가 연인과 베란다에 있음": "혼인",
+      "낡은 베란다를 봄": "낡은"
     },
     "contexts_en": {
       "연인들이 발코니에서 슬픈 작별을 함": "lovers farewell parting sad",
-      "발코니 꿈을 꿈": "saw looking stood"
+      "발코니 꿈을 꿈": "saw looking stood",
+      "베란다에서 근심거리를 성공으로 이끎": "successful anxiety affair",
+      "처녀가 연인과 베란다에 있음": "early happy marriage",
+      "낡은 베란다를 봄": "decline hopes disappointment"
     }
   },
   {

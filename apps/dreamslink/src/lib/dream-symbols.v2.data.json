@@ -211,6 +211,7 @@
     "m285.json",
     "m286.json",
     "m287.json",
+    "m288.json",
     "m29.json",
     "m3.json",
     "m30.json",
@@ -4131,6 +4132,20 @@
       "tags": [],
       "weight": 1,
       "meanings": [
+        {
+          "context": "여러 배를 봄",
+          "interpretation_ko": "노동과 활동의 조짐",
+          "interpretation_en": "denotes labor and activity",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vessels",
+              "original": "To dream of vessels, denotes labor and activity.",
+              "translation_ko": "여러 배를 보는 꿈은, 노동과 활동의 조짐이다"
+            }
+          ]
+        },
         {
           "context": "맑은 물 위의 배를 봄",
           "interpretation_ko": "밝은 전망을 예고하는 조짐",
@@ -24921,6 +24936,155 @@
       ]
     },
     {
+      "id": "grasshopper",
+      "term_ko": "메뚜기",
+      "term_en": "grasshopper",
+      "aliases": [
+        "메뚜기",
+        "방아깨비",
+        "메뚜기 떼",
+        "메뚜기가",
+        "메뚜기를",
+        "해충이",
+        "해충을"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "메뚜기를 봄",
+          "interpretation_ko": "하는 일에서 어긋난 셈이 드러나 애태우고 시달릴 흉한 조짐",
+          "interpretation_en": "foretells discrepancies will be found in your business, for which you will worry and suffer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Locust",
+              "original": "To dream of locusts, foretells discrepancies will be found in your business, for which you will worry and suffer.",
+              "translation_ko": "메뚜기의 꿈은, 하는 일에서 어긋난 셈이 드러나 애태우고 시달림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 메뚜기 꿈을 꿈",
+          "interpretation_ko": "너그럽지 못한 이들에게 마음을 쏟게 될 흉한 조짐",
+          "interpretation_en": "this dream foretells she will bestow her affections upon ungenerous people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Locust",
+              "original": "For a woman, this dream foretells she will bestow her affections upon ungenerous people.",
+              "translation_ko": "여성에게 이 꿈은, 너그럽지 못한 이들에게 마음을 쏟게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "해충이 기어다니는 것을 봄",
+          "interpretation_ko": "병과 많은 말썽의 조짐",
+          "interpretation_en": "signifies sickness and much trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vermin",
+              "original": "Vermin crawling in your dreams, signifies sickness and much trouble.",
+              "translation_ko": "해충이 기어다니는 것을 보는 꿈은, 병과 많은 말썽의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "해충을 없애는 데 성공함",
+          "interpretation_ko": "그런대로 성공할 조짐",
+          "interpretation_en": "you will be fairly successful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vermin",
+              "original": "If you succeed in ridding yourself of them, you will be fairly successful",
+              "translation_ko": "해충을 없애는 데 성공하는 꿈은, 그런대로 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "해충을 없애지 못함",
+          "interpretation_ko": "자신이나 친척에게 죽음이 닥칠 수 있는 조짐",
+          "interpretation_en": "otherwise death may come to you, or your relatives",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vermin",
+              "original": "but otherwise death may come to you, or your relatives.",
+              "translation_ko": "해충을 없애지 못하는 꿈은, 자신이나 친척에게 죽음이 닥칠 수 있는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "푸른 남새 위의 메뚜기를 봄",
+          "interpretation_ko": "원수가 가장 소중한 것을 넘볼 흉한 조짐",
+          "interpretation_en": "denotes that enemies threaten your best interests",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grasshopper",
+              "original": "To dream of seeing grasshoppers on green vegetables, denotes that enemies threaten your best interests.",
+              "translation_ko": "푸른 남새 위의 메뚜기를 보는 꿈은, 원수가 가장 소중한 것을 넘봄을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "시든 풀 위의 메뚜기를 봄",
+          "interpretation_ko": "몸이 상하고 하는 일이 어그러질 흉한 조짐",
+          "interpretation_en": "ill health. Disappointing business will be experienced",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grasshopper",
+              "original": "If on withered grasses, ill health.",
+              "translation_ko": "시든 풀 위에 있으면, 몸이 상한다"
+            }
+          ]
+        },
+        {
+          "context": "해와 나 사이에 있는 메뚜기를 봄",
+          "interpretation_ko": "성가신 일이 생기나 조심하면 저절로 좋게 풀릴 조짐",
+          "interpretation_en": "you will have a vexatious problem in your immediate business life to settle, but using caution it will adjust itself in your favor",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grasshopper",
+              "original": "If you see grasshoppers between you and the sun, it denotes that you will have a vexatious problem in your immediate business life to settle, but using caution it will adjust itself in your favor.",
+              "translation_ko": "해와 저 사이에 메뚜기가 보이면, 성가신 일이 생기나 조심하면 저절로 좋게 풀린다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 메뚜기를 가리켜 보임",
+          "interpretation_ko": "제 일을 조심스럽게 다루지 못할 흉한 조짐",
+          "interpretation_en": "shows that you are not discreet in dispatching your private business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Grasshopper",
+              "original": "To call peoples' attention to the grasshoppers, shows that you are not discreet in dispatching your private business.",
+              "translation_ko": "남에게 메뚜기를 가리켜 보이면, 제 일을 조심스럽게 다루지 못함을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ground",
       "term_ko": "땅",
       "term_en": "ground",
@@ -39751,111 +39915,6 @@
       ]
     },
     {
-      "id": "grasshopper",
-      "term_ko": "메뚜기",
-      "term_en": "grasshopper",
-      "aliases": [
-        "메뚜기",
-        "방아깨비",
-        "메뚜기 떼",
-        "메뚜기가",
-        "메뚜기를"
-      ],
-      "category": "animal",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "메뚜기를 봄",
-          "interpretation_ko": "하는 일에서 어긋난 셈이 드러나 애태우고 시달릴 흉한 조짐",
-          "interpretation_en": "foretells discrepancies will be found in your business, for which you will worry and suffer",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Locust",
-              "original": "To dream of locusts, foretells discrepancies will be found in your business, for which you will worry and suffer.",
-              "translation_ko": "메뚜기의 꿈은, 하는 일에서 어긋난 셈이 드러나 애태우고 시달림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 메뚜기 꿈을 꿈",
-          "interpretation_ko": "너그럽지 못한 이들에게 마음을 쏟게 될 흉한 조짐",
-          "interpretation_en": "this dream foretells she will bestow her affections upon ungenerous people",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Locust",
-              "original": "For a woman, this dream foretells she will bestow her affections upon ungenerous people.",
-              "translation_ko": "여성에게 이 꿈은, 너그럽지 못한 이들에게 마음을 쏟게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "푸른 남새 위의 메뚜기를 봄",
-          "interpretation_ko": "원수가 가장 소중한 것을 넘볼 흉한 조짐",
-          "interpretation_en": "denotes that enemies threaten your best interests",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Grasshopper",
-              "original": "To dream of seeing grasshoppers on green vegetables, denotes that enemies threaten your best interests.",
-              "translation_ko": "푸른 남새 위의 메뚜기를 보는 꿈은, 원수가 가장 소중한 것을 넘봄을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "시든 풀 위의 메뚜기를 봄",
-          "interpretation_ko": "몸이 상하고 하는 일이 어그러질 흉한 조짐",
-          "interpretation_en": "ill health. Disappointing business will be experienced",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Grasshopper",
-              "original": "If on withered grasses, ill health.",
-              "translation_ko": "시든 풀 위에 있으면, 몸이 상한다"
-            }
-          ]
-        },
-        {
-          "context": "해와 나 사이에 있는 메뚜기를 봄",
-          "interpretation_ko": "성가신 일이 생기나 조심하면 저절로 좋게 풀릴 조짐",
-          "interpretation_en": "you will have a vexatious problem in your immediate business life to settle, but using caution it will adjust itself in your favor",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Grasshopper",
-              "original": "If you see grasshoppers between you and the sun, it denotes that you will have a vexatious problem in your immediate business life to settle, but using caution it will adjust itself in your favor.",
-              "translation_ko": "해와 저 사이에 메뚜기가 보이면, 성가신 일이 생기나 조심하면 저절로 좋게 풀린다"
-            }
-          ]
-        },
-        {
-          "context": "남에게 메뚜기를 가리켜 보임",
-          "interpretation_ko": "제 일을 조심스럽게 다루지 못할 흉한 조짐",
-          "interpretation_en": "shows that you are not discreet in dispatching your private business",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Grasshopper",
-              "original": "To call peoples' attention to the grasshoppers, shows that you are not discreet in dispatching your private business.",
-              "translation_ko": "남에게 메뚜기를 가리켜 보이면, 제 일을 조심스럽게 다루지 못함을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "ham",
       "term_ko": "햄고기",
       "term_en": "ham",
@@ -45811,6 +45870,94 @@
               "locator": "Baby",
               "original": "It is a bad sign to dream that you take your baby if sick with fever. You will have many sorrows of mind.",
               "translation_ko": "열병에 걸린 아기를 데려가는 꿈을 꾸는 것은 마음에 근심이 많을 흉조다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "balcony",
+      "term_ko": "발코니",
+      "term_en": "balcony",
+      "aliases": [
+        "베란다",
+        "테라스"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "베란다에서 근심거리를 성공으로 이끎",
+          "interpretation_ko": "근심을 안기던 일에서 성공할 조짐",
+          "interpretation_en": "denotes that you are to be successful in some affair which is giving you anxiety",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veranda",
+              "original": "To dream of being on a veranda, denotes that you are to be successful in some affair which is giving you anxiety.",
+              "translation_ko": "베란다에 있는 꿈은, 근심을 안기던 일에서 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 연인과 베란다에 있음",
+          "interpretation_ko": "이르고 행복한 혼인을 알리는 조짐",
+          "interpretation_en": "denotes her early and happy marriage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veranda",
+              "original": "For a young woman to be with her lover on a veranda, denotes her early and happy marriage.",
+              "translation_ko": "처녀가 연인과 베란다에 있는 꿈은, 이르고 행복한 혼인을 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "낡은 베란다를 봄",
+          "interpretation_ko": "바라던 바가 시들고 사업과 사랑에서 낙담할 조짐",
+          "interpretation_en": "denotes the decline of hopes, and disappointment in business and love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veranda",
+              "original": "To see an old veranda, denotes the decline of hopes, and disappointment in business and love.",
+              "translation_ko": "낡은 베란다를 보는 꿈은, 바라던 바가 시들고 사업과 사랑에서 낙담할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "연인들이 발코니에서 슬픈 작별을 함",
+          "interpretation_ko": "길고 어쩌면 영원한 이별이 뒤따를 조짐",
+          "interpretation_en": "long and perhaps final separation may follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Balcony",
+              "original": "For lovers to dream of making sad adieus on a balcony, long and perhaps final separation may follow.",
+              "translation_ko": "연인들이 발코니에서 슬픈 작별을 하는 꿈을 꾸면 길고 어쩌면 영원한 이별이 뒤따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "발코니 꿈을 꿈",
+          "interpretation_ko": "멀리 있는 친구의 좋지 않은 소식을 뜻하는 조짐",
+          "interpretation_en": "denotes unpleasant news of absent friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Balcony",
+              "original": "Balcony also denotes unpleasant news of absent friends.",
+              "translation_ko": "발코니 꿈은 멀리 있는 친구의 좋지 않은 소식을 뜻하기도 한다"
             }
           ]
         }
@@ -71035,6 +71182,80 @@
       ]
     },
     {
+      "id": "velvet",
+      "term_ko": "벨벳",
+      "term_en": "velvet",
+      "aliases": [
+        "벨벳이",
+        "벨벳을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "벨벳 꿈을 꿈",
+          "interpretation_ko": "매우 성공적인 사업의 조짐",
+          "interpretation_en": "portends very successful enterprises",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Velvet",
+              "original": "To dream of velvet, portends very successful enterprises.",
+              "translation_ko": "벨벳 꿈을 꾸면, 매우 성공적인 사업의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 벨벳을 입음",
+          "interpretation_ko": "이름을 높일 영예가 내려질 조짐",
+          "interpretation_en": "some distinction will be conferred upon you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Velvet",
+              "original": "If you wear it, some distinction will be conferred upon you.",
+              "translation_ko": "스스로 벨벳을 입는 꿈은, 이름을 높일 영예가 내려질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "낡은 벨벳을 봄",
+          "interpretation_ko": "지나친 자존심으로 번영이 상할 조짐",
+          "interpretation_en": "means your prosperity will suffer from your extreme pride",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Velvet",
+              "original": "To see old velvet, means your prosperity will suffer from your extreme pride.",
+              "translation_ko": "낡은 벨벳을 보는 꿈은, 지나친 자존심으로 번영이 상할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 벨벳 옷을 입음",
+          "interpretation_ko": "영예를 얻고 여러 부유한 구혼자 가운데서 고를 조짐",
+          "interpretation_en": "it denotes that she will have honors bestowed upon her, and the choice between several wealthy lovers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Velvet",
+              "original": "If a young woman dreams that she is clothed in velvet garments, it denotes that she will have honors bestowed upon her, and the choice between several wealthy lovers.",
+              "translation_ko": "처녀가 벨벳 옷을 입는 꿈은, 영예를 얻고 여러 부유한 구혼자 가운데서 고를 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wealth",
       "term_ko": "재물",
       "term_en": "wealth",
@@ -89590,6 +89811,127 @@
       ]
     },
     {
+      "id": "vein",
+      "term_ko": "정맥",
+      "term_en": "vein",
+      "aliases": [
+        "정맥이",
+        "정맥을"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "정상적인 정맥을 봄",
+          "interpretation_ko": "헐뜯음으로부터 지켜질 조짐",
+          "interpretation_en": "insures you against slander, if they are normal",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vein",
+              "original": "To see your veins in a dream, insures you against slander, if they are normal.",
+              "translation_ko": "정상적인 정맥을 보는 꿈은, 헐뜯음으로부터 지켜질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "피가 나는 정맥을 봄",
+          "interpretation_ko": "벗어날 길 없는 크나큰 슬픔을 겪을 조짐",
+          "interpretation_en": "denotes that you will have a great sorrow from which there will be no escape",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vein",
+              "original": "To see them bleeding, denotes that you will have a great sorrow from which there will be no escape.",
+              "translation_ko": "피가 나는 정맥을 보는 꿈은, 벗어날 길 없는 크나큰 슬픔을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부어오른 정맥을 봄",
+          "interpretation_ko": "빠르게 이름을 떨치고 신망받는 자리에 오를 조짐",
+          "interpretation_en": "you will rise hastily to distinction and places of trust",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vein",
+              "original": "To see them swollen, you will rise hastily to distinction and places of trust.",
+              "translation_ko": "부어오른 정맥을 보는 꿈은, 빠르게 이름을 떨치고 신망받는 자리에 오를 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ventriloquist",
+      "term_ko": "복화술사",
+      "term_en": "ventriloquist",
+      "aliases": [
+        "복화술사가",
+        "복화술사의",
+        "복화술사라고"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "복화술사 꿈을 꿈",
+          "interpretation_ko": "반역스러운 일이 자신에게 해로울 조짐",
+          "interpretation_en": "denotes that some treasonable affair is going to prove detrimental to your interest",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ventriloquist",
+              "original": "To dream of a ventriloquist, denotes that some treasonable affair is going to prove detrimental to your interest.",
+              "translation_ko": "복화술사 꿈을 꾸면, 반역스러운 일이 자신에게 해로울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 복화술사라고 여김",
+          "interpretation_ko": "믿어 준 이들에게 떳떳하지 못하게 굴 조짐",
+          "interpretation_en": "you will not conduct yourself honorably towards people who trust you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ventriloquist",
+              "original": "If you think yourself one, you will not conduct yourself honorably towards people who trust you.",
+              "translation_ko": "스스로 복화술사라고 여기는 꿈은, 믿어 준 이들에게 떳떳하지 못하게 굴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 복화술사의 목소리에 홀림",
+          "interpretation_ko": "떳떳하지 못한 일에 속아 빠져들 조짐",
+          "interpretation_en": "foretells that she will be deceived into illicit adventures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ventriloquist",
+              "original": "For a young woman to dream she is mystified by the voice of a ventriloquist, foretells that she will be deceived into illicit adventures.",
+              "translation_ko": "처녀가 복화술사의 목소리에 홀리는 꿈은, 떳떳하지 못한 일에 속아 빠져들 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "vessel",
       "term_ko": "그릇",
       "term_en": "vessel",
@@ -92499,52 +92841,6 @@
               "locator": "Bake-house",
               "original": "For a young woman to dream that she is in a bake house, portends that her character wil{l} be assailed. She should exercise great care in her social affairs.",
               "translation_ko": "젊은 여성이 제과소(빵집)에 있는 꿈을 꾸면 품행이 공격받을 조짐이니 사교 관계에서 큰 주의를 기울여야 한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "balcony",
-      "term_ko": "발코니",
-      "term_en": "balcony",
-      "aliases": [
-        "베란다",
-        "테라스"
-      ],
-      "category": "place",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "연인들이 발코니에서 슬픈 작별을 함",
-          "interpretation_ko": "길고 어쩌면 영원한 이별이 뒤따를 조짐",
-          "interpretation_en": "long and perhaps final separation may follow",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Balcony",
-              "original": "For lovers to dream of making sad adieus on a balcony, long and perhaps final separation may follow.",
-              "translation_ko": "연인들이 발코니에서 슬픈 작별을 하는 꿈을 꾸면 길고 어쩌면 영원한 이별이 뒤따를 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "발코니 꿈을 꿈",
-          "interpretation_ko": "멀리 있는 친구의 좋지 않은 소식을 뜻하는 조짐",
-          "interpretation_en": "denotes unpleasant news of absent friends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Balcony",
-              "original": "Balcony also denotes unpleasant news of absent friends.",
-              "translation_ko": "발코니 꿈은 멀리 있는 친구의 좋지 않은 소식을 뜻하기도 한다"
             }
           ]
         }
@@ -132455,6 +132751,70 @@
               "locator": "地理山石樹木",
               "original": "入菜園中大發財",
               "translation_ko": "채소밭에 들어가면 크게 재물이 인다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "veneer",
+      "term_ko": "베니어",
+      "term_en": "veneer",
+      "aliases": [
+        "베니어를",
+        "베니어가"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 베니어를 바름",
+          "interpretation_ko": "벗들을 조직적으로 속이고 투기도 사람을 홀리는 성질을 띨 조짐",
+          "interpretation_en": "denotes that you will systematically deceive your friends, your speculations will be of a misleading nature",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Veneer",
+              "original": "To dream that you are veneering, denotes that you will systematically deceive your friends, your speculations will be of a misleading nature.",
+              "translation_ko": "스스로 베니어를 바르는 꿈은, 벗들을 조직적으로 속이고 투기도 사람을 홀리는 성질을 띨 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vertigo",
+      "term_ko": "현기증",
+      "term_en": "vertigo",
+      "aliases": [
+        "현기증이",
+        "현기증을"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 현기증이 있음",
+          "interpretation_ko": "집안의 행복을 잃고 일도 어두운 전망에 놓일 조짐",
+          "interpretation_en": "foretells you will have loss in domestic happiness, and your affairs will be under gloomy outlooks",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vertigo",
+              "original": "To dream that you have vertigo, foretells you will have loss in domestic happiness, and your affairs will be under gloomy outlooks.",
+              "translation_ko": "스스로 현기증이 있는 꿈은, 집안의 행복을 잃고 일도 어두운 전망에 놓일 조짐이다"
             }
           ]
         }

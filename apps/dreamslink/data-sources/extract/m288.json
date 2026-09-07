@@ -1,0 +1,287 @@
+[
+  {
+    "term_ko": "정맥",
+    "term_en": "vein",
+    "context": "정상적인 정맥을 봄",
+    "interpretation_ko": "헐뜯음으로부터 지켜질 조짐",
+    "interpretation_en": "insures you against slander, if they are normal",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Vein",
+      "original": "To see your veins in a dream, insures you against slander, if they are normal.",
+      "translation_ko": "정상적인 정맥을 보는 꿈은, 헐뜯음으로부터 지켜질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "정맥",
+    "term_en": "vein",
+    "context": "피가 나는 정맥을 봄",
+    "interpretation_ko": "벗어날 길 없는 크나큰 슬픔을 겪을 조짐",
+    "interpretation_en": "denotes that you will have a great sorrow from which there will be no escape",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Vein",
+      "original": "To see them bleeding, denotes that you will have a great sorrow from which there will be no escape.",
+      "translation_ko": "피가 나는 정맥을 보는 꿈은, 벗어날 길 없는 크나큰 슬픔을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "정맥",
+    "term_en": "vein",
+    "context": "부어오른 정맥을 봄",
+    "interpretation_ko": "빠르게 이름을 떨치고 신망받는 자리에 오를 조짐",
+    "interpretation_en": "you will rise hastily to distinction and places of trust",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Vein",
+      "original": "To see them swollen, you will rise hastily to distinction and places of trust.",
+      "translation_ko": "부어오른 정맥을 보는 꿈은, 빠르게 이름을 떨치고 신망받는 자리에 오를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벨벳",
+    "term_en": "velvet",
+    "context": "벨벳 꿈을 꿈",
+    "interpretation_ko": "매우 성공적인 사업의 조짐",
+    "interpretation_en": "portends very successful enterprises",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Velvet",
+      "original": "To dream of velvet, portends very successful enterprises.",
+      "translation_ko": "벨벳 꿈을 꾸면, 매우 성공적인 사업의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벨벳",
+    "term_en": "velvet",
+    "context": "스스로 벨벳을 입음",
+    "interpretation_ko": "이름을 높일 영예가 내려질 조짐",
+    "interpretation_en": "some distinction will be conferred upon you",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Velvet",
+      "original": "If you wear it, some distinction will be conferred upon you.",
+      "translation_ko": "스스로 벨벳을 입는 꿈은, 이름을 높일 영예가 내려질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벨벳",
+    "term_en": "velvet",
+    "context": "낡은 벨벳을 봄",
+    "interpretation_ko": "지나친 자존심으로 번영이 상할 조짐",
+    "interpretation_en": "means your prosperity will suffer from your extreme pride",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Velvet",
+      "original": "To see old velvet, means your prosperity will suffer from your extreme pride.",
+      "translation_ko": "낡은 벨벳을 보는 꿈은, 지나친 자존심으로 번영이 상할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "벨벳",
+    "term_en": "velvet",
+    "context": "처녀가 벨벳 옷을 입음",
+    "interpretation_ko": "영예를 얻고 여러 부유한 구혼자 가운데서 고를 조짐",
+    "interpretation_en": "it denotes that she will have honors bestowed upon her, and the choice between several wealthy lovers",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Velvet",
+      "original": "If a young woman dreams that she is clothed in velvet garments, it denotes that she will have honors bestowed upon her, and the choice between several wealthy lovers.",
+      "translation_ko": "처녀가 벨벳 옷을 입는 꿈은, 영예를 얻고 여러 부유한 구혼자 가운데서 고를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "베니어",
+    "term_en": "veneer",
+    "context": "스스로 베니어를 바름",
+    "interpretation_ko": "벗들을 조직적으로 속이고 투기도 사람을 홀리는 성질을 띨 조짐",
+    "interpretation_en": "denotes that you will systematically deceive your friends, your speculations will be of a misleading nature",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Veneer",
+      "original": "To dream that you are veneering, denotes that you will systematically deceive your friends, your speculations will be of a misleading nature.",
+      "translation_ko": "스스로 베니어를 바르는 꿈은, 벗들을 조직적으로 속이고 투기도 사람을 홀리는 성질을 띨 조짐이다"
+    }
+  },
+  {
+    "term_ko": "복화술사",
+    "term_en": "ventriloquist",
+    "context": "복화술사 꿈을 꿈",
+    "interpretation_ko": "반역스러운 일이 자신에게 해로울 조짐",
+    "interpretation_en": "denotes that some treasonable affair is going to prove detrimental to your interest",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Ventriloquist",
+      "original": "To dream of a ventriloquist, denotes that some treasonable affair is going to prove detrimental to your interest.",
+      "translation_ko": "복화술사 꿈을 꾸면, 반역스러운 일이 자신에게 해로울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "복화술사",
+    "term_en": "ventriloquist",
+    "context": "스스로 복화술사라고 여김",
+    "interpretation_ko": "믿어 준 이들에게 떳떳하지 못하게 굴 조짐",
+    "interpretation_en": "you will not conduct yourself honorably towards people who trust you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ventriloquist",
+      "original": "If you think yourself one, you will not conduct yourself honorably towards people who trust you.",
+      "translation_ko": "스스로 복화술사라고 여기는 꿈은, 믿어 준 이들에게 떳떳하지 못하게 굴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "복화술사",
+    "term_en": "ventriloquist",
+    "context": "처녀가 복화술사의 목소리에 홀림",
+    "interpretation_ko": "떳떳하지 못한 일에 속아 빠져들 조짐",
+    "interpretation_en": "foretells that she will be deceived into illicit adventures",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ventriloquist",
+      "original": "For a young woman to dream she is mystified by the voice of a ventriloquist, foretells that she will be deceived into illicit adventures.",
+      "translation_ko": "처녀가 복화술사의 목소리에 홀리는 꿈은, 떳떳하지 못한 일에 속아 빠져들 조짐이다"
+    }
+  },
+  {
+    "term_ko": "발코니",
+    "term_en": "balcony",
+    "context": "베란다에서 근심거리를 성공으로 이끎",
+    "interpretation_ko": "근심을 안기던 일에서 성공할 조짐",
+    "interpretation_en": "denotes that you are to be successful in some affair which is giving you anxiety",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Veranda",
+      "original": "To dream of being on a veranda, denotes that you are to be successful in some affair which is giving you anxiety.",
+      "translation_ko": "베란다에 있는 꿈은, 근심을 안기던 일에서 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "발코니",
+    "term_en": "balcony",
+    "context": "처녀가 연인과 베란다에 있음",
+    "interpretation_ko": "이르고 행복한 혼인을 알리는 조짐",
+    "interpretation_en": "denotes her early and happy marriage",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Veranda",
+      "original": "For a young woman to be with her lover on a veranda, denotes her early and happy marriage.",
+      "translation_ko": "처녀가 연인과 베란다에 있는 꿈은, 이르고 행복한 혼인을 알리는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "발코니",
+    "term_en": "balcony",
+    "context": "낡은 베란다를 봄",
+    "interpretation_ko": "바라던 바가 시들고 사업과 사랑에서 낙담할 조짐",
+    "interpretation_en": "denotes the decline of hopes, and disappointment in business and love",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Veranda",
+      "original": "To see an old veranda, denotes the decline of hopes, and disappointment in business and love.",
+      "translation_ko": "낡은 베란다를 보는 꿈은, 바라던 바가 시들고 사업과 사랑에서 낙담할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "메뚜기",
+    "term_en": "grasshopper",
+    "context": "해충이 기어다니는 것을 봄",
+    "interpretation_ko": "병과 많은 말썽의 조짐",
+    "interpretation_en": "signifies sickness and much trouble",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Vermin",
+      "original": "Vermin crawling in your dreams, signifies sickness and much trouble.",
+      "translation_ko": "해충이 기어다니는 것을 보는 꿈은, 병과 많은 말썽의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "메뚜기",
+    "term_en": "grasshopper",
+    "context": "해충을 없애는 데 성공함",
+    "interpretation_ko": "그런대로 성공할 조짐",
+    "interpretation_en": "you will be fairly successful",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Vermin",
+      "original": "If you succeed in ridding yourself of them, you will be fairly successful",
+      "translation_ko": "해충을 없애는 데 성공하는 꿈은, 그런대로 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "메뚜기",
+    "term_en": "grasshopper",
+    "context": "해충을 없애지 못함",
+    "interpretation_ko": "자신이나 친척에게 죽음이 닥칠 수 있는 조짐",
+    "interpretation_en": "otherwise death may come to you, or your relatives",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Vermin",
+      "original": "but otherwise death may come to you, or your relatives.",
+      "translation_ko": "해충을 없애지 못하는 꿈은, 자신이나 친척에게 죽음이 닥칠 수 있는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "현기증",
+    "term_en": "vertigo",
+    "context": "스스로 현기증이 있음",
+    "interpretation_ko": "집안의 행복을 잃고 일도 어두운 전망에 놓일 조짐",
+    "interpretation_en": "foretells you will have loss in domestic happiness, and your affairs will be under gloomy outlooks",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Vertigo",
+      "original": "To dream that you have vertigo, foretells you will have loss in domestic happiness, and your affairs will be under gloomy outlooks.",
+      "translation_ko": "스스로 현기증이 있는 꿈은, 집안의 행복을 잃고 일도 어두운 전망에 놓일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "배",
+    "term_en": "boat",
+    "context": "여러 배를 봄",
+    "interpretation_ko": "노동과 활동의 조짐",
+    "interpretation_en": "denotes labor and activity",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Vessels",
+      "original": "To dream of vessels, denotes labor and activity.",
+      "translation_ko": "여러 배를 보는 꿈은, 노동과 활동의 조짐이다"
+    }
+  }
+]

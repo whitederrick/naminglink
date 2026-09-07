@@ -5458,7 +5458,8 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "grapes"
   ],
   "grasshopper": [
-    "grasshoppers"
+    "grasshoppers",
+    "vermin"
   ],
   "gravel": [
     "gravel"
@@ -8201,5 +8202,24 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "veils",
     "bridal veil",
     "mourning veil"
+  ],
+  "vein": [
+    "vein",
+    "veins"
+  ],
+  "velvet": [
+    "velvet",
+    "velvets"
+  ],
+  "veneer": [
+    "veneer",
+    "veneering"
+  ],
+  "ventriloquist": [
+    "ventriloquist",
+    "a ventriloquist"
+  ],
+  "vertigo": [
+    "vertigo"
   ]
 };

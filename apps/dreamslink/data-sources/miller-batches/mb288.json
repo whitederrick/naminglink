@@ -1,0 +1,46 @@
+{
+  "batch": 288,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Vein",
+      "text": "To see your veins in a dream, insures you against slander, if they are normal.\n\nTo see them bleeding, denotes that you will have a great sorrow from which there will be no escape.\n\nTo see them swollen, you will rise hastily to distinction and places of trust.",
+      "note": "새 상징 vein(정맥)"
+    },
+    {
+      "headword": "Velvet",
+      "text": "To dream of velvet, portends very successful enterprises.\nIf you wear it, some distinction will be conferred upon you.\n\nTo see old velvet, means your prosperity will suffer from your extreme pride.\n\nIf a young woman dreams that she is clothed in velvet garments, it denotes that she will have honors bestowed upon her, and the choice between several wealthy lovers.",
+      "note": "새 상징 velvet(벨벳)"
+    },
+    {
+      "headword": "Veneer",
+      "text": "To dream that you are veneering, denotes that you will systematically deceive your friends, your speculations will be of a misleading nature.",
+      "note": "새 상징 veneer(베니어)"
+    },
+    {
+      "headword": "Ventriloquist",
+      "text": "To dream of a ventriloquist, denotes that some treasonable affair is going to prove detrimental to your interest.\n\nIf you think yourself one, you will not conduct yourself honorably towards people who trust you.\n\nFor a young woman to dream she is mystified by the voice of a ventriloquist, foretells that she will be deceived into illicit adventures.",
+      "note": "새 상징 ventriloquist(복화술사)"
+    },
+    {
+      "headword": "Veranda",
+      "text": "To dream of being on a veranda, denotes that you are to be successful in some affair which is giving you anxiety.\n\nFor a young woman to be with her lover on a veranda, denotes her early and happy marriage.\n\nTo see an old veranda, denotes the decline of hopes, and disappointment in business and love.",
+      "note": "기존 balcony(발코니) 상징에 문맥 3개 추가 — 「베란다」가 이미 별칭"
+    },
+    {
+      "headword": "Vermin",
+      "text": "Vermin crawling in your dreams, signifies sickness and much trouble.\nIf you succeed in ridding yourself of them, you will be fairly successful, but otherwise death may come to you, or your relatives.",
+      "note": "기존 grasshopper(메뚜기) 상징에 문맥 3개 추가 — 각주 [235] See Locust. 둘째 문장이 성공/실패 두 갈래라 나눠 넣음"
+    },
+    {
+      "headword": "Vertigo",
+      "text": "To dream that you have vertigo, foretells you will have loss in domestic happiness, and your affairs will be under gloomy outlooks.",
+      "note": "새 상징 vertigo(현기증)"
+    },
+    {
+      "headword": "Vessels",
+      "text": "To dream of vessels, denotes labor and activity.",
+      "note": "기존 boat(배) 상징에 문맥 1개 추가 — 각주 [236] See Ships and similar words. 기존 23개 의미가 모두 구체적 상황이라 겹치지 않는 가장 막연한 그림"
+    }
+  ]
+}
