@@ -445,7 +445,9 @@
     "id": "bathing",
     "aliases": [
       "샤워",
-      "멱감"
+      "멱감",
+      "목욕했다",
+      "목욕하는"
     ],
     "aliases_en": [
       "bath",
@@ -467,7 +469,9 @@
       "목욕 꿈을 꾼 남성들": "남성 총각 밀회 정분",
       "따뜻한 물로 목욕함": "따뜻 미지근 뜨거운 온탕",
       "차갑고 맑은 물로 목욕함": "차가운 찬물 냉수 맑은",
-      "맑은 바다에서 목욕함": "바다 바닷물 파도 해변"
+      "맑은 바다에서 목욕함": "바다 바닷물 파도 해변",
+      "터키식 목욕을 함": "즐거움",
+      "남이 터키식 목욕을 하는 것을 봄": "남이"
     },
     "contexts_en": {
       "목욕을 함": "washed clean refreshed",
@@ -483,7 +487,9 @@
       "목욕 꿈을 꾼 남성들": "amorous intrigue flirt liaison",
       "따뜻한 물로 목욕함": "warm hot tepid lukewarm",
       "차갑고 맑은 물로 목욕함": "cold cool clear crystal",
-      "맑은 바다에서 목욕함": "ocean seawater waves beach"
+      "맑은 바다에서 목욕함": "ocean seawater waves beach",
+      "터키식 목욕을 함": "turkish seek health",
+      "남이 터키식 목욕을 하는 것을 봄": "others pleasant companions"
     }
   },
   {

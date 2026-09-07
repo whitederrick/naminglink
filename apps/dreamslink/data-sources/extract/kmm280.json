@@ -1,0 +1,99 @@
+[
+  {
+    "id": "turkey",
+    "aliases": [
+      "칠면조가",
+      "칠면조를",
+      "칠면조들"
+    ],
+    "aliases_en": [
+      "turkey",
+      "turkeys",
+      "a turkey"
+    ],
+    "contexts": {
+      "칠면조들을 봄": "그냥",
+      "시장에 내놓으려 손질된 칠면조를 봄": "시장 손질된",
+      "병들거나 죽은 칠면조를 봄": "병들 죽은",
+      "칠면조를 먹음": "먹었",
+      "칠면조가 나는 것을 봄": "나는",
+      "사냥감으로 칠면조를 쏨": "사냥감 쏘았"
+    },
+    "contexts_en": {
+      "칠면조들을 봄": "abundant gain farmer",
+      "시장에 내놓으려 손질된 칠면조를 봄": "dressed market improvement",
+      "병들거나 죽은 칠면조를 봄": "sick dead stringent",
+      "칠면조를 먹음": "eat joyful occasion",
+      "칠면조가 나는 것을 봄": "flying obscurity prominence",
+      "사냥감으로 칠면조를 쏨": "shoot game unscrupulously"
+    }
+  },
+  {
+    "id": "turnips",
+    "aliases": [
+      "순무가",
+      "순무를"
+    ],
+    "aliases_en": [
+      "turnips",
+      "a turnip",
+      "turnip greens",
+      "turnip seed"
+    ],
+    "contexts": {
+      "자라는 순무를 봄": "그냥",
+      "순무 잎을 먹음": "잎을",
+      "순무를 먹음": "먹었",
+      "순무를 뽑음": "뽑았",
+      "순무 씨앗 꿈을 꿈": "씨앗",
+      "처녀가 순무 씨앗을 뿌림": "처녀가 뿌렸"
+    },
+    "contexts_en": {
+      "자라는 순무를 봄": "growing prospects brighten",
+      "순무 잎을 먹음": "bitter disappointment",
+      "순무를 먹음": "eat ill health",
+      "순무를 뽑음": "pull opportunities fortune",
+      "순무 씨앗 꿈을 꿈": "future advancement",
+      "처녀가 순무 씨앗을 뿌림": "young woman sow inherit"
+    }
+  },
+  {
+    "id": "turpentine",
+    "aliases": [
+      "테레빈유가",
+      "테레빈유를"
+    ],
+    "aliases_en": [
+      "turpentine"
+    ],
+    "contexts": {
+      "테레빈유 꿈을 꿈": "그냥",
+      "여성이 남의 상처에 테레빈유를 감쌈": "상처 감쌌"
+    },
+    "contexts_en": {
+      "테레빈유 꿈을 꿈": "unprofitable discouraging engagements",
+      "여성이 남의 상처에 테레빈유를 감쌈": "wound benevolent favor"
+    }
+  },
+  {
+    "id": "turquoise",
+    "aliases": [
+      "터키석이",
+      "터키석을"
+    ],
+    "aliases_en": [
+      "turquoise",
+      "a torquoise"
+    ],
+    "contexts": {
+      "터키석 꿈을 꿈": "그냥",
+      "여성이 터키석을 도둑맞음": "도둑맞",
+      "여성이 터키석을 부정하게 손에 넣음": "부정하게"
+    },
+    "contexts_en": {
+      "터키석 꿈을 꿈": "realize desire relatives",
+      "여성이 터키석을 도둑맞음": "stolen crosses love",
+      "여성이 터키석을 부정하게 손에 넣음": "dishonestly hasty susceptibility"
+    }
+  }
+]

@@ -8082,5 +8082,23 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "racetrack": [
     "racetrack",
     "a racing turf"
+  ],
+  "turkey": [
+    "turkey",
+    "turkeys",
+    "a turkey"
+  ],
+  "turnips": [
+    "turnips",
+    "a turnip",
+    "turnip greens",
+    "turnip seed"
+  ],
+  "turpentine": [
+    "turpentine"
+  ],
+  "turquoise": [
+    "turquoise",
+    "a torquoise"
   ]
 };

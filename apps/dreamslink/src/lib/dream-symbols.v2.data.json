@@ -203,6 +203,7 @@
     "m27a.json",
     "m27b.json",
     "m28.json",
+    "m280.json",
     "m29.json",
     "m3.json",
     "m30.json",
@@ -9629,6 +9630,251 @@
       ]
     },
     {
+      "id": "bathing",
+      "term_ko": "목욕",
+      "term_en": "bathing",
+      "aliases": [
+        "샤워",
+        "멱감",
+        "목욕했다",
+        "목욕하는"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "젊은 사람이 목욕하는 꿈을 꿈",
+          "interpretation_ko": "이성에 대한 염려로 다른 사람들의 영향에 평판을 잃을까 두려워하는 조짐",
+          "interpretation_en": "a sign of much solicitude for one of the opposite sex, fearing to lose his good opinion through the influence of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bath",
+              "original": "For a young person to dream of taking a bath, means much solicitude for one of the opposite sex, fearing to lose his good opinion through the influence of others.",
+              "translation_ko": "젊은 사람이 목욕하는 꿈을 꾸면 이성에 대한 큰 염려로, 다른 사람들의 영향으로 그의 좋은 평판을 잃을까 두려워하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "터키식 목욕을 함",
+          "interpretation_ko": "집과 벗을 멀리 떠나 건강을 찾게 되나 큰 즐거움도 함께 누릴 조짐",
+          "interpretation_en": "foretells that you will seek health far from your home and friends, but you will have much pleasurable enjoyment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turkish Baths",
+              "original": "To dream of taking a Turkish bath, foretells that you will seek health far from your home and friends, but you will have much pleasurable enjoyment",
+              "translation_ko": "터키식 목욕을 하는 꿈은, 집과 벗을 멀리 떠나 건강을 찾게 되나 큰 즐거움도 함께 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 터키식 목욕을 하는 것을 봄",
+          "interpretation_ko": "즐거운 길동무가 마음을 사로잡을 조짐",
+          "interpretation_en": "signifies that pleasant companions will occupy your attention",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turkish Baths",
+              "original": "To see others take a Turkish bath, signifies that pleasant companions will occupy your attention.",
+              "translation_ko": "남이 터키식 목욕을 하는 것을 보는 꿈은, 즐거운 길동무가 마음을 사로잡을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "임신한 여성이 목욕 꿈을 꿈",
+          "interpretation_ko": "유산이나 사고를 뜻하는 조짐",
+          "interpretation_en": "a sign denoting miscarriage or accident",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bath",
+              "original": "For a pregnant woman to dream this, denotes miscarriage or accident.",
+              "translation_ko": "임신한 여성이 이 꿈을 꾸면 유산이나 사고를 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남성이 목욕 꿈을 꿈",
+          "interpretation_ko": "간통을 뜻하며 이후 모든 거래를 신중히 해야 함을 알리는 조짐",
+          "interpretation_en": "a sign of adultery; dealings of all kinds should be carried on with discretion after this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bath",
+              "original": "For a man, adultery. Dealings of all kinds should be carried on with discretion after this dream.",
+              "translation_ko": "남성에게는 간통을 뜻하며, 이 꿈을 꾼 뒤에는 모든 거래를 신중하게 해야 한다"
+            }
+          ]
+        },
+        {
+          "context": "다른 사람들과 함께 목욕하러 들어감",
+          "interpretation_ko": "나쁜 동료를 피해야 하며 명예 훼손이 뒤따를 조짐",
+          "interpretation_en": "a sign that evil companions should be avoided; defamation of character is likely to follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bath",
+              "original": "To go in bathing with others, evil companions should be avoided. Defamation of character is likely to follow.",
+              "translation_ko": "다른 사람들과 함께 목욕하러 들어가는 꿈은 나쁜 동료를 피해야 함을 뜻하며, 명예 훼손이 뒤따를 가능성이 있다"
+            }
+          ]
+        },
+        {
+          "context": "목욕물이 흐림",
+          "interpretation_ko": "나쁜 일과 죽음, 가까이 있는 적을 뜻하는 조짐",
+          "interpretation_en": "a sign of evil, indeed death, and enemies near you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bath",
+              "original": "If the water is muddy, evil, indeed death, and enemies are near you.",
+              "translation_ko": "목욕물이 흐리면 나쁜 일과 죽음, 가까이 있는 적을 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "과부가 자신의 목욕 꿈을 꿈",
+          "interpretation_ko": "예전의 인연을 잊고 새로운 사랑을 서두르게 될 조짐",
+          "interpretation_en": "a sign that she has forgotten her former ties, and is hurrying on to earthly loves",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bath",
+              "original": "For a widow to dream of her bath, she has forgotten her former ties, and is hurrying on to earthly loves.",
+              "translation_ko": "과부가 자신의 목욕 꿈을 꾸면 예전의 인연을 잊고 새로운 사랑을 서두르게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목욕 꿈에서 소녀들에게 주는 경고",
+          "interpretation_ko": "남성 동료를 피해야 한다는 경고의 조짐",
+          "interpretation_en": "a sign that girls should shun male companions",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bath",
+              "original": "Girls should shun male companions.",
+              "translation_ko": "목욕 꿈에서 소녀들은 남성 동료를 피해야 한다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목욕 꿈을 꾼 남성들",
+          "interpretation_ko": "색정적인 밀회에 연루될 조짐",
+          "interpretation_en": "a sign that men will engage in intrigues of salacious character",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bath",
+              "original": "Men will engage in intrigues of salacious character.",
+              "translation_ko": "남성들은 색정적인 밀회에 연루될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "따뜻한 물로 목욕함",
+          "interpretation_ko": "일반적으로 나쁜 일을 뜻하는 조짐",
+          "interpretation_en": "a sign generally significant of evil",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bath",
+              "original": "A warm bath is generally significant of evil.",
+              "translation_ko": "따뜻한 물로 목욕하는 것은 일반적으로 나쁜 일을 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "차갑고 맑은 물로 목욕함",
+          "interpretation_ko": "기쁜 소식과 오랜 건강을 예고하는 조짐",
+          "interpretation_en": "a sign that is the fore-runner of joyful tidings and a long period of excellent health",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bath",
+              "original": "A cold, clear bath is the fore-runner of joyful tidings and a long period of excellent health.",
+              "translation_ko": "차갑고 맑은 물로 목욕하는 것은 기쁜 소식과 오랜 건강의 전조이다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 바다에서 목욕함",
+          "interpretation_ko": "사업이 확장되고 지식을 향한 탐구가 충족될 조짐",
+          "interpretation_en": "a sign of expansion of business and satisfying research after knowledge",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bath",
+              "original": "Bathing in a clear sea, denotes expansion of business and satisfying research after knowledge.",
+              "translation_ko": "맑은 바다에서 목욕하면 사업이 확장되고 지식을 향한 탐구가 충족될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "목욕을 함",
+          "interpretation_ko": "벼슬이 오르고 병이 나을 조짐",
+          "interpretation_en": "a sign of promotion and recovery from illness",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "身體面目齒髮",
+              "original": "沐浴遷官疾病除",
+              "translation_ko": "목욕하면 벼슬이 옮겨 오르고 질병이 없어진다"
+            }
+          ]
+        },
+        {
+          "context": "남녀가 목욕하고 잠자리에 오름",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "男女沐浴上床凶",
+              "translation_ko": "남녀가 목욕하고 침상에 오르면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "티끌과 흙으로 목욕함",
+          "interpretation_ko": "앓던 병이 나을 조짐",
+          "interpretation_en": "a sign that illness will heal",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "沐浴塵土疾病安",
+              "translation_ko": "티끌 흙으로 목욕하면 질병이 낫는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cat",
       "term_ko": "고양이",
       "term_en": "cat",
@@ -12520,221 +12766,6 @@
         }
       ],
       "label_ko": "눈(雪)"
-    },
-    {
-      "id": "bathing",
-      "term_ko": "목욕",
-      "term_en": "bathing",
-      "aliases": [
-        "샤워",
-        "멱감"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "젊은 사람이 목욕하는 꿈을 꿈",
-          "interpretation_ko": "이성에 대한 염려로 다른 사람들의 영향에 평판을 잃을까 두려워하는 조짐",
-          "interpretation_en": "a sign of much solicitude for one of the opposite sex, fearing to lose his good opinion through the influence of others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bath",
-              "original": "For a young person to dream of taking a bath, means much solicitude for one of the opposite sex, fearing to lose his good opinion through the influence of others.",
-              "translation_ko": "젊은 사람이 목욕하는 꿈을 꾸면 이성에 대한 큰 염려로, 다른 사람들의 영향으로 그의 좋은 평판을 잃을까 두려워하는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "임신한 여성이 목욕 꿈을 꿈",
-          "interpretation_ko": "유산이나 사고를 뜻하는 조짐",
-          "interpretation_en": "a sign denoting miscarriage or accident",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bath",
-              "original": "For a pregnant woman to dream this, denotes miscarriage or accident.",
-              "translation_ko": "임신한 여성이 이 꿈을 꾸면 유산이나 사고를 뜻하는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "남성이 목욕 꿈을 꿈",
-          "interpretation_ko": "간통을 뜻하며 이후 모든 거래를 신중히 해야 함을 알리는 조짐",
-          "interpretation_en": "a sign of adultery; dealings of all kinds should be carried on with discretion after this dream",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bath",
-              "original": "For a man, adultery. Dealings of all kinds should be carried on with discretion after this dream.",
-              "translation_ko": "남성에게는 간통을 뜻하며, 이 꿈을 꾼 뒤에는 모든 거래를 신중하게 해야 한다"
-            }
-          ]
-        },
-        {
-          "context": "다른 사람들과 함께 목욕하러 들어감",
-          "interpretation_ko": "나쁜 동료를 피해야 하며 명예 훼손이 뒤따를 조짐",
-          "interpretation_en": "a sign that evil companions should be avoided; defamation of character is likely to follow",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bath",
-              "original": "To go in bathing with others, evil companions should be avoided. Defamation of character is likely to follow.",
-              "translation_ko": "다른 사람들과 함께 목욕하러 들어가는 꿈은 나쁜 동료를 피해야 함을 뜻하며, 명예 훼손이 뒤따를 가능성이 있다"
-            }
-          ]
-        },
-        {
-          "context": "목욕물이 흐림",
-          "interpretation_ko": "나쁜 일과 죽음, 가까이 있는 적을 뜻하는 조짐",
-          "interpretation_en": "a sign of evil, indeed death, and enemies near you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bath",
-              "original": "If the water is muddy, evil, indeed death, and enemies are near you.",
-              "translation_ko": "목욕물이 흐리면 나쁜 일과 죽음, 가까이 있는 적을 뜻하는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "과부가 자신의 목욕 꿈을 꿈",
-          "interpretation_ko": "예전의 인연을 잊고 새로운 사랑을 서두르게 될 조짐",
-          "interpretation_en": "a sign that she has forgotten her former ties, and is hurrying on to earthly loves",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bath",
-              "original": "For a widow to dream of her bath, she has forgotten her former ties, and is hurrying on to earthly loves.",
-              "translation_ko": "과부가 자신의 목욕 꿈을 꾸면 예전의 인연을 잊고 새로운 사랑을 서두르게 될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "목욕 꿈에서 소녀들에게 주는 경고",
-          "interpretation_ko": "남성 동료를 피해야 한다는 경고의 조짐",
-          "interpretation_en": "a sign that girls should shun male companions",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bath",
-              "original": "Girls should shun male companions.",
-              "translation_ko": "목욕 꿈에서 소녀들은 남성 동료를 피해야 한다는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "목욕 꿈을 꾼 남성들",
-          "interpretation_ko": "색정적인 밀회에 연루될 조짐",
-          "interpretation_en": "a sign that men will engage in intrigues of salacious character",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bath",
-              "original": "Men will engage in intrigues of salacious character.",
-              "translation_ko": "남성들은 색정적인 밀회에 연루될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "따뜻한 물로 목욕함",
-          "interpretation_ko": "일반적으로 나쁜 일을 뜻하는 조짐",
-          "interpretation_en": "a sign generally significant of evil",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bath",
-              "original": "A warm bath is generally significant of evil.",
-              "translation_ko": "따뜻한 물로 목욕하는 것은 일반적으로 나쁜 일을 뜻하는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "차갑고 맑은 물로 목욕함",
-          "interpretation_ko": "기쁜 소식과 오랜 건강을 예고하는 조짐",
-          "interpretation_en": "a sign that is the fore-runner of joyful tidings and a long period of excellent health",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bath",
-              "original": "A cold, clear bath is the fore-runner of joyful tidings and a long period of excellent health.",
-              "translation_ko": "차갑고 맑은 물로 목욕하는 것은 기쁜 소식과 오랜 건강의 전조이다"
-            }
-          ]
-        },
-        {
-          "context": "맑은 바다에서 목욕함",
-          "interpretation_ko": "사업이 확장되고 지식을 향한 탐구가 충족될 조짐",
-          "interpretation_en": "a sign of expansion of business and satisfying research after knowledge",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bath",
-              "original": "Bathing in a clear sea, denotes expansion of business and satisfying research after knowledge.",
-              "translation_ko": "맑은 바다에서 목욕하면 사업이 확장되고 지식을 향한 탐구가 충족될 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "목욕을 함",
-          "interpretation_ko": "벼슬이 오르고 병이 나을 조짐",
-          "interpretation_en": "a sign of promotion and recovery from illness",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "身體面目齒髮",
-              "original": "沐浴遷官疾病除",
-              "translation_ko": "목욕하면 벼슬이 옮겨 오르고 질병이 없어진다"
-            }
-          ]
-        },
-        {
-          "context": "남녀가 목욕하고 잠자리에 오름",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "男女沐浴上床凶",
-              "translation_ko": "남녀가 목욕하고 침상에 오르면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "티끌과 흙으로 목욕함",
-          "interpretation_ko": "앓던 병이 나을 조짐",
-          "interpretation_en": "a sign that illness will heal",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "沐浴塵土疾病安",
-              "translation_ko": "티끌 흙으로 목욕하면 질병이 낫는다"
-            }
-          ]
-        }
-      ]
     },
     {
       "id": "flying",
@@ -43861,6 +43892,211 @@
               "locator": "Trout",
               "original": "To see them in muddy water shows that your success in love will bring you to grief and disappointments.",
               "translation_ko": "흐린 물속의 송어를 보는 꿈은, 사랑에서의 성공이 도리어 슬픔과 낙담을 불러올 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkey",
+      "term_ko": "칠면조",
+      "term_en": "turkey",
+      "aliases": [
+        "칠면조가",
+        "칠면조를",
+        "칠면조들"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "칠면조들을 봄",
+          "interpretation_ko": "사업에서 넉넉히 얻고 농부에게는 풍작이 있을 조짐",
+          "interpretation_en": "signifies abundant gain in business, and favorable crops to the farmer",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turkey",
+              "original": "To dream of seeing turkeys, signifies abundant gain in business, and favorable crops to the farmer.",
+              "translation_ko": "칠면조들을 보는 꿈은, 사업에서 넉넉히 얻고 농부에게는 풍작이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "시장에 내놓으려 손질된 칠면조를 봄",
+          "interpretation_ko": "일이 나아질 조짐",
+          "interpretation_en": "denotes improvement in your affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turkey",
+              "original": "To see them dressed for the market, denotes improvement in your affairs.",
+              "translation_ko": "시장에 내놓으려 손질된 칠면조를 보는 꿈은, 일이 나아질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "병들거나 죽은 칠면조를 봄",
+          "interpretation_ko": "빠듯한 형편으로 자존심이 상할 조짐",
+          "interpretation_en": "foretells that stringent circumstances will cause your pride to suffer",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turkey",
+              "original": "To see them sick, or dead, foretells that stringent circumstances will cause your pride to suffer.",
+              "translation_ko": "병들거나 죽은 칠면조를 보는 꿈은, 빠듯한 형편으로 자존심이 상할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "칠면조를 먹음",
+          "interpretation_ko": "즐거운 일이 다가올 조짐",
+          "interpretation_en": "foretells some joyful occasion approaching",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turkey",
+              "original": "To dream you eat turkey, foretells some joyful occasion approaching.",
+              "translation_ko": "칠면조를 먹는 꿈은, 즐거운 일이 다가올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "칠면조가 나는 것을 봄",
+          "interpretation_ko": "무명에서 이름을 떨치는 데로 빠르게 나아갈 조짐",
+          "interpretation_en": "denotes a rapid transit from obscurity to prominence",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turkey",
+              "original": "To see them flying, denotes a rapid transit from obscurity to prominence.",
+              "translation_ko": "칠면조가 나는 것을 보는 꿈은, 무명에서 이름을 떨치는 데로 빠르게 나아갈 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "사냥감으로 칠면조를 쏨",
+          "interpretation_ko": "부정한 방법으로 재물을 그러모을 조짐",
+          "interpretation_en": "is a sign that you will unscrupulously amass wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turkey",
+              "original": "To shoot them as game, is a sign that you will unscrupulously amass wealth.",
+              "translation_ko": "사냥감으로 칠면조를 쏘는 꿈은, 부정한 방법으로 재물을 그러모을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turnips",
+      "term_ko": "순무",
+      "term_en": "turnips",
+      "aliases": [
+        "순무가",
+        "순무를"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "자라는 순무를 봄",
+          "interpretation_ko": "앞날이 밝아지고 성공에 크게 들뜰 조짐",
+          "interpretation_en": "denotes that your prospects will brighten, and that you will be much elated over your success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turnips",
+              "original": "To see turnips growing, denotes that your prospects will brighten, and that you will be much elated over your success.",
+              "translation_ko": "자라는 순무를 보는 꿈은, 앞날이 밝아지고 성공에 크게 들뜰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "순무 잎을 먹음",
+          "interpretation_ko": "쓰라린 낙담의 조짐",
+          "interpretation_en": "is a sign of bitter disappointment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turnips",
+              "original": "To eat turnip greens, is a sign of bitter disappointment.",
+              "translation_ko": "순무 잎을 먹는 꿈은, 쓰라린 낙담의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "순무를 먹음",
+          "interpretation_ko": "몸이 편치 않을 조짐",
+          "interpretation_en": "is a sign of ill health",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turnips",
+              "original": "To eat them is a sign of ill health.",
+              "translation_ko": "순무를 먹는 꿈은, 몸이 편치 않을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "순무를 뽑음",
+          "interpretation_ko": "기회를 살려 재물을 늘릴 조짐",
+          "interpretation_en": "denotes that you will improve your opportunities and your fortune thereby",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turnips",
+              "original": "To pull them up, denotes that you will improve your opportunities and your fortune thereby.",
+              "translation_ko": "순무를 뽑는 꿈은, 기회를 살려 재물을 늘릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "순무 씨앗 꿈을 꿈",
+          "interpretation_ko": "앞날의 출세를 알리는 조짐",
+          "interpretation_en": "is a sign of future advancement",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turnips",
+              "original": "Turnip seed is a sign of future advancement.",
+              "translation_ko": "순무 씨앗 꿈을 꾸면, 앞날의 출세를 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 순무 씨앗을 뿌림",
+          "interpretation_ko": "좋은 재산을 물려받고 훤칠한 남편을 얻을 조짐",
+          "interpretation_en": "foretells that she will inherit good property, and win a handsome husband",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turnips",
+              "original": "For a young woman to sow turnip seed, foretells that she will inherit good property, and win a handsome husband.",
+              "translation_ko": "처녀가 순무 씨앗을 뿌리는 꿈은, 좋은 재산을 물려받고 훤칠한 남편을 얻을 조짐이다"
             }
           ]
         }
@@ -87988,6 +88224,66 @@
       ]
     },
     {
+      "id": "turquoise",
+      "term_ko": "터키석",
+      "term_en": "turquoise",
+      "aliases": [
+        "터키석이",
+        "터키석을"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "터키석 꿈을 꿈",
+          "interpretation_ko": "머잖아 바라던 바를 이루어 친지들을 크게 기쁘게 할 조짐",
+          "interpretation_en": "foretells you are soon to realize some desire which will greatly please your relatives",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turquoise",
+              "original": "To dream of a torquoise,{sic} foretells you are soon to realize some desire which will greatly please your relatives.",
+              "translation_ko": "터키석 꿈을 꾸면, 머잖아 바라던 바를 이루어 친지들을 크게 기쁘게 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 터키석을 도둑맞음",
+          "interpretation_ko": "사랑에서 고비를 겪을 조짐",
+          "interpretation_en": "foretells she will meet with crosses in love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turquoise",
+              "original": "For a woman to have one stolen, foretells she will meet with crosses in love.",
+              "translation_ko": "여성이 터키석을 도둑맞는 꿈은, 사랑에서 고비를 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 터키석을 부정하게 손에 넣음",
+          "interpretation_ko": "사랑에서 성급히 이끌린 값을 치를 조짐",
+          "interpretation_en": "she must suffer for yielding to hasty susceptibility in love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turquoise",
+              "original": "If she comes by it dishonestly, she must suffer for yielding to hasty susceptibility in love.",
+              "translation_ko": "여성이 터키석을 부정하게 손에 넣는 꿈은, 사랑에서 성급히 이끌린 값을 치를 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "vessel",
       "term_ko": "그릇",
       "term_en": "vessel",
@@ -116681,6 +116977,52 @@
               "locator": "Trusts",
               "original": "If you imagine you are a member of a trust, you will be successful in designs of a speculative nature.",
               "translation_ko": "스스로 트러스트의 일원이라 여기는 꿈은, 투기성 계획에서 성공할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turpentine",
+      "term_ko": "테레빈유",
+      "term_en": "turpentine",
+      "aliases": [
+        "테레빈유가",
+        "테레빈유를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "테레빈유 꿈을 꿈",
+          "interpretation_ko": "가까운 앞날에 이문 없고 낙담스러운 약속이 있을 조짐",
+          "interpretation_en": "foretells your near future holds unprofitable and discouraging engagements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turpentine",
+              "original": "To dream of turpentine, foretells your near future holds unprofitable and discouraging engagements.",
+              "translation_ko": "테레빈유 꿈을 꾸면, 가까운 앞날에 이문 없고 낙담스러운 약속이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 남의 상처에 테레빈유를 감쌈",
+          "interpretation_ko": "너그러운 행실로 우정과 호의를 얻을 조짐",
+          "interpretation_en": "shows she will gain friendships and favor through her benevolent acts",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turpentine",
+              "original": "For a woman to dream that she binds turpentine to the wound of another, shows she will gain friendships and favor through her benevolent acts.",
+              "translation_ko": "여성이 남의 상처에 테레빈유를 감싸는 꿈은, 너그러운 행실로 우정과 호의를 얻을 조짐이다"
             }
           ]
         }
