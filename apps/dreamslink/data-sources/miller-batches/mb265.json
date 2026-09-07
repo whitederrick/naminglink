@@ -1,0 +1,17 @@
+{
+  "batch": 265,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Switch", "text": "To dream of a switch, foretells changes and misfortune.\n\nA broken switch, foretells disgrace and trouble.\n\nTo dream of a railroad switch, denotes that travel will cause you much loss and inconvenience.\n\nTo dream of a switch, signifies you will meet discouragements in momentous affairs.", "note": "새 상징 switch(회초리)·railroad switch(철도 선로전환기). 넷째 문장은 첫째와 같은 그림(그냥 「a switch」)을 원문 스스로 되풀이한 것이라 건너뜀 — 같은 work·같은 context면 인용만 포개지는데 풀이가 달라 그렇게 하면 안 됨" },
+    { "headword": "Sword", "text": "To dream that you wear a sword, indicates that you will fill some public position with honor.\n\nTo have your sword taken from you, denotes your vanquishment in rivalry.\n\nTo see others bearing swords, foretells that altercations will be attended with danger.\n\nA broken sword, foretells despair.", "note": "기존 sword(칼, 이미 의미 27개)에 문맥 2개만 추가. 첫 문장(칼을 참)은 기존 zhougong 「칼을 차고 길을 감」과, 넷째 문장(부러진 칼)은 기존 miller 「동강 난 칼을 봄」(Knives 헤드워드)과 각각 같은 그림·다른 풀이라 건너뜀" },
+    { "headword": "Table", "text": "To dream of setting a table preparatory to a meal, foretells happy unions and prosperous circumstances.\n\nTo see empty tables, signifies poverty or disagreements.\n\nTo clear away the table, denotes that pleasure will soon assume the form of trouble and indifference.\n\nTo eat from a table without a cloth, foretells that you will be possessed of an independent disposition, and the prosperity or conduct of others will give you no concern.\n\nTo see a table walking or moving in some mysterious way, foretells that dissatisfaction will soon enter your life, and you will seek relief in change.\n\nTo dream of a soiled cloth on a table, denotes disobedience from servants or children, and quarreling will invariably follow pleasure.\n\nTo see a broken table, is ominous of decaying fortune.\n\nTo see one standing or sitting on a table, foretells that to obtain their desires they will be guilty of indiscretions.\n\nTo see or hear table-rapping or writing, denotes that you will undergo change of feelings towards your friends, and your fortune will be threatened.  A loss from the depreciation of relatives or friends is indicated.", "note": "기존 table(탁자)에 문맥 9개 추가 — 옛 유일한 의미(zhougong)와 안 겹침. S 표제어가 끝나고 T로 넘어가는 첫 표제어" },
+    { "headword": "Tacks", "text": "To dream of tacks, means to you many vacations and quarrels.\n\nFor a woman to drive one, foretells she will master unpleasant rivalry.\n\nIf she mashes her finger while driving it, she will be distressed over unpleasant tasks", "note": "새 상징 tacks(압정). 원문의 「vacations」는 문맥상 「vexations」의 오식으로 보이지만 원문 그대로 인용함" },
+    { "headword": "Tadpole", "text": "To dream of tadpoles, foretells uncertain speculation will bring cause for uneasiness in business.  For a young woman to see them in clear water, foretells she will form a relation with a wealthy but immoral man.", "note": "새 상징 tadpole(올챙이)" }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    { "headword": "Switch", "sentence": "To dream of a switch, signifies you will meet discouragements in momentous affairs.", "reason": "같은 헤드워드의 첫 문장과 같은 그림(그냥 switch)인데 풀이가 달라 판별어로 못 가른다" },
+    { "headword": "Sword", "sentence": "To dream that you wear a sword, indicates that you will fill some public position with honor.", "reason": "기존 sword 「칼을 차고 길을 감」(zhougong)과 같은 그림·다른 풀이" },
+    { "headword": "Sword", "sentence": "A broken sword, foretells despair.", "reason": "기존 sword 「동강 난 칼을 봄」(밀러 Knives)과 같은 그림·다른 풀이" }
+  ]
+}

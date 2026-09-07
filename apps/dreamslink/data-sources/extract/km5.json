@@ -43,7 +43,9 @@
       "칼을 봄": "헤어짐 다툼이",
       "녹슨 칼을 봄": "녹슨 녹이 녹슬",
       "시퍼렇게 잘 벼린 칼을 봄": "시퍼런 시퍼렇 번쩍이",
-      "동강 난 칼을 봄": "동강 날이 나간"
+      "동강 난 칼을 봄": "동강 날이 나간",
+      "남에게 칼을 빼앗김": "빼앗겼다",
+      "남들이 칼을 지니고 있는 것을 봄": "지니고"
     },
     "contexts_en": {
       "깃발과 칼이 산속으로 이끌어 들임": "banner flag mountain",
@@ -72,7 +74,9 @@
       "칼을 봄": "portends separation quarrels business character",
       "녹슨 칼을 봄": "rusty dissatisfaction complaints lovers",
       "시퍼렇게 잘 벼린 칼을 봄": "polished worry foes surrounding",
-      "동강 난 칼을 봄": "defeat pursuit whether"
+      "동강 난 칼을 봄": "defeat pursuit whether",
+      "남에게 칼을 빼앗김": "taken vanquishment rivalry",
+      "남들이 칼을 지니고 있는 것을 봄": "others bearing altercations"
     }
   },
   {

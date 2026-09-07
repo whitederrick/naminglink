@@ -1,13 +1,16 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 264 — 새 상징 여섯(sweetheart·sweet-oil·
-// sweet-taste·swelling·sybil·syringe)을 세우고, 기존 cheese·music·
-// church 셋에 문맥을 보탰다. Symphony·Synagogue 는 원문 각주가
-// 각각 "See Music"·"See Church"로 가리켜 그대로 따랐다. Sweetheart
-// 의 각주는 "See Lover, Hugging, and Kissing"인데 그 셋이 아직
-// 사전에 없어(L이 훨씬 앞선 자리인데도 아직 안 들어와 있었다) 새로
-// 세웠다 — 나중에 Lover 표제어 차례가 오면 병합 여부를 다시 볼 것.
-// cheese·music·church 셋 다 기존 정의가 더 앞선 m 파일에서 와
-// 기본값 플립이 없었다.
+// (지금 담긴 것: 배치 265 — 새 상징 넷(switch·railroad-switch·
+// tacks·tadpole)을 세우고, 기존 sword(이미 의미 27개)·table 둘에
+// 문맥을 보탰다. Switch 넷째 문장은 같은 헤드워드의 첫 문장과 같은
+// 그림(그냥 「a switch」)인데 풀이가 달라 건너뛰었다 — 밀러가 자기
+// 헤드워드 안에서도 되풀이한 드문 자리. Sword 첫·넷째 문장은 각각
+// 기존 「칼을 차고 길을 감」(zhougong)·「동강 난 칼을 봄」(밀러
+// Knives)과 같은 그림·다른 풀이라 건너뛰었다. sword는 있던 답
+// 그대로, table은 옛 zhougong 기본값(집 안에 괴어 둠, 특이한 좁은
+// 그림)을 밀러의 「식사를 앞두고 차림」(훨씬 흔한 그림)으로 바꿨다.
+// switch(회초리)가 기존 chastise(체벌)의 별칭 "회초리"와 겹쳐서
+// chastise 쪽에서 놓아줬다 — chastise는 이미 "꾸중"·"종아리를
+// 맞았다"로 충분히 걸린다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -38,28 +41,31 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 264 새 문맥 (16건) ──────────────────────────────────────────────
-  { id: "sweetheart", ctx: "애인이 상냥하고 외모도 마음에 듦", text: "애인이 상냥하고 외모도 마음에 들었다" },
-  { id: "sweetheart", ctx: "애인이 그렇지 않게 보임", text: "애인이 그렇지 않게 보였다" },
-  { id: "sweetheart", ctx: "애인이 아프거나 괴로워하는 것을 봄", text: "애인이 아프거나 괴로워하는 것을 보았다" },
-  { id: "sweetheart", ctx: "애인이 주검이 되어 있음", text: "애인이 주검이 되어 있었다" },
-  { id: "sweet-oil", ctx: "단맛 나는 기름 꿈을 꿈", text: "단맛 나는 기름 꿈을 꾸었다" },
-  { id: "sweet-taste", ctx: "입안에 단맛이 남", text: "입안에 단맛이 남았다" },
-  { id: "sweet-taste", ctx: "입안의 단맛을 없애려 애씀", text: "입안의 단맛을 없애려 애썼다" },
-  { id: "swelling", ctx: "스스로 부어오른 것을 봄", text: "스스로 부어오른 것을 보았다" },
-  { id: "swelling", ctx: "남이 부어오른 것을 봄", text: "남이 부어오른 것을 보았다" },
-  { id: "cheese", ctx: "스위스 치즈 꿈을 꿈", text: "스위스 치즈 꿈을 꾸었다" },
-  { id: "sybil", ctx: "여자 예언자 꿈을 꿈", text: "여자 예언자 꿈을 꾸었다" },
-  { id: "music", ctx: "교향곡 꿈을 꿈", text: "교향곡 꿈을 꾸었다" },
-  { id: "church", ctx: "원수가 재물로 가는 문턱을 막고 있음을 뜻하는 유대교 회당을 봄", text: "유대교 회당을 보았는데 오르면 원수를 이겨낼 것 같았다" },
-  { id: "church", ctx: "유대교 회당의 히브리어 글귀를 읽음", text: "유대교 회당의 히브리어 글귀를 읽었다" },
-  { id: "syringe", ctx: "주사기 꿈을 꿈", text: "주사기 꿈을 꾸었다" },
-  { id: "syringe", ctx: "부서진 주사기를 봄", text: "부서진 주사기를 보았다" },
+  // ── 배치 265 새 문맥 (19건) ──────────────────────────────────────────────
+  { id: "switch", ctx: "회초리 꿈을 꿈", text: "회초리 꿈을 꾸었다" },
+  { id: "switch", ctx: "부러진 회초리를 봄", text: "부러진 회초리를 보았다" },
+  { id: "railroad-switch", ctx: "철도 선로전환기 꿈을 꿈", text: "철도 선로전환기 꿈을 꾸었다" },
+  { id: "sword", ctx: "남에게 칼을 빼앗김", text: "남에게 칼을 빼앗겼다" },
+  { id: "sword", ctx: "남들이 칼을 지니고 있는 것을 봄", text: "남들이 칼을 지니고 있는 것을 보았다" },
+  { id: "table", ctx: "식사를 앞두고 탁자를 차림", text: "식사를 앞두고 탁자를 차렸다" },
+  { id: "table", ctx: "빈 탁자를 봄", text: "탁자가 텅 비어 있었다" },
+  { id: "table", ctx: "탁자를 치움", text: "탁자를 치웠다" },
+  { id: "table", ctx: "식탁보 없는 탁자에서 먹음", text: "식탁보 없는 탁자에서 먹었다" },
+  { id: "table", ctx: "탁자가 알 수 없이 저절로 걷거나 움직이는 것을 봄", text: "탁자가 저절로 움직이는 것을 보았다" },
+  { id: "table", ctx: "탁자에 얼룩진 식탁보가 덮여 있음", text: "탁자에 얼룩진 식탁보가 덮여 있었다" },
+  { id: "table", ctx: "부서진 탁자를 봄", text: "부서진 탁자를 보았다" },
+  { id: "table", ctx: "누군가 탁자 위에 서 있거나 앉아 있는 것을 봄", text: "누군가 탁자 위에 앉아있는 것을 보았다" },
+  { id: "table", ctx: "탁자를 두드리거나 글을 쓰는 소리를 보거나 들음", text: "탁자를 두드리거나 하는 소리를 들었다" },
+  { id: "tacks", ctx: "압정 꿈을 꿈", text: "압정 꿈을 꾸었다" },
+  { id: "tacks", ctx: "여성이 압정을 박음", text: "여성이 압정을 박았다" },
+  { id: "tacks", ctx: "압정을 박다가 손가락을 다침", text: "압정을 박다가 손가락을 다쳤다" },
+  { id: "tadpole", ctx: "올챙이 꿈을 꿈", text: "올챙이 꿈을 꾸었다" },
+  { id: "tadpole", ctx: "여성이 맑은 물속의 올챙이를 봄", text: "여성이 맑은 물속의 올챙이를 보았다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────────
-  { id: "cheese", ctx: "치즈를 먹음", text: "치즈를 먹었다" },
-  { id: "music", ctx: "남이 풍악을 울림", text: "남이 풍악을 울렸다" },
-  { id: "church", ctx: "멀리 있는 교회를 봄", text: "멀리 있는 교회를 보았다" },
+  { id: "sword", ctx: "칼을 봄", text: "칼을 보았다" },
+  { id: "sword", ctx: "칼을 잃어버림", text: "칼을 잃어버렸다" },
+  { id: "table", ctx: "탁자를 집 안에 괴어 둠", text: "탁자를 집 안에 괴어 두었다" },
 ];
 
 let notFound = 0;

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "switch",
+    "aliases": [
+      "회초리가",
+      "회초리를"
+    ],
+    "aliases_en": [
+      "switch",
+      "a switch"
+    ],
+    "contexts": {
+      "회초리 꿈을 꿈": "그냥",
+      "부러진 회초리를 봄": "부러진"
+    },
+    "contexts_en": {
+      "회초리 꿈을 꿈": "changes misfortune",
+      "부러진 회초리를 봄": "broken disgrace trouble"
+    }
+  },
+  {
+    "id": "railroad-switch",
+    "aliases": [
+      "선로전환기",
+      "철도 전철기"
+    ],
+    "aliases_en": [
+      "railroad switch",
+      "a railroad switch"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "tacks",
+    "aliases": [
+      "압정이",
+      "압정을"
+    ],
+    "aliases_en": [
+      "tacks",
+      "a tack"
+    ],
+    "contexts": {
+      "압정 꿈을 꿈": "그냥",
+      "여성이 압정을 박음": "여성이 박았다",
+      "압정을 박다가 손가락을 다침": "손가락을 다쳤다"
+    },
+    "contexts_en": {
+      "압정 꿈을 꿈": "vacations quarrels",
+      "여성이 압정을 박음": "woman drive master",
+      "압정을 박다가 손가락을 다침": "mashes finger distressed"
+    }
+  },
+  {
+    "id": "tadpole",
+    "aliases": [
+      "올챙이가",
+      "올챙이를"
+    ],
+    "aliases_en": [
+      "tadpole",
+      "tadpoles"
+    ],
+    "contexts": {
+      "올챙이 꿈을 꿈": "그냥",
+      "여성이 맑은 물속의 올챙이를 봄": "여성이 맑은"
+    },
+    "contexts_en": {
+      "올챙이 꿈을 꿈": "uncertain speculation uneasiness",
+      "여성이 맑은 물속의 올챙이를 봄": "clear water wealthy immoral"
+    }
+  }
+]

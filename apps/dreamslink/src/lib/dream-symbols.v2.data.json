@@ -185,6 +185,7 @@
     "m262.json",
     "m263.json",
     "m264.json",
+    "m265.json",
     "m27a.json",
     "m27b.json",
     "m28.json",
@@ -1705,6 +1706,442 @@
       ]
     },
     {
+      "id": "sword",
+      "term_ko": "칼",
+      "term_en": "sword",
+      "aliases": [
+        "장검",
+        "식칼",
+        "도검",
+        "비수",
+        "칼이",
+        "칼을",
+        "부엌칼"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "칼을 봄",
+          "interpretation_ko": "헤어짐과 다툼이 있고 하는 일에 손해가 따를 흉한 조짐",
+          "interpretation_en": "portends separation and quarrels, and losses in affairs of a business character",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Knife",
+              "original": "To dream of a knife is bad for the dreamer, as it portends separation and quarrels, and losses in affairs of a business character.",
+              "translation_ko": "칼의 꿈은 꿈꾼 이에게 나쁘며, 헤어짐과 다툼과 일의 손해를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 칼을 빼앗김",
+          "interpretation_ko": "다툼에서 패할 조짐",
+          "interpretation_en": "denotes your vanquishment in rivalry",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sword",
+              "original": "To have your sword taken from you, denotes your vanquishment in rivalry.",
+              "translation_ko": "남에게 칼을 빼앗기는 꿈은, 다툼에서 패할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 칼을 지니고 있는 것을 봄",
+          "interpretation_ko": "다툼에 위험이 뒤따를 조짐",
+          "interpretation_en": "foretells that altercations will be attended with danger",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sword",
+              "original": "To see others bearing swords, foretells that altercations will be attended with danger.",
+              "translation_ko": "남들이 칼을 지니고 있는 것을 보는 꿈은, 다툼에 위험이 뒤따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "녹슨 칼을 봄",
+          "interpretation_ko": "집안 사람의 불만과 푸념이 있고 정인과 갈라설 흉한 조짐",
+          "interpretation_en": "means dissatisfaction, and complaints of those in the home, and separation of lovers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Knife",
+              "original": "To see rusty knives, means dissatisfaction, and complaints of those in the home, and separation of lovers.",
+              "translation_ko": "녹슨 칼을 보면 집안 사람의 불만과 푸념이 있고 정인과 갈라선다"
+            }
+          ]
+        },
+        {
+          "context": "시퍼렇게 잘 벼린 칼을 봄",
+          "interpretation_ko": "속을 태우게 되고 적이 늘 에워싸고 있을 흉한 조짐",
+          "interpretation_en": "denotes worry; foes are ever surrounding you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Knife",
+              "original": "Sharp knives and highly polished, denotes worry.",
+              "translation_ko": "날이 서고 번쩍이는 칼은 속을 태우게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "동강 난 칼을 봄",
+          "interpretation_ko": "사랑에서든 하는 일에서든 지고 말 흉한 조짐",
+          "interpretation_en": "denotes defeat whatever the pursuit, whether in love or business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Knife",
+              "original": "Broken knives, denotes defeat whatever the pursuit, whether in love or business.",
+              "translation_ko": "동강 난 칼은 사랑에서든 일에서든 지고 마는 것을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "깃발과 칼이 산속으로 이끌어 들임",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "旌劍引入山主凶",
+              "translation_ko": "깃발과 칼이 산으로 이끌어 들이면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "칼을 뽑아 들고 길을 나섬",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "拔刀出行主大吉",
+              "translation_ko": "칼을 뽑아 들고 길을 나서면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "남에게서 칼을 얻음",
+          "interpretation_ko": "길 떠난 사람이 돌아올 조짐",
+          "interpretation_en": "a sign that a traveler will arrive",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "得人刀主行人至",
+              "translation_ko": "남에게 칼을 얻으면 길 떠난 사람이 온다"
+            }
+          ]
+        },
+        {
+          "context": "남이 칼 세 자루를 줌",
+          "interpretation_ko": "벼슬자리를 얻을 조짐",
+          "interpretation_en": "a sign of gaining an official post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "人與三刀作刺史",
+              "translation_ko": "남이 칼 세 자루를 주면 자사(지방 장관)가 된다"
+            }
+          ]
+        },
+        {
+          "context": "남과 더불어 칼로 벰",
+          "interpretation_ko": "크게 길하고 경사로운 조짐",
+          "interpretation_en": "a sign of great fortune and celebration",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "與人與斫大吉慶",
+              "translation_ko": "남과 더불어 베면 크게 길하고 경사롭다"
+            }
+          ]
+        },
+        {
+          "context": "칼에 다쳐 피가 남",
+          "interpretation_ko": "술과 음식을 얻을 조짐",
+          "interpretation_en": "a sign of receiving food and drink",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "被刀出血得酒食",
+              "translation_ko": "칼에 다쳐 피가 나면 술과 음식을 얻는다"
+            },
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "刀傷出血主酒食",
+              "translation_ko": "칼에 다쳐 피가 나면 술과 음식이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "부러진 칼로 남을 찌름",
+          "interpretation_ko": "이익을 잃을 조짐",
+          "interpretation_en": "a sign of losing profit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "折刀刺人主失利",
+              "translation_ko": "부러진 칼로 남을 찌르면 이익을 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "칼과 도끼에 스스로 다침",
+          "interpretation_ko": "크게 길하고 이로운 조짐",
+          "interpretation_en": "a very auspicious and favorable sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "刀斧自傷大吉利",
+              "translation_ko": "칼과 도끼에 스스로 다치면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "남에게서 칼과 도끼를 얻음",
+          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining salary and position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "得人刀斧祿位至",
+              "translation_ko": "남에게 칼과 도끼를 얻으면 녹봉과 지위가 온다"
+            }
+          ]
+        },
+        {
+          "context": "칼이 물속에 빠짐",
+          "interpretation_ko": "아내를 잃을 조짐",
+          "interpretation_en": "a sign of losing one's wife",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "刀落水中妻妾亡",
+              "translation_ko": "칼이 물속에 떨어지면 아내와 첩을 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "칼을 잃어버림",
+          "interpretation_ko": "재물을 잃을 조짐",
+          "interpretation_en": "a sign of losing wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "失落刀劍主破財",
+              "translation_ko": "칼과 검을 잃어버리면 재물이 깨진다"
+            }
+          ]
+        },
+        {
+          "context": "칼을 차고 길을 감",
+          "interpretation_ko": "재물의 이익을 얻을 조짐",
+          "interpretation_en": "a sign of financial gain",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "帶刀劍行有財利",
+              "translation_ko": "칼과 검을 차고 다니면 재물의 이익이 있다"
+            }
+          ]
+        },
+        {
+          "context": "칼을 갈아 날이 날카로워짐",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "磨刀劍鋒快大吉",
+              "translation_ko": "칼과 검을 갈아 날이 날카로우면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 칼을 줌",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "與人刀劍皆主凶",
+              "translation_ko": "남에게 칼과 검을 주면 모두 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "칼이 잠자리 머리맡에 있음",
+          "interpretation_ko": "크게 길하고 이로운 조짐",
+          "interpretation_en": "a very auspicious and favorable sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "劍在床頭大吉利",
+              "translation_ko": "검이 침상 머리맡에 있으면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 칼을 참",
+          "interpretation_ko": "크게 길하고 경사로운 조짐",
+          "interpretation_en": "a sign of great fortune and celebration",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "女人帶刀大吉慶",
+              "translation_ko": "여자가 칼을 차면 크게 길하고 경사롭다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 칼을 뽑음",
+          "interpretation_ko": "자식을 얻을 조짐",
+          "interpretation_en": "a sign of having a child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "女人拔刀主有子",
+              "translation_ko": "여자가 칼을 뽑으면 자식을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "갑옷을 입고 칼을 짚음",
+          "interpretation_ko": "높은 벼슬을 얻을 조짐",
+          "interpretation_en": "a sign of gaining high office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "披甲仗劍得高官",
+              "translation_ko": "갑옷을 입고 칼을 짚으면 높은 벼슬을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "칼을 들고 스스로를 찌름",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "持刀自殺者大吉",
+              "translation_ko": "칼을 들고 스스로를 죽이면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "칼에 찔림",
+          "interpretation_ko": "시원하게 풀리고 이로울 조짐",
+          "interpretation_en": "a sign of relief and benefit",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "被刀刺火出快利",
+              "translation_ko": "칼에 찔려 불이 나오면 시원하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "칼을 들고 서로 싸움",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "持刀相殺見血吉",
+              "translation_ko": "칼을 들고 서로 죽여 피를 보면 길하다"
+            }
+          ]
+        },
+        {
+          "context": "칼에 스스로 다침",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "刀斧自傷主大吉",
+              "translation_ko": "칼과 도끼에 스스로 다치면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "칼로 남을 벰",
+          "interpretation_ko": "제 재물을 잃을 조짐",
+          "interpretation_en": "a sign of losing one's own wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "持刀斫人自失財",
+              "translation_ko": "칼로 남을 베면 스스로 재물을 잃는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "fire",
       "term_ko": "불",
       "term_en": "fire",
@@ -2102,414 +2539,6 @@
               "locator": "船車遊行物件",
               "original": "執火入船主大吉",
               "translation_ko": "불을 들고 배에 들면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sword",
-      "term_ko": "칼",
-      "term_en": "sword",
-      "aliases": [
-        "장검",
-        "식칼",
-        "도검",
-        "비수",
-        "칼이",
-        "칼을",
-        "부엌칼"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "칼을 봄",
-          "interpretation_ko": "헤어짐과 다툼이 있고 하는 일에 손해가 따를 흉한 조짐",
-          "interpretation_en": "portends separation and quarrels, and losses in affairs of a business character",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Knife",
-              "original": "To dream of a knife is bad for the dreamer, as it portends separation and quarrels, and losses in affairs of a business character.",
-              "translation_ko": "칼의 꿈은 꿈꾼 이에게 나쁘며, 헤어짐과 다툼과 일의 손해를 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "녹슨 칼을 봄",
-          "interpretation_ko": "집안 사람의 불만과 푸념이 있고 정인과 갈라설 흉한 조짐",
-          "interpretation_en": "means dissatisfaction, and complaints of those in the home, and separation of lovers",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Knife",
-              "original": "To see rusty knives, means dissatisfaction, and complaints of those in the home, and separation of lovers.",
-              "translation_ko": "녹슨 칼을 보면 집안 사람의 불만과 푸념이 있고 정인과 갈라선다"
-            }
-          ]
-        },
-        {
-          "context": "시퍼렇게 잘 벼린 칼을 봄",
-          "interpretation_ko": "속을 태우게 되고 적이 늘 에워싸고 있을 흉한 조짐",
-          "interpretation_en": "denotes worry; foes are ever surrounding you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Knife",
-              "original": "Sharp knives and highly polished, denotes worry.",
-              "translation_ko": "날이 서고 번쩍이는 칼은 속을 태우게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "동강 난 칼을 봄",
-          "interpretation_ko": "사랑에서든 하는 일에서든 지고 말 흉한 조짐",
-          "interpretation_en": "denotes defeat whatever the pursuit, whether in love or business",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Knife",
-              "original": "Broken knives, denotes defeat whatever the pursuit, whether in love or business.",
-              "translation_ko": "동강 난 칼은 사랑에서든 일에서든 지고 마는 것을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "깃발과 칼이 산속으로 이끌어 들임",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "旌劍引入山主凶",
-              "translation_ko": "깃발과 칼이 산으로 이끌어 들이면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "칼을 뽑아 들고 길을 나섬",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "拔刀出行主大吉",
-              "translation_ko": "칼을 뽑아 들고 길을 나서면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "남에게서 칼을 얻음",
-          "interpretation_ko": "길 떠난 사람이 돌아올 조짐",
-          "interpretation_en": "a sign that a traveler will arrive",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "得人刀主行人至",
-              "translation_ko": "남에게 칼을 얻으면 길 떠난 사람이 온다"
-            }
-          ]
-        },
-        {
-          "context": "남이 칼 세 자루를 줌",
-          "interpretation_ko": "벼슬자리를 얻을 조짐",
-          "interpretation_en": "a sign of gaining an official post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "人與三刀作刺史",
-              "translation_ko": "남이 칼 세 자루를 주면 자사(지방 장관)가 된다"
-            }
-          ]
-        },
-        {
-          "context": "남과 더불어 칼로 벰",
-          "interpretation_ko": "크게 길하고 경사로운 조짐",
-          "interpretation_en": "a sign of great fortune and celebration",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "與人與斫大吉慶",
-              "translation_ko": "남과 더불어 베면 크게 길하고 경사롭다"
-            }
-          ]
-        },
-        {
-          "context": "칼에 다쳐 피가 남",
-          "interpretation_ko": "술과 음식을 얻을 조짐",
-          "interpretation_en": "a sign of receiving food and drink",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "被刀出血得酒食",
-              "translation_ko": "칼에 다쳐 피가 나면 술과 음식을 얻는다"
-            },
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "刀傷出血主酒食",
-              "translation_ko": "칼에 다쳐 피가 나면 술과 음식이 생긴다"
-            }
-          ]
-        },
-        {
-          "context": "부러진 칼로 남을 찌름",
-          "interpretation_ko": "이익을 잃을 조짐",
-          "interpretation_en": "a sign of losing profit",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "折刀刺人主失利",
-              "translation_ko": "부러진 칼로 남을 찌르면 이익을 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "칼과 도끼에 스스로 다침",
-          "interpretation_ko": "크게 길하고 이로운 조짐",
-          "interpretation_en": "a very auspicious and favorable sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "刀斧自傷大吉利",
-              "translation_ko": "칼과 도끼에 스스로 다치면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "남에게서 칼과 도끼를 얻음",
-          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining salary and position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "得人刀斧祿位至",
-              "translation_ko": "남에게 칼과 도끼를 얻으면 녹봉과 지위가 온다"
-            }
-          ]
-        },
-        {
-          "context": "칼이 물속에 빠짐",
-          "interpretation_ko": "아내를 잃을 조짐",
-          "interpretation_en": "a sign of losing one's wife",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "刀落水中妻妾亡",
-              "translation_ko": "칼이 물속에 떨어지면 아내와 첩을 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "칼을 잃어버림",
-          "interpretation_ko": "재물을 잃을 조짐",
-          "interpretation_en": "a sign of losing wealth",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "失落刀劍主破財",
-              "translation_ko": "칼과 검을 잃어버리면 재물이 깨진다"
-            }
-          ]
-        },
-        {
-          "context": "칼을 차고 길을 감",
-          "interpretation_ko": "재물의 이익을 얻을 조짐",
-          "interpretation_en": "a sign of financial gain",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "帶刀劍行有財利",
-              "translation_ko": "칼과 검을 차고 다니면 재물의 이익이 있다"
-            }
-          ]
-        },
-        {
-          "context": "칼을 갈아 날이 날카로워짐",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "磨刀劍鋒快大吉",
-              "translation_ko": "칼과 검을 갈아 날이 날카로우면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "남에게 칼을 줌",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "與人刀劍皆主凶",
-              "translation_ko": "남에게 칼과 검을 주면 모두 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "칼이 잠자리 머리맡에 있음",
-          "interpretation_ko": "크게 길하고 이로운 조짐",
-          "interpretation_en": "a very auspicious and favorable sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "劍在床頭大吉利",
-              "translation_ko": "검이 침상 머리맡에 있으면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "여자가 칼을 참",
-          "interpretation_ko": "크게 길하고 경사로운 조짐",
-          "interpretation_en": "a sign of great fortune and celebration",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "女人帶刀大吉慶",
-              "translation_ko": "여자가 칼을 차면 크게 길하고 경사롭다"
-            }
-          ]
-        },
-        {
-          "context": "여자가 칼을 뽑음",
-          "interpretation_ko": "자식을 얻을 조짐",
-          "interpretation_en": "a sign of having a child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "女人拔刀主有子",
-              "translation_ko": "여자가 칼을 뽑으면 자식을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "갑옷을 입고 칼을 짚음",
-          "interpretation_ko": "높은 벼슬을 얻을 조짐",
-          "interpretation_en": "a sign of gaining high office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "披甲仗劍得高官",
-              "translation_ko": "갑옷을 입고 칼을 짚으면 높은 벼슬을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "칼을 들고 스스로를 찌름",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "持刀自殺者大吉",
-              "translation_ko": "칼을 들고 스스로를 죽이면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "칼에 찔림",
-          "interpretation_ko": "시원하게 풀리고 이로울 조짐",
-          "interpretation_en": "a sign of relief and benefit",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "被刀刺火出快利",
-              "translation_ko": "칼에 찔려 불이 나오면 시원하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "칼을 들고 서로 싸움",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "持刀相殺見血吉",
-              "translation_ko": "칼을 들고 서로 죽여 피를 보면 길하다"
-            }
-          ]
-        },
-        {
-          "context": "칼에 스스로 다침",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "刀斧自傷主大吉",
-              "translation_ko": "칼과 도끼에 스스로 다치면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "칼로 남을 벰",
-          "interpretation_ko": "제 재물을 잃을 조짐",
-          "interpretation_en": "a sign of losing one's own wealth",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "持刀斫人自失財",
-              "translation_ko": "칼로 남을 베면 스스로 재물을 잃는다"
             }
           ]
         }
@@ -22767,6 +22796,164 @@
               "locator": "衣帳毯褥匙櫡",
               "original": "舖蓆合坐得官位",
               "translation_ko": "돗자리를 펴고 함께 앉으면 벼슬자리를 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "table",
+      "term_ko": "탁자",
+      "term_en": "table",
+      "aliases": [
+        "테이블"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "식사를 앞두고 탁자를 차림",
+          "interpretation_ko": "행복한 인연과 번영한 형편을 알리는 조짐",
+          "interpretation_en": "foretells happy unions and prosperous circumstances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Table",
+              "original": "To dream of setting a table preparatory to a meal, foretells happy unions and prosperous circumstances.",
+              "translation_ko": "식사를 앞두고 탁자를 차리는 꿈은, 행복한 인연과 번영한 형편을 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빈 탁자를 봄",
+          "interpretation_ko": "가난이나 다툼을 뜻함",
+          "interpretation_en": "signifies poverty or disagreements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Table",
+              "original": "To see empty tables, signifies poverty or disagreements.",
+              "translation_ko": "빈 탁자를 보는 꿈은, 가난이나 다툼을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "탁자를 치움",
+          "interpretation_ko": "즐거움이 머잖아 근심과 무관심으로 바뀔 조짐",
+          "interpretation_en": "denotes that pleasure will soon assume the form of trouble and indifference",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Table",
+              "original": "To clear away the table, denotes that pleasure will soon assume the form of trouble and indifference.",
+              "translation_ko": "탁자를 치우는 꿈은, 즐거움이 머잖아 근심과 무관심으로 바뀔 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "식탁보 없는 탁자에서 먹음",
+          "interpretation_ko": "자립적인 성품을 지녀 남의 번영이나 처신에 마음 쓰지 않게 될 조짐",
+          "interpretation_en": "foretells that you will be possessed of an independent disposition, and the prosperity or conduct of others will give you no concern",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Table",
+              "original": "To eat from a table without a cloth, foretells that you will be possessed of an independent disposition, and the prosperity or conduct of others will give you no concern.",
+              "translation_ko": "식탁보 없는 탁자에서 먹는 꿈은, 자립적인 성품을 지녀 남의 번영이나 처신에 마음 쓰지 않게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "탁자가 알 수 없이 저절로 걷거나 움직이는 것을 봄",
+          "interpretation_ko": "머잖아 불만이 삶에 스며들어 변화에서 위안을 찾게 될 조짐",
+          "interpretation_en": "foretells that dissatisfaction will soon enter your life, and you will seek relief in change",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Table",
+              "original": "To see a table walking or moving in some mysterious way, foretells that dissatisfaction will soon enter your life, and you will seek relief in change.",
+              "translation_ko": "탁자가 알 수 없이 저절로 걷거나 움직이는 것을 보는 꿈은, 머잖아 불만이 삶에 스며들어 변화에서 위안을 찾게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "탁자에 얼룩진 식탁보가 덮여 있음",
+          "interpretation_ko": "하인이나 아이들이 말을 안 듣고, 다툼이 늘 즐거움 뒤에 따를 조짐",
+          "interpretation_en": "denotes disobedience from servants or children, and quarreling will invariably follow pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Table",
+              "original": "To dream of a soiled cloth on a table, denotes disobedience from servants or children, and quarreling will invariably follow pleasure.",
+              "translation_ko": "탁자에 얼룩진 식탁보가 덮여 있는 꿈은, 하인이나 아이들이 말을 안 듣고 다툼이 늘 즐거움 뒤에 따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 탁자를 봄",
+          "interpretation_ko": "형편이 기울 흉조",
+          "interpretation_en": "is ominous of decaying fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Table",
+              "original": "To see a broken table, is ominous of decaying fortune.",
+              "translation_ko": "부서진 탁자를 보는 꿈은, 형편이 기울 흉조이다"
+            }
+          ]
+        },
+        {
+          "context": "누군가 탁자 위에 서 있거나 앉아 있는 것을 봄",
+          "interpretation_ko": "바라는 것을 얻으려 경솔한 짓을 저지를 조짐",
+          "interpretation_en": "foretells that to obtain their desires they will be guilty of indiscretions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Table",
+              "original": "To see one standing or sitting on a table, foretells that to obtain their desires they will be guilty of indiscretions.",
+              "translation_ko": "누군가 탁자 위에 서 있거나 앉아 있는 것을 보는 꿈은, 바라는 것을 얻으려 경솔한 짓을 저지를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "탁자를 두드리거나 글을 쓰는 소리를 보거나 들음",
+          "interpretation_ko": "벗을 향한 마음이 달라지고 형편도 위태로워질 조짐 — 살붙이나 벗의 처지가 나빠져 손실을 볼 수도 있음",
+          "interpretation_en": "denotes that you will undergo change of feelings towards your friends, and your fortune will be threatened; a loss from the depreciation of relatives or friends is indicated",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Table",
+              "original": "To see or hear table-rapping or writing, denotes that you will undergo change of feelings towards your friends, and your fortune will be threatened. A loss from the depreciation of relatives or friends is indicated.",
+              "translation_ko": "탁자를 두드리거나 글을 쓰는 소리를 보거나 듣는 꿈은, 벗을 향한 마음이 달라지고 형편도 위태로워질 조짐이다 — 살붙이나 벗의 처지가 나빠져 손실을 볼 수도 있다"
+            }
+          ]
+        },
+        {
+          "context": "탁자를 집 안에 괴어 둠",
+          "interpretation_ko": "일이 이루어지지 않을 조짐",
+          "interpretation_en": "a sign that matters will not come together",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "桌架於宅事不成",
+              "translation_ko": "탁자를 집에 괴어 두면 일이 이루어지지 않는다"
             }
           ]
         }
@@ -70469,7 +70656,6 @@
       "term_ko": "체벌",
       "term_en": "chastise",
       "aliases": [
-        "회초리",
         "꾸중",
         "종아리를 맞았다"
       ],
@@ -83787,6 +83973,66 @@
               "locator": "船車遊行物件",
               "original": "乘船過日月主富",
               "translation_ko": "배를 타고 해와 달을 지나면 부유해진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tacks",
+      "term_ko": "압정",
+      "term_en": "tacks",
+      "aliases": [
+        "압정이",
+        "압정을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "압정 꿈을 꿈",
+          "interpretation_ko": "여러 차례의 여행과 다툼을 뜻함",
+          "interpretation_en": "means to you many vacations and quarrels",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tacks",
+              "original": "To dream of tacks, means to you many vacations and quarrels.",
+              "translation_ko": "압정 꿈은, 여러 차례의 여행과 다툼을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 압정을 박음",
+          "interpretation_ko": "달갑잖은 다툼을 이겨 낼 조짐",
+          "interpretation_en": "foretells she will master unpleasant rivalry",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tacks",
+              "original": "For a woman to drive one, foretells she will master unpleasant rivalry.",
+              "translation_ko": "여성이 압정을 박는 꿈은, 달갑잖은 다툼을 이겨 낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "압정을 박다가 손가락을 다침",
+          "interpretation_ko": "달갑잖은 일로 시달릴 조짐",
+          "interpretation_en": "she will be distressed over unpleasant tasks",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tacks",
+              "original": "If she mashes her finger while driving it, she will be distressed over unpleasant tasks",
+              "translation_ko": "압정을 박다가 손가락을 다치는 꿈은, 달갑잖은 일로 시달릴 조짐이다"
             }
           ]
         }
@@ -111386,6 +111632,52 @@
       ]
     },
     {
+      "id": "switch",
+      "term_ko": "회초리",
+      "term_en": "switch",
+      "aliases": [
+        "회초리가",
+        "회초리를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "회초리 꿈을 꿈",
+          "interpretation_ko": "변화와 불운을 알리는 조짐",
+          "interpretation_en": "foretells changes and misfortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Switch",
+              "original": "To dream of a switch, foretells changes and misfortune.",
+              "translation_ko": "회초리 꿈은, 변화와 불운을 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부러진 회초리를 봄",
+          "interpretation_ko": "불명예와 곤란을 알리는 조짐",
+          "interpretation_en": "foretells disgrace and trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Switch",
+              "original": "A broken switch, foretells disgrace and trouble.",
+              "translation_ko": "부러진 회초리를 보는 꿈은, 불명예와 곤란을 알리는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "syringe",
       "term_ko": "주사기",
       "term_en": "syringe",
@@ -111426,6 +111718,52 @@
               "locator": "Syringe",
               "original": "To see a broken one, foretells you are approaching a period of ill health or worry over slight mistakes in business.",
               "translation_ko": "부서진 주사기를 보는 꿈은, 병약해지는 시기나 사업의 사소한 실수를 두고 걱정할 시기가 다가오는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tadpole",
+      "term_ko": "올챙이",
+      "term_en": "tadpole",
+      "aliases": [
+        "올챙이가",
+        "올챙이를"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "올챙이 꿈을 꿈",
+          "interpretation_ko": "확실치 않은 투기가 사업에서 불안을 가져올 조짐",
+          "interpretation_en": "foretells uncertain speculation will bring cause for uneasiness in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tadpole",
+              "original": "To dream of tadpoles, foretells uncertain speculation will bring cause for uneasiness in business.",
+              "translation_ko": "올챙이 꿈은, 확실치 않은 투기가 사업에서 불안을 가져올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 맑은 물속의 올챙이를 봄",
+          "interpretation_ko": "부유하지만 부도덕한 남자와 관계를 맺게 될 조짐",
+          "interpretation_en": "foretells she will form a relation with a wealthy but immoral man",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tadpole",
+              "original": "For a young woman to see them in clear water, foretells she will form a relation with a wealthy but immoral man.",
+              "translation_ko": "여성이 맑은 물속의 올챙이를 보는 꿈은, 부유하지만 부도덕한 남자와 관계를 맺게 될 조짐이다"
             }
           ]
         }
@@ -122767,6 +123105,38 @@
       ]
     },
     {
+      "id": "railroad-switch",
+      "term_ko": "철도 선로전환기",
+      "term_en": "railroad switch",
+      "aliases": [
+        "선로전환기",
+        "철도 전철기"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "철도 선로전환기 꿈을 꿈",
+          "interpretation_ko": "여행길에서 큰 손실과 불편을 겪을 조짐",
+          "interpretation_en": "denotes that travel will cause you much loss and inconvenience",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Switch",
+              "original": "To dream of a railroad switch, denotes that travel will cause you much loss and inconvenience.",
+              "translation_ko": "철도 선로전환기 꿈은, 여행길에서 큰 손실과 불편을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "raisins",
       "term_ko": "건포도",
       "term_en": "raisins",
@@ -124881,37 +125251,6 @@
               "locator": "Sybil",
               "original": "To dream of a sybil, foretells that you will enjoy assignations and other demoralizing pleasures.",
               "translation_ko": "여자 예언자 꿈은, 밀회와 그 밖의 방탕한 즐거움을 누릴 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "table",
-      "term_ko": "탁자",
-      "term_en": "table",
-      "aliases": [
-        "테이블"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "탁자를 집 안에 괴어 둠",
-          "interpretation_ko": "일이 이루어지지 않을 조짐",
-          "interpretation_en": "a sign that matters will not come together",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "桌架於宅事不成",
-              "translation_ko": "탁자를 집에 괴어 두면 일이 이루어지지 않는다"
             }
           ]
         }

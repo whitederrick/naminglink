@@ -7801,5 +7801,21 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "syringe": [
     "syringe",
     "a syringe"
+  ],
+  "switch": [
+    "switch",
+    "a switch"
+  ],
+  "railroad-switch": [
+    "railroad switch",
+    "a railroad switch"
+  ],
+  "tacks": [
+    "tacks",
+    "a tack"
+  ],
+  "tadpole": [
+    "tadpole",
+    "tadpoles"
   ]
 };

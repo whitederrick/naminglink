@@ -1,0 +1,287 @@
+[
+  {
+    "term_ko": "회초리",
+    "term_en": "switch",
+    "context": "회초리 꿈을 꿈",
+    "interpretation_ko": "변화와 불운을 알리는 조짐",
+    "interpretation_en": "foretells changes and misfortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Switch",
+      "original": "To dream of a switch, foretells changes and misfortune.",
+      "translation_ko": "회초리 꿈은, 변화와 불운을 알리는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "회초리",
+    "term_en": "switch",
+    "context": "부러진 회초리를 봄",
+    "interpretation_ko": "불명예와 곤란을 알리는 조짐",
+    "interpretation_en": "foretells disgrace and trouble",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Switch",
+      "original": "A broken switch, foretells disgrace and trouble.",
+      "translation_ko": "부러진 회초리를 보는 꿈은, 불명예와 곤란을 알리는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "철도 선로전환기",
+    "term_en": "railroad switch",
+    "context": "철도 선로전환기 꿈을 꿈",
+    "interpretation_ko": "여행길에서 큰 손실과 불편을 겪을 조짐",
+    "interpretation_en": "denotes that travel will cause you much loss and inconvenience",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Switch",
+      "original": "To dream of a railroad switch, denotes that travel will cause you much loss and inconvenience.",
+      "translation_ko": "철도 선로전환기 꿈은, 여행길에서 큰 손실과 불편을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "칼",
+    "term_en": "sword",
+    "context": "남에게 칼을 빼앗김",
+    "interpretation_ko": "다툼에서 패할 조짐",
+    "interpretation_en": "denotes your vanquishment in rivalry",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Sword",
+      "original": "To have your sword taken from you, denotes your vanquishment in rivalry.",
+      "translation_ko": "남에게 칼을 빼앗기는 꿈은, 다툼에서 패할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "칼",
+    "term_en": "sword",
+    "context": "남들이 칼을 지니고 있는 것을 봄",
+    "interpretation_ko": "다툼에 위험이 뒤따를 조짐",
+    "interpretation_en": "foretells that altercations will be attended with danger",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Sword",
+      "original": "To see others bearing swords, foretells that altercations will be attended with danger.",
+      "translation_ko": "남들이 칼을 지니고 있는 것을 보는 꿈은, 다툼에 위험이 뒤따를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "탁자",
+    "term_en": "table",
+    "context": "식사를 앞두고 탁자를 차림",
+    "interpretation_ko": "행복한 인연과 번영한 형편을 알리는 조짐",
+    "interpretation_en": "foretells happy unions and prosperous circumstances",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Table",
+      "original": "To dream of setting a table preparatory to a meal, foretells happy unions and prosperous circumstances.",
+      "translation_ko": "식사를 앞두고 탁자를 차리는 꿈은, 행복한 인연과 번영한 형편을 알리는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "탁자",
+    "term_en": "table",
+    "context": "빈 탁자를 봄",
+    "interpretation_ko": "가난이나 다툼을 뜻함",
+    "interpretation_en": "signifies poverty or disagreements",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Table",
+      "original": "To see empty tables, signifies poverty or disagreements.",
+      "translation_ko": "빈 탁자를 보는 꿈은, 가난이나 다툼을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "탁자",
+    "term_en": "table",
+    "context": "탁자를 치움",
+    "interpretation_ko": "즐거움이 머잖아 근심과 무관심으로 바뀔 조짐",
+    "interpretation_en": "denotes that pleasure will soon assume the form of trouble and indifference",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Table",
+      "original": "To clear away the table, denotes that pleasure will soon assume the form of trouble and indifference.",
+      "translation_ko": "탁자를 치우는 꿈은, 즐거움이 머잖아 근심과 무관심으로 바뀔 조짐이다"
+    }
+  },
+  {
+    "term_ko": "탁자",
+    "term_en": "table",
+    "context": "식탁보 없는 탁자에서 먹음",
+    "interpretation_ko": "자립적인 성품을 지녀 남의 번영이나 처신에 마음 쓰지 않게 될 조짐",
+    "interpretation_en": "foretells that you will be possessed of an independent disposition, and the prosperity or conduct of others will give you no concern",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Table",
+      "original": "To eat from a table without a cloth, foretells that you will be possessed of an independent disposition, and the prosperity or conduct of others will give you no concern.",
+      "translation_ko": "식탁보 없는 탁자에서 먹는 꿈은, 자립적인 성품을 지녀 남의 번영이나 처신에 마음 쓰지 않게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "탁자",
+    "term_en": "table",
+    "context": "탁자가 알 수 없이 저절로 걷거나 움직이는 것을 봄",
+    "interpretation_ko": "머잖아 불만이 삶에 스며들어 변화에서 위안을 찾게 될 조짐",
+    "interpretation_en": "foretells that dissatisfaction will soon enter your life, and you will seek relief in change",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Table",
+      "original": "To see a table walking or moving in some mysterious way, foretells that dissatisfaction will soon enter your life, and you will seek relief in change.",
+      "translation_ko": "탁자가 알 수 없이 저절로 걷거나 움직이는 것을 보는 꿈은, 머잖아 불만이 삶에 스며들어 변화에서 위안을 찾게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "탁자",
+    "term_en": "table",
+    "context": "탁자에 얼룩진 식탁보가 덮여 있음",
+    "interpretation_ko": "하인이나 아이들이 말을 안 듣고, 다툼이 늘 즐거움 뒤에 따를 조짐",
+    "interpretation_en": "denotes disobedience from servants or children, and quarreling will invariably follow pleasure",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Table",
+      "original": "To dream of a soiled cloth on a table, denotes disobedience from servants or children, and quarreling will invariably follow pleasure.",
+      "translation_ko": "탁자에 얼룩진 식탁보가 덮여 있는 꿈은, 하인이나 아이들이 말을 안 듣고 다툼이 늘 즐거움 뒤에 따를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "탁자",
+    "term_en": "table",
+    "context": "부서진 탁자를 봄",
+    "interpretation_ko": "형편이 기울 흉조",
+    "interpretation_en": "is ominous of decaying fortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Table",
+      "original": "To see a broken table, is ominous of decaying fortune.",
+      "translation_ko": "부서진 탁자를 보는 꿈은, 형편이 기울 흉조이다"
+    }
+  },
+  {
+    "term_ko": "탁자",
+    "term_en": "table",
+    "context": "누군가 탁자 위에 서 있거나 앉아 있는 것을 봄",
+    "interpretation_ko": "바라는 것을 얻으려 경솔한 짓을 저지를 조짐",
+    "interpretation_en": "foretells that to obtain their desires they will be guilty of indiscretions",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Table",
+      "original": "To see one standing or sitting on a table, foretells that to obtain their desires they will be guilty of indiscretions.",
+      "translation_ko": "누군가 탁자 위에 서 있거나 앉아 있는 것을 보는 꿈은, 바라는 것을 얻으려 경솔한 짓을 저지를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "탁자",
+    "term_en": "table",
+    "context": "탁자를 두드리거나 글을 쓰는 소리를 보거나 들음",
+    "interpretation_ko": "벗을 향한 마음이 달라지고 형편도 위태로워질 조짐 — 살붙이나 벗의 처지가 나빠져 손실을 볼 수도 있음",
+    "interpretation_en": "denotes that you will undergo change of feelings towards your friends, and your fortune will be threatened; a loss from the depreciation of relatives or friends is indicated",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Table",
+      "original": "To see or hear table-rapping or writing, denotes that you will undergo change of feelings towards your friends, and your fortune will be threatened. A loss from the depreciation of relatives or friends is indicated.",
+      "translation_ko": "탁자를 두드리거나 글을 쓰는 소리를 보거나 듣는 꿈은, 벗을 향한 마음이 달라지고 형편도 위태로워질 조짐이다 — 살붙이나 벗의 처지가 나빠져 손실을 볼 수도 있다"
+    }
+  },
+  {
+    "term_ko": "압정",
+    "term_en": "tacks",
+    "context": "압정 꿈을 꿈",
+    "interpretation_ko": "여러 차례의 여행과 다툼을 뜻함",
+    "interpretation_en": "means to you many vacations and quarrels",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tacks",
+      "original": "To dream of tacks, means to you many vacations and quarrels.",
+      "translation_ko": "압정 꿈은, 여러 차례의 여행과 다툼을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "압정",
+    "term_en": "tacks",
+    "context": "여성이 압정을 박음",
+    "interpretation_ko": "달갑잖은 다툼을 이겨 낼 조짐",
+    "interpretation_en": "foretells she will master unpleasant rivalry",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tacks",
+      "original": "For a woman to drive one, foretells she will master unpleasant rivalry.",
+      "translation_ko": "여성이 압정을 박는 꿈은, 달갑잖은 다툼을 이겨 낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "압정",
+    "term_en": "tacks",
+    "context": "압정을 박다가 손가락을 다침",
+    "interpretation_ko": "달갑잖은 일로 시달릴 조짐",
+    "interpretation_en": "she will be distressed over unpleasant tasks",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tacks",
+      "original": "If she mashes her finger while driving it, she will be distressed over unpleasant tasks",
+      "translation_ko": "압정을 박다가 손가락을 다치는 꿈은, 달갑잖은 일로 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "올챙이",
+    "term_en": "tadpole",
+    "context": "올챙이 꿈을 꿈",
+    "interpretation_ko": "확실치 않은 투기가 사업에서 불안을 가져올 조짐",
+    "interpretation_en": "foretells uncertain speculation will bring cause for uneasiness in business",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Tadpole",
+      "original": "To dream of tadpoles, foretells uncertain speculation will bring cause for uneasiness in business.",
+      "translation_ko": "올챙이 꿈은, 확실치 않은 투기가 사업에서 불안을 가져올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "올챙이",
+    "term_en": "tadpole",
+    "context": "여성이 맑은 물속의 올챙이를 봄",
+    "interpretation_ko": "부유하지만 부도덕한 남자와 관계를 맺게 될 조짐",
+    "interpretation_en": "foretells she will form a relation with a wealthy but immoral man",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Tadpole",
+      "original": "For a young woman to see them in clear water, foretells she will form a relation with a wealthy but immoral man.",
+      "translation_ko": "여성이 맑은 물속의 올챙이를 보는 꿈은, 부유하지만 부도덕한 남자와 관계를 맺게 될 조짐이다"
+    }
+  }
+]

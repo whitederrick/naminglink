@@ -1237,8 +1237,30 @@
       "desk",
       "stand"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "탁자를 집 안에 괴어 둠": "괴어",
+      "식사를 앞두고 탁자를 차림": "식사를 앞두고",
+      "빈 탁자를 봄": "비어",
+      "탁자를 치움": "치웠다 치우는",
+      "식탁보 없는 탁자에서 먹음": "없는 자립적",
+      "탁자가 알 수 없이 저절로 걷거나 움직이는 것을 봄": "저절로 움직이는",
+      "탁자에 얼룩진 식탁보가 덮여 있음": "얼룩진 하인이나",
+      "부서진 탁자를 봄": "부서진",
+      "누군가 탁자 위에 서 있거나 앉아 있는 것을 봄": "앉아있",
+      "탁자를 두드리거나 글을 쓰는 소리를 보거나 들음": "두드리거나"
+    },
+    "contexts_en": {
+      "탁자를 집 안에 괴어 둠": "propped house",
+      "식사를 앞두고 탁자를 차림": "setting meal unions",
+      "빈 탁자를 봄": "empty poverty disagreements",
+      "탁자를 치움": "clear away indifference",
+      "식탁보 없는 탁자에서 먹음": "cloth independent",
+      "탁자가 알 수 없이 저절로 걷거나 움직이는 것을 봄": "walking mysterious dissatisfaction",
+      "탁자에 얼룩진 식탁보가 덮여 있음": "soiled disobedience servants",
+      "부서진 탁자를 봄": "broken decaying fortune",
+      "누군가 탁자 위에 서 있거나 앉아 있는 것을 봄": "standing sitting indiscretions",
+      "탁자를 두드리거나 글을 쓰는 소리를 보거나 들음": "rapping writing depreciation"
+    }
   },
   {
     "id": "tin",
