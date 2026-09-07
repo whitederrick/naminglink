@@ -1,11 +1,11 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 280 — Turkey~Turquoise. 새 상징 넷(turkey·turnips·
-// turpentine·turquoise), 기존 bathing(목욕)에 문맥을 나눠 붙임. Turkish
-// Baths는 이름 「터키식 목욕」이 공백 뒤에서 「목욕」을 품어(§25 곁가지)
-// bathing에 합침. bathing은 m280이 기존 목욕 출처(m6·r1)보다 사전순으로
-// 앞서 기본값이 바뀔 뻔했으나 옛 답을 그대로 얼렸다. turnips의 「잎을
-// 먹음」·「먹음」 두 형제가 "먹었"을 공유해 동점 위험이라, 더 구체적인
-// 「잎을 먹음」을 배열에서 앞으로 옮겨 순서로 풀었다(§30 곁가지).
+// (지금 담긴 것: 배치 281 — Turtle~Ulcer. 새 상징 다섯(tweezers·twins·
+// type·typhoid·ugly), 기존 turtle(거북)·thread(실)·canker(궤양)에 문맥을
+// 나눠 붙임. Twine은 각주 [232] See Thread로 thread에 합침. Ulcer는
+// canker의 term_ko가 이미 「궤양」이라 그대로 합침. turtle은 m281이 기존
+// 거북 출처(r5)보다 사전순으로 앞서 기본값이 「거북들을 봄」(밀러, 조건
+// 없음)으로 바뀌었다 — 옛 「우물이나 집으로 들어옴」보다 더 막연해
+// 그쪽으로 얼렸다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -36,29 +36,26 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 280 새 문맥 (19건) ────────────────────────────────────────────
-  { id: "turkey", ctx: "칠면조들을 봄", text: "칠면조들을 보았다" },
-  { id: "turkey", ctx: "시장에 내놓으려 손질된 칠면조를 봄", text: "시장에 내놓으려 손질된 칠면조를 보았다" },
-  { id: "turkey", ctx: "병들거나 죽은 칠면조를 봄", text: "병들거나 죽은 칠면조를 보았다" },
-  { id: "turkey", ctx: "칠면조를 먹음", text: "칠면조를 먹었다" },
-  { id: "turkey", ctx: "칠면조가 나는 것을 봄", text: "칠면조가 나는 것을 보았다" },
-  { id: "turkey", ctx: "사냥감으로 칠면조를 쏨", text: "사냥감으로 칠면조를 쏘았다" },
-  { id: "bathing", ctx: "터키식 목욕을 함", text: "터키식 목욕을 하며 큰 즐거움을 누렸다" },
-  { id: "bathing", ctx: "남이 터키식 목욕을 하는 것을 봄", text: "남이 터키식 목욕을 하는 것을 보았다" },
-  { id: "turnips", ctx: "자라는 순무를 봄", text: "자라는 순무를 보았다" },
-  { id: "turnips", ctx: "순무 잎을 먹음", text: "순무 잎을 먹었다" },
-  { id: "turnips", ctx: "순무를 먹음", text: "순무를 먹었다" },
-  { id: "turnips", ctx: "순무를 뽑음", text: "순무를 뽑았다" },
-  { id: "turnips", ctx: "순무 씨앗 꿈을 꿈", text: "순무 씨앗 꿈을 꾸었다" },
-  { id: "turnips", ctx: "처녀가 순무 씨앗을 뿌림", text: "처녀가 순무 씨앗을 뿌렸다" },
-  { id: "turpentine", ctx: "테레빈유 꿈을 꿈", text: "테레빈유 꿈을 꾸었다" },
-  { id: "turpentine", ctx: "여성이 남의 상처에 테레빈유를 감쌈", text: "여성이 남의 상처에 테레빈유를 감쌌다" },
-  { id: "turquoise", ctx: "터키석 꿈을 꿈", text: "터키석 꿈을 꾸었다" },
-  { id: "turquoise", ctx: "여성이 터키석을 도둑맞음", text: "여성이 터키석을 도둑맞았다" },
-  { id: "turquoise", ctx: "여성이 터키석을 부정하게 손에 넣음", text: "여성이 터키석을 부정하게 손에 넣었다" },
+  // ── 배치 281 새 문맥 (14건) ────────────────────────────────────────────
+  { id: "turtle", ctx: "거북들을 봄", text: "거북들을 보았다" },
+  { id: "turtle", ctx: "거북 수프를 마심", text: "거북 수프를 마셨다" },
+  { id: "tweezers", ctx: "핀셋 꿈을 꿈", text: "핀셋 꿈을 꾸었다" },
+  { id: "thread", ctx: "실타래를 봄", text: "실타래가 얽혀 있는 것을 보았다" },
+  { id: "twins", ctx: "쌍둥이를 봄", text: "쌍둥이를 보았다" },
+  { id: "twins", ctx: "쌍둥이가 병약함", text: "쌍둥이가 병약했다" },
+  { id: "type", ctx: "활자 꿈을 꿈", text: "활자 꿈을 꾸었다" },
+  { id: "type", ctx: "여성이 활자를 닦음", text: "여성이 활자를 닦았다" },
+  { id: "typhoid", ctx: "스스로 장티푸스에 걸림", text: "스스로 장티푸스에 걸렸다" },
+  { id: "typhoid", ctx: "장티푸스가 유행함을 봄", text: "장티푸스가 유행하는 것을 보았다" },
+  { id: "ugly", ctx: "스스로 못생겼다고 여김", text: "스스로 못생겼다고 여겼다" },
+  { id: "ugly", ctx: "처녀가 스스로 못생겼다고 여김", text: "처녀가 스스로 못생겼다고 여겼다" },
+  { id: "canker", ctx: "궤양을 봄", text: "궤양을 보았는데 벗을 잃을까 걱정됐다" },
+  { id: "canker", ctx: "스스로 궤양이 있음", text: "스스로 궤양이 있어 쾌락에 빠졌다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────
-  { id: "bathing", ctx: "젊은 사람이 목욕하는 꿈을 꿈", text: "젊은 사람이 목욕하는 꿈을 꾸었다" },
+  { id: "turtle", ctx: "거북을 봄", text: "거북을 보았다" },
+  { id: "thread", ctx: "실 꿈을 꿈", text: "실 꿈을 꾸었다" },
+  { id: "canker", ctx: "살에 궤양이 자람", text: "살에 궤양이 자랐다" },
 ];
 
 let notFound = 0;

@@ -248,20 +248,29 @@
     "aliases": [
       "헌데",
       "썩은 자리",
-      "곪은 자리"
+      "곪은 자리",
+      "궤양을",
+      "궤양이"
     ],
     "aliases_en": [
       "cankerous",
       "a canker",
-      "sore"
+      "sore",
+      "an ulcer",
+      "ulcers",
+      "ulcerated"
     ],
     "contexts": {
       "무언가에 헐어 썩은 자리를 봄": "물건에 무언가에 겉에",
-      "살에 궤양이 자람": "살에 살이 몸에 자라"
+      "살에 궤양이 자람": "살에 살이 몸에 자라",
+      "궤양을 봄": "벗을",
+      "스스로 궤양이 있음": "쾌락"
     },
     "contexts_en": {
       "무언가에 헐어 썩은 자리를 봄": "anything evil death treacherous",
-      "살에 궤양이 자람": "flesh growths distinctions state"
+      "살에 궤양이 자람": "flesh growths distinctions state",
+      "궤양을 봄": "friends removal unsatisfactory",
+      "스스로 궤양이 있음": "unpopular foolish pleasures"
     }
   },
   {

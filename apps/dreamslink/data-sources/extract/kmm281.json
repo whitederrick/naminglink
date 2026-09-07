@@ -1,0 +1,95 @@
+[
+  {
+    "id": "tweezers",
+    "aliases": [
+      "핀셋이",
+      "핀셋을"
+    ],
+    "aliases_en": [
+      "tweezers",
+      "a pair of tweezers"
+    ],
+    "contexts": {
+      "핀셋 꿈을 꿈": "그냥"
+    },
+    "contexts_en": {
+      "핀셋 꿈을 꿈": "uncomfortable discontent abuse"
+    }
+  },
+  {
+    "id": "twins",
+    "aliases": [
+      "쌍둥이가",
+      "쌍둥이를"
+    ],
+    "aliases_en": [
+      "twins",
+      "a twin"
+    ],
+    "contexts": {
+      "쌍둥이를 봄": "그냥",
+      "쌍둥이가 병약함": "병약"
+    },
+    "contexts_en": {
+      "쌍둥이를 봄": "security faithful contentment",
+      "쌍둥이가 병약함": "sickly disappointment grief"
+    }
+  },
+  {
+    "id": "type",
+    "aliases": [
+      "활자가",
+      "활자를"
+    ],
+    "aliases_en": [
+      "type",
+      "printer's type"
+    ],
+    "contexts": {
+      "활자 꿈을 꿈": "그냥",
+      "여성이 활자를 닦음": "여성이 닦았"
+    },
+    "contexts_en": {
+      "활자 꿈을 꿈": "unpleasant transactions friends",
+      "여성이 활자를 닦음": "clean fortunate speculations"
+    }
+  },
+  {
+    "id": "typhoid",
+    "aliases": [
+      "장티푸스가",
+      "장티푸스에"
+    ],
+    "aliases_en": [
+      "typhoid",
+      "typhoid fever"
+    ],
+    "contexts": {
+      "스스로 장티푸스에 걸림": "그냥",
+      "장티푸스가 유행함을 봄": "유행"
+    },
+    "contexts_en": {
+      "스스로 장티푸스에 걸림": "affected malady enemies",
+      "장티푸스가 유행함을 봄": "epidemic depressions business"
+    }
+  },
+  {
+    "id": "ugly",
+    "aliases": [
+      "못생겼다",
+      "못생긴",
+      "못생겼다고"
+    ],
+    "aliases_en": [
+      "ugly"
+    ],
+    "contexts": {
+      "스스로 못생겼다고 여김": "그냥",
+      "처녀가 스스로 못생겼다고 여김": "처녀가"
+    },
+    "contexts_en": {
+      "스스로 못생겼다고 여김": "sweetheart depressed shade",
+      "처녀가 스스로 못생겼다고 여김": "young woman offensively lover"
+    }
+  }
+]

@@ -783,13 +783,15 @@
       "실과 명주를 찾음": "명주 비단 찾는 찾았 구하",
       "실을 얻음": "얻었 생겼 받았",
       "실 꿈을 꿈": "그냥",
-      "실이 끊어진 것을 봄": "끊어진 끊긴"
+      "실이 끊어진 것을 봄": "끊어진 끊긴",
+      "실타래를 봄": "얽혀"
     },
     "contexts_en": {
       "실과 명주를 찾음": "silk searching looking found",
       "실을 얻음": "obtained received",
       "실 꿈을 꿈": "fortune intricate paths",
-      "실이 끊어진 것을 봄": "broken faithlessness loss"
+      "실이 끊어진 것을 봄": "broken faithlessness loss",
+      "실타래를 봄": "complications overcome"
     }
   },
   {

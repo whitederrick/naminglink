@@ -317,7 +317,8 @@
     "id": "turtle",
     "aliases": [
       "남생이",
-      "자라"
+      "자라",
+      "거북들"
     ],
     "aliases_en": [
       "tortoise",
@@ -328,14 +329,18 @@
       "거북과 뱀이 함께 있음": "뱀과 뱀이 구렁이 함께",
       "거북을 봄": "보았 봤다 바라보 발견",
       "거북을 잡음": "잡았 붙잡 잡아 붙들",
-      "거북을 죽임": "죽였 죽이 죽임 해쳤"
+      "거북을 죽임": "죽였 죽이 죽임 해쳤",
+      "거북들을 봄": "들을",
+      "거북 수프를 마심": "수프"
     },
     "contexts_en": {
       "거북이 우물이나 집으로 들어옴": "well house home yard entered",
       "거북과 뱀이 함께 있음": "snake serpent together",
       "거북을 봄": "saw seeing looked spotted",
       "거북을 잡음": "caught catching grabbed held",
-      "거북을 죽임": "killed kill dead"
+      "거북을 죽임": "killed kill dead",
+      "거북들을 봄": "unusual incident enjoyment",
+      "거북 수프를 마심": "soup compromising intrigue"
     }
   },
   {

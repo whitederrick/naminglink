@@ -3700,7 +3700,10 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "canker": [
     "cankerous",
     "a canker",
-    "sore"
+    "sore",
+    "an ulcer",
+    "ulcers",
+    "ulcerated"
   ],
   "cannon": [
     "cannons",
@@ -8100,5 +8103,24 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "turquoise": [
     "turquoise",
     "a torquoise"
+  ],
+  "tweezers": [
+    "tweezers",
+    "a pair of tweezers"
+  ],
+  "twins": [
+    "twins",
+    "a twin"
+  ],
+  "type": [
+    "type",
+    "printer's type"
+  ],
+  "typhoid": [
+    "typhoid",
+    "typhoid fever"
+  ],
+  "ugly": [
+    "ugly"
   ]
 };

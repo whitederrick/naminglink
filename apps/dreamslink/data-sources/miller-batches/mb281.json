@@ -1,0 +1,46 @@
+{
+  "batch": 281,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Turtle",
+      "text": "To dream of seeing turtles, signifies that an unusual incident will cause you enjoyment, and improve your business conditions.\n\nTo drink turtle soup, denotes that you will find pleasure in compromising intrigue.",
+      "note": "기존 turtle(거북) 상징에 문맥 2개 추가"
+    },
+    {
+      "headword": "Tweezers",
+      "text": "To see tweezers in a dream, denotes uncomfortable situations will fill you with discontent, and your companions will abuse you.",
+      "note": "새 상징 tweezers(핀셋)"
+    },
+    {
+      "headword": "Twine",
+      "text": "To see twine in your dream, warns you that your business is assuming complications which will be hard to overcome.",
+      "note": "기존 thread(실) 상징에 문맥 1개 추가 — 각주 [232] See Thread"
+    },
+    {
+      "headword": "Twins",
+      "text": "To dream of seeing twins, foretells security in business, and faithful and loving contentment in the home.\n\nIf they are sickly, it signifies that you will have disappointment and grief.",
+      "note": "새 상징 twins(쌍둥이) — 「세쌍둥이」(triplets, 배치 277)를 품지만 앞 글자가 한글이라 안전"
+    },
+    {
+      "headword": "Type",
+      "text": "To see type in a dream, portends unpleasant transactions with friends.\n\nFor a woman to clean type, foretells she will make fortunate speculations which will bring love and fortune.",
+      "note": "새 상징 type(활자) — 기존 composing(조판 스틱)의 별칭 「활자 조판」과 공백 뒤에서 겹치나 다른 물건(활자 자체 vs 식자 도구)이라 그대로 둠"
+    },
+    {
+      "headword": "Typhoid",
+      "text": "To dream that you are affected with this malady, is a warning to beware of enemies, and look well to your health.\n\nIf you dream that there is an epidemic of typhoid, there will be depressions in business, and usual good health will undergo disagreeable changes.",
+      "note": "새 상징 typhoid(장티푸스)"
+    },
+    {
+      "headword": "Ugly",
+      "text": "To dream that you are ugly, denotes that you will have a difficulty with your sweetheart, and your prospects will assume a depressed shade.\n\nIf a young woman thinks herself ugly, she will conduct herself offensively toward her lover, which will probably cause a break in their pleasant associations.",
+      "note": "새 상징 ugly(못생김)"
+    },
+    {
+      "headword": "Ulcer",
+      "text": "To see an ulcer in your dream, signifies loss of friends and removal from loved ones.  Affairs will remain unsatisfactory.\n\nTo dream that you have ulcers, denotes that you will become unpopular with your friends by giving yourself up to foolish pleasures.",
+      "note": "기존 canker(궤양) 상징에 문맥 2개 추가 — term_ko가 이미 「궤양」이라 그대로 합침"
+    }
+  ]
+}

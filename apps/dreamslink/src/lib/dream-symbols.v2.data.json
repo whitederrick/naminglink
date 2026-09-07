@@ -204,6 +204,7 @@
     "m27b.json",
     "m28.json",
     "m280.json",
+    "m281.json",
     "m29.json",
     "m3.json",
     "m30.json",
@@ -35390,6 +35391,126 @@
       ]
     },
     {
+      "id": "turtle",
+      "term_ko": "거북",
+      "term_en": "turtle",
+      "aliases": [
+        "남생이",
+        "자라",
+        "거북들"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [
+        "태몽"
+      ],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "거북들을 봄",
+          "interpretation_ko": "뜻밖의 일로 즐거움을 얻고 사업이 나아질 조짐",
+          "interpretation_en": "signifies that an unusual incident will cause you enjoyment, and improve your business conditions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turtle",
+              "original": "To dream of seeing turtles, signifies that an unusual incident will cause you enjoyment, and improve your business conditions.",
+              "translation_ko": "거북들을 보는 꿈은, 뜻밖의 일로 즐거움을 얻고 사업이 나아질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "거북 수프를 마심",
+          "interpretation_ko": "떳떳하지 못한 얽힘에서 즐거움을 찾을 조짐",
+          "interpretation_en": "denotes that you will find pleasure in compromising intrigue",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Turtle",
+              "original": "To drink turtle soup, denotes that you will find pleasure in compromising intrigue.",
+              "translation_ko": "거북 수프를 마시는 꿈은, 떳떳하지 못한 얽힘에서 즐거움을 찾을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "거북이 우물이나 집으로 들어옴",
+          "interpretation_ko": "부귀가 이를 조짐",
+          "interpretation_en": "a sign that wealth and honor will arrive",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "龜入井宅富貴至",
+              "translation_ko": "거북이 우물과 집에 들어오면 부귀가 이른다"
+            }
+          ]
+        },
+        {
+          "context": "거북과 뱀이 함께 있음",
+          "interpretation_ko": "재물이 생길 조짐",
+          "interpretation_en": "a sign that wealth will be produced",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "龜蛇相同主生財",
+              "translation_ko": "거북과 뱀이 함께 있으면 재물이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "거북을 봄",
+          "interpretation_ko": "여인이 귀해질 조짐",
+          "interpretation_en": "a sign that a woman will rise in standing",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "見龜者主女人貴",
+              "translation_ko": "거북을 보면 여인이 귀해진다"
+            }
+          ]
+        },
+        {
+          "context": "거북을 잡음",
+          "interpretation_ko": "상을 당할 조짐",
+          "interpretation_en": "a sign of a funeral in the family",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "捉龜者主喪事至",
+              "translation_ko": "거북을 잡으면 상사가 이른다"
+            }
+          ]
+        },
+        {
+          "context": "거북을 죽임",
+          "interpretation_ko": "상을 당할 조짐",
+          "interpretation_en": "a sign of a death in the family",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "殺龜者主有喪事",
+              "translation_ko": "거북을 죽이면 상사가 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "weeping",
       "term_ko": "울음",
       "term_en": "weeping",
@@ -53092,6 +53213,96 @@
       ]
     },
     {
+      "id": "thread",
+      "term_ko": "실",
+      "term_en": "thread",
+      "aliases": [
+        "실타래",
+        "명주실",
+        "실뭉치"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "실 꿈을 꿈",
+          "interpretation_ko": "복잡한 길 너머에 행운이 있을 조짐",
+          "interpretation_en": "your fortune lies beyond intricate paths",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Thread",
+              "original": "To dream of thread, denotes that your fortune lies beyond intricate paths.",
+              "translation_ko": "실 꿈은, 복잡한 길 너머에 행운이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "실이 끊어진 것을 봄",
+          "interpretation_ko": "벗의 신의 없음으로 손실을 입을 조짐",
+          "interpretation_en": "you will suffer loss through the faithlessness of friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Thread",
+              "original": "To see broken threads, you will suffer loss through the faithlessness of friends.",
+              "translation_ko": "실이 끊어진 것을 보는 꿈은, 벗의 신의 없음으로 손실을 입을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "실타래를 봄",
+          "interpretation_ko": "사업이 얽혀 감당하기 어려워질 조짐",
+          "interpretation_en": "warns you that your business is assuming complications which will be hard to overcome",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Twine",
+              "original": "To see twine in your dream, warns you that your business is assuming complications which will be hard to overcome.",
+              "translation_ko": "실타래를 보는 꿈은, 사업이 얽혀 감당하기 어려워질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "실과 명주를 찾음",
+          "interpretation_ko": "식구가 늘어날 조짐",
+          "interpretation_en": "a sign that the household will grow",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "尋絲絹主進入口",
+              "translation_ko": "실과 명주를 찾으면 식구가 늘어난다"
+            }
+          ]
+        },
+        {
+          "context": "실을 얻음",
+          "interpretation_ko": "온갖 일이 이루어질 조짐",
+          "interpretation_en": "a sign that all matters come to fruition",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "鏡環釵釧梳篦",
+              "original": "針線得者百事就",
+              "translation_ko": "바늘과 실을 얻으면 온갖 일이 이루어진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "thunder",
       "term_ko": "우레",
       "term_en": "thunder",
@@ -53446,96 +53657,6 @@
               "locator": "Tunnel",
               "original": "To look into one, denotes that you will soon be compelled to face a desperate issue.",
               "translation_ko": "터널 안을 들여다보는 꿈은, 머잖아 절박한 일에 맞서야 할 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "turtle",
-      "term_ko": "거북",
-      "term_en": "turtle",
-      "aliases": [
-        "남생이",
-        "자라"
-      ],
-      "category": "animal",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "거북이 우물이나 집으로 들어옴",
-          "interpretation_ko": "부귀가 이를 조짐",
-          "interpretation_en": "a sign that wealth and honor will arrive",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "龜入井宅富貴至",
-              "translation_ko": "거북이 우물과 집에 들어오면 부귀가 이른다"
-            }
-          ]
-        },
-        {
-          "context": "거북과 뱀이 함께 있음",
-          "interpretation_ko": "재물이 생길 조짐",
-          "interpretation_en": "a sign that wealth will be produced",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "龜蛇相同主生財",
-              "translation_ko": "거북과 뱀이 함께 있으면 재물이 생긴다"
-            }
-          ]
-        },
-        {
-          "context": "거북을 봄",
-          "interpretation_ko": "여인이 귀해질 조짐",
-          "interpretation_en": "a sign that a woman will rise in standing",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "見龜者主女人貴",
-              "translation_ko": "거북을 보면 여인이 귀해진다"
-            }
-          ]
-        },
-        {
-          "context": "거북을 잡음",
-          "interpretation_ko": "상을 당할 조짐",
-          "interpretation_en": "a sign of a funeral in the family",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "捉龜者主喪事至",
-              "translation_ko": "거북을 잡으면 상사가 이른다"
-            }
-          ]
-        },
-        {
-          "context": "거북을 죽임",
-          "interpretation_ko": "상을 당할 조짐",
-          "interpretation_en": "a sign of a death in the family",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "殺龜者主有喪事",
-              "translation_ko": "거북을 죽이면 상사가 있다"
             }
           ]
         }
@@ -57474,6 +57595,83 @@
               "locator": "龍蛇禽獸等類",
               "original": "駱駝豹豸得重印",
               "translation_ko": "낙타와 표범 같은 짐승은 무거운 인수, 곧 높은 벼슬을 얻을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canker",
+      "term_ko": "궤양",
+      "term_en": "canker",
+      "aliases": [
+        "헌데",
+        "썩은 자리",
+        "곪은 자리",
+        "궤양을",
+        "궤양이"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "무언가에 헐어 썩은 자리를 봄",
+          "interpretation_ko": "젊은이에게는 죽음과 배신할 벗을, 늙은이에게는 슬픔과 외로움을 알리는 흉한 조짐",
+          "interpretation_en": "an omen of evil — death and treacherous companions for the young, sorrow and loneliness to the aged",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Canker",
+              "original": "To dream of seeing canker on anything, is an omen of evil.  It foretells death and treacherous companions for the young.  Sorrow and loneliness to the aged.",
+              "translation_ko": "무엇엔가 헐어 썩은 자리를 보는 꿈은 흉한 조짐이다. 젊은이에게는 죽음과 배신할 벗을, 늙은이에게는 슬픔과 외로움을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "살에 궤양이 자람",
+          "interpretation_ko": "훗날 나라의 우두머리나 무대 위의 이름을 얻을 조짐",
+          "interpretation_en": "future distinctions either as head of State or stage life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Canker",
+              "original": "Cankerous growths in the flesh, denote future distinctions either as head of State or stage life.",
+              "translation_ko": "살에 궤양이 자라는 것은 훗날 나라의 우두머리나 무대 위의 이름을 얻음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "궤양을 봄",
+          "interpretation_ko": "벗을 잃고 사랑하는 이들과 멀어질 조짐이며 일이 계속 뜻대로 안 될 조짐",
+          "interpretation_en": "signifies loss of friends and removal from loved ones. Affairs will remain unsatisfactory",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ulcer",
+              "original": "To see an ulcer in your dream, signifies loss of friends and removal from loved ones.  Affairs will remain unsatisfactory.",
+              "translation_ko": "궤양을 보는 꿈은, 벗을 잃고 사랑하는 이들과 멀어질 조짐이며 일이 계속 뜻대로 안 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 궤양이 있음",
+          "interpretation_ko": "어리석은 쾌락에 빠져 벗들에게 인기를 잃을 조짐",
+          "interpretation_en": "denotes that you will become unpopular with your friends by giving yourself up to foolish pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ulcer",
+              "original": "To dream that you have ulcers, denotes that you will become unpopular with your friends by giving yourself up to foolish pleasures.",
+              "translation_ko": "스스로 궤양이 있는 꿈은, 어리석은 쾌락에 빠져 벗들에게 인기를 잃을 조짐이다"
             }
           ]
         }
@@ -69653,82 +69851,6 @@
               "locator": "Thermometer",
               "original": "If it is rising, you will be able to throw off bad conditions in your business.",
               "translation_ko": "온도계 수은이 올라가는 것을 보는 꿈은, 사업의 나쁜 형편을 떨쳐낼 수 있을 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "thread",
-      "term_ko": "실",
-      "term_en": "thread",
-      "aliases": [
-        "실타래",
-        "명주실",
-        "실뭉치"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "실 꿈을 꿈",
-          "interpretation_ko": "복잡한 길 너머에 행운이 있을 조짐",
-          "interpretation_en": "your fortune lies beyond intricate paths",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Thread",
-              "original": "To dream of thread, denotes that your fortune lies beyond intricate paths.",
-              "translation_ko": "실 꿈은, 복잡한 길 너머에 행운이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "실이 끊어진 것을 봄",
-          "interpretation_ko": "벗의 신의 없음으로 손실을 입을 조짐",
-          "interpretation_en": "you will suffer loss through the faithlessness of friends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Thread",
-              "original": "To see broken threads, you will suffer loss through the faithlessness of friends.",
-              "translation_ko": "실이 끊어진 것을 보는 꿈은, 벗의 신의 없음으로 손실을 입을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "실과 명주를 찾음",
-          "interpretation_ko": "식구가 늘어날 조짐",
-          "interpretation_en": "a sign that the household will grow",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "尋絲絹主進入口",
-              "translation_ko": "실과 명주를 찾으면 식구가 늘어난다"
-            }
-          ]
-        },
-        {
-          "context": "실을 얻음",
-          "interpretation_ko": "온갖 일이 이루어질 조짐",
-          "interpretation_en": "a sign that all matters come to fruition",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "鏡環釵釧梳篦",
-              "original": "針線得者百事就",
-              "translation_ko": "바늘과 실을 얻으면 온갖 일이 이루어진다"
             }
           ]
         }
@@ -94274,53 +94396,6 @@
       ]
     },
     {
-      "id": "canker",
-      "term_ko": "궤양",
-      "term_en": "canker",
-      "aliases": [
-        "헌데",
-        "썩은 자리",
-        "곪은 자리"
-      ],
-      "category": "body",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "무언가에 헐어 썩은 자리를 봄",
-          "interpretation_ko": "젊은이에게는 죽음과 배신할 벗을, 늙은이에게는 슬픔과 외로움을 알리는 흉한 조짐",
-          "interpretation_en": "an omen of evil — death and treacherous companions for the young, sorrow and loneliness to the aged",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Canker",
-              "original": "To dream of seeing canker on anything, is an omen of evil.  It foretells death and treacherous companions for the young.  Sorrow and loneliness to the aged.",
-              "translation_ko": "무엇엔가 헐어 썩은 자리를 보는 꿈은 흉한 조짐이다. 젊은이에게는 죽음과 배신할 벗을, 늙은이에게는 슬픔과 외로움을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "살에 궤양이 자람",
-          "interpretation_ko": "훗날 나라의 우두머리나 무대 위의 이름을 얻을 조짐",
-          "interpretation_en": "future distinctions either as head of State or stage life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Canker",
-              "original": "Cankerous growths in the flesh, denote future distinctions either as head of State or stage life.",
-              "translation_ko": "살에 궤양이 자라는 것은 훗날 나라의 우두머리나 무대 위의 이름을 얻음을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "cannon",
       "term_ko": "대포",
       "term_en": "cannon",
@@ -117029,6 +117104,191 @@
       ]
     },
     {
+      "id": "twins",
+      "term_ko": "쌍둥이",
+      "term_en": "twins",
+      "aliases": [
+        "쌍둥이가",
+        "쌍둥이를"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "쌍둥이를 봄",
+          "interpretation_ko": "사업이 굳건하고 집안이 화목할 조짐",
+          "interpretation_en": "foretells security in business, and faithful and loving contentment in the home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Twins",
+              "original": "To dream of seeing twins, foretells security in business, and faithful and loving contentment in the home.",
+              "translation_ko": "쌍둥이를 보는 꿈은, 사업이 굳건하고 집안이 화목할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쌍둥이가 병약함",
+          "interpretation_ko": "낙담과 슬픔이 있을 조짐",
+          "interpretation_en": "it signifies that you will have disappointment and grief",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Twins",
+              "original": "If they are sickly, it signifies that you will have disappointment and grief.",
+              "translation_ko": "쌍둥이가 병약한 꿈은, 낙담과 슬픔이 있을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "type",
+      "term_ko": "활자",
+      "term_en": "type",
+      "aliases": [
+        "활자가",
+        "활자를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "활자 꿈을 꿈",
+          "interpretation_ko": "벗과의 거래가 불쾌해질 조짐",
+          "interpretation_en": "portends unpleasant transactions with friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Type",
+              "original": "To see type in a dream, portends unpleasant transactions with friends.",
+              "translation_ko": "활자 꿈을 꾸면, 벗과의 거래가 불쾌해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 활자를 닦음",
+          "interpretation_ko": "운 좋은 투기로 사랑과 재물을 얻을 조짐",
+          "interpretation_en": "foretells she will make fortunate speculations which will bring love and fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Type",
+              "original": "For a woman to clean type, foretells she will make fortunate speculations which will bring love and fortune.",
+              "translation_ko": "여성이 활자를 닦는 꿈은, 운 좋은 투기로 사랑과 재물을 얻을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "typhoid",
+      "term_ko": "장티푸스",
+      "term_en": "typhoid",
+      "aliases": [
+        "장티푸스가",
+        "장티푸스에"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 장티푸스에 걸림",
+          "interpretation_ko": "적을 조심하고 건강을 잘 살피라는 경고",
+          "interpretation_en": "is a warning to beware of enemies, and look well to your health",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Typhoid",
+              "original": "To dream that you are affected with this malady, is a warning to beware of enemies, and look well to your health.",
+              "translation_ko": "스스로 장티푸스에 걸리는 꿈은, 적을 조심하고 건강을 잘 살피라는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "장티푸스가 유행함을 봄",
+          "interpretation_ko": "사업이 침체되고 늘 좋던 건강에도 언짢은 변화가 있을 조짐",
+          "interpretation_en": "there will be depressions in business, and usual good health will undergo disagreeable changes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Typhoid",
+              "original": "If you dream that there is an epidemic of typhoid, there will be depressions in business, and usual good health will undergo disagreeable changes.",
+              "translation_ko": "장티푸스가 유행함을 보는 꿈은, 사업이 침체되고 늘 좋던 건강에도 언짢은 변화가 있을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ugly",
+      "term_ko": "못생김",
+      "term_en": "ugly",
+      "aliases": [
+        "못생겼다",
+        "못생긴",
+        "못생겼다고"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 못생겼다고 여김",
+          "interpretation_ko": "연인과 다투고 앞날이 어두운 빛을 띨 조짐",
+          "interpretation_en": "denotes that you will have a difficulty with your sweetheart, and your prospects will assume a depressed shade",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ugly",
+              "original": "To dream that you are ugly, denotes that you will have a difficulty with your sweetheart, and your prospects will assume a depressed shade.",
+              "translation_ko": "스스로 못생겼다고 여기는 꿈은, 연인과 다투고 앞날이 어두운 빛을 띨 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 스스로 못생겼다고 여김",
+          "interpretation_ko": "연인에게 무례하게 굴어 사이가 깨질 조짐",
+          "interpretation_en": "she will conduct herself offensively toward her lover, which will probably cause a break in their pleasant associations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ugly",
+              "original": "If a young woman thinks herself ugly, she will conduct herself offensively toward her lover, which will probably cause a break in their pleasant associations.",
+              "translation_ko": "처녀가 스스로 못생겼다고 여기는 꿈은, 연인에게 무례하게 굴어 사이가 깨질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "urine",
       "term_ko": "오줌",
       "term_en": "urine",
@@ -130702,6 +130962,38 @@
               "locator": "Triangle",
               "original": "To dream of a triangle, foretells separation from friends, and love affairs will terminate in disagreements.",
               "translation_ko": "삼각형 꿈을 꾸면, 벗과 헤어지고 애정 문제가 다툼으로 끝날 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tweezers",
+      "term_ko": "핀셋",
+      "term_en": "tweezers",
+      "aliases": [
+        "핀셋이",
+        "핀셋을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "핀셋 꿈을 꿈",
+          "interpretation_ko": "거북한 처지가 불만을 채우고 길동무가 자신을 헐뜯을 조짐",
+          "interpretation_en": "denotes uncomfortable situations will fill you with discontent, and your companions will abuse you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tweezers",
+              "original": "To see tweezers in a dream, denotes uncomfortable situations will fill you with discontent, and your companions will abuse you.",
+              "translation_ko": "핀셋 꿈을 꾸면, 거북한 처지가 불만을 채우고 길동무가 자신을 헐뜯을 조짐이다"
             }
           ]
         }
