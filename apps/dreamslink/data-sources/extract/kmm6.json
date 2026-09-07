@@ -418,11 +418,15 @@
     ],
     "contexts": {
       "잘 익은 곡식과 완벽한 옥수수 이삭, 살진 가축들로 가득 찬 헛간을 봄": "가득 곡식 옥수수 살진 익은",
-      "텅 빈 헛간을 봄": "텅빈 비어 휑하 아무것도"
+      "텅 빈 헛간을 봄": "텅빈 비어 휑하 아무것도",
+      "마구간(축사) 꿈을 꿈": "그냥",
+      "축사가 불타는 것을 봄": "불타는 화재 불이"
     },
     "contexts_en": {
       "잘 익은 곡식과 완벽한 옥수수 이삭, 살진 가축들로 가득 찬 헛간을 봄": "full grain corn ripe fattened",
-      "텅 빈 헛간을 봄": "empty bare nothing"
+      "텅 빈 헛간을 봄": "empty bare nothing",
+      "마구간(축사) 꿈을 꿈": "advantageous surroundings",
+      "축사가 불타는 것을 봄": "burning successful changes"
     }
   },
   {

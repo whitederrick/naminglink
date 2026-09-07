@@ -7671,5 +7671,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "squirrel",
     "squirrels",
     "a squirrel"
+  ],
+  "stain": [
+    "stain",
+    "stains",
+    "a stain"
+  ],
+  "stall": [
+    "a stall",
+    "stalls"
+  ],
+  "stammer": [
+    "stammer",
+    "stammering",
+    "stammers"
   ]
 };

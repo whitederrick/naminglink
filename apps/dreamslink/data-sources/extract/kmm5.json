@@ -936,7 +936,8 @@
       "올라감",
       "등반",
       "계단을 오름",
-      "상승"
+      "상승",
+      "계단"
     ],
     "aliases_en": [
       "ascending",
@@ -946,11 +947,23 @@
     ],
     "contexts": {
       "비틀거리지 않고 계단 꼭대기까지 오름": "꼭대기 끝까지 무사히",
-      "오르는 도중에 비틀거림": "비틀 헛디 넘어질 도중"
+      "오르는 도중에 비틀거림": "비틀 헛디 넘어질 도중",
+      "계단을 오름": "올라갔다 올랐다",
+      "계단에서 떨어짐": "떨어졌다",
+      "계단을 걸어 내려감": "걸어서 내려갔다",
+      "넓고 근사한 계단을 봄": "넓고 근사한",
+      "남들이 계단을 내려가는 것을 봄": "남들이 다른",
+      "계단 층계에 앉음": "앉았다 걸터"
     },
     "contexts_en": {
       "비틀거리지 않고 계단 꼭대기까지 오름": "top summit reached",
-      "오르는 도중에 비틀거림": "stumbled stumbling slipping"
+      "오르는 도중에 비틀거림": "stumbled stumbling slipping",
+      "계단을 오름": "steps prospects",
+      "계단에서 떨어짐": "fall hatred envy",
+      "계단을 걸어 내려감": "walk unlucky lovemaking",
+      "넓고 근사한 계단을 봄": "broad handsome riches",
+      "남들이 계단을 내려가는 것을 봄": "others unpleasant pleasure",
+      "계단 층계에 앉음": "sit delight"
     }
   },
   {

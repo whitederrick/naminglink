@@ -2,7 +2,8 @@
   {
     "id": "coach",
     "aliases": [
-      "합승 마차"
+      "합승 마차",
+      "마부"
     ],
     "aliases_en": [
       "coach",
@@ -11,11 +12,13 @@
     ],
     "contexts": {
       "역마차를 타고 감": "타고 탔다 올라",
-      "역마차를 몲": "몰았 몰고 부렸"
+      "역마차를 몲": "몰았 몰고 부렸",
+      "마부를 봄": "마부"
     },
     "contexts_en": {
       "역마차를 타고 감": "riding losses depressions",
-      "역마차를 몲": "driving removal changes"
+      "역마차를 몲": "driving removal changes",
+      "마부를 봄": "stage driver journey"
     }
   },
   {

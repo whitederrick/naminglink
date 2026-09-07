@@ -1,0 +1,57 @@
+[
+  {
+    "id": "stain",
+    "aliases": [
+      "얼룩이",
+      "얼룩을",
+      "얼룩진"
+    ],
+    "aliases_en": [
+      "stain",
+      "stains",
+      "a stain"
+    ],
+    "contexts": {
+      "손이나 옷에 얼룩이 묻음": "손이나 자신의",
+      "남의 옷이나 살에 묻은 얼룩을 봄": "남의 배신"
+    },
+    "contexts_en": {
+      "손이나 옷에 얼룩이 묻음": "hands clothing small",
+      "남의 옷이나 살에 묻은 얼룩을 봄": "garments others betray"
+    }
+  },
+  {
+    "id": "stall",
+    "aliases": [
+      "축사 칸을",
+      "마구간 칸막이"
+    ],
+    "aliases_en": [
+      "a stall",
+      "stalls"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "stammer",
+    "aliases": [
+      "말을 더듬었다",
+      "말을 더듬는",
+      "더듬거렸다"
+    ],
+    "aliases_en": [
+      "stammer",
+      "stammering",
+      "stammers"
+    ],
+    "contexts": {
+      "스스로 말을 더듬음": "스스로 근심",
+      "남이 말을 더듬는 것을 들음": "남이 들었다"
+    },
+    "contexts_en": {
+      "스스로 말을 더듬음": "conversation worry illness",
+      "남이 말을 더듬는 것을 들음": "hear others unfriendly"
+    }
+  }
+]

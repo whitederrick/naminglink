@@ -176,6 +176,7 @@
     "m254.json",
     "m255.json",
     "m256.json",
+    "m257.json",
     "m26.json",
     "m27a.json",
     "m27b.json",
@@ -373,6 +374,34 @@
               "locator": "Pony",
               "original": "To see ponies in your dreams, signifies moderate speculations will be rewarded with success.",
               "translation_ko": "조랑말들을 보는 꿈은, 적당한 투기가 성공으로 보답받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "멋진 종마를 탐",
+          "interpretation_ko": "놀랍게 지위와 부에 오르나 그 성공이 도덕과 정의감을 비뚤어지게 할 조짐",
+          "interpretation_en": "denotes you will rise to position and affluence in a phenomenal way; however, your success will warp your morality and sense of justice",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stallion",
+              "original": "To dream you ride a fine stallion, denotes you will rise to position and affluence in a phenomenal way; however, your success will warp your morality and sense of justice.",
+              "translation_ko": "멋진 종마를 타는 꿈은, 놀랍게 지위와 부에 오르나 그 성공이 도덕과 정의감을 비뚤어지게 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "광견병에 걸린 종마를 봄",
+          "interpretation_ko": "부유한 형편이 오만을 부르고, 그 오만이 벗에게 밉보이며 즐거움도 거짓될 조짐",
+          "interpretation_en": "foretells that wealthy surroundings will cause you to assume arrogance, which will be distasteful to your friends, and your pleasures will be deceitful",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stallion",
+              "original": "To see one with the rabies, foretells that wealthy surroundings will cause you to assume arrogance, which will be distasteful to your friends, and your pleasures will be deceitful.",
+              "translation_ko": "광견병에 걸린 종마를 보는 꿈은, 부유한 형편이 오만을 부르고 그 오만이 벗에게 밉보이며 즐거움도 거짓될 조짐이다"
             }
           ]
         },
@@ -25075,6 +25104,139 @@
       ]
     },
     {
+      "id": "ascend",
+      "term_ko": "오르기",
+      "term_en": "ascend",
+      "aliases": [
+        "올라감",
+        "등반",
+        "계단을 오름",
+        "상승",
+        "계단"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "비틀거리지 않고 계단 꼭대기까지 오름",
+          "interpretation_ko": "좋은 조짐",
+          "interpretation_en": "a good sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ascend",
+              "original": "If you reach the extreme point of ascent, or top of steps, without stumbling, it is good",
+              "translation_ko": "비틀거리지 않고 계단 꼭대기까지 오르면 좋은 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "계단을 오름",
+          "interpretation_ko": "묵은 근심이 풀리고 앞날이 밝을 조짐",
+          "interpretation_en": "denotes that fair prospects will relieve former anxiety",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stairs",
+              "original": "To dream that you ascend steps, denotes that fair prospects will relieve former anxiety.",
+              "translation_ko": "계단을 오르는 꿈은, 묵은 근심이 풀리고 앞날이 밝을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "계단에서 떨어짐",
+          "interpretation_ko": "미움과 시샘의 대상이 될 조짐",
+          "interpretation_en": "you will be the object of hatred and envy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stairs",
+              "original": "If you fall down stairs, you will be the object of hatred and envy.",
+              "translation_ko": "계단에서 떨어지는 꿈은, 미움과 시샘의 대상이 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "계단을 걸어 내려감",
+          "interpretation_ko": "일이 불운하고 연애도 순탄치 않을 조짐",
+          "interpretation_en": "you will be unlucky in your affairs, and your lovemaking will be unfavorable",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stairs",
+              "original": "To walk down, you will be unlucky in your affairs, and your lovemaking will be unfavorable.",
+              "translation_ko": "계단을 걸어 내려가는 꿈은, 일이 불운하고 연애도 순탄치 않을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "넓고 근사한 계단을 봄",
+          "interpretation_ko": "다가올 재물과 영예를 알리는 조짐",
+          "interpretation_en": "foretells approaching riches and honors",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stairs",
+              "original": "To see broad, handsome stairs, foretells approaching riches and honors.",
+              "translation_ko": "넓고 근사한 계단을 보는 꿈은, 다가올 재물과 영예를 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 계단을 내려가는 것을 봄",
+          "interpretation_ko": "즐거움이 달갑잖은 형편으로 바뀔 조짐",
+          "interpretation_en": "denotes that unpleasant conditions will take the place of pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stairs",
+              "original": "To see others going down stairs, denotes that unpleasant conditions will take the place of pleasure.",
+              "translation_ko": "남들이 계단을 내려가는 것을 보는 꿈은, 즐거움이 달갑잖은 형편으로 바뀔 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "계단 층계에 앉음",
+          "interpretation_ko": "재물이 차츰 늘고 기쁜 일이 생길 조짐",
+          "interpretation_en": "denotes a gradual rise in fortune and delight",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stairs",
+              "original": "To sit on stair steps, denotes a gradual rise in fortune and delight.",
+              "translation_ko": "계단 층계에 앉는 꿈은, 재물이 차츰 늘고 기쁜 일이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "오르는 도중에 비틀거림",
+          "interpretation_ko": "그날의 좋은 일을 찾기 전에 극복해야 할 장애물이 있을 조짐",
+          "interpretation_en": "a sign that you will have obstacles to overcome before the good of the day is found",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Ascend",
+              "original": "otherwise, you will have obstacles to overcome before the good of the day is found.",
+              "translation_ko": "그렇지 않고 비틀거리면 그날의 좋은 일을 찾기 전에 극복해야 할 장애물이 있을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "beard",
       "term_ko": "수염",
       "term_en": "beard",
@@ -30494,6 +30656,12 @@
               "locator": "Deer",
               "original": "This is a favorable dream, denoting pure and deep friendships for the young and a quiet and even life for the married.",
               "translation_ko": "이는 좋은 꿈이며, 젊은이에게는 맑고 깊은 사귐을, 혼인한 이에게는 조용하고 고른 삶을 뜻한다"
+            },
+            {
+              "work": "miller",
+              "locator": "Stag",
+              "original": "To see stags in your dream, foretells that you will have honest and true friends, and will enjoy delightful entertainments.",
+              "translation_ko": "수사슴을 보는 꿈은, 참되고 진실한 벗을 얻고 즐거운 자리를 누릴 조짐이다"
             }
           ]
         },
@@ -52298,6 +52466,82 @@
       ]
     },
     {
+      "id": "barn",
+      "term_ko": "헛간",
+      "term_en": "barn",
+      "aliases": [
+        "곡식 창고",
+        "축사",
+        "농가 창고",
+        "마구간"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "마구간(축사) 꿈을 꿈",
+          "interpretation_ko": "재물과 유리한 형편을 이룰 조짐",
+          "interpretation_en": "is a sign of fortune and advantageous surroundings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stable",
+              "original": "To dream of a stable, is a sign of fortune and advantageous surroundings.",
+              "translation_ko": "마구간(축사) 꿈은, 재물과 유리한 형편을 이룰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "축사가 불타는 것을 봄",
+          "interpretation_ko": "형편이 좋게 바뀔 조짐이거나 실제로 일어날 수도 있는 일",
+          "interpretation_en": "denotes successful changes, or it may be seen in actual life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stable",
+              "original": "To see a stable burning denotes successful changes, or it may be seen in actual life.",
+              "translation_ko": "축사가 불타는 것을 보는 꿈은, 형편이 좋게 바뀔 조짐이거나 실제로 일어날 수도 있는 일이다"
+            }
+          ]
+        },
+        {
+          "context": "잘 익은 곡식과 완벽한 옥수수 이삭, 살진 가축들로 가득 찬 헛간을 봄",
+          "interpretation_ko": "큰 번영의 조짐",
+          "interpretation_en": "an omen of great prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Barn",
+              "original": "If well filled with ripe and matured grain, and perfect ears of corn, with fat stock surrounding it, it is an omen of great prosperity.",
+              "translation_ko": "잘 익은 곡식과 완벽한 옥수수 이삭, 살진 가축들로 가득 찬 헛간을 보면 큰 번영의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "텅 빈 헛간을 봄",
+          "interpretation_ko": "번영과는 반대되는 일이 생길 조짐",
+          "interpretation_en": "a sign that the reverse may be expected",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Barn",
+              "original": "If empty, the reverse may be expected.",
+              "translation_ko": "헛간이 텅 비어 있으면 그 반대되는 일을 기대할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bat",
       "term_ko": "박쥐",
       "term_en": "bat",
@@ -69276,6 +69520,66 @@
       ]
     },
     {
+      "id": "coach",
+      "term_ko": "역마차",
+      "term_en": "coach",
+      "aliases": [
+        "합승 마차",
+        "마부"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "역마차를 타고 감",
+          "interpretation_ko": "손해와 침체가 이어질 조짐",
+          "interpretation_en": "continued losses and depressions in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coach",
+              "original": "To dream of riding in a coach, denotes continued losses and depressions in business.",
+              "translation_ko": "역마차를 타고 가는 꿈은 손해와 침체가 이어짐을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "역마차를 몲",
+          "interpretation_ko": "거처를 옮기거나 하는 일이 바뀔 조짐",
+          "interpretation_en": "removal or business changes",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Coach",
+              "original": "Driving one implies removal or business changes.",
+              "translation_ko": "역마차를 모는 것은 거처를 옮기거나 하는 일이 바뀜을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "마부를 봄",
+          "interpretation_ko": "낯선 여정에 나서 재물과 행복을 찾을 조짐",
+          "interpretation_en": "signifies you will go on a strange journey in quest of fortune and happiness",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stage Driver",
+              "original": "To dream of a stage driver, signifies you will go on a strange journey in quest of fortune and happiness.",
+              "translation_ko": "마부를 보는 꿈은, 낯선 여정에 나서 재물과 행복을 찾을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "coals",
       "term_ko": "석탄",
       "term_en": "coals",
@@ -84258,54 +84562,6 @@
       ]
     },
     {
-      "id": "ascend",
-      "term_ko": "오르기",
-      "term_en": "ascend",
-      "aliases": [
-        "올라감",
-        "등반",
-        "계단을 오름",
-        "상승"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "비틀거리지 않고 계단 꼭대기까지 오름",
-          "interpretation_ko": "좋은 조짐",
-          "interpretation_en": "a good sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ascend",
-              "original": "If you reach the extreme point of ascent, or top of steps, without stumbling, it is good",
-              "translation_ko": "비틀거리지 않고 계단 꼭대기까지 오르면 좋은 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "오르는 도중에 비틀거림",
-          "interpretation_ko": "그날의 좋은 일을 찾기 전에 극복해야 할 장애물이 있을 조짐",
-          "interpretation_en": "a sign that you will have obstacles to overcome before the good of the day is found",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Ascend",
-              "original": "otherwise, you will have obstacles to overcome before the good of the day is found.",
-              "translation_ko": "그렇지 않고 비틀거리면 그날의 좋은 일을 찾기 전에 극복해야 할 장애물이 있을 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "asparagus",
       "term_ko": "아스파라거스",
       "term_en": "asparagus",
@@ -85385,54 +85641,6 @@
               "locator": "Barmaid",
               "original": "For a young woman to dream that she is a barmaid, foretells that she will be attracted to fast men, and that she will prefer irregular pleasures to propriety.",
               "translation_ko": "젊은 여성이 자신이 술집 여급이 된 꿈을 꾸면 방탕한 남자들에게 끌리고 단정함보다 문란한 쾌락을 선호하게 될 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "barn",
-      "term_ko": "헛간",
-      "term_en": "barn",
-      "aliases": [
-        "곡식 창고",
-        "축사",
-        "농가 창고",
-        "마구간"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "잘 익은 곡식과 완벽한 옥수수 이삭, 살진 가축들로 가득 찬 헛간을 봄",
-          "interpretation_ko": "큰 번영의 조짐",
-          "interpretation_en": "an omen of great prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Barn",
-              "original": "If well filled with ripe and matured grain, and perfect ears of corn, with fat stock surrounding it, it is an omen of great prosperity.",
-              "translation_ko": "잘 익은 곡식과 완벽한 옥수수 이삭, 살진 가축들로 가득 찬 헛간을 보면 큰 번영의 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "텅 빈 헛간을 봄",
-          "interpretation_ko": "번영과는 반대되는 일이 생길 조짐",
-          "interpretation_en": "a sign that the reverse may be expected",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Barn",
-              "original": "If empty, the reverse may be expected.",
-              "translation_ko": "헛간이 텅 비어 있으면 그 반대되는 일을 기대할 조짐이다"
             }
           ]
         }
@@ -89981,51 +90189,6 @@
               "locator": "金銀珠玉絹帛",
               "original": "得布帛遠親來至",
               "translation_ko": "베와 비단을 얻으면 먼 친척이 온다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "coach",
-      "term_ko": "역마차",
-      "term_en": "coach",
-      "aliases": [
-        "합승 마차"
-      ],
-      "category": "object",
-      "polarity": "neutral",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "역마차를 타고 감",
-          "interpretation_ko": "손해와 침체가 이어질 조짐",
-          "interpretation_en": "continued losses and depressions in business",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Coach",
-              "original": "To dream of riding in a coach, denotes continued losses and depressions in business.",
-              "translation_ko": "역마차를 타고 가는 꿈은 손해와 침체가 이어짐을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "역마차를 몲",
-          "interpretation_ko": "거처를 옮기거나 하는 일이 바뀔 조짐",
-          "interpretation_en": "removal or business changes",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Coach",
-              "original": "Driving one implies removal or business changes.",
-              "translation_ko": "역마차를 모는 것은 거처를 옮기거나 하는 일이 바뀜을 뜻한다"
             }
           ]
         }
@@ -109304,6 +109467,100 @@
       ]
     },
     {
+      "id": "stain",
+      "term_ko": "얼룩",
+      "term_en": "stain",
+      "aliases": [
+        "얼룩이",
+        "얼룩을",
+        "얼룩진"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "손이나 옷에 얼룩이 묻음",
+          "interpretation_ko": "작은 일로 곤란을 겪을 조짐",
+          "interpretation_en": "foretells that trouble over small matters will assail you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stain",
+              "original": "To see stain on your hands, or clothing, while dreaming, foretells that trouble over small matters will assail you.",
+              "translation_ko": "손이나 옷에 얼룩이 묻는 꿈은, 작은 일로 곤란을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남의 옷이나 살에 묻은 얼룩을 봄",
+          "interpretation_ko": "누군가 자신을 배신할 조짐",
+          "interpretation_en": "foretells that some person will betray you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stain",
+              "original": "To see a stain on the garments of others, or on their flesh, foretells that some person will betray you.",
+              "translation_ko": "남의 옷이나 살에 묻은 얼룩을 보는 꿈은, 누군가 자신을 배신할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stammer",
+      "term_ko": "말더듬",
+      "term_en": "stammer",
+      "aliases": [
+        "말을 더듬었다",
+        "말을 더듬는",
+        "더듬거렸다"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 말을 더듬음",
+          "interpretation_ko": "근심과 병이 즐거움을 위협할 조짐",
+          "interpretation_en": "denotes that worry and illness will threaten your enjoyment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stammer",
+              "original": "To dream that you stammer in your conversation, denotes that worry and illness will threaten your enjoyment.",
+              "translation_ko": "스스로 말을 더듬는 꿈은, 근심과 병이 즐거움을 위협할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 말을 더듬는 것을 들음",
+          "interpretation_ko": "달갑잖은 이들이 자신을 성가시게 하고 근심을 안기며 즐거워할 조짐",
+          "interpretation_en": "foretells that unfriendly persons will delight in annoying you and giving you needless worry",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stammer",
+              "original": "To hear others stammer, foretells that unfriendly persons will delight in annoying you and giving you needless worry.",
+              "translation_ko": "남이 말을 더듬는 것을 듣는 꿈은, 달갑잖은 이들이 자신을 성가시게 하고 근심을 안기며 즐거워할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "steamed-bun",
       "term_ko": "만두",
       "term_en": "steamed bun",
@@ -122481,6 +122738,38 @@
               "locator": "田園五榖耕種",
               "original": "萌芽者主惡事連",
               "translation_ko": "싹이 트면 나쁜 일이 잇따른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stall",
+      "term_ko": "축사 칸",
+      "term_en": "stall",
+      "aliases": [
+        "축사 칸을",
+        "마구간 칸막이"
+      ],
+      "category": "place",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "축사 칸(마구간 칸막이) 꿈을 꿈",
+          "interpretation_ko": "벌인 일에서 될 수 없는 결과를 바라게 될 조짐",
+          "interpretation_en": "denotes impossible results from some enterprise will be expected by you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stall",
+              "original": "To dream of a stall, denotes impossible results from some enterprise will be expected by you.",
+              "translation_ko": "축사 칸(마구간 칸막이) 꿈은, 벌인 일에서 될 수 없는 결과를 바라게 될 조짐이다"
             }
           ]
         }

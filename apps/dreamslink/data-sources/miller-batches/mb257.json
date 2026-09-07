@@ -1,0 +1,18 @@
+{
+  "batch": 257,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Stable", "text": "To dream of a stable, is a sign of fortune and advantageous surroundings.\n\nTo see a stable burning denotes successful changes, or it may be seen in actual life.", "note": "기존 barn(헛간)에 문맥 추가 — 「마구간」이 이미 barn의 별칭이었다" },
+    { "headword": "Stag", "text": "To see stags in your dream, foretells that you will have honest and true friends, and will enjoy delightful entertainments.", "note": "기존 deer(사슴)의 「사슴 꿈을 꿈」과 같은 work(miller)·같은 그림이라 인용만 포갬" },
+    { "headword": "Stage Driver", "text": "To dream of a stage driver, signifies you will go on a strange journey in quest of fortune and happiness.", "note": "기존 coach(역마차)에 문맥 추가" },
+    { "headword": "Stain", "text": "To see stain on your hands, or clothing, while dreaming, foretells that trouble over small matters will assail you.\n\nTo see a stain on the garments of others, or on their flesh, foretells that some person will betray you.", "note": "새 상징 stain(얼룩)" },
+    { "headword": "Stairs", "text": "To dream of passing up a stairs, foretells good fortune and much happiness.\n\nIf you fall down stairs, you will be the object of hatred and envy.\n\nTo walk down, you will be unlucky in your affairs, and your lovemaking will be unfavorable.\n\nTo see broad, handsome stairs, foretells approaching riches and honors.\n\nTo see others going down stairs, denotes that unpleasant conditions will take the place of pleasure.\n\nTo sit on stair steps, denotes a gradual rise in fortune and delight.", "note": "기존 ascend(오르기)에 문맥 6개 추가. 첫 문장(passing up)은 기존 「비틀거리지 않고...」와 조건이 달라 별도로 넣음" },
+    { "headword": "Stall", "text": "To dream of a stall, denotes impossible results from some enterprise will be expected by you.", "note": "새 상징 stall(축사 칸)" },
+    { "headword": "Stallion", "text": "To dream you ride a fine stallion, denotes you will rise to position and affluence in a phenomenal way; however, your success will warp your morality and sense of justice. To see one with the rabies, foretells that wealthy surroundings will cause you to assume arrogance, which will be distasteful to your friends, and your pleasures will be deceitful.", "note": "기존 horse(말)에 문맥 2개 추가 — 「종마」가 이미 horse의 별칭이었다. 첫 문장(그냥 종마 꿈)은 뺐다 — 기존 「훌륭한 씨수말을 봄」(밀러 Horse 헤드워드)과 같은 work·같은 핵심 낱말(종마)인데 풀이가 달라 discriminator로 못 가른다(§31 곁가지)" },
+    { "headword": "Stammer", "text": "To dream that you stammer in your conversation, denotes that worry and illness will threaten your enjoyment.  To hear others stammer, foretells that unfriendly persons will delight in annoying you and giving you needless worry.", "note": "새 상징 stammer(말더듬)" }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    { "headword": "Stallion", "sentence": "To dream of a stallion, foretells prosperous conditions are approaching you, in which you will hold a position which will confer honor upon you.", "reason": "horse(밀러 Horse 헤드워드)의 「훌륭한 씨수말을 봄」과 같은 work·핵심 낱말(종마)을 공유, 풀이가 달라 판별어로 못 가른다(§31 곁가지)" }
+  ]
+}
