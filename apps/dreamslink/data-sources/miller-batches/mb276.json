@@ -1,0 +1,36 @@
+{
+  "batch": 276,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Train",
+      "text": "To see a train of cars moving in your dreams, you will soon have cause to make a journey.\n\nTo be on a train and it appears to move smoothly along, though there is no track, denotes that you will be much worried over some affair which will eventually prove a source of profit to you.\n\nTo see freight trains in your dreams, is an omen of changes which will tend to your elevation.\n\nTo find yourself, in a dream, on top of a sleeping car, denotes you will make a journey with an unpleasant companion, with whom you will spend money and time that could be used in a more profitable and congenial way, and whom you will seek to avoid.",
+      "note": "새 상징 train(기차)"
+    },
+    {
+      "headword": "Traitor",
+      "text": "To see a traitor in your dream, foretells you will have enemies working to despoil you.  If some one calls you one, or if you imagine yourself one, there will be unfavorable prospects of pleasure for you.",
+      "note": "새 상징 traitor(배신자)"
+    },
+    {
+      "headword": "Transfiguration",
+      "text": "To dream of the transfiguration, foretells that your faith in man's own nearness to God will raise you above trifling opinions, and elevate you to a worthy position, in which capacity you will be able to promote the well being of the ignorant and persecuted.\n\nTo see yourself transfigured, you will stand high in the esteem of honest and prominent men.",
+      "note": "새 상징 transfiguration(변모)"
+    },
+    {
+      "headword": "Trap",
+      "text": "To dream of setting a trap, denotes that you will use intrigue to carry out your designs\n\nIf you are caught in a trap, you will be outwitted by your opponents.\n\nIf you catch game in a trap, you will flourish in whatever vocation you may choose.\n\nTo see an empty trap, there will be misfortune in the immediate future.\n\nAn old or broken trap, denotes failure in business, and sickness in your family may follow.",
+      "note": "새 상징 trap(함정)"
+    },
+    {
+      "headword": "Traveling",
+      "text": "To dream of traveling, signifies profit and pleasure combined.\nTo dream of traveling through rough unknown places, portends dangerous enemies, and perhaps sickness.  Over bare or rocky steeps, signifies apparent gain, but loss and disappointment will swiftly follow.  If the hills or mountains are fertile and green, you will be eminently prosperous and happy.\n\nTo dream you travel alone in a car, denotes you may possibly make an eventful journey, and affairs will be worrying.\nTo travel in a crowded car, foretells fortunate adventures, and new and entertaining companions.",
+      "note": "기존 long-journey(먼 길 떠남) 상징에 문맥 5개 추가 — 각주 [229] See Journey. km2.json의 long-journey가 이미 aliases_en에 travel·traveling을 쥐고 있었다(새 상징 세우면 곧바로 충돌할 자리). 첫 문장(「To dream of traveling, signifies profit and pleasure combined」)은 기존 「길을 떠남」(조건부 이문·실망)과 같은 그림(여행 일반의 결과)이라 §31로 건너뜀 — 장면 자체에 구분할 낱말이 없어 판별어를 못 가른다"
+    },
+    {
+      "headword": "Tray",
+      "text": "To see trays in your dream, denotes your wealth will be foolishly wasted, and surprises of unpleasant nature will shock you.\nIf the trays seem to be filled with valuables, surprises will come in the shape of good fortune.",
+      "note": "새 상징 tray(쟁반)"
+    }
+  ]
+}

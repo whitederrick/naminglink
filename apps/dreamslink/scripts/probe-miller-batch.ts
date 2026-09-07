@@ -1,12 +1,9 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 275 — Torrent~Tragedy. 새 상징 다섯(torture·
-// tourist·tower·toys·tragedy)을 세우고, 기존 둘(rapids·trading)에
-// 문맥을 나눠 붙였다. Torrent는 rapids와 같은 물(급류) — 밀러 원문
-// aliases_en에 이미 rapids만 있었는데 한국어 이름이 겹쳐 발견했다.
-// Trade도 trading과 같은 개념(aliases_en에 이미 trade가 있었다) —
-// 「거래를 함」(성공, 길)은 기존 「남과 물건을 거래함」(주공해몽, 병이
-// 생김, 흉)과 글자까지 같은 그림에 정반대 풀이라 건너뛰고 「실패함」만
-// 붙임. trading 기본값은 있던 대로 얼렸다.
+// (지금 담긴 것: 배치 276 — Train~Tray. 새 상징 다섯(train·traitor·
+// transfiguration·trap·tray), 기존 long-journey에 문맥 5개 추가.
+// Traveling의 첫 문장(여행 자체를 꿈꿈)은 기존 long-journey의
+// 「길을 떠남」과 같은 그림이라 §31로 건너뜀 — 장면 자체에 가를 낱말이
+// 없었다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -37,27 +34,31 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 275 새 문맥 (16건) ────────────────────────────────────────────
-  { id: "rapids", ctx: "쏟아지는 급류를 바라봄", text: "쏟아지는 급류를 바라보았다" },
-  { id: "torture", ctx: "고문을 당함", text: "고문을 당했다" },
-  { id: "torture", ctx: "남을 고문함", text: "남을 고문했다" },
-  { id: "torture", ctx: "남이 당하는 고문을 덜어 주려 애씀", text: "남이 당하는 고문을 덜어 주려 애썼다" },
-  { id: "tourist", ctx: "스스로 관광객이 됨", text: "스스로 관광객이 되었다" },
-  { id: "tourist", ctx: "관광객들을 봄", text: "관광객들을 보았다" },
-  { id: "tower", ctx: "탑을 봄", text: "탑을 보았다" },
-  { id: "tower", ctx: "탑에 오름", text: "탑에 올랐다" },
-  { id: "tower", ctx: "탑에서 내려오는데 탑이 무너짐", text: "탑에서 내려오는데 탑이 무너졌다" },
-  { id: "toys", ctx: "온전하고 새 장난감을 봄", text: "온전하고 새 장난감을 보았다" },
-  { id: "toys", ctx: "부서진 장난감을 봄", text: "부서진 장난감을 보았다" },
-  { id: "toys", ctx: "아이들이 장난감을 갖고 노는 것을 봄", text: "아이들이 장난감을 갖고 노는 것을 보았다" },
-  { id: "toys", ctx: "장난감을 남에게 줘 버림", text: "장난감을 남에게 줘 버렸다" },
-  { id: "trading", ctx: "거래에서 실패함", text: "거래에서 실패했다" },
-  { id: "tragedy", ctx: "비극 꿈을 꿈", text: "비극 꿈을 꾸었다" },
-  { id: "tragedy", ctx: "비극에 휘말림", text: "비극에 휘말렸다" },
+  // ── 배치 276 새 문맥 (19건) ────────────────────────────────────────────
+  { id: "train", ctx: "기차가 움직이는 것을 봄", text: "기차가 움직이는 것을 보았다" },
+  { id: "train", ctx: "궤도 없이도 기차가 매끄럽게 나아감", text: "궤도도 없이 기차가 매끄럽게 나아갔다" },
+  { id: "train", ctx: "화물열차를 봄", text: "화물열차를 보았다" },
+  { id: "train", ctx: "잠자는 객차 위에 있음", text: "잠자는 객차 위에 있었다" },
+  { id: "traitor", ctx: "꿈에 배신자를 봄", text: "꿈에 배신자를 보았다" },
+  { id: "traitor", ctx: "누가 자신을 배신자라 부르거나 스스로 그렇다 여김", text: "누가 나를 배신자라 불렀다" },
+  { id: "transfiguration", ctx: "거룩한 변모를 꿈꿈", text: "거룩한 변모를 꿈꾸었다" },
+  { id: "transfiguration", ctx: "스스로 변모한 모습을 봄", text: "스스로 변모한 모습을 보았다" },
+  { id: "trap", ctx: "함정을 놓음", text: "함정을 놓았다" },
+  { id: "trap", ctx: "함정에 걸림", text: "함정에 걸렸다" },
+  { id: "trap", ctx: "함정으로 짐승을 잡음", text: "함정으로 짐승을 잡았다" },
+  { id: "trap", ctx: "빈 함정을 봄", text: "함정을 보았는데 아무것도 없이 비어 있었다" },
+  { id: "trap", ctx: "낡거나 부서진 함정을 봄", text: "낡고 부서진 함정을 보았다" },
+  { id: "long-journey", ctx: "낯설고 험한 곳으로 여행함", text: "낯선 곳으로 여행을 가다가 험한 길을 만났다" },
+  { id: "long-journey", ctx: "메마르고 바위투성이인 비탈을 지남", text: "바위투성이 비탈로 여행을 갔다" },
+  { id: "long-journey", ctx: "기름지고 푸른 언덕이나 산을 지남", text: "기름진 언덕으로 여행을 갔다" },
+  { id: "long-journey", ctx: "홀로 차를 타고 여행함", text: "홀로 차를 타고 여행을 갔다" },
+  { id: "long-journey", ctx: "붐비는 차를 타고 여행함", text: "붐비는 차를 타고 여행을 갔다" },
+  { id: "tray", ctx: "쟁반들을 봄", text: "쟁반들을 보았다" },
+  { id: "tray", ctx: "쟁반에 값진 것이 가득함", text: "쟁반에 값진 것이 가득했다" },
 
-  // ── 지킴 케이스 — 이번에 손댄 기존 상징들의 옛 답이 그대로인지 ────────
-  { id: "rapids", ctx: "급류에 휩쓸려 감", text: "급류에 휩쓸려 갔다" },
-  { id: "trading", ctx: "남과 물건을 거래함", text: "남과 물건을 거래했다" },
+  // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────
+  { id: "long-journey", ctx: "길을 떠남", text: "길을 떠났다" },
+  { id: "long-journey", ctx: "먼 길을 오가며 다님", text: "여행을 하며 먼 곳을 오가며 지냈다" },
 ];
 
 let notFound = 0;

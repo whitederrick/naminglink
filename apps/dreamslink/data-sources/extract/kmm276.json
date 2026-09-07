@@ -1,0 +1,120 @@
+[
+  {
+    "id": "train",
+    "aliases": [
+      "기차가",
+      "기차를",
+      "기차에",
+      "열차",
+      "화물열차",
+      "객차"
+    ],
+    "aliases_en": [
+      "train",
+      "trains",
+      "a train"
+    ],
+    "contexts": {
+      "기차가 움직이는 것을 봄": "그냥",
+      "궤도 없이도 기차가 매끄럽게 나아감": "궤도 매끄럽게",
+      "화물열차를 봄": "화물열차",
+      "잠자는 객차 위에 있음": "객차 잠자는"
+    },
+    "contexts_en": {
+      "기차가 움직이는 것을 봄": "moving soon journey",
+      "궤도 없이도 기차가 매끄럽게 나아감": "smoothly track worried",
+      "화물열차를 봄": "freight elevation",
+      "잠자는 객차 위에 있음": "sleeping unpleasant companion"
+    }
+  },
+  {
+    "id": "traitor",
+    "aliases": [
+      "배신자가",
+      "배신자를",
+      "배신자라"
+    ],
+    "aliases_en": [
+      "traitor",
+      "a traitor"
+    ],
+    "contexts": {
+      "꿈에 배신자를 봄": "그냥",
+      "누가 자신을 배신자라 부르거나 스스로 그렇다 여김": "불렀 여겼"
+    },
+    "contexts_en": {
+      "꿈에 배신자를 봄": "enemies despoil",
+      "누가 자신을 배신자라 부르거나 스스로 그렇다 여김": "calls imagine unfavorable"
+    }
+  },
+  {
+    "id": "transfiguration",
+    "aliases": [
+      "변모를",
+      "변모한"
+    ],
+    "aliases_en": [
+      "transfiguration",
+      "transfigured"
+    ],
+    "contexts": {
+      "거룩한 변모를 꿈꿈": "거룩한",
+      "스스로 변모한 모습을 봄": "변모한 모습"
+    },
+    "contexts_en": {
+      "거룩한 변모를 꿈꿈": "faith nearness god",
+      "스스로 변모한 모습을 봄": "esteem prominent honest"
+    }
+  },
+  {
+    "id": "trap",
+    "aliases": [
+      "함정을",
+      "함정에",
+      "함정으로",
+      "덫을",
+      "덫에"
+    ],
+    "aliases_en": [
+      "trap",
+      "a trap",
+      "traps"
+    ],
+    "contexts": {
+      "함정을 놓음": "놓았",
+      "함정에 걸림": "걸렸",
+      "함정으로 짐승을 잡음": "짐승을 잡았",
+      "빈 함정을 봄": "아무것도",
+      "낡거나 부서진 함정을 봄": "낡은 부서진"
+    },
+    "contexts_en": {
+      "함정을 놓음": "setting intrigue designs",
+      "함정에 걸림": "caught outwitted opponents",
+      "함정으로 짐승을 잡음": "catch game flourish",
+      "빈 함정을 봄": "empty misfortune",
+      "낡거나 부서진 함정을 봄": "old broken failure sickness"
+    }
+  },
+  {
+    "id": "tray",
+    "aliases": [
+      "쟁반이",
+      "쟁반을",
+      "쟁반에",
+      "쟁반들"
+    ],
+    "aliases_en": [
+      "tray",
+      "trays",
+      "a tray"
+    ],
+    "contexts": {
+      "쟁반들을 봄": "그냥",
+      "쟁반에 값진 것이 가득함": "값진 가득"
+    },
+    "contexts_en": {
+      "쟁반들을 봄": "wealth wasted unpleasant",
+      "쟁반에 값진 것이 가득함": "filled valuables fortune"
+    }
+  }
+]

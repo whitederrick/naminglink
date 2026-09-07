@@ -643,7 +643,12 @@
       "길을 떠남": "길에 올랐 나섰",
       "벗들이 즐겁게 길을 떠나는 것을 봄": "즐겁게 신나게 웃으며",
       "벗들이 슬픈 낯으로 떠나는 것을 봄": "슬픈 서글픈 울먹",
-      "먼 길을 뜻밖에 짧은 동안에 감": "짧은 금세 어느새"
+      "먼 길을 뜻밖에 짧은 동안에 감": "짧은 금세 어느새",
+      "낯설고 험한 곳으로 여행함": "험한 낯선",
+      "메마르고 바위투성이인 비탈을 지남": "바위투성이 비탈",
+      "기름지고 푸른 언덕이나 산을 지남": "언덕 기름진",
+      "홀로 차를 타고 여행함": "홀로",
+      "붐비는 차를 타고 여행함": "붐비는"
     },
     "contexts_en": {
       "먼 길을 오가며 다님": "forth coming going wandering",
@@ -651,7 +656,12 @@
       "길을 떠남": "profit disappointment pleasing accidents disagreeable",
       "벗들이 즐겁게 길을 떠나는 것을 봄": "cheerfully delightful change harmonious heretofore",
       "벗들이 슬픈 낯으로 떠나는 것을 봄": "depart looking sad moons power loss",
-      "먼 길을 뜻밖에 짧은 동안에 감": "shorter accomplish surprisingly reimbursement"
+      "먼 길을 뜻밖에 짧은 동안에 감": "shorter accomplish surprisingly reimbursement",
+      "낯설고 험한 곳으로 여행함": "rough unknown dangerous enemies",
+      "메마르고 바위투성이인 비탈을 지남": "bare rocky steeps apparent",
+      "기름지고 푸른 언덕이나 산을 지남": "fertile green hills eminently",
+      "홀로 차를 타고 여행함": "alone eventful worrying",
+      "붐비는 차를 타고 여행함": "crowded fortunate entertaining"
     }
   },
   {

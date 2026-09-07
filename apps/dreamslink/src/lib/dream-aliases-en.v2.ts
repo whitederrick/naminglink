@@ -8011,5 +8011,28 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "tragedy": [
     "tragedy",
     "a tragedy"
+  ],
+  "train": [
+    "train",
+    "trains",
+    "a train"
+  ],
+  "traitor": [
+    "traitor",
+    "a traitor"
+  ],
+  "transfiguration": [
+    "transfiguration",
+    "transfigured"
+  ],
+  "trap": [
+    "trap",
+    "a trap",
+    "traps"
+  ],
+  "tray": [
+    "tray",
+    "trays",
+    "a tray"
   ]
 };

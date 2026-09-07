@@ -196,6 +196,7 @@
     "m273.json",
     "m274.json",
     "m275.json",
+    "m276.json",
     "m27a.json",
     "m27b.json",
     "m28.json",
@@ -19096,6 +19097,184 @@
               "locator": "Legs",
               "original": "If your own legs are clean and well shaped, it denotes a happy future and devoted friends.",
               "translation_ko": "제 다리가 깨끗하고 맵시 있으면 앞날이 즐겁고 마음을 다하는 벗이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long-journey",
+      "term_ko": "먼 길 떠남",
+      "term_en": "long journey",
+      "aliases": [
+        "여행",
+        "원행",
+        "먼길",
+        "길을 떠났다",
+        "길을 떠나",
+        "길 떠나",
+        "나들이"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "길을 떠남",
+          "interpretation_ko": "길이 즐겁고 순조로우면 이문이, 사고와 궂은 일이 끼면 실망이 따를 조짐",
+          "interpretation_en": "signifies profit or a disappointment, as the travels are pleasing and successful or as accidents and disagreeable events take active part in your journeying",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Journey",
+              "original": "To dream that you go on a journey, signifies profit or a disappointment, as the travels are pleasing and successful or as accidents and disagreeable events take active part in your journeying.",
+              "translation_ko": "길을 떠나는 꿈은, 그 길이 즐겁고 순조로우면 이문을, 사고와 궂은 일이 끼면 실망을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "낯설고 험한 곳으로 여행함",
+          "interpretation_ko": "위태로운 적과 앓음이 있을 조짐",
+          "interpretation_en": "portends dangerous enemies, and perhaps sickness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Traveling",
+              "original": "To dream of traveling through rough unknown places, portends dangerous enemies, and perhaps sickness.",
+              "translation_ko": "낯설고 험한 곳으로 여행하는 꿈은, 위태로운 적과 앓음이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "메마르고 바위투성이인 비탈을 지남",
+          "interpretation_ko": "얻는 듯하나 곧 잃음과 낙담이 뒤따를 조짐",
+          "interpretation_en": "signifies apparent gain, but loss and disappointment will swiftly follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Traveling",
+              "original": "Over bare or rocky steeps, signifies apparent gain, but loss and disappointment will swiftly follow.",
+              "translation_ko": "메마르고 바위투성이인 비탈을 지나는 꿈은, 얻는 듯하나 곧 잃음과 낙담이 뒤따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "기름지고 푸른 언덕이나 산을 지남",
+          "interpretation_ko": "매우 번창하고 행복할 조짐",
+          "interpretation_en": "you will be eminently prosperous and happy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Traveling",
+              "original": "If the hills or mountains are fertile and green, you will be eminently prosperous and happy.",
+              "translation_ko": "기름지고 푸른 언덕이나 산을 지나는 꿈은, 매우 번창하고 행복할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "홀로 차를 타고 여행함",
+          "interpretation_ko": "일이 근심스러운 뜻밖의 여정이 될 조짐",
+          "interpretation_en": "you may possibly make an eventful journey, and affairs will be worrying",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Traveling",
+              "original": "To dream you travel alone in a car, denotes you may possibly make an eventful journey, and affairs will be worrying.",
+              "translation_ko": "홀로 차를 타고 여행하는 꿈은, 일이 근심스러운 뜻밖의 여정이 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "붐비는 차를 타고 여행함",
+          "interpretation_ko": "운 좋은 모험과 새롭고 즐거운 길동무를 예고",
+          "interpretation_en": "foretells fortunate adventures, and new and entertaining companions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Traveling",
+              "original": "To travel in a crowded car, foretells fortunate adventures, and new and entertaining companions.",
+              "translation_ko": "붐비는 차를 타고 여행하는 꿈은, 운 좋은 모험과 새롭고 즐거운 길동무를 예고한다"
+            }
+          ]
+        },
+        {
+          "context": "벗들이 즐겁게 길을 떠나는 것을 봄",
+          "interpretation_ko": "반가운 변화가 오고 이제까지보다 뜻이 맞는 이들을 만날 길한 조짐",
+          "interpretation_en": "signifies delightful change and more harmonious companions than you have heretofore known",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Journey",
+              "original": "To see your friends start cheerfully on a journey, signifies delightful change and more harmonious companions than you have heretofore known.",
+              "translation_ko": "벗들이 즐겁게 길을 떠나는 것을 보면 반가운 변화가 오고 이제까지보다 뜻이 맞는 이들을 만난다"
+            }
+          ]
+        },
+        {
+          "context": "벗들이 슬픈 낯으로 떠나는 것을 봄",
+          "interpretation_ko": "여러 달이 지나야 다시 보게 될 조짐이며 힘과 잃음이 함께 깃든다",
+          "interpretation_en": "it may be many moons before you see them again; power and loss are implied",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Journey",
+              "original": "If you see them depart looking sad, it may be many moons before you see them again.",
+              "translation_ko": "그들이 슬픈 낯으로 떠나는 것을 보면 여러 달이 지나야 다시 보게 된다"
+            }
+          ]
+        },
+        {
+          "context": "먼 길을 뜻밖에 짧은 동안에 감",
+          "interpretation_ko": "어떤 일을 놀랍도록 짧은 동안에 이루고 그 값도 흡족할 길한 조짐",
+          "interpretation_en": "denotes you will accomplish some work in a surprisingly short time, which will be satisfactory in the way of reimbursement",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Journey",
+              "original": "To make a long-distance journey in a much shorter time than you expected, denotes you will accomplish some work in a surprisingly short time, which will be satisfactory in the way of reimbursement.",
+              "translation_ko": "먼 길을 생각보다 훨씬 짧은 동안에 가면, 어떤 일을 놀랍도록 짧은 동안에 이루고 그 값도 흡족하다"
+            }
+          ]
+        },
+        {
+          "context": "먼 길을 오가며 다님",
+          "interpretation_ko": "운수가 트일 조짐",
+          "interpretation_en": "a sign that one's fortune will open up",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "遠行出入命通達",
+              "translation_ko": "먼 길을 오가면 운수가 통달한다"
+            }
+          ]
+        },
+        {
+          "context": "텅 비고 사람이 없는 먼 곳",
+          "interpretation_ko": "먼 길을 떠나게 될 조짐",
+          "interpretation_en": "a sign of a long journey ahead",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "塚墓棺槨迎送",
+              "original": "空遠無人主遠行",
+              "translation_ko": "텅 비고 멀어 사람이 없으면 먼 길을 떠난다"
             }
           ]
         }
@@ -40044,114 +40223,6 @@
       ]
     },
     {
-      "id": "long-journey",
-      "term_ko": "먼 길 떠남",
-      "term_en": "long journey",
-      "aliases": [
-        "여행",
-        "원행",
-        "먼길",
-        "길을 떠났다",
-        "길을 떠나",
-        "길 떠나",
-        "나들이"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "길을 떠남",
-          "interpretation_ko": "길이 즐겁고 순조로우면 이문이, 사고와 궂은 일이 끼면 실망이 따를 조짐",
-          "interpretation_en": "signifies profit or a disappointment, as the travels are pleasing and successful or as accidents and disagreeable events take active part in your journeying",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Journey",
-              "original": "To dream that you go on a journey, signifies profit or a disappointment, as the travels are pleasing and successful or as accidents and disagreeable events take active part in your journeying.",
-              "translation_ko": "길을 떠나는 꿈은, 그 길이 즐겁고 순조로우면 이문을, 사고와 궂은 일이 끼면 실망을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "벗들이 즐겁게 길을 떠나는 것을 봄",
-          "interpretation_ko": "반가운 변화가 오고 이제까지보다 뜻이 맞는 이들을 만날 길한 조짐",
-          "interpretation_en": "signifies delightful change and more harmonious companions than you have heretofore known",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Journey",
-              "original": "To see your friends start cheerfully on a journey, signifies delightful change and more harmonious companions than you have heretofore known.",
-              "translation_ko": "벗들이 즐겁게 길을 떠나는 것을 보면 반가운 변화가 오고 이제까지보다 뜻이 맞는 이들을 만난다"
-            }
-          ]
-        },
-        {
-          "context": "벗들이 슬픈 낯으로 떠나는 것을 봄",
-          "interpretation_ko": "여러 달이 지나야 다시 보게 될 조짐이며 힘과 잃음이 함께 깃든다",
-          "interpretation_en": "it may be many moons before you see them again; power and loss are implied",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Journey",
-              "original": "If you see them depart looking sad, it may be many moons before you see them again.",
-              "translation_ko": "그들이 슬픈 낯으로 떠나는 것을 보면 여러 달이 지나야 다시 보게 된다"
-            }
-          ]
-        },
-        {
-          "context": "먼 길을 뜻밖에 짧은 동안에 감",
-          "interpretation_ko": "어떤 일을 놀랍도록 짧은 동안에 이루고 그 값도 흡족할 길한 조짐",
-          "interpretation_en": "denotes you will accomplish some work in a surprisingly short time, which will be satisfactory in the way of reimbursement",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Journey",
-              "original": "To make a long-distance journey in a much shorter time than you expected, denotes you will accomplish some work in a surprisingly short time, which will be satisfactory in the way of reimbursement.",
-              "translation_ko": "먼 길을 생각보다 훨씬 짧은 동안에 가면, 어떤 일을 놀랍도록 짧은 동안에 이루고 그 값도 흡족하다"
-            }
-          ]
-        },
-        {
-          "context": "먼 길을 오가며 다님",
-          "interpretation_ko": "운수가 트일 조짐",
-          "interpretation_en": "a sign that one's fortune will open up",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "遠行出入命通達",
-              "translation_ko": "먼 길을 오가면 운수가 통달한다"
-            }
-          ]
-        },
-        {
-          "context": "텅 비고 사람이 없는 먼 곳",
-          "interpretation_ko": "먼 길을 떠나게 될 조짐",
-          "interpretation_en": "a sign of a long journey ahead",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "塚墓棺槨迎送",
-              "original": "空遠無人主遠行",
-              "translation_ko": "텅 비고 멀어 사람이 없으면 먼 길을 떠난다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "lottery",
       "term_ko": "복권",
       "term_en": "lottery",
@@ -52650,6 +52721,97 @@
               "locator": "Tobacco",
               "original": "To smoke tobacco, denotes amiable friendships.",
               "translation_ko": "담배를 피우는 꿈은, 다정한 우정의 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trap",
+      "term_ko": "함정",
+      "term_en": "trap",
+      "aliases": [
+        "함정을",
+        "함정에",
+        "함정으로",
+        "덫을",
+        "덫에"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "함정을 놓음",
+          "interpretation_ko": "계략을 써 뜻한 바를 이룰 조짐",
+          "interpretation_en": "you will use intrigue to carry out your designs",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trap",
+              "original": "To dream of setting a trap, denotes that you will use intrigue to carry out your designs",
+              "translation_ko": "함정을 놓는 꿈은, 계략을 써 뜻한 바를 이룰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "함정에 걸림",
+          "interpretation_ko": "적수에게 허를 찔릴 조짐",
+          "interpretation_en": "you will be outwitted by your opponents",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trap",
+              "original": "If you are caught in a trap, you will be outwitted by your opponents.",
+              "translation_ko": "함정에 걸리는 꿈은, 적수에게 허를 찔릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "함정으로 짐승을 잡음",
+          "interpretation_ko": "무슨 일을 하든 번창할 조짐",
+          "interpretation_en": "you will flourish in whatever vocation you may choose",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trap",
+              "original": "If you catch game in a trap, you will flourish in whatever vocation you may choose.",
+              "translation_ko": "함정으로 짐승을 잡는 꿈은, 무슨 일을 하든 번창할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빈 함정을 봄",
+          "interpretation_ko": "머잖아 불운이 닥칠 조짐",
+          "interpretation_en": "there will be misfortune in the immediate future",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trap",
+              "original": "To see an empty trap, there will be misfortune in the immediate future.",
+              "translation_ko": "빈 함정을 보는 꿈은, 머잖아 불운이 닥칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "낡거나 부서진 함정을 봄",
+          "interpretation_ko": "사업이 실패하고 집안에 병이 따를 조짐",
+          "interpretation_en": "denotes failure in business, and sickness in your family may follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trap",
+              "original": "An old or broken trap, denotes failure in business, and sickness in your family may follow.",
+              "translation_ko": "낡거나 부서진 함정을 보는 꿈은, 사업이 실패하고 집안에 병이 따를 조짐이다"
             }
           ]
         }
@@ -68849,6 +69011,84 @@
               "locator": "Toys",
               "original": "To give away toys in your dreams, foretells you will be ignored in a social way by your acquaintances.",
               "translation_ko": "장난감을 남에게 줘 버리는 꿈은, 지인들에게 사회적으로 외면당할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "train",
+      "term_ko": "기차",
+      "term_en": "train",
+      "aliases": [
+        "기차가",
+        "기차를",
+        "기차에",
+        "열차",
+        "화물열차",
+        "객차"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "기차가 움직이는 것을 봄",
+          "interpretation_ko": "머잖아 길을 떠날 일이 생길 조짐",
+          "interpretation_en": "you will soon have cause to make a journey",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Train",
+              "original": "To see a train of cars moving in your dreams, you will soon have cause to make a journey.",
+              "translation_ko": "기차가 움직이는 것을 보는 꿈은, 머잖아 길을 떠날 일이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "궤도 없이도 기차가 매끄럽게 나아감",
+          "interpretation_ko": "어떤 일로 크게 근심하겠으나 끝내 이문의 근원이 될 조짐",
+          "interpretation_en": "you will be much worried over some affair which will eventually prove a source of profit to you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Train",
+              "original": "To be on a train and it appears to move smoothly along, though there is no track, denotes that you will be much worried over some affair which will eventually prove a source of profit to you.",
+              "translation_ko": "궤도 없이도 기차가 매끄럽게 나아가는 꿈은, 어떤 일로 크게 근심하겠으나 끝내 이문의 근원이 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "화물열차를 봄",
+          "interpretation_ko": "높은 자리로 오를 변화의 조짐",
+          "interpretation_en": "is an omen of changes which will tend to your elevation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Train",
+              "original": "To see freight trains in your dreams, is an omen of changes which will tend to your elevation.",
+              "translation_ko": "화물열차를 보는 꿈은, 높은 자리로 오를 변화의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "잠자는 객차 위에 있음",
+          "interpretation_ko": "달갑잖은 길동무와 여행하며 돈과 시간을 허비하고 그를 피하려 애쓸 조짐",
+          "interpretation_en": "you will make a journey with an unpleasant companion, with whom you will spend money and time that could be used in a more profitable and congenial way, and whom you will seek to avoid",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Train",
+              "original": "To find yourself, in a dream, on top of a sleeping car, denotes you will make a journey with an unpleasant companion, with whom you will spend money and time that could be used in a more profitable and congenial way, and whom you will seek to avoid.",
+              "translation_ko": "잠자는 객차 위에 있는 꿈은, 달갑잖은 길동무와 여행하며 돈과 시간을 허비하고 그를 피하려 애쓸 조짐이다"
             }
           ]
         }
@@ -115491,6 +115731,147 @@
               "locator": "Tragedy",
               "original": "To dream that you are implicated in a tragedy, portends that a calamity will plunge you into sorrow and peril.",
               "translation_ko": "비극에 휘말리는 꿈은, 재앙이 슬픔과 위험으로 저를 밀어 넣을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "traitor",
+      "term_ko": "배신자",
+      "term_en": "traitor",
+      "aliases": [
+        "배신자가",
+        "배신자를",
+        "배신자라"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "꿈에 배신자를 봄",
+          "interpretation_ko": "자신을 해치려는 적이 있음을 예고",
+          "interpretation_en": "you will have enemies working to despoil you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Traitor",
+              "original": "To see a traitor in your dream, foretells you will have enemies working to despoil you.",
+              "translation_ko": "꿈에 배신자를 보면, 자신을 해치려는 적이 있음을 예고한다"
+            }
+          ]
+        },
+        {
+          "context": "누가 자신을 배신자라 부르거나 스스로 그렇다 여김",
+          "interpretation_ko": "즐거움에 대한 전망이 좋지 않을 조짐",
+          "interpretation_en": "there will be unfavorable prospects of pleasure for you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Traitor",
+              "original": "If some one calls you one, or if you imagine yourself one, there will be unfavorable prospects of pleasure for you.",
+              "translation_ko": "누가 자신을 배신자라 부르거나 스스로 그렇다 여기는 꿈은, 즐거움에 대한 전망이 좋지 않을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transfiguration",
+      "term_ko": "변모",
+      "term_en": "transfiguration",
+      "aliases": [
+        "변모를",
+        "변모한"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "거룩한 변모를 꿈꿈",
+          "interpretation_ko": "하느님께 가까워졌다는 믿음이 하찮은 생각을 넘어서게 하고 값진 자리로 이끌어 무지하고 박해받는 이를 이롭게 할 조짐",
+          "interpretation_en": "your faith in man's own nearness to God will raise you above trifling opinions, and elevate you to a worthy position, in which capacity you will be able to promote the well being of the ignorant and persecuted",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Transfiguration",
+              "original": "To dream of the transfiguration, foretells that your faith in man's own nearness to God will raise you above trifling opinions, and elevate you to a worthy position, in which capacity you will be able to promote the well being of the ignorant and persecuted.",
+              "translation_ko": "거룩한 변모를 꿈꾸면, 하느님께 가까워졌다는 믿음이 하찮은 생각을 넘어서게 하고 값진 자리로 이끌어 무지하고 박해받는 이를 이롭게 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 변모한 모습을 봄",
+          "interpretation_ko": "정직하고 이름 높은 이들의 존경을 받을 조짐",
+          "interpretation_en": "you will stand high in the esteem of honest and prominent men",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Transfiguration",
+              "original": "To see yourself transfigured, you will stand high in the esteem of honest and prominent men.",
+              "translation_ko": "스스로 변모한 모습을 보는 꿈은, 정직하고 이름 높은 이들의 존경을 받을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tray",
+      "term_ko": "쟁반",
+      "term_en": "tray",
+      "aliases": [
+        "쟁반이",
+        "쟁반을",
+        "쟁반에",
+        "쟁반들"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "쟁반들을 봄",
+          "interpretation_ko": "재물을 헛되이 낭비하고 언짢은 뜻밖의 일에 놀랄 조짐",
+          "interpretation_en": "denotes your wealth will be foolishly wasted, and surprises of unpleasant nature will shock you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tray",
+              "original": "To see trays in your dream, denotes your wealth will be foolishly wasted, and surprises of unpleasant nature will shock you.",
+              "translation_ko": "쟁반들을 보는 꿈은, 재물을 헛되이 낭비하고 언짢은 뜻밖의 일에 놀랄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쟁반에 값진 것이 가득함",
+          "interpretation_ko": "좋은 운수로 놀랄 조짐",
+          "interpretation_en": "surprises will come in the shape of good fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tray",
+              "original": "If the trays seem to be filled with valuables, surprises will come in the shape of good fortune.",
+              "translation_ko": "쟁반에 값진 것이 가득한 꿈은, 좋은 운수로 놀랄 조짐이다"
             }
           ]
         }
