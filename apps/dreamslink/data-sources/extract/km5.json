@@ -137,7 +137,8 @@
       "묫자리",
       "묏자리",
       "무덤을",
-      "무덤이"
+      "무덤이",
+      "무덤들"
     ],
     "aliases_en": [
       "graves",
@@ -168,7 +169,10 @@
       "묻으려던 주검이 사라짐": "사라졌 없어졌 온데간데",
       "여성이 밤에 묘지에서 빈 무덤 말고는 누울 곳을 못 찾음": "밤이 여자가 잘곳",
       "무덤 위에만 풀이 있는 메마른 묘지를 봄": "메마른 위에만 황량",
-      "제 주검이 무덤에 있는 것을 봄": "주검이 시체가 송장"
+      "제 주검이 무덤에 있는 것을 봄": "주검이 시체가 송장",
+      "무덤들을 봄": "무덤들",
+      "낡고 허물어진 무덤을 봄": "낡고 허물어진",
+      "무덤의 비문을 읽음": "비문"
     },
     "contexts_en": {
       "무덤이 높이 솟아 있음": "tall high rising mound",
@@ -191,7 +195,10 @@
       "묻으려던 주검이 사라짐": "return bury disappeared obscure",
       "여성이 밤에 묘지에서 빈 무덤 말고는 누울 곳을 못 찾음": "night overtakes graveyard sleep sorrow",
       "무덤 위에만 풀이 있는 메마른 묘지를 봄": "barren despondency shoulder burden",
-      "제 주검이 무덤에 있는 것을 봄": "hopeless despairing oppression"
+      "제 주검이 무덤에 있는 것을 봄": "hopeless despairing oppression",
+      "무덤들을 봄": "sadness business",
+      "낡고 허물어진 무덤을 봄": "dilapidated death illness",
+      "무덤의 비문을 읽음": "inscription unpleasant duties"
     }
   },
   {

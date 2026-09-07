@@ -7952,5 +7952,27 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "ticks": [
     "ticks",
     "a tick"
+  ],
+  "till": [
+    "till",
+    "a till"
+  ],
+  "tipsy": [
+    "tipsy"
+  ],
+  "toad": [
+    "toad",
+    "toads"
+  ],
+  "tobacco": [
+    "tobacco"
+  ],
+  "toddy": [
+    "toddy",
+    "a toddy"
+  ],
+  "tomatoes": [
+    "tomatoes",
+    "tomato"
   ]
 };

@@ -1,11 +1,16 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 272 — Throat~Tiger. 새 상징 넷(throne·thumb·
-// tickle·ticks)을 세우고, 기존 셋(neck·thunder·tiger)에 문맥을 나눠
-// 붙였다. Throat은 「목」이 이미 neck의 term_ko라 그쪽에 병합. thunder·
-// tiger 둘 다 막연한 첫 문장(천둥소리를 들음·경관에게 잡힘류 이미
-// 있음)을 건너뛰었고, tiger의 「물리치거나 죽임」도 기존 「호랑이를
-// 잡음」(殺, 이미 죽였 discriminator를 쥠)과 같은 그림이라 건너뜀.
-// thunder·tiger 기본값은 있던 대로 FALLBACK_FIRST로 얼렸다.
+// (지금 담긴 것: 배치 273 — Till~Tomb. 새 상징 여섯(till·tipsy·toad·
+// tobacco·toddy·tomatoes)을 세우고, 기존 셋(lumber·alarm-bell·grave)에
+// 문맥을 나눠 붙였다. Timber는 lumber와 같은 물건(aliases_en에 이미
+// timber가 있었다) — 「목재를 봄」 문장은 lumber 「목재를 봄」과 글자까지
+// 같은 그림에 정반대 풀이라 건너뛰고 「죽은 듯 보임」만 붙임. Tocsin은
+// alarm-bell과 같은 물건(종=경종)이라 병합했는데, term_en을 원문 그대로
+// "alarm bell"(공백)로 안 맞추고 "alarm-bell"(하이픈)로 잘못 지어 처음엔
+// 딴 상징이 생겼다 — 원문 term_en을 그대로 복사해 바로잡음(배치 232
+// india-rubber 전례와 같은 실수). Tomb의 「제 무덤을 봄」은 grave 「자기
+// 무덤을 봄」과 같은 그림이라 건너뜀. alarm-bell 기본값은 새 「위급을
+// 알리는 종소리를 들음」으로 바꿔 얼렸다(상징 자체를 describe하는 더
+// 자연스러운 자리).
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -36,37 +41,36 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 272 새 문맥 (24건) ────────────────────────────────────────────
-  { id: "neck", ctx: "잘 발달되고 우아한 목을 봄", text: "잘 발달되고 우아한 목을 보았다" },
-  { id: "neck", ctx: "목이 아픔을 느낌", text: "목이 아픔을 느꼈다" },
-  { id: "throne", ctx: "왕좌에 앉음", text: "왕좌에 앉았다" },
-  { id: "throne", ctx: "왕좌에서 내려옴", text: "왕좌에서 내려왔다" },
-  { id: "throne", ctx: "남이 왕좌에 있음을 봄", text: "남이 왕좌에 있는 것을 보았다" },
-  { id: "thumb", ctx: "엄지손가락을 봄", text: "엄지손가락을 보았다" },
-  { id: "thumb", ctx: "엄지손가락이 아픔", text: "엄지손가락이 아팠다" },
-  { id: "thumb", ctx: "엄지손가락이 없음", text: "엄지손가락이 없었다" },
-  { id: "thumb", ctx: "엄지손가락이 유난히 작아 보임", text: "엄지손가락이 유난히 작아 보였다" },
-  { id: "thumb", ctx: "엄지손가락이 비정상적으로 큼", text: "엄지손가락이 비정상적으로 컸다" },
-  { id: "thumb", ctx: "엄지손가락이 더러움", text: "엄지손가락이 더러웠다" },
-  { id: "thumb", ctx: "엄지손가락 손톱이 아주 길게 자람", text: "엄지손가락 손톱이 아주 길게 자랐다" },
-  { id: "thunder", ctx: "천둥 치는 소나기 속에 있음", text: "천둥 치는 소나기 속에 있었다" },
-  { id: "thunder", ctx: "땅을 뒤흔드는 무시무시한 천둥소리를 들음", text: "땅을 뒤흔드는 무시무시한 천둥소리를 들었다" },
-  { id: "tickle", ctx: "간지럼을 탐", text: "간지럼을 탔다" },
-  { id: "tickle", ctx: "남을 간지럽힘", text: "남을 간지럽혔다" },
-  { id: "ticks", ctx: "진드기가 살갗을 기어다님을 봄", text: "진드기가 살갗을 기어다니는 것을 보았다" },
-  { id: "ticks", ctx: "몸의 진드기를 눌러 죽임", text: "몸의 진드기를 눌러죽였다" },
-  { id: "ticks", ctx: "가축에 붙은 큰 진드기를 봄", text: "가축에 붙은 큰 진드기를 보았다" },
-  { id: "tiger", ctx: "호랑이가 저를 향해 다가옴", text: "호랑이가 저를 향해 다가왔다" },
-  { id: "tiger", ctx: "호랑이가 저를 공격함", text: "호랑이가 저를 공격했다" },
-  { id: "tiger", ctx: "호랑이가 저에게서 달아나는 것을 봄", text: "호랑이가 저에게서 달아나는 것을 보았다" },
-  { id: "tiger", ctx: "우리에 갇힌 호랑이들을 봄", text: "우리에 갇힌 호랑이들을 보았다" },
-  { id: "tiger", ctx: "호랑이 가죽 깔개를 봄", text: "호랑이 가죽 깔개를 보았다" },
+  // ── 배치 273 새 문맥 (23건) ────────────────────────────────────────────
+  { id: "till", ctx: "돈궤에 돈과 귀중품이 있음을 봄", text: "돈궤에 돈과 귀중품이 있는 것을 보았다" },
+  { id: "till", ctx: "돈궤가 비어 있음을 봄", text: "돈궤가 비어 있는 것을 보았다" },
+  { id: "lumber", ctx: "목재가 죽은 듯 보임", text: "목재가 죽은 듯 보였다" },
+  { id: "tipsy", ctx: "스스로 거나하게 취함", text: "스스로 거나하게 취했다" },
+  { id: "tipsy", ctx: "남이 거나하게 취해 있는 것을 봄", text: "남이 거나하게 취해 있는 것을 보았다" },
+  { id: "toad", ctx: "두꺼비 꿈을 꿈", text: "두꺼비 꿈을 꾸었다" },
+  { id: "toad", ctx: "여성이 두꺼비 꿈을 꿈", text: "여성이 두꺼비 꿈을 꾸었다" },
+  { id: "toad", ctx: "두꺼비를 죽임", text: "두꺼비를 죽였다" },
+  { id: "toad", ctx: "두꺼비에 손을 댐", text: "두꺼비에 손을 댔다" },
+  { id: "tobacco", ctx: "담배 꿈을 꿈", text: "담배 꿈을 꾸었다" },
+  { id: "tobacco", ctx: "담배를 씀", text: "담배를 사용했다" },
+  { id: "tobacco", ctx: "담배가 자라는 것을 봄", text: "담배가 자라는 것을 보았다" },
+  { id: "tobacco", ctx: "잎담배가 말라 있는 것을 봄", text: "잎담배가 말라 있는 것을 보았다" },
+  { id: "tobacco", ctx: "담배를 피움", text: "담배를 피웠다" },
+  { id: "alarm-bell", ctx: "위급을 알리는 종소리를 들음", text: "위급을 알리는 종소리를 들었다" },
+  { id: "alarm-bell", ctx: "여성이 위급을 알리는 종소리를 들음", text: "여성이 위급을 알리는 종소리를 들었다" },
+  { id: "toddy", ctx: "토디를 마심", text: "토디를 마셨다" },
+  { id: "tomatoes", ctx: "토마토를 먹음", text: "토마토를 먹었다" },
+  { id: "tomatoes", ctx: "토마토가 자라는 것을 봄", text: "토마토가 자라는 것을 보았다" },
+  { id: "tomatoes", ctx: "여성이 잘 익은 토마토를 봄", text: "여성이 잘 익은 토마토를 보았다" },
+  { id: "grave", ctx: "무덤들을 봄", text: "무덤들을 보았다" },
+  { id: "grave", ctx: "낡고 허물어진 무덤을 봄", text: "낡고 허물어진 무덤을 보았다" },
+  { id: "grave", ctx: "무덤의 비문을 읽음", text: "무덤의 비문을 읽었다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징들의 옛 답이 그대로인지 ────────
-  { id: "neck", ctx: "제 목을 봄", text: "제 목을 보았다" },
-  { id: "thunder", ctx: "우레가 크게 침", text: "우레가 크게 쳤다" },
-  { id: "tiger", ctx: "사나운 호랑이가 크게 울부짖음", text: "사나운 호랑이가 크게 울부짖었다" },
-  { id: "tiger", ctx: "호랑이를 잡음", text: "호랑이를 잡았다" },
+  { id: "lumber", ctx: "목재를 봄", text: "목재를 보았다" },
+  { id: "alarm-bell", ctx: "잠결에 종소리를 들음", text: "잠결에 종소리를 들었다" },
+  { id: "grave", ctx: "빈 무덤을 들여다봄", text: "빈 무덤을 들여다보았다" },
+  { id: "grave", ctx: "자기 무덤을 봄", text: "자기 무덤을 보았다" },
 ];
 
 let notFound = 0;

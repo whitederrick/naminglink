@@ -12,12 +12,14 @@
     "contexts": {
       "목재를 봄": "쌓인 놓인",
       "쌓아 둔 목재가 타는 것을 봄": "타는 불타 불붙",
-      "목재를 톱질함": "톱질 켜는 잘랐"
+      "목재를 톱질함": "톱질 켜는 잘랐",
+      "목재가 죽은 듯 보임": "죽은"
     },
     "contexts_en": {
       "목재를 봄": "difficult tasks remuneration",
       "쌓아 둔 목재가 타는 것을 봄": "piles burning profit unexpected",
-      "목재를 톱질함": "sawing unwise transactions unhappiness"
+      "목재를 톱질함": "sawing unwise transactions unhappiness",
+      "목재가 죽은 듯 보임": "dead great disappointments"
     }
   },
   {

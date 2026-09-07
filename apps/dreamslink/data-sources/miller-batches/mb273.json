@@ -1,0 +1,20 @@
+{
+  "batch": 273,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Till", "text": "To dream of seeing money and valuables in a till, foretells coming success. Your love affairs will be exceedingly favorable. An empty one, denotes disappointed expectations.", "note": "새 상징 till(돈궤)" },
+    { "headword": "Timber", "text": "To see timber in your dreams, is an augury of prosperous times and peaceful surroundings.\n\nIf the timber appears dead, there are great disappointments for you.", "note": "기존 lumber(목재) 상징에 문맥 1개 추가 — timber/lumber는 밀러 원문에서도 동의어(lumber의 aliases_en에 이미 timber가 있었다). 「목재를 봄」 문장은 기존 lumber 「목재를 봄」과 글자까지 같은 그림에 정반대 풀이(길흉이 갈림)라 건너뜀(§31)" },
+    { "headword": "Tipsy", "text": "To dream that you are tipsy, denotes that you will cultivate a jovial disposition, and the cares of life will make no serious inroads into your conscience.\n\nTo see others tipsy, shows that you are careless as to the demeanor of your associates.", "note": "새 상징 tipsy(거나하게 취함) — 기존 drunk(술에 취함)와는 다른 낱말(거나하게·알딸딸)로 별칭을 지어 discriminable하게 갈랐다" },
+    { "headword": "Toad", "text": "To dream of toads, signifies unfortunate adventures.\nIf a woman, your good name is threatened with scandal.\n\nTo kill a toad, foretells that your judgment will be harshly criticised.\n\nTo put your hands on them, you will be instrumental in causing the downfall of a friend.", "note": "새 상징 toad(두꺼비) — 기존 frog(개구리)와 다른 동물" },
+    { "headword": "Tobacco", "text": "To dream of tobacco, denotes success in business affairs, but poor returns in love.\n\nTo use it, warns you against enemies and extravagance.\n\nTo see it growing, foretells successful enterprises.\nTo see it dry in the leaf, ensures good crops to farmers, and consequent gain to tradesmen.\n\nTo smoke tobacco, denotes amiable friendships.", "note": "새 상징 tobacco(담배)" },
+    { "headword": "Tocsin", "text": "To dream of hearing a tocsin sounded, augurs a strife from which you will come victorious. For a woman, this is a warning of separation from her husband or lover.", "note": "기존 alarm-bell(경종) 상징에 문맥 2개 추가 — tocsin은 위험을 알리는 종이라 alarm-bell과 같은 물건. 기존 「잠결에 종소리를 들음」과는 다른 구체적 상황이라 붙임" },
+    { "headword": "Toddy", "text": "To dream of taking a toddy, foretells interesting events will soon change your plan of living.", "note": "새 상징 toddy(토디, 뜨거운 술을 탄 음료)" },
+    { "headword": "Tomatoes", "text": "To dream of eating tomatoes, signals the approach of good health.\nTo see them growing, denotes domestic enjoyment and happiness.\n\nFor a young woman to see ripe ones, foretells her happiness in the married state.", "note": "새 상징 tomatoes(토마토)" },
+    { "headword": "Tomb", "text": "To dream of seeing tombs, denotes sadness and disappointments in business.\n\nDilapidated tombs omens death or desperate illness.\n\nTo dream of seeing your own tomb, portends your individual sickness or disappointments.\n\nTo read the inscription on tombs, foretells unpleasant duties.", "note": "기존 grave(무덤) 상징에 문맥 3개 추가 — 이미 스무 의미가 있어 판별어를 세심히 갈랐다. 「제 무덤을 봄」 문장은 기존 「자기 무덤을 봄」과 같은 그림이라 건너뜀" }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    { "headword": "Timber", "sentence": "To see timber in your dreams, is an augury of prosperous times and peaceful surroundings.", "reason": "기존 lumber 「목재를 봄」과 글자까지 같은 그림에 정반대 풀이(길·흉이 갈림) — §31, 상복을 입음류와 같은 자리" },
+    { "headword": "Tomb", "sentence": "To dream of seeing your own tomb, portends your individual sickness or disappointments.", "reason": "기존 grave 「자기 무덤을 봄」과 같은 그림·다른 풀이" }
+  ]
+}

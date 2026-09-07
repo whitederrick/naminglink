@@ -1,0 +1,347 @@
+[
+  {
+    "term_ko": "돈궤",
+    "term_en": "till",
+    "context": "돈궤에 돈과 귀중품이 있음을 봄",
+    "interpretation_ko": "다가올 성공의 조짐 — 애정사도 더없이 순조로울 것",
+    "interpretation_en": "foretells coming success; your love affairs will be exceedingly favorable",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Till",
+      "original": "To dream of seeing money and valuables in a till, foretells coming success. Your love affairs will be exceedingly favorable.",
+      "translation_ko": "돈궤에 돈과 귀중품이 있음을 보는 꿈은, 다가올 성공의 조짐이다 — 애정사도 더없이 순조로울 것이다"
+    }
+  },
+  {
+    "term_ko": "돈궤",
+    "term_en": "till",
+    "context": "돈궤가 비어 있음을 봄",
+    "interpretation_ko": "기대가 어긋날 조짐",
+    "interpretation_en": "denotes disappointed expectations",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Till",
+      "original": "An empty one, denotes disappointed expectations.",
+      "translation_ko": "돈궤가 비어 있는 것을 보는 꿈은, 기대가 어긋날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목재",
+    "term_en": "lumber",
+    "context": "목재가 죽은 듯 보임",
+    "interpretation_ko": "큰 실망이 있을 조짐",
+    "interpretation_en": "there are great disappointments for you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Timber",
+      "original": "If the timber appears dead, there are great disappointments for you.",
+      "translation_ko": "목재가 죽은 듯 보이는 꿈은, 큰 실망이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거나하게 취함",
+    "term_en": "tipsy",
+    "context": "스스로 거나하게 취함",
+    "interpretation_ko": "유쾌한 기질을 기르게 될 조짐 — 삶의 근심이 양심을 크게 어지럽히지 못할 것",
+    "interpretation_en": "you will cultivate a jovial disposition, and the cares of life will make no serious inroads into your conscience",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tipsy",
+      "original": "To dream that you are tipsy, denotes that you will cultivate a jovial disposition, and the cares of life will make no serious inroads into your conscience.",
+      "translation_ko": "스스로 거나하게 취하는 꿈은, 유쾌한 기질을 기르게 될 조짐이다 — 삶의 근심이 양심을 크게 어지럽히지 못할 것이다"
+    }
+  },
+  {
+    "term_ko": "거나하게 취함",
+    "term_en": "tipsy",
+    "context": "남이 거나하게 취해 있는 것을 봄",
+    "interpretation_ko": "동료들의 몸가짐에 무심함을 보여 줌",
+    "interpretation_en": "shows that you are careless as to the demeanor of your associates",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tipsy",
+      "original": "To see others tipsy, shows that you are careless as to the demeanor of your associates.",
+      "translation_ko": "남이 거나하게 취해 있는 것을 보는 꿈은, 동료들의 몸가짐에 무심함을 보여 준다"
+    }
+  },
+  {
+    "term_ko": "두꺼비",
+    "term_en": "toad",
+    "context": "두꺼비 꿈을 꿈",
+    "interpretation_ko": "불행한 일을 겪을 조짐",
+    "interpretation_en": "signifies unfortunate adventures",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Toad",
+      "original": "To dream of toads, signifies unfortunate adventures.",
+      "translation_ko": "두꺼비 꿈은, 불행한 일을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "두꺼비",
+    "term_en": "toad",
+    "context": "여성이 두꺼비 꿈을 꿈",
+    "interpretation_ko": "좋은 평판이 추문으로 위협받을 조짐",
+    "interpretation_en": "your good name is threatened with scandal",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Toad",
+      "original": "If a woman, your good name is threatened with scandal.",
+      "translation_ko": "여성이 두꺼비 꿈을 꾸면, 좋은 평판이 추문으로 위협받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "두꺼비",
+    "term_en": "toad",
+    "context": "두꺼비를 죽임",
+    "interpretation_ko": "제 판단이 혹독한 비판을 받을 조짐",
+    "interpretation_en": "foretells that your judgment will be harshly criticised",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Toad",
+      "original": "To kill a toad, foretells that your judgment will be harshly criticised.",
+      "translation_ko": "두꺼비를 죽이는 꿈은, 제 판단이 혹독한 비판을 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "두꺼비",
+    "term_en": "toad",
+    "context": "두꺼비에 손을 댐",
+    "interpretation_ko": "벗을 몰락시키는 데 한몫할 조짐",
+    "interpretation_en": "you will be instrumental in causing the downfall of a friend",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Toad",
+      "original": "To put your hands on them, you will be instrumental in causing the downfall of a friend.",
+      "translation_ko": "두꺼비에 손을 대는 꿈은, 벗을 몰락시키는 데 한몫할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "담배",
+    "term_en": "tobacco",
+    "context": "담배 꿈을 꿈",
+    "interpretation_ko": "사업은 잘되나 애정에서는 얻는 것이 적을 조짐",
+    "interpretation_en": "denotes success in business affairs, but poor returns in love",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tobacco",
+      "original": "To dream of tobacco, denotes success in business affairs, but poor returns in love.",
+      "translation_ko": "담배 꿈은, 사업은 잘되나 애정에서는 얻는 것이 적을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "담배",
+    "term_en": "tobacco",
+    "context": "담배를 씀",
+    "interpretation_ko": "적과 낭비를 조심하라는 경고",
+    "interpretation_en": "warns you against enemies and extravagance",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tobacco",
+      "original": "To use it, warns you against enemies and extravagance.",
+      "translation_ko": "담배를 쓰는 꿈은, 적과 낭비를 조심하라는 경고이다"
+    }
+  },
+  {
+    "term_ko": "담배",
+    "term_en": "tobacco",
+    "context": "담배가 자라는 것을 봄",
+    "interpretation_ko": "성공할 사업의 조짐",
+    "interpretation_en": "foretells successful enterprises",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tobacco",
+      "original": "To see it growing, foretells successful enterprises.",
+      "translation_ko": "담배가 자라는 것을 보는 꿈은, 성공할 사업의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "담배",
+    "term_en": "tobacco",
+    "context": "잎담배가 말라 있는 것을 봄",
+    "interpretation_ko": "농부에게는 좋은 수확을, 상인에게는 그에 따른 이득을 보장함",
+    "interpretation_en": "ensures good crops to farmers, and consequent gain to tradesmen",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tobacco",
+      "original": "To see it dry in the leaf, ensures good crops to farmers, and consequent gain to tradesmen.",
+      "translation_ko": "잎담배가 말라 있는 것을 보는 꿈은, 농부에게는 좋은 수확을 상인에게는 그에 따른 이득을 보장한다"
+    }
+  },
+  {
+    "term_ko": "담배",
+    "term_en": "tobacco",
+    "context": "담배를 피움",
+    "interpretation_ko": "다정한 우정의 조짐",
+    "interpretation_en": "denotes amiable friendships",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tobacco",
+      "original": "To smoke tobacco, denotes amiable friendships.",
+      "translation_ko": "담배를 피우는 꿈은, 다정한 우정의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "경종",
+    "term_en": "alarm bell",
+    "context": "위급을 알리는 종소리를 들음",
+    "interpretation_ko": "다툼을 겪으나 끝내 승리할 조짐",
+    "interpretation_en": "augurs a strife from which you will come victorious",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tocsin",
+      "original": "To dream of hearing a tocsin sounded, augurs a strife from which you will come victorious.",
+      "translation_ko": "위급을 알리는 종소리를 듣는 꿈은, 다툼을 겪으나 끝내 승리할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "경종",
+    "term_en": "alarm bell",
+    "context": "여성이 위급을 알리는 종소리를 들음",
+    "interpretation_ko": "남편이나 연인과 헤어질 것이라는 경고",
+    "interpretation_en": "this is a warning of separation from her husband or lover",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tocsin",
+      "original": "For a woman, this is a warning of separation from her husband or lover.",
+      "translation_ko": "여성이 위급을 알리는 종소리를 듣는 꿈은, 남편이나 연인과 헤어질 것이라는 경고이다"
+    }
+  },
+  {
+    "term_ko": "토디",
+    "term_en": "toddy",
+    "context": "토디를 마심",
+    "interpretation_ko": "흥미로운 일들이 곧 생활 계획을 바꿔 놓을 조짐",
+    "interpretation_en": "foretells interesting events will soon change your plan of living",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Toddy",
+      "original": "To dream of taking a toddy, foretells interesting events will soon change your plan of living.",
+      "translation_ko": "토디를 마시는 꿈은, 흥미로운 일들이 곧 생활 계획을 바꿔 놓을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "토마토",
+    "term_en": "tomatoes",
+    "context": "토마토를 먹음",
+    "interpretation_ko": "건강이 좋아질 조짐이 다가옴을 알림",
+    "interpretation_en": "signals the approach of good health",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tomatoes",
+      "original": "To dream of eating tomatoes, signals the approach of good health.",
+      "translation_ko": "토마토를 먹는 꿈은, 건강이 좋아질 조짐이 다가옴을 알린다"
+    }
+  },
+  {
+    "term_ko": "토마토",
+    "term_en": "tomatoes",
+    "context": "토마토가 자라는 것을 봄",
+    "interpretation_ko": "가정의 즐거움과 행복의 조짐",
+    "interpretation_en": "denotes domestic enjoyment and happiness",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tomatoes",
+      "original": "To see them growing, denotes domestic enjoyment and happiness.",
+      "translation_ko": "토마토가 자라는 것을 보는 꿈은, 가정의 즐거움과 행복의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "토마토",
+    "term_en": "tomatoes",
+    "context": "여성이 잘 익은 토마토를 봄",
+    "interpretation_ko": "혼인 생활에서 행복을 누릴 조짐",
+    "interpretation_en": "foretells her happiness in the married state",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tomatoes",
+      "original": "For a young woman to see ripe ones, foretells her happiness in the married state.",
+      "translation_ko": "여성이 잘 익은 토마토를 보는 꿈은, 혼인 생활에서 행복을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤들을 봄",
+    "interpretation_ko": "슬픔과 사업상 실망의 조짐",
+    "interpretation_en": "denotes sadness and disappointments in business",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tomb",
+      "original": "To dream of seeing tombs, denotes sadness and disappointments in business.",
+      "translation_ko": "무덤들을 보는 꿈은, 슬픔과 사업상 실망의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "낡고 허물어진 무덤을 봄",
+    "interpretation_ko": "죽음이나 위중한 병의 전조",
+    "interpretation_en": "omens death or desperate illness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tomb",
+      "original": "Dilapidated tombs omens death or desperate illness.",
+      "translation_ko": "낡고 허물어진 무덤을 보는 꿈은, 죽음이나 위중한 병의 전조이다"
+    }
+  },
+  {
+    "term_ko": "무덤",
+    "term_en": "grave",
+    "context": "무덤의 비문을 읽음",
+    "interpretation_ko": "달갑잖은 일을 떠맡을 조짐",
+    "interpretation_en": "foretells unpleasant duties",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tomb",
+      "original": "To read the inscription on tombs, foretells unpleasant duties.",
+      "translation_ko": "무덤의 비문을 읽는 꿈은, 달갑잖은 일을 떠맡을 조짐이다"
+    }
+  }
+]

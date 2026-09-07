@@ -540,7 +540,8 @@
       "비상종",
       "경보음",
       "알람 소리",
-      "종을 울려"
+      "종을 울려",
+      "종소리"
     ],
     "aliases_en": [
       "an alarm",
@@ -548,8 +549,16 @@
       "a warning bell",
       "a tocsin"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "잠결에 종소리를 들음": "잠결",
+      "위급을 알리는 종소리를 들음": "그냥",
+      "여성이 위급을 알리는 종소리를 들음": "여성이"
+    },
+    "contexts_en": {
+      "잠결에 종소리를 들음": "half asleep hearing",
+      "위급을 알리는 종소리를 들음": "strife victorious sounded",
+      "여성이 위급을 알리는 종소리를 들음": "woman separation husband"
+    }
   },
   {
     "id": "ale-house",
