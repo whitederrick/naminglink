@@ -1,0 +1,31 @@
+{
+  "batch": 283,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Uncle",
+      "text": "If you see your uncle in a dream, you will have news of a sad character soon.\n\nTo dream you see your uncle prostrated in mind, and repeatedly have this dream, you will have trouble with your relations which will result in estrangement, at least for a time.\n\nTo see your uncle dead, denotes that you have formidable enemies.\n\nTo have a misunderstanding with your uncle, denotes that your family relations will be unpleasant, and illness will be continually present.",
+      "note": "새 상징 uncle(삼촌)"
+    },
+    {
+      "headword": "Underground",
+      "text": "To dream of being in an underground habitation, you are in danger of losing reputation and fortune.\n\nTo dream of riding on an underground railway, foretells that you will engage in some peculiar speculation which will contribute to your distress and anxiety.",
+      "note": "새 상징 subway(지하철) — 둘째 문장(지하철을 탐)만. 첫 문장(지하 거처에 있음)은 이미 있는 밀러 표제어 Basement(지하실에 있는 꿈을 꿈, 흉조)와 같은 그림이라 §31로 건너뜀 — 각주 [233] See Cars, etc."
+    },
+    {
+      "headword": "Undress",
+      "text": "To dream that you are undressing, foretells, scandalous gossip will overshadow you.\n\nFor a woman to dream that she sees the ruler of her country undressed, signifies sadness will overtake anticipated pleasures.  She will suffer pain through the apprehension of evil to those dear to her.\n\nTo see others undressed, is an omen of stolen pleasures, which will rebound with grief.",
+      "note": "기존 naked-body(알몸) 상징에 문맥 2개 추가 — aliases_en에 이미 「undressed」가 있어 그 상징에 합침. 셋째 문장(남들이 옷 벗은 것을 봄)은 기존 「남이 알몸인 것을 봄」과 같은 그림(남을 벗은 채로 봄)이라 §31로 건너뜀 — 판별어도 「남들이」로 기존 「남이·남들·다른 사람」과 겹쳐 가를 수 없었다"
+    },
+    {
+      "headword": "Unfortunate",
+      "text": "To dream that you are unfortunate, is significant of loss to yourself, and trouble for others.",
+      "note": "기존 adversity(역경) 상징에 문맥 1개 추가 — 별칭 「불운한 처지」가 이미 있어 그 상징에 합침"
+    },
+    {
+      "headword": "Uniform",
+      "text": "To see a uniform in your dream, denotes that you will have influential friends to aid you in obtaining your desires.\n\nFor a young woman to dream that she wears a uniform, foretells that she will luckily confer her favors upon a man who appreciated them, and returns love for passion.\nIf she discards it, she will be in danger of public scandal by her notorious love for adventure.\n\nTo see people arrayed in strange uniforms, foretells the disruption of friendly relations with some other Power by your own government.  This may also apply to families or friends.  To see a friend or relative looking sad while dressed in uniform, or as a soldier, predicts ill fortune or continued absence.",
+      "note": "새 상징 uniform(제복)"
+    }
+  ]
+}

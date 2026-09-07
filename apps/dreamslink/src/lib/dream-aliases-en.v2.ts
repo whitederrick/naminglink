@@ -8122,5 +8122,18 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "ugly": [
     "ugly"
+  ],
+  "uncle": [
+    "uncle",
+    "an uncle"
+  ],
+  "subway": [
+    "subway",
+    "underground railway"
+  ],
+  "uniform": [
+    "uniform",
+    "uniforms",
+    "a uniform"
   ]
 };

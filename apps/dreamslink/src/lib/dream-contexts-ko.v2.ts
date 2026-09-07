@@ -919,6 +919,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "naked-body::처녀가 알몸으로 맑은 물에서 헤엄침": "처녀 헤엄쳤",
   "naked-body::알몸의 사내들이 맑은 물에서 헤엄치는 것을 봄": "사내들 남자들",
   "naked-body::알몸으로 헤엄치는 물이 흐림": "흐렸 흐린 탁한",
+  "naked-body::스스로 옷을 벗고 있음": "벗고",
+  "naked-body::여성이 제 나라 통치자가 옷 벗은 것을 봄": "통치자",
   "parrot::앵무새들이 재잘거림": "재잘거 경박한 뜬소문",
   "parrot::가만히 있는 앵무새를 봄": "가만히 다툼이 그칠",
   "parrot::처녀가 앵무새를 가짐": "처녀가 다투기 좋아하는",
@@ -2748,6 +2750,7 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "adversary::적에게 짐": "졌다 지고 밀렸 당했",
   "adversity::역경에 처함": "내가 처했 겪었 빠졌",
   "adversity::다른 사람이 역경에 처한 것을 봄": "다른 남이 친구가 지켜봤",
+  "adversity::스스로 불운하다고 여김": "불운하다",
   "advertisement::광고 문안을 만들어냄": "만들 작성 문안",
   "advertisement::광고를 읽음": "읽었 읽고 읽는",
   "advice::조언을 받음": "받았 받는 들었 얻었",
@@ -6274,5 +6277,15 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "typhoid::스스로 장티푸스에 걸림": "그냥",
   "typhoid::장티푸스가 유행함을 봄": "유행",
   "ugly::스스로 못생겼다고 여김": "그냥",
-  "ugly::처녀가 스스로 못생겼다고 여김": "처녀가"
+  "ugly::처녀가 스스로 못생겼다고 여김": "처녀가",
+  "uncle::꿈에 삼촌을 봄": "그냥",
+  "uncle::삼촌이 상심한 모습을 되풀이해서 봄": "되풀이",
+  "uncle::삼촌이 죽은 것을 봄": "죽은",
+  "uncle::삼촌과 오해가 생김": "오해",
+  "subway::지하철을 탐": "그냥",
+  "uniform::제복을 봄": "그냥",
+  "uniform::처녀가 제복을 입음": "입었",
+  "uniform::처녀가 제복을 벗어 버림": "벗어",
+  "uniform::낯선 제복을 입은 이들을 봄": "낯선",
+  "uniform::제복 입은 벗이나 친척이 슬픈 낯빛인 것을 봄": "슬픈"
 };

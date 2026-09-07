@@ -1,9 +1,12 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 282 — Umbrella(단독). 기존 umbrella(우산) 상징에
-// 문맥 8개를 나눠 붙였다 — 문맥이 많은 큰 표제어라 §33처럼 단독 배치로
-// 뗌. 「갈가리 찢어지거나 부서진 우산을 봄」은 기존 「부서진 양산을 봄」
-// 과 그림이 겹치지만 풀이가 다르다(건강 흉조 vs 명예 훼손) — 판별어를
-// "찢어진"으로 갈라 함께 남겼다.
+// (지금 담긴 것: 배치 283 — Uncle~Uniform. 새 상징 셋(uncle·subway·
+// uniform), 기존 naked-body(알몸)·adversity(역경)에 문맥을 나눠 붙임.
+// Underground의 첫 문장(지하 거처에 있음)은 기존 Basement 표제어와 같은
+// 그림이라 §31로 건너뛰고 둘째 문장(지하철을 탐)만 새 상징(subway)으로
+// 세웠다. Undress는 aliases_en에 이미 "undressed"가 있어 naked-body에
+// 합쳤는데, 셋째 문장(남들이 옷 벗은 것을 봄)은 기존 「남이 알몸인 것을
+// 봄」과 같은 그림이라 §31로 건너뜀. Unfortunate는 별칭 「불운한 처지」가
+// 이미 있어 adversity에 합쳤다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -34,20 +37,24 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 282 새 문맥 (8건) ─────────────────────────────────────────────
-  { id: "umbrella", ctx: "우산을 가지고 다님", text: "우산을 가지고 다녔다" },
-  { id: "umbrella", ctx: "남이 우산을 든 것을 봄", text: "남이 우산을 든 것을 보았는데 자선을 부탁받았다" },
-  { id: "umbrella", ctx: "우산을 빌림", text: "우산을 빌렸다" },
-  { id: "umbrella", ctx: "우산을 빌려줌", text: "우산을 빌려주었다" },
-  { id: "umbrella", ctx: "우산을 잃음", text: "우산을 잃었다" },
-  { id: "umbrella", ctx: "갈가리 찢어지거나 부서진 우산을 봄", text: "갈가리 찢어진 우산을 보았다" },
-  { id: "umbrella", ctx: "물이 새는 우산을 들고 다님", text: "물이 새는 우산을 들고 다녔다" },
-  { id: "umbrella", ctx: "맑은 소나기나 햇빛 속에서 새 우산을 씀", text: "맑은 소나기 속에서 새 우산을 썼다" },
+  // ── 배치 283 새 문맥 (13건) ────────────────────────────────────────────
+  { id: "uncle", ctx: "꿈에 삼촌을 봄", text: "꿈에 삼촌을 보았다" },
+  { id: "uncle", ctx: "삼촌이 상심한 모습을 되풀이해서 봄", text: "삼촌이 상심한 모습을 되풀이해서 보았다" },
+  { id: "uncle", ctx: "삼촌이 죽은 것을 봄", text: "삼촌이 죽은 것을 보았다" },
+  { id: "uncle", ctx: "삼촌과 오해가 생김", text: "삼촌과 오해가 생겼다" },
+  { id: "subway", ctx: "지하철을 탐", text: "지하철을 탔다" },
+  { id: "naked-body", ctx: "스스로 옷을 벗고 있음", text: "스스로 옷을 벗고 있었다" },
+  { id: "naked-body", ctx: "여성이 제 나라 통치자가 옷 벗은 것을 봄", text: "여성이 제 나라 통치자가 옷 벗은 것을 보았다" },
+  { id: "adversity", ctx: "스스로 불운하다고 여김", text: "스스로 불운하다고 여겼다" },
+  { id: "uniform", ctx: "제복을 봄", text: "제복을 보았다" },
+  { id: "uniform", ctx: "처녀가 제복을 입음", text: "처녀가 제복을 입었다" },
+  { id: "uniform", ctx: "처녀가 제복을 벗어 버림", text: "처녀가 제복을 벗어 버렸다" },
+  { id: "uniform", ctx: "낯선 제복을 입은 이들을 봄", text: "낯선 제복을 입은 이들을 보았다" },
+  { id: "uniform", ctx: "제복 입은 벗이나 친척이 슬픈 낯빛인 것을 봄", text: "제복 입은 벗이 슬픈 낯빛인 것을 보았다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────
-  { id: "umbrella", ctx: "남과 우산을 나눔", text: "남과 우산을 나눴다" },
-  { id: "umbrella", ctx: "부서진 양산을 봄", text: "부서진 양산을 보았다" },
-  { id: "umbrella", ctx: "어린 소녀들이 양산을 든 것을 봄", text: "어린 소녀들이 양산을 든 것을 보았다" },
+  { id: "naked-body", ctx: "남이 알몸인 것을 봄", text: "남이 알몸인 것을 보았다" },
+  { id: "adversity", ctx: "역경에 처함", text: "내가 역경에 처했다" },
 ];
 
 let notFound = 0;

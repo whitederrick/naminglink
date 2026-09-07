@@ -1,0 +1,197 @@
+[
+  {
+    "term_ko": "삼촌",
+    "term_en": "uncle",
+    "context": "꿈에 삼촌을 봄",
+    "interpretation_ko": "머잖아 슬픈 소식을 들을 조짐",
+    "interpretation_en": "you will have news of a sad character soon",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Uncle",
+      "original": "If you see your uncle in a dream, you will have news of a sad character soon.",
+      "translation_ko": "꿈에 삼촌을 보면, 머잖아 슬픈 소식을 들을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "삼촌",
+    "term_en": "uncle",
+    "context": "삼촌이 상심한 모습을 되풀이해서 봄",
+    "interpretation_ko": "친척과 말썽이 생겨 한동안 사이가 멀어질 조짐",
+    "interpretation_en": "you will have trouble with your relations which will result in estrangement, at least for a time",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Uncle",
+      "original": "To dream you see your uncle prostrated in mind, and repeatedly have this dream, you will have trouble with your relations which will result in estrangement, at least for a time.",
+      "translation_ko": "삼촌이 상심한 모습을 되풀이해서 보는 꿈은, 친척과 말썽이 생겨 한동안 사이가 멀어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "삼촌",
+    "term_en": "uncle",
+    "context": "삼촌이 죽은 것을 봄",
+    "interpretation_ko": "만만찮은 적이 있음을 뜻하는 조짐",
+    "interpretation_en": "denotes that you have formidable enemies",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Uncle",
+      "original": "To see your uncle dead, denotes that you have formidable enemies.",
+      "translation_ko": "삼촌이 죽은 것을 보는 꿈은, 만만찮은 적이 있음을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "삼촌",
+    "term_en": "uncle",
+    "context": "삼촌과 오해가 생김",
+    "interpretation_ko": "집안 사이가 언짢아지고 병치레가 끊이지 않을 조짐",
+    "interpretation_en": "denotes that your family relations will be unpleasant, and illness will be continually present",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Uncle",
+      "original": "To have a misunderstanding with your uncle, denotes that your family relations will be unpleasant, and illness will be continually present.",
+      "translation_ko": "삼촌과 오해가 생기는 꿈은, 집안 사이가 언짢아지고 병치레가 끊이지 않을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지하철",
+    "term_en": "subway",
+    "context": "지하철을 탐",
+    "interpretation_ko": "기이한 투기에 나서 괴로움과 근심을 겪을 조짐",
+    "interpretation_en": "foretells that you will engage in some peculiar speculation which will contribute to your distress and anxiety",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Underground",
+      "original": "To dream of riding on an underground railway, foretells that you will engage in some peculiar speculation which will contribute to your distress and anxiety.",
+      "translation_ko": "지하철을 타는 꿈은, 기이한 투기에 나서 괴로움과 근심을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "알몸",
+    "term_en": "naked body",
+    "context": "스스로 옷을 벗고 있음",
+    "interpretation_ko": "부끄러운 소문이 자신을 뒤덮을 조짐",
+    "interpretation_en": "foretells, scandalous gossip will overshadow you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Undress",
+      "original": "To dream that you are undressing, foretells, scandalous gossip will overshadow you.",
+      "translation_ko": "스스로 옷을 벗고 있는 꿈은, 부끄러운 소문이 자신을 뒤덮을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "알몸",
+    "term_en": "naked body",
+    "context": "여성이 제 나라 통치자가 옷 벗은 것을 봄",
+    "interpretation_ko": "바라던 즐거움 위에 슬픔이 덮치고 사랑하는 이에게 닥칠 나쁜 일을 걱정해 마음 아플 조짐",
+    "interpretation_en": "signifies sadness will overtake anticipated pleasures. She will suffer pain through the apprehension of evil to those dear to her",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Undress",
+      "original": "For a woman to dream that she sees the ruler of her country undressed, signifies sadness will overtake anticipated pleasures.  She will suffer pain through the apprehension of evil to those dear to her.",
+      "translation_ko": "여성이 제 나라 통치자가 옷 벗은 것을 보는 꿈은, 바라던 즐거움 위에 슬픔이 덮치고 사랑하는 이에게 닥칠 나쁜 일을 걱정해 마음 아플 조짐이다"
+    }
+  },
+  {
+    "term_ko": "역경",
+    "term_en": "adversity",
+    "context": "스스로 불운하다고 여김",
+    "interpretation_ko": "자신에게는 잃음을, 남에게는 말썽을 뜻하는 조짐",
+    "interpretation_en": "is significant of loss to yourself, and trouble for others",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Unfortunate",
+      "original": "To dream that you are unfortunate, is significant of loss to yourself, and trouble for others.",
+      "translation_ko": "스스로 불운하다고 여기는 꿈은, 자신에게는 잃음을, 남에게는 말썽을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "제복",
+    "term_en": "uniform",
+    "context": "제복을 봄",
+    "interpretation_ko": "힘 있는 벗이 바라던 바를 이루도록 도울 조짐",
+    "interpretation_en": "denotes that you will have influential friends to aid you in obtaining your desires",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Uniform",
+      "original": "To see a uniform in your dream, denotes that you will have influential friends to aid you in obtaining your desires.",
+      "translation_ko": "제복을 보는 꿈은, 힘 있는 벗이 바라던 바를 이루도록 도울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "제복",
+    "term_en": "uniform",
+    "context": "처녀가 제복을 입음",
+    "interpretation_ko": "고마워하는 남자에게 마음을 주어 운 좋게 사랑을 되받을 조짐",
+    "interpretation_en": "foretells that she will luckily confer her favors upon a man who appreciated them, and returns love for passion",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Uniform",
+      "original": "For a young woman to dream that she wears a uniform, foretells that she will luckily confer her favors upon a man who appreciated them, and returns love for passion.",
+      "translation_ko": "처녀가 제복을 입는 꿈은, 고마워하는 남자에게 마음을 주어 운 좋게 사랑을 되받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "제복",
+    "term_en": "uniform",
+    "context": "처녀가 제복을 벗어 버림",
+    "interpretation_ko": "모험을 밝히는 소문난 성정으로 세상의 손가락질을 받을 위험이 있을 조짐",
+    "interpretation_en": "she will be in danger of public scandal by her notorious love for adventure",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Uniform",
+      "original": "If she discards it, she will be in danger of public scandal by her notorious love for adventure.",
+      "translation_ko": "처녀가 제복을 벗어 버리는 꿈은, 모험을 밝히는 소문난 성정으로 세상의 손가락질을 받을 위험이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "제복",
+    "term_en": "uniform",
+    "context": "낯선 제복을 입은 이들을 봄",
+    "interpretation_ko": "제 나라가 다른 나라와 사이가 틀어질 조짐이며 집안이나 벗 사이에도 같은 일이 있을 수 있음",
+    "interpretation_en": "foretells the disruption of friendly relations with some other Power by your own government. This may also apply to families or friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Uniform",
+      "original": "To see people arrayed in strange uniforms, foretells the disruption of friendly relations with some other Power by your own government.  This may also apply to families or friends.",
+      "translation_ko": "낯선 제복을 입은 이들을 보는 꿈은, 제 나라가 다른 나라와 사이가 틀어질 조짐이며 집안이나 벗 사이에도 같은 일이 있을 수 있다"
+    }
+  },
+  {
+    "term_ko": "제복",
+    "term_en": "uniform",
+    "context": "제복 입은 벗이나 친척이 슬픈 낯빛인 것을 봄",
+    "interpretation_ko": "불운이나 오래 떨어져 있게 될 조짐",
+    "interpretation_en": "predicts ill fortune or continued absence",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Uniform",
+      "original": "To see a friend or relative looking sad while dressed in uniform, or as a soldier, predicts ill fortune or continued absence.",
+      "translation_ko": "제복 입은 벗이나 친척이 슬픈 낯빛인 것을 보는 꿈은, 불운이나 오래 떨어져 있게 될 조짐이다"
+    }
+  }
+]

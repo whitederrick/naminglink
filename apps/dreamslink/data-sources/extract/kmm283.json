@@ -1,0 +1,69 @@
+[
+  {
+    "id": "uncle",
+    "aliases": [
+      "삼촌이",
+      "삼촌을",
+      "삼촌과"
+    ],
+    "aliases_en": [
+      "uncle",
+      "an uncle"
+    ],
+    "contexts": {
+      "꿈에 삼촌을 봄": "그냥",
+      "삼촌이 상심한 모습을 되풀이해서 봄": "되풀이",
+      "삼촌이 죽은 것을 봄": "죽은",
+      "삼촌과 오해가 생김": "오해"
+    },
+    "contexts_en": {
+      "꿈에 삼촌을 봄": "sad character news",
+      "삼촌이 상심한 모습을 되풀이해서 봄": "prostrated repeatedly estrangement",
+      "삼촌이 죽은 것을 봄": "dead formidable enemies",
+      "삼촌과 오해가 생김": "misunderstanding unpleasant illness"
+    }
+  },
+  {
+    "id": "subway",
+    "aliases": [
+      "지하철이",
+      "지하철을"
+    ],
+    "aliases_en": [
+      "subway",
+      "underground railway"
+    ],
+    "contexts": {
+      "지하철을 탐": "그냥"
+    },
+    "contexts_en": {
+      "지하철을 탐": "riding peculiar speculation"
+    }
+  },
+  {
+    "id": "uniform",
+    "aliases": [
+      "제복이",
+      "제복을"
+    ],
+    "aliases_en": [
+      "uniform",
+      "uniforms",
+      "a uniform"
+    ],
+    "contexts": {
+      "제복을 봄": "그냥",
+      "처녀가 제복을 입음": "입었",
+      "처녀가 제복을 벗어 버림": "벗어",
+      "낯선 제복을 입은 이들을 봄": "낯선",
+      "제복 입은 벗이나 친척이 슬픈 낯빛인 것을 봄": "슬픈"
+    },
+    "contexts_en": {
+      "제복을 봄": "influential friends desires",
+      "처녀가 제복을 입음": "wears favors passion",
+      "처녀가 제복을 벗어 버림": "discards scandal adventure",
+      "낯선 제복을 입은 이들을 봄": "strange disruption government",
+      "제복 입은 벗이나 친척이 슬픈 낯빛인 것을 봄": "sad soldier absence"
+    }
+  }
+]

@@ -915,6 +915,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "naked-body::처녀가 알몸으로 맑은 물에서 헤엄침": "swimming clear loves revenge",
   "naked-body::알몸의 사내들이 맑은 물에서 헤엄치는 것을 봄": "men many admirers",
   "naked-body::알몸으로 헤엄치는 물이 흐림": "muddy jealous gossip",
+  "naked-body::스스로 옷을 벗고 있음": "undressing overshadow",
+  "naked-body::여성이 제 나라 통치자가 옷 벗은 것을 봄": "ruler country anticipated",
   "parrot::앵무새들이 재잘거림": "chattering frivolous gossip",
   "parrot::가만히 있는 앵무새를 봄": "repose peaceful intermission",
   "parrot::처녀가 앵무새를 가짐": "owns lover quarrelsome",
@@ -2744,6 +2746,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "adversary::적에게 짐": "better ominous adverse",
   "adversity::역경에 처함": "myself suffering",
   "adversity::다른 사람이 역경에 처한 것을 봄": "someone another watched",
+  "adversity::스스로 불운하다고 여김": "loss significant others",
   "advertisement::광고 문안을 만들어냄": "writing composing wrote making",
   "advertisement::광고를 읽음": "reading read perused",
   "advice::조언을 받음": "received receiving given",
@@ -6270,5 +6273,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "typhoid::스스로 장티푸스에 걸림": "affected malady enemies",
   "typhoid::장티푸스가 유행함을 봄": "epidemic depressions business",
   "ugly::스스로 못생겼다고 여김": "sweetheart depressed shade",
-  "ugly::처녀가 스스로 못생겼다고 여김": "young woman offensively lover"
+  "ugly::처녀가 스스로 못생겼다고 여김": "young woman offensively lover",
+  "uncle::꿈에 삼촌을 봄": "sad character news",
+  "uncle::삼촌이 상심한 모습을 되풀이해서 봄": "prostrated repeatedly estrangement",
+  "uncle::삼촌이 죽은 것을 봄": "dead formidable enemies",
+  "uncle::삼촌과 오해가 생김": "misunderstanding unpleasant illness",
+  "subway::지하철을 탐": "riding peculiar speculation",
+  "uniform::제복을 봄": "influential friends desires",
+  "uniform::처녀가 제복을 입음": "wears favors passion",
+  "uniform::처녀가 제복을 벗어 버림": "discards scandal adventure",
+  "uniform::낯선 제복을 입은 이들을 봄": "strange disruption government",
+  "uniform::제복 입은 벗이나 친척이 슬픈 낯빛인 것을 봄": "sad soldier absence"
 };
