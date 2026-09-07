@@ -1,0 +1,212 @@
+[
+  {
+    "term_ko": "혀",
+    "term_en": "tongue",
+    "context": "제 혀를 봄",
+    "interpretation_ko": "지인들에게 못마땅하게 여겨질 조짐",
+    "interpretation_en": "you will be looked upon with disfavor by your acquaintances",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Tongue",
+      "original": "To dream of seeing your own tongue, denotes that you will be looked upon with disfavor by your acquaintances.",
+      "translation_ko": "제 혀를 보는 꿈은, 지인들에게 못마땅하게 여겨질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "혀",
+    "term_en": "tongue",
+    "context": "남의 혀를 봄",
+    "interpretation_ko": "추문이 저를 헐뜯을 조짐",
+    "interpretation_en": "foretells that scandal will villify you",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Tongue",
+      "original": "To see the tongue of another, foretells that scandal will villify you.",
+      "translation_ko": "남의 혀를 보는 꿈은, 추문이 저를 헐뜯을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "혀",
+    "term_en": "tongue",
+    "context": "제 혀에 무슨 이상이 생김",
+    "interpretation_ko": "말을 함부로 하다 곤란에 빠질 조짐",
+    "interpretation_en": "your carelessness in talking will get you into trouble",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Tongue",
+      "original": "To dream that your tongue is affected in any way, denotes that your carelessness in talking will get you into trouble.",
+      "translation_ko": "제 혀에 무슨 이상이 생기는 꿈은, 말을 함부로 하다 곤란에 빠질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "남이 이가 하나도 없음을 봄",
+    "interpretation_ko": "적이 헛되이 저를 헐뜯으려 애쓰는 조짐",
+    "interpretation_en": "foretells that enemies are trying in vain to calumniate you",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Toothless",
+      "original": "To see others toothless, foretells that enemies are trying in vain to calumniate you.",
+      "translation_ko": "남이 이가 하나도 없음을 보는 꿈은, 적이 헛되이 저를 헐뜯으려 애쓰는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "이가 하나도 없음",
+    "interpretation_ko": "이해관계를 밀고 나갈 수 없고, 건강 악화가 앞날에 그림자를 드리울 조짐",
+    "interpretation_en": "denotes your inability to advance your interests, and ill health will cast gloom over your prospects",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Toothless",
+      "original": "To dream that you are toothless, denotes your inability to advance your interests, and ill health will cast goom{sic} over your prospects.",
+      "translation_ko": "이가 하나도 없는 꿈은, 이해관계를 밀고 나갈 수 없고 건강 악화가 앞날에 그림자를 드리울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "이쑤시개",
+    "term_en": "tooth-picks",
+    "context": "이쑤시개 꿈을 꿈",
+    "interpretation_ko": "관심을 두면 사소한 걱정과 심술이 쓸데없이 저를 괴롭힐 조짐",
+    "interpretation_en": "small anxieties, and spites will harass you unnecessarily if you give them your attention",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tooth-picks",
+      "original": "To dream of tooth-picks, foretells that small anxieties, and spites will harass you unnecessarily if you give them your attention.",
+      "translation_ko": "이쑤시개 꿈은, 관심을 두면 사소한 걱정과 심술이 쓸데없이 저를 괴롭힐 조짐이다"
+    }
+  },
+  {
+    "term_ko": "이쑤시개",
+    "term_en": "tooth-picks",
+    "context": "이쑤시개를 씀",
+    "interpretation_ko": "벗이 다치는 데 한몫할 조짐",
+    "interpretation_en": "you will be a party to a friend's injury",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tooth-picks",
+      "original": "If you use one, you will be a party to a friend's injury.",
+      "translation_ko": "이쑤시개를 쓰는 꿈은, 벗이 다치는 데 한몫할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "토파즈",
+    "term_en": "topaz",
+    "context": "토파즈를 봄",
+    "interpretation_ko": "행운의 여신이 후하게 은혜를 베풀고 마음에 드는 벗들을 얻을 조짐",
+    "interpretation_en": "signifies Fortune will be liberal in her favors, and you will have very pleasing companions",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Topaz",
+      "original": "To see topaz in a dream, signifies Fortune will be liberal in her favors, and you will have very pleasing companions.",
+      "translation_ko": "토파즈를 보는 꿈은, 행운의 여신이 후하게 은혜를 베풀고 마음에 드는 벗들을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "토파즈",
+    "term_en": "topaz",
+    "context": "여성이 토파즈 장신구를 잃어버림",
+    "interpretation_ko": "제 자리를 넘보는 시샘 많은 벗에게 해를 입을 조짐",
+    "interpretation_en": "foretells she will be injured by jealous friends who court her position",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Topaz",
+      "original": "For a woman to lose topaz ornaments, foretells she will be injured by jealous friends who court her position.",
+      "translation_ko": "여성이 토파즈 장신구를 잃어버리는 꿈은, 제 자리를 넘보는 시샘 많은 벗에게 해를 입을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "토파즈",
+    "term_en": "topaz",
+    "context": "친척이 아닌 남에게서 토파즈를 받음",
+    "interpretation_ko": "흥미로운 애정사가 마음을 사로잡을 조짐",
+    "interpretation_en": "foretells an interesting love affair will occupy her attention",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Topaz",
+      "original": "To receive one from another beside a relative, foretells an interesting love affair will occupy her attention.",
+      "translation_ko": "친척이 아닌 남에게서 토파즈를 받는 꿈은, 흥미로운 애정사가 마음을 사로잡을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "팽이",
+    "term_en": "tops",
+    "context": "팽이 꿈을 꿈",
+    "interpretation_ko": "부질없는 곤란에 얽힐 조짐",
+    "interpretation_en": "denotes that you will be involved in frivolous difficulties",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tops",
+      "original": "To dream of a top, denotes that you will be involved in frivolous difficulties.",
+      "translation_ko": "팽이 꿈은, 부질없는 곤란에 얽힐 조짐이다"
+    }
+  },
+  {
+    "term_ko": "팽이",
+    "term_en": "tops",
+    "context": "팽이가 도는 것을 봄",
+    "interpretation_ko": "유치한 즐거움에 재물을 허비할 조짐",
+    "interpretation_en": "foretells that you will waste your means in childish pleasures",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tops",
+      "original": "To see one spinning, foretells that you will waste your means in childish pleasures.",
+      "translation_ko": "팽이가 도는 것을 보는 꿈은, 유치한 즐거움에 재물을 허비할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "불붙은 나뭇가지",
+    "term_en": "firebrand",
+    "context": "횃불을 들고 다님",
+    "interpretation_ko": "애정사나 복잡한 일에서 성공할 조짐",
+    "interpretation_en": "denotes success in love making or intricate affairs",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Torch",
+      "original": "To carry a torch, denotes success in love making or intricate affairs.",
+      "translation_ko": "횃불을 들고 다니는 꿈은, 애정사나 복잡한 일에서 성공할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "불붙은 나뭇가지",
+    "term_en": "firebrand",
+    "context": "횃불이 꺼짐",
+    "interpretation_ko": "실패와 고통의 조짐",
+    "interpretation_en": "denotes failure and distress",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Torch",
+      "original": "For one to go out, denotes failure and distress.",
+      "translation_ko": "횃불이 꺼지는 꿈은, 실패와 고통의 조짐이다"
+    }
+  }
+]

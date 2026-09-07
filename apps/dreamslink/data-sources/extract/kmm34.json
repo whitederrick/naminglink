@@ -175,8 +175,16 @@
     "aliases_en": [
       "a firebrand"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "불붙은 나뭇가지를 봄": "그냥",
+      "횃불을 들고 다님": "들고",
+      "횃불이 꺼짐": "꺼짐 꺼졌"
+    },
+    "contexts_en": {
+      "불붙은 나뭇가지를 봄": "favorable fortune burned",
+      "횃불을 들고 다님": "carry love making",
+      "횃불이 꺼짐": "failure distress torch"
+    }
   },
   {
     "id": "fire-budget",

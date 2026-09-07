@@ -1,0 +1,85 @@
+[
+  {
+    "id": "tongue",
+    "aliases": [
+      "혀가",
+      "혀를",
+      "혀에"
+    ],
+    "aliases_en": [
+      "tongue",
+      "a tongue"
+    ],
+    "contexts": {
+      "제 혀를 봄": "그냥",
+      "남의 혀를 봄": "남의",
+      "제 혀에 무슨 이상이 생김": "이상이"
+    },
+    "contexts_en": {
+      "제 혀를 봄": "own disfavor acquaintances",
+      "남의 혀를 봄": "another scandal villify",
+      "제 혀에 무슨 이상이 생김": "affected carelessness talking"
+    }
+  },
+  {
+    "id": "tooth-picks",
+    "aliases": [
+      "이쑤시개가",
+      "이쑤시개를"
+    ],
+    "aliases_en": [
+      "tooth-picks",
+      "toothpick"
+    ],
+    "contexts": {
+      "이쑤시개 꿈을 꿈": "그냥",
+      "이쑤시개를 씀": "사용했"
+    },
+    "contexts_en": {
+      "이쑤시개 꿈을 꿈": "small anxieties spites",
+      "이쑤시개를 씀": "use friend injury"
+    }
+  },
+  {
+    "id": "topaz",
+    "aliases": [
+      "토파즈가",
+      "토파즈를",
+      "황옥"
+    ],
+    "aliases_en": [
+      "topaz",
+      "a topaz"
+    ],
+    "contexts": {
+      "토파즈를 봄": "그냥",
+      "여성이 토파즈 장신구를 잃어버림": "장신구 잃어버렸",
+      "친척이 아닌 남에게서 토파즈를 받음": "친척이 아닌"
+    },
+    "contexts_en": {
+      "토파즈를 봄": "fortune liberal companions",
+      "여성이 토파즈 장신구를 잃어버림": "lose ornaments jealous",
+      "친척이 아닌 남에게서 토파즈를 받음": "receive relative interesting"
+    }
+  },
+  {
+    "id": "tops",
+    "aliases": [
+      "팽이가",
+      "팽이를"
+    ],
+    "aliases_en": [
+      "top",
+      "tops",
+      "a spinning top"
+    ],
+    "contexts": {
+      "팽이 꿈을 꿈": "그냥",
+      "팽이가 도는 것을 봄": "도는"
+    },
+    "contexts_en": {
+      "팽이 꿈을 꿈": "involved frivolous difficulties",
+      "팽이가 도는 것을 봄": "waste childish pleasures"
+    }
+  }
+]

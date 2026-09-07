@@ -1,16 +1,12 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 273 — Till~Tomb. 새 상징 여섯(till·tipsy·toad·
-// tobacco·toddy·tomatoes)을 세우고, 기존 셋(lumber·alarm-bell·grave)에
-// 문맥을 나눠 붙였다. Timber는 lumber와 같은 물건(aliases_en에 이미
-// timber가 있었다) — 「목재를 봄」 문장은 lumber 「목재를 봄」과 글자까지
-// 같은 그림에 정반대 풀이라 건너뛰고 「죽은 듯 보임」만 붙임. Tocsin은
-// alarm-bell과 같은 물건(종=경종)이라 병합했는데, term_en을 원문 그대로
-// "alarm bell"(공백)로 안 맞추고 "alarm-bell"(하이픈)로 잘못 지어 처음엔
-// 딴 상징이 생겼다 — 원문 term_en을 그대로 복사해 바로잡음(배치 232
-// india-rubber 전례와 같은 실수). Tomb의 「제 무덤을 봄」은 grave 「자기
-// 무덤을 봄」과 같은 그림이라 건너뜀. alarm-bell 기본값은 새 「위급을
-// 알리는 종소리를 들음」으로 바꿔 얼렸다(상징 자체를 describe하는 더
-// 자연스러운 자리).
+// (지금 담긴 것: 배치 274 — Tongue~Tornado. 새 상징 넷(tongue·
+// tooth-picks·topaz·tops)을 세우고, 기존 둘(teeth·firebrand)에 문맥을
+// 나눠 붙였다. Toothless(이가 하나도 없는 상태)는 teeth의 기존 열다섯
+// 의미와 안 겹치는 새 그림이라 붙임. Torch는 firebrand가 이미 「횃불」을
+// 쥐고 있어 병합 — 막연한 첫 문장(횃불을 봄)은 firebrand 기본값과 같은
+// 그림이라 건너뜀. Tornado는 통째로 건너뜀(hurricane과 같은 그림, 원문
+// 각주도 Hurricane을 가리킴). Tops 셋째 문장도 첫 문장과 거의 같은
+// 그림이라 건너뜀(밀러 원문 자체의 되풀이).
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -41,36 +37,25 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 273 새 문맥 (23건) ────────────────────────────────────────────
-  { id: "till", ctx: "돈궤에 돈과 귀중품이 있음을 봄", text: "돈궤에 돈과 귀중품이 있는 것을 보았다" },
-  { id: "till", ctx: "돈궤가 비어 있음을 봄", text: "돈궤가 비어 있는 것을 보았다" },
-  { id: "lumber", ctx: "목재가 죽은 듯 보임", text: "목재가 죽은 듯 보였다" },
-  { id: "tipsy", ctx: "스스로 거나하게 취함", text: "스스로 거나하게 취했다" },
-  { id: "tipsy", ctx: "남이 거나하게 취해 있는 것을 봄", text: "남이 거나하게 취해 있는 것을 보았다" },
-  { id: "toad", ctx: "두꺼비 꿈을 꿈", text: "두꺼비 꿈을 꾸었다" },
-  { id: "toad", ctx: "여성이 두꺼비 꿈을 꿈", text: "여성이 두꺼비 꿈을 꾸었다" },
-  { id: "toad", ctx: "두꺼비를 죽임", text: "두꺼비를 죽였다" },
-  { id: "toad", ctx: "두꺼비에 손을 댐", text: "두꺼비에 손을 댔다" },
-  { id: "tobacco", ctx: "담배 꿈을 꿈", text: "담배 꿈을 꾸었다" },
-  { id: "tobacco", ctx: "담배를 씀", text: "담배를 사용했다" },
-  { id: "tobacco", ctx: "담배가 자라는 것을 봄", text: "담배가 자라는 것을 보았다" },
-  { id: "tobacco", ctx: "잎담배가 말라 있는 것을 봄", text: "잎담배가 말라 있는 것을 보았다" },
-  { id: "tobacco", ctx: "담배를 피움", text: "담배를 피웠다" },
-  { id: "alarm-bell", ctx: "위급을 알리는 종소리를 들음", text: "위급을 알리는 종소리를 들었다" },
-  { id: "alarm-bell", ctx: "여성이 위급을 알리는 종소리를 들음", text: "여성이 위급을 알리는 종소리를 들었다" },
-  { id: "toddy", ctx: "토디를 마심", text: "토디를 마셨다" },
-  { id: "tomatoes", ctx: "토마토를 먹음", text: "토마토를 먹었다" },
-  { id: "tomatoes", ctx: "토마토가 자라는 것을 봄", text: "토마토가 자라는 것을 보았다" },
-  { id: "tomatoes", ctx: "여성이 잘 익은 토마토를 봄", text: "여성이 잘 익은 토마토를 보았다" },
-  { id: "grave", ctx: "무덤들을 봄", text: "무덤들을 보았다" },
-  { id: "grave", ctx: "낡고 허물어진 무덤을 봄", text: "낡고 허물어진 무덤을 보았다" },
-  { id: "grave", ctx: "무덤의 비문을 읽음", text: "무덤의 비문을 읽었다" },
+  // ── 배치 274 새 문맥 (14건) ────────────────────────────────────────────
+  { id: "tongue", ctx: "제 혀를 봄", text: "제 혀를 보았다" },
+  { id: "tongue", ctx: "남의 혀를 봄", text: "남의 혀를 보았다" },
+  { id: "tongue", ctx: "제 혀에 무슨 이상이 생김", text: "제 혀에 무슨 이상이 생겼다" },
+  { id: "teeth", ctx: "이가 하나도 없음", text: "이가 하나도 없었다" },
+  { id: "teeth", ctx: "남이 이가 하나도 없음을 봄", text: "남이 이가 하나도 없는 것을 보았다" },
+  { id: "tooth-picks", ctx: "이쑤시개 꿈을 꿈", text: "이쑤시개 꿈을 꾸었다" },
+  { id: "tooth-picks", ctx: "이쑤시개를 씀", text: "이쑤시개를 사용했다" },
+  { id: "topaz", ctx: "토파즈를 봄", text: "토파즈를 보았다" },
+  { id: "topaz", ctx: "여성이 토파즈 장신구를 잃어버림", text: "여성이 토파즈 장신구를 잃어버렸다" },
+  { id: "topaz", ctx: "친척이 아닌 남에게서 토파즈를 받음", text: "친척이 아닌 남에게서 토파즈를 받았다" },
+  { id: "tops", ctx: "팽이 꿈을 꿈", text: "팽이 꿈을 꾸었다" },
+  { id: "tops", ctx: "팽이가 도는 것을 봄", text: "팽이가 도는 것을 보았다" },
+  { id: "firebrand", ctx: "횃불을 들고 다님", text: "횃불을 들고 다녔다" },
+  { id: "firebrand", ctx: "횃불이 꺼짐", text: "횃불이 꺼졌다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징들의 옛 답이 그대로인지 ────────
-  { id: "lumber", ctx: "목재를 봄", text: "목재를 보았다" },
-  { id: "alarm-bell", ctx: "잠결에 종소리를 들음", text: "잠결에 종소리를 들었다" },
-  { id: "grave", ctx: "빈 무덤을 들여다봄", text: "빈 무덤을 들여다보았다" },
-  { id: "grave", ctx: "자기 무덤을 봄", text: "자기 무덤을 보았다" },
+  { id: "teeth", ctx: "이가 저절로 빠짐", text: "이가 저절로 빠졌다" },
+  { id: "firebrand", ctx: "불붙은 나뭇가지를 봄", text: "불붙은 나뭇가지를 보았다" },
 ];
 
 let notFound = 0;

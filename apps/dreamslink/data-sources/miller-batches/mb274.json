@@ -1,0 +1,19 @@
+{
+  "batch": 274,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Tongue", "text": "To dream of seeing your own tongue, denotes that you will be looked upon with disfavor by your acquaintances.\n\nTo see the tongue of another, foretells that scandal will villify you.\n\nTo dream that your tongue is affected in any way, denotes that your carelessness in talking will get you into trouble.", "note": "새 상징 tongue(혀)" },
+    { "headword": "Toothless", "text": "To dream that you are toothless, denotes your inability to advance your interests, and ill health will cast gloom over your prospects.\n\nTo see others toothless, foretells that enemies are trying in vain to calumniate you.", "note": "기존 teeth(이) 상징에 문맥 2개 추가 — 「이가 하나도 없는 상태」는 배치 269의 열다섯 의미 중 어느 것과도 겹치지 않는 새 그림(상태 대 사건)" },
+    { "headword": "Tooth-picks", "text": "To dream of tooth-picks, foretells that small anxieties, and spites will harass you unnecessarily if you give them your attention.\n\nIf you use one, you will be a party to a friend's injury.", "note": "새 상징 tooth-picks(이쑤시개) — teeth와는 다른 물건(도구)" },
+    { "headword": "Topaz", "text": "To see topaz in a dream, signifies Fortune will be liberal in her favors, and you will have very pleasing companions.\nFor a woman to lose topaz ornaments, foretells she will be injured by jealous friends who court her position.\nTo receive one from another beside a relative, foretells an interesting love affair will occupy her attention.", "note": "새 상징 topaz(토파즈)" },
+    { "headword": "Tops", "text": "To dream of a top, denotes that you will be involved in frivolous difficulties.\n\nTo see one spinning, foretells that you will waste your means in childish pleasures.\n\nTo see a top, foretells indiscriminate friendships will involve you in difficulty.", "note": "새 상징 tops(팽이). 셋째 문장은 첫 문장과 거의 같은 막연한 그림(팽이를 봄, 곤란에 얽힘)이라 discriminable하지 않아 건너뜀 — 밀러 원문 자체의 되풀이" },
+    { "headword": "Torch", "text": "To dream of seeing torches, foretells pleasant amusement and favorable business.\n\nTo carry a torch, denotes success in love making or intricate affairs.\nFor one to go out, denotes failure and distress.", "note": "기존 firebrand(불붙은 나뭇가지) 상징에 문맥 2개 추가 — 「횃불」이 이미 별칭이었다. 막연한 첫 문장(횃불을 봄)은 기존 firebrand 「불붙은 나뭇가지를 봄」과 같은 그림·비슷한 풀이라 건너뜀" },
+    { "headword": "Tornado", "text": "If you dream that you are in a tornado, you will be filled with disappointment and perplexity over the miscarriage of studied plans for swift attainment of fortune.", "note": "통째로 건너뜀 — 원문 각주 [227]가 Hurricane을 가리키고, 실제로 기존 hurricane과 같은 그림(폭풍우 속에 있음)이라 discriminable하지 않음" }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    { "headword": "Tops", "sentence": "To see a top, foretells indiscriminate friendships will involve you in difficulty.", "reason": "첫 문장(팽이 꿈을 꿈, 곤란에 얽힘)과 거의 같은 막연한 그림 — 밀러 원문 자체의 되풀이" },
+    { "headword": "Torch", "sentence": "To dream of seeing torches, foretells pleasant amusement and favorable business.", "reason": "기존 firebrand 「불붙은 나뭇가지를 봄」과 같은 그림·비슷한 풀이" },
+    { "headword": "Tornado", "sentence": "If you dream that you are in a tornado, you will be filled with disappointment and perplexity over the miscarriage of studied plans for swift attainment of fortune.", "reason": "기존 hurricane과 같은 그림(폭풍우 속에 있음) — 원문 각주 [227]도 Hurricane을 가리킴" }
+  ]
+}
