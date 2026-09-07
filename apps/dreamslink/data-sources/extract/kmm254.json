@@ -1,0 +1,46 @@
+[
+  {
+    "id": "spider",
+    "aliases": [
+      "거미가",
+      "거미를",
+      "거미에게",
+      "거미줄"
+    ],
+    "aliases_en": [
+      "spider",
+      "spiders",
+      "a spider"
+    ],
+    "contexts": {
+      "거미 꿈을 꿈": "부지런히 꼼꼼하게",
+      "거미가 거미줄을 짓는 것을 봄": "거미줄을 짓는 얽혔다",
+      "거미를 죽임": "죽였다 죽이는",
+      "거미에게 물림": "물렸다 물리는",
+      "많은 거미가 거미줄에 매달려 있는 것을 봄": "많은 매달려",
+      "큰 거미가 앞을 가로막음": "가로막았다 마주친",
+      "크고 작은 거미가 함께 다가오는 것을 봄": "크고 작은",
+      "큰 거미에게 물림": "커다란",
+      "작은 거미에게 물림": "조그만",
+      "큰 거미로부터 도망침": "도망 소홀히",
+      "쫓아오던 거미를 죽임": "쫓아오던 재산",
+      "죽인 거미가 되살아나 쫓아옴": "되살아나 오락가락",
+      "여성이 금빛 거미가 주위를 기어다니는 것을 봄": "여성이 금빛"
+    },
+    "contexts_en": {
+      "거미 꿈을 꿈": "careful energetic labors",
+      "거미가 거미줄을 짓는 것을 봄": "building web home",
+      "거미를 죽임": "kill wife sweetheart",
+      "거미에게 물림": "victim unfaithfulness enemies",
+      "많은 거미가 거미줄에 매달려 있는 것을 봄": "many hanging around",
+      "큰 거미가 앞을 가로막음": "confronting elevation swift",
+      "크고 작은 거미가 함께 다가오는 것을 봄": "both approaching prosperous",
+      "큰 거미에게 물림": "giant steals fortune",
+      "작은 거미에게 물림": "petty spites jealousy",
+      "큰 거미로부터 도망침": "fleeing missed opportunities",
+      "쫓아오던 거미를 죽임": "chasing estate afterward",
+      "죽인 거미가 되살아나 쫓아옴": "returns life sickness wavering",
+      "여성이 금빛 거미가 주위를 기어다니는 것을 봄": "woman gold crawling"
+    }
+  }
+]

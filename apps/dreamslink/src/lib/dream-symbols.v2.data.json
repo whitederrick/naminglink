@@ -173,6 +173,7 @@
     "m251.json",
     "m252.json",
     "m253.json",
+    "m254.json",
     "m26.json",
     "m27a.json",
     "m27b.json",
@@ -15369,6 +15370,208 @@
               "locator": "衣帳毯褥匙櫡",
               "original": "繩索斷者主凶惡",
               "translation_ko": "밧줄이 끊어지면 흉악하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spider",
+      "term_ko": "거미",
+      "term_en": "spider",
+      "aliases": [
+        "거미가",
+        "거미를",
+        "거미에게",
+        "거미줄"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "거미 꿈을 꿈",
+          "interpretation_ko": "부지런하고 꼼꼼하게 일해 흡족할 만큼 재물을 모을 조짐",
+          "interpretation_en": "denotes that you will be careful and energetic in your labors, and fortune will be amassed to pleasing proportions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "To dream of a spider, denotes that you will be careful and energetic in your labors, and fortune will be amassed to pleasing proportions.",
+              "translation_ko": "거미 꿈은, 부지런하고 꼼꼼하게 일해 흡족할 만큼 재물을 모을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "거미가 거미줄을 짓는 것을 봄",
+          "interpretation_ko": "제 집에서 행복하고 평안할 조짐",
+          "interpretation_en": "foretells that you will be happy and secure in your own home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "To see one building its web, foretells that you will be happy and secure in your own home.",
+              "translation_ko": "거미가 거미줄을 짓는 것을 보는 꿈은, 제 집에서 행복하고 평안할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쫓아오던 거미를 죽임",
+          "interpretation_ko": "마침내 상당한 재산을 갖게 될 조짐",
+          "interpretation_en": "you will eventually come into fair estate",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "If you kill the spider you will eventually come into fair estate.",
+              "translation_ko": "쫓아오던 거미를 죽이는 꿈은, 마침내 상당한 재산을 갖게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "거미를 죽임",
+          "interpretation_ko": "아내나 연인과 다툴 조짐",
+          "interpretation_en": "signifies quarrels with your wife or sweetheart",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "To kill one, signifies quarrels with your wife or sweetheart.",
+              "translation_ko": "거미를 죽이는 꿈은, 아내나 연인과 다툴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "큰 거미에게 물림",
+          "interpretation_ko": "원수들이 좋은 운을 앗아갈 조짐",
+          "interpretation_en": "but if the large one bites you, enemies will steal away your good fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "but if the large one bites you, enemies will steal away your good fortune.",
+              "translation_ko": "큰 거미에게 물리는 꿈은, 원수들이 좋은 운을 앗아갈 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "작은 거미에게 물림",
+          "interpretation_ko": "자잘한 앙심과 질투에 시달릴 조짐",
+          "interpretation_en": "you will be harassed with little spites and jealousies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "If the little one bites you, you will be harassed with little spites and jealousies.",
+              "translation_ko": "작은 거미에게 물리는 꿈은, 자잘한 앙심과 질투에 시달릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "거미에게 물림",
+          "interpretation_ko": "부정을 겪고 사업에서 원수들로 인해 고통받을 조짐",
+          "interpretation_en": "you will be the victim of unfaithfulness and will suffer from enemies in your business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "If one bites you, you will be the victim of unfaithfulness and will suffer from enemies in your business.",
+              "translation_ko": "거미에게 물리는 꿈은, 부정을 겪고 사업에서 원수들로 인해 고통받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "많은 거미가 거미줄에 매달려 있는 것을 봄",
+          "interpretation_ko": "더없이 좋은 형편과 재물, 건강, 벗을 얻을 조짐",
+          "interpretation_en": "foretells most favorable conditions, fortune, good health and friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "If you dream that you see many spiders hanging in their webs around you, foretells most favorable conditions, fortune, good health and friends.",
+              "translation_ko": "많은 거미가 거미줄에 매달려 있는 것을 보는 꿈은, 더없이 좋은 형편과 재물, 건강, 벗을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "큰 거미가 앞을 가로막음",
+          "interpretation_ko": "위태로운 접촉만 없다면 재물의 지위가 빠르게 오를 조짐",
+          "interpretation_en": "signifies that your elevation to fortune will be swift, unless you are in dangerous contact",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "To dream of a large spider confronting you, signifies that your elevation to fortune will be swift, unless you are in dangerous contact.",
+              "translation_ko": "큰 거미가 앞을 가로막는 꿈은, 위태로운 접촉만 없다면 재물의 지위가 빠르게 오를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "크고 작은 거미가 함께 다가오는 것을 봄",
+          "interpretation_ko": "번영하고 한동안 크게 성공했다고 느낄 조짐",
+          "interpretation_en": "denotes that you will be prosperous, and that you will feel for a time that you are immensely successful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "To dream that you see a very large spider and a small one coming towards you, denotes that you will be prosperous, and that you will feel for a time that you are immensely successful;",
+              "translation_ko": "크고 작은 거미가 함께 다가오는 것을 보는 꿈은, 번영하고 한동안 크게 성공했다고 느낄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "큰 거미로부터 도망침",
+          "interpretation_ko": "기회를 소홀히 하여 재물을 잃을 조짐",
+          "interpretation_en": "denotes you will lose fortune in slighting opportunities",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "To imagine that you are running from a large spider, denotes you will lose fortune in slighting opportunities.",
+              "translation_ko": "큰 거미로부터 도망치는 꿈은, 기회를 소홀히 하여 재물을 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "죽인 거미가 되살아나 쫓아옴",
+          "interpretation_ko": "병과 오락가락하는 운수에 시달릴 조짐",
+          "interpretation_en": "you will be oppressed by sickness and wavering fortunes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "If it afterwards returns to life and pursues you, you will be oppressed by sickness and wavering fortunes.",
+              "translation_ko": "죽인 거미가 되살아나 쫓아오는 꿈은, 병과 오락가락하는 운수에 시달릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 금빛 거미가 주위를 기어다니는 것을 봄",
+          "interpretation_ko": "재물과 행복의 전망이 나아지고 새 벗들에게 둘러싸일 조짐",
+          "interpretation_en": "foretells that her fortune and prospect for happiness will improve, and new friends will surround her",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Spider",
+              "original": "For a young woman to dream she sees gold spiders crawling around her, foretells that her fortune and prospect for happiness will improve, and new friends will surround her.",
+              "translation_ko": "여성이 금빛 거미가 주위를 기어다니는 것을 보는 꿈은, 재물과 행복의 전망이 나아지고 새 벗들에게 둘러싸일 조짐이다"
             }
           ]
         }

@@ -1,8 +1,7 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 253 — 새 상징 spice(향신료), 기존 shovel(삽)에 한 그림·
-// cards(카드놀이)에 두 그림·sparrow(참새)에 두 그림·eyeglass(안경)에 두 그림 붙임.
-// sparrow는 기본값이 「참새가 쥐와 싸움」→「참새 꿈을 꿈」으로 바뀌었다(조건 없는
-// 가장 넓은 자리로), eyeglass는 파일명 정렬 때문에 밀릴 뻔한 것을 얼려 그대로 뒀다)
+// (지금 담긴 것: 배치 254 — 새 상징 spider(거미), 열세 그림. 253에서 일감이 커서
+// 따로 뗀 표제어다. 판별어(en)에서 killing/kill·bites·large·small 이 형제끼리
+// 겹쳐 verify-dream-km 이 8건을 잡았고, 전부 다른 낱말로 갈라 고쳤다)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -33,23 +32,19 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "shovel", ctx: "삽 모양의 도구로 일을 감독함", text: "삽 모양의 도구로 일을 감독하느라 짜증이 났다" },
-  { id: "cards", ctx: "이름이 스페이드인 카드 꿈을 꿈", text: "트럼프 카드로 놀다가 이름이 스페이드인 카드 꿈을 꾸어 어리석은 짓을 했다" },
-  { id: "cards", ctx: "도박꾼이 스페이드가 으뜸패인 꿈을 꿈", text: "도박꾼이 트럼프 카드로 스페이드가 으뜸패인 꿈을 꾸었다" },
-  { id: "sparrow", ctx: "참새 꿈을 꿈", text: "참새 꿈을 꾸어 사랑과 평안을 느꼈다" },
-  { id: "sparrow", ctx: "참새가 다치거나 괴로워하는 것을 봄", text: "참새가 다치거나 괴로워하는 것을 보았다" },
-  { id: "eyeglass", ctx: "낯선 사람에게 속을까 걱정하며 안경 꿈을 꿈", text: "낯선 사람에게 속을까 걱정하며 안경 꿈을 꾸었다" },
-  { id: "eyeglass", ctx: "부서진 안경을 봄", text: "부서진 안경을 보았다" },
-  { id: "spice", ctx: "향신료 꿈을 꿈", text: "향신료 꿈을 꾸어 평판과 쾌락을 걱정했다" },
-  { id: "spice", ctx: "여성이 향신료를 먹음", text: "여성이 향신료를 먹었다" },
-  // 지킴 — 이번에 손댄 기존 상징(shovel·cards·sparrow·eyeglass)의 옛 답이 그대로인가
-  { id: "shovel", ctx: "삽을 봄", text: "삽을 보았다" },
-  { id: "shovel", ctx: "부서지거나 낡은 삽을 봄", text: "부서지거나 낡은 삽을 보았다" },
-  { id: "cards", ctx: "스페이드 짝패를 봄", text: "트럼프 카드로 스페이드 짝패를 보았다" },
-  { id: "cards", ctx: "포커를 침", text: "포커를 쳤다" },
-  { id: "sparrow", ctx: "참새가 쥐와 싸움", text: "참새가 쥐와 싸웠다" },
-  { id: "sparrow", ctx: "참새가 시끄럽게 지저귐", text: "참새가 시끄럽게 지저귀었다" },
-  { id: "eyeglass", ctx: "안경을 보거나 씀", text: "안경을 쓰고 있었다" },
+  { id: "spider", ctx: "거미 꿈을 꿈", text: "거미 꿈을 꾸었다" },
+  { id: "spider", ctx: "거미가 거미줄을 짓는 것을 봄", text: "거미가 거미줄을 짓는 것을 보았다" },
+  { id: "spider", ctx: "거미를 죽임", text: "거미를 죽였다" },
+  { id: "spider", ctx: "거미에게 물림", text: "거미에게 물렸다" },
+  { id: "spider", ctx: "많은 거미가 거미줄에 매달려 있는 것을 봄", text: "많은 거미가 거미줄에 매달려 있는 것을 보았다" },
+  { id: "spider", ctx: "큰 거미가 앞을 가로막음", text: "큰 거미가 앞을 가로막았다" },
+  { id: "spider", ctx: "크고 작은 거미가 함께 다가오는 것을 봄", text: "크고 작은 거미가 함께 다가오는 것을 보았다" },
+  { id: "spider", ctx: "큰 거미에게 물림", text: "커다란 거미에게 물렸다" },
+  { id: "spider", ctx: "작은 거미에게 물림", text: "조그만 거미에게 물렸다" },
+  { id: "spider", ctx: "큰 거미로부터 도망침", text: "큰 거미로부터 도망쳤다" },
+  { id: "spider", ctx: "쫓아오던 거미를 죽임", text: "쫓아오던 거미를 죽였다" },
+  { id: "spider", ctx: "죽인 거미가 되살아나 쫓아옴", text: "죽인 거미가 되살아나 쫓아왔다" },
+  { id: "spider", ctx: "여성이 금빛 거미가 주위를 기어다니는 것을 봄", text: "여성이 금빛 거미가 주위를 기어다니는 것을 보았다" },
 ];
 
 let notFound = 0;

@@ -1,0 +1,13 @@
+{
+  "batch": 254,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Spider",
+      "text": "To dream of a spider, denotes that you will be careful and energetic in your labors, and fortune will be amassed to pleasing proportions.\n\nTo see one building its web, foretells that you will be happy and secure in your own home.\n\nTo kill one, signifies quarrels with your wife or sweetheart.\n\nIf one bites you, you will be the victim of unfaithfulness and will suffer from enemies in your business.\n\nIf you dream that you see many spiders hanging in their webs around you, foretells most favorable conditions, fortune, good health and friends.\n\nTo dream of a large spider confronting you, signifies that your elevation to fortune will be swift, unless you are in dangerous contact.\n\nTo dream that you see a very large spider and a small one coming towards you, denotes that you will be prosperous, and that you will feel for a time that you are immensely successful; but if the large one bites you, enemies will steal away your good fortune. If the little one bites you, you will be harassed with little spites and jealousies.  To imagine that you are running from a large spider, denotes you will lose fortune in slighting opportunities. If you kill the spider you will eventually come into fair estate. If it afterwards returns to life and pursues you, you will be oppressed by sickness and wavering fortunes.\n\nFor a young woman to dream she sees gold spiders crawling around her, foretells that her fortune and prospect for happiness will improve, and new friends will surround her.",
+      "note": "새 상징 `spider`(거미) — 여덟 문장(마지막 문장 하나가 여섯 갈래로 갈린다) 열셋 그림. §33과 같은 이유로 253에서 따로 뗀 표제어"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

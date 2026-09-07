@@ -5789,5 +5789,18 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "soul::여성 음악가가 무대 위 다른 여성을 보며 그것이 제 영혼이라 여김": "musician stage outrivaled",
   "soul::영혼의 불멸을 논함": "immortality intellectual",
   "spice::향신료 꿈을 꿈": "reputation pleasure damage",
-  "spice::여성이 향신료를 먹음": "woman eating deceitful"
+  "spice::여성이 향신료를 먹음": "woman eating deceitful",
+  "spider::거미 꿈을 꿈": "careful energetic labors",
+  "spider::거미가 거미줄을 짓는 것을 봄": "building web home",
+  "spider::거미를 죽임": "kill wife sweetheart",
+  "spider::거미에게 물림": "victim unfaithfulness enemies",
+  "spider::많은 거미가 거미줄에 매달려 있는 것을 봄": "many hanging around",
+  "spider::큰 거미가 앞을 가로막음": "confronting elevation swift",
+  "spider::크고 작은 거미가 함께 다가오는 것을 봄": "both approaching prosperous",
+  "spider::큰 거미에게 물림": "giant steals fortune",
+  "spider::작은 거미에게 물림": "petty spites jealousy",
+  "spider::큰 거미로부터 도망침": "fleeing missed opportunities",
+  "spider::쫓아오던 거미를 죽임": "chasing estate afterward",
+  "spider::죽인 거미가 되살아나 쫓아옴": "returns life sickness wavering",
+  "spider::여성이 금빛 거미가 주위를 기어다니는 것을 봄": "woman gold crawling"
 };
