@@ -145,12 +145,14 @@ export type Dictionary = {
   form: {
     title: string;
     description: string;
-    /**
-     * 처음 오는 사람(`/reading`)에게만 보여 주는 설명 문단. `/today`는 같은 사전을 쓰지만
-     * 이 키는 읽지 않는다 — 재방문자용 화면이라 이미 아는 내용을 다시 실으면 두 화면이
-     * 완전히 같은 문구가 된다.
-     */
+    /** `/reading`에서 보여 주는 설명 문단 — 원국을 어떻게 세우는지. */
     intro: string;
+    /**
+     * `/today`에서 보여 주는 설명 문단(2026-09-07). `intro`와 내용이 겹치면 두 화면이
+     * 같은 문구가 되므로, 오늘의 운세가 **원국과 무엇을 대조해 어떻게 점수를 내는지**로
+     * 따로 썼다 — `intro`는 원국을 세우는 이야기다.
+     */
+    todayIntro: string;
     /** 입력 묶음의 legend. 한 사람만 받으므로 자리 이름이 하나다. */
     meLegend: string;
     nickname: string;
@@ -570,6 +572,8 @@ const ko: Dictionary = {
       "출생 시각을 알면 더 정확한 분석이 가능하지만, 몰라도 분석할 수 있습니다.",
     intro:
       "사주링크는 생년월일시를 사주 원국 여덟 글자로 바꾸고, 오행의 세력과 십신 관계로 지금 이 사람에게 부족하거나 넘치는 기운을 읽습니다. 태어난 곳의 실제 태양 시각(진태양시)으로 시각을 보정해 시주를 정하고, 오늘의 운세는 이 원국에 오늘의 일진을 대어 스무 가지 관계 항목을 채점한 결과입니다.\n계산에 쓰인 경계값과 점수표는 전부 아래 계산 근거 문서에 공개돼 있습니다.",
+    todayIntro:
+      "오늘의 운세는 태어난 날의 사주를 세운 것과 같은 방식으로 오늘 하루치 천간·지지 두 글자(일진)를 만들어, 그것을 원국에 대어 봅니다. 오늘의 기운이 지금 필요한 기운(억부용신)에 해당하는지, 일간과 어떤 오행 관계인지, 지지끼리 합인지 충인지, 그리고 신강·신약에 따라 같은 기운도 다르게 받는지 — 이 네 가지를 더하고 빼 기준 점수 50점에서 등급을 매깁니다. 재물·애정·직업·건강 네 분야는 이 총점을 일부 물려받고 나머지는 분야별 관계로 따로 계산되어, 총점이 같아도 분야별 숫자는 사람마다 다릅니다.\n항목별 가감폭과 등급 경계는 전부 아래 계산 근거 문서에 공개돼 있습니다.",
     meLegend: "나의 정보",
     nickname: "성명(본명)",
     nicknamePlaceholder: "예: 김서윤",
@@ -1188,6 +1192,8 @@ const en: Dictionary = {
       "Knowing the birth time makes the reading sharper, but it is not required.",
     intro:
       "Saju-Link turns a birth date and time into the eight characters of the four pillars, then reads which elemental force is missing or overflowing through the Five Elements and the Ten Gods relationships. The hour pillar is corrected to true solar time at the birthplace, and Today's Fortune scores twenty relationship items by matching today's day-pillar against this same chart.\nEvery cutoff and scoring table used in the calculation is published in the reasoning document below.",
+    todayIntro:
+      "Today's Fortune builds the day's own two characters — a stem and a branch — the same way your birth pillar was built, then checks them against your natal chart. It adds and subtracts across four things: whether today's energy matches what your chart currently needs, how today's stem relates to your day master in Five Elements terms, whether today's branch combines or clashes with your chart's branches, and how a strong or weak chart takes the same energy differently — all starting from a base score of 50. Wealth, love, career, and health each inherit part of that total and add their own factor-specific scoring, so two people with the same total score can still see different numbers per area.\nEvery weight and grade boundary used here is published in the reasoning document below.",
     meLegend: "About you",
     nickname: "What to call them",
     nicknamePlaceholder: "e.g. Me",

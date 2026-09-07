@@ -50,6 +50,15 @@ export default async function TodayPage({
         <section className="mt-10">
           <PageTitle title={dictionary.form.title} locale={locale} path="/today" />
           <p className="break-keep-all mt-3 text-muted">{dictionary.form.description}</p>
+          {/*
+            2026-09-07 — /reading을 고치며 이 화면은 일부러 뺐었다("같은 폼을 재방문자용으로
+            재사용"). 그런데 그 결과 이 화면이 사이트에서 가장 얇은 페이지가 됐다(사용자 지적).
+            `/reading`(원국을 어떻게 세우는지)과 겹치지 않게, 오늘의 운세가 원국과 무엇을
+            대조해 점수를 내는지로 따로 썼다 — `form.todayIntro`.
+          */}
+          <p className="break-keep-all mt-3 whitespace-pre-line text-sm leading-6">
+            {dictionary.form.todayIntro}
+          </p>
         </section>
         <SajuForm dictionary={dictionary} locale={locale} menu="today" />
         <PrivacyNotice locale={locale} className="mt-10" />
