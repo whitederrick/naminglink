@@ -1,0 +1,197 @@
+[
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "의사가 이를 뽑아 줌",
+    "interpretation_ko": "위중한 병을 앓을 조짐 — 치명적이지 않더라도 오래 끌 것",
+    "interpretation_en": "you will have desperate illness, if not fatal it will be lingering",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "If the doctor pulls your tooth, you will have desperate illness, if not fatal; it will be lingering.",
+      "translation_ko": "의사가 이를 뽑아 주는 꿈은, 위중한 병을 앓을 조짐이다 — 치명적이지 않더라도 오래 끌 것이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "이를 때움",
+    "interpretation_ko": "한참 불안해한 뒤 잃어버린 귀중품을 되찾을 조짐",
+    "interpretation_en": "you will recover lost valuables after much uneasiness",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "To have them filled, you will recover lost valuables after much uneasiness.",
+      "translation_ko": "이를 때우는 꿈은, 한참 불안해한 뒤 잃어버린 귀중품을 되찾을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "틀니를 해 넣음",
+    "interpretation_ko": "무거운 시련이 닥치나 떨쳐내려 애쓸 조짐",
+    "interpretation_en": "severe crosses will fall upon you, and you will strive to throw them aside",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "To dream that you are having a set of teeth made, denotes that severe crosses will fall upon you, and you will strive to throw them aside.",
+      "translation_ko": "틀니를 해 넣는 꿈은, 무거운 시련이 닥치나 떨쳐내려 애쓸 조짐이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "이가 얻어맞아 빠짐",
+    "interpretation_ko": "갑작스러운 불운의 조짐 — 사업이 어려워지거나 가까운 이에게 죽음이나 사고가 닥칠 것",
+    "interpretation_en": "sudden misfortune; either your business will suffer, or deaths or accidents will come close to you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "To dream that you have your teeth knocked out, denotes sudden misfortune. Either your business will suffer, or deaths or accidents will come close to you.",
+      "translation_ko": "이가 얻어맞아 빠지는 꿈은, 갑작스러운 불운의 조짐이다 — 사업이 어려워지거나 가까운 이에게 죽음이나 사고가 닥칠 것이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "이를 살펴봄",
+    "interpretation_ko": "적이 가까이 도사리고 있으니 일을 조심하라는 경고",
+    "interpretation_en": "warns you to be careful of your affairs, as enemies are lurking near you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "To examine your teeth, warns you to be careful of your affairs, as enemies are lurking near you.",
+      "translation_ko": "이를 살펴보는 꿈은, 적이 가까이 도사리고 있으니 일을 조심하라는 경고이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "이가 썩어 들쭉날쭉함을 봄",
+    "interpretation_ko": "사업이나 건강이 극심한 부담으로 힘들어질 조짐",
+    "interpretation_en": "your business or health will suffer from intense strains",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "If they appear decayed and snaggled, your business or health will suffer from intense strains.",
+      "translation_ko": "이가 썩어 들쭉날쭉해 보이는 꿈은, 사업이나 건강이 극심한 부담으로 힘들어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "이를 뱉어냄",
+    "interpretation_ko": "자신이나 가까운 가족의 병을 예고하는 조짐",
+    "interpretation_en": "portends personal sickness, or sickness in your immediate family",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "To dream of spitting out teeth, portends personal sickness, or sickness in your immediate family.",
+      "translation_ko": "이를 뱉어내는 꿈은, 자신이나 가까운 가족의 병을 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "이가 온전치 않음을 봄",
+    "interpretation_ko": "가장 나쁜 꿈 가운데 하나 — 재산을 잃고 뜻한 바를 이루지 못하며, 건강한 이라도 신경이 쇠약해질 조짐으로 가득함",
+    "interpretation_en": "one of the worst dreams, full of mishaps: loss of estates, failure to carry out plans, bad health, depressed conditions of the nervous system even for healthy persons",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "Imperfect teeth is one of the worst dreams. It is full of mishaps for the dreamer. A loss of estates, failure of persons to carry out their plans and desires, bad health, depressed conditions of the nervous system for even healthy persons.",
+      "translation_ko": "이가 온전치 않은 꿈은 가장 나쁜 꿈 가운데 하나이다 — 재산을 잃고 뜻한 바를 이루지 못하며, 건강한 이라도 신경이 쇠약해질 조짐으로 가득하다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "이가 모두 빠짐",
+    "interpretation_ko": "죽음과 기근이 널리 퍼질 조짐",
+    "interpretation_en": "death and famine usually will prevail",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "Seeing all the teeth drop out, death and famine usually will prevail.",
+      "translation_ko": "이가 모두 빠지는 것을 보는 꿈은, 죽음과 기근이 널리 퍼질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "치석이 떨어져 이가 희고 온전해짐을 봄",
+    "interpretation_ko": "한때 몸이 편치 않겠으나 곧 지나가고, 처신에 지혜로워지며 소임을 다하는 데서 즐거움을 찾을 조짐",
+    "interpretation_en": "a sign of temporary indisposition which will pass, leaving you wiser in regard to conduct, and you will find enjoyment in the discharge of duty",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "To dream of tartar or any deposit falling off of the teeth and leaving them sound and white, is a sign of temporary indisposition, which will pass, leaving you wiser in regard to conduct, and you will find enjoyment in the discharge of duty.",
+      "translation_ko": "치석이나 이물질이 이에서 떨어져 나가 희고 온전해지는 것을 보는 꿈은, 한때 몸이 편치 않겠으나 곧 지나가고 처신에 지혜로워지며 소임을 다하는 데서 즐거움을 찾을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "희고 아름다운 이를 스스로 대견해함",
+    "interpretation_ko": "바라던 바를 이루어 즐거운 일과 큰 행복을 누릴 조짐",
+    "interpretation_en": "pleasant occupations and much happiness will be experienced through the fulfilment of wishes",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "To admire your teeth for their whiteness and beauty, foretells that pleasant occupations and much happiness will be experienced through the fulfilment of wishes.",
+      "translation_ko": "희고 아름다운 이를 스스로 대견해하는 꿈은, 바라던 바를 이루어 즐거운 일과 큰 행복을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "이를 뽑아 잃어버리고 찾지 못해 수수께끼로 남음",
+    "interpretation_ko": "탐탁잖은 계약에 발을 들이게 될 조짐 — 처음엔 무시하려 하나 나중에 몰래 이어가며, 벗들의 의심을 사면서도 스스로는 개운치 않은 만족을 얻을 것",
+    "interpretation_en": "you are about to enter into some engagement which does not exactly please you, and which you decide to ignore, but will later take it up and secretly prosecute it to your own disquieting satisfaction and under the suspicion of friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "To dream that you pull one of your teeth and lose it, and feeling within your mouth with your tongue for the cavity, and failing to find any, and have a doctor for the same, but to no effect, leaving the whole affair enveloped in mystery, denotes that you are about to enter into some engagement which does not exactly please you, and which you decide to ignore, but will later take it up and secretly prosecute it to your own disquieting satisfaction and under the suspicion of friends.",
+      "translation_ko": "이를 뽑아 잃어버리고, 혀로 빈자리를 더듬어도 찾지 못하며, 의사에게 보여도 소용없어 온통 수수께끼로 남는 꿈은, 탐탁잖은 계약에 발을 들이게 될 조짐이다 — 처음엔 무시하려 하나 나중에 몰래 이어가며, 벗들의 의심을 사면서도 스스로는 개운치 않은 만족을 얻을 것이다"
+    }
+  },
+  {
+    "term_ko": "이",
+    "term_en": "teeth",
+    "context": "치과의사가 이를 완벽히 닦아 주었는데 다음날 녹슬어 있음을 봄",
+    "interpretation_ko": "누군가의 마음이나 자리를 믿어도 좋다고 여기지만, 실은 교활한 이의 꾐에 넘어갔음을 알게 될 조짐",
+    "interpretation_en": "you will believe your interest secure concerning some person or position, but you will find that they have succumbed to the blandishments of an artful man or woman",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Teeth",
+      "original": "To dream that a dentist cleans your teeth perfectly, and the next morning you find them rusty, foretells you will believe your interest secure concerning some person or position, but you will find that they have succumbed to the blandishments of an artful man or woman.",
+      "translation_ko": "치과의사가 이를 완벽히 닦아 주었는데 다음날 아침 녹슬어 있는 것을 보는 꿈은, 누군가의 마음이나 자리를 믿어도 좋다고 여기지만 실은 교활한 이의 꾐에 넘어갔음을 알게 될 조짐이다"
+    }
+  }
+]

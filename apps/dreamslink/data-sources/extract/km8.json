@@ -841,7 +841,8 @@
       "이빨",
       "어금니",
       "앞니",
-      "송곳니"
+      "송곳니",
+      "틀니"
     ],
     "aliases_en": [
       "a tooth",
@@ -850,12 +851,38 @@
       "incisor"
     ],
     "contexts": {
-      "이가 저절로 빠짐": "빠졌 빠짐 저절로 흔들리",
-      "빠진 이가 다시 남": "다시 새로 돋아 자라"
+      "이가 저절로 빠짐": "저절로 흔들리",
+      "빠진 이가 다시 남": "다시 새로 돋아 자라",
+      "의사가 이를 뽑아 줌": "의사가 뽑아",
+      "이를 때움": "때웠 때움",
+      "틀니를 해 넣음": "틀니",
+      "이가 얻어맞아 빠짐": "얻어맞아",
+      "이를 살펴봄": "살펴봄 살펴보",
+      "이가 썩어 들쭉날쭉함을 봄": "들쭉날쭉",
+      "이를 뱉어냄": "뱉어냄 뱉어",
+      "이가 온전치 않음을 봄": "온전치",
+      "이가 모두 빠짐": "모두 전부",
+      "치석이 떨어져 이가 희고 온전해짐을 봄": "치석",
+      "희고 아름다운 이를 스스로 대견해함": "대견해 자랑스러워",
+      "이를 뽑아 잃어버리고 찾지 못해 수수께끼로 남음": "수수께끼 잃어버렸",
+      "치과의사가 이를 완벽히 닦아 주었는데 다음날 녹슬어 있음을 봄": "녹슬어 치과의사"
     },
     "contexts_en": {
       "이가 저절로 빠짐": "fell falling loose",
-      "빠진 이가 다시 남": "grew regrew new"
+      "빠진 이가 다시 남": "grew regrew new",
+      "의사가 이를 뽑아 줌": "doctor pulls desperate",
+      "이를 때움": "filled recover valuables",
+      "틀니를 해 넣음": "denture made crosses",
+      "이가 얻어맞아 빠짐": "knocked sudden misfortune",
+      "이를 살펴봄": "examine enemies lurking",
+      "이가 썩어 들쭉날쭉함을 봄": "decayed snaggled strains",
+      "이를 뱉어냄": "spitting sickness family",
+      "이가 온전치 않음을 봄": "imperfect worst mishaps",
+      "이가 모두 빠짐": "drop famine prevail",
+      "치석이 떨어져 이가 희고 온전해짐을 봄": "tartar deposit indisposition",
+      "희고 아름다운 이를 스스로 대견해함": "admire whiteness beauty",
+      "이를 뽑아 잃어버리고 찾지 못해 수수께끼로 남음": "cavity mystery engagement",
+      "치과의사가 이를 완벽히 닦아 주었는데 다음날 녹슬어 있음을 봄": "dentist perfectly rusty"
     }
   },
   {
