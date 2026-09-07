@@ -255,7 +255,10 @@
       "굵은 밧줄",
       "쇠줄",
       "전보",
-      "해저 케이블"
+      "해저 케이블",
+      "전신국",
+      "전신 사무소",
+      "전신기사"
     ],
     "aliases_en": [
       "a cable",
@@ -265,11 +268,17 @@
     ],
     "contexts": {
       "케이블을 봄": "굵은 밧줄 쇠줄 늘어진",
-      "해외 전보를 받음": "전보 전문 받았 받는 도착한"
+      "해외 전보를 받음": "전문 받았 받는 도착한",
+      "전보를 보냄": "보냄 보냈",
+      "스스로 전신기사가 되어 메시지를 보냄": "전신기사",
+      "전신국에 있음을 봄": "전신국 사무소"
     },
     "contexts_en": {
       "케이블을 봄": "rope hazardous stout undertaking",
-      "해외 전보를 받음": "message receiving telegram important"
+      "해외 전보를 받음": "message receiving telegram important",
+      "전보를 보냄": "send estranged disappoint",
+      "스스로 전신기사가 되어 메시지를 보냄": "operator affected interest",
+      "전신국에 있음을 봄": "telegraph office engagements"
     }
   },
   {

@@ -7891,5 +7891,26 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "teasing": [
     "teasing",
     "teased"
+  ],
+  "telephone": [
+    "telephone",
+    "a telephone"
+  ],
+  "temptation": [
+    "temptation",
+    "temptations"
+  ],
+  "tent": [
+    "tent",
+    "a tent",
+    "tents"
+  ],
+  "sermon-text": [
+    "a text",
+    "sermon text"
+  ],
+  "thaw": [
+    "thaw",
+    "thawing"
   ]
 };

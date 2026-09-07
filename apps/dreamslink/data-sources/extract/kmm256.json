@@ -77,11 +77,13 @@
     ],
     "contexts": {
       "망원경으로 봄": "들여다",
-      "부서지거나 흠집 난 망원경을 봄": "부서지거나 흠집"
+      "부서지거나 흠집 난 망원경을 봄": "부서지거나 흠집",
+      "망원경으로 별과 행성을 봄": "별과 행성을"
     },
     "contexts_en": {
       "망원경으로 봄": "looking disadvantage",
-      "부서지거나 흠집 난 망원경을 봄": "broken imperfect dissensions"
+      "부서지거나 흠집 난 망원경을 봄": "broken imperfect dissensions",
+      "망원경으로 별과 행성을 봄": "planets stars journeys"
     }
   },
   {

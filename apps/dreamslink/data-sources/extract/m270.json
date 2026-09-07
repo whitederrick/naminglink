@@ -1,0 +1,332 @@
+[
+  {
+    "term_ko": "케이블",
+    "term_en": "cable",
+    "context": "스스로 전신기사가 되어 메시지를 보냄",
+    "interpretation_ko": "남의 관심을 통해서만 영향을 받을 것",
+    "interpretation_en": "you will be affected by them only through the interest of others",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Telegram",
+      "original": "If you are the operator sending these messages, you will be affected by them only through the interest of others.",
+      "translation_ko": "스스로 전신기사가 되어 메시지를 보내는 꿈은, 남의 관심을 통해서만 영향을 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "케이블",
+    "term_en": "cable",
+    "context": "전보를 보냄",
+    "interpretation_ko": "가까운 이와 멀어지거나 사업에 실망할 조짐",
+    "interpretation_en": "you will be estranged from some one holding a place near you, or business will disappoint you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Telegram",
+      "original": "To send a telegram is a sign that you will be estranged from some one holding a place near you, or business will disappoint you.",
+      "translation_ko": "전보를 보내는 꿈은, 가까운 이와 멀어지거나 사업에 실망할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "케이블",
+    "term_en": "cable",
+    "context": "전신국에 있음을 봄",
+    "interpretation_ko": "달갑잖은 약속에 얽힐 조짐",
+    "interpretation_en": "foretells unfortunate engagements",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Telegram",
+      "original": "To see or be in a telegraph office, foretells unfortunate engagements.",
+      "translation_ko": "전신국을 보거나 그 안에 있는 꿈은, 달갑잖은 약속에 얽힐 조짐이다"
+    }
+  },
+  {
+    "term_ko": "전화",
+    "term_en": "telephone",
+    "context": "전화 꿈을 꿈",
+    "interpretation_ko": "일에서 저를 성가시게 하고 어리둥절하게 만들 낯선 이들을 만날 조짐",
+    "interpretation_en": "you will meet strangers who will harass and bewilder you in your affairs",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Telephone",
+      "original": "To dream of a telephone, foretells you will meet strangers who will harass and bewilder you in your affairs.",
+      "translation_ko": "전화 꿈은, 일에서 저를 성가시게 하고 어리둥절하게 만들 낯선 이들을 만날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "전화",
+    "term_en": "telephone",
+    "context": "여성이 전화로 이야기함",
+    "interpretation_ko": "질투 섞인 다툼을 겪으나 온갖 나쁜 기운을 이겨낼 조짐",
+    "interpretation_en": "she will have much jealous rivalry, but will overcome all evil influences",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Telephone",
+      "original": "For a woman to dream of talking over one, denotes she will have much jealous rivalry, but will overcome all evil influences.",
+      "translation_ko": "여성이 전화로 이야기하는 꿈은, 질투 섞인 다툼을 겪으나 온갖 나쁜 기운을 이겨낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "전화",
+    "term_en": "telephone",
+    "context": "여성이 전화로 잘 들리지 않아 애먹음",
+    "interpretation_ko": "나쁜 소문과 연인을 잃을 위협을 받을 조짐",
+    "interpretation_en": "she is threatened with evil gossip, and the loss of a lover",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Telephone",
+      "original": "If she cannot hear well in conversing over one, she is threatened with evil gossip, and the loss of a lover.",
+      "translation_ko": "여성이 전화로 잘 들리지 않아 애먹는 꿈은, 나쁜 소문과 연인을 잃을 위협을 받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "망원경",
+    "term_en": "spyglass",
+    "context": "망원경으로 별과 행성을 봄",
+    "interpretation_ko": "큰 즐거움을 주는 여행이 있겠으나, 나중에 큰 재물 손실을 부를 조짐",
+    "interpretation_en": "journeys which will afford you much pleasure, but later cause you much financial loss",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Telescope",
+      "original": "To look at planets and stars through one, portends for you journeys which will afford you much pleasure, but later cause you much financial loss.",
+      "translation_ko": "망원경으로 별과 행성을 보는 꿈은, 큰 즐거움을 주는 여행이 있겠으나 나중에 큰 재물 손실을 부를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "유혹",
+    "term_en": "temptation",
+    "context": "유혹에 둘러싸임",
+    "interpretation_ko": "벗들의 신뢰에서 자신을 밀어내려는 시샘 많은 이와 곤란을 겪을 조짐",
+    "interpretation_en": "you will be involved in some trouble with an envious person who is trying to displace you in the confidence of friends",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Temptation",
+      "original": "To dream that you are surrounded by temptations, denotes that you will be involved in some trouble with an envious person who is trying to displace you in the confidence of friends.",
+      "translation_ko": "유혹에 둘러싸이는 꿈은, 벗들의 신뢰에서 자신을 밀어내려는 시샘 많은 이와 곤란을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "유혹",
+    "term_en": "temptation",
+    "context": "유혹을 물리침",
+    "interpretation_ko": "큰 반대에 부딪히는 일에서도 성공을 거둘 조짐",
+    "interpretation_en": "you will be successful in some affair in which you have much opposition",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Temptation",
+      "original": "If you resist them, you will be successful in some affair in which you have much opposition.",
+      "translation_ko": "유혹을 물리치는 꿈은, 큰 반대에 부딪히는 일에서도 성공을 거둘 조짐이다"
+    }
+  },
+  {
+    "term_ko": "하숙인",
+    "term_en": "lodger",
+    "context": "스스로 세입자라고 여김",
+    "interpretation_ko": "사업상 시도에서 손실을 입을 조짐",
+    "interpretation_en": "you will suffer loss in experiments of a business character",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tenant",
+      "original": "To imagine you are a tenant, foretells you will suffer loss in experiments of a business character.",
+      "translation_ko": "스스로 세입자라고 여기는 꿈은, 사업상 시도에서 손실을 입을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나인핀즈",
+    "term_en": "ninepins",
+    "context": "남이 구주희 하는 것을 봄",
+    "interpretation_ko": "경박한 이들과 어울리며 즐거워하다 일자리를 잃기 쉬운 조짐",
+    "interpretation_en": "you will find pleasure in frivolous people and likely lose employment",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tenpins",
+      "original": "To see others engaged in this dream, foretells that you will find pleasure in frivolous people and likely lose employment.",
+      "translation_ko": "남이 구주희 하는 것을 보는 꿈은, 경박한 이들과 어울리며 즐거워하다 일자리를 잃기 쉬운 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나인핀즈",
+    "term_en": "ninepins",
+    "context": "여성이 구주희에서 성공함",
+    "interpretation_ko": "가벼운 즐거움의 전조이나 나중에 슬픔이 뒤따를 조짐",
+    "interpretation_en": "an omen of light pleasures, but sorrow will attend her later",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tenpins",
+      "original": "For a young woman to play a successful game of tenpins, is an omen of light pleasures, but sorrow will attend her later.",
+      "translation_ko": "여성이 구주희에서 성공하는 꿈은, 가벼운 즐거움의 전조이나 나중에 슬픔이 뒤따를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "텐트",
+    "term_en": "tent",
+    "context": "텐트 안에 있음",
+    "interpretation_ko": "일에 변화가 있을 조짐",
+    "interpretation_en": "foretells a change in your affairs",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tent",
+      "original": "To dream of being in a tent, foretells a change in your affairs.",
+      "translation_ko": "텐트 안에 있는 꿈은, 일에 변화가 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "텐트",
+    "term_en": "tent",
+    "context": "텐트 여러 채를 봄",
+    "interpretation_ko": "달갑잖은 일행과 함께 떠날 여행의 조짐",
+    "interpretation_en": "denotes journeys with unpleasant companions",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tent",
+      "original": "To see a number of tents, denotes journeys with unpleasant companions.",
+      "translation_ko": "텐트 여러 채를 보는 꿈은, 달갑잖은 일행과 함께 떠날 여행의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "텐트",
+    "term_en": "tent",
+    "context": "텐트가 찢어지거나 낡음",
+    "interpretation_ko": "곤란을 겪을 조짐",
+    "interpretation_en": "there will be trouble for you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tent",
+      "original": "If the tents are torn or otherwise dilapidated, there will be trouble for you.",
+      "translation_ko": "텐트가 찢어지거나 낡은 것을 보는 꿈은, 곤란을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "설교 본문",
+    "term_en": "sermon-text",
+    "context": "설교 본문을 두고 다툼",
+    "interpretation_ko": "불행한 일을 겪을 조짐",
+    "interpretation_en": "foretells unfortunate adventures for you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Text",
+      "original": "To dream that you are in a dispute about a text, foretells unfortunate adventures for you.",
+      "translation_ko": "설교 본문을 두고 다투는 꿈은, 불행한 일을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "설교 본문",
+    "term_en": "sermon-text",
+    "context": "설교 본문을 떠올리려 애씀",
+    "interpretation_ko": "뜻밖의 어려움을 만날 조짐",
+    "interpretation_en": "you will meet with unexpected difficulties",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Text",
+      "original": "If you try to recall a text, you will meet with unexpected difficulties.",
+      "translation_ko": "설교 본문을 떠올리려 애쓰는 꿈은, 뜻밖의 어려움을 만날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "설교 본문",
+    "term_en": "sermon-text",
+    "context": "설교 본문을 되뇌며 곱씹음",
+    "interpretation_ko": "바라는 바를 이루려면 큰 장애를 넘어야 할 조짐",
+    "interpretation_en": "you will have great obstacles to overcome if you gain your desires",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Text",
+      "original": "If you are repeating and pondering over one, you will have great obstacles to overcome if you gain your desires.",
+      "translation_ko": "설교 본문을 되뇌며 곱씹는 꿈은, 바라는 바를 이루려면 큰 장애를 넘어야 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "쉬 썩는 재료로 지붕을 이음",
+    "interpretation_ko": "슬픔과 불편이 둘러쌀 조짐",
+    "interpretation_en": "sorrow and discomfort will surround you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Thatch",
+      "original": "To dream that you thatch a roof with any quickly, perishable material, denotes that sorrow and discomfort will surround you.",
+      "translation_ko": "쉬 썩는 재료로 지붕을 이는 꿈은, 슬픔과 불편이 둘러쌀 조짐이다"
+    }
+  },
+  {
+    "term_ko": "집",
+    "term_en": "house",
+    "context": "짚으로 이은 지붕이 새는 것을 봄",
+    "interpretation_ko": "위험이 닥칠 조짐이나, 바르게 힘쓰면 벗어날 수 있음",
+    "interpretation_en": "there will be threatenings of danger, but by your rightly directed energy they may be averted",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Thatch",
+      "original": "If you find that a roof which you have thatched with straw is leaking, there will be threatenings of danger, but by your rightly directed energy they may be averted.",
+      "translation_ko": "짚으로 이은 지붕이 새는 것을 보는 꿈은, 위험이 닥칠 조짐이나 바르게 힘쓰면 벗어날 수 있다"
+    }
+  },
+  {
+    "term_ko": "해빙",
+    "term_en": "thaw",
+    "context": "얼음이 녹는 것을 봄",
+    "interpretation_ko": "걱정을 안기던 일이 곧 이득과 즐거움을 줄 조짐",
+    "interpretation_en": "some affair which has caused you much worry will soon give you profit and pleasure",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Thaw",
+      "original": "To dream of seeing ice thawing, foretells that some affair which has caused you much worry will soon give you profit and pleasure.",
+      "translation_ko": "얼음이 녹는 것을 보는 꿈은, 걱정을 안기던 일이 곧 이득과 즐거움을 줄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "해빙",
+    "term_en": "thaw",
+    "context": "오랜 추위 끝에 땅이 녹는 것을 봄",
+    "interpretation_ko": "번영할 형편의 조짐",
+    "interpretation_en": "foretells prosperous circumstances",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Thaw",
+      "original": "To see the ground thawing after a long freeze, foretells prosperous circumstances.",
+      "translation_ko": "오랜 추위 끝에 땅이 녹는 것을 보는 꿈은, 번영할 형편의 조짐이다"
+    }
+  }
+]

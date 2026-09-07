@@ -14,12 +14,14 @@
     "contexts": {
       "하숙인을 둠": "두었 들였 받았",
       "하숙인이 셈을 안 치르고 떠남": "떠났 도망 밀린",
-      "하숙인이 셈을 치름": "치렀 냈다 지불"
+      "하숙인이 셈을 치름": "치렀 냈다 지불",
+      "스스로 세입자라고 여김": "스스로 여김"
     },
     "contexts_en": {
       "하숙인을 둠": "burdened unpleasant secrets",
       "하숙인이 셈을 안 치르고 떠남": "away paying unexpected trouble",
-      "하숙인이 셈을 치름": "bill favor accumulation"
+      "하숙인이 셈을 치름": "bill favor accumulation",
+      "스스로 세입자라고 여김": "imagine tenant experiments"
     }
   }
 ]

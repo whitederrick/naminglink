@@ -99,8 +99,16 @@
     "aliases_en": [
       "ninepin"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "구주희를 함": "어리석게 허비",
+      "남이 구주희 하는 것을 봄": "남이 하는",
+      "여성이 구주희에서 성공함": "여성이 성공"
+    },
+    "contexts_en": {
+      "구주희를 함": "foolishly wasting opportunity",
+      "남이 구주희 하는 것을 봄": "others frivolous employment",
+      "여성이 구주희에서 성공함": "young woman successful"
+    }
   },
   {
     "id": "nobility",
