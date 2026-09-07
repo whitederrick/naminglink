@@ -1227,8 +1227,18 @@
       "took his own life",
       "self-harm"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "칼을 들고 스스로를 찌름": "칼을",
+      "스스로 목숨을 끊음": "그냥",
+      "남이 스스로 목숨을 끊는 것을 보거나 들음": "남이 들었다",
+      "여성이 애인이 스스로 목숨을 끊는 꿈을 꿈": "애인이 여성이"
+    },
+    "contexts_en": {
+      "칼을 들고 스스로를 찌름": "knife stabbed",
+      "스스로 목숨을 끊음": "misfortune hang heavily",
+      "남이 스스로 목숨을 끊는 것을 보거나 들음": "others failure interests",
+      "여성이 애인이 스스로 목숨을 끊는 꿈을 꿈": "lover faithlessness accentuated"
+    }
   },
   {
     "id": "thunderbolt",

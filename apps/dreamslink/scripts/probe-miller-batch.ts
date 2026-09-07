@@ -1,13 +1,15 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 261 — 새 상징 여섯(strawberries·street·
-// street-poster·struggling·stumble·stumps)을 세우고, 기존 nursing·
-// smoke 둘에 문맥을 보탰다. Suckle·Suffocating 은 원문 각주가 각각
-// "See Nursing"·"See Smoke"로 가리켜 그대로 따랐다 — Suffocating은
-// 본문에 "연기"가 안 나오지만 smoke 에 "질식"·"숨이 막히는" 별칭을
-// 더해 걸리게 했다. struggling(몸부림)이 기존 agony(고통)의 별칭
-// "몸부림"과, street(EN)가 road(길)의 EN 별칭 "street"와 겹치지만
-// 둘 다 진짜 동의어 관계라 그대로 뒀다(참고 목록에만 남고 하드
-// 실패는 아니다).
+// (지금 담긴 것: 배치 262 — 새 상징 둘(sugar·sugar-tongs)을 세우고,
+// 기존 taking-one-s-own-life·brimstone·sun·umbrella 넷에 문맥을
+// 보탰다. Sunshade 는 처음에 term_en 을 "sunshade"로 잘못 적어
+// umbrella 와 안 합쳐지고 새 상징이 조용히 하나 더 생겼다 — 조립
+// 직후 상징 수 증가분(+3)이 새 심볼 수(2)와 안 맞는 것을 보고
+// 잡았다(term_en 을 "umbrella"로 고침). taking-one-s-own-life 는
+// **바꾼 것**(옛 zhougong 기본값이 특이한 좁은 그림이라 밀러의
+// 조건 없는 「스스로 목숨을 끊음」으로), brimstone·sun 은 **있던
+// 답 그대로** 얼렸다. Sulphur·Sun 나머지 문장들은 각각 기존
+// brimstone·sun 의 zhougong/밀러 그림과 같은 그림·다른 풀이라
+// 대부분 건너뛰었다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -38,29 +40,29 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 261 새 문맥 (16건) ──────────────────────────────────────────────
-  { id: "strawberries", ctx: "딸기 꿈을 꿈", text: "딸기 꿈을 꾸었다" },
-  { id: "strawberries", ctx: "딸기를 먹음", text: "딸기를 먹었다" },
-  { id: "strawberries", ctx: "딸기를 거래함", text: "딸기를 거래했다" },
-  { id: "street", ctx: "거리를 걸음", text: "거리를 걸었다" },
-  { id: "street", ctx: "낯선 도시의 낯익은 거리가 어둡게 보임", text: "낯선 도시의 어둡게 보이는 거리에 있었다" },
-  { id: "street", ctx: "거리가 환하게 불 밝혀져 있음", text: "거리가 환하게 밝혀져 있었다" },
-  { id: "street", ctx: "거리를 지나며 불량배가 덮칠까 겁냄", text: "거리를 지나며 불량배가 덮칠까 겁냈다" },
-  { id: "street-poster", ctx: "스스로 거리 벽보 붙이는 사람이 됨", text: "스스로 거리 벽보 붙이는 사람이 되었다" },
-  { id: "street-poster", ctx: "거리 벽보 붙이는 사람이 일하는 것을 봄", text: "거리 벽보 붙이는 사람이 일하는 것을 보았다" },
-  { id: "struggling", ctx: "몸부림치는 꿈을 꿈", text: "몸부림치는 꿈을 꾸었다" },
-  { id: "stumble", ctx: "걷거나 뛰다가 걸려 넘어질 뻔함", text: "걷다가 걸려 넘어질 뻔했다" },
-  { id: "stumps", ctx: "그루터기 꿈을 꿈", text: "그루터기 꿈을 꾸었다" },
-  { id: "stumps", ctx: "그루터기로 가득한 들판을 봄", text: "그루터기로 가득한 들판을 보았다" },
-  { id: "stumps", ctx: "그루터기를 파거나 뽑아냄", text: "그루터기를 파거나 뽑아냈다" },
-  { id: "nursing", ctx: "새끼(아기)가 젖을 먹는 것을 봄", text: "새끼가 젖을 먹는 것을 보았다" },
-  { id: "smoke", ctx: "스스로 숨이 막히는 느낌을 받음", text: "스스로 숨이 막히는 느낌을 받았다" },
+  // ── 배치 262 새 문맥 (14건) ──────────────────────────────────────────────
+  { id: "sugar", ctx: "설탕 꿈을 꿈", text: "설탕 꿈을 꾸었다" },
+  { id: "sugar", ctx: "설탕을 먹음", text: "설탕을 먹었다" },
+  { id: "sugar", ctx: "설탕값을 매김", text: "설탕값을 매겼다" },
+  { id: "sugar", ctx: "설탕을 거래하며 많은 양이 배달되어 옴을 봄", text: "설탕을 거래하며 많은 양이 배달되어 오는 것을 보았다" },
+  { id: "sugar", ctx: "설탕통이 터져 설탕이 쏟아지는 것을 봄", text: "설탕통이 터져 설탕이 쏟아지는 것을 보았다" },
+  { id: "sugar", ctx: "누군가 노래를 부르며 설탕 짐을 부리는 것을 들음", text: "누군가 노래를 부르며 설탕 짐을 부리는 것을 들었다" },
+  { id: "sugar-tongs", ctx: "설탕집게 꿈을 꿈", text: "설탕집게 꿈을 꾸었다" },
+  { id: "taking-one-s-own-life", ctx: "스스로 목숨을 끊음", text: "스스로 목숨을 끊었다" },
+  { id: "taking-one-s-own-life", ctx: "남이 스스로 목숨을 끊는 것을 보거나 들음", text: "남이 스스로 목숨을 끊는 것을 보았다" },
+  { id: "taking-one-s-own-life", ctx: "여성이 애인이 스스로 목숨을 끊는 꿈을 꿈", text: "여성이 애인이 스스로 목숨을 끊는 꿈을 꾸었다" },
+  { id: "brimstone", ctx: "유황을 먹음", text: "유황을 먹었다" },
+  { id: "sun", ctx: "한낮에 뜬 해를 봄", text: "한낮에 뜬 해를 보았다" },
+  { id: "umbrella", ctx: "어린 소녀들이 양산을 든 것을 봄", text: "어린 소녀들이 양산을 든 것을 보았다" },
+  { id: "umbrella", ctx: "부서진 양산을 봄", text: "부서진 양산을 보았다" },
 
-  // ── 지킴 케이스 — 이번에 손댄 기존 상징(nursing·smoke)의 옛 답이 그대로인지 ──
-  { id: "nursing", ctx: "여성이 제 아기에게 젖을 물림", text: "여성이 제 아기에게 젖을 물렸다" },
-  { id: "nursing", ctx: "처녀가 아기에게 젖을 물림", text: "처녀가 아기에게 젖을 물렸다" },
-  { id: "smoke", ctx: "연기 꿈을 꿈", text: "연기 꿈을 꾸었다" },
-  { id: "smoke", ctx: "연기에 휩싸임", text: "연기에 휩싸였다" },
+  // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────────
+  { id: "taking-one-s-own-life", ctx: "칼을 들고 스스로를 찌름", text: "칼을 들고 스스로 목숨을 끊었다" },
+  { id: "brimstone", ctx: "유황 꿈을 꿈", text: "유황 꿈을 꾸었다" },
+  { id: "brimstone", ctx: "유황불을 봄", text: "유황불을 보았다" },
+  { id: "sun", ctx: "해가 막 떠오름", text: "해가 막 떠올랐다" },
+  { id: "umbrella", ctx: "기혼자가 양산 꿈을 꿈", text: "기혼자가 양산 꿈을 꾸었다" },
+  { id: "umbrella", ctx: "처녀가 양산 꿈을 꿈", text: "처녀가 양산 꿈을 꾸었다" },
 ];
 
 let notFound = 0;

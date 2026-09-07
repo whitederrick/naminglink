@@ -83,7 +83,8 @@
       "해가 떠서 빛이 남": "빛나 환하게 눈부시 찬란",
       "구름이 걷히고 해가 떠오름": "걷히고 걷혀 개어 개이 갠뒤",
       "해가 품 안으로 들어옴": "품속 품안 가슴속 품으로",
-      "해가 구름에 갑자기 가려짐": "가려 가리 구름에 뒤덮 갑자기"
+      "해가 구름에 갑자기 가려짐": "가려 가리 구름에 뒤덮 갑자기",
+      "한낮에 뜬 해를 봄": "한낮 정오"
     },
     "contexts_en": {
       "해가 막 떠오름": "rose rising dawn daybreak morning",
@@ -101,7 +102,8 @@
       "해가 떠서 빛이 남": "shining brilliant dazzling radiance glowed",
       "구름이 걷히고 해가 떠오름": "cleared parted lifted broke",
       "해가 품 안으로 들어옴": "bosom chest embraced hugged",
-      "해가 구름에 갑자기 가려짐": "covered hidden obscured blocked suddenly"
+      "해가 구름에 갑자기 가려짐": "covered hidden obscured blocked suddenly",
+      "한낮에 뜬 해를 봄": "noontide maturity ambitions"
     }
   },
   {
@@ -1239,12 +1241,16 @@
     "contexts": {
       "기혼자가 양산 꿈을 꿈": "기혼자 부적절한 즐거움",
       "처녀가 양산 꿈을 꿈": "처녀 밀회 들킬까",
-      "남과 우산을 나눔": "나눠 흩어질"
+      "남과 우산을 나눔": "나눠 흩어질",
+      "어린 소녀들이 양산을 든 것을 봄": "소녀들이 들고",
+      "부서진 양산을 봄": "부서진"
     },
     "contexts_en": {
       "기혼자가 양산 꿈을 꿈": "married illicit enjoyments",
       "처녀가 양산 꿈을 꿈": "young woman flirtations lover",
-      "남과 우산을 나눔": "sharing parting scattering"
+      "남과 우산을 나눔": "sharing parting scattering",
+      "어린 소녀들이 양산을 든 것을 봄": "girls carrying prosperity",
+      "부서진 양산을 봄": "broken sickness death"
     }
   },
   {

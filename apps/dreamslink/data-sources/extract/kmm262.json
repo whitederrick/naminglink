@@ -1,0 +1,43 @@
+[
+  {
+    "id": "sugar",
+    "aliases": [
+      "설탕이",
+      "설탕을",
+      "각설탕",
+      "설탕값을"
+    ],
+    "aliases_en": [
+      "sugar"
+    ],
+    "contexts": {
+      "설탕 꿈을 꿈": "그냥",
+      "설탕을 먹음": "먹었다 먹는",
+      "설탕값을 매김": "값을 매겼",
+      "설탕을 거래하며 많은 양이 배달되어 옴을 봄": "배달되어 많은",
+      "설탕통이 터져 설탕이 쏟아지는 것을 봄": "터져 쏟아지는",
+      "누군가 노래를 부르며 설탕 짐을 부리는 것을 들음": "노래를 부르며"
+    },
+    "contexts_en": {
+      "설탕 꿈을 꿈": "domestic jealousy satisfaction",
+      "설탕을 먹음": "eat unpleasant expected",
+      "설탕값을 매김": "price menaced enemies",
+      "설탕을 거래하며 많은 양이 배달되어 옴을 봄": "quantities delivered barely",
+      "설탕통이 터져 설탕이 쏟아지는 것을 봄": "cask burst spilling",
+      "누군가 노래를 부르며 설탕 짐을 부리는 것을 들음": "singing unloading insignificant"
+    }
+  },
+  {
+    "id": "sugar-tongs",
+    "aliases": [
+      "설탕집게가",
+      "설탕집게를"
+    ],
+    "aliases_en": [
+      "sugar-tongs",
+      "sugar tongs"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

@@ -182,6 +182,7 @@
     "m26.json",
     "m260.json",
     "m261.json",
+    "m262.json",
     "m27a.json",
     "m27b.json",
     "m28.json",
@@ -8732,6 +8733,267 @@
       ]
     },
     {
+      "id": "sun",
+      "term_ko": "해",
+      "term_en": "sun",
+      "aliases": [
+        "태양",
+        "햇빛",
+        "햇살",
+        "해님"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [
+        "태몽"
+      ],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "해가 막 떠오름",
+          "interpretation_ko": "집안이 번창할 조짐",
+          "interpretation_en": "a sign that the household will prosper",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月初出家道昌",
+              "translation_ko": "해와 달이 처음 떠오르면 집안이 창성한다"
+            }
+          ]
+        },
+        {
+          "context": "한낮에 뜬 해를 봄",
+          "interpretation_ko": "품은 뜻이 무르익고 더없는 만족을 알리는 조짐",
+          "interpretation_en": "denotes the maturity of ambitions and signals unbounded satisfaction",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sun",
+              "original": "To see the sun at noontide, denotes the maturity of ambitions and signals unbounded satisfaction.",
+              "translation_ko": "한낮에 뜬 해를 보는 꿈은, 품은 뜻이 무르익고 더없는 만족을 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "햇빛이 몸을 비춤",
+          "interpretation_ko": "중한 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining an important position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月照身得重位",
+              "translation_ko": "해와 달이 몸을 비추면 중한 지위를 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "해가 떨어짐",
+          "interpretation_ko": "부모를 잃을 근심이 있을 조짐",
+          "interpretation_en": "a sign of grief over losing one's parents",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月落憂沒父母",
+              "translation_ko": "해와 달이 떨어지면 부모를 잃을 근심이 있다"
+            }
+          ]
+        },
+        {
+          "context": "해가 어둑하게 흐림",
+          "interpretation_ko": "임신한 부인에게 길한 조짐",
+          "interpretation_en": "an auspicious sign for a pregnant woman",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月昏暗孕婦吉",
+              "translation_ko": "해와 달이 어두우면 임신한 부인에게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "해가 막 떠오르려 함",
+          "interpretation_ko": "관직을 얻을 조짐",
+          "interpretation_en": "a sign of obtaining a government post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月欲出有官職",
+              "translation_ko": "해와 달이 떠오르려 하면 관직이 있다"
+            }
+          ]
+        },
+        {
+          "context": "해와 달이 한자리에서 만남",
+          "interpretation_ko": "아내가 아이를 가질 조짐",
+          "interpretation_en": "a sign that one's wife will conceive a child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月合會妻有子",
+              "translation_ko": "해와 달이 합하여 만나면 아내가 아이를 갖는다"
+            }
+          ]
+        },
+        {
+          "context": "해가 산에 걸림",
+          "interpretation_ko": "아랫사람이 주인을 속일 조짐",
+          "interpretation_en": "a sign that a servant will deceive the master",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日月啣山奴欺主",
+              "translation_ko": "해와 달이 산에 걸리면 종이 주인을 속인다"
+            }
+          ]
+        },
+        {
+          "context": "해를 등에 지거나 품에 안음",
+          "interpretation_ko": "왕후처럼 귀해질 조짐",
+          "interpretation_en": "a sign of becoming as noble as a lord",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "負抱日月貴侯王",
+              "translation_ko": "해와 달을 지거나 안으면 왕후처럼 귀해진다"
+            }
+          ]
+        },
+        {
+          "context": "해를 삼킴",
+          "interpretation_ko": "귀한 아들을 낳을 조짐",
+          "interpretation_en": "a sign of bearing a noble son",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "吞日月當生貴子",
+              "translation_ko": "해와 달을 삼키면 귀한 아들을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "해에 절하여 예를 올림",
+          "interpretation_ko": "크게 길하고 창성할 조짐",
+          "interpretation_en": "a sign of great fortune and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "禮拜日月大吉昌",
+              "translation_ko": "해와 달에 절하면 크게 길하고 창성한다"
+            }
+          ]
+        },
+        {
+          "context": "햇빛이 집 안으로 들어옴",
+          "interpretation_ko": "관직이 이를 조짐",
+          "interpretation_en": "a sign that an official post will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日光入屋官位至",
+              "translation_ko": "햇빛이 집에 들면 관직이 이른다"
+            }
+          ]
+        },
+        {
+          "context": "해가 처음 떠오르는데 구름 한 점 없음",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日初出無雲大吉",
+              "translation_ko": "해가 처음 떠오르고 구름이 없으면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "해가 떠서 빛이 남",
+          "interpretation_ko": "좋은 일이 있을 조짐",
+          "interpretation_en": "a sign that good things will happen",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日出有光有好事",
+              "translation_ko": "해가 떠 빛이 있으면 좋은 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "구름이 걷히고 해가 떠오름",
+          "interpretation_ko": "흉한 일이 흩어질 조짐",
+          "interpretation_en": "a sign that misfortune will disperse",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "雲開日出凶事散",
+              "translation_ko": "구름이 걷히고 해가 뜨면 흉한 일이 흩어진다"
+            }
+          ]
+        },
+        {
+          "context": "해가 품 안으로 들어옴",
+          "interpretation_ko": "귀한 아들을 낳을 조짐",
+          "interpretation_en": "a sign of bearing a noble son",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "日入懷貴子月女",
+              "translation_ko": "해가 품에 들면 귀한 아들을 낳고 달이 들면 딸을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "해가 구름에 갑자기 가려짐",
+          "interpretation_ko": "은밀한 사사로운 일이 있을 조짐",
+          "interpretation_en": "a sign of a hidden, secret affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "雲忽遮日有陰私",
+              "translation_ko": "구름이 갑자기 해를 가리면 은밀한 사사로움이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cat",
       "term_ko": "고양이",
       "term_en": "cat",
@@ -9972,252 +10234,6 @@
               "locator": "冠帶衣服鞋襪",
               "original": "木履脫時己出厄",
               "translation_ko": "나막신이 벗겨지면 자기가 액에서 벗어난다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sun",
-      "term_ko": "해",
-      "term_en": "sun",
-      "aliases": [
-        "태양",
-        "햇빛",
-        "햇살",
-        "해님"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "해가 막 떠오름",
-          "interpretation_ko": "집안이 번창할 조짐",
-          "interpretation_en": "a sign that the household will prosper",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月初出家道昌",
-              "translation_ko": "해와 달이 처음 떠오르면 집안이 창성한다"
-            }
-          ]
-        },
-        {
-          "context": "햇빛이 몸을 비춤",
-          "interpretation_ko": "중한 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining an important position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月照身得重位",
-              "translation_ko": "해와 달이 몸을 비추면 중한 지위를 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "해가 떨어짐",
-          "interpretation_ko": "부모를 잃을 근심이 있을 조짐",
-          "interpretation_en": "a sign of grief over losing one's parents",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月落憂沒父母",
-              "translation_ko": "해와 달이 떨어지면 부모를 잃을 근심이 있다"
-            }
-          ]
-        },
-        {
-          "context": "해가 어둑하게 흐림",
-          "interpretation_ko": "임신한 부인에게 길한 조짐",
-          "interpretation_en": "an auspicious sign for a pregnant woman",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月昏暗孕婦吉",
-              "translation_ko": "해와 달이 어두우면 임신한 부인에게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "해가 막 떠오르려 함",
-          "interpretation_ko": "관직을 얻을 조짐",
-          "interpretation_en": "a sign of obtaining a government post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月欲出有官職",
-              "translation_ko": "해와 달이 떠오르려 하면 관직이 있다"
-            }
-          ]
-        },
-        {
-          "context": "해와 달이 한자리에서 만남",
-          "interpretation_ko": "아내가 아이를 가질 조짐",
-          "interpretation_en": "a sign that one's wife will conceive a child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月合會妻有子",
-              "translation_ko": "해와 달이 합하여 만나면 아내가 아이를 갖는다"
-            }
-          ]
-        },
-        {
-          "context": "해가 산에 걸림",
-          "interpretation_ko": "아랫사람이 주인을 속일 조짐",
-          "interpretation_en": "a sign that a servant will deceive the master",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日月啣山奴欺主",
-              "translation_ko": "해와 달이 산에 걸리면 종이 주인을 속인다"
-            }
-          ]
-        },
-        {
-          "context": "해를 등에 지거나 품에 안음",
-          "interpretation_ko": "왕후처럼 귀해질 조짐",
-          "interpretation_en": "a sign of becoming as noble as a lord",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "負抱日月貴侯王",
-              "translation_ko": "해와 달을 지거나 안으면 왕후처럼 귀해진다"
-            }
-          ]
-        },
-        {
-          "context": "해를 삼킴",
-          "interpretation_ko": "귀한 아들을 낳을 조짐",
-          "interpretation_en": "a sign of bearing a noble son",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "吞日月當生貴子",
-              "translation_ko": "해와 달을 삼키면 귀한 아들을 낳는다"
-            }
-          ]
-        },
-        {
-          "context": "해에 절하여 예를 올림",
-          "interpretation_ko": "크게 길하고 창성할 조짐",
-          "interpretation_en": "a sign of great fortune and prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "禮拜日月大吉昌",
-              "translation_ko": "해와 달에 절하면 크게 길하고 창성한다"
-            }
-          ]
-        },
-        {
-          "context": "햇빛이 집 안으로 들어옴",
-          "interpretation_ko": "관직이 이를 조짐",
-          "interpretation_en": "a sign that an official post will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日光入屋官位至",
-              "translation_ko": "햇빛이 집에 들면 관직이 이른다"
-            }
-          ]
-        },
-        {
-          "context": "해가 처음 떠오르는데 구름 한 점 없음",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日初出無雲大吉",
-              "translation_ko": "해가 처음 떠오르고 구름이 없으면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "해가 떠서 빛이 남",
-          "interpretation_ko": "좋은 일이 있을 조짐",
-          "interpretation_en": "a sign that good things will happen",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日出有光有好事",
-              "translation_ko": "해가 떠 빛이 있으면 좋은 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "구름이 걷히고 해가 떠오름",
-          "interpretation_ko": "흉한 일이 흩어질 조짐",
-          "interpretation_en": "a sign that misfortune will disperse",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "雲開日出凶事散",
-              "translation_ko": "구름이 걷히고 해가 뜨면 흉한 일이 흩어진다"
-            }
-          ]
-        },
-        {
-          "context": "해가 품 안으로 들어옴",
-          "interpretation_ko": "귀한 아들을 낳을 조짐",
-          "interpretation_en": "a sign of bearing a noble son",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "日入懷貴子月女",
-              "translation_ko": "해가 품에 들면 귀한 아들을 낳고 달이 들면 딸을 낳는다"
-            }
-          ]
-        },
-        {
-          "context": "해가 구름에 갑자기 가려짐",
-          "interpretation_ko": "은밀한 사사로운 일이 있을 조짐",
-          "interpretation_en": "a sign of a hidden, secret affair",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "雲忽遮日有陰私",
-              "translation_ko": "구름이 갑자기 해를 가리면 은밀한 사사로움이 있다"
             }
           ]
         }
@@ -42122,6 +42138,110 @@
       ]
     },
     {
+      "id": "sugar",
+      "term_ko": "설탕",
+      "term_en": "sugar",
+      "aliases": [
+        "설탕이",
+        "설탕을",
+        "각설탕",
+        "설탕값을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "설탕 꿈을 꿈",
+          "interpretation_ko": "집안일에서 까다로워지고, 만족과 안온한 기쁨 말고는 이유가 없는데도 질투심을 품을 조짐 — 근심이 생기고 기력과 성미가 시달릴 수도 있음",
+          "interpretation_en": "denotes that you will be hard to please in your domestic life, and will entertain jealousy while seeing no cause for aught but satisfaction and secure joys; there may be worries, and your strength and temper taxed after this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sugar",
+              "original": "To dream of sugar, denotes that you will be hard to please in your domestic life, and will entertain jealousy while seeing no cause for aught but satisfaction and secure joys. There may be worries, and your strength and temper taxed after this dream.",
+              "translation_ko": "설탕 꿈은, 집안일에서 까다로워지고 만족과 안온한 기쁨 말고는 이유가 없는데도 질투심을 품을 조짐이다 — 근심이 생기고 기력과 성미가 시달릴 수도 있다"
+            }
+          ]
+        },
+        {
+          "context": "설탕을 먹음",
+          "interpretation_ko": "한동안 달갑잖은 일에 부딪히나 생각보다 잘 풀릴 조짐",
+          "interpretation_en": "you will have unpleasant matters to contend with for a while, but they will result better than expected",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sugar",
+              "original": "To eat sugar in your dreams, you will have unpleasant matters to contend with for a while, but they will result better than expected.",
+              "translation_ko": "설탕을 먹는 꿈은, 한동안 달갑잖은 일에 부딪히나 생각보다 잘 풀릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "설탕값을 매김",
+          "interpretation_ko": "원수에게 위협받고 있다는 조짐",
+          "interpretation_en": "denotes that you are menaced by enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sugar",
+              "original": "To price sugar, denotes that you are menaced by enemies.",
+              "translation_ko": "설탕값을 매기는 꿈은, 원수에게 위협받고 있다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "설탕을 거래하며 많은 양이 배달되어 옴을 봄",
+          "interpretation_ko": "큰 손실을 가까스로 면할 조짐",
+          "interpretation_en": "you will barely escape a serious loss",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sugar",
+              "original": "To deal in sugar and see large quantities of it being delivered to you, you will barely escape a serious loss.",
+              "translation_ko": "설탕을 거래하며 많은 양이 배달되어 옴을 보는 꿈은, 큰 손실을 가까스로 면할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "설탕통이 터져 설탕이 쏟아지는 것을 봄",
+          "interpretation_ko": "작은 손실을 볼 조짐",
+          "interpretation_en": "foretells a slight loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sugar",
+              "original": "To see a cask of sugar burst and the sugar spilling out, foretells a slight loss.",
+              "translation_ko": "설탕통이 터져 설탕이 쏟아지는 것을 보는 꿈은, 작은 손실을 볼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "누군가 노래를 부르며 설탕 짐을 부리는 것을 들음",
+          "interpretation_ko": "하찮아 보이는 일이 사업이나 사교에서 큰 이득을 가져다줄 조짐",
+          "interpretation_en": "some seemingly insignificant affair will bring you great benefit, either in business or social states",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sugar",
+              "original": "To hear a negro singing while unloading sugar, some seemingly insignificant affair will bring you great benefit, either in business or social states.",
+              "translation_ko": "누군가 노래를 부르며 설탕 짐을 부리는 것을 듣는 꿈은, 하찮아 보이는 일이 사업이나 사교에서 큰 이득을 가져다줄 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "woman",
       "term_ko": "여자",
       "term_en": "woman",
@@ -50998,6 +51118,95 @@
               "locator": "被害鬥傷打罵",
               "original": "殺龜者主有喪事",
               "translation_ko": "거북을 죽이면 상사가 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "umbrella",
+      "term_ko": "우산",
+      "term_en": "umbrella",
+      "aliases": [
+        "양산",
+        "파라솔"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남과 우산을 나눔",
+          "interpretation_ko": "헤어져 흩어질 조짐",
+          "interpretation_en": "a sign of parting and scattering",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "刀劍旌節鐘鼓",
+              "original": "與人分傘主分散",
+              "translation_ko": "남과 우산을 나누면 헤어져 흩어진다"
+            }
+          ]
+        },
+        {
+          "context": "기혼자가 양산 꿈을 꿈",
+          "interpretation_ko": "부적절한 즐거움을 누릴 조짐",
+          "interpretation_en": "for married people, illicit enjoyments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parasol",
+              "original": "To dream of a parasol, denotes, for married people, illicit enjoyments.",
+              "translation_ko": "기혼자가 양산 꿈을 꾸면, 부적절한 즐거움을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 양산 꿈을 꿈",
+          "interpretation_ko": "여러 밀회에 빠져 애인에게 들킬까 조마조마할 조짐",
+          "interpretation_en": "she will engage in many flirtations, some of which will cause her interesting disturbances, lest her lover find out her inclinations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Parasol",
+              "original": "If a young woman has this dream, she will engage in many flirtations, some of which will cause her interesting disturbances, lest her lover find out her inclinations.",
+              "translation_ko": "처녀가 양산 꿈을 꾸면, 여러 밀회에 빠져 애인에게 들킬까 조마조마할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "어린 소녀들이 양산을 든 것을 봄",
+          "interpretation_ko": "번영과 더없는 즐거움을 알리는 조짐",
+          "interpretation_en": "foretells prosperity and exquisite delights",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sunshade",
+              "original": "To dream of seeing young girls carrying sunshades, foretells prosperity and exquisite delights.",
+              "translation_ko": "어린 소녀들이 양산을 든 것을 보는 꿈은, 번영과 더없는 즐거움을 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 양산을 봄",
+          "interpretation_ko": "젊은이에게 병과 죽음이 닥칠 조짐",
+          "interpretation_en": "foretells sickness and death to the young",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sunshade",
+              "original": "A broken one, foretells sickness and death to the young.",
+              "translation_ko": "부서진 양산을 보는 꿈은, 젊은이에게 병과 죽음이 닥칠 조짐이다"
             }
           ]
         }
@@ -66034,6 +66243,83 @@
       ]
     },
     {
+      "id": "taking-one-s-own-life",
+      "term_ko": "자살",
+      "term_en": "taking one's own life",
+      "aliases": [
+        "목숨을 끊",
+        "스스로 목숨",
+        "자해",
+        "극단적"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 목숨을 끊음",
+          "interpretation_ko": "불운이 무겁게 짓누를 조짐",
+          "interpretation_en": "foretells that misfortune will hang heavily over you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Suicide",
+              "original": "To commit suicide in a dream, foretells that misfortune will hang heavily over you.",
+              "translation_ko": "스스로 목숨을 끊는 꿈은, 불운이 무겁게 짓누를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 스스로 목숨을 끊는 것을 보거나 들음",
+          "interpretation_ko": "남의 실패가 자신의 이해관계에도 영향을 미칠 조짐",
+          "interpretation_en": "foretells that the failure of others will affect your interests",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Suicide",
+              "original": "To see or hear others committing this deed, foretells that the failure of others will affect your interests.",
+              "translation_ko": "남이 스스로 목숨을 끊는 것을 보거나 듣는 꿈은, 남의 실패가 자신의 이해관계에도 영향을 미칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 애인이 스스로 목숨을 끊는 꿈을 꿈",
+          "interpretation_ko": "애인의 신의 없음에서 오는 실망이 더 커질 조짐",
+          "interpretation_en": "her disappointment by the faithlessness of her lover is accentuated",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Suicide",
+              "original": "For a young woman to dream that her lover commits suicide, her disappointment by the faithlessness of her lover is accentuated.",
+              "translation_ko": "여성이 애인이 스스로 목숨을 끊는 꿈을 꾸면, 애인의 신의 없음에서 오는 실망이 더 커질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "칼을 들고 스스로를 찌름",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "被害鬥傷打罵",
+              "original": "持刀自殺者大吉",
+              "translation_ko": "칼을 들고 스스로를 죽이면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wealth",
       "term_ko": "재물",
       "term_en": "wealth",
@@ -68507,6 +68793,67 @@
               "locator": "Breath",
               "original": "Losing one's breath, denotes signal failure where success seemed assured.",
               "translation_ko": "숨을 잃으면 성공이 확실해 보이던 순간에 큰 실패를 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brimstone",
+      "term_ko": "유황",
+      "term_en": "brimstone",
+      "aliases": [
+        "유황불",
+        "유황 냄새",
+        "황 덩어리"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "유황 꿈을 꿈",
+          "interpretation_ko": "잘못을 바로잡지 않으면 부정직한 거래로 많은 친구를 잃을 조짐",
+          "interpretation_en": "a sign that discreditable dealings will lose you many friends, if you fail to rectify the mistakes you are making",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Brimstone",
+              "original": "To dream of brimstone, foretells that discreditable dealings will lose you many friends.  if you fail to rectify the mistakes you are making.",
+              "translation_ko": "유황 꿈을 꾸면, 잘못을 바로잡지 않는 한 부정직한 거래로 많은 친구를 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "유황을 먹음",
+          "interpretation_ko": "건강이 좋아지고 그에 따른 즐거움을 누릴 조짐",
+          "interpretation_en": "indicates good health and consequent pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sulphur",
+              "original": "To eat sulphur, indicates good health and consequent pleasure.",
+              "translation_ko": "유황을 먹는 꿈은, 건강이 좋아지고 그에 따른 즐거움을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "유황불을 봄",
+          "interpretation_ko": "주변의 전염으로 손실을 입을 위협을 받을 조짐",
+          "interpretation_en": "a sign that you will be threatened with loss by contagion in your vicinity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Brimstone",
+              "original": "To see fires of brimstone, denotes you will be threatened with loss by contagion in your vicinity.",
+              "translation_ko": "유황불을 보면 주변의 전염으로 손실을 입을 위협을 받을 조짐이다"
             }
           ]
         }
@@ -82998,67 +83345,6 @@
       ]
     },
     {
-      "id": "umbrella",
-      "term_ko": "우산",
-      "term_en": "umbrella",
-      "aliases": [
-        "양산",
-        "파라솔"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남과 우산을 나눔",
-          "interpretation_ko": "헤어져 흩어질 조짐",
-          "interpretation_en": "a sign of parting and scattering",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "刀劍旌節鐘鼓",
-              "original": "與人分傘主分散",
-              "translation_ko": "남과 우산을 나누면 헤어져 흩어진다"
-            }
-          ]
-        },
-        {
-          "context": "기혼자가 양산 꿈을 꿈",
-          "interpretation_ko": "부적절한 즐거움을 누릴 조짐",
-          "interpretation_en": "for married people, illicit enjoyments",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Parasol",
-              "original": "To dream of a parasol, denotes, for married people, illicit enjoyments.",
-              "translation_ko": "기혼자가 양산 꿈을 꾸면, 부적절한 즐거움을 누릴 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 양산 꿈을 꿈",
-          "interpretation_ko": "여러 밀회에 빠져 애인에게 들킬까 조마조마할 조짐",
-          "interpretation_en": "she will engage in many flirtations, some of which will cause her interesting disturbances, lest her lover find out her inclinations",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Parasol",
-              "original": "If a young woman has this dream, she will engage in many flirtations, some of which will cause her interesting disturbances, lest her lover find out her inclinations.",
-              "translation_ko": "처녀가 양산 꿈을 꾸면, 여러 밀회에 빠져 애인에게 들킬까 조마조마할 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "verbal-abuse",
       "term_ko": "욕설",
       "term_en": "verbal abuse",
@@ -88538,53 +88824,6 @@
               "locator": "Bridle Bits",
               "original": "If they break or are broken you will be surprised into making concessions to enemies,",
               "translation_ko": "재갈이 부러지거나 망가지면 뜻밖에 적에게 양보하게 될 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "brimstone",
-      "term_ko": "유황",
-      "term_en": "brimstone",
-      "aliases": [
-        "유황불",
-        "유황 냄새",
-        "황 덩어리"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "유황 꿈을 꿈",
-          "interpretation_ko": "잘못을 바로잡지 않으면 부정직한 거래로 많은 친구를 잃을 조짐",
-          "interpretation_en": "a sign that discreditable dealings will lose you many friends, if you fail to rectify the mistakes you are making",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Brimstone",
-              "original": "To dream of brimstone, foretells that discreditable dealings will lose you many friends.  if you fail to rectify the mistakes you are making.",
-              "translation_ko": "유황 꿈을 꾸면, 잘못을 바로잡지 않는 한 부정직한 거래로 많은 친구를 잃을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "유황불을 봄",
-          "interpretation_ko": "주변의 전염으로 손실을 입을 위협을 받을 조짐",
-          "interpretation_en": "a sign that you will be threatened with loss by contagion in your vicinity",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Brimstone",
-              "original": "To see fires of brimstone, denotes you will be threatened with loss by contagion in your vicinity.",
-              "translation_ko": "유황불을 보면 주변의 전염으로 손실을 입을 위협을 받을 조짐이다"
             }
           ]
         }
@@ -123930,6 +124169,38 @@
       ]
     },
     {
+      "id": "sugar-tongs",
+      "term_ko": "설탕집게",
+      "term_en": "sugar-tongs",
+      "aliases": [
+        "설탕집게가",
+        "설탕집게를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "설탕집게 꿈을 꿈",
+          "interpretation_ko": "누군가의 잘못을 알리는 언짢은 소식을 받을 조짐",
+          "interpretation_en": "foretells that disagreeable tidings of wrong-doings will be received by you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sugar-tongs",
+              "original": "To dream of sugar-tongs, foretells that disagreeable tidings of wrong-doings will be received by you.",
+              "translation_ko": "설탕집게 꿈은, 누군가의 잘못을 알리는 언짢은 소식을 받을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "sunset-glow",
       "term_ko": "노을",
       "term_en": "sunset glow",
@@ -124021,40 +124292,6 @@
               "locator": "衣帳毯褥匙櫡",
               "original": "桌架於宅事不成",
               "translation_ko": "탁자를 집에 괴어 두면 일이 이루어지지 않는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "taking-one-s-own-life",
-      "term_ko": "자살",
-      "term_en": "taking one's own life",
-      "aliases": [
-        "목숨을 끊",
-        "스스로 목숨",
-        "자해",
-        "극단적"
-      ],
-      "category": "action",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "칼을 들고 스스로를 찌름",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "被害鬥傷打罵",
-              "original": "持刀自殺者大吉",
-              "translation_ko": "칼을 들고 스스로를 죽이면 크게 길하다"
             }
           ]
         }

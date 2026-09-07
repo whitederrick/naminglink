@@ -285,11 +285,13 @@
     ],
     "contexts": {
       "유황 꿈을 꿈": "냄새 덩어리 노란 가루",
-      "유황불을 봄": "타오르 불길 불꽃 화염"
+      "유황불을 봄": "유황불 타오르 불길 불꽃 화염",
+      "유황을 먹음": "먹었다 먹는"
     },
     "contexts_en": {
       "유황 꿈을 꿈": "smell lump yellow powder",
-      "유황불을 봄": "flames blazing"
+      "유황불을 봄": "flames blazing",
+      "유황을 먹음": "eat good health"
     }
   },
   {
