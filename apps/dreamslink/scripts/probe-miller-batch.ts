@@ -1,7 +1,8 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 252 — 새 상징 somnambulist(몽유병자)·sorcerer(마법사)·soul(영혼),
-// 기존 boil(종기)에 네 그림·broth(국물)에 두 그림·king(임금)에 한 그림·farming(농사)에
-// 두 그림 붙임. ghost(귀신)에서 bare 별칭 "영혼"을 회수해 soul로 넘김)
+// (지금 담긴 것: 배치 253 — 새 상징 spice(향신료), 기존 shovel(삽)에 한 그림·
+// cards(카드놀이)에 두 그림·sparrow(참새)에 두 그림·eyeglass(안경)에 두 그림 붙임.
+// sparrow는 기본값이 「참새가 쥐와 싸움」→「참새 꿈을 꿈」으로 바뀌었다(조건 없는
+// 가장 넓은 자리로), eyeglass는 파일명 정렬 때문에 밀릴 뻔한 것을 얼려 그대로 뒀다)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -32,35 +33,23 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "somnambulist", ctx: "자신이 몽유병자가 됨", text: "자신이 몽유병자가 되었다" },
-  { id: "sorcerer", ctx: "마법사를 봄", text: "마법사를 보았다" },
-  { id: "boil", ctx: "종기를 봄", text: "종기를 보고 병이 날까 걱정했다" },
-  { id: "boil", ctx: "종기에 약을 바름", text: "종기에 약을 발랐다" },
-  { id: "boil", ctx: "아기의 종기가 뼈까지 보일 만큼 깊음", text: "아기가 뼈가 보일 만큼 깊은 종기가 났다" },
-  { id: "boil", ctx: "자신에게 종기가 남", text: "자신에게 종기가 났다" },
-  { id: "soul", ctx: "자신의 영혼이 몸을 떠나는 것을 봄", text: "자신의 영혼이 몸을 떠나는 것을 보았다" },
-  { id: "soul", ctx: "예술가가 남에게서 제 영혼을 봄", text: "예술가가 남에게서 제 영혼을 보았다" },
-  { id: "soul", ctx: "남의 영혼이 자신 안에 있다고 여김", text: "남의 영혼이 자신 안에 있다고 여겼다" },
-  {
-    id: "soul",
-    ctx: "여성 음악가가 무대 위 다른 여성을 보며 그것이 제 영혼이라 여김",
-    text: "여성 음악가가 무대 위 다른 여성을 보며 그것이 제 영혼이라 여겼다",
-  },
-  { id: "soul", ctx: "영혼의 불멸을 논함", text: "영혼의 불멸을 논했다" },
-  { id: "broth", ctx: "남이 수프 먹는 것을 봄", text: "남이 수프 먹는 것을 보았다" },
-  { id: "broth", ctx: "굴 수프를 마심", text: "달콤한 우유로 만든 굴 수프를 마셨다" },
-  { id: "king", ctx: "군주를 봄", text: "군주를 보고 번영과 새 친구를 얻었다" },
-  { id: "farming", ctx: "새로 간 땅에 씨를 뿌림", text: "새로 간 땅에 씨를 뿌렸다" },
-  { id: "farming", ctx: "남이 씨 뿌리는 것을 봄", text: "남들이 씨 뿌리는 것을 보았다" },
-  // 지킴 — 이번에 손댄 기존 상징(boil·broth·king·farming·ghost)의 옛 답이 그대로인가
-  { id: "boil", ctx: "만성 단계에 이른 것처럼 보이는 종기가 난 꿈을 꿈", text: "만성적인 종기가 난 꿈을 꾸었다" },
-  { id: "boil", ctx: "고름과 피가 나오는 종기를 봄", text: "고름과 피가 나오는 종기를 보았다" },
-  { id: "boil", ctx: "이마에 종기가 남", text: "이마에 종기가 났다" },
-  { id: "broth", ctx: "고기 국물을 먹음", text: "고기 국물을 먹었다" },
-  { id: "king", ctx: "임금을 봄", text: "임금이 되려고 온힘으로 발버둥쳤다" },
-  { id: "farming", ctx: "제가 직접 밭을 갊", text: "제가 직접 밭을 갈았다" },
-  { id: "farming", ctx: "쟁기 꿈을 꿈", text: "쟁기 꿈을 꾸었다" },
-  { id: "ghost", ctx: "귀신과 싸움", text: "귀신과 싸웠다" },
+  { id: "shovel", ctx: "삽 모양의 도구로 일을 감독함", text: "삽 모양의 도구로 일을 감독하느라 짜증이 났다" },
+  { id: "cards", ctx: "이름이 스페이드인 카드 꿈을 꿈", text: "트럼프 카드로 놀다가 이름이 스페이드인 카드 꿈을 꾸어 어리석은 짓을 했다" },
+  { id: "cards", ctx: "도박꾼이 스페이드가 으뜸패인 꿈을 꿈", text: "도박꾼이 트럼프 카드로 스페이드가 으뜸패인 꿈을 꾸었다" },
+  { id: "sparrow", ctx: "참새 꿈을 꿈", text: "참새 꿈을 꾸어 사랑과 평안을 느꼈다" },
+  { id: "sparrow", ctx: "참새가 다치거나 괴로워하는 것을 봄", text: "참새가 다치거나 괴로워하는 것을 보았다" },
+  { id: "eyeglass", ctx: "낯선 사람에게 속을까 걱정하며 안경 꿈을 꿈", text: "낯선 사람에게 속을까 걱정하며 안경 꿈을 꾸었다" },
+  { id: "eyeglass", ctx: "부서진 안경을 봄", text: "부서진 안경을 보았다" },
+  { id: "spice", ctx: "향신료 꿈을 꿈", text: "향신료 꿈을 꾸어 평판과 쾌락을 걱정했다" },
+  { id: "spice", ctx: "여성이 향신료를 먹음", text: "여성이 향신료를 먹었다" },
+  // 지킴 — 이번에 손댄 기존 상징(shovel·cards·sparrow·eyeglass)의 옛 답이 그대로인가
+  { id: "shovel", ctx: "삽을 봄", text: "삽을 보았다" },
+  { id: "shovel", ctx: "부서지거나 낡은 삽을 봄", text: "부서지거나 낡은 삽을 보았다" },
+  { id: "cards", ctx: "스페이드 짝패를 봄", text: "트럼프 카드로 스페이드 짝패를 보았다" },
+  { id: "cards", ctx: "포커를 침", text: "포커를 쳤다" },
+  { id: "sparrow", ctx: "참새가 쥐와 싸움", text: "참새가 쥐와 싸웠다" },
+  { id: "sparrow", ctx: "참새가 시끄럽게 지저귐", text: "참새가 시끄럽게 지저귀었다" },
+  { id: "eyeglass", ctx: "안경을 보거나 씀", text: "안경을 쓰고 있었다" },
 ];
 
 let notFound = 0;

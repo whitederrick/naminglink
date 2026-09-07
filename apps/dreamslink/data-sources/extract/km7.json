@@ -734,11 +734,15 @@
     ],
     "contexts": {
       "참새가 쥐와 싸움": "쥐와 쥐를 싸우 싸웠 다투",
-      "참새가 시끄럽게 지저귐": "시끄 지저 짹짹 울어대"
+      "참새가 시끄럽게 지저귐": "시끄 지저 짹짹 울어대",
+      "참새가 다치거나 괴로워하는 것을 봄": "다치거나 괴로워",
+      "참새 꿈을 꿈": "사랑 평안"
     },
     "contexts_en": {
       "참새가 쥐와 싸움": "mouse rat fighting fought",
-      "참새가 시끄럽게 지저귐": "chirping noisy loudly twittering"
+      "참새가 시끄럽게 지저귐": "chirping noisy loudly twittering",
+      "참새가 다치거나 괴로워하는 것을 봄": "distressed wounded sadness",
+      "참새 꿈을 꿈": "love comfort popularity"
     }
   },
   {

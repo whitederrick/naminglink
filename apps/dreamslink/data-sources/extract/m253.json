@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "삽",
+    "term_en": "shovel",
+    "context": "삽 모양의 도구로 일을 감독함",
+    "interpretation_ko": "마쳐야 할 일이 생기는데, 감독하느라 짜증이 날 조짐",
+    "interpretation_en": "denotes that you will have work to complete, which will give you much annoyance in superintending",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spade",
+      "original": "To dream of a kind of shovel called spade, denotes that you will have work to complete, which will give you much annoyance in superintending.",
+      "translation_ko": "삽 모양의 도구로 일을 감독하는 꿈은, 마쳐야 할 일이 생기는데 감독하느라 짜증이 날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "카드놀이",
+    "term_en": "cards",
+    "context": "이름이 스페이드인 카드 꿈을 꿈",
+    "interpretation_ko": "어리석은 짓에 빠져 슬픔과 불운을 부를 조짐",
+    "interpretation_en": "you will be enticed into follies which will bring you grief and misfortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spade",
+      "original": "If you dream of cards named spades, you will be enticed into follies which will bring you grief and misfortune.",
+      "translation_ko": "이름이 스페이드인 카드 꿈은, 어리석은 짓에 빠져 슬픔과 불운을 부를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "카드놀이",
+    "term_en": "cards",
+    "context": "도박꾼이 스페이드가 으뜸패인 꿈을 꿈",
+    "interpretation_ko": "불운한 거래로 딴 돈을 까먹을 조짐",
+    "interpretation_en": "means that unfortunate deals will deplete his winnings",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spade",
+      "original": "For a gambler to dream that spades are trumps, means that unfortunate deals will deplete his winnings.",
+      "translation_ko": "도박꾼이 스페이드가 으뜸패인 꿈을 꾸면, 불운한 거래로 딴 돈을 까먹을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "참새",
+    "term_en": "sparrow",
+    "context": "참새 꿈을 꿈",
+    "interpretation_ko": "사랑과 평안에 둘러싸여 남의 슬픈 사연에 다정히 귀 기울이고, 그 어짊으로 인기를 얻을 조짐",
+    "interpretation_en": "denotes that you will be surrounded with love and comfort, and this will cause you to listen with kindly interest to tales of woe, and your benevolence will gain you popularity",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Sparrow",
+      "original": "To dream of sparrows, denotes that you will be surrounded with love and comfort, and this will cause you to listen with kindly interest to tales of woe, and your benevolence will gain you popularity.",
+      "translation_ko": "참새 꿈은, 사랑과 평안에 둘러싸여 남의 슬픈 사연에 다정히 귀 기울이고 그 어짊으로 인기를 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "참새",
+    "term_en": "sparrow",
+    "context": "참새가 다치거나 괴로워하는 것을 봄",
+    "interpretation_ko": "슬픔의 조짐",
+    "interpretation_en": "foretells sadness",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Sparrow",
+      "original": "To see them distressed or wounded, foretells sadness.",
+      "translation_ko": "참새가 다치거나 괴로워하는 것을 보는 꿈은, 슬픔의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "안경",
+    "term_en": "eyeglass",
+    "context": "낯선 사람에게 속을까 걱정하며 안경 꿈을 꿈",
+    "interpretation_ko": "낯선 이들이 자신의 일에 변화를 일으키고, 남을 잘 믿는 성품이 속임수에 이용당할 조짐",
+    "interpretation_en": "foretells that strangers will cause changes in your affairs. Frauds will be practised on your credulity",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spectacles",
+      "original": "To dream of spectacles, foretells that strangers will cause changes in your affairs.  Frauds will be practised on your credulity.",
+      "translation_ko": "안경 꿈은, 낯선 이들이 자신의 일에 변화를 일으키고 남을 잘 믿는 성품이 속임수에 이용당할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "안경",
+    "term_en": "eyeglass",
+    "context": "부서진 안경을 봄",
+    "interpretation_ko": "옳지 않은 쾌락을 좋아해 사이가 멀어질 조짐",
+    "interpretation_en": "denotes estrangement caused by fondness for illegal pleasures",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spectacles",
+      "original": "To dream that you see broken spectacles, denotes estrangement caused by fondness for illegal pleasures.",
+      "translation_ko": "부서진 안경을 보는 꿈은, 옳지 않은 쾌락을 좋아해 사이가 멀어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "향신료",
+    "term_en": "spice",
+    "context": "향신료 꿈을 꿈",
+    "interpretation_ko": "쾌락을 좇다 제 평판을 해칠 조짐",
+    "interpretation_en": "foretells you will probably damage your own reputation in search of pleasure",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spice",
+      "original": "To dream of spice, foretells you will probably damage your own reputation in search of pleasure.",
+      "translation_ko": "향신료 꿈은, 쾌락을 좇다 제 평판을 해칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "향신료",
+    "term_en": "spice",
+    "context": "여성이 향신료를 먹음",
+    "interpretation_ko": "겉으로 그럴듯한 것이 믿음을 얻어 낼 조짐",
+    "interpretation_en": "is an omen of deceitful appearances winning her confidence",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Spice",
+      "original": "For a young woman to dream of eating spice, is an omen of deceitful appearances winning her confidence.",
+      "translation_ko": "여성이 향신료를 먹는 꿈은, 겉으로 그럴듯한 것이 믿음을 얻어 낼 조짐이다"
+    }
+  }
+]

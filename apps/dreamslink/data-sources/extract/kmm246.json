@@ -97,11 +97,13 @@
     ],
     "contexts": {
       "삽을 봄": "힘들지만 즐거운",
-      "부서지거나 낡은 삽을 봄": "부서지거나 낡은 좌절될"
+      "부서지거나 낡은 삽을 봄": "부서지거나 낡은 좌절될",
+      "삽 모양의 도구로 일을 감독함": "감독 짜증"
     },
     "contexts_en": {
       "삽을 봄": "laborious pleasant undertaken",
-      "부서지거나 낡은 삽을 봄": "broken old frustration"
+      "부서지거나 낡은 삽을 봄": "broken old frustration",
+      "삽 모양의 도구로 일을 감독함": "superintending annoyance"
     }
   },
   {

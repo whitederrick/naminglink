@@ -1,0 +1,22 @@
+[
+  {
+    "id": "spice",
+    "aliases": [
+      "향신료를",
+      "향신료가",
+      "향료를"
+    ],
+    "aliases_en": [
+      "spice",
+      "spices"
+    ],
+    "contexts": {
+      "향신료 꿈을 꿈": "평판 쾌락",
+      "여성이 향신료를 먹음": "여성이 먹었다"
+    },
+    "contexts_en": {
+      "향신료 꿈을 꿈": "reputation pleasure damage",
+      "여성이 향신료를 먹음": "woman eating deceitful"
+    }
+  }
+]

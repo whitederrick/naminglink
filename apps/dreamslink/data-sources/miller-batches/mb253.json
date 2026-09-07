@@ -1,0 +1,33 @@
+{
+  "batch": 253,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Spade",
+      "text": "To dream of a kind of shovel called spade, denotes that you will have work to complete, which will give you much annoyance in superintending.\n\nIf you dream of cards named spades, you will be enticed into follies which will bring you grief and misfortune.\n\nFor a gambler to dream that spades are trumps, means that unfortunate deals will deplete his winnings.",
+      "note": "첫 문장은 기존 `shovel`(삽)에, 나머지 둘은 기존 `cards`(카드놀이)에 붙임 — 셋 다 각각의 상징이 이미 있는 이름을 다른 헤드워드에서 또 쓴 경우"
+    },
+    {
+      "headword": "Sparrow",
+      "text": "To dream of sparrows, denotes that you will be surrounded with love and comfort, and this will cause you to listen with kindly interest to tales of woe, and your benevolence will gain you popularity.\n\nTo see them distressed or wounded, foretells sadness.",
+      "note": "기존 `sparrow`(참새)에 붙임 — term_ko가 이미 같다"
+    },
+    {
+      "headword": "Spectacles",
+      "text": "To dream of spectacles, foretells that strangers will cause changes in your affairs.  Frauds will be practised on your credulity.\n\nTo dream that you see broken spectacles, denotes estrangement caused by fondness for illegal pleasures.",
+      "note": "기존 `eyeglass`(안경)에 붙임 — term_ko가 이미 같다"
+    },
+    {
+      "headword": "Spice",
+      "text": "To dream of spice, foretells you will probably damage your own reputation in search of pleasure.  For a young woman to dream of eating spice, is an omen of deceitful appearances winning her confidence.",
+      "note": "새 상징 `spice`(향신료) — 두 그림"
+    }
+  ],
+  "skipped": [
+    {
+      "headword": "Spider",
+      "reason": "표제어 하나가 항목 열셋으로 커서(문장 하나에 여섯 갈래가 묶인 자리 포함) 다음 배치(254)로 따로 뗀다 — §33 Fence와 같은 이유"
+    }
+  ],
+  "skipped_sentences": []
+}

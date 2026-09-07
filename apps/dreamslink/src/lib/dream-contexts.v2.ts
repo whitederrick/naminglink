@@ -1564,6 +1564,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pork::돼지고기를 봄": "conflict victoriously",
   "sparrow::참새가 쥐와 싸움": "mouse rat fighting fought",
   "sparrow::참새가 시끄럽게 지저귐": "chirping noisy loudly twittering",
+  "sparrow::참새가 다치거나 괴로워하는 것을 봄": "distressed wounded sadness",
+  "sparrow::참새 꿈을 꿈": "love comfort popularity",
   "thread::실과 명주를 찾음": "silk searching looking found",
   "thread::실을 얻음": "obtained received",
   "being-humiliated::남에게 천대를 받음": "auspicious sign",
@@ -3031,6 +3033,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "cards::하트 짝패를 봄": "hearts",
   "cards::스페이드 짝패를 봄": "spades",
   "cards::포커를 침": "poker moral distinctiveness",
+  "cards::이름이 스페이드인 카드 꿈을 꿈": "named follies grief",
+  "cards::도박꾼이 스페이드가 으뜸패인 꿈을 꿈": "gambler trumps deals",
   "carnival::카니발에 어울려 참여함": "participating pleasure recreation",
   "carnival::가면을 쓰거나 광대 차림이 보이는 카니발": "masks clownish incongruous discord",
   "carnival::축제 자리에 있음": "indifference realities dependent",
@@ -3838,6 +3842,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "eye::한쪽 눈만 있는 사람을 봄": "insignificant",
   "eyeglass::안경을 보거나 씀": "wearing disagreeable friendships disengage",
   "eyeglass::처녀가 정인이 안경 쓴 것을 봄": "lover disruption affairs",
+  "eyeglass::낯선 사람에게 속을까 걱정하며 안경 꿈을 꿈": "strangers frauds credulity",
+  "eyeglass::부서진 안경을 봄": "broken estrangement illegal",
   "fable::우화를 읽거나 들려줌": "reading telling pleasant literary",
   "fable::젊은이가 우화를 봄": "young romantic attachments",
   "fable::믿음에 관한 이야기를 듣거나 들려줌": "religious devotional",
@@ -5723,6 +5729,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "shoulder::자신의 야윈 어깨를 봄": "thin caprices entertainment",
   "shovel::삽을 봄": "laborious pleasant undertaken",
   "shovel::부서지거나 낡은 삽을 봄": "broken old frustration",
+  "shovel::삽 모양의 도구로 일을 감독함": "superintending annoyance",
   "shroud::수의 꿈을 꿈": "sickness distress machinations",
   "shroud::수의를 입은 시신들을 봄": "corpses multitude misfortunes",
   "shroud::시신에서 수의를 벗김": "removed quarrels alienation",
@@ -5780,5 +5787,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "soul::예술가가 남에게서 제 영혼을 봄": "artist distinction",
   "soul::남의 영혼이 자신 안에 있다고 여김": "stranger solace benefit",
   "soul::여성 음악가가 무대 위 다른 여성을 보며 그것이 제 영혼이라 여김": "musician stage outrivaled",
-  "soul::영혼의 불멸을 논함": "immortality intellectual"
+  "soul::영혼의 불멸을 논함": "immortality intellectual",
+  "spice::향신료 꿈을 꿈": "reputation pleasure damage",
+  "spice::여성이 향신료를 먹음": "woman eating deceitful"
 };

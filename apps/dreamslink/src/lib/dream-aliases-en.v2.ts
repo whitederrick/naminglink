@@ -7613,5 +7613,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "soul": [
     "soul",
     "one's soul"
+  ],
+  "spice": [
+    "spice",
+    "spices"
   ]
 };

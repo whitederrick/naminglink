@@ -389,11 +389,15 @@
     ],
     "contexts": {
       "안경을 보거나 씀": "썼다 쓰고 끼고",
-      "처녀가 정인이 안경 쓴 것을 봄": "처녀 아가씨 정인이 애인이"
+      "처녀가 정인이 안경 쓴 것을 봄": "처녀 아가씨 정인이 애인이",
+      "낯선 사람에게 속을까 걱정하며 안경 꿈을 꿈": "낯선 사람",
+      "부서진 안경을 봄": "부서진 깨진"
     },
     "contexts_en": {
       "안경을 보거나 씀": "wearing disagreeable friendships disengage",
-      "처녀가 정인이 안경 쓴 것을 봄": "lover disruption affairs"
+      "처녀가 정인이 안경 쓴 것을 봄": "lover disruption affairs",
+      "낯선 사람에게 속을까 걱정하며 안경 꿈을 꿈": "strangers frauds credulity",
+      "부서진 안경을 봄": "broken estrangement illegal"
     }
   }
 ]
