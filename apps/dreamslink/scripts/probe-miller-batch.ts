@@ -1,13 +1,10 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 277 — Treasures~Trousers. 새 상징 다섯(triangle·
-// tripe·triplets·trophy·trousers), 기존 tree·ditch·gold-and-silver-
-// treasure에 문맥을 나눠 붙임. Trees의 「dead trees」·「climb a tree」는
-// 기존 tree와 같은 그림이라, 「cut one down」은 같은 그림에 극성이
-// 정반대라 §31로 건너뜀. Treasures는 새 상징 「보물」로 세우려 했으나
-// gold-and-silver-treasure가 이미 「보물」을 별칭으로 쥐고 있어(audit-
-// cross-symbol-aliases가 잡음) 그 상징에 합쳤다. Trenches(→Ditch)도
-// ditch에 aliases_en "trench"를 더하려다 pit이 이미 그 낱말을 쥐고 있어
-// 뺐다(한국어 별칭 "참호"만 남김).
+// (지금 담긴 것: 배치 278 — Trout~Trunk. 새 상징 둘(trout·trowel), 기존
+// bugle(나팔)·luggage(짐가방)에 문맥을 나눠 붙임. Trunk의 첫 문장(트렁크
+// 꿈을 꿈)은 기존 luggage 「짐가방을 봄」과 같은 그림이라 §31로 건너뜀.
+// bugle은 m278이 기존 나팔 출처(m49·m9b)보다 사전순으로 앞서 기본값이
+// 「나팔 꿈을 꿈」(밀러, 조건 없음)으로 바뀌었다 — 옛 「즐거운 소리를
+// 들음」보다 더 막연해 그쪽으로 얼렸다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -38,29 +35,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 277 새 문맥 (17건) ────────────────────────────────────────────
-  { id: "gold-and-silver-treasure", ctx: "보물을 찾아냄", text: "보물을 찾아냈다" },
-  { id: "gold-and-silver-treasure", ctx: "보물을 잃음", text: "보물을 잃었다" },
-  { id: "tree", ctx: "새 잎이 돋은 나무를 봄", text: "나무에 신록이 우거진 것을 보았다" },
-  { id: "tree", ctx: "갓 베어진 푸른 나무를 봄", text: "누가 베어낸 푸른 나무가 쓰러진 것을 보았다" },
-  { id: "ditch", ctx: "참호들을 봄", text: "참호들을 보았는데 낯선 사람의 배신이 걱정됐다" },
-  { id: "ditch", ctx: "메워진 참호를 봄", text: "메워진 참호를 보았다" },
-  { id: "triangle", ctx: "삼각형 꿈을 꿈", text: "삼각형 꿈을 꾸었다" },
-  { id: "tripe", ctx: "천엽을 봄", text: "천엽을 보았다" },
-  { id: "tripe", ctx: "천엽을 먹음", text: "천엽을 먹었다" },
-  { id: "triplets", ctx: "세쌍둥이를 봄", text: "세쌍둥이를 보았다" },
-  { id: "triplets", ctx: "남자가 아내에게 세쌍둥이가 있는 꿈을 꿈", text: "아내에게 세쌍둥이가 있는 꿈을 꾸었다" },
-  { id: "triplets", ctx: "갓 태어난 세쌍둥이가 우는 소리를 들음", text: "갓 태어난 세쌍둥이가 우는 소리를 들었다" },
-  { id: "triplets", ctx: "처녀가 세쌍둥이를 낳는 꿈을 꿈", text: "처녀가 세쌍둥이를 낳는 꿈을 꾸었다" },
-  { id: "trophy", ctx: "전리품을 봄", text: "전리품을 보았다" },
-  { id: "trophy", ctx: "여성이 전리품을 남에게 줌", text: "여성이 전리품을 남에게 주었다" },
-  { id: "trousers", ctx: "바지 꿈을 꿈", text: "바지 꿈을 꾸었다" },
-  { id: "trousers", ctx: "바지를 뒤집어 입음", text: "바지를 뒤집어 입었다" },
+  // ── 배치 278 새 문맥 (16건) ────────────────────────────────────────────
+  { id: "trout", ctx: "송어를 봄", text: "송어를 보았다" },
+  { id: "trout", ctx: "송어를 먹음", text: "송어를 먹었다" },
+  { id: "trout", ctx: "낚싯바늘로 송어를 낚음", text: "낚싯바늘로 송어를 낚았다" },
+  { id: "trout", ctx: "낚은 송어가 다시 물속으로 떨어짐", text: "낚은 송어가 다시 물속으로 떨어졌다" },
+  { id: "trout", ctx: "그물로 송어를 잡음", text: "그물로 송어를 잡았다" },
+  { id: "trout", ctx: "흐린 물속의 송어를 봄", text: "흐린 물속의 송어를 보았다" },
+  { id: "trowel", ctx: "흙손 꿈을 꿈", text: "흙손 꿈을 꾸었다" },
+  { id: "trowel", ctx: "녹슬거나 부서진 흙손을 봄", text: "녹슬고 부서진 흙손을 보았다" },
+  { id: "bugle", ctx: "나팔 꿈을 꿈", text: "나팔 꿈을 꾸었다" },
+  { id: "luggage", ctx: "짐가방을 꾸림", text: "짐가방을 꾸렸다" },
+  { id: "luggage", ctx: "짐가방 속 물건이 어지러이 흩어져 있음", text: "짐가방 속 물건이 어지러이 흩어져 있었다" },
+  { id: "luggage", ctx: "빈 짐가방을 봄", text: "짐가방이 비어 있었다" },
+  { id: "luggage", ctx: "행상인이 제 짐가방을 확인함", text: "행상인이 제 짐가방을 확인했다" },
+  { id: "luggage", ctx: "짐가방이 상품에 비해 작음을 봄", text: "짐가방이 상품에 비해 작았다" },
+  { id: "luggage", ctx: "처녀가 짐가방을 열려다 못 엶", text: "처녀가 짐가방을 열려다가 못 열었다" },
+  { id: "luggage", ctx: "짐가방을 못 잠금", text: "짐가방을 잠그지 못했다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────
-  { id: "gold-and-silver-treasure", ctx: "금은보화를 봄", text: "금은보화가 잔뜩 쌓인 것을 보았다" },
-  { id: "tree", ctx: "큰 나무에 오름", text: "큰 나무에 기어올랐다" },
-  { id: "ditch", ctx: "도랑에 빠짐", text: "도랑에 빠졌다" },
+  { id: "bugle", ctx: "나팔에서 나는 즐거운 소리를 들음", text: "나팔에서 나는 즐거운 소리가 들렸다" },
+  { id: "luggage", ctx: "짐가방을 봄", text: "짐가방이 놓여 있는 것을 보았다" },
 ];
 
 let notFound = 0;

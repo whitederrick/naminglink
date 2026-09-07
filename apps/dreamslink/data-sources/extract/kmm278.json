@@ -1,0 +1,48 @@
+[
+  {
+    "id": "trout",
+    "aliases": [
+      "송어가",
+      "송어를"
+    ],
+    "aliases_en": [
+      "trout",
+      "a trout"
+    ],
+    "contexts": {
+      "송어를 봄": "그냥",
+      "송어를 먹음": "먹었",
+      "낚싯바늘로 송어를 낚음": "낚싯바늘 낚았",
+      "낚은 송어가 다시 물속으로 떨어짐": "다시 떨어",
+      "그물로 송어를 잡음": "그물",
+      "흐린 물속의 송어를 봄": "흐린"
+    },
+    "contexts_en": {
+      "송어를 봄": "growing prosperity",
+      "송어를 먹음": "eat happily conditioned",
+      "낚싯바늘로 송어를 낚음": "hook assured competence",
+      "낚은 송어가 다시 물속으로 떨어짐": "falls back short season",
+      "그물로 송어를 잡음": "seine unparalleled",
+      "흐린 물속의 송어를 봄": "muddy grief disappointments"
+    }
+  },
+  {
+    "id": "trowel",
+    "aliases": [
+      "흙손이",
+      "흙손을"
+    ],
+    "aliases_en": [
+      "a trowel",
+      "trowels"
+    ],
+    "contexts": {
+      "흙손 꿈을 꿈": "그냥",
+      "녹슬거나 부서진 흙손을 봄": "녹슬 부서진"
+    },
+    "contexts_en": {
+      "흙손 꿈을 꿈": "unfavorable business poverty",
+      "녹슬거나 부서진 흙손을 봄": "rusty broken unavoidable"
+    }
+  }
+]

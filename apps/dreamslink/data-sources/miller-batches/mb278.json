@@ -1,0 +1,26 @@
+{
+  "batch": 278,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Trout",
+      "text": "To dream of seeing trout, is significant of growing prosperity.\nTo eat some, denotes that you will be happily conditioned.\n\nTo catch one with a hook, foretells assured pleasure and competence.\nIf it falls back into the water, you will have a short season of happiness.\n\nTo catch them with a seine, is a sign of unparalleled prosperity.\n\nTo see them in muddy water shows that your success in love will bring you to grief and disappointments.",
+      "note": "새 상징 trout(송어)"
+    },
+    {
+      "headword": "Trowel",
+      "text": "To dream of a trowel, denotes you will experience reaction in unfavorable business, and will vanquish poverty.  To see one rusty or broken, unavoidable ill luck is fast approaching you.",
+      "note": "새 상징 trowel(흙손)"
+    },
+    {
+      "headword": "Trumpet",
+      "text": "To dream of a trumpet, denotes that something of unusual interest is about to befall you.\n\nTo blow a trumpet, signifies that you will gain your wishes.",
+      "note": "기존 bugle(나팔) 상징에 문맥 1개 추가 — 둘째 문장(나팔을 붊)은 기존 「나팔을 붊」(길)과 같은 그림이라 §31로 건너뜀"
+    },
+    {
+      "headword": "Trunk",
+      "text": "To dream of trunks, foretells journeys and ill luck.  To pack your trunk, denotes that you will soon go on a pleasant trip.\n\nTo see the contents of a trunk thrown about in disorder, foretells quarrels, and a hasty journey from which only dissatisfaction will accrue.\n\nEmpty trunks foretell disappointment in love and marriage.\n\nFor a drummer to check his trunk, is an omen of advancement and comfort.\nIf he finds that his trunk is too small for his wares, he will soon hear of his promotion, and his desires will reach gratification.\nFor a young woman to dream that she tries to unlock her trunk and can't, signifies that she will make an effort to win some wealthy person, but by a misadventure she will lose her chance.\nIf she fails to lock her trunk, she will be disappointed in making a desired trip.",
+      "note": "기존 luggage(짐가방) 상징에 문맥 7개 추가. 첫 문장(트렁크 꿈을 꿈 — 여행+불운)은 기존 「짐가방을 봄」(달갑잖은 걱정거리)과 같은 그림(트렁크를 보는 것 자체가 흉조)이라 §31로 건너뜀. 「drummer」는 옛말로 순회 판매원(행상인)을 가리킨다"
+    }
+  ]
+}

@@ -79,21 +79,39 @@
     "aliases": [
       "짐가방을",
       "짐가방이",
-      "여행 가방"
+      "여행 가방",
+      "트렁크가",
+      "트렁크를"
     ],
     "aliases_en": [
       "baggage",
-      "suitcase"
+      "suitcase",
+      "a trunk",
+      "trunks"
     ],
     "contexts": {
       "짐가방을 봄": "놓여 쌓여",
       "제 짐가방을 들고 감": "들고 메고 끌고",
-      "짐가방을 잃음": "잃어 잃었 분실"
+      "짐가방을 잃음": "잃어 잃었 분실",
+      "짐가방을 꾸림": "꾸렸 꾸리는",
+      "짐가방 속 물건이 어지러이 흩어져 있음": "흩어져 어지러이",
+      "빈 짐가방을 봄": "비어",
+      "행상인이 제 짐가방을 확인함": "행상인 확인",
+      "짐가방이 상품에 비해 작음을 봄": "상품 작았",
+      "처녀가 짐가방을 열려다 못 엶": "처녀가 열려다",
+      "짐가방을 못 잠금": "잠그지"
     },
     "contexts_en": {
       "짐가방을 봄": "unpleasant cares encumbered distasteful",
       "제 짐가방을 들고 감": "carrying own distresses blinded sorrows",
-      "짐가방을 잃음": "lose unfortunate speculation dissensions"
+      "짐가방을 잃음": "lose unfortunate speculation dissensions",
+      "짐가방을 꾸림": "pack soon trip",
+      "짐가방 속 물건이 어지러이 흩어져 있음": "disorder quarrels hasty",
+      "빈 짐가방을 봄": "empty disappointment marriage",
+      "행상인이 제 짐가방을 확인함": "drummer advancement comfort",
+      "짐가방이 상품에 비해 작음을 봄": "small wares promotion",
+      "처녀가 짐가방을 열려다 못 엶": "unlock wealthy misadventure",
+      "짐가방을 못 잠금": "fails desired"
     }
   }
 ]

@@ -6160,7 +6160,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "luggage": [
     "baggage",
-    "suitcase"
+    "suitcase",
+    "a trunk",
+    "trunks"
   ],
   "lumber": [
     "timber"
@@ -8054,5 +8056,13 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "trousers": [
     "trousers",
     "pants"
+  ],
+  "trout": [
+    "trout",
+    "a trout"
+  ],
+  "trowel": [
+    "a trowel",
+    "trowels"
   ]
 };

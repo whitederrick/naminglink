@@ -198,6 +198,7 @@
     "m275.json",
     "m276.json",
     "m277.json",
+    "m278.json",
     "m27a.json",
     "m27b.json",
     "m28.json",
@@ -22413,6 +22414,167 @@
       ]
     },
     {
+      "id": "luggage",
+      "term_ko": "짐가방",
+      "term_en": "luggage",
+      "aliases": [
+        "짐가방을",
+        "짐가방이",
+        "여행 가방",
+        "트렁크가",
+        "트렁크를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "짐가방을 봄",
+          "interpretation_ko": "달갑지 않은 걱정거리가 생길 흉한 조짐 — 마음에 안 드는 사람들에게 매이게 된다",
+          "interpretation_en": "denotes unpleasant cares; you will be encumbered with people who will prove distasteful to you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Luggage",
+              "original": "To dream of luggage, denotes unpleasant cares.",
+              "translation_ko": "짐가방의 꿈은 달갑지 않은 걱정거리가 생김을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제 짐가방을 들고 감",
+          "interpretation_ko": "제 괴로움에만 빠져 남의 슬픔을 못 보게 될 흉한 조짐",
+          "interpretation_en": "you will be so full of your own distresses that you will be blinded to the sorrows of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Luggage",
+              "original": "If you are carrying your own luggage, you will be so full of your own distresses that you will be blinded to the sorrows of others.",
+              "translation_ko": "제 짐가방을 들고 가면, 제 괴로움에만 빠져 남의 슬픔을 못 보게 된다"
+            }
+          ]
+        },
+        {
+          "context": "짐가방을 잃음",
+          "interpretation_ko": "요행수가 어그러지거나 집안이 갈라질 흉한 조짐. 혼인 안 한 이에게는 약혼이 깨짐을 알린다",
+          "interpretation_en": "denotes some unfortunate speculation or family dissensions; to the unmarried, it foretells broken engagements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Luggage",
+              "original": "To lose your luggage, denotes some unfortunate speculation or family dissensions To the unmarried, it foretells broken engagements.",
+              "translation_ko": "짐가방을 잃으면 요행수가 어그러지거나 집안이 갈라진다. 혼인 안 한 이에게는 약혼이 깨짐을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "짐가방을 꾸림",
+          "interpretation_ko": "머잖아 즐거운 여행을 떠날 조짐",
+          "interpretation_en": "denotes that you will soon go on a pleasant trip",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trunk",
+              "original": "To pack your trunk, denotes that you will soon go on a pleasant trip.",
+              "translation_ko": "짐가방을 꾸리는 꿈은, 머잖아 즐거운 여행을 떠날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "짐가방 속 물건이 어지러이 흩어져 있음",
+          "interpretation_ko": "다툼이 있고 서둘러 떠난 여행에서 불만족만 남을 조짐",
+          "interpretation_en": "foretells quarrels, and a hasty journey from which only dissatisfaction will accrue",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trunk",
+              "original": "To see the contents of a trunk thrown about in disorder, foretells quarrels, and a hasty journey from which only dissatisfaction will accrue.",
+              "translation_ko": "짐가방 속 물건이 어지러이 흩어져 있는 꿈은, 다툼이 있고 서둘러 떠난 여행에서 불만족만 남을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빈 짐가방을 봄",
+          "interpretation_ko": "사랑과 혼인에서 낙담할 조짐",
+          "interpretation_en": "foretell disappointment in love and marriage",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trunk",
+              "original": "Empty trunks foretell disappointment in love and marriage.",
+              "translation_ko": "빈 트렁크를 보는 꿈은, 사랑과 혼인에서 낙담할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "행상인이 제 짐가방을 확인함",
+          "interpretation_ko": "출세와 편안함의 조짐",
+          "interpretation_en": "is an omen of advancement and comfort",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trunk",
+              "original": "For a drummer to check his trunk, is an omen of advancement and comfort.",
+              "translation_ko": "행상인이 제 짐가방을 확인하는 꿈은, 출세와 편안함의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "짐가방이 상품에 비해 작음을 봄",
+          "interpretation_ko": "머잖아 승진 소식을 듣고 바라던 바를 이룰 조짐",
+          "interpretation_en": "he will soon hear of his promotion, and his desires will reach gratification",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trunk",
+              "original": "If he finds that his trunk is too small for his wares, he will soon hear of his promotion, and his desires will reach gratification.",
+              "translation_ko": "짐가방이 상품에 비해 작음을 보는 꿈은, 머잖아 승진 소식을 듣고 바라던 바를 이룰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 짐가방을 열려다 못 엶",
+          "interpretation_ko": "부유한 사람을 얻으려 애쓰나 뜻밖의 일로 그 기회를 잃을 조짐",
+          "interpretation_en": "signifies that she will make an effort to win some wealthy person, but by a misadventure she will lose her chance",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trunk",
+              "original": "For a young woman to dream that she tries to unlock her trunk and can't, signifies that she will make an effort to win some wealthy person, but by a misadventure she will lose her chance.",
+              "translation_ko": "처녀가 짐가방을 열려다 못 여는 꿈은, 부유한 사람을 얻으려 애쓰나 뜻밖의 일로 그 기회를 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "짐가방을 못 잠금",
+          "interpretation_ko": "바라던 여행에서 낙담할 조짐",
+          "interpretation_en": "she will be disappointed in making a desired trip",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trunk",
+              "original": "If she fails to lock her trunk, she will be disappointed in making a desired trip.",
+              "translation_ko": "짐가방을 못 잠그는 꿈은, 바라던 여행에서 낙담할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "orchard",
       "term_ko": "과수원",
       "term_en": "orchard",
@@ -36383,6 +36545,110 @@
       ]
     },
     {
+      "id": "bugle",
+      "term_ko": "나팔",
+      "term_en": "bugle",
+      "aliases": [
+        "뿔피리",
+        "트럼펫",
+        "나팔소리",
+        "군나팔"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "나팔 꿈을 꿈",
+          "interpretation_ko": "예사롭지 않은 흥미로운 일이 곧 닥칠 조짐",
+          "interpretation_en": "denotes that something of unusual interest is about to befall you",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trumpet",
+              "original": "To dream of a trumpet, denotes that something of unusual interest is about to befall you.",
+              "translation_ko": "나팔 꿈을 꾸면, 예사롭지 않은 흥미로운 일이 곧 닥칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부러진 나팔을 봄",
+          "interpretation_ko": "죽음이나 사고가 따를 흉한 조짐",
+          "interpretation_en": "denotes death or accident",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horn",
+              "original": "To see a broken horn, denotes death or accident.",
+              "translation_ko": "부러진 나팔을 보면 죽음이나 사고를 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "아이들이 나팔을 갖고 놂",
+          "interpretation_ko": "집안이 화목하고 뜻이 잘 맞을 길한 조짐",
+          "interpretation_en": "denotes congeniality in the home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horn",
+              "original": "To see children playing with horns, denotes congeniality in the home.",
+              "translation_ko": "아이들이 나팔을 갖고 노는 것을 보면 집안이 화목함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 나팔을 붊",
+          "interpretation_ko": "정인보다 혼인을 더 조급하게 바라고 있다는 뜻",
+          "interpretation_en": "foretells that she is more anxious for marriage than her lover",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Horn",
+              "original": "For a woman to dream of blowing a horn, foretells that she is more anxious for marriage than her lover.",
+              "translation_ko": "여성이 나팔을 부는 꿈은, 정인보다 혼인을 더 조급하게 바라고 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "나팔에서 나는 즐거운 소리를 들음",
+          "interpretation_ko": "보이지 않는 힘이 좋은 일들을 조화롭게 준비하고 있으니 특별한 행복을 맞이할 조짐",
+          "interpretation_en": "a sign to prepare for some unusual happiness, as a harmony of good things for you is being formed by unseen powers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bugle",
+              "original": "To hear joyous blasts from a bugle, prepare for some unusual happiness, as a harmony of good things for you is being formed by unseen powers.",
+              "translation_ko": "나팔에서 나는 즐거운 소리를 들으면 보이지 않는 힘이 좋은 일들을 조화롭게 준비하고 있으니 특별한 행복을 맞이할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "나팔을 붊",
+          "interpretation_ko": "운 좋은 거래가 있을 조짐",
+          "interpretation_en": "a sign of fortunate dealings",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bugle",
+              "original": "Blowing a bugle, denotes fortunate dealings.",
+              "translation_ko": "나팔을 불면 운 좋은 거래가 있을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "canary",
       "term_ko": "카나리아",
       "term_en": "canary",
@@ -43498,6 +43764,108 @@
       ]
     },
     {
+      "id": "trout",
+      "term_ko": "송어",
+      "term_en": "trout",
+      "aliases": [
+        "송어가",
+        "송어를"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "송어를 봄",
+          "interpretation_ko": "운수가 점점 트일 조짐",
+          "interpretation_en": "is significant of growing prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trout",
+              "original": "To dream of seeing trout, is significant of growing prosperity.",
+              "translation_ko": "송어를 보는 꿈은, 운수가 점점 트일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "송어를 먹음",
+          "interpretation_ko": "만족스러운 처지에 놓일 조짐",
+          "interpretation_en": "denotes that you will be happily conditioned",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trout",
+              "original": "To eat some, denotes that you will be happily conditioned.",
+              "translation_ko": "송어를 먹는 꿈은, 만족스러운 처지에 놓일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "낚싯바늘로 송어를 낚음",
+          "interpretation_ko": "확실한 즐거움과 능력을 예고",
+          "interpretation_en": "foretells assured pleasure and competence",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trout",
+              "original": "To catch one with a hook, foretells assured pleasure and competence.",
+              "translation_ko": "낚싯바늘로 송어를 낚는 꿈은, 확실한 즐거움과 능력을 예고한다"
+            }
+          ]
+        },
+        {
+          "context": "낚은 송어가 다시 물속으로 떨어짐",
+          "interpretation_ko": "행복이 짧게 이어질 조짐",
+          "interpretation_en": "you will have a short season of happiness",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trout",
+              "original": "If it falls back into the water, you will have a short season of happiness.",
+              "translation_ko": "낚은 송어가 다시 물속으로 떨어지는 꿈은, 행복이 짧게 이어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "그물로 송어를 잡음",
+          "interpretation_ko": "견줄 데 없는 번영의 조짐",
+          "interpretation_en": "is a sign of unparalleled prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trout",
+              "original": "To catch them with a seine, is a sign of unparalleled prosperity.",
+              "translation_ko": "그물로 송어를 잡는 꿈은, 견줄 데 없는 번영의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "흐린 물속의 송어를 봄",
+          "interpretation_ko": "사랑에서의 성공이 도리어 슬픔과 낙담을 불러올 조짐",
+          "interpretation_en": "shows that your success in love will bring you to grief and disappointments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trout",
+              "original": "To see them in muddy water shows that your success in love will bring you to grief and disappointments.",
+              "translation_ko": "흐린 물속의 송어를 보는 꿈은, 사랑에서의 성공이 도리어 슬픔과 낙담을 불러올 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "woman",
       "term_ko": "여자",
       "term_en": "woman",
@@ -45633,96 +46001,6 @@
               "locator": "衣帳毯褥匙櫡",
               "original": "人送大桶主得利",
               "translation_ko": "남이 큰 통을 보내오면 이익을 얻는다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bugle",
-      "term_ko": "나팔",
-      "term_en": "bugle",
-      "aliases": [
-        "뿔피리",
-        "트럼펫",
-        "나팔소리",
-        "군나팔"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "나팔에서 나는 즐거운 소리를 들음",
-          "interpretation_ko": "보이지 않는 힘이 좋은 일들을 조화롭게 준비하고 있으니 특별한 행복을 맞이할 조짐",
-          "interpretation_en": "a sign to prepare for some unusual happiness, as a harmony of good things for you is being formed by unseen powers",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bugle",
-              "original": "To hear joyous blasts from a bugle, prepare for some unusual happiness, as a harmony of good things for you is being formed by unseen powers.",
-              "translation_ko": "나팔에서 나는 즐거운 소리를 들으면 보이지 않는 힘이 좋은 일들을 조화롭게 준비하고 있으니 특별한 행복을 맞이할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "부러진 나팔을 봄",
-          "interpretation_ko": "죽음이나 사고가 따를 흉한 조짐",
-          "interpretation_en": "denotes death or accident",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Horn",
-              "original": "To see a broken horn, denotes death or accident.",
-              "translation_ko": "부러진 나팔을 보면 죽음이나 사고를 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "아이들이 나팔을 갖고 놂",
-          "interpretation_ko": "집안이 화목하고 뜻이 잘 맞을 길한 조짐",
-          "interpretation_en": "denotes congeniality in the home",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Horn",
-              "original": "To see children playing with horns, denotes congeniality in the home.",
-              "translation_ko": "아이들이 나팔을 갖고 노는 것을 보면 집안이 화목함을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 나팔을 붊",
-          "interpretation_ko": "정인보다 혼인을 더 조급하게 바라고 있다는 뜻",
-          "interpretation_en": "foretells that she is more anxious for marriage than her lover",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Horn",
-              "original": "For a woman to dream of blowing a horn, foretells that she is more anxious for marriage than her lover.",
-              "translation_ko": "여성이 나팔을 부는 꿈은, 정인보다 혼인을 더 조급하게 바라고 있음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "나팔을 붊",
-          "interpretation_ko": "운 좋은 거래가 있을 조짐",
-          "interpretation_en": "a sign of fortunate dealings",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bugle",
-              "original": "Blowing a bugle, denotes fortunate dealings.",
-              "translation_ko": "나팔을 불면 운 좋은 거래가 있을 조짐이다"
             }
           ]
         }
@@ -79824,67 +80102,6 @@
               "locator": "Lovely",
               "original": "If through the vista of dreams you see your own fair loveliness, fate bids you, with a gleaming light, awake to happiness.",
               "translation_ko": "꿈결 너머로 제 고운 모습을 보면, 빛나는 빛과 함께 기쁨으로 깨어나라고 운수가 이른다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "luggage",
-      "term_ko": "짐가방",
-      "term_en": "luggage",
-      "aliases": [
-        "짐가방을",
-        "짐가방이",
-        "여행 가방"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "짐가방을 봄",
-          "interpretation_ko": "달갑지 않은 걱정거리가 생길 흉한 조짐 — 마음에 안 드는 사람들에게 매이게 된다",
-          "interpretation_en": "denotes unpleasant cares; you will be encumbered with people who will prove distasteful to you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Luggage",
-              "original": "To dream of luggage, denotes unpleasant cares.",
-              "translation_ko": "짐가방의 꿈은 달갑지 않은 걱정거리가 생김을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "제 짐가방을 들고 감",
-          "interpretation_ko": "제 괴로움에만 빠져 남의 슬픔을 못 보게 될 흉한 조짐",
-          "interpretation_en": "you will be so full of your own distresses that you will be blinded to the sorrows of others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Luggage",
-              "original": "If you are carrying your own luggage, you will be so full of your own distresses that you will be blinded to the sorrows of others.",
-              "translation_ko": "제 짐가방을 들고 가면, 제 괴로움에만 빠져 남의 슬픔을 못 보게 된다"
-            }
-          ]
-        },
-        {
-          "context": "짐가방을 잃음",
-          "interpretation_ko": "요행수가 어그러지거나 집안이 갈라질 흉한 조짐. 혼인 안 한 이에게는 약혼이 깨짐을 알린다",
-          "interpretation_en": "denotes some unfortunate speculation or family dissensions; to the unmarried, it foretells broken engagements",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Luggage",
-              "original": "To lose your luggage, denotes some unfortunate speculation or family dissensions To the unmarried, it foretells broken engagements.",
-              "translation_ko": "짐가방을 잃으면 요행수가 어그러지거나 집안이 갈라진다. 혼인 안 한 이에게는 약혼이 깨짐을 알린다"
             }
           ]
         }
@@ -116174,6 +116391,52 @@
               "locator": "Trousers",
               "original": "If you put them on wrong side out, you will find that a fascination is fastening its hold upon you.",
               "translation_ko": "바지를 뒤집어 입는 꿈은, 무언가에 홀려 마음을 빼앗길 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trowel",
+      "term_ko": "흙손",
+      "term_en": "trowel",
+      "aliases": [
+        "흙손이",
+        "흙손을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "흙손 꿈을 꿈",
+          "interpretation_ko": "사업이 어려워졌다 되살아나며 가난을 이겨낼 조짐",
+          "interpretation_en": "denotes you will experience reaction in unfavorable business, and will vanquish poverty",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trowel",
+              "original": "To dream of a trowel, denotes you will experience reaction in unfavorable business, and will vanquish poverty.",
+              "translation_ko": "흙손 꿈을 꾸면, 사업이 어려워졌다 되살아나며 가난을 이겨낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "녹슬거나 부서진 흙손을 봄",
+          "interpretation_ko": "피할 수 없는 불운이 빠르게 다가올 조짐",
+          "interpretation_en": "unavoidable ill luck is fast approaching you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trowel",
+              "original": "To see one rusty or broken, unavoidable ill luck is fast approaching you.",
+              "translation_ko": "녹슬거나 부서진 흙손을 보는 꿈은, 피할 수 없는 불운이 빠르게 다가올 조짐이다"
             }
           ]
         }
