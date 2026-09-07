@@ -7817,5 +7817,36 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "tadpole": [
     "tadpole",
     "tadpoles"
+  ],
+  "tail": [
+    "tail",
+    "a tail"
+  ],
+  "tailor": [
+    "tailor",
+    "a tailor"
+  ],
+  "talisman": [
+    "talisman",
+    "a talisman"
+  ],
+  "talking": [
+    "talking",
+    "talk"
+  ],
+  "tallow": [
+    "tallow"
+  ],
+  "tambourine": [
+    "tambourine",
+    "a tambourine"
+  ],
+  "tannery": [
+    "tannery",
+    "a tannery"
+  ],
+  "tape": [
+    "tape",
+    "a tape"
   ]
 };

@@ -186,6 +186,7 @@
     "m263.json",
     "m264.json",
     "m265.json",
+    "m266.json",
     "m27a.json",
     "m27b.json",
     "m28.json",
@@ -56247,6 +56248,80 @@
       ]
     },
     {
+      "id": "cistern",
+      "term_ko": "저수조",
+      "term_en": "cistern",
+      "aliases": [
+        "물탱크",
+        "빗물통"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "저수조를 봄",
+          "interpretation_ko": "벗의 즐거움과 권리를 침범할 위험에 놓인 조짐",
+          "interpretation_en": "you are in danger of trespassing upon the pleasures and rights of your friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cistern",
+              "original": "To dream of a cistern, denotes you are in danger of trespassing upon the pleasures and rights of your friends.",
+              "translation_ko": "저수조 꿈은 벗의 즐거움과 권리를 침범할 위험에 놓였음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "저수조에서 물을 길음",
+          "interpretation_ko": "놀이와 즐김이 커지되 그 방식이 남 보기에 온당치 않을 조짐",
+          "interpretation_en": "you will enlarge in your pastime and enjoyment in a manner which may be questioned by propriety",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cistern",
+              "original": "To draw from one, foretells that you will enlarge in your pastime and enjoyment in a manner which may be questioned by propriety.",
+              "translation_ko": "거기서 물을 길으면 놀이와 즐김이 커지되, 그 방식이 남 보기에 온당한지 의심받을 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "저수조가 비어 있음",
+          "interpretation_ko": "행복에서 슬픔으로 절망스럽게 바뀔 조짐",
+          "interpretation_en": "despairing change from happiness to sorrow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cistern",
+              "original": "To see an empty one, foretells despairing change from happiness to sorrow.",
+              "translation_ko": "비어 있는 것을 보면 행복에서 슬픔으로 절망스럽게 바뀐다"
+            }
+          ]
+        },
+        {
+          "context": "물이 새는 저수조를 봄",
+          "interpretation_ko": "일에서 손실을 볼 조짐",
+          "interpretation_en": "denotes loss in your affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tank",
+              "original": "To see a leaking tank, denotes loss in your affairs.",
+              "translation_ko": "물이 새는 저수조를 보는 꿈은, 일에서 손실을 볼 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "clay",
       "term_ko": "찰흙",
       "term_en": "clay",
@@ -71197,66 +71272,6 @@
       ]
     },
     {
-      "id": "cistern",
-      "term_ko": "저수조",
-      "term_en": "cistern",
-      "aliases": [
-        "물탱크",
-        "빗물통"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "저수조를 봄",
-          "interpretation_ko": "벗의 즐거움과 권리를 침범할 위험에 놓인 조짐",
-          "interpretation_en": "you are in danger of trespassing upon the pleasures and rights of your friends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cistern",
-              "original": "To dream of a cistern, denotes you are in danger of trespassing upon the pleasures and rights of your friends.",
-              "translation_ko": "저수조 꿈은 벗의 즐거움과 권리를 침범할 위험에 놓였음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "저수조에서 물을 길음",
-          "interpretation_ko": "놀이와 즐김이 커지되 그 방식이 남 보기에 온당치 않을 조짐",
-          "interpretation_en": "you will enlarge in your pastime and enjoyment in a manner which may be questioned by propriety",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cistern",
-              "original": "To draw from one, foretells that you will enlarge in your pastime and enjoyment in a manner which may be questioned by propriety.",
-              "translation_ko": "거기서 물을 길으면 놀이와 즐김이 커지되, 그 방식이 남 보기에 온당한지 의심받을 수 있다"
-            }
-          ]
-        },
-        {
-          "context": "저수조가 비어 있음",
-          "interpretation_ko": "행복에서 슬픔으로 절망스럽게 바뀔 조짐",
-          "interpretation_en": "despairing change from happiness to sorrow",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cistern",
-              "original": "To see an empty one, foretells despairing change from happiness to sorrow.",
-              "translation_ko": "비어 있는 것을 보면 행복에서 슬픔으로 절망스럽게 바뀐다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "club",
       "term_ko": "몽둥이",
       "term_en": "club",
@@ -84033,6 +84048,252 @@
               "locator": "Tacks",
               "original": "If she mashes her finger while driving it, she will be distressed over unpleasant tasks",
               "translation_ko": "압정을 박다가 손가락을 다치는 꿈은, 달갑잖은 일로 시달릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tail",
+      "term_ko": "꼬리",
+      "term_en": "tail",
+      "aliases": [
+        "꼬리가",
+        "꼬리를",
+        "꼬리에"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "짐승의 꼬리만 봄",
+          "interpretation_ko": "확실해 보이던 즐거움 속에서 뜻밖의 성가심을 겪을 조짐",
+          "interpretation_en": "unusual annoyance is indicated where pleasures seemed assured",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tail",
+              "original": "To dream of seeing only the tail of a beast, unusual annoyance is indicated where pleasures seemed assured.",
+              "translation_ko": "짐승의 꼬리만 보는 꿈은, 확실해 보이던 즐거움 속에서 뜻밖의 성가심을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "짐승의 꼬리를 자름",
+          "interpretation_ko": "스스로의 부주의로 불운을 겪을 조짐",
+          "interpretation_en": "denotes that you will suffer misfortune by your own carelessness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tail",
+              "original": "To cut off the tail of an animal, denotes that you will suffer misfortune by your own carelessness.",
+              "translation_ko": "짐승의 꼬리를 자르는 꿈은, 스스로의 부주의로 불운을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로에게 짐승의 꼬리가 자라남",
+          "interpretation_ko": "나쁜 행실이 헤아릴 수 없는 고통을 부르고, 낯선 일들로 당혹스러워질 조짐",
+          "interpretation_en": "denotes that your evil ways will cause you untold distress, and strange events will cause you perplexity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tail",
+              "original": "To dream that you have the tail of a beast grown on you, denotes that your evil ways will cause you untold distress, and strange events will cause you perplexity.",
+              "translation_ko": "스스로에게 짐승의 꼬리가 자라나는 꿈은, 나쁜 행실이 헤아릴 수 없는 고통을 부르고 낯선 일들로 당혹스러워질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tailor",
+      "term_ko": "재단사",
+      "term_en": "tailor",
+      "aliases": [
+        "재단사가",
+        "재단사를",
+        "양복장이"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "재단사 꿈을 꿈",
+          "interpretation_ko": "떠나야 할 여정 때문에 근심이 생길 조짐",
+          "interpretation_en": "denotes that worries will arise on account of some journey to be made",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tailor",
+              "original": "To dream of a tailor, denotes that worries will arise on account of some journey to be made.",
+              "translation_ko": "재단사 꿈은, 떠나야 할 여정 때문에 근심이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "재단사와 오해가 생김",
+          "interpretation_ko": "꾸민 일의 결과에 실망할 조짐",
+          "interpretation_en": "shows that you will be disappointed in the outcome of some scheme",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tailor",
+              "original": "To have a misunderstanding with one, shows that you will be disappointed in the outcome of some scheme.",
+              "translation_ko": "재단사와 오해가 생기는 꿈은, 꾸민 일의 결과에 실망할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "재단사가 치수를 잼",
+          "interpretation_ko": "다툼과 불화를 겪을 조짐",
+          "interpretation_en": "denotes that you will have quarrels and disagreements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tailor",
+              "original": "For one to take your measure, denotes that you will have quarrels and disagreements.",
+              "translation_ko": "재단사가 치수를 재는 꿈은, 다툼과 불화를 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "talking",
+      "term_ko": "말하기",
+      "term_en": "talking",
+      "aliases": [
+        "말하는",
+        "말했다",
+        "이야기하는",
+        "말하고"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 말하는 꿈을 꿈",
+          "interpretation_ko": "머잖아 살붙이의 병을 듣게 되고 일에서도 근심이 생길 조짐",
+          "interpretation_en": "denotes that you will soon hear of the sickness of relatives, and there will be worries in your affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Talking",
+              "original": "To dream of talking, denotes that you will soon hear of the sickness of relatives, and there will be worries in your affairs.",
+              "translation_ko": "스스로 말하는 꿈은, 머잖아 살붙이의 병을 듣게 되고 일에서도 근심이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 큰 소리로 말하는 것을 들음",
+          "interpretation_ko": "남의 일에 끼어들었다고 비난받을 조짐",
+          "interpretation_en": "foretells that you will be accused of interfering in the affairs of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Talking",
+              "original": "To hear others talking loudly, foretells that you will be accused of interfering in the affairs of others.",
+              "translation_ko": "남들이 큰 소리로 말하는 것을 듣는 꿈은, 남의 일에 끼어들었다고 비난받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 자신에 대해 말하고 있다고 여김",
+          "interpretation_ko": "병과 불신을 겪을 위협에 처했다는 조짐",
+          "interpretation_en": "denotes that you are menaced with illness and disfavor",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Talking",
+              "original": "To think they are talking about you, denotes that you are menaced with illness and disfavor.",
+              "translation_ko": "남들이 자신에 대해 말하고 있다고 여기는 꿈은, 병과 불신을 겪을 위협에 처했다는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tannery",
+      "term_ko": "가죽공장",
+      "term_en": "tannery",
+      "aliases": [
+        "가죽공장이",
+        "가죽공장을",
+        "무두질 공장",
+        "무두장이"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "가죽공장 꿈을 꿈",
+          "interpretation_ko": "전염과 이런저런 병을 뜻하며, 장사에서 손실이 예고됨",
+          "interpretation_en": "denotes contagion and other illness; loss in trade is portended",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tannery",
+              "original": "To dream of a tannery, denotes contagion and other illness. Loss in trade is portended.",
+              "translation_ko": "가죽공장 꿈은, 전염과 이런저런 병을 뜻하며 장사에서 손실이 예고됨이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 무두장이가 됨",
+          "interpretation_ko": "취향에 안 맞는 일을 떠맡게 되나 자신에게 기대는 이들도 생길 조짐",
+          "interpretation_en": "denotes that you will have to engage in work which is not to your taste, but there will be others dependent upon you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tannery",
+              "original": "To dream that you are a tanner, denotes that you will have to engage in work which is not to your taste, but there will be others dependent upon you.",
+              "translation_ko": "스스로 무두장이가 되는 꿈은, 취향에 안 맞는 일을 떠맡게 되나 자신에게 기대는 이들도 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "가죽공장에서 가죽을 삼",
+          "interpretation_ko": "벌인 일에서 성공하나 벗은 많이 사귀지 못할 조짐",
+          "interpretation_en": "foretells that you will be successful in your undertakings, but will not make many friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tannery",
+              "original": "To buy leather from a tannery, foretells that you will be successful in your undertakings, but will not make many friends.",
+              "translation_ko": "가죽공장에서 가죽을 사는 꿈은, 벌인 일에서 성공하나 벗은 많이 사귀지 못할 조짐이다"
             }
           ]
         }
@@ -111770,6 +112031,99 @@
       ]
     },
     {
+      "id": "talisman",
+      "term_ko": "부적",
+      "term_en": "talisman",
+      "aliases": [
+        "부적이",
+        "부적을",
+        "부적에게서"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 부적을 지님",
+          "interpretation_ko": "즐거운 벗을 얻고 부유한 이들의 호의를 누릴 조짐",
+          "interpretation_en": "implies you will have pleasant companions and enjoy favors from the rich",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Talisman",
+              "original": "To dream that you wear a talisman, implies you will have pleasant companions and enjoy favors from the rich.",
+              "translation_ko": "스스로 부적을 지니는 꿈은, 즐거운 벗을 얻고 부유한 이들의 호의를 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 애인에게서 부적을 받음",
+          "interpretation_ko": "혼인에 관해 바라던 바를 이룰 조짐",
+          "interpretation_en": "denotes she will obtain her wishes concerning marriage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Talisman",
+              "original": "For a young woman to dream her lover gives her one, denotes she will obtain her wishes concerning marriage.",
+              "translation_ko": "여성이 애인에게서 부적을 받는 꿈은, 혼인에 관해 바라던 바를 이룰 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tape",
+      "term_ko": "테이프",
+      "term_en": "tape",
+      "aliases": [
+        "테이프가",
+        "테이프를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "테이프 꿈을 꿈",
+          "interpretation_ko": "하는 일이 고되고 보람 없을 조짐",
+          "interpretation_en": "denotes your work will be wearisome and unprofitable",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tape",
+              "original": "To dream of tape, denotes your work will be wearisome and unprofitable.",
+              "translation_ko": "테이프 꿈은, 하는 일이 고되고 보람 없을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 테이프를 삼",
+          "interpretation_ko": "불운이 자신을 짓누르게 될 조짐",
+          "interpretation_en": "foretells she will find misfortune laying oppression upon her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tape",
+              "original": "For a woman to buy it, foretells she will find misfortune laying oppression upon her.",
+              "translation_ko": "여성이 테이프를 사는 꿈은, 불운이 자신을 짓누르게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "teeth",
       "term_ko": "이",
       "term_en": "teeth",
@@ -125285,6 +125639,71 @@
               "locator": "佛道僧尼鬼神",
               "original": "身受戒行者子孝",
               "translation_ko": "몸소 계행을 받으면 자식이 효도한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tallow",
+      "term_ko": "짐승기름",
+      "term_en": "tallow",
+      "aliases": [
+        "짐승기름이",
+        "짐승기름을",
+        "수지"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "짐승기름 꿈을 꿈",
+          "interpretation_ko": "지녔던 사랑과 재물이 순식간에 사라질 조짐",
+          "interpretation_en": "forebodes that your possessions of love and wealth will quickly vanish",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tallow",
+              "original": "To dream of tallow, forebodes that your possessions of love and wealth will quickly vanish.",
+              "translation_ko": "짐승기름 꿈은, 지녔던 사랑과 재물이 순식간에 사라질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tambourine",
+      "term_ko": "탬버린",
+      "term_en": "tambourine",
+      "aliases": [
+        "탬버린이",
+        "탬버린을"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "탬버린 꿈을 꿈",
+          "interpretation_ko": "머잖아 일어날 색다른 일에서 즐거움을 누릴 조짐",
+          "interpretation_en": "signifies you will have enjoyment in some unusual event which will soon take place",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tambourine",
+              "original": "To dream of a tambourine, signifies you will have enjoyment in some unusual event which will soon take place.",
+              "translation_ko": "탬버린 꿈은, 머잖아 일어날 색다른 일에서 즐거움을 누릴 조짐이다"
             }
           ]
         }

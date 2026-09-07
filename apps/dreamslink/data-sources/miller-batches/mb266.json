@@ -1,0 +1,19 @@
+{
+  "batch": 266,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Tail", "text": "To dream of seeing only the tail of a beast, unusual annoyance is indicated where pleasures seemed assured.\n\nTo cut off the tail of an animal, denotes that you will suffer misfortune by your own carelessness.\n\nTo dream that you have the tail of a beast grown on you, denotes that your evil ways will cause you untold distress, and strange events will cause you perplexity.", "note": "새 상징 tail(꼬리)" },
+    { "headword": "Tailor", "text": "To dream of a tailor, denotes that worries will arise on account of some journey to be made.\n\nTo have a misunderstanding with one, shows that you will be disappointed in the outcome of some scheme.\n\nFor one to take your measure, denotes that you will have quarrels and disagreements.", "note": "새 상징 tailor(재단사) — 기존 seamstress(재봉사)와는 다른 상징" },
+    { "headword": "Talisman", "text": "To dream that you wear a talisman, implies you will have pleasant companions and enjoy favors from the rich.\n\nFor a young woman to dream her lover gives her one, denotes she will obtain her wishes concerning marriage.", "note": "새 상징 talisman(부적)" },
+    { "headword": "Talking", "text": "To dream of talking, denotes that you will soon hear of the sickness of relatives, and there will be worries in your affairs.\n\nTo hear others talking loudly, foretells that you will be accused of interfering in the affairs of others.  To think they are talking about you, denotes that you are menaced with illness and disfavor.", "note": "새 상징 talking(말하기)" },
+    { "headword": "Tallow", "text": "To dream of tallow, forebodes that your possessions of love and wealth will quickly vanish.", "note": "새 상징 tallow(짐승기름)" },
+    { "headword": "Tambourine", "text": "To dream of a tambourine, signifies you will have enjoyment in some unusual event which will soon take place.", "note": "새 상징 tambourine(탬버린)" },
+    { "headword": "Tank", "text": "To dream of a tank, foretells you will be prosperous and satisfied beyond your expectations.  To see a leaking tank, denotes loss in your affairs.", "note": "기존 cistern(저수조)에 문맥 1개만 추가 — 「물탱크」가 이미 별칭이었다. 첫 문장(그냥 탱크)은 기존 cistern 「저수조를 봄」(밀러 Cistern, 흉함)과 같은 그림·다른 풀이(길함)라 건너뜀" },
+    { "headword": "Tannery", "text": "To dream of a tannery, denotes contagion and other illness.  Loss in trade is portended.\n\nTo dream that you are a tanner, denotes that you will have to engage in work which is not to your taste, but there will be others dependent upon you.\n\nTo buy leather from a tannery, foretells that you will be successful in your undertakings, but will not make many friends.", "note": "새 상징 tannery(가죽공장)" },
+    { "headword": "Tape", "text": "To dream of tape, denotes your work will be wearisome and unprofitable.\n\nFor a woman to buy it, foretells she will find misfortune laying oppression upon her.", "note": "새 상징 tape(테이프)" }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    { "headword": "Tank", "sentence": "To dream of a tank, foretells you will be prosperous and satisfied beyond your expectations.", "reason": "기존 cistern 「저수조를 봄」(밀러 Cistern)과 같은 그림·다른 풀이" }
+  ]
+}

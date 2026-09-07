@@ -1,0 +1,157 @@
+[
+  {
+    "id": "tail",
+    "aliases": [
+      "꼬리가",
+      "꼬리를",
+      "꼬리에"
+    ],
+    "aliases_en": [
+      "tail",
+      "a tail"
+    ],
+    "contexts": {
+      "짐승의 꼬리만 봄": "그냥",
+      "짐승의 꼬리를 자름": "잘랐다 자르는",
+      "스스로에게 짐승의 꼬리가 자라남": "스스로에게 자라"
+    },
+    "contexts_en": {
+      "짐승의 꼬리만 봄": "unusual annoyance",
+      "짐승의 꼬리를 자름": "cut off carelessness",
+      "스스로에게 짐승의 꼬리가 자라남": "grown evil distress"
+    }
+  },
+  {
+    "id": "tailor",
+    "aliases": [
+      "재단사가",
+      "재단사를",
+      "양복장이"
+    ],
+    "aliases_en": [
+      "tailor",
+      "a tailor"
+    ],
+    "contexts": {
+      "재단사 꿈을 꿈": "그냥",
+      "재단사와 오해가 생김": "오해가",
+      "재단사가 치수를 잼": "치수를"
+    },
+    "contexts_en": {
+      "재단사 꿈을 꿈": "journey worries",
+      "재단사와 오해가 생김": "misunderstanding disappointed scheme",
+      "재단사가 치수를 잼": "measure quarrels disagreements"
+    }
+  },
+  {
+    "id": "talisman",
+    "aliases": [
+      "부적이",
+      "부적을",
+      "부적에게서"
+    ],
+    "aliases_en": [
+      "talisman",
+      "a talisman"
+    ],
+    "contexts": {
+      "스스로 부적을 지님": "스스로 지니",
+      "여성이 애인에게서 부적을 받음": "애인에게서 받았다"
+    },
+    "contexts_en": {
+      "스스로 부적을 지님": "wear companions favors",
+      "여성이 애인에게서 부적을 받음": "lover gives marriage"
+    }
+  },
+  {
+    "id": "talking",
+    "aliases": [
+      "말하는",
+      "말했다",
+      "이야기하는",
+      "말하고"
+    ],
+    "aliases_en": [
+      "talking",
+      "talk"
+    ],
+    "contexts": {
+      "스스로 말하는 꿈을 꿈": "그냥",
+      "남들이 큰 소리로 말하는 것을 들음": "큰소리로 소리로",
+      "남들이 자신에 대해 말하고 있다고 여김": "자신에 대해"
+    },
+    "contexts_en": {
+      "스스로 말하는 꿈을 꿈": "sickness relatives worries",
+      "남들이 큰 소리로 말하는 것을 들음": "loudly accused interfering",
+      "남들이 자신에 대해 말하고 있다고 여김": "menaced illness disfavor"
+    }
+  },
+  {
+    "id": "tallow",
+    "aliases": [
+      "짐승기름이",
+      "짐승기름을",
+      "수지"
+    ],
+    "aliases_en": [
+      "tallow"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "tambourine",
+    "aliases": [
+      "탬버린이",
+      "탬버린을"
+    ],
+    "aliases_en": [
+      "tambourine",
+      "a tambourine"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "tannery",
+    "aliases": [
+      "가죽공장이",
+      "가죽공장을",
+      "무두질 공장",
+      "무두장이"
+    ],
+    "aliases_en": [
+      "tannery",
+      "a tannery"
+    ],
+    "contexts": {
+      "가죽공장 꿈을 꿈": "그냥",
+      "스스로 무두장이가 됨": "무두장이",
+      "가죽공장에서 가죽을 삼": "가죽을 샀다"
+    },
+    "contexts_en": {
+      "가죽공장 꿈을 꿈": "contagion illness trade",
+      "스스로 무두장이가 됨": "tanner taste dependent",
+      "가죽공장에서 가죽을 삼": "buy leather successful"
+    }
+  },
+  {
+    "id": "tape",
+    "aliases": [
+      "테이프가",
+      "테이프를"
+    ],
+    "aliases_en": [
+      "tape",
+      "a tape"
+    ],
+    "contexts": {
+      "테이프 꿈을 꿈": "그냥",
+      "여성이 테이프를 삼": "여성이 샀다"
+    },
+    "contexts_en": {
+      "테이프 꿈을 꿈": "wearisome unprofitable",
+      "여성이 테이프를 삼": "buy misfortune oppression"
+    }
+  }
+]
