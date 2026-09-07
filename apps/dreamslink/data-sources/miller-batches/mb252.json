@@ -1,0 +1,54 @@
+{
+  "batch": 252,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Somnambulist",
+      "text": "To imagine while dreaming that you are a somnambulist, portends that you will unwittingly consent to some agreement of plans which will bring you anxiety or ill fortune.",
+      "note": "새 상징 `somnambulist`(몽유병자) — 한 그림"
+    },
+    {
+      "headword": "Sorcerer",
+      "text": "To dream of a sorcerer, foretells your ambitions will undergo strange disappointments and change.",
+      "note": "새 상징 `sorcerer`(마법사) — 한 그림. `conjurer`(요술쟁이)와 헤드워드가 다르고 풀이도 달라 별개로 세운다"
+    },
+    {
+      "headword": "Sores",
+      "text": "To dream of seeing sores, denotes that illness will cause you loss and mental distress.\n\nTo dress a sore, foretells that your personal wishes and desires will give place to the pleasure of others.\n\nTo dream of an infant having a deep sore so that you can see the bone, denotes that distressing and annoying incidents will detract from your plans, and children will be threatened with contagion.\n\nTo dream of sores on yourself, portends early decay of health and impaired mentality.  Sickness and unsatisfactory business will follow this dream.",
+      "note": "기존 `boil`(종기)에 붙임 — 네 그림. term_ko가 이미 boil과 같다(종기)"
+    },
+    {
+      "headword": "Soul",
+      "text": "To dream of seeing your soul leaving your body, signifies you are in danger of sacrificing yourself to useless designs, which will dwarf your sense of honor and cause you to become mercenary and uncharitable.\n\nFor an artist to see his soul in another, foretells he will gain distinction if he applies himself to his work and leaves off sentimental roles.\n\nTo imagine another's soul is in you, denotes you will derive solace and benefit from some stranger who is yet to come into your life.\n\nFor a young woman musician to dream that she sees another young woman on the stage clothed in sheer robes, and imagining it is her own soul in the other person, denotes she will be outrivaled in some great undertaking.\n\nTo dream that you are discussing the immortality of your soul, denotes you will improve opportunities which will aid you in gaining desired knowledge and pleasure of intercourse with intellectual people.",
+      "note": "새 상징 `soul`(영혼) — 다섯 그림. `ghost`가 쥔 bare 별칭 \"영혼\"을 회수한다"
+    },
+    {
+      "headword": "Soup",
+      "text": "To dream of soup, is a forerunner of good tidings and comfort.\n\nTo see others taking soup, foretells that you will have many good chances to marry.\n\nFor a young woman to make soup, signifies that she will not be compelled to do menial work in her household, as she will marry a wealthy man.\n\nTo drink oyster soup made of sweet milk, there will be quarrels with some bad luck, but reconciliations will follow.",
+      "note": "기존 `broth`(국물)에 붙임 — 넷 중 둘만. 첫째(수프를 봄)·셋째(직접 만듦)는 broth의 기존 그림과 같아 건너뜀"
+    },
+    {
+      "headword": "Sovereign",
+      "text": "To dream of a sovereign, denotes increasing prosperity and new friends.",
+      "note": "기존 `king`(임금)에 붙임 — 한 그림"
+    },
+    {
+      "headword": "Sowing",
+      "text": "To dream that you are sowing seed, foretells to the farmer fruitful promises, if he sows in new ploughed soil.\n\nTo see others sowing, much business activity is portended, which will bring gain to all.",
+      "note": "기존 `farming`(농사)에 붙임 — 두 그림. farming이 이미 별칭으로 '파종'·EN 'sowing'을 쥐고 있어 새 상징을 세우지 않는다"
+    }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    {
+      "headword": "Soup",
+      "text": "To dream of soup, is a forerunner of good tidings and comfort.",
+      "reason": "broth의 기존 문맥 '고기 국물을 보는 꿈을 꿈'(Broth: sincerity of friends)과 같은 그림 — 그냥 수프를 보는 꿈이라는 일반적 장면이 겹친다"
+    },
+    {
+      "headword": "Soup",
+      "text": "For a young woman to make soup, signifies that she will not be compelled to do menial work in her household, as she will marry a wealthy man.",
+      "reason": "broth의 기존 문맥 '직접 국물을 만듦'(Broth: to make broth, you will rule your own and others' fate)과 같은 그림 — 직접 만드는 장면이 겹친다"
+    }
+  ]
+}

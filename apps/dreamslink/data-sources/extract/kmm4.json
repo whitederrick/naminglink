@@ -459,12 +459,20 @@
     "contexts": {
       "만성 단계에 이른 것처럼 보이는 종기가 난 꿈을 꿈": "만성 오래된 낫지않 고질",
       "고름과 피가 나오는 종기를 봄": "고름 피가 터져 진물",
-      "이마에 종기가 남": "이마 앞이마 얼굴에"
+      "이마에 종기가 남": "이마 앞이마 얼굴에",
+      "종기를 봄": "병이 걱정",
+      "종기에 약을 바름": "발랐다 치료했다",
+      "아기의 종기가 뼈까지 보일 만큼 깊음": "아기가 뼈가 전염",
+      "자신에게 종기가 남": "자신에게 쇠약"
     },
     "contexts_en": {
       "만성 단계에 이른 것처럼 보이는 종기가 난 꿈을 꿈": "chronic lingering persistent",
       "고름과 피가 나오는 종기를 봄": "pus blood bleeding oozing",
-      "이마에 종기가 남": "forehead brow face"
+      "이마에 종기가 남": "forehead brow face",
+      "종기를 봄": "illness loss distress",
+      "종기에 약을 바름": "dress wishes desires pleasure",
+      "아기의 종기가 뼈까지 보일 만큼 깊음": "infant bone contagion",
+      "자신에게 종기가 남": "decay mentality sickness"
     }
   },
   {

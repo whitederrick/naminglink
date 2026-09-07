@@ -1,6 +1,7 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 251 — Snuff·Soap·Socialist·Soda Fountain·Son·Soot·Having-sold,
-// 기존 soldier(군인)에 세 그림 붙임)
+// (지금 담긴 것: 배치 252 — 새 상징 somnambulist(몽유병자)·sorcerer(마법사)·soul(영혼),
+// 기존 boil(종기)에 네 그림·broth(국물)에 두 그림·king(임금)에 한 그림·farming(농사)에
+// 두 그림 붙임. ghost(귀신)에서 bare 별칭 "영혼"을 회수해 soul로 넘김)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -31,25 +32,35 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  { id: "snuff", ctx: "코담배 꿈을 꿈", text: "코담배 꿈을 꾸었다" },
-  { id: "snuff", ctx: "여성이 코담배를 사용함", text: "여성이 코담배를 사용했다" },
-  { id: "soap", ctx: "비누 꿈을 꿈", text: "비누 꿈을 꾸었다" },
-  { id: "soap", ctx: "여성이 비누를 만듦", text: "여성이 비누를 만들었다" },
-  { id: "socialist", ctx: "사회주의자를 봄", text: "사회주의자를 보았다" },
-  { id: "soda-fountain", ctx: "소다수 판매대에 있음", text: "소다수 판매대에 있었다" },
-  { id: "soda-fountain", ctx: "남에게 시원한 음료를 대접함", text: "소다수 판매대에서 남에게 시원한 음료를 대접했다" },
-  { id: "son", ctx: "잘생기고 다정한 아들을 봄", text: "잘생기고 다정한 아들을 보았다" },
-  { id: "son", ctx: "아들이 다치거나 병들거나 사고를 당함", text: "아들이 다치거나 병들었다" },
-  { id: "son", ctx: "어머니가 아들이 우물 바닥에 떨어져 우는 소리를 들음", text: "어머니가 아들이 우물 바닥에 떨어져 우는 소리를 들었다" },
-  { id: "son", ctx: "어머니가 아들을 구해냄", text: "어머니가 아들을 구해냈다" },
-  { id: "soot", ctx: "검댕을 봄", text: "검댕을 보았다" },
-  { id: "having-sold", ctx: "무언가를 판 꿈을 꿈", text: "무언가를 판 꿈을 꾸었다" },
-  { id: "soldier", ctx: "병사들이 행진하는 것을 봄", text: "병사들이 행진하는 것을 보았다" },
-  { id: "soldier", ctx: "부상당한 병사들을 봄", text: "부상당한 병사들을 보았다" },
-  { id: "soldier", ctx: "자신이 훌륭한 병사가 됨", text: "자신이 훌륭한 병사가 되었다" },
-  // 지킴 — 이번에 손댄 기존 상징(soldier)의 옛 답이 그대로인가
-  { id: "soldier", ctx: "군인이 집에 들어옴", text: "군인이 집에 들어왔다" },
-  { id: "soldier", ctx: "군사가 흩어지는 것을 봄", text: "군사가 흩어지는 것을 보았다" },
+  { id: "somnambulist", ctx: "자신이 몽유병자가 됨", text: "자신이 몽유병자가 되었다" },
+  { id: "sorcerer", ctx: "마법사를 봄", text: "마법사를 보았다" },
+  { id: "boil", ctx: "종기를 봄", text: "종기를 보고 병이 날까 걱정했다" },
+  { id: "boil", ctx: "종기에 약을 바름", text: "종기에 약을 발랐다" },
+  { id: "boil", ctx: "아기의 종기가 뼈까지 보일 만큼 깊음", text: "아기가 뼈가 보일 만큼 깊은 종기가 났다" },
+  { id: "boil", ctx: "자신에게 종기가 남", text: "자신에게 종기가 났다" },
+  { id: "soul", ctx: "자신의 영혼이 몸을 떠나는 것을 봄", text: "자신의 영혼이 몸을 떠나는 것을 보았다" },
+  { id: "soul", ctx: "예술가가 남에게서 제 영혼을 봄", text: "예술가가 남에게서 제 영혼을 보았다" },
+  { id: "soul", ctx: "남의 영혼이 자신 안에 있다고 여김", text: "남의 영혼이 자신 안에 있다고 여겼다" },
+  {
+    id: "soul",
+    ctx: "여성 음악가가 무대 위 다른 여성을 보며 그것이 제 영혼이라 여김",
+    text: "여성 음악가가 무대 위 다른 여성을 보며 그것이 제 영혼이라 여겼다",
+  },
+  { id: "soul", ctx: "영혼의 불멸을 논함", text: "영혼의 불멸을 논했다" },
+  { id: "broth", ctx: "남이 수프 먹는 것을 봄", text: "남이 수프 먹는 것을 보았다" },
+  { id: "broth", ctx: "굴 수프를 마심", text: "달콤한 우유로 만든 굴 수프를 마셨다" },
+  { id: "king", ctx: "군주를 봄", text: "군주를 보고 번영과 새 친구를 얻었다" },
+  { id: "farming", ctx: "새로 간 땅에 씨를 뿌림", text: "새로 간 땅에 씨를 뿌렸다" },
+  { id: "farming", ctx: "남이 씨 뿌리는 것을 봄", text: "남들이 씨 뿌리는 것을 보았다" },
+  // 지킴 — 이번에 손댄 기존 상징(boil·broth·king·farming·ghost)의 옛 답이 그대로인가
+  { id: "boil", ctx: "만성 단계에 이른 것처럼 보이는 종기가 난 꿈을 꿈", text: "만성적인 종기가 난 꿈을 꾸었다" },
+  { id: "boil", ctx: "고름과 피가 나오는 종기를 봄", text: "고름과 피가 나오는 종기를 보았다" },
+  { id: "boil", ctx: "이마에 종기가 남", text: "이마에 종기가 났다" },
+  { id: "broth", ctx: "고기 국물을 먹음", text: "고기 국물을 먹었다" },
+  { id: "king", ctx: "임금을 봄", text: "임금이 되려고 온힘으로 발버둥쳤다" },
+  { id: "farming", ctx: "제가 직접 밭을 갊", text: "제가 직접 밭을 갈았다" },
+  { id: "farming", ctx: "쟁기 꿈을 꿈", text: "쟁기 꿈을 꾸었다" },
+  { id: "ghost", ctx: "귀신과 싸움", text: "귀신과 싸웠다" },
 ];
 
 let notFound = 0;

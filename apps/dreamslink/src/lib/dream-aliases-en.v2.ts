@@ -7599,5 +7599,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "having-sold": [
     "having sold"
+  ],
+  "somnambulist": [
+    "somnambulist",
+    "sleepwalker",
+    "sleepwalking"
+  ],
+  "sorcerer": [
+    "sorcerer",
+    "a sorcerer",
+    "wizard"
+  ],
+  "soul": [
+    "soul",
+    "one's soul"
   ]
 };

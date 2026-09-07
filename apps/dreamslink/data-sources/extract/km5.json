@@ -313,7 +313,8 @@
       "제가 임금이 되어 관을 씀": "관을 즉위 왕관",
       "임금에게 꾸중을 들음": "꾸중 나무람 야단",
       "처녀가 임금 앞에 나아감": "처녀 아가씨",
-      "임금에게 은혜를 입음": "은혜 베풀 총애"
+      "임금에게 은혜를 입음": "은혜 베풀 총애",
+      "군주를 봄": "번영 친구를"
     },
     "contexts_en": {
       "임금을 의장 앞에서 마주함": "faced audience ceremonial",
@@ -326,7 +327,8 @@
       "제가 임금이 되어 관을 씀": "crowned comrades co-workers",
       "임금에게 꾸중을 들음": "censured reproved neglected duty",
       "처녀가 임금 앞에 나아감": "presence marry fear",
-      "임금에게 은혜를 입음": "receive favors exalted congenially wedded"
+      "임금에게 은혜를 입음": "receive favors exalted congenially wedded",
+      "군주를 봄": "prosperity new friends"
     }
   },
   {
@@ -581,7 +583,6 @@
       "혼령",
       "망령",
       "도깨비",
-      "영혼",
       "귀신이",
       "귀신을"
     ],

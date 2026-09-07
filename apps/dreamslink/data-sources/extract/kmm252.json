@@ -1,0 +1,58 @@
+[
+  {
+    "id": "somnambulist",
+    "aliases": [
+      "몽유병자가",
+      "몽유병자를",
+      "몽유병에"
+    ],
+    "aliases_en": [
+      "somnambulist",
+      "sleepwalker",
+      "sleepwalking"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "sorcerer",
+    "aliases": [
+      "마법사를",
+      "마법사가",
+      "흑마법사"
+    ],
+    "aliases_en": [
+      "sorcerer",
+      "a sorcerer",
+      "wizard"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "soul",
+    "aliases": [
+      "영혼",
+      "영혼이",
+      "영혼을"
+    ],
+    "aliases_en": [
+      "soul",
+      "one's soul"
+    ],
+    "contexts": {
+      "자신의 영혼이 몸을 떠나는 것을 봄": "떠나는 쓸모없는",
+      "예술가가 남에게서 제 영혼을 봄": "예술가 명성",
+      "남의 영혼이 자신 안에 있다고 여김": "남의 있다고",
+      "여성 음악가가 무대 위 다른 여성을 보며 그것이 제 영혼이라 여김": "음악가 무대 경쟁자에게",
+      "영혼의 불멸을 논함": "불멸 지적인"
+    },
+    "contexts_en": {
+      "자신의 영혼이 몸을 떠나는 것을 봄": "leaving body sacrificing designs",
+      "예술가가 남에게서 제 영혼을 봄": "artist distinction",
+      "남의 영혼이 자신 안에 있다고 여김": "stranger solace benefit",
+      "여성 음악가가 무대 위 다른 여성을 보며 그것이 제 영혼이라 여김": "musician stage outrivaled",
+      "영혼의 불멸을 논함": "immortality intellectual"
+    }
+  }
+]
