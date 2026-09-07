@@ -7778,5 +7778,28 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "swan",
     "swans",
     "a swan"
+  ],
+  "sweetheart": [
+    "sweetheart",
+    "a sweetheart"
+  ],
+  "sweet-oil": [
+    "sweet oil"
+  ],
+  "sweet-taste": [
+    "sweet taste",
+    "a sweet taste"
+  ],
+  "swelling": [
+    "swelling",
+    "swollen"
+  ],
+  "sybil": [
+    "sybil",
+    "a sybil"
+  ],
+  "syringe": [
+    "syringe",
+    "a syringe"
   ]
 };

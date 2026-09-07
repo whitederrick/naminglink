@@ -245,7 +245,8 @@
   {
     "id": "church",
     "aliases": [
-      "교회당"
+      "교회당",
+      "회당"
     ],
     "aliases_en": [
       "a church",
@@ -253,11 +254,15 @@
     ],
     "contexts": {
       "멀리 있는 교회를 봄": "멀리 멀리서 먼발치",
-      "어둠에 잠긴 교회에 들어감": "어둠 어두운 들어갔"
+      "어둠에 잠긴 교회에 들어감": "어둠 어두운 들어갔",
+      "원수가 재물로 가는 문턱을 막고 있음을 뜻하는 유대교 회당을 봄": "오르면 극복",
+      "유대교 회당의 히브리어 글귀를 읽음": "히브리어 글귀"
     },
     "contexts_en": {
       "멀리 있는 교회를 봄": "distance disappointment anticipated",
-      "어둠에 잠긴 교회에 들어감": "gloom funeral enter"
+      "어둠에 잠긴 교회에 들어감": "gloom funeral enter",
+      "원수가 재물로 가는 문턱을 막고 있음을 뜻하는 유대교 회당을 봄": "synagogue barricading climb",
+      "유대교 회당의 히브리어 글귀를 읽음": "hebrew inscription disaster"
     }
   },
   {

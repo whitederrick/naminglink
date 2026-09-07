@@ -1,11 +1,13 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 263 — 새 상징 셋(surgeon·surgical-instruments·
-// swan)을 세우고, 기존 swallow·bog·verbal-abuse·cleaning 넷에 문맥을
-// 보탰다. Swamp 첫 문장은 기존 bog 「늪지를 걸어서 지남」(밀러
-// Marsh)과 같은 그림·다른 풀이라 건너뜀 — 원문 각주가 "See Marsh"로
-// 가리킨다. swallow·cleaning 은 **바꾼 것**(둘 다 옛 기본값이 조건
-// 붙은 자리라 밀러의 조건 없는 문장으로), verbal-abuse 는 **있던
-// 답 그대로** 얼렸다(당하는 쪽 vs 저지르는 쪽, 어느 쪽도 안 넓다).
+// (지금 담긴 것: 배치 264 — 새 상징 여섯(sweetheart·sweet-oil·
+// sweet-taste·swelling·sybil·syringe)을 세우고, 기존 cheese·music·
+// church 셋에 문맥을 보탰다. Symphony·Synagogue 는 원문 각주가
+// 각각 "See Music"·"See Church"로 가리켜 그대로 따랐다. Sweetheart
+// 의 각주는 "See Lover, Hugging, and Kissing"인데 그 셋이 아직
+// 사전에 없어(L이 훨씬 앞선 자리인데도 아직 안 들어와 있었다) 새로
+// 세웠다 — 나중에 Lover 표제어 차례가 오면 병합 여부를 다시 볼 것.
+// cheese·music·church 셋 다 기존 정의가 더 앞선 m 파일에서 와
+// 기본값 플립이 없었다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -36,29 +38,28 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 263 새 문맥 (15건) ──────────────────────────────────────────────
-  { id: "surgeon", ctx: "외과의사 꿈을 꿈", text: "외과의사 꿈을 꾸었다" },
-  { id: "surgeon", ctx: "여성이 외과의사 꿈을 꿈", text: "여성이 외과의사 꿈을 꾸었다" },
-  { id: "surgical-instruments", ctx: "수술 도구를 봄", text: "수술 도구를 보았다" },
-  { id: "swallow", ctx: "제비 꿈을 꿈", text: "제비 꿈을 꾸었다" },
-  { id: "swallow", ctx: "다치거나 죽은 제비를 봄", text: "다치거나 죽은 제비를 보았다" },
-  { id: "bog", ctx: "맑은 물과 푸른 초목이 있는 늪을 지나감", text: "맑은 물과 푸른 초목이 있는 늪을 지나갔다" },
-  { id: "swan", ctx: "흰 백조들이 잔잔한 물 위에 떠 있는 것을 봄", text: "흰 백조들이 잔잔한 물 위에 떠 있는 것을 보았다" },
-  { id: "swan", ctx: "맑은 물 가까이에서 검은 백조를 봄", text: "맑은 물 가까이에서 검은 백조를 보았다" },
-  { id: "swan", ctx: "죽은 백조를 봄", text: "죽은 백조를 보았다" },
-  { id: "swan", ctx: "백조들이 날아가는 것을 봄", text: "백조들이 날아가는 것을 보았다" },
-  { id: "verbal-abuse", ctx: "스스로 욕설하여 사업에 지장이 생김", text: "스스로 욕설하여 사업에 지장이 생겼다" },
-  { id: "verbal-abuse", ctx: "가족 앞에서 욕설을 함", text: "가족 앞에서 욕설을 했다" },
-  { id: "cleaning", ctx: "비질하는 꿈을 꿈", text: "비질하는 꿈을 꾸었다" },
-  { id: "cleaning", ctx: "바닥을 쓸어야 한다고 여기고도 이런저런 까닭으로 미룸", text: "바닥을 쓸어야 한다고 여기고도 미뤘다" },
-  { id: "cleaning", ctx: "하인이 비질을 함", text: "하인이 비질을 했다" },
+  // ── 배치 264 새 문맥 (16건) ──────────────────────────────────────────────
+  { id: "sweetheart", ctx: "애인이 상냥하고 외모도 마음에 듦", text: "애인이 상냥하고 외모도 마음에 들었다" },
+  { id: "sweetheart", ctx: "애인이 그렇지 않게 보임", text: "애인이 그렇지 않게 보였다" },
+  { id: "sweetheart", ctx: "애인이 아프거나 괴로워하는 것을 봄", text: "애인이 아프거나 괴로워하는 것을 보았다" },
+  { id: "sweetheart", ctx: "애인이 주검이 되어 있음", text: "애인이 주검이 되어 있었다" },
+  { id: "sweet-oil", ctx: "단맛 나는 기름 꿈을 꿈", text: "단맛 나는 기름 꿈을 꾸었다" },
+  { id: "sweet-taste", ctx: "입안에 단맛이 남", text: "입안에 단맛이 남았다" },
+  { id: "sweet-taste", ctx: "입안의 단맛을 없애려 애씀", text: "입안의 단맛을 없애려 애썼다" },
+  { id: "swelling", ctx: "스스로 부어오른 것을 봄", text: "스스로 부어오른 것을 보았다" },
+  { id: "swelling", ctx: "남이 부어오른 것을 봄", text: "남이 부어오른 것을 보았다" },
+  { id: "cheese", ctx: "스위스 치즈 꿈을 꿈", text: "스위스 치즈 꿈을 꾸었다" },
+  { id: "sybil", ctx: "여자 예언자 꿈을 꿈", text: "여자 예언자 꿈을 꾸었다" },
+  { id: "music", ctx: "교향곡 꿈을 꿈", text: "교향곡 꿈을 꾸었다" },
+  { id: "church", ctx: "원수가 재물로 가는 문턱을 막고 있음을 뜻하는 유대교 회당을 봄", text: "유대교 회당을 보았는데 오르면 원수를 이겨낼 것 같았다" },
+  { id: "church", ctx: "유대교 회당의 히브리어 글귀를 읽음", text: "유대교 회당의 히브리어 글귀를 읽었다" },
+  { id: "syringe", ctx: "주사기 꿈을 꿈", text: "주사기 꿈을 꾸었다" },
+  { id: "syringe", ctx: "부서진 주사기를 봄", text: "부서진 주사기를 보았다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────────
-  { id: "swallow", ctx: "제비가 날아 품에 들어옴", text: "제비가 날아 품에 들어왔다" },
-  { id: "bog", ctx: "늪지 꿈을 꿈", text: "늪지 꿈을 꾸었다" },
-  { id: "bog", ctx: "늪지를 걸어서 지남", text: "늪지를 걸어서 지났다" },
-  { id: "verbal-abuse", ctx: "남에게 욕을 먹고 모욕을 당함", text: "남에게 욕을 먹고 모욕을 당했다" },
-  { id: "cleaning", ctx: "집에 물을 뿌리고 쓺", text: "집에 물을 뿌리고 쓸었다" },
+  { id: "cheese", ctx: "치즈를 먹음", text: "치즈를 먹었다" },
+  { id: "music", ctx: "남이 풍악을 울림", text: "남이 풍악을 울렸다" },
+  { id: "church", ctx: "멀리 있는 교회를 봄", text: "멀리 있는 교회를 보았다" },
 ];
 
 let notFound = 0;

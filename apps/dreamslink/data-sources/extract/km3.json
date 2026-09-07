@@ -1107,7 +1107,8 @@
       "가락",
       "연주",
       "풍악이",
-      "풍악을"
+      "풍악을",
+      "교향곡"
     ],
     "aliases_en": [
       "musical performance",
@@ -1117,12 +1118,14 @@
     "contexts": {
       "남이 풍악을 울림": "남이 울렸 연주했",
       "고운 가락의 풍악을 들음": "고운 아름다 어우러",
-      "어지러운 가락의 풍악을 들음": "어지러 시끄러 거슬"
+      "어지러운 가락의 풍악을 들음": "어지러 시끄러 거슬",
+      "교향곡 꿈을 꿈": "교향곡"
     },
     "contexts_en": {
       "남이 풍악을 울림": "others played",
       "고운 가락의 풍악을 들음": "harmonious pleasure prosperity",
-      "어지러운 가락의 풍악을 들음": "discordant unruly children household"
+      "어지러운 가락의 풍악을 들음": "discordant unruly children household",
+      "교향곡 꿈을 꿈": "symphonies delightful occupations"
     }
   },
   {

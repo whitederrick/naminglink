@@ -1,0 +1,112 @@
+[
+  {
+    "id": "sweetheart",
+    "aliases": [
+      "애인이",
+      "애인을",
+      "애인에게",
+      "정인"
+    ],
+    "aliases_en": [
+      "sweetheart",
+      "a sweetheart"
+    ],
+    "contexts": {
+      "애인이 상냥하고 외모도 마음에 듦": "상냥하고 마음에",
+      "애인이 그렇지 않게 보임": "그렇지 않게",
+      "애인이 아프거나 괴로워하는 것을 봄": "아프거나 괴로워",
+      "애인이 주검이 되어 있음": "주검이"
+    },
+    "contexts_en": {
+      "애인이 상냥하고 외모도 마음에 듦": "affable pleasing woo",
+      "애인이 그렇지 않게 보임": "otherwise discontented",
+      "애인이 아프거나 괴로워하는 것을 봄": "sick distress sadness",
+      "애인이 주검이 되어 있음": "corpse doubt unfavorable"
+    }
+  },
+  {
+    "id": "sweet-oil",
+    "aliases": [
+      "단맛 나는 기름을",
+      "달콤한 기름"
+    ],
+    "aliases_en": [
+      "sweet oil"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "sweet-taste",
+    "aliases": [
+      "단맛이",
+      "단맛을",
+      "달콤한 맛"
+    ],
+    "aliases_en": [
+      "sweet taste",
+      "a sweet taste"
+    ],
+    "contexts": {
+      "입안에 단맛이 남": "그냥",
+      "입안의 단맛을 없애려 애씀": "없애려 애쓰"
+    },
+    "contexts_en": {
+      "입안에 단맛이 남": "praised pleasing conversation",
+      "입안의 단맛을 없애려 애씀": "rid oppress deride"
+    }
+  },
+  {
+    "id": "swelling",
+    "aliases": [
+      "부어올랐다",
+      "부어오른",
+      "부었다"
+    ],
+    "aliases_en": [
+      "swelling",
+      "swollen"
+    ],
+    "contexts": {
+      "스스로 부어오른 것을 봄": "스스로",
+      "남이 부어오른 것을 봄": "남이"
+    },
+    "contexts_en": {
+      "스스로 부어오른 것을 봄": "amass fortune egotism",
+      "남이 부어오른 것을 봄": "others envious obstructions"
+    }
+  },
+  {
+    "id": "sybil",
+    "aliases": [
+      "여자 예언자가",
+      "여자 예언자를",
+      "시빌"
+    ],
+    "aliases_en": [
+      "sybil",
+      "a sybil"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "syringe",
+    "aliases": [
+      "주사기가",
+      "주사기를"
+    ],
+    "aliases_en": [
+      "syringe",
+      "a syringe"
+    ],
+    "contexts": {
+      "주사기 꿈을 꿈": "그냥",
+      "부서진 주사기를 봄": "부서진"
+    },
+    "contexts_en": {
+      "주사기 꿈을 꿈": "false alarm relative",
+      "부서진 주사기를 봄": "broken ill health"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "batch": 264,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Sweetheart", "text": "To dream that your sweetheart is affable and of pleasing physique, foretells that you will woo a woman who will prove a joy to your pride and will bring you a good inheritance.  If she appears otherwise, you will be discontented with your choice before the marriage vows are consummated.\n\nTo dream of her as being sick or in distress, denotes that sadness will be intermixed with joy.\n\nIf you dream that your sweetheart is a corpse, you will have a long period of doubt and unfavorable fortune.", "note": "새 상징 sweetheart(애인) — 원문 각주가 See Lover, Hugging, and Kissing을 가리키지만 그 셋이 아직 사전에 없어 새로 세움" },
+    { "headword": "Sweet Oil", "text": "Sweet oil in dreams, implies considerate treatment will be withheld from you in some unfortunate occurrence.", "note": "새 상징 sweet oil(단맛 나는 기름)" },
+    { "headword": "Sweet Taste", "text": "To dream of any kind of a sweet taste in your mouth, denotes you will be praised for your pleasing conversation and calm demeanor in a time of commotion and distress.\n\nTo dream that you are trying to get rid of a sweet taste, foretells that you will oppress and deride your friends, and will incur their displeasure.", "note": "새 상징 sweet taste(단맛)" },
+    { "headword": "Swelling", "text": "To dream that you see yourself swollen, denotes that you will amass fortune, but your egotism will interfere with your enjoyment.\n\nTo see others swollen, foretells that advancement will meet with envious obstructions.", "note": "새 상징 swelling(부어오름)" },
+    { "headword": "Swiss Cheese", "text": "To dream of Swiss cheese, foretells that you will come into possession of substantial property, and healthful amusements will be enjoyed.", "note": "기존 cheese(치즈)에 문맥 추가 — 옛 유일한 의미(먹음)와 안 겹침" },
+    { "headword": "Sybil", "text": "To dream of a sybil, foretells that you will enjoy assignations and other demoralizing pleasures.", "note": "새 상징 sybil(여자 예언자) — 기존 divine-woman(신녀)·augur(점쟁이)와는 다른 개념" },
+    { "headword": "Symphony", "text": "To dream of symphonies, heralds delightful occupations.", "note": "기존 music(풍악)에 문맥 추가 — 원문 각주 [220] See Music. 옛 세 의미와 안 겹침" },
+    { "headword": "Synagogue", "text": "To dream of a synagogue, foretells that you have enemies powerfully barricading your entrance into fortune's realms.  If you climb to the top on the outside, you will overcome oppositions and be successful.\n\nIf you read the Hebrew inscription on a synagogue, you will meet disaster, but will eventually rebuild your fortunes with renewed splendor.", "note": "기존 church(교회)에 문맥 2개 추가 — 원문 각주 [221] See Church. 옛 두 의미(멀리 있는 교회·어둠에 잠긴 교회)와 안 겹침" },
+    { "headword": "Syringe", "text": "To dream of a syringe, denotes that false alarm of the gravity of a relative's condition will reach you.  To see a broken one, foretells you are approaching a period of ill health or worry over slight mistakes in business.", "note": "새 상징 syringe(주사기)" }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

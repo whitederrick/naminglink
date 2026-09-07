@@ -184,6 +184,7 @@
     "m261.json",
     "m262.json",
     "m263.json",
+    "m264.json",
     "m27a.json",
     "m27b.json",
     "m28.json",
@@ -55985,6 +55986,80 @@
       ]
     },
     {
+      "id": "church",
+      "term_ko": "교회",
+      "term_en": "church",
+      "aliases": [
+        "교회당",
+        "회당"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "멀리 있는 교회를 봄",
+          "interpretation_ko": "오래 기다리던 즐거움에서 실망할 조짐",
+          "interpretation_en": "disappointment in pleasures long anticipated",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Church",
+              "original": "To dream of seeing a church in the distance, denotes disappointment in pleasures long anticipated.",
+              "translation_ko": "멀리 있는 교회를 보는 꿈은 오래 기다리던 즐거움에서 실망하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "어둠에 잠긴 교회에 들어감",
+          "interpretation_ko": "장례에 함께하게 되고, 나아질 때가 흐릿할 조짐",
+          "interpretation_en": "you will participate in a funeral; dull prospects of better times are portended",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Church",
+              "original": "To enter one wrapt in gloom, you will participate in a funeral.  Dull prospects of better times are portended.",
+              "translation_ko": "어둠에 잠긴 교회에 들어가면 장례에 함께하게 된다. 나아질 때의 앞날이 흐릿함을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "원수가 재물로 가는 문턱을 막고 있음을 뜻하는 유대교 회당을 봄",
+          "interpretation_ko": "바깥쪽으로 꼭대기까지 오르면 맞선 어려움을 이겨 내고 성공할 조짐",
+          "interpretation_en": "foretells that you have enemies powerfully barricading your entrance into fortune's realms; if you climb to the top on the outside, you will overcome oppositions and be successful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Synagogue",
+              "original": "To dream of a synagogue, foretells that you have enemies powerfully barricading your entrance into fortune's realms. If you climb to the top on the outside, you will overcome oppositions and be successful.",
+              "translation_ko": "원수가 재물로 가는 문턱을 막고 있음을 뜻하는 유대교 회당 꿈은, 바깥쪽으로 꼭대기까지 오르면 맞선 어려움을 이겨 내고 성공할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "유대교 회당의 히브리어 글귀를 읽음",
+          "interpretation_ko": "재난을 만나나 끝내 새로운 영화로 형편을 다시 일으킬 조짐",
+          "interpretation_en": "you will meet disaster, but will eventually rebuild your fortunes with renewed splendor",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Synagogue",
+              "original": "If you read the Hebrew inscription on a synagogue, you will meet disaster, but will eventually rebuild your fortunes with renewed splendor.",
+              "translation_ko": "유대교 회당의 히브리어 글귀를 읽는 꿈은, 재난을 만나나 끝내 새로운 영화로 형편을 다시 일으킬 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "clay",
       "term_ko": "찰흙",
       "term_en": "clay",
@@ -62303,6 +62378,85 @@
       ]
     },
     {
+      "id": "music",
+      "term_ko": "풍악",
+      "term_en": "music",
+      "aliases": [
+        "음악",
+        "가락",
+        "연주",
+        "풍악이",
+        "풍악을",
+        "교향곡"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남이 풍악을 울림",
+          "interpretation_ko": "송사에서 이치가 설 조짐",
+          "interpretation_en": "a sign that one's case will be upheld",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "他人作樂訟有理",
+              "translation_ko": "남이 풍악을 울리면 송사에 이치가 있다"
+            }
+          ]
+        },
+        {
+          "context": "고운 가락의 풍악을 들음",
+          "interpretation_ko": "즐거움과 넉넉함이 있을 길한 조짐",
+          "interpretation_en": "omens pleasure and prosperity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Music",
+              "original": "To dream of hearing harmonious music, omens pleasure and prosperity.",
+              "translation_ko": "고운 가락의 풍악을 듣는 꿈은 즐거움과 넉넉함을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "어지러운 가락의 풍악을 들음",
+          "interpretation_ko": "말 안 듣는 아이들 때문에 괴롭고 집안이 편치 않을 흉한 조짐",
+          "interpretation_en": "foretells troubles with unruly children, and unhappiness in the household",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Music",
+              "original": "Discordant music foretells troubles with unruly children, and unhappiness in the household.",
+              "translation_ko": "어지러운 가락의 풍악은, 말 안 듣는 아이들 때문에 괴롭고 집안이 편치 않음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "교향곡 꿈을 꿈",
+          "interpretation_ko": "즐거운 일에 종사하게 될 조짐",
+          "interpretation_en": "heralds delightful occupations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Symphony",
+              "original": "To dream of symphonies, heralds delightful occupations.",
+              "translation_ko": "교향곡 꿈은, 즐거운 일에 종사하게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "mustard",
       "term_ko": "겨자",
       "term_en": "mustard",
@@ -66580,6 +66734,82 @@
               "locator": "Swan",
               "original": "To see them flying, pleasant anticipations will be realized soon.",
               "translation_ko": "백조들이 날아가는 것을 보는 꿈은, 즐거운 기대가 머잖아 이루어질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sweetheart",
+      "term_ko": "애인",
+      "term_en": "sweetheart",
+      "aliases": [
+        "애인이",
+        "애인을",
+        "애인에게",
+        "정인"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "애인이 상냥하고 외모도 마음에 듦",
+          "interpretation_ko": "자부심에 기쁨이 되고 좋은 유산도 가져다줄 여인에게 구애하게 될 조짐",
+          "interpretation_en": "foretells that you will woo a woman who will prove a joy to your pride and will bring you a good inheritance",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sweetheart",
+              "original": "To dream that your sweetheart is affable and of pleasing physique, foretells that you will woo a woman who will prove a joy to your pride and will bring you a good inheritance.",
+              "translation_ko": "애인이 상냥하고 외모도 마음에 드는 꿈은, 자부심에 기쁨이 되고 좋은 유산도 가져다줄 여인에게 구애하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "애인이 그렇지 않게 보임",
+          "interpretation_ko": "혼인 서약을 맺기도 전에 스스로의 선택에 불만을 느낄 조짐",
+          "interpretation_en": "you will be discontented with your choice before the marriage vows are consummated",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sweetheart",
+              "original": "If she appears otherwise, you will be discontented with your choice before the marriage vows are consummated.",
+              "translation_ko": "애인이 그렇지 않게 보이는 꿈은, 혼인 서약을 맺기도 전에 스스로의 선택에 불만을 느낄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "애인이 아프거나 괴로워하는 것을 봄",
+          "interpretation_ko": "슬픔이 기쁨과 뒤섞일 조짐",
+          "interpretation_en": "denotes that sadness will be intermixed with joy",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sweetheart",
+              "original": "To dream of her as being sick or in distress, denotes that sadness will be intermixed with joy.",
+              "translation_ko": "애인이 아프거나 괴로워하는 것을 보는 꿈은, 슬픔이 기쁨과 뒤섞일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "애인이 주검이 되어 있음",
+          "interpretation_ko": "오랫동안 의심과 불운한 형편을 겪을 조짐",
+          "interpretation_en": "you will have a long period of doubt and unfavorable fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sweetheart",
+              "original": "If you dream that your sweetheart is a corpse, you will have a long period of doubt and unfavorable fortune.",
+              "translation_ko": "애인이 주검이 되어 있는 꿈은, 오랫동안 의심과 불운한 형편을 겪을 조짐이다"
             }
           ]
         }
@@ -78734,70 +78964,6 @@
       ]
     },
     {
-      "id": "music",
-      "term_ko": "풍악",
-      "term_en": "music",
-      "aliases": [
-        "음악",
-        "가락",
-        "연주",
-        "풍악이",
-        "풍악을"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남이 풍악을 울림",
-          "interpretation_ko": "송사에서 이치가 설 조짐",
-          "interpretation_en": "a sign that one's case will be upheld",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "他人作樂訟有理",
-              "translation_ko": "남이 풍악을 울리면 송사에 이치가 있다"
-            }
-          ]
-        },
-        {
-          "context": "고운 가락의 풍악을 들음",
-          "interpretation_ko": "즐거움과 넉넉함이 있을 길한 조짐",
-          "interpretation_en": "omens pleasure and prosperity",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Music",
-              "original": "To dream of hearing harmonious music, omens pleasure and prosperity.",
-              "translation_ko": "고운 가락의 풍악을 듣는 꿈은 즐거움과 넉넉함을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "어지러운 가락의 풍악을 들음",
-          "interpretation_ko": "말 안 듣는 아이들 때문에 괴롭고 집안이 편치 않을 흉한 조짐",
-          "interpretation_en": "foretells troubles with unruly children, and unhappiness in the household",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Music",
-              "original": "Discordant music foretells troubles with unruly children, and unhappiness in the household.",
-              "translation_ko": "어지러운 가락의 풍악은, 말 안 듣는 아이들 때문에 괴롭고 집안이 편치 않음을 알린다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "musical-instrument",
       "term_ko": "악기",
       "term_en": "musical instrument",
@@ -90651,6 +90817,51 @@
       ]
     },
     {
+      "id": "cheese",
+      "term_ko": "치즈",
+      "term_en": "cheese",
+      "aliases": [
+        "치즈 조각"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "치즈를 먹음",
+          "interpretation_ko": "큰 실망과 슬픔이 있을 조짐 — 어떤 좋은 것도 바랄 수 없다",
+          "interpretation_en": "great disappointments and sorrow; no good of any nature can be hoped for",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cheese",
+              "original": "To dream of eating cheese, denotes great disappointments and sorrow.  No good of any nature can be hoped for.  Cheese is generally a bad dream.",
+              "translation_ko": "치즈를 먹는 꿈은 큰 실망과 슬픔을 뜻한다. 어떤 좋은 것도 바랄 수 없다. 치즈는 대체로 나쁜 꿈이다"
+            }
+          ]
+        },
+        {
+          "context": "스위스 치즈 꿈을 꿈",
+          "interpretation_ko": "상당한 재산을 얻고 건강한 즐거움을 누릴 조짐",
+          "interpretation_en": "foretells that you will come into possession of substantial property, and healthful amusements will be enjoyed",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Swiss Cheese",
+              "original": "To dream of Swiss cheese, foretells that you will come into possession of substantial property, and healthful amusements will be enjoyed.",
+              "translation_ko": "스위스 치즈 꿈은, 상당한 재산을 얻고 건강한 즐거움을 누릴 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cherub",
       "term_ko": "아기 천사",
       "term_en": "cherub",
@@ -91058,51 +91269,6 @@
               "locator": "Christmas Tree",
               "original": "To see one dismantled, foretells some painful incident will follow occasions of festivity.",
               "translation_ko": "장식을 걷어 낸 것을 보면 잔치 뒤에 마음 아픈 일이 뒤따른다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "church",
-      "term_ko": "교회",
-      "term_en": "church",
-      "aliases": [
-        "교회당"
-      ],
-      "category": "place",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "멀리 있는 교회를 봄",
-          "interpretation_ko": "오래 기다리던 즐거움에서 실망할 조짐",
-          "interpretation_en": "disappointment in pleasures long anticipated",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Church",
-              "original": "To dream of seeing a church in the distance, denotes disappointment in pleasures long anticipated.",
-              "translation_ko": "멀리 있는 교회를 보는 꿈은 오래 기다리던 즐거움에서 실망하게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "어둠에 잠긴 교회에 들어감",
-          "interpretation_ko": "장례에 함께하게 되고, 나아질 때가 흐릿할 조짐",
-          "interpretation_en": "you will participate in a funeral; dull prospects of better times are portended",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Church",
-              "original": "To enter one wrapt in gloom, you will participate in a funeral.  Dull prospects of better times are portended.",
-              "translation_ko": "어둠에 잠긴 교회에 들어가면 장례에 함께하게 된다. 나아질 때의 앞날이 흐릿함을 알린다"
             }
           ]
         }
@@ -111126,6 +111292,146 @@
       ]
     },
     {
+      "id": "sweet-taste",
+      "term_ko": "단맛",
+      "term_en": "sweet taste",
+      "aliases": [
+        "단맛이",
+        "단맛을",
+        "달콤한 맛"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "입안에 단맛이 남",
+          "interpretation_ko": "소란과 고난의 때에 즐거운 말솜씨와 차분한 몸가짐으로 칭찬받을 조짐",
+          "interpretation_en": "denotes you will be praised for your pleasing conversation and calm demeanor in a time of commotion and distress",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sweet Taste",
+              "original": "To dream of any kind of a sweet taste in your mouth, denotes you will be praised for your pleasing conversation and calm demeanor in a time of commotion and distress.",
+              "translation_ko": "입안에 단맛이 남는 꿈은, 소란과 고난의 때에 즐거운 말솜씨와 차분한 몸가짐으로 칭찬받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "입안의 단맛을 없애려 애씀",
+          "interpretation_ko": "벗을 억누르고 비웃어 미움을 살 조짐",
+          "interpretation_en": "foretells that you will oppress and deride your friends, and will incur their displeasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sweet Taste",
+              "original": "To dream that you are trying to get rid of a sweet taste, foretells that you will oppress and deride your friends, and will incur their displeasure.",
+              "translation_ko": "입안의 단맛을 없애려 애쓰는 꿈은, 벗을 억누르고 비웃어 미움을 살 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swelling",
+      "term_ko": "부어오름",
+      "term_en": "swelling",
+      "aliases": [
+        "부어올랐다",
+        "부어오른",
+        "부었다"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 부어오른 것을 봄",
+          "interpretation_ko": "재물을 모으나 스스로의 오만이 그 즐거움을 가로막을 조짐",
+          "interpretation_en": "denotes that you will amass fortune, but your egotism will interfere with your enjoyment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Swelling",
+              "original": "To dream that you see yourself swollen, denotes that you will amass fortune, but your egotism will interfere with your enjoyment.",
+              "translation_ko": "스스로 부어오른 것을 보는 꿈은, 재물을 모으나 스스로의 오만이 그 즐거움을 가로막을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 부어오른 것을 봄",
+          "interpretation_ko": "출세가 시샘 어린 방해에 부딪힐 조짐",
+          "interpretation_en": "foretells that advancement will meet with envious obstructions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Swelling",
+              "original": "To see others swollen, foretells that advancement will meet with envious obstructions.",
+              "translation_ko": "남이 부어오른 것을 보는 꿈은, 출세가 시샘 어린 방해에 부딪힐 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "syringe",
+      "term_ko": "주사기",
+      "term_en": "syringe",
+      "aliases": [
+        "주사기가",
+        "주사기를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "주사기 꿈을 꿈",
+          "interpretation_ko": "살붙이의 위독함을 알리는 거짓 소식이 닿을 조짐",
+          "interpretation_en": "denotes that false alarm of the gravity of a relative's condition will reach you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Syringe",
+              "original": "To dream of a syringe, denotes that false alarm of the gravity of a relative's condition will reach you.",
+              "translation_ko": "주사기 꿈은, 살붙이의 위독함을 알리는 거짓 소식이 닿을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 주사기를 봄",
+          "interpretation_ko": "병약해지는 시기나 사업의 사소한 실수를 두고 걱정할 시기가 다가오는 조짐",
+          "interpretation_en": "foretells you are approaching a period of ill health or worry over slight mistakes in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Syringe",
+              "original": "To see a broken one, foretells you are approaching a period of ill health or worry over slight mistakes in business.",
+              "translation_ko": "부서진 주사기를 보는 꿈은, 병약해지는 시기나 사업의 사소한 실수를 두고 걱정할 시기가 다가오는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "teeth",
       "term_ko": "이",
       "term_en": "teeth",
@@ -114367,37 +114673,6 @@
               "locator": "Champion",
               "original": "To dream of a champion, denotes you will win the warmest friendship of some person by your dignity and moral conduct.",
               "translation_ko": "챔피언 꿈은 품위와 바른 처신으로 누군가의 가장 따뜻한 우정을 얻게 됨을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cheese",
-      "term_ko": "치즈",
-      "term_en": "cheese",
-      "aliases": [
-        "치즈 조각"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "치즈를 먹음",
-          "interpretation_ko": "큰 실망과 슬픔이 있을 조짐 — 어떤 좋은 것도 바랄 수 없다",
-          "interpretation_en": "great disappointments and sorrow; no good of any nature can be hoped for",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cheese",
-              "original": "To dream of eating cheese, denotes great disappointments and sorrow.  No good of any nature can be hoped for.  Cheese is generally a bad dream.",
-              "translation_ko": "치즈를 먹는 꿈은 큰 실망과 슬픔을 뜻한다. 어떤 좋은 것도 바랄 수 없다. 치즈는 대체로 나쁜 꿈이다"
             }
           ]
         }
@@ -124541,6 +124816,71 @@
               "locator": "身體面目齒髮",
               "original": "身上汗出主凶惡",
               "translation_ko": "몸에 땀이 나면 흉악하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sweet-oil",
+      "term_ko": "단맛 나는 기름",
+      "term_en": "sweet oil",
+      "aliases": [
+        "단맛 나는 기름을",
+        "달콤한 기름"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "단맛 나는 기름 꿈을 꿈",
+          "interpretation_ko": "불운한 일이 닥쳤을 때 마땅히 받아야 할 배려를 못 받을 조짐",
+          "interpretation_en": "implies considerate treatment will be withheld from you in some unfortunate occurrence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sweet Oil",
+              "original": "Sweet oil in dreams, implies considerate treatment will be withheld from you in some unfortunate occurrence.",
+              "translation_ko": "단맛 나는 기름 꿈은, 불운한 일이 닥쳤을 때 마땅히 받아야 할 배려를 못 받을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sybil",
+      "term_ko": "여자 예언자",
+      "term_en": "sybil",
+      "aliases": [
+        "여자 예언자가",
+        "여자 예언자를",
+        "시빌"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여자 예언자 꿈을 꿈",
+          "interpretation_ko": "밀회와 그 밖의 방탕한 즐거움을 누릴 조짐",
+          "interpretation_en": "foretells that you will enjoy assignations and other demoralizing pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sybil",
+              "original": "To dream of a sybil, foretells that you will enjoy assignations and other demoralizing pleasures.",
+              "translation_ko": "여자 예언자 꿈은, 밀회와 그 밖의 방탕한 즐거움을 누릴 조짐이다"
             }
           ]
         }
