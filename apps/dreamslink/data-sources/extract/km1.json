@@ -343,7 +343,8 @@
     "aliases": [
       "강풍",
       "돌풍",
-      "회오리"
+      "회오리",
+      "큰바람"
     ],
     "aliases_en": [
       "strong wind",
@@ -357,7 +358,8 @@
       "갑자기 큰바람이 붊": "갑자기 별안간 세차게 강하게",
       "바람이 울부짖듯 소리를 냄": "소리 울부짖 윙윙 울음",
       "바람이 불어 집이 흔들림": "흔들 집이 지붕 창문 건물",
-      "거센 바람에 휘말림": "휘말 휩쓸 갇혔"
+      "거센 바람에 휘말림": "휘말 휩쓸 갇혔",
+      "돌풍이 부는 꿈을 꿈": "돌풍"
     },
     "contexts_en": {
       "사나운 바람이 몰아침": "fierce raging violent savage",
@@ -365,7 +367,8 @@
       "갑자기 큰바람이 붊": "suddenly sudden huge",
       "바람이 울부짖듯 소리를 냄": "howling wailing sound noise",
       "바람이 불어 집이 흔들림": "house shook shaking building",
-      "거센 바람에 휘말림": "caught losses working"
+      "거센 바람에 휘말림": "caught losses working",
+      "돌풍이 부는 꿈을 꿈": "squall disappointing"
     }
   },
   {
@@ -1158,8 +1161,18 @@
       "a spoon",
       "spoons"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "숟가락을 봄": "그냥",
+      "숟가락을 잃어버렸다고 생각함": "잃어버렸다 잃어버린",
+      "숟가락을 훔침": "훔쳤다 훔치는",
+      "부러지거나 더러운 숟가락을 봄": "부러지거나 더러운"
+    },
+    "contexts_en": {
+      "숟가락을 봄": "benefit wife descendants",
+      "숟가락을 잃어버렸다고 생각함": "lost suspicious wrong",
+      "숟가락을 훔침": "steal censure meanness",
+      "부러지거나 더러운 숟가락을 봄": "broken soiled loss"
+    }
   },
   {
     "id": "vegetable-garden",

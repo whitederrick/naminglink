@@ -7642,5 +7642,34 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "sponge": [
     "sponges",
     "a sponge"
+  ],
+  "spring": [
+    "spring",
+    "springtime"
+  ],
+  "spur": [
+    "spur",
+    "spurs",
+    "wearing spurs"
+  ],
+  "spy": [
+    "spy",
+    "spies",
+    "a spy"
+  ],
+  "spyglass": [
+    "spyglass",
+    "spy-glass",
+    "a spy-glass"
+  ],
+  "squinting": [
+    "squinting",
+    "squints",
+    "squinting eyes"
+  ],
+  "squirrel": [
+    "squirrel",
+    "squirrels",
+    "a squirrel"
   ]
 };

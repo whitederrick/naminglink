@@ -1,9 +1,9 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 255 — 기존 spider·spinning-thread·ghost·bobbin에 문맥을
-// 보태고, 새 상징 다섯(spitting·spleen·splendor·splinter·sponge)을 세웠다.
-// ghost·spinning-thread는 파일명 정렬(m255 < m5·m35) 때문에 기본값이 바뀌어
-// FALLBACK_FIRST로 새 값을 얼렸고, bobbin은 옛 값을 그대로 얼렸다 — 넷 다
-// 손댄 기존 상징의 옛 답이 그대로인지 재는 지킴 케이스를 함께 넣었다)
+// (지금 담긴 것: 배치 256 — 기존 spoon·wind에 문맥을 보태고, 새 상징
+// 여섯(spring·spur·spy·spyglass·squinting·squirrel)을 세웠다. Squall은
+// wind가 이미 "돌풍" 별칭을 쥐고 있어 새 상징을 세우지 않았다. spoon은
+// 파일명 정렬(m256 < r 파일) 때문에 기본값이 바뀔 뻔했지만 옛 값을 그대로
+// 얼렸다 — 밀러 Spoons의 첫 문장은 옛 그림과 같아 아예 안 넣었다)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -34,55 +34,35 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 255 새 문맥 (19건, 「귀신이 말을 걸어옴」과 같은 그림인 스킵 1건 제외) ──
-  { id: "spider", ctx: "거미줄을 봄", text: "거미줄이 잔뜩 쳐진 것을 보았다" },
-  { id: "spinning-thread", ctx: "스스로 실을 잣고 있음", text: "스스로 실을 잣고 있었다" },
-  { id: "ghost", ctx: "귀신을 봄", text: "귀신을 보았다" },
-  { id: "ghost", ctx: "흰옷 입은 귀신을 봄", text: "흰옷 입은 귀신을 보았다" },
-  { id: "ghost", ctx: "검은 옷 입은 귀신을 봄", text: "검은 옷을 입은 귀신을 보았다" },
-  { id: "ghost", ctx: "귀신이 문이나 벽을 두드리는 소리를 들음", text: "귀신이 문을 두드리는 소리를 들었다" },
-  { id: "ghost", ctx: "귀신이 휘장을 움직이거나 그 뒤에서 움직이는 것을 봄", text: "귀신이 휘장을 움직이는 것을 보았다" },
-  { id: "ghost", ctx: "벗의 귀신이 방 안에 떠 있는 것을 봄", text: "벗의 귀신이 방 안에 떠다니는 것을 보았다" },
-  { id: "ghost", ctx: "귀신에게서 나는 듯한 음악을 들음", text: "귀신에게서 나는 듯한 음악을 들었다" },
-  { id: "spitting", ctx: "남이 나에게 침을 뱉음", text: "누가 나에게 침을 뱉었다" },
-  { id: "spitting", ctx: "침을 뱉는 꿈을 꿈", text: "침을 뱉었다" },
-  { id: "spleen", ctx: "지라(비장) 꿈을 꿈", text: "지라 꿈을 꾸었다" },
-  { id: "splendor", ctx: "스스로 화려하게 삶", text: "스스로 화려하게 살았다" },
-  { id: "splendor", ctx: "남이 화려하게 사는 것을 봄", text: "남이 화려하게 사는 것을 보았다" },
-  { id: "splinter", ctx: "살에 나무 가시가 박힘", text: "살에 나무 가시가 박혔다" },
-  { id: "splinter", ctx: "남의 집을 찾았다가 발에 가시가 박힘", text: "남의 집을 방문했다가 발에 가시가 박혔다" },
-  { id: "sponge", ctx: "스펀지를 봄", text: "스펀지를 보았다" },
-  { id: "sponge", ctx: "스펀지로 지움", text: "스펀지로 지웠다" },
-  { id: "bobbin", ctx: "실이 잔뜩 감긴 보빈을 봄", text: "실이 잔뜩 감긴 보빈을 보았다" },
-  { id: "bobbin", ctx: "보빈이 비어 있음", text: "보빈이 비어 있었다" },
+  // ── 배치 256 새 문맥 (19건) ──────────────────────────────────────────────
+  { id: "spoon", ctx: "숟가락을 잃어버렸다고 생각함", text: "숟가락을 잃어버렸다고 생각했다" },
+  { id: "spoon", ctx: "숟가락을 훔침", text: "숟가락을 훔쳤다" },
+  { id: "spoon", ctx: "부러지거나 더러운 숟가락을 봄", text: "부러지거나 더러운 숟가락을 보았다" },
+  { id: "spring", ctx: "봄이 오고 있음", text: "봄이 오고 있었다" },
+  { id: "spring", ctx: "봄이 제철과 다르게 나타남", text: "봄철이 제철과 다르게 이상하게 나타났다" },
+  { id: "spur", ctx: "스스로 박차를 참", text: "스스로 박차를 찼다" },
+  { id: "spur", ctx: "남이 박차를 찬 것을 봄", text: "남이 박차를 찬 것을 보았다" },
+  { id: "spy", ctx: "첩자들에게 시달림", text: "첩자들에게 시달렸다" },
+  { id: "spy", ctx: "스스로 첩자가 됨", text: "스스로 첩자가 되었다" },
+  { id: "spyglass", ctx: "망원경으로 봄", text: "망원경으로 들여다보았다" },
+  { id: "spyglass", ctx: "부서지거나 흠집 난 망원경을 봄", text: "부서지거나 흠집 난 망원경을 보았다" },
+  { id: "wind", ctx: "돌풍이 부는 꿈을 꿈", text: "돌풍이 부는 꿈을 꾸었다" },
+  { id: "squinting", ctx: "곁눈질하는 사람을 봄", text: "어떤 사람이 곁눈질하는 것을 보았다" },
+  { id: "squinting", ctx: "남자가 애인이나 낯선 미인에게서 곁눈질을 받음", text: "남자가 애인이 곁눈질하는 것을 보았다" },
+  { id: "squinting", ctx: "여자가 남자에게서 곁눈질을 받음", text: "여자가 평판을 잃을까 곁눈질을 받았다" },
+  { id: "squirrel", ctx: "다람쥐들을 봄", text: "다람쥐들을 보았다" },
+  { id: "squirrel", ctx: "다람쥐를 죽임", text: "다람쥐를 죽였다" },
+  { id: "squirrel", ctx: "다람쥐를 예뻐함", text: "다람쥐를 예뻐했다" },
+  { id: "squirrel", ctx: "개가 다람쥐를 쫓는 것을 봄", text: "개가 다람쥐를 쫓는 것을 보았다" },
 
-  // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ──────────────
-  { id: "spider", ctx: "거미 꿈을 꿈", text: "거미 꿈을 꾸었다" },
-  { id: "spider", ctx: "거미가 거미줄을 짓는 것을 봄", text: "거미가 거미줄을 짓는 것을 보았다" },
-  { id: "spider", ctx: "거미를 죽임", text: "거미를 죽였다" },
-  { id: "spider", ctx: "거미에게 물림", text: "거미에게 물렸다" },
-  { id: "spider", ctx: "많은 거미가 거미줄에 매달려 있는 것을 봄", text: "많은 거미가 거미줄에 매달려 있는 것을 보았다" },
-  { id: "spider", ctx: "큰 거미가 앞을 가로막음", text: "큰 거미가 앞을 가로막았다" },
-  { id: "spider", ctx: "크고 작은 거미가 함께 다가오는 것을 봄", text: "크고 작은 거미가 함께 다가오는 것을 보았다" },
-  { id: "spider", ctx: "큰 거미에게 물림", text: "커다란 거미에게 물렸다" },
-  { id: "spider", ctx: "작은 거미에게 물림", text: "조그만 거미에게 물렸다" },
-  { id: "spider", ctx: "큰 거미로부터 도망침", text: "큰 거미로부터 도망쳤다" },
-  { id: "spider", ctx: "쫓아오던 거미를 죽임", text: "쫓아오던 거미를 죽였다" },
-  { id: "spider", ctx: "죽인 거미가 되살아나 쫓아옴", text: "죽인 거미가 되살아나 쫓아왔다" },
-  { id: "spider", ctx: "여성이 금빛 거미가 주위를 기어다니는 것을 봄", text: "여성이 금빛 거미가 주위를 기어다니는 것을 보았다" },
-  { id: "ghost", ctx: "신과 귀신에게 맞음", text: "신과 귀신에게 맞았다" },
-  { id: "ghost", ctx: "귀신과 싸움", text: "귀신과 싸웠다" },
-  { id: "ghost", ctx: "어버이의 귀신을 봄", text: "어버이의 귀신을 보았다" },
-  { id: "ghost", ctx: "죽은 벗의 귀신을 봄", text: "죽은 벗의 귀신을 보았다" },
-  { id: "ghost", ctx: "귀신이 말을 걸어옴", text: "귀신이 말을 걸어왔다" },
-  { id: "ghost", ctx: "여성이 귀신 꿈을 꿈", text: "여성이 귀신 꿈을 꾸었다" },
-  { id: "ghost", ctx: "하늘에 천사나 귀신이 나타남", text: "하늘에 천사와 귀신이 나타났다" },
-  { id: "ghost", ctx: "하늘 오른쪽에 여자 귀신 왼쪽에 남자 귀신이 보임", text: "하늘 오른쪽에 여자 귀신, 왼쪽에 남자 귀신이 보였다" },
-  { id: "ghost", ctx: "여자 귀신이 긴 옷을 끌고 하늘을 떠감", text: "여자 귀신이 긴 옷을 끌고 하늘을 떠갔다" },
-  { id: "ghost", ctx: "살아 있는 살붙이나 벗의 귀신을 봄", text: "살아 있는 벗의 귀신을 보았다" },
-  { id: "spinning-thread", ctx: "실을 자아 길쌈함", text: "실을 자아 길쌈했다" },
-  { id: "spinning-thread", ctx: "아마 실을 자음", text: "아마 실을 잣는 꿈을 꾸었다" },
-  { id: "bobbin", ctx: "실패(보빈)를 보는 꿈을 꿈", text: "보빈 꿈을 꾸었다" },
+  // ── 지킴 케이스 — 이번에 손댄 기존 상징(spoon·wind)의 옛 답이 그대로인지 ──
+  { id: "spoon", ctx: "숟가락을 봄", text: "숟가락 꿈을 꾸었다" },
+  { id: "wind", ctx: "사나운 바람이 몰아침", text: "사나운 바람이 몰아쳤다" },
+  { id: "wind", ctx: "거센 바람에 휘말림", text: "거센 바람에 휘말렸다" },
+  { id: "wind", ctx: "바람이 사람의 옷자락을 불어 젖힘", text: "바람이 옷자락을 불어 젖혔다" },
+  { id: "wind", ctx: "갑자기 큰바람이 붊", text: "갑자기 큰바람이 불었다" },
+  { id: "wind", ctx: "바람이 울부짖듯 소리를 냄", text: "바람이 울부짖듯 소리를 냈다" },
+  { id: "wind", ctx: "바람이 불어 집이 흔들림", text: "바람이 불어 집이 흔들렸다" },
 ];
 
 let notFound = 0;

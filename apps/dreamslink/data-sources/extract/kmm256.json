@@ -1,0 +1,136 @@
+[
+  {
+    "id": "spring",
+    "aliases": [
+      "봄이 오는",
+      "봄이 왔다",
+      "새봄",
+      "봄기운",
+      "봄이 오고"
+    ],
+    "aliases_en": [
+      "spring",
+      "springtime"
+    ],
+    "contexts": {
+      "봄이 오고 있음": "오고",
+      "봄이 제철과 다르게 나타남": "제철과 다르게 이상하게"
+    },
+    "contexts_en": {
+      "봄이 오고 있음": "advancing fortunate",
+      "봄이 제철과 다르게 나타남": "unnaturally foreboding"
+    }
+  },
+  {
+    "id": "spur",
+    "aliases": [
+      "박차를",
+      "박차가"
+    ],
+    "aliases_en": [
+      "spur",
+      "spurs",
+      "wearing spurs"
+    ],
+    "contexts": {
+      "스스로 박차를 참": "스스로 신었",
+      "남이 박차를 찬 것을 봄": "남이 다른 사람이"
+    },
+    "contexts_en": {
+      "스스로 박차를 참": "controversy",
+      "남이 박차를 찬 것을 봄": "others enmity"
+    }
+  },
+  {
+    "id": "spy",
+    "aliases": [
+      "첩자가",
+      "첩자를",
+      "첩자에게",
+      "간첩",
+      "첩자들"
+    ],
+    "aliases_en": [
+      "spy",
+      "spies",
+      "a spy"
+    ],
+    "contexts": {
+      "첩자들에게 시달림": "시달리",
+      "스스로 첩자가 됨": "스스로 자신이"
+    },
+    "contexts_en": {
+      "첩자들에게 시달림": "harassing quarrels",
+      "스스로 첩자가 됨": "unfortunate ventures"
+    }
+  },
+  {
+    "id": "spyglass",
+    "aliases": [
+      "망원경으로",
+      "망원경을"
+    ],
+    "aliases_en": [
+      "spyglass",
+      "spy-glass",
+      "a spy-glass"
+    ],
+    "contexts": {
+      "망원경으로 봄": "들여다",
+      "부서지거나 흠집 난 망원경을 봄": "부서지거나 흠집"
+    },
+    "contexts_en": {
+      "망원경으로 봄": "looking disadvantage",
+      "부서지거나 흠집 난 망원경을 봄": "broken imperfect dissensions"
+    }
+  },
+  {
+    "id": "squinting",
+    "aliases": [
+      "곁눈질하는",
+      "곁눈질했다",
+      "곁눈질을"
+    ],
+    "aliases_en": [
+      "squinting",
+      "squints",
+      "squinting eyes"
+    ],
+    "contexts": {
+      "곁눈질하는 사람을 봄": "어떤 사람",
+      "남자가 애인이나 낯선 미인에게서 곁눈질을 받음": "남자가 애인이",
+      "여자가 남자에게서 곁눈질을 받음": "여자가 평판"
+    },
+    "contexts_en": {
+      "곁눈질하는 사람을 봄": "annoyed unpleasant",
+      "남자가 애인이나 낯선 미인에게서 곁눈질을 받음": "sweetheart favors",
+      "여자가 남자에게서 곁눈질을 받음": "woman reputation"
+    }
+  },
+  {
+    "id": "squirrel",
+    "aliases": [
+      "다람쥐가",
+      "다람쥐를",
+      "다람쥐들이",
+      "다람쥐들"
+    ],
+    "aliases_en": [
+      "squirrel",
+      "squirrels",
+      "a squirrel"
+    ],
+    "contexts": {
+      "다람쥐들을 봄": "다람쥐들",
+      "다람쥐를 죽임": "죽였다 죽이는",
+      "다람쥐를 예뻐함": "예뻐 귀여워",
+      "개가 다람쥐를 쫓는 것을 봄": "개가 쫓는"
+    },
+    "contexts_en": {
+      "다람쥐들을 봄": "pleasant visit business",
+      "다람쥐를 죽임": "kill unfriendly disliked",
+      "다람쥐를 예뻐함": "pet family joy",
+      "개가 다람쥐를 쫓는 것을 봄": "dog chasing"
+    }
+  }
+]

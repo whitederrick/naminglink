@@ -1,0 +1,18 @@
+{
+  "batch": 256,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Spoons", "text": "To see, or use, spoons in a dream, denotes favorable signs of advancement.  Domestic affairs will afford contentment.\n\nTo think a spoon is lost, denotes that you will be suspicious of wrong doing.\n\nTo steal one, is a sign that you will deserve censure for your contemptible meanness in your home.\n\nTo dream of broken or soiled spoons, signifies loss and trouble.", "note": "기존 spoon(숟가락)에 문맥 추가. 첫 문장은 기존 zhougong 「숟가락을 봄」과 같은 그림, 다른 풀이라 건너뜀" },
+    { "headword": "Spring", "text": "To dream that spring is advancing, is a sign of fortunate undertakings and cheerful companions.\n\nTo see spring appearing unnaturally, is a foreboding of disquiet and losses.", "note": "새 상징 spring(봄철)" },
+    { "headword": "Spur", "text": "To dream of wearing spurs, denotes that you will engage in some unpleasant controversy.\n\nTo see others with them on, foretells that enmity is working you trouble.", "note": "새 상징 spur(박차)" },
+    { "headword": "Spy", "text": "To dream that spies are harassing you, denotes dangerous quarrels and uneasiness.\n\nTo dream that you are a spy, denotes that you will make unfortunate ventures.", "note": "새 상징 spy(첩자)" },
+    { "headword": "Spy-glass", "text": "To dream that you are looking through a spy-glass, denotes that changes will soon occur to your disadvantage.\n\nTo see a broken or imperfect one, foretells unhappy dissensions and loss of friends.", "note": "새 상징 spyglass(망원경)" },
+    { "headword": "Squall", "text": "To dream of squalls, foretells disappointing business and unhappiness.", "note": "기존 wind(바람)에 문맥 추가 — 「돌풍」이 이미 wind의 별칭이었다" },
+    { "headword": "Squinting", "text": "To dream that you see some person with squinting eyes, denotes that you will be annoyed with unpleasant people.\n\nFor a man to dream that his sweetheart, or some good-looking girl, squints her eyes at him, foretells that he is threatened with loss by seeking the favors of women.  For a young woman to have this dream about men, she will be in danger of losing her fair reputation.", "note": "새 상징 squinting(곁눈질) — 남녀 갈림은 서로 다른 낱말(남자/여자)로 갈라 부딪치지 않는다" },
+    { "headword": "Squirrel", "text": "To dream of seeing squirrels, denotes that pleasant friends will soon visit you.  You will see advancement in your business also.\n\nTo kill a squirrel, denotes that you will be unfriendly and disliked.\n\nTo pet one, signifies family joy.\n\nTo see a dog chasing one, foretells disagreements and unpleasantness among friends.", "note": "새 상징 squirrel(다람쥐). 마지막 문장(개가 쫓음)은 dog이 아니라 squirrel 쪽 그림이라 여기 둠" }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    { "headword": "Spoons", "sentence": "To see, or use, spoons in a dream, denotes favorable signs of advancement.  Domestic affairs will afford contentment.", "reason": "기존 zhougong 「숟가락을 봄」과 같은 그림, 다른 풀이 — 판별어로 못 가른다(§31 곁가지). 옛 값을 FALLBACK_FIRST로 얼렸다" }
+  ]
+}

@@ -1,0 +1,287 @@
+[
+  {
+    "term_ko": "숟가락",
+    "term_en": "spoon",
+    "context": "숟가락을 잃어버렸다고 생각함",
+    "interpretation_ko": "누군가 나쁜 짓을 저지르고 있다고 의심하게 될 조짐",
+    "interpretation_en": "denotes that you will be suspicious of wrong doing",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spoons",
+      "original": "To think a spoon is lost, denotes that you will be suspicious of wrong doing.",
+      "translation_ko": "숟가락을 잃어버렸다고 생각하는 꿈은, 누군가 나쁜 짓을 저지르고 있다고 의심하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "숟가락",
+    "term_en": "spoon",
+    "context": "숟가락을 훔침",
+    "interpretation_ko": "집안에서 한 못난 짓으로 비난받을 조짐",
+    "interpretation_en": "is a sign that you will deserve censure for your contemptible meanness in your home",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spoons",
+      "original": "To steal one, is a sign that you will deserve censure for your contemptible meanness in your home.",
+      "translation_ko": "숟가락을 훔치는 꿈은, 집안에서 한 못난 짓으로 비난받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "숟가락",
+    "term_en": "spoon",
+    "context": "부러지거나 더러운 숟가락을 봄",
+    "interpretation_ko": "손실과 곤란을 겪을 조짐",
+    "interpretation_en": "signifies loss and trouble",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spoons",
+      "original": "To dream of broken or soiled spoons, signifies loss and trouble.",
+      "translation_ko": "부러지거나 더러운 숟가락을 보는 꿈은, 손실과 곤란을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "봄철",
+    "term_en": "spring",
+    "context": "봄이 오고 있음",
+    "interpretation_ko": "순조로운 일과 즐거운 벗을 얻을 조짐",
+    "interpretation_en": "is a sign of fortunate undertakings and cheerful companions",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Spring",
+      "original": "To dream that spring is advancing, is a sign of fortunate undertakings and cheerful companions.",
+      "translation_ko": "봄이 오고 있는 꿈은, 순조로운 일과 즐거운 벗을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "봄철",
+    "term_en": "spring",
+    "context": "봄이 제철과 다르게 나타남",
+    "interpretation_ko": "근심과 손실이 닥칠 조짐",
+    "interpretation_en": "is a foreboding of disquiet and losses",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Spring",
+      "original": "To see spring appearing unnaturally, is a foreboding of disquiet and losses.",
+      "translation_ko": "봄이 제철과 다르게 나타나는 꿈은, 근심과 손실이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "박차",
+    "term_en": "spur",
+    "context": "스스로 박차를 참",
+    "interpretation_ko": "달갑잖은 다툼에 얽힐 조짐",
+    "interpretation_en": "denotes that you will engage in some unpleasant controversy",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spur",
+      "original": "To dream of wearing spurs, denotes that you will engage in some unpleasant controversy.",
+      "translation_ko": "스스로 박차를 차는 꿈은, 달갑잖은 다툼에 얽힐 조짐이다"
+    }
+  },
+  {
+    "term_ko": "박차",
+    "term_en": "spur",
+    "context": "남이 박차를 찬 것을 봄",
+    "interpretation_ko": "적개심이 곤란을 일으킬 조짐",
+    "interpretation_en": "foretells that enmity is working you trouble",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spur",
+      "original": "To see others with them on, foretells that enmity is working you trouble.",
+      "translation_ko": "남이 박차를 찬 것을 보는 꿈은, 적개심이 곤란을 일으킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "첩자",
+    "term_en": "spy",
+    "context": "첩자들에게 시달림",
+    "interpretation_ko": "위험한 다툼과 불안에 시달릴 조짐",
+    "interpretation_en": "denotes dangerous quarrels and uneasiness",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Spy",
+      "original": "To dream that spies are harassing you, denotes dangerous quarrels and uneasiness.",
+      "translation_ko": "첩자들에게 시달리는 꿈은, 위험한 다툼과 불안에 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "첩자",
+    "term_en": "spy",
+    "context": "스스로 첩자가 됨",
+    "interpretation_ko": "무모한 시도를 하게 될 조짐",
+    "interpretation_en": "denotes that you will make unfortunate ventures",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Spy",
+      "original": "To dream that you are a spy, denotes that you will make unfortunate ventures.",
+      "translation_ko": "스스로 첩자가 되는 꿈은, 무모한 시도를 하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "망원경",
+    "term_en": "spyglass",
+    "context": "망원경으로 봄",
+    "interpretation_ko": "머잖아 불리한 변화가 닥칠 조짐",
+    "interpretation_en": "denotes that changes will soon occur to your disadvantage",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spy-glass",
+      "original": "To dream that you are looking through a spy-glass, denotes that changes will soon occur to your disadvantage.",
+      "translation_ko": "망원경으로 보는 꿈은, 머잖아 불리한 변화가 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "망원경",
+    "term_en": "spyglass",
+    "context": "부서지거나 흠집 난 망원경을 봄",
+    "interpretation_ko": "달갑잖은 불화와 벗을 잃을 조짐",
+    "interpretation_en": "foretells unhappy dissensions and loss of friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spy-glass",
+      "original": "To see a broken or imperfect one, foretells unhappy dissensions and loss of friends.",
+      "translation_ko": "부서지거나 흠집 난 망원경을 보는 꿈은, 달갑잖은 불화와 벗을 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바람",
+    "term_en": "wind",
+    "context": "돌풍이 부는 꿈을 꿈",
+    "interpretation_ko": "사업이 실망스럽게 되고 불행할 조짐",
+    "interpretation_en": "foretells disappointing business and unhappiness",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Squall",
+      "original": "To dream of squalls, foretells disappointing business and unhappiness.",
+      "translation_ko": "돌풍이 부는 꿈은, 사업이 실망스럽게 되고 불행할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "곁눈질",
+    "term_en": "squinting",
+    "context": "곁눈질하는 사람을 봄",
+    "interpretation_ko": "달갑잖은 이들 때문에 성가실 조짐",
+    "interpretation_en": "denotes that you will be annoyed with unpleasant people",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Squinting",
+      "original": "To dream that you see some person with squinting eyes, denotes that you will be annoyed with unpleasant people.",
+      "translation_ko": "곁눈질하는 사람을 보는 꿈은, 달갑잖은 이들 때문에 성가실 조짐이다"
+    }
+  },
+  {
+    "term_ko": "곁눈질",
+    "term_en": "squinting",
+    "context": "남자가 애인이나 낯선 미인에게서 곁눈질을 받음",
+    "interpretation_ko": "여자를 쫓다 손해를 볼 위험에 처할 조짐",
+    "interpretation_en": "foretells that he is threatened with loss by seeking the favors of women",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Squinting",
+      "original": "For a man to dream that his sweetheart, or some good-looking girl, squints her eyes at him, foretells that he is threatened with loss by seeking the favors of women.",
+      "translation_ko": "남자가 애인이나 낯선 미인에게서 곁눈질을 받는 꿈은, 여자를 쫓다 손해를 볼 위험에 처할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "곁눈질",
+    "term_en": "squinting",
+    "context": "여자가 남자에게서 곁눈질을 받음",
+    "interpretation_ko": "고운 평판을 잃을 위험에 처할 조짐",
+    "interpretation_en": "she will be in danger of losing her fair reputation",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Squinting",
+      "original": "For a young woman to have this dream about men, she will be in danger of losing her fair reputation.",
+      "translation_ko": "여자가 남자에게서 곁눈질을 받는 꿈은, 고운 평판을 잃을 위험에 처할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "다람쥐",
+    "term_en": "squirrel",
+    "context": "다람쥐들을 봄",
+    "interpretation_ko": "즐거운 벗이 곧 찾아오고 사업도 나아질 조짐",
+    "interpretation_en": "denotes that pleasant friends will soon visit you; you will see advancement in your business also",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Squirrel",
+      "original": "To dream of seeing squirrels, denotes that pleasant friends will soon visit you.  You will see advancement in your business also.",
+      "translation_ko": "다람쥐들을 보는 꿈은, 즐거운 벗이 곧 찾아오고 사업도 나아질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "다람쥐",
+    "term_en": "squirrel",
+    "context": "다람쥐를 죽임",
+    "interpretation_ko": "정을 잃고 미움받을 조짐",
+    "interpretation_en": "denotes that you will be unfriendly and disliked",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Squirrel",
+      "original": "To kill a squirrel, denotes that you will be unfriendly and disliked.",
+      "translation_ko": "다람쥐를 죽이는 꿈은, 정을 잃고 미움받을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "다람쥐",
+    "term_en": "squirrel",
+    "context": "다람쥐를 예뻐함",
+    "interpretation_ko": "집안에 기쁜 일이 생길 조짐",
+    "interpretation_en": "signifies family joy",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Squirrel",
+      "original": "To pet one, signifies family joy.",
+      "translation_ko": "다람쥐를 예뻐하는 꿈은, 집안에 기쁜 일이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "다람쥐",
+    "term_en": "squirrel",
+    "context": "개가 다람쥐를 쫓는 것을 봄",
+    "interpretation_ko": "벗 사이에 다툼과 불화가 생길 조짐",
+    "interpretation_en": "foretells disagreements and unpleasantness among friends",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Squirrel",
+      "original": "To see a dog chasing one, foretells disagreements and unpleasantness among friends.",
+      "translation_ko": "개가 다람쥐를 쫓는 것을 보는 꿈은, 벗 사이에 다툼과 불화가 생길 조짐이다"
+    }
+  }
+]
