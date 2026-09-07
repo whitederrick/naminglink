@@ -1,0 +1,99 @@
+[
+  {
+    "id": "throne",
+    "aliases": [
+      "왕좌가",
+      "왕좌를",
+      "왕좌에",
+      "옥좌"
+    ],
+    "aliases_en": [
+      "throne",
+      "a throne"
+    ],
+    "contexts": {
+      "왕좌에 앉음": "앉았",
+      "왕좌에서 내려옴": "내려옴 내려왔",
+      "남이 왕좌에 있음을 봄": "남이"
+    },
+    "contexts_en": {
+      "왕좌에 앉음": "sitting rapidly favor",
+      "왕좌에서 내려옴": "descend disappointment",
+      "남이 왕좌에 있음을 봄": "others succeed wealth"
+    }
+  },
+  {
+    "id": "thumb",
+    "aliases": [
+      "엄지손가락이",
+      "엄지손가락을",
+      "엄지가",
+      "엄지를"
+    ],
+    "aliases_en": [
+      "thumb",
+      "a thumb"
+    ],
+    "contexts": {
+      "엄지손가락을 봄": "그냥",
+      "엄지손가락이 아픔": "아픈 아파 아팠",
+      "엄지손가락이 없음": "없는 없었",
+      "엄지손가락이 유난히 작아 보임": "유난히 작아",
+      "엄지손가락이 비정상적으로 큼": "비정상적으로",
+      "엄지손가락이 더러움": "더러운 더러웠",
+      "엄지손가락 손톱이 아주 길게 자람": "손톱이 길게"
+    },
+    "contexts_en": {
+      "엄지손가락을 봄": "favorite artful uncertain",
+      "엄지손가락이 아픔": "sore lose companions",
+      "엄지손가락이 없음": "destitution loneliness",
+      "엄지손가락이 유난히 작아 보임": "unnaturally small pleasure",
+      "엄지손가락이 비정상적으로 큼": "abnormally large brilliant",
+      "엄지손가락이 더러움": "soiled loose desires",
+      "엄지손가락 손톱이 아주 길게 자람": "nail strange evil"
+    }
+  },
+  {
+    "id": "tickle",
+    "aliases": [
+      "간지럼을",
+      "간지럼이",
+      "간지럽",
+      "간지럽혔다"
+    ],
+    "aliases_en": [
+      "tickle",
+      "tickled"
+    ],
+    "contexts": {
+      "간지럼을 탐": "그냥",
+      "남을 간지럽힘": "남을"
+    },
+    "contexts_en": {
+      "간지럼을 탐": "insistent worries illness",
+      "남을 간지럽힘": "throw weakness folly"
+    }
+  },
+  {
+    "id": "ticks",
+    "aliases": [
+      "진드기가",
+      "진드기를",
+      "진드기에"
+    ],
+    "aliases_en": [
+      "ticks",
+      "a tick"
+    ],
+    "contexts": {
+      "진드기가 살갗을 기어다님을 봄": "살갗을 기어다",
+      "몸의 진드기를 눌러 죽임": "눌러죽였",
+      "가축에 붙은 큰 진드기를 봄": "가축에 붙은"
+    },
+    "contexts_en": {
+      "진드기가 살갗을 기어다님을 봄": "crawling flesh impoverished",
+      "몸의 진드기를 눌러 죽임": "mash treacherous enemies",
+      "가축에 붙은 큰 진드기를 봄": "stock foul means"
+    }
+  }
+]

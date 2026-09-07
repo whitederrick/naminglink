@@ -478,7 +478,8 @@
     "aliases": [
       "천둥",
       "우렛소리",
-      "뇌성"
+      "뇌성",
+      "천둥소리"
     ],
     "aliases_en": [
       "thunderclap",
@@ -488,12 +489,16 @@
     "contexts": {
       "우레가 크게 침": "크게 요란 세차 쾅쾅",
       "우렛소리가 두렵게 들림": "두렵 무서 겁이",
-      "우레가 땅에서 울림": "땅에서 지축 아래에서"
+      "우레가 땅에서 울림": "땅에서 지축 아래에서",
+      "천둥 치는 소나기 속에 있음": "소나기",
+      "땅을 뒤흔드는 무시무시한 천둥소리를 들음": "뒤흔드는 무시무시한"
     },
     "contexts_en": {
       "우레가 크게 침": "loud loudly crashed struck",
       "우렛소리가 두렵게 들림": "frightening scary afraid terrified",
-      "우레가 땅에서 울림": "ground below beneath"
+      "우레가 땅에서 울림": "ground below beneath",
+      "천둥 치는 소나기 속에 있음": "shower trouble grief",
+      "땅을 뒤흔드는 무시무시한 천둥소리를 들음": "terrific peals quake"
     }
   },
   {

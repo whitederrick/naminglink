@@ -7936,5 +7936,21 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "threshing": [
     "threshing",
     "thresh"
+  ],
+  "throne": [
+    "throne",
+    "a throne"
+  ],
+  "thumb": [
+    "thumb",
+    "a thumb"
+  ],
+  "tickle": [
+    "tickle",
+    "tickled"
+  ],
+  "ticks": [
+    "ticks",
+    "a tick"
   ]
 };

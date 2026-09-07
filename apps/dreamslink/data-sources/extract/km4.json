@@ -259,7 +259,8 @@
     "id": "tiger",
     "aliases": [
       "백호",
-      "호랭이"
+      "호랭이",
+      "호랑이들"
     ],
     "aliases_en": [
       "tigers"
@@ -269,14 +270,24 @@
       "호랑이를 타고 감": "타고 올라타 등에 태워",
       "호랑이가 집 안으로 들어옴": "집안 집으로 들어와 방으로 안으로",
       "호랑이가 움직이지 않고 있음": "가만히 움직이지 웅크 엎드려 조용히",
-      "호랑이를 잡음": "잡았 잡아 사로잡 붙잡 죽였"
+      "호랑이를 잡음": "잡았 잡아 사로잡 붙잡 죽였",
+      "호랑이가 저를 향해 다가옴": "다가옴 다가왔",
+      "호랑이가 저를 공격함": "공격",
+      "호랑이가 저에게서 달아나는 것을 봄": "달아나",
+      "우리에 갇힌 호랑이들을 봄": "우리에 갇힌",
+      "호랑이 가죽 깔개를 봄": "가죽 깔개"
     },
     "contexts_en": {
       "사나운 호랑이가 크게 울부짖음": "roaring roared growling fierce howling",
       "호랑이를 타고 감": "riding rode mounted back",
       "호랑이가 집 안으로 들어옴": "entered house came inside home",
       "호랑이가 움직이지 않고 있음": "still motionless crouching lying quietly",
-      "호랑이를 잡음": "caught captured killed subdued seized"
+      "호랑이를 잡음": "caught captured killed subdued seized",
+      "호랑이가 저를 향해 다가옴": "advancing tormented persecuted",
+      "호랑이가 저를 공격함": "attacks failure gloom",
+      "호랑이가 저에게서 달아나는 것을 봄": "running overcome opposition",
+      "우리에 갇힌 호랑이들을 봄": "cages foil adversaries",
+      "호랑이 가죽 깔개를 봄": "rugs luxurious ease"
     }
   },
   {

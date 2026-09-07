@@ -1,0 +1,18 @@
+{
+  "batch": 272,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Throat", "text": "To dream of seeing a well-developed and graceful throat, portends a rise in position.\n\nIf you feel that your throat is sore, you will be deceived in your estimation of a friend, and will have anxiety over the discovery.", "note": "기존 neck(목) 상징에 문맥 2개 추가 — 「목」이 이미 그 상징의 term_ko다(밀러 Neck 헤드워드에서 옴). Throat과 Neck은 다른 헤드워드지만 같은 한국어 낱말을 쓰므로 병합" },
+    { "headword": "Throne", "text": "If you dream of sitting on a throne, you will rapidly rise to favor and fortune.\n\nTo descend from one, there is much disappointment for you.\n\nTo see others on a throne, you will succeed to wealth through the favor of others.", "note": "새 상징 throne(왕좌)" },
+    { "headword": "Thumb", "text": "To dream of seeing a thumb, foretells that you will be the favorite of artful persons and uncertain fortune.\n\nIf you are suffering from a sore thumb, you will lose in business, and your companions will prove disagreeable.\nTo dream that you have no thumb, implies destitution and loneliness.\nIf it seems unnaturally small, you will enjoy pleasure for a time.\nIf abnormally large, your success will be rapid and brilliant.\n\nA soiled thumb indicates gratification of loose desires.\nIf the thumb has a very long nail, you are liable to fall into evil through seeking strange pleasures.", "note": "새 상징 thumb(엄지손가락)" },
+    { "headword": "Thunder", "text": "To dream of hearing thunder, foretells you will soon be threatened with reverses in your business.\n\nTo be in a thunder shower, denotes trouble and grief are close to you.\n\nTo hear the terrific peals of thunder, which make the earth quake, portends great loss and disappointment.", "note": "기존 thunder(우레) 상징에 문맥 2개 추가 — 「천둥」이 이미 별칭이었다(주공해몽에서 옴). 막연한 첫 문장(천둥소리를 들음)은 기존 세 의미(우레가 크게 침 등)와 같은 그림이라 건너뜀" },
+    { "headword": "Tickle", "text": "To dream of being tickled, denotes insistent worries and illness.\n\nIf you tickle others, you will throw away much enjoyment through weakness and folly.", "note": "새 상징 tickle(간지럼)" },
+    { "headword": "Ticks", "text": "To dream you see ticks crawling on your flesh, is a sign of impoverished circumstances and ill health. Hasty journeys to sick beds may be made.\n\nTo mash a tick on you, denotes that you will be annoyed by treacherous enemies.\n\nTo see in your dreams large ticks on stock, enemies are endeavoring to get possession of your property by foul means.", "note": "새 상징 ticks(진드기)" },
+    { "headword": "Tiger", "text": "To dream of a tiger advancing towards you, you will be tormented and persecuted by enemies. If it attacks you, failure will bury you in gloom. If you succeed in warding it off, or killing it, you will be extremely successful in all your undertakings.\n\nTo see one running away from you, is a sign that you will overcome opposition, and rise to high positions.\n\nTo see them in cages, foretells that you will foil your adversaries.\n\nTo see rugs of tiger skins, denotes that you are in the way to enjoy luxurious ease and pleasure.", "note": "기존 tiger(호랑이) 상징에 문맥 5개 추가 — 「호랑이」가 이미 term_ko다(주공해몽에서 옴, 전부 길함). warding off/killing 문장은 기존 「호랑이를 잡음」(殺虎豹, 죽임)과 같은 그림이라 건너뜀" }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    { "headword": "Thunder", "sentence": "To dream of hearing thunder, foretells you will soon be threatened with reverses in your business.", "reason": "기존 thunder 「우레가 크게 침」 등 세 의미와 같은 그림(막연한 천둥소리)·다른 풀이" },
+    { "headword": "Tiger", "sentence": "If you succeed in warding it off, or killing it, you will be extremely successful in all your undertakings.", "reason": "기존 tiger 「호랑이를 잡음」(殺虎豹, 죽임)과 같은 그림·다른 풀이" }
+  ]
+}

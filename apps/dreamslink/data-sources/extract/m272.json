@@ -1,0 +1,362 @@
+[
+  {
+    "term_ko": "목",
+    "term_en": "neck",
+    "context": "잘 발달되고 우아한 목을 봄",
+    "interpretation_ko": "지위가 오를 조짐",
+    "interpretation_en": "portends a rise in position",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Throat",
+      "original": "To dream of seeing a well-developed and graceful throat, portends a rise in position.",
+      "translation_ko": "잘 발달되고 우아한 목을 보는 꿈은, 지위가 오를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목",
+    "term_en": "neck",
+    "context": "목이 아픔을 느낌",
+    "interpretation_ko": "벗을 잘못 헤아렸다가 그 사실을 알고 근심할 조짐",
+    "interpretation_en": "you will be deceived in your estimation of a friend, and will have anxiety over the discovery",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Throat",
+      "original": "If you feel that your throat is sore, you will be deceived in your estimation of a friend, and will have anxiety over the discovery.",
+      "translation_ko": "목이 아픔을 느끼는 꿈은, 벗을 잘못 헤아렸다가 그 사실을 알고 근심할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "왕좌",
+    "term_en": "throne",
+    "context": "왕좌에 앉음",
+    "interpretation_ko": "빠르게 총애와 행운에 오를 조짐",
+    "interpretation_en": "you will rapidly rise to favor and fortune",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Throne",
+      "original": "If you dream of sitting on a throne, you will rapidly rise to favor and fortune.",
+      "translation_ko": "왕좌에 앉는 꿈은, 빠르게 총애와 행운에 오를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "왕좌",
+    "term_en": "throne",
+    "context": "왕좌에서 내려옴",
+    "interpretation_ko": "크게 실망할 일이 있을 조짐",
+    "interpretation_en": "there is much disappointment for you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Throne",
+      "original": "To descend from one, there is much disappointment for you.",
+      "translation_ko": "왕좌에서 내려오는 꿈은, 크게 실망할 일이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "왕좌",
+    "term_en": "throne",
+    "context": "남이 왕좌에 있음을 봄",
+    "interpretation_ko": "남의 도움으로 부유해질 조짐",
+    "interpretation_en": "you will succeed to wealth through the favor of others",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Throne",
+      "original": "To see others on a throne, you will succeed to wealth through the favor of others.",
+      "translation_ko": "남이 왕좌에 있음을 보는 꿈은, 남의 도움으로 부유해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "엄지손가락",
+    "term_en": "thumb",
+    "context": "엄지손가락을 봄",
+    "interpretation_ko": "교활한 이들에게 총애받으나 운수는 불확실할 조짐",
+    "interpretation_en": "you will be the favorite of artful persons and uncertain fortune",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Thumb",
+      "original": "To dream of seeing a thumb, foretells that you will be the favorite of artful persons and uncertain fortune.",
+      "translation_ko": "엄지손가락을 보는 꿈은, 교활한 이들에게 총애받으나 운수는 불확실할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "엄지손가락",
+    "term_en": "thumb",
+    "context": "엄지손가락이 아픔",
+    "interpretation_ko": "사업에서 손해를 보고 동료들이 못마땅하게 굴 조짐",
+    "interpretation_en": "you will lose in business, and your companions will prove disagreeable",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Thumb",
+      "original": "If you are suffering from a sore thumb, you will lose in business, and your companions will prove disagreeable.",
+      "translation_ko": "엄지손가락이 아픈 꿈은, 사업에서 손해를 보고 동료들이 못마땅하게 굴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "엄지손가락",
+    "term_en": "thumb",
+    "context": "엄지손가락이 없음",
+    "interpretation_ko": "빈곤과 외로움을 뜻함",
+    "interpretation_en": "implies destitution and loneliness",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Thumb",
+      "original": "To dream that you have no thumb, implies destitution and loneliness.",
+      "translation_ko": "엄지손가락이 없는 꿈은, 빈곤과 외로움을 뜻한다"
+    }
+  },
+  {
+    "term_ko": "엄지손가락",
+    "term_en": "thumb",
+    "context": "엄지손가락이 유난히 작아 보임",
+    "interpretation_ko": "한동안 즐거움을 누릴 조짐",
+    "interpretation_en": "you will enjoy pleasure for a time",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Thumb",
+      "original": "If it seems unnaturally small, you will enjoy pleasure for a time.",
+      "translation_ko": "엄지손가락이 유난히 작아 보이는 꿈은, 한동안 즐거움을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "엄지손가락",
+    "term_en": "thumb",
+    "context": "엄지손가락이 비정상적으로 큼",
+    "interpretation_ko": "성공이 빠르고 눈부실 조짐",
+    "interpretation_en": "your success will be rapid and brilliant",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Thumb",
+      "original": "If abnormally large, your success will be rapid and brilliant.",
+      "translation_ko": "엄지손가락이 비정상적으로 큰 꿈은, 성공이 빠르고 눈부실 조짐이다"
+    }
+  },
+  {
+    "term_ko": "엄지손가락",
+    "term_en": "thumb",
+    "context": "엄지손가락이 더러움",
+    "interpretation_ko": "헤픈 욕망을 채우는 것을 가리킴",
+    "interpretation_en": "indicates gratification of loose desires",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Thumb",
+      "original": "A soiled thumb indicates gratification of loose desires.",
+      "translation_ko": "엄지손가락이 더러운 꿈은, 헤픈 욕망을 채우는 것을 가리킨다"
+    }
+  },
+  {
+    "term_ko": "엄지손가락",
+    "term_en": "thumb",
+    "context": "엄지손가락 손톱이 아주 길게 자람",
+    "interpretation_ko": "낯선 쾌락을 좇다 악에 빠지기 쉬운 조짐",
+    "interpretation_en": "you are liable to fall into evil through seeking strange pleasures",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Thumb",
+      "original": "If the thumb has a very long nail, you are liable to fall into evil through seeking strange pleasures.",
+      "translation_ko": "엄지손가락 손톱이 아주 길게 자란 꿈은, 낯선 쾌락을 좇다 악에 빠지기 쉬운 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우레",
+    "term_en": "thunder",
+    "context": "천둥 치는 소나기 속에 있음",
+    "interpretation_ko": "곤란과 슬픔이 가까이 있는 조짐",
+    "interpretation_en": "denotes trouble and grief are close to you",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Thunder",
+      "original": "To be in a thunder shower, denotes trouble and grief are close to you.",
+      "translation_ko": "천둥 치는 소나기 속에 있는 꿈은, 곤란과 슬픔이 가까이 있는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우레",
+    "term_en": "thunder",
+    "context": "땅을 뒤흔드는 무시무시한 천둥소리를 들음",
+    "interpretation_ko": "큰 손실과 실망의 조짐",
+    "interpretation_en": "portends great loss and disappointment",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Thunder",
+      "original": "To hear the terrific peals of thunder, which make the earth quake, portends great loss and disappointment.",
+      "translation_ko": "땅을 뒤흔드는 무시무시한 천둥소리를 듣는 꿈은, 큰 손실과 실망의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "간지럼",
+    "term_en": "tickle",
+    "context": "간지럼을 탐",
+    "interpretation_ko": "끊이지 않는 걱정과 병의 조짐",
+    "interpretation_en": "denotes insistent worries and illness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tickle",
+      "original": "To dream of being tickled, denotes insistent worries and illness.",
+      "translation_ko": "간지럼을 타는 꿈은, 끊이지 않는 걱정과 병의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "간지럼",
+    "term_en": "tickle",
+    "context": "남을 간지럽힘",
+    "interpretation_ko": "나약함과 어리석음으로 큰 즐거움을 내던질 조짐",
+    "interpretation_en": "you will throw away much enjoyment through weakness and folly",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Tickle",
+      "original": "If you tickle others, you will throw away much enjoyment through weakness and folly.",
+      "translation_ko": "남을 간지럽히는 꿈은, 나약함과 어리석음으로 큰 즐거움을 내던질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "진드기",
+    "term_en": "ticks",
+    "context": "진드기가 살갗을 기어다님을 봄",
+    "interpretation_ko": "궁핍한 형편과 나쁜 건강의 조짐 — 급히 병문안을 다닐 수도 있음",
+    "interpretation_en": "a sign of impoverished circumstances and ill health; hasty journeys to sick beds may be made",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Ticks",
+      "original": "To dream you see ticks crawling on your flesh, is a sign of impoverished circumstances and ill health. Hasty journeys to sick beds may be made.",
+      "translation_ko": "진드기가 살갗을 기어다니는 것을 보는 꿈은, 궁핍한 형편과 나쁜 건강의 조짐이다 — 급히 병문안을 다닐 수도 있다"
+    }
+  },
+  {
+    "term_ko": "진드기",
+    "term_en": "ticks",
+    "context": "몸의 진드기를 눌러 죽임",
+    "interpretation_ko": "간교한 적에게 시달릴 조짐",
+    "interpretation_en": "denotes that you will be annoyed by treacherous enemies",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Ticks",
+      "original": "To mash a tick on you, denotes that you will be annoyed by treacherous enemies.",
+      "translation_ko": "몸의 진드기를 눌러 죽이는 꿈은, 간교한 적에게 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "진드기",
+    "term_en": "ticks",
+    "context": "가축에 붙은 큰 진드기를 봄",
+    "interpretation_ko": "적이 부정한 수로 재산을 빼앗으려 애쓰는 조짐",
+    "interpretation_en": "enemies are endeavoring to get possession of your property by foul means",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Ticks",
+      "original": "To see in your dreams large ticks on stock, enemies are endeavoring to get possession of your property by foul means.",
+      "translation_ko": "가축에 붙은 큰 진드기를 보는 꿈은, 적이 부정한 수로 재산을 빼앗으려 애쓰는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "호랑이",
+    "term_en": "tiger",
+    "context": "호랑이가 저를 향해 다가옴",
+    "interpretation_ko": "적에게 시달리고 쫓길 조짐",
+    "interpretation_en": "you will be tormented and persecuted by enemies",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Tiger",
+      "original": "To dream of a tiger advancing towards you, you will be tormented and persecuted by enemies.",
+      "translation_ko": "호랑이가 저를 향해 다가오는 꿈은, 적에게 시달리고 쫓길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "호랑이",
+    "term_en": "tiger",
+    "context": "호랑이가 저를 공격함",
+    "interpretation_ko": "실패가 저를 나락에 파묻을 조짐",
+    "interpretation_en": "failure will bury you in gloom",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Tiger",
+      "original": "If it attacks you, failure will bury you in gloom.",
+      "translation_ko": "호랑이가 저를 공격하는 꿈은, 실패가 저를 나락에 파묻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "호랑이",
+    "term_en": "tiger",
+    "context": "호랑이가 저에게서 달아나는 것을 봄",
+    "interpretation_ko": "반대를 이겨내고 높은 자리에 오를 조짐",
+    "interpretation_en": "you will overcome opposition, and rise to high positions",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Tiger",
+      "original": "To see one running away from you, is a sign that you will overcome opposition, and rise to high positions.",
+      "translation_ko": "호랑이가 저에게서 달아나는 것을 보는 꿈은, 반대를 이겨내고 높은 자리에 오를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "호랑이",
+    "term_en": "tiger",
+    "context": "우리에 갇힌 호랑이들을 봄",
+    "interpretation_ko": "적수를 좌절시킬 조짐",
+    "interpretation_en": "foretells that you will foil your adversaries",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Tiger",
+      "original": "To see them in cages, foretells that you will foil your adversaries.",
+      "translation_ko": "우리에 갇힌 호랑이들을 보는 꿈은, 적수를 좌절시킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "호랑이",
+    "term_en": "tiger",
+    "context": "호랑이 가죽 깔개를 봄",
+    "interpretation_ko": "호사스러운 안락과 즐거움을 누리는 길로 들어설 조짐",
+    "interpretation_en": "you are in the way to enjoy luxurious ease and pleasure",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Tiger",
+      "original": "To see rugs of tiger skins, denotes that you are in the way to enjoy luxurious ease and pleasure.",
+      "translation_ko": "호랑이 가죽 깔개를 보는 꿈은, 호사스러운 안락과 즐거움을 누리는 길로 들어설 조짐이다"
+    }
+  }
+]

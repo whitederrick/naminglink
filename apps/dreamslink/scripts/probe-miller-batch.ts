@@ -1,11 +1,11 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 271 — Theater~Threshing. 새 상징 여섯(theater·
-// thermometer·thimble·thirst·thorns·threshing)을 세우고, 기존 둘
-// (thief·thread)에 문맥을 나눠 붙였다. Thigh는 통째로 건너뛰었다 —
-// 기존 legs가 이미 「허벅지」를 쥐고 세 문장 다 legs의 기존 의미와
-// 같은 그림. Theater의 그랜드 오페라 문장도 기존 opera와 같은 그림이라
-// 건너뜀. thread 기본값을 「실 꿈을 꿈」(더 막연한 새 그림)으로 바꿔
-// FALLBACK_FIRST에 얼렸다.
+// (지금 담긴 것: 배치 272 — Throat~Tiger. 새 상징 넷(throne·thumb·
+// tickle·ticks)을 세우고, 기존 셋(neck·thunder·tiger)에 문맥을 나눠
+// 붙였다. Throat은 「목」이 이미 neck의 term_ko라 그쪽에 병합. thunder·
+// tiger 둘 다 막연한 첫 문장(천둥소리를 들음·경관에게 잡힘류 이미
+// 있음)을 건너뛰었고, tiger의 「물리치거나 죽임」도 기존 「호랑이를
+// 잡음」(殺, 이미 죽였 discriminator를 쥠)과 같은 그림이라 건너뜀.
+// thunder·tiger 기본값은 있던 대로 FALLBACK_FIRST로 얼렸다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -36,38 +36,37 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 271 새 문맥 (27건) ────────────────────────────────────────────
-  { id: "thief", ctx: "도둑이 되어 경관에게 쫓김", text: "도둑이 되어 경관에게 쫓겼다" },
-  { id: "thief", ctx: "스스로 도둑을 쫓거나 붙잡음", text: "스스로 도둑을 붙잡았다" },
-  { id: "thread", ctx: "실 꿈을 꿈", text: "실 꿈을 꾸었다" },
-  { id: "thread", ctx: "실이 끊어진 것을 봄", text: "실이 끊어진 것을 보았다" },
-  { id: "theater", ctx: "극장에 있음", text: "극장에 있었다" },
-  { id: "theater", ctx: "스스로 연극배우가 됨", text: "스스로 연극배우가 되었다" },
-  { id: "theater", ctx: "보드빌 극장에 감", text: "보드빌 극장에 갔다" },
-  { id: "theater", ctx: "극장에서 박수 치며 웃음", text: "극장에서 박수 치며 웃었다" },
-  { id: "theater", ctx: "불이 나거나 소동이 일어 극장에서 달아나려 함", text: "불이 나서 극장에서 달아나려 했다" },
-  { id: "thermometer", ctx: "온도계를 봄", text: "온도계를 보았다" },
-  { id: "thermometer", ctx: "깨진 온도계를 봄", text: "깨진 온도계를 보았다" },
-  { id: "thermometer", ctx: "온도계 수은이 내려감을 봄", text: "온도계 수은이 내려가는 것을 보았다" },
-  { id: "thermometer", ctx: "온도계 수은이 올라감을 봄", text: "온도계 수은이 올라가는 것을 보았다" },
-  { id: "thimble", ctx: "골무를 씀", text: "골무를 썼다" },
-  { id: "thimble", ctx: "여성이 골무를 씀", text: "여성이 골무를 썼다" },
-  { id: "thimble", ctx: "골무를 잃어버림", text: "골무를 잃어버렸다" },
-  { id: "thimble", ctx: "낡거나 깨진 골무를 봄", text: "낡거나 깨진 골무를 보았다" },
-  { id: "thimble", ctx: "새 골무를 받거나 삼", text: "새 골무를 받았다" },
-  { id: "thimble", ctx: "끝이 열린 골무가 실은 막혀 있음을 봄", text: "끝이 열린 골무가 실은 막혀 있었다" },
-  { id: "thirst", ctx: "갈증을 느낌", text: "갈증을 느꼈다" },
-  { id: "thirst", ctx: "달콤한 음료로 갈증을 풂", text: "달콤한 음료로 갈증을 풀었다" },
-  { id: "thirst", ctx: "남이 갈증에 마시는 것을 봄", text: "남이 갈증에 마시는 것을 보았다" },
-  { id: "thorns", ctx: "가시 꿈을 꿈", text: "가시 꿈을 꾸었다" },
-  { id: "thorns", ctx: "가시가 푸른 잎 아래 숨어 있음을 봄", text: "가시가 푸른 잎사귀 아래 숨어 있는 것을 보았다" },
-  { id: "threshing", ctx: "곡식을 타작함", text: "곡식을 타작했다" },
-  { id: "threshing", ctx: "짚만 많고 낟알은 적게 타작함", text: "짚만 많고 낟알은 적게 타작했다" },
-  { id: "threshing", ctx: "타작하다가 기계가 고장 나거나 사고가 남", text: "타작하다가 기계가 고장 났다" },
+  // ── 배치 272 새 문맥 (24건) ────────────────────────────────────────────
+  { id: "neck", ctx: "잘 발달되고 우아한 목을 봄", text: "잘 발달되고 우아한 목을 보았다" },
+  { id: "neck", ctx: "목이 아픔을 느낌", text: "목이 아픔을 느꼈다" },
+  { id: "throne", ctx: "왕좌에 앉음", text: "왕좌에 앉았다" },
+  { id: "throne", ctx: "왕좌에서 내려옴", text: "왕좌에서 내려왔다" },
+  { id: "throne", ctx: "남이 왕좌에 있음을 봄", text: "남이 왕좌에 있는 것을 보았다" },
+  { id: "thumb", ctx: "엄지손가락을 봄", text: "엄지손가락을 보았다" },
+  { id: "thumb", ctx: "엄지손가락이 아픔", text: "엄지손가락이 아팠다" },
+  { id: "thumb", ctx: "엄지손가락이 없음", text: "엄지손가락이 없었다" },
+  { id: "thumb", ctx: "엄지손가락이 유난히 작아 보임", text: "엄지손가락이 유난히 작아 보였다" },
+  { id: "thumb", ctx: "엄지손가락이 비정상적으로 큼", text: "엄지손가락이 비정상적으로 컸다" },
+  { id: "thumb", ctx: "엄지손가락이 더러움", text: "엄지손가락이 더러웠다" },
+  { id: "thumb", ctx: "엄지손가락 손톱이 아주 길게 자람", text: "엄지손가락 손톱이 아주 길게 자랐다" },
+  { id: "thunder", ctx: "천둥 치는 소나기 속에 있음", text: "천둥 치는 소나기 속에 있었다" },
+  { id: "thunder", ctx: "땅을 뒤흔드는 무시무시한 천둥소리를 들음", text: "땅을 뒤흔드는 무시무시한 천둥소리를 들었다" },
+  { id: "tickle", ctx: "간지럼을 탐", text: "간지럼을 탔다" },
+  { id: "tickle", ctx: "남을 간지럽힘", text: "남을 간지럽혔다" },
+  { id: "ticks", ctx: "진드기가 살갗을 기어다님을 봄", text: "진드기가 살갗을 기어다니는 것을 보았다" },
+  { id: "ticks", ctx: "몸의 진드기를 눌러 죽임", text: "몸의 진드기를 눌러죽였다" },
+  { id: "ticks", ctx: "가축에 붙은 큰 진드기를 봄", text: "가축에 붙은 큰 진드기를 보았다" },
+  { id: "tiger", ctx: "호랑이가 저를 향해 다가옴", text: "호랑이가 저를 향해 다가왔다" },
+  { id: "tiger", ctx: "호랑이가 저를 공격함", text: "호랑이가 저를 공격했다" },
+  { id: "tiger", ctx: "호랑이가 저에게서 달아나는 것을 봄", text: "호랑이가 저에게서 달아나는 것을 보았다" },
+  { id: "tiger", ctx: "우리에 갇힌 호랑이들을 봄", text: "우리에 갇힌 호랑이들을 보았다" },
+  { id: "tiger", ctx: "호랑이 가죽 깔개를 봄", text: "호랑이 가죽 깔개를 보았다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징들의 옛 답이 그대로인지 ────────
-  { id: "thief", ctx: "도적을 쫓아가는 것을 봄", text: "도적을 쫓아가는 것을 지켜보았다" },
-  { id: "thread", ctx: "실을 얻음", text: "실을 얻었다" },
+  { id: "neck", ctx: "제 목을 봄", text: "제 목을 보았다" },
+  { id: "thunder", ctx: "우레가 크게 침", text: "우레가 크게 쳤다" },
+  { id: "tiger", ctx: "사나운 호랑이가 크게 울부짖음", text: "사나운 호랑이가 크게 울부짖었다" },
+  { id: "tiger", ctx: "호랑이를 잡음", text: "호랑이를 잡았다" },
 ];
 
 let notFound = 0;
