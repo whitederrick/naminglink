@@ -218,6 +218,7 @@
     "m291.json",
     "m292.json",
     "m293.json",
+    "m294.json",
     "m3.json",
     "m30.json",
     "m31.json",
@@ -24473,6 +24474,164 @@
               "locator": "被害鬥傷打罵",
               "original": "殺虎豹主得重印",
               "translation_ko": "호랑이와 표범을 죽이면 무거운 인장을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wagon",
+      "term_ko": "짐수레",
+      "term_en": "wagon",
+      "aliases": [
+        "짐마차",
+        "짐칸"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "짐수레를 몲",
+          "interpretation_ko": "한동안 가난과 딱한 형편에 머물 조짐",
+          "interpretation_en": "you will remain in poverty and unfortunate circumstances for some time",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If it is a wagon, you will remain in poverty and unfortunate circumstances for some time.",
+              "translation_ko": "짐수레라면, 한동안 가난과 딱한 형편에 머물게 된다"
+            }
+          ]
+        },
+        {
+          "context": "짐수레 꿈을 꿈",
+          "interpretation_ko": "불행한 배필을 만나 여러 근심으로 일찍 늙게 될 흉한 조짐",
+          "interpretation_en": "denotes that you will be unhappily mated, and many troubles will prematurely age you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wagon",
+              "original": "To dream of a wagon, denotes that you will be unhappily mated, and many troubles will prematurely age you.",
+              "translation_ko": "짐수레 꿈은, 불행한 배필을 만나 여러 근심으로 일찍 늙게 될 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "짐수레를 몰고 언덕을 내려감",
+          "interpretation_ko": "불안하게 만들 일이 생기고 손실을 입을 흉한 조짐",
+          "interpretation_en": "is ominous of proceedings which will fill you with disquiet, and will cause you loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wagon",
+              "original": "To drive one down a hill, is ominous of proceedings which will fill you with disquiet, and will cause you loss.",
+              "translation_ko": "짐수레를 몰고 언덕을 내려가는 꿈은, 불안하게 만들 일이 생기고 손실을 입을 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "짐수레를 몰고 언덕을 올라감",
+          "interpretation_ko": "세속의 일이 나아질 길한 조짐",
+          "interpretation_en": "improves your worldly affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wagon",
+              "original": "To drive one up hill, improves your worldly affairs.",
+              "translation_ko": "짐수레를 몰고 언덕을 올라가는 꿈은, 세속의 일이 나아질 길한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "짐을 가득 실은 짐수레를 몲",
+          "interpretation_ko": "벗어나려 애써도 소용없이 의무가 저를 도의적 자리에 붙들어 둘 조짐",
+          "interpretation_en": "denotes that duty will hold you in a moral position, despite your efforts to throw her off",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wagon",
+              "original": "To drive a heavily loaded wagon, denotes that duty will hold you in a moral position, despite your efforts to throw her off.",
+              "translation_ko": "짐을 가득 실은 짐수레를 모는 꿈은, 벗어나려 애써도 소용없이 의무가 저를 도의적 자리에 붙들어 둘 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "흐린 물속으로 짐수레를 몲",
+          "interpretation_ko": "불행과 두려운 예감의 소용돌이로 끌려들 섬뜩한 흉조",
+          "interpretation_en": "is a gruesome prognostication, bringing you into a vortex of unhappiness and fearful foreboding",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wagon",
+              "original": "To drive into muddy water, is a gruesome prognostication, bringing you into a vortex of unhappiness and fearful foreboding.",
+              "translation_ko": "흐린 물속으로 짐수레를 모는 꿈은, 불행과 두려운 예감의 소용돌이로 끌려들 섬뜩한 흉조다"
+            }
+          ]
+        },
+        {
+          "context": "포장을 씌운 짐수레를 봄",
+          "interpretation_ko": "알 수 없는 배신에 둘러싸여 앞날이 더뎌질 흉한 조짐",
+          "interpretation_en": "foretells that you will be encompassed by mysterious treachery, which will retard your advancement",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wagon",
+              "original": "To see a covered wagon, foretells that you will be encompassed by mysterious treachery, which will retard your advancement.",
+              "translation_ko": "포장을 씌운 짐수레를 보는 꿈은, 알 수 없는 배신에 둘러싸여 앞날이 더뎌질 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 위험한 둑 근처에서 짐수레를 몲",
+          "interpretation_ko": "부적절한 얽힘에 빠져 드러나 따돌림당할까 두려움에 떨 흉한 조짐",
+          "interpretation_en": "portends that she will be driven into an illicit entanglement, which will fill her with terror, lest she be openly discovered and ostracised",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wagon",
+              "original": "For a young woman to dream that she drives a wagon near a dangerous embankment, portends that she will be driven into an illicit entanglement, which will fill her with terror, lest she be openly discovered and ostracised.",
+              "translation_ko": "젊은 여성이 위험한 둑 근처에서 짐수레를 모는 꿈은, 부적절한 얽힘에 빠져 드러나 따돌림당할까 두려움에 떨 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 개울을 가로질러 짐수레를 몲",
+          "interpretation_ko": "불명예를 입지 않고 모험을 즐길 길한 조짐",
+          "interpretation_en": "she will enjoy adventure without bringing opprobrium upon herself",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wagon",
+              "original": "If she drives across a clear stream of water, she will enjoy adventure without bringing opprobrium upon herself.",
+              "translation_ko": "맑은 개울을 가로질러 짐수레를 모는 꿈은, 불명예를 입지 않고 모험을 즐길 길한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 짐수레를 봄",
+          "interpretation_ko": "고통과 실패를 나타내는 흉한 조짐",
+          "interpretation_en": "represents distress and failure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wagon",
+              "original": "A broken wagon represents distress and failure.",
+              "translation_ko": "부서진 짐수레를 보는 꿈은, 고통과 실패를 나타내는 흉한 조짐이다"
             }
           ]
         }
@@ -134459,38 +134618,6 @@
               "locator": "Wadding",
               "original": "Wadding, if seen in a dream, brings consolation to the sorrowing, and indifference to unfriendly criticism.",
               "translation_ko": "솜뭉치 꿈은, 슬픈 이에게 위안을 주고 모진 비난에도 무심해질 길한 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wagon",
-      "term_ko": "짐수레",
-      "term_en": "wagon",
-      "aliases": [
-        "짐마차",
-        "짐칸"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "짐수레를 몲",
-          "interpretation_ko": "한동안 가난과 딱한 형편에 머물 조짐",
-          "interpretation_en": "you will remain in poverty and unfortunate circumstances for some time",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "If it is a wagon, you will remain in poverty and unfortunate circumstances for some time.",
-              "translation_ko": "짐수레라면, 한동안 가난과 딱한 형편에 머물게 된다"
             }
           ]
         }

@@ -260,7 +260,29 @@
       "a wagon",
       "wagons"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "짐수레를 몲": "그냥",
+      "짐수레 꿈을 꿈": "불행한 배필",
+      "짐수레를 몰고 언덕을 내려감": "내리막 불안",
+      "짐수레를 몰고 언덕을 올라감": "오르막 나아",
+      "짐을 가득 실은 짐수레를 몲": "가득 실은",
+      "흐린 물속으로 짐수레를 몲": "흐린 물속",
+      "포장을 씌운 짐수레를 봄": "포장을 씌운",
+      "젊은 여성이 위험한 둑 근처에서 짐수레를 몲": "위험한 제방",
+      "맑은 개울을 가로질러 짐수레를 몲": "맑은 개울",
+      "부서진 짐수레를 봄": "부서진"
+    },
+    "contexts_en": {
+      "짐수레를 몲": "poverty circumstances",
+      "짐수레 꿈을 꿈": "unhappily mated troubles",
+      "짐수레를 몰고 언덕을 내려감": "downhill disquiet loss",
+      "짐수레를 몰고 언덕을 올라감": "uphill improves worldly",
+      "짐을 가득 실은 짐수레를 몲": "loaded duty moral",
+      "흐린 물속으로 짐수레를 몲": "vortex unhappiness foreboding",
+      "포장을 씌운 짐수레를 봄": "covered treachery advancement",
+      "젊은 여성이 위험한 둑 근처에서 짐수레를 몲": "embankment illicit ostracised",
+      "맑은 개울을 가로질러 짐수레를 몲": "stream adventure opprobrium",
+      "부서진 짐수레를 봄": "broken distress failure"
+    }
   }
 ]

@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "짐수레",
+    "term_en": "wagon",
+    "context": "짐수레 꿈을 꿈",
+    "interpretation_ko": "불행한 배필을 만나 여러 근심으로 일찍 늙게 될 흉한 조짐",
+    "interpretation_en": "denotes that you will be unhappily mated, and many troubles will prematurely age you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wagon",
+      "original": "To dream of a wagon, denotes that you will be unhappily mated, and many troubles will prematurely age you.",
+      "translation_ko": "짐수레 꿈은, 불행한 배필을 만나 여러 근심으로 일찍 늙게 될 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "짐수레",
+    "term_en": "wagon",
+    "context": "짐수레를 몰고 언덕을 내려감",
+    "interpretation_ko": "불안하게 만들 일이 생기고 손실을 입을 흉한 조짐",
+    "interpretation_en": "is ominous of proceedings which will fill you with disquiet, and will cause you loss",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wagon",
+      "original": "To drive one down a hill, is ominous of proceedings which will fill you with disquiet, and will cause you loss.",
+      "translation_ko": "짐수레를 몰고 언덕을 내려가는 꿈은, 불안하게 만들 일이 생기고 손실을 입을 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "짐수레",
+    "term_en": "wagon",
+    "context": "짐수레를 몰고 언덕을 올라감",
+    "interpretation_ko": "세속의 일이 나아질 길한 조짐",
+    "interpretation_en": "improves your worldly affairs",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wagon",
+      "original": "To drive one up hill, improves your worldly affairs.",
+      "translation_ko": "짐수레를 몰고 언덕을 올라가는 꿈은, 세속의 일이 나아질 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "짐수레",
+    "term_en": "wagon",
+    "context": "짐을 가득 실은 짐수레를 몲",
+    "interpretation_ko": "벗어나려 애써도 소용없이 의무가 저를 도의적 자리에 붙들어 둘 조짐",
+    "interpretation_en": "denotes that duty will hold you in a moral position, despite your efforts to throw her off",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wagon",
+      "original": "To drive a heavily loaded wagon, denotes that duty will hold you in a moral position, despite your efforts to throw her off.",
+      "translation_ko": "짐을 가득 실은 짐수레를 모는 꿈은, 벗어나려 애써도 소용없이 의무가 저를 도의적 자리에 붙들어 둘 조짐이다"
+    }
+  },
+  {
+    "term_ko": "짐수레",
+    "term_en": "wagon",
+    "context": "흐린 물속으로 짐수레를 몲",
+    "interpretation_ko": "불행과 두려운 예감의 소용돌이로 끌려들 섬뜩한 흉조",
+    "interpretation_en": "is a gruesome prognostication, bringing you into a vortex of unhappiness and fearful foreboding",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wagon",
+      "original": "To drive into muddy water, is a gruesome prognostication, bringing you into a vortex of unhappiness and fearful foreboding.",
+      "translation_ko": "흐린 물속으로 짐수레를 모는 꿈은, 불행과 두려운 예감의 소용돌이로 끌려들 섬뜩한 흉조다"
+    }
+  },
+  {
+    "term_ko": "짐수레",
+    "term_en": "wagon",
+    "context": "포장을 씌운 짐수레를 봄",
+    "interpretation_ko": "알 수 없는 배신에 둘러싸여 앞날이 더뎌질 흉한 조짐",
+    "interpretation_en": "foretells that you will be encompassed by mysterious treachery, which will retard your advancement",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wagon",
+      "original": "To see a covered wagon, foretells that you will be encompassed by mysterious treachery, which will retard your advancement.",
+      "translation_ko": "포장을 씌운 짐수레를 보는 꿈은, 알 수 없는 배신에 둘러싸여 앞날이 더뎌질 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "짐수레",
+    "term_en": "wagon",
+    "context": "젊은 여성이 위험한 둑 근처에서 짐수레를 몲",
+    "interpretation_ko": "부적절한 얽힘에 빠져 드러나 따돌림당할까 두려움에 떨 흉한 조짐",
+    "interpretation_en": "portends that she will be driven into an illicit entanglement, which will fill her with terror, lest she be openly discovered and ostracised",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wagon",
+      "original": "For a young woman to dream that she drives a wagon near a dangerous embankment, portends that she will be driven into an illicit entanglement, which will fill her with terror, lest she be openly discovered and ostracised.",
+      "translation_ko": "젊은 여성이 위험한 둑 근처에서 짐수레를 모는 꿈은, 부적절한 얽힘에 빠져 드러나 따돌림당할까 두려움에 떨 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "짐수레",
+    "term_en": "wagon",
+    "context": "맑은 개울을 가로질러 짐수레를 몲",
+    "interpretation_ko": "불명예를 입지 않고 모험을 즐길 길한 조짐",
+    "interpretation_en": "she will enjoy adventure without bringing opprobrium upon herself",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wagon",
+      "original": "If she drives across a clear stream of water, she will enjoy adventure without bringing opprobrium upon herself.",
+      "translation_ko": "맑은 개울을 가로질러 짐수레를 모는 꿈은, 불명예를 입지 않고 모험을 즐길 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "짐수레",
+    "term_en": "wagon",
+    "context": "부서진 짐수레를 봄",
+    "interpretation_ko": "고통과 실패를 나타내는 흉한 조짐",
+    "interpretation_en": "represents distress and failure",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wagon",
+      "original": "A broken wagon represents distress and failure.",
+      "translation_ko": "부서진 짐수레를 보는 꿈은, 고통과 실패를 나타내는 흉한 조짐이다"
+    }
+  }
+]
