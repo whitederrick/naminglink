@@ -316,6 +316,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "weeping::이를 드러내고 욺": "teeth bared showing",
   "weeping::우는 꿈을 꿈": "forerunner illusory subside",
   "weeping::남이 우는 것을 봄": "others forbodes calls",
+  "weeping::꿈속에서 울부짖는 소리를 들음": "midst fearful disaster woe",
+  "weeping::젊은 여성이 울부짖는 소리를 들음": "deserted distress disgrace",
   "road::사방으로 길이 뚫려 있음": "directions crossroads everywhere",
   "road::길에서 재물을 주움": "picked found money treasure",
   "road::길이 진흙탕이고 가시덤불이 우거짐": "muddy thorns brambles overgrown",
@@ -894,6 +896,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "arrow::화살 꿈을 꿈": "flying shot target aiming",
   "arrow::낡거나 부러진 화살을 봄": "broken worn snapped damaged",
   "arrow::활과 화살을 지님": "quiver carrying holding bearing",
+  "condolence-visit::남에게 문상을 감": "birth child",
+  "condolence-visit::상갓집에서 밤을 지새움": "attend sacrifice engagement assignation",
+  "condolence-visit::젊은 여성이 상갓집에서 연인을 봄": "young woman lover entreaties passion",
   "jar::항아리 안으로 들어감": "climbed inside",
   "jar::빈 항아리를 봄": "empty impoverishment",
   "jar::가득 찬 항아리를 봄": "full successful",
@@ -6462,5 +6467,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "wages::급여를 받음": "unlooked enterprises",
   "wages::급여를 지급함": "pay confounded dissatisfaction",
   "wages::급여가 줄어듦": "reduced unfriendly interest",
-  "wages::급여가 늘어남": "increase profit undertaking"
+  "wages::급여가 늘어남": "increase profit undertaking",
+  "waist::둥글고 풍만한 허리를 봄": "round full favored agreeable",
+  "waist::작고 부자연스러운 허리를 봄": "small unnatural displeasing recriminating",
+  "shirt-waist::젊은 여성이 근사한 기성품 블라우스를 봄": "ready-made ingenuity pleasing",
+  "shirt-waist::블라우스가 찢어짐": "torn censured illicit",
+  "shirt-waist::블라우스를 입어 봄": "trying rivalry",
+  "shirt-waist::블라우스를 몸에 맞게 고쳐 입는 데 성공함": "adjusting succeeds combat",
+  "waiter::웨이터를 봄": "pleasantly entertained friend",
+  "waiter::무례하거나 무질서한 웨이터를 봄": "cross disorderly offensive"
 };

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "wagtail",
+    "aliases": [
+      "할미새가",
+      "할미새를"
+    ],
+    "aliases_en": [
+      "wagtail",
+      "a wagtail",
+      "wagtails"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "waif",
+    "aliases": [
+      "떠돌이 아이가",
+      "떠돌이 아이를"
+    ],
+    "aliases_en": [
+      "waif",
+      "a waif",
+      "waifs"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "waist",
+    "aliases": [
+      "허리가",
+      "허리를"
+    ],
+    "aliases_en": [
+      "waist"
+    ],
+    "contexts": {
+      "둥글고 풍만한 허리를 봄": "둥글고 풍만한",
+      "작고 부자연스러운 허리를 봄": "작고 부자연스러운"
+    },
+    "contexts_en": {
+      "둥글고 풍만한 허리를 봄": "round full favored agreeable",
+      "작고 부자연스러운 허리를 봄": "small unnatural displeasing recriminating"
+    }
+  },
+  {
+    "id": "shirt-waist",
+    "aliases": [
+      "블라우스가",
+      "블라우스를"
+    ],
+    "aliases_en": [
+      "shirt-waist",
+      "shirt waist"
+    ],
+    "contexts": {
+      "젊은 여성이 근사한 기성품 블라우스를 봄": "기성품",
+      "블라우스가 찢어짐": "찢어",
+      "블라우스를 입어 봄": "입어",
+      "블라우스를 몸에 맞게 고쳐 입는 데 성공함": "고쳐"
+    },
+    "contexts_en": {
+      "젊은 여성이 근사한 기성품 블라우스를 봄": "ready-made ingenuity pleasing",
+      "블라우스가 찢어짐": "torn censured illicit",
+      "블라우스를 입어 봄": "trying rivalry",
+      "블라우스를 몸에 맞게 고쳐 입는 데 성공함": "adjusting succeeds combat"
+    }
+  },
+  {
+    "id": "waiter",
+    "aliases": [
+      "웨이터가",
+      "웨이터를"
+    ],
+    "aliases_en": [
+      "waiter",
+      "waiters"
+    ],
+    "contexts": {
+      "웨이터를 봄": "그냥",
+      "무례하거나 무질서한 웨이터를 봄": "무례하거나 무질서한"
+    },
+    "contexts_en": {
+      "웨이터를 봄": "pleasantly entertained friend",
+      "무례하거나 무질서한 웨이터를 봄": "cross disorderly offensive"
+    }
+  }
+]

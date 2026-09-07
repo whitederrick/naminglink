@@ -764,8 +764,16 @@
       "condolences",
       "wake"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "남에게 문상을 감": "남에게",
+      "상갓집에서 밤을 지새움": "밤을 지새",
+      "젊은 여성이 상갓집에서 연인을 봄": "연인을"
+    },
+    "contexts_en": {
+      "남에게 문상을 감": "birth child",
+      "상갓집에서 밤을 지새움": "attend sacrifice engagement assignation",
+      "젊은 여성이 상갓집에서 연인을 봄": "young woman lover entreaties passion"
+    }
   },
   {
     "id": "daoist-temple",

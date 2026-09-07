@@ -1,0 +1,36 @@
+{
+  "batch": 295,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Wagtail",
+      "text": "To see a wagtail in a dream, foretells that you will be the victim\nof unpleasant gossip, and your affairs will develop unmistakable loss.",
+      "note": "새 상징 wagtail(할미새)"
+    },
+    {
+      "headword": "Waif",
+      "text": "To dream of a waif, denotes personal difficulties, and especial\nill-luck in business.",
+      "note": "새 상징 waif(집 없는 아이)"
+    },
+    {
+      "headword": "Wail",
+      "text": "A wail falling upon your ear while in the midst of a dream,\nbrings fearful news of disaster and woe.\n\nFor a young woman to hear a wail, foretells that she will be deserted\nand left alone in distress, and perchance disgrace.",
+      "note": "각주 [238] See Weeping로 기존 weeping(울음) 상징에 합쳤다 — 이미 영어 별칭 \"wailing\"을 쥐고 있었다"
+    },
+    {
+      "headword": "Waist and Shirt-Waist",
+      "text": "To dream of a round full waist, denotes that you will be favored\nby an agreeable dispensation of fortune.\n\nA small, unnatural waist, foretells displeasing success\nand recriminating disputes.\n\nFor a young woman to dream of a nice, ready-made shirt-waist, denotes\nthat she will win admiration through her ingenuity and pleasing manners.\n\nTo dream that her shirt-waist is torn, she will be censured for her\nillicit engagements.  If she is trying on a shirt-waist, she will encounter\nrivalry in love, but if she succeeds in adjusting the waist to her person,\nshe will successfully combat the rivalry and win the object of her love.",
+      "note": "새 상징 waist(허리)와 shirt-waist(블라우스) 둘로 갈랐다 — 허리 자체와 블라우스(옷)는 그림이 달라 한 상징으로 묶으면 판별어가 못 갈린다"
+    },
+    {
+      "headword": "Waiter",
+      "text": "To dream of a waiter, signifies you will be pleasantly entertained\nby a friend.  To see one cross or disorderly, means offensive people\nwill thrust themselves upon your hospitality.",
+      "note": "새 상징 waiter(웨이터)"
+    },
+    {
+      "headword": "Wake",
+      "text": "To dream that you attend a wake, denotes that you will sacrifice\nsome important engagement to enjoy some ill-favored assignation.\n\nFor a young woman to see her lover at a wake, foretells that she\nwill listen to the entreaties of passion, and will be persuaded\nto hazard honor for love.",
+      "note": "새 상징 wake(장례식 밤샘)"
+    }
+  ]
+}

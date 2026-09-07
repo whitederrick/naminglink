@@ -219,6 +219,7 @@
     "m292.json",
     "m293.json",
     "m294.json",
+    "m295.json",
     "m3.json",
     "m30.json",
     "m31.json",
@@ -27443,6 +27444,158 @@
       ]
     },
     {
+      "id": "weeping",
+      "term_ko": "울음",
+      "term_en": "weeping",
+      "aliases": [
+        "통곡",
+        "눈물",
+        "흐느",
+        "오열",
+        "우는 꿈",
+        "울었다",
+        "우는 것",
+        "울고 있",
+        "울부짖"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "우는 꿈을 꿈",
+          "interpretation_ko": "헛된 즐거움이 앞서고 뒤에 어둠이 오며, 일과 집안일에 나쁜 기운이 미칠 조짐",
+          "interpretation_en": "a forerunner of illusory pleasures, which will subside into gloom, and distressing influences affecting business engagements and domestic affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crying",
+              "original": "To dream of crying, is a forerunner of illusory pleasures, which will subside into gloom, and distressing influences affecting for evil business engagements and domestic affairs.",
+              "translation_ko": "우는 꿈은 헛된 즐거움의 앞잡이이며, 그것이 어둠으로 잦아들고 일과 집안일에 나쁜 기운이 미친다"
+            }
+          ]
+        },
+        {
+          "context": "남이 우는 것을 봄",
+          "interpretation_ko": "뜻밖에 도와 달라는 청을 받을 조짐",
+          "interpretation_en": "unexpected calls for aid from you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Crying",
+              "original": "To see others crying, forbodes unexpected calls for aid from you.",
+              "translation_ko": "남이 우는 것을 보면, 뜻밖에 도와 달라는 청을 받는다"
+            }
+          ]
+        },
+        {
+          "context": "꿈속에서 울부짖는 소리를 들음",
+          "interpretation_ko": "재앙과 비통함을 알리는 두려운 소식이 닥칠 조짐",
+          "interpretation_en": "brings fearful news of disaster and woe",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wail",
+              "original": "A wail falling upon your ear while in the midst of a dream,\nbrings fearful news of disaster and woe.",
+              "translation_ko": "꿈속에서 울부짖는 소리를 듣는 꿈은, 재앙과 비통함을 알리는 두려운 소식이 닥칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 울부짖는 소리를 들음",
+          "interpretation_ko": "버림받아 홀로 고통 속에 남겨지고 어쩌면 불명예까지 겪을 조짐",
+          "interpretation_en": "foretells that she will be deserted and left alone in distress, and perchance disgrace",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wail",
+              "original": "For a young woman to hear a wail, foretells that she will be deserted\nand left alone in distress, and perchance disgrace.",
+              "translation_ko": "젊은 여성이 울부짖는 소리를 듣는 꿈은, 버림받아 홀로 고통 속에 남겨지고 어쩌면 불명예까지 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남과 함께 소리 내어 욺",
+          "interpretation_ko": "경사스러운 일이 있을 조짐",
+          "interpretation_en": "a sign of a joyous occasion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "與人哭泣有慶賀",
+              "translation_ko": "남과 함께 울면 경사와 축하가 있다"
+            }
+          ]
+        },
+        {
+          "context": "소리를 놓아 크게 욺",
+          "interpretation_ko": "기쁨과 즐거움이 올 조짐",
+          "interpretation_en": "a sign that joy and merriment will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "放聲大哭歡樂至",
+              "translation_ko": "소리를 놓아 크게 울면 기쁨과 즐거움이 온다"
+            }
+          ]
+        },
+        {
+          "context": "먼 데서 온 사람이 슬피 욺",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "遠人來悲泣主凶",
+              "translation_ko": "먼 데 사람이 와서 슬피 울면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "침상 위에서 욺",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "床上哭泣主大凶",
+              "translation_ko": "침상 위에서 울면 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "이를 드러내고 욺",
+          "interpretation_ko": "다툼과 송사가 있을 조짐",
+          "interpretation_en": "a sign of a dispute or lawsuit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "露齒哭者有爭訟",
+              "translation_ko": "이를 드러내고 울면 다툼과 송사가 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "abdomen",
       "term_ko": "배",
       "term_en": "abdomen",
@@ -36919,129 +37072,6 @@
               "locator": "Voice",
               "original": "If the voice is recognized, it is often ominous of accident or illness, which may eliminate death or loss.",
               "translation_ko": "그 목소리를 알아보는 꿈은, 사고나 병, 나아가 죽음이나 상실로 이어질 불길한 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "weeping",
-      "term_ko": "울음",
-      "term_en": "weeping",
-      "aliases": [
-        "통곡",
-        "눈물",
-        "흐느",
-        "오열",
-        "우는 꿈",
-        "울었다",
-        "우는 것",
-        "울고 있"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "우는 꿈을 꿈",
-          "interpretation_ko": "헛된 즐거움이 앞서고 뒤에 어둠이 오며, 일과 집안일에 나쁜 기운이 미칠 조짐",
-          "interpretation_en": "a forerunner of illusory pleasures, which will subside into gloom, and distressing influences affecting business engagements and domestic affairs",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Crying",
-              "original": "To dream of crying, is a forerunner of illusory pleasures, which will subside into gloom, and distressing influences affecting for evil business engagements and domestic affairs.",
-              "translation_ko": "우는 꿈은 헛된 즐거움의 앞잡이이며, 그것이 어둠으로 잦아들고 일과 집안일에 나쁜 기운이 미친다"
-            }
-          ]
-        },
-        {
-          "context": "남이 우는 것을 봄",
-          "interpretation_ko": "뜻밖에 도와 달라는 청을 받을 조짐",
-          "interpretation_en": "unexpected calls for aid from you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Crying",
-              "original": "To see others crying, forbodes unexpected calls for aid from you.",
-              "translation_ko": "남이 우는 것을 보면, 뜻밖에 도와 달라는 청을 받는다"
-            }
-          ]
-        },
-        {
-          "context": "남과 함께 소리 내어 욺",
-          "interpretation_ko": "경사스러운 일이 있을 조짐",
-          "interpretation_en": "a sign of a joyous occasion",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "與人哭泣有慶賀",
-              "translation_ko": "남과 함께 울면 경사와 축하가 있다"
-            }
-          ]
-        },
-        {
-          "context": "소리를 놓아 크게 욺",
-          "interpretation_ko": "기쁨과 즐거움이 올 조짐",
-          "interpretation_en": "a sign that joy and merriment will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "放聲大哭歡樂至",
-              "translation_ko": "소리를 놓아 크게 울면 기쁨과 즐거움이 온다"
-            }
-          ]
-        },
-        {
-          "context": "먼 데서 온 사람이 슬피 욺",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "遠人來悲泣主凶",
-              "translation_ko": "먼 데 사람이 와서 슬피 울면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "침상 위에서 욺",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "床上哭泣主大凶",
-              "translation_ko": "침상 위에서 울면 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "이를 드러내고 욺",
-          "interpretation_ko": "다툼과 송사가 있을 조짐",
-          "interpretation_en": "a sign of a dispute or lawsuit",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "露齒哭者有爭訟",
-              "translation_ko": "이를 드러내고 울면 다툼과 송사가 있다"
             }
           ]
         }
@@ -70507,6 +70537,80 @@
       ]
     },
     {
+      "id": "shirt-waist",
+      "term_ko": "블라우스",
+      "term_en": "shirt-waist",
+      "aliases": [
+        "블라우스가",
+        "블라우스를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "젊은 여성이 근사한 기성품 블라우스를 봄",
+          "interpretation_ko": "재치와 상냥한 태도로 찬사를 얻을 길조",
+          "interpretation_en": "denotes that she will win admiration through her ingenuity and pleasing manners",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waist and Shirt-Waist",
+              "original": "For a young woman to dream of a nice, ready-made shirt-waist, denotes\nthat she will win admiration through her ingenuity and pleasing manners.",
+              "translation_ko": "젊은 여성이 근사한 기성품 블라우스를 보는 꿈은, 재치와 상냥한 태도로 찬사를 얻을 길조다"
+            }
+          ]
+        },
+        {
+          "context": "블라우스가 찢어짐",
+          "interpretation_ko": "부적절한 만남으로 비난받을 흉조",
+          "interpretation_en": "she will be censured for her illicit engagements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waist and Shirt-Waist",
+              "original": "To dream that her shirt-waist is torn, she will be censured for her\nillicit engagements.",
+              "translation_ko": "블라우스가 찢어지는 꿈은, 부적절한 만남으로 비난받을 흉조다"
+            }
+          ]
+        },
+        {
+          "context": "블라우스를 입어 봄",
+          "interpretation_ko": "사랑에서 경쟁자를 만날 조짐",
+          "interpretation_en": "she will encounter rivalry in love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waist and Shirt-Waist",
+              "original": "If she is trying on a shirt-waist, she will encounter\nrivalry in love,",
+              "translation_ko": "블라우스를 입어 보는 꿈은, 사랑에서 경쟁자를 만날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "블라우스를 몸에 맞게 고쳐 입는 데 성공함",
+          "interpretation_ko": "경쟁을 성공적으로 이겨내고 사랑하는 사람을 얻을 길조",
+          "interpretation_en": "she will successfully combat the rivalry and win the object of her love",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waist and Shirt-Waist",
+              "original": "but if she succeeds in adjusting the waist to her person,\nshe will successfully combat the rivalry and win the object of her love.",
+              "translation_ko": "블라우스를 몸에 맞게 고쳐 입는 데 성공하는 꿈은, 경쟁을 성공적으로 이겨내고 사랑하는 사람을 얻을 길조다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "skull",
       "term_ko": "두개골",
       "term_en": "skull",
@@ -77294,6 +77398,69 @@
               "locator": "Concubine",
               "original": "For a man to dream that his mistress is untrue, denotes that he has old enemies to encounter.  Expected reverses will arise.",
               "translation_ko": "남자가 제 첩이 배신하는 꿈을 꾸면, 오래된 적을 다시 만나게 된다. 예상하던 뒤집힘이 일어난다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "condolence-visit",
+      "term_ko": "문상",
+      "term_en": "condolence visit",
+      "aliases": [
+        "조문",
+        "빈소",
+        "장례식장",
+        "상갓집"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남에게 문상을 감",
+          "interpretation_ko": "자식을 낳을 조짐",
+          "interpretation_en": "a sign of the birth of a child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "哀樂病死歌唱",
+              "original": "問弔他人主生子",
+              "translation_ko": "남을 문상하면 아들을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "상갓집에서 밤을 지새움",
+          "interpretation_ko": "중요한 약속을 희생하고 좋지 못한 밀회를 즐길 조짐",
+          "interpretation_en": "denotes that you will sacrifice some important engagement to enjoy some ill-favored assignation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wake",
+              "original": "To dream that you attend a wake, denotes that you will sacrifice\nsome important engagement to enjoy some ill-favored assignation.",
+              "translation_ko": "상갓집에서 밤을 지새우는 꿈은, 중요한 약속을 희생하고 좋지 못한 밀회를 즐길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 상갓집에서 연인을 봄",
+          "interpretation_ko": "정념의 애원에 귀 기울여 사랑을 위해 명예를 걸도록 설득당할 조짐",
+          "interpretation_en": "foretells that she will listen to the entreaties of passion, and will be persuaded to hazard honor for love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wake",
+              "original": "For a young woman to see her lover at a wake, foretells that she\nwill listen to the entreaties of passion, and will be persuaded\nto hazard honor for love.",
+              "translation_ko": "젊은 여성이 상갓집에서 연인을 보는 꿈은, 정념의 애원에 귀 기울여 사랑을 위해 명예를 걸도록 설득당할 조짐이다"
             }
           ]
         }
@@ -120775,6 +120942,98 @@
       ]
     },
     {
+      "id": "waist",
+      "term_ko": "허리",
+      "term_en": "waist",
+      "aliases": [
+        "허리가",
+        "허리를"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "둥글고 풍만한 허리를 봄",
+          "interpretation_ko": "기분 좋은 운명의 배려를 받을 길조",
+          "interpretation_en": "denotes that you will be favored by an agreeable dispensation of fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waist and Shirt-Waist",
+              "original": "To dream of a round full waist, denotes that you will be favored\nby an agreeable dispensation of fortune.",
+              "translation_ko": "둥글고 풍만한 허리를 보는 꿈은, 기분 좋은 운명의 배려를 받을 길조다"
+            }
+          ]
+        },
+        {
+          "context": "작고 부자연스러운 허리를 봄",
+          "interpretation_ko": "달갑잖은 성공과 서로 헐뜯는 다툼이 있을 흉조",
+          "interpretation_en": "foretells displeasing success and recriminating disputes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waist and Shirt-Waist",
+              "original": "A small, unnatural waist, foretells displeasing success\nand recriminating disputes.",
+              "translation_ko": "작고 부자연스러운 허리를 보는 꿈은, 달갑잖은 성공과 서로 헐뜯는 다툼이 있을 흉조다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "waiter",
+      "term_ko": "웨이터",
+      "term_en": "waiter",
+      "aliases": [
+        "웨이터가",
+        "웨이터를"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "웨이터를 봄",
+          "interpretation_ko": "친구에게 유쾌한 대접을 받을 길조",
+          "interpretation_en": "signifies you will be pleasantly entertained by a friend",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waiter",
+              "original": "To dream of a waiter, signifies you will be pleasantly entertained\nby a friend.",
+              "translation_ko": "웨이터를 보는 꿈은, 친구에게 유쾌한 대접을 받을 길조다"
+            }
+          ]
+        },
+        {
+          "context": "무례하거나 무질서한 웨이터를 봄",
+          "interpretation_ko": "불쾌한 사람들이 자신의 환대에 끼어들 흉조",
+          "interpretation_en": "means offensive people will thrust themselves upon your hospitality",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waiter",
+              "original": "To see one cross or disorderly, means offensive people\nwill thrust themselves upon your hospitality.",
+              "translation_ko": "무례하거나 무질서한 웨이터를 보는 꿈은, 불쾌한 사람들이 자신의 환대에 끼어들 흉조다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "washing-one-s-hair",
       "term_ko": "머리 감기",
       "term_en": "washing one's hair",
@@ -124495,40 +124754,6 @@
               "locator": "Composing",
               "original": "To see in your dreams a composing stick, foretells that difficult problems will disclose themselves, and you will be at great trouble to meet them.",
               "translation_ko": "꿈에 조판 스틱을 보면, 어려운 문제가 드러나고 그것을 감당하느라 크게 애먹게 된다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "condolence-visit",
-      "term_ko": "문상",
-      "term_en": "condolence visit",
-      "aliases": [
-        "조문",
-        "빈소",
-        "장례식장",
-        "상갓집"
-      ],
-      "category": "action",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남에게 문상을 감",
-          "interpretation_ko": "자식을 낳을 조짐",
-          "interpretation_en": "a sign of the birth of a child",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "哀樂病死歌唱",
-              "original": "問弔他人主生子",
-              "translation_ko": "남을 문상하면 아들을 낳는다"
             }
           ]
         }
@@ -134618,6 +134843,70 @@
               "locator": "Wadding",
               "original": "Wadding, if seen in a dream, brings consolation to the sorrowing, and indifference to unfriendly criticism.",
               "translation_ko": "솜뭉치 꿈은, 슬픈 이에게 위안을 주고 모진 비난에도 무심해질 길한 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wagtail",
+      "term_ko": "할미새",
+      "term_en": "wagtail",
+      "aliases": [
+        "할미새가",
+        "할미새를"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "할미새를 봄",
+          "interpretation_ko": "불쾌한 뒷말의 희생양이 되어 일에서 뚜렷한 손실을 볼 흉조",
+          "interpretation_en": "foretells that you will be the victim of unpleasant gossip, and your affairs will develop unmistakable loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wagtail",
+              "original": "To see a wagtail in a dream, foretells that you will be the victim\nof unpleasant gossip, and your affairs will develop unmistakable loss.",
+              "translation_ko": "할미새를 보는 꿈은, 불쾌한 뒷말의 희생양이 되어 일에서 뚜렷한 손실을 볼 흉조다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "waif",
+      "term_ko": "떠돌이 아이",
+      "term_en": "waif",
+      "aliases": [
+        "떠돌이 아이가",
+        "떠돌이 아이를"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "떠돌이 아이를 봄",
+          "interpretation_ko": "개인적인 어려움을 겪고 사업에서 특히 불운할 조짐",
+          "interpretation_en": "denotes personal difficulties, and especial ill-luck in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waif",
+              "original": "To dream of a waif, denotes personal difficulties, and especial\nill-luck in business.",
+              "translation_ko": "떠돌이 아이를 보는 꿈은, 개인적인 어려움을 겪고 사업에서 특히 불운할 조짐이다"
             }
           ]
         }

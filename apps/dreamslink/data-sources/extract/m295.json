@@ -1,0 +1,212 @@
+[
+  {
+    "term_ko": "할미새",
+    "term_en": "wagtail",
+    "context": "할미새를 봄",
+    "interpretation_ko": "불쾌한 뒷말의 희생양이 되어 일에서 뚜렷한 손실을 볼 흉조",
+    "interpretation_en": "foretells that you will be the victim of unpleasant gossip, and your affairs will develop unmistakable loss",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Wagtail",
+      "original": "To see a wagtail in a dream, foretells that you will be the victim\nof unpleasant gossip, and your affairs will develop unmistakable loss.",
+      "translation_ko": "할미새를 보는 꿈은, 불쾌한 뒷말의 희생양이 되어 일에서 뚜렷한 손실을 볼 흉조다"
+    }
+  },
+  {
+    "term_ko": "떠돌이 아이",
+    "term_en": "waif",
+    "context": "떠돌이 아이를 봄",
+    "interpretation_ko": "개인적인 어려움을 겪고 사업에서 특히 불운할 조짐",
+    "interpretation_en": "denotes personal difficulties, and especial ill-luck in business",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Waif",
+      "original": "To dream of a waif, denotes personal difficulties, and especial\nill-luck in business.",
+      "translation_ko": "떠돌이 아이를 보는 꿈은, 개인적인 어려움을 겪고 사업에서 특히 불운할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "울음",
+    "term_en": "weeping",
+    "context": "꿈속에서 울부짖는 소리를 들음",
+    "interpretation_ko": "재앙과 비통함을 알리는 두려운 소식이 닥칠 조짐",
+    "interpretation_en": "brings fearful news of disaster and woe",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wail",
+      "original": "A wail falling upon your ear while in the midst of a dream,\nbrings fearful news of disaster and woe.",
+      "translation_ko": "꿈속에서 울부짖는 소리를 듣는 꿈은, 재앙과 비통함을 알리는 두려운 소식이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "울음",
+    "term_en": "weeping",
+    "context": "젊은 여성이 울부짖는 소리를 들음",
+    "interpretation_ko": "버림받아 홀로 고통 속에 남겨지고 어쩌면 불명예까지 겪을 조짐",
+    "interpretation_en": "foretells that she will be deserted and left alone in distress, and perchance disgrace",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wail",
+      "original": "For a young woman to hear a wail, foretells that she will be deserted\nand left alone in distress, and perchance disgrace.",
+      "translation_ko": "젊은 여성이 울부짖는 소리를 듣는 꿈은, 버림받아 홀로 고통 속에 남겨지고 어쩌면 불명예까지 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "허리",
+    "term_en": "waist",
+    "context": "둥글고 풍만한 허리를 봄",
+    "interpretation_ko": "기분 좋은 운명의 배려를 받을 길조",
+    "interpretation_en": "denotes that you will be favored by an agreeable dispensation of fortune",
+    "polarity": "positive",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Waist and Shirt-Waist",
+      "original": "To dream of a round full waist, denotes that you will be favored\nby an agreeable dispensation of fortune.",
+      "translation_ko": "둥글고 풍만한 허리를 보는 꿈은, 기분 좋은 운명의 배려를 받을 길조다"
+    }
+  },
+  {
+    "term_ko": "허리",
+    "term_en": "waist",
+    "context": "작고 부자연스러운 허리를 봄",
+    "interpretation_ko": "달갑잖은 성공과 서로 헐뜯는 다툼이 있을 흉조",
+    "interpretation_en": "foretells displeasing success and recriminating disputes",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Waist and Shirt-Waist",
+      "original": "A small, unnatural waist, foretells displeasing success\nand recriminating disputes.",
+      "translation_ko": "작고 부자연스러운 허리를 보는 꿈은, 달갑잖은 성공과 서로 헐뜯는 다툼이 있을 흉조다"
+    }
+  },
+  {
+    "term_ko": "블라우스",
+    "term_en": "shirt-waist",
+    "context": "젊은 여성이 근사한 기성품 블라우스를 봄",
+    "interpretation_ko": "재치와 상냥한 태도로 찬사를 얻을 길조",
+    "interpretation_en": "denotes that she will win admiration through her ingenuity and pleasing manners",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Waist and Shirt-Waist",
+      "original": "For a young woman to dream of a nice, ready-made shirt-waist, denotes\nthat she will win admiration through her ingenuity and pleasing manners.",
+      "translation_ko": "젊은 여성이 근사한 기성품 블라우스를 보는 꿈은, 재치와 상냥한 태도로 찬사를 얻을 길조다"
+    }
+  },
+  {
+    "term_ko": "블라우스",
+    "term_en": "shirt-waist",
+    "context": "블라우스가 찢어짐",
+    "interpretation_ko": "부적절한 만남으로 비난받을 흉조",
+    "interpretation_en": "she will be censured for her illicit engagements",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Waist and Shirt-Waist",
+      "original": "To dream that her shirt-waist is torn, she will be censured for her\nillicit engagements.",
+      "translation_ko": "블라우스가 찢어지는 꿈은, 부적절한 만남으로 비난받을 흉조다"
+    }
+  },
+  {
+    "term_ko": "블라우스",
+    "term_en": "shirt-waist",
+    "context": "블라우스를 입어 봄",
+    "interpretation_ko": "사랑에서 경쟁자를 만날 조짐",
+    "interpretation_en": "she will encounter rivalry in love",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Waist and Shirt-Waist",
+      "original": "If she is trying on a shirt-waist, she will encounter\nrivalry in love,",
+      "translation_ko": "블라우스를 입어 보는 꿈은, 사랑에서 경쟁자를 만날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "블라우스",
+    "term_en": "shirt-waist",
+    "context": "블라우스를 몸에 맞게 고쳐 입는 데 성공함",
+    "interpretation_ko": "경쟁을 성공적으로 이겨내고 사랑하는 사람을 얻을 길조",
+    "interpretation_en": "she will successfully combat the rivalry and win the object of her love",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Waist and Shirt-Waist",
+      "original": "but if she succeeds in adjusting the waist to her person,\nshe will successfully combat the rivalry and win the object of her love.",
+      "translation_ko": "블라우스를 몸에 맞게 고쳐 입는 데 성공하는 꿈은, 경쟁을 성공적으로 이겨내고 사랑하는 사람을 얻을 길조다"
+    }
+  },
+  {
+    "term_ko": "웨이터",
+    "term_en": "waiter",
+    "context": "웨이터를 봄",
+    "interpretation_ko": "친구에게 유쾌한 대접을 받을 길조",
+    "interpretation_en": "signifies you will be pleasantly entertained by a friend",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Waiter",
+      "original": "To dream of a waiter, signifies you will be pleasantly entertained\nby a friend.",
+      "translation_ko": "웨이터를 보는 꿈은, 친구에게 유쾌한 대접을 받을 길조다"
+    }
+  },
+  {
+    "term_ko": "웨이터",
+    "term_en": "waiter",
+    "context": "무례하거나 무질서한 웨이터를 봄",
+    "interpretation_ko": "불쾌한 사람들이 자신의 환대에 끼어들 흉조",
+    "interpretation_en": "means offensive people will thrust themselves upon your hospitality",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Waiter",
+      "original": "To see one cross or disorderly, means offensive people\nwill thrust themselves upon your hospitality.",
+      "translation_ko": "무례하거나 무질서한 웨이터를 보는 꿈은, 불쾌한 사람들이 자신의 환대에 끼어들 흉조다"
+    }
+  },
+  {
+    "term_ko": "문상",
+    "term_en": "condolence visit",
+    "context": "상갓집에서 밤을 지새움",
+    "interpretation_ko": "중요한 약속을 희생하고 좋지 못한 밀회를 즐길 조짐",
+    "interpretation_en": "denotes that you will sacrifice some important engagement to enjoy some ill-favored assignation",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wake",
+      "original": "To dream that you attend a wake, denotes that you will sacrifice\nsome important engagement to enjoy some ill-favored assignation.",
+      "translation_ko": "상갓집에서 밤을 지새우는 꿈은, 중요한 약속을 희생하고 좋지 못한 밀회를 즐길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "문상",
+    "term_en": "condolence visit",
+    "context": "젊은 여성이 상갓집에서 연인을 봄",
+    "interpretation_ko": "정념의 애원에 귀 기울여 사랑을 위해 명예를 걸도록 설득당할 조짐",
+    "interpretation_en": "foretells that she will listen to the entreaties of passion, and will be persuaded to hazard honor for love",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wake",
+      "original": "For a young woman to see her lover at a wake, foretells that she\nwill listen to the entreaties of passion, and will be persuaded\nto hazard honor for love.",
+      "translation_ko": "젊은 여성이 상갓집에서 연인을 보는 꿈은, 정념의 애원에 귀 기울여 사랑을 위해 명예를 걸도록 설득당할 조짐이다"
+    }
+  }
+]

@@ -8301,5 +8301,26 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "wages": [
     "wages",
     "salary"
+  ],
+  "wagtail": [
+    "wagtail",
+    "a wagtail",
+    "wagtails"
+  ],
+  "waif": [
+    "waif",
+    "a waif",
+    "waifs"
+  ],
+  "waist": [
+    "waist"
+  ],
+  "shirt-waist": [
+    "shirt-waist",
+    "shirt waist"
+  ],
+  "waiter": [
+    "waiter",
+    "waiters"
   ]
 };
