@@ -7685,5 +7685,15 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "stammer",
     "stammering",
     "stammers"
+  ],
+  "standard-bearer": [
+    "standard-bearer",
+    "standard bearer",
+    "a standard-bearer"
+  ],
+  "steeple": [
+    "steeple",
+    "a steeple",
+    "steeples"
   ]
 };

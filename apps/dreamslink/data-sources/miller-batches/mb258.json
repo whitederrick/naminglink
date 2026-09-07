@@ -1,0 +1,25 @@
+{
+  "batch": 258,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Standard-bearer", "text": "To dream that you are a standard-bearer, denotes that your occupation will be pleasant, but varied.\n\nTo see others acting as standard-bearers, foretells that you will be jealous and envious of some friend.", "note": "새 상징 standard-bearer(기수/깃발잡이) — 이미 jockey가 「기수」(騎手)를 쥐고 있어 동음이의어 충돌을 피해 term_ko를 「기수(깃발잡이)」로 지음" },
+    { "headword": "Stars", "text": "To dream of looking upon clear, shining stars, foretells good health and prosperity.  If they are dull or red, there is trouble and misfortune ahead.\n\nTo see a shooting or falling star, denotes sadness and grief.\n\nTo see stars appearing and vanishing mysteriously, there will be some strange changes and happenings in your near future.\n\nIf you dream that a star falls on you, there will be a bereavement in your family.\n\nTo see them rolling around on the earth, is a sign of formidable danger and trying times.", "note": "기존 star(별)에 문맥 4개 추가. 「맑고 밝은 별」(첫 문장)은 기존 zhougong 「하늘의 별이 밝게 빛남」과, 「별똥별이 떨어짐」은 기존 zhougong 「별이 떨어짐」과 같은 그림·다른 풀이라 둘 다 건너뜀" },
+    { "headword": "Starving", "text": "To dream of being in a starving condition, portends unfruitful labors and a dearth of friends.\n\nTo see others in this condition, omens misery and dissatisfaction with present companions and employment.", "note": "두 문장 다 기존 famish(굶주림)의 「제가 굶주림」·「남이 굶주리는 것을 봄」(둘 다 밀러 Famish 헤드워드)과 같은 그림·다른 풀이라 통째로 건너뜀" },
+    { "headword": "Statues", "text": "To see statues in dreams, signifies estrangement from a loved one.  Lack of energy will cause you disappointment in realizing wishes.", "note": "기존 image(형상)의 「형상을 봄」(밀러 Image 헤드워드)과 같은 그림·다른 풀이라 통째로 건너뜀" },
+    { "headword": "Stealing", "text": "To dream of stealing, or of seeing others commit this act, foretells bad luck and loss of character.\n\nTo be accused of stealing, denotes that you will be misunderstood in some affair, and suffer therefrom, but you will eventually find that this will bring you favor.\n\nTo accuse others, denotes that you will treat some person with hasty inconsideration.", "note": "기존 thief(도둑)에 문맥 2개 추가. 첫 문장(스스로 훔침/남이 훔치는 것을 봄)은 기존 zhougong 「자기가 도둑이 됨」과 같은 그림·다른 풀이(그쪽은 길함)라 건너뜀" },
+    { "headword": "Steeple", "text": "To see a steeple rising from a church, is a harbinger of sickness and reverses.\n\nA broken one, points to death in your circle, or friends.\n\nTo climb a steeple, foretells that you will have serious difficulties, but will surmount them.\n\nTo fall from one, denotes losses in trade and ill health.", "note": "새 상징 steeple(첨탑)" },
+    { "headword": "Steps", "text": "To dream that you ascend steps, denotes that fair prospects will relieve former anxiety.\n\nTo decend them, you may look for misfortune.\n\nTo fall down them, you are threatened with unexpected failure in your affairs.", "note": "세 문장 다 기존 ascend(오르기)에 이미 배치 257(Stairs)에서 넣은 문맥들과 같은 그림·다른 풀이라 통째로 건너뜀 — 「계단을 오름」·「계단에서 떨어짐」과 정확히 같은 픽처" }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    { "headword": "Stars", "sentence": "To dream of looking upon clear, shining stars, foretells good health and prosperity.", "reason": "기존 star의 zhougong 「하늘의 별이 밝게 빛남」과 같은 그림·다른 풀이" },
+    { "headword": "Stars", "sentence": "To see a shooting or falling star, denotes sadness and grief.", "reason": "기존 star의 zhougong 「별이 떨어짐」과 같은 그림·다른 풀이" },
+    { "headword": "Starving", "sentence": "To dream of being in a starving condition, portends unfruitful labors and a dearth of friends.", "reason": "기존 famish 「제가 굶주림」(밀러 Famish)과 같은 그림·다른 풀이" },
+    { "headword": "Starving", "sentence": "To see others in this condition, omens misery and dissatisfaction with present companions and employment.", "reason": "기존 famish 「남이 굶주리는 것을 봄」(밀러 Famish)과 같은 그림·다른 풀이" },
+    { "headword": "Statues", "sentence": "To see statues in dreams, signifies estrangement from a loved one.  Lack of energy will cause you disappointment in realizing wishes.", "reason": "기존 image 「형상을 봄」(밀러 Image)과 같은 그림·다른 풀이" },
+    { "headword": "Stealing", "sentence": "To dream of stealing, or of seeing others commit this act, foretells bad luck and loss of character.", "reason": "기존 thief 「자기가 도둑이 됨」(zhougong, 길함)과 같은 그림·다른 풀이" },
+    { "headword": "Steps", "sentence": "To dream that you ascend steps, denotes that fair prospects will relieve former anxiety.", "reason": "기존 ascend 「계단을 오름」(배치 257, 밀러 Stairs)과 같은 그림·다른 풀이" },
+    { "headword": "Steps", "sentence": "To decend them, you may look for misfortune.", "reason": "기존 ascend 「계단을 걸어 내려감」(배치 257, 밀러 Stairs)과 같은 그림·다른 풀이" },
+    { "headword": "Steps", "sentence": "To fall down them, you are threatened with unexpected failure in your affairs.", "reason": "기존 ascend 「계단에서 떨어짐」(배치 257, 밀러 Stairs)과 같은 그림·다른 풀이" }
+  ]
+}

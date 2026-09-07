@@ -485,7 +485,12 @@
       "산적",
       "도적떼",
       "도적",
-      "절도"
+      "절도",
+      "도둑들",
+      "도둑질",
+      "도둑질했다",
+      "도둑질하는",
+      "도둑질을"
     ],
     "aliases_en": [
       "a thief",
@@ -505,7 +510,9 @@
       "도둑과 함께 길을 감": "함께 같이 동행 나란히",
       "자기가 도둑이 됨": "내가 자기가 훔쳤 훔치 도둑질",
       "도둑들이 자신의 몸을 뒤짐": "뒤졌 뒤지 몸을",
-      "자기 집이나 사업장이 도둑맞음": "도둑맞 사업장 가게 털렸"
+      "자기 집이나 사업장이 도둑맞음": "도둑맞 사업장 가게 털렸",
+      "도둑질을 했다고 몰림": "몰렸다 오해",
+      "남을 도둑질했다고 몰아세움": "몰아세웠다 성급"
     },
     "contexts_en": {
       "무리를 이끌고 도적을 무찌름": "defeated led troops fought",
@@ -516,7 +523,9 @@
       "도둑과 함께 길을 감": "together walked along accompanied",
       "자기가 도둑이 됨": "myself became stealing stole",
       "도둑들이 자신의 몸을 뒤짐": "searched frisked pockets body",
-      "자기 집이나 사업장이 도둑맞음": "robbed burglarized store premises"
+      "자기 집이나 사업장이 도둑맞음": "robbed burglarized store premises",
+      "도둑질을 했다고 몰림": "accused misunderstood favor",
+      "남을 도둑질했다고 몰아세움": "hasty inconsideration"
     }
   },
   {

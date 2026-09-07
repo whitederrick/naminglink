@@ -136,6 +136,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "thief::자기가 도둑이 됨": "myself became stealing stole",
   "thief::도둑들이 자신의 몸을 뒤짐": "searched frisked pockets body",
   "thief::자기 집이나 사업장이 도둑맞음": "robbed burglarized store premises",
+  "thief::도둑질을 했다고 몰림": "accused misunderstood favor",
+  "thief::남을 도둑질했다고 몰아세움": "hasty inconsideration",
   "bamboo-shoot::죽순을 꺾어 집으로 가져옴": "picked broke brought carried",
   "bamboo-shoot::죽순을 봄": "saw looked growing",
   "blue-clothing::푸른 옷을 입음": "wore dressed",
@@ -962,6 +964,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "star::별을 손에 쥠": "held grasped caught holding",
   "star::흐르는 별이 떨어지지 않음": "streaming flowing hovering",
   "star::별을 손으로 어루만짐": "touched stroking caressed",
+  "star::흐릿하거나 붉은 별을 봄": "dull red misfortune",
+  "star::별이 나타났다 사라지기를 알 수 없이 되풀이함": "appearing vanishing mysteriously",
+  "star::별이 나에게 떨어짐": "falls bereavement family",
+  "star::별들이 땅에서 굴러다니는 것을 봄": "rolling earth formidable",
   "field::밭에 풀이 자람": "grass weeds overgrown",
   "field::밭을 넓게 갈아 씨를 심음": "plowed tilled planted",
   "field::밭에 씨 뿌리는 사람을 봄": "sowing scattering watched",
@@ -5857,5 +5863,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "stain::손이나 옷에 얼룩이 묻음": "hands clothing small",
   "stain::남의 옷이나 살에 묻은 얼룩을 봄": "garments others betray",
   "stammer::스스로 말을 더듬음": "conversation worry illness",
-  "stammer::남이 말을 더듬는 것을 들음": "hear others unfriendly"
+  "stammer::남이 말을 더듬는 것을 들음": "hear others unfriendly",
+  "standard-bearer::스스로 기수가 됨": "occupation pleasant varied",
+  "standard-bearer::남들이 기수 노릇을 하는 것을 봄": "others jealous envious",
+  "steeple::교회에서 솟은 첨탑을 봄": "rising church harbinger",
+  "steeple::부서진 첨탑을 봄": "broken death circle",
+  "steeple::첨탑을 오름": "climb difficulties surmount",
+  "steeple::첨탑에서 떨어짐": "fall losses trade"
 };

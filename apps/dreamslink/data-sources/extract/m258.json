@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "기수(깃발잡이)",
+    "term_en": "standard-bearer",
+    "context": "스스로 기수가 됨",
+    "interpretation_ko": "하는 일이 즐거우나 여러 갈래로 바뀔 조짐",
+    "interpretation_en": "denotes that your occupation will be pleasant, but varied",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Standard-bearer",
+      "original": "To dream that you are a standard-bearer, denotes that your occupation will be pleasant, but varied.",
+      "translation_ko": "스스로 기수가 되는 꿈은, 하는 일이 즐거우나 여러 갈래로 바뀔 조짐이다"
+    }
+  },
+  {
+    "term_ko": "기수(깃발잡이)",
+    "term_en": "standard-bearer",
+    "context": "남들이 기수 노릇을 하는 것을 봄",
+    "interpretation_ko": "벗을 시샘하고 질투하게 될 조짐",
+    "interpretation_en": "foretells that you will be jealous and envious of some friend",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Standard-bearer",
+      "original": "To see others acting as standard-bearers, foretells that you will be jealous and envious of some friend.",
+      "translation_ko": "남들이 기수 노릇을 하는 것을 보는 꿈은, 벗을 시샘하고 질투하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "별",
+    "term_en": "star",
+    "context": "흐릿하거나 붉은 별을 봄",
+    "interpretation_ko": "곤란과 불운이 닥칠 조짐",
+    "interpretation_en": "there is trouble and misfortune ahead",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Stars",
+      "original": "If they are dull or red, there is trouble and misfortune ahead.",
+      "translation_ko": "흐릿하거나 붉은 별을 보는 꿈은, 곤란과 불운이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "별",
+    "term_en": "star",
+    "context": "별이 나타났다 사라지기를 알 수 없이 되풀이함",
+    "interpretation_ko": "머잖은 앞날에 낯선 변화와 일이 생길 조짐",
+    "interpretation_en": "there will be some strange changes and happenings in your near future",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Stars",
+      "original": "To see stars appearing and vanishing mysteriously, there will be some strange changes and happenings in your near future.",
+      "translation_ko": "별이 나타났다 사라지기를 알 수 없이 되풀이하는 꿈은, 머잖은 앞날에 낯선 변화와 일이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "별",
+    "term_en": "star",
+    "context": "별이 나에게 떨어짐",
+    "interpretation_ko": "집안에 상을 당할 조짐",
+    "interpretation_en": "there will be a bereavement in your family",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Stars",
+      "original": "If you dream that a star falls on you, there will be a bereavement in your family.",
+      "translation_ko": "별이 나에게 떨어지는 꿈은, 집안에 상을 당할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "별",
+    "term_en": "star",
+    "context": "별들이 땅에서 굴러다니는 것을 봄",
+    "interpretation_ko": "만만찮은 위험과 힘겨운 시절이 닥칠 조짐",
+    "interpretation_en": "is a sign of formidable danger and trying times",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Stars",
+      "original": "To see them rolling around on the earth, is a sign of formidable danger and trying times.",
+      "translation_ko": "별들이 땅에서 굴러다니는 것을 보는 꿈은, 만만찮은 위험과 힘겨운 시절이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "도둑",
+    "term_en": "thief",
+    "context": "도둑질을 했다고 몰림",
+    "interpretation_ko": "일에서 오해를 사 고생하지만 마침내 호의를 얻게 될 조짐",
+    "interpretation_en": "denotes that you will be misunderstood in some affair, and suffer therefrom, but you will eventually find that this will bring you favor",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Stealing",
+      "original": "To be accused of stealing, denotes that you will be misunderstood in some affair, and suffer therefrom, but you will eventually find that this will bring you favor.",
+      "translation_ko": "도둑질을 했다고 몰리는 꿈은, 일에서 오해를 사 고생하지만 마침내 호의를 얻게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "도둑",
+    "term_en": "thief",
+    "context": "남을 도둑질했다고 몰아세움",
+    "interpretation_ko": "누군가를 성급하게 함부로 대하게 될 조짐",
+    "interpretation_en": "denotes that you will treat some person with hasty inconsideration",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Stealing",
+      "original": "To accuse others, denotes that you will treat some person with hasty inconsideration.",
+      "translation_ko": "남을 도둑질했다고 몰아세우는 꿈은, 누군가를 성급하게 함부로 대하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "첨탑",
+    "term_en": "steeple",
+    "context": "교회에서 솟은 첨탑을 봄",
+    "interpretation_ko": "병과 역경이 닥칠 조짐",
+    "interpretation_en": "is a harbinger of sickness and reverses",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Steeple",
+      "original": "To see a steeple rising from a church, is a harbinger of sickness and reverses.",
+      "translation_ko": "교회에서 솟은 첨탑을 보는 꿈은, 병과 역경이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "첨탑",
+    "term_en": "steeple",
+    "context": "부서진 첨탑을 봄",
+    "interpretation_ko": "가까운 이의 죽음을 가리키는 조짐",
+    "interpretation_en": "points to death in your circle, or friends",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Steeple",
+      "original": "A broken one, points to death in your circle, or friends.",
+      "translation_ko": "부서진 첨탑을 보는 꿈은, 가까운 이의 죽음을 가리키는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "첨탑",
+    "term_en": "steeple",
+    "context": "첨탑을 오름",
+    "interpretation_ko": "심한 어려움을 겪으나 끝내 이겨 낼 조짐",
+    "interpretation_en": "foretells that you will have serious difficulties, but will surmount them",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Steeple",
+      "original": "To climb a steeple, foretells that you will have serious difficulties, but will surmount them.",
+      "translation_ko": "첨탑을 오르는 꿈은, 심한 어려움을 겪으나 끝내 이겨 낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "첨탑",
+    "term_en": "steeple",
+    "context": "첨탑에서 떨어짐",
+    "interpretation_ko": "장사에서 손해를 보고 건강도 나빠질 조짐",
+    "interpretation_en": "denotes losses in trade and ill health",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Steeple",
+      "original": "To fall from one, denotes losses in trade and ill health.",
+      "translation_ko": "첨탑에서 떨어지는 꿈은, 장사에서 손해를 보고 건강도 나빠질 조짐이다"
+    }
+  }
+]

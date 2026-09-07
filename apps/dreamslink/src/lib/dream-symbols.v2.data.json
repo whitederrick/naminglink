@@ -177,6 +177,7 @@
     "m255.json",
     "m256.json",
     "m257.json",
+    "m258.json",
     "m26.json",
     "m27a.json",
     "m27b.json",
@@ -17592,6 +17593,197 @@
       ]
     },
     {
+      "id": "star",
+      "term_ko": "별",
+      "term_en": "star",
+      "aliases": [
+        "별빛",
+        "별들",
+        "샛별",
+        "별자리"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [
+        "태몽"
+      ],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "하늘의 별이 밝게 빛남",
+          "interpretation_ko": "높은 벼슬아치가 찾아올 조짐",
+          "interpretation_en": "a sign that high officials will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "天星明主公卿至",
+              "translation_ko": "하늘의 별이 밝으면 공경이 이른다"
+            }
+          ]
+        },
+        {
+          "context": "흐릿하거나 붉은 별을 봄",
+          "interpretation_ko": "곤란과 불운이 닥칠 조짐",
+          "interpretation_en": "there is trouble and misfortune ahead",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stars",
+              "original": "If they are dull or red, there is trouble and misfortune ahead.",
+              "translation_ko": "흐릿하거나 붉은 별을 보는 꿈은, 곤란과 불운이 닥칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "별이 나타났다 사라지기를 알 수 없이 되풀이함",
+          "interpretation_ko": "머잖은 앞날에 낯선 변화와 일이 생길 조짐",
+          "interpretation_en": "there will be some strange changes and happenings in your near future",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stars",
+              "original": "To see stars appearing and vanishing mysteriously, there will be some strange changes and happenings in your near future.",
+              "translation_ko": "별이 나타났다 사라지기를 알 수 없이 되풀이하는 꿈은, 머잖은 앞날에 낯선 변화와 일이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "별이 나에게 떨어짐",
+          "interpretation_ko": "집안에 상을 당할 조짐",
+          "interpretation_en": "there will be a bereavement in your family",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stars",
+              "original": "If you dream that a star falls on you, there will be a bereavement in your family.",
+              "translation_ko": "별이 나에게 떨어지는 꿈은, 집안에 상을 당할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "별들이 땅에서 굴러다니는 것을 봄",
+          "interpretation_ko": "만만찮은 위험과 힘겨운 시절이 닥칠 조짐",
+          "interpretation_en": "is a sign of formidable danger and trying times",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stars",
+              "original": "To see them rolling around on the earth, is a sign of formidable danger and trying times.",
+              "translation_ko": "별들이 땅에서 굴러다니는 것을 보는 꿈은, 만만찮은 위험과 힘겨운 시절이 닥칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "별에 절하고 향을 사름",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "拜星月燒香大吉",
+              "translation_ko": "별과 달에 절하고 향을 사르면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "별이 품 안으로 들어옴",
+          "interpretation_ko": "귀한 아들을 낳을 조짐",
+          "interpretation_en": "a sign of bearing a noble son",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "星入懷主生貴子",
+              "translation_ko": "별이 품에 들면 귀한 아들을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "별이 떨어짐",
+          "interpretation_ko": "병이 나고 관청 일에 얽힐 조짐",
+          "interpretation_en": "a sign of illness and legal trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "星落有病及官事",
+              "translation_ko": "별이 떨어지면 병이 나고 관청 일이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "별이 줄지어 늘어섬",
+          "interpretation_ko": "부리는 사람이 늘어날 조짐",
+          "interpretation_en": "a sign of gaining more servants",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "星列行主添奴婢",
+              "translation_ko": "별이 줄지어 늘어서면 종이 늘어난다"
+            }
+          ]
+        },
+        {
+          "context": "별을 손에 쥠",
+          "interpretation_ko": "큰 부귀를 얻을 조짐",
+          "interpretation_en": "a sign of great wealth and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "持執星宿大富貴",
+              "translation_ko": "별을 손에 쥐면 크게 부귀하다"
+            }
+          ]
+        },
+        {
+          "context": "흐르는 별이 떨어지지 않음",
+          "interpretation_ko": "거처를 옮기게 될 조짐",
+          "interpretation_en": "a sign of moving house",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "流星不落主移居",
+              "translation_ko": "유성이 떨어지지 않으면 거처를 옮긴다"
+            }
+          ]
+        },
+        {
+          "context": "별을 손으로 어루만짐",
+          "interpretation_ko": "높은 벼슬에 오를 조짐",
+          "interpretation_en": "a sign of rising to high office",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "巡天摩星位公卿",
+              "translation_ko": "하늘을 돌며 별을 만지면 공경의 지위에 오른다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "dove",
       "term_ko": "비둘기",
       "term_en": "dove",
@@ -18470,6 +18662,188 @@
               "locator": "龍蛇禽獸等類",
               "original": "活兔在園百憂去",
               "translation_ko": "산 토끼가 동산에 있으면 온갖 근심이 사라진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thief",
+      "term_ko": "도둑",
+      "term_en": "thief",
+      "aliases": [
+        "도둑",
+        "강도",
+        "산적",
+        "도적떼",
+        "도적",
+        "절도",
+        "도둑들",
+        "도둑질",
+        "도둑질했다",
+        "도둑질하는",
+        "도둑질을"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "도둑들이 자신의 몸을 뒤짐",
+          "interpretation_ko": "낯선 이들을 극도로 조심하지 않으면 자신을 해칠 위험한 적들을 만날 조짐",
+          "interpretation_en": "a sign that you will have dangerous enemies to contend with, who will destroy you if extreme carefulness is not practised in your dealings with strangers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Burglars",
+              "original": "To dream that they are searching your person, you will have dangerous enemies to contend with, who will destroy you if extreme carefulness is not practised in your dealings with strangers.",
+              "translation_ko": "도둑들이 자신의 몸을 뒤지는 꿈을 꾸면 낯선 이들을 극도로 조심하지 않으면 자신을 해칠 위험한 적들을 만날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "도둑질을 했다고 몰림",
+          "interpretation_ko": "일에서 오해를 사 고생하지만 마침내 호의를 얻게 될 조짐",
+          "interpretation_en": "denotes that you will be misunderstood in some affair, and suffer therefrom, but you will eventually find that this will bring you favor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stealing",
+              "original": "To be accused of stealing, denotes that you will be misunderstood in some affair, and suffer therefrom, but you will eventually find that this will bring you favor.",
+              "translation_ko": "도둑질을 했다고 몰리는 꿈은, 일에서 오해를 사 고생하지만 마침내 호의를 얻게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남을 도둑질했다고 몰아세움",
+          "interpretation_ko": "누군가를 성급하게 함부로 대하게 될 조짐",
+          "interpretation_en": "denotes that you will treat some person with hasty inconsideration",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Stealing",
+              "original": "To accuse others, denotes that you will treat some person with hasty inconsideration.",
+              "translation_ko": "남을 도둑질했다고 몰아세우는 꿈은, 누군가를 성급하게 함부로 대하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자기 집이나 사업장이 도둑맞음",
+          "interpretation_ko": "사업이나 사회에서의 평판이 공격받으나 어려움에 맞서는 용기가 지켜 주며, 부주의한 사람에게는 사고가 뒤따를 수 있는 조짐",
+          "interpretation_en": "a sign that your good standing in business or society will be assailed, but courage in meeting these difficulties will defend you; accidents may happen to the careless after this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Burglars",
+              "original": "If you dream of your home, or place of business, being burglarized, your good standing in business or society will be assailed, but courage in meeting these difficulties will defend you. Accidents may happen to the careless after this dream.",
+              "translation_ko": "자기 집이나 사업장이 도둑맞는 꿈을 꾸면 사업이나 사회에서의 평판이 공격받으나 어려움에 맞서는 용기가 지켜 주며, 부주의한 사람에게는 사고가 뒤따를 수 있는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "무리를 이끌고 도적을 무찌름",
+          "interpretation_ko": "구하는 바를 얻을 조짐",
+          "interpretation_en": "a sign of obtaining what one seeks",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "率眾破賊所求得",
+              "translation_ko": "무리를 이끌고 도적을 무찌르면 구하는 바를 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "도둑을 쫓아 저자에 들어가 나오지 못함",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "趕賊入市不出凶",
+              "translation_ko": "도둑을 쫓아 저자에 들어가 나오지 못하면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "억센 도둑이 집에 들어옴",
+          "interpretation_ko": "집안이 망할 조짐",
+          "interpretation_en": "a sign that the household will fall into ruin",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "強賊入宅主家破",
+              "translation_ko": "억센 도둑이 집에 들어오면 집안이 망할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "도둑과 함께 길을 감",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "與賊同行大吉利",
+              "translation_ko": "도둑과 함께 가면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "자기가 도둑이 됨",
+          "interpretation_ko": "구하는 바를 얻을 조짐",
+          "interpretation_en": "a sign that one will obtain what one seeks",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "己身作賊所求得",
+              "translation_ko": "자기 몸이 도둑이 되면 구하는 바를 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "도적이 스스로 옥에 들어감",
+          "interpretation_ko": "크게 흉한 조짐",
+          "interpretation_en": "a very inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "盜賊自入獄大凶",
+              "translation_ko": "도적이 스스로 옥에 들어가면 크게 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "도적을 쫓아가는 것을 봄",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "捕禁刑罰獄具",
+              "original": "趕賊行見者大吉",
+              "translation_ko": "도적을 쫓는 것을 보면 크게 길하다"
             }
           ]
         }
@@ -24401,155 +24775,6 @@
       ]
     },
     {
-      "id": "thief",
-      "term_ko": "도둑",
-      "term_en": "thief",
-      "aliases": [
-        "도둑",
-        "강도",
-        "산적",
-        "도적떼",
-        "도적",
-        "절도"
-      ],
-      "category": "person",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "도둑들이 자신의 몸을 뒤짐",
-          "interpretation_ko": "낯선 이들을 극도로 조심하지 않으면 자신을 해칠 위험한 적들을 만날 조짐",
-          "interpretation_en": "a sign that you will have dangerous enemies to contend with, who will destroy you if extreme carefulness is not practised in your dealings with strangers",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Burglars",
-              "original": "To dream that they are searching your person, you will have dangerous enemies to contend with, who will destroy you if extreme carefulness is not practised in your dealings with strangers.",
-              "translation_ko": "도둑들이 자신의 몸을 뒤지는 꿈을 꾸면 낯선 이들을 극도로 조심하지 않으면 자신을 해칠 위험한 적들을 만날 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "자기 집이나 사업장이 도둑맞음",
-          "interpretation_ko": "사업이나 사회에서의 평판이 공격받으나 어려움에 맞서는 용기가 지켜 주며, 부주의한 사람에게는 사고가 뒤따를 수 있는 조짐",
-          "interpretation_en": "a sign that your good standing in business or society will be assailed, but courage in meeting these difficulties will defend you; accidents may happen to the careless after this dream",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Burglars",
-              "original": "If you dream of your home, or place of business, being burglarized, your good standing in business or society will be assailed, but courage in meeting these difficulties will defend you. Accidents may happen to the careless after this dream.",
-              "translation_ko": "자기 집이나 사업장이 도둑맞는 꿈을 꾸면 사업이나 사회에서의 평판이 공격받으나 어려움에 맞서는 용기가 지켜 주며, 부주의한 사람에게는 사고가 뒤따를 수 있는 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "무리를 이끌고 도적을 무찌름",
-          "interpretation_ko": "구하는 바를 얻을 조짐",
-          "interpretation_en": "a sign of obtaining what one seeks",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "率眾破賊所求得",
-              "translation_ko": "무리를 이끌고 도적을 무찌르면 구하는 바를 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "도둑을 쫓아 저자에 들어가 나오지 못함",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "趕賊入市不出凶",
-              "translation_ko": "도둑을 쫓아 저자에 들어가 나오지 못하면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "억센 도둑이 집에 들어옴",
-          "interpretation_ko": "집안이 망할 조짐",
-          "interpretation_en": "a sign that the household will fall into ruin",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "強賊入宅主家破",
-              "translation_ko": "억센 도둑이 집에 들어오면 집안이 망할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "도둑과 함께 길을 감",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "與賊同行大吉利",
-              "translation_ko": "도둑과 함께 가면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "자기가 도둑이 됨",
-          "interpretation_ko": "구하는 바를 얻을 조짐",
-          "interpretation_en": "a sign that one will obtain what one seeks",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "己身作賊所求得",
-              "translation_ko": "자기 몸이 도둑이 되면 구하는 바를 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "도적이 스스로 옥에 들어감",
-          "interpretation_ko": "크게 흉한 조짐",
-          "interpretation_en": "a very inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "盜賊自入獄大凶",
-              "translation_ko": "도적이 스스로 옥에 들어가면 크게 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "도적을 쫓아가는 것을 봄",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "捕禁刑罰獄具",
-              "original": "趕賊行見者大吉",
-              "translation_ko": "도적을 쫓는 것을 보면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "wedding",
       "term_ko": "혼례",
       "term_en": "wedding",
@@ -28579,140 +28804,6 @@
               "locator": "田園五榖耕種",
               "original": "得禾忽失主得志",
               "translation_ko": "벼를 얻었다가 갑자기 잃으면 뜻을 이룬다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "star",
-      "term_ko": "별",
-      "term_en": "star",
-      "aliases": [
-        "별빛",
-        "별들",
-        "샛별",
-        "별자리"
-      ],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [
-        "태몽"
-      ],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "하늘의 별이 밝게 빛남",
-          "interpretation_ko": "높은 벼슬아치가 찾아올 조짐",
-          "interpretation_en": "a sign that high officials will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "天星明主公卿至",
-              "translation_ko": "하늘의 별이 밝으면 공경이 이른다"
-            }
-          ]
-        },
-        {
-          "context": "별에 절하고 향을 사름",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "拜星月燒香大吉",
-              "translation_ko": "별과 달에 절하고 향을 사르면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "별이 품 안으로 들어옴",
-          "interpretation_ko": "귀한 아들을 낳을 조짐",
-          "interpretation_en": "a sign of bearing a noble son",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "星入懷主生貴子",
-              "translation_ko": "별이 품에 들면 귀한 아들을 낳는다"
-            }
-          ]
-        },
-        {
-          "context": "별이 떨어짐",
-          "interpretation_ko": "병이 나고 관청 일에 얽힐 조짐",
-          "interpretation_en": "a sign of illness and legal trouble",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "星落有病及官事",
-              "translation_ko": "별이 떨어지면 병이 나고 관청 일이 생긴다"
-            }
-          ]
-        },
-        {
-          "context": "별이 줄지어 늘어섬",
-          "interpretation_ko": "부리는 사람이 늘어날 조짐",
-          "interpretation_en": "a sign of gaining more servants",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "星列行主添奴婢",
-              "translation_ko": "별이 줄지어 늘어서면 종이 늘어난다"
-            }
-          ]
-        },
-        {
-          "context": "별을 손에 쥠",
-          "interpretation_ko": "큰 부귀를 얻을 조짐",
-          "interpretation_en": "a sign of great wealth and honor",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "持執星宿大富貴",
-              "translation_ko": "별을 손에 쥐면 크게 부귀하다"
-            }
-          ]
-        },
-        {
-          "context": "흐르는 별이 떨어지지 않음",
-          "interpretation_ko": "거처를 옮기게 될 조짐",
-          "interpretation_en": "a sign of moving house",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "流星不落主移居",
-              "translation_ko": "유성이 떨어지지 않으면 거처를 옮긴다"
-            }
-          ]
-        },
-        {
-          "context": "별을 손으로 어루만짐",
-          "interpretation_ko": "높은 벼슬에 오를 조짐",
-          "interpretation_en": "a sign of rising to high office",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "巡天摩星位公卿",
-              "translation_ko": "하늘을 돌며 별을 만지면 공경의 지위에 오른다"
             }
           ]
         }
@@ -65259,6 +65350,81 @@
               "locator": "Squirrel",
               "original": "To see a dog chasing one, foretells disagreements and unpleasantness among friends.",
               "translation_ko": "개가 다람쥐를 쫓는 것을 보는 꿈은, 벗 사이에 다툼과 불화가 생길 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steeple",
+      "term_ko": "첨탑",
+      "term_en": "steeple",
+      "aliases": [
+        "첨탑을",
+        "첨탑이",
+        "종탑"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "교회에서 솟은 첨탑을 봄",
+          "interpretation_ko": "병과 역경이 닥칠 조짐",
+          "interpretation_en": "is a harbinger of sickness and reverses",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Steeple",
+              "original": "To see a steeple rising from a church, is a harbinger of sickness and reverses.",
+              "translation_ko": "교회에서 솟은 첨탑을 보는 꿈은, 병과 역경이 닥칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 첨탑을 봄",
+          "interpretation_ko": "가까운 이의 죽음을 가리키는 조짐",
+          "interpretation_en": "points to death in your circle, or friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Steeple",
+              "original": "A broken one, points to death in your circle, or friends.",
+              "translation_ko": "부서진 첨탑을 보는 꿈은, 가까운 이의 죽음을 가리키는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "첨탑을 오름",
+          "interpretation_ko": "심한 어려움을 겪으나 끝내 이겨 낼 조짐",
+          "interpretation_en": "foretells that you will have serious difficulties, but will surmount them",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Steeple",
+              "original": "To climb a steeple, foretells that you will have serious difficulties, but will surmount them.",
+              "translation_ko": "첨탑을 오르는 꿈은, 심한 어려움을 겪으나 끝내 이겨 낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "첨탑에서 떨어짐",
+          "interpretation_ko": "장사에서 손해를 보고 건강도 나빠질 조짐",
+          "interpretation_en": "denotes losses in trade and ill health",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Steeple",
+              "original": "To fall from one, denotes losses in trade and ill health.",
+              "translation_ko": "첨탑에서 떨어지는 꿈은, 장사에서 손해를 보고 건강도 나빠질 조짐이다"
             }
           ]
         }
@@ -109555,6 +109721,54 @@
               "locator": "Stammer",
               "original": "To hear others stammer, foretells that unfriendly persons will delight in annoying you and giving you needless worry.",
               "translation_ko": "남이 말을 더듬는 것을 듣는 꿈은, 달갑잖은 이들이 자신을 성가시게 하고 근심을 안기며 즐거워할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "standard-bearer",
+      "term_ko": "기수(깃발잡이)",
+      "term_en": "standard-bearer",
+      "aliases": [
+        "기수가",
+        "기수를",
+        "깃발잡이",
+        "기수 노릇"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 기수가 됨",
+          "interpretation_ko": "하는 일이 즐거우나 여러 갈래로 바뀔 조짐",
+          "interpretation_en": "denotes that your occupation will be pleasant, but varied",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Standard-bearer",
+              "original": "To dream that you are a standard-bearer, denotes that your occupation will be pleasant, but varied.",
+              "translation_ko": "스스로 기수가 되는 꿈은, 하는 일이 즐거우나 여러 갈래로 바뀔 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 기수 노릇을 하는 것을 봄",
+          "interpretation_ko": "벗을 시샘하고 질투하게 될 조짐",
+          "interpretation_en": "foretells that you will be jealous and envious of some friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Standard-bearer",
+              "original": "To see others acting as standard-bearers, foretells that you will be jealous and envious of some friend.",
+              "translation_ko": "남들이 기수 노릇을 하는 것을 보는 꿈은, 벗을 시샘하고 질투하게 될 조짐이다"
             }
           ]
         }

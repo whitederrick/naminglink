@@ -1,0 +1,49 @@
+[
+  {
+    "id": "standard-bearer",
+    "aliases": [
+      "기수가",
+      "기수를",
+      "깃발잡이",
+      "기수 노릇"
+    ],
+    "aliases_en": [
+      "standard-bearer",
+      "standard bearer",
+      "a standard-bearer"
+    ],
+    "contexts": {
+      "스스로 기수가 됨": "스스로 즐거우나",
+      "남들이 기수 노릇을 하는 것을 봄": "남들이 시샘"
+    },
+    "contexts_en": {
+      "스스로 기수가 됨": "occupation pleasant varied",
+      "남들이 기수 노릇을 하는 것을 봄": "others jealous envious"
+    }
+  },
+  {
+    "id": "steeple",
+    "aliases": [
+      "첨탑을",
+      "첨탑이",
+      "종탑"
+    ],
+    "aliases_en": [
+      "steeple",
+      "a steeple",
+      "steeples"
+    ],
+    "contexts": {
+      "교회에서 솟은 첨탑을 봄": "교회에서 솟은",
+      "부서진 첨탑을 봄": "부서진",
+      "첨탑을 오름": "올랐다 오르는",
+      "첨탑에서 떨어짐": "떨어졌다 추락"
+    },
+    "contexts_en": {
+      "교회에서 솟은 첨탑을 봄": "rising church harbinger",
+      "부서진 첨탑을 봄": "broken death circle",
+      "첨탑을 오름": "climb difficulties surmount",
+      "첨탑에서 떨어짐": "fall losses trade"
+    }
+  }
+]
