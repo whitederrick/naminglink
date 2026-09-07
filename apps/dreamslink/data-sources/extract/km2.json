@@ -1182,7 +1182,11 @@
       "물레",
       "실을 자았다",
       "실을 잣는",
-      "아마 실"
+      "아마 실",
+      "실을 잣고 있었다",
+      "길쌈했다",
+      "길쌈하는",
+      "길쌈하고"
     ],
     "aliases_en": [
       "spinning",
@@ -1192,11 +1196,13 @@
     ],
     "contexts": {
       "실을 자아 길쌈함": "길쌈 베를",
-      "아마 실을 자음": "아마 삼실"
+      "아마 실을 자음": "아마 삼실",
+      "스스로 실을 잣고 있음": "잣고"
     },
     "contexts_en": {
       "실을 자아 길쌈함": "cloth weave",
-      "아마 실을 자음": "flax industrious thrifty habits"
+      "아마 실을 자음": "flax industrious thrifty habits",
+      "스스로 실을 잣고 있음": "enterprise wish engage"
     }
   },
   {

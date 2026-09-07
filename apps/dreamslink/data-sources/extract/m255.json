@@ -1,0 +1,302 @@
+[
+  {
+    "term_ko": "거미",
+    "term_en": "spider",
+    "context": "거미줄을 봄",
+    "interpretation_ko": "즐거운 인연과 순조로운 일을 이룰 조짐",
+    "interpretation_en": "denotes pleasant associations and fortunate ventures",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Spider-web",
+      "original": "To see spider-webs, denotes pleasant associations and fortunate ventures.",
+      "translation_ko": "거미줄을 보는 꿈은, 즐거운 인연과 순조로운 일을 이룰 조짐이다"
+    }
+  },
+  {
+    "term_ko": "실 잣기",
+    "term_en": "spinning thread",
+    "context": "스스로 실을 잣고 있음",
+    "interpretation_ko": "바라던 대로 이루어질 일에 나서게 될 조짐",
+    "interpretation_en": "means that you will engage in some enterprise, which will be all you could wish",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Spinning",
+      "original": "To dream that you are spinning, means that you will engage in some enterprise, which will be all you could wish.",
+      "translation_ko": "스스로 실을 잣고 있는 꿈은, 바라던 대로 이루어질 일에 나서게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "귀신",
+    "term_en": "ghost",
+    "context": "귀신을 봄",
+    "interpretation_ko": "예상치 못한 곤란과 마주칠 조짐",
+    "interpretation_en": "denotes that some unexpected trouble will confront you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Spirit or Specter",
+      "original": "To see spirits in a dream, denotes that some unexpected trouble will confront you.",
+      "translation_ko": "귀신을 보는 꿈은, 예상치 못한 곤란과 마주칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "귀신",
+    "term_en": "ghost",
+    "context": "흰옷 입은 귀신을 봄",
+    "interpretation_ko": "가장 가까운 벗의 건강이 위태롭거나 벌인 일이 어그러질 조짐",
+    "interpretation_en": "the health of your nearest friend is threatened, or some business speculation will be disapproving",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Spirit or Specter",
+      "original": "If they are white-robed, the health of your nearest friend is threatened, or some business speculation will be disapproving.",
+      "translation_ko": "흰옷 입은 귀신을 보는 꿈은, 가장 가까운 벗의 건강이 위태롭거나 벌인 일이 어그러질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "귀신",
+    "term_en": "ghost",
+    "context": "검은 옷 입은 귀신을 봄",
+    "interpretation_ko": "배신과 부정을 겪을 조짐",
+    "interpretation_en": "you will meet with treachery and unfaithfulness",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Spirit or Specter",
+      "original": "If they are robed in black, you will meet with treachery and unfaithfulness.",
+      "translation_ko": "검은 옷 입은 귀신을 보는 꿈은, 배신과 부정을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "귀신",
+    "term_en": "ghost",
+    "context": "귀신이 문이나 벽을 두드리는 소리를 들음",
+    "interpretation_ko": "예기치 않게 곤란이 생길 조짐",
+    "interpretation_en": "denotes that trouble will arise unexpectedly",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Spirit or Specter",
+      "original": "To dream that you hear spirits knocking on doors or walls, denotes that trouble will arise unexpectedly.",
+      "translation_ko": "귀신이 문이나 벽을 두드리는 소리를 듣는 꿈은, 예기치 않게 곤란이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "귀신",
+    "term_en": "ghost",
+    "context": "귀신이 휘장을 움직이거나 그 뒤에서 움직이는 것을 봄",
+    "interpretation_ko": "경솔한 짓을 저지르기 쉬우니 감정을 다스리라는 경고이며, 다툼도 닥칠 조짐",
+    "interpretation_en": "is a warning to hold control over your feelings, as you are likely to commit indiscretions; quarrels are also threatened",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Spirit or Specter",
+      "original": "To see them moving draperies, or moving behind them, is a warning to hold control over your feelings, as you are likely to commit indiscretions.  Quarrels are also threatened.",
+      "translation_ko": "귀신이 휘장을 움직이거나 그 뒤에서 움직이는 것을 보는 꿈은, 경솔한 짓을 저지르기 쉬우니 감정을 다스리라는 경고이며 다툼도 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "귀신",
+    "term_en": "ghost",
+    "context": "벗의 귀신이 방 안에 떠 있는 것을 봄",
+    "interpretation_ko": "실망과 불안에 시달릴 조짐",
+    "interpretation_en": "foretells disappointment and insecurity",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Spirit or Specter",
+      "original": "To see the spirit of your friend floating in your room, foretells disappointment and insecurity.",
+      "translation_ko": "벗의 귀신이 방 안에 떠 있는 것을 보는 꿈은, 실망과 불안에 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "귀신",
+    "term_en": "ghost",
+    "context": "귀신에게서 나는 듯한 음악을 들음",
+    "interpretation_ko": "집안에 나쁜 변화와 슬픔이 닥칠 조짐",
+    "interpretation_en": "denotes unfavorable changes and sadness in the household",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Spirit or Specter",
+      "original": "To hear music supposedly coming from spirits, denotes unfavorable changes and sadness in the household.",
+      "translation_ko": "귀신에게서 나는 듯한 음악을 듣는 꿈은, 집안에 나쁜 변화와 슬픔이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "침 뱉기",
+    "term_en": "spitting",
+    "context": "남이 나에게 침을 뱉음",
+    "interpretation_ko": "다툼이 생기고 정이 멀어질 조짐",
+    "interpretation_en": "foretells disagreements and alienation of affections",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Spitting",
+      "original": "For some one to spit on you, foretells disagreements and alienation of affections.",
+      "translation_ko": "남이 나에게 침을 뱉는 꿈은, 다툼이 생기고 정이 멀어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "침 뱉기",
+    "term_en": "spitting",
+    "context": "침을 뱉는 꿈을 꿈",
+    "interpretation_ko": "좋아 보이던 일이 나쁘게 끝날 조짐",
+    "interpretation_en": "denotes unhappy terminations of seemingly auspicious undertakings",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Spitting",
+      "original": "To dream of spitting, denotes unhappy terminations of seemingly auspicious undertakings.",
+      "translation_ko": "침을 뱉는 꿈은, 좋아 보이던 일이 나쁘게 끝날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지라",
+    "term_en": "spleen",
+    "context": "지라(비장) 꿈을 꿈",
+    "interpretation_ko": "누군가와 오해가 생겨 그에게 해를 입을 조짐",
+    "interpretation_en": "denotes that you will have a misunderstanding with some party who will injure you",
+    "polarity": "negative",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Spleen",
+      "original": "To dream of spleen, denotes that you will have a misunderstanding with some party who will injure you.",
+      "translation_ko": "지라(비장) 꿈은, 누군가와 오해가 생겨 그에게 해를 입을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "화려한 삶",
+    "term_en": "splendor",
+    "context": "스스로 화려하게 삶",
+    "interpretation_ko": "지위가 오르고 지금과는 다른 처지에서 살게 될 조짐",
+    "interpretation_en": "denotes that you will succeed to elevations, and will reside in a different state to the one you now occupy",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Splendor",
+      "original": "To dream that you live in splendor, denotes that you will succeed to elevations, and will reside in a different state to the one you now occupy.",
+      "translation_ko": "스스로 화려하게 사는 꿈은, 지위가 오르고 지금과는 다른 처지에서 살게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "화려한 삶",
+    "term_en": "splendor",
+    "context": "남이 화려하게 사는 것을 봄",
+    "interpretation_ko": "벗들이 자신의 안녕을 살펴 주는 데서 오는 기쁨을 누릴 조짐",
+    "interpretation_en": "signifies pleasure derived from the interest that friends take in your welfare",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Splendor",
+      "original": "To see others thus living, signifies pleasure derived from the interest that friends take in your welfare.",
+      "translation_ko": "남이 화려하게 사는 것을 보는 꿈은, 벗들이 자신의 안녕을 살펴 주는 데서 오는 기쁨을 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나무 가시가 박힘",
+    "term_en": "splinter",
+    "context": "살에 나무 가시가 박힘",
+    "interpretation_ko": "가족이나 질투하는 경쟁자로 인해 여러 번 속을 썩일 조짐",
+    "interpretation_en": "denotes that you will have many vexations from members of your family or from jealous rivals",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Splinter",
+      "original": "To dream of splinters sticking into your flesh, denotes that you will have many vexations from members of your family or from jealous rivals.",
+      "translation_ko": "살에 나무 가시가 박히는 꿈은, 가족이나 질투하는 경쟁자로 인해 여러 번 속을 썩일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나무 가시가 박힘",
+    "term_en": "splinter",
+    "context": "남의 집을 찾았다가 발에 가시가 박힘",
+    "interpretation_ko": "머잖아 매우 불쾌한 방문을 하거나 받게 되고, 계속된 소홀함으로 일이 조금씩 어긋날 조짐",
+    "interpretation_en": "you will soon make, or receive, a visit which will prove extremely unpleasant; your affairs will go slightly wrong through your continued neglect",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Splinter",
+      "original": "If while you are visiting you stick a splinter in your foot, you will soon make, or receive, a visit which will prove extremely unpleasant. Your affairs will go slightly wrong through your continued neglect.",
+      "translation_ko": "남의 집을 찾았다가 발에 가시가 박히는 꿈은, 머잖아 매우 불쾌한 방문을 하거나 받게 되고 계속된 소홀함으로 일이 조금씩 어긋날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "스펀지",
+    "term_en": "sponge",
+    "context": "스펀지를 봄",
+    "interpretation_ko": "누군가에게 속고 있다는 조짐",
+    "interpretation_en": "denote that deception is being practised upon you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Sponges",
+      "original": "Sponges seen in a dream, denote that deception is being practised upon you.",
+      "translation_ko": "스펀지를 보는 꿈은, 누군가에게 속고 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "스펀지",
+    "term_en": "sponge",
+    "context": "스펀지로 지움",
+    "interpretation_ko": "어리석은 짓의 희생자가 될 조짐",
+    "interpretation_en": "you will be the victim of folly",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Sponges",
+      "original": "To use one in erasing, you will be the victim of folly.",
+      "translation_ko": "스펀지로 지우는 꿈은, 어리석은 짓의 희생자가 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "보빈",
+    "term_en": "bobbin",
+    "context": "실이 잔뜩 감긴 보빈을 봄",
+    "interpretation_ko": "길고 고된 일을 맡게 되나 마치고 나면 더없이 바라던 대로 이루어질 조짐",
+    "interpretation_en": "indicates some long and arduous tasks, but which when completed will meet your most sanguine expectations",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spools",
+      "original": "To dream of spools of thread, indicates some long and arduous tasks, but which when completed will meet your most sanguine expectations.",
+      "translation_ko": "실이 잔뜩 감긴 보빈을 보는 꿈은, 길고 고된 일을 맡게 되나 마치고 나면 더없이 바라던 대로 이루어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "보빈",
+    "term_en": "bobbin",
+    "context": "보빈이 비어 있음",
+    "interpretation_ko": "실망할 일이 생길 조짐",
+    "interpretation_en": "there will be disappointments for you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Spools",
+      "original": "If they are empty, there will be disappointments for you.",
+      "translation_ko": "보빈이 비어 있는 꿈은, 실망할 일이 생길 조짐이다"
+    }
+  }
+]

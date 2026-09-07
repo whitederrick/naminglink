@@ -601,8 +601,15 @@
       "여성이 귀신 꿈을 꿈": "여자가 여성이",
       "하늘에 천사나 귀신이 나타남": "하늘에 천사",
       "하늘 오른쪽에 여자 귀신 왼쪽에 남자 귀신이 보임": "오른쪽 왼쪽",
-      "여자 귀신이 긴 옷을 끌고 하늘을 떠감": "떠가 늘어진 흘러가",
-      "살아 있는 살붙이나 벗의 귀신을 봄": "살아 산사람"
+      "여자 귀신이 긴 옷을 끌고 하늘을 떠감": "떠가 떠갔 늘어진 흘러가",
+      "살아 있는 살붙이나 벗의 귀신을 봄": "살아 산사람",
+      "귀신을 봄": "예상치 곤란",
+      "흰옷 입은 귀신을 봄": "흰옷",
+      "검은 옷 입은 귀신을 봄": "검은",
+      "귀신이 문이나 벽을 두드리는 소리를 들음": "두드리는 문이나",
+      "귀신이 휘장을 움직이거나 그 뒤에서 움직이는 것을 봄": "휘장을 움직이",
+      "벗의 귀신이 방 안에 떠 있는 것을 봄": "안에 떠다니는",
+      "귀신에게서 나는 듯한 음악을 들음": "음악을 들었"
     },
     "contexts_en": {
       "신과 귀신에게 맞음": "struck beaten attacked",
@@ -614,7 +621,14 @@
       "하늘에 천사나 귀신이 나타남": "angel appear sky kindred misfortunes",
       "하늘 오른쪽에 여자 귀신 왼쪽에 남자 귀신이 보임": "right male left countenance obscurity",
       "여자 귀신이 긴 옷을 끌고 하늘을 떠감": "clinging robes floating scientific miraculously",
-      "살아 있는 살붙이나 벗의 귀신을 봄": "living relative malice supervision"
+      "살아 있는 살붙이나 벗의 귀신을 봄": "living relative malice supervision",
+      "귀신을 봄": "unexpected trouble confront",
+      "흰옷 입은 귀신을 봄": "white nearest",
+      "검은 옷 입은 귀신을 봄": "black treachery",
+      "귀신이 문이나 벽을 두드리는 소리를 들음": "knocking doors walls",
+      "귀신이 휘장을 움직이거나 그 뒤에서 움직이는 것을 봄": "draperies indiscretions quarrels",
+      "벗의 귀신이 방 안에 떠 있는 것을 봄": "hovering room disappointment",
+      "귀신에게서 나는 듯한 음악을 들음": "music household sadness"
     }
   },
   {

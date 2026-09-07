@@ -1,0 +1,96 @@
+[
+  {
+    "id": "spitting",
+    "aliases": [
+      "침을 뱉었다",
+      "침을 뱉는",
+      "침 뱉는",
+      "침 뱉었다"
+    ],
+    "aliases_en": [
+      "spit",
+      "spat",
+      "spitting on"
+    ],
+    "contexts": {
+      "남이 나에게 침을 뱉음": "나에게 내게",
+      "침을 뱉는 꿈을 꿈": "뱉었다 뱉는"
+    },
+    "contexts_en": {
+      "남이 나에게 침을 뱉음": "someone",
+      "침을 뱉는 꿈을 꿈": "auspicious terminations"
+    }
+  },
+  {
+    "id": "spleen",
+    "aliases": [
+      "비장",
+      "지라를",
+      "지라가"
+    ],
+    "aliases_en": [
+      "spleen"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "splendor",
+    "aliases": [
+      "화려하게 살았다",
+      "화려하게 사는",
+      "호화롭게 살았다"
+    ],
+    "aliases_en": [
+      "splendor",
+      "living in splendor"
+    ],
+    "contexts": {
+      "스스로 화려하게 삶": "스스로",
+      "남이 화려하게 사는 것을 봄": "남이"
+    },
+    "contexts_en": {
+      "스스로 화려하게 삶": "reside elevations",
+      "남이 화려하게 사는 것을 봄": "others welfare"
+    }
+  },
+  {
+    "id": "splinter",
+    "aliases": [
+      "가시가 박혔다",
+      "가시에 찔렸다",
+      "파편이 박혔다",
+      "나무 가시를"
+    ],
+    "aliases_en": [
+      "splinter",
+      "splinters"
+    ],
+    "contexts": {
+      "살에 나무 가시가 박힘": "살에 온몸에",
+      "남의 집을 찾았다가 발에 가시가 박힘": "방문했다가 남의"
+    },
+    "contexts_en": {
+      "살에 나무 가시가 박힘": "flesh vexations",
+      "남의 집을 찾았다가 발에 가시가 박힘": "visiting neglect"
+    }
+  },
+  {
+    "id": "sponge",
+    "aliases": [
+      "스폰지"
+    ],
+    "aliases_en": [
+      "sponges",
+      "a sponge"
+    ],
+    "contexts": {
+      "스펀지를 봄": "보았다",
+      "스펀지로 지움": "지웠다 지우는"
+    },
+    "contexts_en": {
+      "스펀지를 봄": "seen deception",
+      "스펀지로 지움": "erasing folly"
+    }
+  }
+]

@@ -7622,5 +7622,25 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "spider",
     "spiders",
     "a spider"
+  ],
+  "spitting": [
+    "spit",
+    "spat",
+    "spitting on"
+  ],
+  "spleen": [
+    "spleen"
+  ],
+  "splendor": [
+    "splendor",
+    "living in splendor"
+  ],
+  "splinter": [
+    "splinter",
+    "splinters"
+  ],
+  "sponge": [
+    "sponges",
+    "a sponge"
   ]
 };

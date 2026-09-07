@@ -1260,8 +1260,16 @@
       "a spool",
       "a reel of thread"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "실이 잔뜩 감긴 보빈을 봄": "잔뜩 감긴",
+      "보빈이 비어 있음": "비어 있었다",
+      "실패(보빈)를 보는 꿈을 꿈": "그냥"
+    },
+    "contexts_en": {
+      "실이 잔뜩 감긴 보빈을 봄": "arduous sanguine expectations",
+      "보빈이 비어 있음": "empty disappointments",
+      "실패(보빈)를 보는 꿈을 꿈": "important devolve negligent"
+    }
   },
   {
     "id": "bog",

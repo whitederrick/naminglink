@@ -1,0 +1,19 @@
+{
+  "batch": 255,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Spider-web", "text": "To see spider-webs, denotes pleasant associations and fortunate ventures.", "note": "기존 spider에 문맥 추가" },
+    { "headword": "Spinning", "text": "To dream that you are spinning, means that you will engage in some enterprise, which will be all you could wish.", "note": "기존 spinning-thread에 문맥 추가(이미 EN 별칭 spinning을 쥐고 있었다)" },
+    { "headword": "Spirit or Specter", "text": "To see spirits in a dream, denotes that some unexpected trouble will confront you.  If they are white-robed, the health of your nearest friend is threatened, or some business speculation will be disapproving.  If they are robed in black, you will meet with treachery and unfaithfulness.\n\nIf a spirit speaks, there is some evil near you, which you might avert if you would listen to the counsels of judgment.\n\nTo dream that you hear spirits knocking on doors or walls, denotes that trouble will arise unexpectedly.\n\nTo see them moving draperies, or moving behind them, is a warning to hold control over your feelings, as you are likely to commit indiscretions. Quarrels are also threatened.\n\nTo see the spirit of your friend floating in your room, foretells disappointment and insecurity.\n\nTo hear music supposedly coming from spirits, denotes unfavorable changes and sadness in the household.", "note": "기존 ghost에 문맥 6개 추가(aliases_en에 이미 spirit·specter가 있었다). 「If a spirit speaks…」 한 문장은 건너뜀 — Ghost 표제어의 「귀신이 말을 걸어옴」과 같은 그림, 다른 풀이(§31 곁가지)" },
+    { "headword": "Spitting", "text": "To dream of spitting, denotes unhappy terminations of seemingly auspicious undertakings.  For some one to spit on you, foretells disagreements and alienation of affections.", "note": "새 상징 spitting(침 뱉기)" },
+    { "headword": "Spleen", "text": "To dream of spleen, denotes that you will have a misunderstanding with some party who will injure you.", "note": "새 상징 spleen(지라)" },
+    { "headword": "Splendor", "text": "To dream that you live in splendor, denotes that you will succeed to elevations, and will reside in a different state to the one you now occupy.\n\nTo see others thus living, signifies pleasure derived from the interest that friends take in your welfare.", "note": "새 상징 splendor(화려한 삶)" },
+    { "headword": "Splinter", "text": "To dream of splinters sticking into your flesh, denotes that you will have many vexations from members of your family or from jealous rivals.\n\nIf while you are visiting you stick a splinter in your foot, you will soon make, or receive, a visit which will prove extremely unpleasant. Your affairs will go slightly wrong through your continued neglect.", "note": "새 상징 splinter(나무 가시가 박힘)" },
+    { "headword": "Sponges", "text": "Sponges seen in a dream, denote that deception is being practised upon you.\n\nTo use one in erasing, you will be the victim of folly.", "note": "새 상징 sponge(스펀지)" },
+    { "headword": "Spools", "text": "To dream of spools of thread, indicates some long and arduous tasks, but which when completed will meet your most sanguine expectations.  If they are empty, there will be disappointments for you.", "note": "기존 bobbin에 문맥 추가(aliases_en에 이미 a spool이 있었다). 「실패」는 기존 상징 failure의 별칭과 겹쳐(동음이의) 매칭어로 쓰지 않고 「보빈」으로만 옮김" }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    { "headword": "Spirit or Specter", "sentence": "If a spirit speaks, there is some evil near you, which you might avert if you would listen to the counsels of judgment.", "reason": "ghost(Ghost 표제어)의 「귀신이 말을 걸어옴」과 같은 그림, 다른 풀이 — 판별어로 못 가른다(§31 곁가지)" }
+  ]
+}
