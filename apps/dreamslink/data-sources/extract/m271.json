@@ -1,0 +1,407 @@
+[
+  {
+    "term_ko": "도둑",
+    "term_en": "thief",
+    "context": "도둑이 되어 경관에게 쫓김",
+    "interpretation_ko": "사업에서 좌절을 겪고 인간관계가 불편해질 조짐",
+    "interpretation_en": "you will meet reverses in business, and your social relations will be unpleasant",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Thief",
+      "original": "To dream of being a thief and that you are pursued by officers, is a sign that you will meet reverses in business, and your social relations will be unpleasant.",
+      "translation_ko": "도둑이 되어 경관에게 쫓기는 꿈은, 사업에서 좌절을 겪고 인간관계가 불편해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "도둑",
+    "term_en": "thief",
+    "context": "스스로 도둑을 쫓거나 붙잡음",
+    "interpretation_ko": "적을 이겨낼 조짐",
+    "interpretation_en": "you will overcome your enemies",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Thief",
+      "original": "If you pursue or capture a thief, you will overcome your enemies.",
+      "translation_ko": "스스로 도둑을 쫓거나 붙잡는 꿈은, 적을 이겨낼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "실",
+    "term_en": "thread",
+    "context": "실 꿈을 꿈",
+    "interpretation_ko": "복잡한 길 너머에 행운이 있을 조짐",
+    "interpretation_en": "your fortune lies beyond intricate paths",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Thread",
+      "original": "To dream of thread, denotes that your fortune lies beyond intricate paths.",
+      "translation_ko": "실 꿈은, 복잡한 길 너머에 행운이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "실",
+    "term_en": "thread",
+    "context": "실이 끊어진 것을 봄",
+    "interpretation_ko": "벗의 신의 없음으로 손실을 입을 조짐",
+    "interpretation_en": "you will suffer loss through the faithlessness of friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Thread",
+      "original": "To see broken threads, you will suffer loss through the faithlessness of friends.",
+      "translation_ko": "실이 끊어진 것을 보는 꿈은, 벗의 신의 없음으로 손실을 입을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "극장",
+    "term_en": "theater",
+    "context": "극장에 있음",
+    "interpretation_ko": "새 벗들과 즐거움을 누리고 일도 순조로울 조짐",
+    "interpretation_en": "you will have much pleasure in the company of new friends; your affairs will be satisfactory after this dream",
+    "polarity": "positive",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Theater",
+      "original": "To dream of being at a theater, denotes that you will have much pleasure in the company of new friends. Your affairs will be satisfactory after this dream.",
+      "translation_ko": "극장에 있는 꿈은, 새 벗들과 즐거움을 누리고 일도 순조로울 조짐이다"
+    }
+  },
+  {
+    "term_ko": "극장",
+    "term_en": "theater",
+    "context": "스스로 연극배우가 됨",
+    "interpretation_ko": "즐거움이 오래가지 못할 조짐",
+    "interpretation_en": "your pleasures will be of short duration",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Theater",
+      "original": "If you are one of the players, your pleasures will be of short duration.",
+      "translation_ko": "스스로 연극배우가 되는 꿈은, 즐거움이 오래가지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "극장",
+    "term_en": "theater",
+    "context": "보드빌 극장에 감",
+    "interpretation_ko": "부질없는 즐거움으로 재산을 잃을 위험이 있는 조짐",
+    "interpretation_en": "you are in danger of losing property through silly pleasures",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Theater",
+      "original": "If you attend a vaudeville theater, you are in danger of losing property through silly pleasures.",
+      "translation_ko": "보드빌 극장에 가는 꿈은, 부질없는 즐거움으로 재산을 잃을 위험이 있는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "극장",
+    "term_en": "theater",
+    "context": "극장에서 박수 치며 웃음",
+    "interpretation_ko": "본분을 헛된 즐거움에 희생시킬 조짐",
+    "interpretation_en": "you will sacrifice duty to the gratification of fancy",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Theater",
+      "original": "If you applaud and laugh at a theater, you will sacrifice duty to the gratification of fancy.",
+      "translation_ko": "극장에서 박수 치며 웃는 꿈은, 본분을 헛된 즐거움에 희생시킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "극장",
+    "term_en": "theater",
+    "context": "불이 나거나 소동이 일어 극장에서 달아나려 함",
+    "interpretation_ko": "위험을 무릅쓴 일에 나서게 될 조짐",
+    "interpretation_en": "you will engage in some enterprise, which will be hazardous",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Theater",
+      "original": "To dream of trying to escape from one during a fire or other excitement, foretells that you will engage in some enterprise, which will be hazardous.",
+      "translation_ko": "불이 나거나 소동이 일어 극장에서 달아나려 하는 꿈은, 위험을 무릅쓴 일에 나서게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "온도계",
+    "term_en": "thermometer",
+    "context": "온도계를 봄",
+    "interpretation_ko": "사업이 신통찮고 집안에 불화가 있을 조짐",
+    "interpretation_en": "unsatisfactory business, and disagreements in the home",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Thermometer",
+      "original": "To dream of looking at a thermometer, denotes unsatisfactory business, and disagreements in the home.",
+      "translation_ko": "온도계를 보는 꿈은, 사업이 신통찮고 집안에 불화가 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "온도계",
+    "term_en": "thermometer",
+    "context": "깨진 온도계를 봄",
+    "interpretation_ko": "병의 전조",
+    "interpretation_en": "foreshadows illness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Thermometer",
+      "original": "To see a broken one, foreshadows illness.",
+      "translation_ko": "깨진 온도계를 보는 꿈은, 병의 전조이다"
+    }
+  },
+  {
+    "term_ko": "온도계",
+    "term_en": "thermometer",
+    "context": "온도계 수은이 내려감을 봄",
+    "interpretation_ko": "일이 괴로운 모양새로 흘러갈 조짐",
+    "interpretation_en": "your affairs will assume a distressing shape",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Thermometer",
+      "original": "If the mercury seems to be falling, your affairs will assume a distressing shape.",
+      "translation_ko": "온도계 수은이 내려가는 것을 보는 꿈은, 일이 괴로운 모양새로 흘러갈 조짐이다"
+    }
+  },
+  {
+    "term_ko": "온도계",
+    "term_en": "thermometer",
+    "context": "온도계 수은이 올라감을 봄",
+    "interpretation_ko": "사업의 나쁜 형편을 떨쳐낼 수 있을 조짐",
+    "interpretation_en": "you will be able to throw off bad conditions in your business",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Thermometer",
+      "original": "If it is rising, you will be able to throw off bad conditions in your business.",
+      "translation_ko": "온도계 수은이 올라가는 것을 보는 꿈은, 사업의 나쁜 형편을 떨쳐낼 수 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "골무",
+    "term_en": "thimble",
+    "context": "골무를 씀",
+    "interpretation_ko": "자신 말고도 기쁘게 해야 할 이들이 많을 조짐",
+    "interpretation_en": "you will have many others to please besides yourself",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Thimble",
+      "original": "If you use a thimble in your dreams, you will have many others to please besides yourself.",
+      "translation_ko": "골무를 쓰는 꿈은, 자신 말고도 기쁘게 해야 할 이들이 많을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "골무",
+    "term_en": "thimble",
+    "context": "여성이 골무를 씀",
+    "interpretation_ko": "스스로 제 자리를 만들어 가야 할 조짐",
+    "interpretation_en": "you will have your own position to make",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Thimble",
+      "original": "If a woman, you will have your own position to make.",
+      "translation_ko": "여성이 골무를 쓰는 꿈은, 스스로 제 자리를 만들어 가야 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "골무",
+    "term_en": "thimble",
+    "context": "골무를 잃어버림",
+    "interpretation_ko": "가난과 곤란의 조짐",
+    "interpretation_en": "foretells poverty and trouble",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Thimble",
+      "original": "To lose one, foretells poverty and trouble.",
+      "translation_ko": "골무를 잃어버리는 꿈은, 가난과 곤란의 조짐이다"
+    }
+  },
+  {
+    "term_ko": "골무",
+    "term_en": "thimble",
+    "context": "낡거나 깨진 골무를 봄",
+    "interpretation_ko": "중대한 일에서 지혜롭지 못하게 처신하려는 조짐",
+    "interpretation_en": "you are about to act unwisely in some momentous affair",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Thimble",
+      "original": "To see an old or broken one, denotes that you are about to act unwisely in some momentous affair.",
+      "translation_ko": "낡거나 깨진 골무를 보는 꿈은, 중대한 일에서 지혜롭지 못하게 처신하려는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "골무",
+    "term_en": "thimble",
+    "context": "새 골무를 받거나 삼",
+    "interpretation_ko": "만족을 안겨 줄 새 인연이 있을 조짐",
+    "interpretation_en": "portends new associations in which you will find contentment",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Thimble",
+      "original": "To receive or buy a new thimble, portends new associations in which you will find contentment.",
+      "translation_ko": "새 골무를 받거나 사는 꿈은, 만족을 안겨 줄 새 인연이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "골무",
+    "term_en": "thimble",
+    "context": "끝이 열린 골무가 실은 막혀 있음을 봄",
+    "interpretation_ko": "곤란을 겪겠으나 벗들이 도와 그 나쁜 결과에서 벗어날 조짐",
+    "interpretation_en": "you will have trouble, but friends will aid you in escaping its disastrous consequences",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Thimble",
+      "original": "To dream that you use an open end thimble, but find that it is closed, denotes that you will have trouble, but friends will aid you in escaping its disastrous consequences.",
+      "translation_ko": "끝이 열린 골무인 줄 알았는데 실은 막혀 있는 꿈은, 곤란을 겪겠으나 벗들이 도와 그 나쁜 결과에서 벗어날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "갈증",
+    "term_en": "thirst",
+    "context": "갈증을 느낌",
+    "interpretation_ko": "지금 손닿지 않는 것을 바라고 있음을 보여 줌",
+    "interpretation_en": "shows that you are aspiring to things beyond your present reach",
+    "polarity": "neutral",
+    "category": "body",
+    "cite": {
+      "work": "miller",
+      "locator": "Thirst",
+      "original": "To dream of being thirsty, shows that you are aspiring to things beyond your present reach",
+      "translation_ko": "갈증을 느끼는 꿈은, 지금 손닿지 않는 것을 바라고 있음을 보여 준다"
+    }
+  },
+  {
+    "term_ko": "갈증",
+    "term_en": "thirst",
+    "context": "달콤한 음료로 갈증을 풂",
+    "interpretation_ko": "바라는 바를 이룰 조짐",
+    "interpretation_en": "you will obtain your wishes",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Thirst",
+      "original": "but if your thirst is quenched with pleasing drinks, you will obtain your wishes.",
+      "translation_ko": "달콤한 음료로 갈증을 푸는 꿈은, 바라는 바를 이룰 조짐이다"
+    }
+  },
+  {
+    "term_ko": "갈증",
+    "term_en": "thirst",
+    "context": "남이 갈증에 마시는 것을 봄",
+    "interpretation_ko": "부유한 이들에게서 많은 호의를 누릴 조짐",
+    "interpretation_en": "you will enjoy many favors at the hands of wealthy people",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Thirst",
+      "original": "To see others thirsty and drinking to slake it, you will enjoy many favors at the hands of wealthy people.",
+      "translation_ko": "남이 갈증에 마시는 것을 보는 꿈은, 부유한 이들에게서 많은 호의를 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "가시",
+    "term_en": "thorns",
+    "context": "가시 꿈을 꿈",
+    "interpretation_ko": "불만의 전조 — 나아가려는 모든 애씀에 궂은일이 둘러쌀 것",
+    "interpretation_en": "an omen of dissatisfaction, and evil will surround every effort to advancement",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Thorns",
+      "original": "To dream of thorns, is an omen of dissatisfaction, and evil will surround every effort to advancement.",
+      "translation_ko": "가시 꿈은, 불만의 전조이다 — 나아가려는 모든 애씀에 궂은일이 둘러쌀 것이다"
+    }
+  },
+  {
+    "term_ko": "가시",
+    "term_en": "thorns",
+    "context": "가시가 푸른 잎 아래 숨어 있음을 봄",
+    "interpretation_ko": "숨은 적이 번영을 가로막을 조짐",
+    "interpretation_en": "your prosperity will be interfered with by secret enemies",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Thorns",
+      "original": "If the thorns are hidden beneath green foliage, you prosperity will be interfered with by secret enemies.",
+      "translation_ko": "가시가 푸른 잎 아래 숨어 있는 것을 보는 꿈은, 숨은 적이 번영을 가로막을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "타작",
+    "term_en": "threshing",
+    "context": "곡식을 타작함",
+    "interpretation_ko": "사업이 크게 나아가고 집안에 행복이 있을 조짐",
+    "interpretation_en": "great advancement in business and happiness among families",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Threshing",
+      "original": "To dream of threshing grain, denotes great advancement in business and happiness among families.",
+      "translation_ko": "곡식을 타작하는 꿈은, 사업이 크게 나아가고 집안에 행복이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "타작",
+    "term_en": "threshing",
+    "context": "짚만 많고 낟알은 적게 타작함",
+    "interpretation_ko": "벌인 일이 성공을 거두지 못할 조짐",
+    "interpretation_en": "unsuccessful enterprises will be undertaken",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Threshing",
+      "original": "But if there is an abundance of straw and little grain, unsuccessful enterprises will be undertaken.",
+      "translation_ko": "짚만 많고 낟알은 적게 타작하는 꿈은, 벌인 일이 성공을 거두지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "타작",
+    "term_en": "threshing",
+    "context": "타작하다가 기계가 고장 나거나 사고가 남",
+    "interpretation_ko": "번영 속에서도 큰 슬픔을 겪을 조짐",
+    "interpretation_en": "you will have some great sorrow in the midst of prosperity",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Threshing",
+      "original": "To break down or have an accident while threshing, you will have some great sorrow in the midst of prosperity.",
+      "translation_ko": "타작하다가 기계가 고장 나거나 사고가 나는 꿈은, 번영 속에서도 큰 슬픔을 겪을 조짐이다"
+    }
+  }
+]

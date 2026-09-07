@@ -1,10 +1,11 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 270 — Telegram~Thaw. 새 상징 다섯(telephone·
-// temptation·tent·sermon-text·thaw)을 세우고, 기존 다섯(cable·spyglass·
-// lodger·ninepins·house)에 문맥을 나눠 붙였다. Tempest·Terror는 통째로
-// 건너뛰었다(각각 hurricane·afraid와 같은 그림). tent는 camp가 이미
-// 쥐고 있던 「텐트」 별칭을 더 정확한 임자인 새 상징으로 옮겨 왔다
-// (camp에는 「캠핑」·「야영지」만 남김).
+// (지금 담긴 것: 배치 271 — Theater~Threshing. 새 상징 여섯(theater·
+// thermometer·thimble·thirst·thorns·threshing)을 세우고, 기존 둘
+// (thief·thread)에 문맥을 나눠 붙였다. Thigh는 통째로 건너뛰었다 —
+// 기존 legs가 이미 「허벅지」를 쥐고 세 문장 다 legs의 기존 의미와
+// 같은 그림. Theater의 그랜드 오페라 문장도 기존 opera와 같은 그림이라
+// 건너뜀. thread 기본값을 「실 꿈을 꿈」(더 막연한 새 그림)으로 바꿔
+// FALLBACK_FIRST에 얼렸다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -35,38 +36,38 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 270 새 문맥 (22건) ────────────────────────────────────────────
-  { id: "cable", ctx: "전보를 보냄", text: "전보를 보냈다" },
-  { id: "cable", ctx: "스스로 전신기사가 되어 메시지를 보냄", text: "스스로 전신기사가 되어 메시지를 보냈다" },
-  { id: "cable", ctx: "전신국에 있음을 봄", text: "전신국에 있었다" },
-  { id: "telephone", ctx: "전화 꿈을 꿈", text: "전화 꿈을 꾸었다" },
-  { id: "telephone", ctx: "여성이 전화로 이야기함", text: "여성이 전화로 이야기했다" },
-  { id: "telephone", ctx: "여성이 전화로 잘 들리지 않아 애먹음", text: "여성이 전화로 잘 들리지 않아 애먹었다" },
-  { id: "spyglass", ctx: "망원경으로 별과 행성을 봄", text: "망원경으로 별과 행성을 보았다" },
-  { id: "temptation", ctx: "유혹에 둘러싸임", text: "유혹에 둘러싸였다" },
-  { id: "temptation", ctx: "유혹을 물리침", text: "유혹을 물리쳤다" },
-  { id: "lodger", ctx: "스스로 세입자라고 여김", text: "스스로 세입자라고 여겼다" },
-  { id: "ninepins", ctx: "남이 구주희 하는 것을 봄", text: "남이 구주희 하는 것을 보았다" },
-  { id: "ninepins", ctx: "여성이 구주희에서 성공함", text: "여성이 구주희에서 성공했다" },
-  { id: "tent", ctx: "텐트 안에 있음", text: "텐트 안에 있었다" },
-  { id: "tent", ctx: "텐트 여러 채를 봄", text: "텐트 여러 채를 보았다" },
-  { id: "tent", ctx: "텐트가 찢어지거나 낡음", text: "텐트가 찢어지거나 낡았다" },
-  { id: "sermon-text", ctx: "설교 본문을 두고 다툼", text: "설교 본문을 두고 다투었다" },
-  { id: "sermon-text", ctx: "설교 본문을 떠올리려 애씀", text: "설교 본문을 떠올리려 애썼다" },
-  { id: "sermon-text", ctx: "설교 본문을 되뇌며 곱씹음", text: "설교 본문을 되뇌며 곱씹었다" },
-  { id: "house", ctx: "쉬 썩는 재료로 지붕을 이음", text: "집 지붕을 쉬 썩는 재료로 이었다" },
-  { id: "house", ctx: "짚으로 이은 지붕이 새는 것을 봄", text: "집의 짚으로 이은 지붕이 새는 것을 보았다" },
-  { id: "thaw", ctx: "얼음이 녹는 것을 봄", text: "얼음이 녹는 것을 보았다" },
-  { id: "thaw", ctx: "오랜 추위 끝에 땅이 녹는 것을 봄", text: "오랜 추위 끝에 땅이 녹는 것을 보았다" },
+  // ── 배치 271 새 문맥 (27건) ────────────────────────────────────────────
+  { id: "thief", ctx: "도둑이 되어 경관에게 쫓김", text: "도둑이 되어 경관에게 쫓겼다" },
+  { id: "thief", ctx: "스스로 도둑을 쫓거나 붙잡음", text: "스스로 도둑을 붙잡았다" },
+  { id: "thread", ctx: "실 꿈을 꿈", text: "실 꿈을 꾸었다" },
+  { id: "thread", ctx: "실이 끊어진 것을 봄", text: "실이 끊어진 것을 보았다" },
+  { id: "theater", ctx: "극장에 있음", text: "극장에 있었다" },
+  { id: "theater", ctx: "스스로 연극배우가 됨", text: "스스로 연극배우가 되었다" },
+  { id: "theater", ctx: "보드빌 극장에 감", text: "보드빌 극장에 갔다" },
+  { id: "theater", ctx: "극장에서 박수 치며 웃음", text: "극장에서 박수 치며 웃었다" },
+  { id: "theater", ctx: "불이 나거나 소동이 일어 극장에서 달아나려 함", text: "불이 나서 극장에서 달아나려 했다" },
+  { id: "thermometer", ctx: "온도계를 봄", text: "온도계를 보았다" },
+  { id: "thermometer", ctx: "깨진 온도계를 봄", text: "깨진 온도계를 보았다" },
+  { id: "thermometer", ctx: "온도계 수은이 내려감을 봄", text: "온도계 수은이 내려가는 것을 보았다" },
+  { id: "thermometer", ctx: "온도계 수은이 올라감을 봄", text: "온도계 수은이 올라가는 것을 보았다" },
+  { id: "thimble", ctx: "골무를 씀", text: "골무를 썼다" },
+  { id: "thimble", ctx: "여성이 골무를 씀", text: "여성이 골무를 썼다" },
+  { id: "thimble", ctx: "골무를 잃어버림", text: "골무를 잃어버렸다" },
+  { id: "thimble", ctx: "낡거나 깨진 골무를 봄", text: "낡거나 깨진 골무를 보았다" },
+  { id: "thimble", ctx: "새 골무를 받거나 삼", text: "새 골무를 받았다" },
+  { id: "thimble", ctx: "끝이 열린 골무가 실은 막혀 있음을 봄", text: "끝이 열린 골무가 실은 막혀 있었다" },
+  { id: "thirst", ctx: "갈증을 느낌", text: "갈증을 느꼈다" },
+  { id: "thirst", ctx: "달콤한 음료로 갈증을 풂", text: "달콤한 음료로 갈증을 풀었다" },
+  { id: "thirst", ctx: "남이 갈증에 마시는 것을 봄", text: "남이 갈증에 마시는 것을 보았다" },
+  { id: "thorns", ctx: "가시 꿈을 꿈", text: "가시 꿈을 꾸었다" },
+  { id: "thorns", ctx: "가시가 푸른 잎 아래 숨어 있음을 봄", text: "가시가 푸른 잎사귀 아래 숨어 있는 것을 보았다" },
+  { id: "threshing", ctx: "곡식을 타작함", text: "곡식을 타작했다" },
+  { id: "threshing", ctx: "짚만 많고 낟알은 적게 타작함", text: "짚만 많고 낟알은 적게 타작했다" },
+  { id: "threshing", ctx: "타작하다가 기계가 고장 나거나 사고가 남", text: "타작하다가 기계가 고장 났다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징들의 옛 답이 그대로인지 ────────
-  { id: "cable", ctx: "케이블을 봄", text: "케이블을 보았다" },
-  { id: "cable", ctx: "해외 전보를 받음", text: "해외 전보를 받았다" },
-  { id: "spyglass", ctx: "망원경으로 봄", text: "망원경으로 들여다보았다" },
-  { id: "lodger", ctx: "하숙인이 셈을 치름", text: "하숙인이 셈을 치렀다" },
-  { id: "ninepins", ctx: "구주희를 함", text: "구주희를 했다" },
-  { id: "house", ctx: "지붕을 새로 덮음", text: "집 지붕을 새로 덮었다" },
-  { id: "camp", ctx: "노천에서 야영함", text: "노천에서 야영을 했다" },
+  { id: "thief", ctx: "도적을 쫓아가는 것을 봄", text: "도적을 쫓아가는 것을 지켜보았다" },
+  { id: "thread", ctx: "실을 얻음", text: "실을 얻었다" },
 ];
 
 let notFound = 0;

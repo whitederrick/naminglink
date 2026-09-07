@@ -512,7 +512,9 @@
       "도둑들이 자신의 몸을 뒤짐": "뒤졌 뒤지 몸을",
       "자기 집이나 사업장이 도둑맞음": "도둑맞 사업장 가게 털렸",
       "도둑질을 했다고 몰림": "몰렸다 오해",
-      "남을 도둑질했다고 몰아세움": "몰아세웠다 성급"
+      "남을 도둑질했다고 몰아세움": "몰아세웠다 성급",
+      "도둑이 되어 경관에게 쫓김": "경관에게",
+      "스스로 도둑을 쫓거나 붙잡음": "붙잡"
     },
     "contexts_en": {
       "무리를 이끌고 도적을 무찌름": "defeated led troops fought",
@@ -525,7 +527,9 @@
       "도둑들이 자신의 몸을 뒤짐": "searched frisked pockets body",
       "자기 집이나 사업장이 도둑맞음": "robbed burglarized store premises",
       "도둑질을 했다고 몰림": "accused misunderstood favor",
-      "남을 도둑질했다고 몰아세움": "hasty inconsideration"
+      "남을 도둑질했다고 몰아세움": "hasty inconsideration",
+      "도둑이 되어 경관에게 쫓김": "officers reverses unpleasant",
+      "스스로 도둑을 쫓거나 붙잡음": "pursue capture overcome"
     }
   },
   {
