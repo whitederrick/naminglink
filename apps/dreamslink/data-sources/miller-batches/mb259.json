@@ -1,0 +1,15 @@
+{
+  "batch": 259,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Step-sister", "text": "To dream of a step-sister, denotes you will have unavoidable care and annoyance upon you.", "note": "새 상징 step-sister(의붓자매)" },
+    { "headword": "Stethoscope", "text": "To dream of a stethoscope, foretells calamity to your hopes and enterprises.  There will be troubles and recriminations in love.", "note": "새 상징 stethoscope(청진기), 두 문장을 한 의미로 묶음" },
+    { "headword": "Sticks", "text": "To dream of sticks, is an unlucky omen.", "note": "새 상징 sticks(막대기)" },
+    { "headword": "Stillborn", "text": "To dream of a stillborn infant, denotes that some distressing incident will come before your notice.", "note": "새 상징 stillborn(사산아)" },
+    { "headword": "Stilts", "text": "To dream of walking on stilts, denotes that your fortune is in an insecure condition.\n\nTo fall from them, or feel them break beneath you, you will be precipitated into embarrassments by trusting your affairs to the care of others.", "note": "새 상징 stilts(죽마)" },
+    { "headword": "Sting", "text": "To feel that any insect stings you in a dream, is a foreboding of evil and unhappiness.\n\nFor a young woman to dream that she is stung, is ominous of sorrow and remorse from over-confidence in men.", "note": "새 상징 sting(쏘임) — 특정 벌레가 아니라 일반적인 쏘임" },
+    { "headword": "Stockings", "text": "To dream of stockings, denotes that you will derive pleasure from dissolute companionship.\n\nFor a young woman to see her stockings ragged, or worn, foretells that she will be guilty of unwise, if not immoral conduct.  To dream that she puts on fancy stockings, she will be fond of the attention of men, and she should be careful to whom she shows preference.  If white ones appear to be on her feet, she is threatened with woeful disappointment or illness.", "note": "새 상징 stockings(스타킹) — garter(대님)와는 다른 상징" }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

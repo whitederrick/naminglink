@@ -7695,5 +7695,34 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "steeple",
     "a steeple",
     "steeples"
+  ],
+  "step-sister": [
+    "step-sister",
+    "a step-sister"
+  ],
+  "stethoscope": [
+    "stethoscope",
+    "a stethoscope"
+  ],
+  "sticks": [
+    "sticks",
+    "a stick"
+  ],
+  "stillborn": [
+    "stillborn",
+    "a stillborn infant"
+  ],
+  "stilts": [
+    "stilts",
+    "walking on stilts"
+  ],
+  "sting": [
+    "sting",
+    "stung",
+    "stings"
+  ],
+  "stockings": [
+    "stockings",
+    "a stocking"
   ]
 };

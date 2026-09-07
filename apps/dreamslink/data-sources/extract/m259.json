@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "의붓자매",
+    "term_en": "step-sister",
+    "context": "의붓자매 꿈을 꿈",
+    "interpretation_ko": "피할 수 없는 근심과 성가심을 짊어질 조짐",
+    "interpretation_en": "denotes you will have unavoidable care and annoyance upon you",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Step-sister",
+      "original": "To dream of a step-sister, denotes you will have unavoidable care and annoyance upon you.",
+      "translation_ko": "의붓자매 꿈은, 피할 수 없는 근심과 성가심을 짊어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "청진기",
+    "term_en": "stethoscope",
+    "context": "청진기 꿈을 꿈",
+    "interpretation_ko": "품은 희망과 벌인 일에 재앙이 닥치고, 사랑에서도 다툼과 비난을 겪을 조짐",
+    "interpretation_en": "foretells calamity to your hopes and enterprises; there will be troubles and recriminations in love",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Stethoscope",
+      "original": "To dream of a stethoscope, foretells calamity to your hopes and enterprises. There will be troubles and recriminations in love.",
+      "translation_ko": "청진기 꿈은, 품은 희망과 벌인 일에 재앙이 닥치고 사랑에서도 다툼과 비난을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "막대기",
+    "term_en": "sticks",
+    "context": "막대기 꿈을 꿈",
+    "interpretation_ko": "불운한 조짐",
+    "interpretation_en": "is an unlucky omen",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Sticks",
+      "original": "To dream of sticks, is an unlucky omen.",
+      "translation_ko": "막대기 꿈은, 불운한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "사산아",
+    "term_en": "stillborn",
+    "context": "사산아 꿈을 꿈",
+    "interpretation_ko": "괴로운 일이 눈앞에 닥칠 조짐",
+    "interpretation_en": "denotes that some distressing incident will come before your notice",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Stillborn",
+      "original": "To dream of a stillborn infant, denotes that some distressing incident will come before your notice.",
+      "translation_ko": "사산아 꿈은, 괴로운 일이 눈앞에 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "죽마(스틸트)",
+    "term_en": "stilts",
+    "context": "죽마를 타고 걸음",
+    "interpretation_ko": "형편이 불안정한 조짐",
+    "interpretation_en": "denotes that your fortune is in an insecure condition",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Stilts",
+      "original": "To dream of walking on stilts, denotes that your fortune is in an insecure condition.",
+      "translation_ko": "죽마를 타고 걷는 꿈은, 형편이 불안정한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "죽마(스틸트)",
+    "term_en": "stilts",
+    "context": "죽마에서 떨어지거나 부러지는 것을 느낌",
+    "interpretation_ko": "남에게 자기 일을 맡겼다가 곤란에 빠질 조짐",
+    "interpretation_en": "you will be precipitated into embarrassments by trusting your affairs to the care of others",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Stilts",
+      "original": "To fall from them, or feel them break beneath you, you will be precipitated into embarrassments by trusting your affairs to the care of others.",
+      "translation_ko": "죽마에서 떨어지거나 부러지는 것을 느끼는 꿈은, 남에게 자기 일을 맡겼다가 곤란에 빠질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "쏘임",
+    "term_en": "sting",
+    "context": "벌레에게 쏘이는 느낌을 받음",
+    "interpretation_ko": "나쁜 일과 불행이 닥칠 조짐",
+    "interpretation_en": "is a foreboding of evil and unhappiness",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sting",
+      "original": "To feel that any insect stings you in a dream, is a foreboding of evil and unhappiness.",
+      "translation_ko": "벌레에게 쏘이는 느낌을 받는 꿈은, 나쁜 일과 불행이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "쏘임",
+    "term_en": "sting",
+    "context": "여성이 쏘였다고 느낌",
+    "interpretation_ko": "남자를 지나치게 믿다 슬픔과 뉘우침을 겪을 조짐",
+    "interpretation_en": "is ominous of sorrow and remorse from over-confidence in men",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Sting",
+      "original": "For a young woman to dream that she is stung, is ominous of sorrow and remorse from over-confidence in men.",
+      "translation_ko": "여성이 쏘였다고 느끼는 꿈은, 남자를 지나치게 믿다 슬픔과 뉘우침을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "스타킹",
+    "term_en": "stockings",
+    "context": "스타킹 꿈을 꿈",
+    "interpretation_ko": "방탕한 무리와 어울리며 즐거움을 얻을 조짐",
+    "interpretation_en": "denotes that you will derive pleasure from dissolute companionship",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Stockings",
+      "original": "To dream of stockings, denotes that you will derive pleasure from dissolute companionship.",
+      "translation_ko": "스타킹 꿈은, 방탕한 무리와 어울리며 즐거움을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "스타킹",
+    "term_en": "stockings",
+    "context": "여성이 해지거나 낡은 스타킹을 봄",
+    "interpretation_ko": "부주의하거나 부도덕한 짓을 저지를 조짐",
+    "interpretation_en": "foretells that she will be guilty of unwise, if not immoral conduct",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Stockings",
+      "original": "For a young woman to see her stockings ragged, or worn, foretells that she will be guilty of unwise, if not immoral conduct.",
+      "translation_ko": "여성이 해지거나 낡은 스타킹을 보는 꿈은, 부주의하거나 부도덕한 짓을 저지를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "스타킹",
+    "term_en": "stockings",
+    "context": "여성이 화려한 스타킹을 신음",
+    "interpretation_ko": "남자들의 관심을 즐기게 되니 누구를 편애할지 조심해야 할 조짐",
+    "interpretation_en": "she will be fond of the attention of men, and she should be careful to whom she shows preference",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Stockings",
+      "original": "To dream that she puts on fancy stockings, she will be fond of the attention of men, and she should be careful to whom she shows preference.",
+      "translation_ko": "여성이 화려한 스타킹을 신는 꿈은, 남자들의 관심을 즐기게 되니 누구를 편애할지 조심해야 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "스타킹",
+    "term_en": "stockings",
+    "context": "여성의 발에 흰 스타킹이 신겨 있음",
+    "interpretation_ko": "서글픈 실망이나 병에 시달릴 조짐",
+    "interpretation_en": "she is threatened with woeful disappointment or illness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Stockings",
+      "original": "If white ones appear to be on her feet, she is threatened with woeful disappointment or illness.",
+      "translation_ko": "여성의 발에 흰 스타킹이 신겨 있는 꿈은, 서글픈 실망이나 병에 시달릴 조짐이다"
+    }
+  }
+]

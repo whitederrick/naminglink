@@ -1,0 +1,123 @@
+[
+  {
+    "id": "step-sister",
+    "aliases": [
+      "의붓자매가",
+      "의붓자매를",
+      "이복 자매"
+    ],
+    "aliases_en": [
+      "step-sister",
+      "a step-sister"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "stethoscope",
+    "aliases": [
+      "청진기가",
+      "청진기를"
+    ],
+    "aliases_en": [
+      "stethoscope",
+      "a stethoscope"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "sticks",
+    "aliases": [
+      "막대기가",
+      "막대기를",
+      "작대기"
+    ],
+    "aliases_en": [
+      "sticks",
+      "a stick"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "stillborn",
+    "aliases": [
+      "사산아를",
+      "사산된 아이",
+      "사산했다"
+    ],
+    "aliases_en": [
+      "stillborn",
+      "a stillborn infant"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "stilts",
+    "aliases": [
+      "죽마를",
+      "죽마에서",
+      "스틸트"
+    ],
+    "aliases_en": [
+      "stilts",
+      "walking on stilts"
+    ],
+    "contexts": {
+      "죽마를 타고 걸음": "걸었다 타고",
+      "죽마에서 떨어지거나 부러지는 것을 느낌": "떨어지 부러지는"
+    },
+    "contexts_en": {
+      "죽마를 타고 걸음": "insecure condition",
+      "죽마에서 떨어지거나 부러지는 것을 느낌": "fall break embarrassments"
+    }
+  },
+  {
+    "id": "sting",
+    "aliases": [
+      "쏘였다",
+      "쏘이는",
+      "쏘였",
+      "쏘인"
+    ],
+    "aliases_en": [
+      "sting",
+      "stung",
+      "stings"
+    ],
+    "contexts": {
+      "벌레에게 쏘이는 느낌을 받음": "벌레에게 느꼈다",
+      "여성이 쏘였다고 느낌": "여성이 슬픔"
+    },
+    "contexts_en": {
+      "벌레에게 쏘이는 느낌을 받음": "insect foreboding evil",
+      "여성이 쏘였다고 느낌": "woman sorrow remorse"
+    }
+  },
+  {
+    "id": "stockings",
+    "aliases": [
+      "스타킹을",
+      "스타킹이",
+      "긴 양말"
+    ],
+    "aliases_en": [
+      "stockings",
+      "a stocking"
+    ],
+    "contexts": {
+      "스타킹 꿈을 꿈": "그냥",
+      "여성이 해지거나 낡은 스타킹을 봄": "해지거나 낡은",
+      "여성이 화려한 스타킹을 신음": "화려한 신었다",
+      "여성의 발에 흰 스타킹이 신겨 있음": "신겨"
+    },
+    "contexts_en": {
+      "스타킹 꿈을 꿈": "dissolute companionship",
+      "여성이 해지거나 낡은 스타킹을 봄": "ragged worn unwise",
+      "여성이 화려한 스타킹을 신음": "fancy attention preference",
+      "여성의 발에 흰 스타킹이 신겨 있음": "white feet woeful"
+    }
+  }
+]

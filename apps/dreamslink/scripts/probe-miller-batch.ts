@@ -1,15 +1,8 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 258 — 기존 star·thief에 문맥을 보태고, 새 상징
-// 둘(standard-bearer·steeple)을 세웠다. Starving·Statues·Steps 세
-// 표제어는 각각 famish·image·ascend의 기존 문맥과 같은 그림·다른
-// 풀이라 문장 전부를 건너뛰었다(§31 곁가지) — 이번 배치가 새 문맥을
-// 하나도 못 얻은 표제어가 셋이나 되는 드문 판이다. star·thief 둘 다
-// r 파일에서만 왔는데 새 m258 이 항상 그보다 앞서 정렬돼(모든
-// m*<r*) 기본값이 바뀔 뻔했지만 둘 다 옛 값 그대로 얼렸다.
-// standard-bearer는 term_ko를 「기수(깃발잡이)」로 지었지만 매칭
-// 별칭 "기수가"·"기수를"은 여전히 jockey(騎手)의 "기수"와 동음이의로
-// 겹친다 — 진짜 동형이의어라 받아들였다(§31 배치 31의 「눈」 눈雪/眼과
-// 같은 판단, 참고 목록에만 남고 하드 실패는 아니다)
+// (지금 담긴 것: 배치 259 — 새 상징 일곱(step-sister·stethoscope·
+// sticks·stillborn·stilts·sting·stockings)을 세웠다. sticks(막대기)가
+// 기존 club(몽둥이)의 별칭 "막대기"와 겹쳐서 club 쪽에서 그 별칭을
+// 놓아줬다 — club은 "방망이"·"곤봉"으로도 이미 충분히 걸린다)
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -40,26 +33,22 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 258 새 문맥 (12건. Starving·Statues·Steps는 통째로 건너뜀) ──
-  { id: "standard-bearer", ctx: "스스로 기수가 됨", text: "스스로 기수가 되었다" },
-  { id: "standard-bearer", ctx: "남들이 기수 노릇을 하는 것을 봄", text: "남들이 기수 노릇을 하는 것을 보았다" },
-  { id: "star", ctx: "흐릿하거나 붉은 별을 봄", text: "흐릿하거나 붉은 별을 보았다" },
-  { id: "star", ctx: "별이 나타났다 사라지기를 알 수 없이 되풀이함", text: "별이 나타났다 사라지기를 알 수 없이 되풀이했다" },
-  { id: "star", ctx: "별이 나에게 떨어짐", text: "별이 나에게 떨어졌다" },
-  { id: "star", ctx: "별들이 땅에서 굴러다니는 것을 봄", text: "별들이 땅에서 굴러다니는 것을 보았다" },
-  { id: "thief", ctx: "도둑질을 했다고 몰림", text: "도둑질을 했다고 몰렸다" },
-  { id: "thief", ctx: "남을 도둑질했다고 몰아세움", text: "남에게 도둑질을 뒤집어씌우며 몰아세웠다" },
-  { id: "steeple", ctx: "교회에서 솟은 첨탑을 봄", text: "교회에서 솟은 첨탑을 보았다" },
-  { id: "steeple", ctx: "부서진 첨탑을 봄", text: "부서진 첨탑을 보았다" },
-  { id: "steeple", ctx: "첨탑을 오름", text: "첨탑을 올랐다" },
-  { id: "steeple", ctx: "첨탑에서 떨어짐", text: "첨탑에서 떨어졌다" },
+  // ── 배치 259 새 문맥 (12건, 전부 새 상징) ──────────────────────────────
+  { id: "step-sister", ctx: "의붓자매 꿈을 꿈", text: "의붓자매 꿈을 꾸었다" },
+  { id: "stethoscope", ctx: "청진기 꿈을 꿈", text: "청진기 꿈을 꾸었다" },
+  { id: "sticks", ctx: "막대기 꿈을 꿈", text: "막대기 꿈을 꾸었다" },
+  { id: "stillborn", ctx: "사산아 꿈을 꿈", text: "사산아 꿈을 꾸었다" },
+  { id: "stilts", ctx: "죽마를 타고 걸음", text: "죽마를 타고 걸었다" },
+  { id: "stilts", ctx: "죽마에서 떨어지거나 부러지는 것을 느낌", text: "죽마에서 떨어지는 것을 느꼈다" },
+  { id: "sting", ctx: "벌레에게 쏘이는 느낌을 받음", text: "벌레에게 쏘이는 느낌을 받았다" },
+  { id: "sting", ctx: "여성이 쏘였다고 느낌", text: "여성이 벌레에 쏘인 느낌을 받았다" },
+  { id: "stockings", ctx: "스타킹 꿈을 꿈", text: "스타킹 꿈을 꾸었다" },
+  { id: "stockings", ctx: "여성이 해지거나 낡은 스타킹을 봄", text: "여성이 해지거나 낡은 스타킹을 보았다" },
+  { id: "stockings", ctx: "여성이 화려한 스타킹을 신음", text: "여성이 화려한 스타킹을 신었다" },
+  { id: "stockings", ctx: "여성의 발에 흰 스타킹이 신겨 있음", text: "여성의 발에 흰 스타킹이 신겨 있었다" },
 
-  // ── 지킴 케이스 — 이번에 손댄 기존 상징(star·thief)의 옛 답이 그대로인지 ──
-  { id: "star", ctx: "하늘의 별이 밝게 빛남", text: "하늘의 별이 밝게 빛났다" },
-  { id: "star", ctx: "별이 떨어짐", text: "별이 떨어졌다" },
-  { id: "star", ctx: "별이 줄지어 늘어섬", text: "별이 줄지어 늘어섰다" },
-  { id: "thief", ctx: "도둑들이 자신의 몸을 뒤짐", text: "도둑들이 내 몸을 뒤졌다" },
-  { id: "thief", ctx: "자기가 도둑이 됨", text: "자기가 도둑이 되었다" },
+  // ── 지킴 케이스 — 이번에 손댄 기존 상징(club)의 옛 답이 그대로인지 ────
+  { id: "club", ctx: "남을 몽둥이로 침", text: "남을 몽둥이로 쳤다" },
 ];
 
 let notFound = 0;

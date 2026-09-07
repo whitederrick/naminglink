@@ -5869,5 +5869,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "steeple::교회에서 솟은 첨탑을 봄": "rising church harbinger",
   "steeple::부서진 첨탑을 봄": "broken death circle",
   "steeple::첨탑을 오름": "climb difficulties surmount",
-  "steeple::첨탑에서 떨어짐": "fall losses trade"
+  "steeple::첨탑에서 떨어짐": "fall losses trade",
+  "stilts::죽마를 타고 걸음": "insecure condition",
+  "stilts::죽마에서 떨어지거나 부러지는 것을 느낌": "fall break embarrassments",
+  "sting::벌레에게 쏘이는 느낌을 받음": "insect foreboding evil",
+  "sting::여성이 쏘였다고 느낌": "woman sorrow remorse",
+  "stockings::스타킹 꿈을 꿈": "dissolute companionship",
+  "stockings::여성이 해지거나 낡은 스타킹을 봄": "ragged worn unwise",
+  "stockings::여성이 화려한 스타킹을 신음": "fancy attention preference",
+  "stockings::여성의 발에 흰 스타킹이 신겨 있음": "white feet woeful"
 };
