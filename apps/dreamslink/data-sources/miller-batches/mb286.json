@@ -1,0 +1,36 @@
+{
+  "batch": 286,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Vase",
+      "text": "To dream of a vase, denotes that you will enjoy sweetest pleasure and contentment in the home life.\n\nTo drink from a vase, you will soon thrill with the delights of stolen love.\n\nTo see a broken vase, foretells early sorrow.  For a young woman to receive one, signifies that she will soon obtain her dearest wish.",
+      "note": "새 상징 vase(꽃병)"
+    },
+    {
+      "headword": "Vat",
+      "text": "To see a vat in your dreams, foretells anguish and suffering from the hands of cruel persons, into which you have unwittingly fallen.",
+      "note": "새 상징 vat(큰 통)"
+    },
+    {
+      "headword": "Vatican",
+      "text": "To dream of the vatican, signifies unexpected favors will fall within your grasp.  You will form the acquaintance of distinguished people, if you see royal personages speaking to the Pope.",
+      "note": "새 상징 vatican(바티칸)"
+    },
+    {
+      "headword": "Vault",
+      "text": "To dream of a vault, denotes bereavement and other misfortune.\nTo see a vault for valuables, signifies your fortune will surprise many, as your circumstances will appear to be meagre.\nTo see the doors of a vault open, implies loss and treachery of people whom you trust.",
+      "note": "밀러가 한 표제어에 두 뜻(납골 무덤 vs 귀중품 금고)을 섞어 씀 — 첫 문장은 기존 grave(무덤)에, 나머지 둘은 기존 cash-box(금고)에 나눠 합침. 첫 문장을 cash-box에 넣으면 기존 「금고를 봄」(안전, 길조)과 같은 그림에 정반대 극성이라 grave 쪽으로 돌림"
+    },
+    {
+      "headword": "Vegetables",
+      "text": "To dream of eating vegetables, is an omen of strange luck.  You will think for a time that you are tremendously successful, but will find to your sorrow that you have been grossly imposed upon.\n\nWithered, or decayed vegetables, bring unmitigated woe and sadness.\n\nFor a young woman to dream that she is preparing vegetables for dinner, foretells that she will lose the man she desired through pique, but she will win a well-meaning and faithful husband.  Her engagements will be somewhat disappointing.",
+      "note": "기존 vegetables(채소) 상징에 문맥 3개 추가"
+    },
+    {
+      "headword": "Vehicle",
+      "text": "To ride in a vehicle while dreaming, foretells threatened loss, or illness.\n\nTo be thrown from one, foretells hasty and unpleasant news.\nTo see a broken one, signals failure in important affairs.\n\nTo buy one, you will reinstate yourself in your former position.\nTo sell one, denotes unfavorable change in affairs.",
+      "note": "기존 carriage(마차) 상징에 문맥 4개 추가. 첫 문장(탈것을 타고 있음)은 기존 「마차를 타고 감」과 같은 그림이라 §31로 건너뜀"
+    }
+  ]
+}

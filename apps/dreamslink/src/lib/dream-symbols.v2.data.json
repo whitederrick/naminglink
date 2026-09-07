@@ -209,6 +209,7 @@
     "m283.json",
     "m284.json",
     "m285.json",
+    "m286.json",
     "m29.json",
     "m3.json",
     "m30.json",
@@ -3808,6 +3809,20 @@
               "locator": "Tomb",
               "original": "To read the inscription on tombs, foretells unpleasant duties.",
               "translation_ko": "무덤의 비문을 읽는 꿈은, 달갑잖은 일을 떠맡을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "납골 무덤 꿈을 꿈",
+          "interpretation_ko": "사별과 그 밖의 불운을 뜻하는 조짐",
+          "interpretation_en": "denotes bereavement and other misfortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vault",
+              "original": "To dream of a vault, denotes bereavement and other misfortune.",
+              "translation_ko": "납골 무덤 꿈을 꾸면, 사별과 그 밖의 불운을 뜻하는 조짐이다"
             }
           ]
         },
@@ -12773,6 +12788,222 @@
       "label_ko": "눈(雪)"
     },
     {
+      "id": "carriage",
+      "term_ko": "마차",
+      "term_en": "carriage",
+      "aliases": [
+        "사륜마차",
+        "마차를 탔다",
+        "무개마차",
+        "합승마차"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "마차를 봄",
+          "interpretation_ko": "흡족한 일이 있고 남을 찾아다니게 될 조짐",
+          "interpretation_en": "you will be gratified, and you will make visits",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carriage",
+              "original": "To see a carriage, implies that you will be gratified, and that you will make visits.",
+              "translation_ko": "마차를 보면 흡족한 일이 있고 남을 찾아다니게 된다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 타고 감",
+          "interpretation_ko": "곧 지나갈 병을 앓은 뒤 건강과 좋은 자리를 누릴 조짐",
+          "interpretation_en": "a sickness that will soon pass, and then health and advantageous positions",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carriage",
+              "original": "To ride in one, you will have a sickness that will soon pass, and you will enjoy health and advantageous positions.",
+              "translation_ko": "마차를 타고 가면 곧 지나갈 병을 앓고, 그 뒤 건강과 이로운 자리를 누린다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 찾아다님",
+          "interpretation_ko": "고되게 일해야 하나 끝내는 웬만한 살림을 갖출 조짐",
+          "interpretation_en": "you will have to labor hard, but will eventually be possessed with a fair competency",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Carriage",
+              "original": "To dream that you are looking for a carriage, you will have to labor hard, but will eventually be possessed with a fair competency.",
+              "translation_ko": "마차를 찾아다니는 꿈은 고되게 일해야 하나 끝내는 웬만한 살림을 갖추게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "합승마차를 타고 거리를 지남",
+          "interpretation_ko": "벗과의 오해와 경솔한 약속이 있을 흉조",
+          "interpretation_en": "to dream that you are being drawn through the streets in an omnibus, foretells misunderstandings with friends, and unwise promises will be made by you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Omnibus",
+              "original": "To dream that you are being drawn through the streets in an omnibus, foretells misunderstandings with friends, and unwise promises will be made by you.",
+              "translation_ko": "합승마차를 타고 거리를 지나는 꿈은, 벗과의 오해와 경솔한 약속을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 몲",
+          "interpretation_ko": "헤퍼 보인다는 억울한 말을 듣고, 떳떳지 못해 보이는 일을 하게 될 조짐",
+          "interpretation_en": "unjust criticism of your seeming extravagance; you will be compelled to do things which appear undignified",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "To dream of driving a carriage, signifies unjust criticism of your seeming extravagance. You will be compelled to do things which appear undignified.",
+              "translation_ko": "마차를 모는 꿈은, 헤퍼 보인다는 억울한 말을 듣고 떳떳지 못해 보이는 일을 하게 됨을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "남자가 남이 모는 마차에 실려 감",
+          "interpretation_ko": "여자와의 일에서 바라던 바를 빠르게 이룰 조짐",
+          "interpretation_en": "in affairs with women, you will drive your wishes to a speedy consummation",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If you are a man, you will, in affairs with women, drive your wishes to a speedy consummation.",
+              "translation_ko": "남자라면, 여자와의 일에서 바라던 바를 빠르게 이룬다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 남이 모는 마차에 실려 감",
+          "interpretation_ko": "남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여길 조짐",
+          "interpretation_en": "you will hold men's hearts at low value after succeeding in getting a hold on them",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If a woman, you will hold men's hearts at low value after succeeding in getting a hold on them.",
+              "translation_ko": "여자라면, 남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여기게 된다"
+            }
+          ]
+        },
+        {
+          "context": "남이 모는 마차에 실려 감",
+          "interpretation_ko": "세상을 더 잘 아는 덕을 보고, 어려움 속에서도 늘 길을 찾을 조짐",
+          "interpretation_en": "you will profit by superior knowledge of the world, and will always find some path through difficulties",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Driving",
+              "original": "If you are driven in these conveyances by others, you will profit by superior knowledge of the world, and will always find some path through difficulties.",
+              "translation_ko": "남이 모는 수레에 실려 가면, 세상을 더 잘 아는 덕을 보고 어려움 속에서도 늘 길을 찾는다"
+            }
+          ]
+        },
+        {
+          "context": "마차에서 떨어짐",
+          "interpretation_ko": "갑작스럽고 언짢은 소식을 예고",
+          "interpretation_en": "foretells hasty and unpleasant news",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vehicle",
+              "original": "To be thrown from one, foretells hasty and unpleasant news.",
+              "translation_ko": "마차에서 떨어지는 꿈은, 갑작스럽고 언짢은 소식을 예고한다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 마차를 봄",
+          "interpretation_ko": "중요한 일에서 실패를 알리는 조짐",
+          "interpretation_en": "signals failure in important affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vehicle",
+              "original": "To see a broken one, signals failure in important affairs.",
+              "translation_ko": "부서진 마차를 보는 꿈은, 중요한 일에서 실패를 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 삼",
+          "interpretation_ko": "예전의 자리로 되돌아갈 조짐",
+          "interpretation_en": "you will reinstate yourself in your former position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vehicle",
+              "original": "To buy one, you will reinstate yourself in your former position.",
+              "translation_ko": "마차를 사는 꿈은, 예전의 자리로 되돌아갈 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "마차를 팖",
+          "interpretation_ko": "일에서 언짢은 변화가 있을 조짐",
+          "interpretation_en": "denotes unfavorable change in affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vehicle",
+              "original": "To sell one, denotes unfavorable change in affairs.",
+              "translation_ko": "마차를 파는 꿈은, 일에서 언짢은 변화가 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벗이나 정인과 함께 마차를 타고 감",
+          "interpretation_ko": "가볍고 즐거운 일들이 잇달아 삶을 스쳐 갈 길한 조짐",
+          "interpretation_en": "denotes that incidents of a light, but pleasant character will pass in rapid succession through your life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Landau",
+              "original": "To dream that you ride in a landau, with your friend or sweetheart, denotes that incidents of a light, but pleasant character will pass in rapid succession through your life.",
+              "translation_ko": "벗이나 정인과 함께 마차를 타고 가는 꿈을 꾸면, 가볍고 즐거운 일들이 잇달아 삶을 스쳐 간다"
+            }
+          ]
+        },
+        {
+          "context": "마차가 뒤집힘",
+          "interpretation_ko": "즐거움이 갑자기 슬픔으로 바뀔 흉한 조짐",
+          "interpretation_en": "then pleasure will abruptly turn into woe",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Landau",
+              "original": "If the vehicle is overturned, then pleasure will abruptly turn into woe.",
+              "translation_ko": "마차가 뒤집히면 즐거움이 갑자기 슬픔으로 바뀐다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "flying",
       "term_ko": "하늘을 낢",
       "term_en": "flying",
@@ -20062,166 +20293,6 @@
               "locator": "Forsaking",
               "original": "For a young woman to dream of forsaking her home or friend, denotes that she will have troubles in love, as her estimate of her lover will decrease with acquaintance and association.",
               "translation_ko": "젊은 여성이 제 집이나 벗을 저버리는 꿈은, 사귀고 어울릴수록 정인에 대한 마음이 식어 사랑에 어려움이 있음을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "carriage",
-      "term_ko": "마차",
-      "term_en": "carriage",
-      "aliases": [
-        "사륜마차",
-        "마차를 탔다",
-        "무개마차",
-        "합승마차"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "마차를 봄",
-          "interpretation_ko": "흡족한 일이 있고 남을 찾아다니게 될 조짐",
-          "interpretation_en": "you will be gratified, and you will make visits",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carriage",
-              "original": "To see a carriage, implies that you will be gratified, and that you will make visits.",
-              "translation_ko": "마차를 보면 흡족한 일이 있고 남을 찾아다니게 된다"
-            }
-          ]
-        },
-        {
-          "context": "마차를 타고 감",
-          "interpretation_ko": "곧 지나갈 병을 앓은 뒤 건강과 좋은 자리를 누릴 조짐",
-          "interpretation_en": "a sickness that will soon pass, and then health and advantageous positions",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carriage",
-              "original": "To ride in one, you will have a sickness that will soon pass, and you will enjoy health and advantageous positions.",
-              "translation_ko": "마차를 타고 가면 곧 지나갈 병을 앓고, 그 뒤 건강과 이로운 자리를 누린다"
-            }
-          ]
-        },
-        {
-          "context": "마차를 찾아다님",
-          "interpretation_ko": "고되게 일해야 하나 끝내는 웬만한 살림을 갖출 조짐",
-          "interpretation_en": "you will have to labor hard, but will eventually be possessed with a fair competency",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Carriage",
-              "original": "To dream that you are looking for a carriage, you will have to labor hard, but will eventually be possessed with a fair competency.",
-              "translation_ko": "마차를 찾아다니는 꿈은 고되게 일해야 하나 끝내는 웬만한 살림을 갖추게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "합승마차를 타고 거리를 지남",
-          "interpretation_ko": "벗과의 오해와 경솔한 약속이 있을 흉조",
-          "interpretation_en": "to dream that you are being drawn through the streets in an omnibus, foretells misunderstandings with friends, and unwise promises will be made by you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Omnibus",
-              "original": "To dream that you are being drawn through the streets in an omnibus, foretells misunderstandings with friends, and unwise promises will be made by you.",
-              "translation_ko": "합승마차를 타고 거리를 지나는 꿈은, 벗과의 오해와 경솔한 약속을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "마차를 몲",
-          "interpretation_ko": "헤퍼 보인다는 억울한 말을 듣고, 떳떳지 못해 보이는 일을 하게 될 조짐",
-          "interpretation_en": "unjust criticism of your seeming extravagance; you will be compelled to do things which appear undignified",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "To dream of driving a carriage, signifies unjust criticism of your seeming extravagance. You will be compelled to do things which appear undignified.",
-              "translation_ko": "마차를 모는 꿈은, 헤퍼 보인다는 억울한 말을 듣고 떳떳지 못해 보이는 일을 하게 됨을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "남자가 남이 모는 마차에 실려 감",
-          "interpretation_ko": "여자와의 일에서 바라던 바를 빠르게 이룰 조짐",
-          "interpretation_en": "in affairs with women, you will drive your wishes to a speedy consummation",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "If you are a man, you will, in affairs with women, drive your wishes to a speedy consummation.",
-              "translation_ko": "남자라면, 여자와의 일에서 바라던 바를 빠르게 이룬다"
-            }
-          ]
-        },
-        {
-          "context": "여자가 남이 모는 마차에 실려 감",
-          "interpretation_ko": "남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여길 조짐",
-          "interpretation_en": "you will hold men's hearts at low value after succeeding in getting a hold on them",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "If a woman, you will hold men's hearts at low value after succeeding in getting a hold on them.",
-              "translation_ko": "여자라면, 남자의 마음을 손에 넣은 뒤 그 마음을 대수롭지 않게 여기게 된다"
-            }
-          ]
-        },
-        {
-          "context": "남이 모는 마차에 실려 감",
-          "interpretation_ko": "세상을 더 잘 아는 덕을 보고, 어려움 속에서도 늘 길을 찾을 조짐",
-          "interpretation_en": "you will profit by superior knowledge of the world, and will always find some path through difficulties",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Driving",
-              "original": "If you are driven in these conveyances by others, you will profit by superior knowledge of the world, and will always find some path through difficulties.",
-              "translation_ko": "남이 모는 수레에 실려 가면, 세상을 더 잘 아는 덕을 보고 어려움 속에서도 늘 길을 찾는다"
-            }
-          ]
-        },
-        {
-          "context": "벗이나 정인과 함께 마차를 타고 감",
-          "interpretation_ko": "가볍고 즐거운 일들이 잇달아 삶을 스쳐 갈 길한 조짐",
-          "interpretation_en": "denotes that incidents of a light, but pleasant character will pass in rapid succession through your life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Landau",
-              "original": "To dream that you ride in a landau, with your friend or sweetheart, denotes that incidents of a light, but pleasant character will pass in rapid succession through your life.",
-              "translation_ko": "벗이나 정인과 함께 마차를 타고 가는 꿈을 꾸면, 가볍고 즐거운 일들이 잇달아 삶을 스쳐 간다"
-            }
-          ]
-        },
-        {
-          "context": "마차가 뒤집힘",
-          "interpretation_ko": "즐거움이 갑자기 슬픔으로 바뀔 흉한 조짐",
-          "interpretation_en": "then pleasure will abruptly turn into woe",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Landau",
-              "original": "If the vehicle is overturned, then pleasure will abruptly turn into woe.",
-              "translation_ko": "마차가 뒤집히면 즐거움이 갑자기 슬픔으로 바뀐다"
             }
           ]
         }
@@ -37236,6 +37307,108 @@
               "locator": "Canoe",
               "original": "Shallow, clear and calm waters in rowing, signifies happiness of a pleasing character, but of short duration.",
               "translation_ko": "노를 저을 때 물이 얕고 맑고 잔잔하면 기꺼운 행복을 뜻하나 오래가지 않는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cash-box",
+      "term_ko": "금고",
+      "term_en": "cash box",
+      "aliases": [
+        "돈궤",
+        "금고 상자"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "가득 찬 금고를 봄",
+          "interpretation_ko": "좋은 앞길이 둘레에 열릴 조짐",
+          "interpretation_en": "favorable prospects will open around you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cash Box",
+              "original": "To dream of a full cash box, denotes that favorable prospects will open around you.",
+              "translation_ko": "가득 찬 금고 꿈은 좋은 앞길이 둘레에 열림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "금고가 비어 있음",
+          "interpretation_ko": "받을 것이 변변찮을 조짐",
+          "interpretation_en": "you will experience meager reimbursements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Cash Box",
+              "original": "If empty, you will experience meager reimbursements.",
+              "translation_ko": "비어 있으면 받을 것이 변변찮다"
+            }
+          ]
+        },
+        {
+          "context": "금고를 봄",
+          "interpretation_ko": "사업과 애정의 낙담스러운 일에서 벗어나 안전할 조짐",
+          "interpretation_en": "denotes security from discouraging affairs of business and love",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Safe",
+              "original": "To dream of seeing a safe, denotes security from discouraging affairs of business and love.",
+              "translation_ko": "금고를 보는 꿈은, 사업과 애정의 낙담스러운 일에서 벗어나 안전할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "금고를 열려고 애씀",
+          "interpretation_ko": "계획이 빨리 이루어지지 않아 걱정할 조짐",
+          "interpretation_en": "you will be worried over the failure of your plans not reaching quick maturity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Safe",
+              "original": "To be trying to unlock a safe, you will be worried over the failure of your plans not reaching quick maturity.",
+              "translation_ko": "금고를 열려고 애쓰는 꿈은, 계획이 빨리 이루어지지 않아 걱정할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "귀중품을 넣어 두는 금고를 봄",
+          "interpretation_ko": "형편이 초라해 보여도 살림이 여럿을 놀라게 할 조짐",
+          "interpretation_en": "signifies your fortune will surprise many, as your circumstances will appear to be meagre",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vault",
+              "original": "To see a vault for valuables, signifies your fortune will surprise many, as your circumstances will appear to be meagre.",
+              "translation_ko": "귀중품을 넣어 두는 금고를 보는 꿈은, 형편이 초라해 보여도 살림이 여럿을 놀라게 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "금고 문이 열려 있음",
+          "interpretation_ko": "믿었던 이들에게 잃음과 배신을 당할 조짐",
+          "interpretation_en": "implies loss and treachery of people whom you trust",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vault",
+              "original": "To see the doors of a vault open, implies loss and treachery of people whom you trust.",
+              "translation_ko": "금고 문이 열려 있는 꿈은, 믿었던 이들에게 잃음과 배신을 당할 조짐이다"
             }
           ]
         }
@@ -58000,80 +58173,6 @@
       ]
     },
     {
-      "id": "cash-box",
-      "term_ko": "금고",
-      "term_en": "cash box",
-      "aliases": [
-        "돈궤",
-        "금고 상자"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "가득 찬 금고를 봄",
-          "interpretation_ko": "좋은 앞길이 둘레에 열릴 조짐",
-          "interpretation_en": "favorable prospects will open around you",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cash Box",
-              "original": "To dream of a full cash box, denotes that favorable prospects will open around you.",
-              "translation_ko": "가득 찬 금고 꿈은 좋은 앞길이 둘레에 열림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "금고가 비어 있음",
-          "interpretation_ko": "받을 것이 변변찮을 조짐",
-          "interpretation_en": "you will experience meager reimbursements",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Cash Box",
-              "original": "If empty, you will experience meager reimbursements.",
-              "translation_ko": "비어 있으면 받을 것이 변변찮다"
-            }
-          ]
-        },
-        {
-          "context": "금고를 봄",
-          "interpretation_ko": "사업과 애정의 낙담스러운 일에서 벗어나 안전할 조짐",
-          "interpretation_en": "denotes security from discouraging affairs of business and love",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Safe",
-              "original": "To dream of seeing a safe, denotes security from discouraging affairs of business and love.",
-              "translation_ko": "금고를 보는 꿈은, 사업과 애정의 낙담스러운 일에서 벗어나 안전할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "금고를 열려고 애씀",
-          "interpretation_ko": "계획이 빨리 이루어지지 않아 걱정할 조짐",
-          "interpretation_en": "you will be worried over the failure of your plans not reaching quick maturity",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Safe",
-              "original": "To be trying to unlock a safe, you will be worried over the failure of your plans not reaching quick maturity.",
-              "translation_ko": "금고를 열려고 애쓰는 꿈은, 계획이 빨리 이루어지지 않아 걱정할 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "cask",
       "term_ko": "나무통",
       "term_en": "cask",
@@ -70633,6 +70732,157 @@
               "locator": "垢污沐浴凌辱",
               "original": "失大小便主失財",
               "translation_ko": "대소변을 잃으면 재물을 잃는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vase",
+      "term_ko": "꽃병",
+      "term_en": "vase",
+      "aliases": [
+        "꽃병이",
+        "꽃병을",
+        "꽃병으로"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "꽃병 꿈을 꿈",
+          "interpretation_ko": "가장 달콤한 즐거움과 집안의 화목을 누릴 조짐",
+          "interpretation_en": "denotes that you will enjoy sweetest pleasure and contentment in the home life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vase",
+              "original": "To dream of a vase, denotes that you will enjoy sweetest pleasure and contentment in the home life.",
+              "translation_ko": "꽃병 꿈을 꾸면, 가장 달콤한 즐거움과 집안의 화목을 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "꽃병으로 마심",
+          "interpretation_ko": "머잖아 떳떳하지 못한 사랑의 짜릿함에 휩싸일 조짐",
+          "interpretation_en": "you will soon thrill with the delights of stolen love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vase",
+              "original": "To drink from a vase, you will soon thrill with the delights of stolen love.",
+              "translation_ko": "꽃병으로 마시는 꿈은, 머잖아 떳떳하지 못한 사랑의 짜릿함에 휩싸일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "깨진 꽃병을 봄",
+          "interpretation_ko": "이른 슬픔의 조짐",
+          "interpretation_en": "foretells early sorrow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vase",
+              "original": "To see a broken vase, foretells early sorrow.",
+              "translation_ko": "깨진 꽃병을 보는 꿈은, 이른 슬픔의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 꽃병을 받음",
+          "interpretation_ko": "머잖아 가장 바라던 바를 이룰 조짐",
+          "interpretation_en": "signifies that she will soon obtain her dearest wish",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vase",
+              "original": "For a young woman to receive one, signifies that she will soon obtain her dearest wish.",
+              "translation_ko": "처녀가 꽃병을 받는 꿈은, 머잖아 가장 바라던 바를 이룰 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vegetables",
+      "term_ko": "채소",
+      "term_en": "vegetables",
+      "aliases": [
+        "나물",
+        "야채",
+        "푸성귀"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "채소를 심음",
+          "interpretation_ko": "오래 살 크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign of a long life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "田園五榖耕種",
+              "original": "種菜主長命大吉",
+              "translation_ko": "채소를 심으면 오래 살고 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "채소를 먹음",
+          "interpretation_ko": "낯선 운수의 조짐 — 한동안 크게 성공했다 여기나 실은 크게 속아 넘어갔음을 슬프게 알게 될 조짐",
+          "interpretation_en": "is an omen of strange luck. You will think for a time that you are tremendously successful, but will find to your sorrow that you have been grossly imposed upon",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vegetables",
+              "original": "To dream of eating vegetables, is an omen of strange luck.  You will think for a time that you are tremendously successful, but will find to your sorrow that you have been grossly imposed upon.",
+              "translation_ko": "채소를 먹는 꿈은, 낯선 운수의 조짐이다 — 한동안 크게 성공했다 여기나 실은 크게 속아 넘어갔음을 슬프게 알게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "시들거나 썩은 채소를 봄",
+          "interpretation_ko": "더할 나위 없는 슬픔과 근심을 부를 조짐",
+          "interpretation_en": "bring unmitigated woe and sadness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vegetables",
+              "original": "Withered, or decayed vegetables, bring unmitigated woe and sadness.",
+              "translation_ko": "시들거나 썩은 채소를 보는 꿈은, 더할 나위 없는 슬픔과 근심을 부를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 저녁상에 낼 채소를 손질함",
+          "interpretation_ko": "샘내는 마음으로 바라던 이는 잃으나 성실하고 착한 남편을 얻을 조짐이며 약혼 과정은 다소 실망스러울 조짐",
+          "interpretation_en": "foretells that she will lose the man she desired through pique, but she will win a well-meaning and faithful husband. Her engagements will be somewhat disappointing",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vegetables",
+              "original": "For a young woman to dream that she is preparing vegetables for dinner, foretells that she will lose the man she desired through pique, but she will win a well-meaning and faithful husband.  Her engagements will be somewhat disappointing.",
+              "translation_ko": "처녀가 저녁상에 낼 채소를 손질하는 꿈은, 샘내는 마음으로 바라던 이는 잃으나 성실하고 착한 남편을 얻을 조짐이며 약혼 과정은 다소 실망스러울 조짐이다"
             }
           ]
         }
@@ -131968,6 +132218,70 @@
       ]
     },
     {
+      "id": "vat",
+      "term_ko": "큰 통",
+      "term_en": "vat",
+      "aliases": [
+        "큰 통이",
+        "큰 통을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "큰 통 꿈을 꿈",
+          "interpretation_ko": "모진 이들의 손에 걸려 저도 모르게 괴로움과 고통에 빠질 조짐",
+          "interpretation_en": "foretells anguish and suffering from the hands of cruel persons, into which you have unwittingly fallen",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vat",
+              "original": "To see a vat in your dreams, foretells anguish and suffering from the hands of cruel persons, into which you have unwittingly fallen.",
+              "translation_ko": "큰 통 꿈을 꾸면, 모진 이들의 손에 걸려 저도 모르게 괴로움과 고통에 빠질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vatican",
+      "term_ko": "바티칸",
+      "term_en": "vatican",
+      "aliases": [
+        "바티칸을",
+        "바티칸에서"
+      ],
+      "category": "place",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "바티칸 꿈을 꿈",
+          "interpretation_ko": "뜻밖의 호의가 손에 들어오고 교황과 말을 나누는 왕족을 보면 이름난 이들과 친분을 맺을 조짐",
+          "interpretation_en": "signifies unexpected favors will fall within your grasp. You will form the acquaintance of distinguished people, if you see royal personages speaking to the Pope",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vatican",
+              "original": "To dream of the vatican, signifies unexpected favors will fall within your grasp.  You will form the acquaintance of distinguished people, if you see royal personages speaking to the Pope.",
+              "translation_ko": "바티칸 꿈을 꾸면, 뜻밖의 호의가 손에 들어오고 교황과 말을 나누는 왕족을 보면 이름난 이들과 친분을 맺을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "vegetable-garden",
       "term_ko": "채소밭",
       "term_en": "vegetable garden",
@@ -131995,39 +132309,6 @@
               "locator": "地理山石樹木",
               "original": "入菜園中大發財",
               "translation_ko": "채소밭에 들어가면 크게 재물이 인다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "vegetables",
-      "term_ko": "채소",
-      "term_en": "vegetables",
-      "aliases": [
-        "나물",
-        "야채",
-        "푸성귀"
-      ],
-      "category": "nature",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "채소를 심음",
-          "interpretation_ko": "오래 살 크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign of a long life",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "田園五榖耕種",
-              "original": "種菜主長命大吉",
-              "translation_ko": "채소를 심으면 오래 살고 크게 길하다"
             }
           ]
         }

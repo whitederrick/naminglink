@@ -1232,8 +1232,18 @@
       "greens",
       "garden greens"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "채소를 심음": "심었",
+      "채소를 먹음": "먹었",
+      "시들거나 썩은 채소를 봄": "시들 썩은",
+      "처녀가 저녁상에 낼 채소를 손질함": "손질"
+    },
+    "contexts_en": {
+      "채소를 심음": "planting long life",
+      "채소를 먹음": "eating strange luck imposed",
+      "시들거나 썩은 채소를 봄": "withered decayed woe",
+      "처녀가 저녁상에 낼 채소를 손질함": "preparing dinner faithful husband"
+    }
   },
   {
     "id": "verbal-abuse",

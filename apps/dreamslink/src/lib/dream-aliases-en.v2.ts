@@ -970,7 +970,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "tombs",
     "burial",
     "gravesite",
-    "cemetery"
+    "cemetery",
+    "a vault",
+    "vaults"
   ],
   "star": [
     "stars",
@@ -8179,5 +8181,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "varnishing": [
     "varnishing",
     "varnish"
+  ],
+  "vase": [
+    "vase",
+    "vases",
+    "a vase"
+  ],
+  "vat": [
+    "vat",
+    "vats",
+    "a vat"
+  ],
+  "vatican": [
+    "vatican",
+    "the vatican"
   ]
 };

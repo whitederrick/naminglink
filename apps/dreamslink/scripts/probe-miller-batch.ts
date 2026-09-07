@@ -1,12 +1,14 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 285 — Vaccinate~Varnishing. 새 상징 여섯(vaccinate·
-// vagrant·valentine·valley·vapor-bath·varnishing). Vagrant는 기존
-// beggar(거지)가 영어 별칭 "a vagrant"를 쥐고 있었으나 개념이 달라(구걸
-// vs 떠돎) 새 상징을 세우고 그 별칭을 beggar에서 회수했다. beggar의
-// 「거지에게 적선함」(흉)과 Vagrant의 「부랑자에게 베풂」(길)이 같은
-// 그림에 정반대 극성인데, 서로 다른 헤드워드(Beggar vs Vagrant)의 각자
-// 판단이라 §31 건너뛰기 대상으로 보지 않고 둘 다 남겼다 — 다른 상징
-// 이름이라 discriminator 충돌도 없다.
+// (지금 담긴 것: 배치 286 — Vase~Vehicle. 새 상징 셋(vase·vat·vatican),
+// 기존 grave(무덤)·cash-box(금고)·vegetables(채소)·carriage(마차)에
+// 문맥을 나눠 붙임. 밀러가 Vault 한 표제어에 두 뜻(납골 무덤 vs 귀중품
+// 금고)을 섞어 써서 첫 문장은 grave에, 나머지 둘은 cash-box에 나눴다 —
+// 첫 문장을 cash-box에 넣으면 기존 「금고를 봄」(안전, 길조)과 같은
+// 그림에 정반대 극성이라 grave 쪽으로 돌렸다. Vehicle의 첫 문장(탈것을
+// 타고 있음)은 기존 carriage 「마차를 타고 감」과 같은 그림이라 §31로
+// 건너뜀. vegetables는 m286이 기존 채소 출처(zhougong)보다 사전순으로
+// 앞서 기본값이 바뀔 뻔했으나 서로 다른 문헌의 다른 판단이라 있던
+// 주공해몽 답을 그대로 얼렸다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -37,25 +39,28 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 285 새 문맥 (15건) ────────────────────────────────────────────
-  { id: "vaccinate", ctx: "스스로 예방접종을 받음", text: "스스로 예방접종을 받았다" },
-  { id: "vaccinate", ctx: "남들이 예방접종을 받는 것을 봄", text: "남들이 예방접종을 받는 것을 보았다" },
-  { id: "vaccinate", ctx: "처녀가 다리에 예방접종을 받음", text: "처녀가 다리에 예방접종을 받았다" },
-  { id: "vagrant", ctx: "스스로 부랑자임을 봄", text: "스스로 부랑자임을 보았다" },
-  { id: "vagrant", ctx: "부랑자들을 봄", text: "부랑자들을 보았다" },
-  { id: "vagrant", ctx: "부랑자에게 베풂", text: "부랑자에게 베풀었다" },
-  { id: "valentine", ctx: "발렌타인 카드를 보냄", text: "발렌타인 카드를 보냈다" },
-  { id: "valentine", ctx: "처녀가 발렌타인 카드를 받음", text: "처녀가 발렌타인 카드를 받았다" },
-  { id: "valley", ctx: "푸르고 아늑한 계곡을 걸음", text: "푸르고 아늑한 계곡을 걸었다" },
-  { id: "valley", ctx: "메마른 계곡을 걸음", text: "메마른 계곡을 걸었다" },
-  { id: "valley", ctx: "질척한 계곡을 걸음", text: "질척한 계곡을 걸었다" },
-  { id: "vapor-bath", ctx: "증기욕 꿈을 꿈", text: "증기욕 꿈을 꾸었다" },
-  { id: "vapor-bath", ctx: "증기욕에서 나옴", text: "증기욕에서 나왔다" },
-  { id: "varnishing", ctx: "스스로 무언가에 니스칠을 함", text: "스스로 무언가에 니스칠을 했다" },
-  { id: "varnishing", ctx: "남들이 니스칠을 하는 것을 봄", text: "남들이 니스칠을 하는 것을 보았다" },
+  // ── 배치 286 새 문맥 (16건) ────────────────────────────────────────────
+  { id: "vase", ctx: "꽃병 꿈을 꿈", text: "꽃병 꿈을 꾸었다" },
+  { id: "vase", ctx: "꽃병으로 마심", text: "꽃병으로 마셨다" },
+  { id: "vase", ctx: "깨진 꽃병을 봄", text: "깨진 꽃병을 보았다" },
+  { id: "vase", ctx: "처녀가 꽃병을 받음", text: "처녀가 꽃병을 받았다" },
+  { id: "vat", ctx: "큰 통 꿈을 꿈", text: "큰 통 꿈을 꾸었다" },
+  { id: "vatican", ctx: "바티칸 꿈을 꿈", text: "바티칸 꿈을 꾸었다" },
+  { id: "grave", ctx: "납골 무덤 꿈을 꿈", text: "납골 무덤 꿈을 꾸었는데 사별의 슬픔을 느꼈다" },
+  { id: "cash-box", ctx: "귀중품을 넣어 두는 금고를 봄", text: "귀중품을 넣어 두는 금고를 보았다" },
+  { id: "cash-box", ctx: "금고 문이 열려 있음", text: "금고 문이 열려 있었다" },
+  { id: "vegetables", ctx: "채소를 먹음", text: "채소를 먹었다" },
+  { id: "vegetables", ctx: "시들거나 썩은 채소를 봄", text: "시들고 썩은 채소를 보았다" },
+  { id: "vegetables", ctx: "처녀가 저녁상에 낼 채소를 손질함", text: "처녀가 저녁상에 낼 채소를 손질했다" },
+  { id: "carriage", ctx: "마차에서 떨어짐", text: "마차에서 떨어졌다" },
+  { id: "carriage", ctx: "부서진 마차를 봄", text: "부서진 마차를 보았다" },
+  { id: "carriage", ctx: "마차를 삼", text: "마차를 샀다" },
+  { id: "carriage", ctx: "마차를 팖", text: "마차를 팔았다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────
-  { id: "beggar", ctx: "거지에게 적선함", text: "거지에게 적선했다" },
+  { id: "vegetables", ctx: "채소를 심음", text: "채소를 심었다" },
+  { id: "cash-box", ctx: "금고를 열려고 애씀", text: "금고를 열려고 애썼다" },
+  { id: "carriage", ctx: "마차를 타고 감", text: "마차를 타고 갔다" },
 ];
 
 let notFound = 0;

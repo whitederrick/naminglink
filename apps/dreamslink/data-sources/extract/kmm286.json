@@ -1,0 +1,62 @@
+[
+  {
+    "id": "vase",
+    "aliases": [
+      "꽃병이",
+      "꽃병을",
+      "꽃병으로"
+    ],
+    "aliases_en": [
+      "vase",
+      "vases",
+      "a vase"
+    ],
+    "contexts": {
+      "꽃병 꿈을 꿈": "그냥",
+      "꽃병으로 마심": "마셨",
+      "깨진 꽃병을 봄": "깨진",
+      "처녀가 꽃병을 받음": "받았"
+    },
+    "contexts_en": {
+      "꽃병 꿈을 꿈": "sweetest contentment home",
+      "꽃병으로 마심": "drink thrill stolen",
+      "깨진 꽃병을 봄": "broken early sorrow",
+      "처녀가 꽃병을 받음": "receive dearest wish"
+    }
+  },
+  {
+    "id": "vat",
+    "aliases": [
+      "큰 통이",
+      "큰 통을"
+    ],
+    "aliases_en": [
+      "vat",
+      "vats",
+      "a vat"
+    ],
+    "contexts": {
+      "큰 통 꿈을 꿈": "그냥"
+    },
+    "contexts_en": {
+      "큰 통 꿈을 꿈": "anguish cruel unwittingly"
+    }
+  },
+  {
+    "id": "vatican",
+    "aliases": [
+      "바티칸을",
+      "바티칸에서"
+    ],
+    "aliases_en": [
+      "vatican",
+      "the vatican"
+    ],
+    "contexts": {
+      "바티칸 꿈을 꿈": "그냥"
+    },
+    "contexts_en": {
+      "바티칸 꿈을 꿈": "unexpected favors distinguished"
+    }
+  }
+]

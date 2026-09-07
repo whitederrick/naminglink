@@ -146,7 +146,9 @@
       "tombs",
       "burial",
       "gravesite",
-      "cemetery"
+      "cemetery",
+      "a vault",
+      "vaults"
     ],
     "contexts": {
       "무덤이 높이 솟아 있음": "높이 솟아 우뚝 커다란",
@@ -172,7 +174,8 @@
       "제 주검이 무덤에 있는 것을 봄": "주검이 시체가 송장",
       "무덤들을 봄": "무덤들",
       "낡고 허물어진 무덤을 봄": "낡고 허물어진",
-      "무덤의 비문을 읽음": "비문"
+      "무덤의 비문을 읽음": "비문",
+      "납골 무덤 꿈을 꿈": "사별"
     },
     "contexts_en": {
       "무덤이 높이 솟아 있음": "tall high rising mound",
@@ -198,7 +201,8 @@
       "제 주검이 무덤에 있는 것을 봄": "hopeless despairing oppression",
       "무덤들을 봄": "sadness business",
       "낡고 허물어진 무덤을 봄": "dilapidated death illness",
-      "무덤의 비문을 읽음": "inscription unpleasant duties"
+      "무덤의 비문을 읽음": "inscription unpleasant duties",
+      "납골 무덤 꿈을 꿈": "bereavement misfortune"
     }
   },
   {
