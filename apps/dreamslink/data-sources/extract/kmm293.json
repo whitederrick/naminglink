@@ -1,0 +1,67 @@
+[
+  {
+    "id": "wadding",
+    "aliases": [
+      "솜뭉치가",
+      "솜뭉치를",
+      "충전재"
+    ],
+    "aliases_en": [
+      "wadding",
+      "cotton wadding"
+    ],
+    "contexts": {
+      "솜뭉치 꿈을 꿈": "그냥"
+    },
+    "contexts_en": {
+      "솜뭉치 꿈을 꿈": "consolation sorrowing indifference"
+    }
+  },
+  {
+    "id": "wafer",
+    "aliases": [
+      "웨이퍼가",
+      "웨이퍼를"
+    ],
+    "aliases_en": [
+      "wafer",
+      "a wafer",
+      "wafers"
+    ],
+    "contexts": {
+      "웨이퍼 꿈을 꿈": "적과 마주",
+      "웨이퍼를 먹음": "먹었 먹는",
+      "젊은 여성이 웨이퍼를 구움": "구웠 구움"
+    },
+    "contexts_en": {
+      "웨이퍼 꿈을 꿈": "encounter enemies",
+      "웨이퍼를 먹음": "eat impoverished",
+      "젊은 여성이 웨이퍼를 구움": "bake tormented unmarried"
+    }
+  },
+  {
+    "id": "wages",
+    "aliases": [
+      "급여가",
+      "급여를",
+      "봉급",
+      "월급"
+    ],
+    "aliases_en": [
+      "wages",
+      "salary"
+    ],
+    "contexts": {
+      "급여를 받음": "받음 뜻밖의",
+      "급여를 지급함": "지급 불만",
+      "급여가 줄어듦": "줄어 적대적",
+      "급여가 늘어남": "늘어 이문"
+    },
+    "contexts_en": {
+      "급여를 받음": "unlooked enterprises",
+      "급여를 지급함": "pay confounded dissatisfaction",
+      "급여가 줄어듦": "reduced unfriendly interest",
+      "급여가 늘어남": "increase profit undertaking"
+    }
+  }
+]

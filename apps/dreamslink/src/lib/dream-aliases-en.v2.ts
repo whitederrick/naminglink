@@ -8288,5 +8288,18 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "vultures",
     "a vulture",
     "vulture"
+  ],
+  "wadding": [
+    "wadding",
+    "cotton wadding"
+  ],
+  "wafer": [
+    "wafer",
+    "a wafer",
+    "wafers"
+  ],
+  "wages": [
+    "wages",
+    "salary"
   ]
 };

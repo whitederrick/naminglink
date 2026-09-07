@@ -1,14 +1,9 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 292 — Volcano~Vultures(새 20판 묶음의 5/20, 밀러
-// V 항목의 끝). 새 상징 둘(volcano·vultures). 나머지 다섯(Vomit·Vote·
-// Voucher·Vow·Voyage)은 전부 기존 상징(vomiting·election·document·
-// oath·long-journey)에 합쳤다 — 다섯 다 term_ko나 영어 별칭이 이미
-// 겹쳐 있었다. vultures는 term_ko를 "대머리수리"로 세웠다 — 그대로
-// "독수리"를 쓰면 기존 eagle과 완전히 겹친다. document·oath·election
-// 셋은 원래 의미가 하나뿐이라 판별어 표가 비어 있었는데, 의미를
-// 더하며 그 빈자리에 discriminator를 채워야 했다(§30 곁가지).
-// vomiting·document 둘의 기본값이 사전순으로 바뀔 뻔했는데 vomiting은
-// 지키고 document는 받아들였다.
+// (지금 담긴 것: 배치 293 — Wading~Wages(새 20판 묶음의 6/20, 밀러 W
+// 항목의 시작). Wading은 각주 [237] See Bathing으로 기존 bathing(목욕)
+// 에, Wager는 기존 bet(내기, 영어 별칭에 이미 "placing a wager")에
+// 합쳤다. 새 상징 셋(wadding·wafer·wages) — wages는 "임금"이 king·
+// royal-court와 동형이의어라 "급여"로 세웠다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -39,32 +34,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 292 새 문맥 (19건) ────────────────────────────────────────────
-  { id: "volcano", ctx: "화산을 봄", text: "화산을 보았는데 격렬한 다툼에 휘말렸다" },
-  { id: "volcano", ctx: "젊은 여성이 화산 꿈을 꿈", text: "젊은 여성이 화산 꿈을 꾸었는데 이기심과 욕심으로 모험에 휘말렸다" },
-  { id: "vomiting", ctx: "구토하는 꿈을 꿈", text: "구토하는 꿈을 꾸었는데 병에 걸려 폐인이 될 위험에 처했다" },
-  { id: "vomiting", ctx: "남이 토하는 것을 봄", text: "남이 토하는 것을 보았는데 거짓 핑계를 알아챘다" },
-  { id: "vomiting", ctx: "여성이 닭을 토해내고 닭이 뛰어 달아나는 꿈을 꿈", text: "여성이 닭을 토해내고 닭이 뛰어 달아나는 꿈을 꾸었다" },
-  { id: "vomiting", ctx: "피를 토함", text: "피를 토했는데 병이 갑작스레 찾아왔다" },
-  { id: "election", ctx: "어떤 안건에 투표함", text: "어떤 안건에 투표했는데 공동체에 소동이 일어났다" },
-  { id: "election", ctx: "부정하게 투표함", text: "부정하게 투표했는데 부정직함이 드러났다" },
-  { id: "document", ctx: "증서 꿈을 꿈", text: "증서 꿈을 꾸었는데 끈기 있는 애씀이 계략을 물리쳤다" },
-  { id: "document", ctx: "증서에 서명함", text: "증서에 서명했는데 주위의 신뢰를 얻었다" },
-  { id: "document", ctx: "증서를 잃어버림", text: "증서를 잃어버려 친척들과 다투었다" },
-  { id: "oath", ctx: "맹세를 하거나 들음", text: "맹세를 하거나 들었는데 사업에서 불성실하다는 항의를 받았다" },
-  { id: "oath", ctx: "교회의 서약을 함", text: "교회의 서약을 했는데 흔들림없는 진실함으로 처신했다" },
-  { id: "oath", ctx: "맹세를 깨거나 저버림", text: "맹세를 깨거나 저버렸는데 재앙 같은 결과가 따랐다" },
-  { id: "long-journey", ctx: "배를 타고 항해함", text: "배를 타고 항해했는데 유산을 받았다" },
-  { id: "long-journey", ctx: "재난을 만난 항해", text: "재난을 만난 항해를 했는데 무능함과 거짓사랑이 뒤따랐다" },
-  { id: "vultures", ctx: "대머리수리 꿈을 꿈", text: "대머리수리 꿈을 꾸었는데 속임수를 꾸미는 이가 나를 해치려 했다" },
-  { id: "vultures", ctx: "다치거나 죽은 대머리수리를 봄", text: "다치거나 죽은 대머리수리를 보았다" },
-  { id: "vultures", ctx: "여성이 대머리수리 꿈을 꿈", text: "여성이 대머리수리 꿈을 꾸었는데 비방과 뒷말에 시달렸다" },
+  // ── 배치 293 새 문맥 (16건) ────────────────────────────────────────────
+  { id: "bathing", ctx: "맑은 물속을 걸어 다님", text: "맑은 물속을 걸어 다녔는데 덧없지만 짜릿한 기쁨을 누렸다" },
+  { id: "bathing", ctx: "흐린 물속을 걸어 다님", text: "흐린 물속을 걸어 다녔는데 병에 걸릴 위험이 있었다" },
+  { id: "bathing", ctx: "아이들이 맑은 물속을 걸어 다니는 것을 봄", text: "아이들이 맑은 물속을 걸어 다니는 것을 보았는데 일이 유리하게 풀렸다" },
+  { id: "bathing", ctx: "젊은 여성이 물거품 이는 맑은 물속을 걸어 다니는 꿈을 꿈", text: "젊은 여성이 물거품 이는 맑은 물속을 걸어 다니는 꿈을 꾸었는데 소원을 이뤘다" },
+  { id: "wadding", ctx: "솜뭉치 꿈을 꿈", text: "솜뭉치 꿈을 꾸었는데 위안을 얻었다" },
+  { id: "wafer", ctx: "웨이퍼 꿈을 꿈", text: "웨이퍼 꿈을 꾸었는데 적과 마주쳤다" },
+  { id: "wafer", ctx: "웨이퍼를 먹음", text: "웨이퍼를 먹었는데 궁핍한 운이 암시됐다" },
+  { id: "wafer", ctx: "젊은 여성이 웨이퍼를 구움", text: "젊은 여성이 웨이퍼를 구웠는데 미혼으로 남을까 두려워했다" },
+  { id: "bet", ctx: "내기를 만듦", text: "내기를 만들었는데 부정한 수단에 기댔다" },
+  { id: "bet", ctx: "내기에서 짐", text: "내기에서 져서 천한 관계로 해를 입었다" },
+  { id: "bet", ctx: "내기에서 이김", text: "내기에서 이겨서 운의 호의를 되찾았다" },
+  { id: "bet", ctx: "내기 판돈을 걸지 못함", text: "내기 판돈을 걸지 못해 낙담했다" },
+  { id: "wages", ctx: "급여를 받음", text: "급여를 받았는데 뜻밖의 좋은 일이 있었다" },
+  { id: "wages", ctx: "급여를 지급함", text: "급여를 지급했는데 불만으로 혼란스러웠다" },
+  { id: "wages", ctx: "급여가 줄어듦", text: "급여가 줄어들어 적대적 관심이 걱정됐다" },
+  { id: "wages", ctx: "급여가 늘어남", text: "급여가 늘어나서 남다른 이문이 있었다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────
-  { id: "vomiting", ctx: "토함", text: "토했다" },
-  { id: "document", ctx: "문서에 도장을 찍음", text: "문서에 도장을 찍었다" },
-  { id: "oath", ctx: "맹세를 함", text: "맹세를 했다" },
-  { id: "election", ctx: "선거하는 자리에 있음", text: "선거하는 자리에 있었다" },
+  { id: "bathing", ctx: "목욕물이 흐림", text: "목욕물이 흐렸다" },
+  { id: "bet", ctx: "노름을 해서 잃음", text: "노름을 해서 잃었다" },
 ];
 
 let notFound = 0;

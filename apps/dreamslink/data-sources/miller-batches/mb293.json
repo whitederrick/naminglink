@@ -1,0 +1,31 @@
+{
+  "batch": 293,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Wading",
+      "text": "If you wade in clear water while dreaming, you will partake of evanescent, but exquisite joys.  If the water is muddy, you are in danger of illness, or some sorrowful experiences.\n\nTo see children wading in clear water is a happy prognostication, as you will be favored in your enterprises.\n\nFor a young woman to dream of wading in clear foaming water, she will soon gain the desire nearest her heart.",
+      "note": "각주 [237] See Bathing으로 기존 bathing(목욕) 상징에 합쳤다. 「걸어 다님」으로 적어 기존 「목욕함」류 문맥과 그림을 갈랐다(맑은/흐린 물이라는 판별어가 이미 기존 문맥에 있어 다른 낱말로 나눔)"
+    },
+    {
+      "headword": "Wadding",
+      "text": "Wadding, if seen in a dream, brings consolation to the sorrowing, and indifference to unfriendly criticism.",
+      "note": "새 상징 wadding(솜뭉치) — bare \"솜\"은 quilt(솜이불)의 \"이불\"이 조사 \"이\"로 시작해 이름이 겹쳐 걸릴 위험이 있어 피했다"
+    },
+    {
+      "headword": "Wafer",
+      "text": "Wafer, if seen in a dream, purports an encounter with enemies.\n\nTo eat one, suggests impoverished fortune.\n\nFor a young woman to bake them, denotes that she will be tormented and distressed by fears of remaining in the unmarried state.",
+      "note": "새 상징 wafer(웨이퍼) — 기존 confectionary(과자)는 너무 일반적인 낱말이라 따로 세움"
+    },
+    {
+      "headword": "Wager",
+      "text": "To dream of making a wager, signifies that you will resort to dishonest means to forward your schemes.\n\nIf you lose a wager, you will sustain injury from base connections with those out of your social sphere.\n\nTo win one, reinstates you in favor with fortune.\n\nIf you are not able to put up a wager, you will be discouraged and prostrated by the adverseness of circumstances.",
+      "note": "기존 bet(내기) 상징에 문맥 넷을 붙였다 — 이미 영어 별칭으로 \"placing a wager\"를 쥐고 있었다"
+    },
+    {
+      "headword": "Wages",
+      "text": "Wages, if received in dreams, brings unlooked for good to persons engaging in new enterprises.\n\nTo pay out wages, denotes that you will be confounded by dissatisfaction.\n\nTo have your wages reduced, warns you of unfriendly interest that is being taken against you.\n\nAn increase of wages, suggests unusual profit in any undertaking.",
+      "note": "새 상징 wages(급여) — \"임금\"은 king(임금)·royal-court(조정)와 동형이의어라 피하고 \"급여\"로 세웠다"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "term_ko": "목욕",
+    "term_en": "bathing",
+    "context": "맑은 물속을 걸어 다님",
+    "interpretation_ko": "덧없지만 짜릿한 기쁨을 누릴 길한 조짐",
+    "interpretation_en": "you will partake of evanescent, but exquisite joys",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wading",
+      "original": "If you wade in clear water while dreaming, you will partake of evanescent, but exquisite joys.",
+      "translation_ko": "맑은 물속을 걸어 다니는 꿈은, 덧없지만 짜릿한 기쁨을 누릴 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목욕",
+    "term_en": "bathing",
+    "context": "흐린 물속을 걸어 다님",
+    "interpretation_ko": "병에 걸릴 위험이 있거나 서글픈 일을 겪을 흉한 조짐",
+    "interpretation_en": "you are in danger of illness, or some sorrowful experiences",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wading",
+      "original": "If the water is muddy, you are in danger of illness, or some sorrowful experiences.",
+      "translation_ko": "흐린 물속을 걸어 다니는 꿈은, 병에 걸릴 위험이 있거나 서글픈 일을 겪을 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목욕",
+    "term_en": "bathing",
+    "context": "아이들이 맑은 물속을 걸어 다니는 것을 봄",
+    "interpretation_ko": "일이 유리하게 풀릴 길한 조짐",
+    "interpretation_en": "is a happy prognostication, as you will be favored in your enterprises",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wading",
+      "original": "To see children wading in clear water is a happy prognostication, as you will be favored in your enterprises.",
+      "translation_ko": "아이들이 맑은 물속을 걸어 다니는 것을 보는 꿈은, 일이 유리하게 풀릴 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "목욕",
+    "term_en": "bathing",
+    "context": "젊은 여성이 물거품 이는 맑은 물속을 걸어 다니는 꿈을 꿈",
+    "interpretation_ko": "머잖아 마음속 가장 바라던 소원을 이룰 길한 조짐",
+    "interpretation_en": "she will soon gain the desire nearest her heart",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wading",
+      "original": "For a young woman to dream of wading in clear foaming water, she will soon gain the desire nearest her heart.",
+      "translation_ko": "젊은 여성이 물거품 이는 맑은 물속을 걸어 다니는 꿈은, 머잖아 마음속 가장 바라던 소원을 이룰 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "솜뭉치",
+    "term_en": "wadding",
+    "context": "솜뭉치 꿈을 꿈",
+    "interpretation_ko": "슬픈 이에게 위안을 주고, 모진 비난에도 무심해질 길한 조짐",
+    "interpretation_en": "brings consolation to the sorrowing, and indifference to unfriendly criticism",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wadding",
+      "original": "Wadding, if seen in a dream, brings consolation to the sorrowing, and indifference to unfriendly criticism.",
+      "translation_ko": "솜뭉치 꿈은, 슬픈 이에게 위안을 주고 모진 비난에도 무심해질 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "웨이퍼",
+    "term_en": "wafer",
+    "context": "웨이퍼 꿈을 꿈",
+    "interpretation_ko": "적과 마주치게 될 흉한 조짐",
+    "interpretation_en": "purports an encounter with enemies",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wafer",
+      "original": "Wafer, if seen in a dream, purports an encounter with enemies.",
+      "translation_ko": "웨이퍼 꿈은, 적과 마주치게 될 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "웨이퍼",
+    "term_en": "wafer",
+    "context": "웨이퍼를 먹음",
+    "interpretation_ko": "궁핍한 운을 암시하는 흉한 조짐",
+    "interpretation_en": "suggests impoverished fortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wafer",
+      "original": "To eat one, suggests impoverished fortune.",
+      "translation_ko": "웨이퍼를 먹는 꿈은, 궁핍한 운을 암시하는 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "웨이퍼",
+    "term_en": "wafer",
+    "context": "젊은 여성이 웨이퍼를 구움",
+    "interpretation_ko": "미혼으로 남을까 두려워하며 괴로워하고 시달릴 흉한 조짐",
+    "interpretation_en": "denotes that she will be tormented and distressed by fears of remaining in the unmarried state",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wafer",
+      "original": "For a young woman to bake them, denotes that she will be tormented and distressed by fears of remaining in the unmarried state.",
+      "translation_ko": "젊은 여성이 웨이퍼를 굽는 꿈은, 미혼으로 남을까 두려워하며 괴로워하고 시달릴 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "내기",
+    "term_en": "bet",
+    "context": "내기를 만듦",
+    "interpretation_ko": "제 계획을 이루려고 부정한 수단에 기댈 흉한 조짐",
+    "interpretation_en": "signifies that you will resort to dishonest means to forward your schemes",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wager",
+      "original": "To dream of making a wager, signifies that you will resort to dishonest means to forward your schemes.",
+      "translation_ko": "내기를 만드는 꿈은, 제 계획을 이루려고 부정한 수단에 기댈 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "내기",
+    "term_en": "bet",
+    "context": "내기에서 짐",
+    "interpretation_ko": "제 사회적 격에 안 맞는 천한 이들과의 관계로 해를 입을 흉한 조짐",
+    "interpretation_en": "you will sustain injury from base connections with those out of your social sphere",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wager",
+      "original": "If you lose a wager, you will sustain injury from base connections with those out of your social sphere.",
+      "translation_ko": "내기에서 지는 꿈은, 제 사회적 격에 안 맞는 천한 이들과의 관계로 해를 입을 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "내기",
+    "term_en": "bet",
+    "context": "내기에서 이김",
+    "interpretation_ko": "운의 호의를 되찾을 길한 조짐",
+    "interpretation_en": "reinstates you in favor with fortune",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wager",
+      "original": "To win one, reinstates you in favor with fortune.",
+      "translation_ko": "내기에서 이기는 꿈은, 운의 호의를 되찾을 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "내기",
+    "term_en": "bet",
+    "context": "내기 판돈을 걸지 못함",
+    "interpretation_ko": "불리한 형편에 짓눌려 낙담하게 될 흉한 조짐",
+    "interpretation_en": "you will be discouraged and prostrated by the adverseness of circumstances",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wager",
+      "original": "If you are not able to put up a wager, you will be discouraged and prostrated by the adverseness of circumstances.",
+      "translation_ko": "내기 판돈을 걸지 못하는 꿈은, 불리한 형편에 짓눌려 낙담하게 될 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "급여",
+    "term_en": "wages",
+    "context": "급여를 받음",
+    "interpretation_ko": "새 사업에 나선 이에게 뜻밖의 좋은 일이 있을 길한 조짐",
+    "interpretation_en": "brings unlooked for good to persons engaging in new enterprises",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wages",
+      "original": "Wages, if received in dreams, brings unlooked for good to persons engaging in new enterprises.",
+      "translation_ko": "급여를 받는 꿈은, 새 사업에 나선 이에게 뜻밖의 좋은 일이 있을 길한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "급여",
+    "term_en": "wages",
+    "context": "급여를 지급함",
+    "interpretation_ko": "불만으로 혼란스러워질 흉한 조짐",
+    "interpretation_en": "denotes that you will be confounded by dissatisfaction",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wages",
+      "original": "To pay out wages, denotes that you will be confounded by dissatisfaction.",
+      "translation_ko": "급여를 지급하는 꿈은, 불만으로 혼란스러워질 흉한 조짐이다"
+    }
+  },
+  {
+    "term_ko": "급여",
+    "term_en": "wages",
+    "context": "급여가 줄어듦",
+    "interpretation_ko": "누군가 저를 겨눈 적대적 관심을 조심하라는 경고",
+    "interpretation_en": "warns you of unfriendly interest that is being taken against you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wages",
+      "original": "To have your wages reduced, warns you of unfriendly interest that is being taken against you.",
+      "translation_ko": "급여가 줄어드는 꿈은, 누군가 저를 겨눈 적대적 관심을 조심하라는 경고다"
+    }
+  },
+  {
+    "term_ko": "급여",
+    "term_en": "wages",
+    "context": "급여가 늘어남",
+    "interpretation_ko": "어떤 일에서든 남다른 이문이 있을 길한 조짐",
+    "interpretation_en": "suggests unusual profit in any undertaking",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wages",
+      "original": "An increase of wages, suggests unusual profit in any undertaking.",
+      "translation_ko": "급여가 늘어나는 꿈은, 어떤 일에서든 남다른 이문이 있을 길한 조짐이다"
+    }
+  }
+]
