@@ -523,12 +523,20 @@
     "contexts": {
       "산을 마심": "마셨 마시 들이켰 삼켰",
       "여성이 신맛 나는 산성 음료를 마심": "신맛 시큼 음료 여성이",
-      "독성이 있는 산을 봄": "독성 유독 독약 위험한"
+      "독성이 있는 산을 봄": "독성 유독 독약 위험한",
+      "황산을 봄": "죄없는 나무람",
+      "남에게 황산을 끼얹음": "끼얹 앙심",
+      "젊은 여성이 질투하는 연적에게 황산 세례를 당함": "질투 연적",
+      "사업하는 남성이 황산 세례 꿈을 꿈": "사업하는 박해"
     },
     "contexts_en": {
       "산을 마심": "drank drinking swallowed",
       "여성이 신맛 나는 산성 음료를 마심": "sour tart beverage woman",
-      "독성이 있는 산을 봄": "poisonous poison toxic"
+      "독성이 있는 산을 봄": "poisonous poison toxic",
+      "황산을 봄": "innocent censured",
+      "남에게 황산을 끼얹음": "throw malice parties",
+      "젊은 여성이 질투하는 연적에게 황산 세례를 당함": "jealous rival hatred",
+      "사업하는 남성이 황산 세례 꿈을 꿈": "business persecution"
     }
   },
   {

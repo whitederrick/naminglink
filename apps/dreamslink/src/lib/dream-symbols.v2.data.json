@@ -215,6 +215,7 @@
     "m289.json",
     "m29.json",
     "m290.json",
+    "m291.json",
     "m3.json",
     "m30.json",
     "m31.json",
@@ -31066,6 +31067,125 @@
       ]
     },
     {
+      "id": "acid",
+      "term_ko": "산",
+      "term_en": "acid",
+      "aliases": [
+        "산성",
+        "황산",
+        "염산",
+        "산성 액체"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "산을 마심",
+          "interpretation_ko": "불길한 꿈으로 큰 근심을 가져올 조짐",
+          "interpretation_en": "an adverse dream, bringing you much anxiety",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Acid",
+              "original": "To drink any acid is an adverse dream, bringing you much anxiety.",
+              "translation_ko": "어떤 산이든 마시면 불길한 꿈으로 큰 근심을 가져올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 신맛 나는 산성 음료를 마심",
+          "interpretation_ko": "곤란한 상황에 스스로를 옭아맬 조짐이며 건강까지 얽힐 수 있음",
+          "interpretation_en": "she may ensnare herself with compromising situations; even health may be involved",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Acid",
+              "original": "For a woman to drink aciduous liquors, denotes that she may ensnare herself with compromising situations; even health may be involved.",
+              "translation_ko": "여성이 신맛 나는 산성 음료를 마시면 곤란한 상황에 스스로를 옭아맬 조짐이며 건강까지 얽힐 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "독성이 있는 산을 봄",
+          "interpretation_ko": "자신을 향한 어떤 배신이 드러날 조짐",
+          "interpretation_en": "some treachery against you may be discovered",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Acid",
+              "original": "To see poisonous acids, some treachery against you may be discovered.",
+              "translation_ko": "독성이 있는 산을 보면 자신을 향한 어떤 배신이 드러날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "황산을 봄",
+          "interpretation_ko": "죄 없는 이를 저가 나무라고 있다는 조짐",
+          "interpretation_en": "it is a token of some innocent person being censured by you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vitriol",
+              "original": "If you see vitriol in your dreams, it is a token of some innocent person being censured by you.",
+              "translation_ko": "황산을 보는 꿈은, 죄 없는 이를 저가 나무라고 있다는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 황산을 끼얹음",
+          "interpretation_ko": "저에게 호의를 베풀려는 이들에게 앙심을 품을 조짐",
+          "interpretation_en": "shows you will bear malice towards parties who seek to favor you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vitriol",
+              "original": "To throw it on people, shows you will bear malice towards parties who seek to favor you.",
+              "translation_ko": "남에게 황산을 끼얹는 꿈은, 저에게 호의를 베풀려는 이들에게 앙심을 품을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 질투하는 연적에게 황산 세례를 당함",
+          "interpretation_ko": "죄 없이 누군가의 미움을 받는 대상이 될 조짐",
+          "interpretation_en": "foretells that she will be the innocent object of some person's hatred",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vitriol",
+              "original": "For a young woman to have a jealous rival throw it in her face, foretells that she will be the innocent object of some person's hatred.",
+              "translation_ko": "젊은 여성이 질투하는 연적에게 황산 세례를 당하는 꿈은, 죄 없이 누군가의 미움을 받는 대상이 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "사업하는 남성이 황산 세례 꿈을 꿈",
+          "interpretation_ko": "적과 큰 박해가 있을 흉한 조짐",
+          "interpretation_en": "denotes enemies and much persecution",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Vitriol",
+              "original": "This dream for a business man, denotes enemies and much persecution.",
+              "translation_ko": "사업하는 남성이 황산 세례 꿈을 꾸면, 적과 큰 박해가 있을 흉한 조짐이다"
+            }
+          ]
+        }
+      ],
+      "label_ko": "산(산성)"
+    },
+    {
       "id": "acorn",
       "term_ko": "도토리",
       "term_en": "acorn",
@@ -36297,6 +36417,124 @@
               "locator": "被害鬥傷打罵",
               "original": "殺龜者主有喪事",
               "translation_ko": "거북을 죽이면 상사가 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "term_ko": "목소리",
+      "term_en": "voice",
+      "aliases": [
+        "목소리가",
+        "목소리를",
+        "음성이",
+        "음성을"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "차분하고 듣기 좋은 목소리를 들음",
+          "interpretation_ko": "기쁜 화해를 알리는 길한 조짐",
+          "interpretation_en": "denotes pleasant reconciliations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Voice",
+              "original": "To dream of hearing voices, denotes pleasant reconciliations, if they are calm and pleasing;",
+              "translation_ko": "차분하고 듣기 좋은 목소리를 듣는 꿈은, 기쁜 화해를 알리는 길한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "날카롭고 성난 목소리를 들음",
+          "interpretation_ko": "실망스럽고 불리한 상황을 알리는 흉한 조짐",
+          "interpretation_en": "signify disappointments and unfavorable situations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Voice",
+              "original": "high-pitched and angry voices, signify disappointments and unfavorable situations.",
+              "translation_ko": "날카롭고 성난 목소리를 듣는 꿈은, 실망스럽고 불리한 상황을 알리는 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "흐느끼는 목소리를 들음",
+          "interpretation_ko": "갑작스러운 분노로 벗에게 해를 입히게 될 흉한 조짐",
+          "interpretation_en": "shows that sudden anger will cause you to inflict injury upon a friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Voice",
+              "original": "To hear weeping voices, shows that sudden anger will cause you to inflict injury upon a friend.",
+              "translation_ko": "흐느끼는 목소리를 듣는 꿈은, 갑작스러운 분노로 벗에게 해를 입히게 될 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "하느님의 목소리를 들음",
+          "interpretation_ko": "고결한 원칙으로 더 높이 오르려 애써 높은 뜻을 지닌 이들의 흠모를 받을 길한 조짐",
+          "interpretation_en": "you will make a noble effort to rise higher in unselfish and honorable principles, and will justly hold the admiration of high-minded people",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Voice",
+              "original": "If you hear the voice of God, you will make a noble effort to rise higher in unselfish and honorable principles, and will justly hold the admiration of high-minded people.",
+              "translation_ko": "하느님의 목소리를 듣는 꿈은, 고결한 원칙으로 더 높이 오르려 애써 높은 뜻을 지닌 이들의 흠모를 받을 길한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "어머니가 자녀의 목소리를 들음",
+          "interpretation_ko": "다가오는 고난과 근심, 괴로운 의심의 조짐",
+          "interpretation_en": "is a sign of approaching misery, perplexity and grievous doubts",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Voice",
+              "original": "For a mother to hear the voice of her child, is a sign of approaching misery, perplexity and grievous doubts.",
+              "translation_ko": "어머니가 자녀의 목소리를 듣는 꿈은, 다가오는 고난과 근심, 괴로운 의심의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "고통스러운 목소리나 부르는 경고를 들음",
+          "interpretation_ko": "저나 가까운 이에게 심각한 불운이 있음을 뜻하는 흉한 조짐",
+          "interpretation_en": "implies your own serious misfortune or that of some one close to you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Voice",
+              "original": "To hear the voice of distress, or a warning one calling to you, implies your own serious misfortune or that of some one close to you.",
+              "translation_ko": "고통스러운 목소리나 부르는 경고를 듣는 꿈은, 저나 가까운 이에게 심각한 불운이 있음을 뜻하는 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "그 목소리를 알아봄",
+          "interpretation_ko": "사고나 병, 나아가 죽음이나 상실로 이어질 불길한 조짐",
+          "interpretation_en": "it is often ominous of accident or illness, which may eliminate death or loss",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Voice",
+              "original": "If the voice is recognized, it is often ominous of accident or illness, which may eliminate death or loss.",
+              "translation_ko": "그 목소리를 알아보는 꿈은, 사고나 병, 나아가 죽음이나 상실로 이어질 불길한 조짐이다"
             }
           ]
         }
@@ -54738,6 +54976,98 @@
       ]
     },
     {
+      "id": "visit",
+      "term_ko": "방문",
+      "term_en": "visit",
+      "aliases": [
+        "방문이",
+        "방문을",
+        "방문했다",
+        "방문했는데",
+        "찾아감",
+        "찾아옴"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제가 방문함",
+          "interpretation_ko": "머잖아 즐거운 일이 있을 길한 조짐",
+          "interpretation_en": "you will shortly have some pleasant occasion in your life",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Visit",
+              "original": "If you visit in your dreams, you will shortly have some pleasant occasion in your life.",
+              "translation_ko": "제가 방문하는 꿈은, 머잖아 즐거운 일이 있을 길한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "불쾌한 방문을 함",
+          "interpretation_ko": "악의 있는 이의 행실로 즐거움이 손상될 흉한 조짐",
+          "interpretation_en": "your enjoyment will be marred by the action of malicious persons",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Visit",
+              "original": "If your visit is unpleasant, your enjoyment will be marred by the action of malicious persons.",
+              "translation_ko": "불쾌한 방문을 하는 꿈은, 악의 있는 이의 행실로 즐거움이 손상될 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벗이 저를 방문함",
+          "interpretation_ko": "머잖아 반가운 소식이 닿을 길한 조짐",
+          "interpretation_en": "denotes that news of a favorable nature will soon reach you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Visit",
+              "original": "For a friend to visit you, denotes that news of a favorable nature will soon reach you.",
+              "translation_ko": "벗이 저를 방문하는 꿈은, 머잖아 반가운 소식이 닿을 길한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "슬프고 여독에 지쳐 보이는 벗이 방문함",
+          "interpretation_ko": "그 방문에서 언짢은 기색이 돋거나 자잘한 실망이 뒤따를 흉한 조짐",
+          "interpretation_en": "there will be a note of displeasure growing out of the visit, or other slight disappointments may follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Visit",
+              "original": "If the friend appears sad and travel-worn, there will be a note of displeasure growing out of the visit, or other slight disappointments may follow.",
+              "translation_ko": "슬프고 여독에 지쳐 보이는 벗이 방문하는 꿈은, 그 방문에서 언짢은 기색이 돋거나 자잘한 실망이 뒤따를 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "검거나 흰 옷을 입고 창백하거나 섬뜩해 보이는 벗이 방문함",
+          "interpretation_ko": "중한 병이나 사고가 예고되는 흉한 조짐",
+          "interpretation_en": "serious illness or accidents are predicted",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Visit",
+              "original": "If she is dressed in black or white and looks pale or ghastly, serious illness or accidents are predicted.",
+              "translation_ko": "검거나 흰 옷을 입고 창백하거나 섬뜩해 보이는 벗이 방문하는 꿈은, 중한 병이나 사고가 예고되는 흉한 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "weaving",
       "term_ko": "베짜기",
       "term_en": "weaving",
@@ -71661,6 +71991,80 @@
       ]
     },
     {
+      "id": "vision",
+      "term_ko": "환상",
+      "term_en": "vision",
+      "aliases": [
+        "환상이",
+        "환상을"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "이상한 환상을 봄",
+          "interpretation_ko": "일이 잘 풀리지 않고 병으로 즐거운 일을 못 하게 될 흉한 조짐",
+          "interpretation_en": "denotes that you will be unfortunate in your dealings and sickness will unfit you for pleasant duties",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Visions",
+              "original": "To dream that you have a strange vision, denotes that you will be unfortunate in your dealings and sickness will unfit you for pleasant duties.",
+              "translation_ko": "이상한 환상을 보는 꿈은, 일이 잘 풀리지 않고 병으로 즐거운 일을 못 하게 될 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "환상 속에 사람들이 나타남",
+          "interpretation_ko": "가문이나 나라의 봉기와 다툼을 알리는 흉한 조짐",
+          "interpretation_en": "it foretells uprising and strife of families or state",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Visions",
+              "original": "If persons appear to you in visions, it foretells uprising and strife of families or state.",
+              "translation_ko": "환상 속에 사람들이 나타나는 꿈은, 가문이나 나라의 봉기와 다툼을 알리는 흉한 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "죽음이 가까운 벗이 환상으로 경고함",
+          "interpretation_ko": "흰옷을 입은 채 갑자기 저의 앞에 나타날 조짐",
+          "interpretation_en": "he will appear suddenly before you, usually in white garments",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Visions",
+              "original": "If your friend is near dissolution and you are warned in a vision, he will appear suddenly before you, usually in white garments.",
+              "translation_ko": "죽음이 가까운 벗이 환상으로 경고하는 꿈은, 흰옷을 입은 채 갑자기 저의 앞에 나타날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "온갖 환상을 봄",
+          "interpretation_ko": "사업에 남다른 변화가 있고 사생활의 분위기와 환경도 달라지며, 한동안 일이 뒤바뀌어 나빠 보이나 결국은 모두에게 좋아질 조짐",
+          "interpretation_en": "you may look for unusual developments in your business, and a different atmosphere and surroundings in private life. Things will be reversed for a while, but eventually good for all concerned",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Visions",
+              "original": "To see visions of any order in your dreams, you may look for unusual developments in your business, and a different atmosphere and surroundings in private life. Things will be reversed for a while with you. You will have changes in your business and private life seemingly bad, but eventually good for all concerned.",
+              "translation_ko": "온갖 환상을 보는 꿈은, 사업에 남다른 변화가 있고 사생활의 분위기와 환경도 달라지며, 한동안 일이 뒤바뀌어 나빠 보이나 결국은 모두에게 좋아질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wealth",
       "term_ko": "재물",
       "term_en": "wealth",
@@ -72189,69 +72593,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "acid",
-      "term_ko": "산",
-      "term_en": "acid",
-      "aliases": [
-        "산성",
-        "황산",
-        "염산",
-        "산성 액체"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "산을 마심",
-          "interpretation_ko": "불길한 꿈으로 큰 근심을 가져올 조짐",
-          "interpretation_en": "an adverse dream, bringing you much anxiety",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Acid",
-              "original": "To drink any acid is an adverse dream, bringing you much anxiety.",
-              "translation_ko": "어떤 산이든 마시면 불길한 꿈으로 큰 근심을 가져올 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 신맛 나는 산성 음료를 마심",
-          "interpretation_ko": "곤란한 상황에 스스로를 옭아맬 조짐이며 건강까지 얽힐 수 있음",
-          "interpretation_en": "she may ensnare herself with compromising situations; even health may be involved",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Acid",
-              "original": "For a woman to drink aciduous liquors, denotes that she may ensnare herself with compromising situations; even health may be involved.",
-              "translation_ko": "여성이 신맛 나는 산성 음료를 마시면 곤란한 상황에 스스로를 옭아맬 조짐이며 건강까지 얽힐 수 있다"
-            }
-          ]
-        },
-        {
-          "context": "독성이 있는 산을 봄",
-          "interpretation_ko": "자신을 향한 어떤 배신이 드러날 조짐",
-          "interpretation_en": "some treachery against you may be discovered",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Acid",
-              "original": "To see poisonous acids, some treachery against you may be discovered.",
-              "translation_ko": "독성이 있는 산을 보면 자신을 향한 어떤 배신이 드러날 조짐이다"
-            }
-          ]
-        }
-      ],
-      "label_ko": "산(산성)"
     },
     {
       "id": "adulation",

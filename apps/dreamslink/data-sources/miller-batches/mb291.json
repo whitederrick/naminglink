@@ -1,0 +1,26 @@
+{
+  "batch": 291,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Visit",
+      "text": "If you visit in your dreams, you will shortly have some pleasant occasion in your life.\n\nIf your visit is unpleasant, your enjoyment will be marred by the action of malicious persons.\n\nFor a friend to visit you, denotes that news of a favorable nature will soon reach you.  If the friend appears sad and travel-worn, there will be a note of displeasure growing out of the visit, or other slight disappointments may follow. If she is dressed in black or white and looks pale or ghastly, serious illness or accidents are predicted.",
+      "note": "새 상징 visit(방문)"
+    },
+    {
+      "headword": "Visions",
+      "text": "To dream that you have a strange vision, denotes that you will be unfortunate in your dealings and sickness will unfit you for pleasant duties.\n\nIf persons appear to you in visions, it foretells uprising and strife of families or state.\n\nIf your friend is near dissolution and you are warned in a vision, he will appear suddenly before you, usually in white garments.\n\nTo see visions of any order in your dreams, you may look for unusual developments in your business, and a different atmosphere and surroundings in private life. Things will be reversed for a while with you. You will have changes in your business and private life seemingly bad, but eventually good for all concerned.",
+      "note": "새 상징 vision(환상) — 기존 phantom(환영)과 다른 낱말을 골랐다. \"환영\"은 이미 entertainment(연회, \"환영\"=welcome)와 phantom 둘이 나눠 쥔 동형이의어라 세 번째로 얹지 않았다. \"Visions of death and trouble have such close resemblance...\"와 \"The Supreme Will is...\" 두 문장은 구체적 판단이 아닌 저자의 일반론이라 제외"
+    },
+    {
+      "headword": "Vitriol",
+      "text": "If you see vitriol in your dreams, it is a token of some innocent person being censured by you.\n\nTo throw it on people, shows you will bear malice towards parties who seek to favor you.\n\nFor a young woman to have a jealous rival throw it in her face, foretells that she will be the innocent object of some person's hatred. This dream for a business man, denotes enemies and much persecution.",
+      "note": "기존 acid(산) 상징에 문맥 넷을 붙였다 — acid가 이미 별칭으로 \"황산\"(vitriol의 옛 명칭)을 쥐고 있어 새 상징을 세우지 않았다"
+    },
+    {
+      "headword": "Voice",
+      "text": "To dream of hearing voices, denotes pleasant reconciliations, if they are calm and pleasing; high-pitched and angry voices, signify disappointments and unfavorable situations.\n\nTo hear weeping voices, shows that sudden anger will cause you to inflict injury upon a friend.\n\nIf you hear the voice of God, you will make a noble effort to rise higher in unselfish and honorable principles, and will justly hold the admiration of high-minded people.\n\nFor a mother to hear the voice of her child, is a sign of approaching misery, perplexity and grievous doubts.\n\nTo hear the voice of distress, or a warning one calling to you, implies your own serious misfortune or that of some one close to you. If the voice is recognized, it is often ominous of accident or illness, which may eliminate death or loss.",
+      "note": "새 상징 voice(목소리) — 한국어 낱말 \"목소리\"는 called(이름 부름)·bass-voice(저음 목소리)·dumb(말을 못 함) 셋이 이미 별칭으로 쥐고 있지만 다들 다른 구체적 상황(호명·저음·벙어리)이라 목소리를 듣는다는 일반적 그림과 함께 걸려도 됨"
+    }
+  ]
+}

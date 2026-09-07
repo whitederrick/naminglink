@@ -8259,5 +8259,20 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "virgin",
     "a virgin",
     "virginity"
+  ],
+  "visit": [
+    "visit",
+    "visiting",
+    "a visitor"
+  ],
+  "vision": [
+    "vision",
+    "visions",
+    "a vision"
+  ],
+  "voice": [
+    "voice",
+    "voices",
+    "a voice"
   ]
 };

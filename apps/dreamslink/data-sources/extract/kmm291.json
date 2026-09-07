@@ -1,0 +1,88 @@
+[
+  {
+    "id": "visit",
+    "aliases": [
+      "방문이",
+      "방문을",
+      "방문했다",
+      "방문했는데",
+      "찾아감",
+      "찾아옴"
+    ],
+    "aliases_en": [
+      "visit",
+      "visiting",
+      "a visitor"
+    ],
+    "contexts": {
+      "제가 방문함": "그냥",
+      "불쾌한 방문을 함": "불쾌한",
+      "벗이 저를 방문함": "벗이 반가운",
+      "슬프고 여독에 지쳐 보이는 벗이 방문함": "여독 지쳐",
+      "검거나 흰 옷을 입고 창백하거나 섬뜩해 보이는 벗이 방문함": "창백 섬뜩"
+    },
+    "contexts_en": {
+      "제가 방문함": "pleasant occasion",
+      "불쾌한 방문을 함": "marred malicious action",
+      "벗이 저를 방문함": "friend favorable news",
+      "슬프고 여독에 지쳐 보이는 벗이 방문함": "sad travel-worn displeasure",
+      "검거나 흰 옷을 입고 창백하거나 섬뜩해 보이는 벗이 방문함": "pale ghastly illness"
+    }
+  },
+  {
+    "id": "vision",
+    "aliases": [
+      "환상이",
+      "환상을"
+    ],
+    "aliases_en": [
+      "vision",
+      "visions",
+      "a vision"
+    ],
+    "contexts": {
+      "이상한 환상을 봄": "이상한 병으로",
+      "환상 속에 사람들이 나타남": "사람들이 봉기",
+      "죽음이 가까운 벗이 환상으로 경고함": "죽음이 흰옷",
+      "온갖 환상을 봄": "사업에 변화"
+    },
+    "contexts_en": {
+      "이상한 환상을 봄": "strange unfortunate sickness",
+      "환상 속에 사람들이 나타남": "persons uprising strife",
+      "죽음이 가까운 벗이 환상으로 경고함": "dissolution warned garments",
+      "온갖 환상을 봄": "developments reversed eventually"
+    }
+  },
+  {
+    "id": "voice",
+    "aliases": [
+      "목소리가",
+      "목소리를",
+      "음성이",
+      "음성을"
+    ],
+    "aliases_en": [
+      "voice",
+      "voices",
+      "a voice"
+    ],
+    "contexts": {
+      "차분하고 듣기 좋은 목소리를 들음": "차분 듣기좋",
+      "날카롭고 성난 목소리를 들음": "날카롭 성난",
+      "흐느끼는 목소리를 들음": "흐느끼 벗에게",
+      "하느님의 목소리를 들음": "하느님 고결",
+      "어머니가 자녀의 목소리를 들음": "어머니가 자녀",
+      "고통스러운 목소리나 부르는 경고를 들음": "고통스러운 경고",
+      "그 목소리를 알아봄": "알아봄 불길"
+    },
+    "contexts_en": {
+      "차분하고 듣기 좋은 목소리를 들음": "calm pleasing reconciliations",
+      "날카롭고 성난 목소리를 들음": "high-pitched angry disappointments",
+      "흐느끼는 목소리를 들음": "weeping sudden anger",
+      "하느님의 목소리를 들음": "god noble unselfish",
+      "어머니가 자녀의 목소리를 들음": "mother child misery",
+      "고통스러운 목소리나 부르는 경고를 들음": "distress warning misfortune",
+      "그 목소리를 알아봄": "recognized ominous accident"
+    }
+  }
+]
