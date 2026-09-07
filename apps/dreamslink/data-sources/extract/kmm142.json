@@ -46,13 +46,27 @@
     "id": "oath",
     "aliases": [
       "맹세를",
-      "맹세했다"
+      "맹세했다",
+      "서약",
+      "서약을"
     ],
     "aliases_en": [
-      "an oath"
+      "an oath",
+      "a vow",
+      "vows"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "맹세를 함": "그냥",
+      "맹세를 하거나 들음": "불성실 항의",
+      "교회의 서약을 함": "교회 흔들림없는",
+      "맹세를 깨거나 저버림": "깨거나 저버"
+    },
+    "contexts_en": {
+      "맹세를 함": "solemn promise",
+      "맹세를 하거나 들음": "unfaithfulness complaint",
+      "교회의 서약을 함": "church integrity difficulty",
+      "맹세를 깨거나 저버림": "break ignore disastrous"
+    }
   },
   {
     "id": "oatmeal",

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "volcano",
+    "aliases": [
+      "화산이",
+      "화산을"
+    ],
+    "aliases_en": [
+      "volcano",
+      "a volcano",
+      "volcanoes"
+    ],
+    "contexts": {
+      "화산을 봄": "격렬한 다툼",
+      "젊은 여성이 화산 꿈을 꿈": "이기심 욕심"
+    },
+    "contexts_en": {
+      "화산을 봄": "violent disputes reputation",
+      "젊은 여성이 화산 꿈을 꿈": "selfishness greed adventures"
+    }
+  },
+  {
+    "id": "vultures",
+    "aliases": [
+      "대머리수리가",
+      "대머리수리를",
+      "콘도르"
+    ],
+    "aliases_en": [
+      "vultures",
+      "a vulture",
+      "vulture"
+    ],
+    "contexts": {
+      "대머리수리 꿈을 꿈": "속임수 해치려",
+      "다치거나 죽은 대머리수리를 봄": "다치거나 죽은",
+      "여성이 대머리수리 꿈을 꿈": "비방 뒷말"
+    },
+    "contexts_en": {
+      "대머리수리 꿈을 꿈": "scheming injuring",
+      "다치거나 죽은 대머리수리를 봄": "wounded dead succeed",
+      "여성이 대머리수리 꿈을 꿈": "slander gossip overwhelmed"
+    }
+  }
+]

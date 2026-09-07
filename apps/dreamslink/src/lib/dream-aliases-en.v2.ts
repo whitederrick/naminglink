@@ -413,7 +413,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "papers",
     "deed",
     "certificate",
-    "contract"
+    "contract",
+    "vouchers",
+    "a voucher"
   ],
   "fleeing": [
     "ran away",
@@ -6545,7 +6547,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "an oak"
   ],
   "oath": [
-    "an oath"
+    "an oath",
+    "a vow",
+    "vows"
   ],
   "oats": [
     "an oat"
@@ -8274,5 +8278,15 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "voice",
     "voices",
     "a voice"
+  ],
+  "volcano": [
+    "volcano",
+    "a volcano",
+    "volcanoes"
+  ],
+  "vultures": [
+    "vultures",
+    "a vulture",
+    "vulture"
   ]
 };

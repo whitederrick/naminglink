@@ -1221,9 +1221,14 @@
     "id": "vomiting",
     "aliases": [
       "토했",
+      "토했다",
       "게웠",
       "구역질",
-      "메스꺼"
+      "메스꺼",
+      "구토하는",
+      "구토했다",
+      "토하는",
+      "토해내고"
     ],
     "aliases_en": [
       "vomiting",
@@ -1231,8 +1236,20 @@
       "threw up",
       "nausea"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "토함": "그냥",
+      "구토하는 꿈을 꿈": "폐인 추문",
+      "남이 토하는 것을 봄": "거짓 핑계",
+      "여성이 닭을 토해내고 닭이 뛰어 달아나는 꿈을 꿈": "닭을 토해",
+      "피를 토함": "피를 갑작스레"
+    },
+    "contexts_en": {
+      "토함": "cured illness",
+      "구토하는 꿈을 꿈": "afflicted malady scandal",
+      "남이 토하는 것을 봄": "false pretenses aid",
+      "여성이 닭을 토해내고 닭이 뛰어 달아나는 꿈을 꿈": "chicken disappointed relative",
+      "피를 토함": "blood forebodings discomfort"
+    }
   },
   {
     "id": "yellow-clothing",

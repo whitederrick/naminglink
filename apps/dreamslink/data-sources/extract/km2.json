@@ -629,7 +629,12 @@
       "길을 떠났다",
       "길을 떠나",
       "길 떠나",
-      "나들이"
+      "나들이",
+      "항해",
+      "항해를",
+      "뱃길",
+      "항해했다",
+      "항해했는데"
     ],
     "aliases_en": [
       "travel",
@@ -648,7 +653,9 @@
       "메마르고 바위투성이인 비탈을 지남": "바위투성이 비탈",
       "기름지고 푸른 언덕이나 산을 지남": "언덕 기름진",
       "홀로 차를 타고 여행함": "홀로",
-      "붐비는 차를 타고 여행함": "붐비는"
+      "붐비는 차를 타고 여행함": "붐비는",
+      "배를 타고 항해함": "유산 상속",
+      "재난을 만난 항해": "무능 거짓사랑"
     },
     "contexts_en": {
       "먼 길을 오가며 다님": "forth coming going wandering",
@@ -661,7 +668,9 @@
       "메마르고 바위투성이인 비탈을 지남": "bare rocky steeps apparent",
       "기름지고 푸른 언덕이나 산을 지남": "fertile green hills eminently",
       "홀로 차를 타고 여행함": "alone eventful worrying",
-      "붐비는 차를 타고 여행함": "crowded fortunate entertaining"
+      "붐비는 차를 타고 여행함": "crowded fortunate entertaining",
+      "배를 타고 항해함": "inheritance besides labors",
+      "재난을 만난 항해": "disastrous incompetence loves"
     }
   },
   {
@@ -891,10 +900,22 @@
       "papers",
       "deed",
       "certificate",
-      "contract"
+      "contract",
+      "vouchers",
+      "a voucher"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "문서에 도장을 찍음": "도장을 찍었다",
+      "증서 꿈을 꿈": "그냥",
+      "증서에 서명함": "서명 신뢰",
+      "증서를 잃어버림": "잃어버려 다툼"
+    },
+    "contexts_en": {
+      "문서에 도장을 찍음": "stamp seal",
+      "증서 꿈을 꿈": "patient toil scheming",
+      "증서에 서명함": "sign confidence enemies",
+      "증서를 잃어버림": "lose struggle relatives"
+    }
   },
   {
     "id": "fleeing",
