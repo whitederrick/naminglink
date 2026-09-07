@@ -1,0 +1,62 @@
+[
+  {
+    "id": "surgeon",
+    "aliases": [
+      "외과의사가",
+      "외과의사를",
+      "외과 의사"
+    ],
+    "aliases_en": [
+      "surgeon",
+      "a surgeon"
+    ],
+    "contexts": {
+      "외과의사 꿈을 꿈": "그냥",
+      "여성이 외과의사 꿈을 꿈": "여성이 중병"
+    },
+    "contexts_en": {
+      "외과의사 꿈을 꿈": "threatened enemies business",
+      "여성이 외과의사 꿈을 꿈": "young woman serious illness"
+    }
+  },
+  {
+    "id": "surgical-instruments",
+    "aliases": [
+      "수술 도구를",
+      "수술 도구가",
+      "수술 기구"
+    ],
+    "aliases_en": [
+      "surgical instruments",
+      "a surgical instrument"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "swan",
+    "aliases": [
+      "백조가",
+      "백조를",
+      "고니",
+      "백조들"
+    ],
+    "aliases_en": [
+      "swan",
+      "swans",
+      "a swan"
+    ],
+    "contexts": {
+      "흰 백조들이 잔잔한 물 위에 떠 있는 것을 봄": "잔잔한 떠있",
+      "맑은 물 가까이에서 검은 백조를 봄": "검은 맑은",
+      "죽은 백조를 봄": "죽은 백조를",
+      "백조들이 날아가는 것을 봄": "날아가는"
+    },
+    "contexts_en": {
+      "흰 백조들이 잔잔한 물 위에 떠 있는 것을 봄": "white placid prosperous",
+      "맑은 물 가까이에서 검은 백조를 봄": "black illicit pleasure",
+      "죽은 백조를 봄": "dead satiety discontentment",
+      "백조들이 날아가는 것을 봄": "flying anticipations realized"
+    }
+  }
+]

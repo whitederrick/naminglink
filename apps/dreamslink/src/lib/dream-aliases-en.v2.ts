@@ -7765,5 +7765,18 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "sugar-tongs": [
     "sugar-tongs",
     "sugar tongs"
+  ],
+  "surgeon": [
+    "surgeon",
+    "a surgeon"
+  ],
+  "surgical-instruments": [
+    "surgical instruments",
+    "a surgical instrument"
+  ],
+  "swan": [
+    "swan",
+    "swans",
+    "a swan"
   ]
 };

@@ -813,7 +813,13 @@
     "aliases": [
       "대청소",
       "물청소",
-      "쓸고 닦"
+      "쓸고 닦",
+      "비질",
+      "비질을",
+      "비질하는",
+      "쓸었다",
+      "쓰는",
+      "쓸어야"
     ],
     "aliases_en": [
       "cleaning",
@@ -821,8 +827,18 @@
       "tidying up",
       "washing the house"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "집에 물을 뿌리고 쓺": "물을 뿌리고",
+      "비질하는 꿈을 꿈": "그냥",
+      "바닥을 쓸어야 한다고 여기고도 이런저런 까닭으로 미룸": "미루는 바닥을",
+      "하인이 비질을 함": "하인이"
+    },
+    "contexts_en": {
+      "집에 물을 뿌리고 쓺": "sprinkle water sweep",
+      "비질하는 꿈을 꿈": "favor husband pleasure",
+      "바닥을 쓸어야 한다고 여기고도 이런저런 까닭으로 미룸": "neglect distresses disappointments",
+      "하인이 비질을 함": "servants suspicion"
+    }
   },
   {
     "id": "club",

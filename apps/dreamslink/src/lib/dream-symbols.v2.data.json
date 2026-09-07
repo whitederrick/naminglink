@@ -183,6 +183,7 @@
     "m260.json",
     "m261.json",
     "m262.json",
+    "m263.json",
     "m27a.json",
     "m27b.json",
     "m28.json",
@@ -43831,6 +43832,110 @@
       ]
     },
     {
+      "id": "bog",
+      "term_ko": "수렁",
+      "term_en": "bog",
+      "aliases": [
+        "수렁",
+        "습지",
+        "진창 늪",
+        "늪에 빠",
+        "늪지를",
+        "늪지가",
+        "진펄",
+        "늪지",
+        "수렁에 빠졌다",
+        "수렁에 빠지",
+        "늪을",
+        "늪이"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "늪지 꿈을 꿈",
+          "interpretation_ko": "일어서려는 노력이 소용없다고 느껴질 만큼 무거운 짐을 지게 되고, 병과 근심이 짓누를 조짐",
+          "interpretation_en": "a sign of burdens under whose weight you feel that endeavors to rise are useless, and that illness and other worries may oppress you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Bog",
+              "original": "Bogs, denotes burdens under whose weight you feel that endeavors\nto rise are useless.  Illness and other worries may oppress you.",
+              "translation_ko": "늪지 꿈을 꾸면 일어서려는 노력이 소용없다고 느껴질 만큼 무거운 짐을 지게 되고, 병과 근심이 짓누를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "늪지를 걸어서 지남",
+          "interpretation_ko": "지나친 일과 걱정에서 병이 올 흉한 조짐 — 가까운 살붙이의 어리석은 처신 때문에 언짢은 일도 겪는다",
+          "interpretation_en": "denotes illness resulting from overwork and worry; you will suffer much displeasure from the unwise conduct of a near relative",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Marsh",
+              "original": "To dream of walking through marshy places, denotes illness resulting from overwork and worry.",
+              "translation_ko": "늪지를 걸어서 지나는 꿈은, 지나친 일과 걱정에서 병이 옴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "수렁에 빠짐",
+          "interpretation_ko": "책무를 다하지 못할 조짐. 이따금 병을 알리기도 함",
+          "interpretation_en": "implies your inability to meet obligations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quagmire",
+              "original": "To dream of being in a quagmire, implies your inability to meet obligations.",
+              "translation_ko": "수렁에 빠지는 꿈은, 책무를 다하지 못할 조짐이다"
+            },
+            {
+              "work": "miller",
+              "locator": "Quagmire",
+              "original": "Illness is sometimes indicated by this dream.",
+              "translation_ko": "이따금 병을 알리기도 한다"
+            }
+          ]
+        },
+        {
+          "context": "남이 수렁에 빠진 것을 봄",
+          "interpretation_ko": "남의 실패가 저에게도 미칠 조짐",
+          "interpretation_en": "denotes that the failures of others will be felt by you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Quagmire",
+              "original": "To see others thus situated, denotes that the failures of others will be felt by you.",
+              "translation_ko": "남이 수렁에 빠진 것을 보는 꿈은, 남의 실패가 저에게도 미칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 물과 푸른 초목이 있는 늪을 지나감",
+          "interpretation_ko": "위험과 술수를 겪으며 번영과 남다른 즐거움을 붙잡을 조짐",
+          "interpretation_en": "you will take hold on prosperity and singular pleasures, the obtaining of which will be attended with danger and intriguing",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Swamp",
+              "original": "To go through a swamp where you see clear water and green growths, you will take hold on prosperity and singular pleasures, the obtaining of which will be attended with danger and intriguing.",
+              "translation_ko": "맑은 물과 푸른 초목이 있는 늪을 지나가는 꿈은, 위험과 술수를 겪으며 번영과 남다른 즐거움을 붙잡을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bracelet",
       "term_ko": "팔찌",
       "term_en": "bracelet",
@@ -51213,6 +51318,102 @@
       ]
     },
     {
+      "id": "verbal-abuse",
+      "term_ko": "욕설",
+      "term_en": "verbal abuse",
+      "aliases": [
+        "욕을",
+        "모욕",
+        "험담",
+        "욕설을",
+        "욕설하",
+        "욕설한",
+        "욕을 퍼부",
+        "쌍소리",
+        "욕설하여"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남에게 욕을 먹고 모욕을 당함",
+          "interpretation_ko": "송사에 휘말릴 조짐",
+          "interpretation_en": "a sign of being drawn into a lawsuit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "垢污沐浴凌辱",
+              "original": "被辱罵惹人詞訟",
+              "translation_ko": "욕을 먹고 모욕을 당하면 남과 송사가 붙는다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 욕설하여 사업에 지장이 생김",
+          "interpretation_ko": "애인이 정혼자의 신의를 의심할 빌미가 생길 조짐",
+          "interpretation_en": "denotes some unpleasant obstructions in business; a lover will have cause to suspect the faithfulness of his affianced after this dream",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Swearing",
+              "original": "To dream of swearing, denotes some unpleasant obstructions in business. A lover will have cause to suspect the faithfulness of his affianced after this dream.",
+              "translation_ko": "스스로 욕설하여 사업에 지장이 생기는 꿈은, 애인이 정혼자의 신의를 의심할 빌미가 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "가족 앞에서 욕설을 함",
+          "interpretation_ko": "스스로의 신의 없는 행실로 곧 다툼이 불거질 조짐",
+          "interpretation_en": "denotes that disagreements will soon be brought about by your unloyal conduct",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Swearing",
+              "original": "To dream that you are swearing before your family, denotes that disagreements will soon be brought about by your unloyal conduct.",
+              "translation_ko": "가족 앞에서 욕설을 하는 꿈은, 스스로의 신의 없는 행실로 곧 다툼이 불거질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제가 욕설을 퍼부음",
+          "interpretation_ko": "북받친 노여움이 터져 가까운 이들과 사이가 멀어질 흉한 조짐",
+          "interpretation_en": "warns you of passionate outbursts of anger, which may estrange you from close companions",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Invective",
+              "original": "To dream of using invectives, warns you of passionate outbursts of anger, which may estrange you from close companions.",
+              "translation_ko": "욕설을 퍼붓는 꿈은 북받친 노여움이 터져 가까운 이들과 멀어지리라는 경고다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 욕설하는 것을 들음",
+          "interpretation_ko": "적이 에워싸고 그른 일과 속임수로 몰아갈 흉한 조짐",
+          "interpretation_en": "enemies are closing you in to apparent wrong and deceits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Invective",
+              "original": "To hear others using them, enemies are closing you in to apparent wrong and deceits.",
+              "translation_ko": "남들이 그런 말을 하는 것을 들으면 적들이 에워싸고 그른 일과 속임수로 몰아간다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "weaving",
       "term_ko": "베짜기",
       "term_en": "weaving",
@@ -53743,94 +53944,6 @@
       ]
     },
     {
-      "id": "bog",
-      "term_ko": "수렁",
-      "term_en": "bog",
-      "aliases": [
-        "수렁",
-        "습지",
-        "진창 늪",
-        "늪에 빠",
-        "늪지를",
-        "늪지가",
-        "진펄",
-        "늪지",
-        "수렁에 빠졌다",
-        "수렁에 빠지"
-      ],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "늪지 꿈을 꿈",
-          "interpretation_ko": "일어서려는 노력이 소용없다고 느껴질 만큼 무거운 짐을 지게 되고, 병과 근심이 짓누를 조짐",
-          "interpretation_en": "a sign of burdens under whose weight you feel that endeavors to rise are useless, and that illness and other worries may oppress you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Bog",
-              "original": "Bogs, denotes burdens under whose weight you feel that endeavors\nto rise are useless.  Illness and other worries may oppress you.",
-              "translation_ko": "늪지 꿈을 꾸면 일어서려는 노력이 소용없다고 느껴질 만큼 무거운 짐을 지게 되고, 병과 근심이 짓누를 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "늪지를 걸어서 지남",
-          "interpretation_ko": "지나친 일과 걱정에서 병이 올 흉한 조짐 — 가까운 살붙이의 어리석은 처신 때문에 언짢은 일도 겪는다",
-          "interpretation_en": "denotes illness resulting from overwork and worry; you will suffer much displeasure from the unwise conduct of a near relative",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Marsh",
-              "original": "To dream of walking through marshy places, denotes illness resulting from overwork and worry.",
-              "translation_ko": "늪지를 걸어서 지나는 꿈은, 지나친 일과 걱정에서 병이 옴을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "수렁에 빠짐",
-          "interpretation_ko": "책무를 다하지 못할 조짐. 이따금 병을 알리기도 함",
-          "interpretation_en": "implies your inability to meet obligations",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Quagmire",
-              "original": "To dream of being in a quagmire, implies your inability to meet obligations.",
-              "translation_ko": "수렁에 빠지는 꿈은, 책무를 다하지 못할 조짐이다"
-            },
-            {
-              "work": "miller",
-              "locator": "Quagmire",
-              "original": "Illness is sometimes indicated by this dream.",
-              "translation_ko": "이따금 병을 알리기도 한다"
-            }
-          ]
-        },
-        {
-          "context": "남이 수렁에 빠진 것을 봄",
-          "interpretation_ko": "남의 실패가 저에게도 미칠 조짐",
-          "interpretation_en": "denotes that the failures of others will be felt by you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Quagmire",
-              "original": "To see others thus situated, denotes that the failures of others will be felt by you.",
-              "translation_ko": "남이 수렁에 빠진 것을 보는 꿈은, 남의 실패가 저에게도 미칠 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "bonnet",
       "term_ko": "보닛(모자)",
       "term_en": "bonnet",
@@ -55940,6 +56053,88 @@
               "locator": "Clay",
               "original": "Women will find this dream unfavorable in love, social and business states, and misrepresentations will overwhelm them.",
               "translation_ko": "여성에게 이 꿈은 사랑과 사람 사이와 일에서 좋지 않고, 헛소문이 그들을 뒤덮는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cleaning",
+      "term_ko": "청소",
+      "term_en": "cleaning",
+      "aliases": [
+        "대청소",
+        "물청소",
+        "쓸고 닦",
+        "비질",
+        "비질을",
+        "비질하는",
+        "쓸었다",
+        "쓰는",
+        "쓸어야"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "비질하는 꿈을 꿈",
+          "interpretation_ko": "남편의 눈에 들고 아이들도 집에서 즐거움을 찾을 조짐",
+          "interpretation_en": "denotes that you will gain favor in the eyes of your husband, and children will find pleasure in the home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sweeping",
+              "original": "To dream of sweeping, denotes that you will gain favor in the eyes of your husband, and children will find pleasure in the home.",
+              "translation_ko": "비질하는 꿈은, 남편의 눈에 들고 아이들도 집에서 즐거움을 찾을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "바닥을 쓸어야 한다고 여기고도 이런저런 까닭으로 미룸",
+          "interpretation_ko": "다가올 날에 시름과 쓰라린 실망이 기다리고 있을 조짐",
+          "interpretation_en": "there will be distresses and bitter disappointments awaiting you in the approaching days",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sweeping",
+              "original": "If you think the floors need sweeping, and you from some cause neglect them, there will be distresses and bitter disappointments awaiting you in the approaching days.",
+              "translation_ko": "바닥을 쓸어야 한다고 여기고도 이런저런 까닭으로 미루는 꿈은, 다가올 날에 시름과 쓰라린 실망이 기다리고 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "하인이 비질을 함",
+          "interpretation_ko": "다툼과 남을 의심하는 마음이 생길 조짐",
+          "interpretation_en": "is a sign of disagreements and suspicion of the intentions of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sweeping",
+              "original": "To servants, sweeping is a sign of disagreements and suspicion of the intentions of others.",
+              "translation_ko": "하인이 비질을 하는 꿈은, 다툼과 남을 의심하는 마음이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "집에 물을 뿌리고 쓺",
+          "interpretation_ko": "먼 데서 사람이 찾아올 조짐",
+          "interpretation_en": "a sign that someone from afar will come",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "洒掃宅舍遠人來",
+              "translation_ko": "집을 물 뿌려 쓸면 먼 데 사람이 온다"
             }
           ]
         }
@@ -66237,6 +66432,154 @@
               "locator": "Street",
               "original": "To pass down a street and feel alarmed lest a thug attack you, denotes that you are venturing upon dangerous ground in advancing your pleasure or business.",
               "translation_ko": "거리를 지나며 불량배가 덮칠까 겁내는 꿈은, 즐거움이나 사업을 벌이며 위험한 자리로 나아가고 있다는 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swallow",
+      "term_ko": "제비",
+      "term_en": "swallow",
+      "aliases": [],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제비 꿈을 꿈",
+          "interpretation_ko": "평화와 화목한 집안을 알리는 조짐",
+          "interpretation_en": "is a sign of peace and domestic harmony",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Swallow",
+              "original": "To dream of swallows, is a sign of peace and domestic harmony.",
+              "translation_ko": "제비 꿈은, 평화와 화목한 집안을 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "다치거나 죽은 제비를 봄",
+          "interpretation_ko": "피할 수 없는 슬픔을 뜻함",
+          "interpretation_en": "signifies unavoidable sadness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Swallow",
+              "original": "To see a wounded or dead one, signifies unavoidable sadness.",
+              "translation_ko": "다치거나 죽은 제비를 보는 꿈은, 피할 수 없는 슬픔을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "제비가 날아 품에 들어옴",
+          "interpretation_ko": "아내가 귀한 자식을 낳을 조짐",
+          "interpretation_en": "a sign that one's wife will bear a noble child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "燕飛入懷妻貴子",
+              "translation_ko": "제비가 날아 품에 들면 아내가 귀한 자식을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "제비가 날아옴",
+          "interpretation_ko": "먼 곳에서 손님이 올 조짐",
+          "interpretation_en": "a sign that a guest from afar will come",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "燕子至有遠客來",
+              "translation_ko": "제비가 오면 먼 데서 손님이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swan",
+      "term_ko": "백조",
+      "term_en": "swan",
+      "aliases": [
+        "백조가",
+        "백조를",
+        "고니",
+        "백조들"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "흰 백조들이 잔잔한 물 위에 떠 있는 것을 봄",
+          "interpretation_ko": "번영할 전망과 즐거운 경험을 알리는 조짐",
+          "interpretation_en": "foretells prosperous outlooks and delightful experiences",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Swan",
+              "original": "To dream of seeing white swans floating upon placid waters, foretells prosperous outlooks and delightful experiences.",
+              "translation_ko": "흰 백조들이 잔잔한 물 위에 떠 있는 것을 보는 꿈은, 번영할 전망과 즐거운 경험을 알리는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 물 가까이에서 검은 백조를 봄",
+          "interpretation_ko": "떳떳하지 못한 즐거움을 뜻함",
+          "interpretation_en": "denotes illicit pleasure, if near clear water",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Swan",
+              "original": "To see a black swan, denotes illicit pleasure, if near clear water.",
+              "translation_ko": "맑은 물 가까이에서 검은 백조를 보는 꿈은, 떳떳하지 못한 즐거움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "죽은 백조를 봄",
+          "interpretation_ko": "물릴 만큼 지나쳐 불만스러워질 조짐",
+          "interpretation_en": "foretells satiety and discontentment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Swan",
+              "original": "A dead swan, foretells satiety and discontentment",
+              "translation_ko": "죽은 백조를 보는 꿈은, 물릴 만큼 지나쳐 불만스러워질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "백조들이 날아가는 것을 봄",
+          "interpretation_ko": "즐거운 기대가 머잖아 이루어질 조짐",
+          "interpretation_en": "pleasant anticipations will be realized soon",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Swan",
+              "original": "To see them flying, pleasant anticipations will be realized soon.",
+              "translation_ko": "백조들이 날아가는 것을 보는 꿈은, 즐거운 기대가 머잖아 이루어질 조짐이다"
             }
           ]
         }
@@ -83339,73 +83682,6 @@
               "locator": "天地日月星辰",
               "original": "雷從地震主志遂",
               "translation_ko": "우레가 땅에서 울리면 뜻을 이룬다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "verbal-abuse",
-      "term_ko": "욕설",
-      "term_en": "verbal abuse",
-      "aliases": [
-        "욕을",
-        "모욕",
-        "험담",
-        "욕설을",
-        "욕설하",
-        "욕설한",
-        "욕을 퍼부",
-        "쌍소리"
-      ],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남에게 욕을 먹고 모욕을 당함",
-          "interpretation_ko": "송사에 휘말릴 조짐",
-          "interpretation_en": "a sign of being drawn into a lawsuit",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "垢污沐浴凌辱",
-              "original": "被辱罵惹人詞訟",
-              "translation_ko": "욕을 먹고 모욕을 당하면 남과 송사가 붙는다"
-            }
-          ]
-        },
-        {
-          "context": "제가 욕설을 퍼부음",
-          "interpretation_ko": "북받친 노여움이 터져 가까운 이들과 사이가 멀어질 흉한 조짐",
-          "interpretation_en": "warns you of passionate outbursts of anger, which may estrange you from close companions",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Invective",
-              "original": "To dream of using invectives, warns you of passionate outbursts of anger, which may estrange you from close companions.",
-              "translation_ko": "욕설을 퍼붓는 꿈은 북받친 노여움이 터져 가까운 이들과 멀어지리라는 경고다"
-            }
-          ]
-        },
-        {
-          "context": "남들이 욕설하는 것을 들음",
-          "interpretation_ko": "적이 에워싸고 그른 일과 속임수로 몰아갈 흉한 조짐",
-          "interpretation_en": "enemies are closing you in to apparent wrong and deceits",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Invective",
-              "original": "To hear others using them, enemies are closing you in to apparent wrong and deceits.",
-              "translation_ko": "남들이 그런 말을 하는 것을 들으면 적들이 에워싸고 그른 일과 속임수로 몰아간다"
             }
           ]
         }
@@ -110803,43 +111079,47 @@
       ]
     },
     {
-      "id": "swallow",
-      "term_ko": "제비",
-      "term_en": "swallow",
-      "aliases": [],
-      "category": "animal",
-      "polarity": "neutral",
+      "id": "surgeon",
+      "term_ko": "외과의사",
+      "term_en": "surgeon",
+      "aliases": [
+        "외과의사가",
+        "외과의사를",
+        "외과 의사"
+      ],
+      "category": "person",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "제비가 날아 품에 들어옴",
-          "interpretation_ko": "아내가 귀한 자식을 낳을 조짐",
-          "interpretation_en": "a sign that one's wife will bear a noble child",
-          "polarity": "positive",
+          "context": "외과의사 꿈을 꿈",
+          "interpretation_ko": "사업에서 가까운 이들 가운데 원수가 있어 위협을 받는다는 조짐",
+          "interpretation_en": "denotes you are threatened by enemies who are close to you in business",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "燕飛入懷妻貴子",
-              "translation_ko": "제비가 날아 품에 들면 아내가 귀한 자식을 낳는다"
+              "work": "miller",
+              "locator": "Surgeon",
+              "original": "To dream of a surgeon, denotes you are threatened by enemies who are close to you in business.",
+              "translation_ko": "외과의사 꿈은, 사업에서 가까운 이들 가운데 원수가 있어 위협을 받는다는 조짐이다"
             }
           ]
         },
         {
-          "context": "제비가 날아옴",
-          "interpretation_ko": "먼 곳에서 손님이 올 조짐",
-          "interpretation_en": "a sign that a guest from afar will come",
-          "polarity": "neutral",
+          "context": "여성이 외과의사 꿈을 꿈",
+          "interpretation_ko": "큰 불편을 겪을 중병을 예고하는 조짐",
+          "interpretation_en": "this dream promises a serious illness from which she will experience great inconvenience",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "燕子至有遠客來",
-              "translation_ko": "제비가 오면 먼 데서 손님이 온다"
+              "work": "miller",
+              "locator": "Surgeon",
+              "original": "For a young woman, this dream promises a serious illness from which she will experience great inconvenience.",
+              "translation_ko": "여성이 외과의사 꿈을 꾸면, 큰 불편을 겪을 중병을 예고하는 조짐이다"
             }
           ]
         }
@@ -114461,39 +114741,6 @@
               "locator": "哀樂病死歌唱",
               "original": "與人拍板有口舌",
               "translation_ko": "남과 박판을 치면 구설이 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cleaning",
-      "term_ko": "청소",
-      "term_en": "cleaning",
-      "aliases": [
-        "대청소",
-        "물청소",
-        "쓸고 닦"
-      ],
-      "category": "action",
-      "polarity": "neutral",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "집에 물을 뿌리고 쓺",
-          "interpretation_ko": "먼 데서 사람이 찾아올 조짐",
-          "interpretation_en": "a sign that someone from afar will come",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "洒掃宅舍遠人來",
-              "translation_ko": "집을 물 뿌려 쓸면 먼 데 사람이 온다"
             }
           ]
         }
@@ -124228,6 +124475,39 @@
               "locator": "天地日月星辰",
               "original": "霞滿天百事歡悅",
               "translation_ko": "노을이 하늘에 가득하면 온갖 일이 기쁘다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgical-instruments",
+      "term_ko": "수술 도구",
+      "term_en": "surgical instruments",
+      "aliases": [
+        "수술 도구를",
+        "수술 도구가",
+        "수술 기구"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "수술 도구를 봄",
+          "interpretation_ko": "벗이 자신에게 보이는 경솔한 태도에 못마땅함을 느낄 조짐",
+          "interpretation_en": "foretells dissatisfaction will be felt by you at the indiscreet manner a friend manifests toward you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Surgical Instruments",
+              "original": "To see surgical instruments in a dream, foretells dissatisfaction will be felt by you at the indiscreet manner a friend manifests toward you.",
+              "translation_ko": "수술 도구를 보는 꿈은, 벗이 자신에게 보이는 경솔한 태도에 못마땅함을 느낄 조짐이다"
             }
           ]
         }

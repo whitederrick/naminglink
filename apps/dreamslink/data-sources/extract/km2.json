@@ -1230,7 +1230,8 @@
       "욕설하",
       "욕설한",
       "욕을 퍼부",
-      "쌍소리"
+      "쌍소리",
+      "욕설하여"
     ],
     "aliases_en": [
       "insulted",
@@ -1241,12 +1242,16 @@
     "contexts": {
       "남에게 욕을 먹고 모욕을 당함": "모욕을 당했다",
       "제가 욕설을 퍼부음": "퍼부었 퍼붓 내가 제가",
-      "남들이 욕설하는 것을 들음": "남들이 듣고 들었다"
+      "남들이 욕설하는 것을 들음": "남들이 듣고 들었다",
+      "스스로 욕설하여 사업에 지장이 생김": "사업에 지장",
+      "가족 앞에서 욕설을 함": "가족 앞에서"
     },
     "contexts_en": {
       "남에게 욕을 먹고 모욕을 당함": "humiliated",
       "제가 욕설을 퍼부음": "using invectives passionate outbursts estrange",
-      "남들이 욕설하는 것을 들음": "hear others closing apparent deceits"
+      "남들이 욕설하는 것을 들음": "hear others closing apparent deceits",
+      "스스로 욕설하여 사업에 지장이 생김": "obstructions faithfulness affianced",
+      "가족 앞에서 욕설을 함": "family unloyal conduct"
     }
   }
 ]

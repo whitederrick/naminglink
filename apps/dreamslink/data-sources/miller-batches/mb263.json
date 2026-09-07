@@ -1,0 +1,17 @@
+{
+  "batch": 263,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Surgeon", "text": "To dream of a surgeon, denotes you are threatened by enemies who are close to you in business.  For a young woman, this dream promises a serious illness from which she will experience great inconvenience.", "note": "새 상징 surgeon(외과의사)" },
+    { "headword": "Surgical Instruments", "text": "To see surgical instruments in a dream, foretells dissatisfaction will be felt by you at the indiscreet manner a friend manifests toward you.", "note": "새 상징 surgical instruments(수술 도구)" },
+    { "headword": "Swallow", "text": "To dream of swallows, is a sign of peace and domestic harmony.\n\nTo see a wounded or dead one, signifies unavoidable sadness.", "note": "기존 swallow(제비)에 문맥 2개 추가 — 옛 두 의미(zhougong)와 안 겹침" },
+    { "headword": "Swamp", "text": "To walk through swampy places in dreams, foretells that you will be the object of adverse circumstances.  Your inheritance will be uncertain, and you will undergo keen disappointments in your love matters.\n\nTo go through a swamp where you see clear water and green growths, you will take hold on prosperity and singular pleasures, the obtaining of which will be attended with danger and intriguing.", "note": "기존 bog(수렁)에 문맥 1개만 추가. 첫 문장은 기존 bog의 「늪지를 걸어서 지남」(밀러 Marsh 헤드워드)과 같은 그림·다른 풀이라 건너뜀 — 원문 각주 [217] See Marsh가 그 뜻이다" },
+    { "headword": "Swan", "text": "To dream of seeing white swans floating upon placid waters, foretells prosperous outlooks and delightful experiences.\n\nTo see a black swan, denotes illicit pleasure, if near clear water.\n\nA dead swan, foretells satiety and discontentment\n\nTo see them flying, pleasant anticipations will be realized soon.", "note": "새 상징 swan(백조)" },
+    { "headword": "Swearing", "text": "To dream of swearing, denotes some unpleasant obstructions in business.  A lover will have cause to suspect the faithfulness of his affianced after this dream.\n\nTo dream that you are swearing before your family, denotes that disagreements will soon be brought about by your unloyal conduct.", "note": "기존 verbal-abuse(욕설)에 문맥 2개 추가 — 신의를 의심받거나 잃는 결과가 공통돼 「욕설」로 옮김. 옛 세 의미와 안 겹침" },
+    { "headword": "Sweeping", "text": "To dream of sweeping, denotes that you will gain favor in the eyes of your husband, and children will find pleasure in the home.\n\nIf you think the floors need sweeping, and you from some cause neglect them, there will be distresses and bitter disappointments awaiting you in the approaching days.\n\nTo servants, sweeping is a sign of disagreements and suspicion of the intentions of others.", "note": "기존 cleaning(청소)에 문맥 3개 추가 — 옛 유일한 의미(zhougong, 물을 뿌리고 쓺)와 안 겹침" }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    { "headword": "Swamp", "sentence": "To walk through swampy places in dreams, foretells that you will be the object of adverse circumstances.  Your inheritance will be uncertain, and you will undergo keen disappointments in your love matters.", "reason": "기존 bog 「늪지를 걸어서 지남」(밀러 Marsh)과 같은 그림·다른 풀이" }
+  ]
+}

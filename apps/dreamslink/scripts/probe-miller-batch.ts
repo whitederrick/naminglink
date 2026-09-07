@@ -1,15 +1,11 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 262 — 새 상징 둘(sugar·sugar-tongs)을 세우고,
-// 기존 taking-one-s-own-life·brimstone·sun·umbrella 넷에 문맥을
-// 보탰다. Sunshade 는 처음에 term_en 을 "sunshade"로 잘못 적어
-// umbrella 와 안 합쳐지고 새 상징이 조용히 하나 더 생겼다 — 조립
-// 직후 상징 수 증가분(+3)이 새 심볼 수(2)와 안 맞는 것을 보고
-// 잡았다(term_en 을 "umbrella"로 고침). taking-one-s-own-life 는
-// **바꾼 것**(옛 zhougong 기본값이 특이한 좁은 그림이라 밀러의
-// 조건 없는 「스스로 목숨을 끊음」으로), brimstone·sun 은 **있던
-// 답 그대로** 얼렸다. Sulphur·Sun 나머지 문장들은 각각 기존
-// brimstone·sun 의 zhougong/밀러 그림과 같은 그림·다른 풀이라
-// 대부분 건너뛰었다.
+// (지금 담긴 것: 배치 263 — 새 상징 셋(surgeon·surgical-instruments·
+// swan)을 세우고, 기존 swallow·bog·verbal-abuse·cleaning 넷에 문맥을
+// 보탰다. Swamp 첫 문장은 기존 bog 「늪지를 걸어서 지남」(밀러
+// Marsh)과 같은 그림·다른 풀이라 건너뜀 — 원문 각주가 "See Marsh"로
+// 가리킨다. swallow·cleaning 은 **바꾼 것**(둘 다 옛 기본값이 조건
+// 붙은 자리라 밀러의 조건 없는 문장으로), verbal-abuse 는 **있던
+// 답 그대로** 얼렸다(당하는 쪽 vs 저지르는 쪽, 어느 쪽도 안 넓다).
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -40,29 +36,29 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 262 새 문맥 (14건) ──────────────────────────────────────────────
-  { id: "sugar", ctx: "설탕 꿈을 꿈", text: "설탕 꿈을 꾸었다" },
-  { id: "sugar", ctx: "설탕을 먹음", text: "설탕을 먹었다" },
-  { id: "sugar", ctx: "설탕값을 매김", text: "설탕값을 매겼다" },
-  { id: "sugar", ctx: "설탕을 거래하며 많은 양이 배달되어 옴을 봄", text: "설탕을 거래하며 많은 양이 배달되어 오는 것을 보았다" },
-  { id: "sugar", ctx: "설탕통이 터져 설탕이 쏟아지는 것을 봄", text: "설탕통이 터져 설탕이 쏟아지는 것을 보았다" },
-  { id: "sugar", ctx: "누군가 노래를 부르며 설탕 짐을 부리는 것을 들음", text: "누군가 노래를 부르며 설탕 짐을 부리는 것을 들었다" },
-  { id: "sugar-tongs", ctx: "설탕집게 꿈을 꿈", text: "설탕집게 꿈을 꾸었다" },
-  { id: "taking-one-s-own-life", ctx: "스스로 목숨을 끊음", text: "스스로 목숨을 끊었다" },
-  { id: "taking-one-s-own-life", ctx: "남이 스스로 목숨을 끊는 것을 보거나 들음", text: "남이 스스로 목숨을 끊는 것을 보았다" },
-  { id: "taking-one-s-own-life", ctx: "여성이 애인이 스스로 목숨을 끊는 꿈을 꿈", text: "여성이 애인이 스스로 목숨을 끊는 꿈을 꾸었다" },
-  { id: "brimstone", ctx: "유황을 먹음", text: "유황을 먹었다" },
-  { id: "sun", ctx: "한낮에 뜬 해를 봄", text: "한낮에 뜬 해를 보았다" },
-  { id: "umbrella", ctx: "어린 소녀들이 양산을 든 것을 봄", text: "어린 소녀들이 양산을 든 것을 보았다" },
-  { id: "umbrella", ctx: "부서진 양산을 봄", text: "부서진 양산을 보았다" },
+  // ── 배치 263 새 문맥 (15건) ──────────────────────────────────────────────
+  { id: "surgeon", ctx: "외과의사 꿈을 꿈", text: "외과의사 꿈을 꾸었다" },
+  { id: "surgeon", ctx: "여성이 외과의사 꿈을 꿈", text: "여성이 외과의사 꿈을 꾸었다" },
+  { id: "surgical-instruments", ctx: "수술 도구를 봄", text: "수술 도구를 보았다" },
+  { id: "swallow", ctx: "제비 꿈을 꿈", text: "제비 꿈을 꾸었다" },
+  { id: "swallow", ctx: "다치거나 죽은 제비를 봄", text: "다치거나 죽은 제비를 보았다" },
+  { id: "bog", ctx: "맑은 물과 푸른 초목이 있는 늪을 지나감", text: "맑은 물과 푸른 초목이 있는 늪을 지나갔다" },
+  { id: "swan", ctx: "흰 백조들이 잔잔한 물 위에 떠 있는 것을 봄", text: "흰 백조들이 잔잔한 물 위에 떠 있는 것을 보았다" },
+  { id: "swan", ctx: "맑은 물 가까이에서 검은 백조를 봄", text: "맑은 물 가까이에서 검은 백조를 보았다" },
+  { id: "swan", ctx: "죽은 백조를 봄", text: "죽은 백조를 보았다" },
+  { id: "swan", ctx: "백조들이 날아가는 것을 봄", text: "백조들이 날아가는 것을 보았다" },
+  { id: "verbal-abuse", ctx: "스스로 욕설하여 사업에 지장이 생김", text: "스스로 욕설하여 사업에 지장이 생겼다" },
+  { id: "verbal-abuse", ctx: "가족 앞에서 욕설을 함", text: "가족 앞에서 욕설을 했다" },
+  { id: "cleaning", ctx: "비질하는 꿈을 꿈", text: "비질하는 꿈을 꾸었다" },
+  { id: "cleaning", ctx: "바닥을 쓸어야 한다고 여기고도 이런저런 까닭으로 미룸", text: "바닥을 쓸어야 한다고 여기고도 미뤘다" },
+  { id: "cleaning", ctx: "하인이 비질을 함", text: "하인이 비질을 했다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────────
-  { id: "taking-one-s-own-life", ctx: "칼을 들고 스스로를 찌름", text: "칼을 들고 스스로 목숨을 끊었다" },
-  { id: "brimstone", ctx: "유황 꿈을 꿈", text: "유황 꿈을 꾸었다" },
-  { id: "brimstone", ctx: "유황불을 봄", text: "유황불을 보았다" },
-  { id: "sun", ctx: "해가 막 떠오름", text: "해가 막 떠올랐다" },
-  { id: "umbrella", ctx: "기혼자가 양산 꿈을 꿈", text: "기혼자가 양산 꿈을 꾸었다" },
-  { id: "umbrella", ctx: "처녀가 양산 꿈을 꿈", text: "처녀가 양산 꿈을 꾸었다" },
+  { id: "swallow", ctx: "제비가 날아 품에 들어옴", text: "제비가 날아 품에 들어왔다" },
+  { id: "bog", ctx: "늪지 꿈을 꿈", text: "늪지 꿈을 꾸었다" },
+  { id: "bog", ctx: "늪지를 걸어서 지남", text: "늪지를 걸어서 지났다" },
+  { id: "verbal-abuse", ctx: "남에게 욕을 먹고 모욕을 당함", text: "남에게 욕을 먹고 모욕을 당했다" },
+  { id: "cleaning", ctx: "집에 물을 뿌리고 쓺", text: "집에 물을 뿌리고 쓸었다" },
 ];
 
 let notFound = 0;

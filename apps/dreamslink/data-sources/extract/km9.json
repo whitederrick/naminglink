@@ -797,11 +797,15 @@
     ],
     "contexts": {
       "제비가 날아 품에 들어옴": "품에 품속 안겼 들어왔 가슴에",
-      "제비가 날아옴": "날아왔 날아오 지저귀 처마"
+      "제비가 날아옴": "날아왔 날아오 지저귀 처마",
+      "제비 꿈을 꿈": "그냥",
+      "다치거나 죽은 제비를 봄": "다치거나 죽은"
     },
     "contexts_en": {
       "제비가 날아 품에 들어옴": "arms bosom chest",
-      "제비가 날아옴": "flew flying arrived came"
+      "제비가 날아옴": "flew flying arrived came",
+      "제비 꿈을 꿈": "peace domestic harmony",
+      "다치거나 죽은 제비를 봄": "wounded dead sadness"
     }
   },
   {

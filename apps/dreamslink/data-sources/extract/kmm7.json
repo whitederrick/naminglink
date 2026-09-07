@@ -1285,7 +1285,9 @@
       "진펄",
       "늪지",
       "수렁에 빠졌다",
-      "수렁에 빠지"
+      "수렁에 빠지",
+      "늪을",
+      "늪이"
     ],
     "aliases_en": [
       "a bog",
@@ -1297,13 +1299,15 @@
       "늪지 꿈을 꿈": "펼쳐져 널려",
       "늪지를 걸어서 지남": "걸어서 헤치고 건넜",
       "수렁에 빠짐": "빠졌 책무를",
-      "남이 수렁에 빠진 것을 봄": "남이 실패가"
+      "남이 수렁에 빠진 것을 봄": "남이 실패가",
+      "맑은 물과 푸른 초목이 있는 늪을 지나감": "맑은 초목"
     },
     "contexts_en": {
       "늪지 꿈을 꿈": "spread stretched",
       "늪지를 걸어서 지남": "walking marshy overwork worry relative",
       "수렁에 빠짐": "inability obligations illness",
-      "남이 수렁에 빠진 것을 봄": "others situated failures"
+      "남이 수렁에 빠진 것을 봄": "others situated failures",
+      "맑은 물과 푸른 초목이 있는 늪을 지나감": "clear water growths prosperity"
     }
   },
   {
