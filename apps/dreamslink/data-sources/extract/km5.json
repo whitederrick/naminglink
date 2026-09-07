@@ -1334,7 +1334,9 @@
       "매매",
       "장사",
       "흥정",
-      "교환"
+      "교환",
+      "거래했다",
+      "거래함"
     ],
     "aliases_en": [
       "trade",
@@ -1342,8 +1344,14 @@
       "bargain",
       "transaction"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "남과 물건을 거래함": "물건을",
+      "거래에서 실패함": "실패"
+    },
+    "contexts_en": {
+      "남과 물건을 거래함": "goods falling ill",
+      "거래에서 실패함": "fail trouble annoyances"
+    }
   },
   {
     "id": "washing-one-s-face",

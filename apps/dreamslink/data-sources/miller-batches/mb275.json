@@ -1,0 +1,17 @@
+{
+  "batch": 275,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Torrent", "text": "To dream that you are looking upon a rushing torrent, denotes that you will have unusual trouble and anxiety.", "note": "기존 rapids(급류) 상징에 문맥 1개 추가 — rapids와 torrent는 밀러 원문에서도 같은 물(급류)을 가리킨다(aliases_en에 이미 rapids만 있었으나 한국어 이름이 겹쳐 발견함)" },
+    { "headword": "Torture", "text": "To dream of being tortured, denotes that you will undergo disappointment and grief through the machination of false friends.\n\nIf you are torturing others, you will fail to carry out well-laid plans for increasing your fortune.\n\nIf you are trying to alleviate the torture of others, you will succeed after a struggle in business and love.", "note": "새 상징 torture(고문)" },
+    { "headword": "Tourist", "text": "To dream that you are a tourist, denotes that you will engage in some pleasurable affair which will take you away from your usual residence.\n\nTo see tourists, indicates brisk but unsettled business and anxiety in love.", "note": "새 상징 tourist(관광객)" },
+    { "headword": "Tower", "text": "To dream of seeing a tower, denotes that you will aspire to high elevations.\nIf you climb one, you will succeed in your wishes, but if the tower crumbles as you descend, you will be disappointed in your hopes.", "note": "새 상징 tower(탑) — 원문 각주 [228]가 Ladder를 가리키나, 탑(건물)은 사다리(도구)와 다른 물건이라 따로 세움" },
+    { "headword": "Toys", "text": "To see toys in dreams, foretells family joys, if whole and new, but if broken, death will rend your heart with sorrow.\n\nTo see children at play with toys, marriage of a happy nature is indicated.\n\nTo give away toys in your dreams, foretells you will be ignored in a social way by your acquaintances.", "note": "새 상징 toys(장난감)" },
+    { "headword": "Trade", "text": "To dream of trading, denotes fair success in your enterprise.\nIf you fail, trouble and annoyances will overtake you.", "note": "기존 trading(거래) 상징에 문맥 1개 추가 — aliases_en에 이미 trade가 있었다. 「거래를 함」(성공, 길)은 기존 「남과 물건을 거래함」(주공해몽, 병이 생김, 흉)과 글자까지 같은 그림에 정반대 풀이라 건너뛰고 「실패함」만 붙임" },
+    { "headword": "Tragedy", "text": "To dream of a tragedy, foretells misunderstandings and grievious disappointments.\n\nTo dream that you are implicated in a tragedy, portends that a calamity will plunge you into sorrow and peril.", "note": "새 상징 tragedy(비극)" }
+  ],
+  "skipped": [],
+  "skipped_sentences": [
+    { "headword": "Trade", "sentence": "To dream of trading, denotes fair success in your enterprise.", "reason": "기존 trading 「남과 물건을 거래함」(주공해몽)과 글자까지 같은 그림에 정반대 풀이(길·흉이 갈림) — §31" }
+  ]
+}

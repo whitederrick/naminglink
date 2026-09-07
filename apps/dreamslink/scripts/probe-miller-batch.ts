@@ -1,12 +1,12 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 274 — Tongue~Tornado. 새 상징 넷(tongue·
-// tooth-picks·topaz·tops)을 세우고, 기존 둘(teeth·firebrand)에 문맥을
-// 나눠 붙였다. Toothless(이가 하나도 없는 상태)는 teeth의 기존 열다섯
-// 의미와 안 겹치는 새 그림이라 붙임. Torch는 firebrand가 이미 「횃불」을
-// 쥐고 있어 병합 — 막연한 첫 문장(횃불을 봄)은 firebrand 기본값과 같은
-// 그림이라 건너뜀. Tornado는 통째로 건너뜀(hurricane과 같은 그림, 원문
-// 각주도 Hurricane을 가리킴). Tops 셋째 문장도 첫 문장과 거의 같은
-// 그림이라 건너뜀(밀러 원문 자체의 되풀이).
+// (지금 담긴 것: 배치 275 — Torrent~Tragedy. 새 상징 다섯(torture·
+// tourist·tower·toys·tragedy)을 세우고, 기존 둘(rapids·trading)에
+// 문맥을 나눠 붙였다. Torrent는 rapids와 같은 물(급류) — 밀러 원문
+// aliases_en에 이미 rapids만 있었는데 한국어 이름이 겹쳐 발견했다.
+// Trade도 trading과 같은 개념(aliases_en에 이미 trade가 있었다) —
+// 「거래를 함」(성공, 길)은 기존 「남과 물건을 거래함」(주공해몽, 병이
+// 생김, 흉)과 글자까지 같은 그림에 정반대 풀이라 건너뛰고 「실패함」만
+// 붙임. trading 기본값은 있던 대로 얼렸다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -37,25 +37,27 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 274 새 문맥 (14건) ────────────────────────────────────────────
-  { id: "tongue", ctx: "제 혀를 봄", text: "제 혀를 보았다" },
-  { id: "tongue", ctx: "남의 혀를 봄", text: "남의 혀를 보았다" },
-  { id: "tongue", ctx: "제 혀에 무슨 이상이 생김", text: "제 혀에 무슨 이상이 생겼다" },
-  { id: "teeth", ctx: "이가 하나도 없음", text: "이가 하나도 없었다" },
-  { id: "teeth", ctx: "남이 이가 하나도 없음을 봄", text: "남이 이가 하나도 없는 것을 보았다" },
-  { id: "tooth-picks", ctx: "이쑤시개 꿈을 꿈", text: "이쑤시개 꿈을 꾸었다" },
-  { id: "tooth-picks", ctx: "이쑤시개를 씀", text: "이쑤시개를 사용했다" },
-  { id: "topaz", ctx: "토파즈를 봄", text: "토파즈를 보았다" },
-  { id: "topaz", ctx: "여성이 토파즈 장신구를 잃어버림", text: "여성이 토파즈 장신구를 잃어버렸다" },
-  { id: "topaz", ctx: "친척이 아닌 남에게서 토파즈를 받음", text: "친척이 아닌 남에게서 토파즈를 받았다" },
-  { id: "tops", ctx: "팽이 꿈을 꿈", text: "팽이 꿈을 꾸었다" },
-  { id: "tops", ctx: "팽이가 도는 것을 봄", text: "팽이가 도는 것을 보았다" },
-  { id: "firebrand", ctx: "횃불을 들고 다님", text: "횃불을 들고 다녔다" },
-  { id: "firebrand", ctx: "횃불이 꺼짐", text: "횃불이 꺼졌다" },
+  // ── 배치 275 새 문맥 (16건) ────────────────────────────────────────────
+  { id: "rapids", ctx: "쏟아지는 급류를 바라봄", text: "쏟아지는 급류를 바라보았다" },
+  { id: "torture", ctx: "고문을 당함", text: "고문을 당했다" },
+  { id: "torture", ctx: "남을 고문함", text: "남을 고문했다" },
+  { id: "torture", ctx: "남이 당하는 고문을 덜어 주려 애씀", text: "남이 당하는 고문을 덜어 주려 애썼다" },
+  { id: "tourist", ctx: "스스로 관광객이 됨", text: "스스로 관광객이 되었다" },
+  { id: "tourist", ctx: "관광객들을 봄", text: "관광객들을 보았다" },
+  { id: "tower", ctx: "탑을 봄", text: "탑을 보았다" },
+  { id: "tower", ctx: "탑에 오름", text: "탑에 올랐다" },
+  { id: "tower", ctx: "탑에서 내려오는데 탑이 무너짐", text: "탑에서 내려오는데 탑이 무너졌다" },
+  { id: "toys", ctx: "온전하고 새 장난감을 봄", text: "온전하고 새 장난감을 보았다" },
+  { id: "toys", ctx: "부서진 장난감을 봄", text: "부서진 장난감을 보았다" },
+  { id: "toys", ctx: "아이들이 장난감을 갖고 노는 것을 봄", text: "아이들이 장난감을 갖고 노는 것을 보았다" },
+  { id: "toys", ctx: "장난감을 남에게 줘 버림", text: "장난감을 남에게 줘 버렸다" },
+  { id: "trading", ctx: "거래에서 실패함", text: "거래에서 실패했다" },
+  { id: "tragedy", ctx: "비극 꿈을 꿈", text: "비극 꿈을 꾸었다" },
+  { id: "tragedy", ctx: "비극에 휘말림", text: "비극에 휘말렸다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징들의 옛 답이 그대로인지 ────────
-  { id: "teeth", ctx: "이가 저절로 빠짐", text: "이가 저절로 빠졌다" },
-  { id: "firebrand", ctx: "불붙은 나뭇가지를 봄", text: "불붙은 나뭇가지를 보았다" },
+  { id: "rapids", ctx: "급류에 휩쓸려 감", text: "급류에 휩쓸려 갔다" },
+  { id: "trading", ctx: "남과 물건을 거래함", text: "남과 물건을 거래했다" },
 ];
 
 let notFound = 0;

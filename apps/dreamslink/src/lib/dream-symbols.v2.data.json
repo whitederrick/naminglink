@@ -195,6 +195,7 @@
     "m272.json",
     "m273.json",
     "m274.json",
+    "m275.json",
     "m27a.json",
     "m27b.json",
     "m28.json",
@@ -68780,6 +68781,80 @@
       ]
     },
     {
+      "id": "toys",
+      "term_ko": "장난감",
+      "term_en": "toys",
+      "aliases": [
+        "장난감이",
+        "장난감을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "온전하고 새 장난감을 봄",
+          "interpretation_ko": "집안의 기쁨을 예고함",
+          "interpretation_en": "foretells family joys",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Toys",
+              "original": "To see toys in dreams, foretells family joys, if whole and new",
+              "translation_ko": "온전하고 새 장난감을 보는 꿈은, 집안의 기쁨을 예고한다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 장난감을 봄",
+          "interpretation_ko": "죽음이 슬픔으로 가슴을 찢어 놓을 조짐",
+          "interpretation_en": "death will rend your heart with sorrow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Toys",
+              "original": "but if broken, death will rend your heart with sorrow.",
+              "translation_ko": "부서진 장난감을 보는 꿈은, 죽음이 슬픔으로 가슴을 찢어 놓을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아이들이 장난감을 갖고 노는 것을 봄",
+          "interpretation_ko": "행복한 혼인이 있으리라는 조짐",
+          "interpretation_en": "marriage of a happy nature is indicated",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Toys",
+              "original": "To see children at play with toys, marriage of a happy nature is indicated.",
+              "translation_ko": "아이들이 장난감을 갖고 노는 것을 보는 꿈은, 행복한 혼인이 있으리라는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "장난감을 남에게 줘 버림",
+          "interpretation_ko": "지인들에게 사회적으로 외면당할 조짐",
+          "interpretation_en": "foretells you will be ignored in a social way by your acquaintances",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Toys",
+              "original": "To give away toys in your dreams, foretells you will be ignored in a social way by your acquaintances.",
+              "translation_ko": "장난감을 남에게 줘 버리는 꿈은, 지인들에게 사회적으로 외면당할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wealth",
       "term_ko": "재물",
       "term_en": "wealth",
@@ -86778,6 +86853,128 @@
               "locator": "Topaz",
               "original": "To receive one from another beside a relative, foretells an interesting love affair will occupy her attention.",
               "translation_ko": "친척이 아닌 남에게서 토파즈를 받는 꿈은, 흥미로운 애정사가 마음을 사로잡을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "torture",
+      "term_ko": "고문",
+      "term_en": "torture",
+      "aliases": [
+        "고문을",
+        "고문이",
+        "고문당",
+        "고문했다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "고문을 당함",
+          "interpretation_ko": "거짓 벗의 술수로 실망과 슬픔을 겪을 조짐",
+          "interpretation_en": "you will undergo disappointment and grief through the machination of false friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Torture",
+              "original": "To dream of being tortured, denotes that you will undergo disappointment and grief through the machination of false friends.",
+              "translation_ko": "고문을 당하는 꿈은, 거짓 벗의 술수로 실망과 슬픔을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남을 고문함",
+          "interpretation_ko": "재산을 늘리려 잘 짜 둔 계획을 이루지 못할 조짐",
+          "interpretation_en": "you will fail to carry out well-laid plans for increasing your fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Torture",
+              "original": "If you are torturing others, you will fail to carry out well-laid plans for increasing your fortune.",
+              "translation_ko": "남을 고문하는 꿈은, 재산을 늘리려 잘 짜 둔 계획을 이루지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 당하는 고문을 덜어 주려 애씀",
+          "interpretation_ko": "애쓴 끝에 사업과 사랑에서 성공할 조짐",
+          "interpretation_en": "you will succeed after a struggle in business and love",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Torture",
+              "original": "If you are trying to alleviate the torture of others, you will succeed after a struggle in business and love.",
+              "translation_ko": "남이 당하는 고문을 덜어 주려 애쓰는 꿈은, 애쓴 끝에 사업과 사랑에서 성공할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tower",
+      "term_ko": "탑",
+      "term_en": "tower",
+      "aliases": [
+        "탑이",
+        "탑에"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "탑을 봄",
+          "interpretation_ko": "높은 자리를 열망하게 될 조짐",
+          "interpretation_en": "denotes that you will aspire to high elevations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tower",
+              "original": "To dream of seeing a tower, denotes that you will aspire to high elevations.",
+              "translation_ko": "탑을 보는 꿈은, 높은 자리를 열망하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "탑에 오름",
+          "interpretation_ko": "바라던 바를 이룰 조짐",
+          "interpretation_en": "you will succeed in your wishes",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tower",
+              "original": "If you climb one, you will succeed in your wishes",
+              "translation_ko": "탑에 오르는 꿈은, 바라던 바를 이룰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "탑에서 내려오는데 탑이 무너짐",
+          "interpretation_ko": "바라던 바가 어긋날 조짐",
+          "interpretation_en": "you will be disappointed in your hopes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tower",
+              "original": "but if the tower crumbles as you descend, you will be disappointed in your hopes.",
+              "translation_ko": "탑에서 내려오는데 탑이 무너지는 꿈은, 바라던 바가 어긋날 조짐이다"
             }
           ]
         }
@@ -110180,6 +110377,53 @@
       ]
     },
     {
+      "id": "rapids",
+      "term_ko": "급류",
+      "term_en": "rapids",
+      "aliases": [
+        "급류가",
+        "급류를",
+        "급류에"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "급류에 휩쓸려 감",
+          "interpretation_ko": "본분을 소홀히 하고 유혹적인 쾌락을 좇다가 엄청난 손실을 입을 조짐",
+          "interpretation_en": "denotes that you will suffer appalling loss from the neglect of duty and the courting of seductive pleasures",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Rapids",
+              "original": "To imagine that you are being carried over rapids in a dream, denotes that you will suffer appalling loss from the neglect of duty and the courting of seductive pleasures.",
+              "translation_ko": "급류에 휩쓸려 가는 꿈은, 본분을 소홀히 하고 유혹적인 쾌락을 좇다가 엄청난 손실을 입을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쏟아지는 급류를 바라봄",
+          "interpretation_ko": "심상찮은 걱정과 불안의 조짐",
+          "interpretation_en": "denotes that you will have unusual trouble and anxiety",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Torrent",
+              "original": "To dream that you are looking upon a rushing torrent, denotes that you will have unusual trouble and anxiety.",
+              "translation_ko": "쏟아지는 급류를 바라보는 꿈은, 심상찮은 걱정과 불안의 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "raspberry",
       "term_ko": "나무딸기",
       "term_en": "raspberry",
@@ -115101,6 +115345,152 @@
               "locator": "Tops",
               "original": "To see one spinning, foretells that you will waste your means in childish pleasures.",
               "translation_ko": "팽이가 도는 것을 보는 꿈은, 유치한 즐거움에 재물을 허비할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tourist",
+      "term_ko": "관광객",
+      "term_en": "tourist",
+      "aliases": [
+        "관광객이",
+        "관광객을",
+        "여행객",
+        "관광객들"
+      ],
+      "category": "person",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 관광객이 됨",
+          "interpretation_ko": "평소 지내던 곳을 떠나게 할 즐거운 일에 나서게 될 조짐",
+          "interpretation_en": "you will engage in some pleasurable affair which will take you away from your usual residence",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tourist",
+              "original": "To dream that you are a tourist, denotes that you will engage in some pleasurable affair which will take you away from your usual residence.",
+              "translation_ko": "스스로 관광객이 되는 꿈은, 평소 지내던 곳을 떠나게 할 즐거운 일에 나서게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "관광객들을 봄",
+          "interpretation_ko": "사업은 활발하나 안정되지 못하고 애정에는 근심이 있을 조짐",
+          "interpretation_en": "indicates brisk but unsettled business and anxiety in love",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tourist",
+              "original": "To see tourists, indicates brisk but unsettled business and anxiety in love.",
+              "translation_ko": "관광객들을 보는 꿈은, 사업은 활발하나 안정되지 못하고 애정에는 근심이 있을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trading",
+      "term_ko": "거래",
+      "term_en": "trading",
+      "aliases": [
+        "매매",
+        "장사",
+        "흥정",
+        "교환",
+        "거래했다",
+        "거래함"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남과 물건을 거래함",
+          "interpretation_ko": "병이 생길 조짐",
+          "interpretation_en": "a sign of falling ill",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "帝王文武呼召",
+              "original": "與人交易主有疾",
+              "translation_ko": "남과 거래하면 병이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "거래에서 실패함",
+          "interpretation_ko": "곤란과 성가심이 닥칠 조짐",
+          "interpretation_en": "trouble and annoyances will overtake you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Trade",
+              "original": "If you fail, trouble and annoyances will overtake you.",
+              "translation_ko": "거래에서 실패하는 꿈은, 곤란과 성가심이 닥칠 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tragedy",
+      "term_ko": "비극",
+      "term_en": "tragedy",
+      "aliases": [
+        "비극이",
+        "비극을",
+        "비극에"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "비극 꿈을 꿈",
+          "interpretation_ko": "오해와 몹시 괴로운 실망의 조짐",
+          "interpretation_en": "foretells misunderstandings and grievious disappointments",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tragedy",
+              "original": "To dream of a tragedy, foretells misunderstandings and grievious disappointments.",
+              "translation_ko": "비극 꿈은, 오해와 몹시 괴로운 실망의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "비극에 휘말림",
+          "interpretation_ko": "재앙이 슬픔과 위험으로 저를 밀어 넣을 조짐",
+          "interpretation_en": "portends that a calamity will plunge you into sorrow and peril",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Tragedy",
+              "original": "To dream that you are implicated in a tragedy, portends that a calamity will plunge you into sorrow and peril.",
+              "translation_ko": "비극에 휘말리는 꿈은, 재앙이 슬픔과 위험으로 저를 밀어 넣을 조짐이다"
             }
           ]
         }
@@ -126311,39 +126701,6 @@
       ]
     },
     {
-      "id": "rapids",
-      "term_ko": "급류",
-      "term_en": "rapids",
-      "aliases": [
-        "급류가",
-        "급류를",
-        "급류에"
-      ],
-      "category": "nature",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "급류에 휩쓸려 감",
-          "interpretation_ko": "본분을 소홀히 하고 유혹적인 쾌락을 좇다가 엄청난 손실을 입을 조짐",
-          "interpretation_en": "denotes that you will suffer appalling loss from the neglect of duty and the courting of seductive pleasures",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Rapids",
-              "original": "To imagine that you are being carried over rapids in a dream, denotes that you will suffer appalling loss from the neglect of duty and the courting of seductive pleasures.",
-              "translation_ko": "급류에 휩쓸려 가는 꿈은, 본분을 소홀히 하고 유혹적인 쾌락을 좇다가 엄청난 손실을 입을 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "rattan-cane",
       "term_ko": "등나무 지팡이",
       "term_en": "rattan-cane",
@@ -128714,40 +129071,6 @@
               "locator": "Toddy",
               "original": "To dream of taking a toddy, foretells interesting events will soon change your plan of living.",
               "translation_ko": "토디를 마시는 꿈은, 흥미로운 일들이 곧 생활 계획을 바꿔 놓을 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "trading",
-      "term_ko": "거래",
-      "term_en": "trading",
-      "aliases": [
-        "매매",
-        "장사",
-        "흥정",
-        "교환"
-      ],
-      "category": "action",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "남과 물건을 거래함",
-          "interpretation_ko": "병이 생길 조짐",
-          "interpretation_en": "a sign of falling ill",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "帝王文武呼召",
-              "original": "與人交易主有疾",
-              "translation_ko": "남과 거래하면 병이 생긴다"
             }
           ]
         }

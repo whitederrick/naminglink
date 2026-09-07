@@ -1,0 +1,110 @@
+[
+  {
+    "id": "torture",
+    "aliases": [
+      "고문을",
+      "고문이",
+      "고문당",
+      "고문했다"
+    ],
+    "aliases_en": [
+      "torture",
+      "tortured"
+    ],
+    "contexts": {
+      "고문을 당함": "당함 당했",
+      "남을 고문함": "남을",
+      "남이 당하는 고문을 덜어 주려 애씀": "덜어 주려"
+    },
+    "contexts_en": {
+      "고문을 당함": "disappointment grief false",
+      "남을 고문함": "torturing fail plans",
+      "남이 당하는 고문을 덜어 주려 애씀": "alleviate succeed struggle"
+    }
+  },
+  {
+    "id": "tourist",
+    "aliases": [
+      "관광객이",
+      "관광객을",
+      "여행객",
+      "관광객들"
+    ],
+    "aliases_en": [
+      "tourist",
+      "tourists"
+    ],
+    "contexts": {
+      "스스로 관광객이 됨": "스스로",
+      "관광객들을 봄": "관광객들"
+    },
+    "contexts_en": {
+      "스스로 관광객이 됨": "pleasurable residence",
+      "관광객들을 봄": "brisk unsettled anxiety"
+    }
+  },
+  {
+    "id": "tower",
+    "aliases": [
+      "탑이",
+      "탑에"
+    ],
+    "aliases_en": [
+      "tower",
+      "a tower"
+    ],
+    "contexts": {
+      "탑을 봄": "그냥",
+      "탑에 오름": "오름 올랐",
+      "탑에서 내려오는데 탑이 무너짐": "내려오는데 무너"
+    },
+    "contexts_en": {
+      "탑을 봄": "aspire high elevations",
+      "탑에 오름": "climb succeed wishes",
+      "탑에서 내려오는데 탑이 무너짐": "crumbles descend disappointed"
+    }
+  },
+  {
+    "id": "toys",
+    "aliases": [
+      "장난감이",
+      "장난감을"
+    ],
+    "aliases_en": [
+      "toys",
+      "a toy"
+    ],
+    "contexts": {
+      "온전하고 새 장난감을 봄": "온전하고",
+      "부서진 장난감을 봄": "부서진",
+      "아이들이 장난감을 갖고 노는 것을 봄": "아이들이",
+      "장난감을 남에게 줘 버림": "버렸다"
+    },
+    "contexts_en": {
+      "온전하고 새 장난감을 봄": "whole new family",
+      "부서진 장난감을 봄": "broken death sorrow",
+      "아이들이 장난감을 갖고 노는 것을 봄": "children play marriage",
+      "장난감을 남에게 줘 버림": "give away ignored"
+    }
+  },
+  {
+    "id": "tragedy",
+    "aliases": [
+      "비극이",
+      "비극을",
+      "비극에"
+    ],
+    "aliases_en": [
+      "tragedy",
+      "a tragedy"
+    ],
+    "contexts": {
+      "비극 꿈을 꿈": "그냥",
+      "비극에 휘말림": "휘말"
+    },
+    "contexts_en": {
+      "비극 꿈을 꿈": "misunderstandings grievious disappointments",
+      "비극에 휘말림": "implicated calamity peril"
+    }
+  }
+]

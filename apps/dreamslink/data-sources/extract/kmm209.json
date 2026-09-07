@@ -1,8 +1,16 @@
 [
   {
     "id": "ramble",
-    "aliases": ["정처 없이 거닐었다", "정처 없이 거닐고", "이곳저곳 떠돌아다녔다", "방랑했다"],
-    "aliases_en": ["rambled", "rambling"],
+    "aliases": [
+      "정처 없이 거닐었다",
+      "정처 없이 거닐고",
+      "이곳저곳 떠돌아다녔다",
+      "방랑했다"
+    ],
+    "aliases_en": [
+      "rambled",
+      "rambling"
+    ],
     "contexts": {
       "시골길을 정처 없이 거님": "시골길을 슬픔에 헤어질",
       "처녀가 시골길을 정처 없이 거님": "처녀가 안락한 사별"
@@ -14,8 +22,14 @@
   },
   {
     "id": "ramrod",
-    "aliases": ["꽂을대가", "꽂을대를"],
-    "aliases_en": ["a ramrod", "ramrods"],
+    "aliases": [
+      "꽂을대가",
+      "꽂을대를"
+    ],
+    "aliases_en": [
+      "a ramrod",
+      "ramrods"
+    ],
     "contexts": {
       "꽂을대 꿈을 꿈": "불운한 슬퍼할",
       "처녀가 구부러지거나 부러진 꽂을대를 봄": "구부러지거나 부러진 저버릴"
@@ -27,8 +41,14 @@
   },
   {
     "id": "ransom",
-    "aliases": ["몸값이", "몸값을"],
-    "aliases_en": ["a ransom", "ransoms"],
+    "aliases": [
+      "몸값이",
+      "몸값을"
+    ],
+    "aliases_en": [
+      "a ransom",
+      "ransoms"
+    ],
     "contexts": {
       "몸값을 치르게 됨": "치르게 속임을",
       "처녀가 몸값 꿈을 꿈": "처녀가 구해주지"
@@ -40,9 +60,21 @@
   },
   {
     "id": "rapids",
-    "aliases": ["급류가", "급류를", "급류에"],
-    "aliases_en": ["rapids"],
-    "contexts": {},
-    "contexts_en": {}
+    "aliases": [
+      "급류가",
+      "급류를",
+      "급류에"
+    ],
+    "aliases_en": [
+      "rapids"
+    ],
+    "contexts": {
+      "급류에 휩쓸려 감": "휩쓸려",
+      "쏟아지는 급류를 바라봄": "바라봄 바라보"
+    },
+    "contexts_en": {
+      "급류에 휩쓸려 감": "carried appalling loss",
+      "쏟아지는 급류를 바라봄": "rushing unusual anxiety"
+    }
   }
 ]

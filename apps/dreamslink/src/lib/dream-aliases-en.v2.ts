@@ -7991,5 +7991,25 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "top",
     "tops",
     "a spinning top"
+  ],
+  "torture": [
+    "torture",
+    "tortured"
+  ],
+  "tourist": [
+    "tourist",
+    "tourists"
+  ],
+  "tower": [
+    "tower",
+    "a tower"
+  ],
+  "toys": [
+    "toys",
+    "a toy"
+  ],
+  "tragedy": [
+    "tragedy",
+    "a tragedy"
   ]
 };
