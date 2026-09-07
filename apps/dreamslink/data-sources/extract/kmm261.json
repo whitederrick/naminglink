@@ -1,0 +1,121 @@
+[
+  {
+    "id": "strawberries",
+    "aliases": [
+      "딸기가",
+      "딸기를",
+      "딸기들"
+    ],
+    "aliases_en": [
+      "strawberries",
+      "a strawberry"
+    ],
+    "contexts": {
+      "딸기 꿈을 꿈": "그냥",
+      "딸기를 먹음": "먹었다 먹는",
+      "딸기를 거래함": "거래했다 팔았다"
+    },
+    "contexts_en": {
+      "딸기 꿈을 꿈": "advancement pleasure wished",
+      "딸기를 먹음": "eat requited love",
+      "딸기를 거래함": "deal harvest happiness"
+    }
+  },
+  {
+    "id": "street",
+    "aliases": [
+      "거리를",
+      "거리가",
+      "거리에",
+      "길거리"
+    ],
+    "aliases_en": [
+      "street",
+      "a street"
+    ],
+    "contexts": {
+      "거리를 걸음": "그냥",
+      "낯선 도시의 낯익은 거리가 어둡게 보임": "낯선 도시 어둡게",
+      "거리가 환하게 불 밝혀져 있음": "환하게 밝혀",
+      "거리를 지나며 불량배가 덮칠까 겁냄": "불량배 겁냈다"
+    },
+    "contexts_en": {
+      "거리를 걸음": "walking ill luck",
+      "낯선 도시의 낯익은 거리가 어둡게 보임": "distant dark journey",
+      "거리가 환하게 불 밝혀져 있음": "lighted quickly",
+      "거리를 지나며 불량배가 덮칠까 겁냄": "thug alarmed dangerous"
+    }
+  },
+  {
+    "id": "street-poster",
+    "aliases": [
+      "거리 벽보",
+      "벽보 붙이는",
+      "전단 붙이는"
+    ],
+    "aliases_en": [
+      "street-poster",
+      "a street-poster",
+      "street-posters"
+    ],
+    "contexts": {
+      "스스로 거리 벽보 붙이는 사람이 됨": "스스로 되었다",
+      "거리 벽보 붙이는 사람이 일하는 것을 봄": "일하는 것을"
+    },
+    "contexts_en": {
+      "스스로 거리 벽보 붙이는 사람이 됨": "unpleasant unprofitable work",
+      "거리 벽보 붙이는 사람이 일하는 것을 봄": "disagreeable news"
+    }
+  },
+  {
+    "id": "struggling",
+    "aliases": [
+      "몸부림쳤다",
+      "몸부림치는",
+      "몸부림을"
+    ],
+    "aliases_en": [
+      "struggling",
+      "struggle"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "stumble",
+    "aliases": [
+      "걸려 넘어질",
+      "걸려 넘어졌다",
+      "발을 헛디뎠다"
+    ],
+    "aliases_en": [
+      "stumble",
+      "stumbled",
+      "stumbling"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "stumps",
+    "aliases": [
+      "그루터기가",
+      "그루터기를",
+      "나무 밑동"
+    ],
+    "aliases_en": [
+      "stumps",
+      "a stump"
+    ],
+    "contexts": {
+      "그루터기 꿈을 꿈": "그냥",
+      "그루터기로 가득한 들판을 봄": "들판 가득한",
+      "그루터기를 파거나 뽑아냄": "파거나 뽑아"
+    },
+    "contexts_en": {
+      "그루터기 꿈을 꿈": "reverses depart living",
+      "그루터기로 가득한 들판을 봄": "fields defend adversity",
+      "그루터기를 파거나 뽑아냄": "dig pull extricate"
+    }
+  }
+]

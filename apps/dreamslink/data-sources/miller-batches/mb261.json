@@ -1,0 +1,16 @@
+{
+  "batch": 261,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    { "headword": "Strawberries", "text": "To dream of strawberries, is favorable to advancement and pleasure. You will obtain some long wished-for object.\n\nTo eat them, denotes requited love.\n\nTo deal in them, denotes abundant harvest and happiness.", "note": "새 상징 strawberries(딸기)" },
+    { "headword": "Street", "text": "To dream that you are walking in a street, foretells ill luck and worries. You will almost despair of reaching the goal you have set up in your aspirations.\n\nTo be in a familiar street in a distant city, and it appears dark, you will make a journey soon, which will not afford the profit or pleasure contemplated.  If the street is brilliantly lighted, you will engage in pleasure, which will quickly pass, leaving no comfort.\n\nTo pass down a street and feel alarmed lest a thug attack you, denotes that you are venturing upon dangerous ground in advancing your pleasure or business.", "note": "새 상징 street(거리)" },
+    { "headword": "Street-poster", "text": "To dream that you are a street-poster, denotes that you will undertake some unpleasant and unprofitable work.\n\nTo see street-posters at work, foretells disagreeable news.", "note": "새 상징 street-poster(거리 벽보 붙이는 사람)" },
+    { "headword": "Struggling", "text": "To dream of struggling, foretells that you will encounter serious difficulties, but if you gain the victory in your struggle, you will also surmount present obstacles.", "note": "새 상징 struggling(몸부림)" },
+    { "headword": "Stumble", "text": "If you stumble in a dream while walking or running, you will meet with disfavor, and obstructions will bar your path to success, but you will eventually surmount them, if you do not fall.", "note": "새 상징 stumble(걸려 넘어짐)" },
+    { "headword": "Stumps", "text": "To dream of a stump, foretells you are to have reverses and will depart from your usual mode of living.  To see fields of stumps, signifies you will be unable to defend yourself from the encroachments of adversity.  To dig or pull them up, is a sign that you will extricate yourself from the environment of poverty by throwing off sentiment and pride and meeting the realities of life with a determination to overcome whatever opposition you may meet.", "note": "새 상징 stumps(그루터기)" },
+    { "headword": "Suckle", "text": "To see the young taking suckle, denotes contentment and favorable conditions for success is unfolding to you.", "note": "기존 nursing(수유)에 문맥 추가 — 원문 각주 [215] See Nursing" },
+    { "headword": "Suffocating", "text": "To dream that you are suffocating, denotes that you will experience deep sorrow and mortification at the conduct of some one you love.  You should be careful of your health after this dream.", "note": "기존 smoke(연기)에 문맥 추가 — 원문 각주 [216] See Smoke. 내용 자체는 연기를 언급하지 않지만 각주를 따름" }
+  ],
+  "skipped": [],
+  "skipped_sentences": []
+}

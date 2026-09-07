@@ -1191,7 +1191,10 @@
     "aliases": [
       "매연",
       "연기에",
-      "연기를"
+      "연기를",
+      "질식",
+      "숨이 막히는",
+      "숨이 막혔다"
     ],
     "aliases_en": [
       "fumes",
@@ -1200,12 +1203,14 @@
     "contexts": {
       "불 연기가 검음": "검었다 검게 검다",
       "연기 꿈을 꿈": "의심과 두려움으로",
-      "연기에 휩싸임": "휩싸였다 위험한 아첨으로"
+      "연기에 휩싸임": "휩싸였다 위험한 아첨으로",
+      "스스로 숨이 막히는 느낌을 받음": "숨이 막히는"
     },
     "contexts_en": {
       "불 연기가 검음": "black dark",
       "연기 꿈을 꿈": "perplexed doubts fears",
-      "연기에 휩싸임": "overcome dangerous flattery"
+      "연기에 휩싸임": "overcome dangerous flattery",
+      "스스로 숨이 막히는 느낌을 받음": "suffocating sorrow mortification"
     }
   },
   {

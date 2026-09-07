@@ -1,0 +1,242 @@
+[
+  {
+    "term_ko": "딸기",
+    "term_en": "strawberries",
+    "context": "딸기 꿈을 꿈",
+    "interpretation_ko": "출세와 즐거움에 이롭고, 오래 바라던 것을 얻을 조짐",
+    "interpretation_en": "is favorable to advancement and pleasure; you will obtain some long wished-for object",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Strawberries",
+      "original": "To dream of strawberries, is favorable to advancement and pleasure. You will obtain some long wished-for object.",
+      "translation_ko": "딸기 꿈은, 출세와 즐거움에 이롭고 오래 바라던 것을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "딸기",
+    "term_en": "strawberries",
+    "context": "딸기를 먹음",
+    "interpretation_ko": "보답받는 사랑을 이룰 조짐",
+    "interpretation_en": "denotes requited love",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Strawberries",
+      "original": "To eat them, denotes requited love.",
+      "translation_ko": "딸기를 먹는 꿈은, 보답받는 사랑을 이룰 조짐이다"
+    }
+  },
+  {
+    "term_ko": "딸기",
+    "term_en": "strawberries",
+    "context": "딸기를 거래함",
+    "interpretation_ko": "풍성한 수확과 행복을 이룰 조짐",
+    "interpretation_en": "denotes abundant harvest and happiness",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Strawberries",
+      "original": "To deal in them, denotes abundant harvest and happiness.",
+      "translation_ko": "딸기를 거래하는 꿈은, 풍성한 수확과 행복을 이룰 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거리",
+    "term_en": "street",
+    "context": "거리를 걸음",
+    "interpretation_ko": "불운과 근심에 시달리고, 품은 뜻을 이루기를 거의 단념할 조짐",
+    "interpretation_en": "foretells ill luck and worries; you will almost despair of reaching the goal you have set up in your aspirations",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Street",
+      "original": "To dream that you are walking in a street, foretells ill luck and worries. You will almost despair of reaching the goal you have set up in your aspirations.",
+      "translation_ko": "거리를 걷는 꿈은, 불운과 근심에 시달리고 품은 뜻을 이루기를 거의 단념할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거리",
+    "term_en": "street",
+    "context": "낯선 도시의 낯익은 거리가 어둡게 보임",
+    "interpretation_ko": "머잖아 여행을 떠나나 바라던 이득이나 즐거움은 얻지 못할 조짐",
+    "interpretation_en": "you will make a journey soon, which will not afford the profit or pleasure contemplated",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Street",
+      "original": "To be in a familiar street in a distant city, and it appears dark, you will make a journey soon, which will not afford the profit or pleasure contemplated.",
+      "translation_ko": "낯선 도시의 낯익은 거리가 어둡게 보이는 꿈은, 머잖아 여행을 떠나나 바라던 이득이나 즐거움은 얻지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거리",
+    "term_en": "street",
+    "context": "거리가 환하게 불 밝혀져 있음",
+    "interpretation_ko": "즐거움을 누리나 금세 지나가 아무 위안도 남기지 않을 조짐",
+    "interpretation_en": "you will engage in pleasure, which will quickly pass, leaving no comfort",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Street",
+      "original": "If the street is brilliantly lighted, you will engage in pleasure, which will quickly pass, leaving no comfort.",
+      "translation_ko": "거리가 환하게 불 밝혀져 있는 꿈은, 즐거움을 누리나 금세 지나가 아무 위안도 남기지 않을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거리",
+    "term_en": "street",
+    "context": "거리를 지나며 불량배가 덮칠까 겁냄",
+    "interpretation_ko": "즐거움이나 사업을 벌이며 위험한 자리로 나아가고 있다는 조짐",
+    "interpretation_en": "denotes that you are venturing upon dangerous ground in advancing your pleasure or business",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Street",
+      "original": "To pass down a street and feel alarmed lest a thug attack you, denotes that you are venturing upon dangerous ground in advancing your pleasure or business.",
+      "translation_ko": "거리를 지나며 불량배가 덮칠까 겁내는 꿈은, 즐거움이나 사업을 벌이며 위험한 자리로 나아가고 있다는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거리 벽보 붙이는 사람",
+    "term_en": "street-poster",
+    "context": "스스로 거리 벽보 붙이는 사람이 됨",
+    "interpretation_ko": "달갑잖고 이문 없는 일을 떠맡을 조짐",
+    "interpretation_en": "denotes that you will undertake some unpleasant and unprofitable work",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Street-poster",
+      "original": "To dream that you are a street-poster, denotes that you will undertake some unpleasant and unprofitable work.",
+      "translation_ko": "스스로 거리 벽보 붙이는 사람이 되는 꿈은, 달갑잖고 이문 없는 일을 떠맡을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "거리 벽보 붙이는 사람",
+    "term_en": "street-poster",
+    "context": "거리 벽보 붙이는 사람이 일하는 것을 봄",
+    "interpretation_ko": "언짢은 소식을 들을 조짐",
+    "interpretation_en": "foretells disagreeable news",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Street-poster",
+      "original": "To see street-posters at work, foretells disagreeable news.",
+      "translation_ko": "거리 벽보 붙이는 사람이 일하는 것을 보는 꿈은, 언짢은 소식을 들을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "몸부림",
+    "term_en": "struggling",
+    "context": "몸부림치는 꿈을 꿈",
+    "interpretation_ko": "심한 곤란을 겪으나 그 싸움에서 이기면 지금의 장애물도 넘어설 조짐",
+    "interpretation_en": "foretells that you will encounter serious difficulties, but if you gain the victory in your struggle, you will also surmount present obstacles",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Struggling",
+      "original": "To dream of struggling, foretells that you will encounter serious difficulties, but if you gain the victory in your struggle, you will also surmount present obstacles.",
+      "translation_ko": "몸부림치는 꿈은, 심한 곤란을 겪으나 그 싸움에서 이기면 지금의 장애물도 넘어설 조짐이다"
+    }
+  },
+  {
+    "term_ko": "걸려 넘어짐",
+    "term_en": "stumble",
+    "context": "걷거나 뛰다가 걸려 넘어질 뻔함",
+    "interpretation_ko": "미움을 사고 성공으로 가는 길이 막히나, 끝내 이겨 내되 넘어지지만 않으면 그렇게 될 조짐",
+    "interpretation_en": "you will meet with disfavor, and obstructions will bar your path to success, but you will eventually surmount them, if you do not fall",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Stumble",
+      "original": "If you stumble in a dream while walking or running, you will meet with disfavor, and obstructions will bar your path to success, but you will eventually surmount them, if you do not fall.",
+      "translation_ko": "걷거나 뛰다가 걸려 넘어질 뻔하는 꿈은, 미움을 사고 성공으로 가는 길이 막히나 끝내 이겨 내되 넘어지지만 않으면 그렇게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "그루터기",
+    "term_en": "stumps",
+    "context": "그루터기 꿈을 꿈",
+    "interpretation_ko": "형편이 뒤바뀌어 늘 살던 방식을 벗어나게 될 조짐",
+    "interpretation_en": "foretells you are to have reverses and will depart from your usual mode of living",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Stumps",
+      "original": "To dream of a stump, foretells you are to have reverses and will depart from your usual mode of living.",
+      "translation_ko": "그루터기 꿈은, 형편이 뒤바뀌어 늘 살던 방식을 벗어나게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "그루터기",
+    "term_en": "stumps",
+    "context": "그루터기로 가득한 들판을 봄",
+    "interpretation_ko": "역경이 밀려와도 스스로를 지키지 못할 조짐",
+    "interpretation_en": "signifies you will be unable to defend yourself from the encroachments of adversity",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Stumps",
+      "original": "To see fields of stumps, signifies you will be unable to defend yourself from the encroachments of adversity.",
+      "translation_ko": "그루터기로 가득한 들판을 보는 꿈은, 역경이 밀려와도 스스로를 지키지 못할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "그루터기",
+    "term_en": "stumps",
+    "context": "그루터기를 파거나 뽑아냄",
+    "interpretation_ko": "감상과 자존심을 던져 버리고 맞닥뜨린 현실을 이겨 낼 각오로 가난한 처지에서 벗어날 조짐",
+    "interpretation_en": "is a sign that you will extricate yourself from the environment of poverty by throwing off sentiment and pride and meeting the realities of life with a determination to overcome whatever opposition you may meet",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Stumps",
+      "original": "To dig or pull them up, is a sign that you will extricate yourself from the environment of poverty by throwing off sentiment and pride and meeting the realities of life with a determination to overcome whatever opposition you may meet.",
+      "translation_ko": "그루터기를 파거나 뽑아내는 꿈은, 감상과 자존심을 던져 버리고 맞닥뜨린 현실을 이겨 낼 각오로 가난한 처지에서 벗어날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수유",
+    "term_en": "nursing",
+    "context": "새끼(아기)가 젖을 먹는 것을 봄",
+    "interpretation_ko": "만족과 성공에 이로운 형편이 펼쳐질 조짐",
+    "interpretation_en": "denotes contentment and favorable conditions for success is unfolding to you",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Suckle",
+      "original": "To see the young taking suckle, denotes contentment and favorable conditions for success is unfolding to you.",
+      "translation_ko": "새끼(아기)가 젖을 먹는 것을 보는 꿈은, 만족과 성공에 이로운 형편이 펼쳐질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "연기",
+    "term_en": "smoke",
+    "context": "스스로 숨이 막히는 느낌을 받음",
+    "interpretation_ko": "사랑하는 이의 행실 탓에 깊은 슬픔과 수치를 겪을 조짐 — 이 꿈을 꾼 뒤엔 건강도 살필 것",
+    "interpretation_en": "denotes that you will experience deep sorrow and mortification at the conduct of some one you love; you should be careful of your health after this dream",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Suffocating",
+      "original": "To dream that you are suffocating, denotes that you will experience deep sorrow and mortification at the conduct of some one you love. You should be careful of your health after this dream.",
+      "translation_ko": "스스로 숨이 막히는 느낌을 받는 꿈은, 사랑하는 이의 행실 탓에 깊은 슬픔과 수치를 겪을 조짐이다 — 이 꿈을 꾼 뒤엔 건강도 살필 것"
+    }
+  }
+]

@@ -1,13 +1,13 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 260 — 기존 stone·mason·shop 셋에 문맥을 보태고,
-// 새 상징 둘(storage-battery·straw)을 세웠다. Stone Mason 첫 문장은
-// 기존 mason 「석공이 일하는 것을 봄」(밀러 Mason, 길함)과 같은 그림·
-// 다른 풀이라 건너뛰었고, Storm 전체는 기존 hurricane 「태풍이
-// 몰려오는 것을 봄」(밀러 Hurricane)과 같은 그림·다른 풀이라 통째로
-// 건너뛰었다(원문 각주가 스스로 "See Hurricane and Rain"라고 가리킨다).
-// stone은 r 파일에서만 왔는데 새 m260이 항상 앞서 정렬돼 기본값이
-// 바뀌었다 — 옛 「강물 속의 모래와 돌」은 강물이라는 조건이 있고 새
-// 「돌을 봄」이 조건 없는 가장 넓은 자리라 바꾸는 쪽을 택했다.
+// (지금 담긴 것: 배치 261 — 새 상징 여섯(strawberries·street·
+// street-poster·struggling·stumble·stumps)을 세우고, 기존 nursing·
+// smoke 둘에 문맥을 보탰다. Suckle·Suffocating 은 원문 각주가 각각
+// "See Nursing"·"See Smoke"로 가리켜 그대로 따랐다 — Suffocating은
+// 본문에 "연기"가 안 나오지만 smoke 에 "질식"·"숨이 막히는" 별칭을
+// 더해 걸리게 했다. struggling(몸부림)이 기존 agony(고통)의 별칭
+// "몸부림"과, street(EN)가 road(길)의 EN 별칭 "street"와 겹치지만
+// 둘 다 진짜 동의어 관계라 그대로 뒀다(참고 목록에만 남고 하드
+// 실패는 아니다).
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -38,30 +38,29 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 260 새 문맥 (18건) ──────────────────────────────────────────────
-  { id: "stone", ctx: "돌을 봄", text: "돌을 보았다" },
-  { id: "stone", ctx: "바위나 돌 사이를 걸음", text: "바위나 돌 사이를 걸었다" },
-  { id: "stone", ctx: "광석이 나는 땅에서 거래함", text: "돌이 많은 광석 땅에서 거래를 했다" },
-  { id: "stone", ctx: "작은 돌이나 조약돌을 봄", text: "작은 돌과 조약돌을 보았다" },
-  { id: "stone", ctx: "돌을 던짐", text: "돌을 던졌다" },
-  { id: "stone", ctx: "싸움을 거는 사람에게 조약돌이나 돌을 던지려 함", text: "싸움을 거는 사람에게 돌을 던지려 했다" },
-  { id: "mason", ctx: "스스로 석공이 됨", text: "스스로 석공이 되었다" },
-  { id: "storage-battery", ctx: "축전지 꿈을 꿈", text: "축전지 꿈을 꾸었다" },
-  { id: "shop", ctx: "상품이 가득한 가게를 봄", text: "상품이 가득한 가게를 보았다" },
-  { id: "shop", ctx: "텅 빈 가게를 봄", text: "가게가 텅 비어 있었다" },
-  { id: "shop", ctx: "가게가 불타는 것을 봄", text: "가게가 불타는 것을 보았다" },
-  { id: "shop", ctx: "백화점 안에 있음", text: "백화점 안에 있었다" },
-  { id: "shop", ctx: "가게에서 물건을 팖", text: "가게에서 물건을 팔았다" },
-  { id: "shop", ctx: "여성에게 더러운 회색 면장갑을 팖", text: "가게에서 여성에게 더러운 회색 면장갑을 팔았다" },
-  { id: "shop", ctx: "여성이 면장갑을 파는 꿈을 꿈", text: "여성이 가게에서 면장갑을 파는 꿈을 꾸었다" },
-  { id: "straw", ctx: "짚 꿈을 꿈", text: "짚 꿈을 꾸었다" },
-  { id: "straw", ctx: "짚더미가 불타는 것을 봄", text: "짚더미가 불타는 것을 보았다" },
-  { id: "straw", ctx: "가축에게 짚을 먹임", text: "가축에게 짚을 먹였다" },
+  // ── 배치 261 새 문맥 (16건) ──────────────────────────────────────────────
+  { id: "strawberries", ctx: "딸기 꿈을 꿈", text: "딸기 꿈을 꾸었다" },
+  { id: "strawberries", ctx: "딸기를 먹음", text: "딸기를 먹었다" },
+  { id: "strawberries", ctx: "딸기를 거래함", text: "딸기를 거래했다" },
+  { id: "street", ctx: "거리를 걸음", text: "거리를 걸었다" },
+  { id: "street", ctx: "낯선 도시의 낯익은 거리가 어둡게 보임", text: "낯선 도시의 어둡게 보이는 거리에 있었다" },
+  { id: "street", ctx: "거리가 환하게 불 밝혀져 있음", text: "거리가 환하게 밝혀져 있었다" },
+  { id: "street", ctx: "거리를 지나며 불량배가 덮칠까 겁냄", text: "거리를 지나며 불량배가 덮칠까 겁냈다" },
+  { id: "street-poster", ctx: "스스로 거리 벽보 붙이는 사람이 됨", text: "스스로 거리 벽보 붙이는 사람이 되었다" },
+  { id: "street-poster", ctx: "거리 벽보 붙이는 사람이 일하는 것을 봄", text: "거리 벽보 붙이는 사람이 일하는 것을 보았다" },
+  { id: "struggling", ctx: "몸부림치는 꿈을 꿈", text: "몸부림치는 꿈을 꾸었다" },
+  { id: "stumble", ctx: "걷거나 뛰다가 걸려 넘어질 뻔함", text: "걷다가 걸려 넘어질 뻔했다" },
+  { id: "stumps", ctx: "그루터기 꿈을 꿈", text: "그루터기 꿈을 꾸었다" },
+  { id: "stumps", ctx: "그루터기로 가득한 들판을 봄", text: "그루터기로 가득한 들판을 보았다" },
+  { id: "stumps", ctx: "그루터기를 파거나 뽑아냄", text: "그루터기를 파거나 뽑아냈다" },
+  { id: "nursing", ctx: "새끼(아기)가 젖을 먹는 것을 봄", text: "새끼가 젖을 먹는 것을 보았다" },
+  { id: "smoke", ctx: "스스로 숨이 막히는 느낌을 받음", text: "스스로 숨이 막히는 느낌을 받았다" },
 
-  // ── 지킴 케이스 — 이번에 손댄 기존 상징(stone·mason·shop)의 옛 답이 그대로인지 ──
-  { id: "stone", ctx: "강물 속의 모래와 돌", text: "강물 속의 모래와 돌을 보았다" },
-  { id: "stone", ctx: "손으로 작은 돌을 만지작거림", text: "손으로 작은 돌을 만지작거렸다" },
-  { id: "mason", ctx: "석공이 일하는 것을 봄", text: "석공이 일하는 것을 보았다" },
+  // ── 지킴 케이스 — 이번에 손댄 기존 상징(nursing·smoke)의 옛 답이 그대로인지 ──
+  { id: "nursing", ctx: "여성이 제 아기에게 젖을 물림", text: "여성이 제 아기에게 젖을 물렸다" },
+  { id: "nursing", ctx: "처녀가 아기에게 젖을 물림", text: "처녀가 아기에게 젖을 물렸다" },
+  { id: "smoke", ctx: "연기 꿈을 꿈", text: "연기 꿈을 꾸었다" },
+  { id: "smoke", ctx: "연기에 휩싸임", text: "연기에 휩싸였다" },
 ];
 
 let notFound = 0;

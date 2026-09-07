@@ -7732,5 +7732,31 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "straw": [
     "straw",
     "straws"
+  ],
+  "strawberries": [
+    "strawberries",
+    "a strawberry"
+  ],
+  "street": [
+    "street",
+    "a street"
+  ],
+  "street-poster": [
+    "street-poster",
+    "a street-poster",
+    "street-posters"
+  ],
+  "struggling": [
+    "struggling",
+    "struggle"
+  ],
+  "stumble": [
+    "stumble",
+    "stumbled",
+    "stumbling"
+  ],
+  "stumps": [
+    "stumps",
+    "a stump"
   ]
 };
