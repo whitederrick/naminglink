@@ -1,8 +1,13 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 259 — 새 상징 일곱(step-sister·stethoscope·
-// sticks·stillborn·stilts·sting·stockings)을 세웠다. sticks(막대기)가
-// 기존 club(몽둥이)의 별칭 "막대기"와 겹쳐서 club 쪽에서 그 별칭을
-// 놓아줬다 — club은 "방망이"·"곤봉"으로도 이미 충분히 걸린다)
+// (지금 담긴 것: 배치 260 — 기존 stone·mason·shop 셋에 문맥을 보태고,
+// 새 상징 둘(storage-battery·straw)을 세웠다. Stone Mason 첫 문장은
+// 기존 mason 「석공이 일하는 것을 봄」(밀러 Mason, 길함)과 같은 그림·
+// 다른 풀이라 건너뛰었고, Storm 전체는 기존 hurricane 「태풍이
+// 몰려오는 것을 봄」(밀러 Hurricane)과 같은 그림·다른 풀이라 통째로
+// 건너뛰었다(원문 각주가 스스로 "See Hurricane and Rain"라고 가리킨다).
+// stone은 r 파일에서만 왔는데 새 m260이 항상 앞서 정렬돼 기본값이
+// 바뀌었다 — 옛 「강물 속의 모래와 돌」은 강물이라는 조건이 있고 새
+// 「돌을 봄」이 조건 없는 가장 넓은 자리라 바꾸는 쪽을 택했다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -33,22 +38,30 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 259 새 문맥 (12건, 전부 새 상징) ──────────────────────────────
-  { id: "step-sister", ctx: "의붓자매 꿈을 꿈", text: "의붓자매 꿈을 꾸었다" },
-  { id: "stethoscope", ctx: "청진기 꿈을 꿈", text: "청진기 꿈을 꾸었다" },
-  { id: "sticks", ctx: "막대기 꿈을 꿈", text: "막대기 꿈을 꾸었다" },
-  { id: "stillborn", ctx: "사산아 꿈을 꿈", text: "사산아 꿈을 꾸었다" },
-  { id: "stilts", ctx: "죽마를 타고 걸음", text: "죽마를 타고 걸었다" },
-  { id: "stilts", ctx: "죽마에서 떨어지거나 부러지는 것을 느낌", text: "죽마에서 떨어지는 것을 느꼈다" },
-  { id: "sting", ctx: "벌레에게 쏘이는 느낌을 받음", text: "벌레에게 쏘이는 느낌을 받았다" },
-  { id: "sting", ctx: "여성이 쏘였다고 느낌", text: "여성이 벌레에 쏘인 느낌을 받았다" },
-  { id: "stockings", ctx: "스타킹 꿈을 꿈", text: "스타킹 꿈을 꾸었다" },
-  { id: "stockings", ctx: "여성이 해지거나 낡은 스타킹을 봄", text: "여성이 해지거나 낡은 스타킹을 보았다" },
-  { id: "stockings", ctx: "여성이 화려한 스타킹을 신음", text: "여성이 화려한 스타킹을 신었다" },
-  { id: "stockings", ctx: "여성의 발에 흰 스타킹이 신겨 있음", text: "여성의 발에 흰 스타킹이 신겨 있었다" },
+  // ── 배치 260 새 문맥 (18건) ──────────────────────────────────────────────
+  { id: "stone", ctx: "돌을 봄", text: "돌을 보았다" },
+  { id: "stone", ctx: "바위나 돌 사이를 걸음", text: "바위나 돌 사이를 걸었다" },
+  { id: "stone", ctx: "광석이 나는 땅에서 거래함", text: "돌이 많은 광석 땅에서 거래를 했다" },
+  { id: "stone", ctx: "작은 돌이나 조약돌을 봄", text: "작은 돌과 조약돌을 보았다" },
+  { id: "stone", ctx: "돌을 던짐", text: "돌을 던졌다" },
+  { id: "stone", ctx: "싸움을 거는 사람에게 조약돌이나 돌을 던지려 함", text: "싸움을 거는 사람에게 돌을 던지려 했다" },
+  { id: "mason", ctx: "스스로 석공이 됨", text: "스스로 석공이 되었다" },
+  { id: "storage-battery", ctx: "축전지 꿈을 꿈", text: "축전지 꿈을 꾸었다" },
+  { id: "shop", ctx: "상품이 가득한 가게를 봄", text: "상품이 가득한 가게를 보았다" },
+  { id: "shop", ctx: "텅 빈 가게를 봄", text: "가게가 텅 비어 있었다" },
+  { id: "shop", ctx: "가게가 불타는 것을 봄", text: "가게가 불타는 것을 보았다" },
+  { id: "shop", ctx: "백화점 안에 있음", text: "백화점 안에 있었다" },
+  { id: "shop", ctx: "가게에서 물건을 팖", text: "가게에서 물건을 팔았다" },
+  { id: "shop", ctx: "여성에게 더러운 회색 면장갑을 팖", text: "가게에서 여성에게 더러운 회색 면장갑을 팔았다" },
+  { id: "shop", ctx: "여성이 면장갑을 파는 꿈을 꿈", text: "여성이 가게에서 면장갑을 파는 꿈을 꾸었다" },
+  { id: "straw", ctx: "짚 꿈을 꿈", text: "짚 꿈을 꾸었다" },
+  { id: "straw", ctx: "짚더미가 불타는 것을 봄", text: "짚더미가 불타는 것을 보았다" },
+  { id: "straw", ctx: "가축에게 짚을 먹임", text: "가축에게 짚을 먹였다" },
 
-  // ── 지킴 케이스 — 이번에 손댄 기존 상징(club)의 옛 답이 그대로인지 ────
-  { id: "club", ctx: "남을 몽둥이로 침", text: "남을 몽둥이로 쳤다" },
+  // ── 지킴 케이스 — 이번에 손댄 기존 상징(stone·mason·shop)의 옛 답이 그대로인지 ──
+  { id: "stone", ctx: "강물 속의 모래와 돌", text: "강물 속의 모래와 돌을 보았다" },
+  { id: "stone", ctx: "손으로 작은 돌을 만지작거림", text: "손으로 작은 돌을 만지작거렸다" },
+  { id: "mason", ctx: "석공이 일하는 것을 봄", text: "석공이 일하는 것을 보았다" },
 ];
 
 let notFound = 0;

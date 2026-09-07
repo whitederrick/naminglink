@@ -1,0 +1,39 @@
+[
+  {
+    "id": "storage-battery",
+    "aliases": [
+      "축전지가",
+      "축전지를",
+      "배터리"
+    ],
+    "aliases_en": [
+      "storage battery",
+      "a storage battery"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "straw",
+    "aliases": [
+      "짚이",
+      "짚을",
+      "짚더미",
+      "지푸라기"
+    ],
+    "aliases_en": [
+      "straw",
+      "straws"
+    ],
+    "contexts": {
+      "짚 꿈을 꿈": "그냥",
+      "짚더미가 불타는 것을 봄": "불타는 짚더미",
+      "가축에게 짚을 먹임": "가축에게 먹였"
+    },
+    "contexts_en": {
+      "짚 꿈을 꿈": "emptiness failure",
+      "짚더미가 불타는 것을 봄": "burning prosperous signal",
+      "가축에게 짚을 먹임": "feed stock provisions"
+    }
+  }
+]

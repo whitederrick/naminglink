@@ -7724,5 +7724,13 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "stockings": [
     "stockings",
     "a stocking"
+  ],
+  "storage-battery": [
+    "storage battery",
+    "a storage battery"
+  ],
+  "straw": [
+    "straw",
+    "straws"
   ]
 };

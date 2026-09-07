@@ -17,14 +17,33 @@
     "aliases": [
       "가게를",
       "가게가",
-      "상점"
+      "상점",
+      "백화점"
     ],
     "aliases_en": [
       "a shop",
       "shops"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "상품이 가득한 가게를 봄": "상품이 가득한",
+      "텅 빈 가게를 봄": "텅빈 비어",
+      "가게가 불타는 것을 봄": "불타는",
+      "백화점 안에 있음": "백화점",
+      "가게에서 물건을 팖": "팔았다 판매",
+      "여성에게 더러운 회색 면장갑을 팖": "여성에게 더러운",
+      "여성이 면장갑을 파는 꿈을 꿈": "여성이 파는",
+      "가게 꿈을 꿈": "그냥"
+    },
+    "contexts_en": {
+      "상품이 가득한 가게를 봄": "filled merchandise prosperity",
+      "텅 빈 가게를 봄": "empty failure quarrels",
+      "가게가 불타는 것을 봄": "burning renewed activity",
+      "백화점 안에 있음": "department pleasure profit",
+      "가게에서 물건을 팖": "sell advancement energy",
+      "여성에게 더러운 회색 면장갑을 팖": "gloves opinion hazardous",
+      "여성이 면장갑을 파는 꿈을 꿈": "preference appreciated",
+      "가게 꿈을 꿈": "scheming jealous friends"
+    }
   },
   {
     "id": "shot",

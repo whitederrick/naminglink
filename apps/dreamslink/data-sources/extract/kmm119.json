@@ -12,11 +12,13 @@
     ],
     "contexts": {
       "석공이 일하는 것을 봄": "일하는 다듬는",
-      "예복을 갖춘 석공 무리를 봄": "예복 무리 떼지어"
+      "예복을 갖춘 석공 무리를 봄": "예복 무리 떼지어",
+      "스스로 석공이 됨": "스스로 애쓴 헛되"
     },
     "contexts_en": {
       "석공이 일하는 것을 봄": "plying trade rise circumstances atmosphere",
-      "예복을 갖춘 석공 무리를 봄": "band order regalia protect evils"
+      "예복을 갖춘 석공 무리를 봄": "band order regalia protect evils",
+      "스스로 석공이 됨": "unfruitful dull uncongenial"
     }
   },
   {
