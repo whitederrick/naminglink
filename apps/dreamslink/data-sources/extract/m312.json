@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "위스키",
+    "term_en": "whisky",
+    "context": "병에 든 위스키를 봄",
+    "interpretation_ko": "힘써 조심스레 이익을 지켜 그만큼 늘려 갈 조짐",
+    "interpretation_en": "denotes that you will be careful of your interests, protecting them with energy and watchfulness, thereby adding to their proportion",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Whisky",
+      "original": "To dream of whisky in bottles, denotes that you will be careful\nof your interests, protecting them with energy and watchfulness,\nthereby adding to their proportion.",
+      "translation_ko": "병에 든 위스키를 보는 꿈은, 힘써 조심스레 이익을 지켜 그만큼 늘려 갈 조짐이다"
+    }
+  },
+  {
+    "term_ko": "위스키",
+    "term_en": "whisky",
+    "context": "홀로 위스키를 마심",
+    "interpretation_ko": "이기심으로 벗을 저버릴 조짐",
+    "interpretation_en": "foretells that you will sacrifice your friends to your selfishness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Whisky",
+      "original": "To drink it alone, foretells that you will sacrifice your friends\nto your selfishness.",
+      "translation_ko": "홀로 위스키를 마시는 꿈은, 이기심으로 벗을 저버릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "위스키",
+    "term_en": "whisky",
+    "context": "위스키를 쏟아 버림",
+    "interpretation_ko": "인색한 처신으로 벗을 잃을 조짐",
+    "interpretation_en": "you will lose your friends by your ungenerous conduct",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Whisky",
+      "original": "To destroy whisky, you will lose your friends by your ungenerous conduct.",
+      "translation_ko": "위스키를 쏟아 버리는 꿈은, 인색한 처신으로 벗을 잃을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "위스키",
+    "term_en": "whisky",
+    "context": "위스키를 마셔 바라던 것을 이루려 애씀",
+    "interpretation_ko": "여러 번 실망을 겪은 뒤에야 바라던 것을 이룰 조짐",
+    "interpretation_en": "is to strive and reach a desired object after many disappointments",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Whisky",
+      "original": "To see or drink it, is to strive and reach a desired object after\nmany disappointments.",
+      "translation_ko": "위스키를 마셔 바라던 것을 이루려 애쓰는 꿈은, 여러 번 실망을 겪은 뒤에야 바라던 것을 이룰 조짐이다"
+    }
+  },
+  {
+    "term_ko": "속삭임",
+    "term_en": "whispering",
+    "context": "속삭임 꿈을 꿈",
+    "interpretation_ko": "곁의 사람들이 퍼뜨리는 나쁜 소문에 시달릴 조짐",
+    "interpretation_en": "denotes that you will be disturbed by the evil gossiping of people near you",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Whispering",
+      "original": "To dream of whispering, denotes that you will be disturbed by the evil\ngossiping of people near you.",
+      "translation_ko": "속삭임 꿈은, 곁의 사람들이 퍼뜨리는 나쁜 소문에 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "속삭임",
+    "term_en": "whispering",
+    "context": "조언이나 경고로 다가오는 속삭임을 들음",
+    "interpretation_ko": "도움과 조언이 필요한 처지임을 알리는 조짐",
+    "interpretation_en": "foretells that you stand in need of aid and counsel",
+    "polarity": "neutral",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Whispering",
+      "original": "To hear a whisper coming to you as advice or warning, foretells that you\nstand in need of aid and counsel.",
+      "translation_ko": "조언이나 경고로 다가오는 속삭임을 듣는 꿈은, 도움과 조언이 필요한 처지임을 알리는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "휘파람",
+    "term_en": "whistle",
+    "context": "휘파람 소리를 들음",
+    "interpretation_ko": "놀랄 만한 슬픈 소식에 충격받아 순수한 즐거움을 위해 세운 계획이 바뀔 조짐",
+    "interpretation_en": "denotes that you will be shocked by some sad intelligence, which will change your plans laid for innocent pleasure",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Whistle",
+      "original": "To hear a whistle in your dream, denotes that you will be shocked by some\nsad intelligence, which will change your plans laid for innocent pleasure.",
+      "translation_ko": "휘파람 소리를 듣는 꿈은, 놀랄 만한 슬픈 소식에 충격받아 순수한 즐거움을 위해 세운 계획이 바뀔 조짐이다"
+    }
+  },
+  {
+    "term_ko": "휘파람",
+    "term_en": "whistle",
+    "context": "스스로 휘파람을 붊",
+    "interpretation_ko": "크게 활약할 유쾌한 자리가 있을 조짐",
+    "interpretation_en": "foretells a merry occasion in which you expect to figure largely",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Whistle",
+      "original": "To dream that you are whistling, foretells a merry occasion in which you\nexpect to figure largely.",
+      "translation_ko": "스스로 휘파람을 부는 꿈은, 크게 활약할 유쾌한 자리가 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "휘파람",
+    "term_en": "whistle",
+    "context": "젊은 여성이 스스로 휘파람을 붊",
+    "interpretation_ko": "경솔한 처신과 바람을 이루지 못할 조짐",
+    "interpretation_en": "indicates indiscreet conduct and failure to obtain wishes is foretold",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Whistle",
+      "original": "This dream for a young woman indicates indiscreet\nconduct and failure to obtain wishes is foretold.",
+      "translation_ko": "젊은 여성이 스스로 휘파람을 부는 꿈은, 경솔한 처신과 바람을 이루지 못할 조짐이다"
+    }
+  }
+]

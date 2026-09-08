@@ -1,0 +1,65 @@
+[
+  {
+    "id": "whisky",
+    "aliases": [
+      "위스키가",
+      "위스키를"
+    ],
+    "aliases_en": [
+      "whisky",
+      "whiskey"
+    ],
+    "contexts": {
+      "병에 든 위스키를 봄": "그냥",
+      "홀로 위스키를 마심": "홀로",
+      "위스키를 쏟아 버림": "쏟아",
+      "위스키를 마셔 바라던 것을 이루려 애씀": "애씀 애써 애썼"
+    },
+    "contexts_en": {
+      "병에 든 위스키를 봄": "bottles careful interests",
+      "홀로 위스키를 마심": "alone sacrifice selfishness",
+      "위스키를 쏟아 버림": "destroy ungenerous conduct",
+      "위스키를 마셔 바라던 것을 이루려 애씀": "strive desired disappointments"
+    }
+  },
+  {
+    "id": "whispering",
+    "aliases": [
+      "속삭임이",
+      "속삭임을"
+    ],
+    "aliases_en": [
+      "whispering",
+      "a whisper"
+    ],
+    "contexts": {
+      "속삭임 꿈을 꿈": "그냥",
+      "조언이나 경고로 다가오는 속삭임을 들음": "조언이나 경고"
+    },
+    "contexts_en": {
+      "속삭임 꿈을 꿈": "disturbed evil gossiping",
+      "조언이나 경고로 다가오는 속삭임을 들음": "advice warning counsel"
+    }
+  },
+  {
+    "id": "whistle",
+    "aliases": [
+      "휘파람이",
+      "휘파람을"
+    ],
+    "aliases_en": [
+      "whistle",
+      "whistling"
+    ],
+    "contexts": {
+      "휘파람 소리를 들음": "들음 들었",
+      "스스로 휘파람을 붊": "활약",
+      "젊은 여성이 스스로 휘파람을 붊": "젊은 여성이"
+    },
+    "contexts_en": {
+      "휘파람 소리를 들음": "hear shocked sad intelligence",
+      "스스로 휘파람을 붊": "merry occasion figure",
+      "젊은 여성이 스스로 휘파람을 붊": "young woman indiscreet failure"
+    }
+  }
+]

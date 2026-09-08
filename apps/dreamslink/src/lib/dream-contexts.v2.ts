@@ -6602,5 +6602,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "wheat::이삭에서 밀을 비벼 손에 담아 먹음": "rub hand eat labor",
   "wheat::밀로 덮인 가파른 언덕을 밀줄기를 잡고 오름": "hill stalks pulling distinguish",
   "whetstone::지석 꿈을 꿈": "worries attention affairs",
-  "whetstone::지석 꿈을 꾼 뒤 불편한 여정에 내몰릴 낌새를 느낌": "forced uncomfortable journey"
+  "whetstone::지석 꿈을 꾼 뒤 불편한 여정에 내몰릴 낌새를 느낌": "forced uncomfortable journey",
+  "whisky::병에 든 위스키를 봄": "bottles careful interests",
+  "whisky::홀로 위스키를 마심": "alone sacrifice selfishness",
+  "whisky::위스키를 쏟아 버림": "destroy ungenerous conduct",
+  "whisky::위스키를 마셔 바라던 것을 이루려 애씀": "strive desired disappointments",
+  "whispering::속삭임 꿈을 꿈": "disturbed evil gossiping",
+  "whispering::조언이나 경고로 다가오는 속삭임을 들음": "advice warning counsel",
+  "whistle::휘파람 소리를 들음": "hear shocked sad intelligence",
+  "whistle::스스로 휘파람을 붊": "merry occasion figure",
+  "whistle::젊은 여성이 스스로 휘파람을 붊": "young woman indiscreet failure"
 };

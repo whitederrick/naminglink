@@ -8462,5 +8462,17 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "whirlpool": [
     "whirlpool",
     "a whirlpool"
+  ],
+  "whisky": [
+    "whisky",
+    "whiskey"
+  ],
+  "whispering": [
+    "whispering",
+    "a whisper"
+  ],
+  "whistle": [
+    "whistle",
+    "whistling"
   ]
 };

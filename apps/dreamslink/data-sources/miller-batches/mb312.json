@@ -1,0 +1,21 @@
+{
+  "batch": 312,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Whisky",
+      "text": "To dream of whisky in bottles, denotes that you will be careful\nof your interests, protecting them with energy and watchfulness,\nthereby adding to their proportion.\n\nTo drink it alone, foretells that you will sacrifice your friends\nto your selfishness.\n\nTo destroy whisky, you will lose your friends by your ungenerous conduct.\n\nWhisky is not fraught with much good.  Disappointment in some form\nwill likely appear.\n\nTo see or drink it, is to strive and reach a desired object after\nmany disappointments.  If you only see it, you will never obtain\nthe result hoped and worked for.",
+      "note": "새 상징 위스키(whisky) — 기존 liquor(술)의 별칭 목록에 있던 \"위스키\"(범용 술 종류 나열의 하나일 뿐, 전용 문맥은 없었다)를 회수해 이쪽에 준다. 넷째 문장(\"위스키는 좋을 것이 별로 없다\")은 구체적 그림이 없는 총평이라 건너뛰고, 다섯째 문장은 첫 문장(병에 든 위스키를 봄)과 \"보기만 함\"이 같은 그림에서 서로 다른 결말(첫 문장은 신중함, 다섯째는 결코 못 얻음)을 내 앞뒤가 어긋나므로 \"마셔서 애씀\" 절만 골라 넣는다"
+    },
+    {
+      "headword": "Whispering",
+      "text": "To dream of whispering, denotes that you will be disturbed by the evil\ngossiping of people near you.\n\nTo hear a whisper coming to you as advice or warning, foretells that you\nstand in need of aid and counsel.",
+      "note": "새 상징 속삭임(whispering)"
+    },
+    {
+      "headword": "Whistle",
+      "text": "To hear a whistle in your dream, denotes that you will be shocked by some\nsad intelligence, which will change your plans laid for innocent pleasure.\n\nTo dream that you are whistling, foretells a merry occasion in which you\nexpect to figure largely.  This dream for a young woman indicates indiscreet\nconduct and failure to obtain wishes is foretold.",
+      "note": "새 상징 휘파람(whistle)"
+    }
+  ]
+}
