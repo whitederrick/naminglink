@@ -112,6 +112,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "wind::바람이 불어 집이 흔들림": "house shook shaking building",
   "wind::거센 바람에 휘말림": "caught losses working",
   "wind::돌풍이 부는 꿈을 꿈": "squall disappointing",
+  "wind::회오리바람의 길목에 있음": "path confronting calamity",
+  "wind::젊은 여성이 회오리바람에 휘말려 치맛자락을 붙드느라 애먹음": "flirtation scandal ostracism",
   "river::강과 바다가 넘쳐 불어남": "sea ocean overflow flooded swelling",
   "river::강물에 모래와 돌이 있음": "sand pebbles stones rocks",
   "river::불이 강물을 태움": "fire flames burning burned",
@@ -2245,6 +2247,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "urine::스스로 오줌을 눔": "bad luck trying",
   "cart-wheel::수레바퀴가 부서짐": "broke shattered smashed",
   "cart-wheel::수레바퀴가 꺾여 넘어짐": "bent buckled toppled tipped fell",
+  "cart-wheel::수레바퀴가 빠르게 도는 것을 봄": "rotating thrifty energetic",
   "child::어린 아들딸을 품에 안음": "held embraced arms hugging cradled",
   "child::어린아이가 죽음": "died death passed away dying",
   "child::아름다운 아이들을 여럿 봄": "many beautiful prosperity",
@@ -6597,5 +6600,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "wheat::밀을 자루나 통에 담아 둠을 봄": "sacks barrels apex victory",
   "wheat::곳간이 잘 덮이지 않아 밀이 젖는 것을 봄": "granary wet diminishing",
   "wheat::이삭에서 밀을 비벼 손에 담아 먹음": "rub hand eat labor",
-  "wheat::밀로 덮인 가파른 언덕을 밀줄기를 잡고 오름": "hill stalks pulling distinguish"
+  "wheat::밀로 덮인 가파른 언덕을 밀줄기를 잡고 오름": "hill stalks pulling distinguish",
+  "whetstone::지석 꿈을 꿈": "worries attention affairs",
+  "whetstone::지석 꿈을 꾼 뒤 불편한 여정에 내몰릴 낌새를 느낌": "forced uncomfortable journey"
 };

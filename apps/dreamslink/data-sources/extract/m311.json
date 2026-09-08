@@ -1,0 +1,107 @@
+[
+  {
+    "term_ko": "수레바퀴",
+    "term_en": "cart wheel",
+    "context": "수레바퀴가 빠르게 도는 것을 봄",
+    "interpretation_ko": "사업에서 검소하고 활기차게 애써 가정의 행복을 이룰 조짐",
+    "interpretation_en": "foretells that you will be thrifty and energetic in your business and be successful in pursuits of domestic bliss",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wheels",
+      "original": "To see swiftly rotating wheels in your dreams, foretells that you\nwill be thrifty and energetic in your business and be successful\nin pursuits of domestic bliss.",
+      "translation_ko": "수레바퀴가 빠르게 도는 것을 보는 꿈은, 사업에서 검소하고 활기차게 애써 가정의 행복을 이룰 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지석",
+    "term_en": "whetstone",
+    "context": "지석 꿈을 꿈",
+    "interpretation_ko": "날카로운 근심을 뜻하는 조짐 — 어려움을 피하려면 제 일에 세심한 주의가 필요하다",
+    "interpretation_en": "is significant of sharp worries and close attention is needed in your own affairs, if you avoid difficulties",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Whetstone",
+      "original": "To dream of a whetstone, is significant of sharp worries and close attention\nis needed in your own affairs, if you avoid difficulties.",
+      "translation_ko": "지석 꿈은, 날카로운 근심을 뜻하는 조짐이다 — 어려움을 피하려면 제 일에 세심한 주의가 필요하다"
+    }
+  },
+  {
+    "term_ko": "지석",
+    "term_en": "whetstone",
+    "context": "지석 꿈을 꾼 뒤 불편한 여정에 내몰릴 낌새를 느낌",
+    "interpretation_ko": "불편한 여정에 내몰릴 조짐",
+    "interpretation_en": "you are likely to be forced into an uncomfortable journey",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Whetstone",
+      "original": "You are likely to be forced into an uncomfortable journey.",
+      "translation_ko": "지석 꿈을 꾼 뒤에는, 불편한 여정에 내몰릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "채찍",
+    "term_en": "whip",
+    "context": "채찍 꿈을 꿈",
+    "interpretation_ko": "불행한 불화와 불운하고 위태로운 우정을 나타내는 조짐",
+    "interpretation_en": "signifies unhappy dissensions and unfortunate and formidable friendships",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Whip",
+      "original": "To dream of a whip, signifies unhappy dissensions and unfortunate\nand formidable friendships.",
+      "translation_ko": "채찍 꿈은, 불행한 불화와 불운하고 위태로운 우정을 나타내는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "소용돌이",
+    "term_en": "whirlpool",
+    "context": "소용돌이 꿈을 꿈",
+    "interpretation_ko": "사업에 큰 위험이 닥칠 조짐 — 매우 조심하지 않으면 수치스러운 음모로 평판이 심하게 더럽혀질 것이다",
+    "interpretation_en": "denotes that great danger is imminent in your business, and, unless you are extremely careful, your reputation will be seriously blackened by some disgraceful intrigue",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Whirlpool",
+      "original": "To dream of a whirlpool, denotes that great danger is imminent in\nyour business, and, unless you are extremely careful, your reputation\nwill be seriously blackened by some disgraceful intrigue.",
+      "translation_ko": "소용돌이 꿈은, 사업에 큰 위험이 닥칠 조짐이다 — 매우 조심하지 않으면 수치스러운 음모로 평판이 심하게 더럽혀질 것이다"
+    }
+  },
+  {
+    "term_ko": "바람",
+    "term_en": "wind",
+    "context": "회오리바람의 길목에 있음",
+    "interpretation_ko": "손실과 재앙으로 휩쓸릴 위협을 주는 변화에 맞닥뜨릴 조짐",
+    "interpretation_en": "foretells that you are confronting a change which threatens to overwhelm you with loss and calamity",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Whirlwind",
+      "original": "To dream that you are in the path of a whirlwind, foretells that you are\nconfronting a change which threatens to overwhelm you with loss and calamity.",
+      "translation_ko": "회오리바람의 길목에 있는 꿈은, 손실과 재앙으로 휩쓸릴 위협을 주는 변화에 맞닥뜨릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바람",
+    "term_en": "wind",
+    "context": "젊은 여성이 회오리바람에 휘말려 치맛자락을 붙드느라 애먹음",
+    "interpretation_ko": "은밀한 밀회를 이어가다 소문이 제 이름에 붙은 것을 알고 소스라치며, 불명예와 따돌림의 위험에 바짝 다가설 조짐",
+    "interpretation_en": "denotes that she will carry on a secret flirtation and will be horrified to find that scandal has gotten possession of her name and she will run a close risk of disgrace and ostracism",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Whirlwind",
+      "original": "For a young woman to dream that she is caught in a whirlwind and has\ntrouble to keep her skirts from blowing up and entangling her waist,\ndenotes that she will carry on a secret flirtation and will be horrified\nto find that scandal has gotten possession of her name and she will run\na close risk of disgrace and ostracism.",
+      "translation_ko": "젊은 여성이 회오리바람에 휘말려 치맛자락을 붙드느라 애먹는 꿈은, 은밀한 밀회를 이어가다 소문이 제 이름에 붙은 것을 알고 소스라치며 불명예와 따돌림의 위험에 바짝 다가설 조짐이다"
+    }
+  }
+]

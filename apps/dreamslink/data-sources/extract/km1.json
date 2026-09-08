@@ -352,6 +352,7 @@
       "강풍",
       "돌풍",
       "회오리",
+      "회오리바람",
       "큰바람"
     ],
     "aliases_en": [
@@ -367,7 +368,9 @@
       "바람이 울부짖듯 소리를 냄": "소리 울부짖 윙윙 울음",
       "바람이 불어 집이 흔들림": "흔들 집이 지붕 창문 건물",
       "거센 바람에 휘말림": "휘말 휩쓸 갇혔",
-      "돌풍이 부는 꿈을 꿈": "돌풍"
+      "돌풍이 부는 꿈을 꿈": "돌풍",
+      "회오리바람의 길목에 있음": "길목에",
+      "젊은 여성이 회오리바람에 휘말려 치맛자락을 붙드느라 애먹음": "밀회를"
     },
     "contexts_en": {
       "사나운 바람이 몰아침": "fierce raging violent savage",
@@ -376,7 +379,9 @@
       "바람이 울부짖듯 소리를 냄": "howling wailing sound noise",
       "바람이 불어 집이 흔들림": "house shook shaking building",
       "거센 바람에 휘말림": "caught losses working",
-      "돌풍이 부는 꿈을 꿈": "squall disappointing"
+      "돌풍이 부는 꿈을 꿈": "squall disappointing",
+      "회오리바람의 길목에 있음": "path confronting calamity",
+      "젊은 여성이 회오리바람에 휘말려 치맛자락을 붙드느라 애먹음": "flirtation scandal ostracism"
     }
   },
   {

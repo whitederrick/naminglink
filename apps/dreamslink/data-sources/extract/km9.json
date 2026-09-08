@@ -632,11 +632,13 @@
     ],
     "contexts": {
       "수레바퀴가 부서짐": "부서 부숴 깨졌 산산",
-      "수레바퀴가 꺾여 넘어짐": "꺾여 꺾인 넘어졌 기울어 쓰러"
+      "수레바퀴가 꺾여 넘어짐": "꺾여 꺾인 넘어졌 기울어 쓰러",
+      "수레바퀴가 빠르게 도는 것을 봄": "빠르게 도는"
     },
     "contexts_en": {
       "수레바퀴가 부서짐": "broke shattered smashed",
-      "수레바퀴가 꺾여 넘어짐": "bent buckled toppled tipped fell"
+      "수레바퀴가 꺾여 넘어짐": "bent buckled toppled tipped fell",
+      "수레바퀴가 빠르게 도는 것을 봄": "rotating thrifty energetic"
     }
   },
   {

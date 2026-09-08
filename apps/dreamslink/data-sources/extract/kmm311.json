@@ -1,0 +1,47 @@
+[
+  {
+    "id": "whetstone",
+    "aliases": [
+      "지석이",
+      "지석을"
+    ],
+    "aliases_en": [
+      "whetstone",
+      "a whetstone"
+    ],
+    "contexts": {
+      "지석 꿈을 꿈": "근심을",
+      "지석 꿈을 꾼 뒤 불편한 여정에 내몰릴 낌새를 느낌": "여정에"
+    },
+    "contexts_en": {
+      "지석 꿈을 꿈": "worries attention affairs",
+      "지석 꿈을 꾼 뒤 불편한 여정에 내몰릴 낌새를 느낌": "forced uncomfortable journey"
+    }
+  },
+  {
+    "id": "whip",
+    "aliases": [
+      "채찍이",
+      "채찍을"
+    ],
+    "aliases_en": [
+      "whip",
+      "a whip"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "whirlpool",
+    "aliases": [
+      "소용돌이가",
+      "소용돌이를"
+    ],
+    "aliases_en": [
+      "whirlpool",
+      "a whirlpool"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]
