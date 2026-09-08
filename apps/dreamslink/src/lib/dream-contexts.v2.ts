@@ -2059,6 +2059,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "weaving::어여쁜 여인들이 베틀을 다루는 것을 봄": "good-looking attending unqualified congenial",
   "weaving::여성이 옛날 베틀로 베를 짬": "oldtime thrifty husband solicitations",
   "weaving::멈춰 있는 베틀을 봄": "idle sulky stubborn anxious",
+  "weaving::스스로 베를 짬": "baffle honorable fortune",
+  "weaving::남이 베를 짜는 것을 봄": "surrounded healthy energetic",
   "boat::배가 지붕 위를 지나감": "roof rooftop tiles eaves",
   "boat::배가 하늘을 날아감": "sky airborne flew air ascended",
   "boat::배가 얕은 물에서 언덕에 걸림": "shallow shore aground stuck stranded sandbank",

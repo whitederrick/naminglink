@@ -231,6 +231,7 @@
     "m302.json",
     "m303.json",
     "m304.json",
+    "m305.json",
     "m31.json",
     "m32.json",
     "m33.json",
@@ -37679,6 +37680,131 @@
       "label_ko": "시계(손목시계)"
     },
     {
+      "id": "weaving",
+      "term_ko": "베짜기",
+      "term_en": "weaving",
+      "aliases": [
+        "길쌈",
+        "직조",
+        "베틀",
+        "베를 짜",
+        "베를 짰",
+        "베틀을",
+        "베틀이",
+        "베를 짜는",
+        "베를 짰다",
+        "베를 짜서"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "날실을 걸어 베를 짬",
+          "interpretation_ko": "남에게 욕을 볼 조짐",
+          "interpretation_en": "a sign of being humiliated by others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "經絡者主被人辱",
+              "translation_ko": "날실을 걸어 베를 짜면 남에게 욕을 본다"
+            }
+          ]
+        },
+        {
+          "context": "낯선 이가 베틀을 다루는 것을 봄",
+          "interpretation_ko": "둘레 사람들의 말 많음 때문에 성가시고 부질없이 속상할 흉한 조짐. 기쁘게 바라던 일에 실망도 따른다",
+          "interpretation_en": "denotes much vexation and useless irritation from the talkativeness of those about you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Loom",
+              "original": "To dream of standing by and seeing a loom operated by a stranger, denotes much vexation and useless irritation from the talkativeness of those about you.",
+              "translation_ko": "곁에 서서 낯선 이가 베틀을 다루는 것을 보는 꿈은, 둘레 사람들의 말 많음 때문에 성가시고 부질없이 속상함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "어여쁜 여인들이 베틀을 다루는 것을 봄",
+          "interpretation_ko": "사랑하는 이에게 더할 나위 없이 좋은 길한 조짐. 혼인한 이에게는 뜻이 맞는 일거리를, 부부에게는 취향이 가까워짐을 알린다",
+          "interpretation_en": "denotes unqualified success to those in love; it predicts congenial pursuits to the married",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Loom",
+              "original": "To see good-looking women attending the loom, denotes unqualified success to those in love.",
+              "translation_ko": "어여쁜 여인들이 베틀을 돌보는 것을 보면, 사랑하는 이에게 더할 나위 없이 좋다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 옛날 베틀로 베를 짬",
+          "interpretation_ko": "살림 잘하는 지아비를 만나고 고운 아이들이 삶을 기쁘게 채울 길한 조짐",
+          "interpretation_en": "signifies that she will have a thrifty husband and beautiful children will fill her life with happy solicitations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Loom",
+              "original": "For a woman to dream of weaving on an oldtime loom, signifies that she will have a thrifty husband and beautiful children will fill her life with happy solicitations.",
+              "translation_ko": "여성이 옛날 베틀로 베를 짜는 꿈은, 살림 잘하는 지아비를 만나고 고운 아이들이 삶을 기쁘게 채움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "멈춰 있는 베틀을 봄",
+          "interpretation_ko": "뿌루퉁하고 고집 센 사람이 저를 몹시 애태울 흉한 조짐",
+          "interpretation_en": "denotes a sulky and stubborn person, who will cause you much anxious care",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Loom",
+              "original": "To see an idle loom, denotes a sulky and stubborn person, who will cause you much anxious care.",
+              "translation_ko": "멈춰 있는 베틀을 보면, 뿌루퉁하고 고집 센 사람이 저를 몹시 애태운다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 베를 짬",
+          "interpretation_ko": "명예로운 재산을 쌓으려는 싸움에서 자신을 꺾으려는 어떤 시도도 물리칠 조짐",
+          "interpretation_en": "denotes that you will baffle any attempt to defeat you in the struggle for the up-building of an honorable fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Weaving",
+              "original": "To dream that you are weaving, denotes that you will baffle\nany attempt to defeat you in the struggle for the up-building\nof an honorable fortune.",
+              "translation_ko": "스스로 베를 짜는 꿈은, 명예로운 재산을 쌓으려는 싸움에서 자신을 꺾으려는 어떤 시도도 물리칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 베를 짜는 것을 봄",
+          "interpretation_ko": "건강하고 활기찬 환경에 둘러싸일 조짐",
+          "interpretation_en": "shows that you will be surrounded by healthy and energetic conditions",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Weaving",
+              "original": "To see others weaving shows that you will be surrounded by healthy\nand energetic conditions.",
+              "translation_ko": "남이 베를 짜는 것을 보는 꿈은, 건강하고 활기찬 환경에 둘러싸일 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wind",
       "term_ko": "바람",
       "term_en": "wind",
@@ -56466,102 +56592,6 @@
               "locator": "Waltz",
               "original": "If she sees persons whirling in the waltz as if intoxicated,\nshe will be engulfed so deeply in desire and pleasure that it\nwill be a miracle if she resists the impassioned advances of her\nlover and male acquaintances.",
               "translation_ko": "젊은 여성이 사람들이 취한 듯 빙글빙글 도는 왈츠를 보는 꿈은, 욕망과 쾌락에 깊이 휩싸여 연인과 뭇 남성의 격정적인 구애를 물리치기가 기적일 만큼 힘겨울 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "weaving",
-      "term_ko": "베짜기",
-      "term_en": "weaving",
-      "aliases": [
-        "길쌈",
-        "직조",
-        "베틀",
-        "베를 짜",
-        "베틀을",
-        "베틀이",
-        "베를 짜는",
-        "베를 짰다",
-        "베를 짜서"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "날실을 걸어 베를 짬",
-          "interpretation_ko": "남에게 욕을 볼 조짐",
-          "interpretation_en": "a sign of being humiliated by others",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "經絡者主被人辱",
-              "translation_ko": "날실을 걸어 베를 짜면 남에게 욕을 본다"
-            }
-          ]
-        },
-        {
-          "context": "낯선 이가 베틀을 다루는 것을 봄",
-          "interpretation_ko": "둘레 사람들의 말 많음 때문에 성가시고 부질없이 속상할 흉한 조짐. 기쁘게 바라던 일에 실망도 따른다",
-          "interpretation_en": "denotes much vexation and useless irritation from the talkativeness of those about you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Loom",
-              "original": "To dream of standing by and seeing a loom operated by a stranger, denotes much vexation and useless irritation from the talkativeness of those about you.",
-              "translation_ko": "곁에 서서 낯선 이가 베틀을 다루는 것을 보는 꿈은, 둘레 사람들의 말 많음 때문에 성가시고 부질없이 속상함을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "어여쁜 여인들이 베틀을 다루는 것을 봄",
-          "interpretation_ko": "사랑하는 이에게 더할 나위 없이 좋은 길한 조짐. 혼인한 이에게는 뜻이 맞는 일거리를, 부부에게는 취향이 가까워짐을 알린다",
-          "interpretation_en": "denotes unqualified success to those in love; it predicts congenial pursuits to the married",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Loom",
-              "original": "To see good-looking women attending the loom, denotes unqualified success to those in love.",
-              "translation_ko": "어여쁜 여인들이 베틀을 돌보는 것을 보면, 사랑하는 이에게 더할 나위 없이 좋다"
-            }
-          ]
-        },
-        {
-          "context": "여성이 옛날 베틀로 베를 짬",
-          "interpretation_ko": "살림 잘하는 지아비를 만나고 고운 아이들이 삶을 기쁘게 채울 길한 조짐",
-          "interpretation_en": "signifies that she will have a thrifty husband and beautiful children will fill her life with happy solicitations",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Loom",
-              "original": "For a woman to dream of weaving on an oldtime loom, signifies that she will have a thrifty husband and beautiful children will fill her life with happy solicitations.",
-              "translation_ko": "여성이 옛날 베틀로 베를 짜는 꿈은, 살림 잘하는 지아비를 만나고 고운 아이들이 삶을 기쁘게 채움을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "멈춰 있는 베틀을 봄",
-          "interpretation_ko": "뿌루퉁하고 고집 센 사람이 저를 몹시 애태울 흉한 조짐",
-          "interpretation_en": "denotes a sulky and stubborn person, who will cause you much anxious care",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Loom",
-              "original": "To see an idle loom, denotes a sulky and stubborn person, who will cause you much anxious care.",
-              "translation_ko": "멈춰 있는 베틀을 보면, 뿌루퉁하고 고집 센 사람이 저를 몹시 애태운다"
             }
           ]
         }

@@ -1,0 +1,32 @@
+[
+  {
+    "term_ko": "베짜기",
+    "term_en": "weaving",
+    "context": "스스로 베를 짬",
+    "interpretation_ko": "명예로운 재산을 쌓으려는 싸움에서 자신을 꺾으려는 어떤 시도도 물리칠 조짐",
+    "interpretation_en": "denotes that you will baffle any attempt to defeat you in the struggle for the up-building of an honorable fortune",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Weaving",
+      "original": "To dream that you are weaving, denotes that you will baffle\nany attempt to defeat you in the struggle for the up-building\nof an honorable fortune.",
+      "translation_ko": "스스로 베를 짜는 꿈은, 명예로운 재산을 쌓으려는 싸움에서 자신을 꺾으려는 어떤 시도도 물리칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "베짜기",
+    "term_en": "weaving",
+    "context": "남이 베를 짜는 것을 봄",
+    "interpretation_ko": "건강하고 활기찬 환경에 둘러싸일 조짐",
+    "interpretation_en": "shows that you will be surrounded by healthy and energetic conditions",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Weaving",
+      "original": "To see others weaving shows that you will be surrounded by healthy\nand energetic conditions.",
+      "translation_ko": "남이 베를 짜는 것을 보는 꿈은, 건강하고 활기찬 환경에 둘러싸일 조짐이다"
+    }
+  }
+]
