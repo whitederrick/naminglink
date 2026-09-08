@@ -1296,7 +1296,8 @@
       "예식",
       "혼인했다",
       "혼인하고",
-      "혼인하여"
+      "혼인하여",
+      "혼약"
     ],
     "aliases_en": [
       "marriage",
@@ -1313,7 +1314,14 @@
       "혼인을 약속함": "약속 언약",
       "혼례에 들러리로 참석함": "들러리 참석",
       "혼례에 궂은일이 생김": "궂은일 사고 탈이",
-      "여성이 제 혼례를 봄": "이름을 얻고 화목을 누릴"
+      "여성이 제 혼례를 봄": "이름을 얻고 화목을 누릴",
+      "젊은 여성이 제 혼례가 비밀임을 봄": "비밀임을",
+      "젊은 여성이 세속적으로 인정받는 혼인을 맺음": "인정받는",
+      "혼약에 부모의 반대가 있다고 여김": "부모의 반대",
+      "연인이 다른 이와 혼인하는 꿈을 꿈": "신실",
+      "스스로 혼례를 올리는 꿈을 꿈": "죽음을 피하지",
+      "젊은 여성이 제 혼례에서 상복 입은 사람을 봄": "상복 입은",
+      "다른 사람의 혼례에서 상복 입은 사람을 봄": "친척이나 벗의 불운한"
     },
     "contexts_en": {
       "혼인하는 것을 봄": "held taking place",
@@ -1324,7 +1332,14 @@
       "혼인을 약속함": "contracting unpleasant absent",
       "혼례에 들러리로 참석함": "attendant thoughtfulness promising",
       "혼례에 궂은일이 생김": "unfortunate occurrence distress family",
-      "여성이 제 혼례를 봄": "nuptials distinction pleasure harmony"
+      "여성이 제 혼례를 봄": "nuptials distinction pleasure harmony",
+      "젊은 여성이 제 혼례가 비밀임을 봄": "secret unfavorable downfall",
+      "젊은 여성이 세속적으로 인정받는 혼인을 맺음": "worldly approved estimation",
+      "혼약에 부모의 반대가 있다고 여김": "parental objections engagement",
+      "연인이 다른 이와 혼인하는 꿈을 꿈": "lover weds needless faithfully",
+      "스스로 혼례를 올리는 꿈을 꿈": "wedded sad augury death miracle",
+      "젊은 여성이 제 혼례에서 상복 입은 사람을 봄": "unhappiness life",
+      "다른 사람의 혼례에서 상복 입은 사람을 봄": "grieved relative friend intrusions"
     }
   },
   {

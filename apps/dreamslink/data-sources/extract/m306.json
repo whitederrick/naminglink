@@ -1,0 +1,107 @@
+[
+  {
+    "term_ko": "혼례",
+    "term_en": "wedding",
+    "context": "젊은 여성이 제 혼례가 비밀임을 봄",
+    "interpretation_ko": "인품에 뚜렷이 나쁜 조짐이며 몰락을 암시한다",
+    "interpretation_en": "is decidedly unfavorable to character. It imports her probable downfall",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wedding",
+      "original": "For a young woman to dream that her wedding is a secret is decidedly\nunfavorable to character.  It imports her probable downfall.",
+      "translation_ko": "젊은 여성이 제 혼례가 비밀임을 보는 꿈은, 인품에 뚜렷이 나쁜 조짐이며 몰락을 암시한다"
+    }
+  },
+  {
+    "term_ko": "혼례",
+    "term_en": "wedding",
+    "context": "젊은 여성이 세속적으로 인정받는 혼인을 맺음",
+    "interpretation_ko": "주위 사람들에게 평판이 높아지고 바라던 약속과 기쁨이 이루어질 조짐",
+    "interpretation_en": "signifies she will rise in the estimation of those about her, and anticipated promises and joys will not be withheld",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wedding",
+      "original": "If she contracts a worldly, or approved marriage, signifies she\nwill rise in the estimation of those about her, and anticipated\npromises and joys will not be withheld.",
+      "translation_ko": "젊은 여성이 세속적으로 인정받는 혼인을 맺는 꿈은, 주위 사람들에게 평판이 높아지고 바라던 약속과 기쁨이 이루어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "혼례",
+    "term_en": "wedding",
+    "context": "혼약에 부모의 반대가 있다고 여김",
+    "interpretation_ko": "약혼이 친척들 사이에 불만을 낳을 조짐",
+    "interpretation_en": "she will find that her engagement will create dissatisfaction among her relatives",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wedding",
+      "original": "If she thinks in her dream that there are parental objections,\nshe will find that her engagement will create dissatisfaction\namong her relatives.",
+      "translation_ko": "혼약에 부모의 반대가 있다고 여기는 꿈은, 약혼이 친척들 사이에 불만을 낳을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "혼례",
+    "term_en": "wedding",
+    "context": "연인이 다른 이와 혼인하는 꿈을 꿈",
+    "interpretation_ko": "쓸데없는 두려움에 시달리지만 연인은 약속을 신실하게 지킬 조짐",
+    "interpretation_en": "foretells that she will be distressed with needless fears, as her lover will faithfully carry out his promises",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wedding",
+      "original": "For her to dream her lover weds another,\nforetells that she will be distressed with needless fears,\nas her lover will faithfully carry out his promises.",
+      "translation_ko": "연인이 다른 이와 혼인하는 꿈을 꾸는 것은, 쓸데없는 두려움에 시달리지만 연인은 약속을 신실하게 지킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "혼례",
+    "term_en": "wedding",
+    "context": "스스로 혼례를 올리는 꿈을 꿈",
+    "interpretation_ko": "기적이 아니면 죽음을 피하지 못할 슬픈 조짐 — 혼례가 흥겹고 침울한 성직자가 없어도 역경이 닥칠 것이다",
+    "interpretation_en": "is a sad augury, as death will only be eluded by a miracle. If the wedding is a gay one and there are no ashen, pale-faced or black-robed ministers enjoining solemn vows, the reverses may be expected",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wedding",
+      "original": "For a person to dream of being wedded, is a sad augury, as death will\nonly be eluded by a miracle.  If the wedding is a gay one and there\nare no ashen, pale-faced or black-robed ministers enjoining solemn vows,\nthe reverses may be expected.",
+      "translation_ko": "스스로 혼례를 올리는 꿈은, 기적이 아니면 죽음을 피하지 못할 슬픈 조짐이다 — 혼례가 흥겹고 침울한 성직자가 없어도 역경이 닥칠 것이다"
+    }
+  },
+  {
+    "term_ko": "혼례",
+    "term_en": "wedding",
+    "context": "젊은 여성이 제 혼례에서 상복 입은 사람을 봄",
+    "interpretation_ko": "혼인 생활에 불행만 있을 조짐",
+    "interpretation_en": "denotes she will only have unhappiness in her married life",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wedding",
+      "original": "For a young woman to dream that she sees some one at her wedding dressed\nin mourning, denotes she will only have unhappiness in her married life.",
+      "translation_ko": "젊은 여성이 제 혼례에서 상복 입은 사람을 보는 꿈은, 혼인 생활에 불행만 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "혼례",
+    "term_en": "wedding",
+    "context": "다른 사람의 혼례에서 상복 입은 사람을 봄",
+    "interpretation_ko": "친척이나 벗의 불운한 처지를 슬퍼하고, 행복과 건강을 바라던 자리에서 불쾌함이나 병을 겪을 조짐 — 이 꿈 뒤로는 남의 여행이든 제 여행이든 불쾌한 침입이나 놀라움으로 크게 어지러워질 수 있다",
+    "interpretation_en": "she will be grieved over the unfavorable fortune of some relative or friend. She may experience displeasure or illness where she expected happiness and health. The pleasure trips of others or her own, after this dream, may be greatly disturbed by unpleasant intrusions or surprises",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Wedding",
+      "original": "If at another's wedding, she will be grieved over the unfavorable fortune\nof some relative or friend.  She may experience displeasure or illness\nwhere she expected happiness and health.  The pleasure trips of others\nor her own, after this dream, may be greatly disturbed by unpleasant\nintrusions or surprises.",
+      "translation_ko": "다른 사람의 혼례에서 상복 입은 사람을 보는 꿈은, 친척이나 벗의 불운한 처지를 슬퍼하고 행복과 건강을 바라던 자리에서 불쾌함이나 병을 겪을 조짐이다 — 이 꿈 뒤로는 남의 여행이든 제 여행이든 불쾌한 침입이나 놀라움으로 크게 어지러워질 수 있다"
+    }
+  }
+]
