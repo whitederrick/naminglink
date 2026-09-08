@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "재물",
+    "term_en": "wealth",
+    "context": "남이 부유함을 봄",
+    "interpretation_ko": "위태로운 때에 구해 줄 벗이 있을 조짐",
+    "interpretation_en": "foretells that you will have friends who will come to your rescue in perilous times",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wealth",
+      "original": "To see others wealthy, foretells that you will have friends who will come\nto your rescue in perilous times.",
+      "translation_ko": "남이 부유함을 보는 꿈은, 위태로운 때에 구해 줄 벗이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "재물",
+    "term_en": "wealth",
+    "context": "젊은 여성이 부유한 사람들과 어울림",
+    "interpretation_ko": "높은 포부를 품고 그것을 이뤄 줄 사람을 얻을 조짐",
+    "interpretation_en": "denotes that she will have high aspirations and will manage to enlist some one who is able to further them",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wealth",
+      "original": "For a young woman to dream that she is associated with wealthy people,\ndenotes that she will have high aspirations and will manage to enlist\nsome one who is able to further them.",
+      "translation_ko": "젊은 여성이 부유한 사람들과 어울리는 꿈은, 높은 포부를 품고 그것을 이뤄 줄 사람을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "족제비",
+    "term_en": "weasel",
+    "context": "약탈을 노리는 족제비를 봄",
+    "interpretation_ko": "예전의 적과 맺는 우정을 조심해야 할 조짐 — 뜻밖의 때에 자신을 해칠 것이다",
+    "interpretation_en": "warns you to beware of the friendships of former enemies, as they will devour you at an unseemly time",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Weasel",
+      "original": "To see a weasel bent on a marauding expedition in your dreams,\nwarns you to beware of the friendships of former enemies,\nas they will devour you at an unseemly time.",
+      "translation_ko": "약탈을 노리는 족제비를 보는 꿈은, 예전의 적과 맺는 우정을 조심해야 할 조짐이다 — 뜻밖의 때에 자신을 해칠 것이다"
+    }
+  },
+  {
+    "term_ko": "족제비",
+    "term_en": "weasel",
+    "context": "족제비를 없앰",
+    "interpretation_ko": "자신을 무너뜨리려던 깊은 계략을 좌절시킬 조짐",
+    "interpretation_en": "you will succeed in foiling deep schemes laid for your defeat",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Weasel",
+      "original": "If you destroy them, you will succeed in foiling deep schemes\nlaid for your defeat.",
+      "translation_ko": "족제비를 없애는 꿈은, 자신을 무너뜨리려던 깊은 계략을 좌절시킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "날씨",
+    "term_en": "weather",
+    "context": "날씨 꿈을 꿈",
+    "interpretation_ko": "운이 오르내리는 조짐 — 크게 나아가다가도 갑자기 의심과 실패의 낌새에 맞닥뜨릴 것이다",
+    "interpretation_en": "foretells fluctuating tendencies in fortune. Now you are progressing immensely, to be suddenly confronted with doubts and rumblings of failure",
+    "polarity": "neutral",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Weather",
+      "original": "To dream of the weather, foretells fluctuating tendencies in fortune.\nNow you are progressing immensely, to be suddenly confronted with doubts\nand rumblings of failure.",
+      "translation_ko": "날씨 꿈은, 운이 오르내리는 조짐이다 — 크게 나아가다가도 갑자기 의심과 실패의 낌새에 맞닥뜨릴 것이다"
+    }
+  },
+  {
+    "term_ko": "날씨",
+    "term_en": "weather",
+    "context": "기상청 보고서를 읽는다고 여김",
+    "interpretation_ko": "오래 고민한 끝에 거처를 옮기지만 그 변화로 득을 볼 조짐",
+    "interpretation_en": "you will change your place of abode, after much weary deliberation, but you will be benefited by the change",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Weather",
+      "original": "To think you are reading the reports of a weather bureau,\nyou will change your place of abode, after much weary deliberation,\nbut you will be benefited by the change.",
+      "translation_ko": "기상청 보고서를 읽는다고 여기는 꿈은, 오래 고민한 끝에 거처를 옮기지만 그 변화로 득을 볼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "날씨",
+    "term_en": "weather",
+    "context": "날씨 마녀를 봄",
+    "interpretation_ko": "가정에 불쾌한 일이 있을 조짐",
+    "interpretation_en": "denotes disagreeable conditions in your family affairs",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Weather",
+      "original": "To see a weather witch, denotes disagreeable conditions\nin your family affairs.",
+      "translation_ko": "날씨 마녀를 보는 꿈은, 가정에 불쾌한 일이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "날씨",
+    "term_en": "weather",
+    "context": "날씨 마녀들이 날씨를 부리는 것을 봄",
+    "interpretation_ko": "집안에 다툼이 있고 사업에서 실망할 조짐",
+    "interpretation_en": "foretells quarrels in the home and disappointment in business",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Weather",
+      "original": "To see them conjuring the weather, foretells quarrels in the home\nand disappointment in business.",
+      "translation_ko": "날씨 마녀들이 날씨를 부리는 것을 보는 꿈은, 집안에 다툼이 있고 사업에서 실망할 조짐이다"
+    }
+  }
+]

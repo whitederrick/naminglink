@@ -230,6 +230,7 @@
     "m301.json",
     "m302.json",
     "m303.json",
+    "m304.json",
     "m31.json",
     "m32.json",
     "m33.json",
@@ -46472,6 +46473,112 @@
       ]
     },
     {
+      "id": "wealth",
+      "term_ko": "재물",
+      "term_en": "wealth",
+      "aliases": [
+        "재산",
+        "재화",
+        "패물",
+        "부유함",
+        "부유한"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "처녀가 참된 재물과 안락을 누림",
+          "interpretation_ko": "참된 재물의 꿈은 깨어나서 실제의 즐거움을 찾을 길조 — 요정 같은 호사의 꿈은 깨어나서 낙담만 남을 경고다",
+          "interpretation_en": "when young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Opulence",
+              "original": "When young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments; as the dreams are warnings, superinduced by their practicality being supplanted by their excitable imagination and lazy desires, which should be overcome with energy, and the replacing of practicality on her base.",
+              "translation_ko": "처녀가 참되고 실속 있는 재물과 안락을 누리는 꿈을 꾸면 늘 깨어나서 실제의 즐거움을 찾게 되지만, 이상하거나 요정 같은 사치와 기쁨의 꿈에 둘러싸이면 깨어난 뒤 낙담만 가득할 것이다. 이런 꿈은 실속이 들뜬 상상과 게으른 욕심에 밀려난 데서 오는 경고이니, 기운을 내어 실속을 되찾아야 한다"
+            }
+          ]
+        },
+        {
+          "context": "너른 재산을 가짐",
+          "interpretation_ko": "일에서 성공하고 벗을 얻을 조짐",
+          "interpretation_en": "denotes that you will be successful in affairs, and gain friendships",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Property",
+              "original": "To dream that you own vast property, denotes that you will be successful in affairs, and gain friendships.",
+              "translation_ko": "너른 재산을 가진 꿈은, 일에서 성공하고 벗을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "재물을 가짐",
+          "interpretation_ko": "부단한 노력과 정성으로 높은 자리에 오를 조짐",
+          "interpretation_en": "denotes that you will rise to high places by your constant exertion and attention to your affairs",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Riches",
+              "original": "To dream that you are possessed of riches, denotes that you will rise to high places by your constant exertion and attention to your affairs.",
+              "translation_ko": "재물을 가진 꿈은, 부단한 노력과 정성으로 높은 자리에 오를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 부유함을 봄",
+          "interpretation_ko": "위태로운 때에 구해 줄 벗이 있을 조짐",
+          "interpretation_en": "foretells that you will have friends who will come to your rescue in perilous times",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wealth",
+              "original": "To see others wealthy, foretells that you will have friends who will come\nto your rescue in perilous times.",
+              "translation_ko": "남이 부유함을 보는 꿈은, 위태로운 때에 구해 줄 벗이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 부유한 사람들과 어울림",
+          "interpretation_ko": "높은 포부를 품고 그것을 이뤄 줄 사람을 얻을 조짐",
+          "interpretation_en": "denotes that she will have high aspirations and will manage to enlist some one who is able to further them",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wealth",
+              "original": "For a young woman to dream that she is associated with wealthy people,\ndenotes that she will have high aspirations and will manage to enlist\nsome one who is able to further them.",
+              "translation_ko": "젊은 여성이 부유한 사람들과 어울리는 꿈은, 높은 포부를 품고 그것을 이뤄 줄 사람을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "집안에서 재물을 나눔",
+          "interpretation_ko": "헤어지고 무너질 조짐",
+          "interpretation_en": "a sign of separation and ruin",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "家中分財主離敗",
+              "translation_ko": "집안에서 재물을 나누면 헤어지고 무너진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "woman",
       "term_ko": "여자",
       "term_en": "woman",
@@ -73741,76 +73848,75 @@
       ]
     },
     {
-      "id": "wealth",
-      "term_ko": "재물",
-      "term_en": "wealth",
+      "id": "weather",
+      "term_ko": "날씨",
+      "term_en": "weather",
       "aliases": [
-        "재산",
-        "재화",
-        "패물"
+        "날씨가",
+        "날씨를",
+        "기상청"
       ],
-      "category": "object",
+      "category": "nature",
       "polarity": "ambivalent",
       "works": [
-        "miller",
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "처녀가 참된 재물과 안락을 누림",
-          "interpretation_ko": "참된 재물의 꿈은 깨어나서 실제의 즐거움을 찾을 길조 — 요정 같은 호사의 꿈은 깨어나서 낙담만 남을 경고다",
-          "interpretation_en": "when young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments",
-          "polarity": "positive",
+          "context": "날씨 꿈을 꿈",
+          "interpretation_ko": "운이 오르내리는 조짐 — 크게 나아가다가도 갑자기 의심과 실패의 낌새에 맞닥뜨릴 것이다",
+          "interpretation_en": "foretells fluctuating tendencies in fortune. Now you are progressing immensely, to be suddenly confronted with doubts and rumblings of failure",
+          "polarity": "neutral",
           "cites": [
             {
               "work": "miller",
-              "locator": "Opulence",
-              "original": "When young women dream that they are enjoying solid and real wealth and comforts, they will always wake to find some real pleasure, but when abnormal or fairy-like dreams of luxury and joy seem to encompass them, their waking moments will be filled with disappointments; as the dreams are warnings, superinduced by their practicality being supplanted by their excitable imagination and lazy desires, which should be overcome with energy, and the replacing of practicality on her base.",
-              "translation_ko": "처녀가 참되고 실속 있는 재물과 안락을 누리는 꿈을 꾸면 늘 깨어나서 실제의 즐거움을 찾게 되지만, 이상하거나 요정 같은 사치와 기쁨의 꿈에 둘러싸이면 깨어난 뒤 낙담만 가득할 것이다. 이런 꿈은 실속이 들뜬 상상과 게으른 욕심에 밀려난 데서 오는 경고이니, 기운을 내어 실속을 되찾아야 한다"
+              "locator": "Weather",
+              "original": "To dream of the weather, foretells fluctuating tendencies in fortune.\nNow you are progressing immensely, to be suddenly confronted with doubts\nand rumblings of failure.",
+              "translation_ko": "날씨 꿈은, 운이 오르내리는 조짐이다 — 크게 나아가다가도 갑자기 의심과 실패의 낌새에 맞닥뜨릴 것이다"
             }
           ]
         },
         {
-          "context": "너른 재산을 가짐",
-          "interpretation_ko": "일에서 성공하고 벗을 얻을 조짐",
-          "interpretation_en": "denotes that you will be successful in affairs, and gain friendships",
+          "context": "기상청 보고서를 읽는다고 여김",
+          "interpretation_ko": "오래 고민한 끝에 거처를 옮기지만 그 변화로 득을 볼 조짐",
+          "interpretation_en": "you will change your place of abode, after much weary deliberation, but you will be benefited by the change",
           "polarity": "positive",
           "cites": [
             {
               "work": "miller",
-              "locator": "Property",
-              "original": "To dream that you own vast property, denotes that you will be successful in affairs, and gain friendships.",
-              "translation_ko": "너른 재산을 가진 꿈은, 일에서 성공하고 벗을 얻을 조짐이다"
+              "locator": "Weather",
+              "original": "To think you are reading the reports of a weather bureau,\nyou will change your place of abode, after much weary deliberation,\nbut you will be benefited by the change.",
+              "translation_ko": "기상청 보고서를 읽는다고 여기는 꿈은, 오래 고민한 끝에 거처를 옮기지만 그 변화로 득을 볼 조짐이다"
             }
           ]
         },
         {
-          "context": "재물을 가짐",
-          "interpretation_ko": "부단한 노력과 정성으로 높은 자리에 오를 조짐",
-          "interpretation_en": "denotes that you will rise to high places by your constant exertion and attention to your affairs",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Riches",
-              "original": "To dream that you are possessed of riches, denotes that you will rise to high places by your constant exertion and attention to your affairs.",
-              "translation_ko": "재물을 가진 꿈은, 부단한 노력과 정성으로 높은 자리에 오를 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "집안에서 재물을 나눔",
-          "interpretation_ko": "헤어지고 무너질 조짐",
-          "interpretation_en": "a sign of separation and ruin",
+          "context": "날씨 마녀를 봄",
+          "interpretation_ko": "가정에 불쾌한 일이 있을 조짐",
+          "interpretation_en": "denotes disagreeable conditions in your family affairs",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "家中分財主離敗",
-              "translation_ko": "집안에서 재물을 나누면 헤어지고 무너진다"
+              "work": "miller",
+              "locator": "Weather",
+              "original": "To see a weather witch, denotes disagreeable conditions\nin your family affairs.",
+              "translation_ko": "날씨 마녀를 보는 꿈은, 가정에 불쾌한 일이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "날씨 마녀들이 날씨를 부리는 것을 봄",
+          "interpretation_ko": "집안에 다툼이 있고 사업에서 실망할 조짐",
+          "interpretation_en": "foretells quarrels in the home and disappointment in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Weather",
+              "original": "To see them conjuring the weather, foretells quarrels in the home\nand disappointment in business.",
+              "translation_ko": "날씨 마녀들이 날씨를 부리는 것을 보는 꿈은, 집안에 다툼이 있고 사업에서 실망할 조짐이다"
             }
           ]
         }
@@ -122401,6 +122507,52 @@
               "locator": "Wax Taper",
               "original": "To blow them out, signals disappointing times, and sickness will forestall\nexpected opportunities of meeting distinguished friends.",
               "translation_ko": "밀랍초를 불어서 끄는 꿈은, 실망스러운 시절이 오고 병으로 훌륭한 벗들과 만날 기회를 놓칠 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weasel",
+      "term_ko": "족제비",
+      "term_en": "weasel",
+      "aliases": [
+        "족제비가",
+        "족제비를"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "약탈을 노리는 족제비를 봄",
+          "interpretation_ko": "예전의 적과 맺는 우정을 조심해야 할 조짐 — 뜻밖의 때에 자신을 해칠 것이다",
+          "interpretation_en": "warns you to beware of the friendships of former enemies, as they will devour you at an unseemly time",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Weasel",
+              "original": "To see a weasel bent on a marauding expedition in your dreams,\nwarns you to beware of the friendships of former enemies,\nas they will devour you at an unseemly time.",
+              "translation_ko": "약탈을 노리는 족제비를 보는 꿈은, 예전의 적과 맺는 우정을 조심해야 할 조짐이다 — 뜻밖의 때에 자신을 해칠 것이다"
+            }
+          ]
+        },
+        {
+          "context": "족제비를 없앰",
+          "interpretation_ko": "자신을 무너뜨리려던 깊은 계략을 좌절시킬 조짐",
+          "interpretation_en": "you will succeed in foiling deep schemes laid for your defeat",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Weasel",
+              "original": "If you destroy them, you will succeed in foiling deep schemes\nlaid for your defeat.",
+              "translation_ko": "족제비를 없애는 꿈은, 자신을 무너뜨리려던 깊은 계략을 좌절시킬 조짐이다"
             }
           ]
         }

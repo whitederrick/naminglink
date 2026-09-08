@@ -1,0 +1,44 @@
+[
+  {
+    "id": "weasel",
+    "aliases": [
+      "족제비가",
+      "족제비를"
+    ],
+    "aliases_en": [
+      "weasel",
+      "weasels"
+    ],
+    "contexts": {
+      "약탈을 노리는 족제비를 봄": "그냥",
+      "족제비를 없앰": "없앴 없애"
+    },
+    "contexts_en": {
+      "약탈을 노리는 족제비를 봄": "marauding expedition beware former",
+      "족제비를 없앰": "destroy foiling schemes defeat"
+    }
+  },
+  {
+    "id": "weather",
+    "aliases": [
+      "날씨가",
+      "날씨를",
+      "기상청"
+    ],
+    "aliases_en": [
+      "weather"
+    ],
+    "contexts": {
+      "날씨 꿈을 꿈": "그냥",
+      "기상청 보고서를 읽는다고 여김": "기상청",
+      "날씨 마녀를 봄": "마녀를",
+      "날씨 마녀들이 날씨를 부리는 것을 봄": "부리는"
+    },
+    "contexts_en": {
+      "날씨 꿈을 꿈": "fluctuating tendencies progressing",
+      "기상청 보고서를 읽는다고 여김": "bureau abode deliberation benefited",
+      "날씨 마녀를 봄": "witch disagreeable family",
+      "날씨 마녀들이 날씨를 부리는 것을 봄": "conjuring quarrels disappointment"
+    }
+  }
+]

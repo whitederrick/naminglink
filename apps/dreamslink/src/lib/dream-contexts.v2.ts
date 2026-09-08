@@ -1764,6 +1764,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "wealth::처녀가 참된 재물과 안락을 누림": "solid real comforts wake pleasure",
   "wealth::너른 재산을 가짐": "vast successful friendships",
   "wealth::재물을 가짐": "possessed rise exertion",
+  "wealth::남이 부유함을 봄": "others wealthy rescue perilous",
+  "wealth::젊은 여성이 부유한 사람들과 어울림": "aspirations enlist further",
   "wicked-person::악한 사람과 말을 나눔": "talking conversation spoke chatting",
   "wicked-person::악한 사람이 서로 끌어당김": "pulling dragging tugging grabbing",
   "horse::말이 뜰 앞에서 춤추듯 뛰놂": "dancing prancing frolicking courtyard yard",
@@ -6549,5 +6551,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "water-carrier::물지게꾼들이 지나가는 것을 봄": "passing favorable laggard",
   "water-carrier::스스로 물지게꾼이라고 여김": "think rise position",
   "wax-taper::밀랍초에 불을 밝힘": "lighting pleasing occurrence",
-  "wax-taper::밀랍초를 불어서 끔": "blow disappointing sickness"
+  "wax-taper::밀랍초를 불어서 끔": "blow disappointing sickness",
+  "weasel::약탈을 노리는 족제비를 봄": "marauding expedition beware former",
+  "weasel::족제비를 없앰": "destroy foiling schemes defeat",
+  "weather::날씨 꿈을 꿈": "fluctuating tendencies progressing",
+  "weather::기상청 보고서를 읽는다고 여김": "bureau abode deliberation benefited",
+  "weather::날씨 마녀를 봄": "witch disagreeable family",
+  "weather::날씨 마녀들이 날씨를 부리는 것을 봄": "conjuring quarrels disappointment"
 };

@@ -1313,7 +1313,9 @@
     "aliases": [
       "재산",
       "재화",
-      "패물"
+      "패물",
+      "부유함",
+      "부유한"
     ],
     "aliases_en": [
       "riches",
@@ -1325,13 +1327,17 @@
       "집안에서 재물을 나눔": "나누 헤어지고 무너",
       "처녀가 참된 재물과 안락을 누림": "처녀가 참된 실속",
       "너른 재산을 가짐": "너른 성공하고",
-      "재물을 가짐": "재물을 노력과"
+      "재물을 가짐": "재물을 노력과",
+      "남이 부유함을 봄": "남이",
+      "젊은 여성이 부유한 사람들과 어울림": "부유한 사람들"
     },
     "contexts_en": {
       "집안에서 재물을 나눔": "separation ruin",
       "처녀가 참된 재물과 안락을 누림": "solid real comforts wake pleasure",
       "너른 재산을 가짐": "vast successful friendships",
-      "재물을 가짐": "possessed rise exertion"
+      "재물을 가짐": "possessed rise exertion",
+      "남이 부유함을 봄": "others wealthy rescue perilous",
+      "젊은 여성이 부유한 사람들과 어울림": "aspirations enlist further"
     }
   },
   {

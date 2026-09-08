@@ -8394,5 +8394,12 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "wax-taper": [
     "wax taper",
     "wax tapers"
+  ],
+  "weasel": [
+    "weasel",
+    "weasels"
+  ],
+  "weather": [
+    "weather"
   ]
 };
