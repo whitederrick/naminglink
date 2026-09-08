@@ -1,0 +1,152 @@
+[
+  {
+    "term_ko": "물",
+    "term_en": "water",
+    "context": "맑은 물을 봄",
+    "interpretation_ko": "기쁘게 번영과 즐거움을 깨달을 조짐",
+    "interpretation_en": "foretells that you will joyfully realize prosperity and pleasure",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Water",
+      "original": "To dream of clear water, foretells that you will joyfully realize\nprosperity and pleasure.",
+      "translation_ko": "맑은 물을 보는 꿈은, 기쁘게 번영과 즐거움을 깨달을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물",
+    "term_en": "water",
+    "context": "흐린 물을 봄",
+    "interpretation_ko": "위험에 처하고 우울함이 즐거움의 자리를 차지할 조짐",
+    "interpretation_en": "you will be in danger and gloom will occupy Pleasure's seat",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Water",
+      "original": "If the water is muddy, you will be in danger and gloom will\noccupy Pleasure's seat.",
+      "translation_ko": "흐린 물을 보는 꿈은, 위험에 처하고 우울함이 즐거움의 자리를 차지할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물",
+    "term_en": "water",
+    "context": "제 집 안으로 물이 차오르는 것을 봄",
+    "interpretation_ko": "악에 맞서 싸우게 되나, 물이 가라앉는 것을 보지 못하면 위험한 영향에 굴복할 조짐",
+    "interpretation_en": "denotes that you will struggle to resist evil, but unless you see it subside, you will succumb to dangerous influences",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Water",
+      "original": "If you see it rise up in your house, denotes that you will struggle\nto resist evil, but unless you see it subside, you will succumb\nto dangerous influences.",
+      "translation_ko": "제 집 안으로 물이 차오르는 것을 보는 꿈은, 악에 맞서 싸우게 되나 물이 가라앉는 것을 보지 못하면 위험한 영향에 굴복할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물",
+    "term_en": "water",
+    "context": "물을 퍼내는데 발이 젖음",
+    "interpretation_ko": "곤란과 병, 불행이 힘겨운 일을 안기나 조심함으로 미리 막을 조짐",
+    "interpretation_en": "foreshadows trouble, sickness, and misery will work you a hard task, but you will forestall them by your watchfulness",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Water",
+      "original": "If you find yourself baling it out, but with feet growing wet,\nforeshadows trouble, sickness, and misery will work you\na hard task, but you will forestall them by your watchfulness.",
+      "translation_ko": "물을 퍼내는데 발이 젖는 꿈은, 곤란과 병, 불행이 힘겨운 일을 안기나 조심함으로 미리 막을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물",
+    "term_en": "water",
+    "context": "그릇에 흐린 물이 차오름",
+    "interpretation_ko": "곤란과 병, 불행이 힘겨운 일을 안기나 조심함으로 미리 막을 조짐",
+    "interpretation_en": "the same may be applied to muddy water rising in vessels",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Water",
+      "original": "The same may be applied to muddy water rising in vessels.",
+      "translation_ko": "그릇에 흐린 물이 차오르는 꿈도, 곤란과 병, 불행이 힘겨운 일을 안기나 조심함으로 미리 막을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물",
+    "term_en": "water",
+    "context": "흐린 물에 빠짐",
+    "interpretation_ko": "여러 쓰라린 실수를 저지르고 그로 인해 깊은 슬픔을 겪을 조짐",
+    "interpretation_en": "is a sign that you will make many bitter mistakes, and will suffer poignant grief therefrom",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Water",
+      "original": "To fall into muddy water, is a sign that you will make many bitter mistakes,\nand will suffer poignant grief therefrom.",
+      "translation_ko": "흐린 물에 빠지는 꿈은, 여러 쓰라린 실수를 저지르고 그로 인해 깊은 슬픔을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물",
+    "term_en": "water",
+    "context": "흐린 물을 마심",
+    "interpretation_ko": "병이 날 조짐",
+    "interpretation_en": "portends sickness",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Water",
+      "original": "To drink muddy water, portends sickness, but drinking it clear\nand refreshing brings favorable consummation of fair hopes.",
+      "translation_ko": "흐린 물을 마시는 꿈은, 병이 날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물",
+    "term_en": "water",
+    "context": "맑고 시원한 물을 마심",
+    "interpretation_ko": "좋은 소망이 순조롭게 이루어질 조짐",
+    "interpretation_en": "drinking it clear and refreshing brings favorable consummation of fair hopes",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Water",
+      "original": "but drinking it clear\nand refreshing brings favorable consummation of fair hopes.",
+      "translation_ko": "맑고 시원한 물을 마시는 꿈은, 좋은 소망이 순조롭게 이루어질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물",
+    "term_en": "water",
+    "context": "물놀이를 함",
+    "interpretation_ko": "사랑과 정념에 갑작스레 눈뜰 조짐",
+    "interpretation_en": "denotes a sudden awakening to love and passion",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Water",
+      "original": "To sport with water, denotes a sudden awakening to love and passion.",
+      "translation_ko": "물놀이를 하는 꿈은, 사랑과 정념에 갑작스레 눈뜰 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물",
+    "term_en": "water",
+    "context": "머리에 물이 뿌려짐",
+    "interpretation_ko": "정념 어린 사랑의 눈뜸이 서로 응답받아 이루어질 조짐",
+    "interpretation_en": "denotes that your passionate awakening to love will meet reciprocal consummation",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Water",
+      "original": "To have it sprayed on your head, denotes that your passionate\nawakening to love will meet reciprocal consummation.",
+      "translation_ko": "머리에 물이 뿌려지는 꿈은, 정념 어린 사랑의 눈뜸이 서로 응답받아 이루어질 조짐이다"
+    }
+  }
+]

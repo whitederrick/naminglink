@@ -228,6 +228,7 @@
     "m30.json",
     "m300.json",
     "m301.json",
+    "m302.json",
     "m31.json",
     "m32.json",
     "m33.json",
@@ -4483,6 +4484,360 @@
         }
       ],
       "label_ko": "배(선박)"
+    },
+    {
+      "id": "water",
+      "term_ko": "물",
+      "term_en": "water",
+      "aliases": [
+        "물놀이"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "물을 마심",
+          "interpretation_ko": "큰 이익을 얻을 조짐",
+          "interpretation_en": "a sign of great gain",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "飲食酒肉瓜菜",
+              "original": "食水者主得大利",
+              "translation_ko": "물을 먹으면 큰 이익을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 물을 마시려 해도 마시지 못함",
+          "interpretation_ko": "슬며시 건네진 즐거움을 끝내 누리지 못할 조짐",
+          "interpretation_en": "she will fail to enjoy some pleasure that is insinuatingly offered her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Drinking",
+              "original": "If she dreams that she fails to drink clear water, though she uses her best efforts to do so, she will fail to enjoy some pleasure that is insinuatingly offered her.",
+              "translation_ko": "애를 써도 맑은 물을 마시지 못하는 꿈은, 슬며시 건네진 즐거움을 끝내 누리지 못함을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 물을 봄",
+          "interpretation_ko": "기쁘게 번영과 즐거움을 깨달을 조짐",
+          "interpretation_en": "foretells that you will joyfully realize prosperity and pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Water",
+              "original": "To dream of clear water, foretells that you will joyfully realize\nprosperity and pleasure.",
+              "translation_ko": "맑은 물을 보는 꿈은, 기쁘게 번영과 즐거움을 깨달을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "흐린 물을 봄",
+          "interpretation_ko": "위험에 처하고 우울함이 즐거움의 자리를 차지할 조짐",
+          "interpretation_en": "you will be in danger and gloom will occupy Pleasure's seat",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Water",
+              "original": "If the water is muddy, you will be in danger and gloom will\noccupy Pleasure's seat.",
+              "translation_ko": "흐린 물을 보는 꿈은, 위험에 처하고 우울함이 즐거움의 자리를 차지할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제 집 안으로 물이 차오르는 것을 봄",
+          "interpretation_ko": "악에 맞서 싸우게 되나, 물이 가라앉는 것을 보지 못하면 위험한 영향에 굴복할 조짐",
+          "interpretation_en": "denotes that you will struggle to resist evil, but unless you see it subside, you will succumb to dangerous influences",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Water",
+              "original": "If you see it rise up in your house, denotes that you will struggle\nto resist evil, but unless you see it subside, you will succumb\nto dangerous influences.",
+              "translation_ko": "제 집 안으로 물이 차오르는 것을 보는 꿈은, 악에 맞서 싸우게 되나 물이 가라앉는 것을 보지 못하면 위험한 영향에 굴복할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "물을 퍼내는데 발이 젖음",
+          "interpretation_ko": "곤란과 병, 불행이 힘겨운 일을 안기나 조심함으로 미리 막을 조짐",
+          "interpretation_en": "foreshadows trouble, sickness, and misery will work you a hard task, but you will forestall them by your watchfulness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Water",
+              "original": "If you find yourself baling it out, but with feet growing wet,\nforeshadows trouble, sickness, and misery will work you\na hard task, but you will forestall them by your watchfulness.",
+              "translation_ko": "물을 퍼내는데 발이 젖는 꿈은, 곤란과 병, 불행이 힘겨운 일을 안기나 조심함으로 미리 막을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "그릇에 흐린 물이 차오름",
+          "interpretation_ko": "곤란과 병, 불행이 힘겨운 일을 안기나 조심함으로 미리 막을 조짐",
+          "interpretation_en": "the same may be applied to muddy water rising in vessels",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Water",
+              "original": "The same may be applied to muddy water rising in vessels.",
+              "translation_ko": "그릇에 흐린 물이 차오르는 꿈도, 곤란과 병, 불행이 힘겨운 일을 안기나 조심함으로 미리 막을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "흐린 물에 빠짐",
+          "interpretation_ko": "여러 쓰라린 실수를 저지르고 그로 인해 깊은 슬픔을 겪을 조짐",
+          "interpretation_en": "is a sign that you will make many bitter mistakes, and will suffer poignant grief therefrom",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Water",
+              "original": "To fall into muddy water, is a sign that you will make many bitter mistakes,\nand will suffer poignant grief therefrom.",
+              "translation_ko": "흐린 물에 빠지는 꿈은, 여러 쓰라린 실수를 저지르고 그로 인해 깊은 슬픔을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "흐린 물을 마심",
+          "interpretation_ko": "병이 날 조짐",
+          "interpretation_en": "portends sickness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Water",
+              "original": "To drink muddy water, portends sickness, but drinking it clear\nand refreshing brings favorable consummation of fair hopes.",
+              "translation_ko": "흐린 물을 마시는 꿈은, 병이 날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "맑고 시원한 물을 마심",
+          "interpretation_ko": "좋은 소망이 순조롭게 이루어질 조짐",
+          "interpretation_en": "drinking it clear and refreshing brings favorable consummation of fair hopes",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Water",
+              "original": "but drinking it clear\nand refreshing brings favorable consummation of fair hopes.",
+              "translation_ko": "맑고 시원한 물을 마시는 꿈은, 좋은 소망이 순조롭게 이루어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "물놀이를 함",
+          "interpretation_ko": "사랑과 정념에 갑작스레 눈뜰 조짐",
+          "interpretation_en": "denotes a sudden awakening to love and passion",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Water",
+              "original": "To sport with water, denotes a sudden awakening to love and passion.",
+              "translation_ko": "물놀이를 하는 꿈은, 사랑과 정념에 갑작스레 눈뜰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "머리에 물이 뿌려짐",
+          "interpretation_ko": "정념 어린 사랑의 눈뜸이 서로 응답받아 이루어질 조짐",
+          "interpretation_en": "denotes that your passionate awakening to love will meet reciprocal consummation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Water",
+              "original": "To have it sprayed on your head, denotes that your passionate\nawakening to love will meet reciprocal consummation.",
+              "translation_ko": "머리에 물이 뿌려지는 꿈은, 정념 어린 사랑의 눈뜸이 서로 응답받아 이루어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "우물을 파서 물을 봄",
+          "interpretation_ko": "먼 곳에서 소식이 올 조짐",
+          "interpretation_en": "a sign that news will come from afar",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "穿井見水遠信至",
+              "translation_ko": "우물을 파서 물을 보면 먼 곳의 소식이 온다"
+            }
+          ]
+        },
+        {
+          "context": "물 위를 걸어감",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "水上行者主大吉",
+              "translation_ko": "물 위를 걸어가면 크게 길할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "물 위에 서 있음",
+          "interpretation_ko": "흉한 일이 있을 조짐",
+          "interpretation_en": "a sign that misfortune will occur",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "水上立者主凶事",
+              "translation_ko": "물 위에 서 있으면 흉한 일이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "물이 넘실넘실 흐름",
+          "interpretation_ko": "새 혼인이 있을 조짐",
+          "interpretation_en": "a sign that a new marriage will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "水流洋洋有新婚",
+              "translation_ko": "물이 넘실넘실 흐르면 새 혼인이 있다"
+            }
+          ]
+        },
+        {
+          "context": "물 위에서 불이 나옴",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "水上火出主大吉",
+              "translation_ko": "물 위에서 불이 나오면 크게 길할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 물속에 있음",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "自在水中大吉利",
+              "translation_ko": "스스로 물속에 있으면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "물에 빠져 나오지 못함",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "自跌水中不出凶",
+              "translation_ko": "스스로 물에 빠져 나오지 못하면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "쉬지 않고 물을 마심",
+          "interpretation_ko": "큰 재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining great wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "飲水不休得大財",
+              "translation_ko": "쉬지 않고 물을 마시면 큰 재물을 얻는다"
+            }
+          ]
+        },
+        {
+          "context": "흐르는 물이 몸을 감돎",
+          "interpretation_ko": "옥사와 송사가 있을 조짐",
+          "interpretation_en": "a sign of imprisonment and lawsuits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "流水遶身有獄訟",
+              "translation_ko": "흐르는 물이 몸을 감돌면 옥사와 송사가 있다"
+            }
+          ]
+        },
+        {
+          "context": "큰물이 맑게 갬",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "大水澄清大吉利",
+              "translation_ko": "큰물이 맑으면 크게 길하고 이롭다"
+            }
+          ]
+        },
+        {
+          "context": "남의 집에 물이 있음",
+          "interpretation_ko": "아들을 잃을 조짐",
+          "interpretation_en": "a sign of losing a son",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "人家有水兒子亡",
+              "translation_ko": "남의 집에 물이 있으면 아들이 죽는다"
+            }
+          ]
+        },
+        {
+          "context": "배 안에 물이 고여 있음",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "船車遊行物件",
+              "original": "船中有水主得財",
+              "translation_ko": "배 안에 물이 있으면 재물을 얻는다"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "door",
@@ -14217,218 +14572,6 @@
               "locator": "Spider-web",
               "original": "To see spider-webs, denotes pleasant associations and fortunate ventures.",
               "translation_ko": "거미줄을 보는 꿈은, 즐거운 인연과 순조로운 일을 이룰 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "water",
-      "term_ko": "물",
-      "term_en": "water",
-      "aliases": [],
-      "category": "nature",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "물을 마심",
-          "interpretation_ko": "큰 이익을 얻을 조짐",
-          "interpretation_en": "a sign of great gain",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "飲食酒肉瓜菜",
-              "original": "食水者主得大利",
-              "translation_ko": "물을 먹으면 큰 이익을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "맑은 물을 마시려 해도 마시지 못함",
-          "interpretation_ko": "슬며시 건네진 즐거움을 끝내 누리지 못할 조짐",
-          "interpretation_en": "she will fail to enjoy some pleasure that is insinuatingly offered her",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Drinking",
-              "original": "If she dreams that she fails to drink clear water, though she uses her best efforts to do so, she will fail to enjoy some pleasure that is insinuatingly offered her.",
-              "translation_ko": "애를 써도 맑은 물을 마시지 못하는 꿈은, 슬며시 건네진 즐거움을 끝내 누리지 못함을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "우물을 파서 물을 봄",
-          "interpretation_ko": "먼 곳에서 소식이 올 조짐",
-          "interpretation_en": "a sign that news will come from afar",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "穿井見水遠信至",
-              "translation_ko": "우물을 파서 물을 보면 먼 곳의 소식이 온다"
-            }
-          ]
-        },
-        {
-          "context": "물 위를 걸어감",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "水上行者主大吉",
-              "translation_ko": "물 위를 걸어가면 크게 길할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "물 위에 서 있음",
-          "interpretation_ko": "흉한 일이 있을 조짐",
-          "interpretation_en": "a sign that misfortune will occur",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "水上立者主凶事",
-              "translation_ko": "물 위에 서 있으면 흉한 일이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "물이 넘실넘실 흐름",
-          "interpretation_ko": "새 혼인이 있을 조짐",
-          "interpretation_en": "a sign that a new marriage will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "水流洋洋有新婚",
-              "translation_ko": "물이 넘실넘실 흐르면 새 혼인이 있다"
-            }
-          ]
-        },
-        {
-          "context": "물 위에서 불이 나옴",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "水上火出主大吉",
-              "translation_ko": "물 위에서 불이 나오면 크게 길할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "스스로 물속에 있음",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "自在水中大吉利",
-              "translation_ko": "스스로 물속에 있으면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "물에 빠져 나오지 못함",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "自跌水中不出凶",
-              "translation_ko": "스스로 물에 빠져 나오지 못하면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "쉬지 않고 물을 마심",
-          "interpretation_ko": "큰 재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining great wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "飲水不休得大財",
-              "translation_ko": "쉬지 않고 물을 마시면 큰 재물을 얻는다"
-            }
-          ]
-        },
-        {
-          "context": "흐르는 물이 몸을 감돎",
-          "interpretation_ko": "옥사와 송사가 있을 조짐",
-          "interpretation_en": "a sign of imprisonment and lawsuits",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "流水遶身有獄訟",
-              "translation_ko": "흐르는 물이 몸을 감돌면 옥사와 송사가 있다"
-            }
-          ]
-        },
-        {
-          "context": "큰물이 맑게 갬",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "大水澄清大吉利",
-              "translation_ko": "큰물이 맑으면 크게 길하고 이롭다"
-            }
-          ]
-        },
-        {
-          "context": "남의 집에 물이 있음",
-          "interpretation_ko": "아들을 잃을 조짐",
-          "interpretation_en": "a sign of losing a son",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "人家有水兒子亡",
-              "translation_ko": "남의 집에 물이 있으면 아들이 죽는다"
-            }
-          ]
-        },
-        {
-          "context": "배 안에 물이 고여 있음",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "船車遊行物件",
-              "original": "船中有水主得財",
-              "translation_ko": "배 안에 물이 있으면 재물을 얻는다"
             }
           ]
         }

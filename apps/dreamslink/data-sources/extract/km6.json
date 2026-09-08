@@ -78,7 +78,9 @@
   },
   {
     "id": "water",
-    "aliases": [],
+    "aliases": [
+      "물놀이"
+    ],
     "aliases_en": [],
     "contexts": {
       "물을 마심": "마시 마신 마셨 들이켜",
@@ -94,7 +96,17 @@
       "큰물이 맑게 갬": "맑아 맑게 개어 홍수 큰물",
       "남의 집에 물이 있음": "남의 이웃집 다른사람",
       "배 안에 물이 고여 있음": "고여 고인 배안 뱃전 나룻배",
-      "맑은 물을 마시려 해도 마시지 못함": "맑은 못했 못하 애써"
+      "맑은 물을 마시려 해도 마시지 못함": "맑은 못했 못하 애써",
+      "맑은 물을 봄": "번영과 즐거움을",
+      "흐린 물을 봄": "위험에",
+      "제 집 안으로 물이 차오르는 것을 봄": "차오르는",
+      "물을 퍼내는데 발이 젖음": "퍼내는",
+      "그릇에 흐린 물이 차오름": "그릇에",
+      "흐린 물에 빠짐": "쓰라린 실수",
+      "흐린 물을 마심": "흐린 병이",
+      "맑고 시원한 물을 마심": "맑고 시원한",
+      "물놀이를 함": "물놀이",
+      "머리에 물이 뿌려짐": "뿌려짐 뿌려지는 뿌려졌"
     },
     "contexts_en": {
       "물을 마심": "drinking drank sip swallow",
@@ -110,7 +122,17 @@
       "큰물이 맑게 갬": "clear cleared flood calm",
       "남의 집에 물이 있음": "neighbor another someone",
       "배 안에 물이 고여 있음": "boat ship pooled bilge",
-      "맑은 물을 마시려 해도 마시지 못함": "fails efforts insinuatingly offered"
+      "맑은 물을 마시려 해도 마시지 못함": "fails efforts insinuatingly offered",
+      "맑은 물을 봄": "joyfully prosperity pleasure",
+      "흐린 물을 봄": "danger gloom occupy",
+      "제 집 안으로 물이 차오르는 것을 봄": "rise house struggle resist evil",
+      "물을 퍼내는데 발이 젖음": "baling feet wet trouble",
+      "그릇에 흐린 물이 차오름": "vessels rising applied",
+      "흐린 물에 빠짐": "fall bitter mistakes grief",
+      "흐린 물을 마심": "muddy portends sickness",
+      "맑고 시원한 물을 마심": "refreshing favorable consummation",
+      "물놀이를 함": "sport sudden awakening passion",
+      "머리에 물이 뿌려짐": "sprayed head reciprocal"
     }
   },
   {
