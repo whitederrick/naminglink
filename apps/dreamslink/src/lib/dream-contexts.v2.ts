@@ -733,6 +733,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "umbrella::갈가리 찢어지거나 부서진 우산을 봄": "pieces misrepresented maligned",
   "umbrella::물이 새는 우산을 들고 다님": "leaky pain displeasure",
   "umbrella::맑은 소나기나 햇빛 속에서 새 우산을 씀": "sunshine exquisite omens",
+  "washbasin::세숫대야를 봄": "beautiful woman come",
+  "washbasin::맑은 물이 담긴 대야에 얼굴과 손을 씻음": "bathe consummate passionate bind",
+  "washbasin::대야가 더럽거나 깨져 있음을 봄": "soiled broken rue illicit",
   "house::불이 제 집을 태움": "fire burning burned burnt ablaze",
   "house::집 안에 불빛이 있음": "light lit glowing lamp bright",
   "house::남의 집을 사들임": "bought buying purchased",
@@ -4837,6 +4840,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "laundry::빨래가 엉망으로 나옴": "reverse fail procure pleasure",
   "laundry::어여쁜 처녀들이 빨래하는 것을 봄": "pretty girls seek rank",
   "laundry::세탁부가 집에 찾아옴": "laundryman calls house danger valuable",
+  "laundry::세탁부를 봄": "infidelity strange adventure",
+  "laundry::사업가나 농부가 세탁부 꿈을 꿈": "business farmer expanding crops",
+  "laundry::여자가 스스로 세탁부가 됨을 봄": "decorum persistent illegal favor",
   "laundry::빨래 수레를 봄": "wagons rivalry contention",
   "leaves::나뭇잎을 봄": "happiness wonderful improvement",
   "leaves::처녀가 마른 나뭇잎 꿈을 꿈": "lonely road conjugality implied",
@@ -6517,5 +6523,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "warts::제 몸에 사마귀가 남을 괴로워함": "troubled unable parry honor",
   "warts::손에서 사마귀가 사라지는 것을 봄": "leaving hands overcome obstructions",
   "warts::남에게 사마귀가 있음을 봄": "others bitter enemies",
-  "warts::사마귀를 치료함": "doctor struggle ward danger"
+  "warts::사마귀를 치료함": "doctor struggle ward danger",
+  "washboard::빨래판을 봄": "embarrassment indicative",
+  "washboard::여자가 빨래판을 쓰는 것을 봄": "woman rob energy fortune",
+  "washboard::부서진 빨래판을 봄": "broken grief disgraceful"
 };

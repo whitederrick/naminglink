@@ -1,0 +1,23 @@
+[
+  {
+    "id": "washboard",
+    "aliases": [
+      "빨래판이",
+      "빨래판을"
+    ],
+    "aliases_en": [
+      "washboard",
+      "a washboard"
+    ],
+    "contexts": {
+      "빨래판을 봄": "그냥",
+      "여자가 빨래판을 쓰는 것을 봄": "여자가",
+      "부서진 빨래판을 봄": "부서진"
+    },
+    "contexts_en": {
+      "빨래판을 봄": "embarrassment indicative",
+      "여자가 빨래판을 쓰는 것을 봄": "woman rob energy fortune",
+      "부서진 빨래판을 봄": "broken grief disgraceful"
+    }
+  }
+]

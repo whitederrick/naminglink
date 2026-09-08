@@ -737,6 +737,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "umbrella::갈가리 찢어지거나 부서진 우산을 봄": "찢어진",
   "umbrella::물이 새는 우산을 들고 다님": "새는",
   "umbrella::맑은 소나기나 햇빛 속에서 새 우산을 씀": "소나기",
+  "washbasin::세숫대야를 봄": "그냥",
+  "washbasin::맑은 물이 담긴 대야에 얼굴과 손을 씻음": "얼굴과 손을",
+  "washbasin::대야가 더럽거나 깨져 있음을 봄": "더럽거나",
   "house::불이 제 집을 태움": "화재 불타 불길 태우 타버",
   "house::집 안에 불빛이 있음": "불빛 환하 밝은 등불",
   "house::남의 집을 사들임": "사들 구입 매입 샀다",
@@ -4842,6 +4845,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "laundry::어여쁜 처녀들이 빨래하는 것을 봄": "처녀들 아가씨들",
   "laundry::세탁부가 집에 찾아옴": "세탁부 찾아왔",
   "laundry::빨래 수레를 봄": "수레 짐칸",
+  "laundry::세탁부를 봄": "부정한",
+  "laundry::사업가나 농부가 세탁부 꿈을 꿈": "사업가나 농부",
+  "laundry::여자가 스스로 세탁부가 됨을 봄": "스스로",
   "leaves::나뭇잎을 봄": "보였다 무성",
   "leaves::처녀가 마른 나뭇잎 꿈을 꿈": "처녀 아가씨 여자가",
   "leaves::마른 나뭇잎을 봄": "마른 시든 누렇",
@@ -6521,5 +6527,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "warts::제 몸에 사마귀가 남을 괴로워함": "그냥",
   "warts::손에서 사마귀가 사라지는 것을 봄": "사라지는",
   "warts::남에게 사마귀가 있음을 봄": "남에게",
-  "warts::사마귀를 치료함": "치료"
+  "warts::사마귀를 치료함": "치료",
+  "washboard::빨래판을 봄": "그냥",
+  "washboard::여자가 빨래판을 쓰는 것을 봄": "여자가",
+  "washboard::부서진 빨래판을 봄": "부서진"
 };

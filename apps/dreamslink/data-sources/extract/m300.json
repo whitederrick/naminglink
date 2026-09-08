@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "빨래판",
+    "term_en": "washboard",
+    "context": "빨래판을 봄",
+    "interpretation_ko": "당혹감을 나타내는 조짐",
+    "interpretation_en": "is indicative of embarrassment",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Washboard",
+      "original": "To see a washboard in your dreams, is indicative of embarrassment.",
+      "translation_ko": "빨래판을 보는 꿈은, 당혹감을 나타내는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "빨래판",
+    "term_en": "washboard",
+    "context": "여자가 빨래판을 쓰는 것을 봄",
+    "interpretation_ko": "여자들에게 기력과 재물을 빼앗길 조짐",
+    "interpretation_en": "it predicts that you will let women rob you of energy and fortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Washboard",
+      "original": "If you see a woman using one, it predicts that you will let women\nrob you of energy and fortune.",
+      "translation_ko": "여자가 빨래판을 쓰는 것을 보는 꿈은, 여자들에게 기력과 재물을 빼앗길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "빨래판",
+    "term_en": "washboard",
+    "context": "부서진 빨래판을 봄",
+    "interpretation_ko": "방탕한 생활로 슬픔과 부끄러운 일을 겪을 조짐",
+    "interpretation_en": "portends that you will come to grief and disgraceful deeds through fast living",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Washboard",
+      "original": "A broken one, portends that you will come to grief and disgraceful\ndeeds through fast living.",
+      "translation_ko": "부서진 빨래판을 보는 꿈은, 방탕한 생활로 슬픔과 부끄러운 일을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "세숫대야",
+    "term_en": "washbasin",
+    "context": "맑은 물이 담긴 대야에 얼굴과 손을 씻음",
+    "interpretation_ko": "정념 어린 바람을 곧 이루어, 정념에 휩싸이기 전부터 마음이 끌리던 이와 가까워질 조짐",
+    "interpretation_en": "denotes that you will soon consummate passionate wishes which will bind you closely to some one who interested you, but before passion enveloped you",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wash-bowl",
+      "original": "To bathe your face and hands in a bowl of clear water,\ndenotes that you will soon consummate passionate wishes\nwhich will bind you closely to some one who interested you,\nbut before passion enveloped you.",
+      "translation_ko": "맑은 물이 담긴 대야에 얼굴과 손을 씻는 꿈은, 정념 어린 바람을 곧 이루어 정념에 휩싸이기 전부터 마음이 끌리던 이와 가까워질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "세숫대야",
+    "term_en": "washbasin",
+    "context": "대야가 더럽거나 깨져 있음을 봄",
+    "interpretation_ko": "부적절한 만남을 뉘우치고 남에게 고통을 주며 자신은 작은 기쁨만 얻을 조짐",
+    "interpretation_en": "you will rue an illicit engagement, which will give others pain, and afford you small pleasure",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wash-bowl",
+      "original": "If the bowl is soiled, or broken, you will rue an illicit engagement,\nwhich will give others pain, and afford you small pleasure.",
+      "translation_ko": "대야가 더럽거나 깨져 있음을 보는 꿈은, 부적절한 만남을 뉘우치고 남에게 고통을 주며 자신은 작은 기쁨만 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "빨래",
+    "term_en": "laundry",
+    "context": "세탁부를 봄",
+    "interpretation_ko": "부정한 관계와 낯선 모험을 나타내는 조짐",
+    "interpretation_en": "represents infidelity and a strange adventure",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Washer Woman",
+      "original": "A washer woman seen in dreams, represents infidelity and a strange adventure.",
+      "translation_ko": "세탁부를 보는 꿈은, 부정한 관계와 낯선 모험을 나타내는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "빨래",
+    "term_en": "laundry",
+    "context": "사업가나 농부가 세탁부 꿈을 꿈",
+    "interpretation_ko": "사업이 번창하고 농사가 잘될 조짐",
+    "interpretation_en": "this dream indicates expanding trade and fine crops",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Washer Woman",
+      "original": "For the business man, or farmer, this dream indicates expanding trade\nand fine crops.",
+      "translation_ko": "사업가나 농부가 세탁부 꿈을 꾸는 꿈은, 사업이 번창하고 농사가 잘될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "빨래",
+    "term_en": "laundry",
+    "context": "여자가 스스로 세탁부가 됨을 봄",
+    "interpretation_ko": "체면을 벗어던지고 부적절한 남성의 호의를 붙들려 애쓸 조짐",
+    "interpretation_en": "denotes that she will throw decorum aside in her persistent effort to hold the illegal favor of men",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Washer Woman",
+      "original": "For a woman to dream that she is a washer woman,\ndenotes that she will throw decorum aside in her persistent effort to hold\nthe illegal favor of men.",
+      "translation_ko": "여자가 스스로 세탁부가 됨을 보는 꿈은, 체면을 벗어던지고 부적절한 남성의 호의를 붙들려 애쓸 조짐이다"
+    }
+  }
+]

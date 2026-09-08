@@ -226,6 +226,7 @@
     "m299.json",
     "m3.json",
     "m30.json",
+    "m300.json",
     "m31.json",
     "m32.json",
     "m33.json",
@@ -26146,6 +26147,156 @@
       ]
     },
     {
+      "id": "laundry",
+      "term_ko": "빨래",
+      "term_en": "laundry",
+      "aliases": [
+        "세탁",
+        "세탁부",
+        "세탁소",
+        "빨랫감",
+        "빨래를",
+        "빨래하고",
+        "빨래하는",
+        "빨래했다"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "빨래를 함",
+          "interpretation_ko": "애는 쓰나 끝내 살림을 일으킬 길한 조짐",
+          "interpretation_en": "denotes struggles, but a final victory in winning fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laundry",
+              "original": "To dream of laundering clothes, denotes struggles, but a final victory in winning fortune.",
+              "translation_ko": "빨래를 하는 꿈은 애는 쓰나 끝내 살림을 일으킴을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "세탁부를 봄",
+          "interpretation_ko": "부정한 관계와 낯선 모험을 나타내는 조짐",
+          "interpretation_en": "represents infidelity and a strange adventure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Washer Woman",
+              "original": "A washer woman seen in dreams, represents infidelity and a strange adventure.",
+              "translation_ko": "세탁부를 보는 꿈은, 부정한 관계와 낯선 모험을 나타내는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "사업가나 농부가 세탁부 꿈을 꿈",
+          "interpretation_ko": "사업이 번창하고 농사가 잘될 조짐",
+          "interpretation_en": "this dream indicates expanding trade and fine crops",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Washer Woman",
+              "original": "For the business man, or farmer, this dream indicates expanding trade\nand fine crops.",
+              "translation_ko": "사업가나 농부가 세탁부 꿈을 꾸는 꿈은, 사업이 번창하고 농사가 잘될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 스스로 세탁부가 됨을 봄",
+          "interpretation_ko": "체면을 벗어던지고 부적절한 남성의 호의를 붙들려 애쓸 조짐",
+          "interpretation_en": "denotes that she will throw decorum aside in her persistent effort to hold the illegal favor of men",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Washer Woman",
+              "original": "For a woman to dream that she is a washer woman,\ndenotes that she will throw decorum aside in her persistent effort to hold\nthe illegal favor of men.",
+              "translation_ko": "여자가 스스로 세탁부가 됨을 보는 꿈은, 체면을 벗어던지고 부적절한 남성의 호의를 붙들려 애쓸 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빨래가 깨끗하게 되어 나옴",
+          "interpretation_ko": "애쓴 일이 온전한 기쁨을 가져다줄 길한 조짐",
+          "interpretation_en": "then your endeavors will bring complete happiness",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laundry",
+              "original": "If the clothes are done satisfactorily, then your endeavors will bring complete happiness.",
+              "translation_ko": "빨래가 마음에 들게 되어 나오면 애쓴 일이 온전한 기쁨을 가져다준다"
+            }
+          ]
+        },
+        {
+          "context": "빨래가 엉망으로 나옴",
+          "interpretation_ko": "살림이 나아져도 즐거움은 얻지 못할 흉한 조짐",
+          "interpretation_en": "your fortune will fail to procure pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laundry",
+              "original": "If they come out the reverse, your fortune will fail to procure pleasure.",
+              "translation_ko": "빨래가 그 반대로 나오면 살림이 나아져도 즐거움은 얻지 못한다"
+            }
+          ]
+        },
+        {
+          "context": "어여쁜 처녀들이 빨래하는 것을 봄",
+          "interpretation_ko": "제 자리에 맞지 않는 즐거움을 좇을 흉한 조짐",
+          "interpretation_en": "you will seek pleasure out of your rank",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laundry",
+              "original": "To see pretty girls at this work, you will seek pleasure out of your rank.",
+              "translation_ko": "어여쁜 처녀들이 이 일을 하는 것을 보면 제 자리에 맞지 않는 즐거움을 좇는다"
+            }
+          ]
+        },
+        {
+          "context": "세탁부가 집에 찾아옴",
+          "interpretation_ko": "병이 들거나 아주 값진 것을 잃을 낌새가 있는 흉한 조짐",
+          "interpretation_en": "you are in danger of sickness, or of losing something very valuable",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laundry",
+              "original": "If a laundryman calls at your house, you are in danger of sickness, or of losing something very valuable.",
+              "translation_ko": "세탁부가 집에 찾아오면 병이 들거나 아주 값진 것을 잃을 낌새가 있다"
+            }
+          ]
+        },
+        {
+          "context": "빨래 수레를 봄",
+          "interpretation_ko": "겨루고 다툴 일이 있을 흉한 조짐",
+          "interpretation_en": "portends rivalry and contention",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Laundry",
+              "original": "To see laundry wagons, portends rivalry and contention.",
+              "translation_ko": "빨래 수레를 보면 겨루고 다툴 일이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "ledger",
       "term_ko": "장부",
       "term_en": "ledger",
@@ -41776,114 +41927,6 @@
               "locator": "Lace",
               "original": "If she dreams of garnishing her wedding garments with lace, she will be favored with lovers who will bow to her charms, but the wedding will be far removed from her.",
               "translation_ko": "혼례옷을 레이스로 꾸미는 꿈을 꾸면 따르는 이가 많으나 혼례는 멀리 밀려난다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "laundry",
-      "term_ko": "빨래",
-      "term_en": "laundry",
-      "aliases": [
-        "세탁",
-        "세탁부",
-        "세탁소",
-        "빨랫감",
-        "빨래를",
-        "빨래하고",
-        "빨래하는",
-        "빨래했다"
-      ],
-      "category": "action",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "빨래를 함",
-          "interpretation_ko": "애는 쓰나 끝내 살림을 일으킬 길한 조짐",
-          "interpretation_en": "denotes struggles, but a final victory in winning fortune",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Laundry",
-              "original": "To dream of laundering clothes, denotes struggles, but a final victory in winning fortune.",
-              "translation_ko": "빨래를 하는 꿈은 애는 쓰나 끝내 살림을 일으킴을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "빨래가 깨끗하게 되어 나옴",
-          "interpretation_ko": "애쓴 일이 온전한 기쁨을 가져다줄 길한 조짐",
-          "interpretation_en": "then your endeavors will bring complete happiness",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Laundry",
-              "original": "If the clothes are done satisfactorily, then your endeavors will bring complete happiness.",
-              "translation_ko": "빨래가 마음에 들게 되어 나오면 애쓴 일이 온전한 기쁨을 가져다준다"
-            }
-          ]
-        },
-        {
-          "context": "빨래가 엉망으로 나옴",
-          "interpretation_ko": "살림이 나아져도 즐거움은 얻지 못할 흉한 조짐",
-          "interpretation_en": "your fortune will fail to procure pleasure",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Laundry",
-              "original": "If they come out the reverse, your fortune will fail to procure pleasure.",
-              "translation_ko": "빨래가 그 반대로 나오면 살림이 나아져도 즐거움은 얻지 못한다"
-            }
-          ]
-        },
-        {
-          "context": "어여쁜 처녀들이 빨래하는 것을 봄",
-          "interpretation_ko": "제 자리에 맞지 않는 즐거움을 좇을 흉한 조짐",
-          "interpretation_en": "you will seek pleasure out of your rank",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Laundry",
-              "original": "To see pretty girls at this work, you will seek pleasure out of your rank.",
-              "translation_ko": "어여쁜 처녀들이 이 일을 하는 것을 보면 제 자리에 맞지 않는 즐거움을 좇는다"
-            }
-          ]
-        },
-        {
-          "context": "세탁부가 집에 찾아옴",
-          "interpretation_ko": "병이 들거나 아주 값진 것을 잃을 낌새가 있는 흉한 조짐",
-          "interpretation_en": "you are in danger of sickness, or of losing something very valuable",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Laundry",
-              "original": "If a laundryman calls at your house, you are in danger of sickness, or of losing something very valuable.",
-              "translation_ko": "세탁부가 집에 찾아오면 병이 들거나 아주 값진 것을 잃을 낌새가 있다"
-            }
-          ]
-        },
-        {
-          "context": "빨래 수레를 봄",
-          "interpretation_ko": "겨루고 다툴 일이 있을 흉한 조짐",
-          "interpretation_en": "portends rivalry and contention",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Laundry",
-              "original": "To see laundry wagons, portends rivalry and contention.",
-              "translation_ko": "빨래 수레를 보면 겨루고 다툴 일이 있다"
             }
           ]
         }
@@ -92589,6 +92632,128 @@
       ]
     },
     {
+      "id": "washbasin",
+      "term_ko": "세숫대야",
+      "term_en": "washbasin",
+      "aliases": [
+        "대야",
+        "세면대",
+        "세숫물"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "세숫대야를 봄",
+          "interpretation_ko": "아름다운 사람이 찾아올 조짐",
+          "interpretation_en": "a sign that a beautiful woman will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "洗面盆者美妾至",
+              "translation_ko": "세숫대야는 아름다운 첩이 올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "맑은 물이 담긴 대야에 얼굴과 손을 씻음",
+          "interpretation_ko": "정념 어린 바람을 곧 이루어, 정념에 휩싸이기 전부터 마음이 끌리던 이와 가까워질 조짐",
+          "interpretation_en": "denotes that you will soon consummate passionate wishes which will bind you closely to some one who interested you, but before passion enveloped you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wash-bowl",
+              "original": "To bathe your face and hands in a bowl of clear water,\ndenotes that you will soon consummate passionate wishes\nwhich will bind you closely to some one who interested you,\nbut before passion enveloped you.",
+              "translation_ko": "맑은 물이 담긴 대야에 얼굴과 손을 씻는 꿈은, 정념 어린 바람을 곧 이루어 정념에 휩싸이기 전부터 마음이 끌리던 이와 가까워질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "대야가 더럽거나 깨져 있음을 봄",
+          "interpretation_ko": "부적절한 만남을 뉘우치고 남에게 고통을 주며 자신은 작은 기쁨만 얻을 조짐",
+          "interpretation_en": "you will rue an illicit engagement, which will give others pain, and afford you small pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wash-bowl",
+              "original": "If the bowl is soiled, or broken, you will rue an illicit engagement,\nwhich will give others pain, and afford you small pleasure.",
+              "translation_ko": "대야가 더럽거나 깨져 있음을 보는 꿈은, 부적절한 만남을 뉘우치고 남에게 고통을 주며 자신은 작은 기쁨만 얻을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "washboard",
+      "term_ko": "빨래판",
+      "term_en": "washboard",
+      "aliases": [
+        "빨래판이",
+        "빨래판을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "빨래판을 봄",
+          "interpretation_ko": "당혹감을 나타내는 조짐",
+          "interpretation_en": "is indicative of embarrassment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Washboard",
+              "original": "To see a washboard in your dreams, is indicative of embarrassment.",
+              "translation_ko": "빨래판을 보는 꿈은, 당혹감을 나타내는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 빨래판을 쓰는 것을 봄",
+          "interpretation_ko": "여자들에게 기력과 재물을 빼앗길 조짐",
+          "interpretation_en": "it predicts that you will let women rob you of energy and fortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Washboard",
+              "original": "If you see a woman using one, it predicts that you will let women\nrob you of energy and fortune.",
+              "translation_ko": "여자가 빨래판을 쓰는 것을 보는 꿈은, 여자들에게 기력과 재물을 빼앗길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "부서진 빨래판을 봄",
+          "interpretation_ko": "방탕한 생활로 슬픔과 부끄러운 일을 겪을 조짐",
+          "interpretation_en": "portends that you will come to grief and disgraceful deeds through fast living",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Washboard",
+              "original": "A broken one, portends that you will come to grief and disgraceful\ndeeds through fast living.",
+              "translation_ko": "부서진 빨래판을 보는 꿈은, 방탕한 생활로 슬픔과 부끄러운 일을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "white-clothing",
       "term_ko": "흰 옷",
       "term_en": "white clothing",
@@ -135679,39 +135844,6 @@
               "locator": "Waif",
               "original": "To dream of a waif, denotes personal difficulties, and especial\nill-luck in business.",
               "translation_ko": "떠돌이 아이를 보는 꿈은, 개인적인 어려움을 겪고 사업에서 특히 불운할 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "washbasin",
-      "term_ko": "세숫대야",
-      "term_en": "washbasin",
-      "aliases": [
-        "대야",
-        "세면대",
-        "세숫물"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "세숫대야를 봄",
-          "interpretation_ko": "아름다운 사람이 찾아올 조짐",
-          "interpretation_en": "a sign that a beautiful woman will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "衣帳毯褥匙櫡",
-              "original": "洗面盆者美妾至",
-              "translation_ko": "세숫대야는 아름다운 첩이 올 조짐이다"
             }
           ]
         }

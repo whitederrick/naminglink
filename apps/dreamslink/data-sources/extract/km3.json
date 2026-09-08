@@ -1289,8 +1289,16 @@
       "wash basin",
       "washbowl"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "세숫대야를 봄": "그냥",
+      "맑은 물이 담긴 대야에 얼굴과 손을 씻음": "얼굴과 손을",
+      "대야가 더럽거나 깨져 있음을 봄": "더럽거나"
+    },
+    "contexts_en": {
+      "세숫대야를 봄": "beautiful woman come",
+      "맑은 물이 담긴 대야에 얼굴과 손을 씻음": "bathe consummate passionate bind",
+      "대야가 더럽거나 깨져 있음을 봄": "soiled broken rue illicit"
+    }
   },
   {
     "id": "writing",
