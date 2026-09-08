@@ -4509,6 +4509,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "hoop::굴렁쇠를 뛰어넘음": "뛰어넘 통과 빠져나",
   "hornet::말벌을 봄": "날아다 보였 한마리",
   "hornet::처녀가 말벌에 쏘임": "처녀 아가씨 벌집",
+  "hornet::말벌에 쏘임": "질투와 미움",
+  "hornet::말벌을 죽임": "죽였",
   "horoscope::점성술사가 별점을 봐 줌": "점성술사 봐줬 뽑아",
   "horoscope::별을 짚어 주며 운명을 읽어 줌": "짚어 운명을 읽어",
   "horseshoe::편자를 봄": "반짝이 놓인",
@@ -6530,5 +6532,12 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "warts::사마귀를 치료함": "치료",
   "washboard::빨래판을 봄": "그냥",
   "washboard::여자가 빨래판을 쓰는 것을 봄": "여자가",
-  "washboard::부서진 빨래판을 봄": "부서진"
+  "washboard::부서진 빨래판을 봄": "부서진",
+  "watch::시계 꿈을 꿈": "그냥",
+  "watch::시계를 봐서 시간을 확인함": "시간을",
+  "watch::시계를 깨뜨림": "깨뜨",
+  "watch::시계 유리를 떨어뜨림": "유리를",
+  "watch::여자가 시계를 잃어버림": "잃어버",
+  "watch::시계를 훔치는 상상을 함": "훔치는",
+  "watch::시계를 선물함": "선물"
 };

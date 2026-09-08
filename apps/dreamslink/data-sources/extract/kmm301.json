@@ -1,0 +1,59 @@
+[
+  {
+    "id": "wasteland",
+    "aliases": [
+      "황무지가",
+      "황무지를"
+    ],
+    "aliases_en": [
+      "waste places",
+      "wasteland"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "squandering",
+    "aliases": [
+      "낭비가",
+      "낭비를",
+      "낭비함",
+      "낭비했"
+    ],
+    "aliases_en": [
+      "wasting your fortune",
+      "squandering"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "watch",
+    "aliases": [
+      "시계가",
+      "시계를"
+    ],
+    "aliases_en": [
+      "watch",
+      "a watch"
+    ],
+    "contexts": {
+      "시계 꿈을 꿈": "그냥",
+      "시계를 봐서 시간을 확인함": "시간을",
+      "시계를 깨뜨림": "깨뜨",
+      "시계 유리를 떨어뜨림": "유리를",
+      "여자가 시계를 잃어버림": "잃어버",
+      "시계를 훔치는 상상을 함": "훔치는",
+      "시계를 선물함": "선물"
+    },
+    "contexts_en": {
+      "시계 꿈을 꿈": "prosperous speculations",
+      "시계를 봐서 시간을 확인함": "time rivalry defeated",
+      "시계를 깨뜨림": "break distress loss",
+      "시계 유리를 떨어뜨림": "crystal drop carelessness",
+      "여자가 시계를 잃어버림": "woman lose domestic unhappiness",
+      "시계를 훔치는 상상을 함": "steal violent enemy reputation",
+      "시계를 선물함": "present decline recreations"
+    }
+  }
+]

@@ -8366,5 +8366,17 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "washboard": [
     "washboard",
     "a washboard"
+  ],
+  "wasteland": [
+    "waste places",
+    "wasteland"
+  ],
+  "squandering": [
+    "wasting your fortune",
+    "squandering"
+  ],
+  "watch": [
+    "watch",
+    "a watch"
   ]
 };

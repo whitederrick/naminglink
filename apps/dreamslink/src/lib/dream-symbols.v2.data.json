@@ -227,6 +227,7 @@
     "m3.json",
     "m30.json",
     "m300.json",
+    "m301.json",
     "m31.json",
     "m32.json",
     "m33.json",
@@ -37416,6 +37417,123 @@
       ]
     },
     {
+      "id": "watch",
+      "term_ko": "시계",
+      "term_en": "watch",
+      "aliases": [
+        "시계가",
+        "시계를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "시계 꿈을 꿈",
+          "interpretation_ko": "잘 짜인 투기로 번창할 조짐",
+          "interpretation_en": "denotes you will be prosperous in well-directed speculations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Watch",
+              "original": "To dream of a watch, denotes you will be prosperous in\nwell-directed speculations.",
+              "translation_ko": "시계 꿈은, 잘 짜인 투기로 번창할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "시계를 봐서 시간을 확인함",
+          "interpretation_ko": "경쟁으로 애쓴 일이 꺾일 조짐",
+          "interpretation_en": "your efforts will be defeated by rivalry",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Watch",
+              "original": "To look at the time of one,\nyour efforts will be defeated by rivalry.",
+              "translation_ko": "시계를 봐서 시간을 확인하는 꿈은, 경쟁으로 애쓴 일이 꺾일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "시계를 깨뜨림",
+          "interpretation_ko": "고통과 손실이 닥칠 조짐",
+          "interpretation_en": "there will be distress and loss menacing you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Watch",
+              "original": "To break one,\nthere will be distress and loss menacing you.",
+              "translation_ko": "시계를 깨뜨리는 꿈은, 고통과 손실이 닥칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "시계 유리를 떨어뜨림",
+          "interpretation_ko": "부주의나 불쾌한 사귐을 예고하는 조짐",
+          "interpretation_en": "foretells carelessness, or unpleasant companionship",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Watch",
+              "original": "To drop the crystal of one, foretells carelessness,\nor unpleasant companionship.",
+              "translation_ko": "시계 유리를 떨어뜨리는 꿈은, 부주의나 불쾌한 사귐을 예고하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 시계를 잃어버림",
+          "interpretation_ko": "가정의 다툼으로 불행해질 조짐",
+          "interpretation_en": "signifies domestic disturbances will produce unhappiness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Watch",
+              "original": "For a woman to lose one,\nsignifies domestic disturbances will produce unhappiness.",
+              "translation_ko": "여자가 시계를 잃어버리는 꿈은, 가정의 다툼으로 불행해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "시계를 훔치는 상상을 함",
+          "interpretation_ko": "제 평판을 공격할 사나운 적이 있을 조짐",
+          "interpretation_en": "you will have a violent enemy who will attack your reputation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Watch",
+              "original": "To imagine you steal one, you will have a violent enemy who will\nattack your reputation.",
+              "translation_ko": "시계를 훔치는 상상을 하는 꿈은, 제 평판을 공격할 사나운 적이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "시계를 선물함",
+          "interpretation_ko": "품위 없는 오락을 좇느라 관심이 시들해질 조짐",
+          "interpretation_en": "denotes you will suffer your interest to decline in the pursuance of undignified recreations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Watch",
+              "original": "To make a present of one, denotes you will suffer your interest\nto decline in the pursuance of undignified recreations.",
+              "translation_ko": "시계를 선물하는 꿈은, 품위 없는 오락을 좇느라 관심이 시들해질 조짐이다"
+            }
+          ]
+        }
+      ],
+      "label_ko": "시계(손목시계)"
+    },
+    {
       "id": "wind",
       "term_ko": "바람",
       "term_en": "wind",
@@ -65066,6 +65184,81 @@
               "locator": "Heaven",
               "original": "To dream of the Heavenly City, denotes a contented and spiritual nature, and trouble will do you small harm.",
               "translation_ko": "하늘나라의 성을 꿈꾸면, 넉넉하고 맑은 마음을 뜻하며 걱정거리가 크게 해롭지 않다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hornet",
+      "term_ko": "말벌",
+      "term_en": "hornet",
+      "aliases": [
+        "말벌",
+        "말벌집",
+        "땅벌"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "말벌을 봄",
+          "interpretation_ko": "오래된 벗과 사이가 끊기고 돈을 잃을 흉한 조짐",
+          "interpretation_en": "signals disruption to lifelong friendship, and loss of money",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hornet",
+              "original": "To dream of a hornet, signals disruption to lifelong friendship, and loss of money.",
+              "translation_ko": "말벌 꿈은, 평생 벗과의 사이가 끊기고 돈을 잃음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "말벌에 쏘임",
+          "interpretation_ko": "질투와 미움을 느낄 조짐",
+          "interpretation_en": "you will feel the effect of envy and hatred",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wasp",
+              "original": "If one stings you, you will feel the effect of envy and hatred.",
+              "translation_ko": "말벌에 쏘이는 꿈은, 질투와 미움을 느낄 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "말벌을 죽임",
+          "interpretation_ko": "적을 억누르고 담대하게 제 권리를 지킬 조짐",
+          "interpretation_en": "you will be able to throttle your enemies, and fearlessly maintain your rights",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wasp",
+              "original": "To kill them, you will be able to throttle your enemies,\nand fearlessly maintain your rights.",
+              "translation_ko": "말벌을 죽이는 꿈은, 적을 억누르고 담대하게 제 권리를 지킬 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 말벌에 쏘임",
+          "interpretation_ko": "시샘하는 여인들이 사모하는 이들 앞에서 흠을 잡을 흉한 조짐",
+          "interpretation_en": "foretells that many envious women will seek to disparage her before her admirers",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Hornet",
+              "original": "For a young woman to dream that one stings her, or she is in a nest of them, foretells that many envious women will seek to disparage her before her admirers.",
+              "translation_ko": "처녀가 말벌에 쏘이거나 말벌집 안에 있는 꿈은, 시샘하는 여인들이 사모하는 이들 앞에서 그를 흠잡으려 함을 뜻한다"
             }
           ]
         }
@@ -100178,7 +100371,8 @@
             }
           ]
         }
-      ]
+      ],
+      "label_ko": "시계(괘종시계)"
     },
     {
       "id": "cloth",
@@ -107560,53 +107754,6 @@
               "locator": "Hoop",
               "original": "To jump through, or see others jumping through hoops, denotes you will have discouraging outlooks, but you will overcome them with decisive victory.",
               "translation_ko": "굴렁쇠를 뛰어넘거나 남이 뛰어넘는 것을 보면, 앞이 막막해 보이나 끝내 뚜렷한 승리로 이겨 낸다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "hornet",
-      "term_ko": "말벌",
-      "term_en": "hornet",
-      "aliases": [
-        "말벌",
-        "말벌집",
-        "땅벌"
-      ],
-      "category": "animal",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "말벌을 봄",
-          "interpretation_ko": "오래된 벗과 사이가 끊기고 돈을 잃을 흉한 조짐",
-          "interpretation_en": "signals disruption to lifelong friendship, and loss of money",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Hornet",
-              "original": "To dream of a hornet, signals disruption to lifelong friendship, and loss of money.",
-              "translation_ko": "말벌 꿈은, 평생 벗과의 사이가 끊기고 돈을 잃음을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 말벌에 쏘임",
-          "interpretation_ko": "시샘하는 여인들이 사모하는 이들 앞에서 흠을 잡을 흉한 조짐",
-          "interpretation_en": "foretells that many envious women will seek to disparage her before her admirers",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Hornet",
-              "original": "For a young woman to dream that one stings her, or she is in a nest of them, foretells that many envious women will seek to disparage her before her admirers.",
-              "translation_ko": "처녀가 말벌에 쏘이거나 말벌집 안에 있는 꿈은, 시샘하는 여인들이 사모하는 이들 앞에서 그를 흠잡으려 함을 뜻한다"
             }
           ]
         }
@@ -134585,6 +134732,40 @@
       ]
     },
     {
+      "id": "squandering",
+      "term_ko": "낭비",
+      "term_en": "squandering",
+      "aliases": [
+        "낭비가",
+        "낭비를",
+        "낭비함",
+        "낭비했"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "재물을 낭비함",
+          "interpretation_ko": "가정의 근심에 불쾌하게 얽매일 조짐",
+          "interpretation_en": "denotes you will be unpleasantly encumbered with domestic cares",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waste",
+              "original": "To dream of wasting your fortune, denotes you will be unpleasantly\nencumbered with domestic cares.",
+              "translation_ko": "재물을 낭비하는 꿈은, 가정의 근심에 불쾌하게 얽매일 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "stall",
       "term_ko": "축사 칸",
       "term_en": "stall",
@@ -135909,6 +136090,38 @@
               "locator": "身體面目齒髮",
               "original": "梳頭洗面百憂去",
               "translation_ko": "머리를 빗고 얼굴을 씻으면 온갖 근심이 사라진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wasteland",
+      "term_ko": "황무지",
+      "term_en": "wasteland",
+      "aliases": [
+        "황무지가",
+        "황무지를"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "황무지를 헤맴",
+          "interpretation_ko": "밝던 성공의 전망이 의심과 실패로 바뀔 조짐",
+          "interpretation_en": "foreshadows doubt and failure, where promise of success was bright before you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waste",
+              "original": "To dream of wandering through waste places, foreshadows doubt and failure,\nwhere promise of success was bright before you.",
+              "translation_ko": "황무지를 헤매는 꿈은, 밝던 성공의 전망이 의심과 실패로 바뀔 조짐이다"
             }
           ]
         }

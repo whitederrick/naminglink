@@ -1,0 +1,21 @@
+{
+  "batch": 301,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Wasp",
+      "text": "Wasps, if seen in dreams, denotes that enemies will scourge\nand spitefully villify you.\n\nIf one stings you, you will feel the effect of envy and hatred.\nTo kill them, you will be able to throttle your enemies,\nand fearlessly maintain your rights.",
+      "note": "기존 hornet(말벌) 상징에 합쳤다 — 이미 aliases_en에 \"wasp\"를 쥐고 있었다. 첫 문장(그냥 말벌을 봄)은 기존 「말벌을 봄」과 같은 그림이라 §31로 건너뛰고, 나머지 둘만 넣는다"
+    },
+    {
+      "headword": "Waste",
+      "text": "To dream of wandering through waste places, foreshadows doubt and failure,\nwhere promise of success was bright before you.\n\nTo dream of wasting your fortune, denotes you will be unpleasantly\nencumbered with domestic cares.",
+      "note": "두 문장의 그림이 서로 달라(황무지를 헤맴 vs 재물을 낭비함) 새 상징 둘로 가른다 — 황무지(wasteland)·낭비(squandering)"
+    },
+    {
+      "headword": "Watch",
+      "text": "To dream of a watch, denotes you will be prosperous in\nwell-directed speculations.  To look at the time of one,\nyour efforts will be defeated by rivalry.  To break one,\nthere will be distress and loss menacing you.\n\nTo drop the crystal of one, foretells carelessness,\nor unpleasant companionship.  For a woman to lose one,\nsignifies domestic disturbances will produce unhappiness.\nTo imagine you steal one, you will have a violent enemy who will\nattack your reputation.\n\nTo make a present of one, denotes you will suffer your interest\nto decline in the pursuance of undignified recreations.",
+      "note": "새 상징 시계(watch)"
+    }
+  ]
+}

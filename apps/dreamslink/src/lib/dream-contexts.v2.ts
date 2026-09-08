@@ -4505,6 +4505,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "hoop::굴렁쇠를 뛰어넘음": "jump jumping through discouraging overcome victory",
   "hornet::말벌을 봄": "disruption lifelong friendship loss money",
   "hornet::처녀가 말벌에 쏘임": "stings nest envious women disparage admirers",
+  "hornet::말벌에 쏘임": "envy hatred effect",
+  "hornet::말벌을 죽임": "kill throttle enemies rights",
   "horoscope::점성술사가 별점을 봐 줌": "drawn unexpected changes journey stranger",
   "horoscope::별을 짚어 주며 운명을 읽어 줌": "stars pointed fate read disappointments await",
   "horseshoe::편자를 봄": "advance lucky engagements",
@@ -6526,5 +6528,12 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "warts::사마귀를 치료함": "doctor struggle ward danger",
   "washboard::빨래판을 봄": "embarrassment indicative",
   "washboard::여자가 빨래판을 쓰는 것을 봄": "woman rob energy fortune",
-  "washboard::부서진 빨래판을 봄": "broken grief disgraceful"
+  "washboard::부서진 빨래판을 봄": "broken grief disgraceful",
+  "watch::시계 꿈을 꿈": "prosperous speculations",
+  "watch::시계를 봐서 시간을 확인함": "time rivalry defeated",
+  "watch::시계를 깨뜨림": "break distress loss",
+  "watch::시계 유리를 떨어뜨림": "crystal drop carelessness",
+  "watch::여자가 시계를 잃어버림": "woman lose domestic unhappiness",
+  "watch::시계를 훔치는 상상을 함": "steal violent enemy reputation",
+  "watch::시계를 선물함": "present decline recreations"
 };

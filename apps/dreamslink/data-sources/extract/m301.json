@@ -1,0 +1,167 @@
+[
+  {
+    "term_ko": "말벌",
+    "term_en": "hornet",
+    "context": "말벌에 쏘임",
+    "interpretation_ko": "질투와 미움을 느낄 조짐",
+    "interpretation_en": "you will feel the effect of envy and hatred",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Wasp",
+      "original": "If one stings you, you will feel the effect of envy and hatred.",
+      "translation_ko": "말벌에 쏘이는 꿈은, 질투와 미움을 느낄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "말벌",
+    "term_en": "hornet",
+    "context": "말벌을 죽임",
+    "interpretation_ko": "적을 억누르고 담대하게 제 권리를 지킬 조짐",
+    "interpretation_en": "you will be able to throttle your enemies, and fearlessly maintain your rights",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Wasp",
+      "original": "To kill them, you will be able to throttle your enemies,\nand fearlessly maintain your rights.",
+      "translation_ko": "말벌을 죽이는 꿈은, 적을 억누르고 담대하게 제 권리를 지킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "황무지",
+    "term_en": "wasteland",
+    "context": "황무지를 헤맴",
+    "interpretation_ko": "밝던 성공의 전망이 의심과 실패로 바뀔 조짐",
+    "interpretation_en": "foreshadows doubt and failure, where promise of success was bright before you",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Waste",
+      "original": "To dream of wandering through waste places, foreshadows doubt and failure,\nwhere promise of success was bright before you.",
+      "translation_ko": "황무지를 헤매는 꿈은, 밝던 성공의 전망이 의심과 실패로 바뀔 조짐이다"
+    }
+  },
+  {
+    "term_ko": "낭비",
+    "term_en": "squandering",
+    "context": "재물을 낭비함",
+    "interpretation_ko": "가정의 근심에 불쾌하게 얽매일 조짐",
+    "interpretation_en": "denotes you will be unpleasantly encumbered with domestic cares",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Waste",
+      "original": "To dream of wasting your fortune, denotes you will be unpleasantly\nencumbered with domestic cares.",
+      "translation_ko": "재물을 낭비하는 꿈은, 가정의 근심에 불쾌하게 얽매일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "시계",
+    "term_en": "watch",
+    "context": "시계 꿈을 꿈",
+    "interpretation_ko": "잘 짜인 투기로 번창할 조짐",
+    "interpretation_en": "denotes you will be prosperous in well-directed speculations",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Watch",
+      "original": "To dream of a watch, denotes you will be prosperous in\nwell-directed speculations.",
+      "translation_ko": "시계 꿈은, 잘 짜인 투기로 번창할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "시계",
+    "term_en": "watch",
+    "context": "시계를 봐서 시간을 확인함",
+    "interpretation_ko": "경쟁으로 애쓴 일이 꺾일 조짐",
+    "interpretation_en": "your efforts will be defeated by rivalry",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Watch",
+      "original": "To look at the time of one,\nyour efforts will be defeated by rivalry.",
+      "translation_ko": "시계를 봐서 시간을 확인하는 꿈은, 경쟁으로 애쓴 일이 꺾일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "시계",
+    "term_en": "watch",
+    "context": "시계를 깨뜨림",
+    "interpretation_ko": "고통과 손실이 닥칠 조짐",
+    "interpretation_en": "there will be distress and loss menacing you",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Watch",
+      "original": "To break one,\nthere will be distress and loss menacing you.",
+      "translation_ko": "시계를 깨뜨리는 꿈은, 고통과 손실이 닥칠 조짐이다"
+    }
+  },
+  {
+    "term_ko": "시계",
+    "term_en": "watch",
+    "context": "시계 유리를 떨어뜨림",
+    "interpretation_ko": "부주의나 불쾌한 사귐을 예고하는 조짐",
+    "interpretation_en": "foretells carelessness, or unpleasant companionship",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Watch",
+      "original": "To drop the crystal of one, foretells carelessness,\nor unpleasant companionship.",
+      "translation_ko": "시계 유리를 떨어뜨리는 꿈은, 부주의나 불쾌한 사귐을 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "시계",
+    "term_en": "watch",
+    "context": "여자가 시계를 잃어버림",
+    "interpretation_ko": "가정의 다툼으로 불행해질 조짐",
+    "interpretation_en": "signifies domestic disturbances will produce unhappiness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Watch",
+      "original": "For a woman to lose one,\nsignifies domestic disturbances will produce unhappiness.",
+      "translation_ko": "여자가 시계를 잃어버리는 꿈은, 가정의 다툼으로 불행해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "시계",
+    "term_en": "watch",
+    "context": "시계를 훔치는 상상을 함",
+    "interpretation_ko": "제 평판을 공격할 사나운 적이 있을 조짐",
+    "interpretation_en": "you will have a violent enemy who will attack your reputation",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Watch",
+      "original": "To imagine you steal one, you will have a violent enemy who will\nattack your reputation.",
+      "translation_ko": "시계를 훔치는 상상을 하는 꿈은, 제 평판을 공격할 사나운 적이 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "시계",
+    "term_en": "watch",
+    "context": "시계를 선물함",
+    "interpretation_ko": "품위 없는 오락을 좇느라 관심이 시들해질 조짐",
+    "interpretation_en": "denotes you will suffer your interest to decline in the pursuance of undignified recreations",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Watch",
+      "original": "To make a present of one, denotes you will suffer your interest\nto decline in the pursuance of undignified recreations.",
+      "translation_ko": "시계를 선물하는 꿈은, 품위 없는 오락을 좇느라 관심이 시들해질 조짐이다"
+    }
+  }
+]

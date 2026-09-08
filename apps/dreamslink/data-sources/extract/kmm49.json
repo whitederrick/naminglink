@@ -71,11 +71,15 @@
     ],
     "contexts": {
       "말벌을 봄": "날아다 보였 한마리",
-      "처녀가 말벌에 쏘임": "처녀 아가씨 벌집"
+      "처녀가 말벌에 쏘임": "처녀 아가씨 벌집",
+      "말벌에 쏘임": "질투와 미움",
+      "말벌을 죽임": "죽였"
     },
     "contexts_en": {
       "말벌을 봄": "disruption lifelong friendship loss money",
-      "처녀가 말벌에 쏘임": "stings nest envious women disparage admirers"
+      "처녀가 말벌에 쏘임": "stings nest envious women disparage admirers",
+      "말벌에 쏘임": "envy hatred effect",
+      "말벌을 죽임": "kill throttle enemies rights"
     }
   },
   {
