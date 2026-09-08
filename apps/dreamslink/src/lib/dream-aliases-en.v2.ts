@@ -8575,5 +8575,23 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "wreck",
     "a wreck",
     "shipwreck"
+  ],
+  "yacht": [
+    "yacht",
+    "a yacht"
+  ],
+  "yankee": [
+    "yankee",
+    "a yankee"
+  ],
+  "yard-stick": [
+    "yard stick",
+    "a yard stick",
+    "yardstick"
+  ],
+  "yawning": [
+    "yawning",
+    "yawn",
+    "yawned"
   ]
 };

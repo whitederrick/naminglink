@@ -1,0 +1,72 @@
+[
+  {
+    "id": "yacht",
+    "aliases": [
+      "요트가",
+      "요트를"
+    ],
+    "aliases_en": [
+      "yacht",
+      "a yacht"
+    ],
+    "contexts": {
+      "요트를 봄": "그냥",
+      "좌초한 요트를 봄": "좌초 좌초한"
+    },
+    "contexts_en": {
+      "요트를 봄": "happy recreation encumbrances",
+      "좌초한 요트를 봄": "stranded miscarriage"
+    }
+  },
+  {
+    "id": "yankee",
+    "aliases": [
+      "미국인이",
+      "미국인을",
+      "미국 사람"
+    ],
+    "aliases_en": [
+      "yankee",
+      "a yankee"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "yard-stick",
+    "aliases": [
+      "줄자가",
+      "줄자를",
+      "자로 재"
+    ],
+    "aliases_en": [
+      "yard stick",
+      "a yard stick",
+      "yardstick"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "yawning",
+    "aliases": [
+      "하품을",
+      "하품이",
+      "하품하",
+      "하품했"
+    ],
+    "aliases_en": [
+      "yawning",
+      "yawn",
+      "yawned"
+    ],
+    "contexts": {
+      "자신이 하품함": "그냥",
+      "남이 하품하는 것을 봄": "남이 남들이 벗들이"
+    },
+    "contexts_en": {
+      "자신이 하품함": "vain health contentment",
+      "남이 하품하는 것을 봄": "friends miserable sickness"
+    }
+  }
+]

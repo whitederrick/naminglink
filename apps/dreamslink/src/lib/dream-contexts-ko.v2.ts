@@ -1748,6 +1748,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "thread::실 꿈을 꿈": "그냥",
   "thread::실이 끊어진 것을 봄": "끊어진 끊긴",
   "thread::실타래를 봄": "얽혀",
+  "thread::털실 꿈을 꿈": "털실",
+  "thread::젊은 여성이 털실로 일함": "여성이 처녀가 자랑스레",
   "being-humiliated::남에게 천대를 받음": "받았다 당했다",
   "being-humiliated::남을 무시하거나 소홀히 대함": "무시하거나 소홀히 음침하고",
   "being-taught-letters::누군가 글을 가르쳐 줌": "가르쳐 가르치 스승이 선생님",
@@ -6705,5 +6707,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "wool::더럽거나 지저분한 양모를 봄": "더럽거나 지저분한 지저분",
   "wound::자신이 상처 입음": "자신이 스스로 제가",
   "wound::남이 상처 입은 것을 봄": "남이 남들이 다른사람",
-  "wound::상처를 돌보거나 싸맴": "돌보 싸매 치료"
+  "wound::상처를 돌보거나 싸맴": "돌보 싸매 치료",
+  "yacht::요트를 봄": "그냥",
+  "yacht::좌초한 요트를 봄": "좌초 좌초한",
+  "yawning::자신이 하품함": "그냥",
+  "yawning::남이 하품하는 것을 봄": "남이 남들이 벗들이"
 };

@@ -808,7 +808,8 @@
     "aliases": [
       "실타래",
       "명주실",
-      "실뭉치"
+      "실뭉치",
+      "털실"
     ],
     "aliases_en": [
       "threads",
@@ -820,14 +821,18 @@
       "실을 얻음": "얻었 생겼 받았",
       "실 꿈을 꿈": "그냥",
       "실이 끊어진 것을 봄": "끊어진 끊긴",
-      "실타래를 봄": "얽혀"
+      "실타래를 봄": "얽혀",
+      "털실 꿈을 꿈": "털실",
+      "젊은 여성이 털실로 일함": "여성이 처녀가 자랑스레"
     },
     "contexts_en": {
       "실과 명주를 찾음": "silk searching looking found",
       "실을 얻음": "obtained received",
       "실 꿈을 꿈": "fortune intricate paths",
       "실이 끊어진 것을 봄": "broken faithlessness loss",
-      "실타래를 봄": "complications overcome"
+      "실타래를 봄": "complications overcome",
+      "털실 꿈을 꿈": "industrious companion home",
+      "젊은 여성이 털실로 일함": "recognized worthy wife"
     }
   },
   {

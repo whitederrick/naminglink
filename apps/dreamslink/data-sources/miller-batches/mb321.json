@@ -1,0 +1,31 @@
+{
+  "batch": 321,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Yacht",
+      "text": "To see a yacht in a dream, denotes happy recreation away\nfrom business and troublesome encumbrances.  A stranded one,\nrepresents miscarriage of entertaining engagements.",
+      "note": "새 상징 요트(yacht). 밀러 W 항목이 끝나고 Y 항목이 시작한다(X 항목은 원문에 없음)."
+    },
+    {
+      "headword": "Yankee",
+      "text": "To dream of a Yankee, foretells that you will remain loyal\nand true to your promise and duty, but if you are not careful\nyou will be outwitted in some transaction.",
+      "note": "새 상징 미국인(yankee) — 지역·국적을 가리키는 중립적인 말이라(§31의 비하 갈래와 다름) 그대로 옮겼다. 한 문장 안에 두 절(신의를 지킴 / 부주의하면 속음)이 이어져 있어 하나의 문맥으로 묶었다."
+    },
+    {
+      "headword": "Yard Stick",
+      "text": "To dream of a yard stick, foretells much anxiety will possess you,\nthough your affairs assume unusual activity.",
+      "note": "새 상징 줄자(yard-stick)."
+    },
+    {
+      "headword": "Yarn",
+      "text": "To dream of yarn, denotes success in your business and an industrious\ncompanion in your home.\n\nFor a young woman to dream that she works with yarn, foretells that she\nwill be proudly recognized by a worthy man as his wife.",
+      "note": "기존 thread(실, 이미 aliases_en \"yarn\"을 쥐고 있었음)에 문맥 둘을 나눠 붙였다."
+    },
+    {
+      "headword": "Yawning",
+      "text": "If you yawn in your dreams, you will search in vain for\nhealth and contentment.\n\nTo see others yawning, foretells that you will see some of your friends\nin a miserable state.  Sickness will prevent them from their usual labors.",
+      "note": "새 상징 하품(yawning)."
+    }
+  ]
+}

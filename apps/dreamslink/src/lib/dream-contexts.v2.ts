@@ -1744,6 +1744,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "thread::실 꿈을 꿈": "fortune intricate paths",
   "thread::실이 끊어진 것을 봄": "broken faithlessness loss",
   "thread::실타래를 봄": "complications overcome",
+  "thread::털실 꿈을 꿈": "industrious companion home",
+  "thread::젊은 여성이 털실로 일함": "recognized worthy wife",
   "being-humiliated::남에게 천대를 받음": "auspicious sign",
   "being-humiliated::남을 무시하거나 소홀히 대함": "friend morose repellent",
   "being-taught-letters::누군가 글을 가르쳐 줌": "someone teaching instructed",
@@ -6701,5 +6703,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "wool::더럽거나 지저분한 양모를 봄": "soiled dirty detest",
   "wound::자신이 상처 입음": "distress unfavorable business",
   "wound::남이 상처 입은 것을 봄": "others injustice friends",
-  "wound::상처를 돌보거나 싸맴": "relieve dress congratulate"
+  "wound::상처를 돌보거나 싸맴": "relieve dress congratulate",
+  "yacht::요트를 봄": "happy recreation encumbrances",
+  "yacht::좌초한 요트를 봄": "stranded miscarriage",
+  "yawning::자신이 하품함": "vain health contentment",
+  "yawning::남이 하품하는 것을 봄": "friends miserable sickness"
 };

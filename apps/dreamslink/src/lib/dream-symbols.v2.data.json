@@ -249,6 +249,7 @@
     "m319.json",
     "m32.json",
     "m320.json",
+    "m321.json",
     "m33.json",
     "m34.json",
     "m35.json",
@@ -38007,6 +38008,125 @@
       ]
     },
     {
+      "id": "thread",
+      "term_ko": "실",
+      "term_en": "thread",
+      "aliases": [
+        "실타래",
+        "명주실",
+        "실뭉치",
+        "털실"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "실 꿈을 꿈",
+          "interpretation_ko": "복잡한 길 너머에 행운이 있을 조짐",
+          "interpretation_en": "your fortune lies beyond intricate paths",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Thread",
+              "original": "To dream of thread, denotes that your fortune lies beyond intricate paths.",
+              "translation_ko": "실 꿈은, 복잡한 길 너머에 행운이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "실이 끊어진 것을 봄",
+          "interpretation_ko": "벗의 신의 없음으로 손실을 입을 조짐",
+          "interpretation_en": "you will suffer loss through the faithlessness of friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Thread",
+              "original": "To see broken threads, you will suffer loss through the faithlessness of friends.",
+              "translation_ko": "실이 끊어진 것을 보는 꿈은, 벗의 신의 없음으로 손실을 입을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "실타래를 봄",
+          "interpretation_ko": "사업이 얽혀 감당하기 어려워질 조짐",
+          "interpretation_en": "warns you that your business is assuming complications which will be hard to overcome",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Twine",
+              "original": "To see twine in your dream, warns you that your business is assuming complications which will be hard to overcome.",
+              "translation_ko": "실타래를 보는 꿈은, 사업이 얽혀 감당하기 어려워질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "털실 꿈을 꿈",
+          "interpretation_ko": "사업이 잘되고 집안에 부지런한 동반자가 있을 조짐",
+          "interpretation_en": "denotes success in your business and an industrious companion in your home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Yarn",
+              "original": "To dream of yarn, denotes success in your business and an industrious\ncompanion in your home.",
+              "translation_ko": "털실 꿈은, 사업이 잘되고 집안에 부지런한 동반자가 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 털실로 일함",
+          "interpretation_ko": "훌륭한 남자에게 자랑스레 아내로 인정받을 조짐",
+          "interpretation_en": "she will be proudly recognized by a worthy man as his wife",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Yarn",
+              "original": "For a young woman to dream that she works with yarn, foretells that she\nwill be proudly recognized by a worthy man as his wife.",
+              "translation_ko": "젊은 여성이 털실로 일하는 꿈은, 훌륭한 남자에게 자랑스레 아내로 인정받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "실과 명주를 찾음",
+          "interpretation_ko": "식구가 늘어날 조짐",
+          "interpretation_en": "a sign that the household will grow",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "金銀珠玉絹帛",
+              "original": "尋絲絹主進入口",
+              "translation_ko": "실과 명주를 찾으면 식구가 늘어난다"
+            }
+          ]
+        },
+        {
+          "context": "실을 얻음",
+          "interpretation_ko": "온갖 일이 이루어질 조짐",
+          "interpretation_en": "a sign that all matters come to fruition",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "鏡環釵釧梳篦",
+              "original": "針線得者百事就",
+              "translation_ko": "바늘과 실을 얻으면 온갖 일이 이루어진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "thumb",
       "term_ko": "엄지손가락",
       "term_en": "thumb",
@@ -56669,96 +56789,6 @@
               "locator": "Theater",
               "original": "To dream of trying to escape from one during a fire or other excitement, foretells that you will engage in some enterprise, which will be hazardous.",
               "translation_ko": "불이 나거나 소동이 일어 극장에서 달아나려 하는 꿈은, 위험을 무릅쓴 일에 나서게 될 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "thread",
-      "term_ko": "실",
-      "term_en": "thread",
-      "aliases": [
-        "실타래",
-        "명주실",
-        "실뭉치"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "실 꿈을 꿈",
-          "interpretation_ko": "복잡한 길 너머에 행운이 있을 조짐",
-          "interpretation_en": "your fortune lies beyond intricate paths",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Thread",
-              "original": "To dream of thread, denotes that your fortune lies beyond intricate paths.",
-              "translation_ko": "실 꿈은, 복잡한 길 너머에 행운이 있을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "실이 끊어진 것을 봄",
-          "interpretation_ko": "벗의 신의 없음으로 손실을 입을 조짐",
-          "interpretation_en": "you will suffer loss through the faithlessness of friends",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Thread",
-              "original": "To see broken threads, you will suffer loss through the faithlessness of friends.",
-              "translation_ko": "실이 끊어진 것을 보는 꿈은, 벗의 신의 없음으로 손실을 입을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "실타래를 봄",
-          "interpretation_ko": "사업이 얽혀 감당하기 어려워질 조짐",
-          "interpretation_en": "warns you that your business is assuming complications which will be hard to overcome",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Twine",
-              "original": "To see twine in your dream, warns you that your business is assuming complications which will be hard to overcome.",
-              "translation_ko": "실타래를 보는 꿈은, 사업이 얽혀 감당하기 어려워질 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "실과 명주를 찾음",
-          "interpretation_ko": "식구가 늘어날 조짐",
-          "interpretation_en": "a sign that the household will grow",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "金銀珠玉絹帛",
-              "original": "尋絲絹主進入口",
-              "translation_ko": "실과 명주를 찾으면 식구가 늘어난다"
-            }
-          ]
-        },
-        {
-          "context": "실을 얻음",
-          "interpretation_ko": "온갖 일이 이루어질 조짐",
-          "interpretation_en": "a sign that all matters come to fruition",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "鏡環釵釧梳篦",
-              "original": "針線得者百事就",
-              "translation_ko": "바늘과 실을 얻으면 온갖 일이 이루어진다"
             }
           ]
         }
@@ -125373,6 +125403,100 @@
       ]
     },
     {
+      "id": "yacht",
+      "term_ko": "요트",
+      "term_en": "yacht",
+      "aliases": [
+        "요트가",
+        "요트를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "요트를 봄",
+          "interpretation_ko": "사업과 성가신 부담에서 벗어나 즐겁게 쉴 조짐",
+          "interpretation_en": "denotes happy recreation away from business and troublesome encumbrances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Yacht",
+              "original": "To see a yacht in a dream, denotes happy recreation away\nfrom business and troublesome encumbrances.",
+              "translation_ko": "요트를 보는 꿈은, 사업과 성가신 부담에서 벗어나 즐겁게 쉴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "좌초한 요트를 봄",
+          "interpretation_ko": "즐거운 약속이 틀어질 조짐",
+          "interpretation_en": "represents miscarriage of entertaining engagements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Yacht",
+              "original": "A stranded one,\nrepresents miscarriage of entertaining engagements.",
+              "translation_ko": "좌초한 요트를 보는 꿈은, 즐거운 약속이 틀어질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yawning",
+      "term_ko": "하품",
+      "term_en": "yawning",
+      "aliases": [
+        "하품을",
+        "하품이",
+        "하품하",
+        "하품했"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "자신이 하품함",
+          "interpretation_ko": "건강과 만족을 찾아 헤매도 얻지 못할 조짐",
+          "interpretation_en": "you will search in vain for health and contentment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Yawning",
+              "original": "If you yawn in your dreams, you will search in vain for\nhealth and contentment.",
+              "translation_ko": "자신이 하품하는 꿈은, 건강과 만족을 찾아 헤매도 얻지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 하품하는 것을 봄",
+          "interpretation_ko": "벗들이 딱한 처지에 있음을 알게 될 조짐, 병으로 늘 하던 일을 못 하게 될 것",
+          "interpretation_en": "you will see some of your friends in a miserable state, sickness will prevent them from their usual labors",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Yawning",
+              "original": "To see others yawning, foretells that you will see some of your friends\nin a miserable state.  Sickness will prevent them from their usual labors.",
+              "translation_ko": "남이 하품하는 것을 보는 꿈은, 벗들이 딱한 처지에 있음을 알게 될 조짐이며 병으로 늘 하던 일을 못 하게 됨을 뜻한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "abroad",
       "term_ko": "외국",
       "term_en": "abroad",
@@ -139604,6 +139728,72 @@
               "locator": "文書筆硯兵器",
               "original": "詩文書寫字大吉",
               "translation_ko": "시문을 짓고 글씨를 쓰면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yankee",
+      "term_ko": "미국인",
+      "term_en": "yankee",
+      "aliases": [
+        "미국인이",
+        "미국인을",
+        "미국 사람"
+      ],
+      "category": "person",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "미국인 꿈을 꿈",
+          "interpretation_ko": "약속과 본분에 충실할 조짐이나, 조심하지 않으면 어떤 거래에서 속아 넘어갈 조짐",
+          "interpretation_en": "you will remain loyal and true to your promise and duty, but if you are not careful you will be outwitted in some transaction",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Yankee",
+              "original": "To dream of a Yankee, foretells that you will remain loyal\nand true to your promise and duty, but if you are not careful\nyou will be outwitted in some transaction.",
+              "translation_ko": "미국인 꿈은, 약속과 본분에 충실할 조짐이나 조심하지 않으면 어떤 거래에서 속아 넘어갈 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yard-stick",
+      "term_ko": "줄자",
+      "term_en": "yard-stick",
+      "aliases": [
+        "줄자가",
+        "줄자를",
+        "자로 재"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "줄자 꿈을 꿈",
+          "interpretation_ko": "일이 유달리 활기를 띠지만 근심에 시달릴 조짐",
+          "interpretation_en": "foretells much anxiety will possess you, though your affairs assume unusual activity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Yard Stick",
+              "original": "To dream of a yard stick, foretells much anxiety will possess you,\nthough your affairs assume unusual activity.",
+              "translation_ko": "줄자 꿈은, 일이 유달리 활기를 띠지만 근심에 시달릴 조짐이다"
             }
           ]
         }
