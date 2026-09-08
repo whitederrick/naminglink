@@ -1,0 +1,26 @@
+{
+  "batch": 307,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Wedding Clothes",
+      "text": "To see wedding clothes, signifies you will participate in pleasing\nworks and will meet new friends.  To see them soiled or in disorder,\nforetells you will lose close relations with some much-admired person.",
+      "note": "새 상징 혼례복(wedding clothes)"
+    },
+    {
+      "headword": "Wedding Ring",
+      "text": "For a woman to dream her wedding ring is bright and shining,\nforetells that she will be shielded from cares and infidelity.\n\nIf it should be lost or broken, much sadness will come into her life\nthrough death and uncongeniality.\n\nTo see a wedding ring on the hand of a friend, or some other person,\ndenotes that you will hold your vows lightly and will court illicit pleasure.",
+      "note": "새 상징 결혼반지(wedding ring)"
+    },
+    {
+      "headword": "Wedge",
+      "text": "To dream of a wedge, denotes you will have trouble in some business\narrangements which will be the cause of your separation from relatives.\n\nSeparation of lovers or friends may also be implied.",
+      "note": "새 상징 쐐기(wedge) — 기존 caterpillar(쐐기벌레)·nettles(쐐기풀)는 복합어라 bare \"쐐기\"와 안 겹친다. 둘째 문장(연인·벗과의 이별도 비칠 수 있음)은 첫 문장과 같은 그림의 부연이라 한 항목으로 묶는다"
+    },
+    {
+      "headword": "Wedlock",
+      "text": "To dream that you are in the bonds of an unwelcome wedlock, denotes you\nwill be unfortunately implicated in a disagreeable affair.\n\nFor a young woman to dream that she is dissatisfied with wedlock,\nforetells her inclinations will persuade her into scandalous escapades.\n\nFor a married woman to dream of her wedding day, warns her to fortify\nher strength and feelings against disappointment and grief.\nShe will also be involved in secret quarrels and jealousies.\nFor a woman to imagine she is pleased and securely cared for in wedlock,\nis a propitious dream.",
+      "note": "새 상징 혼인생활(wedlock) — \"굴레\"는 기존 bridle(말굴레)이 이미 bare \"굴레를\"·\"굴레가\"를 쥐고 있어 피하고 \"혼인생활\"로 세웠다. 혼례(사건 자체)와는 결이 달라 기존 wedding 상징에 합치지 않는다"
+    }
+  ]
+}

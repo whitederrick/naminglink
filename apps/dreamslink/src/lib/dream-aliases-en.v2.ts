@@ -8401,5 +8401,20 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "weather": [
     "weather"
+  ],
+  "wedding-clothes": [
+    "wedding clothes",
+    "wedding dress"
+  ],
+  "wedding-ring": [
+    "wedding ring",
+    "a wedding ring"
+  ],
+  "wedge": [
+    "wedge",
+    "a wedge"
+  ],
+  "wedlock": [
+    "wedlock"
   ]
 };

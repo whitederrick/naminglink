@@ -1,0 +1,79 @@
+[
+  {
+    "id": "wedding-clothes",
+    "aliases": [
+      "혼례복이",
+      "혼례복을"
+    ],
+    "aliases_en": [
+      "wedding clothes",
+      "wedding dress"
+    ],
+    "contexts": {
+      "혼례복을 봄": "그냥",
+      "혼례복이 더럽거나 흐트러져 있음을 봄": "더럽거나 흐트러져"
+    },
+    "contexts_en": {
+      "혼례복을 봄": "participate pleasing friends",
+      "혼례복이 더럽거나 흐트러져 있음을 봄": "soiled disorder admired"
+    }
+  },
+  {
+    "id": "wedding-ring",
+    "aliases": [
+      "결혼반지가",
+      "결혼반지를"
+    ],
+    "aliases_en": [
+      "wedding ring",
+      "a wedding ring"
+    ],
+    "contexts": {
+      "여성의 결혼반지가 밝고 빛남": "밝고 빛남",
+      "결혼반지를 잃어버리거나 깨뜨림": "잃어버 깨뜨",
+      "벗이나 다른 사람의 손에서 결혼반지를 봄": "가벼이"
+    },
+    "contexts_en": {
+      "여성의 결혼반지가 밝고 빛남": "bright shining shielded",
+      "결혼반지를 잃어버리거나 깨뜨림": "lost broken sadness death",
+      "벗이나 다른 사람의 손에서 결혼반지를 봄": "friend hand vows lightly"
+    }
+  },
+  {
+    "id": "wedge",
+    "aliases": [
+      "쐐기가",
+      "쐐기를"
+    ],
+    "aliases_en": [
+      "wedge",
+      "a wedge"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "wedlock",
+    "aliases": [
+      "혼인생활이",
+      "혼인생활을",
+      "혼인생활에",
+      "혼례일"
+    ],
+    "aliases_en": [
+      "wedlock"
+    ],
+    "contexts": {
+      "달갑잖은 혼인생활에 매여 있음을 봄": "달갑잖은",
+      "젊은 여성이 혼인생활에 불만족함을 봄": "불만족함",
+      "기혼 여성이 제 혼례일을 꿈꿈": "혼례일",
+      "여성이 혼인생활에서 기쁘고 안전하게 보살핌받는다고 여김": "기쁘고 안전하게"
+    },
+    "contexts_en": {
+      "달갑잖은 혼인생활에 매여 있음을 봄": "unwelcome bonds implicated",
+      "젊은 여성이 혼인생활에 불만족함을 봄": "dissatisfied escapades scandalous",
+      "기혼 여성이 제 혼례일을 꿈꿈": "wedding day fortify jealousies",
+      "여성이 혼인생활에서 기쁘고 안전하게 보살핌받는다고 여김": "pleased securely propitious"
+    }
+  }
+]

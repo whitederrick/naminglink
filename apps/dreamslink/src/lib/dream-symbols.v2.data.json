@@ -233,6 +233,7 @@
     "m304.json",
     "m305.json",
     "m306.json",
+    "m307.json",
     "m31.json",
     "m32.json",
     "m33.json",
@@ -74053,6 +74054,82 @@
       ]
     },
     {
+      "id": "wedlock",
+      "term_ko": "혼인생활",
+      "term_en": "wedlock",
+      "aliases": [
+        "혼인생활이",
+        "혼인생활을",
+        "혼인생활에",
+        "혼례일"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "달갑잖은 혼인생활에 매여 있음을 봄",
+          "interpretation_ko": "불쾌한 일에 뜻하지 않게 휘말릴 조짐",
+          "interpretation_en": "denotes you will be unfortunately implicated in a disagreeable affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wedlock",
+              "original": "To dream that you are in the bonds of an unwelcome wedlock, denotes you\nwill be unfortunately implicated in a disagreeable affair.",
+              "translation_ko": "달갑잖은 혼인생활에 매여 있음을 보는 꿈은, 불쾌한 일에 뜻하지 않게 휘말릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 혼인생활에 불만족함을 봄",
+          "interpretation_ko": "부끄러운 일탈로 이끌릴 조짐",
+          "interpretation_en": "foretells her inclinations will persuade her into scandalous escapades",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wedlock",
+              "original": "For a young woman to dream that she is dissatisfied with wedlock,\nforetells her inclinations will persuade her into scandalous escapades.",
+              "translation_ko": "젊은 여성이 혼인생활에 불만족함을 보는 꿈은, 부끄러운 일탈로 이끌릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "기혼 여성이 제 혼례일을 꿈꿈",
+          "interpretation_ko": "실망과 슬픔에 맞서 마음을 굳게 다지고, 비밀스러운 다툼과 질투에도 휘말릴 조짐",
+          "interpretation_en": "warns her to fortify her strength and feelings against disappointment and grief. She will also be involved in secret quarrels and jealousies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wedlock",
+              "original": "For a married woman to dream of her wedding day, warns her to fortify\nher strength and feelings against disappointment and grief.\nShe will also be involved in secret quarrels and jealousies.",
+              "translation_ko": "기혼 여성이 제 혼례일을 꿈꾸는 꿈은, 실망과 슬픔에 맞서 마음을 굳게 다지고 비밀스러운 다툼과 질투에도 휘말릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 혼인생활에서 기쁘고 안전하게 보살핌받는다고 여김",
+          "interpretation_ko": "상서로운 조짐",
+          "interpretation_en": "is a propitious dream",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wedlock",
+              "original": "For a woman to imagine she is pleased and securely cared for in wedlock,\nis a propitious dream.",
+              "translation_ko": "여성이 혼인생활에서 기쁘고 안전하게 보살핌받는다고 여기는 꿈은, 상서로운 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wheat-flour",
       "term_ko": "밀가루",
       "term_en": "wheat flour",
@@ -93321,6 +93398,66 @@
               "locator": "Washboard",
               "original": "A broken one, portends that you will come to grief and disgraceful\ndeeds through fast living.",
               "translation_ko": "부서진 빨래판을 보는 꿈은, 방탕한 생활로 슬픔과 부끄러운 일을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wedding-ring",
+      "term_ko": "결혼반지",
+      "term_en": "wedding ring",
+      "aliases": [
+        "결혼반지가",
+        "결혼반지를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여성의 결혼반지가 밝고 빛남",
+          "interpretation_ko": "근심과 부정에서 보호받을 조짐",
+          "interpretation_en": "foretells that she will be shielded from cares and infidelity",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wedding Ring",
+              "original": "For a woman to dream her wedding ring is bright and shining,\nforetells that she will be shielded from cares and infidelity.",
+              "translation_ko": "여성의 결혼반지가 밝고 빛나는 꿈은, 근심과 부정에서 보호받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "결혼반지를 잃어버리거나 깨뜨림",
+          "interpretation_ko": "죽음과 뜻이 안 맞음으로 삶에 슬픔이 들 조짐",
+          "interpretation_en": "much sadness will come into her life through death and uncongeniality",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wedding Ring",
+              "original": "If it should be lost or broken, much sadness will come into her life\nthrough death and uncongeniality.",
+              "translation_ko": "결혼반지를 잃어버리거나 깨뜨리는 꿈은, 죽음과 뜻이 안 맞음으로 삶에 슬픔이 들 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벗이나 다른 사람의 손에서 결혼반지를 봄",
+          "interpretation_ko": "맹세를 가벼이 여기고 부적절한 쾌락을 좇을 조짐",
+          "interpretation_en": "denotes that you will hold your vows lightly and will court illicit pleasure",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wedding Ring",
+              "original": "To see a wedding ring on the hand of a friend, or some other person,\ndenotes that you will hold your vows lightly and will court illicit pleasure.",
+              "translation_ko": "벗이나 다른 사람의 손에서 결혼반지를 보는 꿈은, 맹세를 가벼이 여기고 부적절한 쾌락을 좇을 조짐이다"
             }
           ]
         }
@@ -122689,6 +122826,52 @@
       ]
     },
     {
+      "id": "wedding-clothes",
+      "term_ko": "혼례복",
+      "term_en": "wedding clothes",
+      "aliases": [
+        "혼례복이",
+        "혼례복을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "혼례복을 봄",
+          "interpretation_ko": "즐거운 일에 함께하고 새 벗을 만날 조짐",
+          "interpretation_en": "signifies you will participate in pleasing works and will meet new friends",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wedding Clothes",
+              "original": "To see wedding clothes, signifies you will participate in pleasing\nworks and will meet new friends.",
+              "translation_ko": "혼례복을 보는 꿈은, 즐거운 일에 함께하고 새 벗을 만날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "혼례복이 더럽거나 흐트러져 있음을 봄",
+          "interpretation_ko": "존경하던 사람과의 가까운 관계를 잃을 조짐",
+          "interpretation_en": "foretells you will lose close relations with some much-admired person",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wedding Clothes",
+              "original": "To see them soiled or in disorder,\nforetells you will lose close relations with some much-admired person.",
+              "translation_ko": "혼례복이 더럽거나 흐트러져 있음을 보는 꿈은, 존경하던 사람과의 가까운 관계를 잃을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wicked-person",
       "term_ko": "악인",
       "term_en": "wicked person",
@@ -136705,6 +136888,38 @@
               "locator": "Waterfall",
               "original": "To dream of a waterfall, foretells that you will secure your wildest desire,\nand fortune will be exceedingly favorable to your progress.",
               "translation_ko": "폭포 꿈은, 가장 대담한 바람을 이루고 앞길에 운이 크게 따를 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wedge",
+      "term_ko": "쐐기",
+      "term_en": "wedge",
+      "aliases": [
+        "쐐기가",
+        "쐐기를"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "쐐기 꿈을 꿈",
+          "interpretation_ko": "사업 문제로 곤란을 겪어 친척과 멀어질 조짐 — 연인이나 벗과 멀어짐도 비칠 수 있다",
+          "interpretation_en": "denotes you will have trouble in some business arrangements which will be the cause of your separation from relatives. Separation of lovers or friends may also be implied",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wedge",
+              "original": "To dream of a wedge, denotes you will have trouble in some business\narrangements which will be the cause of your separation from relatives.\n\nSeparation of lovers or friends may also be implied.",
+              "translation_ko": "쐐기 꿈은, 사업 문제로 곤란을 겪어 친척과 멀어질 조짐이다 — 연인이나 벗과 멀어짐도 비칠 수 있다"
             }
           ]
         }

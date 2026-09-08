@@ -6566,5 +6566,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "weather::날씨 꿈을 꿈": "fluctuating tendencies progressing",
   "weather::기상청 보고서를 읽는다고 여김": "bureau abode deliberation benefited",
   "weather::날씨 마녀를 봄": "witch disagreeable family",
-  "weather::날씨 마녀들이 날씨를 부리는 것을 봄": "conjuring quarrels disappointment"
+  "weather::날씨 마녀들이 날씨를 부리는 것을 봄": "conjuring quarrels disappointment",
+  "wedding-clothes::혼례복을 봄": "participate pleasing friends",
+  "wedding-clothes::혼례복이 더럽거나 흐트러져 있음을 봄": "soiled disorder admired",
+  "wedding-ring::여성의 결혼반지가 밝고 빛남": "bright shining shielded",
+  "wedding-ring::결혼반지를 잃어버리거나 깨뜨림": "lost broken sadness death",
+  "wedding-ring::벗이나 다른 사람의 손에서 결혼반지를 봄": "friend hand vows lightly",
+  "wedlock::달갑잖은 혼인생활에 매여 있음을 봄": "unwelcome bonds implicated",
+  "wedlock::젊은 여성이 혼인생활에 불만족함을 봄": "dissatisfied escapades scandalous",
+  "wedlock::기혼 여성이 제 혼례일을 꿈꿈": "wedding day fortify jealousies",
+  "wedlock::여성이 혼인생활에서 기쁘고 안전하게 보살핌받는다고 여김": "pleased securely propitious"
 };
