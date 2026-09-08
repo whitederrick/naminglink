@@ -245,6 +245,7 @@
     "m315.json",
     "m316.json",
     "m317.json",
+    "m318.json",
     "m32.json",
     "m33.json",
     "m34.json",
@@ -20080,6 +20081,195 @@
               "locator": "地理山石樹木",
               "original": "手弄小石生貴子",
               "translation_ko": "손으로 작은 돌을 만지작거리면 귀한 자식을 낳는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "woman",
+      "term_ko": "여자",
+      "term_en": "woman",
+      "aliases": [
+        "여인",
+        "여성",
+        "아낙",
+        "부인"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "여자의 꿈을 꿈",
+          "interpretation_ko": "속임수에 휘말릴 조짐",
+          "interpretation_en": "foreshadows intrigue",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Women",
+              "original": "To dream of women, foreshadows intrigue.",
+              "translation_ko": "여자의 꿈은, 속임수에 휘말릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여자와 말다툼함",
+          "interpretation_ko": "책략에 넘어가 낭패를 볼 조짐",
+          "interpretation_en": "you will be outwitted and foiled",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Women",
+              "original": "To argue with one, foretells that you will be outwitted and foiled.",
+              "translation_ko": "여자와 말다툼하는 꿈은, 책략에 넘어가 낭패를 볼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "검은 머리에 파란 눈, 들창코인 여자를 봄",
+          "interpretation_ko": "이길 승산이 있던 경주에서 물러나게 될 조짐",
+          "interpretation_en": "definitely determines your withdrawal from a race in which you stood a showing for victory",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Women",
+              "original": "To see a dark-haired woman with blue eyes and a pug nose,\ndefinitely determines your withdrawal from a race in which you stood\na showing for victory.",
+              "translation_ko": "검은 머리에 파란 눈, 들창코인 여자를 보는 꿈은, 이길 승산이 있던 경주에서 물러나게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "적갈색 머리에 갈색 눈, 매부리코인 여자를 봄",
+          "interpretation_ko": "당혹감과 불안이 더해질 조짐",
+          "interpretation_en": "it adds to your perplexity and anxiety",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Women",
+              "original": "If she has auburn\nhair with this combination, it adds to your perplexity and anxiety.",
+              "translation_ko": "적갈색 머리에 갈색 눈, 매부리코인 여자를 보는 꿈은, 당혹감과 불안이 더해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "갈색 눈에 매부리코인 여자를 봄",
+          "interpretation_ko": "위험한 투기에 꾐에 빠질 조짐",
+          "interpretation_en": "you will be cajoled into a dangerous speculation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Women",
+              "original": "If she has brown eyes and a Roman nose,\nyou will be cajoled into a dangerous speculation.",
+              "translation_ko": "갈색 눈에 매부리코인 여자를 보는 꿈은, 위험한 투기에 꾐에 빠질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "금발인 여자를 봄",
+          "interpretation_ko": "모든 약속이 뜻에 맞고 즐거울 조짐",
+          "interpretation_en": "you will find that all your engagements will be pleasant and favorable to your inclinations",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Women",
+              "original": "If she is a blonde, you will find that all your engagements will\nbe pleasant and favorable to your inclinations.",
+              "translation_ko": "금발인 여자를 보는 꿈은, 모든 약속이 뜻에 맞고 즐거울 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여자와 함께 길을 감",
+          "interpretation_ko": "재물을 잃을 조짐",
+          "interpretation_en": "a sign of losing wealth",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "同婦人行主失財",
+              "translation_ko": "여자와 함께 길을 가면 재물을 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "여자를 품에 안음",
+          "interpretation_ko": "기쁜 일이 생길 조짐",
+          "interpretation_en": "a sign of a joyful event",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "抱婦人主有喜事",
+              "translation_ko": "여자를 안으면 기쁜 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "여자와 몸을 섞음",
+          "interpretation_ko": "요사스러운 재앙이 따를 조짐",
+          "interpretation_en": "a sign of an evil affliction",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "與婦人交有邪祟",
+              "translation_ko": "여자와 몸을 섞으면 사악한 빌미가 있다"
+            }
+          ]
+        },
+        {
+          "context": "여자와 나란히 앉음",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "與婦人共坐大吉",
+              "translation_ko": "여자와 함께 앉으면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "여자의 음부를 봄",
+          "interpretation_ko": "구설에 오를 조짐",
+          "interpretation_en": "a sign of gossip and disputes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "見婦人陰主口舌",
+              "translation_ko": "여자의 음부를 보면 구설이 있다"
+            }
+          ]
+        },
+        {
+          "context": "여자가 알몸으로 있음",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "婦人赤身主大吉",
+              "translation_ko": "여자가 벌거벗은 몸이면 크게 길하다"
             }
           ]
         }
@@ -47302,110 +47492,6 @@
               "locator": "Wine",
               "original": "For a young woman to dream of drinking wine, indicates she will marry\na wealthy gentleman, but withal honorable.",
               "translation_ko": "젊은 여성이 포도주를 마시는 꿈은, 부유하면서도 훌륭한 신사와 혼인할 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "woman",
-      "term_ko": "여자",
-      "term_en": "woman",
-      "aliases": [
-        "여인",
-        "여성",
-        "아낙",
-        "부인"
-      ],
-      "category": "person",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "여자와 함께 길을 감",
-          "interpretation_ko": "재물을 잃을 조짐",
-          "interpretation_en": "a sign of losing wealth",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "同婦人行主失財",
-              "translation_ko": "여자와 함께 길을 가면 재물을 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "여자를 품에 안음",
-          "interpretation_ko": "기쁜 일이 생길 조짐",
-          "interpretation_en": "a sign of a joyful event",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "抱婦人主有喜事",
-              "translation_ko": "여자를 안으면 기쁜 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "여자와 몸을 섞음",
-          "interpretation_ko": "요사스러운 재앙이 따를 조짐",
-          "interpretation_en": "a sign of an evil affliction",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "與婦人交有邪祟",
-              "translation_ko": "여자와 몸을 섞으면 사악한 빌미가 있다"
-            }
-          ]
-        },
-        {
-          "context": "여자와 나란히 앉음",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "與婦人共坐大吉",
-              "translation_ko": "여자와 함께 앉으면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "여자의 음부를 봄",
-          "interpretation_ko": "구설에 오를 조짐",
-          "interpretation_en": "a sign of gossip and disputes",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "見婦人陰主口舌",
-              "translation_ko": "여자의 음부를 보면 구설이 있다"
-            }
-          ]
-        },
-        {
-          "context": "여자가 알몸으로 있음",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "婦人赤身主大吉",
-              "translation_ko": "여자가 벌거벗은 몸이면 크게 길하다"
             }
           ]
         }

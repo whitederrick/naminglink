@@ -1,0 +1,11 @@
+{
+  "batch": 318,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Women",
+      "text": "To dream of women, foreshadows intrigue.\n\nTo argue with one, foretells that you will be outwitted and foiled.\n\nTo see a dark-haired woman with blue eyes and a pug nose,\ndefinitely determines your withdrawal from a race in which you stood\na showing for victory.  If she has brown eyes and a Roman nose,\nyou will be cajoled into a dangerous speculation.  If she has auburn\nhair with this combination, it adds to your perplexity and anxiety.\nIf she is a blonde, you will find that all your engagements will\nbe pleasant and favorable to your inclinations.",
+      "note": "문맥 여섯 개짜리 큰 표제어라 단독 배치로 뗌. 기존 woman(여자, zhougong 여섯 의미 — 전부 신체 접촉 계열)에 나눠 붙였다. 머리색·눈색·코 모양 조합 넷은 인물 묘사 판별어로 갈랐다(적갈색 조합은 갈색눈·매부리코 문구를 공유하므로 \"적갈색\" 하나로만 판별). 기본값 플립 수용(\"여자의 꿈을 꿈\"이 옛 \"여자와 함께 길을 감\"보다 조건 없이 더 막연함)."
+    }
+  ]
+}

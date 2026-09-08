@@ -1,0 +1,92 @@
+[
+  {
+    "term_ko": "여자",
+    "term_en": "woman",
+    "context": "여자의 꿈을 꿈",
+    "interpretation_ko": "속임수에 휘말릴 조짐",
+    "interpretation_en": "foreshadows intrigue",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Women",
+      "original": "To dream of women, foreshadows intrigue.",
+      "translation_ko": "여자의 꿈은, 속임수에 휘말릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "여자",
+    "term_en": "woman",
+    "context": "여자와 말다툼함",
+    "interpretation_ko": "책략에 넘어가 낭패를 볼 조짐",
+    "interpretation_en": "you will be outwitted and foiled",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Women",
+      "original": "To argue with one, foretells that you will be outwitted and foiled.",
+      "translation_ko": "여자와 말다툼하는 꿈은, 책략에 넘어가 낭패를 볼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "여자",
+    "term_en": "woman",
+    "context": "검은 머리에 파란 눈, 들창코인 여자를 봄",
+    "interpretation_ko": "이길 승산이 있던 경주에서 물러나게 될 조짐",
+    "interpretation_en": "definitely determines your withdrawal from a race in which you stood a showing for victory",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Women",
+      "original": "To see a dark-haired woman with blue eyes and a pug nose,\ndefinitely determines your withdrawal from a race in which you stood\na showing for victory.",
+      "translation_ko": "검은 머리에 파란 눈, 들창코인 여자를 보는 꿈은, 이길 승산이 있던 경주에서 물러나게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "여자",
+    "term_en": "woman",
+    "context": "적갈색 머리에 갈색 눈, 매부리코인 여자를 봄",
+    "interpretation_ko": "당혹감과 불안이 더해질 조짐",
+    "interpretation_en": "it adds to your perplexity and anxiety",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Women",
+      "original": "If she has auburn\nhair with this combination, it adds to your perplexity and anxiety.",
+      "translation_ko": "적갈색 머리에 갈색 눈, 매부리코인 여자를 보는 꿈은, 당혹감과 불안이 더해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "여자",
+    "term_en": "woman",
+    "context": "갈색 눈에 매부리코인 여자를 봄",
+    "interpretation_ko": "위험한 투기에 꾐에 빠질 조짐",
+    "interpretation_en": "you will be cajoled into a dangerous speculation",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Women",
+      "original": "If she has brown eyes and a Roman nose,\nyou will be cajoled into a dangerous speculation.",
+      "translation_ko": "갈색 눈에 매부리코인 여자를 보는 꿈은, 위험한 투기에 꾐에 빠질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "여자",
+    "term_en": "woman",
+    "context": "금발인 여자를 봄",
+    "interpretation_ko": "모든 약속이 뜻에 맞고 즐거울 조짐",
+    "interpretation_en": "you will find that all your engagements will be pleasant and favorable to your inclinations",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Women",
+      "original": "If she is a blonde, you will find that all your engagements will\nbe pleasant and favorable to your inclinations.",
+      "translation_ko": "금발인 여자를 보는 꿈은, 모든 약속이 뜻에 맞고 즐거울 조짐이다"
+    }
+  }
+]
