@@ -121,6 +121,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "storehouse::창고를 새로 지어 세움": "built building constructed erected",
   "storehouse::창고 안으로 들어감": "inside entered",
   "storehouse::창고가 무너짐": "collapsed crumbled ruined",
+  "storehouse::창고 꿈을 꿈": "successful enterprise",
+  "storehouse::빈 창고를 봄": "empty cheated foiled",
   "fine-toothed-comb::남이 참빗을 줌": "gave gift handed offered",
   "fine-toothed-comb::참빗을 봄": "saw looked",
   "fine-toothed-comb::참빗을 얻음": "obtained found acquired picked",
@@ -6507,5 +6509,13 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "war::전쟁 꿈을 꿈": "unfortunate business disorder strife",
   "war::젊은 여성이 연인이 전쟁에 나감을 봄": "lover goes detrimental character",
   "war::제 나라가 전쟁에서 패함을 봄": "country defeated revolution political",
-  "war::전쟁의 승리를 봄": "victory brisk harmonious"
+  "war::전쟁의 승리를 봄": "victory brisk harmonious",
+  "wardrobe::옷장 꿈을 꿈": "endangered richer",
+  "wardrobe::옷장이 초라하다고 여김": "scant strangers association",
+  "warrant::영장이 자신에게 송달됨": "served uneasiness standing profits",
+  "warrant::다른 사람에게 영장이 송달되는 것을 봄": "danger quarrels indignant wantonness",
+  "warts::제 몸에 사마귀가 남을 괴로워함": "troubled unable parry honor",
+  "warts::손에서 사마귀가 사라지는 것을 봄": "leaving hands overcome obstructions",
+  "warts::남에게 사마귀가 있음을 봄": "others bitter enemies",
+  "warts::사마귀를 치료함": "doctor struggle ward danger"
 };

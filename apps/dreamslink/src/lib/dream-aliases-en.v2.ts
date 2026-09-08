@@ -8350,5 +8350,17 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "war": [
     "war",
     "wars"
+  ],
+  "wardrobe": [
+    "wardrobe",
+    "a wardrobe"
+  ],
+  "warrant": [
+    "warrant",
+    "a warrant"
+  ],
+  "warts": [
+    "warts",
+    "a wart"
   ]
 };

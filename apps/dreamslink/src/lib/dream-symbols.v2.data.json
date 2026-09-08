@@ -223,6 +223,7 @@
     "m296.json",
     "m297.json",
     "m298.json",
+    "m299.json",
     "m3.json",
     "m30.json",
     "m31.json",
@@ -45441,6 +45442,111 @@
       ]
     },
     {
+      "id": "storehouse",
+      "term_ko": "창고",
+      "term_en": "storehouse",
+      "aliases": [
+        "곳간",
+        "곡간",
+        "저장고",
+        "헛간"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "창고 꿈을 꿈",
+          "interpretation_ko": "성공적인 사업을 나타내는 조짐",
+          "interpretation_en": "denotes for you a successful enterprise",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Warehouse",
+              "original": "To dream of a warehouse, denotes for you a successful enterprise.",
+              "translation_ko": "창고 꿈은, 성공적인 사업을 나타내는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빈 창고를 봄",
+          "interpretation_ko": "공들인 계획에서 속고 좌절할 조짐",
+          "interpretation_en": "is a sign that you will be cheated and foiled in some plan which you have given much thought and maneuvering",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Warehouse",
+              "original": "To see an empty one, is a sign that you will be cheated and foiled\nin some plan which you have given much thought and maneuvering.",
+              "translation_ko": "빈 창고를 보는 꿈은, 공들인 계획에서 속고 좌절할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "왕과 제후의 곳간에 들어감",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "入王侯府庫大吉",
+              "translation_ko": "왕과 제후의 곳간에 들어가면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "창고를 새로 지어 세움",
+          "interpretation_ko": "복과 녹이 올 조짐",
+          "interpretation_en": "a sign that blessings and prosperity will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "起蓋倉庫福祿至",
+              "translation_ko": "창고를 지으면 복록이 온다"
+            }
+          ]
+        },
+        {
+          "context": "창고 안으로 들어감",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "入倉庫中大吉昂",
+              "translation_ko": "창고 안에 들어가면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "창고가 무너짐",
+          "interpretation_ko": "온갖 일이 흉할 조짐",
+          "interpretation_en": "a sign that all matters will go badly",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "倉庫崩壞百事凶",
+              "translation_ko": "창고가 무너지면 온갖 일이 흉하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "sugar",
       "term_ko": "설탕",
       "term_en": "sugar",
@@ -71666,82 +71772,6 @@
       ]
     },
     {
-      "id": "storehouse",
-      "term_ko": "창고",
-      "term_en": "storehouse",
-      "aliases": [
-        "곳간",
-        "곡간",
-        "저장고",
-        "헛간"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "왕과 제후의 곳간에 들어감",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "入王侯府庫大吉",
-              "translation_ko": "왕과 제후의 곳간에 들어가면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "창고를 새로 지어 세움",
-          "interpretation_ko": "복과 녹이 올 조짐",
-          "interpretation_en": "a sign that blessings and prosperity will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "起蓋倉庫福祿至",
-              "translation_ko": "창고를 지으면 복록이 온다"
-            }
-          ]
-        },
-        {
-          "context": "창고 안으로 들어감",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "入倉庫中大吉昂",
-              "translation_ko": "창고 안에 들어가면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "창고가 무너짐",
-          "interpretation_ko": "온갖 일이 흉할 조짐",
-          "interpretation_en": "a sign that all matters will go badly",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "倉庫崩壞百事凶",
-              "translation_ko": "창고가 무너지면 온갖 일이 흉하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "street",
       "term_ko": "거리",
       "term_en": "street",
@@ -73251,6 +73281,80 @@
               "locator": "War",
               "original": "If of victory you dream, there will be brisk activity along business lines,\nand domesticity will be harmonious.",
               "translation_ko": "전쟁의 승리를 보는 꿈은, 사업에 활기가 돌고 가정이 화목해질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "warts",
+      "term_ko": "사마귀",
+      "term_en": "warts",
+      "aliases": [
+        "사마귀가",
+        "사마귀를"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "제 몸에 사마귀가 남을 괴로워함",
+          "interpretation_ko": "명예에 가해지는 공격을 제대로 막아내지 못할 조짐",
+          "interpretation_en": "you will be unable to successfully parry the thrusts made at your honor",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Warts",
+              "original": "If you are troubled with warts on your person, in dreams,\nyou will be unable to successfully parry the thrusts made\nat your honor.",
+              "translation_ko": "제 몸에 사마귀가 남을 괴로워하는 꿈은, 명예에 가해지는 공격을 제대로 막아내지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "손에서 사마귀가 사라지는 것을 봄",
+          "interpretation_ko": "불쾌한 방해를 이겨내고 재물을 얻을 조짐",
+          "interpretation_en": "foretells that you will overcome disagreeable obstructions to fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Warts",
+              "original": "To see them leaving your hands, foretells that you will overcome\ndisagreeable obstructions to fortune.",
+              "translation_ko": "손에서 사마귀가 사라지는 것을 보는 꿈은, 불쾌한 방해를 이겨내고 재물을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 사마귀가 있음을 봄",
+          "interpretation_ko": "가까이에 모진 적이 있음을 보이는 조짐",
+          "interpretation_en": "shows that you have bitter enemies near you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Warts",
+              "original": "To see them on others, shows that you have bitter enemies near you.",
+              "translation_ko": "남에게 사마귀가 있음을 보는 꿈은, 가까이에 모진 적이 있음을 보이는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "사마귀를 치료함",
+          "interpretation_ko": "다가올 위험을 막아내려 힘써 애쓸 조짐",
+          "interpretation_en": "you will struggle with energy to ward off threatened danger to you and yours",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Warts",
+              "original": "If you doctor them, you will struggle with energy to ward off threatened\ndanger to you and yours.",
+              "translation_ko": "사마귀를 치료하는 꿈은, 다가올 위험을 막아내려 힘써 애쓸 조짐이다"
             }
           ]
         }
@@ -121604,6 +121708,98 @@
               "locator": "Waiter",
               "original": "To see one cross or disorderly, means offensive people\nwill thrust themselves upon your hospitality.",
               "translation_ko": "무례하거나 무질서한 웨이터를 보는 꿈은, 불쾌한 사람들이 자신의 환대에 끼어들 흉조다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wardrobe",
+      "term_ko": "옷장",
+      "term_en": "wardrobe",
+      "aliases": [
+        "옷장이",
+        "옷장을"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "옷장 꿈을 꿈",
+          "interpretation_ko": "실제보다 부유해 보이려는 시도로 재물이 위태로워질 조짐",
+          "interpretation_en": "denotes that your fortune will be endangered by your attempts to appear richer than you are",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wardrobe",
+              "original": "To dream of your wardrobe, denotes that your fortune will be endangered\nby your attempts to appear richer than you are.",
+              "translation_ko": "옷장 꿈은, 실제보다 부유해 보이려는 시도로 재물이 위태로워질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "옷장이 초라하다고 여김",
+          "interpretation_ko": "낯선 이들과 어울리려 할 조짐",
+          "interpretation_en": "you will seek association with strangers",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wardrobe",
+              "original": "If you imagine you have a scant wardrobe, you will seek\nassociation with strangers.",
+              "translation_ko": "옷장이 초라하다고 여기는 꿈은, 낯선 이들과 어울리려 할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "warrant",
+      "term_ko": "영장",
+      "term_en": "warrant",
+      "aliases": [
+        "영장이",
+        "영장을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "영장이 자신에게 송달됨",
+          "interpretation_ko": "중요한 일을 맡아 그 지위와 이익을 크게 불안해할 조짐",
+          "interpretation_en": "denotes that you will engage in some important work which will give you great uneasiness as to its standing and profits",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Warrant",
+              "original": "To dream that a warrant is being served on you, denotes that you will\nengage in some important work which will give you great uneasiness\nas to its standing and profits.",
+              "translation_ko": "영장이 자신에게 송달되는 꿈은, 중요한 일을 맡아 그 지위와 이익을 크게 불안해할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "다른 사람에게 영장이 송달되는 것을 봄",
+          "interpretation_ko": "제 행동이 치명적인 다툼이나 오해를 부를 위험이 있고, 벗의 무분별함에 마땅히 분개할 조짐",
+          "interpretation_en": "there will be danger of your actions bringing you into fatal quarrels or misunderstandings, you are likely to be justly indignant with the wantonness of some friend",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Warrant",
+              "original": "To see a warrant served on some one else, there will be danger of\nyour actions bringing you into fatal quarrels or misunderstandings.\nYou are likely to be justly indignant with the wantonness of some friend.",
+              "translation_ko": "다른 사람에게 영장이 송달되는 것을 보는 꿈은, 제 행동이 치명적인 다툼이나 오해를 부를 위험이 있고 벗의 무분별함에 마땅히 분개할 조짐이다"
             }
           ]
         }

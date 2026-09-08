@@ -424,13 +424,17 @@
       "왕과 제후의 곳간에 들어감": "왕의 임금 궁궐 제후",
       "창고를 새로 지어 세움": "새로 지었 짓는 세웠 건축",
       "창고 안으로 들어감": "안으로 들어갔 들어가",
-      "창고가 무너짐": "무너 붕괴 쓰러 허물"
+      "창고가 무너짐": "무너 붕괴 쓰러 허물",
+      "창고 꿈을 꿈": "그냥",
+      "빈 창고를 봄": "비어 텅빈"
     },
     "contexts_en": {
       "왕과 제후의 곳간에 들어감": "king royal palace lord",
       "창고를 새로 지어 세움": "built building constructed erected",
       "창고 안으로 들어감": "inside entered",
-      "창고가 무너짐": "collapsed crumbled ruined"
+      "창고가 무너짐": "collapsed crumbled ruined",
+      "창고 꿈을 꿈": "successful enterprise",
+      "빈 창고를 봄": "empty cheated foiled"
     }
   },
   {

@@ -1,0 +1,26 @@
+{
+  "batch": 299,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Wardrobe",
+      "text": "To dream of your wardrobe, denotes that your fortune will be endangered\nby your attempts to appear richer than you are.\n\nIf you imagine you have a scant wardrobe, you will seek\nassociation with strangers.",
+      "note": "새 상징 옷장(wardrobe) — 기존 chiffonier(옷장 서랍)는 복합어라 bare \"옷장\"과 안 겹친다"
+    },
+    {
+      "headword": "Warehouse",
+      "text": "To dream of a warehouse, denotes for you a successful enterprise.\nTo see an empty one, is a sign that you will be cheated and foiled\nin some plan which you have given much thought and maneuvering.",
+      "note": "기존 storehouse(창고) 상징에 합쳤다 — 이미 term_ko \"창고\"를 쥐고 있었다(zhougong 넷)"
+    },
+    {
+      "headword": "Warrant",
+      "text": "To dream that a warrant is being served on you, denotes that you will\nengage in some important work which will give you great uneasiness\nas to its standing and profits.\n\nTo see a warrant served on some one else, there will be danger of\nyour actions bringing you into fatal quarrels or misunderstandings.\nYou are likely to be justly indignant with the wantonness of some friend.",
+      "note": "새 상징 영장(warrant)"
+    },
+    {
+      "headword": "Warts",
+      "text": "If you are troubled with warts on your person, in dreams,\nyou will be unable to successfully parry the thrusts made\nat your honor.\n\nTo see them leaving your hands, foretells that you will overcome\ndisagreeable obstructions to fortune.\n\nTo see them on others, shows that you have bitter enemies near you.\nIf you doctor them, you will struggle with energy to ward off threatened\ndanger to you and yours.",
+      "note": "새 상징 사마귀(warts)"
+    }
+  ]
+}

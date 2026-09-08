@@ -1,0 +1,63 @@
+[
+  {
+    "id": "wardrobe",
+    "aliases": [
+      "옷장이",
+      "옷장을"
+    ],
+    "aliases_en": [
+      "wardrobe",
+      "a wardrobe"
+    ],
+    "contexts": {
+      "옷장 꿈을 꿈": "그냥",
+      "옷장이 초라하다고 여김": "초라하다고"
+    },
+    "contexts_en": {
+      "옷장 꿈을 꿈": "endangered richer",
+      "옷장이 초라하다고 여김": "scant strangers association"
+    }
+  },
+  {
+    "id": "warrant",
+    "aliases": [
+      "영장이",
+      "영장을"
+    ],
+    "aliases_en": [
+      "warrant",
+      "a warrant"
+    ],
+    "contexts": {
+      "영장이 자신에게 송달됨": "그냥",
+      "다른 사람에게 영장이 송달되는 것을 봄": "다른 사람에게"
+    },
+    "contexts_en": {
+      "영장이 자신에게 송달됨": "served uneasiness standing profits",
+      "다른 사람에게 영장이 송달되는 것을 봄": "danger quarrels indignant wantonness"
+    }
+  },
+  {
+    "id": "warts",
+    "aliases": [
+      "사마귀가",
+      "사마귀를"
+    ],
+    "aliases_en": [
+      "warts",
+      "a wart"
+    ],
+    "contexts": {
+      "제 몸에 사마귀가 남을 괴로워함": "그냥",
+      "손에서 사마귀가 사라지는 것을 봄": "사라지는",
+      "남에게 사마귀가 있음을 봄": "남에게",
+      "사마귀를 치료함": "치료"
+    },
+    "contexts_en": {
+      "제 몸에 사마귀가 남을 괴로워함": "troubled unable parry honor",
+      "손에서 사마귀가 사라지는 것을 봄": "leaving hands overcome obstructions",
+      "남에게 사마귀가 있음을 봄": "others bitter enemies",
+      "사마귀를 치료함": "doctor struggle ward danger"
+    }
+  }
+]
