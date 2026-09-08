@@ -6492,5 +6492,20 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "walking::젊은 여성이 꿈속에서 빠르게 걷고 있음": "young woman rapidly inherit",
   "walking-stick::지팡이를 봄": "contracts deliberation reverses",
   "walking-stick::지팡이를 짚고 걸음": "dependent advice others",
-  "walking-stick::멋진 지팡이에 감탄함": "admire handsome entrust faithful"
+  "walking-stick::멋진 지팡이에 감탄함": "admire handsome entrust faithful",
+  "walnut::호두 꿈을 꿈": "prolific joys favors",
+  "walnut::썩은 호두를 깸": "decayed crack bitterness",
+  "walnut::젊은 여성이 손에 호두 얼룩이 묻어 있음을 봄": "stain hands lover regrets",
+  "waltz::왈츠 추는 것을 봄": "danced pleasant cheerful adventuresome",
+  "waltz::젊은 여성이 연인과 왈츠를 춤": "admiration wife",
+  "waltz::젊은 여성이 연인이 라이벌과 왈츠 추는 것을 봄": "rival strategy obstacles",
+  "waltz::젊은 여성이 다른 여자와 왈츠를 춤": "woman virtues winning",
+  "waltz::젊은 여성이 사람들이 취한 듯 빙글빙글 도는 왈츠를 봄": "intoxicated engulfed desire miracle",
+  "want::스스로 결핍한 처지에 있음을 봄": "ignored realities folly adversity",
+  "want::결핍한 처지에서도 만족함": "contented misfortune heroism disperse",
+  "want::남의 결핍을 덜어 줌": "relieve esteemed kindness pleasure",
+  "war::전쟁 꿈을 꿈": "unfortunate business disorder strife",
+  "war::젊은 여성이 연인이 전쟁에 나감을 봄": "lover goes detrimental character",
+  "war::제 나라가 전쟁에서 패함을 봄": "country defeated revolution political",
+  "war::전쟁의 승리를 봄": "victory brisk harmonious"
 };

@@ -222,6 +222,7 @@
     "m295.json",
     "m296.json",
     "m297.json",
+    "m298.json",
     "m3.json",
     "m30.json",
     "m31.json",
@@ -55865,6 +55866,94 @@
       ]
     },
     {
+      "id": "waltz",
+      "term_ko": "왈츠",
+      "term_en": "waltz",
+      "aliases": [
+        "왈츠가",
+        "왈츠를"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "왈츠 추는 것을 봄",
+          "interpretation_ko": "쾌활하고 모험을 즐기는 사람과 유쾌한 관계를 맺을 조짐",
+          "interpretation_en": "foretells that you will have pleasant relations with a cheerful and adventuresome person",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waltz",
+              "original": "To see the waltz danced, foretells that you will have pleasant\nrelations with a cheerful and adventuresome person.",
+              "translation_ko": "왈츠 추는 것을 보는 꿈은, 쾌활하고 모험을 즐기는 사람과 유쾌한 관계를 맺을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 연인과 왈츠를 춤",
+          "interpretation_ko": "큰 찬사를 받지만 아내로 구하려는 이는 없을 조짐",
+          "interpretation_en": "denotes that she will be the object of much admiration, but none will seek her for a wife",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waltz",
+              "original": "For a young woman to waltz with her lover, denotes that she will be\nthe object of much admiration, but none will seek her for a wife.",
+              "translation_ko": "젊은 여성이 연인과 왈츠를 추는 꿈은, 큰 찬사를 받지만 아내로 구하려는 이는 없을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 연인이 라이벌과 왈츠 추는 것을 봄",
+          "interpretation_ko": "전략으로 바람을 가로막는 장애를 이겨낼 조짐",
+          "interpretation_en": "she will overcome obstacles to her desires with strategy",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waltz",
+              "original": "If she sees her lover waltzing with a rival, she will overcome\nobstacles to her desires with strategy.",
+              "translation_ko": "젊은 여성이 연인이 라이벌과 왈츠 추는 것을 보는 꿈은, 전략으로 바람을 가로막는 장애를 이겨낼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 다른 여자와 왈츠를 춤",
+          "interpretation_ko": "미덕과 사랑스러운 성품으로 사랑받을 조짐",
+          "interpretation_en": "she will be loved for her virtues and winning ways",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waltz",
+              "original": "If she waltzes with\na woman, she will be loved for her virtues and winning ways.",
+              "translation_ko": "젊은 여성이 다른 여자와 왈츠를 추는 꿈은, 미덕과 사랑스러운 성품으로 사랑받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 사람들이 취한 듯 빙글빙글 도는 왈츠를 봄",
+          "interpretation_ko": "욕망과 쾌락에 깊이 휩싸여 연인과 뭇 남성의 격정적인 구애를 물리치기가 기적일 만큼 힘겨울 조짐",
+          "interpretation_en": "she will be engulfed so deeply in desire and pleasure that it will be a miracle if she resists the impassioned advances of her lover and male acquaintances",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Waltz",
+              "original": "If she sees persons whirling in the waltz as if intoxicated,\nshe will be engulfed so deeply in desire and pleasure that it\nwill be a miracle if she resists the impassioned advances of her\nlover and male acquaintances.",
+              "translation_ko": "젊은 여성이 사람들이 취한 듯 빙글빙글 도는 왈츠를 보는 꿈은, 욕망과 쾌락에 깊이 휩싸여 연인과 뭇 남성의 격정적인 구애를 물리치기가 기적일 만큼 힘겨울 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "weaving",
       "term_ko": "베짜기",
       "term_en": "weaving",
@@ -73086,6 +73175,82 @@
               "locator": "Walking",
               "original": "For a young woman to find herself walking rapidly in her dreams,\ndenotes that she will inherit some property, and will possess\na much desired object.",
               "translation_ko": "젊은 여성이 꿈속에서 빠르게 걷고 있는 꿈은, 재산을 물려받고 몹시 바라던 것을 갖게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "war",
+      "term_ko": "전쟁",
+      "term_en": "war",
+      "aliases": [
+        "전쟁이",
+        "전쟁을",
+        "전쟁에",
+        "전쟁의"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "전쟁 꿈을 꿈",
+          "interpretation_ko": "사업에 불리한 상황과 가정에 큰 무질서와 다툼이 생길 조짐",
+          "interpretation_en": "foretells unfortunate conditions in business, and much disorder and strife in domestic affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "War",
+              "original": "To dream of war, foretells unfortunate conditions in business,\nand much disorder and strife in domestic affairs.",
+              "translation_ko": "전쟁 꿈은, 사업에 불리한 상황과 가정에 큰 무질서와 다툼이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 연인이 전쟁에 나감을 봄",
+          "interpretation_ko": "연인의 인격에 해로운 무언가를 듣게 될 조짐",
+          "interpretation_en": "denotes that she will hear of something detrimental to her lover's character",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "War",
+              "original": "For a young woman to dream that her lover goes to war, denotes that she\nwill hear of something detrimental to her lover's character.",
+              "translation_ko": "젊은 여성이 연인이 전쟁에 나감을 보는 꿈은, 연인의 인격에 해로운 무언가를 듣게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "제 나라가 전쟁에서 패함을 봄",
+          "interpretation_ko": "사업과 정치 성격의 격변을 겪고 사적 이익도 타격을 입을 조짐",
+          "interpretation_en": "is a sign that it will suffer revolution of a business and political nature, personal interest will sustain a blow either way",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "War",
+              "original": "To dream that your country is defeated in war, is a sign that it\nwill suffer revolution of a business and political nature.\nPersonal interest will sustain a blow either way.",
+              "translation_ko": "제 나라가 전쟁에서 패함을 보는 꿈은, 사업과 정치 성격의 격변을 겪고 사적 이익도 타격을 입을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "전쟁의 승리를 봄",
+          "interpretation_ko": "사업에 활기가 돌고 가정이 화목해질 조짐",
+          "interpretation_en": "there will be brisk activity along business lines, and domesticity will be harmonious",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "War",
+              "original": "If of victory you dream, there will be brisk activity along business lines,\nand domesticity will be harmonious.",
+              "translation_ko": "전쟁의 승리를 보는 꿈은, 사업에 활기가 돌고 가정이 화목해질 조짐이다"
             }
           ]
         }
@@ -92199,6 +92364,127 @@
       ]
     },
     {
+      "id": "walnut",
+      "term_ko": "호두",
+      "term_en": "walnut",
+      "aliases": [
+        "호두가",
+        "호두를"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "호두 꿈을 꿈",
+          "interpretation_ko": "풍성한 기쁨과 은혜를 나타내는 조짐",
+          "interpretation_en": "is an omen significant of prolific joys and favors",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walnut",
+              "original": "To dream of walnuts, is an omen significant of prolific joys and favors.",
+              "translation_ko": "호두 꿈은, 풍성한 기쁨과 은혜를 나타내는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "썩은 호두를 깸",
+          "interpretation_ko": "기대가 씁쓸하게 무너질 조짐",
+          "interpretation_en": "denotes that your expectations will end in bitterness and regretable collapse",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walnut",
+              "original": "To dream that you crack a decayed walnut, denotes that your expectations\nwill end in bitterness and regretable collapse.",
+              "translation_ko": "썩은 호두를 깨는 꿈은, 기대가 씁쓸하게 무너질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 손에 호두 얼룩이 묻어 있음을 봄",
+          "interpretation_ko": "연인의 마음이 다른 이에게 옮겨 가 지난 경솔한 행동을 후회할 조짐",
+          "interpretation_en": "foretells that she will see her lover turn his attention to another, and she will entertain only regrets for her past indiscreet conduct",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walnut",
+              "original": "For a young woman to dream that she has walnut stain on her hands,\nforetells that she will see her lover turn his attention to another,\nand she will entertain only regrets for her past indiscreet conduct.",
+              "translation_ko": "젊은 여성이 손에 호두 얼룩이 묻어 있음을 보는 꿈은, 연인의 마음이 다른 이에게 옮겨 가 지난 경솔한 행동을 후회할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "want",
+      "term_ko": "결핍",
+      "term_en": "want",
+      "aliases": [
+        "결핍이",
+        "결핍을",
+        "결핍한"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 결핍한 처지에 있음을 봄",
+          "interpretation_ko": "불행히도 삶의 현실을 저버리고 슬픔과 역경의 아성으로 어리석음을 좇은 조짐",
+          "interpretation_en": "denotes that you have unfortunately ignored the realities of life, and chased folly to her stronghold of sorrow and adversity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Want",
+              "original": "To dream that you are in want, denotes that you have unfortunately\nignored the realities of life, and chased folly to her stronghold\nof sorrow and adversity.",
+              "translation_ko": "스스로 결핍한 처지에 있음을 보는 꿈은, 불행히도 삶의 현실을 저버리고 슬픔과 역경의 아성으로 어리석음을 좇은 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "결핍한 처지에서도 만족함",
+          "interpretation_ko": "다가온 불행을 담대히 견디고 고통의 먹구름이 걷히는 것을 볼 조짐",
+          "interpretation_en": "you will bear the misfortune which threatens you with heroism, and will see the clouds of misery disperse",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Want",
+              "original": "If you find yourself contented in a state of want, you will bear\nthe misfortune which threatens you with heroism, and will see\nthe clouds of misery disperse.",
+              "translation_ko": "결핍한 처지에서도 만족하는 꿈은, 다가온 불행을 담대히 견디고 고통의 먹구름이 걷히는 것을 볼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남의 결핍을 덜어 줌",
+          "interpretation_ko": "사심 없는 친절로 존경받겠지만 그 선행에서 기쁨은 못 느낄 조짐",
+          "interpretation_en": "signifies that you will be esteemed for your disinterested kindness, but you will feel no pleasure in well doing",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Want",
+              "original": "To relieve want, signifies that you will be esteemed for your\ndisinterested kindness, but you will feel no pleasure in well doing.",
+              "translation_ko": "남의 결핍을 덜어 주는 꿈은, 사심 없는 친절로 존경받겠지만 그 선행에서 기쁨은 못 느낄 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "white-clothing",
       "term_ko": "흰 옷",
       "term_en": "white clothing",
@@ -95556,7 +95842,6 @@
       "term_en": "battle",
       "aliases": [
         "싸움터",
-        "전쟁",
         "교전",
         "격전"
       ],

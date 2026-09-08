@@ -8332,5 +8332,23 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "walking stick",
     "a walking stick",
     "walking cane"
+  ],
+  "walnut": [
+    "walnut",
+    "walnuts",
+    "a walnut"
+  ],
+  "waltz": [
+    "waltz",
+    "waltzing",
+    "waltzes"
+  ],
+  "want": [
+    "want",
+    "in want"
+  ],
+  "war": [
+    "war",
+    "wars"
   ]
 };
