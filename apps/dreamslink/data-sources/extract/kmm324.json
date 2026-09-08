@@ -1,0 +1,102 @@
+[
+  {
+    "id": "zebra",
+    "aliases": [
+      "얼룩말이",
+      "얼룩말을"
+    ],
+    "aliases_en": [
+      "zebra",
+      "a zebra"
+    ],
+    "contexts": {
+      "얼룩말 꿈을 꿈": "그냥",
+      "야생 얼룩말이 제 고향 땅에 있는 것을 봄": "야생 고향 헛된"
+    },
+    "contexts_en": {
+      "얼룩말 꿈을 꿈": "varying fleeting enterprises",
+      "야생 얼룩말이 제 고향 땅에 있는 것을 봄": "wild native chimerical"
+    }
+  },
+  {
+    "id": "zenith",
+    "aliases": [
+      "천정을",
+      "천정에",
+      "천정점"
+    ],
+    "aliases_en": [
+      "zenith",
+      "the zenith"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "zephyr",
+    "aliases": [
+      "산들바람이",
+      "산들바람을",
+      "산들바람의"
+    ],
+    "aliases_en": [
+      "zephyr",
+      "zephyrs",
+      "soft zephyrs"
+    ],
+    "contexts": {
+      "부드러운 산들바람 꿈을 꿈": "그냥",
+      "젊은 여성이 산들바람의 속삭임에 서글퍼짐": "속삭임 서글퍼"
+    },
+    "contexts_en": {
+      "부드러운 산들바람 꿈을 꿈": "sacrifice affection wooing",
+      "젊은 여성이 산들바람의 속삭임에 서글퍼짐": "saddened whisperings disquietude"
+    }
+  },
+  {
+    "id": "zinc",
+    "aliases": [
+      "아연을",
+      "아연이",
+      "아연 광석"
+    ],
+    "aliases_en": [
+      "zinc",
+      "zinc ore"
+    ],
+    "contexts": {
+      "아연을 다루거나 봄": "그냥",
+      "아연 광석 꿈을 꿈": "광석"
+    },
+    "contexts_en": {
+      "아연을 다루거나 봄": "substantial energetic progress",
+      "아연 광석 꿈을 꿈": "promises eventful success"
+    }
+  },
+  {
+    "id": "zodiac",
+    "aliases": [
+      "황도대가",
+      "황도대를",
+      "황도대에"
+    ],
+    "aliases_en": [
+      "zodiac",
+      "the zodiac"
+    ],
+    "contexts": {
+      "황도대 꿈을 꿈": "그냥",
+      "황도대가 기이하게 보임": "기이하게 그로",
+      "황도대를 연구함": "연구",
+      "자신이 황도대에 다가가거나 황도대가 자신에게 다가옴": "다가가거나 다가옴 다가왔",
+      "황도대 지도를 그림": "지도"
+    },
+    "contexts_en": {
+      "황도대 꿈을 꿈": "unparalleled material worth",
+      "황도대가 기이하게 보임": "weird untoward grief",
+      "황도대를 연구함": "study distinction strangers",
+      "자신이 황도대에 다가가거나 황도대가 자신에게 다가옴": "approach speculations wonderment",
+      "황도대 지도를 그림": "draw map future"
+    }
+  }
+]

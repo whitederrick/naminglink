@@ -5168,6 +5168,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "memorandum::메모를 주움": "find assume duties pleasure",
   "memorial::기념비를 봄": "occasion patient kindness threatens relatives",
   "menagerie::동물원에 감": "visiting various troubles",
+  "menagerie::동물원 여러 곳을 두루 다님": "varied overpower travel",
   "mending::더러워진 옷을 기움": "soiled garments undertake wrong inopportune",
   "mending::깨끗한 옷을 기움": "clean successful adding fortune",
   "mending::처녀가 옷을 기움": "systematic help husband",
@@ -6728,5 +6729,16 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "young::자신이 다시 젊어짐": "efforts opportunities fail",
   "young::어머니가 아들이 다시 갓난아기나 어린아이가 된 것을 봄": "wounds healed cheerfulness",
   "young::다시 어려진 아이가 죽어가는 듯함": "dying misery attend",
-  "young::학교에 있는 젊은이들을 봄": "school usefulness favors"
+  "young::학교에 있는 젊은이들을 봄": "school usefulness favors",
+  "zebra::얼룩말 꿈을 꿈": "varying fleeting enterprises",
+  "zebra::야생 얼룩말이 제 고향 땅에 있는 것을 봄": "wild native chimerical",
+  "zephyr::부드러운 산들바람 꿈을 꿈": "sacrifice affection wooing",
+  "zephyr::젊은 여성이 산들바람의 속삭임에 서글퍼짐": "saddened whisperings disquietude",
+  "zinc::아연을 다루거나 봄": "substantial energetic progress",
+  "zinc::아연 광석 꿈을 꿈": "promises eventful success",
+  "zodiac::황도대 꿈을 꿈": "unparalleled material worth",
+  "zodiac::황도대가 기이하게 보임": "weird untoward grief",
+  "zodiac::황도대를 연구함": "study distinction strangers",
+  "zodiac::자신이 황도대에 다가가거나 황도대가 자신에게 다가옴": "approach speculations wonderment",
+  "zodiac::황도대 지도를 그림": "draw map future"
 };

@@ -8623,5 +8623,26 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "yule-log": [
     "yule log",
     "a yule log"
+  ],
+  "zebra": [
+    "zebra",
+    "a zebra"
+  ],
+  "zenith": [
+    "zenith",
+    "the zenith"
+  ],
+  "zephyr": [
+    "zephyr",
+    "zephyrs",
+    "soft zephyrs"
+  ],
+  "zinc": [
+    "zinc",
+    "zinc ore"
+  ],
+  "zodiac": [
+    "zodiac",
+    "the zodiac"
   ]
 };

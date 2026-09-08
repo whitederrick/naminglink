@@ -252,6 +252,7 @@
     "m321.json",
     "m322.json",
     "m323.json",
+    "m324.json",
     "m33.json",
     "m34.json",
     "m35.json",
@@ -58065,6 +58066,95 @@
       ]
     },
     {
+      "id": "zodiac",
+      "term_ko": "황도대",
+      "term_en": "zodiac",
+      "aliases": [
+        "황도대가",
+        "황도대를",
+        "황도대에"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "황도대 꿈을 꿈",
+          "interpretation_ko": "재산이 남달리 불어날 전조이나, 평안과 행복에는 흠이 섞일 조짐",
+          "interpretation_en": "is a prognostication of unparalleled rise in material worth, but also indicates alloyed peace and happiness",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zodiac",
+              "original": "To dream of the zodiac is a prognostication of unparalleled rise\nin material worth, but also indicates alloyed peace and happiness.",
+              "translation_ko": "황도대 꿈은, 재산이 남달리 불어날 전조이나 평안과 행복에는 흠이 섞일 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "황도대가 기이하게 보임",
+          "interpretation_ko": "뜻밖의 슬픔이 드리우고 있어 떨쳐 내려면 힘겨운 노력이 필요할 조짐",
+          "interpretation_en": "some untoward grief is hovering over you and it will take strenuous efforts to dispell it",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zodiac",
+              "original": "To see it appearing weird, denotes that some untoward grief is hovering\nover you and it will take strenuous efforts to dispell it.",
+              "translation_ko": "황도대가 기이하게 보이는 꿈은, 뜻밖의 슬픔이 드리우고 있어 떨쳐 내려면 힘겨운 노력이 필요할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "황도대를 연구함",
+          "interpretation_ko": "낯선 이들과 사귀며 인정과 호의를 얻을 조짐",
+          "interpretation_en": "you will gain distinction and favor by your intercourse with strangers",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zodiac",
+              "original": "To study the zodiac in your dreams, denotes that you will gain\ndistinction and favor by your intercourse with strangers.",
+              "translation_ko": "황도대를 연구하는 꿈은, 낯선 이들과 사귀며 인정과 호의를 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신이 황도대에 다가가거나 황도대가 자신에게 다가옴",
+          "interpretation_ko": "생각지도 못한 큰 성공을 투기에서 거둬 남들을 놀라게 할 조짐",
+          "interpretation_en": "you will succeed in your speculations to the wonderment of others and beyond your wildest imagination",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zodiac",
+              "original": "If you approach it or it approaches you, foretells that you\nwill succeed in your speculations to the wonderment of others\nand beyond your wildest imagination.",
+              "translation_ko": "자신이 황도대에 다가가거나 황도대가 자신에게 다가오는 꿈은, 생각지도 못한 큰 성공을 투기에서 거둬 남들을 놀라게 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "황도대 지도를 그림",
+          "interpretation_ko": "앞으로 이득이 생길 조짐",
+          "interpretation_en": "signifies future gain",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zodiac",
+              "original": "To draw a map of it, signifies future gain.",
+              "translation_ko": "황도대 지도를 그리는 꿈은, 앞으로 이득이 생길 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "abbot",
       "term_ko": "수도원장",
       "term_en": "abbot",
@@ -113650,6 +113740,53 @@
       ]
     },
     {
+      "id": "menagerie",
+      "term_ko": "동물원",
+      "term_en": "menagerie",
+      "aliases": [
+        "동물원에",
+        "동물원을",
+        "짐승 우리 구경"
+      ],
+      "category": "place",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "동물원에 감",
+          "interpretation_ko": "갖가지 괴로운 일이 있을 흉한 조짐",
+          "interpretation_en": "denotes various troubles",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Menagerie",
+              "original": "To dream of visiting a menagerie, denotes various troubles.",
+              "translation_ko": "동물원에 가는 꿈은 갖가지 괴로운 일이 있음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "동물원 여러 곳을 두루 다님",
+          "interpretation_ko": "운수가 오르내려 때로 적에게 밀리는 듯해도 다시 성공의 앞자리에 서고, 여행과 타향살이로 견문을 넓힐 조짐",
+          "interpretation_en": "you will have a varied fortune, sometimes it seems that enemies will overpower you and again you stand in the front rank of success, you will also gain knowledge by travel and sojourn in foreign countries",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zoological Garden",
+              "original": "To dream of visiting zoological gardens, denotes that you will\nhave a varied fortune.  Sometimes it seems that enemies will\noverpower you and again you stand in the front rank of success.\nYou will also gain knowledge by travel and sojourn in foreign countries.",
+              "translation_ko": "동물원 여러 곳을 두루 다니는 꿈은, 운수가 오르내려 때로 적에게 밀리는 듯해도 다시 성공의 앞자리에 서고, 여행과 타향살이로 견문을 넓힐 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "mercury",
       "term_ko": "수은",
       "term_en": "mercury",
@@ -125911,6 +126048,146 @@
       ]
     },
     {
+      "id": "zebra",
+      "term_ko": "얼룩말",
+      "term_en": "zebra",
+      "aliases": [
+        "얼룩말이",
+        "얼룩말을"
+      ],
+      "category": "animal",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "얼룩말 꿈을 꿈",
+          "interpretation_ko": "변화무쌍하고 덧없는 일에 관심을 두게 될 조짐",
+          "interpretation_en": "you will be interested in varying and fleeting enterprises",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zebra",
+              "original": "To dream of a zebra, denotes that you will be interested in varying\nand fleeting enterprises.",
+              "translation_ko": "얼룩말 꿈은, 변화무쌍하고 덧없는 일에 관심을 두게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "야생 얼룩말이 제 고향 땅에 있는 것을 봄",
+          "interpretation_ko": "헛된 공상을 좇다가 막상 손에 넣으면 만족스럽지 못한 즐거움만 얻을 조짐",
+          "interpretation_en": "you will pursue a chimerical fancy which will return you unsatisfactory pleasure upon possession",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zebra",
+              "original": "To see one wild in his native country, foretells that you will\npursue a chimerical fancy which will return you unsatisfactory\npleasure upon possession.",
+              "translation_ko": "야생 얼룩말이 제 고향 땅에 있는 것을 보는 꿈은, 헛된 공상을 좇다가 막상 손에 넣으면 만족스럽지 못한 즐거움만 얻을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zephyr",
+      "term_ko": "산들바람",
+      "term_en": "zephyr",
+      "aliases": [
+        "산들바람이",
+        "산들바람을",
+        "산들바람의"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "부드러운 산들바람 꿈을 꿈",
+          "interpretation_ko": "재물을 바쳐서라도 사랑하는 이를 얻으려 하고, 구애에서 서로 통하는 사랑을 찾을 조짐",
+          "interpretation_en": "you will sacrifice fortune to obtain the object of your affection and will find reciprocal affection in your wooing",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zephyr",
+              "original": "To dream of soft zephyrs, denotes that you will sacrifice fortune\nto obtain the object of your affection and will find reciprocal\naffection in your wooing.",
+              "translation_ko": "부드러운 산들바람 꿈은, 재물을 바쳐서라도 사랑하는 이를 얻으려 하고 구애에서 서로 통하는 사랑을 찾을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 산들바람의 속삭임에 서글퍼짐",
+          "interpretation_ko": "연인이 떠나 있어야 해서 한동안 불안한 시기를 보낼 조짐",
+          "interpretation_en": "she will have a season of disquietude by the compelled absence of her lover",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zephyr",
+              "original": "If a young woman dreams that she is saddened by the whisperings\nof the zephyrs, she will have a season of disquietude by the compelled\nabsence of her lover.",
+              "translation_ko": "젊은 여성이 산들바람의 속삭임에 서글퍼지는 꿈은, 연인이 떠나 있어야 해서 한동안 불안한 시기를 보낼 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zinc",
+      "term_ko": "아연",
+      "term_en": "zinc",
+      "aliases": [
+        "아연을",
+        "아연이",
+        "아연 광석"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "아연을 다루거나 봄",
+          "interpretation_ko": "탄탄하고 힘찬 발전을 이룰 조짐이며 사업의 여러 방면이 활기를 띨 것",
+          "interpretation_en": "indicates substantial and energetic progress, business will assume a brisk tone in its varying departments",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zinc",
+              "original": "To work with or to see zinc in your dreams, indicates substantial\nand energetic progress.  Business will assume a brisk tone\nin its varying departments.",
+              "translation_ko": "아연을 다루거나 보는 꿈은, 탄탄하고 힘찬 발전을 이룰 조짐이며 사업의 여러 방면이 활기를 띨 것이다"
+            }
+          ]
+        },
+        {
+          "context": "아연 광석 꿈을 꿈",
+          "interpretation_ko": "뜻깊은 성공이 다가올 조짐",
+          "interpretation_en": "promises the approach of eventful success",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zinc",
+              "original": "To dream of zinc ore promises the approach of eventful success.",
+              "translation_ko": "아연 광석 꿈은, 뜻깊은 성공이 다가올 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "abroad",
       "term_ko": "외국",
       "term_en": "abroad",
@@ -134862,39 +135139,6 @@
       ]
     },
     {
-      "id": "menagerie",
-      "term_ko": "동물원",
-      "term_en": "menagerie",
-      "aliases": [
-        "동물원에",
-        "동물원을",
-        "짐승 우리 구경"
-      ],
-      "category": "place",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "동물원에 감",
-          "interpretation_ko": "갖가지 괴로운 일이 있을 흉한 조짐",
-          "interpretation_en": "denotes various troubles",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Menagerie",
-              "original": "To dream of visiting a menagerie, denotes various troubles.",
-              "translation_ko": "동물원에 가는 꿈은 갖가지 괴로운 일이 있음을 뜻한다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "metamorphose",
       "term_ko": "탈바꿈",
       "term_en": "metamorphose",
@@ -140274,6 +140518,39 @@
               "locator": "Yule Log",
               "original": "To dream of a yule log, foretells that your joyous anticipations\nwill be realized by your attendance at great festivities.",
               "translation_ko": "율 통나무 꿈은, 큰 축제에 참석해 즐거운 기대가 이루어질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zenith",
+      "term_ko": "천정",
+      "term_en": "zenith",
+      "aliases": [
+        "천정을",
+        "천정에",
+        "천정점"
+      ],
+      "category": "nature",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "천정 꿈을 꿈",
+          "interpretation_ko": "화려한 번영이 있고 고르는 구혼자가 뜻대로 될 조짐",
+          "interpretation_en": "foretells elaborate prosperity, and your choice of suitors will be successful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Zenith",
+              "original": "To dream of the zenith, foretells elaborate prosperity,\nand your choice of suitors will be successful.",
+              "translation_ko": "천정 꿈은, 화려한 번영이 있고 고르는 구혼자가 뜻대로 될 조짐이다"
             }
           ]
         }

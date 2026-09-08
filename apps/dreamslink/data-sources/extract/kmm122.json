@@ -75,10 +75,12 @@
       "menageries"
     ],
     "contexts": {
-      "동물원에 감": "갔다 구경"
+      "동물원에 감": "갔다 구경",
+      "동물원 여러 곳을 두루 다님": "여러 곳을 두루"
     },
     "contexts_en": {
-      "동물원에 감": "visiting various troubles"
+      "동물원에 감": "visiting various troubles",
+      "동물원 여러 곳을 두루 다님": "varied overpower travel"
     }
   }
 ]

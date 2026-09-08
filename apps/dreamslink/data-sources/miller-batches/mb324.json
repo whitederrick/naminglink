@@ -1,0 +1,36 @@
+{
+  "batch": 324,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Zebra",
+      "text": "To dream of a zebra, denotes that you will be interested in varying\nand fleeting enterprises.\n\nTo see one wild in his native country, foretells that you will\npursue a chimerical fancy which will return you unsatisfactory\npleasure upon possession.",
+      "note": "새 상징 얼룩말(zebra)."
+    },
+    {
+      "headword": "Zenith",
+      "text": "To dream of the zenith, foretells elaborate prosperity,\nand your choice of suitors will be successful.",
+      "note": "새 상징 천정(zenith, 하늘의 정점)."
+    },
+    {
+      "headword": "Zephyr",
+      "text": "To dream of soft zephyrs, denotes that you will sacrifice fortune\nto obtain the object of your affection and will find reciprocal\naffection in your wooing.\n\nIf a young woman dreams that she is saddened by the whisperings\nof the zephyrs, she will have a season of disquietude by the compelled\nabsence of her lover.",
+      "note": "새 상징 산들바람(zephyr) — 기존 wind(바람)와 term_ko가 다르고(합성어라 bare \"바람\"에도 안 걸림), 부드러운 미풍이라는 그림이 뚜렷이 달라 별개로 세웠다."
+    },
+    {
+      "headword": "Zinc",
+      "text": "To work with or to see zinc in your dreams, indicates substantial\nand energetic progress.  Business will assume a brisk tone\nin its varying departments.\n\nTo dream of zinc ore promises the approach of eventful success.",
+      "note": "새 상징 아연(zinc)."
+    },
+    {
+      "headword": "Zodiac",
+      "text": "To dream of the zodiac is a prognostication of unparalleled rise\nin material worth, but also indicates alloyed peace and happiness.\n\nTo see it appearing weird, denotes that some untoward grief is hovering\nover you and it will take strenuous efforts to dispell it.\n\nTo study the zodiac in your dreams, denotes that you will gain\ndistinction and favor by your intercourse with strangers.\n\nIf you approach it or it approaches you, foretells that you\nwill succeed in your speculations to the wonderment of others\nand beyond your wildest imagination.\n\nTo draw a map of it, signifies future gain.",
+      "note": "새 상징 황도대(zodiac)."
+    },
+    {
+      "headword": "Zoological Garden",
+      "text": "To dream of visiting zoological gardens, denotes that you will\nhave a varied fortune.  Sometimes it seems that enemies will\noverpower you and again you stand in the front rank of success.\nYou will also gain knowledge by travel and sojourn in foreign countries.",
+      "note": "**밀러 1901 사전 원문의 마지막 표제어 — 이 배치로 밀러 원문 추출이 전부 끝난다(그 뒤는 INDEX 절뿐).** 기존 menagerie(동물원, 밀러 자신의 Menagerie 표제어 \"동물원에 감\"→흉조 하나뿐)에 같은 그림·다른 판단(운수가 오르내리지만 결국 성공)을 새 문맥으로 나눠 붙였다 — 완전히 같은 문구가 되지 않도록 \"동물원 여러 곳을 두루 다님\"으로 갈랐다."
+    }
+  ]
+}
