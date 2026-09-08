@@ -1,9 +1,9 @@
 // **방금 넣은 밀러 배치의 상징이 자연스러운 문장에서 실제로 걸리는지** 본다.
-// (지금 담긴 것: 배치 295 — Wagtail~Wake(새 20판 묶음의 8/20). 새 상징
-// 다섯(wagtail·waif·waist·shirt-waist·waiter), 기존 weeping(울음)·
-// condolence-visit(문상)에 문맥을 나눠 붙였다. Wail은 각주 [238] See
-// Weeping으로 weeping에, Wake는 "장례식 밤샘"이 이미 condolence-visit의
-// 영어 별칭("wake")이었던 것을 뒤늦게 찾아 그쪽에 합쳤다.
+// (지금 담긴 것: 배치 296 — Walking~Wallet(새 20판 묶음의 9/20). 새 상징
+// 둘(walking·walking-stick), 기존 pocketbook(지갑)에 문맥을 나눠 붙였다.
+// Wallet은 pocketbook이 이미 term_ko "지갑"을 쥐고 있어 합쳤다. Walking은
+// 각주 [239] See Wading가 있었지만 실제 그림(가시밭길·밤길)이 배치 293의
+// Wading(물속을 걺, bathing에 합침)과 전혀 달라 새 상징으로 세웠다.
 //
 // ## 왜 이것이 따로 있어야 하나 (2026-09-01)
 //
@@ -34,25 +34,19 @@ import { matchDream } from "../src/lib/engines/dream-match";
 type Case = { id: string; ctx: string; text: string };
 
 const CASES: Case[] = [
-  // ── 배치 295 새 문맥 (14건) ────────────────────────────────────────────
-  { id: "wagtail", ctx: "할미새를 봄", text: "할미새를 보았는데 불쾌한 뒷말의 희생양이 되었다" },
-  { id: "waif", ctx: "떠돌이 아이를 봄", text: "떠돌이 아이를 보았는데 사업에서 불운했다" },
-  { id: "weeping", ctx: "꿈속에서 울부짖는 소리를 들음", text: "꿈속에서 누군가 울부짖는 소리를 들었는데 두려운 소식이 왔다" },
-  { id: "weeping", ctx: "젊은 여성이 울부짖는 소리를 들음", text: "젊은 여성이 울부짖는 소리를 들었는데 버림받아 홀로 남겨졌다" },
-  { id: "waist", ctx: "둥글고 풍만한 허리를 봄", text: "둥글고 풍만한 허리를 보았는데 기분 좋은 운명의 배려를 받았다" },
-  { id: "waist", ctx: "작고 부자연스러운 허리를 봄", text: "작고 부자연스러운 허리를 보았는데 달갑잖은 성공을 얻었다" },
-  { id: "shirt-waist", ctx: "젊은 여성이 근사한 기성품 블라우스를 봄", text: "젊은 여성이 근사한 기성품 블라우스를 보았는데 찬사를 얻었다" },
-  { id: "shirt-waist", ctx: "블라우스가 찢어짐", text: "블라우스가 찢어졌는데 부적절한 만남으로 비난받았다" },
-  { id: "shirt-waist", ctx: "블라우스를 입어 봄", text: "블라우스를 입어 보았는데 사랑에서 경쟁자를 만났다" },
-  { id: "shirt-waist", ctx: "블라우스를 몸에 맞게 고쳐 입는 데 성공함", text: "블라우스를 몸에 맞게 고쳐 입는 데 성공했는데 경쟁을 이겨내고 사랑하는 사람을 얻었다" },
-  { id: "waiter", ctx: "웨이터를 봄", text: "웨이터를 보았는데 친구에게 유쾌한 대접을 받았다" },
-  { id: "waiter", ctx: "무례하거나 무질서한 웨이터를 봄", text: "무례하고 무질서한 웨이터를 보았는데 불쾌한 사람들이 끼어들었다" },
-  { id: "condolence-visit", ctx: "상갓집에서 밤을 지새움", text: "상갓집에서 밤을 지새웠는데 중요한 약속을 희생했다" },
-  { id: "condolence-visit", ctx: "젊은 여성이 상갓집에서 연인을 봄", text: "젊은 여성이 상갓집에서 연인을 보았는데 정념의 애원에 설득당했다" },
+  // ── 배치 296 새 문맥 (9건) ─────────────────────────────────────────────
+  { id: "walking", ctx: "가시덤불에 얽힌 험한 길을 걸음", text: "가시덤불에 얽힌 험한 길을 걸었는데 사업이 얽혀 몹시 괴로웠다" },
+  { id: "walking", ctx: "쾌적한 곳을 걸음", text: "쾌적한 곳을 걸었는데 행운과 은혜를 누렸다" },
+  { id: "walking", ctx: "밤에 걸음", text: "밤에 걸었는데 불행한 일이 닥쳤다" },
+  { id: "walking", ctx: "젊은 여성이 꿈속에서 빠르게 걷고 있음", text: "젊은 여성이 꿈속에서 빠르게 걷고 있었는데 재산을 물려받았다" },
+  { id: "walking-stick", ctx: "지팡이를 봄", text: "지팡이를 보았는데 계약에서 낭패를 보았다" },
+  { id: "walking-stick", ctx: "지팡이를 짚고 걸음", text: "지팡이를 짚고 걸었는데 남의 조언에 기댔다" },
+  { id: "walking-stick", ctx: "멋진 지팡이에 감탄함", text: "멋진 지팡이에 감탄했는데 남에게 이익을 맡겼다" },
+  { id: "pocketbook", ctx: "지갑을 봄", text: "그냥 지갑을 보았는데 유쾌한 부담이 생겼다" },
+  { id: "pocketbook", ctx: "낡거나 더러운 지갑을 봄", text: "낡고 더러운 지갑을 보았는데 좋지 않은 결과를 얻었다" },
 
   // ── 지킴 케이스 — 이번에 손댄 기존 상징의 옛 답이 그대로인지 ────────
-  { id: "weeping", ctx: "남이 우는 것을 봄", text: "남이 우는 것을 보았다" },
-  { id: "condolence-visit", ctx: "남에게 문상을 감", text: "남에게 문상을 갔다" },
+  { id: "pocketbook", ctx: "돈과 지폐가 든 지갑을 찾아냄", text: "돈과 지폐가 든 지갑을 찾아냈는데 운이 좋았다" },
 ];
 
 let notFound = 0;

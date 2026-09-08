@@ -1,0 +1,50 @@
+[
+  {
+    "id": "walking",
+    "aliases": [
+      "걸었는데",
+      "걸었다",
+      "걷고",
+      "걷는",
+      "걷기가",
+      "걷기를"
+    ],
+    "aliases_en": [
+      "walking"
+    ],
+    "contexts": {
+      "가시덤불에 얽힌 험한 길을 걸음": "가시덤불",
+      "쾌적한 곳을 걸음": "쾌적한",
+      "밤에 걸음": "밤에",
+      "젊은 여성이 꿈속에서 빠르게 걷고 있음": "빠르게"
+    },
+    "contexts_en": {
+      "가시덤불에 얽힌 험한 길을 걸음": "rough brier entangled distressed",
+      "쾌적한 곳을 걸음": "pleasant fortune favor",
+      "밤에 걸음": "night misadventure",
+      "젊은 여성이 꿈속에서 빠르게 걷고 있음": "young woman rapidly inherit"
+    }
+  },
+  {
+    "id": "walking-stick",
+    "aliases": [
+      "지팡이가",
+      "지팡이를"
+    ],
+    "aliases_en": [
+      "walking stick",
+      "a walking stick",
+      "walking cane"
+    ],
+    "contexts": {
+      "지팡이를 봄": "그냥",
+      "지팡이를 짚고 걸음": "짚고 걸음",
+      "멋진 지팡이에 감탄함": "감탄"
+    },
+    "contexts_en": {
+      "지팡이를 봄": "contracts deliberation reverses",
+      "지팡이를 짚고 걸음": "dependent advice others",
+      "멋진 지팡이에 감탄함": "admire handsome entrust faithful"
+    }
+  }
+]

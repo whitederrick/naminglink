@@ -5599,6 +5599,8 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "pocketbook::빈 지갑을 찾아냄": "empty",
   "pocketbook::지갑을 잃어버림": "lose losing",
   "pocketbook::지갑에 다이아몬드와 새 지폐가 가득함": "diamonds cheer harmony",
+  "pocketbook::지갑을 봄": "burdens pleasant discretion",
+  "pocketbook::낡거나 더러운 지갑을 봄": "old soiled unfavorable labors",
   "poison::제가 독에 중독됨": "immediately reach",
   "poison::남에게 독을 쓰려 함": "seek use others",
   "poison::처녀가 이런 방법으로 연적을 없애려 함": "rid herself securing",
@@ -6475,5 +6477,12 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "shirt-waist::블라우스를 입어 봄": "trying rivalry",
   "shirt-waist::블라우스를 몸에 맞게 고쳐 입는 데 성공함": "adjusting succeeds combat",
   "waiter::웨이터를 봄": "pleasantly entertained friend",
-  "waiter::무례하거나 무질서한 웨이터를 봄": "cross disorderly offensive"
+  "waiter::무례하거나 무질서한 웨이터를 봄": "cross disorderly offensive",
+  "walking::가시덤불에 얽힌 험한 길을 걸음": "rough brier entangled distressed",
+  "walking::쾌적한 곳을 걸음": "pleasant fortune favor",
+  "walking::밤에 걸음": "night misadventure",
+  "walking::젊은 여성이 꿈속에서 빠르게 걷고 있음": "young woman rapidly inherit",
+  "walking-stick::지팡이를 봄": "contracts deliberation reverses",
+  "walking-stick::지팡이를 짚고 걸음": "dependent advice others",
+  "walking-stick::멋진 지팡이에 감탄함": "admire handsome entrust faithful"
 };

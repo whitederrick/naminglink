@@ -1,0 +1,21 @@
+{
+  "batch": 296,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Walking",
+      "text": "To dream of walking through rough brier, entangled paths, denotes that you\nwill be much distressed over your business complications, and disagreeable\nmisunderstandings will produce coldness and indifference.\n\nTo walk in pleasant places, you will be the possessor of fortune and favor.\n\nTo walk in the night brings misadventure, and unavailing\nstruggle for contentment.\n\nFor a young woman to find herself walking rapidly in her dreams,\ndenotes that she will inherit some property, and will possess\na much desired object.",
+      "note": "새 상징 걷기(walking) — 각주 [239] See Wading가 있으나 실제 내용(가시밭길·밤길·빠른 걸음)이 배치 293에서 bathing에 합친 Wading(물속을 걺)과 그림이 전혀 달라 따로 세웠다"
+    },
+    {
+      "headword": "Walking Stick",
+      "text": "To see a walking stick in a dream, foretells you will enter into contracts\nwithout proper deliberation, and will consequently suffer reverses.\nIf you use one in walking, you will be dependent upon the advice of others.\nTo admire handsome ones, you will entrust your interest to others,\nbut they will be faithful.",
+      "note": "새 상징 지팡이(walking stick) — 기존 rattan-cane(등나무 지팡이)·crutches(목발)는 둘 다 구체적인 복합어라 bare \"지팡이\"와 안 겹친다"
+    },
+    {
+      "headword": "Wallet",
+      "text": "To see wallets in a dream, foretells burdens of a pleasant\nnature will await your discretion as to assuming them.\n\nAn old or soiled one, implies unfavorable results from your labors.",
+      "note": "기존 pocketbook(지갑) 상징에 합쳤다 — 이미 term_ko \"지갑\"을 쥐고 있었다"
+    }
+  ]
+}

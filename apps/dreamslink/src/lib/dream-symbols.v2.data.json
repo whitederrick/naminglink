@@ -220,6 +220,7 @@
     "m293.json",
     "m294.json",
     "m295.json",
+    "m296.json",
     "m3.json",
     "m30.json",
     "m31.json",
@@ -44000,6 +44001,108 @@
       ]
     },
     {
+      "id": "pocketbook",
+      "term_ko": "지갑",
+      "term_en": "pocketbook",
+      "aliases": [
+        "지갑이",
+        "지갑을"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "돈과 지폐가 든 지갑을 찾아냄",
+          "interpretation_ko": "매우 운이 좋아 거의 모든 바람을 이룰 조짐",
+          "interpretation_en": "you will be quite lucky, gaining in nearly every instance your desire",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pocketbook",
+              "original": "To find a pocketbook filled with bills and money in your dreams, you will be quite lucky, gaining in nearly every instance your desire.",
+              "translation_ko": "돈과 지폐가 든 지갑을 찾아내는 꿈은, 매우 운이 좋아 거의 모든 바람을 이룰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빈 지갑을 찾아냄",
+          "interpretation_ko": "큰 바람에서 실망할 조짐",
+          "interpretation_en": "you will be disappointed in some big hope",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pocketbook",
+              "original": "If empty, you will be disappointed in some big hope.",
+              "translation_ko": "빈 지갑을 찾아내는 꿈은, 큰 바람에서 실망할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지갑을 잃어버림",
+          "interpretation_ko": "가장 가까운 벗과 뜻이 어긋나 큰 위안과 실질적인 이득을 잃을 조짐",
+          "interpretation_en": "you will unfortunately disagree with your best friend, and thereby lose much comfort and real gain",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Pocketbook",
+              "original": "If you lose your pocketbook, you will unfortunately disagree with your best friend, and thereby lose much comfort and real gain.",
+              "translation_ko": "지갑을 잃어버리는 꿈은, 가장 가까운 벗과 뜻이 어긋나 큰 위안과 실질적인 이득을 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지갑에 다이아몬드와 새 지폐가 가득함",
+          "interpretation_ko": "「반가운 마음」이 표어가 되는 사귐과, 조화롭고 다정한 사랑이 세상을 아름답게 할 조짐",
+          "interpretation_en": "denotes for you associations where \"Good Cheer\" is the watchword, and harmony and tender loves will make earth a beautiful place",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Purse",
+              "original": "To dream of your purse being filled with diamonds and new bills, denotes for you associations where ``Good Cheer'' is the watchword, and harmony and tender loves will make earth a beautiful place.",
+              "translation_ko": "지갑에 다이아몬드와 새 지폐가 가득한 꿈은, 「반가운 마음」이 표어가 되는 사귐과, 조화롭고 다정한 사랑이 세상을 아름답게 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지갑을 봄",
+          "interpretation_ko": "유쾌한 성격의 부담이 생겨 떠안을지 스스로 헤아리게 될 조짐",
+          "interpretation_en": "foretells burdens of a pleasant nature will await your discretion as to assuming them",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wallet",
+              "original": "To see wallets in a dream, foretells burdens of a pleasant\nnature will await your discretion as to assuming them.",
+              "translation_ko": "지갑을 보는 꿈은, 유쾌한 성격의 부담이 생겨 떠안을지 스스로 헤아리게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "낡거나 더러운 지갑을 봄",
+          "interpretation_ko": "노력에서 좋지 않은 결과를 얻을 조짐",
+          "interpretation_en": "implies unfavorable results from your labors",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wallet",
+              "original": "An old or soiled one, implies unfavorable results from your labors.",
+              "translation_ko": "낡거나 더러운 지갑을 보는 꿈은, 노력에서 좋지 않은 결과를 얻을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "potato",
       "term_ko": "감자",
       "term_en": "potato",
@@ -69178,80 +69281,6 @@
       ]
     },
     {
-      "id": "pocketbook",
-      "term_ko": "지갑",
-      "term_en": "pocketbook",
-      "aliases": [
-        "지갑이",
-        "지갑을"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "돈과 지폐가 든 지갑을 찾아냄",
-          "interpretation_ko": "매우 운이 좋아 거의 모든 바람을 이룰 조짐",
-          "interpretation_en": "you will be quite lucky, gaining in nearly every instance your desire",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Pocketbook",
-              "original": "To find a pocketbook filled with bills and money in your dreams, you will be quite lucky, gaining in nearly every instance your desire.",
-              "translation_ko": "돈과 지폐가 든 지갑을 찾아내는 꿈은, 매우 운이 좋아 거의 모든 바람을 이룰 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "빈 지갑을 찾아냄",
-          "interpretation_ko": "큰 바람에서 실망할 조짐",
-          "interpretation_en": "you will be disappointed in some big hope",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Pocketbook",
-              "original": "If empty, you will be disappointed in some big hope.",
-              "translation_ko": "빈 지갑을 찾아내는 꿈은, 큰 바람에서 실망할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "지갑을 잃어버림",
-          "interpretation_ko": "가장 가까운 벗과 뜻이 어긋나 큰 위안과 실질적인 이득을 잃을 조짐",
-          "interpretation_en": "you will unfortunately disagree with your best friend, and thereby lose much comfort and real gain",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Pocketbook",
-              "original": "If you lose your pocketbook, you will unfortunately disagree with your best friend, and thereby lose much comfort and real gain.",
-              "translation_ko": "지갑을 잃어버리는 꿈은, 가장 가까운 벗과 뜻이 어긋나 큰 위안과 실질적인 이득을 잃을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "지갑에 다이아몬드와 새 지폐가 가득함",
-          "interpretation_ko": "「반가운 마음」이 표어가 되는 사귐과, 조화롭고 다정한 사랑이 세상을 아름답게 할 조짐",
-          "interpretation_en": "denotes for you associations where \"Good Cheer\" is the watchword, and harmony and tender loves will make earth a beautiful place",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Purse",
-              "original": "To dream of your purse being filled with diamonds and new bills, denotes for you associations where ``Good Cheer'' is the watchword, and harmony and tender loves will make earth a beautiful place.",
-              "translation_ko": "지갑에 다이아몬드와 새 지폐가 가득한 꿈은, 「반가운 마음」이 표어가 되는 사귐과, 조화롭고 다정한 사랑이 세상을 아름답게 할 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "porter",
       "term_ko": "짐꾼",
       "term_en": "porter",
@@ -72795,6 +72824,84 @@
               "locator": "Wages",
               "original": "An increase of wages, suggests unusual profit in any undertaking.",
               "translation_ko": "급여가 늘어나는 꿈은, 어떤 일에서든 남다른 이문이 있을 길한 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walking",
+      "term_ko": "걷기",
+      "term_en": "walking",
+      "aliases": [
+        "걸었는데",
+        "걸었다",
+        "걷고",
+        "걷는",
+        "걷기가",
+        "걷기를"
+      ],
+      "category": "action",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "가시덤불에 얽힌 험한 길을 걸음",
+          "interpretation_ko": "사업이 얽혀 몹시 괴롭고, 불쾌한 오해로 냉담과 무관심이 생길 조짐",
+          "interpretation_en": "denotes that you will be much distressed over your business complications, and disagreeable misunderstandings will produce coldness and indifference",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walking",
+              "original": "To dream of walking through rough brier, entangled paths, denotes that you\nwill be much distressed over your business complications, and disagreeable\nmisunderstandings will produce coldness and indifference.",
+              "translation_ko": "가시덤불에 얽힌 험한 길을 걷는 꿈은, 사업이 얽혀 몹시 괴롭고 불쾌한 오해로 냉담과 무관심이 생길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "쾌적한 곳을 걸음",
+          "interpretation_ko": "행운과 은혜를 누릴 조짐",
+          "interpretation_en": "you will be the possessor of fortune and favor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walking",
+              "original": "To walk in pleasant places, you will be the possessor of fortune and favor.",
+              "translation_ko": "쾌적한 곳을 걷는 꿈은, 행운과 은혜를 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "밤에 걸음",
+          "interpretation_ko": "불행한 일과 헛된 만족을 향한 몸부림을 부를 조짐",
+          "interpretation_en": "brings misadventure, and unavailing struggle for contentment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walking",
+              "original": "To walk in the night brings misadventure, and unavailing\nstruggle for contentment.",
+              "translation_ko": "밤에 걷는 꿈은, 불행한 일과 헛된 만족을 향한 몸부림을 부를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 꿈속에서 빠르게 걷고 있음",
+          "interpretation_ko": "재산을 물려받고 몹시 바라던 것을 갖게 될 조짐",
+          "interpretation_en": "denotes that she will inherit some property, and will possess a much desired object",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walking",
+              "original": "For a young woman to find herself walking rapidly in her dreams,\ndenotes that she will inherit some property, and will possess\na much desired object.",
+              "translation_ko": "젊은 여성이 꿈속에서 빠르게 걷고 있는 꿈은, 재산을 물려받고 몹시 바라던 것을 갖게 될 조짐이다"
             }
           ]
         }
@@ -91842,6 +91949,66 @@
               "locator": "Wafer",
               "original": "For a young woman to bake them, denotes that she will be tormented and distressed by fears of remaining in the unmarried state.",
               "translation_ko": "젊은 여성이 웨이퍼를 굽는 꿈은, 미혼으로 남을까 두려워하며 괴로워하고 시달릴 흉한 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "walking-stick",
+      "term_ko": "지팡이",
+      "term_en": "walking stick",
+      "aliases": [
+        "지팡이가",
+        "지팡이를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "지팡이를 봄",
+          "interpretation_ko": "제대로 헤아리지 않고 계약을 맺어 결국 낭패를 볼 조짐",
+          "interpretation_en": "foretells you will enter into contracts without proper deliberation, and will consequently suffer reverses",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walking Stick",
+              "original": "To see a walking stick in a dream, foretells you will enter into contracts\nwithout proper deliberation, and will consequently suffer reverses.",
+              "translation_ko": "지팡이를 보는 꿈은, 제대로 헤아리지 않고 계약을 맺어 결국 낭패를 볼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지팡이를 짚고 걸음",
+          "interpretation_ko": "남의 조언에 기대게 될 조짐",
+          "interpretation_en": "you will be dependent upon the advice of others",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walking Stick",
+              "original": "If you use one in walking, you will be dependent upon the advice of others.",
+              "translation_ko": "지팡이를 짚고 걷는 꿈은, 남의 조언에 기대게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "멋진 지팡이에 감탄함",
+          "interpretation_ko": "남에게 이익을 맡기지만 그들은 신의를 지킬 조짐",
+          "interpretation_en": "you will entrust your interest to others, but they will be faithful",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walking Stick",
+              "original": "To admire handsome ones, you will entrust your interest to others,\nbut they will be faithful.",
+              "translation_ko": "멋진 지팡이에 감탄하는 꿈은, 남에게 이익을 맡기지만 그들은 신의를 지킬 조짐이다"
             }
           ]
         }

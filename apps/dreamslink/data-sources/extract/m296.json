@@ -1,0 +1,137 @@
+[
+  {
+    "term_ko": "걷기",
+    "term_en": "walking",
+    "context": "가시덤불에 얽힌 험한 길을 걸음",
+    "interpretation_ko": "사업이 얽혀 몹시 괴롭고, 불쾌한 오해로 냉담과 무관심이 생길 조짐",
+    "interpretation_en": "denotes that you will be much distressed over your business complications, and disagreeable misunderstandings will produce coldness and indifference",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Walking",
+      "original": "To dream of walking through rough brier, entangled paths, denotes that you\nwill be much distressed over your business complications, and disagreeable\nmisunderstandings will produce coldness and indifference.",
+      "translation_ko": "가시덤불에 얽힌 험한 길을 걷는 꿈은, 사업이 얽혀 몹시 괴롭고 불쾌한 오해로 냉담과 무관심이 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "걷기",
+    "term_en": "walking",
+    "context": "쾌적한 곳을 걸음",
+    "interpretation_ko": "행운과 은혜를 누릴 조짐",
+    "interpretation_en": "you will be the possessor of fortune and favor",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Walking",
+      "original": "To walk in pleasant places, you will be the possessor of fortune and favor.",
+      "translation_ko": "쾌적한 곳을 걷는 꿈은, 행운과 은혜를 누릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "걷기",
+    "term_en": "walking",
+    "context": "밤에 걸음",
+    "interpretation_ko": "불행한 일과 헛된 만족을 향한 몸부림을 부를 조짐",
+    "interpretation_en": "brings misadventure, and unavailing struggle for contentment",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Walking",
+      "original": "To walk in the night brings misadventure, and unavailing\nstruggle for contentment.",
+      "translation_ko": "밤에 걷는 꿈은, 불행한 일과 헛된 만족을 향한 몸부림을 부를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "걷기",
+    "term_en": "walking",
+    "context": "젊은 여성이 꿈속에서 빠르게 걷고 있음",
+    "interpretation_ko": "재산을 물려받고 몹시 바라던 것을 갖게 될 조짐",
+    "interpretation_en": "denotes that she will inherit some property, and will possess a much desired object",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Walking",
+      "original": "For a young woman to find herself walking rapidly in her dreams,\ndenotes that she will inherit some property, and will possess\na much desired object.",
+      "translation_ko": "젊은 여성이 꿈속에서 빠르게 걷고 있는 꿈은, 재산을 물려받고 몹시 바라던 것을 갖게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지팡이",
+    "term_en": "walking stick",
+    "context": "지팡이를 봄",
+    "interpretation_ko": "제대로 헤아리지 않고 계약을 맺어 결국 낭패를 볼 조짐",
+    "interpretation_en": "foretells you will enter into contracts without proper deliberation, and will consequently suffer reverses",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Walking Stick",
+      "original": "To see a walking stick in a dream, foretells you will enter into contracts\nwithout proper deliberation, and will consequently suffer reverses.",
+      "translation_ko": "지팡이를 보는 꿈은, 제대로 헤아리지 않고 계약을 맺어 결국 낭패를 볼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지팡이",
+    "term_en": "walking stick",
+    "context": "지팡이를 짚고 걸음",
+    "interpretation_ko": "남의 조언에 기대게 될 조짐",
+    "interpretation_en": "you will be dependent upon the advice of others",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Walking Stick",
+      "original": "If you use one in walking, you will be dependent upon the advice of others.",
+      "translation_ko": "지팡이를 짚고 걷는 꿈은, 남의 조언에 기대게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지팡이",
+    "term_en": "walking stick",
+    "context": "멋진 지팡이에 감탄함",
+    "interpretation_ko": "남에게 이익을 맡기지만 그들은 신의를 지킬 조짐",
+    "interpretation_en": "you will entrust your interest to others, but they will be faithful",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Walking Stick",
+      "original": "To admire handsome ones, you will entrust your interest to others,\nbut they will be faithful.",
+      "translation_ko": "멋진 지팡이에 감탄하는 꿈은, 남에게 이익을 맡기지만 그들은 신의를 지킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지갑",
+    "term_en": "pocketbook",
+    "context": "지갑을 봄",
+    "interpretation_ko": "유쾌한 성격의 부담이 생겨 떠안을지 스스로 헤아리게 될 조짐",
+    "interpretation_en": "foretells burdens of a pleasant nature will await your discretion as to assuming them",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wallet",
+      "original": "To see wallets in a dream, foretells burdens of a pleasant\nnature will await your discretion as to assuming them.",
+      "translation_ko": "지갑을 보는 꿈은, 유쾌한 성격의 부담이 생겨 떠안을지 스스로 헤아리게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "지갑",
+    "term_en": "pocketbook",
+    "context": "낡거나 더러운 지갑을 봄",
+    "interpretation_ko": "노력에서 좋지 않은 결과를 얻을 조짐",
+    "interpretation_en": "implies unfavorable results from your labors",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wallet",
+      "original": "An old or soiled one, implies unfavorable results from your labors.",
+      "translation_ko": "낡거나 더러운 지갑을 보는 꿈은, 노력에서 좋지 않은 결과를 얻을 조짐이다"
+    }
+  }
+]

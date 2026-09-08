@@ -5603,6 +5603,8 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "pocketbook::빈 지갑을 찾아냄": "비어 텅빈 비었다",
   "pocketbook::지갑을 잃어버림": "잃어버렸 잃어버린",
   "pocketbook::지갑에 다이아몬드와 새 지폐가 가득함": "다이아몬드 가득",
+  "pocketbook::지갑을 봄": "그냥",
+  "pocketbook::낡거나 더러운 지갑을 봄": "낡거나 더러운",
   "poison::제가 독에 중독됨": "제가",
   "poison::남에게 독을 쓰려 함": "남에게 쓰려",
   "poison::처녀가 이런 방법으로 연적을 없애려 함": "연적을 없애려",
@@ -6479,5 +6481,12 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "shirt-waist::블라우스를 입어 봄": "입어",
   "shirt-waist::블라우스를 몸에 맞게 고쳐 입는 데 성공함": "고쳐",
   "waiter::웨이터를 봄": "그냥",
-  "waiter::무례하거나 무질서한 웨이터를 봄": "무례하거나 무질서한"
+  "waiter::무례하거나 무질서한 웨이터를 봄": "무례하거나 무질서한",
+  "walking::가시덤불에 얽힌 험한 길을 걸음": "가시덤불",
+  "walking::쾌적한 곳을 걸음": "쾌적한",
+  "walking::밤에 걸음": "밤에",
+  "walking::젊은 여성이 꿈속에서 빠르게 걷고 있음": "빠르게",
+  "walking-stick::지팡이를 봄": "그냥",
+  "walking-stick::지팡이를 짚고 걸음": "짚고 걸음",
+  "walking-stick::멋진 지팡이에 감탄함": "감탄"
 };
