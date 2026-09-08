@@ -1,0 +1,26 @@
+{
+  "batch": 313,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "White Lead",
+      "text": "To dream of white lead, denotes relatives or children are in danger\nbecause of your carelessness.  Prosperity will be chary of favor.",
+      "note": "새 상징 연백(white lead)"
+    },
+    {
+      "headword": "White Moth",
+      "text": "To dream of a white moth, foretells unavoidable sickness,\nthough you will be tempted to accuse yourself or some other\nwith wrong-doing, which you think causes the complaint.\nFor a woman to see one flying around in the room at night,\nforebodes unrequited wishes and disposition which will\neffect the enjoyment of other people.  To see a moth flying\nand finally settling upon something, or disappearing totally,\nforeshadows death of friends or relatives.",
+      "note": "기존 moth(나방) 상징에 합쳤다 — 밀러 자신의 Moth 표제어가 이미 그 상징을 이루고 있다. 색깔(흰)로 갈라 판별한다"
+    },
+    {
+      "headword": "Whitewash",
+      "text": "To dream that you are whitewashing, foretells that you will seek\nto reinstate yourself with friends by ridding yourself of offensive\nhabits and companions.\n\nFor a young woman, this dream is significant of well-laid plans\nto deceive others and gain back her lover who has been estranged\nby her insinuating bearing toward him.",
+      "note": "새 상징 회칠(whitewash)"
+    },
+    {
+      "headword": "Widow",
+      "text": "To dream that you are a widow, foretells that you will have many troubles\nthrough malicious persons.\n\nFor a man to dream that he marries a widow, denotes he will see\nsome cherished undertaking crumble down in disappointment.",
+      "note": "새 상징 과부(widow)"
+    }
+  ]
+}

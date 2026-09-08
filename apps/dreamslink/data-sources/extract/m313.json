@@ -1,0 +1,122 @@
+[
+  {
+    "term_ko": "연백",
+    "term_en": "white lead",
+    "context": "연백 꿈을 꿈",
+    "interpretation_ko": "부주의 때문에 친척이나 아이가 위험에 처하고, 번영도 인색해질 조짐",
+    "interpretation_en": "denotes relatives or children are in danger because of your carelessness. Prosperity will be chary of favor",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "White Lead",
+      "original": "To dream of white lead, denotes relatives or children are in danger\nbecause of your carelessness.  Prosperity will be chary of favor.",
+      "translation_ko": "연백 꿈은, 부주의 때문에 친척이나 아이가 위험에 처하고 번영도 인색해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나방",
+    "term_en": "moth",
+    "context": "흰 나방 꿈을 꿈",
+    "interpretation_ko": "피할 수 없는 병을 예고하나, 그 탓을 자신이나 남에게 돌리고 싶은 유혹을 느낄 조짐",
+    "interpretation_en": "foretells unavoidable sickness, though you will be tempted to accuse yourself or some other with wrong-doing, which you think causes the complaint",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "White Moth",
+      "original": "To dream of a white moth, foretells unavoidable sickness,\nthough you will be tempted to accuse yourself or some other\nwith wrong-doing, which you think causes the complaint.",
+      "translation_ko": "흰 나방 꿈은, 피할 수 없는 병을 예고하나 그 탓을 자신이나 남에게 돌리고 싶은 유혹을 느낄 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나방",
+    "term_en": "moth",
+    "context": "여성이 밤에 방 안을 날아다니는 흰 나방을 봄",
+    "interpretation_ko": "이루지 못한 바람과, 남의 즐거움을 해치는 기질을 예고하는 조짐",
+    "interpretation_en": "forebodes unrequited wishes and disposition which will effect the enjoyment of other people",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "White Moth",
+      "original": "For a woman to see one flying around in the room at night,\nforebodes unrequited wishes and disposition which will\neffect the enjoyment of other people.",
+      "translation_ko": "여성이 밤에 방 안을 날아다니는 흰 나방을 보는 꿈은, 이루지 못한 바람과 남의 즐거움을 해치는 기질을 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "나방",
+    "term_en": "moth",
+    "context": "나방이 날다가 무언가에 내려앉거나 완전히 사라짐",
+    "interpretation_ko": "벗이나 친척의 죽음을 예고하는 조짐",
+    "interpretation_en": "foreshadows death of friends or relatives",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "White Moth",
+      "original": "To see a moth flying\nand finally settling upon something, or disappearing totally,\nforeshadows death of friends or relatives.",
+      "translation_ko": "나방이 날다가 무언가에 내려앉거나 완전히 사라지는 꿈은, 벗이나 친척의 죽음을 예고하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "회칠",
+    "term_en": "whitewash",
+    "context": "스스로 회칠을 함",
+    "interpretation_ko": "못마땅한 버릇과 동무를 버려 벗들에게 다시 자리를 되찾으려 할 조짐",
+    "interpretation_en": "foretells that you will seek to reinstate yourself with friends by ridding yourself of offensive habits and companions",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Whitewash",
+      "original": "To dream that you are whitewashing, foretells that you will seek\nto reinstate yourself with friends by ridding yourself of offensive\nhabits and companions.",
+      "translation_ko": "스스로 회칠을 하는 꿈은, 못마땅한 버릇과 동무를 버려 벗들에게 다시 자리를 되찾으려 할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "회칠",
+    "term_en": "whitewash",
+    "context": "젊은 여성이 스스로 회칠을 함",
+    "interpretation_ko": "은근한 태도로 멀어진 연인의 마음을 되돌리려 남을 속이는 치밀한 계획을 뜻하는 조짐",
+    "interpretation_en": "is significant of well-laid plans to deceive others and gain back her lover who has been estranged by her insinuating bearing toward him",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Whitewash",
+      "original": "For a young woman, this dream is significant of well-laid plans\nto deceive others and gain back her lover who has been estranged\nby her insinuating bearing toward him.",
+      "translation_ko": "젊은 여성이 스스로 회칠을 하는 꿈은, 은근한 태도로 멀어진 연인의 마음을 되돌리려 남을 속이는 치밀한 계획을 뜻하는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "과부",
+    "term_en": "widow",
+    "context": "스스로 과부임을 봄",
+    "interpretation_ko": "악의적인 사람들 때문에 여러 어려움을 겪을 조짐",
+    "interpretation_en": "foretells that you will have many troubles through malicious persons",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Widow",
+      "original": "To dream that you are a widow, foretells that you will have many troubles\nthrough malicious persons.",
+      "translation_ko": "스스로 과부임을 보는 꿈은, 악의적인 사람들 때문에 여러 어려움을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "과부",
+    "term_en": "widow",
+    "context": "남자가 과부와 혼인함",
+    "interpretation_ko": "소중히 여기던 일이 실망 속에 무너지는 것을 볼 조짐",
+    "interpretation_en": "denotes he will see some cherished undertaking crumble down in disappointment",
+    "polarity": "negative",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Widow",
+      "original": "For a man to dream that he marries a widow, denotes he will see\nsome cherished undertaking crumble down in disappointment.",
+      "translation_ko": "남자가 과부와 혼인하는 꿈은, 소중히 여기던 일이 실망 속에 무너지는 것을 볼 조짐이다"
+    }
+  }
+]

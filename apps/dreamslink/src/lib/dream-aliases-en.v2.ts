@@ -8474,5 +8474,16 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "whistle": [
     "whistle",
     "whistling"
+  ],
+  "white-lead": [
+    "white lead"
+  ],
+  "whitewash": [
+    "whitewash",
+    "whitewashing"
+  ],
+  "widow": [
+    "widow",
+    "a widow"
   ]
 };

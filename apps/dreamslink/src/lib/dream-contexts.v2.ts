@@ -716,6 +716,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "leech::거머리에게 물림": "bite danger unexpected heed warning",
   "moth::나방이 등불로 날아듦": "lamp flame flew",
   "moth::나방을 봄": "small worries hurried contracts unsatisfactory",
+  "moth::흰 나방 꿈을 꿈": "unavoidable sickness accuse",
+  "moth::여성이 밤에 방 안을 날아다니는 흰 나방을 봄": "night room unrequited",
+  "moth::나방이 날다가 무언가에 내려앉거나 완전히 사라짐": "settling disappearing death",
   "music::남이 풍악을 울림": "others played",
   "music::고운 가락의 풍악을 들음": "harmonious pleasure prosperity",
   "music::어지러운 가락의 풍악을 들음": "discordant unruly children household",
@@ -6611,5 +6614,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "whispering::조언이나 경고로 다가오는 속삭임을 들음": "advice warning counsel",
   "whistle::휘파람 소리를 들음": "hear shocked sad intelligence",
   "whistle::스스로 휘파람을 붊": "merry occasion figure",
-  "whistle::젊은 여성이 스스로 휘파람을 붊": "young woman indiscreet failure"
+  "whistle::젊은 여성이 스스로 휘파람을 붊": "young woman indiscreet failure",
+  "whitewash::스스로 회칠을 함": "reinstate friends ridding",
+  "whitewash::젊은 여성이 스스로 회칠을 함": "deceive lover estranged",
+  "widow::스스로 과부임을 봄": "troubles malicious persons",
+  "widow::남자가 과부와 혼인함": "marries cherished crumble"
 };

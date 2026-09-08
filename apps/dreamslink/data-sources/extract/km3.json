@@ -1098,11 +1098,17 @@
     ],
     "contexts": {
       "나방이 등불로 날아듦": "등불 불빛 날아들",
-      "나방을 봄": "팔랑 훨훨"
+      "나방을 봄": "팔랑 훨훨",
+      "흰 나방 꿈을 꿈": "피할 없는",
+      "여성이 밤에 방 안을 날아다니는 흰 나방을 봄": "밤에",
+      "나방이 날다가 무언가에 내려앉거나 완전히 사라짐": "내려앉거나 내려앉았"
     },
     "contexts_en": {
       "나방이 등불로 날아듦": "lamp flame flew",
-      "나방을 봄": "small worries hurried contracts unsatisfactory"
+      "나방을 봄": "small worries hurried contracts unsatisfactory",
+      "흰 나방 꿈을 꿈": "unavoidable sickness accuse",
+      "여성이 밤에 방 안을 날아다니는 흰 나방을 봄": "night room unrequited",
+      "나방이 날다가 무언가에 내려앉거나 완전히 사라짐": "settling disappearing death"
     }
   },
   {

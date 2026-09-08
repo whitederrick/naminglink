@@ -1,0 +1,55 @@
+[
+  {
+    "id": "white-lead",
+    "aliases": [
+      "연백이",
+      "연백을"
+    ],
+    "aliases_en": [
+      "white lead"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "whitewash",
+    "aliases": [
+      "회칠이",
+      "회칠을",
+      "회칠하"
+    ],
+    "aliases_en": [
+      "whitewash",
+      "whitewashing"
+    ],
+    "contexts": {
+      "스스로 회칠을 함": "그냥",
+      "젊은 여성이 스스로 회칠을 함": "젊은 여성이"
+    },
+    "contexts_en": {
+      "스스로 회칠을 함": "reinstate friends ridding",
+      "젊은 여성이 스스로 회칠을 함": "deceive lover estranged"
+    }
+  },
+  {
+    "id": "widow",
+    "aliases": [
+      "과부가",
+      "과부를",
+      "과부와",
+      "과부임을"
+    ],
+    "aliases_en": [
+      "widow",
+      "a widow"
+    ],
+    "contexts": {
+      "스스로 과부임을 봄": "그냥",
+      "남자가 과부와 혼인함": "혼인함 혼인했"
+    },
+    "contexts_en": {
+      "스스로 과부임을 봄": "troubles malicious persons",
+      "남자가 과부와 혼인함": "marries cherished crumble"
+    }
+  }
+]
