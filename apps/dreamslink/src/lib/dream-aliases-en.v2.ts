@@ -1464,7 +1464,6 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "liquor": [
     "alcohol",
-    "wine",
     "drinking",
     "booze"
   ],
@@ -8515,5 +8514,24 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "window",
     "windows",
     "a window"
+  ],
+  "wine": [
+    "wine",
+    "a glass of wine",
+    "drinking wine"
+  ],
+  "wine-cellar": [
+    "wine-cellar",
+    "a wine cellar",
+    "wine cellar"
+  ],
+  "wine-glass": [
+    "wine-glass",
+    "a wine glass",
+    "wine glass"
+  ],
+  "winter": [
+    "winter",
+    "wintertime"
   ]
 };

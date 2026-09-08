@@ -243,6 +243,7 @@
     "m313.json",
     "m314.json",
     "m315.json",
+    "m316.json",
     "m32.json",
     "m33.json",
     "m34.json",
@@ -47199,6 +47200,107 @@
               "locator": "金銀珠玉絹帛",
               "original": "家中分財主離敗",
               "translation_ko": "집안에서 재물을 나누면 헤어지고 무너진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "term_ko": "포도주",
+      "term_en": "wine",
+      "aliases": [
+        "와인"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "포도주를 마심",
+          "interpretation_ko": "기쁨과 그로 인한 우정이 따를 조짐",
+          "interpretation_en": "forebodes joy and consequent friendships",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wine",
+              "original": "To dream of drinking wine, forebodes joy and consequent friendships.",
+              "translation_ko": "포도주를 마시는 꿈은, 기쁨과 그로 인한 우정이 따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "포도주 병을 깨뜨림",
+          "interpretation_ko": "사랑과 정열이 도를 넘어설 조짐",
+          "interpretation_en": "your love and passion will border on excess",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wine",
+              "original": "To dream of breaking bottles of wine, foretells that your love\nand passion will border on excess.",
+              "translation_ko": "포도주 병을 깨뜨리는 꿈은, 사랑과 정열이 도를 넘어설 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "포도주가 든 통을 봄",
+          "interpretation_ko": "큰 사치를 누릴 조짐",
+          "interpretation_en": "prognosticates great luxury",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wine",
+              "original": "To see barrels of wine, prognosticates great luxury.",
+              "translation_ko": "포도주가 든 통을 보는 꿈은, 큰 사치를 누릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "포도주를 이 그릇에서 저 그릇으로 따름",
+          "interpretation_ko": "즐거움이 다채로워지고 여러 명소를 여행하게 될 조짐",
+          "interpretation_en": "your enjoyments will be varied and you will journey to many notable places",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wine",
+              "original": "To pour\nit from one vessel into another, signifies that your enjoyments\nwill be varied and you will journey to many notable places.",
+              "translation_ko": "포도주를 이 그릇에서 저 그릇으로 따르는 꿈은, 즐거움이 다채로워지고 여러 명소를 여행하게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "포도주를 다루는 일을 함",
+          "interpretation_ko": "하는 일이 벌이가 좋을 조짐",
+          "interpretation_en": "your occupation will be remunerative",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wine",
+              "original": "To dream of dealing in wine denotes that your occupation will be remunerative.",
+              "translation_ko": "포도주를 다루는 일을 하는 꿈은, 하는 일이 벌이가 좋을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 포도주를 마심",
+          "interpretation_ko": "부유하면서도 훌륭한 신사와 혼인할 조짐",
+          "interpretation_en": "she will marry a wealthy gentleman, but withal honorable",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wine",
+              "original": "For a young woman to dream of drinking wine, indicates she will marry\na wealthy gentleman, but withal honorable.",
+              "translation_ko": "젊은 여성이 포도주를 마시는 꿈은, 부유하면서도 훌륭한 신사와 혼인할 조짐이다"
             }
           ]
         }
@@ -94511,6 +94613,67 @@
       ]
     },
     {
+      "id": "wings",
+      "term_ko": "날개",
+      "term_en": "wings",
+      "aliases": [
+        "날갯짓",
+        "양날개"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "자신에게 날개가 있음",
+          "interpretation_ko": "먼 길 떠난 누군가의 안전이 크게 걱정될 조짐",
+          "interpretation_en": "you will experience grave fears for the safety of some one gone on a long journey away from you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wings",
+              "original": "To dream that you have wings, foretells that you will experience grave\nfears for the safety of some one gone on a long journey away from you.",
+              "translation_ko": "자신에게 날개가 있는 꿈은, 먼 길 떠난 누군가의 안전이 크게 걱정될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "날짐승이나 새의 날개를 봄",
+          "interpretation_ko": "마침내 역경을 이겨 내고 부귀와 명예를 얻을 조짐",
+          "interpretation_en": "you will finally overcome adversity and rise to wealthy degrees and honor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wings",
+              "original": "To see the wings of fowls or birds, denotes that you will finally\novercome adversity and rise to wealthy degrees and honor.",
+              "translation_ko": "날짐승이나 새의 날개를 보는 꿈은, 마침내 역경을 이겨 내고 부귀와 명예를 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "몸에 날개가 돋아 낢",
+          "interpretation_ko": "크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "帝王文武呼召",
+              "original": "身生羽翼飛大吉",
+              "translation_ko": "몸에 날개가 돋아 날면 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wolf",
       "term_ko": "이리",
       "term_en": "wolf",
@@ -138507,32 +138670,98 @@
       ]
     },
     {
-      "id": "wings",
-      "term_ko": "날개",
-      "term_en": "wings",
+      "id": "wine-cellar",
+      "term_ko": "포도주 저장고",
+      "term_en": "wine-cellar",
       "aliases": [
-        "날갯짓",
-        "양날개"
+        "와인 저장고",
+        "포도주 창고",
+        "와인 창고"
       ],
-      "category": "body",
+      "category": "object",
       "polarity": "positive",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "몸에 날개가 돋아 낢",
-          "interpretation_ko": "크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign",
+          "context": "포도주 저장고 꿈을 꿈",
+          "interpretation_ko": "훌륭한 여흥이나 즐거움이 뜻대로 누릴 수 있게 찾아올 조짐",
+          "interpretation_en": "superior amusements or pleasure will come in your way, to be disposed of at your bidding",
           "polarity": "positive",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "帝王文武呼召",
-              "original": "身生羽翼飛大吉",
-              "translation_ko": "몸에 날개가 돋아 날면 크게 길하다"
+              "work": "miller",
+              "locator": "Wine-cellar",
+              "original": "To dream of a wine-cellar, foretells superior amusements or pleasure\nwill come in your way, to be disposed of at your bidding.",
+              "translation_ko": "포도주 저장고 꿈은, 훌륭한 여흥이나 즐거움이 뜻대로 누릴 수 있게 찾아올 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wine-glass",
+      "term_ko": "포도주잔",
+      "term_en": "wine-glass",
+      "aliases": [
+        "와인잔",
+        "포도주 잔",
+        "와인 잔"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "포도주잔을 봄",
+          "interpretation_ko": "실망스러운 일이 심각하게 영향을 미쳐, 곤경을 깨닫고 충격받기 전까지는 즐거운 것을 보지 못할 조짐",
+          "interpretation_en": "a disappointment will affect you seriously, as you will fail to see anything pleasing until shocked into the realization of trouble",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wine-glass",
+              "original": "To dream of a wine-glass, foretells that a disappointment will affect\nyou seriously, as you will fail to see anything pleasing until shocked\ninto the realization of trouble.",
+              "translation_ko": "포도주잔을 보는 꿈은, 실망스러운 일이 심각하게 영향을 미쳐 곤경을 깨닫고 충격받기 전까지는 즐거운 것을 보지 못할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "winter",
+      "term_ko": "겨울",
+      "term_en": "winter",
+      "aliases": [
+        "겨울철",
+        "한겨울"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "겨울 꿈을 꿈",
+          "interpretation_ko": "건강이 나빠지고 앞으로 운이 순조롭게 풀리지 않으리라는 우울한 전조이며, 이 꿈을 꾼 뒤로는 애쓴 일이 만족스러운 결과를 내지 못할 조짐",
+          "interpretation_en": "is a prognostication of ill-health and dreary prospects for the favorable progress of fortune. After this dream your efforts will not yield satisfactory results",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Winter",
+              "original": "To dream of winter, is a prognostication of ill-health\nand dreary prospects for the favorable progress of fortune.\nAfter this dream your efforts will not yield satisfactory results.",
+              "translation_ko": "겨울 꿈은, 건강이 나빠지고 앞으로 운이 순조롭게 풀리지 않으리라는 우울한 전조이며, 이 꿈을 꾼 뒤로는 애쓴 일이 만족스러운 결과를 내지 못할 조짐이다"
             }
           ]
         }

@@ -1,0 +1,31 @@
+{
+  "batch": 316,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Wine",
+      "text": "To dream of drinking wine, forebodes joy and consequent friendships.\n\nTo dream of breaking bottles of wine, foretells that your love\nand passion will border on excess.\n\nTo see barrels of wine, prognosticates great luxury.  To pour\nit from one vessel into another, signifies that your enjoyments\nwill be varied and you will journey to many notable places.\n\nTo dream of dealing in wine denotes that your occupation will be remunerative.\n\nFor a young woman to dream of drinking wine, indicates she will marry\na wealthy gentleman, but withal honorable.",
+      "note": "새 상징 포도주(wine). liquor(술)의 aliases_en에 있던 범용 \"wine\"을 회수해 받았다 — liquor는 소주·막걸리·맥주 등과 함께 나열된 범용어일 뿐 전용 문맥이 없었다. \"barrels of wine\"과 \"pour it from one vessel into another\"는 한 문단에 이어 적혔지만 서로 다른 그림·판단이라 둘로 나눴다. 대표(첫) 의미(포도주를 마심)는 판별어를 비워 두고, 젊은 여성 조건은 \"여성이\"류로 갈랐다."
+    },
+    {
+      "headword": "Wine-cellar",
+      "text": "To dream of a wine-cellar, foretells superior amusements or pleasure\nwill come in your way, to be disposed of at your bidding.",
+      "note": "새 상징 포도주 저장고(wine-cellar). 기존 cellar(지하 저장고)가 별칭으로 \"포도주 저장실\"을 이미 쥐고 있어 그와 겹치지 않는 낱말(\"와인 저장고\"·\"포도주 창고\")로 별칭을 지었다. Miller 자신이 Cellar와 Wine-cellar를 별개 표제어·별개 판단으로 다뤄 병합하지 않았다."
+    },
+    {
+      "headword": "Wine-glass",
+      "text": "To dream of a wine-glass, foretells that a disappointment will affect\nyou seriously, as you will fail to see anything pleasing until shocked\ninto the realization of trouble.",
+      "note": "새 상징 포도주잔(wine-glass)."
+    },
+    {
+      "headword": "Wings",
+      "text": "To dream that you have wings, foretells that you will experience grave\nfears for the safety of some one gone on a long journey away from you.\n\nTo see the wings of fowls or birds, denotes that you will finally\novercome adversity and rise to wealthy degrees and honor.",
+      "note": "기존 wings(날개, zhougong \"몸에 날개가 돋아 낢\" 하나뿐이던 상징)에 문맥 둘을 나눠 붙였다. 의미가 셋이 되며 판별어 표가 비어 있던 것도 셋 다 채웠다. 파일명 정렬(m316 < r5)로 기본값이 zhougong \"몸에 날개가 돋아 낢\"(날개가 돋아 나는 특정 행동)에서 Miller \"자신에게 날개가 있음\"(그냥 날개가 있음, 더 막연함)으로 바뀌어 FALLBACK_FIRST로 얼렸다 — 새 답이 더 막연해 수용."
+    },
+    {
+      "headword": "Winter",
+      "text": "To dream of winter, is a prognostication of ill-health\nand dreary prospects for the favorable progress of fortune.\nAfter this dream your efforts will not yield satisfactory results.",
+      "note": "새 상징 겨울(winter, category nature — autumn·day와 같은 자리)."
+    }
+  ]
+}

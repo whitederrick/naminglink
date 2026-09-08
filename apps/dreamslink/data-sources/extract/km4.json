@@ -1179,7 +1179,15 @@
       "winged",
       "feathered wings"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "자신에게 날개가 있음": "그냥",
+      "몸에 날개가 돋아 낢": "돋아났 돋았 솟아났",
+      "날짐승이나 새의 날개를 봄": "새의 날짐승"
+    },
+    "contexts_en": {
+      "자신에게 날개가 있음": "grave fears journey",
+      "몸에 날개가 돋아 낢": "grew flew auspicious",
+      "날짐승이나 새의 날개를 봄": "fowls overcome honor"
+    }
   }
 ]

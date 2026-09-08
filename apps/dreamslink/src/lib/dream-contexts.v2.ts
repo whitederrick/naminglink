@@ -970,6 +970,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "salt::소금 꿈을 꿈": "discordant surroundings awry",
   "salt::고기에 소금을 침": "meat debts mortgages",
   "salt::소금을 먹음": "auspicious sign",
+  "wings::자신에게 날개가 있음": "grave fears journey",
+  "wings::몸에 날개가 돋아 낢": "grew flew auspicious",
+  "wings::날짐승이나 새의 날개를 봄": "fowls overcome honor",
   "sword::깃발과 칼이 산속으로 이끌어 들임": "banner flag mountain",
   "sword::칼을 뽑아 들고 길을 나섬": "journey traveled departed setting",
   "sword::남에게서 칼을 얻음": "received obtained acquired",
@@ -6647,5 +6650,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "window::창가에 앉음": "sit victim folly",
   "window::창문으로 집에 들어감": "enter dishonorable consummate",
   "window::창문으로 빠져나감": "escape trouble toils",
-  "window::지나가며 창문 너머로 낯선 것들을 봄": "passing strange objects avocation"
+  "window::지나가며 창문 너머로 낯선 것들을 봄": "passing strange objects avocation",
+  "wine::포도주를 마심": "joy friendships",
+  "wine::포도주 병을 깨뜨림": "breaking bottles excess",
+  "wine::포도주가 든 통을 봄": "barrels luxury",
+  "wine::포도주를 이 그릇에서 저 그릇으로 따름": "pour vessel varied",
+  "wine::포도주를 다루는 일을 함": "dealing occupation remunerative",
+  "wine::젊은 여성이 포도주를 마심": "woman marry gentleman"
 };
