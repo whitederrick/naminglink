@@ -248,6 +248,7 @@
     "m318.json",
     "m319.json",
     "m32.json",
+    "m320.json",
     "m33.json",
     "m34.json",
     "m35.json",
@@ -5892,6 +5893,345 @@
       ]
     },
     {
+      "id": "letter",
+      "term_ko": "편지",
+      "term_en": "letter",
+      "aliases": [
+        "서신",
+        "서한",
+        "봉투",
+        "등기편지",
+        "편지지",
+        "글씨를",
+        "글씨가",
+        "낯선 글씨"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "편지를 봉함",
+          "interpretation_ko": "일이 막힘없이 풀릴 조짐",
+          "interpretation_en": "a sign that matters will proceed without obstruction",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "封書信者主通達",
+              "translation_ko": "편지를 봉하면 일이 막힘없이 통한다"
+            }
+          ]
+        },
+        {
+          "context": "봉투를 봄",
+          "interpretation_ko": "슬픈 기별이 올 흉한 조짐",
+          "interpretation_en": "omens news of a sorrowful cast",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Envelope",
+              "original": "Envelopes seen in a dream, omens news of a sorrowful cast.",
+              "translation_ko": "꿈에 보이는 봉투는 슬픈 기별의 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "글씨를 봄",
+          "interpretation_ko": "부주의한 행실로 질책받고 소송으로 곤란을 겪을 조짐",
+          "interpretation_en": "you will be upbraided for your careless conduct and a lawsuit may cause you embarrassment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Writing",
+              "original": "To see writing, denotes that you will be upbraided for your careless\nconduct and a lawsuit may cause you embarrassment.",
+              "translation_ko": "글씨를 보는 꿈은, 부주의한 행실로 질책받고 소송으로 곤란을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "낯선 글씨를 읽으려 애씀",
+          "interpretation_ko": "이 꿈 뒤로 새로운 투기를 하지 않아야만 적을 피할 조짐",
+          "interpretation_en": "you will escape enemies only by making no new speculation after this dream",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Writing",
+              "original": "To try to read strange writing, signifies that you will escape\nenemies only by making no new speculation after this dream.",
+              "translation_ko": "낯선 글씨를 읽으려 애쓰는 꿈은, 이 꿈 뒤로 새로운 투기를 하지 않아야만 적을 피할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 등기 편지를 받음",
+          "interpretation_ko": "살림 밑천을 받게 되나 그것이 법도에도 도리에도 맞지 않고, 남들이 떳떳하지 못하게 굴 흉한 조짐",
+          "interpretation_en": "intimates that she will be offered a competency, but it will not be on strictly legal, or moral grounds; others may play towards her a dishonorable part",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "For a young woman to dream that she receives such a letter, intimates that she will be offered a competency, but it will not be on strictly legal, or moral grounds; others may play towards her a dishonorable part.",
+              "translation_ko": "젊은 여성이 그런 편지를 받는 꿈은, 살림 밑천을 받게 되나 그것이 법도에도 도리에도 맞지 않고 남들이 저를 떳떳하지 못하게 대할 것을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "등기 편지를 봄",
+          "interpretation_ko": "돈 문제로 오래 이어 온 사이가 틀어질 흉한 조짐. 정인이 이 꿈을 꾸면 마음에 차지 않는 짝을 만나게 된다",
+          "interpretation_en": "foretells that some money matters will disrupt long-established relations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "To dream that you see a registered letter, foretells that some money matters will disrupt long-established relations.",
+              "translation_ko": "등기 편지를 보는 꿈은, 돈 문제로 오래 이어 온 사이가 틀어짐을 뜻한다"
+            },
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "To the lover, this bears heavy presentments of disagreeable mating. His sweetheart will covet other gifts than his own.",
+              "translation_ko": "정인에게 이 꿈은 마음에 차지 않는 짝을 만날 무거운 조짐이다 — 제 짝이 제가 주는 것 말고 다른 선물을 탐낸다"
+            }
+          ]
+        },
+        {
+          "context": "익명의 편지를 봄",
+          "interpretation_ko": "생각지도 못한 데서 해를 입을 흉한 조짐",
+          "interpretation_en": "denotes that you will receive injury from an unsuspected source",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "To dream of an anonymous letter, denotes that you will receive injury from an unsuspected source.",
+              "translation_ko": "이름을 밝히지 않은 편지의 꿈은, 생각지도 못한 데서 해를 입음을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "궂은 기별이 담긴 편지를 받음",
+          "interpretation_ko": "어려운 일이 생기거나 병이 들 흉한 조짐",
+          "interpretation_en": "denotes difficulties or illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "To dream of getting letters bearing unpleasant news, denotes difficulties or illness.",
+              "translation_ko": "궂은 기별이 담긴 편지를 받는 꿈은, 어려운 일이 생기거나 병이 듦을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "기쁜 기별이 담긴 편지를 받음",
+          "interpretation_ko": "고마워할 일이 많이 생길 길한 조짐",
+          "interpretation_en": "you will have many things to be thankful for",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "If the news is of a joyous character, you will have many things to be thankful for.",
+              "translation_ko": "기별이 기쁜 것이면 고마워할 일이 많이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "초록빛 종이에 쓴 정다운 편지",
+          "interpretation_ko": "사랑에서도 일에서도 푸대접을 받고 마음이 가라앉을 흉한 조짐",
+          "interpretation_en": "you will be slighted in love and business; despondency will envelop you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "If the letter is affectionate, but is written on green, or colored, paper, you will be slighted in love and business. Despondency will envelop you.",
+              "translation_ko": "편지가 정답더라도 초록빛이나 빛깔 있는 종이에 쓴 것이면, 사랑에서도 일에서도 푸대접을 받고 마음이 가라앉는다"
+            }
+          ]
+        },
+        {
+          "context": "파란 잉크로 쓴 편지",
+          "interpretation_ko": "한결같은 마음과 사랑, 그리고 밝은 복을 뜻하는 길한 조짐",
+          "interpretation_en": "denotes constancy and affection, also bright fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "Blue ink, denotes constancy and affection, also bright fortune.",
+              "translation_ko": "파란 잉크는 한결같은 마음과 사랑, 그리고 밝은 복을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "붉은 빛깔이 든 편지",
+          "interpretation_ko": "의심과 시샘으로 사이가 멀어지나, 의심받는 쪽이 슬기롭게 처신하면 넘어설 수 있는 조짐",
+          "interpretation_en": "imply estrangements through suspicion and jealousy, but this may be overcome by wise maneuvering of the suspected party",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "Red colors in a letter, imply estrangements through suspicion and jealousy, but this may be overcome by wise maneuvering of the suspected party.",
+              "translation_ko": "편지에 든 붉은 빛깔은 의심과 시샘으로 사이가 멀어짐을 뜻하나, 의심받는 쪽이 슬기롭게 처신하면 넘어설 수 있다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 정인의 편지를 가슴에 품음",
+          "interpretation_ko": "잘생긴 맞수 때문에 몹시 애태울 흉한 조짐",
+          "interpretation_en": "she will be worried very much by a good-looking rival",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "If a young woman dreams that she receives a letter from her lover and places it near her heart, she will be worried very much by a good-looking rival.",
+              "translation_ko": "젊은 여성이 정인에게서 온 편지를 받아 가슴께에 품는 꿈을 꾸면, 잘생긴 맞수 때문에 몹시 애태운다"
+            }
+          ]
+        },
+        {
+          "context": "편지를 읽지 못함",
+          "interpretation_ko": "일에서든 사람 사이에서든 무언가를 잃을 흉한 조짐",
+          "interpretation_en": "you will lose something either in a business or social way",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "If you fail to read the letter, you will lose something either in a business or social way.",
+              "translation_ko": "편지를 읽지 못하면 일에서든 사람 사이에서든 무언가를 잃는다"
+            }
+          ]
+        },
+        {
+          "context": "편지를 가로채임",
+          "interpretation_ko": "맞수들이 제 이름을 더럽히려 움직이고 있는 흉한 조짐",
+          "interpretation_en": "rival enemies are working to defame you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "To have your letter intercepted, rival enemies are working to defame you.",
+              "translation_ko": "제 편지를 가로채이면 맞수들이 제 이름을 더럽히려 움직이고 있는 것이다"
+            }
+          ]
+        },
+        {
+          "context": "편지를 숨김",
+          "interpretation_ko": "떳떳하지 못한 일에 마음을 두고 있음을 알리는 흉한 조짐",
+          "interpretation_en": "intimates that you are interested in unworthy occupations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "To dream of trying to conceal a letter from your sweetheart or wife, intimates that you are interested in unworthy occupations.",
+              "translation_ko": "정인이나 아내에게 편지를 감추려 하는 꿈은, 떳떳하지 못한 일에 마음을 두고 있음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "검은 테두리가 둘린 편지",
+          "interpretation_ko": "괴로운 일과 살붙이의 죽음을 알리는 흉한 조짐",
+          "interpretation_en": "signifies distress and the death of some relative",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "To dream of a letter with a black border, signifies distress and the death of some relative.",
+              "translation_ko": "검은 테두리가 둘린 편지의 꿈은 괴로운 일과 살붙이의 죽음을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "검은 종이에 흰 잉크로 쓴 편지를 받음",
+          "interpretation_ko": "어둠과 실망이 덮치고 남이 도와도 거의 풀리지 않을 흉한 조짐. 부부 사이면 갈라섬을, 정인 사이면 다툼을, 장사하는 이에게는 시샘과 욕심을 뜻한다",
+          "interpretation_en": "denotes that gloom and disappointment will assail you, and friendly interposition will render small relief",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "To receive a letter written on black paper with white ink, denotes that gloom and disappointment will assail you, and friendly interposition will render small relief.",
+              "translation_ko": "검은 종이에 흰 잉크로 쓴 편지를 받으면, 어둠과 실망이 덮치고 남이 도와도 거의 풀리지 않는다"
+            }
+          ]
+        },
+        {
+          "context": "편지를 씀",
+          "interpretation_ko": "의심만으로 남을 성급히 나무라고 뒤에 뉘우칠 흉한 조짐",
+          "interpretation_en": "denotes that you will be hasty in condemning some one on suspicion, and regrets will follow",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "To dream that you write a letter, denotes that you will be hasty in condemning some one on suspicion, and regrets will follow.",
+              "translation_ko": "편지를 쓰는 꿈은, 의심만으로 남을 성급히 나무라고 뒤에 뉘우침을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "찢어진 편지를 봄",
+          "interpretation_ko": "돌이킬 수 없는 잘못이 이름을 무너뜨릴 흉한 조짐",
+          "interpretation_en": "indicates that hopeless mistakes may ruin your reputation",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "A torn letter, indicates that hopeless mistakes may ruin your reputation.",
+              "translation_ko": "찢어진 편지는 돌이킬 수 없는 잘못이 제 이름을 무너뜨림을 알린다"
+            }
+          ]
+        },
+        {
+          "context": "편지를 손으로 건네받음",
+          "interpretation_ko": "벗이나 정인에게 야박하게 굴고 있고 하는 일도 반듯하지 못함을 알리는 흉한 조짐",
+          "interpretation_en": "denotes that you are acting ungenerously towards your companions or sweetheart, and you also are not upright in your dealings",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "To receive a letter by hand, denotes that you are acting ungenerously towards your companions or sweetheart, and you also are not upright in your dealings.",
+              "translation_ko": "편지를 손으로 건네받으면, 벗이나 정인에게 야박하게 굴고 있고 하는 일도 반듯하지 못한 것이다"
+            }
+          ]
+        },
+        {
+          "context": "벗에게서 편지를 자주 받음",
+          "interpretation_ko": "그 벗이 찾아오거나 그에게서 소식이 올 길한 조짐",
+          "interpretation_en": "foretells his arrival, or you will hear from him by letter or otherwise",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Letter",
+              "original": "To dream often of receiving a letter from a friend, foretells his arrival, or you will hear from him by letter or otherwise.",
+              "translation_ko": "벗에게서 편지를 받는 꿈을 자주 꾸면, 그 벗이 찾아오거나 그에게서 소식이 온다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "apparel",
       "term_ko": "옷차림",
       "term_en": "apparel",
@@ -7130,314 +7470,6 @@
               "locator": "飲食酒肉瓜菜",
               "original": "死人食者主疾病",
               "translation_ko": "죽은 사람이 먹으면 질병이 있다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "letter",
-      "term_ko": "편지",
-      "term_en": "letter",
-      "aliases": [
-        "서신",
-        "서한",
-        "봉투",
-        "등기편지",
-        "편지지"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "편지를 봉함",
-          "interpretation_ko": "일이 막힘없이 풀릴 조짐",
-          "interpretation_en": "a sign that matters will proceed without obstruction",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "封書信者主通達",
-              "translation_ko": "편지를 봉하면 일이 막힘없이 통한다"
-            }
-          ]
-        },
-        {
-          "context": "봉투를 봄",
-          "interpretation_ko": "슬픈 기별이 올 흉한 조짐",
-          "interpretation_en": "omens news of a sorrowful cast",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Envelope",
-              "original": "Envelopes seen in a dream, omens news of a sorrowful cast.",
-              "translation_ko": "꿈에 보이는 봉투는 슬픈 기별의 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 등기 편지를 받음",
-          "interpretation_ko": "살림 밑천을 받게 되나 그것이 법도에도 도리에도 맞지 않고, 남들이 떳떳하지 못하게 굴 흉한 조짐",
-          "interpretation_en": "intimates that she will be offered a competency, but it will not be on strictly legal, or moral grounds; others may play towards her a dishonorable part",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "For a young woman to dream that she receives such a letter, intimates that she will be offered a competency, but it will not be on strictly legal, or moral grounds; others may play towards her a dishonorable part.",
-              "translation_ko": "젊은 여성이 그런 편지를 받는 꿈은, 살림 밑천을 받게 되나 그것이 법도에도 도리에도 맞지 않고 남들이 저를 떳떳하지 못하게 대할 것을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "등기 편지를 봄",
-          "interpretation_ko": "돈 문제로 오래 이어 온 사이가 틀어질 흉한 조짐. 정인이 이 꿈을 꾸면 마음에 차지 않는 짝을 만나게 된다",
-          "interpretation_en": "foretells that some money matters will disrupt long-established relations",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "To dream that you see a registered letter, foretells that some money matters will disrupt long-established relations.",
-              "translation_ko": "등기 편지를 보는 꿈은, 돈 문제로 오래 이어 온 사이가 틀어짐을 뜻한다"
-            },
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "To the lover, this bears heavy presentments of disagreeable mating. His sweetheart will covet other gifts than his own.",
-              "translation_ko": "정인에게 이 꿈은 마음에 차지 않는 짝을 만날 무거운 조짐이다 — 제 짝이 제가 주는 것 말고 다른 선물을 탐낸다"
-            }
-          ]
-        },
-        {
-          "context": "익명의 편지를 봄",
-          "interpretation_ko": "생각지도 못한 데서 해를 입을 흉한 조짐",
-          "interpretation_en": "denotes that you will receive injury from an unsuspected source",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "To dream of an anonymous letter, denotes that you will receive injury from an unsuspected source.",
-              "translation_ko": "이름을 밝히지 않은 편지의 꿈은, 생각지도 못한 데서 해를 입음을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "궂은 기별이 담긴 편지를 받음",
-          "interpretation_ko": "어려운 일이 생기거나 병이 들 흉한 조짐",
-          "interpretation_en": "denotes difficulties or illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "To dream of getting letters bearing unpleasant news, denotes difficulties or illness.",
-              "translation_ko": "궂은 기별이 담긴 편지를 받는 꿈은, 어려운 일이 생기거나 병이 듦을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "기쁜 기별이 담긴 편지를 받음",
-          "interpretation_ko": "고마워할 일이 많이 생길 길한 조짐",
-          "interpretation_en": "you will have many things to be thankful for",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "If the news is of a joyous character, you will have many things to be thankful for.",
-              "translation_ko": "기별이 기쁜 것이면 고마워할 일이 많이 생긴다"
-            }
-          ]
-        },
-        {
-          "context": "초록빛 종이에 쓴 정다운 편지",
-          "interpretation_ko": "사랑에서도 일에서도 푸대접을 받고 마음이 가라앉을 흉한 조짐",
-          "interpretation_en": "you will be slighted in love and business; despondency will envelop you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "If the letter is affectionate, but is written on green, or colored, paper, you will be slighted in love and business. Despondency will envelop you.",
-              "translation_ko": "편지가 정답더라도 초록빛이나 빛깔 있는 종이에 쓴 것이면, 사랑에서도 일에서도 푸대접을 받고 마음이 가라앉는다"
-            }
-          ]
-        },
-        {
-          "context": "파란 잉크로 쓴 편지",
-          "interpretation_ko": "한결같은 마음과 사랑, 그리고 밝은 복을 뜻하는 길한 조짐",
-          "interpretation_en": "denotes constancy and affection, also bright fortune",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "Blue ink, denotes constancy and affection, also bright fortune.",
-              "translation_ko": "파란 잉크는 한결같은 마음과 사랑, 그리고 밝은 복을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "붉은 빛깔이 든 편지",
-          "interpretation_ko": "의심과 시샘으로 사이가 멀어지나, 의심받는 쪽이 슬기롭게 처신하면 넘어설 수 있는 조짐",
-          "interpretation_en": "imply estrangements through suspicion and jealousy, but this may be overcome by wise maneuvering of the suspected party",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "Red colors in a letter, imply estrangements through suspicion and jealousy, but this may be overcome by wise maneuvering of the suspected party.",
-              "translation_ko": "편지에 든 붉은 빛깔은 의심과 시샘으로 사이가 멀어짐을 뜻하나, 의심받는 쪽이 슬기롭게 처신하면 넘어설 수 있다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 정인의 편지를 가슴에 품음",
-          "interpretation_ko": "잘생긴 맞수 때문에 몹시 애태울 흉한 조짐",
-          "interpretation_en": "she will be worried very much by a good-looking rival",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "If a young woman dreams that she receives a letter from her lover and places it near her heart, she will be worried very much by a good-looking rival.",
-              "translation_ko": "젊은 여성이 정인에게서 온 편지를 받아 가슴께에 품는 꿈을 꾸면, 잘생긴 맞수 때문에 몹시 애태운다"
-            }
-          ]
-        },
-        {
-          "context": "편지를 읽지 못함",
-          "interpretation_ko": "일에서든 사람 사이에서든 무언가를 잃을 흉한 조짐",
-          "interpretation_en": "you will lose something either in a business or social way",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "If you fail to read the letter, you will lose something either in a business or social way.",
-              "translation_ko": "편지를 읽지 못하면 일에서든 사람 사이에서든 무언가를 잃는다"
-            }
-          ]
-        },
-        {
-          "context": "편지를 가로채임",
-          "interpretation_ko": "맞수들이 제 이름을 더럽히려 움직이고 있는 흉한 조짐",
-          "interpretation_en": "rival enemies are working to defame you",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "To have your letter intercepted, rival enemies are working to defame you.",
-              "translation_ko": "제 편지를 가로채이면 맞수들이 제 이름을 더럽히려 움직이고 있는 것이다"
-            }
-          ]
-        },
-        {
-          "context": "편지를 숨김",
-          "interpretation_ko": "떳떳하지 못한 일에 마음을 두고 있음을 알리는 흉한 조짐",
-          "interpretation_en": "intimates that you are interested in unworthy occupations",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "To dream of trying to conceal a letter from your sweetheart or wife, intimates that you are interested in unworthy occupations.",
-              "translation_ko": "정인이나 아내에게 편지를 감추려 하는 꿈은, 떳떳하지 못한 일에 마음을 두고 있음을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "검은 테두리가 둘린 편지",
-          "interpretation_ko": "괴로운 일과 살붙이의 죽음을 알리는 흉한 조짐",
-          "interpretation_en": "signifies distress and the death of some relative",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "To dream of a letter with a black border, signifies distress and the death of some relative.",
-              "translation_ko": "검은 테두리가 둘린 편지의 꿈은 괴로운 일과 살붙이의 죽음을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "검은 종이에 흰 잉크로 쓴 편지를 받음",
-          "interpretation_ko": "어둠과 실망이 덮치고 남이 도와도 거의 풀리지 않을 흉한 조짐. 부부 사이면 갈라섬을, 정인 사이면 다툼을, 장사하는 이에게는 시샘과 욕심을 뜻한다",
-          "interpretation_en": "denotes that gloom and disappointment will assail you, and friendly interposition will render small relief",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "To receive a letter written on black paper with white ink, denotes that gloom and disappointment will assail you, and friendly interposition will render small relief.",
-              "translation_ko": "검은 종이에 흰 잉크로 쓴 편지를 받으면, 어둠과 실망이 덮치고 남이 도와도 거의 풀리지 않는다"
-            }
-          ]
-        },
-        {
-          "context": "편지를 씀",
-          "interpretation_ko": "의심만으로 남을 성급히 나무라고 뒤에 뉘우칠 흉한 조짐",
-          "interpretation_en": "denotes that you will be hasty in condemning some one on suspicion, and regrets will follow",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "To dream that you write a letter, denotes that you will be hasty in condemning some one on suspicion, and regrets will follow.",
-              "translation_ko": "편지를 쓰는 꿈은, 의심만으로 남을 성급히 나무라고 뒤에 뉘우침을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "찢어진 편지를 봄",
-          "interpretation_ko": "돌이킬 수 없는 잘못이 이름을 무너뜨릴 흉한 조짐",
-          "interpretation_en": "indicates that hopeless mistakes may ruin your reputation",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "A torn letter, indicates that hopeless mistakes may ruin your reputation.",
-              "translation_ko": "찢어진 편지는 돌이킬 수 없는 잘못이 제 이름을 무너뜨림을 알린다"
-            }
-          ]
-        },
-        {
-          "context": "편지를 손으로 건네받음",
-          "interpretation_ko": "벗이나 정인에게 야박하게 굴고 있고 하는 일도 반듯하지 못함을 알리는 흉한 조짐",
-          "interpretation_en": "denotes that you are acting ungenerously towards your companions or sweetheart, and you also are not upright in your dealings",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "To receive a letter by hand, denotes that you are acting ungenerously towards your companions or sweetheart, and you also are not upright in your dealings.",
-              "translation_ko": "편지를 손으로 건네받으면, 벗이나 정인에게 야박하게 굴고 있고 하는 일도 반듯하지 못한 것이다"
-            }
-          ]
-        },
-        {
-          "context": "벗에게서 편지를 자주 받음",
-          "interpretation_ko": "그 벗이 찾아오거나 그에게서 소식이 올 길한 조짐",
-          "interpretation_en": "foretells his arrival, or you will hear from him by letter or otherwise",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Letter",
-              "original": "To dream often of receiving a letter from a friend, foretells his arrival, or you will hear from him by letter or otherwise.",
-              "translation_ko": "벗에게서 편지를 받는 꿈을 자주 꾸면, 그 벗이 찾아오거나 그에게서 소식이 온다"
             }
           ]
         }
@@ -51410,6 +51442,95 @@
       ]
     },
     {
+      "id": "earthworm",
+      "term_ko": "지렁이",
+      "term_en": "earthworm",
+      "aliases": [
+        "지렁이가",
+        "지렁이를"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "지렁이 꿈을 꿈",
+          "interpretation_ko": "못된 사람들의 저열한 계략에 짓눌릴 조짐",
+          "interpretation_en": "you will be oppressed by the low intriguing of disreputable persons",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Worms",
+              "original": "To dream of worms, denotes that you will be oppressed by the low intriguing\nof disreputable persons.",
+              "translation_ko": "지렁이 꿈은, 못된 사람들의 저열한 계략에 짓눌릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성의 몸 위로 지렁이가 기어다님",
+          "interpretation_ko": "바라는 바가 늘 물질에 쏠릴 조짐",
+          "interpretation_en": "her aspirations will always tend to the material",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Worms",
+              "original": "For a young woman to dream they crawl on her, foretells that her\naspirations will always tend to the material.",
+              "translation_ko": "젊은 여성의 몸 위로 지렁이가 기어다니는 꿈은, 바라는 바가 늘 물질에 쏠릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지렁이를 죽이거나 떨쳐 냄",
+          "interpretation_ko": "물질에 매인 나태함에서 벗어나 도덕과 영성을 좇아 살고자 할 조짐",
+          "interpretation_en": "she will shake loose from the material lethargy and seek to live in morality and spirituality",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Worms",
+              "original": "If she kills or throws\nthem off, she will shake loose from the material lethargy and seek\nto live in morality and spirituality.",
+              "translation_ko": "지렁이를 죽이거나 떨쳐 내는 꿈은, 물질에 매인 나태함에서 벗어나 도덕과 영성을 좇아 살고자 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지렁이를 낚싯밥으로 씀",
+          "interpretation_ko": "제 재간으로 적을 이롭게 이용할 조짐",
+          "interpretation_en": "by your ingenuity you will use your enemies to good advantage",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Worms",
+              "original": "To use them in your dreams as fish bait, foretells that by your ingenuity\nyou will use your enemies to good advantage.",
+              "translation_ko": "지렁이를 낚싯밥으로 쓰는 꿈은, 제 재간으로 적을 이롭게 이용할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지렁이를 봄",
+          "interpretation_ko": "논밭과 집에 크게 길한 조짐",
+          "interpretation_en": "a very auspicious sign for land and home",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龜鱉魚蝦昆蟲",
+              "original": "蚯蚓主田宅大吉",
+              "translation_ko": "지렁이는 전답과 집에 크게 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "elephant",
       "term_ko": "코끼리",
       "term_en": "elephant",
@@ -65610,6 +65731,83 @@
               "locator": "Inundation",
               "original": "To see a large area inundated with clear water, denotes profit and ease after seemingly hopeless struggles with fortune.",
               "translation_ko": "맑은 물이 너른 땅을 덮은 것을 보면, 가망 없어 보이던 다툼 끝에 이문과 편안함을 얻는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flower-ornament",
+      "term_ko": "화환",
+      "term_en": "flower ornament",
+      "aliases": [
+        "화관",
+        "화환이",
+        "화환을",
+        "꽃 장식"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "싱싱한 꽃으로 만든 화환을 봄",
+          "interpretation_ko": "제 살림을 넉넉하게 할 큰 기회가 곧 찾아올 조짐",
+          "interpretation_en": "great opportunities for enriching yourself will soon present themselves before you",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wreath",
+              "original": "To dream that you see a wreath of fresh flowers, denotes that\ngreat opportunities for enriching yourself will soon present\nthemselves before you.",
+              "translation_ko": "싱싱한 꽃으로 만든 화환을 보는 꿈은, 제 살림을 넉넉하게 할 큰 기회가 곧 찾아올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "시든 화환을 봄",
+          "interpretation_ko": "병과 사랑의 상심을 지닌 조짐",
+          "interpretation_en": "a withered wreath bears sickness and wounded love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wreath",
+              "original": "A withered wreath bears sickness and wounded love.",
+              "translation_ko": "시든 화환을 보는 꿈은, 병과 사랑의 상심을 지닌 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "신부의 화환을 봄",
+          "interpretation_ko": "불확실하던 혼약이 행복하게 매듭지어질 조짐",
+          "interpretation_en": "foretells a happy ending to uncertain engagements",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wreath",
+              "original": "To see a bridal wreath, foretells a happy ending to uncertain engagements.",
+              "translation_ko": "신부의 화환을 보는 꿈은, 불확실하던 혼약이 행복하게 매듭지어질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "머리에 꽃 장식을 누름",
+          "interpretation_ko": "집안 여자가 딴마음을 품을 조짐",
+          "interpretation_en": "a sign that a woman of the house turns her heart elsewhere",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "鏡環釵釧梳篦",
+              "original": "花壓妻妾生外心",
+              "translation_ko": "꽃 장식을 누르면 처첩이 딴마음을 낸다"
             }
           ]
         }
@@ -95067,6 +95265,67 @@
               "locator": "Witness",
               "original": "If you are a witness for a guilty person, you will be implicated\nin a shameful affair.",
               "translation_ko": "죄지은 사람을 위해 증언하는 꿈은, 부끄러운 일에 연루될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wound",
+      "term_ko": "상처",
+      "term_en": "wound",
+      "aliases": [
+        "상처가",
+        "상처를",
+        "부상을"
+      ],
+      "category": "body",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "자신이 상처 입음",
+          "interpretation_ko": "괴로움을 겪고 사업이 불리하게 돌아설 조짐",
+          "interpretation_en": "signals distress and an unfavorable turn in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wound",
+              "original": "To dream that you are wounded, signals distress and an unfavorable\nturn in business.",
+              "translation_ko": "자신이 상처 입는 꿈은, 괴로움을 겪고 사업이 불리하게 돌아설 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 상처 입은 것을 봄",
+          "interpretation_ko": "벗들에게서 부당한 대우를 받을 조짐",
+          "interpretation_en": "injustice will be accorded you by your friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wound",
+              "original": "To see others wounded, denotes that injustice will be accorded\nyou by your friends.",
+              "translation_ko": "남이 상처 입은 것을 보는 꿈은, 벗들에게서 부당한 대우를 받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "상처를 돌보거나 싸맴",
+          "interpretation_ko": "제 좋은 운수를 스스로 축하할 일이 생길 조짐",
+          "interpretation_en": "you will have occasion to congratulate yourself on your good fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wound",
+              "original": "To relieve or dress a wound, signifies that you will have occasion\nto congratulate yourself on your good fortune.",
+              "translation_ko": "상처를 돌보거나 싸매는 꿈은, 제 좋은 운수를 스스로 축하할 일이 생길 조짐이다"
             }
           ]
         }
@@ -130426,35 +130685,6 @@
       ]
     },
     {
-      "id": "earthworm",
-      "term_ko": "지렁이",
-      "term_en": "earthworm",
-      "aliases": [],
-      "category": "animal",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "지렁이를 봄",
-          "interpretation_ko": "논밭과 집에 크게 길한 조짐",
-          "interpretation_en": "a very auspicious sign for land and home",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "龜鱉魚蝦昆蟲",
-              "original": "蚯蚓主田宅大吉",
-              "translation_ko": "지렁이는 전답과 집에 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "earwig",
       "term_ko": "집게벌레",
       "term_en": "earwig",
@@ -131174,37 +131404,6 @@
               "locator": "Fleet",
               "original": "To see a large fleet moving rapidly in your dreams, denotes a hasty change in the business world. Where dulness oppressed, brisk workings of commercial wheels will go forward and some rumors of foreign wars will be heard.",
               "translation_ko": "큰 함대가 빠르게 나아가는 것을 보는 꿈은, 장사판이 갑자기 바뀜을 뜻한다. 굼뜨던 자리에 활기가 돌고, 먼 나라의 싸움 소문이 들려온다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "flower-ornament",
-      "term_ko": "꽃 장식",
-      "term_en": "flower ornament",
-      "aliases": [
-        "화관"
-      ],
-      "category": "object",
-      "polarity": "negative",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "머리에 꽃 장식을 누름",
-          "interpretation_ko": "집안 여자가 딴마음을 품을 조짐",
-          "interpretation_en": "a sign that a woman of the house turns her heart elsewhere",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "鏡環釵釧梳篦",
-              "original": "花壓妻妾生外心",
-              "translation_ko": "꽃 장식을 누르면 처첩이 딴마음을 낸다"
             }
           ]
         }
@@ -139337,6 +139536,39 @@
               "locator": "Workshop",
               "original": "To see workshops in your dreams, foretells that you will use\nextraordinary schemes to undermine your enemies.",
               "translation_ko": "작업장을 보는 꿈은, 적을 무너뜨릴 비상한 계책을 쓰게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wreck",
+      "term_ko": "난파",
+      "term_en": "wreck",
+      "aliases": [
+        "난파선",
+        "난파된",
+        "조난"
+      ],
+      "category": "event",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "난파선 꿈을 꿈",
+          "interpretation_ko": "빈곤해지거나 사업이 갑자기 실패할 두려움에 시달릴 조짐",
+          "interpretation_en": "you will be harassed with fears of destitution or sudden failure in business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wrecks",
+              "original": "To see a wreck in your dream, foretells that you will be harassed\nwith fears of destitution or sudden failure in business.",
+              "translation_ko": "난파선 꿈은, 빈곤해지거나 사업이 갑자기 실패할 두려움에 시달릴 조짐이다"
             }
           ]
         }

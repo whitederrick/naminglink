@@ -906,7 +906,10 @@
       "서한",
       "봉투",
       "등기편지",
-      "편지지"
+      "편지지",
+      "글씨를",
+      "글씨가",
+      "낯선 글씨"
     ],
     "aliases_en": [
       "letters",
@@ -933,7 +936,9 @@
       "편지를 씀": "썼다 썼습 쓰는",
       "찢어진 편지를 봄": "찢어진 찢긴",
       "편지를 손으로 건네받음": "손으로 직접",
-      "벗에게서 편지를 자주 받음": "벗에게 친구에게 동무"
+      "벗에게서 편지를 자주 받음": "벗에게 친구에게 동무",
+      "글씨를 봄": "질책 소송 곤란",
+      "낯선 글씨를 읽으려 애씀": "낯선 읽으려 투기"
     },
     "contexts_en": {
       "편지를 봉함": "sealed sealing",
@@ -955,7 +960,9 @@
       "편지를 씀": "hasty condemning regrets",
       "찢어진 편지를 봄": "torn hopeless reputation",
       "편지를 손으로 건네받음": "hand ungenerously upright",
-      "벗에게서 편지를 자주 받음": "friend often"
+      "벗에게서 편지를 자주 받음": "friend often",
+      "글씨를 봄": "upbraided careless lawsuit",
+      "낯선 글씨를 읽으려 애씀": "unfamiliar escape speculation"
     }
   },
   {

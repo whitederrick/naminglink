@@ -1,0 +1,40 @@
+[
+  {
+    "id": "wound",
+    "aliases": [
+      "상처가",
+      "상처를",
+      "부상을"
+    ],
+    "aliases_en": [
+      "wound",
+      "wounded",
+      "a wound"
+    ],
+    "contexts": {
+      "자신이 상처 입음": "자신이 스스로 제가",
+      "남이 상처 입은 것을 봄": "남이 남들이 다른사람",
+      "상처를 돌보거나 싸맴": "돌보 싸매 치료"
+    },
+    "contexts_en": {
+      "자신이 상처 입음": "distress unfavorable business",
+      "남이 상처 입은 것을 봄": "others injustice friends",
+      "상처를 돌보거나 싸맴": "relieve dress congratulate"
+    }
+  },
+  {
+    "id": "wreck",
+    "aliases": [
+      "난파선",
+      "난파된",
+      "조난"
+    ],
+    "aliases_en": [
+      "wreck",
+      "a wreck",
+      "shipwreck"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

@@ -968,7 +968,10 @@
   {
     "id": "flower-ornament",
     "aliases": [
-      "화관"
+      "화관",
+      "화환이",
+      "화환을",
+      "꽃 장식"
     ],
     "aliases_en": [
       "hair flower",
@@ -976,8 +979,18 @@
       "garland",
       "wreath"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "머리에 꽃 장식을 누름": "머리에 누름 딴마음",
+      "싱싱한 꽃으로 만든 화환을 봄": "그냥",
+      "시든 화환을 봄": "시든 병과 상심",
+      "신부의 화환을 봄": "신부의 혼약"
+    },
+    "contexts_en": {
+      "머리에 꽃 장식을 누름": "woman heart elsewhere",
+      "싱싱한 꽃으로 만든 화환을 봄": "fresh opportunities enriching",
+      "시든 화환을 봄": "withered sickness wounded",
+      "신부의 화환을 봄": "bridal happy uncertain"
+    }
   },
   {
     "id": "hiding",

@@ -1,0 +1,31 @@
+{
+  "batch": 320,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Worms",
+      "text": "To dream of worms, denotes that you will be oppressed by the low intriguing\nof disreputable persons.\n\nFor a young woman to dream they crawl on her, foretells that her\naspirations will always tend to the material.  If she kills or throws\nthem off, she will shake loose from the material lethargy and seek\nto live in morality and spirituality.\n\nTo use them in your dreams as fish bait, foretells that by your ingenuity\nyou will use your enemies to good advantage.",
+      "note": "기존 earthworm(지렁이, zhougong \"지렁이를 봄\" 하나뿐이던 상징 — 이미 aliases_en \"worm\"·\"worms\"를 쥐고 있었음)에 문맥 넷을 나눠 붙였다."
+    },
+    {
+      "headword": "Wound",
+      "text": "To dream that you are wounded, signals distress and an unfavorable\nturn in business.\n\nTo see others wounded, denotes that injustice will be accorded\nyou by your friends.\n\nTo relieve or dress a wound, signifies that you will have occasion\nto congratulate yourself on your good fortune.",
+      "note": "새 상징 상처(wound)."
+    },
+    {
+      "headword": "Wreath",
+      "text": "To dream that you see a wreath of fresh flowers, denotes that\ngreat opportunities for enriching yourself will soon present\nthemselves before you.\n\nA withered wreath bears sickness and wounded love.\n\nTo see a bridal wreath, foretells a happy ending to uncertain engagements.",
+      "note": "기존 flower-ornament(꽃 장식, zhougong \"머리에 꽃 장식을 누름\" 하나뿐이던 상징 — 이미 aliases_en \"wreath\"·\"garland\"를 쥐고 있었음)에 문맥 셋을 나눠 붙였다. 새 문맥이 셋이라 화면 이름이 다수결로 \"화환\"이 될 수 있다."
+    },
+    {
+      "headword": "Wrecks",
+      "text": "To see a wreck in your dream, foretells that you will be harassed\nwith fears of destitution or sudden failure in business.",
+      "note": "각주 [245] See other like words는 특정 표제어를 안 가리켜 그대로 따를 수 없다 — 새 상징 난파(wreck)로 세웠다. 기존 break(파괴/고장)가 \"wrecked\"를 쥐고 있지만 일반적인 '부서짐'이지 '난파선'이 아니라 안 겹친다."
+    },
+    {
+      "headword": "Writing",
+      "text": "To dream that you are writing, foretells that you will make a mistake\nwhich will almost prove your undoing.\n\nTo see writing, denotes that you will be upbraided for your careless\nconduct and a lawsuit may cause you embarrassment.\n\nTo try to read strange writing, signifies that you will escape\nenemies only by making no new speculation after this dream.",
+      "note": "각주 [246] See Letters를 따랐다. 첫 문장은 §31로 건너뜀 — 기존 letter(편지)의 밀러 자신의 Letter 표제어 속 \"편지를 씀\"(편지를 쓴다는 그림)과 같은 그림이고, Miller가 직접 Letters를 보라고 각주를 달아 그쪽 판단을 따르게 했다. 나머지 둘(글씨를 봄·낯선 글씨를 읽으려 애씀)만 새 문맥으로 letter에 붙였다."
+    }
+  ]
+}

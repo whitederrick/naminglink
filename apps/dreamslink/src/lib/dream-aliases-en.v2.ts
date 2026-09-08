@@ -8565,5 +8565,15 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "workshop",
     "workshops",
     "a workshop"
+  ],
+  "wound": [
+    "wound",
+    "wounded",
+    "a wound"
+  ],
+  "wreck": [
+    "wreck",
+    "a wreck",
+    "shipwreck"
   ]
 };

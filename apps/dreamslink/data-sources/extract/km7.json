@@ -972,14 +972,29 @@
   },
   {
     "id": "earthworm",
-    "aliases": [],
+    "aliases": [
+      "지렁이가",
+      "지렁이를"
+    ],
     "aliases_en": [
       "earthworms",
       "worm",
       "worms"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "지렁이 꿈을 꿈": "그냥",
+      "지렁이를 봄": "논밭 집에 길한",
+      "젊은 여성의 몸 위로 지렁이가 기어다님": "여성의 기어다",
+      "지렁이를 죽이거나 떨쳐 냄": "죽이거나 떨쳐",
+      "지렁이를 낚싯밥으로 씀": "낚싯밥"
+    },
+    "contexts_en": {
+      "지렁이 꿈을 꿈": "intriguing disreputable",
+      "지렁이를 봄": "auspicious land home",
+      "젊은 여성의 몸 위로 지렁이가 기어다님": "crawl aspirations material",
+      "지렁이를 죽이거나 떨쳐 냄": "kills throws lethargy",
+      "지렁이를 낚싯밥으로 씀": "fish bait ingenuity"
+    }
   },
   {
     "id": "eyebrows",
