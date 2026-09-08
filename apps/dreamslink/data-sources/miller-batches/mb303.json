@@ -1,0 +1,26 @@
+{
+  "batch": 303,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Water-carrier",
+      "text": "To see water-carriers passing in your dreams, denotes that your\nprospects will be favorable in fortune, and love will prove\nno laggard in your chase for pleasure.\n\nIf you think you are a water-carrier, you will rise above\nyour present position.",
+      "note": "새 상징 물지게꾼(water-carrier)"
+    },
+    {
+      "headword": "Waterfall",
+      "text": "To dream of a waterfall, foretells that you will secure your wildest desire,\nand fortune will be exceedingly favorable to your progress.",
+      "note": "새 상징 폭포(waterfall)"
+    },
+    {
+      "headword": "Water Lily",
+      "text": "To dream of a water lily, or to see them growing, foretells there\nwill be a close commingling of prosperity and sorrow or bereavement.",
+      "note": "새 상징 수련(water lily)"
+    },
+    {
+      "headword": "Wax Taper",
+      "text": "To dream of lighting wax tapers, denotes that some pleasing occurrence\nwill bring you into association with friends long absent.\n\nTo blow them out, signals disappointing times, and sickness will forestall\nexpected opportunities of meeting distinguished friends.",
+      "note": "새 상징 밀랍초(wax taper) — 기존 candle(촛불)에도 불을 붙이고 끄는 문맥이 있지만 판단이 서로 달라(candle은 부모의 반대·슬픈 소식, 여기는 벗과의 재회·병으로 인한 실망) §31류로 병합하지 않고 별개 상징으로 세운다"
+    }
+  ]
+}

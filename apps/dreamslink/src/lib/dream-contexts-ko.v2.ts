@@ -6549,5 +6549,9 @@ export const CONTEXT_KO_V2: Record<string, string> = {
   "watch::시계 유리를 떨어뜨림": "유리를",
   "watch::여자가 시계를 잃어버림": "잃어버",
   "watch::시계를 훔치는 상상을 함": "훔치는",
-  "watch::시계를 선물함": "선물"
+  "watch::시계를 선물함": "선물",
+  "water-carrier::물지게꾼들이 지나가는 것을 봄": "그냥",
+  "water-carrier::스스로 물지게꾼이라고 여김": "스스로",
+  "wax-taper::밀랍초에 불을 밝힘": "밝힘 밝혔",
+  "wax-taper::밀랍초를 불어서 끔": "불어서"
 };

@@ -1,0 +1,92 @@
+[
+  {
+    "term_ko": "물지게꾼",
+    "term_en": "water-carrier",
+    "context": "물지게꾼들이 지나가는 것을 봄",
+    "interpretation_ko": "앞날의 운이 좋고, 사랑도 즐거움을 좇는 데 뒤처지지 않을 조짐",
+    "interpretation_en": "denotes that your prospects will be favorable in fortune, and love will prove no laggard in your chase for pleasure",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Water-carrier",
+      "original": "To see water-carriers passing in your dreams, denotes that your\nprospects will be favorable in fortune, and love will prove\nno laggard in your chase for pleasure.",
+      "translation_ko": "물지게꾼들이 지나가는 것을 보는 꿈은, 앞날의 운이 좋고 사랑도 즐거움을 좇는 데 뒤처지지 않을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "물지게꾼",
+    "term_en": "water-carrier",
+    "context": "스스로 물지게꾼이라고 여김",
+    "interpretation_ko": "지금 자리보다 높이 오를 조짐",
+    "interpretation_en": "you will rise above your present position",
+    "polarity": "positive",
+    "category": "person",
+    "cite": {
+      "work": "miller",
+      "locator": "Water-carrier",
+      "original": "If you think you are a water-carrier, you will rise above\nyour present position.",
+      "translation_ko": "스스로 물지게꾼이라고 여기는 꿈은, 지금 자리보다 높이 오를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "폭포",
+    "term_en": "waterfall",
+    "context": "폭포 꿈을 꿈",
+    "interpretation_ko": "가장 대담한 바람을 이루고 앞길에 운이 크게 따를 조짐",
+    "interpretation_en": "foretells that you will secure your wildest desire, and fortune will be exceedingly favorable to your progress",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Waterfall",
+      "original": "To dream of a waterfall, foretells that you will secure your wildest desire,\nand fortune will be exceedingly favorable to your progress.",
+      "translation_ko": "폭포 꿈은, 가장 대담한 바람을 이루고 앞길에 운이 크게 따를 조짐이다"
+    }
+  },
+  {
+    "term_ko": "수련",
+    "term_en": "water lily",
+    "context": "수련 꿈을 꾸거나 자라는 것을 봄",
+    "interpretation_ko": "번영과 슬픔 혹은 사별이 가까이 뒤섞일 조짐",
+    "interpretation_en": "foretells there will be a close commingling of prosperity and sorrow or bereavement",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Water Lily",
+      "original": "To dream of a water lily, or to see them growing, foretells there\nwill be a close commingling of prosperity and sorrow or bereavement.",
+      "translation_ko": "수련 꿈을 꾸거나 자라는 것을 보는 꿈은, 번영과 슬픔 혹은 사별이 가까이 뒤섞일 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밀랍초",
+    "term_en": "wax taper",
+    "context": "밀랍초에 불을 밝힘",
+    "interpretation_ko": "기쁜 일이 생겨 오래 멀리했던 벗들과 다시 어울릴 조짐",
+    "interpretation_en": "denotes that some pleasing occurrence will bring you into association with friends long absent",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wax Taper",
+      "original": "To dream of lighting wax tapers, denotes that some pleasing occurrence\nwill bring you into association with friends long absent.",
+      "translation_ko": "밀랍초에 불을 밝히는 꿈은, 기쁜 일이 생겨 오래 멀리했던 벗들과 다시 어울릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밀랍초",
+    "term_en": "wax taper",
+    "context": "밀랍초를 불어서 끔",
+    "interpretation_ko": "실망스러운 시절이 오고, 병으로 훌륭한 벗들과 만날 기회를 놓칠 조짐",
+    "interpretation_en": "signals disappointing times, and sickness will forestall expected opportunities of meeting distinguished friends",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wax Taper",
+      "original": "To blow them out, signals disappointing times, and sickness will forestall\nexpected opportunities of meeting distinguished friends.",
+      "translation_ko": "밀랍초를 불어서 끄는 꿈은, 실망스러운 시절이 오고 병으로 훌륭한 벗들과 만날 기회를 놓칠 조짐이다"
+    }
+  }
+]

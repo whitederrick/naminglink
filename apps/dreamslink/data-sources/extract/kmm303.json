@@ -1,0 +1,67 @@
+[
+  {
+    "id": "water-carrier",
+    "aliases": [
+      "물지게꾼이",
+      "물지게꾼을",
+      "물지게꾼들"
+    ],
+    "aliases_en": [
+      "water-carrier",
+      "water carriers"
+    ],
+    "contexts": {
+      "물지게꾼들이 지나가는 것을 봄": "그냥",
+      "스스로 물지게꾼이라고 여김": "스스로"
+    },
+    "contexts_en": {
+      "물지게꾼들이 지나가는 것을 봄": "passing favorable laggard",
+      "스스로 물지게꾼이라고 여김": "think rise position"
+    }
+  },
+  {
+    "id": "waterfall",
+    "aliases": [
+      "폭포가",
+      "폭포를"
+    ],
+    "aliases_en": [
+      "waterfall",
+      "a waterfall"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "water-lily",
+    "aliases": [
+      "수련이",
+      "수련을"
+    ],
+    "aliases_en": [
+      "water lily",
+      "water lilies"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "wax-taper",
+    "aliases": [
+      "밀랍초가",
+      "밀랍초를"
+    ],
+    "aliases_en": [
+      "wax taper",
+      "wax tapers"
+    ],
+    "contexts": {
+      "밀랍초에 불을 밝힘": "밝힘 밝혔",
+      "밀랍초를 불어서 끔": "불어서"
+    },
+    "contexts_en": {
+      "밀랍초에 불을 밝힘": "lighting pleasing occurrence",
+      "밀랍초를 불어서 끔": "blow disappointing sickness"
+    }
+  }
+]

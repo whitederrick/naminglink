@@ -6545,5 +6545,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "watch::시계 유리를 떨어뜨림": "crystal drop carelessness",
   "watch::여자가 시계를 잃어버림": "woman lose domestic unhappiness",
   "watch::시계를 훔치는 상상을 함": "steal violent enemy reputation",
-  "watch::시계를 선물함": "present decline recreations"
+  "watch::시계를 선물함": "present decline recreations",
+  "water-carrier::물지게꾼들이 지나가는 것을 봄": "passing favorable laggard",
+  "water-carrier::스스로 물지게꾼이라고 여김": "think rise position",
+  "wax-taper::밀랍초에 불을 밝힘": "lighting pleasing occurrence",
+  "wax-taper::밀랍초를 불어서 끔": "blow disappointing sickness"
 };

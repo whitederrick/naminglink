@@ -8378,5 +8378,21 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "watch": [
     "watch",
     "a watch"
+  ],
+  "water-carrier": [
+    "water-carrier",
+    "water carriers"
+  ],
+  "waterfall": [
+    "waterfall",
+    "a waterfall"
+  ],
+  "water-lily": [
+    "water lily",
+    "water lilies"
+  ],
+  "wax-taper": [
+    "wax taper",
+    "wax tapers"
   ]
 };
