@@ -251,6 +251,7 @@
     "m320.json",
     "m321.json",
     "m322.json",
+    "m323.json",
     "m33.json",
     "m34.json",
     "m35.json",
@@ -57965,6 +57966,99 @@
               "locator": "Yew Tree",
               "original": "To visit a yew tree and find it dead and stripped of its foliage,\npredicts a sad death in your family.  Property will not console\nfor this loss.",
               "translation_ko": "죽어 잎이 다 진 주목나무를 찾아가는 꿈은, 집안에 슬픈 죽음이 있을 조짐이며 재산으로도 위로가 되지 않는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "young",
+      "term_ko": "젊음",
+      "term_en": "young",
+      "aliases": [
+        "젊은 사람들",
+        "젊은이들",
+        "다시 젊어졌",
+        "다시 젊어짐",
+        "어려진 아이",
+        "갓난아기가 된",
+        "어린아이가 된"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "젊은 사람들을 봄",
+          "interpretation_ko": "집안 다툼이 화해되고 새 사업을 꾀하기 좋은 때가 될 조짐",
+          "interpretation_en": "is a prognostication of reconciliation of family disagreements and favorable times for planning new enterprises",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Young",
+              "original": "To dream of seeing young people, is a prognostication of reconciliation\nof family disagreements and favorable times for planning new enterprises.",
+              "translation_ko": "젊은 사람들을 보는 꿈은, 집안 다툼이 화해되고 새 사업을 꾀하기 좋은 때가 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신이 다시 젊어짐",
+          "interpretation_ko": "잃어버린 기회를 되찾으려 안간힘을 쓰지만 끝내 이루지 못할 조짐",
+          "interpretation_en": "you will make mighty efforts to recall lost opportunities, but will nevertheless fail",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Young",
+              "original": "To dream that you are young again, foretells that you will make mighty\nefforts to recall lost opportunities, but will nevertheless fail.",
+              "translation_ko": "자신이 다시 젊어지는 꿈은, 잃어버린 기회를 되찾으려 안간힘을 쓰지만 끝내 이루지 못할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "어머니가 아들이 다시 갓난아기나 어린아이가 된 것을 봄",
+          "interpretation_ko": "묵은 상처가 아물고 젊은 시절의 희망과 쾌활함을 되찾을 조짐",
+          "interpretation_en": "old wounds will be healed and she will take on her youthful hopes and cheerfulness",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Young",
+              "original": "For a mother to see her son an infant or small child again,\nforetells that old wounds will be healed and she will take on her\nyouthful hopes and cheerfulness.",
+              "translation_ko": "어머니가 아들이 다시 갓난아기나 어린아이가 된 것을 보는 꿈은, 묵은 상처가 아물고 젊은 시절의 희망과 쾌활함을 되찾을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "다시 어려진 아이가 죽어가는 듯함",
+          "interpretation_ko": "불운에 빠지고 비참함이 따를 조짐",
+          "interpretation_en": "she will fall into ill fortune and misery will attend her",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Young",
+              "original": "If the child seems to be dying,\nshe will fall into ill fortune and misery will attend her.",
+              "translation_ko": "다시 어려진 아이가 죽어가는 듯한 꿈은, 불운에 빠지고 비참함이 따를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "학교에 있는 젊은이들을 봄",
+          "interpretation_ko": "번영과 쓸모로 은혜가 자신을 감쌀 조짐",
+          "interpretation_en": "prosperity and usefulness will envelope you with favors",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Young",
+              "original": "To see the young in school, foretells that prosperity and usefulness\nwill envelope you with favors.",
+              "translation_ko": "학교에 있는 젊은이들을 보는 꿈은, 번영과 쓸모로 은혜가 자신을 감쌀 조짐이다"
             }
           ]
         }
@@ -140147,6 +140241,39 @@
               "locator": "冠帶衣服鞋襪",
               "original": "著黃衣皂衣皆吉",
               "translation_ko": "누런 옷과 검은 옷을 입으면 모두 길하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yule-log",
+      "term_ko": "율 통나무",
+      "term_en": "yule-log",
+      "aliases": [
+        "율 통나무를",
+        "율 통나무가",
+        "성탄 통나무"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "율 통나무 꿈을 꿈",
+          "interpretation_ko": "큰 축제에 참석해 즐거운 기대가 이루어질 조짐",
+          "interpretation_en": "your joyous anticipations will be realized by your attendance at great festivities",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Yule Log",
+              "original": "To dream of a yule log, foretells that your joyous anticipations\nwill be realized by your attendance at great festivities.",
+              "translation_ko": "율 통나무 꿈은, 큰 축제에 참석해 즐거운 기대가 이루어질 조짐이다"
             }
           ]
         }

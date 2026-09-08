@@ -1,0 +1,16 @@
+{
+  "batch": 323,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Young",
+      "text": "To dream of seeing young people, is a prognostication of reconciliation\nof family disagreements and favorable times for planning new enterprises.\n\nTo dream that you are young again, foretells that you will make mighty\nefforts to recall lost opportunities, but will nevertheless fail.\n\nFor a mother to see her son an infant or small child again,\nforetells that old wounds will be healed and she will take on her\nyouthful hopes and cheerfulness.  If the child seems to be dying,\nshe will fall into ill fortune and misery will attend her.\n\nTo see the young in school, foretells that prosperity and usefulness\nwill envelope you with favors.",
+      "note": "새 상징 젊음(young). term_ko를 형용사 \"젊은\"이 아니라 명사 \"젊음\"으로 지어, 다른 상징들이 이미 \"젊은 여성이\" 식으로 흔히 쓰는 수식어와 안 겹치게 했다."
+    },
+    {
+      "headword": "Yule Log",
+      "text": "To dream of a yule log, foretells that your joyous anticipations\nwill be realized by your attendance at great festivities.",
+      "note": "새 상징 율 통나무(yule-log). 원문에서 Young 표제어 마지막 문장과 한 줄에 붙어 있던 표제어 — 예전에 파서가 놓쳤던 일곱 개 중 하나였는데 이제는 miller-1901-parsed.json이 올바로 갈라 낸다(2026-09-01 파서 수정 완료분)."
+    }
+  ]
+}

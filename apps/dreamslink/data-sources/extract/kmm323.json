@@ -1,0 +1,46 @@
+[
+  {
+    "id": "young",
+    "aliases": [
+      "젊은 사람들",
+      "젊은이들",
+      "다시 젊어졌",
+      "다시 젊어짐",
+      "어려진 아이",
+      "갓난아기가 된",
+      "어린아이가 된"
+    ],
+    "aliases_en": [
+      "young people",
+      "young again"
+    ],
+    "contexts": {
+      "젊은 사람들을 봄": "그냥",
+      "자신이 다시 젊어짐": "다시 젊어",
+      "어머니가 아들이 다시 갓난아기나 어린아이가 된 것을 봄": "어머니가 아들이",
+      "다시 어려진 아이가 죽어가는 듯함": "죽어가는 죽어가",
+      "학교에 있는 젊은이들을 봄": "학교"
+    },
+    "contexts_en": {
+      "젊은 사람들을 봄": "reconciliation family enterprises",
+      "자신이 다시 젊어짐": "efforts opportunities fail",
+      "어머니가 아들이 다시 갓난아기나 어린아이가 된 것을 봄": "wounds healed cheerfulness",
+      "다시 어려진 아이가 죽어가는 듯함": "dying misery attend",
+      "학교에 있는 젊은이들을 봄": "school usefulness favors"
+    }
+  },
+  {
+    "id": "yule-log",
+    "aliases": [
+      "율 통나무를",
+      "율 통나무가",
+      "성탄 통나무"
+    ],
+    "aliases_en": [
+      "yule log",
+      "a yule log"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

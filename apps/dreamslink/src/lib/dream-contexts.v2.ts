@@ -6723,5 +6723,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "yield::애쓴 것에 비해 소출이 적음": "poor labors worries",
   "yoke::멍에를 봄": "unwillingly conform customs",
   "yoke::소에 멍에를 씌움": "oxen judgment counsels",
-  "yoke::소에 멍에를 씌우는 데 실패함": "fail anxious prodigal"
+  "yoke::소에 멍에를 씌우는 데 실패함": "fail anxious prodigal",
+  "young::젊은 사람들을 봄": "reconciliation family enterprises",
+  "young::자신이 다시 젊어짐": "efforts opportunities fail",
+  "young::어머니가 아들이 다시 갓난아기나 어린아이가 된 것을 봄": "wounds healed cheerfulness",
+  "young::다시 어려진 아이가 죽어가는 듯함": "dying misery attend",
+  "young::학교에 있는 젊은이들을 봄": "school usefulness favors"
 };

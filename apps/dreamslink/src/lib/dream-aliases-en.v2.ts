@@ -8615,5 +8615,13 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "yoke",
     "a yoke",
     "yoked"
+  ],
+  "young": [
+    "young people",
+    "young again"
+  ],
+  "yule-log": [
+    "yule log",
+    "a yule log"
   ]
 };
