@@ -1,0 +1,36 @@
+{
+  "batch": 314,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Wife",
+      "text": "To dream of your wife, denotes unsettled affairs and discord in the home.\n\nTo dream that your wife is unusually affable, denotes that you will receive\nprofit from some important venture in trade.\n\nFor a wife to dream her husband whips her, foretells unlucky influences\nwill cause harsh criticism in the home and a general turmoil will ensue.",
+      "note": "기존 wife(아내) 상징에 합쳤다 — 이미 zhougong 의미 둘을 갖고 있고 term_en이 같다"
+    },
+    {
+      "headword": "Wig",
+      "text": "To dream you wear a wig, indicates that you will soon make\nan unpropitious change.\n\nTo lose a wig, you will incur the derision and contempt of enemies.\nTo see others wearing wigs, is a sign of treachery entangling you.",
+      "note": "새 상징 가발(wig)"
+    },
+    {
+      "headword": "Wild",
+      "text": "To dream that you are running about wild, foretells that you will sustain\na serious fall or accident.\n\nTo see others doing so, denotes unfavorable prospects will cause\nyou worry and excitement.",
+      "note": "새 상징 광란(wild, 미쳐 날뜀)"
+    },
+    {
+      "headword": "Wild Man",
+      "text": "To see a wild man in your dream, denotes that enemies will openly\noppose you in your enterprises.  To think you are one foretells\nyou will be unlucky in following out your designs.",
+      "note": "새 상징 야인(wild man)"
+    },
+    {
+      "headword": "Will",
+      "text": "To dream you are making your will, is significant of momentous\ntrials and speculations.\n\nFor a wife or any one to think a will is against them, portends that they\nwill have disputes and disorderly proceedings to combat in some event\nsoon to transpire.\n\nIf you fail to prove a will, you are in danger of libelous slander.\nTo lose one is unfortunate for your business.\n\nTo destroy one, warns you that you are about to be a party\nto treachery and deceit.",
+      "note": "새 상징 유언장(will)"
+    },
+    {
+      "headword": "Willow",
+      "text": "To dream of willows, foretells that you will soon make a sad journey,\nbut you will be consoled in your grief by faithful friends.",
+      "note": "새 상징 버드나무(willow)"
+    }
+  ]
+}

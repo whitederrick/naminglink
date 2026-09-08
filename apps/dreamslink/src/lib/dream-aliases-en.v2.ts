@@ -8485,5 +8485,26 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "widow": [
     "widow",
     "a widow"
+  ],
+  "wig": [
+    "wig",
+    "a wig",
+    "wigs"
+  ],
+  "wild": [
+    "wild",
+    "running wild"
+  ],
+  "wild-man": [
+    "wild man",
+    "a wild man"
+  ],
+  "will": [
+    "will",
+    "a will"
+  ],
+  "willow": [
+    "willow",
+    "willows"
   ]
 };

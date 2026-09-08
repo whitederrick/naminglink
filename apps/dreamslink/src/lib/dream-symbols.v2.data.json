@@ -241,6 +241,7 @@
     "m311.json",
     "m312.json",
     "m313.json",
+    "m314.json",
     "m32.json",
     "m33.json",
     "m34.json",
@@ -57000,6 +57001,185 @@
       ]
     },
     {
+      "id": "wife",
+      "term_ko": "아내",
+      "term_en": "wife",
+      "aliases": [
+        "부인",
+        "마누라",
+        "와이프",
+        "집사람"
+      ],
+      "category": "person",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "아내 꿈을 꿈",
+          "interpretation_ko": "정리되지 않은 일과 집안의 불화를 뜻하는 조짐",
+          "interpretation_en": "denotes unsettled affairs and discord in the home",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wife",
+              "original": "To dream of your wife, denotes unsettled affairs and discord in the home.",
+              "translation_ko": "아내 꿈은, 정리되지 않은 일과 집안의 불화를 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아내가 유달리 상냥함",
+          "interpretation_ko": "중요한 사업에서 이익을 얻을 조짐",
+          "interpretation_en": "denotes that you will receive profit from some important venture in trade",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wife",
+              "original": "To dream that your wife is unusually affable, denotes that you will receive\nprofit from some important venture in trade.",
+              "translation_ko": "아내가 유달리 상냥한 꿈은, 중요한 사업에서 이익을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아내가 남편에게 매를 맞는 꿈을 꿈",
+          "interpretation_ko": "불운한 기운으로 집안에 모진 비난과 전반적인 소란이 일어날 조짐",
+          "interpretation_en": "foretells unlucky influences will cause harsh criticism in the home and a general turmoil will ensue",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wife",
+              "original": "For a wife to dream her husband whips her, foretells unlucky influences\nwill cause harsh criticism in the home and a general turmoil will ensue.",
+              "translation_ko": "아내가 남편에게 매를 맞는 꿈을 꾸는 것은, 불운한 기운으로 집안에 모진 비난과 전반적인 소란이 일어날 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아내가 비단옷을 입음",
+          "interpretation_ko": "귀한 자식을 낳을 조짐",
+          "interpretation_en": "a sign of bearing a noble child",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "妻著錦衣生貴子",
+              "translation_ko": "아내가 비단옷을 입으면 귀한 자식을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "아내가 아이를 뱀",
+          "interpretation_ko": "바깥으로 사사로운 정이 생길 조짐",
+          "interpretation_en": "a sign of a secret affair outside the home",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "夫妻產孕交懽",
+              "original": "妻有孕主外私情",
+              "translation_ko": "아내가 아이를 배면 밖에 사사로운 정이 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "will",
+      "term_ko": "유언장",
+      "term_en": "will",
+      "aliases": [
+        "유언장이",
+        "유언장을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 유언장을 작성함",
+          "interpretation_ko": "중대한 시련과 투기를 뜻하는 조짐",
+          "interpretation_en": "is significant of momentous trials and speculations",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Will",
+              "original": "To dream you are making your will, is significant of momentous\ntrials and speculations.",
+              "translation_ko": "스스로 유언장을 작성하는 꿈은, 중대한 시련과 투기를 뜻하는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "아내나 누군가 유언장이 자신에게 불리하다고 여김",
+          "interpretation_ko": "머잖아 벌어질 일로 다툼과 무질서한 소동을 겪을 조짐",
+          "interpretation_en": "portends that they will have disputes and disorderly proceedings to combat in some event soon to transpire",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Will",
+              "original": "For a wife or any one to think a will is against them, portends that they\nwill have disputes and disorderly proceedings to combat in some event\nsoon to transpire.",
+              "translation_ko": "아내나 누군가 유언장이 자신에게 불리하다고 여기는 꿈은, 머잖아 벌어질 일로 다툼과 무질서한 소동을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "유언장을 입증하지 못함",
+          "interpretation_ko": "명예훼손의 위험에 처할 조짐",
+          "interpretation_en": "you are in danger of libelous slander",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Will",
+              "original": "If you fail to prove a will, you are in danger of libelous slander.",
+              "translation_ko": "유언장을 입증하지 못하는 꿈은, 명예훼손의 위험에 처할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "유언장을 잃어버림",
+          "interpretation_ko": "사업에 불운할 조짐",
+          "interpretation_en": "is unfortunate for your business",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Will",
+              "original": "To lose one is unfortunate for your business.",
+              "translation_ko": "유언장을 잃어버리는 꿈은, 사업에 불운할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "유언장을 없앰",
+          "interpretation_ko": "배신과 기만에 가담하게 될 조짐이라는 경고",
+          "interpretation_en": "warns you that you are about to be a party to treachery and deceit",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Will",
+              "original": "To destroy one, warns you that you are about to be a party\nto treachery and deceit.",
+              "translation_ko": "유언장을 없애는 꿈은, 배신과 기만에 가담하게 될 조짐이라는 경고다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "abbot",
       "term_ko": "수도원장",
       "term_en": "abbot",
@@ -94083,6 +94263,66 @@
       ]
     },
     {
+      "id": "wig",
+      "term_ko": "가발",
+      "term_en": "wig",
+      "aliases": [
+        "가발이",
+        "가발을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 가발을 씀",
+          "interpretation_ko": "머잖아 불길한 변화를 겪을 조짐",
+          "interpretation_en": "indicates that you will soon make an unpropitious change",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wig",
+              "original": "To dream you wear a wig, indicates that you will soon make\nan unpropitious change.",
+              "translation_ko": "스스로 가발을 쓰는 꿈은, 머잖아 불길한 변화를 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "가발을 잃어버림",
+          "interpretation_ko": "적들의 조롱과 멸시를 받을 조짐",
+          "interpretation_en": "you will incur the derision and contempt of enemies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wig",
+              "original": "To lose a wig, you will incur the derision and contempt of enemies.",
+              "translation_ko": "가발을 잃어버리는 꿈은, 적들의 조롱과 멸시를 받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남들이 가발을 쓴 것을 봄",
+          "interpretation_ko": "배신에 얽혀 들 조짐",
+          "interpretation_en": "is a sign of treachery entangling you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wig",
+              "original": "To see others wearing wigs, is a sign of treachery entangling you.",
+              "translation_ko": "남들이 가발을 쓴 것을 보는 꿈은, 배신에 얽혀 들 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wolf",
       "term_ko": "이리",
       "term_en": "wolf",
@@ -123758,48 +123998,49 @@
       ]
     },
     {
-      "id": "wife",
-      "term_ko": "아내",
-      "term_en": "wife",
+      "id": "wild",
+      "term_ko": "광란",
+      "term_en": "wild",
       "aliases": [
-        "부인",
-        "마누라",
-        "와이프",
-        "집사람"
+        "광란이",
+        "광란을",
+        "미쳐 날뛰",
+        "미쳐 날뛰었",
+        "미쳐 날뜀"
       ],
-      "category": "person",
-      "polarity": "ambivalent",
+      "category": "action",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "아내가 비단옷을 입음",
-          "interpretation_ko": "귀한 자식을 낳을 조짐",
-          "interpretation_en": "a sign of bearing a noble child",
-          "polarity": "positive",
+          "context": "스스로 미쳐 날뜀",
+          "interpretation_ko": "심하게 넘어지거나 사고를 당할 조짐",
+          "interpretation_en": "foretells that you will sustain a serious fall or accident",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "妻著錦衣生貴子",
-              "translation_ko": "아내가 비단옷을 입으면 귀한 자식을 낳는다"
+              "work": "miller",
+              "locator": "Wild",
+              "original": "To dream that you are running about wild, foretells that you will sustain\na serious fall or accident.",
+              "translation_ko": "스스로 미쳐 날뛰는 꿈은, 심하게 넘어지거나 사고를 당할 조짐이다"
             }
           ]
         },
         {
-          "context": "아내가 아이를 뱀",
-          "interpretation_ko": "바깥으로 사사로운 정이 생길 조짐",
-          "interpretation_en": "a sign of a secret affair outside the home",
+          "context": "남들이 미쳐 날뛰는 것을 봄",
+          "interpretation_ko": "불리한 전망으로 걱정과 흥분을 겪을 조짐",
+          "interpretation_en": "denotes unfavorable prospects will cause you worry and excitement",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "夫妻產孕交懽",
-              "original": "妻有孕主外私情",
-              "translation_ko": "아내가 아이를 배면 밖에 사사로운 정이 있다"
+              "work": "miller",
+              "locator": "Wild",
+              "original": "To see others doing so, denotes unfavorable prospects will cause\nyou worry and excitement.",
+              "translation_ko": "남들이 미쳐 날뛰는 것을 보는 꿈은, 불리한 전망으로 걱정과 흥분을 겪을 조짐이다"
             }
           ]
         }
@@ -123848,6 +124089,53 @@
               "locator": "Ducks",
               "original": "To dream of seeing wild ducks on a clear stream of water, signifies fortunate journeys, perhaps across the sea.",
               "translation_ko": "맑은 시냇물 위의 물오리를 보는 꿈은, 먼 길이 순조로움을 뜻한다. 어쩌면 바다를 건너는 길일 수도 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wild-man",
+      "term_ko": "야인",
+      "term_en": "wild man",
+      "aliases": [
+        "야인이",
+        "야인을",
+        "야인이라고"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "야인을 봄",
+          "interpretation_ko": "적들이 드러내 놓고 사업을 방해할 조짐",
+          "interpretation_en": "denotes that enemies will openly oppose you in your enterprises",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wild Man",
+              "original": "To see a wild man in your dream, denotes that enemies will openly\noppose you in your enterprises.",
+              "translation_ko": "야인을 보는 꿈은, 적들이 드러내 놓고 사업을 방해할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 야인이라고 여김",
+          "interpretation_ko": "계획하는 일에서 운이 따르지 않을 조짐",
+          "interpretation_en": "foretells you will be unlucky in following out your designs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wild Man",
+              "original": "To think you are one foretells\nyou will be unlucky in following out your designs.",
+              "translation_ko": "스스로 야인이라고 여기는 꿈은, 계획하는 일에서 운이 따르지 않을 조짐이다"
             }
           ]
         }
@@ -137947,6 +138235,38 @@
               "locator": "White Lead",
               "original": "To dream of white lead, denotes relatives or children are in danger\nbecause of your carelessness.  Prosperity will be chary of favor.",
               "translation_ko": "연백 꿈은, 부주의 때문에 친척이나 아이가 위험에 처하고 번영도 인색해질 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "willow",
+      "term_ko": "버드나무",
+      "term_en": "willow",
+      "aliases": [
+        "버드나무가",
+        "버드나무를"
+      ],
+      "category": "nature",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "버드나무 꿈을 꿈",
+          "interpretation_ko": "머잖아 슬픈 여정을 떠나지만 신실한 벗들의 위로를 받을 조짐",
+          "interpretation_en": "foretells that you will soon make a sad journey, but you will be consoled in your grief by faithful friends",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Willow",
+              "original": "To dream of willows, foretells that you will soon make a sad journey,\nbut you will be consoled in your grief by faithful friends.",
+              "translation_ko": "버드나무 꿈은, 머잖아 슬픈 여정을 떠나지만 신실한 벗들의 위로를 받을 조짐이다"
             }
           ]
         }

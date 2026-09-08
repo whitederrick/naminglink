@@ -1151,6 +1151,9 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "soil::남이 흙을 끼얹음": "throws upon character",
   "wife::아내가 비단옷을 입음": "silk clothes dressed wearing",
   "wife::아내가 아이를 뱀": "pregnant pregnancy conceived child",
+  "wife::아내 꿈을 꿈": "unsettled affairs discord",
+  "wife::아내가 유달리 상냥함": "affable profit venture",
+  "wife::아내가 남편에게 매를 맞는 꿈을 꿈": "husband whips criticism turmoil",
   "beef::날것에 피가 밴 소고기를 봄": "raw bloody fresh",
   "beef::익힌 소고기를 보거나 먹음": "cooked roasted boiled eaten",
   "beef::보기 좋게 차려진 소고기를 봄": "served nicely garnished tempting",
@@ -6618,5 +6621,17 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "whitewash::스스로 회칠을 함": "reinstate friends ridding",
   "whitewash::젊은 여성이 스스로 회칠을 함": "deceive lover estranged",
   "widow::스스로 과부임을 봄": "troubles malicious persons",
-  "widow::남자가 과부와 혼인함": "marries cherished crumble"
+  "widow::남자가 과부와 혼인함": "marries cherished crumble",
+  "wig::스스로 가발을 씀": "wear unpropitious change",
+  "wig::가발을 잃어버림": "lose derision contempt",
+  "wig::남들이 가발을 쓴 것을 봄": "others treachery entangling",
+  "wild::스스로 미쳐 날뜀": "about serious fall accident",
+  "wild::남들이 미쳐 날뛰는 것을 봄": "others prospects worry excitement",
+  "wild-man::야인을 봄": "enemies openly oppose enterprises",
+  "wild-man::스스로 야인이라고 여김": "think unlucky designs",
+  "will::스스로 유언장을 작성함": "making momentous trials speculations",
+  "will::아내나 누군가 유언장이 자신에게 불리하다고 여김": "against disputes disorderly",
+  "will::유언장을 입증하지 못함": "fail prove libelous slander",
+  "will::유언장을 잃어버림": "lose unfortunate business",
+  "will::유언장을 없앰": "destroy treachery deceit"
 };

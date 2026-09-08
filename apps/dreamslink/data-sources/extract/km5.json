@@ -791,11 +791,17 @@
     ],
     "contexts": {
       "아내가 비단옷을 입음": "비단 옷을 화려 입었",
-      "아내가 아이를 뱀": "임신 태기 아기를 배가"
+      "아내가 아이를 뱀": "임신 태기 아기를 배가",
+      "아내 꿈을 꿈": "그냥",
+      "아내가 유달리 상냥함": "유달리 상냥",
+      "아내가 남편에게 매를 맞는 꿈을 꿈": "매를 맞는"
     },
     "contexts_en": {
       "아내가 비단옷을 입음": "silk clothes dressed wearing",
-      "아내가 아이를 뱀": "pregnant pregnancy conceived child"
+      "아내가 아이를 뱀": "pregnant pregnancy conceived child",
+      "아내 꿈을 꿈": "unsettled affairs discord",
+      "아내가 유달리 상냥함": "affable profit venture",
+      "아내가 남편에게 매를 맞는 꿈을 꿈": "husband whips criticism turmoil"
     }
   },
   {

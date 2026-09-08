@@ -1,0 +1,104 @@
+[
+  {
+    "id": "wig",
+    "aliases": [
+      "가발이",
+      "가발을"
+    ],
+    "aliases_en": [
+      "wig",
+      "a wig",
+      "wigs"
+    ],
+    "contexts": {
+      "스스로 가발을 씀": "그냥",
+      "가발을 잃어버림": "잃어버",
+      "남들이 가발을 쓴 것을 봄": "남들이"
+    },
+    "contexts_en": {
+      "스스로 가발을 씀": "wear unpropitious change",
+      "가발을 잃어버림": "lose derision contempt",
+      "남들이 가발을 쓴 것을 봄": "others treachery entangling"
+    }
+  },
+  {
+    "id": "wild",
+    "aliases": [
+      "광란이",
+      "광란을",
+      "미쳐 날뛰",
+      "미쳐 날뛰었",
+      "미쳐 날뜀"
+    ],
+    "aliases_en": [
+      "wild",
+      "running wild"
+    ],
+    "contexts": {
+      "스스로 미쳐 날뜀": "그냥",
+      "남들이 미쳐 날뛰는 것을 봄": "남들이"
+    },
+    "contexts_en": {
+      "스스로 미쳐 날뜀": "about serious fall accident",
+      "남들이 미쳐 날뛰는 것을 봄": "others prospects worry excitement"
+    }
+  },
+  {
+    "id": "wild-man",
+    "aliases": [
+      "야인이",
+      "야인을",
+      "야인이라고"
+    ],
+    "aliases_en": [
+      "wild man",
+      "a wild man"
+    ],
+    "contexts": {
+      "야인을 봄": "그냥",
+      "스스로 야인이라고 여김": "스스로"
+    },
+    "contexts_en": {
+      "야인을 봄": "enemies openly oppose enterprises",
+      "스스로 야인이라고 여김": "think unlucky designs"
+    }
+  },
+  {
+    "id": "will",
+    "aliases": [
+      "유언장이",
+      "유언장을"
+    ],
+    "aliases_en": [
+      "will",
+      "a will"
+    ],
+    "contexts": {
+      "스스로 유언장을 작성함": "작성",
+      "아내나 누군가 유언장이 자신에게 불리하다고 여김": "불리하다고",
+      "유언장을 입증하지 못함": "입증하지",
+      "유언장을 잃어버림": "잃어버",
+      "유언장을 없앰": "없앰 없애 없앴"
+    },
+    "contexts_en": {
+      "스스로 유언장을 작성함": "making momentous trials speculations",
+      "아내나 누군가 유언장이 자신에게 불리하다고 여김": "against disputes disorderly",
+      "유언장을 입증하지 못함": "fail prove libelous slander",
+      "유언장을 잃어버림": "lose unfortunate business",
+      "유언장을 없앰": "destroy treachery deceit"
+    }
+  },
+  {
+    "id": "willow",
+    "aliases": [
+      "버드나무가",
+      "버드나무를"
+    ],
+    "aliases_en": [
+      "willow",
+      "willows"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]
