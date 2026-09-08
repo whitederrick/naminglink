@@ -8416,5 +8416,13 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "wedlock": [
     "wedlock"
+  ],
+  "weeding": [
+    "weeding",
+    "pulling weeds"
+  ],
+  "weevil": [
+    "weevil",
+    "weevils"
   ]
 };

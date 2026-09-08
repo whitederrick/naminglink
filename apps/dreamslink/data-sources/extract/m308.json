@@ -1,0 +1,107 @@
+[
+  {
+    "term_ko": "잡초 뽑기",
+    "term_en": "weeding",
+    "context": "스스로 잡초를 뽑음",
+    "interpretation_ko": "명예를 가져다줄 어떤 일을 진행하는 데 어려움을 겪을 조짐",
+    "interpretation_en": "foretells that you will have difficulty in proceeding with some work which will bring you distinction",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Weeding",
+      "original": "To dream that you are weeding, foretells that you will have difficulty\nin proceeding with some work which will bring you distinction.",
+      "translation_ko": "스스로 잡초를 뽑는 꿈은, 명예를 가져다줄 어떤 일을 진행하는 데 어려움을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "잡초 뽑기",
+    "term_en": "weeding",
+    "context": "남이 잡초 뽑는 것을 봄",
+    "interpretation_ko": "적이 계획을 뒤엎을까 두려워할 조짐",
+    "interpretation_en": "you will be fearful that enemies will upset your plans",
+    "polarity": "negative",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Weeding",
+      "original": "To see others weeding, you will be fearful that enemies will\nupset your plans.",
+      "translation_ko": "남이 잡초 뽑는 것을 보는 꿈은, 적이 계획을 뒤엎을까 두려워할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바구미",
+    "term_en": "weevil",
+    "context": "바구미 꿈을 꿈",
+    "interpretation_ko": "장사에서 손실을 보고 사랑에서 거짓을 겪을 조짐",
+    "interpretation_en": "portends loss in trade and falseness in love",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Weevil",
+      "original": "To dream of weevils, portends loss in trade and falseness in love.",
+      "translation_ko": "바구미 꿈은, 장사에서 손실을 보고 사랑에서 거짓을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우물",
+    "term_en": "well",
+    "context": "스스로 우물 안에서 일함",
+    "interpretation_ko": "잘못 쓴 힘으로 역경에 굴복하고 낯선 것들이 자신의 길을 이끌게 둘 조짐",
+    "interpretation_en": "foretells that you will succumb to adversity through your misapplied energies. You will let strange elements direct your course",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Well",
+      "original": "To dream that you are employed in a well, foretells that you\nwill succumb to adversity through your misapplied energies.\nYou will let strange elements direct your course.",
+      "translation_ko": "스스로 우물 안에서 일하는 꿈은, 잘못 쓴 힘으로 역경에 굴복하고 낯선 것들이 자신의 길을 이끌게 둘 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우물",
+    "term_en": "well",
+    "context": "빈 우물을 봄",
+    "interpretation_ko": "낯선 이에게 속내를 나누면 재물을 빼앗길 조짐",
+    "interpretation_en": "denotes you will be robbed of fortune if you allow strangers to share your confidence",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Well",
+      "original": "To see an empty well, denotes you will be robbed of fortune if you\nallow strangers to share your confidence.",
+      "translation_ko": "빈 우물을 보는 꿈은, 낯선 이에게 속내를 나누면 재물을 빼앗길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우물",
+    "term_en": "well",
+    "context": "펌프가 있는 우물을 봄",
+    "interpretation_ko": "앞날을 개척할 기회를 얻을 조짐",
+    "interpretation_en": "shows you will have opportunities to advance your prospects",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Well",
+      "original": "To see one with a pump in it, shows you will have opportunities\nto advance your prospects.",
+      "translation_ko": "펌프가 있는 우물을 보는 꿈은, 앞날을 개척할 기회를 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "우물",
+    "term_en": "well",
+    "context": "저절로 솟는 우물 꿈을 꿈",
+    "interpretation_ko": "훌륭한 자산으로 지식과 즐거움의 세계에 들어설 조짐",
+    "interpretation_en": "foretells that your splendid resources will gain you admittance into the realms of knowledge and pleasure",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Well",
+      "original": "To dream of an artesian well, foretells that your splendid resources\nwill gain you admittance into the realms of knowledge and pleasure.",
+      "translation_ko": "저절로 솟는 우물 꿈은, 훌륭한 자산으로 지식과 즐거움의 세계에 들어설 조짐이다"
+    }
+  }
+]

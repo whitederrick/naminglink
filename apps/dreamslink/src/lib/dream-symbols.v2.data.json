@@ -234,6 +234,7 @@
     "m305.json",
     "m306.json",
     "m307.json",
+    "m308.json",
     "m31.json",
     "m32.json",
     "m33.json",
@@ -4845,6 +4846,362 @@
       ]
     },
     {
+      "id": "well",
+      "term_ko": "우물",
+      "term_en": "well",
+      "aliases": [
+        "샘물",
+        "우물가",
+        "두레박"
+      ],
+      "category": "place",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "우물을 파서 물을 봄",
+          "interpretation_ko": "먼 곳에서 소식이 올 조짐",
+          "interpretation_en": "a sign that news will come from afar",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "穿井見水遠信至",
+              "translation_ko": "우물을 파서 물을 보면 먼 곳의 소식이 온다"
+            }
+          ]
+        },
+        {
+          "context": "스스로 우물 안에서 일함",
+          "interpretation_ko": "잘못 쓴 힘으로 역경에 굴복하고 낯선 것들이 자신의 길을 이끌게 둘 조짐",
+          "interpretation_en": "foretells that you will succumb to adversity through your misapplied energies. You will let strange elements direct your course",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Well",
+              "original": "To dream that you are employed in a well, foretells that you\nwill succumb to adversity through your misapplied energies.\nYou will let strange elements direct your course.",
+              "translation_ko": "스스로 우물 안에서 일하는 꿈은, 잘못 쓴 힘으로 역경에 굴복하고 낯선 것들이 자신의 길을 이끌게 둘 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "빈 우물을 봄",
+          "interpretation_ko": "낯선 이에게 속내를 나누면 재물을 빼앗길 조짐",
+          "interpretation_en": "denotes you will be robbed of fortune if you allow strangers to share your confidence",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Well",
+              "original": "To see an empty well, denotes you will be robbed of fortune if you\nallow strangers to share your confidence.",
+              "translation_ko": "빈 우물을 보는 꿈은, 낯선 이에게 속내를 나누면 재물을 빼앗길 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "펌프가 있는 우물을 봄",
+          "interpretation_ko": "앞날을 개척할 기회를 얻을 조짐",
+          "interpretation_en": "shows you will have opportunities to advance your prospects",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Well",
+              "original": "To see one with a pump in it, shows you will have opportunities\nto advance your prospects.",
+              "translation_ko": "펌프가 있는 우물을 보는 꿈은, 앞날을 개척할 기회를 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "저절로 솟는 우물 꿈을 꿈",
+          "interpretation_ko": "훌륭한 자산으로 지식과 즐거움의 세계에 들어설 조짐",
+          "interpretation_en": "foretells that your splendid resources will gain you admittance into the realms of knowledge and pleasure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Well",
+              "original": "To dream of an artesian well, foretells that your splendid resources\nwill gain you admittance into the realms of knowledge and pleasure.",
+              "translation_ko": "저절로 솟는 우물 꿈은, 훌륭한 자산으로 지식과 즐거움의 세계에 들어설 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "우물이 저절로 부서짐",
+          "interpretation_ko": "집안이 크게 망할 조짐",
+          "interpretation_en": "a sign that the household will fall into ruin",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "井自損壞家大敗",
+              "translation_ko": "우물이 저절로 부서지면 집안이 크게 망한다"
+            }
+          ]
+        },
+        {
+          "context": "우물물이 끓어 넘침",
+          "interpretation_ko": "재물을 얻을 조짐",
+          "interpretation_en": "a sign of gaining wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "井中沸溢主得財",
+              "translation_ko": "우물물이 끓어 넘치면 재물을 얻을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "우물이 말라붙음",
+          "interpretation_ko": "집안 재물이 흩어질 조짐",
+          "interpretation_en": "a sign that household wealth will scatter",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "井枯涸者家財散",
+              "translation_ko": "우물이 말라붙으면 집안 재물이 흩어진다"
+            }
+          ]
+        },
+        {
+          "context": "우물에 몸을 비춰 봄",
+          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
+          "interpretation_en": "a sign of gaining salary and position",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "井中照身祿位至",
+              "translation_ko": "우물에 몸을 비추면 녹봉과 지위가 온다"
+            }
+          ]
+        },
+        {
+          "context": "몸이 우물에 빠짐",
+          "interpretation_ko": "병이 들어 흉할 조짐",
+          "interpretation_en": "an inauspicious sign of falling ill",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "身墜井中疾病凶",
+              "translation_ko": "몸이 우물에 빠지면 질병으로 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "방이 우물 속에 있음",
+          "interpretation_ko": "병을 앓을 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "房在井中主見病",
+              "translation_ko": "방이 우물 속에 있으면 병을 볼 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "길어 올린 우물물이 맑음",
+          "interpretation_ko": "길한 조짐",
+          "interpretation_en": "an auspicious sign",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "取井水清吉混凶",
+              "translation_ko": "우물물을 긷는데 맑으면 길하고 흐리면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "길어 올린 우물물이 흐림",
+          "interpretation_ko": "흉한 조짐",
+          "interpretation_en": "an inauspicious sign",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "取井水清吉混凶",
+              "translation_ko": "우물물을 긷는데 맑으면 길하고 흐리면 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "우물물에 진흙이 섞여 있음",
+          "interpretation_ko": "재물의 주인이 될 조짐",
+          "interpretation_en": "a sign of becoming a man of wealth",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "井水負泥出財主",
+              "translation_ko": "우물물이 진흙을 지고 있으면 재물의 주인이 나온다"
+            }
+          ]
+        },
+        {
+          "context": "우물이 마르려 함",
+          "interpretation_ko": "집안이 깨질 조짐",
+          "interpretation_en": "a sign that the household is about to break apart",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "井中欲乾家欲破",
+              "translation_ko": "우물이 마르려 하면 집안이 깨지려 한다"
+            }
+          ]
+        },
+        {
+          "context": "우물 안에 물고기가 있음",
+          "interpretation_ko": "몸이 귀해질 조짐",
+          "interpretation_en": "a sign that one will become honored",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "井中有魚身主貴",
+              "translation_ko": "우물 안에 물고기가 있으면 몸이 귀해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "우물을 들여다보는데 소리가 남",
+          "interpretation_ko": "구설수가 생길 조짐",
+          "interpretation_en": "a sign that gossip and disputes will arise",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "窺井有聲口舌生",
+              "translation_ko": "우물을 들여다보는데 소리가 나면 구설수가 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "우물 속에 엎드려 숨음",
+          "interpretation_ko": "형벌과 옥사가 있을 조짐",
+          "interpretation_en": "a sign of punishment and imprisonment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "伏藏井中刑獄事",
+              "translation_ko": "우물 속에 엎드려 숨으면 형벌과 옥사의 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "취해서 우물에 빠짐",
+          "interpretation_ko": "관재가 올 조짐",
+          "interpretation_en": "a sign that legal trouble will come",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "醉落井中官事至",
+              "translation_ko": "취해서 우물에 빠지면 관재가 온다"
+            }
+          ]
+        },
+        {
+          "context": "집이 우물 속에 있음",
+          "interpretation_ko": "맏아들에게 흉할 조짐",
+          "interpretation_en": "an inauspicious sign for the eldest son",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "家住井中長子凶",
+              "translation_ko": "집이 우물 속에 있으면 맏아들이 흉하다"
+            }
+          ]
+        },
+        {
+          "context": "사람이 우물에서 나온다고 말함",
+          "interpretation_ko": "기쁜 기운이 올 조짐",
+          "interpretation_en": "a sign that joyful energy will come",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "人云出井喜氣至",
+              "translation_ko": "사람이 우물에서 나온다고 말하면 기쁜 기운이 온다"
+            }
+          ]
+        },
+        {
+          "context": "우물을 치거나 새로 팜",
+          "interpretation_ko": "크게 귀해질 조짐",
+          "interpretation_en": "a sign of becoming greatly honored",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "淘井造井主大貴",
+              "translation_ko": "우물을 치거나 우물을 만들면 크게 귀해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "그릇이 우물에 떨어짐",
+          "interpretation_ko": "길한 일이 있을 조짐",
+          "interpretation_en": "a sign that a fortunate event will occur",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "門戶井灶廚廁",
+              "original": "器皿落井有吉事",
+              "translation_ko": "그릇이 우물에 떨어지면 길한 일이 있다"
+            }
+          ]
+        },
+        {
+          "context": "불을 잡고 우물을 태움",
+          "interpretation_ko": "질병이 있을 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "水火盜賊燈燭",
+              "original": "把火燒井主疾病",
+              "translation_ko": "불을 잡고 우물을 태우면 질병이 있을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "door",
       "term_ko": "문",
       "term_en": "door",
@@ -7377,305 +7734,6 @@
               "locator": "天地日月星辰",
               "original": "拜星月燒香大吉",
               "translation_ko": "별과 달에 절하고 향을 사르면 크게 길하다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "well",
-      "term_ko": "우물",
-      "term_en": "well",
-      "aliases": [
-        "샘물",
-        "우물가",
-        "두레박"
-      ],
-      "category": "place",
-      "polarity": "ambivalent",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "우물을 파서 물을 봄",
-          "interpretation_ko": "먼 곳에서 소식이 올 조짐",
-          "interpretation_en": "a sign that news will come from afar",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "穿井見水遠信至",
-              "translation_ko": "우물을 파서 물을 보면 먼 곳의 소식이 온다"
-            }
-          ]
-        },
-        {
-          "context": "우물이 저절로 부서짐",
-          "interpretation_ko": "집안이 크게 망할 조짐",
-          "interpretation_en": "a sign that the household will fall into ruin",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "井自損壞家大敗",
-              "translation_ko": "우물이 저절로 부서지면 집안이 크게 망한다"
-            }
-          ]
-        },
-        {
-          "context": "우물물이 끓어 넘침",
-          "interpretation_ko": "재물을 얻을 조짐",
-          "interpretation_en": "a sign of gaining wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "井中沸溢主得財",
-              "translation_ko": "우물물이 끓어 넘치면 재물을 얻을 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "우물이 말라붙음",
-          "interpretation_ko": "집안 재물이 흩어질 조짐",
-          "interpretation_en": "a sign that household wealth will scatter",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "井枯涸者家財散",
-              "translation_ko": "우물이 말라붙으면 집안 재물이 흩어진다"
-            }
-          ]
-        },
-        {
-          "context": "우물에 몸을 비춰 봄",
-          "interpretation_ko": "녹봉과 지위를 얻을 조짐",
-          "interpretation_en": "a sign of gaining salary and position",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "井中照身祿位至",
-              "translation_ko": "우물에 몸을 비추면 녹봉과 지위가 온다"
-            }
-          ]
-        },
-        {
-          "context": "몸이 우물에 빠짐",
-          "interpretation_ko": "병이 들어 흉할 조짐",
-          "interpretation_en": "an inauspicious sign of falling ill",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "身墜井中疾病凶",
-              "translation_ko": "몸이 우물에 빠지면 질병으로 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "방이 우물 속에 있음",
-          "interpretation_ko": "병을 앓을 조짐",
-          "interpretation_en": "a sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "房在井中主見病",
-              "translation_ko": "방이 우물 속에 있으면 병을 볼 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "길어 올린 우물물이 맑음",
-          "interpretation_ko": "길한 조짐",
-          "interpretation_en": "an auspicious sign",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "取井水清吉混凶",
-              "translation_ko": "우물물을 긷는데 맑으면 길하고 흐리면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "길어 올린 우물물이 흐림",
-          "interpretation_ko": "흉한 조짐",
-          "interpretation_en": "an inauspicious sign",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "取井水清吉混凶",
-              "translation_ko": "우물물을 긷는데 맑으면 길하고 흐리면 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "우물물에 진흙이 섞여 있음",
-          "interpretation_ko": "재물의 주인이 될 조짐",
-          "interpretation_en": "a sign of becoming a man of wealth",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "井水負泥出財主",
-              "translation_ko": "우물물이 진흙을 지고 있으면 재물의 주인이 나온다"
-            }
-          ]
-        },
-        {
-          "context": "우물이 마르려 함",
-          "interpretation_ko": "집안이 깨질 조짐",
-          "interpretation_en": "a sign that the household is about to break apart",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "井中欲乾家欲破",
-              "translation_ko": "우물이 마르려 하면 집안이 깨지려 한다"
-            }
-          ]
-        },
-        {
-          "context": "우물 안에 물고기가 있음",
-          "interpretation_ko": "몸이 귀해질 조짐",
-          "interpretation_en": "a sign that one will become honored",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "井中有魚身主貴",
-              "translation_ko": "우물 안에 물고기가 있으면 몸이 귀해질 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "우물을 들여다보는데 소리가 남",
-          "interpretation_ko": "구설수가 생길 조짐",
-          "interpretation_en": "a sign that gossip and disputes will arise",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "窺井有聲口舌生",
-              "translation_ko": "우물을 들여다보는데 소리가 나면 구설수가 생긴다"
-            }
-          ]
-        },
-        {
-          "context": "우물 속에 엎드려 숨음",
-          "interpretation_ko": "형벌과 옥사가 있을 조짐",
-          "interpretation_en": "a sign of punishment and imprisonment",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "伏藏井中刑獄事",
-              "translation_ko": "우물 속에 엎드려 숨으면 형벌과 옥사의 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "취해서 우물에 빠짐",
-          "interpretation_ko": "관재가 올 조짐",
-          "interpretation_en": "a sign that legal trouble will come",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "醉落井中官事至",
-              "translation_ko": "취해서 우물에 빠지면 관재가 온다"
-            }
-          ]
-        },
-        {
-          "context": "집이 우물 속에 있음",
-          "interpretation_ko": "맏아들에게 흉할 조짐",
-          "interpretation_en": "an inauspicious sign for the eldest son",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "家住井中長子凶",
-              "translation_ko": "집이 우물 속에 있으면 맏아들이 흉하다"
-            }
-          ]
-        },
-        {
-          "context": "사람이 우물에서 나온다고 말함",
-          "interpretation_ko": "기쁜 기운이 올 조짐",
-          "interpretation_en": "a sign that joyful energy will come",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "人云出井喜氣至",
-              "translation_ko": "사람이 우물에서 나온다고 말하면 기쁜 기운이 온다"
-            }
-          ]
-        },
-        {
-          "context": "우물을 치거나 새로 팜",
-          "interpretation_ko": "크게 귀해질 조짐",
-          "interpretation_en": "a sign of becoming greatly honored",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "淘井造井主大貴",
-              "translation_ko": "우물을 치거나 우물을 만들면 크게 귀해질 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "그릇이 우물에 떨어짐",
-          "interpretation_ko": "길한 일이 있을 조짐",
-          "interpretation_en": "a sign that a fortunate event will occur",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "門戶井灶廚廁",
-              "original": "器皿落井有吉事",
-              "translation_ko": "그릇이 우물에 떨어지면 길한 일이 있다"
-            }
-          ]
-        },
-        {
-          "context": "불을 잡고 우물을 태움",
-          "interpretation_ko": "질병이 있을 조짐",
-          "interpretation_en": "a sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "水火盜賊燈燭",
-              "original": "把火燒井主疾病",
-              "translation_ko": "불을 잡고 우물을 태우면 질병이 있을 조짐이다"
             }
           ]
         }
@@ -122872,6 +122930,54 @@
       ]
     },
     {
+      "id": "weeding",
+      "term_ko": "잡초 뽑기",
+      "term_en": "weeding",
+      "aliases": [
+        "잡초 뽑기가",
+        "잡초를 뽑",
+        "잡초를 뽑았",
+        "잡초 뽑는"
+      ],
+      "category": "action",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 잡초를 뽑음",
+          "interpretation_ko": "명예를 가져다줄 어떤 일을 진행하는 데 어려움을 겪을 조짐",
+          "interpretation_en": "foretells that you will have difficulty in proceeding with some work which will bring you distinction",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Weeding",
+              "original": "To dream that you are weeding, foretells that you will have difficulty\nin proceeding with some work which will bring you distinction.",
+              "translation_ko": "스스로 잡초를 뽑는 꿈은, 명예를 가져다줄 어떤 일을 진행하는 데 어려움을 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 잡초 뽑는 것을 봄",
+          "interpretation_ko": "적이 계획을 뒤엎을까 두려워할 조짐",
+          "interpretation_en": "you will be fearful that enemies will upset your plans",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Weeding",
+              "original": "To see others weeding, you will be fearful that enemies will\nupset your plans.",
+              "translation_ko": "남이 잡초 뽑는 것을 보는 꿈은, 적이 계획을 뒤엎을까 두려워할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wicked-person",
       "term_ko": "악인",
       "term_en": "wicked person",
@@ -136920,6 +137026,38 @@
               "locator": "Wedge",
               "original": "To dream of a wedge, denotes you will have trouble in some business\narrangements which will be the cause of your separation from relatives.\n\nSeparation of lovers or friends may also be implied.",
               "translation_ko": "쐐기 꿈은, 사업 문제로 곤란을 겪어 친척과 멀어질 조짐이다 — 연인이나 벗과 멀어짐도 비칠 수 있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weevil",
+      "term_ko": "바구미",
+      "term_en": "weevil",
+      "aliases": [
+        "바구미가",
+        "바구미를"
+      ],
+      "category": "animal",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "바구미 꿈을 꿈",
+          "interpretation_ko": "장사에서 손실을 보고 사랑에서 거짓을 겪을 조짐",
+          "interpretation_en": "portends loss in trade and falseness in love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Weevil",
+              "original": "To dream of weevils, portends loss in trade and falseness in love.",
+              "translation_ko": "바구미 꿈은, 장사에서 손실을 보고 사랑에서 거짓을 겪을 조짐이다"
             }
           ]
         }

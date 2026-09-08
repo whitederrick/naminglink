@@ -1,0 +1,21 @@
+{
+  "batch": 308,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Weeding",
+      "text": "To dream that you are weeding, foretells that you will have difficulty\nin proceeding with some work which will bring you distinction.\n\nTo see others weeding, you will be fearful that enemies will\nupset your plans.",
+      "note": "새 상징 잡초 뽑기(weeding)"
+    },
+    {
+      "headword": "Weevil",
+      "text": "To dream of weevils, portends loss in trade and falseness in love.",
+      "note": "새 상징 바구미(weevil)"
+    },
+    {
+      "headword": "Well",
+      "text": "To dream that you are employed in a well, foretells that you\nwill succumb to adversity through your misapplied energies.\nYou will let strange elements direct your course.\n\nTo fall into a well, signifies that overwhelming despair will possess you.\nFor one to cave in, promises that enemies' schemes will overthrow your own.\n\nTo see an empty well, denotes you will be robbed of fortune if you\nallow strangers to share your confidence.\n\nTo see one with a pump in it, shows you will have opportunities\nto advance your prospects.\n\nTo dream of an artesian well, foretells that your splendid resources\nwill gain you admittance into the realms of knowledge and pleasure.\n\nTo draw water from a well, denotes the fulfilment of ardent desires.\nIf the water is impure, there will be unpleasantness.",
+      "note": "기존 well(우물, zhougong 스무 의미) 상징에 합쳤다. 셋을 §31로 건너뜀 — 「우물에 빠짐」은 기존 「몸이 우물에 빠짐」과, 「우물이 무너짐」은 기존 「우물이 저절로 부서짐」과, 「맑은/흐린 물을 길어 올림」은 기존 「길어 올린 우물물이 맑음/흐림」 한 쌍과 정확히 같은 그림이다. 나머지 넷(우물에서 일함·빈 우물·펌프 있는 우물·자분정)만 넣는다"
+    }
+  ]
+}

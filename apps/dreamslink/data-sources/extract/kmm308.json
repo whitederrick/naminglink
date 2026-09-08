@@ -1,0 +1,36 @@
+[
+  {
+    "id": "weeding",
+    "aliases": [
+      "잡초 뽑기가",
+      "잡초를 뽑",
+      "잡초를 뽑았",
+      "잡초 뽑는"
+    ],
+    "aliases_en": [
+      "weeding",
+      "pulling weeds"
+    ],
+    "contexts": {
+      "스스로 잡초를 뽑음": "그냥",
+      "남이 잡초 뽑는 것을 봄": "남이"
+    },
+    "contexts_en": {
+      "스스로 잡초를 뽑음": "difficulty proceeding distinction",
+      "남이 잡초 뽑는 것을 봄": "fearful enemies upset"
+    }
+  },
+  {
+    "id": "weevil",
+    "aliases": [
+      "바구미가",
+      "바구미를"
+    ],
+    "aliases_en": [
+      "weevil",
+      "weevils"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

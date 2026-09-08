@@ -22,6 +22,10 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "well::우물을 치거나 새로 팜": "cleaned cleaning repaired renovated",
   "well::그릇이 우물에 떨어짐": "bowl dish jar dropped",
   "well::불을 잡고 우물을 태움": "fire burning burned burnt",
+  "well::스스로 우물 안에서 일함": "employed misapplied energies",
+  "well::빈 우물을 봄": "empty robbed strangers",
+  "well::펌프가 있는 우물을 봄": "pump opportunities advance",
+  "well::저절로 솟는 우물 꿈을 꿈": "artesian splendid admittance",
   "moon::달이 막 떠오름": "rose risen appeared",
   "moon::달빛이 몸을 비춤": "shone shining bathed lit",
   "moon::달이 떨어짐": "fell falling dropped",
@@ -6575,5 +6579,7 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "wedlock::달갑잖은 혼인생활에 매여 있음을 봄": "unwelcome bonds implicated",
   "wedlock::젊은 여성이 혼인생활에 불만족함을 봄": "dissatisfied escapades scandalous",
   "wedlock::기혼 여성이 제 혼례일을 꿈꿈": "wedding day fortify jealousies",
-  "wedlock::여성이 혼인생활에서 기쁘고 안전하게 보살핌받는다고 여김": "pleased securely propitious"
+  "wedlock::여성이 혼인생활에서 기쁘고 안전하게 보살핌받는다고 여김": "pleased securely propitious",
+  "weeding::스스로 잡초를 뽑음": "difficulty proceeding distinction",
+  "weeding::남이 잡초 뽑는 것을 봄": "fearful enemies upset"
 };
