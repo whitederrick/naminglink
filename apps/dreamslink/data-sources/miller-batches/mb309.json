@@ -1,0 +1,26 @@
+{
+  "batch": 309,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Welcome",
+      "text": "To dream that you receive a warm welcome into any society,\nforetells that you will become distinguished among your\nacquaintances and will have deference shown you by strangers.\nYour fortune will approximate anticipation.\n\nTo accord others welcome, denotes your congeniality and warm nature\nwill be your passport into pleasures, or any other desired place.",
+      "note": "새 상징 환대(welcome) — \"환영\"은 기존 phantom(환영, 유령·요괴)이 이미 bare 별칭을 쥐고 있어 피했다"
+    },
+    {
+      "headword": "Welsh Rarebits",
+      "text": "To dream of preparing or eating Welsh rarebits, denotes that your affairs\nwill assume a complicated state, owing to your attention being absorbed\nby artful women and enjoyment of neutral fancies.",
+      "note": "새 상징 웨일스 레어빗(welsh rarebits)"
+    },
+    {
+      "headword": "Wet",
+      "text": "To dream that you are wet, denotes that a possible pleasure\nmay involve you in loss and disease.  You are warned to avoid\nthe blandishments of seemingly well-meaning people.\n\nFor a young woman to dream that she is soaking wet, portends that she\nwill be disgracefully implicated in some affair with a married man.",
+      "note": "새 상징 젖음(wet)"
+    },
+    {
+      "headword": "Wet Nurse",
+      "text": "To dream that you are a wet nurse, denotes that you will be widowed\nor have the care of the aged, or little children.\n\nFor a woman to dream that she is a wet nurse, signifies that she\nwill depend on her own labors for sustenance.",
+      "note": "새 상징 유모(wet nurse)"
+    }
+  ]
+}

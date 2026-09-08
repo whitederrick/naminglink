@@ -1,0 +1,73 @@
+[
+  {
+    "id": "welcome",
+    "aliases": [
+      "환대가",
+      "환대를"
+    ],
+    "aliases_en": [
+      "welcome",
+      "a warm welcome"
+    ],
+    "contexts": {
+      "어느 사회에서든 따뜻한 환대를 받음": "그냥",
+      "남에게 환대를 베풂": "베풂 베풀"
+    },
+    "contexts_en": {
+      "어느 사회에서든 따뜻한 환대를 받음": "distinguished acquaintances deference",
+      "남에게 환대를 베풂": "accord passport pleasures"
+    }
+  },
+  {
+    "id": "welsh-rarebits",
+    "aliases": [
+      "웨일스 레어빗이",
+      "웨일스 레어빗을"
+    ],
+    "aliases_en": [
+      "welsh rarebits",
+      "welsh rarebit"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "wet",
+    "aliases": [
+      "젖어",
+      "젖었"
+    ],
+    "aliases_en": [
+      "wet",
+      "soaking wet"
+    ],
+    "contexts": {
+      "스스로 젖어 있음을 봄": "그냥",
+      "젊은 여성이 흠뻑 젖어 있음을 봄": "흠뻑"
+    },
+    "contexts_en": {
+      "스스로 젖어 있음을 봄": "pleasure loss disease blandishments",
+      "젊은 여성이 흠뻑 젖어 있음을 봄": "married disgracefully implicated"
+    }
+  },
+  {
+    "id": "wet-nurse",
+    "aliases": [
+      "유모가",
+      "유모임을",
+      "유모라고"
+    ],
+    "aliases_en": [
+      "wet nurse",
+      "a wet nurse"
+    ],
+    "contexts": {
+      "스스로 유모임을 봄": "그냥",
+      "여성이 스스로 유모임을 여김": "여성이"
+    },
+    "contexts_en": {
+      "스스로 유모임을 봄": "widowed care aged children",
+      "여성이 스스로 유모임을 여김": "own labors sustenance"
+    }
+  }
+]

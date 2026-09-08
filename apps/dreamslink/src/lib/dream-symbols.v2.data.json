@@ -235,6 +235,7 @@
     "m306.json",
     "m307.json",
     "m308.json",
+    "m309.json",
     "m31.json",
     "m32.json",
     "m33.json",
@@ -122978,6 +122979,145 @@
       ]
     },
     {
+      "id": "welcome",
+      "term_ko": "환대",
+      "term_en": "welcome",
+      "aliases": [
+        "환대가",
+        "환대를"
+      ],
+      "category": "action",
+      "polarity": "positive",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "어느 사회에서든 따뜻한 환대를 받음",
+          "interpretation_ko": "지인들 사이에서 명성을 얻고 낯선 이들에게도 존중받을 조짐 — 재물도 바라던 만큼 따를 것이다",
+          "interpretation_en": "foretells that you will become distinguished among your acquaintances and will have deference shown you by strangers. Your fortune will approximate anticipation",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Welcome",
+              "original": "To dream that you receive a warm welcome into any society,\nforetells that you will become distinguished among your\nacquaintances and will have deference shown you by strangers.\nYour fortune will approximate anticipation.",
+              "translation_ko": "어느 사회에서든 따뜻한 환대를 받는 꿈은, 지인들 사이에서 명성을 얻고 낯선 이들에게도 존중받을 조짐이다 — 재물도 바라던 만큼 따를 것이다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 환대를 베풂",
+          "interpretation_ko": "다정한 성품이 즐거움이나 바라던 자리로 이끄는 통행증이 될 조짐",
+          "interpretation_en": "denotes your congeniality and warm nature will be your passport into pleasures, or any other desired place",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Welcome",
+              "original": "To accord others welcome, denotes your congeniality and warm nature\nwill be your passport into pleasures, or any other desired place.",
+              "translation_ko": "남에게 환대를 베푸는 꿈은, 다정한 성품이 즐거움이나 바라던 자리로 이끄는 통행증이 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wet",
+      "term_ko": "젖음",
+      "term_en": "wet",
+      "aliases": [
+        "젖어",
+        "젖었"
+      ],
+      "category": "body",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 젖어 있음을 봄",
+          "interpretation_ko": "그럴듯한 즐거움이 손실과 병을 부를 수 있는 조짐 — 겉으로 선의로 보이는 이들의 감언에 넘어가지 않도록 조심해야 한다",
+          "interpretation_en": "denotes that a possible pleasure may involve you in loss and disease. You are warned to avoid the blandishments of seemingly well-meaning people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wet",
+              "original": "To dream that you are wet, denotes that a possible pleasure\nmay involve you in loss and disease.  You are warned to avoid\nthe blandishments of seemingly well-meaning people.",
+              "translation_ko": "스스로 젖어 있음을 보는 꿈은, 그럴듯한 즐거움이 손실과 병을 부를 수 있는 조짐이다 — 겉으로 선의로 보이는 이들의 감언에 넘어가지 않도록 조심해야 한다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 흠뻑 젖어 있음을 봄",
+          "interpretation_ko": "기혼 남성과의 일에 불명예스럽게 얽힐 조짐",
+          "interpretation_en": "portends that she will be disgracefully implicated in some affair with a married man",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wet",
+              "original": "For a young woman to dream that she is soaking wet, portends that she\nwill be disgracefully implicated in some affair with a married man.",
+              "translation_ko": "젊은 여성이 흠뻑 젖어 있음을 보는 꿈은, 기혼 남성과의 일에 불명예스럽게 얽힐 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wet-nurse",
+      "term_ko": "유모",
+      "term_en": "wet nurse",
+      "aliases": [
+        "유모가",
+        "유모임을",
+        "유모라고"
+      ],
+      "category": "person",
+      "polarity": "neutral",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "스스로 유모임을 봄",
+          "interpretation_ko": "홀로 되거나 늙은이나 어린아이를 돌보게 될 조짐",
+          "interpretation_en": "denotes that you will be widowed or have the care of the aged, or little children",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wet Nurse",
+              "original": "To dream that you are a wet nurse, denotes that you will be widowed\nor have the care of the aged, or little children.",
+              "translation_ko": "스스로 유모임을 보는 꿈은, 홀로 되거나 늙은이나 어린아이를 돌보게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "여성이 스스로 유모임을 여김",
+          "interpretation_ko": "제 노동으로 생계를 꾸리게 될 조짐",
+          "interpretation_en": "signifies that she will depend on her own labors for sustenance",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wet Nurse",
+              "original": "For a woman to dream that she is a wet nurse, signifies that she\nwill depend on her own labors for sustenance.",
+              "translation_ko": "여성이 스스로 유모임을 여기는 꿈은, 제 노동으로 생계를 꾸리게 될 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "wicked-person",
       "term_ko": "악인",
       "term_en": "wicked person",
@@ -137058,6 +137198,38 @@
               "locator": "Weevil",
               "original": "To dream of weevils, portends loss in trade and falseness in love.",
               "translation_ko": "바구미 꿈은, 장사에서 손실을 보고 사랑에서 거짓을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welsh-rarebits",
+      "term_ko": "웨일스 레어빗",
+      "term_en": "welsh rarebits",
+      "aliases": [
+        "웨일스 레어빗이",
+        "웨일스 레어빗을"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "웨일스 레어빗을 만들거나 먹음",
+          "interpretation_ko": "약삭빠른 여자들에게 관심을 빼앗기고 부질없는 공상을 즐기느라 일이 복잡해질 조짐",
+          "interpretation_en": "denotes that your affairs will assume a complicated state, owing to your attention being absorbed by artful women and enjoyment of neutral fancies",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Welsh Rarebits",
+              "original": "To dream of preparing or eating Welsh rarebits, denotes that your affairs\nwill assume a complicated state, owing to your attention being absorbed\nby artful women and enjoyment of neutral fancies.",
+              "translation_ko": "웨일스 레어빗을 만들거나 먹는 꿈은, 약삭빠른 여자들에게 관심을 빼앗기고 부질없는 공상을 즐기느라 일이 복잡해질 조짐이다"
             }
           ]
         }

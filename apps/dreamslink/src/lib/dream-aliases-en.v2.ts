@@ -8424,5 +8424,21 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "weevil": [
     "weevil",
     "weevils"
+  ],
+  "welcome": [
+    "welcome",
+    "a warm welcome"
+  ],
+  "welsh-rarebits": [
+    "welsh rarebits",
+    "welsh rarebit"
+  ],
+  "wet": [
+    "wet",
+    "soaking wet"
+  ],
+  "wet-nurse": [
+    "wet nurse",
+    "a wet nurse"
   ]
 };

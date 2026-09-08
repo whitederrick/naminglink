@@ -6581,5 +6581,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "wedlock::기혼 여성이 제 혼례일을 꿈꿈": "wedding day fortify jealousies",
   "wedlock::여성이 혼인생활에서 기쁘고 안전하게 보살핌받는다고 여김": "pleased securely propitious",
   "weeding::스스로 잡초를 뽑음": "difficulty proceeding distinction",
-  "weeding::남이 잡초 뽑는 것을 봄": "fearful enemies upset"
+  "weeding::남이 잡초 뽑는 것을 봄": "fearful enemies upset",
+  "welcome::어느 사회에서든 따뜻한 환대를 받음": "distinguished acquaintances deference",
+  "welcome::남에게 환대를 베풂": "accord passport pleasures",
+  "wet::스스로 젖어 있음을 봄": "pleasure loss disease blandishments",
+  "wet::젊은 여성이 흠뻑 젖어 있음을 봄": "married disgracefully implicated",
+  "wet-nurse::스스로 유모임을 봄": "widowed care aged children",
+  "wet-nurse::여성이 스스로 유모임을 여김": "own labors sustenance"
 };
