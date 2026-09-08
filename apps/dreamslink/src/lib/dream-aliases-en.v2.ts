@@ -8506,5 +8506,14 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "willow": [
     "willow",
     "willows"
+  ],
+  "windmill": [
+    "windmill",
+    "a windmill"
+  ],
+  "window": [
+    "window",
+    "windows",
+    "a window"
   ]
 };

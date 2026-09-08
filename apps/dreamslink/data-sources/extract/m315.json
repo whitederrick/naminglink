@@ -1,0 +1,212 @@
+[
+  {
+    "term_ko": "바람",
+    "term_en": "wind",
+    "context": "바람이 부드럽고 슬프게 불어옴",
+    "interpretation_ko": "사별을 통해 큰 재물이 올 조짐",
+    "interpretation_en": "signifies that great fortune will come to you through bereavement",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Wind",
+      "original": "To dream of the wind blowing softly and sadly upon you, signifies that great\nfortune will come to you through bereavement.",
+      "translation_ko": "바람이 부드럽고 슬프게 불어오는 꿈은, 사별을 통해 큰 재물이 올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바람",
+    "term_en": "wind",
+    "context": "바람이 훌쩍이듯 부는 소리를 들음",
+    "interpretation_ko": "자신 없이는 삶이 텅 빈 사람과 사이가 멀어져 방황할 조짐",
+    "interpretation_en": "denotes that you will wander in estrangement from one whose life is empty without you",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Wind",
+      "original": "If you hear the wind soughing, denotes that you will wander in estrangement\nfrom one whose life is empty without you.",
+      "translation_ko": "바람이 훌쩍이듯 부는 소리를 듣는 꿈은, 자신 없이는 삶이 텅 빈 사람과 사이가 멀어져 방황할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바람",
+    "term_en": "wind",
+    "context": "거센 바람을 힘차게 거슬러 걸음",
+    "interpretation_ko": "용기 있게 유혹을 물리치고 굳은 결의로 재물을 좇을 조짐",
+    "interpretation_en": "foretells that you will courageously resist temptation and pursue fortune with a determination not easily put aside",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Wind",
+      "original": "To walk briskly against a brisk wind, foretells that you will courageously\nresist temptation and pursue fortune with a determination not easily\nput aside.",
+      "translation_ko": "거센 바람을 힘차게 거슬러 걷는 꿈은, 용기 있게 유혹을 물리치고 굳은 결의로 재물을 좇을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바람",
+    "term_en": "wind",
+    "context": "바람이 뜻과 달리 자신을 떠밀고 감",
+    "interpretation_ko": "사업에서 실패하고 사랑에서 실망할 조짐",
+    "interpretation_en": "portends failure in business undertakings and disappointments in love",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Wind",
+      "original": "For the wind to blow you along against your wishes,\nportends failure in business undertakings and disappointments in love.",
+      "translation_ko": "바람이 뜻과 달리 자신을 떠밀고 가는 꿈은, 사업에서 실패하고 사랑에서 실망할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "바람",
+    "term_en": "wind",
+    "context": "바람이 가려는 방향으로 자신을 밀어줌",
+    "interpretation_ko": "뜻밖의 도움 되는 동맹을 얻거나 경쟁자보다 유리한 처지에 있을 조짐",
+    "interpretation_en": "you will find unexpected and helpful allies, or that you have natural advantages over a rival or competitor",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Wind",
+      "original": "If the wind blows you in the direction you wish to go you will find\nunexpected and helpful allies, or that you have natural advantages\nover a rival or competitor.",
+      "translation_ko": "바람이 가려는 방향으로 자신을 밀어주는 꿈은, 뜻밖의 도움 되는 동맹을 얻거나 경쟁자보다 유리한 처지에 있을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "풍차",
+    "term_en": "windmill",
+    "context": "풍차가 돌아가는 것을 봄",
+    "interpretation_ko": "재물이 넉넉히 쌓이고 만족이 뚜렷할 조짐",
+    "interpretation_en": "foretells abundant accumulation of fortune and marked contentment",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Windmill",
+      "original": "To see a windmill in operation in your dreams, foretells abundant\naccumulation of fortune and marked contentment",
+      "translation_ko": "풍차가 돌아가는 것을 보는 꿈은, 재물이 넉넉히 쌓이고 만족이 뚜렷할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "풍차",
+    "term_en": "windmill",
+    "context": "풍차가 부서지거나 멈춰 있음을 봄",
+    "interpretation_ko": "뜻밖의 역경이 다가올 조짐",
+    "interpretation_en": "signifies adversity coming unawares",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Windmill",
+      "original": "To see one broken or idle, signifies adversity coming unawares.",
+      "translation_ko": "풍차가 부서지거나 멈춰 있음을 보는 꿈은, 뜻밖의 역경이 다가올 조짐이다"
+    }
+  },
+  {
+    "term_ko": "창문",
+    "term_en": "window",
+    "context": "창문을 봄",
+    "interpretation_ko": "밝은 희망이 운명적으로 끝맺어 가장 아끼던 바람이 절망 속에 스러지고 애쓴 일이 헛될 조짐",
+    "interpretation_en": "is an augury of fateful culmination to bright hopes. You will see your fairest wish go down in despair. Fruitless endeavors will be your portion",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Window",
+      "original": "To see windows in your dreams, is an augury of fateful culmination\nto bright hopes.  You will see your fairest wish go down in despair.\nFruitless endeavors will be your portion.",
+      "translation_ko": "창문을 보는 꿈은, 밝은 희망이 운명적으로 끝맺어 가장 아끼던 바람이 절망 속에 스러지고 애쓴 일이 헛될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "창문",
+    "term_en": "window",
+    "context": "닫힌 창문을 봄",
+    "interpretation_ko": "버림받음을 나타내는 조짐",
+    "interpretation_en": "is a representation of desertion",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Window",
+      "original": "To see closed windows is a representation of desertion.",
+      "translation_ko": "닫힌 창문을 보는 꿈은, 버림받음을 나타내는 조짐이다"
+    }
+  },
+  {
+    "term_ko": "창문",
+    "term_en": "window",
+    "context": "창문이 깨져 있음을 봄",
+    "interpretation_ko": "사랑하는 이들의 부정에 대한 비참한 의심에 시달릴 조짐",
+    "interpretation_en": "you will be hounded by miserable suspicions of disloyalty from those you love",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Window",
+      "original": "If they are broken, you will be hounded by miserable suspicions\nof disloyalty from those you love.",
+      "translation_ko": "창문이 깨져 있음을 보는 꿈은, 사랑하는 이들의 부정에 대한 비참한 의심에 시달릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "창문",
+    "term_en": "window",
+    "context": "창가에 앉음",
+    "interpretation_ko": "어리석음의 희생양이 될 조짐",
+    "interpretation_en": "denotes that you will be the victim of folly",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Window",
+      "original": "To sit in a window, denotes that you will be the victim of folly.",
+      "translation_ko": "창가에 앉는 꿈은, 어리석음의 희생양이 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "창문",
+    "term_en": "window",
+    "context": "창문으로 집에 들어감",
+    "interpretation_ko": "겉으로는 떳떳해 보이는 목적을 이루려 떳떳지 못한 수단을 쓰다 들킬 조짐",
+    "interpretation_en": "denotes that you will be found out while using dishonorable means to consummate a seemingly honorable purpose",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Window",
+      "original": "To enter a house through a window, denotes that you will be found out\nwhile using dishonorable means to consummate a seemingly honorable purpose.",
+      "translation_ko": "창문으로 집에 들어가는 꿈은, 겉으로는 떳떳해 보이는 목적을 이루려 떳떳지 못한 수단을 쓰다 들킬 조짐이다"
+    }
+  },
+  {
+    "term_ko": "창문",
+    "term_en": "window",
+    "context": "창문으로 빠져나감",
+    "interpretation_ko": "벗어나기 힘든 곤경에 빠질 조짐",
+    "interpretation_en": "indicates that you will fall into a trouble whose toils will hold you unmercifully close",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Window",
+      "original": "To escape by one, indicates that you will fall into a trouble\nwhose toils will hold you unmercifully close.",
+      "translation_ko": "창문으로 빠져나가는 꿈은, 벗어나기 힘든 곤경에 빠질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "창문",
+    "term_en": "window",
+    "context": "지나가며 창문 너머로 낯선 것들을 봄",
+    "interpretation_ko": "택한 일에서 실패하고, 건강과 만족을 걸고 얻으려던 존중을 잃을 조짐",
+    "interpretation_en": "foretells that you will fail in your chosen avocation and lose the respect for which you risked health and contentment",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Window",
+      "original": "To look through a window when passing and strange objects appear,\nforetells that you will fail in your chosen avocation and lose\nthe respect for which you risked health and contentment.",
+      "translation_ko": "지나가며 창문 너머로 낯선 것들을 보는 꿈은, 택한 일에서 실패하고 건강과 만족을 걸고 얻으려던 존중을 잃을 조짐이다"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "batch": 315,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Wind",
+      "text": "To dream of the wind blowing softly and sadly upon you, signifies that great\nfortune will come to you through bereavement.\n\nIf you hear the wind soughing, denotes that you will wander in estrangement\nfrom one whose life is empty without you.\n\nTo walk briskly against a brisk wind, foretells that you will courageously\nresist temptation and pursue fortune with a determination not easily\nput aside.  For the wind to blow you along against your wishes,\nportends failure in business undertakings and disappointments in love.\nIf the wind blows you in the direction you wish to go you will find\nunexpected and helpful allies, or that you have natural advantages\nover a rival or competitor.",
+      "note": "기존 wind(바람) 상징에 문맥 다섯을 나눠 붙였다 — 이미 아홉 의미를 갖고 있다(배치 311에서 Whirlwind 병합). 「바람이 훌쩍이듯 부는 소리」는 기존 「바람이 울부짖듯 소리를 냄」과 그림은 비슷하지만(둘 다 바람 소리를 들음) 원문이 소리의 결(훌쩍임 vs 울부짖음)과 판단(연애의 소원함 vs 중립적 서술)을 다르게 적어 함께 남긴다"
+    },
+    {
+      "headword": "Windmill",
+      "text": "To see a windmill in operation in your dreams, foretells abundant\naccumulation of fortune and marked contentment\n\nTo see one broken or idle, signifies adversity coming unawares.",
+      "note": "새 상징 풍차(windmill)"
+    },
+    {
+      "headword": "Window",
+      "text": "To see windows in your dreams, is an augury of fateful culmination\nto bright hopes.  You will see your fairest wish go down in despair.\nFruitless endeavors will be your portion.\n\nTo see closed windows is a representation of desertion.\nIf they are broken, you will be hounded by miserable suspicions\nof disloyalty from those you love.\n\nTo sit in a window, denotes that you will be the victim of folly.\nTo enter a house through a window, denotes that you will be found out\nwhile using dishonorable means to consummate a seemingly honorable purpose.\n\nTo escape by one, indicates that you will fall into a trouble\nwhose toils will hold you unmercifully close.\n\nTo look through a window when passing and strange objects appear,\nforetells that you will fail in your chosen avocation and lose\nthe respect for which you risked health and contentment.",
+      "note": "새 상징 창문(window)"
+    }
+  ]
+}

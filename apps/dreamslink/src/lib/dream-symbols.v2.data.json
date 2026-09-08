@@ -242,6 +242,7 @@
     "m312.json",
     "m313.json",
     "m314.json",
+    "m315.json",
     "m32.json",
     "m33.json",
     "m34.json",
@@ -14899,6 +14900,224 @@
       ]
     },
     {
+      "id": "wind",
+      "term_ko": "바람",
+      "term_en": "wind",
+      "aliases": [
+        "강풍",
+        "돌풍",
+        "회오리",
+        "회오리바람",
+        "큰바람"
+      ],
+      "category": "nature",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "사나운 바람이 몰아침",
+          "interpretation_ko": "사람이 죽을 흉한 조짐",
+          "interpretation_en": "an ominous sign of a death",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "狂風大雨人死亡",
+              "translation_ko": "사나운 바람과 큰비는 사람이 죽는다"
+            }
+          ]
+        },
+        {
+          "context": "돌풍이 부는 꿈을 꿈",
+          "interpretation_ko": "사업이 실망스럽게 되고 불행할 조짐",
+          "interpretation_en": "foretells disappointing business and unhappiness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Squall",
+              "original": "To dream of squalls, foretells disappointing business and unhappiness.",
+              "translation_ko": "돌풍이 부는 꿈은, 사업이 실망스럽게 되고 불행할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "회오리바람의 길목에 있음",
+          "interpretation_ko": "손실과 재앙으로 휩쓸릴 위협을 주는 변화에 맞닥뜨릴 조짐",
+          "interpretation_en": "foretells that you are confronting a change which threatens to overwhelm you with loss and calamity",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Whirlwind",
+              "original": "To dream that you are in the path of a whirlwind, foretells that you are\nconfronting a change which threatens to overwhelm you with loss and calamity.",
+              "translation_ko": "회오리바람의 길목에 있는 꿈은, 손실과 재앙으로 휩쓸릴 위협을 주는 변화에 맞닥뜨릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 회오리바람에 휘말려 치맛자락을 붙드느라 애먹음",
+          "interpretation_ko": "은밀한 밀회를 이어가다 소문이 제 이름에 붙은 것을 알고 소스라치며, 불명예와 따돌림의 위험에 바짝 다가설 조짐",
+          "interpretation_en": "denotes that she will carry on a secret flirtation and will be horrified to find that scandal has gotten possession of her name and she will run a close risk of disgrace and ostracism",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Whirlwind",
+              "original": "For a young woman to dream that she is caught in a whirlwind and has\ntrouble to keep her skirts from blowing up and entangling her waist,\ndenotes that she will carry on a secret flirtation and will be horrified\nto find that scandal has gotten possession of her name and she will run\na close risk of disgrace and ostracism.",
+              "translation_ko": "젊은 여성이 회오리바람에 휘말려 치맛자락을 붙드느라 애먹는 꿈은, 은밀한 밀회를 이어가다 소문이 제 이름에 붙은 것을 알고 소스라치며 불명예와 따돌림의 위험에 바짝 다가설 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "바람이 부드럽고 슬프게 불어옴",
+          "interpretation_ko": "사별을 통해 큰 재물이 올 조짐",
+          "interpretation_en": "signifies that great fortune will come to you through bereavement",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wind",
+              "original": "To dream of the wind blowing softly and sadly upon you, signifies that great\nfortune will come to you through bereavement.",
+              "translation_ko": "바람이 부드럽고 슬프게 불어오는 꿈은, 사별을 통해 큰 재물이 올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "바람이 훌쩍이듯 부는 소리를 들음",
+          "interpretation_ko": "자신 없이는 삶이 텅 빈 사람과 사이가 멀어져 방황할 조짐",
+          "interpretation_en": "denotes that you will wander in estrangement from one whose life is empty without you",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wind",
+              "original": "If you hear the wind soughing, denotes that you will wander in estrangement\nfrom one whose life is empty without you.",
+              "translation_ko": "바람이 훌쩍이듯 부는 소리를 듣는 꿈은, 자신 없이는 삶이 텅 빈 사람과 사이가 멀어져 방황할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "거센 바람을 힘차게 거슬러 걸음",
+          "interpretation_ko": "용기 있게 유혹을 물리치고 굳은 결의로 재물을 좇을 조짐",
+          "interpretation_en": "foretells that you will courageously resist temptation and pursue fortune with a determination not easily put aside",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wind",
+              "original": "To walk briskly against a brisk wind, foretells that you will courageously\nresist temptation and pursue fortune with a determination not easily\nput aside.",
+              "translation_ko": "거센 바람을 힘차게 거슬러 걷는 꿈은, 용기 있게 유혹을 물리치고 굳은 결의로 재물을 좇을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "바람이 뜻과 달리 자신을 떠밀고 감",
+          "interpretation_ko": "사업에서 실패하고 사랑에서 실망할 조짐",
+          "interpretation_en": "portends failure in business undertakings and disappointments in love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wind",
+              "original": "For the wind to blow you along against your wishes,\nportends failure in business undertakings and disappointments in love.",
+              "translation_ko": "바람이 뜻과 달리 자신을 떠밀고 가는 꿈은, 사업에서 실패하고 사랑에서 실망할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "바람이 가려는 방향으로 자신을 밀어줌",
+          "interpretation_ko": "뜻밖의 도움 되는 동맹을 얻거나 경쟁자보다 유리한 처지에 있을 조짐",
+          "interpretation_en": "you will find unexpected and helpful allies, or that you have natural advantages over a rival or competitor",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wind",
+              "original": "If the wind blows you in the direction you wish to go you will find\nunexpected and helpful allies, or that you have natural advantages\nover a rival or competitor.",
+              "translation_ko": "바람이 가려는 방향으로 자신을 밀어주는 꿈은, 뜻밖의 도움 되는 동맹을 얻거나 경쟁자보다 유리한 처지에 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "거센 바람에 휘말림",
+          "interpretation_ko": "장사에 손해가 나고 일하는 이들에게 어려움이 닥칠 흉한 조짐",
+          "interpretation_en": "signifies business losses and troubles for working people",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Gale",
+              "original": "To dream of being caught in a gale, signifies business losses and troubles for working people.",
+              "translation_ko": "거센 바람에 휘말리는 꿈은, 장사의 손해와 일하는 이들의 어려움을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "바람이 사람의 옷자락을 불어 젖힘",
+          "interpretation_ko": "병을 앓을 조짐",
+          "interpretation_en": "a sign of illness",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "風吹人衣主疾病",
+              "translation_ko": "바람이 사람의 옷을 불면 질병이 생긴다"
+            }
+          ]
+        },
+        {
+          "context": "갑자기 큰바람이 붊",
+          "interpretation_ko": "나라에서 명령이 내릴 조짐",
+          "interpretation_en": "a sign that the state will issue an order",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "忽大風國有號令",
+              "translation_ko": "갑자기 큰바람이 불면 나라에 호령이 있다"
+            }
+          ]
+        },
+        {
+          "context": "바람이 울부짖듯 소리를 냄",
+          "interpretation_ko": "먼 곳에서 소식이 올 조짐",
+          "interpretation_en": "a sign that news from afar will arrive",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "天地日月星辰",
+              "original": "風如吼主遠信至",
+              "translation_ko": "바람이 울부짖는 듯하면 먼 곳의 소식이 온다"
+            }
+          ]
+        },
+        {
+          "context": "바람이 불어 집이 흔들림",
+          "interpretation_ko": "거처를 옮기게 될 조짐",
+          "interpretation_en": "a sign of moving house",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "風吹屋動主遷移",
+              "translation_ko": "바람이 불어 집이 흔들리면 거처를 옮긴다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "bird",
       "term_ko": "새",
       "term_en": "bird",
@@ -28245,154 +28464,6 @@
       ]
     },
     {
-      "id": "wind",
-      "term_ko": "바람",
-      "term_en": "wind",
-      "aliases": [
-        "강풍",
-        "돌풍",
-        "회오리",
-        "회오리바람",
-        "큰바람"
-      ],
-      "category": "nature",
-      "polarity": "negative",
-      "works": [
-        "miller",
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "사나운 바람이 몰아침",
-          "interpretation_ko": "사람이 죽을 흉한 조짐",
-          "interpretation_en": "an ominous sign of a death",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "狂風大雨人死亡",
-              "translation_ko": "사나운 바람과 큰비는 사람이 죽는다"
-            }
-          ]
-        },
-        {
-          "context": "돌풍이 부는 꿈을 꿈",
-          "interpretation_ko": "사업이 실망스럽게 되고 불행할 조짐",
-          "interpretation_en": "foretells disappointing business and unhappiness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Squall",
-              "original": "To dream of squalls, foretells disappointing business and unhappiness.",
-              "translation_ko": "돌풍이 부는 꿈은, 사업이 실망스럽게 되고 불행할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "회오리바람의 길목에 있음",
-          "interpretation_ko": "손실과 재앙으로 휩쓸릴 위협을 주는 변화에 맞닥뜨릴 조짐",
-          "interpretation_en": "foretells that you are confronting a change which threatens to overwhelm you with loss and calamity",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Whirlwind",
-              "original": "To dream that you are in the path of a whirlwind, foretells that you are\nconfronting a change which threatens to overwhelm you with loss and calamity.",
-              "translation_ko": "회오리바람의 길목에 있는 꿈은, 손실과 재앙으로 휩쓸릴 위협을 주는 변화에 맞닥뜨릴 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "젊은 여성이 회오리바람에 휘말려 치맛자락을 붙드느라 애먹음",
-          "interpretation_ko": "은밀한 밀회를 이어가다 소문이 제 이름에 붙은 것을 알고 소스라치며, 불명예와 따돌림의 위험에 바짝 다가설 조짐",
-          "interpretation_en": "denotes that she will carry on a secret flirtation and will be horrified to find that scandal has gotten possession of her name and she will run a close risk of disgrace and ostracism",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Whirlwind",
-              "original": "For a young woman to dream that she is caught in a whirlwind and has\ntrouble to keep her skirts from blowing up and entangling her waist,\ndenotes that she will carry on a secret flirtation and will be horrified\nto find that scandal has gotten possession of her name and she will run\na close risk of disgrace and ostracism.",
-              "translation_ko": "젊은 여성이 회오리바람에 휘말려 치맛자락을 붙드느라 애먹는 꿈은, 은밀한 밀회를 이어가다 소문이 제 이름에 붙은 것을 알고 소스라치며 불명예와 따돌림의 위험에 바짝 다가설 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "거센 바람에 휘말림",
-          "interpretation_ko": "장사에 손해가 나고 일하는 이들에게 어려움이 닥칠 흉한 조짐",
-          "interpretation_en": "signifies business losses and troubles for working people",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Gale",
-              "original": "To dream of being caught in a gale, signifies business losses and troubles for working people.",
-              "translation_ko": "거센 바람에 휘말리는 꿈은, 장사의 손해와 일하는 이들의 어려움을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "바람이 사람의 옷자락을 불어 젖힘",
-          "interpretation_ko": "병을 앓을 조짐",
-          "interpretation_en": "a sign of illness",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "風吹人衣主疾病",
-              "translation_ko": "바람이 사람의 옷을 불면 질병이 생긴다"
-            }
-          ]
-        },
-        {
-          "context": "갑자기 큰바람이 붊",
-          "interpretation_ko": "나라에서 명령이 내릴 조짐",
-          "interpretation_en": "a sign that the state will issue an order",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "忽大風國有號令",
-              "translation_ko": "갑자기 큰바람이 불면 나라에 호령이 있다"
-            }
-          ]
-        },
-        {
-          "context": "바람이 울부짖듯 소리를 냄",
-          "interpretation_ko": "먼 곳에서 소식이 올 조짐",
-          "interpretation_en": "a sign that news from afar will arrive",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "天地日月星辰",
-              "original": "風如吼主遠信至",
-              "translation_ko": "바람이 울부짖는 듯하면 먼 곳의 소식이 온다"
-            }
-          ]
-        },
-        {
-          "context": "바람이 불어 집이 흔들림",
-          "interpretation_ko": "거처를 옮기게 될 조짐",
-          "interpretation_en": "a sign of moving house",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "風吹屋動主遷移",
-              "translation_ko": "바람이 불어 집이 흔들리면 거처를 옮긴다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "abdomen",
       "term_ko": "배",
       "term_en": "abdomen",
@@ -38230,6 +38301,123 @@
               "locator": "Wheat",
               "original": "To dream that you climb a steep hill covered with wheat and think\nyou are pulling yourself up by the stalks of wheat, denotes you\nwill enjoy great prosperity and thus be able to distinguish yourself\nin any chosen pursuit.",
               "translation_ko": "밀로 덮인 가파른 언덕을 밀줄기를 잡고 오르는 꿈은, 큰 번영을 누리고 어떤 일에서든 두각을 나타낼 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "window",
+      "term_ko": "창문",
+      "term_en": "window",
+      "aliases": [
+        "창문이",
+        "창문을",
+        "창가"
+      ],
+      "category": "object",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "창문을 봄",
+          "interpretation_ko": "밝은 희망이 운명적으로 끝맺어 가장 아끼던 바람이 절망 속에 스러지고 애쓴 일이 헛될 조짐",
+          "interpretation_en": "is an augury of fateful culmination to bright hopes. You will see your fairest wish go down in despair. Fruitless endeavors will be your portion",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Window",
+              "original": "To see windows in your dreams, is an augury of fateful culmination\nto bright hopes.  You will see your fairest wish go down in despair.\nFruitless endeavors will be your portion.",
+              "translation_ko": "창문을 보는 꿈은, 밝은 희망이 운명적으로 끝맺어 가장 아끼던 바람이 절망 속에 스러지고 애쓴 일이 헛될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "닫힌 창문을 봄",
+          "interpretation_ko": "버림받음을 나타내는 조짐",
+          "interpretation_en": "is a representation of desertion",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Window",
+              "original": "To see closed windows is a representation of desertion.",
+              "translation_ko": "닫힌 창문을 보는 꿈은, 버림받음을 나타내는 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "창문이 깨져 있음을 봄",
+          "interpretation_ko": "사랑하는 이들의 부정에 대한 비참한 의심에 시달릴 조짐",
+          "interpretation_en": "you will be hounded by miserable suspicions of disloyalty from those you love",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Window",
+              "original": "If they are broken, you will be hounded by miserable suspicions\nof disloyalty from those you love.",
+              "translation_ko": "창문이 깨져 있음을 보는 꿈은, 사랑하는 이들의 부정에 대한 비참한 의심에 시달릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "창가에 앉음",
+          "interpretation_ko": "어리석음의 희생양이 될 조짐",
+          "interpretation_en": "denotes that you will be the victim of folly",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Window",
+              "original": "To sit in a window, denotes that you will be the victim of folly.",
+              "translation_ko": "창가에 앉는 꿈은, 어리석음의 희생양이 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "창문으로 집에 들어감",
+          "interpretation_ko": "겉으로는 떳떳해 보이는 목적을 이루려 떳떳지 못한 수단을 쓰다 들킬 조짐",
+          "interpretation_en": "denotes that you will be found out while using dishonorable means to consummate a seemingly honorable purpose",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Window",
+              "original": "To enter a house through a window, denotes that you will be found out\nwhile using dishonorable means to consummate a seemingly honorable purpose.",
+              "translation_ko": "창문으로 집에 들어가는 꿈은, 겉으로는 떳떳해 보이는 목적을 이루려 떳떳지 못한 수단을 쓰다 들킬 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "창문으로 빠져나감",
+          "interpretation_ko": "벗어나기 힘든 곤경에 빠질 조짐",
+          "interpretation_en": "indicates that you will fall into a trouble whose toils will hold you unmercifully close",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Window",
+              "original": "To escape by one, indicates that you will fall into a trouble\nwhose toils will hold you unmercifully close.",
+              "translation_ko": "창문으로 빠져나가는 꿈은, 벗어나기 힘든 곤경에 빠질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "지나가며 창문 너머로 낯선 것들을 봄",
+          "interpretation_ko": "택한 일에서 실패하고, 건강과 만족을 걸고 얻으려던 존중을 잃을 조짐",
+          "interpretation_en": "foretells that you will fail in your chosen avocation and lose the respect for which you risked health and contentment",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Window",
+              "original": "To look through a window when passing and strange objects appear,\nforetells that you will fail in your chosen avocation and lose\nthe respect for which you risked health and contentment.",
+              "translation_ko": "지나가며 창문 너머로 낯선 것들을 보는 꿈은, 택한 일에서 실패하고 건강과 만족을 걸고 얻으려던 존중을 잃을 조짐이다"
             }
           ]
         }
@@ -124136,6 +124324,52 @@
               "locator": "Wild Man",
               "original": "To think you are one foretells\nyou will be unlucky in following out your designs.",
               "translation_ko": "스스로 야인이라고 여기는 꿈은, 계획하는 일에서 운이 따르지 않을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "windmill",
+      "term_ko": "풍차",
+      "term_en": "windmill",
+      "aliases": [
+        "풍차가",
+        "풍차를"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "풍차가 돌아가는 것을 봄",
+          "interpretation_ko": "재물이 넉넉히 쌓이고 만족이 뚜렷할 조짐",
+          "interpretation_en": "foretells abundant accumulation of fortune and marked contentment",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Windmill",
+              "original": "To see a windmill in operation in your dreams, foretells abundant\naccumulation of fortune and marked contentment",
+              "translation_ko": "풍차가 돌아가는 것을 보는 꿈은, 재물이 넉넉히 쌓이고 만족이 뚜렷할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "풍차가 부서지거나 멈춰 있음을 봄",
+          "interpretation_ko": "뜻밖의 역경이 다가올 조짐",
+          "interpretation_en": "signifies adversity coming unawares",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Windmill",
+              "original": "To see one broken or idle, signifies adversity coming unawares.",
+              "translation_ko": "풍차가 부서지거나 멈춰 있음을 보는 꿈은, 뜻밖의 역경이 다가올 조짐이다"
             }
           ]
         }

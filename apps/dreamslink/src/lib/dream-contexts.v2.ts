@@ -114,6 +114,11 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "wind::돌풍이 부는 꿈을 꿈": "squall disappointing",
   "wind::회오리바람의 길목에 있음": "path confronting calamity",
   "wind::젊은 여성이 회오리바람에 휘말려 치맛자락을 붙드느라 애먹음": "flirtation scandal ostracism",
+  "wind::바람이 부드럽고 슬프게 불어옴": "softly sadly bereavement",
+  "wind::바람이 훌쩍이듯 부는 소리를 들음": "soughing estrangement empty",
+  "wind::거센 바람을 힘차게 거슬러 걸음": "briskly resist temptation",
+  "wind::바람이 뜻과 달리 자신을 떠밀고 감": "along wishes failure disappointments",
+  "wind::바람이 가려는 방향으로 자신을 밀어줌": "direction allies advantages rival",
   "river::강과 바다가 넘쳐 불어남": "sea ocean overflow flooded swelling",
   "river::강물에 모래와 돌이 있음": "sand pebbles stones rocks",
   "river::불이 강물을 태움": "fire flames burning burned",
@@ -6633,5 +6638,14 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "will::아내나 누군가 유언장이 자신에게 불리하다고 여김": "against disputes disorderly",
   "will::유언장을 입증하지 못함": "fail prove libelous slander",
   "will::유언장을 잃어버림": "lose unfortunate business",
-  "will::유언장을 없앰": "destroy treachery deceit"
+  "will::유언장을 없앰": "destroy treachery deceit",
+  "windmill::풍차가 돌아가는 것을 봄": "operation abundant accumulation",
+  "windmill::풍차가 부서지거나 멈춰 있음을 봄": "broken idle adversity",
+  "window::창문을 봄": "augury culmination hopes",
+  "window::닫힌 창문을 봄": "closed representation desertion",
+  "window::창문이 깨져 있음을 봄": "broken suspicions disloyalty",
+  "window::창가에 앉음": "sit victim folly",
+  "window::창문으로 집에 들어감": "enter dishonorable consummate",
+  "window::창문으로 빠져나감": "escape trouble toils",
+  "window::지나가며 창문 너머로 낯선 것들을 봄": "passing strange objects avocation"
 };

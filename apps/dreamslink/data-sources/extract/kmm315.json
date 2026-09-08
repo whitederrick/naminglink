@@ -1,0 +1,52 @@
+[
+  {
+    "id": "windmill",
+    "aliases": [
+      "풍차가",
+      "풍차를"
+    ],
+    "aliases_en": [
+      "windmill",
+      "a windmill"
+    ],
+    "contexts": {
+      "풍차가 돌아가는 것을 봄": "돌아가는",
+      "풍차가 부서지거나 멈춰 있음을 봄": "부서지거나 멈춰"
+    },
+    "contexts_en": {
+      "풍차가 돌아가는 것을 봄": "operation abundant accumulation",
+      "풍차가 부서지거나 멈춰 있음을 봄": "broken idle adversity"
+    }
+  },
+  {
+    "id": "window",
+    "aliases": [
+      "창문이",
+      "창문을",
+      "창가"
+    ],
+    "aliases_en": [
+      "window",
+      "windows",
+      "a window"
+    ],
+    "contexts": {
+      "창문을 봄": "그냥",
+      "닫힌 창문을 봄": "닫힌",
+      "창문이 깨져 있음을 봄": "깨져",
+      "창가에 앉음": "앉음 앉았",
+      "창문으로 집에 들어감": "들어감 들어갔",
+      "창문으로 빠져나감": "빠져나감 빠져나갔",
+      "지나가며 창문 너머로 낯선 것들을 봄": "지나가며"
+    },
+    "contexts_en": {
+      "창문을 봄": "augury culmination hopes",
+      "닫힌 창문을 봄": "closed representation desertion",
+      "창문이 깨져 있음을 봄": "broken suspicions disloyalty",
+      "창가에 앉음": "sit victim folly",
+      "창문으로 집에 들어감": "enter dishonorable consummate",
+      "창문으로 빠져나감": "escape trouble toils",
+      "지나가며 창문 너머로 낯선 것들을 봄": "passing strange objects avocation"
+    }
+  }
+]
