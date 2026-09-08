@@ -1513,7 +1513,9 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   ],
   "wall": [
     "walls",
-    "fence"
+    "fence",
+    "wall",
+    "a wall"
   ],
   "buddhist-nun": [
     "nun",

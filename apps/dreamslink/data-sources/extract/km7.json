@@ -586,21 +586,49 @@
     "id": "wall",
     "aliases": [
       "담장",
-      "담벼락"
+      "담벼락",
+      "담이",
+      "담을",
+      "담에",
+      "담으로",
+      "담 아래",
+      "담 위",
+      "벽이",
+      "벽을",
+      "벽에",
+      "벽으로"
     ],
     "aliases_en": [
       "walls",
-      "fence"
+      "fence",
+      "wall",
+      "a wall"
     ],
     "contexts": {
       "담을 넘어 집으로 들어감": "넘어 넘었 타넘 들어갔",
       "아내와 아들이 담 아래 있음": "아내 아들 가족 아래에",
-      "담 위에서 흙을 팜": "흙을 파는 팠다 파헤"
+      "담 위에서 흙을 팜": "흙을 파는 팠다 파헤",
+      "벽이 앞길을 막고 있음을 봄": "막고",
+      "벽을 뛰어넘음": "뛰어넘",
+      "벽에 구멍을 냄": "구멍을",
+      "벽을 허묾": "허물",
+      "벽을 쌓음": "쌓았",
+      "젊은 여성이 벽 위를 걸음": "위를",
+      "젊은 여성이 벽 뒤에 숨음": "숨었",
+      "젊은 여성이 낮은 벽 옆을 걸음": "옆을"
     },
     "contexts_en": {
       "담을 넘어 집으로 들어감": "entered climbing inside",
       "아내와 아들이 담 아래 있음": "wife son family beneath",
-      "담 위에서 흙을 팜": "digging dug soil earth"
+      "담 위에서 흙을 팜": "digging dug soil earth",
+      "벽이 앞길을 막고 있음을 봄": "obstructing progress succumb",
+      "벽을 뛰어넘음": "jump overcome obstacles",
+      "벽에 구멍을 냄": "breach tenacity purpose",
+      "벽을 허묾": "demolish overthrow enemies",
+      "벽을 쌓음": "build plans solidify",
+      "젊은 여성이 벽 위를 걸음": "walk top secure happiness",
+      "젊은 여성이 벽 뒤에 숨음": "hide ashamed connections",
+      "젊은 여성이 낮은 벽 옆을 걸음": "beside base gamut deserted"
     }
   },
   {

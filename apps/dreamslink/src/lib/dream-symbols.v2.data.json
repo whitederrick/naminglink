@@ -221,6 +221,7 @@
     "m294.json",
     "m295.json",
     "m296.json",
+    "m297.json",
     "m3.json",
     "m30.json",
     "m31.json",
@@ -20274,6 +20275,189 @@
               "locator": "龍蛇禽獸等類",
               "original": "活兔在園百憂去",
               "translation_ko": "산 토끼가 동산에 있으면 온갖 근심이 사라진다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wall",
+      "term_ko": "벽",
+      "term_en": "wall",
+      "aliases": [
+        "담장",
+        "담벼락",
+        "담이",
+        "담을",
+        "담에",
+        "담으로",
+        "담 아래",
+        "담 위",
+        "벽이",
+        "벽을",
+        "벽에",
+        "벽으로"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "벽이 앞길을 막고 있음을 봄",
+          "interpretation_ko": "안 좋은 영향에 굴복해 일에서 중요한 승리를 잃을 조짐",
+          "interpretation_en": "you will surely succumb to ill-favored influences and lose important victories in your affairs",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walls",
+              "original": "To dream that you find a wall obstructing your progress,\nyou will surely succumb to ill-favored influences and lose\nimportant victories in your affairs.",
+              "translation_ko": "벽이 앞길을 막고 있음을 보는 꿈은, 안 좋은 영향에 굴복해 일에서 중요한 승리를 잃을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벽을 뛰어넘음",
+          "interpretation_ko": "장애를 이겨내고 바람을 이룰 조짐",
+          "interpretation_en": "you will overcome obstacles and win your desires",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walls",
+              "original": "To jump over it, you will overcome obstacles and win your desires.",
+              "translation_ko": "벽을 뛰어넘는 꿈은, 장애를 이겨내고 바람을 이룰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벽에 구멍을 냄",
+          "interpretation_ko": "끈질긴 의지로 바라던 바를 이룰 조짐",
+          "interpretation_en": "you will succeed in the attainment of your wishes by sheer tenacity of purpose",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walls",
+              "original": "To force a breach in a wall, you will succeed in the attainment\nof your wishes by sheer tenacity of purpose.",
+              "translation_ko": "벽에 구멍을 내는 꿈은, 끈질긴 의지로 바라던 바를 이룰 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벽을 허묾",
+          "interpretation_ko": "적을 무너뜨릴 조짐",
+          "interpretation_en": "you will overthrow your enemies",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walls",
+              "original": "To demolish one, you will overthrow your enemies.",
+              "translation_ko": "벽을 허무는 꿈은, 적을 무너뜨릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "벽을 쌓음",
+          "interpretation_ko": "실패와 교활한 적을 물리치고 계획을 세워 재산을 굳건히 할 조짐",
+          "interpretation_en": "foretells that you will carefully lay plans and will solidify your fortune to the exclusion of failure, or designing enemies",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walls",
+              "original": "To build one, foretells that you will carefully lay plans\nand will solidify your fortune to the exclusion of failure,\nor designing enemies.",
+              "translation_ko": "벽을 쌓는 꿈은, 실패와 교활한 적을 물리치고 계획을 세워 재산을 굳건히 할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 벽 위를 걸음",
+          "interpretation_ko": "미래의 행복이 곧 굳건해질 조짐",
+          "interpretation_en": "shows that her future happiness will soon be made secure",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walls",
+              "original": "For a young woman to walk on top of a wall, shows that her future\nhappiness will soon be made secure.",
+              "translation_ko": "젊은 여성이 벽 위를 걷는 꿈은, 미래의 행복이 곧 굳건해질 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 벽 뒤에 숨음",
+          "interpretation_ko": "부끄러워할 만한 관계를 맺을 조짐",
+          "interpretation_en": "denotes that she will form connections that she will be ashamed to acknowledge",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walls",
+              "original": "For her to hide behind\na wall, denotes that she will form connections that she will\nbe ashamed to acknowledge.",
+              "translation_ko": "젊은 여성이 벽 뒤에 숨는 꿈은, 부끄러워할 만한 관계를 맺을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은 여성이 낮은 벽 옆을 걸음",
+          "interpretation_ko": "매력을 다 써버리고 위태로운 때에 버림받을 조짐",
+          "interpretation_en": "she will soon have run the gamut of her attractions, and will likely be deserted at a precarious time",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Walls",
+              "original": "If she walks beside a base wall.\nshe will soon have run the gamut of her attractions, and will\nlikely be deserted at a precarious time.",
+              "translation_ko": "젊은 여성이 낮은 벽 옆을 걷는 꿈은, 매력을 다 써버리고 위태로운 때에 버림받을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "담을 넘어 집으로 들어감",
+          "interpretation_ko": "온갖 일이 떠나갈 조짐",
+          "interpretation_en": "a sign that all matters will depart",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "踰牆渡宅百事去",
+              "translation_ko": "담을 넘어 집으로 들어가면 온갖 일이 떠나간다"
+            }
+          ]
+        },
+        {
+          "context": "아내와 아들이 담 아래 있음",
+          "interpretation_ko": "관직이 올 조짐",
+          "interpretation_en": "a sign of gaining an official post",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "妻男牆下官位至",
+              "translation_ko": "아내와 아들이 담 아래 있으면 관직이 온다"
+            }
+          ]
+        },
+        {
+          "context": "담 위에서 흙을 팜",
+          "interpretation_ko": "맡은 일과 자리가 바뀔 조짐",
+          "interpretation_en": "a sign that one's office will change",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "宮室屋宇倉庫",
+              "original": "牆上掘土主更政",
+              "translation_ko": "담 위에서 흙을 파면 정사가 바뀐다"
             }
           ]
         }
@@ -92009,66 +92193,6 @@
               "locator": "Walking Stick",
               "original": "To admire handsome ones, you will entrust your interest to others,\nbut they will be faithful.",
               "translation_ko": "멋진 지팡이에 감탄하는 꿈은, 남에게 이익을 맡기지만 그들은 신의를 지킬 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wall",
-      "term_ko": "담",
-      "term_en": "wall",
-      "aliases": [
-        "담장",
-        "담벼락"
-      ],
-      "category": "object",
-      "polarity": "neutral",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "담을 넘어 집으로 들어감",
-          "interpretation_ko": "온갖 일이 떠나갈 조짐",
-          "interpretation_en": "a sign that all matters will depart",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "踰牆渡宅百事去",
-              "translation_ko": "담을 넘어 집으로 들어가면 온갖 일이 떠나간다"
-            }
-          ]
-        },
-        {
-          "context": "아내와 아들이 담 아래 있음",
-          "interpretation_ko": "관직이 올 조짐",
-          "interpretation_en": "a sign of gaining an official post",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "妻男牆下官位至",
-              "translation_ko": "아내와 아들이 담 아래 있으면 관직이 온다"
-            }
-          ]
-        },
-        {
-          "context": "담 위에서 흙을 팜",
-          "interpretation_ko": "맡은 일과 자리가 바뀔 조짐",
-          "interpretation_en": "a sign that one's office will change",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "宮室屋宇倉庫",
-              "original": "牆上掘土主更政",
-              "translation_ko": "담 위에서 흙을 파면 정사가 바뀐다"
             }
           ]
         }
