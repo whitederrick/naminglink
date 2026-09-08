@@ -1,0 +1,89 @@
+[
+  {
+    "id": "wire",
+    "aliases": [
+      "철사",
+      "철조망"
+    ],
+    "aliases_en": [
+      "wire",
+      "wires",
+      "a wire fence"
+    ],
+    "contexts": {
+      "전선 꿈을 꿈": "그냥",
+      "낡거나 녹슨 전선을 봄": "낡거나 녹슨 낡은",
+      "철조망을 봄": "철조망"
+    },
+    "contexts_en": {
+      "전선 꿈을 꿈": "frequent journeys disparagement",
+      "낡거나 녹슨 전선을 봄": "rusty temper kindred",
+      "철조망을 봄": "cheated trade view"
+    }
+  },
+  {
+    "id": "wisdom",
+    "aliases": [
+      "지혜가",
+      "지혜를",
+      "지혜로운"
+    ],
+    "aliases_en": [
+      "wisdom",
+      "wise"
+    ],
+    "contexts": {
+      "자신에게 지혜가 있다고 여김": "있다고 있어서 지녔",
+      "자신에게 지혜가 모자란다고 여김": "모자란다고 부족 없다고"
+    },
+    "contexts_en": {
+      "자신에게 지혜가 있다고 여김": "brave trials prosperous",
+      "자신에게 지혜가 모자란다고 여김": "lack wasting talents"
+    }
+  },
+  {
+    "id": "witch",
+    "aliases": [
+      "마녀를",
+      "마녀가",
+      "마녀들"
+    ],
+    "aliases_en": [
+      "witch",
+      "witches"
+    ],
+    "contexts": {
+      "마녀들의 꿈을 꿈": "그냥",
+      "마녀들이 자신에게 다가옴": "다가옴 다가왔 다가오"
+    },
+    "contexts_en": {
+      "마녀들의 꿈을 꿈": "adventures enjoyment mortification",
+      "마녀들이 자신에게 다가옴": "advance prostration disappointing"
+    }
+  },
+  {
+    "id": "witness",
+    "aliases": [
+      "증언을",
+      "증언이",
+      "증언했",
+      "증언하는",
+      "증인"
+    ],
+    "aliases_en": [
+      "witness",
+      "bearing witness",
+      "testify"
+    ],
+    "contexts": {
+      "남에게 불리한 증언을 함": "불리한 남에게",
+      "남이 자신에게 불리한 증언을 함": "남이 자신에게",
+      "죄지은 사람을 위해 증언함": "죄지은 죄인"
+    },
+    "contexts_en": {
+      "남에게 불리한 증언을 함": "others oppression causes",
+      "남이 자신에게 불리한 증언을 함": "compelled refuse favors",
+      "죄지은 사람을 위해 증언함": "guilty implicated shameful"
+    }
+  }
+]

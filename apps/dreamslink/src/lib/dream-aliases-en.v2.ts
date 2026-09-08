@@ -8533,5 +8533,23 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "winter": [
     "winter",
     "wintertime"
+  ],
+  "wire": [
+    "wire",
+    "wires",
+    "a wire fence"
+  ],
+  "wisdom": [
+    "wisdom",
+    "wise"
+  ],
+  "witch": [
+    "witch",
+    "witches"
+  ],
+  "witness": [
+    "witness",
+    "bearing witness",
+    "testify"
   ]
 };

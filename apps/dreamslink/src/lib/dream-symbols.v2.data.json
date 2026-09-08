@@ -244,6 +244,7 @@
     "m314.json",
     "m315.json",
     "m316.json",
+    "m317.json",
     "m32.json",
     "m33.json",
     "m34.json",
@@ -57470,6 +57471,95 @@
       ]
     },
     {
+      "id": "wolf",
+      "term_ko": "이리",
+      "term_en": "wolf",
+      "aliases": [
+        "늑대",
+        "승냥이"
+      ],
+      "category": "animal",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "이리가 움직이지 않고 있음",
+          "interpretation_ko": "관청 일이 길하게 풀릴 조짐",
+          "interpretation_en": "an auspicious sign for dealings with officials",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "虎狼不動見官吉",
+              "translation_ko": "호랑이와 이리가 움직이지 않으면 관을 만나 길하다"
+            }
+          ]
+        },
+        {
+          "context": "이리를 죽임",
+          "interpretation_ko": "자신을 불명예로 몰아넣으려는 교활한 적을 물리칠 조짐",
+          "interpretation_en": "you will defeat sly enemies who seek to overshadow you with disgrace",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wolf",
+              "original": "To kill one, denotes that you will defeat sly enemies who seek to overshadow\nyou with disgrace.",
+              "translation_ko": "이리를 죽이는 꿈은, 자신을 불명예로 몰아넣으려는 교활한 적을 물리칠 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "이리가 울부짖는 소리를 들음",
+          "interpretation_ko": "정정당당한 경쟁에서 자신을 물리치려는 은밀한 결탁이 있음을 알게 될 조짐",
+          "interpretation_en": "discovers to you a secret alliance to defeat you in honest competition",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wolf",
+              "original": "To hear the howl of a wolf, discovers to you a secret\nalliance to defeat you in honest competition.",
+              "translation_ko": "이리가 울부짖는 소리를 듣는 꿈은, 정정당당한 경쟁에서 자신을 물리치려는 은밀한 결탁이 있음을 알게 될 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "이리를 봄",
+          "interpretation_ko": "도적이 들 조짐",
+          "interpretation_en": "a sign of thieves",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "豹狼惡狗有盜賊",
+              "translation_ko": "표범과 이리와 사나운 개는 도적이 있을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "이리가 다리를 물어뜯음",
+          "interpretation_ko": "구하는 것을 얻지 못할 조짐",
+          "interpretation_en": "a sign that what one seeks will not be obtained",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "龍蛇禽獸等類",
+              "original": "狼啖腳者主不得",
+              "translation_ko": "이리가 다리를 물어뜯으면 구하는 것을 얻지 못한다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "abbot",
       "term_ko": "수도원장",
       "term_en": "abbot",
@@ -64203,8 +64293,7 @@
         "전기가",
         "전기를",
         "감전",
-        "전깃줄",
-        "전선"
+        "전깃줄"
       ],
       "category": "object",
       "polarity": "ambivalent",
@@ -94674,60 +94763,123 @@
       ]
     },
     {
-      "id": "wolf",
-      "term_ko": "이리",
-      "term_en": "wolf",
+      "id": "wire",
+      "term_ko": "전선",
+      "term_en": "wire",
       "aliases": [
-        "늑대",
-        "승냥이"
+        "철사",
+        "철조망"
       ],
-      "category": "animal",
-      "polarity": "ambivalent",
+      "category": "object",
+      "polarity": "negative",
       "works": [
-        "zhougong"
+        "miller"
       ],
       "tags": [],
       "weight": 1,
       "meanings": [
         {
-          "context": "이리가 움직이지 않고 있음",
-          "interpretation_ko": "관청 일이 길하게 풀릴 조짐",
-          "interpretation_en": "an auspicious sign for dealings with officials",
-          "polarity": "positive",
+          "context": "전선 꿈을 꿈",
+          "interpretation_ko": "잦지만 짧은 여행을 하게 되는데, 그 여행이 자신에게 불명예가 될 조짐",
+          "interpretation_en": "you will make frequent but short journeys which will be to your disparagement",
+          "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "虎狼不動見官吉",
-              "translation_ko": "호랑이와 이리가 움직이지 않으면 관을 만나 길하다"
+              "work": "miller",
+              "locator": "Wire",
+              "original": "To dream of wire, denotes that you will make frequent but short\njourneys which will be to your disparagement.",
+              "translation_ko": "전선 꿈은, 잦지만 짧은 여행을 하게 되는데 그 여행이 자신에게 불명예가 될 조짐이다"
             }
           ]
         },
         {
-          "context": "이리를 봄",
-          "interpretation_ko": "도적이 들 조짐",
-          "interpretation_en": "a sign of thieves",
+          "context": "낡거나 녹슨 전선을 봄",
+          "interpretation_ko": "고약한 성미를 지니게 되어 가족에게 근심을 안길 조짐",
+          "interpretation_en": "you will be possessed of a bad temper, which will give troubles to your kindred",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "豹狼惡狗有盜賊",
-              "translation_ko": "표범과 이리와 사나운 개는 도적이 있을 조짐이다"
+              "work": "miller",
+              "locator": "Wire",
+              "original": "Old or rusty wire, signifies that you will be possessed of a bad temper,\nwhich will give troubles to your kindred.",
+              "translation_ko": "낡거나 녹슨 전선을 보는 꿈은, 고약한 성미를 지니게 되어 가족에게 근심을 안길 조짐이다"
             }
           ]
         },
         {
-          "context": "이리가 다리를 물어뜯음",
-          "interpretation_ko": "구하는 것을 얻지 못할 조짐",
-          "interpretation_en": "a sign that what one seeks will not be obtained",
+          "context": "철조망을 봄",
+          "interpretation_ko": "눈여겨보던 거래에서 속임을 당할 조짐",
+          "interpretation_en": "you will be cheated in some trade you have in view",
           "polarity": "negative",
           "cites": [
             {
-              "work": "zhougong",
-              "locator": "龍蛇禽獸等類",
-              "original": "狼啖腳者主不得",
-              "translation_ko": "이리가 다리를 물어뜯으면 구하는 것을 얻지 못한다"
+              "work": "miller",
+              "locator": "Wire",
+              "original": "To see a wire fence in your dreams, foretells that you will be cheated\nin some trade you have in view.",
+              "translation_ko": "철조망을 보는 꿈은, 눈여겨보던 거래에서 속임을 당할 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "witness",
+      "term_ko": "증언",
+      "term_en": "witness",
+      "aliases": [
+        "증언을",
+        "증언이",
+        "증언했",
+        "증언하는",
+        "증인"
+      ],
+      "category": "event",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "남에게 불리한 증언을 함",
+          "interpretation_ko": "사소한 일로 크게 짓눌릴 조짐",
+          "interpretation_en": "you will have great oppression through slight causes",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Witness",
+              "original": "To dream that you bear witness against others, signifies you\nwill have great oppression through slight causes.",
+              "translation_ko": "남에게 불리한 증언을 하는 꿈은, 사소한 일로 크게 짓눌릴 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "남이 자신에게 불리한 증언을 함",
+          "interpretation_ko": "제 이익을 지키려 벗들의 부탁을 거절할 수밖에 없을 조짐",
+          "interpretation_en": "you will be compelled to refuse favors to friends in order to protect your own interest",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Witness",
+              "original": "If others bear witness against you, you will be compelled to\nrefuse favors to friends in order to protect your own interest.",
+              "translation_ko": "남이 자신에게 불리한 증언을 하는 꿈은, 제 이익을 지키려 벗들의 부탁을 거절할 수밖에 없을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "죄지은 사람을 위해 증언함",
+          "interpretation_ko": "부끄러운 일에 연루될 조짐",
+          "interpretation_en": "you will be implicated in a shameful affair",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Witness",
+              "original": "If you are a witness for a guilty person, you will be implicated\nin a shameful affair.",
+              "translation_ko": "죄지은 사람을 위해 증언하는 꿈은, 부끄러운 일에 연루될 조짐이다"
             }
           ]
         }
@@ -120602,6 +120754,53 @@
       ]
     },
     {
+      "id": "sorcerer",
+      "term_ko": "마법사",
+      "term_en": "sorcerer",
+      "aliases": [
+        "마법사를",
+        "마법사가",
+        "흑마법사"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "마법사를 봄",
+          "interpretation_ko": "야심이 뜻밖의 실망과 변화를 겪을 조짐",
+          "interpretation_en": "foretells your ambitions will undergo strange disappointments and change",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Sorcerer",
+              "original": "To dream of a sorcerer, foretells your ambitions will undergo strange disappointments and change.",
+              "translation_ko": "마법사를 보는 꿈은, 야심이 뜻밖의 실망과 변화를 겪을 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "젊은이가 마법사 꿈을 꿈",
+          "interpretation_ko": "상실과 파혼을 겪을 조짐",
+          "interpretation_en": "this dream implies loss and broken engagements",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wizard",
+              "original": "For young people, this dream implies loss and broken engagements.",
+              "translation_ko": "젊은이가 마법사 꿈을 꾸면, 상실과 파혼을 겪을 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "spice",
       "term_ko": "향신료",
       "term_en": "spice",
@@ -124533,6 +124732,100 @@
               "locator": "Windmill",
               "original": "To see one broken or idle, signifies adversity coming unawares.",
               "translation_ko": "풍차가 부서지거나 멈춰 있음을 보는 꿈은, 뜻밖의 역경이 다가올 조짐이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wisdom",
+      "term_ko": "지혜",
+      "term_en": "wisdom",
+      "aliases": [
+        "지혜가",
+        "지혜를",
+        "지혜로운"
+      ],
+      "category": "abstract",
+      "polarity": "ambivalent",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "자신에게 지혜가 있다고 여김",
+          "interpretation_ko": "고난 앞에서도 씩씩한 기상을 지녀 그 시련을 이겨 내고 번영한 삶에 이를 조짐",
+          "interpretation_en": "your spirit will be brave under trying circumstances, and you will be able to overcome these trials and rise to prosperous living",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wisdom",
+              "original": "To dream you are possessed of wisdom, signifies your spirit\nwill be brave under trying circumstances, and you will be able\nto overcome these trials and rise to prosperous living.",
+              "translation_ko": "자신에게 지혜가 있다고 여기는 꿈은, 고난 앞에서도 씩씩한 기상을 지녀 그 시련을 이겨 내고 번영한 삶에 이를 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "자신에게 지혜가 모자란다고 여김",
+          "interpretation_ko": "타고난 재능을 허비하고 있다는 뜻",
+          "interpretation_en": "it implies you are wasting your native talents",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Wisdom",
+              "original": "If you think you lack wisdom, it implies you are wasting\nyour native talents.",
+              "translation_ko": "자신에게 지혜가 모자란다고 여기는 꿈은, 타고난 재능을 허비하고 있다는 뜻이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "witch",
+      "term_ko": "마녀",
+      "term_en": "witch",
+      "aliases": [
+        "마녀를",
+        "마녀가",
+        "마녀들"
+      ],
+      "category": "person",
+      "polarity": "negative",
+      "works": [
+        "miller"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "마녀들의 꿈을 꿈",
+          "interpretation_ko": "다른 이들과 함께 신나는 모험을 찾아 나서지만 끝내 망신으로 되돌아올 조짐",
+          "interpretation_en": "you, with others, will seek adventures which will afford hilarious enjoyment, but it will eventually rebound to your mortification",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Witch",
+              "original": "To dream of witches, denotes that you, with others,\nwill seek adventures which will afford hilarious enjoyment,\nbut it will eventually rebound to your mortification.",
+              "translation_ko": "마녀들의 꿈은, 다른 이들과 함께 신나는 모험을 찾아 나서지만 끝내 망신으로 되돌아올 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "마녀들이 자신에게 다가옴",
+          "interpretation_ko": "사업이 침체되고 집안일이 실망스러울 조짐",
+          "interpretation_en": "business will suffer prostration if witches advance upon you, home affairs may be disappointing",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Witch",
+              "original": "Business will suffer prostration if witches advance upon you,\nhome affairs may be disappointing.",
+              "translation_ko": "마녀들이 자신에게 다가오는 꿈은, 사업이 침체되고 집안일이 실망스러울 조짐이다"
             }
           ]
         }
@@ -136819,39 +137112,6 @@
               "locator": "Soot",
               "original": "If you see soot in your dreams, it means that you will meet with ill success in your affairs. Lovers will be quarrelsome and hard to please.",
               "translation_ko": "검댕을 보는 꿈은, 일에서 성과를 못 거둘 조짐이다. 연인 사이는 다투기 쉽고 비위 맞추기 어려워질 것이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sorcerer",
-      "term_ko": "마법사",
-      "term_en": "sorcerer",
-      "aliases": [
-        "마법사를",
-        "마법사가",
-        "흑마법사"
-      ],
-      "category": "person",
-      "polarity": "negative",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "마법사를 봄",
-          "interpretation_ko": "야심이 뜻밖의 실망과 변화를 겪을 조짐",
-          "interpretation_en": "foretells your ambitions will undergo strange disappointments and change",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Sorcerer",
-              "original": "To dream of a sorcerer, foretells your ambitions will undergo strange disappointments and change.",
-              "translation_ko": "마법사를 보는 꿈은, 야심이 뜻밖의 실망과 변화를 겪을 조짐이다"
             }
           ]
         }

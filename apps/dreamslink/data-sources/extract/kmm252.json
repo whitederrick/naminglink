@@ -26,8 +26,14 @@
       "a sorcerer",
       "wizard"
     ],
-    "contexts": {},
-    "contexts_en": {}
+    "contexts": {
+      "마법사를 봄": "그냥",
+      "젊은이가 마법사 꿈을 꿈": "젊은이가 젊은이"
+    },
+    "contexts_en": {
+      "마법사를 봄": "ambitions disappointments change",
+      "젊은이가 마법사 꿈을 꿈": "young people broken engagements"
+    }
   },
   {
     "id": "soul",

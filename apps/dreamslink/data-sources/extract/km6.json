@@ -577,12 +577,16 @@
     "contexts": {
       "이리가 움직이지 않고 있음": "움직이지 가만히 멈춰 꼼짝",
       "이리를 봄": "마주쳤 나타나 바라보",
-      "이리가 다리를 물어뜯음": "다리를 물어뜯 물렸 종아리"
+      "이리가 다리를 물어뜯음": "다리를 물어뜯 물렸 종아리",
+      "이리를 죽임": "죽였 죽이는 처치",
+      "이리가 울부짖는 소리를 들음": "울부짖 울음소리"
     },
     "contexts_en": {
       "이리가 움직이지 않고 있음": "motionless still frozen unmoving",
       "이리를 봄": "saw appeared spotted",
-      "이리가 다리를 물어뜯음": "leg bit bite gnawed"
+      "이리가 다리를 물어뜯음": "leg bit bite gnawed",
+      "이리를 죽임": "kill defeat disgrace",
+      "이리가 울부짖는 소리를 들음": "howl secret alliance"
     }
   },
   {
