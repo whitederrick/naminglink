@@ -1,0 +1,66 @@
+[
+  {
+    "id": "whale",
+    "aliases": [
+      "고래가",
+      "고래를"
+    ],
+    "aliases_en": [
+      "whale",
+      "a whale"
+    ],
+    "contexts": {
+      "고래가 배로 다가오는 것을 봄": "다가오는",
+      "고래가 없어짐": "없어짐 없어져 없어졌",
+      "고래가 배를 뒤엎는 것을 봄": "뒤엎는"
+    },
+    "contexts_en": {
+      "고래가 배로 다가오는 것을 봄": "approaching struggle duties",
+      "고래가 없어짐": "demolished decide inclination",
+      "고래가 배를 뒤엎는 것을 봄": "overturn whirlpool disasters"
+    }
+  },
+  {
+    "id": "whalebone",
+    "aliases": [
+      "고래수염이",
+      "고래수염을"
+    ],
+    "aliases_en": [
+      "whalebone"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  },
+  {
+    "id": "wheat",
+    "aliases": [
+      "밀이",
+      "밀을",
+      "밀밭",
+      "밀알",
+      "밀줄기"
+    ],
+    "aliases_en": [
+      "wheat"
+    ],
+    "contexts": {
+      "너른 밀밭에 밀이 자라는 것을 봄": "그냥",
+      "밀이 여묾": "여묾 여문 여물었",
+      "굵고 맑은 밀알이 탈곡기를 지나가는 것을 봄": "탈곡기",
+      "밀을 자루나 통에 담아 둠을 봄": "자루나 통에",
+      "곳간이 잘 덮이지 않아 밀이 젖는 것을 봄": "곳간이",
+      "이삭에서 밀을 비벼 손에 담아 먹음": "비벼",
+      "밀로 덮인 가파른 언덕을 밀줄기를 잡고 오름": "언덕을"
+    },
+    "contexts_en": {
+      "너른 밀밭에 밀이 자라는 것을 봄": "fields growing encouraging prospects",
+      "밀이 여묾": "ripe fortune assured joyous",
+      "굵고 맑은 밀알이 탈곡기를 지나가는 것을 봄": "thresher portals fullest",
+      "밀을 자루나 통에 담아 둠을 봄": "sacks barrels apex victory",
+      "곳간이 잘 덮이지 않아 밀이 젖는 것을 봄": "granary wet diminishing",
+      "이삭에서 밀을 비벼 손에 담아 먹음": "rub hand eat labor",
+      "밀로 덮인 가파른 언덕을 밀줄기를 잡고 오름": "hill stalks pulling distinguish"
+    }
+  }
+]

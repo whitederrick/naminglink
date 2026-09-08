@@ -1,0 +1,167 @@
+[
+  {
+    "term_ko": "고래",
+    "term_en": "whale",
+    "context": "고래가 배로 다가오는 것을 봄",
+    "interpretation_ko": "의무 사이의 갈등을 겪고 재산을 잃을 위협에 처할 조짐",
+    "interpretation_en": "denotes that you will have a struggle between duties, and will be threatened with loss of property",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Whale",
+      "original": "To dream of seeing a whale approaching a ship, denotes that you\nwill have a struggle between duties, and will be threatened\nwith loss of property.",
+      "translation_ko": "고래가 배로 다가오는 것을 보는 꿈은, 의무 사이의 갈등을 겪고 재산을 잃을 위협에 처할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "고래",
+    "term_en": "whale",
+    "context": "고래가 없어짐",
+    "interpretation_ko": "옳음과 마음이 끌리는 것 사이에서 기쁘게 결정하고 즐거운 성공을 만날 조짐",
+    "interpretation_en": "you will happily decide between right and inclination, and will encounter pleasing successes",
+    "polarity": "positive",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Whale",
+      "original": "If the whale is demolished, you will happily decide between right\nand inclination, and will encounter pleasing successes.",
+      "translation_ko": "고래가 없어지는 꿈은, 옳음과 마음이 끌리는 것 사이에서 기쁘게 결정하고 즐거운 성공을 만날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "고래",
+    "term_en": "whale",
+    "context": "고래가 배를 뒤엎는 것을 봄",
+    "interpretation_ko": "재앙의 소용돌이에 휘말릴 조짐",
+    "interpretation_en": "you will be thrown into a whirlpool of disasters",
+    "polarity": "negative",
+    "category": "animal",
+    "cite": {
+      "work": "miller",
+      "locator": "Whale",
+      "original": "If you see a whale overturn a ship, you will be thrown into\na whirlpool of disasters.",
+      "translation_ko": "고래가 배를 뒤엎는 것을 보는 꿈은, 재앙의 소용돌이에 휘말릴 조짐이다"
+    }
+  },
+  {
+    "term_ko": "고래수염",
+    "term_en": "whalebone",
+    "context": "고래수염을 보거나 다룸",
+    "interpretation_ko": "굳건한 이익을 줄 동맹을 맺을 조짐",
+    "interpretation_en": "you still form an alliance which will afford you solid benefit",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Whalebone",
+      "original": "To see or work with whalebone in your dreams, you still form\nan alliance which will afford you solid benefit.",
+      "translation_ko": "고래수염을 보거나 다루는 꿈은, 굳건한 이익을 줄 동맹을 맺을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밀",
+    "term_en": "wheat",
+    "context": "너른 밀밭에 밀이 자라는 것을 봄",
+    "interpretation_ko": "관심사가 고무적인 전망을 갖게 될 조짐",
+    "interpretation_en": "denotes that your interest will take on encouraging prospects",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Wheat",
+      "original": "To see large fields of growing wheat in your dreams, denotes that your\ninterest will take on encouraging prospects.",
+      "translation_ko": "너른 밀밭에 밀이 자라는 것을 보는 꿈은, 관심사가 고무적인 전망을 갖게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밀",
+    "term_en": "wheat",
+    "context": "밀이 여묾",
+    "interpretation_ko": "재물이 확실해지고 사랑이 즐거운 동반자가 될 조짐",
+    "interpretation_en": "your fortune will be assured and love will be your joyous companion",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Wheat",
+      "original": "If the wheat is ripe, your fortune will be assured and love\nwill be your joyous companion.",
+      "translation_ko": "밀이 여무는 꿈은, 재물이 확실해지고 사랑이 즐거운 동반자가 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밀",
+    "term_en": "wheat",
+    "context": "굵고 맑은 밀알이 탈곡기를 지나가는 것을 봄",
+    "interpretation_ko": "번영이 활짝 문을 열 조짐",
+    "interpretation_en": "foretells that prosperity has opened her portals to the fullest for you",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Wheat",
+      "original": "To see large clear grains of wheat running through the thresher,\nforetells that prosperity has opened her portals to the fullest for you.",
+      "translation_ko": "굵고 맑은 밀알이 탈곡기를 지나가는 것을 보는 꿈은, 번영이 활짝 문을 열 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밀",
+    "term_en": "wheat",
+    "context": "밀을 자루나 통에 담아 둠을 봄",
+    "interpretation_ko": "성공의 정점에 이르려는 결심이 승리로 이루어지고 사랑도 굳건해질 조짐",
+    "interpretation_en": "your determination to reach the apex of success is soon to be crowned with victory and your love matters will be firmly grounded",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Wheat",
+      "original": "To see it in sacks or barrels, your determination to reach the apex\nof success is soon to be crowned with victory and your love matters\nwill be firmly grounded.",
+      "translation_ko": "밀을 자루나 통에 담아 둠을 보는 꿈은, 성공의 정점에 이르려는 결심이 승리로 이루어지고 사랑도 굳건해질 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밀",
+    "term_en": "wheat",
+    "context": "곳간이 잘 덮이지 않아 밀이 젖는 것을 봄",
+    "interpretation_ko": "재산은 모았으나 권리를 지키지 못해 적의 손에 이익이 줄어들 조짐",
+    "interpretation_en": "foretells that while you have amassed a fortune, you have not secured your rights and you will see your interests diminishing by the hand of enemies",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Wheat",
+      "original": "If your granary is not well covered and you see its contents\ngetting wet, foretells that while you have amassed a fortune,\nyou have not secured your rights and you will see your interests\ndiminishing by the hand of enemies.",
+      "translation_ko": "곳간이 잘 덮이지 않아 밀이 젖는 것을 보는 꿈은, 재산은 모았으나 권리를 지키지 못해 적의 손에 이익이 줄어들 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밀",
+    "term_en": "wheat",
+    "context": "이삭에서 밀을 비벼 손에 담아 먹음",
+    "interpretation_ko": "힘써 애써 성공하고 권리를 확실히 얻을 조짐",
+    "interpretation_en": "you will labor hard for success and will obtain and make sure of your rights",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Wheat",
+      "original": "If you rub wheat from the head into your hand and eat it,\nyou will labor hard for success and will obtain and make sure\nof your rights.",
+      "translation_ko": "이삭에서 밀을 비벼 손에 담아 먹는 꿈은, 힘써 애써 성공하고 권리를 확실히 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "밀",
+    "term_en": "wheat",
+    "context": "밀로 덮인 가파른 언덕을 밀줄기를 잡고 오름",
+    "interpretation_ko": "큰 번영을 누리고 어떤 일에서든 두각을 나타낼 조짐",
+    "interpretation_en": "denotes you will enjoy great prosperity and thus be able to distinguish yourself in any chosen pursuit",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Wheat",
+      "original": "To dream that you climb a steep hill covered with wheat and think\nyou are pulling yourself up by the stalks of wheat, denotes you\nwill enjoy great prosperity and thus be able to distinguish yourself\nin any chosen pursuit.",
+      "translation_ko": "밀로 덮인 가파른 언덕을 밀줄기를 잡고 오르는 꿈은, 큰 번영을 누리고 어떤 일에서든 두각을 나타낼 조짐이다"
+    }
+  }
+]

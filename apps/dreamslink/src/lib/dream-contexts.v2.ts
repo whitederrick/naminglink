@@ -6587,5 +6587,15 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "wet::스스로 젖어 있음을 봄": "pleasure loss disease blandishments",
   "wet::젊은 여성이 흠뻑 젖어 있음을 봄": "married disgracefully implicated",
   "wet-nurse::스스로 유모임을 봄": "widowed care aged children",
-  "wet-nurse::여성이 스스로 유모임을 여김": "own labors sustenance"
+  "wet-nurse::여성이 스스로 유모임을 여김": "own labors sustenance",
+  "whale::고래가 배로 다가오는 것을 봄": "approaching struggle duties",
+  "whale::고래가 없어짐": "demolished decide inclination",
+  "whale::고래가 배를 뒤엎는 것을 봄": "overturn whirlpool disasters",
+  "wheat::너른 밀밭에 밀이 자라는 것을 봄": "fields growing encouraging prospects",
+  "wheat::밀이 여묾": "ripe fortune assured joyous",
+  "wheat::굵고 맑은 밀알이 탈곡기를 지나가는 것을 봄": "thresher portals fullest",
+  "wheat::밀을 자루나 통에 담아 둠을 봄": "sacks barrels apex victory",
+  "wheat::곳간이 잘 덮이지 않아 밀이 젖는 것을 봄": "granary wet diminishing",
+  "wheat::이삭에서 밀을 비벼 손에 담아 먹음": "rub hand eat labor",
+  "wheat::밀로 덮인 가파른 언덕을 밀줄기를 잡고 오름": "hill stalks pulling distinguish"
 };

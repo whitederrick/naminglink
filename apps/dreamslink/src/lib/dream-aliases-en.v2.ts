@@ -8440,5 +8440,15 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
   "wet-nurse": [
     "wet nurse",
     "a wet nurse"
+  ],
+  "whale": [
+    "whale",
+    "a whale"
+  ],
+  "whalebone": [
+    "whalebone"
+  ],
+  "wheat": [
+    "wheat"
   ]
 };
