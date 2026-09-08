@@ -1,0 +1,59 @@
+[
+  {
+    "id": "firewood",
+    "aliases": [
+      "장작을",
+      "장작이",
+      "장작더미",
+      "땔감"
+    ],
+    "aliases_en": [
+      "firewood",
+      "a wood-pile",
+      "wood pile"
+    ],
+    "contexts": {
+      "장작을 사고파는 일을 함": "사고파는 거래 굳센",
+      "장작더미를 봄": "더미를 신통찮 오해"
+    },
+    "contexts_en": {
+      "장작을 사고파는 일을 함": "deal struggle fortune",
+      "장작더미를 봄": "unsatisfactory misunderstandings love"
+    }
+  },
+  {
+    "id": "wool",
+    "aliases": [
+      "양모가",
+      "양모를",
+      "털실"
+    ],
+    "aliases_en": [
+      "wool",
+      "woolen"
+    ],
+    "contexts": {
+      "양모 꿈을 꿈": "그냥",
+      "더럽거나 지저분한 양모를 봄": "더럽거나 지저분한 지저분"
+    },
+    "contexts_en": {
+      "양모 꿈을 꿈": "pleasing opportunities expand",
+      "더럽거나 지저분한 양모를 봄": "soiled dirty detest"
+    }
+  },
+  {
+    "id": "workshop",
+    "aliases": [
+      "작업장이",
+      "작업장을",
+      "공방"
+    ],
+    "aliases_en": [
+      "workshop",
+      "workshops",
+      "a workshop"
+    ],
+    "contexts": {},
+    "contexts_en": {}
+  }
+]

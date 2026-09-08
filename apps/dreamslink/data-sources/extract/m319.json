@@ -1,0 +1,182 @@
+[
+  {
+    "term_ko": "신발",
+    "term_en": "shoes",
+    "context": "나막신을 신은 꿈을 꿈",
+    "interpretation_ko": "쓸쓸히 떠돌고 빈털터리가 될 조짐",
+    "interpretation_en": "is significant of lonely wanderings and penniless circumstances",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wooden Shoe",
+      "original": "To dream of a wooden shoe, is significant of lonely wanderings and\npenniless circumstances.",
+      "translation_ko": "나막신을 신은 꿈은, 쓸쓸히 떠돌고 빈털터리가 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "신발",
+    "term_en": "shoes",
+    "context": "사랑하는 사이인 사람이 나막신 꿈을 꿈",
+    "interpretation_ko": "상대의 부정을 겪을 조짐",
+    "interpretation_en": "those in love will suffer from unfaithfulness",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wooden Shoe",
+      "original": "Those in love will suffer from unfaithfulness.",
+      "translation_ko": "사랑하는 사이인 사람이 나막신 꿈을 꾸면, 상대의 부정을 겪을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "숲",
+    "term_en": "forest",
+    "context": "숲이 온통 푸르름을 봄",
+    "interpretation_ko": "그 변화가 길할 조짐",
+    "interpretation_en": "the change will be lucky",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Woods",
+      "original": "If the woods appear green, the change will be lucky.",
+      "translation_ko": "숲이 온통 푸르른 꿈은, 그 변화가 길할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "숲",
+    "term_en": "forest",
+    "context": "잎이 다 떨어져 앙상한 숲을 봄",
+    "interpretation_ko": "그 변화가 재앙으로 드러날 조짐",
+    "interpretation_en": "it will prove calamitous",
+    "polarity": "negative",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Woods",
+      "original": "If stripped of verdure, it will prove calamitous.",
+      "translation_ko": "잎이 다 떨어져 앙상한 숲을 보는 꿈은, 그 변화가 재앙으로 드러날 조짐이다"
+    }
+  },
+  {
+    "term_ko": "숲",
+    "term_en": "forest",
+    "context": "숲에 불이 남을 봄",
+    "interpretation_ko": "계획이 만족스레 무르익고 번영이 자신을 반길 조짐",
+    "interpretation_en": "your plans will reach satisfactory maturity, prosperity will beam with favor upon you",
+    "polarity": "positive",
+    "category": "nature",
+    "cite": {
+      "work": "miller",
+      "locator": "Woods",
+      "original": "To see woods on fire, denotes that your plans will reach\nsatisfactory maturity.  Prosperity will beam with favor upon you.",
+      "translation_ko": "숲에 불이 남을 보는 꿈은, 계획이 만족스레 무르익고 번영이 자신을 반길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장작",
+    "term_en": "firewood",
+    "context": "장작을 사고파는 일을 함",
+    "interpretation_ko": "굳센 분투로 재물을 얻을 조짐",
+    "interpretation_en": "you will win fortune by determined struggle",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Woods",
+      "original": "To dream that you deal in firewood, denotes that you will win\nfortune by determined struggle.",
+      "translation_ko": "장작을 사고파는 일을 하는 꿈은, 굳센 분투로 재물을 얻을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "장작",
+    "term_en": "firewood",
+    "context": "장작더미를 봄",
+    "interpretation_ko": "사업이 신통찮고 애정에서 오해가 생길 조짐",
+    "interpretation_en": "denotes unsatisfactory business and misunderstandings in love",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wood-pile",
+      "original": "To dream of a wood-pile, denotes unsatisfactory business\nand misunderstandings in love.",
+      "translation_ko": "장작더미를 보는 꿈은, 사업이 신통찮고 애정에서 오해가 생길 조짐이다"
+    }
+  },
+  {
+    "term_ko": "양모",
+    "term_en": "wool",
+    "context": "양모 꿈을 꿈",
+    "interpretation_ko": "이익을 늘릴 기회가 생길 반가운 조짐",
+    "interpretation_en": "is a pleasing sign of prosperous opportunities to expand your interests",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wool",
+      "original": "To dream of wool, is a pleasing sign of prosperous opportunities\nto expand your interests.",
+      "translation_ko": "양모 꿈은, 이익을 늘릴 기회가 생길 반가운 조짐이다"
+    }
+  },
+  {
+    "term_ko": "양모",
+    "term_en": "wool",
+    "context": "더럽거나 지저분한 양모를 봄",
+    "interpretation_ko": "제 신념을 몹시 싫어하는 이들 밑에서 일자리를 구하게 될 조짐",
+    "interpretation_en": "you will seek employment with those who detest your principles",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "miller",
+      "locator": "Wool",
+      "original": "To see soiled, or dirty wool, foretells that you will seek employment\nwith those who detest your principles.",
+      "translation_ko": "더럽거나 지저분한 양모를 보는 꿈은, 제 신념을 몹시 싫어하는 이들 밑에서 일자리를 구하게 될 조짐이다"
+    }
+  },
+  {
+    "term_ko": "노역",
+    "term_en": "labor",
+    "context": "일자리를 구함",
+    "interpretation_ko": "뜻밖의 일로 이득을 볼 조짐",
+    "interpretation_en": "you will be benefited by some unaccountable occurrence",
+    "polarity": "positive",
+    "category": "action",
+    "cite": {
+      "work": "miller",
+      "locator": "Work",
+      "original": "To look for work, means that you will be benefited by\nsome unaccountable occurrence.",
+      "translation_ko": "일자리를 구하는 꿈은, 뜻밖의 일로 이득을 볼 조짐이다"
+    }
+  },
+  {
+    "term_ko": "감옥",
+    "term_en": "prison",
+    "context": "노역소에 있음",
+    "interpretation_ko": "어떤 일로 손해와 해를 입을 조짐",
+    "interpretation_en": "some event will work you harm and loss",
+    "polarity": "negative",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Work house",
+      "original": "To dream that you are in a workhouse denotes that some event\nwill work you harm and loss.",
+      "translation_ko": "노역소에 있는 꿈은, 어떤 일로 손해와 해를 입을 조짐이다"
+    }
+  },
+  {
+    "term_ko": "작업장",
+    "term_en": "workshop",
+    "context": "작업장을 봄",
+    "interpretation_ko": "적을 무너뜨릴 비상한 계책을 쓰게 될 조짐",
+    "interpretation_en": "you will use extraordinary schemes to undermine your enemies",
+    "polarity": "neutral",
+    "category": "place",
+    "cite": {
+      "work": "miller",
+      "locator": "Workshop",
+      "original": "To see workshops in your dreams, foretells that you will use\nextraordinary schemes to undermine your enemies.",
+      "translation_ko": "작업장을 보는 꿈은, 적을 무너뜨릴 비상한 계책을 쓰게 될 조짐이다"
+    }
+  }
+]

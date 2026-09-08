@@ -21,7 +21,8 @@
       "힘써 일했다",
       "힘써 일한",
       "고된 일",
-      "노역을"
+      "노역을",
+      "일자리를"
     ],
     "aliases_en": [
       "laboring",
@@ -30,12 +31,14 @@
     "contexts": {
       "짐승이 무거운 짐을 지고 일하는 것을 봄": "짐승 소가 무거운 짐을",
       "사람들이 힘써 일하는 것을 봄": "사람들이 남들이",
-      "제가 힘써 일함": "제가 내가 나는"
+      "제가 힘써 일함": "제가 내가 나는",
+      "일자리를 구함": "구함 구했 찾았"
     },
     "contexts_en": {
       "짐승이 무거운 짐을 지고 일하는 것을 봄": "domestic animals burdens prosperous unjust servants",
       "사람들이 힘써 일하는 것을 봄": "men profitable robust",
-      "제가 힘써 일함": "yourself favorable outlook bountiful crops farming"
+      "제가 힘써 일함": "yourself favorable outlook bountiful crops farming",
+      "일자리를 구함": "seeking benefited unaccountable"
     }
   },
   {

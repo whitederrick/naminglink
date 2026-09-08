@@ -206,7 +206,8 @@
       "옥중",
       "옥문",
       "옥에서 풀려나",
-      "옥에서 풀려났다"
+      "옥에서 풀려났다",
+      "노역소"
     ],
     "aliases_en": [
       "jail",
@@ -231,7 +232,8 @@
       "정인이 감옥에 있는 것을 봄": "정인이 애인이 사랑하는",
       "무리가 옥문을 부수려 하는 것을 봄": "무리가 떼거리 부수려",
       "감옥 꿈을 꿈": "맺은 언약 손해로",
-      "옥에서 풀려남": "풀려나 이겨낼"
+      "옥에서 풀려남": "풀려나 이겨낼",
+      "노역소에 있음": "노역소"
     },
     "contexts_en": {
       "감옥이 무너짐": "collapsed crumbling ruined",
@@ -250,7 +252,8 @@
       "정인이 감옥에 있는 것을 봄": "lover disappointed character deceiver",
       "무리가 옥문을 부수려 하는 것을 봄": "mob attempting forerunner extort bounties",
       "감옥 꿈을 꿈": "penitentiary engagements loss",
-      "옥에서 풀려남": "dismissed overcome"
+      "옥에서 풀려남": "dismissed overcome",
+      "노역소에 있음": "workhouse harm"
     }
   },
   {

@@ -1,0 +1,41 @@
+{
+  "batch": 319,
+  "source": "miller-1901-parsed.json",
+  "headwords": [
+    {
+      "headword": "Wooden Shoe",
+      "text": "To dream of a wooden shoe, is significant of lonely wanderings and\npenniless circumstances.  Those in love will suffer from unfaithfulness.",
+      "note": "기존 shoes(신발, term_en \"shoes\")에 문맥 둘을 나눠 붙였다 — 이미 \"나막신\" 별칭·「나막신이 벗겨짐」(벗겨지는 특정 행동) 문맥이 있지만 밀러의 그림(그냥 나막신 꿈)은 다르다."
+    },
+    {
+      "headword": "Woods",
+      "text": "To dream of woods, brings a natural change in your affairs.\nIf the woods appear green, the change will be lucky.\nIf stripped of verdure, it will prove calamitous.\n\nTo see woods on fire, denotes that your plans will reach\nsatisfactory maturity.  Prosperity will beam with favor upon you.\n\nTo dream that you deal in firewood, denotes that you will win\nfortune by determined struggle.",
+      "note": "첫 문장(\"자연스러운 변화를 가져온다\")은 그 자체로 막연해 뒤따르는 두 조건(푸르면 길·잎이 지면 흉)이 이미 그 내용을 다 담고 있어 건너뛰었다. 기존 forest(숲, term_en \"forest\" — 밀러 자신의 별개 Forest 표제어가 이미 들어와 있음)에 셋을 나눠 붙였다. 마지막 문장(장작 거래)은 그림이 달라 새 상징 firewood로 뺐다."
+    },
+    {
+      "headword": "Wood-pile",
+      "text": "To dream of a wood-pile, denotes unsatisfactory business\nand misunderstandings in love.",
+      "note": "새 상징 장작(firewood) — Woods의 장작 거래 문장과 함께 묶었다."
+    },
+    {
+      "headword": "Wool",
+      "text": "To dream of wool, is a pleasing sign of prosperous opportunities\nto expand your interests.\n\nTo see soiled, or dirty wool, foretells that you will seek employment\nwith those who detest your principles.",
+      "note": "새 상징 양모(wool)."
+    },
+    {
+      "headword": "Work",
+      "text": "To dream that you are hard at work, denotes that you will win\nmerited success by concentration of energy.\n\nTo see others at work, denotes that hopeful conditions will surround you.\n\nTo look for work, means that you will be benefited by\nsome unaccountable occurrence.",
+      "note": "첫 두 문장은 §31로 건너뜀 — 기존 labor(노역, 밀러 자신의 Labor 표제어)의 \"제가 힘써 일함\"·\"사람들이 힘써 일하는 것을 봄\"과 그림·판단이 같다. 셋째 문장(일자리를 구함)만 새 문맥으로 labor에 붙였다."
+    },
+    {
+      "headword": "Work house",
+      "text": "To dream that you are in a workhouse denotes that some event\nwill work you harm and loss.",
+      "note": "원문 각주 [244] See Prison을 따라 기존 prison(감옥)에 문맥을 붙였다."
+    },
+    {
+      "headword": "Workshop",
+      "text": "To see workshops in your dreams, foretells that you will use\nextraordinary schemes to undermine your enemies.",
+      "note": "새 상징 작업장(workshop)."
+    }
+  ]
+}

@@ -8551,5 +8551,19 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "witness",
     "bearing witness",
     "testify"
+  ],
+  "firewood": [
+    "firewood",
+    "a wood-pile",
+    "wood pile"
+  ],
+  "wool": [
+    "wool",
+    "woolen"
+  ],
+  "workshop": [
+    "workshop",
+    "workshops",
+    "a workshop"
   ]
 };
