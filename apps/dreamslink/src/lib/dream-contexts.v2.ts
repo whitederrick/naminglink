@@ -6707,5 +6707,21 @@ export const CONTEXT_EN_V2: Record<string, string> = {
   "yacht::요트를 봄": "happy recreation encumbrances",
   "yacht::좌초한 요트를 봄": "stranded miscarriage",
   "yawning::자신이 하품함": "vain health contentment",
-  "yawning::남이 하품하는 것을 봄": "friends miserable sickness"
+  "yawning::남이 하품하는 것을 봄": "friends miserable sickness",
+  "yearn::누군가가 그리워짐": "presence comforting tidings",
+  "yearn::젊은 여성이 연인이 자신을 그리워한다고 여김": "lover proposal wished",
+  "yearn::젊은 여성이 연인에게 자신이 그를 그리워함을 알림": "lets know alone longings",
+  "yellow-bird::노란 새가 이리저리 나는 것을 봄": "flitting event sickening",
+  "yellow-bird::노란 새가 병들거나 죽은 것을 봄": "ill dead folly",
+  "yew-tree::주목나무 꿈을 꿈": "forerunner illness disappointment",
+  "yew-tree::젊은 여성이 주목나무 아래 앉음": "sits rend faithfulness",
+  "yew-tree::젊은 여성이 연인이 주목나무 곁에 서 있는 것을 봄": "standing hear misfortune",
+  "yew-tree::젊은 여성이 주목나무를 감상함": "admire estrange mesalliance",
+  "yew-tree::죽어 잎이 다 진 주목나무를 찾아감": "visit stripped sad death",
+  "yield::남의 뜻에 양보함": "wishes indecision opportunity",
+  "yield::남이 자신에게 양보함": "others privileges elevated",
+  "yield::애쓴 것에 비해 소출이 적음": "poor labors worries",
+  "yoke::멍에를 봄": "unwillingly conform customs",
+  "yoke::소에 멍에를 씌움": "oxen judgment counsels",
+  "yoke::소에 멍에를 씌우는 데 실패함": "fail anxious prodigal"
 };

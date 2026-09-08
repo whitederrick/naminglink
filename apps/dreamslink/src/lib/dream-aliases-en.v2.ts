@@ -8593,5 +8593,27 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "yawning",
     "yawn",
     "yawned"
+  ],
+  "yearn": [
+    "yearning",
+    "yearned"
+  ],
+  "yellow-bird": [
+    "yellow bird",
+    "a yellow bird"
+  ],
+  "yew-tree": [
+    "yew tree",
+    "a yew tree"
+  ],
+  "yield": [
+    "yield",
+    "yielding",
+    "yielded"
+  ],
+  "yoke": [
+    "yoke",
+    "a yoke",
+    "yoked"
   ]
 };

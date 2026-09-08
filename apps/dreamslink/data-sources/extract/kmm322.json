@@ -1,0 +1,117 @@
+[
+  {
+    "id": "yearn",
+    "aliases": [
+      "그리워짐",
+      "그리워졌",
+      "그리워한다고",
+      "그리워함을"
+    ],
+    "aliases_en": [
+      "yearning",
+      "yearned"
+    ],
+    "contexts": {
+      "누군가가 그리워짐": "그냥",
+      "젊은 여성이 연인이 자신을 그리워한다고 여김": "연인이 청혼",
+      "젊은 여성이 연인에게 자신이 그를 그리워함을 알림": "알림 홀로 남겨"
+    },
+    "contexts_en": {
+      "누군가가 그리워짐": "presence comforting tidings",
+      "젊은 여성이 연인이 자신을 그리워한다고 여김": "lover proposal wished",
+      "젊은 여성이 연인에게 자신이 그를 그리워함을 알림": "lets know alone longings"
+    }
+  },
+  {
+    "id": "yellow-bird",
+    "aliases": [
+      "노란 새가",
+      "노란 새를"
+    ],
+    "aliases_en": [
+      "yellow bird",
+      "a yellow bird"
+    ],
+    "contexts": {
+      "노란 새가 이리저리 나는 것을 봄": "그냥",
+      "노란 새가 병들거나 죽은 것을 봄": "병들거나 죽은"
+    },
+    "contexts_en": {
+      "노란 새가 이리저리 나는 것을 봄": "flitting event sickening",
+      "노란 새가 병들거나 죽은 것을 봄": "ill dead folly"
+    }
+  },
+  {
+    "id": "yew-tree",
+    "aliases": [
+      "주목나무가",
+      "주목나무를"
+    ],
+    "aliases_en": [
+      "yew tree",
+      "a yew tree"
+    ],
+    "contexts": {
+      "주목나무 꿈을 꿈": "그냥",
+      "젊은 여성이 주목나무 아래 앉음": "앉아 앉았 아래",
+      "젊은 여성이 연인이 주목나무 곁에 서 있는 것을 봄": "연인이 서있 곁에",
+      "젊은 여성이 주목나무를 감상함": "감상",
+      "죽어 잎이 다 진 주목나무를 찾아감": "죽어 잎이 찾아"
+    },
+    "contexts_en": {
+      "주목나무 꿈을 꿈": "forerunner illness disappointment",
+      "젊은 여성이 주목나무 아래 앉음": "sits rend faithfulness",
+      "젊은 여성이 연인이 주목나무 곁에 서 있는 것을 봄": "standing hear misfortune",
+      "젊은 여성이 주목나무를 감상함": "admire estrange mesalliance",
+      "죽어 잎이 다 진 주목나무를 찾아감": "visit stripped sad death"
+    }
+  },
+  {
+    "id": "yield",
+    "aliases": [
+      "양보함",
+      "양보하는",
+      "양보했",
+      "소출이",
+      "소출을",
+      "결실이"
+    ],
+    "aliases_en": [
+      "yield",
+      "yielding",
+      "yielded"
+    ],
+    "contexts": {
+      "남의 뜻에 양보함": "그냥",
+      "남이 자신에게 양보함": "남이 자신에게",
+      "애쓴 것에 비해 소출이 적음": "소출이 적음"
+    },
+    "contexts_en": {
+      "남의 뜻에 양보함": "wishes indecision opportunity",
+      "남이 자신에게 양보함": "others privileges elevated",
+      "애쓴 것에 비해 소출이 적음": "poor labors worries"
+    }
+  },
+  {
+    "id": "yoke",
+    "aliases": [
+      "멍에를",
+      "멍에가"
+    ],
+    "aliases_en": [
+      "yoke",
+      "a yoke",
+      "yoked"
+    ],
+    "contexts": {
+      "멍에를 봄": "그냥",
+      "소에 멍에를 씌움": "씌움 씌웠",
+      "소에 멍에를 씌우는 데 실패함": "실패"
+    },
+    "contexts_en": {
+      "멍에를 봄": "unwillingly conform customs",
+      "소에 멍에를 씌움": "oxen judgment counsels",
+      "소에 멍에를 씌우는 데 실패함": "fail anxious prodigal"
+    }
+  }
+]
