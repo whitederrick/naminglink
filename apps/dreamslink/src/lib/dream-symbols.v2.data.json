@@ -34091,7 +34091,10 @@
       "term_en": "candle",
       "aliases": [
         "양초",
-        "촛농"
+        "촛농",
+        "초를",
+        "초가",
+        "초에"
       ],
       "category": "object",
       "polarity": "ambivalent",
@@ -56335,6 +56338,96 @@
               "locator": "金銀珠玉絹帛",
               "original": "得金玉環生貴子",
               "translation_ko": "금과 옥으로 된 고리를 얻으면 귀한 자식을 낳는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seal",
+      "term_ko": "도장",
+      "term_en": "seal",
+      "aliases": [
+        "인장",
+        "인감",
+        "직인",
+        "낙관"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "문서에 도장을 찍음",
+          "interpretation_ko": "명성을 얻을 조짐",
+          "interpretation_en": "a sign of gaining a good name",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "文書用印有名聲",
+              "translation_ko": "문서에 도장을 쓰면 명성이 있다"
+            }
+          ]
+        },
+        {
+          "context": "도장을 몸에 지님",
+          "interpretation_ko": "아내가 귀한 아들을 낳을 조짐",
+          "interpretation_en": "a sign that one's wife will bear a noble son",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "帶印主妻生貴子",
+              "translation_ko": "도장을 차면 아내가 귀한 아들을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "도장을 차고 높은 벼슬에 오름",
+          "interpretation_ko": "크게 길할 조짐",
+          "interpretation_en": "a sign of great fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "佩印公爵主大吉",
+              "translation_ko": "도장을 차고 공작에 오르면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "도장을 차고 부절을 쥠",
+          "interpretation_ko": "이사할 조짐",
+          "interpretation_en": "a sign that one will move to a new home",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "佩印執節主移居",
+              "translation_ko": "도장을 차고 부절을 쥐면 이사할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "도장과 신표를 함께 지님",
+          "interpretation_ko": "명예가 드러날 조짐",
+          "interpretation_en": "a sign that one's good name will come to light",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "佩印信者名譽出",
+              "translation_ko": "도장과 신표를 지니면 명예가 드러난다"
             }
           ]
         }
@@ -95520,7 +95613,7 @@
         "증언하는",
         "증인"
       ],
-      "category": "event",
+      "category": "action",
       "polarity": "negative",
       "works": [
         "miller"
@@ -104884,6 +104977,53 @@
               "locator": "Country",
               "original": "If the country be dry and bare, you will see and hear of troublous times. Famine and sickness will be in the land.",
               "translation_ko": "그 시골이 메마르고 헐벗었으면 어수선한 때를 보고 듣는다. 굶주림과 병이 그 땅에 돈다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "court-tablet",
+      "term_ko": "궁중홀",
+      "term_en": "court-tablet",
+      "aliases": [
+        "홀을 쥐고",
+        "홀을 쥔",
+        "홀과 인끈"
+      ],
+      "category": "object",
+      "polarity": "neutral",
+      "works": [
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "홀을 쥐고 귀인을 만남",
+          "interpretation_ko": "크게 길할 조짐",
+          "interpretation_en": "a sign of great fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "執笏見貴人大吉",
+              "translation_ko": "홀을 쥐고 귀인을 만나면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 홀과 인끈을 줌",
+          "interpretation_ko": "관직이 옮겨질 조짐",
+          "interpretation_en": "a sign that one's office will be transferred",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "與人笏綬主官遷",
+              "translation_ko": "남에게 홀과 인끈을 주면 관직이 옮겨진다"
             }
           ]
         }
@@ -120522,54 +120662,6 @@
               "locator": "Sea Foam",
               "original": "If she wears a bridal veil of sea foam, she will engulf herself in material pleasure to the exclusion of true refinement and innate modesty. She will be likely to cause sorrow to some of those dear to her, through their inability to gratify her ambition.",
               "translation_ko": "여성이 바다 거품으로 된 면사포를 쓰는 꿈은, 참된 교양과 타고난 정숙함을 버리고 물질적 쾌락에 빠져 뜻을 채워 주지 못해 가까운 이들에게 슬픔을 안길 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "seal",
-      "term_ko": "도장",
-      "term_en": "seal",
-      "aliases": [
-        "인장",
-        "인감",
-        "직인",
-        "낙관"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "문서에 도장을 찍음",
-          "interpretation_ko": "명성을 얻을 조짐",
-          "interpretation_en": "a sign of gaining a good name",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "文書用印有名聲",
-              "translation_ko": "문서에 도장을 쓰면 명성이 있다"
-            }
-          ]
-        },
-        {
-          "context": "도장을 몸에 지님",
-          "interpretation_ko": "아내가 귀한 아들을 낳을 조짐",
-          "interpretation_en": "a sign that one's wife will bear a noble son",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "帶印主妻生貴子",
-              "translation_ko": "도장을 차면 아내가 귀한 아들을 낳는다"
             }
           ]
         }
@@ -140332,7 +140424,7 @@
         "난파된",
         "조난"
       ],
-      "category": "event",
+      "category": "object",
       "polarity": "negative",
       "works": [
         "miller"

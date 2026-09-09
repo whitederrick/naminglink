@@ -186,7 +186,7 @@
     "interpretation_ko": "근심과 걱정거리가 생길 조짐",
     "interpretation_en": "you may expect cares and worries",
     "polarity": "negative",
-    "category": "event",
+    "category": "action",
     "cite": {
       "work": "miller",
       "locator": "Yield",

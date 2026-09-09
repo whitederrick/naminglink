@@ -156,7 +156,7 @@
     "interpretation_ko": "빈곤해지거나 사업이 갑자기 실패할 두려움에 시달릴 조짐",
     "interpretation_en": "you will be harassed with fears of destitution or sudden failure in business",
     "polarity": "negative",
-    "category": "event",
+    "category": "object",
     "cite": {
       "work": "miller",
       "locator": "Wrecks",

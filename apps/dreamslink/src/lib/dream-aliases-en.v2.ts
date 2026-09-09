@@ -835,6 +835,10 @@ export const ALIASES_EN_V2: Record<string, readonly string[]> = {
     "signet",
     "official seal"
   ],
+  "court-tablet": [
+    "an official tablet",
+    "a court tablet"
+  ],
   "ant": [
     "ants"
   ],

@@ -240,6 +240,36 @@
     }
   },
   {
+    "term_ko": "궁중홀",
+    "term_en": "court-tablet",
+    "context": "홀을 쥐고 귀인을 만남",
+    "interpretation_ko": "크게 길할 조짐",
+    "interpretation_en": "a sign of great fortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "執笏見貴人大吉",
+      "translation_ko": "홀을 쥐고 귀인을 만나면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "궁중홀",
+    "term_en": "court-tablet",
+    "context": "남에게 홀과 인끈을 줌",
+    "interpretation_ko": "관직이 옮겨질 조짐",
+    "interpretation_en": "a sign that one's office will be transferred",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "與人笏綬主官遷",
+      "translation_ko": "남에게 홀과 인끈을 주면 관직이 옮겨진다"
+    }
+  },
+  {
     "term_ko": "도장",
     "term_en": "seal",
     "context": "문서에 도장을 찍음",
@@ -282,6 +312,51 @@
       "locator": "冠帶衣服鞋襪",
       "original": "帶印主妻生貴子",
       "translation_ko": "도장을 차면 아내가 귀한 아들을 낳는다"
+    }
+  },
+  {
+    "term_ko": "도장",
+    "term_en": "seal",
+    "context": "도장을 차고 높은 벼슬에 오름",
+    "interpretation_ko": "크게 길할 조짐",
+    "interpretation_en": "a sign of great fortune",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "文書筆硯兵器",
+      "original": "佩印公爵主大吉",
+      "translation_ko": "도장을 차고 공작에 오르면 크게 길하다"
+    }
+  },
+  {
+    "term_ko": "도장",
+    "term_en": "seal",
+    "context": "도장을 차고 부절을 쥠",
+    "interpretation_ko": "이사할 조짐",
+    "interpretation_en": "a sign that one will move to a new home",
+    "polarity": "neutral",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "文書筆硯兵器",
+      "original": "佩印執節主移居",
+      "translation_ko": "도장을 차고 부절을 쥐면 이사할 조짐이다"
+    }
+  },
+  {
+    "term_ko": "도장",
+    "term_en": "seal",
+    "context": "도장과 신표를 함께 지님",
+    "interpretation_ko": "명예가 드러날 조짐",
+    "interpretation_en": "a sign that one's good name will come to light",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "文書筆硯兵器",
+      "original": "佩印信者名譽出",
+      "translation_ko": "도장과 신표를 지니면 명예가 드러난다"
     }
   },
   {

@@ -111,7 +111,7 @@
     "interpretation_ko": "사소한 일로 크게 짓눌릴 조짐",
     "interpretation_en": "you will have great oppression through slight causes",
     "polarity": "negative",
-    "category": "event",
+    "category": "action",
     "cite": {
       "work": "miller",
       "locator": "Witness",
@@ -126,7 +126,7 @@
     "interpretation_ko": "제 이익을 지키려 벗들의 부탁을 거절할 수밖에 없을 조짐",
     "interpretation_en": "you will be compelled to refuse favors to friends in order to protect your own interest",
     "polarity": "negative",
-    "category": "event",
+    "category": "action",
     "cite": {
       "work": "miller",
       "locator": "Witness",
@@ -141,7 +141,7 @@
     "interpretation_ko": "부끄러운 일에 연루될 조짐",
     "interpretation_en": "you will be implicated in a shameful affair",
     "polarity": "negative",
-    "category": "event",
+    "category": "action",
     "cite": {
       "work": "miller",
       "locator": "Witness",
