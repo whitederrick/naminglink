@@ -46601,6 +46601,110 @@
       ]
     },
     {
+      "id": "seal",
+      "term_ko": "도장",
+      "term_en": "seal",
+      "aliases": [
+        "인장",
+        "인감",
+        "직인",
+        "낙관"
+      ],
+      "category": "object",
+      "polarity": "positive",
+      "works": [
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "문서에 도장을 찍음",
+          "interpretation_ko": "명성을 얻을 조짐",
+          "interpretation_en": "a sign of gaining a good name",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "文書用印有名聲",
+              "translation_ko": "문서에 도장을 쓰면 명성이 있다"
+            }
+          ]
+        },
+        {
+          "context": "도장을 몸에 지님",
+          "interpretation_ko": "아내가 귀한 아들을 낳을 조짐",
+          "interpretation_en": "a sign that one's wife will bear a noble son",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "帶印主妻生貴子",
+              "translation_ko": "도장을 차면 아내가 귀한 아들을 낳는다"
+            }
+          ]
+        },
+        {
+          "context": "도장을 차고 높은 벼슬에 오름",
+          "interpretation_ko": "크게 길할 조짐",
+          "interpretation_en": "a sign of great fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "佩印公爵主大吉",
+              "translation_ko": "도장을 차고 공작에 오르면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "도장을 차고 부절을 쥠",
+          "interpretation_ko": "이사할 조짐",
+          "interpretation_en": "a sign that one will move to a new home",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "佩印執節主移居",
+              "translation_ko": "도장을 차고 부절을 쥐면 이사할 조짐이다"
+            }
+          ]
+        },
+        {
+          "context": "도장과 신표를 함께 지님",
+          "interpretation_ko": "명예가 드러날 조짐",
+          "interpretation_en": "a sign that one's good name will come to light",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "佩印信者名譽出",
+              "translation_ko": "도장과 신표를 지니면 명예가 드러난다"
+            }
+          ]
+        },
+        {
+          "context": "인끈이 바뀌어 관직이 옮겨감",
+          "interpretation_ko": "귀한 아들을 낳을 조짐",
+          "interpretation_en": "a sign that one will bear a noble son",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "文書筆硯兵器",
+              "original": "印綬改遷生貴子",
+              "translation_ko": "인끈이 바뀌어 관직이 옮겨가면 귀한 아들을 낳는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "secret-order",
       "term_ko": "비밀결사",
       "term_en": "secret order",
@@ -56344,96 +56448,6 @@
       ]
     },
     {
-      "id": "seal",
-      "term_ko": "도장",
-      "term_en": "seal",
-      "aliases": [
-        "인장",
-        "인감",
-        "직인",
-        "낙관"
-      ],
-      "category": "object",
-      "polarity": "positive",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "문서에 도장을 찍음",
-          "interpretation_ko": "명성을 얻을 조짐",
-          "interpretation_en": "a sign of gaining a good name",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "文書用印有名聲",
-              "translation_ko": "문서에 도장을 쓰면 명성이 있다"
-            }
-          ]
-        },
-        {
-          "context": "도장을 몸에 지님",
-          "interpretation_ko": "아내가 귀한 아들을 낳을 조짐",
-          "interpretation_en": "a sign that one's wife will bear a noble son",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "帶印主妻生貴子",
-              "translation_ko": "도장을 차면 아내가 귀한 아들을 낳는다"
-            }
-          ]
-        },
-        {
-          "context": "도장을 차고 높은 벼슬에 오름",
-          "interpretation_ko": "크게 길할 조짐",
-          "interpretation_en": "a sign of great fortune",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "佩印公爵主大吉",
-              "translation_ko": "도장을 차고 공작에 오르면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "도장을 차고 부절을 쥠",
-          "interpretation_ko": "이사할 조짐",
-          "interpretation_en": "a sign that one will move to a new home",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "佩印執節主移居",
-              "translation_ko": "도장을 차고 부절을 쥐면 이사할 조짐이다"
-            }
-          ]
-        },
-        {
-          "context": "도장과 신표를 함께 지님",
-          "interpretation_ko": "명예가 드러날 조짐",
-          "interpretation_en": "a sign that one's good name will come to light",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "文書筆硯兵器",
-              "original": "佩印信者名譽出",
-              "translation_ko": "도장과 신표를 지니면 명예가 드러난다"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "skating",
       "term_ko": "스케이트",
       "term_en": "skating",
@@ -65808,6 +65822,83 @@
               "locator": "Fall",
               "original": "To dream that you sustain a fall, and are much frightened, denotes that you will undergo some great struggle, but will eventually rise to honor and wealth; but if you are injured in the fall, you will encounter hardships and loss of friends.",
               "translation_ko": "떨어져 몹시 놀라는 꿈은, 큰 다툼을 겪으나 끝내 자리와 재물에 오름을 뜻한다. 그러나 떨어져 다치면 고생하고 벗을 잃는다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fan",
+      "term_ko": "부채",
+      "term_en": "fan",
+      "aliases": [
+        "부채를",
+        "부채가",
+        "부채질",
+        "털부채"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "miller",
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "부채를 봄",
+          "interpretation_ko": "머지않아 반가운 기별과 뜻밖의 기쁨이 있을 길한 조짐",
+          "interpretation_en": "denotes pleasant news and surprises are awaiting you in the near future",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fan",
+              "original": "To see a fan in your dreams, denotes pleasant news and surprises are awaiting you in the near future.",
+              "translation_ko": "꿈에 부채를 보는 것은, 머지않아 반가운 기별과 뜻밖의 기쁨이 기다림을 뜻한다"
+            }
+          ]
+        },
+        {
+          "context": "처녀가 부채질을 하거나 받음",
+          "interpretation_ko": "새롭고 반가운 사귐이 있을 길한 조짐",
+          "interpretation_en": "gives promise of a new and pleasing acquaintances",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fan",
+              "original": "For a young woman to dream of fanning herself, or that some one is fanning her, gives promise of a new and pleasing acquaintances; if she loses an old fan, she will find that a warm friend is becoming interested in other women.",
+              "translation_ko": "젊은 여성이 부채질을 하거나 남이 부채질해 주는 꿈은 새롭고 반가운 사귐을 알린다. 낡은 부채를 잃으면 가까운 벗이 다른 여인에게 마음을 두게 됨을 알게 된다"
+            }
+          ]
+        },
+        {
+          "context": "낡은 부채를 잃음",
+          "interpretation_ko": "가까운 벗이 다른 사람에게 마음을 둘 흉한 조짐",
+          "interpretation_en": "she will find that a warm friend is becoming interested in other women",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "miller",
+              "locator": "Fan",
+              "original": "For a young woman to dream of fanning herself, or that some one is fanning her, gives promise of a new and pleasing acquaintances; if she loses an old fan, she will find that a warm friend is becoming interested in other women.",
+              "translation_ko": "젊은 여성이 부채질을 하거나 남이 부채질해 주는 꿈은 새롭고 반가운 사귐을 알린다. 낡은 부채를 잃으면 가까운 벗이 다른 여인에게 마음을 두게 됨을 알게 된다"
+            }
+          ]
+        },
+        {
+          "context": "털부채를 갑자기 손에 쥠",
+          "interpretation_ko": "벼슬에 길할 조짐",
+          "interpretation_en": "an auspicious sign for one's official career",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "衣帳毯褥匙櫡",
+              "original": "毛扇忽持官事吉",
+              "translation_ko": "털부채를 갑자기 손에 쥐면 벼슬에 길하다"
             }
           ]
         }
@@ -81120,6 +81211,70 @@
       ]
     },
     {
+      "id": "court-tablet",
+      "term_ko": "궁중홀",
+      "term_en": "court-tablet",
+      "aliases": [
+        "홀을 쥐고",
+        "홀을 쥔",
+        "홀과 인끈",
+        "홀이 부러졌다",
+        "홀이 부러졌는데",
+        "홀이 부러진"
+      ],
+      "category": "object",
+      "polarity": "ambivalent",
+      "works": [
+        "zhougong"
+      ],
+      "tags": [],
+      "weight": 1,
+      "meanings": [
+        {
+          "context": "홀을 쥐고 귀인을 만남",
+          "interpretation_ko": "크게 길할 조짐",
+          "interpretation_en": "a sign of great fortune",
+          "polarity": "positive",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "執笏見貴人大吉",
+              "translation_ko": "홀을 쥐고 귀인을 만나면 크게 길하다"
+            }
+          ]
+        },
+        {
+          "context": "남에게 홀과 인끈을 줌",
+          "interpretation_ko": "관직이 옮겨질 조짐",
+          "interpretation_en": "a sign that one's office will be transferred",
+          "polarity": "neutral",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "與人笏綬主官遷",
+              "translation_ko": "남에게 홀과 인끈을 주면 관직이 옮겨진다"
+            }
+          ]
+        },
+        {
+          "context": "홀이 부러짐",
+          "interpretation_ko": "근심과 흉한 일이 있을 상서롭지 못한 조짐",
+          "interpretation_en": "an inauspicious sign of worry and misfortune",
+          "polarity": "negative",
+          "cites": [
+            {
+              "work": "zhougong",
+              "locator": "冠帶衣服鞋襪",
+              "original": "笏破憂凶主不祥",
+              "translation_ko": "홀이 부러지면 근심과 흉함이 있어 상서롭지 못하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "crab",
       "term_ko": "게",
       "term_en": "crab",
@@ -83216,67 +83371,6 @@
               "locator": "Hunger",
               "original": "To dream that you are hungry, is an unfortunate omen.",
               "translation_ko": "배가 고픈 꿈은 언짢은 조짐이다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "fan",
-      "term_ko": "부채",
-      "term_en": "fan",
-      "aliases": [
-        "부채를",
-        "부채가",
-        "부채질"
-      ],
-      "category": "object",
-      "polarity": "ambivalent",
-      "works": [
-        "miller"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "부채를 봄",
-          "interpretation_ko": "머지않아 반가운 기별과 뜻밖의 기쁨이 있을 길한 조짐",
-          "interpretation_en": "denotes pleasant news and surprises are awaiting you in the near future",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fan",
-              "original": "To see a fan in your dreams, denotes pleasant news and surprises are awaiting you in the near future.",
-              "translation_ko": "꿈에 부채를 보는 것은, 머지않아 반가운 기별과 뜻밖의 기쁨이 기다림을 뜻한다"
-            }
-          ]
-        },
-        {
-          "context": "처녀가 부채질을 하거나 받음",
-          "interpretation_ko": "새롭고 반가운 사귐이 있을 길한 조짐",
-          "interpretation_en": "gives promise of a new and pleasing acquaintances",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fan",
-              "original": "For a young woman to dream of fanning herself, or that some one is fanning her, gives promise of a new and pleasing acquaintances; if she loses an old fan, she will find that a warm friend is becoming interested in other women.",
-              "translation_ko": "젊은 여성이 부채질을 하거나 남이 부채질해 주는 꿈은 새롭고 반가운 사귐을 알린다. 낡은 부채를 잃으면 가까운 벗이 다른 여인에게 마음을 두게 됨을 알게 된다"
-            }
-          ]
-        },
-        {
-          "context": "낡은 부채를 잃음",
-          "interpretation_ko": "가까운 벗이 다른 사람에게 마음을 둘 흉한 조짐",
-          "interpretation_en": "she will find that a warm friend is becoming interested in other women",
-          "polarity": "negative",
-          "cites": [
-            {
-              "work": "miller",
-              "locator": "Fan",
-              "original": "For a young woman to dream of fanning herself, or that some one is fanning her, gives promise of a new and pleasing acquaintances; if she loses an old fan, she will find that a warm friend is becoming interested in other women.",
-              "translation_ko": "젊은 여성이 부채질을 하거나 남이 부채질해 주는 꿈은 새롭고 반가운 사귐을 알린다. 낡은 부채를 잃으면 가까운 벗이 다른 여인에게 마음을 두게 됨을 알게 된다"
             }
           ]
         }
@@ -104977,53 +105071,6 @@
               "locator": "Country",
               "original": "If the country be dry and bare, you will see and hear of troublous times. Famine and sickness will be in the land.",
               "translation_ko": "그 시골이 메마르고 헐벗었으면 어수선한 때를 보고 듣는다. 굶주림과 병이 그 땅에 돈다"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "court-tablet",
-      "term_ko": "궁중홀",
-      "term_en": "court-tablet",
-      "aliases": [
-        "홀을 쥐고",
-        "홀을 쥔",
-        "홀과 인끈"
-      ],
-      "category": "object",
-      "polarity": "neutral",
-      "works": [
-        "zhougong"
-      ],
-      "tags": [],
-      "weight": 1,
-      "meanings": [
-        {
-          "context": "홀을 쥐고 귀인을 만남",
-          "interpretation_ko": "크게 길할 조짐",
-          "interpretation_en": "a sign of great fortune",
-          "polarity": "positive",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "執笏見貴人大吉",
-              "translation_ko": "홀을 쥐고 귀인을 만나면 크게 길하다"
-            }
-          ]
-        },
-        {
-          "context": "남에게 홀과 인끈을 줌",
-          "interpretation_ko": "관직이 옮겨질 조짐",
-          "interpretation_en": "a sign that one's office will be transferred",
-          "polarity": "neutral",
-          "cites": [
-            {
-              "work": "zhougong",
-              "locator": "冠帶衣服鞋襪",
-              "original": "與人笏綬主官遷",
-              "translation_ko": "남에게 홀과 인끈을 주면 관직이 옮겨진다"
             }
           ]
         }

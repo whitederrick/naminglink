@@ -293,7 +293,8 @@
     "aliases": [
       "부채를",
       "부채가",
-      "부채질"
+      "부채질",
+      "털부채"
     ],
     "aliases_en": [
       "a fan",
@@ -302,12 +303,14 @@
     "contexts": {
       "부채를 봄": "보았 놓여",
       "처녀가 부채질을 하거나 받음": "처녀 아가씨 부쳤",
-      "낡은 부채를 잃음": "잃었 낡은 오래된"
+      "낡은 부채를 잃음": "잃었 낡은 오래된",
+      "털부채를 갑자기 손에 쥠": "쥐었 갑자기 벼슬"
     },
     "contexts_en": {
       "부채를 봄": "pleasant news surprises awaiting",
       "처녀가 부채질을 하거나 받음": "young woman promise acquaintances",
-      "낡은 부채를 잃음": "loses warm interested women"
+      "낡은 부채를 잃음": "loses warm interested women",
+      "털부채를 갑자기 손에 쥠": "feather grabbed official career"
     }
   },
   {

@@ -270,6 +270,21 @@
     }
   },
   {
+    "term_ko": "궁중홀",
+    "term_en": "court-tablet",
+    "context": "홀이 부러짐",
+    "interpretation_ko": "근심과 흉한 일이 있을 상서롭지 못한 조짐",
+    "interpretation_en": "an inauspicious sign of worry and misfortune",
+    "polarity": "negative",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "冠帶衣服鞋襪",
+      "original": "笏破憂凶主不祥",
+      "translation_ko": "홀이 부러지면 근심과 흉함이 있어 상서롭지 못하다"
+    }
+  },
+  {
     "term_ko": "도장",
     "term_en": "seal",
     "context": "문서에 도장을 찍음",
@@ -357,6 +372,21 @@
       "locator": "文書筆硯兵器",
       "original": "佩印信者名譽出",
       "translation_ko": "도장과 신표를 지니면 명예가 드러난다"
+    }
+  },
+  {
+    "term_ko": "도장",
+    "term_en": "seal",
+    "context": "인끈이 바뀌어 관직이 옮겨감",
+    "interpretation_ko": "귀한 아들을 낳을 조짐",
+    "interpretation_en": "a sign that one will bear a noble son",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "文書筆硯兵器",
+      "original": "印綬改遷生貴子",
+      "translation_ko": "인끈이 바뀌어 관직이 옮겨가면 귀한 아들을 낳는다"
     }
   },
   {

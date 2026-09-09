@@ -465,6 +465,21 @@
     }
   },
   {
+    "term_ko": "부채",
+    "term_en": "fan",
+    "context": "털부채를 갑자기 손에 쥠",
+    "interpretation_ko": "벼슬에 길할 조짐",
+    "interpretation_en": "an auspicious sign for one's official career",
+    "polarity": "positive",
+    "category": "object",
+    "cite": {
+      "work": "zhougong",
+      "locator": "衣帳毯褥匙櫡",
+      "original": "毛扇忽持官事吉",
+      "translation_ko": "털부채를 갑자기 손에 쥐면 벼슬에 길하다"
+    }
+  },
+  {
     "term_ko": "솥",
     "term_en": "cauldron",
     "context": "큰 솥을 봄",
