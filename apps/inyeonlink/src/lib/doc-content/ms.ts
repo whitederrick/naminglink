@@ -226,25 +226,25 @@ export const MS_DOCS = {
     ]
   },
   "guide/branches": {
-    "eyebrow": "Jadual Hubungan",
-    "title": "Dua Belas Cabang Bumi — Kombinasi, Pertentangan, Perselisihan",
-    "summary": "Ini adalah jadual hubungan yang digunakan untuk kesesuaian cabang hari dan kesesuaian zodiak. Ia sepenuhnya mendedahkan apa yang setiap kombinasi, pertentangan, dan perselisihan bermakna serta skor masing-masing.",
-    "backLabel": "Asas Pengiraan",
+    "eyebrow": "Carta hubungan",
+    "title": "Bagaimana Haiwan Zodiak dan Cabang Hari Bertemu — Carta Dua Belas Cabang",
+    "summary": "Carta hubungan yang digunakan apabila haiwan zodiak dan cabang hari dua orang diletakkan bersebelahan. Ia menunjukkan haiwan mana yang membentuk keharmonian, pertembungan atau ketidakselarasan dengan haiwan mana, bagi setiap satu daripada dua belas, dan mendedahkan skor bagi setiap hubungan.",
+    "backLabel": "Asas pengiraan",
     "sections": [
       {
-        "title": "Cabang bumi terdiri daripada dua belas watak",
+        "title": "Haiwan zodiak dan cabang hari menggunakan carta yang sama",
         "blocks": [
           {
-            "p": "Dua belas cabang bumi (十二支) adalah 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. Tanda zodiak yang dikenali umum dikaitkan dengan setiap salah satu daripada dua belas watak ini."
+            "p": "Inyeon-Link meletakkan cabang bumi dua orang bersebelahan di dua tempat: **keserasian zodiak**, yang melihat cabang tahun kelahiran, dan **keserasian cabang hari** (istana pasangan), yang melihat cabang hari kelahiran. Kedua-duanya dinilai dengan carta di bawah; satu-satunya perbezaan ialah berapa berat yang dibawa oleh setiap satu dalam skor akhir."
           },
           {
             "figure": "branch-wheel",
-            "caption": "Mengatur dua belas watak dalam bulatan memberikan pandangan yang jelas tentang hubungan. Pertentangan selalu duduk tepat bertentangan, sementara pasangan enam-harmoni dan perselisihan yang tenang adalah jiran yang lebih dekat. Garis-garis ini diambil terus dari peraturan pengiraan, bukan ditulis dalam teks.",
+            "caption": "Menyusun dua belas watak dalam bulatan menjadikan hubungan jelas sekali pandang. Pertembungan sentiasa berada tepat bertentangan, manakala pasangan enam-harmoni dan ketidakselarasan yang tenang adalah jiran yang lebih dekat. Garis-garis ini tidak ditulis dengan tangan; ia dilukis terus daripada peraturan pengiraan.",
             "labels": {
-              "alt": "Sebuah diagram yang menunjukkan dua belas cabang bumi yang disusun dalam bulatan dengan garis yang menghubungkan enam-harmoni, pertentangan, dan perselisihan.",
+              "alt": "Rajah yang menunjukkan dua belas cabang bumi disusun dalam bulatan, dengan garis yang menghubungkan pasangan enam-harmoni, pertembungan dan ketidakselarasan.",
               "yukhap": "Enam-Harmoni",
-              "chung": "Pertentangan",
-              "wonjin": "Perselisihan",
+              "chung": "Pertembungan",
+              "wonjin": "Ketidakselarasan",
               "rat": "Tikus",
               "ox": "Lembu",
               "tiger": "Harimau",
@@ -258,66 +258,109 @@ export const MS_DOCS = {
               "dog": "Anjing",
               "pig": "Babi"
             }
-          },
-          {
-            "p": "Dalam saju, setiap satu daripada empat tiang mempunyai satu cabang bumi. Inyeon-Link menggunakan **cabang hari** (istana pasangan) dan **cabang tahun** (haiwan zodiak) di antara mereka. Kedua-dua posisi dinilai menggunakan jadual hubungan di bawah."
           }
         ]
       },
       {
-        "title": "Jadual Hubungan Keseluruhan",
+        "title": "Hubungan bagi setiap satu daripada dua belas haiwan zodiak",
         "blocks": [
           {
+            "p": "Bagi setiap haiwan, carta menyenaraikan haiwan mana yang membentuk setiap hubungan dengannya. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian disenaraikan, jadi haiwan yang tidak muncul dalam sesuatu baris tidak mempunyai hubungan istimewa dengannya — ia **neutral**."
+          },
+          {
             "table": {
-              "caption": "Disusun mengikut skor tertinggi. Ini adalah nilai yang sebenarnya digunakan oleh Inyeon-Link.",
+              "caption": "Empat jenis hubungan dilihat dari satu haiwan",
               "head": [
-                "Hubungan",
-                "Pasangan Berkaitan",
-                "Maksud",
-                "Skor"
+                "Haiwan anda",
+                "Pasangan yang tertarik (Enam-Harmoni)",
+                "Triad separuh",
+                "Bertentangan secara senyap (Ketidakselarasan)",
+                "Berlanggar secara langsung (Pertembungan)"
               ],
               "rows": [
                 [
-                  "Gabungan (三合)",
-                  "申子辰 · 巳酉丑 · 寅午戌 · 亥卯未",
-                  "Apabila ketiga-tiga watak berkumpul, mereka membentuk satu pembentukan elemen lengkap — **guk** (局). Ini dianggap sebagai gabungan terkuat.",
-                  "{scoreSamhap}"
+                  "Tikus (子)",
+                  "Lembu",
+                  "Monyet · Naga",
+                  "Kambing",
+                  "Kuda"
                 ],
                 [
-                  "Enam-Harmoni (六合)",
-                  "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
-                  "Pasangan yang menarik antara satu sama lain. Ini adalah gabungan yang paling biasa dalam kesesuaian kerana ia terdiri daripada hanya dua watak.",
-                  "{scoreYukhap}"
+                  "Lembu (丑)",
+                  "Tikus",
+                  "Ayam",
+                  "Kuda",
+                  "Kambing"
                 ],
                 [
-                  "Triad separuh (半合)",
-                  "Dua watak yang termasuk cabang diraja (王地) dari triad (子·酉·午·卯)",
-                  "Gabungan separuh yang termasuk watak di tengah pembentukan. Ia tidak dapat membentuk gabungan lengkap dengan hanya dua watak, menjadikannya lebih rendah daripada triad penuh.",
-                  "{scoreBanhap}"
+                  "Harimau (寅)",
+                  "Babi",
+                  "Kuda",
+                  "Ayam",
+                  "Monyet"
                 ],
                 [
-                  "Cabang bumi yang sama",
-                  "子子 · 丑丑 …",
-                  "Watak yang sama. Ini bermakna mereka menyerupai satu sama lain, tetapi ia tidak menunjukkan tarikan, jadi ia diletakkan di tengah.",
-                  "{scoreSame}"
+                  "Arnab (卯)",
+                  "Anjing",
+                  "Babi · Kambing",
+                  "Monyet",
+                  "Ayam"
                 ],
                 [
-                  "Neutral",
-                  "Pasangan yang tidak tergolong di mana-mana di atas atau di bawah",
-                  "Gabungan tanpa hubungan istimewa. Ini adalah titik rujukan.",
-                  "{scoreNeutral}"
+                  "Naga (辰)",
+                  "Ayam",
+                  "Tikus",
+                  "Babi",
+                  "Anjing"
                 ],
                 [
-                  "Ketidakselarasan tenang (怨嗔)",
-                  "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
-                  "Pasangan yang tidak dapat berpisah walaupun menyimpan rasa dendam. Mereka kelihatan tenang di permukaan tetapi dianggap bertahan lama.",
-                  "{scoreWonjin}"
+                  "Ular (巳)",
+                  "Monyet",
+                  "Ayam",
+                  "Anjing",
+                  "Babi"
                 ],
                 [
-                  "Pertembungan (沖)",
-                  "子午 · 丑未 · 寅申 · 卯酉 · 辰戌 · 巳亥",
-                  "Pasangan yang bertembung secara langsung. Ini adalah enam pasangan yang saling berhadapan.",
-                  "{scoreChung}"
+                  "Kuda (午)",
+                  "Kambing",
+                  "Harimau · Anjing",
+                  "Lembu",
+                  "Tikus"
+                ],
+                [
+                  "Kambing (未)",
+                  "Kuda",
+                  "Arnab",
+                  "Tikus",
+                  "Lembu"
+                ],
+                [
+                  "Monyet (申)",
+                  "Ular",
+                  "Tikus",
+                  "Arnab",
+                  "Harimau"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Naga",
+                  "Ular · Lembu",
+                  "Harimau",
+                  "Arnab"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Arnab",
+                  "Kuda",
+                  "Ular",
+                  "Naga"
+                ],
+                [
+                  "Babi (亥)",
+                  "Harimau",
+                  "Arnab",
+                  "Naga",
+                  "Ular"
                 ]
               ]
             }
@@ -325,41 +368,90 @@ export const MS_DOCS = {
         ]
       },
       {
-        "title": "Triad penuh tidak muncul dalam perkhidmatan ini",
+        "title": "Apabila dua orang bertemu dalam carta",
         "blocks": [
           {
-            "p": "Triad penuh memerlukan tiga watak untuk dibentuk. Namun, kesesuaian disusun dengan memadankan cabang bumi dua orang **satu demi satu**, menghasilkan hanya dua watak. Oleh itu, apa yang muncul di sini sentiasa merupakan triad separuh, dan mata triad penuh {scoreSamhap} disimpan untuk ketika memeriksa pembentukan dalam setiap saju."
+            "p": "Membaca carta bermaksud mencari dua haiwan dalam satu baris. Berikut beberapa pasangan sebagai contoh."
+          },
+          {
+            "ul": [
+              "**Tikus dan Lembu** — enam-harmoni. Ia hanya memerlukan dua watak, jadi ia adalah keharmonian yang paling kerap muncul dalam keserasian, dan sebuah yang baik.",
+              "**Tikus dan Naga** — triad separuh: dua daripada tiga watak 申子辰, termasuk yang di tengah (子).",
+              "**Tikus dan Harimau** — tiada dalam carta, jadi neutral: bukan keharmonian dan bukan pertembungan, hanya garis asas.",
+              "**Tikus dan Kambing** — ketidakselarasan. Nampak tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan.",
+              "**Harimau dan Monyet** — pertembungan. Mereka duduk tepat bertentangan dan dilihat berlanggar secara langsung."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Berapa mata yang diperoleh setiap hubungan",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Tertinggi dahulu. Ini ialah nilai yang benar-benar digunakan oleh Inyeon-Link.",
+              "head": [
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ],
+                [
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Pertembungan",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Cabang yang sama (dua orang dengan haiwan yang sama) bermaksud persamaan, bukan tarikan, jadi ia berada sedikit di atas neutral. Sama ada keserasian zodiak atau cabang hari, nilai dalam jadual ini terus masuk ke dalam skor akhir."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Triad separuh mesti termasuk cabang diraja",
+        "title": "Mengapa triad penuh tiada dalam carta",
         "blocks": [
           {
-            "p": "Terdapat juga kaedah yang dianggap sebagai triad separuh jika kedua-dua watak tergolong dalam kumpulan triad yang sama. Ini boleh membawa kepada skor tinggi walaupun untuk gabungan yang sukar dipanggil sebagai triad, seperti 申辰. Oleh itu, perkhidmatan ini mengiktiraf triad separuh hanya untuk pasangan yang termasuk cabang diraja (王地) (子·酉·午·卯), dan gabungan seperti 申辰·巳丑·寅戌·亥未 tanpa cabang diraja tidak dikira sebagai triad."
+            "p": "Triad penuh (申子辰, 巳酉丑, 寅午戌, 亥卯未) memerlukan ketiga-tiga watak. Meletakkan dua orang bersebelahan hanya memberikan dua, jadi triad penuh tidak boleh berlaku dalam keserasian dan hanya triad separuh yang muncul. Skor triad penuh sebanyak {scoreSamhap} disimpan untuk kes apabila tiga watak berkumpul dalam carta seseorang itu sendiri."
           }
         ]
       },
       {
-        "title": "Sebab memisahkan ketidakselarasan tenang",
+        "title": "申辰, 巳丑, 寅戌 dan 亥未 tidak dikira sebagai keharmonian",
         "blocks": [
           {
-            "p": "Enam pasangan ketidakselarasan tenang dilihat sering dalam kesesuaian seperti pertembungan. Jika kita mengira gabungan sebagai pasangan dan pertembungan, enam pasangan ini akan semuanya tertimbus di bawah mata neutral {scoreNeutral}, jadi mereka diletakkan secara berasingan."
-          },
-          {
-            "p": "Walaupun pertembungan adalah jelas dan mencolok, ketidakselarasan tenang adalah tidak selari secara halus. Oleh itu, ia diletakkan pada skor {scoreWonjin}, yang lebih tinggi daripada pertembungan ({scoreChung}) tetapi pasti lebih rendah daripada neutral ({scoreNeutral})."
+            "p": "Sesetengah kaedah mengira mana-mana dua watak daripada kumpulan triad yang sama sebagai triad separuh. Inyeon-Link tidak berbuat demikian: seperti yang ditunjukkan oleh lajur triad separuh di atas, ia hanya menerima pasangan yang termasuk **cabang diraja** di tengah kumpulan (子, 午, 卯, 酉). Pasangan tanpanya tidak mempunyai pusat untuk pembentukan berkumpul, jadi ia dianggap neutral."
           }
         ]
       },
       {
-        "title": "Skor juga diberikan kepada pertembungan",
+        "title": "Ketidakselarasan dan pertembungan tidak berada di dasar",
         "blocks": [
           {
-            "p": "Skor pertembungan terendah adalah {scoreChung}. Niatnya bukan untuk memberikan nilai yang hampir dengan 0. Dalam tradisi, pertembungan bukanlah 'akhir' tetapi 'perlanggaran', dan memberikan skor rendah akan menunjukkan bahawa perkhidmatan ini membuat kenyataan definitif tentang hubungan."
+            "p": "Jika hanya keharmonian dan pertembungan dikira, kesemua enam pasangan ketidakselarasan akan tertimbus dalam neutral. Jadi ketidakselarasan mempunyai tempatnya sendiri: lebih tinggi daripada pertembungan langsung dan lebih rendah daripada neutral, pada {scoreWonjin} mata."
           },
           {
-            "p": "Dengan minimum {scoreChung} dan maksimum {scoreSamhap}, julatnya jelas, tetapi ia tidak membuat kesimpulan definitif."
+            "p": "Malah pertembungan mengekalkan {scoreChung} mata. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan. Nilai yang hampir sifar akan menyebabkan perkhidmatan ini menjatuhkan hukuman ke atas dua orang, jadi julatnya dikekalkan cukup luas untuk menunjukkan perbezaan tanpa menjatuhkan hukuman."
           }
         ]
       }
@@ -871,180 +963,167 @@ export const MS_DOCS = {
     ]
   },
   "guide/true-solar-time": {
-    "eyebrow": "Masa",
-    "title": "Tukar masa lahir kepada masa solar sebenar",
-    "summary": "Masa standard dan kedudukan sebenar matahari berbeza. Masa mesti diperbetulkan berdasarkan garis bujur tempat lahir untuk menjelaskan mengapa tiang masa itu tepat.",
+    "eyebrow": "Waktu",
+    "title": "Waktu Kelahiran Setiap Orang Diperbetulkan Secara Berasingan",
+    "summary": "Keserasian mengira waktu dua orang secara berasingan. Ini menerangkan bagaimana pembetulan digunakan apabila tempat dan era kelahiran mereka berbeza, dan apa yang berubah apabila hanya seorang daripada mereka tidak mengetahui waktunya.",
     "backLabel": "Asas pengiraan",
     "sections": [
       {
-        "title": "Masa pada jam dan masa matahari adalah berbeza",
+        "title": "Jam dan matahari tidak sepadan",
         "blocks": [
           {
-            "p": "Tiang masa (時柱) dalam saju ditentukan oleh kedudukan matahari. Namun, jam yang kita lihat menggunakan satu masa standard untuk seluruh negara, yang menyebabkan perbezaan dengan kedudukan sebenar matahari."
+            "p": "Dalam saju, waktu kelahiran dibaca daripada kedudukan matahari, bukan daripada jam. Tetapi seluruh negara menggunakan satu waktu piawai, jadi jam dan matahari di sesuatu tempat menjadi tidak selaras."
           },
           {
-            "p": "Masa standard Korea adalah berdasarkan garis bujur 135° timur. Oleh kerana garis bujur Seoul adalah sekitar 127°, ia adalah kira-kira 8° barat, menyebabkan matahari mencapai puncaknya kemudian — apabila sudah tengah hari mengikut jam, matahari di Seoul belum mencapai puncaknya. Perbezaan ini adalah sekitar **32 minit**."
+            "p": "Waktu piawai Korea berdasarkan 135°E, manakala Seoul terletak kira-kira 127°E. Matahari Seoul mencapai titik tertingginya lebih lewat daripada yang ditunjukkan jam, kira-kira **32 minit**."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "32 minit mengubah tiang masa satu slot",
+        "title": "32 minit boleh menggerakkan tiang jam sebanyak satu langkah",
         "blocks": [
           {
-            "p": "Masa dalam saju dibahagikan kepada unit dua jam. Mereka yang lahir dekat sempadan akan mempunyai tiang masa mereka berubah sepenuhnya oleh perbezaan 32 minit — pembetulan ini diperlukan bagi mereka yang jatuh tepat di sempadan ini."
+            "p": "Seseorang yang lahir di Seoul pada pukul 11:40 mengikut jam dilahirkan pada 11:08 dalam masa solar sebenar, yang masih berada dalam jam Kuda (午, 11:00–13:00). Jika lahir pada 11:20 mengikut jam, mereka dilahirkan pada 10:48, yang jatuh dalam jam Ular (巳, 9:00–11:00). Pembetulan ini wujud untuk orang yang berdiri tepat di sempadan seperti ini."
           }
         ]
       },
       {
-        "title": "Mengapa kami meminta tempat lahir",
+        "title": "Pembetulan digunakan kepada setiap orang secara berasingan",
         "blocks": [
           {
-            "p": "Jika garis bujur berbeza, jumlah pembetulan juga akan berbeza. Menggunakan pembetulan berdasarkan Seoul untuk seseorang yang lahir di luar negara akan mengakibatkan perbezaan yang ketara dalam tiang masa. Oleh itu, skrin input memerlukan anda untuk memilih tempat lahir anda, dan pengiraan adalah berdasarkan garis bujur dan masa standard bandar itu. Pada masa ini, terdapat {cityCount} tempat dalam senarai."
+            "p": "Keserasian membina carta setiap orang secara bersendirian. Itulah sebabnya skrin input meminta tempat kelahiran **untuk setiap orang**. Jika seorang lahir di Seoul dan seorang lagi di luar negara, waktu mereka diperbetulkan secara berasingan, dengan longitud dan zon waktu yang berbeza."
           },
           {
-            "p": "Di tempat-tempat di mana garis bujur berbeza dengan ketara walaupun dalam negara yang sama (seperti AS, Rusia, Indonesia, dll.), bandar-bandar telah dibahagikan. **15° garis bujur sama dengan satu slot tiang masa**."
+            "p": "Senarai bandar kini mengandungi {cityCount} tempat. Bagi negara yang longitudnya sangat berbeza, bandar dipecahkan, kerana **15° longitud menggerakkan tiang jam sebanyak satu langkah**."
           },
           {
-            "p": "Jika anda tidak memilih, pengiraan akan berdasarkan Seoul. Oleh kerana kebanyakan kelahiran adalah domestik, ini mengurangkan kemungkinan kesilapan, tetapi jika anda dilahirkan di luar negara, sila pastikan untuk memilih."
+            "p": "Jika anda tidak memilih, Seoul digunakan. Jika hanya seorang lahir di luar negara dan kedua-duanya dibiarkan pada Seoul, hanya tiang jam orang yang lahir di luar negara itu yang tersasar; nilai orang lain tidak terjejas, kerana pembetulan digunakan seorang demi seorang."
           }
         ]
       },
       {
-        "title": "Masa standard telah berubah beberapa kali pada masa lalu",
+        "title": "Era yang berbeza menggunakan waktu piawai yang berbeza",
         "blocks": [
           {
-            "p": "Terdapat sebab mengapa pembetulan tidak boleh dikira dengan mudah sebagai 'perbezaan garis bujur ÷ 15° × 60 minit'. Masa standard itu sendiri telah berbeza sepanjang era yang berbeza."
+            "p": "Dua orang yang berbeza usia hidup di bawah waktu piawai tempoh yang berbeza. Itulah sebabnya perbezaan longitud sahaja tidak mencukupi."
           },
           {
-            "table": {
-              "caption": "Perubahan dalam waktu standard Korea — mereka yang lahir dalam tempoh ini akan mempunyai perbezaan dengan pengiraan yang mudah",
-              "head": [
-                "Tempoh",
-                "Apa yang berbeza"
-              ],
-              "rows": [
-                [
-                  "Sebelum 1912",
-                  "Tiada waktu standard (masa purata tempatan)"
-                ],
-                [
-                  "1954 – 1961",
-                  "Waktu standard adalah UTC+8:30"
-                ],
-                [
-                  "1948 – 51 · 1955 – 60 · 1987 – 88",
-                  "Waktu penjimatan siang dilaksanakan"
-                ]
-              ]
-            }
+            "ul": [
+              "**Sebelum 1912** — Korea tidak mempunyai waktu piawai yang bersatu (waktu min tempatan).",
+              "**1954–1961** — waktu piawai ialah UTC+8:30.",
+              "**1948–51 · 1955–60 · 1987–88** — waktu penjimatan siang berkuat kuasa."
+            ]
           },
           {
-            "p": "Inyeon-Link tidak menggunakan nilai tetap untuk meridian standard, tetapi mengira waktu standard yang sebenarnya digunakan pada masa itu berdasarkan maklumat **zon waktu IANA** tempat lahir. Waktu penjimatan siang dan waktu standard yang lalu secara automatik akan dipaparkan."
+            "p": "Inyeon-Link tidak menetapkan meridian piawai secara tetap. Ia mencari **zon waktu IANA** tempat kelahiran untuk mengetahui waktu piawai yang sebenarnya digunakan pada ketika itu, supaya era setiap orang digunakan walaupun tahun kelahiran mereka berbeza."
           }
         ]
       },
       {
-        "title": "Kelahiran sejurus selepas tengah malam juga mempertimbangkan tarikh",
+        "title": "Sejurus selepas tengah malam, pangkal hari berubah",
         "blocks": [
           {
-            "p": "Memandangkan pembetulan adalah -32 minit, mereka yang lahir antara 00:00 dan 00:32 mengikut jam akan menjadi **23:00 hari sebelumnya** dalam waktu solar sebenar. Jika hanya waktu yang dipulangkan dan tarikh dibiarkan tidak berubah, ia akan menulis tiang hari sebagai '23:00 hari sebelumnya'."
+            "p": "Pembetulan ialah −32 minit, jadi seseorang yang lahir antara 00:00 dan 00:32 mengikut jam dilahirkan dalam **jam 23:00 hari sebelumnya** dalam masa solar sebenar. Tarikh turut dimundurkan bersamanya."
           },
           {
-            "p": "Inyeon-Link juga akan memulangkan tarikh dalam kes ini. Tiang hari menunjukkan individu itu sendiri dalam saju, jadi jika ini tidak betul, hampir semua item kesesuaian akan menjadi tidak betul."
+            "p": "Dalam keserasian, ini sangat penting. Apabila tiang hari berundur sehari, kedua-dua pangkal hari dan cabang hari berubah, jadi hubungan pangkal hari, Bintang Pasangan dan hubungan cabang hari semuanya dikira semula dengan watak yang berbeza, dan kekuatan lima elemen turut berubah."
           }
         ]
       },
       {
-        "title": "Anda tidak perlu mengetahui waktu",
+        "title": "Tidak mengapa jika hanya seorang tidak mengetahui waktunya",
         "blocks": [
           {
-            "p": "Waktu kelahiran adalah pilihan. Jika anda tidak mengetahuinya, pengiraan akan dilakukan tanpa tiang waktu, dan fakta ini akan dipaparkan di skrin keputusan. Tiada item dalam kesesuaian yang memerlukan tiang waktu ditulis secara langsung, tetapi ia mempengaruhi lima elemen, jadi jika anda mengetahuinya, adalah lebih tepat untuk menyertakannya."
+            "p": "Waktu kelahiran adalah pilihan, dan keserasian tetap dikira walaupun hanya seorang daripada dua orang tidak mengetahuinya. Hanya orang yang tidak mengetahuinya dikira tanpa tiang jam, dan skrin keputusan menyatakannya. Nilai orang lain kekal seperti sedia ada."
           },
           {
-            "p": "Kesesuaian zodiak sentiasa mempunyai nilai yang sama tanpa mengira waktu — [kerana ia hanya melihat cabang tahun](/guide/zodiac)."
+            "p": "Tiada satu pun daripada empat item keserasian menggunakan tiang jam secara langsung, tetapi ia menjejaskan kekuatan lima elemen, jadi lebih tepat jika anda memasukkannya apabila anda tahu. Keserasian zodiak memberikan nilai yang sama dengan atau tanpa waktu — [ia hanya melihat cabang tahun](/guide/zodiac)."
           }
         ]
       }
     ]
   },
   "guide/no-storage": {
-    "eyebrow": "Maklumat Peribadi",
-    "title": "Kaedah untuk tidak menyimpan maklumat yang dimasukkan",
-    "summary": "Ini menerangkan apa yang secara teknikal bermaksud bahawa tarikh lahir anda tidak direkodkan di mana-mana dan apa yang termasuk dalam pautan keputusan.",
-    "backLabel": "Asas Pengiraan",
+    "eyebrow": "Privasi",
+    "title": "Bagaimana Kami Mengelak Menyimpan Butiran Dua Orang",
+    "summary": "Keserasian meminta anda memasukkan tarikh lahir orang lain juga. Ini menerangkan, secara teknikal, apa maksudnya apabila input kedua-dua orang tidak direkodkan di mana-mana, dan apa yang dibawa oleh pautan keputusan.",
+    "backLabel": "Asas pengiraan",
     "sections": [
       {
-        "title": "Tiada keahlian diperlukan",
+        "title": "Anda memasukkan maklumat orang lain",
         "blocks": [
           {
-            "p": "Inyeon-Link tidak membuat akaun. Ia tidak mengumpul nama, emel, atau nombor telefon. Satu-satunya maklumat yang dikumpul adalah tarikh lahir dan (secara pilihan) waktu kelahiran, tempat lahir, dan jantina, dan walaupun itu tidak kekal selepas pengiraan selesai."
+            "p": "Skrin keserasian mengambil tarikh lahir anda dan tarikh lahir orang lain bersama-sama. Tarikh lahir orang lain ialah maklumat peribadinya, jadi kami menerangkan secara berasingan bagaimana Inyeon-Link mengendalikan kedua-duanya."
           },
           {
-            "p": "Terdapat medan untuk memasukkan tajuk yang akan dipaparkan di skrin keputusan, tetapi itu adalah **hanya untuk tujuan paparan** dan tidak digunakan dalam pengiraan. Anda tidak perlu memasukkan nama sebenar anda."
+            "p": "Tiada akaun, dan kami tidak meminta nama, alamat e-mel atau nombor telefon. Kami hanya menerima dua tarikh lahir dan, secara pilihan, waktu lahir, tempat lahir dan jantina, dan tiada satu pun yang kekal sebaik sahaja pengiraan selesai."
+          },
+          {
+            "p": "Terdapat medan untuk nama paparan yang ditunjukkan pada skrin keputusan, tetapi ia hanya untuk paparan dan tidak digunakan dalam pengiraan. Anda tidak perlu memasukkan nama sebenar."
           }
         ]
       },
       {
-        "title": "Apa yang termasuk dalam pautan keputusan?",
+        "title": "Pautan keputusan mengandungi kedua-dua tarikh lahir",
         "blocks": [
           {
-            "p": "Setelah pengiraan selesai, alamatnya kelihatan seperti ini."
+            "p": "Apabila pengiraan selesai, alamatnya kelihatan seperti ini."
           },
           {
             "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
           },
           {
-            "p": "Apa yang mengikuti **#** adalah nilai input. Bahagian ini dipanggil **fragmen**, yang merupakan **seksyen yang tidak dihantar oleh pelayar ke pelayan**. Ini adalah tingkah laku web standard dan bukan peraturan yang kami cipta — ia pada asalnya direka untuk menunjukkan lokasi dalam dokumen, jadi pelayan tidak perlu melihatnya."
+            "p": "Bahagian selepas **#** memegang input kedua-dua orang. Ia dipanggil fragmen, dan mengikut tingkah laku web piawai **pelayar tidak menghantarnya kepada pelayan**. Ia direka untuk menunjuk ke satu kedudukan dalam dokumen, jadi pelayan tidak pernah melihatnya."
           },
           {
-            "p": "Dengan kata lain, apabila anda membuka pautan keputusan, pelayar membaca nilai itu untuk meminta pengiraan, dan pelayan kami menerima nilai yang diperlukan untuk pengiraan, mengembalikan jawapan, dan kemudian melupakannya."
+            "p": "Apabila anda membuka pautan keputusan, pelayar membaca nilai itu dan meminta pengiraan; pelayan menerima nilai yang diperlukan, mengembalikan jawapan dan melupakannya."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Sila berhati-hati apabila menghantar pautan kepada orang lain",
+        "title": "Sebelum anda menghantar pautan kepada orang lain",
         "blocks": [
           {
-            "p": "Fakta bahawa ia tidak disimpan di pelayan dan pautan itu selamat bukanlah perkara yang sama. Pautan keputusan mengandungi kedua-dua tarikh lahir anda, jadi orang yang menerima pautan itu boleh melihat keputusan yang sama."
+            "p": "Tidak disimpan di pelayan tidak sama dengan pautan itu rahsia. Sesiapa yang menerima pautan boleh melihat kedua-dua tarikh lahir seperti sedia ada, dan pautan yang ditinggalkan dalam bilik sembang kekal dalam bilik sembang itu tanpa mengira pelayan kami. Sila hantarkannya dengan mengingati bahawa ia mengandungi butiran orang lain."
           }
         ]
       },
       {
-        "title": "Mengapa pengiraan dilakukan di pelayan tetapi tidak disimpan?",
+        "title": "Mengapa tiada apa yang kekal walaupun pengiraan berjalan di pelayan",
         "blocks": [
           {
-            "p": "Pengiraan itu sendiri dilakukan di pelayan. Almanak lunisolar Korea diperlukan untuk menghasilkan saju, dan jadual itu terlalu besar untuk dihantar ke pelayar. Namun, **selepas memproses permintaan, nilai itu tidak digunakan di mana-mana.** Tiada kod untuk menyimpannya dalam pangkalan data."
+            "p": "Untuk menyediakan carta saju kami memerlukan jadual almanak, yang terlalu besar untuk dihantar ke pelayar, jadi pengiraan berjalan di pelayan. Tetapi **sebaik sahaja permintaan diselesaikan, nilai itu tidak digunakan di tempat lain.** Tiada kod yang menulisnya ke pangkalan data."
           },
           {
-            "p": "Rekod minimum yang diperlukan untuk operasi disimpan — pengira untuk mengelakkan orang yang sama menghantar terlalu banyak permintaan dalam masa yang singkat. Ini tidak termasuk tarikh lahir, dan IP akses juga tidak disimpan. Hanya satu nilai, yang dihash dengan tarikh, dikira, dan nilai itu berubah apabila hari berubah."
+            "p": "Satu-satunya rekod yang kekal ialah pembilang yang menghalang seseorang daripada menghantar terlalu banyak permintaan dalam masa singkat. Ia tidak menyimpan tarikh lahir dan tidak menyimpan alamat IP seperti sedia ada; ia mengira satu nilai, yang di-hash bersama tarikh, dan nilai itu berubah apabila hari bertukar."
           }
         ]
       },
       {
-        "title": "Perkara yang tidak boleh dilakukan kerana maklumat tidak disimpan",
+        "title": "Apa yang kami korbankan dengan tidak menyimpan",
         "blocks": [
           {
-            "p": "Sejujurnya, terdapat perkara yang telah kami berikan kerana kami tidak menyimpan maklumat."
+            "p": "Kerana tiada apa yang disimpan, ada beberapa perkara yang telah kami lepaskan."
           },
           {
             "ul": [
-              "**Anda tidak boleh mendapatkan semula keputusan lalu.** Anda perlu mempunyai pautan untuk melihatnya semula.",
-              "**Nilai yang sama akan dikira semula.** Tiada cache. Namun, kerana semua peraturan adalah deterministik, [input yang sama akan sentiasa menghasilkan nilai yang sama](/guide/how-compatibility).",
-              "**Menyegarkan akan membawa kembali pintu iklan.** Ini kerana tiada tempat untuk menyimpan rekod tontonan."
+              "**Anda tidak boleh mendapatkan semula keputusan keserasian yang lalu.** Anda perlu menyimpan pautan untuk melihatnya semula.",
+              "**Dua orang yang sama dikira semula setiap kali.** Tiada cache. Tetapi setiap peraturan bersifat deterministik, jadi [input yang sama sentiasa memberikan nilai yang sama](/guide/how-compatibility).",
+              "**Menyegarkan semula membawa kembali pintu iklan.** Tiada tempat untuk menyimpan rekod bahawa anda telah menontonnya."
             ]
           }
         ]
       },
       {
-        "title": "Sekiranya pembelian",
+        "title": "Jika anda membeli laporan",
         "blocks": [
           {
-            "p": "Jika anda membeli laporan, rekod transaksi akan disimpan pada masa itu. Undang-undang menetapkan tempoh penyimpanan untuk pembayaran, dan tanpa sejarah pesanan, pengembalian tidak dapat diproses. Namun, walaupun begitu, **tarikh lahir yang digunakan untuk pengiraan kesesuaian tidak dilampirkan pada pesanan** — ia dikumpul semula semasa membuat PDF selepas pengesahan pembayaran."
+            "p": "Jika anda membeli laporan, rekod transaksi disimpan pada ketika itu: rekod pembayaran mempunyai tempoh penyimpanan yang diwajibkan oleh undang-undang, dan tanpa sejarah pesanan bayaran balik tidak boleh diproses. Walaupun begitu, **kedua-dua tarikh lahir tidak dilampirkan pada pesanan**; ia diminta semula apabila PDF dibuat selepas pengesahan pembayaran, dan digunakan hanya pada saat itu."
           },
           {
-            "p": "Butiran dinyatakan dalam [Dasar Privasi](/privacy)."
+            "p": "Butiran terdapat dalam [dasar privasi](/privacy)."
           }
         ]
       }

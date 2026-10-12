@@ -226,27 +226,27 @@ export const VI_DOCS = {
     ]
   },
   "guide/branches": {
-    "eyebrow": "Bảng Quan Hệ",
-    "title": "Mười Hai Nhánh Địa — Kết Hợp, Xung Đột, Bất Hòa",
-    "summary": "Đây là một bảng quan hệ được sử dụng cho cả sự tương thích nhánh ngày và sự tương thích hoàng đạo. Nó hoàn toàn tiết lộ ý nghĩa của mỗi sự kết hợp, xung đột và bất hòa cùng với điểm số tương ứng của chúng.",
-    "backLabel": "Cơ Sở Tính Toán",
+    "eyebrow": "Bảng quan hệ",
+    "title": "Cách con giáp và nhánh ngày gặp nhau — Bảng mười hai nhánh",
+    "summary": "Bảng quan hệ được dùng khi con giáp và nhánh ngày của hai người được đặt cạnh nhau. Bảng cho biết với từng con trong mười hai con giáp, những con nào hợp, xung hay bất hòa, và công khai điểm số của mọi mối quan hệ.",
+    "backLabel": "Cơ sở tính toán",
     "sections": [
       {
-        "title": "Các nhánh địa bao gồm mười hai ký tự",
+        "title": "Con giáp và nhánh ngày dùng chung một bảng",
         "blocks": [
           {
-            "p": "Mười hai nhánh địa (十二支) là 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. Các dấu hiệu hoàng đạo được biết đến phổ biến gắn liền với mỗi ký tự trong số mười hai này."
+            "p": "Inyeon-Link đặt nhánh đất của hai người cạnh nhau ở hai nơi: **độ tương hợp con giáp**, xét nhánh của năm sinh, và **độ tương hợp nhánh ngày** (cung vợ), xét nhánh của ngày sinh. Cả hai đều được đánh giá bằng bảng dưới đây; điểm khác biệt duy nhất là mức độ ảnh hưởng của mỗi phần lên điểm số cuối cùng."
           },
           {
             "figure": "branch-wheel",
-            "caption": "Sắp xếp mười hai ký tự trong một vòng tròn cung cấp cái nhìn rõ ràng về các mối quan hệ. Một sự xung đột luôn ngồi đối diện trực tiếp, trong khi một cặp sáu-hài hòa và một bất hòa yên tĩnh là hàng xóm gần hơn. Những đường này được lấy trực tiếp từ các quy tắc tính toán, không được viết trong văn bản.",
+            "caption": "Xếp mười hai ký tự thành vòng tròn giúp thấy rõ các mối quan hệ chỉ trong một cái nhìn. Một cặp xung luôn nằm đối diện trực tiếp, còn cặp sáu hài hòa và cặp bất hòa yên tĩnh là những người hàng xóm gần hơn. Những đường này không được vẽ tay; chúng được vẽ trực tiếp từ các quy tắc tính toán.",
             "labels": {
-              "alt": "Một sơ đồ cho thấy mười hai nhánh địa được sắp xếp trong một vòng tròn với các đường nối kết hợp sáu-hài hòa, xung đột và bất hòa.",
-              "yukhap": "Sáu-Hài Hòa",
-              "chung": "Xung Đột",
-              "wonjin": "Bất Hòa",
+              "alt": "Sơ đồ cho thấy mười hai nhánh đất được xếp thành vòng tròn, với các đường nối các cặp sáu hài hòa, xung và bất hòa.",
+              "yukhap": "Sáu hài hòa",
+              "chung": "Xung",
+              "wonjin": "Bất hòa",
               "rat": "Chuột",
-              "ox": "Bò",
+              "ox": "Trâu",
               "tiger": "Hổ",
               "rabbit": "Thỏ",
               "dragon": "Rồng",
@@ -258,66 +258,109 @@ export const VI_DOCS = {
               "dog": "Chó",
               "pig": "Lợn"
             }
-          },
-          {
-            "p": "Trong saju, mỗi trong bốn trụ có một nhánh đất. Inyeon-Link sử dụng **nhánh ngày** (cung phu thê) và **nhánh năm** (con giáp) trong số đó. Cả hai vị trí đều được đánh giá bằng bảng quan hệ dưới đây."
           }
         ]
       },
       {
-        "title": "Bảng Quan Hệ Toàn Diện",
+        "title": "Các mối quan hệ của từng con trong mười hai con giáp",
         "blocks": [
           {
+            "p": "Với mỗi con giáp, bảng liệt kê những con nào tạo thành từng loại quan hệ với nó. Chỉ những cặp mà dịch vụ này công nhận là hợp mới được liệt kê, nên một con giáp không xuất hiện trong hàng đó thì không có quan hệ đặc biệt nào với nó — đó là **trung lập**."
+          },
+          {
             "table": {
-              "caption": "Sắp xếp theo điểm số cao nhất. Đây là các giá trị thực sự được Inyeon-Link sử dụng.",
+              "caption": "Bốn loại quan hệ nhìn từ một con giáp",
               "head": [
-                "Quan hệ",
-                "Cặp tương ứng",
-                "Ý nghĩa",
-                "Điểm số"
+                "Con giáp của bạn",
+                "Cặp hút nhau (Sáu hài hòa)",
+                "Nửa tam hợp",
+                "Âm thầm lệch nhau (Bất hòa)",
+                "Va chạm trực diện (Xung)"
               ],
               "rows": [
                 [
-                  "Kết hợp (三合)",
-                  "申子辰 · 巳酉丑 · 寅午戌 · 亥卯未",
-                  "Khi tất cả ba ký tự tụ họp, chúng tạo thành một cấu trúc nguyên tố hoàn chỉnh — một **guk** (局). Đây được coi là sự kết hợp mạnh nhất.",
-                  "{scoreSamhap}"
+                  "Chuột (子)",
+                  "Trâu",
+                  "Khỉ · Rồng",
+                  "Dê",
+                  "Ngựa"
                 ],
                 [
-                  "Sáu-Hài (六合)",
-                  "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
-                  "Các cặp thu hút lẫn nhau. Đây là sự kết hợp phổ biến nhất trong quan hệ vì nó chỉ bao gồm hai ký tự.",
-                  "{scoreYukhap}"
+                  "Trâu (丑)",
+                  "Chuột",
+                  "Gà",
+                  "Ngựa",
+                  "Dê"
                 ],
                 [
-                  "Nửa tam hợp (半合)",
-                  "Hai ký tự bao gồm một nhánh hoàng gia (王地) từ tam hợp (子·酉·午·卯)",
-                  "Một sự kết hợp nửa bao gồm ký tự ở giữa cấu trúc. Nó không thể tạo thành một sự kết hợp hoàn chỉnh chỉ với hai ký tự, làm cho nó thấp hơn một tam hợp đầy đủ.",
-                  "{scoreBanhap}"
+                  "Hổ (寅)",
+                  "Lợn",
+                  "Ngựa",
+                  "Gà",
+                  "Khỉ"
                 ],
                 [
-                  "Cùng nhánh đất",
-                  "子子 · 丑丑 …",
-                  "Các ký tự giống nhau. Điều này có nghĩa là chúng giống nhau, nhưng không có nghĩa là thu hút, vì vậy nó được đặt ở giữa.",
-                  "{scoreSame}"
+                  "Thỏ (卯)",
+                  "Chó",
+                  "Lợn · Dê",
+                  "Khỉ",
+                  "Gà"
                 ],
                 [
-                  "Trung lập",
-                  "Các cặp không thuộc về bất kỳ đâu ở trên hoặc dưới",
-                  "Một sự kết hợp không có mối quan hệ đặc biệt. Đây là điểm tham chiếu.",
-                  "{scoreNeutral}"
+                  "Rồng (辰)",
+                  "Gà",
+                  "Chuột",
+                  "Lợn",
+                  "Chó"
                 ],
                 [
-                  "Bất hòa yên tĩnh (怨嗔)",
-                  "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
-                  "Các cặp không thể tách rời mặc dù có sự oán giận. Chúng có vẻ yên tĩnh bề ngoài nhưng được coi là kéo dài lâu.",
-                  "{scoreWonjin}"
+                  "Rắn (巳)",
+                  "Khỉ",
+                  "Gà",
+                  "Chó",
+                  "Lợn"
                 ],
                 [
-                  "Va chạm (沖)",
-                  "子午 · 丑未 · 寅申 · 卯酉 · 辰戌 · 巳亥",
-                  "Các cặp va chạm trực diện. Đây là sáu cặp đối diện nhau.",
-                  "{scoreChung}"
+                  "Ngựa (午)",
+                  "Dê",
+                  "Hổ · Chó",
+                  "Trâu",
+                  "Chuột"
+                ],
+                [
+                  "Dê (未)",
+                  "Ngựa",
+                  "Thỏ",
+                  "Chuột",
+                  "Trâu"
+                ],
+                [
+                  "Khỉ (申)",
+                  "Rắn",
+                  "Chuột",
+                  "Thỏ",
+                  "Hổ"
+                ],
+                [
+                  "Gà (酉)",
+                  "Rồng",
+                  "Rắn · Trâu",
+                  "Hổ",
+                  "Thỏ"
+                ],
+                [
+                  "Chó (戌)",
+                  "Thỏ",
+                  "Ngựa",
+                  "Rắn",
+                  "Rồng"
+                ],
+                [
+                  "Lợn (亥)",
+                  "Hổ",
+                  "Thỏ",
+                  "Rồng",
+                  "Rắn"
                 ]
               ]
             }
@@ -325,41 +368,90 @@ export const VI_DOCS = {
         ]
       },
       {
-        "title": "Tam hợp đầy đủ không xuất hiện trong dịch vụ này",
+        "title": "Khi hai người gặp nhau trong bảng",
         "blocks": [
           {
-            "p": "Một tam hợp đầy đủ cần ba ký tự để hình thành. Tuy nhiên, sự tương thích được cấu trúc bằng cách ghép các nhánh đất của hai người **một cách riêng lẻ**, dẫn đến chỉ hai ký tự. Do đó, những gì xuất hiện ở đây luôn là một nửa tam hợp, và các điểm tam hợp đầy đủ {scoreSamhap} được dành cho khi xem xét các cấu trúc trong mỗi saju."
+            "p": "Đọc bảng nghĩa là tìm hai con giáp trên cùng một hàng. Sau đây là vài cặp làm ví dụ."
+          },
+          {
+            "ul": [
+              "**Chuột và Trâu** — một cặp sáu hài hòa. Chỉ cần hai ký tự nên đây là kiểu hợp xuất hiện nhiều nhất trong xem tương hợp, và là một kiểu hợp tốt.",
+              "**Chuột và Rồng** — một nửa tam hợp: hai trong ba ký tự 申子辰, bao gồm ký tự ở giữa (子).",
+              "**Chuột và Hổ** — không có trong bảng nên là trung lập: không hợp cũng không xung, chỉ là mức nền.",
+              "**Chuột và Dê** — một cặp bất hòa. Bề ngoài có vẻ yên ả, nhưng sự lệch nhịp được tin là kéo dài.",
+              "**Hổ và Khỉ** — một cặp xung. Hai bên ngồi đối diện trực tiếp nhau và được coi là va chạm trực diện."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Mỗi mối quan hệ được bao nhiêu điểm",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Từ cao nhất xuống. Đây là các giá trị Inyeon-Link thực sự sử dụng.",
+              "head": [
+                "Mối quan hệ",
+                "Điểm"
+              ],
+              "rows": [
+                [
+                  "Sáu hài hòa",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Nửa tam hợp",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Cùng nhánh",
+                  "{scoreSame}"
+                ],
+                [
+                  "Trung lập",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bất hòa",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Xung",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Cùng nhánh (hai người cùng con giáp) nghĩa là giống nhau chứ không phải hút nhau, nên nằm ngay trên mức trung lập. Dù là tương hợp con giáp hay nhánh ngày, giá trị trong bảng này được đưa thẳng vào điểm số cuối cùng."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Nửa tam hợp phải bao gồm một nhánh hoàng gia",
+        "title": "Vì sao tam hợp đầy đủ không có trong bảng",
         "blocks": [
           {
-            "p": "Cũng có một phương pháp được coi là nửa tam hợp nếu cả hai ký tự thuộc cùng một nhóm tam hợp. Điều này có thể dẫn đến điểm số cao ngay cả cho các sự kết hợp khó được gọi là tam hợp, chẳng hạn như 申辰. Do đó, dịch vụ này chỉ công nhận một nửa tam hợp cho các cặp bao gồm một nhánh hoàng gia (王地) (子·酉·午·卯), và các sự kết hợp như 申辰·巳丑·寅戌·亥未 mà không có nhánh hoàng gia không được tính là tam hợp."
+            "p": "Một tam hợp đầy đủ (申子辰, 巳酉丑, 寅午戌, 亥卯未) cần đủ cả ba ký tự. Khi đặt hai người cạnh nhau chỉ có hai ký tự, nên tam hợp đầy đủ không thể xảy ra trong xem tương hợp và chỉ có nửa tam hợp xuất hiện. Điểm tam hợp đầy đủ là {scoreSamhap} được giữ cho trường hợp ba ký tự cùng có mặt trong lá số của riêng một người."
           }
         ]
       },
       {
-        "title": "Lý do tách biệt bất hòa yên tĩnh",
+        "title": "申辰, 巳丑, 寅戌 và 亥未 không được tính là hợp",
         "blocks": [
           {
-            "p": "Sáu cặp bất hòa yên tĩnh được xem là thường xuyên trong sự tương thích như các va chạm. Nếu chúng ta tính các sự kết hợp như các cặp và va chạm, sáu cặp này sẽ bị chôn vùi dưới các điểm trung lập {scoreNeutral}, vì vậy chúng được đặt riêng."
-          },
-          {
-            "p": "Trong khi các va chạm là rõ ràng và nổi bật, bất hòa yên tĩnh thì lệch lạc một cách tinh tế. Do đó, nó được đặt ở điểm số {scoreWonjin}, cao hơn các va chạm ({scoreChung}) nhưng chắc chắn thấp hơn trung lập ({scoreNeutral})."
+            "p": "Một số phương pháp tính hai ký tự bất kỳ trong cùng một nhóm tam hợp là nửa tam hợp. Inyeon-Link không làm vậy: như cột nửa tam hợp ở trên cho thấy, chỉ nhận những cặp có **nhánh vương** ở trung tâm của nhóm (子, 午, 卯, 酉). Một cặp không có nó thì không có trung tâm để cấu trúc quy tụ quanh, nên được coi là trung lập."
           }
         ]
       },
       {
-        "title": "Điểm số cũng được gán cho các va chạm",
+        "title": "Bất hòa và xung không nằm ở đáy",
         "blocks": [
           {
-            "p": "Điểm số va chạm thấp nhất là {scoreChung}. Ý định không phải là gán một giá trị gần 0. Trong truyền thống, một va chạm không phải là 'kết thúc' mà là một 'va chạm', và việc gán một điểm số thấp sẽ ngụ ý rằng dịch vụ đang đưa ra một tuyên bố dứt khoát về mối quan hệ."
+            "p": "Nếu chỉ tính hợp và xung, cả sáu cặp bất hòa sẽ bị chôn vùi trong mức trung lập. Vì vậy bất hòa có chỗ riêng: cao hơn va chạm trực diện và thấp hơn trung lập, ở mức {scoreWonjin} điểm."
           },
           {
-            "p": "Với điểm tối thiểu là {scoreChung} và tối đa là {scoreSamhap}, phạm vi là rõ ràng, nhưng nó không đưa ra một kết luận dứt khoát."
+            "p": "Ngay cả một cặp xung vẫn giữ {scoreChung} điểm. Trong myeongri truyền thống, xung là một va chạm chứ không phải sự kết thúc của một mối quan hệ. Một giá trị gần bằng không sẽ khiến dịch vụ tuyên một phán quyết về hai con người, nên khoảng điểm được giữ đủ rộng để cho thấy sự khác biệt mà không phán quyết."
           }
         ]
       }
@@ -871,180 +963,167 @@ export const VI_DOCS = {
     ]
   },
   "guide/true-solar-time": {
-    "eyebrow": "Thời gian",
-    "title": "Chuyển đổi thời gian sinh sang thời gian mặt trời thực",
-    "summary": "Thời gian chuẩn và vị trí thực tế của mặt trời khác nhau. Thời gian phải được điều chỉnh dựa trên kinh độ của nơi sinh để giải thích lý do tại sao cột thời gian là chính xác.",
+    "eyebrow": "Giờ sinh",
+    "title": "Giờ sinh của mỗi người được hiệu chỉnh riêng",
+    "summary": "Tương hợp tính giờ của hai người riêng biệt. Phần này giải thích cách hiệu chỉnh được áp dụng khi nơi sinh và thời đại khác nhau, và điều gì thay đổi khi chỉ một trong hai người không biết giờ sinh.",
     "backLabel": "Cơ sở tính toán",
     "sections": [
       {
-        "title": "Thời gian trên đồng hồ và thời gian của mặt trời là khác nhau",
+        "title": "Đồng hồ và mặt trời không khớp nhau",
         "blocks": [
           {
-            "p": "Cột thời gian (時柱) của saju được xác định bởi vị trí của mặt trời. Tuy nhiên, đồng hồ mà chúng ta thấy sử dụng một thời gian chuẩn duy nhất cho toàn quốc, điều này gây ra sự sai lệch với vị trí thực tế của mặt trời."
+            "p": "Trong saju, giờ sinh được đọc theo vị trí của mặt trời chứ không theo đồng hồ. Nhưng cả một quốc gia dùng một múi giờ chuẩn, nên đồng hồ và mặt trời của từng nơi bị lệch nhau."
           },
           {
-            "p": "Thời gian chuẩn của Hàn Quốc dựa trên kinh độ 135° đông. Vì kinh độ của Seoul khoảng 127°, nó cách khoảng 8° về phía tây, khiến mặt trời đạt đỉnh muộn hơn — khi đồng hồ chỉ 12 giờ trưa, mặt trời ở Seoul vẫn chưa đạt đỉnh. Sự khác biệt này khoảng **32 phút**."
+            "p": "Giờ chuẩn của Hàn Quốc dựa trên kinh tuyến 135°E, trong khi Seoul nằm ở khoảng 127°E. Mặt trời ở Seoul lên điểm cao nhất muộn hơn đồng hồ chỉ khoảng **32 phút**."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "32 phút thay đổi cột thời gian một slot",
+        "title": "32 phút có thể làm trụ giờ dịch một bước",
         "blocks": [
           {
-            "p": "Thời gian trong saju được chia thành các đơn vị hai giờ. Những người sinh gần ranh giới sẽ có cột thời gian của họ hoàn toàn thay đổi bởi sự khác biệt 32 phút — việc điều chỉnh này là cần thiết đối với những người rơi đúng vào ranh giới này."
+            "p": "Người sinh ở Seoul lúc 11:40 theo đồng hồ thì sinh lúc 11:08 theo giờ mặt trời thực, vẫn nằm trong giờ Ngọ (午, 11:00–13:00). Sinh lúc 11:20 theo đồng hồ thì sinh lúc 10:48, rơi vào giờ Tỵ (巳, 9:00–11:00). Việc hiệu chỉnh tồn tại cho những người đứng đúng ở ranh giới như vậy."
           }
         ]
       },
       {
-        "title": "Tại sao chúng tôi yêu cầu nơi sinh",
+        "title": "Việc hiệu chỉnh được áp dụng riêng cho từng người",
         "blocks": [
           {
-            "p": "Nếu kinh độ khác nhau, số lượng điều chỉnh cũng sẽ khác. Áp dụng điều chỉnh dựa trên Seoul cho một người sinh ở nước ngoài sẽ dẫn đến sự sai lệch đáng kể trong cột thời gian. Do đó, màn hình nhập yêu cầu bạn chọn nơi sinh của mình, và việc tính toán dựa trên kinh độ và thời gian chuẩn của thành phố đó. Hiện tại, có {cityCount} địa điểm trong danh sách."
+            "p": "Tương hợp dựng lá số của từng người riêng. Đó là lý do màn hình nhập yêu cầu nơi sinh **cho từng người**. Nếu một người sinh ở Seoul và người kia sinh ở nước ngoài, giờ của họ được hiệu chỉnh riêng, với kinh độ và múi giờ khác nhau."
           },
           {
-            "p": "Tại những nơi mà kinh độ thay đổi lớn ngay cả trong cùng một quốc gia (như Mỹ, Nga, Indonesia, v.v.), các thành phố đã được chia nhỏ. **15° kinh độ tương đương với một slot cột thời gian.**"
+            "p": "Danh sách thành phố hiện có {cityCount} địa điểm. Với những quốc gia có kinh độ trải rộng, các thành phố được tách ra, vì **15° kinh độ làm trụ giờ dịch một bước**."
           },
           {
-            "p": "Nếu bạn không chọn, việc tính toán sẽ dựa trên Seoul. Vì hầu hết các ca sinh là trong nước, điều này giảm khả năng sai sót, nhưng nếu bạn sinh ra ở nước ngoài, xin hãy chắc chắn chọn."
+            "p": "Nếu bạn không chọn, Seoul sẽ được dùng. Nếu chỉ một người sinh ở nước ngoài và cả hai đều để Seoul, thì chỉ trụ giờ của người sinh ở nước ngoài bị lệch; giá trị của người kia không bị ảnh hưởng, vì việc hiệu chỉnh được áp dụng theo từng người."
           }
         ]
       },
       {
-        "title": "Thời gian chuẩn đã thay đổi nhiều lần trong quá khứ",
+        "title": "Các thời đại khác nhau dùng giờ chuẩn khác nhau",
         "blocks": [
           {
-            "p": "Có lý do tại sao việc điều chỉnh không thể được tính toán đơn giản là 'sự khác biệt về kinh độ ÷ 15° × 60 phút'. Thời gian chuẩn bản thân đã thay đổi qua các thời kỳ khác nhau."
+            "p": "Hai người ở độ tuổi khác nhau đã sống dưới giờ chuẩn của những thời kỳ khác nhau. Vì vậy chỉ riêng chênh lệch kinh độ là chưa đủ."
           },
           {
-            "table": {
-              "caption": "Thay đổi trong giờ chuẩn của Hàn Quốc — những người sinh trong khoảng thời gian này sẽ có sự khác biệt với các phép tính đơn giản",
-              "head": [
-                "Thời kỳ",
-                "Điều gì đã khác"
-              ],
-              "rows": [
-                [
-                  "Trước năm 1912",
-                  "Không có giờ chuẩn (giờ trung bình địa phương)"
-                ],
-                [
-                  "1954 – 1961",
-                  "Giờ chuẩn là UTC+8:30"
-                ],
-                [
-                  "1948 – 51 · 1955 – 60 · 1987 – 88",
-                  "Thời gian tiết kiệm ánh sáng đã được thực hiện"
-                ]
-              ]
-            }
+            "ul": [
+              "**Trước năm 1912** — Hàn Quốc chưa có giờ chuẩn thống nhất (giờ trung bình địa phương).",
+              "**1954–1961** — giờ chuẩn là UTC+8:30.",
+              "**1948–51 · 1955–60 · 1987–88** — có áp dụng giờ mùa hè."
+            ]
           },
           {
-            "p": "Inyeon-Link không sử dụng giá trị cố định cho kinh tuyến chuẩn, mà tính toán giờ chuẩn thực tế đã được sử dụng vào thời điểm đó dựa trên thông tin **múi giờ IANA** của nơi sinh. Thời gian tiết kiệm ánh sáng và các giờ chuẩn trong quá khứ được phản ánh tự động."
+            "p": "Inyeon-Link không gán cứng một kinh tuyến chuẩn. Dịch vụ tra **múi giờ IANA** của nơi sinh để tìm giờ chuẩn thực sự được dùng vào thời điểm đó, nên thời đại của từng người được áp dụng ngay cả khi năm sinh khác nhau."
           }
         ]
       },
       {
-        "title": "Sinh ngay sau nửa đêm cũng cần xem xét ngày",
+        "title": "Ngay sau nửa đêm, thiên can của ngày thay đổi",
         "blocks": [
           {
-            "p": "Vì sự điều chỉnh là -32 phút, những người sinh từ 00:00 đến 00:32 theo đồng hồ sẽ là **23:00 của ngày hôm trước** theo giờ mặt trời thực. Nếu chỉ thời gian được đảo ngược và ngày không thay đổi, nó sẽ ghi cột ngày là '23:00 của ngày hôm trước'."
+            "p": "Mức hiệu chỉnh là −32 phút, nên người sinh trong khoảng 00:00 đến 00:32 theo đồng hồ thì sinh vào **giờ 23:00 của ngày hôm trước** theo giờ mặt trời thực. Ngày cũng được lùi theo."
           },
           {
-            "p": "Inyeon-Link cũng sẽ đảo ngược ngày trong trường hợp này. Cột ngày chỉ ra chính người đó trong saju, vì vậy nếu điều này không chính xác, hầu hết các mục tương thích sẽ không chính xác."
+            "p": "Trong xem tương hợp điều này rất quan trọng. Khi trụ ngày lùi một ngày, cả thiên can ngày và nhánh ngày đều đổi, nên quan hệ thiên can ngày, Sao Vợ và quan hệ nhánh ngày đều được tính lại với các ký tự khác, và sức mạnh ngũ hành cũng dịch chuyển theo."
           }
         ]
       },
       {
-        "title": "Bạn không cần biết thời gian",
+        "title": "Không sao nếu chỉ một người không biết giờ sinh",
         "blocks": [
           {
-            "p": "Thời gian sinh là tùy chọn. Nếu bạn không biết, phép tính sẽ được thực hiện mà không có cột thời gian, và điều này sẽ được hiển thị trên màn hình kết quả. Không có mục nào trong tương thích yêu cầu cột thời gian phải được ghi trực tiếp, nhưng nó có ảnh hưởng đến năm yếu tố, vì vậy nếu bạn biết, việc bao gồm nó sẽ chính xác hơn."
+            "p": "Giờ sinh là tùy chọn, và tương hợp vẫn được tính nếu chỉ một trong hai người không biết. Chỉ người không biết được tính mà không có trụ giờ, và màn hình kết quả sẽ nói rõ điều đó. Giá trị của người kia giữ nguyên."
           },
           {
-            "p": "Tương thích cung hoàng đạo luôn có giá trị giống nhau bất kể thời gian — [bởi vì nó chỉ xem xét nhánh năm](/guide/zodiac)."
+            "p": "Không mục nào trong bốn mục tương hợp dùng trực tiếp trụ giờ, nhưng nó ảnh hưởng đến sức mạnh ngũ hành, nên nhập vào sẽ chính xác hơn nếu bạn biết. Tương hợp con giáp cho cùng một giá trị dù có giờ hay không — [chỉ xét nhánh năm](/guide/zodiac)."
           }
         ]
       }
     ]
   },
   "guide/no-storage": {
-    "eyebrow": "Thông tin cá nhân",
-    "title": "Phương pháp không lưu trữ thông tin đã nhập",
-    "summary": "Điều này giải thích ý nghĩa kỹ thuật của việc ngày sinh của bạn không được ghi lại ở đâu và những gì được bao gồm trong liên kết kết quả.",
+    "eyebrow": "Quyền riêng tư",
+    "title": "Cách chúng tôi tránh lưu thông tin của hai người",
+    "summary": "Tương hợp yêu cầu bạn nhập cả ngày sinh của một người khác. Phần này giải thích, về mặt kỹ thuật, việc dữ liệu nhập của cả hai người không được ghi lại ở đâu cả có nghĩa là gì, và liên kết kết quả mang theo những gì.",
     "backLabel": "Cơ sở tính toán",
     "sections": [
       {
-        "title": "Không cần thành viên",
+        "title": "Bạn đang nhập thông tin của người khác",
         "blocks": [
           {
-            "p": "Inyeon-Link không tạo tài khoản. Nó không thu thập tên, email hoặc số điện thoại. Thông tin duy nhất được thu thập là ngày sinh và (tùy chọn) thời gian sinh, nơi sinh và giới tính, và ngay cả điều đó cũng không được giữ lại sau khi phép tính hoàn tất."
+            "p": "Màn hình tương hợp nhận cùng lúc ngày sinh của bạn và của người kia. Ngày sinh của người kia là thông tin cá nhân của họ, nên chúng tôi nêu riêng cách Inyeon-Link xử lý cả hai."
           },
           {
-            "p": "Có một trường để nhập tiêu đề hiển thị trên màn hình kết quả, nhưng điều đó là **chỉ để mục đích hiển thị** và không được sử dụng trong phép tính. Bạn không cần phải nhập tên thật của mình."
+            "p": "Không có tài khoản, và chúng tôi không hỏi tên, địa chỉ email hay số điện thoại. Chúng tôi chỉ nhận hai ngày sinh và, tùy chọn, giờ sinh, nơi sinh và giới tính, và không có gì trong đó còn lại sau khi phép tính kết thúc."
+          },
+          {
+            "p": "Có một ô để nhập tên hiển thị trên màn hình kết quả, nhưng nó chỉ để hiển thị và không được dùng trong phép tính. Bạn không cần nhập tên thật."
           }
         ]
       },
       {
-        "title": "Những gì được bao gồm trong liên kết kết quả?",
+        "title": "Một liên kết kết quả chứa cả hai ngày sinh",
         "blocks": [
           {
-            "p": "Khi phép tính hoàn tất, địa chỉ trông như thế này."
+            "p": "Khi phép tính xong, địa chỉ trông như thế này."
           },
           {
             "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
           },
           {
-            "p": "Những gì theo sau **#** là các giá trị đầu vào. Phần này được gọi là **mảnh**, là một **phần mà trình duyệt không gửi đến máy chủ**. Đây là hành vi web tiêu chuẩn và không phải là quy tắc mà chúng tôi tạo ra — nó được thiết kế ban đầu để chỉ ra một vị trí trong tài liệu, vì vậy máy chủ không cần phải thấy nó."
+            "p": "Phần sau dấu **#** chứa dữ liệu nhập của hai người. Nó được gọi là fragment, và theo hành vi chuẩn của web, **trình duyệt không gửi nó đến máy chủ**. Nó được thiết kế để trỏ đến một vị trí trong tài liệu, nên máy chủ không bao giờ thấy nó."
           },
           {
-            "p": "Nói cách khác, khi bạn mở liên kết kết quả, trình duyệt đọc giá trị đó để yêu cầu phép tính, và máy chủ của chúng tôi nhận được các giá trị cần thiết cho phép tính, trả về câu trả lời và sau đó quên đi."
+            "p": "Khi bạn mở một liên kết kết quả, trình duyệt đọc giá trị đó và yêu cầu một phép tính; máy chủ nhận các giá trị cần thiết, trả về đáp án và quên chúng đi."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Xin hãy cẩn thận khi gửi liên kết cho người khác",
+        "title": "Trước khi gửi liên kết cho người kia",
         "blocks": [
           {
-            "p": "Thực tế là nó không được lưu trữ trên máy chủ và liên kết là an toàn không phải là điều giống nhau. Liên kết kết quả chứa cả hai ngày sinh của bạn, vì vậy người nhận liên kết đó có thể thấy cùng một kết quả."
+            "p": "Không được lưu trên máy chủ không đồng nghĩa với việc liên kết là bí mật. Ai nhận được liên kết đều thấy nguyên vẹn cả hai ngày sinh, và một liên kết để lại trong phòng chat vẫn nằm trong phòng chat đó bất kể máy chủ của chúng tôi. Hãy gửi nó với ý thức rằng nó chứa thông tin của người kia."
           }
         ]
       },
       {
-        "title": "Tại sao phép tính được thực hiện trên máy chủ nhưng không được lưu trữ?",
+        "title": "Vì sao không còn gì lại dù phép tính chạy trên máy chủ",
         "blocks": [
           {
-            "p": "Phép tính tự nó được thực hiện trên máy chủ. Lịch âm dương Hàn Quốc là cần thiết để tạo ra saju, và bảng đó quá lớn để gửi xuống trình duyệt. Tuy nhiên, **sau khi xử lý yêu cầu, giá trị đó không được sử dụng ở đâu cả.** Không có mã nào để lưu trữ nó trong cơ sở dữ liệu."
+            "p": "Để dựng lá số saju chúng tôi cần một bảng lịch vạn niên, quá lớn để gửi xuống trình duyệt, nên phép tính chạy trên máy chủ. Nhưng **sau khi yêu cầu được xử lý xong, các giá trị không được dùng ở bất kỳ nơi nào khác.** Không có đoạn mã nào ghi chúng vào cơ sở dữ liệu."
           },
           {
-            "p": "Một bản ghi tối thiểu cần thiết cho hoạt động được giữ lại — một bộ đếm để ngăn chặn cùng một người gửi quá nhiều yêu cầu trong thời gian ngắn. Điều này không bao gồm ngày sinh, và địa chỉ IP truy cập cũng không được giữ lại. Chỉ một giá trị, được băm với ngày, được đếm, và giá trị đó thay đổi khi ngày thay đổi."
+            "p": "Bản ghi duy nhất còn lại là một bộ đếm ngăn một người gửi quá nhiều yêu cầu trong thời gian ngắn. Nó không chứa ngày sinh nào và không giữ nguyên địa chỉ IP; nó đếm một giá trị duy nhất, được băm cùng với ngày, và giá trị đó đổi khi sang ngày mới."
           }
         ]
       },
       {
-        "title": "Những điều không thể thực hiện vì thông tin không được lưu trữ",
+        "title": "Những gì chúng tôi từ bỏ khi không lưu",
         "blocks": [
           {
-            "p": "Thành thật mà nói, có những điều chúng tôi đã từ bỏ vì chúng tôi không lưu trữ thông tin."
+            "p": "Vì không lưu gì cả, chúng tôi đã từ bỏ một vài thứ."
           },
           {
             "ul": [
-              "**Bạn không thể lấy lại kết quả trước đó.** Bạn cần có liên kết để xem lại chúng.",
-              "**Các giá trị giống nhau sẽ được tính toán lại.** Không có bộ nhớ cache. Tuy nhiên, vì tất cả các quy tắc là xác định, [cùng một đầu vào sẽ luôn cho ra cùng một giá trị](/guide/how-compatibility).",
-              "**Làm mới sẽ mang lại cổng quảng cáo.** Điều này là do không có nơi nào để giữ lại các bản ghi xem."
+              "**Bạn không thể lấy lại kết quả tương hợp cũ.** Bạn cần giữ liên kết để xem lại.",
+              "**Cùng hai người được tính lại mỗi lần.** Không có bộ nhớ đệm. Nhưng mọi quy tắc đều xác định, nên [cùng một dữ liệu nhập luôn cho cùng một giá trị](/guide/how-compatibility).",
+              "**Tải lại trang sẽ đưa cổng quảng cáo trở lại.** Không có nơi nào để giữ bản ghi rằng bạn đã xem."
             ]
           }
         ]
       },
       {
-        "title": "Trong trường hợp mua hàng",
+        "title": "Nếu bạn mua báo cáo",
         "blocks": [
           {
-            "p": "Nếu bạn mua một báo cáo, một bản ghi giao dịch sẽ được giữ lại vào thời điểm đó. Luật pháp quy định thời gian lưu giữ cho các khoản thanh toán, và không có lịch sử đơn hàng, không thể xử lý hoàn tiền. Tuy nhiên, ngay cả trong trường hợp đó, **ngày sinh được sử dụng cho các phép tính tương thích không gắn liền với đơn hàng** — nó sẽ được thu thập lại khi tạo PDF sau khi xác nhận thanh toán."
+            "p": "Nếu bạn mua báo cáo, một bản ghi giao dịch được giữ lại vào lúc đó: hồ sơ thanh toán có thời hạn lưu giữ theo quy định pháp luật, và không có lịch sử đơn hàng thì không thể xử lý hoàn tiền. Ngay cả khi đó, **hai ngày sinh không được gắn vào đơn hàng**; chúng được hỏi lại khi tạo PDF sau khi xác nhận thanh toán, và chỉ được dùng vào đúng lúc đó."
           },
           {
-            "p": "Chi tiết được nêu trong [Chính sách Bảo mật](/privacy)."
+            "p": "Chi tiết có trong [chính sách quyền riêng tư](/privacy)."
           }
         ]
       }

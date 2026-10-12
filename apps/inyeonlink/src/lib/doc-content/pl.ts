@@ -226,23 +226,23 @@ export const PL_DOCS = {
     ]
   },
   "guide/branches": {
-    "eyebrow": "Tabela Relacji",
-    "title": "Dwanaście Gałęzi Ziemskich — Kombinacja, Zderzenie, Niezgoda",
-    "summary": "To jest tabela relacji używana zarówno do kompatybilności gałęzi dnia, jak i kompatybilności zodiakalnej. W pełni ujawnia, co oznacza każda kombinacja, zderzenie i niezgoda oraz ich odpowiednie wyniki.",
-    "backLabel": "Podstawa Obliczeń",
+    "eyebrow": "Tabela relacji",
+    "title": "Jak spotykają się zwierzęta zodiaku i gałęzie dnia — tabela dwunastu gałęzi",
+    "summary": "Tabela relacji używana, gdy zwierzęta zodiaku i gałęzie dnia dwóch osób zestawia się obok siebie. Pokazuje, które zwierzęta tworzą z którymi harmonię, zderzenie lub niezgodę, dla każdego z dwunastu, i ujawnia wynik każdej relacji.",
+    "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "Gałęzie ziemskie składają się z dwunastu znaków",
+        "title": "Zwierzęta zodiaku i gałęzie dnia korzystają z tej samej tabeli",
         "blocks": [
           {
-            "p": "Dwanaście gałęzi ziemskich (十二支) to 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. Powszechnie znane znaki zodiaku są związane z każdym z tych dwunastu znaków."
+            "p": "Inyeon-Link zestawia ziemskie gałęzie dwóch osób w dwóch miejscach: w **zgodności zodiakalnej**, która patrzy na gałąź roku urodzenia, oraz w **zgodności gałęzi dnia** (pałac małżonka), która patrzy na gałąź dnia urodzenia. Obie są oceniane za pomocą poniższej tabeli; różni je tylko to, jak dużą wagę każda z nich ma w wyniku końcowym."
           },
           {
             "figure": "branch-wheel",
-            "caption": "Ułożenie dwunastu znaków w okrąg zapewnia wyraźny widok relacji. Zderzenie zawsze siedzi bezpośrednio naprzeciwko, podczas gdy para sześciowej harmonii i cicha niezgoda są bliższymi sąsiadami. Te linie pochodzą bezpośrednio z zasad obliczeń, a nie są zapisane w tekście.",
+            "caption": "Ułożenie dwunastu znaków w okrąg sprawia, że relacje widać na pierwszy rzut oka. Zderzenie zawsze leży dokładnie naprzeciwko, a para w relacji sześciu harmonii i cicha niezgoda są bliższymi sąsiadami. Te linie nie są rysowane ręcznie; wynikają bezpośrednio z zasad obliczeń.",
             "labels": {
-              "alt": "Diagram pokazujący dwanaście gałęzi ziemskich ułożonych w okrąg z liniami łączącymi sześciową harmonię, zderzenie i niezgodę.",
-              "yukhap": "Sześciowa Harmonia",
+              "alt": "Diagram przedstawiający dwanaście ziemskich gałęzi ułożonych w okrąg, z liniami łączącymi pary sześciu harmonii, zderzenia i niezgody.",
+              "yukhap": "Sześć harmonii",
               "chung": "Zderzenie",
               "wonjin": "Niezgoda",
               "rat": "Szczur",
@@ -252,72 +252,115 @@ export const PL_DOCS = {
               "dragon": "Smok",
               "snake": "Wąż",
               "horse": "Koń",
-              "goat": "Koza",
+              "goat": "Owca",
               "monkey": "Małpa",
               "rooster": "Kogut",
               "dog": "Pies",
               "pig": "Świnia"
             }
-          },
-          {
-            "p": "W saju, każda z czterech filarów ma jedną ziemską gałąź. Inyeon-Link wykorzystuje **dzień gałęzi** (pałac małżonka) oraz **rok gałęzi** (zwierzę zodiakalne) spośród nich. Obie pozycje są oceniane za pomocą poniższej tabeli relacji."
           }
         ]
       },
       {
-        "title": "Cała tabela relacji",
+        "title": "Relacje każdego z dwunastu zwierząt zodiaku",
         "blocks": [
           {
+            "p": "Dla każdego zwierzęcia tabela wymienia, z którymi zwierzętami tworzy ono poszczególne relacje. Wymienione są tylko pary, które ta usługa uznaje za harmonie, więc zwierzę, którego nie ma w danym wierszu, nie ma z nim żadnej szczególnej relacji — jest **neutralne**."
+          },
+          {
             "table": {
-              "caption": "Uszeregowana według najwyższego wyniku. To są wartości faktycznie używane przez Inyeon-Link.",
+              "caption": "Cztery rodzaje relacji widziane z perspektywy jednego zwierzęcia",
               "head": [
-                "Relacja",
-                "Odpowiednia para",
-                "Znaczenie",
-                "Wynik"
+                "Twoje zwierzę",
+                "Para przyciągająca (sześć harmonii)",
+                "Połowa triady",
+                "Cicha niezgoda (niezgoda)",
+                "Czołowe zderzenie (zderzenie)"
               ],
               "rows": [
                 [
-                  "Kombinacja (三合)",
-                  "申子辰 · 巳酉丑 · 寅午戌 · 亥卯未",
-                  "Gdy wszystkie trzy znaki się zbierają, tworzą kompletną formację elementarną — **guk** (局). Uważa się to za najsilniejszą kombinację.",
-                  "{scoreSamhap}"
+                  "Szczur (子)",
+                  "Wół",
+                  "Małpa · Smok",
+                  "Owca",
+                  "Koń"
                 ],
                 [
-                  "Sześć-harmonii (六合)",
-                  "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
-                  "Pary, które przyciągają się nawzajem. To najczęstsza kombinacja w kompatybilności, ponieważ składa się tylko z dwóch znaków.",
-                  "{scoreYukhap}"
+                  "Wół (丑)",
+                  "Szczur",
+                  "Kogut",
+                  "Koń",
+                  "Owca"
                 ],
                 [
-                  "Połowa triady (半合)",
-                  "Dwa znaki, które zawierają królewską gałąź (王地) z triady (子·酉·午·卯)",
-                  "Połowa kombinacji, która zawiera znak w centrum formacji. Nie może utworzyć kompletnej kombinacji tylko z dwóch znaków, co czyni ją niższą niż pełna triada.",
-                  "{scoreBanhap}"
+                  "Tygrys (寅)",
+                  "Świnia",
+                  "Koń",
+                  "Kogut",
+                  "Małpa"
                 ],
                 [
-                  "Ta sama ziemska gałąź",
-                  "子子 · 丑丑 …",
-                  "Znaki, które są takie same. Oznacza to, że przypominają się nawzajem, ale nie implikuje to przyciągania, więc jest umieszczone w środku.",
-                  "{scoreSame}"
+                  "Królik (卯)",
+                  "Pies",
+                  "Świnia · Owca",
+                  "Małpa",
+                  "Kogut"
                 ],
                 [
-                  "Neutralny",
-                  "Pary, które nie należą do żadnej z powyższych lub poniższych kategorii",
-                  "Kombinacja bez specjalnej relacji. To jest punkt odniesienia.",
-                  "{scoreNeutral}"
+                  "Smok (辰)",
+                  "Kogut",
+                  "Szczur",
+                  "Świnia",
+                  "Pies"
                 ],
                 [
-                  "Cicha niezgoda (怨嗔)",
-                  "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
-                  "Pary, które nie mogą się rozdzielić pomimo żywienia urazy. Na powierzchni wydają się ciche, ale uważa się, że trwają długo.",
-                  "{scoreWonjin}"
+                  "Wąż (巳)",
+                  "Małpa",
+                  "Kogut",
+                  "Pies",
+                  "Świnia"
                 ],
                 [
-                  "Zderzenie (沖)",
-                  "子午 · 丑未 · 寅申 · 卯酉 · 辰戌 · 巳亥",
-                  "Pary, które zderzają się bezpośrednio. To sześć par napotykających się nawzajem.",
-                  "{scoreChung}"
+                  "Koń (午)",
+                  "Owca",
+                  "Tygrys · Pies",
+                  "Wół",
+                  "Szczur"
+                ],
+                [
+                  "Owca (未)",
+                  "Koń",
+                  "Królik",
+                  "Szczur",
+                  "Wół"
+                ],
+                [
+                  "Małpa (申)",
+                  "Wąż",
+                  "Szczur",
+                  "Królik",
+                  "Tygrys"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Smok",
+                  "Wąż · Wół",
+                  "Tygrys",
+                  "Królik"
+                ],
+                [
+                  "Pies (戌)",
+                  "Królik",
+                  "Koń",
+                  "Wąż",
+                  "Smok"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Tygrys",
+                  "Królik",
+                  "Smok",
+                  "Wąż"
                 ]
               ]
             }
@@ -325,41 +368,90 @@ export const PL_DOCS = {
         ]
       },
       {
-        "title": "Pełne triady nie pojawiają się w tej usłudze",
+        "title": "Gdy dwie osoby spotykają się w tabeli",
         "blocks": [
           {
-            "p": "Pełna triada wymaga trzech znaków do utworzenia. Jednak kompatybilność jest zbudowana poprzez dopasowanie ziemskich gałęzi dwóch osób **jeden po drugim**, co skutkuje tylko dwoma znakami. Dlatego to, co pojawia się tutaj, to zawsze pół triada, a punkty pełnej triady {scoreSamhap} są zarezerwowane na badanie formacji w każdym saju."
+            "p": "Czytanie tabeli polega na znalezieniu dwóch zwierząt w jednym wierszu. Oto kilka par jako przykłady."
+          },
+          {
+            "ul": [
+              "**Szczur i Wół** — sześć harmonii. Potrzeba do niej tylko dwóch znaków, więc jest to harmonia, która w zgodności pojawia się najczęściej, i to dobra.",
+              "**Szczur i Smok** — połowa triady: dwa z trzech znaków 申子辰, w tym środkowy (子).",
+              "**Szczur i Tygrys** — nie ma ich w tabeli, więc relacja neutralna: ani harmonia, ani zderzenie, tylko punkt wyjścia.",
+              "**Szczur i Owca** — niezgoda. Na powierzchni wygląda spokojnie, ale uważa się, że rozbieżność trwa długo.",
+              "**Tygrys i Małpa** — zderzenie. Leżą dokładnie naprzeciwko siebie i uchodzą za zderzające się czołowo."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ile punktów dostaje każda relacja",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Od najwyższej. To wartości, których Inyeon-Link faktycznie używa.",
+              "head": [
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ],
+                [
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Zderzenie",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Ta sama gałąź (dwie osoby urodzone w znaku tego samego zwierzęcia) oznacza podobieństwo, a nie przyciąganie, dlatego plasuje się tuż nad neutralną. Niezależnie od tego, czy chodzi o zgodność zodiakalną, czy gałęzi dnia, wartość z tej tabeli trafia bezpośrednio do wyniku końcowego."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Pół triady musi zawierać królewską gałąź",
+        "title": "Dlaczego pełnych triad nie ma w tabeli",
         "blocks": [
           {
-            "p": "Istnieje również metoda, która liczy się jako pół triada, jeśli oba znaki należą do tej samej grupy triady. Może to prowadzić do wysokich wyników nawet dla kombinacji, które trudno nazwać triadą, takich jak 申辰. Dlatego ta usługa uznaje pół triadę tylko dla par, które zawierają królewską gałąź (王地) (子·酉·午·卯), a kombinacje takie jak 申辰·巳丑·寅戌·亥未 bez królewskiej gałęzi nie są liczone jako triady."
+            "p": "Pełna triada (申子辰, 巳酉丑, 寅午戌, 亥卯未) wymaga wszystkich trzech znaków. Zestawienie dwóch osób daje tylko dwa, więc pełna triada nie może wystąpić w zgodności i pojawiają się wyłącznie połowy triad. Wynik pełnej triady równy {scoreSamhap} jest zachowany na przypadek, gdy trzy znaki zbiegają się w jednej własnej tabeli osoby."
           }
         ]
       },
       {
-        "title": "Powód oddzielania cichej niezgody",
+        "title": "申辰, 巳丑, 寅戌 i 亥未 nie są liczone jako harmonie",
         "blocks": [
           {
-            "p": "Sześć par cichej niezgody jest postrzeganych tak samo często w kompatybilności jak zderzenia. Jeśli liczymy kombinacje jako pary i zderzenia, te sześć par byłoby wszystkie pogrzebane pod neutralnymi punktami {scoreNeutral}, więc są umieszczone osobno."
-          },
-          {
-            "p": "Podczas gdy zderzenia są jawne i uderzające, cicha niezgoda jest subtelnie źle dopasowana. Dlatego jest umieszczona na poziomie {scoreWonjin}, który jest wyższy niż zderzenia ({scoreChung}), ale zdecydowanie niższy niż neutralny ({scoreNeutral})."
+            "p": "Niektóre metody liczą jako połowę triady dowolne dwa znaki z tej samej grupy triady. Inyeon-Link tego nie robi: jak pokazuje powyższa kolumna połowy triady, akceptuje tylko pary zawierające **gałąź królewską** w środku grupy (子, 午, 卯, 酉). Para bez niej nie ma centrum, wokół którego mogłaby się zebrać formacja, więc jest traktowana jako neutralna."
           }
         ]
       },
       {
-        "title": "Wyniki są również przypisane do zderzeń",
+        "title": "Niezgoda i zderzenie nie leżą na dnie",
         "blocks": [
           {
-            "p": "Najniższy wynik zderzenia to {scoreChung}. Intencją nie jest przypisanie wartości bliskiej 0. W tradycji zderzenie nie jest 'końcem', lecz 'kolizją', a przypisanie niskiego wyniku sugerowałoby, że usługa wydaje ostateczne oświadczenie na temat relacji."
+            "p": "Gdyby liczono tylko harmonie i zderzenia, wszystkie sześć par niezgody zostałoby pogrzebanych w neutralności. Dlatego niezgoda ma własne miejsce: wyżej niż czołowe zderzenie i niżej niż neutralność, na poziomie {scoreWonjin} punktów."
           },
           {
-            "p": "Z minimum {scoreChung} i maksimum {scoreSamhap}, zakres jest jasny, ale nie prowadzi do ostatecznego wniosku."
+            "p": "Nawet zderzenie zachowuje {scoreChung} punktów. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji. Wartość bliska zeru oznaczałaby, że usługa wydaje wyrok o dwóch osobach, dlatego zakres jest na tyle szeroki, by pokazywać różnicę, nie wydając wyroku."
           }
         ]
       }
@@ -872,179 +964,166 @@ export const PL_DOCS = {
   },
   "guide/true-solar-time": {
     "eyebrow": "Czas",
-    "title": "Przekształć czas urodzenia na prawdziwy czas słoneczny",
-    "summary": "Czas standardowy i rzeczywista pozycja słońca różnią się. Czas musi być skorygowany na podstawie długości geograficznej miejsca urodzenia, aby wyjaśnić, dlaczego filar czasowy jest dokładny.",
+    "title": "Czas urodzenia każdej osoby jest korygowany osobno",
+    "summary": "Zgodność oblicza czas obu osób oddzielnie. Wyjaśniamy, jak działa korekta, gdy ich miejsca i epoki urodzenia się różnią, oraz co się zmienia, gdy tylko jedna z nich nie zna swojej godziny.",
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "Czas na zegarze i czas słońca są różne",
+        "title": "Zegar i słońce się rozjeżdżają",
         "blocks": [
           {
-            "p": "Filar czasowy (時柱) saju jest określany przez pozycję słońca. Jednak zegar, który widzimy, używa jednego standardowego czasu dla całego kraju, co powoduje rozbieżność z rzeczywistą pozycją słońca."
+            "p": "W saju godzinę urodzenia odczytuje się z położenia słońca, a nie z zegara. Ale cały kraj stosuje jeden czas standardowy, więc zegar i słońce w danym miejscu się rozchodzą."
           },
           {
-            "p": "Standardowy czas Korei oparty jest na długości geograficznej 135° wschodniej. Ponieważ długość geograficzna Seulu wynosi około 127°, jest to około 8° na zachód, co powoduje, że słońce osiąga zenit później — gdy jest południe według zegara, słońce w Seulu jeszcze nie osiągnęło zenitu. Ta różnica wynosi około **32 minut**."
+            "p": "Koreański czas standardowy opiera się na 135°E, a Seul leży na ok. 127°E. Słońce w Seulu osiąga najwyższy punkt później, niż wskazuje zegar, o około **32 minuty**."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "32 minuty zmieniają filar czasowy o jeden slot",
+        "title": "32 minuty mogą przesunąć filar godziny o jeden krok",
         "blocks": [
           {
-            "p": "Czas w saju jest podzielony na jednostki dwugodzinne. Osoby urodzone blisko granicy będą miały swój filar czasowy całkowicie zmieniony przez różnicę 32 minut — ta korekta jest konieczna dla tych, którzy znajdują się dokładnie na tej granicy."
+            "p": "Osoba urodzona w Seulu o 11:40 według zegara urodziła się o 11:08 według prawdziwego czasu słonecznego, co nadal mieści się w godzinie Konia (午, 11:00–13:00). Urodzona o 11:20 według zegara, urodziła się o 10:48, co wypada w godzinie Węża (巳, 9:00–11:00). Korekta istnieje dla osób stojących dokładnie na takiej granicy."
           }
         ]
       },
       {
-        "title": "Dlaczego pytamy o miejsce urodzenia",
+        "title": "Korekta jest stosowana do każdej osoby osobno",
         "blocks": [
           {
-            "p": "Jeśli długość geograficzna jest inna, kwota korekty również będzie różna. Zastosowanie korekty opartej na Seulu dla kogoś urodzonego za granicą spowoduje znaczną rozbieżność w filarze czasowym. Dlatego ekran wejściowy wymaga wybrania miejsca urodzenia, a obliczenia są oparte na długości geograficznej i czasie standardowym tego miasta. Obecnie w liście znajduje się {cityCount} miejsc."
+            "p": "Zgodność buduje tabelę każdej osoby oddzielnie. Dlatego ekran wprowadzania pyta o miejsce urodzenia **dla każdej osoby**. Jeśli jedna osoba urodziła się w Seulu, a druga za granicą, ich czasy są korygowane osobno, z różnymi długościami geograficznymi i strefami czasowymi."
           },
           {
-            "p": "W miejscach, gdzie długość geograficzna znacznie się różni nawet w obrębie tego samego kraju (takich jak USA, Rosja, Indonezja itp.), miasta zostały podzielone. **15° długości geograficznej równa się jednemu slotowi filaru czasowego**."
+            "p": "Lista miast liczy obecnie {cityCount} miejsc. W krajach o bardzo zróżnicowanej długości geograficznej miasta są rozdzielone, ponieważ **15° długości geograficznej przesuwa filar godziny o jeden krok**."
           },
           {
-            "p": "Jeśli nie wybierzesz, obliczenia będą oparte na Seulu. Ponieważ większość urodzeń ma miejsce w kraju, zmniejsza to szansę na błąd, ale jeśli urodziłeś się za granicą, upewnij się, że wybierzesz."
+            "p": "Jeśli nic nie wybierzesz, używany jest Seul. Jeśli tylko jedna osoba urodziła się za granicą, a obie zostały na Seulu, przesunięty jest tylko filar godziny osoby urodzonej za granicą; wartości drugiej osoby nie są dotknięte, ponieważ korekta jest stosowana osoba po osobie."
           }
         ]
       },
       {
-        "title": "Czas standardowy zmieniał się wielokrotnie w przeszłości",
+        "title": "Różne epoki używały różnych czasów standardowych",
         "blocks": [
           {
-            "p": "Istnieje powód, dla którego korekta nie może być obliczana po prostu jako 'różnica długości geograficznej ÷ 15° × 60 minut'. Sam czas standardowy zmieniał się w różnych epokach."
+            "p": "Dwie osoby w różnym wieku żyły według czasu standardowego różnych okresów. Dlatego sama różnica długości geograficznej nie wystarcza."
           },
           {
-            "table": {
-              "caption": "Zmiany w standardowym czasie Korei — osoby urodzone w tym okresie będą miały rozbieżności w prostych obliczeniach",
-              "head": [
-                "Okres",
-                "Co było inne"
-              ],
-              "rows": [
-                [
-                  "Przed 1912",
-                  "Nie było standardowego czasu (czas lokalny)"
-                ],
-                [
-                  "1954 – 1961",
-                  "Standardowy czas wynosił UTC+8:30"
-                ],
-                [
-                  "1948 – 51 · 1955 – 60 · 1987 – 88",
-                  "Wprowadzono czas letni"
-                ]
-              ]
-            }
+            "ul": [
+              "**Przed 1912** — Korea nie miała jednolitego czasu standardowego (lokalny czas średni).",
+              "**1954–1961** — czas standardowy wynosił UTC+8:30.",
+              "**1948–51 · 1955–60 · 1987–88** — obowiązywał czas letni."
+            ]
           },
           {
-            "p": "Inyeon-Link nie używa stałej wartości dla południka standardowego, lecz oblicza standardowy czas, który był rzeczywiście używany w danym czasie na podstawie informacji o **strefie czasowej IANA** miejsca urodzenia. Czas letni i przeszłe standardowe czasy są automatycznie uwzględniane."
+            "p": "Inyeon-Link nie zakodowuje na stałe południka standardowego. Sprawdza **strefę czasową IANA** miejsca urodzenia, aby poznać czas standardowy faktycznie obowiązujący w tamtym momencie, dzięki czemu epoka każdej osoby jest uwzględniona, nawet gdy lata urodzenia się różnią."
           }
         ]
       },
       {
-        "title": "Urodzenia tuż po północy również uwzględniają datę",
+        "title": "Tuż po północy zmienia się pień dnia",
         "blocks": [
           {
-            "p": "Ponieważ korekta wynosi -32 minuty, osoby urodzone między 00:00 a 00:32 według zegara będą miały **23:00 dnia poprzedniego** w czasie słonecznym. Jeśli tylko czas zostanie cofnięty, a data pozostanie niezmieniona, zapisze się filar dnia jako '23:00 dnia poprzedniego'."
+            "p": "Korekta wynosi −32 minuty, więc osoba urodzona między 00:00 a 00:32 według zegara urodziła się według prawdziwego czasu słonecznego w **godzinie 23:00 poprzedniego dnia**. Data jest cofana razem z nią."
           },
           {
-            "p": "Inyeon-Link również w tym przypadku cofnie datę. Filar dnia wskazuje na osobę samą w sobie w saju, więc jeśli to jest niepoprawne, prawie wszystkie elementy kompatybilności będą niepoprawne."
+            "p": "W zgodności ma to ogromne znaczenie. Gdy filar dnia cofa się o dzień, zmieniają się zarówno pień dnia, jak i gałąź dnia, więc relacja pni dnia, Gwiazda Małżonka i relacja gałęzi dnia są przeliczane z innymi znakami, a razem z nimi zmienia się siła pięciu elementów."
           }
         ]
       },
       {
-        "title": "Nie musisz znać czasu",
+        "title": "Nic się nie stanie, jeśli tylko jedna osoba nie zna godziny",
         "blocks": [
           {
-            "p": "Czas urodzenia jest opcjonalny. Jeśli go nie znasz, obliczenia zostaną przeprowadzone bez filaru czasu, a ten fakt zostanie wyświetlony na ekranie wyników. Nie ma elementów w kompatybilności, które wymagają bezpośredniego wpisania filaru czasu, ale wpływa on na pięć elementów, więc jeśli go znasz, lepiej go uwzględnić."
+            "p": "Godzina urodzenia jest opcjonalna, a zgodność jest nadal obliczana, nawet jeśli tylko jedna z dwóch osób jej nie zna. Bez filaru godziny liczona jest tylko osoba, która jej nie zna, a ekran wyników o tym informuje. Wartości drugiej osoby pozostają bez zmian."
           },
           {
-            "p": "Kompatybilność zodiakalna zawsze ma tę samą wartość, niezależnie od czasu — [ponieważ patrzy tylko na filar roku](/guide/zodiac)."
+            "p": "Żadna z czterech pozycji zgodności nie używa filaru godziny bezpośrednio, ale wpływa on na siłę pięciu elementów, więc dokładniej jest go podać, jeśli się go zna. Zgodność zodiakalna daje tę samą wartość z godziną lub bez niej — [patrzy tylko na gałąź roku](/guide/zodiac)."
           }
         ]
       }
     ]
   },
   "guide/no-storage": {
-    "eyebrow": "Informacje osobiste",
-    "title": "Metoda nieprzechowywania wprowadzonych informacji",
-    "summary": "Wyjaśnia to, co technicznie oznacza, że twoja data urodzenia nie jest nigdzie rejestrowana i co jest zawarte w linku wynikowym.",
+    "eyebrow": "Prywatność",
+    "title": "Jak unikamy przechowywania danych dwóch osób",
+    "summary": "Zgodność prosi o podanie także daty urodzenia drugiej osoby. Wyjaśniamy technicznie, co znaczy, że dane żadnej z osób nie są nigdzie zapisywane, i co niesie ze sobą link do wyniku.",
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "Nie wymagana jest rejestracja",
+        "title": "Wpisujesz cudze dane",
         "blocks": [
           {
-            "p": "Inyeon-Link nie tworzy kont. Nie zbiera imion, adresów e-mail ani numerów telefonów. Jedyną zbieraną informacją jest data urodzenia oraz (opcjonalnie) czas urodzenia, miejsce urodzenia i płeć, a nawet to nie pozostaje po zakończeniu obliczeń."
+            "p": "Ekran zgodności przyjmuje razem Twoją datę urodzenia i datę urodzenia drugiej osoby. Data urodzenia drugiej osoby to jej dane osobowe, dlatego osobno opisujemy, jak Inyeon-Link postępuje z obiema."
           },
           {
-            "p": "Istnieje pole do wprowadzenia tytułu, który ma być wyświetlany na ekranie wyników, ale jest to **tylko do celów wyświetlania** i nie jest używane w obliczeniach. Nie musisz wpisywać swojego prawdziwego imienia."
+            "p": "Nie ma konta i nie prosimy o imię, adres e-mail ani numer telefonu. Otrzymujemy tylko dwie daty urodzenia oraz opcjonalnie godzinę urodzenia, miejsce urodzenia i płeć, a po zakończeniu obliczeń nic z tego nie pozostaje."
+          },
+          {
+            "p": "Jest pole na nazwę wyświetlaną na ekranie wyników, ale służy ona wyłącznie do wyświetlania i nie jest używana w obliczeniach. Nie musisz wpisywać prawdziwego imienia."
           }
         ]
       },
       {
-        "title": "Co jest zawarte w linku wynikowym?",
+        "title": "Link do wyniku zawiera obie daty urodzenia",
         "blocks": [
           {
-            "p": "Po zakończeniu obliczeń adres wygląda tak."
+            "p": "Gdy obliczenia są gotowe, adres wygląda tak."
           },
           {
             "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
           },
           {
-            "p": "To, co następuje po **#**, to wartości wejściowe. Ta część nazywana jest **fragmentem**, który jest **sekcją, której przeglądarka nie wysyła do serwera**. To standardowe zachowanie w sieci, a nie zasada, którą stworzyliśmy — pierwotnie zaprojektowano to, aby wskazać lokalizację w dokumencie, więc serwer nie ma potrzeby jej widzieć."
+            "p": "Część po znaku **#** zawiera dane obu osób. Nazywa się ją fragmentem i zgodnie ze standardowym działaniem sieci **przeglądarka nie wysyła jej do serwera**. Został zaprojektowany do wskazywania miejsca w dokumencie, więc serwer nigdy go nie widzi."
           },
           {
-            "p": "Innymi słowy, gdy otwierasz link wynikowy, przeglądarka odczytuje tę wartość, aby zażądać obliczeń, a nasz serwer otrzymuje wartości potrzebne do obliczeń, zwraca odpowiedź, a następnie o niej zapomina."
+            "p": "Gdy otwierasz link do wyniku, przeglądarka odczytuje tę wartość i prosi o obliczenie; serwer otrzymuje potrzebne mu wartości, zwraca odpowiedź i je zapomina."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Proszę być ostrożnym przy wysyłaniu linków do innych",
+        "title": "Zanim wyślesz link drugiej osobie",
         "blocks": [
           {
-            "p": "Fakt, że nie jest przechowywane na serwerze i że link jest bezpieczny, nie są tym samym. Link wynikowy zawiera obie twoje daty urodzenia, więc osoba otrzymująca ten link może zobaczyć ten sam wynik."
+            "p": "Brak przechowywania na serwerze nie oznacza, że link jest tajny. Każdy, kto go dostanie, zobaczy obie daty urodzenia w takiej postaci, w jakiej są, a link zostawiony w czacie pozostaje w tym czacie niezależnie od naszego serwera. Prosimy wysyłać go, pamiętając, że zawiera dane drugiej osoby."
           }
         ]
       },
       {
-        "title": "Dlaczego obliczenia są wykonywane na serwerze, ale nie są przechowywane?",
+        "title": "Dlaczego nic nie zostaje, choć obliczenia wykonuje serwer",
         "blocks": [
           {
-            "p": "Obliczenia same w sobie są wykonywane na serwerze. Koreński kalendarz lunarny jest potrzebny do wygenerowania saju, a ta tabela jest zbyt duża, aby mogła być przesyłana do przeglądarki. Jednak **po przetworzeniu żądania ta wartość nie jest używana nigdzie.** Nie ma kodu do przechowywania jej w bazie danych."
+            "p": "Do ustawienia tabeli saju potrzebna jest tablica kalendarzowa, która jest zbyt duża, by wysyłać ją do przeglądarki, więc obliczenia wykonuje serwer. Ale **po obsłużeniu żądania wartości nie są nigdzie więcej używane.** Nie ma kodu, który zapisywałby je do bazy danych."
           },
           {
-            "p": "Zachowywana jest minimalna dokumentacja niezbędna do działania — licznik, aby zapobiec wysyłaniu zbyt wielu żądań przez tę samą osobę w krótkim czasie. To nie obejmuje daty urodzenia, a adres IP dostępu również nie jest przechowywany. Tylko jedna wartość, haszowana z datą, jest liczona, a ta wartość zmienia się, gdy zmienia się dzień."
+            "p": "Jedyny pozostający zapis to licznik, który powstrzymuje jedną osobę przed wysłaniem zbyt wielu żądań w krótkim czasie. Nie zawiera daty urodzenia i nie przechowuje adresu IP w postaci pierwotnej; zlicza jedną wartość, zahaszowaną razem z datą, a ta wartość zmienia się wraz ze zmianą dnia."
           }
         ]
       },
       {
-        "title": "Rzeczy, których nie można zrobić, ponieważ informacje nie są przechowywane",
+        "title": "Z czego rezygnujemy, nie przechowując danych",
         "blocks": [
           {
-            "p": "Szczerze mówiąc, są rzeczy, z których zrezygnowaliśmy, ponieważ nie przechowujemy informacji."
+            "p": "Ponieważ nic nie jest przechowywane, z kilku rzeczy musieliśmy zrezygnować."
           },
           {
             "ul": [
-              "**Nie możesz odzyskać przeszłych wyników.** Musisz mieć link, aby je ponownie zobaczyć.",
-              "**Te same wartości będą przeliczane.** Nie ma pamięci podręcznej. Jednak ponieważ wszystkie zasady są deterministyczne, [te same dane wejściowe zawsze dadzą tę samą wartość](/guide/how-compatibility).",
-              "**Odświeżenie przywróci bramkę reklamową.** Dzieje się tak, ponieważ nie ma miejsca na przechowywanie rekordów przeglądania."
+              "**Nie można odzyskać wcześniejszego wyniku zgodności.** Aby zobaczyć go ponownie, trzeba zachować link.",
+              "**Te same dwie osoby są przeliczane za każdym razem.** Nie ma pamięci podręcznej. Ale każda zasada jest deterministyczna, więc [te same dane zawsze dają tę samą wartość](/guide/how-compatibility).",
+              "**Odświeżenie przywraca bramkę reklamową.** Nie ma gdzie zapisać, że ją obejrzano."
             ]
           }
         ]
       },
       {
-        "title": "W przypadku zakupu",
+        "title": "Jeśli kupujesz raport",
         "blocks": [
           {
-            "p": "Jeśli zakupisz raport, w tym czasie zostanie zachowany zapis transakcji. Prawo określa okres przechowywania płatności, a bez historii zamówienia nie można przetworzyć zwrotów. Jednak nawet wtedy **data urodzenia używana do obliczeń kompatybilności nie jest przypisana do zamówienia** — jest zbierana ponownie podczas tworzenia PDF po potwierdzeniu płatności."
+            "p": "Jeśli kupujesz raport, w tym momencie zapisywany jest rekord transakcji: zapisy płatności mają ustawowy okres przechowywania, a bez historii zamówień nie można zrealizować zwrotu. Nawet wtedy **dwie daty urodzenia nie są dołączone do zamówienia**; podaje się je ponownie przy tworzeniu pliku PDF po potwierdzeniu płatności i używa tylko w tym momencie."
           },
           {
-            "p": "Szczegóły są opisane w [Polityce Prywatności](/privacy)."
+            "p": "Szczegóły znajdują się w [polityce prywatności](/privacy)."
           }
         ]
       }

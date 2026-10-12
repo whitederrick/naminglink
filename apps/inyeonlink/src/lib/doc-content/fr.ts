@@ -226,27 +226,27 @@ export const FR_DOCS = {
     ]
   },
   "guide/branches": {
-    "eyebrow": "Tableau des Relations",
-    "title": "Douze Branches Terrestres — Combinaison, Choc, Discorde",
-    "summary": "Ceci est un tableau de relations utilisé à la fois pour la compatibilité des branches du jour et la compatibilité zodiacale. Il divulgue pleinement ce que chaque combinaison, choc et discordance signifie et leurs scores respectifs.",
-    "backLabel": "Base de Calcul",
+    "eyebrow": "Tableau des relations",
+    "title": "Comment les animaux du zodiaque et les branches du jour se rencontrent — Le tableau des douze branches",
+    "summary": "Le tableau des relations utilisé lorsque les animaux du zodiaque et les branches du jour de deux personnes sont placés côte à côte. Il indique, pour chacun des douze, avec quels animaux il forme une harmonie, un choc ou une discorde, et dévoile le score de chaque relation.",
+    "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "Les branches terrestres se composent de douze caractères",
+        "title": "Les animaux du zodiaque et les branches du jour utilisent le même tableau",
         "blocks": [
           {
-            "p": "Les douze branches terrestres (十二支) sont 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. Les signes zodiacaux communément connus sont associés à chacun de ces douze caractères."
+            "p": "Inyeon-Link place côte à côte les branches terrestres de deux personnes à deux endroits : la **compatibilité zodiacale**, qui regarde la branche de l'année de naissance, et la **compatibilité de la branche du jour** (le palais du conjoint), qui regarde la branche du jour de naissance. Les deux sont jugées avec le tableau ci-dessous ; la seule différence est le poids que chacune porte dans le score final."
           },
           {
             "figure": "branch-wheel",
-            "caption": "Disposer les douze caractères en cercle offre une vue claire des relations. Un choc est toujours directement opposé, tandis qu'une paire de six-harmonies et une discordance silencieuse sont des voisins plus proches. Ces lignes sont dérivées directement des règles de calcul, pas écrites dans le texte.",
+            "caption": "Disposer les douze caractères en cercle rend les relations lisibles d'un coup d'œil. Un choc se trouve toujours directement en face, tandis qu'une paire de six-harmonies et une discorde silencieuse sont des voisins plus proches. Ces lignes ne sont pas tracées à la main ; elles sont dessinées directement à partir des règles de calcul.",
             "labels": {
-              "alt": "Un diagramme montrant les douze branches terrestres disposées en cercle avec des lignes reliant six-harmonies, choc et discord.",
+              "alt": "Un diagramme montrant les douze branches terrestres disposées en cercle, avec des lignes reliant les paires de six-harmonies, de choc et de discorde.",
               "yukhap": "Six-Harmonies",
               "chung": "Choc",
               "wonjin": "Discorde",
               "rat": "Rat",
-              "ox": "Boeuf",
+              "ox": "Bœuf",
               "tiger": "Tigre",
               "rabbit": "Lapin",
               "dragon": "Dragon",
@@ -258,66 +258,109 @@ export const FR_DOCS = {
               "dog": "Chien",
               "pig": "Cochon"
             }
-          },
-          {
-            "p": "Dans le saju, chacun des quatre piliers a une branche terrestre. Inyeon-Link utilise la **branche du jour** (le palais du conjoint) et la **branche de l'année** (l'animal du zodiaque) parmi elles. Les deux positions sont évaluées à l'aide du tableau de relations ci-dessous."
           }
         ]
       },
       {
-        "title": "Tableau de relations complet",
+        "title": "Les relations de chacun des douze animaux du zodiaque",
         "blocks": [
           {
+            "p": "Pour chaque animal, le tableau indique avec quels animaux il forme chaque relation. Seules les paires que ce service reconnaît comme des harmonies sont listées ; un animal qui n'apparaît pas dans une ligne n'a aucune relation particulière avec elle — il est **neutre**."
+          },
+          {
             "table": {
-              "caption": "Classé par score le plus élevé. Ce sont les valeurs effectivement utilisées par Inyeon-Link.",
+              "caption": "Quatre types de relation vus depuis un animal",
               "head": [
-                "Relation",
-                "Paire correspondante",
-                "Signification",
-                "Score"
+                "Votre animal",
+                "Paire qui s'attire (six-harmonies)",
+                "Triade partielle",
+                "Désaccord silencieux (discorde)",
+                "Collision frontale (choc)"
               ],
               "rows": [
                 [
-                  "Combinaison (三合)",
-                  "申子辰 · 巳酉丑 · 寅午戌 · 亥卯未",
-                  "Lorsque les trois caractères se rassemblent, ils forment une formation élémentaire complète — un **guk** (局). C'est considéré comme la combinaison la plus forte.",
-                  "{scoreSamhap}"
+                  "Rat (子)",
+                  "Bœuf",
+                  "Singe · Dragon",
+                  "Chèvre",
+                  "Cheval"
                 ],
                 [
-                  "Six-Harmonies (六合)",
-                  "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
-                  "Paires qui s'attirent. C'est la combinaison la plus courante en matière de compatibilité car elle ne consiste qu'en deux caractères.",
-                  "{scoreYukhap}"
+                  "Bœuf (丑)",
+                  "Rat",
+                  "Coq",
+                  "Cheval",
+                  "Chèvre"
                 ],
                 [
-                  "Triade partielle (半合)",
-                  "Deux caractères qui incluent une branche royale (王地) de la triade (子·酉·午·卯)",
-                  "Une demi-combinaison qui inclut le caractère au centre de la formation. Elle ne peut pas former une combinaison complète avec seulement deux caractères, ce qui la rend inférieure à une triade complète.",
-                  "{scoreBanhap}"
+                  "Tigre (寅)",
+                  "Cochon",
+                  "Cheval",
+                  "Coq",
+                  "Singe"
                 ],
                 [
-                  "Même branche terrestre",
-                  "子子 · 丑丑 …",
-                  "Caractères qui sont les mêmes. Cela signifie qu'ils se ressemblent, mais cela n'implique pas d'attraction, donc ils sont placés au milieu.",
-                  "{scoreSame}"
+                  "Lapin (卯)",
+                  "Chien",
+                  "Cochon · Chèvre",
+                  "Singe",
+                  "Coq"
                 ],
                 [
-                  "Neutre",
-                  "Paires qui n'appartiennent nulle part au-dessus ou en dessous",
-                  "Une combinaison sans relation spéciale. C'est le point de référence.",
-                  "{scoreNeutral}"
+                  "Dragon (辰)",
+                  "Coq",
+                  "Rat",
+                  "Cochon",
+                  "Chien"
                 ],
                 [
-                  "Discorde silencieuse (怨嗔)",
-                  "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
-                  "Paires qui ne peuvent pas se séparer malgré le ressentiment. Elles semblent calmes en surface mais sont considérées comme durables.",
-                  "{scoreWonjin}"
+                  "Serpent (巳)",
+                  "Singe",
+                  "Coq",
+                  "Chien",
+                  "Cochon"
                 ],
                 [
-                  "Conflit (沖)",
-                  "子午 · 丑未 · 寅申 · 卯酉 · 辰戌 · 巳亥",
-                  "Paires qui s'affrontent directement. Ce sont six paires se faisant face.",
-                  "{scoreChung}"
+                  "Cheval (午)",
+                  "Chèvre",
+                  "Tigre · Chien",
+                  "Bœuf",
+                  "Rat"
+                ],
+                [
+                  "Chèvre (未)",
+                  "Cheval",
+                  "Lapin",
+                  "Rat",
+                  "Bœuf"
+                ],
+                [
+                  "Singe (申)",
+                  "Serpent",
+                  "Rat",
+                  "Lapin",
+                  "Tigre"
+                ],
+                [
+                  "Coq (酉)",
+                  "Dragon",
+                  "Serpent · Bœuf",
+                  "Tigre",
+                  "Lapin"
+                ],
+                [
+                  "Chien (戌)",
+                  "Lapin",
+                  "Cheval",
+                  "Serpent",
+                  "Dragon"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Tigre",
+                  "Lapin",
+                  "Dragon",
+                  "Serpent"
                 ]
               ]
             }
@@ -325,41 +368,90 @@ export const FR_DOCS = {
         ]
       },
       {
-        "title": "Les triades complètes n'apparaissent pas dans ce service",
+        "title": "Quand deux personnes se rencontrent dans le tableau",
         "blocks": [
           {
-            "p": "Une triade complète nécessite trois caractères pour se former. Cependant, la compatibilité est structurée en faisant correspondre les branches terrestres de deux personnes **une par une**, ce qui ne donne que deux caractères. Par conséquent, ce qui apparaît ici est toujours une triade partielle, et les points de triade complète {scoreSamhap} sont réservés pour l'examen des formations au sein de chaque saju."
+            "p": "Lire le tableau, c'est trouver les deux animaux sur une même ligne. Voici quelques paires en exemple."
+          },
+          {
+            "ul": [
+              "**Rat et Bœuf** — une relation de six-harmonies. Elle ne demande que deux caractères ; c'est donc l'harmonie qui apparaît le plus souvent en compatibilité, et une bonne.",
+              "**Rat et Dragon** — une triade partielle : deux des trois caractères 申子辰, dont celui du milieu (子).",
+              "**Rat et Tigre** — absent du tableau, donc neutre : ni harmonie ni choc, simplement la base de référence.",
+              "**Rat et Chèvre** — une discorde. Elle paraît calme en surface, mais on estime que le décalage perdure.",
+              "**Tigre et Singe** — un choc. Ils se font directement face et sont considérés comme entrant en collision frontale."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Combien de points rapporte chaque relation",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Du plus élevé au plus bas. Ce sont les valeurs qu'Inyeon-Link utilise réellement.",
+              "head": [
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Même branche",
+                  "{scoreSame}"
+                ],
+                [
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Discorde",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Choc",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "La même branche (deux personnes du même animal) signifie ressemblance, non attirance ; elle se situe donc juste au-dessus du neutre. Qu'il s'agisse de la compatibilité zodiacale ou de celle de la branche du jour, la valeur de ce tableau entre directement dans le score final."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Les triades partielles doivent inclure une branche royale",
+        "title": "Pourquoi les triades complètes ne figurent pas dans le tableau",
         "blocks": [
           {
-            "p": "Il existe également une méthode qui compte comme une triade partielle si les deux caractères appartiennent au même groupe de triade. Cela peut conduire à des scores élevés même pour des combinaisons difficiles à appeler une triade, comme 申辰. Par conséquent, ce service reconnaît une triade partielle uniquement pour les paires qui incluent une branche royale (王地) (子·酉·午·卯), et des combinaisons comme 申辰·巳丑·寅戌·亥未 sans branche royale ne sont pas comptées comme des triades."
+            "p": "Une triade complète (申子辰, 巳酉丑, 寅午戌, 亥卯未) exige les trois caractères. En plaçant deux personnes côte à côte, on n'en obtient que deux ; une triade complète ne peut donc pas se produire en compatibilité et seules des triades partielles apparaissent. Le score de {scoreSamhap} de la triade complète est conservé pour le cas où trois caractères se rejoignent dans le thème d'une seule personne."
           }
         ]
       },
       {
-        "title": "La raison de séparer la discorde silencieuse",
+        "title": "申辰, 巳丑, 寅戌 et 亥未 ne comptent pas comme harmonies",
         "blocks": [
           {
-            "p": "Les six paires de discorde silencieuse sont vues aussi fréquemment en compatibilité que les conflits. Si nous comptons les combinaisons comme des paires et des conflits, ces six paires seraient toutes enterrées sous des points neutres {scoreNeutral}, donc elles sont placées séparément."
-          },
-          {
-            "p": "Alors que les conflits sont ouverts et frappants, la discorde silencieuse est subtilement désalignée. Par conséquent, elle est placée à un score de {scoreWonjin}, qui est plus élevé que les conflits ({scoreChung}) mais définitivement inférieur au neutre ({scoreNeutral})."
+            "p": "Certaines méthodes comptent deux caractères quelconques d'un même groupe de triade comme une triade partielle. Inyeon-Link ne le fait pas : comme le montre la colonne des triades partielles ci-dessus, il n'accepte que les paires qui incluent la **branche royale** au centre du groupe (子, 午, 卯, 酉). Une paire qui en est dépourvue n'a pas de centre autour duquel la formation puisse se rassembler ; elle est donc traitée comme neutre."
           }
         ]
       },
       {
-        "title": "Des scores sont également attribués aux conflits",
+        "title": "La discorde et le choc ne sont pas au plancher",
         "blocks": [
           {
-            "p": "Le score de conflit le plus bas est {scoreChung}. L'intention n'est pas d'attribuer une valeur proche de 0. Dans la tradition, un conflit n'est pas une 'fin' mais une 'collision', et attribuer un score bas impliquerait que le service fait une déclaration définitive sur la relation."
+            "p": "Si l'on ne comptait que les harmonies et les chocs, les six paires de discorde seraient noyées dans le neutre. La discorde a donc sa propre place : plus haut que le choc frontal et plus bas que le neutre, à {scoreWonjin} points."
           },
           {
-            "p": "Avec un minimum de {scoreChung} et un maximum de {scoreSamhap}, la plage est claire, mais cela ne fait pas de conclusion définitive."
+            "p": "Même un choc garde {scoreChung} points. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation. Une valeur proche de zéro amènerait le service à prononcer un verdict sur deux personnes ; l'écart est donc maintenu assez large pour montrer la différence sans rendre de verdict."
           }
         ]
       }
@@ -871,180 +963,167 @@ export const FR_DOCS = {
     ]
   },
   "guide/true-solar-time": {
-    "eyebrow": "Temps",
-    "title": "Convertir l'heure de naissance en temps solaire vrai",
-    "summary": "L'heure standard et la position réelle du soleil diffèrent. L'heure doit être corrigée en fonction de la longitude du lieu de naissance pour expliquer pourquoi le pilier horaire est précis.",
+    "eyebrow": "Heure",
+    "title": "L'heure de naissance de chaque personne est corrigée séparément",
+    "summary": "La compatibilité calcule séparément les heures des deux personnes. Cette page explique comment la correction s'applique lorsque les lieux de naissance et les époques diffèrent, et ce qui change lorsqu'une seule des deux ne connaît pas son heure.",
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "L'heure sur l'horloge et l'heure du soleil sont différentes",
+        "title": "L'horloge et le soleil ne s'accordent pas",
         "blocks": [
           {
-            "p": "Le pilier horaire (時柱) du saju est déterminé par la position du soleil. Cependant, l'horloge que nous voyons utilise une heure standard unique pour tout le pays, ce qui entraîne un écart avec la position réelle du soleil."
+            "p": "Dans le saju, l'heure de naissance se lit à partir de la position du soleil, non de l'horloge. Mais un pays entier garde une seule heure standard ; l'horloge et le soleil d'un lieu donné s'écartent donc l'un de l'autre."
           },
           {
-            "p": "L'heure standard de la Corée est basée sur 135° de longitude est. Étant donné que la longitude de Séoul est d'environ 127°, elle est donc environ 8° à l'ouest, ce qui fait que le soleil atteint son zénith plus tard — quand il est midi sur l'horloge, le soleil à Séoul n'a pas encore atteint son zénith. Cette différence est d'environ **32 minutes**."
+            "p": "L'heure standard de la Corée est fondée sur 135° E, alors que Séoul se trouve à environ 127° E. Le soleil de Séoul atteint son point le plus haut plus tard que ne l'indique l'horloge, d'environ **32 minutes**."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "32 minutes changent le pilier horaire d'un créneau",
+        "title": "32 minutes peuvent déplacer le pilier de l'heure d'un cran",
         "blocks": [
           {
-            "p": "Le temps dans le saju est divisé en unités de deux heures. Ceux nés près de la frontière verront leur pilier horaire complètement changé par une différence de 32 minutes — cette correction est nécessaire pour ceux qui se trouvent exactement sur cette frontière."
+            "p": "Une personne née à Séoul à 11:40 à l'horloge est née à 11:08 en heure solaire réelle, ce qui reste dans l'heure du Cheval (午, 11:00–13:00). Née à 11:20 à l'horloge, elle est née à 10:48, ce qui tombe dans l'heure du Serpent (巳, 9:00–11:00). La correction existe pour les personnes qui se trouvent précisément sur une telle frontière."
           }
         ]
       },
       {
-        "title": "Pourquoi nous demandons le lieu de naissance",
+        "title": "La correction est appliquée à chaque personne séparément",
         "blocks": [
           {
-            "p": "Si la longitude est différente, le montant de la correction variera également. Appliquer la correction basée sur Séoul à quelqu'un né à l'étranger entraînera un écart significatif dans le pilier horaire. Par conséquent, l'écran de saisie vous demande de sélectionner votre lieu de naissance, et le calcul est basé sur la longitude et l'heure standard de cette ville. Actuellement, il y a {cityCount} lieux dans la liste."
+            "p": "La compatibilité établit le thème de chaque personne pour elle-même. C'est pourquoi l'écran de saisie demande le lieu de naissance **pour chaque personne**. Si l'une est née à Séoul et l'autre à l'étranger, leurs heures sont corrigées séparément, avec des longitudes et des fuseaux horaires différents."
           },
           {
-            "p": "Dans les endroits où la longitude varie considérablement même au sein du même pays (comme les États-Unis, la Russie, l'Indonésie, etc.), les villes ont été divisées. **15° de longitude équivaut à un créneau horaire.**"
+            "p": "La liste de villes compte actuellement {cityCount} lieux. Pour les pays dont la longitude varie beaucoup, les villes sont subdivisées, car **15° de longitude déplacent le pilier de l'heure d'un cran**."
           },
           {
-            "p": "Si vous ne sélectionnez pas, le calcul sera basé sur Séoul. Étant donné que la plupart des naissances sont domestiques, cela réduit la chance d'erreur, mais si vous êtes né à l'étranger, veuillez vous assurer de sélectionner."
+            "p": "Si vous ne choisissez pas, Séoul est utilisée. Si une seule personne est née à l'étranger et que les deux restent sur Séoul, seul le pilier de l'heure de la personne née à l'étranger est décalé ; les valeurs de l'autre personne ne sont pas affectées, car la correction s'applique personne par personne."
           }
         ]
       },
       {
-        "title": "L'heure standard a changé plusieurs fois dans le passé",
+        "title": "Les époques ont utilisé des heures standard différentes",
         "blocks": [
           {
-            "p": "Il y a une raison pour laquelle la correction ne peut pas être calculée simplement comme 'différence de longitude ÷ 15° × 60 minutes'. L'heure standard elle-même a varié au cours des différentes époques."
+            "p": "Deux personnes d'âges différents ont vécu sous l'heure standard de périodes différentes. C'est pourquoi une différence de longitude ne suffit pas à elle seule."
           },
           {
-            "table": {
-              "caption": "Changements dans l'heure standard de la Corée — ceux nés durant cette période auront des écarts avec des calculs simples",
-              "head": [
-                "Période",
-                "Ce qui était différent"
-              ],
-              "rows": [
-                [
-                  "Avant 1912",
-                  "Il n'y avait pas d'heure standard (heure moyenne locale)"
-                ],
-                [
-                  "1954 – 1961",
-                  "L'heure standard était UTC+8:30"
-                ],
-                [
-                  "1948 – 51 · 1955 – 60 · 1987 – 88",
-                  "L'heure d'été a été mise en œuvre"
-                ]
-              ]
-            }
+            "ul": [
+              "**Avant 1912** — la Corée n'avait pas d'heure standard unifiée (heure moyenne locale).",
+              "**1954–1961** — l'heure standard était UTC+8:30.",
+              "**1948–51 · 1955–60 · 1987–88** — l'heure d'été était en vigueur."
+            ]
           },
           {
-            "p": "Inyeon-Link n'utilise pas de valeur fixe pour le méridien standard, mais calcule l'heure standard qui était réellement utilisée à ce moment-là en fonction des informations de **zone horaire IANA** du lieu de naissance. L'heure d'été et les heures standards passées sont automatiquement prises en compte."
+            "p": "Inyeon-Link n'inscrit pas de méridien standard en dur. Il consulte le **fuseau horaire IANA** du lieu de naissance pour trouver l'heure standard réellement en vigueur à ce moment-là ; l'époque propre à chaque personne est ainsi appliquée même lorsque leurs années de naissance diffèrent."
           }
         ]
       },
       {
-        "title": "Les naissances juste après minuit prennent également en compte la date",
+        "title": "Juste après minuit, la tige du jour change",
         "blocks": [
           {
-            "p": "Puisque la correction est de -32 minutes, ceux nés entre 00:00 et 00:32 à l'horloge seront **23:00 du jour précédent** en heure solaire réelle. Si seule l'heure est inversée et que la date reste inchangée, cela écrira la branche du jour comme '23:00 du jour précédent'."
+            "p": "La correction est de −32 minutes ; une personne née entre 00:00 et 00:32 à l'horloge est donc née dans l'**heure de 23:00 du jour précédent** en heure solaire réelle. La date est reculée en conséquence."
           },
           {
-            "p": "Inyeon-Link inversera également la date dans ce cas. La branche du jour indique la personne elle-même dans le saju, donc si cela est incorrect, presque tous les éléments de compatibilité seront incorrects."
+            "p": "En compatibilité, cela compte beaucoup. Lorsque le pilier du jour recule d'un jour, la tige du jour et la branche du jour changent toutes deux ; la relation des tiges du jour, l'Étoile du Conjoint et la relation des branches du jour sont donc toutes recalculées avec d'autres caractères, et les forces des cinq éléments se déplacent avec elles."
           }
         ]
       },
       {
-        "title": "Vous n'avez pas besoin de connaître l'heure",
+        "title": "Ce n'est pas un problème si une seule personne ignore son heure",
         "blocks": [
           {
-            "p": "L'heure de naissance est optionnelle. Si vous ne la connaissez pas, le calcul sera effectué sans la branche du temps, et ce fait sera affiché sur l'écran des résultats. Il n'y a pas d'éléments dans la compatibilité qui nécessitent que la branche du temps soit écrite directement, mais cela influence les cinq éléments, donc si vous le savez, il est plus précis de l'inclure."
+            "p": "L'heure de naissance est facultative, et la compatibilité est quand même calculée si une seule des deux ne connaît pas la sienne. Seule la personne qui l'ignore est calculée sans pilier de l'heure, et l'écran de résultat l'indique. Les valeurs de l'autre personne restent inchangées."
           },
           {
-            "p": "La compatibilité zodiacale est toujours la même valeur, quelle que soit l'heure — [car elle ne regarde que la branche de l'année](/guide/zodiac)."
+            "p": "Aucun des quatre éléments de compatibilité n'utilise directement le pilier de l'heure, mais il influence les forces des cinq éléments ; il est donc plus précis de le saisir si vous le connaissez. La compatibilité zodiacale donne la même valeur avec ou sans heure — [elle ne regarde que la branche de l'année](/guide/zodiac)."
           }
         ]
       }
     ]
   },
   "guide/no-storage": {
-    "eyebrow": "Informations personnelles",
-    "title": "Méthode de non stockage des informations saisies",
-    "summary": "Cela explique ce que cela signifie techniquement que votre date de naissance n'est enregistrée nulle part et ce qui est inclus dans le lien de résultat.",
+    "eyebrow": "Confidentialité",
+    "title": "Comment nous évitons de conserver les informations de deux personnes",
+    "summary": "La compatibilité vous demande aussi de saisir la date de naissance d'une autre personne. Cette page explique, sur le plan technique, ce que signifie le fait que les saisies d'aucune des deux personnes ne soient enregistrées nulle part, et ce que transporte un lien de résultat.",
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "Aucun abonnement requis",
+        "title": "Vous saisissez les informations d'une autre personne",
         "blocks": [
           {
-            "p": "Inyeon-Link ne crée pas de comptes. Il ne collecte pas de noms, d'emails ou de numéros de téléphone. La seule information collectée est la date de naissance et (optionnellement) l'heure de naissance, le lieu de naissance et le sexe, et même cela ne reste pas après que le calcul est terminé."
+            "p": "L'écran de compatibilité reçoit ensemble votre date de naissance et celle de l'autre personne. La date de naissance de l'autre personne est une information personnelle qui lui appartient ; nous exposons donc séparément la manière dont Inyeon-Link traite les deux."
           },
           {
-            "p": "Il y a un champ pour entrer un titre à afficher sur l'écran des résultats, mais cela est **uniquement à des fins d'affichage** et n'est pas utilisé dans le calcul. Vous n'avez pas besoin d'entrer votre vrai nom."
+            "p": "Il n'y a pas de compte, et nous ne demandons ni nom, ni adresse e-mail, ni numéro de téléphone. Nous ne recevons que les deux dates de naissance et, facultativement, l'heure de naissance, le lieu de naissance et le genre, et rien de tout cela ne subsiste une fois le calcul terminé."
+          },
+          {
+            "p": "Il existe un champ pour un nom d'affichage à montrer sur l'écran de résultat, mais il ne sert qu'à l'affichage et n'intervient pas dans le calcul. Vous n'avez pas besoin de saisir un vrai nom."
           }
         ]
       },
       {
-        "title": "Qu'est-ce qui est inclus dans le lien de résultat ?",
+        "title": "Un lien de résultat contient les deux dates de naissance",
         "blocks": [
           {
-            "p": "Une fois le calcul terminé, l'adresse ressemble à ceci."
+            "p": "Lorsque le calcul est terminé, l'adresse ressemble à ceci."
           },
           {
             "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
           },
           {
-            "p": "Ce qui suit **#** ce sont les valeurs d'entrée. Cette partie est appelée un **fragment**, qui est une **section que le navigateur n'envoie pas au serveur**. C'est un comportement web standard et non une règle que nous avons créée — il a été à l'origine conçu pour indiquer un emplacement dans un document, donc le serveur n'a pas besoin de le voir."
+            "p": "La partie après le **#** contient les saisies des deux personnes. On l'appelle le fragment, et selon le comportement standard du web, **le navigateur ne l'envoie pas au serveur**. Il a été conçu pour désigner une position à l'intérieur d'un document ; le serveur ne le voit donc jamais."
           },
           {
-            "p": "En d'autres termes, lorsque vous ouvrez le lien de résultat, le navigateur lit cette valeur pour demander le calcul, et notre serveur reçoit les valeurs nécessaires pour le calcul, renvoie la réponse, puis l'oublie."
+            "p": "Lorsque vous ouvrez un lien de résultat, le navigateur lit cette valeur et demande un calcul ; le serveur reçoit les valeurs dont il a besoin, renvoie la réponse et les oublie."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Veuillez faire attention lorsque vous envoyez des liens à d'autres",
+        "title": "Avant d'envoyer le lien à l'autre personne",
         "blocks": [
           {
-            "p": "Le fait qu'il ne soit pas stocké sur le serveur et que le lien soit sûr ne sont pas la même chose. Le lien de résultat contient vos deux dates de naissance, donc la personne recevant ce lien peut voir le même résultat."
+            "p": "Ne pas être conservé sur un serveur ne veut pas dire que le lien est secret. Quiconque reçoit le lien peut voir les deux dates de naissance telles quelles, et un lien laissé dans une conversation reste dans cette conversation, quel que soit notre serveur. Envoyez-le en vous rappelant qu'il contient les informations de l'autre personne."
           }
         ]
       },
       {
-        "title": "Pourquoi le calcul est-il effectué sur le serveur mais pas stocké ?",
+        "title": "Pourquoi rien ne subsiste alors que le calcul s'exécute sur un serveur",
         "blocks": [
           {
-            "p": "Le calcul lui-même est effectué sur le serveur. L'almanach lunisolaire coréen est nécessaire pour générer le saju, et cette table est trop grande pour être envoyée au navigateur. Cependant, **après le traitement de la demande, cette valeur n'est utilisée nulle part.** Il n'y a pas de code pour la stocker dans une base de données."
+            "p": "Pour établir un thème de saju, il nous faut une table d'almanach, trop volumineuse pour être envoyée au navigateur ; le calcul s'exécute donc sur le serveur. Mais **une fois la requête traitée, les valeurs ne sont utilisées nulle part ailleurs.** Aucun code ne les écrit dans une base de données."
           },
           {
-            "p": "Un enregistrement minimal nécessaire au fonctionnement est conservé — un compteur pour empêcher la même personne d'envoyer trop de demandes en peu de temps. Cela n'inclut pas la date de naissance, et l'IP d'accès n'est pas conservée non plus. Une seule valeur, hachée avec la date, est comptée, et cette valeur change lorsque le jour change."
+            "p": "Le seul enregistrement qui subsiste est un compteur qui empêche une même personne d'envoyer trop de requêtes en peu de temps. Il ne contient aucune date de naissance et ne conserve pas l'adresse IP telle quelle ; il compte une valeur unique, hachée avec la date, et cette valeur change lorsque le jour change."
           }
         ]
       },
       {
-        "title": "Choses qui ne peuvent pas être faites parce que les informations ne sont pas stockées",
+        "title": "Ce à quoi nous renonçons en ne conservant rien",
         "blocks": [
           {
-            "p": "Pour être honnête, il y a des choses auxquelles nous avons renoncé parce que nous ne stockons pas d'informations."
+            "p": "Comme rien n'est conservé, nous avons renoncé à certaines choses."
           },
           {
             "ul": [
-              "**Vous ne pouvez pas récupérer les résultats passés.** Vous devez avoir le lien pour les revoir.",
-              "**Les mêmes valeurs seront recalculées.** Il n'y a pas de cache. Cependant, puisque toutes les règles sont déterministes, [les mêmes entrées donneront toujours la même valeur](/guide/how-compatibility).",
-              "**Actualiser ramènera la porte de publicité.** Cela est dû au fait qu'il n'y a pas d'endroit pour conserver les enregistrements de visualisation."
+              "**Vous ne pouvez pas retrouver un ancien résultat de compatibilité.** Vous devez garder le lien pour le revoir.",
+              "**Les deux mêmes personnes sont recalculées à chaque fois.** Il n'y a pas de cache. Mais toutes les règles sont déterministes, donc [la même saisie donne toujours la même valeur](/guide/how-compatibility).",
+              "**Actualiser ramène la barrière publicitaire.** Il n'y a aucun endroit où garder la trace de l'avoir déjà regardée."
             ]
           }
         ]
       },
       {
-        "title": "En cas d'achat",
+        "title": "Si vous achetez un rapport",
         "blocks": [
           {
-            "p": "Si vous achetez un rapport, un enregistrement de transaction sera conservé à ce moment-là. La loi spécifie une période de conservation pour les paiements, et sans historique de commande, les remboursements ne peuvent pas être traités. Cependant, même alors, **la date de naissance utilisée pour les calculs de compatibilité n'est pas attachée à la commande** — elle est collectée à nouveau lors de la création du PDF après la confirmation du paiement."
+            "p": "Si vous achetez un rapport, un enregistrement de transaction est conservé à ce moment-là : les justificatifs de paiement ont une durée de conservation exigée par la loi, et sans historique de commande aucun remboursement ne peut être traité. Même alors, **les deux dates de naissance ne sont pas jointes à la commande** ; elles sont redemandées lors de la création du PDF après la confirmation du paiement, et utilisées uniquement à ce moment-là."
           },
           {
-            "p": "Les détails sont décrits dans la [Politique de confidentialité](/privacy)."
+            "p": "Les détails figurent dans la [politique de confidentialité](/privacy)."
           }
         ]
       }

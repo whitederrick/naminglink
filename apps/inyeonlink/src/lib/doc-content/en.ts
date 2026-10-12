@@ -230,146 +230,6 @@ export const EN_DOCS = {
       }
     ]
   },
-  "guide/branches": {
-    "eyebrow": "Relationship Table",
-    "title": "Twelve Earthly Branches — Combination, Clash, Discord",
-    "summary": "This is a relationship table used for both day branch compatibility and zodiac compatibility. It fully discloses what each combination, clash, and discord means and their respective scores.",
-    "backLabel": "Calculation Basis",
-    "sections": [
-      {
-        "title": "The earthly branches consist of twelve characters",
-        "blocks": [
-          {
-            "p": "The twelve earthly branches (十二支) are 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. The commonly known zodiac signs are associated with each of these twelve characters."
-          },
-          {
-            "figure": "branch-wheel",
-            "caption": "Arranging the twelve characters in a circle provides a clear view of the relationships. A clash always sits directly opposite, while a six-harmony pair and a quiet discord are nearer neighbours. These lines are derived directly from the calculation rules, not written in the text.",
-            "labels": {
-              "alt": "A diagram showing the twelve earthly branches arranged in a circle with lines connecting six-harmony, clash, and discord.",
-              "yukhap": "Six-Harmony",
-              "chung": "Clash",
-              "wonjin": "Discord",
-              "rat": "Rat",
-              "ox": "Ox",
-              "tiger": "Tiger",
-              "rabbit": "Rabbit",
-              "dragon": "Dragon",
-              "snake": "Snake",
-              "horse": "Horse",
-              "goat": "Goat",
-              "monkey": "Monkey",
-              "rooster": "Rooster",
-              "dog": "Dog",
-              "pig": "Pig"
-            }
-          },
-          {
-            "p": "In saju, each of the four pillars has one earthly branch. Inyeon-Link uses the **day branch** (the spouse palace) and the **year branch** (the zodiac animal) among them. Both positions are assessed using the relationship table below."
-          }
-        ]
-      },
-      {
-        "title": "Entire Relationship Table",
-        "blocks": [
-          {
-            "table": {
-              "caption": "Ordered by highest score. These are the values actually used by Inyeon-Link.",
-              "head": [
-                "Relationship",
-                "Corresponding Pair",
-                "Meaning",
-                "Score"
-              ],
-              "rows": [
-                [
-                  "Combination (三合)",
-                  "申子辰 · 巳酉丑 · 寅午戌 · 亥卯未",
-                  "When all three characters gather, they form a complete elemental formation — a **guk** (局). This is considered the strongest combination.",
-                  "{scoreSamhap}"
-                ],
-                [
-                  "Six-Harmony (六合)",
-                  "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
-                  "Pairs that attract each other. This is the most common combination in compatibility as it consists of only two characters.",
-                  "{scoreYukhap}"
-                ],
-                [
-                  "Half triad (半合)",
-                  "Two characters that include a royal branch (王地) from the triad (子·酉·午·卯)",
-                  "A half combination that includes the character at the center of the formation. It cannot form a complete combination with just two characters, making it lower than a full triad.",
-                  "{scoreBanhap}"
-                ],
-                [
-                  "Same earthly branch",
-                  "子子 · 丑丑 …",
-                  "Characters that are the same. This means they resemble each other, but it does not imply attraction, so it is placed in the middle.",
-                  "{scoreSame}"
-                ],
-                [
-                  "Neutral",
-                  "Pairs that do not belong anywhere above or below",
-                  "A combination with no special relationship. This is the reference point.",
-                  "{scoreNeutral}"
-                ],
-                [
-                  "Quiet discord (怨嗔)",
-                  "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
-                  "Pairs that cannot separate despite harboring resentment. They appear quiet on the surface but are considered to last long.",
-                  "{scoreWonjin}"
-                ],
-                [
-                  "Clash (沖)",
-                  "子午 · 丑未 · 寅申 · 卯酉 · 辰戌 · 巳亥",
-                  "Pairs that clash head-on. These are six pairs facing each other.",
-                  "{scoreChung}"
-                ]
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "title": "Full triads do not appear in this service",
-        "blocks": [
-          {
-            "p": "A full triad requires three characters to form. However, compatibility is structured by matching the earthly branches of two people **one by one**, resulting in only two characters. Therefore, what appears here is always a half triad, and the full triad {scoreSamhap} points are reserved for when examining the formations within each saju."
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "Half triads must include a royal branch",
-        "blocks": [
-          {
-            "p": "There is also a method that counts as a half triad if both characters belong to the same triad group. This can lead to high scores even for combinations that are difficult to call a triad, such as 申辰. Therefore, this service recognizes a half triad only for pairs that include a royal branch (王地) (子·酉·午·卯), and combinations like 申辰·巳丑·寅戌·亥未 without a royal branch are not counted as triads."
-          }
-        ]
-      },
-      {
-        "title": "The reason for separating quiet discord",
-        "blocks": [
-          {
-            "p": "The six pairs of quiet discord are seen as frequently in compatibility as clashes. If we count combinations as pairs and clashes, these six pairs would all be buried under neutral {scoreNeutral} points, so they are placed separately."
-          },
-          {
-            "p": "While clashes are overt and striking, quiet discord is subtly misaligned. Therefore, it is placed at a score of {scoreWonjin}, which is higher than clashes ({scoreChung}) but definitely lower than neutral ({scoreNeutral})."
-          }
-        ]
-      },
-      {
-        "title": "Scores are also assigned to clashes",
-        "blocks": [
-          {
-            "p": "The lowest clash score is {scoreChung}. The intention is not to assign a value close to 0. In the tradition a clash is not an 'end' but a 'collision', and assigning a low score would imply the service is making a definitive statement about the relationship."
-          },
-          {
-            "p": "With a minimum of {scoreChung} and a maximum of {scoreSamhap}, the range is clear, but it does not make a definitive conclusion."
-          }
-        ]
-      }
-    ]
-  },
   "guide/zodiac": {
     "eyebrow": "Zodiac",
     "title": "Why does zodiac compatibility consider the year branch?",
@@ -875,186 +735,6 @@ export const EN_DOCS = {
       }
     ]
   },
-  "guide/true-solar-time": {
-    "eyebrow": "Time",
-    "title": "Convert birth time to true solar time",
-    "summary": "Standard time and the actual position of the sun differ. The time must be corrected based on the longitude of the birthplace to address why the time pillar is accurate.",
-    "backLabel": "Calculation basis",
-    "sections": [
-      {
-        "title": "The time on the clock and the time of the sun are different",
-        "blocks": [
-          {
-            "p": "The time pillar (時柱) of the saju is determined by the position of the sun. However, the clock we see uses a single standard time for the entire country, which causes a discrepancy with the actual position of the sun."
-          },
-          {
-            "p": "Korea's standard time is based on 135° east longitude. Since Seoul's longitude is about 127°, it is approximately 8° west, causing the sun to reach its zenith later — when it is noon by the clock, the sun in Seoul has not yet reached its zenith. This difference is about **32 minutes**."
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "32 minutes changes the time pillar by one slot",
-        "blocks": [
-          {
-            "p": "The time in saju is divided into two-hour units. Those born near the boundary will have their time pillar completely changed by a 32-minute difference — this correction is necessary due to those who fall exactly on this boundary."
-          }
-        ]
-      },
-      {
-        "title": "Why we ask for the birthplace",
-        "blocks": [
-          {
-            "p": "If the longitude is different, the correction amount will also differ. Applying the Seoul-based correction to someone born overseas will result in a significant discrepancy in the time pillar. Therefore, the input screen requires you to select your birthplace, and the calculation is based on the longitude and standard time of that city. Currently, there are {cityCount} places in the list."
-          },
-          {
-            "p": "In places where the longitude varies greatly even within the same country (such as the USA, Russia, Indonesia, etc.), the cities have been divided. **15° of longitude equals one time pillar slot**."
-          },
-          {
-            "p": "If you do not select, the calculation will be based on Seoul. Since most births are domestic, this reduces the chance of error, but if you were born overseas, please be sure to select."
-          }
-        ]
-      },
-      {
-        "title": "Standard time has changed several times in the past",
-        "blocks": [
-          {
-            "p": "There is a reason why the correction cannot be calculated simply as 'longitude difference ÷ 15° × 60 minutes'. The standard time itself has varied over different eras."
-          },
-          {
-            "table": {
-              "caption": "Changes in Korea's standard time — those born in this period will have discrepancies with simple calculations",
-              "head": [
-                "Period",
-                "What was different"
-              ],
-              "rows": [
-                [
-                  "Before 1912",
-                  "There was no standard time (local mean time)"
-                ],
-                [
-                  "1954 – 1961",
-                  "The standard time was UTC+8:30"
-                ],
-                [
-                  "1948 – 51 · 1955 – 60 · 1987 – 88",
-                  "Daylight saving time was implemented"
-                ]
-              ]
-            }
-          },
-          {
-            "p": "Inyeon-Link does not use a fixed value for the standard meridian, but calculates the standard time that was actually used at that time based on the **IANA time zone** information of the birthplace. Daylight saving time and past standard times are automatically reflected."
-          }
-        ]
-      },
-      {
-        "title": "Births just after midnight also consider the date",
-        "blocks": [
-          {
-            "p": "Since the correction is -32 minutes, those born between 00:00 and 00:32 by the clock will be **23:00 of the previous day** in true solar time. If only the time is reverted and the date is left unchanged, it will write the day pillar as '23:00 of the previous day'."
-          },
-          {
-            "p": "Inyeon-Link will also revert the date in this case. The day pillar indicates the person themselves in saju, so if this is incorrect, almost all compatibility items will be incorrect."
-          }
-        ]
-      },
-      {
-        "title": "You do not need to know the time",
-        "blocks": [
-          {
-            "p": "The birth time is optional. If you do not know it, the calculation will be done without the time pillar, and this fact will be displayed on the results screen. There are no items in compatibility that require the time pillar to be written directly, but it does influence the five elements, so if you know it, it is more accurate to include it."
-          },
-          {
-            "p": "Zodiac compatibility is always the same value regardless of the time — [because it only looks at the year branch](/guide/zodiac)."
-          }
-        ]
-      }
-    ]
-  },
-  "guide/no-storage": {
-    "eyebrow": "Personal Information",
-    "title": "Method of not storing entered information",
-    "summary": "This explains what it technically means that your birth date is not recorded anywhere and what is included in the result link.",
-    "backLabel": "Calculation Basis",
-    "sections": [
-      {
-        "title": "No membership required",
-        "blocks": [
-          {
-            "p": "Inyeon-Link does not create accounts. It does not collect names, emails, or phone numbers. The only information collected is the birth date and (optionally) the time of birth, place of birth, and gender, and even that does not remain after the calculation is complete."
-          },
-          {
-            "p": "There is a field to enter a title to display on the results screen, but that is **only for display purposes** and is not used in the calculation. You do not need to enter your real name."
-          }
-        ]
-      },
-      {
-        "title": "What is included in the result link?",
-        "blocks": [
-          {
-            "p": "Once the calculation is complete, the address looks like this."
-          },
-          {
-            "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
-          },
-          {
-            "p": "What follows **#** is the input values. This part is called a **fragment**, which is a **section that the browser does not send to the server**. This is standard web behavior and not a rule we created — it was originally designed to indicate a location within a document, so the server has no need to see it."
-          },
-          {
-            "p": "In other words, when you open the result link, the browser reads that value to request the calculation, and our server receives the values needed for the calculation, returns the answer, and then forgets it."
-          }
-        ]
-      },
-      {
-        "kind": "note",
-        "title": "Please be careful when sending links to others",
-        "blocks": [
-          {
-            "p": "The fact that it is not stored on the server and that the link is safe are not the same. The result link contains both of your birth dates, so the person receiving that link can see the same result."
-          }
-        ]
-      },
-      {
-        "title": "Why is the calculation done on the server but not stored?",
-        "blocks": [
-          {
-            "p": "The calculation itself is done on the server. The Korean lunisolar almanac is needed to generate the saju, and that table is too large to be sent down to the browser. However, **after processing the request, that value is not used anywhere.** There is no code to store it in a database."
-          },
-          {
-            "p": "A minimal record necessary for operation is kept — a counter to prevent the same person from sending too many requests in a short time. This does not include the birth date, and the access IP is not retained either. Only one value, hashed with the date, is counted, and that value changes when the day changes."
-          }
-        ]
-      },
-      {
-        "title": "Things that cannot be done because information is not stored",
-        "blocks": [
-          {
-            "p": "To be honest, there are things we have given up because we do not store information."
-          },
-          {
-            "ul": [
-              "**You cannot retrieve past results.** You need to have the link to view them again.",
-              "**The same values will be recalculated.** There is no cache. However, since all rules are deterministic, [the same input will always yield the same value](/guide/how-compatibility).",
-              "**Refreshing will bring back the ad gate.** This is because there is no place to keep viewing records."
-            ]
-          }
-        ]
-      },
-      {
-        "title": "In case of purchase",
-        "blocks": [
-          {
-            "p": "If you purchase a report, a transaction record will be kept at that time. The law specifies a retention period for payments, and without an order history, refunds cannot be processed. However, even then, **the birth date used for compatibility calculations does not attach to the order** — it is collected again when creating the PDF after payment confirmation."
-          },
-          {
-            "p": "Details are outlined in the [Privacy Policy](/privacy)."
-          }
-        ]
-      }
-    ]
-  },
   "guide/reports": {
     "eyebrow": "Paid Products",
     "title": "What is included in the paid report?",
@@ -1238,6 +918,405 @@ export const EN_DOCS = {
         "blocks": [
           {
             "p": "You do not need to include your birth date and time in the inquiry email. We do not save inputs, so we cannot retrieve them, and the order number is sufficient for confirmation. Please only include it if it is necessary for a calculation error report."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/branches": {
+    "eyebrow": "Relationship chart",
+    "title": "How Zodiac Animals and Day Branches Meet — The Twelve-Branch Chart",
+    "summary": "The relationship chart used when two people's zodiac animals and day branches are set side by side. It lays out which animals form a harmony, a clash or a discord with which, for each of the twelve, and discloses the score of every relationship.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "Zodiac animals and day branches use the same chart",
+        "blocks": [
+          {
+            "p": "Inyeon-Link sets two people's earthly branches side by side in two places: the **zodiac compatibility**, which looks at the branch of the birth year, and the **day branch compatibility** (the spouse palace), which looks at the branch of the birth day. Both are judged with the chart below; the only difference is how much weight each carries in the final score."
+          },
+          {
+            "figure": "branch-wheel",
+            "caption": "Arranging the twelve characters in a circle makes the relationships clear at a glance. A clash always sits directly opposite, while a six-harmony pair and a quiet discord are nearer neighbours. These lines are not written by hand; they are drawn directly from the calculation rules.",
+            "labels": {
+              "alt": "A diagram showing the twelve earthly branches arranged in a circle, with lines connecting six-harmony, clash and discord pairs.",
+              "yukhap": "Six-Harmony",
+              "chung": "Clash",
+              "wonjin": "Discord",
+              "rat": "Rat",
+              "ox": "Ox",
+              "tiger": "Tiger",
+              "rabbit": "Rabbit",
+              "dragon": "Dragon",
+              "snake": "Snake",
+              "horse": "Horse",
+              "goat": "Goat",
+              "monkey": "Monkey",
+              "rooster": "Rooster",
+              "dog": "Dog",
+              "pig": "Pig"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Relationships for each of the twelve zodiac animals",
+        "blocks": [
+          {
+            "p": "For each animal, the chart lists which animals it forms each relationship with. Only the pairs this service recognises as harmonies are listed, so an animal that does not appear in a row has no particular relationship with it — it is **neutral**."
+          },
+          {
+            "table": {
+              "caption": "Four kinds of relationship seen from one animal",
+              "head": [
+                "Your animal",
+                "Attracted pair (Six-Harmony)",
+                "Half triad",
+                "Quietly at odds (Discord)",
+                "Head-on collision (Clash)"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Ox",
+                  "Monkey · Dragon",
+                  "Goat",
+                  "Horse"
+                ],
+                [
+                  "Ox (丑)",
+                  "Rat",
+                  "Rooster",
+                  "Horse",
+                  "Goat"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Pig",
+                  "Horse",
+                  "Rooster",
+                  "Monkey"
+                ],
+                [
+                  "Rabbit (卯)",
+                  "Dog",
+                  "Pig · Goat",
+                  "Monkey",
+                  "Rooster"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Rooster",
+                  "Rat",
+                  "Pig",
+                  "Dog"
+                ],
+                [
+                  "Snake (巳)",
+                  "Monkey",
+                  "Rooster",
+                  "Dog",
+                  "Pig"
+                ],
+                [
+                  "Horse (午)",
+                  "Goat",
+                  "Tiger · Dog",
+                  "Ox",
+                  "Rat"
+                ],
+                [
+                  "Goat (未)",
+                  "Horse",
+                  "Rabbit",
+                  "Rat",
+                  "Ox"
+                ],
+                [
+                  "Monkey (申)",
+                  "Snake",
+                  "Rat",
+                  "Rabbit",
+                  "Tiger"
+                ],
+                [
+                  "Rooster (酉)",
+                  "Dragon",
+                  "Snake · Ox",
+                  "Tiger",
+                  "Rabbit"
+                ],
+                [
+                  "Dog (戌)",
+                  "Rabbit",
+                  "Horse",
+                  "Snake",
+                  "Dragon"
+                ],
+                [
+                  "Pig (亥)",
+                  "Tiger",
+                  "Rabbit",
+                  "Dragon",
+                  "Snake"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "When two people meet in the chart",
+        "blocks": [
+          {
+            "p": "Reading the chart means finding the two animals on one row. Here are a few pairs as examples."
+          },
+          {
+            "ul": [
+              "**Rat and Ox** — a six-harmony. It needs only two characters, so it is the harmony that appears most often in compatibility, and a good one.",
+              "**Rat and Dragon** — a half triad: two of the three characters 申子辰, including the middle one (子).",
+              "**Rat and Tiger** — not in the chart, so neutral: neither a harmony nor a clash, just the baseline.",
+              "**Rat and Goat** — a discord. It looks calm on the surface, but the misalignment is believed to last.",
+              "**Tiger and Monkey** — a clash. They sit directly opposite each other and are seen as colliding head-on."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "How many points each relationship gets",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Highest first. These are the values Inyeon-Link actually uses.",
+              "head": [
+                "Relationship",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Six-Harmony",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Half triad",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Same branch",
+                  "{scoreSame}"
+                ],
+                [
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Discord",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Clash",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "The same branch (two people of the same animal) means resemblance, not attraction, so it sits just above neutral. Whether it is zodiac or day branch compatibility, the value in this table goes straight into the final score."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Why full triads are not in the chart",
+        "blocks": [
+          {
+            "p": "A full triad (申子辰, 巳酉丑, 寅午戌, 亥卯未) needs all three characters. Setting two people side by side gives only two, so a full triad cannot occur in compatibility and only half triads appear. The full-triad score of {scoreSamhap} is kept for the case where three characters come together within one person's own chart."
+          }
+        ]
+      },
+      {
+        "title": "申辰, 巳丑, 寅戌 and 亥未 are not counted as harmonies",
+        "blocks": [
+          {
+            "p": "Some methods count any two characters of the same triad group as a half triad. Inyeon-Link does not: as the half-triad column above shows, it accepts only pairs that include the **royal branch** at the centre of the group (子, 午, 卯, 酉). A pair without it has no centre for the formation to gather around, so it is treated as neutral."
+          }
+        ]
+      },
+      {
+        "title": "Discord and clash do not sit on the floor",
+        "blocks": [
+          {
+            "p": "If only harmonies and clashes were counted, all six discord pairs would be buried in neutral. So discord has a place of its own: higher than the head-on clash and lower than neutral, at {scoreWonjin} points."
+          },
+          {
+            "p": "Even a clash keeps {scoreChung} points. In traditional myeongri a clash is a collision, not the end of a relationship. A value near zero would make the service pronounce a verdict on two people, so the range is kept wide enough to show the difference without pronouncing one."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/true-solar-time": {
+    "eyebrow": "Time",
+    "title": "Each Person's Birth Time Is Corrected Separately",
+    "summary": "Compatibility works out the two people's times separately. This explains how the correction applies when their birthplaces and eras differ, and what changes when only one of them does not know their time.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "The clock and the sun disagree",
+        "blocks": [
+          {
+            "p": "In saju, the time of birth is read from the position of the sun, not from the clock. But a whole country keeps one standard time, so the clock and the sun of any given place drift apart."
+          },
+          {
+            "p": "Korea's standard time is based on 135°E, while Seoul sits at about 127°E. Seoul's sun reaches its highest point later than the clock says, by about **32 minutes**."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "32 minutes can move the hour pillar by one step",
+        "blocks": [
+          {
+            "p": "Someone born in Seoul at 11:40 by the clock was born at 11:08 in true solar time, which is still inside the Horse hour (午, 11:00–13:00). Born at 11:20 by the clock, they were born at 10:48, which falls in the Snake hour (巳, 9:00–11:00). The correction exists for people who stand on exactly this kind of boundary."
+          }
+        ]
+      },
+      {
+        "title": "The correction is applied to each person separately",
+        "blocks": [
+          {
+            "p": "Compatibility builds each person's chart on its own. That is why the input screen asks for the birthplace **for each person**. If one person was born in Seoul and the other abroad, their times are corrected separately, with different longitudes and time zones."
+          },
+          {
+            "p": "The city list currently holds {cityCount} places. For countries whose longitude varies widely, cities are split, because **15° of longitude moves the hour pillar by one step**."
+          },
+          {
+            "p": "If you do not choose, Seoul is used. If only one person was born abroad and both are left on Seoul, only the hour pillar of the person born abroad is off; the other person's values are not affected, because the correction is applied person by person."
+          }
+        ]
+      },
+      {
+        "title": "Different eras used different standard times",
+        "blocks": [
+          {
+            "p": "Two people of different ages lived under the standard time of different periods. That is why a longitude difference alone is not enough."
+          },
+          {
+            "ul": [
+              "**Before 1912** — Korea had no unified standard time (local mean time).",
+              "**1954–1961** — standard time was UTC+8:30.",
+              "**1948–51 · 1955–60 · 1987–88** — daylight saving time was in effect."
+            ]
+          },
+          {
+            "p": "Inyeon-Link does not hard-code a standard meridian. It looks up the **IANA time zone** of the birthplace to find the standard time actually in use at that moment, so each person's own era is applied even when their birth years differ."
+          }
+        ]
+      },
+      {
+        "title": "Just after midnight, the day stem changes",
+        "blocks": [
+          {
+            "p": "The correction is −32 minutes, so someone born between 00:00 and 00:32 by the clock was born in the **23:00 hour of the previous day** in true solar time. The date is rolled back with it."
+          },
+          {
+            "p": "In compatibility this matters a great deal. When the day pillar moves back a day, both the day stem and the day branch change, so the day-stem relationship, the Spouse Star and the day-branch relationship are all recalculated with different characters, and the five-element strengths move with them."
+          }
+        ]
+      },
+      {
+        "title": "It is fine if only one person does not know their time",
+        "blocks": [
+          {
+            "p": "Birth time is optional, and compatibility is still calculated if just one of the two does not know theirs. Only the person who does not know it is calculated without an hour pillar, and the result screen says so. The other person's values stay as they are."
+          },
+          {
+            "p": "None of the four compatibility items uses the hour pillar directly, but it does affect the five-element strengths, so it is more accurate to enter it if you know it. Zodiac compatibility gives the same value with or without a time — [it looks only at the year branch](/guide/zodiac)."
+          }
+        ]
+      }
+    ]
+  },
+  "guide/no-storage": {
+    "eyebrow": "Privacy",
+    "title": "How We Avoid Storing Two People's Details",
+    "summary": "Compatibility asks you to enter someone else's date of birth as well. This explains, technically, what it means that neither person's input is recorded anywhere, and what travels with a result link.",
+    "backLabel": "Calculation basis",
+    "sections": [
+      {
+        "title": "You are entering someone else's information",
+        "blocks": [
+          {
+            "p": "The compatibility screen takes your date of birth and the other person's together. The other person's date of birth is their personal information, so we spell out separately how Inyeon-Link handles both."
+          },
+          {
+            "p": "There is no account, and we ask for no name, email address or phone number. We receive only the two dates of birth and, optionally, birth time, birthplace and gender, and none of it remains once the calculation is finished."
+          },
+          {
+            "p": "There is a field for a display name to show on the result screen, but it is only for display and is not used in the calculation. You do not need to enter a real name."
+          }
+        ]
+      },
+      {
+        "title": "A result link contains both dates of birth",
+        "blocks": [
+          {
+            "p": "When the calculation is done, the address looks like this."
+          },
+          {
+            "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
+          },
+          {
+            "p": "The part after the **#** holds the two people's input. It is called the fragment, and by standard web behaviour **the browser does not send it to the server**. It was designed to point to a position inside a document, so the server never sees it."
+          },
+          {
+            "p": "When you open a result link, the browser reads that value and asks for a calculation; the server receives the values it needs, returns the answer and forgets them."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Before you send the link to the other person",
+        "blocks": [
+          {
+            "p": "Not being stored on a server is not the same as a link being secret. Whoever receives the link can see both dates of birth as they are, and a link left in a chat room stays in that chat room regardless of our server. Please send it remembering that it contains the other person's details."
+          }
+        ]
+      },
+      {
+        "title": "Why nothing remains although the calculation runs on a server",
+        "blocks": [
+          {
+            "p": "To set up a saju chart we need an almanac table, which is too large to send to the browser, so the calculation runs on the server. But **once the request has been handled, the values are used nowhere else.** There is no code that writes them to a database."
+          },
+          {
+            "p": "The only record that remains is a counter that stops one person from sending too many requests in a short time. It holds no date of birth and does not keep the IP address as it is; it counts a single value, hashed together with the date, and that value changes when the day changes."
+          }
+        ]
+      },
+      {
+        "title": "What we give up by not storing",
+        "blocks": [
+          {
+            "p": "Because nothing is stored, there are some things we have given up."
+          },
+          {
+            "ul": [
+              "**You cannot retrieve a past compatibility result.** You need to keep the link to see it again.",
+              "**The same two people are recalculated every time.** There is no cache. But every rule is deterministic, so [the same input always gives the same value](/guide/how-compatibility).",
+              "**Refreshing brings back the ad gate.** There is nowhere to keep a record of having watched it."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "If you buy a report",
+        "blocks": [
+          {
+            "p": "If you buy a report, a transaction record is kept at that point: payment records have a legally required retention period, and without an order history a refund cannot be processed. Even then, **the two dates of birth are not attached to the order**; they are asked for again when the PDF is created after payment confirmation, and used only at that moment."
+          },
+          {
+            "p": "Details are in the [privacy policy](/privacy)."
           }
         ]
       }

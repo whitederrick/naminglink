@@ -226,22 +226,22 @@ export const TR_DOCS = {
     ]
   },
   "guide/branches": {
-    "eyebrow": "İlişki Tablosu",
-    "title": "On İki Dünya Dalı — Kombinasyon, Çatışma, Uyumsuzluk",
-    "summary": "Bu, hem gün dalı uyumluluğu hem de burç uyumluluğu için kullanılan bir ilişki tablosudur. Her kombinasyonun, çatışmanın ve uyumsuzluğun ne anlama geldiğini ve ilgili puanlarını tamamen açıklar.",
+    "eyebrow": "İlişki tablosu",
+    "title": "Burç Hayvanları ve Gün Dalları Nasıl Buluşur — On İki Dal Tablosu",
+    "summary": "İki kişinin burç hayvanları ve gün dalları yan yana konduğunda kullanılan ilişki tablosu. On iki hayvanın her biri için hangi hayvanlarla harmoni, çatışma ya da uyumsuzluk oluşturduğunu gösterir ve her ilişkinin puanını açıkça belirtir.",
     "backLabel": "Hesaplama Temeli",
     "sections": [
       {
-        "title": "Dünya dalları on iki karakterden oluşur",
+        "title": "Burç hayvanları ve gün dalları aynı tabloyu kullanır",
         "blocks": [
           {
-            "p": "On iki dünya dalı (十二支) şunlardır: 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. İyi bilinen burçlar bu on iki karakterle ilişkilidir."
+            "p": "Inyeon-Link, iki kişinin yer dallarını iki yerde yan yana koyar: doğum yılının dalına bakan **burç uyumu** ve doğum gününün dalına bakan **gün dalı uyumu** (eş sarayı). İkisi de aşağıdaki tabloyla değerlendirilir; tek fark, her birinin nihai puandaki ağırlığıdır."
           },
           {
             "figure": "branch-wheel",
-            "caption": "On iki karakteri bir daire içinde düzenlemek ilişkileri net bir şekilde gösterir. Bir çatışma her zaman tam karşısında otururken, bir altı-harmoni çifti ve sessiz bir uyumsuzluk daha yakın komşulardır. Bu çizgiler doğrudan hesaplama kurallarından türetilmiştir, metinde yazılı değildir.",
+            "caption": "On iki karakteri bir daire içine dizmek ilişkileri bir bakışta netleştirir. Çatışma her zaman tam karşıdadır; altı-harmoni çifti ve sessiz uyumsuzluk ise daha yakın komşulardır. Bu çizgiler elle yazılmaz; doğrudan hesaplama kurallarından çizilir.",
             "labels": {
-              "alt": "Altı-harmoni, çatışma ve uyumsuzluğu bağlayan çizgilerle daire içinde düzenlenmiş on iki dünya dalını gösteren bir diyagram.",
+              "alt": "On iki yer dalının bir daire içinde dizildiği; altı-harmoni, çatışma ve uyumsuzluk çiftlerini çizgilerin birbirine bağladığı bir diyagram.",
               "yukhap": "Altı-Harmoni",
               "chung": "Çatışma",
               "wonjin": "Uyumsuzluk",
@@ -252,72 +252,115 @@ export const TR_DOCS = {
               "dragon": "Ejderha",
               "snake": "Yılan",
               "horse": "At",
-              "goat": "Keçi",
+              "goat": "Koyun",
               "monkey": "Maymun",
               "rooster": "Horoz",
               "dog": "Köpek",
               "pig": "Domuz"
             }
-          },
-          {
-            "p": "Saju'da, dört sütundan her birinin birer **yer dalı** vardır. Inyeon-Link, bunlar arasında **gün dalı** (eş palası) ve **yıl dalı** (zodyak hayvanı) kullanır. Her iki pozisyon, aşağıdaki ilişki tablosu kullanılarak değerlendirilir."
           }
         ]
       },
       {
-        "title": "Tam İlişki Tablosu",
+        "title": "On iki burç hayvanının her biri için ilişkiler",
         "blocks": [
           {
+            "p": "Tablo, her hayvan için hangi hayvanlarla hangi ilişkiyi kurduğunu listeler. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler yer alır; bu yüzden bir satırda görünmeyen hayvanla özel bir ilişki yoktur — **nötrdür**."
+          },
+          {
             "table": {
-              "caption": "En yüksek puana göre sıralanmıştır. Bunlar Inyeon-Link tarafından gerçekten kullanılan değerlerdir.",
+              "caption": "Tek bir hayvandan görülen dört ilişki türü",
               "head": [
-                "İlişki",
-                "Karşılık Gelen Çift",
-                "Anlamı",
-                "Puan"
+                "Sizin hayvanınız",
+                "Çeken çift (Altı-Harmoni)",
+                "Yarım üçlü",
+                "Sessizce uyumsuz (Uyumsuzluk)",
+                "Kafa kafaya çarpışma (Çatışma)"
               ],
               "rows": [
                 [
-                  "Kombinasyon (三合)",
-                  "申子辰 · 巳酉丑 · 寅午戌 · 亥卯未",
-                  "Üç karakter bir araya geldiğinde, tam bir **guk** (局) oluştururlar. Bu, en güçlü kombinasyon olarak kabul edilir.",
-                  "{scoreSamhap}"
+                  "Fare (子)",
+                  "Öküz",
+                  "Maymun · Ejderha",
+                  "Koyun",
+                  "At"
                 ],
                 [
-                  "Altı-Harmoni (六合)",
-                  "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
-                  "Birbirini çeken çiftler. Bu, uyumlulukta en yaygın kombinasyondur çünkü sadece iki karakterden oluşur.",
-                  "{scoreYukhap}"
+                  "Öküz (丑)",
+                  "Fare",
+                  "Horoz",
+                  "At",
+                  "Koyun"
                 ],
                 [
-                  "Yarım üçlü (半合)",
-                  "Üçlüden (子·酉·午·卯) bir kraliyet dalı (王地) içeren iki karakter",
-                  "Tam bir kombinasyon oluşturamayacak şekilde merkezdeki karakteri içeren yarım bir kombinasyon. Bu, tam bir üçlüden daha düşük bir seviyededir.",
-                  "{scoreBanhap}"
+                  "Kaplan (寅)",
+                  "Domuz",
+                  "At",
+                  "Horoz",
+                  "Maymun"
                 ],
                 [
-                  "Aynı yer dalı",
-                  "子子 · 丑丑 …",
-                  "Aynı olan karakterler. Bu, birbirine benzediği anlamına gelir, ancak çekim anlamına gelmez, bu yüzden ortada yer alır.",
-                  "{scoreSame}"
+                  "Tavşan (卯)",
+                  "Köpek",
+                  "Domuz · Koyun",
+                  "Maymun",
+                  "Horoz"
                 ],
                 [
-                  "Nötr",
-                  "Üstte veya altta yer almayan çiftler",
-                  "Özel bir ilişki içermeyen bir kombinasyon. Bu, referans noktasıdır.",
-                  "{scoreNeutral}"
+                  "Ejderha (辰)",
+                  "Horoz",
+                  "Fare",
+                  "Domuz",
+                  "Köpek"
                 ],
                 [
-                  "Sessiz uyumsuzluk (怨嗔)",
-                  "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
-                  "Kızgınlık besleseler de ayrılamayan çiftler. Dışarıdan sessiz görünürler ama uzun süre devam ettikleri kabul edilir.",
-                  "{scoreWonjin}"
+                  "Yılan (巳)",
+                  "Maymun",
+                  "Horoz",
+                  "Köpek",
+                  "Domuz"
                 ],
                 [
-                  "Çatışma (沖)",
-                  "子午 · 丑未 · 寅申 · 卯酉 · 辰戌 · 巳亥",
-                  "Baş başa çarpışan çiftler. Bunlar birbirine bakan altı çifttir.",
-                  "{scoreChung}"
+                  "At (午)",
+                  "Koyun",
+                  "Kaplan · Köpek",
+                  "Öküz",
+                  "Fare"
+                ],
+                [
+                  "Koyun (未)",
+                  "At",
+                  "Tavşan",
+                  "Fare",
+                  "Öküz"
+                ],
+                [
+                  "Maymun (申)",
+                  "Yılan",
+                  "Fare",
+                  "Tavşan",
+                  "Kaplan"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Ejderha",
+                  "Yılan · Öküz",
+                  "Kaplan",
+                  "Tavşan"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Tavşan",
+                  "At",
+                  "Yılan",
+                  "Ejderha"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Kaplan",
+                  "Tavşan",
+                  "Ejderha",
+                  "Yılan"
                 ]
               ]
             }
@@ -325,41 +368,90 @@ export const TR_DOCS = {
         ]
       },
       {
-        "title": "Tam üçlüler bu hizmette görünmez",
+        "title": "İki kişi tabloda buluştuğunda",
         "blocks": [
           {
-            "p": "Tam bir üçlü oluşturmak için üç karakter gereklidir. Ancak, uyumluluk, iki kişinin yer dallarını **birer birer** eşleştirerek yapılandırıldığından, burada her zaman bir yarım üçlü görünür ve tam üçlü {scoreSamhap} puanları, her saju içindeki oluşumları incelemek için ayrılmıştır."
+            "p": "Tabloyu okumak, iki hayvanı aynı satırda bulmak demektir. İşte örnek olarak birkaç çift."
+          },
+          {
+            "ul": [
+              "**Fare ve Öküz** — altı-harmoni. Yalnızca iki karaktere gerek duyar; bu yüzden uyumda en sık görülen ve iyi bir harmonidir.",
+              "**Fare ve Ejderha** — yarım üçlü: 申子辰 üçlüsünün üç karakterinden ikisi, ortadaki (子) dahil.",
+              "**Fare ve Kaplan** — tabloda yok, yani nötr: ne harmoni ne çatışma, yalnızca başlangıç düzeyi.",
+              "**Fare ve Koyun** — uyumsuzluk. Yüzeyde sakin görünür, ama bu uyumsuzluğun kalıcı olduğuna inanılır.",
+              "**Kaplan ve Maymun** — çatışma. Tam karşılıklı otururlar ve kafa kafaya çarpıştıkları düşünülür."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Her ilişki kaç puan alır",
+        "blocks": [
+          {
+            "table": {
+              "caption": "En yüksekten başlayarak. Bunlar Inyeon-Link'in gerçekten kullandığı değerlerdir.",
+              "head": [
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Aynı dal",
+                  "{scoreSame}"
+                ],
+                [
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Çatışma",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Aynı dal (aynı hayvandan iki kişi) çekim değil benzerlik anlamına gelir; bu yüzden nötrün hemen üstündedir. Burç uyumu da olsa gün dalı uyumu da olsa, bu tablodaki değer doğrudan nihai puana girer."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Yarım üçlüler bir kraliyet dalı içermelidir",
+        "title": "Tam üçlüler neden tabloda yok",
         "blocks": [
           {
-            "p": "Her iki karakterin aynı üçlü grubuna ait olması durumunda yarım üçlü olarak sayılan bir yöntem de vardır. Bu, 申辰 gibi üçlü olarak adlandırılması zor olan kombinasyonlar için bile yüksek puanlar elde edebilir. Bu nedenle, bu hizmet, yalnızca bir kraliyet dalı (王地) (子·酉·午·卯) içeren çiftler için yarım üçlüleri tanır ve kraliyet dalı içermeyen kombinasyonlar, 申辰·巳丑·寅戌·亥未 gibi üçlü olarak sayılmaz."
+            "p": "Tam bir üçlü (申子辰, 巳酉丑, 寅午戌, 亥卯未) üç karakterin hepsini gerektirir. İki kişiyi yan yana koyunca yalnızca iki karakter olur; dolayısıyla uyumda tam üçlü oluşamaz, yalnızca yarım üçlüler görülür. {scoreSamhap} olan tam üçlü puanı, üç karakterin kişinin kendi haritası içinde bir araya geldiği durum için saklanır."
           }
         ]
       },
       {
-        "title": "Sessiz uyumsuzluğun ayrılma nedeni",
+        "title": "申辰, 巳丑, 寅戌 ve 亥未 harmoni sayılmaz",
         "blocks": [
           {
-            "p": "Sessiz uyumsuzluk çiftleri, uyumlulukta çatışmalar kadar sık görülür. Eğer kombinasyonları çiftler ve çatışmalar olarak sayarsak, bu altı çift, nötr {scoreNeutral} puanlarının altında kalır, bu yüzden ayrı bir şekilde yer alır."
-          },
-          {
-            "p": "Çatışmalar açık ve çarpıcıyken, sessiz uyumsuzluk ince bir uyumsuzluktur. Bu nedenle, çatışmalardan ({scoreChung}) daha yüksek ama nötrden ({scoreNeutral}) kesinlikle daha düşük olan {scoreWonjin} puanında yer alır."
+            "p": "Bazı yöntemler aynı üçlü grubundan herhangi iki karakteri yarım üçlü sayar. Inyeon-Link saymaz: yukarıdaki yarım üçlü sütununun gösterdiği gibi, yalnızca grubun merkezindeki **kraliyet dalını** (子, 午, 卯, 酉) içeren çiftleri kabul eder. Onsuz bir çiftte oluşumun etrafında toplanacağı bir merkez yoktur; bu yüzden nötr sayılır."
           }
         ]
       },
       {
-        "title": "Çatışmalara da puan verilir",
+        "title": "Uyumsuzluk ve çatışma tabanda durmaz",
         "blocks": [
           {
-            "p": "En düşük çatışma puanı {scoreChung}'dir. Amaç, 0'a yakın bir değer atamak değildir. Gelenekte bir çatışma 'son' değil, bir 'çarpışma' olarak kabul edilir ve düşük bir puan atamak, hizmetin ilişki hakkında kesin bir ifade yaptığı anlamına gelir."
+            "p": "Yalnızca harmoniler ve çatışmalar sayılsaydı, altı uyumsuzluk çiftinin hepsi nötrün içinde kaybolurdu. Bu yüzden uyumsuzluğun kendi yeri vardır: kafa kafaya çatışmadan yüksek, nötrden düşük, {scoreWonjin} puan."
           },
           {
-            "p": "Minimum {scoreChung} ve maksimum {scoreSamhap} ile aralık açıktır, ancak kesin bir sonuç vermez."
+            "p": "Çatışma bile {scoreChung} puanını korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil. Sıfıra yakın bir değer hizmetin iki kişi hakkında hüküm vermesine yol açardı; bu yüzden aralık, hüküm vermeden farkı gösterecek kadar geniş tutulur."
           }
         ]
       }
@@ -872,179 +964,166 @@ export const TR_DOCS = {
   },
   "guide/true-solar-time": {
     "eyebrow": "Zaman",
-    "title": "Doğum zamanını gerçek güneş zamanına çevirin",
-    "summary": "Standart zaman ve güneşin gerçek konumu farklıdır. Doğum yerinin boylamına göre zaman düzeltilmelidir, böylece zaman sütununun doğru olduğu açıklanır.",
-    "backLabel": "Hesaplama temeli",
+    "title": "Herkesin Doğum Saati Ayrı Ayrı Düzeltilir",
+    "summary": "Uyum, iki kişinin saatlerini ayrı ayrı hesaplar. Bu sayfa, doğum yerleri ve dönemleri farklı olduğunda düzeltmenin nasıl uygulandığını ve yalnızca biri saatini bilmediğinde neyin değiştiğini açıklar.",
+    "backLabel": "Hesaplama Temeli",
     "sections": [
       {
-        "title": "Saatteki zaman ile güneşin zamanı farklıdır",
+        "title": "Saat ile güneş uyuşmaz",
         "blocks": [
           {
-            "p": "Saju'nun zaman sütunu (時柱) güneşin konumuna göre belirlenir. Ancak, gördüğümüz saat, ülke genelinde tek bir standart zaman kullanır, bu da güneşin gerçek konumuyla bir tutarsızlık yaratır."
+            "p": "Saju'da doğum saati, saate göre değil güneşin konumuna göre okunur. Ancak bir ülkenin tamamı tek bir standart saat kullanır; bu yüzden saat ile herhangi bir yerin güneşi birbirinden ayrışır."
           },
           {
-            "p": "Kore'nin standart zamanı 135° doğu boylamına dayanmaktadır. Seul'ün boylamı yaklaşık 127° olduğundan, bu yaklaşık 8° batıda olup, güneşin zirveye ulaşmasını geciktirir — saat 12:00 olduğunda, Seul'deki güneş henüz zirveye ulaşmamıştır. Bu fark yaklaşık **32 dakika**dır."
+            "p": "Kore'nin standart saati 135°D'ye dayanır, Seul ise yaklaşık 127°D'dedir. Seul'ün güneşi en yüksek noktasına saatin söylediğinden yaklaşık **32 dakika** geç ulaşır."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "32 dakika zaman sütununu bir slot değiştirir",
+        "title": "32 dakika saat sütununu bir basamak kaydırabilir",
         "blocks": [
           {
-            "p": "Saju'daki zaman iki saatlik birimlere bölünmüştür. Sınırda doğanlar, 32 dakikalık bir farkla zaman sütunlarının tamamen değişmesiyle karşılaşacaklardır — bu düzeltme, tam olarak bu sınırda kalanlar için gereklidir."
+            "p": "Saate göre 11:40'ta Seul'de doğan biri gerçek güneş zamanına göre 11:08'de doğmuştur; bu hâlâ At saatinin (午, 11:00–13:00) içindedir. Saate göre 11:20'de doğan kişi 10:48'de doğmuştur ve bu Yılan saatine (巳, 9:00–11:00) düşer. Düzeltme tam da böyle bir sınırda duran insanlar için vardır."
           }
         ]
       },
       {
-        "title": "Neden doğum yerini soruyoruz",
+        "title": "Düzeltme her kişiye ayrı ayrı uygulanır",
         "blocks": [
           {
-            "p": "Boylam farklıysa, düzeltme miktarı da farklı olacaktır. Seul merkezli düzeltmeyi yurt dışında doğan birine uygulamak, zaman sütununda önemli bir tutarsızlığa yol açacaktır. Bu nedenle, giriş ekranı doğum yerinizi seçmenizi gerektirir ve hesaplama o şehrin boylamı ve standart zamanına dayanmaktadır. Şu anda listede {cityCount} yer bulunmaktadır."
+            "p": "Uyum, her kişinin haritasını kendi başına kurar. Giriş ekranının doğum yerini **her kişi için** sormasının nedeni budur. Biri Seul'de, diğeri yurt dışında doğduysa, saatleri farklı boylam ve saat dilimleriyle ayrı ayrı düzeltilir."
           },
           {
-            "p": "Aynı ülke içinde (örneğin ABD, Rusya, Endonezya vb.) boylamın çok değiştiği yerlerde, şehirler ayrılmıştır. **15° boylam bir zaman sütunu slotuna eşittir.**"
+            "p": "Şehir listesi şu anda {cityCount} yer içerir. Boylamı çok değişen ülkelerde şehirler bölünür, çünkü **15° boylam saat sütununu bir basamak kaydırır**."
           },
           {
-            "p": "Seçmezseniz, hesaplama Seul'a dayalı olacaktır. Çoğu doğum yurt içinde olduğundan, bu hata olasılığını azaltır, ancak yurt dışında doğduysanız lütfen seçtiğinizden emin olun."
+            "p": "Seçmezseniz Seul kullanılır. Yalnızca biri yurt dışında doğduysa ve ikisi de Seul'de bırakılırsa, yalnızca yurt dışında doğan kişinin saat sütunu yanlış olur; düzeltme kişi kişi uygulandığı için diğer kişinin değerleri etkilenmez."
           }
         ]
       },
       {
-        "title": "Standart zaman geçmişte birkaç kez değişti",
+        "title": "Farklı dönemler farklı standart saatler kullandı",
         "blocks": [
           {
-            "p": "Düzeltmenin basitçe 'boylam farkı ÷ 15° × 60 dakika' olarak hesaplanamamasının bir nedeni vardır. Standart zaman kendisi farklı dönemlerde değişmiştir."
+            "p": "Farklı yaşlardaki iki kişi, farklı dönemlerin standart saati altında yaşadı. Bu yüzden yalnızca boylam farkı yeterli değildir."
           },
           {
-            "table": {
-              "caption": "Kore'deki standart zaman değişiklikleri — bu dönemde doğanlar basit hesaplamalarla uyumsuzluk yaşayacaklar",
-              "head": [
-                "Dönem",
-                "Ne farklıydı"
-              ],
-              "rows": [
-                [
-                  "1912'den önce",
-                  "Standart zaman yoktu (yerel ortalama zaman)"
-                ],
-                [
-                  "1954 – 1961",
-                  "Standart zaman UTC+8:30 idi"
-                ],
-                [
-                  "1948 – 51 · 1955 – 60 · 1987 – 88",
-                  "Yaz saati uygulaması hayata geçirildi"
-                ]
-              ]
-            }
+            "ul": [
+              "**1912'den önce** — Kore'de birleşik bir standart saat yoktu (yerel ortalama saat).",
+              "**1954–1961** — standart saat UTC+8:30'du.",
+              "**1948–51 · 1955–60 · 1987–88** — yaz saati uygulaması yürürlükteydi."
+            ]
           },
           {
-            "p": "Inyeon-Link, standart meridyen için sabit bir değer kullanmaz, ancak doğum yerinin **IANA zaman dilimi** bilgisine dayanarak o dönemde gerçekten kullanılan standart zamanı hesaplar. Yaz saati uygulaması ve geçmiş standart zamanlar otomatik olarak yansıtılır."
+            "p": "Inyeon-Link, standart bir meridyeni koda sabit olarak yazmaz. O anda gerçekten kullanılan standart saati bulmak için doğum yerinin **IANA saat dilimine** bakar; böylece doğum yılları farklı olsa bile her kişinin kendi dönemi uygulanır."
           }
         ]
       },
       {
-        "title": "Gece yarısından hemen sonra doğanlar tarih de dikkate alınır",
+        "title": "Gece yarısından hemen sonra gün gövdesi değişir",
         "blocks": [
           {
-            "p": "Düzeltme -32 dakika olduğundan, saatle 00:00 ile 00:32 arasında doğanlar gerçek güneş zamanında **önceki gün 23:00**'de olacaktır. Sadece zaman geri alınırsa ve tarih değiştirilmezse, gün dalı 'önceki gün 23:00' olarak yazılacaktır."
+            "p": "Düzeltme −32 dakikadır; bu yüzden saate göre 00:00 ile 00:32 arasında doğan kişi, gerçek güneş zamanına göre **bir önceki günün 23:00 saatinde** doğmuştur. Tarih de onunla birlikte bir gün geri alınır."
           },
           {
-            "p": "Inyeon-Link bu durumda tarihi de geri alacaktır. Gün dalı, saju'da kişiyi kendisini gösterir, bu yanlışsa, neredeyse tüm uyumluluk öğeleri yanlış olacaktır."
+            "p": "Uyumda bu çok önemlidir. Gün sütunu bir gün geri gidince hem gün gövdesi hem gün dalı değişir; böylece gün gövdesi ilişkisi, Eş Yıldızı ve gün dalı ilişkisi farklı karakterlerle yeniden hesaplanır ve beş element güçleri de onlarla birlikte kayar."
           }
         ]
       },
       {
-        "title": "Zamanı bilmenize gerek yok",
+        "title": "Yalnızca biri saatini bilmiyorsa sorun değil",
         "blocks": [
           {
-            "p": "Doğum zamanı isteğe bağlıdır. Bilmiyorsanız, hesaplama zaman dalı olmadan yapılacak ve bu durum sonuç ekranında gösterilecektir. Zaman dalının doğrudan yazılması gereken uyumluluk öğesi yoktur, ancak beş elementi etkiler, bu nedenle biliyorsanız, dahil etmek daha doğru olacaktır."
+            "p": "Doğum saati isteğe bağlıdır; ikisinden yalnızca biri saatini bilmese bile uyum hesaplanır. Yalnızca bilmeyen kişi saat sütunu olmadan hesaplanır ve sonuç ekranı bunu belirtir. Diğer kişinin değerleri olduğu gibi kalır."
           },
           {
-            "p": "Burç uyumluluğu her zaman aynı değeri taşır, çünkü [sadece yıl dalına bakar](/guide/zodiac)."
+            "p": "Dört uyum öğesinin hiçbiri saat sütununu doğrudan kullanmaz, ama beş element güçlerini etkiler; bu yüzden biliyorsanız girmek daha doğrudur. Burç uyumu, saat olsun olmasın aynı değeri verir — [yalnızca yıl dalına bakar](/guide/zodiac)."
           }
         ]
       }
     ]
   },
   "guide/no-storage": {
-    "eyebrow": "Kişisel Bilgiler",
-    "title": "Girilen bilgilerin saklanmaması yöntemi",
-    "summary": "Bu, doğum tarihinizin hiçbir yerde kaydedilmediğinin teknik olarak ne anlama geldiğini ve sonuç bağlantısında nelerin bulunduğunu açıklar.",
+    "eyebrow": "Gizlilik",
+    "title": "İki Kişinin Bilgilerini Nasıl Saklamıyoruz",
+    "summary": "Uyum, başka birinin doğum tarihini de girmenizi ister. Bu sayfa, iki kişinin girdisinin hiçbir yere kaydedilmemesinin teknik olarak ne anlama geldiğini ve bir sonuç bağlantısıyla nelerin taşındığını açıklar.",
     "backLabel": "Hesaplama Temeli",
     "sections": [
       {
-        "title": "Üyelik gerekmiyor",
+        "title": "Başka birinin bilgisini giriyorsunuz",
         "blocks": [
           {
-            "p": "Inyeon-Link hesap oluşturmaz. İsim, e-posta veya telefon numarası toplamaz. Tek toplanan bilgi doğum tarihi ve (isteğe bağlı olarak) doğum zamanı, doğum yeri ve cinsiyettir ve bu bilgiler hesaplama tamamlandıktan sonra bile kalmaz."
+            "p": "Uyum ekranı sizin doğum tarihinizi ve karşı tarafın doğum tarihini birlikte alır. Karşı tarafın doğum tarihi onun kişisel bilgisidir; bu yüzden Inyeon-Link'in ikisini nasıl ele aldığını ayrıca belirtiyoruz."
           },
           {
-            "p": "Sonuç ekranında görüntülenecek bir başlık girmek için bir alan vardır, ancak bu **sadece görüntüleme amacıyla**dır ve hesaplamada kullanılmaz. Gerçek adınızı girmenize gerek yoktur."
+            "p": "Hesap yoktur; ad, e-posta adresi ya da telefon numarası istemeyiz. Yalnızca iki doğum tarihini ve isteğe bağlı olarak doğum saatini, doğum yerini ve cinsiyeti alırız; hesaplama bittiğinde hiçbiri kalmaz."
+          },
+          {
+            "p": "Sonuç ekranında gösterilecek bir görünen ad alanı vardır, ancak yalnızca görüntü içindir ve hesaplamada kullanılmaz. Gerçek bir ad girmeniz gerekmez."
           }
         ]
       },
       {
-        "title": "Sonuç bağlantısında neler var?",
+        "title": "Bir sonuç bağlantısı iki doğum tarihini de içerir",
         "blocks": [
           {
-            "p": "Hesaplama tamamlandığında, adres şöyle görünür."
+            "p": "Hesaplama bittiğinde adres şöyle görünür."
           },
           {
             "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
           },
           {
-            "p": "**#**'dan sonra gelenler giriş değerleridir. Bu kısma **fragment** denir, bu da **tarayıcının sunucuya göndermediği bir bölümdür**. Bu standart web davranışıdır ve bizim oluşturduğumuz bir kural değildir — aslında bir belgede bir konumu belirtmek için tasarlanmıştır, bu nedenle sunucunun bunu görmesine gerek yoktur."
+            "p": "**#** işaretinden sonraki kısım iki kişinin girdisini taşır. Buna parça (fragment) denir ve standart web davranışına göre **tarayıcı onu sunucuya göndermez**. Bir belgenin içindeki konumu göstermek için tasarlanmıştır; sunucu onu hiç görmez."
           },
           {
-            "p": "Başka bir deyişle, sonuç bağlantısını açtığınızda, tarayıcı o değeri hesaplama talep etmek için okur ve sunucumuz hesaplama için gerekli değerleri alır, yanıtı döner ve sonra bunu unutur."
+            "p": "Bir sonuç bağlantısını açtığınızda tarayıcı bu değeri okur ve bir hesaplama ister; sunucu ihtiyaç duyduğu değerleri alır, yanıtı döndürür ve onları unutur."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Başkalarına bağlantı gönderirken dikkatli olun",
+        "title": "Bağlantıyı karşı tarafa göndermeden önce",
         "blocks": [
           {
-            "p": "Sunucuda saklanmadığı ve bağlantının güvenli olduğu gerçeği aynı şey değildir. Sonuç bağlantısı her iki doğum tarihinizi içerir, bu nedenle o bağlantıyı alan kişi aynı sonucu görebilir."
+            "p": "Bir sunucuda saklanmamak, bağlantının gizli olması demek değildir. Bağlantıyı alan herkes iki doğum tarihini olduğu gibi görebilir ve bir sohbet odasında bırakılan bağlantı, sunucumuzdan bağımsız olarak o sohbet odasında kalır. Lütfen karşı tarafın bilgilerini içerdiğini unutmadan gönderin."
           }
         ]
       },
       {
-        "title": "Hesaplama neden sunucuda yapılıyor ama saklanmıyor?",
+        "title": "Hesaplama sunucuda çalışsa da neden hiçbir şey kalmaz",
         "blocks": [
           {
-            "p": "Hesaplama kendisi sunucuda yapılır. Saju'yu oluşturmak için Kore lunisolar takvimi gereklidir ve o tablo tarayıcıya gönderilecek kadar büyük değildir. Ancak, **talep işlendikten sonra, o değer hiçbir yerde kullanılmaz.** Veritabanında saklamak için bir kod yoktur."
+            "p": "Bir saju haritası kurmak için bir takvim (almanak) tablosu gerekir; bu tablo tarayıcıya gönderilemeyecek kadar büyüktür, bu yüzden hesaplama sunucuda çalışır. Ancak **istek işlendikten sonra değerler başka hiçbir yerde kullanılmaz.** Onları bir veritabanına yazan bir kod yoktur."
           },
           {
-            "p": "İşlem için gerekli olan minimal bir kayıt tutulur — aynı kişinin kısa bir süre içinde çok fazla talep göndermesini önlemek için bir sayaç. Bu doğum tarihini içermez ve erişim IP'si de saklanmaz. Sadece tarih ile hash'lenmiş bir değer sayılır ve o değer gün değiştiğinde değişir."
+            "p": "Kalan tek kayıt, bir kişinin kısa sürede çok fazla istek göndermesini engelleyen bir sayaçtır. Doğum tarihi içermez ve IP adresini olduğu gibi tutmaz; tarihle birlikte özetlenmiş (hash) tek bir değeri sayar ve bu değer gün değişince değişir."
           }
         ]
       },
       {
-        "title": "Bilgilerin saklanmaması nedeniyle yapılamayan şeyler",
+        "title": "Saklamayarak vazgeçtiklerimiz",
         "blocks": [
           {
-            "p": "Açıkçası, bilgi saklamadığımız için vazgeçtiğimiz şeyler var."
+            "p": "Hiçbir şey saklanmadığı için bazı şeylerden vazgeçtik."
           },
           {
             "ul": [
-              "**Geçmiş sonuçları geri alamazsınız.** Yeniden görüntülemek için bağlantıya sahip olmanız gerekir.",
-              "**Aynı değerler yeniden hesaplanacaktır.** Önbellek yoktur. Ancak, tüm kurallar deterministiktir, bu nedenle [aynı girdi her zaman aynı değeri verir](/guide/how-compatibility).",
-              "**Yenileme, reklam kapısını geri getirecektir.** Bunun nedeni, görüntüleme kayıtlarını saklayacak bir yerin olmamasıdır."
+              "**Geçmiş bir uyum sonucunu geri getiremezsiniz.** Yeniden görmek için bağlantıyı saklamanız gerekir.",
+              "**Aynı iki kişi her seferinde yeniden hesaplanır.** Önbellek yoktur. Ama her kural deterministiktir; bu yüzden [aynı girdi her zaman aynı değeri verir](/guide/how-compatibility).",
+              "**Sayfayı yenilemek reklam kapısını geri getirir.** İzlediğinizin kaydını tutacak bir yer yoktur."
             ]
           }
         ]
       },
       {
-        "title": "Satın alma durumunda",
+        "title": "Bir rapor satın alırsanız",
         "blocks": [
           {
-            "p": "Bir rapor satın alırsanız, o anda bir işlem kaydı tutulacaktır. Yasa, ödemeler için bir saklama süresi belirler ve bir sipariş geçmişi olmadan iadeler işlenemez. Ancak, yine de, **uygulama hesaplamaları için kullanılan doğum tarihi siparişle ilişkilendirilmez** — ödeme onaylandıktan sonra PDF oluşturulurken tekrar toplanır."
+            "p": "Bir rapor satın alırsanız o noktada bir işlem kaydı tutulur: ödeme kayıtlarının yasal olarak zorunlu bir saklama süresi vardır ve sipariş geçmişi olmadan iade işlenemez. O zaman bile **iki doğum tarihi siparişe eklenmez**; ödeme onaylandıktan sonra PDF oluşturulurken yeniden istenir ve yalnızca o anda kullanılır."
           },
           {
-            "p": "Ayrıntılar [Gizlilik Politikası](/privacy) içinde belirtilmiştir."
+            "p": "Ayrıntılar [gizlilik politikasında](/privacy)."
           }
         ]
       }

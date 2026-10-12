@@ -226,25 +226,25 @@ export const FIL_DOCS = {
     ]
   },
   "guide/branches": {
-    "eyebrow": "Talaan ng Relasyon",
-    "title": "Labindalawang Sangay ng Lupa — Kombinasyon, Salungatan, Alitan",
-    "summary": "Ito ay isang talahanayan ng relasyon na ginagamit para sa parehong pagkakatugma ng sangay ng araw at pagkakatugma ng zodiac. Ganap nitong inilalahad kung ano ang ibig sabihin ng bawat kombinasyon, salungatan, at alitan at ang kanilang mga kaukulang iskor.",
-    "backLabel": "Batayan ng Kalkulasyon",
+    "eyebrow": "Tsart ng relasyon",
+    "title": "Paano Nagtatagpo ang mga Zodiac Animal at Day Branch — Ang Tsart ng Labindalawang Branch",
+    "summary": "Ang tsart ng relasyon na ginagamit kapag magkatabing inilalagay ang zodiac animal at day branch ng dalawang tao. Ipinapakita nito, para sa bawat isa sa labindalawa, kung aling mga hayop ang bumubuo ng harmonya, clash o discord, at inilalantad ang score ng bawat relasyon.",
+    "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang mga sangay ng lupa ay binubuo ng labindalawang karakter",
+        "title": "Iisang tsart ang ginagamit ng mga zodiac animal at day branch",
         "blocks": [
           {
-            "p": "Ang labindalawang sangay ng lupa (十二支) ay 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. Ang mga kilalang tanda ng zodiac ay nauugnay sa bawat isa sa mga labindalawang karakter na ito."
+            "p": "Inilalagay ng Inyeon-Link nang magkatabi ang mga earthly branch ng dalawang tao sa dalawang lugar: ang **zodiac compatibility**, na tumitingin sa branch ng taon ng kapanganakan, at ang **day branch compatibility** (ang spouse palace), na tumitingin sa branch ng araw ng kapanganakan. Parehong hinuhusgahan gamit ang tsart sa ibaba; ang pagkakaiba lang ay kung gaano kabigat ang bawat isa sa huling score."
           },
           {
             "figure": "branch-wheel",
-            "caption": "Ang pag-aayos ng labindalawang karakter sa isang bilog ay nagbibigay ng malinaw na tanawin ng mga relasyon. Ang isang salungatan ay palaging nakaupo nang direkta sa tapat, habang ang isang pares ng anim na pagkakaisa at isang tahimik na alitan ay mas malapit na mga kapitbahay. Ang mga linyang ito ay direktang nagmula sa mga patakaran ng pagkalkula, hindi nakasulat sa teksto.",
+            "caption": "Kapag inayos ang labindalawang karakter sa isang bilog, madaling makita ang mga relasyon. Ang clash ay laging nasa tapat mismo, habang ang six-harmony pair at ang tahimik na discord ay mas malapit na magkapitbahay. Hindi iginuhit ng kamay ang mga linyang ito; direkta silang iginuhit mula sa mga patakaran ng kalkulasyon.",
             "labels": {
-              "alt": "Isang diagram na nagpapakita ng labindalawang sangay ng lupa na inayos sa isang bilog na may mga linya na kumokonekta sa anim na pagkakaisa, salungatan, at alitan.",
-              "yukhap": "Anim na Pagkakaisa",
-              "chung": "Salungatan",
-              "wonjin": "Alitan",
+              "alt": "Isang diagram ng labindalawang earthly branch na nakaayos sa bilog, na may mga linyang nag-uugnay sa mga pares ng six-harmony, clash at discord.",
+              "yukhap": "Six-Harmony",
+              "chung": "Clash",
+              "wonjin": "Discord",
               "rat": "Daga",
               "ox": "Baka",
               "tiger": "Tigre",
@@ -252,72 +252,115 @@ export const FIL_DOCS = {
               "dragon": "Dragon",
               "snake": "Ahas",
               "horse": "Kabayo",
-              "goat": "Kambing",
+              "goat": "Tupa",
               "monkey": "Unggoy",
-              "rooster": "Tandang",
+              "rooster": "Manok",
               "dog": "Aso",
               "pig": "Baboy"
             }
-          },
-          {
-            "p": "Sa saju, bawat isa sa apat na haligi ay may isang earthly branch. Gumagamit ang Inyeon-Link ng **day branch** (ang palasyo ng asawa) at **year branch** (ang zodiac animal) mula sa mga ito. Parehong posisyon ang sinusuri gamit ang talahanayan ng relasyon sa ibaba."
           }
         ]
       },
       {
-        "title": "Buong Talahanayan ng Relasyon",
+        "title": "Mga relasyon ng bawat isa sa labindalawang zodiac animal",
         "blocks": [
           {
+            "p": "Para sa bawat hayop, inililista ng tsart kung aling mga hayop ang may bawat uri ng relasyon dito. Ang mga pares lang na kinikilala ng serbisyong ito bilang harmonya ang nakalista, kaya ang hayop na wala sa isang hanay ay walang partikular na relasyon dito — ito ay **neutral**."
+          },
+          {
             "table": {
-              "caption": "Nakaayos ayon sa pinakamataas na iskor. Ito ang mga halagang talagang ginagamit ng Inyeon-Link.",
+              "caption": "Apat na uri ng relasyon mula sa pananaw ng isang hayop",
               "head": [
-                "Relasyon",
-                "Kaukulang Pairs",
-                "Kahulugan",
-                "Iskor"
+                "Ang iyong hayop",
+                "Magkaakit na pares (Six-Harmony)",
+                "Half triad",
+                "Tahimik na magkasalungat (Discord)",
+                "Harapang banggaan (Clash)"
               ],
               "rows": [
                 [
-                  "Kombinasyon (三合)",
-                  "申子辰 · 巳酉丑 · 寅午戌 · 亥卯未",
-                  "Kapag nagtipon ang lahat ng tatlong karakter, bumubuo sila ng isang kumpletong elemental formation — isang **guk** (局). Itinuturing ito bilang pinakamalakas na kombinasyon.",
-                  "{scoreSamhap}"
+                  "Daga (子)",
+                  "Baka",
+                  "Unggoy · Dragon",
+                  "Tupa",
+                  "Kabayo"
                 ],
                 [
-                  "Anim-Harmony (六合)",
-                  "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
-                  "Mga pares na umaakit sa isa't isa. Ito ang pinaka-karaniwang kombinasyon sa pagkakatugma dahil binubuo ito ng tanging dalawang karakter.",
-                  "{scoreYukhap}"
+                  "Baka (丑)",
+                  "Daga",
+                  "Manok",
+                  "Kabayo",
+                  "Tupa"
                 ],
                 [
-                  "Half triad (半合)",
-                  "Dalawang karakter na may kasamang royal branch (王地) mula sa triad (子·酉·午·卯)",
-                  "Isang half combination na may kasamang karakter sa gitna ng formation. Hindi ito makabuo ng kumpletong kombinasyon sa tanging dalawang karakter, kaya't ito ay mas mababa kaysa sa isang buong triad.",
-                  "{scoreBanhap}"
+                  "Tigre (寅)",
+                  "Baboy",
+                  "Kabayo",
+                  "Manok",
+                  "Unggoy"
                 ],
                 [
-                  "Parehong earthly branch",
-                  "子子 · 丑丑 …",
-                  "Mga karakter na pareho. Ibig sabihin nito ay magkapareho sila, ngunit hindi ito nagpapahiwatig ng atraksyon, kaya't ito ay inilalagay sa gitna.",
-                  "{scoreSame}"
+                  "Kuneho (卯)",
+                  "Aso",
+                  "Baboy · Tupa",
+                  "Unggoy",
+                  "Manok"
                 ],
                 [
-                  "Neutral",
-                  "Mga pares na hindi nabibilang sa kahit saan sa itaas o ibaba",
-                  "Isang kombinasyon na walang espesyal na relasyon. Ito ang reference point.",
-                  "{scoreNeutral}"
+                  "Dragon (辰)",
+                  "Manok",
+                  "Daga",
+                  "Baboy",
+                  "Aso"
                 ],
                 [
-                  "Tahimik na alitan (怨嗔)",
-                  "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
-                  "Mga pares na hindi makapaghiwalay sa kabila ng pagdadala ng sama ng loob. Mukha silang tahimik sa ibabaw ngunit itinuturing na tumatagal.",
-                  "{scoreWonjin}"
+                  "Ahas (巳)",
+                  "Unggoy",
+                  "Manok",
+                  "Aso",
+                  "Baboy"
                 ],
                 [
-                  "Clash (沖)",
-                  "子午 · 丑未 · 寅申 · 卯酉 · 辰戌 · 巳亥",
-                  "Mga pares na nagkakaroon ng head-on clash. Ito ay anim na pares na nagkakaharap.",
-                  "{scoreChung}"
+                  "Kabayo (午)",
+                  "Tupa",
+                  "Tigre · Aso",
+                  "Baka",
+                  "Daga"
+                ],
+                [
+                  "Tupa (未)",
+                  "Kabayo",
+                  "Kuneho",
+                  "Daga",
+                  "Baka"
+                ],
+                [
+                  "Unggoy (申)",
+                  "Ahas",
+                  "Daga",
+                  "Kuneho",
+                  "Tigre"
+                ],
+                [
+                  "Manok (酉)",
+                  "Dragon",
+                  "Ahas · Baka",
+                  "Tigre",
+                  "Kuneho"
+                ],
+                [
+                  "Aso (戌)",
+                  "Kuneho",
+                  "Kabayo",
+                  "Ahas",
+                  "Dragon"
+                ],
+                [
+                  "Baboy (亥)",
+                  "Tigre",
+                  "Kuneho",
+                  "Dragon",
+                  "Ahas"
                 ]
               ]
             }
@@ -325,41 +368,90 @@ export const FIL_DOCS = {
         ]
       },
       {
-        "title": "Ang buong triads ay hindi lumalabas sa serbisyong ito",
+        "title": "Kapag nagkita ang dalawang tao sa tsart",
         "blocks": [
           {
-            "p": "Ang isang buong triad ay nangangailangan ng tatlong karakter upang mabuo. Gayunpaman, ang pagkakatugma ay naka-istruktura sa pamamagitan ng pagtutugma ng mga earthly branches ng dalawang tao **isa-isa**, na nagreresulta sa tanging dalawang karakter. Samakatuwid, ang lumalabas dito ay palaging isang half triad, at ang buong triad na {scoreSamhap} na mga puntos ay nakalaan para sa pagsusuri ng mga formation sa loob ng bawat saju."
+            "p": "Ang pagbasa sa tsart ay paghahanap sa dalawang hayop sa iisang hanay. Narito ang ilang pares bilang halimbawa."
+          },
+          {
+            "ul": [
+              "**Daga at Baka** — isang six-harmony. Dalawang karakter lang ang kailangan nito, kaya ito ang harmonyang pinakamadalas lumitaw sa compatibility, at isang magandang harmonya.",
+              "**Daga at Dragon** — isang half triad: dalawa sa tatlong karakter na 申子辰, kasama ang nasa gitna (子).",
+              "**Daga at Tigre** — wala sa tsart, kaya neutral: hindi harmonya at hindi clash, kundi ang batayang antas lang.",
+              "**Daga at Tupa** — isang discord. Mukhang kalmado sa ibabaw, ngunit pinaniniwalaang tumatagal ang hindi pagkakatugma.",
+              "**Tigre at Unggoy** — isang clash. Magkaharap sila nang eksakto at itinuturing na nagbabanggaan nang harapan."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ilang puntos ang nakukuha ng bawat relasyon",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Mula sa pinakamataas. Ito ang mga halagang aktuwal na ginagamit ng Inyeon-Link.",
+              "head": [
+                "Relasyon",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Six-Harmony",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Half triad",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Parehong branch",
+                  "{scoreSame}"
+                ],
+                [
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Discord",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Clash",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Ang parehong branch (dalawang taong magkaparehong hayop) ay nangangahulugang pagkakahawig, hindi atraksyon, kaya bahagya itong nasa itaas ng neutral. Zodiac man o day branch compatibility, ang halaga sa talahanayang ito ang direktang pumapasok sa huling score."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Ang mga half triads ay dapat maglaman ng royal branch",
+        "title": "Bakit wala sa tsart ang buong triad",
         "blocks": [
           {
-            "p": "Mayroon ding isang pamamaraan na itinuturing na half triad kung ang parehong karakter ay kabilang sa parehong triad group. Maaari itong humantong sa mataas na iskor kahit para sa mga kombinasyon na mahirap tawaging triad, tulad ng 申辰. Samakatuwid, kinikilala ng serbisyong ito ang isang half triad lamang para sa mga pares na may kasamang royal branch (王地) (子·酉·午·卯), at ang mga kombinasyon tulad ng 申辰·巳丑·寅戌·亥未 na walang royal branch ay hindi itinuturing na triads."
+            "p": "Ang buong triad (申子辰, 巳酉丑, 寅午戌, 亥卯未) ay nangangailangan ng lahat ng tatlong karakter. Kapag dalawang tao ang pinagtabi, dalawa lang ang makukuha, kaya hindi puwedeng mangyari ang buong triad sa compatibility at half triad lang ang lumilitaw. Pinananatili ang score ng buong triad na {scoreSamhap} para sa kasong nagsasama ang tatlong karakter sa loob ng sariling tsart ng isang tao."
           }
         ]
       },
       {
-        "title": "Ang dahilan para sa paghihiwalay ng tahimik na alitan",
+        "title": "Ang 申辰, 巳丑, 寅戌 at 亥未 ay hindi binibilang na harmonya",
         "blocks": [
           {
-            "p": "Ang anim na pares ng tahimik na alitan ay madalas na nakikita sa pagkakatugma tulad ng mga clash. Kung bibilangin natin ang mga kombinasyon bilang mga pares at clash, ang anim na pares na ito ay lahat ay malilibing sa ilalim ng neutral na {scoreNeutral} na mga puntos, kaya't inilalagay sila nang hiwalay."
-          },
-          {
-            "p": "Habang ang mga clash ay hayag at kapansin-pansin, ang tahimik na alitan ay tahimik na hindi naka-align. Samakatuwid, ito ay inilalagay sa isang iskor na {scoreWonjin}, na mas mataas kaysa sa mga clash ({scoreChung}) ngunit tiyak na mas mababa kaysa sa neutral ({scoreNeutral})."
+            "p": "May mga pamamaraang itinuturing na half triad ang alinmang dalawang karakter ng iisang triad group. Hindi ito ginagawa ng Inyeon-Link: gaya ng ipinapakita ng half-triad column sa itaas, tinatanggap lang nito ang mga pares na may kasamang **royal branch** sa gitna ng grupo (子, 午, 卯, 酉). Ang pares na wala nito ay walang sentrong mapagtitipunan ng pormasyon, kaya itinuturing itong neutral."
           }
         ]
       },
       {
-        "title": "Ang mga iskor ay itinatakda din para sa mga clash",
+        "title": "Hindi nasa pinakailalim ang discord at clash",
         "blocks": [
           {
-            "p": "Ang pinakamababang iskor ng clash ay {scoreChung}. Ang layunin ay hindi magtalaga ng halaga na malapit sa 0. Sa tradisyon, ang clash ay hindi isang 'wakas' kundi isang 'banggaan', at ang pagtatalaga ng mababang iskor ay magpapahiwatig na ang serbisyo ay gumagawa ng tiyak na pahayag tungkol sa relasyon."
+            "p": "Kung harmonya at clash lang ang bibilangin, malilibing sa neutral ang lahat ng anim na pares ng discord. Kaya may sarili itong lugar ang discord: mas mataas kaysa sa harapang clash at mas mababa kaysa sa neutral, sa {scoreWonjin} puntos."
           },
           {
-            "p": "Sa minimum na {scoreChung} at maximum na {scoreSamhap}, malinaw ang saklaw, ngunit hindi ito gumagawa ng tiyak na konklusyon."
+            "p": "Kahit ang clash ay may natitirang {scoreChung} puntos. Sa tradisyonal na myeongri, ang clash ay banggaan, hindi katapusan ng relasyon. Kung halos zero ang halaga, magpapahayag ang serbisyo ng hatol sa dalawang tao, kaya pinananatiling sapat ang lawak ng saklaw upang maipakita ang pagkakaiba nang hindi nagpapahayag ng hatol."
           }
         ]
       }
@@ -872,179 +964,166 @@ export const FIL_DOCS = {
   },
   "guide/true-solar-time": {
     "eyebrow": "Oras",
-    "title": "I-convert ang oras ng kapanganakan sa tunay na solar time",
-    "summary": "Ang standard time at ang aktwal na posisyon ng araw ay magkaiba. Ang oras ay dapat ituwid batay sa longitude ng lugar ng kapanganakan upang matugunan kung bakit ang time pillar ay tumpak.",
-    "backLabel": "Batayan ng pagkalkula",
+    "title": "Hiwalay na Itinatama ang Oras ng Kapanganakan ng Bawat Tao",
+    "summary": "Hiwalay na kinakalkula ng compatibility ang oras ng dalawang tao. Ipinapaliwanag nito kung paano ipinapatupad ang pagwawasto kapag magkaiba ang kanilang lugar ng kapanganakan at panahon, at kung ano ang nagbabago kapag isa lang sa kanila ang hindi alam ang oras.",
+    "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Ang oras sa orasan at ang oras ng araw ay magkaiba",
+        "title": "Hindi magkasundo ang orasan at ang araw",
         "blocks": [
           {
-            "p": "Ang time pillar (時柱) ng saju ay tinutukoy ng posisyon ng araw. Gayunpaman, ang orasan na nakikita natin ay gumagamit ng isang solong standard time para sa buong bansa, na nagiging sanhi ng hindi pagkakatugma sa aktwal na posisyon ng araw."
+            "p": "Sa saju, ang oras ng kapanganakan ay binabasa mula sa posisyon ng araw, hindi mula sa orasan. Ngunit ang buong bansa ay may iisang standard time, kaya nagkakalayo ang orasan at ang araw ng alinmang lugar."
           },
           {
-            "p": "Ang standard time ng Korea ay batay sa 135° silangang longitude. Dahil ang longitude ng Seoul ay humigit-kumulang 127°, ito ay humigit-kumulang 8° sa kanluran, na nagiging sanhi ng araw na umabot sa kanyang tuktok nang mas huli — kapag tanghali ayon sa orasan, ang araw sa Seoul ay hindi pa umabot sa kanyang tuktok. Ang pagkakaibang ito ay humigit-kumulang **32 minuto**."
+            "p": "Ang standard time ng Korea ay nakabatay sa 135°E, habang ang Seoul ay nasa humigit-kumulang 127°E. Mas huli ang pag-abot ng araw ng Seoul sa pinakamataas na punto kaysa sa sinasabi ng orasan, nang mga **32 minuto**."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "32 minuto ay nagbabago ng time pillar ng isang slot",
+        "title": "Kayang ilipat ng 32 minuto ang hour pillar nang isang hakbang",
         "blocks": [
           {
-            "p": "Ang oras sa saju ay nahahati sa mga yunit ng dalawang oras. Ang mga ipinanganak malapit sa hangganan ay magkakaroon ng kanilang time pillar na ganap na nagbago ng 32 minutong pagkakaiba — ang pagwawasto na ito ay kinakailangan para sa mga nahuhulog nang eksakto sa hangganang ito."
+            "p": "Ang ipinanganak sa Seoul sa 11:40 ayon sa orasan ay ipinanganak sa 11:08 sa true solar time, na nasa loob pa rin ng oras ng Kabayo (午, 11:00–13:00). Kung ipinanganak sa 11:20 ayon sa orasan, ipinanganak siya sa 10:48, na nasa oras ng Ahas (巳, 9:00–11:00). Ang pagwawasto ay para sa mga taong nasa eksaktong ganitong hangganan."
           }
         ]
       },
       {
-        "title": "Bakit kami humihingi ng lugar ng kapanganakan",
+        "title": "Hiwalay na ipinapatupad ang pagwawasto sa bawat tao",
         "blocks": [
           {
-            "p": "Kung ang longitude ay magkaiba, ang halaga ng pagwawasto ay mag-iiba rin. Ang paglalapat ng pagwawasto batay sa Seoul sa isang ipinanganak sa ibang bansa ay magreresulta sa isang makabuluhang hindi pagkakatugma sa time pillar. Samakatuwid, ang input screen ay nangangailangan sa iyo na piliin ang iyong lugar ng kapanganakan, at ang pagkalkula ay batay sa longitude at standard time ng lungsod na iyon. Sa kasalukuyan, mayroong {cityCount} na mga lugar sa listahan."
+            "p": "Binubuo ng compatibility ang tsart ng bawat tao nang hiwalay. Kaya hinihingi ng input screen ang lugar ng kapanganakan **para sa bawat tao**. Kung ang isa ay ipinanganak sa Seoul at ang isa naman ay sa ibang bansa, hiwalay na itatama ang kanilang oras, na may magkaibang longitude at time zone."
           },
           {
-            "p": "Sa mga lugar kung saan ang longitude ay nag-iiba nang malaki kahit sa loob ng parehong bansa (tulad ng USA, Russia, Indonesia, atbp.), ang mga lungsod ay nahati. **15° ng longitude ay katumbas ng isang time pillar slot.**"
+            "p": "Kasalukuyang may {cityCount} lugar ang listahan ng mga lungsod. Para sa mga bansang malaki ang pagkakaiba ng longitude, hinahati ang mga lungsod, dahil **ang 15° ng longitude ay naglilipat sa hour pillar nang isang hakbang**."
           },
           {
-            "p": "Kung hindi ka pumili, ang pagkalkula ay batay sa Seoul. Dahil ang karamihan ng mga kapanganakan ay domestiko, binabawasan nito ang pagkakataon ng pagkakamali, ngunit kung ikaw ay ipinanganak sa ibang bansa, mangyaring siguraduhing pumili."
+            "p": "Kung wala kang pipiliin, Seoul ang gagamitin. Kung isa lang ang ipinanganak sa ibang bansa at parehong naiwan sa Seoul, ang hour pillar lang ng taong ipinanganak sa ibang bansa ang magkakamali; hindi apektado ang mga halaga ng kabilang tao, dahil ipinapatupad ang pagwawasto bawat tao."
           }
         ]
       },
       {
-        "title": "Ang standard time ay nagbago ng ilang beses sa nakaraan",
+        "title": "Iba-iba ang standard time sa bawat panahon",
         "blocks": [
           {
-            "p": "May dahilan kung bakit ang pagwawasto ay hindi maaaring kalkulahin nang simple bilang 'pagkakaiba ng longitude ÷ 15° × 60 minuto'. Ang standard time mismo ay nagbago sa iba't ibang panahon."
+            "p": "Ang dalawang taong magkaiba ang edad ay namuhay sa ilalim ng standard time ng magkaibang panahon. Kaya hindi sapat ang pagkakaiba ng longitude lamang."
           },
           {
-            "table": {
-              "caption": "Mga pagbabago sa pamantayang oras ng Korea — ang mga ipinanganak sa panahong ito ay magkakaroon ng mga pagkakaiba sa simpleng kalkulasyon",
-              "head": [
-                "Panahon",
-                "Ano ang naiiba"
-              ],
-              "rows": [
-                [
-                  "Bago ang 1912",
-                  "Walang pamantayang oras (lokal na mean time)"
-                ],
-                [
-                  "1954 – 1961",
-                  "Ang pamantayang oras ay UTC+8:30"
-                ],
-                [
-                  "1948 – 51 · 1955 – 60 · 1987 – 88",
-                  "Nai-implement ang daylight saving time"
-                ]
-              ]
-            }
+            "ul": [
+              "**Bago ang 1912** — walang pinag-isang standard time ang Korea (local mean time).",
+              "**1954–1961** — ang standard time ay UTC+8:30.",
+              "**1948–51 · 1955–60 · 1987–88** — umiiral ang daylight saving time."
+            ]
           },
           {
-            "p": "Ang Inyeon-Link ay hindi gumagamit ng nakatakdang halaga para sa pamantayang meridian, kundi kinakalkula ang pamantayang oras na talagang ginamit sa panahong iyon batay sa **IANA time zone** na impormasyon ng lugar ng kapanganakan. Ang daylight saving time at mga nakaraang pamantayang oras ay awtomatikong naisasalamin."
+            "p": "Hindi nagtatakda ang Inyeon-Link ng nakapirming standard meridian. Hinahanap nito ang **IANA time zone** ng lugar ng kapanganakan upang malaman ang standard time na aktuwal na ginagamit sa sandaling iyon, kaya naipapatupad ang sariling panahon ng bawat tao kahit magkaiba ang taon ng kanilang kapanganakan."
           }
         ]
       },
       {
-        "title": "Ang mga ipinanganak kaagad pagkatapos ng hatingabi ay isinasaalang-alang din ang petsa",
+        "title": "Pagkatapos lang ng hatinggabi, nagbabago ang day stem",
         "blocks": [
           {
-            "p": "Dahil ang pagkukorek ay -32 minuto, ang mga ipinanganak sa pagitan ng 00:00 at 00:32 ayon sa orasan ay magiging **23:00 ng nakaraang araw** sa tunay na solar time. Kung ang oras lamang ang ibabalik at ang petsa ay hindi mababago, isusulat nito ang day pillar bilang '23:00 ng nakaraang araw'."
+            "p": "Ang pagwawasto ay −32 minuto, kaya ang ipinanganak sa pagitan ng 00:00 at 00:32 ayon sa orasan ay ipinanganak sa **oras na 23:00 ng nakaraang araw** sa true solar time. Ibinabalik din ang petsa."
           },
           {
-            "p": "Ang Inyeon-Link ay ibabalik din ang petsa sa kasong ito. Ang day pillar ay nagpapahiwatig ng tao mismo sa saju, kaya kung ito ay mali, halos lahat ng mga item ng pagkakatugma ay magiging mali."
+            "p": "Napakahalaga nito sa compatibility. Kapag umatras nang isang araw ang day pillar, nagbabago ang parehong day stem at day branch, kaya muling kinakalkula gamit ang ibang mga karakter ang relasyon ng day stem, ang Spouse Star at ang relasyon ng day branch, at gumagalaw din ang lakas ng five elements."
           }
         ]
       },
       {
-        "title": "Hindi mo kailangang malaman ang oras",
+        "title": "Ayos lang kung isa lang ang hindi alam ang oras",
         "blocks": [
           {
-            "p": "Ang oras ng kapanganakan ay opsyonal. Kung hindi mo ito alam, ang kalkulasyon ay gagawin nang walang day pillar, at ang katotohanang ito ay ipapakita sa screen ng mga resulta. Walang mga item sa pagkakatugma na nangangailangan ng day pillar na isulat nang direkta, ngunit ito ay nakakaapekto sa mga five elements, kaya kung alam mo ito, mas tumpak na isama ito."
+            "p": "Opsyonal ang oras ng kapanganakan, at nakakalkula pa rin ang compatibility kahit isa lang sa dalawa ang hindi nakakaalam ng oras. Ang taong hindi nakakaalam lang ang kinakalkula nang walang hour pillar, at sinasabi iyon ng result screen. Nananatili ang mga halaga ng kabilang tao."
           },
           {
-            "p": "Ang pagkakatugma ng zodiac ay palaging pareho ang halaga anuman ang oras — [dahil tinitingnan lamang nito ang year branch](/guide/zodiac)."
+            "p": "Wala sa apat na item ng compatibility ang direktang gumagamit ng hour pillar, ngunit naaapektuhan nito ang lakas ng five elements, kaya mas tumpak kung ilalagay mo ito kung alam mo. Pareho ang halaga ng zodiac compatibility mayroon man o walang oras — [tumitingin lang ito sa year branch](/guide/zodiac)."
           }
         ]
       }
     ]
   },
   "guide/no-storage": {
-    "eyebrow": "Personal na Impormasyon",
-    "title": "Paraan ng hindi pag-iimbak ng mga ipinasok na impormasyon",
-    "summary": "Ito ay nagpapaliwanag kung ano ang teknikal na kahulugan na ang iyong petsa ng kapanganakan ay hindi naitala kahit saan at kung ano ang kasama sa link ng resulta.",
-    "backLabel": "Batayan ng Kalkulasyon",
+    "eyebrow": "Privacy",
+    "title": "Paano Namin Iniiwasang Mag-imbak ng Detalye ng Dalawang Tao",
+    "summary": "Hinihingi rin ng compatibility ang petsa ng kapanganakan ng ibang tao. Ipinapaliwanag nito, sa teknikal na paraan, kung ano ang ibig sabihin na walang input ng alinmang tao ang naitatala saanman, at kung ano ang kasama ng isang result link.",
+    "backLabel": "Batayan ng kalkulasyon",
     "sections": [
       {
-        "title": "Walang kinakailangang pagiging miyembro",
+        "title": "Inilalagay mo ang impormasyon ng ibang tao",
         "blocks": [
           {
-            "p": "Ang Inyeon-Link ay hindi lumilikha ng mga account. Hindi ito nangongolekta ng mga pangalan, email, o numero ng telepono. Ang tanging impormasyong kinokolekta ay ang petsa ng kapanganakan at (opsyonal) ang oras ng kapanganakan, lugar ng kapanganakan, at kasarian, at kahit na iyon ay hindi mananatili pagkatapos makumpleto ang kalkulasyon."
+            "p": "Kinukuha ng compatibility screen ang iyong petsa ng kapanganakan at ang sa ibang tao nang magkasama. Personal na impormasyon ng ibang tao ang kanyang petsa ng kapanganakan, kaya hiwalay naming ipinapaliwanag kung paano hinahawakan ng Inyeon-Link ang dalawa."
           },
           {
-            "p": "May isang larangan upang ipasok ang isang pamagat na ipapakita sa screen ng mga resulta, ngunit iyon ay **para lamang sa layunin ng pagpapakita** at hindi ginagamit sa kalkulasyon. Hindi mo kailangang ipasok ang iyong tunay na pangalan."
+            "p": "Walang account, at hindi kami humihingi ng pangalan, email address o numero ng telepono. Natatanggap lang namin ang dalawang petsa ng kapanganakan at, opsyonal, ang oras ng kapanganakan, lugar ng kapanganakan at kasarian, at walang natitira sa mga ito kapag tapos na ang kalkulasyon."
+          },
+          {
+            "p": "May field para sa display name na ipapakita sa result screen, ngunit pang-display lang ito at hindi ginagamit sa kalkulasyon. Hindi mo kailangang maglagay ng totoong pangalan."
           }
         ]
       },
       {
-        "title": "Ano ang kasama sa link ng resulta?",
+        "title": "Ang result link ay may laman na dalawang petsa ng kapanganakan",
         "blocks": [
           {
-            "p": "Kapag nakumpleto na ang kalkulasyon, ang address ay mukhang ganito."
+            "p": "Kapag tapos na ang kalkulasyon, ganito ang hitsura ng address."
           },
           {
             "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
           },
           {
-            "p": "Ano ang sumusunod sa **#** ay ang mga input values. Ang bahaging ito ay tinatawag na **fragment**, na isang **seksyon na hindi ipinapadala ng browser sa server**. Ito ay karaniwang pag-uugali ng web at hindi isang patakaran na nilikha namin — ito ay orihinal na dinisenyo upang ipahiwatig ang isang lokasyon sa loob ng isang dokumento, kaya walang pangangailangan ang server na makita ito."
+            "p": "Ang bahaging nasa pagkatapos ng **#** ang may hawak ng input ng dalawang tao. Tinatawag itong fragment, at ayon sa karaniwang gawi ng web, **hindi ito ipinapadala ng browser sa server**. Dinisenyo ito para ituro ang isang posisyon sa loob ng dokumento, kaya hindi ito nakikita ng server."
           },
           {
-            "p": "Sa madaling salita, kapag binuksan mo ang link ng resulta, binabasa ng browser ang halagang iyon upang humiling ng kalkulasyon, at ang aming server ay tumatanggap ng mga halagang kinakailangan para sa kalkulasyon, ibinabalik ang sagot, at pagkatapos ay nakakalimutan ito."
+            "p": "Kapag binuksan mo ang isang result link, binabasa ng browser ang halagang iyon at humihiling ng kalkulasyon; natatanggap ng server ang mga halagang kailangan nito, ibinabalik ang sagot at kinakalimutan ang mga ito."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Mangyaring mag-ingat kapag nagpapadala ng mga link sa iba",
+        "title": "Bago mo ipadala ang link sa kabilang tao",
         "blocks": [
           {
-            "p": "Ang katotohanang hindi ito nakaimbak sa server at ang link ay ligtas ay hindi pareho. Ang link ng resulta ay naglalaman ng parehong mga petsa ng iyong kapanganakan, kaya ang taong tumanggap ng link na iyon ay makikita ang parehong resulta."
+            "p": "Hindi magkapareho ang hindi nakaimbak sa server at ang pagiging lihim ng isang link. Sinumang makatanggap ng link ay nakikita ang parehong petsa ng kapanganakan nang buo, at ang link na naiwan sa chat room ay nananatili sa chat room na iyon anuman ang aming server. Mangyaring ipadala ito nang alam na laman nito ang detalye ng kabilang tao."
           }
         ]
       },
       {
-        "title": "Bakit ang kalkulasyon ay ginagawa sa server ngunit hindi nakaimbak?",
+        "title": "Bakit walang natitira kahit sa server tumatakbo ang kalkulasyon",
         "blocks": [
           {
-            "p": "Ang kalkulasyon mismo ay ginagawa sa server. Ang Korean lunisolar almanac ay kinakailangan upang makabuo ng saju, at ang talahanayang iyon ay masyadong malaki upang maipadala sa browser. Gayunpaman, **pagkatapos iproseso ang kahilingan, ang halagang iyon ay hindi ginagamit kahit saan.** Walang code upang iimbak ito sa isang database."
+            "p": "Para buuin ang tsart ng saju, kailangan natin ng almanac table na masyadong malaki para ipadala sa browser, kaya sa server tumatakbo ang kalkulasyon. Ngunit **kapag naproseso na ang kahilingan, hindi na ginagamit saanman ang mga halaga.** Walang code na nagsusulat ng mga ito sa isang database."
           },
           {
-            "p": "Isang minimal na tala na kinakailangan para sa operasyon ang itinatago — isang counter upang maiwasan ang parehong tao na magpadala ng masyadong maraming kahilingan sa maikling panahon. Ito ay hindi kasama ang petsa ng kapanganakan, at ang access IP ay hindi rin itinatago. Isang halaga lamang, na hashed gamit ang petsa, ang binibilang, at ang halagang iyon ay nagbabago kapag nagbago ang araw."
+            "p": "Ang tanging talaang natitira ay isang counter na pumipigil sa isang tao na magpadala ng masyadong maraming kahilingan sa maikling panahon. Wala itong petsa ng kapanganakan at hindi nito iniingatan ang IP address nang buo; nagbibilang ito ng iisang halaga, na na-hash kasama ang petsa, at nagbabago ang halagang iyon kapag nagbago ang araw."
           }
         ]
       },
       {
-        "title": "Mga bagay na hindi magagawa dahil hindi nakaimbak ang impormasyon",
+        "title": "Ang isinuko namin dahil hindi kami nag-iimbak",
         "blocks": [
           {
-            "p": "Sa totoo lang, may mga bagay na isinuko namin dahil hindi kami nag-iimbak ng impormasyon."
+            "p": "Dahil walang nakaimbak, may ilang bagay na isinuko namin."
           },
           {
             "ul": [
-              "**Hindi mo maibabalik ang mga nakaraang resulta.** Kailangan mong magkaroon ng link upang muling makita ang mga ito.",
-              "**Ang parehong mga halaga ay muling kakalkulahin.** Walang cache. Gayunpaman, dahil ang lahat ng mga patakaran ay deterministic, [ang parehong input ay palaging magbibigay ng parehong halaga](/guide/how-compatibility).",
-              "**Ang pag-refresh ay magdadala pabalik sa ad gate.** Ito ay dahil walang lugar upang panatilihin ang mga tala ng pagtingin."
+              "**Hindi mo na maibabalik ang nakaraang resulta ng compatibility.** Kailangan mong itago ang link para makita itong muli.",
+              "**Muling kinakalkula sa bawat pagkakataon ang parehong dalawang tao.** Walang cache. Ngunit deterministic ang bawat patakaran, kaya [laging pareho ang halaga para sa parehong input](/guide/how-compatibility).",
+              "**Ang pag-refresh ay nagbabalik ng ad gate.** Walang mapagtatabihan ng tala na napanood mo na ito."
             ]
           }
         ]
       },
       {
-        "title": "Sa kaso ng pagbili",
+        "title": "Kung bibili ka ng report",
         "blocks": [
           {
-            "p": "Kung bumili ka ng ulat, isang tala ng transaksyon ang itatago sa oras na iyon. Itinatakda ng batas ang isang panahon ng pagpapanatili para sa mga pagbabayad, at walang kasaysayan ng order, hindi maiproseso ang mga refund. Gayunpaman, kahit na sa mga pagkakataong iyon, **ang petsa ng kapanganakan na ginamit para sa mga kalkulasyon ng pagkakatugma ay hindi nakakabit sa order** — ito ay muling kinokolekta kapag nilikha ang PDF pagkatapos ng kumpirmasyon ng pagbabayad."
+            "p": "Kung bibili ka ng report, may itatabing talaan ng transaksyon sa puntong iyon: may legal na kinakailangang panahon ng pag-iimbak ang mga talaan ng pagbabayad, at kung walang kasaysayan ng order ay hindi maaaring iproseso ang refund. Kahit noon, **hindi nakakabit sa order ang dalawang petsa ng kapanganakan**; muli itong hinihingi kapag ginagawa ang PDF pagkatapos makumpirma ang bayad, at ginagamit lang sa sandaling iyon."
           },
           {
-            "p": "Ang mga detalye ay nakasaad sa [Patakaran sa Privacy](/privacy)."
+            "p": "Nasa [patakaran sa privacy](/privacy) ang mga detalye."
           }
         ]
       }

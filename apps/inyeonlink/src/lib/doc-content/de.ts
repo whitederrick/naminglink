@@ -227,21 +227,21 @@ export const DE_DOCS = {
   },
   "guide/branches": {
     "eyebrow": "Beziehungstabelle",
-    "title": "Zwölf Erdzweige — Kombination, Zusammenstoß, Zwietracht",
-    "summary": "Dies ist eine Beziehungstabelle, die sowohl für die Kompatibilität der Tageszweige als auch für die Tierkreis-Kompatibilität verwendet wird. Sie gibt vollständig an, was jede Kombination, jeder Zusammenstoß und jede Zwietracht bedeutet und deren jeweilige Punktzahlen.",
+    "title": "Wie Tierkreiszeichen und Tageszweige zusammentreffen — Die Tabelle der zwölf Zweige",
+    "summary": "Die Beziehungstabelle, die verwendet wird, wenn die Tierkreiszeichen und Tageszweige zweier Personen nebeneinandergelegt werden. Sie zeigt für jedes der zwölf Tiere, mit welchen Tieren es eine Harmonie, einen Zusammenstoß oder eine Zwietracht bildet, und legt den Punktwert jeder Beziehung offen.",
     "backLabel": "Berechnungsgrundlage",
     "sections": [
       {
-        "title": "Die Erdzweige bestehen aus zwölf Zeichen",
+        "title": "Tierkreiszeichen und Tageszweige verwenden dieselbe Tabelle",
         "blocks": [
           {
-            "p": "Die zwölf Erdzweige (十二支) sind 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. Die allgemein bekannten Tierkreiszeichen sind mit jedem dieser zwölf Zeichen verbunden."
+            "p": "Inyeon-Link legt die irdischen Zweige zweier Personen an zwei Stellen nebeneinander: bei der **Tierkreis-Kompatibilität**, die den Zweig des Geburtsjahres betrachtet, und bei der **Tageszweig-Kompatibilität** (dem Ehepalast), die den Zweig des Geburtstages betrachtet. Beide werden mit der folgenden Tabelle beurteilt; der einzige Unterschied ist, wie stark jede im Endwert gewichtet wird."
           },
           {
             "figure": "branch-wheel",
-            "caption": "Die Anordnung der zwölf Zeichen in einem Kreis bietet einen klaren Blick auf die Beziehungen. Ein Zusammenstoß sitzt immer direkt gegenüber, während ein **Sechs-Harmonie-Paar** und eine ruhige Zwietracht nähere Nachbarn sind. Diese Linien stammen direkt aus den Berechnungsregeln und sind nicht im Text geschrieben.",
+            "caption": "Ordnet man die zwölf Zeichen im Kreis an, sind die Beziehungen auf einen Blick zu erkennen. Ein Zusammenstoß liegt immer direkt gegenüber, während ein Sechs-Harmonie-Paar und eine stille Zwietracht nähere Nachbarn sind. Diese Linien werden nicht von Hand gezeichnet, sondern direkt aus den Berechnungsregeln abgeleitet.",
             "labels": {
-              "alt": "Ein Diagramm, das die zwölf Erdzweige in einem Kreis anzeigt, mit Linien, die Sechs-Harmonie, Zusammenstoß und Zwietracht verbinden.",
+              "alt": "Ein Diagramm, das die zwölf irdischen Zweige im Kreis angeordnet zeigt, mit Linien, die Paare der Sechs-Harmonie, des Zusammenstoßes und der Zwietracht verbinden.",
               "yukhap": "Sechs-Harmonie",
               "chung": "Zusammenstoß",
               "wonjin": "Zwietracht",
@@ -258,66 +258,109 @@ export const DE_DOCS = {
               "dog": "Hund",
               "pig": "Schwein"
             }
-          },
-          {
-            "p": "In saju hat jede der vier Säulen einen irdischen Zweig. Inyeon-Link verwendet den **Tag-Zweig** (den Ehepartnerpalast) und den **Jahres-Zweig** (das Tierkreiszeichen) unter ihnen. Beide Positionen werden anhand der Beziehungstabelle unten bewertet."
           }
         ]
       },
       {
-        "title": "Gesamte Beziehungstabelle",
+        "title": "Die Beziehungen der zwölf Tierkreiszeichen",
         "blocks": [
           {
+            "p": "Für jedes Tier führt die Tabelle auf, mit welchen Tieren es welche Beziehung eingeht. Es sind nur die Paare aufgeführt, die dieser Dienst als Harmonien anerkennt; ein Tier, das in einer Zeile nicht erscheint, steht in keiner besonderen Beziehung zu ihr — es ist **neutral**."
+          },
+          {
             "table": {
-              "caption": "Sortiert nach höchster Punktzahl. Dies sind die Werte, die tatsächlich von Inyeon-Link verwendet werden.",
+              "caption": "Vier Arten von Beziehungen, von einem Tier aus gesehen",
               "head": [
-                "Beziehung",
-                "Entsprechendes Paar",
-                "Bedeutung",
-                "Punktzahl"
+                "Ihr Tier",
+                "Sich anziehendes Paar (Sechs-Harmonie)",
+                "Halb-Triade",
+                "Stille Disharmonie (Zwietracht)",
+                "Frontaler Zusammenstoß"
               ],
               "rows": [
                 [
-                  "Kombination (三合)",
-                  "申子辰 · 巳酉丑 · 寅午戌 · 亥卯未",
-                  "Wenn alle drei Zeichen zusammenkommen, bilden sie eine vollständige elementare Formation — ein **guk** (局). Dies wird als die stärkste Kombination angesehen.",
-                  "{scoreSamhap}"
+                  "Ratte (子)",
+                  "Ochse",
+                  "Affe · Drache",
+                  "Ziege",
+                  "Pferd"
                 ],
                 [
-                  "Sechs-Harmonie (六合)",
-                  "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
-                  "Paare, die sich anziehen. Dies ist die häufigste Kombination in der Kompatibilität, da sie nur aus zwei Zeichen besteht.",
-                  "{scoreYukhap}"
+                  "Ochse (丑)",
+                  "Ratte",
+                  "Hahn",
+                  "Pferd",
+                  "Ziege"
                 ],
                 [
-                  "Halb-Triad (半合)",
-                  "Zwei Zeichen, die einen königlichen Zweig (王地) aus der Triade (子·酉·午·卯) enthalten",
-                  "Eine halbe Kombination, die das Zeichen in der Mitte der Formation enthält. Sie kann mit nur zwei Zeichen keine vollständige Kombination bilden, was sie niedriger als eine vollständige Triade macht.",
-                  "{scoreBanhap}"
+                  "Tiger (寅)",
+                  "Schwein",
+                  "Pferd",
+                  "Hahn",
+                  "Affe"
                 ],
                 [
-                  "Gleicher irdischer Zweig",
-                  "子子 · 丑丑 …",
-                  "Zeichen, die gleich sind. Dies bedeutet, dass sie sich ähneln, aber es impliziert keine Anziehung, weshalb es in der Mitte platziert wird.",
-                  "{scoreSame}"
+                  "Hase (卯)",
+                  "Hund",
+                  "Schwein · Ziege",
+                  "Affe",
+                  "Hahn"
                 ],
                 [
-                  "Neutral",
-                  "Paare, die nirgendwo oben oder unten gehören",
-                  "Eine Kombination ohne besondere Beziehung. Dies ist der Referenzpunkt.",
-                  "{scoreNeutral}"
+                  "Drache (辰)",
+                  "Hahn",
+                  "Ratte",
+                  "Schwein",
+                  "Hund"
                 ],
                 [
-                  "Stille Disharmonie (怨嗔)",
-                  "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
-                  "Paare, die sich trotz Groll nicht trennen können. Sie erscheinen an der Oberfläche ruhig, werden aber als langanhaltend angesehen.",
-                  "{scoreWonjin}"
+                  "Schlange (巳)",
+                  "Affe",
+                  "Hahn",
+                  "Hund",
+                  "Schwein"
                 ],
                 [
-                  "Konflikt (沖)",
-                  "子午 · 丑未 · 寅申 · 卯酉 · 辰戌 · 巳亥",
-                  "Paare, die direkt aufeinanderprallen. Dies sind sechs Paare, die sich gegenüberstehen.",
-                  "{scoreChung}"
+                  "Pferd (午)",
+                  "Ziege",
+                  "Tiger · Hund",
+                  "Ochse",
+                  "Ratte"
+                ],
+                [
+                  "Ziege (未)",
+                  "Pferd",
+                  "Hase",
+                  "Ratte",
+                  "Ochse"
+                ],
+                [
+                  "Affe (申)",
+                  "Schlange",
+                  "Ratte",
+                  "Hase",
+                  "Tiger"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Drache",
+                  "Schlange · Ochse",
+                  "Tiger",
+                  "Hase"
+                ],
+                [
+                  "Hund (戌)",
+                  "Hase",
+                  "Pferd",
+                  "Schlange",
+                  "Drache"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Tiger",
+                  "Hase",
+                  "Drache",
+                  "Schlange"
                 ]
               ]
             }
@@ -325,41 +368,90 @@ export const DE_DOCS = {
         ]
       },
       {
-        "title": "Vollständige Triaden erscheinen in diesem Dienst nicht",
+        "title": "Wenn zwei Personen in der Tabelle aufeinandertreffen",
         "blocks": [
           {
-            "p": "Eine vollständige Triade erfordert drei Zeichen, um zu bilden. Die Kompatibilität wird jedoch durch das Abgleichen der irdischen Zweige von zwei Personen **eins nach dem anderen** strukturiert, was nur zu zwei Zeichen führt. Daher erscheint hier immer eine halbe Triade, und die Punkte der vollständigen Triade {scoreSamhap} sind für die Untersuchung der Formationen innerhalb jedes saju reserviert."
+            "p": "Die Tabelle zu lesen heißt, die beiden Tiere in einer Zeile zu finden. Hier einige Paare als Beispiele."
+          },
+          {
+            "ul": [
+              "**Ratte und Ochse** — eine Sechs-Harmonie. Sie braucht nur zwei Zeichen und ist daher die Harmonie, die in der Kompatibilität am häufigsten vorkommt, und eine gute.",
+              "**Ratte und Drache** — eine Halb-Triade: zwei der drei Zeichen 申子辰, einschließlich des mittleren (子).",
+              "**Ratte und Tiger** — nicht in der Tabelle, also neutral: weder Harmonie noch Zusammenstoß, nur die Ausgangslage.",
+              "**Ratte und Ziege** — eine Zwietracht. Sie wirkt an der Oberfläche ruhig, aber die Verschiebung gilt als dauerhaft.",
+              "**Tiger und Affe** — ein Zusammenstoß. Sie liegen einander direkt gegenüber und gelten als frontal kollidierend."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Wie viele Punkte jede Beziehung erhält",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Der höchste Wert zuerst. Dies sind die Werte, die Inyeon-Link tatsächlich verwendet.",
+              "head": [
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ],
+                [
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Der gleiche Zweig (zwei Personen desselben Tieres) bedeutet Ähnlichkeit, nicht Anziehung, und liegt daher knapp über neutral. Ob Tierkreis- oder Tageszweig-Kompatibilität: Der Wert dieser Tabelle geht direkt in den Endwert ein."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Halb-Triaden müssen einen königlichen Zweig enthalten",
+        "title": "Warum vollständige Triaden nicht in der Tabelle stehen",
         "blocks": [
           {
-            "p": "Es gibt auch eine Methode, die als halbe Triade zählt, wenn beide Zeichen zur gleichen Triadengruppe gehören. Dies kann zu hohen Punktzahlen führen, selbst für Kombinationen, die schwer als Triade zu bezeichnen sind, wie 申辰. Daher erkennt dieser Dienst eine halbe Triade nur für Paare an, die einen königlichen Zweig (王地) (子·酉·午·卯) enthalten, und Kombinationen wie 申辰·巳丑·寅戌·亥未 ohne einen königlichen Zweig werden nicht als Triaden gezählt."
+            "p": "Eine vollständige Triade (申子辰, 巳酉丑, 寅午戌, 亥卯未) braucht alle drei Zeichen. Legt man zwei Personen nebeneinander, ergeben sich nur zwei, sodass in der Kompatibilität keine vollständige Triade entstehen kann und nur Halb-Triaden vorkommen. Der Punktwert {scoreSamhap} der vollständigen Triade bleibt für den Fall erhalten, dass drei Zeichen innerhalb des eigenen Horoskops einer Person zusammenkommen."
           }
         ]
       },
       {
-        "title": "Der Grund für die Trennung von stiller Disharmonie",
+        "title": "申辰, 巳丑, 寅戌 und 亥未 zählen nicht als Harmonien",
         "blocks": [
           {
-            "p": "Die sechs Paare stiller Disharmonie werden in der Kompatibilität ebenso häufig wie Konflikte gesehen. Wenn wir Kombinationen als Paare und Konflikte zählen, würden diese sechs Paare alle unter neutralen {scoreNeutral} Punkten begraben werden, weshalb sie separat platziert werden."
-          },
-          {
-            "p": "Während Konflikte offen und auffällig sind, ist stille Disharmonie subtil fehlplatziert. Daher wird sie mit einer Punktzahl von {scoreWonjin} platziert, die höher ist als die von Konflikten ({scoreChung}), aber definitiv niedriger als neutral ({scoreNeutral})."
+            "p": "Manche Methoden zählen zwei beliebige Zeichen derselben Triadengruppe als Halb-Triade. Inyeon-Link tut das nicht: Wie die Spalte der Halb-Triade oben zeigt, werden nur Paare akzeptiert, die den **königlichen Zweig** in der Mitte der Gruppe enthalten (子, 午, 卯, 酉). Ein Paar ohne ihn hat kein Zentrum, um das sich die Formation sammeln könnte, und gilt daher als neutral."
           }
         ]
       },
       {
-        "title": "Punkte werden auch Konflikten zugewiesen",
+        "title": "Zwietracht und Zusammenstoß liegen nicht am Boden",
         "blocks": [
           {
-            "p": "Die niedrigste Konfliktpunktzahl beträgt {scoreChung}. Die Absicht ist nicht, einen Wert nahe 0 zuzuweisen. In der Tradition ist ein Konflikt kein 'Ende', sondern eine 'Kollision', und eine niedrige Punktzahl würde implizieren, dass der Dienst eine definitive Aussage über die Beziehung trifft."
+            "p": "Würden nur Harmonien und Zusammenstöße gezählt, ginge jedes der sechs Zwietracht-Paare im Neutralen unter. Deshalb hat die Zwietracht einen eigenen Platz: höher als der frontale Zusammenstoß und niedriger als neutral, bei {scoreWonjin} Punkten."
           },
           {
-            "p": "Mit einem Minimum von {scoreChung} und einem Maximum von {scoreSamhap} ist der Bereich klar, aber es zieht kein definitives Fazit."
+            "p": "Auch ein Zusammenstoß behält {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung. Ein Wert nahe null würde den Dienst dazu bringen, über zwei Menschen ein Urteil zu fällen; deshalb ist der Bereich breit genug gehalten, um den Unterschied zu zeigen, ohne ein Urteil auszusprechen."
           }
         ]
       }
@@ -872,179 +964,166 @@ export const DE_DOCS = {
   },
   "guide/true-solar-time": {
     "eyebrow": "Zeit",
-    "title": "Geburtszeit in wahre Solarzeit umrechnen",
-    "summary": "Die Standardzeit und die tatsächliche Position der Sonne unterscheiden sich. Die Zeit muss basierend auf der Längengrad des Geburtsortes korrigiert werden, um zu erklären, warum der Zeitstamm genau ist.",
+    "title": "Die Geburtszeit jeder Person wird einzeln korrigiert",
+    "summary": "Die Kompatibilität berechnet die Zeiten der beiden Personen getrennt. Hier wird erklärt, wie die Korrektur gilt, wenn sich Geburtsorte und Epochen unterscheiden, und was sich ändert, wenn nur eine der beiden ihre Zeit nicht kennt.",
     "backLabel": "Berechnungsgrundlage",
     "sections": [
       {
-        "title": "Die Uhrzeit und die Zeit der Sonne sind unterschiedlich",
+        "title": "Die Uhr und die Sonne stimmen nicht überein",
         "blocks": [
           {
-            "p": "Der Zeitstamm (時柱) des saju wird durch die Position der Sonne bestimmt. Allerdings verwendet die Uhr, die wir sehen, eine einheitliche Standardzeit für das gesamte Land, was zu einer Diskrepanz mit der tatsächlichen Position der Sonne führt."
+            "p": "Im Saju wird die Geburtszeit nicht von der Uhr, sondern vom Stand der Sonne abgelesen. Ein ganzes Land hält sich jedoch an eine einheitliche Standardzeit, sodass sich die Uhr und die Sonne eines bestimmten Ortes voneinander entfernen."
           },
           {
-            "p": "Die Standardzeit Koreas basiert auf 135° östlicher Länge. Da die Länge von Seoul etwa 127° beträgt, ist sie ungefähr 8° westlich, was dazu führt, dass die Sonne später ihren Zenit erreicht — wenn es nach der Uhr Mittag ist, hat die Sonne in Seoul ihren Zenit noch nicht erreicht. Dieser Unterschied beträgt etwa **32 Minuten**."
+            "p": "Koreas Standardzeit beruht auf 135° Ost, während Seoul bei etwa 127° Ost liegt. Die Sonne erreicht in Seoul ihren höchsten Stand um etwa **32 Minuten** später, als die Uhr anzeigt."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "32 Minuten ändern den Zeitstamm um einen Slot",
+        "title": "32 Minuten können die Stundensäule um einen Schritt verschieben",
         "blocks": [
           {
-            "p": "Die Zeit im saju ist in zwei-Stunden-Einheiten unterteilt. Personen, die nahe der Grenze geboren wurden, haben ihren Zeitstamm durch einen Unterschied von 32 Minuten vollständig verändert — diese Korrektur ist notwendig für diejenigen, die genau an dieser Grenze liegen."
+            "p": "Wer in Seoul um 11:40 Uhr nach der Uhr geboren wurde, wurde in wahrer Sonnenzeit um 11:08 Uhr geboren, was noch in die Pferd-Stunde (午, 11:00–13:00) fällt. Wer um 11:20 Uhr nach der Uhr geboren wurde, wurde um 10:48 Uhr geboren, was in die Schlange-Stunde (巳, 9:00–11:00) fällt. Die Korrektur gibt es für Menschen, die genau an einer solchen Grenze stehen."
           }
         ]
       },
       {
-        "title": "Warum wir nach dem Geburtsort fragen",
+        "title": "Die Korrektur wird für jede Person einzeln angewendet",
         "blocks": [
           {
-            "p": "Wenn die Länge unterschiedlich ist, wird auch der Korrekturwert unterschiedlich sein. Die Anwendung der auf Seoul basierenden Korrektur auf jemanden, der im Ausland geboren wurde, führt zu einer erheblichen Diskrepanz im Zeitstamm. Daher erfordert der Eingabebildschirm, dass Sie Ihren Geburtsort auswählen, und die Berechnung basiert auf der Länge und der Standardzeit dieser Stadt. Derzeit gibt es {cityCount} Orte in der Liste."
+            "p": "Die Kompatibilität erstellt das Horoskop jeder Person für sich. Deshalb fragt der Eingabebildschirm den Geburtsort **für jede Person** ab. Wurde eine Person in Seoul und die andere im Ausland geboren, werden ihre Zeiten getrennt korrigiert, mit unterschiedlichen Längengraden und Zeitzonen."
           },
           {
-            "p": "In Regionen, in denen die Länge selbst innerhalb desselben Landes (wie den USA, Russland, Indonesien usw.) stark variiert, wurden die Städte unterteilt. **15° Länge entspricht einem Zeitstamm-Slot.**"
+            "p": "Die Städteliste umfasst derzeit {cityCount} Orte. Bei Ländern, deren Längengrad stark variiert, sind die Städte aufgeteilt, weil **15° Länge die Stundensäule um einen Schritt verschieben**."
           },
           {
-            "p": "Wenn Sie nicht auswählen, wird die Berechnung auf Seoul basieren. Da die meisten Geburten im Inland stattfinden, verringert dies die Fehlerchance, aber wenn Sie im Ausland geboren wurden, wählen Sie bitte unbedingt aus."
+            "p": "Wenn Sie nichts auswählen, wird Seoul verwendet. Wurde nur eine Person im Ausland geboren und beide bleiben auf Seoul eingestellt, ist nur die Stundensäule der im Ausland geborenen Person verschoben; die Werte der anderen Person sind nicht betroffen, weil die Korrektur personenweise angewendet wird."
           }
         ]
       },
       {
-        "title": "Die Standardzeit hat sich in der Vergangenheit mehrmals geändert",
+        "title": "Verschiedene Epochen verwendeten unterschiedliche Standardzeiten",
         "blocks": [
           {
-            "p": "Es gibt einen Grund, warum die Korrektur nicht einfach als 'Längendifferenz ÷ 15° × 60 Minuten' berechnet werden kann. Die Standardzeit selbst hat sich über verschiedene Epochen hinweg verändert."
+            "p": "Zwei Personen unterschiedlichen Alters lebten unter der Standardzeit verschiedener Perioden. Deshalb genügt ein Längenunterschied allein nicht."
           },
           {
-            "table": {
-              "caption": "Änderungen in Koreas Standardzeit — diejenigen, die in diesem Zeitraum geboren wurden, werden Abweichungen bei einfachen Berechnungen haben",
-              "head": [
-                "Zeitraum",
-                "Was war anders"
-              ],
-              "rows": [
-                [
-                  "Vor 1912",
-                  "Es gab keine Standardzeit (lokale Mittelzeit)"
-                ],
-                [
-                  "1954 – 1961",
-                  "Die Standardzeit war UTC+8:30"
-                ],
-                [
-                  "1948 – 51 · 1955 – 60 · 1987 – 88",
-                  "Die Sommerzeit wurde eingeführt"
-                ]
-              ]
-            }
+            "ul": [
+              "**Vor 1912** — Korea hatte keine einheitliche Standardzeit (lokale mittlere Zeit).",
+              "**1954–1961** — die Standardzeit war UTC+8:30.",
+              "**1948–51 · 1955–60 · 1987–88** — die Sommerzeit war in Kraft."
+            ]
           },
           {
-            "p": "Inyeon-Link verwendet keinen festen Wert für den Standardmeridian, sondern berechnet die Standardzeit, die zu diesem Zeitpunkt tatsächlich verwendet wurde, basierend auf den **IANA-Zeitzonen**-Informationen des Geburtsortes. Die Sommerzeit und vergangene Standardzeiten werden automatisch berücksichtigt."
+            "p": "Inyeon-Link schreibt keinen Standardmeridian fest vor. Es schlägt die **IANA-Zeitzone** des Geburtsortes nach, um die zu diesem Zeitpunkt tatsächlich geltende Standardzeit zu ermitteln, sodass die jeweilige Epoche jeder Person berücksichtigt wird, auch wenn ihre Geburtsjahre verschieden sind."
           }
         ]
       },
       {
-        "title": "Geburten kurz nach Mitternacht berücksichtigen ebenfalls das Datum",
+        "title": "Kurz nach Mitternacht wechselt der Tagestamm",
         "blocks": [
           {
-            "p": "Da die Korrektur -32 Minuten beträgt, werden diejenigen, die zwischen 00:00 und 00:32 nach der Uhr geboren wurden, in wahrer Sonnenzeit als **23:00 des vorherigen Tages** betrachtet. Wenn nur die Zeit zurückgesetzt wird und das Datum unverändert bleibt, wird der Tagestamm als '23:00 des vorherigen Tages' geschrieben."
+            "p": "Die Korrektur beträgt −32 Minuten; wer nach der Uhr zwischen 00:00 und 00:32 Uhr geboren wurde, wurde in wahrer Sonnenzeit in der **23:00-Stunde des Vortages** geboren. Das Datum wird entsprechend zurückgesetzt."
           },
           {
-            "p": "Inyeon-Link wird in diesem Fall auch das Datum zurücksetzen. Der Tagestamm zeigt die Person selbst in saju an, daher wird, wenn dies falsch ist, fast alles in Bezug auf die Kompatibilität falsch sein."
+            "p": "In der Kompatibilität ist das sehr wichtig. Wenn die Tagessäule um einen Tag zurückgeht, ändern sich sowohl der Tagestamm als auch der Tageszweig; daher werden die Beziehung der Tagestämme, der Ehe-Stern und die Beziehung der Tageszweige alle mit anderen Zeichen neu berechnet, und die Stärken der fünf Elemente verschieben sich mit."
           }
         ]
       },
       {
-        "title": "Sie müssen die Zeit nicht wissen",
+        "title": "Es ist in Ordnung, wenn nur eine Person ihre Zeit nicht kennt",
         "blocks": [
           {
-            "p": "Die Geburtszeit ist optional. Wenn Sie sie nicht wissen, wird die Berechnung ohne den Zeitstamm durchgeführt, und diese Tatsache wird auf dem Ergebnisbildschirm angezeigt. Es gibt keine Elemente in der Kompatibilität, die erfordern, dass der Zeitstamm direkt geschrieben wird, aber er beeinflusst die fünf Elemente, daher ist es genauer, ihn einzuschließen, wenn Sie ihn wissen."
+            "p": "Die Geburtszeit ist optional, und die Kompatibilität wird auch berechnet, wenn nur eine der beiden Personen ihre nicht kennt. Nur die Person, die sie nicht kennt, wird ohne Stundensäule berechnet, und der Ergebnisbildschirm weist darauf hin. Die Werte der anderen Person bleiben unverändert."
           },
           {
-            "p": "Die Tierkreis-Kompatibilität ist immer der gleiche Wert, unabhängig von der Zeit — [weil sie nur den Jahrzweig betrachtet](/guide/zodiac)."
+            "p": "Keiner der vier Kompatibilitätspunkte verwendet die Stundensäule direkt, aber sie beeinflusst die Stärken der fünf Elemente; wenn Sie sie kennen, ist es daher genauer, sie anzugeben. Die Tierkreis-Kompatibilität ergibt mit oder ohne Zeit denselben Wert — [sie betrachtet nur den Jahreszweig](/guide/zodiac)."
           }
         ]
       }
     ]
   },
   "guide/no-storage": {
-    "eyebrow": "Persönliche Informationen",
-    "title": "Methode zur Nicht-Speicherung eingegebener Informationen",
-    "summary": "Dies erklärt, was es technisch bedeutet, dass Ihr Geburtsdatum nirgendwo aufgezeichnet wird und was im Ergebnislink enthalten ist.",
+    "eyebrow": "Datenschutz",
+    "title": "Wie wir vermeiden, die Angaben zweier Personen zu speichern",
+    "summary": "Für die Kompatibilität müssen Sie auch das Geburtsdatum einer anderen Person eingeben. Hier wird technisch erklärt, was es bedeutet, dass die Eingaben keiner der beiden Personen irgendwo aufgezeichnet werden, und was ein Ergebnislink mit sich führt.",
     "backLabel": "Berechnungsgrundlage",
     "sections": [
       {
-        "title": "Keine Mitgliedschaft erforderlich",
+        "title": "Sie geben die Informationen einer anderen Person ein",
         "blocks": [
           {
-            "p": "Inyeon-Link erstellt keine Konten. Es werden keine Namen, E-Mails oder Telefonnummern gesammelt. Die einzigen Informationen, die gesammelt werden, sind das Geburtsdatum und (optional) die Geburtszeit, der Geburtsort und das Geschlecht, und selbst das bleibt nicht nach Abschluss der Berechnung."
+            "p": "Der Kompatibilitätsbildschirm nimmt Ihr Geburtsdatum und das der anderen Person gemeinsam entgegen. Das Geburtsdatum der anderen Person ist deren persönliche Information, daher legen wir gesondert dar, wie Inyeon-Link mit beiden umgeht."
           },
           {
-            "p": "Es gibt ein Feld, um einen Titel einzugeben, der auf dem Ergebnisbildschirm angezeigt wird, aber das ist **nur zu Anzeigezwecken** und wird nicht in der Berechnung verwendet. Sie müssen Ihren echten Namen nicht eingeben."
+            "p": "Es gibt kein Konto, und wir verlangen weder Namen noch E-Mail-Adresse oder Telefonnummer. Wir erhalten nur die beiden Geburtsdaten und optional Geburtszeit, Geburtsort und Geschlecht, und nichts davon bleibt nach Abschluss der Berechnung erhalten."
+          },
+          {
+            "p": "Es gibt ein Feld für einen Anzeigenamen, der auf dem Ergebnisbildschirm erscheint, doch er dient nur der Anzeige und fließt nicht in die Berechnung ein. Sie müssen keinen echten Namen eingeben."
           }
         ]
       },
       {
-        "title": "Was ist im Ergebnislink enthalten?",
+        "title": "Ein Ergebnislink enthält beide Geburtsdaten",
         "blocks": [
           {
-            "p": "Sobald die Berechnung abgeschlossen ist, sieht die Adresse so aus."
+            "p": "Nach der Berechnung sieht die Adresse so aus."
           },
           {
             "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
           },
           {
-            "p": "Was nach **#** folgt, sind die Eingabewerte. Dieser Teil wird als **Fragment** bezeichnet, das ein **Abschnitt ist, den der Browser nicht an den Server sendet**. Dies ist ein standardmäßiges Webverhalten und keine Regel, die wir erstellt haben — es wurde ursprünglich entwickelt, um einen Standort innerhalb eines Dokuments anzuzeigen, sodass der Server keinen Grund hat, es zu sehen."
+            "p": "Der Teil nach dem **#** enthält die Eingaben der beiden Personen. Er wird Fragment genannt, und nach dem Standardverhalten des Webs **sendet der Browser ihn nicht an den Server**. Er wurde dafür entworfen, auf eine Position innerhalb eines Dokuments zu zeigen, sodass der Server ihn nie zu sehen bekommt."
           },
           {
-            "p": "Mit anderen Worten, wenn Sie den Ergebnislink öffnen, liest der Browser diesen Wert, um die Berechnung anzufordern, und unser Server erhält die für die Berechnung benötigten Werte, gibt die Antwort zurück und vergisst sie dann."
+            "p": "Wenn Sie einen Ergebnislink öffnen, liest der Browser diesen Wert und fordert eine Berechnung an; der Server erhält die benötigten Werte, liefert die Antwort und vergisst sie wieder."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Bitte seien Sie vorsichtig, wenn Sie Links an andere senden",
+        "title": "Bevor Sie den Link an die andere Person senden",
         "blocks": [
           {
-            "p": "Die Tatsache, dass es nicht auf dem Server gespeichert wird und dass der Link sicher ist, sind nicht dasselbe. Der Ergebnislink enthält beide Ihre Geburtsdaten, sodass die Person, die diesen Link erhält, dasselbe Ergebnis sehen kann."
+            "p": "Nicht auf einem Server gespeichert zu sein ist nicht dasselbe wie ein geheimer Link. Wer den Link erhält, sieht beide Geburtsdaten unverändert, und ein in einem Chat hinterlassener Link bleibt in diesem Chat, unabhängig von unserem Server. Bitte senden Sie ihn in dem Bewusstsein, dass er die Angaben der anderen Person enthält."
           }
         ]
       },
       {
-        "title": "Warum wird die Berechnung auf dem Server durchgeführt, aber nicht gespeichert?",
+        "title": "Warum nichts zurückbleibt, obwohl die Berechnung auf einem Server läuft",
         "blocks": [
           {
-            "p": "Die Berechnung selbst erfolgt auf dem Server. Der koreanische lunisolare Almanach wird benötigt, um das saju zu generieren, und diese Tabelle ist zu groß, um sie an den Browser zu senden. Allerdings wird **nach der Verarbeitung der Anfrage dieser Wert nirgendwo verwendet.** Es gibt keinen Code, um ihn in einer Datenbank zu speichern."
+            "p": "Um ein Saju-Horoskop zu erstellen, brauchen wir eine Almanach-Tabelle, die zu groß ist, um sie an den Browser zu senden, daher läuft die Berechnung auf dem Server. Aber **sobald die Anfrage bearbeitet ist, werden die Werte nirgendwo sonst verwendet.** Es gibt keinen Code, der sie in eine Datenbank schreibt."
           },
           {
-            "p": "Ein minimaler für den Betrieb notwendiger Datensatz wird aufbewahrt — ein Zähler, um zu verhindern, dass dieselbe Person zu viele Anfragen in kurzer Zeit sendet. Dies schließt das Geburtsdatum nicht ein, und die Zugriffs-IP wird ebenfalls nicht gespeichert. Nur ein Wert, der mit dem Datum gehasht ist, wird gezählt, und dieser Wert ändert sich, wenn sich der Tag ändert."
+            "p": "Die einzige Aufzeichnung, die bleibt, ist ein Zähler, der verhindert, dass eine Person in kurzer Zeit zu viele Anfragen sendet. Er enthält kein Geburtsdatum und speichert die IP-Adresse nicht unverändert; er zählt einen einzigen Wert, der zusammen mit dem Datum gehasht wird, und dieser Wert ändert sich, wenn der Tag wechselt."
           }
         ]
       },
       {
-        "title": "Dinge, die nicht getan werden können, weil Informationen nicht gespeichert werden",
+        "title": "Worauf wir durch das Nichtspeichern verzichten",
         "blocks": [
           {
-            "p": "Um ehrlich zu sein, gibt es Dinge, auf die wir verzichtet haben, weil wir keine Informationen speichern."
+            "p": "Weil nichts gespeichert wird, haben wir auf einiges verzichtet."
           },
           {
             "ul": [
-              "**Sie können vergangene Ergebnisse nicht abrufen.** Sie müssen den Link haben, um sie erneut anzusehen.",
-              "**Die gleichen Werte werden neu berechnet.** Es gibt keinen Cache. Da jedoch alle Regeln deterministisch sind, [wird die gleiche Eingabe immer den gleichen Wert ergeben](/guide/how-compatibility).",
-              "**Ein Neuladen bringt das Werbegate zurück.** Dies liegt daran, dass es keinen Ort gibt, um die Anzeigedaten zu speichern."
+              "**Ein früheres Kompatibilitätsergebnis lässt sich nicht abrufen.** Sie müssen den Link aufbewahren, um es erneut zu sehen.",
+              "**Dieselben zwei Personen werden jedes Mal neu berechnet.** Es gibt keinen Cache. Aber jede Regel ist deterministisch, sodass [dieselbe Eingabe immer denselben Wert ergibt](/guide/how-compatibility).",
+              "**Beim Neuladen kehrt die Werbeschranke zurück.** Es gibt keinen Ort, an dem festgehalten wird, dass Sie sie schon gesehen haben."
             ]
           }
         ]
       },
       {
-        "title": "Im Falle eines Kaufs",
+        "title": "Wenn Sie einen Bericht kaufen",
         "blocks": [
           {
-            "p": "Wenn Sie einen Bericht kaufen, wird zu diesem Zeitpunkt ein Transaktionsdatensatz aufbewahrt. Das Gesetz legt eine Aufbewahrungsfrist für Zahlungen fest, und ohne eine Bestellhistorie können Rückerstattungen nicht bearbeitet werden. Allerdings wird auch dann **das Geburtsdatum, das für die Kompatibilitätsberechnungen verwendet wird, nicht an die Bestellung angehängt** — es wird erneut gesammelt, wenn das PDF nach Bestätigung der Zahlung erstellt wird."
+            "p": "Wenn Sie einen Bericht kaufen, wird zu diesem Zeitpunkt ein Transaktionsdatensatz gespeichert: Für Zahlungsbelege gilt eine gesetzliche Aufbewahrungsfrist, und ohne Bestellverlauf kann keine Rückerstattung bearbeitet werden. Auch dann **werden die beiden Geburtsdaten nicht an die Bestellung angehängt**; sie werden nach der Zahlungsbestätigung beim Erstellen des PDFs erneut abgefragt und nur in diesem Moment verwendet."
           },
           {
-            "p": "Die Einzelheiten sind in der [Datenschutzrichtlinie](/privacy) aufgeführt."
+            "p": "Einzelheiten finden Sie in der [Datenschutzerklärung](/privacy)."
           }
         ]
       }

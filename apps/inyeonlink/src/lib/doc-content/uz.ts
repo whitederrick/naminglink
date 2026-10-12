@@ -227,22 +227,22 @@ export const UZ_DOCS = {
   },
   "guide/branches": {
     "eyebrow": "Munosabatlar jadvali",
-    "title": "O'n ikki yerga tegishli bo'lak — Birlashma, To'qnashuv, Nizo",
-    "summary": "Bu kun bo'lagi mosligi va zodiak mosligi uchun ishlatiladigan munosabatlar jadvali. Har bir birlashma, to'qnashuv va nizoning ma'nosi va ularning mos keluvchi ballari to'liq ochib berilgan.",
+    "title": "Zodiak hayvonlari va kun shoxlari qanday uchrashadi — O'n ikki shox jadvali",
+    "summary": "Ikki kishining zodiak hayvonlari va kun shoxlari yonma-yon qo'yilganda ishlatiladigan munosabatlar jadvali. U o'n ikki hayvonning har biri uchun qaysi hayvonlar bilan uyg'unlik, to'qnashuv yoki nizo hosil qilishini ko'rsatadi va har bir munosabatning ballini ochiq keltiradi.",
     "backLabel": "Hisoblash asosi",
     "sections": [
       {
-        "title": "Yerga tegishli bo'laklar o'n ikki belgidan iborat",
+        "title": "Zodiak hayvonlari va kun shoxlari bir xil jadvaldan foydalanadi",
         "blocks": [
           {
-            "p": "O'n ikki yerga tegishli bo'laklar (十二支) — 子 丑 寅 卯 辰 巳 午 未 申 酉 戌 亥. Har bir o'n ikki belgi bilan tanish bo'lgan zodiak belgilariga bog'liq."
+            "p": "Inyeon-Link ikki kishining yer shoxlarini ikki joyda yonma-yon qo'yadi: tug'ilgan yil shoxiga qaraydigan **zodiak mosligi** va tug'ilgan kun shoxiga qaraydigan **kun shoxi mosligi** (turmush o'rtog'i saroyi). Ikkalasi ham quyidagi jadval bilan baholanadi; farq faqat yakuniy ballda har birining og'irligida."
           },
           {
             "figure": "branch-wheel",
-            "caption": "O'n ikki belgini doira shaklida joylashtirish munosabatlarni aniq ko'rinishini beradi. To'qnashuv har doim to'g'ridan-to'g'ri qarama-qarshi o'tiradi, o'n ikki belgining olti-hamkor juftligi va tinch nizolar yaqin qo'shnilar hisoblanadi. Bu chiziqlar to'g'ridan-to'g'ri hisoblash qoidalaridan olingan, matnda yozilmagan.",
+            "caption": "O'n ikki belgini doira bo'ylab joylashtirsak, munosabatlar bir qarashda ko'rinadi. To'qnashuv doim to'g'ri qarama-qarshi tomonda turadi, olti uyg'unlik juftligi va tinch nizo esa yaqinroq qo'shnilardir. Bu chiziqlar qo'lda chizilmagan; ular to'g'ridan-to'g'ri hisoblash qoidalaridan chiziladi.",
             "labels": {
-              "alt": "O'n ikki yerga tegishli bo'laklar doira shaklida joylashtirilgan va olti-hamkor, to'qnashuv va nizolarni bog'laydigan chiziqlar ko'rsatilgan diagramma.",
-              "yukhap": "Olti-Hamkor",
+              "alt": "O'n ikki yer shoxi doira bo'ylab joylashgan, olti uyg'unlik, to'qnashuv va nizo juftliklarini chiziqlar bog'laydigan diagramma.",
+              "yukhap": "Olti uyg'unlik",
               "chung": "To'qnashuv",
               "wonjin": "Nizo",
               "rat": "Sichqon",
@@ -252,72 +252,115 @@ export const UZ_DOCS = {
               "dragon": "Ajdar",
               "snake": "Ilon",
               "horse": "Ot",
-              "goat": "Qo'y",
+              "goat": "Echki",
               "monkey": "Maymun",
-              "rooster": "Tovuq",
+              "rooster": "Xo'roz",
               "dog": "It",
               "pig": "Cho'chqa"
             }
-          },
-          {
-            "p": "Saju da, to'rt ustunning har biri bir er yuzidagi shoxga ega. Inyeon-Link **kun shoxi** (turmush o'rtog'i saroyi) va **yil shoxi** (zodiak hayvoni) ni ulardan foydalanadi. Ikkala pozitsiya quyidagi munosabatlar jadvali yordamida baholanadi."
           }
         ]
       },
       {
-        "title": "Butun Munosabatlar Jadvali",
+        "title": "O'n ikki zodiak hayvonining har biri uchun munosabatlar",
         "blocks": [
           {
+            "p": "Jadval har bir hayvon uchun u qaysi hayvonlar bilan qanday munosabatda ekanini sanab o'tadi. Faqat bu xizmat uyg'unlik deb tan oladigan juftliklar keltirilgan, shuning uchun qatorda ko'rinmagan hayvon u bilan alohida munosabatga ega emas — u **neytral**."
+          },
+          {
             "table": {
-              "caption": "Eng yuqori ball bo'yicha tartiblangan. Bu Inyeon-Link tomonidan haqiqatan ham ishlatiladigan qiymatlar.",
+              "caption": "Bitta hayvon nuqtai nazaridan to'rt xil munosabat",
               "head": [
-                "Munosabat",
-                "Mos Juftlik",
-                "Ma'nosi",
-                "Ball"
+                "Sizning hayvoningiz",
+                "Tortishuvchi juft (olti uyg'unlik)",
+                "Yarim uchlik",
+                "Ichdan qarama-qarshi (nizo)",
+                "Yuzma-yuz to'qnashuv"
               ],
               "rows": [
                 [
-                  "Kombinatsiya (三合)",
-                  "申子辰 · 巳酉丑 · 寅午戌 · 亥卯未",
-                  "Uchta belgi yig'ilganda, ular to'liq elementar shaklni hosil qiladi — **guk** (局). Bu eng kuchli kombinatsiya hisoblanadi.",
-                  "{scoreSamhap}"
+                  "Sichqon (子)",
+                  "Sigir",
+                  "Maymun · Ajdar",
+                  "Echki",
+                  "Ot"
                 ],
                 [
-                  "Oltita Muvofiqlik (六合)",
-                  "子丑 · 寅亥 · 卯戌 · 辰酉 · 巳申 · 午未",
-                  "Bir-birini tortadigan juftliklar. Bu moslikda eng keng tarqalgan kombinatsiya bo'lib, faqat ikkita belgidan iborat.",
-                  "{scoreYukhap}"
+                  "Sigir (丑)",
+                  "Sichqon",
+                  "Xo'roz",
+                  "Ot",
+                  "Echki"
                 ],
                 [
-                  "Yarim triad (半合)",
-                  "Uchlikdan (子·酉·午·卯) bir qirollik shoxini o'z ichiga olgan ikkita belgi",
-                  "Markaziy shakldagi belgini o'z ichiga olgan yarim kombinatsiya. Faqat ikkita belgidan to'liq kombinatsiya hosil qila olmaydi, bu esa uni to'liq triaddan past qiladi.",
-                  "{scoreBanhap}"
+                  "Yo'lbars (寅)",
+                  "Cho'chqa",
+                  "Ot",
+                  "Xo'roz",
+                  "Maymun"
                 ],
                 [
-                  "Bir xil er yuzidagi shox",
-                  "子子 · 丑丑 …",
-                  "Bir xil belgilar. Bu ularning bir-biriga o'xshashligini anglatadi, lekin bu tortishishni anglatmaydi, shuning uchun u o'rtada joylashgan.",
-                  "{scoreSame}"
+                  "Quyon (卯)",
+                  "It",
+                  "Cho'chqa · Echki",
+                  "Maymun",
+                  "Xo'roz"
                 ],
                 [
-                  "Neytral",
-                  "Yuqorida yoki pastda joylashmagan juftliklar",
-                  "Maxsus munosabatga ega bo'lmagan kombinatsiya. Bu referens nuqtasi.",
-                  "{scoreNeutral}"
+                  "Ajdar (辰)",
+                  "Xo'roz",
+                  "Sichqon",
+                  "Cho'chqa",
+                  "It"
                 ],
                 [
-                  "Tinch nizolar (怨嗔)",
-                  "子未 · 丑午 · 寅酉 · 卯申 · 辰亥 · 巳戌",
-                  "Nafratni saqlagan holda ajralmaydigan juftliklar. Ular yuzada tinch ko'rinadi, lekin uzoq davom etishi hisoblanadi.",
-                  "{scoreWonjin}"
+                  "Ilon (巳)",
+                  "Maymun",
+                  "Xo'roz",
+                  "It",
+                  "Cho'chqa"
                 ],
                 [
-                  "To'qnashuv (沖)",
-                  "子午 · 丑未 · 寅申 · 卯酉 · 辰戌 · 巳亥",
-                  "To'qnashadigan juftliklar. Bu olti juft bir-biriga qarshi turadi.",
-                  "{scoreChung}"
+                  "Ot (午)",
+                  "Echki",
+                  "Yo'lbars · It",
+                  "Sigir",
+                  "Sichqon"
+                ],
+                [
+                  "Echki (未)",
+                  "Ot",
+                  "Quyon",
+                  "Sichqon",
+                  "Sigir"
+                ],
+                [
+                  "Maymun (申)",
+                  "Ilon",
+                  "Sichqon",
+                  "Quyon",
+                  "Yo'lbars"
+                ],
+                [
+                  "Xo'roz (酉)",
+                  "Ajdar",
+                  "Ilon · Sigir",
+                  "Yo'lbars",
+                  "Quyon"
+                ],
+                [
+                  "It (戌)",
+                  "Quyon",
+                  "Ot",
+                  "Ilon",
+                  "Ajdar"
+                ],
+                [
+                  "Cho'chqa (亥)",
+                  "Yo'lbars",
+                  "Quyon",
+                  "Ajdar",
+                  "Ilon"
                 ]
               ]
             }
@@ -325,41 +368,90 @@ export const UZ_DOCS = {
         ]
       },
       {
-        "title": "To'liq triadlar ushbu xizmatda ko'rinmaydi",
+        "title": "Ikki kishi jadvalda uchrashganda",
         "blocks": [
           {
-            "p": "To'liq triad hosil qilish uchun uchta belgi kerak. Biroq, moslik er yuzidagi shoxlarni ikki odamni **birma-bir** moslashtirish orqali tuzilgan, natijada faqat ikkita belgi paydo bo'ladi. Shuning uchun, bu yerda ko'rinadigan narsa har doim yarim triad bo'lib, to'liq triad {scoreSamhap} ballari har bir saju ichidagi shakllarni o'rganish uchun saqlanadi."
+            "p": "Jadvalni o'qish ikki hayvonni bitta qatordan topishni anglatadi. Quyida misol sifatida bir nechta juftlik keltirilgan."
+          },
+          {
+            "ul": [
+              "**Sichqon va Sigir** — olti uyg'unlik. U faqat ikki belgini talab qiladi, shuning uchun moslikda eng tez-tez uchraydigan va yaxshi uyg'unlikdir.",
+              "**Sichqon va Ajdar** — yarim uchlik: 申子辰 uch belgisidan o'rtadagisini (子) o'z ichiga olgan ikkitasi.",
+              "**Sichqon va Yo'lbars** — jadvalda yo'q, shuning uchun neytral: na uyg'unlik, na to'qnashuv, shunchaki boshlang'ich daraja.",
+              "**Sichqon va Echki** — nizo. Yuzaki tinch ko'rinadi, ammo nomutanosiblik uzoq davom etadi deb hisoblanadi.",
+              "**Yo'lbars va Maymun** — to'qnashuv. Ular aynan qarama-qarshi turadi va yuzma-yuz to'qnashadi deb qaraladi."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Har bir munosabat necha ball oladi",
+        "blocks": [
+          {
+            "table": {
+              "caption": "Eng yuqoridan boshlab. Bular Inyeon-Link haqiqatda ishlatadigan qiymatlar.",
+              "head": [
+                "Munosabat",
+                "Ball"
+              ],
+              "rows": [
+                [
+                  "Olti uyg'unlik",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Yarim uchlik",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bir xil shox",
+                  "{scoreSame}"
+                ],
+                [
+                  "Neytral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Nizo",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "To'qnashuv",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Bir xil shox (bir hayvonli ikki kishi) tortishuvni emas, o'xshashlikni bildiradi, shuning uchun neytraldan biroz yuqorida turadi. Zodiak yoki kun shoxi mosligi bo'lishidan qat'i nazar, bu jadvaldagi qiymat to'g'ridan-to'g'ri yakuniy ballga kiradi."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Yarim triadlar qirollik shoxini o'z ichiga olishi kerak",
+        "title": "Nega to'liq uchlik jadvalda yo'q",
         "blocks": [
           {
-            "p": "Agar ikkita belgi bir xil triad guruhiga mansub bo'lsa, bu yarim triad sifatida hisoblanadigan usul ham mavjud. Bu 申辰 kabi triad deb atash qiyin bo'lgan kombinatsiyalar uchun ham yuqori ballarga olib kelishi mumkin. Shuning uchun, ushbu xizmat faqat qirollik shoxini (王地) (子·酉·午·卯) o'z ichiga olgan juftliklar uchun yarim triadni tan oladi va qirollik shoxi bo'lmagan kombinatsiyalar, masalan, 申辰·巳丑·寅戌·亥未 triadlar sifatida hisoblanmaydi."
+            "p": "To'liq uchlik (申子辰, 巳酉丑, 寅午戌, 亥卯未) barcha uch belgini talab qiladi. Ikki kishini yonma-yon qo'ysak, faqat ikkitasi chiqadi, shuning uchun moslikda to'liq uchlik bo'lishi mumkin emas va faqat yarim uchlik uchraydi. To'liq uchlikning {scoreSamhap} ballik qiymati bir kishining o'z jadvalida uch belgi birga kelgan holat uchun saqlanadi."
           }
         ]
       },
       {
-        "title": "Tinch nizolarni ajratish sababi",
+        "title": "申辰, 巳丑, 寅戌 va 亥未 uyg'unlik hisoblanmaydi",
         "blocks": [
           {
-            "p": "Tinch nizolarning olti juftligi moslikda to'qnashuvlar kabi tez-tez ko'rinadi. Agar biz kombinatsiyalarni juftliklar va to'qnashuvlar sifatida hisoblasak, bu olti juftlik neytral {scoreNeutral} ballari ostida qoladi, shuning uchun ular alohida joylashtiriladi."
-          },
-          {
-            "p": "To'qnashuvlar ochiq va ta'sirchan bo'lsa, tinch nizolar nozik tarzda mos kelmaydi. Shuning uchun, bu {scoreWonjin} balli joylashtiriladi, bu to'qnashuvlardan ({scoreChung}) yuqori, lekin aniq neytral ({scoreNeutral}) dan past."
+            "p": "Ba'zi usullar bir uchlik guruhining istalgan ikki belgisini yarim uchlik deb hisoblaydi. Inyeon-Link bunday qilmaydi: yuqoridagi yarim uchlik ustuni ko'rsatganidek, u faqat guruh markazidagi **shoh shoxni** (子, 午, 卯, 酉) o'z ichiga olgan juftliklarni qabul qiladi. Unsiz juftlikda shakllanish yig'iladigan markaz yo'q, shuning uchun u neytral deb hisoblanadi."
           }
         ]
       },
       {
-        "title": "Ballar to'qnashuvlarga ham beriladi",
+        "title": "Nizo va to'qnashuv eng pastda turmaydi",
         "blocks": [
           {
-            "p": "Eng past to'qnashuv balli {scoreChung}. Maqsad 0 ga yaqin qiymat berish emas. An'anada to'qnashuv 'oxir' emas, balki 'to'qnashuv' hisoblanadi va past ball berish xizmatning munosabat haqida aniq bayonot berishini anglatadi."
+            "p": "Faqat uyg'unlik va to'qnashuv sanalganda, barcha olti nizo juftligi neytralda yo'qolib ketardi. Shuning uchun nizoning o'z o'rni bor: yuzma-yuz to'qnashuvdan yuqori va neytraldan past, {scoreWonjin} ball."
           },
           {
-            "p": "Eng kam {scoreChung} va eng ko'p {scoreSamhap} bilan, diapazon aniq, lekin bu aniq xulosa qilmaydi."
+            "p": "To'qnashuv ham {scoreChung} ballni saqlab qoladi. An'anaviy myeongri'da to'qnashuv — bu to'qnashish, munosabatning oxiri emas. Nolga yaqin qiymat xizmatni ikki kishi haqida hukm chiqarishga olib kelardi, shuning uchun oraliq farqni ko'rsatadigan, ammo hukm chiqarmaydigan darajada keng saqlanadi."
           }
         ]
       }
@@ -872,121 +964,108 @@ export const UZ_DOCS = {
   },
   "guide/true-solar-time": {
     "eyebrow": "Vaqt",
-    "title": "Tug'ilgan vaqtni haqiqiy quyosh vaqtiga aylantirish",
-    "summary": "Standart vaqt va quyoshning haqiqiy pozitsiyasi farq qiladi. Vaqt, vaqt ustunining to'g'rilanishi uchun tug'ilgan joyning uzunligiga asoslanib tuzatilishi kerak.",
-    "backLabel": "Hisoblash asoslari",
+    "title": "Har bir kishining tug'ilgan vaqti alohida tuzatiladi",
+    "summary": "Moslik ikki kishining vaqtini alohida hisoblaydi. Bu tug'ilgan joy va davrlar farq qilganda tuzatish qanday qo'llanishini va faqat bittasi vaqtini bilmaganda nima o'zgarishini tushuntiradi.",
+    "backLabel": "Hisoblash asosi",
     "sections": [
       {
-        "title": "Soatdagi vaqt va quyosh vaqti farq qiladi",
+        "title": "Soat va quyosh bir-biriga mos kelmaydi",
         "blocks": [
           {
-            "p": "Saju vaqt ustuni (時柱) quyosh pozitsiyasiga asoslangan. Biroq, biz ko'rayotgan soat butun mamlakat uchun yagona standart vaqtni ishlatadi, bu esa quyoshning haqiqiy pozitsiyasi bilan farq qiladi."
+            "p": "Sajuda tug'ilgan vaqt soatdan emas, quyoshning o'rnidan o'qiladi. Biroq butun mamlakat bitta standart vaqtdan foydalanadi, shuning uchun har qanday joyning soati va quyoshi bir-biridan uzoqlashadi."
           },
           {
-            "p": "Koreyaning standart vaqti 135° sharqiy uzunlikka asoslangan. Seulning uzunligi taxminan 127° bo'lib, bu taxminan 8° g'arbiydir, bu esa quyoshning zenitiga yetish vaqtini kechiktiradi — soat noon bo'lganda, Seulda quyosh hali zenitga yetmagan. Bu farq taxminan **32 daqiqa**."
+            "p": "Koreyaning standart vaqti 135°E ga asoslangan, Seul esa taxminan 127°E da joylashgan. Seul quyoshi eng baland nuqtasiga soat ko'rsatganidan taxminan **32 daqiqa** kechroq yetadi."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "32 daqiqa vaqt ustunini bir slotga o'zgartiradi",
+        "title": "32 daqiqa soat ustunini bir qadam siljitishi mumkin",
         "blocks": [
           {
-            "p": "Saju vaqt ikki soatlik birliklarga bo'linadi. Chegaraga yaqin tug'ilganlar 32 daqiqa farqi bilan vaqt ustunlari to'liq o'zgaradi — bu to'g'rilash, aynan ushbu chegarada bo'lganlar uchun zarur."
+            "p": "Seulda soat bo'yicha 11:40 da tug'ilgan kishi haqiqiy quyosh vaqti bo'yicha 11:08 da tug'ilgan, bu hali ham Ot soati (午, 11:00–13:00) ichida. Soat bo'yicha 11:20 da tug'ilgan bo'lsa, u 10:48 da tug'ilgan, bu Ilon soatiga (巳, 9:00–11:00) to'g'ri keladi. Tuzatish aynan shunday chegarada turgan odamlar uchun mavjud."
           }
         ]
       },
       {
-        "title": "Nima uchun tug'ilgan joyni so'raymiz",
+        "title": "Tuzatish har bir kishiga alohida qo'llanadi",
         "blocks": [
           {
-            "p": "Agar uzunlik farq qilsa, to'g'rilash miqdori ham farq qiladi. Seulga asoslangan to'g'rilashni chet elda tug'ilganlarga qo'llash vaqt ustunida katta farq keltiradi. Shuning uchun, kirish ekranida tug'ilgan joyingizni tanlashingiz talab qilinadi va hisoblash o'sha shahar uzunligi va standart vaqtiga asoslanadi. Hozirda ro'yxatda {cityCount} joy mavjud."
+            "p": "Moslik har bir kishining jadvalini alohida tuzadi. Shuning uchun kiritish ekrani tug'ilgan joyni **har bir kishi uchun** so'raydi. Agar biri Seulda, boshqasi chet elda tug'ilgan bo'lsa, ularning vaqtlari turli uzunlik va vaqt zonalari bilan alohida tuzatiladi."
           },
           {
-            "p": "Bir xil mamlakat ichida (masalan, AQSh, Rossiya, Indoneziya va boshqalar) uzunlik juda farq qiladigan joylarda shaharlar bo'linadi. **15° uzunlik bir vaqt ustuni slotiga teng.**"
+            "p": "Shaharlar ro'yxatida hozir {cityCount} ta joy bor. Uzunligi keng farq qiladigan mamlakatlar uchun shaharlar bo'linadi, chunki **15° uzunlik soat ustunini bir qadam siljitadi**."
           },
           {
-            "p": "Agar siz tanlamasangiz, hisoblash Seulga asoslanadi. Ko'p tug'ilishlar ichki mamlakatda bo'lgani uchun bu xato qilish imkoniyatini kamaytiradi, lekin agar siz chet elda tug'ilgan bo'lsangiz, iltimos, tanlashni unutmang."
+            "p": "Tanlamasangiz, Seul ishlatiladi. Agar faqat bir kishi chet elda tug'ilgan bo'lib, ikkalasi ham Seulda qoldirilsa, faqat chet elda tug'ilgan kishining soat ustuni noto'g'ri bo'ladi; ikkinchi kishining qiymatlariga ta'sir qilmaydi, chunki tuzatish har bir kishiga alohida qo'llanadi."
           }
         ]
       },
       {
-        "title": "Standart vaqt o'tmishda bir necha marta o'zgargan",
+        "title": "Turli davrlarda turli standart vaqtlar ishlatilgan",
         "blocks": [
           {
-            "p": "To'g'rilashni oddiy qilib 'uzunlik farqi ÷ 15° × 60 daqiqa' deb hisoblash mumkin emasligi sababli bir sabab bor. Standart vaqt o'z vaqtida turli davrlarda farq qilgan."
+            "p": "Yoshi turlicha ikki kishi turli davrlarning standart vaqti ostida yashagan. Shuning uchun faqat uzunlik farqi yetarli emas."
           },
           {
-            "table": {
-              "caption": "Koreyaning standart vaqtidagi o'zgarishlar — bu davrda tug'ilganlar oddiy hisob-kitoblar bilan farqlarni his qiladilar",
-              "head": [
-                "Davr",
-                "Nima farq qildi"
-              ],
-              "rows": [
-                [
-                  "1912 yildan oldin",
-                  "Standart vaqt yo'q edi (mahalliy o'rtacha vaqt)"
-                ],
-                [
-                  "1954 – 1961",
-                  "Standart vaqt UTC+8:30 edi"
-                ],
-                [
-                  "1948 – 51 · 1955 – 60 · 1987 – 88",
-                  "Yozgi vaqtni saqlash joriy etildi"
-                ]
-              ]
-            }
+            "ul": [
+              "**1912 yilgacha** — Koreyada yagona standart vaqt bo'lmagan (mahalliy o'rtacha vaqt).",
+              "**1954–1961** — standart vaqt UTC+8:30 bo'lgan.",
+              "**1948–51 · 1955–60 · 1987–88** — yozgi vaqt amal qilgan."
+            ]
           },
           {
-            "p": "Inyeon-Link standart meridian uchun o'zgaruvchan qiymat ishlatmaydi, balki tug'ilgan joyning **IANA vaqt zonasiga** asoslanib, o'sha paytda haqiqatan ham ishlatilgan standart vaqtni hisoblaydi. Yozgi vaqt va o'tgan standart vaqtlar avtomatik ravishda aks ettiriladi."
+            "p": "Inyeon-Link standart meridianni qat'iy belgilamaydi. U tug'ilgan joyning **IANA vaqt zonasini** qidirib, o'sha paytda amalda bo'lgan standart vaqtni topadi, shuning uchun tug'ilgan yillari farq qilsa ham har bir kishining o'z davri qo'llanadi."
           }
         ]
       },
       {
-        "title": "Yarim tunda tug'ilganlar sanani ham hisobga oladi",
+        "title": "Yarim tundan keyin kun poyasi o'zgaradi",
         "blocks": [
           {
-            "p": "Tuzatish -32 daqiqa bo'lgani uchun, soat bo'yicha 00:00 dan 00:32 gacha tug'ilganlar haqiqiy quyosh vaqtida **oldingi kunning 23:00** da bo'ladi. Agar faqat vaqt qaytarilsa va sana o'zgartirilmasa, kun ustuni 'oldingi kunning 23:00' deb yoziladi."
+            "p": "Tuzatish −32 daqiqa, shuning uchun soat bo'yicha 00:00 va 00:32 orasida tug'ilgan kishi haqiqiy quyosh vaqti bo'yicha **oldingi kunning 23:00 soatida** tug'ilgan. Sana ham shunga mos ravishda orqaga suriladi."
           },
           {
-            "p": "Inyeon-Link bu holatda sanani ham qaytaradi. Kun ustuni saju da shaxsni ko'rsatadi, shuning uchun bu noto'g'ri bo'lsa, deyarli barcha moslik elementlari noto'g'ri bo'ladi."
+            "p": "Moslikda bu juda muhim. Kun ustuni bir kun orqaga o'tsa, kun poyasi ham, kun shoxi ham o'zgaradi, shuning uchun kun poyasi munosabati, Turmush o'rtog'i yulduzi va kun shoxi munosabati boshqa belgilar bilan qayta hisoblanadi, besh element kuchlari ham siljiydi."
           }
         ]
       },
       {
-        "title": "Vaqtni bilishingiz shart emas",
+        "title": "Faqat bir kishi vaqtini bilmasa ham mayli",
         "blocks": [
           {
-            "p": "Tug'ilish vaqti ixtiyoriydir. Agar siz bilmasangiz, hisoblash vaqt ustunini hisobga olmasdan amalga oshiriladi va bu haqda natijalar ekranida ko'rsatiladi. Moslikda vaqt ustunini to'g'ridan-to'g'ri yozish talab qilinmaydi, lekin bu beshta elementga ta'sir qiladi, shuning uchun agar bilsangiz, uni kiritish aniqroq bo'ladi."
+            "p": "Tug'ilgan vaqt majburiy emas va ikkitadan faqat biri vaqtini bilmasa ham moslik hisoblanadi. Faqat vaqtini bilmagan kishi soat ustunisiz hisoblanadi va natija ekrani buni aytadi. Ikkinchi kishining qiymatlari o'zgarmaydi."
           },
           {
-            "p": "Zodiak mosligi har doim vaqtga qaramay bir xil qiymatga ega — [chunki u faqat yil ustunini ko'radi](/guide/zodiac)."
+            "p": "Moslikning to'rt bandidan hech biri soat ustunidan bevosita foydalanmaydi, lekin u besh element kuchiga ta'sir qiladi, shuning uchun bilsangiz kiritganingiz aniqroq. Zodiak mosligi vaqt bor-yo'qligidan qat'i nazar bir xil qiymat beradi — [u faqat yil shoxiga qaraydi](/guide/zodiac)."
           }
         ]
       }
     ]
   },
   "guide/no-storage": {
-    "eyebrow": "Shaxsiy Ma'lumotlar",
-    "title": "Kiritilgan ma'lumotlarni saqlamaslik usuli",
-    "summary": "Bu sizning tug'ilgan sanangiz hech joyda qayd etilmasligini texnik jihatdan nimani anglatishini va natija havolasida nima kiritilganligini tushuntiradi.",
-    "backLabel": "Hisoblash Asosi",
+    "eyebrow": "Maxfiylik",
+    "title": "Ikki kishining ma'lumotlarini saqlamasligimiz qanday ta'minlanadi",
+    "summary": "Moslik boshqa kishining tug'ilgan sanasini ham kiritishni so'raydi. Bu hech bir kishining kiritgan ma'lumoti hech qayerda yozilmasligi texnik jihatdan nimani anglatishini va natija havolasi bilan nima birga yurishini tushuntiradi.",
+    "backLabel": "Hisoblash asosi",
     "sections": [
       {
-        "title": "A'zolik talab qilinmaydi",
+        "title": "Siz boshqa kishining ma'lumotini kiritasiz",
         "blocks": [
           {
-            "p": "Inyeon-Link hisoblar yaratmaydi. U ismlar, elektron pochta manzillari yoki telefon raqamlarini yig'maydi. Yig'iladigan yagona ma'lumot tug'ilgan sana va (ixtiyoriy ravishda) tug'ilish vaqti, tug'ilish joyi va jinsdir, va hatto bu hisoblash tugagach qolmaydi."
+            "p": "Moslik ekrani sizning tug'ilgan sanangizni va boshqa kishining sanasini birga oladi. Boshqa kishining tug'ilgan sanasi uning shaxsiy ma'lumoti, shuning uchun Inyeon-Link ikkalasiga qanday munosabatda bo'lishini alohida tushuntiramiz."
           },
           {
-            "p": "Natijalar ekranida ko'rsatish uchun sarlavha kiritish maydoni mavjud, lekin bu **faqat ko'rsatish maqsadida** va hisoblashda ishlatilmaydi. Siz haqiqiy ismingizni kiritishingiz shart emas."
+            "p": "Hisob qaydnomasi yo'q va ism, elektron pochta yoki telefon raqamini so'ramaymiz. Biz faqat ikkita tug'ilgan sana va ixtiyoriy ravishda tug'ilgan vaqt, joy va jinsni olamiz, hisoblash tugagach hech biri qolmaydi."
+          },
+          {
+            "p": "Natija ekranida ko'rsatiladigan ko'rinadigan ism uchun maydon bor, lekin u faqat ko'rsatish uchun va hisoblashda ishlatilmaydi. Haqiqiy ism kiritishingiz shart emas."
           }
         ]
       },
       {
-        "title": "Natija havolasida nimalar kiritilgan?",
+        "title": "Natija havolasi ikkala tug'ilgan sanani o'z ichiga oladi",
         "blocks": [
           {
             "p": "Hisoblash tugagach, manzil quyidagicha ko'rinadi."
@@ -995,56 +1074,56 @@ export const UZ_DOCS = {
             "p": "**/ko/compatibility/result#eyJhIjp7InkiOjE5OTAsLi4u**"
           },
           {
-            "p": "Nima **#** dan keyin keladi, bu kiritilgan qiymatlar. Bu qism **fragment** deb ataladi, bu **brauzer serverga yubormaydigan bo'lim**. Bu standart veb xulq-atvor va biz yaratgan qoidalar emas — bu aslida hujjat ichidagi joyni ko'rsatish uchun mo'ljallangan, shuning uchun serverga uni ko'rish zarurati yo'q."
+            "p": "**#** dan keyingi qism ikki kishining kiritgan ma'lumotini saqlaydi. U fragment deb ataladi va veb standartiga ko'ra **brauzer uni serverga yubormaydi**. U hujjat ichidagi o'rinni ko'rsatish uchun mo'ljallangan, shuning uchun server uni hech qachon ko'rmaydi."
           },
           {
-            "p": "Boshqacha qilib aytganda, natija havolasini ochganingizda, brauzer o'sha qiymatni hisoblashni so'rash uchun o'qiydi, va bizning serverimiz hisoblash uchun zarur bo'lgan qiymatlarni qabul qiladi, javobni qaytaradi va keyin uni unutadi."
+            "p": "Natija havolasini ochganingizda brauzer shu qiymatni o'qiydi va hisoblashni so'raydi; server kerakli qiymatlarni oladi, javobni qaytaradi va ularni unutadi."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Boshqalarga havolalarni yuborishda ehtiyot bo'ling",
+        "title": "Havolani boshqa kishiga yuborishdan oldin",
         "blocks": [
           {
-            "p": "Bu serverda saqlanmasligi va havolaning xavfsizligi bir xil emas. Natija havolasi sizning ikkita tug'ilgan sanangizni o'z ichiga oladi, shuning uchun o'sha havolani olgan shaxs bir xil natijani ko'rishi mumkin."
+            "p": "Serverda saqlanmaslik havolaning sir bo'lishi bilan bir xil emas. Havolani olgan har kim ikkala tug'ilgan sanani o'zgarishsiz ko'radi, suhbat xonasida qolgan havola esa serverimizdan qat'i nazar o'sha xonada qoladi. Iltimos, unda boshqa kishining ma'lumoti borligini yodda tutib yuboring."
           }
         ]
       },
       {
-        "title": "Nima uchun hisoblash serverda amalga oshiriladi, lekin saqlanmaydi?",
+        "title": "Hisoblash serverda ishlasa-da, nega hech narsa qolmaydi",
         "blocks": [
           {
-            "p": "Hisoblash o'zi serverda amalga oshiriladi. Saju yaratish uchun Koreya lunisolar almanagi kerak, va bu jadval brauzerga yuborish uchun juda katta. Biroq, **so'rovni qayta ishlagandan so'ng, o'sha qiymat hech joyda ishlatilmaydi.** Uni ma'lumotlar bazasida saqlash uchun hech qanday kod yo'q."
+            "p": "Saju jadvalini tuzish uchun brauzerga yuborish uchun juda katta almanax jadvali kerak, shuning uchun hisoblash serverda ishlaydi. Lekin **so'rov qayta ishlangach, qiymatlar boshqa hech qayerda ishlatilmaydi.** Ularni ma'lumotlar bazasiga yozadigan kod yo'q."
           },
           {
-            "p": "Ishlash uchun zarur bo'lgan minimal yozuv saqlanadi — bir xil shaxsning qisqa vaqt ichida juda ko'p so'rov yuborishini oldini olish uchun hisoblagich. Bu tug'ilgan sanani o'z ichiga olmaydi, va kirish IPsi ham saqlanmaydi. Faqat bitta qiymat, sanaga xesh qilingan, hisoblanadi va o'sha qiymat kun o'zgarganda o'zgaradi."
+            "p": "Qoladigan yagona yozuv — bir kishining qisqa vaqt ichida juda ko'p so'rov yuborishini to'xtatadigan hisoblagich. Unda tug'ilgan sana yo'q va IP manzil o'z holicha saqlanmaydi; u sana bilan birga xeshlangan bitta qiymatni sanaydi va kun o'zgarganda bu qiymat o'zgaradi."
           }
         ]
       },
       {
-        "title": "Ma'lumotlar saqlanmasligi sababli amalga oshirilmaydigan narsalar",
+        "title": "Saqlamaslik bilan nimadan voz kechamiz",
         "blocks": [
           {
-            "p": "Haqiqatdan ham, biz ma'lumotlarni saqlamasligimiz sababli ba'zi narsalardan voz kechganmiz."
+            "p": "Hech narsa saqlanmagani uchun bir nechta narsadan voz kechganmiz."
           },
           {
             "ul": [
-              "**O'tgan natijalarni qaytarib ololmaysiz.** Ularni yana ko'rish uchun havolaga ega bo'lishingiz kerak.",
-              "**Bir xil qiymatlar qayta hisoblanadi.** Kesh yo'q. Biroq, barcha qoidalar deterministik bo'lgani uchun, [bir xil kiritish har doim bir xil qiymatni beradi](/guide/how-compatibility).",
-              "**Yangilash reklama eshigini qaytaradi.** Bu ko'rish yozuvlarini saqlash uchun joy yo'qligi sababli."
+              "**O'tgan moslik natijasini qayta ololmaysiz.** Uni yana ko'rish uchun havolani saqlab qo'yishingiz kerak.",
+              "**Bir xil ikki kishi har safar qayta hisoblanadi.** Kesh yo'q. Lekin har bir qoida deterministik, shuning uchun [bir xil kiritish doim bir xil qiymat beradi](/guide/how-compatibility).",
+              "**Yangilash reklama to'sig'ini qaytaradi.** Uni ko'rganingiz haqida yozuv saqlanadigan joy yo'q."
             ]
           }
         ]
       },
       {
-        "title": "Sotib olish holatida",
+        "title": "Hisobot sotib olsangiz",
         "blocks": [
           {
-            "p": "Agar siz hisobot sotib olsangiz, o'sha paytda tranzaksiya yozuvi saqlanadi. Qonun to'lovlar uchun saqlash muddatini belgilaydi va buyurtma tarixi bo'lmasa, qaytarish amalga oshirilmaydi. Biroq, shunda ham, **moslik hisoblashlari uchun ishlatilgan tug'ilgan sana buyurtmaga bog'lanmaydi** — to'lov tasdiqlangandan so'ng PDF yaratishda yana yig'iladi."
+            "p": "Hisobot sotib olsangiz, shu paytda tranzaksiya yozuvi saqlanadi: to'lov yozuvlari qonun talab qiladigan saqlash muddatiga ega, buyurtma tarixisiz esa pulni qaytarishni amalga oshirib bo'lmaydi. Shunda ham **ikkala tug'ilgan sana buyurtmaga biriktirilmaydi**; to'lov tasdiqlangach PDF yaratilayotganda ular qayta so'raladi va faqat o'sha payt ishlatiladi."
           },
           {
-            "p": "Tafsilotlar [Maxfiylik Siyosatida](/privacy) bayon etilgan."
+            "p": "Batafsil ma'lumot [maxfiylik siyosati](/privacy) da."
           }
         ]
       }
