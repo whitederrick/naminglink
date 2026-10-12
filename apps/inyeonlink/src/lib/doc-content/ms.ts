@@ -585,6 +585,2190 @@ export const MS_DOCS = {
       }
     ]
   },
+  "guide/zodiac-rat": {
+    "eyebrow": "Mengikut haiwan",
+    "title": "Bagaimana Tikus Bertemu Dua Belas Haiwan Zodiak",
+    "summary": "Hubungan apakah yang dimiliki Tikus (子) dengan setiap satu daripada dua belas haiwan zodiak, berapa skor setiap satu, dan berapa bahagian daripada kadar padanan akhir yang diambil oleh skor itu — dipaparkan tepat seperti yang terdapat dalam peraturan pengiraan Inyeon-Link.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Tikus ialah cabang yang pertama daripada dua belas cabang",
+        "blocks": [
+          {
+            "p": "Tikus ialah seseorang yang cabang tahun kelahirannya **子**. 子 ialah cabang bumi yang pertama daripada dua belas cabang bumi, dan apabila dua belas watak disusun dalam bulatan, ia berada tepat bertentangan dengan 午 (Kuda)."
+          },
+          {
+            "p": "Baris yang dipaparkan oleh keputusan keserasian untuk orang Tikus ialah: \"Cepat perasan dan cepat mengamankan apa yang penting. Paling awal bergerak ketika krisis.\" Baris ini tiada kaitan dengan skor hubungan dan tidak menjejaskan skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas haiwan zodiak sekali pandang",
+        "blocks": [
+          {
+            "p": "Setiap haiwan lain diletakkan bersebelahan dengan Tikus secara bergilir. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian ditulis sebagai hubungan; selebihnya neutral."
+          },
+          {
+            "table": {
+              "caption": "Tikus dan dua belas haiwan zodiak",
+              "head": [
+                "Haiwan lain",
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Tikus (子)",
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ],
+                [
+                  "Lembu (丑)",
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Harimau (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Arnab (卯)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Naga (辰)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Ular (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kuda (午)",
+                  "Pertembungan",
+                  "{scoreChung}"
+                ],
+                [
+                  "Biri-biri (未)",
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Monyet (申)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Babi (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Lembu — pasangan yang tertarik (Enam-Harmoni)",
+        "blocks": [
+          {
+            "p": "子 dan 丑 membentuk keharmonian dengan hanya dua watak. Enam-harmoni ialah hubungan baik yang paling kerap muncul dalam keserasian, dan Tikus dan Lembu mendapat {scoreYukhap}, yang tertinggi yang boleh diperoleh Tikus."
+          }
+        ]
+      },
+      {
+        "title": "Naga dan Monyet — triad separuh yang termasuk cabang diraja",
+        "blocks": [
+          {
+            "p": "申子辰 ialah satu kumpulan triad (kumpulan air), dan 子 ialah **cabang diraja** di tengahnya. Inyeon-Link hanya menerima pasangan yang termasuk cabang diraja, jadi Tikus membentuk triad separuh ({scoreBanhap}) dengan kedua-dua Naga dan Monyet."
+          },
+          {
+            "p": "**Monyet dan Naga bersama-sama**, sebaliknya, tiada watak tengah 子, jadi ia tidak dikira sebagai keharmonian dan dianggap neutral. Walaupun dalam satu kumpulan triad, Tikus yang membentuk triad separuh."
+          }
+        ]
+      },
+      {
+        "title": "Kuda — pertembungan langsung (Pertembungan)",
+        "blocks": [
+          {
+            "p": "子 dan 午 berada tepat bertentangan antara satu sama lain dalam bulatan. Perkhidmatan ini mengekalkan {scoreChung} mata walaupun untuk pertembungan. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan, dan memberi skor yang hampir ke dasar sama dengan menjatuhkan hukuman ke atas dua orang. Walaupun begitu, ia ialah skor terendah yang boleh diterima Tikus."
+          }
+        ]
+      },
+      {
+        "title": "Biri-biri — ketidakselarasan yang senyap (Ketidakselarasan)",
+        "blocks": [
+          {
+            "p": "子 dan 未 berada betul-betul bersebelahan dengan 午 (Kuda), kedudukan pertembungan, dan secara tradisinya dilihat sebagai pasangan yang saling berdendam namun tidak dapat berpisah. Ia kelihatan tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan, jadi ia mendapat {scoreWonjin} — lebih tinggi daripada pertembungan ({scoreChung}) dan lebih rendah daripada neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "6 haiwan lain, dan Tikus dengan Tikus yang lain",
+        "blocks": [
+          {
+            "p": "Harimau, Arnab, Ular, Ayam, Anjing dan Babi bukan keharmonian, pertembungan mahupun ketidakselarasan dengan Tikus: ia **neutral** dan mendapat {scoreNeutral}. Ia ialah garis asas, tidak baik dan tidak buruk."
+          },
+          {
+            "p": "Dua orang Tikus mendapat {scoreSame}. Ini bermaksud mereka serupa, bukan saling tertarik, jadi ia berada sedikit di atas neutral."
+          }
+        ]
+      },
+      {
+        "title": "Berapa bahagian daripada kadar padanan akhir yang diambil oleh skor ini",
+        "blocks": [
+          {
+            "p": "Terdapat dua tempat di mana cabang dua orang diletakkan bersebelahan."
+          },
+          {
+            "ul": [
+              "**Keserasian zodiak** melihat cabang tahun kelahiran. Ia mengambil {weightZodiac} daripada kadar padanan akhir.",
+              "**Keserasian cabang hari** melihat cabang hari kelahiran. Ia mengambil {weightDayBranch} daripada keserasian saju ({weightSaju}), iaitu {weightDayBranchTotal} daripada kadar padanan akhir."
+            ]
+          },
+          {
+            "p": "Sebagai contoh, apabila orang Tikus bertemu orang Kuda, keserasian zodiak memberikan pertembungan. Jika semua perkara lain sama, kadar padanan akhir menjadi {swingZodiacChung} mata lebih rendah berbanding pasangan neutral. Dengan orang Lembu ia ialah enam-harmoni, dan kadar itu menjadi {swingZodiacYukhap} mata lebih tinggi."
+          },
+          {
+            "p": "Cabang tahun dan cabang hari boleh berbeza. Dua orang Tikus yang cabang harinya ialah 子 dan 午 mendapat cabang yang sama ({scoreSame}) dalam keserasian zodiak dan pertembungan ({scoreChung}) dalam keserasian cabang hari."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dinyatakan oleh panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu haiwan tidak menentukan hubungan antara dua orang. {weightSaju} daripada kadar padanan akhir ditentukan oleh keserasian saju.",
+              "Perubahan mata di atas mengandaikan semua perkara lain adalah sama; keputusan sebenar ditetapkan oleh keseluruhan saju kedua-dua orang.",
+              "Carta lengkap tentang skor setiap hubungan terdapat dalam [carta dua belas cabang](/guide/branches), dan sebab zodiak dibaca daripada cabang tahun terdapat dalam [Mengapa keserasian zodiak mempertimbangkan cabang tahun](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Haiwan lain dipaparkan dengan cara yang sama. [Lembu](/guide/zodiac-ox) · [Harimau](/guide/zodiac-tiger) · [Arnab](/guide/zodiac-rabbit) · [Naga](/guide/zodiac-dragon) · [Ular](/guide/zodiac-snake) · [Kuda](/guide/zodiac-horse) · [Biri-biri](/guide/zodiac-goat) · [Monyet](/guide/zodiac-monkey) · [Ayam](/guide/zodiac-rooster) · [Anjing](/guide/zodiac-dog) · [Babi](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-ox": {
+    "eyebrow": "Mengikut haiwan",
+    "title": "Bagaimana Lembu Bertemu Dua Belas Haiwan Zodiak",
+    "summary": "Hubungan apakah yang dimiliki Lembu (丑) dengan setiap satu daripada dua belas haiwan zodiak, berapa skor setiap satu, dan berapa bahagian daripada kadar padanan akhir yang diambil oleh skor itu — dipaparkan tepat seperti yang terdapat dalam peraturan pengiraan Inyeon-Link.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Lembu ialah cabang yang kedua daripada dua belas cabang",
+        "blocks": [
+          {
+            "p": "Lembu ialah seseorang yang cabang tahun kelahirannya **丑**. 丑 ialah cabang bumi yang kedua daripada dua belas cabang bumi, dan apabila dua belas watak disusun dalam bulatan, ia berada tepat bertentangan dengan 未 (Biri-biri)."
+          },
+          {
+            "p": "Baris yang dipaparkan oleh keputusan keserasian untuk orang Lembu ialah: \"Nampak perlahan tetapi menyelesaikannya sampai habis. Apa yang dipikul, tidak dilepaskan.\" Baris ini tiada kaitan dengan skor hubungan dan tidak menjejaskan skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas haiwan zodiak sekali pandang",
+        "blocks": [
+          {
+            "p": "Setiap haiwan lain diletakkan bersebelahan dengan Lembu secara bergilir. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian ditulis sebagai hubungan; selebihnya neutral."
+          },
+          {
+            "table": {
+              "caption": "Lembu dan dua belas haiwan zodiak",
+              "head": [
+                "Haiwan lain",
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Tikus (子)",
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Lembu (丑)",
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ],
+                [
+                  "Harimau (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Arnab (卯)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Naga (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ular (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kuda (午)",
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Biri-biri (未)",
+                  "Pertembungan",
+                  "{scoreChung}"
+                ],
+                [
+                  "Monyet (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Babi (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Tikus — pasangan yang tertarik (Enam-Harmoni)",
+        "blocks": [
+          {
+            "p": "丑 dan 子 membentuk keharmonian dengan hanya dua watak. Enam-harmoni ialah hubungan baik yang paling kerap muncul dalam keserasian, dan Lembu dan Tikus mendapat {scoreYukhap}, yang tertinggi yang boleh diperoleh Lembu."
+          }
+        ]
+      },
+      {
+        "title": "Ayam — triad separuh yang termasuk cabang diraja",
+        "blocks": [
+          {
+            "p": "巳酉丑 ialah satu kumpulan triad (kumpulan logam), dan 酉 ialah **cabang diraja** di tengahnya. Inyeon-Link hanya menerima pasangan yang termasuk cabang diraja, jadi Lembu membentuk triad separuh ({scoreBanhap}) hanya dengan Ayam."
+          },
+          {
+            "p": "Dengan Ular (巳) daripada kumpulan yang sama, watak tengah 酉 tiada, jadi ia tidak dikira sebagai keharmonian dan dianggap neutral ({scoreNeutral}). Tergolong dalam kumpulan yang sama tidak menjadikan setiap pasangan sebagai keharmonian."
+          }
+        ]
+      },
+      {
+        "title": "Biri-biri — pertembungan langsung (Pertembungan)",
+        "blocks": [
+          {
+            "p": "丑 dan 未 berada tepat bertentangan antara satu sama lain dalam bulatan. Perkhidmatan ini mengekalkan {scoreChung} mata walaupun untuk pertembungan. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan, dan memberi skor yang hampir ke dasar sama dengan menjatuhkan hukuman ke atas dua orang. Walaupun begitu, ia ialah skor terendah yang boleh diterima Lembu."
+          }
+        ]
+      },
+      {
+        "title": "Kuda — ketidakselarasan yang senyap (Ketidakselarasan)",
+        "blocks": [
+          {
+            "p": "丑 dan 午 berada betul-betul bersebelahan dengan 未 (Biri-biri), kedudukan pertembungan, dan secara tradisinya dilihat sebagai pasangan yang saling berdendam namun tidak dapat berpisah. Ia kelihatan tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan, jadi ia mendapat {scoreWonjin} — lebih tinggi daripada pertembungan ({scoreChung}) dan lebih rendah daripada neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "7 haiwan lain, dan Lembu dengan Lembu yang lain",
+        "blocks": [
+          {
+            "p": "Harimau, Arnab, Naga, Ular, Monyet, Anjing dan Babi bukan keharmonian, pertembungan mahupun ketidakselarasan dengan Lembu: ia **neutral** dan mendapat {scoreNeutral}. Ia ialah garis asas, tidak baik dan tidak buruk."
+          },
+          {
+            "p": "Dua orang Lembu mendapat {scoreSame}. Ini bermaksud mereka serupa, bukan saling tertarik, jadi ia berada sedikit di atas neutral."
+          }
+        ]
+      },
+      {
+        "title": "Berapa bahagian daripada kadar padanan akhir yang diambil oleh skor ini",
+        "blocks": [
+          {
+            "p": "Terdapat dua tempat di mana cabang dua orang diletakkan bersebelahan."
+          },
+          {
+            "ul": [
+              "**Keserasian zodiak** melihat cabang tahun kelahiran. Ia mengambil {weightZodiac} daripada kadar padanan akhir.",
+              "**Keserasian cabang hari** melihat cabang hari kelahiran. Ia mengambil {weightDayBranch} daripada keserasian saju ({weightSaju}), iaitu {weightDayBranchTotal} daripada kadar padanan akhir."
+            ]
+          },
+          {
+            "p": "Sebagai contoh, apabila orang Lembu bertemu orang Biri-biri, keserasian zodiak memberikan pertembungan. Jika semua perkara lain sama, kadar padanan akhir menjadi {swingZodiacChung} mata lebih rendah berbanding pasangan neutral. Dengan orang Tikus ia ialah enam-harmoni, dan kadar itu menjadi {swingZodiacYukhap} mata lebih tinggi."
+          },
+          {
+            "p": "Cabang tahun dan cabang hari boleh berbeza. Dua orang Lembu yang cabang harinya ialah 丑 dan 未 mendapat cabang yang sama ({scoreSame}) dalam keserasian zodiak dan pertembungan ({scoreChung}) dalam keserasian cabang hari."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dinyatakan oleh panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu haiwan tidak menentukan hubungan antara dua orang. {weightSaju} daripada kadar padanan akhir ditentukan oleh keserasian saju.",
+              "Perubahan mata di atas mengandaikan semua perkara lain adalah sama; keputusan sebenar ditetapkan oleh keseluruhan saju kedua-dua orang.",
+              "Carta lengkap tentang skor setiap hubungan terdapat dalam [carta dua belas cabang](/guide/branches), dan sebab zodiak dibaca daripada cabang tahun terdapat dalam [Mengapa keserasian zodiak mempertimbangkan cabang tahun](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Haiwan lain dipaparkan dengan cara yang sama. [Tikus](/guide/zodiac-rat) · [Harimau](/guide/zodiac-tiger) · [Arnab](/guide/zodiac-rabbit) · [Naga](/guide/zodiac-dragon) · [Ular](/guide/zodiac-snake) · [Kuda](/guide/zodiac-horse) · [Biri-biri](/guide/zodiac-goat) · [Monyet](/guide/zodiac-monkey) · [Ayam](/guide/zodiac-rooster) · [Anjing](/guide/zodiac-dog) · [Babi](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-tiger": {
+    "eyebrow": "Mengikut haiwan",
+    "title": "Bagaimana Harimau Bertemu Dua Belas Haiwan Zodiak",
+    "summary": "Hubungan apakah yang dimiliki Harimau (寅) dengan setiap satu daripada dua belas haiwan zodiak, berapa skor setiap satu, dan berapa bahagian daripada kadar padanan akhir yang diambil oleh skor itu — dipaparkan tepat seperti yang terdapat dalam peraturan pengiraan Inyeon-Link.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Harimau ialah cabang yang ketiga daripada dua belas cabang",
+        "blocks": [
+          {
+            "p": "Harimau ialah seseorang yang cabang tahun kelahirannya **寅**. 寅 ialah cabang bumi yang ketiga daripada dua belas cabang bumi, dan apabila dua belas watak disusun dalam bulatan, ia berada tepat bertentangan dengan 申 (Monyet)."
+          },
+          {
+            "p": "Baris yang dipaparkan oleh keputusan keserasian untuk orang Harimau ialah: \"Berani dan berada di hadapan. Tidak boleh membiarkan ketidakadilan berlalu.\" Baris ini tiada kaitan dengan skor hubungan dan tidak menjejaskan skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas haiwan zodiak sekali pandang",
+        "blocks": [
+          {
+            "p": "Setiap haiwan lain diletakkan bersebelahan dengan Harimau secara bergilir. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian ditulis sebagai hubungan; selebihnya neutral."
+          },
+          {
+            "table": {
+              "caption": "Harimau dan dua belas haiwan zodiak",
+              "head": [
+                "Haiwan lain",
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Tikus (子)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lembu (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Harimau (寅)",
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ],
+                [
+                  "Arnab (卯)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Naga (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ular (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kuda (午)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Biri-biri (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Monyet (申)",
+                  "Pertembungan",
+                  "{scoreChung}"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Babi (亥)",
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Babi — pasangan yang tertarik (Enam-Harmoni)",
+        "blocks": [
+          {
+            "p": "寅 dan 亥 membentuk keharmonian dengan hanya dua watak. Enam-harmoni ialah hubungan baik yang paling kerap muncul dalam keserasian, dan Harimau dan Babi mendapat {scoreYukhap}, yang tertinggi yang boleh diperoleh Harimau."
+          }
+        ]
+      },
+      {
+        "title": "Kuda — triad separuh yang termasuk cabang diraja",
+        "blocks": [
+          {
+            "p": "寅午戌 ialah satu kumpulan triad (kumpulan api), dan 午 ialah **cabang diraja** di tengahnya. Inyeon-Link hanya menerima pasangan yang termasuk cabang diraja, jadi Harimau membentuk triad separuh ({scoreBanhap}) hanya dengan Kuda."
+          },
+          {
+            "p": "Dengan Anjing (戌) daripada kumpulan yang sama, watak tengah 午 tiada, jadi ia tidak dikira sebagai keharmonian dan dianggap neutral ({scoreNeutral}). Tergolong dalam kumpulan yang sama tidak menjadikan setiap pasangan sebagai keharmonian."
+          }
+        ]
+      },
+      {
+        "title": "Monyet — pertembungan langsung (Pertembungan)",
+        "blocks": [
+          {
+            "p": "寅 dan 申 berada tepat bertentangan antara satu sama lain dalam bulatan. Perkhidmatan ini mengekalkan {scoreChung} mata walaupun untuk pertembungan. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan, dan memberi skor yang hampir ke dasar sama dengan menjatuhkan hukuman ke atas dua orang. Walaupun begitu, ia ialah skor terendah yang boleh diterima Harimau."
+          }
+        ]
+      },
+      {
+        "title": "Ayam — ketidakselarasan yang senyap (Ketidakselarasan)",
+        "blocks": [
+          {
+            "p": "寅 dan 酉 berada betul-betul bersebelahan dengan 申 (Monyet), kedudukan pertembungan, dan secara tradisinya dilihat sebagai pasangan yang saling berdendam namun tidak dapat berpisah. Ia kelihatan tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan, jadi ia mendapat {scoreWonjin} — lebih tinggi daripada pertembungan ({scoreChung}) dan lebih rendah daripada neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "7 haiwan lain, dan Harimau dengan Harimau yang lain",
+        "blocks": [
+          {
+            "p": "Tikus, Lembu, Arnab, Naga, Ular, Biri-biri dan Anjing bukan keharmonian, pertembungan mahupun ketidakselarasan dengan Harimau: ia **neutral** dan mendapat {scoreNeutral}. Ia ialah garis asas, tidak baik dan tidak buruk."
+          },
+          {
+            "p": "Dua orang Harimau mendapat {scoreSame}. Ini bermaksud mereka serupa, bukan saling tertarik, jadi ia berada sedikit di atas neutral."
+          }
+        ]
+      },
+      {
+        "title": "Berapa bahagian daripada kadar padanan akhir yang diambil oleh skor ini",
+        "blocks": [
+          {
+            "p": "Terdapat dua tempat di mana cabang dua orang diletakkan bersebelahan."
+          },
+          {
+            "ul": [
+              "**Keserasian zodiak** melihat cabang tahun kelahiran. Ia mengambil {weightZodiac} daripada kadar padanan akhir.",
+              "**Keserasian cabang hari** melihat cabang hari kelahiran. Ia mengambil {weightDayBranch} daripada keserasian saju ({weightSaju}), iaitu {weightDayBranchTotal} daripada kadar padanan akhir."
+            ]
+          },
+          {
+            "p": "Sebagai contoh, apabila orang Harimau bertemu orang Monyet, keserasian zodiak memberikan pertembungan. Jika semua perkara lain sama, kadar padanan akhir menjadi {swingZodiacChung} mata lebih rendah berbanding pasangan neutral. Dengan orang Babi ia ialah enam-harmoni, dan kadar itu menjadi {swingZodiacYukhap} mata lebih tinggi."
+          },
+          {
+            "p": "Cabang tahun dan cabang hari boleh berbeza. Dua orang Harimau yang cabang harinya ialah 寅 dan 申 mendapat cabang yang sama ({scoreSame}) dalam keserasian zodiak dan pertembungan ({scoreChung}) dalam keserasian cabang hari."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dinyatakan oleh panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu haiwan tidak menentukan hubungan antara dua orang. {weightSaju} daripada kadar padanan akhir ditentukan oleh keserasian saju.",
+              "Perubahan mata di atas mengandaikan semua perkara lain adalah sama; keputusan sebenar ditetapkan oleh keseluruhan saju kedua-dua orang.",
+              "Carta lengkap tentang skor setiap hubungan terdapat dalam [carta dua belas cabang](/guide/branches), dan sebab zodiak dibaca daripada cabang tahun terdapat dalam [Mengapa keserasian zodiak mempertimbangkan cabang tahun](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Haiwan lain dipaparkan dengan cara yang sama. [Tikus](/guide/zodiac-rat) · [Lembu](/guide/zodiac-ox) · [Arnab](/guide/zodiac-rabbit) · [Naga](/guide/zodiac-dragon) · [Ular](/guide/zodiac-snake) · [Kuda](/guide/zodiac-horse) · [Biri-biri](/guide/zodiac-goat) · [Monyet](/guide/zodiac-monkey) · [Ayam](/guide/zodiac-rooster) · [Anjing](/guide/zodiac-dog) · [Babi](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rabbit": {
+    "eyebrow": "Mengikut haiwan",
+    "title": "Bagaimana Arnab Bertemu Dua Belas Haiwan Zodiak",
+    "summary": "Hubungan apakah yang dimiliki Arnab (卯) dengan setiap satu daripada dua belas haiwan zodiak, berapa skor setiap satu, dan berapa bahagian daripada kadar padanan akhir yang diambil oleh skor itu — dipaparkan tepat seperti yang terdapat dalam peraturan pengiraan Inyeon-Link.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Arnab ialah cabang yang keempat daripada dua belas cabang",
+        "blocks": [
+          {
+            "p": "Arnab ialah seseorang yang cabang tahun kelahirannya **卯**. 卯 ialah cabang bumi yang keempat daripada dua belas cabang bumi, dan apabila dua belas watak disusun dalam bulatan, ia berada tepat bertentangan dengan 酉 (Ayam)."
+          },
+          {
+            "p": "Baris yang dipaparkan oleh keputusan keserasian untuk orang Arnab ialah: \"Lembut dan tajam pengamatannya. Tahu berpusing daripada berlanggar.\" Baris ini tiada kaitan dengan skor hubungan dan tidak menjejaskan skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas haiwan zodiak sekali pandang",
+        "blocks": [
+          {
+            "p": "Setiap haiwan lain diletakkan bersebelahan dengan Arnab secara bergilir. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian ditulis sebagai hubungan; selebihnya neutral."
+          },
+          {
+            "table": {
+              "caption": "Arnab dan dua belas haiwan zodiak",
+              "head": [
+                "Haiwan lain",
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Tikus (子)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lembu (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Harimau (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Arnab (卯)",
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ],
+                [
+                  "Naga (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ular (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kuda (午)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Biri-biri (未)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Monyet (申)",
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Pertembungan",
+                  "{scoreChung}"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Babi (亥)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Anjing — pasangan yang tertarik (Enam-Harmoni)",
+        "blocks": [
+          {
+            "p": "卯 dan 戌 membentuk keharmonian dengan hanya dua watak. Enam-harmoni ialah hubungan baik yang paling kerap muncul dalam keserasian, dan Arnab dan Anjing mendapat {scoreYukhap}, yang tertinggi yang boleh diperoleh Arnab."
+          }
+        ]
+      },
+      {
+        "title": "Biri-biri dan Babi — triad separuh yang termasuk cabang diraja",
+        "blocks": [
+          {
+            "p": "亥卯未 ialah satu kumpulan triad (kumpulan kayu), dan 卯 ialah **cabang diraja** di tengahnya. Inyeon-Link hanya menerima pasangan yang termasuk cabang diraja, jadi Arnab membentuk triad separuh ({scoreBanhap}) dengan kedua-dua Biri-biri dan Babi."
+          },
+          {
+            "p": "**Babi dan Biri-biri bersama-sama**, sebaliknya, tiada watak tengah 卯, jadi ia tidak dikira sebagai keharmonian dan dianggap neutral. Walaupun dalam satu kumpulan triad, Arnab yang membentuk triad separuh."
+          }
+        ]
+      },
+      {
+        "title": "Ayam — pertembungan langsung (Pertembungan)",
+        "blocks": [
+          {
+            "p": "卯 dan 酉 berada tepat bertentangan antara satu sama lain dalam bulatan. Perkhidmatan ini mengekalkan {scoreChung} mata walaupun untuk pertembungan. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan, dan memberi skor yang hampir ke dasar sama dengan menjatuhkan hukuman ke atas dua orang. Walaupun begitu, ia ialah skor terendah yang boleh diterima Arnab."
+          }
+        ]
+      },
+      {
+        "title": "Monyet — ketidakselarasan yang senyap (Ketidakselarasan)",
+        "blocks": [
+          {
+            "p": "卯 dan 申 berada betul-betul bersebelahan dengan 酉 (Ayam), kedudukan pertembungan, dan secara tradisinya dilihat sebagai pasangan yang saling berdendam namun tidak dapat berpisah. Ia kelihatan tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan, jadi ia mendapat {scoreWonjin} — lebih tinggi daripada pertembungan ({scoreChung}) dan lebih rendah daripada neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "6 haiwan lain, dan Arnab dengan Arnab yang lain",
+        "blocks": [
+          {
+            "p": "Tikus, Lembu, Harimau, Naga, Ular dan Kuda bukan keharmonian, pertembungan mahupun ketidakselarasan dengan Arnab: ia **neutral** dan mendapat {scoreNeutral}. Ia ialah garis asas, tidak baik dan tidak buruk."
+          },
+          {
+            "p": "Dua orang Arnab mendapat {scoreSame}. Ini bermaksud mereka serupa, bukan saling tertarik, jadi ia berada sedikit di atas neutral."
+          }
+        ]
+      },
+      {
+        "title": "Berapa bahagian daripada kadar padanan akhir yang diambil oleh skor ini",
+        "blocks": [
+          {
+            "p": "Terdapat dua tempat di mana cabang dua orang diletakkan bersebelahan."
+          },
+          {
+            "ul": [
+              "**Keserasian zodiak** melihat cabang tahun kelahiran. Ia mengambil {weightZodiac} daripada kadar padanan akhir.",
+              "**Keserasian cabang hari** melihat cabang hari kelahiran. Ia mengambil {weightDayBranch} daripada keserasian saju ({weightSaju}), iaitu {weightDayBranchTotal} daripada kadar padanan akhir."
+            ]
+          },
+          {
+            "p": "Sebagai contoh, apabila orang Arnab bertemu orang Ayam, keserasian zodiak memberikan pertembungan. Jika semua perkara lain sama, kadar padanan akhir menjadi {swingZodiacChung} mata lebih rendah berbanding pasangan neutral. Dengan orang Anjing ia ialah enam-harmoni, dan kadar itu menjadi {swingZodiacYukhap} mata lebih tinggi."
+          },
+          {
+            "p": "Cabang tahun dan cabang hari boleh berbeza. Dua orang Arnab yang cabang harinya ialah 卯 dan 酉 mendapat cabang yang sama ({scoreSame}) dalam keserasian zodiak dan pertembungan ({scoreChung}) dalam keserasian cabang hari."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dinyatakan oleh panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu haiwan tidak menentukan hubungan antara dua orang. {weightSaju} daripada kadar padanan akhir ditentukan oleh keserasian saju.",
+              "Perubahan mata di atas mengandaikan semua perkara lain adalah sama; keputusan sebenar ditetapkan oleh keseluruhan saju kedua-dua orang.",
+              "Carta lengkap tentang skor setiap hubungan terdapat dalam [carta dua belas cabang](/guide/branches), dan sebab zodiak dibaca daripada cabang tahun terdapat dalam [Mengapa keserasian zodiak mempertimbangkan cabang tahun](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Haiwan lain dipaparkan dengan cara yang sama. [Tikus](/guide/zodiac-rat) · [Lembu](/guide/zodiac-ox) · [Harimau](/guide/zodiac-tiger) · [Naga](/guide/zodiac-dragon) · [Ular](/guide/zodiac-snake) · [Kuda](/guide/zodiac-horse) · [Biri-biri](/guide/zodiac-goat) · [Monyet](/guide/zodiac-monkey) · [Ayam](/guide/zodiac-rooster) · [Anjing](/guide/zodiac-dog) · [Babi](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dragon": {
+    "eyebrow": "Mengikut haiwan",
+    "title": "Bagaimana Naga Bertemu Dua Belas Haiwan Zodiak",
+    "summary": "Hubungan apakah yang dimiliki Naga (辰) dengan setiap satu daripada dua belas haiwan zodiak, berapa skor setiap satu, dan berapa bahagian daripada kadar padanan akhir yang diambil oleh skor itu — dipaparkan tepat seperti yang terdapat dalam peraturan pengiraan Inyeon-Link.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Naga ialah cabang yang kelima daripada dua belas cabang",
+        "blocks": [
+          {
+            "p": "Naga ialah seseorang yang cabang tahun kelahirannya **辰**. 辰 ialah cabang bumi yang kelima daripada dua belas cabang bumi, dan apabila dua belas watak disusun dalam bulatan, ia berada tepat bertentangan dengan 戌 (Anjing)."
+          },
+          {
+            "p": "Baris yang dipaparkan oleh keputusan keserasian untuk orang Naga ialah: \"Besar hati dengan cita-cita tinggi. Jarang berpuas hati dengan yang biasa.\" Baris ini tiada kaitan dengan skor hubungan dan tidak menjejaskan skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas haiwan zodiak sekali pandang",
+        "blocks": [
+          {
+            "p": "Setiap haiwan lain diletakkan bersebelahan dengan Naga secara bergilir. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian ditulis sebagai hubungan; selebihnya neutral."
+          },
+          {
+            "table": {
+              "caption": "Naga dan dua belas haiwan zodiak",
+              "head": [
+                "Haiwan lain",
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Tikus (子)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Lembu (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Harimau (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Arnab (卯)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Naga (辰)",
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ],
+                [
+                  "Ular (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kuda (午)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Biri-biri (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Monyet (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Pertembungan",
+                  "{scoreChung}"
+                ],
+                [
+                  "Babi (亥)",
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ayam — pasangan yang tertarik (Enam-Harmoni)",
+        "blocks": [
+          {
+            "p": "辰 dan 酉 membentuk keharmonian dengan hanya dua watak. Enam-harmoni ialah hubungan baik yang paling kerap muncul dalam keserasian, dan Naga dan Ayam mendapat {scoreYukhap}, yang tertinggi yang boleh diperoleh Naga."
+          }
+        ]
+      },
+      {
+        "title": "Tikus — triad separuh yang termasuk cabang diraja",
+        "blocks": [
+          {
+            "p": "申子辰 ialah satu kumpulan triad (kumpulan air), dan 子 ialah **cabang diraja** di tengahnya. Inyeon-Link hanya menerima pasangan yang termasuk cabang diraja, jadi Naga membentuk triad separuh ({scoreBanhap}) hanya dengan Tikus."
+          },
+          {
+            "p": "Dengan Monyet (申) daripada kumpulan yang sama, watak tengah 子 tiada, jadi ia tidak dikira sebagai keharmonian dan dianggap neutral ({scoreNeutral}). Tergolong dalam kumpulan yang sama tidak menjadikan setiap pasangan sebagai keharmonian."
+          }
+        ]
+      },
+      {
+        "title": "Anjing — pertembungan langsung (Pertembungan)",
+        "blocks": [
+          {
+            "p": "辰 dan 戌 berada tepat bertentangan antara satu sama lain dalam bulatan. Perkhidmatan ini mengekalkan {scoreChung} mata walaupun untuk pertembungan. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan, dan memberi skor yang hampir ke dasar sama dengan menjatuhkan hukuman ke atas dua orang. Walaupun begitu, ia ialah skor terendah yang boleh diterima Naga."
+          }
+        ]
+      },
+      {
+        "title": "Babi — ketidakselarasan yang senyap (Ketidakselarasan)",
+        "blocks": [
+          {
+            "p": "辰 dan 亥 berada betul-betul bersebelahan dengan 戌 (Anjing), kedudukan pertembungan, dan secara tradisinya dilihat sebagai pasangan yang saling berdendam namun tidak dapat berpisah. Ia kelihatan tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan, jadi ia mendapat {scoreWonjin} — lebih tinggi daripada pertembungan ({scoreChung}) dan lebih rendah daripada neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "7 haiwan lain, dan Naga dengan Naga yang lain",
+        "blocks": [
+          {
+            "p": "Lembu, Harimau, Arnab, Ular, Kuda, Biri-biri dan Monyet bukan keharmonian, pertembungan mahupun ketidakselarasan dengan Naga: ia **neutral** dan mendapat {scoreNeutral}. Ia ialah garis asas, tidak baik dan tidak buruk."
+          },
+          {
+            "p": "Dua orang Naga mendapat {scoreSame}. Ini bermaksud mereka serupa, bukan saling tertarik, jadi ia berada sedikit di atas neutral."
+          }
+        ]
+      },
+      {
+        "title": "Berapa bahagian daripada kadar padanan akhir yang diambil oleh skor ini",
+        "blocks": [
+          {
+            "p": "Terdapat dua tempat di mana cabang dua orang diletakkan bersebelahan."
+          },
+          {
+            "ul": [
+              "**Keserasian zodiak** melihat cabang tahun kelahiran. Ia mengambil {weightZodiac} daripada kadar padanan akhir.",
+              "**Keserasian cabang hari** melihat cabang hari kelahiran. Ia mengambil {weightDayBranch} daripada keserasian saju ({weightSaju}), iaitu {weightDayBranchTotal} daripada kadar padanan akhir."
+            ]
+          },
+          {
+            "p": "Sebagai contoh, apabila orang Naga bertemu orang Anjing, keserasian zodiak memberikan pertembungan. Jika semua perkara lain sama, kadar padanan akhir menjadi {swingZodiacChung} mata lebih rendah berbanding pasangan neutral. Dengan orang Ayam ia ialah enam-harmoni, dan kadar itu menjadi {swingZodiacYukhap} mata lebih tinggi."
+          },
+          {
+            "p": "Cabang tahun dan cabang hari boleh berbeza. Dua orang Naga yang cabang harinya ialah 辰 dan 戌 mendapat cabang yang sama ({scoreSame}) dalam keserasian zodiak dan pertembungan ({scoreChung}) dalam keserasian cabang hari."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dinyatakan oleh panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu haiwan tidak menentukan hubungan antara dua orang. {weightSaju} daripada kadar padanan akhir ditentukan oleh keserasian saju.",
+              "Perubahan mata di atas mengandaikan semua perkara lain adalah sama; keputusan sebenar ditetapkan oleh keseluruhan saju kedua-dua orang.",
+              "Carta lengkap tentang skor setiap hubungan terdapat dalam [carta dua belas cabang](/guide/branches), dan sebab zodiak dibaca daripada cabang tahun terdapat dalam [Mengapa keserasian zodiak mempertimbangkan cabang tahun](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Haiwan lain dipaparkan dengan cara yang sama. [Tikus](/guide/zodiac-rat) · [Lembu](/guide/zodiac-ox) · [Harimau](/guide/zodiac-tiger) · [Arnab](/guide/zodiac-rabbit) · [Ular](/guide/zodiac-snake) · [Kuda](/guide/zodiac-horse) · [Biri-biri](/guide/zodiac-goat) · [Monyet](/guide/zodiac-monkey) · [Ayam](/guide/zodiac-rooster) · [Anjing](/guide/zodiac-dog) · [Babi](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-snake": {
+    "eyebrow": "Mengikut haiwan",
+    "title": "Bagaimana Ular Bertemu Dua Belas Haiwan Zodiak",
+    "summary": "Hubungan apakah yang dimiliki Ular (巳) dengan setiap satu daripada dua belas haiwan zodiak, berapa skor setiap satu, dan berapa bahagian daripada kadar padanan akhir yang diambil oleh skor itu — dipaparkan tepat seperti yang terdapat dalam peraturan pengiraan Inyeon-Link.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Ular ialah cabang yang keenam daripada dua belas cabang",
+        "blocks": [
+          {
+            "p": "Ular ialah seseorang yang cabang tahun kelahirannya **巳**. 巳 ialah cabang bumi yang keenam daripada dua belas cabang bumi, dan apabila dua belas watak disusun dalam bulatan, ia berada tepat bertentangan dengan 亥 (Babi)."
+          },
+          {
+            "p": "Baris yang dipaparkan oleh keputusan keserasian untuk orang Ular ialah: \"Menyimpan pandangannya sendiri dan berfikir mendalam. Pertimbangannya tepat.\" Baris ini tiada kaitan dengan skor hubungan dan tidak menjejaskan skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas haiwan zodiak sekali pandang",
+        "blocks": [
+          {
+            "p": "Setiap haiwan lain diletakkan bersebelahan dengan Ular secara bergilir. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian ditulis sebagai hubungan; selebihnya neutral."
+          },
+          {
+            "table": {
+              "caption": "Ular dan dua belas haiwan zodiak",
+              "head": [
+                "Haiwan lain",
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Tikus (子)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lembu (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Harimau (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Arnab (卯)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Naga (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ular (巳)",
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ],
+                [
+                  "Kuda (午)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Biri-biri (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Monyet (申)",
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Babi (亥)",
+                  "Pertembungan",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Monyet — pasangan yang tertarik (Enam-Harmoni)",
+        "blocks": [
+          {
+            "p": "巳 dan 申 membentuk keharmonian dengan hanya dua watak. Enam-harmoni ialah hubungan baik yang paling kerap muncul dalam keserasian, dan Ular dan Monyet mendapat {scoreYukhap}, yang tertinggi yang boleh diperoleh Ular."
+          }
+        ]
+      },
+      {
+        "title": "Ayam — triad separuh yang termasuk cabang diraja",
+        "blocks": [
+          {
+            "p": "巳酉丑 ialah satu kumpulan triad (kumpulan logam), dan 酉 ialah **cabang diraja** di tengahnya. Inyeon-Link hanya menerima pasangan yang termasuk cabang diraja, jadi Ular membentuk triad separuh ({scoreBanhap}) hanya dengan Ayam."
+          },
+          {
+            "p": "Dengan Lembu (丑) daripada kumpulan yang sama, watak tengah 酉 tiada, jadi ia tidak dikira sebagai keharmonian dan dianggap neutral ({scoreNeutral}). Tergolong dalam kumpulan yang sama tidak menjadikan setiap pasangan sebagai keharmonian."
+          }
+        ]
+      },
+      {
+        "title": "Babi — pertembungan langsung (Pertembungan)",
+        "blocks": [
+          {
+            "p": "巳 dan 亥 berada tepat bertentangan antara satu sama lain dalam bulatan. Perkhidmatan ini mengekalkan {scoreChung} mata walaupun untuk pertembungan. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan, dan memberi skor yang hampir ke dasar sama dengan menjatuhkan hukuman ke atas dua orang. Walaupun begitu, ia ialah skor terendah yang boleh diterima Ular."
+          }
+        ]
+      },
+      {
+        "title": "Anjing — ketidakselarasan yang senyap (Ketidakselarasan)",
+        "blocks": [
+          {
+            "p": "巳 dan 戌 berada betul-betul bersebelahan dengan 亥 (Babi), kedudukan pertembungan, dan secara tradisinya dilihat sebagai pasangan yang saling berdendam namun tidak dapat berpisah. Ia kelihatan tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan, jadi ia mendapat {scoreWonjin} — lebih tinggi daripada pertembungan ({scoreChung}) dan lebih rendah daripada neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "7 haiwan lain, dan Ular dengan Ular yang lain",
+        "blocks": [
+          {
+            "p": "Tikus, Lembu, Harimau, Arnab, Naga, Kuda dan Biri-biri bukan keharmonian, pertembungan mahupun ketidakselarasan dengan Ular: ia **neutral** dan mendapat {scoreNeutral}. Ia ialah garis asas, tidak baik dan tidak buruk."
+          },
+          {
+            "p": "Dua orang Ular mendapat {scoreSame}. Ini bermaksud mereka serupa, bukan saling tertarik, jadi ia berada sedikit di atas neutral."
+          }
+        ]
+      },
+      {
+        "title": "Berapa bahagian daripada kadar padanan akhir yang diambil oleh skor ini",
+        "blocks": [
+          {
+            "p": "Terdapat dua tempat di mana cabang dua orang diletakkan bersebelahan."
+          },
+          {
+            "ul": [
+              "**Keserasian zodiak** melihat cabang tahun kelahiran. Ia mengambil {weightZodiac} daripada kadar padanan akhir.",
+              "**Keserasian cabang hari** melihat cabang hari kelahiran. Ia mengambil {weightDayBranch} daripada keserasian saju ({weightSaju}), iaitu {weightDayBranchTotal} daripada kadar padanan akhir."
+            ]
+          },
+          {
+            "p": "Sebagai contoh, apabila orang Ular bertemu orang Babi, keserasian zodiak memberikan pertembungan. Jika semua perkara lain sama, kadar padanan akhir menjadi {swingZodiacChung} mata lebih rendah berbanding pasangan neutral. Dengan orang Monyet ia ialah enam-harmoni, dan kadar itu menjadi {swingZodiacYukhap} mata lebih tinggi."
+          },
+          {
+            "p": "Cabang tahun dan cabang hari boleh berbeza. Dua orang Ular yang cabang harinya ialah 巳 dan 亥 mendapat cabang yang sama ({scoreSame}) dalam keserasian zodiak dan pertembungan ({scoreChung}) dalam keserasian cabang hari."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dinyatakan oleh panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu haiwan tidak menentukan hubungan antara dua orang. {weightSaju} daripada kadar padanan akhir ditentukan oleh keserasian saju.",
+              "Perubahan mata di atas mengandaikan semua perkara lain adalah sama; keputusan sebenar ditetapkan oleh keseluruhan saju kedua-dua orang.",
+              "Carta lengkap tentang skor setiap hubungan terdapat dalam [carta dua belas cabang](/guide/branches), dan sebab zodiak dibaca daripada cabang tahun terdapat dalam [Mengapa keserasian zodiak mempertimbangkan cabang tahun](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Haiwan lain dipaparkan dengan cara yang sama. [Tikus](/guide/zodiac-rat) · [Lembu](/guide/zodiac-ox) · [Harimau](/guide/zodiac-tiger) · [Arnab](/guide/zodiac-rabbit) · [Naga](/guide/zodiac-dragon) · [Kuda](/guide/zodiac-horse) · [Biri-biri](/guide/zodiac-goat) · [Monyet](/guide/zodiac-monkey) · [Ayam](/guide/zodiac-rooster) · [Anjing](/guide/zodiac-dog) · [Babi](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-horse": {
+    "eyebrow": "Mengikut haiwan",
+    "title": "Bagaimana Kuda Bertemu Dua Belas Haiwan Zodiak",
+    "summary": "Hubungan apakah yang dimiliki Kuda (午) dengan setiap satu daripada dua belas haiwan zodiak, berapa skor setiap satu, dan berapa bahagian daripada kadar padanan akhir yang diambil oleh skor itu — dipaparkan tepat seperti yang terdapat dalam peraturan pengiraan Inyeon-Link.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Kuda ialah cabang yang ketujuh daripada dua belas cabang",
+        "blocks": [
+          {
+            "p": "Kuda ialah seseorang yang cabang tahun kelahirannya **午**. 午 ialah cabang bumi yang ketujuh daripada dua belas cabang bumi, dan apabila dua belas watak disusun dalam bulatan, ia berada tepat bertentangan dengan 子 (Tikus)."
+          },
+          {
+            "p": "Baris yang dipaparkan oleh keputusan keserasian untuk orang Kuda ialah: \"Ceria dan tidak boleh diam. Dikurung ialah perkara yang paling sukar.\" Baris ini tiada kaitan dengan skor hubungan dan tidak menjejaskan skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas haiwan zodiak sekali pandang",
+        "blocks": [
+          {
+            "p": "Setiap haiwan lain diletakkan bersebelahan dengan Kuda secara bergilir. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian ditulis sebagai hubungan; selebihnya neutral."
+          },
+          {
+            "table": {
+              "caption": "Kuda dan dua belas haiwan zodiak",
+              "head": [
+                "Haiwan lain",
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Tikus (子)",
+                  "Pertembungan",
+                  "{scoreChung}"
+                ],
+                [
+                  "Lembu (丑)",
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Harimau (寅)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Arnab (卯)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Naga (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ular (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kuda (午)",
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ],
+                [
+                  "Biri-biri (未)",
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Monyet (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Babi (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Biri-biri — pasangan yang tertarik (Enam-Harmoni)",
+        "blocks": [
+          {
+            "p": "午 dan 未 membentuk keharmonian dengan hanya dua watak. Enam-harmoni ialah hubungan baik yang paling kerap muncul dalam keserasian, dan Kuda dan Biri-biri mendapat {scoreYukhap}, yang tertinggi yang boleh diperoleh Kuda."
+          }
+        ]
+      },
+      {
+        "title": "Harimau dan Anjing — triad separuh yang termasuk cabang diraja",
+        "blocks": [
+          {
+            "p": "寅午戌 ialah satu kumpulan triad (kumpulan api), dan 午 ialah **cabang diraja** di tengahnya. Inyeon-Link hanya menerima pasangan yang termasuk cabang diraja, jadi Kuda membentuk triad separuh ({scoreBanhap}) dengan kedua-dua Harimau dan Anjing."
+          },
+          {
+            "p": "**Harimau dan Anjing bersama-sama**, sebaliknya, tiada watak tengah 午, jadi ia tidak dikira sebagai keharmonian dan dianggap neutral. Walaupun dalam satu kumpulan triad, Kuda yang membentuk triad separuh."
+          }
+        ]
+      },
+      {
+        "title": "Tikus — pertembungan langsung (Pertembungan)",
+        "blocks": [
+          {
+            "p": "午 dan 子 berada tepat bertentangan antara satu sama lain dalam bulatan. Perkhidmatan ini mengekalkan {scoreChung} mata walaupun untuk pertembungan. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan, dan memberi skor yang hampir ke dasar sama dengan menjatuhkan hukuman ke atas dua orang. Walaupun begitu, ia ialah skor terendah yang boleh diterima Kuda."
+          }
+        ]
+      },
+      {
+        "title": "Lembu — ketidakselarasan yang senyap (Ketidakselarasan)",
+        "blocks": [
+          {
+            "p": "午 dan 丑 berada betul-betul bersebelahan dengan 子 (Tikus), kedudukan pertembungan, dan secara tradisinya dilihat sebagai pasangan yang saling berdendam namun tidak dapat berpisah. Ia kelihatan tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan, jadi ia mendapat {scoreWonjin} — lebih tinggi daripada pertembungan ({scoreChung}) dan lebih rendah daripada neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "6 haiwan lain, dan Kuda dengan Kuda yang lain",
+        "blocks": [
+          {
+            "p": "Arnab, Naga, Ular, Monyet, Ayam dan Babi bukan keharmonian, pertembungan mahupun ketidakselarasan dengan Kuda: ia **neutral** dan mendapat {scoreNeutral}. Ia ialah garis asas, tidak baik dan tidak buruk."
+          },
+          {
+            "p": "Dua orang Kuda mendapat {scoreSame}. Ini bermaksud mereka serupa, bukan saling tertarik, jadi ia berada sedikit di atas neutral."
+          }
+        ]
+      },
+      {
+        "title": "Berapa bahagian daripada kadar padanan akhir yang diambil oleh skor ini",
+        "blocks": [
+          {
+            "p": "Terdapat dua tempat di mana cabang dua orang diletakkan bersebelahan."
+          },
+          {
+            "ul": [
+              "**Keserasian zodiak** melihat cabang tahun kelahiran. Ia mengambil {weightZodiac} daripada kadar padanan akhir.",
+              "**Keserasian cabang hari** melihat cabang hari kelahiran. Ia mengambil {weightDayBranch} daripada keserasian saju ({weightSaju}), iaitu {weightDayBranchTotal} daripada kadar padanan akhir."
+            ]
+          },
+          {
+            "p": "Sebagai contoh, apabila orang Kuda bertemu orang Tikus, keserasian zodiak memberikan pertembungan. Jika semua perkara lain sama, kadar padanan akhir menjadi {swingZodiacChung} mata lebih rendah berbanding pasangan neutral. Dengan orang Biri-biri ia ialah enam-harmoni, dan kadar itu menjadi {swingZodiacYukhap} mata lebih tinggi."
+          },
+          {
+            "p": "Cabang tahun dan cabang hari boleh berbeza. Dua orang Kuda yang cabang harinya ialah 午 dan 子 mendapat cabang yang sama ({scoreSame}) dalam keserasian zodiak dan pertembungan ({scoreChung}) dalam keserasian cabang hari."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dinyatakan oleh panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu haiwan tidak menentukan hubungan antara dua orang. {weightSaju} daripada kadar padanan akhir ditentukan oleh keserasian saju.",
+              "Perubahan mata di atas mengandaikan semua perkara lain adalah sama; keputusan sebenar ditetapkan oleh keseluruhan saju kedua-dua orang.",
+              "Carta lengkap tentang skor setiap hubungan terdapat dalam [carta dua belas cabang](/guide/branches), dan sebab zodiak dibaca daripada cabang tahun terdapat dalam [Mengapa keserasian zodiak mempertimbangkan cabang tahun](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Haiwan lain dipaparkan dengan cara yang sama. [Tikus](/guide/zodiac-rat) · [Lembu](/guide/zodiac-ox) · [Harimau](/guide/zodiac-tiger) · [Arnab](/guide/zodiac-rabbit) · [Naga](/guide/zodiac-dragon) · [Ular](/guide/zodiac-snake) · [Biri-biri](/guide/zodiac-goat) · [Monyet](/guide/zodiac-monkey) · [Ayam](/guide/zodiac-rooster) · [Anjing](/guide/zodiac-dog) · [Babi](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-goat": {
+    "eyebrow": "Mengikut haiwan",
+    "title": "Bagaimana Biri-biri Bertemu Dua Belas Haiwan Zodiak",
+    "summary": "Hubungan apakah yang dimiliki Biri-biri (未) dengan setiap satu daripada dua belas haiwan zodiak, berapa skor setiap satu, dan berapa bahagian daripada kadar padanan akhir yang diambil oleh skor itu — dipaparkan tepat seperti yang terdapat dalam peraturan pengiraan Inyeon-Link.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Biri-biri ialah cabang yang kelapan daripada dua belas cabang",
+        "blocks": [
+          {
+            "p": "Biri-biri ialah seseorang yang cabang tahun kelahirannya **未**. 未 ialah cabang bumi yang kelapan daripada dua belas cabang bumi, dan apabila dua belas watak disusun dalam bulatan, ia berada tepat bertentangan dengan 丑 (Lembu)."
+          },
+          {
+            "p": "Baris yang dipaparkan oleh keputusan keserasian untuk orang Biri-biri ialah: \"Hangat dan bertimbang rasa. Menyimpan kata-kata kasar untuk masa yang lama.\" Baris ini tiada kaitan dengan skor hubungan dan tidak menjejaskan skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas haiwan zodiak sekali pandang",
+        "blocks": [
+          {
+            "p": "Setiap haiwan lain diletakkan bersebelahan dengan Biri-biri secara bergilir. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian ditulis sebagai hubungan; selebihnya neutral."
+          },
+          {
+            "table": {
+              "caption": "Biri-biri dan dua belas haiwan zodiak",
+              "head": [
+                "Haiwan lain",
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Tikus (子)",
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Lembu (丑)",
+                  "Pertembungan",
+                  "{scoreChung}"
+                ],
+                [
+                  "Harimau (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Arnab (卯)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Naga (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ular (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kuda (午)",
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Biri-biri (未)",
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ],
+                [
+                  "Monyet (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Babi (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kuda — pasangan yang tertarik (Enam-Harmoni)",
+        "blocks": [
+          {
+            "p": "未 dan 午 membentuk keharmonian dengan hanya dua watak. Enam-harmoni ialah hubungan baik yang paling kerap muncul dalam keserasian, dan Biri-biri dan Kuda mendapat {scoreYukhap}, yang tertinggi yang boleh diperoleh Biri-biri."
+          }
+        ]
+      },
+      {
+        "title": "Arnab — triad separuh yang termasuk cabang diraja",
+        "blocks": [
+          {
+            "p": "亥卯未 ialah satu kumpulan triad (kumpulan kayu), dan 卯 ialah **cabang diraja** di tengahnya. Inyeon-Link hanya menerima pasangan yang termasuk cabang diraja, jadi Biri-biri membentuk triad separuh ({scoreBanhap}) hanya dengan Arnab."
+          },
+          {
+            "p": "Dengan Babi (亥) daripada kumpulan yang sama, watak tengah 卯 tiada, jadi ia tidak dikira sebagai keharmonian dan dianggap neutral ({scoreNeutral}). Tergolong dalam kumpulan yang sama tidak menjadikan setiap pasangan sebagai keharmonian."
+          }
+        ]
+      },
+      {
+        "title": "Lembu — pertembungan langsung (Pertembungan)",
+        "blocks": [
+          {
+            "p": "未 dan 丑 berada tepat bertentangan antara satu sama lain dalam bulatan. Perkhidmatan ini mengekalkan {scoreChung} mata walaupun untuk pertembungan. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan, dan memberi skor yang hampir ke dasar sama dengan menjatuhkan hukuman ke atas dua orang. Walaupun begitu, ia ialah skor terendah yang boleh diterima Biri-biri."
+          }
+        ]
+      },
+      {
+        "title": "Tikus — ketidakselarasan yang senyap (Ketidakselarasan)",
+        "blocks": [
+          {
+            "p": "未 dan 子 berada betul-betul bersebelahan dengan 丑 (Lembu), kedudukan pertembungan, dan secara tradisinya dilihat sebagai pasangan yang saling berdendam namun tidak dapat berpisah. Ia kelihatan tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan, jadi ia mendapat {scoreWonjin} — lebih tinggi daripada pertembungan ({scoreChung}) dan lebih rendah daripada neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "7 haiwan lain, dan Biri-biri dengan Biri-biri yang lain",
+        "blocks": [
+          {
+            "p": "Harimau, Naga, Ular, Monyet, Ayam, Anjing dan Babi bukan keharmonian, pertembungan mahupun ketidakselarasan dengan Biri-biri: ia **neutral** dan mendapat {scoreNeutral}. Ia ialah garis asas, tidak baik dan tidak buruk."
+          },
+          {
+            "p": "Dua orang Biri-biri mendapat {scoreSame}. Ini bermaksud mereka serupa, bukan saling tertarik, jadi ia berada sedikit di atas neutral."
+          }
+        ]
+      },
+      {
+        "title": "Berapa bahagian daripada kadar padanan akhir yang diambil oleh skor ini",
+        "blocks": [
+          {
+            "p": "Terdapat dua tempat di mana cabang dua orang diletakkan bersebelahan."
+          },
+          {
+            "ul": [
+              "**Keserasian zodiak** melihat cabang tahun kelahiran. Ia mengambil {weightZodiac} daripada kadar padanan akhir.",
+              "**Keserasian cabang hari** melihat cabang hari kelahiran. Ia mengambil {weightDayBranch} daripada keserasian saju ({weightSaju}), iaitu {weightDayBranchTotal} daripada kadar padanan akhir."
+            ]
+          },
+          {
+            "p": "Sebagai contoh, apabila orang Biri-biri bertemu orang Lembu, keserasian zodiak memberikan pertembungan. Jika semua perkara lain sama, kadar padanan akhir menjadi {swingZodiacChung} mata lebih rendah berbanding pasangan neutral. Dengan orang Kuda ia ialah enam-harmoni, dan kadar itu menjadi {swingZodiacYukhap} mata lebih tinggi."
+          },
+          {
+            "p": "Cabang tahun dan cabang hari boleh berbeza. Dua orang Biri-biri yang cabang harinya ialah 未 dan 丑 mendapat cabang yang sama ({scoreSame}) dalam keserasian zodiak dan pertembungan ({scoreChung}) dalam keserasian cabang hari."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dinyatakan oleh panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu haiwan tidak menentukan hubungan antara dua orang. {weightSaju} daripada kadar padanan akhir ditentukan oleh keserasian saju.",
+              "Perubahan mata di atas mengandaikan semua perkara lain adalah sama; keputusan sebenar ditetapkan oleh keseluruhan saju kedua-dua orang.",
+              "Carta lengkap tentang skor setiap hubungan terdapat dalam [carta dua belas cabang](/guide/branches), dan sebab zodiak dibaca daripada cabang tahun terdapat dalam [Mengapa keserasian zodiak mempertimbangkan cabang tahun](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Haiwan lain dipaparkan dengan cara yang sama. [Tikus](/guide/zodiac-rat) · [Lembu](/guide/zodiac-ox) · [Harimau](/guide/zodiac-tiger) · [Arnab](/guide/zodiac-rabbit) · [Naga](/guide/zodiac-dragon) · [Ular](/guide/zodiac-snake) · [Kuda](/guide/zodiac-horse) · [Monyet](/guide/zodiac-monkey) · [Ayam](/guide/zodiac-rooster) · [Anjing](/guide/zodiac-dog) · [Babi](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-monkey": {
+    "eyebrow": "Mengikut haiwan",
+    "title": "Bagaimana Monyet Bertemu Dua Belas Haiwan Zodiak",
+    "summary": "Hubungan apakah yang dimiliki Monyet (申) dengan setiap satu daripada dua belas haiwan zodiak, berapa skor setiap satu, dan berapa bahagian daripada kadar padanan akhir yang diambil oleh skor itu — dipaparkan tepat seperti yang terdapat dalam peraturan pengiraan Inyeon-Link.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Monyet ialah cabang yang kesembilan daripada dua belas cabang",
+        "blocks": [
+          {
+            "p": "Monyet ialah seseorang yang cabang tahun kelahirannya **申**. 申 ialah cabang bumi yang kesembilan daripada dua belas cabang bumi, dan apabila dua belas watak disusun dalam bulatan, ia berada tepat bertentangan dengan 寅 (Harimau)."
+          },
+          {
+            "p": "Baris yang dipaparkan oleh keputusan keserasian untuk orang Monyet ialah: \"Banyak akal dan cepat menyesuaikan diri. Bosan dengan perkara yang berulang.\" Baris ini tiada kaitan dengan skor hubungan dan tidak menjejaskan skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas haiwan zodiak sekali pandang",
+        "blocks": [
+          {
+            "p": "Setiap haiwan lain diletakkan bersebelahan dengan Monyet secara bergilir. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian ditulis sebagai hubungan; selebihnya neutral."
+          },
+          {
+            "table": {
+              "caption": "Monyet dan dua belas haiwan zodiak",
+              "head": [
+                "Haiwan lain",
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Tikus (子)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Lembu (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Harimau (寅)",
+                  "Pertembungan",
+                  "{scoreChung}"
+                ],
+                [
+                  "Arnab (卯)",
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Naga (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ular (巳)",
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Kuda (午)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Biri-biri (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Monyet (申)",
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Babi (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ular — pasangan yang tertarik (Enam-Harmoni)",
+        "blocks": [
+          {
+            "p": "申 dan 巳 membentuk keharmonian dengan hanya dua watak. Enam-harmoni ialah hubungan baik yang paling kerap muncul dalam keserasian, dan Monyet dan Ular mendapat {scoreYukhap}, yang tertinggi yang boleh diperoleh Monyet."
+          }
+        ]
+      },
+      {
+        "title": "Tikus — triad separuh yang termasuk cabang diraja",
+        "blocks": [
+          {
+            "p": "申子辰 ialah satu kumpulan triad (kumpulan air), dan 子 ialah **cabang diraja** di tengahnya. Inyeon-Link hanya menerima pasangan yang termasuk cabang diraja, jadi Monyet membentuk triad separuh ({scoreBanhap}) hanya dengan Tikus."
+          },
+          {
+            "p": "Dengan Naga (辰) daripada kumpulan yang sama, watak tengah 子 tiada, jadi ia tidak dikira sebagai keharmonian dan dianggap neutral ({scoreNeutral}). Tergolong dalam kumpulan yang sama tidak menjadikan setiap pasangan sebagai keharmonian."
+          }
+        ]
+      },
+      {
+        "title": "Harimau — pertembungan langsung (Pertembungan)",
+        "blocks": [
+          {
+            "p": "申 dan 寅 berada tepat bertentangan antara satu sama lain dalam bulatan. Perkhidmatan ini mengekalkan {scoreChung} mata walaupun untuk pertembungan. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan, dan memberi skor yang hampir ke dasar sama dengan menjatuhkan hukuman ke atas dua orang. Walaupun begitu, ia ialah skor terendah yang boleh diterima Monyet."
+          }
+        ]
+      },
+      {
+        "title": "Arnab — ketidakselarasan yang senyap (Ketidakselarasan)",
+        "blocks": [
+          {
+            "p": "申 dan 卯 berada betul-betul bersebelahan dengan 寅 (Harimau), kedudukan pertembungan, dan secara tradisinya dilihat sebagai pasangan yang saling berdendam namun tidak dapat berpisah. Ia kelihatan tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan, jadi ia mendapat {scoreWonjin} — lebih tinggi daripada pertembungan ({scoreChung}) dan lebih rendah daripada neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "7 haiwan lain, dan Monyet dengan Monyet yang lain",
+        "blocks": [
+          {
+            "p": "Lembu, Naga, Kuda, Biri-biri, Ayam, Anjing dan Babi bukan keharmonian, pertembungan mahupun ketidakselarasan dengan Monyet: ia **neutral** dan mendapat {scoreNeutral}. Ia ialah garis asas, tidak baik dan tidak buruk."
+          },
+          {
+            "p": "Dua orang Monyet mendapat {scoreSame}. Ini bermaksud mereka serupa, bukan saling tertarik, jadi ia berada sedikit di atas neutral."
+          }
+        ]
+      },
+      {
+        "title": "Berapa bahagian daripada kadar padanan akhir yang diambil oleh skor ini",
+        "blocks": [
+          {
+            "p": "Terdapat dua tempat di mana cabang dua orang diletakkan bersebelahan."
+          },
+          {
+            "ul": [
+              "**Keserasian zodiak** melihat cabang tahun kelahiran. Ia mengambil {weightZodiac} daripada kadar padanan akhir.",
+              "**Keserasian cabang hari** melihat cabang hari kelahiran. Ia mengambil {weightDayBranch} daripada keserasian saju ({weightSaju}), iaitu {weightDayBranchTotal} daripada kadar padanan akhir."
+            ]
+          },
+          {
+            "p": "Sebagai contoh, apabila orang Monyet bertemu orang Harimau, keserasian zodiak memberikan pertembungan. Jika semua perkara lain sama, kadar padanan akhir menjadi {swingZodiacChung} mata lebih rendah berbanding pasangan neutral. Dengan orang Ular ia ialah enam-harmoni, dan kadar itu menjadi {swingZodiacYukhap} mata lebih tinggi."
+          },
+          {
+            "p": "Cabang tahun dan cabang hari boleh berbeza. Dua orang Monyet yang cabang harinya ialah 申 dan 寅 mendapat cabang yang sama ({scoreSame}) dalam keserasian zodiak dan pertembungan ({scoreChung}) dalam keserasian cabang hari."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dinyatakan oleh panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu haiwan tidak menentukan hubungan antara dua orang. {weightSaju} daripada kadar padanan akhir ditentukan oleh keserasian saju.",
+              "Perubahan mata di atas mengandaikan semua perkara lain adalah sama; keputusan sebenar ditetapkan oleh keseluruhan saju kedua-dua orang.",
+              "Carta lengkap tentang skor setiap hubungan terdapat dalam [carta dua belas cabang](/guide/branches), dan sebab zodiak dibaca daripada cabang tahun terdapat dalam [Mengapa keserasian zodiak mempertimbangkan cabang tahun](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Haiwan lain dipaparkan dengan cara yang sama. [Tikus](/guide/zodiac-rat) · [Lembu](/guide/zodiac-ox) · [Harimau](/guide/zodiac-tiger) · [Arnab](/guide/zodiac-rabbit) · [Naga](/guide/zodiac-dragon) · [Ular](/guide/zodiac-snake) · [Kuda](/guide/zodiac-horse) · [Biri-biri](/guide/zodiac-goat) · [Ayam](/guide/zodiac-rooster) · [Anjing](/guide/zodiac-dog) · [Babi](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rooster": {
+    "eyebrow": "Mengikut haiwan",
+    "title": "Bagaimana Ayam Bertemu Dua Belas Haiwan Zodiak",
+    "summary": "Hubungan apakah yang dimiliki Ayam (酉) dengan setiap satu daripada dua belas haiwan zodiak, berapa skor setiap satu, dan berapa bahagian daripada kadar padanan akhir yang diambil oleh skor itu — dipaparkan tepat seperti yang terdapat dalam peraturan pengiraan Inyeon-Link.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Ayam ialah cabang yang kesepuluh daripada dua belas cabang",
+        "blocks": [
+          {
+            "p": "Ayam ialah seseorang yang cabang tahun kelahirannya **酉**. 酉 ialah cabang bumi yang kesepuluh daripada dua belas cabang bumi, dan apabila dua belas watak disusun dalam bulatan, ia berada tepat bertentangan dengan 卯 (Arnab)."
+          },
+          {
+            "p": "Baris yang dipaparkan oleh keputusan keserasian untuk orang Ayam ialah: \"Rajin dan teliti. Tidak boleh membiarkan sesuatu tidak kena pada tempatnya.\" Baris ini tiada kaitan dengan skor hubungan dan tidak menjejaskan skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas haiwan zodiak sekali pandang",
+        "blocks": [
+          {
+            "p": "Setiap haiwan lain diletakkan bersebelahan dengan Ayam secara bergilir. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian ditulis sebagai hubungan; selebihnya neutral."
+          },
+          {
+            "table": {
+              "caption": "Ayam dan dua belas haiwan zodiak",
+              "head": [
+                "Haiwan lain",
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Tikus (子)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lembu (丑)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Harimau (寅)",
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Arnab (卯)",
+                  "Pertembungan",
+                  "{scoreChung}"
+                ],
+                [
+                  "Naga (辰)",
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Ular (巳)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Kuda (午)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Biri-biri (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Monyet (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Babi (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Naga — pasangan yang tertarik (Enam-Harmoni)",
+        "blocks": [
+          {
+            "p": "酉 dan 辰 membentuk keharmonian dengan hanya dua watak. Enam-harmoni ialah hubungan baik yang paling kerap muncul dalam keserasian, dan Ayam dan Naga mendapat {scoreYukhap}, yang tertinggi yang boleh diperoleh Ayam."
+          }
+        ]
+      },
+      {
+        "title": "Lembu dan Ular — triad separuh yang termasuk cabang diraja",
+        "blocks": [
+          {
+            "p": "巳酉丑 ialah satu kumpulan triad (kumpulan logam), dan 酉 ialah **cabang diraja** di tengahnya. Inyeon-Link hanya menerima pasangan yang termasuk cabang diraja, jadi Ayam membentuk triad separuh ({scoreBanhap}) dengan kedua-dua Lembu dan Ular."
+          },
+          {
+            "p": "**Ular dan Lembu bersama-sama**, sebaliknya, tiada watak tengah 酉, jadi ia tidak dikira sebagai keharmonian dan dianggap neutral. Walaupun dalam satu kumpulan triad, Ayam yang membentuk triad separuh."
+          }
+        ]
+      },
+      {
+        "title": "Arnab — pertembungan langsung (Pertembungan)",
+        "blocks": [
+          {
+            "p": "酉 dan 卯 berada tepat bertentangan antara satu sama lain dalam bulatan. Perkhidmatan ini mengekalkan {scoreChung} mata walaupun untuk pertembungan. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan, dan memberi skor yang hampir ke dasar sama dengan menjatuhkan hukuman ke atas dua orang. Walaupun begitu, ia ialah skor terendah yang boleh diterima Ayam."
+          }
+        ]
+      },
+      {
+        "title": "Harimau — ketidakselarasan yang senyap (Ketidakselarasan)",
+        "blocks": [
+          {
+            "p": "酉 dan 寅 berada betul-betul bersebelahan dengan 卯 (Arnab), kedudukan pertembungan, dan secara tradisinya dilihat sebagai pasangan yang saling berdendam namun tidak dapat berpisah. Ia kelihatan tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan, jadi ia mendapat {scoreWonjin} — lebih tinggi daripada pertembungan ({scoreChung}) dan lebih rendah daripada neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "6 haiwan lain, dan Ayam dengan Ayam yang lain",
+        "blocks": [
+          {
+            "p": "Tikus, Kuda, Biri-biri, Monyet, Anjing dan Babi bukan keharmonian, pertembungan mahupun ketidakselarasan dengan Ayam: ia **neutral** dan mendapat {scoreNeutral}. Ia ialah garis asas, tidak baik dan tidak buruk."
+          },
+          {
+            "p": "Dua orang Ayam mendapat {scoreSame}. Ini bermaksud mereka serupa, bukan saling tertarik, jadi ia berada sedikit di atas neutral."
+          }
+        ]
+      },
+      {
+        "title": "Berapa bahagian daripada kadar padanan akhir yang diambil oleh skor ini",
+        "blocks": [
+          {
+            "p": "Terdapat dua tempat di mana cabang dua orang diletakkan bersebelahan."
+          },
+          {
+            "ul": [
+              "**Keserasian zodiak** melihat cabang tahun kelahiran. Ia mengambil {weightZodiac} daripada kadar padanan akhir.",
+              "**Keserasian cabang hari** melihat cabang hari kelahiran. Ia mengambil {weightDayBranch} daripada keserasian saju ({weightSaju}), iaitu {weightDayBranchTotal} daripada kadar padanan akhir."
+            ]
+          },
+          {
+            "p": "Sebagai contoh, apabila orang Ayam bertemu orang Arnab, keserasian zodiak memberikan pertembungan. Jika semua perkara lain sama, kadar padanan akhir menjadi {swingZodiacChung} mata lebih rendah berbanding pasangan neutral. Dengan orang Naga ia ialah enam-harmoni, dan kadar itu menjadi {swingZodiacYukhap} mata lebih tinggi."
+          },
+          {
+            "p": "Cabang tahun dan cabang hari boleh berbeza. Dua orang Ayam yang cabang harinya ialah 酉 dan 卯 mendapat cabang yang sama ({scoreSame}) dalam keserasian zodiak dan pertembungan ({scoreChung}) dalam keserasian cabang hari."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dinyatakan oleh panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu haiwan tidak menentukan hubungan antara dua orang. {weightSaju} daripada kadar padanan akhir ditentukan oleh keserasian saju.",
+              "Perubahan mata di atas mengandaikan semua perkara lain adalah sama; keputusan sebenar ditetapkan oleh keseluruhan saju kedua-dua orang.",
+              "Carta lengkap tentang skor setiap hubungan terdapat dalam [carta dua belas cabang](/guide/branches), dan sebab zodiak dibaca daripada cabang tahun terdapat dalam [Mengapa keserasian zodiak mempertimbangkan cabang tahun](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Haiwan lain dipaparkan dengan cara yang sama. [Tikus](/guide/zodiac-rat) · [Lembu](/guide/zodiac-ox) · [Harimau](/guide/zodiac-tiger) · [Arnab](/guide/zodiac-rabbit) · [Naga](/guide/zodiac-dragon) · [Ular](/guide/zodiac-snake) · [Kuda](/guide/zodiac-horse) · [Biri-biri](/guide/zodiac-goat) · [Monyet](/guide/zodiac-monkey) · [Anjing](/guide/zodiac-dog) · [Babi](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dog": {
+    "eyebrow": "Mengikut haiwan",
+    "title": "Bagaimana Anjing Bertemu Dua Belas Haiwan Zodiak",
+    "summary": "Hubungan apakah yang dimiliki Anjing (戌) dengan setiap satu daripada dua belas haiwan zodiak, berapa skor setiap satu, dan berapa bahagian daripada kadar padanan akhir yang diambil oleh skor itu — dipaparkan tepat seperti yang terdapat dalam peraturan pengiraan Inyeon-Link.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Anjing ialah cabang yang kesebelas daripada dua belas cabang",
+        "blocks": [
+          {
+            "p": "Anjing ialah seseorang yang cabang tahun kelahirannya **戌**. 戌 ialah cabang bumi yang kesebelas daripada dua belas cabang bumi, dan apabila dua belas watak disusun dalam bulatan, ia berada tepat bertentangan dengan 辰 (Naga)."
+          },
+          {
+            "p": "Baris yang dipaparkan oleh keputusan keserasian untuk orang Anjing ialah: \"Setia hingga ke akhir sebaik kepercayaan diberi. Pengkhianatan melukakan paling dalam.\" Baris ini tiada kaitan dengan skor hubungan dan tidak menjejaskan skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas haiwan zodiak sekali pandang",
+        "blocks": [
+          {
+            "p": "Setiap haiwan lain diletakkan bersebelahan dengan Anjing secara bergilir. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian ditulis sebagai hubungan; selebihnya neutral."
+          },
+          {
+            "table": {
+              "caption": "Anjing dan dua belas haiwan zodiak",
+              "head": [
+                "Haiwan lain",
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Tikus (子)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lembu (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Harimau (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Arnab (卯)",
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Naga (辰)",
+                  "Pertembungan",
+                  "{scoreChung}"
+                ],
+                [
+                  "Ular (巳)",
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Kuda (午)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Biri-biri (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Monyet (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ],
+                [
+                  "Babi (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Arnab — pasangan yang tertarik (Enam-Harmoni)",
+        "blocks": [
+          {
+            "p": "戌 dan 卯 membentuk keharmonian dengan hanya dua watak. Enam-harmoni ialah hubungan baik yang paling kerap muncul dalam keserasian, dan Anjing dan Arnab mendapat {scoreYukhap}, yang tertinggi yang boleh diperoleh Anjing."
+          }
+        ]
+      },
+      {
+        "title": "Kuda — triad separuh yang termasuk cabang diraja",
+        "blocks": [
+          {
+            "p": "寅午戌 ialah satu kumpulan triad (kumpulan api), dan 午 ialah **cabang diraja** di tengahnya. Inyeon-Link hanya menerima pasangan yang termasuk cabang diraja, jadi Anjing membentuk triad separuh ({scoreBanhap}) hanya dengan Kuda."
+          },
+          {
+            "p": "Dengan Harimau (寅) daripada kumpulan yang sama, watak tengah 午 tiada, jadi ia tidak dikira sebagai keharmonian dan dianggap neutral ({scoreNeutral}). Tergolong dalam kumpulan yang sama tidak menjadikan setiap pasangan sebagai keharmonian."
+          }
+        ]
+      },
+      {
+        "title": "Naga — pertembungan langsung (Pertembungan)",
+        "blocks": [
+          {
+            "p": "戌 dan 辰 berada tepat bertentangan antara satu sama lain dalam bulatan. Perkhidmatan ini mengekalkan {scoreChung} mata walaupun untuk pertembungan. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan, dan memberi skor yang hampir ke dasar sama dengan menjatuhkan hukuman ke atas dua orang. Walaupun begitu, ia ialah skor terendah yang boleh diterima Anjing."
+          }
+        ]
+      },
+      {
+        "title": "Ular — ketidakselarasan yang senyap (Ketidakselarasan)",
+        "blocks": [
+          {
+            "p": "戌 dan 巳 berada betul-betul bersebelahan dengan 辰 (Naga), kedudukan pertembungan, dan secara tradisinya dilihat sebagai pasangan yang saling berdendam namun tidak dapat berpisah. Ia kelihatan tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan, jadi ia mendapat {scoreWonjin} — lebih tinggi daripada pertembungan ({scoreChung}) dan lebih rendah daripada neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "7 haiwan lain, dan Anjing dengan Anjing yang lain",
+        "blocks": [
+          {
+            "p": "Tikus, Lembu, Harimau, Biri-biri, Monyet, Ayam dan Babi bukan keharmonian, pertembungan mahupun ketidakselarasan dengan Anjing: ia **neutral** dan mendapat {scoreNeutral}. Ia ialah garis asas, tidak baik dan tidak buruk."
+          },
+          {
+            "p": "Dua orang Anjing mendapat {scoreSame}. Ini bermaksud mereka serupa, bukan saling tertarik, jadi ia berada sedikit di atas neutral."
+          }
+        ]
+      },
+      {
+        "title": "Berapa bahagian daripada kadar padanan akhir yang diambil oleh skor ini",
+        "blocks": [
+          {
+            "p": "Terdapat dua tempat di mana cabang dua orang diletakkan bersebelahan."
+          },
+          {
+            "ul": [
+              "**Keserasian zodiak** melihat cabang tahun kelahiran. Ia mengambil {weightZodiac} daripada kadar padanan akhir.",
+              "**Keserasian cabang hari** melihat cabang hari kelahiran. Ia mengambil {weightDayBranch} daripada keserasian saju ({weightSaju}), iaitu {weightDayBranchTotal} daripada kadar padanan akhir."
+            ]
+          },
+          {
+            "p": "Sebagai contoh, apabila orang Anjing bertemu orang Naga, keserasian zodiak memberikan pertembungan. Jika semua perkara lain sama, kadar padanan akhir menjadi {swingZodiacChung} mata lebih rendah berbanding pasangan neutral. Dengan orang Arnab ia ialah enam-harmoni, dan kadar itu menjadi {swingZodiacYukhap} mata lebih tinggi."
+          },
+          {
+            "p": "Cabang tahun dan cabang hari boleh berbeza. Dua orang Anjing yang cabang harinya ialah 戌 dan 辰 mendapat cabang yang sama ({scoreSame}) dalam keserasian zodiak dan pertembungan ({scoreChung}) dalam keserasian cabang hari."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dinyatakan oleh panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu haiwan tidak menentukan hubungan antara dua orang. {weightSaju} daripada kadar padanan akhir ditentukan oleh keserasian saju.",
+              "Perubahan mata di atas mengandaikan semua perkara lain adalah sama; keputusan sebenar ditetapkan oleh keseluruhan saju kedua-dua orang.",
+              "Carta lengkap tentang skor setiap hubungan terdapat dalam [carta dua belas cabang](/guide/branches), dan sebab zodiak dibaca daripada cabang tahun terdapat dalam [Mengapa keserasian zodiak mempertimbangkan cabang tahun](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Haiwan lain dipaparkan dengan cara yang sama. [Tikus](/guide/zodiac-rat) · [Lembu](/guide/zodiac-ox) · [Harimau](/guide/zodiac-tiger) · [Arnab](/guide/zodiac-rabbit) · [Naga](/guide/zodiac-dragon) · [Ular](/guide/zodiac-snake) · [Kuda](/guide/zodiac-horse) · [Biri-biri](/guide/zodiac-goat) · [Monyet](/guide/zodiac-monkey) · [Ayam](/guide/zodiac-rooster) · [Babi](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pig": {
+    "eyebrow": "Mengikut haiwan",
+    "title": "Bagaimana Babi Bertemu Dua Belas Haiwan Zodiak",
+    "summary": "Hubungan apakah yang dimiliki Babi (亥) dengan setiap satu daripada dua belas haiwan zodiak, berapa skor setiap satu, dan berapa bahagian daripada kadar padanan akhir yang diambil oleh skor itu — dipaparkan tepat seperti yang terdapat dalam peraturan pengiraan Inyeon-Link.",
+    "backLabel": "Asas pengiraan",
+    "sections": [
+      {
+        "title": "Babi ialah cabang yang kedua belas daripada dua belas cabang",
+        "blocks": [
+          {
+            "p": "Babi ialah seseorang yang cabang tahun kelahirannya **亥**. 亥 ialah cabang bumi yang kedua belas daripada dua belas cabang bumi, dan apabila dua belas watak disusun dalam bulatan, ia berada tepat bertentangan dengan 巳 (Ular)."
+          },
+          {
+            "p": "Baris yang dipaparkan oleh keputusan keserasian untuk orang Babi ialah: \"Murah hati dan berterus terang. Mudah percaya, kadangkala dengan harga yang mahal.\" Baris ini tiada kaitan dengan skor hubungan dan tidak menjejaskan skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Dua belas haiwan zodiak sekali pandang",
+        "blocks": [
+          {
+            "p": "Setiap haiwan lain diletakkan bersebelahan dengan Babi secara bergilir. Hanya pasangan yang diiktiraf perkhidmatan ini sebagai keharmonian ditulis sebagai hubungan; selebihnya neutral."
+          },
+          {
+            "table": {
+              "caption": "Babi dan dua belas haiwan zodiak",
+              "head": [
+                "Haiwan lain",
+                "Hubungan",
+                "Skor"
+              ],
+              "rows": [
+                [
+                  "Tikus (子)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lembu (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Harimau (寅)",
+                  "Enam-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Arnab (卯)",
+                  "Triad separuh",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Naga (辰)",
+                  "Ketidakselarasan",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Ular (巳)",
+                  "Pertembungan",
+                  "{scoreChung}"
+                ],
+                [
+                  "Kuda (午)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Biri-biri (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Monyet (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ayam (酉)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Anjing (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Babi (亥)",
+                  "Cabang yang sama",
+                  "{scoreSame}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Harimau — pasangan yang tertarik (Enam-Harmoni)",
+        "blocks": [
+          {
+            "p": "亥 dan 寅 membentuk keharmonian dengan hanya dua watak. Enam-harmoni ialah hubungan baik yang paling kerap muncul dalam keserasian, dan Babi dan Harimau mendapat {scoreYukhap}, yang tertinggi yang boleh diperoleh Babi."
+          }
+        ]
+      },
+      {
+        "title": "Arnab — triad separuh yang termasuk cabang diraja",
+        "blocks": [
+          {
+            "p": "亥卯未 ialah satu kumpulan triad (kumpulan kayu), dan 卯 ialah **cabang diraja** di tengahnya. Inyeon-Link hanya menerima pasangan yang termasuk cabang diraja, jadi Babi membentuk triad separuh ({scoreBanhap}) hanya dengan Arnab."
+          },
+          {
+            "p": "Dengan Biri-biri (未) daripada kumpulan yang sama, watak tengah 卯 tiada, jadi ia tidak dikira sebagai keharmonian dan dianggap neutral ({scoreNeutral}). Tergolong dalam kumpulan yang sama tidak menjadikan setiap pasangan sebagai keharmonian."
+          }
+        ]
+      },
+      {
+        "title": "Ular — pertembungan langsung (Pertembungan)",
+        "blocks": [
+          {
+            "p": "亥 dan 巳 berada tepat bertentangan antara satu sama lain dalam bulatan. Perkhidmatan ini mengekalkan {scoreChung} mata walaupun untuk pertembungan. Dalam myeongri tradisional, pertembungan ialah perlanggaran, bukan pengakhiran sesuatu hubungan, dan memberi skor yang hampir ke dasar sama dengan menjatuhkan hukuman ke atas dua orang. Walaupun begitu, ia ialah skor terendah yang boleh diterima Babi."
+          }
+        ]
+      },
+      {
+        "title": "Naga — ketidakselarasan yang senyap (Ketidakselarasan)",
+        "blocks": [
+          {
+            "p": "亥 dan 辰 berada betul-betul bersebelahan dengan 巳 (Ular), kedudukan pertembungan, dan secara tradisinya dilihat sebagai pasangan yang saling berdendam namun tidak dapat berpisah. Ia kelihatan tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan, jadi ia mendapat {scoreWonjin} — lebih tinggi daripada pertembungan ({scoreChung}) dan lebih rendah daripada neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "7 haiwan lain, dan Babi dengan Babi yang lain",
+        "blocks": [
+          {
+            "p": "Tikus, Lembu, Kuda, Biri-biri, Monyet, Ayam dan Anjing bukan keharmonian, pertembungan mahupun ketidakselarasan dengan Babi: ia **neutral** dan mendapat {scoreNeutral}. Ia ialah garis asas, tidak baik dan tidak buruk."
+          },
+          {
+            "p": "Dua orang Babi mendapat {scoreSame}. Ini bermaksud mereka serupa, bukan saling tertarik, jadi ia berada sedikit di atas neutral."
+          }
+        ]
+      },
+      {
+        "title": "Berapa bahagian daripada kadar padanan akhir yang diambil oleh skor ini",
+        "blocks": [
+          {
+            "p": "Terdapat dua tempat di mana cabang dua orang diletakkan bersebelahan."
+          },
+          {
+            "ul": [
+              "**Keserasian zodiak** melihat cabang tahun kelahiran. Ia mengambil {weightZodiac} daripada kadar padanan akhir.",
+              "**Keserasian cabang hari** melihat cabang hari kelahiran. Ia mengambil {weightDayBranch} daripada keserasian saju ({weightSaju}), iaitu {weightDayBranchTotal} daripada kadar padanan akhir."
+            ]
+          },
+          {
+            "p": "Sebagai contoh, apabila orang Babi bertemu orang Ular, keserasian zodiak memberikan pertembungan. Jika semua perkara lain sama, kadar padanan akhir menjadi {swingZodiacChung} mata lebih rendah berbanding pasangan neutral. Dengan orang Harimau ia ialah enam-harmoni, dan kadar itu menjadi {swingZodiacYukhap} mata lebih tinggi."
+          },
+          {
+            "p": "Cabang tahun dan cabang hari boleh berbeza. Dua orang Babi yang cabang harinya ialah 亥 dan 巳 mendapat cabang yang sama ({scoreSame}) dalam keserasian zodiak dan pertembungan ({scoreChung}) dalam keserasian cabang hari."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Apa yang tidak dinyatakan oleh panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu haiwan tidak menentukan hubungan antara dua orang. {weightSaju} daripada kadar padanan akhir ditentukan oleh keserasian saju.",
+              "Perubahan mata di atas mengandaikan semua perkara lain adalah sama; keputusan sebenar ditetapkan oleh keseluruhan saju kedua-dua orang.",
+              "Carta lengkap tentang skor setiap hubungan terdapat dalam [carta dua belas cabang](/guide/branches), dan sebab zodiak dibaca daripada cabang tahun terdapat dalam [Mengapa keserasian zodiak mempertimbangkan cabang tahun](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Haiwan lain dipaparkan dengan cara yang sama. [Tikus](/guide/zodiac-rat) · [Lembu](/guide/zodiac-ox) · [Harimau](/guide/zodiac-tiger) · [Arnab](/guide/zodiac-rabbit) · [Naga](/guide/zodiac-dragon) · [Ular](/guide/zodiac-snake) · [Kuda](/guide/zodiac-horse) · [Biri-biri](/guide/zodiac-goat) · [Monyet](/guide/zodiac-monkey) · [Ayam](/guide/zodiac-rooster) · [Anjing](/guide/zodiac-dog)"
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Sepuluh Dewa",
     "title": "Sepuluh Dewa dan Posisi Pasangan",

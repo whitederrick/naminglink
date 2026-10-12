@@ -585,6 +585,2190 @@ export const PL_DOCS = {
       }
     ]
   },
+  "guide/zodiac-rat": {
+    "eyebrow": "Według zwierzęcia",
+    "title": "Jak Szczur spotyka dwanaście zwierząt zodiaku",
+    "summary": "Jaką relację ma Szczur (子) z każdym z dwunastu zwierząt zodiaku, ile punktów daje każda z tych relacji i jaką część końcowego wskaźnika dopasowania zajmuje ten wynik — przedstawione dokładnie tak, jak w zasadach obliczeń Inyeon-Link.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Szczur to pierwsza z dwunastu gałęzi",
+        "blocks": [
+          {
+            "p": "Szczur to osoba, której gałąź roku urodzenia to **子**. 子 to pierwsza z dwunastu gałęzi ziemskich, a gdy dwanaście znaków ustawi się w kole, leży dokładnie naprzeciwko 午 (Konia)."
+          },
+          {
+            "p": "Wiersz, który wynik zgodności pokazuje dla osoby spod znaku Szczura, brzmi: \"Szybko zauważa i szybko zabezpiecza to, co ważne. Pierwszy rusza w kryzysie.\" Ten wiersz nie ma nic wspólnego z wynikami relacji i nie wpływa na wyniki poniżej."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście zwierząt zodiaku w skrócie",
+        "blocks": [
+          {
+            "p": "Każde z pozostałych zwierząt jest po kolei zestawiane ze Szczurem. Jako relacje zapisane są tylko pary, które ta usługa uznaje za harmonie; cała reszta jest neutralna."
+          },
+          {
+            "table": {
+              "caption": "Szczur i dwanaście zwierząt zodiaku",
+              "head": [
+                "Inne zwierzę",
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Szczur (子)",
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ],
+                [
+                  "Wół (丑)",
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Tygrys (寅)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Królik (卯)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Smok (辰)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Wąż (巳)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koń (午)",
+                  "Zderzenie",
+                  "{scoreChung}"
+                ],
+                [
+                  "Owca (未)",
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Małpa (申)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pies (戌)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wół — para przyciągająca (sześć harmonii)",
+        "blocks": [
+          {
+            "p": "子 i 丑 tworzą harmonię zaledwie dwoma znakami. Sześć harmonii to dobra relacja, która w zgodności pojawia się najczęściej, a Szczur i Wół uzyskują {scoreYukhap} — to najwyższy wynik, jaki może uzyskać Szczur."
+          }
+        ]
+      },
+      {
+        "title": "Smok i Małpa — połowa triady zawierająca gałąź królewską",
+        "blocks": [
+          {
+            "p": "申子辰 to jedna grupa triady (grupa wody), a 子 jest **gałęzią królewską** w jej środku. Inyeon-Link przyjmuje wyłącznie pary zawierające gałąź królewską, dlatego Szczur tworzy połowę triady ({scoreBanhap}) zarówno ze Smokiem, jak i z Małpą."
+          },
+          {
+            "p": "**Małpa i Smok razem** natomiast nie mają środkowego znaku 子, więc nie są liczone jako harmonia i są traktowane jako neutralne. Nawet w obrębie jednej grupy triady to Szczur tworzy połowę triady."
+          }
+        ]
+      },
+      {
+        "title": "Koń — czołowe zderzenie (zderzenie)",
+        "blocks": [
+          {
+            "p": "子 i 午 leżą w kole dokładnie naprzeciwko siebie. Ta usługa zachowuje {scoreChung} punktów nawet przy zderzeniu. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji, a przyznanie wyniku bliskiego dna oznaczałoby wydanie wyroku na dwie osoby. Mimo to jest to najniższy wynik, jaki może otrzymać Szczur."
+          }
+        ]
+      },
+      {
+        "title": "Owca — cicha niezgoda (niezgoda)",
+        "blocks": [
+          {
+            "p": "子 i 未 leżą tuż obok 午 (Konia), pozycji zderzenia, i tradycyjnie uważa się je za parę, która żywi do siebie urazę, a mimo to nie potrafi się rozstać. Na powierzchni wygląda to spokojnie, ale uważa się, że rozbieżność trwa długo, więc dostaje {scoreWonjin} — więcej niż zderzenie ({scoreChung}) i mniej niż neutralna ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Pozostałe 6 zwierząt oraz Szczur z innym Szczurem",
+        "blocks": [
+          {
+            "p": "Tygrys, Królik, Wąż, Kogut, Pies i Świnia nie tworzą ze Szczurem ani harmonii, ani zderzenia, ani niezgody: są **neutralne** i uzyskują {scoreNeutral}. To punkt odniesienia, ani dobry, ani zły."
+          },
+          {
+            "p": "Dwie osoby spod znaku Szczura uzyskują {scoreSame}. Oznacza to, że są do siebie podobne, a nie że się przyciągają, dlatego wynik plasuje się tuż nad neutralnym."
+          }
+        ]
+      },
+      {
+        "title": "Jaką część końcowego wskaźnika dopasowania zajmuje ten wynik",
+        "blocks": [
+          {
+            "p": "Są dwa miejsca, w których gałęzie dwóch osób zestawia się obok siebie."
+          },
+          {
+            "ul": [
+              "**Zgodność zodiakalna** patrzy na gałąź roku urodzenia. Stanowi {weightZodiac} końcowego wskaźnika dopasowania.",
+              "**Zgodność gałęzi dnia** patrzy na gałąź dnia urodzenia. Stanowi {weightDayBranch} zgodności saju ({weightSaju}), czyli {weightDayBranchTotal} końcowego wskaźnika dopasowania."
+            ]
+          },
+          {
+            "p": "Na przykład gdy osoba spod znaku Szczura spotyka osobę spod znaku Konia, zgodność zodiakalna daje zderzenie. Jeśli wszystko inne jest takie samo, końcowy wskaźnik dopasowania wypada o {swingZodiacChung} punktów niżej niż przy parze neutralnej. Z osobą spod znaku Wołu jest to sześć harmonii, a wskaźnik wypada o {swingZodiacYukhap} punktów wyżej."
+          },
+          {
+            "p": "Gałąź roku i gałąź dnia mogą się różnić. Dwie osoby spod znaku Szczura, których gałęzie dnia to 子 i 午, otrzymują w zgodności zodiakalnej tę samą gałąź ({scoreSame}), a w zgodności gałęzi dnia zderzenie ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Czego ten przewodnik nie mówi",
+        "blocks": [
+          {
+            "ul": [
+              "Jedno zwierzę nie rozstrzyga o relacji między dwiema osobami. {weightSaju} końcowego wskaźnika dopasowania wynika ze zgodności saju.",
+              "Powyższe zmiany punktów zakładają, że wszystko inne jest takie samo; rzeczywisty wynik zależy od całego saju obu osób.",
+              "Pełna tabela tego, ile punktów daje każda relacja, znajduje się w [tabeli dwunastu gałęzi](/guide/branches), a wyjaśnienie, dlaczego zodiak odczytuje się z gałęzi roku, w [Dlaczego zgodność zodiakalna uwzględnia gałąź roku](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Pozostałe zwierzęta są przedstawione w ten sam sposób. [Wół](/guide/zodiac-ox) · [Tygrys](/guide/zodiac-tiger) · [Królik](/guide/zodiac-rabbit) · [Smok](/guide/zodiac-dragon) · [Wąż](/guide/zodiac-snake) · [Koń](/guide/zodiac-horse) · [Owca](/guide/zodiac-goat) · [Małpa](/guide/zodiac-monkey) · [Kogut](/guide/zodiac-rooster) · [Pies](/guide/zodiac-dog) · [Świnia](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-ox": {
+    "eyebrow": "Według zwierzęcia",
+    "title": "Jak Wół spotyka dwanaście zwierząt zodiaku",
+    "summary": "Jaką relację ma Wół (丑) z każdym z dwunastu zwierząt zodiaku, ile punktów daje każda z tych relacji i jaką część końcowego wskaźnika dopasowania zajmuje ten wynik — przedstawione dokładnie tak, jak w zasadach obliczeń Inyeon-Link.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Wół to druga z dwunastu gałęzi",
+        "blocks": [
+          {
+            "p": "Wół to osoba, której gałąź roku urodzenia to **丑**. 丑 to druga z dwunastu gałęzi ziemskich, a gdy dwanaście znaków ustawi się w kole, leży dokładnie naprzeciwko 未 (Owcy)."
+          },
+          {
+            "p": "Wiersz, który wynik zgodności pokazuje dla osoby spod znaku Wołu, brzmi: \"Z pozoru powolny, ale doprowadza rzeczy do końca. Czego się podejmie, tego nie porzuca.\" Ten wiersz nie ma nic wspólnego z wynikami relacji i nie wpływa na wyniki poniżej."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście zwierząt zodiaku w skrócie",
+        "blocks": [
+          {
+            "p": "Każde z pozostałych zwierząt jest po kolei zestawiane z Wołem. Jako relacje zapisane są tylko pary, które ta usługa uznaje za harmonie; cała reszta jest neutralna."
+          },
+          {
+            "table": {
+              "caption": "Wół i dwanaście zwierząt zodiaku",
+              "head": [
+                "Inne zwierzę",
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Szczur (子)",
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Wół (丑)",
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ],
+                [
+                  "Tygrys (寅)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Królik (卯)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Smok (辰)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wąż (巳)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koń (午)",
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Owca (未)",
+                  "Zderzenie",
+                  "{scoreChung}"
+                ],
+                [
+                  "Małpa (申)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Pies (戌)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Szczur — para przyciągająca (sześć harmonii)",
+        "blocks": [
+          {
+            "p": "丑 i 子 tworzą harmonię zaledwie dwoma znakami. Sześć harmonii to dobra relacja, która w zgodności pojawia się najczęściej, a Wół i Szczur uzyskują {scoreYukhap} — to najwyższy wynik, jaki może uzyskać Wół."
+          }
+        ]
+      },
+      {
+        "title": "Kogut — połowa triady zawierająca gałąź królewską",
+        "blocks": [
+          {
+            "p": "巳酉丑 to jedna grupa triady (grupa metalu), a 酉 jest **gałęzią królewską** w jej środku. Inyeon-Link przyjmuje wyłącznie pary zawierające gałąź królewską, dlatego Wół tworzy połowę triady ({scoreBanhap}) tylko z Kogutem."
+          },
+          {
+            "p": "W parze z Wężem (巳) z tej samej grupy brakuje środkowego znaku 酉, więc para nie jest liczona jako harmonia i jest traktowana jako neutralna ({scoreNeutral}). Przynależność do tej samej grupy nie sprawia, że każda para jest harmonią."
+          }
+        ]
+      },
+      {
+        "title": "Owca — czołowe zderzenie (zderzenie)",
+        "blocks": [
+          {
+            "p": "丑 i 未 leżą w kole dokładnie naprzeciwko siebie. Ta usługa zachowuje {scoreChung} punktów nawet przy zderzeniu. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji, a przyznanie wyniku bliskiego dna oznaczałoby wydanie wyroku na dwie osoby. Mimo to jest to najniższy wynik, jaki może otrzymać Wół."
+          }
+        ]
+      },
+      {
+        "title": "Koń — cicha niezgoda (niezgoda)",
+        "blocks": [
+          {
+            "p": "丑 i 午 leżą tuż obok 未 (Owcy), pozycji zderzenia, i tradycyjnie uważa się je za parę, która żywi do siebie urazę, a mimo to nie potrafi się rozstać. Na powierzchni wygląda to spokojnie, ale uważa się, że rozbieżność trwa długo, więc dostaje {scoreWonjin} — więcej niż zderzenie ({scoreChung}) i mniej niż neutralna ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Pozostałe 7 zwierząt oraz Wół z innym Wołem",
+        "blocks": [
+          {
+            "p": "Tygrys, Królik, Smok, Wąż, Małpa, Pies i Świnia nie tworzą z Wołem ani harmonii, ani zderzenia, ani niezgody: są **neutralne** i uzyskują {scoreNeutral}. To punkt odniesienia, ani dobry, ani zły."
+          },
+          {
+            "p": "Dwie osoby spod znaku Wołu uzyskują {scoreSame}. Oznacza to, że są do siebie podobne, a nie że się przyciągają, dlatego wynik plasuje się tuż nad neutralnym."
+          }
+        ]
+      },
+      {
+        "title": "Jaką część końcowego wskaźnika dopasowania zajmuje ten wynik",
+        "blocks": [
+          {
+            "p": "Są dwa miejsca, w których gałęzie dwóch osób zestawia się obok siebie."
+          },
+          {
+            "ul": [
+              "**Zgodność zodiakalna** patrzy na gałąź roku urodzenia. Stanowi {weightZodiac} końcowego wskaźnika dopasowania.",
+              "**Zgodność gałęzi dnia** patrzy na gałąź dnia urodzenia. Stanowi {weightDayBranch} zgodności saju ({weightSaju}), czyli {weightDayBranchTotal} końcowego wskaźnika dopasowania."
+            ]
+          },
+          {
+            "p": "Na przykład gdy osoba spod znaku Wołu spotyka osobę spod znaku Owcy, zgodność zodiakalna daje zderzenie. Jeśli wszystko inne jest takie samo, końcowy wskaźnik dopasowania wypada o {swingZodiacChung} punktów niżej niż przy parze neutralnej. Z osobą spod znaku Szczura jest to sześć harmonii, a wskaźnik wypada o {swingZodiacYukhap} punktów wyżej."
+          },
+          {
+            "p": "Gałąź roku i gałąź dnia mogą się różnić. Dwie osoby spod znaku Wołu, których gałęzie dnia to 丑 i 未, otrzymują w zgodności zodiakalnej tę samą gałąź ({scoreSame}), a w zgodności gałęzi dnia zderzenie ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Czego ten przewodnik nie mówi",
+        "blocks": [
+          {
+            "ul": [
+              "Jedno zwierzę nie rozstrzyga o relacji między dwiema osobami. {weightSaju} końcowego wskaźnika dopasowania wynika ze zgodności saju.",
+              "Powyższe zmiany punktów zakładają, że wszystko inne jest takie samo; rzeczywisty wynik zależy od całego saju obu osób.",
+              "Pełna tabela tego, ile punktów daje każda relacja, znajduje się w [tabeli dwunastu gałęzi](/guide/branches), a wyjaśnienie, dlaczego zodiak odczytuje się z gałęzi roku, w [Dlaczego zgodność zodiakalna uwzględnia gałąź roku](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Pozostałe zwierzęta są przedstawione w ten sam sposób. [Szczur](/guide/zodiac-rat) · [Tygrys](/guide/zodiac-tiger) · [Królik](/guide/zodiac-rabbit) · [Smok](/guide/zodiac-dragon) · [Wąż](/guide/zodiac-snake) · [Koń](/guide/zodiac-horse) · [Owca](/guide/zodiac-goat) · [Małpa](/guide/zodiac-monkey) · [Kogut](/guide/zodiac-rooster) · [Pies](/guide/zodiac-dog) · [Świnia](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-tiger": {
+    "eyebrow": "Według zwierzęcia",
+    "title": "Jak Tygrys spotyka dwanaście zwierząt zodiaku",
+    "summary": "Jaką relację ma Tygrys (寅) z każdym z dwunastu zwierząt zodiaku, ile punktów daje każda z tych relacji i jaką część końcowego wskaźnika dopasowania zajmuje ten wynik — przedstawione dokładnie tak, jak w zasadach obliczeń Inyeon-Link.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Tygrys to trzecia z dwunastu gałęzi",
+        "blocks": [
+          {
+            "p": "Tygrys to osoba, której gałąź roku urodzenia to **寅**. 寅 to trzecia z dwunastu gałęzi ziemskich, a gdy dwanaście znaków ustawi się w kole, leży dokładnie naprzeciwko 申 (Małpy)."
+          },
+          {
+            "p": "Wiersz, który wynik zgodności pokazuje dla osoby spod znaku Tygrysa, brzmi: \"Nieustraszony i zawsze z przodu. Nie przejdzie obojętnie obok niesprawiedliwości.\" Ten wiersz nie ma nic wspólnego z wynikami relacji i nie wpływa na wyniki poniżej."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście zwierząt zodiaku w skrócie",
+        "blocks": [
+          {
+            "p": "Każde z pozostałych zwierząt jest po kolei zestawiane z Tygrysem. Jako relacje zapisane są tylko pary, które ta usługa uznaje za harmonie; cała reszta jest neutralna."
+          },
+          {
+            "table": {
+              "caption": "Tygrys i dwanaście zwierząt zodiaku",
+              "head": [
+                "Inne zwierzę",
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Szczur (子)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wół (丑)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tygrys (寅)",
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ],
+                [
+                  "Królik (卯)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Smok (辰)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wąż (巳)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koń (午)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Owca (未)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Małpa (申)",
+                  "Zderzenie",
+                  "{scoreChung}"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Pies (戌)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Świnia — para przyciągająca (sześć harmonii)",
+        "blocks": [
+          {
+            "p": "寅 i 亥 tworzą harmonię zaledwie dwoma znakami. Sześć harmonii to dobra relacja, która w zgodności pojawia się najczęściej, a Tygrys i Świnia uzyskują {scoreYukhap} — to najwyższy wynik, jaki może uzyskać Tygrys."
+          }
+        ]
+      },
+      {
+        "title": "Koń — połowa triady zawierająca gałąź królewską",
+        "blocks": [
+          {
+            "p": "寅午戌 to jedna grupa triady (grupa ognia), a 午 jest **gałęzią królewską** w jej środku. Inyeon-Link przyjmuje wyłącznie pary zawierające gałąź królewską, dlatego Tygrys tworzy połowę triady ({scoreBanhap}) tylko z Koniem."
+          },
+          {
+            "p": "W parze z Psem (戌) z tej samej grupy brakuje środkowego znaku 午, więc para nie jest liczona jako harmonia i jest traktowana jako neutralna ({scoreNeutral}). Przynależność do tej samej grupy nie sprawia, że każda para jest harmonią."
+          }
+        ]
+      },
+      {
+        "title": "Małpa — czołowe zderzenie (zderzenie)",
+        "blocks": [
+          {
+            "p": "寅 i 申 leżą w kole dokładnie naprzeciwko siebie. Ta usługa zachowuje {scoreChung} punktów nawet przy zderzeniu. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji, a przyznanie wyniku bliskiego dna oznaczałoby wydanie wyroku na dwie osoby. Mimo to jest to najniższy wynik, jaki może otrzymać Tygrys."
+          }
+        ]
+      },
+      {
+        "title": "Kogut — cicha niezgoda (niezgoda)",
+        "blocks": [
+          {
+            "p": "寅 i 酉 leżą tuż obok 申 (Małpy), pozycji zderzenia, i tradycyjnie uważa się je za parę, która żywi do siebie urazę, a mimo to nie potrafi się rozstać. Na powierzchni wygląda to spokojnie, ale uważa się, że rozbieżność trwa długo, więc dostaje {scoreWonjin} — więcej niż zderzenie ({scoreChung}) i mniej niż neutralna ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Pozostałe 7 zwierząt oraz Tygrys z innym Tygrysem",
+        "blocks": [
+          {
+            "p": "Szczur, Wół, Królik, Smok, Wąż, Owca i Pies nie tworzą z Tygrysem ani harmonii, ani zderzenia, ani niezgody: są **neutralne** i uzyskują {scoreNeutral}. To punkt odniesienia, ani dobry, ani zły."
+          },
+          {
+            "p": "Dwie osoby spod znaku Tygrysa uzyskują {scoreSame}. Oznacza to, że są do siebie podobne, a nie że się przyciągają, dlatego wynik plasuje się tuż nad neutralnym."
+          }
+        ]
+      },
+      {
+        "title": "Jaką część końcowego wskaźnika dopasowania zajmuje ten wynik",
+        "blocks": [
+          {
+            "p": "Są dwa miejsca, w których gałęzie dwóch osób zestawia się obok siebie."
+          },
+          {
+            "ul": [
+              "**Zgodność zodiakalna** patrzy na gałąź roku urodzenia. Stanowi {weightZodiac} końcowego wskaźnika dopasowania.",
+              "**Zgodność gałęzi dnia** patrzy na gałąź dnia urodzenia. Stanowi {weightDayBranch} zgodności saju ({weightSaju}), czyli {weightDayBranchTotal} końcowego wskaźnika dopasowania."
+            ]
+          },
+          {
+            "p": "Na przykład gdy osoba spod znaku Tygrysa spotyka osobę spod znaku Małpy, zgodność zodiakalna daje zderzenie. Jeśli wszystko inne jest takie samo, końcowy wskaźnik dopasowania wypada o {swingZodiacChung} punktów niżej niż przy parze neutralnej. Z osobą spod znaku Świni jest to sześć harmonii, a wskaźnik wypada o {swingZodiacYukhap} punktów wyżej."
+          },
+          {
+            "p": "Gałąź roku i gałąź dnia mogą się różnić. Dwie osoby spod znaku Tygrysa, których gałęzie dnia to 寅 i 申, otrzymują w zgodności zodiakalnej tę samą gałąź ({scoreSame}), a w zgodności gałęzi dnia zderzenie ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Czego ten przewodnik nie mówi",
+        "blocks": [
+          {
+            "ul": [
+              "Jedno zwierzę nie rozstrzyga o relacji między dwiema osobami. {weightSaju} końcowego wskaźnika dopasowania wynika ze zgodności saju.",
+              "Powyższe zmiany punktów zakładają, że wszystko inne jest takie samo; rzeczywisty wynik zależy od całego saju obu osób.",
+              "Pełna tabela tego, ile punktów daje każda relacja, znajduje się w [tabeli dwunastu gałęzi](/guide/branches), a wyjaśnienie, dlaczego zodiak odczytuje się z gałęzi roku, w [Dlaczego zgodność zodiakalna uwzględnia gałąź roku](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Pozostałe zwierzęta są przedstawione w ten sam sposób. [Szczur](/guide/zodiac-rat) · [Wół](/guide/zodiac-ox) · [Królik](/guide/zodiac-rabbit) · [Smok](/guide/zodiac-dragon) · [Wąż](/guide/zodiac-snake) · [Koń](/guide/zodiac-horse) · [Owca](/guide/zodiac-goat) · [Małpa](/guide/zodiac-monkey) · [Kogut](/guide/zodiac-rooster) · [Pies](/guide/zodiac-dog) · [Świnia](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rabbit": {
+    "eyebrow": "Według zwierzęcia",
+    "title": "Jak Królik spotyka dwanaście zwierząt zodiaku",
+    "summary": "Jaką relację ma Królik (卯) z każdym z dwunastu zwierząt zodiaku, ile punktów daje każda z tych relacji i jaką część końcowego wskaźnika dopasowania zajmuje ten wynik — przedstawione dokładnie tak, jak w zasadach obliczeń Inyeon-Link.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Królik to czwarta z dwunastu gałęzi",
+        "blocks": [
+          {
+            "p": "Królik to osoba, której gałąź roku urodzenia to **卯**. 卯 to czwarta z dwunastu gałęzi ziemskich, a gdy dwanaście znaków ustawi się w kole, leży dokładnie naprzeciwko 酉 (Koguta)."
+          },
+          {
+            "p": "Wiersz, który wynik zgodności pokazuje dla osoby spod znaku Królika, brzmi: \"Łagodny i spostrzegawczy. Umie obejść, zamiast zderzyć się czołowo.\" Ten wiersz nie ma nic wspólnego z wynikami relacji i nie wpływa na wyniki poniżej."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście zwierząt zodiaku w skrócie",
+        "blocks": [
+          {
+            "p": "Każde z pozostałych zwierząt jest po kolei zestawiane z Królikiem. Jako relacje zapisane są tylko pary, które ta usługa uznaje za harmonie; cała reszta jest neutralna."
+          },
+          {
+            "table": {
+              "caption": "Królik i dwanaście zwierząt zodiaku",
+              "head": [
+                "Inne zwierzę",
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Szczur (子)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wół (丑)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tygrys (寅)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Królik (卯)",
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ],
+                [
+                  "Smok (辰)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wąż (巳)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koń (午)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Owca (未)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Małpa (申)",
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Zderzenie",
+                  "{scoreChung}"
+                ],
+                [
+                  "Pies (戌)",
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Pies — para przyciągająca (sześć harmonii)",
+        "blocks": [
+          {
+            "p": "卯 i 戌 tworzą harmonię zaledwie dwoma znakami. Sześć harmonii to dobra relacja, która w zgodności pojawia się najczęściej, a Królik i Pies uzyskują {scoreYukhap} — to najwyższy wynik, jaki może uzyskać Królik."
+          }
+        ]
+      },
+      {
+        "title": "Owca i Świnia — połowa triady zawierająca gałąź królewską",
+        "blocks": [
+          {
+            "p": "亥卯未 to jedna grupa triady (grupa drewna), a 卯 jest **gałęzią królewską** w jej środku. Inyeon-Link przyjmuje wyłącznie pary zawierające gałąź królewską, dlatego Królik tworzy połowę triady ({scoreBanhap}) zarówno z Owcą, jak i ze Świnią."
+          },
+          {
+            "p": "**Świnia i Owca razem** natomiast nie mają środkowego znaku 卯, więc nie są liczone jako harmonia i są traktowane jako neutralne. Nawet w obrębie jednej grupy triady to Królik tworzy połowę triady."
+          }
+        ]
+      },
+      {
+        "title": "Kogut — czołowe zderzenie (zderzenie)",
+        "blocks": [
+          {
+            "p": "卯 i 酉 leżą w kole dokładnie naprzeciwko siebie. Ta usługa zachowuje {scoreChung} punktów nawet przy zderzeniu. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji, a przyznanie wyniku bliskiego dna oznaczałoby wydanie wyroku na dwie osoby. Mimo to jest to najniższy wynik, jaki może otrzymać Królik."
+          }
+        ]
+      },
+      {
+        "title": "Małpa — cicha niezgoda (niezgoda)",
+        "blocks": [
+          {
+            "p": "卯 i 申 leżą tuż obok 酉 (Koguta), pozycji zderzenia, i tradycyjnie uważa się je za parę, która żywi do siebie urazę, a mimo to nie potrafi się rozstać. Na powierzchni wygląda to spokojnie, ale uważa się, że rozbieżność trwa długo, więc dostaje {scoreWonjin} — więcej niż zderzenie ({scoreChung}) i mniej niż neutralna ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Pozostałe 6 zwierząt oraz Królik z innym Królikiem",
+        "blocks": [
+          {
+            "p": "Szczur, Wół, Tygrys, Smok, Wąż i Koń nie tworzą z Królikiem ani harmonii, ani zderzenia, ani niezgody: są **neutralne** i uzyskują {scoreNeutral}. To punkt odniesienia, ani dobry, ani zły."
+          },
+          {
+            "p": "Dwie osoby spod znaku Królika uzyskują {scoreSame}. Oznacza to, że są do siebie podobne, a nie że się przyciągają, dlatego wynik plasuje się tuż nad neutralnym."
+          }
+        ]
+      },
+      {
+        "title": "Jaką część końcowego wskaźnika dopasowania zajmuje ten wynik",
+        "blocks": [
+          {
+            "p": "Są dwa miejsca, w których gałęzie dwóch osób zestawia się obok siebie."
+          },
+          {
+            "ul": [
+              "**Zgodność zodiakalna** patrzy na gałąź roku urodzenia. Stanowi {weightZodiac} końcowego wskaźnika dopasowania.",
+              "**Zgodność gałęzi dnia** patrzy na gałąź dnia urodzenia. Stanowi {weightDayBranch} zgodności saju ({weightSaju}), czyli {weightDayBranchTotal} końcowego wskaźnika dopasowania."
+            ]
+          },
+          {
+            "p": "Na przykład gdy osoba spod znaku Królika spotyka osobę spod znaku Koguta, zgodność zodiakalna daje zderzenie. Jeśli wszystko inne jest takie samo, końcowy wskaźnik dopasowania wypada o {swingZodiacChung} punktów niżej niż przy parze neutralnej. Z osobą spod znaku Psa jest to sześć harmonii, a wskaźnik wypada o {swingZodiacYukhap} punktów wyżej."
+          },
+          {
+            "p": "Gałąź roku i gałąź dnia mogą się różnić. Dwie osoby spod znaku Królika, których gałęzie dnia to 卯 i 酉, otrzymują w zgodności zodiakalnej tę samą gałąź ({scoreSame}), a w zgodności gałęzi dnia zderzenie ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Czego ten przewodnik nie mówi",
+        "blocks": [
+          {
+            "ul": [
+              "Jedno zwierzę nie rozstrzyga o relacji między dwiema osobami. {weightSaju} końcowego wskaźnika dopasowania wynika ze zgodności saju.",
+              "Powyższe zmiany punktów zakładają, że wszystko inne jest takie samo; rzeczywisty wynik zależy od całego saju obu osób.",
+              "Pełna tabela tego, ile punktów daje każda relacja, znajduje się w [tabeli dwunastu gałęzi](/guide/branches), a wyjaśnienie, dlaczego zodiak odczytuje się z gałęzi roku, w [Dlaczego zgodność zodiakalna uwzględnia gałąź roku](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Pozostałe zwierzęta są przedstawione w ten sam sposób. [Szczur](/guide/zodiac-rat) · [Wół](/guide/zodiac-ox) · [Tygrys](/guide/zodiac-tiger) · [Smok](/guide/zodiac-dragon) · [Wąż](/guide/zodiac-snake) · [Koń](/guide/zodiac-horse) · [Owca](/guide/zodiac-goat) · [Małpa](/guide/zodiac-monkey) · [Kogut](/guide/zodiac-rooster) · [Pies](/guide/zodiac-dog) · [Świnia](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dragon": {
+    "eyebrow": "Według zwierzęcia",
+    "title": "Jak Smok spotyka dwanaście zwierząt zodiaku",
+    "summary": "Jaką relację ma Smok (辰) z każdym z dwunastu zwierząt zodiaku, ile punktów daje każda z tych relacji i jaką część końcowego wskaźnika dopasowania zajmuje ten wynik — przedstawione dokładnie tak, jak w zasadach obliczeń Inyeon-Link.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Smok to piąta z dwunastu gałęzi",
+        "blocks": [
+          {
+            "p": "Smok to osoba, której gałąź roku urodzenia to **辰**. 辰 to piąta z dwunastu gałęzi ziemskich, a gdy dwanaście znaków ustawi się w kole, leży dokładnie naprzeciwko 戌 (Psa)."
+          },
+          {
+            "p": "Wiersz, który wynik zgodności pokazuje dla osoby spod znaku Smoka, brzmi: \"Wielkie serce i wysokie ideały. Rzadko zadowala się zwyczajnością.\" Ten wiersz nie ma nic wspólnego z wynikami relacji i nie wpływa na wyniki poniżej."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście zwierząt zodiaku w skrócie",
+        "blocks": [
+          {
+            "p": "Każde z pozostałych zwierząt jest po kolei zestawiane ze Smokiem. Jako relacje zapisane są tylko pary, które ta usługa uznaje za harmonie; cała reszta jest neutralna."
+          },
+          {
+            "table": {
+              "caption": "Smok i dwanaście zwierząt zodiaku",
+              "head": [
+                "Inne zwierzę",
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Szczur (子)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Wół (丑)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tygrys (寅)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Królik (卯)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Smok (辰)",
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ],
+                [
+                  "Wąż (巳)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koń (午)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Owca (未)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Małpa (申)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Pies (戌)",
+                  "Zderzenie",
+                  "{scoreChung}"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kogut — para przyciągająca (sześć harmonii)",
+        "blocks": [
+          {
+            "p": "辰 i 酉 tworzą harmonię zaledwie dwoma znakami. Sześć harmonii to dobra relacja, która w zgodności pojawia się najczęściej, a Smok i Kogut uzyskują {scoreYukhap} — to najwyższy wynik, jaki może uzyskać Smok."
+          }
+        ]
+      },
+      {
+        "title": "Szczur — połowa triady zawierająca gałąź królewską",
+        "blocks": [
+          {
+            "p": "申子辰 to jedna grupa triady (grupa wody), a 子 jest **gałęzią królewską** w jej środku. Inyeon-Link przyjmuje wyłącznie pary zawierające gałąź królewską, dlatego Smok tworzy połowę triady ({scoreBanhap}) tylko ze Szczurem."
+          },
+          {
+            "p": "W parze z Małpą (申) z tej samej grupy brakuje środkowego znaku 子, więc para nie jest liczona jako harmonia i jest traktowana jako neutralna ({scoreNeutral}). Przynależność do tej samej grupy nie sprawia, że każda para jest harmonią."
+          }
+        ]
+      },
+      {
+        "title": "Pies — czołowe zderzenie (zderzenie)",
+        "blocks": [
+          {
+            "p": "辰 i 戌 leżą w kole dokładnie naprzeciwko siebie. Ta usługa zachowuje {scoreChung} punktów nawet przy zderzeniu. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji, a przyznanie wyniku bliskiego dna oznaczałoby wydanie wyroku na dwie osoby. Mimo to jest to najniższy wynik, jaki może otrzymać Smok."
+          }
+        ]
+      },
+      {
+        "title": "Świnia — cicha niezgoda (niezgoda)",
+        "blocks": [
+          {
+            "p": "辰 i 亥 leżą tuż obok 戌 (Psa), pozycji zderzenia, i tradycyjnie uważa się je za parę, która żywi do siebie urazę, a mimo to nie potrafi się rozstać. Na powierzchni wygląda to spokojnie, ale uważa się, że rozbieżność trwa długo, więc dostaje {scoreWonjin} — więcej niż zderzenie ({scoreChung}) i mniej niż neutralna ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Pozostałe 7 zwierząt oraz Smok z innym Smokiem",
+        "blocks": [
+          {
+            "p": "Wół, Tygrys, Królik, Wąż, Koń, Owca i Małpa nie tworzą ze Smokiem ani harmonii, ani zderzenia, ani niezgody: są **neutralne** i uzyskują {scoreNeutral}. To punkt odniesienia, ani dobry, ani zły."
+          },
+          {
+            "p": "Dwie osoby spod znaku Smoka uzyskują {scoreSame}. Oznacza to, że są do siebie podobne, a nie że się przyciągają, dlatego wynik plasuje się tuż nad neutralnym."
+          }
+        ]
+      },
+      {
+        "title": "Jaką część końcowego wskaźnika dopasowania zajmuje ten wynik",
+        "blocks": [
+          {
+            "p": "Są dwa miejsca, w których gałęzie dwóch osób zestawia się obok siebie."
+          },
+          {
+            "ul": [
+              "**Zgodność zodiakalna** patrzy na gałąź roku urodzenia. Stanowi {weightZodiac} końcowego wskaźnika dopasowania.",
+              "**Zgodność gałęzi dnia** patrzy na gałąź dnia urodzenia. Stanowi {weightDayBranch} zgodności saju ({weightSaju}), czyli {weightDayBranchTotal} końcowego wskaźnika dopasowania."
+            ]
+          },
+          {
+            "p": "Na przykład gdy osoba spod znaku Smoka spotyka osobę spod znaku Psa, zgodność zodiakalna daje zderzenie. Jeśli wszystko inne jest takie samo, końcowy wskaźnik dopasowania wypada o {swingZodiacChung} punktów niżej niż przy parze neutralnej. Z osobą spod znaku Koguta jest to sześć harmonii, a wskaźnik wypada o {swingZodiacYukhap} punktów wyżej."
+          },
+          {
+            "p": "Gałąź roku i gałąź dnia mogą się różnić. Dwie osoby spod znaku Smoka, których gałęzie dnia to 辰 i 戌, otrzymują w zgodności zodiakalnej tę samą gałąź ({scoreSame}), a w zgodności gałęzi dnia zderzenie ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Czego ten przewodnik nie mówi",
+        "blocks": [
+          {
+            "ul": [
+              "Jedno zwierzę nie rozstrzyga o relacji między dwiema osobami. {weightSaju} końcowego wskaźnika dopasowania wynika ze zgodności saju.",
+              "Powyższe zmiany punktów zakładają, że wszystko inne jest takie samo; rzeczywisty wynik zależy od całego saju obu osób.",
+              "Pełna tabela tego, ile punktów daje każda relacja, znajduje się w [tabeli dwunastu gałęzi](/guide/branches), a wyjaśnienie, dlaczego zodiak odczytuje się z gałęzi roku, w [Dlaczego zgodność zodiakalna uwzględnia gałąź roku](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Pozostałe zwierzęta są przedstawione w ten sam sposób. [Szczur](/guide/zodiac-rat) · [Wół](/guide/zodiac-ox) · [Tygrys](/guide/zodiac-tiger) · [Królik](/guide/zodiac-rabbit) · [Wąż](/guide/zodiac-snake) · [Koń](/guide/zodiac-horse) · [Owca](/guide/zodiac-goat) · [Małpa](/guide/zodiac-monkey) · [Kogut](/guide/zodiac-rooster) · [Pies](/guide/zodiac-dog) · [Świnia](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-snake": {
+    "eyebrow": "Według zwierzęcia",
+    "title": "Jak Wąż spotyka dwanaście zwierząt zodiaku",
+    "summary": "Jaką relację ma Wąż (巳) z każdym z dwunastu zwierząt zodiaku, ile punktów daje każda z tych relacji i jaką część końcowego wskaźnika dopasowania zajmuje ten wynik — przedstawione dokładnie tak, jak w zasadach obliczeń Inyeon-Link.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Wąż to szósta z dwunastu gałęzi",
+        "blocks": [
+          {
+            "p": "Wąż to osoba, której gałąź roku urodzenia to **巳**. 巳 to szósta z dwunastu gałęzi ziemskich, a gdy dwanaście znaków ustawi się w kole, leży dokładnie naprzeciwko 亥 (Świni)."
+          },
+          {
+            "p": "Wiersz, który wynik zgodności pokazuje dla osoby spod znaku Węża, brzmi: \"Zachowuje zdanie dla siebie i myśli głęboko. Ocenia trafnie.\" Ten wiersz nie ma nic wspólnego z wynikami relacji i nie wpływa na wyniki poniżej."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście zwierząt zodiaku w skrócie",
+        "blocks": [
+          {
+            "p": "Każde z pozostałych zwierząt jest po kolei zestawiane z Wężem. Jako relacje zapisane są tylko pary, które ta usługa uznaje za harmonie; cała reszta jest neutralna."
+          },
+          {
+            "table": {
+              "caption": "Wąż i dwanaście zwierząt zodiaku",
+              "head": [
+                "Inne zwierzę",
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Szczur (子)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wół (丑)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tygrys (寅)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Królik (卯)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Smok (辰)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wąż (巳)",
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ],
+                [
+                  "Koń (午)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Owca (未)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Małpa (申)",
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Pies (戌)",
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Zderzenie",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Małpa — para przyciągająca (sześć harmonii)",
+        "blocks": [
+          {
+            "p": "巳 i 申 tworzą harmonię zaledwie dwoma znakami. Sześć harmonii to dobra relacja, która w zgodności pojawia się najczęściej, a Wąż i Małpa uzyskują {scoreYukhap} — to najwyższy wynik, jaki może uzyskać Wąż."
+          }
+        ]
+      },
+      {
+        "title": "Kogut — połowa triady zawierająca gałąź królewską",
+        "blocks": [
+          {
+            "p": "巳酉丑 to jedna grupa triady (grupa metalu), a 酉 jest **gałęzią królewską** w jej środku. Inyeon-Link przyjmuje wyłącznie pary zawierające gałąź królewską, dlatego Wąż tworzy połowę triady ({scoreBanhap}) tylko z Kogutem."
+          },
+          {
+            "p": "W parze z Wołem (丑) z tej samej grupy brakuje środkowego znaku 酉, więc para nie jest liczona jako harmonia i jest traktowana jako neutralna ({scoreNeutral}). Przynależność do tej samej grupy nie sprawia, że każda para jest harmonią."
+          }
+        ]
+      },
+      {
+        "title": "Świnia — czołowe zderzenie (zderzenie)",
+        "blocks": [
+          {
+            "p": "巳 i 亥 leżą w kole dokładnie naprzeciwko siebie. Ta usługa zachowuje {scoreChung} punktów nawet przy zderzeniu. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji, a przyznanie wyniku bliskiego dna oznaczałoby wydanie wyroku na dwie osoby. Mimo to jest to najniższy wynik, jaki może otrzymać Wąż."
+          }
+        ]
+      },
+      {
+        "title": "Pies — cicha niezgoda (niezgoda)",
+        "blocks": [
+          {
+            "p": "巳 i 戌 leżą tuż obok 亥 (Świni), pozycji zderzenia, i tradycyjnie uważa się je za parę, która żywi do siebie urazę, a mimo to nie potrafi się rozstać. Na powierzchni wygląda to spokojnie, ale uważa się, że rozbieżność trwa długo, więc dostaje {scoreWonjin} — więcej niż zderzenie ({scoreChung}) i mniej niż neutralna ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Pozostałe 7 zwierząt oraz Wąż z innym Wężem",
+        "blocks": [
+          {
+            "p": "Szczur, Wół, Tygrys, Królik, Smok, Koń i Owca nie tworzą z Wężem ani harmonii, ani zderzenia, ani niezgody: są **neutralne** i uzyskują {scoreNeutral}. To punkt odniesienia, ani dobry, ani zły."
+          },
+          {
+            "p": "Dwie osoby spod znaku Węża uzyskują {scoreSame}. Oznacza to, że są do siebie podobne, a nie że się przyciągają, dlatego wynik plasuje się tuż nad neutralnym."
+          }
+        ]
+      },
+      {
+        "title": "Jaką część końcowego wskaźnika dopasowania zajmuje ten wynik",
+        "blocks": [
+          {
+            "p": "Są dwa miejsca, w których gałęzie dwóch osób zestawia się obok siebie."
+          },
+          {
+            "ul": [
+              "**Zgodność zodiakalna** patrzy na gałąź roku urodzenia. Stanowi {weightZodiac} końcowego wskaźnika dopasowania.",
+              "**Zgodność gałęzi dnia** patrzy na gałąź dnia urodzenia. Stanowi {weightDayBranch} zgodności saju ({weightSaju}), czyli {weightDayBranchTotal} końcowego wskaźnika dopasowania."
+            ]
+          },
+          {
+            "p": "Na przykład gdy osoba spod znaku Węża spotyka osobę spod znaku Świni, zgodność zodiakalna daje zderzenie. Jeśli wszystko inne jest takie samo, końcowy wskaźnik dopasowania wypada o {swingZodiacChung} punktów niżej niż przy parze neutralnej. Z osobą spod znaku Małpy jest to sześć harmonii, a wskaźnik wypada o {swingZodiacYukhap} punktów wyżej."
+          },
+          {
+            "p": "Gałąź roku i gałąź dnia mogą się różnić. Dwie osoby spod znaku Węża, których gałęzie dnia to 巳 i 亥, otrzymują w zgodności zodiakalnej tę samą gałąź ({scoreSame}), a w zgodności gałęzi dnia zderzenie ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Czego ten przewodnik nie mówi",
+        "blocks": [
+          {
+            "ul": [
+              "Jedno zwierzę nie rozstrzyga o relacji między dwiema osobami. {weightSaju} końcowego wskaźnika dopasowania wynika ze zgodności saju.",
+              "Powyższe zmiany punktów zakładają, że wszystko inne jest takie samo; rzeczywisty wynik zależy od całego saju obu osób.",
+              "Pełna tabela tego, ile punktów daje każda relacja, znajduje się w [tabeli dwunastu gałęzi](/guide/branches), a wyjaśnienie, dlaczego zodiak odczytuje się z gałęzi roku, w [Dlaczego zgodność zodiakalna uwzględnia gałąź roku](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Pozostałe zwierzęta są przedstawione w ten sam sposób. [Szczur](/guide/zodiac-rat) · [Wół](/guide/zodiac-ox) · [Tygrys](/guide/zodiac-tiger) · [Królik](/guide/zodiac-rabbit) · [Smok](/guide/zodiac-dragon) · [Koń](/guide/zodiac-horse) · [Owca](/guide/zodiac-goat) · [Małpa](/guide/zodiac-monkey) · [Kogut](/guide/zodiac-rooster) · [Pies](/guide/zodiac-dog) · [Świnia](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-horse": {
+    "eyebrow": "Według zwierzęcia",
+    "title": "Jak Koń spotyka dwanaście zwierząt zodiaku",
+    "summary": "Jaką relację ma Koń (午) z każdym z dwunastu zwierząt zodiaku, ile punktów daje każda z tych relacji i jaką część końcowego wskaźnika dopasowania zajmuje ten wynik — przedstawione dokładnie tak, jak w zasadach obliczeń Inyeon-Link.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Koń to siódma z dwunastu gałęzi",
+        "blocks": [
+          {
+            "p": "Koń to osoba, której gałąź roku urodzenia to **午**. 午 to siódma z dwunastu gałęzi ziemskich, a gdy dwanaście znaków ustawi się w kole, leży dokładnie naprzeciwko 子 (Szczura)."
+          },
+          {
+            "p": "Wiersz, który wynik zgodności pokazuje dla osoby spod znaku Konia, brzmi: \"Pogodny i niespokojny. Najtrudniej znosi ogrodzenie.\" Ten wiersz nie ma nic wspólnego z wynikami relacji i nie wpływa na wyniki poniżej."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście zwierząt zodiaku w skrócie",
+        "blocks": [
+          {
+            "p": "Każde z pozostałych zwierząt jest po kolei zestawiane z Koniem. Jako relacje zapisane są tylko pary, które ta usługa uznaje za harmonie; cała reszta jest neutralna."
+          },
+          {
+            "table": {
+              "caption": "Koń i dwanaście zwierząt zodiaku",
+              "head": [
+                "Inne zwierzę",
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Szczur (子)",
+                  "Zderzenie",
+                  "{scoreChung}"
+                ],
+                [
+                  "Wół (丑)",
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Tygrys (寅)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Królik (卯)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Smok (辰)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wąż (巳)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koń (午)",
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ],
+                [
+                  "Owca (未)",
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Małpa (申)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pies (戌)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Owca — para przyciągająca (sześć harmonii)",
+        "blocks": [
+          {
+            "p": "午 i 未 tworzą harmonię zaledwie dwoma znakami. Sześć harmonii to dobra relacja, która w zgodności pojawia się najczęściej, a Koń i Owca uzyskują {scoreYukhap} — to najwyższy wynik, jaki może uzyskać Koń."
+          }
+        ]
+      },
+      {
+        "title": "Tygrys i Pies — połowa triady zawierająca gałąź królewską",
+        "blocks": [
+          {
+            "p": "寅午戌 to jedna grupa triady (grupa ognia), a 午 jest **gałęzią królewską** w jej środku. Inyeon-Link przyjmuje wyłącznie pary zawierające gałąź królewską, dlatego Koń tworzy połowę triady ({scoreBanhap}) zarówno z Tygrysem, jak i z Psem."
+          },
+          {
+            "p": "**Tygrys i Pies razem** natomiast nie mają środkowego znaku 午, więc nie są liczone jako harmonia i są traktowane jako neutralne. Nawet w obrębie jednej grupy triady to Koń tworzy połowę triady."
+          }
+        ]
+      },
+      {
+        "title": "Szczur — czołowe zderzenie (zderzenie)",
+        "blocks": [
+          {
+            "p": "午 i 子 leżą w kole dokładnie naprzeciwko siebie. Ta usługa zachowuje {scoreChung} punktów nawet przy zderzeniu. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji, a przyznanie wyniku bliskiego dna oznaczałoby wydanie wyroku na dwie osoby. Mimo to jest to najniższy wynik, jaki może otrzymać Koń."
+          }
+        ]
+      },
+      {
+        "title": "Wół — cicha niezgoda (niezgoda)",
+        "blocks": [
+          {
+            "p": "午 i 丑 leżą tuż obok 子 (Szczura), pozycji zderzenia, i tradycyjnie uważa się je za parę, która żywi do siebie urazę, a mimo to nie potrafi się rozstać. Na powierzchni wygląda to spokojnie, ale uważa się, że rozbieżność trwa długo, więc dostaje {scoreWonjin} — więcej niż zderzenie ({scoreChung}) i mniej niż neutralna ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Pozostałe 6 zwierząt oraz Koń z innym Koniem",
+        "blocks": [
+          {
+            "p": "Królik, Smok, Wąż, Małpa, Kogut i Świnia nie tworzą z Koniem ani harmonii, ani zderzenia, ani niezgody: są **neutralne** i uzyskują {scoreNeutral}. To punkt odniesienia, ani dobry, ani zły."
+          },
+          {
+            "p": "Dwie osoby spod znaku Konia uzyskują {scoreSame}. Oznacza to, że są do siebie podobne, a nie że się przyciągają, dlatego wynik plasuje się tuż nad neutralnym."
+          }
+        ]
+      },
+      {
+        "title": "Jaką część końcowego wskaźnika dopasowania zajmuje ten wynik",
+        "blocks": [
+          {
+            "p": "Są dwa miejsca, w których gałęzie dwóch osób zestawia się obok siebie."
+          },
+          {
+            "ul": [
+              "**Zgodność zodiakalna** patrzy na gałąź roku urodzenia. Stanowi {weightZodiac} końcowego wskaźnika dopasowania.",
+              "**Zgodność gałęzi dnia** patrzy na gałąź dnia urodzenia. Stanowi {weightDayBranch} zgodności saju ({weightSaju}), czyli {weightDayBranchTotal} końcowego wskaźnika dopasowania."
+            ]
+          },
+          {
+            "p": "Na przykład gdy osoba spod znaku Konia spotyka osobę spod znaku Szczura, zgodność zodiakalna daje zderzenie. Jeśli wszystko inne jest takie samo, końcowy wskaźnik dopasowania wypada o {swingZodiacChung} punktów niżej niż przy parze neutralnej. Z osobą spod znaku Owcy jest to sześć harmonii, a wskaźnik wypada o {swingZodiacYukhap} punktów wyżej."
+          },
+          {
+            "p": "Gałąź roku i gałąź dnia mogą się różnić. Dwie osoby spod znaku Konia, których gałęzie dnia to 午 i 子, otrzymują w zgodności zodiakalnej tę samą gałąź ({scoreSame}), a w zgodności gałęzi dnia zderzenie ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Czego ten przewodnik nie mówi",
+        "blocks": [
+          {
+            "ul": [
+              "Jedno zwierzę nie rozstrzyga o relacji między dwiema osobami. {weightSaju} końcowego wskaźnika dopasowania wynika ze zgodności saju.",
+              "Powyższe zmiany punktów zakładają, że wszystko inne jest takie samo; rzeczywisty wynik zależy od całego saju obu osób.",
+              "Pełna tabela tego, ile punktów daje każda relacja, znajduje się w [tabeli dwunastu gałęzi](/guide/branches), a wyjaśnienie, dlaczego zodiak odczytuje się z gałęzi roku, w [Dlaczego zgodność zodiakalna uwzględnia gałąź roku](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Pozostałe zwierzęta są przedstawione w ten sam sposób. [Szczur](/guide/zodiac-rat) · [Wół](/guide/zodiac-ox) · [Tygrys](/guide/zodiac-tiger) · [Królik](/guide/zodiac-rabbit) · [Smok](/guide/zodiac-dragon) · [Wąż](/guide/zodiac-snake) · [Owca](/guide/zodiac-goat) · [Małpa](/guide/zodiac-monkey) · [Kogut](/guide/zodiac-rooster) · [Pies](/guide/zodiac-dog) · [Świnia](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-goat": {
+    "eyebrow": "Według zwierzęcia",
+    "title": "Jak Owca spotyka dwanaście zwierząt zodiaku",
+    "summary": "Jaką relację ma Owca (未) z każdym z dwunastu zwierząt zodiaku, ile punktów daje każda z tych relacji i jaką część końcowego wskaźnika dopasowania zajmuje ten wynik — przedstawione dokładnie tak, jak w zasadach obliczeń Inyeon-Link.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Owca to ósma z dwunastu gałęzi",
+        "blocks": [
+          {
+            "p": "Owca to osoba, której gałąź roku urodzenia to **未**. 未 to ósma z dwunastu gałęzi ziemskich, a gdy dwanaście znaków ustawi się w kole, leży dokładnie naprzeciwko 丑 (Wołu)."
+          },
+          {
+            "p": "Wiersz, który wynik zgodności pokazuje dla osoby spod znaku Owcy, brzmi: \"Ciepła i uważna. Ostre słowa nosi w sobie długo.\" Ten wiersz nie ma nic wspólnego z wynikami relacji i nie wpływa na wyniki poniżej."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście zwierząt zodiaku w skrócie",
+        "blocks": [
+          {
+            "p": "Każde z pozostałych zwierząt jest po kolei zestawiane z Owcą. Jako relacje zapisane są tylko pary, które ta usługa uznaje za harmonie; cała reszta jest neutralna."
+          },
+          {
+            "table": {
+              "caption": "Owca i dwanaście zwierząt zodiaku",
+              "head": [
+                "Inne zwierzę",
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Szczur (子)",
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Wół (丑)",
+                  "Zderzenie",
+                  "{scoreChung}"
+                ],
+                [
+                  "Tygrys (寅)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Królik (卯)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Smok (辰)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wąż (巳)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koń (午)",
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Owca (未)",
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ],
+                [
+                  "Małpa (申)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pies (戌)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Koń — para przyciągająca (sześć harmonii)",
+        "blocks": [
+          {
+            "p": "未 i 午 tworzą harmonię zaledwie dwoma znakami. Sześć harmonii to dobra relacja, która w zgodności pojawia się najczęściej, a Owca i Koń uzyskują {scoreYukhap} — to najwyższy wynik, jaki może uzyskać Owca."
+          }
+        ]
+      },
+      {
+        "title": "Królik — połowa triady zawierająca gałąź królewską",
+        "blocks": [
+          {
+            "p": "亥卯未 to jedna grupa triady (grupa drewna), a 卯 jest **gałęzią królewską** w jej środku. Inyeon-Link przyjmuje wyłącznie pary zawierające gałąź królewską, dlatego Owca tworzy połowę triady ({scoreBanhap}) tylko z Królikiem."
+          },
+          {
+            "p": "W parze ze Świnią (亥) z tej samej grupy brakuje środkowego znaku 卯, więc para nie jest liczona jako harmonia i jest traktowana jako neutralna ({scoreNeutral}). Przynależność do tej samej grupy nie sprawia, że każda para jest harmonią."
+          }
+        ]
+      },
+      {
+        "title": "Wół — czołowe zderzenie (zderzenie)",
+        "blocks": [
+          {
+            "p": "未 i 丑 leżą w kole dokładnie naprzeciwko siebie. Ta usługa zachowuje {scoreChung} punktów nawet przy zderzeniu. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji, a przyznanie wyniku bliskiego dna oznaczałoby wydanie wyroku na dwie osoby. Mimo to jest to najniższy wynik, jaki może otrzymać Owca."
+          }
+        ]
+      },
+      {
+        "title": "Szczur — cicha niezgoda (niezgoda)",
+        "blocks": [
+          {
+            "p": "未 i 子 leżą tuż obok 丑 (Wołu), pozycji zderzenia, i tradycyjnie uważa się je za parę, która żywi do siebie urazę, a mimo to nie potrafi się rozstać. Na powierzchni wygląda to spokojnie, ale uważa się, że rozbieżność trwa długo, więc dostaje {scoreWonjin} — więcej niż zderzenie ({scoreChung}) i mniej niż neutralna ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Pozostałe 7 zwierząt oraz Owca z inną Owcą",
+        "blocks": [
+          {
+            "p": "Tygrys, Smok, Wąż, Małpa, Kogut, Pies i Świnia nie tworzą z Owcą ani harmonii, ani zderzenia, ani niezgody: są **neutralne** i uzyskują {scoreNeutral}. To punkt odniesienia, ani dobry, ani zły."
+          },
+          {
+            "p": "Dwie osoby spod znaku Owcy uzyskują {scoreSame}. Oznacza to, że są do siebie podobne, a nie że się przyciągają, dlatego wynik plasuje się tuż nad neutralnym."
+          }
+        ]
+      },
+      {
+        "title": "Jaką część końcowego wskaźnika dopasowania zajmuje ten wynik",
+        "blocks": [
+          {
+            "p": "Są dwa miejsca, w których gałęzie dwóch osób zestawia się obok siebie."
+          },
+          {
+            "ul": [
+              "**Zgodność zodiakalna** patrzy na gałąź roku urodzenia. Stanowi {weightZodiac} końcowego wskaźnika dopasowania.",
+              "**Zgodność gałęzi dnia** patrzy na gałąź dnia urodzenia. Stanowi {weightDayBranch} zgodności saju ({weightSaju}), czyli {weightDayBranchTotal} końcowego wskaźnika dopasowania."
+            ]
+          },
+          {
+            "p": "Na przykład gdy osoba spod znaku Owcy spotyka osobę spod znaku Wołu, zgodność zodiakalna daje zderzenie. Jeśli wszystko inne jest takie samo, końcowy wskaźnik dopasowania wypada o {swingZodiacChung} punktów niżej niż przy parze neutralnej. Z osobą spod znaku Konia jest to sześć harmonii, a wskaźnik wypada o {swingZodiacYukhap} punktów wyżej."
+          },
+          {
+            "p": "Gałąź roku i gałąź dnia mogą się różnić. Dwie osoby spod znaku Owcy, których gałęzie dnia to 未 i 丑, otrzymują w zgodności zodiakalnej tę samą gałąź ({scoreSame}), a w zgodności gałęzi dnia zderzenie ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Czego ten przewodnik nie mówi",
+        "blocks": [
+          {
+            "ul": [
+              "Jedno zwierzę nie rozstrzyga o relacji między dwiema osobami. {weightSaju} końcowego wskaźnika dopasowania wynika ze zgodności saju.",
+              "Powyższe zmiany punktów zakładają, że wszystko inne jest takie samo; rzeczywisty wynik zależy od całego saju obu osób.",
+              "Pełna tabela tego, ile punktów daje każda relacja, znajduje się w [tabeli dwunastu gałęzi](/guide/branches), a wyjaśnienie, dlaczego zodiak odczytuje się z gałęzi roku, w [Dlaczego zgodność zodiakalna uwzględnia gałąź roku](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Pozostałe zwierzęta są przedstawione w ten sam sposób. [Szczur](/guide/zodiac-rat) · [Wół](/guide/zodiac-ox) · [Tygrys](/guide/zodiac-tiger) · [Królik](/guide/zodiac-rabbit) · [Smok](/guide/zodiac-dragon) · [Wąż](/guide/zodiac-snake) · [Koń](/guide/zodiac-horse) · [Małpa](/guide/zodiac-monkey) · [Kogut](/guide/zodiac-rooster) · [Pies](/guide/zodiac-dog) · [Świnia](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-monkey": {
+    "eyebrow": "Według zwierzęcia",
+    "title": "Jak Małpa spotyka dwanaście zwierząt zodiaku",
+    "summary": "Jaką relację ma Małpa (申) z każdym z dwunastu zwierząt zodiaku, ile punktów daje każda z tych relacji i jaką część końcowego wskaźnika dopasowania zajmuje ten wynik — przedstawione dokładnie tak, jak w zasadach obliczeń Inyeon-Link.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Małpa to dziewiąta z dwunastu gałęzi",
+        "blocks": [
+          {
+            "p": "Małpa to osoba, której gałąź roku urodzenia to **申**. 申 to dziewiąta z dwunastu gałęzi ziemskich, a gdy dwanaście znaków ustawi się w kole, leży dokładnie naprzeciwko 寅 (Tygrysa)."
+          },
+          {
+            "p": "Wiersz, który wynik zgodności pokazuje dla osoby spod znaku Małpy, brzmi: \"Pomysłowa i szybko się dostosowuje. Nudzi ją powtarzalność.\" Ten wiersz nie ma nic wspólnego z wynikami relacji i nie wpływa na wyniki poniżej."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście zwierząt zodiaku w skrócie",
+        "blocks": [
+          {
+            "p": "Każde z pozostałych zwierząt jest po kolei zestawiane z Małpą. Jako relacje zapisane są tylko pary, które ta usługa uznaje za harmonie; cała reszta jest neutralna."
+          },
+          {
+            "table": {
+              "caption": "Małpa i dwanaście zwierząt zodiaku",
+              "head": [
+                "Inne zwierzę",
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Szczur (子)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Wół (丑)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tygrys (寅)",
+                  "Zderzenie",
+                  "{scoreChung}"
+                ],
+                [
+                  "Królik (卯)",
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Smok (辰)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wąż (巳)",
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Koń (午)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Owca (未)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Małpa (申)",
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pies (戌)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Wąż — para przyciągająca (sześć harmonii)",
+        "blocks": [
+          {
+            "p": "申 i 巳 tworzą harmonię zaledwie dwoma znakami. Sześć harmonii to dobra relacja, która w zgodności pojawia się najczęściej, a Małpa i Wąż uzyskują {scoreYukhap} — to najwyższy wynik, jaki może uzyskać Małpa."
+          }
+        ]
+      },
+      {
+        "title": "Szczur — połowa triady zawierająca gałąź królewską",
+        "blocks": [
+          {
+            "p": "申子辰 to jedna grupa triady (grupa wody), a 子 jest **gałęzią królewską** w jej środku. Inyeon-Link przyjmuje wyłącznie pary zawierające gałąź królewską, dlatego Małpa tworzy połowę triady ({scoreBanhap}) tylko ze Szczurem."
+          },
+          {
+            "p": "W parze ze Smokiem (辰) z tej samej grupy brakuje środkowego znaku 子, więc para nie jest liczona jako harmonia i jest traktowana jako neutralna ({scoreNeutral}). Przynależność do tej samej grupy nie sprawia, że każda para jest harmonią."
+          }
+        ]
+      },
+      {
+        "title": "Tygrys — czołowe zderzenie (zderzenie)",
+        "blocks": [
+          {
+            "p": "申 i 寅 leżą w kole dokładnie naprzeciwko siebie. Ta usługa zachowuje {scoreChung} punktów nawet przy zderzeniu. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji, a przyznanie wyniku bliskiego dna oznaczałoby wydanie wyroku na dwie osoby. Mimo to jest to najniższy wynik, jaki może otrzymać Małpa."
+          }
+        ]
+      },
+      {
+        "title": "Królik — cicha niezgoda (niezgoda)",
+        "blocks": [
+          {
+            "p": "申 i 卯 leżą tuż obok 寅 (Tygrysa), pozycji zderzenia, i tradycyjnie uważa się je za parę, która żywi do siebie urazę, a mimo to nie potrafi się rozstać. Na powierzchni wygląda to spokojnie, ale uważa się, że rozbieżność trwa długo, więc dostaje {scoreWonjin} — więcej niż zderzenie ({scoreChung}) i mniej niż neutralna ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Pozostałe 7 zwierząt oraz Małpa z inną Małpą",
+        "blocks": [
+          {
+            "p": "Wół, Smok, Koń, Owca, Kogut, Pies i Świnia nie tworzą z Małpą ani harmonii, ani zderzenia, ani niezgody: są **neutralne** i uzyskują {scoreNeutral}. To punkt odniesienia, ani dobry, ani zły."
+          },
+          {
+            "p": "Dwie osoby spod znaku Małpy uzyskują {scoreSame}. Oznacza to, że są do siebie podobne, a nie że się przyciągają, dlatego wynik plasuje się tuż nad neutralnym."
+          }
+        ]
+      },
+      {
+        "title": "Jaką część końcowego wskaźnika dopasowania zajmuje ten wynik",
+        "blocks": [
+          {
+            "p": "Są dwa miejsca, w których gałęzie dwóch osób zestawia się obok siebie."
+          },
+          {
+            "ul": [
+              "**Zgodność zodiakalna** patrzy na gałąź roku urodzenia. Stanowi {weightZodiac} końcowego wskaźnika dopasowania.",
+              "**Zgodność gałęzi dnia** patrzy na gałąź dnia urodzenia. Stanowi {weightDayBranch} zgodności saju ({weightSaju}), czyli {weightDayBranchTotal} końcowego wskaźnika dopasowania."
+            ]
+          },
+          {
+            "p": "Na przykład gdy osoba spod znaku Małpy spotyka osobę spod znaku Tygrysa, zgodność zodiakalna daje zderzenie. Jeśli wszystko inne jest takie samo, końcowy wskaźnik dopasowania wypada o {swingZodiacChung} punktów niżej niż przy parze neutralnej. Z osobą spod znaku Węża jest to sześć harmonii, a wskaźnik wypada o {swingZodiacYukhap} punktów wyżej."
+          },
+          {
+            "p": "Gałąź roku i gałąź dnia mogą się różnić. Dwie osoby spod znaku Małpy, których gałęzie dnia to 申 i 寅, otrzymują w zgodności zodiakalnej tę samą gałąź ({scoreSame}), a w zgodności gałęzi dnia zderzenie ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Czego ten przewodnik nie mówi",
+        "blocks": [
+          {
+            "ul": [
+              "Jedno zwierzę nie rozstrzyga o relacji między dwiema osobami. {weightSaju} końcowego wskaźnika dopasowania wynika ze zgodności saju.",
+              "Powyższe zmiany punktów zakładają, że wszystko inne jest takie samo; rzeczywisty wynik zależy od całego saju obu osób.",
+              "Pełna tabela tego, ile punktów daje każda relacja, znajduje się w [tabeli dwunastu gałęzi](/guide/branches), a wyjaśnienie, dlaczego zodiak odczytuje się z gałęzi roku, w [Dlaczego zgodność zodiakalna uwzględnia gałąź roku](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Pozostałe zwierzęta są przedstawione w ten sam sposób. [Szczur](/guide/zodiac-rat) · [Wół](/guide/zodiac-ox) · [Tygrys](/guide/zodiac-tiger) · [Królik](/guide/zodiac-rabbit) · [Smok](/guide/zodiac-dragon) · [Wąż](/guide/zodiac-snake) · [Koń](/guide/zodiac-horse) · [Owca](/guide/zodiac-goat) · [Kogut](/guide/zodiac-rooster) · [Pies](/guide/zodiac-dog) · [Świnia](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rooster": {
+    "eyebrow": "Według zwierzęcia",
+    "title": "Jak Kogut spotyka dwanaście zwierząt zodiaku",
+    "summary": "Jaką relację ma Kogut (酉) z każdym z dwunastu zwierząt zodiaku, ile punktów daje każda z tych relacji i jaką część końcowego wskaźnika dopasowania zajmuje ten wynik — przedstawione dokładnie tak, jak w zasadach obliczeń Inyeon-Link.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Kogut to dziesiąta z dwunastu gałęzi",
+        "blocks": [
+          {
+            "p": "Kogut to osoba, której gałąź roku urodzenia to **酉**. 酉 to dziesiąta z dwunastu gałęzi ziemskich, a gdy dwanaście znaków ustawi się w kole, leży dokładnie naprzeciwko 卯 (Królika)."
+          },
+          {
+            "p": "Wiersz, który wynik zgodności pokazuje dla osoby spod znaku Koguta, brzmi: \"Pracowity i skrupulatny. Nie zostawi rzeczy nie na swoim miejscu.\" Ten wiersz nie ma nic wspólnego z wynikami relacji i nie wpływa na wyniki poniżej."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście zwierząt zodiaku w skrócie",
+        "blocks": [
+          {
+            "p": "Każde z pozostałych zwierząt jest po kolei zestawiane z Kogutem. Jako relacje zapisane są tylko pary, które ta usługa uznaje za harmonie; cała reszta jest neutralna."
+          },
+          {
+            "table": {
+              "caption": "Kogut i dwanaście zwierząt zodiaku",
+              "head": [
+                "Inne zwierzę",
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Szczur (子)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wół (丑)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Tygrys (寅)",
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Królik (卯)",
+                  "Zderzenie",
+                  "{scoreChung}"
+                ],
+                [
+                  "Smok (辰)",
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Wąż (巳)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Koń (午)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Owca (未)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Małpa (申)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ],
+                [
+                  "Pies (戌)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Smok — para przyciągająca (sześć harmonii)",
+        "blocks": [
+          {
+            "p": "酉 i 辰 tworzą harmonię zaledwie dwoma znakami. Sześć harmonii to dobra relacja, która w zgodności pojawia się najczęściej, a Kogut i Smok uzyskują {scoreYukhap} — to najwyższy wynik, jaki może uzyskać Kogut."
+          }
+        ]
+      },
+      {
+        "title": "Wół i Wąż — połowa triady zawierająca gałąź królewską",
+        "blocks": [
+          {
+            "p": "巳酉丑 to jedna grupa triady (grupa metalu), a 酉 jest **gałęzią królewską** w jej środku. Inyeon-Link przyjmuje wyłącznie pary zawierające gałąź królewską, dlatego Kogut tworzy połowę triady ({scoreBanhap}) zarówno z Wołem, jak i z Wężem."
+          },
+          {
+            "p": "**Wąż i Wół razem** natomiast nie mają środkowego znaku 酉, więc nie są liczone jako harmonia i są traktowane jako neutralne. Nawet w obrębie jednej grupy triady to Kogut tworzy połowę triady."
+          }
+        ]
+      },
+      {
+        "title": "Królik — czołowe zderzenie (zderzenie)",
+        "blocks": [
+          {
+            "p": "酉 i 卯 leżą w kole dokładnie naprzeciwko siebie. Ta usługa zachowuje {scoreChung} punktów nawet przy zderzeniu. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji, a przyznanie wyniku bliskiego dna oznaczałoby wydanie wyroku na dwie osoby. Mimo to jest to najniższy wynik, jaki może otrzymać Kogut."
+          }
+        ]
+      },
+      {
+        "title": "Tygrys — cicha niezgoda (niezgoda)",
+        "blocks": [
+          {
+            "p": "酉 i 寅 leżą tuż obok 卯 (Królika), pozycji zderzenia, i tradycyjnie uważa się je za parę, która żywi do siebie urazę, a mimo to nie potrafi się rozstać. Na powierzchni wygląda to spokojnie, ale uważa się, że rozbieżność trwa długo, więc dostaje {scoreWonjin} — więcej niż zderzenie ({scoreChung}) i mniej niż neutralna ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Pozostałe 6 zwierząt oraz Kogut z innym Kogutem",
+        "blocks": [
+          {
+            "p": "Szczur, Koń, Owca, Małpa, Pies i Świnia nie tworzą z Kogutem ani harmonii, ani zderzenia, ani niezgody: są **neutralne** i uzyskują {scoreNeutral}. To punkt odniesienia, ani dobry, ani zły."
+          },
+          {
+            "p": "Dwie osoby spod znaku Koguta uzyskują {scoreSame}. Oznacza to, że są do siebie podobne, a nie że się przyciągają, dlatego wynik plasuje się tuż nad neutralnym."
+          }
+        ]
+      },
+      {
+        "title": "Jaką część końcowego wskaźnika dopasowania zajmuje ten wynik",
+        "blocks": [
+          {
+            "p": "Są dwa miejsca, w których gałęzie dwóch osób zestawia się obok siebie."
+          },
+          {
+            "ul": [
+              "**Zgodność zodiakalna** patrzy na gałąź roku urodzenia. Stanowi {weightZodiac} końcowego wskaźnika dopasowania.",
+              "**Zgodność gałęzi dnia** patrzy na gałąź dnia urodzenia. Stanowi {weightDayBranch} zgodności saju ({weightSaju}), czyli {weightDayBranchTotal} końcowego wskaźnika dopasowania."
+            ]
+          },
+          {
+            "p": "Na przykład gdy osoba spod znaku Koguta spotyka osobę spod znaku Królika, zgodność zodiakalna daje zderzenie. Jeśli wszystko inne jest takie samo, końcowy wskaźnik dopasowania wypada o {swingZodiacChung} punktów niżej niż przy parze neutralnej. Z osobą spod znaku Smoka jest to sześć harmonii, a wskaźnik wypada o {swingZodiacYukhap} punktów wyżej."
+          },
+          {
+            "p": "Gałąź roku i gałąź dnia mogą się różnić. Dwie osoby spod znaku Koguta, których gałęzie dnia to 酉 i 卯, otrzymują w zgodności zodiakalnej tę samą gałąź ({scoreSame}), a w zgodności gałęzi dnia zderzenie ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Czego ten przewodnik nie mówi",
+        "blocks": [
+          {
+            "ul": [
+              "Jedno zwierzę nie rozstrzyga o relacji między dwiema osobami. {weightSaju} końcowego wskaźnika dopasowania wynika ze zgodności saju.",
+              "Powyższe zmiany punktów zakładają, że wszystko inne jest takie samo; rzeczywisty wynik zależy od całego saju obu osób.",
+              "Pełna tabela tego, ile punktów daje każda relacja, znajduje się w [tabeli dwunastu gałęzi](/guide/branches), a wyjaśnienie, dlaczego zodiak odczytuje się z gałęzi roku, w [Dlaczego zgodność zodiakalna uwzględnia gałąź roku](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Pozostałe zwierzęta są przedstawione w ten sam sposób. [Szczur](/guide/zodiac-rat) · [Wół](/guide/zodiac-ox) · [Tygrys](/guide/zodiac-tiger) · [Królik](/guide/zodiac-rabbit) · [Smok](/guide/zodiac-dragon) · [Wąż](/guide/zodiac-snake) · [Koń](/guide/zodiac-horse) · [Owca](/guide/zodiac-goat) · [Małpa](/guide/zodiac-monkey) · [Pies](/guide/zodiac-dog) · [Świnia](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dog": {
+    "eyebrow": "Według zwierzęcia",
+    "title": "Jak Pies spotyka dwanaście zwierząt zodiaku",
+    "summary": "Jaką relację ma Pies (戌) z każdym z dwunastu zwierząt zodiaku, ile punktów daje każda z tych relacji i jaką część końcowego wskaźnika dopasowania zajmuje ten wynik — przedstawione dokładnie tak, jak w zasadach obliczeń Inyeon-Link.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Pies to jedenasta z dwunastu gałęzi",
+        "blocks": [
+          {
+            "p": "Pies to osoba, której gałąź roku urodzenia to **戌**. 戌 to jedenasta z dwunastu gałęzi ziemskich, a gdy dwanaście znaków ustawi się w kole, leży dokładnie naprzeciwko 辰 (Smoka)."
+          },
+          {
+            "p": "Wiersz, który wynik zgodności pokazuje dla osoby spod znaku Psa, brzmi: \"Wierny do końca, gdy raz zaufa. Zdrada rani go szczególnie mocno.\" Ten wiersz nie ma nic wspólnego z wynikami relacji i nie wpływa na wyniki poniżej."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście zwierząt zodiaku w skrócie",
+        "blocks": [
+          {
+            "p": "Każde z pozostałych zwierząt jest po kolei zestawiane z Psem. Jako relacje zapisane są tylko pary, które ta usługa uznaje za harmonie; cała reszta jest neutralna."
+          },
+          {
+            "table": {
+              "caption": "Pies i dwanaście zwierząt zodiaku",
+              "head": [
+                "Inne zwierzę",
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Szczur (子)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wół (丑)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tygrys (寅)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Królik (卯)",
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Smok (辰)",
+                  "Zderzenie",
+                  "{scoreChung}"
+                ],
+                [
+                  "Wąż (巳)",
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Koń (午)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Owca (未)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Małpa (申)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pies (戌)",
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Królik — para przyciągająca (sześć harmonii)",
+        "blocks": [
+          {
+            "p": "戌 i 卯 tworzą harmonię zaledwie dwoma znakami. Sześć harmonii to dobra relacja, która w zgodności pojawia się najczęściej, a Pies i Królik uzyskują {scoreYukhap} — to najwyższy wynik, jaki może uzyskać Pies."
+          }
+        ]
+      },
+      {
+        "title": "Koń — połowa triady zawierająca gałąź królewską",
+        "blocks": [
+          {
+            "p": "寅午戌 to jedna grupa triady (grupa ognia), a 午 jest **gałęzią królewską** w jej środku. Inyeon-Link przyjmuje wyłącznie pary zawierające gałąź królewską, dlatego Pies tworzy połowę triady ({scoreBanhap}) tylko z Koniem."
+          },
+          {
+            "p": "W parze z Tygrysem (寅) z tej samej grupy brakuje środkowego znaku 午, więc para nie jest liczona jako harmonia i jest traktowana jako neutralna ({scoreNeutral}). Przynależność do tej samej grupy nie sprawia, że każda para jest harmonią."
+          }
+        ]
+      },
+      {
+        "title": "Smok — czołowe zderzenie (zderzenie)",
+        "blocks": [
+          {
+            "p": "戌 i 辰 leżą w kole dokładnie naprzeciwko siebie. Ta usługa zachowuje {scoreChung} punktów nawet przy zderzeniu. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji, a przyznanie wyniku bliskiego dna oznaczałoby wydanie wyroku na dwie osoby. Mimo to jest to najniższy wynik, jaki może otrzymać Pies."
+          }
+        ]
+      },
+      {
+        "title": "Wąż — cicha niezgoda (niezgoda)",
+        "blocks": [
+          {
+            "p": "戌 i 巳 leżą tuż obok 辰 (Smoka), pozycji zderzenia, i tradycyjnie uważa się je za parę, która żywi do siebie urazę, a mimo to nie potrafi się rozstać. Na powierzchni wygląda to spokojnie, ale uważa się, że rozbieżność trwa długo, więc dostaje {scoreWonjin} — więcej niż zderzenie ({scoreChung}) i mniej niż neutralna ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Pozostałe 7 zwierząt oraz Pies z innym Psem",
+        "blocks": [
+          {
+            "p": "Szczur, Wół, Tygrys, Owca, Małpa, Kogut i Świnia nie tworzą z Psem ani harmonii, ani zderzenia, ani niezgody: są **neutralne** i uzyskują {scoreNeutral}. To punkt odniesienia, ani dobry, ani zły."
+          },
+          {
+            "p": "Dwie osoby spod znaku Psa uzyskują {scoreSame}. Oznacza to, że są do siebie podobne, a nie że się przyciągają, dlatego wynik plasuje się tuż nad neutralnym."
+          }
+        ]
+      },
+      {
+        "title": "Jaką część końcowego wskaźnika dopasowania zajmuje ten wynik",
+        "blocks": [
+          {
+            "p": "Są dwa miejsca, w których gałęzie dwóch osób zestawia się obok siebie."
+          },
+          {
+            "ul": [
+              "**Zgodność zodiakalna** patrzy na gałąź roku urodzenia. Stanowi {weightZodiac} końcowego wskaźnika dopasowania.",
+              "**Zgodność gałęzi dnia** patrzy na gałąź dnia urodzenia. Stanowi {weightDayBranch} zgodności saju ({weightSaju}), czyli {weightDayBranchTotal} końcowego wskaźnika dopasowania."
+            ]
+          },
+          {
+            "p": "Na przykład gdy osoba spod znaku Psa spotyka osobę spod znaku Smoka, zgodność zodiakalna daje zderzenie. Jeśli wszystko inne jest takie samo, końcowy wskaźnik dopasowania wypada o {swingZodiacChung} punktów niżej niż przy parze neutralnej. Z osobą spod znaku Królika jest to sześć harmonii, a wskaźnik wypada o {swingZodiacYukhap} punktów wyżej."
+          },
+          {
+            "p": "Gałąź roku i gałąź dnia mogą się różnić. Dwie osoby spod znaku Psa, których gałęzie dnia to 戌 i 辰, otrzymują w zgodności zodiakalnej tę samą gałąź ({scoreSame}), a w zgodności gałęzi dnia zderzenie ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Czego ten przewodnik nie mówi",
+        "blocks": [
+          {
+            "ul": [
+              "Jedno zwierzę nie rozstrzyga o relacji między dwiema osobami. {weightSaju} końcowego wskaźnika dopasowania wynika ze zgodności saju.",
+              "Powyższe zmiany punktów zakładają, że wszystko inne jest takie samo; rzeczywisty wynik zależy od całego saju obu osób.",
+              "Pełna tabela tego, ile punktów daje każda relacja, znajduje się w [tabeli dwunastu gałęzi](/guide/branches), a wyjaśnienie, dlaczego zodiak odczytuje się z gałęzi roku, w [Dlaczego zgodność zodiakalna uwzględnia gałąź roku](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Pozostałe zwierzęta są przedstawione w ten sam sposób. [Szczur](/guide/zodiac-rat) · [Wół](/guide/zodiac-ox) · [Tygrys](/guide/zodiac-tiger) · [Królik](/guide/zodiac-rabbit) · [Smok](/guide/zodiac-dragon) · [Wąż](/guide/zodiac-snake) · [Koń](/guide/zodiac-horse) · [Owca](/guide/zodiac-goat) · [Małpa](/guide/zodiac-monkey) · [Kogut](/guide/zodiac-rooster) · [Świnia](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pig": {
+    "eyebrow": "Według zwierzęcia",
+    "title": "Jak Świnia spotyka dwanaście zwierząt zodiaku",
+    "summary": "Jaką relację ma Świnia (亥) z każdym z dwunastu zwierząt zodiaku, ile punktów daje każda z tych relacji i jaką część końcowego wskaźnika dopasowania zajmuje ten wynik — przedstawione dokładnie tak, jak w zasadach obliczeń Inyeon-Link.",
+    "backLabel": "Podstawa obliczeń",
+    "sections": [
+      {
+        "title": "Świnia to dwunasta z dwunastu gałęzi",
+        "blocks": [
+          {
+            "p": "Świnia to osoba, której gałąź roku urodzenia to **亥**. 亥 to dwunasta z dwunastu gałęzi ziemskich, a gdy dwanaście znaków ustawi się w kole, leży dokładnie naprzeciwko 巳 (Węża)."
+          },
+          {
+            "p": "Wiersz, który wynik zgodności pokazuje dla osoby spod znaku Świni, brzmi: \"Hojna i szczera. Ufa łatwo, czasem swoim kosztem.\" Ten wiersz nie ma nic wspólnego z wynikami relacji i nie wpływa na wyniki poniżej."
+          }
+        ]
+      },
+      {
+        "title": "Dwanaście zwierząt zodiaku w skrócie",
+        "blocks": [
+          {
+            "p": "Każde z pozostałych zwierząt jest po kolei zestawiane ze Świnią. Jako relacje zapisane są tylko pary, które ta usługa uznaje za harmonie; cała reszta jest neutralna."
+          },
+          {
+            "table": {
+              "caption": "Świnia i dwanaście zwierząt zodiaku",
+              "head": [
+                "Inne zwierzę",
+                "Relacja",
+                "Wynik"
+              ],
+              "rows": [
+                [
+                  "Szczur (子)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Wół (丑)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tygrys (寅)",
+                  "Sześć harmonii",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Królik (卯)",
+                  "Połowa triady",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Smok (辰)",
+                  "Niezgoda",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Wąż (巳)",
+                  "Zderzenie",
+                  "{scoreChung}"
+                ],
+                [
+                  "Koń (午)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Owca (未)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Małpa (申)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kogut (酉)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pies (戌)",
+                  "Neutralna",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Świnia (亥)",
+                  "Ta sama gałąź",
+                  "{scoreSame}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Tygrys — para przyciągająca (sześć harmonii)",
+        "blocks": [
+          {
+            "p": "亥 i 寅 tworzą harmonię zaledwie dwoma znakami. Sześć harmonii to dobra relacja, która w zgodności pojawia się najczęściej, a Świnia i Tygrys uzyskują {scoreYukhap} — to najwyższy wynik, jaki może uzyskać Świnia."
+          }
+        ]
+      },
+      {
+        "title": "Królik — połowa triady zawierająca gałąź królewską",
+        "blocks": [
+          {
+            "p": "亥卯未 to jedna grupa triady (grupa drewna), a 卯 jest **gałęzią królewską** w jej środku. Inyeon-Link przyjmuje wyłącznie pary zawierające gałąź królewską, dlatego Świnia tworzy połowę triady ({scoreBanhap}) tylko z Królikiem."
+          },
+          {
+            "p": "W parze z Owcą (未) z tej samej grupy brakuje środkowego znaku 卯, więc para nie jest liczona jako harmonia i jest traktowana jako neutralna ({scoreNeutral}). Przynależność do tej samej grupy nie sprawia, że każda para jest harmonią."
+          }
+        ]
+      },
+      {
+        "title": "Wąż — czołowe zderzenie (zderzenie)",
+        "blocks": [
+          {
+            "p": "亥 i 巳 leżą w kole dokładnie naprzeciwko siebie. Ta usługa zachowuje {scoreChung} punktów nawet przy zderzeniu. W tradycyjnym myeongri zderzenie jest kolizją, a nie końcem relacji, a przyznanie wyniku bliskiego dna oznaczałoby wydanie wyroku na dwie osoby. Mimo to jest to najniższy wynik, jaki może otrzymać Świnia."
+          }
+        ]
+      },
+      {
+        "title": "Smok — cicha niezgoda (niezgoda)",
+        "blocks": [
+          {
+            "p": "亥 i 辰 leżą tuż obok 巳 (Węża), pozycji zderzenia, i tradycyjnie uważa się je za parę, która żywi do siebie urazę, a mimo to nie potrafi się rozstać. Na powierzchni wygląda to spokojnie, ale uważa się, że rozbieżność trwa długo, więc dostaje {scoreWonjin} — więcej niż zderzenie ({scoreChung}) i mniej niż neutralna ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Pozostałe 7 zwierząt oraz Świnia z inną Świnią",
+        "blocks": [
+          {
+            "p": "Szczur, Wół, Koń, Owca, Małpa, Kogut i Pies nie tworzą ze Świnią ani harmonii, ani zderzenia, ani niezgody: są **neutralne** i uzyskują {scoreNeutral}. To punkt odniesienia, ani dobry, ani zły."
+          },
+          {
+            "p": "Dwie osoby spod znaku Świni uzyskują {scoreSame}. Oznacza to, że są do siebie podobne, a nie że się przyciągają, dlatego wynik plasuje się tuż nad neutralnym."
+          }
+        ]
+      },
+      {
+        "title": "Jaką część końcowego wskaźnika dopasowania zajmuje ten wynik",
+        "blocks": [
+          {
+            "p": "Są dwa miejsca, w których gałęzie dwóch osób zestawia się obok siebie."
+          },
+          {
+            "ul": [
+              "**Zgodność zodiakalna** patrzy na gałąź roku urodzenia. Stanowi {weightZodiac} końcowego wskaźnika dopasowania.",
+              "**Zgodność gałęzi dnia** patrzy na gałąź dnia urodzenia. Stanowi {weightDayBranch} zgodności saju ({weightSaju}), czyli {weightDayBranchTotal} końcowego wskaźnika dopasowania."
+            ]
+          },
+          {
+            "p": "Na przykład gdy osoba spod znaku Świni spotyka osobę spod znaku Węża, zgodność zodiakalna daje zderzenie. Jeśli wszystko inne jest takie samo, końcowy wskaźnik dopasowania wypada o {swingZodiacChung} punktów niżej niż przy parze neutralnej. Z osobą spod znaku Tygrysa jest to sześć harmonii, a wskaźnik wypada o {swingZodiacYukhap} punktów wyżej."
+          },
+          {
+            "p": "Gałąź roku i gałąź dnia mogą się różnić. Dwie osoby spod znaku Świni, których gałęzie dnia to 亥 i 巳, otrzymują w zgodności zodiakalnej tę samą gałąź ({scoreSame}), a w zgodności gałęzi dnia zderzenie ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Czego ten przewodnik nie mówi",
+        "blocks": [
+          {
+            "ul": [
+              "Jedno zwierzę nie rozstrzyga o relacji między dwiema osobami. {weightSaju} końcowego wskaźnika dopasowania wynika ze zgodności saju.",
+              "Powyższe zmiany punktów zakładają, że wszystko inne jest takie samo; rzeczywisty wynik zależy od całego saju obu osób.",
+              "Pełna tabela tego, ile punktów daje każda relacja, znajduje się w [tabeli dwunastu gałęzi](/guide/branches), a wyjaśnienie, dlaczego zodiak odczytuje się z gałęzi roku, w [Dlaczego zgodność zodiakalna uwzględnia gałąź roku](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Pozostałe zwierzęta są przedstawione w ten sam sposób. [Szczur](/guide/zodiac-rat) · [Wół](/guide/zodiac-ox) · [Tygrys](/guide/zodiac-tiger) · [Królik](/guide/zodiac-rabbit) · [Smok](/guide/zodiac-dragon) · [Wąż](/guide/zodiac-snake) · [Koń](/guide/zodiac-horse) · [Owca](/guide/zodiac-goat) · [Małpa](/guide/zodiac-monkey) · [Kogut](/guide/zodiac-rooster) · [Pies](/guide/zodiac-dog)"
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Dziesięć Bogów",
     "title": "Dziesięć Bogów i Pozycja Małżonka",

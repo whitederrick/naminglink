@@ -585,6 +585,2190 @@ export const IT_DOCS = {
       }
     ]
   },
+  "guide/zodiac-rat": {
+    "eyebrow": "Per animale",
+    "title": "Come il Topo incontra i dodici animali dello zodiaco",
+    "summary": "Quale relazione ha il Topo (子) con ciascuno dei dodici animali dello zodiaco, quanti punti ottiene ciascuna e quale quota della percentuale di corrispondenza finale occupa quel punteggio — esposto esattamente come lo prevedono le regole di calcolo di Inyeon-Link.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "Il Topo è il primo dei dodici rami",
+        "blocks": [
+          {
+            "p": "Il Topo è chi ha come ramo dell'anno di nascita **子**. 子 è il primo dei dodici rami terrestri e, quando i dodici caratteri sono disposti in cerchio, sta esattamente di fronte a 午 (il Cavallo)."
+          },
+          {
+            "p": "La riga che il risultato di compatibilità mostra per una persona Topo è: “Nota in fretta e in fretta si assicura ciò che conta. Il primo a muoversi in una crisi.” Questa riga non ha nulla a che fare con i punteggi delle relazioni e non influisce sui punteggi qui sotto."
+          }
+        ]
+      },
+      {
+        "title": "I dodici animali dello zodiaco a colpo d'occhio",
+        "blocks": [
+          {
+            "p": "Ognuno degli altri animali viene messo a confronto, a turno, con il Topo. Solo le coppie che questo servizio riconosce come armonie sono scritte come relazioni; tutto il resto è neutro."
+          },
+          {
+            "table": {
+              "caption": "Il Topo e i dodici animali dello zodiaco",
+              "head": [
+                "Altro animale",
+                "Relazione",
+                "Punteggio"
+              ],
+              "rows": [
+                [
+                  "Topo (子)",
+                  "Stesso ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bue (丑)",
+                  "Sei Armonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coniglio (卯)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Drago (辰)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavallo (午)",
+                  "Conflitto",
+                  "{scoreChung}"
+                ],
+                [
+                  "Pecora (未)",
+                  "Discordia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Scimmia (申)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Gallo (酉)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cane (戌)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maiale (亥)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Bue — la coppia che si attrae (Sei Armonie)",
+        "blocks": [
+          {
+            "p": "子 e 丑 formano un'armonia con soli due caratteri. Una coppia di sei armonie è la buona relazione che compare più spesso nella compatibilità, e il Topo e il Bue ottengono {scoreYukhap}, il massimo che il Topo può ottenere."
+          }
+        ]
+      },
+      {
+        "title": "Drago e Scimmia — una mezza triade che include il ramo reale",
+        "blocks": [
+          {
+            "p": "申子辰 è un gruppo di triade (il gruppo dell'acqua), e 子 è il **ramo reale** al suo centro. Inyeon-Link accetta solo le coppie che includono il ramo reale, quindi il Topo forma una mezza triade ({scoreBanhap}) sia con il Drago sia con la Scimmia."
+          },
+          {
+            "p": "**La Scimmia e il Drago insieme**, invece, non hanno il carattere centrale 子: la coppia non è contata come armonia ed è trattata come neutra. Anche all'interno di uno stesso gruppo di triade, è il Topo a formare la mezza triade."
+          }
+        ]
+      },
+      {
+        "title": "Cavallo — lo scontro frontale (Conflitto)",
+        "blocks": [
+          {
+            "p": "子 e 午 stanno esattamente uno di fronte all'altro nel cerchio. Questo servizio mantiene {scoreChung} punti anche per un conflitto. Nella myeongri tradizionale un conflitto è una collisione, non la fine di una relazione, e assegnare un punteggio vicino al minimo equivarrebbe a pronunciare un verdetto su due persone. Anche così, è il punteggio più basso che il Topo può ricevere."
+          }
+        ]
+      },
+      {
+        "title": "Pecora — la quieta discordia (Discordia)",
+        "blocks": [
+          {
+            "p": "子 e 未 stanno subito accanto a 午 (il Cavallo), la posizione del conflitto, e tradizionalmente sono visti come una coppia che si porta rancore ma non riesce a separarsi. In superficie sembra calma, ma si ritiene che lo scarto duri nel tempo, perciò ottiene {scoreWonjin} — più di un conflitto ({scoreChung}) e meno del neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Gli altri 6 animali, e il Topo con un altro Topo",
+        "blocks": [
+          {
+            "p": "Tigre, Coniglio, Serpente, Gallo, Cane e Maiale non sono né un'armonia, né un conflitto, né una discordia con il Topo: sono **neutri** e ottengono {scoreNeutral}. Sono la base di partenza, né buoni né cattivi."
+          },
+          {
+            "p": "Due persone Topo ottengono {scoreSame}. Significa che si somigliano, non che si attraggono, perciò si collocano appena sopra il neutro."
+          }
+        ]
+      },
+      {
+        "title": "Quale quota della percentuale di corrispondenza finale occupa questo punteggio",
+        "blocks": [
+          {
+            "p": "Ci sono due punti in cui i rami di due persone vengono messi a confronto."
+          },
+          {
+            "ul": [
+              "La **compatibilità zodiacale** considera il ramo dell'anno di nascita. Pesa per {weightZodiac} sulla percentuale di corrispondenza finale.",
+              "La **compatibilità del ramo del giorno** considera il ramo del giorno di nascita. Pesa per {weightDayBranch} sulla compatibilità saju ({weightSaju}), ovvero {weightDayBranchTotal} della percentuale di corrispondenza finale."
+            ]
+          },
+          {
+            "p": "Per esempio, quando una persona Topo incontra una persona Cavallo, la compatibilità zodiacale dà un conflitto. A parità di tutto il resto, la percentuale di corrispondenza finale risulta più bassa di {swingZodiacChung} punti rispetto a una coppia neutra. Con una persona Bue è una coppia di sei armonie, e la percentuale risulta più alta di {swingZodiacYukhap} punti."
+          },
+          {
+            "p": "Il ramo dell'anno e quello del giorno possono essere diversi. Due persone Topo i cui rami del giorno sono 子 e 午 ottengono lo stesso ramo ({scoreSame}) nella compatibilità zodiacale e un conflitto ({scoreChung}) nella compatibilità del ramo del giorno."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ciò che questa guida non dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animale non decide una relazione tra due persone. {weightSaju} della percentuale di corrispondenza finale è stabilito dalla compatibilità saju.",
+              "Le variazioni di punteggio qui sopra presuppongono che tutto il resto sia uguale; il risultato reale è determinato dall'intero saju di entrambe le persone.",
+              "La tabella completa di quale relazione vale quanto è nella [tabella dei dodici rami](/guide/branches), e perché lo zodiaco si legge dal ramo dell'anno è spiegato in [Perché la compatibilità zodiacale considera il ramo dell'anno](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Gli altri animali sono presentati allo stesso modo. [Bue](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coniglio](/guide/zodiac-rabbit) · [Drago](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavallo](/guide/zodiac-horse) · [Pecora](/guide/zodiac-goat) · [Scimmia](/guide/zodiac-monkey) · [Gallo](/guide/zodiac-rooster) · [Cane](/guide/zodiac-dog) · [Maiale](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-ox": {
+    "eyebrow": "Per animale",
+    "title": "Come il Bue incontra i dodici animali dello zodiaco",
+    "summary": "Quale relazione ha il Bue (丑) con ciascuno dei dodici animali dello zodiaco, quanti punti ottiene ciascuna e quale quota della percentuale di corrispondenza finale occupa quel punteggio — esposto esattamente come lo prevedono le regole di calcolo di Inyeon-Link.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "Il Bue è il secondo dei dodici rami",
+        "blocks": [
+          {
+            "p": "Il Bue è chi ha come ramo dell'anno di nascita **丑**. 丑 è il secondo dei dodici rami terrestri e, quando i dodici caratteri sono disposti in cerchio, sta esattamente di fronte a 未 (la Pecora)."
+          },
+          {
+            "p": "La riga che il risultato di compatibilità mostra per una persona Bue è: “Sembra lento ma porta a termine. Ciò che prende in carico non lo molla.” Questa riga non ha nulla a che fare con i punteggi delle relazioni e non influisce sui punteggi qui sotto."
+          }
+        ]
+      },
+      {
+        "title": "I dodici animali dello zodiaco a colpo d'occhio",
+        "blocks": [
+          {
+            "p": "Ognuno degli altri animali viene messo a confronto, a turno, con il Bue. Solo le coppie che questo servizio riconosce come armonie sono scritte come relazioni; tutto il resto è neutro."
+          },
+          {
+            "table": {
+              "caption": "Il Bue e i dodici animali dello zodiaco",
+              "head": [
+                "Altro animale",
+                "Relazione",
+                "Punteggio"
+              ],
+              "rows": [
+                [
+                  "Topo (子)",
+                  "Sei Armonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bue (丑)",
+                  "Stesso ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coniglio (卯)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Drago (辰)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavallo (午)",
+                  "Discordia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Pecora (未)",
+                  "Conflitto",
+                  "{scoreChung}"
+                ],
+                [
+                  "Scimmia (申)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Gallo (酉)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Cane (戌)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maiale (亥)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Topo — la coppia che si attrae (Sei Armonie)",
+        "blocks": [
+          {
+            "p": "丑 e 子 formano un'armonia con soli due caratteri. Una coppia di sei armonie è la buona relazione che compare più spesso nella compatibilità, e il Bue e il Topo ottengono {scoreYukhap}, il massimo che il Bue può ottenere."
+          }
+        ]
+      },
+      {
+        "title": "Gallo — una mezza triade che include il ramo reale",
+        "blocks": [
+          {
+            "p": "巳酉丑 è un gruppo di triade (il gruppo del metallo), e 酉 è il **ramo reale** al suo centro. Inyeon-Link accetta solo le coppie che includono il ramo reale, quindi il Bue forma una mezza triade ({scoreBanhap}) solo con il Gallo."
+          },
+          {
+            "p": "Con il Serpente (巳) dello stesso gruppo manca il carattere centrale 酉, perciò la coppia non è contata come armonia ed è trattata come neutra ({scoreNeutral}). Appartenere allo stesso gruppo non rende ogni coppia un'armonia."
+          }
+        ]
+      },
+      {
+        "title": "Pecora — lo scontro frontale (Conflitto)",
+        "blocks": [
+          {
+            "p": "丑 e 未 stanno esattamente uno di fronte all'altro nel cerchio. Questo servizio mantiene {scoreChung} punti anche per un conflitto. Nella myeongri tradizionale un conflitto è una collisione, non la fine di una relazione, e assegnare un punteggio vicino al minimo equivarrebbe a pronunciare un verdetto su due persone. Anche così, è il punteggio più basso che il Bue può ricevere."
+          }
+        ]
+      },
+      {
+        "title": "Cavallo — la quieta discordia (Discordia)",
+        "blocks": [
+          {
+            "p": "丑 e 午 stanno subito accanto a 未 (la Pecora), la posizione del conflitto, e tradizionalmente sono visti come una coppia che si porta rancore ma non riesce a separarsi. In superficie sembra calma, ma si ritiene che lo scarto duri nel tempo, perciò ottiene {scoreWonjin} — più di un conflitto ({scoreChung}) e meno del neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Gli altri 7 animali, e il Bue con un altro Bue",
+        "blocks": [
+          {
+            "p": "Tigre, Coniglio, Drago, Serpente, Scimmia, Cane e Maiale non sono né un'armonia, né un conflitto, né una discordia con il Bue: sono **neutri** e ottengono {scoreNeutral}. Sono la base di partenza, né buoni né cattivi."
+          },
+          {
+            "p": "Due persone Bue ottengono {scoreSame}. Significa che si somigliano, non che si attraggono, perciò si collocano appena sopra il neutro."
+          }
+        ]
+      },
+      {
+        "title": "Quale quota della percentuale di corrispondenza finale occupa questo punteggio",
+        "blocks": [
+          {
+            "p": "Ci sono due punti in cui i rami di due persone vengono messi a confronto."
+          },
+          {
+            "ul": [
+              "La **compatibilità zodiacale** considera il ramo dell'anno di nascita. Pesa per {weightZodiac} sulla percentuale di corrispondenza finale.",
+              "La **compatibilità del ramo del giorno** considera il ramo del giorno di nascita. Pesa per {weightDayBranch} sulla compatibilità saju ({weightSaju}), ovvero {weightDayBranchTotal} della percentuale di corrispondenza finale."
+            ]
+          },
+          {
+            "p": "Per esempio, quando una persona Bue incontra una persona Pecora, la compatibilità zodiacale dà un conflitto. A parità di tutto il resto, la percentuale di corrispondenza finale risulta più bassa di {swingZodiacChung} punti rispetto a una coppia neutra. Con una persona Topo è una coppia di sei armonie, e la percentuale risulta più alta di {swingZodiacYukhap} punti."
+          },
+          {
+            "p": "Il ramo dell'anno e quello del giorno possono essere diversi. Due persone Bue i cui rami del giorno sono 丑 e 未 ottengono lo stesso ramo ({scoreSame}) nella compatibilità zodiacale e un conflitto ({scoreChung}) nella compatibilità del ramo del giorno."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ciò che questa guida non dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animale non decide una relazione tra due persone. {weightSaju} della percentuale di corrispondenza finale è stabilito dalla compatibilità saju.",
+              "Le variazioni di punteggio qui sopra presuppongono che tutto il resto sia uguale; il risultato reale è determinato dall'intero saju di entrambe le persone.",
+              "La tabella completa di quale relazione vale quanto è nella [tabella dei dodici rami](/guide/branches), e perché lo zodiaco si legge dal ramo dell'anno è spiegato in [Perché la compatibilità zodiacale considera il ramo dell'anno](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Gli altri animali sono presentati allo stesso modo. [Topo](/guide/zodiac-rat) · [Tigre](/guide/zodiac-tiger) · [Coniglio](/guide/zodiac-rabbit) · [Drago](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavallo](/guide/zodiac-horse) · [Pecora](/guide/zodiac-goat) · [Scimmia](/guide/zodiac-monkey) · [Gallo](/guide/zodiac-rooster) · [Cane](/guide/zodiac-dog) · [Maiale](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-tiger": {
+    "eyebrow": "Per animale",
+    "title": "Come la Tigre incontra i dodici animali dello zodiaco",
+    "summary": "Quale relazione ha la Tigre (寅) con ciascuno dei dodici animali dello zodiaco, quanti punti ottiene ciascuna e quale quota della percentuale di corrispondenza finale occupa quel punteggio — esposto esattamente come lo prevedono le regole di calcolo di Inyeon-Link.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "La Tigre è il terzo dei dodici rami",
+        "blocks": [
+          {
+            "p": "La Tigre è chi ha come ramo dell'anno di nascita **寅**. 寅 è il terzo dei dodici rami terrestri e, quando i dodici caratteri sono disposti in cerchio, sta esattamente di fronte a 申 (la Scimmia)."
+          },
+          {
+            "p": "La riga che il risultato di compatibilità mostra per una persona Tigre è: “Senza paura e in prima linea. Non riesce a lasciar correre un'ingiustizia.” Questa riga non ha nulla a che fare con i punteggi delle relazioni e non influisce sui punteggi qui sotto."
+          }
+        ]
+      },
+      {
+        "title": "I dodici animali dello zodiaco a colpo d'occhio",
+        "blocks": [
+          {
+            "p": "Ognuno degli altri animali viene messo a confronto, a turno, con la Tigre. Solo le coppie che questo servizio riconosce come armonie sono scritte come relazioni; tutto il resto è neutro."
+          },
+          {
+            "table": {
+              "caption": "La Tigre e i dodici animali dello zodiaco",
+              "head": [
+                "Altro animale",
+                "Relazione",
+                "Punteggio"
+              ],
+              "rows": [
+                [
+                  "Topo (子)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bue (丑)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Stesso ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Coniglio (卯)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Drago (辰)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavallo (午)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Pecora (未)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Scimmia (申)",
+                  "Conflitto",
+                  "{scoreChung}"
+                ],
+                [
+                  "Gallo (酉)",
+                  "Discordia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Cane (戌)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maiale (亥)",
+                  "Sei Armonie",
+                  "{scoreYukhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Maiale — la coppia che si attrae (Sei Armonie)",
+        "blocks": [
+          {
+            "p": "寅 e 亥 formano un'armonia con soli due caratteri. Una coppia di sei armonie è la buona relazione che compare più spesso nella compatibilità, e la Tigre e il Maiale ottengono {scoreYukhap}, il massimo che la Tigre può ottenere."
+          }
+        ]
+      },
+      {
+        "title": "Cavallo — una mezza triade che include il ramo reale",
+        "blocks": [
+          {
+            "p": "寅午戌 è un gruppo di triade (il gruppo del fuoco), e 午 è il **ramo reale** al suo centro. Inyeon-Link accetta solo le coppie che includono il ramo reale, quindi la Tigre forma una mezza triade ({scoreBanhap}) solo con il Cavallo."
+          },
+          {
+            "p": "Con il Cane (戌) dello stesso gruppo manca il carattere centrale 午, perciò la coppia non è contata come armonia ed è trattata come neutra ({scoreNeutral}). Appartenere allo stesso gruppo non rende ogni coppia un'armonia."
+          }
+        ]
+      },
+      {
+        "title": "Scimmia — lo scontro frontale (Conflitto)",
+        "blocks": [
+          {
+            "p": "寅 e 申 stanno esattamente uno di fronte all'altro nel cerchio. Questo servizio mantiene {scoreChung} punti anche per un conflitto. Nella myeongri tradizionale un conflitto è una collisione, non la fine di una relazione, e assegnare un punteggio vicino al minimo equivarrebbe a pronunciare un verdetto su due persone. Anche così, è il punteggio più basso che la Tigre può ricevere."
+          }
+        ]
+      },
+      {
+        "title": "Gallo — la quieta discordia (Discordia)",
+        "blocks": [
+          {
+            "p": "寅 e 酉 stanno subito accanto a 申 (la Scimmia), la posizione del conflitto, e tradizionalmente sono visti come una coppia che si porta rancore ma non riesce a separarsi. In superficie sembra calma, ma si ritiene che lo scarto duri nel tempo, perciò ottiene {scoreWonjin} — più di un conflitto ({scoreChung}) e meno del neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Gli altri 7 animali, e la Tigre con un'altra Tigre",
+        "blocks": [
+          {
+            "p": "Topo, Bue, Coniglio, Drago, Serpente, Pecora e Cane non sono né un'armonia, né un conflitto, né una discordia con la Tigre: sono **neutri** e ottengono {scoreNeutral}. Sono la base di partenza, né buoni né cattivi."
+          },
+          {
+            "p": "Due persone Tigre ottengono {scoreSame}. Significa che si somigliano, non che si attraggono, perciò si collocano appena sopra il neutro."
+          }
+        ]
+      },
+      {
+        "title": "Quale quota della percentuale di corrispondenza finale occupa questo punteggio",
+        "blocks": [
+          {
+            "p": "Ci sono due punti in cui i rami di due persone vengono messi a confronto."
+          },
+          {
+            "ul": [
+              "La **compatibilità zodiacale** considera il ramo dell'anno di nascita. Pesa per {weightZodiac} sulla percentuale di corrispondenza finale.",
+              "La **compatibilità del ramo del giorno** considera il ramo del giorno di nascita. Pesa per {weightDayBranch} sulla compatibilità saju ({weightSaju}), ovvero {weightDayBranchTotal} della percentuale di corrispondenza finale."
+            ]
+          },
+          {
+            "p": "Per esempio, quando una persona Tigre incontra una persona Scimmia, la compatibilità zodiacale dà un conflitto. A parità di tutto il resto, la percentuale di corrispondenza finale risulta più bassa di {swingZodiacChung} punti rispetto a una coppia neutra. Con una persona Maiale è una coppia di sei armonie, e la percentuale risulta più alta di {swingZodiacYukhap} punti."
+          },
+          {
+            "p": "Il ramo dell'anno e quello del giorno possono essere diversi. Due persone Tigre i cui rami del giorno sono 寅 e 申 ottengono lo stesso ramo ({scoreSame}) nella compatibilità zodiacale e un conflitto ({scoreChung}) nella compatibilità del ramo del giorno."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ciò che questa guida non dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animale non decide una relazione tra due persone. {weightSaju} della percentuale di corrispondenza finale è stabilito dalla compatibilità saju.",
+              "Le variazioni di punteggio qui sopra presuppongono che tutto il resto sia uguale; il risultato reale è determinato dall'intero saju di entrambe le persone.",
+              "La tabella completa di quale relazione vale quanto è nella [tabella dei dodici rami](/guide/branches), e perché lo zodiaco si legge dal ramo dell'anno è spiegato in [Perché la compatibilità zodiacale considera il ramo dell'anno](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Gli altri animali sono presentati allo stesso modo. [Topo](/guide/zodiac-rat) · [Bue](/guide/zodiac-ox) · [Coniglio](/guide/zodiac-rabbit) · [Drago](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavallo](/guide/zodiac-horse) · [Pecora](/guide/zodiac-goat) · [Scimmia](/guide/zodiac-monkey) · [Gallo](/guide/zodiac-rooster) · [Cane](/guide/zodiac-dog) · [Maiale](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rabbit": {
+    "eyebrow": "Per animale",
+    "title": "Come il Coniglio incontra i dodici animali dello zodiaco",
+    "summary": "Quale relazione ha il Coniglio (卯) con ciascuno dei dodici animali dello zodiaco, quanti punti ottiene ciascuna e quale quota della percentuale di corrispondenza finale occupa quel punteggio — esposto esattamente come lo prevedono le regole di calcolo di Inyeon-Link.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "Il Coniglio è il quarto dei dodici rami",
+        "blocks": [
+          {
+            "p": "Il Coniglio è chi ha come ramo dell'anno di nascita **卯**. 卯 è il quarto dei dodici rami terrestri e, quando i dodici caratteri sono disposti in cerchio, sta esattamente di fronte a 酉 (il Gallo)."
+          },
+          {
+            "p": "La riga che il risultato di compatibilità mostra per una persona Coniglio è: “Gentile e perspicace. Sa aggirare invece di scontrarsi.” Questa riga non ha nulla a che fare con i punteggi delle relazioni e non influisce sui punteggi qui sotto."
+          }
+        ]
+      },
+      {
+        "title": "I dodici animali dello zodiaco a colpo d'occhio",
+        "blocks": [
+          {
+            "p": "Ognuno degli altri animali viene messo a confronto, a turno, con il Coniglio. Solo le coppie che questo servizio riconosce come armonie sono scritte come relazioni; tutto il resto è neutro."
+          },
+          {
+            "table": {
+              "caption": "Il Coniglio e i dodici animali dello zodiaco",
+              "head": [
+                "Altro animale",
+                "Relazione",
+                "Punteggio"
+              ],
+              "rows": [
+                [
+                  "Topo (子)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bue (丑)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coniglio (卯)",
+                  "Stesso ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Drago (辰)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavallo (午)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pecora (未)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Scimmia (申)",
+                  "Discordia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Gallo (酉)",
+                  "Conflitto",
+                  "{scoreChung}"
+                ],
+                [
+                  "Cane (戌)",
+                  "Sei Armonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Maiale (亥)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cane — la coppia che si attrae (Sei Armonie)",
+        "blocks": [
+          {
+            "p": "卯 e 戌 formano un'armonia con soli due caratteri. Una coppia di sei armonie è la buona relazione che compare più spesso nella compatibilità, e il Coniglio e il Cane ottengono {scoreYukhap}, il massimo che il Coniglio può ottenere."
+          }
+        ]
+      },
+      {
+        "title": "Pecora e Maiale — una mezza triade che include il ramo reale",
+        "blocks": [
+          {
+            "p": "亥卯未 è un gruppo di triade (il gruppo del legno), e 卯 è il **ramo reale** al suo centro. Inyeon-Link accetta solo le coppie che includono il ramo reale, quindi il Coniglio forma una mezza triade ({scoreBanhap}) sia con la Pecora sia con il Maiale."
+          },
+          {
+            "p": "**Il Maiale e la Pecora insieme**, invece, non hanno il carattere centrale 卯: la coppia non è contata come armonia ed è trattata come neutra. Anche all'interno di uno stesso gruppo di triade, è il Coniglio a formare la mezza triade."
+          }
+        ]
+      },
+      {
+        "title": "Gallo — lo scontro frontale (Conflitto)",
+        "blocks": [
+          {
+            "p": "卯 e 酉 stanno esattamente uno di fronte all'altro nel cerchio. Questo servizio mantiene {scoreChung} punti anche per un conflitto. Nella myeongri tradizionale un conflitto è una collisione, non la fine di una relazione, e assegnare un punteggio vicino al minimo equivarrebbe a pronunciare un verdetto su due persone. Anche così, è il punteggio più basso che il Coniglio può ricevere."
+          }
+        ]
+      },
+      {
+        "title": "Scimmia — la quieta discordia (Discordia)",
+        "blocks": [
+          {
+            "p": "卯 e 申 stanno subito accanto a 酉 (il Gallo), la posizione del conflitto, e tradizionalmente sono visti come una coppia che si porta rancore ma non riesce a separarsi. In superficie sembra calma, ma si ritiene che lo scarto duri nel tempo, perciò ottiene {scoreWonjin} — più di un conflitto ({scoreChung}) e meno del neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Gli altri 6 animali, e il Coniglio con un altro Coniglio",
+        "blocks": [
+          {
+            "p": "Topo, Bue, Tigre, Drago, Serpente e Cavallo non sono né un'armonia, né un conflitto, né una discordia con il Coniglio: sono **neutri** e ottengono {scoreNeutral}. Sono la base di partenza, né buoni né cattivi."
+          },
+          {
+            "p": "Due persone Coniglio ottengono {scoreSame}. Significa che si somigliano, non che si attraggono, perciò si collocano appena sopra il neutro."
+          }
+        ]
+      },
+      {
+        "title": "Quale quota della percentuale di corrispondenza finale occupa questo punteggio",
+        "blocks": [
+          {
+            "p": "Ci sono due punti in cui i rami di due persone vengono messi a confronto."
+          },
+          {
+            "ul": [
+              "La **compatibilità zodiacale** considera il ramo dell'anno di nascita. Pesa per {weightZodiac} sulla percentuale di corrispondenza finale.",
+              "La **compatibilità del ramo del giorno** considera il ramo del giorno di nascita. Pesa per {weightDayBranch} sulla compatibilità saju ({weightSaju}), ovvero {weightDayBranchTotal} della percentuale di corrispondenza finale."
+            ]
+          },
+          {
+            "p": "Per esempio, quando una persona Coniglio incontra una persona Gallo, la compatibilità zodiacale dà un conflitto. A parità di tutto il resto, la percentuale di corrispondenza finale risulta più bassa di {swingZodiacChung} punti rispetto a una coppia neutra. Con una persona Cane è una coppia di sei armonie, e la percentuale risulta più alta di {swingZodiacYukhap} punti."
+          },
+          {
+            "p": "Il ramo dell'anno e quello del giorno possono essere diversi. Due persone Coniglio i cui rami del giorno sono 卯 e 酉 ottengono lo stesso ramo ({scoreSame}) nella compatibilità zodiacale e un conflitto ({scoreChung}) nella compatibilità del ramo del giorno."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ciò che questa guida non dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animale non decide una relazione tra due persone. {weightSaju} della percentuale di corrispondenza finale è stabilito dalla compatibilità saju.",
+              "Le variazioni di punteggio qui sopra presuppongono che tutto il resto sia uguale; il risultato reale è determinato dall'intero saju di entrambe le persone.",
+              "La tabella completa di quale relazione vale quanto è nella [tabella dei dodici rami](/guide/branches), e perché lo zodiaco si legge dal ramo dell'anno è spiegato in [Perché la compatibilità zodiacale considera il ramo dell'anno](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Gli altri animali sono presentati allo stesso modo. [Topo](/guide/zodiac-rat) · [Bue](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Drago](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavallo](/guide/zodiac-horse) · [Pecora](/guide/zodiac-goat) · [Scimmia](/guide/zodiac-monkey) · [Gallo](/guide/zodiac-rooster) · [Cane](/guide/zodiac-dog) · [Maiale](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dragon": {
+    "eyebrow": "Per animale",
+    "title": "Come il Drago incontra i dodici animali dello zodiaco",
+    "summary": "Quale relazione ha il Drago (辰) con ciascuno dei dodici animali dello zodiaco, quanti punti ottiene ciascuna e quale quota della percentuale di corrispondenza finale occupa quel punteggio — esposto esattamente come lo prevedono le regole di calcolo di Inyeon-Link.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "Il Drago è il quinto dei dodici rami",
+        "blocks": [
+          {
+            "p": "Il Drago è chi ha come ramo dell'anno di nascita **辰**. 辰 è il quinto dei dodici rami terrestri e, quando i dodici caratteri sono disposti in cerchio, sta esattamente di fronte a 戌 (il Cane)."
+          },
+          {
+            "p": "La riga che il risultato di compatibilità mostra per una persona Drago è: “Di animo grande e con ideali alti. Di rado si accontenta dell'ordinario.” Questa riga non ha nulla a che fare con i punteggi delle relazioni e non influisce sui punteggi qui sotto."
+          }
+        ]
+      },
+      {
+        "title": "I dodici animali dello zodiaco a colpo d'occhio",
+        "blocks": [
+          {
+            "p": "Ognuno degli altri animali viene messo a confronto, a turno, con il Drago. Solo le coppie che questo servizio riconosce come armonie sono scritte come relazioni; tutto il resto è neutro."
+          },
+          {
+            "table": {
+              "caption": "Il Drago e i dodici animali dello zodiaco",
+              "head": [
+                "Altro animale",
+                "Relazione",
+                "Punteggio"
+              ],
+              "rows": [
+                [
+                  "Topo (子)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bue (丑)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coniglio (卯)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Drago (辰)",
+                  "Stesso ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavallo (午)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pecora (未)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Scimmia (申)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Gallo (酉)",
+                  "Sei Armonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Cane (戌)",
+                  "Conflitto",
+                  "{scoreChung}"
+                ],
+                [
+                  "Maiale (亥)",
+                  "Discordia",
+                  "{scoreWonjin}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gallo — la coppia che si attrae (Sei Armonie)",
+        "blocks": [
+          {
+            "p": "辰 e 酉 formano un'armonia con soli due caratteri. Una coppia di sei armonie è la buona relazione che compare più spesso nella compatibilità, e il Drago e il Gallo ottengono {scoreYukhap}, il massimo che il Drago può ottenere."
+          }
+        ]
+      },
+      {
+        "title": "Topo — una mezza triade che include il ramo reale",
+        "blocks": [
+          {
+            "p": "申子辰 è un gruppo di triade (il gruppo dell'acqua), e 子 è il **ramo reale** al suo centro. Inyeon-Link accetta solo le coppie che includono il ramo reale, quindi il Drago forma una mezza triade ({scoreBanhap}) solo con il Topo."
+          },
+          {
+            "p": "Con la Scimmia (申) dello stesso gruppo manca il carattere centrale 子, perciò la coppia non è contata come armonia ed è trattata come neutra ({scoreNeutral}). Appartenere allo stesso gruppo non rende ogni coppia un'armonia."
+          }
+        ]
+      },
+      {
+        "title": "Cane — lo scontro frontale (Conflitto)",
+        "blocks": [
+          {
+            "p": "辰 e 戌 stanno esattamente uno di fronte all'altro nel cerchio. Questo servizio mantiene {scoreChung} punti anche per un conflitto. Nella myeongri tradizionale un conflitto è una collisione, non la fine di una relazione, e assegnare un punteggio vicino al minimo equivarrebbe a pronunciare un verdetto su due persone. Anche così, è il punteggio più basso che il Drago può ricevere."
+          }
+        ]
+      },
+      {
+        "title": "Maiale — la quieta discordia (Discordia)",
+        "blocks": [
+          {
+            "p": "辰 e 亥 stanno subito accanto a 戌 (il Cane), la posizione del conflitto, e tradizionalmente sono visti come una coppia che si porta rancore ma non riesce a separarsi. In superficie sembra calma, ma si ritiene che lo scarto duri nel tempo, perciò ottiene {scoreWonjin} — più di un conflitto ({scoreChung}) e meno del neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Gli altri 7 animali, e il Drago con un altro Drago",
+        "blocks": [
+          {
+            "p": "Bue, Tigre, Coniglio, Serpente, Cavallo, Pecora e Scimmia non sono né un'armonia, né un conflitto, né una discordia con il Drago: sono **neutri** e ottengono {scoreNeutral}. Sono la base di partenza, né buoni né cattivi."
+          },
+          {
+            "p": "Due persone Drago ottengono {scoreSame}. Significa che si somigliano, non che si attraggono, perciò si collocano appena sopra il neutro."
+          }
+        ]
+      },
+      {
+        "title": "Quale quota della percentuale di corrispondenza finale occupa questo punteggio",
+        "blocks": [
+          {
+            "p": "Ci sono due punti in cui i rami di due persone vengono messi a confronto."
+          },
+          {
+            "ul": [
+              "La **compatibilità zodiacale** considera il ramo dell'anno di nascita. Pesa per {weightZodiac} sulla percentuale di corrispondenza finale.",
+              "La **compatibilità del ramo del giorno** considera il ramo del giorno di nascita. Pesa per {weightDayBranch} sulla compatibilità saju ({weightSaju}), ovvero {weightDayBranchTotal} della percentuale di corrispondenza finale."
+            ]
+          },
+          {
+            "p": "Per esempio, quando una persona Drago incontra una persona Cane, la compatibilità zodiacale dà un conflitto. A parità di tutto il resto, la percentuale di corrispondenza finale risulta più bassa di {swingZodiacChung} punti rispetto a una coppia neutra. Con una persona Gallo è una coppia di sei armonie, e la percentuale risulta più alta di {swingZodiacYukhap} punti."
+          },
+          {
+            "p": "Il ramo dell'anno e quello del giorno possono essere diversi. Due persone Drago i cui rami del giorno sono 辰 e 戌 ottengono lo stesso ramo ({scoreSame}) nella compatibilità zodiacale e un conflitto ({scoreChung}) nella compatibilità del ramo del giorno."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ciò che questa guida non dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animale non decide una relazione tra due persone. {weightSaju} della percentuale di corrispondenza finale è stabilito dalla compatibilità saju.",
+              "Le variazioni di punteggio qui sopra presuppongono che tutto il resto sia uguale; il risultato reale è determinato dall'intero saju di entrambe le persone.",
+              "La tabella completa di quale relazione vale quanto è nella [tabella dei dodici rami](/guide/branches), e perché lo zodiaco si legge dal ramo dell'anno è spiegato in [Perché la compatibilità zodiacale considera il ramo dell'anno](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Gli altri animali sono presentati allo stesso modo. [Topo](/guide/zodiac-rat) · [Bue](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coniglio](/guide/zodiac-rabbit) · [Serpente](/guide/zodiac-snake) · [Cavallo](/guide/zodiac-horse) · [Pecora](/guide/zodiac-goat) · [Scimmia](/guide/zodiac-monkey) · [Gallo](/guide/zodiac-rooster) · [Cane](/guide/zodiac-dog) · [Maiale](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-snake": {
+    "eyebrow": "Per animale",
+    "title": "Come il Serpente incontra i dodici animali dello zodiaco",
+    "summary": "Quale relazione ha il Serpente (巳) con ciascuno dei dodici animali dello zodiaco, quanti punti ottiene ciascuna e quale quota della percentuale di corrispondenza finale occupa quel punteggio — esposto esattamente come lo prevedono le regole di calcolo di Inyeon-Link.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "Il Serpente è il sesto dei dodici rami",
+        "blocks": [
+          {
+            "p": "Il Serpente è chi ha come ramo dell'anno di nascita **巳**. 巳 è il sesto dei dodici rami terrestri e, quando i dodici caratteri sono disposti in cerchio, sta esattamente di fronte a 亥 (il Maiale)."
+          },
+          {
+            "p": "La riga che il risultato di compatibilità mostra per una persona Serpente è: “Tiene per sé i propri pensieri e riflette a fondo. Giudica con precisione.” Questa riga non ha nulla a che fare con i punteggi delle relazioni e non influisce sui punteggi qui sotto."
+          }
+        ]
+      },
+      {
+        "title": "I dodici animali dello zodiaco a colpo d'occhio",
+        "blocks": [
+          {
+            "p": "Ognuno degli altri animali viene messo a confronto, a turno, con il Serpente. Solo le coppie che questo servizio riconosce come armonie sono scritte come relazioni; tutto il resto è neutro."
+          },
+          {
+            "table": {
+              "caption": "Il Serpente e i dodici animali dello zodiaco",
+              "head": [
+                "Altro animale",
+                "Relazione",
+                "Punteggio"
+              ],
+              "rows": [
+                [
+                  "Topo (子)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bue (丑)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coniglio (卯)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Drago (辰)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Stesso ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Cavallo (午)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pecora (未)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Scimmia (申)",
+                  "Sei Armonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Gallo (酉)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Cane (戌)",
+                  "Discordia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Maiale (亥)",
+                  "Conflitto",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Scimmia — la coppia che si attrae (Sei Armonie)",
+        "blocks": [
+          {
+            "p": "巳 e 申 formano un'armonia con soli due caratteri. Una coppia di sei armonie è la buona relazione che compare più spesso nella compatibilità, e il Serpente e la Scimmia ottengono {scoreYukhap}, il massimo che il Serpente può ottenere."
+          }
+        ]
+      },
+      {
+        "title": "Gallo — una mezza triade che include il ramo reale",
+        "blocks": [
+          {
+            "p": "巳酉丑 è un gruppo di triade (il gruppo del metallo), e 酉 è il **ramo reale** al suo centro. Inyeon-Link accetta solo le coppie che includono il ramo reale, quindi il Serpente forma una mezza triade ({scoreBanhap}) solo con il Gallo."
+          },
+          {
+            "p": "Con il Bue (丑) dello stesso gruppo manca il carattere centrale 酉, perciò la coppia non è contata come armonia ed è trattata come neutra ({scoreNeutral}). Appartenere allo stesso gruppo non rende ogni coppia un'armonia."
+          }
+        ]
+      },
+      {
+        "title": "Maiale — lo scontro frontale (Conflitto)",
+        "blocks": [
+          {
+            "p": "巳 e 亥 stanno esattamente uno di fronte all'altro nel cerchio. Questo servizio mantiene {scoreChung} punti anche per un conflitto. Nella myeongri tradizionale un conflitto è una collisione, non la fine di una relazione, e assegnare un punteggio vicino al minimo equivarrebbe a pronunciare un verdetto su due persone. Anche così, è il punteggio più basso che il Serpente può ricevere."
+          }
+        ]
+      },
+      {
+        "title": "Cane — la quieta discordia (Discordia)",
+        "blocks": [
+          {
+            "p": "巳 e 戌 stanno subito accanto a 亥 (il Maiale), la posizione del conflitto, e tradizionalmente sono visti come una coppia che si porta rancore ma non riesce a separarsi. In superficie sembra calma, ma si ritiene che lo scarto duri nel tempo, perciò ottiene {scoreWonjin} — più di un conflitto ({scoreChung}) e meno del neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Gli altri 7 animali, e il Serpente con un altro Serpente",
+        "blocks": [
+          {
+            "p": "Topo, Bue, Tigre, Coniglio, Drago, Cavallo e Pecora non sono né un'armonia, né un conflitto, né una discordia con il Serpente: sono **neutri** e ottengono {scoreNeutral}. Sono la base di partenza, né buoni né cattivi."
+          },
+          {
+            "p": "Due persone Serpente ottengono {scoreSame}. Significa che si somigliano, non che si attraggono, perciò si collocano appena sopra il neutro."
+          }
+        ]
+      },
+      {
+        "title": "Quale quota della percentuale di corrispondenza finale occupa questo punteggio",
+        "blocks": [
+          {
+            "p": "Ci sono due punti in cui i rami di due persone vengono messi a confronto."
+          },
+          {
+            "ul": [
+              "La **compatibilità zodiacale** considera il ramo dell'anno di nascita. Pesa per {weightZodiac} sulla percentuale di corrispondenza finale.",
+              "La **compatibilità del ramo del giorno** considera il ramo del giorno di nascita. Pesa per {weightDayBranch} sulla compatibilità saju ({weightSaju}), ovvero {weightDayBranchTotal} della percentuale di corrispondenza finale."
+            ]
+          },
+          {
+            "p": "Per esempio, quando una persona Serpente incontra una persona Maiale, la compatibilità zodiacale dà un conflitto. A parità di tutto il resto, la percentuale di corrispondenza finale risulta più bassa di {swingZodiacChung} punti rispetto a una coppia neutra. Con una persona Scimmia è una coppia di sei armonie, e la percentuale risulta più alta di {swingZodiacYukhap} punti."
+          },
+          {
+            "p": "Il ramo dell'anno e quello del giorno possono essere diversi. Due persone Serpente i cui rami del giorno sono 巳 e 亥 ottengono lo stesso ramo ({scoreSame}) nella compatibilità zodiacale e un conflitto ({scoreChung}) nella compatibilità del ramo del giorno."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ciò che questa guida non dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animale non decide una relazione tra due persone. {weightSaju} della percentuale di corrispondenza finale è stabilito dalla compatibilità saju.",
+              "Le variazioni di punteggio qui sopra presuppongono che tutto il resto sia uguale; il risultato reale è determinato dall'intero saju di entrambe le persone.",
+              "La tabella completa di quale relazione vale quanto è nella [tabella dei dodici rami](/guide/branches), e perché lo zodiaco si legge dal ramo dell'anno è spiegato in [Perché la compatibilità zodiacale considera il ramo dell'anno](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Gli altri animali sono presentati allo stesso modo. [Topo](/guide/zodiac-rat) · [Bue](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coniglio](/guide/zodiac-rabbit) · [Drago](/guide/zodiac-dragon) · [Cavallo](/guide/zodiac-horse) · [Pecora](/guide/zodiac-goat) · [Scimmia](/guide/zodiac-monkey) · [Gallo](/guide/zodiac-rooster) · [Cane](/guide/zodiac-dog) · [Maiale](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-horse": {
+    "eyebrow": "Per animale",
+    "title": "Come il Cavallo incontra i dodici animali dello zodiaco",
+    "summary": "Quale relazione ha il Cavallo (午) con ciascuno dei dodici animali dello zodiaco, quanti punti ottiene ciascuna e quale quota della percentuale di corrispondenza finale occupa quel punteggio — esposto esattamente come lo prevedono le regole di calcolo di Inyeon-Link.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "Il Cavallo è il settimo dei dodici rami",
+        "blocks": [
+          {
+            "p": "Il Cavallo è chi ha come ramo dell'anno di nascita **午**. 午 è il settimo dei dodici rami terrestri e, quando i dodici caratteri sono disposti in cerchio, sta esattamente di fronte a 子 (il Topo)."
+          },
+          {
+            "p": "La riga che il risultato di compatibilità mostra per una persona Cavallo è: “Brillante e irrequieto. Sentirsi chiuso in un recinto è la cosa più dura.” Questa riga non ha nulla a che fare con i punteggi delle relazioni e non influisce sui punteggi qui sotto."
+          }
+        ]
+      },
+      {
+        "title": "I dodici animali dello zodiaco a colpo d'occhio",
+        "blocks": [
+          {
+            "p": "Ognuno degli altri animali viene messo a confronto, a turno, con il Cavallo. Solo le coppie che questo servizio riconosce come armonie sono scritte come relazioni; tutto il resto è neutro."
+          },
+          {
+            "table": {
+              "caption": "Il Cavallo e i dodici animali dello zodiaco",
+              "head": [
+                "Altro animale",
+                "Relazione",
+                "Punteggio"
+              ],
+              "rows": [
+                [
+                  "Topo (子)",
+                  "Conflitto",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bue (丑)",
+                  "Discordia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Coniglio (卯)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Drago (辰)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavallo (午)",
+                  "Stesso ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Pecora (未)",
+                  "Sei Armonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Scimmia (申)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Gallo (酉)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cane (戌)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Maiale (亥)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Pecora — la coppia che si attrae (Sei Armonie)",
+        "blocks": [
+          {
+            "p": "午 e 未 formano un'armonia con soli due caratteri. Una coppia di sei armonie è la buona relazione che compare più spesso nella compatibilità, e il Cavallo e la Pecora ottengono {scoreYukhap}, il massimo che il Cavallo può ottenere."
+          }
+        ]
+      },
+      {
+        "title": "Tigre e Cane — una mezza triade che include il ramo reale",
+        "blocks": [
+          {
+            "p": "寅午戌 è un gruppo di triade (il gruppo del fuoco), e 午 è il **ramo reale** al suo centro. Inyeon-Link accetta solo le coppie che includono il ramo reale, quindi il Cavallo forma una mezza triade ({scoreBanhap}) sia con la Tigre sia con il Cane."
+          },
+          {
+            "p": "**La Tigre e il Cane insieme**, invece, non hanno il carattere centrale 午: la coppia non è contata come armonia ed è trattata come neutra. Anche all'interno di uno stesso gruppo di triade, è il Cavallo a formare la mezza triade."
+          }
+        ]
+      },
+      {
+        "title": "Topo — lo scontro frontale (Conflitto)",
+        "blocks": [
+          {
+            "p": "午 e 子 stanno esattamente uno di fronte all'altro nel cerchio. Questo servizio mantiene {scoreChung} punti anche per un conflitto. Nella myeongri tradizionale un conflitto è una collisione, non la fine di una relazione, e assegnare un punteggio vicino al minimo equivarrebbe a pronunciare un verdetto su due persone. Anche così, è il punteggio più basso che il Cavallo può ricevere."
+          }
+        ]
+      },
+      {
+        "title": "Bue — la quieta discordia (Discordia)",
+        "blocks": [
+          {
+            "p": "午 e 丑 stanno subito accanto a 子 (il Topo), la posizione del conflitto, e tradizionalmente sono visti come una coppia che si porta rancore ma non riesce a separarsi. In superficie sembra calma, ma si ritiene che lo scarto duri nel tempo, perciò ottiene {scoreWonjin} — più di un conflitto ({scoreChung}) e meno del neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Gli altri 6 animali, e il Cavallo con un altro Cavallo",
+        "blocks": [
+          {
+            "p": "Coniglio, Drago, Serpente, Scimmia, Gallo e Maiale non sono né un'armonia, né un conflitto, né una discordia con il Cavallo: sono **neutri** e ottengono {scoreNeutral}. Sono la base di partenza, né buoni né cattivi."
+          },
+          {
+            "p": "Due persone Cavallo ottengono {scoreSame}. Significa che si somigliano, non che si attraggono, perciò si collocano appena sopra il neutro."
+          }
+        ]
+      },
+      {
+        "title": "Quale quota della percentuale di corrispondenza finale occupa questo punteggio",
+        "blocks": [
+          {
+            "p": "Ci sono due punti in cui i rami di due persone vengono messi a confronto."
+          },
+          {
+            "ul": [
+              "La **compatibilità zodiacale** considera il ramo dell'anno di nascita. Pesa per {weightZodiac} sulla percentuale di corrispondenza finale.",
+              "La **compatibilità del ramo del giorno** considera il ramo del giorno di nascita. Pesa per {weightDayBranch} sulla compatibilità saju ({weightSaju}), ovvero {weightDayBranchTotal} della percentuale di corrispondenza finale."
+            ]
+          },
+          {
+            "p": "Per esempio, quando una persona Cavallo incontra una persona Topo, la compatibilità zodiacale dà un conflitto. A parità di tutto il resto, la percentuale di corrispondenza finale risulta più bassa di {swingZodiacChung} punti rispetto a una coppia neutra. Con una persona Pecora è una coppia di sei armonie, e la percentuale risulta più alta di {swingZodiacYukhap} punti."
+          },
+          {
+            "p": "Il ramo dell'anno e quello del giorno possono essere diversi. Due persone Cavallo i cui rami del giorno sono 午 e 子 ottengono lo stesso ramo ({scoreSame}) nella compatibilità zodiacale e un conflitto ({scoreChung}) nella compatibilità del ramo del giorno."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ciò che questa guida non dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animale non decide una relazione tra due persone. {weightSaju} della percentuale di corrispondenza finale è stabilito dalla compatibilità saju.",
+              "Le variazioni di punteggio qui sopra presuppongono che tutto il resto sia uguale; il risultato reale è determinato dall'intero saju di entrambe le persone.",
+              "La tabella completa di quale relazione vale quanto è nella [tabella dei dodici rami](/guide/branches), e perché lo zodiaco si legge dal ramo dell'anno è spiegato in [Perché la compatibilità zodiacale considera il ramo dell'anno](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Gli altri animali sono presentati allo stesso modo. [Topo](/guide/zodiac-rat) · [Bue](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coniglio](/guide/zodiac-rabbit) · [Drago](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Pecora](/guide/zodiac-goat) · [Scimmia](/guide/zodiac-monkey) · [Gallo](/guide/zodiac-rooster) · [Cane](/guide/zodiac-dog) · [Maiale](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-goat": {
+    "eyebrow": "Per animale",
+    "title": "Come la Pecora incontra i dodici animali dello zodiaco",
+    "summary": "Quale relazione ha la Pecora (未) con ciascuno dei dodici animali dello zodiaco, quanti punti ottiene ciascuna e quale quota della percentuale di corrispondenza finale occupa quel punteggio — esposto esattamente come lo prevedono le regole di calcolo di Inyeon-Link.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "La Pecora è l'ottavo dei dodici rami",
+        "blocks": [
+          {
+            "p": "La Pecora è chi ha come ramo dell'anno di nascita **未**. 未 è l'ottavo dei dodici rami terrestri e, quando i dodici caratteri sono disposti in cerchio, sta esattamente di fronte a 丑 (il Bue)."
+          },
+          {
+            "p": "La riga che il risultato di compatibilità mostra per una persona Pecora è: “Caloroso e premuroso. Si tiene dentro a lungo le parole dure.” Questa riga non ha nulla a che fare con i punteggi delle relazioni e non influisce sui punteggi qui sotto."
+          }
+        ]
+      },
+      {
+        "title": "I dodici animali dello zodiaco a colpo d'occhio",
+        "blocks": [
+          {
+            "p": "Ognuno degli altri animali viene messo a confronto, a turno, con la Pecora. Solo le coppie che questo servizio riconosce come armonie sono scritte come relazioni; tutto il resto è neutro."
+          },
+          {
+            "table": {
+              "caption": "La Pecora e i dodici animali dello zodiaco",
+              "head": [
+                "Altro animale",
+                "Relazione",
+                "Punteggio"
+              ],
+              "rows": [
+                [
+                  "Topo (子)",
+                  "Discordia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bue (丑)",
+                  "Conflitto",
+                  "{scoreChung}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coniglio (卯)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Drago (辰)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavallo (午)",
+                  "Sei Armonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Pecora (未)",
+                  "Stesso ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Scimmia (申)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Gallo (酉)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cane (戌)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maiale (亥)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cavallo — la coppia che si attrae (Sei Armonie)",
+        "blocks": [
+          {
+            "p": "未 e 午 formano un'armonia con soli due caratteri. Una coppia di sei armonie è la buona relazione che compare più spesso nella compatibilità, e la Pecora e il Cavallo ottengono {scoreYukhap}, il massimo che la Pecora può ottenere."
+          }
+        ]
+      },
+      {
+        "title": "Coniglio — una mezza triade che include il ramo reale",
+        "blocks": [
+          {
+            "p": "亥卯未 è un gruppo di triade (il gruppo del legno), e 卯 è il **ramo reale** al suo centro. Inyeon-Link accetta solo le coppie che includono il ramo reale, quindi la Pecora forma una mezza triade ({scoreBanhap}) solo con il Coniglio."
+          },
+          {
+            "p": "Con il Maiale (亥) dello stesso gruppo manca il carattere centrale 卯, perciò la coppia non è contata come armonia ed è trattata come neutra ({scoreNeutral}). Appartenere allo stesso gruppo non rende ogni coppia un'armonia."
+          }
+        ]
+      },
+      {
+        "title": "Bue — lo scontro frontale (Conflitto)",
+        "blocks": [
+          {
+            "p": "未 e 丑 stanno esattamente uno di fronte all'altro nel cerchio. Questo servizio mantiene {scoreChung} punti anche per un conflitto. Nella myeongri tradizionale un conflitto è una collisione, non la fine di una relazione, e assegnare un punteggio vicino al minimo equivarrebbe a pronunciare un verdetto su due persone. Anche così, è il punteggio più basso che la Pecora può ricevere."
+          }
+        ]
+      },
+      {
+        "title": "Topo — la quieta discordia (Discordia)",
+        "blocks": [
+          {
+            "p": "未 e 子 stanno subito accanto a 丑 (il Bue), la posizione del conflitto, e tradizionalmente sono visti come una coppia che si porta rancore ma non riesce a separarsi. In superficie sembra calma, ma si ritiene che lo scarto duri nel tempo, perciò ottiene {scoreWonjin} — più di un conflitto ({scoreChung}) e meno del neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Gli altri 7 animali, e la Pecora con un'altra Pecora",
+        "blocks": [
+          {
+            "p": "Tigre, Drago, Serpente, Scimmia, Gallo, Cane e Maiale non sono né un'armonia, né un conflitto, né una discordia con la Pecora: sono **neutri** e ottengono {scoreNeutral}. Sono la base di partenza, né buoni né cattivi."
+          },
+          {
+            "p": "Due persone Pecora ottengono {scoreSame}. Significa che si somigliano, non che si attraggono, perciò si collocano appena sopra il neutro."
+          }
+        ]
+      },
+      {
+        "title": "Quale quota della percentuale di corrispondenza finale occupa questo punteggio",
+        "blocks": [
+          {
+            "p": "Ci sono due punti in cui i rami di due persone vengono messi a confronto."
+          },
+          {
+            "ul": [
+              "La **compatibilità zodiacale** considera il ramo dell'anno di nascita. Pesa per {weightZodiac} sulla percentuale di corrispondenza finale.",
+              "La **compatibilità del ramo del giorno** considera il ramo del giorno di nascita. Pesa per {weightDayBranch} sulla compatibilità saju ({weightSaju}), ovvero {weightDayBranchTotal} della percentuale di corrispondenza finale."
+            ]
+          },
+          {
+            "p": "Per esempio, quando una persona Pecora incontra una persona Bue, la compatibilità zodiacale dà un conflitto. A parità di tutto il resto, la percentuale di corrispondenza finale risulta più bassa di {swingZodiacChung} punti rispetto a una coppia neutra. Con una persona Cavallo è una coppia di sei armonie, e la percentuale risulta più alta di {swingZodiacYukhap} punti."
+          },
+          {
+            "p": "Il ramo dell'anno e quello del giorno possono essere diversi. Due persone Pecora i cui rami del giorno sono 未 e 丑 ottengono lo stesso ramo ({scoreSame}) nella compatibilità zodiacale e un conflitto ({scoreChung}) nella compatibilità del ramo del giorno."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ciò che questa guida non dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animale non decide una relazione tra due persone. {weightSaju} della percentuale di corrispondenza finale è stabilito dalla compatibilità saju.",
+              "Le variazioni di punteggio qui sopra presuppongono che tutto il resto sia uguale; il risultato reale è determinato dall'intero saju di entrambe le persone.",
+              "La tabella completa di quale relazione vale quanto è nella [tabella dei dodici rami](/guide/branches), e perché lo zodiaco si legge dal ramo dell'anno è spiegato in [Perché la compatibilità zodiacale considera il ramo dell'anno](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Gli altri animali sono presentati allo stesso modo. [Topo](/guide/zodiac-rat) · [Bue](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coniglio](/guide/zodiac-rabbit) · [Drago](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavallo](/guide/zodiac-horse) · [Scimmia](/guide/zodiac-monkey) · [Gallo](/guide/zodiac-rooster) · [Cane](/guide/zodiac-dog) · [Maiale](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-monkey": {
+    "eyebrow": "Per animale",
+    "title": "Come la Scimmia incontra i dodici animali dello zodiaco",
+    "summary": "Quale relazione ha la Scimmia (申) con ciascuno dei dodici animali dello zodiaco, quanti punti ottiene ciascuna e quale quota della percentuale di corrispondenza finale occupa quel punteggio — esposto esattamente come lo prevedono le regole di calcolo di Inyeon-Link.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "La Scimmia è il nono dei dodici rami",
+        "blocks": [
+          {
+            "p": "La Scimmia è chi ha come ramo dell'anno di nascita **申**. 申 è il nono dei dodici rami terrestri e, quando i dodici caratteri sono disposti in cerchio, sta esattamente di fronte a 寅 (la Tigre)."
+          },
+          {
+            "p": "La riga che il risultato di compatibilità mostra per una persona Scimmia è: “Pieno di risorse e rapido ad adattarsi. La ripetizione lo annoia.” Questa riga non ha nulla a che fare con i punteggi delle relazioni e non influisce sui punteggi qui sotto."
+          }
+        ]
+      },
+      {
+        "title": "I dodici animali dello zodiaco a colpo d'occhio",
+        "blocks": [
+          {
+            "p": "Ognuno degli altri animali viene messo a confronto, a turno, con la Scimmia. Solo le coppie che questo servizio riconosce come armonie sono scritte come relazioni; tutto il resto è neutro."
+          },
+          {
+            "table": {
+              "caption": "La Scimmia e i dodici animali dello zodiaco",
+              "head": [
+                "Altro animale",
+                "Relazione",
+                "Punteggio"
+              ],
+              "rows": [
+                [
+                  "Topo (子)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bue (丑)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Conflitto",
+                  "{scoreChung}"
+                ],
+                [
+                  "Coniglio (卯)",
+                  "Discordia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Drago (辰)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Sei Armonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Cavallo (午)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pecora (未)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Scimmia (申)",
+                  "Stesso ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Gallo (酉)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cane (戌)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maiale (亥)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Serpente — la coppia che si attrae (Sei Armonie)",
+        "blocks": [
+          {
+            "p": "申 e 巳 formano un'armonia con soli due caratteri. Una coppia di sei armonie è la buona relazione che compare più spesso nella compatibilità, e la Scimmia e il Serpente ottengono {scoreYukhap}, il massimo che la Scimmia può ottenere."
+          }
+        ]
+      },
+      {
+        "title": "Topo — una mezza triade che include il ramo reale",
+        "blocks": [
+          {
+            "p": "申子辰 è un gruppo di triade (il gruppo dell'acqua), e 子 è il **ramo reale** al suo centro. Inyeon-Link accetta solo le coppie che includono il ramo reale, quindi la Scimmia forma una mezza triade ({scoreBanhap}) solo con il Topo."
+          },
+          {
+            "p": "Con il Drago (辰) dello stesso gruppo manca il carattere centrale 子, perciò la coppia non è contata come armonia ed è trattata come neutra ({scoreNeutral}). Appartenere allo stesso gruppo non rende ogni coppia un'armonia."
+          }
+        ]
+      },
+      {
+        "title": "Tigre — lo scontro frontale (Conflitto)",
+        "blocks": [
+          {
+            "p": "申 e 寅 stanno esattamente uno di fronte all'altro nel cerchio. Questo servizio mantiene {scoreChung} punti anche per un conflitto. Nella myeongri tradizionale un conflitto è una collisione, non la fine di una relazione, e assegnare un punteggio vicino al minimo equivarrebbe a pronunciare un verdetto su due persone. Anche così, è il punteggio più basso che la Scimmia può ricevere."
+          }
+        ]
+      },
+      {
+        "title": "Coniglio — la quieta discordia (Discordia)",
+        "blocks": [
+          {
+            "p": "申 e 卯 stanno subito accanto a 寅 (la Tigre), la posizione del conflitto, e tradizionalmente sono visti come una coppia che si porta rancore ma non riesce a separarsi. In superficie sembra calma, ma si ritiene che lo scarto duri nel tempo, perciò ottiene {scoreWonjin} — più di un conflitto ({scoreChung}) e meno del neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Gli altri 7 animali, e la Scimmia con un'altra Scimmia",
+        "blocks": [
+          {
+            "p": "Bue, Drago, Cavallo, Pecora, Gallo, Cane e Maiale non sono né un'armonia, né un conflitto, né una discordia con la Scimmia: sono **neutri** e ottengono {scoreNeutral}. Sono la base di partenza, né buoni né cattivi."
+          },
+          {
+            "p": "Due persone Scimmia ottengono {scoreSame}. Significa che si somigliano, non che si attraggono, perciò si collocano appena sopra il neutro."
+          }
+        ]
+      },
+      {
+        "title": "Quale quota della percentuale di corrispondenza finale occupa questo punteggio",
+        "blocks": [
+          {
+            "p": "Ci sono due punti in cui i rami di due persone vengono messi a confronto."
+          },
+          {
+            "ul": [
+              "La **compatibilità zodiacale** considera il ramo dell'anno di nascita. Pesa per {weightZodiac} sulla percentuale di corrispondenza finale.",
+              "La **compatibilità del ramo del giorno** considera il ramo del giorno di nascita. Pesa per {weightDayBranch} sulla compatibilità saju ({weightSaju}), ovvero {weightDayBranchTotal} della percentuale di corrispondenza finale."
+            ]
+          },
+          {
+            "p": "Per esempio, quando una persona Scimmia incontra una persona Tigre, la compatibilità zodiacale dà un conflitto. A parità di tutto il resto, la percentuale di corrispondenza finale risulta più bassa di {swingZodiacChung} punti rispetto a una coppia neutra. Con una persona Serpente è una coppia di sei armonie, e la percentuale risulta più alta di {swingZodiacYukhap} punti."
+          },
+          {
+            "p": "Il ramo dell'anno e quello del giorno possono essere diversi. Due persone Scimmia i cui rami del giorno sono 申 e 寅 ottengono lo stesso ramo ({scoreSame}) nella compatibilità zodiacale e un conflitto ({scoreChung}) nella compatibilità del ramo del giorno."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ciò che questa guida non dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animale non decide una relazione tra due persone. {weightSaju} della percentuale di corrispondenza finale è stabilito dalla compatibilità saju.",
+              "Le variazioni di punteggio qui sopra presuppongono che tutto il resto sia uguale; il risultato reale è determinato dall'intero saju di entrambe le persone.",
+              "La tabella completa di quale relazione vale quanto è nella [tabella dei dodici rami](/guide/branches), e perché lo zodiaco si legge dal ramo dell'anno è spiegato in [Perché la compatibilità zodiacale considera il ramo dell'anno](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Gli altri animali sono presentati allo stesso modo. [Topo](/guide/zodiac-rat) · [Bue](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coniglio](/guide/zodiac-rabbit) · [Drago](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavallo](/guide/zodiac-horse) · [Pecora](/guide/zodiac-goat) · [Gallo](/guide/zodiac-rooster) · [Cane](/guide/zodiac-dog) · [Maiale](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rooster": {
+    "eyebrow": "Per animale",
+    "title": "Come il Gallo incontra i dodici animali dello zodiaco",
+    "summary": "Quale relazione ha il Gallo (酉) con ciascuno dei dodici animali dello zodiaco, quanti punti ottiene ciascuna e quale quota della percentuale di corrispondenza finale occupa quel punteggio — esposto esattamente come lo prevedono le regole di calcolo di Inyeon-Link.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "Il Gallo è il decimo dei dodici rami",
+        "blocks": [
+          {
+            "p": "Il Gallo è chi ha come ramo dell'anno di nascita **酉**. 酉 è il decimo dei dodici rami terrestri e, quando i dodici caratteri sono disposti in cerchio, sta esattamente di fronte a 卯 (il Coniglio)."
+          },
+          {
+            "p": "La riga che il risultato di compatibilità mostra per una persona Gallo è: “Diligente ed esigente. Non riesce a lasciare nulla fuori posto.” Questa riga non ha nulla a che fare con i punteggi delle relazioni e non influisce sui punteggi qui sotto."
+          }
+        ]
+      },
+      {
+        "title": "I dodici animali dello zodiaco a colpo d'occhio",
+        "blocks": [
+          {
+            "p": "Ognuno degli altri animali viene messo a confronto, a turno, con il Gallo. Solo le coppie che questo servizio riconosce come armonie sono scritte come relazioni; tutto il resto è neutro."
+          },
+          {
+            "table": {
+              "caption": "Il Gallo e i dodici animali dello zodiaco",
+              "head": [
+                "Altro animale",
+                "Relazione",
+                "Punteggio"
+              ],
+              "rows": [
+                [
+                  "Topo (子)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bue (丑)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Discordia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Coniglio (卯)",
+                  "Conflitto",
+                  "{scoreChung}"
+                ],
+                [
+                  "Drago (辰)",
+                  "Sei Armonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Cavallo (午)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pecora (未)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Scimmia (申)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Gallo (酉)",
+                  "Stesso ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Cane (戌)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maiale (亥)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Drago — la coppia che si attrae (Sei Armonie)",
+        "blocks": [
+          {
+            "p": "酉 e 辰 formano un'armonia con soli due caratteri. Una coppia di sei armonie è la buona relazione che compare più spesso nella compatibilità, e il Gallo e il Drago ottengono {scoreYukhap}, il massimo che il Gallo può ottenere."
+          }
+        ]
+      },
+      {
+        "title": "Bue e Serpente — una mezza triade che include il ramo reale",
+        "blocks": [
+          {
+            "p": "巳酉丑 è un gruppo di triade (il gruppo del metallo), e 酉 è il **ramo reale** al suo centro. Inyeon-Link accetta solo le coppie che includono il ramo reale, quindi il Gallo forma una mezza triade ({scoreBanhap}) sia con il Bue sia con il Serpente."
+          },
+          {
+            "p": "**Il Serpente e il Bue insieme**, invece, non hanno il carattere centrale 酉: la coppia non è contata come armonia ed è trattata come neutra. Anche all'interno di uno stesso gruppo di triade, è il Gallo a formare la mezza triade."
+          }
+        ]
+      },
+      {
+        "title": "Coniglio — lo scontro frontale (Conflitto)",
+        "blocks": [
+          {
+            "p": "酉 e 卯 stanno esattamente uno di fronte all'altro nel cerchio. Questo servizio mantiene {scoreChung} punti anche per un conflitto. Nella myeongri tradizionale un conflitto è una collisione, non la fine di una relazione, e assegnare un punteggio vicino al minimo equivarrebbe a pronunciare un verdetto su due persone. Anche così, è il punteggio più basso che il Gallo può ricevere."
+          }
+        ]
+      },
+      {
+        "title": "Tigre — la quieta discordia (Discordia)",
+        "blocks": [
+          {
+            "p": "酉 e 寅 stanno subito accanto a 卯 (il Coniglio), la posizione del conflitto, e tradizionalmente sono visti come una coppia che si porta rancore ma non riesce a separarsi. In superficie sembra calma, ma si ritiene che lo scarto duri nel tempo, perciò ottiene {scoreWonjin} — più di un conflitto ({scoreChung}) e meno del neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Gli altri 6 animali, e il Gallo con un altro Gallo",
+        "blocks": [
+          {
+            "p": "Topo, Cavallo, Pecora, Scimmia, Cane e Maiale non sono né un'armonia, né un conflitto, né una discordia con il Gallo: sono **neutri** e ottengono {scoreNeutral}. Sono la base di partenza, né buoni né cattivi."
+          },
+          {
+            "p": "Due persone Gallo ottengono {scoreSame}. Significa che si somigliano, non che si attraggono, perciò si collocano appena sopra il neutro."
+          }
+        ]
+      },
+      {
+        "title": "Quale quota della percentuale di corrispondenza finale occupa questo punteggio",
+        "blocks": [
+          {
+            "p": "Ci sono due punti in cui i rami di due persone vengono messi a confronto."
+          },
+          {
+            "ul": [
+              "La **compatibilità zodiacale** considera il ramo dell'anno di nascita. Pesa per {weightZodiac} sulla percentuale di corrispondenza finale.",
+              "La **compatibilità del ramo del giorno** considera il ramo del giorno di nascita. Pesa per {weightDayBranch} sulla compatibilità saju ({weightSaju}), ovvero {weightDayBranchTotal} della percentuale di corrispondenza finale."
+            ]
+          },
+          {
+            "p": "Per esempio, quando una persona Gallo incontra una persona Coniglio, la compatibilità zodiacale dà un conflitto. A parità di tutto il resto, la percentuale di corrispondenza finale risulta più bassa di {swingZodiacChung} punti rispetto a una coppia neutra. Con una persona Drago è una coppia di sei armonie, e la percentuale risulta più alta di {swingZodiacYukhap} punti."
+          },
+          {
+            "p": "Il ramo dell'anno e quello del giorno possono essere diversi. Due persone Gallo i cui rami del giorno sono 酉 e 卯 ottengono lo stesso ramo ({scoreSame}) nella compatibilità zodiacale e un conflitto ({scoreChung}) nella compatibilità del ramo del giorno."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ciò che questa guida non dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animale non decide una relazione tra due persone. {weightSaju} della percentuale di corrispondenza finale è stabilito dalla compatibilità saju.",
+              "Le variazioni di punteggio qui sopra presuppongono che tutto il resto sia uguale; il risultato reale è determinato dall'intero saju di entrambe le persone.",
+              "La tabella completa di quale relazione vale quanto è nella [tabella dei dodici rami](/guide/branches), e perché lo zodiaco si legge dal ramo dell'anno è spiegato in [Perché la compatibilità zodiacale considera il ramo dell'anno](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Gli altri animali sono presentati allo stesso modo. [Topo](/guide/zodiac-rat) · [Bue](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coniglio](/guide/zodiac-rabbit) · [Drago](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavallo](/guide/zodiac-horse) · [Pecora](/guide/zodiac-goat) · [Scimmia](/guide/zodiac-monkey) · [Cane](/guide/zodiac-dog) · [Maiale](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dog": {
+    "eyebrow": "Per animale",
+    "title": "Come il Cane incontra i dodici animali dello zodiaco",
+    "summary": "Quale relazione ha il Cane (戌) con ciascuno dei dodici animali dello zodiaco, quanti punti ottiene ciascuna e quale quota della percentuale di corrispondenza finale occupa quel punteggio — esposto esattamente come lo prevedono le regole di calcolo di Inyeon-Link.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "Il Cane è l'undicesimo dei dodici rami",
+        "blocks": [
+          {
+            "p": "Il Cane è chi ha come ramo dell'anno di nascita **戌**. 戌 è l'undicesimo dei dodici rami terrestri e, quando i dodici caratteri sono disposti in cerchio, sta esattamente di fronte a 辰 (il Drago)."
+          },
+          {
+            "p": "La riga che il risultato di compatibilità mostra per una persona Cane è: “Leale fino in fondo una volta data la fiducia. Il tradimento lo ferisce in modo particolare.” Questa riga non ha nulla a che fare con i punteggi delle relazioni e non influisce sui punteggi qui sotto."
+          }
+        ]
+      },
+      {
+        "title": "I dodici animali dello zodiaco a colpo d'occhio",
+        "blocks": [
+          {
+            "p": "Ognuno degli altri animali viene messo a confronto, a turno, con il Cane. Solo le coppie che questo servizio riconosce come armonie sono scritte come relazioni; tutto il resto è neutro."
+          },
+          {
+            "table": {
+              "caption": "Il Cane e i dodici animali dello zodiaco",
+              "head": [
+                "Altro animale",
+                "Relazione",
+                "Punteggio"
+              ],
+              "rows": [
+                [
+                  "Topo (子)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bue (丑)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coniglio (卯)",
+                  "Sei Armonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Drago (辰)",
+                  "Conflitto",
+                  "{scoreChung}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Discordia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Cavallo (午)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Pecora (未)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Scimmia (申)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Gallo (酉)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cane (戌)",
+                  "Stesso ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Maiale (亥)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Coniglio — la coppia che si attrae (Sei Armonie)",
+        "blocks": [
+          {
+            "p": "戌 e 卯 formano un'armonia con soli due caratteri. Una coppia di sei armonie è la buona relazione che compare più spesso nella compatibilità, e il Cane e il Coniglio ottengono {scoreYukhap}, il massimo che il Cane può ottenere."
+          }
+        ]
+      },
+      {
+        "title": "Cavallo — una mezza triade che include il ramo reale",
+        "blocks": [
+          {
+            "p": "寅午戌 è un gruppo di triade (il gruppo del fuoco), e 午 è il **ramo reale** al suo centro. Inyeon-Link accetta solo le coppie che includono il ramo reale, quindi il Cane forma una mezza triade ({scoreBanhap}) solo con il Cavallo."
+          },
+          {
+            "p": "Con la Tigre (寅) dello stesso gruppo manca il carattere centrale 午, perciò la coppia non è contata come armonia ed è trattata come neutra ({scoreNeutral}). Appartenere allo stesso gruppo non rende ogni coppia un'armonia."
+          }
+        ]
+      },
+      {
+        "title": "Drago — lo scontro frontale (Conflitto)",
+        "blocks": [
+          {
+            "p": "戌 e 辰 stanno esattamente uno di fronte all'altro nel cerchio. Questo servizio mantiene {scoreChung} punti anche per un conflitto. Nella myeongri tradizionale un conflitto è una collisione, non la fine di una relazione, e assegnare un punteggio vicino al minimo equivarrebbe a pronunciare un verdetto su due persone. Anche così, è il punteggio più basso che il Cane può ricevere."
+          }
+        ]
+      },
+      {
+        "title": "Serpente — la quieta discordia (Discordia)",
+        "blocks": [
+          {
+            "p": "戌 e 巳 stanno subito accanto a 辰 (il Drago), la posizione del conflitto, e tradizionalmente sono visti come una coppia che si porta rancore ma non riesce a separarsi. In superficie sembra calma, ma si ritiene che lo scarto duri nel tempo, perciò ottiene {scoreWonjin} — più di un conflitto ({scoreChung}) e meno del neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Gli altri 7 animali, e il Cane con un altro Cane",
+        "blocks": [
+          {
+            "p": "Topo, Bue, Tigre, Pecora, Scimmia, Gallo e Maiale non sono né un'armonia, né un conflitto, né una discordia con il Cane: sono **neutri** e ottengono {scoreNeutral}. Sono la base di partenza, né buoni né cattivi."
+          },
+          {
+            "p": "Due persone Cane ottengono {scoreSame}. Significa che si somigliano, non che si attraggono, perciò si collocano appena sopra il neutro."
+          }
+        ]
+      },
+      {
+        "title": "Quale quota della percentuale di corrispondenza finale occupa questo punteggio",
+        "blocks": [
+          {
+            "p": "Ci sono due punti in cui i rami di due persone vengono messi a confronto."
+          },
+          {
+            "ul": [
+              "La **compatibilità zodiacale** considera il ramo dell'anno di nascita. Pesa per {weightZodiac} sulla percentuale di corrispondenza finale.",
+              "La **compatibilità del ramo del giorno** considera il ramo del giorno di nascita. Pesa per {weightDayBranch} sulla compatibilità saju ({weightSaju}), ovvero {weightDayBranchTotal} della percentuale di corrispondenza finale."
+            ]
+          },
+          {
+            "p": "Per esempio, quando una persona Cane incontra una persona Drago, la compatibilità zodiacale dà un conflitto. A parità di tutto il resto, la percentuale di corrispondenza finale risulta più bassa di {swingZodiacChung} punti rispetto a una coppia neutra. Con una persona Coniglio è una coppia di sei armonie, e la percentuale risulta più alta di {swingZodiacYukhap} punti."
+          },
+          {
+            "p": "Il ramo dell'anno e quello del giorno possono essere diversi. Due persone Cane i cui rami del giorno sono 戌 e 辰 ottengono lo stesso ramo ({scoreSame}) nella compatibilità zodiacale e un conflitto ({scoreChung}) nella compatibilità del ramo del giorno."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ciò che questa guida non dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animale non decide una relazione tra due persone. {weightSaju} della percentuale di corrispondenza finale è stabilito dalla compatibilità saju.",
+              "Le variazioni di punteggio qui sopra presuppongono che tutto il resto sia uguale; il risultato reale è determinato dall'intero saju di entrambe le persone.",
+              "La tabella completa di quale relazione vale quanto è nella [tabella dei dodici rami](/guide/branches), e perché lo zodiaco si legge dal ramo dell'anno è spiegato in [Perché la compatibilità zodiacale considera il ramo dell'anno](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Gli altri animali sono presentati allo stesso modo. [Topo](/guide/zodiac-rat) · [Bue](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coniglio](/guide/zodiac-rabbit) · [Drago](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavallo](/guide/zodiac-horse) · [Pecora](/guide/zodiac-goat) · [Scimmia](/guide/zodiac-monkey) · [Gallo](/guide/zodiac-rooster) · [Maiale](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pig": {
+    "eyebrow": "Per animale",
+    "title": "Come il Maiale incontra i dodici animali dello zodiaco",
+    "summary": "Quale relazione ha il Maiale (亥) con ciascuno dei dodici animali dello zodiaco, quanti punti ottiene ciascuna e quale quota della percentuale di corrispondenza finale occupa quel punteggio — esposto esattamente come lo prevedono le regole di calcolo di Inyeon-Link.",
+    "backLabel": "Base di calcolo",
+    "sections": [
+      {
+        "title": "Il Maiale è il dodicesimo dei dodici rami",
+        "blocks": [
+          {
+            "p": "Il Maiale è chi ha come ramo dell'anno di nascita **亥**. 亥 è il dodicesimo dei dodici rami terrestri e, quando i dodici caratteri sono disposti in cerchio, sta esattamente di fronte a 巳 (il Serpente)."
+          },
+          {
+            "p": "La riga che il risultato di compatibilità mostra per una persona Maiale è: “Generoso e schietto. Si fida facilmente, a volte a caro prezzo.” Questa riga non ha nulla a che fare con i punteggi delle relazioni e non influisce sui punteggi qui sotto."
+          }
+        ]
+      },
+      {
+        "title": "I dodici animali dello zodiaco a colpo d'occhio",
+        "blocks": [
+          {
+            "p": "Ognuno degli altri animali viene messo a confronto, a turno, con il Maiale. Solo le coppie che questo servizio riconosce come armonie sono scritte come relazioni; tutto il resto è neutro."
+          },
+          {
+            "table": {
+              "caption": "Il Maiale e i dodici animali dello zodiaco",
+              "head": [
+                "Altro animale",
+                "Relazione",
+                "Punteggio"
+              ],
+              "rows": [
+                [
+                  "Topo (子)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bue (丑)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Sei Armonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Coniglio (卯)",
+                  "Mezza triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Drago (辰)",
+                  "Discordia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Conflitto",
+                  "{scoreChung}"
+                ],
+                [
+                  "Cavallo (午)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pecora (未)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Scimmia (申)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Gallo (酉)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cane (戌)",
+                  "Neutra",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maiale (亥)",
+                  "Stesso ramo",
+                  "{scoreSame}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Tigre — la coppia che si attrae (Sei Armonie)",
+        "blocks": [
+          {
+            "p": "亥 e 寅 formano un'armonia con soli due caratteri. Una coppia di sei armonie è la buona relazione che compare più spesso nella compatibilità, e il Maiale e la Tigre ottengono {scoreYukhap}, il massimo che il Maiale può ottenere."
+          }
+        ]
+      },
+      {
+        "title": "Coniglio — una mezza triade che include il ramo reale",
+        "blocks": [
+          {
+            "p": "亥卯未 è un gruppo di triade (il gruppo del legno), e 卯 è il **ramo reale** al suo centro. Inyeon-Link accetta solo le coppie che includono il ramo reale, quindi il Maiale forma una mezza triade ({scoreBanhap}) solo con il Coniglio."
+          },
+          {
+            "p": "Con la Pecora (未) dello stesso gruppo manca il carattere centrale 卯, perciò la coppia non è contata come armonia ed è trattata come neutra ({scoreNeutral}). Appartenere allo stesso gruppo non rende ogni coppia un'armonia."
+          }
+        ]
+      },
+      {
+        "title": "Serpente — lo scontro frontale (Conflitto)",
+        "blocks": [
+          {
+            "p": "亥 e 巳 stanno esattamente uno di fronte all'altro nel cerchio. Questo servizio mantiene {scoreChung} punti anche per un conflitto. Nella myeongri tradizionale un conflitto è una collisione, non la fine di una relazione, e assegnare un punteggio vicino al minimo equivarrebbe a pronunciare un verdetto su due persone. Anche così, è il punteggio più basso che il Maiale può ricevere."
+          }
+        ]
+      },
+      {
+        "title": "Drago — la quieta discordia (Discordia)",
+        "blocks": [
+          {
+            "p": "亥 e 辰 stanno subito accanto a 巳 (il Serpente), la posizione del conflitto, e tradizionalmente sono visti come una coppia che si porta rancore ma non riesce a separarsi. In superficie sembra calma, ma si ritiene che lo scarto duri nel tempo, perciò ottiene {scoreWonjin} — più di un conflitto ({scoreChung}) e meno del neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Gli altri 7 animali, e il Maiale con un altro Maiale",
+        "blocks": [
+          {
+            "p": "Topo, Bue, Cavallo, Pecora, Scimmia, Gallo e Cane non sono né un'armonia, né un conflitto, né una discordia con il Maiale: sono **neutri** e ottengono {scoreNeutral}. Sono la base di partenza, né buoni né cattivi."
+          },
+          {
+            "p": "Due persone Maiale ottengono {scoreSame}. Significa che si somigliano, non che si attraggono, perciò si collocano appena sopra il neutro."
+          }
+        ]
+      },
+      {
+        "title": "Quale quota della percentuale di corrispondenza finale occupa questo punteggio",
+        "blocks": [
+          {
+            "p": "Ci sono due punti in cui i rami di due persone vengono messi a confronto."
+          },
+          {
+            "ul": [
+              "La **compatibilità zodiacale** considera il ramo dell'anno di nascita. Pesa per {weightZodiac} sulla percentuale di corrispondenza finale.",
+              "La **compatibilità del ramo del giorno** considera il ramo del giorno di nascita. Pesa per {weightDayBranch} sulla compatibilità saju ({weightSaju}), ovvero {weightDayBranchTotal} della percentuale di corrispondenza finale."
+            ]
+          },
+          {
+            "p": "Per esempio, quando una persona Maiale incontra una persona Serpente, la compatibilità zodiacale dà un conflitto. A parità di tutto il resto, la percentuale di corrispondenza finale risulta più bassa di {swingZodiacChung} punti rispetto a una coppia neutra. Con una persona Tigre è una coppia di sei armonie, e la percentuale risulta più alta di {swingZodiacYukhap} punti."
+          },
+          {
+            "p": "Il ramo dell'anno e quello del giorno possono essere diversi. Due persone Maiale i cui rami del giorno sono 亥 e 巳 ottengono lo stesso ramo ({scoreSame}) nella compatibilità zodiacale e un conflitto ({scoreChung}) nella compatibilità del ramo del giorno."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ciò che questa guida non dice",
+        "blocks": [
+          {
+            "ul": [
+              "Un solo animale non decide una relazione tra due persone. {weightSaju} della percentuale di corrispondenza finale è stabilito dalla compatibilità saju.",
+              "Le variazioni di punteggio qui sopra presuppongono che tutto il resto sia uguale; il risultato reale è determinato dall'intero saju di entrambe le persone.",
+              "La tabella completa di quale relazione vale quanto è nella [tabella dei dodici rami](/guide/branches), e perché lo zodiaco si legge dal ramo dell'anno è spiegato in [Perché la compatibilità zodiacale considera il ramo dell'anno](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Gli altri animali sono presentati allo stesso modo. [Topo](/guide/zodiac-rat) · [Bue](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coniglio](/guide/zodiac-rabbit) · [Drago](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavallo](/guide/zodiac-horse) · [Pecora](/guide/zodiac-goat) · [Scimmia](/guide/zodiac-monkey) · [Gallo](/guide/zodiac-rooster) · [Cane](/guide/zodiac-dog)"
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Dieci Dei",
     "title": "Dieci Dei e Posizione del Coniuge",

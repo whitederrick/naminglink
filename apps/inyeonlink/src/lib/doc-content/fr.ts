@@ -585,6 +585,2190 @@ export const FR_DOCS = {
       }
     ]
   },
+  "guide/zodiac-rat": {
+    "eyebrow": "Par animal",
+    "title": "Comment le Rat rencontre les douze animaux du zodiaque",
+    "summary": "Quelle relation le Rat (子) entretient avec chacun des douze animaux du zodiaque, quel score chacune obtient et quelle part du score final ce score représente — exposé exactement comme le prévoient les règles de calcul d'Inyeon-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le Rat est la première des douze branches",
+        "blocks": [
+          {
+            "p": "Le Rat est une personne dont la branche de l'année de naissance est **子**. 子 est la première des douze branches terrestres et, lorsque les douze caractères sont disposés en cercle, elle se trouve directement en face de 午 (le Cheval)."
+          },
+          {
+            "p": "La ligne que le résultat de compatibilité affiche pour une personne Rat est : « Remarque vite et met vite à l'abri ce qui compte. Le premier à bouger en cas de crise. » Cette ligne n'a rien à voir avec les scores des relations et n'affecte pas les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Les douze animaux du zodiaque en un coup d'œil",
+        "blocks": [
+          {
+            "p": "Chacun des autres animaux est mis tour à tour en regard du Rat. Seules les paires que ce service reconnaît comme des harmonies sont écrites comme des relations ; tout le reste est neutre."
+          },
+          {
+            "table": {
+              "caption": "Le Rat et les douze animaux du zodiaque",
+              "head": [
+                "Autre animal",
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Même branche",
+                  "{scoreSame}"
+                ],
+                [
+                  "Bœuf (丑)",
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lapin (卯)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Serpent (巳)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cheval (午)",
+                  "Choc",
+                  "{scoreChung}"
+                ],
+                [
+                  "Mouton (未)",
+                  "Discorde",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Singe (申)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Coq (酉)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Chien (戌)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Bœuf — la paire qui s'attire (six-harmonies)",
+        "blocks": [
+          {
+            "p": "子 et 丑 forment une harmonie avec seulement deux caractères. Une six-harmonie est la bonne relation qui apparaît le plus souvent en compatibilité, et le Rat et le Bœuf obtiennent {scoreYukhap}, le maximum que le Rat puisse obtenir."
+          }
+        ]
+      },
+      {
+        "title": "Dragon et Singe — une triade partielle qui inclut la branche royale",
+        "blocks": [
+          {
+            "p": "申子辰 est un groupe de triade (le groupe de l'eau), et 子 est la **branche royale** en son centre. Inyeon-Link n'accepte que les paires qui incluent la branche royale ; ainsi le Rat forme une triade partielle ({scoreBanhap}) à la fois avec le Dragon et avec le Singe."
+          },
+          {
+            "p": "**Le Singe et le Dragon ensemble**, en revanche, n'ont pas le caractère central 子 ; ils ne sont donc pas comptés comme une harmonie et sont traités comme neutres. Même au sein d'un groupe de triade, c'est le Rat qui forme la triade partielle."
+          }
+        ]
+      },
+      {
+        "title": "Cheval — la collision frontale (choc)",
+        "blocks": [
+          {
+            "p": "子 et 午 se font directement face sur le cercle. Ce service conserve {scoreChung} points même pour un choc. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation, et donner un score proche du plancher reviendrait à prononcer un verdict sur deux personnes. Cela reste le score le plus bas que le Rat puisse recevoir."
+          }
+        ]
+      },
+      {
+        "title": "Mouton — la discorde silencieuse (discorde)",
+        "blocks": [
+          {
+            "p": "子 et 未 se trouvent juste à côté de 午 (le Cheval), la position du choc, et sont traditionnellement vus comme une paire qui se tient rancune sans pouvoir se séparer. En surface elle paraît calme, mais on estime que le décalage perdure ; elle obtient donc {scoreWonjin} — plus qu'un choc ({scoreChung}) et moins que le neutre ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Les 6 autres animaux, et le Rat avec un autre Rat",
+        "blocks": [
+          {
+            "p": "Le Tigre, le Lapin, le Serpent, le Coq, le Chien et le Cochon ne forment ni harmonie, ni choc, ni discorde avec le Rat : ils sont **neutres** et obtiennent {scoreNeutral}. Ils constituent la base de référence, ni bons ni mauvais."
+          },
+          {
+            "p": "Deux personnes Rat obtiennent {scoreSame}. Cela signifie qu'elles se ressemblent, non qu'elles s'attirent ; ce score se situe donc juste au-dessus du neutre."
+          }
+        ]
+      },
+      {
+        "title": "Quelle part du score final ce score représente",
+        "blocks": [
+          {
+            "p": "Il y a deux endroits où les branches de deux personnes sont placées côte à côte."
+          },
+          {
+            "ul": [
+              "La **compatibilité zodiacale** regarde la branche de l'année de naissance. Elle pèse {weightZodiac} du score final.",
+              "La **compatibilité de la branche du jour** regarde la branche du jour de naissance. Elle pèse {weightDayBranch} de la compatibilité de saju ({weightSaju}), soit {weightDayBranchTotal} du score final."
+            ]
+          },
+          {
+            "p": "Par exemple, lorsqu'une personne Rat rencontre une personne Cheval, la compatibilité zodiacale donne un choc. Toutes choses égales par ailleurs, le score final ressort {swingZodiacChung} points plus bas qu'avec une paire neutre. Avec une personne Bœuf, c'est une six-harmonie, et le score ressort {swingZodiacYukhap} points plus haut."
+          },
+          {
+            "p": "Les branches de l'année et du jour peuvent différer. Deux personnes Rat dont les branches du jour sont 子 et 午 obtiennent la même branche ({scoreSame}) en compatibilité zodiacale et un choc ({scoreChung}) en compatibilité de la branche du jour."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul animal ne décide pas d'une relation entre deux personnes. {weightSaju} du score final est déterminé par la compatibilité de saju.",
+              "Les variations de points ci-dessus supposent que tout le reste est égal ; le résultat réel est déterminé par l'ensemble du saju des deux personnes.",
+              "Le tableau complet de ce que vaut chaque relation figure dans le [tableau des douze branches](/guide/branches), et la raison pour laquelle le zodiaque se lit à partir de la branche de l'année est expliquée dans [Pourquoi la compatibilité zodiacale considère la branche de l'année](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Les autres animaux sont présentés de la même manière. [Bœuf](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Lapin](/guide/zodiac-rabbit) · [Dragon](/guide/zodiac-dragon) · [Serpent](/guide/zodiac-snake) · [Cheval](/guide/zodiac-horse) · [Mouton](/guide/zodiac-goat) · [Singe](/guide/zodiac-monkey) · [Coq](/guide/zodiac-rooster) · [Chien](/guide/zodiac-dog) · [Cochon](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-ox": {
+    "eyebrow": "Par animal",
+    "title": "Comment le Bœuf rencontre les douze animaux du zodiaque",
+    "summary": "Quelle relation le Bœuf (丑) entretient avec chacun des douze animaux du zodiaque, quel score chacune obtient et quelle part du score final ce score représente — exposé exactement comme le prévoient les règles de calcul d'Inyeon-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le Bœuf est la deuxième des douze branches",
+        "blocks": [
+          {
+            "p": "Le Bœuf est une personne dont la branche de l'année de naissance est **丑**. 丑 est la deuxième des douze branches terrestres et, lorsque les douze caractères sont disposés en cercle, elle se trouve directement en face de 未 (le Mouton)."
+          },
+          {
+            "p": "La ligne que le résultat de compatibilité affiche pour une personne Bœuf est : « Paraît lent mais va jusqu'au bout. Ce qu'il prend en charge, il ne le lâche pas. » Cette ligne n'a rien à voir avec les scores des relations et n'affecte pas les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Les douze animaux du zodiaque en un coup d'œil",
+        "blocks": [
+          {
+            "p": "Chacun des autres animaux est mis tour à tour en regard du Bœuf. Seules les paires que ce service reconnaît comme des harmonies sont écrites comme des relations ; tout le reste est neutre."
+          },
+          {
+            "table": {
+              "caption": "Le Bœuf et les douze animaux du zodiaque",
+              "head": [
+                "Autre animal",
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Bœuf (丑)",
+                  "Même branche",
+                  "{scoreSame}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lapin (卯)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpent (巳)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cheval (午)",
+                  "Discorde",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Mouton (未)",
+                  "Choc",
+                  "{scoreChung}"
+                ],
+                [
+                  "Singe (申)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coq (酉)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Chien (戌)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Rat — la paire qui s'attire (six-harmonies)",
+        "blocks": [
+          {
+            "p": "丑 et 子 forment une harmonie avec seulement deux caractères. Une six-harmonie est la bonne relation qui apparaît le plus souvent en compatibilité, et le Bœuf et le Rat obtiennent {scoreYukhap}, le maximum que le Bœuf puisse obtenir."
+          }
+        ]
+      },
+      {
+        "title": "Coq — une triade partielle qui inclut la branche royale",
+        "blocks": [
+          {
+            "p": "巳酉丑 est un groupe de triade (le groupe du métal), et 酉 est la **branche royale** en son centre. Inyeon-Link n'accepte que les paires qui incluent la branche royale ; ainsi le Bœuf forme une triade partielle ({scoreBanhap}) uniquement avec le Coq."
+          },
+          {
+            "p": "Avec le Serpent (巳) du même groupe, le caractère central 酉 manque : la paire n'est donc pas comptée comme une harmonie et est traitée comme neutre ({scoreNeutral}). Appartenir au même groupe ne fait pas de chaque paire une harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Mouton — la collision frontale (choc)",
+        "blocks": [
+          {
+            "p": "丑 et 未 se font directement face sur le cercle. Ce service conserve {scoreChung} points même pour un choc. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation, et donner un score proche du plancher reviendrait à prononcer un verdict sur deux personnes. Cela reste le score le plus bas que le Bœuf puisse recevoir."
+          }
+        ]
+      },
+      {
+        "title": "Cheval — la discorde silencieuse (discorde)",
+        "blocks": [
+          {
+            "p": "丑 et 午 se trouvent juste à côté de 未 (le Mouton), la position du choc, et sont traditionnellement vus comme une paire qui se tient rancune sans pouvoir se séparer. En surface elle paraît calme, mais on estime que le décalage perdure ; elle obtient donc {scoreWonjin} — plus qu'un choc ({scoreChung}) et moins que le neutre ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Les 7 autres animaux, et le Bœuf avec un autre Bœuf",
+        "blocks": [
+          {
+            "p": "Le Tigre, le Lapin, le Dragon, le Serpent, le Singe, le Chien et le Cochon ne forment ni harmonie, ni choc, ni discorde avec le Bœuf : ils sont **neutres** et obtiennent {scoreNeutral}. Ils constituent la base de référence, ni bons ni mauvais."
+          },
+          {
+            "p": "Deux personnes Bœuf obtiennent {scoreSame}. Cela signifie qu'elles se ressemblent, non qu'elles s'attirent ; ce score se situe donc juste au-dessus du neutre."
+          }
+        ]
+      },
+      {
+        "title": "Quelle part du score final ce score représente",
+        "blocks": [
+          {
+            "p": "Il y a deux endroits où les branches de deux personnes sont placées côte à côte."
+          },
+          {
+            "ul": [
+              "La **compatibilité zodiacale** regarde la branche de l'année de naissance. Elle pèse {weightZodiac} du score final.",
+              "La **compatibilité de la branche du jour** regarde la branche du jour de naissance. Elle pèse {weightDayBranch} de la compatibilité de saju ({weightSaju}), soit {weightDayBranchTotal} du score final."
+            ]
+          },
+          {
+            "p": "Par exemple, lorsqu'une personne Bœuf rencontre une personne Mouton, la compatibilité zodiacale donne un choc. Toutes choses égales par ailleurs, le score final ressort {swingZodiacChung} points plus bas qu'avec une paire neutre. Avec une personne Rat, c'est une six-harmonie, et le score ressort {swingZodiacYukhap} points plus haut."
+          },
+          {
+            "p": "Les branches de l'année et du jour peuvent différer. Deux personnes Bœuf dont les branches du jour sont 丑 et 未 obtiennent la même branche ({scoreSame}) en compatibilité zodiacale et un choc ({scoreChung}) en compatibilité de la branche du jour."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul animal ne décide pas d'une relation entre deux personnes. {weightSaju} du score final est déterminé par la compatibilité de saju.",
+              "Les variations de points ci-dessus supposent que tout le reste est égal ; le résultat réel est déterminé par l'ensemble du saju des deux personnes.",
+              "Le tableau complet de ce que vaut chaque relation figure dans le [tableau des douze branches](/guide/branches), et la raison pour laquelle le zodiaque se lit à partir de la branche de l'année est expliquée dans [Pourquoi la compatibilité zodiacale considère la branche de l'année](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Les autres animaux sont présentés de la même manière. [Rat](/guide/zodiac-rat) · [Tigre](/guide/zodiac-tiger) · [Lapin](/guide/zodiac-rabbit) · [Dragon](/guide/zodiac-dragon) · [Serpent](/guide/zodiac-snake) · [Cheval](/guide/zodiac-horse) · [Mouton](/guide/zodiac-goat) · [Singe](/guide/zodiac-monkey) · [Coq](/guide/zodiac-rooster) · [Chien](/guide/zodiac-dog) · [Cochon](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-tiger": {
+    "eyebrow": "Par animal",
+    "title": "Comment le Tigre rencontre les douze animaux du zodiaque",
+    "summary": "Quelle relation le Tigre (寅) entretient avec chacun des douze animaux du zodiaque, quel score chacune obtient et quelle part du score final ce score représente — exposé exactement comme le prévoient les règles de calcul d'Inyeon-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le Tigre est la troisième des douze branches",
+        "blocks": [
+          {
+            "p": "Le Tigre est une personne dont la branche de l'année de naissance est **寅**. 寅 est la troisième des douze branches terrestres et, lorsque les douze caractères sont disposés en cercle, elle se trouve directement en face de 申 (le Singe)."
+          },
+          {
+            "p": "La ligne que le résultat de compatibilité affiche pour une personne Tigre est : « Sans peur et en première ligne. Ne peut pas laisser passer une injustice. » Cette ligne n'a rien à voir avec les scores des relations et n'affecte pas les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Les douze animaux du zodiaque en un coup d'œil",
+        "blocks": [
+          {
+            "p": "Chacun des autres animaux est mis tour à tour en regard du Tigre. Seules les paires que ce service reconnaît comme des harmonies sont écrites comme des relations ; tout le reste est neutre."
+          },
+          {
+            "table": {
+              "caption": "Le Tigre et les douze animaux du zodiaque",
+              "head": [
+                "Autre animal",
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bœuf (丑)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Même branche",
+                  "{scoreSame}"
+                ],
+                [
+                  "Lapin (卯)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpent (巳)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cheval (午)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Mouton (未)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Singe (申)",
+                  "Choc",
+                  "{scoreChung}"
+                ],
+                [
+                  "Coq (酉)",
+                  "Discorde",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Chien (戌)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cochon — la paire qui s'attire (six-harmonies)",
+        "blocks": [
+          {
+            "p": "寅 et 亥 forment une harmonie avec seulement deux caractères. Une six-harmonie est la bonne relation qui apparaît le plus souvent en compatibilité, et le Tigre et le Cochon obtiennent {scoreYukhap}, le maximum que le Tigre puisse obtenir."
+          }
+        ]
+      },
+      {
+        "title": "Cheval — une triade partielle qui inclut la branche royale",
+        "blocks": [
+          {
+            "p": "寅午戌 est un groupe de triade (le groupe du feu), et 午 est la **branche royale** en son centre. Inyeon-Link n'accepte que les paires qui incluent la branche royale ; ainsi le Tigre forme une triade partielle ({scoreBanhap}) uniquement avec le Cheval."
+          },
+          {
+            "p": "Avec le Chien (戌) du même groupe, le caractère central 午 manque : la paire n'est donc pas comptée comme une harmonie et est traitée comme neutre ({scoreNeutral}). Appartenir au même groupe ne fait pas de chaque paire une harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Singe — la collision frontale (choc)",
+        "blocks": [
+          {
+            "p": "寅 et 申 se font directement face sur le cercle. Ce service conserve {scoreChung} points même pour un choc. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation, et donner un score proche du plancher reviendrait à prononcer un verdict sur deux personnes. Cela reste le score le plus bas que le Tigre puisse recevoir."
+          }
+        ]
+      },
+      {
+        "title": "Coq — la discorde silencieuse (discorde)",
+        "blocks": [
+          {
+            "p": "寅 et 酉 se trouvent juste à côté de 申 (le Singe), la position du choc, et sont traditionnellement vus comme une paire qui se tient rancune sans pouvoir se séparer. En surface elle paraît calme, mais on estime que le décalage perdure ; elle obtient donc {scoreWonjin} — plus qu'un choc ({scoreChung}) et moins que le neutre ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Les 7 autres animaux, et le Tigre avec un autre Tigre",
+        "blocks": [
+          {
+            "p": "Le Rat, le Bœuf, le Lapin, le Dragon, le Serpent, le Mouton et le Chien ne forment ni harmonie, ni choc, ni discorde avec le Tigre : ils sont **neutres** et obtiennent {scoreNeutral}. Ils constituent la base de référence, ni bons ni mauvais."
+          },
+          {
+            "p": "Deux personnes Tigre obtiennent {scoreSame}. Cela signifie qu'elles se ressemblent, non qu'elles s'attirent ; ce score se situe donc juste au-dessus du neutre."
+          }
+        ]
+      },
+      {
+        "title": "Quelle part du score final ce score représente",
+        "blocks": [
+          {
+            "p": "Il y a deux endroits où les branches de deux personnes sont placées côte à côte."
+          },
+          {
+            "ul": [
+              "La **compatibilité zodiacale** regarde la branche de l'année de naissance. Elle pèse {weightZodiac} du score final.",
+              "La **compatibilité de la branche du jour** regarde la branche du jour de naissance. Elle pèse {weightDayBranch} de la compatibilité de saju ({weightSaju}), soit {weightDayBranchTotal} du score final."
+            ]
+          },
+          {
+            "p": "Par exemple, lorsqu'une personne Tigre rencontre une personne Singe, la compatibilité zodiacale donne un choc. Toutes choses égales par ailleurs, le score final ressort {swingZodiacChung} points plus bas qu'avec une paire neutre. Avec une personne Cochon, c'est une six-harmonie, et le score ressort {swingZodiacYukhap} points plus haut."
+          },
+          {
+            "p": "Les branches de l'année et du jour peuvent différer. Deux personnes Tigre dont les branches du jour sont 寅 et 申 obtiennent la même branche ({scoreSame}) en compatibilité zodiacale et un choc ({scoreChung}) en compatibilité de la branche du jour."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul animal ne décide pas d'une relation entre deux personnes. {weightSaju} du score final est déterminé par la compatibilité de saju.",
+              "Les variations de points ci-dessus supposent que tout le reste est égal ; le résultat réel est déterminé par l'ensemble du saju des deux personnes.",
+              "Le tableau complet de ce que vaut chaque relation figure dans le [tableau des douze branches](/guide/branches), et la raison pour laquelle le zodiaque se lit à partir de la branche de l'année est expliquée dans [Pourquoi la compatibilité zodiacale considère la branche de l'année](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Les autres animaux sont présentés de la même manière. [Rat](/guide/zodiac-rat) · [Bœuf](/guide/zodiac-ox) · [Lapin](/guide/zodiac-rabbit) · [Dragon](/guide/zodiac-dragon) · [Serpent](/guide/zodiac-snake) · [Cheval](/guide/zodiac-horse) · [Mouton](/guide/zodiac-goat) · [Singe](/guide/zodiac-monkey) · [Coq](/guide/zodiac-rooster) · [Chien](/guide/zodiac-dog) · [Cochon](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rabbit": {
+    "eyebrow": "Par animal",
+    "title": "Comment le Lapin rencontre les douze animaux du zodiaque",
+    "summary": "Quelle relation le Lapin (卯) entretient avec chacun des douze animaux du zodiaque, quel score chacune obtient et quelle part du score final ce score représente — exposé exactement comme le prévoient les règles de calcul d'Inyeon-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le Lapin est la quatrième des douze branches",
+        "blocks": [
+          {
+            "p": "Le Lapin est une personne dont la branche de l'année de naissance est **卯**. 卯 est la quatrième des douze branches terrestres et, lorsque les douze caractères sont disposés en cercle, elle se trouve directement en face de 酉 (le Coq)."
+          },
+          {
+            "p": "La ligne que le résultat de compatibilité affiche pour une personne Lapin est : « Doux et perspicace. Sait contourner plutôt qu'entrer en collision. » Cette ligne n'a rien à voir avec les scores des relations et n'affecte pas les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Les douze animaux du zodiaque en un coup d'œil",
+        "blocks": [
+          {
+            "p": "Chacun des autres animaux est mis tour à tour en regard du Lapin. Seules les paires que ce service reconnaît comme des harmonies sont écrites comme des relations ; tout le reste est neutre."
+          },
+          {
+            "table": {
+              "caption": "Le Lapin et les douze animaux du zodiaque",
+              "head": [
+                "Autre animal",
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bœuf (丑)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lapin (卯)",
+                  "Même branche",
+                  "{scoreSame}"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpent (巳)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cheval (午)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Mouton (未)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Singe (申)",
+                  "Discorde",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Coq (酉)",
+                  "Choc",
+                  "{scoreChung}"
+                ],
+                [
+                  "Chien (戌)",
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Chien — la paire qui s'attire (six-harmonies)",
+        "blocks": [
+          {
+            "p": "卯 et 戌 forment une harmonie avec seulement deux caractères. Une six-harmonie est la bonne relation qui apparaît le plus souvent en compatibilité, et le Lapin et le Chien obtiennent {scoreYukhap}, le maximum que le Lapin puisse obtenir."
+          }
+        ]
+      },
+      {
+        "title": "Mouton et Cochon — une triade partielle qui inclut la branche royale",
+        "blocks": [
+          {
+            "p": "亥卯未 est un groupe de triade (le groupe du bois), et 卯 est la **branche royale** en son centre. Inyeon-Link n'accepte que les paires qui incluent la branche royale ; ainsi le Lapin forme une triade partielle ({scoreBanhap}) à la fois avec le Mouton et avec le Cochon."
+          },
+          {
+            "p": "**Le Cochon et le Mouton ensemble**, en revanche, n'ont pas le caractère central 卯 ; ils ne sont donc pas comptés comme une harmonie et sont traités comme neutres. Même au sein d'un groupe de triade, c'est le Lapin qui forme la triade partielle."
+          }
+        ]
+      },
+      {
+        "title": "Coq — la collision frontale (choc)",
+        "blocks": [
+          {
+            "p": "卯 et 酉 se font directement face sur le cercle. Ce service conserve {scoreChung} points même pour un choc. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation, et donner un score proche du plancher reviendrait à prononcer un verdict sur deux personnes. Cela reste le score le plus bas que le Lapin puisse recevoir."
+          }
+        ]
+      },
+      {
+        "title": "Singe — la discorde silencieuse (discorde)",
+        "blocks": [
+          {
+            "p": "卯 et 申 se trouvent juste à côté de 酉 (le Coq), la position du choc, et sont traditionnellement vus comme une paire qui se tient rancune sans pouvoir se séparer. En surface elle paraît calme, mais on estime que le décalage perdure ; elle obtient donc {scoreWonjin} — plus qu'un choc ({scoreChung}) et moins que le neutre ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Les 6 autres animaux, et le Lapin avec un autre Lapin",
+        "blocks": [
+          {
+            "p": "Le Rat, le Bœuf, le Tigre, le Dragon, le Serpent et le Cheval ne forment ni harmonie, ni choc, ni discorde avec le Lapin : ils sont **neutres** et obtiennent {scoreNeutral}. Ils constituent la base de référence, ni bons ni mauvais."
+          },
+          {
+            "p": "Deux personnes Lapin obtiennent {scoreSame}. Cela signifie qu'elles se ressemblent, non qu'elles s'attirent ; ce score se situe donc juste au-dessus du neutre."
+          }
+        ]
+      },
+      {
+        "title": "Quelle part du score final ce score représente",
+        "blocks": [
+          {
+            "p": "Il y a deux endroits où les branches de deux personnes sont placées côte à côte."
+          },
+          {
+            "ul": [
+              "La **compatibilité zodiacale** regarde la branche de l'année de naissance. Elle pèse {weightZodiac} du score final.",
+              "La **compatibilité de la branche du jour** regarde la branche du jour de naissance. Elle pèse {weightDayBranch} de la compatibilité de saju ({weightSaju}), soit {weightDayBranchTotal} du score final."
+            ]
+          },
+          {
+            "p": "Par exemple, lorsqu'une personne Lapin rencontre une personne Coq, la compatibilité zodiacale donne un choc. Toutes choses égales par ailleurs, le score final ressort {swingZodiacChung} points plus bas qu'avec une paire neutre. Avec une personne Chien, c'est une six-harmonie, et le score ressort {swingZodiacYukhap} points plus haut."
+          },
+          {
+            "p": "Les branches de l'année et du jour peuvent différer. Deux personnes Lapin dont les branches du jour sont 卯 et 酉 obtiennent la même branche ({scoreSame}) en compatibilité zodiacale et un choc ({scoreChung}) en compatibilité de la branche du jour."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul animal ne décide pas d'une relation entre deux personnes. {weightSaju} du score final est déterminé par la compatibilité de saju.",
+              "Les variations de points ci-dessus supposent que tout le reste est égal ; le résultat réel est déterminé par l'ensemble du saju des deux personnes.",
+              "Le tableau complet de ce que vaut chaque relation figure dans le [tableau des douze branches](/guide/branches), et la raison pour laquelle le zodiaque se lit à partir de la branche de l'année est expliquée dans [Pourquoi la compatibilité zodiacale considère la branche de l'année](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Les autres animaux sont présentés de la même manière. [Rat](/guide/zodiac-rat) · [Bœuf](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Dragon](/guide/zodiac-dragon) · [Serpent](/guide/zodiac-snake) · [Cheval](/guide/zodiac-horse) · [Mouton](/guide/zodiac-goat) · [Singe](/guide/zodiac-monkey) · [Coq](/guide/zodiac-rooster) · [Chien](/guide/zodiac-dog) · [Cochon](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dragon": {
+    "eyebrow": "Par animal",
+    "title": "Comment le Dragon rencontre les douze animaux du zodiaque",
+    "summary": "Quelle relation le Dragon (辰) entretient avec chacun des douze animaux du zodiaque, quel score chacune obtient et quelle part du score final ce score représente — exposé exactement comme le prévoient les règles de calcul d'Inyeon-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le Dragon est la cinquième des douze branches",
+        "blocks": [
+          {
+            "p": "Le Dragon est une personne dont la branche de l'année de naissance est **辰**. 辰 est la cinquième des douze branches terrestres et, lorsque les douze caractères sont disposés en cercle, elle se trouve directement en face de 戌 (le Chien)."
+          },
+          {
+            "p": "La ligne que le résultat de compatibilité affiche pour une personne Dragon est : « Grand cœur et idéaux élevés. Se contente rarement de l'ordinaire. » Cette ligne n'a rien à voir avec les scores des relations et n'affecte pas les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Les douze animaux du zodiaque en un coup d'œil",
+        "blocks": [
+          {
+            "p": "Chacun des autres animaux est mis tour à tour en regard du Dragon. Seules les paires que ce service reconnaît comme des harmonies sont écrites comme des relations ; tout le reste est neutre."
+          },
+          {
+            "table": {
+              "caption": "Le Dragon et les douze animaux du zodiaque",
+              "head": [
+                "Autre animal",
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bœuf (丑)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lapin (卯)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Même branche",
+                  "{scoreSame}"
+                ],
+                [
+                  "Serpent (巳)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cheval (午)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Mouton (未)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Singe (申)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coq (酉)",
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Chien (戌)",
+                  "Choc",
+                  "{scoreChung}"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Discorde",
+                  "{scoreWonjin}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Coq — la paire qui s'attire (six-harmonies)",
+        "blocks": [
+          {
+            "p": "辰 et 酉 forment une harmonie avec seulement deux caractères. Une six-harmonie est la bonne relation qui apparaît le plus souvent en compatibilité, et le Dragon et le Coq obtiennent {scoreYukhap}, le maximum que le Dragon puisse obtenir."
+          }
+        ]
+      },
+      {
+        "title": "Rat — une triade partielle qui inclut la branche royale",
+        "blocks": [
+          {
+            "p": "申子辰 est un groupe de triade (le groupe de l'eau), et 子 est la **branche royale** en son centre. Inyeon-Link n'accepte que les paires qui incluent la branche royale ; ainsi le Dragon forme une triade partielle ({scoreBanhap}) uniquement avec le Rat."
+          },
+          {
+            "p": "Avec le Singe (申) du même groupe, le caractère central 子 manque : la paire n'est donc pas comptée comme une harmonie et est traitée comme neutre ({scoreNeutral}). Appartenir au même groupe ne fait pas de chaque paire une harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Chien — la collision frontale (choc)",
+        "blocks": [
+          {
+            "p": "辰 et 戌 se font directement face sur le cercle. Ce service conserve {scoreChung} points même pour un choc. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation, et donner un score proche du plancher reviendrait à prononcer un verdict sur deux personnes. Cela reste le score le plus bas que le Dragon puisse recevoir."
+          }
+        ]
+      },
+      {
+        "title": "Cochon — la discorde silencieuse (discorde)",
+        "blocks": [
+          {
+            "p": "辰 et 亥 se trouvent juste à côté de 戌 (le Chien), la position du choc, et sont traditionnellement vus comme une paire qui se tient rancune sans pouvoir se séparer. En surface elle paraît calme, mais on estime que le décalage perdure ; elle obtient donc {scoreWonjin} — plus qu'un choc ({scoreChung}) et moins que le neutre ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Les 7 autres animaux, et le Dragon avec un autre Dragon",
+        "blocks": [
+          {
+            "p": "Le Bœuf, le Tigre, le Lapin, le Serpent, le Cheval, le Mouton et le Singe ne forment ni harmonie, ni choc, ni discorde avec le Dragon : ils sont **neutres** et obtiennent {scoreNeutral}. Ils constituent la base de référence, ni bons ni mauvais."
+          },
+          {
+            "p": "Deux personnes Dragon obtiennent {scoreSame}. Cela signifie qu'elles se ressemblent, non qu'elles s'attirent ; ce score se situe donc juste au-dessus du neutre."
+          }
+        ]
+      },
+      {
+        "title": "Quelle part du score final ce score représente",
+        "blocks": [
+          {
+            "p": "Il y a deux endroits où les branches de deux personnes sont placées côte à côte."
+          },
+          {
+            "ul": [
+              "La **compatibilité zodiacale** regarde la branche de l'année de naissance. Elle pèse {weightZodiac} du score final.",
+              "La **compatibilité de la branche du jour** regarde la branche du jour de naissance. Elle pèse {weightDayBranch} de la compatibilité de saju ({weightSaju}), soit {weightDayBranchTotal} du score final."
+            ]
+          },
+          {
+            "p": "Par exemple, lorsqu'une personne Dragon rencontre une personne Chien, la compatibilité zodiacale donne un choc. Toutes choses égales par ailleurs, le score final ressort {swingZodiacChung} points plus bas qu'avec une paire neutre. Avec une personne Coq, c'est une six-harmonie, et le score ressort {swingZodiacYukhap} points plus haut."
+          },
+          {
+            "p": "Les branches de l'année et du jour peuvent différer. Deux personnes Dragon dont les branches du jour sont 辰 et 戌 obtiennent la même branche ({scoreSame}) en compatibilité zodiacale et un choc ({scoreChung}) en compatibilité de la branche du jour."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul animal ne décide pas d'une relation entre deux personnes. {weightSaju} du score final est déterminé par la compatibilité de saju.",
+              "Les variations de points ci-dessus supposent que tout le reste est égal ; le résultat réel est déterminé par l'ensemble du saju des deux personnes.",
+              "Le tableau complet de ce que vaut chaque relation figure dans le [tableau des douze branches](/guide/branches), et la raison pour laquelle le zodiaque se lit à partir de la branche de l'année est expliquée dans [Pourquoi la compatibilité zodiacale considère la branche de l'année](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Les autres animaux sont présentés de la même manière. [Rat](/guide/zodiac-rat) · [Bœuf](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Lapin](/guide/zodiac-rabbit) · [Serpent](/guide/zodiac-snake) · [Cheval](/guide/zodiac-horse) · [Mouton](/guide/zodiac-goat) · [Singe](/guide/zodiac-monkey) · [Coq](/guide/zodiac-rooster) · [Chien](/guide/zodiac-dog) · [Cochon](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-snake": {
+    "eyebrow": "Par animal",
+    "title": "Comment le Serpent rencontre les douze animaux du zodiaque",
+    "summary": "Quelle relation le Serpent (巳) entretient avec chacun des douze animaux du zodiaque, quel score chacune obtient et quelle part du score final ce score représente — exposé exactement comme le prévoient les règles de calcul d'Inyeon-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le Serpent est la sixième des douze branches",
+        "blocks": [
+          {
+            "p": "Le Serpent est une personne dont la branche de l'année de naissance est **巳**. 巳 est la sixième des douze branches terrestres et, lorsque les douze caractères sont disposés en cercle, elle se trouve directement en face de 亥 (le Cochon)."
+          },
+          {
+            "p": "La ligne que le résultat de compatibilité affiche pour une personne Serpent est : « Garde ses pensées pour lui et réfléchit en profondeur. Juge avec justesse. » Cette ligne n'a rien à voir avec les scores des relations et n'affecte pas les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Les douze animaux du zodiaque en un coup d'œil",
+        "blocks": [
+          {
+            "p": "Chacun des autres animaux est mis tour à tour en regard du Serpent. Seules les paires que ce service reconnaît comme des harmonies sont écrites comme des relations ; tout le reste est neutre."
+          },
+          {
+            "table": {
+              "caption": "Le Serpent et les douze animaux du zodiaque",
+              "head": [
+                "Autre animal",
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bœuf (丑)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lapin (卯)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpent (巳)",
+                  "Même branche",
+                  "{scoreSame}"
+                ],
+                [
+                  "Cheval (午)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Mouton (未)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Singe (申)",
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Coq (酉)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Chien (戌)",
+                  "Discorde",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Choc",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Singe — la paire qui s'attire (six-harmonies)",
+        "blocks": [
+          {
+            "p": "巳 et 申 forment une harmonie avec seulement deux caractères. Une six-harmonie est la bonne relation qui apparaît le plus souvent en compatibilité, et le Serpent et le Singe obtiennent {scoreYukhap}, le maximum que le Serpent puisse obtenir."
+          }
+        ]
+      },
+      {
+        "title": "Coq — une triade partielle qui inclut la branche royale",
+        "blocks": [
+          {
+            "p": "巳酉丑 est un groupe de triade (le groupe du métal), et 酉 est la **branche royale** en son centre. Inyeon-Link n'accepte que les paires qui incluent la branche royale ; ainsi le Serpent forme une triade partielle ({scoreBanhap}) uniquement avec le Coq."
+          },
+          {
+            "p": "Avec le Bœuf (丑) du même groupe, le caractère central 酉 manque : la paire n'est donc pas comptée comme une harmonie et est traitée comme neutre ({scoreNeutral}). Appartenir au même groupe ne fait pas de chaque paire une harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Cochon — la collision frontale (choc)",
+        "blocks": [
+          {
+            "p": "巳 et 亥 se font directement face sur le cercle. Ce service conserve {scoreChung} points même pour un choc. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation, et donner un score proche du plancher reviendrait à prononcer un verdict sur deux personnes. Cela reste le score le plus bas que le Serpent puisse recevoir."
+          }
+        ]
+      },
+      {
+        "title": "Chien — la discorde silencieuse (discorde)",
+        "blocks": [
+          {
+            "p": "巳 et 戌 se trouvent juste à côté de 亥 (le Cochon), la position du choc, et sont traditionnellement vus comme une paire qui se tient rancune sans pouvoir se séparer. En surface elle paraît calme, mais on estime que le décalage perdure ; elle obtient donc {scoreWonjin} — plus qu'un choc ({scoreChung}) et moins que le neutre ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Les 7 autres animaux, et le Serpent avec un autre Serpent",
+        "blocks": [
+          {
+            "p": "Le Rat, le Bœuf, le Tigre, le Lapin, le Dragon, le Cheval et le Mouton ne forment ni harmonie, ni choc, ni discorde avec le Serpent : ils sont **neutres** et obtiennent {scoreNeutral}. Ils constituent la base de référence, ni bons ni mauvais."
+          },
+          {
+            "p": "Deux personnes Serpent obtiennent {scoreSame}. Cela signifie qu'elles se ressemblent, non qu'elles s'attirent ; ce score se situe donc juste au-dessus du neutre."
+          }
+        ]
+      },
+      {
+        "title": "Quelle part du score final ce score représente",
+        "blocks": [
+          {
+            "p": "Il y a deux endroits où les branches de deux personnes sont placées côte à côte."
+          },
+          {
+            "ul": [
+              "La **compatibilité zodiacale** regarde la branche de l'année de naissance. Elle pèse {weightZodiac} du score final.",
+              "La **compatibilité de la branche du jour** regarde la branche du jour de naissance. Elle pèse {weightDayBranch} de la compatibilité de saju ({weightSaju}), soit {weightDayBranchTotal} du score final."
+            ]
+          },
+          {
+            "p": "Par exemple, lorsqu'une personne Serpent rencontre une personne Cochon, la compatibilité zodiacale donne un choc. Toutes choses égales par ailleurs, le score final ressort {swingZodiacChung} points plus bas qu'avec une paire neutre. Avec une personne Singe, c'est une six-harmonie, et le score ressort {swingZodiacYukhap} points plus haut."
+          },
+          {
+            "p": "Les branches de l'année et du jour peuvent différer. Deux personnes Serpent dont les branches du jour sont 巳 et 亥 obtiennent la même branche ({scoreSame}) en compatibilité zodiacale et un choc ({scoreChung}) en compatibilité de la branche du jour."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul animal ne décide pas d'une relation entre deux personnes. {weightSaju} du score final est déterminé par la compatibilité de saju.",
+              "Les variations de points ci-dessus supposent que tout le reste est égal ; le résultat réel est déterminé par l'ensemble du saju des deux personnes.",
+              "Le tableau complet de ce que vaut chaque relation figure dans le [tableau des douze branches](/guide/branches), et la raison pour laquelle le zodiaque se lit à partir de la branche de l'année est expliquée dans [Pourquoi la compatibilité zodiacale considère la branche de l'année](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Les autres animaux sont présentés de la même manière. [Rat](/guide/zodiac-rat) · [Bœuf](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Lapin](/guide/zodiac-rabbit) · [Dragon](/guide/zodiac-dragon) · [Cheval](/guide/zodiac-horse) · [Mouton](/guide/zodiac-goat) · [Singe](/guide/zodiac-monkey) · [Coq](/guide/zodiac-rooster) · [Chien](/guide/zodiac-dog) · [Cochon](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-horse": {
+    "eyebrow": "Par animal",
+    "title": "Comment le Cheval rencontre les douze animaux du zodiaque",
+    "summary": "Quelle relation le Cheval (午) entretient avec chacun des douze animaux du zodiaque, quel score chacune obtient et quelle part du score final ce score représente — exposé exactement comme le prévoient les règles de calcul d'Inyeon-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le Cheval est la septième des douze branches",
+        "blocks": [
+          {
+            "p": "Le Cheval est une personne dont la branche de l'année de naissance est **午**. 午 est la septième des douze branches terrestres et, lorsque les douze caractères sont disposés en cercle, elle se trouve directement en face de 子 (le Rat)."
+          },
+          {
+            "p": "La ligne que le résultat de compatibilité affiche pour une personne Cheval est : « Enjoué et remuant. Être enfermé est ce qu'il supporte le moins. » Cette ligne n'a rien à voir avec les scores des relations et n'affecte pas les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Les douze animaux du zodiaque en un coup d'œil",
+        "blocks": [
+          {
+            "p": "Chacun des autres animaux est mis tour à tour en regard du Cheval. Seules les paires que ce service reconnaît comme des harmonies sont écrites comme des relations ; tout le reste est neutre."
+          },
+          {
+            "table": {
+              "caption": "Le Cheval et les douze animaux du zodiaque",
+              "head": [
+                "Autre animal",
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Choc",
+                  "{scoreChung}"
+                ],
+                [
+                  "Bœuf (丑)",
+                  "Discorde",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Lapin (卯)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpent (巳)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cheval (午)",
+                  "Même branche",
+                  "{scoreSame}"
+                ],
+                [
+                  "Mouton (未)",
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Singe (申)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coq (酉)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Chien (戌)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Mouton — la paire qui s'attire (six-harmonies)",
+        "blocks": [
+          {
+            "p": "午 et 未 forment une harmonie avec seulement deux caractères. Une six-harmonie est la bonne relation qui apparaît le plus souvent en compatibilité, et le Cheval et le Mouton obtiennent {scoreYukhap}, le maximum que le Cheval puisse obtenir."
+          }
+        ]
+      },
+      {
+        "title": "Tigre et Chien — une triade partielle qui inclut la branche royale",
+        "blocks": [
+          {
+            "p": "寅午戌 est un groupe de triade (le groupe du feu), et 午 est la **branche royale** en son centre. Inyeon-Link n'accepte que les paires qui incluent la branche royale ; ainsi le Cheval forme une triade partielle ({scoreBanhap}) à la fois avec le Tigre et avec le Chien."
+          },
+          {
+            "p": "**Le Tigre et le Chien ensemble**, en revanche, n'ont pas le caractère central 午 ; ils ne sont donc pas comptés comme une harmonie et sont traités comme neutres. Même au sein d'un groupe de triade, c'est le Cheval qui forme la triade partielle."
+          }
+        ]
+      },
+      {
+        "title": "Rat — la collision frontale (choc)",
+        "blocks": [
+          {
+            "p": "午 et 子 se font directement face sur le cercle. Ce service conserve {scoreChung} points même pour un choc. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation, et donner un score proche du plancher reviendrait à prononcer un verdict sur deux personnes. Cela reste le score le plus bas que le Cheval puisse recevoir."
+          }
+        ]
+      },
+      {
+        "title": "Bœuf — la discorde silencieuse (discorde)",
+        "blocks": [
+          {
+            "p": "午 et 丑 se trouvent juste à côté de 子 (le Rat), la position du choc, et sont traditionnellement vus comme une paire qui se tient rancune sans pouvoir se séparer. En surface elle paraît calme, mais on estime que le décalage perdure ; elle obtient donc {scoreWonjin} — plus qu'un choc ({scoreChung}) et moins que le neutre ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Les 6 autres animaux, et le Cheval avec un autre Cheval",
+        "blocks": [
+          {
+            "p": "Le Lapin, le Dragon, le Serpent, le Singe, le Coq et le Cochon ne forment ni harmonie, ni choc, ni discorde avec le Cheval : ils sont **neutres** et obtiennent {scoreNeutral}. Ils constituent la base de référence, ni bons ni mauvais."
+          },
+          {
+            "p": "Deux personnes Cheval obtiennent {scoreSame}. Cela signifie qu'elles se ressemblent, non qu'elles s'attirent ; ce score se situe donc juste au-dessus du neutre."
+          }
+        ]
+      },
+      {
+        "title": "Quelle part du score final ce score représente",
+        "blocks": [
+          {
+            "p": "Il y a deux endroits où les branches de deux personnes sont placées côte à côte."
+          },
+          {
+            "ul": [
+              "La **compatibilité zodiacale** regarde la branche de l'année de naissance. Elle pèse {weightZodiac} du score final.",
+              "La **compatibilité de la branche du jour** regarde la branche du jour de naissance. Elle pèse {weightDayBranch} de la compatibilité de saju ({weightSaju}), soit {weightDayBranchTotal} du score final."
+            ]
+          },
+          {
+            "p": "Par exemple, lorsqu'une personne Cheval rencontre une personne Rat, la compatibilité zodiacale donne un choc. Toutes choses égales par ailleurs, le score final ressort {swingZodiacChung} points plus bas qu'avec une paire neutre. Avec une personne Mouton, c'est une six-harmonie, et le score ressort {swingZodiacYukhap} points plus haut."
+          },
+          {
+            "p": "Les branches de l'année et du jour peuvent différer. Deux personnes Cheval dont les branches du jour sont 午 et 子 obtiennent la même branche ({scoreSame}) en compatibilité zodiacale et un choc ({scoreChung}) en compatibilité de la branche du jour."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul animal ne décide pas d'une relation entre deux personnes. {weightSaju} du score final est déterminé par la compatibilité de saju.",
+              "Les variations de points ci-dessus supposent que tout le reste est égal ; le résultat réel est déterminé par l'ensemble du saju des deux personnes.",
+              "Le tableau complet de ce que vaut chaque relation figure dans le [tableau des douze branches](/guide/branches), et la raison pour laquelle le zodiaque se lit à partir de la branche de l'année est expliquée dans [Pourquoi la compatibilité zodiacale considère la branche de l'année](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Les autres animaux sont présentés de la même manière. [Rat](/guide/zodiac-rat) · [Bœuf](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Lapin](/guide/zodiac-rabbit) · [Dragon](/guide/zodiac-dragon) · [Serpent](/guide/zodiac-snake) · [Mouton](/guide/zodiac-goat) · [Singe](/guide/zodiac-monkey) · [Coq](/guide/zodiac-rooster) · [Chien](/guide/zodiac-dog) · [Cochon](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-goat": {
+    "eyebrow": "Par animal",
+    "title": "Comment le Mouton rencontre les douze animaux du zodiaque",
+    "summary": "Quelle relation le Mouton (未) entretient avec chacun des douze animaux du zodiaque, quel score chacune obtient et quelle part du score final ce score représente — exposé exactement comme le prévoient les règles de calcul d'Inyeon-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le Mouton est la huitième des douze branches",
+        "blocks": [
+          {
+            "p": "Le Mouton est une personne dont la branche de l'année de naissance est **未**. 未 est la huitième des douze branches terrestres et, lorsque les douze caractères sont disposés en cercle, elle se trouve directement en face de 丑 (le Bœuf)."
+          },
+          {
+            "p": "La ligne que le résultat de compatibilité affiche pour une personne Mouton est : « Chaleureux et attentionné. Garde longtemps les paroles dures. » Cette ligne n'a rien à voir avec les scores des relations et n'affecte pas les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Les douze animaux du zodiaque en un coup d'œil",
+        "blocks": [
+          {
+            "p": "Chacun des autres animaux est mis tour à tour en regard du Mouton. Seules les paires que ce service reconnaît comme des harmonies sont écrites comme des relations ; tout le reste est neutre."
+          },
+          {
+            "table": {
+              "caption": "Le Mouton et les douze animaux du zodiaque",
+              "head": [
+                "Autre animal",
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Discorde",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Bœuf (丑)",
+                  "Choc",
+                  "{scoreChung}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lapin (卯)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpent (巳)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cheval (午)",
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Mouton (未)",
+                  "Même branche",
+                  "{scoreSame}"
+                ],
+                [
+                  "Singe (申)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coq (酉)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Chien (戌)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cheval — la paire qui s'attire (six-harmonies)",
+        "blocks": [
+          {
+            "p": "未 et 午 forment une harmonie avec seulement deux caractères. Une six-harmonie est la bonne relation qui apparaît le plus souvent en compatibilité, et le Mouton et le Cheval obtiennent {scoreYukhap}, le maximum que le Mouton puisse obtenir."
+          }
+        ]
+      },
+      {
+        "title": "Lapin — une triade partielle qui inclut la branche royale",
+        "blocks": [
+          {
+            "p": "亥卯未 est un groupe de triade (le groupe du bois), et 卯 est la **branche royale** en son centre. Inyeon-Link n'accepte que les paires qui incluent la branche royale ; ainsi le Mouton forme une triade partielle ({scoreBanhap}) uniquement avec le Lapin."
+          },
+          {
+            "p": "Avec le Cochon (亥) du même groupe, le caractère central 卯 manque : la paire n'est donc pas comptée comme une harmonie et est traitée comme neutre ({scoreNeutral}). Appartenir au même groupe ne fait pas de chaque paire une harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Bœuf — la collision frontale (choc)",
+        "blocks": [
+          {
+            "p": "未 et 丑 se font directement face sur le cercle. Ce service conserve {scoreChung} points même pour un choc. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation, et donner un score proche du plancher reviendrait à prononcer un verdict sur deux personnes. Cela reste le score le plus bas que le Mouton puisse recevoir."
+          }
+        ]
+      },
+      {
+        "title": "Rat — la discorde silencieuse (discorde)",
+        "blocks": [
+          {
+            "p": "未 et 子 se trouvent juste à côté de 丑 (le Bœuf), la position du choc, et sont traditionnellement vus comme une paire qui se tient rancune sans pouvoir se séparer. En surface elle paraît calme, mais on estime que le décalage perdure ; elle obtient donc {scoreWonjin} — plus qu'un choc ({scoreChung}) et moins que le neutre ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Les 7 autres animaux, et le Mouton avec un autre Mouton",
+        "blocks": [
+          {
+            "p": "Le Tigre, le Dragon, le Serpent, le Singe, le Coq, le Chien et le Cochon ne forment ni harmonie, ni choc, ni discorde avec le Mouton : ils sont **neutres** et obtiennent {scoreNeutral}. Ils constituent la base de référence, ni bons ni mauvais."
+          },
+          {
+            "p": "Deux personnes Mouton obtiennent {scoreSame}. Cela signifie qu'elles se ressemblent, non qu'elles s'attirent ; ce score se situe donc juste au-dessus du neutre."
+          }
+        ]
+      },
+      {
+        "title": "Quelle part du score final ce score représente",
+        "blocks": [
+          {
+            "p": "Il y a deux endroits où les branches de deux personnes sont placées côte à côte."
+          },
+          {
+            "ul": [
+              "La **compatibilité zodiacale** regarde la branche de l'année de naissance. Elle pèse {weightZodiac} du score final.",
+              "La **compatibilité de la branche du jour** regarde la branche du jour de naissance. Elle pèse {weightDayBranch} de la compatibilité de saju ({weightSaju}), soit {weightDayBranchTotal} du score final."
+            ]
+          },
+          {
+            "p": "Par exemple, lorsqu'une personne Mouton rencontre une personne Bœuf, la compatibilité zodiacale donne un choc. Toutes choses égales par ailleurs, le score final ressort {swingZodiacChung} points plus bas qu'avec une paire neutre. Avec une personne Cheval, c'est une six-harmonie, et le score ressort {swingZodiacYukhap} points plus haut."
+          },
+          {
+            "p": "Les branches de l'année et du jour peuvent différer. Deux personnes Mouton dont les branches du jour sont 未 et 丑 obtiennent la même branche ({scoreSame}) en compatibilité zodiacale et un choc ({scoreChung}) en compatibilité de la branche du jour."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul animal ne décide pas d'une relation entre deux personnes. {weightSaju} du score final est déterminé par la compatibilité de saju.",
+              "Les variations de points ci-dessus supposent que tout le reste est égal ; le résultat réel est déterminé par l'ensemble du saju des deux personnes.",
+              "Le tableau complet de ce que vaut chaque relation figure dans le [tableau des douze branches](/guide/branches), et la raison pour laquelle le zodiaque se lit à partir de la branche de l'année est expliquée dans [Pourquoi la compatibilité zodiacale considère la branche de l'année](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Les autres animaux sont présentés de la même manière. [Rat](/guide/zodiac-rat) · [Bœuf](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Lapin](/guide/zodiac-rabbit) · [Dragon](/guide/zodiac-dragon) · [Serpent](/guide/zodiac-snake) · [Cheval](/guide/zodiac-horse) · [Singe](/guide/zodiac-monkey) · [Coq](/guide/zodiac-rooster) · [Chien](/guide/zodiac-dog) · [Cochon](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-monkey": {
+    "eyebrow": "Par animal",
+    "title": "Comment le Singe rencontre les douze animaux du zodiaque",
+    "summary": "Quelle relation le Singe (申) entretient avec chacun des douze animaux du zodiaque, quel score chacune obtient et quelle part du score final ce score représente — exposé exactement comme le prévoient les règles de calcul d'Inyeon-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le Singe est la neuvième des douze branches",
+        "blocks": [
+          {
+            "p": "Le Singe est une personne dont la branche de l'année de naissance est **申**. 申 est la neuvième des douze branches terrestres et, lorsque les douze caractères sont disposés en cercle, elle se trouve directement en face de 寅 (le Tigre)."
+          },
+          {
+            "p": "La ligne que le résultat de compatibilité affiche pour une personne Singe est : « Ingénieux et prompt à s'adapter. La répétition l'ennuie. » Cette ligne n'a rien à voir avec les scores des relations et n'affecte pas les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Les douze animaux du zodiaque en un coup d'œil",
+        "blocks": [
+          {
+            "p": "Chacun des autres animaux est mis tour à tour en regard du Singe. Seules les paires que ce service reconnaît comme des harmonies sont écrites comme des relations ; tout le reste est neutre."
+          },
+          {
+            "table": {
+              "caption": "Le Singe et les douze animaux du zodiaque",
+              "head": [
+                "Autre animal",
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Bœuf (丑)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Choc",
+                  "{scoreChung}"
+                ],
+                [
+                  "Lapin (卯)",
+                  "Discorde",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpent (巳)",
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Cheval (午)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Mouton (未)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Singe (申)",
+                  "Même branche",
+                  "{scoreSame}"
+                ],
+                [
+                  "Coq (酉)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Chien (戌)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Serpent — la paire qui s'attire (six-harmonies)",
+        "blocks": [
+          {
+            "p": "申 et 巳 forment une harmonie avec seulement deux caractères. Une six-harmonie est la bonne relation qui apparaît le plus souvent en compatibilité, et le Singe et le Serpent obtiennent {scoreYukhap}, le maximum que le Singe puisse obtenir."
+          }
+        ]
+      },
+      {
+        "title": "Rat — une triade partielle qui inclut la branche royale",
+        "blocks": [
+          {
+            "p": "申子辰 est un groupe de triade (le groupe de l'eau), et 子 est la **branche royale** en son centre. Inyeon-Link n'accepte que les paires qui incluent la branche royale ; ainsi le Singe forme une triade partielle ({scoreBanhap}) uniquement avec le Rat."
+          },
+          {
+            "p": "Avec le Dragon (辰) du même groupe, le caractère central 子 manque : la paire n'est donc pas comptée comme une harmonie et est traitée comme neutre ({scoreNeutral}). Appartenir au même groupe ne fait pas de chaque paire une harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Tigre — la collision frontale (choc)",
+        "blocks": [
+          {
+            "p": "申 et 寅 se font directement face sur le cercle. Ce service conserve {scoreChung} points même pour un choc. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation, et donner un score proche du plancher reviendrait à prononcer un verdict sur deux personnes. Cela reste le score le plus bas que le Singe puisse recevoir."
+          }
+        ]
+      },
+      {
+        "title": "Lapin — la discorde silencieuse (discorde)",
+        "blocks": [
+          {
+            "p": "申 et 卯 se trouvent juste à côté de 寅 (le Tigre), la position du choc, et sont traditionnellement vus comme une paire qui se tient rancune sans pouvoir se séparer. En surface elle paraît calme, mais on estime que le décalage perdure ; elle obtient donc {scoreWonjin} — plus qu'un choc ({scoreChung}) et moins que le neutre ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Les 7 autres animaux, et le Singe avec un autre Singe",
+        "blocks": [
+          {
+            "p": "Le Bœuf, le Dragon, le Cheval, le Mouton, le Coq, le Chien et le Cochon ne forment ni harmonie, ni choc, ni discorde avec le Singe : ils sont **neutres** et obtiennent {scoreNeutral}. Ils constituent la base de référence, ni bons ni mauvais."
+          },
+          {
+            "p": "Deux personnes Singe obtiennent {scoreSame}. Cela signifie qu'elles se ressemblent, non qu'elles s'attirent ; ce score se situe donc juste au-dessus du neutre."
+          }
+        ]
+      },
+      {
+        "title": "Quelle part du score final ce score représente",
+        "blocks": [
+          {
+            "p": "Il y a deux endroits où les branches de deux personnes sont placées côte à côte."
+          },
+          {
+            "ul": [
+              "La **compatibilité zodiacale** regarde la branche de l'année de naissance. Elle pèse {weightZodiac} du score final.",
+              "La **compatibilité de la branche du jour** regarde la branche du jour de naissance. Elle pèse {weightDayBranch} de la compatibilité de saju ({weightSaju}), soit {weightDayBranchTotal} du score final."
+            ]
+          },
+          {
+            "p": "Par exemple, lorsqu'une personne Singe rencontre une personne Tigre, la compatibilité zodiacale donne un choc. Toutes choses égales par ailleurs, le score final ressort {swingZodiacChung} points plus bas qu'avec une paire neutre. Avec une personne Serpent, c'est une six-harmonie, et le score ressort {swingZodiacYukhap} points plus haut."
+          },
+          {
+            "p": "Les branches de l'année et du jour peuvent différer. Deux personnes Singe dont les branches du jour sont 申 et 寅 obtiennent la même branche ({scoreSame}) en compatibilité zodiacale et un choc ({scoreChung}) en compatibilité de la branche du jour."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul animal ne décide pas d'une relation entre deux personnes. {weightSaju} du score final est déterminé par la compatibilité de saju.",
+              "Les variations de points ci-dessus supposent que tout le reste est égal ; le résultat réel est déterminé par l'ensemble du saju des deux personnes.",
+              "Le tableau complet de ce que vaut chaque relation figure dans le [tableau des douze branches](/guide/branches), et la raison pour laquelle le zodiaque se lit à partir de la branche de l'année est expliquée dans [Pourquoi la compatibilité zodiacale considère la branche de l'année](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Les autres animaux sont présentés de la même manière. [Rat](/guide/zodiac-rat) · [Bœuf](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Lapin](/guide/zodiac-rabbit) · [Dragon](/guide/zodiac-dragon) · [Serpent](/guide/zodiac-snake) · [Cheval](/guide/zodiac-horse) · [Mouton](/guide/zodiac-goat) · [Coq](/guide/zodiac-rooster) · [Chien](/guide/zodiac-dog) · [Cochon](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rooster": {
+    "eyebrow": "Par animal",
+    "title": "Comment le Coq rencontre les douze animaux du zodiaque",
+    "summary": "Quelle relation le Coq (酉) entretient avec chacun des douze animaux du zodiaque, quel score chacune obtient et quelle part du score final ce score représente — exposé exactement comme le prévoient les règles de calcul d'Inyeon-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le Coq est la dixième des douze branches",
+        "blocks": [
+          {
+            "p": "Le Coq est une personne dont la branche de l'année de naissance est **酉**. 酉 est la dixième des douze branches terrestres et, lorsque les douze caractères sont disposés en cercle, elle se trouve directement en face de 卯 (le Lapin)."
+          },
+          {
+            "p": "La ligne que le résultat de compatibilité affiche pour une personne Coq est : « Appliqué et rigoureux. Ne peut rien laisser de travers. » Cette ligne n'a rien à voir avec les scores des relations et n'affecte pas les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Les douze animaux du zodiaque en un coup d'œil",
+        "blocks": [
+          {
+            "p": "Chacun des autres animaux est mis tour à tour en regard du Coq. Seules les paires que ce service reconnaît comme des harmonies sont écrites comme des relations ; tout le reste est neutre."
+          },
+          {
+            "table": {
+              "caption": "Le Coq et les douze animaux du zodiaque",
+              "head": [
+                "Autre animal",
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bœuf (丑)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Discorde",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Lapin (卯)",
+                  "Choc",
+                  "{scoreChung}"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Serpent (巳)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Cheval (午)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Mouton (未)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Singe (申)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coq (酉)",
+                  "Même branche",
+                  "{scoreSame}"
+                ],
+                [
+                  "Chien (戌)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Dragon — la paire qui s'attire (six-harmonies)",
+        "blocks": [
+          {
+            "p": "酉 et 辰 forment une harmonie avec seulement deux caractères. Une six-harmonie est la bonne relation qui apparaît le plus souvent en compatibilité, et le Coq et le Dragon obtiennent {scoreYukhap}, le maximum que le Coq puisse obtenir."
+          }
+        ]
+      },
+      {
+        "title": "Bœuf et Serpent — une triade partielle qui inclut la branche royale",
+        "blocks": [
+          {
+            "p": "巳酉丑 est un groupe de triade (le groupe du métal), et 酉 est la **branche royale** en son centre. Inyeon-Link n'accepte que les paires qui incluent la branche royale ; ainsi le Coq forme une triade partielle ({scoreBanhap}) à la fois avec le Bœuf et avec le Serpent."
+          },
+          {
+            "p": "**Le Serpent et le Bœuf ensemble**, en revanche, n'ont pas le caractère central 酉 ; ils ne sont donc pas comptés comme une harmonie et sont traités comme neutres. Même au sein d'un groupe de triade, c'est le Coq qui forme la triade partielle."
+          }
+        ]
+      },
+      {
+        "title": "Lapin — la collision frontale (choc)",
+        "blocks": [
+          {
+            "p": "酉 et 卯 se font directement face sur le cercle. Ce service conserve {scoreChung} points même pour un choc. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation, et donner un score proche du plancher reviendrait à prononcer un verdict sur deux personnes. Cela reste le score le plus bas que le Coq puisse recevoir."
+          }
+        ]
+      },
+      {
+        "title": "Tigre — la discorde silencieuse (discorde)",
+        "blocks": [
+          {
+            "p": "酉 et 寅 se trouvent juste à côté de 卯 (le Lapin), la position du choc, et sont traditionnellement vus comme une paire qui se tient rancune sans pouvoir se séparer. En surface elle paraît calme, mais on estime que le décalage perdure ; elle obtient donc {scoreWonjin} — plus qu'un choc ({scoreChung}) et moins que le neutre ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Les 6 autres animaux, et le Coq avec un autre Coq",
+        "blocks": [
+          {
+            "p": "Le Rat, le Cheval, le Mouton, le Singe, le Chien et le Cochon ne forment ni harmonie, ni choc, ni discorde avec le Coq : ils sont **neutres** et obtiennent {scoreNeutral}. Ils constituent la base de référence, ni bons ni mauvais."
+          },
+          {
+            "p": "Deux personnes Coq obtiennent {scoreSame}. Cela signifie qu'elles se ressemblent, non qu'elles s'attirent ; ce score se situe donc juste au-dessus du neutre."
+          }
+        ]
+      },
+      {
+        "title": "Quelle part du score final ce score représente",
+        "blocks": [
+          {
+            "p": "Il y a deux endroits où les branches de deux personnes sont placées côte à côte."
+          },
+          {
+            "ul": [
+              "La **compatibilité zodiacale** regarde la branche de l'année de naissance. Elle pèse {weightZodiac} du score final.",
+              "La **compatibilité de la branche du jour** regarde la branche du jour de naissance. Elle pèse {weightDayBranch} de la compatibilité de saju ({weightSaju}), soit {weightDayBranchTotal} du score final."
+            ]
+          },
+          {
+            "p": "Par exemple, lorsqu'une personne Coq rencontre une personne Lapin, la compatibilité zodiacale donne un choc. Toutes choses égales par ailleurs, le score final ressort {swingZodiacChung} points plus bas qu'avec une paire neutre. Avec une personne Dragon, c'est une six-harmonie, et le score ressort {swingZodiacYukhap} points plus haut."
+          },
+          {
+            "p": "Les branches de l'année et du jour peuvent différer. Deux personnes Coq dont les branches du jour sont 酉 et 卯 obtiennent la même branche ({scoreSame}) en compatibilité zodiacale et un choc ({scoreChung}) en compatibilité de la branche du jour."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul animal ne décide pas d'une relation entre deux personnes. {weightSaju} du score final est déterminé par la compatibilité de saju.",
+              "Les variations de points ci-dessus supposent que tout le reste est égal ; le résultat réel est déterminé par l'ensemble du saju des deux personnes.",
+              "Le tableau complet de ce que vaut chaque relation figure dans le [tableau des douze branches](/guide/branches), et la raison pour laquelle le zodiaque se lit à partir de la branche de l'année est expliquée dans [Pourquoi la compatibilité zodiacale considère la branche de l'année](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Les autres animaux sont présentés de la même manière. [Rat](/guide/zodiac-rat) · [Bœuf](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Lapin](/guide/zodiac-rabbit) · [Dragon](/guide/zodiac-dragon) · [Serpent](/guide/zodiac-snake) · [Cheval](/guide/zodiac-horse) · [Mouton](/guide/zodiac-goat) · [Singe](/guide/zodiac-monkey) · [Chien](/guide/zodiac-dog) · [Cochon](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dog": {
+    "eyebrow": "Par animal",
+    "title": "Comment le Chien rencontre les douze animaux du zodiaque",
+    "summary": "Quelle relation le Chien (戌) entretient avec chacun des douze animaux du zodiaque, quel score chacune obtient et quelle part du score final ce score représente — exposé exactement comme le prévoient les règles de calcul d'Inyeon-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le Chien est la onzième des douze branches",
+        "blocks": [
+          {
+            "p": "Le Chien est une personne dont la branche de l'année de naissance est **戌**. 戌 est la onzième des douze branches terrestres et, lorsque les douze caractères sont disposés en cercle, elle se trouve directement en face de 辰 (le Dragon)."
+          },
+          {
+            "p": "La ligne que le résultat de compatibilité affiche pour une personne Chien est : « Loyal jusqu'au bout une fois la confiance donnée. La trahison le blesse particulièrement. » Cette ligne n'a rien à voir avec les scores des relations et n'affecte pas les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Les douze animaux du zodiaque en un coup d'œil",
+        "blocks": [
+          {
+            "p": "Chacun des autres animaux est mis tour à tour en regard du Chien. Seules les paires que ce service reconnaît comme des harmonies sont écrites comme des relations ; tout le reste est neutre."
+          },
+          {
+            "table": {
+              "caption": "Le Chien et les douze animaux du zodiaque",
+              "head": [
+                "Autre animal",
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bœuf (丑)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Lapin (卯)",
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Choc",
+                  "{scoreChung}"
+                ],
+                [
+                  "Serpent (巳)",
+                  "Discorde",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Cheval (午)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Mouton (未)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Singe (申)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coq (酉)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Chien (戌)",
+                  "Même branche",
+                  "{scoreSame}"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Lapin — la paire qui s'attire (six-harmonies)",
+        "blocks": [
+          {
+            "p": "戌 et 卯 forment une harmonie avec seulement deux caractères. Une six-harmonie est la bonne relation qui apparaît le plus souvent en compatibilité, et le Chien et le Lapin obtiennent {scoreYukhap}, le maximum que le Chien puisse obtenir."
+          }
+        ]
+      },
+      {
+        "title": "Cheval — une triade partielle qui inclut la branche royale",
+        "blocks": [
+          {
+            "p": "寅午戌 est un groupe de triade (le groupe du feu), et 午 est la **branche royale** en son centre. Inyeon-Link n'accepte que les paires qui incluent la branche royale ; ainsi le Chien forme une triade partielle ({scoreBanhap}) uniquement avec le Cheval."
+          },
+          {
+            "p": "Avec le Tigre (寅) du même groupe, le caractère central 午 manque : la paire n'est donc pas comptée comme une harmonie et est traitée comme neutre ({scoreNeutral}). Appartenir au même groupe ne fait pas de chaque paire une harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Dragon — la collision frontale (choc)",
+        "blocks": [
+          {
+            "p": "戌 et 辰 se font directement face sur le cercle. Ce service conserve {scoreChung} points même pour un choc. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation, et donner un score proche du plancher reviendrait à prononcer un verdict sur deux personnes. Cela reste le score le plus bas que le Chien puisse recevoir."
+          }
+        ]
+      },
+      {
+        "title": "Serpent — la discorde silencieuse (discorde)",
+        "blocks": [
+          {
+            "p": "戌 et 巳 se trouvent juste à côté de 辰 (le Dragon), la position du choc, et sont traditionnellement vus comme une paire qui se tient rancune sans pouvoir se séparer. En surface elle paraît calme, mais on estime que le décalage perdure ; elle obtient donc {scoreWonjin} — plus qu'un choc ({scoreChung}) et moins que le neutre ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Les 7 autres animaux, et le Chien avec un autre Chien",
+        "blocks": [
+          {
+            "p": "Le Rat, le Bœuf, le Tigre, le Mouton, le Singe, le Coq et le Cochon ne forment ni harmonie, ni choc, ni discorde avec le Chien : ils sont **neutres** et obtiennent {scoreNeutral}. Ils constituent la base de référence, ni bons ni mauvais."
+          },
+          {
+            "p": "Deux personnes Chien obtiennent {scoreSame}. Cela signifie qu'elles se ressemblent, non qu'elles s'attirent ; ce score se situe donc juste au-dessus du neutre."
+          }
+        ]
+      },
+      {
+        "title": "Quelle part du score final ce score représente",
+        "blocks": [
+          {
+            "p": "Il y a deux endroits où les branches de deux personnes sont placées côte à côte."
+          },
+          {
+            "ul": [
+              "La **compatibilité zodiacale** regarde la branche de l'année de naissance. Elle pèse {weightZodiac} du score final.",
+              "La **compatibilité de la branche du jour** regarde la branche du jour de naissance. Elle pèse {weightDayBranch} de la compatibilité de saju ({weightSaju}), soit {weightDayBranchTotal} du score final."
+            ]
+          },
+          {
+            "p": "Par exemple, lorsqu'une personne Chien rencontre une personne Dragon, la compatibilité zodiacale donne un choc. Toutes choses égales par ailleurs, le score final ressort {swingZodiacChung} points plus bas qu'avec une paire neutre. Avec une personne Lapin, c'est une six-harmonie, et le score ressort {swingZodiacYukhap} points plus haut."
+          },
+          {
+            "p": "Les branches de l'année et du jour peuvent différer. Deux personnes Chien dont les branches du jour sont 戌 et 辰 obtiennent la même branche ({scoreSame}) en compatibilité zodiacale et un choc ({scoreChung}) en compatibilité de la branche du jour."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul animal ne décide pas d'une relation entre deux personnes. {weightSaju} du score final est déterminé par la compatibilité de saju.",
+              "Les variations de points ci-dessus supposent que tout le reste est égal ; le résultat réel est déterminé par l'ensemble du saju des deux personnes.",
+              "Le tableau complet de ce que vaut chaque relation figure dans le [tableau des douze branches](/guide/branches), et la raison pour laquelle le zodiaque se lit à partir de la branche de l'année est expliquée dans [Pourquoi la compatibilité zodiacale considère la branche de l'année](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Les autres animaux sont présentés de la même manière. [Rat](/guide/zodiac-rat) · [Bœuf](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Lapin](/guide/zodiac-rabbit) · [Dragon](/guide/zodiac-dragon) · [Serpent](/guide/zodiac-snake) · [Cheval](/guide/zodiac-horse) · [Mouton](/guide/zodiac-goat) · [Singe](/guide/zodiac-monkey) · [Coq](/guide/zodiac-rooster) · [Cochon](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pig": {
+    "eyebrow": "Par animal",
+    "title": "Comment le Cochon rencontre les douze animaux du zodiaque",
+    "summary": "Quelle relation le Cochon (亥) entretient avec chacun des douze animaux du zodiaque, quel score chacune obtient et quelle part du score final ce score représente — exposé exactement comme le prévoient les règles de calcul d'Inyeon-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Le Cochon est la douzième des douze branches",
+        "blocks": [
+          {
+            "p": "Le Cochon est une personne dont la branche de l'année de naissance est **亥**. 亥 est la douzième des douze branches terrestres et, lorsque les douze caractères sont disposés en cercle, elle se trouve directement en face de 巳 (le Serpent)."
+          },
+          {
+            "p": "La ligne que le résultat de compatibilité affiche pour une personne Cochon est : « Généreux et direct. Fait confiance facilement, parfois à ses dépens. » Cette ligne n'a rien à voir avec les scores des relations et n'affecte pas les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Les douze animaux du zodiaque en un coup d'œil",
+        "blocks": [
+          {
+            "p": "Chacun des autres animaux est mis tour à tour en regard du Cochon. Seules les paires que ce service reconnaît comme des harmonies sont écrites comme des relations ; tout le reste est neutre."
+          },
+          {
+            "table": {
+              "caption": "Le Cochon et les douze animaux du zodiaque",
+              "head": [
+                "Autre animal",
+                "Relation",
+                "Score"
+              ],
+              "rows": [
+                [
+                  "Rat (子)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Bœuf (丑)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Six-Harmonies",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Lapin (卯)",
+                  "Triade partielle",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Dragon (辰)",
+                  "Discorde",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Serpent (巳)",
+                  "Choc",
+                  "{scoreChung}"
+                ],
+                [
+                  "Cheval (午)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Mouton (未)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Singe (申)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coq (酉)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Chien (戌)",
+                  "Neutre",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cochon (亥)",
+                  "Même branche",
+                  "{scoreSame}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Tigre — la paire qui s'attire (six-harmonies)",
+        "blocks": [
+          {
+            "p": "亥 et 寅 forment une harmonie avec seulement deux caractères. Une six-harmonie est la bonne relation qui apparaît le plus souvent en compatibilité, et le Cochon et le Tigre obtiennent {scoreYukhap}, le maximum que le Cochon puisse obtenir."
+          }
+        ]
+      },
+      {
+        "title": "Lapin — une triade partielle qui inclut la branche royale",
+        "blocks": [
+          {
+            "p": "亥卯未 est un groupe de triade (le groupe du bois), et 卯 est la **branche royale** en son centre. Inyeon-Link n'accepte que les paires qui incluent la branche royale ; ainsi le Cochon forme une triade partielle ({scoreBanhap}) uniquement avec le Lapin."
+          },
+          {
+            "p": "Avec le Mouton (未) du même groupe, le caractère central 卯 manque : la paire n'est donc pas comptée comme une harmonie et est traitée comme neutre ({scoreNeutral}). Appartenir au même groupe ne fait pas de chaque paire une harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Serpent — la collision frontale (choc)",
+        "blocks": [
+          {
+            "p": "亥 et 巳 se font directement face sur le cercle. Ce service conserve {scoreChung} points même pour un choc. Dans le myeongri traditionnel, un choc est une collision, non la fin d'une relation, et donner un score proche du plancher reviendrait à prononcer un verdict sur deux personnes. Cela reste le score le plus bas que le Cochon puisse recevoir."
+          }
+        ]
+      },
+      {
+        "title": "Dragon — la discorde silencieuse (discorde)",
+        "blocks": [
+          {
+            "p": "亥 et 辰 se trouvent juste à côté de 巳 (le Serpent), la position du choc, et sont traditionnellement vus comme une paire qui se tient rancune sans pouvoir se séparer. En surface elle paraît calme, mais on estime que le décalage perdure ; elle obtient donc {scoreWonjin} — plus qu'un choc ({scoreChung}) et moins que le neutre ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Les 7 autres animaux, et le Cochon avec un autre Cochon",
+        "blocks": [
+          {
+            "p": "Le Rat, le Bœuf, le Cheval, le Mouton, le Singe, le Coq et le Chien ne forment ni harmonie, ni choc, ni discorde avec le Cochon : ils sont **neutres** et obtiennent {scoreNeutral}. Ils constituent la base de référence, ni bons ni mauvais."
+          },
+          {
+            "p": "Deux personnes Cochon obtiennent {scoreSame}. Cela signifie qu'elles se ressemblent, non qu'elles s'attirent ; ce score se situe donc juste au-dessus du neutre."
+          }
+        ]
+      },
+      {
+        "title": "Quelle part du score final ce score représente",
+        "blocks": [
+          {
+            "p": "Il y a deux endroits où les branches de deux personnes sont placées côte à côte."
+          },
+          {
+            "ul": [
+              "La **compatibilité zodiacale** regarde la branche de l'année de naissance. Elle pèse {weightZodiac} du score final.",
+              "La **compatibilité de la branche du jour** regarde la branche du jour de naissance. Elle pèse {weightDayBranch} de la compatibilité de saju ({weightSaju}), soit {weightDayBranchTotal} du score final."
+            ]
+          },
+          {
+            "p": "Par exemple, lorsqu'une personne Cochon rencontre une personne Serpent, la compatibilité zodiacale donne un choc. Toutes choses égales par ailleurs, le score final ressort {swingZodiacChung} points plus bas qu'avec une paire neutre. Avec une personne Tigre, c'est une six-harmonie, et le score ressort {swingZodiacYukhap} points plus haut."
+          },
+          {
+            "p": "Les branches de l'année et du jour peuvent différer. Deux personnes Cochon dont les branches du jour sont 亥 et 巳 obtiennent la même branche ({scoreSame}) en compatibilité zodiacale et un choc ({scoreChung}) en compatibilité de la branche du jour."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul animal ne décide pas d'une relation entre deux personnes. {weightSaju} du score final est déterminé par la compatibilité de saju.",
+              "Les variations de points ci-dessus supposent que tout le reste est égal ; le résultat réel est déterminé par l'ensemble du saju des deux personnes.",
+              "Le tableau complet de ce que vaut chaque relation figure dans le [tableau des douze branches](/guide/branches), et la raison pour laquelle le zodiaque se lit à partir de la branche de l'année est expliquée dans [Pourquoi la compatibilité zodiacale considère la branche de l'année](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Les autres animaux sont présentés de la même manière. [Rat](/guide/zodiac-rat) · [Bœuf](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Lapin](/guide/zodiac-rabbit) · [Dragon](/guide/zodiac-dragon) · [Serpent](/guide/zodiac-snake) · [Cheval](/guide/zodiac-horse) · [Mouton](/guide/zodiac-goat) · [Singe](/guide/zodiac-monkey) · [Coq](/guide/zodiac-rooster) · [Chien](/guide/zodiac-dog)"
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Dix Dieux",
     "title": "Dix Dieux et Position du Conjoint",

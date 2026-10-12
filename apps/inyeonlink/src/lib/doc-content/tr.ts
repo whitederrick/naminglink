@@ -585,6 +585,2190 @@ export const TR_DOCS = {
       }
     ]
   },
+  "guide/zodiac-rat": {
+    "eyebrow": "Hayvana göre",
+    "title": "Fare On İki Burç Hayvanıyla Nasıl Buluşur",
+    "summary": "Fare (子) ile on iki burç hayvanının her biri arasındaki ilişki, her birinin aldığı puan ve bu puanın nihai eşleşme oranından aldığı pay — tam olarak Inyeon-Link'in hesaplama kurallarında yer aldığı gibi sıralanmıştır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "Fare, on iki dalın birincisidir",
+        "blocks": [
+          {
+            "p": "Fare, doğum yılı dalı **子** olan kişidir. 子, on iki yer dalının birincisidir; on iki karakter bir daire içine dizildiğinde tam karşısında 午 (At) yer alır."
+          },
+          {
+            "p": "Uyum sonucunun Fare burcundaki bir kişi için gösterdiği satır şudur: \"Çabuk fark eder, önemli olanı çabuk güvenceye alır. Kriz anında ilk hareket eden odur.\" Bu satırın ilişki puanlarıyla ilgisi yoktur ve aşağıdaki puanları etkilemez."
+          }
+        ]
+      },
+      {
+        "title": "On iki burç hayvanı bir bakışta",
+        "blocks": [
+          {
+            "p": "Diğer hayvanların her biri sırayla Fare ile karşılaştırılır. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler ilişki olarak yazılmıştır; geri kalan her şey nötrdür."
+          },
+          {
+            "table": {
+              "caption": "Fare ve on iki burç hayvanı",
+              "head": [
+                "Diğer hayvan",
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Fare (子)",
+                  "Aynı dal",
+                  "{scoreSame}"
+                ],
+                [
+                  "Öküz (丑)",
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Kaplan (寅)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tavşan (卯)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ejderha (辰)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Yılan (巳)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "At (午)",
+                  "Çatışma",
+                  "{scoreChung}"
+                ],
+                [
+                  "Koyun (未)",
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Maymun (申)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Öküz — çeken çift (Altı-Harmoni)",
+        "blocks": [
+          {
+            "p": "子 ve 丑 yalnızca iki karakterle bir harmoni oluşturur. Altı-harmoni, uyumda en sık görülen iyi ilişkidir; Öküz ve Fare {scoreYukhap} puan alır, bu da Fare burcunun alabileceği en yüksek puandır."
+          }
+        ]
+      },
+      {
+        "title": "Ejderha ve Maymun — kraliyet dalını içeren yarım üçlü",
+        "blocks": [
+          {
+            "p": "申子辰, tek bir üçlü gruptur (su grubu) ve 子, grubun merkezindeki **kraliyet dalı**dır. Inyeon-Link yalnızca kraliyet dalını içeren çiftleri kabul eder; bu yüzden Fare hem Ejderha hem Maymun ile yarım üçlü ({scoreBanhap}) oluşturur."
+          },
+          {
+            "p": "**Maymun ve Ejderha birlikte** ise merkezdeki 子 karakterinden yoksundur; bu yüzden harmoni sayılmaz ve nötr kabul edilir. Aynı üçlü grubun içinde bile yarım üçlüyü oluşturan, Fare burcudur."
+          }
+        ]
+      },
+      {
+        "title": "At — kafa kafaya çarpışma (Çatışma)",
+        "blocks": [
+          {
+            "p": "子 ve 午 daire üzerinde tam karşılıklı oturur. Bu hizmet çatışmada bile {scoreChung} puanı korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil; tabana yakın bir puan vermek iki kişi hakkında hüküm vermek anlamına gelirdi. Yine de Fare burcunun alabileceği en düşük puandır."
+          }
+        ]
+      },
+      {
+        "title": "Koyun — sessiz uyumsuzluk (Uyumsuzluk)",
+        "blocks": [
+          {
+            "p": "子 ve 未, çatışma konumundaki 午 (At) ile yan yana oturur ve geleneksel olarak birbirine kırgın ama ayrılamayan bir çift olarak görülür. Yüzeyde sakin görünür, ama uyumsuzluğun kalıcı olduğuna inanılır; bu yüzden {scoreWonjin} puan alır — çatışmadan ({scoreChung}) yüksek, nötrden ({scoreNeutral}) düşüktür."
+          }
+        ]
+      },
+      {
+        "title": "Diğer 6 hayvan ve Fare ile bir başka Fare",
+        "blocks": [
+          {
+            "p": "Kaplan, Tavşan, Yılan, Horoz, Köpek ve Domuz, Fare ile ne harmoni, ne çatışma, ne de uyumsuzluk oluşturur: **nötrdür** ve {scoreNeutral} puan alır. Başlangıç düzeyidir; ne iyi ne kötü."
+          },
+          {
+            "p": "İki Fare burcundaki kişi {scoreSame} puan alır. Birbirine çekildiklerini değil, benzediklerini ifade eder; bu yüzden nötrün hemen üstündedir."
+          }
+        ]
+      },
+      {
+        "title": "Bu puanın nihai eşleşme oranından aldığı pay",
+        "blocks": [
+          {
+            "p": "İki kişinin dallarının yan yana konduğu iki yer vardır."
+          },
+          {
+            "ul": [
+              "**Burç uyumu** doğum yılının dalına bakar. Nihai eşleşme oranının {weightZodiac} kadarını oluşturur.",
+              "**Gün dalı uyumu** doğum gününün dalına bakar. Saju uyumunun ({weightSaju}) {weightDayBranch} kadarını oluşturur; bu da nihai eşleşme oranının {weightDayBranchTotal} kadarıdır."
+            ]
+          },
+          {
+            "p": "Örneğin bir Fare burcundaki kişi bir At burcundaki kişiyle buluştuğunda burç uyumu çatışma verir. Diğer her şey eşitse nihai eşleşme oranı nötr bir çifte göre {swingZodiacChung} puan düşük çıkar. Bir Öküz burcundaki kişiyle altı-harmonidir ve oran {swingZodiacYukhap} puan yüksek çıkar."
+          },
+          {
+            "p": "Yıl ve gün dalları farklı olabilir. Gün dalları 子 ve 午 olan iki Fare burcundaki kişi, burç uyumunda aynı dalı ({scoreSame}), gün dalı uyumunda ise çatışmayı ({scoreChung}) alır."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu rehberin söylemedikleri",
+        "blocks": [
+          {
+            "ul": [
+              "Tek bir hayvan iki kişi arasındaki ilişkiyi belirlemez. Nihai eşleşme oranının {weightSaju} kadarını saju uyumu belirler.",
+              "Yukarıdaki puan değişimleri diğer her şeyin eşit olduğunu varsayar; gerçek sonucu iki kişinin tüm saju'su belirler.",
+              "Hangi ilişkinin kaç puan aldığını gösteren tam tablo [on iki dal tablosunda](/guide/branches); burcun neden yıl dalından okunduğu ise [Burç uyumu neden yıl dalını dikkate alır](/guide/zodiac) sayfasındadır."
+            ]
+          },
+          {
+            "p": "Diğer hayvanlar aynı şekilde düzenlenmiştir. [Öküz](/guide/zodiac-ox) · [Kaplan](/guide/zodiac-tiger) · [Tavşan](/guide/zodiac-rabbit) · [Ejderha](/guide/zodiac-dragon) · [Yılan](/guide/zodiac-snake) · [At](/guide/zodiac-horse) · [Koyun](/guide/zodiac-goat) · [Maymun](/guide/zodiac-monkey) · [Horoz](/guide/zodiac-rooster) · [Köpek](/guide/zodiac-dog) · [Domuz](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-ox": {
+    "eyebrow": "Hayvana göre",
+    "title": "Öküz On İki Burç Hayvanıyla Nasıl Buluşur",
+    "summary": "Öküz (丑) ile on iki burç hayvanının her biri arasındaki ilişki, her birinin aldığı puan ve bu puanın nihai eşleşme oranından aldığı pay — tam olarak Inyeon-Link'in hesaplama kurallarında yer aldığı gibi sıralanmıştır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "Öküz, on iki dalın ikincisidir",
+        "blocks": [
+          {
+            "p": "Öküz, doğum yılı dalı **丑** olan kişidir. 丑, on iki yer dalının ikincisidir; on iki karakter bir daire içine dizildiğinde tam karşısında 未 (Koyun) yer alır."
+          },
+          {
+            "p": "Uyum sonucunun Öküz burcundaki bir kişi için gösterdiği satır şudur: \"Ağır görünür ama işi sonuna götürür. Üstlendiğini bırakmaz.\" Bu satırın ilişki puanlarıyla ilgisi yoktur ve aşağıdaki puanları etkilemez."
+          }
+        ]
+      },
+      {
+        "title": "On iki burç hayvanı bir bakışta",
+        "blocks": [
+          {
+            "p": "Diğer hayvanların her biri sırayla Öküz ile karşılaştırılır. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler ilişki olarak yazılmıştır; geri kalan her şey nötrdür."
+          },
+          {
+            "table": {
+              "caption": "Öküz ve on iki burç hayvanı",
+              "head": [
+                "Diğer hayvan",
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Fare (子)",
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Öküz (丑)",
+                  "Aynı dal",
+                  "{scoreSame}"
+                ],
+                [
+                  "Kaplan (寅)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tavşan (卯)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ejderha (辰)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Yılan (巳)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "At (午)",
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Koyun (未)",
+                  "Çatışma",
+                  "{scoreChung}"
+                ],
+                [
+                  "Maymun (申)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Fare — çeken çift (Altı-Harmoni)",
+        "blocks": [
+          {
+            "p": "丑 ve 子 yalnızca iki karakterle bir harmoni oluşturur. Altı-harmoni, uyumda en sık görülen iyi ilişkidir; Fare ve Öküz {scoreYukhap} puan alır, bu da Öküz burcunun alabileceği en yüksek puandır."
+          }
+        ]
+      },
+      {
+        "title": "Horoz — kraliyet dalını içeren yarım üçlü",
+        "blocks": [
+          {
+            "p": "巳酉丑, tek bir üçlü gruptur (metal grubu) ve 酉, grubun merkezindeki **kraliyet dalı**dır. Inyeon-Link yalnızca kraliyet dalını içeren çiftleri kabul eder; bu yüzden Öküz yalnızca Horoz ile yarım üçlü ({scoreBanhap}) oluşturur."
+          },
+          {
+            "p": "Aynı gruptaki Yılan (巳) ile merkezdeki 酉 karakteri eksiktir; bu yüzden harmoni sayılmaz ve nötr ({scoreNeutral}) kabul edilir. Aynı grupta olmak her çifti harmoni yapmaz."
+          }
+        ]
+      },
+      {
+        "title": "Koyun — kafa kafaya çarpışma (Çatışma)",
+        "blocks": [
+          {
+            "p": "丑 ve 未 daire üzerinde tam karşılıklı oturur. Bu hizmet çatışmada bile {scoreChung} puanı korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil; tabana yakın bir puan vermek iki kişi hakkında hüküm vermek anlamına gelirdi. Yine de Öküz burcunun alabileceği en düşük puandır."
+          }
+        ]
+      },
+      {
+        "title": "At — sessiz uyumsuzluk (Uyumsuzluk)",
+        "blocks": [
+          {
+            "p": "丑 ve 午, çatışma konumundaki 未 (Koyun) ile yan yana oturur ve geleneksel olarak birbirine kırgın ama ayrılamayan bir çift olarak görülür. Yüzeyde sakin görünür, ama uyumsuzluğun kalıcı olduğuna inanılır; bu yüzden {scoreWonjin} puan alır — çatışmadan ({scoreChung}) yüksek, nötrden ({scoreNeutral}) düşüktür."
+          }
+        ]
+      },
+      {
+        "title": "Diğer 7 hayvan ve Öküz ile bir başka Öküz",
+        "blocks": [
+          {
+            "p": "Kaplan, Tavşan, Ejderha, Yılan, Maymun, Köpek ve Domuz, Öküz ile ne harmoni, ne çatışma, ne de uyumsuzluk oluşturur: **nötrdür** ve {scoreNeutral} puan alır. Başlangıç düzeyidir; ne iyi ne kötü."
+          },
+          {
+            "p": "İki Öküz burcundaki kişi {scoreSame} puan alır. Birbirine çekildiklerini değil, benzediklerini ifade eder; bu yüzden nötrün hemen üstündedir."
+          }
+        ]
+      },
+      {
+        "title": "Bu puanın nihai eşleşme oranından aldığı pay",
+        "blocks": [
+          {
+            "p": "İki kişinin dallarının yan yana konduğu iki yer vardır."
+          },
+          {
+            "ul": [
+              "**Burç uyumu** doğum yılının dalına bakar. Nihai eşleşme oranının {weightZodiac} kadarını oluşturur.",
+              "**Gün dalı uyumu** doğum gününün dalına bakar. Saju uyumunun ({weightSaju}) {weightDayBranch} kadarını oluşturur; bu da nihai eşleşme oranının {weightDayBranchTotal} kadarıdır."
+            ]
+          },
+          {
+            "p": "Örneğin bir Öküz burcundaki kişi bir Koyun burcundaki kişiyle buluştuğunda burç uyumu çatışma verir. Diğer her şey eşitse nihai eşleşme oranı nötr bir çifte göre {swingZodiacChung} puan düşük çıkar. Bir Fare burcundaki kişiyle altı-harmonidir ve oran {swingZodiacYukhap} puan yüksek çıkar."
+          },
+          {
+            "p": "Yıl ve gün dalları farklı olabilir. Gün dalları 丑 ve 未 olan iki Öküz burcundaki kişi, burç uyumunda aynı dalı ({scoreSame}), gün dalı uyumunda ise çatışmayı ({scoreChung}) alır."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu rehberin söylemedikleri",
+        "blocks": [
+          {
+            "ul": [
+              "Tek bir hayvan iki kişi arasındaki ilişkiyi belirlemez. Nihai eşleşme oranının {weightSaju} kadarını saju uyumu belirler.",
+              "Yukarıdaki puan değişimleri diğer her şeyin eşit olduğunu varsayar; gerçek sonucu iki kişinin tüm saju'su belirler.",
+              "Hangi ilişkinin kaç puan aldığını gösteren tam tablo [on iki dal tablosunda](/guide/branches); burcun neden yıl dalından okunduğu ise [Burç uyumu neden yıl dalını dikkate alır](/guide/zodiac) sayfasındadır."
+            ]
+          },
+          {
+            "p": "Diğer hayvanlar aynı şekilde düzenlenmiştir. [Fare](/guide/zodiac-rat) · [Kaplan](/guide/zodiac-tiger) · [Tavşan](/guide/zodiac-rabbit) · [Ejderha](/guide/zodiac-dragon) · [Yılan](/guide/zodiac-snake) · [At](/guide/zodiac-horse) · [Koyun](/guide/zodiac-goat) · [Maymun](/guide/zodiac-monkey) · [Horoz](/guide/zodiac-rooster) · [Köpek](/guide/zodiac-dog) · [Domuz](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-tiger": {
+    "eyebrow": "Hayvana göre",
+    "title": "Kaplan On İki Burç Hayvanıyla Nasıl Buluşur",
+    "summary": "Kaplan (寅) ile on iki burç hayvanının her biri arasındaki ilişki, her birinin aldığı puan ve bu puanın nihai eşleşme oranından aldığı pay — tam olarak Inyeon-Link'in hesaplama kurallarında yer aldığı gibi sıralanmıştır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "Kaplan, on iki dalın üçüncüsüdür",
+        "blocks": [
+          {
+            "p": "Kaplan, doğum yılı dalı **寅** olan kişidir. 寅, on iki yer dalının üçüncüsüdür; on iki karakter bir daire içine dizildiğinde tam karşısında 申 (Maymun) yer alır."
+          },
+          {
+            "p": "Uyum sonucunun Kaplan burcundaki bir kişi için gösterdiği satır şudur: \"Korkusuzdur ve önden gider. Haksızlığı görmezden gelemez.\" Bu satırın ilişki puanlarıyla ilgisi yoktur ve aşağıdaki puanları etkilemez."
+          }
+        ]
+      },
+      {
+        "title": "On iki burç hayvanı bir bakışta",
+        "blocks": [
+          {
+            "p": "Diğer hayvanların her biri sırayla Kaplan ile karşılaştırılır. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler ilişki olarak yazılmıştır; geri kalan her şey nötrdür."
+          },
+          {
+            "table": {
+              "caption": "Kaplan ve on iki burç hayvanı",
+              "head": [
+                "Diğer hayvan",
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Fare (子)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Öküz (丑)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kaplan (寅)",
+                  "Aynı dal",
+                  "{scoreSame}"
+                ],
+                [
+                  "Tavşan (卯)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ejderha (辰)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Yılan (巳)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "At (午)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Koyun (未)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maymun (申)",
+                  "Çatışma",
+                  "{scoreChung}"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Domuz — çeken çift (Altı-Harmoni)",
+        "blocks": [
+          {
+            "p": "寅 ve 亥 yalnızca iki karakterle bir harmoni oluşturur. Altı-harmoni, uyumda en sık görülen iyi ilişkidir; Domuz ve Kaplan {scoreYukhap} puan alır, bu da Kaplan burcunun alabileceği en yüksek puandır."
+          }
+        ]
+      },
+      {
+        "title": "At — kraliyet dalını içeren yarım üçlü",
+        "blocks": [
+          {
+            "p": "寅午戌, tek bir üçlü gruptur (ateş grubu) ve 午, grubun merkezindeki **kraliyet dalı**dır. Inyeon-Link yalnızca kraliyet dalını içeren çiftleri kabul eder; bu yüzden Kaplan yalnızca At ile yarım üçlü ({scoreBanhap}) oluşturur."
+          },
+          {
+            "p": "Aynı gruptaki Köpek (戌) ile merkezdeki 午 karakteri eksiktir; bu yüzden harmoni sayılmaz ve nötr ({scoreNeutral}) kabul edilir. Aynı grupta olmak her çifti harmoni yapmaz."
+          }
+        ]
+      },
+      {
+        "title": "Maymun — kafa kafaya çarpışma (Çatışma)",
+        "blocks": [
+          {
+            "p": "寅 ve 申 daire üzerinde tam karşılıklı oturur. Bu hizmet çatışmada bile {scoreChung} puanı korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil; tabana yakın bir puan vermek iki kişi hakkında hüküm vermek anlamına gelirdi. Yine de Kaplan burcunun alabileceği en düşük puandır."
+          }
+        ]
+      },
+      {
+        "title": "Horoz — sessiz uyumsuzluk (Uyumsuzluk)",
+        "blocks": [
+          {
+            "p": "寅 ve 酉, çatışma konumundaki 申 (Maymun) ile yan yana oturur ve geleneksel olarak birbirine kırgın ama ayrılamayan bir çift olarak görülür. Yüzeyde sakin görünür, ama uyumsuzluğun kalıcı olduğuna inanılır; bu yüzden {scoreWonjin} puan alır — çatışmadan ({scoreChung}) yüksek, nötrden ({scoreNeutral}) düşüktür."
+          }
+        ]
+      },
+      {
+        "title": "Diğer 7 hayvan ve Kaplan ile bir başka Kaplan",
+        "blocks": [
+          {
+            "p": "Fare, Öküz, Tavşan, Ejderha, Yılan, Koyun ve Köpek, Kaplan ile ne harmoni, ne çatışma, ne de uyumsuzluk oluşturur: **nötrdür** ve {scoreNeutral} puan alır. Başlangıç düzeyidir; ne iyi ne kötü."
+          },
+          {
+            "p": "İki Kaplan burcundaki kişi {scoreSame} puan alır. Birbirine çekildiklerini değil, benzediklerini ifade eder; bu yüzden nötrün hemen üstündedir."
+          }
+        ]
+      },
+      {
+        "title": "Bu puanın nihai eşleşme oranından aldığı pay",
+        "blocks": [
+          {
+            "p": "İki kişinin dallarının yan yana konduğu iki yer vardır."
+          },
+          {
+            "ul": [
+              "**Burç uyumu** doğum yılının dalına bakar. Nihai eşleşme oranının {weightZodiac} kadarını oluşturur.",
+              "**Gün dalı uyumu** doğum gününün dalına bakar. Saju uyumunun ({weightSaju}) {weightDayBranch} kadarını oluşturur; bu da nihai eşleşme oranının {weightDayBranchTotal} kadarıdır."
+            ]
+          },
+          {
+            "p": "Örneğin bir Kaplan burcundaki kişi bir Maymun burcundaki kişiyle buluştuğunda burç uyumu çatışma verir. Diğer her şey eşitse nihai eşleşme oranı nötr bir çifte göre {swingZodiacChung} puan düşük çıkar. Bir Domuz burcundaki kişiyle altı-harmonidir ve oran {swingZodiacYukhap} puan yüksek çıkar."
+          },
+          {
+            "p": "Yıl ve gün dalları farklı olabilir. Gün dalları 寅 ve 申 olan iki Kaplan burcundaki kişi, burç uyumunda aynı dalı ({scoreSame}), gün dalı uyumunda ise çatışmayı ({scoreChung}) alır."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu rehberin söylemedikleri",
+        "blocks": [
+          {
+            "ul": [
+              "Tek bir hayvan iki kişi arasındaki ilişkiyi belirlemez. Nihai eşleşme oranının {weightSaju} kadarını saju uyumu belirler.",
+              "Yukarıdaki puan değişimleri diğer her şeyin eşit olduğunu varsayar; gerçek sonucu iki kişinin tüm saju'su belirler.",
+              "Hangi ilişkinin kaç puan aldığını gösteren tam tablo [on iki dal tablosunda](/guide/branches); burcun neden yıl dalından okunduğu ise [Burç uyumu neden yıl dalını dikkate alır](/guide/zodiac) sayfasındadır."
+            ]
+          },
+          {
+            "p": "Diğer hayvanlar aynı şekilde düzenlenmiştir. [Fare](/guide/zodiac-rat) · [Öküz](/guide/zodiac-ox) · [Tavşan](/guide/zodiac-rabbit) · [Ejderha](/guide/zodiac-dragon) · [Yılan](/guide/zodiac-snake) · [At](/guide/zodiac-horse) · [Koyun](/guide/zodiac-goat) · [Maymun](/guide/zodiac-monkey) · [Horoz](/guide/zodiac-rooster) · [Köpek](/guide/zodiac-dog) · [Domuz](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rabbit": {
+    "eyebrow": "Hayvana göre",
+    "title": "Tavşan On İki Burç Hayvanıyla Nasıl Buluşur",
+    "summary": "Tavşan (卯) ile on iki burç hayvanının her biri arasındaki ilişki, her birinin aldığı puan ve bu puanın nihai eşleşme oranından aldığı pay — tam olarak Inyeon-Link'in hesaplama kurallarında yer aldığı gibi sıralanmıştır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "Tavşan, on iki dalın dördüncüsüdür",
+        "blocks": [
+          {
+            "p": "Tavşan, doğum yılı dalı **卯** olan kişidir. 卯, on iki yer dalının dördüncüsüdür; on iki karakter bir daire içine dizildiğinde tam karşısında 酉 (Horoz) yer alır."
+          },
+          {
+            "p": "Uyum sonucunun Tavşan burcundaki bir kişi için gösterdiği satır şudur: \"Yumuşak ve sezgilidir. Çarpışmak yerine dolaşmayı bilir.\" Bu satırın ilişki puanlarıyla ilgisi yoktur ve aşağıdaki puanları etkilemez."
+          }
+        ]
+      },
+      {
+        "title": "On iki burç hayvanı bir bakışta",
+        "blocks": [
+          {
+            "p": "Diğer hayvanların her biri sırayla Tavşan ile karşılaştırılır. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler ilişki olarak yazılmıştır; geri kalan her şey nötrdür."
+          },
+          {
+            "table": {
+              "caption": "Tavşan ve on iki burç hayvanı",
+              "head": [
+                "Diğer hayvan",
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Fare (子)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Öküz (丑)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kaplan (寅)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tavşan (卯)",
+                  "Aynı dal",
+                  "{scoreSame}"
+                ],
+                [
+                  "Ejderha (辰)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Yılan (巳)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "At (午)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koyun (未)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Maymun (申)",
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Çatışma",
+                  "{scoreChung}"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Köpek — çeken çift (Altı-Harmoni)",
+        "blocks": [
+          {
+            "p": "卯 ve 戌 yalnızca iki karakterle bir harmoni oluşturur. Altı-harmoni, uyumda en sık görülen iyi ilişkidir; Köpek ve Tavşan {scoreYukhap} puan alır, bu da Tavşan burcunun alabileceği en yüksek puandır."
+          }
+        ]
+      },
+      {
+        "title": "Koyun ve Domuz — kraliyet dalını içeren yarım üçlü",
+        "blocks": [
+          {
+            "p": "亥卯未, tek bir üçlü gruptur (ağaç grubu) ve 卯, grubun merkezindeki **kraliyet dalı**dır. Inyeon-Link yalnızca kraliyet dalını içeren çiftleri kabul eder; bu yüzden Tavşan hem Koyun hem Domuz ile yarım üçlü ({scoreBanhap}) oluşturur."
+          },
+          {
+            "p": "**Domuz ve Koyun birlikte** ise merkezdeki 卯 karakterinden yoksundur; bu yüzden harmoni sayılmaz ve nötr kabul edilir. Aynı üçlü grubun içinde bile yarım üçlüyü oluşturan, Tavşan burcudur."
+          }
+        ]
+      },
+      {
+        "title": "Horoz — kafa kafaya çarpışma (Çatışma)",
+        "blocks": [
+          {
+            "p": "卯 ve 酉 daire üzerinde tam karşılıklı oturur. Bu hizmet çatışmada bile {scoreChung} puanı korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil; tabana yakın bir puan vermek iki kişi hakkında hüküm vermek anlamına gelirdi. Yine de Tavşan burcunun alabileceği en düşük puandır."
+          }
+        ]
+      },
+      {
+        "title": "Maymun — sessiz uyumsuzluk (Uyumsuzluk)",
+        "blocks": [
+          {
+            "p": "卯 ve 申, çatışma konumundaki 酉 (Horoz) ile yan yana oturur ve geleneksel olarak birbirine kırgın ama ayrılamayan bir çift olarak görülür. Yüzeyde sakin görünür, ama uyumsuzluğun kalıcı olduğuna inanılır; bu yüzden {scoreWonjin} puan alır — çatışmadan ({scoreChung}) yüksek, nötrden ({scoreNeutral}) düşüktür."
+          }
+        ]
+      },
+      {
+        "title": "Diğer 6 hayvan ve Tavşan ile bir başka Tavşan",
+        "blocks": [
+          {
+            "p": "Fare, Öküz, Kaplan, Ejderha, Yılan ve At, Tavşan ile ne harmoni, ne çatışma, ne de uyumsuzluk oluşturur: **nötrdür** ve {scoreNeutral} puan alır. Başlangıç düzeyidir; ne iyi ne kötü."
+          },
+          {
+            "p": "İki Tavşan burcundaki kişi {scoreSame} puan alır. Birbirine çekildiklerini değil, benzediklerini ifade eder; bu yüzden nötrün hemen üstündedir."
+          }
+        ]
+      },
+      {
+        "title": "Bu puanın nihai eşleşme oranından aldığı pay",
+        "blocks": [
+          {
+            "p": "İki kişinin dallarının yan yana konduğu iki yer vardır."
+          },
+          {
+            "ul": [
+              "**Burç uyumu** doğum yılının dalına bakar. Nihai eşleşme oranının {weightZodiac} kadarını oluşturur.",
+              "**Gün dalı uyumu** doğum gününün dalına bakar. Saju uyumunun ({weightSaju}) {weightDayBranch} kadarını oluşturur; bu da nihai eşleşme oranının {weightDayBranchTotal} kadarıdır."
+            ]
+          },
+          {
+            "p": "Örneğin bir Tavşan burcundaki kişi bir Horoz burcundaki kişiyle buluştuğunda burç uyumu çatışma verir. Diğer her şey eşitse nihai eşleşme oranı nötr bir çifte göre {swingZodiacChung} puan düşük çıkar. Bir Köpek burcundaki kişiyle altı-harmonidir ve oran {swingZodiacYukhap} puan yüksek çıkar."
+          },
+          {
+            "p": "Yıl ve gün dalları farklı olabilir. Gün dalları 卯 ve 酉 olan iki Tavşan burcundaki kişi, burç uyumunda aynı dalı ({scoreSame}), gün dalı uyumunda ise çatışmayı ({scoreChung}) alır."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu rehberin söylemedikleri",
+        "blocks": [
+          {
+            "ul": [
+              "Tek bir hayvan iki kişi arasındaki ilişkiyi belirlemez. Nihai eşleşme oranının {weightSaju} kadarını saju uyumu belirler.",
+              "Yukarıdaki puan değişimleri diğer her şeyin eşit olduğunu varsayar; gerçek sonucu iki kişinin tüm saju'su belirler.",
+              "Hangi ilişkinin kaç puan aldığını gösteren tam tablo [on iki dal tablosunda](/guide/branches); burcun neden yıl dalından okunduğu ise [Burç uyumu neden yıl dalını dikkate alır](/guide/zodiac) sayfasındadır."
+            ]
+          },
+          {
+            "p": "Diğer hayvanlar aynı şekilde düzenlenmiştir. [Fare](/guide/zodiac-rat) · [Öküz](/guide/zodiac-ox) · [Kaplan](/guide/zodiac-tiger) · [Ejderha](/guide/zodiac-dragon) · [Yılan](/guide/zodiac-snake) · [At](/guide/zodiac-horse) · [Koyun](/guide/zodiac-goat) · [Maymun](/guide/zodiac-monkey) · [Horoz](/guide/zodiac-rooster) · [Köpek](/guide/zodiac-dog) · [Domuz](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dragon": {
+    "eyebrow": "Hayvana göre",
+    "title": "Ejderha On İki Burç Hayvanıyla Nasıl Buluşur",
+    "summary": "Ejderha (辰) ile on iki burç hayvanının her biri arasındaki ilişki, her birinin aldığı puan ve bu puanın nihai eşleşme oranından aldığı pay — tam olarak Inyeon-Link'in hesaplama kurallarında yer aldığı gibi sıralanmıştır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "Ejderha, on iki dalın beşincisidir",
+        "blocks": [
+          {
+            "p": "Ejderha, doğum yılı dalı **辰** olan kişidir. 辰, on iki yer dalının beşincisidir; on iki karakter bir daire içine dizildiğinde tam karşısında 戌 (Köpek) yer alır."
+          },
+          {
+            "p": "Uyum sonucunun Ejderha burcundaki bir kişi için gösterdiği satır şudur: \"Gönlü geniş, idealleri yüksektir. Sıradan olanla nadiren yetinir.\" Bu satırın ilişki puanlarıyla ilgisi yoktur ve aşağıdaki puanları etkilemez."
+          }
+        ]
+      },
+      {
+        "title": "On iki burç hayvanı bir bakışta",
+        "blocks": [
+          {
+            "p": "Diğer hayvanların her biri sırayla Ejderha ile karşılaştırılır. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler ilişki olarak yazılmıştır; geri kalan her şey nötrdür."
+          },
+          {
+            "table": {
+              "caption": "Ejderha ve on iki burç hayvanı",
+              "head": [
+                "Diğer hayvan",
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Fare (子)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Öküz (丑)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kaplan (寅)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tavşan (卯)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ejderha (辰)",
+                  "Aynı dal",
+                  "{scoreSame}"
+                ],
+                [
+                  "Yılan (巳)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "At (午)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koyun (未)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maymun (申)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Çatışma",
+                  "{scoreChung}"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Horoz — çeken çift (Altı-Harmoni)",
+        "blocks": [
+          {
+            "p": "辰 ve 酉 yalnızca iki karakterle bir harmoni oluşturur. Altı-harmoni, uyumda en sık görülen iyi ilişkidir; Horoz ve Ejderha {scoreYukhap} puan alır, bu da Ejderha burcunun alabileceği en yüksek puandır."
+          }
+        ]
+      },
+      {
+        "title": "Fare — kraliyet dalını içeren yarım üçlü",
+        "blocks": [
+          {
+            "p": "申子辰, tek bir üçlü gruptur (su grubu) ve 子, grubun merkezindeki **kraliyet dalı**dır. Inyeon-Link yalnızca kraliyet dalını içeren çiftleri kabul eder; bu yüzden Ejderha yalnızca Fare ile yarım üçlü ({scoreBanhap}) oluşturur."
+          },
+          {
+            "p": "Aynı gruptaki Maymun (申) ile merkezdeki 子 karakteri eksiktir; bu yüzden harmoni sayılmaz ve nötr ({scoreNeutral}) kabul edilir. Aynı grupta olmak her çifti harmoni yapmaz."
+          }
+        ]
+      },
+      {
+        "title": "Köpek — kafa kafaya çarpışma (Çatışma)",
+        "blocks": [
+          {
+            "p": "辰 ve 戌 daire üzerinde tam karşılıklı oturur. Bu hizmet çatışmada bile {scoreChung} puanı korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil; tabana yakın bir puan vermek iki kişi hakkında hüküm vermek anlamına gelirdi. Yine de Ejderha burcunun alabileceği en düşük puandır."
+          }
+        ]
+      },
+      {
+        "title": "Domuz — sessiz uyumsuzluk (Uyumsuzluk)",
+        "blocks": [
+          {
+            "p": "辰 ve 亥, çatışma konumundaki 戌 (Köpek) ile yan yana oturur ve geleneksel olarak birbirine kırgın ama ayrılamayan bir çift olarak görülür. Yüzeyde sakin görünür, ama uyumsuzluğun kalıcı olduğuna inanılır; bu yüzden {scoreWonjin} puan alır — çatışmadan ({scoreChung}) yüksek, nötrden ({scoreNeutral}) düşüktür."
+          }
+        ]
+      },
+      {
+        "title": "Diğer 7 hayvan ve Ejderha ile bir başka Ejderha",
+        "blocks": [
+          {
+            "p": "Öküz, Kaplan, Tavşan, Yılan, At, Koyun ve Maymun, Ejderha ile ne harmoni, ne çatışma, ne de uyumsuzluk oluşturur: **nötrdür** ve {scoreNeutral} puan alır. Başlangıç düzeyidir; ne iyi ne kötü."
+          },
+          {
+            "p": "İki Ejderha burcundaki kişi {scoreSame} puan alır. Birbirine çekildiklerini değil, benzediklerini ifade eder; bu yüzden nötrün hemen üstündedir."
+          }
+        ]
+      },
+      {
+        "title": "Bu puanın nihai eşleşme oranından aldığı pay",
+        "blocks": [
+          {
+            "p": "İki kişinin dallarının yan yana konduğu iki yer vardır."
+          },
+          {
+            "ul": [
+              "**Burç uyumu** doğum yılının dalına bakar. Nihai eşleşme oranının {weightZodiac} kadarını oluşturur.",
+              "**Gün dalı uyumu** doğum gününün dalına bakar. Saju uyumunun ({weightSaju}) {weightDayBranch} kadarını oluşturur; bu da nihai eşleşme oranının {weightDayBranchTotal} kadarıdır."
+            ]
+          },
+          {
+            "p": "Örneğin bir Ejderha burcundaki kişi bir Köpek burcundaki kişiyle buluştuğunda burç uyumu çatışma verir. Diğer her şey eşitse nihai eşleşme oranı nötr bir çifte göre {swingZodiacChung} puan düşük çıkar. Bir Horoz burcundaki kişiyle altı-harmonidir ve oran {swingZodiacYukhap} puan yüksek çıkar."
+          },
+          {
+            "p": "Yıl ve gün dalları farklı olabilir. Gün dalları 辰 ve 戌 olan iki Ejderha burcundaki kişi, burç uyumunda aynı dalı ({scoreSame}), gün dalı uyumunda ise çatışmayı ({scoreChung}) alır."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu rehberin söylemedikleri",
+        "blocks": [
+          {
+            "ul": [
+              "Tek bir hayvan iki kişi arasındaki ilişkiyi belirlemez. Nihai eşleşme oranının {weightSaju} kadarını saju uyumu belirler.",
+              "Yukarıdaki puan değişimleri diğer her şeyin eşit olduğunu varsayar; gerçek sonucu iki kişinin tüm saju'su belirler.",
+              "Hangi ilişkinin kaç puan aldığını gösteren tam tablo [on iki dal tablosunda](/guide/branches); burcun neden yıl dalından okunduğu ise [Burç uyumu neden yıl dalını dikkate alır](/guide/zodiac) sayfasındadır."
+            ]
+          },
+          {
+            "p": "Diğer hayvanlar aynı şekilde düzenlenmiştir. [Fare](/guide/zodiac-rat) · [Öküz](/guide/zodiac-ox) · [Kaplan](/guide/zodiac-tiger) · [Tavşan](/guide/zodiac-rabbit) · [Yılan](/guide/zodiac-snake) · [At](/guide/zodiac-horse) · [Koyun](/guide/zodiac-goat) · [Maymun](/guide/zodiac-monkey) · [Horoz](/guide/zodiac-rooster) · [Köpek](/guide/zodiac-dog) · [Domuz](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-snake": {
+    "eyebrow": "Hayvana göre",
+    "title": "Yılan On İki Burç Hayvanıyla Nasıl Buluşur",
+    "summary": "Yılan (巳) ile on iki burç hayvanının her biri arasındaki ilişki, her birinin aldığı puan ve bu puanın nihai eşleşme oranından aldığı pay — tam olarak Inyeon-Link'in hesaplama kurallarında yer aldığı gibi sıralanmıştır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "Yılan, on iki dalın altıncısıdır",
+        "blocks": [
+          {
+            "p": "Yılan, doğum yılı dalı **巳** olan kişidir. 巳, on iki yer dalının altıncısıdır; on iki karakter bir daire içine dizildiğinde tam karşısında 亥 (Domuz) yer alır."
+          },
+          {
+            "p": "Uyum sonucunun Yılan burcundaki bir kişi için gösterdiği satır şudur: \"İçini kolay açmaz, derin düşünür. Değerlendirmesi isabetlidir.\" Bu satırın ilişki puanlarıyla ilgisi yoktur ve aşağıdaki puanları etkilemez."
+          }
+        ]
+      },
+      {
+        "title": "On iki burç hayvanı bir bakışta",
+        "blocks": [
+          {
+            "p": "Diğer hayvanların her biri sırayla Yılan ile karşılaştırılır. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler ilişki olarak yazılmıştır; geri kalan her şey nötrdür."
+          },
+          {
+            "table": {
+              "caption": "Yılan ve on iki burç hayvanı",
+              "head": [
+                "Diğer hayvan",
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Fare (子)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Öküz (丑)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kaplan (寅)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tavşan (卯)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ejderha (辰)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Yılan (巳)",
+                  "Aynı dal",
+                  "{scoreSame}"
+                ],
+                [
+                  "At (午)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koyun (未)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maymun (申)",
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Çatışma",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Maymun — çeken çift (Altı-Harmoni)",
+        "blocks": [
+          {
+            "p": "巳 ve 申 yalnızca iki karakterle bir harmoni oluşturur. Altı-harmoni, uyumda en sık görülen iyi ilişkidir; Maymun ve Yılan {scoreYukhap} puan alır, bu da Yılan burcunun alabileceği en yüksek puandır."
+          }
+        ]
+      },
+      {
+        "title": "Horoz — kraliyet dalını içeren yarım üçlü",
+        "blocks": [
+          {
+            "p": "巳酉丑, tek bir üçlü gruptur (metal grubu) ve 酉, grubun merkezindeki **kraliyet dalı**dır. Inyeon-Link yalnızca kraliyet dalını içeren çiftleri kabul eder; bu yüzden Yılan yalnızca Horoz ile yarım üçlü ({scoreBanhap}) oluşturur."
+          },
+          {
+            "p": "Aynı gruptaki Öküz (丑) ile merkezdeki 酉 karakteri eksiktir; bu yüzden harmoni sayılmaz ve nötr ({scoreNeutral}) kabul edilir. Aynı grupta olmak her çifti harmoni yapmaz."
+          }
+        ]
+      },
+      {
+        "title": "Domuz — kafa kafaya çarpışma (Çatışma)",
+        "blocks": [
+          {
+            "p": "巳 ve 亥 daire üzerinde tam karşılıklı oturur. Bu hizmet çatışmada bile {scoreChung} puanı korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil; tabana yakın bir puan vermek iki kişi hakkında hüküm vermek anlamına gelirdi. Yine de Yılan burcunun alabileceği en düşük puandır."
+          }
+        ]
+      },
+      {
+        "title": "Köpek — sessiz uyumsuzluk (Uyumsuzluk)",
+        "blocks": [
+          {
+            "p": "巳 ve 戌, çatışma konumundaki 亥 (Domuz) ile yan yana oturur ve geleneksel olarak birbirine kırgın ama ayrılamayan bir çift olarak görülür. Yüzeyde sakin görünür, ama uyumsuzluğun kalıcı olduğuna inanılır; bu yüzden {scoreWonjin} puan alır — çatışmadan ({scoreChung}) yüksek, nötrden ({scoreNeutral}) düşüktür."
+          }
+        ]
+      },
+      {
+        "title": "Diğer 7 hayvan ve Yılan ile bir başka Yılan",
+        "blocks": [
+          {
+            "p": "Fare, Öküz, Kaplan, Tavşan, Ejderha, At ve Koyun, Yılan ile ne harmoni, ne çatışma, ne de uyumsuzluk oluşturur: **nötrdür** ve {scoreNeutral} puan alır. Başlangıç düzeyidir; ne iyi ne kötü."
+          },
+          {
+            "p": "İki Yılan burcundaki kişi {scoreSame} puan alır. Birbirine çekildiklerini değil, benzediklerini ifade eder; bu yüzden nötrün hemen üstündedir."
+          }
+        ]
+      },
+      {
+        "title": "Bu puanın nihai eşleşme oranından aldığı pay",
+        "blocks": [
+          {
+            "p": "İki kişinin dallarının yan yana konduğu iki yer vardır."
+          },
+          {
+            "ul": [
+              "**Burç uyumu** doğum yılının dalına bakar. Nihai eşleşme oranının {weightZodiac} kadarını oluşturur.",
+              "**Gün dalı uyumu** doğum gününün dalına bakar. Saju uyumunun ({weightSaju}) {weightDayBranch} kadarını oluşturur; bu da nihai eşleşme oranının {weightDayBranchTotal} kadarıdır."
+            ]
+          },
+          {
+            "p": "Örneğin bir Yılan burcundaki kişi bir Domuz burcundaki kişiyle buluştuğunda burç uyumu çatışma verir. Diğer her şey eşitse nihai eşleşme oranı nötr bir çifte göre {swingZodiacChung} puan düşük çıkar. Bir Maymun burcundaki kişiyle altı-harmonidir ve oran {swingZodiacYukhap} puan yüksek çıkar."
+          },
+          {
+            "p": "Yıl ve gün dalları farklı olabilir. Gün dalları 巳 ve 亥 olan iki Yılan burcundaki kişi, burç uyumunda aynı dalı ({scoreSame}), gün dalı uyumunda ise çatışmayı ({scoreChung}) alır."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu rehberin söylemedikleri",
+        "blocks": [
+          {
+            "ul": [
+              "Tek bir hayvan iki kişi arasındaki ilişkiyi belirlemez. Nihai eşleşme oranının {weightSaju} kadarını saju uyumu belirler.",
+              "Yukarıdaki puan değişimleri diğer her şeyin eşit olduğunu varsayar; gerçek sonucu iki kişinin tüm saju'su belirler.",
+              "Hangi ilişkinin kaç puan aldığını gösteren tam tablo [on iki dal tablosunda](/guide/branches); burcun neden yıl dalından okunduğu ise [Burç uyumu neden yıl dalını dikkate alır](/guide/zodiac) sayfasındadır."
+            ]
+          },
+          {
+            "p": "Diğer hayvanlar aynı şekilde düzenlenmiştir. [Fare](/guide/zodiac-rat) · [Öküz](/guide/zodiac-ox) · [Kaplan](/guide/zodiac-tiger) · [Tavşan](/guide/zodiac-rabbit) · [Ejderha](/guide/zodiac-dragon) · [At](/guide/zodiac-horse) · [Koyun](/guide/zodiac-goat) · [Maymun](/guide/zodiac-monkey) · [Horoz](/guide/zodiac-rooster) · [Köpek](/guide/zodiac-dog) · [Domuz](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-horse": {
+    "eyebrow": "Hayvana göre",
+    "title": "At On İki Burç Hayvanıyla Nasıl Buluşur",
+    "summary": "At (午) ile on iki burç hayvanının her biri arasındaki ilişki, her birinin aldığı puan ve bu puanın nihai eşleşme oranından aldığı pay — tam olarak Inyeon-Link'in hesaplama kurallarında yer aldığı gibi sıralanmıştır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "At, on iki dalın yedincisidir",
+        "blocks": [
+          {
+            "p": "At, doğum yılı dalı **午** olan kişidir. 午, on iki yer dalının yedincisidir; on iki karakter bir daire içine dizildiğinde tam karşısında 子 (Fare) yer alır."
+          },
+          {
+            "p": "Uyum sonucunun At burcundaki bir kişi için gösterdiği satır şudur: \"Neşeli ve hareketlidir. En zor geldiği şey bir yere kapatılmaktır.\" Bu satırın ilişki puanlarıyla ilgisi yoktur ve aşağıdaki puanları etkilemez."
+          }
+        ]
+      },
+      {
+        "title": "On iki burç hayvanı bir bakışta",
+        "blocks": [
+          {
+            "p": "Diğer hayvanların her biri sırayla At ile karşılaştırılır. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler ilişki olarak yazılmıştır; geri kalan her şey nötrdür."
+          },
+          {
+            "table": {
+              "caption": "At ve on iki burç hayvanı",
+              "head": [
+                "Diğer hayvan",
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Fare (子)",
+                  "Çatışma",
+                  "{scoreChung}"
+                ],
+                [
+                  "Öküz (丑)",
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Kaplan (寅)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Tavşan (卯)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ejderha (辰)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Yılan (巳)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "At (午)",
+                  "Aynı dal",
+                  "{scoreSame}"
+                ],
+                [
+                  "Koyun (未)",
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Maymun (申)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Koyun — çeken çift (Altı-Harmoni)",
+        "blocks": [
+          {
+            "p": "午 ve 未 yalnızca iki karakterle bir harmoni oluşturur. Altı-harmoni, uyumda en sık görülen iyi ilişkidir; Koyun ve At {scoreYukhap} puan alır, bu da At burcunun alabileceği en yüksek puandır."
+          }
+        ]
+      },
+      {
+        "title": "Kaplan ve Köpek — kraliyet dalını içeren yarım üçlü",
+        "blocks": [
+          {
+            "p": "寅午戌, tek bir üçlü gruptur (ateş grubu) ve 午, grubun merkezindeki **kraliyet dalı**dır. Inyeon-Link yalnızca kraliyet dalını içeren çiftleri kabul eder; bu yüzden At hem Kaplan hem Köpek ile yarım üçlü ({scoreBanhap}) oluşturur."
+          },
+          {
+            "p": "**Kaplan ve Köpek birlikte** ise merkezdeki 午 karakterinden yoksundur; bu yüzden harmoni sayılmaz ve nötr kabul edilir. Aynı üçlü grubun içinde bile yarım üçlüyü oluşturan, At burcudur."
+          }
+        ]
+      },
+      {
+        "title": "Fare — kafa kafaya çarpışma (Çatışma)",
+        "blocks": [
+          {
+            "p": "午 ve 子 daire üzerinde tam karşılıklı oturur. Bu hizmet çatışmada bile {scoreChung} puanı korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil; tabana yakın bir puan vermek iki kişi hakkında hüküm vermek anlamına gelirdi. Yine de At burcunun alabileceği en düşük puandır."
+          }
+        ]
+      },
+      {
+        "title": "Öküz — sessiz uyumsuzluk (Uyumsuzluk)",
+        "blocks": [
+          {
+            "p": "午 ve 丑, çatışma konumundaki 子 (Fare) ile yan yana oturur ve geleneksel olarak birbirine kırgın ama ayrılamayan bir çift olarak görülür. Yüzeyde sakin görünür, ama uyumsuzluğun kalıcı olduğuna inanılır; bu yüzden {scoreWonjin} puan alır — çatışmadan ({scoreChung}) yüksek, nötrden ({scoreNeutral}) düşüktür."
+          }
+        ]
+      },
+      {
+        "title": "Diğer 6 hayvan ve At ile bir başka At",
+        "blocks": [
+          {
+            "p": "Tavşan, Ejderha, Yılan, Maymun, Horoz ve Domuz, At ile ne harmoni, ne çatışma, ne de uyumsuzluk oluşturur: **nötrdür** ve {scoreNeutral} puan alır. Başlangıç düzeyidir; ne iyi ne kötü."
+          },
+          {
+            "p": "İki At burcundaki kişi {scoreSame} puan alır. Birbirine çekildiklerini değil, benzediklerini ifade eder; bu yüzden nötrün hemen üstündedir."
+          }
+        ]
+      },
+      {
+        "title": "Bu puanın nihai eşleşme oranından aldığı pay",
+        "blocks": [
+          {
+            "p": "İki kişinin dallarının yan yana konduğu iki yer vardır."
+          },
+          {
+            "ul": [
+              "**Burç uyumu** doğum yılının dalına bakar. Nihai eşleşme oranının {weightZodiac} kadarını oluşturur.",
+              "**Gün dalı uyumu** doğum gününün dalına bakar. Saju uyumunun ({weightSaju}) {weightDayBranch} kadarını oluşturur; bu da nihai eşleşme oranının {weightDayBranchTotal} kadarıdır."
+            ]
+          },
+          {
+            "p": "Örneğin bir At burcundaki kişi bir Fare burcundaki kişiyle buluştuğunda burç uyumu çatışma verir. Diğer her şey eşitse nihai eşleşme oranı nötr bir çifte göre {swingZodiacChung} puan düşük çıkar. Bir Koyun burcundaki kişiyle altı-harmonidir ve oran {swingZodiacYukhap} puan yüksek çıkar."
+          },
+          {
+            "p": "Yıl ve gün dalları farklı olabilir. Gün dalları 午 ve 子 olan iki At burcundaki kişi, burç uyumunda aynı dalı ({scoreSame}), gün dalı uyumunda ise çatışmayı ({scoreChung}) alır."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu rehberin söylemedikleri",
+        "blocks": [
+          {
+            "ul": [
+              "Tek bir hayvan iki kişi arasındaki ilişkiyi belirlemez. Nihai eşleşme oranının {weightSaju} kadarını saju uyumu belirler.",
+              "Yukarıdaki puan değişimleri diğer her şeyin eşit olduğunu varsayar; gerçek sonucu iki kişinin tüm saju'su belirler.",
+              "Hangi ilişkinin kaç puan aldığını gösteren tam tablo [on iki dal tablosunda](/guide/branches); burcun neden yıl dalından okunduğu ise [Burç uyumu neden yıl dalını dikkate alır](/guide/zodiac) sayfasındadır."
+            ]
+          },
+          {
+            "p": "Diğer hayvanlar aynı şekilde düzenlenmiştir. [Fare](/guide/zodiac-rat) · [Öküz](/guide/zodiac-ox) · [Kaplan](/guide/zodiac-tiger) · [Tavşan](/guide/zodiac-rabbit) · [Ejderha](/guide/zodiac-dragon) · [Yılan](/guide/zodiac-snake) · [Koyun](/guide/zodiac-goat) · [Maymun](/guide/zodiac-monkey) · [Horoz](/guide/zodiac-rooster) · [Köpek](/guide/zodiac-dog) · [Domuz](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-goat": {
+    "eyebrow": "Hayvana göre",
+    "title": "Koyun On İki Burç Hayvanıyla Nasıl Buluşur",
+    "summary": "Koyun (未) ile on iki burç hayvanının her biri arasındaki ilişki, her birinin aldığı puan ve bu puanın nihai eşleşme oranından aldığı pay — tam olarak Inyeon-Link'in hesaplama kurallarında yer aldığı gibi sıralanmıştır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "Koyun, on iki dalın sekizincisidir",
+        "blocks": [
+          {
+            "p": "Koyun, doğum yılı dalı **未** olan kişidir. 未, on iki yer dalının sekizincisidir; on iki karakter bir daire içine dizildiğinde tam karşısında 丑 (Öküz) yer alır."
+          },
+          {
+            "p": "Uyum sonucunun Koyun burcundaki bir kişi için gösterdiği satır şudur: \"Sıcak ve düşüncelidir. Sert sözleri uzun süre içinde taşır.\" Bu satırın ilişki puanlarıyla ilgisi yoktur ve aşağıdaki puanları etkilemez."
+          }
+        ]
+      },
+      {
+        "title": "On iki burç hayvanı bir bakışta",
+        "blocks": [
+          {
+            "p": "Diğer hayvanların her biri sırayla Koyun ile karşılaştırılır. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler ilişki olarak yazılmıştır; geri kalan her şey nötrdür."
+          },
+          {
+            "table": {
+              "caption": "Koyun ve on iki burç hayvanı",
+              "head": [
+                "Diğer hayvan",
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Fare (子)",
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Öküz (丑)",
+                  "Çatışma",
+                  "{scoreChung}"
+                ],
+                [
+                  "Kaplan (寅)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tavşan (卯)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Ejderha (辰)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Yılan (巳)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "At (午)",
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Koyun (未)",
+                  "Aynı dal",
+                  "{scoreSame}"
+                ],
+                [
+                  "Maymun (申)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "At — çeken çift (Altı-Harmoni)",
+        "blocks": [
+          {
+            "p": "未 ve 午 yalnızca iki karakterle bir harmoni oluşturur. Altı-harmoni, uyumda en sık görülen iyi ilişkidir; At ve Koyun {scoreYukhap} puan alır, bu da Koyun burcunun alabileceği en yüksek puandır."
+          }
+        ]
+      },
+      {
+        "title": "Tavşan — kraliyet dalını içeren yarım üçlü",
+        "blocks": [
+          {
+            "p": "亥卯未, tek bir üçlü gruptur (ağaç grubu) ve 卯, grubun merkezindeki **kraliyet dalı**dır. Inyeon-Link yalnızca kraliyet dalını içeren çiftleri kabul eder; bu yüzden Koyun yalnızca Tavşan ile yarım üçlü ({scoreBanhap}) oluşturur."
+          },
+          {
+            "p": "Aynı gruptaki Domuz (亥) ile merkezdeki 卯 karakteri eksiktir; bu yüzden harmoni sayılmaz ve nötr ({scoreNeutral}) kabul edilir. Aynı grupta olmak her çifti harmoni yapmaz."
+          }
+        ]
+      },
+      {
+        "title": "Öküz — kafa kafaya çarpışma (Çatışma)",
+        "blocks": [
+          {
+            "p": "未 ve 丑 daire üzerinde tam karşılıklı oturur. Bu hizmet çatışmada bile {scoreChung} puanı korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil; tabana yakın bir puan vermek iki kişi hakkında hüküm vermek anlamına gelirdi. Yine de Koyun burcunun alabileceği en düşük puandır."
+          }
+        ]
+      },
+      {
+        "title": "Fare — sessiz uyumsuzluk (Uyumsuzluk)",
+        "blocks": [
+          {
+            "p": "未 ve 子, çatışma konumundaki 丑 (Öküz) ile yan yana oturur ve geleneksel olarak birbirine kırgın ama ayrılamayan bir çift olarak görülür. Yüzeyde sakin görünür, ama uyumsuzluğun kalıcı olduğuna inanılır; bu yüzden {scoreWonjin} puan alır — çatışmadan ({scoreChung}) yüksek, nötrden ({scoreNeutral}) düşüktür."
+          }
+        ]
+      },
+      {
+        "title": "Diğer 7 hayvan ve Koyun ile bir başka Koyun",
+        "blocks": [
+          {
+            "p": "Kaplan, Ejderha, Yılan, Maymun, Horoz, Köpek ve Domuz, Koyun ile ne harmoni, ne çatışma, ne de uyumsuzluk oluşturur: **nötrdür** ve {scoreNeutral} puan alır. Başlangıç düzeyidir; ne iyi ne kötü."
+          },
+          {
+            "p": "İki Koyun burcundaki kişi {scoreSame} puan alır. Birbirine çekildiklerini değil, benzediklerini ifade eder; bu yüzden nötrün hemen üstündedir."
+          }
+        ]
+      },
+      {
+        "title": "Bu puanın nihai eşleşme oranından aldığı pay",
+        "blocks": [
+          {
+            "p": "İki kişinin dallarının yan yana konduğu iki yer vardır."
+          },
+          {
+            "ul": [
+              "**Burç uyumu** doğum yılının dalına bakar. Nihai eşleşme oranının {weightZodiac} kadarını oluşturur.",
+              "**Gün dalı uyumu** doğum gününün dalına bakar. Saju uyumunun ({weightSaju}) {weightDayBranch} kadarını oluşturur; bu da nihai eşleşme oranının {weightDayBranchTotal} kadarıdır."
+            ]
+          },
+          {
+            "p": "Örneğin bir Koyun burcundaki kişi bir Öküz burcundaki kişiyle buluştuğunda burç uyumu çatışma verir. Diğer her şey eşitse nihai eşleşme oranı nötr bir çifte göre {swingZodiacChung} puan düşük çıkar. Bir At burcundaki kişiyle altı-harmonidir ve oran {swingZodiacYukhap} puan yüksek çıkar."
+          },
+          {
+            "p": "Yıl ve gün dalları farklı olabilir. Gün dalları 未 ve 丑 olan iki Koyun burcundaki kişi, burç uyumunda aynı dalı ({scoreSame}), gün dalı uyumunda ise çatışmayı ({scoreChung}) alır."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu rehberin söylemedikleri",
+        "blocks": [
+          {
+            "ul": [
+              "Tek bir hayvan iki kişi arasındaki ilişkiyi belirlemez. Nihai eşleşme oranının {weightSaju} kadarını saju uyumu belirler.",
+              "Yukarıdaki puan değişimleri diğer her şeyin eşit olduğunu varsayar; gerçek sonucu iki kişinin tüm saju'su belirler.",
+              "Hangi ilişkinin kaç puan aldığını gösteren tam tablo [on iki dal tablosunda](/guide/branches); burcun neden yıl dalından okunduğu ise [Burç uyumu neden yıl dalını dikkate alır](/guide/zodiac) sayfasındadır."
+            ]
+          },
+          {
+            "p": "Diğer hayvanlar aynı şekilde düzenlenmiştir. [Fare](/guide/zodiac-rat) · [Öküz](/guide/zodiac-ox) · [Kaplan](/guide/zodiac-tiger) · [Tavşan](/guide/zodiac-rabbit) · [Ejderha](/guide/zodiac-dragon) · [Yılan](/guide/zodiac-snake) · [At](/guide/zodiac-horse) · [Maymun](/guide/zodiac-monkey) · [Horoz](/guide/zodiac-rooster) · [Köpek](/guide/zodiac-dog) · [Domuz](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-monkey": {
+    "eyebrow": "Hayvana göre",
+    "title": "Maymun On İki Burç Hayvanıyla Nasıl Buluşur",
+    "summary": "Maymun (申) ile on iki burç hayvanının her biri arasındaki ilişki, her birinin aldığı puan ve bu puanın nihai eşleşme oranından aldığı pay — tam olarak Inyeon-Link'in hesaplama kurallarında yer aldığı gibi sıralanmıştır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "Maymun, on iki dalın dokuzuncusudur",
+        "blocks": [
+          {
+            "p": "Maymun, doğum yılı dalı **申** olan kişidir. 申, on iki yer dalının dokuzuncusudur; on iki karakter bir daire içine dizildiğinde tam karşısında 寅 (Kaplan) yer alır."
+          },
+          {
+            "p": "Uyum sonucunun Maymun burcundaki bir kişi için gösterdiği satır şudur: \"Becerikli ve çabuk uyum sağlar. Tekrardan sıkılır.\" Bu satırın ilişki puanlarıyla ilgisi yoktur ve aşağıdaki puanları etkilemez."
+          }
+        ]
+      },
+      {
+        "title": "On iki burç hayvanı bir bakışta",
+        "blocks": [
+          {
+            "p": "Diğer hayvanların her biri sırayla Maymun ile karşılaştırılır. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler ilişki olarak yazılmıştır; geri kalan her şey nötrdür."
+          },
+          {
+            "table": {
+              "caption": "Maymun ve on iki burç hayvanı",
+              "head": [
+                "Diğer hayvan",
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Fare (子)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Öküz (丑)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kaplan (寅)",
+                  "Çatışma",
+                  "{scoreChung}"
+                ],
+                [
+                  "Tavşan (卯)",
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Ejderha (辰)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Yılan (巳)",
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "At (午)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koyun (未)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maymun (申)",
+                  "Aynı dal",
+                  "{scoreSame}"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Yılan — çeken çift (Altı-Harmoni)",
+        "blocks": [
+          {
+            "p": "申 ve 巳 yalnızca iki karakterle bir harmoni oluşturur. Altı-harmoni, uyumda en sık görülen iyi ilişkidir; Yılan ve Maymun {scoreYukhap} puan alır, bu da Maymun burcunun alabileceği en yüksek puandır."
+          }
+        ]
+      },
+      {
+        "title": "Fare — kraliyet dalını içeren yarım üçlü",
+        "blocks": [
+          {
+            "p": "申子辰, tek bir üçlü gruptur (su grubu) ve 子, grubun merkezindeki **kraliyet dalı**dır. Inyeon-Link yalnızca kraliyet dalını içeren çiftleri kabul eder; bu yüzden Maymun yalnızca Fare ile yarım üçlü ({scoreBanhap}) oluşturur."
+          },
+          {
+            "p": "Aynı gruptaki Ejderha (辰) ile merkezdeki 子 karakteri eksiktir; bu yüzden harmoni sayılmaz ve nötr ({scoreNeutral}) kabul edilir. Aynı grupta olmak her çifti harmoni yapmaz."
+          }
+        ]
+      },
+      {
+        "title": "Kaplan — kafa kafaya çarpışma (Çatışma)",
+        "blocks": [
+          {
+            "p": "申 ve 寅 daire üzerinde tam karşılıklı oturur. Bu hizmet çatışmada bile {scoreChung} puanı korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil; tabana yakın bir puan vermek iki kişi hakkında hüküm vermek anlamına gelirdi. Yine de Maymun burcunun alabileceği en düşük puandır."
+          }
+        ]
+      },
+      {
+        "title": "Tavşan — sessiz uyumsuzluk (Uyumsuzluk)",
+        "blocks": [
+          {
+            "p": "申 ve 卯, çatışma konumundaki 寅 (Kaplan) ile yan yana oturur ve geleneksel olarak birbirine kırgın ama ayrılamayan bir çift olarak görülür. Yüzeyde sakin görünür, ama uyumsuzluğun kalıcı olduğuna inanılır; bu yüzden {scoreWonjin} puan alır — çatışmadan ({scoreChung}) yüksek, nötrden ({scoreNeutral}) düşüktür."
+          }
+        ]
+      },
+      {
+        "title": "Diğer 7 hayvan ve Maymun ile bir başka Maymun",
+        "blocks": [
+          {
+            "p": "Öküz, Ejderha, At, Koyun, Horoz, Köpek ve Domuz, Maymun ile ne harmoni, ne çatışma, ne de uyumsuzluk oluşturur: **nötrdür** ve {scoreNeutral} puan alır. Başlangıç düzeyidir; ne iyi ne kötü."
+          },
+          {
+            "p": "İki Maymun burcundaki kişi {scoreSame} puan alır. Birbirine çekildiklerini değil, benzediklerini ifade eder; bu yüzden nötrün hemen üstündedir."
+          }
+        ]
+      },
+      {
+        "title": "Bu puanın nihai eşleşme oranından aldığı pay",
+        "blocks": [
+          {
+            "p": "İki kişinin dallarının yan yana konduğu iki yer vardır."
+          },
+          {
+            "ul": [
+              "**Burç uyumu** doğum yılının dalına bakar. Nihai eşleşme oranının {weightZodiac} kadarını oluşturur.",
+              "**Gün dalı uyumu** doğum gününün dalına bakar. Saju uyumunun ({weightSaju}) {weightDayBranch} kadarını oluşturur; bu da nihai eşleşme oranının {weightDayBranchTotal} kadarıdır."
+            ]
+          },
+          {
+            "p": "Örneğin bir Maymun burcundaki kişi bir Kaplan burcundaki kişiyle buluştuğunda burç uyumu çatışma verir. Diğer her şey eşitse nihai eşleşme oranı nötr bir çifte göre {swingZodiacChung} puan düşük çıkar. Bir Yılan burcundaki kişiyle altı-harmonidir ve oran {swingZodiacYukhap} puan yüksek çıkar."
+          },
+          {
+            "p": "Yıl ve gün dalları farklı olabilir. Gün dalları 申 ve 寅 olan iki Maymun burcundaki kişi, burç uyumunda aynı dalı ({scoreSame}), gün dalı uyumunda ise çatışmayı ({scoreChung}) alır."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu rehberin söylemedikleri",
+        "blocks": [
+          {
+            "ul": [
+              "Tek bir hayvan iki kişi arasındaki ilişkiyi belirlemez. Nihai eşleşme oranının {weightSaju} kadarını saju uyumu belirler.",
+              "Yukarıdaki puan değişimleri diğer her şeyin eşit olduğunu varsayar; gerçek sonucu iki kişinin tüm saju'su belirler.",
+              "Hangi ilişkinin kaç puan aldığını gösteren tam tablo [on iki dal tablosunda](/guide/branches); burcun neden yıl dalından okunduğu ise [Burç uyumu neden yıl dalını dikkate alır](/guide/zodiac) sayfasındadır."
+            ]
+          },
+          {
+            "p": "Diğer hayvanlar aynı şekilde düzenlenmiştir. [Fare](/guide/zodiac-rat) · [Öküz](/guide/zodiac-ox) · [Kaplan](/guide/zodiac-tiger) · [Tavşan](/guide/zodiac-rabbit) · [Ejderha](/guide/zodiac-dragon) · [Yılan](/guide/zodiac-snake) · [At](/guide/zodiac-horse) · [Koyun](/guide/zodiac-goat) · [Horoz](/guide/zodiac-rooster) · [Köpek](/guide/zodiac-dog) · [Domuz](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rooster": {
+    "eyebrow": "Hayvana göre",
+    "title": "Horoz On İki Burç Hayvanıyla Nasıl Buluşur",
+    "summary": "Horoz (酉) ile on iki burç hayvanının her biri arasındaki ilişki, her birinin aldığı puan ve bu puanın nihai eşleşme oranından aldığı pay — tam olarak Inyeon-Link'in hesaplama kurallarında yer aldığı gibi sıralanmıştır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "Horoz, on iki dalın onuncusudur",
+        "blocks": [
+          {
+            "p": "Horoz, doğum yılı dalı **酉** olan kişidir. 酉, on iki yer dalının onuncusudur; on iki karakter bir daire içine dizildiğinde tam karşısında 卯 (Tavşan) yer alır."
+          },
+          {
+            "p": "Uyum sonucunun Horoz burcundaki bir kişi için gösterdiği satır şudur: \"Çalışkan ve titizdir. Yerinde olmayan bir şeyi öylece bırakamaz.\" Bu satırın ilişki puanlarıyla ilgisi yoktur ve aşağıdaki puanları etkilemez."
+          }
+        ]
+      },
+      {
+        "title": "On iki burç hayvanı bir bakışta",
+        "blocks": [
+          {
+            "p": "Diğer hayvanların her biri sırayla Horoz ile karşılaştırılır. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler ilişki olarak yazılmıştır; geri kalan her şey nötrdür."
+          },
+          {
+            "table": {
+              "caption": "Horoz ve on iki burç hayvanı",
+              "head": [
+                "Diğer hayvan",
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Fare (子)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Öküz (丑)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Kaplan (寅)",
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Tavşan (卯)",
+                  "Çatışma",
+                  "{scoreChung}"
+                ],
+                [
+                  "Ejderha (辰)",
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Yılan (巳)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "At (午)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koyun (未)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maymun (申)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Aynı dal",
+                  "{scoreSame}"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ejderha — çeken çift (Altı-Harmoni)",
+        "blocks": [
+          {
+            "p": "酉 ve 辰 yalnızca iki karakterle bir harmoni oluşturur. Altı-harmoni, uyumda en sık görülen iyi ilişkidir; Ejderha ve Horoz {scoreYukhap} puan alır, bu da Horoz burcunun alabileceği en yüksek puandır."
+          }
+        ]
+      },
+      {
+        "title": "Öküz ve Yılan — kraliyet dalını içeren yarım üçlü",
+        "blocks": [
+          {
+            "p": "巳酉丑, tek bir üçlü gruptur (metal grubu) ve 酉, grubun merkezindeki **kraliyet dalı**dır. Inyeon-Link yalnızca kraliyet dalını içeren çiftleri kabul eder; bu yüzden Horoz hem Öküz hem Yılan ile yarım üçlü ({scoreBanhap}) oluşturur."
+          },
+          {
+            "p": "**Yılan ve Öküz birlikte** ise merkezdeki 酉 karakterinden yoksundur; bu yüzden harmoni sayılmaz ve nötr kabul edilir. Aynı üçlü grubun içinde bile yarım üçlüyü oluşturan, Horoz burcudur."
+          }
+        ]
+      },
+      {
+        "title": "Tavşan — kafa kafaya çarpışma (Çatışma)",
+        "blocks": [
+          {
+            "p": "酉 ve 卯 daire üzerinde tam karşılıklı oturur. Bu hizmet çatışmada bile {scoreChung} puanı korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil; tabana yakın bir puan vermek iki kişi hakkında hüküm vermek anlamına gelirdi. Yine de Horoz burcunun alabileceği en düşük puandır."
+          }
+        ]
+      },
+      {
+        "title": "Kaplan — sessiz uyumsuzluk (Uyumsuzluk)",
+        "blocks": [
+          {
+            "p": "酉 ve 寅, çatışma konumundaki 卯 (Tavşan) ile yan yana oturur ve geleneksel olarak birbirine kırgın ama ayrılamayan bir çift olarak görülür. Yüzeyde sakin görünür, ama uyumsuzluğun kalıcı olduğuna inanılır; bu yüzden {scoreWonjin} puan alır — çatışmadan ({scoreChung}) yüksek, nötrden ({scoreNeutral}) düşüktür."
+          }
+        ]
+      },
+      {
+        "title": "Diğer 6 hayvan ve Horoz ile bir başka Horoz",
+        "blocks": [
+          {
+            "p": "Fare, At, Koyun, Maymun, Köpek ve Domuz, Horoz ile ne harmoni, ne çatışma, ne de uyumsuzluk oluşturur: **nötrdür** ve {scoreNeutral} puan alır. Başlangıç düzeyidir; ne iyi ne kötü."
+          },
+          {
+            "p": "İki Horoz burcundaki kişi {scoreSame} puan alır. Birbirine çekildiklerini değil, benzediklerini ifade eder; bu yüzden nötrün hemen üstündedir."
+          }
+        ]
+      },
+      {
+        "title": "Bu puanın nihai eşleşme oranından aldığı pay",
+        "blocks": [
+          {
+            "p": "İki kişinin dallarının yan yana konduğu iki yer vardır."
+          },
+          {
+            "ul": [
+              "**Burç uyumu** doğum yılının dalına bakar. Nihai eşleşme oranının {weightZodiac} kadarını oluşturur.",
+              "**Gün dalı uyumu** doğum gününün dalına bakar. Saju uyumunun ({weightSaju}) {weightDayBranch} kadarını oluşturur; bu da nihai eşleşme oranının {weightDayBranchTotal} kadarıdır."
+            ]
+          },
+          {
+            "p": "Örneğin bir Horoz burcundaki kişi bir Tavşan burcundaki kişiyle buluştuğunda burç uyumu çatışma verir. Diğer her şey eşitse nihai eşleşme oranı nötr bir çifte göre {swingZodiacChung} puan düşük çıkar. Bir Ejderha burcundaki kişiyle altı-harmonidir ve oran {swingZodiacYukhap} puan yüksek çıkar."
+          },
+          {
+            "p": "Yıl ve gün dalları farklı olabilir. Gün dalları 酉 ve 卯 olan iki Horoz burcundaki kişi, burç uyumunda aynı dalı ({scoreSame}), gün dalı uyumunda ise çatışmayı ({scoreChung}) alır."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu rehberin söylemedikleri",
+        "blocks": [
+          {
+            "ul": [
+              "Tek bir hayvan iki kişi arasındaki ilişkiyi belirlemez. Nihai eşleşme oranının {weightSaju} kadarını saju uyumu belirler.",
+              "Yukarıdaki puan değişimleri diğer her şeyin eşit olduğunu varsayar; gerçek sonucu iki kişinin tüm saju'su belirler.",
+              "Hangi ilişkinin kaç puan aldığını gösteren tam tablo [on iki dal tablosunda](/guide/branches); burcun neden yıl dalından okunduğu ise [Burç uyumu neden yıl dalını dikkate alır](/guide/zodiac) sayfasındadır."
+            ]
+          },
+          {
+            "p": "Diğer hayvanlar aynı şekilde düzenlenmiştir. [Fare](/guide/zodiac-rat) · [Öküz](/guide/zodiac-ox) · [Kaplan](/guide/zodiac-tiger) · [Tavşan](/guide/zodiac-rabbit) · [Ejderha](/guide/zodiac-dragon) · [Yılan](/guide/zodiac-snake) · [At](/guide/zodiac-horse) · [Koyun](/guide/zodiac-goat) · [Maymun](/guide/zodiac-monkey) · [Köpek](/guide/zodiac-dog) · [Domuz](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dog": {
+    "eyebrow": "Hayvana göre",
+    "title": "Köpek On İki Burç Hayvanıyla Nasıl Buluşur",
+    "summary": "Köpek (戌) ile on iki burç hayvanının her biri arasındaki ilişki, her birinin aldığı puan ve bu puanın nihai eşleşme oranından aldığı pay — tam olarak Inyeon-Link'in hesaplama kurallarında yer aldığı gibi sıralanmıştır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "Köpek, on iki dalın on birincisidir",
+        "blocks": [
+          {
+            "p": "Köpek, doğum yılı dalı **戌** olan kişidir. 戌, on iki yer dalının on birincisidir; on iki karakter bir daire içine dizildiğinde tam karşısında 辰 (Ejderha) yer alır."
+          },
+          {
+            "p": "Uyum sonucunun Köpek burcundaki bir kişi için gösterdiği satır şudur: \"Bir kez güvendi mi sonuna kadar sadıktır. İhanet onu özellikle derinden yaralar.\" Bu satırın ilişki puanlarıyla ilgisi yoktur ve aşağıdaki puanları etkilemez."
+          }
+        ]
+      },
+      {
+        "title": "On iki burç hayvanı bir bakışta",
+        "blocks": [
+          {
+            "p": "Diğer hayvanların her biri sırayla Köpek ile karşılaştırılır. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler ilişki olarak yazılmıştır; geri kalan her şey nötrdür."
+          },
+          {
+            "table": {
+              "caption": "Köpek ve on iki burç hayvanı",
+              "head": [
+                "Diğer hayvan",
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Fare (子)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Öküz (丑)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kaplan (寅)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tavşan (卯)",
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Ejderha (辰)",
+                  "Çatışma",
+                  "{scoreChung}"
+                ],
+                [
+                  "Yılan (巳)",
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "At (午)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Koyun (未)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maymun (申)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Aynı dal",
+                  "{scoreSame}"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Tavşan — çeken çift (Altı-Harmoni)",
+        "blocks": [
+          {
+            "p": "戌 ve 卯 yalnızca iki karakterle bir harmoni oluşturur. Altı-harmoni, uyumda en sık görülen iyi ilişkidir; Tavşan ve Köpek {scoreYukhap} puan alır, bu da Köpek burcunun alabileceği en yüksek puandır."
+          }
+        ]
+      },
+      {
+        "title": "At — kraliyet dalını içeren yarım üçlü",
+        "blocks": [
+          {
+            "p": "寅午戌, tek bir üçlü gruptur (ateş grubu) ve 午, grubun merkezindeki **kraliyet dalı**dır. Inyeon-Link yalnızca kraliyet dalını içeren çiftleri kabul eder; bu yüzden Köpek yalnızca At ile yarım üçlü ({scoreBanhap}) oluşturur."
+          },
+          {
+            "p": "Aynı gruptaki Kaplan (寅) ile merkezdeki 午 karakteri eksiktir; bu yüzden harmoni sayılmaz ve nötr ({scoreNeutral}) kabul edilir. Aynı grupta olmak her çifti harmoni yapmaz."
+          }
+        ]
+      },
+      {
+        "title": "Ejderha — kafa kafaya çarpışma (Çatışma)",
+        "blocks": [
+          {
+            "p": "戌 ve 辰 daire üzerinde tam karşılıklı oturur. Bu hizmet çatışmada bile {scoreChung} puanı korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil; tabana yakın bir puan vermek iki kişi hakkında hüküm vermek anlamına gelirdi. Yine de Köpek burcunun alabileceği en düşük puandır."
+          }
+        ]
+      },
+      {
+        "title": "Yılan — sessiz uyumsuzluk (Uyumsuzluk)",
+        "blocks": [
+          {
+            "p": "戌 ve 巳, çatışma konumundaki 辰 (Ejderha) ile yan yana oturur ve geleneksel olarak birbirine kırgın ama ayrılamayan bir çift olarak görülür. Yüzeyde sakin görünür, ama uyumsuzluğun kalıcı olduğuna inanılır; bu yüzden {scoreWonjin} puan alır — çatışmadan ({scoreChung}) yüksek, nötrden ({scoreNeutral}) düşüktür."
+          }
+        ]
+      },
+      {
+        "title": "Diğer 7 hayvan ve Köpek ile bir başka Köpek",
+        "blocks": [
+          {
+            "p": "Fare, Öküz, Kaplan, Koyun, Maymun, Horoz ve Domuz, Köpek ile ne harmoni, ne çatışma, ne de uyumsuzluk oluşturur: **nötrdür** ve {scoreNeutral} puan alır. Başlangıç düzeyidir; ne iyi ne kötü."
+          },
+          {
+            "p": "İki Köpek burcundaki kişi {scoreSame} puan alır. Birbirine çekildiklerini değil, benzediklerini ifade eder; bu yüzden nötrün hemen üstündedir."
+          }
+        ]
+      },
+      {
+        "title": "Bu puanın nihai eşleşme oranından aldığı pay",
+        "blocks": [
+          {
+            "p": "İki kişinin dallarının yan yana konduğu iki yer vardır."
+          },
+          {
+            "ul": [
+              "**Burç uyumu** doğum yılının dalına bakar. Nihai eşleşme oranının {weightZodiac} kadarını oluşturur.",
+              "**Gün dalı uyumu** doğum gününün dalına bakar. Saju uyumunun ({weightSaju}) {weightDayBranch} kadarını oluşturur; bu da nihai eşleşme oranının {weightDayBranchTotal} kadarıdır."
+            ]
+          },
+          {
+            "p": "Örneğin bir Köpek burcundaki kişi bir Ejderha burcundaki kişiyle buluştuğunda burç uyumu çatışma verir. Diğer her şey eşitse nihai eşleşme oranı nötr bir çifte göre {swingZodiacChung} puan düşük çıkar. Bir Tavşan burcundaki kişiyle altı-harmonidir ve oran {swingZodiacYukhap} puan yüksek çıkar."
+          },
+          {
+            "p": "Yıl ve gün dalları farklı olabilir. Gün dalları 戌 ve 辰 olan iki Köpek burcundaki kişi, burç uyumunda aynı dalı ({scoreSame}), gün dalı uyumunda ise çatışmayı ({scoreChung}) alır."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu rehberin söylemedikleri",
+        "blocks": [
+          {
+            "ul": [
+              "Tek bir hayvan iki kişi arasındaki ilişkiyi belirlemez. Nihai eşleşme oranının {weightSaju} kadarını saju uyumu belirler.",
+              "Yukarıdaki puan değişimleri diğer her şeyin eşit olduğunu varsayar; gerçek sonucu iki kişinin tüm saju'su belirler.",
+              "Hangi ilişkinin kaç puan aldığını gösteren tam tablo [on iki dal tablosunda](/guide/branches); burcun neden yıl dalından okunduğu ise [Burç uyumu neden yıl dalını dikkate alır](/guide/zodiac) sayfasındadır."
+            ]
+          },
+          {
+            "p": "Diğer hayvanlar aynı şekilde düzenlenmiştir. [Fare](/guide/zodiac-rat) · [Öküz](/guide/zodiac-ox) · [Kaplan](/guide/zodiac-tiger) · [Tavşan](/guide/zodiac-rabbit) · [Ejderha](/guide/zodiac-dragon) · [Yılan](/guide/zodiac-snake) · [At](/guide/zodiac-horse) · [Koyun](/guide/zodiac-goat) · [Maymun](/guide/zodiac-monkey) · [Horoz](/guide/zodiac-rooster) · [Domuz](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pig": {
+    "eyebrow": "Hayvana göre",
+    "title": "Domuz On İki Burç Hayvanıyla Nasıl Buluşur",
+    "summary": "Domuz (亥) ile on iki burç hayvanının her biri arasındaki ilişki, her birinin aldığı puan ve bu puanın nihai eşleşme oranından aldığı pay — tam olarak Inyeon-Link'in hesaplama kurallarında yer aldığı gibi sıralanmıştır.",
+    "backLabel": "Hesaplama Temeli",
+    "sections": [
+      {
+        "title": "Domuz, on iki dalın on ikincisidir",
+        "blocks": [
+          {
+            "p": "Domuz, doğum yılı dalı **亥** olan kişidir. 亥, on iki yer dalının on ikincisidir; on iki karakter bir daire içine dizildiğinde tam karşısında 巳 (Yılan) yer alır."
+          },
+          {
+            "p": "Uyum sonucunun Domuz burcundaki bir kişi için gösterdiği satır şudur: \"Cömert ve açık sözlüdür. Kolay güvenir, bunun bedelini ödediği olur.\" Bu satırın ilişki puanlarıyla ilgisi yoktur ve aşağıdaki puanları etkilemez."
+          }
+        ]
+      },
+      {
+        "title": "On iki burç hayvanı bir bakışta",
+        "blocks": [
+          {
+            "p": "Diğer hayvanların her biri sırayla Domuz ile karşılaştırılır. Yalnızca bu hizmetin harmoni olarak tanıdığı çiftler ilişki olarak yazılmıştır; geri kalan her şey nötrdür."
+          },
+          {
+            "table": {
+              "caption": "Domuz ve on iki burç hayvanı",
+              "head": [
+                "Diğer hayvan",
+                "İlişki",
+                "Puan"
+              ],
+              "rows": [
+                [
+                  "Fare (子)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Öküz (丑)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Kaplan (寅)",
+                  "Altı-Harmoni",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Tavşan (卯)",
+                  "Yarım üçlü",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Ejderha (辰)",
+                  "Uyumsuzluk",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Yılan (巳)",
+                  "Çatışma",
+                  "{scoreChung}"
+                ],
+                [
+                  "At (午)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Koyun (未)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Maymun (申)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Horoz (酉)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Köpek (戌)",
+                  "Nötr",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Domuz (亥)",
+                  "Aynı dal",
+                  "{scoreSame}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kaplan — çeken çift (Altı-Harmoni)",
+        "blocks": [
+          {
+            "p": "亥 ve 寅 yalnızca iki karakterle bir harmoni oluşturur. Altı-harmoni, uyumda en sık görülen iyi ilişkidir; Kaplan ve Domuz {scoreYukhap} puan alır, bu da Domuz burcunun alabileceği en yüksek puandır."
+          }
+        ]
+      },
+      {
+        "title": "Tavşan — kraliyet dalını içeren yarım üçlü",
+        "blocks": [
+          {
+            "p": "亥卯未, tek bir üçlü gruptur (ağaç grubu) ve 卯, grubun merkezindeki **kraliyet dalı**dır. Inyeon-Link yalnızca kraliyet dalını içeren çiftleri kabul eder; bu yüzden Domuz yalnızca Tavşan ile yarım üçlü ({scoreBanhap}) oluşturur."
+          },
+          {
+            "p": "Aynı gruptaki Koyun (未) ile merkezdeki 卯 karakteri eksiktir; bu yüzden harmoni sayılmaz ve nötr ({scoreNeutral}) kabul edilir. Aynı grupta olmak her çifti harmoni yapmaz."
+          }
+        ]
+      },
+      {
+        "title": "Yılan — kafa kafaya çarpışma (Çatışma)",
+        "blocks": [
+          {
+            "p": "亥 ve 巳 daire üzerinde tam karşılıklı oturur. Bu hizmet çatışmada bile {scoreChung} puanı korur. Geleneksel myeongri'de çatışma bir çarpışmadır, ilişkinin sonu değil; tabana yakın bir puan vermek iki kişi hakkında hüküm vermek anlamına gelirdi. Yine de Domuz burcunun alabileceği en düşük puandır."
+          }
+        ]
+      },
+      {
+        "title": "Ejderha — sessiz uyumsuzluk (Uyumsuzluk)",
+        "blocks": [
+          {
+            "p": "亥 ve 辰, çatışma konumundaki 巳 (Yılan) ile yan yana oturur ve geleneksel olarak birbirine kırgın ama ayrılamayan bir çift olarak görülür. Yüzeyde sakin görünür, ama uyumsuzluğun kalıcı olduğuna inanılır; bu yüzden {scoreWonjin} puan alır — çatışmadan ({scoreChung}) yüksek, nötrden ({scoreNeutral}) düşüktür."
+          }
+        ]
+      },
+      {
+        "title": "Diğer 7 hayvan ve Domuz ile bir başka Domuz",
+        "blocks": [
+          {
+            "p": "Fare, Öküz, At, Koyun, Maymun, Horoz ve Köpek, Domuz ile ne harmoni, ne çatışma, ne de uyumsuzluk oluşturur: **nötrdür** ve {scoreNeutral} puan alır. Başlangıç düzeyidir; ne iyi ne kötü."
+          },
+          {
+            "p": "İki Domuz burcundaki kişi {scoreSame} puan alır. Birbirine çekildiklerini değil, benzediklerini ifade eder; bu yüzden nötrün hemen üstündedir."
+          }
+        ]
+      },
+      {
+        "title": "Bu puanın nihai eşleşme oranından aldığı pay",
+        "blocks": [
+          {
+            "p": "İki kişinin dallarının yan yana konduğu iki yer vardır."
+          },
+          {
+            "ul": [
+              "**Burç uyumu** doğum yılının dalına bakar. Nihai eşleşme oranının {weightZodiac} kadarını oluşturur.",
+              "**Gün dalı uyumu** doğum gününün dalına bakar. Saju uyumunun ({weightSaju}) {weightDayBranch} kadarını oluşturur; bu da nihai eşleşme oranının {weightDayBranchTotal} kadarıdır."
+            ]
+          },
+          {
+            "p": "Örneğin bir Domuz burcundaki kişi bir Yılan burcundaki kişiyle buluştuğunda burç uyumu çatışma verir. Diğer her şey eşitse nihai eşleşme oranı nötr bir çifte göre {swingZodiacChung} puan düşük çıkar. Bir Kaplan burcundaki kişiyle altı-harmonidir ve oran {swingZodiacYukhap} puan yüksek çıkar."
+          },
+          {
+            "p": "Yıl ve gün dalları farklı olabilir. Gün dalları 亥 ve 巳 olan iki Domuz burcundaki kişi, burç uyumunda aynı dalı ({scoreSame}), gün dalı uyumunda ise çatışmayı ({scoreChung}) alır."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Bu rehberin söylemedikleri",
+        "blocks": [
+          {
+            "ul": [
+              "Tek bir hayvan iki kişi arasındaki ilişkiyi belirlemez. Nihai eşleşme oranının {weightSaju} kadarını saju uyumu belirler.",
+              "Yukarıdaki puan değişimleri diğer her şeyin eşit olduğunu varsayar; gerçek sonucu iki kişinin tüm saju'su belirler.",
+              "Hangi ilişkinin kaç puan aldığını gösteren tam tablo [on iki dal tablosunda](/guide/branches); burcun neden yıl dalından okunduğu ise [Burç uyumu neden yıl dalını dikkate alır](/guide/zodiac) sayfasındadır."
+            ]
+          },
+          {
+            "p": "Diğer hayvanlar aynı şekilde düzenlenmiştir. [Fare](/guide/zodiac-rat) · [Öküz](/guide/zodiac-ox) · [Kaplan](/guide/zodiac-tiger) · [Tavşan](/guide/zodiac-rabbit) · [Ejderha](/guide/zodiac-dragon) · [Yılan](/guide/zodiac-snake) · [At](/guide/zodiac-horse) · [Koyun](/guide/zodiac-goat) · [Maymun](/guide/zodiac-monkey) · [Horoz](/guide/zodiac-rooster) · [Köpek](/guide/zodiac-dog)"
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "On Tanrı",
     "title": "On Tanrı ve Eş Pozisyonu",

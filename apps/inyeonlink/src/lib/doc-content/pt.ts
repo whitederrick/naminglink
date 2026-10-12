@@ -585,6 +585,2190 @@ export const PT_DOCS = {
       }
     ]
   },
+  "guide/zodiac-rat": {
+    "eyebrow": "Por animal",
+    "title": "Como o Rato se encontra com os doze animais do zodíaco",
+    "summary": "Que relação o Rato (子) tem com cada um dos doze animais do zodíaco, quantos pontos cada uma vale e que parcela da taxa de compatibilidade final esse valor ocupa — apresentado exatamente como nas regras de cálculo do Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "O Rato é o primeiro dos doze ramos",
+        "blocks": [
+          {
+            "p": "O Rato é quem tem **子** como ramo do ano de nascimento. 子 é o primeiro dos doze ramos terrestres e, quando os doze caracteres são dispostos em círculo, fica exatamente em frente a 午 (o Cavalo)."
+          },
+          {
+            "p": "A frase que o resultado de compatibilidade mostra para uma pessoa Rato é: “Percebe rápido e garante rápido o que importa. O primeiro a se mover numa crise.” Essa frase não tem relação com as pontuações das relações e não afeta as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Os doze animais do zodíaco num relance",
+        "blocks": [
+          {
+            "p": "Cada um dos outros animais é confrontado, um de cada vez, com o Rato. Só os pares que este serviço reconhece como harmonias são escritos como relações; todo o resto é neutro."
+          },
+          {
+            "table": {
+              "caption": "O Rato e os doze animais do zodíaco",
+              "head": [
+                "Outro animal",
+                "Relação",
+                "Pontuação"
+              ],
+              "rows": [
+                [
+                  "Rato (子)",
+                  "Mesmo ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Boi (丑)",
+                  "Seis-Harmonia",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coelho (卯)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Dragão (辰)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavalo (午)",
+                  "Choque",
+                  "{scoreChung}"
+                ],
+                [
+                  "Ovelha (未)",
+                  "Discórdia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Macaco (申)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Galo (酉)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cão (戌)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Porco (亥)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Boi — o par que se atrai (Seis-Harmonia)",
+        "blocks": [
+          {
+            "p": "子 e 丑 formam uma harmonia com apenas dois caracteres. Uma seis-harmonia é a boa relação que mais aparece na compatibilidade, e o Rato e o Boi recebem {scoreYukhap}, o máximo que o Rato pode obter."
+          }
+        ]
+      },
+      {
+        "title": "Dragão e Macaco — uma meia triade que inclui o ramo real",
+        "blocks": [
+          {
+            "p": "申子辰 é um grupo de triade (o grupo da água), e 子 é o **ramo real** no seu centro. O Inyeon-Link aceita apenas pares que incluam o ramo real, por isso o Rato forma uma meia triade ({scoreBanhap}) tanto com o Dragão quanto com o Macaco."
+          },
+          {
+            "p": "**O Macaco e o Dragão juntos**, por outro lado, não têm o caractere central 子; por isso o par não é contado como harmonia e é tratado como neutro. Mesmo dentro de um grupo de triade, é o Rato quem forma a meia triade."
+          }
+        ]
+      },
+      {
+        "title": "Cavalo — a colisão frontal (Choque)",
+        "blocks": [
+          {
+            "p": "子 e 午 ficam exatamente em frente um do outro no círculo. Este serviço mantém {scoreChung} pontos mesmo para um choque. Na myeongri tradicional, um choque é uma colisão, não o fim de uma relação, e dar uma pontuação próxima do piso equivaleria a pronunciar um veredicto sobre duas pessoas. Mesmo assim, é a menor pontuação que o Rato pode receber."
+          }
+        ]
+      },
+      {
+        "title": "Ovelha — a discórdia silenciosa (Discórdia)",
+        "blocks": [
+          {
+            "p": "子 e 未 ficam logo ao lado de 午 (o Cavalo), a posição do choque, e são tradicionalmente vistos como um par que se ressente, mas não consegue se separar. Parece calmo na superfície, mas acredita-se que o desencontro dure, por isso recebe {scoreWonjin} — mais que um choque ({scoreChung}) e menos que o neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Os outros 6 animais, e o Rato com outro Rato",
+        "blocks": [
+          {
+            "p": "Tigre, Coelho, Serpente, Galo, Cão e Porco não são nem uma harmonia, nem um choque, nem uma discórdia com o Rato: são **neutros** e recebem {scoreNeutral}. São a linha de base, nem bons nem ruins."
+          },
+          {
+            "p": "Duas pessoas Rato recebem {scoreSame}. Isso significa que se parecem, não que se atraem, por isso ficam logo acima do neutro."
+          }
+        ]
+      },
+      {
+        "title": "Que parcela da taxa de compatibilidade final esta pontuação ocupa",
+        "blocks": [
+          {
+            "p": "Há dois lugares em que os ramos de duas pessoas são colocados lado a lado."
+          },
+          {
+            "ul": [
+              "A **compatibilidade zodiacal** olha o ramo do ano de nascimento. Ela ocupa {weightZodiac} da taxa de compatibilidade final.",
+              "A **compatibilidade do ramo do dia** olha o ramo do dia de nascimento. Ela ocupa {weightDayBranch} da compatibilidade de saju ({weightSaju}), o que corresponde a {weightDayBranchTotal} da taxa de compatibilidade final."
+            ]
+          },
+          {
+            "p": "Por exemplo, quando uma pessoa Rato encontra uma pessoa Cavalo, a compatibilidade zodiacal resulta em choque. Com tudo o mais igual, a taxa de compatibilidade final sai {swingZodiacChung} pontos mais baixa do que com um par neutro. Com uma pessoa Boi é uma seis-harmonia, e a taxa sai {swingZodiacYukhap} pontos mais alta."
+          },
+          {
+            "p": "Os ramos do ano e do dia podem ser diferentes. Duas pessoas Rato cujos ramos do dia são 子 e 午 recebem o mesmo ramo ({scoreSame}) na compatibilidade zodiacal e um choque ({scoreChung}) na compatibilidade do ramo do dia."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um único animal não decide a relação entre duas pessoas. {weightSaju} da taxa de compatibilidade final é decidido pela compatibilidade de saju.",
+              "As variações de pontos acima pressupõem que todo o resto seja igual; o resultado real é definido pelo saju completo das duas pessoas.",
+              "A tabela completa de qual relação vale quanto está na [tabela dos doze ramos](/guide/branches), e por que o zodíaco é lido pelo ramo do ano está em [Por que a compatibilidade zodiacal considera o ramo do ano](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Os outros animais são apresentados do mesmo modo. [Boi](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coelho](/guide/zodiac-rabbit) · [Dragão](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavalo](/guide/zodiac-horse) · [Ovelha](/guide/zodiac-goat) · [Macaco](/guide/zodiac-monkey) · [Galo](/guide/zodiac-rooster) · [Cão](/guide/zodiac-dog) · [Porco](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-ox": {
+    "eyebrow": "Por animal",
+    "title": "Como o Boi se encontra com os doze animais do zodíaco",
+    "summary": "Que relação o Boi (丑) tem com cada um dos doze animais do zodíaco, quantos pontos cada uma vale e que parcela da taxa de compatibilidade final esse valor ocupa — apresentado exatamente como nas regras de cálculo do Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "O Boi é o segundo dos doze ramos",
+        "blocks": [
+          {
+            "p": "O Boi é quem tem **丑** como ramo do ano de nascimento. 丑 é o segundo dos doze ramos terrestres e, quando os doze caracteres são dispostos em círculo, fica exatamente em frente a 未 (a Ovelha)."
+          },
+          {
+            "p": "A frase que o resultado de compatibilidade mostra para uma pessoa Boi é: “Parece lento, mas leva tudo até o fim. O que assume, não larga.” Essa frase não tem relação com as pontuações das relações e não afeta as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Os doze animais do zodíaco num relance",
+        "blocks": [
+          {
+            "p": "Cada um dos outros animais é confrontado, um de cada vez, com o Boi. Só os pares que este serviço reconhece como harmonias são escritos como relações; todo o resto é neutro."
+          },
+          {
+            "table": {
+              "caption": "O Boi e os doze animais do zodíaco",
+              "head": [
+                "Outro animal",
+                "Relação",
+                "Pontuação"
+              ],
+              "rows": [
+                [
+                  "Rato (子)",
+                  "Seis-Harmonia",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Boi (丑)",
+                  "Mesmo ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coelho (卯)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Dragão (辰)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavalo (午)",
+                  "Discórdia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Ovelha (未)",
+                  "Choque",
+                  "{scoreChung}"
+                ],
+                [
+                  "Macaco (申)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Galo (酉)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Cão (戌)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Porco (亥)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Rato — o par que se atrai (Seis-Harmonia)",
+        "blocks": [
+          {
+            "p": "丑 e 子 formam uma harmonia com apenas dois caracteres. Uma seis-harmonia é a boa relação que mais aparece na compatibilidade, e o Boi e o Rato recebem {scoreYukhap}, o máximo que o Boi pode obter."
+          }
+        ]
+      },
+      {
+        "title": "Galo — uma meia triade que inclui o ramo real",
+        "blocks": [
+          {
+            "p": "巳酉丑 é um grupo de triade (o grupo do metal), e 酉 é o **ramo real** no seu centro. O Inyeon-Link aceita apenas pares que incluam o ramo real, por isso o Boi forma uma meia triade ({scoreBanhap}) apenas com o Galo."
+          },
+          {
+            "p": "Com a Serpente (巳) do mesmo grupo falta o caractere central 酉; por isso o par não é contado como harmonia e é tratado como neutro ({scoreNeutral}). Pertencer ao mesmo grupo não faz de todo par uma harmonia."
+          }
+        ]
+      },
+      {
+        "title": "Ovelha — a colisão frontal (Choque)",
+        "blocks": [
+          {
+            "p": "丑 e 未 ficam exatamente em frente um do outro no círculo. Este serviço mantém {scoreChung} pontos mesmo para um choque. Na myeongri tradicional, um choque é uma colisão, não o fim de uma relação, e dar uma pontuação próxima do piso equivaleria a pronunciar um veredicto sobre duas pessoas. Mesmo assim, é a menor pontuação que o Boi pode receber."
+          }
+        ]
+      },
+      {
+        "title": "Cavalo — a discórdia silenciosa (Discórdia)",
+        "blocks": [
+          {
+            "p": "丑 e 午 ficam logo ao lado de 未 (a Ovelha), a posição do choque, e são tradicionalmente vistos como um par que se ressente, mas não consegue se separar. Parece calmo na superfície, mas acredita-se que o desencontro dure, por isso recebe {scoreWonjin} — mais que um choque ({scoreChung}) e menos que o neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Os outros 7 animais, e o Boi com outro Boi",
+        "blocks": [
+          {
+            "p": "Tigre, Coelho, Dragão, Serpente, Macaco, Cão e Porco não são nem uma harmonia, nem um choque, nem uma discórdia com o Boi: são **neutros** e recebem {scoreNeutral}. São a linha de base, nem bons nem ruins."
+          },
+          {
+            "p": "Duas pessoas Boi recebem {scoreSame}. Isso significa que se parecem, não que se atraem, por isso ficam logo acima do neutro."
+          }
+        ]
+      },
+      {
+        "title": "Que parcela da taxa de compatibilidade final esta pontuação ocupa",
+        "blocks": [
+          {
+            "p": "Há dois lugares em que os ramos de duas pessoas são colocados lado a lado."
+          },
+          {
+            "ul": [
+              "A **compatibilidade zodiacal** olha o ramo do ano de nascimento. Ela ocupa {weightZodiac} da taxa de compatibilidade final.",
+              "A **compatibilidade do ramo do dia** olha o ramo do dia de nascimento. Ela ocupa {weightDayBranch} da compatibilidade de saju ({weightSaju}), o que corresponde a {weightDayBranchTotal} da taxa de compatibilidade final."
+            ]
+          },
+          {
+            "p": "Por exemplo, quando uma pessoa Boi encontra uma pessoa Ovelha, a compatibilidade zodiacal resulta em choque. Com tudo o mais igual, a taxa de compatibilidade final sai {swingZodiacChung} pontos mais baixa do que com um par neutro. Com uma pessoa Rato é uma seis-harmonia, e a taxa sai {swingZodiacYukhap} pontos mais alta."
+          },
+          {
+            "p": "Os ramos do ano e do dia podem ser diferentes. Duas pessoas Boi cujos ramos do dia são 丑 e 未 recebem o mesmo ramo ({scoreSame}) na compatibilidade zodiacal e um choque ({scoreChung}) na compatibilidade do ramo do dia."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um único animal não decide a relação entre duas pessoas. {weightSaju} da taxa de compatibilidade final é decidido pela compatibilidade de saju.",
+              "As variações de pontos acima pressupõem que todo o resto seja igual; o resultado real é definido pelo saju completo das duas pessoas.",
+              "A tabela completa de qual relação vale quanto está na [tabela dos doze ramos](/guide/branches), e por que o zodíaco é lido pelo ramo do ano está em [Por que a compatibilidade zodiacal considera o ramo do ano](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Os outros animais são apresentados do mesmo modo. [Rato](/guide/zodiac-rat) · [Tigre](/guide/zodiac-tiger) · [Coelho](/guide/zodiac-rabbit) · [Dragão](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavalo](/guide/zodiac-horse) · [Ovelha](/guide/zodiac-goat) · [Macaco](/guide/zodiac-monkey) · [Galo](/guide/zodiac-rooster) · [Cão](/guide/zodiac-dog) · [Porco](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-tiger": {
+    "eyebrow": "Por animal",
+    "title": "Como o Tigre se encontra com os doze animais do zodíaco",
+    "summary": "Que relação o Tigre (寅) tem com cada um dos doze animais do zodíaco, quantos pontos cada uma vale e que parcela da taxa de compatibilidade final esse valor ocupa — apresentado exatamente como nas regras de cálculo do Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "O Tigre é o terceiro dos doze ramos",
+        "blocks": [
+          {
+            "p": "O Tigre é quem tem **寅** como ramo do ano de nascimento. 寅 é o terceiro dos doze ramos terrestres e, quando os doze caracteres são dispostos em círculo, fica exatamente em frente a 申 (o Macaco)."
+          },
+          {
+            "p": "A frase que o resultado de compatibilidade mostra para uma pessoa Tigre é: “Destemido e sempre à frente. Não consegue deixar passar uma injustiça.” Essa frase não tem relação com as pontuações das relações e não afeta as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Os doze animais do zodíaco num relance",
+        "blocks": [
+          {
+            "p": "Cada um dos outros animais é confrontado, um de cada vez, com o Tigre. Só os pares que este serviço reconhece como harmonias são escritos como relações; todo o resto é neutro."
+          },
+          {
+            "table": {
+              "caption": "O Tigre e os doze animais do zodíaco",
+              "head": [
+                "Outro animal",
+                "Relação",
+                "Pontuação"
+              ],
+              "rows": [
+                [
+                  "Rato (子)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Boi (丑)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Mesmo ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Coelho (卯)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Dragão (辰)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavalo (午)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Ovelha (未)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Macaco (申)",
+                  "Choque",
+                  "{scoreChung}"
+                ],
+                [
+                  "Galo (酉)",
+                  "Discórdia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Cão (戌)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Porco (亥)",
+                  "Seis-Harmonia",
+                  "{scoreYukhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Porco — o par que se atrai (Seis-Harmonia)",
+        "blocks": [
+          {
+            "p": "寅 e 亥 formam uma harmonia com apenas dois caracteres. Uma seis-harmonia é a boa relação que mais aparece na compatibilidade, e o Tigre e o Porco recebem {scoreYukhap}, o máximo que o Tigre pode obter."
+          }
+        ]
+      },
+      {
+        "title": "Cavalo — uma meia triade que inclui o ramo real",
+        "blocks": [
+          {
+            "p": "寅午戌 é um grupo de triade (o grupo do fogo), e 午 é o **ramo real** no seu centro. O Inyeon-Link aceita apenas pares que incluam o ramo real, por isso o Tigre forma uma meia triade ({scoreBanhap}) apenas com o Cavalo."
+          },
+          {
+            "p": "Com o Cão (戌) do mesmo grupo falta o caractere central 午; por isso o par não é contado como harmonia e é tratado como neutro ({scoreNeutral}). Pertencer ao mesmo grupo não faz de todo par uma harmonia."
+          }
+        ]
+      },
+      {
+        "title": "Macaco — a colisão frontal (Choque)",
+        "blocks": [
+          {
+            "p": "寅 e 申 ficam exatamente em frente um do outro no círculo. Este serviço mantém {scoreChung} pontos mesmo para um choque. Na myeongri tradicional, um choque é uma colisão, não o fim de uma relação, e dar uma pontuação próxima do piso equivaleria a pronunciar um veredicto sobre duas pessoas. Mesmo assim, é a menor pontuação que o Tigre pode receber."
+          }
+        ]
+      },
+      {
+        "title": "Galo — a discórdia silenciosa (Discórdia)",
+        "blocks": [
+          {
+            "p": "寅 e 酉 ficam logo ao lado de 申 (o Macaco), a posição do choque, e são tradicionalmente vistos como um par que se ressente, mas não consegue se separar. Parece calmo na superfície, mas acredita-se que o desencontro dure, por isso recebe {scoreWonjin} — mais que um choque ({scoreChung}) e menos que o neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Os outros 7 animais, e o Tigre com outro Tigre",
+        "blocks": [
+          {
+            "p": "Rato, Boi, Coelho, Dragão, Serpente, Ovelha e Cão não são nem uma harmonia, nem um choque, nem uma discórdia com o Tigre: são **neutros** e recebem {scoreNeutral}. São a linha de base, nem bons nem ruins."
+          },
+          {
+            "p": "Duas pessoas Tigre recebem {scoreSame}. Isso significa que se parecem, não que se atraem, por isso ficam logo acima do neutro."
+          }
+        ]
+      },
+      {
+        "title": "Que parcela da taxa de compatibilidade final esta pontuação ocupa",
+        "blocks": [
+          {
+            "p": "Há dois lugares em que os ramos de duas pessoas são colocados lado a lado."
+          },
+          {
+            "ul": [
+              "A **compatibilidade zodiacal** olha o ramo do ano de nascimento. Ela ocupa {weightZodiac} da taxa de compatibilidade final.",
+              "A **compatibilidade do ramo do dia** olha o ramo do dia de nascimento. Ela ocupa {weightDayBranch} da compatibilidade de saju ({weightSaju}), o que corresponde a {weightDayBranchTotal} da taxa de compatibilidade final."
+            ]
+          },
+          {
+            "p": "Por exemplo, quando uma pessoa Tigre encontra uma pessoa Macaco, a compatibilidade zodiacal resulta em choque. Com tudo o mais igual, a taxa de compatibilidade final sai {swingZodiacChung} pontos mais baixa do que com um par neutro. Com uma pessoa Porco é uma seis-harmonia, e a taxa sai {swingZodiacYukhap} pontos mais alta."
+          },
+          {
+            "p": "Os ramos do ano e do dia podem ser diferentes. Duas pessoas Tigre cujos ramos do dia são 寅 e 申 recebem o mesmo ramo ({scoreSame}) na compatibilidade zodiacal e um choque ({scoreChung}) na compatibilidade do ramo do dia."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um único animal não decide a relação entre duas pessoas. {weightSaju} da taxa de compatibilidade final é decidido pela compatibilidade de saju.",
+              "As variações de pontos acima pressupõem que todo o resto seja igual; o resultado real é definido pelo saju completo das duas pessoas.",
+              "A tabela completa de qual relação vale quanto está na [tabela dos doze ramos](/guide/branches), e por que o zodíaco é lido pelo ramo do ano está em [Por que a compatibilidade zodiacal considera o ramo do ano](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Os outros animais são apresentados do mesmo modo. [Rato](/guide/zodiac-rat) · [Boi](/guide/zodiac-ox) · [Coelho](/guide/zodiac-rabbit) · [Dragão](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavalo](/guide/zodiac-horse) · [Ovelha](/guide/zodiac-goat) · [Macaco](/guide/zodiac-monkey) · [Galo](/guide/zodiac-rooster) · [Cão](/guide/zodiac-dog) · [Porco](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rabbit": {
+    "eyebrow": "Por animal",
+    "title": "Como o Coelho se encontra com os doze animais do zodíaco",
+    "summary": "Que relação o Coelho (卯) tem com cada um dos doze animais do zodíaco, quantos pontos cada uma vale e que parcela da taxa de compatibilidade final esse valor ocupa — apresentado exatamente como nas regras de cálculo do Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "O Coelho é o quarto dos doze ramos",
+        "blocks": [
+          {
+            "p": "O Coelho é quem tem **卯** como ramo do ano de nascimento. 卯 é o quarto dos doze ramos terrestres e, quando os doze caracteres são dispostos em círculo, fica exatamente em frente a 酉 (o Galo)."
+          },
+          {
+            "p": "A frase que o resultado de compatibilidade mostra para uma pessoa Coelho é: “Gentil e perceptivo. Sabe contornar em vez de colidir.” Essa frase não tem relação com as pontuações das relações e não afeta as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Os doze animais do zodíaco num relance",
+        "blocks": [
+          {
+            "p": "Cada um dos outros animais é confrontado, um de cada vez, com o Coelho. Só os pares que este serviço reconhece como harmonias são escritos como relações; todo o resto é neutro."
+          },
+          {
+            "table": {
+              "caption": "O Coelho e os doze animais do zodíaco",
+              "head": [
+                "Outro animal",
+                "Relação",
+                "Pontuação"
+              ],
+              "rows": [
+                [
+                  "Rato (子)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Boi (丑)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coelho (卯)",
+                  "Mesmo ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Dragão (辰)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavalo (午)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ovelha (未)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Macaco (申)",
+                  "Discórdia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Galo (酉)",
+                  "Choque",
+                  "{scoreChung}"
+                ],
+                [
+                  "Cão (戌)",
+                  "Seis-Harmonia",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Porco (亥)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cão — o par que se atrai (Seis-Harmonia)",
+        "blocks": [
+          {
+            "p": "卯 e 戌 formam uma harmonia com apenas dois caracteres. Uma seis-harmonia é a boa relação que mais aparece na compatibilidade, e o Coelho e o Cão recebem {scoreYukhap}, o máximo que o Coelho pode obter."
+          }
+        ]
+      },
+      {
+        "title": "Ovelha e Porco — uma meia triade que inclui o ramo real",
+        "blocks": [
+          {
+            "p": "亥卯未 é um grupo de triade (o grupo da madeira), e 卯 é o **ramo real** no seu centro. O Inyeon-Link aceita apenas pares que incluam o ramo real, por isso o Coelho forma uma meia triade ({scoreBanhap}) tanto com a Ovelha quanto com o Porco."
+          },
+          {
+            "p": "**O Porco e a Ovelha juntos**, por outro lado, não têm o caractere central 卯; por isso o par não é contado como harmonia e é tratado como neutro. Mesmo dentro de um grupo de triade, é o Coelho quem forma a meia triade."
+          }
+        ]
+      },
+      {
+        "title": "Galo — a colisão frontal (Choque)",
+        "blocks": [
+          {
+            "p": "卯 e 酉 ficam exatamente em frente um do outro no círculo. Este serviço mantém {scoreChung} pontos mesmo para um choque. Na myeongri tradicional, um choque é uma colisão, não o fim de uma relação, e dar uma pontuação próxima do piso equivaleria a pronunciar um veredicto sobre duas pessoas. Mesmo assim, é a menor pontuação que o Coelho pode receber."
+          }
+        ]
+      },
+      {
+        "title": "Macaco — a discórdia silenciosa (Discórdia)",
+        "blocks": [
+          {
+            "p": "卯 e 申 ficam logo ao lado de 酉 (o Galo), a posição do choque, e são tradicionalmente vistos como um par que se ressente, mas não consegue se separar. Parece calmo na superfície, mas acredita-se que o desencontro dure, por isso recebe {scoreWonjin} — mais que um choque ({scoreChung}) e menos que o neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Os outros 6 animais, e o Coelho com outro Coelho",
+        "blocks": [
+          {
+            "p": "Rato, Boi, Tigre, Dragão, Serpente e Cavalo não são nem uma harmonia, nem um choque, nem uma discórdia com o Coelho: são **neutros** e recebem {scoreNeutral}. São a linha de base, nem bons nem ruins."
+          },
+          {
+            "p": "Duas pessoas Coelho recebem {scoreSame}. Isso significa que se parecem, não que se atraem, por isso ficam logo acima do neutro."
+          }
+        ]
+      },
+      {
+        "title": "Que parcela da taxa de compatibilidade final esta pontuação ocupa",
+        "blocks": [
+          {
+            "p": "Há dois lugares em que os ramos de duas pessoas são colocados lado a lado."
+          },
+          {
+            "ul": [
+              "A **compatibilidade zodiacal** olha o ramo do ano de nascimento. Ela ocupa {weightZodiac} da taxa de compatibilidade final.",
+              "A **compatibilidade do ramo do dia** olha o ramo do dia de nascimento. Ela ocupa {weightDayBranch} da compatibilidade de saju ({weightSaju}), o que corresponde a {weightDayBranchTotal} da taxa de compatibilidade final."
+            ]
+          },
+          {
+            "p": "Por exemplo, quando uma pessoa Coelho encontra uma pessoa Galo, a compatibilidade zodiacal resulta em choque. Com tudo o mais igual, a taxa de compatibilidade final sai {swingZodiacChung} pontos mais baixa do que com um par neutro. Com uma pessoa Cão é uma seis-harmonia, e a taxa sai {swingZodiacYukhap} pontos mais alta."
+          },
+          {
+            "p": "Os ramos do ano e do dia podem ser diferentes. Duas pessoas Coelho cujos ramos do dia são 卯 e 酉 recebem o mesmo ramo ({scoreSame}) na compatibilidade zodiacal e um choque ({scoreChung}) na compatibilidade do ramo do dia."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um único animal não decide a relação entre duas pessoas. {weightSaju} da taxa de compatibilidade final é decidido pela compatibilidade de saju.",
+              "As variações de pontos acima pressupõem que todo o resto seja igual; o resultado real é definido pelo saju completo das duas pessoas.",
+              "A tabela completa de qual relação vale quanto está na [tabela dos doze ramos](/guide/branches), e por que o zodíaco é lido pelo ramo do ano está em [Por que a compatibilidade zodiacal considera o ramo do ano](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Os outros animais são apresentados do mesmo modo. [Rato](/guide/zodiac-rat) · [Boi](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Dragão](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavalo](/guide/zodiac-horse) · [Ovelha](/guide/zodiac-goat) · [Macaco](/guide/zodiac-monkey) · [Galo](/guide/zodiac-rooster) · [Cão](/guide/zodiac-dog) · [Porco](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dragon": {
+    "eyebrow": "Por animal",
+    "title": "Como o Dragão se encontra com os doze animais do zodíaco",
+    "summary": "Que relação o Dragão (辰) tem com cada um dos doze animais do zodíaco, quantos pontos cada uma vale e que parcela da taxa de compatibilidade final esse valor ocupa — apresentado exatamente como nas regras de cálculo do Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "O Dragão é o quinto dos doze ramos",
+        "blocks": [
+          {
+            "p": "O Dragão é quem tem **辰** como ramo do ano de nascimento. 辰 é o quinto dos doze ramos terrestres e, quando os doze caracteres são dispostos em círculo, fica exatamente em frente a 戌 (o Cão)."
+          },
+          {
+            "p": "A frase que o resultado de compatibilidade mostra para uma pessoa Dragão é: “Coração grande e ideais altos. Raramente se contenta com o comum.” Essa frase não tem relação com as pontuações das relações e não afeta as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Os doze animais do zodíaco num relance",
+        "blocks": [
+          {
+            "p": "Cada um dos outros animais é confrontado, um de cada vez, com o Dragão. Só os pares que este serviço reconhece como harmonias são escritos como relações; todo o resto é neutro."
+          },
+          {
+            "table": {
+              "caption": "O Dragão e os doze animais do zodíaco",
+              "head": [
+                "Outro animal",
+                "Relação",
+                "Pontuação"
+              ],
+              "rows": [
+                [
+                  "Rato (子)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Boi (丑)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coelho (卯)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Dragão (辰)",
+                  "Mesmo ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavalo (午)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ovelha (未)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Macaco (申)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Galo (酉)",
+                  "Seis-Harmonia",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Cão (戌)",
+                  "Choque",
+                  "{scoreChung}"
+                ],
+                [
+                  "Porco (亥)",
+                  "Discórdia",
+                  "{scoreWonjin}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Galo — o par que se atrai (Seis-Harmonia)",
+        "blocks": [
+          {
+            "p": "辰 e 酉 formam uma harmonia com apenas dois caracteres. Uma seis-harmonia é a boa relação que mais aparece na compatibilidade, e o Dragão e o Galo recebem {scoreYukhap}, o máximo que o Dragão pode obter."
+          }
+        ]
+      },
+      {
+        "title": "Rato — uma meia triade que inclui o ramo real",
+        "blocks": [
+          {
+            "p": "申子辰 é um grupo de triade (o grupo da água), e 子 é o **ramo real** no seu centro. O Inyeon-Link aceita apenas pares que incluam o ramo real, por isso o Dragão forma uma meia triade ({scoreBanhap}) apenas com o Rato."
+          },
+          {
+            "p": "Com o Macaco (申) do mesmo grupo falta o caractere central 子; por isso o par não é contado como harmonia e é tratado como neutro ({scoreNeutral}). Pertencer ao mesmo grupo não faz de todo par uma harmonia."
+          }
+        ]
+      },
+      {
+        "title": "Cão — a colisão frontal (Choque)",
+        "blocks": [
+          {
+            "p": "辰 e 戌 ficam exatamente em frente um do outro no círculo. Este serviço mantém {scoreChung} pontos mesmo para um choque. Na myeongri tradicional, um choque é uma colisão, não o fim de uma relação, e dar uma pontuação próxima do piso equivaleria a pronunciar um veredicto sobre duas pessoas. Mesmo assim, é a menor pontuação que o Dragão pode receber."
+          }
+        ]
+      },
+      {
+        "title": "Porco — a discórdia silenciosa (Discórdia)",
+        "blocks": [
+          {
+            "p": "辰 e 亥 ficam logo ao lado de 戌 (o Cão), a posição do choque, e são tradicionalmente vistos como um par que se ressente, mas não consegue se separar. Parece calmo na superfície, mas acredita-se que o desencontro dure, por isso recebe {scoreWonjin} — mais que um choque ({scoreChung}) e menos que o neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Os outros 7 animais, e o Dragão com outro Dragão",
+        "blocks": [
+          {
+            "p": "Boi, Tigre, Coelho, Serpente, Cavalo, Ovelha e Macaco não são nem uma harmonia, nem um choque, nem uma discórdia com o Dragão: são **neutros** e recebem {scoreNeutral}. São a linha de base, nem bons nem ruins."
+          },
+          {
+            "p": "Duas pessoas Dragão recebem {scoreSame}. Isso significa que se parecem, não que se atraem, por isso ficam logo acima do neutro."
+          }
+        ]
+      },
+      {
+        "title": "Que parcela da taxa de compatibilidade final esta pontuação ocupa",
+        "blocks": [
+          {
+            "p": "Há dois lugares em que os ramos de duas pessoas são colocados lado a lado."
+          },
+          {
+            "ul": [
+              "A **compatibilidade zodiacal** olha o ramo do ano de nascimento. Ela ocupa {weightZodiac} da taxa de compatibilidade final.",
+              "A **compatibilidade do ramo do dia** olha o ramo do dia de nascimento. Ela ocupa {weightDayBranch} da compatibilidade de saju ({weightSaju}), o que corresponde a {weightDayBranchTotal} da taxa de compatibilidade final."
+            ]
+          },
+          {
+            "p": "Por exemplo, quando uma pessoa Dragão encontra uma pessoa Cão, a compatibilidade zodiacal resulta em choque. Com tudo o mais igual, a taxa de compatibilidade final sai {swingZodiacChung} pontos mais baixa do que com um par neutro. Com uma pessoa Galo é uma seis-harmonia, e a taxa sai {swingZodiacYukhap} pontos mais alta."
+          },
+          {
+            "p": "Os ramos do ano e do dia podem ser diferentes. Duas pessoas Dragão cujos ramos do dia são 辰 e 戌 recebem o mesmo ramo ({scoreSame}) na compatibilidade zodiacal e um choque ({scoreChung}) na compatibilidade do ramo do dia."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um único animal não decide a relação entre duas pessoas. {weightSaju} da taxa de compatibilidade final é decidido pela compatibilidade de saju.",
+              "As variações de pontos acima pressupõem que todo o resto seja igual; o resultado real é definido pelo saju completo das duas pessoas.",
+              "A tabela completa de qual relação vale quanto está na [tabela dos doze ramos](/guide/branches), e por que o zodíaco é lido pelo ramo do ano está em [Por que a compatibilidade zodiacal considera o ramo do ano](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Os outros animais são apresentados do mesmo modo. [Rato](/guide/zodiac-rat) · [Boi](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coelho](/guide/zodiac-rabbit) · [Serpente](/guide/zodiac-snake) · [Cavalo](/guide/zodiac-horse) · [Ovelha](/guide/zodiac-goat) · [Macaco](/guide/zodiac-monkey) · [Galo](/guide/zodiac-rooster) · [Cão](/guide/zodiac-dog) · [Porco](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-snake": {
+    "eyebrow": "Por animal",
+    "title": "Como a Serpente se encontra com os doze animais do zodíaco",
+    "summary": "Que relação a Serpente (巳) tem com cada um dos doze animais do zodíaco, quantos pontos cada uma vale e que parcela da taxa de compatibilidade final esse valor ocupa — apresentado exatamente como nas regras de cálculo do Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "A Serpente é o sexto dos doze ramos",
+        "blocks": [
+          {
+            "p": "A Serpente é quem tem **巳** como ramo do ano de nascimento. 巳 é o sexto dos doze ramos terrestres e, quando os doze caracteres são dispostos em círculo, fica exatamente em frente a 亥 (o Porco)."
+          },
+          {
+            "p": "A frase que o resultado de compatibilidade mostra para uma pessoa Serpente é: “Guarda o que pensa e reflete com profundidade. Julga com precisão.” Essa frase não tem relação com as pontuações das relações e não afeta as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Os doze animais do zodíaco num relance",
+        "blocks": [
+          {
+            "p": "Cada um dos outros animais é confrontado, um de cada vez, com a Serpente. Só os pares que este serviço reconhece como harmonias são escritos como relações; todo o resto é neutro."
+          },
+          {
+            "table": {
+              "caption": "A Serpente e os doze animais do zodíaco",
+              "head": [
+                "Outro animal",
+                "Relação",
+                "Pontuação"
+              ],
+              "rows": [
+                [
+                  "Rato (子)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Boi (丑)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coelho (卯)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Dragão (辰)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Mesmo ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Cavalo (午)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ovelha (未)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Macaco (申)",
+                  "Seis-Harmonia",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Galo (酉)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Cão (戌)",
+                  "Discórdia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Porco (亥)",
+                  "Choque",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Macaco — o par que se atrai (Seis-Harmonia)",
+        "blocks": [
+          {
+            "p": "巳 e 申 formam uma harmonia com apenas dois caracteres. Uma seis-harmonia é a boa relação que mais aparece na compatibilidade, e a Serpente e o Macaco recebem {scoreYukhap}, o máximo que a Serpente pode obter."
+          }
+        ]
+      },
+      {
+        "title": "Galo — uma meia triade que inclui o ramo real",
+        "blocks": [
+          {
+            "p": "巳酉丑 é um grupo de triade (o grupo do metal), e 酉 é o **ramo real** no seu centro. O Inyeon-Link aceita apenas pares que incluam o ramo real, por isso a Serpente forma uma meia triade ({scoreBanhap}) apenas com o Galo."
+          },
+          {
+            "p": "Com o Boi (丑) do mesmo grupo falta o caractere central 酉; por isso o par não é contado como harmonia e é tratado como neutro ({scoreNeutral}). Pertencer ao mesmo grupo não faz de todo par uma harmonia."
+          }
+        ]
+      },
+      {
+        "title": "Porco — a colisão frontal (Choque)",
+        "blocks": [
+          {
+            "p": "巳 e 亥 ficam exatamente em frente um do outro no círculo. Este serviço mantém {scoreChung} pontos mesmo para um choque. Na myeongri tradicional, um choque é uma colisão, não o fim de uma relação, e dar uma pontuação próxima do piso equivaleria a pronunciar um veredicto sobre duas pessoas. Mesmo assim, é a menor pontuação que a Serpente pode receber."
+          }
+        ]
+      },
+      {
+        "title": "Cão — a discórdia silenciosa (Discórdia)",
+        "blocks": [
+          {
+            "p": "巳 e 戌 ficam logo ao lado de 亥 (o Porco), a posição do choque, e são tradicionalmente vistos como um par que se ressente, mas não consegue se separar. Parece calmo na superfície, mas acredita-se que o desencontro dure, por isso recebe {scoreWonjin} — mais que um choque ({scoreChung}) e menos que o neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Os outros 7 animais, e a Serpente com outra Serpente",
+        "blocks": [
+          {
+            "p": "Rato, Boi, Tigre, Coelho, Dragão, Cavalo e Ovelha não são nem uma harmonia, nem um choque, nem uma discórdia com a Serpente: são **neutros** e recebem {scoreNeutral}. São a linha de base, nem bons nem ruins."
+          },
+          {
+            "p": "Duas pessoas Serpente recebem {scoreSame}. Isso significa que se parecem, não que se atraem, por isso ficam logo acima do neutro."
+          }
+        ]
+      },
+      {
+        "title": "Que parcela da taxa de compatibilidade final esta pontuação ocupa",
+        "blocks": [
+          {
+            "p": "Há dois lugares em que os ramos de duas pessoas são colocados lado a lado."
+          },
+          {
+            "ul": [
+              "A **compatibilidade zodiacal** olha o ramo do ano de nascimento. Ela ocupa {weightZodiac} da taxa de compatibilidade final.",
+              "A **compatibilidade do ramo do dia** olha o ramo do dia de nascimento. Ela ocupa {weightDayBranch} da compatibilidade de saju ({weightSaju}), o que corresponde a {weightDayBranchTotal} da taxa de compatibilidade final."
+            ]
+          },
+          {
+            "p": "Por exemplo, quando uma pessoa Serpente encontra uma pessoa Porco, a compatibilidade zodiacal resulta em choque. Com tudo o mais igual, a taxa de compatibilidade final sai {swingZodiacChung} pontos mais baixa do que com um par neutro. Com uma pessoa Macaco é uma seis-harmonia, e a taxa sai {swingZodiacYukhap} pontos mais alta."
+          },
+          {
+            "p": "Os ramos do ano e do dia podem ser diferentes. Duas pessoas Serpente cujos ramos do dia são 巳 e 亥 recebem o mesmo ramo ({scoreSame}) na compatibilidade zodiacal e um choque ({scoreChung}) na compatibilidade do ramo do dia."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um único animal não decide a relação entre duas pessoas. {weightSaju} da taxa de compatibilidade final é decidido pela compatibilidade de saju.",
+              "As variações de pontos acima pressupõem que todo o resto seja igual; o resultado real é definido pelo saju completo das duas pessoas.",
+              "A tabela completa de qual relação vale quanto está na [tabela dos doze ramos](/guide/branches), e por que o zodíaco é lido pelo ramo do ano está em [Por que a compatibilidade zodiacal considera o ramo do ano](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Os outros animais são apresentados do mesmo modo. [Rato](/guide/zodiac-rat) · [Boi](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coelho](/guide/zodiac-rabbit) · [Dragão](/guide/zodiac-dragon) · [Cavalo](/guide/zodiac-horse) · [Ovelha](/guide/zodiac-goat) · [Macaco](/guide/zodiac-monkey) · [Galo](/guide/zodiac-rooster) · [Cão](/guide/zodiac-dog) · [Porco](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-horse": {
+    "eyebrow": "Por animal",
+    "title": "Como o Cavalo se encontra com os doze animais do zodíaco",
+    "summary": "Que relação o Cavalo (午) tem com cada um dos doze animais do zodíaco, quantos pontos cada uma vale e que parcela da taxa de compatibilidade final esse valor ocupa — apresentado exatamente como nas regras de cálculo do Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "O Cavalo é o sétimo dos doze ramos",
+        "blocks": [
+          {
+            "p": "O Cavalo é quem tem **午** como ramo do ano de nascimento. 午 é o sétimo dos doze ramos terrestres e, quando os doze caracteres são dispostos em círculo, fica exatamente em frente a 子 (o Rato)."
+          },
+          {
+            "p": "A frase que o resultado de compatibilidade mostra para uma pessoa Cavalo é: “Alegre e inquieto. Ficar cercado é o mais difícil de tudo.” Essa frase não tem relação com as pontuações das relações e não afeta as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Os doze animais do zodíaco num relance",
+        "blocks": [
+          {
+            "p": "Cada um dos outros animais é confrontado, um de cada vez, com o Cavalo. Só os pares que este serviço reconhece como harmonias são escritos como relações; todo o resto é neutro."
+          },
+          {
+            "table": {
+              "caption": "O Cavalo e os doze animais do zodíaco",
+              "head": [
+                "Outro animal",
+                "Relação",
+                "Pontuação"
+              ],
+              "rows": [
+                [
+                  "Rato (子)",
+                  "Choque",
+                  "{scoreChung}"
+                ],
+                [
+                  "Boi (丑)",
+                  "Discórdia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Coelho (卯)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Dragão (辰)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavalo (午)",
+                  "Mesmo ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Ovelha (未)",
+                  "Seis-Harmonia",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Macaco (申)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Galo (酉)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cão (戌)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Porco (亥)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ovelha — o par que se atrai (Seis-Harmonia)",
+        "blocks": [
+          {
+            "p": "午 e 未 formam uma harmonia com apenas dois caracteres. Uma seis-harmonia é a boa relação que mais aparece na compatibilidade, e o Cavalo e a Ovelha recebem {scoreYukhap}, o máximo que o Cavalo pode obter."
+          }
+        ]
+      },
+      {
+        "title": "Tigre e Cão — uma meia triade que inclui o ramo real",
+        "blocks": [
+          {
+            "p": "寅午戌 é um grupo de triade (o grupo do fogo), e 午 é o **ramo real** no seu centro. O Inyeon-Link aceita apenas pares que incluam o ramo real, por isso o Cavalo forma uma meia triade ({scoreBanhap}) tanto com o Tigre quanto com o Cão."
+          },
+          {
+            "p": "**O Tigre e o Cão juntos**, por outro lado, não têm o caractere central 午; por isso o par não é contado como harmonia e é tratado como neutro. Mesmo dentro de um grupo de triade, é o Cavalo quem forma a meia triade."
+          }
+        ]
+      },
+      {
+        "title": "Rato — a colisão frontal (Choque)",
+        "blocks": [
+          {
+            "p": "午 e 子 ficam exatamente em frente um do outro no círculo. Este serviço mantém {scoreChung} pontos mesmo para um choque. Na myeongri tradicional, um choque é uma colisão, não o fim de uma relação, e dar uma pontuação próxima do piso equivaleria a pronunciar um veredicto sobre duas pessoas. Mesmo assim, é a menor pontuação que o Cavalo pode receber."
+          }
+        ]
+      },
+      {
+        "title": "Boi — a discórdia silenciosa (Discórdia)",
+        "blocks": [
+          {
+            "p": "午 e 丑 ficam logo ao lado de 子 (o Rato), a posição do choque, e são tradicionalmente vistos como um par que se ressente, mas não consegue se separar. Parece calmo na superfície, mas acredita-se que o desencontro dure, por isso recebe {scoreWonjin} — mais que um choque ({scoreChung}) e menos que o neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Os outros 6 animais, e o Cavalo com outro Cavalo",
+        "blocks": [
+          {
+            "p": "Coelho, Dragão, Serpente, Macaco, Galo e Porco não são nem uma harmonia, nem um choque, nem uma discórdia com o Cavalo: são **neutros** e recebem {scoreNeutral}. São a linha de base, nem bons nem ruins."
+          },
+          {
+            "p": "Duas pessoas Cavalo recebem {scoreSame}. Isso significa que se parecem, não que se atraem, por isso ficam logo acima do neutro."
+          }
+        ]
+      },
+      {
+        "title": "Que parcela da taxa de compatibilidade final esta pontuação ocupa",
+        "blocks": [
+          {
+            "p": "Há dois lugares em que os ramos de duas pessoas são colocados lado a lado."
+          },
+          {
+            "ul": [
+              "A **compatibilidade zodiacal** olha o ramo do ano de nascimento. Ela ocupa {weightZodiac} da taxa de compatibilidade final.",
+              "A **compatibilidade do ramo do dia** olha o ramo do dia de nascimento. Ela ocupa {weightDayBranch} da compatibilidade de saju ({weightSaju}), o que corresponde a {weightDayBranchTotal} da taxa de compatibilidade final."
+            ]
+          },
+          {
+            "p": "Por exemplo, quando uma pessoa Cavalo encontra uma pessoa Rato, a compatibilidade zodiacal resulta em choque. Com tudo o mais igual, a taxa de compatibilidade final sai {swingZodiacChung} pontos mais baixa do que com um par neutro. Com uma pessoa Ovelha é uma seis-harmonia, e a taxa sai {swingZodiacYukhap} pontos mais alta."
+          },
+          {
+            "p": "Os ramos do ano e do dia podem ser diferentes. Duas pessoas Cavalo cujos ramos do dia são 午 e 子 recebem o mesmo ramo ({scoreSame}) na compatibilidade zodiacal e um choque ({scoreChung}) na compatibilidade do ramo do dia."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um único animal não decide a relação entre duas pessoas. {weightSaju} da taxa de compatibilidade final é decidido pela compatibilidade de saju.",
+              "As variações de pontos acima pressupõem que todo o resto seja igual; o resultado real é definido pelo saju completo das duas pessoas.",
+              "A tabela completa de qual relação vale quanto está na [tabela dos doze ramos](/guide/branches), e por que o zodíaco é lido pelo ramo do ano está em [Por que a compatibilidade zodiacal considera o ramo do ano](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Os outros animais são apresentados do mesmo modo. [Rato](/guide/zodiac-rat) · [Boi](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coelho](/guide/zodiac-rabbit) · [Dragão](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Ovelha](/guide/zodiac-goat) · [Macaco](/guide/zodiac-monkey) · [Galo](/guide/zodiac-rooster) · [Cão](/guide/zodiac-dog) · [Porco](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-goat": {
+    "eyebrow": "Por animal",
+    "title": "Como a Ovelha se encontra com os doze animais do zodíaco",
+    "summary": "Que relação a Ovelha (未) tem com cada um dos doze animais do zodíaco, quantos pontos cada uma vale e que parcela da taxa de compatibilidade final esse valor ocupa — apresentado exatamente como nas regras de cálculo do Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "A Ovelha é o oitavo dos doze ramos",
+        "blocks": [
+          {
+            "p": "A Ovelha é quem tem **未** como ramo do ano de nascimento. 未 é o oitavo dos doze ramos terrestres e, quando os doze caracteres são dispostos em círculo, fica exatamente em frente a 丑 (o Boi)."
+          },
+          {
+            "p": "A frase que o resultado de compatibilidade mostra para uma pessoa Ovelha é: “Caloroso e atencioso. Guarda por muito tempo as palavras duras.” Essa frase não tem relação com as pontuações das relações e não afeta as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Os doze animais do zodíaco num relance",
+        "blocks": [
+          {
+            "p": "Cada um dos outros animais é confrontado, um de cada vez, com a Ovelha. Só os pares que este serviço reconhece como harmonias são escritos como relações; todo o resto é neutro."
+          },
+          {
+            "table": {
+              "caption": "A Ovelha e os doze animais do zodíaco",
+              "head": [
+                "Outro animal",
+                "Relação",
+                "Pontuação"
+              ],
+              "rows": [
+                [
+                  "Rato (子)",
+                  "Discórdia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Boi (丑)",
+                  "Choque",
+                  "{scoreChung}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coelho (卯)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Dragão (辰)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cavalo (午)",
+                  "Seis-Harmonia",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Ovelha (未)",
+                  "Mesmo ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Macaco (申)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Galo (酉)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cão (戌)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Porco (亥)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Cavalo — o par que se atrai (Seis-Harmonia)",
+        "blocks": [
+          {
+            "p": "未 e 午 formam uma harmonia com apenas dois caracteres. Uma seis-harmonia é a boa relação que mais aparece na compatibilidade, e a Ovelha e o Cavalo recebem {scoreYukhap}, o máximo que a Ovelha pode obter."
+          }
+        ]
+      },
+      {
+        "title": "Coelho — uma meia triade que inclui o ramo real",
+        "blocks": [
+          {
+            "p": "亥卯未 é um grupo de triade (o grupo da madeira), e 卯 é o **ramo real** no seu centro. O Inyeon-Link aceita apenas pares que incluam o ramo real, por isso a Ovelha forma uma meia triade ({scoreBanhap}) apenas com o Coelho."
+          },
+          {
+            "p": "Com o Porco (亥) do mesmo grupo falta o caractere central 卯; por isso o par não é contado como harmonia e é tratado como neutro ({scoreNeutral}). Pertencer ao mesmo grupo não faz de todo par uma harmonia."
+          }
+        ]
+      },
+      {
+        "title": "Boi — a colisão frontal (Choque)",
+        "blocks": [
+          {
+            "p": "未 e 丑 ficam exatamente em frente um do outro no círculo. Este serviço mantém {scoreChung} pontos mesmo para um choque. Na myeongri tradicional, um choque é uma colisão, não o fim de uma relação, e dar uma pontuação próxima do piso equivaleria a pronunciar um veredicto sobre duas pessoas. Mesmo assim, é a menor pontuação que a Ovelha pode receber."
+          }
+        ]
+      },
+      {
+        "title": "Rato — a discórdia silenciosa (Discórdia)",
+        "blocks": [
+          {
+            "p": "未 e 子 ficam logo ao lado de 丑 (o Boi), a posição do choque, e são tradicionalmente vistos como um par que se ressente, mas não consegue se separar. Parece calmo na superfície, mas acredita-se que o desencontro dure, por isso recebe {scoreWonjin} — mais que um choque ({scoreChung}) e menos que o neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Os outros 7 animais, e a Ovelha com outra Ovelha",
+        "blocks": [
+          {
+            "p": "Tigre, Dragão, Serpente, Macaco, Galo, Cão e Porco não são nem uma harmonia, nem um choque, nem uma discórdia com a Ovelha: são **neutros** e recebem {scoreNeutral}. São a linha de base, nem bons nem ruins."
+          },
+          {
+            "p": "Duas pessoas Ovelha recebem {scoreSame}. Isso significa que se parecem, não que se atraem, por isso ficam logo acima do neutro."
+          }
+        ]
+      },
+      {
+        "title": "Que parcela da taxa de compatibilidade final esta pontuação ocupa",
+        "blocks": [
+          {
+            "p": "Há dois lugares em que os ramos de duas pessoas são colocados lado a lado."
+          },
+          {
+            "ul": [
+              "A **compatibilidade zodiacal** olha o ramo do ano de nascimento. Ela ocupa {weightZodiac} da taxa de compatibilidade final.",
+              "A **compatibilidade do ramo do dia** olha o ramo do dia de nascimento. Ela ocupa {weightDayBranch} da compatibilidade de saju ({weightSaju}), o que corresponde a {weightDayBranchTotal} da taxa de compatibilidade final."
+            ]
+          },
+          {
+            "p": "Por exemplo, quando uma pessoa Ovelha encontra uma pessoa Boi, a compatibilidade zodiacal resulta em choque. Com tudo o mais igual, a taxa de compatibilidade final sai {swingZodiacChung} pontos mais baixa do que com um par neutro. Com uma pessoa Cavalo é uma seis-harmonia, e a taxa sai {swingZodiacYukhap} pontos mais alta."
+          },
+          {
+            "p": "Os ramos do ano e do dia podem ser diferentes. Duas pessoas Ovelha cujos ramos do dia são 未 e 丑 recebem o mesmo ramo ({scoreSame}) na compatibilidade zodiacal e um choque ({scoreChung}) na compatibilidade do ramo do dia."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um único animal não decide a relação entre duas pessoas. {weightSaju} da taxa de compatibilidade final é decidido pela compatibilidade de saju.",
+              "As variações de pontos acima pressupõem que todo o resto seja igual; o resultado real é definido pelo saju completo das duas pessoas.",
+              "A tabela completa de qual relação vale quanto está na [tabela dos doze ramos](/guide/branches), e por que o zodíaco é lido pelo ramo do ano está em [Por que a compatibilidade zodiacal considera o ramo do ano](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Os outros animais são apresentados do mesmo modo. [Rato](/guide/zodiac-rat) · [Boi](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coelho](/guide/zodiac-rabbit) · [Dragão](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavalo](/guide/zodiac-horse) · [Macaco](/guide/zodiac-monkey) · [Galo](/guide/zodiac-rooster) · [Cão](/guide/zodiac-dog) · [Porco](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-monkey": {
+    "eyebrow": "Por animal",
+    "title": "Como o Macaco se encontra com os doze animais do zodíaco",
+    "summary": "Que relação o Macaco (申) tem com cada um dos doze animais do zodíaco, quantos pontos cada uma vale e que parcela da taxa de compatibilidade final esse valor ocupa — apresentado exatamente como nas regras de cálculo do Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "O Macaco é o nono dos doze ramos",
+        "blocks": [
+          {
+            "p": "O Macaco é quem tem **申** como ramo do ano de nascimento. 申 é o nono dos doze ramos terrestres e, quando os doze caracteres são dispostos em círculo, fica exatamente em frente a 寅 (o Tigre)."
+          },
+          {
+            "p": "A frase que o resultado de compatibilidade mostra para uma pessoa Macaco é: “Cheio de recursos e rápido para se adaptar. Entedia-se com a repetição.” Essa frase não tem relação com as pontuações das relações e não afeta as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Os doze animais do zodíaco num relance",
+        "blocks": [
+          {
+            "p": "Cada um dos outros animais é confrontado, um de cada vez, com o Macaco. Só os pares que este serviço reconhece como harmonias são escritos como relações; todo o resto é neutro."
+          },
+          {
+            "table": {
+              "caption": "O Macaco e os doze animais do zodíaco",
+              "head": [
+                "Outro animal",
+                "Relação",
+                "Pontuação"
+              ],
+              "rows": [
+                [
+                  "Rato (子)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Boi (丑)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Choque",
+                  "{scoreChung}"
+                ],
+                [
+                  "Coelho (卯)",
+                  "Discórdia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Dragão (辰)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Seis-Harmonia",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Cavalo (午)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ovelha (未)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Macaco (申)",
+                  "Mesmo ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Galo (酉)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cão (戌)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Porco (亥)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Serpente — o par que se atrai (Seis-Harmonia)",
+        "blocks": [
+          {
+            "p": "申 e 巳 formam uma harmonia com apenas dois caracteres. Uma seis-harmonia é a boa relação que mais aparece na compatibilidade, e o Macaco e a Serpente recebem {scoreYukhap}, o máximo que o Macaco pode obter."
+          }
+        ]
+      },
+      {
+        "title": "Rato — uma meia triade que inclui o ramo real",
+        "blocks": [
+          {
+            "p": "申子辰 é um grupo de triade (o grupo da água), e 子 é o **ramo real** no seu centro. O Inyeon-Link aceita apenas pares que incluam o ramo real, por isso o Macaco forma uma meia triade ({scoreBanhap}) apenas com o Rato."
+          },
+          {
+            "p": "Com o Dragão (辰) do mesmo grupo falta o caractere central 子; por isso o par não é contado como harmonia e é tratado como neutro ({scoreNeutral}). Pertencer ao mesmo grupo não faz de todo par uma harmonia."
+          }
+        ]
+      },
+      {
+        "title": "Tigre — a colisão frontal (Choque)",
+        "blocks": [
+          {
+            "p": "申 e 寅 ficam exatamente em frente um do outro no círculo. Este serviço mantém {scoreChung} pontos mesmo para um choque. Na myeongri tradicional, um choque é uma colisão, não o fim de uma relação, e dar uma pontuação próxima do piso equivaleria a pronunciar um veredicto sobre duas pessoas. Mesmo assim, é a menor pontuação que o Macaco pode receber."
+          }
+        ]
+      },
+      {
+        "title": "Coelho — a discórdia silenciosa (Discórdia)",
+        "blocks": [
+          {
+            "p": "申 e 卯 ficam logo ao lado de 寅 (o Tigre), a posição do choque, e são tradicionalmente vistos como um par que se ressente, mas não consegue se separar. Parece calmo na superfície, mas acredita-se que o desencontro dure, por isso recebe {scoreWonjin} — mais que um choque ({scoreChung}) e menos que o neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Os outros 7 animais, e o Macaco com outro Macaco",
+        "blocks": [
+          {
+            "p": "Boi, Dragão, Cavalo, Ovelha, Galo, Cão e Porco não são nem uma harmonia, nem um choque, nem uma discórdia com o Macaco: são **neutros** e recebem {scoreNeutral}. São a linha de base, nem bons nem ruins."
+          },
+          {
+            "p": "Duas pessoas Macaco recebem {scoreSame}. Isso significa que se parecem, não que se atraem, por isso ficam logo acima do neutro."
+          }
+        ]
+      },
+      {
+        "title": "Que parcela da taxa de compatibilidade final esta pontuação ocupa",
+        "blocks": [
+          {
+            "p": "Há dois lugares em que os ramos de duas pessoas são colocados lado a lado."
+          },
+          {
+            "ul": [
+              "A **compatibilidade zodiacal** olha o ramo do ano de nascimento. Ela ocupa {weightZodiac} da taxa de compatibilidade final.",
+              "A **compatibilidade do ramo do dia** olha o ramo do dia de nascimento. Ela ocupa {weightDayBranch} da compatibilidade de saju ({weightSaju}), o que corresponde a {weightDayBranchTotal} da taxa de compatibilidade final."
+            ]
+          },
+          {
+            "p": "Por exemplo, quando uma pessoa Macaco encontra uma pessoa Tigre, a compatibilidade zodiacal resulta em choque. Com tudo o mais igual, a taxa de compatibilidade final sai {swingZodiacChung} pontos mais baixa do que com um par neutro. Com uma pessoa Serpente é uma seis-harmonia, e a taxa sai {swingZodiacYukhap} pontos mais alta."
+          },
+          {
+            "p": "Os ramos do ano e do dia podem ser diferentes. Duas pessoas Macaco cujos ramos do dia são 申 e 寅 recebem o mesmo ramo ({scoreSame}) na compatibilidade zodiacal e um choque ({scoreChung}) na compatibilidade do ramo do dia."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um único animal não decide a relação entre duas pessoas. {weightSaju} da taxa de compatibilidade final é decidido pela compatibilidade de saju.",
+              "As variações de pontos acima pressupõem que todo o resto seja igual; o resultado real é definido pelo saju completo das duas pessoas.",
+              "A tabela completa de qual relação vale quanto está na [tabela dos doze ramos](/guide/branches), e por que o zodíaco é lido pelo ramo do ano está em [Por que a compatibilidade zodiacal considera o ramo do ano](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Os outros animais são apresentados do mesmo modo. [Rato](/guide/zodiac-rat) · [Boi](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coelho](/guide/zodiac-rabbit) · [Dragão](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavalo](/guide/zodiac-horse) · [Ovelha](/guide/zodiac-goat) · [Galo](/guide/zodiac-rooster) · [Cão](/guide/zodiac-dog) · [Porco](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rooster": {
+    "eyebrow": "Por animal",
+    "title": "Como o Galo se encontra com os doze animais do zodíaco",
+    "summary": "Que relação o Galo (酉) tem com cada um dos doze animais do zodíaco, quantos pontos cada uma vale e que parcela da taxa de compatibilidade final esse valor ocupa — apresentado exatamente como nas regras de cálculo do Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "O Galo é o décimo dos doze ramos",
+        "blocks": [
+          {
+            "p": "O Galo é quem tem **酉** como ramo do ano de nascimento. 酉 é o décimo dos doze ramos terrestres e, quando os doze caracteres são dispostos em círculo, fica exatamente em frente a 卯 (o Coelho)."
+          },
+          {
+            "p": "A frase que o resultado de compatibilidade mostra para uma pessoa Galo é: “Diligente e minucioso. Não consegue deixar nada fora do lugar.” Essa frase não tem relação com as pontuações das relações e não afeta as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Os doze animais do zodíaco num relance",
+        "blocks": [
+          {
+            "p": "Cada um dos outros animais é confrontado, um de cada vez, com o Galo. Só os pares que este serviço reconhece como harmonias são escritos como relações; todo o resto é neutro."
+          },
+          {
+            "table": {
+              "caption": "O Galo e os doze animais do zodíaco",
+              "head": [
+                "Outro animal",
+                "Relação",
+                "Pontuação"
+              ],
+              "rows": [
+                [
+                  "Rato (子)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Boi (丑)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Discórdia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Coelho (卯)",
+                  "Choque",
+                  "{scoreChung}"
+                ],
+                [
+                  "Dragão (辰)",
+                  "Seis-Harmonia",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Cavalo (午)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ovelha (未)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Macaco (申)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Galo (酉)",
+                  "Mesmo ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Cão (戌)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Porco (亥)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Dragão — o par que se atrai (Seis-Harmonia)",
+        "blocks": [
+          {
+            "p": "酉 e 辰 formam uma harmonia com apenas dois caracteres. Uma seis-harmonia é a boa relação que mais aparece na compatibilidade, e o Galo e o Dragão recebem {scoreYukhap}, o máximo que o Galo pode obter."
+          }
+        ]
+      },
+      {
+        "title": "Boi e Serpente — uma meia triade que inclui o ramo real",
+        "blocks": [
+          {
+            "p": "巳酉丑 é um grupo de triade (o grupo do metal), e 酉 é o **ramo real** no seu centro. O Inyeon-Link aceita apenas pares que incluam o ramo real, por isso o Galo forma uma meia triade ({scoreBanhap}) tanto com o Boi quanto com a Serpente."
+          },
+          {
+            "p": "**A Serpente e o Boi juntos**, por outro lado, não têm o caractere central 酉; por isso o par não é contado como harmonia e é tratado como neutro. Mesmo dentro de um grupo de triade, é o Galo quem forma a meia triade."
+          }
+        ]
+      },
+      {
+        "title": "Coelho — a colisão frontal (Choque)",
+        "blocks": [
+          {
+            "p": "酉 e 卯 ficam exatamente em frente um do outro no círculo. Este serviço mantém {scoreChung} pontos mesmo para um choque. Na myeongri tradicional, um choque é uma colisão, não o fim de uma relação, e dar uma pontuação próxima do piso equivaleria a pronunciar um veredicto sobre duas pessoas. Mesmo assim, é a menor pontuação que o Galo pode receber."
+          }
+        ]
+      },
+      {
+        "title": "Tigre — a discórdia silenciosa (Discórdia)",
+        "blocks": [
+          {
+            "p": "酉 e 寅 ficam logo ao lado de 卯 (o Coelho), a posição do choque, e são tradicionalmente vistos como um par que se ressente, mas não consegue se separar. Parece calmo na superfície, mas acredita-se que o desencontro dure, por isso recebe {scoreWonjin} — mais que um choque ({scoreChung}) e menos que o neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Os outros 6 animais, e o Galo com outro Galo",
+        "blocks": [
+          {
+            "p": "Rato, Cavalo, Ovelha, Macaco, Cão e Porco não são nem uma harmonia, nem um choque, nem uma discórdia com o Galo: são **neutros** e recebem {scoreNeutral}. São a linha de base, nem bons nem ruins."
+          },
+          {
+            "p": "Duas pessoas Galo recebem {scoreSame}. Isso significa que se parecem, não que se atraem, por isso ficam logo acima do neutro."
+          }
+        ]
+      },
+      {
+        "title": "Que parcela da taxa de compatibilidade final esta pontuação ocupa",
+        "blocks": [
+          {
+            "p": "Há dois lugares em que os ramos de duas pessoas são colocados lado a lado."
+          },
+          {
+            "ul": [
+              "A **compatibilidade zodiacal** olha o ramo do ano de nascimento. Ela ocupa {weightZodiac} da taxa de compatibilidade final.",
+              "A **compatibilidade do ramo do dia** olha o ramo do dia de nascimento. Ela ocupa {weightDayBranch} da compatibilidade de saju ({weightSaju}), o que corresponde a {weightDayBranchTotal} da taxa de compatibilidade final."
+            ]
+          },
+          {
+            "p": "Por exemplo, quando uma pessoa Galo encontra uma pessoa Coelho, a compatibilidade zodiacal resulta em choque. Com tudo o mais igual, a taxa de compatibilidade final sai {swingZodiacChung} pontos mais baixa do que com um par neutro. Com uma pessoa Dragão é uma seis-harmonia, e a taxa sai {swingZodiacYukhap} pontos mais alta."
+          },
+          {
+            "p": "Os ramos do ano e do dia podem ser diferentes. Duas pessoas Galo cujos ramos do dia são 酉 e 卯 recebem o mesmo ramo ({scoreSame}) na compatibilidade zodiacal e um choque ({scoreChung}) na compatibilidade do ramo do dia."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um único animal não decide a relação entre duas pessoas. {weightSaju} da taxa de compatibilidade final é decidido pela compatibilidade de saju.",
+              "As variações de pontos acima pressupõem que todo o resto seja igual; o resultado real é definido pelo saju completo das duas pessoas.",
+              "A tabela completa de qual relação vale quanto está na [tabela dos doze ramos](/guide/branches), e por que o zodíaco é lido pelo ramo do ano está em [Por que a compatibilidade zodiacal considera o ramo do ano](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Os outros animais são apresentados do mesmo modo. [Rato](/guide/zodiac-rat) · [Boi](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coelho](/guide/zodiac-rabbit) · [Dragão](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavalo](/guide/zodiac-horse) · [Ovelha](/guide/zodiac-goat) · [Macaco](/guide/zodiac-monkey) · [Cão](/guide/zodiac-dog) · [Porco](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dog": {
+    "eyebrow": "Por animal",
+    "title": "Como o Cão se encontra com os doze animais do zodíaco",
+    "summary": "Que relação o Cão (戌) tem com cada um dos doze animais do zodíaco, quantos pontos cada uma vale e que parcela da taxa de compatibilidade final esse valor ocupa — apresentado exatamente como nas regras de cálculo do Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "O Cão é o décimo primeiro dos doze ramos",
+        "blocks": [
+          {
+            "p": "O Cão é quem tem **戌** como ramo do ano de nascimento. 戌 é o décimo primeiro dos doze ramos terrestres e, quando os doze caracteres são dispostos em círculo, fica exatamente em frente a 辰 (o Dragão)."
+          },
+          {
+            "p": "A frase que o resultado de compatibilidade mostra para uma pessoa Cão é: “Leal até o fim depois que confia. A traição machuca especialmente fundo.” Essa frase não tem relação com as pontuações das relações e não afeta as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Os doze animais do zodíaco num relance",
+        "blocks": [
+          {
+            "p": "Cada um dos outros animais é confrontado, um de cada vez, com o Cão. Só os pares que este serviço reconhece como harmonias são escritos como relações; todo o resto é neutro."
+          },
+          {
+            "table": {
+              "caption": "O Cão e os doze animais do zodíaco",
+              "head": [
+                "Outro animal",
+                "Relação",
+                "Pontuação"
+              ],
+              "rows": [
+                [
+                  "Rato (子)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Boi (丑)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Coelho (卯)",
+                  "Seis-Harmonia",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Dragão (辰)",
+                  "Choque",
+                  "{scoreChung}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Discórdia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Cavalo (午)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Ovelha (未)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Macaco (申)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Galo (酉)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cão (戌)",
+                  "Mesmo ramo",
+                  "{scoreSame}"
+                ],
+                [
+                  "Porco (亥)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Coelho — o par que se atrai (Seis-Harmonia)",
+        "blocks": [
+          {
+            "p": "戌 e 卯 formam uma harmonia com apenas dois caracteres. Uma seis-harmonia é a boa relação que mais aparece na compatibilidade, e o Cão e o Coelho recebem {scoreYukhap}, o máximo que o Cão pode obter."
+          }
+        ]
+      },
+      {
+        "title": "Cavalo — uma meia triade que inclui o ramo real",
+        "blocks": [
+          {
+            "p": "寅午戌 é um grupo de triade (o grupo do fogo), e 午 é o **ramo real** no seu centro. O Inyeon-Link aceita apenas pares que incluam o ramo real, por isso o Cão forma uma meia triade ({scoreBanhap}) apenas com o Cavalo."
+          },
+          {
+            "p": "Com o Tigre (寅) do mesmo grupo falta o caractere central 午; por isso o par não é contado como harmonia e é tratado como neutro ({scoreNeutral}). Pertencer ao mesmo grupo não faz de todo par uma harmonia."
+          }
+        ]
+      },
+      {
+        "title": "Dragão — a colisão frontal (Choque)",
+        "blocks": [
+          {
+            "p": "戌 e 辰 ficam exatamente em frente um do outro no círculo. Este serviço mantém {scoreChung} pontos mesmo para um choque. Na myeongri tradicional, um choque é uma colisão, não o fim de uma relação, e dar uma pontuação próxima do piso equivaleria a pronunciar um veredicto sobre duas pessoas. Mesmo assim, é a menor pontuação que o Cão pode receber."
+          }
+        ]
+      },
+      {
+        "title": "Serpente — a discórdia silenciosa (Discórdia)",
+        "blocks": [
+          {
+            "p": "戌 e 巳 ficam logo ao lado de 辰 (o Dragão), a posição do choque, e são tradicionalmente vistos como um par que se ressente, mas não consegue se separar. Parece calmo na superfície, mas acredita-se que o desencontro dure, por isso recebe {scoreWonjin} — mais que um choque ({scoreChung}) e menos que o neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Os outros 7 animais, e o Cão com outro Cão",
+        "blocks": [
+          {
+            "p": "Rato, Boi, Tigre, Ovelha, Macaco, Galo e Porco não são nem uma harmonia, nem um choque, nem uma discórdia com o Cão: são **neutros** e recebem {scoreNeutral}. São a linha de base, nem bons nem ruins."
+          },
+          {
+            "p": "Duas pessoas Cão recebem {scoreSame}. Isso significa que se parecem, não que se atraem, por isso ficam logo acima do neutro."
+          }
+        ]
+      },
+      {
+        "title": "Que parcela da taxa de compatibilidade final esta pontuação ocupa",
+        "blocks": [
+          {
+            "p": "Há dois lugares em que os ramos de duas pessoas são colocados lado a lado."
+          },
+          {
+            "ul": [
+              "A **compatibilidade zodiacal** olha o ramo do ano de nascimento. Ela ocupa {weightZodiac} da taxa de compatibilidade final.",
+              "A **compatibilidade do ramo do dia** olha o ramo do dia de nascimento. Ela ocupa {weightDayBranch} da compatibilidade de saju ({weightSaju}), o que corresponde a {weightDayBranchTotal} da taxa de compatibilidade final."
+            ]
+          },
+          {
+            "p": "Por exemplo, quando uma pessoa Cão encontra uma pessoa Dragão, a compatibilidade zodiacal resulta em choque. Com tudo o mais igual, a taxa de compatibilidade final sai {swingZodiacChung} pontos mais baixa do que com um par neutro. Com uma pessoa Coelho é uma seis-harmonia, e a taxa sai {swingZodiacYukhap} pontos mais alta."
+          },
+          {
+            "p": "Os ramos do ano e do dia podem ser diferentes. Duas pessoas Cão cujos ramos do dia são 戌 e 辰 recebem o mesmo ramo ({scoreSame}) na compatibilidade zodiacal e um choque ({scoreChung}) na compatibilidade do ramo do dia."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um único animal não decide a relação entre duas pessoas. {weightSaju} da taxa de compatibilidade final é decidido pela compatibilidade de saju.",
+              "As variações de pontos acima pressupõem que todo o resto seja igual; o resultado real é definido pelo saju completo das duas pessoas.",
+              "A tabela completa de qual relação vale quanto está na [tabela dos doze ramos](/guide/branches), e por que o zodíaco é lido pelo ramo do ano está em [Por que a compatibilidade zodiacal considera o ramo do ano](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Os outros animais são apresentados do mesmo modo. [Rato](/guide/zodiac-rat) · [Boi](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coelho](/guide/zodiac-rabbit) · [Dragão](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavalo](/guide/zodiac-horse) · [Ovelha](/guide/zodiac-goat) · [Macaco](/guide/zodiac-monkey) · [Galo](/guide/zodiac-rooster) · [Porco](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pig": {
+    "eyebrow": "Por animal",
+    "title": "Como o Porco se encontra com os doze animais do zodíaco",
+    "summary": "Que relação o Porco (亥) tem com cada um dos doze animais do zodíaco, quantos pontos cada uma vale e que parcela da taxa de compatibilidade final esse valor ocupa — apresentado exatamente como nas regras de cálculo do Inyeon-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "O Porco é o décimo segundo dos doze ramos",
+        "blocks": [
+          {
+            "p": "O Porco é quem tem **亥** como ramo do ano de nascimento. 亥 é o décimo segundo dos doze ramos terrestres e, quando os doze caracteres são dispostos em círculo, fica exatamente em frente a 巳 (a Serpente)."
+          },
+          {
+            "p": "A frase que o resultado de compatibilidade mostra para uma pessoa Porco é: “Generoso e franco. Confia com facilidade, às vezes a um custo.” Essa frase não tem relação com as pontuações das relações e não afeta as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Os doze animais do zodíaco num relance",
+        "blocks": [
+          {
+            "p": "Cada um dos outros animais é confrontado, um de cada vez, com o Porco. Só os pares que este serviço reconhece como harmonias são escritos como relações; todo o resto é neutro."
+          },
+          {
+            "table": {
+              "caption": "O Porco e os doze animais do zodíaco",
+              "head": [
+                "Outro animal",
+                "Relação",
+                "Pontuação"
+              ],
+              "rows": [
+                [
+                  "Rato (子)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Boi (丑)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tigre (寅)",
+                  "Seis-Harmonia",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Coelho (卯)",
+                  "Meia triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Dragão (辰)",
+                  "Discórdia",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Serpente (巳)",
+                  "Choque",
+                  "{scoreChung}"
+                ],
+                [
+                  "Cavalo (午)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ovelha (未)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Macaco (申)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Galo (酉)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Cão (戌)",
+                  "Neutro",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Porco (亥)",
+                  "Mesmo ramo",
+                  "{scoreSame}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Tigre — o par que se atrai (Seis-Harmonia)",
+        "blocks": [
+          {
+            "p": "亥 e 寅 formam uma harmonia com apenas dois caracteres. Uma seis-harmonia é a boa relação que mais aparece na compatibilidade, e o Porco e o Tigre recebem {scoreYukhap}, o máximo que o Porco pode obter."
+          }
+        ]
+      },
+      {
+        "title": "Coelho — uma meia triade que inclui o ramo real",
+        "blocks": [
+          {
+            "p": "亥卯未 é um grupo de triade (o grupo da madeira), e 卯 é o **ramo real** no seu centro. O Inyeon-Link aceita apenas pares que incluam o ramo real, por isso o Porco forma uma meia triade ({scoreBanhap}) apenas com o Coelho."
+          },
+          {
+            "p": "Com a Ovelha (未) do mesmo grupo falta o caractere central 卯; por isso o par não é contado como harmonia e é tratado como neutro ({scoreNeutral}). Pertencer ao mesmo grupo não faz de todo par uma harmonia."
+          }
+        ]
+      },
+      {
+        "title": "Serpente — a colisão frontal (Choque)",
+        "blocks": [
+          {
+            "p": "亥 e 巳 ficam exatamente em frente um do outro no círculo. Este serviço mantém {scoreChung} pontos mesmo para um choque. Na myeongri tradicional, um choque é uma colisão, não o fim de uma relação, e dar uma pontuação próxima do piso equivaleria a pronunciar um veredicto sobre duas pessoas. Mesmo assim, é a menor pontuação que o Porco pode receber."
+          }
+        ]
+      },
+      {
+        "title": "Dragão — a discórdia silenciosa (Discórdia)",
+        "blocks": [
+          {
+            "p": "亥 e 辰 ficam logo ao lado de 巳 (a Serpente), a posição do choque, e são tradicionalmente vistos como um par que se ressente, mas não consegue se separar. Parece calmo na superfície, mas acredita-se que o desencontro dure, por isso recebe {scoreWonjin} — mais que um choque ({scoreChung}) e menos que o neutro ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Os outros 7 animais, e o Porco com outro Porco",
+        "blocks": [
+          {
+            "p": "Rato, Boi, Cavalo, Ovelha, Macaco, Galo e Cão não são nem uma harmonia, nem um choque, nem uma discórdia com o Porco: são **neutros** e recebem {scoreNeutral}. São a linha de base, nem bons nem ruins."
+          },
+          {
+            "p": "Duas pessoas Porco recebem {scoreSame}. Isso significa que se parecem, não que se atraem, por isso ficam logo acima do neutro."
+          }
+        ]
+      },
+      {
+        "title": "Que parcela da taxa de compatibilidade final esta pontuação ocupa",
+        "blocks": [
+          {
+            "p": "Há dois lugares em que os ramos de duas pessoas são colocados lado a lado."
+          },
+          {
+            "ul": [
+              "A **compatibilidade zodiacal** olha o ramo do ano de nascimento. Ela ocupa {weightZodiac} da taxa de compatibilidade final.",
+              "A **compatibilidade do ramo do dia** olha o ramo do dia de nascimento. Ela ocupa {weightDayBranch} da compatibilidade de saju ({weightSaju}), o que corresponde a {weightDayBranchTotal} da taxa de compatibilidade final."
+            ]
+          },
+          {
+            "p": "Por exemplo, quando uma pessoa Porco encontra uma pessoa Serpente, a compatibilidade zodiacal resulta em choque. Com tudo o mais igual, a taxa de compatibilidade final sai {swingZodiacChung} pontos mais baixa do que com um par neutro. Com uma pessoa Tigre é uma seis-harmonia, e a taxa sai {swingZodiacYukhap} pontos mais alta."
+          },
+          {
+            "p": "Os ramos do ano e do dia podem ser diferentes. Duas pessoas Porco cujos ramos do dia são 亥 e 巳 recebem o mesmo ramo ({scoreSame}) na compatibilidade zodiacal e um choque ({scoreChung}) na compatibilidade do ramo do dia."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um único animal não decide a relação entre duas pessoas. {weightSaju} da taxa de compatibilidade final é decidido pela compatibilidade de saju.",
+              "As variações de pontos acima pressupõem que todo o resto seja igual; o resultado real é definido pelo saju completo das duas pessoas.",
+              "A tabela completa de qual relação vale quanto está na [tabela dos doze ramos](/guide/branches), e por que o zodíaco é lido pelo ramo do ano está em [Por que a compatibilidade zodiacal considera o ramo do ano](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Os outros animais são apresentados do mesmo modo. [Rato](/guide/zodiac-rat) · [Boi](/guide/zodiac-ox) · [Tigre](/guide/zodiac-tiger) · [Coelho](/guide/zodiac-rabbit) · [Dragão](/guide/zodiac-dragon) · [Serpente](/guide/zodiac-snake) · [Cavalo](/guide/zodiac-horse) · [Ovelha](/guide/zodiac-goat) · [Macaco](/guide/zodiac-monkey) · [Galo](/guide/zodiac-rooster) · [Cão](/guide/zodiac-dog)"
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Dez Deuses",
     "title": "Dez Deuses e Posição do Cônjuge",

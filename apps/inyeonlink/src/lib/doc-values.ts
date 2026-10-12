@@ -25,6 +25,8 @@ import { getAllReportPrices } from "@/lib/report-product";
  */
 export async function docValues(locale: Locale): Promise<Record<string, string>> {
   const percent = (value: number) => `${Math.round(value * 100)}%`;
+  const swing = (score: number) =>
+    Math.abs((score - BRANCH_RELATION_SCORE.NEUTRAL) * ENGINE_WEIGHTS.zodiac).toFixed(1);
   const dictionary = getDictionary(locale);
 
   const values: Record<string, string> = {
@@ -35,6 +37,8 @@ export async function docValues(locale: Locale): Promise<Record<string, string>>
     weightElementSupply: percent(SAJU_WEIGHTS.elementSupply),
     weightSpouseStar: percent(SAJU_WEIGHTS.spouseStar),
     weightDayBranch: percent(SAJU_WEIGHTS.dayBranchRelation),
+    // 일지 궁합이 최종 매칭률에서 차지하는 몫 = 사주 비중 × 사주 안의 일지 비중. 띠별 안내가 쓴다.
+    weightDayBranchTotal: percent(ENGINE_WEIGHTS.saju * SAJU_WEIGHTS.dayBranchRelation),
 
     // 지지 관계표. 안내가 표로도 적고 문장 속에서도 부른다.
     scoreSamhap: String(BRANCH_RELATION_SCORE.SAMHAP),
@@ -44,6 +48,11 @@ export async function docValues(locale: Locale): Promise<Record<string, string>>
     scoreNeutral: String(BRANCH_RELATION_SCORE.NEUTRAL),
     scoreWonjin: String(BRANCH_RELATION_SCORE.WONJIN),
     scoreChung: String(BRANCH_RELATION_SCORE.CHUNG),
+
+    // 띠 궁합에서 이 관계가 「무관계」일 때보다 최종 매칭률을 몇 점 움직이는가 = (관계 점수 − 무관계 점수) × 띠 비중.
+    // **부호 없는 값**이다 — 글이 「높아집니다/낮아집니다」를 따로 적는다. 다른 항목이 같다는 가정의 값이다.
+    swingZodiacYukhap: swing(BRANCH_RELATION_SCORE.YUKHAP),
+    swingZodiacChung: swing(BRANCH_RELATION_SCORE.CHUNG),
 
     // 신강·신약 경계. 인성+비겁은 다섯 중 둘이므로 고르면 40%가 된다 — 그 40%도 세어서 낸다.
     strongThreshold: percent(STRONG_THRESHOLD),

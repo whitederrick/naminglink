@@ -585,6 +585,2190 @@ export const DE_DOCS = {
       }
     ]
   },
+  "guide/zodiac-rat": {
+    "eyebrow": "Nach Tier",
+    "title": "Wie die Ratte den zwölf Tierkreiszeichen begegnet",
+    "summary": "Welche Beziehung die Ratte (子) zu jedem der zwölf Tierkreiszeichen hat, welchen Punktwert jede erhält und welchen Anteil dieser Punktwert am Endwert ausmacht — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Die Ratte ist der erste der zwölf Zweige",
+        "blocks": [
+          {
+            "p": "Zur Ratte gehört, wessen Geburtsjahreszweig **子** ist. 子 ist der erste der zwölf irdischen Zweige, und wenn die zwölf Zeichen im Kreis angeordnet werden, liegt er 午 (dem Pferd) unmittelbar gegenüber."
+          },
+          {
+            "p": "Die Zeile, die das Kompatibilitätsergebnis für eine Person im Zeichen der Ratte zeigt, lautet: „Bemerkt schnell und sichert schnell, worauf es ankommt. In der Krise zuerst in Bewegung.“ Diese Zeile hat nichts mit den Beziehungspunktwerten zu tun und beeinflusst die folgenden Punktwerte nicht."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf Tierkreiszeichen auf einen Blick",
+        "blocks": [
+          {
+            "p": "Jedes der anderen Tiere wird der Reihe nach der Ratte gegenübergestellt. Nur die Paare, die dieser Dienst als Harmonien anerkennt, sind als Beziehungen aufgeführt; alles andere ist neutral."
+          },
+          {
+            "table": {
+              "caption": "Die Ratte und die zwölf Tierkreiszeichen",
+              "head": [
+                "Anderes Tier",
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Ratte (子)",
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ],
+                [
+                  "Ochse (丑)",
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hase (卯)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Drache (辰)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Schlange (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pferd (午)",
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ],
+                [
+                  "Schaf (未)",
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Affe (申)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hund (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ochse — das Paar, das sich anzieht (Sechs-Harmonie)",
+        "blocks": [
+          {
+            "p": "子 und 丑 bilden eine Harmonie mit nur zwei Zeichen. Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und die Ratte und der Ochse erreichen {scoreYukhap}, den höchsten Wert, den die Ratte erreichen kann."
+          }
+        ]
+      },
+      {
+        "title": "Drache und Affe — eine Halb-Triade, die den königlichen Zweig enthält",
+        "blocks": [
+          {
+            "p": "申子辰 ist eine Triadengruppe (die Wassergruppe), und 子 ist der **königliche Zweig** in ihrer Mitte. Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher bildet die Ratte sowohl mit dem Drachen als auch mit dem Affen eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "**Der Affe und der Drache zusammen** hingegen entbehren des mittleren Zeichens 子; sie zählen daher nicht als Harmonie und gelten als neutral. Selbst innerhalb einer Triadengruppe geht die Halb-Triade von der Ratte aus."
+          }
+        ]
+      },
+      {
+        "title": "Pferd — der frontale Zusammenstoß (Zusammenstoß)",
+        "blocks": [
+          {
+            "p": "子 und 午 liegen auf dem Kreis einander unmittelbar gegenüber. Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich. Dennoch ist es der niedrigste Wert, den die Ratte erhalten kann."
+          }
+        ]
+      },
+      {
+        "title": "Schaf — die stille Zwietracht (Zwietracht)",
+        "blocks": [
+          {
+            "p": "子 und 未 liegen unmittelbar neben 午 (dem Pferd), der Position des Zusammenstoßes, und gelten traditionell als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Die übrigen 6 Tiere und die Ratte mit einer weiteren Ratte",
+        "blocks": [
+          {
+            "p": "Tiger, Hase, Schlange, Hahn, Hund und Schwein bilden weder eine Harmonie noch einen Zusammenstoß noch eine Zwietracht mit der Ratte: Sie sind **neutral** und erhalten {scoreNeutral}. Sie sind die Ausgangslage, weder gut noch schlecht."
+          },
+          {
+            "p": "Zwei Personen im Zeichen der Ratte erhalten {scoreSame}. Das bedeutet, dass sie sich ähneln und nicht anziehen; deshalb liegt der Wert knapp über neutral."
+          }
+        ]
+      },
+      {
+        "title": "Welchen Anteil am Endwert dieser Punktwert ausmacht",
+        "blocks": [
+          {
+            "p": "Es gibt zwei Stellen, an denen die Zweige zweier Personen nebeneinandergelegt werden."
+          },
+          {
+            "ul": [
+              "Die **Tierkreis-Kompatibilität** betrachtet den Zweig des Geburtsjahres. Sie macht {weightZodiac} des Endwerts aus.",
+              "Die **Tageszweig-Kompatibilität** betrachtet den Zweig des Geburtstages. Sie macht {weightDayBranch} der Saju-Kompatibilität ({weightSaju}) aus, das sind {weightDayBranchTotal} des Endwerts."
+            ]
+          },
+          {
+            "p": "Trifft zum Beispiel eine Person im Zeichen der Ratte auf eine Person im Zeichen des Pferdes, ergibt die Tierkreis-Kompatibilität einen Zusammenstoß. Bei sonst gleichen Voraussetzungen liegt der Endwert {swingZodiacChung} Punkte niedriger als bei einem neutralen Paar. Mit einer Person im Zeichen des Ochsen ist es eine Sechs-Harmonie, und der Wert liegt {swingZodiacYukhap} Punkte höher."
+          },
+          {
+            "p": "Jahres- und Tageszweige können sich unterscheiden. Zwei Personen im Zeichen der Ratte, deren Tageszweige 子 und 午 sind, erhalten in der Tierkreis-Kompatibilität den gleichen Zweig ({scoreSame}) und in der Tageszweig-Kompatibilität einen Zusammenstoß ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht sagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt.",
+              "Die vollständige Aufstellung, welche Beziehung wie viele Punkte erhält, steht in der [Tabelle der zwölf Zweige](/guide/branches); warum das Tierkreiszeichen vom Jahreszweig abgelesen wird, steht in [Warum die Tierkreis-Kompatibilität den Jahreszweig berücksichtigt](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Die anderen Tiere sind auf dieselbe Weise dargestellt. [Ochse](/guide/zodiac-ox) · [Tiger](/guide/zodiac-tiger) · [Hase](/guide/zodiac-rabbit) · [Drache](/guide/zodiac-dragon) · [Schlange](/guide/zodiac-snake) · [Pferd](/guide/zodiac-horse) · [Schaf](/guide/zodiac-goat) · [Affe](/guide/zodiac-monkey) · [Hahn](/guide/zodiac-rooster) · [Hund](/guide/zodiac-dog) · [Schwein](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-ox": {
+    "eyebrow": "Nach Tier",
+    "title": "Wie der Ochse den zwölf Tierkreiszeichen begegnet",
+    "summary": "Welche Beziehung der Ochse (丑) zu jedem der zwölf Tierkreiszeichen hat, welchen Punktwert jede erhält und welchen Anteil dieser Punktwert am Endwert ausmacht — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Ochse ist der zweite der zwölf Zweige",
+        "blocks": [
+          {
+            "p": "Zum Ochsen gehört, wessen Geburtsjahreszweig **丑** ist. 丑 ist der zweite der zwölf irdischen Zweige, und wenn die zwölf Zeichen im Kreis angeordnet werden, liegt er 未 (dem Schaf) unmittelbar gegenüber."
+          },
+          {
+            "p": "Die Zeile, die das Kompatibilitätsergebnis für eine Person im Zeichen des Ochsen zeigt, lautet: „Wirkt langsam, bringt es aber zu Ende. Was es übernimmt, lässt es nicht fallen.“ Diese Zeile hat nichts mit den Beziehungspunktwerten zu tun und beeinflusst die folgenden Punktwerte nicht."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf Tierkreiszeichen auf einen Blick",
+        "blocks": [
+          {
+            "p": "Jedes der anderen Tiere wird der Reihe nach dem Ochsen gegenübergestellt. Nur die Paare, die dieser Dienst als Harmonien anerkennt, sind als Beziehungen aufgeführt; alles andere ist neutral."
+          },
+          {
+            "table": {
+              "caption": "Der Ochse und die zwölf Tierkreiszeichen",
+              "head": [
+                "Anderes Tier",
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Ratte (子)",
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Ochse (丑)",
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hase (卯)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Drache (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schlange (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pferd (午)",
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Schaf (未)",
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ],
+                [
+                  "Affe (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Hund (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ratte — das Paar, das sich anzieht (Sechs-Harmonie)",
+        "blocks": [
+          {
+            "p": "丑 und 子 bilden eine Harmonie mit nur zwei Zeichen. Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und der Ochse und die Ratte erreichen {scoreYukhap}, den höchsten Wert, den der Ochse erreichen kann."
+          }
+        ]
+      },
+      {
+        "title": "Hahn — eine Halb-Triade, die den königlichen Zweig enthält",
+        "blocks": [
+          {
+            "p": "巳酉丑 ist eine Triadengruppe (die Metallgruppe), und 酉 ist der **königliche Zweig** in ihrer Mitte. Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher bildet der Ochse nur mit dem Hahn eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Bei der Schlange (巳) derselben Gruppe fehlt das mittlere Zeichen 酉; daher zählt das Paar nicht als Harmonie und gilt als neutral ({scoreNeutral}). Die Zugehörigkeit zur selben Gruppe macht nicht jedes Paar zu einer Harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Schaf — der frontale Zusammenstoß (Zusammenstoß)",
+        "blocks": [
+          {
+            "p": "丑 und 未 liegen auf dem Kreis einander unmittelbar gegenüber. Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich. Dennoch ist es der niedrigste Wert, den der Ochse erhalten kann."
+          }
+        ]
+      },
+      {
+        "title": "Pferd — die stille Zwietracht (Zwietracht)",
+        "blocks": [
+          {
+            "p": "丑 und 午 liegen unmittelbar neben 未 (dem Schaf), der Position des Zusammenstoßes, und gelten traditionell als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Die übrigen 7 Tiere und der Ochse mit einem weiteren Ochsen",
+        "blocks": [
+          {
+            "p": "Tiger, Hase, Drache, Schlange, Affe, Hund und Schwein bilden weder eine Harmonie noch einen Zusammenstoß noch eine Zwietracht mit dem Ochsen: Sie sind **neutral** und erhalten {scoreNeutral}. Sie sind die Ausgangslage, weder gut noch schlecht."
+          },
+          {
+            "p": "Zwei Personen im Zeichen des Ochsen erhalten {scoreSame}. Das bedeutet, dass sie sich ähneln und nicht anziehen; deshalb liegt der Wert knapp über neutral."
+          }
+        ]
+      },
+      {
+        "title": "Welchen Anteil am Endwert dieser Punktwert ausmacht",
+        "blocks": [
+          {
+            "p": "Es gibt zwei Stellen, an denen die Zweige zweier Personen nebeneinandergelegt werden."
+          },
+          {
+            "ul": [
+              "Die **Tierkreis-Kompatibilität** betrachtet den Zweig des Geburtsjahres. Sie macht {weightZodiac} des Endwerts aus.",
+              "Die **Tageszweig-Kompatibilität** betrachtet den Zweig des Geburtstages. Sie macht {weightDayBranch} der Saju-Kompatibilität ({weightSaju}) aus, das sind {weightDayBranchTotal} des Endwerts."
+            ]
+          },
+          {
+            "p": "Trifft zum Beispiel eine Person im Zeichen des Ochsen auf eine Person im Zeichen des Schafs, ergibt die Tierkreis-Kompatibilität einen Zusammenstoß. Bei sonst gleichen Voraussetzungen liegt der Endwert {swingZodiacChung} Punkte niedriger als bei einem neutralen Paar. Mit einer Person im Zeichen der Ratte ist es eine Sechs-Harmonie, und der Wert liegt {swingZodiacYukhap} Punkte höher."
+          },
+          {
+            "p": "Jahres- und Tageszweige können sich unterscheiden. Zwei Personen im Zeichen des Ochsen, deren Tageszweige 丑 und 未 sind, erhalten in der Tierkreis-Kompatibilität den gleichen Zweig ({scoreSame}) und in der Tageszweig-Kompatibilität einen Zusammenstoß ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht sagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt.",
+              "Die vollständige Aufstellung, welche Beziehung wie viele Punkte erhält, steht in der [Tabelle der zwölf Zweige](/guide/branches); warum das Tierkreiszeichen vom Jahreszweig abgelesen wird, steht in [Warum die Tierkreis-Kompatibilität den Jahreszweig berücksichtigt](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Die anderen Tiere sind auf dieselbe Weise dargestellt. [Ratte](/guide/zodiac-rat) · [Tiger](/guide/zodiac-tiger) · [Hase](/guide/zodiac-rabbit) · [Drache](/guide/zodiac-dragon) · [Schlange](/guide/zodiac-snake) · [Pferd](/guide/zodiac-horse) · [Schaf](/guide/zodiac-goat) · [Affe](/guide/zodiac-monkey) · [Hahn](/guide/zodiac-rooster) · [Hund](/guide/zodiac-dog) · [Schwein](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-tiger": {
+    "eyebrow": "Nach Tier",
+    "title": "Wie der Tiger den zwölf Tierkreiszeichen begegnet",
+    "summary": "Welche Beziehung der Tiger (寅) zu jedem der zwölf Tierkreiszeichen hat, welchen Punktwert jede erhält und welchen Anteil dieser Punktwert am Endwert ausmacht — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Tiger ist der dritte der zwölf Zweige",
+        "blocks": [
+          {
+            "p": "Zum Tiger gehört, wessen Geburtsjahreszweig **寅** ist. 寅 ist der dritte der zwölf irdischen Zweige, und wenn die zwölf Zeichen im Kreis angeordnet werden, liegt er 申 (dem Affen) unmittelbar gegenüber."
+          },
+          {
+            "p": "Die Zeile, die das Kompatibilitätsergebnis für eine Person im Zeichen des Tigers zeigt, lautet: „Furchtlos und vorneweg. Kann Unrecht nicht durchgehen lassen.“ Diese Zeile hat nichts mit den Beziehungspunktwerten zu tun und beeinflusst die folgenden Punktwerte nicht."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf Tierkreiszeichen auf einen Blick",
+        "blocks": [
+          {
+            "p": "Jedes der anderen Tiere wird der Reihe nach dem Tiger gegenübergestellt. Nur die Paare, die dieser Dienst als Harmonien anerkennt, sind als Beziehungen aufgeführt; alles andere ist neutral."
+          },
+          {
+            "table": {
+              "caption": "Der Tiger und die zwölf Tierkreiszeichen",
+              "head": [
+                "Anderes Tier",
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Ratte (子)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ochse (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ],
+                [
+                  "Hase (卯)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Drache (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schlange (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pferd (午)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Schaf (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Affe (申)",
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Hund (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Schwein — das Paar, das sich anzieht (Sechs-Harmonie)",
+        "blocks": [
+          {
+            "p": "寅 und 亥 bilden eine Harmonie mit nur zwei Zeichen. Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und der Tiger und das Schwein erreichen {scoreYukhap}, den höchsten Wert, den der Tiger erreichen kann."
+          }
+        ]
+      },
+      {
+        "title": "Pferd — eine Halb-Triade, die den königlichen Zweig enthält",
+        "blocks": [
+          {
+            "p": "寅午戌 ist eine Triadengruppe (die Feuergruppe), und 午 ist der **königliche Zweig** in ihrer Mitte. Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher bildet der Tiger nur mit dem Pferd eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Bei dem Hund (戌) derselben Gruppe fehlt das mittlere Zeichen 午; daher zählt das Paar nicht als Harmonie und gilt als neutral ({scoreNeutral}). Die Zugehörigkeit zur selben Gruppe macht nicht jedes Paar zu einer Harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Affe — der frontale Zusammenstoß (Zusammenstoß)",
+        "blocks": [
+          {
+            "p": "寅 und 申 liegen auf dem Kreis einander unmittelbar gegenüber. Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich. Dennoch ist es der niedrigste Wert, den der Tiger erhalten kann."
+          }
+        ]
+      },
+      {
+        "title": "Hahn — die stille Zwietracht (Zwietracht)",
+        "blocks": [
+          {
+            "p": "寅 und 酉 liegen unmittelbar neben 申 (dem Affen), der Position des Zusammenstoßes, und gelten traditionell als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Die übrigen 7 Tiere und der Tiger mit einem weiteren Tiger",
+        "blocks": [
+          {
+            "p": "Ratte, Ochse, Hase, Drache, Schlange, Schaf und Hund bilden weder eine Harmonie noch einen Zusammenstoß noch eine Zwietracht mit dem Tiger: Sie sind **neutral** und erhalten {scoreNeutral}. Sie sind die Ausgangslage, weder gut noch schlecht."
+          },
+          {
+            "p": "Zwei Personen im Zeichen des Tigers erhalten {scoreSame}. Das bedeutet, dass sie sich ähneln und nicht anziehen; deshalb liegt der Wert knapp über neutral."
+          }
+        ]
+      },
+      {
+        "title": "Welchen Anteil am Endwert dieser Punktwert ausmacht",
+        "blocks": [
+          {
+            "p": "Es gibt zwei Stellen, an denen die Zweige zweier Personen nebeneinandergelegt werden."
+          },
+          {
+            "ul": [
+              "Die **Tierkreis-Kompatibilität** betrachtet den Zweig des Geburtsjahres. Sie macht {weightZodiac} des Endwerts aus.",
+              "Die **Tageszweig-Kompatibilität** betrachtet den Zweig des Geburtstages. Sie macht {weightDayBranch} der Saju-Kompatibilität ({weightSaju}) aus, das sind {weightDayBranchTotal} des Endwerts."
+            ]
+          },
+          {
+            "p": "Trifft zum Beispiel eine Person im Zeichen des Tigers auf eine Person im Zeichen des Affen, ergibt die Tierkreis-Kompatibilität einen Zusammenstoß. Bei sonst gleichen Voraussetzungen liegt der Endwert {swingZodiacChung} Punkte niedriger als bei einem neutralen Paar. Mit einer Person im Zeichen des Schweins ist es eine Sechs-Harmonie, und der Wert liegt {swingZodiacYukhap} Punkte höher."
+          },
+          {
+            "p": "Jahres- und Tageszweige können sich unterscheiden. Zwei Personen im Zeichen des Tigers, deren Tageszweige 寅 und 申 sind, erhalten in der Tierkreis-Kompatibilität den gleichen Zweig ({scoreSame}) und in der Tageszweig-Kompatibilität einen Zusammenstoß ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht sagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt.",
+              "Die vollständige Aufstellung, welche Beziehung wie viele Punkte erhält, steht in der [Tabelle der zwölf Zweige](/guide/branches); warum das Tierkreiszeichen vom Jahreszweig abgelesen wird, steht in [Warum die Tierkreis-Kompatibilität den Jahreszweig berücksichtigt](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Die anderen Tiere sind auf dieselbe Weise dargestellt. [Ratte](/guide/zodiac-rat) · [Ochse](/guide/zodiac-ox) · [Hase](/guide/zodiac-rabbit) · [Drache](/guide/zodiac-dragon) · [Schlange](/guide/zodiac-snake) · [Pferd](/guide/zodiac-horse) · [Schaf](/guide/zodiac-goat) · [Affe](/guide/zodiac-monkey) · [Hahn](/guide/zodiac-rooster) · [Hund](/guide/zodiac-dog) · [Schwein](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rabbit": {
+    "eyebrow": "Nach Tier",
+    "title": "Wie der Hase den zwölf Tierkreiszeichen begegnet",
+    "summary": "Welche Beziehung der Hase (卯) zu jedem der zwölf Tierkreiszeichen hat, welchen Punktwert jede erhält und welchen Anteil dieser Punktwert am Endwert ausmacht — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Hase ist der vierte der zwölf Zweige",
+        "blocks": [
+          {
+            "p": "Zum Hasen gehört, wessen Geburtsjahreszweig **卯** ist. 卯 ist der vierte der zwölf irdischen Zweige, und wenn die zwölf Zeichen im Kreis angeordnet werden, liegt er 酉 (dem Hahn) unmittelbar gegenüber."
+          },
+          {
+            "p": "Die Zeile, die das Kompatibilitätsergebnis für eine Person im Zeichen des Hasen zeigt, lautet: „Sanft und feinfühlig. Weiß, wie man umgeht, statt zusammenzustoßen.“ Diese Zeile hat nichts mit den Beziehungspunktwerten zu tun und beeinflusst die folgenden Punktwerte nicht."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf Tierkreiszeichen auf einen Blick",
+        "blocks": [
+          {
+            "p": "Jedes der anderen Tiere wird der Reihe nach dem Hasen gegenübergestellt. Nur die Paare, die dieser Dienst als Harmonien anerkennt, sind als Beziehungen aufgeführt; alles andere ist neutral."
+          },
+          {
+            "table": {
+              "caption": "Der Hase und die zwölf Tierkreiszeichen",
+              "head": [
+                "Anderes Tier",
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Ratte (子)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ochse (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hase (卯)",
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ],
+                [
+                  "Drache (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schlange (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pferd (午)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schaf (未)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Affe (申)",
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ],
+                [
+                  "Hund (戌)",
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Hund — das Paar, das sich anzieht (Sechs-Harmonie)",
+        "blocks": [
+          {
+            "p": "卯 und 戌 bilden eine Harmonie mit nur zwei Zeichen. Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und der Hase und der Hund erreichen {scoreYukhap}, den höchsten Wert, den der Hase erreichen kann."
+          }
+        ]
+      },
+      {
+        "title": "Schaf und Schwein — eine Halb-Triade, die den königlichen Zweig enthält",
+        "blocks": [
+          {
+            "p": "亥卯未 ist eine Triadengruppe (die Holzgruppe), und 卯 ist der **königliche Zweig** in ihrer Mitte. Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher bildet der Hase sowohl mit dem Schaf als auch mit dem Schwein eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "**Das Schwein und das Schaf zusammen** hingegen entbehren des mittleren Zeichens 卯; sie zählen daher nicht als Harmonie und gelten als neutral. Selbst innerhalb einer Triadengruppe geht die Halb-Triade von dem Hasen aus."
+          }
+        ]
+      },
+      {
+        "title": "Hahn — der frontale Zusammenstoß (Zusammenstoß)",
+        "blocks": [
+          {
+            "p": "卯 und 酉 liegen auf dem Kreis einander unmittelbar gegenüber. Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich. Dennoch ist es der niedrigste Wert, den der Hase erhalten kann."
+          }
+        ]
+      },
+      {
+        "title": "Affe — die stille Zwietracht (Zwietracht)",
+        "blocks": [
+          {
+            "p": "卯 und 申 liegen unmittelbar neben 酉 (dem Hahn), der Position des Zusammenstoßes, und gelten traditionell als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Die übrigen 6 Tiere und der Hase mit einem weiteren Hasen",
+        "blocks": [
+          {
+            "p": "Ratte, Ochse, Tiger, Drache, Schlange und Pferd bilden weder eine Harmonie noch einen Zusammenstoß noch eine Zwietracht mit dem Hasen: Sie sind **neutral** und erhalten {scoreNeutral}. Sie sind die Ausgangslage, weder gut noch schlecht."
+          },
+          {
+            "p": "Zwei Personen im Zeichen des Hasen erhalten {scoreSame}. Das bedeutet, dass sie sich ähneln und nicht anziehen; deshalb liegt der Wert knapp über neutral."
+          }
+        ]
+      },
+      {
+        "title": "Welchen Anteil am Endwert dieser Punktwert ausmacht",
+        "blocks": [
+          {
+            "p": "Es gibt zwei Stellen, an denen die Zweige zweier Personen nebeneinandergelegt werden."
+          },
+          {
+            "ul": [
+              "Die **Tierkreis-Kompatibilität** betrachtet den Zweig des Geburtsjahres. Sie macht {weightZodiac} des Endwerts aus.",
+              "Die **Tageszweig-Kompatibilität** betrachtet den Zweig des Geburtstages. Sie macht {weightDayBranch} der Saju-Kompatibilität ({weightSaju}) aus, das sind {weightDayBranchTotal} des Endwerts."
+            ]
+          },
+          {
+            "p": "Trifft zum Beispiel eine Person im Zeichen des Hasen auf eine Person im Zeichen des Hahns, ergibt die Tierkreis-Kompatibilität einen Zusammenstoß. Bei sonst gleichen Voraussetzungen liegt der Endwert {swingZodiacChung} Punkte niedriger als bei einem neutralen Paar. Mit einer Person im Zeichen des Hundes ist es eine Sechs-Harmonie, und der Wert liegt {swingZodiacYukhap} Punkte höher."
+          },
+          {
+            "p": "Jahres- und Tageszweige können sich unterscheiden. Zwei Personen im Zeichen des Hasen, deren Tageszweige 卯 und 酉 sind, erhalten in der Tierkreis-Kompatibilität den gleichen Zweig ({scoreSame}) und in der Tageszweig-Kompatibilität einen Zusammenstoß ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht sagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt.",
+              "Die vollständige Aufstellung, welche Beziehung wie viele Punkte erhält, steht in der [Tabelle der zwölf Zweige](/guide/branches); warum das Tierkreiszeichen vom Jahreszweig abgelesen wird, steht in [Warum die Tierkreis-Kompatibilität den Jahreszweig berücksichtigt](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Die anderen Tiere sind auf dieselbe Weise dargestellt. [Ratte](/guide/zodiac-rat) · [Ochse](/guide/zodiac-ox) · [Tiger](/guide/zodiac-tiger) · [Drache](/guide/zodiac-dragon) · [Schlange](/guide/zodiac-snake) · [Pferd](/guide/zodiac-horse) · [Schaf](/guide/zodiac-goat) · [Affe](/guide/zodiac-monkey) · [Hahn](/guide/zodiac-rooster) · [Hund](/guide/zodiac-dog) · [Schwein](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dragon": {
+    "eyebrow": "Nach Tier",
+    "title": "Wie der Drache den zwölf Tierkreiszeichen begegnet",
+    "summary": "Welche Beziehung der Drache (辰) zu jedem der zwölf Tierkreiszeichen hat, welchen Punktwert jede erhält und welchen Anteil dieser Punktwert am Endwert ausmacht — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Drache ist der fünfte der zwölf Zweige",
+        "blocks": [
+          {
+            "p": "Zum Drachen gehört, wessen Geburtsjahreszweig **辰** ist. 辰 ist der fünfte der zwölf irdischen Zweige, und wenn die zwölf Zeichen im Kreis angeordnet werden, liegt er 戌 (dem Hund) unmittelbar gegenüber."
+          },
+          {
+            "p": "Die Zeile, die das Kompatibilitätsergebnis für eine Person im Zeichen des Drachen zeigt, lautet: „Großherzig mit hohen Idealen. Gibt sich mit Gewöhnlichem selten zufrieden.“ Diese Zeile hat nichts mit den Beziehungspunktwerten zu tun und beeinflusst die folgenden Punktwerte nicht."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf Tierkreiszeichen auf einen Blick",
+        "blocks": [
+          {
+            "p": "Jedes der anderen Tiere wird der Reihe nach dem Drachen gegenübergestellt. Nur die Paare, die dieser Dienst als Harmonien anerkennt, sind als Beziehungen aufgeführt; alles andere ist neutral."
+          },
+          {
+            "table": {
+              "caption": "Der Drache und die zwölf Tierkreiszeichen",
+              "head": [
+                "Anderes Tier",
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Ratte (子)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Ochse (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hase (卯)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Drache (辰)",
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ],
+                [
+                  "Schlange (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pferd (午)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schaf (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Affe (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Hund (戌)",
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Hahn — das Paar, das sich anzieht (Sechs-Harmonie)",
+        "blocks": [
+          {
+            "p": "辰 und 酉 bilden eine Harmonie mit nur zwei Zeichen. Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und der Drache und der Hahn erreichen {scoreYukhap}, den höchsten Wert, den der Drache erreichen kann."
+          }
+        ]
+      },
+      {
+        "title": "Ratte — eine Halb-Triade, die den königlichen Zweig enthält",
+        "blocks": [
+          {
+            "p": "申子辰 ist eine Triadengruppe (die Wassergruppe), und 子 ist der **königliche Zweig** in ihrer Mitte. Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher bildet der Drache nur mit der Ratte eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Bei dem Affen (申) derselben Gruppe fehlt das mittlere Zeichen 子; daher zählt das Paar nicht als Harmonie und gilt als neutral ({scoreNeutral}). Die Zugehörigkeit zur selben Gruppe macht nicht jedes Paar zu einer Harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Hund — der frontale Zusammenstoß (Zusammenstoß)",
+        "blocks": [
+          {
+            "p": "辰 und 戌 liegen auf dem Kreis einander unmittelbar gegenüber. Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich. Dennoch ist es der niedrigste Wert, den der Drache erhalten kann."
+          }
+        ]
+      },
+      {
+        "title": "Schwein — die stille Zwietracht (Zwietracht)",
+        "blocks": [
+          {
+            "p": "辰 und 亥 liegen unmittelbar neben 戌 (dem Hund), der Position des Zusammenstoßes, und gelten traditionell als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Die übrigen 7 Tiere und der Drache mit einem weiteren Drachen",
+        "blocks": [
+          {
+            "p": "Ochse, Tiger, Hase, Schlange, Pferd, Schaf und Affe bilden weder eine Harmonie noch einen Zusammenstoß noch eine Zwietracht mit dem Drachen: Sie sind **neutral** und erhalten {scoreNeutral}. Sie sind die Ausgangslage, weder gut noch schlecht."
+          },
+          {
+            "p": "Zwei Personen im Zeichen des Drachen erhalten {scoreSame}. Das bedeutet, dass sie sich ähneln und nicht anziehen; deshalb liegt der Wert knapp über neutral."
+          }
+        ]
+      },
+      {
+        "title": "Welchen Anteil am Endwert dieser Punktwert ausmacht",
+        "blocks": [
+          {
+            "p": "Es gibt zwei Stellen, an denen die Zweige zweier Personen nebeneinandergelegt werden."
+          },
+          {
+            "ul": [
+              "Die **Tierkreis-Kompatibilität** betrachtet den Zweig des Geburtsjahres. Sie macht {weightZodiac} des Endwerts aus.",
+              "Die **Tageszweig-Kompatibilität** betrachtet den Zweig des Geburtstages. Sie macht {weightDayBranch} der Saju-Kompatibilität ({weightSaju}) aus, das sind {weightDayBranchTotal} des Endwerts."
+            ]
+          },
+          {
+            "p": "Trifft zum Beispiel eine Person im Zeichen des Drachen auf eine Person im Zeichen des Hundes, ergibt die Tierkreis-Kompatibilität einen Zusammenstoß. Bei sonst gleichen Voraussetzungen liegt der Endwert {swingZodiacChung} Punkte niedriger als bei einem neutralen Paar. Mit einer Person im Zeichen des Hahns ist es eine Sechs-Harmonie, und der Wert liegt {swingZodiacYukhap} Punkte höher."
+          },
+          {
+            "p": "Jahres- und Tageszweige können sich unterscheiden. Zwei Personen im Zeichen des Drachen, deren Tageszweige 辰 und 戌 sind, erhalten in der Tierkreis-Kompatibilität den gleichen Zweig ({scoreSame}) und in der Tageszweig-Kompatibilität einen Zusammenstoß ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht sagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt.",
+              "Die vollständige Aufstellung, welche Beziehung wie viele Punkte erhält, steht in der [Tabelle der zwölf Zweige](/guide/branches); warum das Tierkreiszeichen vom Jahreszweig abgelesen wird, steht in [Warum die Tierkreis-Kompatibilität den Jahreszweig berücksichtigt](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Die anderen Tiere sind auf dieselbe Weise dargestellt. [Ratte](/guide/zodiac-rat) · [Ochse](/guide/zodiac-ox) · [Tiger](/guide/zodiac-tiger) · [Hase](/guide/zodiac-rabbit) · [Schlange](/guide/zodiac-snake) · [Pferd](/guide/zodiac-horse) · [Schaf](/guide/zodiac-goat) · [Affe](/guide/zodiac-monkey) · [Hahn](/guide/zodiac-rooster) · [Hund](/guide/zodiac-dog) · [Schwein](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-snake": {
+    "eyebrow": "Nach Tier",
+    "title": "Wie die Schlange den zwölf Tierkreiszeichen begegnet",
+    "summary": "Welche Beziehung die Schlange (巳) zu jedem der zwölf Tierkreiszeichen hat, welchen Punktwert jede erhält und welchen Anteil dieser Punktwert am Endwert ausmacht — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Die Schlange ist der sechste der zwölf Zweige",
+        "blocks": [
+          {
+            "p": "Zur Schlange gehört, wessen Geburtsjahreszweig **巳** ist. 巳 ist der sechste der zwölf irdischen Zweige, und wenn die zwölf Zeichen im Kreis angeordnet werden, liegt er 亥 (dem Schwein) unmittelbar gegenüber."
+          },
+          {
+            "p": "Die Zeile, die das Kompatibilitätsergebnis für eine Person im Zeichen der Schlange zeigt, lautet: „Behält sein Urteil für sich und denkt tief. Schätzt die Lage treffsicher ein.“ Diese Zeile hat nichts mit den Beziehungspunktwerten zu tun und beeinflusst die folgenden Punktwerte nicht."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf Tierkreiszeichen auf einen Blick",
+        "blocks": [
+          {
+            "p": "Jedes der anderen Tiere wird der Reihe nach der Schlange gegenübergestellt. Nur die Paare, die dieser Dienst als Harmonien anerkennt, sind als Beziehungen aufgeführt; alles andere ist neutral."
+          },
+          {
+            "table": {
+              "caption": "Die Schlange und die zwölf Tierkreiszeichen",
+              "head": [
+                "Anderes Tier",
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Ratte (子)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ochse (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hase (卯)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Drache (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schlange (巳)",
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ],
+                [
+                  "Pferd (午)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schaf (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Affe (申)",
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Hund (戌)",
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Affe — das Paar, das sich anzieht (Sechs-Harmonie)",
+        "blocks": [
+          {
+            "p": "巳 und 申 bilden eine Harmonie mit nur zwei Zeichen. Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und die Schlange und der Affe erreichen {scoreYukhap}, den höchsten Wert, den die Schlange erreichen kann."
+          }
+        ]
+      },
+      {
+        "title": "Hahn — eine Halb-Triade, die den königlichen Zweig enthält",
+        "blocks": [
+          {
+            "p": "巳酉丑 ist eine Triadengruppe (die Metallgruppe), und 酉 ist der **königliche Zweig** in ihrer Mitte. Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher bildet die Schlange nur mit dem Hahn eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Bei dem Ochsen (丑) derselben Gruppe fehlt das mittlere Zeichen 酉; daher zählt das Paar nicht als Harmonie und gilt als neutral ({scoreNeutral}). Die Zugehörigkeit zur selben Gruppe macht nicht jedes Paar zu einer Harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Schwein — der frontale Zusammenstoß (Zusammenstoß)",
+        "blocks": [
+          {
+            "p": "巳 und 亥 liegen auf dem Kreis einander unmittelbar gegenüber. Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich. Dennoch ist es der niedrigste Wert, den die Schlange erhalten kann."
+          }
+        ]
+      },
+      {
+        "title": "Hund — die stille Zwietracht (Zwietracht)",
+        "blocks": [
+          {
+            "p": "巳 und 戌 liegen unmittelbar neben 亥 (dem Schwein), der Position des Zusammenstoßes, und gelten traditionell als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Die übrigen 7 Tiere und die Schlange mit einer weiteren Schlange",
+        "blocks": [
+          {
+            "p": "Ratte, Ochse, Tiger, Hase, Drache, Pferd und Schaf bilden weder eine Harmonie noch einen Zusammenstoß noch eine Zwietracht mit der Schlange: Sie sind **neutral** und erhalten {scoreNeutral}. Sie sind die Ausgangslage, weder gut noch schlecht."
+          },
+          {
+            "p": "Zwei Personen im Zeichen der Schlange erhalten {scoreSame}. Das bedeutet, dass sie sich ähneln und nicht anziehen; deshalb liegt der Wert knapp über neutral."
+          }
+        ]
+      },
+      {
+        "title": "Welchen Anteil am Endwert dieser Punktwert ausmacht",
+        "blocks": [
+          {
+            "p": "Es gibt zwei Stellen, an denen die Zweige zweier Personen nebeneinandergelegt werden."
+          },
+          {
+            "ul": [
+              "Die **Tierkreis-Kompatibilität** betrachtet den Zweig des Geburtsjahres. Sie macht {weightZodiac} des Endwerts aus.",
+              "Die **Tageszweig-Kompatibilität** betrachtet den Zweig des Geburtstages. Sie macht {weightDayBranch} der Saju-Kompatibilität ({weightSaju}) aus, das sind {weightDayBranchTotal} des Endwerts."
+            ]
+          },
+          {
+            "p": "Trifft zum Beispiel eine Person im Zeichen der Schlange auf eine Person im Zeichen des Schweins, ergibt die Tierkreis-Kompatibilität einen Zusammenstoß. Bei sonst gleichen Voraussetzungen liegt der Endwert {swingZodiacChung} Punkte niedriger als bei einem neutralen Paar. Mit einer Person im Zeichen des Affen ist es eine Sechs-Harmonie, und der Wert liegt {swingZodiacYukhap} Punkte höher."
+          },
+          {
+            "p": "Jahres- und Tageszweige können sich unterscheiden. Zwei Personen im Zeichen der Schlange, deren Tageszweige 巳 und 亥 sind, erhalten in der Tierkreis-Kompatibilität den gleichen Zweig ({scoreSame}) und in der Tageszweig-Kompatibilität einen Zusammenstoß ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht sagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt.",
+              "Die vollständige Aufstellung, welche Beziehung wie viele Punkte erhält, steht in der [Tabelle der zwölf Zweige](/guide/branches); warum das Tierkreiszeichen vom Jahreszweig abgelesen wird, steht in [Warum die Tierkreis-Kompatibilität den Jahreszweig berücksichtigt](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Die anderen Tiere sind auf dieselbe Weise dargestellt. [Ratte](/guide/zodiac-rat) · [Ochse](/guide/zodiac-ox) · [Tiger](/guide/zodiac-tiger) · [Hase](/guide/zodiac-rabbit) · [Drache](/guide/zodiac-dragon) · [Pferd](/guide/zodiac-horse) · [Schaf](/guide/zodiac-goat) · [Affe](/guide/zodiac-monkey) · [Hahn](/guide/zodiac-rooster) · [Hund](/guide/zodiac-dog) · [Schwein](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-horse": {
+    "eyebrow": "Nach Tier",
+    "title": "Wie das Pferd den zwölf Tierkreiszeichen begegnet",
+    "summary": "Welche Beziehung das Pferd (午) zu jedem der zwölf Tierkreiszeichen hat, welchen Punktwert jede erhält und welchen Anteil dieser Punktwert am Endwert ausmacht — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Das Pferd ist der siebte der zwölf Zweige",
+        "blocks": [
+          {
+            "p": "Zum Pferd gehört, wessen Geburtsjahreszweig **午** ist. 午 ist der siebte der zwölf irdischen Zweige, und wenn die zwölf Zeichen im Kreis angeordnet werden, liegt er 子 (der Ratte) unmittelbar gegenüber."
+          },
+          {
+            "p": "Die Zeile, die das Kompatibilitätsergebnis für eine Person im Zeichen des Pferdes zeigt, lautet: „Hell und ruhelos. Eingezäunt zu sein, fällt am schwersten.“ Diese Zeile hat nichts mit den Beziehungspunktwerten zu tun und beeinflusst die folgenden Punktwerte nicht."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf Tierkreiszeichen auf einen Blick",
+        "blocks": [
+          {
+            "p": "Jedes der anderen Tiere wird der Reihe nach dem Pferd gegenübergestellt. Nur die Paare, die dieser Dienst als Harmonien anerkennt, sind als Beziehungen aufgeführt; alles andere ist neutral."
+          },
+          {
+            "table": {
+              "caption": "Das Pferd und die zwölf Tierkreiszeichen",
+              "head": [
+                "Anderes Tier",
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Ratte (子)",
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ],
+                [
+                  "Ochse (丑)",
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Hase (卯)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Drache (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schlange (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pferd (午)",
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ],
+                [
+                  "Schaf (未)",
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Affe (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hund (戌)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Schaf — das Paar, das sich anzieht (Sechs-Harmonie)",
+        "blocks": [
+          {
+            "p": "午 und 未 bilden eine Harmonie mit nur zwei Zeichen. Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und das Pferd und das Schaf erreichen {scoreYukhap}, den höchsten Wert, den das Pferd erreichen kann."
+          }
+        ]
+      },
+      {
+        "title": "Tiger und Hund — eine Halb-Triade, die den königlichen Zweig enthält",
+        "blocks": [
+          {
+            "p": "寅午戌 ist eine Triadengruppe (die Feuergruppe), und 午 ist der **königliche Zweig** in ihrer Mitte. Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher bildet das Pferd sowohl mit dem Tiger als auch mit dem Hund eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "**Der Tiger und der Hund zusammen** hingegen entbehren des mittleren Zeichens 午; sie zählen daher nicht als Harmonie und gelten als neutral. Selbst innerhalb einer Triadengruppe geht die Halb-Triade von dem Pferd aus."
+          }
+        ]
+      },
+      {
+        "title": "Ratte — der frontale Zusammenstoß (Zusammenstoß)",
+        "blocks": [
+          {
+            "p": "午 und 子 liegen auf dem Kreis einander unmittelbar gegenüber. Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich. Dennoch ist es der niedrigste Wert, den das Pferd erhalten kann."
+          }
+        ]
+      },
+      {
+        "title": "Ochse — die stille Zwietracht (Zwietracht)",
+        "blocks": [
+          {
+            "p": "午 und 丑 liegen unmittelbar neben 子 (der Ratte), der Position des Zusammenstoßes, und gelten traditionell als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Die übrigen 6 Tiere und das Pferd mit einem weiteren Pferd",
+        "blocks": [
+          {
+            "p": "Hase, Drache, Schlange, Affe, Hahn und Schwein bilden weder eine Harmonie noch einen Zusammenstoß noch eine Zwietracht mit dem Pferd: Sie sind **neutral** und erhalten {scoreNeutral}. Sie sind die Ausgangslage, weder gut noch schlecht."
+          },
+          {
+            "p": "Zwei Personen im Zeichen des Pferdes erhalten {scoreSame}. Das bedeutet, dass sie sich ähneln und nicht anziehen; deshalb liegt der Wert knapp über neutral."
+          }
+        ]
+      },
+      {
+        "title": "Welchen Anteil am Endwert dieser Punktwert ausmacht",
+        "blocks": [
+          {
+            "p": "Es gibt zwei Stellen, an denen die Zweige zweier Personen nebeneinandergelegt werden."
+          },
+          {
+            "ul": [
+              "Die **Tierkreis-Kompatibilität** betrachtet den Zweig des Geburtsjahres. Sie macht {weightZodiac} des Endwerts aus.",
+              "Die **Tageszweig-Kompatibilität** betrachtet den Zweig des Geburtstages. Sie macht {weightDayBranch} der Saju-Kompatibilität ({weightSaju}) aus, das sind {weightDayBranchTotal} des Endwerts."
+            ]
+          },
+          {
+            "p": "Trifft zum Beispiel eine Person im Zeichen des Pferdes auf eine Person im Zeichen der Ratte, ergibt die Tierkreis-Kompatibilität einen Zusammenstoß. Bei sonst gleichen Voraussetzungen liegt der Endwert {swingZodiacChung} Punkte niedriger als bei einem neutralen Paar. Mit einer Person im Zeichen des Schafs ist es eine Sechs-Harmonie, und der Wert liegt {swingZodiacYukhap} Punkte höher."
+          },
+          {
+            "p": "Jahres- und Tageszweige können sich unterscheiden. Zwei Personen im Zeichen des Pferdes, deren Tageszweige 午 und 子 sind, erhalten in der Tierkreis-Kompatibilität den gleichen Zweig ({scoreSame}) und in der Tageszweig-Kompatibilität einen Zusammenstoß ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht sagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt.",
+              "Die vollständige Aufstellung, welche Beziehung wie viele Punkte erhält, steht in der [Tabelle der zwölf Zweige](/guide/branches); warum das Tierkreiszeichen vom Jahreszweig abgelesen wird, steht in [Warum die Tierkreis-Kompatibilität den Jahreszweig berücksichtigt](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Die anderen Tiere sind auf dieselbe Weise dargestellt. [Ratte](/guide/zodiac-rat) · [Ochse](/guide/zodiac-ox) · [Tiger](/guide/zodiac-tiger) · [Hase](/guide/zodiac-rabbit) · [Drache](/guide/zodiac-dragon) · [Schlange](/guide/zodiac-snake) · [Schaf](/guide/zodiac-goat) · [Affe](/guide/zodiac-monkey) · [Hahn](/guide/zodiac-rooster) · [Hund](/guide/zodiac-dog) · [Schwein](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-goat": {
+    "eyebrow": "Nach Tier",
+    "title": "Wie das Schaf den zwölf Tierkreiszeichen begegnet",
+    "summary": "Welche Beziehung das Schaf (未) zu jedem der zwölf Tierkreiszeichen hat, welchen Punktwert jede erhält und welchen Anteil dieser Punktwert am Endwert ausmacht — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Das Schaf ist der achte der zwölf Zweige",
+        "blocks": [
+          {
+            "p": "Zum Schaf gehört, wessen Geburtsjahreszweig **未** ist. 未 ist der achte der zwölf irdischen Zweige, und wenn die zwölf Zeichen im Kreis angeordnet werden, liegt er 丑 (dem Ochsen) unmittelbar gegenüber."
+          },
+          {
+            "p": "Die Zeile, die das Kompatibilitätsergebnis für eine Person im Zeichen des Schafs zeigt, lautet: „Warm und rücksichtsvoll. Trägt harte Worte lange mit sich.“ Diese Zeile hat nichts mit den Beziehungspunktwerten zu tun und beeinflusst die folgenden Punktwerte nicht."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf Tierkreiszeichen auf einen Blick",
+        "blocks": [
+          {
+            "p": "Jedes der anderen Tiere wird der Reihe nach dem Schaf gegenübergestellt. Nur die Paare, die dieser Dienst als Harmonien anerkennt, sind als Beziehungen aufgeführt; alles andere ist neutral."
+          },
+          {
+            "table": {
+              "caption": "Das Schaf und die zwölf Tierkreiszeichen",
+              "head": [
+                "Anderes Tier",
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Ratte (子)",
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Ochse (丑)",
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hase (卯)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Drache (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schlange (巳)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Pferd (午)",
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Schaf (未)",
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ],
+                [
+                  "Affe (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hund (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Pferd — das Paar, das sich anzieht (Sechs-Harmonie)",
+        "blocks": [
+          {
+            "p": "未 und 午 bilden eine Harmonie mit nur zwei Zeichen. Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und das Schaf und das Pferd erreichen {scoreYukhap}, den höchsten Wert, den das Schaf erreichen kann."
+          }
+        ]
+      },
+      {
+        "title": "Hase — eine Halb-Triade, die den königlichen Zweig enthält",
+        "blocks": [
+          {
+            "p": "亥卯未 ist eine Triadengruppe (die Holzgruppe), und 卯 ist der **königliche Zweig** in ihrer Mitte. Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher bildet das Schaf nur mit dem Hasen eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Bei dem Schwein (亥) derselben Gruppe fehlt das mittlere Zeichen 卯; daher zählt das Paar nicht als Harmonie und gilt als neutral ({scoreNeutral}). Die Zugehörigkeit zur selben Gruppe macht nicht jedes Paar zu einer Harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Ochse — der frontale Zusammenstoß (Zusammenstoß)",
+        "blocks": [
+          {
+            "p": "未 und 丑 liegen auf dem Kreis einander unmittelbar gegenüber. Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich. Dennoch ist es der niedrigste Wert, den das Schaf erhalten kann."
+          }
+        ]
+      },
+      {
+        "title": "Ratte — die stille Zwietracht (Zwietracht)",
+        "blocks": [
+          {
+            "p": "未 und 子 liegen unmittelbar neben 丑 (dem Ochsen), der Position des Zusammenstoßes, und gelten traditionell als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Die übrigen 7 Tiere und das Schaf mit einem weiteren Schaf",
+        "blocks": [
+          {
+            "p": "Tiger, Drache, Schlange, Affe, Hahn, Hund und Schwein bilden weder eine Harmonie noch einen Zusammenstoß noch eine Zwietracht mit dem Schaf: Sie sind **neutral** und erhalten {scoreNeutral}. Sie sind die Ausgangslage, weder gut noch schlecht."
+          },
+          {
+            "p": "Zwei Personen im Zeichen des Schafs erhalten {scoreSame}. Das bedeutet, dass sie sich ähneln und nicht anziehen; deshalb liegt der Wert knapp über neutral."
+          }
+        ]
+      },
+      {
+        "title": "Welchen Anteil am Endwert dieser Punktwert ausmacht",
+        "blocks": [
+          {
+            "p": "Es gibt zwei Stellen, an denen die Zweige zweier Personen nebeneinandergelegt werden."
+          },
+          {
+            "ul": [
+              "Die **Tierkreis-Kompatibilität** betrachtet den Zweig des Geburtsjahres. Sie macht {weightZodiac} des Endwerts aus.",
+              "Die **Tageszweig-Kompatibilität** betrachtet den Zweig des Geburtstages. Sie macht {weightDayBranch} der Saju-Kompatibilität ({weightSaju}) aus, das sind {weightDayBranchTotal} des Endwerts."
+            ]
+          },
+          {
+            "p": "Trifft zum Beispiel eine Person im Zeichen des Schafs auf eine Person im Zeichen des Ochsen, ergibt die Tierkreis-Kompatibilität einen Zusammenstoß. Bei sonst gleichen Voraussetzungen liegt der Endwert {swingZodiacChung} Punkte niedriger als bei einem neutralen Paar. Mit einer Person im Zeichen des Pferdes ist es eine Sechs-Harmonie, und der Wert liegt {swingZodiacYukhap} Punkte höher."
+          },
+          {
+            "p": "Jahres- und Tageszweige können sich unterscheiden. Zwei Personen im Zeichen des Schafs, deren Tageszweige 未 und 丑 sind, erhalten in der Tierkreis-Kompatibilität den gleichen Zweig ({scoreSame}) und in der Tageszweig-Kompatibilität einen Zusammenstoß ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht sagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt.",
+              "Die vollständige Aufstellung, welche Beziehung wie viele Punkte erhält, steht in der [Tabelle der zwölf Zweige](/guide/branches); warum das Tierkreiszeichen vom Jahreszweig abgelesen wird, steht in [Warum die Tierkreis-Kompatibilität den Jahreszweig berücksichtigt](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Die anderen Tiere sind auf dieselbe Weise dargestellt. [Ratte](/guide/zodiac-rat) · [Ochse](/guide/zodiac-ox) · [Tiger](/guide/zodiac-tiger) · [Hase](/guide/zodiac-rabbit) · [Drache](/guide/zodiac-dragon) · [Schlange](/guide/zodiac-snake) · [Pferd](/guide/zodiac-horse) · [Affe](/guide/zodiac-monkey) · [Hahn](/guide/zodiac-rooster) · [Hund](/guide/zodiac-dog) · [Schwein](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-monkey": {
+    "eyebrow": "Nach Tier",
+    "title": "Wie der Affe den zwölf Tierkreiszeichen begegnet",
+    "summary": "Welche Beziehung der Affe (申) zu jedem der zwölf Tierkreiszeichen hat, welchen Punktwert jede erhält und welchen Anteil dieser Punktwert am Endwert ausmacht — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Affe ist der neunte der zwölf Zweige",
+        "blocks": [
+          {
+            "p": "Zum Affen gehört, wessen Geburtsjahreszweig **申** ist. 申 ist der neunte der zwölf irdischen Zweige, und wenn die zwölf Zeichen im Kreis angeordnet werden, liegt er 寅 (dem Tiger) unmittelbar gegenüber."
+          },
+          {
+            "p": "Die Zeile, die das Kompatibilitätsergebnis für eine Person im Zeichen des Affen zeigt, lautet: „Findig und schnell im Anpassen. Wiederholung langweilt.“ Diese Zeile hat nichts mit den Beziehungspunktwerten zu tun und beeinflusst die folgenden Punktwerte nicht."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf Tierkreiszeichen auf einen Blick",
+        "blocks": [
+          {
+            "p": "Jedes der anderen Tiere wird der Reihe nach dem Affen gegenübergestellt. Nur die Paare, die dieser Dienst als Harmonien anerkennt, sind als Beziehungen aufgeführt; alles andere ist neutral."
+          },
+          {
+            "table": {
+              "caption": "Der Affe und die zwölf Tierkreiszeichen",
+              "head": [
+                "Anderes Tier",
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Ratte (子)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Ochse (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ],
+                [
+                  "Hase (卯)",
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Drache (辰)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schlange (巳)",
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Pferd (午)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schaf (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Affe (申)",
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hund (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Schlange — das Paar, das sich anzieht (Sechs-Harmonie)",
+        "blocks": [
+          {
+            "p": "申 und 巳 bilden eine Harmonie mit nur zwei Zeichen. Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und der Affe und die Schlange erreichen {scoreYukhap}, den höchsten Wert, den der Affe erreichen kann."
+          }
+        ]
+      },
+      {
+        "title": "Ratte — eine Halb-Triade, die den königlichen Zweig enthält",
+        "blocks": [
+          {
+            "p": "申子辰 ist eine Triadengruppe (die Wassergruppe), und 子 ist der **königliche Zweig** in ihrer Mitte. Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher bildet der Affe nur mit der Ratte eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Bei dem Drachen (辰) derselben Gruppe fehlt das mittlere Zeichen 子; daher zählt das Paar nicht als Harmonie und gilt als neutral ({scoreNeutral}). Die Zugehörigkeit zur selben Gruppe macht nicht jedes Paar zu einer Harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Tiger — der frontale Zusammenstoß (Zusammenstoß)",
+        "blocks": [
+          {
+            "p": "申 und 寅 liegen auf dem Kreis einander unmittelbar gegenüber. Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich. Dennoch ist es der niedrigste Wert, den der Affe erhalten kann."
+          }
+        ]
+      },
+      {
+        "title": "Hase — die stille Zwietracht (Zwietracht)",
+        "blocks": [
+          {
+            "p": "申 und 卯 liegen unmittelbar neben 寅 (dem Tiger), der Position des Zusammenstoßes, und gelten traditionell als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Die übrigen 7 Tiere und der Affe mit einem weiteren Affen",
+        "blocks": [
+          {
+            "p": "Ochse, Drache, Pferd, Schaf, Hahn, Hund und Schwein bilden weder eine Harmonie noch einen Zusammenstoß noch eine Zwietracht mit dem Affen: Sie sind **neutral** und erhalten {scoreNeutral}. Sie sind die Ausgangslage, weder gut noch schlecht."
+          },
+          {
+            "p": "Zwei Personen im Zeichen des Affen erhalten {scoreSame}. Das bedeutet, dass sie sich ähneln und nicht anziehen; deshalb liegt der Wert knapp über neutral."
+          }
+        ]
+      },
+      {
+        "title": "Welchen Anteil am Endwert dieser Punktwert ausmacht",
+        "blocks": [
+          {
+            "p": "Es gibt zwei Stellen, an denen die Zweige zweier Personen nebeneinandergelegt werden."
+          },
+          {
+            "ul": [
+              "Die **Tierkreis-Kompatibilität** betrachtet den Zweig des Geburtsjahres. Sie macht {weightZodiac} des Endwerts aus.",
+              "Die **Tageszweig-Kompatibilität** betrachtet den Zweig des Geburtstages. Sie macht {weightDayBranch} der Saju-Kompatibilität ({weightSaju}) aus, das sind {weightDayBranchTotal} des Endwerts."
+            ]
+          },
+          {
+            "p": "Trifft zum Beispiel eine Person im Zeichen des Affen auf eine Person im Zeichen des Tigers, ergibt die Tierkreis-Kompatibilität einen Zusammenstoß. Bei sonst gleichen Voraussetzungen liegt der Endwert {swingZodiacChung} Punkte niedriger als bei einem neutralen Paar. Mit einer Person im Zeichen der Schlange ist es eine Sechs-Harmonie, und der Wert liegt {swingZodiacYukhap} Punkte höher."
+          },
+          {
+            "p": "Jahres- und Tageszweige können sich unterscheiden. Zwei Personen im Zeichen des Affen, deren Tageszweige 申 und 寅 sind, erhalten in der Tierkreis-Kompatibilität den gleichen Zweig ({scoreSame}) und in der Tageszweig-Kompatibilität einen Zusammenstoß ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht sagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt.",
+              "Die vollständige Aufstellung, welche Beziehung wie viele Punkte erhält, steht in der [Tabelle der zwölf Zweige](/guide/branches); warum das Tierkreiszeichen vom Jahreszweig abgelesen wird, steht in [Warum die Tierkreis-Kompatibilität den Jahreszweig berücksichtigt](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Die anderen Tiere sind auf dieselbe Weise dargestellt. [Ratte](/guide/zodiac-rat) · [Ochse](/guide/zodiac-ox) · [Tiger](/guide/zodiac-tiger) · [Hase](/guide/zodiac-rabbit) · [Drache](/guide/zodiac-dragon) · [Schlange](/guide/zodiac-snake) · [Pferd](/guide/zodiac-horse) · [Schaf](/guide/zodiac-goat) · [Hahn](/guide/zodiac-rooster) · [Hund](/guide/zodiac-dog) · [Schwein](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-rooster": {
+    "eyebrow": "Nach Tier",
+    "title": "Wie der Hahn den zwölf Tierkreiszeichen begegnet",
+    "summary": "Welche Beziehung der Hahn (酉) zu jedem der zwölf Tierkreiszeichen hat, welchen Punktwert jede erhält und welchen Anteil dieser Punktwert am Endwert ausmacht — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Hahn ist der zehnte der zwölf Zweige",
+        "blocks": [
+          {
+            "p": "Zum Hahn gehört, wessen Geburtsjahreszweig **酉** ist. 酉 ist der zehnte der zwölf irdischen Zweige, und wenn die zwölf Zeichen im Kreis angeordnet werden, liegt er 卯 (dem Hasen) unmittelbar gegenüber."
+          },
+          {
+            "p": "Die Zeile, die das Kompatibilitätsergebnis für eine Person im Zeichen des Hahns zeigt, lautet: „Fleißig und genau. Kann nichts liegen lassen, was nicht stimmt.“ Diese Zeile hat nichts mit den Beziehungspunktwerten zu tun und beeinflusst die folgenden Punktwerte nicht."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf Tierkreiszeichen auf einen Blick",
+        "blocks": [
+          {
+            "p": "Jedes der anderen Tiere wird der Reihe nach dem Hahn gegenübergestellt. Nur die Paare, die dieser Dienst als Harmonien anerkennt, sind als Beziehungen aufgeführt; alles andere ist neutral."
+          },
+          {
+            "table": {
+              "caption": "Der Hahn und die zwölf Tierkreiszeichen",
+              "head": [
+                "Anderes Tier",
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Ratte (子)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ochse (丑)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Hase (卯)",
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ],
+                [
+                  "Drache (辰)",
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Schlange (巳)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Pferd (午)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schaf (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Affe (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ],
+                [
+                  "Hund (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Drache — das Paar, das sich anzieht (Sechs-Harmonie)",
+        "blocks": [
+          {
+            "p": "酉 und 辰 bilden eine Harmonie mit nur zwei Zeichen. Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und der Hahn und der Drache erreichen {scoreYukhap}, den höchsten Wert, den der Hahn erreichen kann."
+          }
+        ]
+      },
+      {
+        "title": "Ochse und Schlange — eine Halb-Triade, die den königlichen Zweig enthält",
+        "blocks": [
+          {
+            "p": "巳酉丑 ist eine Triadengruppe (die Metallgruppe), und 酉 ist der **königliche Zweig** in ihrer Mitte. Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher bildet der Hahn sowohl mit dem Ochsen als auch mit der Schlange eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "**Die Schlange und der Ochse zusammen** hingegen entbehren des mittleren Zeichens 酉; sie zählen daher nicht als Harmonie und gelten als neutral. Selbst innerhalb einer Triadengruppe geht die Halb-Triade von dem Hahn aus."
+          }
+        ]
+      },
+      {
+        "title": "Hase — der frontale Zusammenstoß (Zusammenstoß)",
+        "blocks": [
+          {
+            "p": "酉 und 卯 liegen auf dem Kreis einander unmittelbar gegenüber. Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich. Dennoch ist es der niedrigste Wert, den der Hahn erhalten kann."
+          }
+        ]
+      },
+      {
+        "title": "Tiger — die stille Zwietracht (Zwietracht)",
+        "blocks": [
+          {
+            "p": "酉 und 寅 liegen unmittelbar neben 卯 (dem Hasen), der Position des Zusammenstoßes, und gelten traditionell als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Die übrigen 6 Tiere und der Hahn mit einem weiteren Hahn",
+        "blocks": [
+          {
+            "p": "Ratte, Pferd, Schaf, Affe, Hund und Schwein bilden weder eine Harmonie noch einen Zusammenstoß noch eine Zwietracht mit dem Hahn: Sie sind **neutral** und erhalten {scoreNeutral}. Sie sind die Ausgangslage, weder gut noch schlecht."
+          },
+          {
+            "p": "Zwei Personen im Zeichen des Hahns erhalten {scoreSame}. Das bedeutet, dass sie sich ähneln und nicht anziehen; deshalb liegt der Wert knapp über neutral."
+          }
+        ]
+      },
+      {
+        "title": "Welchen Anteil am Endwert dieser Punktwert ausmacht",
+        "blocks": [
+          {
+            "p": "Es gibt zwei Stellen, an denen die Zweige zweier Personen nebeneinandergelegt werden."
+          },
+          {
+            "ul": [
+              "Die **Tierkreis-Kompatibilität** betrachtet den Zweig des Geburtsjahres. Sie macht {weightZodiac} des Endwerts aus.",
+              "Die **Tageszweig-Kompatibilität** betrachtet den Zweig des Geburtstages. Sie macht {weightDayBranch} der Saju-Kompatibilität ({weightSaju}) aus, das sind {weightDayBranchTotal} des Endwerts."
+            ]
+          },
+          {
+            "p": "Trifft zum Beispiel eine Person im Zeichen des Hahns auf eine Person im Zeichen des Hasen, ergibt die Tierkreis-Kompatibilität einen Zusammenstoß. Bei sonst gleichen Voraussetzungen liegt der Endwert {swingZodiacChung} Punkte niedriger als bei einem neutralen Paar. Mit einer Person im Zeichen des Drachen ist es eine Sechs-Harmonie, und der Wert liegt {swingZodiacYukhap} Punkte höher."
+          },
+          {
+            "p": "Jahres- und Tageszweige können sich unterscheiden. Zwei Personen im Zeichen des Hahns, deren Tageszweige 酉 und 卯 sind, erhalten in der Tierkreis-Kompatibilität den gleichen Zweig ({scoreSame}) und in der Tageszweig-Kompatibilität einen Zusammenstoß ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht sagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt.",
+              "Die vollständige Aufstellung, welche Beziehung wie viele Punkte erhält, steht in der [Tabelle der zwölf Zweige](/guide/branches); warum das Tierkreiszeichen vom Jahreszweig abgelesen wird, steht in [Warum die Tierkreis-Kompatibilität den Jahreszweig berücksichtigt](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Die anderen Tiere sind auf dieselbe Weise dargestellt. [Ratte](/guide/zodiac-rat) · [Ochse](/guide/zodiac-ox) · [Tiger](/guide/zodiac-tiger) · [Hase](/guide/zodiac-rabbit) · [Drache](/guide/zodiac-dragon) · [Schlange](/guide/zodiac-snake) · [Pferd](/guide/zodiac-horse) · [Schaf](/guide/zodiac-goat) · [Affe](/guide/zodiac-monkey) · [Hund](/guide/zodiac-dog) · [Schwein](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-dog": {
+    "eyebrow": "Nach Tier",
+    "title": "Wie der Hund den zwölf Tierkreiszeichen begegnet",
+    "summary": "Welche Beziehung der Hund (戌) zu jedem der zwölf Tierkreiszeichen hat, welchen Punktwert jede erhält und welchen Anteil dieser Punktwert am Endwert ausmacht — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Der Hund ist der elfte der zwölf Zweige",
+        "blocks": [
+          {
+            "p": "Zum Hund gehört, wessen Geburtsjahreszweig **戌** ist. 戌 ist der elfte der zwölf irdischen Zweige, und wenn die zwölf Zeichen im Kreis angeordnet werden, liegt er 辰 (dem Drachen) unmittelbar gegenüber."
+          },
+          {
+            "p": "Die Zeile, die das Kompatibilitätsergebnis für eine Person im Zeichen des Hundes zeigt, lautet: „Treu bis zuletzt, wenn Vertrauen einmal da ist. Verrat trifft besonders tief.“ Diese Zeile hat nichts mit den Beziehungspunktwerten zu tun und beeinflusst die folgenden Punktwerte nicht."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf Tierkreiszeichen auf einen Blick",
+        "blocks": [
+          {
+            "p": "Jedes der anderen Tiere wird der Reihe nach dem Hund gegenübergestellt. Nur die Paare, die dieser Dienst als Harmonien anerkennt, sind als Beziehungen aufgeführt; alles andere ist neutral."
+          },
+          {
+            "table": {
+              "caption": "Der Hund und die zwölf Tierkreiszeichen",
+              "head": [
+                "Anderes Tier",
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Ratte (子)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ochse (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hase (卯)",
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Drache (辰)",
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ],
+                [
+                  "Schlange (巳)",
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Pferd (午)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Schaf (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Affe (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hund (戌)",
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Hase — das Paar, das sich anzieht (Sechs-Harmonie)",
+        "blocks": [
+          {
+            "p": "戌 und 卯 bilden eine Harmonie mit nur zwei Zeichen. Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und der Hund und der Hase erreichen {scoreYukhap}, den höchsten Wert, den der Hund erreichen kann."
+          }
+        ]
+      },
+      {
+        "title": "Pferd — eine Halb-Triade, die den königlichen Zweig enthält",
+        "blocks": [
+          {
+            "p": "寅午戌 ist eine Triadengruppe (die Feuergruppe), und 午 ist der **königliche Zweig** in ihrer Mitte. Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher bildet der Hund nur mit dem Pferd eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Bei dem Tiger (寅) derselben Gruppe fehlt das mittlere Zeichen 午; daher zählt das Paar nicht als Harmonie und gilt als neutral ({scoreNeutral}). Die Zugehörigkeit zur selben Gruppe macht nicht jedes Paar zu einer Harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Drache — der frontale Zusammenstoß (Zusammenstoß)",
+        "blocks": [
+          {
+            "p": "戌 und 辰 liegen auf dem Kreis einander unmittelbar gegenüber. Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich. Dennoch ist es der niedrigste Wert, den der Hund erhalten kann."
+          }
+        ]
+      },
+      {
+        "title": "Schlange — die stille Zwietracht (Zwietracht)",
+        "blocks": [
+          {
+            "p": "戌 und 巳 liegen unmittelbar neben 辰 (dem Drachen), der Position des Zusammenstoßes, und gelten traditionell als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Die übrigen 7 Tiere und der Hund mit einem weiteren Hund",
+        "blocks": [
+          {
+            "p": "Ratte, Ochse, Tiger, Schaf, Affe, Hahn und Schwein bilden weder eine Harmonie noch einen Zusammenstoß noch eine Zwietracht mit dem Hund: Sie sind **neutral** und erhalten {scoreNeutral}. Sie sind die Ausgangslage, weder gut noch schlecht."
+          },
+          {
+            "p": "Zwei Personen im Zeichen des Hundes erhalten {scoreSame}. Das bedeutet, dass sie sich ähneln und nicht anziehen; deshalb liegt der Wert knapp über neutral."
+          }
+        ]
+      },
+      {
+        "title": "Welchen Anteil am Endwert dieser Punktwert ausmacht",
+        "blocks": [
+          {
+            "p": "Es gibt zwei Stellen, an denen die Zweige zweier Personen nebeneinandergelegt werden."
+          },
+          {
+            "ul": [
+              "Die **Tierkreis-Kompatibilität** betrachtet den Zweig des Geburtsjahres. Sie macht {weightZodiac} des Endwerts aus.",
+              "Die **Tageszweig-Kompatibilität** betrachtet den Zweig des Geburtstages. Sie macht {weightDayBranch} der Saju-Kompatibilität ({weightSaju}) aus, das sind {weightDayBranchTotal} des Endwerts."
+            ]
+          },
+          {
+            "p": "Trifft zum Beispiel eine Person im Zeichen des Hundes auf eine Person im Zeichen des Drachen, ergibt die Tierkreis-Kompatibilität einen Zusammenstoß. Bei sonst gleichen Voraussetzungen liegt der Endwert {swingZodiacChung} Punkte niedriger als bei einem neutralen Paar. Mit einer Person im Zeichen des Hasen ist es eine Sechs-Harmonie, und der Wert liegt {swingZodiacYukhap} Punkte höher."
+          },
+          {
+            "p": "Jahres- und Tageszweige können sich unterscheiden. Zwei Personen im Zeichen des Hundes, deren Tageszweige 戌 und 辰 sind, erhalten in der Tierkreis-Kompatibilität den gleichen Zweig ({scoreSame}) und in der Tageszweig-Kompatibilität einen Zusammenstoß ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht sagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt.",
+              "Die vollständige Aufstellung, welche Beziehung wie viele Punkte erhält, steht in der [Tabelle der zwölf Zweige](/guide/branches); warum das Tierkreiszeichen vom Jahreszweig abgelesen wird, steht in [Warum die Tierkreis-Kompatibilität den Jahreszweig berücksichtigt](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Die anderen Tiere sind auf dieselbe Weise dargestellt. [Ratte](/guide/zodiac-rat) · [Ochse](/guide/zodiac-ox) · [Tiger](/guide/zodiac-tiger) · [Hase](/guide/zodiac-rabbit) · [Drache](/guide/zodiac-dragon) · [Schlange](/guide/zodiac-snake) · [Pferd](/guide/zodiac-horse) · [Schaf](/guide/zodiac-goat) · [Affe](/guide/zodiac-monkey) · [Hahn](/guide/zodiac-rooster) · [Schwein](/guide/zodiac-pig)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/zodiac-pig": {
+    "eyebrow": "Nach Tier",
+    "title": "Wie das Schwein den zwölf Tierkreiszeichen begegnet",
+    "summary": "Welche Beziehung das Schwein (亥) zu jedem der zwölf Tierkreiszeichen hat, welchen Punktwert jede erhält und welchen Anteil dieser Punktwert am Endwert ausmacht — so dargelegt, wie es die Berechnungsregeln von Inyeon-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Das Schwein ist der zwölfte der zwölf Zweige",
+        "blocks": [
+          {
+            "p": "Zum Schwein gehört, wessen Geburtsjahreszweig **亥** ist. 亥 ist der zwölfte der zwölf irdischen Zweige, und wenn die zwölf Zeichen im Kreis angeordnet werden, liegt er 巳 (der Schlange) unmittelbar gegenüber."
+          },
+          {
+            "p": "Die Zeile, die das Kompatibilitätsergebnis für eine Person im Zeichen des Schweins zeigt, lautet: „Großzügig und geradeheraus. Vertraut leicht, manchmal auf eigene Kosten.“ Diese Zeile hat nichts mit den Beziehungspunktwerten zu tun und beeinflusst die folgenden Punktwerte nicht."
+          }
+        ]
+      },
+      {
+        "title": "Die zwölf Tierkreiszeichen auf einen Blick",
+        "blocks": [
+          {
+            "p": "Jedes der anderen Tiere wird der Reihe nach dem Schwein gegenübergestellt. Nur die Paare, die dieser Dienst als Harmonien anerkennt, sind als Beziehungen aufgeführt; alles andere ist neutral."
+          },
+          {
+            "table": {
+              "caption": "Das Schwein und die zwölf Tierkreiszeichen",
+              "head": [
+                "Anderes Tier",
+                "Beziehung",
+                "Punktzahl"
+              ],
+              "rows": [
+                [
+                  "Ratte (子)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Ochse (丑)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Tiger (寅)",
+                  "Sechs-Harmonie",
+                  "{scoreYukhap}"
+                ],
+                [
+                  "Hase (卯)",
+                  "Halb-Triade",
+                  "{scoreBanhap}"
+                ],
+                [
+                  "Drache (辰)",
+                  "Zwietracht",
+                  "{scoreWonjin}"
+                ],
+                [
+                  "Schlange (巳)",
+                  "Zusammenstoß",
+                  "{scoreChung}"
+                ],
+                [
+                  "Pferd (午)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schaf (未)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Affe (申)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hahn (酉)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Hund (戌)",
+                  "Neutral",
+                  "{scoreNeutral}"
+                ],
+                [
+                  "Schwein (亥)",
+                  "Gleicher Zweig",
+                  "{scoreSame}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Tiger — das Paar, das sich anzieht (Sechs-Harmonie)",
+        "blocks": [
+          {
+            "p": "亥 und 寅 bilden eine Harmonie mit nur zwei Zeichen. Eine Sechs-Harmonie ist die gute Beziehung, die in der Kompatibilität am häufigsten vorkommt, und das Schwein und der Tiger erreichen {scoreYukhap}, den höchsten Wert, den das Schwein erreichen kann."
+          }
+        ]
+      },
+      {
+        "title": "Hase — eine Halb-Triade, die den königlichen Zweig enthält",
+        "blocks": [
+          {
+            "p": "亥卯未 ist eine Triadengruppe (die Holzgruppe), und 卯 ist der **königliche Zweig** in ihrer Mitte. Inyeon-Link akzeptiert nur Paare, die den königlichen Zweig enthalten; daher bildet das Schwein nur mit dem Hasen eine Halb-Triade ({scoreBanhap})."
+          },
+          {
+            "p": "Bei dem Schaf (未) derselben Gruppe fehlt das mittlere Zeichen 卯; daher zählt das Paar nicht als Harmonie und gilt als neutral ({scoreNeutral}). Die Zugehörigkeit zur selben Gruppe macht nicht jedes Paar zu einer Harmonie."
+          }
+        ]
+      },
+      {
+        "title": "Schlange — der frontale Zusammenstoß (Zusammenstoß)",
+        "blocks": [
+          {
+            "p": "亥 und 巳 liegen auf dem Kreis einander unmittelbar gegenüber. Dieser Dienst behält auch bei einem Zusammenstoß {scoreChung} Punkte. In der traditionellen Myeongri-Lehre ist ein Zusammenstoß eine Kollision, nicht das Ende einer Beziehung, und ein Wert nahe dem Minimum käme einem Urteil über zwei Menschen gleich. Dennoch ist es der niedrigste Wert, den das Schwein erhalten kann."
+          }
+        ]
+      },
+      {
+        "title": "Drache — die stille Zwietracht (Zwietracht)",
+        "blocks": [
+          {
+            "p": "亥 und 辰 liegen unmittelbar neben 巳 (der Schlange), der Position des Zusammenstoßes, und gelten traditionell als ein Paar, das einander grollt und sich dennoch nicht trennen kann. An der Oberfläche wirkt es ruhig, doch die Verschiebung gilt als dauerhaft; deshalb erhält es {scoreWonjin} — mehr als ein Zusammenstoß ({scoreChung}) und weniger als neutral ({scoreNeutral})."
+          }
+        ]
+      },
+      {
+        "title": "Die übrigen 7 Tiere und das Schwein mit einem weiteren Schwein",
+        "blocks": [
+          {
+            "p": "Ratte, Ochse, Pferd, Schaf, Affe, Hahn und Hund bilden weder eine Harmonie noch einen Zusammenstoß noch eine Zwietracht mit dem Schwein: Sie sind **neutral** und erhalten {scoreNeutral}. Sie sind die Ausgangslage, weder gut noch schlecht."
+          },
+          {
+            "p": "Zwei Personen im Zeichen des Schweins erhalten {scoreSame}. Das bedeutet, dass sie sich ähneln und nicht anziehen; deshalb liegt der Wert knapp über neutral."
+          }
+        ]
+      },
+      {
+        "title": "Welchen Anteil am Endwert dieser Punktwert ausmacht",
+        "blocks": [
+          {
+            "p": "Es gibt zwei Stellen, an denen die Zweige zweier Personen nebeneinandergelegt werden."
+          },
+          {
+            "ul": [
+              "Die **Tierkreis-Kompatibilität** betrachtet den Zweig des Geburtsjahres. Sie macht {weightZodiac} des Endwerts aus.",
+              "Die **Tageszweig-Kompatibilität** betrachtet den Zweig des Geburtstages. Sie macht {weightDayBranch} der Saju-Kompatibilität ({weightSaju}) aus, das sind {weightDayBranchTotal} des Endwerts."
+            ]
+          },
+          {
+            "p": "Trifft zum Beispiel eine Person im Zeichen des Schweins auf eine Person im Zeichen der Schlange, ergibt die Tierkreis-Kompatibilität einen Zusammenstoß. Bei sonst gleichen Voraussetzungen liegt der Endwert {swingZodiacChung} Punkte niedriger als bei einem neutralen Paar. Mit einer Person im Zeichen des Tigers ist es eine Sechs-Harmonie, und der Wert liegt {swingZodiacYukhap} Punkte höher."
+          },
+          {
+            "p": "Jahres- und Tageszweige können sich unterscheiden. Zwei Personen im Zeichen des Schweins, deren Tageszweige 亥 und 巳 sind, erhalten in der Tierkreis-Kompatibilität den gleichen Zweig ({scoreSame}) und in der Tageszweig-Kompatibilität einen Zusammenstoß ({scoreChung})."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht sagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelnes Tier entscheidet nicht über eine Beziehung zwischen zwei Menschen. {weightSaju} des Endwerts werden durch die Saju-Kompatibilität bestimmt.",
+              "Die obigen Punktänderungen setzen voraus, dass alles andere gleich ist; das tatsächliche Ergebnis wird vom gesamten Saju beider Personen bestimmt.",
+              "Die vollständige Aufstellung, welche Beziehung wie viele Punkte erhält, steht in der [Tabelle der zwölf Zweige](/guide/branches); warum das Tierkreiszeichen vom Jahreszweig abgelesen wird, steht in [Warum die Tierkreis-Kompatibilität den Jahreszweig berücksichtigt](/guide/zodiac)."
+            ]
+          },
+          {
+            "p": "Die anderen Tiere sind auf dieselbe Weise dargestellt. [Ratte](/guide/zodiac-rat) · [Ochse](/guide/zodiac-ox) · [Tiger](/guide/zodiac-tiger) · [Hase](/guide/zodiac-rabbit) · [Drache](/guide/zodiac-dragon) · [Schlange](/guide/zodiac-snake) · [Pferd](/guide/zodiac-horse) · [Schaf](/guide/zodiac-goat) · [Affe](/guide/zodiac-monkey) · [Hahn](/guide/zodiac-rooster) · [Hund](/guide/zodiac-dog)"
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Zehn Götter",
     "title": "Zehn Götter und Ehepartnerposition",
