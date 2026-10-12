@@ -59,7 +59,7 @@ export const MS_DOCS = {
   "guide": {
     "eyebrow": "Asas Pengiraan",
     "title": "Apakah Asas untuk Pengiraan?",
-    "summary": "Inyeon-Link mendedahkan semua peraturan yang digunakannya. Anda boleh menyemak item dan beratnya, skor daripada jadual hubungan cabang bumi, dan nilai ambang yang membezakan antara seorang penguasa hari yang kuat dan seorang penguasa hari yang lemah — anda boleh melihat dari mana nombor di skrin datang.",
+    "summary": "Inyeon-Link mendedahkan semua peraturan yang digunakannya. Anda boleh menyemak item dan beratnya, skor daripada jadual hubungan cabang bumi, dan nilai ambang yang membezakan antara seorang tuan hari yang kuat dan seorang tuan hari yang lemah — anda boleh melihat dari mana nombor di skrin datang.",
     "backLabel": "Kembali ke Mula",
     "sections": [
       {
@@ -114,7 +114,7 @@ export const MS_DOCS = {
         "title": "Empat Item Keserasian Saju",
         "blocks": [
           {
-            "p": "Bahagian saju dibahagikan lagi kepada empat. Setiap item dipilih untuk memastikan bahawa apa yang mereka pertimbangkan tidak bert重重重重."
+            "p": "Bahagian saju dibahagikan lagi kepada empat. Setiap item dipilih untuk memastikan bahawa apa yang mereka pertimbangkan tidak bertindih."
           },
           {
             "figure": "four-pillars",
@@ -143,8 +143,8 @@ export const MS_DOCS = {
               ],
               "rows": [
                 [
-                  "Hubungan Cabang Hari",
-                  "Apa cabang hari (日干) kedua orang itu terhadap satu sama lain — dilihat melalui Sepuluh Dewa",
+                  "Hubungan Pangkal Hari",
+                  "Apa pangkal hari (日干) kedua orang itu terhadap satu sama lain — dilihat melalui Sepuluh Dewa",
                   "{weightDayMaster}"
                 ],
                 [
@@ -154,12 +154,12 @@ export const MS_DOCS = {
                 ],
                 [
                   "Bintang Pasangan",
-                  "Adakah cabang hari pasangan sepadan dengan posisi pasangan saya?",
+                  "Adakah pangkal hari pasangan sepadan dengan posisi pasangan saya?",
                   "{weightSpouseStar}"
                 ],
                 [
                   "Hubungan Cabang Hari",
-                  "Adakah cabang hari (日支) kedua orang itu adalah kombinasi atau pertentangan?",
+                  "Adakah cabang hari (日支) kedua orang itu adalah gabungan atau pertembungan?",
                   "{weightDayBranch}"
                 ]
               ]
@@ -467,7 +467,7 @@ export const MS_DOCS = {
         "title": "Zodiak adalah cabang bumi bagi tahun kelahiran",
         "blocks": [
           {
-            "p": "Saju terdiri daripada empat tiang: tahun, bulan, hari, dan jam, dengan setiap tiang mengandungi satu tiang langit dan satu cabang bumi. **Cabang tahun** adalah yang membawa haiwan yang kita panggil tanda zodiak."
+            "p": "Saju terdiri daripada empat tiang: tahun, bulan, hari, dan jam, dengan setiap tiang mengandungi satu pangkal langit dan satu cabang bumi. **Cabang tahun** adalah yang membawa haiwan yang kita panggil tanda zodiak."
           },
           {
             "table": {
@@ -588,25 +588,25 @@ export const MS_DOCS = {
   "guide/ten-gods": {
     "eyebrow": "Sepuluh Dewa",
     "title": "Sepuluh Dewa dan Posisi Pasangan",
-    "summary": "Kami melihat apa tiang hari setiap orang kepada satu sama lain melalui Sepuluh Dewa. Kami menerangkan mengapa kekayaan langsung dan kekayaan tidak langsung dibaca dengan cara yang berbeza walaupun kedua-duanya adalah kekayaan.",
+    "summary": "Kami melihat apa pangkal hari setiap orang kepada satu sama lain melalui Sepuluh Dewa. Kami menerangkan mengapa kekayaan langsung dan kekayaan tidak langsung dibaca dengan cara yang berbeza walaupun kedua-duanya adalah kekayaan.",
     "backLabel": "Asas Pengiraan",
     "sections": [
       {
-        "title": "Stemp hari adalah diri seseorang itu sendiri",
+        "title": "Pangkal hari adalah diri seseorang itu sendiri",
         "blocks": [
           {
-            "p": "Antara lapan watak dalam saju, **stemp hari** (stemp langit pada hari kelahiran) merujuk kepada diri seseorang itu sendiri. Tujuh watak yang tinggal dibaca sebagai persekitaran di mana stemp hari itu diletakkan."
+            "p": "Antara lapan watak dalam saju, **pangkal hari** (pangkal langit pada hari kelahiran) merujuk kepada diri seseorang itu sendiri. Tujuh watak yang tinggal dibaca sebagai persekitaran di mana pangkal hari itu diletakkan."
           },
           {
-            "p": "**Sepuluh Dewa** (十神) membahagikan bagaimana stemp hari memahami watak lain kepada sepuluh kategori. Apa yang memelihara saya adalah **sumber**, apa yang sama dengan saya adalah **rakan**, apa yang saya hasilkan adalah **output**, apa yang saya kawal adalah **kekayaan**, dan apa yang mengawal saya adalah **kuasa** — setiap lima ini kemudian dibahagikan mengikut polariti, menjadikannya sepuluh."
+            "p": "**Sepuluh Dewa** (十神) membahagikan bagaimana pangkal hari memahami watak lain kepada sepuluh kategori. Apa yang memelihara saya adalah **sumber**, apa yang sama dengan saya adalah **rakan**, apa yang saya hasilkan adalah **output**, apa yang saya kawal adalah **kekayaan**, dan apa yang mengawal saya adalah **kuasa** — setiap lima ini kemudian dibahagikan mengikut polariti, menjadikannya sepuluh."
           }
         ]
       },
       {
-        "title": "Apa yang stemp hari setiap orang kepada satu sama lain",
+        "title": "Apa yang pangkal hari setiap orang kepada satu sama lain",
         "blocks": [
           {
-            "p": "Ini adalah item pertama dalam keserasian. Setelah ditentukan apa yang stemp hari A memahami stemp hari B, persepsi B terhadap A juga ditentukan, jadi terdapat **hanya enam kemungkinan**."
+            "p": "Ini adalah item pertama dalam keserasian. Setelah ditentukan apa yang pangkal hari A memahami pangkal hari B, persepsi B terhadap A juga ditentukan, jadi terdapat **hanya enam kemungkinan**."
           },
           {
             "table": {
@@ -672,7 +672,7 @@ export const MS_DOCS = {
         "title": "Sebab untuk melihat dengan Sepuluh Dewa dan bukannya tiga elemen",
         "blocks": [
           {
-            "p": "Terdapat kaedah untuk melihat hubungan stemp hari dengan tiga elemen (penghasilan bersama, kesamaan, saling mengatasi). Ia mudah, tetapi **yin dan yang hilang.** 甲 (kayu yang yin) dan 乙 (kayu yang yin) menjadi 'kesamaan' yang sama seperti 甲 dan 甲, dan saling mengatasi dihimpunkan menjadi satu skor tanpa arah atau yin dan yang."
+            "p": "Terdapat kaedah untuk melihat hubungan pangkal hari dengan tiga elemen (penghasilan bersama, kesamaan, saling mengatasi). Ia mudah, tetapi **yin dan yang hilang.** 甲 (kayu yang) dan 乙 (kayu yin) menjadi 'kesamaan' yang sama seperti 甲 dan 甲, dan saling mengatasi dihimpunkan menjadi satu skor tanpa arah atau yin dan yang."
           },
           {
             "p": "Posisi pasangan mesti dinilai dari segi Sepuluh Dewa. Jika item yang dilihat oleh lima elemen dan item yang dilihat oleh Sepuluh Dewa dicampurkan dalam satu enjin, akan ada dua standard untuk dua watak yang sama. Oleh itu, kita menyatukan dengan Sepuluh Dewa."
@@ -707,7 +707,7 @@ export const MS_DOCS = {
             }
           },
           {
-            "p": "Walaupun mereka adalah sumber yang sama, hanya **Proper Wealth** emosi yang dianggap sebagai posisi pasangan, sementara Resource dibaca sebagai sifat aktiviti dan kekayaan. Oleh itu, Proper Wealth dan Proper Officer dikira sebagai 2 mata, sementara Resource dan Officer dikira sebagai 1 mata, dan kedua-dua arah dijumlahkan — jika kedua-duanya dilihat sebagai posisi pasangan, ia adalah yang tertinggi."
+            "p": "Walaupun mereka adalah sumber yang sama, hanya **Kekayaan yang Betul** emosi yang dianggap sebagai posisi pasangan, sementara Sumber dibaca sebagai sifat aktiviti dan kekayaan. Oleh itu, Kekayaan yang Betul dan Pegawai yang Betul dikira sebagai 2 mata, sementara Sumber dan Pegawai dikira sebagai 1 mata, dan kedua-dua arah dijumlahkan — jika kedua-duanya dilihat sebagai posisi pasangan, ia adalah yang tertinggi."
           }
         ]
       },
@@ -724,7 +724,7 @@ export const MS_DOCS = {
         "title": "Kami juga menunjukkan bentuk hubungan",
         "blocks": [
           {
-            "p": "Selain daripada skor, kami menerangkan **bentuk apa** yang dimiliki pasangan day stems pada skrin keputusan. Sama ada mereka berada dalam posisi yang serupa, sama ada satu pihak menyokong yang lain, atau sama ada satu pihak ditekan — jika ia adalah hubungan yang menyokong atau menekan, kami menjelaskan pihak mana yang memegang posisi tersebut."
+            "p": "Selain daripada skor, kami menerangkan **bentuk apa** yang dimiliki pasangan pangkal hari pada skrin keputusan. Sama ada mereka berada dalam posisi yang serupa, sama ada satu pihak menyokong yang lain, atau sama ada satu pihak ditekan — jika ia adalah hubungan yang menyokong atau menekan, kami menjelaskan pihak mana yang memegang posisi tersebut."
           },
           {
             "p": "Jika hanya satu skor yang ditunjukkan, ia meninggalkan soalan 'jadi apa'. Bentuk bukanlah skor tetapi sesuatu untuk dibaca, dan bahkan pasangan dengan skor rendah mempunyai sesuatu untuk ditafsirkan."
@@ -736,7 +736,7 @@ export const MS_DOCS = {
   "guide/yongsin": {
     "eyebrow": "Lima elemen",
     "title": "Elemen Sokongan — Tenaga yang diperlukan sekarang",
-    "summary": "Kami melihat lima elemen bukan sebagai 'adakah mereka memilih dua' tetapi sebagai 'adakah pasangan mempunyai apa yang saya perlukan'. Kami juga mendedahkan nilai sempadan yang membezakan antara day master yang kuat dan yang lemah.",
+    "summary": "Kami melihat lima elemen bukan sebagai 'adakah mereka memilih dua' tetapi sebagai 'adakah pasangan mempunyai apa yang saya perlukan'. Kami juga mendedahkan nilai sempadan yang membezakan antara tuan hari yang kuat dan yang lemah.",
     "backLabel": "Asas pengiraan",
     "sections": [
       {
@@ -754,7 +754,7 @@ export const MS_DOCS = {
         "title": "Elemen Sokongan — Kurangkan jika berlebihan, tambah jika tidak mencukupi",
         "blocks": [
           {
-            "p": "Elemen Sokongan (用神) adalah 'tenaga yang diperlukan oleh orang ini sekarang'. Terdapat beberapa kaedah untuk menentukannya (menekan, menyokong, penyakit, dan komunikasi), tetapi ia boleh diterjemahkan ke dalam peraturan, dan yang paling banyak digunakan adalah **menekan (抑扶)**. Jika day master kuat, ia dilihat bahawa tenaga untuk mengurangkan diperlukan, dan jika lemah, tenaga untuk menambah diperlukan."
+            "p": "Elemen Sokongan (用神) adalah 'tenaga yang diperlukan oleh orang ini sekarang'. Terdapat beberapa kaedah untuk menentukannya (menekan, menyokong, penyakit, dan komunikasi), tetapi ia boleh diterjemahkan ke dalam peraturan, dan yang paling banyak digunakan adalah **menekan (抑扶)**. Jika tuan hari kuat, ia dilihat bahawa tenaga untuk mengurangkan diperlukan, dan jika lemah, tenaga untuk menambah diperlukan."
           },
           {
             "table": {
@@ -765,12 +765,12 @@ export const MS_DOCS = {
               ],
               "rows": [
                 [
-                  "Day master kuat (身强)",
+                  "Tuan hari kuat (身强)",
                   "Mengurangkan tenaga — 食傷 (sik-sang) · 財星 (jae-seong) · 官星 (gwan-seong)",
                   "Tiga"
                 ],
                 [
-                  "Day master lemah (身弱)",
+                  "Tuan hari lemah (身弱)",
                   "Menambah tenaga — 印星 (in-seong) · 比劫 (bi-gyeob)",
                   "Dua"
                 ],
@@ -788,7 +788,7 @@ export const MS_DOCS = {
         "title": "Nilai ambang untuk kekuatan dan kelemahan",
         "blocks": [
           {
-            "p": "Pihak day stem adalah **印星 dan 比劫** — tenaga yang melahirkan saya dan tenaga yang serupa dengan saya. Oleh kerana dua daripada lima, jika tenaga itu seimbang sepenuhnya, ia menjadi {evenAllyRatio}. Satu julat ditetapkan di atas dan di bawah nilai tersebut."
+            "p": "Pihak pangkal hari adalah **印星 dan 比劫** — tenaga yang melahirkan saya dan tenaga yang serupa dengan saya. Oleh kerana dua daripada lima, jika tenaga itu seimbang sepenuhnya, ia menjadi {evenAllyRatio}. Satu julat ditetapkan di atas dan di bawah nilai tersebut."
           },
           {
             "table": {
@@ -800,7 +800,7 @@ export const MS_DOCS = {
               "rows": [
                 [
                   "{strongThreshold} atau lebih",
-                  "Day master kuat"
+                  "Tuan hari kuat"
                 ],
                 [
                   "{weakThreshold} atau lebih dan kurang daripada {strongThreshold}",
@@ -808,7 +808,7 @@ export const MS_DOCS = {
                 ],
                 [
                   "Kurang daripada {weakThreshold}",
-                  "Day master lemah"
+                  "Tuan hari lemah"
                 ]
               ]
             }
@@ -828,7 +828,7 @@ export const MS_DOCS = {
         "title": "Kuasa bukanlah jumlah watak",
         "blocks": [
           {
-            "p": "Apabila mengira kuasa lima elemen, kami tidak hanya mengira lapan watak seperti yang muncul. Kami menggunakan nilai yang mencerminkan heavenly stems yang tersembunyi (地藏干) dalam earthly branches dan musim tenaga bulan (月令) di mana seseorang dilahirkan."
+            "p": "Apabila mengira kuasa lima elemen, kami tidak hanya mengira lapan watak seperti yang muncul. Kami menggunakan nilai yang mencerminkan pangkal langit yang tersembunyi (地藏干) dalam cabang bumi dan musim tenaga bulan (月令) di mana seseorang dilahirkan."
           },
           {
             "p": "Jika kami hanya mengira watak permukaan, kami terlepas fakta bahawa bahkan dua watak 木 boleh mempunyai kekuatan yang sangat berbeza bergantung pada musim. 木 musim bunga dan 木 musim luruh, walaupun mereka adalah watak yang sama, mempunyai kuasa yang berbeza."
@@ -891,13 +891,13 @@ export const MS_DOCS = {
               ],
               "rows": [
                 [
-                  "Hubungan batang hari · Sifat pasangan",
-                  "Batang hari kedua orang — batang langit",
+                  "Hubungan pangkal hari · Sifat pasangan",
+                  "Pangkal hari kedua orang — pangkal langit",
                   "10"
                 ],
                 [
-                  "Elemen lima melengkapi",
-                  "Elemen sokongan saya dan kuasa elemen lima lawan",
+                  "Pelengkap lima elemen",
+                  "Elemen sokongan saya dan kuasa lima elemen lawan",
                   "5"
                 ],
                 [
@@ -914,7 +914,7 @@ export const MS_DOCS = {
             }
           },
           {
-            "p": "Oleh kerana nilai tidak bertukar antara item, **mencari titik tertinggi untuk setiap cabang akan menjadi titik tertinggi keseluruhan**. Tidak perlu memeriksa semua kombinasi tarikh lahir — hanya menetapkan sepuluh batang langit, dua belas cabang bumi, dan lima elemen sudah mencukupi."
+            "p": "Oleh kerana nilai tidak bertukar antara item, **mencari titik tertinggi untuk setiap cabang akan menjadi titik tertinggi keseluruhan**. Tidak perlu memeriksa semua kombinasi tarikh lahir — hanya menetapkan sepuluh pangkal langit, dua belas cabang bumi, dan lima elemen sudah mencukupi."
           }
         ]
       },
@@ -1192,7 +1192,7 @@ export const MS_DOCS = {
             "p": "Bar-bar dari lima elemen di skrin menunjukkan **berapa banyak yang ada**. Laporan menambah **sama ada bulan kelahiran menyokong tenaga itu**. Walaupun dengan jumlah yang sama, tenaga yang kuat (旺) dan tenaga yang mati (死) mempunyai kekuatan yang berbeza."
           },
           {
-            "p": "Anda boleh melihat kekuatan sebelum dan selepas menggandakan dengan tenaga bulan secara berdampingan, menunjukkan berapa banyak musim telah meningkatkannya. **Nisbah sekutu** yang membezakan antara penguasa hari yang kuat dan penguasa hari yang lemah juga dicatat — skrin hanya menunjukkan penilaian, tetapi laporan menunjukkan di mana penilaian itu dibuat."
+            "p": "Anda boleh melihat kekuatan sebelum dan selepas menggandakan dengan tenaga bulan secara berdampingan, menunjukkan berapa banyak musim telah meningkatkannya. **Nisbah sekutu** yang membezakan antara tuan hari yang kuat dan tuan hari yang lemah juga dicatat — skrin hanya menunjukkan penilaian, tetapi laporan menunjukkan di mana penilaian itu dibuat."
           }
         ]
       },
@@ -1200,7 +1200,7 @@ export const MS_DOCS = {
         "title": "Halaman 6 — Apa yang dimaksudkan dengan empat tiang orang lain bagi saya",
         "blocks": [
           {
-            "p": "Kadar kesesuaian hanya membandingkan **tiang hari** kedua individu. Namun, tiga tiang yang tinggal dari orang lain juga ditentukan oleh Sepuluh Dewa menggunakan peraturan yang sama. Walaupun anda boleh memahami **apa maksud orang ini bagi saya** dengan melihat tiang hari sahaja, anda tidak dapat mengetahui **apa posisi orang itu bermakna bagi saya**."
+            "p": "Kadar kesesuaian hanya membandingkan **pangkal hari** kedua individu. Namun, tiga tiang yang tinggal dari orang lain juga ditentukan oleh Sepuluh Dewa menggunakan peraturan yang sama. Walaupun anda boleh memahami **apa maksud orang ini bagi saya** dengan melihat pangkal hari sahaja, anda tidak dapat mengetahui **apa posisi orang itu bermakna bagi saya**."
           },
           {
             "p": "Memandangkan terdapat arah, kedua-dua pihak dipersembahkan secara berasingan. Apa yang saya lihat dan apa yang dilihat oleh yang lain adalah berbeza."
@@ -1227,7 +1227,7 @@ export const MS_DOCS = {
       {
         "blocks": [
           {
-            "p": "Bahagian ini adalah **jadual peringkat keseluruhan**. Skrin hanya menunjukkan set yang sesuai dengan baik, tetapi laporan menyenaraikan semua sepuluh tiang langit dan dua belas cabang bumi **sepenuhnya**. Jika anda hanya melihat set teratas, anda tidak akan tahu 'siapa yang datang seterusnya' dan 'yang mana yang paling tidak sesuai'."
+            "p": "Bahagian ini adalah **jadual peringkat keseluruhan**. Skrin hanya menunjukkan set yang sesuai dengan baik, tetapi laporan menyenaraikan semua sepuluh pangkal langit dan dua belas cabang bumi **sepenuhnya**. Jika anda hanya melihat set teratas, anda tidak akan tahu 'siapa yang datang seterusnya' dan 'yang mana yang paling tidak sesuai'."
           }
         ]
       },

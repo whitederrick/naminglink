@@ -24,7 +24,7 @@ export const FR_DOCS = {
         "title": "Ce que nous calculons",
         "blocks": [
           {
-            "p": "Les cartes sont construites à partir de **l'almanach lunisolaire coréen**, et l'heure de naissance est corrigée à **l'heure solaire vraie** pour le lieu de naissance — la même heure de l'horloge signifie une position du soleil différente selon l'endroit où vous êtes né."
+            "p": "Les cartes sont construites à partir de **l'almanach lunisolaire coréen**, et l'heure de naissance est corrigée à **l'heure solaire réelle** pour le lieu de naissance — la même heure de l'horloge signifie une position du soleil différente selon l'endroit où vous êtes né."
           },
           {
             "p": "Les scores proviennent uniquement de règles fixes. Les concepts traditionnels — dix dieux, relations entre branches, élément de soutien — sont exprimés sous forme de règles, donc **la même entrée donne toujours le même résultat.** Lorsque une règle change, nous exécutons un système de régression pour nous assurer que les lectures plus anciennes n'ont pas été affectées."
@@ -94,7 +94,7 @@ export const FR_DOCS = {
               "rows": [
                 [
                   "Compatibilité Saju",
-                  "Jour tige, jour branche, et les cinq éléments — quatre éléments",
+                  "Tige du jour, branche du jour et les cinq éléments — quatre éléments",
                   "{weightSaju}"
                 ],
                 [
@@ -191,10 +191,10 @@ export const FR_DOCS = {
         "title": "Les calculs peuvent être effectués sans connaître l'heure de naissance",
         "blocks": [
           {
-            "p": "L'heure de naissance est utilisée pour déterminer le pilier horaire. Si inconnue, les calculs seront effectués sans le pilier horaire, et ce fait sera indiqué sur l'écran des résultats. Étant donné qu'il n'y a pas d'entrée directe pour le pilier horaire parmi les quatre éléments de compatibilité, les valeurs ne fluctueront pas de manière significative, mais cela affecte l'équilibre des cinq éléments."
+            "p": "L'heure de naissance est utilisée pour déterminer le pilier de l'heure. Si inconnue, les calculs seront effectués sans le pilier de l'heure, et ce fait sera indiqué sur l'écran des résultats. Étant donné qu'il n'y a pas d'entrée directe pour le pilier de l'heure parmi les quatre éléments de compatibilité, les valeurs ne fluctueront pas de manière significative, mais cela affecte l'équilibre des cinq éléments."
           },
           {
-            "p": "Si vous connaissez l'heure, veuillez également sélectionner le lieu de naissance. Si l'heure standard diffère de la position solaire réelle, l'utiliser telle quelle peut désaligner le pilier horaire [(correction du temps solaire vrai)](/guide/true-solar-time)."
+            "p": "Si vous connaissez l'heure, veuillez également sélectionner le lieu de naissance. Si l'heure standard diffère de la position solaire réelle, l'utiliser telle quelle peut désaligner le pilier de l'heure [(correction de l'heure solaire réelle)](/guide/true-solar-time)."
           }
         ]
       },
@@ -467,7 +467,7 @@ export const FR_DOCS = {
         "title": "Le zodiaque est la branche terrestre de l'année de naissance",
         "blocks": [
           {
-            "p": "Le saju se compose de quatre piliers : année, mois, jour et heure, chaque pilier contenant un tige céleste et une branche terrestre. La **branche terrestre de l'année** est celle qui porte l'animal que nous appelons le signe zodiacal."
+            "p": "Le saju se compose de quatre piliers : année, mois, jour et heure, chaque pilier contenant une tige céleste et une branche terrestre. La **branche terrestre de l'année** est celle qui porte l'animal que nous appelons le signe zodiacal."
           },
           {
             "table": {
@@ -483,7 +483,7 @@ export const FR_DOCS = {
                 ],
                 [
                   "丑",
-                  "Boeuf"
+                  "Bœuf"
                 ],
                 [
                   "寅",
@@ -551,10 +551,10 @@ export const FR_DOCS = {
         "title": "La compatibilité zodiacale ne considère qu'une seule relation",
         "blocks": [
           {
-            "p": "Le calcul de la compatibilité zodiacale est simple. Il compare les branches terrestres de deux personnes pour déterminer si la relation est harmonieuse, en conflit ou en désaccord silencieux, et utilise ce score tel quel. Comme il n'y a qu'un seul élément, il n'est pas nécessaire de distribuer des poids."
+            "p": "Le calcul de la compatibilité zodiacale est simple. Il compare les branches terrestres de deux personnes pour déterminer si la relation est harmonieuse, un choc ou une discorde silencieuse, et utilise ce score tel quel. Comme il n'y a qu'un seul élément, il n'est pas nécessaire de distribuer des poids."
           },
           {
-            "p": "Les scores pour chaque relation sont tous listés dans le [Tableau des Relations des Douze Branches](/guide/branches). La compatibilité des branches de jour utilise le même tableau."
+            "p": "Les scores pour chaque relation sont tous listés dans le [Tableau des Relations des Douze Branches](/guide/branches). La compatibilité de la branche du jour utilise le même tableau."
           }
         ]
       },
@@ -569,7 +569,7 @@ export const FR_DOCS = {
           },
           {
             "ul": [
-              "**C'est l'élément le plus intuitivement compréhensible**. Même sans connaître le vocabulaire de la tradition, 'le tigre et le singe sont en conflit' a du sens.",
+              "**C'est l'élément le plus intuitivement compréhensible**. Même sans connaître le vocabulaire de la tradition, 'le tigre et le singe forment un choc' a du sens.",
               "**C'est le seul axe qui ne fluctue pas même si l'heure de naissance est inconnue**. Si vous ne connaissez pas l'heure, le pilier de l'heure est manquant et la force des cinq éléments change, mais la branche terrestre de l'année reste la même."
             ]
           }
@@ -588,11 +588,11 @@ export const FR_DOCS = {
   "guide/ten-gods": {
     "eyebrow": "Dix Dieux",
     "title": "Dix Dieux et Position du Conjoint",
-    "summary": "Nous examinons ce que chaque tige de jour est l'une pour l'autre à travers les Dix Dieux. Nous expliquons pourquoi la richesse directe et la richesse indirecte sont lues différemment même si les deux sont de la richesse.",
+    "summary": "Nous examinons ce que chaque tige du jour est l'une pour l'autre à travers les Dix Dieux. Nous expliquons pourquoi la richesse directe et la richesse indirecte sont lues différemment même si les deux sont de la richesse.",
     "backLabel": "Base de calcul",
     "sections": [
       {
-        "title": "Le jour de la tige est la personne elle-même",
+        "title": "La tige du jour est la personne elle-même",
         "blocks": [
           {
             "p": "Parmi les huit caractères du saju, la **tige du jour** (la tige céleste du jour de naissance) fait référence à la personne elle-même. Les sept caractères restants sont interprétés comme l'environnement dans lequel cette tige du jour est placée."
@@ -664,7 +664,7 @@ export const FR_DOCS = {
         "title": "Yin et Yang sont à un carrefour",
         "blocks": [
           {
-            "p": "Le côté où le yin et le yang sont mal alignés (Richesse Propre, Officier Propre, Compagnon Propre) est émotionnel, tandis que le même côté (Ressource, Officier, Compagnon) est inébranlable, ce qui est le principe qui distingue le propre et le côté des Dix Dieux."
+            "p": "Le côté où le yin et le yang sont mal alignés (Richesse Propre, Officier Propre, Compagnon Propre) est émotionnel, tandis que le même côté (Ressource, Officier, Compagnon) est sans émotion, ce qui est le principe qui distingue le propre et le côté des Dix Dieux."
           }
         ]
       },
@@ -707,7 +707,7 @@ export const FR_DOCS = {
             }
           },
           {
-            "p": "Même s'ils sont la même ressource, seule la **Richesse Propre** émotionnelle est considérée comme la position du conjoint, tandis que la Ressource est lue comme la nature de l'activité et de la richesse. Par conséquent, la Richesse Propre et le Fonctionnaire Propre comptent pour 2 points, tandis que la Ressource et le Fonctionnaire comptent pour 1 point, et les deux directions sont additionnées — si les deux sont considérées comme des positions de conjoint, c'est le plus élevé."
+            "p": "Même s'ils sont la même ressource, seule la **Richesse Propre** émotionnelle est considérée comme la position du conjoint, tandis que la Ressource est lue comme la nature de l'activité et de la richesse. Par conséquent, la Richesse Propre et l'Officier Propre comptent pour 2 points, tandis que la Ressource et l'Officier comptent pour 1 point, et les deux directions sont additionnées — si les deux sont considérées comme des positions de conjoint, c'est le plus élevé."
           }
         ]
       },
@@ -724,7 +724,7 @@ export const FR_DOCS = {
         "title": "Nous montrons également la forme de la relation",
         "blocks": [
           {
-            "p": "En plus du score, nous décrivons **quelle forme** la paire de tiges de jour a sur l'écran des résultats. Qu'elles soient dans des positions similaires, qu'un côté soutienne l'autre, ou qu'un côté soit réprimé — si c'est une relation de soutien ou de répression, nous clarifions quel côté détient cette position."
+            "p": "En plus du score, nous décrivons **quelle forme** la paire de tiges du jour a sur l'écran des résultats. Qu'elles soient dans des positions similaires, qu'un côté soutienne l'autre, ou qu'un côté soit réprimé — si c'est une relation de soutien ou de répression, nous clarifions quel côté détient cette position."
           },
           {
             "p": "Si un seul score est présenté, cela laisse la question 'et alors'. La forme n'est pas un score mais quelque chose à lire, et même les paires avec des scores bas ont quelque chose à interpréter."
@@ -788,7 +788,7 @@ export const FR_DOCS = {
         "title": "Valeurs seuils pour la force et la faiblesse",
         "blocks": [
           {
-            "p": "Le côté de la tige de jour est **印星 et 比劫** — l'énergie qui me donne naissance et l'énergie qui est comme moi. Puisque deux sur cinq, si l'énergie est complètement équilibrée, cela devient {evenAllyRatio}. Une plage est définie au-dessus et en dessous de cette valeur."
+            "p": "Le côté de la tige du jour est **印星 et 比劫** — l'énergie qui me donne naissance et l'énergie qui est comme moi. Puisque deux sur cinq, si l'énergie est complètement équilibrée, cela devient {evenAllyRatio}. Une plage est définie au-dessus et en dessous de cette valeur."
           },
           {
             "table": {
@@ -880,7 +880,7 @@ export const FR_DOCS = {
         "title": "Nous ne faisons pas des millions de combinaisons",
         "blocks": [
           {
-            "p": "Le score de compatibilité dans le saju se compose de quatre éléments, et **chaque élément n'overlap pas dans ce qu'il examine.**"
+            "p": "Le score de compatibilité dans le saju se compose de quatre éléments, et **chaque élément ne se chevauche pas dans ce qu'il examine.**"
           },
           {
             "table": {
@@ -891,7 +891,7 @@ export const FR_DOCS = {
               ],
               "rows": [
                 [
-                  "Relation du jour tige · Nature conjugale",
+                  "Relation des tiges du jour · Nature conjugale",
                   "Les tiges du jour des deux personnes — tiges célestes",
                   "10"
                 ],
@@ -937,7 +937,7 @@ export const FR_DOCS = {
             "p": "Chez les personnes réelles, le maître du jour et les cinq éléments ne fonctionnent pas séparément. Une personne avec 甲木 a généralement aussi une forte énergie 木. Cette méthode de comptage des branches séparément ignore cette corrélation, donc la valeur obtenue en connectant les scores les plus élevés pour chaque branche devient une combinaison qui n'existe pas dans la réalité."
           },
           {
-            "p": "Par conséquent, l'écran n'affiche que les **scores des éléments** et ne fournit pas de score total. Le score total sera calculé en recevant la date de naissance de l'autre personne pour [saju compatibility](/compatibility)."
+            "p": "Par conséquent, l'écran n'affiche que les **scores des éléments** et ne fournit pas de score total. Le score total sera calculé en recevant la date de naissance de l'autre personne pour [compatibilité saju](/compatibility)."
           }
         ]
       },
@@ -1189,10 +1189,10 @@ export const FR_DOCS = {
         "title": "Page 5 — Un examen plus approfondi du saju de chaque personne",
         "blocks": [
           {
-            "p": "Les barres des **cinq éléments** à l'écran montrent **combien est présent**. Le rapport ajoute **si le mois de naissance soutient cette énergie**. Même avec la même quantité, l'énergie qui est forte (旺) et l'énergie qui est morte (死) ont des forces différentes."
+            "p": "Les barres des cinq éléments à l'écran montrent **combien est présent**. Le rapport ajoute **si le mois de naissance soutient cette énergie**. Même avec la même quantité, l'énergie qui est forte (旺) et l'énergie qui est morte (死) ont des forces différentes."
           },
           {
-            "p": "Vous pouvez voir les forces avant et après multiplication par l'énergie du mois côte à côte, montrant combien la saison l'a poussée. Le **ratio d'allié** qui distingue entre un **jour maître fort** et un **jour maître faible** est également noté — l'écran montre seulement le jugement, mais le rapport montre où ce jugement a été fait."
+            "p": "Vous pouvez voir les forces avant et après multiplication par l'énergie du mois côte à côte, montrant combien la saison l'a poussée. Le **ratio d'allié** qui distingue entre un maître de jour fort et un maître de jour faible est également noté — l'écran montre seulement le jugement, mais le rapport montre où ce jugement a été fait."
           }
         ]
       },
@@ -1200,7 +1200,7 @@ export const FR_DOCS = {
         "title": "Page 6 — Ce que les quatre piliers de l'autre personne signifient pour moi",
         "blocks": [
           {
-            "p": "Le taux de correspondance ne compare que les **jours tiges** des deux individus. Cependant, les trois autres piliers de l'autre personne sont également déterminés par les **Dix Dieux** en utilisant les mêmes règles. Bien que vous puissiez comprendre **ce que cette personne signifie pour moi** en regardant uniquement le jour tige, vous ne pouvez pas savoir **quelle position de cette personne signifie pour moi**."
+            "p": "Le taux de correspondance ne compare que les **tiges du jour** des deux individus. Cependant, les trois autres piliers de l'autre personne sont également déterminés par les Dix Dieux en utilisant les mêmes règles. Bien que vous puissiez comprendre **ce que cette personne signifie pour moi** en regardant uniquement la tige du jour, vous ne pouvez pas savoir **quelle position de cette personne signifie pour moi**."
           },
           {
             "p": "Puisqu'il y a des directions, les deux côtés sont présentés séparément. Ce que je vois et ce que l'autre voit sont différents."
@@ -1211,7 +1211,7 @@ export const FR_DOCS = {
         "title": "Page 7 — Comment ce saju a été calculé",
         "blocks": [
           {
-            "p": "Il indique combien le temps de naissance a été ajusté au **temps solaire vrai**, si la correction a causé un changement de date, et quelles étaient les dates solaires et lunaires lorsque le saju a été généré. Le concept est expliqué dans le document [Ajuster le temps de naissance au temps solaire vrai](/guide/true-solar-time), mais **la valeur du nombre de minutes ajustées dans votre cas** varie d'une personne à l'autre, donc elle est seulement incluse dans le rapport."
+            "p": "Il indique combien l'heure de naissance a été ajustée à l'**heure solaire réelle**, si la correction a causé un changement de date, et quelles étaient les dates solaires et lunaires lorsque le saju a été généré. Le concept est expliqué dans le document [Ajuster l'heure de naissance à l'heure solaire réelle](/guide/true-solar-time), mais **la valeur du nombre de minutes ajustées dans votre cas** varie d'une personne à l'autre, donc elle est seulement incluse dans le rapport."
           }
         ]
       },
@@ -1227,7 +1227,7 @@ export const FR_DOCS = {
       {
         "blocks": [
           {
-            "p": "Cette section est le **tableau de classement global**. L'écran montre seulement les ensembles qui correspondent bien, mais le rapport classe tous les dix **jours tiges** et les douze **branches terrestres** **complètement**. Si vous ne regardez que les ensembles supérieurs, vous ne saurez pas 'qui vient ensuite' et 'le moins compatible'."
+            "p": "Cette section est le **tableau de classement global**. L'écran montre seulement les ensembles qui correspondent bien, mais le rapport classe les dix tiges célestes et les douze branches terrestres **complètement**. Si vous ne regardez que les ensembles supérieurs, vous ne saurez pas 'qui vient ensuite' et 'le moins compatible'."
           }
         ]
       },

@@ -24,7 +24,7 @@ export const PT_DOCS = {
         "title": "O que calculamos",
         "blocks": [
           {
-            "p": "Os gráficos são construídos a partir do **almanac lunissolar coreano**, e o horário de nascimento é corrigido para **tempo solar verdadeiro** para o local de nascimento — o mesmo horário de relógio significa uma posição do sol diferente dependendo de onde você nasceu."
+            "p": "Os gráficos são construídos a partir do **almanaque lunissolar coreano**, e o horário de nascimento é corrigido para **tempo solar verdadeiro** para o local de nascimento — o mesmo horário de relógio significa uma posição do sol diferente dependendo de onde você nasceu."
           },
           {
             "p": "As pontuações vêm apenas de regras fixas. Conceitos tradicionais — dez deuses, relações entre ramos, o elemento de suporte — são expressos como regras, então **a mesma entrada sempre dá o mesmo resultado.** Quando uma regra muda, executamos um teste de regressão para garantir que leituras mais antigas não foram alteradas."
@@ -59,7 +59,7 @@ export const PT_DOCS = {
   "guide": {
     "eyebrow": "Base de Cálculo",
     "title": "Qual é a Base para o Cálculo?",
-    "summary": "Inyeon-Link revela todas as regras que utiliza. Você pode verificar os itens e seus pesos, as pontuações da tabela de relações entre ramos e os valores de limite que distinguem entre um dia mestre forte e um dia mestre fraco — você pode ver de onde vêm os números na tela.",
+    "summary": "Inyeon-Link revela todas as regras que utiliza. Você pode verificar os itens e seus pesos, as pontuações da tabela de relações entre ramos terrestres e os valores de limite que distinguem entre um tronco do dia forte e um tronco do dia fraco — você pode ver de onde vêm os números na tela.",
     "backLabel": "Voltar ao Início",
     "sections": [
       {
@@ -94,7 +94,7 @@ export const PT_DOCS = {
               "rows": [
                 [
                   "Compatibilidade de Saju",
-                  "Dia do tronco, dia do ramo e os cinco elementos — quatro itens",
+                  "Tronco do dia, ramo do dia e os cinco elementos — quatro itens",
                   "{weightSaju}"
                 ],
                 [
@@ -143,8 +143,8 @@ export const PT_DOCS = {
               ],
               "rows": [
                 [
-                  "Relação do Dia Stem",
-                  "O que os dia stems (日干) das duas pessoas são um para o outro — visto através dos Dez Deuses",
+                  "Relação do Tronco do Dia",
+                  "O que os troncos do dia (日干) das duas pessoas são um para o outro — visto através dos Dez Deuses",
                   "{weightDayMaster}"
                 ],
                 [
@@ -154,19 +154,19 @@ export const PT_DOCS = {
                 ],
                 [
                   "Estrela do Cônjuge",
-                  "O dia stem do parceiro corresponde à minha posição de cônjuge?",
+                  "O tronco do dia do parceiro corresponde à minha posição de cônjuge?",
                   "{weightSpouseStar}"
                 ],
                 [
-                  "Relação do Dia Branch",
-                  "Os dia branches (日支) das duas pessoas são uma combinação ou um choque?",
+                  "Relação do Ramo do Dia",
+                  "Os ramos do dia (日支) das duas pessoas são uma combinação ou um choque?",
                   "{weightDayBranch}"
                 ]
               ]
             }
           },
           {
-            "p": "O dia branch é lido porque a tradição o trata como o **palácio do cônjuge**. Dos quatro pilares, é aquele que aponta para o parceiro, o que faz dele o primeiro lugar que a compatibilidade observa."
+            "p": "O ramo do dia é lido porque a tradição o trata como o **palácio do cônjuge**. Dos quatro pilares, é aquele que aponta para o parceiro, o que faz dele o primeiro lugar que a compatibilidade observa."
           }
         ]
       },
@@ -202,7 +202,7 @@ export const PT_DOCS = {
         "title": "A mesma entrada sempre resultará no mesmo valor",
         "blocks": [
           {
-            "p": "Todas as pontuações são determinadas por regras. Nenhuma inteligência artificial é utilizada, nem números aleatórios são empregados. Portanto, inserir as mesmas duas datas de nascimento várias vezes não resultará em resultados diferentes. Como um serviço que não armazena dados, resultados anteriores não podem ser recuperados, mas **determinismo** compensa isso."
+            "p": "Todas as pontuações são determinadas por regras. Nenhuma inteligência artificial é utilizada, nem números aleatórios são empregados. Portanto, inserir as mesmas duas datas de nascimento várias vezes não resultará em resultados diferentes. Como um serviço que não armazena dados, resultados anteriores não podem ser recuperados, mas o **determinismo** compensa isso."
           }
         ]
       },
@@ -562,7 +562,7 @@ export const PT_DOCS = {
         "title": "A razão para determinar o peso",
         "blocks": [
           {
-            "p": "A compatibilidade zodiacal conta para {weightZodiac} da taxa final de correspondência. Enquanto a compatibilidade do saju analisa todos os quatro pilares, o zodíaco considera apenas um caráter, portanto, não podem ser ponderados igualmente."
+            "p": "A compatibilidade zodiacal conta para {weightZodiac} da taxa final de correspondência. Enquanto a compatibilidade do saju analisa todos os quatro pilares, o zodíaco considera apenas um caractere, portanto, não podem ser ponderados igualmente."
           },
           {
             "p": "No entanto, há duas razões pelas quais não é excluído."
@@ -592,7 +592,7 @@ export const PT_DOCS = {
     "backLabel": "Base de Cálculo",
     "sections": [
       {
-        "title": "O dia do tronco é a própria pessoa",
+        "title": "O tronco do dia é a própria pessoa",
         "blocks": [
           {
             "p": "Entre os oito caracteres do saju, o **tronco do dia** (o tronco celestial do dia de nascimento) refere-se à própria pessoa. Os sete caracteres restantes são lidos como o ambiente em que esse tronco do dia está colocado."
@@ -603,7 +603,7 @@ export const PT_DOCS = {
         ]
       },
       {
-        "title": "O que o tronco do dia de cada pessoa é para os outros",
+        "title": "O que o tronco do dia de cada pessoa é um para o outro",
         "blocks": [
           {
             "p": "Este é o primeiro item na compatibilidade. Uma vez determinado como o tronco do dia de A percebe o tronco do dia de B, a percepção de B sobre A também é determinada, então há **apenas seis possibilidades**."
@@ -707,7 +707,7 @@ export const PT_DOCS = {
             }
           },
           {
-            "p": "Mesmo que sejam o mesmo recurso, apenas a **Riqueza Adequada** emocional é considerada a posição do cônjuge, enquanto o Recurso é lido como a natureza da atividade e da riqueza. Portanto, Riqueza Adequada e Funcionário Adequado contam como 2 pontos, enquanto Recurso e Funcionário contam como 1 ponto, e ambas as direções são somadas — se ambas são vistas como posições de cônjuge, é a mais alta."
+            "p": "Mesmo que sejam o mesmo recurso, apenas a **Riqueza Adequada** emocional é considerada a posição do cônjuge, enquanto o Recurso é lido como a natureza da atividade e da riqueza. Portanto, Riqueza Adequada e Oficial Adequado contam como 2 pontos, enquanto Recurso e Oficial contam como 1 ponto, e ambas as direções são somadas — se ambas são vistas como posições de cônjuge, é a mais alta."
           }
         ]
       },
@@ -724,7 +724,7 @@ export const PT_DOCS = {
         "title": "Também mostramos a forma do relacionamento",
         "blocks": [
           {
-            "p": "Além da pontuação, descrevemos **qual forma** o par de ramos do dia tem na tela de resultados. Se são posições semelhantes, se um lado apoia o outro, ou se um lado é suprimido — se é uma relação de apoio ou supressão, esclarecemos qual lado ocupa essa posição."
+            "p": "Além da pontuação, descrevemos **qual forma** o par de troncos do dia tem na tela de resultados. Se são posições semelhantes, se um lado apoia o outro, ou se um lado é suprimido — se é uma relação de apoio ou supressão, esclarecemos qual lado ocupa essa posição."
           },
           {
             "p": "Se apenas uma pontuação for apresentada, fica a pergunta 'e daí'. A forma não é uma pontuação, mas algo a ser lido, e até mesmo pares com pontuações baixas têm algo a interpretar."
@@ -736,14 +736,14 @@ export const PT_DOCS = {
   "guide/yongsin": {
     "eyebrow": "Os cinco elementos",
     "title": "Elemento de Apoio — A energia necessária agora",
-    "summary": "Vemos os cinco elementos não como 'eles escolheram dois', mas como 'o contraparte tem o que eu preciso'. Também divulgamos o valor limite que distingue um dia mestre forte de um fraco.",
+    "summary": "Vemos os cinco elementos não como 'eles escolheram dois', mas como 'a contraparte tem o que eu preciso'. Também divulgamos o valor limite que distingue um tronco do dia forte de um fraco.",
     "backLabel": "Base de cálculo",
     "sections": [
       {
         "title": "Se os cinco elementos estão 'equilibrados' não é uma questão de compatibilidade",
         "blocks": [
           {
-            "p": "Há um método de medir se as cinco energias estão distribuídas de maneira uniforme, combinando os cinco elementos das duas pessoas. No entanto, a questão da compatibilidade não é essa. **O contraparte tem o que eu preciso?**"
+            "p": "Há um método de medir se as cinco energias estão distribuídas de maneira uniforme, combinando os cinco elementos das duas pessoas. No entanto, a questão da compatibilidade não é essa. **A contraparte tem o que eu preciso?**"
           },
           {
             "p": "O grau de equilíbrio é simétrico, mas a complementaridade é inerentemente assimétrica. Isso porque o que A precisa é diferente do que B precisa. Portanto, medimos cada lado separadamente e fazemos uma média — como é uma média, a pontuação total permanece simétrica."
@@ -754,7 +754,7 @@ export const PT_DOCS = {
         "title": "Elemento de Apoio — Reduzir se excessivo, adicionar se insuficiente",
         "blocks": [
           {
-            "p": "O Elemento de Apoio (用神) é 'a energia que esta pessoa precisa agora'. Existem vários métodos para determiná-lo (supressão, apoio, doença e comunicação), mas pode ser traduzido em regras, e o mais amplamente utilizado é **supressão (抑扶)**. Se o dia mestre é forte, vê-se que a energia a ser reduzida é necessária, e se fraco, a energia a ser adicionada é necessária."
+            "p": "O Elemento de Apoio (用神) é 'a energia que esta pessoa precisa agora'. Existem vários métodos para determiná-lo (supressão, apoio, doença e comunicação), mas pode ser traduzido em regras, e o mais amplamente utilizado é **supressão (抑扶)**. Se o tronco do dia é forte, vê-se que a energia a ser reduzida é necessária, e se fraco, a energia a ser adicionada é necessária."
           },
           {
             "table": {
@@ -765,12 +765,12 @@ export const PT_DOCS = {
               ],
               "rows": [
                 [
-                  "Dia mestre forte (身强)",
+                  "Tronco do dia forte (身强)",
                   "Energia diminuindo — 食傷 (sik-sang) · 財星 (jae-seong) · 官星 (gwan-seong)",
                   "Três"
                 ],
                 [
-                  "Dia mestre fraco (身弱)",
+                  "Tronco do dia fraco (身弱)",
                   "Energia adicionando — 印星 (in-seong) · 比劫 (bi-gyeob)",
                   "Dois"
                 ],
@@ -788,7 +788,7 @@ export const PT_DOCS = {
         "title": "Valores de limite para força e fraqueza",
         "blocks": [
           {
-            "p": "O lado do ramo do dia é **印星 e 比劫** — a energia que me dá vida e a energia que é como eu. Como dois em cinco, se a energia estiver completamente equilibrada, torna-se {evenAllyRatio}. Um intervalo é definido acima e abaixo desse valor."
+            "p": "O lado do tronco do dia é **印星 e 比劫** — a energia que me dá vida e a energia que é como eu. Como dois em cinco, se a energia estiver completamente equilibrada, torna-se {evenAllyRatio}. Um intervalo é definido acima e abaixo desse valor."
           },
           {
             "table": {
@@ -800,7 +800,7 @@ export const PT_DOCS = {
               "rows": [
                 [
                   "{strongThreshold} ou mais",
-                  "Dia mestre forte"
+                  "Tronco do dia forte"
                 ],
                 [
                   "{weakThreshold} ou mais e menos que {strongThreshold}",
@@ -808,7 +808,7 @@ export const PT_DOCS = {
                 ],
                 [
                   "Menos que {weakThreshold}",
-                  "Dia mestre fraco"
+                  "Tronco do dia fraco"
                 ]
               ]
             }
@@ -828,7 +828,7 @@ export const PT_DOCS = {
         "title": "Poder não é o número de caracteres",
         "blocks": [
           {
-            "p": "Ao contar o poder dos cinco elementos, não contamos simplesmente os oito caracteres como aparecem. Usamos um valor que reflete os ramos celestiais ocultos (地藏干) dentro dos ramos terrestres e a estação da energia do mês (月令) em que alguém nasceu."
+            "p": "Ao contar o poder dos cinco elementos, não contamos simplesmente os oito caracteres como aparecem. Usamos um valor que reflete os troncos celestiais ocultos (地藏干) dentro dos ramos terrestres e a estação da energia do mês (月令) em que alguém nasceu."
           },
           {
             "p": "Se contarmos apenas os caracteres superficiais, perdemos o fato de que até mesmo dois caracteres de 木 podem ter forças completamente diferentes dependendo da estação. O 木 da primavera e o 木 do outono, embora sejam o mesmo caractere, têm poderes diferentes."
@@ -891,8 +891,8 @@ export const PT_DOCS = {
               ],
               "rows": [
                 [
-                  "Relação do dia stem · Natureza conjugal",
-                  "Os day stems de ambas as pessoas — heavenly stems",
+                  "Relação do tronco do dia · Natureza conjugal",
+                  "Os troncos do dia de ambas as pessoas — troncos celestiais",
                   "10"
                 ],
                 [
@@ -901,20 +901,20 @@ export const PT_DOCS = {
                   "5"
                 ],
                 [
-                  "Relação do day branch",
-                  "os day branches das duas pessoas",
+                  "Relação do ramo do dia",
+                  "os ramos do dia das duas pessoas",
                   "12"
                 ],
                 [
                   "Relação do zodíaco",
-                  "os year branches das duas pessoas",
+                  "os ramos do ano das duas pessoas",
                   "12"
                 ]
               ]
             }
           },
           {
-            "p": "Como os valores não se trocam entre os itens, **encontrar o ponto mais alto para cada branch será o ponto mais alto geral**. Não há necessidade de verificar todas as combinações de datas de nascimento — apenas definir os dez heavenly stems, doze earthly branches e cinco elementos é suficiente."
+            "p": "Como os valores não se trocam entre os itens, **encontrar o ponto mais alto para cada ramo será o ponto mais alto geral**. Não há necessidade de verificar todas as combinações de datas de nascimento — apenas definir os dez troncos celestiais, doze ramos terrestres e cinco elementos é suficiente."
           }
         ]
       },
@@ -931,10 +931,10 @@ export const PT_DOCS = {
         "title": "Nenhuma pontuação total é fornecida",
         "blocks": [
           {
-            "p": "Esta é a decisão mais importante nesta tela. Coletar as pontuações mais altas para cada branch pode parecer resultar em uma 'combinação perfeita', mas essa pessoa pode **não existir realmente.**"
+            "p": "Esta é a decisão mais importante nesta tela. Coletar as pontuações mais altas para cada ramo pode parecer resultar em uma 'combinação perfeita', mas essa pessoa pode **não existir realmente.**"
           },
           {
-            "p": "Em pessoas reais, o day master e os cinco elementos não operam separadamente. Uma pessoa com 甲木 geralmente tem uma forte energia de 木 também. Este método de contar branches separadamente ignora essa correlação, então o valor obtido ao conectar as pontuações mais altas para cada branch se torna uma combinação que não existe na realidade."
+            "p": "Em pessoas reais, o tronco do dia e os cinco elementos não operam separadamente. Uma pessoa com 甲木 geralmente tem uma forte energia de 木 também. Este método de contar ramos separadamente ignora essa correlação, então o valor obtido ao conectar as pontuações mais altas para cada ramo se torna uma combinação que não existe na realidade."
           },
           {
             "p": "Portanto, a tela exibe apenas **pontuações dos itens** e não fornece uma pontuação total. A pontuação total será calculada ao receber a data de nascimento da outra pessoa para [compatibilidade saju](/compatibility)."
@@ -948,7 +948,7 @@ export const PT_DOCS = {
             "p": "O resultado significa 'se você encontrar uma pessoa desse tipo, este item terá uma pontuação alta'. Não é um critério para escolher uma pessoa, mas sim uma maneira de ler a partir de uma perspectiva de entender a mim mesmo."
           },
           {
-            "p": "As razões pelas quais certos tipos pontuaram alto também são anotadas item por item — se o day master está em uma posição favorável, ou se essa pessoa possui a energia que eu atualmente preciso."
+            "p": "As razões pelas quais certos tipos pontuaram alto também são anotadas item por item — se o tronco do dia está em uma posição favorável, ou se essa pessoa possui a energia que eu atualmente preciso."
           }
         ]
       },
@@ -956,7 +956,7 @@ export const PT_DOCS = {
         "title": "Ferramenta de confirmação",
         "blocks": [
           {
-            "p": "Você pode estar curioso se a pessoa que tem em mente corresponde a esse tipo. Ao inserir a data de nascimento deles na ferramenta de confirmação na tela de resultados, você será informado sobre seu day master, day branch e year branch. Os valores inseridos não são salvos neste momento [(não salvos)](/guide/no-storage)."
+            "p": "Você pode estar curioso se a pessoa que tem em mente corresponde a esse tipo. Ao inserir a data de nascimento deles na ferramenta de confirmação na tela de resultados, você será informado sobre seu tronco do dia, ramo do dia e ramo do ano. Os valores inseridos não são salvos neste momento [(não salvos)](/guide/no-storage)."
           }
         ]
       }
@@ -1192,7 +1192,7 @@ export const PT_DOCS = {
             "p": "As barras dos cinco elementos na tela mostram **quanto está presente**. O relatório adiciona **se o mês de nascimento apoia essa energia**. Mesmo com a mesma quantidade, a energia que é forte (旺) e a energia que está morta (死) têm forças diferentes."
           },
           {
-            "p": "Você pode ver as forças antes e depois de multiplicar pelo lado da energia do mês lado a lado, mostrando quanto a estação a elevou. A **razão de aliados** que distingue entre um dia mestre forte e um dia mestre fraco também é anotada — a tela mostra apenas o julgamento, mas o relatório mostra onde esse julgamento foi feito."
+            "p": "Você pode ver as forças antes e depois de multiplicar pela energia do mês lado a lado, mostrando quanto a estação a elevou. A **razão de aliados** que distingue entre um tronco do dia forte e um tronco do dia fraco também é anotada — a tela mostra apenas o julgamento, mas o relatório mostra onde esse julgamento foi feito."
           }
         ]
       },
@@ -1211,7 +1211,7 @@ export const PT_DOCS = {
         "title": "Página 7 — Como este saju foi calculado",
         "blocks": [
           {
-            "p": "Declara quanto o horário de nascimento foi ajustado para o verdadeiro horário solar, se a correção causou a mudança da data, e quais eram as datas solar e lunar quando o saju foi gerado. O conceito é explicado no documento [Ajustando o horário de nascimento para o verdadeiro horário solar](/guide/true-solar-time), mas **o valor de quantos minutos foram ajustados no seu caso** varia de pessoa para pessoa, então é incluído apenas no relatório."
+            "p": "Declara quanto o horário de nascimento foi ajustado para o tempo solar verdadeiro, se a correção causou a mudança da data, e quais eram as datas solar e lunar quando o saju foi gerado. O conceito é explicado no documento [Ajustando o horário de nascimento para o tempo solar verdadeiro](/guide/true-solar-time), mas **o valor de quantos minutos foram ajustados no seu caso** varia de pessoa para pessoa, então é incluído apenas no relatório."
           }
         ]
       },

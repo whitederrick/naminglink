@@ -130,8 +130,8 @@ export const FIL_DOCS = {
               "hourNote": "Later Years · Usage",
               "stem": "Heavenly Stem",
               "stemNote": "Day Stem = Me",
-              "branch": "Sangay ng Lupa",
-              "branchNote": "Sangay ng Araw = Palasyo ng Asawa"
+              "branch": "Earthly Branch",
+              "branchNote": "Day Branch = Spouse Palace"
             }
           },
           {
@@ -143,30 +143,30 @@ export const FIL_DOCS = {
               ],
               "rows": [
                 [
-                  "Relasyon ng Sangay ng Araw",
-                  "Ano ang relasyon ng mga sangay ng araw (日干) ng dalawang tao sa isa't isa — tiningnan sa pamamagitan ng Sampung Diyos",
+                  "Relasyon ng Day Stem",
+                  "Ano ang relasyon ng mga day stem (日干) ng dalawang tao sa isa't isa — tiningnan sa pamamagitan ng Ten Gods",
                   "{weightDayMaster}"
                 ],
                 [
-                  "Pagkukumplemento ng Limang Elemento",
+                  "Pagkukumplemento ng Five Elements",
                   "Mayroon bang enerhiya ang kapareha na kailangan ko — tiningnan sa pamamagitan ng sumusuportang elemento na kasalukuyang kailangan ng tsart",
                   "{weightElementSupply}"
                 ],
                 [
-                  "Bituin ng Asawa",
-                  "Tumutugma ba ang sangay ng araw ng kapareha sa aking posisyon ng asawa?",
+                  "Spouse Star",
+                  "Tumutugma ba ang day stem ng kapareha sa aking posisyon ng asawa?",
                   "{weightSpouseStar}"
                 ],
                 [
-                  "Relasyon ng Sangay ng Araw",
-                  "Ang mga sangay ng araw (日支) ng dalawang tao ba ay isang kombinasyon o isang salungatan?",
+                  "Relasyon ng Day Branch",
+                  "Ang mga day branch (日支) ng dalawang tao ba ay isang kombinasyon o isang clash?",
                   "{weightDayBranch}"
                 ]
               ]
             }
           },
           {
-            "p": "Ang sangay ng araw ay binabasa dahil ang tradisyon ay itinuturing ito bilang ang **palasyo ng asawa**. Sa apat na haligi, ito ang tumuturo sa kapareha, na ginagawang ito ang unang lugar na tinitingnan para sa pagkakatugma."
+            "p": "Ang day branch ay binabasa dahil ang tradisyon ay itinuturing ito bilang ang **spouse palace**. Sa apat na haligi, ito ang tumuturo sa kapareha, na ginagawang ito ang unang lugar na tinitingnan para sa pagkakatugma."
           }
         ]
       },
@@ -191,10 +191,10 @@ export const FIL_DOCS = {
         "title": "Maaaring gawin ang mga kalkulasyon nang hindi alam ang oras ng kapanganakan",
         "blocks": [
           {
-            "p": "Ang oras ng kapanganakan ay ginagamit upang matukoy ang haligi ng oras. Kung hindi alam, ang mga kalkulasyon ay gagawin nang walang haligi ng oras, at ang katotohanang ito ay ipapakita sa screen ng mga resulta. Dahil walang direktang input para sa haligi ng oras sa apat na item ng pagkakatugma, ang mga halaga ay hindi gaanong magbabago, ngunit ito ay nakakaapekto sa balanse ng limang elemento."
+            "p": "Ang oras ng kapanganakan ay ginagamit upang matukoy ang hour pillar. Kung hindi alam, ang mga kalkulasyon ay gagawin nang walang hour pillar, at ang katotohanang ito ay ipapakita sa screen ng mga resulta. Dahil walang direktang input para sa hour pillar sa apat na item ng pagkakatugma, ang mga halaga ay hindi gaanong magbabago, ngunit ito ay nakakaapekto sa balanse ng five elements."
           },
           {
-            "p": "Kung alam mo ang oras, mangyaring piliin din ang lugar ng kapanganakan. Kung ang pamantayang oras ay naiiba mula sa aktwal na solar na posisyon, ang paggamit nito bilang ito ay maaaring magdulot ng hindi pagkakatugma sa haligi ng oras [(true solar time correction)](/guide/true-solar-time)."
+            "p": "Kung alam mo ang oras, mangyaring piliin din ang lugar ng kapanganakan. Kung ang pamantayang oras ay naiiba mula sa aktwal na solar na posisyon, ang paggamit nito bilang ito ay maaaring magdulot ng hindi pagkakatugma sa hour pillar [(true solar time correction)](/guide/true-solar-time)."
           }
         ]
       },
@@ -202,7 +202,7 @@ export const FIL_DOCS = {
         "title": "Ang parehong input ay palaging magbibigay ng parehong halaga",
         "blocks": [
           {
-            "p": "Ang lahat ng mga iskor ay tinutukoy ng mga patakaran. Walang artipisyal na intelihensiya ang ginagamit, ni walang mga random na numero ang ginagamit. Samakatuwid, ang pagpasok ng parehong dalawang petsa ng kapanganakan nang maraming beses ay hindi magbibigay ng iba't ibang resulta. Bilang isang serbisyo na hindi nag-iimbak ng data, ang mga nakaraang resulta ay hindi maaaring ma-retrieve, ngunit ang **determinismo** ay pumapangalawa dito."
+            "p": "Ang lahat ng mga iskor ay tinutukoy ng mga patakaran. Walang artipisyal na intelihensiya ang ginagamit, ni walang mga random na numero ang ginagamit. Samakatuwid, ang pagpasok ng parehong dalawang petsa ng kapanganakan nang maraming beses ay hindi magbibigay ng iba't ibang resulta. Bilang isang serbisyo na hindi nag-iimbak ng data, ang mga nakaraang resulta ay hindi maaaring ma-retrieve, ngunit binabawi iyon ng **determinismo**."
           }
         ]
       },
@@ -216,7 +216,7 @@ export const FIL_DOCS = {
         ]
       },
       {
-        "title": "Ano ang hindi ito resulta",
+        "title": "Kung ano ang hindi ang resultang ito",
         "blocks": [
           {
             "p": "Ito ay isang **reference material** na kinakalkula mula sa mga patakaran na itinayo sa pananaw ng tradisyon. Hindi ito isang siyentipikong prediksyon, ni isang tiyak na pahayag tungkol sa relasyon ng dalawang indibidwal. Ang saklaw ng iskor ay itinakda sa isang minimum na humigit-kumulang 45 puntos para sa kadahilanang ito — walang kombinasyon ang magbibigay ng halaga na malapit sa 0 puntos."
@@ -586,19 +586,19 @@ export const FIL_DOCS = {
     ]
   },
   "guide/ten-gods": {
-    "eyebrow": "Sampung Diyos",
-    "title": "Sampung Diyos at Posisyon ng Asawa",
-    "summary": "Tinitingnan namin kung ano ang day stem ng bawat tao sa isa't isa sa pamamagitan ng Sampung Diyos. Ipinaliwanag namin kung bakit ang direktang kayamanan at hindi direktang kayamanan ay binabasa nang iba kahit na pareho silang kayamanan.",
+    "eyebrow": "Ten Gods",
+    "title": "Ten Gods at Posisyon ng Asawa",
+    "summary": "Tinitingnan namin kung ano ang day stem ng bawat tao sa isa't isa sa pamamagitan ng Ten Gods. Ipinaliwanag namin kung bakit ang direktang kayamanan at hindi direktang kayamanan ay binabasa nang iba kahit na pareho silang kayamanan.",
     "backLabel": "Batayan ng Kalkulasyon",
     "sections": [
       {
-        "title": "Ang **day stem** ay ang tao mismo",
+        "title": "Ang day stem ay ang tao mismo",
         "blocks": [
           {
             "p": "Sa walong karakter ng saju, ang **day stem** (ang heavenly stem ng araw ng kapanganakan) ay tumutukoy sa tao mismo. Ang natitirang pitong karakter ay binabasa bilang kapaligiran kung saan nakalagay ang day stem na iyon."
           },
           {
-            "p": "**Ten Gods** (the Ten Gods) ay naghahati kung paano nakikita ng day stem ang ibang mga karakter sa sampung kategorya. Ang nag-aalaga sa akin ay **resource** (yaman), ang kapareho ko ay **peer** (kapantay), ang aking nililikha ay **output** (produkto), ang aking kontrolado ay **wealth** (yaman), at ang kumokontrol sa akin ay **authority** (awtoridad) — bawat isa sa limang ito ay nahahati pa sa polaridad, na bumubuo ng sampu."
+            "p": "**Ten Gods** (十神) ay naghahati kung paano nakikita ng day stem ang ibang mga karakter sa sampung kategorya. Ang nag-aalaga sa akin ay **resource** (pinagkukunan), ang kapareho ko ay **peer** (kapantay), ang aking nililikha ay **output** (produkto), ang aking kontrolado ay **wealth** (yaman), at ang kumokontrol sa akin ay **authority** (awtoridad) — bawat isa sa limang ito ay nahahati pa sa polaridad, na bumubuo ng sampu."
           }
         ]
       },
@@ -612,7 +612,7 @@ export const FIL_DOCS = {
             "table": {
               "caption": "Sa pagkakasunod-sunod ng pinakamataas na iskor",
               "head": [
-                "Kambal",
+                "Pares",
                 "Yin/Yang",
                 "Pangalan",
                 "Kahulugan"
@@ -622,7 +622,7 @@ export const FIL_DOCS = {
                   "Direct Wealth ↔ Direct Authority",
                   "Taliwas na polarity",
                   "Mainit na ugnayan (有情)",
-                  "Ito ang kambal na tradisyonal na nakikita bilang posisyon ng asawa. Ang yin at yang ay hindi magkatugma, na umaakit sa isa't isa."
+                  "Ito ang pares na tradisyonal na nakikita bilang posisyon ng asawa. Ang yin at yang ay hindi magkatugma, na umaakit sa isa't isa."
                 ],
                 [
                   "Hurting Officer ↔ Direct Resource",
@@ -675,7 +675,7 @@ export const FIL_DOCS = {
             "p": "May isang paraan ng pagtingin sa relasyon ng day stem sa tatlong elemento (mutual generation, sameness, mutual overcoming). Ito ay simple, ngunit **nawawala ang yin at yang.** 甲 (yang wood) at 乙 (yin wood) ay nagiging parehong 'sameness' tulad ng 甲 at 甲, at ang mutual overcoming ay pinagsasama sa isang solong iskor na walang direksyon o yin at yang."
           },
           {
-            "p": "Ang posisyon ng asawa ay dapat suriin batay sa Ten Gods. Kung ang mga item na tiningnan ng limang elemento at ang mga item na tiningnan ng Ten Gods ay pinagsama sa isang makina, magkakaroon ng dalawang pamantayan para sa parehong dalawang karakter. Samakatuwid, pinagsasama natin gamit ang Ten Gods."
+            "p": "Ang posisyon ng asawa ay dapat suriin batay sa Ten Gods. Kung ang mga item na tiningnan ng five elements at ang mga item na tiningnan ng Ten Gods ay pinagsama sa isang makina, magkakaroon ng dalawang pamantayan para sa parehong dalawang karakter. Samakatuwid, pinagsasama natin gamit ang Ten Gods."
           }
         ]
       },
@@ -707,7 +707,7 @@ export const FIL_DOCS = {
             }
           },
           {
-            "p": "Kahit na pareho silang yaman, tanging ang emosyonal na **Tamang Yaman** ang itinuturing na posisyon ng asawa, habang ang Yaman ay binabasa bilang kalikasan ng aktibidad at yaman. Samakatuwid, ang Tamang Yaman at Tamang Opisyal ay binibilang bilang 2 puntos, habang ang Yaman at Opisyal ay binibilang bilang 1 punto, at ang parehong direksyon ay pinagsasama — kung pareho silang nakikita bilang mga posisyon ng asawa, ito ang pinakamataas."
+            "p": "Kahit na pareho silang resource, tanging ang emosyonal na **Proper Wealth** ang itinuturing na posisyon ng asawa, habang ang Resource ay binabasa bilang kalikasan ng aktibidad at yaman. Samakatuwid, ang Proper Wealth at Proper Officer ay binibilang bilang 2 puntos, habang ang Resource at Officer ay binibilang bilang 1 punto, at ang parehong direksyon ay pinagsasama — kung pareho silang nakikita bilang mga posisyon ng asawa, ito ang pinakamataas."
           }
         ]
       },
@@ -734,16 +734,16 @@ export const FIL_DOCS = {
     ]
   },
   "guide/yongsin": {
-    "eyebrow": "Ang limang elemento",
+    "eyebrow": "Ang five elements",
     "title": "Suportang Elemento — Ang enerhiya na kinakailangan ngayon",
-    "summary": "Tinitingnan namin ang limang elemento hindi bilang 'pumili ba sila ng dalawa' kundi bilang 'mayroon ba ang kapareha ng kailangan ko'. Ipinapahayag din namin ang hangganan na nagtatangi sa isang malakas na day master mula sa isang mahina.",
+    "summary": "Tinitingnan namin ang five elements hindi bilang 'pumili ba sila ng dalawa' kundi bilang 'mayroon ba ang kapareha ng kailangan ko'. Ipinapahayag din namin ang hangganan na nagtatangi sa isang malakas na day master mula sa isang mahina.",
     "backLabel": "Batayan ng pagkalkula",
     "sections": [
       {
-        "title": "Kung ang limang elemento ay 'balanse' ay hindi isang tanong ng pagkakatugma",
+        "title": "Kung ang five elements ay 'balanse' ay hindi isang tanong ng pagkakatugma",
         "blocks": [
           {
-            "p": "Mayroong isang paraan ng pagsukat kung ang limang enerhiya ay pantay na ipinamamahagi sa pamamagitan ng pagsasama ng limang elemento ng dalawang tao. Gayunpaman, ang tanong ng pagkakatugma ay hindi iyon. **Mayroon ba ang kapareha ng kailangan ko?**"
+            "p": "Mayroong isang paraan ng pagsukat kung ang limang enerhiya ay pantay na ipinamamahagi sa pamamagitan ng pagsasama ng five elements ng dalawang tao. Gayunpaman, ang tanong ng pagkakatugma ay hindi iyon. **Mayroon ba ang kapareha ng kailangan ko?**"
           },
           {
             "p": "Ang antas ng balanse ay simetriko, ngunit ang pagkumplemento ay likas na asimetriko. Ito ay dahil ang kailangan ni A ay iba sa kailangan ni B. Samakatuwid, sinusukat namin ang bawat panig nang hiwalay at kinukuha ang average — dahil ito ay isang average, ang kabuuang iskor ay nananatiling simetriko."
@@ -828,7 +828,7 @@ export const FIL_DOCS = {
         "title": "Ang kapangyarihan ay hindi ang bilang ng mga karakter",
         "blocks": [
           {
-            "p": "Kapag binibilang ang kapangyarihan ng limang elemento, hindi lamang namin binibilang ang walong karakter gaya ng kanilang hitsura. Gumagamit kami ng isang halaga na sumasalamin sa nakatagong heavenly stems (地藏干) sa loob ng earthly branches at ang panahon ng enerhiya ng buwan (月令) kung kailan ipinanganak ang isang tao."
+            "p": "Kapag binibilang ang kapangyarihan ng five elements, hindi lamang namin binibilang ang walong karakter gaya ng kanilang hitsura. Gumagamit kami ng isang halaga na sumasalamin sa nakatagong heavenly stems (地藏干) sa loob ng earthly branches at ang panahon ng enerhiya ng buwan (月令) kung kailan ipinanganak ang isang tao."
           },
           {
             "p": "Kung bibilangin lamang namin ang mga surface character, nawawala ang katotohanan na kahit ang dalawang karakter ng 木 ay maaaring magkaroon ng ganap na magkakaibang lakas depende sa panahon. Ang 木 ng tagsibol at ang 木 ng taglagas, kahit na pareho silang karakter, ay may iba't ibang kapangyarihan."
@@ -896,8 +896,8 @@ export const FIL_DOCS = {
                   "10"
                 ],
                 [
-                  "Pagsasaklaw ng limang elemento",
-                  "Ang aking supporting element at ang lakas ng limang elemento ng kalaban",
+                  "Pagsasaklaw ng five elements",
+                  "Ang aking supporting element at ang lakas ng five elements ng kalaban",
                   "5"
                 ],
                 [
@@ -914,7 +914,7 @@ export const FIL_DOCS = {
             }
           },
           {
-            "p": "Dahil ang mga halaga ay hindi nagbabahagi sa pagitan ng mga item, **ang paghahanap ng pinakamataas na punto para sa bawat branch ay magiging kabuuang pinakamataas na punto.** Walang kinakailangang suriin ang lahat ng kumbinasyon ng mga petsa ng kapanganakan — sapat na ang pagtatakda ng sampung heavenly stems, labindalawang earthly branches, at limang elemento."
+            "p": "Dahil ang mga halaga ay hindi nagbabahagi sa pagitan ng mga item, **ang paghahanap ng pinakamataas na punto para sa bawat branch ay magiging kabuuang pinakamataas na punto.** Walang kinakailangang suriin ang lahat ng kumbinasyon ng mga petsa ng kapanganakan — sapat na ang pagtatakda ng sampung heavenly stems, labindalawang earthly branches, at five elements."
           }
         ]
       },
@@ -934,7 +934,7 @@ export const FIL_DOCS = {
             "p": "Ito ang pinakamahalagang desisyon sa screen na ito. Ang pagkuha ng mga pinakamataas na iskor para sa bawat branch ay maaaring mukhang nagbubunga ng 'perpektong tugma', ngunit ang taong iyon ay **maaaring hindi talaga umiiral.**"
           },
           {
-            "p": "Sa mga totoong tao, ang day master at ang limang elemento ay hindi gumagana nang hiwalay. Ang isang tao na may 甲木 ay karaniwang may malakas na 木 energy din. Ang pamamaraang ito ng pagbilang ng mga branch nang hiwalay ay hindi isinasaalang-alang ang ugnayang iyon, kaya ang halaga na nakuha sa pamamagitan ng pagkonekta ng mga pinakamataas na iskor para sa bawat branch ay nagiging kumbinasyon na hindi umiiral sa realidad."
+            "p": "Sa mga totoong tao, ang day master at ang five elements ay hindi gumagana nang hiwalay. Ang isang tao na may 甲木 ay karaniwang may malakas na 木 energy din. Ang pamamaraang ito ng pagbilang ng mga branch nang hiwalay ay hindi isinasaalang-alang ang ugnayang iyon, kaya ang halaga na nakuha sa pamamagitan ng pagkonekta ng mga pinakamataas na iskor para sa bawat branch ay nagiging kumbinasyon na hindi umiiral sa realidad."
           },
           {
             "p": "Samakatuwid, ang screen ay nagpapakita lamang ng **item scores** at hindi nagbibigay ng kabuuang iskor. Ang kabuuang iskor ay kinakalkula sa pamamagitan ng pagtanggap ng petsa ng kapanganakan ng ibang tao para sa [saju compatibility](/compatibility)."

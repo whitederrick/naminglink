@@ -24,7 +24,7 @@ export const TR_DOCS = {
         "title": "Ne hesaplıyoruz",
         "blocks": [
           {
-            "p": "Haritalar, **Kore lunisolar takvimi**'nden oluşturulur ve doğum zamanı, doğum yeri için **gerçek güneş zamanı**'na düzeltilir — aynı saat, nerede doğduğunuza bağlı olarak farklı bir güneş konumu anlamına gelir."
+            "p": "Haritalar, **Kore lunisolar almanağı**'ndan oluşturulur ve doğum zamanı, doğum yeri için **gerçek güneş zamanı**'na düzeltilir — aynı saat, nerede doğduğunuza bağlı olarak farklı bir güneş konumu anlamına gelir."
           },
           {
             "p": "Puanlar yalnızca sabit kurallardan gelir. Geleneksel kavramlar — on tanrı, dal ilişkileri, destekleyici element — kurallar olarak ifade edilir, bu nedenle **aynı girdi her zaman aynı sonucu verir.** Bir kural değiştiğinde, eski okumaların hareket etmediğinden emin olmak için bir regresyon testi yaparız."
@@ -82,7 +82,7 @@ export const TR_DOCS = {
         "title": "İki Eksenin Hesaplanması ve Birleştirilmesi",
         "blocks": [
           {
-            "p": "Eşleşme oranı iki daldan gelir. **Saju uyumluluğu**, her iki bireyin tam saju orijinal haritasına bakarken, **burç uyumluluğu** yalnızca doğum yılından bir yer dalını dikkate alır. Nihai değer, ikisinin ağırlıklı ortalaması alınarak elde edilir."
+            "p": "Eşleşme oranı iki eksenden gelir. **Saju uyumluluğu**, her iki bireyin tam saju orijinal haritasına bakarken, **burç uyumluluğu** yalnızca doğum yılından bir yer dalını dikkate alır. Nihai değer, ikisinin ağırlıklı ortalaması alınarak elde edilir."
           },
           {
             "table": {
@@ -94,7 +94,7 @@ export const TR_DOCS = {
               "rows": [
                 [
                   "Saju Uyumluluğu",
-                  "Gün dalı, gün dalı ve beş element — dört öğe",
+                  "Gün gövdesi, gün dalı ve beş element — dört öğe",
                   "{weightSaju}"
                 ],
                 [
@@ -118,7 +118,7 @@ export const TR_DOCS = {
           },
           {
             "figure": "four-pillars",
-            "caption": "Saju, doğum yılı, ayı, günü ve saati ile ilgili göksel dallar ve yer dallarından oluşan sekiz karakterden oluşur. Aşağıda bahsedilen gün dalı ve gün dalı, gün sütunundaki iki karakterdir.",
+            "caption": "Saju, doğum yılı, ayı, günü ve saati ile ilgili göksel gövdeler ve yer dallarından oluşan sekiz karakterden oluşur. Aşağıda bahsedilen gün gövdesi ve gün dalı, gün sütunundaki iki karakterdir.",
             "labels": {
               "year": "Yıl Sütunu",
               "yearNote": "Kök · Burç",
@@ -128,9 +128,9 @@ export const TR_DOCS = {
               "dayNote": "Ben · Eş Sarayı",
               "hour": "Saat Sütunu",
               "hourNote": "Son Yıllar · Kullanım",
-              "stem": "Göksel Dal",
-              "stemNote": "Gün Dalı = Ben",
-              "branch": "Dünya Dalı",
+              "stem": "Göksel Gövde",
+              "stemNote": "Gün Gövdesi = Ben",
+              "branch": "Yer Dalı",
               "branchNote": "Gün Dalı = Eş Sarayı"
             }
           },
@@ -458,22 +458,22 @@ export const TR_DOCS = {
     ]
   },
   "guide/zodiac": {
-    "eyebrow": "Zodyak",
+    "eyebrow": "Burç",
     "title": "Neden burç uyumu yıl dalını dikkate alıyor?",
-    "summary": "Burç, doğum yılının yerel dalıdır. Bu, burcun takvim yılından ziyade saju yıl sütunundan türediğini açıklar ve burç uyumunun önemini netleştirir.",
+    "summary": "Burç, doğum yılının yer dalıdır. Bu, burcun takvim yılından ziyade saju yıl sütunundan türediğini açıklar ve burç uyumunun önemini netleştirir.",
     "backLabel": "Hesaplama Temeli",
     "sections": [
       {
-        "title": "Burç, doğum yılının yerel dalıdır",
+        "title": "Burç, doğum yılının yer dalıdır",
         "blocks": [
           {
-            "p": "Saju, yıl, ay, gün ve saat olmak üzere dört sütundan oluşur ve her sütun bir göksel dal ve bir yerel dal içerir. **Yıl dalı**, burç işareti olarak adlandırdığımız hayvanı taşıyan dalıdır."
+            "p": "Saju, yıl, ay, gün ve saat olmak üzere dört sütundan oluşur ve her sütun bir göksel gövde ve bir yer dalı içerir. **Yıl dalı**, burç işareti olarak adlandırdığımız hayvanı taşıyan dalıdır."
           },
           {
             "table": {
-              "caption": "On İki Yerel Dal ve Burç",
+              "caption": "On İki Yer Dalı ve Burç",
               "head": [
-                "Yerel Dal",
+                "Yer Dalı",
                 "Burç"
               ],
               "rows": [
@@ -588,25 +588,25 @@ export const TR_DOCS = {
   "guide/ten-gods": {
     "eyebrow": "On Tanrı",
     "title": "On Tanrı ve Eş Pozisyonu",
-    "summary": "Her kişinin gün dalının birbirine göre ne olduğunu On Tanrılar aracılığıyla inceliyoruz. Doğrudan zenginlik ve dolaylı zenginliğin neden farklı okunduğunu açıklıyoruz, her ikisi de zenginlik olmasına rağmen.",
+    "summary": "Her kişinin gün gövdesinin birbirine göre ne olduğunu On Tanrılar aracılığıyla inceliyoruz. Doğrudan zenginlik ve dolaylı zenginliğin neden farklı okunduğunu açıklıyoruz, her ikisi de zenginlik olmasına rağmen.",
     "backLabel": "Hesaplama Temeli",
     "sections": [
       {
-        "title": "Gün dalı, kişinin kendisidir",
+        "title": "Gün gövdesi, kişinin kendisidir",
         "blocks": [
           {
-            "p": "Saju'nun sekiz karakteri arasında, **gün dalı** (doğum gününün göksel dalı) kişinin kendisini ifade eder. Kalan yedi karakter, o gün dalının yerleştirildiği çevreyi okumaktadır."
+            "p": "Saju'nun sekiz karakteri arasında, **gün gövdesi** (doğum gününün göksel gövdesi) kişinin kendisini ifade eder. Kalan yedi karakter, o gün gövdesinin yerleştirildiği çevreyi okumaktadır."
           },
           {
-            "p": "**On Tanrı** (十神), gün dalının diğer karakterleri nasıl algıladığını on kategoriye ayırır. Beni besleyen **kaynak**, benimle aynı olan **eş**, ürettiğim **çıktı**, kontrol ettiğim **zenginlik** ve beni kontrol eden **otorite**dir — bu beş, kutuplulukla ayrılır ve on olur."
+            "p": "**On Tanrı** (十神), gün gövdesinin diğer karakterleri nasıl algıladığını on kategoriye ayırır. Beni besleyen **kaynak**, benimle aynı olan **eş**, ürettiğim **çıktı**, kontrol ettiğim **zenginlik** ve beni kontrol eden **otorite**dir — bu beş, kutuplulukla ayrılır ve on olur."
           }
         ]
       },
       {
-        "title": "Her kişinin gün dalı birbirine göre nedir",
+        "title": "Her kişinin gün gövdesi birbirine göre nedir",
         "blocks": [
           {
-            "p": "Bu, uyumluluğun ilk maddesidir. A'nın gün dalının B'nin gün dalını nasıl algıladığı belirlendikten sonra, B'nin A'yı algılaması da belirlenir, bu nedenle **sadece altı olasılık vardır**."
+            "p": "Bu, uyumluluğun ilk maddesidir. A'nın gün gövdesinin B'nin gün gövdesini nasıl algıladığı belirlendikten sonra, B'nin A'yı algılaması da belirlenir, bu nedenle **sadece altı olasılık vardır**."
           },
           {
             "table": {
@@ -664,7 +664,7 @@ export const TR_DOCS = {
         "title": "Yin ve Yang bir kavşakta",
         "blocks": [
           {
-            "p": "Yin ve yangın uyumsuz olduğu taraf (Doğru Zenginlik, Doğru Memur, Doğru Arkadaş) duygusaldır, aynı taraf (Kaynak, Memur, Arkadaş) ise duygusuzdur, bu da On Tanrı'nın doğru ve yan tarafını ayıran ilkedir."
+            "p": "Yin ile yang'ın uyumsuz olduğu taraf (Doğru Zenginlik, Doğru Memur, Doğru Arkadaş) duygusaldır, aynı taraf (Kaynak, Memur, Arkadaş) ise duygusuzdur, bu da On Tanrı'nın doğru ve yan tarafını ayıran ilkedir."
           }
         ]
       },
@@ -672,7 +672,7 @@ export const TR_DOCS = {
         "title": "Üç element yerine On Tanrılarla bakmanın nedeni",
         "blocks": [
           {
-            "p": "Gün dalının üç elementle olan ilişkisini görmenin bir yöntemi vardır (karşılıklı üretim, benzerlik, karşılıklı aşma). Bu basittir, ancak **yin ve yang kaybolur.** 甲 (yang ağaç) ve 乙 (yin ağaç) aynı 'benzerlik' haline gelir, 甲 ve 甲 gibi, karşılıklı aşma tek bir puana sıkıştırılır, yönsüz veya yin ve yang olmadan."
+            "p": "Gün gövdesinin üç elementle olan ilişkisini görmenin bir yöntemi vardır (karşılıklı üretim, benzerlik, karşılıklı aşma). Bu basittir, ancak **yin ve yang kaybolur.** 甲 (yang ağaç) ve 乙 (yin ağaç) aynı 'benzerlik' haline gelir, 甲 ve 甲 gibi, karşılıklı aşma tek bir puana sıkıştırılır, yönsüz veya yin ve yang olmadan."
           },
           {
             "p": "Eş pozisyonu On Tanrılar açısından değerlendirilmelidir. Beş element tarafından görülen öğeler ile On Tanrılar tarafından görülen öğeler bir motor içinde karıştırılırsa, aynı iki karakter için iki standart olacaktır. Bu nedenle, On Tanrılar ile birleştiriyoruz."
@@ -724,7 +724,7 @@ export const TR_DOCS = {
         "title": "İlişkinin şeklini de gösteriyoruz",
         "blocks": [
           {
-            "p": "Puanın yanı sıra, sonuç ekranında gün dalı çiftinin **hangi şekli** olduğunu tanımlıyoruz. Benzer pozisyonlar mı, bir taraf diğerini mi destekliyor, yoksa bir taraf mı baskı altında — destekleyici veya baskılayıcı bir ilişki olup olmadığını belirtiriz ve hangi tarafın o pozisyonda olduğunu netleştiririz."
+            "p": "Puanın yanı sıra, sonuç ekranında gün gövdesi çiftinin **hangi şekli** olduğunu tanımlıyoruz. Benzer pozisyonlar mı, bir taraf diğerini mi destekliyor, yoksa bir taraf mı baskı altında — destekleyici veya baskılayıcı bir ilişki olup olmadığını belirtiriz ve hangi tarafın o pozisyonda olduğunu netleştiririz."
           },
           {
             "p": "Eğer yalnızca bir puan sunulursa, 'peki ne olacak' sorusunu bırakır. Şekil bir puan değil, okunacak bir şeydir ve düşük puanlı çiftlerin bile yorumlanacak bir şeyi vardır."
@@ -788,7 +788,7 @@ export const TR_DOCS = {
         "title": "Güç ve zayıflık için eşik değerleri",
         "blocks": [
           {
-            "p": "Gün dalı tarafı **印星 ve 比劫** — bana hayat veren enerji ve benimle benzer enerji. Beşten iki olduğu için, enerji tamamen dengelendiğinde, {evenAllyRatio} olur. Bu değerin üstünde ve altında bir aralık belirlenir."
+            "p": "Gün gövdesi tarafı **印星 ve 比劫** — bana hayat veren enerji ve benimle benzer enerji. Beşten iki olduğu için, enerji tamamen dengelendiğinde, {evenAllyRatio} olur. Bu değerin üstünde ve altında bir aralık belirlenir."
           },
           {
             "table": {
@@ -828,7 +828,7 @@ export const TR_DOCS = {
         "title": "Güç, karakter sayısı değildir",
         "blocks": [
           {
-            "p": "Beş elementin gücünü hesaplarken, yalnızca sekiz karakteri göründükleri gibi saymayız. Doğal dalların içinde gizli olan göksel dalları (地藏干) ve doğduğunuz ayın enerji mevsimini (月令) yansıtan bir değer kullanırız."
+            "p": "Beş elementin gücünü hesaplarken, yalnızca sekiz karakteri göründükleri gibi saymayız. Yer dallarının içinde gizli olan göksel gövdeleri (地藏干) ve doğduğunuz ayın enerji mevsimini (月令) yansıtan bir değer kullanırız."
           },
           {
             "p": "Yüzey karakterlerini yalnızca sayarsak, iki karakterin de 木 olmasının mevsime bağlı olarak tamamen farklı güçlere sahip olabileceğini gözden kaçırırız. İlkbaharın 木 'ı ile sonbaharın 木 'ı, aynı karakter olmalarına rağmen farklı güçlere sahiptir."
@@ -862,17 +862,17 @@ export const TR_DOCS = {
   "guide/affinity": {
     "eyebrow": "Standartlarımız",
     "title": "Inyeon’in Eşleşmesi — Toplam puan vermeme nedeni",
-    "summary": "Bir kişinin verilerini alırken rakip pozisyonunu boş bırakıyoruz ve o pozisyona girebilecek tüm olası değerleri bu pozisyona yerleştiriyoruz. Bu şekilde elde edilen tür için toplam puan eklememe nedenini açıklıyoruz.",
+    "summary": "Bir kişinin verilerini alırken karşı tarafın pozisyonunu boş bırakıyoruz ve o pozisyona girebilecek tüm olası değerleri bu pozisyona yerleştiriyoruz. Bu şekilde elde edilen tür için toplam puan eklememe nedenini açıklıyoruz.",
     "backLabel": "Hesaplama temeli",
     "sections": [
       {
-        "title": "Rakip pozisyonunu boş bırakırken hesaplamalar yapılır",
+        "title": "Karşı tarafın pozisyonunu boş bırakırken hesaplamalar yapılır",
         "blocks": [
           {
-            "p": "Uyumluluk puanları iki kişinin eşleştirilmesiyle hesaplanır. **Inyeon’in Eşleşmesi** yalnızca bir kişinin verilerini alırken rakip pozisyonunu boş bırakır ve o pozisyona girebilecek tüm olası değerleri test eder. Bu, uyumluluk motorunu tersine çalıştırmak gibidir."
+            "p": "Uyumluluk puanları iki kişinin eşleştirilmesiyle hesaplanır. **Inyeon’in Eşleşmesi** yalnızca bir kişinin verilerini alırken karşı tarafın pozisyonunu boş bırakır ve o pozisyona girebilecek tüm olası değerleri test eder. Bu, uyumluluk motorunu tersine çalıştırmak gibidir."
           },
           {
-            "p": "Bu nedenle, rakibin doğum tarihini bilmek gerekli değildir. Henüz tanışmadığımız biri hakkında, 'Benim için hangi tür eşleşme profili uygundur?' diyebiliriz."
+            "p": "Bu nedenle, karşı tarafın doğum tarihini bilmek gerekli değildir. Henüz tanışmadığımız biri hakkında, 'Benim için hangi tür eşleşme profili uygundur?' diyebiliriz."
           }
         ]
       },
@@ -891,13 +891,13 @@ export const TR_DOCS = {
               ],
               "rows": [
                 [
-                  "Gün dalı ilişkisi · Eşsel doğa",
-                  "Her iki kişinin gün dalları — göksel dallar",
+                  "Gün gövdesi ilişkisi · Eşsel doğa",
+                  "Her iki kişinin gün gövdeleri — göksel gövdeler",
                   "10"
                 ],
                 [
                   "Beş element tamamlama",
-                  "Benim destekleyici elementim ve rakibin beş element gücü",
+                  "Benim destekleyici elementim ve karşı tarafın beş element gücü",
                   "5"
                 ],
                 [
@@ -906,7 +906,7 @@ export const TR_DOCS = {
                   "12"
                 ],
                 [
-                  "zodyak ilişkisi",
+                  "burç ilişkisi",
                   "iki kişinin yıl dalları",
                   "12"
                 ]
@@ -914,7 +914,7 @@ export const TR_DOCS = {
             }
           },
           {
-            "p": "Değerler öğeler arasında değişim yapmadığı için, **her dal için en yüksek noktayı bulmak genel en yüksek nokta olacaktır.** Doğum tarihinin tüm kombinasyonlarını kontrol etmeye gerek yoktur — sadece on göksel dalı, on iki yerel dalı ve beş elementi ayarlamak yeterlidir."
+            "p": "Değerler öğeler arasında değişim yapmadığı için, **her dal için en yüksek noktayı bulmak genel en yüksek nokta olacaktır.** Doğum tarihinin tüm kombinasyonlarını kontrol etmeye gerek yoktur — sadece on göksel gövdeyi, on iki yer dalını ve beş elementi ayarlamak yeterlidir."
           }
         ]
       },
@@ -1200,7 +1200,7 @@ export const TR_DOCS = {
         "title": "Sayfa 6 — Diğer kişinin dört sütunu benim için ne anlama geliyor",
         "blocks": [
           {
-            "p": "Eşleşme oranı yalnızca her iki bireyin **gün dallarını** karşılaştırır. Ancak, diğer kişinin kalan üç sütunu da Ten Gods tarafından aynı kurallara göre belirlenir. Sadece gün dalına bakarak **bu kişinin benim için ne anlama geldiğini** anlayabilirsiniz, ancak **o kişinin benim için ne pozisyonda olduğunu** bilemezsiniz."
+            "p": "Eşleşme oranı yalnızca her iki bireyin **gün gövdelerini** karşılaştırır. Ancak, diğer kişinin kalan üç sütunu da On Tanrı tarafından aynı kurallara göre belirlenir. Sadece gün gövdesine bakarak **bu kişinin benim için ne anlama geldiğini** anlayabilirsiniz, ancak **o kişinin benim için ne pozisyonda olduğunu** bilemezsiniz."
           },
           {
             "p": "Yönler olduğundan, her iki taraf ayrı ayrı sunulmaktadır. Benim gördüğüm ve diğerinin gördüğü farklıdır."
@@ -1227,7 +1227,7 @@ export const TR_DOCS = {
       {
         "blocks": [
           {
-            "p": "Bu bölüm **genel sıralama tablosudur**. Ekran yalnızca iyi eşleşen setleri gösterir, ancak rapor on tane göksel dalı ve on iki yer dalını **tamamen** sıralar. Sadece en üst setlere bakarsanız, 'sonraki kim' ve 'en az uyumlu olan hangisi' hakkında bilgi sahibi olamazsınız."
+            "p": "Bu bölüm **genel sıralama tablosudur**. Ekran yalnızca iyi eşleşen setleri gösterir, ancak rapor on göksel gövdeyi ve on iki yer dalını **tamamen** sıralar. Sadece en üst setlere bakarsanız, 'sonraki kim' ve 'en az uyumlu olan hangisi' hakkında bilgi sahibi olamazsınız."
           }
         ]
       },

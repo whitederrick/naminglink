@@ -16,7 +16,7 @@ export const VI_DOCS = {
             "p": "Inyeon-Link xây dựng hai biểu đồ sinh từ ngày tháng và giờ sinh và cho thấy **cách hai tập hợp năng lượng gặp nhau.** Bạn cũng có thể đọc biểu đồ của riêng mình và xem những tính cách nào thường phù hợp với bạn."
           },
           {
-            "p": "Đọc trên màn hình là **miễn phí và không cần tài khoản.** Các mục trả phí là báo cáo PDF chứa các số liệu mà màn hình không bao giờ hiển thị — sức mạnh của các yếu tố, sự kết hợp của mười vị thần và các mối quan hệ giữa tất cả bốn trụ cột."
+            "p": "Đọc trên màn hình là **miễn phí và không cần tài khoản.** Các mục trả phí là báo cáo PDF chứa các số liệu mà màn hình không bao giờ hiển thị — sức mạnh của các yếu tố, sự kết hợp của Mười Thần và các mối quan hệ giữa tất cả bốn trụ cột."
           }
         ]
       },
@@ -24,10 +24,10 @@ export const VI_DOCS = {
         "title": "Chúng tôi tính toán gì",
         "blocks": [
           {
-            "p": "Các biểu đồ được xây dựng từ **lịch âm dương Hàn Quốc**, và thời gian sinh được điều chỉnh theo **thời gian mặt trời thực** cho nơi sinh — cùng một thời gian đồng hồ có nghĩa là vị trí mặt trời khác nhau tùy thuộc vào nơi bạn sinh ra."
+            "p": "Các biểu đồ được xây dựng từ **lịch vạn niên âm dương Hàn Quốc**, và thời gian sinh được điều chỉnh theo **giờ mặt trời thực** cho nơi sinh — cùng một thời gian đồng hồ có nghĩa là vị trí mặt trời khác nhau tùy thuộc vào nơi bạn sinh ra."
           },
           {
-            "p": "Điểm số đến từ các quy tắc cố định. Các khái niệm truyền thống — mười vị thần, quan hệ nhánh, yếu tố hỗ trợ — được thể hiện dưới dạng quy tắc, vì vậy **cùng một đầu vào luôn cho cùng một kết quả.** Khi một quy tắc thay đổi, chúng tôi chạy một hệ thống hồi quy để đảm bảo rằng các đọc cũ không bị thay đổi."
+            "p": "Điểm số đến từ các quy tắc cố định. Các khái niệm truyền thống — Mười Thần, quan hệ nhánh, yếu tố hỗ trợ — được thể hiện dưới dạng quy tắc, vì vậy **cùng một đầu vào luôn cho cùng một kết quả.** Khi một quy tắc thay đổi, chúng tôi chạy một hệ thống hồi quy để đảm bảo rằng các đọc cũ không bị thay đổi."
           },
           {
             "p": "**Không có AI tham gia.** Mỗi câu trên màn hình là văn bản cố định gắn liền với một kết quả đã tính toán."
@@ -59,7 +59,7 @@ export const VI_DOCS = {
   "guide": {
     "eyebrow": "Cơ sở Tính toán",
     "title": "Cơ sở nào cho Tính toán?",
-    "summary": "Inyeon-Link tiết lộ tất cả các quy tắc mà nó sử dụng. Bạn có thể kiểm tra các mục và trọng số của chúng, các điểm số từ bảng quan hệ nhánh đất, và các giá trị ngưỡng phân biệt giữa một ngày chủ mạnh và một ngày chủ yếu — bạn có thể thấy các con số trên màn hình đến từ đâu.",
+    "summary": "Inyeon-Link tiết lộ tất cả các quy tắc mà nó sử dụng. Bạn có thể kiểm tra các mục và trọng số của chúng, các điểm số từ bảng quan hệ nhánh đất, và các giá trị ngưỡng phân biệt giữa một thiên can ngày mạnh và một thiên can ngày yếu — bạn có thể thấy các con số trên màn hình đến từ đâu.",
     "backLabel": "Quay lại Bắt đầu",
     "sections": [
       {
@@ -74,7 +74,7 @@ export const VI_DOCS = {
   },
   "guide/how-compatibility": {
     "eyebrow": "Cơ sở Dịch vụ",
-    "title": "Saju Compatibility Nhìn vào Điều Gì?",
+    "title": "Tương hợp Saju Nhìn vào Điều Gì?",
     "summary": "Nó làm rõ bốn mục và trọng số tương ứng của chúng, và giải thích lý do tại sao bốn mục đó được chọn. Nó cũng đề cập đến lý do tại sao có thể thực hiện các phép tính ngay cả khi không biết thời gian sinh.",
     "backLabel": "Cơ sở Tính toán",
     "sections": [
@@ -82,7 +82,7 @@ export const VI_DOCS = {
         "title": "Tính toán và Kết hợp Hai Trục",
         "blocks": [
           {
-            "p": "Tỷ lệ khớp đến từ hai nhánh. **Saju compatibility** nhìn vào toàn bộ biểu đồ saju gốc của cả hai cá nhân, trong khi **zodiac compatibility** chỉ xem xét một nhánh đất từ năm sinh. Giá trị cuối cùng được thu được bằng cách tính trung bình trọng số của hai."
+            "p": "Tỷ lệ khớp đến từ hai nhánh. **Tương hợp saju** nhìn vào toàn bộ biểu đồ saju gốc của cả hai cá nhân, trong khi **tương hợp con giáp** chỉ xem xét một nhánh đất từ năm sinh. Giá trị cuối cùng được thu được bằng cách tính trung bình trọng số của hai."
           },
           {
             "table": {
@@ -93,12 +93,12 @@ export const VI_DOCS = {
               ],
               "rows": [
                 [
-                  "Saju Compatibility",
-                  "Ngày chủ, nhánh ngày, và năm yếu tố — bốn mục",
+                  "Tương hợp Saju",
+                  "Thiên can ngày, nhánh ngày, và ngũ hành — bốn mục",
                   "{weightSaju}"
                 ],
                 [
-                  "Zodiac Compatibility",
+                  "Tương hợp Con Giáp",
                   "Mối quan hệ giữa các nhánh năm",
                   "{weightZodiac}"
                 ]
@@ -106,22 +106,22 @@ export const VI_DOCS = {
             }
           },
           {
-            "p": "Phía saju nặng hơn nhiều vì lượng thông tin được sử dụng là khác nhau. Saju xem xét tất cả bốn trụ cột, trong khi cung hoàng đạo chỉ nhìn vào một ký tự. Tuy nhiên, cung hoàng đạo không bị loại trừ vì hai lý do — đó là mục dễ hiểu nhất về mặt trực quan, và đó là **trục duy nhất có giá trị không dao động ngay cả khi không biết thời gian sinh.**"
+            "p": "Phía saju nặng hơn nhiều vì lượng thông tin được sử dụng là khác nhau. Saju xem xét tất cả bốn trụ cột, trong khi con giáp chỉ nhìn vào một ký tự. Tuy nhiên, con giáp không bị loại trừ vì hai lý do — đó là mục dễ hiểu nhất về mặt trực quan, và đó là **trục duy nhất có giá trị không dao động ngay cả khi không biết thời gian sinh.**"
           }
         ]
       },
       {
-        "title": "Bốn Mục của Saju Compatibility",
+        "title": "Bốn Mục của Tương hợp Saju",
         "blocks": [
           {
             "p": "Phía saju được chia thành bốn. Mỗi mục được chọn để đảm bảo rằng những gì họ xem xét không chồng chéo."
           },
           {
             "figure": "four-pillars",
-            "caption": "Saju bao gồm tám ký tự được hình thành bởi các thiên can và địa chi của năm, tháng, ngày và giờ sinh. Ngày can và ngày chi được đề cập dưới đây là hai ký tự trong trụ ngày.",
+            "caption": "Saju bao gồm tám ký tự được hình thành bởi các thiên can và nhánh đất của năm, tháng, ngày và giờ sinh. Thiên can ngày và nhánh ngày được đề cập dưới đây là hai ký tự trong trụ ngày.",
             "labels": {
               "year": "Trụ Năm",
-              "yearNote": "Gốc · Cung Hoàng Đạo",
+              "yearNote": "Gốc · Con Giáp",
               "month": "Trụ Tháng",
               "monthNote": "Mùa · Sức Mạnh",
               "day": "Trụ Ngày",
@@ -129,8 +129,8 @@ export const VI_DOCS = {
               "hour": "Trụ Giờ",
               "hourNote": "Năm Cuối · Sử Dụng",
               "stem": "Thiên Can",
-              "stemNote": "Ngày Can = Tôi",
-              "branch": "Nhánh Địa",
+              "stemNote": "Thiên Can Ngày = Tôi",
+              "branch": "Nhánh Đất",
               "branchNote": "Nhánh Ngày = Cung Vợ"
             }
           },
@@ -143,30 +143,30 @@ export const VI_DOCS = {
               ],
               "rows": [
                 [
-                  "Mối Quan Hệ Nhánh Ngày",
-                  "Những gì mà hai nhánh ngày (日干) của người đó là với nhau — được xem qua Mười Thần",
+                  "Mối Quan Hệ Thiên Can Ngày",
+                  "Những gì mà hai thiên can ngày (日干) của hai người là với nhau — được xem qua Mười Thần",
                   "{weightDayMaster}"
                 ],
                 [
-                  "Sự Bổ Sung của Năm Nguyên Tố",
+                  "Sự Bổ Sung của Ngũ Hành",
                   "Người bạn đời có năng lượng mà tôi cần không — được xem qua yếu tố hỗ trợ mà biểu đồ hiện tại cần",
                   "{weightElementSupply}"
                 ],
                 [
-                  "Ngôi Sao Vợ",
-                  "Nhánh ngày của đối tác có tương ứng với vị trí vợ của tôi không?",
+                  "Sao Vợ",
+                  "Thiên can ngày của đối tác có tương ứng với vị trí vợ của tôi không?",
                   "{weightSpouseStar}"
                 ],
                 [
                   "Mối Quan Hệ Nhánh Ngày",
-                  "Hai nhánh ngày (日支) của hai người có phải là sự kết hợp hay xung đột không?",
+                  "Hai nhánh ngày (日支) của hai người có phải là hợp hay xung không?",
                   "{weightDayBranch}"
                 ]
               ]
             }
           },
           {
-            "p": "Nhánh ngày được đọc vì truyền thống coi nó như là **cung vợ**. Trong bốn trụ, nó là cái chỉ về đối tác, điều này khiến nó trở thành nơi đầu tiên mà sự tương thích được xem xét."
+            "p": "Nhánh ngày được đọc vì truyền thống coi nó như là **cung vợ**. Trong bốn trụ, nó là cái chỉ về đối tác, điều này khiến nó trở thành nơi đầu tiên mà sự tương hợp được xem xét."
           }
         ]
       },
@@ -191,10 +191,10 @@ export const VI_DOCS = {
         "title": "Các phép tính có thể được thực hiện mà không cần biết thời gian sinh",
         "blocks": [
           {
-            "p": "Thời gian sinh được sử dụng để xác định trụ giờ. Nếu không biết, các phép tính sẽ được thực hiện mà không có trụ giờ, và điều này sẽ được chỉ ra trên màn hình kết quả. Vì không có đầu vào trực tiếp cho trụ giờ trong bốn mục tương thích, các giá trị sẽ không dao động đáng kể, nhưng nó ảnh hưởng đến sự cân bằng của năm nguyên tố."
+            "p": "Thời gian sinh được sử dụng để xác định trụ giờ. Nếu không biết, các phép tính sẽ được thực hiện mà không có trụ giờ, và điều này sẽ được chỉ ra trên màn hình kết quả. Vì không có đầu vào trực tiếp cho trụ giờ trong bốn mục tương hợp, các giá trị sẽ không dao động đáng kể, nhưng nó ảnh hưởng đến sự cân bằng của ngũ hành."
           },
           {
-            "p": "Nếu bạn biết thời gian, vui lòng cũng chọn nơi sinh. Nếu thời gian chuẩn khác với vị trí mặt trời thực tế, việc sử dụng nó như vậy có thể làm lệch trụ giờ [(sửa đổi thời gian mặt trời thực)](/guide/true-solar-time)."
+            "p": "Nếu bạn biết thời gian, vui lòng cũng chọn nơi sinh. Nếu thời gian chuẩn khác với vị trí mặt trời thực tế, việc sử dụng nó như vậy có thể làm lệch trụ giờ [(hiệu chỉnh giờ mặt trời thực)](/guide/true-solar-time)."
           }
         ]
       },
@@ -202,7 +202,7 @@ export const VI_DOCS = {
         "title": "Cùng một đầu vào sẽ luôn tạo ra cùng một giá trị",
         "blocks": [
           {
-            "p": "Tất cả điểm số được xác định bởi các quy tắc. Không có trí tuệ nhân tạo nào được sử dụng, cũng như không có số ngẫu nhiên nào được áp dụng. Do đó, việc nhập cùng một hai ngày sinh nhiều lần sẽ không tạo ra kết quả khác nhau. Là một dịch vụ không lưu trữ dữ liệu, các kết quả trước đó không thể được truy xuất, nhưng **định tính** bù đắp cho điều đó."
+            "p": "Tất cả điểm số được xác định bởi các quy tắc. Không có trí tuệ nhân tạo nào được sử dụng, cũng như không có số ngẫu nhiên nào được áp dụng. Do đó, việc nhập cùng hai ngày sinh nhiều lần sẽ không tạo ra kết quả khác nhau. Là một dịch vụ không lưu trữ dữ liệu, các kết quả trước đó không thể được truy xuất, nhưng **tính xác định** bù đắp cho điều đó."
           }
         ]
       },
@@ -458,23 +458,23 @@ export const VI_DOCS = {
     ]
   },
   "guide/zodiac": {
-    "eyebrow": "Cung hoàng đạo",
-    "title": "Tại sao sự tương thích của cung hoàng đạo lại xem xét nhánh năm?",
-    "summary": "Cung hoàng đạo là nhánh đất của năm sinh. Điều này giải thích tại sao nó được lấy từ trụ năm của saju thay vì năm dương lịch, và làm rõ ý nghĩa của sự tương thích cung hoàng đạo.",
+    "eyebrow": "Con giáp",
+    "title": "Tại sao sự tương hợp của con giáp lại xem xét nhánh năm?",
+    "summary": "Con giáp là nhánh đất của năm sinh. Điều này giải thích tại sao nó được lấy từ trụ năm của saju thay vì năm dương lịch, và làm rõ ý nghĩa của sự tương hợp con giáp.",
     "backLabel": "Cơ sở Tính toán",
     "sections": [
       {
-        "title": "Cung hoàng đạo là nhánh đất của năm sinh",
+        "title": "Con giáp là nhánh đất của năm sinh",
         "blocks": [
           {
-            "p": "Saju bao gồm bốn trụ: năm, tháng, ngày và giờ, với mỗi trụ chứa một thiên can và một địa chi. **Nhánh năm** là nhánh mang con vật mà chúng ta gọi là cung hoàng đạo."
+            "p": "Saju bao gồm bốn trụ: năm, tháng, ngày và giờ, với mỗi trụ chứa một thiên can và một nhánh đất. **Nhánh năm** là nhánh mang con vật mà chúng ta gọi là con giáp."
           },
           {
             "table": {
-              "caption": "Mười Hai Nhánh Đất và Cung Hoàng Đạo",
+              "caption": "Mười Hai Nhánh Đất và Con Giáp",
               "head": [
                 "Nhánh Đất",
-                "Cung Hoàng Đạo"
+                "Con Giáp"
               ],
               "rows": [
                 [
@@ -534,27 +534,27 @@ export const VI_DOCS = {
         "title": "Chúng tôi sử dụng năm của saju, không phải năm dương lịch",
         "blocks": [
           {
-            "p": "Thời điểm mà cung hoàng đạo thay đổi không phải là ngày 1 tháng 1 của dương lịch hay Tết Nguyên Đán. Tiêu chuẩn để thay đổi năm trong saju là **Ipchun**. Do đó, những người sinh vào tháng 1 hoặc đầu tháng 2 có thể có năm cung hoàng đạo khác với năm trên lịch."
+            "p": "Thời điểm mà con giáp thay đổi không phải là ngày 1 tháng Một của dương lịch hay Tết Nguyên Đán. Tiêu chuẩn để thay đổi năm trong saju là **Ipchun**. Do đó, những người sinh vào tháng Một hoặc đầu tháng Hai có thể có năm con giáp khác với năm trên lịch."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Lý do chúng tôi không hỏi trực tiếp về cung hoàng đạo",
+        "title": "Lý do chúng tôi không hỏi trực tiếp về con giáp",
         "blocks": [
           {
-            "p": "Đó là lý do tại sao chúng tôi chỉ thu thập ngày sinh mà không hỏi về cung hoàng đạo trên màn hình nhập liệu. Khi động cơ saju tính toán nhánh năm, ranh giới của Ipchun được điều chỉnh tự động. Nếu bạn chọn trực tiếp, người sinh vào đầu tháng 2 có thể chọn một cung hoàng đạo không khớp với cung hoàng đạo thực tế của họ."
+            "p": "Đó là lý do tại sao chúng tôi chỉ thu thập ngày sinh mà không hỏi về con giáp trên màn hình nhập liệu. Khi động cơ saju tính toán nhánh năm, ranh giới của Ipchun được điều chỉnh tự động. Nếu bạn chọn trực tiếp, người sinh vào đầu tháng Hai có thể chọn một con giáp không khớp với con giáp thực tế của họ."
           }
         ]
       },
       {
-        "title": "Sự tương thích cung hoàng đạo chỉ xem xét một mối quan hệ",
+        "title": "Sự tương hợp con giáp chỉ xem xét một mối quan hệ",
         "blocks": [
           {
-            "p": "Việc tính toán sự tương thích cung hoàng đạo rất đơn giản. Nó so sánh các nhánh năm của hai người để xác định liệu mối quan hệ có hài hòa, có xung đột hay có sự bất hòa nhẹ, và sử dụng điểm số đó như vậy. Vì chỉ có một mục, không cần phân phối trọng số."
+            "p": "Việc tính toán sự tương hợp con giáp rất đơn giản. Nó so sánh các nhánh năm của hai người để xác định liệu mối quan hệ có hài hòa, xung hay bất hòa âm thầm, và sử dụng điểm số đó như vậy. Vì chỉ có một mục, không cần phân phối trọng số."
           },
           {
-            "p": "Các điểm số cho mỗi mối quan hệ đều được liệt kê trong [Bảng Quan Hệ Mười Hai Nhánh](/guide/branches). Sự tương thích nhánh ngày sử dụng cùng một bảng."
+            "p": "Các điểm số cho mỗi mối quan hệ đều được liệt kê trong [Bảng Quan Hệ Mười Hai Nhánh](/guide/branches). Sự tương hợp nhánh ngày sử dụng cùng một bảng."
           }
         ]
       },
@@ -562,7 +562,7 @@ export const VI_DOCS = {
         "title": "Lý do xác định trọng số",
         "blocks": [
           {
-            "p": "Sự tương thích cung hoàng đạo chiếm {weightZodiac} trong tỷ lệ khớp cuối cùng. Trong khi sự tương thích saju xem xét cả bốn trụ, cung hoàng đạo chỉ xem xét một nhân vật, vì vậy chúng không thể được trọng số như nhau."
+            "p": "Sự tương hợp con giáp chiếm {weightZodiac} trong tỷ lệ khớp cuối cùng. Trong khi sự tương hợp saju xem xét cả bốn trụ, con giáp chỉ xem xét một ký tự, vì vậy chúng không thể có trọng số như nhau."
           },
           {
             "p": "Tuy nhiên, có hai lý do tại sao nó không bị loại trừ."
@@ -570,16 +570,16 @@ export const VI_DOCS = {
           {
             "ul": [
               "**Đó là mục dễ hiểu nhất một cách trực quan**. Ngay cả khi không biết từ vựng của truyền thống, 'hổ và khỉ xung đột' cũng có ý nghĩa.",
-              "**Đó là trục duy nhất không thay đổi ngay cả khi thời gian sinh không được biết**. Nếu bạn không biết thời gian, trụ giờ sẽ thiếu và sức mạnh của năm yếu tố sẽ thay đổi, nhưng nhánh năm vẫn giữ nguyên."
+              "**Đó là trục duy nhất không thay đổi ngay cả khi thời gian sinh không được biết**. Nếu bạn không biết thời gian, trụ giờ sẽ thiếu và sức mạnh của ngũ hành sẽ thay đổi, nhưng nhánh năm vẫn giữ nguyên."
             ]
           }
         ]
       },
       {
-        "title": "Bạn cũng có thể xem sự tương thích cung hoàng đạo riêng biệt",
+        "title": "Bạn cũng có thể xem sự tương hợp con giáp riêng biệt",
         "blocks": [
           {
-            "p": "Trên màn hình kết quả, chúng tôi hiển thị điểm số cho cả sự tương thích saju và sự tương thích cung hoàng đạo một cách riêng biệt. Nếu chỉ trình bày tỷ lệ khớp cuối cùng, sẽ không rõ số đó đến từ đâu. Nếu hai giá trị khác nhau đáng kể, điều đó tự nó cũng đáng lưu ý."
+            "p": "Trên màn hình kết quả, chúng tôi hiển thị điểm số cho cả sự tương hợp saju và sự tương hợp con giáp một cách riêng biệt. Nếu chỉ trình bày tỷ lệ khớp cuối cùng, sẽ không rõ số đó đến từ đâu. Nếu hai giá trị khác nhau đáng kể, điều đó tự nó cũng đáng lưu ý."
           }
         ]
       }
@@ -592,21 +592,21 @@ export const VI_DOCS = {
     "backLabel": "Cơ sở Tính toán",
     "sections": [
       {
-        "title": "Căn ngày là chính bản thân người đó",
+        "title": "Thiên can ngày là chính bản thân người đó",
         "blocks": [
           {
-            "p": "Trong tám ký tự của saju, **căn ngày** (căn thiên của ngày sinh) đề cập đến chính bản thân người đó. Bảy ký tự còn lại được đọc như môi trường mà căn ngày đó được đặt vào."
+            "p": "Trong tám ký tự của saju, **thiên can ngày** (thiên can của ngày sinh) đề cập đến chính bản thân người đó. Bảy ký tự còn lại được đọc như môi trường mà thiên can ngày đó được đặt vào."
           },
           {
-            "p": "**Mười Thần** (十神) phân chia cách mà căn ngày nhận thức các ký tự khác thành mười loại. Điều nuôi dưỡng tôi là **tài nguyên**, điều giống tôi là **bạn bè**, điều tôi sản xuất là **đầu ra**, điều tôi kiểm soát là **tài sản**, và điều kiểm soát tôi là **quyền lực** — mỗi một trong năm điều này sau đó được chia theo tính cực, tạo thành mười."
+            "p": "**Mười Thần** (十神) phân chia cách mà thiên can ngày nhận thức các ký tự khác thành mười loại. Điều nuôi dưỡng tôi là **tài nguyên**, điều giống tôi là **bạn bè**, điều tôi sản xuất là **đầu ra**, điều tôi kiểm soát là **tài sản**, và điều kiểm soát tôi là **quyền lực** — mỗi một trong năm điều này sau đó được chia theo tính cực, tạo thành mười."
           }
         ]
       },
       {
-        "title": "Căn ngày của mỗi người là gì đối với nhau",
+        "title": "Thiên can ngày của mỗi người là gì đối với nhau",
         "blocks": [
           {
-            "p": "Đây là mục đầu tiên trong sự tương hợp. Khi xác định được căn ngày của A nhận thức căn ngày của B như thế nào, nhận thức của B về A cũng được xác định, vì vậy chỉ có **sáu khả năng**."
+            "p": "Đây là mục đầu tiên trong sự tương hợp. Khi xác định được thiên can ngày của A nhận thức thiên can ngày của B như thế nào, nhận thức của B về A cũng được xác định, vì vậy chỉ có **sáu khả năng**."
           },
           {
             "table": {
@@ -625,9 +625,9 @@ export const VI_DOCS = {
                   "Đây là cặp đôi truyền thống được xem như vị trí của vợ/chồng. Âm và dương không khớp nhau, thu hút lẫn nhau."
                 ],
                 [
-                  "Sát thương Quan ↔ Tài nguyên trực tiếp",
+                  "Thương Quan ↔ Tài nguyên trực tiếp",
                   "Tính cực đối lập",
-                  "Sát thương Quan mang Ấn (傷官佩印)",
+                  "Thương Quan mang Ấn (傷官佩印)",
                   "Một bên bao bọc năng lượng mãnh liệt của bên kia."
                 ],
                 [
@@ -672,10 +672,10 @@ export const VI_DOCS = {
         "title": "Lý do xem xét với Mười Thần thay vì ba yếu tố",
         "blocks": [
           {
-            "p": "Có một phương pháp xem xét mối quan hệ của căn ngày với ba yếu tố (sinh ra lẫn nhau, giống nhau, vượt qua lẫn nhau). Nó đơn giản, nhưng **âm và dương biến mất.** 甲 (gỗ dương) và 乙 (gỗ âm) trở thành cùng một 'sự giống nhau' như 甲 và 甲, và sự vượt qua lẫn nhau bị nghiền nát thành một điểm số duy nhất mà không có hướng đi hoặc âm và dương."
+            "p": "Có một phương pháp xem xét mối quan hệ của thiên can ngày với ba yếu tố (sinh ra lẫn nhau, giống nhau, vượt qua lẫn nhau). Nó đơn giản, nhưng **âm và dương biến mất.** 甲 (gỗ dương) và 乙 (gỗ âm) trở thành cùng một 'sự giống nhau' như 甲 và 甲, và sự vượt qua lẫn nhau bị nghiền nát thành một điểm số duy nhất mà không có hướng đi hoặc âm và dương."
           },
           {
-            "p": "Vị trí vợ/chồng phải được đánh giá theo Mười Thần. Nếu các mục được xem xét bởi năm yếu tố và các mục được xem xét bởi Mười Thần được trộn lẫn trong một động cơ, sẽ có hai tiêu chuẩn cho cùng hai ký tự. Do đó, chúng tôi thống nhất với Mười Thần."
+            "p": "Vị trí vợ/chồng phải được đánh giá theo Mười Thần. Nếu các mục được xem xét bởi ngũ hành và các mục được xem xét bởi Mười Thần được trộn lẫn trong một động cơ, sẽ có hai tiêu chuẩn cho cùng hai ký tự. Do đó, chúng tôi thống nhất với Mười Thần."
           }
         ]
       },
@@ -724,7 +724,7 @@ export const VI_DOCS = {
         "title": "Chúng tôi cũng cho thấy hình dạng của mối quan hệ",
         "blocks": [
           {
-            "p": "Ngoài điểm số, chúng tôi mô tả **hình dạng** mà cặp ngày chi có trên màn hình kết quả. Liệu chúng có vị trí tương tự, liệu một bên hỗ trợ bên kia, hay liệu một bên bị áp chế — nếu đó là mối quan hệ hỗ trợ hoặc áp chế, chúng tôi làm rõ bên nào giữ vị trí đó."
+            "p": "Ngoài điểm số, chúng tôi mô tả **hình dạng** mà cặp thiên can ngày có trên màn hình kết quả. Liệu chúng có vị trí tương tự, liệu một bên hỗ trợ bên kia, hay liệu một bên bị áp chế — nếu đó là mối quan hệ hỗ trợ hoặc áp chế, chúng tôi làm rõ bên nào giữ vị trí đó."
           },
           {
             "p": "Nếu chỉ có một điểm số được trình bày, nó để lại câu hỏi 'vậy thì sao'. Hình dạng không phải là một điểm số mà là điều để đọc, và ngay cả những cặp có điểm số thấp cũng có điều gì đó để diễn giải."
@@ -736,14 +736,14 @@ export const VI_DOCS = {
   "guide/yongsin": {
     "eyebrow": "Ngũ hành",
     "title": "Yếu tố hỗ trợ — Năng lượng cần thiết ngay bây giờ",
-    "summary": "Chúng tôi xem ngũ hành không phải là 'họ có chọn hai không' mà là 'đối tác có những gì tôi cần không'. Chúng tôi cũng tiết lộ giá trị ranh giới phân biệt giữa một ngày chủ mạnh và một ngày chủ yếu.",
+    "summary": "Chúng tôi xem ngũ hành không phải là 'họ có chọn hai không' mà là 'đối tác có những gì tôi cần không'. Chúng tôi cũng tiết lộ giá trị ranh giới phân biệt giữa một thiên can ngày mạnh và một thiên can ngày yếu.",
     "backLabel": "Cơ sở tính toán",
     "sections": [
       {
-        "title": "Liệu ngũ hành có 'cân bằng' hay không không phải là câu hỏi về sự tương thích",
+        "title": "Liệu ngũ hành có 'cân bằng' hay không không phải là câu hỏi về sự tương hợp",
         "blocks": [
           {
-            "p": "Có một phương pháp để đo lường liệu năm năng lượng có được phân bổ đều hay không bằng cách kết hợp ngũ hành của hai người. Tuy nhiên, câu hỏi về sự tương thích không phải là điều đó. **Đối tác có những gì tôi cần không?**"
+            "p": "Có một phương pháp để đo lường liệu năm năng lượng có được phân bổ đều hay không bằng cách kết hợp ngũ hành của hai người. Tuy nhiên, câu hỏi về sự tương hợp không phải là điều đó. **Đối tác có những gì tôi cần không?**"
           },
           {
             "p": "Mức độ cân bằng là đối xứng, nhưng tính bổ sung thì vốn dĩ không đối xứng. Điều này là vì những gì A cần khác với những gì B cần. Do đó, chúng tôi đo lường từng bên riêng biệt và trung bình — vì đây là một trung bình, tổng điểm vẫn giữ tính đối xứng."
@@ -754,7 +754,7 @@ export const VI_DOCS = {
         "title": "Yếu tố hỗ trợ — Giảm nếu quá mức, thêm nếu không đủ",
         "blocks": [
           {
-            "p": "Yếu tố hỗ trợ (用神) là 'năng lượng mà người này cần ngay bây giờ'. Có một số phương pháp để xác định nó (áp chế, hỗ trợ, bệnh tật và giao tiếp), nhưng nó có thể được dịch thành các quy tắc, và phương pháp được sử dụng rộng rãi nhất là **áp chế (抑扶)**. Nếu ngày chủ mạnh, người ta thấy rằng cần năng lượng để giảm, và nếu yếu, cần năng lượng để thêm."
+            "p": "Yếu tố hỗ trợ (用神) là 'năng lượng mà người này cần ngay bây giờ'. Có một số phương pháp để xác định nó (áp chế, hỗ trợ, bệnh tật và giao tiếp), nhưng nó có thể được dịch thành các quy tắc, và phương pháp được sử dụng rộng rãi nhất là **áp chế (抑扶)**. Nếu thiên can ngày mạnh, người ta thấy rằng cần năng lượng để giảm, và nếu yếu, cần năng lượng để thêm."
           },
           {
             "table": {
@@ -765,12 +765,12 @@ export const VI_DOCS = {
               ],
               "rows": [
                 [
-                  "Ngày chủ mạnh (身强)",
+                  "Thiên can ngày mạnh (身强)",
                   "Giảm năng lượng — 食傷 (sik-sang) · 財星 (jae-seong) · 官星 (gwan-seong)",
                   "Ba"
                 ],
                 [
-                  "Ngày chủ yếu (身弱)",
+                  "Thiên can ngày yếu (身弱)",
                   "Thêm năng lượng — 印星 (in-seong) · 比劫 (bi-gyeob)",
                   "Hai"
                 ],
@@ -788,7 +788,7 @@ export const VI_DOCS = {
         "title": "Giá trị ngưỡng cho sức mạnh và yếu",
         "blocks": [
           {
-            "p": "Bên ngày chi là **印星 và 比劫** — năng lượng sinh ra tôi và năng lượng giống như tôi. Vì hai trong số năm, nếu năng lượng hoàn toàn cân bằng, nó trở thành {evenAllyRatio}. Một khoảng giá trị được thiết lập trên và dưới giá trị đó."
+            "p": "Bên thiên can ngày là **印星 và 比劫** — năng lượng sinh ra tôi và năng lượng giống như tôi. Vì hai trong số năm, nếu năng lượng hoàn toàn cân bằng, nó trở thành {evenAllyRatio}. Một khoảng giá trị được thiết lập trên và dưới giá trị đó."
           },
           {
             "table": {
@@ -800,7 +800,7 @@ export const VI_DOCS = {
               "rows": [
                 [
                   "{strongThreshold} hoặc hơn",
-                  "Ngày chủ mạnh"
+                  "Thiên can ngày mạnh"
                 ],
                 [
                   "{weakThreshold} hoặc hơn và ít hơn {strongThreshold}",
@@ -808,7 +808,7 @@ export const VI_DOCS = {
                 ],
                 [
                   "Ít hơn {weakThreshold}",
-                  "Ngày chủ yếu"
+                  "Thiên can ngày yếu"
                 ]
               ]
             }
@@ -869,7 +869,7 @@ export const VI_DOCS = {
         "title": "Các phép tính được thực hiện trong khi để vị trí của đối thủ trống",
         "blocks": [
           {
-            "p": "Điểm tương thích được tính toán bằng cách ghép hai người lại với nhau. **Inyeon’s Match** chỉ lấy dữ liệu của một người trong khi để vị trí của đối thủ trống và kiểm tra tất cả các giá trị có thể mà có thể vào vị trí đó. Nó giống như chạy động cơ tương thích theo chiều ngược lại."
+            "p": "Điểm tương hợp được tính toán bằng cách ghép hai người lại với nhau. **Inyeon’s Match** chỉ lấy dữ liệu của một người trong khi để vị trí của đối thủ trống và kiểm tra tất cả các giá trị có thể mà có thể vào vị trí đó. Nó giống như chạy động cơ tương hợp theo chiều ngược lại."
           },
           {
             "p": "Do đó, không cần biết ngày sinh của đối thủ. Chúng tôi vẫn có thể nói, 'Loại hồ sơ kết hợp nào phù hợp với tôi?' về một người mà chúng tôi chưa gặp."
@@ -880,7 +880,7 @@ export const VI_DOCS = {
         "title": "Chúng tôi không chạy hàng triệu sự kết hợp",
         "blocks": [
           {
-            "p": "Điểm tương thích trong saju bao gồm bốn mục, và **mỗi mục không chồng chéo lên nhau trong những gì nó kiểm tra.**"
+            "p": "Điểm tương hợp trong saju bao gồm bốn mục, và **mỗi mục không chồng chéo lên nhau trong những gì nó kiểm tra.**"
           },
           {
             "table": {
@@ -891,8 +891,8 @@ export const VI_DOCS = {
               ],
               "rows": [
                 [
-                  "Mối quan hệ giữa ngày can · Tính chất vợ chồng",
-                  "Các ngày can của cả hai người — thiên can",
+                  "Mối quan hệ giữa thiên can ngày · Tính chất vợ chồng",
+                  "Các thiên can ngày của cả hai người — thiên can",
                   "10"
                 ],
                 [
@@ -901,20 +901,20 @@ export const VI_DOCS = {
                   "5"
                 ],
                 [
-                  "Mối quan hệ giữa ngày chi",
-                  "các ngày chi của hai người",
+                  "Mối quan hệ giữa nhánh ngày",
+                  "các nhánh ngày của hai người",
                   "12"
                 ],
                 [
                   "Mối quan hệ giữa các con giáp",
-                  "các năm chi của hai người",
+                  "các nhánh năm của hai người",
                   "12"
                 ]
               ]
             }
           },
           {
-            "p": "Vì các giá trị không trao đổi giữa các mục, **tìm điểm cao nhất cho mỗi nhánh sẽ là điểm cao nhất tổng thể.** Không cần kiểm tra tất cả các sự kết hợp của ngày sinh — chỉ cần thiết lập mười thiên can, mười hai địa chi và năm yếu tố là đủ."
+            "p": "Vì các giá trị không trao đổi giữa các mục, **tìm điểm cao nhất cho mỗi nhánh sẽ là điểm cao nhất tổng thể.** Không cần kiểm tra tất cả các sự kết hợp của ngày sinh — chỉ cần thiết lập mười thiên can, mười hai nhánh đất và ngũ hành là đủ."
           }
         ]
       },
@@ -923,7 +923,7 @@ export const VI_DOCS = {
         "title": "Các quy tắc tương tự áp dụng",
         "blocks": [
           {
-            "p": "Các điểm được viết ở đây được lấy trực tiếp từ động cơ tương thích. Vì không có quy tắc mới nào được tạo ra, loại xuất hiện ở đây cũng sẽ có điểm cao nhất cho mục đó trong tương thích thực tế. Nếu các quy tắc tương thích thay đổi, màn hình này cũng sẽ theo đó."
+            "p": "Các điểm được viết ở đây được lấy trực tiếp từ động cơ tương hợp. Vì không có quy tắc mới nào được tạo ra, loại xuất hiện ở đây cũng sẽ có điểm cao nhất cho mục đó trong tương hợp thực tế. Nếu các quy tắc tương hợp thay đổi, màn hình này cũng sẽ theo đó."
           }
         ]
       },
@@ -934,10 +934,10 @@ export const VI_DOCS = {
             "p": "Đây là quyết định quan trọng nhất trên màn hình này. Việc thu thập các điểm cao nhất cho mỗi nhánh có thể có vẻ tạo ra một 'sự kết hợp hoàn hảo', nhưng người đó có thể **không thực sự tồn tại.**"
           },
           {
-            "p": "Trong thực tế, ngày chủ và ngũ hành không hoạt động riêng biệt. Một người có 甲木 thường có năng lượng 木 mạnh mẽ. Phương pháp này tính toán các nhánh riêng biệt bỏ qua mối tương quan đó, vì vậy giá trị thu được bằng cách kết nối các điểm cao nhất cho mỗi nhánh trở thành một sự kết hợp không tồn tại trong thực tế."
+            "p": "Trong thực tế, thiên can ngày và ngũ hành không hoạt động riêng biệt. Một người có 甲木 thường có năng lượng 木 mạnh mẽ. Phương pháp này tính toán các nhánh riêng biệt bỏ qua mối tương quan đó, vì vậy giá trị thu được bằng cách kết nối các điểm cao nhất cho mỗi nhánh trở thành một sự kết hợp không tồn tại trong thực tế."
           },
           {
-            "p": "Do đó, màn hình chỉ hiển thị **điểm mục** và không cung cấp điểm tổng. Điểm tổng sẽ được tính toán bằng cách nhận ngày sinh của người khác cho [tương thích saju](/compatibility)."
+            "p": "Do đó, màn hình chỉ hiển thị **điểm mục** và không cung cấp điểm tổng. Điểm tổng sẽ được tính toán bằng cách nhận ngày sinh của người khác cho [tương hợp saju](/compatibility)."
           }
         ]
       },
@@ -948,7 +948,7 @@ export const VI_DOCS = {
             "p": "Kết quả có nghĩa là 'nếu bạn gặp một người thuộc loại này, mục này sẽ có điểm cao'. Đây không phải là tiêu chí để chọn một người, mà là một cách để đọc từ một góc độ hiểu biết về bản thân."
           },
           {
-            "p": "Các lý do tại sao một số loại có điểm cao cũng được ghi chú từng mục — liệu ngày chủ có ở vị trí thuận lợi hay không, hoặc liệu người đó có sở hữu năng lượng mà tôi hiện cần."
+            "p": "Các lý do tại sao một số loại có điểm cao cũng được ghi chú từng mục — liệu thiên can ngày có ở vị trí thuận lợi hay không, hoặc liệu người đó có sở hữu năng lượng mà tôi hiện cần."
           }
         ]
       },
@@ -956,7 +956,7 @@ export const VI_DOCS = {
         "title": "Công cụ xác nhận",
         "blocks": [
           {
-            "p": "Bạn có thể thắc mắc liệu người mà bạn đang nghĩ đến có tương ứng với loại đó hay không. Bằng cách nhập ngày sinh của họ vào công cụ xác nhận trên màn hình kết quả, bạn sẽ được thông báo về ngày chủ, ngày chi và năm chi của họ. Các giá trị nhập vào không được lưu lại vào thời điểm này [(không được lưu)](/guide/no-storage)."
+            "p": "Bạn có thể thắc mắc liệu người mà bạn đang nghĩ đến có tương ứng với loại đó hay không. Bằng cách nhập ngày sinh của họ vào công cụ xác nhận trên màn hình kết quả, bạn sẽ được thông báo về thiên can ngày, nhánh ngày và nhánh năm của họ. Các giá trị nhập vào không được lưu lại vào thời điểm này [(không được lưu)](/guide/no-storage)."
           }
         ]
       }
@@ -1139,7 +1139,7 @@ export const VI_DOCS = {
         "title": "Màn hình vẫn không thay đổi, chỉ thêm vào PDF",
         "blocks": [
           {
-            "p": "Các phép tính tương thích và yêu cầu kết quả là **miễn phí**. Tỷ lệ khớp, điểm và trọng số của các mục, các biểu đồ saju gốc của cả hai cá nhân, và hình dạng của mối quan hệ đều có thể được xem trên màn hình. Không có gì bị xóa khỏi màn hình trong khi tạo báo cáo trả phí."
+            "p": "Các phép tính tương hợp và yêu cầu kết quả là **miễn phí**. Tỷ lệ khớp, điểm và trọng số của các mục, các biểu đồ saju gốc của cả hai cá nhân, và hình dạng của mối quan hệ đều có thể được xem trên màn hình. Không có gì bị xóa khỏi màn hình trong khi tạo báo cáo trả phí."
           },
           {
             "p": "Mục đích của báo cáo là **thêm các lớp không có trên màn hình**. Và lớp đó không phải là giả tạo; nó bao gồm các giá trị đã được tính toán trong quá trình chấm điểm nhưng không được sử dụng trên màn hình."
@@ -1147,7 +1147,7 @@ export const VI_DOCS = {
         ]
       },
       {
-        "title": "Báo cáo Tương thích Saju PDF — {priceGunghapDomestic}",
+        "title": "Báo cáo Tương hợp Saju PDF — {priceGunghapDomestic}",
         "slot": "gunghapContents",
         "blocks": [
           {
@@ -1169,7 +1169,7 @@ export const VI_DOCS = {
             "p": "Các mục của **ngũ hành** trên màn hình được trình bày như một điểm số duy nhất. Tuy nhiên, điểm số duy nhất đó là **trung bình của hai hướng** — đo lường mức độ mà bên kia lấp đầy tôi và mức độ tôi lấp đầy bên kia, và trung bình các giá trị đó."
           },
           {
-            "p": "Sự bổ sung vốn có là **mất cân bằng**. Điều này là do các năng lượng cần thiết cho tôi và các năng lượng cần thiết cho bên kia là khác nhau. Nếu bạn chỉ nhìn vào trung bình, một mối quan hệ mà một bên lấp đầy bên kia một cách đáng kể và một mối quan hệ mà cả hai lấp đầy nhau đều sẽ xuất hiện với cùng một số. Báo cáo phân tách hai điều đó."
+            "p": "Sự bổ sung vốn có là **không đối xứng**. Điều này là do các năng lượng cần thiết cho tôi và các năng lượng cần thiết cho bên kia là khác nhau. Nếu bạn chỉ nhìn vào trung bình, một mối quan hệ mà một bên lấp đầy bên kia một cách đáng kể và một mối quan hệ mà cả hai lấp đầy nhau đều sẽ xuất hiện với cùng một số. Báo cáo phân tách hai điều đó."
           },
           {
             "p": "Cũng được bao gồm trong cùng một phần là **biểu đồ mối quan hệ của bốn trụ cột**. Chỉ có một cái đi vào tỷ lệ khớp là **nhánh ngày** (日支) — vì nó là vị trí của vợ/chồng — nhưng các nhánh năm, tháng và giờ khác cũng có thể được đọc với cùng một biểu đồ mối quan hệ."
@@ -1192,7 +1192,7 @@ export const VI_DOCS = {
             "p": "Các thanh của **ngũ hành** trên màn hình cho thấy **mức độ hiện diện**. Báo cáo thêm **liệu tháng sinh có hỗ trợ năng lượng đó hay không**. Ngay cả với cùng một lượng, năng lượng mạnh (旺) và năng lượng chết (死) có sức mạnh khác nhau."
           },
           {
-            "p": "Bạn có thể thấy các lực trước và sau khi nhân với năng lượng của tháng bên cạnh nhau, cho thấy mức độ mà mùa đã đẩy nó lên. Tỷ lệ **đồng minh** phân biệt giữa **ngày chủ mạnh** và **ngày chủ yếu** cũng được ghi chú — màn hình chỉ hiển thị phán đoán, nhưng báo cáo cho thấy nơi mà phán đoán đó được thực hiện."
+            "p": "Bạn có thể thấy các lực trước và sau khi nhân với năng lượng của tháng bên cạnh nhau, cho thấy mức độ mà mùa đã đẩy nó lên. Tỷ lệ **đồng minh** phân biệt giữa **thiên can ngày mạnh** và **thiên can ngày yếu** cũng được ghi chú — màn hình chỉ hiển thị phán đoán, nhưng báo cáo cho thấy nơi mà phán đoán đó được thực hiện."
           }
         ]
       },
@@ -1200,7 +1200,7 @@ export const VI_DOCS = {
         "title": "Trang 6 — Những gì bốn trụ cột của người khác có nghĩa với tôi",
         "blocks": [
           {
-            "p": "Tỷ lệ khớp chỉ so sánh **ngày can** của cả hai cá nhân. Tuy nhiên, ba cột còn lại của người kia cũng được xác định bởi **Mười vị thần** theo cùng một quy tắc. Trong khi bạn có thể hiểu **người này có ý nghĩa gì với tôi** chỉ bằng cách nhìn vào ngày can, bạn không thể biết **vị trí của người đó có ý nghĩa gì với tôi**."
+            "p": "Tỷ lệ khớp chỉ so sánh **thiên can ngày** của cả hai cá nhân. Tuy nhiên, ba cột còn lại của người kia cũng được xác định bởi **Mười Thần** theo cùng một quy tắc. Trong khi bạn có thể hiểu **người này có ý nghĩa gì với tôi** chỉ bằng cách nhìn vào thiên can ngày, bạn không thể biết **vị trí của người đó có ý nghĩa gì với tôi**."
           },
           {
             "p": "Vì có các hướng, cả hai bên được trình bày riêng biệt. Những gì tôi thấy và những gì bên kia thấy là khác nhau."
@@ -1211,7 +1211,7 @@ export const VI_DOCS = {
         "title": "Trang 7 — Cách saju này được tính toán",
         "blocks": [
           {
-            "p": "Nó cho biết thời gian sinh đã được điều chỉnh bao nhiêu so với **thời gian mặt trời thực** , liệu việc điều chỉnh có làm thay đổi ngày hay không, và ngày dương lịch cũng như âm lịch là gì khi saju được tạo ra. Khái niệm này được giải thích trong tài liệu [Điều chỉnh thời gian sinh đến thời gian mặt trời thực](/guide/true-solar-time), nhưng **giá trị của số phút đã được điều chỉnh trong trường hợp của bạn** khác nhau giữa các cá nhân, vì vậy nó chỉ được bao gồm trong báo cáo."
+            "p": "Nó cho biết thời gian sinh đã được điều chỉnh bao nhiêu so với **giờ mặt trời thực**, liệu việc điều chỉnh có làm thay đổi ngày hay không, và ngày dương lịch cũng như âm lịch là gì khi saju được tạo ra. Khái niệm này được giải thích trong tài liệu [Điều chỉnh thời gian sinh đến giờ mặt trời thực](/guide/true-solar-time), nhưng **giá trị của số phút đã được điều chỉnh trong trường hợp của bạn** khác nhau giữa các cá nhân, vì vậy nó chỉ được bao gồm trong báo cáo."
           }
         ]
       },
@@ -1227,7 +1227,7 @@ export const VI_DOCS = {
       {
         "blocks": [
           {
-            "p": "Phần này là **bảng xếp hạng tổng thể**. Màn hình chỉ hiển thị các bộ khớp tốt, nhưng báo cáo xếp hạng tất cả mười **thiên can** và mười hai **địa chi** **hoàn toàn**. Nếu bạn chỉ nhìn vào các bộ hàng đầu, bạn sẽ không biết 'ai đến tiếp theo' và 'cái nào là ít tương thích nhất'."
+            "p": "Phần này là **bảng xếp hạng tổng thể**. Màn hình chỉ hiển thị các bộ khớp tốt, nhưng báo cáo xếp hạng tất cả mười **thiên can** và mười hai **nhánh đất** **hoàn toàn**. Nếu bạn chỉ nhìn vào các bộ hàng đầu, bạn sẽ không biết 'ai đến tiếp theo' và 'cái nào là ít tương hợp nhất'."
           }
         ]
       },

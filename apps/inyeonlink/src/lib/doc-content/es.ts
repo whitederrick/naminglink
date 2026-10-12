@@ -24,7 +24,7 @@ export const ES_DOCS = {
         "title": "Lo que calculamos",
         "blocks": [
           {
-            "p": "Las cartas se construyen a partir del **calendario lunisolar coreano**, y la hora de nacimiento se corrige a **tiempo solar verdadero** para el lugar de nacimiento: la misma hora del reloj significa una posición del sol diferente dependiendo de dónde naciste."
+            "p": "Las cartas se construyen a partir del **almanaque lunisolar coreano**, y la hora de nacimiento se corrige a **tiempo solar verdadero** para el lugar de nacimiento: la misma hora del reloj significa una posición del sol diferente dependiendo de dónde naciste."
           },
           {
             "p": "Las puntuaciones provienen únicamente de reglas fijas. Los conceptos tradicionales — diez dioses, relaciones de ramas, el elemento de apoyo — se expresan como reglas, por lo que **la misma entrada siempre da el mismo resultado.** Cuando una regla cambia, ejecutamos un arnés de regresión para asegurarnos de que las lecturas anteriores no se hayan movido."
@@ -94,7 +94,7 @@ export const ES_DOCS = {
               "rows": [
                 [
                   "Compatibilidad del Saju",
-                  "Día maestro, rama del día y los cinco elementos — cuatro elementos",
+                  "Tallo del día, rama del día y los cinco elementos — cuatro elementos",
                   "{weightSaju}"
                 ],
                 [
@@ -125,7 +125,7 @@ export const ES_DOCS = {
               "month": "Pilar del Mes",
               "monthNote": "Temporada · Poder",
               "day": "Pilar del Día",
-              "dayNote": "Yo · Palacio de la Pareja",
+              "dayNote": "Yo · Palacio del Cónyuge",
               "hour": "Pilar de la Hora",
               "hourNote": "Años Posteriores · Uso",
               "stem": "Tallo Celestial",
@@ -143,8 +143,8 @@ export const ES_DOCS = {
               ],
               "rows": [
                 [
-                  "Relación del Día Stem",
-                  "Lo que los day stems (日干) de las dos personas son entre sí — visto a través de los Diez Dioses",
+                  "Relación de los Tallos del Día",
+                  "Lo que los tallos del día (日干) de las dos personas son entre sí — visto a través de los Diez Dioses",
                   "{weightDayMaster}"
                 ],
                 [
@@ -154,7 +154,7 @@ export const ES_DOCS = {
                 ],
                 [
                   "Estrella del Cónyuge",
-                  "¿El day stem del compañero corresponde a mi posición de cónyuge?",
+                  "¿El tallo del día del compañero corresponde a mi posición de cónyuge?",
                   "{weightSpouseStar}"
                 ],
                 [
@@ -458,8 +458,8 @@ export const ES_DOCS = {
     ]
   },
   "guide/zodiac": {
-    "eyebrow": "Zodiac",
-    "title": "¿Por qué la compatibilidad zodiacal considera el año de la rama terrestre?",
+    "eyebrow": "Zodiaco",
+    "title": "¿Por qué la compatibilidad zodiacal considera la rama del año?",
     "summary": "El zodiaco es la rama terrestre del año de nacimiento. Esto explica por qué se deriva del pilar del año del saju en lugar del año calendario, y aclara la importancia de la compatibilidad zodiacal.",
     "backLabel": "Base de Cálculo",
     "sections": [
@@ -467,7 +467,7 @@ export const ES_DOCS = {
         "title": "El zodiaco es la rama terrestre del año de nacimiento",
         "blocks": [
           {
-            "p": "El saju consiste en cuatro pilares: año, mes, día y hora, con cada pilar conteniendo un heavenly stem (heavenly stem) y un earthly branch (earthly branch). El **año de la rama** es el que lleva el animal que llamamos signo zodiacal."
+            "p": "El saju consiste en cuatro pilares: año, mes, día y hora, con cada pilar conteniendo un tallo celestial y una rama terrestre. La **rama del año** es la que lleva el animal que llamamos signo zodiacal."
           },
           {
             "table": {
@@ -587,26 +587,26 @@ export const ES_DOCS = {
   },
   "guide/ten-gods": {
     "eyebrow": "Diez Dioses",
-    "title": "Diez Dioses y Posición de la Pareja",
-    "summary": "Vemos qué es cada pilar del día para cada persona a través de los Diez Dioses. Explicamos por qué la riqueza directa y la riqueza indirecta se leen de manera diferente a pesar de que ambas son riqueza.",
+    "title": "Diez Dioses y Posición del Cónyuge",
+    "summary": "Vemos qué es el tallo del día de cada persona respecto al de la otra a través de los Diez Dioses. Explicamos por qué la riqueza directa y la riqueza indirecta se leen de manera diferente a pesar de que ambas son riqueza.",
     "backLabel": "Base de Cálculo",
     "sections": [
       {
-        "title": "El día del tronco es la persona misma",
+        "title": "El tallo del día es la persona misma",
         "blocks": [
           {
-            "p": "Entre los ocho caracteres del saju, el **tronco del día** (el tronco celestial del día de nacimiento) se refiere a la persona misma. Los siete caracteres restantes se leen como el entorno en el que se encuentra ese tronco del día."
+            "p": "Entre los ocho caracteres del saju, el **tallo del día** (el tallo celestial del día de nacimiento) se refiere a la persona misma. Los siete caracteres restantes se leen como el entorno en el que se encuentra ese tallo del día."
           },
           {
-            "p": "Los **Diez Dioses** (十神) dividen cómo el tronco del día percibe otros caracteres en diez categorías. Lo que me nutre es **recurso**, lo que es igual a mí es **compañero**, lo que produzco es **salida**, lo que controlo es **riqueza**, y lo que me controla es **autoridad** — cada uno de los cinco se divide luego por polaridad, haciendo diez."
+            "p": "Los **Diez Dioses** (十神) dividen cómo el tallo del día percibe otros caracteres en diez categorías. Lo que me nutre es **recurso**, lo que es igual a mí es **compañero**, lo que produzco es **salida**, lo que controlo es **riqueza**, y lo que me controla es **autoridad** — cada uno de los cinco se divide luego por polaridad, haciendo diez."
           }
         ]
       },
       {
-        "title": "Lo que el tronco del día de cada persona es para los demás",
+        "title": "Lo que el tallo del día de cada persona es para los demás",
         "blocks": [
           {
-            "p": "Este es el primer elemento en la compatibilidad. Una vez que se determina cómo el tronco del día de A percibe el tronco del día de B, también se determina la percepción de B sobre A, por lo que **solo hay seis posibilidades**."
+            "p": "Este es el primer elemento en la compatibilidad. Una vez que se determina cómo el tallo del día de A percibe el tallo del día de B, también se determina la percepción de B sobre A, por lo que **solo hay seis posibilidades**."
           },
           {
             "table": {
@@ -672,7 +672,7 @@ export const ES_DOCS = {
         "title": "La razón para ver con los Diez Dioses en lugar de tres elementos",
         "blocks": [
           {
-            "p": "Hay un método para ver la relación del tronco del día con los tres elementos (generación mutua, igualdad, superación mutua). Es simple, pero **el yin y el yang desaparecen.** 甲 (madera yang) y 乙 (madera yin) se convierten en la misma 'igualdad' como 甲 y 甲, y la superación mutua se aplasta en una sola puntuación sin dirección o yin y yang."
+            "p": "Hay un método para ver la relación del tallo del día con los tres elementos (generación mutua, igualdad, superación mutua). Es simple, pero **el yin y el yang desaparecen.** 甲 (madera yang) y 乙 (madera yin) se convierten en la misma 'igualdad' como 甲 y 甲, y la superación mutua se aplasta en una sola puntuación sin dirección o yin y yang."
           },
           {
             "p": "La posición del cónyuge debe evaluarse en términos de los Diez Dioses. Si los elementos vistos por los cinco elementos y los elementos vistos por los Diez Dioses se mezclan en un solo motor, habrá dos estándares para los mismos dos caracteres. Por lo tanto, nos unificamos con los Diez Dioses."
@@ -707,7 +707,7 @@ export const ES_DOCS = {
             }
           },
           {
-            "p": "Incluso si son el mismo recurso, solo la **Riqueza Proper** emocional se considera la posición del cónyuge, mientras que el Recurso se lee como la naturaleza de la actividad y la riqueza. Por lo tanto, la Riqueza Proper y el Oficial Proper cuentan como 2 puntos, mientras que el Recurso y el Oficial cuentan como 1 punto, y ambas direcciones se suman — si ambas se ven como posiciones de cónyuge, es la más alta."
+            "p": "Incluso si son el mismo recurso, solo la **Riqueza Adecuada** emocional se considera la posición del cónyuge, mientras que el Recurso se lee como la naturaleza de la actividad y la riqueza. Por lo tanto, la Riqueza Adecuada y el Oficial Adecuado cuentan como 2 puntos, mientras que el Recurso y el Oficial cuentan como 1 punto, y ambas direcciones se suman — si ambas se ven como posiciones de cónyuge, es la más alta."
           }
         ]
       },
@@ -891,8 +891,8 @@ export const ES_DOCS = {
               ],
               "rows": [
                 [
-                  "Relación del día stem · Naturaleza conyugal",
-                  "Los day stems de ambas personas — heavenly stems",
+                  "Relación del tallo del día · Naturaleza conyugal",
+                  "Los tallos del día de ambas personas — tallos celestiales",
                   "10"
                 ],
                 [
@@ -901,20 +901,20 @@ export const ES_DOCS = {
                   "5"
                 ],
                 [
-                  "Relación del día branch",
-                  "los day branches de las dos personas",
+                  "Relación de la rama del día",
+                  "las ramas del día de las dos personas",
                   "12"
                 ],
                 [
                   "Relación zodiacal",
-                  "los year branches de las dos personas",
+                  "las ramas del año de las dos personas",
                   "12"
                 ]
               ]
             }
           },
           {
-            "p": "Dado que los valores no se intercambian entre elementos, **encontrar el punto más alto para cada branch será el punto más alto general**. No es necesario verificar todas las combinaciones de fechas de nacimiento: solo establecer los diez heavenly stems, doce earthly branches y cinco elementos es suficiente."
+            "p": "Dado que los valores no se intercambian entre elementos, **encontrar el punto más alto para cada rama será el punto más alto general**. No es necesario verificar todas las combinaciones de fechas de nacimiento: solo establecer los diez tallos celestiales, doce ramas terrestres y cinco elementos es suficiente."
           }
         ]
       },
@@ -931,13 +931,13 @@ export const ES_DOCS = {
         "title": "No se proporciona puntuación total",
         "blocks": [
           {
-            "p": "Esta es la decisión más importante en esta pantalla. Recoger las puntuaciones más altas para cada branch puede parecer que produce una 'coincidencia perfecta', pero esa persona puede **no existir realmente.**"
+            "p": "Esta es la decisión más importante en esta pantalla. Recoger las puntuaciones más altas para cada rama puede parecer que produce una 'coincidencia perfecta', pero esa persona puede **no existir realmente.**"
           },
           {
-            "p": "En las personas reales, el day master y los cinco elementos no operan por separado. Una persona con 甲木 generalmente tiene una fuerte energía de 木 también. Este método de contar los branches por separado ignora esa correlación, por lo que el valor obtenido al conectar las puntuaciones más altas para cada branch se convierte en una combinación que no existe en la realidad."
+            "p": "En las personas reales, el día maestro y los cinco elementos no operan por separado. Una persona con 甲木 generalmente tiene una fuerte energía de 木 también. Este método de contar las ramas por separado ignora esa correlación, por lo que el valor obtenido al conectar las puntuaciones más altas para cada rama se convierte en una combinación que no existe en la realidad."
           },
           {
-            "p": "Por lo tanto, la pantalla solo muestra **puntuaciones de elementos** y no proporciona una puntuación total. La puntuación total se calculará al recibir la fecha de nacimiento de la otra persona para [saju compatibility](/compatibility)."
+            "p": "Por lo tanto, la pantalla solo muestra **puntuaciones de elementos** y no proporciona una puntuación total. La puntuación total se calculará al recibir la fecha de nacimiento de la otra persona para [compatibilidad del saju](/compatibility)."
           }
         ]
       },
@@ -948,7 +948,7 @@ export const ES_DOCS = {
             "p": "El resultado significa 'si conoces a una persona de este tipo, este elemento tendrá una puntuación alta'. No es un criterio para elegir a una persona, sino más bien una forma de leerlo desde una perspectiva de autoconocimiento."
           },
           {
-            "p": "Las razones por las que ciertos tipos obtuvieron puntuaciones altas también se anotan elemento por elemento — si el day master está en una posición favorable, o si esa persona posee la energía que actualmente necesito."
+            "p": "Las razones por las que ciertos tipos obtuvieron puntuaciones altas también se anotan elemento por elemento — si el día maestro está en una posición favorable, o si esa persona posee la energía que actualmente necesito."
           }
         ]
       },
@@ -956,7 +956,7 @@ export const ES_DOCS = {
         "title": "Herramienta de confirmación",
         "blocks": [
           {
-            "p": "Puede que te preguntes si la persona que tienes en mente corresponde a ese tipo. Al ingresar su fecha de nacimiento en la herramienta de confirmación en la pantalla de resultados, se te informará sobre su day master, day branch y year branch. Los valores ingresados no se guardan en este momento [(no guardados)](/guide/no-storage)."
+            "p": "Puede que te preguntes si la persona que tienes en mente corresponde a ese tipo. Al ingresar su fecha de nacimiento en la herramienta de confirmación en la pantalla de resultados, se te informará sobre su día maestro, rama del día y rama del año. Los valores ingresados no se guardan en este momento [(no guardados)](/guide/no-storage)."
           }
         ]
       }
@@ -1172,7 +1172,7 @@ export const ES_DOCS = {
             "p": "La complementariedad es inherentemente **asimétrica**. Esto se debe a que las energías que necesito y las energías que necesita el otro son diferentes. Si solo miras el promedio, una relación donde un lado llena significativamente al otro y una relación donde ambos se llenan mutuamente de manera uniforme aparecerán como el mismo número. El informe separa esos dos."
           },
           {
-            "p": "También se incluye en la misma sección el **gráfico de relaciones de los cuatro pilares**. El único que entra en la tasa de coincidencia es el día rama (日支) — porque es la posición del cónyuge — pero las otras ramas de año, mes y hora también se pueden leer con el mismo gráfico de relaciones."
+            "p": "También se incluye en la misma sección el **gráfico de relaciones de los cuatro pilares**. La única que entra en la tasa de coincidencia es la rama del día (日支) — porque es la posición del cónyuge — pero las otras ramas de año, mes y hora también se pueden leer con el mismo gráfico de relaciones."
           }
         ]
       },
@@ -1200,7 +1200,7 @@ export const ES_DOCS = {
         "title": "Página 6 — Lo que los cuatro pilares de la otra persona significan para mí",
         "blocks": [
           {
-            "p": "La tasa de coincidencia solo compara los **días ramas** de ambos individuos. Sin embargo, los otros tres pilares de la otra persona también se determinan por los Diez Dioses utilizando las mismas reglas. Si bien puedes entender **lo que esta persona significa para mí** mirando solo el día rama, no puedes saber **qué posición de esa persona significa para mí**."
+            "p": "La tasa de coincidencia solo compara los **tallos del día** de ambos individuos. Sin embargo, los otros tres pilares de la otra persona también se determinan por los Diez Dioses utilizando las mismas reglas. Si bien puedes entender **lo que esta persona significa para mí** mirando solo el tallo del día, no puedes saber **qué posición de esa persona significa para mí**."
           },
           {
             "p": "Dado que hay direcciones, ambos lados se presentan por separado. Lo que veo y lo que ve el otro son diferentes."

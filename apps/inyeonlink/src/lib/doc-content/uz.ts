@@ -27,7 +27,7 @@ export const UZ_DOCS = {
             "p": "Xaritalar **Koreya lunisolar almanagidan** tuziladi va tug‘ilish vaqti tug‘ilish joyi uchun **haqiqiy quyosh vaqti** ga to‘g‘rilanadi — bir xil soat vaqti tug‘ilgan joyingizga qarab quyosh pozitsiyasini o‘zgartiradi."
           },
           {
-            "p": "Ballar faqat belgilangan qoidalardan kelib chiqadi. An'anaviy tushunchalar — o‘n xudo, filial munosabatlari, qo‘llab-quvvatlovchi element — qoidalar sifatida ifodalanadi, shuning uchun **bir xil kirish har doim bir xil natijani beradi.** Qoidalar o‘zgarganda, biz eski o‘qishlar harakatlanmaganligini ta'minlash uchun regressiya tizimini ishga tushiramiz."
+            "p": "Ballar faqat belgilangan qoidalardan kelib chiqadi. An'anaviy tushunchalar — o‘n xudo, yer shoxlari munosabatlari, qo‘llab-quvvatlovchi element — qoidalar sifatida ifodalanadi, shuning uchun **bir xil kirish har doim bir xil natijani beradi.** Qoidalar o‘zgarganda, biz eski o‘qishlar harakatlanmaganligini ta'minlash uchun regressiya tizimini ishga tushiramiz."
           },
           {
             "p": "**Sun'iy intellekt ishtirok etmaydi.** Ekrandagi har bir jumla hisoblangan natijaga bog‘langan belgilangan matn."
@@ -59,7 +59,7 @@ export const UZ_DOCS = {
   "guide": {
     "eyebrow": "Hisoblash Asosi",
     "title": "Hisoblash Asosi nima?",
-    "summary": "Inyeon-Link barcha qoida va qoidalarni ochib beradi. Siz elementlar va ularning vaznlarini, yerli filial munosabatlari jadvalidan olingan ballarni va kuchli kun ustuni bilan zaif kun ustuni o‘rtasidagi farqni belgilovchi chegara qiymatlarini tekshirishingiz mumkin — ekrandagi raqamlar qayerdan kelganini ko‘rishingiz mumkin.",
+    "summary": "Inyeon-Link barcha qoidalarni ochib beradi. Siz elementlar va ularning vaznlarini, yer shoxlari munosabatlari jadvalidan olingan ballarni va kuchli kun poyasi bilan zaif kun poyasi o‘rtasidagi farqni belgilovchi chegara qiymatlarini tekshirishingiz mumkin — ekrandagi raqamlar qayerdan kelganini ko‘rishingiz mumkin.",
     "backLabel": "Boshlanishga qaytish",
     "sections": [
       {
@@ -82,7 +82,7 @@ export const UZ_DOCS = {
         "title": "Ikki O‘qni Hisoblash va Birlashtirish",
         "blocks": [
           {
-            "p": "Moslik darajasi ikki filialdan keladi. **Saju muvofiqligi** har ikkala shaxsning to‘liq saju asl xaritasini ko‘rib chiqadi, **zodiak muvofiqligi** esa tug‘ilish yilidan bir yerli filialni hisobga oladi. Yakuniy qiymat ikkitasining vaznli o‘rtacha hisoblanishi orqali olinadi."
+            "p": "Moslik darajasi ikki shoxdan keladi. **Saju muvofiqligi** har ikkala shaxsning to‘liq saju asl xaritasini ko‘rib chiqadi, **zodiak muvofiqligi** esa tug‘ilish yilidan bir yer shoxini hisobga oladi. Yakuniy qiymat ikkitasining vaznli o‘rtacha hisoblanishi orqali olinadi."
           },
           {
             "table": {
@@ -94,12 +94,12 @@ export const UZ_DOCS = {
               "rows": [
                 [
                   "Saju Muvofiqligi",
-                  "Kun ustuni, kun filial, va beshta element — to‘rt element",
+                  "Kun poyasi, kun shoxi, va beshta element — to‘rt element",
                   "{weightSaju}"
                 ],
                 [
                   "Zodiak Muvofiqligi",
-                  "Yil filiallari o‘rtasidagi munosabat",
+                  "Yil shoxlari o‘rtasidagi munosabat",
                   "{weightZodiac}"
                 ]
               ]
@@ -118,20 +118,20 @@ export const UZ_DOCS = {
           },
           {
             "figure": "four-pillars",
-            "caption": "Saju tug‘ilish yili, oyi, kuni va soati uchun osmon ustunlari va yer filiallaridan iborat sakkiz belgidan tashkil topgan. Quyida keltirilgan kun ustuni va kun filiallari kun ustunidagi ikki belgidir.",
+            "caption": "Saju tug‘ilish yili, oyi, kuni va soati uchun osmon poyalari va yer shoxlaridan iborat sakkiz belgidan tashkil topgan. Quyida keltirilgan kun poyasi va kun shoxi kun ustunidagi ikki belgidir.",
             "labels": {
               "year": "Yil Ustuni",
               "yearNote": "Asos · Zodiak",
               "month": "Oy Ustuni",
               "monthNote": "Mavsum · Kuch",
               "day": "Kun Ustuni",
-              "dayNote": "Men · Juftlik Saroyi",
+              "dayNote": "Men · Turmush o'rtog'i saroyi",
               "hour": "Soat Ustuni",
               "hourNote": "Keyingi Yillar · Foydalanish",
-              "stem": "Osmon Ustuni",
-              "stemNote": "Kun Ustuni = Men",
-              "branch": "Yerga tegishli bo'lak",
-              "branchNote": "Kun bo'lagi = Turmush o'rtog'ining saroyi"
+              "stem": "Osmon Poyasi",
+              "stemNote": "Kun Poyasi = Men",
+              "branch": "Yer Shoxi",
+              "branchNote": "Kun Shoxi = Turmush o'rtog'i saroyi"
             }
           },
           {
@@ -143,8 +143,8 @@ export const UZ_DOCS = {
               ],
               "rows": [
                 [
-                  "Kun ustuni munosabati",
-                  "Ikkita odamning kun ustunlari (日干) bir-biriga qanday ta'sir qiladi — O'n Xudolar orqali qaraladi",
+                  "Kun poyasi munosabati",
+                  "Ikkita odamning kun poyalari (日干) bir-biriga qanday ta'sir qiladi — O'n Xudolar orqali qaraladi",
                   "{weightDayMaster}"
                 ],
                 [
@@ -154,19 +154,19 @@ export const UZ_DOCS = {
                 ],
                 [
                   "Turmush o'rtog'i yulduzi",
-                  "Hamkoringizning kun ustuni mening turmush o'rtog'i pozitsiyamga mos keladimi?",
+                  "Hamkoringizning kun poyasi mening turmush o'rtog'i pozitsiyamga mos keladimi?",
                   "{weightSpouseStar}"
                 ],
                 [
-                  "Kun bo'lagi munosabati",
-                  "Ikkita odamning kun bo'laklari (日支) birlashma yoki to'qnashuvmi?",
+                  "Kun shoxi munosabati",
+                  "Ikkita odamning kun shoxlari (日支) birlashma yoki to'qnashuvmi?",
                   "{weightDayBranch}"
                 ]
               ]
             }
           },
           {
-            "p": "Kun bo'lagi o'qiladi, chunki an'anaga ko'ra u **turmush o'rtog'i saroyi** sifatida qaraladi. To'rt ustundan bu hamkorga ishora qiluvchi birinchi joydir, bu esa moslikni ko'rish uchun birinchi joyni tashkil etadi."
+            "p": "Kun shoxi o'qiladi, chunki an'anaga ko'ra u **turmush o'rtog'i saroyi** sifatida qaraladi. To'rt ustun ichidan hamkorga ishora qiluvchisi aynan shu bo'lib, shuning uchun moslik birinchi navbatda shu yerga qaraydi."
           }
         ]
       },
@@ -174,7 +174,7 @@ export const UZ_DOCS = {
         "title": "Agar jins oshkor qilinmasa, turmush o'rtog'i elementi chiqarib tashlanadi",
         "blocks": [
           {
-            "p": "Turmush o'rtog'i elementi hisoblash uchun jinsni bilishni talab qiladi. An'ana turmush o'rtog'iga ishora qiluvchi pozitsiyani jinsga qarab boshqacha o'qiydi. Agar oshkor qilinmasa, bu element ** chiqariladi ** va qolgan uch elementning og'irliklari qayta normallashtiriladi."
+            "p": "Turmush o'rtog'i elementi hisoblash uchun jinsni bilishni talab qiladi. An'ana turmush o'rtog'iga ishora qiluvchi pozitsiyani jinsga qarab boshqacha o'qiydi. Agar oshkor qilinmasa, bu element **chiqariladi** va qolgan uch elementning og'irliklari qayta normallashtiriladi."
           }
         ]
       },
@@ -467,7 +467,7 @@ export const UZ_DOCS = {
         "title": "Zodiak tug'ilgan yilning yer shoxi hisoblanadi",
         "blocks": [
           {
-            "p": "Saju to'rt ustundan iborat: yil, oy, kun va soat, har bir ustun bir heavenly stem va bir earthly branch ni o'z ichiga oladi. **Yil shoxi** zodiak belgisi deb ataladigan hayvonni olib yuradigan shoxdir."
+            "p": "Saju to'rt ustundan iborat: yil, oy, kun va soat, har bir ustun bir osmon poyasi va bir yer shoxini o'z ichiga oladi. **Yil shoxi** zodiak belgisi deb ataladigan hayvonni olib yuradigan shoxdir."
           },
           {
             "table": {
@@ -487,7 +487,7 @@ export const UZ_DOCS = {
                 ],
                 [
                   "寅",
-                  "Jang'ir"
+                  "Yo'lbars"
                 ],
                 [
                   "卯",
@@ -511,11 +511,11 @@ export const UZ_DOCS = {
                 ],
                 [
                   "申",
-                  "Simi"
+                  "Maymun"
                 ],
                 [
                   "酉",
-                  "Tovuq"
+                  "Xo'roz"
                 ],
                 [
                   "戌",
@@ -569,7 +569,7 @@ export const UZ_DOCS = {
           },
           {
             "ul": [
-              "**Bu eng intuitiv tushunarli elementdir**. An'anaviy so'z boyligini bilmasangiz ham, 'jang'ir va simi to'qnashadi' tushunarli.",
+              "**Bu eng intuitiv tushunarli elementdir**. An'anaviy so'z boyligini bilmasangiz ham, 'yo'lbars va maymun to'qnashadi' tushunarli.",
               "**Bu tug'ilish vaqti noma'lum bo'lsa ham o'zgarishsiz qoladigan yagona o'qdir**. Agar siz vaqtni bilmasangiz, soat ustuni yo'qoladi va besh elementning kuchi o'zgaradi, lekin yil shoxi o'zgarmaydi."
             ]
           }
@@ -587,26 +587,26 @@ export const UZ_DOCS = {
   },
   "guide/ten-gods": {
     "eyebrow": "O'n Xudo",
-    "title": "O'n Xudo va Er-xotin Pozitsiyasi",
-    "summary": "Biz har bir insonning kun shoxini O'n Xudolar orqali bir-biriga qarab ko'rib chiqamiz. To'g'ridan-to'g'ri boylik va bilvosita boylikning farqli o'qilishi sababini tushuntiramiz, garchi ikkalasi ham boylik bo'lsa.",
+    "title": "O'n Xudo va Turmush o'rtog'i Pozitsiyasi",
+    "summary": "Biz har bir insonning kun poyasini O'n Xudolar orqali bir-biriga qarab ko'rib chiqamiz. To'g'ridan-to'g'ri boylik va bilvosita boylikning farqli o'qilishi sababini tushuntiramiz, garchi ikkalasi ham boylik bo'lsa.",
     "backLabel": "Hisoblash Asosi",
     "sections": [
       {
-        "title": "Kun ustuni shaxsning o'zidir",
+        "title": "Kun poyasi shaxsning o'zidir",
         "blocks": [
           {
-            "p": "Saju ning sakkiz belgisi orasida, **kun ustuni** (tug'ilish kunining osmon ustuni) shaxsning o'zini anglatadi. Qolgan yetti belgi esa, o'sha kun ustuni joylashgan muhitni o'qiydi."
+            "p": "Saju ning sakkiz belgisi orasida, **kun poyasi** (tug'ilish kunining osmon poyasi) shaxsning o'zini anglatadi. Qolgan yetti belgi esa, o'sha kun poyasi joylashgan muhitni o'qiydi."
           },
           {
-            "p": "**O'n Xudo** (十神) kun ustunining boshqa belgilarni qanday qabul qilishini o'n toifaga bo'ladi. Meni boqadigan narsa **manba**, menga teng bo'lgan narsa **hamkasb**, men ishlab chiqaradigan narsa **natija**, men nazorat qiladigan narsa **boylik**, va meni nazorat qiladigan narsa **hokimiyat** — har bir beshtasi polaritetga bo'linadi, bu esa o'nni hosil qiladi."
+            "p": "**O'n Xudo** (十神) kun poyasining boshqa belgilarni qanday qabul qilishini o'n toifaga bo'ladi. Meni boqadigan narsa **manba**, menga teng bo'lgan narsa **hamkasb**, men ishlab chiqaradigan narsa **natija**, men nazorat qiladigan narsa **boylik**, va meni nazorat qiladigan narsa **hokimiyat** — har bir beshtasi polaritetga bo'linadi, bu esa o'nni hosil qiladi."
           }
         ]
       },
       {
-        "title": "Har bir shaxsning kun ustuni bir-biriga qanday ta'sir qiladi",
+        "title": "Har bir shaxsning kun poyasi bir-biriga qanday ta'sir qiladi",
         "blocks": [
           {
-            "p": "Bu moslikdagi birinchi elementdir. A ning kun ustuni B ning kun ustunini qanday qabul qilishi aniqlangach, B ning A ga bo'lgan qabul qilish ham aniqlanadi, shuning uchun **faqat olti imkoniyat** mavjud."
+            "p": "Bu moslikdagi birinchi elementdir. A ning kun poyasi B ning kun poyasini qanday qabul qilishi aniqlangach, B ning A ga bo'lgan qabul qilish ham aniqlanadi, shuning uchun **faqat olti imkoniyat** mavjud."
           },
           {
             "table": {
@@ -627,14 +627,14 @@ export const UZ_DOCS = {
                 [
                   "Zararli Ofitser ↔ To'g'ridan-to'g'ri Manba",
                   "Teskari polaritet",
-                  "Zararli Ofitser Mühürni kiygan (傷官佩印)",
+                  "Zararli Ofitser Muhrni kiygan (傷官佩印)",
                   "Bir tomon boshqa tomonning kuchli energiyasini o'rab oladi."
                 ],
                 [
                   "Do'st ↔ Do'st",
                   "Bir xil polaritet",
                   "Teng",
-                  "Ular bir-biriga o'xshaydi va teng, lekin bir-birini bosim qilmaydi."
+                  "Ular bir-biriga o'xshaydi va teng, lekin bir-biriga bosim o'tkazmaydi."
                 ],
                 [
                   "Raqib ↔ Raqib",
@@ -643,15 +643,15 @@ export const UZ_DOCS = {
                   "Ular bir-biriga tortiladi, lekin bir xil pozitsiya uchun raqobatlashadi."
                 ],
                 [
-                  "Noto'g'ri Boylik ↔ Noto'g'ri Hokimiyat",
+                  "Bilvosita Boylik ↔ Bilvosita Hokimiyat",
                   "Bir xil polaritet",
                   "Sovuq bog'lanish (無情)",
                   "Tashviq kuchli, lekin yuk ham og'ir."
                 ],
                 [
-                  "Yeyish Xudosi ↔ Noto'g'ri Manba",
+                  "Yeyish Xudosi ↔ Bilvosita Manba",
                   "Bir xil polaritet",
-                  "Qush yulduzi ovqatni o'g'irlaydi (梟神奪食)",
+                  "Boyqush yulduzi ovqatni o'g'irlaydi (梟神奪食)",
                   "Berilgan energiya qarshi tomon tomonidan olinadi, oqimni to'sadi."
                 ]
               ]
@@ -672,7 +672,7 @@ export const UZ_DOCS = {
         "title": "O'n Xudolar bilan ko'rishning sababi, uch elementdan ko'ra",
         "blocks": [
           {
-            "p": "Kun ustunining uch element bilan munosabatini ko'rish usuli mavjud (o'zaro ishlab chiqarish, bir xil, o'zaro yengish). Bu oddiy, lekin **yin va yang yo'qoladi.** 甲 (yang daraxti) va 乙 (yin daraxti) bir xil 'bir xil' ga aylanadi, 甲 va 甲 kabi, va o'zaro yengish bitta ballga bosiladi, yo'nalish yoki yin va yangsiz."
+            "p": "Kun poyasining uch element bilan munosabatini ko'rish usuli mavjud (o'zaro ishlab chiqarish, bir xil, o'zaro yengish). Bu oddiy, lekin **yin va yang yo'qoladi.** 甲 (yang daraxti) va 乙 (yin daraxti) bir xil 'bir xil' ga aylanadi, 甲 va 甲 kabi, va o'zaro yengish bitta ballga bosiladi, yo'nalish yoki yin va yangsiz."
           },
           {
             "p": "Turmush o'rtog'i pozitsiyasi O'n Xudolar nuqtai nazaridan baholanishi kerak. Agar besh element tomonidan ko'rilgan narsalar va O'n Xudolar tomonidan ko'rilgan narsalar bir dvigatelga aralashtirilsa, bir xil ikkita belgi uchun ikkita standart bo'ladi. Shuning uchun, biz O'n Xudolar bilan birlashtiramiz."
@@ -696,18 +696,18 @@ export const UZ_DOCS = {
                 [
                   "Erkak",
                   "To'g'ri Boylik (正財)",
-                  "Noto'g'ri Boylik (偏財)"
+                  "Bilvosita Boylik (偏財)"
                 ],
                 [
                   "Ayol",
                   "To'g'ri Hokimiyat (正官)",
-                  "Noto'g'ri Hokimiyat (偏官)"
+                  "Bilvosita Hokimiyat (偏官)"
                 ]
               ]
             }
           },
           {
-            "p": "Bir xil resurs bo'lsa ham, faqat hissiy **To'g'ri Boylik** turmush o'rtoqlik pozitsiyasi sifatida hisobga olinadi, resurs esa faoliyat va boylik tabiati sifatida o'qiladi. Shuning uchun, To'g'ri Boylik va To'g'ri Ofitser 2 ball sifatida hisoblanadi, Resurs va Ofitser esa 1 ball hisoblanadi va ikkala yo'nalish yig'iladi — agar ikkisi ham turmush o'rtoqlik pozitsiyalari sifatida ko'rilsa, bu eng yuqori hisoblanadi."
+            "p": "Bir xil manba bo'lsa ham, faqat hissiy **To'g'ri Boylik** turmush o'rtoqlik pozitsiyasi sifatida hisobga olinadi, manba esa faoliyat va boylik tabiati sifatida o'qiladi. Shuning uchun, To'g'ri Boylik va To'g'ri Ofitser 2 ball sifatida hisoblanadi, Manba va Ofitser esa 1 ball hisoblanadi va ikkala yo'nalish yig'iladi — agar ikkisi ham turmush o'rtoqlik pozitsiyalari sifatida ko'rilsa, bu eng yuqori hisoblanadi."
           }
         ]
       },
@@ -724,7 +724,7 @@ export const UZ_DOCS = {
         "title": "Biz munosabatlar shaklini ham ko'rsatamiz",
         "blocks": [
           {
-            "p": "Balldan tashqari, biz natijalar ekranida kun ustunlarining juftligi qanday **shaklga ega** ekanligini ta'riflaymiz. Ular o'xshash pozitsiyalarmi, bir tomoni boshqasini qo'llab-quvvatlaydimi yoki bir tomoni bostirilganmi — agar bu qo'llab-quvvatlovchi yoki bostiruvchi munosabat bo'lsa, qaysi tomon o'sha pozitsiyani egallaganini aniqlaymiz."
+            "p": "Balldan tashqari, biz natijalar ekranida kun poyalarining juftligi qanday **shaklga ega** ekanligini ta'riflaymiz. Ular o'xshash pozitsiyalarmi, bir tomoni boshqasini qo'llab-quvvatlaydimi yoki bir tomoni bostirilganmi — agar bu qo'llab-quvvatlovchi yoki bostiruvchi munosabat bo'lsa, qaysi tomon o'sha pozitsiyani egallaganini aniqlaymiz."
           },
           {
             "p": "Agar faqat bitta ball taqdim etilsa, bu 'nima bo'ldi' degan savolni qoldiradi. Shakl ball emas, balki o'qish uchun bir narsa, va hatto past ballarga ega juftliklar ham talqin qilish uchun biror narsa bor."
@@ -736,7 +736,7 @@ export const UZ_DOCS = {
   "guide/yongsin": {
     "eyebrow": "Besh element",
     "title": "Qo'llab-quvvatlovchi Element — Hozirda kerak bo'lgan energiya",
-    "summary": "Biz besh elementni 'ikki tanladimi' deb emas, balki 'qarshi tomonimda menga kerak bo'lgan narsa bormi' deb ko'rib chiqamiz. Shuningdek, kuchli kun ustuni va zaif kun ustunini ajratib turuvchi chegara qiymatini ham oshkor qilamiz.",
+    "summary": "Biz besh elementni 'ikki tanladimi' deb emas, balki 'qarshi tomonimda menga kerak bo'lgan narsa bormi' deb ko'rib chiqamiz. Shuningdek, kuchli kun poyasi va zaif kun poyasini ajratib turuvchi chegara qiymatini ham oshkor qilamiz.",
     "backLabel": "Hisoblash asoslari",
     "sections": [
       {
@@ -754,7 +754,7 @@ export const UZ_DOCS = {
         "title": "Qo'llab-quvvatlovchi Element — Agar ortiqcha bo'lsa, kamaytiring, agar yetarli bo'lmasa, qo'shing",
         "blocks": [
           {
-            "p": "Qo'llab-quvvatlovchi Element (用神) — 'bu odamga hozirda kerak bo'lgan energiya'. Uni aniqlash uchun bir nechta usullar mavjud (bostirish, qo'llab-quvvatlash, kasallik va aloqa), lekin bu qoidalar bilan tarjima qilinishi mumkin, va eng keng tarqalgan usul **bostirish (抑扶)**. Agar kun ustuni kuchli bo'lsa, kamaytirish energiyasi kerak deb hisoblanadi, agar zaif bo'lsa, qo'shish energiyasi kerak deb hisoblanadi."
+            "p": "Qo'llab-quvvatlovchi Element (用神) — 'bu odamga hozirda kerak bo'lgan energiya'. Uni aniqlash uchun bir nechta usullar mavjud (bostirish, qo'llab-quvvatlash, kasallik va aloqa), lekin bu qoidalar bilan tarjima qilinishi mumkin, va eng keng tarqalgan usul **bostirish (抑扶)**. Agar kun poyasi kuchli bo'lsa, kamaytirish energiyasi kerak deb hisoblanadi, agar zaif bo'lsa, qo'shish energiyasi kerak deb hisoblanadi."
           },
           {
             "table": {
@@ -765,12 +765,12 @@ export const UZ_DOCS = {
               ],
               "rows": [
                 [
-                  "Kuchli kun ustuni (身强)",
+                  "Kuchli kun poyasi (身强)",
                   "Kamaytiruvchi energiya — 食傷 (sik-sang) · 財星 (jae-seong) · 官星 (gwan-seong)",
                   "Uch"
                 ],
                 [
-                  "Zaif kun ustuni (身弱)",
+                  "Zaif kun poyasi (身弱)",
                   "Qo'shish energiyasi — 印星 (in-seong) · 比劫 (bi-gyeob)",
                   "Ikki"
                 ],
@@ -788,7 +788,7 @@ export const UZ_DOCS = {
         "title": "Kuch va zaiflik uchun chegara qiymatlari",
         "blocks": [
           {
-            "p": "Kun ustuni tomoni **印星 va 比劫** — menga tug'diradigan energiya va menga o'xshaydigan energiya. Beshdan ikki bo'lgani uchun, agar energiya to'liq muvozanatli bo'lsa, bu {evenAllyRatio} ga aylanadi. Ushbu qiymatdan yuqorida va pastda chegaralar o'rnatiladi."
+            "p": "Kun poyasi tomoni **印星 va 比劫** — menga tug'diradigan energiya va menga o'xshaydigan energiya. Beshdan ikki bo'lgani uchun, agar energiya to'liq muvozanatli bo'lsa, bu {evenAllyRatio} ga aylanadi. Ushbu qiymatdan yuqorida va pastda chegaralar o'rnatiladi."
           },
           {
             "table": {
@@ -800,7 +800,7 @@ export const UZ_DOCS = {
               "rows": [
                 [
                   "{strongThreshold} yoki ko'proq",
-                  "Kuchli kun ustuni"
+                  "Kuchli kun poyasi"
                 ],
                 [
                   "{weakThreshold} yoki ko'proq va {strongThreshold} dan kam",
@@ -808,7 +808,7 @@ export const UZ_DOCS = {
                 ],
                 [
                   "Kam {weakThreshold} dan",
-                  "Zaif kun ustuni"
+                  "Zaif kun poyasi"
                 ]
               ]
             }
@@ -828,7 +828,7 @@ export const UZ_DOCS = {
         "title": "Kuch xarakterlar soni emas",
         "blocks": [
           {
-            "p": "Besh elementlarning kuchini hisoblaganda, biz oddiygina sakkiz xarakterni ko'rmaymiz. Biz yerli tarmoqlar ichidagi yashirin osmonga tegishli ustunlarni (地藏干) va tug'ilgan oy energiyasining mavsumini (月令) aks ettiruvchi qiymatdan foydalanamiz."
+            "p": "Besh elementlarning kuchini hisoblaganda, biz oddiygina sakkiz xarakterni ko'rmaymiz. Biz yer shoxlari ichidagi yashirin osmon poyalarini (地藏干) va tug'ilgan oy energiyasining mavsumini (月令) aks ettiruvchi qiymatdan foydalanamiz."
           },
           {
             "p": "Agar biz faqat yuzaki xarakterlarni hisoblasak, hatto ikki xarakterli 木 ham mavsumga qarab butunlay boshqacha kuchga ega ekanligini unutamiz. Bahorda bo'lgan 木 va kuzda bo'lgan 木, garchi ular bir xil xarakter bo'lsa-da, turlicha kuchga ega."
@@ -891,8 +891,8 @@ export const UZ_DOCS = {
               ],
               "rows": [
                 [
-                  "Kun ustuni munosabati · Er-xotin tabiati",
-                  "Ikkala odamning kun ustunlari — osmon ustunlari",
+                  "Kun poyasi munosabati · Turmush o'rtog'i tabiati",
+                  "Ikkala odamning kun poyalari — osmon poyalari",
                   "10"
                 ],
                 [
@@ -901,20 +901,20 @@ export const UZ_DOCS = {
                   "5"
                 ],
                 [
-                  "kun tarmog'i munosabati",
-                  "ikki odamning kun tarmoqlari",
+                  "kun shoxi munosabati",
+                  "ikki odamning kun shoxlari",
                   "12"
                 ],
                 [
                   "zodiak munosabati",
-                  "ikki odamning yil tarmoqlari",
+                  "ikki odamning yil shoxlari",
                   "12"
                 ]
               ]
             }
           },
           {
-            "p": "Elementlar o'rtasida qiymatlar almashilmaydi, shuning uchun **har bir tarmoq uchun eng yuqori nuqtani topish umumiy eng yuqori nuqtani beradi.** Tug'ilgan sanalar kombinatsiyalarini tekshirish shart emas — faqat o'n osmon ustunlarini, o'n ikki yer tarmog'ini va besh elementni belgilash kifoya."
+            "p": "Elementlar o'rtasida qiymatlar almashilmaydi, shuning uchun **har bir tarmoq uchun eng yuqori nuqtani topish umumiy eng yuqori nuqtani beradi.** Tug'ilgan sanalar kombinatsiyalarini tekshirish shart emas — faqat o'n osmon poyasini, o'n ikki yer shoxini va besh elementni belgilash kifoya."
           }
         ]
       },
@@ -934,7 +934,7 @@ export const UZ_DOCS = {
             "p": "Bu ekran ustida eng muhim qaror. Har bir tarmoq uchun eng yuqori ballarni yig'ish 'mukammal moslik' keltirishi mumkin, lekin o'sha odam **haqiqatan ham mavjud bo'lmasligi mumkin.**"
           },
           {
-            "p": "Haqiqiy odamlar, kun ustuni va besh element alohida ishlamaydi. 甲木 bilan tug'ilgan odam odatda kuchli 木 energiyasiga ham ega. Tarmoqlarni alohida hisoblash usuli bu bog'lanishni e'tiborga olmaydi, shuning uchun har bir tarmoq uchun eng yuqori ballarni bog'lash orqali olingan qiymat haqiqiy hayotda mavjud bo'lmagan kombinatsiya bo'ladi."
+            "p": "Haqiqiy odamlar, kun poyasi va besh element alohida ishlamaydi. 甲木 bilan tug'ilgan odam odatda kuchli 木 energiyasiga ham ega. Tarmoqlarni alohida hisoblash usuli bu bog'lanishni e'tiborga olmaydi, shuning uchun har bir tarmoq uchun eng yuqori ballarni bog'lash orqali olingan qiymat haqiqiy hayotda mavjud bo'lmagan kombinatsiya bo'ladi."
           },
           {
             "p": "Shuning uchun, ekran faqat **element ballarini** ko'rsatadi va umumiy ball bermaydi. Umumiy ball raqibning tug'ilgan sanasini [saju muvofiqligi](/compatibility) orqali olish bilan hisoblanadi."
@@ -948,7 +948,7 @@ export const UZ_DOCS = {
             "p": "Natija 'agar siz ushbu turdagi odam bilan uchrashsangiz, bu element yuqori ball oladi' degan ma'noni anglatadi. Bu odamni tanlash mezoni emas, balki o'zimni tushunishning bir nuqtai nazaridan o'qish usuli."
           },
           {
-            "p": "Ba'zi turlar yuqori ball olgan sabablari ham har bir element bo'yicha qayd etilgan — kun ustuni qulay pozitsiyada bo'ladimi yoki o'sha odamda hozirda kerak bo'lgan energiya bormi."
+            "p": "Ba'zi turlar yuqori ball olgan sabablari ham har bir element bo'yicha qayd etilgan — kun poyasi qulay pozitsiyada bo'ladimi yoki o'sha odamda hozirda kerak bo'lgan energiya bormi."
           }
         ]
       },
@@ -956,7 +956,7 @@ export const UZ_DOCS = {
         "title": "Tasdiqlash vositasi",
         "blocks": [
           {
-            "p": "Siz o'ylagan odam o'sha turga mos keladimi, deb qiziqishingiz mumkin. Natijalar ekranidagi tasdiqlash vositasiga ularning tug'ilgan sanasini kiritib, sizga ularning kun ustuni, kun tarmog'i va yil tarmog'ini ma'lum qilasiz. Kiruvchi qiymatlar hozirda saqlanmaydi [(saqlanmaydi)](/guide/no-storage)."
+            "p": "Siz o'ylagan odam o'sha turga mos keladimi, deb qiziqishingiz mumkin. Natijalar ekranidagi tasdiqlash vositasiga ularning tug'ilgan sanasini kiritib, sizga ularning kun poyasi, kun shoxi va yil shoxini ma'lum qilasiz. Kiruvchi qiymatlar hozirda saqlanmaydi [(saqlanmaydi)](/guide/no-storage)."
           }
         ]
       }
@@ -1172,7 +1172,7 @@ export const UZ_DOCS = {
             "p": "To'ldirish bir-biriga **asimmetrik**. Bu, men uchun zarur bo'lgan energiyalar va boshqalar uchun zarur bo'lgan energiyalar farq qiladi. Agar siz faqat o'rtacha qiymatga qarasangiz, bir tomonni boshqasini sezilarli darajada to'ldiradigan munosabat va ikkala tomon bir-birini teng to'ldiradigan munosabat bir xil raqam sifatida ko'rinadi. Hisobot bu ikkita farq qiladi."
           },
           {
-            "p": "Shuningdek, ushbu bo'limda **to'rt ustun munosabat jadvali** ham kiritilgan. Moslashuv darajasiga kiradigan yagona ustun — bu kunning filialidir (日支) — chunki bu erda turmush o'rtog'i pozitsiyasi, lekin boshqa yil, oy va soat filialari ham bir xil munosabat jadvali bilan o'qilishi mumkin."
+            "p": "Shuningdek, ushbu bo'limda **to'rt ustun munosabat jadvali** ham kiritilgan. Moslashuv darajasiga kiradigan yagona ustun — bu kun shoxidir (日支) — chunki bu erda turmush o'rtog'i pozitsiyasi, lekin boshqa yil, oy va soat shoxlari ham bir xil munosabat jadvali bilan o'qilishi mumkin."
           }
         ]
       },
@@ -1192,7 +1192,7 @@ export const UZ_DOCS = {
             "p": "Ekrandagi besh elementning ustunlari **qanchalik mavjudligini** ko'rsatadi. Hisobot **tug'ilish oyi ushbu energiyani qo'llab-quvvatlaydimi yoki yo'qmi** qo'shadi. Bir xil miqdorda bo'lsa ham, kuchli (旺) energiya va o'lgan (死) energiya turlicha kuchga ega."
           },
           {
-            "p": "Siz kuchlarni ko'rishingiz mumkin, tug'ilish oyining energiyasini ko'paytirishdan oldin va keyin yonma-yon ko'rsatib, faslning uni qanday ko'targanini ko'rsatadi. Kuchli kun ustuni va zaif kun ustuni o'rtasidagi farqni belgilovchi **ittifoq nisbati** ham eslatilgan — ekran faqat hukmni ko'rsatadi, lekin hisobot bu hukm qayerda qilinganini ko'rsatadi."
+            "p": "Siz kuchlarni ko'rishingiz mumkin, tug'ilish oyining energiyasini ko'paytirishdan oldin va keyin yonma-yon ko'rsatib, faslning uni qanday ko'targanini ko'rsatadi. Kuchli kun poyasi va zaif kun poyasi o'rtasidagi farqni belgilovchi **ittifoq nisbati** ham eslatilgan — ekran faqat hukmni ko'rsatadi, lekin hisobot bu hukm qayerda qilinganini ko'rsatadi."
           }
         ]
       },
@@ -1200,7 +1200,7 @@ export const UZ_DOCS = {
         "title": "6-sahifa — Boshqa insonning to'rt ustuni menga nima anglatadi",
         "blocks": [
           {
-            "p": "Moslashuv darajasi faqat ikkala shaxsning **kun ustunlarini** taqqoslaydi. Biroq, boshqa insonning qolgan uchta ustuni ham Ten Gods tomonidan bir xil qoidalar asosida aniqlanadi. Siz faqat kun ustuniga qarab **bu inson menga nima anglatishini** tushunishingiz mumkin, lekin **o'sha insonning pozitsiyasi menga nima anglatishini** bilolmaysiz."
+            "p": "Moslashuv darajasi faqat ikkala shaxsning **kun poyalarini** taqqoslaydi. Biroq, boshqa insonning qolgan uchta ustuni ham O'n Xudo tomonidan bir xil qoidalar asosida aniqlanadi. Siz faqat kun poyasiga qarab **bu inson menga nima anglatishini** tushunishingiz mumkin, lekin **o'sha insonning pozitsiyasi menga nima anglatishini** bilolmaysiz."
           },
           {
             "p": "Yo'nalishlar mavjud bo'lgani uchun, ikkala tomon alohida taqdim etiladi. Men ko'rayotganim va boshqalar ko'rayotganlari farq qiladi."
@@ -1227,7 +1227,7 @@ export const UZ_DOCS = {
       {
         "blocks": [
           {
-            "p": "Ushbu bo'lim **umumiy reyting jadvali**. Ekran faqat yaxshi mos keladigan to'plamlarni ko'rsatadi, lekin hisobot barcha o'n ta heavenly stem va o'n ikki ta earthly branchni **to'liq** reyting qiladi. Agar siz faqat eng yuqori to'plamlarga qarasangiz, 'keyingi kim' va 'qaysi eng mos kelmaydigan' haqida bilolmaysiz."
+            "p": "Ushbu bo'lim **umumiy reyting jadvali**. Ekran faqat yaxshi mos keladigan to'plamlarni ko'rsatadi, lekin hisobot barcha o'n ta osmon poyasi va o'n ikki ta yer shoxini **to'liq** reyting qiladi. Agar siz faqat eng yuqori to'plamlarga qarasangiz, 'keyingi kim' va 'qaysi eng mos kelmaydigan' haqida bilolmaysiz."
           }
         ]
       },
@@ -1311,7 +1311,7 @@ export const UZ_DOCS = {
         "kind": "note",
         "blocks": [
           {
-            "p": "So'rov emailida tug'ilish sanasi va vaqtini kiritishingiz shart emas. Biz kiritilgan qiymatlarni saqlamaymiz, shuning uchun ularga qaytib kelishimiz mumkin emas, va buyurtma raqami tasdiqlash uchun yetarli. Iltimos, agar hisoblash xato hisobotiga zarur bo'lsa, faqat uni qo'shing."
+            "p": "So'rov emailida tug'ilish sanasi va vaqtini kiritishingiz shart emas. Biz kiritilgan qiymatlarni saqlamaymiz, shuning uchun ularni qayta ololmaymiz, va buyurtma raqami tasdiqlash uchun yetarli. Iltimos, agar hisoblash xato hisobotiga zarur bo'lsa, faqat uni qo'shing."
           }
         ]
       }

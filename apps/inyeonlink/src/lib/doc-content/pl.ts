@@ -6,7 +6,7 @@ export const PL_DOCS = {
   "about": {
     "eyebrow": "O nas",
     "title": "O Inyeon-Link",
-    "summary": "Porównujemy dwa wykresy urodzeniowe w koreańskiej tradycji saju. Oto co obliczamy i co odmawiamy twierdzenia.",
+    "summary": "Porównujemy dwa wykresy urodzeniowe w koreańskiej tradycji saju. Oto co obliczamy i czego odmawiamy twierdzić.",
     "backLabel": "Strona główna",
     "sections": [
       {
@@ -24,10 +24,10 @@ export const PL_DOCS = {
         "title": "Co obliczamy",
         "blocks": [
           {
-            "p": "Wykresy są tworzone na podstawie **koreańskiego kalendarza lunisolarnym**, a czas urodzenia jest korygowany do **prawdziwego czasu słonecznego** dla miejsca urodzenia — ten sam czas zegarowy oznacza inną pozycję słońca w zależności od miejsca urodzenia."
+            "p": "Wykresy są tworzone na podstawie **koreańskiego kalendarza lunisolarnego**, a czas urodzenia jest korygowany do **prawdziwego czasu słonecznego** dla miejsca urodzenia — ten sam czas zegarowy oznacza inną pozycję słońca w zależności od miejsca urodzenia."
           },
           {
-            "p": "Wyniki pochodzą tylko z ustalonych zasad. Tradycyjne koncepcje — dziesięciu bogów, relacje między gałęziami, wspierający element — są wyrażane jako zasady, więc **ten sam input zawsze daje ten sam wynik.** Kiedy zasada się zmienia, uruchamiamy regresję, aby upewnić się, że starsze odczyty się nie zmieniły."
+            "p": "Wyniki pochodzą tylko z ustalonych zasad. Tradycyjne koncepcje — dziesięciu bogów, relacje między gałęziami, wspierający element — są wyrażane jako zasady, więc **te same dane wejściowe zawsze daje ten sam wynik.** Kiedy zasada się zmienia, uruchamiamy regresję, aby upewnić się, że starsze odczyty się nie zmieniły."
           },
           {
             "p": "**Nie ma zaangażowanej sztucznej inteligencji.** Każde zdanie na ekranie to stały tekst przypisany do obliczonego wyniku."
@@ -94,7 +94,7 @@ export const PL_DOCS = {
               "rows": [
                 [
                   "Kompatybilność Saju",
-                  "Mistrz dnia, gałąź dnia i pięć elementów — cztery elementy",
+                  "Pień dnia, gałąź dnia i pięć elementów — cztery elementy",
                   "{weightSaju}"
                 ],
                 [
@@ -118,7 +118,7 @@ export const PL_DOCS = {
           },
           {
             "figure": "four-pillars",
-            "caption": "Saju składa się z ośmiu znaków utworzonych przez niebiańskie pnie i ziemskie gałęzie roku, miesiąca, dnia i godziny urodzenia. Mistrz dnia i gałąź dnia wspomniane poniżej to dwa znaki w filarze dnia.",
+            "caption": "Saju składa się z ośmiu znaków utworzonych przez niebiańskie pnie i ziemskie gałęzie roku, miesiąca, dnia i godziny urodzenia. Pień dnia i gałąź dnia wspomniane poniżej to dwa znaki w filarze dnia.",
             "labels": {
               "year": "Filar Roku",
               "yearNote": "Korzeń · Zodiak",
@@ -129,7 +129,7 @@ export const PL_DOCS = {
               "hour": "Filar Godziny",
               "hourNote": "Późniejsze Lata · Użytkowanie",
               "stem": "Niebiański Pień",
-              "stemNote": "Mistrz Dnia = Ja",
+              "stemNote": "Pień Dnia = Ja",
               "branch": "Gałąź Ziemska",
               "branchNote": "Gałąź Dnia = Pałac Małżonka"
             }
@@ -144,7 +144,7 @@ export const PL_DOCS = {
               "rows": [
                 [
                   "Relacja Pnia Dnia",
-                  "Jakie są wzajemne relacje pni dni (日干) dwóch osób — postrzegane przez pryzmat Dziesięciu Bogów",
+                  "Jakie są wzajemne relacje pni dnia (日干) dwóch osób — postrzegane przez pryzmat Dziesięciu Bogów",
                   "{weightDayMaster}"
                 ],
                 [
@@ -159,7 +159,7 @@ export const PL_DOCS = {
                 ],
                 [
                   "Relacja Gałęzi Dnia",
-                  "Czy gałęzie dni (日支) dwóch osób są kombinacją czy zderzeniem?",
+                  "Czy gałęzie dnia (日支) dwóch osób tworzą harmonię czy zderzenie?",
                   "{weightDayBranch}"
                 ]
               ]
@@ -551,7 +551,7 @@ export const PL_DOCS = {
         "title": "Zgodność zodiakalna uwzględnia tylko jedną relację",
         "blocks": [
           {
-            "p": "Obliczenie zgodności zodiakalnej jest proste. Porównuje gałęzie roku dwóch osób, aby określić, czy relacja jest harmonijna, czy występuje konflikt, czy cicha niezgoda, i używa tego wyniku tak, jak jest. Ponieważ jest tylko jeden element, nie ma potrzeby przydzielania wag."
+            "p": "Obliczenie zgodności zodiakalnej jest proste. Porównuje gałęzie roku dwóch osób, aby określić, czy relacja jest harmonią, zderzeniem czy cichą niezgodą, i używa tego wyniku tak, jak jest. Ponieważ jest tylko jeden element, nie ma potrzeby przydzielania wag."
           },
           {
             "p": "Wyniki dla każdej relacji są wszystkie wymienione w [Tabeli Relacji Dwunastu Gałęzi](/guide/branches). Zgodność gałęzi dnia korzysta z tej samej tabeli."
@@ -569,7 +569,7 @@ export const PL_DOCS = {
           },
           {
             "ul": [
-              "**To najbardziej intuicyjnie zrozumiały element**. Nawet bez znajomości słownictwa tradycji, 'tygrys i małpa się kłócą' ma sens.",
+              "**To najbardziej intuicyjnie zrozumiały element**. Nawet bez znajomości słownictwa tradycji, 'tygrys i małpa się zderzają' ma sens.",
               "**To jedyna oś, która nie zmienia się, nawet jeśli czas urodzenia jest nieznany**. Jeśli nie znasz czasu, filar godziny jest brakujący, a siła pięciu elementów się zmienia, ale gałąź roku pozostaje taka sama."
             ]
           }
@@ -588,25 +588,25 @@ export const PL_DOCS = {
   "guide/ten-gods": {
     "eyebrow": "Dziesięć Bogów",
     "title": "Dziesięć Bogów i Pozycja Małżonka",
-    "summary": "Patrzymy na to, co każdy dzieńowy pień oznacza dla siebie nawzajem przez Dziesięć Bogów. Wyjaśniamy, dlaczego bezpośrednie bogactwo i pośrednie bogactwo są odczytywane inaczej, mimo że oba są bogactwem.",
+    "summary": "Patrzymy na to, czym pień dnia każdej osoby jest dla pnia dnia drugiej przez Dziesięć Bogów. Wyjaśniamy, dlaczego bezpośrednie bogactwo i pośrednie bogactwo są odczytywane inaczej, mimo że oba są bogactwem.",
     "backLabel": "Podstawa obliczeń",
     "sections": [
       {
-        "title": "Stempel dnia to sama osoba",
+        "title": "Pień dnia to sama osoba",
         "blocks": [
           {
-            "p": "Wśród ośmiu znaków saju, **dzień** (heavenly stem dnia urodzenia) odnosi się do samej osoby. Pozostałe siedem znaków jest odczytywanych jako środowisko, w którym znajduje się ten dzień."
+            "p": "Wśród ośmiu znaków saju, **pień dnia** (niebiański pień dnia urodzenia) odnosi się do samej osoby. Pozostałe siedem znaków jest odczytywanych jako środowisko, w którym znajduje się ten pień dnia."
           },
           {
-            "p": "**Dziesięć Bogów** (十神) dzieli sposób, w jaki stempel dnia postrzega inne znaki, na dziesięć kategorii. To, co mnie wspiera, to **zasoby**, to, co jest takie samo jak ja, to **rówieśnik**, to, co produkuję, to **wynik**, to, co kontroluję, to **bogactwo**, a to, co mną rządzi, to **władza** — każda z pięciu kategorii jest następnie podzielona według polaryzacji, co daje dziesięć."
+            "p": "**Dziesięć Bogów** (十神) dzieli sposób, w jaki pień dnia postrzega inne znaki, na dziesięć kategorii. To, co mnie wspiera, to **zasoby**, to, co jest takie samo jak ja, to **rówieśnik**, to, co produkuję, to **wynik**, to, co kontroluję, to **bogactwo**, a to, co mną rządzi, to **władza** — każda z pięciu kategorii jest następnie podzielona według polaryzacji, co daje dziesięć."
           }
         ]
       },
       {
-        "title": "Co każdy dzień oznacza dla siebie nawzajem",
+        "title": "Czym pień dnia każdej osoby jest dla drugiej",
         "blocks": [
           {
-            "p": "To jest pierwszy element w kompatybilności. Gdy ustali się, jak dzień A postrzega dzień B, postrzeganie B przez A również zostaje ustalone, więc istnieje **tylko sześć możliwości**."
+            "p": "To jest pierwszy element w kompatybilności. Gdy ustali się, jak pień dnia A postrzega pień dnia B, postrzeganie A przez B również zostaje ustalone, więc istnieje **tylko sześć możliwości**."
           },
           {
             "table": {
@@ -651,7 +651,7 @@ export const PL_DOCS = {
                 [
                   "Jedzący Bóg ↔ Pośrednie Zasoby",
                   "Ta sama biegunowość",
-                  "Sowa kradnie jedzenie (梟神奪食)",
+                  "Gwiazda sowy kradnie jedzenie (梟神奪食)",
                   "Energia dawana jest zabierana przez drugą stronę, blokując przepływ."
                 ]
               ]
@@ -664,7 +664,7 @@ export const PL_DOCS = {
         "title": "Yin i Yang są na rozdrożu",
         "blocks": [
           {
-            "p": "Strona, gdzie yin i yang są niedopasowane (Proper Wealth, Proper Officer, Proper Companion) jest emocjonalna, podczas gdy ta sama strona (Resource, Officer, Companion) jest bezemocjonalna, co jest zasadą, która odróżnia właściwą stronę od strony Dziesięciu Bogów."
+            "p": "Strona, gdzie yin i yang są niedopasowane (Właściwe Bogactwo, Właściwa Władza, Właściwy Towarzysz) jest emocjonalna, podczas gdy ta sama strona (Zasoby, Władza, Towarzysz) jest bezemocjonalna, co jest zasadą, która odróżnia właściwą stronę od strony Dziesięciu Bogów."
           }
         ]
       },
@@ -672,10 +672,10 @@ export const PL_DOCS = {
         "title": "Powód, dla którego patrzymy przez Dziesięć Bogów zamiast trzech elementów",
         "blocks": [
           {
-            "p": "Istnieje metoda patrzenia na relację dnia z trzema elementami (wzajemne generowanie, podobieństwo, wzajemne pokonywanie). Jest to proste, ale **yin i yang znikają.** 甲 (yang wood) i 乙 (yin wood) stają się tym samym 'podobieństwem' jak 甲 i 甲, a wzajemne pokonywanie jest spłaszczane do jednego wyniku bez kierunku ani yin i yang."
+            "p": "Istnieje metoda patrzenia na relację pnia dnia z trzema elementami (wzajemne generowanie, podobieństwo, wzajemne pokonywanie). Jest to proste, ale **yin i yang znikają.** 甲 (drewno yang) i 乙 (drewno yin) stają się tym samym 'podobieństwem' jak 甲 i 甲, a wzajemne pokonywanie jest spłaszczane do jednego wyniku bez kierunku ani yin i yang."
           },
           {
-            "p": "Pozycja małżonka musi być oceniana w kontekście Dziesięciu Bogów. Jeśli elementy postrzegane przez pięć elementów i elementy postrzegane przez Dziesięć Bogów są mieszane w jednym silniku, będą dwa standardy dla tych samych dwóch znaków. Dlatego jednoczymy się z Dziesięcioma Bogami."
+            "p": "Pozycja małżonka musi być oceniana w kontekście Dziesięciu Bogów. Jeśli elementy postrzegane przez pięć elementów i elementy postrzegane przez Dziesięć Bogów są mieszane w jednym silniku, będą dwa standardy dla tych samych dwóch znaków. Dlatego ujednolicamy według Dziesięciu Bogów."
           }
         ]
       },
@@ -707,7 +707,7 @@ export const PL_DOCS = {
             }
           },
           {
-            "p": "Nawet jeśli są tymi samymi zasobami, tylko emocjonalny **Właściwy Majątek** jest uważany za pozycję małżonka, podczas gdy Zasób jest odczytywany jako natura aktywności i bogactwa. Dlatego Właściwy Majątek i Właściwy Urzędnik liczą się jako 2 punkty, podczas gdy Zasób i Urzędnik liczą się jako 1 punkt, a obie strony są sumowane — jeśli obie są postrzegane jako pozycje małżonka, to jest to najwyższa ocena."
+            "p": "Nawet jeśli są tymi samymi zasobami, tylko emocjonalny **Właściwe Bogactwo** jest uważany za pozycję małżonka, podczas gdy Zasoby są odczytywane jako natura aktywności i bogactwa. Dlatego Właściwe Bogactwo i Właściwa Władza liczą się jako 2 punkty, podczas gdy Zasoby i Władza liczą się jako 1 punkt, a obie strony są sumowane — jeśli obie są postrzegane jako pozycje małżonka, to jest to najwyższa ocena."
           }
         ]
       },
@@ -724,7 +724,7 @@ export const PL_DOCS = {
         "title": "Pokazujemy również kształt relacji",
         "blocks": [
           {
-            "p": "Oprócz wyniku, opisujemy **jaki kształt** mają pary pni dni na ekranie wyników. Czy są podobnymi pozycjami, czy jedna strona wspiera drugą, czy jedna strona jest tłumiona — jeśli jest to relacja wspierająca lub tłumiąca, wyjaśniamy, która strona zajmuje tę pozycję."
+            "p": "Oprócz wyniku, opisujemy **jaki kształt** mają pary pni dnia na ekranie wyników. Czy są podobnymi pozycjami, czy jedna strona wspiera drugą, czy jedna strona jest tłumiona — jeśli jest to relacja wspierająca lub tłumiąca, wyjaśniamy, która strona zajmuje tę pozycję."
           },
           {
             "p": "Jeśli prezentowany jest tylko jeden wynik, pozostawia to pytanie 'i co z tego'. Kształt nie jest wynikiem, ale czymś do odczytania, a nawet pary z niskimi wynikami mają coś do zinterpretowania."
@@ -828,7 +828,7 @@ export const PL_DOCS = {
         "title": "Moc nie jest liczbą znaków",
         "blocks": [
           {
-            "p": "Podczas liczenia mocy pięciu elementów, nie liczymy po prostu ośmiu znaków tak, jak się pojawiają. Używamy wartości, która odzwierciedla ukryte pnie niebieskie (地藏干) w ziemskich gałęziach oraz sezon energii miesiąca (月令), w którym się urodzono."
+            "p": "Podczas liczenia mocy pięciu elementów, nie liczymy po prostu ośmiu znaków tak, jak się pojawiają. Używamy wartości, która odzwierciedla ukryte niebiańskie pnie (地藏干) w ziemskich gałęziach oraz sezon energii miesiąca (月令), w którym się urodzono."
           },
           {
             "p": "Jeśli liczymy tylko powierzchowne znaki, umykamy faktowi, że nawet dwa znaki 木 mogą mieć zupełnie różne siły w zależności od sezonu. 木 wiosny i 木 jesieni, chociaż są tym samym znakiem, mają różne moce."
@@ -886,22 +886,22 @@ export const PL_DOCS = {
             "table": {
               "head": [
                 "Element",
-                "Jaki jest oś badania",
+                "Jaka jest oś badania",
                 "Liczba przypadków"
               ],
               "rows": [
                 [
-                  "Relacja między dniem a małżeństwem",
-                  "Dzień stempla obu osób — niebiańskie stempla",
+                  "Relacja pnia dnia · Natura małżonka",
+                  "Pnie dnia obu osób — niebiańskie pnie",
                   "10"
                 ],
                 [
                   "Uzupełnienie pięciu elementów",
-                  "Mój wspierający element i pięciomoc przeciwnika",
+                  "Mój wspierający element i moc pięciu elementów przeciwnika",
                   "5"
                 ],
                 [
-                  "Relacja między gałęzią dnia",
+                  "Relacja gałęzi dnia",
                   "gałęzie dnia obu osób",
                   "12"
                 ],
@@ -914,7 +914,7 @@ export const PL_DOCS = {
             }
           },
           {
-            "p": "Ponieważ wartości nie wymieniają się między elementami, **znalezienie najwyższego punktu dla każdej gałęzi będzie ogólnym najwyższym punktem**. Nie ma potrzeby sprawdzania wszystkich kombinacji dat urodzenia — wystarczy ustawić dziesięć niebiańskich stempla, dwanaście ziemskich gałęzi i pięć elementów."
+            "p": "Ponieważ wartości nie wymieniają się między elementami, **znalezienie najwyższego punktu dla każdej gałęzi będzie ogólnym najwyższym punktem**. Nie ma potrzeby sprawdzania wszystkich kombinacji dat urodzenia — wystarczy ustawić dziesięć niebiańskich pni, dwanaście ziemskich gałęzi i pięć elementów."
           }
         ]
       },
@@ -1172,7 +1172,7 @@ export const PL_DOCS = {
             "p": "Komplementarność jest z natury **asymetryczna**. Dzieje się tak, ponieważ energie potrzebne mi i energie potrzebne drugiej osobie są różne. Jeśli spojrzysz tylko na średnią, relacja, w której jedna strona znacząco wypełnia drugą, oraz relacja, w której obie strony wypełniają się nawzajem równomiernie, będą wyglądać na tę samą liczbę. Raport oddziela te dwie."
           },
           {
-            "p": "W tej samej sekcji znajduje się również **wykres relacji czterech filarów**. Jedynym, który wchodzi w wskaźnik dopasowania, jest dzień gałęzi (日支) — ponieważ to pozycja małżonka — ale inne gałęzie roku, miesiąca i godziny również można odczytać za pomocą tego samego wykresu relacji."
+            "p": "W tej samej sekcji znajduje się również **wykres relacji czterech filarów**. Jedynym, który wchodzi w wskaźnik dopasowania, jest gałąź dnia (日支) — ponieważ to pozycja małżonka — ale inne gałęzie roku, miesiąca i godziny również można odczytać za pomocą tego samego wykresu relacji."
           }
         ]
       },
@@ -1200,7 +1200,7 @@ export const PL_DOCS = {
         "title": "Strona 6 — Co oznaczają cztery filary drugiej osoby dla mnie",
         "blocks": [
           {
-            "p": "Wskaźnik dopasowania porównuje tylko **stemple dnia** obu osób. Jednak pozostałe trzy filary drugiej osoby są również określane przez Dziesięć Bogów według tych samych zasad. Chociaż możesz zrozumieć **co ta osoba dla mnie znaczy** patrząc tylko na stempel dnia, nie możesz wiedzieć **jaką pozycję ta osoba zajmuje dla mnie**."
+            "p": "Wskaźnik dopasowania porównuje tylko **pnie dnia** obu osób. Jednak pozostałe trzy filary drugiej osoby są również określane przez Dziesięć Bogów według tych samych zasad. Chociaż możesz zrozumieć **co ta osoba dla mnie znaczy** patrząc tylko na pień dnia, nie możesz wiedzieć **jaką pozycję ta osoba zajmuje dla mnie**."
           },
           {
             "p": "Ponieważ są kierunki, obie strony są przedstawione osobno. To, co widzę, i to, co widzi druga osoba, jest różne."
@@ -1227,7 +1227,7 @@ export const PL_DOCS = {
       {
         "blocks": [
           {
-            "p": "Ta sekcja to **ogólny ranking**. Ekran pokazuje tylko zestawy, które dobrze pasują, ale raport klasyfikuje wszystkie dziesięć stempli niebiańskich i dwanaście gałęzi ziemskich **całkowicie**. Jeśli spojrzysz tylko na najlepsze zestawy, nie będziesz wiedzieć 'kto jest następny' i 'który jest najmniej kompatybilny'."
+            "p": "Ta sekcja to **ogólny ranking**. Ekran pokazuje tylko zestawy, które dobrze pasują, ale raport klasyfikuje wszystkie dziesięć niebiańskich pni i dwanaście gałęzi ziemskich **całkowicie**. Jeśli spojrzysz tylko na najlepsze zestawy, nie będziesz wiedzieć 'kto jest następny' i 'który jest najmniej kompatybilny'."
           }
         ]
       },

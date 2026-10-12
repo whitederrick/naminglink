@@ -59,7 +59,7 @@ export const IT_DOCS = {
   "guide": {
     "eyebrow": "Base di Calcolo",
     "title": "Qual è la Base per il Calcolo?",
-    "summary": "Inyeon-Link rivela tutte le regole che utilizza. Puoi controllare gli elementi e i loro pesi, i punteggi dalla tabella delle relazioni tra rami terrestri e i valori soglia che distinguono un giorno maestro forte da uno debole — puoi vedere da dove provengono i numeri sullo schermo.",
+    "summary": "Inyeon-Link rivela tutte le regole che utilizza. Puoi controllare gli elementi e i loro pesi, i punteggi dalla tabella delle relazioni tra rami terrestri e i valori soglia che distinguono un tronco del giorno forte da uno debole — puoi vedere da dove provengono i numeri sullo schermo.",
     "backLabel": "Torna all'Inizio",
     "sections": [
       {
@@ -94,7 +94,7 @@ export const IT_DOCS = {
               "rows": [
                 [
                   "Compatibilità Saju",
-                  "Giorno maestro, giorno ramo e i cinque elementi — quattro elementi",
+                  "Tronco del giorno, ramo del giorno e i cinque elementi — quattro elementi",
                   "{weightSaju}"
                 ],
                 [
@@ -118,7 +118,7 @@ export const IT_DOCS = {
           },
           {
             "figure": "four-pillars",
-            "caption": "Il saju è composto da otto caratteri formati dai rami celesti e terrestri dell'anno, mese, giorno e ora di nascita. Il giorno maestro e il giorno ramo menzionati di seguito sono i due caratteri nel pilastro del giorno.",
+            "caption": "Il saju è composto da otto caratteri formati dai tronchi celesti e dai rami terrestri dell'anno, mese, giorno e ora di nascita. Il tronco del giorno e il ramo del giorno menzionati di seguito sono i due caratteri nel pilastro del giorno.",
             "labels": {
               "year": "Pilastro dell'Anno",
               "yearNote": "Radice · Zodiaco",
@@ -128,8 +128,8 @@ export const IT_DOCS = {
               "dayNote": "Io · Palazzo del Coniuge",
               "hour": "Pilastro dell'Ora",
               "hourNote": "Anni Successivi · Utilizzo",
-              "stem": "Ramo Celeste",
-              "stemNote": "Giorno Maestro = Io",
+              "stem": "Tronco Celeste",
+              "stemNote": "Tronco del Giorno = Io",
               "branch": "Ramo Terrestre",
               "branchNote": "Ramo del Giorno = Palazzo del Coniuge"
             }
@@ -143,8 +143,8 @@ export const IT_DOCS = {
               ],
               "rows": [
                 [
-                  "Relazione del Ramo del Giorno",
-                  "Cosa sono i rami del giorno (日干) delle due persone l'uno rispetto all'altro — visto attraverso i Dieci Dei",
+                  "Relazione del Tronco del Giorno",
+                  "Cosa sono i tronchi del giorno (日干) delle due persone l'uno rispetto all'altro — visto attraverso i Dieci Dei",
                   "{weightDayMaster}"
                 ],
                 [
@@ -154,7 +154,7 @@ export const IT_DOCS = {
                 ],
                 [
                   "Stella del Coniuge",
-                  "Il ramo del giorno del partner corrisponde alla mia posizione di coniuge?",
+                  "Il tronco del giorno del partner corrisponde alla mia posizione di coniuge?",
                   "{weightSpouseStar}"
                 ],
                 [
@@ -202,7 +202,7 @@ export const IT_DOCS = {
         "title": "Lo stesso input produrrà sempre lo stesso valore",
         "blocks": [
           {
-            "p": "Tutti i punteggi sono determinati da regole. Non viene utilizzata intelligenza artificiale, né vengono impiegati numeri casuali. Pertanto, inserire le stesse due date di nascita più volte non produrrà risultati diversi. Essendo un servizio che non memorizza dati, i risultati precedenti non possono essere recuperati, ma **determinismo** compensa questo."
+            "p": "Tutti i punteggi sono determinati da regole. Non viene utilizzata intelligenza artificiale, né vengono impiegati numeri casuali. Pertanto, inserire le stesse due date di nascita più volte non produrrà risultati diversi. Essendo un servizio che non memorizza dati, i risultati precedenti non possono essere recuperati, ma il **determinismo** compensa questo."
           }
         ]
       },
@@ -460,21 +460,21 @@ export const IT_DOCS = {
   "guide/zodiac": {
     "eyebrow": "Zodiaco",
     "title": "Perché la compatibilità zodiacale considera il ramo dell'anno?",
-    "summary": "Il zodiac è il ramo terrestre dell'anno di nascita. Questo spiega perché è derivato dal pilastro dell'anno del saju piuttosto che dall'anno solare, e chiarisce il significato della compatibilità zodiacale.",
+    "summary": "Lo zodiaco è il ramo terrestre dell'anno di nascita. Questo spiega perché è derivato dal pilastro dell'anno del saju piuttosto che dall'anno solare, e chiarisce il significato della compatibilità zodiacale.",
     "backLabel": "Base di Calcolo",
     "sections": [
       {
-        "title": "Il zodiac è il ramo terrestre dell'anno di nascita",
+        "title": "Lo zodiaco è il ramo terrestre dell'anno di nascita",
         "blocks": [
           {
-            "p": "Il saju è composto da quattro pilastri: anno, mese, giorno e ora, con ogni pilastro contenente un cielo stem e un ramo terrestre. Il **ramo dell'anno** è quello che porta l'animale che chiamiamo segno zodiacale."
+            "p": "Il saju è composto da quattro pilastri: anno, mese, giorno e ora, con ogni pilastro contenente un tronco celeste e un ramo terrestre. Il **ramo dell'anno** è quello che porta l'animale che chiamiamo segno zodiacale."
           },
           {
             "table": {
-              "caption": "I Dodici Rami Terrestri e il Zodiac",
+              "caption": "I Dodici Rami Terrestri e lo Zodiaco",
               "head": [
                 "Ramo Terrestre",
-                "Zodiac"
+                "Zodiaco"
               ],
               "rows": [
                 [
@@ -534,16 +534,16 @@ export const IT_DOCS = {
         "title": "Utilizziamo l'anno del saju, non l'anno solare",
         "blocks": [
           {
-            "p": "Il punto in cui cambia il zodiac non è né il 1° gennaio del calendario solare né il Capodanno lunare. Lo standard per cambiare anno nel saju è **Ipchun**. Pertanto, coloro che sono nati a gennaio o all'inizio di febbraio potrebbero avere un anno zodiacale diverso da quello del calendario."
+            "p": "Il punto in cui cambia lo zodiaco non è né il 1° gennaio del calendario solare né il Capodanno lunare. Lo standard per cambiare anno nel saju è **Ipchun**. Pertanto, coloro che sono nati a gennaio o all'inizio di febbraio potrebbero avere un anno zodiacale diverso da quello del calendario."
           }
         ]
       },
       {
         "kind": "note",
-        "title": "Il motivo per cui non chiediamo direttamente del zodiac",
+        "title": "Il motivo per cui non chiediamo direttamente dello zodiaco",
         "blocks": [
           {
-            "p": "Questo è il motivo per cui raccogliamo solo la data di nascita senza chiedere il zodiac nella schermata di input. Quando il motore del saju calcola il ramo dell'anno, il confine di Ipchun viene automaticamente regolato. Se lo selezioni direttamente, qualcuno nato all'inizio di febbraio potrebbe scegliere un zodiac che non corrisponde al suo reale."
+            "p": "Questo è il motivo per cui raccogliamo solo la data di nascita senza chiedere lo zodiaco nella schermata di input. Quando il motore del saju calcola il ramo dell'anno, il confine di Ipchun viene automaticamente regolato. Se lo selezioni direttamente, qualcuno nato all'inizio di febbraio potrebbe scegliere uno zodiaco che non corrisponde al suo reale."
           }
         ]
       },
@@ -562,7 +562,7 @@ export const IT_DOCS = {
         "title": "Il motivo per determinare il peso",
         "blocks": [
           {
-            "p": "La compatibilità zodiacale conta per {weightZodiac} del tasso finale di corrispondenza. Mentre la compatibilità del saju considera tutti e quattro i pilastri, il zodiac considera solo un carattere, quindi non possono essere pesati in modo uguale."
+            "p": "La compatibilità zodiacale conta per {weightZodiac} del tasso finale di corrispondenza. Mentre la compatibilità del saju considera tutti e quattro i pilastri, lo zodiaco considera solo un carattere, quindi non possono essere pesati in modo uguale."
           },
           {
             "p": "Tuttavia, ci sono due motivi per cui non è escluso."
@@ -588,11 +588,11 @@ export const IT_DOCS = {
   "guide/ten-gods": {
     "eyebrow": "Dieci Dei",
     "title": "Dieci Dei e Posizione del Coniuge",
-    "summary": "Esaminiamo cosa rappresenta il giorno di ciascuna persona rispetto all'altra attraverso i Dieci Dei. Spieghiamo perché la ricchezza diretta e la ricchezza indiretta vengono lette in modo diverso anche se entrambe sono ricchezze.",
+    "summary": "Esaminiamo cosa rappresenta il tronco del giorno di ciascuna persona rispetto all'altra attraverso i Dieci Dei. Spieghiamo perché la ricchezza diretta e la ricchezza indiretta vengono lette in modo diverso anche se entrambe sono ricchezze.",
     "backLabel": "Base di Calcolo",
     "sections": [
       {
-        "title": "Il giorno del tronco è la persona stessa",
+        "title": "Il tronco del giorno è la persona stessa",
         "blocks": [
           {
             "p": "Tra gli otto caratteri del saju, il **tronco del giorno** (il tronco celeste del giorno di nascita) si riferisce alla persona stessa. Gli altri sette caratteri vengono letti come l'ambiente in cui si trova quel tronco del giorno."
@@ -707,7 +707,7 @@ export const IT_DOCS = {
             }
           },
           {
-            "p": "Anche se sono la stessa risorsa, solo il **Proper Wealth** emotivo è considerato la posizione del coniuge, mentre la Risorsa è letta come la natura dell'attività e della ricchezza. Pertanto, Proper Wealth e Proper Officer contano come 2 punti, mentre Risorsa e Officer contano come 1 punto, e entrambe le direzioni vengono sommate — se entrambe sono viste come posizioni coniugali, è il punteggio più alto."
+            "p": "Anche se sono la stessa risorsa, solo la **Ricchezza Propria** emotiva è considerato la posizione del coniuge, mentre la Risorsa è letta come la natura dell'attività e della ricchezza. Pertanto, Ricchezza Propria e Ufficiale Proprio contano come 2 punti, mentre Risorsa e Ufficiale contano come 1 punto, e entrambe le direzioni vengono sommate — se entrambe sono viste come posizioni coniugali, è il punteggio più alto."
           }
         ]
       },
@@ -724,7 +724,7 @@ export const IT_DOCS = {
         "title": "Mostriamo anche la forma della relazione",
         "blocks": [
           {
-            "p": "Oltre al punteggio, descriviamo **che forma** ha la coppia di day stems nella schermata dei risultati. Se sono posizioni simili, se un lato supporta l'altro, o se un lato è soppresso — se si tratta di una relazione di supporto o di soppressione, chiariremo quale lato detiene quella posizione."
+            "p": "Oltre al punteggio, descriviamo **che forma** ha la coppia di tronchi del giorno nella schermata dei risultati. Se sono posizioni simili, se un lato supporta l'altro, o se un lato è soppresso — se si tratta di una relazione di supporto o di soppressione, chiariremo quale lato detiene quella posizione."
           },
           {
             "p": "Se viene presentato solo un punteggio, rimane la domanda 'e quindi?'. La forma non è un punteggio ma qualcosa da leggere, e anche le coppie con punteggi bassi hanno qualcosa da interpretare."
@@ -736,7 +736,7 @@ export const IT_DOCS = {
   "guide/yongsin": {
     "eyebrow": "I cinque elementi",
     "title": "Elemento di Supporto — L'energia necessaria ora",
-    "summary": "Consideriamo i cinque elementi non come 'hanno scelto due' ma come 'il mio partner ha ciò di cui ho bisogno'. Riveliamo anche il valore limite che distingue un day master forte da uno debole.",
+    "summary": "Consideriamo i cinque elementi non come 'hanno scelto due' ma come 'il mio partner ha ciò di cui ho bisogno'. Riveliamo anche il valore limite che distingue un tronco del giorno forte da uno debole.",
     "backLabel": "Base di calcolo",
     "sections": [
       {
@@ -754,7 +754,7 @@ export const IT_DOCS = {
         "title": "Elemento di Supporto — Ridurre se eccessivo, aggiungere se insufficiente",
         "blocks": [
           {
-            "p": "L'Elemento di Supporto (用神) è 'l'energia di cui questa persona ha bisogno in questo momento'. Ci sono diversi metodi per determinarlo (soppressione, supporto, malattia e comunicazione), ma può essere tradotto in regole, e il più ampiamente utilizzato è **soppressione (抑扶)**. Se il day master è forte, si vede che è necessaria l'energia da ridurre, e se è debole, è necessaria l'energia da aggiungere."
+            "p": "L'Elemento di Supporto (用神) è 'l'energia di cui questa persona ha bisogno in questo momento'. Ci sono diversi metodi per determinarlo (soppressione, supporto, malattia e comunicazione), ma può essere tradotto in regole, e il più ampiamente utilizzato è **soppressione (抑扶)**. Se il tronco del giorno è forte, si vede che è necessaria l'energia da ridurre, e se è debole, è necessaria l'energia da aggiungere."
           },
           {
             "table": {
@@ -765,12 +765,12 @@ export const IT_DOCS = {
               ],
               "rows": [
                 [
-                  "Strong day master (身强)",
+                  "Tronco del giorno forte (身强)",
                   "Energia in diminuzione — 食傷 (sik-sang) · 財星 (jae-seong) · 官星 (gwan-seong)",
                   "Tre"
                 ],
                 [
-                  "Weak day master (身弱)",
+                  "Tronco del giorno debole (身弱)",
                   "Energia in aggiunta — 印星 (in-seong) · 比劫 (bi-gyeob)",
                   "Due"
                 ],
@@ -788,7 +788,7 @@ export const IT_DOCS = {
         "title": "Valori soglia per forza e debolezza",
         "blocks": [
           {
-            "p": "Il lato del day stem è **印星 e 比劫** — l'energia che mi genera e l'energia che è simile a me. Poiché due su cinque, se l'energia è completamente bilanciata, diventa {evenAllyRatio}. Viene impostato un intervallo sopra e sotto quel valore."
+            "p": "Il lato del tronco del giorno è **印星 e 比劫** — l'energia che mi genera e l'energia che è simile a me. Poiché due su cinque, se l'energia è completamente bilanciata, diventa {evenAllyRatio}. Viene impostato un intervallo sopra e sotto quel valore."
           },
           {
             "table": {
@@ -800,7 +800,7 @@ export const IT_DOCS = {
               "rows": [
                 [
                   "{strongThreshold} o più",
-                  "Strong day master"
+                  "Tronco del giorno forte"
                 ],
                 [
                   "{weakThreshold} o più e meno di {strongThreshold}",
@@ -808,7 +808,7 @@ export const IT_DOCS = {
                 ],
                 [
                   "Meno di {weakThreshold}",
-                  "Weak day master"
+                  "Tronco del giorno debole"
                 ]
               ]
             }
@@ -828,7 +828,7 @@ export const IT_DOCS = {
         "title": "Il potere non è il numero di caratteri",
         "blocks": [
           {
-            "p": "Quando contiamo il potere dei cinque elementi, non contiamo semplicemente gli otto caratteri così come appaiono. Utilizziamo un valore che riflette i heavenly stems nascosti (地藏干) all'interno degli earthly branches e la stagione dell'energia del mese (月令) in cui si è nati."
+            "p": "Quando contiamo il potere dei cinque elementi, non contiamo semplicemente gli otto caratteri così come appaiono. Utilizziamo un valore che riflette i tronchi celesti nascosti (地藏干) all'interno dei rami terrestri e la stagione dell'energia del mese (月令) in cui si è nati."
           },
           {
             "p": "Se contiamo solo i caratteri superficiali, perdiamo il fatto che anche due caratteri di 木 possono avere forze completamente diverse a seconda della stagione. Il 木 di primavera e il 木 di autunno, sebbene siano lo stesso carattere, hanno poteri diversi."
@@ -891,8 +891,8 @@ export const IT_DOCS = {
               ],
               "rows": [
                 [
-                  "Relazione del giorno stem · Natura coniugale",
-                  "I day stems di entrambe le persone — heavenly stems",
+                  "Relazione del tronco del giorno · Natura coniugale",
+                  "I tronchi del giorno di entrambe le persone — tronchi celesti",
                   "10"
                 ],
                 [
@@ -901,20 +901,20 @@ export const IT_DOCS = {
                   "5"
                 ],
                 [
-                  "Relazione del giorno branch",
-                  "i day branches delle due persone",
+                  "Relazione del ramo del giorno",
+                  "i rami del giorno delle due persone",
                   "12"
                 ],
                 [
                   "Relazione zodiacale",
-                  "i year branches delle due persone",
+                  "i rami dell'anno delle due persone",
                   "12"
                 ]
               ]
             }
           },
           {
-            "p": "Poiché i valori non si scambiano tra gli elementi, **trovare il punteggio più alto per ciascun ramo sarà il punteggio complessivo più alto**. Non è necessario controllare tutte le combinazioni di date di nascita: basta impostare i dieci heavenly stems, i dodici earthly branches e i cinque elementi."
+            "p": "Poiché i valori non si scambiano tra gli elementi, **trovare il punteggio più alto per ciascun ramo sarà il punteggio complessivo più alto**. Non è necessario controllare tutte le combinazioni di date di nascita: basta impostare i dieci tronchi celesti, i dodici rami terrestri e i cinque elementi."
           }
         ]
       },
@@ -934,10 +934,10 @@ export const IT_DOCS = {
             "p": "Questa è la decisione più importante su questo schermo. Raccogliere i punteggi più alti per ciascun ramo può sembrare produrre un 'abbinamento perfetto', ma quella persona potrebbe **non esistere realmente.**"
           },
           {
-            "p": "Nelle persone reali, il day master e i cinque elementi non operano separatamente. Una persona con 甲木 di solito ha anche una forte energia 木. Questo metodo di conteggio dei rami separatamente ignora quella correlazione, quindi il valore ottenuto collegando i punteggi più alti per ciascun ramo diventa una combinazione che non esiste nella realtà."
+            "p": "Nelle persone reali, il tronco del giorno e i cinque elementi non operano separatamente. Una persona con 甲木 di solito ha anche una forte energia 木. Questo metodo di conteggio dei rami separatamente ignora quella correlazione, quindi il valore ottenuto collegando i punteggi più alti per ciascun ramo diventa una combinazione che non esiste nella realtà."
           },
           {
-            "p": "Pertanto, lo schermo mostra solo **i punteggi degli elementi** e non fornisce un punteggio totale. Il punteggio totale sarà calcolato ricevendo la data di nascita dell'altra persona per [saju compatibility](/compatibility)."
+            "p": "Pertanto, lo schermo mostra solo **i punteggi degli elementi** e non fornisce un punteggio totale. Il punteggio totale sarà calcolato ricevendo la data di nascita dell'altra persona per [compatibilità saju](/compatibility)."
           }
         ]
       },
@@ -948,7 +948,7 @@ export const IT_DOCS = {
             "p": "Il risultato significa 'se incontri una persona di questo tipo, questo elemento avrà un punteggio elevato'. Non è un criterio per scegliere una persona, ma piuttosto un modo per leggerlo da una prospettiva di comprensione di me stesso."
           },
           {
-            "p": "Le ragioni per cui certi tipi hanno ottenuto punteggi elevati sono anche annotate elemento per elemento — se il day master è in una posizione favorevole, o se quella persona possiede l'energia di cui ho attualmente bisogno."
+            "p": "Le ragioni per cui certi tipi hanno ottenuto punteggi elevati sono anche annotate elemento per elemento — se il tronco del giorno è in una posizione favorevole, o se quella persona possiede l'energia di cui ho attualmente bisogno."
           }
         ]
       },
@@ -956,7 +956,7 @@ export const IT_DOCS = {
         "title": "Strumento di conferma",
         "blocks": [
           {
-            "p": "Potresti essere curioso se la persona che hai in mente corrisponde a quel tipo. Inserendo la loro data di nascita nello strumento di conferma nella schermata dei risultati, sarai informato del loro day master, day branch e year branch. I valori inseriti non vengono salvati in questo momento [(non salvati)](/guide/no-storage)."
+            "p": "Potresti essere curioso se la persona che hai in mente corrisponde a quel tipo. Inserendo la loro data di nascita nello strumento di conferma nella schermata dei risultati, sarai informato del loro tronco del giorno, ramo del giorno e ramo dell'anno. I valori inseriti non vengono salvati in questo momento [(non salvati)](/guide/no-storage)."
           }
         ]
       }
@@ -1192,7 +1192,7 @@ export const IT_DOCS = {
             "p": "Le barre dei cinque elementi sullo schermo mostrano **quanto è presente**. Il rapporto aggiunge **se il mese di nascita supporta quell'energia**. Anche con la stessa quantità, l'energia che è forte (旺) e l'energia che è morta (死) hanno forze diverse."
           },
           {
-            "p": "Puoi vedere le forze prima e dopo aver moltiplicato per l'energia del mese affiancate, mostrando quanto la stagione l'ha spinta. Il **rapporto degli alleati** che distingue tra un giorno maestro forte e un giorno maestro debole è anche annotato — lo schermo mostra solo il giudizio, ma il rapporto mostra dove è stato fatto quel giudizio."
+            "p": "Puoi vedere le forze prima e dopo aver moltiplicato per l'energia del mese affiancate, mostrando quanto la stagione l'ha spinta. Il **rapporto degli alleati** che distingue tra un tronco del giorno forte e un tronco del giorno debole è anche annotato — lo schermo mostra solo il giudizio, ma il rapporto mostra dove è stato fatto quel giudizio."
           }
         ]
       },
@@ -1200,7 +1200,7 @@ export const IT_DOCS = {
         "title": "Pagina 6 — Cosa significano per me i quattro pilastri dell'altra persona",
         "blocks": [
           {
-            "p": "Il tasso di corrispondenza confronta solo i **rami del giorno** di entrambi gli individui. Tuttavia, i restanti tre pilastri dell'altra persona sono anche determinati dai Dieci Dei utilizzando le stesse regole. Mentre puoi capire **cosa significa questa persona per me** guardando solo il ramo del giorno, non puoi sapere **cosa significa per me quella posizione della persona**."
+            "p": "Il tasso di corrispondenza confronta solo i **tronchi del giorno** di entrambi gli individui. Tuttavia, i restanti tre pilastri dell'altra persona sono anche determinati dai Dieci Dei utilizzando le stesse regole. Mentre puoi capire **cosa significa questa persona per me** guardando solo il tronco del giorno, non puoi sapere **cosa significa per me quella posizione della persona**."
           },
           {
             "p": "Poiché ci sono direzioni, entrambi i lati sono presentati separatamente. Ciò che vedo e ciò che vede l'altro sono diversi."
@@ -1227,7 +1227,7 @@ export const IT_DOCS = {
       {
         "blocks": [
           {
-            "p": "Questa sezione è la **tabella di classificazione generale**. Lo schermo mostra solo i set che corrispondono bene, ma il rapporto classifica tutti e dieci i rami celesti e i dodici rami terrestri **completamente**. Se guardi solo i set migliori, non saprai 'chi viene dopo' e 'quale è il meno compatibile'."
+            "p": "Questa sezione è la **tabella di classificazione generale**. Lo schermo mostra solo i set che corrispondono bene, ma il rapporto classifica tutti e dieci i tronchi celesti e i dodici rami terrestri **completamente**. Se guardi solo i set migliori, non saprai 'chi viene dopo' e 'quale è il meno compatibile'."
           }
         ]
       },
