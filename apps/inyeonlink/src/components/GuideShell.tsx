@@ -6,6 +6,7 @@ import {
   GuideBackLinkView,
   type BackTarget,
 } from "@/components/GuideBackLink";
+import { previousScreenLabel } from "@naminglink/core/previous-screen";
 import { SiteFooter } from "@/components/SiteFooter";
 import type { Locale } from "@/lib/i18n";
 
@@ -44,6 +45,8 @@ export function GuideShell({
   children: ReactNode;
 }) {
   const back: BackTarget = { href: backHref, label: backLabel };
+  // `returnTo` 가 실려 오면 단추는 그 화면으로 가고 이름은 이 문구가 된다(`GuideBackLink`).
+  const previousLabel = previousScreenLabel(locale);
   return (
     <main className="min-h-screen bg-background">
       <section className="relative isolate overflow-hidden">
@@ -61,11 +64,11 @@ export function GuideShell({
         <div className="relative mx-auto grid w-full max-w-4xl gap-4 px-5 py-12 text-white sm:px-8 sm:py-16">
           {backOrigins ? (
             // 대체는 기본 목적지 그대로다 — 미리 만들어 둔 HTML에 실리는 것이 이쪽이다.
-            <Suspense fallback={<GuideBackLinkView {...back} />}>
-              <GuideBackLink fallback={back} origins={backOrigins} />
+            <Suspense fallback={<GuideBackLinkView {...back} previousLabel={previousLabel} />}>
+              <GuideBackLink fallback={back} origins={backOrigins} previousLabel={previousLabel} />
             </Suspense>
           ) : (
-            <GuideBackLinkView {...back} />
+            <GuideBackLinkView {...back} previousLabel={previousLabel} />
           )}
           <p className="mt-2 text-sm font-semibold tracking-wide text-[#e2b7c6]">
             {eyebrow}

@@ -8,6 +8,7 @@ import { BrandMark } from "@/components/BrandMark";
 import { DocBody } from "@/components/DocBody";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { PrivacyNotice } from "@/components/PrivacyNotice";
+import { ReturnLink } from "@/components/ReturnLink";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDocPage } from "@/lib/doc-content";
 import { docValues } from "@/lib/doc-values";
@@ -235,7 +236,9 @@ export default async function LandingPage({
 
         <div className="mt-8 grid gap-3 sm:grid-cols-2">
           {guideCards.map((card) => (
-            <Link
+            // `ReturnLink` — 눌린 순간 브라우저가 지금 주소를 `returnTo` 로 붙인다(2026-10-12).
+            // 일반 링크였을 때 홈 카드로 들어간 문서의 ← 가 홈이 아니라 허브로 떨어졌다.
+            <ReturnLink
               key={card.slug}
               href={localePath(`/guide/${card.slug}`, linkLocale)}
               className="group grid gap-1 rounded-lg border border-line bg-surface px-5 py-4 transition hover:border-foreground"
@@ -255,7 +258,7 @@ export default async function LandingPage({
               <p className={`${wordBreakClass} text-sm leading-6 text-muted`}>
                 {card.doc.summary}
               </p>
-            </Link>
+            </ReturnLink>
           ))}
         </div>
 

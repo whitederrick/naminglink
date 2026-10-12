@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { ReturnLink } from "@/components/ReturnLink";
 
 import { DocBody } from "@/components/DocBody";
 import { GuideShell } from "@/components/GuideShell";
@@ -75,9 +75,11 @@ export default async function GuideIndexPage({ params }: PageProps) {
           const card = getDocPage(locale, docKeyFor(entry));
           return (
             <li key={entry.slug}>
-              <Link
-                // 출처를 문서까지 들고 간다. 문서 → 허브 → 서비스로 두 번 눌러 나가는
-                // 길에서도 처음 들어온 화면으로 돌아가야 한다.
+              <ReturnLink
+                // **문서의 「이전 화면으로」는 이 허브로 돌아온다**(`chain`, 2026-10-12).
+                // 허브 주소를 (허브가 달고 있는 returnTo 까지) 실어 문서 → 허브 → 처음 화면
+                // 으로 한 칸씩 돌아간다. 처음 화면으로 건너뛰면 단추 이름이 거짓말이 된다.
+                chain
                 href={localePath(`/guide/${entry.slug}`, locale)}
                 className="flex h-full flex-col rounded-xl border border-line bg-surface px-5 py-4 transition hover:bg-surface-strong"
               >
@@ -86,7 +88,7 @@ export default async function GuideIndexPage({ params }: PageProps) {
                 <span className="break-keep-all mt-2 text-sm leading-6 text-muted">
                   {card.summary}
                 </span>
-              </Link>
+              </ReturnLink>
             </li>
           );
         })}

@@ -15,6 +15,11 @@
 //   npx tsx --tsconfig scripts/tsconfig.sweep.json scripts/verify-return-to.ts
 import { safeReturnTo, withReturnTo, RETURN_TO_PARAM } from "../src/lib/return-to";
 import { pickOrigin } from "../src/lib/guide-back";
+import { getAuthCopy } from "../src/lib/i18n-auth";
+import {
+  PREVIOUS_SCREEN_LABEL,
+  PREVIOUS_SCREEN_LOCALES,
+} from "@naminglink/core/previous-screen";
 
 /** 역슬래시. **소스에 직접 적지 않는다** — 셸·히어독을 거치며 사라진 적이 있다. */
 const BS = String.fromCharCode(92);
@@ -138,6 +143,46 @@ check(
   pickOrigin(ORIGINS, "hanja-meaning") === ORIGINS["hanja-meaning"],
 );
 check("from 이 없으면 null", pickOrigin(ORIGINS, null) === null);
+
+console.log("");
+console.log("⑤ 허브 → 문서 사슬이 한 칸씩 돌아오는가 (2026-10-12)");
+{
+  const uuid = "123e4567-e89b-12d3-a456-426614174000";
+  const origins = [
+    "/ko",
+    "/ko/hanja-meaning",
+    `/ko/global-to-korean/result?id=${uuid}&mode=transliteration`,
+    `/en/korean-to-global/result?id=${uuid}`,
+  ];
+  for (const origin of origins) {
+    // 푸터: 출처 → 허브. 허브 카드(chain): 허브 주소(returnTo 포함) → 문서.
+    const hub = withReturnTo("/ko/guide", origin);
+    const doc = withReturnTo("/guide/hanja-basics", safeReturnTo(hub));
+    const docBack = safeReturnTo(new URL(doc, "https://x.test").searchParams.get(RETURN_TO_PARAM));
+    const hubBack = safeReturnTo(
+      new URL(docBack ?? "/", "https://x.test").searchParams.get(RETURN_TO_PARAM),
+    );
+    check(
+      "문서 ← 는 허브로, 허브 ← 는 출처로: " + origin.slice(0, 40),
+      docBack === hub && hubBack === origin,
+      `문서 ← ${docBack} / 허브 ← ${hubBack}`,
+    );
+  }
+}
+
+console.log("");
+console.log("⑥ 「이전 화면으로」 문구가 로그인 사전과 같은가");
+{
+  const locales = PREVIOUS_SCREEN_LOCALES;
+  for (const locale of locales) {
+    check(
+      "공용 문구 = 로그인 사전의 back: " + locale,
+      PREVIOUS_SCREEN_LABEL[locale] === getAuthCopy(locale).back,
+      `${PREVIOUS_SCREEN_LABEL[locale]} ≠ ${getAuthCopy(locale).back}`,
+    );
+  }
+  check("23개 로케일을 다 가졌다", locales.length === 23, String(locales.length));
+}
 
 // **검사 0건은 실패로 처리한다.** 목록이 비면 이 검사기는 늘 통과한다.
 const total = MUST_BLOCK.length + MUST_ALLOW.length;

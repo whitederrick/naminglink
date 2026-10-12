@@ -8,6 +8,8 @@
     "./apps": "./src/apps.ts",
     "./company": "./src/company.ts",
     "./company-display": "./src/company-display.ts",
+    "./return-to": "./src/return-to.ts",
+    "./previous-screen": "./src/previous-screen.ts",
     "./self-ads": "./src/self-ads.ts",
     "./csp-audit": "./src/csp-audit.ts",
     "./saju": "./src/saju/engine.ts",

@@ -3,6 +3,9 @@
 import { pickOrigin } from "@/lib/guide-back";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import { useSyncExternalStore } from "react";
+
+import { readReturnTo } from "@/lib/return-to";
 
 /**
  * 안내 화면의 「돌아가기」. **주소의 `?from=`을 서버가 아니라 브라우저에서 읽는다.**
@@ -34,17 +37,37 @@ import { useSearchParams } from "next/navigation";
 export type BackTarget = { href: string; label: string };
 
 /**
+ * **주소에 실려 온 `returnTo`** (2026-10-12, naminglink 와 같다). 상태를 두지 않는다 —
+ * 서버 스냅샷은 `null` 이라 미리 만든 HTML 에는 늘 대체 주소가 실리고, 브라우저가 붙은
+ * 뒤에만 갈래가 생긴다. 본체는 `@naminglink/core/return-to` 한 벌이다.
+ */
+const NO_SUBSCRIBE = () => () => {};
+const NO_RETURN_TO = () => null;
+function useReturnTo() {
+  return useSyncExternalStore(NO_SUBSCRIBE, readReturnTo, NO_RETURN_TO);
+}
+
+/**
  * 겉모습은 이 한 곳에서만 그린다. 정적 대체(Suspense fallback)와 클라이언트가 그린 결과가
  * 달라 보이면 하이드레이션 직후에 단추가 깜빡인다.
  */
-export function GuideBackLinkView({ href, label }: BackTarget) {
+export function GuideBackLinkView({
+  href,
+  label,
+  previousLabel,
+}: BackTarget & { previousLabel?: string }) {
+  // `returnTo` 가 있으면 **그쪽이 이긴다** — 온 화면을 그대로 안다. 이름도 함께 갈린다:
+  // 「계산 근거」 같은 허브 이름이 적힌 단추가 홈이나 서비스 화면으로 가면 거짓말이다.
+  const returnTo = useReturnTo();
+  const target = returnTo && previousLabel ? { href: returnTo, label: previousLabel } : { href, label };
+
   return (
     <Link
-      href={href}
+      href={target.href}
       className="inline-flex w-fit items-center gap-2 rounded-lg border border-white/35 bg-white/10 px-3 py-2 text-sm font-medium text-white transition hover:bg-white/20"
     >
       <span aria-hidden>←</span>
-      {label}
+      {target.label}
     </Link>
   );
 }
@@ -57,11 +80,15 @@ export function GuideBackLinkView({ href, label }: BackTarget) {
 export function GuideBackLink({
   fallback,
   origins,
+  previousLabel,
 }: {
   fallback: BackTarget;
   origins: Record<string, BackTarget>;
+  previousLabel?: string;
 }) {
   const from = useSearchParams().get("from");
   const target = pickOrigin(origins, from) ?? fallback;
-  return <GuideBackLinkView href={target.href} label={target.label} />;
+  return (
+    <GuideBackLinkView href={target.href} label={target.label} previousLabel={previousLabel} />
+  );
 }

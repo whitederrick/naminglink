@@ -1,6 +1,7 @@
 import { guideLinkLabel } from "@/components/GuideLink";
 import { guideHubHref } from "@/lib/guide-back";
 import { LegalLinks } from "@/components/LegalLinks";
+import { ReturnLink } from "@/components/ReturnLink";
 import { ReportFooterButton } from "@/components/ReportFooterButton";
 import { getCompanyInfo } from "@/lib/company-server";
 import { localizeCompanyValue } from "@naminglink/core/company-display";
@@ -154,13 +155,15 @@ export async function SiteFooter({
             linkClassName={linkClass}
             textDirection={textDirection}
           />
-          <a
+          {/* 안내 허브. `ReturnLink` 라 눌린 순간 지금 화면이 `returnTo` 로 붙고, 허브·문서의
+              ← 가 그 화면으로 돌아온다(2026-10-12). 서버가 그린 HTML 에는 깨끗한 주소다. */}
+          <ReturnLink
             href={guideHubHref(linkLocale, guideFrom)}
             className={linkClass}
             dir={textDirection}
           >
             {guideLinkLabel(locale, "short")}
-          </a>
+          </ReturnLink>
           {/* 신고 채널. 광고 검수가 열린 로케일에만 노출한다(naminglink와 같은 설계) —
               AD_OPENED_LOCALES가 늘어날 때 같은 커밋에서 버튼도 함께 열리게 하려는 것.
               페이지 이동이 아니라 모달을 여는 버튼이라 LegalLinks 밖에, 안내 문서들과
