@@ -4,7 +4,12 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import type { ReactNode } from "react";
 
-import { currentInternalPath, readReturnTo, withReturnTo } from "@/lib/return-to";
+import {
+  currentFullPath,
+  currentInternalPath,
+  readReturnTo,
+  withReturnTo,
+} from "@/lib/return-to";
 
 /**
  * **화면을 옮기는 푸터 링크.** 눌릴 때 지금 주소를 `returnTo` 로 실어 보낸다.
@@ -36,11 +41,18 @@ export function ReturnLink({
   href,
   className,
   dir,
+  chain = false,
   children,
 }: {
   href: string;
   className?: string;
   dir?: "ltr" | "rtl";
+  /**
+   * `true` 면 **지금 화면 자신**을 돌아갈 곳으로 싣는다(그 화면의 `returnTo` 까지 함께).
+   * 목적지의 「이전 화면으로」가 한 칸 앞(지금 화면)으로 가고, 그 화면의 단추가 다시 처음
+   * 출처로 가는 한 칸씩의 길이 된다. 기본(`false`)은 처음 출처를 그대로 따라다니게 한다.
+   */
+  chain?: boolean;
   children: ReactNode;
 }) {
   const router = useRouter();
@@ -53,7 +65,7 @@ export function ReturnLink({
         if (event.defaultPrevented) return;
         if (event.button !== 0) return;
         if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-        const from = readReturnTo() ?? currentInternalPath();
+        const from = chain ? currentFullPath() : (readReturnTo() ?? currentInternalPath());
         if (!from) return;
         const target = withReturnTo(href, from);
         // **붙일 것이 없으면 가로채지 않는다.** 지금 화면과 목적지가 같을 때가 그렇다

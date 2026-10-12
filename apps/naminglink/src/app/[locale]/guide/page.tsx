@@ -51,7 +51,13 @@ export default async function GuideIndexPage({ params }: PageProps) {
   const entries = guideEntriesFor(undefined, locale);
   const doc = getDocPage(locale, "guide");
   // 안내를 부른 서비스로 돌려보낸다. 없으면 로케일 기본값(`lib/guide-back.ts`).
-  const back = guideBackLink(locale, undefined, doc.backLabel);
+  //
+  // **홈 이름은 소개 문서의 「처음으로」를 쓴다** (2026-10-12). 허브 문서 자신의 `backLabel` 은
+  // 「이용 안내」인데, 이 단추는 **홈으로** 간다 — 푸터의 「이용 안내」(→ 목록)·문서의 ←
+  // 「이용 안내」(→ 목록)와 같은 이름인데 도착지만 반대라 사용자가 흐름을 읽을 수 없었다.
+  // 형제 앱(인연링크)의 허브는 이미 「처음으로」다.
+  const homeLabel = getDocPage(locale, "about").backLabel;
+  const back = guideBackLink(locale, undefined, homeLabel);
 
   return (
     <GuideShell
@@ -61,7 +67,7 @@ export default async function GuideIndexPage({ params }: PageProps) {
       description={doc.summary}
       backHref={back.href}
       backLabel={back.label}
-      backOrigins={guideServiceOrigins(locale, doc.backLabel)}
+      backOrigins={guideServiceOrigins(locale, homeLabel)}
     >
       <DocBody sections={doc.sections} locale={locale} values={values} />
 
@@ -73,13 +79,14 @@ export default async function GuideIndexPage({ params }: PageProps) {
           return (
           <ReturnLink
             key={entry.slug}
-            // **출처를 문서까지 들고 간다.** 다만 「문서 → 허브 → 서비스」로 두 번
-            // 눌러 나가는 것이 아니라, **문서에서 처음 들어온 화면으로 곧장** 돌아간다.
-            //
-            // 두 번 눌러 나가려면 허브의 주소를 통째로(그 안의 returnTo 까지) 문서의
-            // returnTo 로 실어야 하는데, 그러면 한 칸 들어갈 때마다 값이 배로 길어져
-            // 512자 상한에서 **조용히 통째로 버려진다.** 그래서 출처는 한 번 정해지면
-            // 갈아치우지도 겹쳐 싣지도 않고 그대로 따라다닌다 (components/ReturnLink.tsx).
+            // **문서의 「이전 화면으로」는 이 허브로 돌아온다** (2026-10-12 사용자 확인).
+            // 예전에는 문서에서 처음 들어온 화면(홈)으로 곧장 건너뛰었다 — 단추 이름은
+            // 「이전 화면」인데 두 칸 앞으로 가서, 푸터의 이용 안내 → 목록 → 문서 → 이전
+            // 화면으로가 홈으로 갔다. 이제 허브 주소를 (허브가 달고 있는 returnTo 까지)
+            // 실어, 문서 → 허브 → 처음 화면으로 **한 칸씩** 돌아간다(`chain`).
+            // 값이 한 겹 더 인코딩되는데 허브→문서는 깊이가 둘뿐이라 512자 상한 안이다.
+            // 넘으면 버려져 문서 단추가 목록으로 떨어진다 — 틀린 곳으로 가지 않는다.
+            chain
             href={localePath(`/guide/${entry.slug}`, locale)}
             className="group grid gap-1 rounded-lg border border-line bg-surface px-5 py-4 transition hover:border-foreground"
           >

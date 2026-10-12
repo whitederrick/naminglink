@@ -7,6 +7,7 @@ import { romanizeCompanyValue } from "@naminglink/core/company";
 import { BrandMark } from "@/components/BrandMark";
 import { DocBody } from "@/components/DocBody";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { ReturnLink } from "@/components/ReturnLink";
 import { SiteFooter } from "@/components/SiteFooter";
 import { getDocPage } from "@/lib/doc-content";
 import { docValues } from "@/lib/doc-values";
@@ -395,7 +396,12 @@ export default async function Home({ params }: HomeProps) {
 
         <div className="mt-8 grid gap-3 sm:grid-cols-2">
           {guideCards.map((card) => (
-            <Link
+            // **`ReturnLink` 로 건다** (2026-10-12). 일반 링크였을 때 홈 카드로 들어간 문서의 ← 가
+            // 출처를 몰라 목록(/ko/guide)으로 떨어졌다. 같은 「이용 안내」 이름의 버튼이 푸터에서는
+            // 목록으로, 문서에서는 목록으로, 목록에서는 홈으로 가서 버튼이 서로 어긋나 보였다.
+            // 눌린 순간에만 브라우저가 현재 주소를 `returnTo` 로 붙이므로 서버가 그린 HTML 에는
+            // 깨끗한 주소가 그대로 실린다.
+            <ReturnLink
               key={card.slug}
               href={localePath(`/guide/${card.slug}`, locale)}
               className="group grid gap-1 rounded-lg border border-line bg-surface px-5 py-4 transition hover:border-foreground"
@@ -417,7 +423,7 @@ export default async function Home({ params }: HomeProps) {
               <p className={`${wordBreakClass} text-sm leading-6 text-muted`}>
                 {card.doc.summary}
               </p>
-            </Link>
+            </ReturnLink>
           ))}
         </div>
 

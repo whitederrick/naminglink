@@ -118,6 +118,25 @@ export function currentInternalPath(): string | null {
 }
 
 /**
+ * 지금 화면의 내부 경로. **`returnTo` 를 그대로 둔 채** 돌려준다 (2026-10-12).
+ *
+ * `currentInternalPath` 는 `returnTo` 를 빼서 「출처가 겹겹이 쌓이지 않게」 하지만, 그러면
+ * 안내 **허브 → 문서**로 들어갈 때 문서의 「이전 화면으로」가 허브가 아니라 허브의 출처(홈)로
+ * 건너뛰었다. 버튼 이름은 「이전 화면」인데 두 칸 앞으로 가는 것은 이름이 거짓말을 하는 것이다
+ * (사용자 확인: 푸터의 이용 안내 → 목록 → 문서 → 이전 화면으로 → 홈).
+ *
+ * 허브 주소를 출처로 실으면 허브의 `returnTo` 도 함께 실려, 문서 → 허브 → 처음 화면으로
+ * **한 칸씩** 돌아간다. 값은 한 겹 더 인코딩될 뿐이고(상한 512자), 상한을 넘으면
+ * `safeReturnTo` 가 버려 문서의 단추가 대체 주소(허브)로 떨어진다 — 조용히 틀린 곳으로 가지
+ * 않는다. **허브→문서처럼 깊이가 둘뿐인 자리에서만** 쓴다.
+ */
+export function currentFullPath(): string | null {
+  if (typeof window === "undefined") return null;
+  const { pathname, search, hash } = window.location;
+  return safeReturnTo(`${pathname}${search}${hash}`);
+}
+
+/**
  * 두 내부 주소가 **같은 화면**을 가리키는가. 조각(#)은 빼고 본다.
  *
  * 같은 화면이면 `returnTo` 를 붙이지 않는다 — `/ko/about` 에서 푸터의 「소개」를 다시 누르면
