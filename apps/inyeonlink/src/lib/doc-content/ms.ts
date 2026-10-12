@@ -252,7 +252,7 @@ export const MS_DOCS = {
               "dragon": "Naga",
               "snake": "Ular",
               "horse": "Kuda",
-              "goat": "Kambing",
+              "goat": "Biri-biri",
               "monkey": "Monyet",
               "rooster": "Ayam",
               "dog": "Anjing",
@@ -282,7 +282,7 @@ export const MS_DOCS = {
                   "Tikus (子)",
                   "Lembu",
                   "Monyet · Naga",
-                  "Kambing",
+                  "Biri-biri",
                   "Kuda"
                 ],
                 [
@@ -290,7 +290,7 @@ export const MS_DOCS = {
                   "Tikus",
                   "Ayam",
                   "Kuda",
-                  "Kambing"
+                  "Biri-biri"
                 ],
                 [
                   "Harimau (寅)",
@@ -302,7 +302,7 @@ export const MS_DOCS = {
                 [
                   "Arnab (卯)",
                   "Anjing",
-                  "Babi · Kambing",
+                  "Babi · Biri-biri",
                   "Monyet",
                   "Ayam"
                 ],
@@ -322,13 +322,13 @@ export const MS_DOCS = {
                 ],
                 [
                   "Kuda (午)",
-                  "Kambing",
+                  "Biri-biri",
                   "Harimau · Anjing",
                   "Lembu",
                   "Tikus"
                 ],
                 [
-                  "Kambing (未)",
+                  "Biri-biri (未)",
                   "Kuda",
                   "Arnab",
                   "Tikus",
@@ -378,7 +378,7 @@ export const MS_DOCS = {
               "**Tikus dan Lembu** — enam-harmoni. Ia hanya memerlukan dua watak, jadi ia adalah keharmonian yang paling kerap muncul dalam keserasian, dan sebuah yang baik.",
               "**Tikus dan Naga** — triad separuh: dua daripada tiga watak 申子辰, termasuk yang di tengah (子).",
               "**Tikus dan Harimau** — tiada dalam carta, jadi neutral: bukan keharmonian dan bukan pertembungan, hanya garis asas.",
-              "**Tikus dan Kambing** — ketidakselarasan. Nampak tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan.",
+              "**Tikus dan Biri-biri** — ketidakselarasan. Nampak tenang di permukaan, tetapi ketidakselarasan itu dipercayai berpanjangan.",
               "**Harimau dan Monyet** — pertembungan. Mereka duduk tepat bertentangan dan dilihat berlanggar secara langsung."
             ]
           }
@@ -507,7 +507,7 @@ export const MS_DOCS = {
                 ],
                 [
                   "未",
-                  "Kambing"
+                  "Biri-biri"
                 ],
                 [
                   "申",

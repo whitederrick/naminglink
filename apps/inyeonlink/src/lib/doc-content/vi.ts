@@ -252,7 +252,7 @@ export const VI_DOCS = {
               "dragon": "Rồng",
               "snake": "Rắn",
               "horse": "Ngựa",
-              "goat": "Dê",
+              "goat": "Cừu",
               "monkey": "Khỉ",
               "rooster": "Gà",
               "dog": "Chó",
@@ -282,7 +282,7 @@ export const VI_DOCS = {
                   "Chuột (子)",
                   "Trâu",
                   "Khỉ · Rồng",
-                  "Dê",
+                  "Cừu",
                   "Ngựa"
                 ],
                 [
@@ -290,7 +290,7 @@ export const VI_DOCS = {
                   "Chuột",
                   "Gà",
                   "Ngựa",
-                  "Dê"
+                  "Cừu"
                 ],
                 [
                   "Hổ (寅)",
@@ -302,7 +302,7 @@ export const VI_DOCS = {
                 [
                   "Thỏ (卯)",
                   "Chó",
-                  "Lợn · Dê",
+                  "Lợn · Cừu",
                   "Khỉ",
                   "Gà"
                 ],
@@ -322,13 +322,13 @@ export const VI_DOCS = {
                 ],
                 [
                   "Ngựa (午)",
-                  "Dê",
+                  "Cừu",
                   "Hổ · Chó",
                   "Trâu",
                   "Chuột"
                 ],
                 [
-                  "Dê (未)",
+                  "Cừu (未)",
                   "Ngựa",
                   "Thỏ",
                   "Chuột",
@@ -378,7 +378,7 @@ export const VI_DOCS = {
               "**Chuột và Trâu** — một cặp sáu hài hòa. Chỉ cần hai ký tự nên đây là kiểu hợp xuất hiện nhiều nhất trong xem tương hợp, và là một kiểu hợp tốt.",
               "**Chuột và Rồng** — một nửa tam hợp: hai trong ba ký tự 申子辰, bao gồm ký tự ở giữa (子).",
               "**Chuột và Hổ** — không có trong bảng nên là trung lập: không hợp cũng không xung, chỉ là mức nền.",
-              "**Chuột và Dê** — một cặp bất hòa. Bề ngoài có vẻ yên ả, nhưng sự lệch nhịp được tin là kéo dài.",
+              "**Chuột và Cừu** — một cặp bất hòa. Bề ngoài có vẻ yên ả, nhưng sự lệch nhịp được tin là kéo dài.",
               "**Hổ và Khỉ** — một cặp xung. Hai bên ngồi đối diện trực tiếp nhau và được coi là va chạm trực diện."
             ]
           }
@@ -507,7 +507,7 @@ export const VI_DOCS = {
                 ],
                 [
                   "未",
-                  "Dê"
+                  "Cừu"
                 ],
                 [
                   "申",
