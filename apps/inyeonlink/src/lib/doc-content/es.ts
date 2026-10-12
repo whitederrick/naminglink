@@ -252,7 +252,7 @@ export const ES_DOCS = {
               "dragon": "Dragón",
               "snake": "Serpiente",
               "horse": "Caballo",
-              "goat": "Cabra",
+              "goat": "Oveja",
               "monkey": "Mono",
               "rooster": "Gallo",
               "dog": "Perro",
@@ -282,7 +282,7 @@ export const ES_DOCS = {
                   "Rata (子)",
                   "Buey",
                   "Mono · Dragón",
-                  "Cabra",
+                  "Oveja",
                   "Caballo"
                 ],
                 [
@@ -290,7 +290,7 @@ export const ES_DOCS = {
                   "Rata",
                   "Gallo",
                   "Caballo",
-                  "Cabra"
+                  "Oveja"
                 ],
                 [
                   "Tigre (寅)",
@@ -302,7 +302,7 @@ export const ES_DOCS = {
                 [
                   "Conejo (卯)",
                   "Perro",
-                  "Cerdo · Cabra",
+                  "Cerdo · Oveja",
                   "Mono",
                   "Gallo"
                 ],
@@ -322,13 +322,13 @@ export const ES_DOCS = {
                 ],
                 [
                   "Caballo (午)",
-                  "Cabra",
+                  "Oveja",
                   "Tigre · Perro",
                   "Buey",
                   "Rata"
                 ],
                 [
-                  "Cabra (未)",
+                  "Oveja (未)",
                   "Caballo",
                   "Conejo",
                   "Rata",
@@ -378,7 +378,7 @@ export const ES_DOCS = {
               "**Rata y Buey** — una relación de seis armonías. Solo necesita dos caracteres, por lo que es la armonía que aparece con más frecuencia en la compatibilidad, y una buena.",
               "**Rata y Dragón** — una triada media: dos de los tres caracteres 申子辰, incluido el del medio (子).",
               "**Rata y Tigre** — no está en la tabla, así que es neutral: ni armonía ni choque, solo el punto de partida.",
-              "**Rata y Cabra** — una discordia. Parece tranquila en la superficie, pero se cree que el desajuste perdura.",
+              "**Rata y Oveja** — una discordia. Parece tranquila en la superficie, pero se cree que el desajuste perdura.",
               "**Tigre y Mono** — un choque. Están directamente opuestos y se consideran en colisión frontal."
             ]
           }

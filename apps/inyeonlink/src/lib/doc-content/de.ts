@@ -252,7 +252,7 @@ export const DE_DOCS = {
               "dragon": "Drache",
               "snake": "Schlange",
               "horse": "Pferd",
-              "goat": "Ziege",
+              "goat": "Schaf",
               "monkey": "Affe",
               "rooster": "Hahn",
               "dog": "Hund",
@@ -282,7 +282,7 @@ export const DE_DOCS = {
                   "Ratte (子)",
                   "Ochse",
                   "Affe · Drache",
-                  "Ziege",
+                  "Schaf",
                   "Pferd"
                 ],
                 [
@@ -290,7 +290,7 @@ export const DE_DOCS = {
                   "Ratte",
                   "Hahn",
                   "Pferd",
-                  "Ziege"
+                  "Schaf"
                 ],
                 [
                   "Tiger (寅)",
@@ -302,7 +302,7 @@ export const DE_DOCS = {
                 [
                   "Hase (卯)",
                   "Hund",
-                  "Schwein · Ziege",
+                  "Schwein · Schaf",
                   "Affe",
                   "Hahn"
                 ],
@@ -322,13 +322,13 @@ export const DE_DOCS = {
                 ],
                 [
                   "Pferd (午)",
-                  "Ziege",
+                  "Schaf",
                   "Tiger · Hund",
                   "Ochse",
                   "Ratte"
                 ],
                 [
-                  "Ziege (未)",
+                  "Schaf (未)",
                   "Pferd",
                   "Hase",
                   "Ratte",
@@ -378,7 +378,7 @@ export const DE_DOCS = {
               "**Ratte und Ochse** — eine Sechs-Harmonie. Sie braucht nur zwei Zeichen und ist daher die Harmonie, die in der Kompatibilität am häufigsten vorkommt, und eine gute.",
               "**Ratte und Drache** — eine Halb-Triade: zwei der drei Zeichen 申子辰, einschließlich des mittleren (子).",
               "**Ratte und Tiger** — nicht in der Tabelle, also neutral: weder Harmonie noch Zusammenstoß, nur die Ausgangslage.",
-              "**Ratte und Ziege** — eine Zwietracht. Sie wirkt an der Oberfläche ruhig, aber die Verschiebung gilt als dauerhaft.",
+              "**Ratte und Schaf** — eine Zwietracht. Sie wirkt an der Oberfläche ruhig, aber die Verschiebung gilt als dauerhaft.",
               "**Tiger und Affe** — ein Zusammenstoß. Sie liegen einander direkt gegenüber und gelten als frontal kollidierend."
             ]
           }

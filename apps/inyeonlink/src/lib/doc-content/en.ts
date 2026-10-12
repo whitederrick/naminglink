@@ -950,7 +950,7 @@ export const EN_DOCS = {
               "dragon": "Dragon",
               "snake": "Snake",
               "horse": "Horse",
-              "goat": "Goat",
+              "goat": "Sheep",
               "monkey": "Monkey",
               "rooster": "Rooster",
               "dog": "Dog",
@@ -980,7 +980,7 @@ export const EN_DOCS = {
                   "Rat (子)",
                   "Ox",
                   "Monkey · Dragon",
-                  "Goat",
+                  "Sheep",
                   "Horse"
                 ],
                 [
@@ -988,7 +988,7 @@ export const EN_DOCS = {
                   "Rat",
                   "Rooster",
                   "Horse",
-                  "Goat"
+                  "Sheep"
                 ],
                 [
                   "Tiger (寅)",
@@ -1000,7 +1000,7 @@ export const EN_DOCS = {
                 [
                   "Rabbit (卯)",
                   "Dog",
-                  "Pig · Goat",
+                  "Pig · Sheep",
                   "Monkey",
                   "Rooster"
                 ],
@@ -1020,13 +1020,13 @@ export const EN_DOCS = {
                 ],
                 [
                   "Horse (午)",
-                  "Goat",
+                  "Sheep",
                   "Tiger · Dog",
                   "Ox",
                   "Rat"
                 ],
                 [
-                  "Goat (未)",
+                  "Sheep (未)",
                   "Horse",
                   "Rabbit",
                   "Rat",
@@ -1076,7 +1076,7 @@ export const EN_DOCS = {
               "**Rat and Ox** — a six-harmony. It needs only two characters, so it is the harmony that appears most often in compatibility, and a good one.",
               "**Rat and Dragon** — a half triad: two of the three characters 申子辰, including the middle one (子).",
               "**Rat and Tiger** — not in the chart, so neutral: neither a harmony nor a clash, just the baseline.",
-              "**Rat and Goat** — a discord. It looks calm on the surface, but the misalignment is believed to last.",
+              "**Rat and Sheep** — a discord. It looks calm on the surface, but the misalignment is believed to last.",
               "**Tiger and Monkey** — a clash. They sit directly opposite each other and are seen as colliding head-on."
             ]
           }

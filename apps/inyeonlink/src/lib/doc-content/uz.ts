@@ -252,7 +252,7 @@ export const UZ_DOCS = {
               "dragon": "Ajdar",
               "snake": "Ilon",
               "horse": "Ot",
-              "goat": "Echki",
+              "goat": "Qo'y",
               "monkey": "Maymun",
               "rooster": "Xo'roz",
               "dog": "It",
@@ -282,7 +282,7 @@ export const UZ_DOCS = {
                   "Sichqon (子)",
                   "Sigir",
                   "Maymun · Ajdar",
-                  "Echki",
+                  "Qo'y",
                   "Ot"
                 ],
                 [
@@ -290,7 +290,7 @@ export const UZ_DOCS = {
                   "Sichqon",
                   "Xo'roz",
                   "Ot",
-                  "Echki"
+                  "Qo'y"
                 ],
                 [
                   "Yo'lbars (寅)",
@@ -302,7 +302,7 @@ export const UZ_DOCS = {
                 [
                   "Quyon (卯)",
                   "It",
-                  "Cho'chqa · Echki",
+                  "Cho'chqa · Qo'y",
                   "Maymun",
                   "Xo'roz"
                 ],
@@ -322,13 +322,13 @@ export const UZ_DOCS = {
                 ],
                 [
                   "Ot (午)",
-                  "Echki",
+                  "Qo'y",
                   "Yo'lbars · It",
                   "Sigir",
                   "Sichqon"
                 ],
                 [
-                  "Echki (未)",
+                  "Qo'y (未)",
                   "Ot",
                   "Quyon",
                   "Sichqon",
@@ -378,7 +378,7 @@ export const UZ_DOCS = {
               "**Sichqon va Sigir** — olti uyg'unlik. U faqat ikki belgini talab qiladi, shuning uchun moslikda eng tez-tez uchraydigan va yaxshi uyg'unlikdir.",
               "**Sichqon va Ajdar** — yarim uchlik: 申子辰 uch belgisidan o'rtadagisini (子) o'z ichiga olgan ikkitasi.",
               "**Sichqon va Yo'lbars** — jadvalda yo'q, shuning uchun neytral: na uyg'unlik, na to'qnashuv, shunchaki boshlang'ich daraja.",
-              "**Sichqon va Echki** — nizo. Yuzaki tinch ko'rinadi, ammo nomutanosiblik uzoq davom etadi deb hisoblanadi.",
+              "**Sichqon va Qo'y** — nizo. Yuzaki tinch ko'rinadi, ammo nomutanosiblik uzoq davom etadi deb hisoblanadi.",
               "**Yo'lbars va Maymun** — to'qnashuv. Ular aynan qarama-qarshi turadi va yuzma-yuz to'qnashadi deb qaraladi."
             ]
           }

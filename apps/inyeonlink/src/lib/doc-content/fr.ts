@@ -252,7 +252,7 @@ export const FR_DOCS = {
               "dragon": "Dragon",
               "snake": "Serpent",
               "horse": "Cheval",
-              "goat": "Chèvre",
+              "goat": "Mouton",
               "monkey": "Singe",
               "rooster": "Coq",
               "dog": "Chien",
@@ -282,7 +282,7 @@ export const FR_DOCS = {
                   "Rat (子)",
                   "Bœuf",
                   "Singe · Dragon",
-                  "Chèvre",
+                  "Mouton",
                   "Cheval"
                 ],
                 [
@@ -290,7 +290,7 @@ export const FR_DOCS = {
                   "Rat",
                   "Coq",
                   "Cheval",
-                  "Chèvre"
+                  "Mouton"
                 ],
                 [
                   "Tigre (寅)",
@@ -302,7 +302,7 @@ export const FR_DOCS = {
                 [
                   "Lapin (卯)",
                   "Chien",
-                  "Cochon · Chèvre",
+                  "Cochon · Mouton",
                   "Singe",
                   "Coq"
                 ],
@@ -322,13 +322,13 @@ export const FR_DOCS = {
                 ],
                 [
                   "Cheval (午)",
-                  "Chèvre",
+                  "Mouton",
                   "Tigre · Chien",
                   "Bœuf",
                   "Rat"
                 ],
                 [
-                  "Chèvre (未)",
+                  "Mouton (未)",
                   "Cheval",
                   "Lapin",
                   "Rat",
@@ -378,7 +378,7 @@ export const FR_DOCS = {
               "**Rat et Bœuf** — une relation de six-harmonies. Elle ne demande que deux caractères ; c'est donc l'harmonie qui apparaît le plus souvent en compatibilité, et une bonne.",
               "**Rat et Dragon** — une triade partielle : deux des trois caractères 申子辰, dont celui du milieu (子).",
               "**Rat et Tigre** — absent du tableau, donc neutre : ni harmonie ni choc, simplement la base de référence.",
-              "**Rat et Chèvre** — une discorde. Elle paraît calme en surface, mais on estime que le décalage perdure.",
+              "**Rat et Mouton** — une discorde. Elle paraît calme en surface, mais on estime que le décalage perdure.",
               "**Tigre et Singe** — un choc. Ils se font directement face et sont considérés comme entrant en collision frontale."
             ]
           }
