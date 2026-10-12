@@ -1,3 +1,4 @@
+import { BRANCH_HIDDEN_STEMS, VITALITY_MULTIPLIER } from "@naminglink/core/saju/elements";
 import { BIRTHPLACES } from "@/lib/birthplaces";
 import { BRANCH_RELATION_SCORE } from "@/lib/engines/branches";
 import { DEFAULT_SCORING_CONFIG } from "@/lib/engines/today-fortune";
@@ -88,9 +89,34 @@ export async function docValues(_locale: Locale): Promise<Record<string, string>
 
     overallShare: percent(cfg.categoryWeights.overallShare),
 
+    // 월령 상태별 배수(왕상휴수사) — 지지·천간 사전의 표가 쓴다.
+    vitalityWang: String(VITALITY_MULTIPLIER.WANG),
+    vitalitySang: String(VITALITY_MULTIPLIER.SANG),
+    vitalityHyu: String(VITALITY_MULTIPLIER.HYU),
+    vitalitySu: String(VITALITY_MULTIPLIER.SU),
+    vitalitySa: String(VITALITY_MULTIPLIER.SA),
+
     cityCount: String(BIRTHPLACES.length),
     pageCount: String(REPORT_PAGE_COUNT),
   };
+
+  /**
+   * 지장간 지분 — `hid<지지><자리>`. 그 지지의 30일 가운데 천간이 차지하는 날의 비율이다.
+   * 자리표시자는 영문자만 허용돼 지지는 로마자(Ja·Chuk·In…), 자리는 Yeo(여기)·Jung(중기)·Bon(본기)로 적는다.
+   * 엔진의 `BRANCH_HIDDEN_STEMS`에서 읽어 그리므로 규칙이 바뀌면 글이 따라온다.
+   */
+  const BRANCH_KEY = {
+    子: "Ja", 丑: "Chuk", 寅: "In", 卯: "Myo", 辰: "Jin", 巳: "Sa",
+    午: "O", 未: "Mi", 申: "Sin", 酉: "Yu", 戌: "Sul", 亥: "Hae",
+  } as const;
+  const total = Object.values(BRANCH_HIDDEN_STEMS)[0]!.reduce((n, [, days]) => n + days, 0);
+  for (const [branch, stems] of Object.entries(BRANCH_HIDDEN_STEMS)) {
+    stems.forEach(([, days], index) => {
+      const role = stems.length === 2 ? ["Yeo", "Bon"][index] : ["Yeo", "Jung", "Bon"][index];
+      values[`hid${BRANCH_KEY[branch as keyof typeof BRANCH_KEY]}${role}`] =
+        `${(Math.round((days / total) * 1000) / 10).toFixed(1)}%`;
+    });
+  }
 
   /**
    * 값은 상품 설정(DB)이 정한다.

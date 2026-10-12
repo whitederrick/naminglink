@@ -400,6 +400,9563 @@ export const FIL_DOCS = {
       }
     ]
   },
+  "guide/stem-gap": {
+    "eyebrow": "Mga heavenly stem",
+    "title": "Yang na Kahoy (甲) — Kahoy, Yang",
+    "summary": "Ang elemento at polarity ng heavenly stem na 甲, kung paano nito binabasa ang siyam na iba pang stem (ang Ten Gods), at kung aling mga earthly branch ang may hawak nito — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Yang na Kahoy (甲) ay ang una sa sampung heavenly stem",
+        "blocks": [
+          {
+            "p": "Ang 甲 ay ang una sa sampung heavenly stem. Ang elemento nito ay Kahoy at ang polarity nito ay Yang. Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\"."
+          },
+          {
+            "p": "Ang linyang ipinapakita ng screen ng resulta para sa day stem na ito ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa talahanayan o sa mga iskor sa ibaba."
+          }
+        ]
+      },
+      {
+        "title": "Paano nito binabasa ang iba pang stem (ang Ten Gods)",
+        "blocks": [
+          {
+            "p": "Kapag ang 甲 ang day stem, ganito binabasa ang bawat isa sa sampung stem. May direksyon ang pagbasa: ganito binabasa ng 甲 ang kabilang stem, at kapag binasa naman ng kabilang stem ang 甲, maaaring lumabas ang ibang pangalan."
+          },
+          {
+            "table": {
+              "caption": "Ten Gods kapag ang Yang na Kahoy (甲) ang day stem",
+              "head": [
+                "Ibang stem",
+                "Elemento at polarity",
+                "Pangalan sa Ten Gods"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "Pag-aaruga (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Mga stem na binabasa bilang posisyon ng asawa",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 甲 ang day stem, ang Matatag na yaman ay 己 at ang Awtoridad ay 辛. Kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga branch na may hawak ng 甲",
+        "blocks": [
+          {
+            "p": "Dito nakatago ang 甲 sa loob ng mga earthly branch (ang hidden stems). Ang bahagi ay ang proporsyon ng tatlumpung araw ng branch na iyon na kinukuha ng 甲."
+          },
+          {
+            "table": {
+              "caption": "Ang mga branch na may hawak ng 甲",
+              "head": [
+                "Branch",
+                "Hayop",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Tigre",
+                  "pangunahin (本氣)",
+                  "{hidInBon}"
+                ],
+                [
+                  "卯",
+                  "Kuneho",
+                  "natitira (餘氣)",
+                  "{hidMyoYeo}"
+                ],
+                [
+                  "亥",
+                  "Baboy",
+                  "gitna (中氣)",
+                  "{hidHaeJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang stem kung sino ang isang tao. Binabasa ang saju mula sa ugnayan ng walong karakter nito.",
+              "Ang Ten Gods ay isang pagtatasa na ginagawa mula sa day stem. Ang parehong dalawang karakter ay nagkakaroon ng ibang pangalan depende sa kung alin ang day stem."
+            ]
+          },
+          {
+            "p": "Ang buong Ten Gods ay nasa [gabay sa Ten Gods](/guide/ten-gods), at ang lakas ng mga elemento at ang month sign ay nasa [gabay sa five elements](/guide/five-elements). Iba pang stem: [Yin na Kahoy (乙)](/guide/stem-eul) · [Yang na Apoy (丙)](/guide/stem-byeong) · [Yin na Apoy (丁)](/guide/stem-jeong) · [Yang na Lupa (戊)](/guide/stem-mu) · [Yin na Lupa (己)](/guide/stem-gi) · [Yang na Metal (庚)](/guide/stem-gyeong) · [Yin na Metal (辛)](/guide/stem-sin) · [Yang na Tubig (壬)](/guide/stem-im) · [Yin na Tubig (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-eul": {
+    "eyebrow": "Mga heavenly stem",
+    "title": "Yin na Kahoy (乙) — Kahoy, Yin",
+    "summary": "Ang elemento at polarity ng heavenly stem na 乙, kung paano nito binabasa ang siyam na iba pang stem (ang Ten Gods), at kung aling mga earthly branch ang may hawak nito — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Yin na Kahoy (乙) ay ang ikalawa sa sampung heavenly stem",
+        "blocks": [
+          {
+            "p": "Ang 乙 ay ang ikalawa sa sampung heavenly stem. Ang elemento nito ay Kahoy at ang polarity nito ay Yin. Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\"."
+          },
+          {
+            "p": "Ang linyang ipinapakita ng screen ng resulta para sa day stem na ito ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa talahanayan o sa mga iskor sa ibaba."
+          }
+        ]
+      },
+      {
+        "title": "Paano nito binabasa ang iba pang stem (ang Ten Gods)",
+        "blocks": [
+          {
+            "p": "Kapag ang 乙 ang day stem, ganito binabasa ang bawat isa sa sampung stem. May direksyon ang pagbasa: ganito binabasa ng 乙 ang kabilang stem, at kapag binasa naman ng kabilang stem ang 乙, maaaring lumabas ang ibang pangalan."
+          },
+          {
+            "table": {
+              "caption": "Ten Gods kapag ang Yin na Kahoy (乙) ang day stem",
+              "head": [
+                "Ibang stem",
+                "Elemento at polarity",
+                "Pangalan sa Ten Gods"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "Di-karaniwang suporta (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Mga stem na binabasa bilang posisyon ng asawa",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 乙 ang day stem, ang Matatag na yaman ay 戊 at ang Awtoridad ay 庚. Kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga branch na may hawak ng 乙",
+        "blocks": [
+          {
+            "p": "Dito nakatago ang 乙 sa loob ng mga earthly branch (ang hidden stems). Ang bahagi ay ang proporsyon ng tatlumpung araw ng branch na iyon na kinukuha ng 乙."
+          },
+          {
+            "table": {
+              "caption": "Ang mga branch na may hawak ng 乙",
+              "head": [
+                "Branch",
+                "Hayop",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "卯",
+                  "Kuneho",
+                  "pangunahin (本氣)",
+                  "{hidMyoBon}"
+                ],
+                [
+                  "辰",
+                  "Dragon",
+                  "natitira (餘氣)",
+                  "{hidJinYeo}"
+                ],
+                [
+                  "未",
+                  "Tupa",
+                  "gitna (中氣)",
+                  "{hidMiJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang stem kung sino ang isang tao. Binabasa ang saju mula sa ugnayan ng walong karakter nito.",
+              "Ang Ten Gods ay isang pagtatasa na ginagawa mula sa day stem. Ang parehong dalawang karakter ay nagkakaroon ng ibang pangalan depende sa kung alin ang day stem."
+            ]
+          },
+          {
+            "p": "Ang buong Ten Gods ay nasa [gabay sa Ten Gods](/guide/ten-gods), at ang lakas ng mga elemento at ang month sign ay nasa [gabay sa five elements](/guide/five-elements). Iba pang stem: [Yang na Kahoy (甲)](/guide/stem-gap) · [Yang na Apoy (丙)](/guide/stem-byeong) · [Yin na Apoy (丁)](/guide/stem-jeong) · [Yang na Lupa (戊)](/guide/stem-mu) · [Yin na Lupa (己)](/guide/stem-gi) · [Yang na Metal (庚)](/guide/stem-gyeong) · [Yin na Metal (辛)](/guide/stem-sin) · [Yang na Tubig (壬)](/guide/stem-im) · [Yin na Tubig (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-byeong": {
+    "eyebrow": "Mga heavenly stem",
+    "title": "Yang na Apoy (丙) — Apoy, Yang",
+    "summary": "Ang elemento at polarity ng heavenly stem na 丙, kung paano nito binabasa ang siyam na iba pang stem (ang Ten Gods), at kung aling mga earthly branch ang may hawak nito — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Yang na Apoy (丙) ay ang ikatlo sa sampung heavenly stem",
+        "blocks": [
+          {
+            "p": "Ang 丙 ay ang ikatlo sa sampung heavenly stem. Ang elemento nito ay Apoy at ang polarity nito ay Yang. Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\"."
+          },
+          {
+            "p": "Ang linyang ipinapakita ng screen ng resulta para sa day stem na ito ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa talahanayan o sa mga iskor sa ibaba."
+          }
+        ]
+      },
+      {
+        "title": "Paano nito binabasa ang iba pang stem (ang Ten Gods)",
+        "blocks": [
+          {
+            "p": "Kapag ang 丙 ang day stem, ganito binabasa ang bawat isa sa sampung stem. May direksyon ang pagbasa: ganito binabasa ng 丙 ang kabilang stem, at kapag binasa naman ng kabilang stem ang 丙, maaaring lumabas ang ibang pangalan."
+          },
+          {
+            "table": {
+              "caption": "Ten Gods kapag ang Yang na Apoy (丙) ang day stem",
+              "head": [
+                "Ibang stem",
+                "Elemento at polarity",
+                "Pangalan sa Ten Gods"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "Awtoridad (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Mga stem na binabasa bilang posisyon ng asawa",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丙 ang day stem, ang Matatag na yaman ay 辛 at ang Awtoridad ay 癸. Kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga branch na may hawak ng 丙",
+        "blocks": [
+          {
+            "p": "Dito nakatago ang 丙 sa loob ng mga earthly branch (ang hidden stems). Ang bahagi ay ang proporsyon ng tatlumpung araw ng branch na iyon na kinukuha ng 丙."
+          },
+          {
+            "table": {
+              "caption": "Ang mga branch na may hawak ng 丙",
+              "head": [
+                "Branch",
+                "Hayop",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Tigre",
+                  "gitna (中氣)",
+                  "{hidInJung}"
+                ],
+                [
+                  "巳",
+                  "Ahas",
+                  "pangunahin (本氣)",
+                  "{hidSaBon}"
+                ],
+                [
+                  "午",
+                  "Kabayo",
+                  "natitira (餘氣)",
+                  "{hidOYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang stem kung sino ang isang tao. Binabasa ang saju mula sa ugnayan ng walong karakter nito.",
+              "Ang Ten Gods ay isang pagtatasa na ginagawa mula sa day stem. Ang parehong dalawang karakter ay nagkakaroon ng ibang pangalan depende sa kung alin ang day stem."
+            ]
+          },
+          {
+            "p": "Ang buong Ten Gods ay nasa [gabay sa Ten Gods](/guide/ten-gods), at ang lakas ng mga elemento at ang month sign ay nasa [gabay sa five elements](/guide/five-elements). Iba pang stem: [Yang na Kahoy (甲)](/guide/stem-gap) · [Yin na Kahoy (乙)](/guide/stem-eul) · [Yin na Apoy (丁)](/guide/stem-jeong) · [Yang na Lupa (戊)](/guide/stem-mu) · [Yin na Lupa (己)](/guide/stem-gi) · [Yang na Metal (庚)](/guide/stem-gyeong) · [Yin na Metal (辛)](/guide/stem-sin) · [Yang na Tubig (壬)](/guide/stem-im) · [Yin na Tubig (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-jeong": {
+    "eyebrow": "Mga heavenly stem",
+    "title": "Yin na Apoy (丁) — Apoy, Yin",
+    "summary": "Ang elemento at polarity ng heavenly stem na 丁, kung paano nito binabasa ang siyam na iba pang stem (ang Ten Gods), at kung aling mga earthly branch ang may hawak nito — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Yin na Apoy (丁) ay ang ikaapat sa sampung heavenly stem",
+        "blocks": [
+          {
+            "p": "Ang 丁 ay ang ikaapat sa sampung heavenly stem. Ang elemento nito ay Apoy at ang polarity nito ay Yin. Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\"."
+          },
+          {
+            "p": "Ang linyang ipinapakita ng screen ng resulta para sa day stem na ito ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa talahanayan o sa mga iskor sa ibaba."
+          }
+        ]
+      },
+      {
+        "title": "Paano nito binabasa ang iba pang stem (ang Ten Gods)",
+        "blocks": [
+          {
+            "p": "Kapag ang 丁 ang day stem, ganito binabasa ang bawat isa sa sampung stem. May direksyon ang pagbasa: ganito binabasa ng 丁 ang kabilang stem, at kapag binasa naman ng kabilang stem ang 丁, maaaring lumabas ang ibang pangalan."
+          },
+          {
+            "table": {
+              "caption": "Ten Gods kapag ang Yin na Apoy (丁) ang day stem",
+              "head": [
+                "Ibang stem",
+                "Elemento at polarity",
+                "Pangalan sa Ten Gods"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "Humahamon (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Mga stem na binabasa bilang posisyon ng asawa",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丁 ang day stem, ang Matatag na yaman ay 庚 at ang Awtoridad ay 壬. Kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga branch na may hawak ng 丁",
+        "blocks": [
+          {
+            "p": "Dito nakatago ang 丁 sa loob ng mga earthly branch (ang hidden stems). Ang bahagi ay ang proporsyon ng tatlumpung araw ng branch na iyon na kinukuha ng 丁."
+          },
+          {
+            "table": {
+              "caption": "Ang mga branch na may hawak ng 丁",
+              "head": [
+                "Branch",
+                "Hayop",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "午",
+                  "Kabayo",
+                  "pangunahin (本氣)",
+                  "{hidOBon}"
+                ],
+                [
+                  "未",
+                  "Tupa",
+                  "natitira (餘氣)",
+                  "{hidMiYeo}"
+                ],
+                [
+                  "戌",
+                  "Aso",
+                  "gitna (中氣)",
+                  "{hidSulJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang stem kung sino ang isang tao. Binabasa ang saju mula sa ugnayan ng walong karakter nito.",
+              "Ang Ten Gods ay isang pagtatasa na ginagawa mula sa day stem. Ang parehong dalawang karakter ay nagkakaroon ng ibang pangalan depende sa kung alin ang day stem."
+            ]
+          },
+          {
+            "p": "Ang buong Ten Gods ay nasa [gabay sa Ten Gods](/guide/ten-gods), at ang lakas ng mga elemento at ang month sign ay nasa [gabay sa five elements](/guide/five-elements). Iba pang stem: [Yang na Kahoy (甲)](/guide/stem-gap) · [Yin na Kahoy (乙)](/guide/stem-eul) · [Yang na Apoy (丙)](/guide/stem-byeong) · [Yang na Lupa (戊)](/guide/stem-mu) · [Yin na Lupa (己)](/guide/stem-gi) · [Yang na Metal (庚)](/guide/stem-gyeong) · [Yin na Metal (辛)](/guide/stem-sin) · [Yang na Tubig (壬)](/guide/stem-im) · [Yin na Tubig (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-mu": {
+    "eyebrow": "Mga heavenly stem",
+    "title": "Yang na Lupa (戊) — Lupa, Yang",
+    "summary": "Ang elemento at polarity ng heavenly stem na 戊, kung paano nito binabasa ang siyam na iba pang stem (ang Ten Gods), at kung aling mga earthly branch ang may hawak nito — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Yang na Lupa (戊) ay ang ikalima sa sampung heavenly stem",
+        "blocks": [
+          {
+            "p": "Ang 戊 ay ang ikalima sa sampung heavenly stem. Ang elemento nito ay Lupa at ang polarity nito ay Yang. Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\"."
+          },
+          {
+            "p": "Ang linyang ipinapakita ng screen ng resulta para sa day stem na ito ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa talahanayan o sa mga iskor sa ibaba."
+          }
+        ]
+      },
+      {
+        "title": "Paano nito binabasa ang iba pang stem (ang Ten Gods)",
+        "blocks": [
+          {
+            "p": "Kapag ang 戊 ang day stem, ganito binabasa ang bawat isa sa sampung stem. May direksyon ang pagbasa: ganito binabasa ng 戊 ang kabilang stem, at kapag binasa naman ng kabilang stem ang 戊, maaaring lumabas ang ibang pangalan."
+          },
+          {
+            "table": {
+              "caption": "Ten Gods kapag ang Yang na Lupa (戊) ang day stem",
+              "head": [
+                "Ibang stem",
+                "Elemento at polarity",
+                "Pangalan sa Ten Gods"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "Matatag na yaman (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Mga stem na binabasa bilang posisyon ng asawa",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 戊 ang day stem, ang Matatag na yaman ay 癸 at ang Awtoridad ay 乙. Kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga branch na may hawak ng 戊",
+        "blocks": [
+          {
+            "p": "Dito nakatago ang 戊 sa loob ng mga earthly branch (ang hidden stems). Ang bahagi ay ang proporsyon ng tatlumpung araw ng branch na iyon na kinukuha ng 戊."
+          },
+          {
+            "table": {
+              "caption": "Ang mga branch na may hawak ng 戊",
+              "head": [
+                "Branch",
+                "Hayop",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Tigre",
+                  "natitira (餘氣)",
+                  "{hidInYeo}"
+                ],
+                [
+                  "辰",
+                  "Dragon",
+                  "pangunahin (本氣)",
+                  "{hidJinBon}"
+                ],
+                [
+                  "巳",
+                  "Ahas",
+                  "natitira (餘氣)",
+                  "{hidSaYeo}"
+                ],
+                [
+                  "申",
+                  "Unggoy",
+                  "natitira (餘氣)",
+                  "{hidSinYeo}"
+                ],
+                [
+                  "戌",
+                  "Aso",
+                  "pangunahin (本氣)",
+                  "{hidSulBon}"
+                ],
+                [
+                  "亥",
+                  "Baboy",
+                  "natitira (餘氣)",
+                  "{hidHaeYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang stem kung sino ang isang tao. Binabasa ang saju mula sa ugnayan ng walong karakter nito.",
+              "Ang Ten Gods ay isang pagtatasa na ginagawa mula sa day stem. Ang parehong dalawang karakter ay nagkakaroon ng ibang pangalan depende sa kung alin ang day stem."
+            ]
+          },
+          {
+            "p": "Ang buong Ten Gods ay nasa [gabay sa Ten Gods](/guide/ten-gods), at ang lakas ng mga elemento at ang month sign ay nasa [gabay sa five elements](/guide/five-elements). Iba pang stem: [Yang na Kahoy (甲)](/guide/stem-gap) · [Yin na Kahoy (乙)](/guide/stem-eul) · [Yang na Apoy (丙)](/guide/stem-byeong) · [Yin na Apoy (丁)](/guide/stem-jeong) · [Yin na Lupa (己)](/guide/stem-gi) · [Yang na Metal (庚)](/guide/stem-gyeong) · [Yin na Metal (辛)](/guide/stem-sin) · [Yang na Tubig (壬)](/guide/stem-im) · [Yin na Tubig (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gi": {
+    "eyebrow": "Mga heavenly stem",
+    "title": "Yin na Lupa (己) — Lupa, Yin",
+    "summary": "Ang elemento at polarity ng heavenly stem na 己, kung paano nito binabasa ang siyam na iba pang stem (ang Ten Gods), at kung aling mga earthly branch ang may hawak nito — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Yin na Lupa (己) ay ang ikaanim sa sampung heavenly stem",
+        "blocks": [
+          {
+            "p": "Ang 己 ay ang ikaanim sa sampung heavenly stem. Ang elemento nito ay Lupa at ang polarity nito ay Yin. Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\"."
+          },
+          {
+            "p": "Ang linyang ipinapakita ng screen ng resulta para sa day stem na ito ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa talahanayan o sa mga iskor sa ibaba."
+          }
+        ]
+      },
+      {
+        "title": "Paano nito binabasa ang iba pang stem (ang Ten Gods)",
+        "blocks": [
+          {
+            "p": "Kapag ang 己 ang day stem, ganito binabasa ang bawat isa sa sampung stem. May direksyon ang pagbasa: ganito binabasa ng 己 ang kabilang stem, at kapag binasa naman ng kabilang stem ang 己, maaaring lumabas ang ibang pangalan."
+          },
+          {
+            "table": {
+              "caption": "Ten Gods kapag ang Yin na Lupa (己) ang day stem",
+              "head": [
+                "Ibang stem",
+                "Elemento at polarity",
+                "Pangalan sa Ten Gods"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "Biglaang yaman (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Mga stem na binabasa bilang posisyon ng asawa",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 己 ang day stem, ang Matatag na yaman ay 壬 at ang Awtoridad ay 甲. Kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga branch na may hawak ng 己",
+        "blocks": [
+          {
+            "p": "Dito nakatago ang 己 sa loob ng mga earthly branch (ang hidden stems). Ang bahagi ay ang proporsyon ng tatlumpung araw ng branch na iyon na kinukuha ng 己."
+          },
+          {
+            "table": {
+              "caption": "Ang mga branch na may hawak ng 己",
+              "head": [
+                "Branch",
+                "Hayop",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "丑",
+                  "Baka",
+                  "pangunahin (本氣)",
+                  "{hidChukBon}"
+                ],
+                [
+                  "午",
+                  "Kabayo",
+                  "gitna (中氣)",
+                  "{hidOJung}"
+                ],
+                [
+                  "未",
+                  "Tupa",
+                  "pangunahin (本氣)",
+                  "{hidMiBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang stem kung sino ang isang tao. Binabasa ang saju mula sa ugnayan ng walong karakter nito.",
+              "Ang Ten Gods ay isang pagtatasa na ginagawa mula sa day stem. Ang parehong dalawang karakter ay nagkakaroon ng ibang pangalan depende sa kung alin ang day stem."
+            ]
+          },
+          {
+            "p": "Ang buong Ten Gods ay nasa [gabay sa Ten Gods](/guide/ten-gods), at ang lakas ng mga elemento at ang month sign ay nasa [gabay sa five elements](/guide/five-elements). Iba pang stem: [Yang na Kahoy (甲)](/guide/stem-gap) · [Yin na Kahoy (乙)](/guide/stem-eul) · [Yang na Apoy (丙)](/guide/stem-byeong) · [Yin na Apoy (丁)](/guide/stem-jeong) · [Yang na Lupa (戊)](/guide/stem-mu) · [Yang na Metal (庚)](/guide/stem-gyeong) · [Yin na Metal (辛)](/guide/stem-sin) · [Yang na Tubig (壬)](/guide/stem-im) · [Yin na Tubig (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gyeong": {
+    "eyebrow": "Mga heavenly stem",
+    "title": "Yang na Metal (庚) — Metal, Yang",
+    "summary": "Ang elemento at polarity ng heavenly stem na 庚, kung paano nito binabasa ang siyam na iba pang stem (ang Ten Gods), at kung aling mga earthly branch ang may hawak nito — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Yang na Metal (庚) ay ang ikapito sa sampung heavenly stem",
+        "blocks": [
+          {
+            "p": "Ang 庚 ay ang ikapito sa sampung heavenly stem. Ang elemento nito ay Metal at ang polarity nito ay Yang. Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\"."
+          },
+          {
+            "p": "Ang linyang ipinapakita ng screen ng resulta para sa day stem na ito ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa talahanayan o sa mga iskor sa ibaba."
+          }
+        ]
+      },
+      {
+        "title": "Paano nito binabasa ang iba pang stem (ang Ten Gods)",
+        "blocks": [
+          {
+            "p": "Kapag ang 庚 ang day stem, ganito binabasa ang bawat isa sa sampung stem. May direksyon ang pagbasa: ganito binabasa ng 庚 ang kabilang stem, at kapag binasa naman ng kabilang stem ang 庚, maaaring lumabas ang ibang pangalan."
+          },
+          {
+            "table": {
+              "caption": "Ten Gods kapag ang Yang na Metal (庚) ang day stem",
+              "head": [
+                "Ibang stem",
+                "Elemento at polarity",
+                "Pangalan sa Ten Gods"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "Manggugulo (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Mga stem na binabasa bilang posisyon ng asawa",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 庚 ang day stem, ang Matatag na yaman ay 乙 at ang Awtoridad ay 丁. Kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga branch na may hawak ng 庚",
+        "blocks": [
+          {
+            "p": "Dito nakatago ang 庚 sa loob ng mga earthly branch (ang hidden stems). Ang bahagi ay ang proporsyon ng tatlumpung araw ng branch na iyon na kinukuha ng 庚."
+          },
+          {
+            "table": {
+              "caption": "Ang mga branch na may hawak ng 庚",
+              "head": [
+                "Branch",
+                "Hayop",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "巳",
+                  "Ahas",
+                  "gitna (中氣)",
+                  "{hidSaJung}"
+                ],
+                [
+                  "申",
+                  "Unggoy",
+                  "pangunahin (本氣)",
+                  "{hidSinBon}"
+                ],
+                [
+                  "酉",
+                  "Manok",
+                  "natitira (餘氣)",
+                  "{hidYuYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang stem kung sino ang isang tao. Binabasa ang saju mula sa ugnayan ng walong karakter nito.",
+              "Ang Ten Gods ay isang pagtatasa na ginagawa mula sa day stem. Ang parehong dalawang karakter ay nagkakaroon ng ibang pangalan depende sa kung alin ang day stem."
+            ]
+          },
+          {
+            "p": "Ang buong Ten Gods ay nasa [gabay sa Ten Gods](/guide/ten-gods), at ang lakas ng mga elemento at ang month sign ay nasa [gabay sa five elements](/guide/five-elements). Iba pang stem: [Yang na Kahoy (甲)](/guide/stem-gap) · [Yin na Kahoy (乙)](/guide/stem-eul) · [Yang na Apoy (丙)](/guide/stem-byeong) · [Yin na Apoy (丁)](/guide/stem-jeong) · [Yang na Lupa (戊)](/guide/stem-mu) · [Yin na Lupa (己)](/guide/stem-gi) · [Yin na Metal (辛)](/guide/stem-sin) · [Yang na Tubig (壬)](/guide/stem-im) · [Yin na Tubig (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-sin": {
+    "eyebrow": "Mga heavenly stem",
+    "title": "Yin na Metal (辛) — Metal, Yin",
+    "summary": "Ang elemento at polarity ng heavenly stem na 辛, kung paano nito binabasa ang siyam na iba pang stem (ang Ten Gods), at kung aling mga earthly branch ang may hawak nito — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Yin na Metal (辛) ay ang ikawalo sa sampung heavenly stem",
+        "blocks": [
+          {
+            "p": "Ang 辛 ay ang ikawalo sa sampung heavenly stem. Ang elemento nito ay Metal at ang polarity nito ay Yin. Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\"."
+          },
+          {
+            "p": "Ang linyang ipinapakita ng screen ng resulta para sa day stem na ito ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa talahanayan o sa mga iskor sa ibaba."
+          }
+        ]
+      },
+      {
+        "title": "Paano nito binabasa ang iba pang stem (ang Ten Gods)",
+        "blocks": [
+          {
+            "p": "Kapag ang 辛 ang day stem, ganito binabasa ang bawat isa sa sampung stem. May direksyon ang pagbasa: ganito binabasa ng 辛 ang kabilang stem, at kapag binasa naman ng kabilang stem ang 辛, maaaring lumabas ang ibang pangalan."
+          },
+          {
+            "table": {
+              "caption": "Ten Gods kapag ang Yin na Metal (辛) ang day stem",
+              "head": [
+                "Ibang stem",
+                "Elemento at polarity",
+                "Pangalan sa Ten Gods"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "Pagpapahayag (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Mga stem na binabasa bilang posisyon ng asawa",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 辛 ang day stem, ang Matatag na yaman ay 甲 at ang Awtoridad ay 丙. Kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga branch na may hawak ng 辛",
+        "blocks": [
+          {
+            "p": "Dito nakatago ang 辛 sa loob ng mga earthly branch (ang hidden stems). Ang bahagi ay ang proporsyon ng tatlumpung araw ng branch na iyon na kinukuha ng 辛."
+          },
+          {
+            "table": {
+              "caption": "Ang mga branch na may hawak ng 辛",
+              "head": [
+                "Branch",
+                "Hayop",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "丑",
+                  "Baka",
+                  "gitna (中氣)",
+                  "{hidChukJung}"
+                ],
+                [
+                  "酉",
+                  "Manok",
+                  "pangunahin (本氣)",
+                  "{hidYuBon}"
+                ],
+                [
+                  "戌",
+                  "Aso",
+                  "natitira (餘氣)",
+                  "{hidSulYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang stem kung sino ang isang tao. Binabasa ang saju mula sa ugnayan ng walong karakter nito.",
+              "Ang Ten Gods ay isang pagtatasa na ginagawa mula sa day stem. Ang parehong dalawang karakter ay nagkakaroon ng ibang pangalan depende sa kung alin ang day stem."
+            ]
+          },
+          {
+            "p": "Ang buong Ten Gods ay nasa [gabay sa Ten Gods](/guide/ten-gods), at ang lakas ng mga elemento at ang month sign ay nasa [gabay sa five elements](/guide/five-elements). Iba pang stem: [Yang na Kahoy (甲)](/guide/stem-gap) · [Yin na Kahoy (乙)](/guide/stem-eul) · [Yang na Apoy (丙)](/guide/stem-byeong) · [Yin na Apoy (丁)](/guide/stem-jeong) · [Yang na Lupa (戊)](/guide/stem-mu) · [Yin na Lupa (己)](/guide/stem-gi) · [Yang na Metal (庚)](/guide/stem-gyeong) · [Yang na Tubig (壬)](/guide/stem-im) · [Yin na Tubig (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-im": {
+    "eyebrow": "Mga heavenly stem",
+    "title": "Yang na Tubig (壬) — Tubig, Yang",
+    "summary": "Ang elemento at polarity ng heavenly stem na 壬, kung paano nito binabasa ang siyam na iba pang stem (ang Ten Gods), at kung aling mga earthly branch ang may hawak nito — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Yang na Tubig (壬) ay ang ikasiyam sa sampung heavenly stem",
+        "blocks": [
+          {
+            "p": "Ang 壬 ay ang ikasiyam sa sampung heavenly stem. Ang elemento nito ay Tubig at ang polarity nito ay Yang. Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\"."
+          },
+          {
+            "p": "Ang linyang ipinapakita ng screen ng resulta para sa day stem na ito ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa talahanayan o sa mga iskor sa ibaba."
+          }
+        ]
+      },
+      {
+        "title": "Paano nito binabasa ang iba pang stem (ang Ten Gods)",
+        "blocks": [
+          {
+            "p": "Kapag ang 壬 ang day stem, ganito binabasa ang bawat isa sa sampung stem. May direksyon ang pagbasa: ganito binabasa ng 壬 ang kabilang stem, at kapag binasa naman ng kabilang stem ang 壬, maaaring lumabas ang ibang pangalan."
+          },
+          {
+            "table": {
+              "caption": "Ten Gods kapag ang Yang na Tubig (壬) ang day stem",
+              "head": [
+                "Ibang stem",
+                "Elemento at polarity",
+                "Pangalan sa Ten Gods"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "Karibal (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Mga stem na binabasa bilang posisyon ng asawa",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 壬 ang day stem, ang Matatag na yaman ay 丁 at ang Awtoridad ay 己. Kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga branch na may hawak ng 壬",
+        "blocks": [
+          {
+            "p": "Dito nakatago ang 壬 sa loob ng mga earthly branch (ang hidden stems). Ang bahagi ay ang proporsyon ng tatlumpung araw ng branch na iyon na kinukuha ng 壬."
+          },
+          {
+            "table": {
+              "caption": "Ang mga branch na may hawak ng 壬",
+              "head": [
+                "Branch",
+                "Hayop",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Daga",
+                  "natitira (餘氣)",
+                  "{hidJaYeo}"
+                ],
+                [
+                  "申",
+                  "Unggoy",
+                  "gitna (中氣)",
+                  "{hidSinJung}"
+                ],
+                [
+                  "亥",
+                  "Baboy",
+                  "pangunahin (本氣)",
+                  "{hidHaeBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang stem kung sino ang isang tao. Binabasa ang saju mula sa ugnayan ng walong karakter nito.",
+              "Ang Ten Gods ay isang pagtatasa na ginagawa mula sa day stem. Ang parehong dalawang karakter ay nagkakaroon ng ibang pangalan depende sa kung alin ang day stem."
+            ]
+          },
+          {
+            "p": "Ang buong Ten Gods ay nasa [gabay sa Ten Gods](/guide/ten-gods), at ang lakas ng mga elemento at ang month sign ay nasa [gabay sa five elements](/guide/five-elements). Iba pang stem: [Yang na Kahoy (甲)](/guide/stem-gap) · [Yin na Kahoy (乙)](/guide/stem-eul) · [Yang na Apoy (丙)](/guide/stem-byeong) · [Yin na Apoy (丁)](/guide/stem-jeong) · [Yang na Lupa (戊)](/guide/stem-mu) · [Yin na Lupa (己)](/guide/stem-gi) · [Yang na Metal (庚)](/guide/stem-gyeong) · [Yin na Metal (辛)](/guide/stem-sin) · [Yin na Tubig (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gye": {
+    "eyebrow": "Mga heavenly stem",
+    "title": "Yin na Tubig (癸) — Tubig, Yin",
+    "summary": "Ang elemento at polarity ng heavenly stem na 癸, kung paano nito binabasa ang siyam na iba pang stem (ang Ten Gods), at kung aling mga earthly branch ang may hawak nito — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang Yin na Tubig (癸) ay ang ikasampu sa sampung heavenly stem",
+        "blocks": [
+          {
+            "p": "Ang 癸 ay ang ikasampu sa sampung heavenly stem. Ang elemento nito ay Tubig at ang polarity nito ay Yin. Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\"."
+          },
+          {
+            "p": "Ang linyang ipinapakita ng screen ng resulta para sa day stem na ito ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa talahanayan o sa mga iskor sa ibaba."
+          }
+        ]
+      },
+      {
+        "title": "Paano nito binabasa ang iba pang stem (ang Ten Gods)",
+        "blocks": [
+          {
+            "p": "Kapag ang 癸 ang day stem, ganito binabasa ang bawat isa sa sampung stem. May direksyon ang pagbasa: ganito binabasa ng 癸 ang kabilang stem, at kapag binasa naman ng kabilang stem ang 癸, maaaring lumabas ang ibang pangalan."
+          },
+          {
+            "table": {
+              "caption": "Ten Gods kapag ang Yin na Tubig (癸) ang day stem",
+              "head": [
+                "Ibang stem",
+                "Elemento at polarity",
+                "Pangalan sa Ten Gods"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "Kasama (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Mga stem na binabasa bilang posisyon ng asawa",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 癸 ang day stem, ang Matatag na yaman ay 丙 at ang Awtoridad ay 戊. Kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga branch na may hawak ng 癸",
+        "blocks": [
+          {
+            "p": "Dito nakatago ang 癸 sa loob ng mga earthly branch (ang hidden stems). Ang bahagi ay ang proporsyon ng tatlumpung araw ng branch na iyon na kinukuha ng 癸."
+          },
+          {
+            "table": {
+              "caption": "Ang mga branch na may hawak ng 癸",
+              "head": [
+                "Branch",
+                "Hayop",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Daga",
+                  "pangunahin (本氣)",
+                  "{hidJaBon}"
+                ],
+                [
+                  "丑",
+                  "Baka",
+                  "natitira (餘氣)",
+                  "{hidChukYeo}"
+                ],
+                [
+                  "辰",
+                  "Dragon",
+                  "gitna (中氣)",
+                  "{hidJinJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang stem kung sino ang isang tao. Binabasa ang saju mula sa ugnayan ng walong karakter nito.",
+              "Ang Ten Gods ay isang pagtatasa na ginagawa mula sa day stem. Ang parehong dalawang karakter ay nagkakaroon ng ibang pangalan depende sa kung alin ang day stem."
+            ]
+          },
+          {
+            "p": "Ang buong Ten Gods ay nasa [gabay sa Ten Gods](/guide/ten-gods), at ang lakas ng mga elemento at ang month sign ay nasa [gabay sa five elements](/guide/five-elements). Iba pang stem: [Yang na Kahoy (甲)](/guide/stem-gap) · [Yin na Kahoy (乙)](/guide/stem-eul) · [Yang na Apoy (丙)](/guide/stem-byeong) · [Yin na Apoy (丁)](/guide/stem-jeong) · [Yang na Lupa (戊)](/guide/stem-mu) · [Yin na Lupa (己)](/guide/stem-gi) · [Yang na Metal (庚)](/guide/stem-gyeong) · [Yin na Metal (辛)](/guide/stem-sin) · [Yang na Tubig (壬)](/guide/stem-im)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-ja": {
+    "eyebrow": "Mga earthly branch",
+    "title": "子 — ang branch ng Daga",
+    "summary": "Ang mga stem na hawak ng earthly branch na 子 (ang hidden stems), ang lakas ng limang elemento kapag ito ang month branch, at ang Ten Gods na binabasa para sa bawat day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 子 ay ang una sa labindalawang earthly branch",
+        "blocks": [
+          {
+            "p": "Ang 子 ay ang una sa labindalawang earthly branch at kabilang sa Daga. Kapag ang branch ng buwan ng kapanganakan ay 子, ang panahon ay taglamig at ang elementong may-ari ng panahon ay Tubig."
+          },
+          {
+            "p": "Kapag ang branch ng araw ng kapanganakan ay 子, ang karakter na ito ang posisyon ng asawa. Sa ibaba makikita kung aling mga stem ang hawak ng branch na ito at kung ano ang mga ito sa day stem."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga stem na hawak ng branch na ito (hidden stems)",
+        "blocks": [
+          {
+            "p": "Ang branch ay isang nakikitang karakter ngunit may mga stem sa loob nito. Ang bahagi ay kung paano hinahati ang tatlumpung araw ng branch sa mga stem, at ang pangunahing stem ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng 子",
+              "head": [
+                "Stem",
+                "Elemento at polarity",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "natitira (餘氣)",
+                  "{hidJaYeo}"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "pangunahin (本氣)",
+                  "{hidJaBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang lakas ng limang elemento kapag ang month branch ay 子",
+        "blocks": [
+          {
+            "p": "Kapag ang branch ng buwan ng kapanganakan ay 子, nagkakaroon ang bawat elemento ng isang estado (Wang, Sang, Hyu, Su, Sa), at ang estadong iyon ang nagiging multiplier na ipinapataw sa lakas nito."
+          },
+          {
+            "table": {
+              "caption": "Ang mga estado ng elemento para sa month branch 子 (taglamig)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplier"
+              ],
+              "rows": [
+                [
+                  "Kahoy",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Apoy",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Lupa",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Metal",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Tubig",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang Ten Gods ayon sa day stem",
+        "blocks": [
+          {
+            "p": "Ang parehong hidden stems ng 子 ay nagiging magkaibang Ten Gods depende sa day stem. Kapag ang 子 ang day branch, ang talahanayang ito ang pagbasa sa posisyon ng asawa."
+          },
+          {
+            "table": {
+              "caption": "Kung ano ang hidden stems ng 子 sa bawat day stem",
+              "head": [
+                "Day stem",
+                "Yang na Tubig (壬) — natitira (餘氣)",
+                "Yin na Tubig (癸) — pangunahin (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Pag-aaruga (正印)",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Humahamon (偏官)",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Awtoridad (正官)",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Biglaang yaman (偏財)",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Matatag na yaman (正財)",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Pagpapahayag (食神)",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Manggugulo (傷官)",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Kasama (比肩)",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Karibal (劫財)",
+                  "Kasama (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang branch kung sino ang isang tao. Magkaiba ang pagbasa sa parehong branch depende sa day stem at sa month branch.",
+              "Ang mga ugnayan sa pagitan ng mga branch, tulad ng harmonya, salpukan, at alitan, ay hindi saklaw dito."
+            ]
+          },
+          {
+            "p": "Ang mga ugnayan sa pagitan ng mga branch ay nasa [talaan ng labindalawang branch](/guide/branches), at ang kahulugan nito bilang zodiac animal ay nasa [kung saan nakalagay ang zodiac sa isang saju](/guide/zodiac). Iba pang branch: [丑 (Baka)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Kuneho)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Ahas)](/guide/branch-sa) · [午 (Kabayo)](/guide/branch-o) · [未 (Tupa)](/guide/branch-mi) · [申 (Unggoy)](/guide/branch-sin) · [酉 (Manok)](/guide/branch-yu) · [戌 (Aso)](/guide/branch-sul) · [亥 (Baboy)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-chuk": {
+    "eyebrow": "Mga earthly branch",
+    "title": "丑 — ang branch ng Baka",
+    "summary": "Ang mga stem na hawak ng earthly branch na 丑 (ang hidden stems), ang lakas ng limang elemento kapag ito ang month branch, at ang Ten Gods na binabasa para sa bawat day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丑 ay ang ikalawa sa labindalawang earthly branch",
+        "blocks": [
+          {
+            "p": "Ang 丑 ay ang ikalawa sa labindalawang earthly branch at kabilang sa Baka. Kapag ang branch ng buwan ng kapanganakan ay 丑, ang panahon ay taglamig at ang elementong may-ari ng panahon ay Tubig. Ito ay buwan ng paglipat (辰未戌丑), kaya ang Lupa ay itinuturing ding nasa estadong Wang."
+          },
+          {
+            "p": "Kapag ang branch ng araw ng kapanganakan ay 丑, ang karakter na ito ang posisyon ng asawa. Sa ibaba makikita kung aling mga stem ang hawak ng branch na ito at kung ano ang mga ito sa day stem."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga stem na hawak ng branch na ito (hidden stems)",
+        "blocks": [
+          {
+            "p": "Ang branch ay isang nakikitang karakter ngunit may mga stem sa loob nito. Ang bahagi ay kung paano hinahati ang tatlumpung araw ng branch sa mga stem, at ang pangunahing stem ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng 丑",
+              "head": [
+                "Stem",
+                "Elemento at polarity",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "natitira (餘氣)",
+                  "{hidChukYeo}"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "gitna (中氣)",
+                  "{hidChukJung}"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "pangunahin (本氣)",
+                  "{hidChukBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang lakas ng limang elemento kapag ang month branch ay 丑",
+        "blocks": [
+          {
+            "p": "Kapag ang branch ng buwan ng kapanganakan ay 丑, nagkakaroon ang bawat elemento ng isang estado (Wang, Sang, Hyu, Su, Sa), at ang estadong iyon ang nagiging multiplier na ipinapataw sa lakas nito."
+          },
+          {
+            "table": {
+              "caption": "Ang mga estado ng elemento para sa month branch 丑 (taglamig (buwan ng paglipat))",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplier"
+              ],
+              "rows": [
+                [
+                  "Kahoy",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Apoy",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Lupa",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Metal",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Tubig",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang Ten Gods ayon sa day stem",
+        "blocks": [
+          {
+            "p": "Ang parehong hidden stems ng 丑 ay nagiging magkaibang Ten Gods depende sa day stem. Kapag ang 丑 ang day branch, ang talahanayang ito ang pagbasa sa posisyon ng asawa."
+          },
+          {
+            "table": {
+              "caption": "Kung ano ang hidden stems ng 丑 sa bawat day stem",
+              "head": [
+                "Day stem",
+                "Yin na Tubig (癸) — natitira (餘氣)",
+                "Yin na Metal (辛) — gitna (中氣)",
+                "Yin na Lupa (己) — pangunahin (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Pag-aaruga (正印)",
+                  "Awtoridad (正官)",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Humahamon (偏官)",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Awtoridad (正官)",
+                  "Matatag na yaman (正財)",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Humahamon (偏官)",
+                  "Biglaang yaman (偏財)",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Matatag na yaman (正財)",
+                  "Manggugulo (傷官)",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Biglaang yaman (偏財)",
+                  "Pagpapahayag (食神)",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Manggugulo (傷官)",
+                  "Karibal (劫財)",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Pagpapahayag (食神)",
+                  "Kasama (比肩)",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Karibal (劫財)",
+                  "Pag-aaruga (正印)",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Kasama (比肩)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Humahamon (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang branch kung sino ang isang tao. Magkaiba ang pagbasa sa parehong branch depende sa day stem at sa month branch.",
+              "Ang mga ugnayan sa pagitan ng mga branch, tulad ng harmonya, salpukan, at alitan, ay hindi saklaw dito."
+            ]
+          },
+          {
+            "p": "Ang mga ugnayan sa pagitan ng mga branch ay nasa [talaan ng labindalawang branch](/guide/branches), at ang kahulugan nito bilang zodiac animal ay nasa [kung saan nakalagay ang zodiac sa isang saju](/guide/zodiac). Iba pang branch: [子 (Daga)](/guide/branch-ja) · [寅 (Tigre)](/guide/branch-in) · [卯 (Kuneho)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Ahas)](/guide/branch-sa) · [午 (Kabayo)](/guide/branch-o) · [未 (Tupa)](/guide/branch-mi) · [申 (Unggoy)](/guide/branch-sin) · [酉 (Manok)](/guide/branch-yu) · [戌 (Aso)](/guide/branch-sul) · [亥 (Baboy)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-in": {
+    "eyebrow": "Mga earthly branch",
+    "title": "寅 — ang branch ng Tigre",
+    "summary": "Ang mga stem na hawak ng earthly branch na 寅 (ang hidden stems), ang lakas ng limang elemento kapag ito ang month branch, at ang Ten Gods na binabasa para sa bawat day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 寅 ay ang ikatlo sa labindalawang earthly branch",
+        "blocks": [
+          {
+            "p": "Ang 寅 ay ang ikatlo sa labindalawang earthly branch at kabilang sa Tigre. Kapag ang branch ng buwan ng kapanganakan ay 寅, ang panahon ay tagsibol at ang elementong may-ari ng panahon ay Kahoy."
+          },
+          {
+            "p": "Kapag ang branch ng araw ng kapanganakan ay 寅, ang karakter na ito ang posisyon ng asawa. Sa ibaba makikita kung aling mga stem ang hawak ng branch na ito at kung ano ang mga ito sa day stem."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga stem na hawak ng branch na ito (hidden stems)",
+        "blocks": [
+          {
+            "p": "Ang branch ay isang nakikitang karakter ngunit may mga stem sa loob nito. Ang bahagi ay kung paano hinahati ang tatlumpung araw ng branch sa mga stem, at ang pangunahing stem ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng 寅",
+              "head": [
+                "Stem",
+                "Elemento at polarity",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "natitira (餘氣)",
+                  "{hidInYeo}"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "gitna (中氣)",
+                  "{hidInJung}"
+                ],
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "pangunahin (本氣)",
+                  "{hidInBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang lakas ng limang elemento kapag ang month branch ay 寅",
+        "blocks": [
+          {
+            "p": "Kapag ang branch ng buwan ng kapanganakan ay 寅, nagkakaroon ang bawat elemento ng isang estado (Wang, Sang, Hyu, Su, Sa), at ang estadong iyon ang nagiging multiplier na ipinapataw sa lakas nito."
+          },
+          {
+            "table": {
+              "caption": "Ang mga estado ng elemento para sa month branch 寅 (tagsibol)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplier"
+              ],
+              "rows": [
+                [
+                  "Kahoy",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Apoy",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Lupa",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Metal",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Tubig",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang Ten Gods ayon sa day stem",
+        "blocks": [
+          {
+            "p": "Ang parehong hidden stems ng 寅 ay nagiging magkaibang Ten Gods depende sa day stem. Kapag ang 寅 ang day branch, ang talahanayang ito ang pagbasa sa posisyon ng asawa."
+          },
+          {
+            "table": {
+              "caption": "Kung ano ang hidden stems ng 寅 sa bawat day stem",
+              "head": [
+                "Day stem",
+                "Yang na Lupa (戊) — natitira (餘氣)",
+                "Yang na Apoy (丙) — gitna (中氣)",
+                "Yang na Kahoy (甲) — pangunahin (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Biglaang yaman (偏財)",
+                  "Pagpapahayag (食神)",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Matatag na yaman (正財)",
+                  "Manggugulo (傷官)",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Pagpapahayag (食神)",
+                  "Kasama (比肩)",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Manggugulo (傷官)",
+                  "Karibal (劫財)",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Kasama (比肩)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Karibal (劫財)",
+                  "Pag-aaruga (正印)",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Humahamon (偏官)",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Pag-aaruga (正印)",
+                  "Awtoridad (正官)",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Humahamon (偏官)",
+                  "Biglaang yaman (偏財)",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Awtoridad (正官)",
+                  "Matatag na yaman (正財)",
+                  "Manggugulo (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang branch kung sino ang isang tao. Magkaiba ang pagbasa sa parehong branch depende sa day stem at sa month branch.",
+              "Ang mga ugnayan sa pagitan ng mga branch, tulad ng harmonya, salpukan, at alitan, ay hindi saklaw dito."
+            ]
+          },
+          {
+            "p": "Ang mga ugnayan sa pagitan ng mga branch ay nasa [talaan ng labindalawang branch](/guide/branches), at ang kahulugan nito bilang zodiac animal ay nasa [kung saan nakalagay ang zodiac sa isang saju](/guide/zodiac). Iba pang branch: [子 (Daga)](/guide/branch-ja) · [丑 (Baka)](/guide/branch-chuk) · [卯 (Kuneho)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Ahas)](/guide/branch-sa) · [午 (Kabayo)](/guide/branch-o) · [未 (Tupa)](/guide/branch-mi) · [申 (Unggoy)](/guide/branch-sin) · [酉 (Manok)](/guide/branch-yu) · [戌 (Aso)](/guide/branch-sul) · [亥 (Baboy)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-myo": {
+    "eyebrow": "Mga earthly branch",
+    "title": "卯 — ang branch ng Kuneho",
+    "summary": "Ang mga stem na hawak ng earthly branch na 卯 (ang hidden stems), ang lakas ng limang elemento kapag ito ang month branch, at ang Ten Gods na binabasa para sa bawat day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 卯 ay ang ikaapat sa labindalawang earthly branch",
+        "blocks": [
+          {
+            "p": "Ang 卯 ay ang ikaapat sa labindalawang earthly branch at kabilang sa Kuneho. Kapag ang branch ng buwan ng kapanganakan ay 卯, ang panahon ay tagsibol at ang elementong may-ari ng panahon ay Kahoy."
+          },
+          {
+            "p": "Kapag ang branch ng araw ng kapanganakan ay 卯, ang karakter na ito ang posisyon ng asawa. Sa ibaba makikita kung aling mga stem ang hawak ng branch na ito at kung ano ang mga ito sa day stem."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga stem na hawak ng branch na ito (hidden stems)",
+        "blocks": [
+          {
+            "p": "Ang branch ay isang nakikitang karakter ngunit may mga stem sa loob nito. Ang bahagi ay kung paano hinahati ang tatlumpung araw ng branch sa mga stem, at ang pangunahing stem ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng 卯",
+              "head": [
+                "Stem",
+                "Elemento at polarity",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "natitira (餘氣)",
+                  "{hidMyoYeo}"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "pangunahin (本氣)",
+                  "{hidMyoBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang lakas ng limang elemento kapag ang month branch ay 卯",
+        "blocks": [
+          {
+            "p": "Kapag ang branch ng buwan ng kapanganakan ay 卯, nagkakaroon ang bawat elemento ng isang estado (Wang, Sang, Hyu, Su, Sa), at ang estadong iyon ang nagiging multiplier na ipinapataw sa lakas nito."
+          },
+          {
+            "table": {
+              "caption": "Ang mga estado ng elemento para sa month branch 卯 (tagsibol)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplier"
+              ],
+              "rows": [
+                [
+                  "Kahoy",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Apoy",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Lupa",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Metal",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Tubig",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang Ten Gods ayon sa day stem",
+        "blocks": [
+          {
+            "p": "Ang parehong hidden stems ng 卯 ay nagiging magkaibang Ten Gods depende sa day stem. Kapag ang 卯 ang day branch, ang talahanayang ito ang pagbasa sa posisyon ng asawa."
+          },
+          {
+            "table": {
+              "caption": "Kung ano ang hidden stems ng 卯 sa bawat day stem",
+              "head": [
+                "Day stem",
+                "Yang na Kahoy (甲) — natitira (餘氣)",
+                "Yin na Kahoy (乙) — pangunahin (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Kasama (比肩)",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Karibal (劫財)",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Pag-aaruga (正印)",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Humahamon (偏官)",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Awtoridad (正官)",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Biglaang yaman (偏財)",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Matatag na yaman (正財)",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Pagpapahayag (食神)",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Manggugulo (傷官)",
+                  "Pagpapahayag (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang branch kung sino ang isang tao. Magkaiba ang pagbasa sa parehong branch depende sa day stem at sa month branch.",
+              "Ang mga ugnayan sa pagitan ng mga branch, tulad ng harmonya, salpukan, at alitan, ay hindi saklaw dito."
+            ]
+          },
+          {
+            "p": "Ang mga ugnayan sa pagitan ng mga branch ay nasa [talaan ng labindalawang branch](/guide/branches), at ang kahulugan nito bilang zodiac animal ay nasa [kung saan nakalagay ang zodiac sa isang saju](/guide/zodiac). Iba pang branch: [子 (Daga)](/guide/branch-ja) · [丑 (Baka)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Ahas)](/guide/branch-sa) · [午 (Kabayo)](/guide/branch-o) · [未 (Tupa)](/guide/branch-mi) · [申 (Unggoy)](/guide/branch-sin) · [酉 (Manok)](/guide/branch-yu) · [戌 (Aso)](/guide/branch-sul) · [亥 (Baboy)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-jin": {
+    "eyebrow": "Mga earthly branch",
+    "title": "辰 — ang branch ng Dragon",
+    "summary": "Ang mga stem na hawak ng earthly branch na 辰 (ang hidden stems), ang lakas ng limang elemento kapag ito ang month branch, at ang Ten Gods na binabasa para sa bawat day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 辰 ay ang ikalima sa labindalawang earthly branch",
+        "blocks": [
+          {
+            "p": "Ang 辰 ay ang ikalima sa labindalawang earthly branch at kabilang sa Dragon. Kapag ang branch ng buwan ng kapanganakan ay 辰, ang panahon ay tagsibol at ang elementong may-ari ng panahon ay Kahoy. Ito ay buwan ng paglipat (辰未戌丑), kaya ang Lupa ay itinuturing ding nasa estadong Wang."
+          },
+          {
+            "p": "Kapag ang branch ng araw ng kapanganakan ay 辰, ang karakter na ito ang posisyon ng asawa. Sa ibaba makikita kung aling mga stem ang hawak ng branch na ito at kung ano ang mga ito sa day stem."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga stem na hawak ng branch na ito (hidden stems)",
+        "blocks": [
+          {
+            "p": "Ang branch ay isang nakikitang karakter ngunit may mga stem sa loob nito. Ang bahagi ay kung paano hinahati ang tatlumpung araw ng branch sa mga stem, at ang pangunahing stem ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng 辰",
+              "head": [
+                "Stem",
+                "Elemento at polarity",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "natitira (餘氣)",
+                  "{hidJinYeo}"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Yin na Tubig",
+                  "gitna (中氣)",
+                  "{hidJinJung}"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "pangunahin (本氣)",
+                  "{hidJinBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang lakas ng limang elemento kapag ang month branch ay 辰",
+        "blocks": [
+          {
+            "p": "Kapag ang branch ng buwan ng kapanganakan ay 辰, nagkakaroon ang bawat elemento ng isang estado (Wang, Sang, Hyu, Su, Sa), at ang estadong iyon ang nagiging multiplier na ipinapataw sa lakas nito."
+          },
+          {
+            "table": {
+              "caption": "Ang mga estado ng elemento para sa month branch 辰 (tagsibol (buwan ng paglipat))",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplier"
+              ],
+              "rows": [
+                [
+                  "Kahoy",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Apoy",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Lupa",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Metal",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Tubig",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang Ten Gods ayon sa day stem",
+        "blocks": [
+          {
+            "p": "Ang parehong hidden stems ng 辰 ay nagiging magkaibang Ten Gods depende sa day stem. Kapag ang 辰 ang day branch, ang talahanayang ito ang pagbasa sa posisyon ng asawa."
+          },
+          {
+            "table": {
+              "caption": "Kung ano ang hidden stems ng 辰 sa bawat day stem",
+              "head": [
+                "Day stem",
+                "Yin na Kahoy (乙) — natitira (餘氣)",
+                "Yin na Tubig (癸) — gitna (中氣)",
+                "Yang na Lupa (戊) — pangunahin (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Karibal (劫財)",
+                  "Pag-aaruga (正印)",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Kasama (比肩)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Pag-aaruga (正印)",
+                  "Awtoridad (正官)",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Humahamon (偏官)",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Awtoridad (正官)",
+                  "Matatag na yaman (正財)",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Humahamon (偏官)",
+                  "Biglaang yaman (偏財)",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Matatag na yaman (正財)",
+                  "Manggugulo (傷官)",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Biglaang yaman (偏財)",
+                  "Pagpapahayag (食神)",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Manggugulo (傷官)",
+                  "Karibal (劫財)",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Pagpapahayag (食神)",
+                  "Kasama (比肩)",
+                  "Awtoridad (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang branch kung sino ang isang tao. Magkaiba ang pagbasa sa parehong branch depende sa day stem at sa month branch.",
+              "Ang mga ugnayan sa pagitan ng mga branch, tulad ng harmonya, salpukan, at alitan, ay hindi saklaw dito."
+            ]
+          },
+          {
+            "p": "Ang mga ugnayan sa pagitan ng mga branch ay nasa [talaan ng labindalawang branch](/guide/branches), at ang kahulugan nito bilang zodiac animal ay nasa [kung saan nakalagay ang zodiac sa isang saju](/guide/zodiac). Iba pang branch: [子 (Daga)](/guide/branch-ja) · [丑 (Baka)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Kuneho)](/guide/branch-myo) · [巳 (Ahas)](/guide/branch-sa) · [午 (Kabayo)](/guide/branch-o) · [未 (Tupa)](/guide/branch-mi) · [申 (Unggoy)](/guide/branch-sin) · [酉 (Manok)](/guide/branch-yu) · [戌 (Aso)](/guide/branch-sul) · [亥 (Baboy)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sa": {
+    "eyebrow": "Mga earthly branch",
+    "title": "巳 — ang branch ng Ahas",
+    "summary": "Ang mga stem na hawak ng earthly branch na 巳 (ang hidden stems), ang lakas ng limang elemento kapag ito ang month branch, at ang Ten Gods na binabasa para sa bawat day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 巳 ay ang ikaanim sa labindalawang earthly branch",
+        "blocks": [
+          {
+            "p": "Ang 巳 ay ang ikaanim sa labindalawang earthly branch at kabilang sa Ahas. Kapag ang branch ng buwan ng kapanganakan ay 巳, ang panahon ay tag-init at ang elementong may-ari ng panahon ay Apoy."
+          },
+          {
+            "p": "Kapag ang branch ng araw ng kapanganakan ay 巳, ang karakter na ito ang posisyon ng asawa. Sa ibaba makikita kung aling mga stem ang hawak ng branch na ito at kung ano ang mga ito sa day stem."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga stem na hawak ng branch na ito (hidden stems)",
+        "blocks": [
+          {
+            "p": "Ang branch ay isang nakikitang karakter ngunit may mga stem sa loob nito. Ang bahagi ay kung paano hinahati ang tatlumpung araw ng branch sa mga stem, at ang pangunahing stem ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng 巳",
+              "head": [
+                "Stem",
+                "Elemento at polarity",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "natitira (餘氣)",
+                  "{hidSaYeo}"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "gitna (中氣)",
+                  "{hidSaJung}"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "pangunahin (本氣)",
+                  "{hidSaBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang lakas ng limang elemento kapag ang month branch ay 巳",
+        "blocks": [
+          {
+            "p": "Kapag ang branch ng buwan ng kapanganakan ay 巳, nagkakaroon ang bawat elemento ng isang estado (Wang, Sang, Hyu, Su, Sa), at ang estadong iyon ang nagiging multiplier na ipinapataw sa lakas nito."
+          },
+          {
+            "table": {
+              "caption": "Ang mga estado ng elemento para sa month branch 巳 (tag-init)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplier"
+              ],
+              "rows": [
+                [
+                  "Kahoy",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Apoy",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Lupa",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Metal",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Tubig",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang Ten Gods ayon sa day stem",
+        "blocks": [
+          {
+            "p": "Ang parehong hidden stems ng 巳 ay nagiging magkaibang Ten Gods depende sa day stem. Kapag ang 巳 ang day branch, ang talahanayang ito ang pagbasa sa posisyon ng asawa."
+          },
+          {
+            "table": {
+              "caption": "Kung ano ang hidden stems ng 巳 sa bawat day stem",
+              "head": [
+                "Day stem",
+                "Yang na Lupa (戊) — natitira (餘氣)",
+                "Yang na Metal (庚) — gitna (中氣)",
+                "Yang na Apoy (丙) — pangunahin (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Biglaang yaman (偏財)",
+                  "Humahamon (偏官)",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Matatag na yaman (正財)",
+                  "Awtoridad (正官)",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Pagpapahayag (食神)",
+                  "Biglaang yaman (偏財)",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Manggugulo (傷官)",
+                  "Matatag na yaman (正財)",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Kasama (比肩)",
+                  "Pagpapahayag (食神)",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Karibal (劫財)",
+                  "Manggugulo (傷官)",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Kasama (比肩)",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Pag-aaruga (正印)",
+                  "Karibal (劫財)",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Humahamon (偏官)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Awtoridad (正官)",
+                  "Pag-aaruga (正印)",
+                  "Matatag na yaman (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang branch kung sino ang isang tao. Magkaiba ang pagbasa sa parehong branch depende sa day stem at sa month branch.",
+              "Ang mga ugnayan sa pagitan ng mga branch, tulad ng harmonya, salpukan, at alitan, ay hindi saklaw dito."
+            ]
+          },
+          {
+            "p": "Ang mga ugnayan sa pagitan ng mga branch ay nasa [talaan ng labindalawang branch](/guide/branches), at ang kahulugan nito bilang zodiac animal ay nasa [kung saan nakalagay ang zodiac sa isang saju](/guide/zodiac). Iba pang branch: [子 (Daga)](/guide/branch-ja) · [丑 (Baka)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Kuneho)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [午 (Kabayo)](/guide/branch-o) · [未 (Tupa)](/guide/branch-mi) · [申 (Unggoy)](/guide/branch-sin) · [酉 (Manok)](/guide/branch-yu) · [戌 (Aso)](/guide/branch-sul) · [亥 (Baboy)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-o": {
+    "eyebrow": "Mga earthly branch",
+    "title": "午 — ang branch ng Kabayo",
+    "summary": "Ang mga stem na hawak ng earthly branch na 午 (ang hidden stems), ang lakas ng limang elemento kapag ito ang month branch, at ang Ten Gods na binabasa para sa bawat day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 午 ay ang ikapito sa labindalawang earthly branch",
+        "blocks": [
+          {
+            "p": "Ang 午 ay ang ikapito sa labindalawang earthly branch at kabilang sa Kabayo. Kapag ang branch ng buwan ng kapanganakan ay 午, ang panahon ay tag-init at ang elementong may-ari ng panahon ay Apoy."
+          },
+          {
+            "p": "Kapag ang branch ng araw ng kapanganakan ay 午, ang karakter na ito ang posisyon ng asawa. Sa ibaba makikita kung aling mga stem ang hawak ng branch na ito at kung ano ang mga ito sa day stem."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga stem na hawak ng branch na ito (hidden stems)",
+        "blocks": [
+          {
+            "p": "Ang branch ay isang nakikitang karakter ngunit may mga stem sa loob nito. Ang bahagi ay kung paano hinahati ang tatlumpung araw ng branch sa mga stem, at ang pangunahing stem ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng 午",
+              "head": [
+                "Stem",
+                "Elemento at polarity",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "Yang na Apoy (丙)",
+                  "Yang na Apoy",
+                  "natitira (餘氣)",
+                  "{hidOYeo}"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "gitna (中氣)",
+                  "{hidOJung}"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "pangunahin (本氣)",
+                  "{hidOBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang lakas ng limang elemento kapag ang month branch ay 午",
+        "blocks": [
+          {
+            "p": "Kapag ang branch ng buwan ng kapanganakan ay 午, nagkakaroon ang bawat elemento ng isang estado (Wang, Sang, Hyu, Su, Sa), at ang estadong iyon ang nagiging multiplier na ipinapataw sa lakas nito."
+          },
+          {
+            "table": {
+              "caption": "Ang mga estado ng elemento para sa month branch 午 (tag-init)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplier"
+              ],
+              "rows": [
+                [
+                  "Kahoy",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Apoy",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Lupa",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Metal",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Tubig",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang Ten Gods ayon sa day stem",
+        "blocks": [
+          {
+            "p": "Ang parehong hidden stems ng 午 ay nagiging magkaibang Ten Gods depende sa day stem. Kapag ang 午 ang day branch, ang talahanayang ito ang pagbasa sa posisyon ng asawa."
+          },
+          {
+            "table": {
+              "caption": "Kung ano ang hidden stems ng 午 sa bawat day stem",
+              "head": [
+                "Day stem",
+                "Yang na Apoy (丙) — natitira (餘氣)",
+                "Yin na Lupa (己) — gitna (中氣)",
+                "Yin na Apoy (丁) — pangunahin (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Pagpapahayag (食神)",
+                  "Matatag na yaman (正財)",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Manggugulo (傷官)",
+                  "Biglaang yaman (偏財)",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Kasama (比肩)",
+                  "Manggugulo (傷官)",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Karibal (劫財)",
+                  "Pagpapahayag (食神)",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Karibal (劫財)",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Pag-aaruga (正印)",
+                  "Kasama (比肩)",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Humahamon (偏官)",
+                  "Pag-aaruga (正印)",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Awtoridad (正官)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Biglaang yaman (偏財)",
+                  "Awtoridad (正官)",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Matatag na yaman (正財)",
+                  "Humahamon (偏官)",
+                  "Biglaang yaman (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang branch kung sino ang isang tao. Magkaiba ang pagbasa sa parehong branch depende sa day stem at sa month branch.",
+              "Ang mga ugnayan sa pagitan ng mga branch, tulad ng harmonya, salpukan, at alitan, ay hindi saklaw dito."
+            ]
+          },
+          {
+            "p": "Ang mga ugnayan sa pagitan ng mga branch ay nasa [talaan ng labindalawang branch](/guide/branches), at ang kahulugan nito bilang zodiac animal ay nasa [kung saan nakalagay ang zodiac sa isang saju](/guide/zodiac). Iba pang branch: [子 (Daga)](/guide/branch-ja) · [丑 (Baka)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Kuneho)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Ahas)](/guide/branch-sa) · [未 (Tupa)](/guide/branch-mi) · [申 (Unggoy)](/guide/branch-sin) · [酉 (Manok)](/guide/branch-yu) · [戌 (Aso)](/guide/branch-sul) · [亥 (Baboy)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-mi": {
+    "eyebrow": "Mga earthly branch",
+    "title": "未 — ang branch ng Tupa",
+    "summary": "Ang mga stem na hawak ng earthly branch na 未 (ang hidden stems), ang lakas ng limang elemento kapag ito ang month branch, at ang Ten Gods na binabasa para sa bawat day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 未 ay ang ikawalo sa labindalawang earthly branch",
+        "blocks": [
+          {
+            "p": "Ang 未 ay ang ikawalo sa labindalawang earthly branch at kabilang sa Tupa. Kapag ang branch ng buwan ng kapanganakan ay 未, ang panahon ay tag-init at ang elementong may-ari ng panahon ay Apoy. Ito ay buwan ng paglipat (辰未戌丑), kaya ang Lupa ay itinuturing ding nasa estadong Wang."
+          },
+          {
+            "p": "Kapag ang branch ng araw ng kapanganakan ay 未, ang karakter na ito ang posisyon ng asawa. Sa ibaba makikita kung aling mga stem ang hawak ng branch na ito at kung ano ang mga ito sa day stem."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga stem na hawak ng branch na ito (hidden stems)",
+        "blocks": [
+          {
+            "p": "Ang branch ay isang nakikitang karakter ngunit may mga stem sa loob nito. Ang bahagi ay kung paano hinahati ang tatlumpung araw ng branch sa mga stem, at ang pangunahing stem ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng 未",
+              "head": [
+                "Stem",
+                "Elemento at polarity",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "natitira (餘氣)",
+                  "{hidMiYeo}"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Yin na Kahoy",
+                  "gitna (中氣)",
+                  "{hidMiJung}"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Yin na Lupa",
+                  "pangunahin (本氣)",
+                  "{hidMiBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang lakas ng limang elemento kapag ang month branch ay 未",
+        "blocks": [
+          {
+            "p": "Kapag ang branch ng buwan ng kapanganakan ay 未, nagkakaroon ang bawat elemento ng isang estado (Wang, Sang, Hyu, Su, Sa), at ang estadong iyon ang nagiging multiplier na ipinapataw sa lakas nito."
+          },
+          {
+            "table": {
+              "caption": "Ang mga estado ng elemento para sa month branch 未 (tag-init (buwan ng paglipat))",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplier"
+              ],
+              "rows": [
+                [
+                  "Kahoy",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Apoy",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Lupa",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Metal",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Tubig",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang Ten Gods ayon sa day stem",
+        "blocks": [
+          {
+            "p": "Ang parehong hidden stems ng 未 ay nagiging magkaibang Ten Gods depende sa day stem. Kapag ang 未 ang day branch, ang talahanayang ito ang pagbasa sa posisyon ng asawa."
+          },
+          {
+            "table": {
+              "caption": "Kung ano ang hidden stems ng 未 sa bawat day stem",
+              "head": [
+                "Day stem",
+                "Yin na Apoy (丁) — natitira (餘氣)",
+                "Yin na Kahoy (乙) — gitna (中氣)",
+                "Yin na Lupa (己) — pangunahin (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Manggugulo (傷官)",
+                  "Karibal (劫財)",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Pagpapahayag (食神)",
+                  "Kasama (比肩)",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Karibal (劫財)",
+                  "Pag-aaruga (正印)",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Kasama (比肩)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Pag-aaruga (正印)",
+                  "Awtoridad (正官)",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Humahamon (偏官)",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Awtoridad (正官)",
+                  "Matatag na yaman (正財)",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Humahamon (偏官)",
+                  "Biglaang yaman (偏財)",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Matatag na yaman (正財)",
+                  "Manggugulo (傷官)",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Biglaang yaman (偏財)",
+                  "Pagpapahayag (食神)",
+                  "Humahamon (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang branch kung sino ang isang tao. Magkaiba ang pagbasa sa parehong branch depende sa day stem at sa month branch.",
+              "Ang mga ugnayan sa pagitan ng mga branch, tulad ng harmonya, salpukan, at alitan, ay hindi saklaw dito."
+            ]
+          },
+          {
+            "p": "Ang mga ugnayan sa pagitan ng mga branch ay nasa [talaan ng labindalawang branch](/guide/branches), at ang kahulugan nito bilang zodiac animal ay nasa [kung saan nakalagay ang zodiac sa isang saju](/guide/zodiac). Iba pang branch: [子 (Daga)](/guide/branch-ja) · [丑 (Baka)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Kuneho)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Ahas)](/guide/branch-sa) · [午 (Kabayo)](/guide/branch-o) · [申 (Unggoy)](/guide/branch-sin) · [酉 (Manok)](/guide/branch-yu) · [戌 (Aso)](/guide/branch-sul) · [亥 (Baboy)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sin": {
+    "eyebrow": "Mga earthly branch",
+    "title": "申 — ang branch ng Unggoy",
+    "summary": "Ang mga stem na hawak ng earthly branch na 申 (ang hidden stems), ang lakas ng limang elemento kapag ito ang month branch, at ang Ten Gods na binabasa para sa bawat day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 申 ay ang ikasiyam sa labindalawang earthly branch",
+        "blocks": [
+          {
+            "p": "Ang 申 ay ang ikasiyam sa labindalawang earthly branch at kabilang sa Unggoy. Kapag ang branch ng buwan ng kapanganakan ay 申, ang panahon ay taglagas at ang elementong may-ari ng panahon ay Metal."
+          },
+          {
+            "p": "Kapag ang branch ng araw ng kapanganakan ay 申, ang karakter na ito ang posisyon ng asawa. Sa ibaba makikita kung aling mga stem ang hawak ng branch na ito at kung ano ang mga ito sa day stem."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga stem na hawak ng branch na ito (hidden stems)",
+        "blocks": [
+          {
+            "p": "Ang branch ay isang nakikitang karakter ngunit may mga stem sa loob nito. Ang bahagi ay kung paano hinahati ang tatlumpung araw ng branch sa mga stem, at ang pangunahing stem ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng 申",
+              "head": [
+                "Stem",
+                "Elemento at polarity",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "natitira (餘氣)",
+                  "{hidSinYeo}"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "gitna (中氣)",
+                  "{hidSinJung}"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "pangunahin (本氣)",
+                  "{hidSinBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang lakas ng limang elemento kapag ang month branch ay 申",
+        "blocks": [
+          {
+            "p": "Kapag ang branch ng buwan ng kapanganakan ay 申, nagkakaroon ang bawat elemento ng isang estado (Wang, Sang, Hyu, Su, Sa), at ang estadong iyon ang nagiging multiplier na ipinapataw sa lakas nito."
+          },
+          {
+            "table": {
+              "caption": "Ang mga estado ng elemento para sa month branch 申 (taglagas)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplier"
+              ],
+              "rows": [
+                [
+                  "Kahoy",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Apoy",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Lupa",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Metal",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Tubig",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang Ten Gods ayon sa day stem",
+        "blocks": [
+          {
+            "p": "Ang parehong hidden stems ng 申 ay nagiging magkaibang Ten Gods depende sa day stem. Kapag ang 申 ang day branch, ang talahanayang ito ang pagbasa sa posisyon ng asawa."
+          },
+          {
+            "table": {
+              "caption": "Kung ano ang hidden stems ng 申 sa bawat day stem",
+              "head": [
+                "Day stem",
+                "Yang na Lupa (戊) — natitira (餘氣)",
+                "Yang na Tubig (壬) — gitna (中氣)",
+                "Yang na Metal (庚) — pangunahin (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Biglaang yaman (偏財)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Matatag na yaman (正財)",
+                  "Pag-aaruga (正印)",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Pagpapahayag (食神)",
+                  "Humahamon (偏官)",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Manggugulo (傷官)",
+                  "Awtoridad (正官)",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Kasama (比肩)",
+                  "Biglaang yaman (偏財)",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Karibal (劫財)",
+                  "Matatag na yaman (正財)",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Pagpapahayag (食神)",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Pag-aaruga (正印)",
+                  "Manggugulo (傷官)",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Humahamon (偏官)",
+                  "Kasama (比肩)",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Awtoridad (正官)",
+                  "Karibal (劫財)",
+                  "Pag-aaruga (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang branch kung sino ang isang tao. Magkaiba ang pagbasa sa parehong branch depende sa day stem at sa month branch.",
+              "Ang mga ugnayan sa pagitan ng mga branch, tulad ng harmonya, salpukan, at alitan, ay hindi saklaw dito."
+            ]
+          },
+          {
+            "p": "Ang mga ugnayan sa pagitan ng mga branch ay nasa [talaan ng labindalawang branch](/guide/branches), at ang kahulugan nito bilang zodiac animal ay nasa [kung saan nakalagay ang zodiac sa isang saju](/guide/zodiac). Iba pang branch: [子 (Daga)](/guide/branch-ja) · [丑 (Baka)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Kuneho)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Ahas)](/guide/branch-sa) · [午 (Kabayo)](/guide/branch-o) · [未 (Tupa)](/guide/branch-mi) · [酉 (Manok)](/guide/branch-yu) · [戌 (Aso)](/guide/branch-sul) · [亥 (Baboy)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-yu": {
+    "eyebrow": "Mga earthly branch",
+    "title": "酉 — ang branch ng Manok",
+    "summary": "Ang mga stem na hawak ng earthly branch na 酉 (ang hidden stems), ang lakas ng limang elemento kapag ito ang month branch, at ang Ten Gods na binabasa para sa bawat day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 酉 ay ang ikasampu sa labindalawang earthly branch",
+        "blocks": [
+          {
+            "p": "Ang 酉 ay ang ikasampu sa labindalawang earthly branch at kabilang sa Manok. Kapag ang branch ng buwan ng kapanganakan ay 酉, ang panahon ay taglagas at ang elementong may-ari ng panahon ay Metal."
+          },
+          {
+            "p": "Kapag ang branch ng araw ng kapanganakan ay 酉, ang karakter na ito ang posisyon ng asawa. Sa ibaba makikita kung aling mga stem ang hawak ng branch na ito at kung ano ang mga ito sa day stem."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga stem na hawak ng branch na ito (hidden stems)",
+        "blocks": [
+          {
+            "p": "Ang branch ay isang nakikitang karakter ngunit may mga stem sa loob nito. Ang bahagi ay kung paano hinahati ang tatlumpung araw ng branch sa mga stem, at ang pangunahing stem ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng 酉",
+              "head": [
+                "Stem",
+                "Elemento at polarity",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "Yang na Metal (庚)",
+                  "Yang na Metal",
+                  "natitira (餘氣)",
+                  "{hidYuYeo}"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "pangunahin (本氣)",
+                  "{hidYuBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang lakas ng limang elemento kapag ang month branch ay 酉",
+        "blocks": [
+          {
+            "p": "Kapag ang branch ng buwan ng kapanganakan ay 酉, nagkakaroon ang bawat elemento ng isang estado (Wang, Sang, Hyu, Su, Sa), at ang estadong iyon ang nagiging multiplier na ipinapataw sa lakas nito."
+          },
+          {
+            "table": {
+              "caption": "Ang mga estado ng elemento para sa month branch 酉 (taglagas)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplier"
+              ],
+              "rows": [
+                [
+                  "Kahoy",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Apoy",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Lupa",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Metal",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Tubig",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang Ten Gods ayon sa day stem",
+        "blocks": [
+          {
+            "p": "Ang parehong hidden stems ng 酉 ay nagiging magkaibang Ten Gods depende sa day stem. Kapag ang 酉 ang day branch, ang talahanayang ito ang pagbasa sa posisyon ng asawa."
+          },
+          {
+            "table": {
+              "caption": "Kung ano ang hidden stems ng 酉 sa bawat day stem",
+              "head": [
+                "Day stem",
+                "Yang na Metal (庚) — natitira (餘氣)",
+                "Yin na Metal (辛) — pangunahin (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Humahamon (偏官)",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Awtoridad (正官)",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Biglaang yaman (偏財)",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Matatag na yaman (正財)",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Pagpapahayag (食神)",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Manggugulo (傷官)",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Kasama (比肩)",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Karibal (劫財)",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Pag-aaruga (正印)",
+                  "Di-karaniwang suporta (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang branch kung sino ang isang tao. Magkaiba ang pagbasa sa parehong branch depende sa day stem at sa month branch.",
+              "Ang mga ugnayan sa pagitan ng mga branch, tulad ng harmonya, salpukan, at alitan, ay hindi saklaw dito."
+            ]
+          },
+          {
+            "p": "Ang mga ugnayan sa pagitan ng mga branch ay nasa [talaan ng labindalawang branch](/guide/branches), at ang kahulugan nito bilang zodiac animal ay nasa [kung saan nakalagay ang zodiac sa isang saju](/guide/zodiac). Iba pang branch: [子 (Daga)](/guide/branch-ja) · [丑 (Baka)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Kuneho)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Ahas)](/guide/branch-sa) · [午 (Kabayo)](/guide/branch-o) · [未 (Tupa)](/guide/branch-mi) · [申 (Unggoy)](/guide/branch-sin) · [戌 (Aso)](/guide/branch-sul) · [亥 (Baboy)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sul": {
+    "eyebrow": "Mga earthly branch",
+    "title": "戌 — ang branch ng Aso",
+    "summary": "Ang mga stem na hawak ng earthly branch na 戌 (ang hidden stems), ang lakas ng limang elemento kapag ito ang month branch, at ang Ten Gods na binabasa para sa bawat day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 戌 ay ang ikalabing-isa sa labindalawang earthly branch",
+        "blocks": [
+          {
+            "p": "Ang 戌 ay ang ikalabing-isa sa labindalawang earthly branch at kabilang sa Aso. Kapag ang branch ng buwan ng kapanganakan ay 戌, ang panahon ay taglagas at ang elementong may-ari ng panahon ay Metal. Ito ay buwan ng paglipat (辰未戌丑), kaya ang Lupa ay itinuturing ding nasa estadong Wang."
+          },
+          {
+            "p": "Kapag ang branch ng araw ng kapanganakan ay 戌, ang karakter na ito ang posisyon ng asawa. Sa ibaba makikita kung aling mga stem ang hawak ng branch na ito at kung ano ang mga ito sa day stem."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga stem na hawak ng branch na ito (hidden stems)",
+        "blocks": [
+          {
+            "p": "Ang branch ay isang nakikitang karakter ngunit may mga stem sa loob nito. Ang bahagi ay kung paano hinahati ang tatlumpung araw ng branch sa mga stem, at ang pangunahing stem ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng 戌",
+              "head": [
+                "Stem",
+                "Elemento at polarity",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "Yin na Metal (辛)",
+                  "Yin na Metal",
+                  "natitira (餘氣)",
+                  "{hidSulYeo}"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Yin na Apoy",
+                  "gitna (中氣)",
+                  "{hidSulJung}"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "pangunahin (本氣)",
+                  "{hidSulBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang lakas ng limang elemento kapag ang month branch ay 戌",
+        "blocks": [
+          {
+            "p": "Kapag ang branch ng buwan ng kapanganakan ay 戌, nagkakaroon ang bawat elemento ng isang estado (Wang, Sang, Hyu, Su, Sa), at ang estadong iyon ang nagiging multiplier na ipinapataw sa lakas nito."
+          },
+          {
+            "table": {
+              "caption": "Ang mga estado ng elemento para sa month branch 戌 (taglagas (buwan ng paglipat))",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplier"
+              ],
+              "rows": [
+                [
+                  "Kahoy",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Apoy",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Lupa",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Metal",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Tubig",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang Ten Gods ayon sa day stem",
+        "blocks": [
+          {
+            "p": "Ang parehong hidden stems ng 戌 ay nagiging magkaibang Ten Gods depende sa day stem. Kapag ang 戌 ang day branch, ang talahanayang ito ang pagbasa sa posisyon ng asawa."
+          },
+          {
+            "table": {
+              "caption": "Kung ano ang hidden stems ng 戌 sa bawat day stem",
+              "head": [
+                "Day stem",
+                "Yin na Metal (辛) — natitira (餘氣)",
+                "Yin na Apoy (丁) — gitna (中氣)",
+                "Yang na Lupa (戊) — pangunahin (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Awtoridad (正官)",
+                  "Manggugulo (傷官)",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Humahamon (偏官)",
+                  "Pagpapahayag (食神)",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Matatag na yaman (正財)",
+                  "Karibal (劫財)",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Biglaang yaman (偏財)",
+                  "Kasama (比肩)",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Manggugulo (傷官)",
+                  "Pag-aaruga (正印)",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Pagpapahayag (食神)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Karibal (劫財)",
+                  "Awtoridad (正官)",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Kasama (比肩)",
+                  "Humahamon (偏官)",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Pag-aaruga (正印)",
+                  "Matatag na yaman (正財)",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Biglaang yaman (偏財)",
+                  "Awtoridad (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang branch kung sino ang isang tao. Magkaiba ang pagbasa sa parehong branch depende sa day stem at sa month branch.",
+              "Ang mga ugnayan sa pagitan ng mga branch, tulad ng harmonya, salpukan, at alitan, ay hindi saklaw dito."
+            ]
+          },
+          {
+            "p": "Ang mga ugnayan sa pagitan ng mga branch ay nasa [talaan ng labindalawang branch](/guide/branches), at ang kahulugan nito bilang zodiac animal ay nasa [kung saan nakalagay ang zodiac sa isang saju](/guide/zodiac). Iba pang branch: [子 (Daga)](/guide/branch-ja) · [丑 (Baka)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Kuneho)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Ahas)](/guide/branch-sa) · [午 (Kabayo)](/guide/branch-o) · [未 (Tupa)](/guide/branch-mi) · [申 (Unggoy)](/guide/branch-sin) · [酉 (Manok)](/guide/branch-yu) · [亥 (Baboy)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-hae": {
+    "eyebrow": "Mga earthly branch",
+    "title": "亥 — ang branch ng Baboy",
+    "summary": "Ang mga stem na hawak ng earthly branch na 亥 (ang hidden stems), ang lakas ng limang elemento kapag ito ang month branch, at ang Ten Gods na binabasa para sa bawat day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon ng Saju-Link.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 亥 ay ang ikalabindalawa sa labindalawang earthly branch",
+        "blocks": [
+          {
+            "p": "Ang 亥 ay ang ikalabindalawa sa labindalawang earthly branch at kabilang sa Baboy. Kapag ang branch ng buwan ng kapanganakan ay 亥, ang panahon ay taglamig at ang elementong may-ari ng panahon ay Tubig."
+          },
+          {
+            "p": "Kapag ang branch ng araw ng kapanganakan ay 亥, ang karakter na ito ang posisyon ng asawa. Sa ibaba makikita kung aling mga stem ang hawak ng branch na ito at kung ano ang mga ito sa day stem."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga stem na hawak ng branch na ito (hidden stems)",
+        "blocks": [
+          {
+            "p": "Ang branch ay isang nakikitang karakter ngunit may mga stem sa loob nito. Ang bahagi ay kung paano hinahati ang tatlumpung araw ng branch sa mga stem, at ang pangunahing stem ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng 亥",
+              "head": [
+                "Stem",
+                "Elemento at polarity",
+                "Posisyon",
+                "Bahagi"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "Yang na Lupa",
+                  "natitira (餘氣)",
+                  "{hidHaeYeo}"
+                ],
+                [
+                  "Yang na Kahoy (甲)",
+                  "Yang na Kahoy",
+                  "gitna (中氣)",
+                  "{hidHaeJung}"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Yang na Tubig",
+                  "pangunahin (本氣)",
+                  "{hidHaeBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang lakas ng limang elemento kapag ang month branch ay 亥",
+        "blocks": [
+          {
+            "p": "Kapag ang branch ng buwan ng kapanganakan ay 亥, nagkakaroon ang bawat elemento ng isang estado (Wang, Sang, Hyu, Su, Sa), at ang estadong iyon ang nagiging multiplier na ipinapataw sa lakas nito."
+          },
+          {
+            "table": {
+              "caption": "Ang mga estado ng elemento para sa month branch 亥 (taglamig)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplier"
+              ],
+              "rows": [
+                [
+                  "Kahoy",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Apoy",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Lupa",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Metal",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Tubig",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang Ten Gods ayon sa day stem",
+        "blocks": [
+          {
+            "p": "Ang parehong hidden stems ng 亥 ay nagiging magkaibang Ten Gods depende sa day stem. Kapag ang 亥 ang day branch, ang talahanayang ito ang pagbasa sa posisyon ng asawa."
+          },
+          {
+            "table": {
+              "caption": "Kung ano ang hidden stems ng 亥 sa bawat day stem",
+              "head": [
+                "Day stem",
+                "Yang na Lupa (戊) — natitira (餘氣)",
+                "Yang na Kahoy (甲) — gitna (中氣)",
+                "Yang na Tubig (壬) — pangunahin (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "Biglaang yaman (偏財)",
+                  "Kasama (比肩)",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "Matatag na yaman (正財)",
+                  "Karibal (劫財)",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "Pagpapahayag (食神)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "Manggugulo (傷官)",
+                  "Pag-aaruga (正印)",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "Kasama (比肩)",
+                  "Humahamon (偏官)",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "Karibal (劫財)",
+                  "Awtoridad (正官)",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "Di-karaniwang suporta (偏印)",
+                  "Biglaang yaman (偏財)",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "Pag-aaruga (正印)",
+                  "Matatag na yaman (正財)",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "Humahamon (偏官)",
+                  "Pagpapahayag (食神)",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "Awtoridad (正官)",
+                  "Manggugulo (傷官)",
+                  "Karibal (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang branch kung sino ang isang tao. Magkaiba ang pagbasa sa parehong branch depende sa day stem at sa month branch.",
+              "Ang mga ugnayan sa pagitan ng mga branch, tulad ng harmonya, salpukan, at alitan, ay hindi saklaw dito."
+            ]
+          },
+          {
+            "p": "Ang mga ugnayan sa pagitan ng mga branch ay nasa [talaan ng labindalawang branch](/guide/branches), at ang kahulugan nito bilang zodiac animal ay nasa [kung saan nakalagay ang zodiac sa isang saju](/guide/zodiac). Iba pang branch: [子 (Daga)](/guide/branch-ja) · [丑 (Baka)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Kuneho)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Ahas)](/guide/branch-sa) · [午 (Kabayo)](/guide/branch-o) · [未 (Tupa)](/guide/branch-mi) · [申 (Unggoy)](/guide/branch-sin) · [酉 (Manok)](/guide/branch-yu) · [戌 (Aso)](/guide/branch-sul)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-ja": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 甲子",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 甲子 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 甲子 ay ang ika-1 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲子, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 1."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 子 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 甲, ang mga stem na hawak ng 子 ay ang mga sumusunod. Ang pangunahing stem (癸) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 甲子",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 甲"
+              ],
+              "rows": [
+                [
+                  "Yang na Tubig (壬)",
+                  "natitira (餘氣)",
+                  "{hidJaYeo}",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "pangunahin (本氣)",
+                  "{hidJaBon}",
+                  "Pag-aaruga (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 甲 ang day stem, ang Matatag na yaman ay 己 at ang Awtoridad ay 辛."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 己. Ang 己 ay hindi taglay ng 子."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 辛. Ang 辛 ay hindi taglay ng 子."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [癸亥](/guide/pillar-gye-hae) at ang susunod ay [乙丑](/guide/pillar-eul-chuk)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Kahoy (甲)](/guide/stem-gap) at [子 (Daga)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-chuk": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 乙丑",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 乙丑 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 乙丑 ay ang ika-2 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙丑, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 2."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 丑 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 乙, ang mga stem na hawak ng 丑 ay ang mga sumusunod. Ang pangunahing stem (己) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 乙丑",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 乙"
+              ],
+              "rows": [
+                [
+                  "Yin na Tubig (癸)",
+                  "natitira (餘氣)",
+                  "{hidChukYeo}",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "gitna (中氣)",
+                  "{hidChukJung}",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "pangunahin (本氣)",
+                  "{hidChukBon}",
+                  "Biglaang yaman (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 乙 ang day stem, ang Matatag na yaman ay 戊 at ang Awtoridad ay 庚."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 戊. Ang 戊 ay hindi taglay ng 丑."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 庚. Ang 庚 ay hindi taglay ng 丑."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [甲子](/guide/pillar-gap-ja) at ang susunod ay [丙寅](/guide/pillar-byeong-in)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Kahoy (乙)](/guide/stem-eul) at [丑 (Baka)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-in": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 丙寅",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 丙寅 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丙寅 ay ang ika-3 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙寅, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 3."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 寅 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 丙, ang mga stem na hawak ng 寅 ay ang mga sumusunod. Ang pangunahing stem (甲) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 丙寅",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 丙"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidInYeo}",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "gitna (中氣)",
+                  "{hidInJung}",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Kahoy (甲)",
+                  "pangunahin (本氣)",
+                  "{hidInBon}",
+                  "Di-karaniwang suporta (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丙 ang day stem, ang Matatag na yaman ay 辛 at ang Awtoridad ay 癸."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 辛. Ang 辛 ay hindi taglay ng 寅."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 癸. Ang 癸 ay hindi taglay ng 寅."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [乙丑](/guide/pillar-eul-chuk) at ang susunod ay [丁卯](/guide/pillar-jeong-myo)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Apoy (丙)](/guide/stem-byeong) at [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-myo": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 丁卯",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 丁卯 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丁卯 ay ang ika-4 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁卯, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 4."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 卯 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 丁, ang mga stem na hawak ng 卯 ay ang mga sumusunod. Ang pangunahing stem (乙) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 丁卯",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 丁"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "natitira (餘氣)",
+                  "{hidMyoYeo}",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "pangunahin (本氣)",
+                  "{hidMyoBon}",
+                  "Di-karaniwang suporta (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丁 ang day stem, ang Matatag na yaman ay 庚 at ang Awtoridad ay 壬."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 庚. Ang 庚 ay hindi taglay ng 卯."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 壬. Ang 壬 ay hindi taglay ng 卯."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丙寅](/guide/pillar-byeong-in) at ang susunod ay [戊辰](/guide/pillar-mu-jin)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Apoy (丁)](/guide/stem-jeong) at [卯 (Kuneho)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-jin": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 戊辰",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 戊辰 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 戊辰 ay ang ika-5 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊辰, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 5."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 辰 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 戊, ang mga stem na hawak ng 辰 ay ang mga sumusunod. Ang pangunahing stem (戊) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 戊辰",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 戊"
+              ],
+              "rows": [
+                [
+                  "Yin na Kahoy (乙)",
+                  "natitira (餘氣)",
+                  "{hidJinYeo}",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "gitna (中氣)",
+                  "{hidJinJung}",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "pangunahin (本氣)",
+                  "{hidJinBon}",
+                  "Kasama (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 戊 ang day stem, ang Matatag na yaman ay 癸 at ang Awtoridad ay 乙."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 癸. Ang 癸 ay taglay ng 辰 (gitna (中氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 乙. Ang 乙 ay taglay ng 辰 (natitira (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丁卯](/guide/pillar-jeong-myo) at ang susunod ay [己巳](/guide/pillar-gi-sa)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Lupa (戊)](/guide/stem-mu) at [辰 (Dragon)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-sa": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 己巳",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 己巳 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 己巳 ay ang ika-6 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己巳, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 6."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 巳 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 己, ang mga stem na hawak ng 巳 ay ang mga sumusunod. Ang pangunahing stem (丙) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 己巳",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 己"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidSaYeo}",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "gitna (中氣)",
+                  "{hidSaJung}",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "pangunahin (本氣)",
+                  "{hidSaBon}",
+                  "Pag-aaruga (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 己 ang day stem, ang Matatag na yaman ay 壬 at ang Awtoridad ay 甲."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 壬. Ang 壬 ay hindi taglay ng 巳."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 甲. Ang 甲 ay hindi taglay ng 巳."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [戊辰](/guide/pillar-mu-jin) at ang susunod ay [庚午](/guide/pillar-gyeong-o)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Lupa (己)](/guide/stem-gi) at [巳 (Ahas)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-o": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 庚午",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 庚午 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 庚午 ay ang ika-7 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚午, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 7."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 午 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 庚, ang mga stem na hawak ng 午 ay ang mga sumusunod. Ang pangunahing stem (丁) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 庚午",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 庚"
+              ],
+              "rows": [
+                [
+                  "Yang na Apoy (丙)",
+                  "natitira (餘氣)",
+                  "{hidOYeo}",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "gitna (中氣)",
+                  "{hidOJung}",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "pangunahin (本氣)",
+                  "{hidOBon}",
+                  "Awtoridad (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 庚 ang day stem, ang Matatag na yaman ay 乙 at ang Awtoridad ay 丁."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 乙. Ang 乙 ay hindi taglay ng 午."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 丁. Ang 丁 ay taglay ng 午 (pangunahin (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [己巳](/guide/pillar-gi-sa) at ang susunod ay [辛未](/guide/pillar-sin-mi)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Metal (庚)](/guide/stem-gyeong) at [午 (Kabayo)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-mi": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 辛未",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 辛未 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 辛未 ay ang ika-8 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛未, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 8."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 未 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 辛, ang mga stem na hawak ng 未 ay ang mga sumusunod. Ang pangunahing stem (己) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 辛未",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 辛"
+              ],
+              "rows": [
+                [
+                  "Yin na Apoy (丁)",
+                  "natitira (餘氣)",
+                  "{hidMiYeo}",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "gitna (中氣)",
+                  "{hidMiJung}",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "pangunahin (本氣)",
+                  "{hidMiBon}",
+                  "Di-karaniwang suporta (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 辛 ang day stem, ang Matatag na yaman ay 甲 at ang Awtoridad ay 丙."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 甲. Ang 甲 ay hindi taglay ng 未."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 丙. Ang 丙 ay hindi taglay ng 未."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [庚午](/guide/pillar-gyeong-o) at ang susunod ay [壬申](/guide/pillar-im-sin)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Metal (辛)](/guide/stem-sin) at [未 (Tupa)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-sin": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 壬申",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 壬申 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 壬申 ay ang ika-9 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬申, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 9."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 申 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 壬, ang mga stem na hawak ng 申 ay ang mga sumusunod. Ang pangunahing stem (庚) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 壬申",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 壬"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidSinYeo}",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "gitna (中氣)",
+                  "{hidSinJung}",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "pangunahin (本氣)",
+                  "{hidSinBon}",
+                  "Di-karaniwang suporta (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 壬 ang day stem, ang Matatag na yaman ay 丁 at ang Awtoridad ay 己."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 丁. Ang 丁 ay hindi taglay ng 申."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 己. Ang 己 ay hindi taglay ng 申."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [辛未](/guide/pillar-sin-mi) at ang susunod ay [癸酉](/guide/pillar-gye-yu)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Tubig (壬)](/guide/stem-im) at [申 (Unggoy)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-yu": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 癸酉",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 癸酉 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 癸酉 ay ang ika-10 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸酉, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 10."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 酉 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 癸, ang mga stem na hawak ng 酉 ay ang mga sumusunod. Ang pangunahing stem (辛) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 癸酉",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 癸"
+              ],
+              "rows": [
+                [
+                  "Yang na Metal (庚)",
+                  "natitira (餘氣)",
+                  "{hidYuYeo}",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "pangunahin (本氣)",
+                  "{hidYuBon}",
+                  "Di-karaniwang suporta (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 癸 ang day stem, ang Matatag na yaman ay 丙 at ang Awtoridad ay 戊."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 丙. Ang 丙 ay hindi taglay ng 酉."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 戊. Ang 戊 ay hindi taglay ng 酉."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [壬申](/guide/pillar-im-sin) at ang susunod ay [甲戌](/guide/pillar-gap-sul)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Tubig (癸)](/guide/stem-gye) at [酉 (Manok)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-sul": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 甲戌",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 甲戌 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 甲戌 ay ang ika-11 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲戌, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 11."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 戌 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 甲, ang mga stem na hawak ng 戌 ay ang mga sumusunod. Ang pangunahing stem (戊) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 甲戌",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 甲"
+              ],
+              "rows": [
+                [
+                  "Yin na Metal (辛)",
+                  "natitira (餘氣)",
+                  "{hidSulYeo}",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "gitna (中氣)",
+                  "{hidSulJung}",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "pangunahin (本氣)",
+                  "{hidSulBon}",
+                  "Biglaang yaman (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 甲 ang day stem, ang Matatag na yaman ay 己 at ang Awtoridad ay 辛."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 己. Ang 己 ay hindi taglay ng 戌."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 辛. Ang 辛 ay taglay ng 戌 (natitira (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [癸酉](/guide/pillar-gye-yu) at ang susunod ay [乙亥](/guide/pillar-eul-hae)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Kahoy (甲)](/guide/stem-gap) at [戌 (Aso)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-hae": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 乙亥",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 乙亥 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 乙亥 ay ang ika-12 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙亥, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 12."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 亥 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 乙, ang mga stem na hawak ng 亥 ay ang mga sumusunod. Ang pangunahing stem (壬) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 乙亥",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 乙"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidHaeYeo}",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Kahoy (甲)",
+                  "gitna (中氣)",
+                  "{hidHaeJung}",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "pangunahin (本氣)",
+                  "{hidHaeBon}",
+                  "Pag-aaruga (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 乙 ang day stem, ang Matatag na yaman ay 戊 at ang Awtoridad ay 庚."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 戊. Ang 戊 ay taglay ng 亥 (natitira (餘氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 庚. Ang 庚 ay hindi taglay ng 亥."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [甲戌](/guide/pillar-gap-sul) at ang susunod ay [丙子](/guide/pillar-byeong-ja)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Kahoy (乙)](/guide/stem-eul) at [亥 (Baboy)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-ja": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 丙子",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 丙子 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丙子 ay ang ika-13 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙子, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 13."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 子 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 丙, ang mga stem na hawak ng 子 ay ang mga sumusunod. Ang pangunahing stem (癸) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 丙子",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 丙"
+              ],
+              "rows": [
+                [
+                  "Yang na Tubig (壬)",
+                  "natitira (餘氣)",
+                  "{hidJaYeo}",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "pangunahin (本氣)",
+                  "{hidJaBon}",
+                  "Awtoridad (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丙 ang day stem, ang Matatag na yaman ay 辛 at ang Awtoridad ay 癸."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 辛. Ang 辛 ay hindi taglay ng 子."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 癸. Ang 癸 ay taglay ng 子 (pangunahin (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [乙亥](/guide/pillar-eul-hae) at ang susunod ay [丁丑](/guide/pillar-jeong-chuk)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Apoy (丙)](/guide/stem-byeong) at [子 (Daga)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-chuk": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 丁丑",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 丁丑 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丁丑 ay ang ika-14 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁丑, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 14."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 丑 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 丁, ang mga stem na hawak ng 丑 ay ang mga sumusunod. Ang pangunahing stem (己) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 丁丑",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 丁"
+              ],
+              "rows": [
+                [
+                  "Yin na Tubig (癸)",
+                  "natitira (餘氣)",
+                  "{hidChukYeo}",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "gitna (中氣)",
+                  "{hidChukJung}",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "pangunahin (本氣)",
+                  "{hidChukBon}",
+                  "Pagpapahayag (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丁 ang day stem, ang Matatag na yaman ay 庚 at ang Awtoridad ay 壬."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 庚. Ang 庚 ay hindi taglay ng 丑."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 壬. Ang 壬 ay hindi taglay ng 丑."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丙子](/guide/pillar-byeong-ja) at ang susunod ay [戊寅](/guide/pillar-mu-in)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Apoy (丁)](/guide/stem-jeong) at [丑 (Baka)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-in": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 戊寅",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 戊寅 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 戊寅 ay ang ika-15 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊寅, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 15."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 寅 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 戊, ang mga stem na hawak ng 寅 ay ang mga sumusunod. Ang pangunahing stem (甲) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 戊寅",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 戊"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidInYeo}",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "gitna (中氣)",
+                  "{hidInJung}",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Kahoy (甲)",
+                  "pangunahin (本氣)",
+                  "{hidInBon}",
+                  "Humahamon (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 戊 ang day stem, ang Matatag na yaman ay 癸 at ang Awtoridad ay 乙."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 癸. Ang 癸 ay hindi taglay ng 寅."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 乙. Ang 乙 ay hindi taglay ng 寅."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丁丑](/guide/pillar-jeong-chuk) at ang susunod ay [己卯](/guide/pillar-gi-myo)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Lupa (戊)](/guide/stem-mu) at [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-myo": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 己卯",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 己卯 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 己卯 ay ang ika-16 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己卯, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 16."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 卯 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 己, ang mga stem na hawak ng 卯 ay ang mga sumusunod. Ang pangunahing stem (乙) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 己卯",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 己"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "natitira (餘氣)",
+                  "{hidMyoYeo}",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "pangunahin (本氣)",
+                  "{hidMyoBon}",
+                  "Humahamon (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 己 ang day stem, ang Matatag na yaman ay 壬 at ang Awtoridad ay 甲."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 壬. Ang 壬 ay hindi taglay ng 卯."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 甲. Ang 甲 ay taglay ng 卯 (natitira (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [戊寅](/guide/pillar-mu-in) at ang susunod ay [庚辰](/guide/pillar-gyeong-jin)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Lupa (己)](/guide/stem-gi) at [卯 (Kuneho)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-jin": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 庚辰",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 庚辰 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 庚辰 ay ang ika-17 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚辰, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 17."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 辰 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 庚, ang mga stem na hawak ng 辰 ay ang mga sumusunod. Ang pangunahing stem (戊) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 庚辰",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 庚"
+              ],
+              "rows": [
+                [
+                  "Yin na Kahoy (乙)",
+                  "natitira (餘氣)",
+                  "{hidJinYeo}",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "gitna (中氣)",
+                  "{hidJinJung}",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "pangunahin (本氣)",
+                  "{hidJinBon}",
+                  "Di-karaniwang suporta (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 庚 ang day stem, ang Matatag na yaman ay 乙 at ang Awtoridad ay 丁."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 乙. Ang 乙 ay taglay ng 辰 (natitira (餘氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 丁. Ang 丁 ay hindi taglay ng 辰."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [己卯](/guide/pillar-gi-myo) at ang susunod ay [辛巳](/guide/pillar-sin-sa)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Metal (庚)](/guide/stem-gyeong) at [辰 (Dragon)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-sa": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 辛巳",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 辛巳 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 辛巳 ay ang ika-18 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛巳, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 18."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 巳 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 辛, ang mga stem na hawak ng 巳 ay ang mga sumusunod. Ang pangunahing stem (丙) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 辛巳",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 辛"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidSaYeo}",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "gitna (中氣)",
+                  "{hidSaJung}",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "pangunahin (本氣)",
+                  "{hidSaBon}",
+                  "Awtoridad (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 辛 ang day stem, ang Matatag na yaman ay 甲 at ang Awtoridad ay 丙."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 甲. Ang 甲 ay hindi taglay ng 巳."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 丙. Ang 丙 ay taglay ng 巳 (pangunahin (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [庚辰](/guide/pillar-gyeong-jin) at ang susunod ay [壬午](/guide/pillar-im-o)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Metal (辛)](/guide/stem-sin) at [巳 (Ahas)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-o": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 壬午",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 壬午 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 壬午 ay ang ika-19 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬午, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 19."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 午 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 壬, ang mga stem na hawak ng 午 ay ang mga sumusunod. Ang pangunahing stem (丁) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 壬午",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 壬"
+              ],
+              "rows": [
+                [
+                  "Yang na Apoy (丙)",
+                  "natitira (餘氣)",
+                  "{hidOYeo}",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "gitna (中氣)",
+                  "{hidOJung}",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "pangunahin (本氣)",
+                  "{hidOBon}",
+                  "Matatag na yaman (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 壬 ang day stem, ang Matatag na yaman ay 丁 at ang Awtoridad ay 己."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 丁. Ang 丁 ay taglay ng 午 (pangunahin (本氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 己. Ang 己 ay taglay ng 午 (gitna (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [辛巳](/guide/pillar-sin-sa) at ang susunod ay [癸未](/guide/pillar-gye-mi)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Tubig (壬)](/guide/stem-im) at [午 (Kabayo)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-mi": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 癸未",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 癸未 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 癸未 ay ang ika-20 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸未, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 20."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 未 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 癸, ang mga stem na hawak ng 未 ay ang mga sumusunod. Ang pangunahing stem (己) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 癸未",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 癸"
+              ],
+              "rows": [
+                [
+                  "Yin na Apoy (丁)",
+                  "natitira (餘氣)",
+                  "{hidMiYeo}",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "gitna (中氣)",
+                  "{hidMiJung}",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "pangunahin (本氣)",
+                  "{hidMiBon}",
+                  "Humahamon (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 癸 ang day stem, ang Matatag na yaman ay 丙 at ang Awtoridad ay 戊."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 丙. Ang 丙 ay hindi taglay ng 未."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 戊. Ang 戊 ay hindi taglay ng 未."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [壬午](/guide/pillar-im-o) at ang susunod ay [甲申](/guide/pillar-gap-sin)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Tubig (癸)](/guide/stem-gye) at [未 (Tupa)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-sin": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 甲申",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 甲申 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 甲申 ay ang ika-21 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲申, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 21."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 申 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 甲, ang mga stem na hawak ng 申 ay ang mga sumusunod. Ang pangunahing stem (庚) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 甲申",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 甲"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidSinYeo}",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "gitna (中氣)",
+                  "{hidSinJung}",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "pangunahin (本氣)",
+                  "{hidSinBon}",
+                  "Humahamon (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 甲 ang day stem, ang Matatag na yaman ay 己 at ang Awtoridad ay 辛."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 己. Ang 己 ay hindi taglay ng 申."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 辛. Ang 辛 ay hindi taglay ng 申."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [癸未](/guide/pillar-gye-mi) at ang susunod ay [乙酉](/guide/pillar-eul-yu)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Kahoy (甲)](/guide/stem-gap) at [申 (Unggoy)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-yu": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 乙酉",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 乙酉 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 乙酉 ay ang ika-22 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙酉, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 22."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 酉 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 乙, ang mga stem na hawak ng 酉 ay ang mga sumusunod. Ang pangunahing stem (辛) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 乙酉",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 乙"
+              ],
+              "rows": [
+                [
+                  "Yang na Metal (庚)",
+                  "natitira (餘氣)",
+                  "{hidYuYeo}",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "pangunahin (本氣)",
+                  "{hidYuBon}",
+                  "Humahamon (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 乙 ang day stem, ang Matatag na yaman ay 戊 at ang Awtoridad ay 庚."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 戊. Ang 戊 ay hindi taglay ng 酉."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 庚. Ang 庚 ay taglay ng 酉 (natitira (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [甲申](/guide/pillar-gap-sin) at ang susunod ay [丙戌](/guide/pillar-byeong-sul)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Kahoy (乙)](/guide/stem-eul) at [酉 (Manok)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-sul": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 丙戌",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 丙戌 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丙戌 ay ang ika-23 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙戌, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 23."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 戌 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 丙, ang mga stem na hawak ng 戌 ay ang mga sumusunod. Ang pangunahing stem (戊) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 丙戌",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 丙"
+              ],
+              "rows": [
+                [
+                  "Yin na Metal (辛)",
+                  "natitira (餘氣)",
+                  "{hidSulYeo}",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "gitna (中氣)",
+                  "{hidSulJung}",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "pangunahin (本氣)",
+                  "{hidSulBon}",
+                  "Pagpapahayag (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丙 ang day stem, ang Matatag na yaman ay 辛 at ang Awtoridad ay 癸."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 辛. Ang 辛 ay taglay ng 戌 (natitira (餘氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 癸. Ang 癸 ay hindi taglay ng 戌."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [乙酉](/guide/pillar-eul-yu) at ang susunod ay [丁亥](/guide/pillar-jeong-hae)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Apoy (丙)](/guide/stem-byeong) at [戌 (Aso)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-hae": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 丁亥",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 丁亥 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丁亥 ay ang ika-24 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁亥, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 24."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 亥 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 丁, ang mga stem na hawak ng 亥 ay ang mga sumusunod. Ang pangunahing stem (壬) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 丁亥",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 丁"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidHaeYeo}",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Kahoy (甲)",
+                  "gitna (中氣)",
+                  "{hidHaeJung}",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "pangunahin (本氣)",
+                  "{hidHaeBon}",
+                  "Awtoridad (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丁 ang day stem, ang Matatag na yaman ay 庚 at ang Awtoridad ay 壬."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 庚. Ang 庚 ay hindi taglay ng 亥."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 壬. Ang 壬 ay taglay ng 亥 (pangunahin (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丙戌](/guide/pillar-byeong-sul) at ang susunod ay [戊子](/guide/pillar-mu-ja)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Apoy (丁)](/guide/stem-jeong) at [亥 (Baboy)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-ja": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 戊子",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 戊子 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 戊子 ay ang ika-25 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊子, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 25."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 子 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 戊, ang mga stem na hawak ng 子 ay ang mga sumusunod. Ang pangunahing stem (癸) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 戊子",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 戊"
+              ],
+              "rows": [
+                [
+                  "Yang na Tubig (壬)",
+                  "natitira (餘氣)",
+                  "{hidJaYeo}",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "pangunahin (本氣)",
+                  "{hidJaBon}",
+                  "Matatag na yaman (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 戊 ang day stem, ang Matatag na yaman ay 癸 at ang Awtoridad ay 乙."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 癸. Ang 癸 ay taglay ng 子 (pangunahin (本氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 乙. Ang 乙 ay hindi taglay ng 子."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丁亥](/guide/pillar-jeong-hae) at ang susunod ay [己丑](/guide/pillar-gi-chuk)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Lupa (戊)](/guide/stem-mu) at [子 (Daga)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-chuk": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 己丑",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 己丑 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 己丑 ay ang ika-26 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己丑, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 26."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 丑 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 己, ang mga stem na hawak ng 丑 ay ang mga sumusunod. Ang pangunahing stem (己) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 己丑",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 己"
+              ],
+              "rows": [
+                [
+                  "Yin na Tubig (癸)",
+                  "natitira (餘氣)",
+                  "{hidChukYeo}",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "gitna (中氣)",
+                  "{hidChukJung}",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "pangunahin (本氣)",
+                  "{hidChukBon}",
+                  "Kasama (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 己 ang day stem, ang Matatag na yaman ay 壬 at ang Awtoridad ay 甲."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 壬. Ang 壬 ay hindi taglay ng 丑."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 甲. Ang 甲 ay hindi taglay ng 丑."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [戊子](/guide/pillar-mu-ja) at ang susunod ay [庚寅](/guide/pillar-gyeong-in)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Lupa (己)](/guide/stem-gi) at [丑 (Baka)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-in": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 庚寅",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 庚寅 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 庚寅 ay ang ika-27 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚寅, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 27."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 寅 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 庚, ang mga stem na hawak ng 寅 ay ang mga sumusunod. Ang pangunahing stem (甲) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 庚寅",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 庚"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidInYeo}",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "gitna (中氣)",
+                  "{hidInJung}",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yang na Kahoy (甲)",
+                  "pangunahin (本氣)",
+                  "{hidInBon}",
+                  "Biglaang yaman (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 庚 ang day stem, ang Matatag na yaman ay 乙 at ang Awtoridad ay 丁."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 乙. Ang 乙 ay hindi taglay ng 寅."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 丁. Ang 丁 ay hindi taglay ng 寅."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [己丑](/guide/pillar-gi-chuk) at ang susunod ay [辛卯](/guide/pillar-sin-myo)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Metal (庚)](/guide/stem-gyeong) at [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-myo": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 辛卯",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 辛卯 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 辛卯 ay ang ika-28 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛卯, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 28."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 卯 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 辛, ang mga stem na hawak ng 卯 ay ang mga sumusunod. Ang pangunahing stem (乙) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 辛卯",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 辛"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "natitira (餘氣)",
+                  "{hidMyoYeo}",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "pangunahin (本氣)",
+                  "{hidMyoBon}",
+                  "Biglaang yaman (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 辛 ang day stem, ang Matatag na yaman ay 甲 at ang Awtoridad ay 丙."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 甲. Ang 甲 ay taglay ng 卯 (natitira (餘氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 丙. Ang 丙 ay hindi taglay ng 卯."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [庚寅](/guide/pillar-gyeong-in) at ang susunod ay [壬辰](/guide/pillar-im-jin)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Metal (辛)](/guide/stem-sin) at [卯 (Kuneho)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-jin": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 壬辰",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 壬辰 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 壬辰 ay ang ika-29 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬辰, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 29."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 辰 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 壬, ang mga stem na hawak ng 辰 ay ang mga sumusunod. Ang pangunahing stem (戊) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 壬辰",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 壬"
+              ],
+              "rows": [
+                [
+                  "Yin na Kahoy (乙)",
+                  "natitira (餘氣)",
+                  "{hidJinYeo}",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "gitna (中氣)",
+                  "{hidJinJung}",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "pangunahin (本氣)",
+                  "{hidJinBon}",
+                  "Humahamon (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 壬 ang day stem, ang Matatag na yaman ay 丁 at ang Awtoridad ay 己."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 丁. Ang 丁 ay hindi taglay ng 辰."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 己. Ang 己 ay hindi taglay ng 辰."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [辛卯](/guide/pillar-sin-myo) at ang susunod ay [癸巳](/guide/pillar-gye-sa)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Tubig (壬)](/guide/stem-im) at [辰 (Dragon)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-sa": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 癸巳",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 癸巳 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 癸巳 ay ang ika-30 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸巳, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 30."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 巳 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 癸, ang mga stem na hawak ng 巳 ay ang mga sumusunod. Ang pangunahing stem (丙) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 癸巳",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 癸"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidSaYeo}",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "gitna (中氣)",
+                  "{hidSaJung}",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "pangunahin (本氣)",
+                  "{hidSaBon}",
+                  "Matatag na yaman (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 癸 ang day stem, ang Matatag na yaman ay 丙 at ang Awtoridad ay 戊."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 丙. Ang 丙 ay taglay ng 巳 (pangunahin (本氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 戊. Ang 戊 ay taglay ng 巳 (natitira (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [壬辰](/guide/pillar-im-jin) at ang susunod ay [甲午](/guide/pillar-gap-o)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Tubig (癸)](/guide/stem-gye) at [巳 (Ahas)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-o": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 甲午",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 甲午 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 甲午 ay ang ika-31 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲午, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 31."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 午 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 甲, ang mga stem na hawak ng 午 ay ang mga sumusunod. Ang pangunahing stem (丁) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 甲午",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 甲"
+              ],
+              "rows": [
+                [
+                  "Yang na Apoy (丙)",
+                  "natitira (餘氣)",
+                  "{hidOYeo}",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "gitna (中氣)",
+                  "{hidOJung}",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "pangunahin (本氣)",
+                  "{hidOBon}",
+                  "Manggugulo (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 甲 ang day stem, ang Matatag na yaman ay 己 at ang Awtoridad ay 辛."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 己. Ang 己 ay taglay ng 午 (gitna (中氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 辛. Ang 辛 ay hindi taglay ng 午."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [癸巳](/guide/pillar-gye-sa) at ang susunod ay [乙未](/guide/pillar-eul-mi)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Kahoy (甲)](/guide/stem-gap) at [午 (Kabayo)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-mi": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 乙未",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 乙未 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 乙未 ay ang ika-32 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙未, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 32."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 未 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 乙, ang mga stem na hawak ng 未 ay ang mga sumusunod. Ang pangunahing stem (己) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 乙未",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 乙"
+              ],
+              "rows": [
+                [
+                  "Yin na Apoy (丁)",
+                  "natitira (餘氣)",
+                  "{hidMiYeo}",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "gitna (中氣)",
+                  "{hidMiJung}",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "pangunahin (本氣)",
+                  "{hidMiBon}",
+                  "Biglaang yaman (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 乙 ang day stem, ang Matatag na yaman ay 戊 at ang Awtoridad ay 庚."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 戊. Ang 戊 ay hindi taglay ng 未."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 庚. Ang 庚 ay hindi taglay ng 未."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [甲午](/guide/pillar-gap-o) at ang susunod ay [丙申](/guide/pillar-byeong-sin)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Kahoy (乙)](/guide/stem-eul) at [未 (Tupa)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-sin": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 丙申",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 丙申 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丙申 ay ang ika-33 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙申, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 33."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 申 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 丙, ang mga stem na hawak ng 申 ay ang mga sumusunod. Ang pangunahing stem (庚) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 丙申",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 丙"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidSinYeo}",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "gitna (中氣)",
+                  "{hidSinJung}",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "pangunahin (本氣)",
+                  "{hidSinBon}",
+                  "Biglaang yaman (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丙 ang day stem, ang Matatag na yaman ay 辛 at ang Awtoridad ay 癸."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 辛. Ang 辛 ay hindi taglay ng 申."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 癸. Ang 癸 ay hindi taglay ng 申."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [乙未](/guide/pillar-eul-mi) at ang susunod ay [丁酉](/guide/pillar-jeong-yu)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Apoy (丙)](/guide/stem-byeong) at [申 (Unggoy)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-yu": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 丁酉",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 丁酉 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丁酉 ay ang ika-34 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁酉, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 34."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 酉 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 丁, ang mga stem na hawak ng 酉 ay ang mga sumusunod. Ang pangunahing stem (辛) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 丁酉",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 丁"
+              ],
+              "rows": [
+                [
+                  "Yang na Metal (庚)",
+                  "natitira (餘氣)",
+                  "{hidYuYeo}",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "pangunahin (本氣)",
+                  "{hidYuBon}",
+                  "Biglaang yaman (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丁 ang day stem, ang Matatag na yaman ay 庚 at ang Awtoridad ay 壬."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 庚. Ang 庚 ay taglay ng 酉 (natitira (餘氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 壬. Ang 壬 ay hindi taglay ng 酉."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丙申](/guide/pillar-byeong-sin) at ang susunod ay [戊戌](/guide/pillar-mu-sul)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Apoy (丁)](/guide/stem-jeong) at [酉 (Manok)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-sul": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 戊戌",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 戊戌 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 戊戌 ay ang ika-35 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊戌, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 35."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 戌 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 戊, ang mga stem na hawak ng 戌 ay ang mga sumusunod. Ang pangunahing stem (戊) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 戊戌",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 戊"
+              ],
+              "rows": [
+                [
+                  "Yin na Metal (辛)",
+                  "natitira (餘氣)",
+                  "{hidSulYeo}",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "gitna (中氣)",
+                  "{hidSulJung}",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "pangunahin (本氣)",
+                  "{hidSulBon}",
+                  "Kasama (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 戊 ang day stem, ang Matatag na yaman ay 癸 at ang Awtoridad ay 乙."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 癸. Ang 癸 ay hindi taglay ng 戌."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 乙. Ang 乙 ay hindi taglay ng 戌."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丁酉](/guide/pillar-jeong-yu) at ang susunod ay [己亥](/guide/pillar-gi-hae)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Lupa (戊)](/guide/stem-mu) at [戌 (Aso)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-hae": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 己亥",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 己亥 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 己亥 ay ang ika-36 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己亥, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 36."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 亥 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 己, ang mga stem na hawak ng 亥 ay ang mga sumusunod. Ang pangunahing stem (壬) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 己亥",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 己"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidHaeYeo}",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yang na Kahoy (甲)",
+                  "gitna (中氣)",
+                  "{hidHaeJung}",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "pangunahin (本氣)",
+                  "{hidHaeBon}",
+                  "Matatag na yaman (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 己 ang day stem, ang Matatag na yaman ay 壬 at ang Awtoridad ay 甲."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 壬. Ang 壬 ay taglay ng 亥 (pangunahin (本氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 甲. Ang 甲 ay taglay ng 亥 (gitna (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [戊戌](/guide/pillar-mu-sul) at ang susunod ay [庚子](/guide/pillar-gyeong-ja)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Lupa (己)](/guide/stem-gi) at [亥 (Baboy)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-ja": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 庚子",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 庚子 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 庚子 ay ang ika-37 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚子, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 37."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 子 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 庚, ang mga stem na hawak ng 子 ay ang mga sumusunod. Ang pangunahing stem (癸) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 庚子",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 庚"
+              ],
+              "rows": [
+                [
+                  "Yang na Tubig (壬)",
+                  "natitira (餘氣)",
+                  "{hidJaYeo}",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "pangunahin (本氣)",
+                  "{hidJaBon}",
+                  "Manggugulo (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 庚 ang day stem, ang Matatag na yaman ay 乙 at ang Awtoridad ay 丁."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 乙. Ang 乙 ay hindi taglay ng 子."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 丁. Ang 丁 ay hindi taglay ng 子."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [己亥](/guide/pillar-gi-hae) at ang susunod ay [辛丑](/guide/pillar-sin-chuk)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Metal (庚)](/guide/stem-gyeong) at [子 (Daga)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-chuk": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 辛丑",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 辛丑 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 辛丑 ay ang ika-38 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛丑, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 38."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 丑 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 辛, ang mga stem na hawak ng 丑 ay ang mga sumusunod. Ang pangunahing stem (己) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 辛丑",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 辛"
+              ],
+              "rows": [
+                [
+                  "Yin na Tubig (癸)",
+                  "natitira (餘氣)",
+                  "{hidChukYeo}",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "gitna (中氣)",
+                  "{hidChukJung}",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "pangunahin (本氣)",
+                  "{hidChukBon}",
+                  "Di-karaniwang suporta (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 辛 ang day stem, ang Matatag na yaman ay 甲 at ang Awtoridad ay 丙."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 甲. Ang 甲 ay hindi taglay ng 丑."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 丙. Ang 丙 ay hindi taglay ng 丑."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [庚子](/guide/pillar-gyeong-ja) at ang susunod ay [壬寅](/guide/pillar-im-in)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Metal (辛)](/guide/stem-sin) at [丑 (Baka)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-in": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 壬寅",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 壬寅 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 壬寅 ay ang ika-39 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬寅, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 39."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 寅 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 壬, ang mga stem na hawak ng 寅 ay ang mga sumusunod. Ang pangunahing stem (甲) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 壬寅",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 壬"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidInYeo}",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "gitna (中氣)",
+                  "{hidInJung}",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Kahoy (甲)",
+                  "pangunahin (本氣)",
+                  "{hidInBon}",
+                  "Pagpapahayag (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 壬 ang day stem, ang Matatag na yaman ay 丁 at ang Awtoridad ay 己."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 丁. Ang 丁 ay hindi taglay ng 寅."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 己. Ang 己 ay hindi taglay ng 寅."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [辛丑](/guide/pillar-sin-chuk) at ang susunod ay [癸卯](/guide/pillar-gye-myo)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Tubig (壬)](/guide/stem-im) at [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-myo": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 癸卯",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 癸卯 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 癸卯 ay ang ika-40 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸卯, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 40."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 卯 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 癸, ang mga stem na hawak ng 卯 ay ang mga sumusunod. Ang pangunahing stem (乙) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 癸卯",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 癸"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "natitira (餘氣)",
+                  "{hidMyoYeo}",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "pangunahin (本氣)",
+                  "{hidMyoBon}",
+                  "Pagpapahayag (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 癸 ang day stem, ang Matatag na yaman ay 丙 at ang Awtoridad ay 戊."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 丙. Ang 丙 ay hindi taglay ng 卯."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 戊. Ang 戊 ay hindi taglay ng 卯."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [壬寅](/guide/pillar-im-in) at ang susunod ay [甲辰](/guide/pillar-gap-jin)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Tubig (癸)](/guide/stem-gye) at [卯 (Kuneho)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-jin": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 甲辰",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 甲辰 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 甲辰 ay ang ika-41 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲辰, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 41."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 辰 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 甲, ang mga stem na hawak ng 辰 ay ang mga sumusunod. Ang pangunahing stem (戊) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 甲辰",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 甲"
+              ],
+              "rows": [
+                [
+                  "Yin na Kahoy (乙)",
+                  "natitira (餘氣)",
+                  "{hidJinYeo}",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "gitna (中氣)",
+                  "{hidJinJung}",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "pangunahin (本氣)",
+                  "{hidJinBon}",
+                  "Biglaang yaman (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 甲 ang day stem, ang Matatag na yaman ay 己 at ang Awtoridad ay 辛."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 己. Ang 己 ay hindi taglay ng 辰."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 辛. Ang 辛 ay hindi taglay ng 辰."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [癸卯](/guide/pillar-gye-myo) at ang susunod ay [乙巳](/guide/pillar-eul-sa)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Kahoy (甲)](/guide/stem-gap) at [辰 (Dragon)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-sa": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 乙巳",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 乙巳 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 乙巳 ay ang ika-42 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙巳, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 42."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 巳 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 乙, ang mga stem na hawak ng 巳 ay ang mga sumusunod. Ang pangunahing stem (丙) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 乙巳",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 乙"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidSaYeo}",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "gitna (中氣)",
+                  "{hidSaJung}",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "pangunahin (本氣)",
+                  "{hidSaBon}",
+                  "Manggugulo (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 乙 ang day stem, ang Matatag na yaman ay 戊 at ang Awtoridad ay 庚."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 戊. Ang 戊 ay taglay ng 巳 (natitira (餘氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 庚. Ang 庚 ay taglay ng 巳 (gitna (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [甲辰](/guide/pillar-gap-jin) at ang susunod ay [丙午](/guide/pillar-byeong-o)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Kahoy (乙)](/guide/stem-eul) at [巳 (Ahas)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-o": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 丙午",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 丙午 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丙午 ay ang ika-43 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙午, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 43."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 午 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 丙, ang mga stem na hawak ng 午 ay ang mga sumusunod. Ang pangunahing stem (丁) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 丙午",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 丙"
+              ],
+              "rows": [
+                [
+                  "Yang na Apoy (丙)",
+                  "natitira (餘氣)",
+                  "{hidOYeo}",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "gitna (中氣)",
+                  "{hidOJung}",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "pangunahin (本氣)",
+                  "{hidOBon}",
+                  "Karibal (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丙 ang day stem, ang Matatag na yaman ay 辛 at ang Awtoridad ay 癸."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 辛. Ang 辛 ay hindi taglay ng 午."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 癸. Ang 癸 ay hindi taglay ng 午."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [乙巳](/guide/pillar-eul-sa) at ang susunod ay [丁未](/guide/pillar-jeong-mi)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Apoy (丙)](/guide/stem-byeong) at [午 (Kabayo)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-mi": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 丁未",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 丁未 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丁未 ay ang ika-44 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁未, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 44."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 未 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 丁, ang mga stem na hawak ng 未 ay ang mga sumusunod. Ang pangunahing stem (己) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 丁未",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 丁"
+              ],
+              "rows": [
+                [
+                  "Yin na Apoy (丁)",
+                  "natitira (餘氣)",
+                  "{hidMiYeo}",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "gitna (中氣)",
+                  "{hidMiJung}",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "pangunahin (本氣)",
+                  "{hidMiBon}",
+                  "Pagpapahayag (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丁 ang day stem, ang Matatag na yaman ay 庚 at ang Awtoridad ay 壬."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 庚. Ang 庚 ay hindi taglay ng 未."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 壬. Ang 壬 ay hindi taglay ng 未."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丙午](/guide/pillar-byeong-o) at ang susunod ay [戊申](/guide/pillar-mu-sin)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Apoy (丁)](/guide/stem-jeong) at [未 (Tupa)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-sin": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 戊申",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 戊申 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 戊申 ay ang ika-45 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊申, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 45."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 申 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 戊, ang mga stem na hawak ng 申 ay ang mga sumusunod. Ang pangunahing stem (庚) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 戊申",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 戊"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidSinYeo}",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "gitna (中氣)",
+                  "{hidSinJung}",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "pangunahin (本氣)",
+                  "{hidSinBon}",
+                  "Pagpapahayag (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 戊 ang day stem, ang Matatag na yaman ay 癸 at ang Awtoridad ay 乙."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 癸. Ang 癸 ay hindi taglay ng 申."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 乙. Ang 乙 ay hindi taglay ng 申."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丁未](/guide/pillar-jeong-mi) at ang susunod ay [己酉](/guide/pillar-gi-yu)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Lupa (戊)](/guide/stem-mu) at [申 (Unggoy)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-yu": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 己酉",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 己酉 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 己酉 ay ang ika-46 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己酉, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 46."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 酉 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 己, ang mga stem na hawak ng 酉 ay ang mga sumusunod. Ang pangunahing stem (辛) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 己酉",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 己"
+              ],
+              "rows": [
+                [
+                  "Yang na Metal (庚)",
+                  "natitira (餘氣)",
+                  "{hidYuYeo}",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "pangunahin (本氣)",
+                  "{hidYuBon}",
+                  "Pagpapahayag (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 己 ang day stem, ang Matatag na yaman ay 壬 at ang Awtoridad ay 甲."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 壬. Ang 壬 ay hindi taglay ng 酉."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 甲. Ang 甲 ay hindi taglay ng 酉."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [戊申](/guide/pillar-mu-sin) at ang susunod ay [庚戌](/guide/pillar-gyeong-sul)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Lupa (己)](/guide/stem-gi) at [酉 (Manok)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-sul": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 庚戌",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 庚戌 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 庚戌 ay ang ika-47 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚戌, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 47."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 戌 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 庚, ang mga stem na hawak ng 戌 ay ang mga sumusunod. Ang pangunahing stem (戊) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 庚戌",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 庚"
+              ],
+              "rows": [
+                [
+                  "Yin na Metal (辛)",
+                  "natitira (餘氣)",
+                  "{hidSulYeo}",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "gitna (中氣)",
+                  "{hidSulJung}",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "pangunahin (本氣)",
+                  "{hidSulBon}",
+                  "Di-karaniwang suporta (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 庚 ang day stem, ang Matatag na yaman ay 乙 at ang Awtoridad ay 丁."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 乙. Ang 乙 ay hindi taglay ng 戌."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 丁. Ang 丁 ay taglay ng 戌 (gitna (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [己酉](/guide/pillar-gi-yu) at ang susunod ay [辛亥](/guide/pillar-sin-hae)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Metal (庚)](/guide/stem-gyeong) at [戌 (Aso)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-hae": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 辛亥",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 辛亥 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 辛亥 ay ang ika-48 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛亥, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 48."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 亥 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 辛, ang mga stem na hawak ng 亥 ay ang mga sumusunod. Ang pangunahing stem (壬) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 辛亥",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 辛"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidHaeYeo}",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yang na Kahoy (甲)",
+                  "gitna (中氣)",
+                  "{hidHaeJung}",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "pangunahin (本氣)",
+                  "{hidHaeBon}",
+                  "Manggugulo (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 辛 ang day stem, ang Matatag na yaman ay 甲 at ang Awtoridad ay 丙."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 甲. Ang 甲 ay taglay ng 亥 (gitna (中氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 丙. Ang 丙 ay hindi taglay ng 亥."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [庚戌](/guide/pillar-gyeong-sul) at ang susunod ay [壬子](/guide/pillar-im-ja)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Metal (辛)](/guide/stem-sin) at [亥 (Baboy)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-ja": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 壬子",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 壬子 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 壬子 ay ang ika-49 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬子, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 子 (ang Daga). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 49."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 子 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 壬, ang mga stem na hawak ng 子 ay ang mga sumusunod. Ang pangunahing stem (癸) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 壬子",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 壬"
+              ],
+              "rows": [
+                [
+                  "Yang na Tubig (壬)",
+                  "natitira (餘氣)",
+                  "{hidJaYeo}",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "pangunahin (本氣)",
+                  "{hidJaBon}",
+                  "Karibal (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 壬 ang day stem, ang Matatag na yaman ay 丁 at ang Awtoridad ay 己."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 丁. Ang 丁 ay hindi taglay ng 子."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 己. Ang 己 ay hindi taglay ng 子."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [辛亥](/guide/pillar-sin-hae) at ang susunod ay [癸丑](/guide/pillar-gye-chuk)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Tubig (壬)](/guide/stem-im) at [子 (Daga)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-chuk": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 癸丑",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 癸丑 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 癸丑 ay ang ika-50 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸丑, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 丑 (ang Baka). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 50."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 丑 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 癸, ang mga stem na hawak ng 丑 ay ang mga sumusunod. Ang pangunahing stem (己) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 癸丑",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 癸"
+              ],
+              "rows": [
+                [
+                  "Yin na Tubig (癸)",
+                  "natitira (餘氣)",
+                  "{hidChukYeo}",
+                  "Kasama (比肩)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "gitna (中氣)",
+                  "{hidChukJung}",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "pangunahin (本氣)",
+                  "{hidChukBon}",
+                  "Humahamon (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 癸 ang day stem, ang Matatag na yaman ay 丙 at ang Awtoridad ay 戊."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 丙. Ang 丙 ay hindi taglay ng 丑."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 戊. Ang 戊 ay hindi taglay ng 丑."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [壬子](/guide/pillar-im-ja) at ang susunod ay [甲寅](/guide/pillar-gap-in)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Tubig (癸)](/guide/stem-gye) at [丑 (Baka)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-in": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 甲寅",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 甲寅 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 甲寅 ay ang ika-51 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 甲寅, ang day stem ay 甲 (Kahoy, Yang) at ang day branch ay 寅 (ang Tigre). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 51."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 甲 na \"Yang na Kahoy (甲)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Matayog na punong tuwid ang tubo. Kapag naitakda na ang direksyon, hindi na ito nag-aalangan, at mas pipiliing magtiis kaysa yumuko.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 寅 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 甲, ang mga stem na hawak ng 寅 ay ang mga sumusunod. Ang pangunahing stem (甲) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 甲寅",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 甲"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidInYeo}",
+                  "Biglaang yaman (偏財)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "gitna (中氣)",
+                  "{hidInJung}",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Kahoy (甲)",
+                  "pangunahin (本氣)",
+                  "{hidInBon}",
+                  "Kasama (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 甲 ang day stem, ang Matatag na yaman ay 己 at ang Awtoridad ay 辛."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 己. Ang 己 ay hindi taglay ng 寅."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 辛. Ang 辛 ay hindi taglay ng 寅."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [癸丑](/guide/pillar-gye-chuk) at ang susunod ay [乙卯](/guide/pillar-eul-myo)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Kahoy (甲)](/guide/stem-gap) at [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-myo": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 乙卯",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 乙卯 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 乙卯 ay ang ika-52 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 乙卯, ang day stem ay 乙 (Kahoy, Yin) at ang day branch ay 卯 (ang Kuneho). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 52."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 乙 na \"Yin na Kahoy (乙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Baging — malambot na damo. Yumuyuko ito ayon sa sitwasyon para makasulong, at hindi napipigtas.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 卯 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 乙, ang mga stem na hawak ng 卯 ay ang mga sumusunod. Ang pangunahing stem (乙) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 乙卯",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 乙"
+              ],
+              "rows": [
+                [
+                  "Yang na Kahoy (甲)",
+                  "natitira (餘氣)",
+                  "{hidMyoYeo}",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "pangunahin (本氣)",
+                  "{hidMyoBon}",
+                  "Kasama (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 乙 ang day stem, ang Matatag na yaman ay 戊 at ang Awtoridad ay 庚."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 戊. Ang 戊 ay hindi taglay ng 卯."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 庚. Ang 庚 ay hindi taglay ng 卯."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [甲寅](/guide/pillar-gap-in) at ang susunod ay [丙辰](/guide/pillar-byeong-jin)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Kahoy (乙)](/guide/stem-eul) at [卯 (Kuneho)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-jin": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 丙辰",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 丙辰 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丙辰 ay ang ika-53 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丙辰, ang day stem ay 丙 (Apoy, Yang) at ang day branch ay 辰 (ang Dragon). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 53."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丙 na \"Yang na Apoy (丙)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Araw sa tanghaling tapat. Hayag ang damdamin, lumiliwanag ang paligid, at natural lang ang pag-una sa harapan.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 辰 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 丙, ang mga stem na hawak ng 辰 ay ang mga sumusunod. Ang pangunahing stem (戊) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 丙辰",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 丙"
+              ],
+              "rows": [
+                [
+                  "Yin na Kahoy (乙)",
+                  "natitira (餘氣)",
+                  "{hidJinYeo}",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Tubig (癸)",
+                  "gitna (中氣)",
+                  "{hidJinJung}",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "pangunahin (本氣)",
+                  "{hidJinBon}",
+                  "Pagpapahayag (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丙 ang day stem, ang Matatag na yaman ay 辛 at ang Awtoridad ay 癸."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 辛. Ang 辛 ay hindi taglay ng 辰."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 癸. Ang 癸 ay taglay ng 辰 (gitna (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [乙卯](/guide/pillar-eul-myo) at ang susunod ay [丁巳](/guide/pillar-jeong-sa)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Apoy (丙)](/guide/stem-byeong) at [辰 (Dragon)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-sa": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 丁巳",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 丁巳 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 丁巳 ay ang ika-54 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 丁巳, ang day stem ay 丁 (Apoy, Yin) at ang day branch ay 巳 (ang Ahas). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 54."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 丁 na \"Yin na Apoy (丁)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Liwanag ng kandila. Tahimik itong nagniningas at matagal, at unang nagpapainit sa mga pinakamalapit.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 巳 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 丁, ang mga stem na hawak ng 巳 ay ang mga sumusunod. Ang pangunahing stem (丙) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 丁巳",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 丁"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidSaYeo}",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "gitna (中氣)",
+                  "{hidSaJung}",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Apoy (丙)",
+                  "pangunahin (本氣)",
+                  "{hidSaBon}",
+                  "Karibal (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 丁 ang day stem, ang Matatag na yaman ay 庚 at ang Awtoridad ay 壬."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 庚. Ang 庚 ay taglay ng 巳 (gitna (中氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 壬. Ang 壬 ay hindi taglay ng 巳."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丙辰](/guide/pillar-byeong-jin) at ang susunod ay [戊午](/guide/pillar-mu-o)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Apoy (丁)](/guide/stem-jeong) at [巳 (Ahas)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-o": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 戊午",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 戊午 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 戊午 ay ang ika-55 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 戊午, ang day stem ay 戊 (Lupa, Yang) at ang day branch ay 午 (ang Kabayo). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 55."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 戊 na \"Yang na Lupa (戊)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Malawak na lupa at bundok. Mahirap yanigin at madaling sandalan, bagaman mabagal magbago ng pasyang naitakda na.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 午 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 戊, ang mga stem na hawak ng 午 ay ang mga sumusunod. Ang pangunahing stem (丁) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 戊午",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 戊"
+              ],
+              "rows": [
+                [
+                  "Yang na Apoy (丙)",
+                  "natitira (餘氣)",
+                  "{hidOYeo}",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "gitna (中氣)",
+                  "{hidOJung}",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "pangunahin (本氣)",
+                  "{hidOBon}",
+                  "Pag-aaruga (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 戊 ang day stem, ang Matatag na yaman ay 癸 at ang Awtoridad ay 乙."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 癸. Ang 癸 ay hindi taglay ng 午."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 乙. Ang 乙 ay hindi taglay ng 午."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [丁巳](/guide/pillar-jeong-sa) at ang susunod ay [己未](/guide/pillar-gi-mi)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Lupa (戊)](/guide/stem-mu) at [午 (Kabayo)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-mi": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 己未",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 己未 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 己未 ay ang ika-56 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 己未, ang day stem ay 己 (Lupa, Yin) at ang day branch ay 未 (ang Tupa). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 56."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 己 na \"Yin na Lupa (己)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Lupa ng bukid. Tinatanggap nito ang anumang dumating at pinalalago, mas nag-aaruga kaysa nagpapakita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 未 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 己, ang mga stem na hawak ng 未 ay ang mga sumusunod. Ang pangunahing stem (己) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 己未",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 己"
+              ],
+              "rows": [
+                [
+                  "Yin na Apoy (丁)",
+                  "natitira (餘氣)",
+                  "{hidMiYeo}",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yin na Kahoy (乙)",
+                  "gitna (中氣)",
+                  "{hidMiJung}",
+                  "Humahamon (偏官)"
+                ],
+                [
+                  "Yin na Lupa (己)",
+                  "pangunahin (本氣)",
+                  "{hidMiBon}",
+                  "Kasama (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 己 ang day stem, ang Matatag na yaman ay 壬 at ang Awtoridad ay 甲."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 壬. Ang 壬 ay hindi taglay ng 未."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 甲. Ang 甲 ay hindi taglay ng 未."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [戊午](/guide/pillar-mu-o) at ang susunod ay [庚申](/guide/pillar-gyeong-sin)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Lupa (己)](/guide/stem-gi) at [未 (Tupa)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-sin": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 庚申",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 庚申 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 庚申 ay ang ika-57 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 庚申, ang day stem ay 庚 (Metal, Yang) at ang day branch ay 申 (ang Unggoy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 57."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 庚 na \"Yang na Metal (庚)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Bakal na hindi pa hinuhubog. Matalas magpasya at malinaw ang hangganan, kaunti ang pasensya sa bagay na nakabitin.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 申 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 庚, ang mga stem na hawak ng 申 ay ang mga sumusunod. Ang pangunahing stem (庚) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 庚申",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 庚"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidSinYeo}",
+                  "Di-karaniwang suporta (偏印)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "gitna (中氣)",
+                  "{hidSinJung}",
+                  "Pagpapahayag (食神)"
+                ],
+                [
+                  "Yang na Metal (庚)",
+                  "pangunahin (本氣)",
+                  "{hidSinBon}",
+                  "Kasama (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 庚 ang day stem, ang Matatag na yaman ay 乙 at ang Awtoridad ay 丁."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 乙. Ang 乙 ay hindi taglay ng 申."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 丁. Ang 丁 ay hindi taglay ng 申."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [己未](/guide/pillar-gi-mi) at ang susunod ay [辛酉](/guide/pillar-sin-yu)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Metal (庚)](/guide/stem-gyeong) at [申 (Unggoy)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-yu": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 辛酉",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 辛酉 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 辛酉 ay ang ika-58 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 辛酉, ang day stem ay 辛 (Metal, Yin) at ang day branch ay 酉 (ang Manok). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 58."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 辛 na \"Yin na Metal (辛)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hasang hiyas. Pinong panlasa at mataas na pamantayan; mahirap palampasin ang burarang gawa.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 酉 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 辛, ang mga stem na hawak ng 酉 ay ang mga sumusunod. Ang pangunahing stem (辛) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 辛酉",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 辛"
+              ],
+              "rows": [
+                [
+                  "Yang na Metal (庚)",
+                  "natitira (餘氣)",
+                  "{hidYuYeo}",
+                  "Karibal (劫財)"
+                ],
+                [
+                  "Yin na Metal (辛)",
+                  "pangunahin (本氣)",
+                  "{hidYuBon}",
+                  "Kasama (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 辛 ang day stem, ang Matatag na yaman ay 甲 at ang Awtoridad ay 丙."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 甲. Ang 甲 ay hindi taglay ng 酉."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 丙. Ang 丙 ay hindi taglay ng 酉."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [庚申](/guide/pillar-gyeong-sin) at ang susunod ay [壬戌](/guide/pillar-im-sul)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Metal (辛)](/guide/stem-sin) at [酉 (Manok)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-sul": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 壬戌",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 壬戌 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 壬戌 ay ang ika-59 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 壬戌, ang day stem ay 壬 (Tubig, Yang) at ang day branch ay 戌 (ang Aso). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 59."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 壬 na \"Yang na Tubig (壬)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Ilog at dagat. Malawak ang pananaw, at may mata kung saan patungo ang agos.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 戌 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 壬, ang mga stem na hawak ng 戌 ay ang mga sumusunod. Ang pangunahing stem (戊) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 壬戌",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 壬"
+              ],
+              "rows": [
+                [
+                  "Yin na Metal (辛)",
+                  "natitira (餘氣)",
+                  "{hidSulYeo}",
+                  "Pag-aaruga (正印)"
+                ],
+                [
+                  "Yin na Apoy (丁)",
+                  "gitna (中氣)",
+                  "{hidSulJung}",
+                  "Matatag na yaman (正財)"
+                ],
+                [
+                  "Yang na Lupa (戊)",
+                  "pangunahin (本氣)",
+                  "{hidSulBon}",
+                  "Humahamon (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 壬 ang day stem, ang Matatag na yaman ay 丁 at ang Awtoridad ay 己."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 丁. Ang 丁 ay taglay ng 戌 (gitna (中氣))."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 己. Ang 己 ay hindi taglay ng 戌."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [辛酉](/guide/pillar-sin-yu) at ang susunod ay [癸亥](/guide/pillar-gye-hae)."
+          },
+          {
+            "p": "Binubuo ito ng [Yang na Tubig (壬)](/guide/stem-im) at [戌 (Aso)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-hae": {
+    "eyebrow": "Mga day pillar",
+    "title": "Ang Day Pillar na 癸亥",
+    "summary": "Kung paano binabasa ng Saju-Link ang day pillar na 癸亥 — kung ano ang mga stem na hawak ng day branch sa day stem — inilatag nang eksakto ayon sa mga patakaran ng kalkulasyon nito.",
+    "backLabel": "Batayan ng kalkulasyon",
+    "sections": [
+      {
+        "title": "Ang 癸亥 ay ang ika-60 day pillar sa siklo ng animnapung taon",
+        "blocks": [
+          {
+            "p": "Kapag ang stem-branch ng araw ng kapanganakan ay 癸亥, ang day stem ay 癸 (Tubig, Yin) at ang day branch ay 亥 (ang Baboy). Sa siklo ng animnapung taon, ito ang kombinasyong bilang 60."
+          },
+          {
+            "p": "Tinatawag ng Saju-Link ang taong ang day stem ay 癸 na \"Yin na Tubig (癸)\", at ang linyang ipinapakita ng screen ng resulta ay: \"Hamog at ulan. Tahimik itong tumatagos, at nababasa ang himig bago pa ang salita.\" Walang kinalaman ang linyang ito sa pagbasa sa ibaba o sa mga iskor."
+          }
+        ]
+      },
+      {
+        "title": "Kung ano ang mga stem na hawak ng day branch na 亥 sa day stem",
+        "blocks": [
+          {
+            "p": "Ang day branch ang posisyon ng asawa. Binabasa mula sa day stem na 癸, ang mga stem na hawak ng 亥 ay ang mga sumusunod. Ang pangunahing stem (壬) ang kinatawang enerhiya ng branch."
+          },
+          {
+            "table": {
+              "caption": "Ang hidden stems ng day branch ng 癸亥",
+              "head": [
+                "Hidden stem",
+                "Posisyon",
+                "Bahagi",
+                "Sa day stem na 癸"
+              ],
+              "rows": [
+                [
+                  "Yang na Lupa (戊)",
+                  "natitira (餘氣)",
+                  "{hidHaeYeo}",
+                  "Awtoridad (正官)"
+                ],
+                [
+                  "Yang na Kahoy (甲)",
+                  "gitna (中氣)",
+                  "{hidHaeJung}",
+                  "Manggugulo (傷官)"
+                ],
+                [
+                  "Yang na Tubig (壬)",
+                  "pangunahin (本氣)",
+                  "{hidHaeBon}",
+                  "Karibal (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Ang posisyon ng asawa at ang day pillar na ito",
+        "blocks": [
+          {
+            "p": "Binabasa ng tradisyonal na myeongri ang posisyon ng asawa bilang Matatag na yaman (正財) para sa mga lalaki at Awtoridad (正官) para sa mga babae. Kapag ang 癸 ang day stem, ang Matatag na yaman ay 丙 at ang Awtoridad ay 戊."
+          },
+          {
+            "p": "Para sa mga lalaki, ang posisyon ng asawa (Matatag na yaman) ay 丙. Ang 丙 ay hindi taglay ng 亥."
+          },
+          {
+            "p": "Para sa mga babae, ang posisyon ng asawa (Awtoridad) ay 戊. Ang 戊 ay taglay ng 亥 (natitira (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Ang mga katabing day pillar at ang mga karakter na bumubuo rito",
+        "blocks": [
+          {
+            "p": "Sa siklo ng animnapung taon, ang nakaraang day pillar ay [壬戌](/guide/pillar-im-sul) at ang susunod ay [甲子](/guide/pillar-gap-ja)."
+          },
+          {
+            "p": "Binubuo ito ng [Yin na Tubig (癸)](/guide/stem-gye) at [亥 (Baboy)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ang hindi sinasabi ng gabay na ito",
+        "blocks": [
+          {
+            "ul": [
+              "Hindi nagpapasya ang isang day pillar kung sino ang isang tao o kung ano ang isang relasyon. Binabasa ang saju mula sa ugnayan ng walong karakter ng apat na haligi.",
+              "Ang pagbasa sa posisyon ng asawa ay nagpapatuloy ng isang patakaran ng tradisyonal na myeongri, at kung hindi mo sinabi ang iyong kasarian, hindi binabasa ang posisyong ito."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Ang Sampung Diyos",
     "title": "Ang Sampung Diyos — Ang Sampung Posisyon Sa Loob ng Aking Saju",

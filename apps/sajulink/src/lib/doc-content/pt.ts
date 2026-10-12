@@ -400,6 +400,9563 @@ export const PT_DOCS = {
       }
     ]
   },
+  "guide/stem-gap": {
+    "eyebrow": "Troncos celestes",
+    "title": "Madeira Yang (甲) — Madeira, Yang",
+    "summary": "O elemento e a polaridade do tronco celeste 甲, como ele lê os outros nove troncos (os Dez Deuses) e quais ramos terrestres o contêm — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Madeira Yang (甲) é o primeiro dos dez troncos celestes",
+        "blocks": [
+          {
+            "p": "甲 é o primeiro dos dez troncos celestes. Seu elemento é Madeira e sua polaridade é Yang. O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲."
+          },
+          {
+            "p": "A frase que a tela de resultado mostra para este tronco do dia é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a tabela nem com as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Como ele lê os outros troncos (os Dez Deuses)",
+        "blocks": [
+          {
+            "p": "Com 甲 como tronco do dia, cada um dos dez troncos é lido da seguinte forma. A leitura tem uma direção: é assim que 甲 lê o outro tronco, e, quando o outro tronco lê 甲, pode surgir um nome diferente."
+          },
+          {
+            "table": {
+              "caption": "Os Dez Deuses com Madeira Yang (甲) como tronco do dia",
+              "head": [
+                "Outro tronco",
+                "Elemento e polaridade",
+                "Dez Deuses"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "Amparo (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os troncos lidos como a posição do cônjuge",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 甲 como tronco do dia, a Riqueza estável é 己 e a Autoridade é 辛. Se você não informar o gênero, esta posição não é lida."
+          }
+        ]
+      },
+      {
+        "title": "Os ramos que contêm 甲",
+        "blocks": [
+          {
+            "p": "É aqui que 甲 fica oculto dentro dos ramos terrestres (os troncos ocultos). A proporção é a fração dos trinta dias desse ramo que 甲 ocupa."
+          },
+          {
+            "table": {
+              "caption": "Os ramos que contêm 甲",
+              "head": [
+                "Ramo",
+                "Animal",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Tigre",
+                  "principal (本氣)",
+                  "{hidInBon}"
+                ],
+                [
+                  "卯",
+                  "Coelho",
+                  "residual (餘氣)",
+                  "{hidMyoYeo}"
+                ],
+                [
+                  "亥",
+                  "Porco",
+                  "médio (中氣)",
+                  "{hidHaeJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um tronco não define uma pessoa. Um saju é lido a partir de como seus oito caracteres se relacionam.",
+              "Os Dez Deuses são um julgamento feito a partir do tronco do dia. Os mesmos dois caracteres recebem um nome diferente conforme qual deles é o tronco do dia."
+            ]
+          },
+          {
+            "p": "Os Dez Deuses completos estão no [guia dos Dez Deuses](/guide/ten-gods), e a força dos elementos e o Signo do Mês estão no [guia dos cinco elementos](/guide/five-elements). Outros troncos: [Madeira Yin (乙)](/guide/stem-eul) · [Fogo Yang (丙)](/guide/stem-byeong) · [Fogo Yin (丁)](/guide/stem-jeong) · [Terra Yang (戊)](/guide/stem-mu) · [Terra Yin (己)](/guide/stem-gi) · [Metal Yang (庚)](/guide/stem-gyeong) · [Metal Yin (辛)](/guide/stem-sin) · [Água Yang (壬)](/guide/stem-im) · [Água Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-eul": {
+    "eyebrow": "Troncos celestes",
+    "title": "Madeira Yin (乙) — Madeira, Yin",
+    "summary": "O elemento e a polaridade do tronco celeste 乙, como ele lê os outros nove troncos (os Dez Deuses) e quais ramos terrestres o contêm — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Madeira Yin (乙) é o segundo dos dez troncos celestes",
+        "blocks": [
+          {
+            "p": "乙 é o segundo dos dez troncos celestes. Seu elemento é Madeira e sua polaridade é Yin. O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙."
+          },
+          {
+            "p": "A frase que a tela de resultado mostra para este tronco do dia é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a tabela nem com as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Como ele lê os outros troncos (os Dez Deuses)",
+        "blocks": [
+          {
+            "p": "Com 乙 como tronco do dia, cada um dos dez troncos é lido da seguinte forma. A leitura tem uma direção: é assim que 乙 lê o outro tronco, e, quando o outro tronco lê 乙, pode surgir um nome diferente."
+          },
+          {
+            "table": {
+              "caption": "Os Dez Deuses com Madeira Yin (乙) como tronco do dia",
+              "head": [
+                "Outro tronco",
+                "Elemento e polaridade",
+                "Dez Deuses"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "Apoio não convencional (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os troncos lidos como a posição do cônjuge",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 乙 como tronco do dia, a Riqueza estável é 戊 e a Autoridade é 庚. Se você não informar o gênero, esta posição não é lida."
+          }
+        ]
+      },
+      {
+        "title": "Os ramos que contêm 乙",
+        "blocks": [
+          {
+            "p": "É aqui que 乙 fica oculto dentro dos ramos terrestres (os troncos ocultos). A proporção é a fração dos trinta dias desse ramo que 乙 ocupa."
+          },
+          {
+            "table": {
+              "caption": "Os ramos que contêm 乙",
+              "head": [
+                "Ramo",
+                "Animal",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "卯",
+                  "Coelho",
+                  "principal (本氣)",
+                  "{hidMyoBon}"
+                ],
+                [
+                  "辰",
+                  "Dragão",
+                  "residual (餘氣)",
+                  "{hidJinYeo}"
+                ],
+                [
+                  "未",
+                  "Ovelha",
+                  "médio (中氣)",
+                  "{hidMiJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um tronco não define uma pessoa. Um saju é lido a partir de como seus oito caracteres se relacionam.",
+              "Os Dez Deuses são um julgamento feito a partir do tronco do dia. Os mesmos dois caracteres recebem um nome diferente conforme qual deles é o tronco do dia."
+            ]
+          },
+          {
+            "p": "Os Dez Deuses completos estão no [guia dos Dez Deuses](/guide/ten-gods), e a força dos elementos e o Signo do Mês estão no [guia dos cinco elementos](/guide/five-elements). Outros troncos: [Madeira Yang (甲)](/guide/stem-gap) · [Fogo Yang (丙)](/guide/stem-byeong) · [Fogo Yin (丁)](/guide/stem-jeong) · [Terra Yang (戊)](/guide/stem-mu) · [Terra Yin (己)](/guide/stem-gi) · [Metal Yang (庚)](/guide/stem-gyeong) · [Metal Yin (辛)](/guide/stem-sin) · [Água Yang (壬)](/guide/stem-im) · [Água Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-byeong": {
+    "eyebrow": "Troncos celestes",
+    "title": "Fogo Yang (丙) — Fogo, Yang",
+    "summary": "O elemento e a polaridade do tronco celeste 丙, como ele lê os outros nove troncos (os Dez Deuses) e quais ramos terrestres o contêm — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Fogo Yang (丙) é o terceiro dos dez troncos celestes",
+        "blocks": [
+          {
+            "p": "丙 é o terceiro dos dez troncos celestes. Seu elemento é Fogo e sua polaridade é Yang. O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙."
+          },
+          {
+            "p": "A frase que a tela de resultado mostra para este tronco do dia é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a tabela nem com as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Como ele lê os outros troncos (os Dez Deuses)",
+        "blocks": [
+          {
+            "p": "Com 丙 como tronco do dia, cada um dos dez troncos é lido da seguinte forma. A leitura tem uma direção: é assim que 丙 lê o outro tronco, e, quando o outro tronco lê 丙, pode surgir um nome diferente."
+          },
+          {
+            "table": {
+              "caption": "Os Dez Deuses com Fogo Yang (丙) como tronco do dia",
+              "head": [
+                "Outro tronco",
+                "Elemento e polaridade",
+                "Dez Deuses"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "Autoridade (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os troncos lidos como a posição do cônjuge",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丙 como tronco do dia, a Riqueza estável é 辛 e a Autoridade é 癸. Se você não informar o gênero, esta posição não é lida."
+          }
+        ]
+      },
+      {
+        "title": "Os ramos que contêm 丙",
+        "blocks": [
+          {
+            "p": "É aqui que 丙 fica oculto dentro dos ramos terrestres (os troncos ocultos). A proporção é a fração dos trinta dias desse ramo que 丙 ocupa."
+          },
+          {
+            "table": {
+              "caption": "Os ramos que contêm 丙",
+              "head": [
+                "Ramo",
+                "Animal",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Tigre",
+                  "médio (中氣)",
+                  "{hidInJung}"
+                ],
+                [
+                  "巳",
+                  "Serpente",
+                  "principal (本氣)",
+                  "{hidSaBon}"
+                ],
+                [
+                  "午",
+                  "Cavalo",
+                  "residual (餘氣)",
+                  "{hidOYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um tronco não define uma pessoa. Um saju é lido a partir de como seus oito caracteres se relacionam.",
+              "Os Dez Deuses são um julgamento feito a partir do tronco do dia. Os mesmos dois caracteres recebem um nome diferente conforme qual deles é o tronco do dia."
+            ]
+          },
+          {
+            "p": "Os Dez Deuses completos estão no [guia dos Dez Deuses](/guide/ten-gods), e a força dos elementos e o Signo do Mês estão no [guia dos cinco elementos](/guide/five-elements). Outros troncos: [Madeira Yang (甲)](/guide/stem-gap) · [Madeira Yin (乙)](/guide/stem-eul) · [Fogo Yin (丁)](/guide/stem-jeong) · [Terra Yang (戊)](/guide/stem-mu) · [Terra Yin (己)](/guide/stem-gi) · [Metal Yang (庚)](/guide/stem-gyeong) · [Metal Yin (辛)](/guide/stem-sin) · [Água Yang (壬)](/guide/stem-im) · [Água Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-jeong": {
+    "eyebrow": "Troncos celestes",
+    "title": "Fogo Yin (丁) — Fogo, Yin",
+    "summary": "O elemento e a polaridade do tronco celeste 丁, como ele lê os outros nove troncos (os Dez Deuses) e quais ramos terrestres o contêm — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Fogo Yin (丁) é o quarto dos dez troncos celestes",
+        "blocks": [
+          {
+            "p": "丁 é o quarto dos dez troncos celestes. Seu elemento é Fogo e sua polaridade é Yin. O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁."
+          },
+          {
+            "p": "A frase que a tela de resultado mostra para este tronco do dia é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a tabela nem com as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Como ele lê os outros troncos (os Dez Deuses)",
+        "blocks": [
+          {
+            "p": "Com 丁 como tronco do dia, cada um dos dez troncos é lido da seguinte forma. A leitura tem uma direção: é assim que 丁 lê o outro tronco, e, quando o outro tronco lê 丁, pode surgir um nome diferente."
+          },
+          {
+            "table": {
+              "caption": "Os Dez Deuses com Fogo Yin (丁) como tronco do dia",
+              "head": [
+                "Outro tronco",
+                "Elemento e polaridade",
+                "Dez Deuses"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "Desafiante (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os troncos lidos como a posição do cônjuge",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丁 como tronco do dia, a Riqueza estável é 庚 e a Autoridade é 壬. Se você não informar o gênero, esta posição não é lida."
+          }
+        ]
+      },
+      {
+        "title": "Os ramos que contêm 丁",
+        "blocks": [
+          {
+            "p": "É aqui que 丁 fica oculto dentro dos ramos terrestres (os troncos ocultos). A proporção é a fração dos trinta dias desse ramo que 丁 ocupa."
+          },
+          {
+            "table": {
+              "caption": "Os ramos que contêm 丁",
+              "head": [
+                "Ramo",
+                "Animal",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "午",
+                  "Cavalo",
+                  "principal (本氣)",
+                  "{hidOBon}"
+                ],
+                [
+                  "未",
+                  "Ovelha",
+                  "residual (餘氣)",
+                  "{hidMiYeo}"
+                ],
+                [
+                  "戌",
+                  "Cão",
+                  "médio (中氣)",
+                  "{hidSulJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um tronco não define uma pessoa. Um saju é lido a partir de como seus oito caracteres se relacionam.",
+              "Os Dez Deuses são um julgamento feito a partir do tronco do dia. Os mesmos dois caracteres recebem um nome diferente conforme qual deles é o tronco do dia."
+            ]
+          },
+          {
+            "p": "Os Dez Deuses completos estão no [guia dos Dez Deuses](/guide/ten-gods), e a força dos elementos e o Signo do Mês estão no [guia dos cinco elementos](/guide/five-elements). Outros troncos: [Madeira Yang (甲)](/guide/stem-gap) · [Madeira Yin (乙)](/guide/stem-eul) · [Fogo Yang (丙)](/guide/stem-byeong) · [Terra Yang (戊)](/guide/stem-mu) · [Terra Yin (己)](/guide/stem-gi) · [Metal Yang (庚)](/guide/stem-gyeong) · [Metal Yin (辛)](/guide/stem-sin) · [Água Yang (壬)](/guide/stem-im) · [Água Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-mu": {
+    "eyebrow": "Troncos celestes",
+    "title": "Terra Yang (戊) — Terra, Yang",
+    "summary": "O elemento e a polaridade do tronco celeste 戊, como ele lê os outros nove troncos (os Dez Deuses) e quais ramos terrestres o contêm — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Terra Yang (戊) é o quinto dos dez troncos celestes",
+        "blocks": [
+          {
+            "p": "戊 é o quinto dos dez troncos celestes. Seu elemento é Terra e sua polaridade é Yang. O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊."
+          },
+          {
+            "p": "A frase que a tela de resultado mostra para este tronco do dia é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a tabela nem com as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Como ele lê os outros troncos (os Dez Deuses)",
+        "blocks": [
+          {
+            "p": "Com 戊 como tronco do dia, cada um dos dez troncos é lido da seguinte forma. A leitura tem uma direção: é assim que 戊 lê o outro tronco, e, quando o outro tronco lê 戊, pode surgir um nome diferente."
+          },
+          {
+            "table": {
+              "caption": "Os Dez Deuses com Terra Yang (戊) como tronco do dia",
+              "head": [
+                "Outro tronco",
+                "Elemento e polaridade",
+                "Dez Deuses"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "Riqueza estável (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os troncos lidos como a posição do cônjuge",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 戊 como tronco do dia, a Riqueza estável é 癸 e a Autoridade é 乙. Se você não informar o gênero, esta posição não é lida."
+          }
+        ]
+      },
+      {
+        "title": "Os ramos que contêm 戊",
+        "blocks": [
+          {
+            "p": "É aqui que 戊 fica oculto dentro dos ramos terrestres (os troncos ocultos). A proporção é a fração dos trinta dias desse ramo que 戊 ocupa."
+          },
+          {
+            "table": {
+              "caption": "Os ramos que contêm 戊",
+              "head": [
+                "Ramo",
+                "Animal",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Tigre",
+                  "residual (餘氣)",
+                  "{hidInYeo}"
+                ],
+                [
+                  "辰",
+                  "Dragão",
+                  "principal (本氣)",
+                  "{hidJinBon}"
+                ],
+                [
+                  "巳",
+                  "Serpente",
+                  "residual (餘氣)",
+                  "{hidSaYeo}"
+                ],
+                [
+                  "申",
+                  "Macaco",
+                  "residual (餘氣)",
+                  "{hidSinYeo}"
+                ],
+                [
+                  "戌",
+                  "Cão",
+                  "principal (本氣)",
+                  "{hidSulBon}"
+                ],
+                [
+                  "亥",
+                  "Porco",
+                  "residual (餘氣)",
+                  "{hidHaeYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um tronco não define uma pessoa. Um saju é lido a partir de como seus oito caracteres se relacionam.",
+              "Os Dez Deuses são um julgamento feito a partir do tronco do dia. Os mesmos dois caracteres recebem um nome diferente conforme qual deles é o tronco do dia."
+            ]
+          },
+          {
+            "p": "Os Dez Deuses completos estão no [guia dos Dez Deuses](/guide/ten-gods), e a força dos elementos e o Signo do Mês estão no [guia dos cinco elementos](/guide/five-elements). Outros troncos: [Madeira Yang (甲)](/guide/stem-gap) · [Madeira Yin (乙)](/guide/stem-eul) · [Fogo Yang (丙)](/guide/stem-byeong) · [Fogo Yin (丁)](/guide/stem-jeong) · [Terra Yin (己)](/guide/stem-gi) · [Metal Yang (庚)](/guide/stem-gyeong) · [Metal Yin (辛)](/guide/stem-sin) · [Água Yang (壬)](/guide/stem-im) · [Água Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gi": {
+    "eyebrow": "Troncos celestes",
+    "title": "Terra Yin (己) — Terra, Yin",
+    "summary": "O elemento e a polaridade do tronco celeste 己, como ele lê os outros nove troncos (os Dez Deuses) e quais ramos terrestres o contêm — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Terra Yin (己) é o sexto dos dez troncos celestes",
+        "blocks": [
+          {
+            "p": "己 é o sexto dos dez troncos celestes. Seu elemento é Terra e sua polaridade é Yin. O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己."
+          },
+          {
+            "p": "A frase que a tela de resultado mostra para este tronco do dia é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a tabela nem com as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Como ele lê os outros troncos (os Dez Deuses)",
+        "blocks": [
+          {
+            "p": "Com 己 como tronco do dia, cada um dos dez troncos é lido da seguinte forma. A leitura tem uma direção: é assim que 己 lê o outro tronco, e, quando o outro tronco lê 己, pode surgir um nome diferente."
+          },
+          {
+            "table": {
+              "caption": "Os Dez Deuses com Terra Yin (己) como tronco do dia",
+              "head": [
+                "Outro tronco",
+                "Elemento e polaridade",
+                "Dez Deuses"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "Fortuna imprevista (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os troncos lidos como a posição do cônjuge",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 己 como tronco do dia, a Riqueza estável é 壬 e a Autoridade é 甲. Se você não informar o gênero, esta posição não é lida."
+          }
+        ]
+      },
+      {
+        "title": "Os ramos que contêm 己",
+        "blocks": [
+          {
+            "p": "É aqui que 己 fica oculto dentro dos ramos terrestres (os troncos ocultos). A proporção é a fração dos trinta dias desse ramo que 己 ocupa."
+          },
+          {
+            "table": {
+              "caption": "Os ramos que contêm 己",
+              "head": [
+                "Ramo",
+                "Animal",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "丑",
+                  "Boi",
+                  "principal (本氣)",
+                  "{hidChukBon}"
+                ],
+                [
+                  "午",
+                  "Cavalo",
+                  "médio (中氣)",
+                  "{hidOJung}"
+                ],
+                [
+                  "未",
+                  "Ovelha",
+                  "principal (本氣)",
+                  "{hidMiBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um tronco não define uma pessoa. Um saju é lido a partir de como seus oito caracteres se relacionam.",
+              "Os Dez Deuses são um julgamento feito a partir do tronco do dia. Os mesmos dois caracteres recebem um nome diferente conforme qual deles é o tronco do dia."
+            ]
+          },
+          {
+            "p": "Os Dez Deuses completos estão no [guia dos Dez Deuses](/guide/ten-gods), e a força dos elementos e o Signo do Mês estão no [guia dos cinco elementos](/guide/five-elements). Outros troncos: [Madeira Yang (甲)](/guide/stem-gap) · [Madeira Yin (乙)](/guide/stem-eul) · [Fogo Yang (丙)](/guide/stem-byeong) · [Fogo Yin (丁)](/guide/stem-jeong) · [Terra Yang (戊)](/guide/stem-mu) · [Metal Yang (庚)](/guide/stem-gyeong) · [Metal Yin (辛)](/guide/stem-sin) · [Água Yang (壬)](/guide/stem-im) · [Água Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gyeong": {
+    "eyebrow": "Troncos celestes",
+    "title": "Metal Yang (庚) — Metal, Yang",
+    "summary": "O elemento e a polaridade do tronco celeste 庚, como ele lê os outros nove troncos (os Dez Deuses) e quais ramos terrestres o contêm — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Metal Yang (庚) é o sétimo dos dez troncos celestes",
+        "blocks": [
+          {
+            "p": "庚 é o sétimo dos dez troncos celestes. Seu elemento é Metal e sua polaridade é Yang. O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚."
+          },
+          {
+            "p": "A frase que a tela de resultado mostra para este tronco do dia é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a tabela nem com as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Como ele lê os outros troncos (os Dez Deuses)",
+        "blocks": [
+          {
+            "p": "Com 庚 como tronco do dia, cada um dos dez troncos é lido da seguinte forma. A leitura tem uma direção: é assim que 庚 lê o outro tronco, e, quando o outro tronco lê 庚, pode surgir um nome diferente."
+          },
+          {
+            "table": {
+              "caption": "Os Dez Deuses com Metal Yang (庚) como tronco do dia",
+              "head": [
+                "Outro tronco",
+                "Elemento e polaridade",
+                "Dez Deuses"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "Perturbador (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os troncos lidos como a posição do cônjuge",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 庚 como tronco do dia, a Riqueza estável é 乙 e a Autoridade é 丁. Se você não informar o gênero, esta posição não é lida."
+          }
+        ]
+      },
+      {
+        "title": "Os ramos que contêm 庚",
+        "blocks": [
+          {
+            "p": "É aqui que 庚 fica oculto dentro dos ramos terrestres (os troncos ocultos). A proporção é a fração dos trinta dias desse ramo que 庚 ocupa."
+          },
+          {
+            "table": {
+              "caption": "Os ramos que contêm 庚",
+              "head": [
+                "Ramo",
+                "Animal",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "巳",
+                  "Serpente",
+                  "médio (中氣)",
+                  "{hidSaJung}"
+                ],
+                [
+                  "申",
+                  "Macaco",
+                  "principal (本氣)",
+                  "{hidSinBon}"
+                ],
+                [
+                  "酉",
+                  "Galo",
+                  "residual (餘氣)",
+                  "{hidYuYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um tronco não define uma pessoa. Um saju é lido a partir de como seus oito caracteres se relacionam.",
+              "Os Dez Deuses são um julgamento feito a partir do tronco do dia. Os mesmos dois caracteres recebem um nome diferente conforme qual deles é o tronco do dia."
+            ]
+          },
+          {
+            "p": "Os Dez Deuses completos estão no [guia dos Dez Deuses](/guide/ten-gods), e a força dos elementos e o Signo do Mês estão no [guia dos cinco elementos](/guide/five-elements). Outros troncos: [Madeira Yang (甲)](/guide/stem-gap) · [Madeira Yin (乙)](/guide/stem-eul) · [Fogo Yang (丙)](/guide/stem-byeong) · [Fogo Yin (丁)](/guide/stem-jeong) · [Terra Yang (戊)](/guide/stem-mu) · [Terra Yin (己)](/guide/stem-gi) · [Metal Yin (辛)](/guide/stem-sin) · [Água Yang (壬)](/guide/stem-im) · [Água Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-sin": {
+    "eyebrow": "Troncos celestes",
+    "title": "Metal Yin (辛) — Metal, Yin",
+    "summary": "O elemento e a polaridade do tronco celeste 辛, como ele lê os outros nove troncos (os Dez Deuses) e quais ramos terrestres o contêm — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Metal Yin (辛) é o oitavo dos dez troncos celestes",
+        "blocks": [
+          {
+            "p": "辛 é o oitavo dos dez troncos celestes. Seu elemento é Metal e sua polaridade é Yin. O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛."
+          },
+          {
+            "p": "A frase que a tela de resultado mostra para este tronco do dia é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a tabela nem com as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Como ele lê os outros troncos (os Dez Deuses)",
+        "blocks": [
+          {
+            "p": "Com 辛 como tronco do dia, cada um dos dez troncos é lido da seguinte forma. A leitura tem uma direção: é assim que 辛 lê o outro tronco, e, quando o outro tronco lê 辛, pode surgir um nome diferente."
+          },
+          {
+            "table": {
+              "caption": "Os Dez Deuses com Metal Yin (辛) como tronco do dia",
+              "head": [
+                "Outro tronco",
+                "Elemento e polaridade",
+                "Dez Deuses"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "Expressão (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os troncos lidos como a posição do cônjuge",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 辛 como tronco do dia, a Riqueza estável é 甲 e a Autoridade é 丙. Se você não informar o gênero, esta posição não é lida."
+          }
+        ]
+      },
+      {
+        "title": "Os ramos que contêm 辛",
+        "blocks": [
+          {
+            "p": "É aqui que 辛 fica oculto dentro dos ramos terrestres (os troncos ocultos). A proporção é a fração dos trinta dias desse ramo que 辛 ocupa."
+          },
+          {
+            "table": {
+              "caption": "Os ramos que contêm 辛",
+              "head": [
+                "Ramo",
+                "Animal",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "丑",
+                  "Boi",
+                  "médio (中氣)",
+                  "{hidChukJung}"
+                ],
+                [
+                  "酉",
+                  "Galo",
+                  "principal (本氣)",
+                  "{hidYuBon}"
+                ],
+                [
+                  "戌",
+                  "Cão",
+                  "residual (餘氣)",
+                  "{hidSulYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um tronco não define uma pessoa. Um saju é lido a partir de como seus oito caracteres se relacionam.",
+              "Os Dez Deuses são um julgamento feito a partir do tronco do dia. Os mesmos dois caracteres recebem um nome diferente conforme qual deles é o tronco do dia."
+            ]
+          },
+          {
+            "p": "Os Dez Deuses completos estão no [guia dos Dez Deuses](/guide/ten-gods), e a força dos elementos e o Signo do Mês estão no [guia dos cinco elementos](/guide/five-elements). Outros troncos: [Madeira Yang (甲)](/guide/stem-gap) · [Madeira Yin (乙)](/guide/stem-eul) · [Fogo Yang (丙)](/guide/stem-byeong) · [Fogo Yin (丁)](/guide/stem-jeong) · [Terra Yang (戊)](/guide/stem-mu) · [Terra Yin (己)](/guide/stem-gi) · [Metal Yang (庚)](/guide/stem-gyeong) · [Água Yang (壬)](/guide/stem-im) · [Água Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-im": {
+    "eyebrow": "Troncos celestes",
+    "title": "Água Yang (壬) — Água, Yang",
+    "summary": "O elemento e a polaridade do tronco celeste 壬, como ele lê os outros nove troncos (os Dez Deuses) e quais ramos terrestres o contêm — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Água Yang (壬) é o nono dos dez troncos celestes",
+        "blocks": [
+          {
+            "p": "壬 é o nono dos dez troncos celestes. Seu elemento é Água e sua polaridade é Yang. O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬."
+          },
+          {
+            "p": "A frase que a tela de resultado mostra para este tronco do dia é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a tabela nem com as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Como ele lê os outros troncos (os Dez Deuses)",
+        "blocks": [
+          {
+            "p": "Com 壬 como tronco do dia, cada um dos dez troncos é lido da seguinte forma. A leitura tem uma direção: é assim que 壬 lê o outro tronco, e, quando o outro tronco lê 壬, pode surgir um nome diferente."
+          },
+          {
+            "table": {
+              "caption": "Os Dez Deuses com Água Yang (壬) como tronco do dia",
+              "head": [
+                "Outro tronco",
+                "Elemento e polaridade",
+                "Dez Deuses"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "Rival (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os troncos lidos como a posição do cônjuge",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 壬 como tronco do dia, a Riqueza estável é 丁 e a Autoridade é 己. Se você não informar o gênero, esta posição não é lida."
+          }
+        ]
+      },
+      {
+        "title": "Os ramos que contêm 壬",
+        "blocks": [
+          {
+            "p": "É aqui que 壬 fica oculto dentro dos ramos terrestres (os troncos ocultos). A proporção é a fração dos trinta dias desse ramo que 壬 ocupa."
+          },
+          {
+            "table": {
+              "caption": "Os ramos que contêm 壬",
+              "head": [
+                "Ramo",
+                "Animal",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Rato",
+                  "residual (餘氣)",
+                  "{hidJaYeo}"
+                ],
+                [
+                  "申",
+                  "Macaco",
+                  "médio (中氣)",
+                  "{hidSinJung}"
+                ],
+                [
+                  "亥",
+                  "Porco",
+                  "principal (本氣)",
+                  "{hidHaeBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um tronco não define uma pessoa. Um saju é lido a partir de como seus oito caracteres se relacionam.",
+              "Os Dez Deuses são um julgamento feito a partir do tronco do dia. Os mesmos dois caracteres recebem um nome diferente conforme qual deles é o tronco do dia."
+            ]
+          },
+          {
+            "p": "Os Dez Deuses completos estão no [guia dos Dez Deuses](/guide/ten-gods), e a força dos elementos e o Signo do Mês estão no [guia dos cinco elementos](/guide/five-elements). Outros troncos: [Madeira Yang (甲)](/guide/stem-gap) · [Madeira Yin (乙)](/guide/stem-eul) · [Fogo Yang (丙)](/guide/stem-byeong) · [Fogo Yin (丁)](/guide/stem-jeong) · [Terra Yang (戊)](/guide/stem-mu) · [Terra Yin (己)](/guide/stem-gi) · [Metal Yang (庚)](/guide/stem-gyeong) · [Metal Yin (辛)](/guide/stem-sin) · [Água Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gye": {
+    "eyebrow": "Troncos celestes",
+    "title": "Água Yin (癸) — Água, Yin",
+    "summary": "O elemento e a polaridade do tronco celeste 癸, como ele lê os outros nove troncos (os Dez Deuses) e quais ramos terrestres o contêm — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "Água Yin (癸) é o décimo dos dez troncos celestes",
+        "blocks": [
+          {
+            "p": "癸 é o décimo dos dez troncos celestes. Seu elemento é Água e sua polaridade é Yin. O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸."
+          },
+          {
+            "p": "A frase que a tela de resultado mostra para este tronco do dia é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a tabela nem com as pontuações abaixo."
+          }
+        ]
+      },
+      {
+        "title": "Como ele lê os outros troncos (os Dez Deuses)",
+        "blocks": [
+          {
+            "p": "Com 癸 como tronco do dia, cada um dos dez troncos é lido da seguinte forma. A leitura tem uma direção: é assim que 癸 lê o outro tronco, e, quando o outro tronco lê 癸, pode surgir um nome diferente."
+          },
+          {
+            "table": {
+              "caption": "Os Dez Deuses com Água Yin (癸) como tronco do dia",
+              "head": [
+                "Outro tronco",
+                "Elemento e polaridade",
+                "Dez Deuses"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "Companheiro (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os troncos lidos como a posição do cônjuge",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 癸 como tronco do dia, a Riqueza estável é 丙 e a Autoridade é 戊. Se você não informar o gênero, esta posição não é lida."
+          }
+        ]
+      },
+      {
+        "title": "Os ramos que contêm 癸",
+        "blocks": [
+          {
+            "p": "É aqui que 癸 fica oculto dentro dos ramos terrestres (os troncos ocultos). A proporção é a fração dos trinta dias desse ramo que 癸 ocupa."
+          },
+          {
+            "table": {
+              "caption": "Os ramos que contêm 癸",
+              "head": [
+                "Ramo",
+                "Animal",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Rato",
+                  "principal (本氣)",
+                  "{hidJaBon}"
+                ],
+                [
+                  "丑",
+                  "Boi",
+                  "residual (餘氣)",
+                  "{hidChukYeo}"
+                ],
+                [
+                  "辰",
+                  "Dragão",
+                  "médio (中氣)",
+                  "{hidJinJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um tronco não define uma pessoa. Um saju é lido a partir de como seus oito caracteres se relacionam.",
+              "Os Dez Deuses são um julgamento feito a partir do tronco do dia. Os mesmos dois caracteres recebem um nome diferente conforme qual deles é o tronco do dia."
+            ]
+          },
+          {
+            "p": "Os Dez Deuses completos estão no [guia dos Dez Deuses](/guide/ten-gods), e a força dos elementos e o Signo do Mês estão no [guia dos cinco elementos](/guide/five-elements). Outros troncos: [Madeira Yang (甲)](/guide/stem-gap) · [Madeira Yin (乙)](/guide/stem-eul) · [Fogo Yang (丙)](/guide/stem-byeong) · [Fogo Yin (丁)](/guide/stem-jeong) · [Terra Yang (戊)](/guide/stem-mu) · [Terra Yin (己)](/guide/stem-gi) · [Metal Yang (庚)](/guide/stem-gyeong) · [Metal Yin (辛)](/guide/stem-sin) · [Água Yang (壬)](/guide/stem-im)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-ja": {
+    "eyebrow": "Ramos terrestres",
+    "title": "子 — o ramo do Rato",
+    "summary": "Os troncos contidos no ramo terrestre 子 (os troncos ocultos), a força dos cinco elementos quando ele é o ramo do mês e os Dez Deuses lidos para cada tronco do dia — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "子 é o primeiro dos doze ramos terrestres",
+        "blocks": [
+          {
+            "p": "子 é o primeiro dos doze ramos terrestres e pertence ao Rato. Quando o ramo do mês de nascimento é 子, a estação é o inverno e o elemento dono da estação é Água."
+          },
+          {
+            "p": "Quando o ramo do dia de nascimento é 子, este caractere é a posição do cônjuge. Abaixo você vê quais troncos este ramo contém e o que eles são para o tronco do dia."
+          }
+        ]
+      },
+      {
+        "title": "Os troncos que este ramo contém (troncos ocultos)",
+        "blocks": [
+          {
+            "p": "Um ramo é um caractere visível, mas contém troncos em seu interior. A proporção mostra como os trinta dias do ramo se dividem entre os troncos, e o tronco principal é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos de 子",
+              "head": [
+                "Tronco",
+                "Elemento e polaridade",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "residual (餘氣)",
+                  "{hidJaYeo}"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "principal (本氣)",
+                  "{hidJaBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A força dos cinco elementos quando o ramo do mês é 子",
+        "blocks": [
+          {
+            "p": "Quando o ramo do mês de nascimento é 子, cada elemento recebe um estado (Wang, Sang, Hyu, Su, Sa), e esse estado se torna o multiplicador aplicado à sua força."
+          },
+          {
+            "table": {
+              "caption": "Os estados dos elementos para o ramo do mês 子 (inverno)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplicador"
+              ],
+              "rows": [
+                [
+                  "Madeira",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Fogo",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Terra",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Metal",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Água",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os Dez Deuses por tronco do dia",
+        "blocks": [
+          {
+            "p": "Os mesmos troncos ocultos de 子 tornam-se Deuses diferentes conforme o tronco do dia. Quando 子 é o ramo do dia, esta tabela é a leitura da posição do cônjuge."
+          },
+          {
+            "table": {
+              "caption": "O que os troncos ocultos de 子 são para cada tronco do dia",
+              "head": [
+                "Tronco do dia",
+                "Água Yang (壬) — residual (餘氣)",
+                "Água Yin (癸) — principal (本氣)"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Apoio não convencional (偏印)",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Amparo (正印)",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Desafiante (偏官)",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Autoridade (正官)",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Fortuna imprevista (偏財)",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Riqueza estável (正財)",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Expressão (食神)",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Perturbador (傷官)",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Companheiro (比肩)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Rival (劫財)",
+                  "Companheiro (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um ramo não define uma pessoa. O mesmo ramo é lido de forma diferente conforme o tronco do dia e o ramo do mês.",
+              "As relações entre ramos, como harmonia, choque e discórdia, não são tratadas aqui."
+            ]
+          },
+          {
+            "p": "As relações entre ramos estão na [tabela dos doze ramos](/guide/branches), e seu significado como animal do zodíaco está em [onde o zodíaco se encontra num saju](/guide/zodiac). Outros ramos: [丑 (Boi)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Coelho)](/guide/branch-myo) · [辰 (Dragão)](/guide/branch-jin) · [巳 (Serpente)](/guide/branch-sa) · [午 (Cavalo)](/guide/branch-o) · [未 (Ovelha)](/guide/branch-mi) · [申 (Macaco)](/guide/branch-sin) · [酉 (Galo)](/guide/branch-yu) · [戌 (Cão)](/guide/branch-sul) · [亥 (Porco)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-chuk": {
+    "eyebrow": "Ramos terrestres",
+    "title": "丑 — o ramo do Boi",
+    "summary": "Os troncos contidos no ramo terrestre 丑 (os troncos ocultos), a força dos cinco elementos quando ele é o ramo do mês e os Dez Deuses lidos para cada tronco do dia — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丑 é o segundo dos doze ramos terrestres",
+        "blocks": [
+          {
+            "p": "丑 é o segundo dos doze ramos terrestres e pertence ao Boi. Quando o ramo do mês de nascimento é 丑, a estação é o inverno e o elemento dono da estação é Água. É um mês de transição (辰未戌丑), então a Terra também é considerada no estado Wang."
+          },
+          {
+            "p": "Quando o ramo do dia de nascimento é 丑, este caractere é a posição do cônjuge. Abaixo você vê quais troncos este ramo contém e o que eles são para o tronco do dia."
+          }
+        ]
+      },
+      {
+        "title": "Os troncos que este ramo contém (troncos ocultos)",
+        "blocks": [
+          {
+            "p": "Um ramo é um caractere visível, mas contém troncos em seu interior. A proporção mostra como os trinta dias do ramo se dividem entre os troncos, e o tronco principal é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos de 丑",
+              "head": [
+                "Tronco",
+                "Elemento e polaridade",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "residual (餘氣)",
+                  "{hidChukYeo}"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "médio (中氣)",
+                  "{hidChukJung}"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "principal (本氣)",
+                  "{hidChukBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A força dos cinco elementos quando o ramo do mês é 丑",
+        "blocks": [
+          {
+            "p": "Quando o ramo do mês de nascimento é 丑, cada elemento recebe um estado (Wang, Sang, Hyu, Su, Sa), e esse estado se torna o multiplicador aplicado à sua força."
+          },
+          {
+            "table": {
+              "caption": "Os estados dos elementos para o ramo do mês 丑 (inverno (mês de transição))",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplicador"
+              ],
+              "rows": [
+                [
+                  "Madeira",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Fogo",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Terra",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Metal",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Água",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os Dez Deuses por tronco do dia",
+        "blocks": [
+          {
+            "p": "Os mesmos troncos ocultos de 丑 tornam-se Deuses diferentes conforme o tronco do dia. Quando 丑 é o ramo do dia, esta tabela é a leitura da posição do cônjuge."
+          },
+          {
+            "table": {
+              "caption": "O que os troncos ocultos de 丑 são para cada tronco do dia",
+              "head": [
+                "Tronco do dia",
+                "Água Yin (癸) — residual (餘氣)",
+                "Metal Yin (辛) — médio (中氣)",
+                "Terra Yin (己) — principal (本氣)"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Amparo (正印)",
+                  "Autoridade (正官)",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Apoio não convencional (偏印)",
+                  "Desafiante (偏官)",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Autoridade (正官)",
+                  "Riqueza estável (正財)",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Desafiante (偏官)",
+                  "Fortuna imprevista (偏財)",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Riqueza estável (正財)",
+                  "Perturbador (傷官)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Fortuna imprevista (偏財)",
+                  "Expressão (食神)",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Perturbador (傷官)",
+                  "Rival (劫財)",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Expressão (食神)",
+                  "Companheiro (比肩)",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Rival (劫財)",
+                  "Amparo (正印)",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Companheiro (比肩)",
+                  "Apoio não convencional (偏印)",
+                  "Desafiante (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um ramo não define uma pessoa. O mesmo ramo é lido de forma diferente conforme o tronco do dia e o ramo do mês.",
+              "As relações entre ramos, como harmonia, choque e discórdia, não são tratadas aqui."
+            ]
+          },
+          {
+            "p": "As relações entre ramos estão na [tabela dos doze ramos](/guide/branches), e seu significado como animal do zodíaco está em [onde o zodíaco se encontra num saju](/guide/zodiac). Outros ramos: [子 (Rato)](/guide/branch-ja) · [寅 (Tigre)](/guide/branch-in) · [卯 (Coelho)](/guide/branch-myo) · [辰 (Dragão)](/guide/branch-jin) · [巳 (Serpente)](/guide/branch-sa) · [午 (Cavalo)](/guide/branch-o) · [未 (Ovelha)](/guide/branch-mi) · [申 (Macaco)](/guide/branch-sin) · [酉 (Galo)](/guide/branch-yu) · [戌 (Cão)](/guide/branch-sul) · [亥 (Porco)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-in": {
+    "eyebrow": "Ramos terrestres",
+    "title": "寅 — o ramo do Tigre",
+    "summary": "Os troncos contidos no ramo terrestre 寅 (os troncos ocultos), a força dos cinco elementos quando ele é o ramo do mês e os Dez Deuses lidos para cada tronco do dia — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "寅 é o terceiro dos doze ramos terrestres",
+        "blocks": [
+          {
+            "p": "寅 é o terceiro dos doze ramos terrestres e pertence ao Tigre. Quando o ramo do mês de nascimento é 寅, a estação é a primavera e o elemento dono da estação é Madeira."
+          },
+          {
+            "p": "Quando o ramo do dia de nascimento é 寅, este caractere é a posição do cônjuge. Abaixo você vê quais troncos este ramo contém e o que eles são para o tronco do dia."
+          }
+        ]
+      },
+      {
+        "title": "Os troncos que este ramo contém (troncos ocultos)",
+        "blocks": [
+          {
+            "p": "Um ramo é um caractere visível, mas contém troncos em seu interior. A proporção mostra como os trinta dias do ramo se dividem entre os troncos, e o tronco principal é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos de 寅",
+              "head": [
+                "Tronco",
+                "Elemento e polaridade",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "residual (餘氣)",
+                  "{hidInYeo}"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "médio (中氣)",
+                  "{hidInJung}"
+                ],
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "principal (本氣)",
+                  "{hidInBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A força dos cinco elementos quando o ramo do mês é 寅",
+        "blocks": [
+          {
+            "p": "Quando o ramo do mês de nascimento é 寅, cada elemento recebe um estado (Wang, Sang, Hyu, Su, Sa), e esse estado se torna o multiplicador aplicado à sua força."
+          },
+          {
+            "table": {
+              "caption": "Os estados dos elementos para o ramo do mês 寅 (primavera)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplicador"
+              ],
+              "rows": [
+                [
+                  "Madeira",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Fogo",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Terra",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Metal",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Água",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os Dez Deuses por tronco do dia",
+        "blocks": [
+          {
+            "p": "Os mesmos troncos ocultos de 寅 tornam-se Deuses diferentes conforme o tronco do dia. Quando 寅 é o ramo do dia, esta tabela é a leitura da posição do cônjuge."
+          },
+          {
+            "table": {
+              "caption": "O que os troncos ocultos de 寅 são para cada tronco do dia",
+              "head": [
+                "Tronco do dia",
+                "Terra Yang (戊) — residual (餘氣)",
+                "Fogo Yang (丙) — médio (中氣)",
+                "Madeira Yang (甲) — principal (本氣)"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Fortuna imprevista (偏財)",
+                  "Expressão (食神)",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Riqueza estável (正財)",
+                  "Perturbador (傷官)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Expressão (食神)",
+                  "Companheiro (比肩)",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Perturbador (傷官)",
+                  "Rival (劫財)",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Companheiro (比肩)",
+                  "Apoio não convencional (偏印)",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Rival (劫財)",
+                  "Amparo (正印)",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Apoio não convencional (偏印)",
+                  "Desafiante (偏官)",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Amparo (正印)",
+                  "Autoridade (正官)",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Desafiante (偏官)",
+                  "Fortuna imprevista (偏財)",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Autoridade (正官)",
+                  "Riqueza estável (正財)",
+                  "Perturbador (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um ramo não define uma pessoa. O mesmo ramo é lido de forma diferente conforme o tronco do dia e o ramo do mês.",
+              "As relações entre ramos, como harmonia, choque e discórdia, não são tratadas aqui."
+            ]
+          },
+          {
+            "p": "As relações entre ramos estão na [tabela dos doze ramos](/guide/branches), e seu significado como animal do zodíaco está em [onde o zodíaco se encontra num saju](/guide/zodiac). Outros ramos: [子 (Rato)](/guide/branch-ja) · [丑 (Boi)](/guide/branch-chuk) · [卯 (Coelho)](/guide/branch-myo) · [辰 (Dragão)](/guide/branch-jin) · [巳 (Serpente)](/guide/branch-sa) · [午 (Cavalo)](/guide/branch-o) · [未 (Ovelha)](/guide/branch-mi) · [申 (Macaco)](/guide/branch-sin) · [酉 (Galo)](/guide/branch-yu) · [戌 (Cão)](/guide/branch-sul) · [亥 (Porco)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-myo": {
+    "eyebrow": "Ramos terrestres",
+    "title": "卯 — o ramo do Coelho",
+    "summary": "Os troncos contidos no ramo terrestre 卯 (os troncos ocultos), a força dos cinco elementos quando ele é o ramo do mês e os Dez Deuses lidos para cada tronco do dia — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "卯 é o quarto dos doze ramos terrestres",
+        "blocks": [
+          {
+            "p": "卯 é o quarto dos doze ramos terrestres e pertence ao Coelho. Quando o ramo do mês de nascimento é 卯, a estação é a primavera e o elemento dono da estação é Madeira."
+          },
+          {
+            "p": "Quando o ramo do dia de nascimento é 卯, este caractere é a posição do cônjuge. Abaixo você vê quais troncos este ramo contém e o que eles são para o tronco do dia."
+          }
+        ]
+      },
+      {
+        "title": "Os troncos que este ramo contém (troncos ocultos)",
+        "blocks": [
+          {
+            "p": "Um ramo é um caractere visível, mas contém troncos em seu interior. A proporção mostra como os trinta dias do ramo se dividem entre os troncos, e o tronco principal é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos de 卯",
+              "head": [
+                "Tronco",
+                "Elemento e polaridade",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "residual (餘氣)",
+                  "{hidMyoYeo}"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "principal (本氣)",
+                  "{hidMyoBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A força dos cinco elementos quando o ramo do mês é 卯",
+        "blocks": [
+          {
+            "p": "Quando o ramo do mês de nascimento é 卯, cada elemento recebe um estado (Wang, Sang, Hyu, Su, Sa), e esse estado se torna o multiplicador aplicado à sua força."
+          },
+          {
+            "table": {
+              "caption": "Os estados dos elementos para o ramo do mês 卯 (primavera)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplicador"
+              ],
+              "rows": [
+                [
+                  "Madeira",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Fogo",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Terra",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Metal",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Água",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os Dez Deuses por tronco do dia",
+        "blocks": [
+          {
+            "p": "Os mesmos troncos ocultos de 卯 tornam-se Deuses diferentes conforme o tronco do dia. Quando 卯 é o ramo do dia, esta tabela é a leitura da posição do cônjuge."
+          },
+          {
+            "table": {
+              "caption": "O que os troncos ocultos de 卯 são para cada tronco do dia",
+              "head": [
+                "Tronco do dia",
+                "Madeira Yang (甲) — residual (餘氣)",
+                "Madeira Yin (乙) — principal (本氣)"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Companheiro (比肩)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Rival (劫財)",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Apoio não convencional (偏印)",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Amparo (正印)",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Desafiante (偏官)",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Autoridade (正官)",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Fortuna imprevista (偏財)",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Riqueza estável (正財)",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Expressão (食神)",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Perturbador (傷官)",
+                  "Expressão (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um ramo não define uma pessoa. O mesmo ramo é lido de forma diferente conforme o tronco do dia e o ramo do mês.",
+              "As relações entre ramos, como harmonia, choque e discórdia, não são tratadas aqui."
+            ]
+          },
+          {
+            "p": "As relações entre ramos estão na [tabela dos doze ramos](/guide/branches), e seu significado como animal do zodíaco está em [onde o zodíaco se encontra num saju](/guide/zodiac). Outros ramos: [子 (Rato)](/guide/branch-ja) · [丑 (Boi)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [辰 (Dragão)](/guide/branch-jin) · [巳 (Serpente)](/guide/branch-sa) · [午 (Cavalo)](/guide/branch-o) · [未 (Ovelha)](/guide/branch-mi) · [申 (Macaco)](/guide/branch-sin) · [酉 (Galo)](/guide/branch-yu) · [戌 (Cão)](/guide/branch-sul) · [亥 (Porco)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-jin": {
+    "eyebrow": "Ramos terrestres",
+    "title": "辰 — o ramo do Dragão",
+    "summary": "Os troncos contidos no ramo terrestre 辰 (os troncos ocultos), a força dos cinco elementos quando ele é o ramo do mês e os Dez Deuses lidos para cada tronco do dia — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "辰 é o quinto dos doze ramos terrestres",
+        "blocks": [
+          {
+            "p": "辰 é o quinto dos doze ramos terrestres e pertence ao Dragão. Quando o ramo do mês de nascimento é 辰, a estação é a primavera e o elemento dono da estação é Madeira. É um mês de transição (辰未戌丑), então a Terra também é considerada no estado Wang."
+          },
+          {
+            "p": "Quando o ramo do dia de nascimento é 辰, este caractere é a posição do cônjuge. Abaixo você vê quais troncos este ramo contém e o que eles são para o tronco do dia."
+          }
+        ]
+      },
+      {
+        "title": "Os troncos que este ramo contém (troncos ocultos)",
+        "blocks": [
+          {
+            "p": "Um ramo é um caractere visível, mas contém troncos em seu interior. A proporção mostra como os trinta dias do ramo se dividem entre os troncos, e o tronco principal é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos de 辰",
+              "head": [
+                "Tronco",
+                "Elemento e polaridade",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "residual (餘氣)",
+                  "{hidJinYeo}"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Água Yin",
+                  "médio (中氣)",
+                  "{hidJinJung}"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "principal (本氣)",
+                  "{hidJinBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A força dos cinco elementos quando o ramo do mês é 辰",
+        "blocks": [
+          {
+            "p": "Quando o ramo do mês de nascimento é 辰, cada elemento recebe um estado (Wang, Sang, Hyu, Su, Sa), e esse estado se torna o multiplicador aplicado à sua força."
+          },
+          {
+            "table": {
+              "caption": "Os estados dos elementos para o ramo do mês 辰 (primavera (mês de transição))",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplicador"
+              ],
+              "rows": [
+                [
+                  "Madeira",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Fogo",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Terra",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Metal",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Água",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os Dez Deuses por tronco do dia",
+        "blocks": [
+          {
+            "p": "Os mesmos troncos ocultos de 辰 tornam-se Deuses diferentes conforme o tronco do dia. Quando 辰 é o ramo do dia, esta tabela é a leitura da posição do cônjuge."
+          },
+          {
+            "table": {
+              "caption": "O que os troncos ocultos de 辰 são para cada tronco do dia",
+              "head": [
+                "Tronco do dia",
+                "Madeira Yin (乙) — residual (餘氣)",
+                "Água Yin (癸) — médio (中氣)",
+                "Terra Yang (戊) — principal (本氣)"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Rival (劫財)",
+                  "Amparo (正印)",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Companheiro (比肩)",
+                  "Apoio não convencional (偏印)",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Amparo (正印)",
+                  "Autoridade (正官)",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Apoio não convencional (偏印)",
+                  "Desafiante (偏官)",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Autoridade (正官)",
+                  "Riqueza estável (正財)",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Desafiante (偏官)",
+                  "Fortuna imprevista (偏財)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Riqueza estável (正財)",
+                  "Perturbador (傷官)",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Fortuna imprevista (偏財)",
+                  "Expressão (食神)",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Perturbador (傷官)",
+                  "Rival (劫財)",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Expressão (食神)",
+                  "Companheiro (比肩)",
+                  "Autoridade (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um ramo não define uma pessoa. O mesmo ramo é lido de forma diferente conforme o tronco do dia e o ramo do mês.",
+              "As relações entre ramos, como harmonia, choque e discórdia, não são tratadas aqui."
+            ]
+          },
+          {
+            "p": "As relações entre ramos estão na [tabela dos doze ramos](/guide/branches), e seu significado como animal do zodíaco está em [onde o zodíaco se encontra num saju](/guide/zodiac). Outros ramos: [子 (Rato)](/guide/branch-ja) · [丑 (Boi)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Coelho)](/guide/branch-myo) · [巳 (Serpente)](/guide/branch-sa) · [午 (Cavalo)](/guide/branch-o) · [未 (Ovelha)](/guide/branch-mi) · [申 (Macaco)](/guide/branch-sin) · [酉 (Galo)](/guide/branch-yu) · [戌 (Cão)](/guide/branch-sul) · [亥 (Porco)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sa": {
+    "eyebrow": "Ramos terrestres",
+    "title": "巳 — o ramo da Serpente",
+    "summary": "Os troncos contidos no ramo terrestre 巳 (os troncos ocultos), a força dos cinco elementos quando ele é o ramo do mês e os Dez Deuses lidos para cada tronco do dia — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "巳 é o sexto dos doze ramos terrestres",
+        "blocks": [
+          {
+            "p": "巳 é o sexto dos doze ramos terrestres e pertence à Serpente. Quando o ramo do mês de nascimento é 巳, a estação é o verão e o elemento dono da estação é Fogo."
+          },
+          {
+            "p": "Quando o ramo do dia de nascimento é 巳, este caractere é a posição do cônjuge. Abaixo você vê quais troncos este ramo contém e o que eles são para o tronco do dia."
+          }
+        ]
+      },
+      {
+        "title": "Os troncos que este ramo contém (troncos ocultos)",
+        "blocks": [
+          {
+            "p": "Um ramo é um caractere visível, mas contém troncos em seu interior. A proporção mostra como os trinta dias do ramo se dividem entre os troncos, e o tronco principal é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos de 巳",
+              "head": [
+                "Tronco",
+                "Elemento e polaridade",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "residual (餘氣)",
+                  "{hidSaYeo}"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "médio (中氣)",
+                  "{hidSaJung}"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "principal (本氣)",
+                  "{hidSaBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A força dos cinco elementos quando o ramo do mês é 巳",
+        "blocks": [
+          {
+            "p": "Quando o ramo do mês de nascimento é 巳, cada elemento recebe um estado (Wang, Sang, Hyu, Su, Sa), e esse estado se torna o multiplicador aplicado à sua força."
+          },
+          {
+            "table": {
+              "caption": "Os estados dos elementos para o ramo do mês 巳 (verão)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplicador"
+              ],
+              "rows": [
+                [
+                  "Madeira",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Fogo",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Terra",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Metal",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Água",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os Dez Deuses por tronco do dia",
+        "blocks": [
+          {
+            "p": "Os mesmos troncos ocultos de 巳 tornam-se Deuses diferentes conforme o tronco do dia. Quando 巳 é o ramo do dia, esta tabela é a leitura da posição do cônjuge."
+          },
+          {
+            "table": {
+              "caption": "O que os troncos ocultos de 巳 são para cada tronco do dia",
+              "head": [
+                "Tronco do dia",
+                "Terra Yang (戊) — residual (餘氣)",
+                "Metal Yang (庚) — médio (中氣)",
+                "Fogo Yang (丙) — principal (本氣)"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Fortuna imprevista (偏財)",
+                  "Desafiante (偏官)",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Riqueza estável (正財)",
+                  "Autoridade (正官)",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Expressão (食神)",
+                  "Fortuna imprevista (偏財)",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Perturbador (傷官)",
+                  "Riqueza estável (正財)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Companheiro (比肩)",
+                  "Expressão (食神)",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Rival (劫財)",
+                  "Perturbador (傷官)",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Apoio não convencional (偏印)",
+                  "Companheiro (比肩)",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Amparo (正印)",
+                  "Rival (劫財)",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Desafiante (偏官)",
+                  "Apoio não convencional (偏印)",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Autoridade (正官)",
+                  "Amparo (正印)",
+                  "Riqueza estável (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um ramo não define uma pessoa. O mesmo ramo é lido de forma diferente conforme o tronco do dia e o ramo do mês.",
+              "As relações entre ramos, como harmonia, choque e discórdia, não são tratadas aqui."
+            ]
+          },
+          {
+            "p": "As relações entre ramos estão na [tabela dos doze ramos](/guide/branches), e seu significado como animal do zodíaco está em [onde o zodíaco se encontra num saju](/guide/zodiac). Outros ramos: [子 (Rato)](/guide/branch-ja) · [丑 (Boi)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Coelho)](/guide/branch-myo) · [辰 (Dragão)](/guide/branch-jin) · [午 (Cavalo)](/guide/branch-o) · [未 (Ovelha)](/guide/branch-mi) · [申 (Macaco)](/guide/branch-sin) · [酉 (Galo)](/guide/branch-yu) · [戌 (Cão)](/guide/branch-sul) · [亥 (Porco)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-o": {
+    "eyebrow": "Ramos terrestres",
+    "title": "午 — o ramo do Cavalo",
+    "summary": "Os troncos contidos no ramo terrestre 午 (os troncos ocultos), a força dos cinco elementos quando ele é o ramo do mês e os Dez Deuses lidos para cada tronco do dia — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "午 é o sétimo dos doze ramos terrestres",
+        "blocks": [
+          {
+            "p": "午 é o sétimo dos doze ramos terrestres e pertence ao Cavalo. Quando o ramo do mês de nascimento é 午, a estação é o verão e o elemento dono da estação é Fogo."
+          },
+          {
+            "p": "Quando o ramo do dia de nascimento é 午, este caractere é a posição do cônjuge. Abaixo você vê quais troncos este ramo contém e o que eles são para o tronco do dia."
+          }
+        ]
+      },
+      {
+        "title": "Os troncos que este ramo contém (troncos ocultos)",
+        "blocks": [
+          {
+            "p": "Um ramo é um caractere visível, mas contém troncos em seu interior. A proporção mostra como os trinta dias do ramo se dividem entre os troncos, e o tronco principal é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos de 午",
+              "head": [
+                "Tronco",
+                "Elemento e polaridade",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "Fogo Yang (丙)",
+                  "Fogo Yang",
+                  "residual (餘氣)",
+                  "{hidOYeo}"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "médio (中氣)",
+                  "{hidOJung}"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "principal (本氣)",
+                  "{hidOBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A força dos cinco elementos quando o ramo do mês é 午",
+        "blocks": [
+          {
+            "p": "Quando o ramo do mês de nascimento é 午, cada elemento recebe um estado (Wang, Sang, Hyu, Su, Sa), e esse estado se torna o multiplicador aplicado à sua força."
+          },
+          {
+            "table": {
+              "caption": "Os estados dos elementos para o ramo do mês 午 (verão)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplicador"
+              ],
+              "rows": [
+                [
+                  "Madeira",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Fogo",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Terra",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Metal",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Água",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os Dez Deuses por tronco do dia",
+        "blocks": [
+          {
+            "p": "Os mesmos troncos ocultos de 午 tornam-se Deuses diferentes conforme o tronco do dia. Quando 午 é o ramo do dia, esta tabela é a leitura da posição do cônjuge."
+          },
+          {
+            "table": {
+              "caption": "O que os troncos ocultos de 午 são para cada tronco do dia",
+              "head": [
+                "Tronco do dia",
+                "Fogo Yang (丙) — residual (餘氣)",
+                "Terra Yin (己) — médio (中氣)",
+                "Fogo Yin (丁) — principal (本氣)"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Expressão (食神)",
+                  "Riqueza estável (正財)",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Perturbador (傷官)",
+                  "Fortuna imprevista (偏財)",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Companheiro (比肩)",
+                  "Perturbador (傷官)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Rival (劫財)",
+                  "Expressão (食神)",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Apoio não convencional (偏印)",
+                  "Rival (劫財)",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Amparo (正印)",
+                  "Companheiro (比肩)",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Desafiante (偏官)",
+                  "Amparo (正印)",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Autoridade (正官)",
+                  "Apoio não convencional (偏印)",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Fortuna imprevista (偏財)",
+                  "Autoridade (正官)",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Riqueza estável (正財)",
+                  "Desafiante (偏官)",
+                  "Fortuna imprevista (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um ramo não define uma pessoa. O mesmo ramo é lido de forma diferente conforme o tronco do dia e o ramo do mês.",
+              "As relações entre ramos, como harmonia, choque e discórdia, não são tratadas aqui."
+            ]
+          },
+          {
+            "p": "As relações entre ramos estão na [tabela dos doze ramos](/guide/branches), e seu significado como animal do zodíaco está em [onde o zodíaco se encontra num saju](/guide/zodiac). Outros ramos: [子 (Rato)](/guide/branch-ja) · [丑 (Boi)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Coelho)](/guide/branch-myo) · [辰 (Dragão)](/guide/branch-jin) · [巳 (Serpente)](/guide/branch-sa) · [未 (Ovelha)](/guide/branch-mi) · [申 (Macaco)](/guide/branch-sin) · [酉 (Galo)](/guide/branch-yu) · [戌 (Cão)](/guide/branch-sul) · [亥 (Porco)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-mi": {
+    "eyebrow": "Ramos terrestres",
+    "title": "未 — o ramo da Ovelha",
+    "summary": "Os troncos contidos no ramo terrestre 未 (os troncos ocultos), a força dos cinco elementos quando ele é o ramo do mês e os Dez Deuses lidos para cada tronco do dia — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "未 é o oitavo dos doze ramos terrestres",
+        "blocks": [
+          {
+            "p": "未 é o oitavo dos doze ramos terrestres e pertence à Ovelha. Quando o ramo do mês de nascimento é 未, a estação é o verão e o elemento dono da estação é Fogo. É um mês de transição (辰未戌丑), então a Terra também é considerada no estado Wang."
+          },
+          {
+            "p": "Quando o ramo do dia de nascimento é 未, este caractere é a posição do cônjuge. Abaixo você vê quais troncos este ramo contém e o que eles são para o tronco do dia."
+          }
+        ]
+      },
+      {
+        "title": "Os troncos que este ramo contém (troncos ocultos)",
+        "blocks": [
+          {
+            "p": "Um ramo é um caractere visível, mas contém troncos em seu interior. A proporção mostra como os trinta dias do ramo se dividem entre os troncos, e o tronco principal é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos de 未",
+              "head": [
+                "Tronco",
+                "Elemento e polaridade",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "residual (餘氣)",
+                  "{hidMiYeo}"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Madeira Yin",
+                  "médio (中氣)",
+                  "{hidMiJung}"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Terra Yin",
+                  "principal (本氣)",
+                  "{hidMiBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A força dos cinco elementos quando o ramo do mês é 未",
+        "blocks": [
+          {
+            "p": "Quando o ramo do mês de nascimento é 未, cada elemento recebe um estado (Wang, Sang, Hyu, Su, Sa), e esse estado se torna o multiplicador aplicado à sua força."
+          },
+          {
+            "table": {
+              "caption": "Os estados dos elementos para o ramo do mês 未 (verão (mês de transição))",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplicador"
+              ],
+              "rows": [
+                [
+                  "Madeira",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Fogo",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Terra",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Metal",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Água",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os Dez Deuses por tronco do dia",
+        "blocks": [
+          {
+            "p": "Os mesmos troncos ocultos de 未 tornam-se Deuses diferentes conforme o tronco do dia. Quando 未 é o ramo do dia, esta tabela é a leitura da posição do cônjuge."
+          },
+          {
+            "table": {
+              "caption": "O que os troncos ocultos de 未 são para cada tronco do dia",
+              "head": [
+                "Tronco do dia",
+                "Fogo Yin (丁) — residual (餘氣)",
+                "Madeira Yin (乙) — médio (中氣)",
+                "Terra Yin (己) — principal (本氣)"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Perturbador (傷官)",
+                  "Rival (劫財)",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Expressão (食神)",
+                  "Companheiro (比肩)",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Rival (劫財)",
+                  "Amparo (正印)",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Companheiro (比肩)",
+                  "Apoio não convencional (偏印)",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Amparo (正印)",
+                  "Autoridade (正官)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Apoio não convencional (偏印)",
+                  "Desafiante (偏官)",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Autoridade (正官)",
+                  "Riqueza estável (正財)",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Desafiante (偏官)",
+                  "Fortuna imprevista (偏財)",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Riqueza estável (正財)",
+                  "Perturbador (傷官)",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Fortuna imprevista (偏財)",
+                  "Expressão (食神)",
+                  "Desafiante (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um ramo não define uma pessoa. O mesmo ramo é lido de forma diferente conforme o tronco do dia e o ramo do mês.",
+              "As relações entre ramos, como harmonia, choque e discórdia, não são tratadas aqui."
+            ]
+          },
+          {
+            "p": "As relações entre ramos estão na [tabela dos doze ramos](/guide/branches), e seu significado como animal do zodíaco está em [onde o zodíaco se encontra num saju](/guide/zodiac). Outros ramos: [子 (Rato)](/guide/branch-ja) · [丑 (Boi)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Coelho)](/guide/branch-myo) · [辰 (Dragão)](/guide/branch-jin) · [巳 (Serpente)](/guide/branch-sa) · [午 (Cavalo)](/guide/branch-o) · [申 (Macaco)](/guide/branch-sin) · [酉 (Galo)](/guide/branch-yu) · [戌 (Cão)](/guide/branch-sul) · [亥 (Porco)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sin": {
+    "eyebrow": "Ramos terrestres",
+    "title": "申 — o ramo do Macaco",
+    "summary": "Os troncos contidos no ramo terrestre 申 (os troncos ocultos), a força dos cinco elementos quando ele é o ramo do mês e os Dez Deuses lidos para cada tronco do dia — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "申 é o nono dos doze ramos terrestres",
+        "blocks": [
+          {
+            "p": "申 é o nono dos doze ramos terrestres e pertence ao Macaco. Quando o ramo do mês de nascimento é 申, a estação é o outono e o elemento dono da estação é Metal."
+          },
+          {
+            "p": "Quando o ramo do dia de nascimento é 申, este caractere é a posição do cônjuge. Abaixo você vê quais troncos este ramo contém e o que eles são para o tronco do dia."
+          }
+        ]
+      },
+      {
+        "title": "Os troncos que este ramo contém (troncos ocultos)",
+        "blocks": [
+          {
+            "p": "Um ramo é um caractere visível, mas contém troncos em seu interior. A proporção mostra como os trinta dias do ramo se dividem entre os troncos, e o tronco principal é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos de 申",
+              "head": [
+                "Tronco",
+                "Elemento e polaridade",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "residual (餘氣)",
+                  "{hidSinYeo}"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "médio (中氣)",
+                  "{hidSinJung}"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "principal (本氣)",
+                  "{hidSinBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A força dos cinco elementos quando o ramo do mês é 申",
+        "blocks": [
+          {
+            "p": "Quando o ramo do mês de nascimento é 申, cada elemento recebe um estado (Wang, Sang, Hyu, Su, Sa), e esse estado se torna o multiplicador aplicado à sua força."
+          },
+          {
+            "table": {
+              "caption": "Os estados dos elementos para o ramo do mês 申 (outono)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplicador"
+              ],
+              "rows": [
+                [
+                  "Madeira",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Fogo",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Terra",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Metal",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Água",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os Dez Deuses por tronco do dia",
+        "blocks": [
+          {
+            "p": "Os mesmos troncos ocultos de 申 tornam-se Deuses diferentes conforme o tronco do dia. Quando 申 é o ramo do dia, esta tabela é a leitura da posição do cônjuge."
+          },
+          {
+            "table": {
+              "caption": "O que os troncos ocultos de 申 são para cada tronco do dia",
+              "head": [
+                "Tronco do dia",
+                "Terra Yang (戊) — residual (餘氣)",
+                "Água Yang (壬) — médio (中氣)",
+                "Metal Yang (庚) — principal (本氣)"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Fortuna imprevista (偏財)",
+                  "Apoio não convencional (偏印)",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Riqueza estável (正財)",
+                  "Amparo (正印)",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Expressão (食神)",
+                  "Desafiante (偏官)",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Perturbador (傷官)",
+                  "Autoridade (正官)",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Companheiro (比肩)",
+                  "Fortuna imprevista (偏財)",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Rival (劫財)",
+                  "Riqueza estável (正財)",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Apoio não convencional (偏印)",
+                  "Expressão (食神)",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Amparo (正印)",
+                  "Perturbador (傷官)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Desafiante (偏官)",
+                  "Companheiro (比肩)",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Autoridade (正官)",
+                  "Rival (劫財)",
+                  "Amparo (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um ramo não define uma pessoa. O mesmo ramo é lido de forma diferente conforme o tronco do dia e o ramo do mês.",
+              "As relações entre ramos, como harmonia, choque e discórdia, não são tratadas aqui."
+            ]
+          },
+          {
+            "p": "As relações entre ramos estão na [tabela dos doze ramos](/guide/branches), e seu significado como animal do zodíaco está em [onde o zodíaco se encontra num saju](/guide/zodiac). Outros ramos: [子 (Rato)](/guide/branch-ja) · [丑 (Boi)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Coelho)](/guide/branch-myo) · [辰 (Dragão)](/guide/branch-jin) · [巳 (Serpente)](/guide/branch-sa) · [午 (Cavalo)](/guide/branch-o) · [未 (Ovelha)](/guide/branch-mi) · [酉 (Galo)](/guide/branch-yu) · [戌 (Cão)](/guide/branch-sul) · [亥 (Porco)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-yu": {
+    "eyebrow": "Ramos terrestres",
+    "title": "酉 — o ramo do Galo",
+    "summary": "Os troncos contidos no ramo terrestre 酉 (os troncos ocultos), a força dos cinco elementos quando ele é o ramo do mês e os Dez Deuses lidos para cada tronco do dia — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "酉 é o décimo dos doze ramos terrestres",
+        "blocks": [
+          {
+            "p": "酉 é o décimo dos doze ramos terrestres e pertence ao Galo. Quando o ramo do mês de nascimento é 酉, a estação é o outono e o elemento dono da estação é Metal."
+          },
+          {
+            "p": "Quando o ramo do dia de nascimento é 酉, este caractere é a posição do cônjuge. Abaixo você vê quais troncos este ramo contém e o que eles são para o tronco do dia."
+          }
+        ]
+      },
+      {
+        "title": "Os troncos que este ramo contém (troncos ocultos)",
+        "blocks": [
+          {
+            "p": "Um ramo é um caractere visível, mas contém troncos em seu interior. A proporção mostra como os trinta dias do ramo se dividem entre os troncos, e o tronco principal é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos de 酉",
+              "head": [
+                "Tronco",
+                "Elemento e polaridade",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "Metal Yang (庚)",
+                  "Metal Yang",
+                  "residual (餘氣)",
+                  "{hidYuYeo}"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "principal (本氣)",
+                  "{hidYuBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A força dos cinco elementos quando o ramo do mês é 酉",
+        "blocks": [
+          {
+            "p": "Quando o ramo do mês de nascimento é 酉, cada elemento recebe um estado (Wang, Sang, Hyu, Su, Sa), e esse estado se torna o multiplicador aplicado à sua força."
+          },
+          {
+            "table": {
+              "caption": "Os estados dos elementos para o ramo do mês 酉 (outono)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplicador"
+              ],
+              "rows": [
+                [
+                  "Madeira",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Fogo",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Terra",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Metal",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Água",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os Dez Deuses por tronco do dia",
+        "blocks": [
+          {
+            "p": "Os mesmos troncos ocultos de 酉 tornam-se Deuses diferentes conforme o tronco do dia. Quando 酉 é o ramo do dia, esta tabela é a leitura da posição do cônjuge."
+          },
+          {
+            "table": {
+              "caption": "O que os troncos ocultos de 酉 são para cada tronco do dia",
+              "head": [
+                "Tronco do dia",
+                "Metal Yang (庚) — residual (餘氣)",
+                "Metal Yin (辛) — principal (本氣)"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Desafiante (偏官)",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Autoridade (正官)",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Fortuna imprevista (偏財)",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Riqueza estável (正財)",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Expressão (食神)",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Perturbador (傷官)",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Companheiro (比肩)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Rival (劫財)",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Apoio não convencional (偏印)",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Amparo (正印)",
+                  "Apoio não convencional (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um ramo não define uma pessoa. O mesmo ramo é lido de forma diferente conforme o tronco do dia e o ramo do mês.",
+              "As relações entre ramos, como harmonia, choque e discórdia, não são tratadas aqui."
+            ]
+          },
+          {
+            "p": "As relações entre ramos estão na [tabela dos doze ramos](/guide/branches), e seu significado como animal do zodíaco está em [onde o zodíaco se encontra num saju](/guide/zodiac). Outros ramos: [子 (Rato)](/guide/branch-ja) · [丑 (Boi)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Coelho)](/guide/branch-myo) · [辰 (Dragão)](/guide/branch-jin) · [巳 (Serpente)](/guide/branch-sa) · [午 (Cavalo)](/guide/branch-o) · [未 (Ovelha)](/guide/branch-mi) · [申 (Macaco)](/guide/branch-sin) · [戌 (Cão)](/guide/branch-sul) · [亥 (Porco)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sul": {
+    "eyebrow": "Ramos terrestres",
+    "title": "戌 — o ramo do Cão",
+    "summary": "Os troncos contidos no ramo terrestre 戌 (os troncos ocultos), a força dos cinco elementos quando ele é o ramo do mês e os Dez Deuses lidos para cada tronco do dia — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "戌 é o décimo primeiro dos doze ramos terrestres",
+        "blocks": [
+          {
+            "p": "戌 é o décimo primeiro dos doze ramos terrestres e pertence ao Cão. Quando o ramo do mês de nascimento é 戌, a estação é o outono e o elemento dono da estação é Metal. É um mês de transição (辰未戌丑), então a Terra também é considerada no estado Wang."
+          },
+          {
+            "p": "Quando o ramo do dia de nascimento é 戌, este caractere é a posição do cônjuge. Abaixo você vê quais troncos este ramo contém e o que eles são para o tronco do dia."
+          }
+        ]
+      },
+      {
+        "title": "Os troncos que este ramo contém (troncos ocultos)",
+        "blocks": [
+          {
+            "p": "Um ramo é um caractere visível, mas contém troncos em seu interior. A proporção mostra como os trinta dias do ramo se dividem entre os troncos, e o tronco principal é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos de 戌",
+              "head": [
+                "Tronco",
+                "Elemento e polaridade",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "Metal Yin (辛)",
+                  "Metal Yin",
+                  "residual (餘氣)",
+                  "{hidSulYeo}"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fogo Yin",
+                  "médio (中氣)",
+                  "{hidSulJung}"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "principal (本氣)",
+                  "{hidSulBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A força dos cinco elementos quando o ramo do mês é 戌",
+        "blocks": [
+          {
+            "p": "Quando o ramo do mês de nascimento é 戌, cada elemento recebe um estado (Wang, Sang, Hyu, Su, Sa), e esse estado se torna o multiplicador aplicado à sua força."
+          },
+          {
+            "table": {
+              "caption": "Os estados dos elementos para o ramo do mês 戌 (outono (mês de transição))",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplicador"
+              ],
+              "rows": [
+                [
+                  "Madeira",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Fogo",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Terra",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Metal",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Água",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os Dez Deuses por tronco do dia",
+        "blocks": [
+          {
+            "p": "Os mesmos troncos ocultos de 戌 tornam-se Deuses diferentes conforme o tronco do dia. Quando 戌 é o ramo do dia, esta tabela é a leitura da posição do cônjuge."
+          },
+          {
+            "table": {
+              "caption": "O que os troncos ocultos de 戌 são para cada tronco do dia",
+              "head": [
+                "Tronco do dia",
+                "Metal Yin (辛) — residual (餘氣)",
+                "Fogo Yin (丁) — médio (中氣)",
+                "Terra Yang (戊) — principal (本氣)"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Autoridade (正官)",
+                  "Perturbador (傷官)",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Desafiante (偏官)",
+                  "Expressão (食神)",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Riqueza estável (正財)",
+                  "Rival (劫財)",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Fortuna imprevista (偏財)",
+                  "Companheiro (比肩)",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Perturbador (傷官)",
+                  "Amparo (正印)",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Expressão (食神)",
+                  "Apoio não convencional (偏印)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Rival (劫財)",
+                  "Autoridade (正官)",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Companheiro (比肩)",
+                  "Desafiante (偏官)",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Amparo (正印)",
+                  "Riqueza estável (正財)",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Apoio não convencional (偏印)",
+                  "Fortuna imprevista (偏財)",
+                  "Autoridade (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um ramo não define uma pessoa. O mesmo ramo é lido de forma diferente conforme o tronco do dia e o ramo do mês.",
+              "As relações entre ramos, como harmonia, choque e discórdia, não são tratadas aqui."
+            ]
+          },
+          {
+            "p": "As relações entre ramos estão na [tabela dos doze ramos](/guide/branches), e seu significado como animal do zodíaco está em [onde o zodíaco se encontra num saju](/guide/zodiac). Outros ramos: [子 (Rato)](/guide/branch-ja) · [丑 (Boi)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Coelho)](/guide/branch-myo) · [辰 (Dragão)](/guide/branch-jin) · [巳 (Serpente)](/guide/branch-sa) · [午 (Cavalo)](/guide/branch-o) · [未 (Ovelha)](/guide/branch-mi) · [申 (Macaco)](/guide/branch-sin) · [酉 (Galo)](/guide/branch-yu) · [亥 (Porco)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-hae": {
+    "eyebrow": "Ramos terrestres",
+    "title": "亥 — o ramo do Porco",
+    "summary": "Os troncos contidos no ramo terrestre 亥 (os troncos ocultos), a força dos cinco elementos quando ele é o ramo do mês e os Dez Deuses lidos para cada tronco do dia — apresentados exatamente como constam nas regras de cálculo do Saju-Link.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "亥 é o décimo segundo dos doze ramos terrestres",
+        "blocks": [
+          {
+            "p": "亥 é o décimo segundo dos doze ramos terrestres e pertence ao Porco. Quando o ramo do mês de nascimento é 亥, a estação é o inverno e o elemento dono da estação é Água."
+          },
+          {
+            "p": "Quando o ramo do dia de nascimento é 亥, este caractere é a posição do cônjuge. Abaixo você vê quais troncos este ramo contém e o que eles são para o tronco do dia."
+          }
+        ]
+      },
+      {
+        "title": "Os troncos que este ramo contém (troncos ocultos)",
+        "blocks": [
+          {
+            "p": "Um ramo é um caractere visível, mas contém troncos em seu interior. A proporção mostra como os trinta dias do ramo se dividem entre os troncos, e o tronco principal é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos de 亥",
+              "head": [
+                "Tronco",
+                "Elemento e polaridade",
+                "Posição",
+                "Proporção"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "Terra Yang",
+                  "residual (餘氣)",
+                  "{hidHaeYeo}"
+                ],
+                [
+                  "Madeira Yang (甲)",
+                  "Madeira Yang",
+                  "médio (中氣)",
+                  "{hidHaeJung}"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Água Yang",
+                  "principal (本氣)",
+                  "{hidHaeBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A força dos cinco elementos quando o ramo do mês é 亥",
+        "blocks": [
+          {
+            "p": "Quando o ramo do mês de nascimento é 亥, cada elemento recebe um estado (Wang, Sang, Hyu, Su, Sa), e esse estado se torna o multiplicador aplicado à sua força."
+          },
+          {
+            "table": {
+              "caption": "Os estados dos elementos para o ramo do mês 亥 (inverno)",
+              "head": [
+                "Elemento",
+                "Estado",
+                "Multiplicador"
+              ],
+              "rows": [
+                [
+                  "Madeira",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Fogo",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Terra",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Metal",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Água",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Os Dez Deuses por tronco do dia",
+        "blocks": [
+          {
+            "p": "Os mesmos troncos ocultos de 亥 tornam-se Deuses diferentes conforme o tronco do dia. Quando 亥 é o ramo do dia, esta tabela é a leitura da posição do cônjuge."
+          },
+          {
+            "table": {
+              "caption": "O que os troncos ocultos de 亥 são para cada tronco do dia",
+              "head": [
+                "Tronco do dia",
+                "Terra Yang (戊) — residual (餘氣)",
+                "Madeira Yang (甲) — médio (中氣)",
+                "Água Yang (壬) — principal (本氣)"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "Fortuna imprevista (偏財)",
+                  "Companheiro (比肩)",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "Riqueza estável (正財)",
+                  "Rival (劫財)",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "Expressão (食神)",
+                  "Apoio não convencional (偏印)",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "Perturbador (傷官)",
+                  "Amparo (正印)",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "Companheiro (比肩)",
+                  "Desafiante (偏官)",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "Rival (劫財)",
+                  "Autoridade (正官)",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "Apoio não convencional (偏印)",
+                  "Fortuna imprevista (偏財)",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "Amparo (正印)",
+                  "Riqueza estável (正財)",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "Desafiante (偏官)",
+                  "Expressão (食神)",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "Autoridade (正官)",
+                  "Perturbador (傷官)",
+                  "Rival (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um ramo não define uma pessoa. O mesmo ramo é lido de forma diferente conforme o tronco do dia e o ramo do mês.",
+              "As relações entre ramos, como harmonia, choque e discórdia, não são tratadas aqui."
+            ]
+          },
+          {
+            "p": "As relações entre ramos estão na [tabela dos doze ramos](/guide/branches), e seu significado como animal do zodíaco está em [onde o zodíaco se encontra num saju](/guide/zodiac). Outros ramos: [子 (Rato)](/guide/branch-ja) · [丑 (Boi)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Coelho)](/guide/branch-myo) · [辰 (Dragão)](/guide/branch-jin) · [巳 (Serpente)](/guide/branch-sa) · [午 (Cavalo)](/guide/branch-o) · [未 (Ovelha)](/guide/branch-mi) · [申 (Macaco)](/guide/branch-sin) · [酉 (Galo)](/guide/branch-yu) · [戌 (Cão)](/guide/branch-sul)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-ja": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 甲子",
+    "summary": "Como o Saju-Link lê o pilar do dia 甲子 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "甲子 é o pilar do dia número 1 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 甲子, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 子 (Rato). No ciclo de sessenta anos, é a combinação número 1."
+          },
+          {
+            "p": "O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲, e a frase que a tela de resultado mostra é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 子 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 甲, os troncos que 子 contém são os seguintes. O tronco principal (癸) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 甲子",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 甲"
+              ],
+              "rows": [
+                [
+                  "Água Yang (壬)",
+                  "residual (餘氣)",
+                  "{hidJaYeo}",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "principal (本氣)",
+                  "{hidJaBon}",
+                  "Amparo (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 甲 como tronco do dia, a Riqueza estável é 己 e a Autoridade é 辛."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 己. 己 não está contido em 子."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 辛. 辛 não está contido em 子."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [癸亥](/guide/pillar-gye-hae) e o seguinte é [乙丑](/guide/pillar-eul-chuk)."
+          },
+          {
+            "p": "É formado por [Madeira Yang (甲)](/guide/stem-gap) e [子 (Rato)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-chuk": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 乙丑",
+    "summary": "Como o Saju-Link lê o pilar do dia 乙丑 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "乙丑 é o pilar do dia número 2 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 乙丑, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 丑 (Boi). No ciclo de sessenta anos, é a combinação número 2."
+          },
+          {
+            "p": "O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙, e a frase que a tela de resultado mostra é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 丑 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 乙, os troncos que 丑 contém são os seguintes. O tronco principal (己) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 乙丑",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 乙"
+              ],
+              "rows": [
+                [
+                  "Água Yin (癸)",
+                  "residual (餘氣)",
+                  "{hidChukYeo}",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "médio (中氣)",
+                  "{hidChukJung}",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "principal (本氣)",
+                  "{hidChukBon}",
+                  "Fortuna imprevista (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 乙 como tronco do dia, a Riqueza estável é 戊 e a Autoridade é 庚."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 戊. 戊 não está contido em 丑."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 庚. 庚 não está contido em 丑."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [甲子](/guide/pillar-gap-ja) e o seguinte é [丙寅](/guide/pillar-byeong-in)."
+          },
+          {
+            "p": "É formado por [Madeira Yin (乙)](/guide/stem-eul) e [丑 (Boi)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-in": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 丙寅",
+    "summary": "Como o Saju-Link lê o pilar do dia 丙寅 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丙寅 é o pilar do dia número 3 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丙寅, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 寅 (Tigre). No ciclo de sessenta anos, é a combinação número 3."
+          },
+          {
+            "p": "O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙, e a frase que a tela de resultado mostra é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 寅 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 丙, os troncos que 寅 contém são os seguintes. O tronco principal (甲) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 丙寅",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 丙"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidInYeo}",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "médio (中氣)",
+                  "{hidInJung}",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Madeira Yang (甲)",
+                  "principal (本氣)",
+                  "{hidInBon}",
+                  "Apoio não convencional (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丙 como tronco do dia, a Riqueza estável é 辛 e a Autoridade é 癸."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 辛. 辛 não está contido em 寅."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 癸. 癸 não está contido em 寅."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [乙丑](/guide/pillar-eul-chuk) e o seguinte é [丁卯](/guide/pillar-jeong-myo)."
+          },
+          {
+            "p": "É formado por [Fogo Yang (丙)](/guide/stem-byeong) e [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-myo": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 丁卯",
+    "summary": "Como o Saju-Link lê o pilar do dia 丁卯 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丁卯 é o pilar do dia número 4 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丁卯, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 卯 (Coelho). No ciclo de sessenta anos, é a combinação número 4."
+          },
+          {
+            "p": "O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁, e a frase que a tela de resultado mostra é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 卯 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 丁, os troncos que 卯 contém são os seguintes. O tronco principal (乙) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 丁卯",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 丁"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "residual (餘氣)",
+                  "{hidMyoYeo}",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "principal (本氣)",
+                  "{hidMyoBon}",
+                  "Apoio não convencional (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丁 como tronco do dia, a Riqueza estável é 庚 e a Autoridade é 壬."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 庚. 庚 não está contido em 卯."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 壬. 壬 não está contido em 卯."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丙寅](/guide/pillar-byeong-in) e o seguinte é [戊辰](/guide/pillar-mu-jin)."
+          },
+          {
+            "p": "É formado por [Fogo Yin (丁)](/guide/stem-jeong) e [卯 (Coelho)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-jin": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 戊辰",
+    "summary": "Como o Saju-Link lê o pilar do dia 戊辰 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "戊辰 é o pilar do dia número 5 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 戊辰, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 辰 (Dragão). No ciclo de sessenta anos, é a combinação número 5."
+          },
+          {
+            "p": "O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊, e a frase que a tela de resultado mostra é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 辰 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 戊, os troncos que 辰 contém são os seguintes. O tronco principal (戊) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 戊辰",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 戊"
+              ],
+              "rows": [
+                [
+                  "Madeira Yin (乙)",
+                  "residual (餘氣)",
+                  "{hidJinYeo}",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "médio (中氣)",
+                  "{hidJinJung}",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "principal (本氣)",
+                  "{hidJinBon}",
+                  "Companheiro (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 戊 como tronco do dia, a Riqueza estável é 癸 e a Autoridade é 乙."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 癸. 癸 está contido em 辰 (médio (中氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 乙. 乙 está contido em 辰 (residual (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丁卯](/guide/pillar-jeong-myo) e o seguinte é [己巳](/guide/pillar-gi-sa)."
+          },
+          {
+            "p": "É formado por [Terra Yang (戊)](/guide/stem-mu) e [辰 (Dragão)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-sa": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 己巳",
+    "summary": "Como o Saju-Link lê o pilar do dia 己巳 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "己巳 é o pilar do dia número 6 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 己巳, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 巳 (Serpente). No ciclo de sessenta anos, é a combinação número 6."
+          },
+          {
+            "p": "O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己, e a frase que a tela de resultado mostra é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 巳 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 己, os troncos que 巳 contém são os seguintes. O tronco principal (丙) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 己巳",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 己"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidSaYeo}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "médio (中氣)",
+                  "{hidSaJung}",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "principal (本氣)",
+                  "{hidSaBon}",
+                  "Amparo (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 己 como tronco do dia, a Riqueza estável é 壬 e a Autoridade é 甲."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 壬. 壬 não está contido em 巳."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 甲. 甲 não está contido em 巳."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [戊辰](/guide/pillar-mu-jin) e o seguinte é [庚午](/guide/pillar-gyeong-o)."
+          },
+          {
+            "p": "É formado por [Terra Yin (己)](/guide/stem-gi) e [巳 (Serpente)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-o": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 庚午",
+    "summary": "Como o Saju-Link lê o pilar do dia 庚午 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "庚午 é o pilar do dia número 7 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 庚午, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 午 (Cavalo). No ciclo de sessenta anos, é a combinação número 7."
+          },
+          {
+            "p": "O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚, e a frase que a tela de resultado mostra é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 午 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 庚, os troncos que 午 contém são os seguintes. O tronco principal (丁) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 庚午",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 庚"
+              ],
+              "rows": [
+                [
+                  "Fogo Yang (丙)",
+                  "residual (餘氣)",
+                  "{hidOYeo}",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "médio (中氣)",
+                  "{hidOJung}",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "principal (本氣)",
+                  "{hidOBon}",
+                  "Autoridade (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 庚 como tronco do dia, a Riqueza estável é 乙 e a Autoridade é 丁."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 乙. 乙 não está contido em 午."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 丁. 丁 está contido em 午 (principal (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [己巳](/guide/pillar-gi-sa) e o seguinte é [辛未](/guide/pillar-sin-mi)."
+          },
+          {
+            "p": "É formado por [Metal Yang (庚)](/guide/stem-gyeong) e [午 (Cavalo)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-mi": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 辛未",
+    "summary": "Como o Saju-Link lê o pilar do dia 辛未 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "辛未 é o pilar do dia número 8 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 辛未, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 未 (Ovelha). No ciclo de sessenta anos, é a combinação número 8."
+          },
+          {
+            "p": "O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛, e a frase que a tela de resultado mostra é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 未 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 辛, os troncos que 未 contém são os seguintes. O tronco principal (己) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 辛未",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 辛"
+              ],
+              "rows": [
+                [
+                  "Fogo Yin (丁)",
+                  "residual (餘氣)",
+                  "{hidMiYeo}",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "médio (中氣)",
+                  "{hidMiJung}",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "principal (本氣)",
+                  "{hidMiBon}",
+                  "Apoio não convencional (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 辛 como tronco do dia, a Riqueza estável é 甲 e a Autoridade é 丙."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 甲. 甲 não está contido em 未."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 丙. 丙 não está contido em 未."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [庚午](/guide/pillar-gyeong-o) e o seguinte é [壬申](/guide/pillar-im-sin)."
+          },
+          {
+            "p": "É formado por [Metal Yin (辛)](/guide/stem-sin) e [未 (Ovelha)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-sin": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 壬申",
+    "summary": "Como o Saju-Link lê o pilar do dia 壬申 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "壬申 é o pilar do dia número 9 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 壬申, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 申 (Macaco). No ciclo de sessenta anos, é a combinação número 9."
+          },
+          {
+            "p": "O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬, e a frase que a tela de resultado mostra é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 申 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 壬, os troncos que 申 contém são os seguintes. O tronco principal (庚) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 壬申",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 壬"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidSinYeo}",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "médio (中氣)",
+                  "{hidSinJung}",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "principal (本氣)",
+                  "{hidSinBon}",
+                  "Apoio não convencional (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 壬 como tronco do dia, a Riqueza estável é 丁 e a Autoridade é 己."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 丁. 丁 não está contido em 申."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 己. 己 não está contido em 申."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [辛未](/guide/pillar-sin-mi) e o seguinte é [癸酉](/guide/pillar-gye-yu)."
+          },
+          {
+            "p": "É formado por [Água Yang (壬)](/guide/stem-im) e [申 (Macaco)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-yu": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 癸酉",
+    "summary": "Como o Saju-Link lê o pilar do dia 癸酉 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "癸酉 é o pilar do dia número 10 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 癸酉, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 酉 (Galo). No ciclo de sessenta anos, é a combinação número 10."
+          },
+          {
+            "p": "O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸, e a frase que a tela de resultado mostra é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 酉 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 癸, os troncos que 酉 contém são os seguintes. O tronco principal (辛) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 癸酉",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 癸"
+              ],
+              "rows": [
+                [
+                  "Metal Yang (庚)",
+                  "residual (餘氣)",
+                  "{hidYuYeo}",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "principal (本氣)",
+                  "{hidYuBon}",
+                  "Apoio não convencional (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 癸 como tronco do dia, a Riqueza estável é 丙 e a Autoridade é 戊."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 丙. 丙 não está contido em 酉."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 戊. 戊 não está contido em 酉."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [壬申](/guide/pillar-im-sin) e o seguinte é [甲戌](/guide/pillar-gap-sul)."
+          },
+          {
+            "p": "É formado por [Água Yin (癸)](/guide/stem-gye) e [酉 (Galo)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-sul": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 甲戌",
+    "summary": "Como o Saju-Link lê o pilar do dia 甲戌 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "甲戌 é o pilar do dia número 11 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 甲戌, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 戌 (Cão). No ciclo de sessenta anos, é a combinação número 11."
+          },
+          {
+            "p": "O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲, e a frase que a tela de resultado mostra é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 戌 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 甲, os troncos que 戌 contém são os seguintes. O tronco principal (戊) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 甲戌",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 甲"
+              ],
+              "rows": [
+                [
+                  "Metal Yin (辛)",
+                  "residual (餘氣)",
+                  "{hidSulYeo}",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "médio (中氣)",
+                  "{hidSulJung}",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "principal (本氣)",
+                  "{hidSulBon}",
+                  "Fortuna imprevista (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 甲 como tronco do dia, a Riqueza estável é 己 e a Autoridade é 辛."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 己. 己 não está contido em 戌."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 辛. 辛 está contido em 戌 (residual (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [癸酉](/guide/pillar-gye-yu) e o seguinte é [乙亥](/guide/pillar-eul-hae)."
+          },
+          {
+            "p": "É formado por [Madeira Yang (甲)](/guide/stem-gap) e [戌 (Cão)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-hae": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 乙亥",
+    "summary": "Como o Saju-Link lê o pilar do dia 乙亥 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "乙亥 é o pilar do dia número 12 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 乙亥, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 亥 (Porco). No ciclo de sessenta anos, é a combinação número 12."
+          },
+          {
+            "p": "O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙, e a frase que a tela de resultado mostra é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 亥 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 乙, os troncos que 亥 contém são os seguintes. O tronco principal (壬) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 乙亥",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 乙"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidHaeYeo}",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Madeira Yang (甲)",
+                  "médio (中氣)",
+                  "{hidHaeJung}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "principal (本氣)",
+                  "{hidHaeBon}",
+                  "Amparo (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 乙 como tronco do dia, a Riqueza estável é 戊 e a Autoridade é 庚."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 戊. 戊 está contido em 亥 (residual (餘氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 庚. 庚 não está contido em 亥."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [甲戌](/guide/pillar-gap-sul) e o seguinte é [丙子](/guide/pillar-byeong-ja)."
+          },
+          {
+            "p": "É formado por [Madeira Yin (乙)](/guide/stem-eul) e [亥 (Porco)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-ja": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 丙子",
+    "summary": "Como o Saju-Link lê o pilar do dia 丙子 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丙子 é o pilar do dia número 13 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丙子, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 子 (Rato). No ciclo de sessenta anos, é a combinação número 13."
+          },
+          {
+            "p": "O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙, e a frase que a tela de resultado mostra é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 子 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 丙, os troncos que 子 contém são os seguintes. O tronco principal (癸) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 丙子",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 丙"
+              ],
+              "rows": [
+                [
+                  "Água Yang (壬)",
+                  "residual (餘氣)",
+                  "{hidJaYeo}",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "principal (本氣)",
+                  "{hidJaBon}",
+                  "Autoridade (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丙 como tronco do dia, a Riqueza estável é 辛 e a Autoridade é 癸."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 辛. 辛 não está contido em 子."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 癸. 癸 está contido em 子 (principal (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [乙亥](/guide/pillar-eul-hae) e o seguinte é [丁丑](/guide/pillar-jeong-chuk)."
+          },
+          {
+            "p": "É formado por [Fogo Yang (丙)](/guide/stem-byeong) e [子 (Rato)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-chuk": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 丁丑",
+    "summary": "Como o Saju-Link lê o pilar do dia 丁丑 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丁丑 é o pilar do dia número 14 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丁丑, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 丑 (Boi). No ciclo de sessenta anos, é a combinação número 14."
+          },
+          {
+            "p": "O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁, e a frase que a tela de resultado mostra é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 丑 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 丁, os troncos que 丑 contém são os seguintes. O tronco principal (己) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 丁丑",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 丁"
+              ],
+              "rows": [
+                [
+                  "Água Yin (癸)",
+                  "residual (餘氣)",
+                  "{hidChukYeo}",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "médio (中氣)",
+                  "{hidChukJung}",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "principal (本氣)",
+                  "{hidChukBon}",
+                  "Expressão (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丁 como tronco do dia, a Riqueza estável é 庚 e a Autoridade é 壬."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 庚. 庚 não está contido em 丑."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 壬. 壬 não está contido em 丑."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丙子](/guide/pillar-byeong-ja) e o seguinte é [戊寅](/guide/pillar-mu-in)."
+          },
+          {
+            "p": "É formado por [Fogo Yin (丁)](/guide/stem-jeong) e [丑 (Boi)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-in": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 戊寅",
+    "summary": "Como o Saju-Link lê o pilar do dia 戊寅 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "戊寅 é o pilar do dia número 15 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 戊寅, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 寅 (Tigre). No ciclo de sessenta anos, é a combinação número 15."
+          },
+          {
+            "p": "O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊, e a frase que a tela de resultado mostra é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 寅 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 戊, os troncos que 寅 contém são os seguintes. O tronco principal (甲) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 戊寅",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 戊"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidInYeo}",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "médio (中氣)",
+                  "{hidInJung}",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Madeira Yang (甲)",
+                  "principal (本氣)",
+                  "{hidInBon}",
+                  "Desafiante (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 戊 como tronco do dia, a Riqueza estável é 癸 e a Autoridade é 乙."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 癸. 癸 não está contido em 寅."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 乙. 乙 não está contido em 寅."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丁丑](/guide/pillar-jeong-chuk) e o seguinte é [己卯](/guide/pillar-gi-myo)."
+          },
+          {
+            "p": "É formado por [Terra Yang (戊)](/guide/stem-mu) e [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-myo": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 己卯",
+    "summary": "Como o Saju-Link lê o pilar do dia 己卯 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "己卯 é o pilar do dia número 16 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 己卯, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 卯 (Coelho). No ciclo de sessenta anos, é a combinação número 16."
+          },
+          {
+            "p": "O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己, e a frase que a tela de resultado mostra é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 卯 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 己, os troncos que 卯 contém são os seguintes. O tronco principal (乙) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 己卯",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 己"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "residual (餘氣)",
+                  "{hidMyoYeo}",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "principal (本氣)",
+                  "{hidMyoBon}",
+                  "Desafiante (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 己 como tronco do dia, a Riqueza estável é 壬 e a Autoridade é 甲."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 壬. 壬 não está contido em 卯."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 甲. 甲 está contido em 卯 (residual (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [戊寅](/guide/pillar-mu-in) e o seguinte é [庚辰](/guide/pillar-gyeong-jin)."
+          },
+          {
+            "p": "É formado por [Terra Yin (己)](/guide/stem-gi) e [卯 (Coelho)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-jin": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 庚辰",
+    "summary": "Como o Saju-Link lê o pilar do dia 庚辰 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "庚辰 é o pilar do dia número 17 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 庚辰, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 辰 (Dragão). No ciclo de sessenta anos, é a combinação número 17."
+          },
+          {
+            "p": "O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚, e a frase que a tela de resultado mostra é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 辰 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 庚, os troncos que 辰 contém são os seguintes. O tronco principal (戊) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 庚辰",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 庚"
+              ],
+              "rows": [
+                [
+                  "Madeira Yin (乙)",
+                  "residual (餘氣)",
+                  "{hidJinYeo}",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "médio (中氣)",
+                  "{hidJinJung}",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "principal (本氣)",
+                  "{hidJinBon}",
+                  "Apoio não convencional (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 庚 como tronco do dia, a Riqueza estável é 乙 e a Autoridade é 丁."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 乙. 乙 está contido em 辰 (residual (餘氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 丁. 丁 não está contido em 辰."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [己卯](/guide/pillar-gi-myo) e o seguinte é [辛巳](/guide/pillar-sin-sa)."
+          },
+          {
+            "p": "É formado por [Metal Yang (庚)](/guide/stem-gyeong) e [辰 (Dragão)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-sa": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 辛巳",
+    "summary": "Como o Saju-Link lê o pilar do dia 辛巳 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "辛巳 é o pilar do dia número 18 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 辛巳, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 巳 (Serpente). No ciclo de sessenta anos, é a combinação número 18."
+          },
+          {
+            "p": "O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛, e a frase que a tela de resultado mostra é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 巳 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 辛, os troncos que 巳 contém são os seguintes. O tronco principal (丙) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 辛巳",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 辛"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidSaYeo}",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "médio (中氣)",
+                  "{hidSaJung}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "principal (本氣)",
+                  "{hidSaBon}",
+                  "Autoridade (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 辛 como tronco do dia, a Riqueza estável é 甲 e a Autoridade é 丙."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 甲. 甲 não está contido em 巳."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 丙. 丙 está contido em 巳 (principal (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [庚辰](/guide/pillar-gyeong-jin) e o seguinte é [壬午](/guide/pillar-im-o)."
+          },
+          {
+            "p": "É formado por [Metal Yin (辛)](/guide/stem-sin) e [巳 (Serpente)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-o": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 壬午",
+    "summary": "Como o Saju-Link lê o pilar do dia 壬午 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "壬午 é o pilar do dia número 19 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 壬午, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 午 (Cavalo). No ciclo de sessenta anos, é a combinação número 19."
+          },
+          {
+            "p": "O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬, e a frase que a tela de resultado mostra é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 午 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 壬, os troncos que 午 contém são os seguintes. O tronco principal (丁) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 壬午",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 壬"
+              ],
+              "rows": [
+                [
+                  "Fogo Yang (丙)",
+                  "residual (餘氣)",
+                  "{hidOYeo}",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "médio (中氣)",
+                  "{hidOJung}",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "principal (本氣)",
+                  "{hidOBon}",
+                  "Riqueza estável (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 壬 como tronco do dia, a Riqueza estável é 丁 e a Autoridade é 己."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 丁. 丁 está contido em 午 (principal (本氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 己. 己 está contido em 午 (médio (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [辛巳](/guide/pillar-sin-sa) e o seguinte é [癸未](/guide/pillar-gye-mi)."
+          },
+          {
+            "p": "É formado por [Água Yang (壬)](/guide/stem-im) e [午 (Cavalo)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-mi": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 癸未",
+    "summary": "Como o Saju-Link lê o pilar do dia 癸未 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "癸未 é o pilar do dia número 20 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 癸未, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 未 (Ovelha). No ciclo de sessenta anos, é a combinação número 20."
+          },
+          {
+            "p": "O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸, e a frase que a tela de resultado mostra é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 未 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 癸, os troncos que 未 contém são os seguintes. O tronco principal (己) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 癸未",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 癸"
+              ],
+              "rows": [
+                [
+                  "Fogo Yin (丁)",
+                  "residual (餘氣)",
+                  "{hidMiYeo}",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "médio (中氣)",
+                  "{hidMiJung}",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "principal (本氣)",
+                  "{hidMiBon}",
+                  "Desafiante (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 癸 como tronco do dia, a Riqueza estável é 丙 e a Autoridade é 戊."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 丙. 丙 não está contido em 未."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 戊. 戊 não está contido em 未."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [壬午](/guide/pillar-im-o) e o seguinte é [甲申](/guide/pillar-gap-sin)."
+          },
+          {
+            "p": "É formado por [Água Yin (癸)](/guide/stem-gye) e [未 (Ovelha)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-sin": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 甲申",
+    "summary": "Como o Saju-Link lê o pilar do dia 甲申 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "甲申 é o pilar do dia número 21 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 甲申, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 申 (Macaco). No ciclo de sessenta anos, é a combinação número 21."
+          },
+          {
+            "p": "O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲, e a frase que a tela de resultado mostra é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 申 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 甲, os troncos que 申 contém são os seguintes. O tronco principal (庚) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 甲申",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 甲"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidSinYeo}",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "médio (中氣)",
+                  "{hidSinJung}",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "principal (本氣)",
+                  "{hidSinBon}",
+                  "Desafiante (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 甲 como tronco do dia, a Riqueza estável é 己 e a Autoridade é 辛."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 己. 己 não está contido em 申."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 辛. 辛 não está contido em 申."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [癸未](/guide/pillar-gye-mi) e o seguinte é [乙酉](/guide/pillar-eul-yu)."
+          },
+          {
+            "p": "É formado por [Madeira Yang (甲)](/guide/stem-gap) e [申 (Macaco)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-yu": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 乙酉",
+    "summary": "Como o Saju-Link lê o pilar do dia 乙酉 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "乙酉 é o pilar do dia número 22 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 乙酉, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 酉 (Galo). No ciclo de sessenta anos, é a combinação número 22."
+          },
+          {
+            "p": "O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙, e a frase que a tela de resultado mostra é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 酉 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 乙, os troncos que 酉 contém são os seguintes. O tronco principal (辛) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 乙酉",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 乙"
+              ],
+              "rows": [
+                [
+                  "Metal Yang (庚)",
+                  "residual (餘氣)",
+                  "{hidYuYeo}",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "principal (本氣)",
+                  "{hidYuBon}",
+                  "Desafiante (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 乙 como tronco do dia, a Riqueza estável é 戊 e a Autoridade é 庚."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 戊. 戊 não está contido em 酉."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 庚. 庚 está contido em 酉 (residual (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [甲申](/guide/pillar-gap-sin) e o seguinte é [丙戌](/guide/pillar-byeong-sul)."
+          },
+          {
+            "p": "É formado por [Madeira Yin (乙)](/guide/stem-eul) e [酉 (Galo)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-sul": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 丙戌",
+    "summary": "Como o Saju-Link lê o pilar do dia 丙戌 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丙戌 é o pilar do dia número 23 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丙戌, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 戌 (Cão). No ciclo de sessenta anos, é a combinação número 23."
+          },
+          {
+            "p": "O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙, e a frase que a tela de resultado mostra é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 戌 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 丙, os troncos que 戌 contém são os seguintes. O tronco principal (戊) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 丙戌",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 丙"
+              ],
+              "rows": [
+                [
+                  "Metal Yin (辛)",
+                  "residual (餘氣)",
+                  "{hidSulYeo}",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "médio (中氣)",
+                  "{hidSulJung}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "principal (本氣)",
+                  "{hidSulBon}",
+                  "Expressão (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丙 como tronco do dia, a Riqueza estável é 辛 e a Autoridade é 癸."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 辛. 辛 está contido em 戌 (residual (餘氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 癸. 癸 não está contido em 戌."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [乙酉](/guide/pillar-eul-yu) e o seguinte é [丁亥](/guide/pillar-jeong-hae)."
+          },
+          {
+            "p": "É formado por [Fogo Yang (丙)](/guide/stem-byeong) e [戌 (Cão)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-hae": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 丁亥",
+    "summary": "Como o Saju-Link lê o pilar do dia 丁亥 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丁亥 é o pilar do dia número 24 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丁亥, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 亥 (Porco). No ciclo de sessenta anos, é a combinação número 24."
+          },
+          {
+            "p": "O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁, e a frase que a tela de resultado mostra é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 亥 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 丁, os troncos que 亥 contém são os seguintes. O tronco principal (壬) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 丁亥",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 丁"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidHaeYeo}",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Madeira Yang (甲)",
+                  "médio (中氣)",
+                  "{hidHaeJung}",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "principal (本氣)",
+                  "{hidHaeBon}",
+                  "Autoridade (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丁 como tronco do dia, a Riqueza estável é 庚 e a Autoridade é 壬."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 庚. 庚 não está contido em 亥."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 壬. 壬 está contido em 亥 (principal (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丙戌](/guide/pillar-byeong-sul) e o seguinte é [戊子](/guide/pillar-mu-ja)."
+          },
+          {
+            "p": "É formado por [Fogo Yin (丁)](/guide/stem-jeong) e [亥 (Porco)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-ja": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 戊子",
+    "summary": "Como o Saju-Link lê o pilar do dia 戊子 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "戊子 é o pilar do dia número 25 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 戊子, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 子 (Rato). No ciclo de sessenta anos, é a combinação número 25."
+          },
+          {
+            "p": "O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊, e a frase que a tela de resultado mostra é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 子 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 戊, os troncos que 子 contém são os seguintes. O tronco principal (癸) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 戊子",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 戊"
+              ],
+              "rows": [
+                [
+                  "Água Yang (壬)",
+                  "residual (餘氣)",
+                  "{hidJaYeo}",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "principal (本氣)",
+                  "{hidJaBon}",
+                  "Riqueza estável (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 戊 como tronco do dia, a Riqueza estável é 癸 e a Autoridade é 乙."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 癸. 癸 está contido em 子 (principal (本氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 乙. 乙 não está contido em 子."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丁亥](/guide/pillar-jeong-hae) e o seguinte é [己丑](/guide/pillar-gi-chuk)."
+          },
+          {
+            "p": "É formado por [Terra Yang (戊)](/guide/stem-mu) e [子 (Rato)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-chuk": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 己丑",
+    "summary": "Como o Saju-Link lê o pilar do dia 己丑 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "己丑 é o pilar do dia número 26 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 己丑, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 丑 (Boi). No ciclo de sessenta anos, é a combinação número 26."
+          },
+          {
+            "p": "O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己, e a frase que a tela de resultado mostra é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 丑 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 己, os troncos que 丑 contém são os seguintes. O tronco principal (己) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 己丑",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 己"
+              ],
+              "rows": [
+                [
+                  "Água Yin (癸)",
+                  "residual (餘氣)",
+                  "{hidChukYeo}",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "médio (中氣)",
+                  "{hidChukJung}",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "principal (本氣)",
+                  "{hidChukBon}",
+                  "Companheiro (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 己 como tronco do dia, a Riqueza estável é 壬 e a Autoridade é 甲."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 壬. 壬 não está contido em 丑."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 甲. 甲 não está contido em 丑."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [戊子](/guide/pillar-mu-ja) e o seguinte é [庚寅](/guide/pillar-gyeong-in)."
+          },
+          {
+            "p": "É formado por [Terra Yin (己)](/guide/stem-gi) e [丑 (Boi)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-in": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 庚寅",
+    "summary": "Como o Saju-Link lê o pilar do dia 庚寅 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "庚寅 é o pilar do dia número 27 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 庚寅, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 寅 (Tigre). No ciclo de sessenta anos, é a combinação número 27."
+          },
+          {
+            "p": "O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚, e a frase que a tela de resultado mostra é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 寅 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 庚, os troncos que 寅 contém são os seguintes. O tronco principal (甲) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 庚寅",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 庚"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidInYeo}",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "médio (中氣)",
+                  "{hidInJung}",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Madeira Yang (甲)",
+                  "principal (本氣)",
+                  "{hidInBon}",
+                  "Fortuna imprevista (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 庚 como tronco do dia, a Riqueza estável é 乙 e a Autoridade é 丁."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 乙. 乙 não está contido em 寅."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 丁. 丁 não está contido em 寅."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [己丑](/guide/pillar-gi-chuk) e o seguinte é [辛卯](/guide/pillar-sin-myo)."
+          },
+          {
+            "p": "É formado por [Metal Yang (庚)](/guide/stem-gyeong) e [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-myo": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 辛卯",
+    "summary": "Como o Saju-Link lê o pilar do dia 辛卯 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "辛卯 é o pilar do dia número 28 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 辛卯, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 卯 (Coelho). No ciclo de sessenta anos, é a combinação número 28."
+          },
+          {
+            "p": "O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛, e a frase que a tela de resultado mostra é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 卯 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 辛, os troncos que 卯 contém são os seguintes. O tronco principal (乙) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 辛卯",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 辛"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "residual (餘氣)",
+                  "{hidMyoYeo}",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "principal (本氣)",
+                  "{hidMyoBon}",
+                  "Fortuna imprevista (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 辛 como tronco do dia, a Riqueza estável é 甲 e a Autoridade é 丙."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 甲. 甲 está contido em 卯 (residual (餘氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 丙. 丙 não está contido em 卯."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [庚寅](/guide/pillar-gyeong-in) e o seguinte é [壬辰](/guide/pillar-im-jin)."
+          },
+          {
+            "p": "É formado por [Metal Yin (辛)](/guide/stem-sin) e [卯 (Coelho)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-jin": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 壬辰",
+    "summary": "Como o Saju-Link lê o pilar do dia 壬辰 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "壬辰 é o pilar do dia número 29 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 壬辰, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 辰 (Dragão). No ciclo de sessenta anos, é a combinação número 29."
+          },
+          {
+            "p": "O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬, e a frase que a tela de resultado mostra é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 辰 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 壬, os troncos que 辰 contém são os seguintes. O tronco principal (戊) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 壬辰",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 壬"
+              ],
+              "rows": [
+                [
+                  "Madeira Yin (乙)",
+                  "residual (餘氣)",
+                  "{hidJinYeo}",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "médio (中氣)",
+                  "{hidJinJung}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "principal (本氣)",
+                  "{hidJinBon}",
+                  "Desafiante (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 壬 como tronco do dia, a Riqueza estável é 丁 e a Autoridade é 己."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 丁. 丁 não está contido em 辰."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 己. 己 não está contido em 辰."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [辛卯](/guide/pillar-sin-myo) e o seguinte é [癸巳](/guide/pillar-gye-sa)."
+          },
+          {
+            "p": "É formado por [Água Yang (壬)](/guide/stem-im) e [辰 (Dragão)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-sa": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 癸巳",
+    "summary": "Como o Saju-Link lê o pilar do dia 癸巳 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "癸巳 é o pilar do dia número 30 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 癸巳, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 巳 (Serpente). No ciclo de sessenta anos, é a combinação número 30."
+          },
+          {
+            "p": "O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸, e a frase que a tela de resultado mostra é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 巳 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 癸, os troncos que 巳 contém são os seguintes. O tronco principal (丙) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 癸巳",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 癸"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidSaYeo}",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "médio (中氣)",
+                  "{hidSaJung}",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "principal (本氣)",
+                  "{hidSaBon}",
+                  "Riqueza estável (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 癸 como tronco do dia, a Riqueza estável é 丙 e a Autoridade é 戊."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 丙. 丙 está contido em 巳 (principal (本氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 戊. 戊 está contido em 巳 (residual (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [壬辰](/guide/pillar-im-jin) e o seguinte é [甲午](/guide/pillar-gap-o)."
+          },
+          {
+            "p": "É formado por [Água Yin (癸)](/guide/stem-gye) e [巳 (Serpente)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-o": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 甲午",
+    "summary": "Como o Saju-Link lê o pilar do dia 甲午 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "甲午 é o pilar do dia número 31 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 甲午, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 午 (Cavalo). No ciclo de sessenta anos, é a combinação número 31."
+          },
+          {
+            "p": "O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲, e a frase que a tela de resultado mostra é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 午 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 甲, os troncos que 午 contém são os seguintes. O tronco principal (丁) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 甲午",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 甲"
+              ],
+              "rows": [
+                [
+                  "Fogo Yang (丙)",
+                  "residual (餘氣)",
+                  "{hidOYeo}",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "médio (中氣)",
+                  "{hidOJung}",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "principal (本氣)",
+                  "{hidOBon}",
+                  "Perturbador (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 甲 como tronco do dia, a Riqueza estável é 己 e a Autoridade é 辛."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 己. 己 está contido em 午 (médio (中氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 辛. 辛 não está contido em 午."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [癸巳](/guide/pillar-gye-sa) e o seguinte é [乙未](/guide/pillar-eul-mi)."
+          },
+          {
+            "p": "É formado por [Madeira Yang (甲)](/guide/stem-gap) e [午 (Cavalo)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-mi": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 乙未",
+    "summary": "Como o Saju-Link lê o pilar do dia 乙未 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "乙未 é o pilar do dia número 32 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 乙未, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 未 (Ovelha). No ciclo de sessenta anos, é a combinação número 32."
+          },
+          {
+            "p": "O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙, e a frase que a tela de resultado mostra é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 未 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 乙, os troncos que 未 contém são os seguintes. O tronco principal (己) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 乙未",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 乙"
+              ],
+              "rows": [
+                [
+                  "Fogo Yin (丁)",
+                  "residual (餘氣)",
+                  "{hidMiYeo}",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "médio (中氣)",
+                  "{hidMiJung}",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "principal (本氣)",
+                  "{hidMiBon}",
+                  "Fortuna imprevista (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 乙 como tronco do dia, a Riqueza estável é 戊 e a Autoridade é 庚."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 戊. 戊 não está contido em 未."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 庚. 庚 não está contido em 未."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [甲午](/guide/pillar-gap-o) e o seguinte é [丙申](/guide/pillar-byeong-sin)."
+          },
+          {
+            "p": "É formado por [Madeira Yin (乙)](/guide/stem-eul) e [未 (Ovelha)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-sin": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 丙申",
+    "summary": "Como o Saju-Link lê o pilar do dia 丙申 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丙申 é o pilar do dia número 33 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丙申, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 申 (Macaco). No ciclo de sessenta anos, é a combinação número 33."
+          },
+          {
+            "p": "O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙, e a frase que a tela de resultado mostra é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 申 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 丙, os troncos que 申 contém são os seguintes. O tronco principal (庚) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 丙申",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 丙"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidSinYeo}",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "médio (中氣)",
+                  "{hidSinJung}",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "principal (本氣)",
+                  "{hidSinBon}",
+                  "Fortuna imprevista (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丙 como tronco do dia, a Riqueza estável é 辛 e a Autoridade é 癸."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 辛. 辛 não está contido em 申."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 癸. 癸 não está contido em 申."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [乙未](/guide/pillar-eul-mi) e o seguinte é [丁酉](/guide/pillar-jeong-yu)."
+          },
+          {
+            "p": "É formado por [Fogo Yang (丙)](/guide/stem-byeong) e [申 (Macaco)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-yu": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 丁酉",
+    "summary": "Como o Saju-Link lê o pilar do dia 丁酉 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丁酉 é o pilar do dia número 34 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丁酉, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 酉 (Galo). No ciclo de sessenta anos, é a combinação número 34."
+          },
+          {
+            "p": "O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁, e a frase que a tela de resultado mostra é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 酉 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 丁, os troncos que 酉 contém são os seguintes. O tronco principal (辛) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 丁酉",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 丁"
+              ],
+              "rows": [
+                [
+                  "Metal Yang (庚)",
+                  "residual (餘氣)",
+                  "{hidYuYeo}",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "principal (本氣)",
+                  "{hidYuBon}",
+                  "Fortuna imprevista (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丁 como tronco do dia, a Riqueza estável é 庚 e a Autoridade é 壬."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 庚. 庚 está contido em 酉 (residual (餘氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 壬. 壬 não está contido em 酉."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丙申](/guide/pillar-byeong-sin) e o seguinte é [戊戌](/guide/pillar-mu-sul)."
+          },
+          {
+            "p": "É formado por [Fogo Yin (丁)](/guide/stem-jeong) e [酉 (Galo)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-sul": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 戊戌",
+    "summary": "Como o Saju-Link lê o pilar do dia 戊戌 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "戊戌 é o pilar do dia número 35 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 戊戌, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 戌 (Cão). No ciclo de sessenta anos, é a combinação número 35."
+          },
+          {
+            "p": "O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊, e a frase que a tela de resultado mostra é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 戌 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 戊, os troncos que 戌 contém são os seguintes. O tronco principal (戊) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 戊戌",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 戊"
+              ],
+              "rows": [
+                [
+                  "Metal Yin (辛)",
+                  "residual (餘氣)",
+                  "{hidSulYeo}",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "médio (中氣)",
+                  "{hidSulJung}",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "principal (本氣)",
+                  "{hidSulBon}",
+                  "Companheiro (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 戊 como tronco do dia, a Riqueza estável é 癸 e a Autoridade é 乙."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 癸. 癸 não está contido em 戌."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 乙. 乙 não está contido em 戌."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丁酉](/guide/pillar-jeong-yu) e o seguinte é [己亥](/guide/pillar-gi-hae)."
+          },
+          {
+            "p": "É formado por [Terra Yang (戊)](/guide/stem-mu) e [戌 (Cão)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-hae": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 己亥",
+    "summary": "Como o Saju-Link lê o pilar do dia 己亥 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "己亥 é o pilar do dia número 36 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 己亥, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 亥 (Porco). No ciclo de sessenta anos, é a combinação número 36."
+          },
+          {
+            "p": "O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己, e a frase que a tela de resultado mostra é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 亥 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 己, os troncos que 亥 contém são os seguintes. O tronco principal (壬) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 己亥",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 己"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidHaeYeo}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Madeira Yang (甲)",
+                  "médio (中氣)",
+                  "{hidHaeJung}",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "principal (本氣)",
+                  "{hidHaeBon}",
+                  "Riqueza estável (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 己 como tronco do dia, a Riqueza estável é 壬 e a Autoridade é 甲."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 壬. 壬 está contido em 亥 (principal (本氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 甲. 甲 está contido em 亥 (médio (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [戊戌](/guide/pillar-mu-sul) e o seguinte é [庚子](/guide/pillar-gyeong-ja)."
+          },
+          {
+            "p": "É formado por [Terra Yin (己)](/guide/stem-gi) e [亥 (Porco)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-ja": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 庚子",
+    "summary": "Como o Saju-Link lê o pilar do dia 庚子 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "庚子 é o pilar do dia número 37 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 庚子, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 子 (Rato). No ciclo de sessenta anos, é a combinação número 37."
+          },
+          {
+            "p": "O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚, e a frase que a tela de resultado mostra é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 子 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 庚, os troncos que 子 contém são os seguintes. O tronco principal (癸) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 庚子",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 庚"
+              ],
+              "rows": [
+                [
+                  "Água Yang (壬)",
+                  "residual (餘氣)",
+                  "{hidJaYeo}",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "principal (本氣)",
+                  "{hidJaBon}",
+                  "Perturbador (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 庚 como tronco do dia, a Riqueza estável é 乙 e a Autoridade é 丁."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 乙. 乙 não está contido em 子."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 丁. 丁 não está contido em 子."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [己亥](/guide/pillar-gi-hae) e o seguinte é [辛丑](/guide/pillar-sin-chuk)."
+          },
+          {
+            "p": "É formado por [Metal Yang (庚)](/guide/stem-gyeong) e [子 (Rato)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-chuk": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 辛丑",
+    "summary": "Como o Saju-Link lê o pilar do dia 辛丑 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "辛丑 é o pilar do dia número 38 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 辛丑, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 丑 (Boi). No ciclo de sessenta anos, é a combinação número 38."
+          },
+          {
+            "p": "O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛, e a frase que a tela de resultado mostra é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 丑 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 辛, os troncos que 丑 contém são os seguintes. O tronco principal (己) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 辛丑",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 辛"
+              ],
+              "rows": [
+                [
+                  "Água Yin (癸)",
+                  "residual (餘氣)",
+                  "{hidChukYeo}",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "médio (中氣)",
+                  "{hidChukJung}",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "principal (本氣)",
+                  "{hidChukBon}",
+                  "Apoio não convencional (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 辛 como tronco do dia, a Riqueza estável é 甲 e a Autoridade é 丙."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 甲. 甲 não está contido em 丑."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 丙. 丙 não está contido em 丑."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [庚子](/guide/pillar-gyeong-ja) e o seguinte é [壬寅](/guide/pillar-im-in)."
+          },
+          {
+            "p": "É formado por [Metal Yin (辛)](/guide/stem-sin) e [丑 (Boi)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-in": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 壬寅",
+    "summary": "Como o Saju-Link lê o pilar do dia 壬寅 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "壬寅 é o pilar do dia número 39 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 壬寅, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 寅 (Tigre). No ciclo de sessenta anos, é a combinação número 39."
+          },
+          {
+            "p": "O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬, e a frase que a tela de resultado mostra é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 寅 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 壬, os troncos que 寅 contém são os seguintes. O tronco principal (甲) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 壬寅",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 壬"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidInYeo}",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "médio (中氣)",
+                  "{hidInJung}",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Madeira Yang (甲)",
+                  "principal (本氣)",
+                  "{hidInBon}",
+                  "Expressão (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 壬 como tronco do dia, a Riqueza estável é 丁 e a Autoridade é 己."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 丁. 丁 não está contido em 寅."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 己. 己 não está contido em 寅."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [辛丑](/guide/pillar-sin-chuk) e o seguinte é [癸卯](/guide/pillar-gye-myo)."
+          },
+          {
+            "p": "É formado por [Água Yang (壬)](/guide/stem-im) e [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-myo": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 癸卯",
+    "summary": "Como o Saju-Link lê o pilar do dia 癸卯 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "癸卯 é o pilar do dia número 40 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 癸卯, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 卯 (Coelho). No ciclo de sessenta anos, é a combinação número 40."
+          },
+          {
+            "p": "O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸, e a frase que a tela de resultado mostra é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 卯 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 癸, os troncos que 卯 contém são os seguintes. O tronco principal (乙) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 癸卯",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 癸"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "residual (餘氣)",
+                  "{hidMyoYeo}",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "principal (本氣)",
+                  "{hidMyoBon}",
+                  "Expressão (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 癸 como tronco do dia, a Riqueza estável é 丙 e a Autoridade é 戊."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 丙. 丙 não está contido em 卯."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 戊. 戊 não está contido em 卯."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [壬寅](/guide/pillar-im-in) e o seguinte é [甲辰](/guide/pillar-gap-jin)."
+          },
+          {
+            "p": "É formado por [Água Yin (癸)](/guide/stem-gye) e [卯 (Coelho)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-jin": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 甲辰",
+    "summary": "Como o Saju-Link lê o pilar do dia 甲辰 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "甲辰 é o pilar do dia número 41 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 甲辰, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 辰 (Dragão). No ciclo de sessenta anos, é a combinação número 41."
+          },
+          {
+            "p": "O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲, e a frase que a tela de resultado mostra é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 辰 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 甲, os troncos que 辰 contém são os seguintes. O tronco principal (戊) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 甲辰",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 甲"
+              ],
+              "rows": [
+                [
+                  "Madeira Yin (乙)",
+                  "residual (餘氣)",
+                  "{hidJinYeo}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "médio (中氣)",
+                  "{hidJinJung}",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "principal (本氣)",
+                  "{hidJinBon}",
+                  "Fortuna imprevista (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 甲 como tronco do dia, a Riqueza estável é 己 e a Autoridade é 辛."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 己. 己 não está contido em 辰."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 辛. 辛 não está contido em 辰."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [癸卯](/guide/pillar-gye-myo) e o seguinte é [乙巳](/guide/pillar-eul-sa)."
+          },
+          {
+            "p": "É formado por [Madeira Yang (甲)](/guide/stem-gap) e [辰 (Dragão)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-sa": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 乙巳",
+    "summary": "Como o Saju-Link lê o pilar do dia 乙巳 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "乙巳 é o pilar do dia número 42 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 乙巳, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 巳 (Serpente). No ciclo de sessenta anos, é a combinação número 42."
+          },
+          {
+            "p": "O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙, e a frase que a tela de resultado mostra é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 巳 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 乙, os troncos que 巳 contém são os seguintes. O tronco principal (丙) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 乙巳",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 乙"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidSaYeo}",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "médio (中氣)",
+                  "{hidSaJung}",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "principal (本氣)",
+                  "{hidSaBon}",
+                  "Perturbador (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 乙 como tronco do dia, a Riqueza estável é 戊 e a Autoridade é 庚."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 戊. 戊 está contido em 巳 (residual (餘氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 庚. 庚 está contido em 巳 (médio (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [甲辰](/guide/pillar-gap-jin) e o seguinte é [丙午](/guide/pillar-byeong-o)."
+          },
+          {
+            "p": "É formado por [Madeira Yin (乙)](/guide/stem-eul) e [巳 (Serpente)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-o": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 丙午",
+    "summary": "Como o Saju-Link lê o pilar do dia 丙午 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丙午 é o pilar do dia número 43 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丙午, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 午 (Cavalo). No ciclo de sessenta anos, é a combinação número 43."
+          },
+          {
+            "p": "O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙, e a frase que a tela de resultado mostra é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 午 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 丙, os troncos que 午 contém são os seguintes. O tronco principal (丁) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 丙午",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 丙"
+              ],
+              "rows": [
+                [
+                  "Fogo Yang (丙)",
+                  "residual (餘氣)",
+                  "{hidOYeo}",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "médio (中氣)",
+                  "{hidOJung}",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "principal (本氣)",
+                  "{hidOBon}",
+                  "Rival (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丙 como tronco do dia, a Riqueza estável é 辛 e a Autoridade é 癸."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 辛. 辛 não está contido em 午."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 癸. 癸 não está contido em 午."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [乙巳](/guide/pillar-eul-sa) e o seguinte é [丁未](/guide/pillar-jeong-mi)."
+          },
+          {
+            "p": "É formado por [Fogo Yang (丙)](/guide/stem-byeong) e [午 (Cavalo)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-mi": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 丁未",
+    "summary": "Como o Saju-Link lê o pilar do dia 丁未 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丁未 é o pilar do dia número 44 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丁未, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 未 (Ovelha). No ciclo de sessenta anos, é a combinação número 44."
+          },
+          {
+            "p": "O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁, e a frase que a tela de resultado mostra é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 未 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 丁, os troncos que 未 contém são os seguintes. O tronco principal (己) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 丁未",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 丁"
+              ],
+              "rows": [
+                [
+                  "Fogo Yin (丁)",
+                  "residual (餘氣)",
+                  "{hidMiYeo}",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "médio (中氣)",
+                  "{hidMiJung}",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "principal (本氣)",
+                  "{hidMiBon}",
+                  "Expressão (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丁 como tronco do dia, a Riqueza estável é 庚 e a Autoridade é 壬."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 庚. 庚 não está contido em 未."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 壬. 壬 não está contido em 未."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丙午](/guide/pillar-byeong-o) e o seguinte é [戊申](/guide/pillar-mu-sin)."
+          },
+          {
+            "p": "É formado por [Fogo Yin (丁)](/guide/stem-jeong) e [未 (Ovelha)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-sin": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 戊申",
+    "summary": "Como o Saju-Link lê o pilar do dia 戊申 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "戊申 é o pilar do dia número 45 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 戊申, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 申 (Macaco). No ciclo de sessenta anos, é a combinação número 45."
+          },
+          {
+            "p": "O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊, e a frase que a tela de resultado mostra é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 申 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 戊, os troncos que 申 contém são os seguintes. O tronco principal (庚) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 戊申",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 戊"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidSinYeo}",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "médio (中氣)",
+                  "{hidSinJung}",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "principal (本氣)",
+                  "{hidSinBon}",
+                  "Expressão (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 戊 como tronco do dia, a Riqueza estável é 癸 e a Autoridade é 乙."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 癸. 癸 não está contido em 申."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 乙. 乙 não está contido em 申."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丁未](/guide/pillar-jeong-mi) e o seguinte é [己酉](/guide/pillar-gi-yu)."
+          },
+          {
+            "p": "É formado por [Terra Yang (戊)](/guide/stem-mu) e [申 (Macaco)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-yu": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 己酉",
+    "summary": "Como o Saju-Link lê o pilar do dia 己酉 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "己酉 é o pilar do dia número 46 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 己酉, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 酉 (Galo). No ciclo de sessenta anos, é a combinação número 46."
+          },
+          {
+            "p": "O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己, e a frase que a tela de resultado mostra é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 酉 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 己, os troncos que 酉 contém são os seguintes. O tronco principal (辛) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 己酉",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 己"
+              ],
+              "rows": [
+                [
+                  "Metal Yang (庚)",
+                  "residual (餘氣)",
+                  "{hidYuYeo}",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "principal (本氣)",
+                  "{hidYuBon}",
+                  "Expressão (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 己 como tronco do dia, a Riqueza estável é 壬 e a Autoridade é 甲."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 壬. 壬 não está contido em 酉."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 甲. 甲 não está contido em 酉."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [戊申](/guide/pillar-mu-sin) e o seguinte é [庚戌](/guide/pillar-gyeong-sul)."
+          },
+          {
+            "p": "É formado por [Terra Yin (己)](/guide/stem-gi) e [酉 (Galo)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-sul": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 庚戌",
+    "summary": "Como o Saju-Link lê o pilar do dia 庚戌 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "庚戌 é o pilar do dia número 47 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 庚戌, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 戌 (Cão). No ciclo de sessenta anos, é a combinação número 47."
+          },
+          {
+            "p": "O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚, e a frase que a tela de resultado mostra é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 戌 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 庚, os troncos que 戌 contém são os seguintes. O tronco principal (戊) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 庚戌",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 庚"
+              ],
+              "rows": [
+                [
+                  "Metal Yin (辛)",
+                  "residual (餘氣)",
+                  "{hidSulYeo}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "médio (中氣)",
+                  "{hidSulJung}",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "principal (本氣)",
+                  "{hidSulBon}",
+                  "Apoio não convencional (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 庚 como tronco do dia, a Riqueza estável é 乙 e a Autoridade é 丁."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 乙. 乙 não está contido em 戌."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 丁. 丁 está contido em 戌 (médio (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [己酉](/guide/pillar-gi-yu) e o seguinte é [辛亥](/guide/pillar-sin-hae)."
+          },
+          {
+            "p": "É formado por [Metal Yang (庚)](/guide/stem-gyeong) e [戌 (Cão)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-hae": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 辛亥",
+    "summary": "Como o Saju-Link lê o pilar do dia 辛亥 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "辛亥 é o pilar do dia número 48 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 辛亥, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 亥 (Porco). No ciclo de sessenta anos, é a combinação número 48."
+          },
+          {
+            "p": "O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛, e a frase que a tela de resultado mostra é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 亥 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 辛, os troncos que 亥 contém são os seguintes. O tronco principal (壬) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 辛亥",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 辛"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidHaeYeo}",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Madeira Yang (甲)",
+                  "médio (中氣)",
+                  "{hidHaeJung}",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "principal (本氣)",
+                  "{hidHaeBon}",
+                  "Perturbador (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 辛 como tronco do dia, a Riqueza estável é 甲 e a Autoridade é 丙."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 甲. 甲 está contido em 亥 (médio (中氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 丙. 丙 não está contido em 亥."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [庚戌](/guide/pillar-gyeong-sul) e o seguinte é [壬子](/guide/pillar-im-ja)."
+          },
+          {
+            "p": "É formado por [Metal Yin (辛)](/guide/stem-sin) e [亥 (Porco)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-ja": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 壬子",
+    "summary": "Como o Saju-Link lê o pilar do dia 壬子 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "壬子 é o pilar do dia número 49 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 壬子, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 子 (Rato). No ciclo de sessenta anos, é a combinação número 49."
+          },
+          {
+            "p": "O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬, e a frase que a tela de resultado mostra é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 子 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 壬, os troncos que 子 contém são os seguintes. O tronco principal (癸) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 壬子",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 壬"
+              ],
+              "rows": [
+                [
+                  "Água Yang (壬)",
+                  "residual (餘氣)",
+                  "{hidJaYeo}",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "principal (本氣)",
+                  "{hidJaBon}",
+                  "Rival (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 壬 como tronco do dia, a Riqueza estável é 丁 e a Autoridade é 己."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 丁. 丁 não está contido em 子."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 己. 己 não está contido em 子."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [辛亥](/guide/pillar-sin-hae) e o seguinte é [癸丑](/guide/pillar-gye-chuk)."
+          },
+          {
+            "p": "É formado por [Água Yang (壬)](/guide/stem-im) e [子 (Rato)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-chuk": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 癸丑",
+    "summary": "Como o Saju-Link lê o pilar do dia 癸丑 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "癸丑 é o pilar do dia número 50 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 癸丑, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 丑 (Boi). No ciclo de sessenta anos, é a combinação número 50."
+          },
+          {
+            "p": "O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸, e a frase que a tela de resultado mostra é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 丑 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 癸, os troncos que 丑 contém são os seguintes. O tronco principal (己) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 癸丑",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 癸"
+              ],
+              "rows": [
+                [
+                  "Água Yin (癸)",
+                  "residual (餘氣)",
+                  "{hidChukYeo}",
+                  "Companheiro (比肩)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "médio (中氣)",
+                  "{hidChukJung}",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "principal (本氣)",
+                  "{hidChukBon}",
+                  "Desafiante (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 癸 como tronco do dia, a Riqueza estável é 丙 e a Autoridade é 戊."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 丙. 丙 não está contido em 丑."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 戊. 戊 não está contido em 丑."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [壬子](/guide/pillar-im-ja) e o seguinte é [甲寅](/guide/pillar-gap-in)."
+          },
+          {
+            "p": "É formado por [Água Yin (癸)](/guide/stem-gye) e [丑 (Boi)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-in": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 甲寅",
+    "summary": "Como o Saju-Link lê o pilar do dia 甲寅 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "甲寅 é o pilar do dia número 51 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 甲寅, o tronco do dia é 甲 (Madeira, Yang) e o ramo do dia é 寅 (Tigre). No ciclo de sessenta anos, é a combinação número 51."
+          },
+          {
+            "p": "O Saju-Link chama de \"Madeira Yang (甲)\" a pessoa cujo tronco do dia é 甲, e a frase que a tela de resultado mostra é: \"Uma árvore alta que cresce reta. Definida a direção, não vacila, e prefere aguentar a se curvar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 寅 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 甲, os troncos que 寅 contém são os seguintes. O tronco principal (甲) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 甲寅",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 甲"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidInYeo}",
+                  "Fortuna imprevista (偏財)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "médio (中氣)",
+                  "{hidInJung}",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Madeira Yang (甲)",
+                  "principal (本氣)",
+                  "{hidInBon}",
+                  "Companheiro (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 甲 como tronco do dia, a Riqueza estável é 己 e a Autoridade é 辛."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 己. 己 não está contido em 寅."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 辛. 辛 não está contido em 寅."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [癸丑](/guide/pillar-gye-chuk) e o seguinte é [乙卯](/guide/pillar-eul-myo)."
+          },
+          {
+            "p": "É formado por [Madeira Yang (甲)](/guide/stem-gap) e [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-myo": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 乙卯",
+    "summary": "Como o Saju-Link lê o pilar do dia 乙卯 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "乙卯 é o pilar do dia número 52 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 乙卯, o tronco do dia é 乙 (Madeira, Yin) e o ramo do dia é 卯 (Coelho). No ciclo de sessenta anos, é a combinação número 52."
+          },
+          {
+            "p": "O Saju-Link chama de \"Madeira Yin (乙)\" a pessoa cujo tronco do dia é 乙, e a frase que a tela de resultado mostra é: \"Uma trepadeira, erva flexível. Curva-se conforme as circunstâncias para seguir em frente, e não se rompe.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 卯 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 乙, os troncos que 卯 contém são os seguintes. O tronco principal (乙) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 乙卯",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 乙"
+              ],
+              "rows": [
+                [
+                  "Madeira Yang (甲)",
+                  "residual (餘氣)",
+                  "{hidMyoYeo}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "principal (本氣)",
+                  "{hidMyoBon}",
+                  "Companheiro (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 乙 como tronco do dia, a Riqueza estável é 戊 e a Autoridade é 庚."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 戊. 戊 não está contido em 卯."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 庚. 庚 não está contido em 卯."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [甲寅](/guide/pillar-gap-in) e o seguinte é [丙辰](/guide/pillar-byeong-jin)."
+          },
+          {
+            "p": "É formado por [Madeira Yin (乙)](/guide/stem-eul) e [卯 (Coelho)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-jin": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 丙辰",
+    "summary": "Como o Saju-Link lê o pilar do dia 丙辰 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丙辰 é o pilar do dia número 53 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丙辰, o tronco do dia é 丙 (Fogo, Yang) e o ramo do dia é 辰 (Dragão). No ciclo de sessenta anos, é a combinação número 53."
+          },
+          {
+            "p": "O Saju-Link chama de \"Fogo Yang (丙)\" a pessoa cujo tronco do dia é 丙, e a frase que a tela de resultado mostra é: \"O sol do meio-dia. Os sentimentos aparecem sem disfarce, o ambiente se ilumina e dar o primeiro passo vem com naturalidade.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 辰 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 丙, os troncos que 辰 contém são os seguintes. O tronco principal (戊) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 丙辰",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 丙"
+              ],
+              "rows": [
+                [
+                  "Madeira Yin (乙)",
+                  "residual (餘氣)",
+                  "{hidJinYeo}",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Água Yin (癸)",
+                  "médio (中氣)",
+                  "{hidJinJung}",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "principal (本氣)",
+                  "{hidJinBon}",
+                  "Expressão (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丙 como tronco do dia, a Riqueza estável é 辛 e a Autoridade é 癸."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 辛. 辛 não está contido em 辰."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 癸. 癸 está contido em 辰 (médio (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [乙卯](/guide/pillar-eul-myo) e o seguinte é [丁巳](/guide/pillar-jeong-sa)."
+          },
+          {
+            "p": "É formado por [Fogo Yang (丙)](/guide/stem-byeong) e [辰 (Dragão)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-sa": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 丁巳",
+    "summary": "Como o Saju-Link lê o pilar do dia 丁巳 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "丁巳 é o pilar do dia número 54 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 丁巳, o tronco do dia é 丁 (Fogo, Yin) e o ramo do dia é 巳 (Serpente). No ciclo de sessenta anos, é a combinação número 54."
+          },
+          {
+            "p": "O Saju-Link chama de \"Fogo Yin (丁)\" a pessoa cujo tronco do dia é 丁, e a frase que a tela de resultado mostra é: \"A luz de vela. Queima em silêncio e por muito tempo, e aquece primeiro quem está mais perto.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 巳 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 丁, os troncos que 巳 contém são os seguintes. O tronco principal (丙) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 丁巳",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 丁"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidSaYeo}",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "médio (中氣)",
+                  "{hidSaJung}",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Fogo Yang (丙)",
+                  "principal (本氣)",
+                  "{hidSaBon}",
+                  "Rival (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 丁 como tronco do dia, a Riqueza estável é 庚 e a Autoridade é 壬."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 庚. 庚 está contido em 巳 (médio (中氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 壬. 壬 não está contido em 巳."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丙辰](/guide/pillar-byeong-jin) e o seguinte é [戊午](/guide/pillar-mu-o)."
+          },
+          {
+            "p": "É formado por [Fogo Yin (丁)](/guide/stem-jeong) e [巳 (Serpente)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-o": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 戊午",
+    "summary": "Como o Saju-Link lê o pilar do dia 戊午 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "戊午 é o pilar do dia número 55 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 戊午, o tronco do dia é 戊 (Terra, Yang) e o ramo do dia é 午 (Cavalo). No ciclo de sessenta anos, é a combinação número 55."
+          },
+          {
+            "p": "O Saju-Link chama de \"Terra Yang (戊)\" a pessoa cujo tronco do dia é 戊, e a frase que a tela de resultado mostra é: \"Campo aberto e montanhas. Difícil de abalar e fácil de servir de apoio, embora demore a mudar uma decisão já tomada.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 午 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 戊, os troncos que 午 contém são os seguintes. O tronco principal (丁) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 戊午",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 戊"
+              ],
+              "rows": [
+                [
+                  "Fogo Yang (丙)",
+                  "residual (餘氣)",
+                  "{hidOYeo}",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "médio (中氣)",
+                  "{hidOJung}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "principal (本氣)",
+                  "{hidOBon}",
+                  "Amparo (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 戊 como tronco do dia, a Riqueza estável é 癸 e a Autoridade é 乙."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 癸. 癸 não está contido em 午."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 乙. 乙 não está contido em 午."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [丁巳](/guide/pillar-jeong-sa) e o seguinte é [己未](/guide/pillar-gi-mi)."
+          },
+          {
+            "p": "É formado por [Terra Yang (戊)](/guide/stem-mu) e [午 (Cavalo)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-mi": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 己未",
+    "summary": "Como o Saju-Link lê o pilar do dia 己未 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "己未 é o pilar do dia número 56 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 己未, o tronco do dia é 己 (Terra, Yin) e o ramo do dia é 未 (Ovelha). No ciclo de sessenta anos, é a combinação número 56."
+          },
+          {
+            "p": "O Saju-Link chama de \"Terra Yin (己)\" a pessoa cujo tronco do dia é 己, e a frase que a tela de resultado mostra é: \"Solo de lavoura. Acolhe o que vier e faz crescer, cuidando em vez de exibir.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 未 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 己, os troncos que 未 contém são os seguintes. O tronco principal (己) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 己未",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 己"
+              ],
+              "rows": [
+                [
+                  "Fogo Yin (丁)",
+                  "residual (餘氣)",
+                  "{hidMiYeo}",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Madeira Yin (乙)",
+                  "médio (中氣)",
+                  "{hidMiJung}",
+                  "Desafiante (偏官)"
+                ],
+                [
+                  "Terra Yin (己)",
+                  "principal (本氣)",
+                  "{hidMiBon}",
+                  "Companheiro (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 己 como tronco do dia, a Riqueza estável é 壬 e a Autoridade é 甲."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 壬. 壬 não está contido em 未."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 甲. 甲 não está contido em 未."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [戊午](/guide/pillar-mu-o) e o seguinte é [庚申](/guide/pillar-gyeong-sin)."
+          },
+          {
+            "p": "É formado por [Terra Yin (己)](/guide/stem-gi) e [未 (Ovelha)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-sin": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 庚申",
+    "summary": "Como o Saju-Link lê o pilar do dia 庚申 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "庚申 é o pilar do dia número 57 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 庚申, o tronco do dia é 庚 (Metal, Yang) e o ramo do dia é 申 (Macaco). No ciclo de sessenta anos, é a combinação número 57."
+          },
+          {
+            "p": "O Saju-Link chama de \"Metal Yang (庚)\" a pessoa cujo tronco do dia é 庚, e a frase que a tela de resultado mostra é: \"Ferro bruto. Decidido e direto, com pouca paciência para o que fica pendente.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 申 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 庚, os troncos que 申 contém são os seguintes. O tronco principal (庚) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 庚申",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 庚"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidSinYeo}",
+                  "Apoio não convencional (偏印)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "médio (中氣)",
+                  "{hidSinJung}",
+                  "Expressão (食神)"
+                ],
+                [
+                  "Metal Yang (庚)",
+                  "principal (本氣)",
+                  "{hidSinBon}",
+                  "Companheiro (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 庚 como tronco do dia, a Riqueza estável é 乙 e a Autoridade é 丁."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 乙. 乙 não está contido em 申."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 丁. 丁 não está contido em 申."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [己未](/guide/pillar-gi-mi) e o seguinte é [辛酉](/guide/pillar-sin-yu)."
+          },
+          {
+            "p": "É formado por [Metal Yang (庚)](/guide/stem-gyeong) e [申 (Macaco)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-yu": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 辛酉",
+    "summary": "Como o Saju-Link lê o pilar do dia 辛酉 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "辛酉 é o pilar do dia número 58 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 辛酉, o tronco do dia é 辛 (Metal, Yin) e o ramo do dia é 酉 (Galo). No ciclo de sessenta anos, é a combinação número 58."
+          },
+          {
+            "p": "O Saju-Link chama de \"Metal Yin (辛)\" a pessoa cujo tronco do dia é 辛, e a frase que a tela de resultado mostra é: \"Uma gema lapidada. Gosto refinado e padrões altos; o desleixo é difícil de deixar passar.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 酉 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 辛, os troncos que 酉 contém são os seguintes. O tronco principal (辛) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 辛酉",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 辛"
+              ],
+              "rows": [
+                [
+                  "Metal Yang (庚)",
+                  "residual (餘氣)",
+                  "{hidYuYeo}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Metal Yin (辛)",
+                  "principal (本氣)",
+                  "{hidYuBon}",
+                  "Companheiro (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 辛 como tronco do dia, a Riqueza estável é 甲 e a Autoridade é 丙."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 甲. 甲 não está contido em 酉."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 丙. 丙 não está contido em 酉."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [庚申](/guide/pillar-gyeong-sin) e o seguinte é [壬戌](/guide/pillar-im-sul)."
+          },
+          {
+            "p": "É formado por [Metal Yin (辛)](/guide/stem-sin) e [酉 (Galo)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-sul": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 壬戌",
+    "summary": "Como o Saju-Link lê o pilar do dia 壬戌 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "壬戌 é o pilar do dia número 59 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 壬戌, o tronco do dia é 壬 (Água, Yang) e o ramo do dia é 戌 (Cão). No ciclo de sessenta anos, é a combinação número 59."
+          },
+          {
+            "p": "O Saju-Link chama de \"Água Yang (壬)\" a pessoa cujo tronco do dia é 壬, e a frase que a tela de resultado mostra é: \"Rio e mar. Visão ampla, com olho para a maneira como as coisas fluem.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 戌 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 壬, os troncos que 戌 contém são os seguintes. O tronco principal (戊) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 壬戌",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 壬"
+              ],
+              "rows": [
+                [
+                  "Metal Yin (辛)",
+                  "residual (餘氣)",
+                  "{hidSulYeo}",
+                  "Amparo (正印)"
+                ],
+                [
+                  "Fogo Yin (丁)",
+                  "médio (中氣)",
+                  "{hidSulJung}",
+                  "Riqueza estável (正財)"
+                ],
+                [
+                  "Terra Yang (戊)",
+                  "principal (本氣)",
+                  "{hidSulBon}",
+                  "Desafiante (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 壬 como tronco do dia, a Riqueza estável é 丁 e a Autoridade é 己."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 丁. 丁 está contido em 戌 (médio (中氣))."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 己. 己 não está contido em 戌."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [辛酉](/guide/pillar-sin-yu) e o seguinte é [癸亥](/guide/pillar-gye-hae)."
+          },
+          {
+            "p": "É formado por [Água Yang (壬)](/guide/stem-im) e [戌 (Cão)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-hae": {
+    "eyebrow": "Pilares do dia",
+    "title": "O pilar do dia 癸亥",
+    "summary": "Como o Saju-Link lê o pilar do dia 癸亥 — o que os troncos contidos no ramo do dia são para o tronco do dia — apresentado exatamente como constam suas regras de cálculo.",
+    "backLabel": "Base de cálculo",
+    "sections": [
+      {
+        "title": "癸亥 é o pilar do dia número 60 do ciclo de sessenta anos",
+        "blocks": [
+          {
+            "p": "Quando o par tronco-ramo do dia de nascimento é 癸亥, o tronco do dia é 癸 (Água, Yin) e o ramo do dia é 亥 (Porco). No ciclo de sessenta anos, é a combinação número 60."
+          },
+          {
+            "p": "O Saju-Link chama de \"Água Yin (癸)\" a pessoa cujo tronco do dia é 癸, e a frase que a tela de resultado mostra é: \"Orvalho e chuva. Infiltra-se em silêncio e lê o clima antes das palavras.\" Esta frase não tem relação com a leitura abaixo nem com as pontuações."
+          }
+        ]
+      },
+      {
+        "title": "O que os troncos contidos no ramo do dia 亥 são para o tronco do dia",
+        "blocks": [
+          {
+            "p": "O ramo do dia é a posição do cônjuge. Lidos a partir do tronco do dia 癸, os troncos que 亥 contém são os seguintes. O tronco principal (壬) é a energia representativa do ramo."
+          },
+          {
+            "table": {
+              "caption": "Os troncos ocultos do ramo do dia de 癸亥",
+              "head": [
+                "Tronco oculto",
+                "Posição",
+                "Proporção",
+                "Para o tronco do dia 癸"
+              ],
+              "rows": [
+                [
+                  "Terra Yang (戊)",
+                  "residual (餘氣)",
+                  "{hidHaeYeo}",
+                  "Autoridade (正官)"
+                ],
+                [
+                  "Madeira Yang (甲)",
+                  "médio (中氣)",
+                  "{hidHaeJung}",
+                  "Perturbador (傷官)"
+                ],
+                [
+                  "Água Yang (壬)",
+                  "principal (本氣)",
+                  "{hidHaeBon}",
+                  "Rival (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "A posição do cônjuge e este pilar do dia",
+        "blocks": [
+          {
+            "p": "O myeongri tradicional lê a posição do cônjuge como Riqueza estável (正財) para os homens e Autoridade (正官) para as mulheres. Com 癸 como tronco do dia, a Riqueza estável é 丙 e a Autoridade é 戊."
+          },
+          {
+            "p": "Para homens, a posição do cônjuge (Riqueza estável) é 丙. 丙 não está contido em 亥."
+          },
+          {
+            "p": "Para mulheres, a posição do cônjuge (Autoridade) é 戊. 戊 está contido em 亥 (residual (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Os pilares do dia vizinhos e os caracteres de que ele é feito",
+        "blocks": [
+          {
+            "p": "No ciclo de sessenta anos, o pilar do dia anterior é [壬戌](/guide/pillar-im-sul) e o seguinte é [甲子](/guide/pillar-gap-ja)."
+          },
+          {
+            "p": "É formado por [Água Yin (癸)](/guide/stem-gye) e [亥 (Porco)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "O que este guia não diz",
+        "blocks": [
+          {
+            "ul": [
+              "Um pilar do dia não define uma pessoa nem um relacionamento. Um saju é lido a partir de como os oito caracteres dos quatro pilares se relacionam.",
+              "A leitura da posição do cônjuge herda uma regra do myeongri tradicional, e se você não informar o gênero esta posição não é lida."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Os Dez Deuses",
     "title": "Os Dez Deuses — As Dez Posições Dentro do Meu Saju",

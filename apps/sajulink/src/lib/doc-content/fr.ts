@@ -400,6 +400,9563 @@ export const FR_DOCS = {
       }
     ]
   },
+  "guide/stem-gap": {
+    "eyebrow": "Tiges célestes",
+    "title": "Bois Yang (甲) — Bois, Yang",
+    "summary": "L'élément et la polarité de la tige céleste 甲, la manière dont elle lit les neuf autres tiges (les Dix Dieux) et les branches terrestres qui la contiennent — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Bois Yang (甲) est la première des dix tiges célestes",
+        "blocks": [
+          {
+            "p": "甲 est la première des dix tiges célestes. Son élément est le Bois et sa polarité est Yang. Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲."
+          },
+          {
+            "p": "La ligne que l'écran de résultats affiche pour cette tige du jour est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec le tableau ni avec les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Comment elle lit les autres tiges (les Dix Dieux)",
+        "blocks": [
+          {
+            "p": "Avec 甲 comme tige du jour, chacune des dix tiges se lit comme suit. La lecture est orientée : voici comment 甲 lit l'autre tige, et lorsque l'autre tige lit 甲, un nom différent peut en résulter."
+          },
+          {
+            "table": {
+              "caption": "Les Dix Dieux avec Bois Yang (甲) comme tige du jour",
+              "head": [
+                "Autre tige",
+                "Élément et polarité",
+                "Nom des Dix Dieux"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "Expression (食神)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "Bienveillance (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les tiges lues comme position du conjoint",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 甲 comme tige du jour, la Richesse stable est 己 et l'Autorité est 辛. Si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+          }
+        ]
+      },
+      {
+        "title": "Les branches qui contiennent 甲",
+        "blocks": [
+          {
+            "p": "C'est là que 甲 se trouve caché à l'intérieur des branches terrestres (les tiges cachées). La part est la proportion des trente jours de cette branche que prend 甲."
+          },
+          {
+            "table": {
+              "caption": "Les branches qui contiennent 甲",
+              "head": [
+                "Branche",
+                "Animal",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Tigre",
+                  "principale (本氣)",
+                  "{hidInBon}"
+                ],
+                [
+                  "卯",
+                  "Lapin",
+                  "résiduelle (餘氣)",
+                  "{hidMyoYeo}"
+                ],
+                [
+                  "亥",
+                  "Cochon",
+                  "intermédiaire (中氣)",
+                  "{hidHaeJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule tige ne détermine pas une personne. Un saju se lit à partir des relations entre ses huit caractères.",
+              "Les Dix Dieux sont un jugement porté à partir de la tige du jour. Les deux mêmes caractères reçoivent un nom différent selon celui qui est la tige du jour."
+            ]
+          },
+          {
+            "p": "Les Dix Dieux complets figurent dans [le guide des Dix Dieux](/guide/ten-gods), et la force des éléments ainsi que le signe du mois dans [le guide des cinq éléments](/guide/five-elements). Autres tiges : [Bois Yin (乙)](/guide/stem-eul) · [Feu Yang (丙)](/guide/stem-byeong) · [Feu Yin (丁)](/guide/stem-jeong) · [Terre Yang (戊)](/guide/stem-mu) · [Terre Yin (己)](/guide/stem-gi) · [Métal Yang (庚)](/guide/stem-gyeong) · [Métal Yin (辛)](/guide/stem-sin) · [Eau Yang (壬)](/guide/stem-im) · [Eau Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-eul": {
+    "eyebrow": "Tiges célestes",
+    "title": "Bois Yin (乙) — Bois, Yin",
+    "summary": "L'élément et la polarité de la tige céleste 乙, la manière dont elle lit les neuf autres tiges (les Dix Dieux) et les branches terrestres qui la contiennent — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Bois Yin (乙) est la deuxième des dix tiges célestes",
+        "blocks": [
+          {
+            "p": "乙 est la deuxième des dix tiges célestes. Son élément est le Bois et sa polarité est Yin. Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙."
+          },
+          {
+            "p": "La ligne que l'écran de résultats affiche pour cette tige du jour est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec le tableau ni avec les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Comment elle lit les autres tiges (les Dix Dieux)",
+        "blocks": [
+          {
+            "p": "Avec 乙 comme tige du jour, chacune des dix tiges se lit comme suit. La lecture est orientée : voici comment 乙 lit l'autre tige, et lorsque l'autre tige lit 乙, un nom différent peut en résulter."
+          },
+          {
+            "table": {
+              "caption": "Les Dix Dieux avec Bois Yin (乙) comme tige du jour",
+              "head": [
+                "Autre tige",
+                "Élément et polarité",
+                "Nom des Dix Dieux"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "Expression (食神)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "Soutien atypique (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les tiges lues comme position du conjoint",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 乙 comme tige du jour, la Richesse stable est 戊 et l'Autorité est 庚. Si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+          }
+        ]
+      },
+      {
+        "title": "Les branches qui contiennent 乙",
+        "blocks": [
+          {
+            "p": "C'est là que 乙 se trouve caché à l'intérieur des branches terrestres (les tiges cachées). La part est la proportion des trente jours de cette branche que prend 乙."
+          },
+          {
+            "table": {
+              "caption": "Les branches qui contiennent 乙",
+              "head": [
+                "Branche",
+                "Animal",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "卯",
+                  "Lapin",
+                  "principale (本氣)",
+                  "{hidMyoBon}"
+                ],
+                [
+                  "辰",
+                  "Dragon",
+                  "résiduelle (餘氣)",
+                  "{hidJinYeo}"
+                ],
+                [
+                  "未",
+                  "Mouton",
+                  "intermédiaire (中氣)",
+                  "{hidMiJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule tige ne détermine pas une personne. Un saju se lit à partir des relations entre ses huit caractères.",
+              "Les Dix Dieux sont un jugement porté à partir de la tige du jour. Les deux mêmes caractères reçoivent un nom différent selon celui qui est la tige du jour."
+            ]
+          },
+          {
+            "p": "Les Dix Dieux complets figurent dans [le guide des Dix Dieux](/guide/ten-gods), et la force des éléments ainsi que le signe du mois dans [le guide des cinq éléments](/guide/five-elements). Autres tiges : [Bois Yang (甲)](/guide/stem-gap) · [Feu Yang (丙)](/guide/stem-byeong) · [Feu Yin (丁)](/guide/stem-jeong) · [Terre Yang (戊)](/guide/stem-mu) · [Terre Yin (己)](/guide/stem-gi) · [Métal Yang (庚)](/guide/stem-gyeong) · [Métal Yin (辛)](/guide/stem-sin) · [Eau Yang (壬)](/guide/stem-im) · [Eau Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-byeong": {
+    "eyebrow": "Tiges célestes",
+    "title": "Feu Yang (丙) — Feu, Yang",
+    "summary": "L'élément et la polarité de la tige céleste 丙, la manière dont elle lit les neuf autres tiges (les Dix Dieux) et les branches terrestres qui la contiennent — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Feu Yang (丙) est la troisième des dix tiges célestes",
+        "blocks": [
+          {
+            "p": "丙 est la troisième des dix tiges célestes. Son élément est le Feu et sa polarité est Yang. Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙."
+          },
+          {
+            "p": "La ligne que l'écran de résultats affiche pour cette tige du jour est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec le tableau ni avec les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Comment elle lit les autres tiges (les Dix Dieux)",
+        "blocks": [
+          {
+            "p": "Avec 丙 comme tige du jour, chacune des dix tiges se lit comme suit. La lecture est orientée : voici comment 丙 lit l'autre tige, et lorsque l'autre tige lit 丙, un nom différent peut en résulter."
+          },
+          {
+            "table": {
+              "caption": "Les Dix Dieux avec Feu Yang (丙) comme tige du jour",
+              "head": [
+                "Autre tige",
+                "Élément et polarité",
+                "Nom des Dix Dieux"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "Expression (食神)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "Autorité (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les tiges lues comme position du conjoint",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丙 comme tige du jour, la Richesse stable est 辛 et l'Autorité est 癸. Si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+          }
+        ]
+      },
+      {
+        "title": "Les branches qui contiennent 丙",
+        "blocks": [
+          {
+            "p": "C'est là que 丙 se trouve caché à l'intérieur des branches terrestres (les tiges cachées). La part est la proportion des trente jours de cette branche que prend 丙."
+          },
+          {
+            "table": {
+              "caption": "Les branches qui contiennent 丙",
+              "head": [
+                "Branche",
+                "Animal",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Tigre",
+                  "intermédiaire (中氣)",
+                  "{hidInJung}"
+                ],
+                [
+                  "巳",
+                  "Serpent",
+                  "principale (本氣)",
+                  "{hidSaBon}"
+                ],
+                [
+                  "午",
+                  "Cheval",
+                  "résiduelle (餘氣)",
+                  "{hidOYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule tige ne détermine pas une personne. Un saju se lit à partir des relations entre ses huit caractères.",
+              "Les Dix Dieux sont un jugement porté à partir de la tige du jour. Les deux mêmes caractères reçoivent un nom différent selon celui qui est la tige du jour."
+            ]
+          },
+          {
+            "p": "Les Dix Dieux complets figurent dans [le guide des Dix Dieux](/guide/ten-gods), et la force des éléments ainsi que le signe du mois dans [le guide des cinq éléments](/guide/five-elements). Autres tiges : [Bois Yang (甲)](/guide/stem-gap) · [Bois Yin (乙)](/guide/stem-eul) · [Feu Yin (丁)](/guide/stem-jeong) · [Terre Yang (戊)](/guide/stem-mu) · [Terre Yin (己)](/guide/stem-gi) · [Métal Yang (庚)](/guide/stem-gyeong) · [Métal Yin (辛)](/guide/stem-sin) · [Eau Yang (壬)](/guide/stem-im) · [Eau Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-jeong": {
+    "eyebrow": "Tiges célestes",
+    "title": "Feu Yin (丁) — Feu, Yin",
+    "summary": "L'élément et la polarité de la tige céleste 丁, la manière dont elle lit les neuf autres tiges (les Dix Dieux) et les branches terrestres qui la contiennent — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Feu Yin (丁) est la quatrième des dix tiges célestes",
+        "blocks": [
+          {
+            "p": "丁 est la quatrième des dix tiges célestes. Son élément est le Feu et sa polarité est Yin. Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁."
+          },
+          {
+            "p": "La ligne que l'écran de résultats affiche pour cette tige du jour est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec le tableau ni avec les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Comment elle lit les autres tiges (les Dix Dieux)",
+        "blocks": [
+          {
+            "p": "Avec 丁 comme tige du jour, chacune des dix tiges se lit comme suit. La lecture est orientée : voici comment 丁 lit l'autre tige, et lorsque l'autre tige lit 丁, un nom différent peut en résulter."
+          },
+          {
+            "table": {
+              "caption": "Les Dix Dieux avec Feu Yin (丁) comme tige du jour",
+              "head": [
+                "Autre tige",
+                "Élément et polarité",
+                "Nom des Dix Dieux"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "Expression (食神)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "Défi (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les tiges lues comme position du conjoint",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丁 comme tige du jour, la Richesse stable est 庚 et l'Autorité est 壬. Si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+          }
+        ]
+      },
+      {
+        "title": "Les branches qui contiennent 丁",
+        "blocks": [
+          {
+            "p": "C'est là que 丁 se trouve caché à l'intérieur des branches terrestres (les tiges cachées). La part est la proportion des trente jours de cette branche que prend 丁."
+          },
+          {
+            "table": {
+              "caption": "Les branches qui contiennent 丁",
+              "head": [
+                "Branche",
+                "Animal",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "午",
+                  "Cheval",
+                  "principale (本氣)",
+                  "{hidOBon}"
+                ],
+                [
+                  "未",
+                  "Mouton",
+                  "résiduelle (餘氣)",
+                  "{hidMiYeo}"
+                ],
+                [
+                  "戌",
+                  "Chien",
+                  "intermédiaire (中氣)",
+                  "{hidSulJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule tige ne détermine pas une personne. Un saju se lit à partir des relations entre ses huit caractères.",
+              "Les Dix Dieux sont un jugement porté à partir de la tige du jour. Les deux mêmes caractères reçoivent un nom différent selon celui qui est la tige du jour."
+            ]
+          },
+          {
+            "p": "Les Dix Dieux complets figurent dans [le guide des Dix Dieux](/guide/ten-gods), et la force des éléments ainsi que le signe du mois dans [le guide des cinq éléments](/guide/five-elements). Autres tiges : [Bois Yang (甲)](/guide/stem-gap) · [Bois Yin (乙)](/guide/stem-eul) · [Feu Yang (丙)](/guide/stem-byeong) · [Terre Yang (戊)](/guide/stem-mu) · [Terre Yin (己)](/guide/stem-gi) · [Métal Yang (庚)](/guide/stem-gyeong) · [Métal Yin (辛)](/guide/stem-sin) · [Eau Yang (壬)](/guide/stem-im) · [Eau Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-mu": {
+    "eyebrow": "Tiges célestes",
+    "title": "Terre Yang (戊) — Terre, Yang",
+    "summary": "L'élément et la polarité de la tige céleste 戊, la manière dont elle lit les neuf autres tiges (les Dix Dieux) et les branches terrestres qui la contiennent — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Terre Yang (戊) est la cinquième des dix tiges célestes",
+        "blocks": [
+          {
+            "p": "戊 est la cinquième des dix tiges célestes. Son élément est la Terre et sa polarité est Yang. Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊."
+          },
+          {
+            "p": "La ligne que l'écran de résultats affiche pour cette tige du jour est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec le tableau ni avec les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Comment elle lit les autres tiges (les Dix Dieux)",
+        "blocks": [
+          {
+            "p": "Avec 戊 comme tige du jour, chacune des dix tiges se lit comme suit. La lecture est orientée : voici comment 戊 lit l'autre tige, et lorsque l'autre tige lit 戊, un nom différent peut en résulter."
+          },
+          {
+            "table": {
+              "caption": "Les Dix Dieux avec Terre Yang (戊) comme tige du jour",
+              "head": [
+                "Autre tige",
+                "Élément et polarité",
+                "Nom des Dix Dieux"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "Expression (食神)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "Richesse stable (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les tiges lues comme position du conjoint",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 戊 comme tige du jour, la Richesse stable est 癸 et l'Autorité est 乙. Si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+          }
+        ]
+      },
+      {
+        "title": "Les branches qui contiennent 戊",
+        "blocks": [
+          {
+            "p": "C'est là que 戊 se trouve caché à l'intérieur des branches terrestres (les tiges cachées). La part est la proportion des trente jours de cette branche que prend 戊."
+          },
+          {
+            "table": {
+              "caption": "Les branches qui contiennent 戊",
+              "head": [
+                "Branche",
+                "Animal",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Tigre",
+                  "résiduelle (餘氣)",
+                  "{hidInYeo}"
+                ],
+                [
+                  "辰",
+                  "Dragon",
+                  "principale (本氣)",
+                  "{hidJinBon}"
+                ],
+                [
+                  "巳",
+                  "Serpent",
+                  "résiduelle (餘氣)",
+                  "{hidSaYeo}"
+                ],
+                [
+                  "申",
+                  "Singe",
+                  "résiduelle (餘氣)",
+                  "{hidSinYeo}"
+                ],
+                [
+                  "戌",
+                  "Chien",
+                  "principale (本氣)",
+                  "{hidSulBon}"
+                ],
+                [
+                  "亥",
+                  "Cochon",
+                  "résiduelle (餘氣)",
+                  "{hidHaeYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule tige ne détermine pas une personne. Un saju se lit à partir des relations entre ses huit caractères.",
+              "Les Dix Dieux sont un jugement porté à partir de la tige du jour. Les deux mêmes caractères reçoivent un nom différent selon celui qui est la tige du jour."
+            ]
+          },
+          {
+            "p": "Les Dix Dieux complets figurent dans [le guide des Dix Dieux](/guide/ten-gods), et la force des éléments ainsi que le signe du mois dans [le guide des cinq éléments](/guide/five-elements). Autres tiges : [Bois Yang (甲)](/guide/stem-gap) · [Bois Yin (乙)](/guide/stem-eul) · [Feu Yang (丙)](/guide/stem-byeong) · [Feu Yin (丁)](/guide/stem-jeong) · [Terre Yin (己)](/guide/stem-gi) · [Métal Yang (庚)](/guide/stem-gyeong) · [Métal Yin (辛)](/guide/stem-sin) · [Eau Yang (壬)](/guide/stem-im) · [Eau Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gi": {
+    "eyebrow": "Tiges célestes",
+    "title": "Terre Yin (己) — Terre, Yin",
+    "summary": "L'élément et la polarité de la tige céleste 己, la manière dont elle lit les neuf autres tiges (les Dix Dieux) et les branches terrestres qui la contiennent — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Terre Yin (己) est la sixième des dix tiges célestes",
+        "blocks": [
+          {
+            "p": "己 est la sixième des dix tiges célestes. Son élément est la Terre et sa polarité est Yin. Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己."
+          },
+          {
+            "p": "La ligne que l'écran de résultats affiche pour cette tige du jour est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec le tableau ni avec les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Comment elle lit les autres tiges (les Dix Dieux)",
+        "blocks": [
+          {
+            "p": "Avec 己 comme tige du jour, chacune des dix tiges se lit comme suit. La lecture est orientée : voici comment 己 lit l'autre tige, et lorsque l'autre tige lit 己, un nom différent peut en résulter."
+          },
+          {
+            "table": {
+              "caption": "Les Dix Dieux avec Terre Yin (己) comme tige du jour",
+              "head": [
+                "Autre tige",
+                "Élément et polarité",
+                "Nom des Dix Dieux"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "Expression (食神)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "Aubaine (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les tiges lues comme position du conjoint",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 己 comme tige du jour, la Richesse stable est 壬 et l'Autorité est 甲. Si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+          }
+        ]
+      },
+      {
+        "title": "Les branches qui contiennent 己",
+        "blocks": [
+          {
+            "p": "C'est là que 己 se trouve caché à l'intérieur des branches terrestres (les tiges cachées). La part est la proportion des trente jours de cette branche que prend 己."
+          },
+          {
+            "table": {
+              "caption": "Les branches qui contiennent 己",
+              "head": [
+                "Branche",
+                "Animal",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "丑",
+                  "Bœuf",
+                  "principale (本氣)",
+                  "{hidChukBon}"
+                ],
+                [
+                  "午",
+                  "Cheval",
+                  "intermédiaire (中氣)",
+                  "{hidOJung}"
+                ],
+                [
+                  "未",
+                  "Mouton",
+                  "principale (本氣)",
+                  "{hidMiBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule tige ne détermine pas une personne. Un saju se lit à partir des relations entre ses huit caractères.",
+              "Les Dix Dieux sont un jugement porté à partir de la tige du jour. Les deux mêmes caractères reçoivent un nom différent selon celui qui est la tige du jour."
+            ]
+          },
+          {
+            "p": "Les Dix Dieux complets figurent dans [le guide des Dix Dieux](/guide/ten-gods), et la force des éléments ainsi que le signe du mois dans [le guide des cinq éléments](/guide/five-elements). Autres tiges : [Bois Yang (甲)](/guide/stem-gap) · [Bois Yin (乙)](/guide/stem-eul) · [Feu Yang (丙)](/guide/stem-byeong) · [Feu Yin (丁)](/guide/stem-jeong) · [Terre Yang (戊)](/guide/stem-mu) · [Métal Yang (庚)](/guide/stem-gyeong) · [Métal Yin (辛)](/guide/stem-sin) · [Eau Yang (壬)](/guide/stem-im) · [Eau Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gyeong": {
+    "eyebrow": "Tiges célestes",
+    "title": "Métal Yang (庚) — Métal, Yang",
+    "summary": "L'élément et la polarité de la tige céleste 庚, la manière dont elle lit les neuf autres tiges (les Dix Dieux) et les branches terrestres qui la contiennent — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Métal Yang (庚) est la septième des dix tiges célestes",
+        "blocks": [
+          {
+            "p": "庚 est la septième des dix tiges célestes. Son élément est le Métal et sa polarité est Yang. Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚."
+          },
+          {
+            "p": "La ligne que l'écran de résultats affiche pour cette tige du jour est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec le tableau ni avec les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Comment elle lit les autres tiges (les Dix Dieux)",
+        "blocks": [
+          {
+            "p": "Avec 庚 comme tige du jour, chacune des dix tiges se lit comme suit. La lecture est orientée : voici comment 庚 lit l'autre tige, et lorsque l'autre tige lit 庚, un nom différent peut en résulter."
+          },
+          {
+            "table": {
+              "caption": "Les Dix Dieux avec Métal Yang (庚) comme tige du jour",
+              "head": [
+                "Autre tige",
+                "Élément et polarité",
+                "Nom des Dix Dieux"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "Expression (食神)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "Perturbateur (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les tiges lues comme position du conjoint",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 庚 comme tige du jour, la Richesse stable est 乙 et l'Autorité est 丁. Si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+          }
+        ]
+      },
+      {
+        "title": "Les branches qui contiennent 庚",
+        "blocks": [
+          {
+            "p": "C'est là que 庚 se trouve caché à l'intérieur des branches terrestres (les tiges cachées). La part est la proportion des trente jours de cette branche que prend 庚."
+          },
+          {
+            "table": {
+              "caption": "Les branches qui contiennent 庚",
+              "head": [
+                "Branche",
+                "Animal",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "巳",
+                  "Serpent",
+                  "intermédiaire (中氣)",
+                  "{hidSaJung}"
+                ],
+                [
+                  "申",
+                  "Singe",
+                  "principale (本氣)",
+                  "{hidSinBon}"
+                ],
+                [
+                  "酉",
+                  "Coq",
+                  "résiduelle (餘氣)",
+                  "{hidYuYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule tige ne détermine pas une personne. Un saju se lit à partir des relations entre ses huit caractères.",
+              "Les Dix Dieux sont un jugement porté à partir de la tige du jour. Les deux mêmes caractères reçoivent un nom différent selon celui qui est la tige du jour."
+            ]
+          },
+          {
+            "p": "Les Dix Dieux complets figurent dans [le guide des Dix Dieux](/guide/ten-gods), et la force des éléments ainsi que le signe du mois dans [le guide des cinq éléments](/guide/five-elements). Autres tiges : [Bois Yang (甲)](/guide/stem-gap) · [Bois Yin (乙)](/guide/stem-eul) · [Feu Yang (丙)](/guide/stem-byeong) · [Feu Yin (丁)](/guide/stem-jeong) · [Terre Yang (戊)](/guide/stem-mu) · [Terre Yin (己)](/guide/stem-gi) · [Métal Yin (辛)](/guide/stem-sin) · [Eau Yang (壬)](/guide/stem-im) · [Eau Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-sin": {
+    "eyebrow": "Tiges célestes",
+    "title": "Métal Yin (辛) — Métal, Yin",
+    "summary": "L'élément et la polarité de la tige céleste 辛, la manière dont elle lit les neuf autres tiges (les Dix Dieux) et les branches terrestres qui la contiennent — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Métal Yin (辛) est la huitième des dix tiges célestes",
+        "blocks": [
+          {
+            "p": "辛 est la huitième des dix tiges célestes. Son élément est le Métal et sa polarité est Yin. Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛."
+          },
+          {
+            "p": "La ligne que l'écran de résultats affiche pour cette tige du jour est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec le tableau ni avec les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Comment elle lit les autres tiges (les Dix Dieux)",
+        "blocks": [
+          {
+            "p": "Avec 辛 comme tige du jour, chacune des dix tiges se lit comme suit. La lecture est orientée : voici comment 辛 lit l'autre tige, et lorsque l'autre tige lit 辛, un nom différent peut en résulter."
+          },
+          {
+            "table": {
+              "caption": "Les Dix Dieux avec Métal Yin (辛) comme tige du jour",
+              "head": [
+                "Autre tige",
+                "Élément et polarité",
+                "Nom des Dix Dieux"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "Expression (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les tiges lues comme position du conjoint",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 辛 comme tige du jour, la Richesse stable est 甲 et l'Autorité est 丙. Si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+          }
+        ]
+      },
+      {
+        "title": "Les branches qui contiennent 辛",
+        "blocks": [
+          {
+            "p": "C'est là que 辛 se trouve caché à l'intérieur des branches terrestres (les tiges cachées). La part est la proportion des trente jours de cette branche que prend 辛."
+          },
+          {
+            "table": {
+              "caption": "Les branches qui contiennent 辛",
+              "head": [
+                "Branche",
+                "Animal",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "丑",
+                  "Bœuf",
+                  "intermédiaire (中氣)",
+                  "{hidChukJung}"
+                ],
+                [
+                  "酉",
+                  "Coq",
+                  "principale (本氣)",
+                  "{hidYuBon}"
+                ],
+                [
+                  "戌",
+                  "Chien",
+                  "résiduelle (餘氣)",
+                  "{hidSulYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule tige ne détermine pas une personne. Un saju se lit à partir des relations entre ses huit caractères.",
+              "Les Dix Dieux sont un jugement porté à partir de la tige du jour. Les deux mêmes caractères reçoivent un nom différent selon celui qui est la tige du jour."
+            ]
+          },
+          {
+            "p": "Les Dix Dieux complets figurent dans [le guide des Dix Dieux](/guide/ten-gods), et la force des éléments ainsi que le signe du mois dans [le guide des cinq éléments](/guide/five-elements). Autres tiges : [Bois Yang (甲)](/guide/stem-gap) · [Bois Yin (乙)](/guide/stem-eul) · [Feu Yang (丙)](/guide/stem-byeong) · [Feu Yin (丁)](/guide/stem-jeong) · [Terre Yang (戊)](/guide/stem-mu) · [Terre Yin (己)](/guide/stem-gi) · [Métal Yang (庚)](/guide/stem-gyeong) · [Eau Yang (壬)](/guide/stem-im) · [Eau Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-im": {
+    "eyebrow": "Tiges célestes",
+    "title": "Eau Yang (壬) — Eau, Yang",
+    "summary": "L'élément et la polarité de la tige céleste 壬, la manière dont elle lit les neuf autres tiges (les Dix Dieux) et les branches terrestres qui la contiennent — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Eau Yang (壬) est la neuvième des dix tiges célestes",
+        "blocks": [
+          {
+            "p": "壬 est la neuvième des dix tiges célestes. Son élément est l'Eau et sa polarité est Yang. Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬."
+          },
+          {
+            "p": "La ligne que l'écran de résultats affiche pour cette tige du jour est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec le tableau ni avec les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Comment elle lit les autres tiges (les Dix Dieux)",
+        "blocks": [
+          {
+            "p": "Avec 壬 comme tige du jour, chacune des dix tiges se lit comme suit. La lecture est orientée : voici comment 壬 lit l'autre tige, et lorsque l'autre tige lit 壬, un nom différent peut en résulter."
+          },
+          {
+            "table": {
+              "caption": "Les Dix Dieux avec Eau Yang (壬) comme tige du jour",
+              "head": [
+                "Autre tige",
+                "Élément et polarité",
+                "Nom des Dix Dieux"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "Expression (食神)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "Rival (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les tiges lues comme position du conjoint",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 壬 comme tige du jour, la Richesse stable est 丁 et l'Autorité est 己. Si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+          }
+        ]
+      },
+      {
+        "title": "Les branches qui contiennent 壬",
+        "blocks": [
+          {
+            "p": "C'est là que 壬 se trouve caché à l'intérieur des branches terrestres (les tiges cachées). La part est la proportion des trente jours de cette branche que prend 壬."
+          },
+          {
+            "table": {
+              "caption": "Les branches qui contiennent 壬",
+              "head": [
+                "Branche",
+                "Animal",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Rat",
+                  "résiduelle (餘氣)",
+                  "{hidJaYeo}"
+                ],
+                [
+                  "申",
+                  "Singe",
+                  "intermédiaire (中氣)",
+                  "{hidSinJung}"
+                ],
+                [
+                  "亥",
+                  "Cochon",
+                  "principale (本氣)",
+                  "{hidHaeBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule tige ne détermine pas une personne. Un saju se lit à partir des relations entre ses huit caractères.",
+              "Les Dix Dieux sont un jugement porté à partir de la tige du jour. Les deux mêmes caractères reçoivent un nom différent selon celui qui est la tige du jour."
+            ]
+          },
+          {
+            "p": "Les Dix Dieux complets figurent dans [le guide des Dix Dieux](/guide/ten-gods), et la force des éléments ainsi que le signe du mois dans [le guide des cinq éléments](/guide/five-elements). Autres tiges : [Bois Yang (甲)](/guide/stem-gap) · [Bois Yin (乙)](/guide/stem-eul) · [Feu Yang (丙)](/guide/stem-byeong) · [Feu Yin (丁)](/guide/stem-jeong) · [Terre Yang (戊)](/guide/stem-mu) · [Terre Yin (己)](/guide/stem-gi) · [Métal Yang (庚)](/guide/stem-gyeong) · [Métal Yin (辛)](/guide/stem-sin) · [Eau Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gye": {
+    "eyebrow": "Tiges célestes",
+    "title": "Eau Yin (癸) — Eau, Yin",
+    "summary": "L'élément et la polarité de la tige céleste 癸, la manière dont elle lit les neuf autres tiges (les Dix Dieux) et les branches terrestres qui la contiennent — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "Eau Yin (癸) est la dixième des dix tiges célestes",
+        "blocks": [
+          {
+            "p": "癸 est la dixième des dix tiges célestes. Son élément est l'Eau et sa polarité est Yin. Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸."
+          },
+          {
+            "p": "La ligne que l'écran de résultats affiche pour cette tige du jour est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec le tableau ni avec les scores ci-dessous."
+          }
+        ]
+      },
+      {
+        "title": "Comment elle lit les autres tiges (les Dix Dieux)",
+        "blocks": [
+          {
+            "p": "Avec 癸 comme tige du jour, chacune des dix tiges se lit comme suit. La lecture est orientée : voici comment 癸 lit l'autre tige, et lorsque l'autre tige lit 癸, un nom différent peut en résulter."
+          },
+          {
+            "table": {
+              "caption": "Les Dix Dieux avec Eau Yin (癸) comme tige du jour",
+              "head": [
+                "Autre tige",
+                "Élément et polarité",
+                "Nom des Dix Dieux"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "Expression (食神)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "Compagnon (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les tiges lues comme position du conjoint",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 癸 comme tige du jour, la Richesse stable est 丙 et l'Autorité est 戊. Si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+          }
+        ]
+      },
+      {
+        "title": "Les branches qui contiennent 癸",
+        "blocks": [
+          {
+            "p": "C'est là que 癸 se trouve caché à l'intérieur des branches terrestres (les tiges cachées). La part est la proportion des trente jours de cette branche que prend 癸."
+          },
+          {
+            "table": {
+              "caption": "Les branches qui contiennent 癸",
+              "head": [
+                "Branche",
+                "Animal",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Rat",
+                  "principale (本氣)",
+                  "{hidJaBon}"
+                ],
+                [
+                  "丑",
+                  "Bœuf",
+                  "résiduelle (餘氣)",
+                  "{hidChukYeo}"
+                ],
+                [
+                  "辰",
+                  "Dragon",
+                  "intermédiaire (中氣)",
+                  "{hidJinJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule tige ne détermine pas une personne. Un saju se lit à partir des relations entre ses huit caractères.",
+              "Les Dix Dieux sont un jugement porté à partir de la tige du jour. Les deux mêmes caractères reçoivent un nom différent selon celui qui est la tige du jour."
+            ]
+          },
+          {
+            "p": "Les Dix Dieux complets figurent dans [le guide des Dix Dieux](/guide/ten-gods), et la force des éléments ainsi que le signe du mois dans [le guide des cinq éléments](/guide/five-elements). Autres tiges : [Bois Yang (甲)](/guide/stem-gap) · [Bois Yin (乙)](/guide/stem-eul) · [Feu Yang (丙)](/guide/stem-byeong) · [Feu Yin (丁)](/guide/stem-jeong) · [Terre Yang (戊)](/guide/stem-mu) · [Terre Yin (己)](/guide/stem-gi) · [Métal Yang (庚)](/guide/stem-gyeong) · [Métal Yin (辛)](/guide/stem-sin) · [Eau Yang (壬)](/guide/stem-im)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-ja": {
+    "eyebrow": "Branches terrestres",
+    "title": "子 — la branche du Rat",
+    "summary": "Les tiges contenues dans la branche terrestre 子 (les tiges cachées), la force des cinq éléments lorsqu'elle est la branche du mois et les Dix Dieux lus pour chaque tige du jour — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "子 est la première des douze branches terrestres",
+        "blocks": [
+          {
+            "p": "子 est la première des douze branches terrestres et appartient au Rat. Lorsque la branche du mois de naissance est 子, la saison est l'hiver et l'élément qui possède la saison est l'Eau."
+          },
+          {
+            "p": "Lorsque la branche du jour de naissance est 子, ce caractère est la position du conjoint. Vous voyez ci-dessous quelles tiges cette branche contient et ce qu'elles sont pour la tige du jour."
+          }
+        ]
+      },
+      {
+        "title": "Les tiges que contient cette branche (tiges cachées)",
+        "blocks": [
+          {
+            "p": "Une branche est un seul caractère visible, mais elle contient des tiges à l'intérieur. La part indique comment les trente jours de la branche sont répartis entre les tiges, et la tige principale est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de 子",
+              "head": [
+                "Tige",
+                "Élément et polarité",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "résiduelle (餘氣)",
+                  "{hidJaYeo}"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "principale (本氣)",
+                  "{hidJaBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La force des cinq éléments lorsque la branche du mois est 子",
+        "blocks": [
+          {
+            "p": "Lorsque la branche du mois de naissance est 子, chaque élément reçoit un état (Wang, Sang, Hyu, Su, Sa), et cet état devient le multiplicateur appliqué à sa force."
+          },
+          {
+            "table": {
+              "caption": "Les états des éléments pour la branche du mois 子 (hiver)",
+              "head": [
+                "Élément",
+                "État",
+                "Multiplicateur"
+              ],
+              "rows": [
+                [
+                  "Bois",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Feu",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Terre",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Métal",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Eau",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les Dix Dieux selon la tige du jour",
+        "blocks": [
+          {
+            "p": "Les mêmes tiges cachées de 子 deviennent des Dix Dieux différents selon la tige du jour. Lorsque 子 est la branche du jour, ce tableau est la lecture de la position du conjoint."
+          },
+          {
+            "table": {
+              "caption": "Ce que sont les tiges cachées de 子 pour chaque tige du jour",
+              "head": [
+                "Tige du jour",
+                "Eau Yang (壬) — résiduelle (餘氣)",
+                "Eau Yin (癸) — principale (本氣)"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Soutien atypique (偏印)",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bienveillance (正印)",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Défi (偏官)",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Autorité (正官)",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Aubaine (偏財)",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Richesse stable (正財)",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Expression (食神)",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Perturbateur (傷官)",
+                  "Expression (食神)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Compagnon (比肩)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Rival (劫財)",
+                  "Compagnon (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule branche ne détermine pas une personne. La même branche se lit différemment selon la tige du jour et la branche du mois.",
+              "Les relations entre branches, telles que l'harmonie, le choc et la discorde, ne sont pas traitées ici."
+            ]
+          },
+          {
+            "p": "Les relations entre branches se trouvent dans [le tableau des douze branches](/guide/branches), et sa signification en tant qu'animal du zodiaque dans [la place du zodiaque dans un saju](/guide/zodiac). Autres branches : [丑 (Bœuf)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Lapin)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Serpent)](/guide/branch-sa) · [午 (Cheval)](/guide/branch-o) · [未 (Mouton)](/guide/branch-mi) · [申 (Singe)](/guide/branch-sin) · [酉 (Coq)](/guide/branch-yu) · [戌 (Chien)](/guide/branch-sul) · [亥 (Cochon)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-chuk": {
+    "eyebrow": "Branches terrestres",
+    "title": "丑 — la branche du Bœuf",
+    "summary": "Les tiges contenues dans la branche terrestre 丑 (les tiges cachées), la force des cinq éléments lorsqu'elle est la branche du mois et les Dix Dieux lus pour chaque tige du jour — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丑 est la deuxième des douze branches terrestres",
+        "blocks": [
+          {
+            "p": "丑 est la deuxième des douze branches terrestres et appartient au Bœuf. Lorsque la branche du mois de naissance est 丑, la saison est l'hiver et l'élément qui possède la saison est l'Eau. C'est un mois de transition (辰未戌丑), si bien que la Terre est aussi comptée à l'état Wang."
+          },
+          {
+            "p": "Lorsque la branche du jour de naissance est 丑, ce caractère est la position du conjoint. Vous voyez ci-dessous quelles tiges cette branche contient et ce qu'elles sont pour la tige du jour."
+          }
+        ]
+      },
+      {
+        "title": "Les tiges que contient cette branche (tiges cachées)",
+        "blocks": [
+          {
+            "p": "Une branche est un seul caractère visible, mais elle contient des tiges à l'intérieur. La part indique comment les trente jours de la branche sont répartis entre les tiges, et la tige principale est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de 丑",
+              "head": [
+                "Tige",
+                "Élément et polarité",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "résiduelle (餘氣)",
+                  "{hidChukYeo}"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "intermédiaire (中氣)",
+                  "{hidChukJung}"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "principale (本氣)",
+                  "{hidChukBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La force des cinq éléments lorsque la branche du mois est 丑",
+        "blocks": [
+          {
+            "p": "Lorsque la branche du mois de naissance est 丑, chaque élément reçoit un état (Wang, Sang, Hyu, Su, Sa), et cet état devient le multiplicateur appliqué à sa force."
+          },
+          {
+            "table": {
+              "caption": "Les états des éléments pour la branche du mois 丑 (hiver (mois de transition))",
+              "head": [
+                "Élément",
+                "État",
+                "Multiplicateur"
+              ],
+              "rows": [
+                [
+                  "Bois",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Feu",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Terre",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Métal",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Eau",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les Dix Dieux selon la tige du jour",
+        "blocks": [
+          {
+            "p": "Les mêmes tiges cachées de 丑 deviennent des Dix Dieux différents selon la tige du jour. Lorsque 丑 est la branche du jour, ce tableau est la lecture de la position du conjoint."
+          },
+          {
+            "table": {
+              "caption": "Ce que sont les tiges cachées de 丑 pour chaque tige du jour",
+              "head": [
+                "Tige du jour",
+                "Eau Yin (癸) — résiduelle (餘氣)",
+                "Métal Yin (辛) — intermédiaire (中氣)",
+                "Terre Yin (己) — principale (本氣)"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bienveillance (正印)",
+                  "Autorité (正官)",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Soutien atypique (偏印)",
+                  "Défi (偏官)",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Autorité (正官)",
+                  "Richesse stable (正財)",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Défi (偏官)",
+                  "Aubaine (偏財)",
+                  "Expression (食神)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Richesse stable (正財)",
+                  "Perturbateur (傷官)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Aubaine (偏財)",
+                  "Expression (食神)",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Perturbateur (傷官)",
+                  "Rival (劫財)",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Expression (食神)",
+                  "Compagnon (比肩)",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Rival (劫財)",
+                  "Bienveillance (正印)",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Compagnon (比肩)",
+                  "Soutien atypique (偏印)",
+                  "Défi (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule branche ne détermine pas une personne. La même branche se lit différemment selon la tige du jour et la branche du mois.",
+              "Les relations entre branches, telles que l'harmonie, le choc et la discorde, ne sont pas traitées ici."
+            ]
+          },
+          {
+            "p": "Les relations entre branches se trouvent dans [le tableau des douze branches](/guide/branches), et sa signification en tant qu'animal du zodiaque dans [la place du zodiaque dans un saju](/guide/zodiac). Autres branches : [子 (Rat)](/guide/branch-ja) · [寅 (Tigre)](/guide/branch-in) · [卯 (Lapin)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Serpent)](/guide/branch-sa) · [午 (Cheval)](/guide/branch-o) · [未 (Mouton)](/guide/branch-mi) · [申 (Singe)](/guide/branch-sin) · [酉 (Coq)](/guide/branch-yu) · [戌 (Chien)](/guide/branch-sul) · [亥 (Cochon)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-in": {
+    "eyebrow": "Branches terrestres",
+    "title": "寅 — la branche du Tigre",
+    "summary": "Les tiges contenues dans la branche terrestre 寅 (les tiges cachées), la force des cinq éléments lorsqu'elle est la branche du mois et les Dix Dieux lus pour chaque tige du jour — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "寅 est la troisième des douze branches terrestres",
+        "blocks": [
+          {
+            "p": "寅 est la troisième des douze branches terrestres et appartient au Tigre. Lorsque la branche du mois de naissance est 寅, la saison est le printemps et l'élément qui possède la saison est le Bois."
+          },
+          {
+            "p": "Lorsque la branche du jour de naissance est 寅, ce caractère est la position du conjoint. Vous voyez ci-dessous quelles tiges cette branche contient et ce qu'elles sont pour la tige du jour."
+          }
+        ]
+      },
+      {
+        "title": "Les tiges que contient cette branche (tiges cachées)",
+        "blocks": [
+          {
+            "p": "Une branche est un seul caractère visible, mais elle contient des tiges à l'intérieur. La part indique comment les trente jours de la branche sont répartis entre les tiges, et la tige principale est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de 寅",
+              "head": [
+                "Tige",
+                "Élément et polarité",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "résiduelle (餘氣)",
+                  "{hidInYeo}"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "intermédiaire (中氣)",
+                  "{hidInJung}"
+                ],
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "principale (本氣)",
+                  "{hidInBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La force des cinq éléments lorsque la branche du mois est 寅",
+        "blocks": [
+          {
+            "p": "Lorsque la branche du mois de naissance est 寅, chaque élément reçoit un état (Wang, Sang, Hyu, Su, Sa), et cet état devient le multiplicateur appliqué à sa force."
+          },
+          {
+            "table": {
+              "caption": "Les états des éléments pour la branche du mois 寅 (printemps)",
+              "head": [
+                "Élément",
+                "État",
+                "Multiplicateur"
+              ],
+              "rows": [
+                [
+                  "Bois",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Feu",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Terre",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Métal",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Eau",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les Dix Dieux selon la tige du jour",
+        "blocks": [
+          {
+            "p": "Les mêmes tiges cachées de 寅 deviennent des Dix Dieux différents selon la tige du jour. Lorsque 寅 est la branche du jour, ce tableau est la lecture de la position du conjoint."
+          },
+          {
+            "table": {
+              "caption": "Ce que sont les tiges cachées de 寅 pour chaque tige du jour",
+              "head": [
+                "Tige du jour",
+                "Terre Yang (戊) — résiduelle (餘氣)",
+                "Feu Yang (丙) — intermédiaire (中氣)",
+                "Bois Yang (甲) — principale (本氣)"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Aubaine (偏財)",
+                  "Expression (食神)",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Richesse stable (正財)",
+                  "Perturbateur (傷官)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Expression (食神)",
+                  "Compagnon (比肩)",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Perturbateur (傷官)",
+                  "Rival (劫財)",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Compagnon (比肩)",
+                  "Soutien atypique (偏印)",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Rival (劫財)",
+                  "Bienveillance (正印)",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Soutien atypique (偏印)",
+                  "Défi (偏官)",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Bienveillance (正印)",
+                  "Autorité (正官)",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Défi (偏官)",
+                  "Aubaine (偏財)",
+                  "Expression (食神)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Autorité (正官)",
+                  "Richesse stable (正財)",
+                  "Perturbateur (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule branche ne détermine pas une personne. La même branche se lit différemment selon la tige du jour et la branche du mois.",
+              "Les relations entre branches, telles que l'harmonie, le choc et la discorde, ne sont pas traitées ici."
+            ]
+          },
+          {
+            "p": "Les relations entre branches se trouvent dans [le tableau des douze branches](/guide/branches), et sa signification en tant qu'animal du zodiaque dans [la place du zodiaque dans un saju](/guide/zodiac). Autres branches : [子 (Rat)](/guide/branch-ja) · [丑 (Bœuf)](/guide/branch-chuk) · [卯 (Lapin)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Serpent)](/guide/branch-sa) · [午 (Cheval)](/guide/branch-o) · [未 (Mouton)](/guide/branch-mi) · [申 (Singe)](/guide/branch-sin) · [酉 (Coq)](/guide/branch-yu) · [戌 (Chien)](/guide/branch-sul) · [亥 (Cochon)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-myo": {
+    "eyebrow": "Branches terrestres",
+    "title": "卯 — la branche du Lapin",
+    "summary": "Les tiges contenues dans la branche terrestre 卯 (les tiges cachées), la force des cinq éléments lorsqu'elle est la branche du mois et les Dix Dieux lus pour chaque tige du jour — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "卯 est la quatrième des douze branches terrestres",
+        "blocks": [
+          {
+            "p": "卯 est la quatrième des douze branches terrestres et appartient au Lapin. Lorsque la branche du mois de naissance est 卯, la saison est le printemps et l'élément qui possède la saison est le Bois."
+          },
+          {
+            "p": "Lorsque la branche du jour de naissance est 卯, ce caractère est la position du conjoint. Vous voyez ci-dessous quelles tiges cette branche contient et ce qu'elles sont pour la tige du jour."
+          }
+        ]
+      },
+      {
+        "title": "Les tiges que contient cette branche (tiges cachées)",
+        "blocks": [
+          {
+            "p": "Une branche est un seul caractère visible, mais elle contient des tiges à l'intérieur. La part indique comment les trente jours de la branche sont répartis entre les tiges, et la tige principale est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de 卯",
+              "head": [
+                "Tige",
+                "Élément et polarité",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "résiduelle (餘氣)",
+                  "{hidMyoYeo}"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "principale (本氣)",
+                  "{hidMyoBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La force des cinq éléments lorsque la branche du mois est 卯",
+        "blocks": [
+          {
+            "p": "Lorsque la branche du mois de naissance est 卯, chaque élément reçoit un état (Wang, Sang, Hyu, Su, Sa), et cet état devient le multiplicateur appliqué à sa force."
+          },
+          {
+            "table": {
+              "caption": "Les états des éléments pour la branche du mois 卯 (printemps)",
+              "head": [
+                "Élément",
+                "État",
+                "Multiplicateur"
+              ],
+              "rows": [
+                [
+                  "Bois",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Feu",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Terre",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Métal",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Eau",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les Dix Dieux selon la tige du jour",
+        "blocks": [
+          {
+            "p": "Les mêmes tiges cachées de 卯 deviennent des Dix Dieux différents selon la tige du jour. Lorsque 卯 est la branche du jour, ce tableau est la lecture de la position du conjoint."
+          },
+          {
+            "table": {
+              "caption": "Ce que sont les tiges cachées de 卯 pour chaque tige du jour",
+              "head": [
+                "Tige du jour",
+                "Bois Yang (甲) — résiduelle (餘氣)",
+                "Bois Yin (乙) — principale (本氣)"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Compagnon (比肩)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Rival (劫財)",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Soutien atypique (偏印)",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Bienveillance (正印)",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Défi (偏官)",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Autorité (正官)",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Aubaine (偏財)",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Richesse stable (正財)",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Expression (食神)",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Perturbateur (傷官)",
+                  "Expression (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule branche ne détermine pas une personne. La même branche se lit différemment selon la tige du jour et la branche du mois.",
+              "Les relations entre branches, telles que l'harmonie, le choc et la discorde, ne sont pas traitées ici."
+            ]
+          },
+          {
+            "p": "Les relations entre branches se trouvent dans [le tableau des douze branches](/guide/branches), et sa signification en tant qu'animal du zodiaque dans [la place du zodiaque dans un saju](/guide/zodiac). Autres branches : [子 (Rat)](/guide/branch-ja) · [丑 (Bœuf)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Serpent)](/guide/branch-sa) · [午 (Cheval)](/guide/branch-o) · [未 (Mouton)](/guide/branch-mi) · [申 (Singe)](/guide/branch-sin) · [酉 (Coq)](/guide/branch-yu) · [戌 (Chien)](/guide/branch-sul) · [亥 (Cochon)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-jin": {
+    "eyebrow": "Branches terrestres",
+    "title": "辰 — la branche du Dragon",
+    "summary": "Les tiges contenues dans la branche terrestre 辰 (les tiges cachées), la force des cinq éléments lorsqu'elle est la branche du mois et les Dix Dieux lus pour chaque tige du jour — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "辰 est la cinquième des douze branches terrestres",
+        "blocks": [
+          {
+            "p": "辰 est la cinquième des douze branches terrestres et appartient au Dragon. Lorsque la branche du mois de naissance est 辰, la saison est le printemps et l'élément qui possède la saison est le Bois. C'est un mois de transition (辰未戌丑), si bien que la Terre est aussi comptée à l'état Wang."
+          },
+          {
+            "p": "Lorsque la branche du jour de naissance est 辰, ce caractère est la position du conjoint. Vous voyez ci-dessous quelles tiges cette branche contient et ce qu'elles sont pour la tige du jour."
+          }
+        ]
+      },
+      {
+        "title": "Les tiges que contient cette branche (tiges cachées)",
+        "blocks": [
+          {
+            "p": "Une branche est un seul caractère visible, mais elle contient des tiges à l'intérieur. La part indique comment les trente jours de la branche sont répartis entre les tiges, et la tige principale est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de 辰",
+              "head": [
+                "Tige",
+                "Élément et polarité",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "résiduelle (餘氣)",
+                  "{hidJinYeo}"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Eau Yin",
+                  "intermédiaire (中氣)",
+                  "{hidJinJung}"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "principale (本氣)",
+                  "{hidJinBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La force des cinq éléments lorsque la branche du mois est 辰",
+        "blocks": [
+          {
+            "p": "Lorsque la branche du mois de naissance est 辰, chaque élément reçoit un état (Wang, Sang, Hyu, Su, Sa), et cet état devient le multiplicateur appliqué à sa force."
+          },
+          {
+            "table": {
+              "caption": "Les états des éléments pour la branche du mois 辰 (printemps (mois de transition))",
+              "head": [
+                "Élément",
+                "État",
+                "Multiplicateur"
+              ],
+              "rows": [
+                [
+                  "Bois",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Feu",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Terre",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Métal",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Eau",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les Dix Dieux selon la tige du jour",
+        "blocks": [
+          {
+            "p": "Les mêmes tiges cachées de 辰 deviennent des Dix Dieux différents selon la tige du jour. Lorsque 辰 est la branche du jour, ce tableau est la lecture de la position du conjoint."
+          },
+          {
+            "table": {
+              "caption": "Ce que sont les tiges cachées de 辰 pour chaque tige du jour",
+              "head": [
+                "Tige du jour",
+                "Bois Yin (乙) — résiduelle (餘氣)",
+                "Eau Yin (癸) — intermédiaire (中氣)",
+                "Terre Yang (戊) — principale (本氣)"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Rival (劫財)",
+                  "Bienveillance (正印)",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Compagnon (比肩)",
+                  "Soutien atypique (偏印)",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Bienveillance (正印)",
+                  "Autorité (正官)",
+                  "Expression (食神)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Soutien atypique (偏印)",
+                  "Défi (偏官)",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Autorité (正官)",
+                  "Richesse stable (正財)",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Défi (偏官)",
+                  "Aubaine (偏財)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Richesse stable (正財)",
+                  "Perturbateur (傷官)",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Aubaine (偏財)",
+                  "Expression (食神)",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Perturbateur (傷官)",
+                  "Rival (劫財)",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Expression (食神)",
+                  "Compagnon (比肩)",
+                  "Autorité (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule branche ne détermine pas une personne. La même branche se lit différemment selon la tige du jour et la branche du mois.",
+              "Les relations entre branches, telles que l'harmonie, le choc et la discorde, ne sont pas traitées ici."
+            ]
+          },
+          {
+            "p": "Les relations entre branches se trouvent dans [le tableau des douze branches](/guide/branches), et sa signification en tant qu'animal du zodiaque dans [la place du zodiaque dans un saju](/guide/zodiac). Autres branches : [子 (Rat)](/guide/branch-ja) · [丑 (Bœuf)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Lapin)](/guide/branch-myo) · [巳 (Serpent)](/guide/branch-sa) · [午 (Cheval)](/guide/branch-o) · [未 (Mouton)](/guide/branch-mi) · [申 (Singe)](/guide/branch-sin) · [酉 (Coq)](/guide/branch-yu) · [戌 (Chien)](/guide/branch-sul) · [亥 (Cochon)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sa": {
+    "eyebrow": "Branches terrestres",
+    "title": "巳 — la branche du Serpent",
+    "summary": "Les tiges contenues dans la branche terrestre 巳 (les tiges cachées), la force des cinq éléments lorsqu'elle est la branche du mois et les Dix Dieux lus pour chaque tige du jour — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "巳 est la sixième des douze branches terrestres",
+        "blocks": [
+          {
+            "p": "巳 est la sixième des douze branches terrestres et appartient au Serpent. Lorsque la branche du mois de naissance est 巳, la saison est l'été et l'élément qui possède la saison est le Feu."
+          },
+          {
+            "p": "Lorsque la branche du jour de naissance est 巳, ce caractère est la position du conjoint. Vous voyez ci-dessous quelles tiges cette branche contient et ce qu'elles sont pour la tige du jour."
+          }
+        ]
+      },
+      {
+        "title": "Les tiges que contient cette branche (tiges cachées)",
+        "blocks": [
+          {
+            "p": "Une branche est un seul caractère visible, mais elle contient des tiges à l'intérieur. La part indique comment les trente jours de la branche sont répartis entre les tiges, et la tige principale est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de 巳",
+              "head": [
+                "Tige",
+                "Élément et polarité",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "résiduelle (餘氣)",
+                  "{hidSaYeo}"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "intermédiaire (中氣)",
+                  "{hidSaJung}"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "principale (本氣)",
+                  "{hidSaBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La force des cinq éléments lorsque la branche du mois est 巳",
+        "blocks": [
+          {
+            "p": "Lorsque la branche du mois de naissance est 巳, chaque élément reçoit un état (Wang, Sang, Hyu, Su, Sa), et cet état devient le multiplicateur appliqué à sa force."
+          },
+          {
+            "table": {
+              "caption": "Les états des éléments pour la branche du mois 巳 (été)",
+              "head": [
+                "Élément",
+                "État",
+                "Multiplicateur"
+              ],
+              "rows": [
+                [
+                  "Bois",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Feu",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Terre",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Métal",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Eau",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les Dix Dieux selon la tige du jour",
+        "blocks": [
+          {
+            "p": "Les mêmes tiges cachées de 巳 deviennent des Dix Dieux différents selon la tige du jour. Lorsque 巳 est la branche du jour, ce tableau est la lecture de la position du conjoint."
+          },
+          {
+            "table": {
+              "caption": "Ce que sont les tiges cachées de 巳 pour chaque tige du jour",
+              "head": [
+                "Tige du jour",
+                "Terre Yang (戊) — résiduelle (餘氣)",
+                "Métal Yang (庚) — intermédiaire (中氣)",
+                "Feu Yang (丙) — principale (本氣)"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Aubaine (偏財)",
+                  "Défi (偏官)",
+                  "Expression (食神)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Richesse stable (正財)",
+                  "Autorité (正官)",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Expression (食神)",
+                  "Aubaine (偏財)",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Perturbateur (傷官)",
+                  "Richesse stable (正財)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Compagnon (比肩)",
+                  "Expression (食神)",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Rival (劫財)",
+                  "Perturbateur (傷官)",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Soutien atypique (偏印)",
+                  "Compagnon (比肩)",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Bienveillance (正印)",
+                  "Rival (劫財)",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Défi (偏官)",
+                  "Soutien atypique (偏印)",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Autorité (正官)",
+                  "Bienveillance (正印)",
+                  "Richesse stable (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule branche ne détermine pas une personne. La même branche se lit différemment selon la tige du jour et la branche du mois.",
+              "Les relations entre branches, telles que l'harmonie, le choc et la discorde, ne sont pas traitées ici."
+            ]
+          },
+          {
+            "p": "Les relations entre branches se trouvent dans [le tableau des douze branches](/guide/branches), et sa signification en tant qu'animal du zodiaque dans [la place du zodiaque dans un saju](/guide/zodiac). Autres branches : [子 (Rat)](/guide/branch-ja) · [丑 (Bœuf)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Lapin)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [午 (Cheval)](/guide/branch-o) · [未 (Mouton)](/guide/branch-mi) · [申 (Singe)](/guide/branch-sin) · [酉 (Coq)](/guide/branch-yu) · [戌 (Chien)](/guide/branch-sul) · [亥 (Cochon)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-o": {
+    "eyebrow": "Branches terrestres",
+    "title": "午 — la branche du Cheval",
+    "summary": "Les tiges contenues dans la branche terrestre 午 (les tiges cachées), la force des cinq éléments lorsqu'elle est la branche du mois et les Dix Dieux lus pour chaque tige du jour — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "午 est la septième des douze branches terrestres",
+        "blocks": [
+          {
+            "p": "午 est la septième des douze branches terrestres et appartient au Cheval. Lorsque la branche du mois de naissance est 午, la saison est l'été et l'élément qui possède la saison est le Feu."
+          },
+          {
+            "p": "Lorsque la branche du jour de naissance est 午, ce caractère est la position du conjoint. Vous voyez ci-dessous quelles tiges cette branche contient et ce qu'elles sont pour la tige du jour."
+          }
+        ]
+      },
+      {
+        "title": "Les tiges que contient cette branche (tiges cachées)",
+        "blocks": [
+          {
+            "p": "Une branche est un seul caractère visible, mais elle contient des tiges à l'intérieur. La part indique comment les trente jours de la branche sont répartis entre les tiges, et la tige principale est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de 午",
+              "head": [
+                "Tige",
+                "Élément et polarité",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "Feu Yang (丙)",
+                  "Feu Yang",
+                  "résiduelle (餘氣)",
+                  "{hidOYeo}"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "intermédiaire (中氣)",
+                  "{hidOJung}"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "principale (本氣)",
+                  "{hidOBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La force des cinq éléments lorsque la branche du mois est 午",
+        "blocks": [
+          {
+            "p": "Lorsque la branche du mois de naissance est 午, chaque élément reçoit un état (Wang, Sang, Hyu, Su, Sa), et cet état devient le multiplicateur appliqué à sa force."
+          },
+          {
+            "table": {
+              "caption": "Les états des éléments pour la branche du mois 午 (été)",
+              "head": [
+                "Élément",
+                "État",
+                "Multiplicateur"
+              ],
+              "rows": [
+                [
+                  "Bois",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Feu",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Terre",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Métal",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Eau",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les Dix Dieux selon la tige du jour",
+        "blocks": [
+          {
+            "p": "Les mêmes tiges cachées de 午 deviennent des Dix Dieux différents selon la tige du jour. Lorsque 午 est la branche du jour, ce tableau est la lecture de la position du conjoint."
+          },
+          {
+            "table": {
+              "caption": "Ce que sont les tiges cachées de 午 pour chaque tige du jour",
+              "head": [
+                "Tige du jour",
+                "Feu Yang (丙) — résiduelle (餘氣)",
+                "Terre Yin (己) — intermédiaire (中氣)",
+                "Feu Yin (丁) — principale (本氣)"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Expression (食神)",
+                  "Richesse stable (正財)",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Perturbateur (傷官)",
+                  "Aubaine (偏財)",
+                  "Expression (食神)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Compagnon (比肩)",
+                  "Perturbateur (傷官)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Rival (劫財)",
+                  "Expression (食神)",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Soutien atypique (偏印)",
+                  "Rival (劫財)",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Bienveillance (正印)",
+                  "Compagnon (比肩)",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Défi (偏官)",
+                  "Bienveillance (正印)",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Autorité (正官)",
+                  "Soutien atypique (偏印)",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Aubaine (偏財)",
+                  "Autorité (正官)",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Richesse stable (正財)",
+                  "Défi (偏官)",
+                  "Aubaine (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule branche ne détermine pas une personne. La même branche se lit différemment selon la tige du jour et la branche du mois.",
+              "Les relations entre branches, telles que l'harmonie, le choc et la discorde, ne sont pas traitées ici."
+            ]
+          },
+          {
+            "p": "Les relations entre branches se trouvent dans [le tableau des douze branches](/guide/branches), et sa signification en tant qu'animal du zodiaque dans [la place du zodiaque dans un saju](/guide/zodiac). Autres branches : [子 (Rat)](/guide/branch-ja) · [丑 (Bœuf)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Lapin)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Serpent)](/guide/branch-sa) · [未 (Mouton)](/guide/branch-mi) · [申 (Singe)](/guide/branch-sin) · [酉 (Coq)](/guide/branch-yu) · [戌 (Chien)](/guide/branch-sul) · [亥 (Cochon)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-mi": {
+    "eyebrow": "Branches terrestres",
+    "title": "未 — la branche du Mouton",
+    "summary": "Les tiges contenues dans la branche terrestre 未 (les tiges cachées), la force des cinq éléments lorsqu'elle est la branche du mois et les Dix Dieux lus pour chaque tige du jour — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "未 est la huitième des douze branches terrestres",
+        "blocks": [
+          {
+            "p": "未 est la huitième des douze branches terrestres et appartient au Mouton. Lorsque la branche du mois de naissance est 未, la saison est l'été et l'élément qui possède la saison est le Feu. C'est un mois de transition (辰未戌丑), si bien que la Terre est aussi comptée à l'état Wang."
+          },
+          {
+            "p": "Lorsque la branche du jour de naissance est 未, ce caractère est la position du conjoint. Vous voyez ci-dessous quelles tiges cette branche contient et ce qu'elles sont pour la tige du jour."
+          }
+        ]
+      },
+      {
+        "title": "Les tiges que contient cette branche (tiges cachées)",
+        "blocks": [
+          {
+            "p": "Une branche est un seul caractère visible, mais elle contient des tiges à l'intérieur. La part indique comment les trente jours de la branche sont répartis entre les tiges, et la tige principale est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de 未",
+              "head": [
+                "Tige",
+                "Élément et polarité",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "résiduelle (餘氣)",
+                  "{hidMiYeo}"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Bois Yin",
+                  "intermédiaire (中氣)",
+                  "{hidMiJung}"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Terre Yin",
+                  "principale (本氣)",
+                  "{hidMiBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La force des cinq éléments lorsque la branche du mois est 未",
+        "blocks": [
+          {
+            "p": "Lorsque la branche du mois de naissance est 未, chaque élément reçoit un état (Wang, Sang, Hyu, Su, Sa), et cet état devient le multiplicateur appliqué à sa force."
+          },
+          {
+            "table": {
+              "caption": "Les états des éléments pour la branche du mois 未 (été (mois de transition))",
+              "head": [
+                "Élément",
+                "État",
+                "Multiplicateur"
+              ],
+              "rows": [
+                [
+                  "Bois",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Feu",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Terre",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Métal",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Eau",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les Dix Dieux selon la tige du jour",
+        "blocks": [
+          {
+            "p": "Les mêmes tiges cachées de 未 deviennent des Dix Dieux différents selon la tige du jour. Lorsque 未 est la branche du jour, ce tableau est la lecture de la position du conjoint."
+          },
+          {
+            "table": {
+              "caption": "Ce que sont les tiges cachées de 未 pour chaque tige du jour",
+              "head": [
+                "Tige du jour",
+                "Feu Yin (丁) — résiduelle (餘氣)",
+                "Bois Yin (乙) — intermédiaire (中氣)",
+                "Terre Yin (己) — principale (本氣)"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Perturbateur (傷官)",
+                  "Rival (劫財)",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Expression (食神)",
+                  "Compagnon (比肩)",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Rival (劫財)",
+                  "Bienveillance (正印)",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Compagnon (比肩)",
+                  "Soutien atypique (偏印)",
+                  "Expression (食神)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Bienveillance (正印)",
+                  "Autorité (正官)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Soutien atypique (偏印)",
+                  "Défi (偏官)",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Autorité (正官)",
+                  "Richesse stable (正財)",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Défi (偏官)",
+                  "Aubaine (偏財)",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Richesse stable (正財)",
+                  "Perturbateur (傷官)",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Aubaine (偏財)",
+                  "Expression (食神)",
+                  "Défi (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule branche ne détermine pas une personne. La même branche se lit différemment selon la tige du jour et la branche du mois.",
+              "Les relations entre branches, telles que l'harmonie, le choc et la discorde, ne sont pas traitées ici."
+            ]
+          },
+          {
+            "p": "Les relations entre branches se trouvent dans [le tableau des douze branches](/guide/branches), et sa signification en tant qu'animal du zodiaque dans [la place du zodiaque dans un saju](/guide/zodiac). Autres branches : [子 (Rat)](/guide/branch-ja) · [丑 (Bœuf)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Lapin)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Serpent)](/guide/branch-sa) · [午 (Cheval)](/guide/branch-o) · [申 (Singe)](/guide/branch-sin) · [酉 (Coq)](/guide/branch-yu) · [戌 (Chien)](/guide/branch-sul) · [亥 (Cochon)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sin": {
+    "eyebrow": "Branches terrestres",
+    "title": "申 — la branche du Singe",
+    "summary": "Les tiges contenues dans la branche terrestre 申 (les tiges cachées), la force des cinq éléments lorsqu'elle est la branche du mois et les Dix Dieux lus pour chaque tige du jour — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "申 est la neuvième des douze branches terrestres",
+        "blocks": [
+          {
+            "p": "申 est la neuvième des douze branches terrestres et appartient au Singe. Lorsque la branche du mois de naissance est 申, la saison est l'automne et l'élément qui possède la saison est le Métal."
+          },
+          {
+            "p": "Lorsque la branche du jour de naissance est 申, ce caractère est la position du conjoint. Vous voyez ci-dessous quelles tiges cette branche contient et ce qu'elles sont pour la tige du jour."
+          }
+        ]
+      },
+      {
+        "title": "Les tiges que contient cette branche (tiges cachées)",
+        "blocks": [
+          {
+            "p": "Une branche est un seul caractère visible, mais elle contient des tiges à l'intérieur. La part indique comment les trente jours de la branche sont répartis entre les tiges, et la tige principale est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de 申",
+              "head": [
+                "Tige",
+                "Élément et polarité",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "résiduelle (餘氣)",
+                  "{hidSinYeo}"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "intermédiaire (中氣)",
+                  "{hidSinJung}"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "principale (本氣)",
+                  "{hidSinBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La force des cinq éléments lorsque la branche du mois est 申",
+        "blocks": [
+          {
+            "p": "Lorsque la branche du mois de naissance est 申, chaque élément reçoit un état (Wang, Sang, Hyu, Su, Sa), et cet état devient le multiplicateur appliqué à sa force."
+          },
+          {
+            "table": {
+              "caption": "Les états des éléments pour la branche du mois 申 (automne)",
+              "head": [
+                "Élément",
+                "État",
+                "Multiplicateur"
+              ],
+              "rows": [
+                [
+                  "Bois",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Feu",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Terre",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Métal",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Eau",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les Dix Dieux selon la tige du jour",
+        "blocks": [
+          {
+            "p": "Les mêmes tiges cachées de 申 deviennent des Dix Dieux différents selon la tige du jour. Lorsque 申 est la branche du jour, ce tableau est la lecture de la position du conjoint."
+          },
+          {
+            "table": {
+              "caption": "Ce que sont les tiges cachées de 申 pour chaque tige du jour",
+              "head": [
+                "Tige du jour",
+                "Terre Yang (戊) — résiduelle (餘氣)",
+                "Eau Yang (壬) — intermédiaire (中氣)",
+                "Métal Yang (庚) — principale (本氣)"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Aubaine (偏財)",
+                  "Soutien atypique (偏印)",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Richesse stable (正財)",
+                  "Bienveillance (正印)",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Expression (食神)",
+                  "Défi (偏官)",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Perturbateur (傷官)",
+                  "Autorité (正官)",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Compagnon (比肩)",
+                  "Aubaine (偏財)",
+                  "Expression (食神)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Rival (劫財)",
+                  "Richesse stable (正財)",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Soutien atypique (偏印)",
+                  "Expression (食神)",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Bienveillance (正印)",
+                  "Perturbateur (傷官)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Défi (偏官)",
+                  "Compagnon (比肩)",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Autorité (正官)",
+                  "Rival (劫財)",
+                  "Bienveillance (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule branche ne détermine pas une personne. La même branche se lit différemment selon la tige du jour et la branche du mois.",
+              "Les relations entre branches, telles que l'harmonie, le choc et la discorde, ne sont pas traitées ici."
+            ]
+          },
+          {
+            "p": "Les relations entre branches se trouvent dans [le tableau des douze branches](/guide/branches), et sa signification en tant qu'animal du zodiaque dans [la place du zodiaque dans un saju](/guide/zodiac). Autres branches : [子 (Rat)](/guide/branch-ja) · [丑 (Bœuf)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Lapin)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Serpent)](/guide/branch-sa) · [午 (Cheval)](/guide/branch-o) · [未 (Mouton)](/guide/branch-mi) · [酉 (Coq)](/guide/branch-yu) · [戌 (Chien)](/guide/branch-sul) · [亥 (Cochon)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-yu": {
+    "eyebrow": "Branches terrestres",
+    "title": "酉 — la branche du Coq",
+    "summary": "Les tiges contenues dans la branche terrestre 酉 (les tiges cachées), la force des cinq éléments lorsqu'elle est la branche du mois et les Dix Dieux lus pour chaque tige du jour — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "酉 est la dixième des douze branches terrestres",
+        "blocks": [
+          {
+            "p": "酉 est la dixième des douze branches terrestres et appartient au Coq. Lorsque la branche du mois de naissance est 酉, la saison est l'automne et l'élément qui possède la saison est le Métal."
+          },
+          {
+            "p": "Lorsque la branche du jour de naissance est 酉, ce caractère est la position du conjoint. Vous voyez ci-dessous quelles tiges cette branche contient et ce qu'elles sont pour la tige du jour."
+          }
+        ]
+      },
+      {
+        "title": "Les tiges que contient cette branche (tiges cachées)",
+        "blocks": [
+          {
+            "p": "Une branche est un seul caractère visible, mais elle contient des tiges à l'intérieur. La part indique comment les trente jours de la branche sont répartis entre les tiges, et la tige principale est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de 酉",
+              "head": [
+                "Tige",
+                "Élément et polarité",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "Métal Yang (庚)",
+                  "Métal Yang",
+                  "résiduelle (餘氣)",
+                  "{hidYuYeo}"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "principale (本氣)",
+                  "{hidYuBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La force des cinq éléments lorsque la branche du mois est 酉",
+        "blocks": [
+          {
+            "p": "Lorsque la branche du mois de naissance est 酉, chaque élément reçoit un état (Wang, Sang, Hyu, Su, Sa), et cet état devient le multiplicateur appliqué à sa force."
+          },
+          {
+            "table": {
+              "caption": "Les états des éléments pour la branche du mois 酉 (automne)",
+              "head": [
+                "Élément",
+                "État",
+                "Multiplicateur"
+              ],
+              "rows": [
+                [
+                  "Bois",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Feu",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Terre",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Métal",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Eau",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les Dix Dieux selon la tige du jour",
+        "blocks": [
+          {
+            "p": "Les mêmes tiges cachées de 酉 deviennent des Dix Dieux différents selon la tige du jour. Lorsque 酉 est la branche du jour, ce tableau est la lecture de la position du conjoint."
+          },
+          {
+            "table": {
+              "caption": "Ce que sont les tiges cachées de 酉 pour chaque tige du jour",
+              "head": [
+                "Tige du jour",
+                "Métal Yang (庚) — résiduelle (餘氣)",
+                "Métal Yin (辛) — principale (本氣)"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Défi (偏官)",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Autorité (正官)",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Aubaine (偏財)",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Richesse stable (正財)",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Expression (食神)",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Perturbateur (傷官)",
+                  "Expression (食神)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Compagnon (比肩)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Rival (劫財)",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Soutien atypique (偏印)",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Bienveillance (正印)",
+                  "Soutien atypique (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule branche ne détermine pas une personne. La même branche se lit différemment selon la tige du jour et la branche du mois.",
+              "Les relations entre branches, telles que l'harmonie, le choc et la discorde, ne sont pas traitées ici."
+            ]
+          },
+          {
+            "p": "Les relations entre branches se trouvent dans [le tableau des douze branches](/guide/branches), et sa signification en tant qu'animal du zodiaque dans [la place du zodiaque dans un saju](/guide/zodiac). Autres branches : [子 (Rat)](/guide/branch-ja) · [丑 (Bœuf)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Lapin)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Serpent)](/guide/branch-sa) · [午 (Cheval)](/guide/branch-o) · [未 (Mouton)](/guide/branch-mi) · [申 (Singe)](/guide/branch-sin) · [戌 (Chien)](/guide/branch-sul) · [亥 (Cochon)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sul": {
+    "eyebrow": "Branches terrestres",
+    "title": "戌 — la branche du Chien",
+    "summary": "Les tiges contenues dans la branche terrestre 戌 (les tiges cachées), la force des cinq éléments lorsqu'elle est la branche du mois et les Dix Dieux lus pour chaque tige du jour — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "戌 est la onzième des douze branches terrestres",
+        "blocks": [
+          {
+            "p": "戌 est la onzième des douze branches terrestres et appartient au Chien. Lorsque la branche du mois de naissance est 戌, la saison est l'automne et l'élément qui possède la saison est le Métal. C'est un mois de transition (辰未戌丑), si bien que la Terre est aussi comptée à l'état Wang."
+          },
+          {
+            "p": "Lorsque la branche du jour de naissance est 戌, ce caractère est la position du conjoint. Vous voyez ci-dessous quelles tiges cette branche contient et ce qu'elles sont pour la tige du jour."
+          }
+        ]
+      },
+      {
+        "title": "Les tiges que contient cette branche (tiges cachées)",
+        "blocks": [
+          {
+            "p": "Une branche est un seul caractère visible, mais elle contient des tiges à l'intérieur. La part indique comment les trente jours de la branche sont répartis entre les tiges, et la tige principale est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de 戌",
+              "head": [
+                "Tige",
+                "Élément et polarité",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "Métal Yin (辛)",
+                  "Métal Yin",
+                  "résiduelle (餘氣)",
+                  "{hidSulYeo}"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Feu Yin",
+                  "intermédiaire (中氣)",
+                  "{hidSulJung}"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "principale (本氣)",
+                  "{hidSulBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La force des cinq éléments lorsque la branche du mois est 戌",
+        "blocks": [
+          {
+            "p": "Lorsque la branche du mois de naissance est 戌, chaque élément reçoit un état (Wang, Sang, Hyu, Su, Sa), et cet état devient le multiplicateur appliqué à sa force."
+          },
+          {
+            "table": {
+              "caption": "Les états des éléments pour la branche du mois 戌 (automne (mois de transition))",
+              "head": [
+                "Élément",
+                "État",
+                "Multiplicateur"
+              ],
+              "rows": [
+                [
+                  "Bois",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Feu",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Terre",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Métal",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Eau",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les Dix Dieux selon la tige du jour",
+        "blocks": [
+          {
+            "p": "Les mêmes tiges cachées de 戌 deviennent des Dix Dieux différents selon la tige du jour. Lorsque 戌 est la branche du jour, ce tableau est la lecture de la position du conjoint."
+          },
+          {
+            "table": {
+              "caption": "Ce que sont les tiges cachées de 戌 pour chaque tige du jour",
+              "head": [
+                "Tige du jour",
+                "Métal Yin (辛) — résiduelle (餘氣)",
+                "Feu Yin (丁) — intermédiaire (中氣)",
+                "Terre Yang (戊) — principale (本氣)"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Autorité (正官)",
+                  "Perturbateur (傷官)",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Défi (偏官)",
+                  "Expression (食神)",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Richesse stable (正財)",
+                  "Rival (劫財)",
+                  "Expression (食神)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Aubaine (偏財)",
+                  "Compagnon (比肩)",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Perturbateur (傷官)",
+                  "Bienveillance (正印)",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Expression (食神)",
+                  "Soutien atypique (偏印)",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Rival (劫財)",
+                  "Autorité (正官)",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Compagnon (比肩)",
+                  "Défi (偏官)",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Bienveillance (正印)",
+                  "Richesse stable (正財)",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Soutien atypique (偏印)",
+                  "Aubaine (偏財)",
+                  "Autorité (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule branche ne détermine pas une personne. La même branche se lit différemment selon la tige du jour et la branche du mois.",
+              "Les relations entre branches, telles que l'harmonie, le choc et la discorde, ne sont pas traitées ici."
+            ]
+          },
+          {
+            "p": "Les relations entre branches se trouvent dans [le tableau des douze branches](/guide/branches), et sa signification en tant qu'animal du zodiaque dans [la place du zodiaque dans un saju](/guide/zodiac). Autres branches : [子 (Rat)](/guide/branch-ja) · [丑 (Bœuf)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Lapin)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Serpent)](/guide/branch-sa) · [午 (Cheval)](/guide/branch-o) · [未 (Mouton)](/guide/branch-mi) · [申 (Singe)](/guide/branch-sin) · [酉 (Coq)](/guide/branch-yu) · [亥 (Cochon)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-hae": {
+    "eyebrow": "Branches terrestres",
+    "title": "亥 — la branche du Cochon",
+    "summary": "Les tiges contenues dans la branche terrestre 亥 (les tiges cachées), la force des cinq éléments lorsqu'elle est la branche du mois et les Dix Dieux lus pour chaque tige du jour — exposés exactement comme le prévoient les règles de calcul de Saju-Link.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "亥 est la douzième des douze branches terrestres",
+        "blocks": [
+          {
+            "p": "亥 est la douzième des douze branches terrestres et appartient au Cochon. Lorsque la branche du mois de naissance est 亥, la saison est l'hiver et l'élément qui possède la saison est l'Eau."
+          },
+          {
+            "p": "Lorsque la branche du jour de naissance est 亥, ce caractère est la position du conjoint. Vous voyez ci-dessous quelles tiges cette branche contient et ce qu'elles sont pour la tige du jour."
+          }
+        ]
+      },
+      {
+        "title": "Les tiges que contient cette branche (tiges cachées)",
+        "blocks": [
+          {
+            "p": "Une branche est un seul caractère visible, mais elle contient des tiges à l'intérieur. La part indique comment les trente jours de la branche sont répartis entre les tiges, et la tige principale est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de 亥",
+              "head": [
+                "Tige",
+                "Élément et polarité",
+                "Position",
+                "Part"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "Terre Yang",
+                  "résiduelle (餘氣)",
+                  "{hidHaeYeo}"
+                ],
+                [
+                  "Bois Yang (甲)",
+                  "Bois Yang",
+                  "intermédiaire (中氣)",
+                  "{hidHaeJung}"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Eau Yang",
+                  "principale (本氣)",
+                  "{hidHaeBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La force des cinq éléments lorsque la branche du mois est 亥",
+        "blocks": [
+          {
+            "p": "Lorsque la branche du mois de naissance est 亥, chaque élément reçoit un état (Wang, Sang, Hyu, Su, Sa), et cet état devient le multiplicateur appliqué à sa force."
+          },
+          {
+            "table": {
+              "caption": "Les états des éléments pour la branche du mois 亥 (hiver)",
+              "head": [
+                "Élément",
+                "État",
+                "Multiplicateur"
+              ],
+              "rows": [
+                [
+                  "Bois",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Feu",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Terre",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Métal",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Eau",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Les Dix Dieux selon la tige du jour",
+        "blocks": [
+          {
+            "p": "Les mêmes tiges cachées de 亥 deviennent des Dix Dieux différents selon la tige du jour. Lorsque 亥 est la branche du jour, ce tableau est la lecture de la position du conjoint."
+          },
+          {
+            "table": {
+              "caption": "Ce que sont les tiges cachées de 亥 pour chaque tige du jour",
+              "head": [
+                "Tige du jour",
+                "Terre Yang (戊) — résiduelle (餘氣)",
+                "Bois Yang (甲) — intermédiaire (中氣)",
+                "Eau Yang (壬) — principale (本氣)"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "Aubaine (偏財)",
+                  "Compagnon (比肩)",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "Richesse stable (正財)",
+                  "Rival (劫財)",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "Expression (食神)",
+                  "Soutien atypique (偏印)",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "Perturbateur (傷官)",
+                  "Bienveillance (正印)",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "Compagnon (比肩)",
+                  "Défi (偏官)",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "Rival (劫財)",
+                  "Autorité (正官)",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "Soutien atypique (偏印)",
+                  "Aubaine (偏財)",
+                  "Expression (食神)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "Bienveillance (正印)",
+                  "Richesse stable (正財)",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "Défi (偏官)",
+                  "Expression (食神)",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "Autorité (正官)",
+                  "Perturbateur (傷官)",
+                  "Rival (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Une seule branche ne détermine pas une personne. La même branche se lit différemment selon la tige du jour et la branche du mois.",
+              "Les relations entre branches, telles que l'harmonie, le choc et la discorde, ne sont pas traitées ici."
+            ]
+          },
+          {
+            "p": "Les relations entre branches se trouvent dans [le tableau des douze branches](/guide/branches), et sa signification en tant qu'animal du zodiaque dans [la place du zodiaque dans un saju](/guide/zodiac). Autres branches : [子 (Rat)](/guide/branch-ja) · [丑 (Bœuf)](/guide/branch-chuk) · [寅 (Tigre)](/guide/branch-in) · [卯 (Lapin)](/guide/branch-myo) · [辰 (Dragon)](/guide/branch-jin) · [巳 (Serpent)](/guide/branch-sa) · [午 (Cheval)](/guide/branch-o) · [未 (Mouton)](/guide/branch-mi) · [申 (Singe)](/guide/branch-sin) · [酉 (Coq)](/guide/branch-yu) · [戌 (Chien)](/guide/branch-sul)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-ja": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 甲子",
+    "summary": "Comment Saju-Link lit le pilier du jour 甲子 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "甲子 est le pilier du jour numéro 1 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲子, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 子 (le Rat). Dans le cycle de soixante ans, c'est la combinaison numéro 1."
+          },
+          {
+            "p": "Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲, et la ligne affichée par l'écran de résultats est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 子",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 甲, les tiges que contient 子 sont les suivantes. La tige principale (癸) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 甲子",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 甲"
+              ],
+              "rows": [
+                [
+                  "Eau Yang (壬)",
+                  "résiduelle (餘氣)",
+                  "{hidJaYeo}",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "principale (本氣)",
+                  "{hidJaBon}",
+                  "Bienveillance (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 甲 comme tige du jour, la Richesse stable est 己 et l'Autorité est 辛."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 己. 己 ne se trouve pas dans 子."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 辛. 辛 ne se trouve pas dans 子."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [癸亥](/guide/pillar-gye-hae) et le suivant est [乙丑](/guide/pillar-eul-chuk)."
+          },
+          {
+            "p": "Il est composé de [Bois Yang (甲)](/guide/stem-gap) et de [子 (Rat)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-chuk": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 乙丑",
+    "summary": "Comment Saju-Link lit le pilier du jour 乙丑 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "乙丑 est le pilier du jour numéro 2 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙丑, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle de soixante ans, c'est la combinaison numéro 2."
+          },
+          {
+            "p": "Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙, et la ligne affichée par l'écran de résultats est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 丑",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 乙, les tiges que contient 丑 sont les suivantes. La tige principale (己) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 乙丑",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 乙"
+              ],
+              "rows": [
+                [
+                  "Eau Yin (癸)",
+                  "résiduelle (餘氣)",
+                  "{hidChukYeo}",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "intermédiaire (中氣)",
+                  "{hidChukJung}",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "principale (本氣)",
+                  "{hidChukBon}",
+                  "Aubaine (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 乙 comme tige du jour, la Richesse stable est 戊 et l'Autorité est 庚."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 戊. 戊 ne se trouve pas dans 丑."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 庚. 庚 ne se trouve pas dans 丑."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [甲子](/guide/pillar-gap-ja) et le suivant est [丙寅](/guide/pillar-byeong-in)."
+          },
+          {
+            "p": "Il est composé de [Bois Yin (乙)](/guide/stem-eul) et de [丑 (Bœuf)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-in": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 丙寅",
+    "summary": "Comment Saju-Link lit le pilier du jour 丙寅 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丙寅 est le pilier du jour numéro 3 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙寅, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle de soixante ans, c'est la combinaison numéro 3."
+          },
+          {
+            "p": "Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙, et la ligne affichée par l'écran de résultats est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 寅",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 丙, les tiges que contient 寅 sont les suivantes. La tige principale (甲) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 丙寅",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 丙"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidInYeo}",
+                  "Expression (食神)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "intermédiaire (中氣)",
+                  "{hidInJung}",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Bois Yang (甲)",
+                  "principale (本氣)",
+                  "{hidInBon}",
+                  "Soutien atypique (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丙 comme tige du jour, la Richesse stable est 辛 et l'Autorité est 癸."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 辛. 辛 ne se trouve pas dans 寅."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 癸. 癸 ne se trouve pas dans 寅."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [乙丑](/guide/pillar-eul-chuk) et le suivant est [丁卯](/guide/pillar-jeong-myo)."
+          },
+          {
+            "p": "Il est composé de [Feu Yang (丙)](/guide/stem-byeong) et de [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-myo": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 丁卯",
+    "summary": "Comment Saju-Link lit le pilier du jour 丁卯 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丁卯 est le pilier du jour numéro 4 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁卯, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle de soixante ans, c'est la combinaison numéro 4."
+          },
+          {
+            "p": "Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁, et la ligne affichée par l'écran de résultats est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 卯",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 丁, les tiges que contient 卯 sont les suivantes. La tige principale (乙) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 丁卯",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 丁"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "résiduelle (餘氣)",
+                  "{hidMyoYeo}",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "principale (本氣)",
+                  "{hidMyoBon}",
+                  "Soutien atypique (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丁 comme tige du jour, la Richesse stable est 庚 et l'Autorité est 壬."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 庚. 庚 ne se trouve pas dans 卯."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 壬. 壬 ne se trouve pas dans 卯."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丙寅](/guide/pillar-byeong-in) et le suivant est [戊辰](/guide/pillar-mu-jin)."
+          },
+          {
+            "p": "Il est composé de [Feu Yin (丁)](/guide/stem-jeong) et de [卯 (Lapin)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-jin": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 戊辰",
+    "summary": "Comment Saju-Link lit le pilier du jour 戊辰 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "戊辰 est le pilier du jour numéro 5 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊辰, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle de soixante ans, c'est la combinaison numéro 5."
+          },
+          {
+            "p": "Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊, et la ligne affichée par l'écran de résultats est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 辰",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 戊, les tiges que contient 辰 sont les suivantes. La tige principale (戊) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 戊辰",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 戊"
+              ],
+              "rows": [
+                [
+                  "Bois Yin (乙)",
+                  "résiduelle (餘氣)",
+                  "{hidJinYeo}",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "intermédiaire (中氣)",
+                  "{hidJinJung}",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "principale (本氣)",
+                  "{hidJinBon}",
+                  "Compagnon (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 戊 comme tige du jour, la Richesse stable est 癸 et l'Autorité est 乙."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 癸. 癸 se trouve dans 辰 (intermédiaire (中氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 乙. 乙 se trouve dans 辰 (résiduelle (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丁卯](/guide/pillar-jeong-myo) et le suivant est [己巳](/guide/pillar-gi-sa)."
+          },
+          {
+            "p": "Il est composé de [Terre Yang (戊)](/guide/stem-mu) et de [辰 (Dragon)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-sa": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 己巳",
+    "summary": "Comment Saju-Link lit le pilier du jour 己巳 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "己巳 est le pilier du jour numéro 6 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己巳, la tige du jour est 己 (Terre, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle de soixante ans, c'est la combinaison numéro 6."
+          },
+          {
+            "p": "Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己, et la ligne affichée par l'écran de résultats est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 巳",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 己, les tiges que contient 巳 sont les suivantes. La tige principale (丙) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 己巳",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 己"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidSaYeo}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "intermédiaire (中氣)",
+                  "{hidSaJung}",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "principale (本氣)",
+                  "{hidSaBon}",
+                  "Bienveillance (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 己 comme tige du jour, la Richesse stable est 壬 et l'Autorité est 甲."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 壬. 壬 ne se trouve pas dans 巳."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 甲. 甲 ne se trouve pas dans 巳."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [戊辰](/guide/pillar-mu-jin) et le suivant est [庚午](/guide/pillar-gyeong-o)."
+          },
+          {
+            "p": "Il est composé de [Terre Yin (己)](/guide/stem-gi) et de [巳 (Serpent)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-o": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 庚午",
+    "summary": "Comment Saju-Link lit le pilier du jour 庚午 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "庚午 est le pilier du jour numéro 7 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚午, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle de soixante ans, c'est la combinaison numéro 7."
+          },
+          {
+            "p": "Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚, et la ligne affichée par l'écran de résultats est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 午",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 庚, les tiges que contient 午 sont les suivantes. La tige principale (丁) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 庚午",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 庚"
+              ],
+              "rows": [
+                [
+                  "Feu Yang (丙)",
+                  "résiduelle (餘氣)",
+                  "{hidOYeo}",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "intermédiaire (中氣)",
+                  "{hidOJung}",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "principale (本氣)",
+                  "{hidOBon}",
+                  "Autorité (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 庚 comme tige du jour, la Richesse stable est 乙 et l'Autorité est 丁."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 乙. 乙 ne se trouve pas dans 午."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 丁. 丁 se trouve dans 午 (principale (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [己巳](/guide/pillar-gi-sa) et le suivant est [辛未](/guide/pillar-sin-mi)."
+          },
+          {
+            "p": "Il est composé de [Métal Yang (庚)](/guide/stem-gyeong) et de [午 (Cheval)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-mi": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 辛未",
+    "summary": "Comment Saju-Link lit le pilier du jour 辛未 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "辛未 est le pilier du jour numéro 8 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛未, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle de soixante ans, c'est la combinaison numéro 8."
+          },
+          {
+            "p": "Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛, et la ligne affichée par l'écran de résultats est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 未",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 辛, les tiges que contient 未 sont les suivantes. La tige principale (己) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 辛未",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 辛"
+              ],
+              "rows": [
+                [
+                  "Feu Yin (丁)",
+                  "résiduelle (餘氣)",
+                  "{hidMiYeo}",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "intermédiaire (中氣)",
+                  "{hidMiJung}",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "principale (本氣)",
+                  "{hidMiBon}",
+                  "Soutien atypique (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 辛 comme tige du jour, la Richesse stable est 甲 et l'Autorité est 丙."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 甲. 甲 ne se trouve pas dans 未."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 丙. 丙 ne se trouve pas dans 未."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [庚午](/guide/pillar-gyeong-o) et le suivant est [壬申](/guide/pillar-im-sin)."
+          },
+          {
+            "p": "Il est composé de [Métal Yin (辛)](/guide/stem-sin) et de [未 (Mouton)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-sin": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 壬申",
+    "summary": "Comment Saju-Link lit le pilier du jour 壬申 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "壬申 est le pilier du jour numéro 9 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬申, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 申 (le Singe). Dans le cycle de soixante ans, c'est la combinaison numéro 9."
+          },
+          {
+            "p": "Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬, et la ligne affichée par l'écran de résultats est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 申",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 壬, les tiges que contient 申 sont les suivantes. La tige principale (庚) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 壬申",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 壬"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidSinYeo}",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "intermédiaire (中氣)",
+                  "{hidSinJung}",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "principale (本氣)",
+                  "{hidSinBon}",
+                  "Soutien atypique (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 壬 comme tige du jour, la Richesse stable est 丁 et l'Autorité est 己."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 丁. 丁 ne se trouve pas dans 申."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 己. 己 ne se trouve pas dans 申."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [辛未](/guide/pillar-sin-mi) et le suivant est [癸酉](/guide/pillar-gye-yu)."
+          },
+          {
+            "p": "Il est composé de [Eau Yang (壬)](/guide/stem-im) et de [申 (Singe)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-yu": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 癸酉",
+    "summary": "Comment Saju-Link lit le pilier du jour 癸酉 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "癸酉 est le pilier du jour numéro 10 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸酉, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle de soixante ans, c'est la combinaison numéro 10."
+          },
+          {
+            "p": "Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸, et la ligne affichée par l'écran de résultats est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 酉",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 癸, les tiges que contient 酉 sont les suivantes. La tige principale (辛) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 癸酉",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 癸"
+              ],
+              "rows": [
+                [
+                  "Métal Yang (庚)",
+                  "résiduelle (餘氣)",
+                  "{hidYuYeo}",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "principale (本氣)",
+                  "{hidYuBon}",
+                  "Soutien atypique (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 癸 comme tige du jour, la Richesse stable est 丙 et l'Autorité est 戊."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 丙. 丙 ne se trouve pas dans 酉."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 戊. 戊 ne se trouve pas dans 酉."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [壬申](/guide/pillar-im-sin) et le suivant est [甲戌](/guide/pillar-gap-sul)."
+          },
+          {
+            "p": "Il est composé de [Eau Yin (癸)](/guide/stem-gye) et de [酉 (Coq)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-sul": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 甲戌",
+    "summary": "Comment Saju-Link lit le pilier du jour 甲戌 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "甲戌 est le pilier du jour numéro 11 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲戌, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle de soixante ans, c'est la combinaison numéro 11."
+          },
+          {
+            "p": "Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲, et la ligne affichée par l'écran de résultats est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 戌",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 甲, les tiges que contient 戌 sont les suivantes. La tige principale (戊) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 甲戌",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 甲"
+              ],
+              "rows": [
+                [
+                  "Métal Yin (辛)",
+                  "résiduelle (餘氣)",
+                  "{hidSulYeo}",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "intermédiaire (中氣)",
+                  "{hidSulJung}",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "principale (本氣)",
+                  "{hidSulBon}",
+                  "Aubaine (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 甲 comme tige du jour, la Richesse stable est 己 et l'Autorité est 辛."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 己. 己 ne se trouve pas dans 戌."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 辛. 辛 se trouve dans 戌 (résiduelle (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [癸酉](/guide/pillar-gye-yu) et le suivant est [乙亥](/guide/pillar-eul-hae)."
+          },
+          {
+            "p": "Il est composé de [Bois Yang (甲)](/guide/stem-gap) et de [戌 (Chien)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-hae": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 乙亥",
+    "summary": "Comment Saju-Link lit le pilier du jour 乙亥 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "乙亥 est le pilier du jour numéro 12 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙亥, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle de soixante ans, c'est la combinaison numéro 12."
+          },
+          {
+            "p": "Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙, et la ligne affichée par l'écran de résultats est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 亥",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 乙, les tiges que contient 亥 sont les suivantes. La tige principale (壬) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 乙亥",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 乙"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidHaeYeo}",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Bois Yang (甲)",
+                  "intermédiaire (中氣)",
+                  "{hidHaeJung}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "principale (本氣)",
+                  "{hidHaeBon}",
+                  "Bienveillance (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 乙 comme tige du jour, la Richesse stable est 戊 et l'Autorité est 庚."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 戊. 戊 se trouve dans 亥 (résiduelle (餘氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 庚. 庚 ne se trouve pas dans 亥."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [甲戌](/guide/pillar-gap-sul) et le suivant est [丙子](/guide/pillar-byeong-ja)."
+          },
+          {
+            "p": "Il est composé de [Bois Yin (乙)](/guide/stem-eul) et de [亥 (Cochon)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-ja": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 丙子",
+    "summary": "Comment Saju-Link lit le pilier du jour 丙子 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丙子 est le pilier du jour numéro 13 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙子, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 子 (le Rat). Dans le cycle de soixante ans, c'est la combinaison numéro 13."
+          },
+          {
+            "p": "Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙, et la ligne affichée par l'écran de résultats est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 子",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 丙, les tiges que contient 子 sont les suivantes. La tige principale (癸) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 丙子",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 丙"
+              ],
+              "rows": [
+                [
+                  "Eau Yang (壬)",
+                  "résiduelle (餘氣)",
+                  "{hidJaYeo}",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "principale (本氣)",
+                  "{hidJaBon}",
+                  "Autorité (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丙 comme tige du jour, la Richesse stable est 辛 et l'Autorité est 癸."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 辛. 辛 ne se trouve pas dans 子."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 癸. 癸 se trouve dans 子 (principale (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [乙亥](/guide/pillar-eul-hae) et le suivant est [丁丑](/guide/pillar-jeong-chuk)."
+          },
+          {
+            "p": "Il est composé de [Feu Yang (丙)](/guide/stem-byeong) et de [子 (Rat)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-chuk": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 丁丑",
+    "summary": "Comment Saju-Link lit le pilier du jour 丁丑 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丁丑 est le pilier du jour numéro 14 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁丑, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle de soixante ans, c'est la combinaison numéro 14."
+          },
+          {
+            "p": "Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁, et la ligne affichée par l'écran de résultats est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 丑",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 丁, les tiges que contient 丑 sont les suivantes. La tige principale (己) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 丁丑",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 丁"
+              ],
+              "rows": [
+                [
+                  "Eau Yin (癸)",
+                  "résiduelle (餘氣)",
+                  "{hidChukYeo}",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "intermédiaire (中氣)",
+                  "{hidChukJung}",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "principale (本氣)",
+                  "{hidChukBon}",
+                  "Expression (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丁 comme tige du jour, la Richesse stable est 庚 et l'Autorité est 壬."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 庚. 庚 ne se trouve pas dans 丑."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 壬. 壬 ne se trouve pas dans 丑."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丙子](/guide/pillar-byeong-ja) et le suivant est [戊寅](/guide/pillar-mu-in)."
+          },
+          {
+            "p": "Il est composé de [Feu Yin (丁)](/guide/stem-jeong) et de [丑 (Bœuf)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-in": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 戊寅",
+    "summary": "Comment Saju-Link lit le pilier du jour 戊寅 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "戊寅 est le pilier du jour numéro 15 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊寅, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle de soixante ans, c'est la combinaison numéro 15."
+          },
+          {
+            "p": "Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊, et la ligne affichée par l'écran de résultats est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 寅",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 戊, les tiges que contient 寅 sont les suivantes. La tige principale (甲) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 戊寅",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 戊"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidInYeo}",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "intermédiaire (中氣)",
+                  "{hidInJung}",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Bois Yang (甲)",
+                  "principale (本氣)",
+                  "{hidInBon}",
+                  "Défi (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 戊 comme tige du jour, la Richesse stable est 癸 et l'Autorité est 乙."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 癸. 癸 ne se trouve pas dans 寅."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 乙. 乙 ne se trouve pas dans 寅."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丁丑](/guide/pillar-jeong-chuk) et le suivant est [己卯](/guide/pillar-gi-myo)."
+          },
+          {
+            "p": "Il est composé de [Terre Yang (戊)](/guide/stem-mu) et de [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-myo": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 己卯",
+    "summary": "Comment Saju-Link lit le pilier du jour 己卯 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "己卯 est le pilier du jour numéro 16 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己卯, la tige du jour est 己 (Terre, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle de soixante ans, c'est la combinaison numéro 16."
+          },
+          {
+            "p": "Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己, et la ligne affichée par l'écran de résultats est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 卯",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 己, les tiges que contient 卯 sont les suivantes. La tige principale (乙) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 己卯",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 己"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "résiduelle (餘氣)",
+                  "{hidMyoYeo}",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "principale (本氣)",
+                  "{hidMyoBon}",
+                  "Défi (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 己 comme tige du jour, la Richesse stable est 壬 et l'Autorité est 甲."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 壬. 壬 ne se trouve pas dans 卯."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 甲. 甲 se trouve dans 卯 (résiduelle (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [戊寅](/guide/pillar-mu-in) et le suivant est [庚辰](/guide/pillar-gyeong-jin)."
+          },
+          {
+            "p": "Il est composé de [Terre Yin (己)](/guide/stem-gi) et de [卯 (Lapin)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-jin": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 庚辰",
+    "summary": "Comment Saju-Link lit le pilier du jour 庚辰 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "庚辰 est le pilier du jour numéro 17 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚辰, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle de soixante ans, c'est la combinaison numéro 17."
+          },
+          {
+            "p": "Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚, et la ligne affichée par l'écran de résultats est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 辰",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 庚, les tiges que contient 辰 sont les suivantes. La tige principale (戊) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 庚辰",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 庚"
+              ],
+              "rows": [
+                [
+                  "Bois Yin (乙)",
+                  "résiduelle (餘氣)",
+                  "{hidJinYeo}",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "intermédiaire (中氣)",
+                  "{hidJinJung}",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "principale (本氣)",
+                  "{hidJinBon}",
+                  "Soutien atypique (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 庚 comme tige du jour, la Richesse stable est 乙 et l'Autorité est 丁."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 乙. 乙 se trouve dans 辰 (résiduelle (餘氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 丁. 丁 ne se trouve pas dans 辰."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [己卯](/guide/pillar-gi-myo) et le suivant est [辛巳](/guide/pillar-sin-sa)."
+          },
+          {
+            "p": "Il est composé de [Métal Yang (庚)](/guide/stem-gyeong) et de [辰 (Dragon)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-sa": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 辛巳",
+    "summary": "Comment Saju-Link lit le pilier du jour 辛巳 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "辛巳 est le pilier du jour numéro 18 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛巳, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle de soixante ans, c'est la combinaison numéro 18."
+          },
+          {
+            "p": "Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛, et la ligne affichée par l'écran de résultats est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 巳",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 辛, les tiges que contient 巳 sont les suivantes. La tige principale (丙) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 辛巳",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 辛"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidSaYeo}",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "intermédiaire (中氣)",
+                  "{hidSaJung}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "principale (本氣)",
+                  "{hidSaBon}",
+                  "Autorité (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 辛 comme tige du jour, la Richesse stable est 甲 et l'Autorité est 丙."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 甲. 甲 ne se trouve pas dans 巳."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 丙. 丙 se trouve dans 巳 (principale (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [庚辰](/guide/pillar-gyeong-jin) et le suivant est [壬午](/guide/pillar-im-o)."
+          },
+          {
+            "p": "Il est composé de [Métal Yin (辛)](/guide/stem-sin) et de [巳 (Serpent)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-o": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 壬午",
+    "summary": "Comment Saju-Link lit le pilier du jour 壬午 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "壬午 est le pilier du jour numéro 19 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬午, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle de soixante ans, c'est la combinaison numéro 19."
+          },
+          {
+            "p": "Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬, et la ligne affichée par l'écran de résultats est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 午",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 壬, les tiges que contient 午 sont les suivantes. La tige principale (丁) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 壬午",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 壬"
+              ],
+              "rows": [
+                [
+                  "Feu Yang (丙)",
+                  "résiduelle (餘氣)",
+                  "{hidOYeo}",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "intermédiaire (中氣)",
+                  "{hidOJung}",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "principale (本氣)",
+                  "{hidOBon}",
+                  "Richesse stable (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 壬 comme tige du jour, la Richesse stable est 丁 et l'Autorité est 己."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 丁. 丁 se trouve dans 午 (principale (本氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 己. 己 se trouve dans 午 (intermédiaire (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [辛巳](/guide/pillar-sin-sa) et le suivant est [癸未](/guide/pillar-gye-mi)."
+          },
+          {
+            "p": "Il est composé de [Eau Yang (壬)](/guide/stem-im) et de [午 (Cheval)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-mi": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 癸未",
+    "summary": "Comment Saju-Link lit le pilier du jour 癸未 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "癸未 est le pilier du jour numéro 20 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸未, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle de soixante ans, c'est la combinaison numéro 20."
+          },
+          {
+            "p": "Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸, et la ligne affichée par l'écran de résultats est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 未",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 癸, les tiges que contient 未 sont les suivantes. La tige principale (己) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 癸未",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 癸"
+              ],
+              "rows": [
+                [
+                  "Feu Yin (丁)",
+                  "résiduelle (餘氣)",
+                  "{hidMiYeo}",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "intermédiaire (中氣)",
+                  "{hidMiJung}",
+                  "Expression (食神)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "principale (本氣)",
+                  "{hidMiBon}",
+                  "Défi (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 癸 comme tige du jour, la Richesse stable est 丙 et l'Autorité est 戊."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 丙. 丙 ne se trouve pas dans 未."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 戊. 戊 ne se trouve pas dans 未."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [壬午](/guide/pillar-im-o) et le suivant est [甲申](/guide/pillar-gap-sin)."
+          },
+          {
+            "p": "Il est composé de [Eau Yin (癸)](/guide/stem-gye) et de [未 (Mouton)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-sin": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 甲申",
+    "summary": "Comment Saju-Link lit le pilier du jour 甲申 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "甲申 est le pilier du jour numéro 21 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲申, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 申 (le Singe). Dans le cycle de soixante ans, c'est la combinaison numéro 21."
+          },
+          {
+            "p": "Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲, et la ligne affichée par l'écran de résultats est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 申",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 甲, les tiges que contient 申 sont les suivantes. La tige principale (庚) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 甲申",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 甲"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidSinYeo}",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "intermédiaire (中氣)",
+                  "{hidSinJung}",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "principale (本氣)",
+                  "{hidSinBon}",
+                  "Défi (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 甲 comme tige du jour, la Richesse stable est 己 et l'Autorité est 辛."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 己. 己 ne se trouve pas dans 申."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 辛. 辛 ne se trouve pas dans 申."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [癸未](/guide/pillar-gye-mi) et le suivant est [乙酉](/guide/pillar-eul-yu)."
+          },
+          {
+            "p": "Il est composé de [Bois Yang (甲)](/guide/stem-gap) et de [申 (Singe)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-yu": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 乙酉",
+    "summary": "Comment Saju-Link lit le pilier du jour 乙酉 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "乙酉 est le pilier du jour numéro 22 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙酉, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle de soixante ans, c'est la combinaison numéro 22."
+          },
+          {
+            "p": "Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙, et la ligne affichée par l'écran de résultats est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 酉",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 乙, les tiges que contient 酉 sont les suivantes. La tige principale (辛) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 乙酉",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 乙"
+              ],
+              "rows": [
+                [
+                  "Métal Yang (庚)",
+                  "résiduelle (餘氣)",
+                  "{hidYuYeo}",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "principale (本氣)",
+                  "{hidYuBon}",
+                  "Défi (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 乙 comme tige du jour, la Richesse stable est 戊 et l'Autorité est 庚."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 戊. 戊 ne se trouve pas dans 酉."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 庚. 庚 se trouve dans 酉 (résiduelle (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [甲申](/guide/pillar-gap-sin) et le suivant est [丙戌](/guide/pillar-byeong-sul)."
+          },
+          {
+            "p": "Il est composé de [Bois Yin (乙)](/guide/stem-eul) et de [酉 (Coq)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-sul": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 丙戌",
+    "summary": "Comment Saju-Link lit le pilier du jour 丙戌 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丙戌 est le pilier du jour numéro 23 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙戌, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle de soixante ans, c'est la combinaison numéro 23."
+          },
+          {
+            "p": "Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙, et la ligne affichée par l'écran de résultats est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 戌",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 丙, les tiges que contient 戌 sont les suivantes. La tige principale (戊) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 丙戌",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 丙"
+              ],
+              "rows": [
+                [
+                  "Métal Yin (辛)",
+                  "résiduelle (餘氣)",
+                  "{hidSulYeo}",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "intermédiaire (中氣)",
+                  "{hidSulJung}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "principale (本氣)",
+                  "{hidSulBon}",
+                  "Expression (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丙 comme tige du jour, la Richesse stable est 辛 et l'Autorité est 癸."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 辛. 辛 se trouve dans 戌 (résiduelle (餘氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 癸. 癸 ne se trouve pas dans 戌."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [乙酉](/guide/pillar-eul-yu) et le suivant est [丁亥](/guide/pillar-jeong-hae)."
+          },
+          {
+            "p": "Il est composé de [Feu Yang (丙)](/guide/stem-byeong) et de [戌 (Chien)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-hae": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 丁亥",
+    "summary": "Comment Saju-Link lit le pilier du jour 丁亥 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丁亥 est le pilier du jour numéro 24 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁亥, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle de soixante ans, c'est la combinaison numéro 24."
+          },
+          {
+            "p": "Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁, et la ligne affichée par l'écran de résultats est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 亥",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 丁, les tiges que contient 亥 sont les suivantes. La tige principale (壬) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 丁亥",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 丁"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidHaeYeo}",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Bois Yang (甲)",
+                  "intermédiaire (中氣)",
+                  "{hidHaeJung}",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "principale (本氣)",
+                  "{hidHaeBon}",
+                  "Autorité (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丁 comme tige du jour, la Richesse stable est 庚 et l'Autorité est 壬."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 庚. 庚 ne se trouve pas dans 亥."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 壬. 壬 se trouve dans 亥 (principale (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丙戌](/guide/pillar-byeong-sul) et le suivant est [戊子](/guide/pillar-mu-ja)."
+          },
+          {
+            "p": "Il est composé de [Feu Yin (丁)](/guide/stem-jeong) et de [亥 (Cochon)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-ja": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 戊子",
+    "summary": "Comment Saju-Link lit le pilier du jour 戊子 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "戊子 est le pilier du jour numéro 25 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊子, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 子 (le Rat). Dans le cycle de soixante ans, c'est la combinaison numéro 25."
+          },
+          {
+            "p": "Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊, et la ligne affichée par l'écran de résultats est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 子",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 戊, les tiges que contient 子 sont les suivantes. La tige principale (癸) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 戊子",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 戊"
+              ],
+              "rows": [
+                [
+                  "Eau Yang (壬)",
+                  "résiduelle (餘氣)",
+                  "{hidJaYeo}",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "principale (本氣)",
+                  "{hidJaBon}",
+                  "Richesse stable (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 戊 comme tige du jour, la Richesse stable est 癸 et l'Autorité est 乙."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 癸. 癸 se trouve dans 子 (principale (本氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 乙. 乙 ne se trouve pas dans 子."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丁亥](/guide/pillar-jeong-hae) et le suivant est [己丑](/guide/pillar-gi-chuk)."
+          },
+          {
+            "p": "Il est composé de [Terre Yang (戊)](/guide/stem-mu) et de [子 (Rat)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-chuk": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 己丑",
+    "summary": "Comment Saju-Link lit le pilier du jour 己丑 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "己丑 est le pilier du jour numéro 26 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己丑, la tige du jour est 己 (Terre, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle de soixante ans, c'est la combinaison numéro 26."
+          },
+          {
+            "p": "Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己, et la ligne affichée par l'écran de résultats est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 丑",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 己, les tiges que contient 丑 sont les suivantes. La tige principale (己) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 己丑",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 己"
+              ],
+              "rows": [
+                [
+                  "Eau Yin (癸)",
+                  "résiduelle (餘氣)",
+                  "{hidChukYeo}",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "intermédiaire (中氣)",
+                  "{hidChukJung}",
+                  "Expression (食神)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "principale (本氣)",
+                  "{hidChukBon}",
+                  "Compagnon (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 己 comme tige du jour, la Richesse stable est 壬 et l'Autorité est 甲."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 壬. 壬 ne se trouve pas dans 丑."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 甲. 甲 ne se trouve pas dans 丑."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [戊子](/guide/pillar-mu-ja) et le suivant est [庚寅](/guide/pillar-gyeong-in)."
+          },
+          {
+            "p": "Il est composé de [Terre Yin (己)](/guide/stem-gi) et de [丑 (Bœuf)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-in": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 庚寅",
+    "summary": "Comment Saju-Link lit le pilier du jour 庚寅 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "庚寅 est le pilier du jour numéro 27 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚寅, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle de soixante ans, c'est la combinaison numéro 27."
+          },
+          {
+            "p": "Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚, et la ligne affichée par l'écran de résultats est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 寅",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 庚, les tiges que contient 寅 sont les suivantes. La tige principale (甲) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 庚寅",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 庚"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidInYeo}",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "intermédiaire (中氣)",
+                  "{hidInJung}",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Bois Yang (甲)",
+                  "principale (本氣)",
+                  "{hidInBon}",
+                  "Aubaine (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 庚 comme tige du jour, la Richesse stable est 乙 et l'Autorité est 丁."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 乙. 乙 ne se trouve pas dans 寅."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 丁. 丁 ne se trouve pas dans 寅."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [己丑](/guide/pillar-gi-chuk) et le suivant est [辛卯](/guide/pillar-sin-myo)."
+          },
+          {
+            "p": "Il est composé de [Métal Yang (庚)](/guide/stem-gyeong) et de [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-myo": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 辛卯",
+    "summary": "Comment Saju-Link lit le pilier du jour 辛卯 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "辛卯 est le pilier du jour numéro 28 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛卯, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle de soixante ans, c'est la combinaison numéro 28."
+          },
+          {
+            "p": "Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛, et la ligne affichée par l'écran de résultats est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 卯",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 辛, les tiges que contient 卯 sont les suivantes. La tige principale (乙) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 辛卯",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 辛"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "résiduelle (餘氣)",
+                  "{hidMyoYeo}",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "principale (本氣)",
+                  "{hidMyoBon}",
+                  "Aubaine (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 辛 comme tige du jour, la Richesse stable est 甲 et l'Autorité est 丙."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 甲. 甲 se trouve dans 卯 (résiduelle (餘氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 丙. 丙 ne se trouve pas dans 卯."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [庚寅](/guide/pillar-gyeong-in) et le suivant est [壬辰](/guide/pillar-im-jin)."
+          },
+          {
+            "p": "Il est composé de [Métal Yin (辛)](/guide/stem-sin) et de [卯 (Lapin)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-jin": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 壬辰",
+    "summary": "Comment Saju-Link lit le pilier du jour 壬辰 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "壬辰 est le pilier du jour numéro 29 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬辰, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle de soixante ans, c'est la combinaison numéro 29."
+          },
+          {
+            "p": "Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬, et la ligne affichée par l'écran de résultats est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 辰",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 壬, les tiges que contient 辰 sont les suivantes. La tige principale (戊) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 壬辰",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 壬"
+              ],
+              "rows": [
+                [
+                  "Bois Yin (乙)",
+                  "résiduelle (餘氣)",
+                  "{hidJinYeo}",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "intermédiaire (中氣)",
+                  "{hidJinJung}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "principale (本氣)",
+                  "{hidJinBon}",
+                  "Défi (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 壬 comme tige du jour, la Richesse stable est 丁 et l'Autorité est 己."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 丁. 丁 ne se trouve pas dans 辰."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 己. 己 ne se trouve pas dans 辰."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [辛卯](/guide/pillar-sin-myo) et le suivant est [癸巳](/guide/pillar-gye-sa)."
+          },
+          {
+            "p": "Il est composé de [Eau Yang (壬)](/guide/stem-im) et de [辰 (Dragon)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-sa": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 癸巳",
+    "summary": "Comment Saju-Link lit le pilier du jour 癸巳 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "癸巳 est le pilier du jour numéro 30 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸巳, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle de soixante ans, c'est la combinaison numéro 30."
+          },
+          {
+            "p": "Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸, et la ligne affichée par l'écran de résultats est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 巳",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 癸, les tiges que contient 巳 sont les suivantes. La tige principale (丙) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 癸巳",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 癸"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidSaYeo}",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "intermédiaire (中氣)",
+                  "{hidSaJung}",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "principale (本氣)",
+                  "{hidSaBon}",
+                  "Richesse stable (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 癸 comme tige du jour, la Richesse stable est 丙 et l'Autorité est 戊."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 丙. 丙 se trouve dans 巳 (principale (本氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 戊. 戊 se trouve dans 巳 (résiduelle (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [壬辰](/guide/pillar-im-jin) et le suivant est [甲午](/guide/pillar-gap-o)."
+          },
+          {
+            "p": "Il est composé de [Eau Yin (癸)](/guide/stem-gye) et de [巳 (Serpent)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-o": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 甲午",
+    "summary": "Comment Saju-Link lit le pilier du jour 甲午 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "甲午 est le pilier du jour numéro 31 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲午, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle de soixante ans, c'est la combinaison numéro 31."
+          },
+          {
+            "p": "Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲, et la ligne affichée par l'écran de résultats est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 午",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 甲, les tiges que contient 午 sont les suivantes. La tige principale (丁) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 甲午",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 甲"
+              ],
+              "rows": [
+                [
+                  "Feu Yang (丙)",
+                  "résiduelle (餘氣)",
+                  "{hidOYeo}",
+                  "Expression (食神)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "intermédiaire (中氣)",
+                  "{hidOJung}",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "principale (本氣)",
+                  "{hidOBon}",
+                  "Perturbateur (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 甲 comme tige du jour, la Richesse stable est 己 et l'Autorité est 辛."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 己. 己 se trouve dans 午 (intermédiaire (中氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 辛. 辛 ne se trouve pas dans 午."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [癸巳](/guide/pillar-gye-sa) et le suivant est [乙未](/guide/pillar-eul-mi)."
+          },
+          {
+            "p": "Il est composé de [Bois Yang (甲)](/guide/stem-gap) et de [午 (Cheval)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-mi": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 乙未",
+    "summary": "Comment Saju-Link lit le pilier du jour 乙未 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "乙未 est le pilier du jour numéro 32 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙未, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle de soixante ans, c'est la combinaison numéro 32."
+          },
+          {
+            "p": "Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙, et la ligne affichée par l'écran de résultats est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 未",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 乙, les tiges que contient 未 sont les suivantes. La tige principale (己) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 乙未",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 乙"
+              ],
+              "rows": [
+                [
+                  "Feu Yin (丁)",
+                  "résiduelle (餘氣)",
+                  "{hidMiYeo}",
+                  "Expression (食神)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "intermédiaire (中氣)",
+                  "{hidMiJung}",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "principale (本氣)",
+                  "{hidMiBon}",
+                  "Aubaine (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 乙 comme tige du jour, la Richesse stable est 戊 et l'Autorité est 庚."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 戊. 戊 ne se trouve pas dans 未."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 庚. 庚 ne se trouve pas dans 未."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [甲午](/guide/pillar-gap-o) et le suivant est [丙申](/guide/pillar-byeong-sin)."
+          },
+          {
+            "p": "Il est composé de [Bois Yin (乙)](/guide/stem-eul) et de [未 (Mouton)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-sin": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 丙申",
+    "summary": "Comment Saju-Link lit le pilier du jour 丙申 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丙申 est le pilier du jour numéro 33 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙申, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 申 (le Singe). Dans le cycle de soixante ans, c'est la combinaison numéro 33."
+          },
+          {
+            "p": "Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙, et la ligne affichée par l'écran de résultats est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 申",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 丙, les tiges que contient 申 sont les suivantes. La tige principale (庚) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 丙申",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 丙"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidSinYeo}",
+                  "Expression (食神)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "intermédiaire (中氣)",
+                  "{hidSinJung}",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "principale (本氣)",
+                  "{hidSinBon}",
+                  "Aubaine (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丙 comme tige du jour, la Richesse stable est 辛 et l'Autorité est 癸."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 辛. 辛 ne se trouve pas dans 申."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 癸. 癸 ne se trouve pas dans 申."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [乙未](/guide/pillar-eul-mi) et le suivant est [丁酉](/guide/pillar-jeong-yu)."
+          },
+          {
+            "p": "Il est composé de [Feu Yang (丙)](/guide/stem-byeong) et de [申 (Singe)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-yu": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 丁酉",
+    "summary": "Comment Saju-Link lit le pilier du jour 丁酉 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丁酉 est le pilier du jour numéro 34 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁酉, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle de soixante ans, c'est la combinaison numéro 34."
+          },
+          {
+            "p": "Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁, et la ligne affichée par l'écran de résultats est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 酉",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 丁, les tiges que contient 酉 sont les suivantes. La tige principale (辛) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 丁酉",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 丁"
+              ],
+              "rows": [
+                [
+                  "Métal Yang (庚)",
+                  "résiduelle (餘氣)",
+                  "{hidYuYeo}",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "principale (本氣)",
+                  "{hidYuBon}",
+                  "Aubaine (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丁 comme tige du jour, la Richesse stable est 庚 et l'Autorité est 壬."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 庚. 庚 se trouve dans 酉 (résiduelle (餘氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 壬. 壬 ne se trouve pas dans 酉."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丙申](/guide/pillar-byeong-sin) et le suivant est [戊戌](/guide/pillar-mu-sul)."
+          },
+          {
+            "p": "Il est composé de [Feu Yin (丁)](/guide/stem-jeong) et de [酉 (Coq)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-sul": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 戊戌",
+    "summary": "Comment Saju-Link lit le pilier du jour 戊戌 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "戊戌 est le pilier du jour numéro 35 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊戌, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle de soixante ans, c'est la combinaison numéro 35."
+          },
+          {
+            "p": "Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊, et la ligne affichée par l'écran de résultats est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 戌",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 戊, les tiges que contient 戌 sont les suivantes. La tige principale (戊) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 戊戌",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 戊"
+              ],
+              "rows": [
+                [
+                  "Métal Yin (辛)",
+                  "résiduelle (餘氣)",
+                  "{hidSulYeo}",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "intermédiaire (中氣)",
+                  "{hidSulJung}",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "principale (本氣)",
+                  "{hidSulBon}",
+                  "Compagnon (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 戊 comme tige du jour, la Richesse stable est 癸 et l'Autorité est 乙."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 癸. 癸 ne se trouve pas dans 戌."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 乙. 乙 ne se trouve pas dans 戌."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丁酉](/guide/pillar-jeong-yu) et le suivant est [己亥](/guide/pillar-gi-hae)."
+          },
+          {
+            "p": "Il est composé de [Terre Yang (戊)](/guide/stem-mu) et de [戌 (Chien)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-hae": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 己亥",
+    "summary": "Comment Saju-Link lit le pilier du jour 己亥 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "己亥 est le pilier du jour numéro 36 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己亥, la tige du jour est 己 (Terre, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle de soixante ans, c'est la combinaison numéro 36."
+          },
+          {
+            "p": "Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己, et la ligne affichée par l'écran de résultats est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 亥",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 己, les tiges que contient 亥 sont les suivantes. La tige principale (壬) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 己亥",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 己"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidHaeYeo}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Bois Yang (甲)",
+                  "intermédiaire (中氣)",
+                  "{hidHaeJung}",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "principale (本氣)",
+                  "{hidHaeBon}",
+                  "Richesse stable (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 己 comme tige du jour, la Richesse stable est 壬 et l'Autorité est 甲."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 壬. 壬 se trouve dans 亥 (principale (本氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 甲. 甲 se trouve dans 亥 (intermédiaire (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [戊戌](/guide/pillar-mu-sul) et le suivant est [庚子](/guide/pillar-gyeong-ja)."
+          },
+          {
+            "p": "Il est composé de [Terre Yin (己)](/guide/stem-gi) et de [亥 (Cochon)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-ja": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 庚子",
+    "summary": "Comment Saju-Link lit le pilier du jour 庚子 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "庚子 est le pilier du jour numéro 37 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚子, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 子 (le Rat). Dans le cycle de soixante ans, c'est la combinaison numéro 37."
+          },
+          {
+            "p": "Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚, et la ligne affichée par l'écran de résultats est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 子",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 庚, les tiges que contient 子 sont les suivantes. La tige principale (癸) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 庚子",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 庚"
+              ],
+              "rows": [
+                [
+                  "Eau Yang (壬)",
+                  "résiduelle (餘氣)",
+                  "{hidJaYeo}",
+                  "Expression (食神)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "principale (本氣)",
+                  "{hidJaBon}",
+                  "Perturbateur (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 庚 comme tige du jour, la Richesse stable est 乙 et l'Autorité est 丁."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 乙. 乙 ne se trouve pas dans 子."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 丁. 丁 ne se trouve pas dans 子."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [己亥](/guide/pillar-gi-hae) et le suivant est [辛丑](/guide/pillar-sin-chuk)."
+          },
+          {
+            "p": "Il est composé de [Métal Yang (庚)](/guide/stem-gyeong) et de [子 (Rat)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-chuk": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 辛丑",
+    "summary": "Comment Saju-Link lit le pilier du jour 辛丑 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "辛丑 est le pilier du jour numéro 38 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛丑, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle de soixante ans, c'est la combinaison numéro 38."
+          },
+          {
+            "p": "Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛, et la ligne affichée par l'écran de résultats est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 丑",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 辛, les tiges que contient 丑 sont les suivantes. La tige principale (己) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 辛丑",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 辛"
+              ],
+              "rows": [
+                [
+                  "Eau Yin (癸)",
+                  "résiduelle (餘氣)",
+                  "{hidChukYeo}",
+                  "Expression (食神)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "intermédiaire (中氣)",
+                  "{hidChukJung}",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "principale (本氣)",
+                  "{hidChukBon}",
+                  "Soutien atypique (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 辛 comme tige du jour, la Richesse stable est 甲 et l'Autorité est 丙."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 甲. 甲 ne se trouve pas dans 丑."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 丙. 丙 ne se trouve pas dans 丑."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [庚子](/guide/pillar-gyeong-ja) et le suivant est [壬寅](/guide/pillar-im-in)."
+          },
+          {
+            "p": "Il est composé de [Métal Yin (辛)](/guide/stem-sin) et de [丑 (Bœuf)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-in": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 壬寅",
+    "summary": "Comment Saju-Link lit le pilier du jour 壬寅 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "壬寅 est le pilier du jour numéro 39 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬寅, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle de soixante ans, c'est la combinaison numéro 39."
+          },
+          {
+            "p": "Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬, et la ligne affichée par l'écran de résultats est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 寅",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 壬, les tiges que contient 寅 sont les suivantes. La tige principale (甲) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 壬寅",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 壬"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidInYeo}",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "intermédiaire (中氣)",
+                  "{hidInJung}",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Bois Yang (甲)",
+                  "principale (本氣)",
+                  "{hidInBon}",
+                  "Expression (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 壬 comme tige du jour, la Richesse stable est 丁 et l'Autorité est 己."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 丁. 丁 ne se trouve pas dans 寅."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 己. 己 ne se trouve pas dans 寅."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [辛丑](/guide/pillar-sin-chuk) et le suivant est [癸卯](/guide/pillar-gye-myo)."
+          },
+          {
+            "p": "Il est composé de [Eau Yang (壬)](/guide/stem-im) et de [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-myo": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 癸卯",
+    "summary": "Comment Saju-Link lit le pilier du jour 癸卯 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "癸卯 est le pilier du jour numéro 40 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸卯, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle de soixante ans, c'est la combinaison numéro 40."
+          },
+          {
+            "p": "Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸, et la ligne affichée par l'écran de résultats est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 卯",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 癸, les tiges que contient 卯 sont les suivantes. La tige principale (乙) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 癸卯",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 癸"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "résiduelle (餘氣)",
+                  "{hidMyoYeo}",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "principale (本氣)",
+                  "{hidMyoBon}",
+                  "Expression (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 癸 comme tige du jour, la Richesse stable est 丙 et l'Autorité est 戊."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 丙. 丙 ne se trouve pas dans 卯."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 戊. 戊 ne se trouve pas dans 卯."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [壬寅](/guide/pillar-im-in) et le suivant est [甲辰](/guide/pillar-gap-jin)."
+          },
+          {
+            "p": "Il est composé de [Eau Yin (癸)](/guide/stem-gye) et de [卯 (Lapin)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-jin": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 甲辰",
+    "summary": "Comment Saju-Link lit le pilier du jour 甲辰 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "甲辰 est le pilier du jour numéro 41 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲辰, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle de soixante ans, c'est la combinaison numéro 41."
+          },
+          {
+            "p": "Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲, et la ligne affichée par l'écran de résultats est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 辰",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 甲, les tiges que contient 辰 sont les suivantes. La tige principale (戊) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 甲辰",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 甲"
+              ],
+              "rows": [
+                [
+                  "Bois Yin (乙)",
+                  "résiduelle (餘氣)",
+                  "{hidJinYeo}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "intermédiaire (中氣)",
+                  "{hidJinJung}",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "principale (本氣)",
+                  "{hidJinBon}",
+                  "Aubaine (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 甲 comme tige du jour, la Richesse stable est 己 et l'Autorité est 辛."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 己. 己 ne se trouve pas dans 辰."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 辛. 辛 ne se trouve pas dans 辰."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [癸卯](/guide/pillar-gye-myo) et le suivant est [乙巳](/guide/pillar-eul-sa)."
+          },
+          {
+            "p": "Il est composé de [Bois Yang (甲)](/guide/stem-gap) et de [辰 (Dragon)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-sa": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 乙巳",
+    "summary": "Comment Saju-Link lit le pilier du jour 乙巳 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "乙巳 est le pilier du jour numéro 42 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙巳, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle de soixante ans, c'est la combinaison numéro 42."
+          },
+          {
+            "p": "Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙, et la ligne affichée par l'écran de résultats est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 巳",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 乙, les tiges que contient 巳 sont les suivantes. La tige principale (丙) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 乙巳",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 乙"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidSaYeo}",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "intermédiaire (中氣)",
+                  "{hidSaJung}",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "principale (本氣)",
+                  "{hidSaBon}",
+                  "Perturbateur (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 乙 comme tige du jour, la Richesse stable est 戊 et l'Autorité est 庚."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 戊. 戊 se trouve dans 巳 (résiduelle (餘氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 庚. 庚 se trouve dans 巳 (intermédiaire (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [甲辰](/guide/pillar-gap-jin) et le suivant est [丙午](/guide/pillar-byeong-o)."
+          },
+          {
+            "p": "Il est composé de [Bois Yin (乙)](/guide/stem-eul) et de [巳 (Serpent)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-o": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 丙午",
+    "summary": "Comment Saju-Link lit le pilier du jour 丙午 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丙午 est le pilier du jour numéro 43 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙午, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle de soixante ans, c'est la combinaison numéro 43."
+          },
+          {
+            "p": "Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙, et la ligne affichée par l'écran de résultats est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 午",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 丙, les tiges que contient 午 sont les suivantes. La tige principale (丁) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 丙午",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 丙"
+              ],
+              "rows": [
+                [
+                  "Feu Yang (丙)",
+                  "résiduelle (餘氣)",
+                  "{hidOYeo}",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "intermédiaire (中氣)",
+                  "{hidOJung}",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "principale (本氣)",
+                  "{hidOBon}",
+                  "Rival (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丙 comme tige du jour, la Richesse stable est 辛 et l'Autorité est 癸."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 辛. 辛 ne se trouve pas dans 午."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 癸. 癸 ne se trouve pas dans 午."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [乙巳](/guide/pillar-eul-sa) et le suivant est [丁未](/guide/pillar-jeong-mi)."
+          },
+          {
+            "p": "Il est composé de [Feu Yang (丙)](/guide/stem-byeong) et de [午 (Cheval)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-mi": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 丁未",
+    "summary": "Comment Saju-Link lit le pilier du jour 丁未 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丁未 est le pilier du jour numéro 44 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁未, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle de soixante ans, c'est la combinaison numéro 44."
+          },
+          {
+            "p": "Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁, et la ligne affichée par l'écran de résultats est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 未",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 丁, les tiges que contient 未 sont les suivantes. La tige principale (己) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 丁未",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 丁"
+              ],
+              "rows": [
+                [
+                  "Feu Yin (丁)",
+                  "résiduelle (餘氣)",
+                  "{hidMiYeo}",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "intermédiaire (中氣)",
+                  "{hidMiJung}",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "principale (本氣)",
+                  "{hidMiBon}",
+                  "Expression (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丁 comme tige du jour, la Richesse stable est 庚 et l'Autorité est 壬."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 庚. 庚 ne se trouve pas dans 未."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 壬. 壬 ne se trouve pas dans 未."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丙午](/guide/pillar-byeong-o) et le suivant est [戊申](/guide/pillar-mu-sin)."
+          },
+          {
+            "p": "Il est composé de [Feu Yin (丁)](/guide/stem-jeong) et de [未 (Mouton)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-sin": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 戊申",
+    "summary": "Comment Saju-Link lit le pilier du jour 戊申 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "戊申 est le pilier du jour numéro 45 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊申, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 申 (le Singe). Dans le cycle de soixante ans, c'est la combinaison numéro 45."
+          },
+          {
+            "p": "Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊, et la ligne affichée par l'écran de résultats est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 申",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 戊, les tiges que contient 申 sont les suivantes. La tige principale (庚) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 戊申",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 戊"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidSinYeo}",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "intermédiaire (中氣)",
+                  "{hidSinJung}",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "principale (本氣)",
+                  "{hidSinBon}",
+                  "Expression (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 戊 comme tige du jour, la Richesse stable est 癸 et l'Autorité est 乙."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 癸. 癸 ne se trouve pas dans 申."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 乙. 乙 ne se trouve pas dans 申."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丁未](/guide/pillar-jeong-mi) et le suivant est [己酉](/guide/pillar-gi-yu)."
+          },
+          {
+            "p": "Il est composé de [Terre Yang (戊)](/guide/stem-mu) et de [申 (Singe)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-yu": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 己酉",
+    "summary": "Comment Saju-Link lit le pilier du jour 己酉 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "己酉 est le pilier du jour numéro 46 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己酉, la tige du jour est 己 (Terre, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle de soixante ans, c'est la combinaison numéro 46."
+          },
+          {
+            "p": "Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己, et la ligne affichée par l'écran de résultats est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 酉",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 己, les tiges que contient 酉 sont les suivantes. La tige principale (辛) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 己酉",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 己"
+              ],
+              "rows": [
+                [
+                  "Métal Yang (庚)",
+                  "résiduelle (餘氣)",
+                  "{hidYuYeo}",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "principale (本氣)",
+                  "{hidYuBon}",
+                  "Expression (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 己 comme tige du jour, la Richesse stable est 壬 et l'Autorité est 甲."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 壬. 壬 ne se trouve pas dans 酉."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 甲. 甲 ne se trouve pas dans 酉."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [戊申](/guide/pillar-mu-sin) et le suivant est [庚戌](/guide/pillar-gyeong-sul)."
+          },
+          {
+            "p": "Il est composé de [Terre Yin (己)](/guide/stem-gi) et de [酉 (Coq)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-sul": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 庚戌",
+    "summary": "Comment Saju-Link lit le pilier du jour 庚戌 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "庚戌 est le pilier du jour numéro 47 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚戌, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle de soixante ans, c'est la combinaison numéro 47."
+          },
+          {
+            "p": "Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚, et la ligne affichée par l'écran de résultats est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 戌",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 庚, les tiges que contient 戌 sont les suivantes. La tige principale (戊) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 庚戌",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 庚"
+              ],
+              "rows": [
+                [
+                  "Métal Yin (辛)",
+                  "résiduelle (餘氣)",
+                  "{hidSulYeo}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "intermédiaire (中氣)",
+                  "{hidSulJung}",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "principale (本氣)",
+                  "{hidSulBon}",
+                  "Soutien atypique (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 庚 comme tige du jour, la Richesse stable est 乙 et l'Autorité est 丁."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 乙. 乙 ne se trouve pas dans 戌."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 丁. 丁 se trouve dans 戌 (intermédiaire (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [己酉](/guide/pillar-gi-yu) et le suivant est [辛亥](/guide/pillar-sin-hae)."
+          },
+          {
+            "p": "Il est composé de [Métal Yang (庚)](/guide/stem-gyeong) et de [戌 (Chien)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-hae": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 辛亥",
+    "summary": "Comment Saju-Link lit le pilier du jour 辛亥 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "辛亥 est le pilier du jour numéro 48 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛亥, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle de soixante ans, c'est la combinaison numéro 48."
+          },
+          {
+            "p": "Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛, et la ligne affichée par l'écran de résultats est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 亥",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 辛, les tiges que contient 亥 sont les suivantes. La tige principale (壬) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 辛亥",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 辛"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidHaeYeo}",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Bois Yang (甲)",
+                  "intermédiaire (中氣)",
+                  "{hidHaeJung}",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "principale (本氣)",
+                  "{hidHaeBon}",
+                  "Perturbateur (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 辛 comme tige du jour, la Richesse stable est 甲 et l'Autorité est 丙."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 甲. 甲 se trouve dans 亥 (intermédiaire (中氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 丙. 丙 ne se trouve pas dans 亥."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [庚戌](/guide/pillar-gyeong-sul) et le suivant est [壬子](/guide/pillar-im-ja)."
+          },
+          {
+            "p": "Il est composé de [Métal Yin (辛)](/guide/stem-sin) et de [亥 (Cochon)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-ja": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 壬子",
+    "summary": "Comment Saju-Link lit le pilier du jour 壬子 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "壬子 est le pilier du jour numéro 49 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬子, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 子 (le Rat). Dans le cycle de soixante ans, c'est la combinaison numéro 49."
+          },
+          {
+            "p": "Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬, et la ligne affichée par l'écran de résultats est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 子",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 壬, les tiges que contient 子 sont les suivantes. La tige principale (癸) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 壬子",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 壬"
+              ],
+              "rows": [
+                [
+                  "Eau Yang (壬)",
+                  "résiduelle (餘氣)",
+                  "{hidJaYeo}",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "principale (本氣)",
+                  "{hidJaBon}",
+                  "Rival (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 壬 comme tige du jour, la Richesse stable est 丁 et l'Autorité est 己."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 丁. 丁 ne se trouve pas dans 子."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 己. 己 ne se trouve pas dans 子."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [辛亥](/guide/pillar-sin-hae) et le suivant est [癸丑](/guide/pillar-gye-chuk)."
+          },
+          {
+            "p": "Il est composé de [Eau Yang (壬)](/guide/stem-im) et de [子 (Rat)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-chuk": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 癸丑",
+    "summary": "Comment Saju-Link lit le pilier du jour 癸丑 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "癸丑 est le pilier du jour numéro 50 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸丑, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 丑 (le Bœuf). Dans le cycle de soixante ans, c'est la combinaison numéro 50."
+          },
+          {
+            "p": "Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸, et la ligne affichée par l'écran de résultats est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 丑",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 癸, les tiges que contient 丑 sont les suivantes. La tige principale (己) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 癸丑",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 癸"
+              ],
+              "rows": [
+                [
+                  "Eau Yin (癸)",
+                  "résiduelle (餘氣)",
+                  "{hidChukYeo}",
+                  "Compagnon (比肩)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "intermédiaire (中氣)",
+                  "{hidChukJung}",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "principale (本氣)",
+                  "{hidChukBon}",
+                  "Défi (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 癸 comme tige du jour, la Richesse stable est 丙 et l'Autorité est 戊."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 丙. 丙 ne se trouve pas dans 丑."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 戊. 戊 ne se trouve pas dans 丑."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [壬子](/guide/pillar-im-ja) et le suivant est [甲寅](/guide/pillar-gap-in)."
+          },
+          {
+            "p": "Il est composé de [Eau Yin (癸)](/guide/stem-gye) et de [丑 (Bœuf)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-in": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 甲寅",
+    "summary": "Comment Saju-Link lit le pilier du jour 甲寅 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "甲寅 est le pilier du jour numéro 51 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 甲寅, la tige du jour est 甲 (Bois, Yang) et la branche du jour est 寅 (le Tigre). Dans le cycle de soixante ans, c'est la combinaison numéro 51."
+          },
+          {
+            "p": "Saju-Link appelle « Bois Yang (甲) » une personne dont la tige du jour est 甲, et la ligne affichée par l'écran de résultats est : « Un grand arbre qui pousse droit. Une fois la direction fixée, il ne vacille pas, et il préfère endurer plutôt que plier. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 寅",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 甲, les tiges que contient 寅 sont les suivantes. La tige principale (甲) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 甲寅",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 甲"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidInYeo}",
+                  "Aubaine (偏財)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "intermédiaire (中氣)",
+                  "{hidInJung}",
+                  "Expression (食神)"
+                ],
+                [
+                  "Bois Yang (甲)",
+                  "principale (本氣)",
+                  "{hidInBon}",
+                  "Compagnon (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 甲 comme tige du jour, la Richesse stable est 己 et l'Autorité est 辛."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 己. 己 ne se trouve pas dans 寅."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 辛. 辛 ne se trouve pas dans 寅."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [癸丑](/guide/pillar-gye-chuk) et le suivant est [乙卯](/guide/pillar-eul-myo)."
+          },
+          {
+            "p": "Il est composé de [Bois Yang (甲)](/guide/stem-gap) et de [寅 (Tigre)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-myo": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 乙卯",
+    "summary": "Comment Saju-Link lit le pilier du jour 乙卯 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "乙卯 est le pilier du jour numéro 52 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 乙卯, la tige du jour est 乙 (Bois, Yin) et la branche du jour est 卯 (le Lapin). Dans le cycle de soixante ans, c'est la combinaison numéro 52."
+          },
+          {
+            "p": "Saju-Link appelle « Bois Yin (乙) » une personne dont la tige du jour est 乙, et la ligne affichée par l'écran de résultats est : « Une liane, une herbe souple. Elle plie avec les circonstances pour continuer d'avancer, et elle ne casse pas. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 卯",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 乙, les tiges que contient 卯 sont les suivantes. La tige principale (乙) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 乙卯",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 乙"
+              ],
+              "rows": [
+                [
+                  "Bois Yang (甲)",
+                  "résiduelle (餘氣)",
+                  "{hidMyoYeo}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "principale (本氣)",
+                  "{hidMyoBon}",
+                  "Compagnon (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 乙 comme tige du jour, la Richesse stable est 戊 et l'Autorité est 庚."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 戊. 戊 ne se trouve pas dans 卯."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 庚. 庚 ne se trouve pas dans 卯."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [甲寅](/guide/pillar-gap-in) et le suivant est [丙辰](/guide/pillar-byeong-jin)."
+          },
+          {
+            "p": "Il est composé de [Bois Yin (乙)](/guide/stem-eul) et de [卯 (Lapin)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-jin": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 丙辰",
+    "summary": "Comment Saju-Link lit le pilier du jour 丙辰 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丙辰 est le pilier du jour numéro 53 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丙辰, la tige du jour est 丙 (Feu, Yang) et la branche du jour est 辰 (le Dragon). Dans le cycle de soixante ans, c'est la combinaison numéro 53."
+          },
+          {
+            "p": "Saju-Link appelle « Feu Yang (丙) » une personne dont la tige du jour est 丙, et la ligne affichée par l'écran de résultats est : « Le soleil de midi. Les sentiments s'affichent, la pièce s'éclaire, et se mettre en avant vient naturellement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 辰",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 丙, les tiges que contient 辰 sont les suivantes. La tige principale (戊) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 丙辰",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 丙"
+              ],
+              "rows": [
+                [
+                  "Bois Yin (乙)",
+                  "résiduelle (餘氣)",
+                  "{hidJinYeo}",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Eau Yin (癸)",
+                  "intermédiaire (中氣)",
+                  "{hidJinJung}",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "principale (本氣)",
+                  "{hidJinBon}",
+                  "Expression (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丙 comme tige du jour, la Richesse stable est 辛 et l'Autorité est 癸."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 辛. 辛 ne se trouve pas dans 辰."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 癸. 癸 se trouve dans 辰 (intermédiaire (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [乙卯](/guide/pillar-eul-myo) et le suivant est [丁巳](/guide/pillar-jeong-sa)."
+          },
+          {
+            "p": "Il est composé de [Feu Yang (丙)](/guide/stem-byeong) et de [辰 (Dragon)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-sa": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 丁巳",
+    "summary": "Comment Saju-Link lit le pilier du jour 丁巳 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "丁巳 est le pilier du jour numéro 54 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 丁巳, la tige du jour est 丁 (Feu, Yin) et la branche du jour est 巳 (le Serpent). Dans le cycle de soixante ans, c'est la combinaison numéro 54."
+          },
+          {
+            "p": "Saju-Link appelle « Feu Yin (丁) » une personne dont la tige du jour est 丁, et la ligne affichée par l'écran de résultats est : « La lumière d'une bougie. Elle brûle doucement et longtemps, et réchauffe d'abord les plus proches. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 巳",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 丁, les tiges que contient 巳 sont les suivantes. La tige principale (丙) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 丁巳",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 丁"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidSaYeo}",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "intermédiaire (中氣)",
+                  "{hidSaJung}",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Feu Yang (丙)",
+                  "principale (本氣)",
+                  "{hidSaBon}",
+                  "Rival (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 丁 comme tige du jour, la Richesse stable est 庚 et l'Autorité est 壬."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 庚. 庚 se trouve dans 巳 (intermédiaire (中氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 壬. 壬 ne se trouve pas dans 巳."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丙辰](/guide/pillar-byeong-jin) et le suivant est [戊午](/guide/pillar-mu-o)."
+          },
+          {
+            "p": "Il est composé de [Feu Yin (丁)](/guide/stem-jeong) et de [巳 (Serpent)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-o": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 戊午",
+    "summary": "Comment Saju-Link lit le pilier du jour 戊午 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "戊午 est le pilier du jour numéro 55 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 戊午, la tige du jour est 戊 (Terre, Yang) et la branche du jour est 午 (le Cheval). Dans le cycle de soixante ans, c'est la combinaison numéro 55."
+          },
+          {
+            "p": "Saju-Link appelle « Terre Yang (戊) » une personne dont la tige du jour est 戊, et la ligne affichée par l'écran de résultats est : « La plaine et la montagne. Difficile à ébranler et facile à prendre pour appui, mais lente à revenir sur une décision prise. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 午",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 戊, les tiges que contient 午 sont les suivantes. La tige principale (丁) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 戊午",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 戊"
+              ],
+              "rows": [
+                [
+                  "Feu Yang (丙)",
+                  "résiduelle (餘氣)",
+                  "{hidOYeo}",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "intermédiaire (中氣)",
+                  "{hidOJung}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "principale (本氣)",
+                  "{hidOBon}",
+                  "Bienveillance (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 戊 comme tige du jour, la Richesse stable est 癸 et l'Autorité est 乙."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 癸. 癸 ne se trouve pas dans 午."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 乙. 乙 ne se trouve pas dans 午."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [丁巳](/guide/pillar-jeong-sa) et le suivant est [己未](/guide/pillar-gi-mi)."
+          },
+          {
+            "p": "Il est composé de [Terre Yang (戊)](/guide/stem-mu) et de [午 (Cheval)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-mi": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 己未",
+    "summary": "Comment Saju-Link lit le pilier du jour 己未 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "己未 est le pilier du jour numéro 56 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 己未, la tige du jour est 己 (Terre, Yin) et la branche du jour est 未 (le Mouton). Dans le cycle de soixante ans, c'est la combinaison numéro 56."
+          },
+          {
+            "p": "Saju-Link appelle « Terre Yin (己) » une personne dont la tige du jour est 己, et la ligne affichée par l'écran de résultats est : « La terre des champs. Elle accueille ce qui vient et le fait grandir : elle entretient plutôt qu'elle ne se montre. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 未",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 己, les tiges que contient 未 sont les suivantes. La tige principale (己) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 己未",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 己"
+              ],
+              "rows": [
+                [
+                  "Feu Yin (丁)",
+                  "résiduelle (餘氣)",
+                  "{hidMiYeo}",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Bois Yin (乙)",
+                  "intermédiaire (中氣)",
+                  "{hidMiJung}",
+                  "Défi (偏官)"
+                ],
+                [
+                  "Terre Yin (己)",
+                  "principale (本氣)",
+                  "{hidMiBon}",
+                  "Compagnon (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 己 comme tige du jour, la Richesse stable est 壬 et l'Autorité est 甲."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 壬. 壬 ne se trouve pas dans 未."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 甲. 甲 ne se trouve pas dans 未."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [戊午](/guide/pillar-mu-o) et le suivant est [庚申](/guide/pillar-gyeong-sin)."
+          },
+          {
+            "p": "Il est composé de [Terre Yin (己)](/guide/stem-gi) et de [未 (Mouton)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-sin": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 庚申",
+    "summary": "Comment Saju-Link lit le pilier du jour 庚申 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "庚申 est le pilier du jour numéro 57 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 庚申, la tige du jour est 庚 (Métal, Yang) et la branche du jour est 申 (le Singe). Dans le cycle de soixante ans, c'est la combinaison numéro 57."
+          },
+          {
+            "p": "Saju-Link appelle « Métal Yang (庚) » une personne dont la tige du jour est 庚, et la ligne affichée par l'écran de résultats est : « Du fer brut. Décidé et net, avec peu de patience pour ce qui reste en suspens. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 申",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 庚, les tiges que contient 申 sont les suivantes. La tige principale (庚) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 庚申",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 庚"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidSinYeo}",
+                  "Soutien atypique (偏印)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "intermédiaire (中氣)",
+                  "{hidSinJung}",
+                  "Expression (食神)"
+                ],
+                [
+                  "Métal Yang (庚)",
+                  "principale (本氣)",
+                  "{hidSinBon}",
+                  "Compagnon (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 庚 comme tige du jour, la Richesse stable est 乙 et l'Autorité est 丁."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 乙. 乙 ne se trouve pas dans 申."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 丁. 丁 ne se trouve pas dans 申."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [己未](/guide/pillar-gi-mi) et le suivant est [辛酉](/guide/pillar-sin-yu)."
+          },
+          {
+            "p": "Il est composé de [Métal Yang (庚)](/guide/stem-gyeong) et de [申 (Singe)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-yu": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 辛酉",
+    "summary": "Comment Saju-Link lit le pilier du jour 辛酉 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "辛酉 est le pilier du jour numéro 58 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 辛酉, la tige du jour est 辛 (Métal, Yin) et la branche du jour est 酉 (le Coq). Dans le cycle de soixante ans, c'est la combinaison numéro 58."
+          },
+          {
+            "p": "Saju-Link appelle « Métal Yin (辛) » une personne dont la tige du jour est 辛, et la ligne affichée par l'écran de résultats est : « Une pierre précieuse taillée. Un goût raffiné et des exigences élevées ; le travail bâclé passe difficilement. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 酉",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 辛, les tiges que contient 酉 sont les suivantes. La tige principale (辛) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 辛酉",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 辛"
+              ],
+              "rows": [
+                [
+                  "Métal Yang (庚)",
+                  "résiduelle (餘氣)",
+                  "{hidYuYeo}",
+                  "Rival (劫財)"
+                ],
+                [
+                  "Métal Yin (辛)",
+                  "principale (本氣)",
+                  "{hidYuBon}",
+                  "Compagnon (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 辛 comme tige du jour, la Richesse stable est 甲 et l'Autorité est 丙."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 甲. 甲 ne se trouve pas dans 酉."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 丙. 丙 ne se trouve pas dans 酉."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [庚申](/guide/pillar-gyeong-sin) et le suivant est [壬戌](/guide/pillar-im-sul)."
+          },
+          {
+            "p": "Il est composé de [Métal Yin (辛)](/guide/stem-sin) et de [酉 (Coq)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-sul": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 壬戌",
+    "summary": "Comment Saju-Link lit le pilier du jour 壬戌 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "壬戌 est le pilier du jour numéro 59 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 壬戌, la tige du jour est 壬 (Eau, Yang) et la branche du jour est 戌 (le Chien). Dans le cycle de soixante ans, c'est la combinaison numéro 59."
+          },
+          {
+            "p": "Saju-Link appelle « Eau Yang (壬) » une personne dont la tige du jour est 壬, et la ligne affichée par l'écran de résultats est : « Le fleuve et la mer. Une vision large et l'œil pour voir comment les choses évoluent. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 戌",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 壬, les tiges que contient 戌 sont les suivantes. La tige principale (戊) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 壬戌",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 壬"
+              ],
+              "rows": [
+                [
+                  "Métal Yin (辛)",
+                  "résiduelle (餘氣)",
+                  "{hidSulYeo}",
+                  "Bienveillance (正印)"
+                ],
+                [
+                  "Feu Yin (丁)",
+                  "intermédiaire (中氣)",
+                  "{hidSulJung}",
+                  "Richesse stable (正財)"
+                ],
+                [
+                  "Terre Yang (戊)",
+                  "principale (本氣)",
+                  "{hidSulBon}",
+                  "Défi (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 壬 comme tige du jour, la Richesse stable est 丁 et l'Autorité est 己."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 丁. 丁 se trouve dans 戌 (intermédiaire (中氣))."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 己. 己 ne se trouve pas dans 戌."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [辛酉](/guide/pillar-sin-yu) et le suivant est [癸亥](/guide/pillar-gye-hae)."
+          },
+          {
+            "p": "Il est composé de [Eau Yang (壬)](/guide/stem-im) et de [戌 (Chien)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-hae": {
+    "eyebrow": "Piliers du jour",
+    "title": "Le pilier du jour 癸亥",
+    "summary": "Comment Saju-Link lit le pilier du jour 癸亥 — ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour — exposé exactement comme le prévoient ses règles de calcul.",
+    "backLabel": "Base de calcul",
+    "sections": [
+      {
+        "title": "癸亥 est le pilier du jour numéro 60 du cycle de soixante ans",
+        "blocks": [
+          {
+            "p": "Lorsque la combinaison tige-branche du jour de naissance est 癸亥, la tige du jour est 癸 (Eau, Yin) et la branche du jour est 亥 (le Cochon). Dans le cycle de soixante ans, c'est la combinaison numéro 60."
+          },
+          {
+            "p": "Saju-Link appelle « Eau Yin (癸) » une personne dont la tige du jour est 癸, et la ligne affichée par l'écran de résultats est : « La rosée et la pluie. Elle s'infiltre en silence et lit l'ambiance avant les mots. » Cette ligne n'a rien à voir avec la lecture ci-dessous ni avec les scores."
+          }
+        ]
+      },
+      {
+        "title": "Ce que sont, pour la tige du jour, les tiges contenues dans la branche du jour 亥",
+        "blocks": [
+          {
+            "p": "La branche du jour est la position du conjoint. Lues depuis la tige du jour 癸, les tiges que contient 亥 sont les suivantes. La tige principale (壬) est l'énergie représentative de la branche."
+          },
+          {
+            "table": {
+              "caption": "Les tiges cachées de la branche du jour de 癸亥",
+              "head": [
+                "Tige cachée",
+                "Position",
+                "Part",
+                "Pour la tige du jour 癸"
+              ],
+              "rows": [
+                [
+                  "Terre Yang (戊)",
+                  "résiduelle (餘氣)",
+                  "{hidHaeYeo}",
+                  "Autorité (正官)"
+                ],
+                [
+                  "Bois Yang (甲)",
+                  "intermédiaire (中氣)",
+                  "{hidHaeJung}",
+                  "Perturbateur (傷官)"
+                ],
+                [
+                  "Eau Yang (壬)",
+                  "principale (本氣)",
+                  "{hidHaeBon}",
+                  "Rival (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "La position du conjoint et ce pilier du jour",
+        "blocks": [
+          {
+            "p": "Le myeongri traditionnel lit la position du conjoint comme la Richesse stable (正財) pour les hommes et l'Autorité (正官) pour les femmes. Avec 癸 comme tige du jour, la Richesse stable est 丙 et l'Autorité est 戊."
+          },
+          {
+            "p": "Pour les hommes, la position du conjoint (Richesse stable) est 丙. 丙 ne se trouve pas dans 亥."
+          },
+          {
+            "p": "Pour les femmes, la position du conjoint (Autorité) est 戊. 戊 se trouve dans 亥 (résiduelle (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Les piliers du jour voisins et les caractères qui composent celui-ci",
+        "blocks": [
+          {
+            "p": "Dans le cycle de soixante ans, le pilier du jour précédent est [壬戌](/guide/pillar-im-sul) et le suivant est [甲子](/guide/pillar-gap-ja)."
+          },
+          {
+            "p": "Il est composé de [Eau Yin (癸)](/guide/stem-gye) et de [亥 (Cochon)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Ce que ce guide ne dit pas",
+        "blocks": [
+          {
+            "ul": [
+              "Un seul pilier du jour ne détermine ni une personne ni une relation. Un saju se lit à partir des relations entre les huit caractères des quatre piliers.",
+              "La lecture de la position du conjoint reprend une règle du myeongri traditionnel, et si vous n'indiquez pas votre sexe, cette position n'est pas lue."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Les Dix Dieux",
     "title": "Les Dix Dieux — Les Dix Positions Dans Mon Saju",

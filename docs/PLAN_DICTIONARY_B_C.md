@@ -102,5 +102,21 @@
 - 도구: `docs/drafts/tools-pairs/`. 한국어 원문 초안 `docs/drafts/B-pairs-38.ko.md`.
 - 허브 카드가 21 → 59장이 된다(별도 「사전」 묶음 UI 는 후속 과제).
 
-**C 사주링크: 천간 10 + 지지 12 + 60일주 = 82편 — 착수 전.** 재료: `STEM_ELEMENT`·`STEM_POLARITY`·`tenGod`·
-`BRANCH_HIDDEN_STEMS`·`vitalityOf`(calculateElementStrength 로 월령 상태). 일주 60편의 고유 데이터는 일간 × 지장간의 십신.
+**C 사주링크: 천간 10 + 지지 12 + 60일주 = 82편 — 로컬 구현·검증 완료, 미푸시(2026-10-12 밤).**
+재료: `STEM_ELEMENT`·`STEM_POLARITY`·`tenGod`·`BRANCH_HIDDEN_STEMS`·`vitalityOf`(calculateElementStrength 로 월령 상태).
+일주 60편의 고유 데이터는 일간 × 지장간의 십신과 배우자궁(일지 지장간에 정재·정관 천간이 있는가).
+
+- 키 `guide/stem-<gap…gye>` 10 · `guide/branch-<ja…hae>` 12 · `guide/pillar-<천간>-<지지>` 60(음양이 맞는 조합, 甲子=1번째).
+  `guide-index.ts` 82항목(zodiac 다음) · 슬러그별 `page.tsx` 82개 · `doc-values.ts` 에 지장간 지분 `hid<지지><자리>`
+  33개(엔진 `BRANCH_HIDDEN_STEMS` 에서 읽는다, 소수 한 자리 %)와 월령 배수 `vitality{Wang,Sang,Hyu,Su,Sa}`.
+- 번역: 문장 속 일간 이름·한자·숫자·링크·성향 문구·십신 이름 칸을 **토큰으로 빼고**(`{{S1}}`·`{{c1}}`·`{{n1}}`·`{{L1}}`·
+  `{{TRAIT}}`·`{{G:KEY}}`) 같은 골격 문자열 260개만 21개 언어로 옮겼다(잎 3,923개 → 260). 토큰은 제품 사전
+  (`i18n-locales`)의 로케일별 이름·성향 문구로 채운다 — 성향 문구는 글자 그대로다.
+- 독립 검토 7개가 **516개 문자열**을 고쳤다(공통: 「Ten God」 열 머리글이 맨 단수 신(神) 낱말 · 「Earth is also treated as
+  prosperous」가 Wang 상태가 아닌 일반어 · 「month sign」 · kk 「маусым」=6월 · mn 「сарын тэмдэг」=월경 · it 관사 · pt/id/fil
+  「sixty-year」의 「년」 누락). **한자 `旺` 을 번역문에 직접 쓸 수 없어**(검사기가 Han 문자를 막는다) 「Wang」 음역만 남았다.
+- 검증: tsc exit 0 · `verify-doc-stages`·`verify-doc-locales`·`verify-locale-script`·`verify-guide-docs`·
+  `verify-doc-source-safe`·`verify-route-locales`·`verify-locale-maps`·사주링크 `verify-guide-numbers`(문서 92편) ALL PASS.
+- **못 본 것:** 실제 화면 렌더링(개발 서버 미확인) · 원어민 검토 · 허브 카드가 10 → 92장이 되는 배치 ·
+  「十神」 열 머리글 등 짧은 칸의 어색함. 60일주 60편은 일간·일지 이름만 달라 **닮은 글 위험이 크다**.
+- 도구: `docs/drafts/tools-saju/` · 한국어 원문 `docs/drafts/C-saju-82.ko.md`(+`.ko.json`·`.en.json`).

@@ -400,6 +400,9563 @@ export const VI_DOCS = {
       }
     ]
   },
+  "guide/stem-gap": {
+    "eyebrow": "Thiên can",
+    "title": "Giáp Mộc (甲) — Mộc, Dương",
+    "summary": "Ngũ hành và âm dương của Thiên can 甲, cách nó đọc chín can còn lại (Thập thần) và những Địa chi chứa nó — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "Giáp Mộc (甲) là Thiên can thứ nhất trong mười Thiên can",
+        "blocks": [
+          {
+            "p": "甲 là Thiên can thứ nhất trong mười Thiên can. Ngũ hành của nó là Mộc và âm dương là Dương. Saju-Link gọi người có Can ngày là 甲 là \"Giáp Mộc (甲)\"."
+          },
+          {
+            "p": "Dòng mà màn hình kết quả hiển thị cho Can ngày này là: \"Cây lớn mọc thẳng. Đã định hướng thì không lung lay, và thà chịu đựng chứ không chịu cong.\" Dòng này không liên quan đến bảng hay điểm số bên dưới."
+          }
+        ]
+      },
+      {
+        "title": "Cách đọc các can khác (Thập thần)",
+        "blocks": [
+          {
+            "p": "Khi Can ngày là 甲, mỗi can trong mười can được đọc như sau. Cách đọc có chiều: đây là cách 甲 đọc can kia, còn khi can kia đọc 甲 thì có thể ra một tên khác."
+          },
+          {
+            "table": {
+              "caption": "Thập thần khi Can ngày là Giáp Mộc (甲)",
+              "head": [
+                "Can khác",
+                "Ngũ hành và âm dương",
+                "Thập thần"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "Chính Ấn (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Các can được đọc là vị trí phối ngẫu",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 甲, Chính Tài là 己 và Chính Quan là 辛. Nếu bạn không cho biết giới tính, vị trí này sẽ không được đọc."
+          }
+        ]
+      },
+      {
+        "title": "Các Địa chi chứa 甲",
+        "blocks": [
+          {
+            "p": "Đây là nơi 甲 ẩn trong các Địa chi (Tàng can). Tỷ lệ là phần trong ba mươi ngày của chi đó mà 甲 chiếm giữ."
+          },
+          {
+            "table": {
+              "caption": "Các Địa chi chứa 甲",
+              "head": [
+                "Địa chi",
+                "Con giáp",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Hổ",
+                  "bản khí (本氣)",
+                  "{hidInBon}"
+                ],
+                [
+                  "卯",
+                  "Thỏ",
+                  "dư khí (餘氣)",
+                  "{hidMyoYeo}"
+                ],
+                [
+                  "亥",
+                  "Lợn",
+                  "trung khí (中氣)",
+                  "{hidHaeJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một can không quyết định một con người. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của nó.",
+              "Thập thần là một phán đoán được đưa ra từ Can ngày. Cùng hai ký tự sẽ có tên khác nhau tùy ký tự nào là Can ngày."
+            ]
+          },
+          {
+            "p": "Toàn bộ Thập thần nằm trong [hướng dẫn về Thập thần](/guide/ten-gods), còn sức mạnh của các hành và Dấu Hiệu Tháng nằm trong [hướng dẫn về ngũ hành](/guide/five-elements). Các can khác: [Ất Mộc (乙)](/guide/stem-eul) · [Bính Hỏa (丙)](/guide/stem-byeong) · [Đinh Hỏa (丁)](/guide/stem-jeong) · [Mậu Thổ (戊)](/guide/stem-mu) · [Kỷ Thổ (己)](/guide/stem-gi) · [Canh Kim (庚)](/guide/stem-gyeong) · [Tân Kim (辛)](/guide/stem-sin) · [Nhâm Thủy (壬)](/guide/stem-im) · [Quý Thủy (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-eul": {
+    "eyebrow": "Thiên can",
+    "title": "Ất Mộc (乙) — Mộc, Âm",
+    "summary": "Ngũ hành và âm dương của Thiên can 乙, cách nó đọc chín can còn lại (Thập thần) và những Địa chi chứa nó — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "Ất Mộc (乙) là Thiên can thứ hai trong mười Thiên can",
+        "blocks": [
+          {
+            "p": "乙 là Thiên can thứ hai trong mười Thiên can. Ngũ hành của nó là Mộc và âm dương là Âm. Saju-Link gọi người có Can ngày là 乙 là \"Ất Mộc (乙)\"."
+          },
+          {
+            "p": "Dòng mà màn hình kết quả hiển thị cho Can ngày này là: \"Dây leo — loài cỏ mềm dẻo. Uốn theo hoàn cảnh để tiếp tục đi tới, và không gãy.\" Dòng này không liên quan đến bảng hay điểm số bên dưới."
+          }
+        ]
+      },
+      {
+        "title": "Cách đọc các can khác (Thập thần)",
+        "blocks": [
+          {
+            "p": "Khi Can ngày là 乙, mỗi can trong mười can được đọc như sau. Cách đọc có chiều: đây là cách 乙 đọc can kia, còn khi can kia đọc 乙 thì có thể ra một tên khác."
+          },
+          {
+            "table": {
+              "caption": "Thập thần khi Can ngày là Ất Mộc (乙)",
+              "head": [
+                "Can khác",
+                "Ngũ hành và âm dương",
+                "Thập thần"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "Thiên Ấn (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Các can được đọc là vị trí phối ngẫu",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 乙, Chính Tài là 戊 và Chính Quan là 庚. Nếu bạn không cho biết giới tính, vị trí này sẽ không được đọc."
+          }
+        ]
+      },
+      {
+        "title": "Các Địa chi chứa 乙",
+        "blocks": [
+          {
+            "p": "Đây là nơi 乙 ẩn trong các Địa chi (Tàng can). Tỷ lệ là phần trong ba mươi ngày của chi đó mà 乙 chiếm giữ."
+          },
+          {
+            "table": {
+              "caption": "Các Địa chi chứa 乙",
+              "head": [
+                "Địa chi",
+                "Con giáp",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "卯",
+                  "Thỏ",
+                  "bản khí (本氣)",
+                  "{hidMyoBon}"
+                ],
+                [
+                  "辰",
+                  "Rồng",
+                  "dư khí (餘氣)",
+                  "{hidJinYeo}"
+                ],
+                [
+                  "未",
+                  "Cừu",
+                  "trung khí (中氣)",
+                  "{hidMiJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một can không quyết định một con người. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của nó.",
+              "Thập thần là một phán đoán được đưa ra từ Can ngày. Cùng hai ký tự sẽ có tên khác nhau tùy ký tự nào là Can ngày."
+            ]
+          },
+          {
+            "p": "Toàn bộ Thập thần nằm trong [hướng dẫn về Thập thần](/guide/ten-gods), còn sức mạnh của các hành và Dấu Hiệu Tháng nằm trong [hướng dẫn về ngũ hành](/guide/five-elements). Các can khác: [Giáp Mộc (甲)](/guide/stem-gap) · [Bính Hỏa (丙)](/guide/stem-byeong) · [Đinh Hỏa (丁)](/guide/stem-jeong) · [Mậu Thổ (戊)](/guide/stem-mu) · [Kỷ Thổ (己)](/guide/stem-gi) · [Canh Kim (庚)](/guide/stem-gyeong) · [Tân Kim (辛)](/guide/stem-sin) · [Nhâm Thủy (壬)](/guide/stem-im) · [Quý Thủy (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-byeong": {
+    "eyebrow": "Thiên can",
+    "title": "Bính Hỏa (丙) — Hỏa, Dương",
+    "summary": "Ngũ hành và âm dương của Thiên can 丙, cách nó đọc chín can còn lại (Thập thần) và những Địa chi chứa nó — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "Bính Hỏa (丙) là Thiên can thứ ba trong mười Thiên can",
+        "blocks": [
+          {
+            "p": "丙 là Thiên can thứ ba trong mười Thiên can. Ngũ hành của nó là Hỏa và âm dương là Dương. Saju-Link gọi người có Can ngày là 丙 là \"Bính Hỏa (丙)\"."
+          },
+          {
+            "p": "Dòng mà màn hình kết quả hiển thị cho Can ngày này là: \"Mặt trời giữa trưa. Cảm xúc lộ rõ, chỗ nào cũng sáng lên, và bước ra phía trước là chuyện tự nhiên.\" Dòng này không liên quan đến bảng hay điểm số bên dưới."
+          }
+        ]
+      },
+      {
+        "title": "Cách đọc các can khác (Thập thần)",
+        "blocks": [
+          {
+            "p": "Khi Can ngày là 丙, mỗi can trong mười can được đọc như sau. Cách đọc có chiều: đây là cách 丙 đọc can kia, còn khi can kia đọc 丙 thì có thể ra một tên khác."
+          },
+          {
+            "table": {
+              "caption": "Thập thần khi Can ngày là Bính Hỏa (丙)",
+              "head": [
+                "Can khác",
+                "Ngũ hành và âm dương",
+                "Thập thần"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "Chính Quan (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Các can được đọc là vị trí phối ngẫu",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丙, Chính Tài là 辛 và Chính Quan là 癸. Nếu bạn không cho biết giới tính, vị trí này sẽ không được đọc."
+          }
+        ]
+      },
+      {
+        "title": "Các Địa chi chứa 丙",
+        "blocks": [
+          {
+            "p": "Đây là nơi 丙 ẩn trong các Địa chi (Tàng can). Tỷ lệ là phần trong ba mươi ngày của chi đó mà 丙 chiếm giữ."
+          },
+          {
+            "table": {
+              "caption": "Các Địa chi chứa 丙",
+              "head": [
+                "Địa chi",
+                "Con giáp",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Hổ",
+                  "trung khí (中氣)",
+                  "{hidInJung}"
+                ],
+                [
+                  "巳",
+                  "Rắn",
+                  "bản khí (本氣)",
+                  "{hidSaBon}"
+                ],
+                [
+                  "午",
+                  "Ngựa",
+                  "dư khí (餘氣)",
+                  "{hidOYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một can không quyết định một con người. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của nó.",
+              "Thập thần là một phán đoán được đưa ra từ Can ngày. Cùng hai ký tự sẽ có tên khác nhau tùy ký tự nào là Can ngày."
+            ]
+          },
+          {
+            "p": "Toàn bộ Thập thần nằm trong [hướng dẫn về Thập thần](/guide/ten-gods), còn sức mạnh của các hành và Dấu Hiệu Tháng nằm trong [hướng dẫn về ngũ hành](/guide/five-elements). Các can khác: [Giáp Mộc (甲)](/guide/stem-gap) · [Ất Mộc (乙)](/guide/stem-eul) · [Đinh Hỏa (丁)](/guide/stem-jeong) · [Mậu Thổ (戊)](/guide/stem-mu) · [Kỷ Thổ (己)](/guide/stem-gi) · [Canh Kim (庚)](/guide/stem-gyeong) · [Tân Kim (辛)](/guide/stem-sin) · [Nhâm Thủy (壬)](/guide/stem-im) · [Quý Thủy (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-jeong": {
+    "eyebrow": "Thiên can",
+    "title": "Đinh Hỏa (丁) — Hỏa, Âm",
+    "summary": "Ngũ hành và âm dương của Thiên can 丁, cách nó đọc chín can còn lại (Thập thần) và những Địa chi chứa nó — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "Đinh Hỏa (丁) là Thiên can thứ tư trong mười Thiên can",
+        "blocks": [
+          {
+            "p": "丁 là Thiên can thứ tư trong mười Thiên can. Ngũ hành của nó là Hỏa và âm dương là Âm. Saju-Link gọi người có Can ngày là 丁 là \"Đinh Hỏa (丁)\"."
+          },
+          {
+            "p": "Dòng mà màn hình kết quả hiển thị cho Can ngày này là: \"Ánh nến. Cháy lặng lẽ và bền, sưởi ấm người gần nhất trước.\" Dòng này không liên quan đến bảng hay điểm số bên dưới."
+          }
+        ]
+      },
+      {
+        "title": "Cách đọc các can khác (Thập thần)",
+        "blocks": [
+          {
+            "p": "Khi Can ngày là 丁, mỗi can trong mười can được đọc như sau. Cách đọc có chiều: đây là cách 丁 đọc can kia, còn khi can kia đọc 丁 thì có thể ra một tên khác."
+          },
+          {
+            "table": {
+              "caption": "Thập thần khi Can ngày là Đinh Hỏa (丁)",
+              "head": [
+                "Can khác",
+                "Ngũ hành và âm dương",
+                "Thập thần"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "Thiên Quan (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Các can được đọc là vị trí phối ngẫu",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丁, Chính Tài là 庚 và Chính Quan là 壬. Nếu bạn không cho biết giới tính, vị trí này sẽ không được đọc."
+          }
+        ]
+      },
+      {
+        "title": "Các Địa chi chứa 丁",
+        "blocks": [
+          {
+            "p": "Đây là nơi 丁 ẩn trong các Địa chi (Tàng can). Tỷ lệ là phần trong ba mươi ngày của chi đó mà 丁 chiếm giữ."
+          },
+          {
+            "table": {
+              "caption": "Các Địa chi chứa 丁",
+              "head": [
+                "Địa chi",
+                "Con giáp",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "午",
+                  "Ngựa",
+                  "bản khí (本氣)",
+                  "{hidOBon}"
+                ],
+                [
+                  "未",
+                  "Cừu",
+                  "dư khí (餘氣)",
+                  "{hidMiYeo}"
+                ],
+                [
+                  "戌",
+                  "Chó",
+                  "trung khí (中氣)",
+                  "{hidSulJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một can không quyết định một con người. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của nó.",
+              "Thập thần là một phán đoán được đưa ra từ Can ngày. Cùng hai ký tự sẽ có tên khác nhau tùy ký tự nào là Can ngày."
+            ]
+          },
+          {
+            "p": "Toàn bộ Thập thần nằm trong [hướng dẫn về Thập thần](/guide/ten-gods), còn sức mạnh của các hành và Dấu Hiệu Tháng nằm trong [hướng dẫn về ngũ hành](/guide/five-elements). Các can khác: [Giáp Mộc (甲)](/guide/stem-gap) · [Ất Mộc (乙)](/guide/stem-eul) · [Bính Hỏa (丙)](/guide/stem-byeong) · [Mậu Thổ (戊)](/guide/stem-mu) · [Kỷ Thổ (己)](/guide/stem-gi) · [Canh Kim (庚)](/guide/stem-gyeong) · [Tân Kim (辛)](/guide/stem-sin) · [Nhâm Thủy (壬)](/guide/stem-im) · [Quý Thủy (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-mu": {
+    "eyebrow": "Thiên can",
+    "title": "Mậu Thổ (戊) — Thổ, Dương",
+    "summary": "Ngũ hành và âm dương của Thiên can 戊, cách nó đọc chín can còn lại (Thập thần) và những Địa chi chứa nó — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "Mậu Thổ (戊) là Thiên can thứ năm trong mười Thiên can",
+        "blocks": [
+          {
+            "p": "戊 là Thiên can thứ năm trong mười Thiên can. Ngũ hành của nó là Thổ và âm dương là Dương. Saju-Link gọi người có Can ngày là 戊 là \"Mậu Thổ (戊)\"."
+          },
+          {
+            "p": "Dòng mà màn hình kết quả hiển thị cho Can ngày này là: \"Đất rộng và núi. Khó lay và dễ tựa vào, dù đã quyết rồi thì rất chậm đổi.\" Dòng này không liên quan đến bảng hay điểm số bên dưới."
+          }
+        ]
+      },
+      {
+        "title": "Cách đọc các can khác (Thập thần)",
+        "blocks": [
+          {
+            "p": "Khi Can ngày là 戊, mỗi can trong mười can được đọc như sau. Cách đọc có chiều: đây là cách 戊 đọc can kia, còn khi can kia đọc 戊 thì có thể ra một tên khác."
+          },
+          {
+            "table": {
+              "caption": "Thập thần khi Can ngày là Mậu Thổ (戊)",
+              "head": [
+                "Can khác",
+                "Ngũ hành và âm dương",
+                "Thập thần"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "Chính Tài (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Các can được đọc là vị trí phối ngẫu",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 戊, Chính Tài là 癸 và Chính Quan là 乙. Nếu bạn không cho biết giới tính, vị trí này sẽ không được đọc."
+          }
+        ]
+      },
+      {
+        "title": "Các Địa chi chứa 戊",
+        "blocks": [
+          {
+            "p": "Đây là nơi 戊 ẩn trong các Địa chi (Tàng can). Tỷ lệ là phần trong ba mươi ngày của chi đó mà 戊 chiếm giữ."
+          },
+          {
+            "table": {
+              "caption": "Các Địa chi chứa 戊",
+              "head": [
+                "Địa chi",
+                "Con giáp",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Hổ",
+                  "dư khí (餘氣)",
+                  "{hidInYeo}"
+                ],
+                [
+                  "辰",
+                  "Rồng",
+                  "bản khí (本氣)",
+                  "{hidJinBon}"
+                ],
+                [
+                  "巳",
+                  "Rắn",
+                  "dư khí (餘氣)",
+                  "{hidSaYeo}"
+                ],
+                [
+                  "申",
+                  "Khỉ",
+                  "dư khí (餘氣)",
+                  "{hidSinYeo}"
+                ],
+                [
+                  "戌",
+                  "Chó",
+                  "bản khí (本氣)",
+                  "{hidSulBon}"
+                ],
+                [
+                  "亥",
+                  "Lợn",
+                  "dư khí (餘氣)",
+                  "{hidHaeYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một can không quyết định một con người. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của nó.",
+              "Thập thần là một phán đoán được đưa ra từ Can ngày. Cùng hai ký tự sẽ có tên khác nhau tùy ký tự nào là Can ngày."
+            ]
+          },
+          {
+            "p": "Toàn bộ Thập thần nằm trong [hướng dẫn về Thập thần](/guide/ten-gods), còn sức mạnh của các hành và Dấu Hiệu Tháng nằm trong [hướng dẫn về ngũ hành](/guide/five-elements). Các can khác: [Giáp Mộc (甲)](/guide/stem-gap) · [Ất Mộc (乙)](/guide/stem-eul) · [Bính Hỏa (丙)](/guide/stem-byeong) · [Đinh Hỏa (丁)](/guide/stem-jeong) · [Kỷ Thổ (己)](/guide/stem-gi) · [Canh Kim (庚)](/guide/stem-gyeong) · [Tân Kim (辛)](/guide/stem-sin) · [Nhâm Thủy (壬)](/guide/stem-im) · [Quý Thủy (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gi": {
+    "eyebrow": "Thiên can",
+    "title": "Kỷ Thổ (己) — Thổ, Âm",
+    "summary": "Ngũ hành và âm dương của Thiên can 己, cách nó đọc chín can còn lại (Thập thần) và những Địa chi chứa nó — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "Kỷ Thổ (己) là Thiên can thứ sáu trong mười Thiên can",
+        "blocks": [
+          {
+            "p": "己 là Thiên can thứ sáu trong mười Thiên can. Ngũ hành của nó là Thổ và âm dương là Âm. Saju-Link gọi người có Can ngày là 己 là \"Kỷ Thổ (己)\"."
+          },
+          {
+            "p": "Dòng mà màn hình kết quả hiển thị cho Can ngày này là: \"Đất ruộng. Nhận vào bất cứ thứ gì đến rồi nuôi lớn, thiên về chăm lo hơn là phô ra.\" Dòng này không liên quan đến bảng hay điểm số bên dưới."
+          }
+        ]
+      },
+      {
+        "title": "Cách đọc các can khác (Thập thần)",
+        "blocks": [
+          {
+            "p": "Khi Can ngày là 己, mỗi can trong mười can được đọc như sau. Cách đọc có chiều: đây là cách 己 đọc can kia, còn khi can kia đọc 己 thì có thể ra một tên khác."
+          },
+          {
+            "table": {
+              "caption": "Thập thần khi Can ngày là Kỷ Thổ (己)",
+              "head": [
+                "Can khác",
+                "Ngũ hành và âm dương",
+                "Thập thần"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "Thiên Tài (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Các can được đọc là vị trí phối ngẫu",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 己, Chính Tài là 壬 và Chính Quan là 甲. Nếu bạn không cho biết giới tính, vị trí này sẽ không được đọc."
+          }
+        ]
+      },
+      {
+        "title": "Các Địa chi chứa 己",
+        "blocks": [
+          {
+            "p": "Đây là nơi 己 ẩn trong các Địa chi (Tàng can). Tỷ lệ là phần trong ba mươi ngày của chi đó mà 己 chiếm giữ."
+          },
+          {
+            "table": {
+              "caption": "Các Địa chi chứa 己",
+              "head": [
+                "Địa chi",
+                "Con giáp",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "丑",
+                  "Trâu",
+                  "bản khí (本氣)",
+                  "{hidChukBon}"
+                ],
+                [
+                  "午",
+                  "Ngựa",
+                  "trung khí (中氣)",
+                  "{hidOJung}"
+                ],
+                [
+                  "未",
+                  "Cừu",
+                  "bản khí (本氣)",
+                  "{hidMiBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một can không quyết định một con người. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của nó.",
+              "Thập thần là một phán đoán được đưa ra từ Can ngày. Cùng hai ký tự sẽ có tên khác nhau tùy ký tự nào là Can ngày."
+            ]
+          },
+          {
+            "p": "Toàn bộ Thập thần nằm trong [hướng dẫn về Thập thần](/guide/ten-gods), còn sức mạnh của các hành và Dấu Hiệu Tháng nằm trong [hướng dẫn về ngũ hành](/guide/five-elements). Các can khác: [Giáp Mộc (甲)](/guide/stem-gap) · [Ất Mộc (乙)](/guide/stem-eul) · [Bính Hỏa (丙)](/guide/stem-byeong) · [Đinh Hỏa (丁)](/guide/stem-jeong) · [Mậu Thổ (戊)](/guide/stem-mu) · [Canh Kim (庚)](/guide/stem-gyeong) · [Tân Kim (辛)](/guide/stem-sin) · [Nhâm Thủy (壬)](/guide/stem-im) · [Quý Thủy (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gyeong": {
+    "eyebrow": "Thiên can",
+    "title": "Canh Kim (庚) — Kim, Dương",
+    "summary": "Ngũ hành và âm dương của Thiên can 庚, cách nó đọc chín can còn lại (Thập thần) và những Địa chi chứa nó — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "Canh Kim (庚) là Thiên can thứ bảy trong mười Thiên can",
+        "blocks": [
+          {
+            "p": "庚 là Thiên can thứ bảy trong mười Thiên can. Ngũ hành của nó là Kim và âm dương là Dương. Saju-Link gọi người có Can ngày là 庚 là \"Canh Kim (庚)\"."
+          },
+          {
+            "p": "Dòng mà màn hình kết quả hiển thị cho Can ngày này là: \"Sắt chưa gia công. Quyết đoán và dứt khoát, ít kiên nhẫn với những việc bỏ lửng.\" Dòng này không liên quan đến bảng hay điểm số bên dưới."
+          }
+        ]
+      },
+      {
+        "title": "Cách đọc các can khác (Thập thần)",
+        "blocks": [
+          {
+            "p": "Khi Can ngày là 庚, mỗi can trong mười can được đọc như sau. Cách đọc có chiều: đây là cách 庚 đọc can kia, còn khi can kia đọc 庚 thì có thể ra một tên khác."
+          },
+          {
+            "table": {
+              "caption": "Thập thần khi Can ngày là Canh Kim (庚)",
+              "head": [
+                "Can khác",
+                "Ngũ hành và âm dương",
+                "Thập thần"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "Thương Quan (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Các can được đọc là vị trí phối ngẫu",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 庚, Chính Tài là 乙 và Chính Quan là 丁. Nếu bạn không cho biết giới tính, vị trí này sẽ không được đọc."
+          }
+        ]
+      },
+      {
+        "title": "Các Địa chi chứa 庚",
+        "blocks": [
+          {
+            "p": "Đây là nơi 庚 ẩn trong các Địa chi (Tàng can). Tỷ lệ là phần trong ba mươi ngày của chi đó mà 庚 chiếm giữ."
+          },
+          {
+            "table": {
+              "caption": "Các Địa chi chứa 庚",
+              "head": [
+                "Địa chi",
+                "Con giáp",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "巳",
+                  "Rắn",
+                  "trung khí (中氣)",
+                  "{hidSaJung}"
+                ],
+                [
+                  "申",
+                  "Khỉ",
+                  "bản khí (本氣)",
+                  "{hidSinBon}"
+                ],
+                [
+                  "酉",
+                  "Gà trống",
+                  "dư khí (餘氣)",
+                  "{hidYuYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một can không quyết định một con người. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của nó.",
+              "Thập thần là một phán đoán được đưa ra từ Can ngày. Cùng hai ký tự sẽ có tên khác nhau tùy ký tự nào là Can ngày."
+            ]
+          },
+          {
+            "p": "Toàn bộ Thập thần nằm trong [hướng dẫn về Thập thần](/guide/ten-gods), còn sức mạnh của các hành và Dấu Hiệu Tháng nằm trong [hướng dẫn về ngũ hành](/guide/five-elements). Các can khác: [Giáp Mộc (甲)](/guide/stem-gap) · [Ất Mộc (乙)](/guide/stem-eul) · [Bính Hỏa (丙)](/guide/stem-byeong) · [Đinh Hỏa (丁)](/guide/stem-jeong) · [Mậu Thổ (戊)](/guide/stem-mu) · [Kỷ Thổ (己)](/guide/stem-gi) · [Tân Kim (辛)](/guide/stem-sin) · [Nhâm Thủy (壬)](/guide/stem-im) · [Quý Thủy (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-sin": {
+    "eyebrow": "Thiên can",
+    "title": "Tân Kim (辛) — Kim, Âm",
+    "summary": "Ngũ hành và âm dương của Thiên can 辛, cách nó đọc chín can còn lại (Thập thần) và những Địa chi chứa nó — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "Tân Kim (辛) là Thiên can thứ tám trong mười Thiên can",
+        "blocks": [
+          {
+            "p": "辛 là Thiên can thứ tám trong mười Thiên can. Ngũ hành của nó là Kim và âm dương là Âm. Saju-Link gọi người có Can ngày là 辛 là \"Tân Kim (辛)\"."
+          },
+          {
+            "p": "Dòng mà màn hình kết quả hiển thị cho Can ngày này là: \"Viên ngọc đã mài. Thẩm mỹ tinh tế và tiêu chuẩn cao; khó bỏ qua sự cẩu thả.\" Dòng này không liên quan đến bảng hay điểm số bên dưới."
+          }
+        ]
+      },
+      {
+        "title": "Cách đọc các can khác (Thập thần)",
+        "blocks": [
+          {
+            "p": "Khi Can ngày là 辛, mỗi can trong mười can được đọc như sau. Cách đọc có chiều: đây là cách 辛 đọc can kia, còn khi can kia đọc 辛 thì có thể ra một tên khác."
+          },
+          {
+            "table": {
+              "caption": "Thập thần khi Can ngày là Tân Kim (辛)",
+              "head": [
+                "Can khác",
+                "Ngũ hành và âm dương",
+                "Thập thần"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "Thực Thần (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Các can được đọc là vị trí phối ngẫu",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 辛, Chính Tài là 甲 và Chính Quan là 丙. Nếu bạn không cho biết giới tính, vị trí này sẽ không được đọc."
+          }
+        ]
+      },
+      {
+        "title": "Các Địa chi chứa 辛",
+        "blocks": [
+          {
+            "p": "Đây là nơi 辛 ẩn trong các Địa chi (Tàng can). Tỷ lệ là phần trong ba mươi ngày của chi đó mà 辛 chiếm giữ."
+          },
+          {
+            "table": {
+              "caption": "Các Địa chi chứa 辛",
+              "head": [
+                "Địa chi",
+                "Con giáp",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "丑",
+                  "Trâu",
+                  "trung khí (中氣)",
+                  "{hidChukJung}"
+                ],
+                [
+                  "酉",
+                  "Gà trống",
+                  "bản khí (本氣)",
+                  "{hidYuBon}"
+                ],
+                [
+                  "戌",
+                  "Chó",
+                  "dư khí (餘氣)",
+                  "{hidSulYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một can không quyết định một con người. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của nó.",
+              "Thập thần là một phán đoán được đưa ra từ Can ngày. Cùng hai ký tự sẽ có tên khác nhau tùy ký tự nào là Can ngày."
+            ]
+          },
+          {
+            "p": "Toàn bộ Thập thần nằm trong [hướng dẫn về Thập thần](/guide/ten-gods), còn sức mạnh của các hành và Dấu Hiệu Tháng nằm trong [hướng dẫn về ngũ hành](/guide/five-elements). Các can khác: [Giáp Mộc (甲)](/guide/stem-gap) · [Ất Mộc (乙)](/guide/stem-eul) · [Bính Hỏa (丙)](/guide/stem-byeong) · [Đinh Hỏa (丁)](/guide/stem-jeong) · [Mậu Thổ (戊)](/guide/stem-mu) · [Kỷ Thổ (己)](/guide/stem-gi) · [Canh Kim (庚)](/guide/stem-gyeong) · [Nhâm Thủy (壬)](/guide/stem-im) · [Quý Thủy (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-im": {
+    "eyebrow": "Thiên can",
+    "title": "Nhâm Thủy (壬) — Thủy, Dương",
+    "summary": "Ngũ hành và âm dương của Thiên can 壬, cách nó đọc chín can còn lại (Thập thần) và những Địa chi chứa nó — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "Nhâm Thủy (壬) là Thiên can thứ chín trong mười Thiên can",
+        "blocks": [
+          {
+            "p": "壬 là Thiên can thứ chín trong mười Thiên can. Ngũ hành của nó là Thủy và âm dương là Dương. Saju-Link gọi người có Can ngày là 壬 là \"Nhâm Thủy (壬)\"."
+          },
+          {
+            "p": "Dòng mà màn hình kết quả hiển thị cho Can ngày này là: \"Sông và biển. Tầm nhìn rộng, có con mắt nhìn ra dòng chảy của sự việc.\" Dòng này không liên quan đến bảng hay điểm số bên dưới."
+          }
+        ]
+      },
+      {
+        "title": "Cách đọc các can khác (Thập thần)",
+        "blocks": [
+          {
+            "p": "Khi Can ngày là 壬, mỗi can trong mười can được đọc như sau. Cách đọc có chiều: đây là cách 壬 đọc can kia, còn khi can kia đọc 壬 thì có thể ra một tên khác."
+          },
+          {
+            "table": {
+              "caption": "Thập thần khi Can ngày là Nhâm Thủy (壬)",
+              "head": [
+                "Can khác",
+                "Ngũ hành và âm dương",
+                "Thập thần"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "Kiếp Tài (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Các can được đọc là vị trí phối ngẫu",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 壬, Chính Tài là 丁 và Chính Quan là 己. Nếu bạn không cho biết giới tính, vị trí này sẽ không được đọc."
+          }
+        ]
+      },
+      {
+        "title": "Các Địa chi chứa 壬",
+        "blocks": [
+          {
+            "p": "Đây là nơi 壬 ẩn trong các Địa chi (Tàng can). Tỷ lệ là phần trong ba mươi ngày của chi đó mà 壬 chiếm giữ."
+          },
+          {
+            "table": {
+              "caption": "Các Địa chi chứa 壬",
+              "head": [
+                "Địa chi",
+                "Con giáp",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Chuột",
+                  "dư khí (餘氣)",
+                  "{hidJaYeo}"
+                ],
+                [
+                  "申",
+                  "Khỉ",
+                  "trung khí (中氣)",
+                  "{hidSinJung}"
+                ],
+                [
+                  "亥",
+                  "Lợn",
+                  "bản khí (本氣)",
+                  "{hidHaeBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một can không quyết định một con người. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của nó.",
+              "Thập thần là một phán đoán được đưa ra từ Can ngày. Cùng hai ký tự sẽ có tên khác nhau tùy ký tự nào là Can ngày."
+            ]
+          },
+          {
+            "p": "Toàn bộ Thập thần nằm trong [hướng dẫn về Thập thần](/guide/ten-gods), còn sức mạnh của các hành và Dấu Hiệu Tháng nằm trong [hướng dẫn về ngũ hành](/guide/five-elements). Các can khác: [Giáp Mộc (甲)](/guide/stem-gap) · [Ất Mộc (乙)](/guide/stem-eul) · [Bính Hỏa (丙)](/guide/stem-byeong) · [Đinh Hỏa (丁)](/guide/stem-jeong) · [Mậu Thổ (戊)](/guide/stem-mu) · [Kỷ Thổ (己)](/guide/stem-gi) · [Canh Kim (庚)](/guide/stem-gyeong) · [Tân Kim (辛)](/guide/stem-sin) · [Quý Thủy (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gye": {
+    "eyebrow": "Thiên can",
+    "title": "Quý Thủy (癸) — Thủy, Âm",
+    "summary": "Ngũ hành và âm dương của Thiên can 癸, cách nó đọc chín can còn lại (Thập thần) và những Địa chi chứa nó — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "Quý Thủy (癸) là Thiên can thứ mười trong mười Thiên can",
+        "blocks": [
+          {
+            "p": "癸 là Thiên can thứ mười trong mười Thiên can. Ngũ hành của nó là Thủy và âm dương là Âm. Saju-Link gọi người có Can ngày là 癸 là \"Quý Thủy (癸)\"."
+          },
+          {
+            "p": "Dòng mà màn hình kết quả hiển thị cho Can ngày này là: \"Sương và mưa. Thấm vào lặng lẽ và đọc được không khí trước cả lời nói.\" Dòng này không liên quan đến bảng hay điểm số bên dưới."
+          }
+        ]
+      },
+      {
+        "title": "Cách đọc các can khác (Thập thần)",
+        "blocks": [
+          {
+            "p": "Khi Can ngày là 癸, mỗi can trong mười can được đọc như sau. Cách đọc có chiều: đây là cách 癸 đọc can kia, còn khi can kia đọc 癸 thì có thể ra một tên khác."
+          },
+          {
+            "table": {
+              "caption": "Thập thần khi Can ngày là Quý Thủy (癸)",
+              "head": [
+                "Can khác",
+                "Ngũ hành và âm dương",
+                "Thập thần"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "Tỷ Kiên (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Các can được đọc là vị trí phối ngẫu",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 癸, Chính Tài là 丙 và Chính Quan là 戊. Nếu bạn không cho biết giới tính, vị trí này sẽ không được đọc."
+          }
+        ]
+      },
+      {
+        "title": "Các Địa chi chứa 癸",
+        "blocks": [
+          {
+            "p": "Đây là nơi 癸 ẩn trong các Địa chi (Tàng can). Tỷ lệ là phần trong ba mươi ngày của chi đó mà 癸 chiếm giữ."
+          },
+          {
+            "table": {
+              "caption": "Các Địa chi chứa 癸",
+              "head": [
+                "Địa chi",
+                "Con giáp",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Chuột",
+                  "bản khí (本氣)",
+                  "{hidJaBon}"
+                ],
+                [
+                  "丑",
+                  "Trâu",
+                  "dư khí (餘氣)",
+                  "{hidChukYeo}"
+                ],
+                [
+                  "辰",
+                  "Rồng",
+                  "trung khí (中氣)",
+                  "{hidJinJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một can không quyết định một con người. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của nó.",
+              "Thập thần là một phán đoán được đưa ra từ Can ngày. Cùng hai ký tự sẽ có tên khác nhau tùy ký tự nào là Can ngày."
+            ]
+          },
+          {
+            "p": "Toàn bộ Thập thần nằm trong [hướng dẫn về Thập thần](/guide/ten-gods), còn sức mạnh của các hành và Dấu Hiệu Tháng nằm trong [hướng dẫn về ngũ hành](/guide/five-elements). Các can khác: [Giáp Mộc (甲)](/guide/stem-gap) · [Ất Mộc (乙)](/guide/stem-eul) · [Bính Hỏa (丙)](/guide/stem-byeong) · [Đinh Hỏa (丁)](/guide/stem-jeong) · [Mậu Thổ (戊)](/guide/stem-mu) · [Kỷ Thổ (己)](/guide/stem-gi) · [Canh Kim (庚)](/guide/stem-gyeong) · [Tân Kim (辛)](/guide/stem-sin) · [Nhâm Thủy (壬)](/guide/stem-im)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-ja": {
+    "eyebrow": "Địa chi",
+    "title": "子 — Địa chi của Chuột",
+    "summary": "Các can mà Địa chi 子 chứa (Tàng can), sức mạnh của ngũ hành khi nó là Chi tháng, và Thập thần được đọc cho từng Can ngày — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "子 là Địa chi thứ nhất trong mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "子 là Địa chi thứ nhất trong mười hai Địa chi và thuộc con giáp Chuột. Khi Chi tháng sinh là 子, mùa là mùa đông và hành làm chủ mùa là Thủy."
+          },
+          {
+            "p": "Khi Chi ngày sinh là 子, ký tự này là vị trí phối ngẫu. Bên dưới là các can mà chi này chứa và chúng là gì đối với Can ngày."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà chi này chứa (Tàng can)",
+        "blocks": [
+          {
+            "p": "Một chi là một ký tự hiển thị nhưng bên trong chứa các can. Tỷ lệ là cách ba mươi ngày của chi được chia cho các can, và can bản khí là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 子",
+              "head": [
+                "Can",
+                "Ngũ hành và âm dương",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "dư khí (餘氣)",
+                  "{hidJaYeo}"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "bản khí (本氣)",
+                  "{hidJaBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sức mạnh của ngũ hành khi Chi tháng là 子",
+        "blocks": [
+          {
+            "p": "Khi Chi tháng sinh là 子, mỗi hành nhận một trạng thái (Vượng, Tướng, Hưu, Tù, Tử), và trạng thái đó trở thành hệ số nhân áp dụng cho sức mạnh của hành."
+          },
+          {
+            "table": {
+              "caption": "Trạng thái các hành khi Chi tháng là 子 (mùa đông)",
+              "head": [
+                "Ngũ hành",
+                "Trạng thái",
+                "Hệ số nhân"
+              ],
+              "rows": [
+                [
+                  "Mộc",
+                  "Tướng (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Hỏa",
+                  "Tử (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Thổ",
+                  "Tù (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Kim",
+                  "Hưu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Thủy",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thập thần theo Can ngày",
+        "blocks": [
+          {
+            "p": "Cùng các Tàng can của 子 sẽ thành những Thập thần khác nhau tùy theo Can ngày. Khi 子 là Chi ngày, bảng này là cách đọc vị trí phối ngẫu."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 子 là gì đối với từng Can ngày",
+              "head": [
+                "Can ngày",
+                "Nhâm Thủy (壬) — dư khí (餘氣)",
+                "Quý Thủy (癸) — bản khí (本氣)"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Thiên Ấn (偏印)",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Chính Ấn (正印)",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Thiên Quan (偏官)",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Chính Quan (正官)",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thiên Tài (偏財)",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Chính Tài (正財)",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Thực Thần (食神)",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Thương Quan (傷官)",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Tỷ Kiên (比肩)",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Kiếp Tài (劫財)",
+                  "Tỷ Kiên (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một chi không quyết định một con người. Cùng một chi được đọc khác nhau tùy theo Can ngày và Chi tháng.",
+              "Các mối quan hệ giữa các chi như hợp, xung và hại không được đề cập ở đây."
+            ]
+          },
+          {
+            "p": "Mối quan hệ giữa các chi nằm trong [biểu đồ mười hai chi](/guide/branches), còn ý nghĩa của nó với tư cách con giáp nằm trong [vị trí của con giáp trong saju](/guide/zodiac). Các Địa chi khác: [丑 (Trâu)](/guide/branch-chuk) · [寅 (Hổ)](/guide/branch-in) · [卯 (Thỏ)](/guide/branch-myo) · [辰 (Rồng)](/guide/branch-jin) · [巳 (Rắn)](/guide/branch-sa) · [午 (Ngựa)](/guide/branch-o) · [未 (Cừu)](/guide/branch-mi) · [申 (Khỉ)](/guide/branch-sin) · [酉 (Gà)](/guide/branch-yu) · [戌 (Chó)](/guide/branch-sul) · [亥 (Lợn)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-chuk": {
+    "eyebrow": "Địa chi",
+    "title": "丑 — Địa chi của Trâu",
+    "summary": "Các can mà Địa chi 丑 chứa (Tàng can), sức mạnh của ngũ hành khi nó là Chi tháng, và Thập thần được đọc cho từng Can ngày — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丑 là Địa chi thứ hai trong mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "丑 là Địa chi thứ hai trong mười hai Địa chi và thuộc con giáp Trâu. Khi Chi tháng sinh là 丑, mùa là mùa đông và hành làm chủ mùa là Thủy. Đây là tháng chuyển mùa (辰未戌丑), nên Thổ cũng được tính ở trạng thái Vượng."
+          },
+          {
+            "p": "Khi Chi ngày sinh là 丑, ký tự này là vị trí phối ngẫu. Bên dưới là các can mà chi này chứa và chúng là gì đối với Can ngày."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà chi này chứa (Tàng can)",
+        "blocks": [
+          {
+            "p": "Một chi là một ký tự hiển thị nhưng bên trong chứa các can. Tỷ lệ là cách ba mươi ngày của chi được chia cho các can, và can bản khí là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 丑",
+              "head": [
+                "Can",
+                "Ngũ hành và âm dương",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "dư khí (餘氣)",
+                  "{hidChukYeo}"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "trung khí (中氣)",
+                  "{hidChukJung}"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "bản khí (本氣)",
+                  "{hidChukBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sức mạnh của ngũ hành khi Chi tháng là 丑",
+        "blocks": [
+          {
+            "p": "Khi Chi tháng sinh là 丑, mỗi hành nhận một trạng thái (Vượng, Tướng, Hưu, Tù, Tử), và trạng thái đó trở thành hệ số nhân áp dụng cho sức mạnh của hành."
+          },
+          {
+            "table": {
+              "caption": "Trạng thái các hành khi Chi tháng là 丑 (mùa đông (tháng chuyển mùa))",
+              "head": [
+                "Ngũ hành",
+                "Trạng thái",
+                "Hệ số nhân"
+              ],
+              "rows": [
+                [
+                  "Mộc",
+                  "Tướng (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Hỏa",
+                  "Tử (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Thổ",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Kim",
+                  "Hưu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Thủy",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thập thần theo Can ngày",
+        "blocks": [
+          {
+            "p": "Cùng các Tàng can của 丑 sẽ thành những Thập thần khác nhau tùy theo Can ngày. Khi 丑 là Chi ngày, bảng này là cách đọc vị trí phối ngẫu."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 丑 là gì đối với từng Can ngày",
+              "head": [
+                "Can ngày",
+                "Quý Thủy (癸) — dư khí (餘氣)",
+                "Tân Kim (辛) — trung khí (中氣)",
+                "Kỷ Thổ (己) — bản khí (本氣)"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Chính Ấn (正印)",
+                  "Chính Quan (正官)",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Thiên Ấn (偏印)",
+                  "Thiên Quan (偏官)",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Chính Quan (正官)",
+                  "Chính Tài (正財)",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Thiên Quan (偏官)",
+                  "Thiên Tài (偏財)",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Chính Tài (正財)",
+                  "Thương Quan (傷官)",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thiên Tài (偏財)",
+                  "Thực Thần (食神)",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Thương Quan (傷官)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Thực Thần (食神)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Ấn (正印)",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Ấn (偏印)",
+                  "Thiên Quan (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một chi không quyết định một con người. Cùng một chi được đọc khác nhau tùy theo Can ngày và Chi tháng.",
+              "Các mối quan hệ giữa các chi như hợp, xung và hại không được đề cập ở đây."
+            ]
+          },
+          {
+            "p": "Mối quan hệ giữa các chi nằm trong [biểu đồ mười hai chi](/guide/branches), còn ý nghĩa của nó với tư cách con giáp nằm trong [vị trí của con giáp trong saju](/guide/zodiac). Các Địa chi khác: [子 (Chuột)](/guide/branch-ja) · [寅 (Hổ)](/guide/branch-in) · [卯 (Thỏ)](/guide/branch-myo) · [辰 (Rồng)](/guide/branch-jin) · [巳 (Rắn)](/guide/branch-sa) · [午 (Ngựa)](/guide/branch-o) · [未 (Cừu)](/guide/branch-mi) · [申 (Khỉ)](/guide/branch-sin) · [酉 (Gà)](/guide/branch-yu) · [戌 (Chó)](/guide/branch-sul) · [亥 (Lợn)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-in": {
+    "eyebrow": "Địa chi",
+    "title": "寅 — Địa chi của Hổ",
+    "summary": "Các can mà Địa chi 寅 chứa (Tàng can), sức mạnh của ngũ hành khi nó là Chi tháng, và Thập thần được đọc cho từng Can ngày — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "寅 là Địa chi thứ ba trong mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "寅 là Địa chi thứ ba trong mười hai Địa chi và thuộc con giáp Hổ. Khi Chi tháng sinh là 寅, mùa là mùa xuân và hành làm chủ mùa là Mộc."
+          },
+          {
+            "p": "Khi Chi ngày sinh là 寅, ký tự này là vị trí phối ngẫu. Bên dưới là các can mà chi này chứa và chúng là gì đối với Can ngày."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà chi này chứa (Tàng can)",
+        "blocks": [
+          {
+            "p": "Một chi là một ký tự hiển thị nhưng bên trong chứa các can. Tỷ lệ là cách ba mươi ngày của chi được chia cho các can, và can bản khí là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 寅",
+              "head": [
+                "Can",
+                "Ngũ hành và âm dương",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "dư khí (餘氣)",
+                  "{hidInYeo}"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "trung khí (中氣)",
+                  "{hidInJung}"
+                ],
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "bản khí (本氣)",
+                  "{hidInBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sức mạnh của ngũ hành khi Chi tháng là 寅",
+        "blocks": [
+          {
+            "p": "Khi Chi tháng sinh là 寅, mỗi hành nhận một trạng thái (Vượng, Tướng, Hưu, Tù, Tử), và trạng thái đó trở thành hệ số nhân áp dụng cho sức mạnh của hành."
+          },
+          {
+            "table": {
+              "caption": "Trạng thái các hành khi Chi tháng là 寅 (mùa xuân)",
+              "head": [
+                "Ngũ hành",
+                "Trạng thái",
+                "Hệ số nhân"
+              ],
+              "rows": [
+                [
+                  "Mộc",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Hỏa",
+                  "Tướng (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Thổ",
+                  "Tử (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Kim",
+                  "Tù (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Thủy",
+                  "Hưu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thập thần theo Can ngày",
+        "blocks": [
+          {
+            "p": "Cùng các Tàng can của 寅 sẽ thành những Thập thần khác nhau tùy theo Can ngày. Khi 寅 là Chi ngày, bảng này là cách đọc vị trí phối ngẫu."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 寅 là gì đối với từng Can ngày",
+              "head": [
+                "Can ngày",
+                "Mậu Thổ (戊) — dư khí (餘氣)",
+                "Bính Hỏa (丙) — trung khí (中氣)",
+                "Giáp Mộc (甲) — bản khí (本氣)"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Thiên Tài (偏財)",
+                  "Thực Thần (食神)",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Chính Tài (正財)",
+                  "Thương Quan (傷官)",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Thực Thần (食神)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Thương Quan (傷官)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Ấn (偏印)",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Ấn (正印)",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Thiên Ấn (偏印)",
+                  "Thiên Quan (偏官)",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Chính Ấn (正印)",
+                  "Chính Quan (正官)",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thiên Quan (偏官)",
+                  "Thiên Tài (偏財)",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Chính Quan (正官)",
+                  "Chính Tài (正財)",
+                  "Thương Quan (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một chi không quyết định một con người. Cùng một chi được đọc khác nhau tùy theo Can ngày và Chi tháng.",
+              "Các mối quan hệ giữa các chi như hợp, xung và hại không được đề cập ở đây."
+            ]
+          },
+          {
+            "p": "Mối quan hệ giữa các chi nằm trong [biểu đồ mười hai chi](/guide/branches), còn ý nghĩa của nó với tư cách con giáp nằm trong [vị trí của con giáp trong saju](/guide/zodiac). Các Địa chi khác: [子 (Chuột)](/guide/branch-ja) · [丑 (Trâu)](/guide/branch-chuk) · [卯 (Thỏ)](/guide/branch-myo) · [辰 (Rồng)](/guide/branch-jin) · [巳 (Rắn)](/guide/branch-sa) · [午 (Ngựa)](/guide/branch-o) · [未 (Cừu)](/guide/branch-mi) · [申 (Khỉ)](/guide/branch-sin) · [酉 (Gà)](/guide/branch-yu) · [戌 (Chó)](/guide/branch-sul) · [亥 (Lợn)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-myo": {
+    "eyebrow": "Địa chi",
+    "title": "卯 — Địa chi của Thỏ",
+    "summary": "Các can mà Địa chi 卯 chứa (Tàng can), sức mạnh của ngũ hành khi nó là Chi tháng, và Thập thần được đọc cho từng Can ngày — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "卯 là Địa chi thứ tư trong mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "卯 là Địa chi thứ tư trong mười hai Địa chi và thuộc con giáp Thỏ. Khi Chi tháng sinh là 卯, mùa là mùa xuân và hành làm chủ mùa là Mộc."
+          },
+          {
+            "p": "Khi Chi ngày sinh là 卯, ký tự này là vị trí phối ngẫu. Bên dưới là các can mà chi này chứa và chúng là gì đối với Can ngày."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà chi này chứa (Tàng can)",
+        "blocks": [
+          {
+            "p": "Một chi là một ký tự hiển thị nhưng bên trong chứa các can. Tỷ lệ là cách ba mươi ngày của chi được chia cho các can, và can bản khí là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 卯",
+              "head": [
+                "Can",
+                "Ngũ hành và âm dương",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "dư khí (餘氣)",
+                  "{hidMyoYeo}"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "bản khí (本氣)",
+                  "{hidMyoBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sức mạnh của ngũ hành khi Chi tháng là 卯",
+        "blocks": [
+          {
+            "p": "Khi Chi tháng sinh là 卯, mỗi hành nhận một trạng thái (Vượng, Tướng, Hưu, Tù, Tử), và trạng thái đó trở thành hệ số nhân áp dụng cho sức mạnh của hành."
+          },
+          {
+            "table": {
+              "caption": "Trạng thái các hành khi Chi tháng là 卯 (mùa xuân)",
+              "head": [
+                "Ngũ hành",
+                "Trạng thái",
+                "Hệ số nhân"
+              ],
+              "rows": [
+                [
+                  "Mộc",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Hỏa",
+                  "Tướng (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Thổ",
+                  "Tử (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Kim",
+                  "Tù (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Thủy",
+                  "Hưu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thập thần theo Can ngày",
+        "blocks": [
+          {
+            "p": "Cùng các Tàng can của 卯 sẽ thành những Thập thần khác nhau tùy theo Can ngày. Khi 卯 là Chi ngày, bảng này là cách đọc vị trí phối ngẫu."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 卯 là gì đối với từng Can ngày",
+              "head": [
+                "Can ngày",
+                "Giáp Mộc (甲) — dư khí (餘氣)",
+                "Ất Mộc (乙) — bản khí (本氣)"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Tỷ Kiên (比肩)",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Kiếp Tài (劫財)",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Thiên Ấn (偏印)",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Chính Ấn (正印)",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thiên Quan (偏官)",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Chính Quan (正官)",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Thiên Tài (偏財)",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Chính Tài (正財)",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thực Thần (食神)",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thương Quan (傷官)",
+                  "Thực Thần (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một chi không quyết định một con người. Cùng một chi được đọc khác nhau tùy theo Can ngày và Chi tháng.",
+              "Các mối quan hệ giữa các chi như hợp, xung và hại không được đề cập ở đây."
+            ]
+          },
+          {
+            "p": "Mối quan hệ giữa các chi nằm trong [biểu đồ mười hai chi](/guide/branches), còn ý nghĩa của nó với tư cách con giáp nằm trong [vị trí của con giáp trong saju](/guide/zodiac). Các Địa chi khác: [子 (Chuột)](/guide/branch-ja) · [丑 (Trâu)](/guide/branch-chuk) · [寅 (Hổ)](/guide/branch-in) · [辰 (Rồng)](/guide/branch-jin) · [巳 (Rắn)](/guide/branch-sa) · [午 (Ngựa)](/guide/branch-o) · [未 (Cừu)](/guide/branch-mi) · [申 (Khỉ)](/guide/branch-sin) · [酉 (Gà)](/guide/branch-yu) · [戌 (Chó)](/guide/branch-sul) · [亥 (Lợn)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-jin": {
+    "eyebrow": "Địa chi",
+    "title": "辰 — Địa chi của Rồng",
+    "summary": "Các can mà Địa chi 辰 chứa (Tàng can), sức mạnh của ngũ hành khi nó là Chi tháng, và Thập thần được đọc cho từng Can ngày — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "辰 là Địa chi thứ năm trong mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "辰 là Địa chi thứ năm trong mười hai Địa chi và thuộc con giáp Rồng. Khi Chi tháng sinh là 辰, mùa là mùa xuân và hành làm chủ mùa là Mộc. Đây là tháng chuyển mùa (辰未戌丑), nên Thổ cũng được tính ở trạng thái Vượng."
+          },
+          {
+            "p": "Khi Chi ngày sinh là 辰, ký tự này là vị trí phối ngẫu. Bên dưới là các can mà chi này chứa và chúng là gì đối với Can ngày."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà chi này chứa (Tàng can)",
+        "blocks": [
+          {
+            "p": "Một chi là một ký tự hiển thị nhưng bên trong chứa các can. Tỷ lệ là cách ba mươi ngày của chi được chia cho các can, và can bản khí là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 辰",
+              "head": [
+                "Can",
+                "Ngũ hành và âm dương",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "dư khí (餘氣)",
+                  "{hidJinYeo}"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thủy Âm",
+                  "trung khí (中氣)",
+                  "{hidJinJung}"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "bản khí (本氣)",
+                  "{hidJinBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sức mạnh của ngũ hành khi Chi tháng là 辰",
+        "blocks": [
+          {
+            "p": "Khi Chi tháng sinh là 辰, mỗi hành nhận một trạng thái (Vượng, Tướng, Hưu, Tù, Tử), và trạng thái đó trở thành hệ số nhân áp dụng cho sức mạnh của hành."
+          },
+          {
+            "table": {
+              "caption": "Trạng thái các hành khi Chi tháng là 辰 (mùa xuân (tháng chuyển mùa))",
+              "head": [
+                "Ngũ hành",
+                "Trạng thái",
+                "Hệ số nhân"
+              ],
+              "rows": [
+                [
+                  "Mộc",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Hỏa",
+                  "Tướng (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Thổ",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Kim",
+                  "Tù (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Thủy",
+                  "Hưu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thập thần theo Can ngày",
+        "blocks": [
+          {
+            "p": "Cùng các Tàng can của 辰 sẽ thành những Thập thần khác nhau tùy theo Can ngày. Khi 辰 là Chi ngày, bảng này là cách đọc vị trí phối ngẫu."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 辰 là gì đối với từng Can ngày",
+              "head": [
+                "Can ngày",
+                "Ất Mộc (乙) — dư khí (餘氣)",
+                "Quý Thủy (癸) — trung khí (中氣)",
+                "Mậu Thổ (戊) — bản khí (本氣)"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Ấn (正印)",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Ấn (偏印)",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Chính Ấn (正印)",
+                  "Chính Quan (正官)",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Thiên Ấn (偏印)",
+                  "Thiên Quan (偏官)",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Chính Quan (正官)",
+                  "Chính Tài (正財)",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thiên Quan (偏官)",
+                  "Thiên Tài (偏財)",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Chính Tài (正財)",
+                  "Thương Quan (傷官)",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Thiên Tài (偏財)",
+                  "Thực Thần (食神)",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thương Quan (傷官)",
+                  "Kiếp Tài (劫財)",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thực Thần (食神)",
+                  "Tỷ Kiên (比肩)",
+                  "Chính Quan (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một chi không quyết định một con người. Cùng một chi được đọc khác nhau tùy theo Can ngày và Chi tháng.",
+              "Các mối quan hệ giữa các chi như hợp, xung và hại không được đề cập ở đây."
+            ]
+          },
+          {
+            "p": "Mối quan hệ giữa các chi nằm trong [biểu đồ mười hai chi](/guide/branches), còn ý nghĩa của nó với tư cách con giáp nằm trong [vị trí của con giáp trong saju](/guide/zodiac). Các Địa chi khác: [子 (Chuột)](/guide/branch-ja) · [丑 (Trâu)](/guide/branch-chuk) · [寅 (Hổ)](/guide/branch-in) · [卯 (Thỏ)](/guide/branch-myo) · [巳 (Rắn)](/guide/branch-sa) · [午 (Ngựa)](/guide/branch-o) · [未 (Cừu)](/guide/branch-mi) · [申 (Khỉ)](/guide/branch-sin) · [酉 (Gà)](/guide/branch-yu) · [戌 (Chó)](/guide/branch-sul) · [亥 (Lợn)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sa": {
+    "eyebrow": "Địa chi",
+    "title": "巳 — Địa chi của Rắn",
+    "summary": "Các can mà Địa chi 巳 chứa (Tàng can), sức mạnh của ngũ hành khi nó là Chi tháng, và Thập thần được đọc cho từng Can ngày — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "巳 là Địa chi thứ sáu trong mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "巳 là Địa chi thứ sáu trong mười hai Địa chi và thuộc con giáp Rắn. Khi Chi tháng sinh là 巳, mùa là mùa hè và hành làm chủ mùa là Hỏa."
+          },
+          {
+            "p": "Khi Chi ngày sinh là 巳, ký tự này là vị trí phối ngẫu. Bên dưới là các can mà chi này chứa và chúng là gì đối với Can ngày."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà chi này chứa (Tàng can)",
+        "blocks": [
+          {
+            "p": "Một chi là một ký tự hiển thị nhưng bên trong chứa các can. Tỷ lệ là cách ba mươi ngày của chi được chia cho các can, và can bản khí là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 巳",
+              "head": [
+                "Can",
+                "Ngũ hành và âm dương",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "dư khí (餘氣)",
+                  "{hidSaYeo}"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "trung khí (中氣)",
+                  "{hidSaJung}"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "bản khí (本氣)",
+                  "{hidSaBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sức mạnh của ngũ hành khi Chi tháng là 巳",
+        "blocks": [
+          {
+            "p": "Khi Chi tháng sinh là 巳, mỗi hành nhận một trạng thái (Vượng, Tướng, Hưu, Tù, Tử), và trạng thái đó trở thành hệ số nhân áp dụng cho sức mạnh của hành."
+          },
+          {
+            "table": {
+              "caption": "Trạng thái các hành khi Chi tháng là 巳 (mùa hè)",
+              "head": [
+                "Ngũ hành",
+                "Trạng thái",
+                "Hệ số nhân"
+              ],
+              "rows": [
+                [
+                  "Mộc",
+                  "Hưu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Hỏa",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Thổ",
+                  "Tướng (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Kim",
+                  "Tử (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Thủy",
+                  "Tù (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thập thần theo Can ngày",
+        "blocks": [
+          {
+            "p": "Cùng các Tàng can của 巳 sẽ thành những Thập thần khác nhau tùy theo Can ngày. Khi 巳 là Chi ngày, bảng này là cách đọc vị trí phối ngẫu."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 巳 là gì đối với từng Can ngày",
+              "head": [
+                "Can ngày",
+                "Mậu Thổ (戊) — dư khí (餘氣)",
+                "Canh Kim (庚) — trung khí (中氣)",
+                "Bính Hỏa (丙) — bản khí (本氣)"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Thiên Tài (偏財)",
+                  "Thiên Quan (偏官)",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Chính Tài (正財)",
+                  "Chính Quan (正官)",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Thực Thần (食神)",
+                  "Thiên Tài (偏財)",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Thương Quan (傷官)",
+                  "Chính Tài (正財)",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Tỷ Kiên (比肩)",
+                  "Thực Thần (食神)",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Kiếp Tài (劫財)",
+                  "Thương Quan (傷官)",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Thiên Ấn (偏印)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Chính Ấn (正印)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thiên Quan (偏官)",
+                  "Thiên Ấn (偏印)",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Chính Quan (正官)",
+                  "Chính Ấn (正印)",
+                  "Chính Tài (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một chi không quyết định một con người. Cùng một chi được đọc khác nhau tùy theo Can ngày và Chi tháng.",
+              "Các mối quan hệ giữa các chi như hợp, xung và hại không được đề cập ở đây."
+            ]
+          },
+          {
+            "p": "Mối quan hệ giữa các chi nằm trong [biểu đồ mười hai chi](/guide/branches), còn ý nghĩa của nó với tư cách con giáp nằm trong [vị trí của con giáp trong saju](/guide/zodiac). Các Địa chi khác: [子 (Chuột)](/guide/branch-ja) · [丑 (Trâu)](/guide/branch-chuk) · [寅 (Hổ)](/guide/branch-in) · [卯 (Thỏ)](/guide/branch-myo) · [辰 (Rồng)](/guide/branch-jin) · [午 (Ngựa)](/guide/branch-o) · [未 (Cừu)](/guide/branch-mi) · [申 (Khỉ)](/guide/branch-sin) · [酉 (Gà)](/guide/branch-yu) · [戌 (Chó)](/guide/branch-sul) · [亥 (Lợn)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-o": {
+    "eyebrow": "Địa chi",
+    "title": "午 — Địa chi của Ngựa",
+    "summary": "Các can mà Địa chi 午 chứa (Tàng can), sức mạnh của ngũ hành khi nó là Chi tháng, và Thập thần được đọc cho từng Can ngày — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "午 là Địa chi thứ bảy trong mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "午 là Địa chi thứ bảy trong mười hai Địa chi và thuộc con giáp Ngựa. Khi Chi tháng sinh là 午, mùa là mùa hè và hành làm chủ mùa là Hỏa."
+          },
+          {
+            "p": "Khi Chi ngày sinh là 午, ký tự này là vị trí phối ngẫu. Bên dưới là các can mà chi này chứa và chúng là gì đối với Can ngày."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà chi này chứa (Tàng can)",
+        "blocks": [
+          {
+            "p": "Một chi là một ký tự hiển thị nhưng bên trong chứa các can. Tỷ lệ là cách ba mươi ngày của chi được chia cho các can, và can bản khí là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 午",
+              "head": [
+                "Can",
+                "Ngũ hành và âm dương",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "Bính Hỏa (丙)",
+                  "Hỏa Dương",
+                  "dư khí (餘氣)",
+                  "{hidOYeo}"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "trung khí (中氣)",
+                  "{hidOJung}"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "bản khí (本氣)",
+                  "{hidOBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sức mạnh của ngũ hành khi Chi tháng là 午",
+        "blocks": [
+          {
+            "p": "Khi Chi tháng sinh là 午, mỗi hành nhận một trạng thái (Vượng, Tướng, Hưu, Tù, Tử), và trạng thái đó trở thành hệ số nhân áp dụng cho sức mạnh của hành."
+          },
+          {
+            "table": {
+              "caption": "Trạng thái các hành khi Chi tháng là 午 (mùa hè)",
+              "head": [
+                "Ngũ hành",
+                "Trạng thái",
+                "Hệ số nhân"
+              ],
+              "rows": [
+                [
+                  "Mộc",
+                  "Hưu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Hỏa",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Thổ",
+                  "Tướng (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Kim",
+                  "Tử (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Thủy",
+                  "Tù (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thập thần theo Can ngày",
+        "blocks": [
+          {
+            "p": "Cùng các Tàng can của 午 sẽ thành những Thập thần khác nhau tùy theo Can ngày. Khi 午 là Chi ngày, bảng này là cách đọc vị trí phối ngẫu."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 午 là gì đối với từng Can ngày",
+              "head": [
+                "Can ngày",
+                "Bính Hỏa (丙) — dư khí (餘氣)",
+                "Kỷ Thổ (己) — trung khí (中氣)",
+                "Đinh Hỏa (丁) — bản khí (本氣)"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Thực Thần (食神)",
+                  "Chính Tài (正財)",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Thương Quan (傷官)",
+                  "Thiên Tài (偏財)",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Tỷ Kiên (比肩)",
+                  "Thương Quan (傷官)",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Kiếp Tài (劫財)",
+                  "Thực Thần (食神)",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thiên Ấn (偏印)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Chính Ấn (正印)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Thiên Quan (偏官)",
+                  "Chính Ấn (正印)",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Chính Quan (正官)",
+                  "Thiên Ấn (偏印)",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thiên Tài (偏財)",
+                  "Chính Quan (正官)",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Chính Tài (正財)",
+                  "Thiên Quan (偏官)",
+                  "Thiên Tài (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một chi không quyết định một con người. Cùng một chi được đọc khác nhau tùy theo Can ngày và Chi tháng.",
+              "Các mối quan hệ giữa các chi như hợp, xung và hại không được đề cập ở đây."
+            ]
+          },
+          {
+            "p": "Mối quan hệ giữa các chi nằm trong [biểu đồ mười hai chi](/guide/branches), còn ý nghĩa của nó với tư cách con giáp nằm trong [vị trí của con giáp trong saju](/guide/zodiac). Các Địa chi khác: [子 (Chuột)](/guide/branch-ja) · [丑 (Trâu)](/guide/branch-chuk) · [寅 (Hổ)](/guide/branch-in) · [卯 (Thỏ)](/guide/branch-myo) · [辰 (Rồng)](/guide/branch-jin) · [巳 (Rắn)](/guide/branch-sa) · [未 (Cừu)](/guide/branch-mi) · [申 (Khỉ)](/guide/branch-sin) · [酉 (Gà)](/guide/branch-yu) · [戌 (Chó)](/guide/branch-sul) · [亥 (Lợn)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-mi": {
+    "eyebrow": "Địa chi",
+    "title": "未 — Địa chi của Cừu",
+    "summary": "Các can mà Địa chi 未 chứa (Tàng can), sức mạnh của ngũ hành khi nó là Chi tháng, và Thập thần được đọc cho từng Can ngày — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "未 là Địa chi thứ tám trong mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "未 là Địa chi thứ tám trong mười hai Địa chi và thuộc con giáp Cừu. Khi Chi tháng sinh là 未, mùa là mùa hè và hành làm chủ mùa là Hỏa. Đây là tháng chuyển mùa (辰未戌丑), nên Thổ cũng được tính ở trạng thái Vượng."
+          },
+          {
+            "p": "Khi Chi ngày sinh là 未, ký tự này là vị trí phối ngẫu. Bên dưới là các can mà chi này chứa và chúng là gì đối với Can ngày."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà chi này chứa (Tàng can)",
+        "blocks": [
+          {
+            "p": "Một chi là một ký tự hiển thị nhưng bên trong chứa các can. Tỷ lệ là cách ba mươi ngày của chi được chia cho các can, và can bản khí là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 未",
+              "head": [
+                "Can",
+                "Ngũ hành và âm dương",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "dư khí (餘氣)",
+                  "{hidMiYeo}"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Mộc Âm",
+                  "trung khí (中氣)",
+                  "{hidMiJung}"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thổ Âm",
+                  "bản khí (本氣)",
+                  "{hidMiBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sức mạnh của ngũ hành khi Chi tháng là 未",
+        "blocks": [
+          {
+            "p": "Khi Chi tháng sinh là 未, mỗi hành nhận một trạng thái (Vượng, Tướng, Hưu, Tù, Tử), và trạng thái đó trở thành hệ số nhân áp dụng cho sức mạnh của hành."
+          },
+          {
+            "table": {
+              "caption": "Trạng thái các hành khi Chi tháng là 未 (mùa hè (tháng chuyển mùa))",
+              "head": [
+                "Ngũ hành",
+                "Trạng thái",
+                "Hệ số nhân"
+              ],
+              "rows": [
+                [
+                  "Mộc",
+                  "Hưu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Hỏa",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Thổ",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Kim",
+                  "Tử (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Thủy",
+                  "Tù (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thập thần theo Can ngày",
+        "blocks": [
+          {
+            "p": "Cùng các Tàng can của 未 sẽ thành những Thập thần khác nhau tùy theo Can ngày. Khi 未 là Chi ngày, bảng này là cách đọc vị trí phối ngẫu."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 未 là gì đối với từng Can ngày",
+              "head": [
+                "Can ngày",
+                "Đinh Hỏa (丁) — dư khí (餘氣)",
+                "Ất Mộc (乙) — trung khí (中氣)",
+                "Kỷ Thổ (己) — bản khí (本氣)"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Thương Quan (傷官)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Thực Thần (食神)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Ấn (正印)",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Ấn (偏印)",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Chính Ấn (正印)",
+                  "Chính Quan (正官)",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thiên Ấn (偏印)",
+                  "Thiên Quan (偏官)",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Chính Quan (正官)",
+                  "Chính Tài (正財)",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Thiên Quan (偏官)",
+                  "Thiên Tài (偏財)",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Chính Tài (正財)",
+                  "Thương Quan (傷官)",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thiên Tài (偏財)",
+                  "Thực Thần (食神)",
+                  "Thiên Quan (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một chi không quyết định một con người. Cùng một chi được đọc khác nhau tùy theo Can ngày và Chi tháng.",
+              "Các mối quan hệ giữa các chi như hợp, xung và hại không được đề cập ở đây."
+            ]
+          },
+          {
+            "p": "Mối quan hệ giữa các chi nằm trong [biểu đồ mười hai chi](/guide/branches), còn ý nghĩa của nó với tư cách con giáp nằm trong [vị trí của con giáp trong saju](/guide/zodiac). Các Địa chi khác: [子 (Chuột)](/guide/branch-ja) · [丑 (Trâu)](/guide/branch-chuk) · [寅 (Hổ)](/guide/branch-in) · [卯 (Thỏ)](/guide/branch-myo) · [辰 (Rồng)](/guide/branch-jin) · [巳 (Rắn)](/guide/branch-sa) · [午 (Ngựa)](/guide/branch-o) · [申 (Khỉ)](/guide/branch-sin) · [酉 (Gà)](/guide/branch-yu) · [戌 (Chó)](/guide/branch-sul) · [亥 (Lợn)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sin": {
+    "eyebrow": "Địa chi",
+    "title": "申 — Địa chi của Khỉ",
+    "summary": "Các can mà Địa chi 申 chứa (Tàng can), sức mạnh của ngũ hành khi nó là Chi tháng, và Thập thần được đọc cho từng Can ngày — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "申 là Địa chi thứ chín trong mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "申 là Địa chi thứ chín trong mười hai Địa chi và thuộc con giáp Khỉ. Khi Chi tháng sinh là 申, mùa là mùa thu và hành làm chủ mùa là Kim."
+          },
+          {
+            "p": "Khi Chi ngày sinh là 申, ký tự này là vị trí phối ngẫu. Bên dưới là các can mà chi này chứa và chúng là gì đối với Can ngày."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà chi này chứa (Tàng can)",
+        "blocks": [
+          {
+            "p": "Một chi là một ký tự hiển thị nhưng bên trong chứa các can. Tỷ lệ là cách ba mươi ngày của chi được chia cho các can, và can bản khí là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 申",
+              "head": [
+                "Can",
+                "Ngũ hành và âm dương",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "dư khí (餘氣)",
+                  "{hidSinYeo}"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "trung khí (中氣)",
+                  "{hidSinJung}"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "bản khí (本氣)",
+                  "{hidSinBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sức mạnh của ngũ hành khi Chi tháng là 申",
+        "blocks": [
+          {
+            "p": "Khi Chi tháng sinh là 申, mỗi hành nhận một trạng thái (Vượng, Tướng, Hưu, Tù, Tử), và trạng thái đó trở thành hệ số nhân áp dụng cho sức mạnh của hành."
+          },
+          {
+            "table": {
+              "caption": "Trạng thái các hành khi Chi tháng là 申 (mùa thu)",
+              "head": [
+                "Ngũ hành",
+                "Trạng thái",
+                "Hệ số nhân"
+              ],
+              "rows": [
+                [
+                  "Mộc",
+                  "Tử (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Hỏa",
+                  "Tù (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Thổ",
+                  "Hưu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Kim",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Thủy",
+                  "Tướng (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thập thần theo Can ngày",
+        "blocks": [
+          {
+            "p": "Cùng các Tàng can của 申 sẽ thành những Thập thần khác nhau tùy theo Can ngày. Khi 申 là Chi ngày, bảng này là cách đọc vị trí phối ngẫu."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 申 là gì đối với từng Can ngày",
+              "head": [
+                "Can ngày",
+                "Mậu Thổ (戊) — dư khí (餘氣)",
+                "Nhâm Thủy (壬) — trung khí (中氣)",
+                "Canh Kim (庚) — bản khí (本氣)"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Thiên Tài (偏財)",
+                  "Thiên Ấn (偏印)",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Chính Tài (正財)",
+                  "Chính Ấn (正印)",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Thực Thần (食神)",
+                  "Thiên Quan (偏官)",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Thương Quan (傷官)",
+                  "Chính Quan (正官)",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Tài (偏財)",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Tài (正財)",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Thiên Ấn (偏印)",
+                  "Thực Thần (食神)",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Chính Ấn (正印)",
+                  "Thương Quan (傷官)",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thiên Quan (偏官)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Chính Quan (正官)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Ấn (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một chi không quyết định một con người. Cùng một chi được đọc khác nhau tùy theo Can ngày và Chi tháng.",
+              "Các mối quan hệ giữa các chi như hợp, xung và hại không được đề cập ở đây."
+            ]
+          },
+          {
+            "p": "Mối quan hệ giữa các chi nằm trong [biểu đồ mười hai chi](/guide/branches), còn ý nghĩa của nó với tư cách con giáp nằm trong [vị trí của con giáp trong saju](/guide/zodiac). Các Địa chi khác: [子 (Chuột)](/guide/branch-ja) · [丑 (Trâu)](/guide/branch-chuk) · [寅 (Hổ)](/guide/branch-in) · [卯 (Thỏ)](/guide/branch-myo) · [辰 (Rồng)](/guide/branch-jin) · [巳 (Rắn)](/guide/branch-sa) · [午 (Ngựa)](/guide/branch-o) · [未 (Cừu)](/guide/branch-mi) · [酉 (Gà)](/guide/branch-yu) · [戌 (Chó)](/guide/branch-sul) · [亥 (Lợn)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-yu": {
+    "eyebrow": "Địa chi",
+    "title": "酉 — Địa chi của Gà",
+    "summary": "Các can mà Địa chi 酉 chứa (Tàng can), sức mạnh của ngũ hành khi nó là Chi tháng, và Thập thần được đọc cho từng Can ngày — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "酉 là Địa chi thứ mười trong mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "酉 là Địa chi thứ mười trong mười hai Địa chi và thuộc con giáp Gà. Khi Chi tháng sinh là 酉, mùa là mùa thu và hành làm chủ mùa là Kim."
+          },
+          {
+            "p": "Khi Chi ngày sinh là 酉, ký tự này là vị trí phối ngẫu. Bên dưới là các can mà chi này chứa và chúng là gì đối với Can ngày."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà chi này chứa (Tàng can)",
+        "blocks": [
+          {
+            "p": "Một chi là một ký tự hiển thị nhưng bên trong chứa các can. Tỷ lệ là cách ba mươi ngày của chi được chia cho các can, và can bản khí là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 酉",
+              "head": [
+                "Can",
+                "Ngũ hành và âm dương",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "Canh Kim (庚)",
+                  "Kim Dương",
+                  "dư khí (餘氣)",
+                  "{hidYuYeo}"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "bản khí (本氣)",
+                  "{hidYuBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sức mạnh của ngũ hành khi Chi tháng là 酉",
+        "blocks": [
+          {
+            "p": "Khi Chi tháng sinh là 酉, mỗi hành nhận một trạng thái (Vượng, Tướng, Hưu, Tù, Tử), và trạng thái đó trở thành hệ số nhân áp dụng cho sức mạnh của hành."
+          },
+          {
+            "table": {
+              "caption": "Trạng thái các hành khi Chi tháng là 酉 (mùa thu)",
+              "head": [
+                "Ngũ hành",
+                "Trạng thái",
+                "Hệ số nhân"
+              ],
+              "rows": [
+                [
+                  "Mộc",
+                  "Tử (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Hỏa",
+                  "Tù (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Thổ",
+                  "Hưu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Kim",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Thủy",
+                  "Tướng (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thập thần theo Can ngày",
+        "blocks": [
+          {
+            "p": "Cùng các Tàng can của 酉 sẽ thành những Thập thần khác nhau tùy theo Can ngày. Khi 酉 là Chi ngày, bảng này là cách đọc vị trí phối ngẫu."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 酉 là gì đối với từng Can ngày",
+              "head": [
+                "Can ngày",
+                "Canh Kim (庚) — dư khí (餘氣)",
+                "Tân Kim (辛) — bản khí (本氣)"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Thiên Quan (偏官)",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Chính Quan (正官)",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Thiên Tài (偏財)",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Chính Tài (正財)",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thực Thần (食神)",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thương Quan (傷官)",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Tỷ Kiên (比肩)",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Kiếp Tài (劫財)",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thiên Ấn (偏印)",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Chính Ấn (正印)",
+                  "Thiên Ấn (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một chi không quyết định một con người. Cùng một chi được đọc khác nhau tùy theo Can ngày và Chi tháng.",
+              "Các mối quan hệ giữa các chi như hợp, xung và hại không được đề cập ở đây."
+            ]
+          },
+          {
+            "p": "Mối quan hệ giữa các chi nằm trong [biểu đồ mười hai chi](/guide/branches), còn ý nghĩa của nó với tư cách con giáp nằm trong [vị trí của con giáp trong saju](/guide/zodiac). Các Địa chi khác: [子 (Chuột)](/guide/branch-ja) · [丑 (Trâu)](/guide/branch-chuk) · [寅 (Hổ)](/guide/branch-in) · [卯 (Thỏ)](/guide/branch-myo) · [辰 (Rồng)](/guide/branch-jin) · [巳 (Rắn)](/guide/branch-sa) · [午 (Ngựa)](/guide/branch-o) · [未 (Cừu)](/guide/branch-mi) · [申 (Khỉ)](/guide/branch-sin) · [戌 (Chó)](/guide/branch-sul) · [亥 (Lợn)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sul": {
+    "eyebrow": "Địa chi",
+    "title": "戌 — Địa chi của Chó",
+    "summary": "Các can mà Địa chi 戌 chứa (Tàng can), sức mạnh của ngũ hành khi nó là Chi tháng, và Thập thần được đọc cho từng Can ngày — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "戌 là Địa chi thứ mười một trong mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "戌 là Địa chi thứ mười một trong mười hai Địa chi và thuộc con giáp Chó. Khi Chi tháng sinh là 戌, mùa là mùa thu và hành làm chủ mùa là Kim. Đây là tháng chuyển mùa (辰未戌丑), nên Thổ cũng được tính ở trạng thái Vượng."
+          },
+          {
+            "p": "Khi Chi ngày sinh là 戌, ký tự này là vị trí phối ngẫu. Bên dưới là các can mà chi này chứa và chúng là gì đối với Can ngày."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà chi này chứa (Tàng can)",
+        "blocks": [
+          {
+            "p": "Một chi là một ký tự hiển thị nhưng bên trong chứa các can. Tỷ lệ là cách ba mươi ngày của chi được chia cho các can, và can bản khí là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 戌",
+              "head": [
+                "Can",
+                "Ngũ hành và âm dương",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "Tân Kim (辛)",
+                  "Kim Âm",
+                  "dư khí (餘氣)",
+                  "{hidSulYeo}"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Hỏa Âm",
+                  "trung khí (中氣)",
+                  "{hidSulJung}"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "bản khí (本氣)",
+                  "{hidSulBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sức mạnh của ngũ hành khi Chi tháng là 戌",
+        "blocks": [
+          {
+            "p": "Khi Chi tháng sinh là 戌, mỗi hành nhận một trạng thái (Vượng, Tướng, Hưu, Tù, Tử), và trạng thái đó trở thành hệ số nhân áp dụng cho sức mạnh của hành."
+          },
+          {
+            "table": {
+              "caption": "Trạng thái các hành khi Chi tháng là 戌 (mùa thu (tháng chuyển mùa))",
+              "head": [
+                "Ngũ hành",
+                "Trạng thái",
+                "Hệ số nhân"
+              ],
+              "rows": [
+                [
+                  "Mộc",
+                  "Tử (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Hỏa",
+                  "Tù (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Thổ",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Kim",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Thủy",
+                  "Tướng (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thập thần theo Can ngày",
+        "blocks": [
+          {
+            "p": "Cùng các Tàng can của 戌 sẽ thành những Thập thần khác nhau tùy theo Can ngày. Khi 戌 là Chi ngày, bảng này là cách đọc vị trí phối ngẫu."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 戌 là gì đối với từng Can ngày",
+              "head": [
+                "Can ngày",
+                "Tân Kim (辛) — dư khí (餘氣)",
+                "Đinh Hỏa (丁) — trung khí (中氣)",
+                "Mậu Thổ (戊) — bản khí (本氣)"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Chính Quan (正官)",
+                  "Thương Quan (傷官)",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Thiên Quan (偏官)",
+                  "Thực Thần (食神)",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Chính Tài (正財)",
+                  "Kiếp Tài (劫財)",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Thiên Tài (偏財)",
+                  "Tỷ Kiên (比肩)",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Thương Quan (傷官)",
+                  "Chính Ấn (正印)",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Thực Thần (食神)",
+                  "Thiên Ấn (偏印)",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Quan (正官)",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Quan (偏官)",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Chính Ấn (正印)",
+                  "Chính Tài (正財)",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Thiên Ấn (偏印)",
+                  "Thiên Tài (偏財)",
+                  "Chính Quan (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một chi không quyết định một con người. Cùng một chi được đọc khác nhau tùy theo Can ngày và Chi tháng.",
+              "Các mối quan hệ giữa các chi như hợp, xung và hại không được đề cập ở đây."
+            ]
+          },
+          {
+            "p": "Mối quan hệ giữa các chi nằm trong [biểu đồ mười hai chi](/guide/branches), còn ý nghĩa của nó với tư cách con giáp nằm trong [vị trí của con giáp trong saju](/guide/zodiac). Các Địa chi khác: [子 (Chuột)](/guide/branch-ja) · [丑 (Trâu)](/guide/branch-chuk) · [寅 (Hổ)](/guide/branch-in) · [卯 (Thỏ)](/guide/branch-myo) · [辰 (Rồng)](/guide/branch-jin) · [巳 (Rắn)](/guide/branch-sa) · [午 (Ngựa)](/guide/branch-o) · [未 (Cừu)](/guide/branch-mi) · [申 (Khỉ)](/guide/branch-sin) · [酉 (Gà)](/guide/branch-yu) · [亥 (Lợn)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-hae": {
+    "eyebrow": "Địa chi",
+    "title": "亥 — Địa chi của Lợn",
+    "summary": "Các can mà Địa chi 亥 chứa (Tàng can), sức mạnh của ngũ hành khi nó là Chi tháng, và Thập thần được đọc cho từng Can ngày — được trình bày đúng như quy tắc tính toán của Saju-Link.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "亥 là Địa chi thứ mười hai trong mười hai Địa chi",
+        "blocks": [
+          {
+            "p": "亥 là Địa chi thứ mười hai trong mười hai Địa chi và thuộc con giáp Lợn. Khi Chi tháng sinh là 亥, mùa là mùa đông và hành làm chủ mùa là Thủy."
+          },
+          {
+            "p": "Khi Chi ngày sinh là 亥, ký tự này là vị trí phối ngẫu. Bên dưới là các can mà chi này chứa và chúng là gì đối với Can ngày."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà chi này chứa (Tàng can)",
+        "blocks": [
+          {
+            "p": "Một chi là một ký tự hiển thị nhưng bên trong chứa các can. Tỷ lệ là cách ba mươi ngày của chi được chia cho các can, và can bản khí là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 亥",
+              "head": [
+                "Can",
+                "Ngũ hành và âm dương",
+                "Vị trí",
+                "Tỷ lệ"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "Thổ Dương",
+                  "dư khí (餘氣)",
+                  "{hidHaeYeo}"
+                ],
+                [
+                  "Giáp Mộc (甲)",
+                  "Mộc Dương",
+                  "trung khí (中氣)",
+                  "{hidHaeJung}"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thủy Dương",
+                  "bản khí (本氣)",
+                  "{hidHaeBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sức mạnh của ngũ hành khi Chi tháng là 亥",
+        "blocks": [
+          {
+            "p": "Khi Chi tháng sinh là 亥, mỗi hành nhận một trạng thái (Vượng, Tướng, Hưu, Tù, Tử), và trạng thái đó trở thành hệ số nhân áp dụng cho sức mạnh của hành."
+          },
+          {
+            "table": {
+              "caption": "Trạng thái các hành khi Chi tháng là 亥 (mùa đông)",
+              "head": [
+                "Ngũ hành",
+                "Trạng thái",
+                "Hệ số nhân"
+              ],
+              "rows": [
+                [
+                  "Mộc",
+                  "Tướng (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Hỏa",
+                  "Tử (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Thổ",
+                  "Tù (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Kim",
+                  "Hưu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Thủy",
+                  "Vượng (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Thập thần theo Can ngày",
+        "blocks": [
+          {
+            "p": "Cùng các Tàng can của 亥 sẽ thành những Thập thần khác nhau tùy theo Can ngày. Khi 亥 là Chi ngày, bảng này là cách đọc vị trí phối ngẫu."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của 亥 là gì đối với từng Can ngày",
+              "head": [
+                "Can ngày",
+                "Mậu Thổ (戊) — dư khí (餘氣)",
+                "Giáp Mộc (甲) — trung khí (中氣)",
+                "Nhâm Thủy (壬) — bản khí (本氣)"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "Thiên Tài (偏財)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "Chính Tài (正財)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "Thực Thần (食神)",
+                  "Thiên Ấn (偏印)",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "Thương Quan (傷官)",
+                  "Chính Ấn (正印)",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "Tỷ Kiên (比肩)",
+                  "Thiên Quan (偏官)",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "Kiếp Tài (劫財)",
+                  "Chính Quan (正官)",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "Thiên Ấn (偏印)",
+                  "Thiên Tài (偏財)",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "Chính Ấn (正印)",
+                  "Chính Tài (正財)",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "Thiên Quan (偏官)",
+                  "Thực Thần (食神)",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "Chính Quan (正官)",
+                  "Thương Quan (傷官)",
+                  "Kiếp Tài (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một chi không quyết định một con người. Cùng một chi được đọc khác nhau tùy theo Can ngày và Chi tháng.",
+              "Các mối quan hệ giữa các chi như hợp, xung và hại không được đề cập ở đây."
+            ]
+          },
+          {
+            "p": "Mối quan hệ giữa các chi nằm trong [biểu đồ mười hai chi](/guide/branches), còn ý nghĩa của nó với tư cách con giáp nằm trong [vị trí của con giáp trong saju](/guide/zodiac). Các Địa chi khác: [子 (Chuột)](/guide/branch-ja) · [丑 (Trâu)](/guide/branch-chuk) · [寅 (Hổ)](/guide/branch-in) · [卯 (Thỏ)](/guide/branch-myo) · [辰 (Rồng)](/guide/branch-jin) · [巳 (Rắn)](/guide/branch-sa) · [午 (Ngựa)](/guide/branch-o) · [未 (Cừu)](/guide/branch-mi) · [申 (Khỉ)](/guide/branch-sin) · [酉 (Gà)](/guide/branch-yu) · [戌 (Chó)](/guide/branch-sul)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-ja": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 甲子",
+    "summary": "Cách Saju-Link đọc Trụ ngày 甲子 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "甲子 là Trụ ngày số 1 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 甲子, Can ngày là 甲 (Mộc, Dương) và Chi ngày là 子 (Chuột). Trong chu kỳ sáu mươi, đây là tổ hợp số 1."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 甲 là \"Giáp Mộc (甲)\", và dòng mà màn hình kết quả hiển thị là: \"Cây lớn mọc thẳng. Đã định hướng thì không lung lay, và thà chịu đựng chứ không chịu cong.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 子 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 甲, các can mà 子 chứa như sau. Can bản khí (癸) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 甲子",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 甲"
+              ],
+              "rows": [
+                [
+                  "Nhâm Thủy (壬)",
+                  "dư khí (餘氣)",
+                  "{hidJaYeo}",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "bản khí (本氣)",
+                  "{hidJaBon}",
+                  "Chính Ấn (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 甲, Chính Tài là 己 và Chính Quan là 辛."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 己. 己 không được chứa trong 子."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 辛. 辛 không được chứa trong 子."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [癸亥](/guide/pillar-gye-hae) và Trụ ngày sau là [乙丑](/guide/pillar-eul-chuk)."
+          },
+          {
+            "p": "Nó gồm [Giáp Mộc (甲)](/guide/stem-gap) và [子 (Chuột)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-chuk": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 乙丑",
+    "summary": "Cách Saju-Link đọc Trụ ngày 乙丑 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "乙丑 là Trụ ngày số 2 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 乙丑, Can ngày là 乙 (Mộc, Âm) và Chi ngày là 丑 (Trâu). Trong chu kỳ sáu mươi, đây là tổ hợp số 2."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 乙 là \"Ất Mộc (乙)\", và dòng mà màn hình kết quả hiển thị là: \"Dây leo — loài cỏ mềm dẻo. Uốn theo hoàn cảnh để tiếp tục đi tới, và không gãy.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 丑 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 乙, các can mà 丑 chứa như sau. Can bản khí (己) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 乙丑",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 乙"
+              ],
+              "rows": [
+                [
+                  "Quý Thủy (癸)",
+                  "dư khí (餘氣)",
+                  "{hidChukYeo}",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "trung khí (中氣)",
+                  "{hidChukJung}",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "bản khí (本氣)",
+                  "{hidChukBon}",
+                  "Thiên Tài (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 乙, Chính Tài là 戊 và Chính Quan là 庚."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 戊. 戊 không được chứa trong 丑."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 庚. 庚 không được chứa trong 丑."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [甲子](/guide/pillar-gap-ja) và Trụ ngày sau là [丙寅](/guide/pillar-byeong-in)."
+          },
+          {
+            "p": "Nó gồm [Ất Mộc (乙)](/guide/stem-eul) và [丑 (Trâu)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-in": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 丙寅",
+    "summary": "Cách Saju-Link đọc Trụ ngày 丙寅 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丙寅 là Trụ ngày số 3 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 丙寅, Can ngày là 丙 (Hỏa, Dương) và Chi ngày là 寅 (Hổ). Trong chu kỳ sáu mươi, đây là tổ hợp số 3."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 丙 là \"Bính Hỏa (丙)\", và dòng mà màn hình kết quả hiển thị là: \"Mặt trời giữa trưa. Cảm xúc lộ rõ, chỗ nào cũng sáng lên, và bước ra phía trước là chuyện tự nhiên.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 寅 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 丙, các can mà 寅 chứa như sau. Can bản khí (甲) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 丙寅",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 丙"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidInYeo}",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "trung khí (中氣)",
+                  "{hidInJung}",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Giáp Mộc (甲)",
+                  "bản khí (本氣)",
+                  "{hidInBon}",
+                  "Thiên Ấn (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丙, Chính Tài là 辛 và Chính Quan là 癸."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 辛. 辛 không được chứa trong 寅."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 癸. 癸 không được chứa trong 寅."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [乙丑](/guide/pillar-eul-chuk) và Trụ ngày sau là [丁卯](/guide/pillar-jeong-myo)."
+          },
+          {
+            "p": "Nó gồm [Bính Hỏa (丙)](/guide/stem-byeong) và [寅 (Hổ)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-myo": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 丁卯",
+    "summary": "Cách Saju-Link đọc Trụ ngày 丁卯 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丁卯 là Trụ ngày số 4 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 丁卯, Can ngày là 丁 (Hỏa, Âm) và Chi ngày là 卯 (Thỏ). Trong chu kỳ sáu mươi, đây là tổ hợp số 4."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 丁 là \"Đinh Hỏa (丁)\", và dòng mà màn hình kết quả hiển thị là: \"Ánh nến. Cháy lặng lẽ và bền, sưởi ấm người gần nhất trước.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 卯 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 丁, các can mà 卯 chứa như sau. Can bản khí (乙) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 丁卯",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 丁"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "dư khí (餘氣)",
+                  "{hidMyoYeo}",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "bản khí (本氣)",
+                  "{hidMyoBon}",
+                  "Thiên Ấn (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丁, Chính Tài là 庚 và Chính Quan là 壬."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 庚. 庚 không được chứa trong 卯."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 壬. 壬 không được chứa trong 卯."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [丙寅](/guide/pillar-byeong-in) và Trụ ngày sau là [戊辰](/guide/pillar-mu-jin)."
+          },
+          {
+            "p": "Nó gồm [Đinh Hỏa (丁)](/guide/stem-jeong) và [卯 (Thỏ)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-jin": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 戊辰",
+    "summary": "Cách Saju-Link đọc Trụ ngày 戊辰 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "戊辰 là Trụ ngày số 5 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 戊辰, Can ngày là 戊 (Thổ, Dương) và Chi ngày là 辰 (Rồng). Trong chu kỳ sáu mươi, đây là tổ hợp số 5."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 戊 là \"Mậu Thổ (戊)\", và dòng mà màn hình kết quả hiển thị là: \"Đất rộng và núi. Khó lay và dễ tựa vào, dù đã quyết rồi thì rất chậm đổi.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 辰 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 戊, các can mà 辰 chứa như sau. Can bản khí (戊) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 戊辰",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 戊"
+              ],
+              "rows": [
+                [
+                  "Ất Mộc (乙)",
+                  "dư khí (餘氣)",
+                  "{hidJinYeo}",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "trung khí (中氣)",
+                  "{hidJinJung}",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "bản khí (本氣)",
+                  "{hidJinBon}",
+                  "Tỷ Kiên (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 戊, Chính Tài là 癸 và Chính Quan là 乙."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 癸. 癸 được chứa trong 辰 (trung khí (中氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 乙. 乙 được chứa trong 辰 (dư khí (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [丁卯](/guide/pillar-jeong-myo) và Trụ ngày sau là [己巳](/guide/pillar-gi-sa)."
+          },
+          {
+            "p": "Nó gồm [Mậu Thổ (戊)](/guide/stem-mu) và [辰 (Rồng)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-sa": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 己巳",
+    "summary": "Cách Saju-Link đọc Trụ ngày 己巳 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "己巳 là Trụ ngày số 6 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 己巳, Can ngày là 己 (Thổ, Âm) và Chi ngày là 巳 (Rắn). Trong chu kỳ sáu mươi, đây là tổ hợp số 6."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 己 là \"Kỷ Thổ (己)\", và dòng mà màn hình kết quả hiển thị là: \"Đất ruộng. Nhận vào bất cứ thứ gì đến rồi nuôi lớn, thiên về chăm lo hơn là phô ra.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 巳 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 己, các can mà 巳 chứa như sau. Can bản khí (丙) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 己巳",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 己"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidSaYeo}",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "trung khí (中氣)",
+                  "{hidSaJung}",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "bản khí (本氣)",
+                  "{hidSaBon}",
+                  "Chính Ấn (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 己, Chính Tài là 壬 và Chính Quan là 甲."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 壬. 壬 không được chứa trong 巳."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 甲. 甲 không được chứa trong 巳."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [戊辰](/guide/pillar-mu-jin) và Trụ ngày sau là [庚午](/guide/pillar-gyeong-o)."
+          },
+          {
+            "p": "Nó gồm [Kỷ Thổ (己)](/guide/stem-gi) và [巳 (Rắn)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-o": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 庚午",
+    "summary": "Cách Saju-Link đọc Trụ ngày 庚午 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "庚午 là Trụ ngày số 7 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 庚午, Can ngày là 庚 (Kim, Dương) và Chi ngày là 午 (Ngựa). Trong chu kỳ sáu mươi, đây là tổ hợp số 7."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 庚 là \"Canh Kim (庚)\", và dòng mà màn hình kết quả hiển thị là: \"Sắt chưa gia công. Quyết đoán và dứt khoát, ít kiên nhẫn với những việc bỏ lửng.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 午 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 庚, các can mà 午 chứa như sau. Can bản khí (丁) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 庚午",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 庚"
+              ],
+              "rows": [
+                [
+                  "Bính Hỏa (丙)",
+                  "dư khí (餘氣)",
+                  "{hidOYeo}",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "trung khí (中氣)",
+                  "{hidOJung}",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "bản khí (本氣)",
+                  "{hidOBon}",
+                  "Chính Quan (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 庚, Chính Tài là 乙 và Chính Quan là 丁."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 乙. 乙 không được chứa trong 午."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 丁. 丁 được chứa trong 午 (bản khí (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [己巳](/guide/pillar-gi-sa) và Trụ ngày sau là [辛未](/guide/pillar-sin-mi)."
+          },
+          {
+            "p": "Nó gồm [Canh Kim (庚)](/guide/stem-gyeong) và [午 (Ngựa)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-mi": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 辛未",
+    "summary": "Cách Saju-Link đọc Trụ ngày 辛未 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "辛未 là Trụ ngày số 8 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 辛未, Can ngày là 辛 (Kim, Âm) và Chi ngày là 未 (Cừu). Trong chu kỳ sáu mươi, đây là tổ hợp số 8."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 辛 là \"Tân Kim (辛)\", và dòng mà màn hình kết quả hiển thị là: \"Viên ngọc đã mài. Thẩm mỹ tinh tế và tiêu chuẩn cao; khó bỏ qua sự cẩu thả.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 未 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 辛, các can mà 未 chứa như sau. Can bản khí (己) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 辛未",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 辛"
+              ],
+              "rows": [
+                [
+                  "Đinh Hỏa (丁)",
+                  "dư khí (餘氣)",
+                  "{hidMiYeo}",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "trung khí (中氣)",
+                  "{hidMiJung}",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "bản khí (本氣)",
+                  "{hidMiBon}",
+                  "Thiên Ấn (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 辛, Chính Tài là 甲 và Chính Quan là 丙."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 甲. 甲 không được chứa trong 未."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 丙. 丙 không được chứa trong 未."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [庚午](/guide/pillar-gyeong-o) và Trụ ngày sau là [壬申](/guide/pillar-im-sin)."
+          },
+          {
+            "p": "Nó gồm [Tân Kim (辛)](/guide/stem-sin) và [未 (Cừu)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-sin": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 壬申",
+    "summary": "Cách Saju-Link đọc Trụ ngày 壬申 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "壬申 là Trụ ngày số 9 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 壬申, Can ngày là 壬 (Thủy, Dương) và Chi ngày là 申 (Khỉ). Trong chu kỳ sáu mươi, đây là tổ hợp số 9."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 壬 là \"Nhâm Thủy (壬)\", và dòng mà màn hình kết quả hiển thị là: \"Sông và biển. Tầm nhìn rộng, có con mắt nhìn ra dòng chảy của sự việc.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 申 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 壬, các can mà 申 chứa như sau. Can bản khí (庚) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 壬申",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 壬"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidSinYeo}",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "trung khí (中氣)",
+                  "{hidSinJung}",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "bản khí (本氣)",
+                  "{hidSinBon}",
+                  "Thiên Ấn (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 壬, Chính Tài là 丁 và Chính Quan là 己."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 丁. 丁 không được chứa trong 申."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 己. 己 không được chứa trong 申."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [辛未](/guide/pillar-sin-mi) và Trụ ngày sau là [癸酉](/guide/pillar-gye-yu)."
+          },
+          {
+            "p": "Nó gồm [Nhâm Thủy (壬)](/guide/stem-im) và [申 (Khỉ)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-yu": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 癸酉",
+    "summary": "Cách Saju-Link đọc Trụ ngày 癸酉 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "癸酉 là Trụ ngày số 10 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 癸酉, Can ngày là 癸 (Thủy, Âm) và Chi ngày là 酉 (Gà). Trong chu kỳ sáu mươi, đây là tổ hợp số 10."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 癸 là \"Quý Thủy (癸)\", và dòng mà màn hình kết quả hiển thị là: \"Sương và mưa. Thấm vào lặng lẽ và đọc được không khí trước cả lời nói.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 酉 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 癸, các can mà 酉 chứa như sau. Can bản khí (辛) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 癸酉",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 癸"
+              ],
+              "rows": [
+                [
+                  "Canh Kim (庚)",
+                  "dư khí (餘氣)",
+                  "{hidYuYeo}",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "bản khí (本氣)",
+                  "{hidYuBon}",
+                  "Thiên Ấn (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 癸, Chính Tài là 丙 và Chính Quan là 戊."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 丙. 丙 không được chứa trong 酉."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 戊. 戊 không được chứa trong 酉."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [壬申](/guide/pillar-im-sin) và Trụ ngày sau là [甲戌](/guide/pillar-gap-sul)."
+          },
+          {
+            "p": "Nó gồm [Quý Thủy (癸)](/guide/stem-gye) và [酉 (Gà)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-sul": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 甲戌",
+    "summary": "Cách Saju-Link đọc Trụ ngày 甲戌 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "甲戌 là Trụ ngày số 11 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 甲戌, Can ngày là 甲 (Mộc, Dương) và Chi ngày là 戌 (Chó). Trong chu kỳ sáu mươi, đây là tổ hợp số 11."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 甲 là \"Giáp Mộc (甲)\", và dòng mà màn hình kết quả hiển thị là: \"Cây lớn mọc thẳng. Đã định hướng thì không lung lay, và thà chịu đựng chứ không chịu cong.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 戌 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 甲, các can mà 戌 chứa như sau. Can bản khí (戊) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 甲戌",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 甲"
+              ],
+              "rows": [
+                [
+                  "Tân Kim (辛)",
+                  "dư khí (餘氣)",
+                  "{hidSulYeo}",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "trung khí (中氣)",
+                  "{hidSulJung}",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "bản khí (本氣)",
+                  "{hidSulBon}",
+                  "Thiên Tài (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 甲, Chính Tài là 己 và Chính Quan là 辛."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 己. 己 không được chứa trong 戌."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 辛. 辛 được chứa trong 戌 (dư khí (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [癸酉](/guide/pillar-gye-yu) và Trụ ngày sau là [乙亥](/guide/pillar-eul-hae)."
+          },
+          {
+            "p": "Nó gồm [Giáp Mộc (甲)](/guide/stem-gap) và [戌 (Chó)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-hae": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 乙亥",
+    "summary": "Cách Saju-Link đọc Trụ ngày 乙亥 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "乙亥 là Trụ ngày số 12 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 乙亥, Can ngày là 乙 (Mộc, Âm) và Chi ngày là 亥 (Lợn). Trong chu kỳ sáu mươi, đây là tổ hợp số 12."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 乙 là \"Ất Mộc (乙)\", và dòng mà màn hình kết quả hiển thị là: \"Dây leo — loài cỏ mềm dẻo. Uốn theo hoàn cảnh để tiếp tục đi tới, và không gãy.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 亥 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 乙, các can mà 亥 chứa như sau. Can bản khí (壬) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 乙亥",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 乙"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidHaeYeo}",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Giáp Mộc (甲)",
+                  "trung khí (中氣)",
+                  "{hidHaeJung}",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "bản khí (本氣)",
+                  "{hidHaeBon}",
+                  "Chính Ấn (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 乙, Chính Tài là 戊 và Chính Quan là 庚."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 戊. 戊 được chứa trong 亥 (dư khí (餘氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 庚. 庚 không được chứa trong 亥."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [甲戌](/guide/pillar-gap-sul) và Trụ ngày sau là [丙子](/guide/pillar-byeong-ja)."
+          },
+          {
+            "p": "Nó gồm [Ất Mộc (乙)](/guide/stem-eul) và [亥 (Lợn)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-ja": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 丙子",
+    "summary": "Cách Saju-Link đọc Trụ ngày 丙子 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丙子 là Trụ ngày số 13 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 丙子, Can ngày là 丙 (Hỏa, Dương) và Chi ngày là 子 (Chuột). Trong chu kỳ sáu mươi, đây là tổ hợp số 13."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 丙 là \"Bính Hỏa (丙)\", và dòng mà màn hình kết quả hiển thị là: \"Mặt trời giữa trưa. Cảm xúc lộ rõ, chỗ nào cũng sáng lên, và bước ra phía trước là chuyện tự nhiên.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 子 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 丙, các can mà 子 chứa như sau. Can bản khí (癸) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 丙子",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 丙"
+              ],
+              "rows": [
+                [
+                  "Nhâm Thủy (壬)",
+                  "dư khí (餘氣)",
+                  "{hidJaYeo}",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "bản khí (本氣)",
+                  "{hidJaBon}",
+                  "Chính Quan (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丙, Chính Tài là 辛 và Chính Quan là 癸."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 辛. 辛 không được chứa trong 子."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 癸. 癸 được chứa trong 子 (bản khí (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [乙亥](/guide/pillar-eul-hae) và Trụ ngày sau là [丁丑](/guide/pillar-jeong-chuk)."
+          },
+          {
+            "p": "Nó gồm [Bính Hỏa (丙)](/guide/stem-byeong) và [子 (Chuột)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-chuk": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 丁丑",
+    "summary": "Cách Saju-Link đọc Trụ ngày 丁丑 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丁丑 là Trụ ngày số 14 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 丁丑, Can ngày là 丁 (Hỏa, Âm) và Chi ngày là 丑 (Trâu). Trong chu kỳ sáu mươi, đây là tổ hợp số 14."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 丁 là \"Đinh Hỏa (丁)\", và dòng mà màn hình kết quả hiển thị là: \"Ánh nến. Cháy lặng lẽ và bền, sưởi ấm người gần nhất trước.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 丑 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 丁, các can mà 丑 chứa như sau. Can bản khí (己) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 丁丑",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 丁"
+              ],
+              "rows": [
+                [
+                  "Quý Thủy (癸)",
+                  "dư khí (餘氣)",
+                  "{hidChukYeo}",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "trung khí (中氣)",
+                  "{hidChukJung}",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "bản khí (本氣)",
+                  "{hidChukBon}",
+                  "Thực Thần (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丁, Chính Tài là 庚 và Chính Quan là 壬."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 庚. 庚 không được chứa trong 丑."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 壬. 壬 không được chứa trong 丑."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [丙子](/guide/pillar-byeong-ja) và Trụ ngày sau là [戊寅](/guide/pillar-mu-in)."
+          },
+          {
+            "p": "Nó gồm [Đinh Hỏa (丁)](/guide/stem-jeong) và [丑 (Trâu)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-in": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 戊寅",
+    "summary": "Cách Saju-Link đọc Trụ ngày 戊寅 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "戊寅 là Trụ ngày số 15 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 戊寅, Can ngày là 戊 (Thổ, Dương) và Chi ngày là 寅 (Hổ). Trong chu kỳ sáu mươi, đây là tổ hợp số 15."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 戊 là \"Mậu Thổ (戊)\", và dòng mà màn hình kết quả hiển thị là: \"Đất rộng và núi. Khó lay và dễ tựa vào, dù đã quyết rồi thì rất chậm đổi.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 寅 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 戊, các can mà 寅 chứa như sau. Can bản khí (甲) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 戊寅",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 戊"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidInYeo}",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "trung khí (中氣)",
+                  "{hidInJung}",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Giáp Mộc (甲)",
+                  "bản khí (本氣)",
+                  "{hidInBon}",
+                  "Thiên Quan (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 戊, Chính Tài là 癸 và Chính Quan là 乙."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 癸. 癸 không được chứa trong 寅."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 乙. 乙 không được chứa trong 寅."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [丁丑](/guide/pillar-jeong-chuk) và Trụ ngày sau là [己卯](/guide/pillar-gi-myo)."
+          },
+          {
+            "p": "Nó gồm [Mậu Thổ (戊)](/guide/stem-mu) và [寅 (Hổ)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-myo": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 己卯",
+    "summary": "Cách Saju-Link đọc Trụ ngày 己卯 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "己卯 là Trụ ngày số 16 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 己卯, Can ngày là 己 (Thổ, Âm) và Chi ngày là 卯 (Thỏ). Trong chu kỳ sáu mươi, đây là tổ hợp số 16."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 己 là \"Kỷ Thổ (己)\", và dòng mà màn hình kết quả hiển thị là: \"Đất ruộng. Nhận vào bất cứ thứ gì đến rồi nuôi lớn, thiên về chăm lo hơn là phô ra.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 卯 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 己, các can mà 卯 chứa như sau. Can bản khí (乙) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 己卯",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 己"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "dư khí (餘氣)",
+                  "{hidMyoYeo}",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "bản khí (本氣)",
+                  "{hidMyoBon}",
+                  "Thiên Quan (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 己, Chính Tài là 壬 và Chính Quan là 甲."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 壬. 壬 không được chứa trong 卯."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 甲. 甲 được chứa trong 卯 (dư khí (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [戊寅](/guide/pillar-mu-in) và Trụ ngày sau là [庚辰](/guide/pillar-gyeong-jin)."
+          },
+          {
+            "p": "Nó gồm [Kỷ Thổ (己)](/guide/stem-gi) và [卯 (Thỏ)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-jin": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 庚辰",
+    "summary": "Cách Saju-Link đọc Trụ ngày 庚辰 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "庚辰 là Trụ ngày số 17 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 庚辰, Can ngày là 庚 (Kim, Dương) và Chi ngày là 辰 (Rồng). Trong chu kỳ sáu mươi, đây là tổ hợp số 17."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 庚 là \"Canh Kim (庚)\", và dòng mà màn hình kết quả hiển thị là: \"Sắt chưa gia công. Quyết đoán và dứt khoát, ít kiên nhẫn với những việc bỏ lửng.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 辰 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 庚, các can mà 辰 chứa như sau. Can bản khí (戊) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 庚辰",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 庚"
+              ],
+              "rows": [
+                [
+                  "Ất Mộc (乙)",
+                  "dư khí (餘氣)",
+                  "{hidJinYeo}",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "trung khí (中氣)",
+                  "{hidJinJung}",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "bản khí (本氣)",
+                  "{hidJinBon}",
+                  "Thiên Ấn (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 庚, Chính Tài là 乙 và Chính Quan là 丁."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 乙. 乙 được chứa trong 辰 (dư khí (餘氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 丁. 丁 không được chứa trong 辰."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [己卯](/guide/pillar-gi-myo) và Trụ ngày sau là [辛巳](/guide/pillar-sin-sa)."
+          },
+          {
+            "p": "Nó gồm [Canh Kim (庚)](/guide/stem-gyeong) và [辰 (Rồng)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-sa": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 辛巳",
+    "summary": "Cách Saju-Link đọc Trụ ngày 辛巳 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "辛巳 là Trụ ngày số 18 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 辛巳, Can ngày là 辛 (Kim, Âm) và Chi ngày là 巳 (Rắn). Trong chu kỳ sáu mươi, đây là tổ hợp số 18."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 辛 là \"Tân Kim (辛)\", và dòng mà màn hình kết quả hiển thị là: \"Viên ngọc đã mài. Thẩm mỹ tinh tế và tiêu chuẩn cao; khó bỏ qua sự cẩu thả.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 巳 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 辛, các can mà 巳 chứa như sau. Can bản khí (丙) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 辛巳",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 辛"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidSaYeo}",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "trung khí (中氣)",
+                  "{hidSaJung}",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "bản khí (本氣)",
+                  "{hidSaBon}",
+                  "Chính Quan (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 辛, Chính Tài là 甲 và Chính Quan là 丙."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 甲. 甲 không được chứa trong 巳."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 丙. 丙 được chứa trong 巳 (bản khí (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [庚辰](/guide/pillar-gyeong-jin) và Trụ ngày sau là [壬午](/guide/pillar-im-o)."
+          },
+          {
+            "p": "Nó gồm [Tân Kim (辛)](/guide/stem-sin) và [巳 (Rắn)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-o": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 壬午",
+    "summary": "Cách Saju-Link đọc Trụ ngày 壬午 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "壬午 là Trụ ngày số 19 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 壬午, Can ngày là 壬 (Thủy, Dương) và Chi ngày là 午 (Ngựa). Trong chu kỳ sáu mươi, đây là tổ hợp số 19."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 壬 là \"Nhâm Thủy (壬)\", và dòng mà màn hình kết quả hiển thị là: \"Sông và biển. Tầm nhìn rộng, có con mắt nhìn ra dòng chảy của sự việc.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 午 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 壬, các can mà 午 chứa như sau. Can bản khí (丁) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 壬午",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 壬"
+              ],
+              "rows": [
+                [
+                  "Bính Hỏa (丙)",
+                  "dư khí (餘氣)",
+                  "{hidOYeo}",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "trung khí (中氣)",
+                  "{hidOJung}",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "bản khí (本氣)",
+                  "{hidOBon}",
+                  "Chính Tài (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 壬, Chính Tài là 丁 và Chính Quan là 己."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 丁. 丁 được chứa trong 午 (bản khí (本氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 己. 己 được chứa trong 午 (trung khí (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [辛巳](/guide/pillar-sin-sa) và Trụ ngày sau là [癸未](/guide/pillar-gye-mi)."
+          },
+          {
+            "p": "Nó gồm [Nhâm Thủy (壬)](/guide/stem-im) và [午 (Ngựa)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-mi": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 癸未",
+    "summary": "Cách Saju-Link đọc Trụ ngày 癸未 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "癸未 là Trụ ngày số 20 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 癸未, Can ngày là 癸 (Thủy, Âm) và Chi ngày là 未 (Cừu). Trong chu kỳ sáu mươi, đây là tổ hợp số 20."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 癸 là \"Quý Thủy (癸)\", và dòng mà màn hình kết quả hiển thị là: \"Sương và mưa. Thấm vào lặng lẽ và đọc được không khí trước cả lời nói.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 未 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 癸, các can mà 未 chứa như sau. Can bản khí (己) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 癸未",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 癸"
+              ],
+              "rows": [
+                [
+                  "Đinh Hỏa (丁)",
+                  "dư khí (餘氣)",
+                  "{hidMiYeo}",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "trung khí (中氣)",
+                  "{hidMiJung}",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "bản khí (本氣)",
+                  "{hidMiBon}",
+                  "Thiên Quan (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 癸, Chính Tài là 丙 và Chính Quan là 戊."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 丙. 丙 không được chứa trong 未."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 戊. 戊 không được chứa trong 未."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [壬午](/guide/pillar-im-o) và Trụ ngày sau là [甲申](/guide/pillar-gap-sin)."
+          },
+          {
+            "p": "Nó gồm [Quý Thủy (癸)](/guide/stem-gye) và [未 (Cừu)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-sin": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 甲申",
+    "summary": "Cách Saju-Link đọc Trụ ngày 甲申 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "甲申 là Trụ ngày số 21 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 甲申, Can ngày là 甲 (Mộc, Dương) và Chi ngày là 申 (Khỉ). Trong chu kỳ sáu mươi, đây là tổ hợp số 21."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 甲 là \"Giáp Mộc (甲)\", và dòng mà màn hình kết quả hiển thị là: \"Cây lớn mọc thẳng. Đã định hướng thì không lung lay, và thà chịu đựng chứ không chịu cong.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 申 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 甲, các can mà 申 chứa như sau. Can bản khí (庚) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 甲申",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 甲"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidSinYeo}",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "trung khí (中氣)",
+                  "{hidSinJung}",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "bản khí (本氣)",
+                  "{hidSinBon}",
+                  "Thiên Quan (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 甲, Chính Tài là 己 và Chính Quan là 辛."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 己. 己 không được chứa trong 申."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 辛. 辛 không được chứa trong 申."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [癸未](/guide/pillar-gye-mi) và Trụ ngày sau là [乙酉](/guide/pillar-eul-yu)."
+          },
+          {
+            "p": "Nó gồm [Giáp Mộc (甲)](/guide/stem-gap) và [申 (Khỉ)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-yu": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 乙酉",
+    "summary": "Cách Saju-Link đọc Trụ ngày 乙酉 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "乙酉 là Trụ ngày số 22 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 乙酉, Can ngày là 乙 (Mộc, Âm) và Chi ngày là 酉 (Gà). Trong chu kỳ sáu mươi, đây là tổ hợp số 22."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 乙 là \"Ất Mộc (乙)\", và dòng mà màn hình kết quả hiển thị là: \"Dây leo — loài cỏ mềm dẻo. Uốn theo hoàn cảnh để tiếp tục đi tới, và không gãy.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 酉 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 乙, các can mà 酉 chứa như sau. Can bản khí (辛) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 乙酉",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 乙"
+              ],
+              "rows": [
+                [
+                  "Canh Kim (庚)",
+                  "dư khí (餘氣)",
+                  "{hidYuYeo}",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "bản khí (本氣)",
+                  "{hidYuBon}",
+                  "Thiên Quan (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 乙, Chính Tài là 戊 và Chính Quan là 庚."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 戊. 戊 không được chứa trong 酉."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 庚. 庚 được chứa trong 酉 (dư khí (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [甲申](/guide/pillar-gap-sin) và Trụ ngày sau là [丙戌](/guide/pillar-byeong-sul)."
+          },
+          {
+            "p": "Nó gồm [Ất Mộc (乙)](/guide/stem-eul) và [酉 (Gà)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-sul": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 丙戌",
+    "summary": "Cách Saju-Link đọc Trụ ngày 丙戌 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丙戌 là Trụ ngày số 23 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 丙戌, Can ngày là 丙 (Hỏa, Dương) và Chi ngày là 戌 (Chó). Trong chu kỳ sáu mươi, đây là tổ hợp số 23."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 丙 là \"Bính Hỏa (丙)\", và dòng mà màn hình kết quả hiển thị là: \"Mặt trời giữa trưa. Cảm xúc lộ rõ, chỗ nào cũng sáng lên, và bước ra phía trước là chuyện tự nhiên.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 戌 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 丙, các can mà 戌 chứa như sau. Can bản khí (戊) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 丙戌",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 丙"
+              ],
+              "rows": [
+                [
+                  "Tân Kim (辛)",
+                  "dư khí (餘氣)",
+                  "{hidSulYeo}",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "trung khí (中氣)",
+                  "{hidSulJung}",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "bản khí (本氣)",
+                  "{hidSulBon}",
+                  "Thực Thần (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丙, Chính Tài là 辛 và Chính Quan là 癸."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 辛. 辛 được chứa trong 戌 (dư khí (餘氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 癸. 癸 không được chứa trong 戌."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [乙酉](/guide/pillar-eul-yu) và Trụ ngày sau là [丁亥](/guide/pillar-jeong-hae)."
+          },
+          {
+            "p": "Nó gồm [Bính Hỏa (丙)](/guide/stem-byeong) và [戌 (Chó)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-hae": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 丁亥",
+    "summary": "Cách Saju-Link đọc Trụ ngày 丁亥 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丁亥 là Trụ ngày số 24 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 丁亥, Can ngày là 丁 (Hỏa, Âm) và Chi ngày là 亥 (Lợn). Trong chu kỳ sáu mươi, đây là tổ hợp số 24."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 丁 là \"Đinh Hỏa (丁)\", và dòng mà màn hình kết quả hiển thị là: \"Ánh nến. Cháy lặng lẽ và bền, sưởi ấm người gần nhất trước.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 亥 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 丁, các can mà 亥 chứa như sau. Can bản khí (壬) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 丁亥",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 丁"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidHaeYeo}",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Giáp Mộc (甲)",
+                  "trung khí (中氣)",
+                  "{hidHaeJung}",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "bản khí (本氣)",
+                  "{hidHaeBon}",
+                  "Chính Quan (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丁, Chính Tài là 庚 và Chính Quan là 壬."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 庚. 庚 không được chứa trong 亥."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 壬. 壬 được chứa trong 亥 (bản khí (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [丙戌](/guide/pillar-byeong-sul) và Trụ ngày sau là [戊子](/guide/pillar-mu-ja)."
+          },
+          {
+            "p": "Nó gồm [Đinh Hỏa (丁)](/guide/stem-jeong) và [亥 (Lợn)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-ja": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 戊子",
+    "summary": "Cách Saju-Link đọc Trụ ngày 戊子 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "戊子 là Trụ ngày số 25 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 戊子, Can ngày là 戊 (Thổ, Dương) và Chi ngày là 子 (Chuột). Trong chu kỳ sáu mươi, đây là tổ hợp số 25."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 戊 là \"Mậu Thổ (戊)\", và dòng mà màn hình kết quả hiển thị là: \"Đất rộng và núi. Khó lay và dễ tựa vào, dù đã quyết rồi thì rất chậm đổi.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 子 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 戊, các can mà 子 chứa như sau. Can bản khí (癸) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 戊子",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 戊"
+              ],
+              "rows": [
+                [
+                  "Nhâm Thủy (壬)",
+                  "dư khí (餘氣)",
+                  "{hidJaYeo}",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "bản khí (本氣)",
+                  "{hidJaBon}",
+                  "Chính Tài (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 戊, Chính Tài là 癸 và Chính Quan là 乙."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 癸. 癸 được chứa trong 子 (bản khí (本氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 乙. 乙 không được chứa trong 子."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [丁亥](/guide/pillar-jeong-hae) và Trụ ngày sau là [己丑](/guide/pillar-gi-chuk)."
+          },
+          {
+            "p": "Nó gồm [Mậu Thổ (戊)](/guide/stem-mu) và [子 (Chuột)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-chuk": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 己丑",
+    "summary": "Cách Saju-Link đọc Trụ ngày 己丑 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "己丑 là Trụ ngày số 26 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 己丑, Can ngày là 己 (Thổ, Âm) và Chi ngày là 丑 (Trâu). Trong chu kỳ sáu mươi, đây là tổ hợp số 26."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 己 là \"Kỷ Thổ (己)\", và dòng mà màn hình kết quả hiển thị là: \"Đất ruộng. Nhận vào bất cứ thứ gì đến rồi nuôi lớn, thiên về chăm lo hơn là phô ra.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 丑 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 己, các can mà 丑 chứa như sau. Can bản khí (己) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 己丑",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 己"
+              ],
+              "rows": [
+                [
+                  "Quý Thủy (癸)",
+                  "dư khí (餘氣)",
+                  "{hidChukYeo}",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "trung khí (中氣)",
+                  "{hidChukJung}",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "bản khí (本氣)",
+                  "{hidChukBon}",
+                  "Tỷ Kiên (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 己, Chính Tài là 壬 và Chính Quan là 甲."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 壬. 壬 không được chứa trong 丑."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 甲. 甲 không được chứa trong 丑."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [戊子](/guide/pillar-mu-ja) và Trụ ngày sau là [庚寅](/guide/pillar-gyeong-in)."
+          },
+          {
+            "p": "Nó gồm [Kỷ Thổ (己)](/guide/stem-gi) và [丑 (Trâu)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-in": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 庚寅",
+    "summary": "Cách Saju-Link đọc Trụ ngày 庚寅 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "庚寅 là Trụ ngày số 27 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 庚寅, Can ngày là 庚 (Kim, Dương) và Chi ngày là 寅 (Hổ). Trong chu kỳ sáu mươi, đây là tổ hợp số 27."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 庚 là \"Canh Kim (庚)\", và dòng mà màn hình kết quả hiển thị là: \"Sắt chưa gia công. Quyết đoán và dứt khoát, ít kiên nhẫn với những việc bỏ lửng.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 寅 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 庚, các can mà 寅 chứa như sau. Can bản khí (甲) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 庚寅",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 庚"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidInYeo}",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "trung khí (中氣)",
+                  "{hidInJung}",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Giáp Mộc (甲)",
+                  "bản khí (本氣)",
+                  "{hidInBon}",
+                  "Thiên Tài (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 庚, Chính Tài là 乙 và Chính Quan là 丁."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 乙. 乙 không được chứa trong 寅."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 丁. 丁 không được chứa trong 寅."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [己丑](/guide/pillar-gi-chuk) và Trụ ngày sau là [辛卯](/guide/pillar-sin-myo)."
+          },
+          {
+            "p": "Nó gồm [Canh Kim (庚)](/guide/stem-gyeong) và [寅 (Hổ)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-myo": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 辛卯",
+    "summary": "Cách Saju-Link đọc Trụ ngày 辛卯 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "辛卯 là Trụ ngày số 28 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 辛卯, Can ngày là 辛 (Kim, Âm) và Chi ngày là 卯 (Thỏ). Trong chu kỳ sáu mươi, đây là tổ hợp số 28."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 辛 là \"Tân Kim (辛)\", và dòng mà màn hình kết quả hiển thị là: \"Viên ngọc đã mài. Thẩm mỹ tinh tế và tiêu chuẩn cao; khó bỏ qua sự cẩu thả.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 卯 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 辛, các can mà 卯 chứa như sau. Can bản khí (乙) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 辛卯",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 辛"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "dư khí (餘氣)",
+                  "{hidMyoYeo}",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "bản khí (本氣)",
+                  "{hidMyoBon}",
+                  "Thiên Tài (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 辛, Chính Tài là 甲 và Chính Quan là 丙."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 甲. 甲 được chứa trong 卯 (dư khí (餘氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 丙. 丙 không được chứa trong 卯."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [庚寅](/guide/pillar-gyeong-in) và Trụ ngày sau là [壬辰](/guide/pillar-im-jin)."
+          },
+          {
+            "p": "Nó gồm [Tân Kim (辛)](/guide/stem-sin) và [卯 (Thỏ)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-jin": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 壬辰",
+    "summary": "Cách Saju-Link đọc Trụ ngày 壬辰 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "壬辰 là Trụ ngày số 29 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 壬辰, Can ngày là 壬 (Thủy, Dương) và Chi ngày là 辰 (Rồng). Trong chu kỳ sáu mươi, đây là tổ hợp số 29."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 壬 là \"Nhâm Thủy (壬)\", và dòng mà màn hình kết quả hiển thị là: \"Sông và biển. Tầm nhìn rộng, có con mắt nhìn ra dòng chảy của sự việc.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 辰 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 壬, các can mà 辰 chứa như sau. Can bản khí (戊) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 壬辰",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 壬"
+              ],
+              "rows": [
+                [
+                  "Ất Mộc (乙)",
+                  "dư khí (餘氣)",
+                  "{hidJinYeo}",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "trung khí (中氣)",
+                  "{hidJinJung}",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "bản khí (本氣)",
+                  "{hidJinBon}",
+                  "Thiên Quan (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 壬, Chính Tài là 丁 và Chính Quan là 己."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 丁. 丁 không được chứa trong 辰."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 己. 己 không được chứa trong 辰."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [辛卯](/guide/pillar-sin-myo) và Trụ ngày sau là [癸巳](/guide/pillar-gye-sa)."
+          },
+          {
+            "p": "Nó gồm [Nhâm Thủy (壬)](/guide/stem-im) và [辰 (Rồng)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-sa": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 癸巳",
+    "summary": "Cách Saju-Link đọc Trụ ngày 癸巳 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "癸巳 là Trụ ngày số 30 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 癸巳, Can ngày là 癸 (Thủy, Âm) và Chi ngày là 巳 (Rắn). Trong chu kỳ sáu mươi, đây là tổ hợp số 30."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 癸 là \"Quý Thủy (癸)\", và dòng mà màn hình kết quả hiển thị là: \"Sương và mưa. Thấm vào lặng lẽ và đọc được không khí trước cả lời nói.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 巳 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 癸, các can mà 巳 chứa như sau. Can bản khí (丙) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 癸巳",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 癸"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidSaYeo}",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "trung khí (中氣)",
+                  "{hidSaJung}",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "bản khí (本氣)",
+                  "{hidSaBon}",
+                  "Chính Tài (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 癸, Chính Tài là 丙 và Chính Quan là 戊."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 丙. 丙 được chứa trong 巳 (bản khí (本氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 戊. 戊 được chứa trong 巳 (dư khí (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [壬辰](/guide/pillar-im-jin) và Trụ ngày sau là [甲午](/guide/pillar-gap-o)."
+          },
+          {
+            "p": "Nó gồm [Quý Thủy (癸)](/guide/stem-gye) và [巳 (Rắn)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-o": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 甲午",
+    "summary": "Cách Saju-Link đọc Trụ ngày 甲午 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "甲午 là Trụ ngày số 31 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 甲午, Can ngày là 甲 (Mộc, Dương) và Chi ngày là 午 (Ngựa). Trong chu kỳ sáu mươi, đây là tổ hợp số 31."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 甲 là \"Giáp Mộc (甲)\", và dòng mà màn hình kết quả hiển thị là: \"Cây lớn mọc thẳng. Đã định hướng thì không lung lay, và thà chịu đựng chứ không chịu cong.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 午 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 甲, các can mà 午 chứa như sau. Can bản khí (丁) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 甲午",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 甲"
+              ],
+              "rows": [
+                [
+                  "Bính Hỏa (丙)",
+                  "dư khí (餘氣)",
+                  "{hidOYeo}",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "trung khí (中氣)",
+                  "{hidOJung}",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "bản khí (本氣)",
+                  "{hidOBon}",
+                  "Thương Quan (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 甲, Chính Tài là 己 và Chính Quan là 辛."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 己. 己 được chứa trong 午 (trung khí (中氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 辛. 辛 không được chứa trong 午."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [癸巳](/guide/pillar-gye-sa) và Trụ ngày sau là [乙未](/guide/pillar-eul-mi)."
+          },
+          {
+            "p": "Nó gồm [Giáp Mộc (甲)](/guide/stem-gap) và [午 (Ngựa)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-mi": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 乙未",
+    "summary": "Cách Saju-Link đọc Trụ ngày 乙未 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "乙未 là Trụ ngày số 32 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 乙未, Can ngày là 乙 (Mộc, Âm) và Chi ngày là 未 (Cừu). Trong chu kỳ sáu mươi, đây là tổ hợp số 32."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 乙 là \"Ất Mộc (乙)\", và dòng mà màn hình kết quả hiển thị là: \"Dây leo — loài cỏ mềm dẻo. Uốn theo hoàn cảnh để tiếp tục đi tới, và không gãy.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 未 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 乙, các can mà 未 chứa như sau. Can bản khí (己) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 乙未",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 乙"
+              ],
+              "rows": [
+                [
+                  "Đinh Hỏa (丁)",
+                  "dư khí (餘氣)",
+                  "{hidMiYeo}",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "trung khí (中氣)",
+                  "{hidMiJung}",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "bản khí (本氣)",
+                  "{hidMiBon}",
+                  "Thiên Tài (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 乙, Chính Tài là 戊 và Chính Quan là 庚."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 戊. 戊 không được chứa trong 未."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 庚. 庚 không được chứa trong 未."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [甲午](/guide/pillar-gap-o) và Trụ ngày sau là [丙申](/guide/pillar-byeong-sin)."
+          },
+          {
+            "p": "Nó gồm [Ất Mộc (乙)](/guide/stem-eul) và [未 (Cừu)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-sin": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 丙申",
+    "summary": "Cách Saju-Link đọc Trụ ngày 丙申 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丙申 là Trụ ngày số 33 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 丙申, Can ngày là 丙 (Hỏa, Dương) và Chi ngày là 申 (Khỉ). Trong chu kỳ sáu mươi, đây là tổ hợp số 33."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 丙 là \"Bính Hỏa (丙)\", và dòng mà màn hình kết quả hiển thị là: \"Mặt trời giữa trưa. Cảm xúc lộ rõ, chỗ nào cũng sáng lên, và bước ra phía trước là chuyện tự nhiên.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 申 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 丙, các can mà 申 chứa như sau. Can bản khí (庚) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 丙申",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 丙"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidSinYeo}",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "trung khí (中氣)",
+                  "{hidSinJung}",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "bản khí (本氣)",
+                  "{hidSinBon}",
+                  "Thiên Tài (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丙, Chính Tài là 辛 và Chính Quan là 癸."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 辛. 辛 không được chứa trong 申."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 癸. 癸 không được chứa trong 申."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [乙未](/guide/pillar-eul-mi) và Trụ ngày sau là [丁酉](/guide/pillar-jeong-yu)."
+          },
+          {
+            "p": "Nó gồm [Bính Hỏa (丙)](/guide/stem-byeong) và [申 (Khỉ)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-yu": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 丁酉",
+    "summary": "Cách Saju-Link đọc Trụ ngày 丁酉 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丁酉 là Trụ ngày số 34 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 丁酉, Can ngày là 丁 (Hỏa, Âm) và Chi ngày là 酉 (Gà). Trong chu kỳ sáu mươi, đây là tổ hợp số 34."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 丁 là \"Đinh Hỏa (丁)\", và dòng mà màn hình kết quả hiển thị là: \"Ánh nến. Cháy lặng lẽ và bền, sưởi ấm người gần nhất trước.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 酉 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 丁, các can mà 酉 chứa như sau. Can bản khí (辛) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 丁酉",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 丁"
+              ],
+              "rows": [
+                [
+                  "Canh Kim (庚)",
+                  "dư khí (餘氣)",
+                  "{hidYuYeo}",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "bản khí (本氣)",
+                  "{hidYuBon}",
+                  "Thiên Tài (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丁, Chính Tài là 庚 và Chính Quan là 壬."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 庚. 庚 được chứa trong 酉 (dư khí (餘氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 壬. 壬 không được chứa trong 酉."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [丙申](/guide/pillar-byeong-sin) và Trụ ngày sau là [戊戌](/guide/pillar-mu-sul)."
+          },
+          {
+            "p": "Nó gồm [Đinh Hỏa (丁)](/guide/stem-jeong) và [酉 (Gà)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-sul": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 戊戌",
+    "summary": "Cách Saju-Link đọc Trụ ngày 戊戌 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "戊戌 là Trụ ngày số 35 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 戊戌, Can ngày là 戊 (Thổ, Dương) và Chi ngày là 戌 (Chó). Trong chu kỳ sáu mươi, đây là tổ hợp số 35."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 戊 là \"Mậu Thổ (戊)\", và dòng mà màn hình kết quả hiển thị là: \"Đất rộng và núi. Khó lay và dễ tựa vào, dù đã quyết rồi thì rất chậm đổi.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 戌 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 戊, các can mà 戌 chứa như sau. Can bản khí (戊) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 戊戌",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 戊"
+              ],
+              "rows": [
+                [
+                  "Tân Kim (辛)",
+                  "dư khí (餘氣)",
+                  "{hidSulYeo}",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "trung khí (中氣)",
+                  "{hidSulJung}",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "bản khí (本氣)",
+                  "{hidSulBon}",
+                  "Tỷ Kiên (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 戊, Chính Tài là 癸 và Chính Quan là 乙."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 癸. 癸 không được chứa trong 戌."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 乙. 乙 không được chứa trong 戌."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [丁酉](/guide/pillar-jeong-yu) và Trụ ngày sau là [己亥](/guide/pillar-gi-hae)."
+          },
+          {
+            "p": "Nó gồm [Mậu Thổ (戊)](/guide/stem-mu) và [戌 (Chó)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-hae": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 己亥",
+    "summary": "Cách Saju-Link đọc Trụ ngày 己亥 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "己亥 là Trụ ngày số 36 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 己亥, Can ngày là 己 (Thổ, Âm) và Chi ngày là 亥 (Lợn). Trong chu kỳ sáu mươi, đây là tổ hợp số 36."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 己 là \"Kỷ Thổ (己)\", và dòng mà màn hình kết quả hiển thị là: \"Đất ruộng. Nhận vào bất cứ thứ gì đến rồi nuôi lớn, thiên về chăm lo hơn là phô ra.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 亥 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 己, các can mà 亥 chứa như sau. Can bản khí (壬) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 己亥",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 己"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidHaeYeo}",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Giáp Mộc (甲)",
+                  "trung khí (中氣)",
+                  "{hidHaeJung}",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "bản khí (本氣)",
+                  "{hidHaeBon}",
+                  "Chính Tài (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 己, Chính Tài là 壬 và Chính Quan là 甲."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 壬. 壬 được chứa trong 亥 (bản khí (本氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 甲. 甲 được chứa trong 亥 (trung khí (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [戊戌](/guide/pillar-mu-sul) và Trụ ngày sau là [庚子](/guide/pillar-gyeong-ja)."
+          },
+          {
+            "p": "Nó gồm [Kỷ Thổ (己)](/guide/stem-gi) và [亥 (Lợn)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-ja": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 庚子",
+    "summary": "Cách Saju-Link đọc Trụ ngày 庚子 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "庚子 là Trụ ngày số 37 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 庚子, Can ngày là 庚 (Kim, Dương) và Chi ngày là 子 (Chuột). Trong chu kỳ sáu mươi, đây là tổ hợp số 37."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 庚 là \"Canh Kim (庚)\", và dòng mà màn hình kết quả hiển thị là: \"Sắt chưa gia công. Quyết đoán và dứt khoát, ít kiên nhẫn với những việc bỏ lửng.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 子 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 庚, các can mà 子 chứa như sau. Can bản khí (癸) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 庚子",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 庚"
+              ],
+              "rows": [
+                [
+                  "Nhâm Thủy (壬)",
+                  "dư khí (餘氣)",
+                  "{hidJaYeo}",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "bản khí (本氣)",
+                  "{hidJaBon}",
+                  "Thương Quan (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 庚, Chính Tài là 乙 và Chính Quan là 丁."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 乙. 乙 không được chứa trong 子."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 丁. 丁 không được chứa trong 子."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [己亥](/guide/pillar-gi-hae) và Trụ ngày sau là [辛丑](/guide/pillar-sin-chuk)."
+          },
+          {
+            "p": "Nó gồm [Canh Kim (庚)](/guide/stem-gyeong) và [子 (Chuột)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-chuk": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 辛丑",
+    "summary": "Cách Saju-Link đọc Trụ ngày 辛丑 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "辛丑 là Trụ ngày số 38 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 辛丑, Can ngày là 辛 (Kim, Âm) và Chi ngày là 丑 (Trâu). Trong chu kỳ sáu mươi, đây là tổ hợp số 38."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 辛 là \"Tân Kim (辛)\", và dòng mà màn hình kết quả hiển thị là: \"Viên ngọc đã mài. Thẩm mỹ tinh tế và tiêu chuẩn cao; khó bỏ qua sự cẩu thả.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 丑 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 辛, các can mà 丑 chứa như sau. Can bản khí (己) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 辛丑",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 辛"
+              ],
+              "rows": [
+                [
+                  "Quý Thủy (癸)",
+                  "dư khí (餘氣)",
+                  "{hidChukYeo}",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "trung khí (中氣)",
+                  "{hidChukJung}",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "bản khí (本氣)",
+                  "{hidChukBon}",
+                  "Thiên Ấn (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 辛, Chính Tài là 甲 và Chính Quan là 丙."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 甲. 甲 không được chứa trong 丑."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 丙. 丙 không được chứa trong 丑."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [庚子](/guide/pillar-gyeong-ja) và Trụ ngày sau là [壬寅](/guide/pillar-im-in)."
+          },
+          {
+            "p": "Nó gồm [Tân Kim (辛)](/guide/stem-sin) và [丑 (Trâu)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-in": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 壬寅",
+    "summary": "Cách Saju-Link đọc Trụ ngày 壬寅 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "壬寅 là Trụ ngày số 39 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 壬寅, Can ngày là 壬 (Thủy, Dương) và Chi ngày là 寅 (Hổ). Trong chu kỳ sáu mươi, đây là tổ hợp số 39."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 壬 là \"Nhâm Thủy (壬)\", và dòng mà màn hình kết quả hiển thị là: \"Sông và biển. Tầm nhìn rộng, có con mắt nhìn ra dòng chảy của sự việc.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 寅 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 壬, các can mà 寅 chứa như sau. Can bản khí (甲) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 壬寅",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 壬"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidInYeo}",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "trung khí (中氣)",
+                  "{hidInJung}",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Giáp Mộc (甲)",
+                  "bản khí (本氣)",
+                  "{hidInBon}",
+                  "Thực Thần (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 壬, Chính Tài là 丁 và Chính Quan là 己."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 丁. 丁 không được chứa trong 寅."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 己. 己 không được chứa trong 寅."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [辛丑](/guide/pillar-sin-chuk) và Trụ ngày sau là [癸卯](/guide/pillar-gye-myo)."
+          },
+          {
+            "p": "Nó gồm [Nhâm Thủy (壬)](/guide/stem-im) và [寅 (Hổ)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-myo": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 癸卯",
+    "summary": "Cách Saju-Link đọc Trụ ngày 癸卯 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "癸卯 là Trụ ngày số 40 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 癸卯, Can ngày là 癸 (Thủy, Âm) và Chi ngày là 卯 (Thỏ). Trong chu kỳ sáu mươi, đây là tổ hợp số 40."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 癸 là \"Quý Thủy (癸)\", và dòng mà màn hình kết quả hiển thị là: \"Sương và mưa. Thấm vào lặng lẽ và đọc được không khí trước cả lời nói.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 卯 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 癸, các can mà 卯 chứa như sau. Can bản khí (乙) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 癸卯",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 癸"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "dư khí (餘氣)",
+                  "{hidMyoYeo}",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "bản khí (本氣)",
+                  "{hidMyoBon}",
+                  "Thực Thần (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 癸, Chính Tài là 丙 và Chính Quan là 戊."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 丙. 丙 không được chứa trong 卯."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 戊. 戊 không được chứa trong 卯."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [壬寅](/guide/pillar-im-in) và Trụ ngày sau là [甲辰](/guide/pillar-gap-jin)."
+          },
+          {
+            "p": "Nó gồm [Quý Thủy (癸)](/guide/stem-gye) và [卯 (Thỏ)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-jin": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 甲辰",
+    "summary": "Cách Saju-Link đọc Trụ ngày 甲辰 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "甲辰 là Trụ ngày số 41 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 甲辰, Can ngày là 甲 (Mộc, Dương) và Chi ngày là 辰 (Rồng). Trong chu kỳ sáu mươi, đây là tổ hợp số 41."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 甲 là \"Giáp Mộc (甲)\", và dòng mà màn hình kết quả hiển thị là: \"Cây lớn mọc thẳng. Đã định hướng thì không lung lay, và thà chịu đựng chứ không chịu cong.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 辰 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 甲, các can mà 辰 chứa như sau. Can bản khí (戊) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 甲辰",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 甲"
+              ],
+              "rows": [
+                [
+                  "Ất Mộc (乙)",
+                  "dư khí (餘氣)",
+                  "{hidJinYeo}",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "trung khí (中氣)",
+                  "{hidJinJung}",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "bản khí (本氣)",
+                  "{hidJinBon}",
+                  "Thiên Tài (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 甲, Chính Tài là 己 và Chính Quan là 辛."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 己. 己 không được chứa trong 辰."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 辛. 辛 không được chứa trong 辰."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [癸卯](/guide/pillar-gye-myo) và Trụ ngày sau là [乙巳](/guide/pillar-eul-sa)."
+          },
+          {
+            "p": "Nó gồm [Giáp Mộc (甲)](/guide/stem-gap) và [辰 (Rồng)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-sa": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 乙巳",
+    "summary": "Cách Saju-Link đọc Trụ ngày 乙巳 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "乙巳 là Trụ ngày số 42 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 乙巳, Can ngày là 乙 (Mộc, Âm) và Chi ngày là 巳 (Rắn). Trong chu kỳ sáu mươi, đây là tổ hợp số 42."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 乙 là \"Ất Mộc (乙)\", và dòng mà màn hình kết quả hiển thị là: \"Dây leo — loài cỏ mềm dẻo. Uốn theo hoàn cảnh để tiếp tục đi tới, và không gãy.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 巳 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 乙, các can mà 巳 chứa như sau. Can bản khí (丙) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 乙巳",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 乙"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidSaYeo}",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "trung khí (中氣)",
+                  "{hidSaJung}",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "bản khí (本氣)",
+                  "{hidSaBon}",
+                  "Thương Quan (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 乙, Chính Tài là 戊 và Chính Quan là 庚."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 戊. 戊 được chứa trong 巳 (dư khí (餘氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 庚. 庚 được chứa trong 巳 (trung khí (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [甲辰](/guide/pillar-gap-jin) và Trụ ngày sau là [丙午](/guide/pillar-byeong-o)."
+          },
+          {
+            "p": "Nó gồm [Ất Mộc (乙)](/guide/stem-eul) và [巳 (Rắn)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-o": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 丙午",
+    "summary": "Cách Saju-Link đọc Trụ ngày 丙午 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丙午 là Trụ ngày số 43 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 丙午, Can ngày là 丙 (Hỏa, Dương) và Chi ngày là 午 (Ngựa). Trong chu kỳ sáu mươi, đây là tổ hợp số 43."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 丙 là \"Bính Hỏa (丙)\", và dòng mà màn hình kết quả hiển thị là: \"Mặt trời giữa trưa. Cảm xúc lộ rõ, chỗ nào cũng sáng lên, và bước ra phía trước là chuyện tự nhiên.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 午 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 丙, các can mà 午 chứa như sau. Can bản khí (丁) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 丙午",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 丙"
+              ],
+              "rows": [
+                [
+                  "Bính Hỏa (丙)",
+                  "dư khí (餘氣)",
+                  "{hidOYeo}",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "trung khí (中氣)",
+                  "{hidOJung}",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "bản khí (本氣)",
+                  "{hidOBon}",
+                  "Kiếp Tài (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丙, Chính Tài là 辛 và Chính Quan là 癸."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 辛. 辛 không được chứa trong 午."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 癸. 癸 không được chứa trong 午."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [乙巳](/guide/pillar-eul-sa) và Trụ ngày sau là [丁未](/guide/pillar-jeong-mi)."
+          },
+          {
+            "p": "Nó gồm [Bính Hỏa (丙)](/guide/stem-byeong) và [午 (Ngựa)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-mi": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 丁未",
+    "summary": "Cách Saju-Link đọc Trụ ngày 丁未 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丁未 là Trụ ngày số 44 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 丁未, Can ngày là 丁 (Hỏa, Âm) và Chi ngày là 未 (Cừu). Trong chu kỳ sáu mươi, đây là tổ hợp số 44."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 丁 là \"Đinh Hỏa (丁)\", và dòng mà màn hình kết quả hiển thị là: \"Ánh nến. Cháy lặng lẽ và bền, sưởi ấm người gần nhất trước.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 未 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 丁, các can mà 未 chứa như sau. Can bản khí (己) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 丁未",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 丁"
+              ],
+              "rows": [
+                [
+                  "Đinh Hỏa (丁)",
+                  "dư khí (餘氣)",
+                  "{hidMiYeo}",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "trung khí (中氣)",
+                  "{hidMiJung}",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "bản khí (本氣)",
+                  "{hidMiBon}",
+                  "Thực Thần (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丁, Chính Tài là 庚 và Chính Quan là 壬."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 庚. 庚 không được chứa trong 未."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 壬. 壬 không được chứa trong 未."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [丙午](/guide/pillar-byeong-o) và Trụ ngày sau là [戊申](/guide/pillar-mu-sin)."
+          },
+          {
+            "p": "Nó gồm [Đinh Hỏa (丁)](/guide/stem-jeong) và [未 (Cừu)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-sin": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 戊申",
+    "summary": "Cách Saju-Link đọc Trụ ngày 戊申 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "戊申 là Trụ ngày số 45 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 戊申, Can ngày là 戊 (Thổ, Dương) và Chi ngày là 申 (Khỉ). Trong chu kỳ sáu mươi, đây là tổ hợp số 45."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 戊 là \"Mậu Thổ (戊)\", và dòng mà màn hình kết quả hiển thị là: \"Đất rộng và núi. Khó lay và dễ tựa vào, dù đã quyết rồi thì rất chậm đổi.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 申 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 戊, các can mà 申 chứa như sau. Can bản khí (庚) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 戊申",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 戊"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidSinYeo}",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "trung khí (中氣)",
+                  "{hidSinJung}",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "bản khí (本氣)",
+                  "{hidSinBon}",
+                  "Thực Thần (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 戊, Chính Tài là 癸 và Chính Quan là 乙."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 癸. 癸 không được chứa trong 申."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 乙. 乙 không được chứa trong 申."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [丁未](/guide/pillar-jeong-mi) và Trụ ngày sau là [己酉](/guide/pillar-gi-yu)."
+          },
+          {
+            "p": "Nó gồm [Mậu Thổ (戊)](/guide/stem-mu) và [申 (Khỉ)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-yu": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 己酉",
+    "summary": "Cách Saju-Link đọc Trụ ngày 己酉 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "己酉 là Trụ ngày số 46 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 己酉, Can ngày là 己 (Thổ, Âm) và Chi ngày là 酉 (Gà). Trong chu kỳ sáu mươi, đây là tổ hợp số 46."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 己 là \"Kỷ Thổ (己)\", và dòng mà màn hình kết quả hiển thị là: \"Đất ruộng. Nhận vào bất cứ thứ gì đến rồi nuôi lớn, thiên về chăm lo hơn là phô ra.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 酉 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 己, các can mà 酉 chứa như sau. Can bản khí (辛) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 己酉",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 己"
+              ],
+              "rows": [
+                [
+                  "Canh Kim (庚)",
+                  "dư khí (餘氣)",
+                  "{hidYuYeo}",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "bản khí (本氣)",
+                  "{hidYuBon}",
+                  "Thực Thần (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 己, Chính Tài là 壬 và Chính Quan là 甲."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 壬. 壬 không được chứa trong 酉."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 甲. 甲 không được chứa trong 酉."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [戊申](/guide/pillar-mu-sin) và Trụ ngày sau là [庚戌](/guide/pillar-gyeong-sul)."
+          },
+          {
+            "p": "Nó gồm [Kỷ Thổ (己)](/guide/stem-gi) và [酉 (Gà)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-sul": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 庚戌",
+    "summary": "Cách Saju-Link đọc Trụ ngày 庚戌 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "庚戌 là Trụ ngày số 47 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 庚戌, Can ngày là 庚 (Kim, Dương) và Chi ngày là 戌 (Chó). Trong chu kỳ sáu mươi, đây là tổ hợp số 47."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 庚 là \"Canh Kim (庚)\", và dòng mà màn hình kết quả hiển thị là: \"Sắt chưa gia công. Quyết đoán và dứt khoát, ít kiên nhẫn với những việc bỏ lửng.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 戌 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 庚, các can mà 戌 chứa như sau. Can bản khí (戊) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 庚戌",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 庚"
+              ],
+              "rows": [
+                [
+                  "Tân Kim (辛)",
+                  "dư khí (餘氣)",
+                  "{hidSulYeo}",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "trung khí (中氣)",
+                  "{hidSulJung}",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "bản khí (本氣)",
+                  "{hidSulBon}",
+                  "Thiên Ấn (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 庚, Chính Tài là 乙 và Chính Quan là 丁."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 乙. 乙 không được chứa trong 戌."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 丁. 丁 được chứa trong 戌 (trung khí (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [己酉](/guide/pillar-gi-yu) và Trụ ngày sau là [辛亥](/guide/pillar-sin-hae)."
+          },
+          {
+            "p": "Nó gồm [Canh Kim (庚)](/guide/stem-gyeong) và [戌 (Chó)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-hae": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 辛亥",
+    "summary": "Cách Saju-Link đọc Trụ ngày 辛亥 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "辛亥 là Trụ ngày số 48 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 辛亥, Can ngày là 辛 (Kim, Âm) và Chi ngày là 亥 (Lợn). Trong chu kỳ sáu mươi, đây là tổ hợp số 48."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 辛 là \"Tân Kim (辛)\", và dòng mà màn hình kết quả hiển thị là: \"Viên ngọc đã mài. Thẩm mỹ tinh tế và tiêu chuẩn cao; khó bỏ qua sự cẩu thả.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 亥 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 辛, các can mà 亥 chứa như sau. Can bản khí (壬) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 辛亥",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 辛"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidHaeYeo}",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Giáp Mộc (甲)",
+                  "trung khí (中氣)",
+                  "{hidHaeJung}",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "bản khí (本氣)",
+                  "{hidHaeBon}",
+                  "Thương Quan (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 辛, Chính Tài là 甲 và Chính Quan là 丙."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 甲. 甲 được chứa trong 亥 (trung khí (中氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 丙. 丙 không được chứa trong 亥."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [庚戌](/guide/pillar-gyeong-sul) và Trụ ngày sau là [壬子](/guide/pillar-im-ja)."
+          },
+          {
+            "p": "Nó gồm [Tân Kim (辛)](/guide/stem-sin) và [亥 (Lợn)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-ja": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 壬子",
+    "summary": "Cách Saju-Link đọc Trụ ngày 壬子 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "壬子 là Trụ ngày số 49 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 壬子, Can ngày là 壬 (Thủy, Dương) và Chi ngày là 子 (Chuột). Trong chu kỳ sáu mươi, đây là tổ hợp số 49."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 壬 là \"Nhâm Thủy (壬)\", và dòng mà màn hình kết quả hiển thị là: \"Sông và biển. Tầm nhìn rộng, có con mắt nhìn ra dòng chảy của sự việc.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 子 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 壬, các can mà 子 chứa như sau. Can bản khí (癸) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 壬子",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 壬"
+              ],
+              "rows": [
+                [
+                  "Nhâm Thủy (壬)",
+                  "dư khí (餘氣)",
+                  "{hidJaYeo}",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "bản khí (本氣)",
+                  "{hidJaBon}",
+                  "Kiếp Tài (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 壬, Chính Tài là 丁 và Chính Quan là 己."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 丁. 丁 không được chứa trong 子."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 己. 己 không được chứa trong 子."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [辛亥](/guide/pillar-sin-hae) và Trụ ngày sau là [癸丑](/guide/pillar-gye-chuk)."
+          },
+          {
+            "p": "Nó gồm [Nhâm Thủy (壬)](/guide/stem-im) và [子 (Chuột)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-chuk": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 癸丑",
+    "summary": "Cách Saju-Link đọc Trụ ngày 癸丑 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "癸丑 là Trụ ngày số 50 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 癸丑, Can ngày là 癸 (Thủy, Âm) và Chi ngày là 丑 (Trâu). Trong chu kỳ sáu mươi, đây là tổ hợp số 50."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 癸 là \"Quý Thủy (癸)\", và dòng mà màn hình kết quả hiển thị là: \"Sương và mưa. Thấm vào lặng lẽ và đọc được không khí trước cả lời nói.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 丑 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 癸, các can mà 丑 chứa như sau. Can bản khí (己) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 癸丑",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 癸"
+              ],
+              "rows": [
+                [
+                  "Quý Thủy (癸)",
+                  "dư khí (餘氣)",
+                  "{hidChukYeo}",
+                  "Tỷ Kiên (比肩)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "trung khí (中氣)",
+                  "{hidChukJung}",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "bản khí (本氣)",
+                  "{hidChukBon}",
+                  "Thiên Quan (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 癸, Chính Tài là 丙 và Chính Quan là 戊."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 丙. 丙 không được chứa trong 丑."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 戊. 戊 không được chứa trong 丑."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [壬子](/guide/pillar-im-ja) và Trụ ngày sau là [甲寅](/guide/pillar-gap-in)."
+          },
+          {
+            "p": "Nó gồm [Quý Thủy (癸)](/guide/stem-gye) và [丑 (Trâu)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-in": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 甲寅",
+    "summary": "Cách Saju-Link đọc Trụ ngày 甲寅 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "甲寅 là Trụ ngày số 51 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 甲寅, Can ngày là 甲 (Mộc, Dương) và Chi ngày là 寅 (Hổ). Trong chu kỳ sáu mươi, đây là tổ hợp số 51."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 甲 là \"Giáp Mộc (甲)\", và dòng mà màn hình kết quả hiển thị là: \"Cây lớn mọc thẳng. Đã định hướng thì không lung lay, và thà chịu đựng chứ không chịu cong.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 寅 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 甲, các can mà 寅 chứa như sau. Can bản khí (甲) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 甲寅",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 甲"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidInYeo}",
+                  "Thiên Tài (偏財)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "trung khí (中氣)",
+                  "{hidInJung}",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Giáp Mộc (甲)",
+                  "bản khí (本氣)",
+                  "{hidInBon}",
+                  "Tỷ Kiên (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 甲, Chính Tài là 己 và Chính Quan là 辛."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 己. 己 không được chứa trong 寅."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 辛. 辛 không được chứa trong 寅."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [癸丑](/guide/pillar-gye-chuk) và Trụ ngày sau là [乙卯](/guide/pillar-eul-myo)."
+          },
+          {
+            "p": "Nó gồm [Giáp Mộc (甲)](/guide/stem-gap) và [寅 (Hổ)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-myo": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 乙卯",
+    "summary": "Cách Saju-Link đọc Trụ ngày 乙卯 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "乙卯 là Trụ ngày số 52 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 乙卯, Can ngày là 乙 (Mộc, Âm) và Chi ngày là 卯 (Thỏ). Trong chu kỳ sáu mươi, đây là tổ hợp số 52."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 乙 là \"Ất Mộc (乙)\", và dòng mà màn hình kết quả hiển thị là: \"Dây leo — loài cỏ mềm dẻo. Uốn theo hoàn cảnh để tiếp tục đi tới, và không gãy.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 卯 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 乙, các can mà 卯 chứa như sau. Can bản khí (乙) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 乙卯",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 乙"
+              ],
+              "rows": [
+                [
+                  "Giáp Mộc (甲)",
+                  "dư khí (餘氣)",
+                  "{hidMyoYeo}",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "bản khí (本氣)",
+                  "{hidMyoBon}",
+                  "Tỷ Kiên (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 乙, Chính Tài là 戊 và Chính Quan là 庚."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 戊. 戊 không được chứa trong 卯."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 庚. 庚 không được chứa trong 卯."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [甲寅](/guide/pillar-gap-in) và Trụ ngày sau là [丙辰](/guide/pillar-byeong-jin)."
+          },
+          {
+            "p": "Nó gồm [Ất Mộc (乙)](/guide/stem-eul) và [卯 (Thỏ)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-jin": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 丙辰",
+    "summary": "Cách Saju-Link đọc Trụ ngày 丙辰 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丙辰 là Trụ ngày số 53 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 丙辰, Can ngày là 丙 (Hỏa, Dương) và Chi ngày là 辰 (Rồng). Trong chu kỳ sáu mươi, đây là tổ hợp số 53."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 丙 là \"Bính Hỏa (丙)\", và dòng mà màn hình kết quả hiển thị là: \"Mặt trời giữa trưa. Cảm xúc lộ rõ, chỗ nào cũng sáng lên, và bước ra phía trước là chuyện tự nhiên.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 辰 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 丙, các can mà 辰 chứa như sau. Can bản khí (戊) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 丙辰",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 丙"
+              ],
+              "rows": [
+                [
+                  "Ất Mộc (乙)",
+                  "dư khí (餘氣)",
+                  "{hidJinYeo}",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Quý Thủy (癸)",
+                  "trung khí (中氣)",
+                  "{hidJinJung}",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "bản khí (本氣)",
+                  "{hidJinBon}",
+                  "Thực Thần (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丙, Chính Tài là 辛 và Chính Quan là 癸."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 辛. 辛 không được chứa trong 辰."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 癸. 癸 được chứa trong 辰 (trung khí (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [乙卯](/guide/pillar-eul-myo) và Trụ ngày sau là [丁巳](/guide/pillar-jeong-sa)."
+          },
+          {
+            "p": "Nó gồm [Bính Hỏa (丙)](/guide/stem-byeong) và [辰 (Rồng)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-sa": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 丁巳",
+    "summary": "Cách Saju-Link đọc Trụ ngày 丁巳 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "丁巳 là Trụ ngày số 54 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 丁巳, Can ngày là 丁 (Hỏa, Âm) và Chi ngày là 巳 (Rắn). Trong chu kỳ sáu mươi, đây là tổ hợp số 54."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 丁 là \"Đinh Hỏa (丁)\", và dòng mà màn hình kết quả hiển thị là: \"Ánh nến. Cháy lặng lẽ và bền, sưởi ấm người gần nhất trước.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 巳 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 丁, các can mà 巳 chứa như sau. Can bản khí (丙) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 丁巳",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 丁"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidSaYeo}",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "trung khí (中氣)",
+                  "{hidSaJung}",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Bính Hỏa (丙)",
+                  "bản khí (本氣)",
+                  "{hidSaBon}",
+                  "Kiếp Tài (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 丁, Chính Tài là 庚 và Chính Quan là 壬."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 庚. 庚 được chứa trong 巳 (trung khí (中氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 壬. 壬 không được chứa trong 巳."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [丙辰](/guide/pillar-byeong-jin) và Trụ ngày sau là [戊午](/guide/pillar-mu-o)."
+          },
+          {
+            "p": "Nó gồm [Đinh Hỏa (丁)](/guide/stem-jeong) và [巳 (Rắn)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-o": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 戊午",
+    "summary": "Cách Saju-Link đọc Trụ ngày 戊午 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "戊午 là Trụ ngày số 55 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 戊午, Can ngày là 戊 (Thổ, Dương) và Chi ngày là 午 (Ngựa). Trong chu kỳ sáu mươi, đây là tổ hợp số 55."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 戊 là \"Mậu Thổ (戊)\", và dòng mà màn hình kết quả hiển thị là: \"Đất rộng và núi. Khó lay và dễ tựa vào, dù đã quyết rồi thì rất chậm đổi.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 午 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 戊, các can mà 午 chứa như sau. Can bản khí (丁) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 戊午",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 戊"
+              ],
+              "rows": [
+                [
+                  "Bính Hỏa (丙)",
+                  "dư khí (餘氣)",
+                  "{hidOYeo}",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "trung khí (中氣)",
+                  "{hidOJung}",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "bản khí (本氣)",
+                  "{hidOBon}",
+                  "Chính Ấn (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 戊, Chính Tài là 癸 và Chính Quan là 乙."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 癸. 癸 không được chứa trong 午."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 乙. 乙 không được chứa trong 午."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [丁巳](/guide/pillar-jeong-sa) và Trụ ngày sau là [己未](/guide/pillar-gi-mi)."
+          },
+          {
+            "p": "Nó gồm [Mậu Thổ (戊)](/guide/stem-mu) và [午 (Ngựa)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-mi": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 己未",
+    "summary": "Cách Saju-Link đọc Trụ ngày 己未 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "己未 là Trụ ngày số 56 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 己未, Can ngày là 己 (Thổ, Âm) và Chi ngày là 未 (Cừu). Trong chu kỳ sáu mươi, đây là tổ hợp số 56."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 己 là \"Kỷ Thổ (己)\", và dòng mà màn hình kết quả hiển thị là: \"Đất ruộng. Nhận vào bất cứ thứ gì đến rồi nuôi lớn, thiên về chăm lo hơn là phô ra.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 未 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 己, các can mà 未 chứa như sau. Can bản khí (己) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 己未",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 己"
+              ],
+              "rows": [
+                [
+                  "Đinh Hỏa (丁)",
+                  "dư khí (餘氣)",
+                  "{hidMiYeo}",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Ất Mộc (乙)",
+                  "trung khí (中氣)",
+                  "{hidMiJung}",
+                  "Thiên Quan (偏官)"
+                ],
+                [
+                  "Kỷ Thổ (己)",
+                  "bản khí (本氣)",
+                  "{hidMiBon}",
+                  "Tỷ Kiên (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 己, Chính Tài là 壬 và Chính Quan là 甲."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 壬. 壬 không được chứa trong 未."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 甲. 甲 không được chứa trong 未."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [戊午](/guide/pillar-mu-o) và Trụ ngày sau là [庚申](/guide/pillar-gyeong-sin)."
+          },
+          {
+            "p": "Nó gồm [Kỷ Thổ (己)](/guide/stem-gi) và [未 (Cừu)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-sin": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 庚申",
+    "summary": "Cách Saju-Link đọc Trụ ngày 庚申 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "庚申 là Trụ ngày số 57 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 庚申, Can ngày là 庚 (Kim, Dương) và Chi ngày là 申 (Khỉ). Trong chu kỳ sáu mươi, đây là tổ hợp số 57."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 庚 là \"Canh Kim (庚)\", và dòng mà màn hình kết quả hiển thị là: \"Sắt chưa gia công. Quyết đoán và dứt khoát, ít kiên nhẫn với những việc bỏ lửng.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 申 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 庚, các can mà 申 chứa như sau. Can bản khí (庚) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 庚申",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 庚"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidSinYeo}",
+                  "Thiên Ấn (偏印)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "trung khí (中氣)",
+                  "{hidSinJung}",
+                  "Thực Thần (食神)"
+                ],
+                [
+                  "Canh Kim (庚)",
+                  "bản khí (本氣)",
+                  "{hidSinBon}",
+                  "Tỷ Kiên (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 庚, Chính Tài là 乙 và Chính Quan là 丁."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 乙. 乙 không được chứa trong 申."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 丁. 丁 không được chứa trong 申."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [己未](/guide/pillar-gi-mi) và Trụ ngày sau là [辛酉](/guide/pillar-sin-yu)."
+          },
+          {
+            "p": "Nó gồm [Canh Kim (庚)](/guide/stem-gyeong) và [申 (Khỉ)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-yu": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 辛酉",
+    "summary": "Cách Saju-Link đọc Trụ ngày 辛酉 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "辛酉 là Trụ ngày số 58 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 辛酉, Can ngày là 辛 (Kim, Âm) và Chi ngày là 酉 (Gà). Trong chu kỳ sáu mươi, đây là tổ hợp số 58."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 辛 là \"Tân Kim (辛)\", và dòng mà màn hình kết quả hiển thị là: \"Viên ngọc đã mài. Thẩm mỹ tinh tế và tiêu chuẩn cao; khó bỏ qua sự cẩu thả.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 酉 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 辛, các can mà 酉 chứa như sau. Can bản khí (辛) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 辛酉",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 辛"
+              ],
+              "rows": [
+                [
+                  "Canh Kim (庚)",
+                  "dư khí (餘氣)",
+                  "{hidYuYeo}",
+                  "Kiếp Tài (劫財)"
+                ],
+                [
+                  "Tân Kim (辛)",
+                  "bản khí (本氣)",
+                  "{hidYuBon}",
+                  "Tỷ Kiên (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 辛, Chính Tài là 甲 và Chính Quan là 丙."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 甲. 甲 không được chứa trong 酉."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 丙. 丙 không được chứa trong 酉."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [庚申](/guide/pillar-gyeong-sin) và Trụ ngày sau là [壬戌](/guide/pillar-im-sul)."
+          },
+          {
+            "p": "Nó gồm [Tân Kim (辛)](/guide/stem-sin) và [酉 (Gà)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-sul": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 壬戌",
+    "summary": "Cách Saju-Link đọc Trụ ngày 壬戌 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "壬戌 là Trụ ngày số 59 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 壬戌, Can ngày là 壬 (Thủy, Dương) và Chi ngày là 戌 (Chó). Trong chu kỳ sáu mươi, đây là tổ hợp số 59."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 壬 là \"Nhâm Thủy (壬)\", và dòng mà màn hình kết quả hiển thị là: \"Sông và biển. Tầm nhìn rộng, có con mắt nhìn ra dòng chảy của sự việc.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 戌 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 壬, các can mà 戌 chứa như sau. Can bản khí (戊) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 壬戌",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 壬"
+              ],
+              "rows": [
+                [
+                  "Tân Kim (辛)",
+                  "dư khí (餘氣)",
+                  "{hidSulYeo}",
+                  "Chính Ấn (正印)"
+                ],
+                [
+                  "Đinh Hỏa (丁)",
+                  "trung khí (中氣)",
+                  "{hidSulJung}",
+                  "Chính Tài (正財)"
+                ],
+                [
+                  "Mậu Thổ (戊)",
+                  "bản khí (本氣)",
+                  "{hidSulBon}",
+                  "Thiên Quan (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 壬, Chính Tài là 丁 và Chính Quan là 己."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 丁. 丁 được chứa trong 戌 (trung khí (中氣))."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 己. 己 không được chứa trong 戌."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [辛酉](/guide/pillar-sin-yu) và Trụ ngày sau là [癸亥](/guide/pillar-gye-hae)."
+          },
+          {
+            "p": "Nó gồm [Nhâm Thủy (壬)](/guide/stem-im) và [戌 (Chó)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-hae": {
+    "eyebrow": "Trụ ngày",
+    "title": "Trụ ngày 癸亥",
+    "summary": "Cách Saju-Link đọc Trụ ngày 癸亥 — các can mà Chi ngày chứa là gì đối với Can ngày — được trình bày đúng như quy tắc tính toán của nó.",
+    "backLabel": "Cơ sở tính toán",
+    "sections": [
+      {
+        "title": "癸亥 là Trụ ngày số 60 trong chu kỳ sáu mươi",
+        "blocks": [
+          {
+            "p": "Khi can chi của ngày sinh là 癸亥, Can ngày là 癸 (Thủy, Âm) và Chi ngày là 亥 (Lợn). Trong chu kỳ sáu mươi, đây là tổ hợp số 60."
+          },
+          {
+            "p": "Saju-Link gọi người có Can ngày là 癸 là \"Quý Thủy (癸)\", và dòng mà màn hình kết quả hiển thị là: \"Sương và mưa. Thấm vào lặng lẽ và đọc được không khí trước cả lời nói.\" Dòng này không liên quan đến phần giải đọc bên dưới hay điểm số."
+          }
+        ]
+      },
+      {
+        "title": "Các can mà Chi ngày 亥 chứa là gì đối với Can ngày",
+        "blocks": [
+          {
+            "p": "Chi ngày là vị trí phối ngẫu. Đọc từ Can ngày 癸, các can mà 亥 chứa như sau. Can bản khí (壬) là năng lượng đại diện của chi."
+          },
+          {
+            "table": {
+              "caption": "Tàng can của Chi ngày 癸亥",
+              "head": [
+                "Tàng can",
+                "Vị trí",
+                "Tỷ lệ",
+                "Đối với Can ngày 癸"
+              ],
+              "rows": [
+                [
+                  "Mậu Thổ (戊)",
+                  "dư khí (餘氣)",
+                  "{hidHaeYeo}",
+                  "Chính Quan (正官)"
+                ],
+                [
+                  "Giáp Mộc (甲)",
+                  "trung khí (中氣)",
+                  "{hidHaeJung}",
+                  "Thương Quan (傷官)"
+                ],
+                [
+                  "Nhâm Thủy (壬)",
+                  "bản khí (本氣)",
+                  "{hidHaeBon}",
+                  "Kiếp Tài (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Vị trí phối ngẫu và Trụ ngày này",
+        "blocks": [
+          {
+            "p": "Myeongri truyền thống đọc vị trí phối ngẫu là Chính Tài (正財) đối với nam giới và Chính Quan (正官) đối với nữ giới. Khi Can ngày là 癸, Chính Tài là 丙 và Chính Quan là 戊."
+          },
+          {
+            "p": "Đối với nam giới, vị trí phối ngẫu (Chính Tài) là 丙. 丙 không được chứa trong 亥."
+          },
+          {
+            "p": "Đối với nữ giới, vị trí phối ngẫu (Chính Quan) là 戊. 戊 được chứa trong 亥 (dư khí (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Các Trụ ngày lân cận và các ký tự cấu thành",
+        "blocks": [
+          {
+            "p": "Trong chu kỳ sáu mươi, Trụ ngày trước là [壬戌](/guide/pillar-im-sul) và Trụ ngày sau là [甲子](/guide/pillar-gap-ja)."
+          },
+          {
+            "p": "Nó gồm [Quý Thủy (癸)](/guide/stem-gye) và [亥 (Lợn)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Những điều hướng dẫn này không nói",
+        "blocks": [
+          {
+            "ul": [
+              "Một Trụ ngày không quyết định một con người hay một mối quan hệ. Một lá số saju được đọc từ mối quan hệ giữa tám ký tự của bốn trụ.",
+              "Cách đọc vị trí phối ngẫu kế thừa một quy tắc của myeongri truyền thống, và nếu bạn không cho biết giới tính thì vị trí này sẽ không được đọc."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Mười vị thần",
     "title": "Mười vị thần — Mười vị trí trong Saju của tôi",

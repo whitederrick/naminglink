@@ -400,6 +400,9563 @@ export const ID_DOCS = {
       }
     ]
   },
+  "guide/stem-gap": {
+    "eyebrow": "Batang langit",
+    "title": "Kayu Yang (甲) — Kayu, Yang",
+    "summary": "Unsur dan polaritas batang langit 甲, bagaimana ia membaca sembilan batang lainnya (Sepuluh Dewa) dan cabang bumi mana yang menyimpannya — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "Kayu Yang (甲) adalah batang langit pertama dari sepuluh batang langit",
+        "blocks": [
+          {
+            "p": "甲 adalah batang langit pertama dari sepuluh batang langit. Unsurnya adalah Kayu dan polaritasnya Yang. Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”."
+          },
+          {
+            "p": "Kalimat yang ditampilkan layar hasil untuk batang hari ini adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan tabel atau skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Cara membaca batang lainnya (Sepuluh Dewa)",
+        "blocks": [
+          {
+            "p": "Dengan 甲 sebagai batang hari, kesepuluh batang terbaca sebagai berikut. Pembacaan ini memiliki arah: beginilah 甲 membaca batang lainnya, dan ketika batang lain itu yang membaca 甲, bisa muncul nama yang berbeda."
+          },
+          {
+            "table": {
+              "caption": "Sepuluh Dewa dengan Kayu Yang (甲) sebagai batang hari",
+              "head": [
+                "Batang lain",
+                "Unsur dan polaritas",
+                "Nama Sepuluh Dewa"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "Pengasuhan (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Batang yang terbaca sebagai posisi pasangan",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 甲 sebagai batang hari, Rezeki Tetap adalah 己 dan Wibawa adalah 辛. Jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+          }
+        ]
+      },
+      {
+        "title": "Cabang yang menyimpan 甲",
+        "blocks": [
+          {
+            "p": "Inilah tempat 甲 tersembunyi di dalam cabang bumi (batang tersembunyi). Porsi adalah proporsi dari tiga puluh hari cabang tersebut yang ditempati 甲."
+          },
+          {
+            "table": {
+              "caption": "Cabang yang menyimpan 甲",
+              "head": [
+                "Cabang",
+                "Hewan",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Harimau",
+                  "utama (本氣)",
+                  "{hidInBon}"
+                ],
+                [
+                  "卯",
+                  "Kelinci",
+                  "sisa (餘氣)",
+                  "{hidMyoYeo}"
+                ],
+                [
+                  "亥",
+                  "Babi",
+                  "tengah (中氣)",
+                  "{hidHaeJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu batang tidak menentukan seseorang. Sebuah saju dibaca dari bagaimana kedelapan karakternya berhubungan.",
+              "Sepuluh Dewa adalah penilaian yang dibuat dari batang hari. Dua karakter yang sama mendapat nama yang berbeda tergantung karakter mana yang menjadi batang hari."
+            ]
+          },
+          {
+            "p": "Sepuluh Dewa selengkapnya ada di [panduan Sepuluh Dewa](/guide/ten-gods), sedangkan kekuatan unsur dan tanda bulan ada di [panduan lima unsur](/guide/five-elements). Batang lainnya: [Kayu Yin (乙)](/guide/stem-eul) · [Api Yang (丙)](/guide/stem-byeong) · [Api Yin (丁)](/guide/stem-jeong) · [Tanah Yang (戊)](/guide/stem-mu) · [Tanah Yin (己)](/guide/stem-gi) · [Logam Yang (庚)](/guide/stem-gyeong) · [Logam Yin (辛)](/guide/stem-sin) · [Air Yang (壬)](/guide/stem-im) · [Air Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-eul": {
+    "eyebrow": "Batang langit",
+    "title": "Kayu Yin (乙) — Kayu, Yin",
+    "summary": "Unsur dan polaritas batang langit 乙, bagaimana ia membaca sembilan batang lainnya (Sepuluh Dewa) dan cabang bumi mana yang menyimpannya — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "Kayu Yin (乙) adalah batang langit kedua dari sepuluh batang langit",
+        "blocks": [
+          {
+            "p": "乙 adalah batang langit kedua dari sepuluh batang langit. Unsurnya adalah Kayu dan polaritasnya Yin. Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”."
+          },
+          {
+            "p": "Kalimat yang ditampilkan layar hasil untuk batang hari ini adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan tabel atau skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Cara membaca batang lainnya (Sepuluh Dewa)",
+        "blocks": [
+          {
+            "p": "Dengan 乙 sebagai batang hari, kesepuluh batang terbaca sebagai berikut. Pembacaan ini memiliki arah: beginilah 乙 membaca batang lainnya, dan ketika batang lain itu yang membaca 乙, bisa muncul nama yang berbeda."
+          },
+          {
+            "table": {
+              "caption": "Sepuluh Dewa dengan Kayu Yin (乙) sebagai batang hari",
+              "head": [
+                "Batang lain",
+                "Unsur dan polaritas",
+                "Nama Sepuluh Dewa"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "Sokongan Tak Lazim (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Batang yang terbaca sebagai posisi pasangan",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 乙 sebagai batang hari, Rezeki Tetap adalah 戊 dan Wibawa adalah 庚. Jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+          }
+        ]
+      },
+      {
+        "title": "Cabang yang menyimpan 乙",
+        "blocks": [
+          {
+            "p": "Inilah tempat 乙 tersembunyi di dalam cabang bumi (batang tersembunyi). Porsi adalah proporsi dari tiga puluh hari cabang tersebut yang ditempati 乙."
+          },
+          {
+            "table": {
+              "caption": "Cabang yang menyimpan 乙",
+              "head": [
+                "Cabang",
+                "Hewan",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "卯",
+                  "Kelinci",
+                  "utama (本氣)",
+                  "{hidMyoBon}"
+                ],
+                [
+                  "辰",
+                  "Naga",
+                  "sisa (餘氣)",
+                  "{hidJinYeo}"
+                ],
+                [
+                  "未",
+                  "Domba",
+                  "tengah (中氣)",
+                  "{hidMiJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu batang tidak menentukan seseorang. Sebuah saju dibaca dari bagaimana kedelapan karakternya berhubungan.",
+              "Sepuluh Dewa adalah penilaian yang dibuat dari batang hari. Dua karakter yang sama mendapat nama yang berbeda tergantung karakter mana yang menjadi batang hari."
+            ]
+          },
+          {
+            "p": "Sepuluh Dewa selengkapnya ada di [panduan Sepuluh Dewa](/guide/ten-gods), sedangkan kekuatan unsur dan tanda bulan ada di [panduan lima unsur](/guide/five-elements). Batang lainnya: [Kayu Yang (甲)](/guide/stem-gap) · [Api Yang (丙)](/guide/stem-byeong) · [Api Yin (丁)](/guide/stem-jeong) · [Tanah Yang (戊)](/guide/stem-mu) · [Tanah Yin (己)](/guide/stem-gi) · [Logam Yang (庚)](/guide/stem-gyeong) · [Logam Yin (辛)](/guide/stem-sin) · [Air Yang (壬)](/guide/stem-im) · [Air Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-byeong": {
+    "eyebrow": "Batang langit",
+    "title": "Api Yang (丙) — Api, Yang",
+    "summary": "Unsur dan polaritas batang langit 丙, bagaimana ia membaca sembilan batang lainnya (Sepuluh Dewa) dan cabang bumi mana yang menyimpannya — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "Api Yang (丙) adalah batang langit ketiga dari sepuluh batang langit",
+        "blocks": [
+          {
+            "p": "丙 adalah batang langit ketiga dari sepuluh batang langit. Unsurnya adalah Api dan polaritasnya Yang. Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”."
+          },
+          {
+            "p": "Kalimat yang ditampilkan layar hasil untuk batang hari ini adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan tabel atau skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Cara membaca batang lainnya (Sepuluh Dewa)",
+        "blocks": [
+          {
+            "p": "Dengan 丙 sebagai batang hari, kesepuluh batang terbaca sebagai berikut. Pembacaan ini memiliki arah: beginilah 丙 membaca batang lainnya, dan ketika batang lain itu yang membaca 丙, bisa muncul nama yang berbeda."
+          },
+          {
+            "table": {
+              "caption": "Sepuluh Dewa dengan Api Yang (丙) sebagai batang hari",
+              "head": [
+                "Batang lain",
+                "Unsur dan polaritas",
+                "Nama Sepuluh Dewa"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "Wibawa (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Batang yang terbaca sebagai posisi pasangan",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丙 sebagai batang hari, Rezeki Tetap adalah 辛 dan Wibawa adalah 癸. Jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+          }
+        ]
+      },
+      {
+        "title": "Cabang yang menyimpan 丙",
+        "blocks": [
+          {
+            "p": "Inilah tempat 丙 tersembunyi di dalam cabang bumi (batang tersembunyi). Porsi adalah proporsi dari tiga puluh hari cabang tersebut yang ditempati 丙."
+          },
+          {
+            "table": {
+              "caption": "Cabang yang menyimpan 丙",
+              "head": [
+                "Cabang",
+                "Hewan",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Harimau",
+                  "tengah (中氣)",
+                  "{hidInJung}"
+                ],
+                [
+                  "巳",
+                  "Ular",
+                  "utama (本氣)",
+                  "{hidSaBon}"
+                ],
+                [
+                  "午",
+                  "Kuda",
+                  "sisa (餘氣)",
+                  "{hidOYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu batang tidak menentukan seseorang. Sebuah saju dibaca dari bagaimana kedelapan karakternya berhubungan.",
+              "Sepuluh Dewa adalah penilaian yang dibuat dari batang hari. Dua karakter yang sama mendapat nama yang berbeda tergantung karakter mana yang menjadi batang hari."
+            ]
+          },
+          {
+            "p": "Sepuluh Dewa selengkapnya ada di [panduan Sepuluh Dewa](/guide/ten-gods), sedangkan kekuatan unsur dan tanda bulan ada di [panduan lima unsur](/guide/five-elements). Batang lainnya: [Kayu Yang (甲)](/guide/stem-gap) · [Kayu Yin (乙)](/guide/stem-eul) · [Api Yin (丁)](/guide/stem-jeong) · [Tanah Yang (戊)](/guide/stem-mu) · [Tanah Yin (己)](/guide/stem-gi) · [Logam Yang (庚)](/guide/stem-gyeong) · [Logam Yin (辛)](/guide/stem-sin) · [Air Yang (壬)](/guide/stem-im) · [Air Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-jeong": {
+    "eyebrow": "Batang langit",
+    "title": "Api Yin (丁) — Api, Yin",
+    "summary": "Unsur dan polaritas batang langit 丁, bagaimana ia membaca sembilan batang lainnya (Sepuluh Dewa) dan cabang bumi mana yang menyimpannya — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "Api Yin (丁) adalah batang langit keempat dari sepuluh batang langit",
+        "blocks": [
+          {
+            "p": "丁 adalah batang langit keempat dari sepuluh batang langit. Unsurnya adalah Api dan polaritasnya Yin. Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”."
+          },
+          {
+            "p": "Kalimat yang ditampilkan layar hasil untuk batang hari ini adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan tabel atau skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Cara membaca batang lainnya (Sepuluh Dewa)",
+        "blocks": [
+          {
+            "p": "Dengan 丁 sebagai batang hari, kesepuluh batang terbaca sebagai berikut. Pembacaan ini memiliki arah: beginilah 丁 membaca batang lainnya, dan ketika batang lain itu yang membaca 丁, bisa muncul nama yang berbeda."
+          },
+          {
+            "table": {
+              "caption": "Sepuluh Dewa dengan Api Yin (丁) sebagai batang hari",
+              "head": [
+                "Batang lain",
+                "Unsur dan polaritas",
+                "Nama Sepuluh Dewa"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "Penantang (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Batang yang terbaca sebagai posisi pasangan",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丁 sebagai batang hari, Rezeki Tetap adalah 庚 dan Wibawa adalah 壬. Jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+          }
+        ]
+      },
+      {
+        "title": "Cabang yang menyimpan 丁",
+        "blocks": [
+          {
+            "p": "Inilah tempat 丁 tersembunyi di dalam cabang bumi (batang tersembunyi). Porsi adalah proporsi dari tiga puluh hari cabang tersebut yang ditempati 丁."
+          },
+          {
+            "table": {
+              "caption": "Cabang yang menyimpan 丁",
+              "head": [
+                "Cabang",
+                "Hewan",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "午",
+                  "Kuda",
+                  "utama (本氣)",
+                  "{hidOBon}"
+                ],
+                [
+                  "未",
+                  "Domba",
+                  "sisa (餘氣)",
+                  "{hidMiYeo}"
+                ],
+                [
+                  "戌",
+                  "Anjing",
+                  "tengah (中氣)",
+                  "{hidSulJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu batang tidak menentukan seseorang. Sebuah saju dibaca dari bagaimana kedelapan karakternya berhubungan.",
+              "Sepuluh Dewa adalah penilaian yang dibuat dari batang hari. Dua karakter yang sama mendapat nama yang berbeda tergantung karakter mana yang menjadi batang hari."
+            ]
+          },
+          {
+            "p": "Sepuluh Dewa selengkapnya ada di [panduan Sepuluh Dewa](/guide/ten-gods), sedangkan kekuatan unsur dan tanda bulan ada di [panduan lima unsur](/guide/five-elements). Batang lainnya: [Kayu Yang (甲)](/guide/stem-gap) · [Kayu Yin (乙)](/guide/stem-eul) · [Api Yang (丙)](/guide/stem-byeong) · [Tanah Yang (戊)](/guide/stem-mu) · [Tanah Yin (己)](/guide/stem-gi) · [Logam Yang (庚)](/guide/stem-gyeong) · [Logam Yin (辛)](/guide/stem-sin) · [Air Yang (壬)](/guide/stem-im) · [Air Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-mu": {
+    "eyebrow": "Batang langit",
+    "title": "Tanah Yang (戊) — Tanah, Yang",
+    "summary": "Unsur dan polaritas batang langit 戊, bagaimana ia membaca sembilan batang lainnya (Sepuluh Dewa) dan cabang bumi mana yang menyimpannya — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "Tanah Yang (戊) adalah batang langit kelima dari sepuluh batang langit",
+        "blocks": [
+          {
+            "p": "戊 adalah batang langit kelima dari sepuluh batang langit. Unsurnya adalah Tanah dan polaritasnya Yang. Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”."
+          },
+          {
+            "p": "Kalimat yang ditampilkan layar hasil untuk batang hari ini adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan tabel atau skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Cara membaca batang lainnya (Sepuluh Dewa)",
+        "blocks": [
+          {
+            "p": "Dengan 戊 sebagai batang hari, kesepuluh batang terbaca sebagai berikut. Pembacaan ini memiliki arah: beginilah 戊 membaca batang lainnya, dan ketika batang lain itu yang membaca 戊, bisa muncul nama yang berbeda."
+          },
+          {
+            "table": {
+              "caption": "Sepuluh Dewa dengan Tanah Yang (戊) sebagai batang hari",
+              "head": [
+                "Batang lain",
+                "Unsur dan polaritas",
+                "Nama Sepuluh Dewa"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "Rezeki Tetap (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Batang yang terbaca sebagai posisi pasangan",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 戊 sebagai batang hari, Rezeki Tetap adalah 癸 dan Wibawa adalah 乙. Jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+          }
+        ]
+      },
+      {
+        "title": "Cabang yang menyimpan 戊",
+        "blocks": [
+          {
+            "p": "Inilah tempat 戊 tersembunyi di dalam cabang bumi (batang tersembunyi). Porsi adalah proporsi dari tiga puluh hari cabang tersebut yang ditempati 戊."
+          },
+          {
+            "table": {
+              "caption": "Cabang yang menyimpan 戊",
+              "head": [
+                "Cabang",
+                "Hewan",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Harimau",
+                  "sisa (餘氣)",
+                  "{hidInYeo}"
+                ],
+                [
+                  "辰",
+                  "Naga",
+                  "utama (本氣)",
+                  "{hidJinBon}"
+                ],
+                [
+                  "巳",
+                  "Ular",
+                  "sisa (餘氣)",
+                  "{hidSaYeo}"
+                ],
+                [
+                  "申",
+                  "Monyet",
+                  "sisa (餘氣)",
+                  "{hidSinYeo}"
+                ],
+                [
+                  "戌",
+                  "Anjing",
+                  "utama (本氣)",
+                  "{hidSulBon}"
+                ],
+                [
+                  "亥",
+                  "Babi",
+                  "sisa (餘氣)",
+                  "{hidHaeYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu batang tidak menentukan seseorang. Sebuah saju dibaca dari bagaimana kedelapan karakternya berhubungan.",
+              "Sepuluh Dewa adalah penilaian yang dibuat dari batang hari. Dua karakter yang sama mendapat nama yang berbeda tergantung karakter mana yang menjadi batang hari."
+            ]
+          },
+          {
+            "p": "Sepuluh Dewa selengkapnya ada di [panduan Sepuluh Dewa](/guide/ten-gods), sedangkan kekuatan unsur dan tanda bulan ada di [panduan lima unsur](/guide/five-elements). Batang lainnya: [Kayu Yang (甲)](/guide/stem-gap) · [Kayu Yin (乙)](/guide/stem-eul) · [Api Yang (丙)](/guide/stem-byeong) · [Api Yin (丁)](/guide/stem-jeong) · [Tanah Yin (己)](/guide/stem-gi) · [Logam Yang (庚)](/guide/stem-gyeong) · [Logam Yin (辛)](/guide/stem-sin) · [Air Yang (壬)](/guide/stem-im) · [Air Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gi": {
+    "eyebrow": "Batang langit",
+    "title": "Tanah Yin (己) — Tanah, Yin",
+    "summary": "Unsur dan polaritas batang langit 己, bagaimana ia membaca sembilan batang lainnya (Sepuluh Dewa) dan cabang bumi mana yang menyimpannya — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "Tanah Yin (己) adalah batang langit keenam dari sepuluh batang langit",
+        "blocks": [
+          {
+            "p": "己 adalah batang langit keenam dari sepuluh batang langit. Unsurnya adalah Tanah dan polaritasnya Yin. Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”."
+          },
+          {
+            "p": "Kalimat yang ditampilkan layar hasil untuk batang hari ini adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan tabel atau skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Cara membaca batang lainnya (Sepuluh Dewa)",
+        "blocks": [
+          {
+            "p": "Dengan 己 sebagai batang hari, kesepuluh batang terbaca sebagai berikut. Pembacaan ini memiliki arah: beginilah 己 membaca batang lainnya, dan ketika batang lain itu yang membaca 己, bisa muncul nama yang berbeda."
+          },
+          {
+            "table": {
+              "caption": "Sepuluh Dewa dengan Tanah Yin (己) sebagai batang hari",
+              "head": [
+                "Batang lain",
+                "Unsur dan polaritas",
+                "Nama Sepuluh Dewa"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "Rezeki Tak Terduga (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Batang yang terbaca sebagai posisi pasangan",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 己 sebagai batang hari, Rezeki Tetap adalah 壬 dan Wibawa adalah 甲. Jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+          }
+        ]
+      },
+      {
+        "title": "Cabang yang menyimpan 己",
+        "blocks": [
+          {
+            "p": "Inilah tempat 己 tersembunyi di dalam cabang bumi (batang tersembunyi). Porsi adalah proporsi dari tiga puluh hari cabang tersebut yang ditempati 己."
+          },
+          {
+            "table": {
+              "caption": "Cabang yang menyimpan 己",
+              "head": [
+                "Cabang",
+                "Hewan",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "丑",
+                  "Sapi",
+                  "utama (本氣)",
+                  "{hidChukBon}"
+                ],
+                [
+                  "午",
+                  "Kuda",
+                  "tengah (中氣)",
+                  "{hidOJung}"
+                ],
+                [
+                  "未",
+                  "Domba",
+                  "utama (本氣)",
+                  "{hidMiBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu batang tidak menentukan seseorang. Sebuah saju dibaca dari bagaimana kedelapan karakternya berhubungan.",
+              "Sepuluh Dewa adalah penilaian yang dibuat dari batang hari. Dua karakter yang sama mendapat nama yang berbeda tergantung karakter mana yang menjadi batang hari."
+            ]
+          },
+          {
+            "p": "Sepuluh Dewa selengkapnya ada di [panduan Sepuluh Dewa](/guide/ten-gods), sedangkan kekuatan unsur dan tanda bulan ada di [panduan lima unsur](/guide/five-elements). Batang lainnya: [Kayu Yang (甲)](/guide/stem-gap) · [Kayu Yin (乙)](/guide/stem-eul) · [Api Yang (丙)](/guide/stem-byeong) · [Api Yin (丁)](/guide/stem-jeong) · [Tanah Yang (戊)](/guide/stem-mu) · [Logam Yang (庚)](/guide/stem-gyeong) · [Logam Yin (辛)](/guide/stem-sin) · [Air Yang (壬)](/guide/stem-im) · [Air Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gyeong": {
+    "eyebrow": "Batang langit",
+    "title": "Logam Yang (庚) — Logam, Yang",
+    "summary": "Unsur dan polaritas batang langit 庚, bagaimana ia membaca sembilan batang lainnya (Sepuluh Dewa) dan cabang bumi mana yang menyimpannya — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "Logam Yang (庚) adalah batang langit ketujuh dari sepuluh batang langit",
+        "blocks": [
+          {
+            "p": "庚 adalah batang langit ketujuh dari sepuluh batang langit. Unsurnya adalah Logam dan polaritasnya Yang. Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”."
+          },
+          {
+            "p": "Kalimat yang ditampilkan layar hasil untuk batang hari ini adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan tabel atau skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Cara membaca batang lainnya (Sepuluh Dewa)",
+        "blocks": [
+          {
+            "p": "Dengan 庚 sebagai batang hari, kesepuluh batang terbaca sebagai berikut. Pembacaan ini memiliki arah: beginilah 庚 membaca batang lainnya, dan ketika batang lain itu yang membaca 庚, bisa muncul nama yang berbeda."
+          },
+          {
+            "table": {
+              "caption": "Sepuluh Dewa dengan Logam Yang (庚) sebagai batang hari",
+              "head": [
+                "Batang lain",
+                "Unsur dan polaritas",
+                "Nama Sepuluh Dewa"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "Pengusik (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Batang yang terbaca sebagai posisi pasangan",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 庚 sebagai batang hari, Rezeki Tetap adalah 乙 dan Wibawa adalah 丁. Jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+          }
+        ]
+      },
+      {
+        "title": "Cabang yang menyimpan 庚",
+        "blocks": [
+          {
+            "p": "Inilah tempat 庚 tersembunyi di dalam cabang bumi (batang tersembunyi). Porsi adalah proporsi dari tiga puluh hari cabang tersebut yang ditempati 庚."
+          },
+          {
+            "table": {
+              "caption": "Cabang yang menyimpan 庚",
+              "head": [
+                "Cabang",
+                "Hewan",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "巳",
+                  "Ular",
+                  "tengah (中氣)",
+                  "{hidSaJung}"
+                ],
+                [
+                  "申",
+                  "Monyet",
+                  "utama (本氣)",
+                  "{hidSinBon}"
+                ],
+                [
+                  "酉",
+                  "Ayam",
+                  "sisa (餘氣)",
+                  "{hidYuYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu batang tidak menentukan seseorang. Sebuah saju dibaca dari bagaimana kedelapan karakternya berhubungan.",
+              "Sepuluh Dewa adalah penilaian yang dibuat dari batang hari. Dua karakter yang sama mendapat nama yang berbeda tergantung karakter mana yang menjadi batang hari."
+            ]
+          },
+          {
+            "p": "Sepuluh Dewa selengkapnya ada di [panduan Sepuluh Dewa](/guide/ten-gods), sedangkan kekuatan unsur dan tanda bulan ada di [panduan lima unsur](/guide/five-elements). Batang lainnya: [Kayu Yang (甲)](/guide/stem-gap) · [Kayu Yin (乙)](/guide/stem-eul) · [Api Yang (丙)](/guide/stem-byeong) · [Api Yin (丁)](/guide/stem-jeong) · [Tanah Yang (戊)](/guide/stem-mu) · [Tanah Yin (己)](/guide/stem-gi) · [Logam Yin (辛)](/guide/stem-sin) · [Air Yang (壬)](/guide/stem-im) · [Air Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-sin": {
+    "eyebrow": "Batang langit",
+    "title": "Logam Yin (辛) — Logam, Yin",
+    "summary": "Unsur dan polaritas batang langit 辛, bagaimana ia membaca sembilan batang lainnya (Sepuluh Dewa) dan cabang bumi mana yang menyimpannya — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "Logam Yin (辛) adalah batang langit kedelapan dari sepuluh batang langit",
+        "blocks": [
+          {
+            "p": "辛 adalah batang langit kedelapan dari sepuluh batang langit. Unsurnya adalah Logam dan polaritasnya Yin. Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”."
+          },
+          {
+            "p": "Kalimat yang ditampilkan layar hasil untuk batang hari ini adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan tabel atau skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Cara membaca batang lainnya (Sepuluh Dewa)",
+        "blocks": [
+          {
+            "p": "Dengan 辛 sebagai batang hari, kesepuluh batang terbaca sebagai berikut. Pembacaan ini memiliki arah: beginilah 辛 membaca batang lainnya, dan ketika batang lain itu yang membaca 辛, bisa muncul nama yang berbeda."
+          },
+          {
+            "table": {
+              "caption": "Sepuluh Dewa dengan Logam Yin (辛) sebagai batang hari",
+              "head": [
+                "Batang lain",
+                "Unsur dan polaritas",
+                "Nama Sepuluh Dewa"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "Ekspresi (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Batang yang terbaca sebagai posisi pasangan",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 辛 sebagai batang hari, Rezeki Tetap adalah 甲 dan Wibawa adalah 丙. Jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+          }
+        ]
+      },
+      {
+        "title": "Cabang yang menyimpan 辛",
+        "blocks": [
+          {
+            "p": "Inilah tempat 辛 tersembunyi di dalam cabang bumi (batang tersembunyi). Porsi adalah proporsi dari tiga puluh hari cabang tersebut yang ditempati 辛."
+          },
+          {
+            "table": {
+              "caption": "Cabang yang menyimpan 辛",
+              "head": [
+                "Cabang",
+                "Hewan",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "丑",
+                  "Sapi",
+                  "tengah (中氣)",
+                  "{hidChukJung}"
+                ],
+                [
+                  "酉",
+                  "Ayam",
+                  "utama (本氣)",
+                  "{hidYuBon}"
+                ],
+                [
+                  "戌",
+                  "Anjing",
+                  "sisa (餘氣)",
+                  "{hidSulYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu batang tidak menentukan seseorang. Sebuah saju dibaca dari bagaimana kedelapan karakternya berhubungan.",
+              "Sepuluh Dewa adalah penilaian yang dibuat dari batang hari. Dua karakter yang sama mendapat nama yang berbeda tergantung karakter mana yang menjadi batang hari."
+            ]
+          },
+          {
+            "p": "Sepuluh Dewa selengkapnya ada di [panduan Sepuluh Dewa](/guide/ten-gods), sedangkan kekuatan unsur dan tanda bulan ada di [panduan lima unsur](/guide/five-elements). Batang lainnya: [Kayu Yang (甲)](/guide/stem-gap) · [Kayu Yin (乙)](/guide/stem-eul) · [Api Yang (丙)](/guide/stem-byeong) · [Api Yin (丁)](/guide/stem-jeong) · [Tanah Yang (戊)](/guide/stem-mu) · [Tanah Yin (己)](/guide/stem-gi) · [Logam Yang (庚)](/guide/stem-gyeong) · [Air Yang (壬)](/guide/stem-im) · [Air Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-im": {
+    "eyebrow": "Batang langit",
+    "title": "Air Yang (壬) — Air, Yang",
+    "summary": "Unsur dan polaritas batang langit 壬, bagaimana ia membaca sembilan batang lainnya (Sepuluh Dewa) dan cabang bumi mana yang menyimpannya — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "Air Yang (壬) adalah batang langit kesembilan dari sepuluh batang langit",
+        "blocks": [
+          {
+            "p": "壬 adalah batang langit kesembilan dari sepuluh batang langit. Unsurnya adalah Air dan polaritasnya Yang. Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”."
+          },
+          {
+            "p": "Kalimat yang ditampilkan layar hasil untuk batang hari ini adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan tabel atau skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Cara membaca batang lainnya (Sepuluh Dewa)",
+        "blocks": [
+          {
+            "p": "Dengan 壬 sebagai batang hari, kesepuluh batang terbaca sebagai berikut. Pembacaan ini memiliki arah: beginilah 壬 membaca batang lainnya, dan ketika batang lain itu yang membaca 壬, bisa muncul nama yang berbeda."
+          },
+          {
+            "table": {
+              "caption": "Sepuluh Dewa dengan Air Yang (壬) sebagai batang hari",
+              "head": [
+                "Batang lain",
+                "Unsur dan polaritas",
+                "Nama Sepuluh Dewa"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "Saingan (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Batang yang terbaca sebagai posisi pasangan",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 壬 sebagai batang hari, Rezeki Tetap adalah 丁 dan Wibawa adalah 己. Jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+          }
+        ]
+      },
+      {
+        "title": "Cabang yang menyimpan 壬",
+        "blocks": [
+          {
+            "p": "Inilah tempat 壬 tersembunyi di dalam cabang bumi (batang tersembunyi). Porsi adalah proporsi dari tiga puluh hari cabang tersebut yang ditempati 壬."
+          },
+          {
+            "table": {
+              "caption": "Cabang yang menyimpan 壬",
+              "head": [
+                "Cabang",
+                "Hewan",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Tikus",
+                  "sisa (餘氣)",
+                  "{hidJaYeo}"
+                ],
+                [
+                  "申",
+                  "Monyet",
+                  "tengah (中氣)",
+                  "{hidSinJung}"
+                ],
+                [
+                  "亥",
+                  "Babi",
+                  "utama (本氣)",
+                  "{hidHaeBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu batang tidak menentukan seseorang. Sebuah saju dibaca dari bagaimana kedelapan karakternya berhubungan.",
+              "Sepuluh Dewa adalah penilaian yang dibuat dari batang hari. Dua karakter yang sama mendapat nama yang berbeda tergantung karakter mana yang menjadi batang hari."
+            ]
+          },
+          {
+            "p": "Sepuluh Dewa selengkapnya ada di [panduan Sepuluh Dewa](/guide/ten-gods), sedangkan kekuatan unsur dan tanda bulan ada di [panduan lima unsur](/guide/five-elements). Batang lainnya: [Kayu Yang (甲)](/guide/stem-gap) · [Kayu Yin (乙)](/guide/stem-eul) · [Api Yang (丙)](/guide/stem-byeong) · [Api Yin (丁)](/guide/stem-jeong) · [Tanah Yang (戊)](/guide/stem-mu) · [Tanah Yin (己)](/guide/stem-gi) · [Logam Yang (庚)](/guide/stem-gyeong) · [Logam Yin (辛)](/guide/stem-sin) · [Air Yin (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gye": {
+    "eyebrow": "Batang langit",
+    "title": "Air Yin (癸) — Air, Yin",
+    "summary": "Unsur dan polaritas batang langit 癸, bagaimana ia membaca sembilan batang lainnya (Sepuluh Dewa) dan cabang bumi mana yang menyimpannya — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "Air Yin (癸) adalah batang langit kesepuluh dari sepuluh batang langit",
+        "blocks": [
+          {
+            "p": "癸 adalah batang langit kesepuluh dari sepuluh batang langit. Unsurnya adalah Air dan polaritasnya Yin. Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”."
+          },
+          {
+            "p": "Kalimat yang ditampilkan layar hasil untuk batang hari ini adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan tabel atau skor di bawah."
+          }
+        ]
+      },
+      {
+        "title": "Cara membaca batang lainnya (Sepuluh Dewa)",
+        "blocks": [
+          {
+            "p": "Dengan 癸 sebagai batang hari, kesepuluh batang terbaca sebagai berikut. Pembacaan ini memiliki arah: beginilah 癸 membaca batang lainnya, dan ketika batang lain itu yang membaca 癸, bisa muncul nama yang berbeda."
+          },
+          {
+            "table": {
+              "caption": "Sepuluh Dewa dengan Air Yin (癸) sebagai batang hari",
+              "head": [
+                "Batang lain",
+                "Unsur dan polaritas",
+                "Nama Sepuluh Dewa"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "Rekan Sejajar (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Batang yang terbaca sebagai posisi pasangan",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 癸 sebagai batang hari, Rezeki Tetap adalah 丙 dan Wibawa adalah 戊. Jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+          }
+        ]
+      },
+      {
+        "title": "Cabang yang menyimpan 癸",
+        "blocks": [
+          {
+            "p": "Inilah tempat 癸 tersembunyi di dalam cabang bumi (batang tersembunyi). Porsi adalah proporsi dari tiga puluh hari cabang tersebut yang ditempati 癸."
+          },
+          {
+            "table": {
+              "caption": "Cabang yang menyimpan 癸",
+              "head": [
+                "Cabang",
+                "Hewan",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Tikus",
+                  "utama (本氣)",
+                  "{hidJaBon}"
+                ],
+                [
+                  "丑",
+                  "Sapi",
+                  "sisa (餘氣)",
+                  "{hidChukYeo}"
+                ],
+                [
+                  "辰",
+                  "Naga",
+                  "tengah (中氣)",
+                  "{hidJinJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu batang tidak menentukan seseorang. Sebuah saju dibaca dari bagaimana kedelapan karakternya berhubungan.",
+              "Sepuluh Dewa adalah penilaian yang dibuat dari batang hari. Dua karakter yang sama mendapat nama yang berbeda tergantung karakter mana yang menjadi batang hari."
+            ]
+          },
+          {
+            "p": "Sepuluh Dewa selengkapnya ada di [panduan Sepuluh Dewa](/guide/ten-gods), sedangkan kekuatan unsur dan tanda bulan ada di [panduan lima unsur](/guide/five-elements). Batang lainnya: [Kayu Yang (甲)](/guide/stem-gap) · [Kayu Yin (乙)](/guide/stem-eul) · [Api Yang (丙)](/guide/stem-byeong) · [Api Yin (丁)](/guide/stem-jeong) · [Tanah Yang (戊)](/guide/stem-mu) · [Tanah Yin (己)](/guide/stem-gi) · [Logam Yang (庚)](/guide/stem-gyeong) · [Logam Yin (辛)](/guide/stem-sin) · [Air Yang (壬)](/guide/stem-im)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-ja": {
+    "eyebrow": "Cabang bumi",
+    "title": "子 — cabang Tikus",
+    "summary": "Batang yang disimpan oleh cabang bumi 子 (batang tersembunyi), kekuatan lima unsur ketika ia menjadi cabang bulan, dan Sepuluh Dewa yang terbaca untuk setiap batang hari — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "子 adalah cabang bumi pertama dari dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "子 adalah cabang bumi pertama dari dua belas cabang bumi dan termasuk dalam Tikus. Ketika cabang bulan lahir adalah 子, musimnya adalah musim dingin dan unsur yang menguasai musim itu adalah Air."
+          },
+          {
+            "p": "Ketika cabang hari lahir adalah 子, karakter ini adalah posisi pasangan. Di bawah ini terlihat batang apa saja yang disimpan cabang ini dan apa artinya bagi batang hari."
+          }
+        ]
+      },
+      {
+        "title": "Batang yang disimpan cabang ini (batang tersembunyi)",
+        "blocks": [
+          {
+            "p": "Sebuah cabang adalah satu karakter yang terlihat, tetapi menyimpan batang di dalamnya. Porsi menunjukkan bagaimana tiga puluh hari cabang itu dibagi di antara batang-batangnya, dan batang utama adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari 子",
+              "head": [
+                "Batang",
+                "Unsur dan polaritas",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "sisa (餘氣)",
+                  "{hidJaYeo}"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "utama (本氣)",
+                  "{hidJaBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kekuatan lima unsur ketika cabang bulan adalah 子",
+        "blocks": [
+          {
+            "p": "Ketika cabang bulan lahir adalah 子, setiap unsur mendapat satu keadaan (Wang, Sang, Hyu, Su, Sa), dan keadaan itu menjadi pengali yang diterapkan pada kekuatannya."
+          },
+          {
+            "table": {
+              "caption": "Keadaan unsur untuk cabang bulan 子 (musim dingin)",
+              "head": [
+                "Unsur",
+                "Keadaan",
+                "Pengali"
+              ],
+              "rows": [
+                [
+                  "Kayu",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Api",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Tanah",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Logam",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Air",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh Dewa menurut batang hari",
+        "blocks": [
+          {
+            "p": "Batang tersembunyi 子 yang sama menjadi Sepuluh Dewa yang berbeda tergantung batang hari. Ketika 子 adalah cabang hari, tabel ini adalah pembacaan posisi pasangan."
+          },
+          {
+            "table": {
+              "caption": "Apa arti batang tersembunyi 子 bagi setiap batang hari",
+              "head": [
+                "Batang hari",
+                "Air Yang (壬) — sisa (餘氣)",
+                "Air Yin (癸) — utama (本氣)"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Pengasuhan (正印)",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Penantang (偏官)",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Wibawa (正官)",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Rezeki Tetap (正財)",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Ekspresi (食神)",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Pengusik (傷官)",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Rekan Sejajar (比肩)",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Saingan (劫財)",
+                  "Rekan Sejajar (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu cabang tidak menentukan seseorang. Cabang yang sama terbaca berbeda tergantung batang hari dan cabang bulan.",
+              "Hubungan antarcabang seperti harmoni, benturan, dan ketidakselarasan tidak dibahas di sini."
+            ]
+          },
+          {
+            "p": "Hubungan antarcabang ada di [bagan dua belas cabang](/guide/branches), dan maknanya sebagai hewan zodiak ada di [letak zodiak dalam saju](/guide/zodiac). Cabang lainnya: [丑 (Sapi)](/guide/branch-chuk) · [寅 (Harimau)](/guide/branch-in) · [卯 (Kelinci)](/guide/branch-myo) · [辰 (Naga)](/guide/branch-jin) · [巳 (Ular)](/guide/branch-sa) · [午 (Kuda)](/guide/branch-o) · [未 (Domba)](/guide/branch-mi) · [申 (Monyet)](/guide/branch-sin) · [酉 (Ayam)](/guide/branch-yu) · [戌 (Anjing)](/guide/branch-sul) · [亥 (Babi)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-chuk": {
+    "eyebrow": "Cabang bumi",
+    "title": "丑 — cabang Sapi",
+    "summary": "Batang yang disimpan oleh cabang bumi 丑 (batang tersembunyi), kekuatan lima unsur ketika ia menjadi cabang bulan, dan Sepuluh Dewa yang terbaca untuk setiap batang hari — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丑 adalah cabang bumi kedua dari dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "丑 adalah cabang bumi kedua dari dua belas cabang bumi dan termasuk dalam Sapi. Ketika cabang bulan lahir adalah 丑, musimnya adalah musim dingin dan unsur yang menguasai musim itu adalah Air. Ini adalah bulan transisi (辰未戌丑), sehingga Tanah juga dihitung berada dalam keadaan Wang."
+          },
+          {
+            "p": "Ketika cabang hari lahir adalah 丑, karakter ini adalah posisi pasangan. Di bawah ini terlihat batang apa saja yang disimpan cabang ini dan apa artinya bagi batang hari."
+          }
+        ]
+      },
+      {
+        "title": "Batang yang disimpan cabang ini (batang tersembunyi)",
+        "blocks": [
+          {
+            "p": "Sebuah cabang adalah satu karakter yang terlihat, tetapi menyimpan batang di dalamnya. Porsi menunjukkan bagaimana tiga puluh hari cabang itu dibagi di antara batang-batangnya, dan batang utama adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari 丑",
+              "head": [
+                "Batang",
+                "Unsur dan polaritas",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "sisa (餘氣)",
+                  "{hidChukYeo}"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "tengah (中氣)",
+                  "{hidChukJung}"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "utama (本氣)",
+                  "{hidChukBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kekuatan lima unsur ketika cabang bulan adalah 丑",
+        "blocks": [
+          {
+            "p": "Ketika cabang bulan lahir adalah 丑, setiap unsur mendapat satu keadaan (Wang, Sang, Hyu, Su, Sa), dan keadaan itu menjadi pengali yang diterapkan pada kekuatannya."
+          },
+          {
+            "table": {
+              "caption": "Keadaan unsur untuk cabang bulan 丑 (musim dingin (bulan transisi))",
+              "head": [
+                "Unsur",
+                "Keadaan",
+                "Pengali"
+              ],
+              "rows": [
+                [
+                  "Kayu",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Api",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Tanah",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Logam",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Air",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh Dewa menurut batang hari",
+        "blocks": [
+          {
+            "p": "Batang tersembunyi 丑 yang sama menjadi Sepuluh Dewa yang berbeda tergantung batang hari. Ketika 丑 adalah cabang hari, tabel ini adalah pembacaan posisi pasangan."
+          },
+          {
+            "table": {
+              "caption": "Apa arti batang tersembunyi 丑 bagi setiap batang hari",
+              "head": [
+                "Batang hari",
+                "Air Yin (癸) — sisa (餘氣)",
+                "Logam Yin (辛) — tengah (中氣)",
+                "Tanah Yin (己) — utama (本氣)"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Pengasuhan (正印)",
+                  "Wibawa (正官)",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Penantang (偏官)",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Wibawa (正官)",
+                  "Rezeki Tetap (正財)",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Penantang (偏官)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Rezeki Tetap (正財)",
+                  "Pengusik (傷官)",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Ekspresi (食神)",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Pengusik (傷官)",
+                  "Saingan (劫財)",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Ekspresi (食神)",
+                  "Rekan Sejajar (比肩)",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Saingan (劫財)",
+                  "Pengasuhan (正印)",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Rekan Sejajar (比肩)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Penantang (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu cabang tidak menentukan seseorang. Cabang yang sama terbaca berbeda tergantung batang hari dan cabang bulan.",
+              "Hubungan antarcabang seperti harmoni, benturan, dan ketidakselarasan tidak dibahas di sini."
+            ]
+          },
+          {
+            "p": "Hubungan antarcabang ada di [bagan dua belas cabang](/guide/branches), dan maknanya sebagai hewan zodiak ada di [letak zodiak dalam saju](/guide/zodiac). Cabang lainnya: [子 (Tikus)](/guide/branch-ja) · [寅 (Harimau)](/guide/branch-in) · [卯 (Kelinci)](/guide/branch-myo) · [辰 (Naga)](/guide/branch-jin) · [巳 (Ular)](/guide/branch-sa) · [午 (Kuda)](/guide/branch-o) · [未 (Domba)](/guide/branch-mi) · [申 (Monyet)](/guide/branch-sin) · [酉 (Ayam)](/guide/branch-yu) · [戌 (Anjing)](/guide/branch-sul) · [亥 (Babi)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-in": {
+    "eyebrow": "Cabang bumi",
+    "title": "寅 — cabang Harimau",
+    "summary": "Batang yang disimpan oleh cabang bumi 寅 (batang tersembunyi), kekuatan lima unsur ketika ia menjadi cabang bulan, dan Sepuluh Dewa yang terbaca untuk setiap batang hari — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "寅 adalah cabang bumi ketiga dari dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "寅 adalah cabang bumi ketiga dari dua belas cabang bumi dan termasuk dalam Harimau. Ketika cabang bulan lahir adalah 寅, musimnya adalah musim semi dan unsur yang menguasai musim itu adalah Kayu."
+          },
+          {
+            "p": "Ketika cabang hari lahir adalah 寅, karakter ini adalah posisi pasangan. Di bawah ini terlihat batang apa saja yang disimpan cabang ini dan apa artinya bagi batang hari."
+          }
+        ]
+      },
+      {
+        "title": "Batang yang disimpan cabang ini (batang tersembunyi)",
+        "blocks": [
+          {
+            "p": "Sebuah cabang adalah satu karakter yang terlihat, tetapi menyimpan batang di dalamnya. Porsi menunjukkan bagaimana tiga puluh hari cabang itu dibagi di antara batang-batangnya, dan batang utama adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari 寅",
+              "head": [
+                "Batang",
+                "Unsur dan polaritas",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "sisa (餘氣)",
+                  "{hidInYeo}"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "tengah (中氣)",
+                  "{hidInJung}"
+                ],
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "utama (本氣)",
+                  "{hidInBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kekuatan lima unsur ketika cabang bulan adalah 寅",
+        "blocks": [
+          {
+            "p": "Ketika cabang bulan lahir adalah 寅, setiap unsur mendapat satu keadaan (Wang, Sang, Hyu, Su, Sa), dan keadaan itu menjadi pengali yang diterapkan pada kekuatannya."
+          },
+          {
+            "table": {
+              "caption": "Keadaan unsur untuk cabang bulan 寅 (musim semi)",
+              "head": [
+                "Unsur",
+                "Keadaan",
+                "Pengali"
+              ],
+              "rows": [
+                [
+                  "Kayu",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Api",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Tanah",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Logam",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Air",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh Dewa menurut batang hari",
+        "blocks": [
+          {
+            "p": "Batang tersembunyi 寅 yang sama menjadi Sepuluh Dewa yang berbeda tergantung batang hari. Ketika 寅 adalah cabang hari, tabel ini adalah pembacaan posisi pasangan."
+          },
+          {
+            "table": {
+              "caption": "Apa arti batang tersembunyi 寅 bagi setiap batang hari",
+              "head": [
+                "Batang hari",
+                "Tanah Yang (戊) — sisa (餘氣)",
+                "Api Yang (丙) — tengah (中氣)",
+                "Kayu Yang (甲) — utama (本氣)"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Ekspresi (食神)",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Rezeki Tetap (正財)",
+                  "Pengusik (傷官)",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Ekspresi (食神)",
+                  "Rekan Sejajar (比肩)",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Pengusik (傷官)",
+                  "Saingan (劫財)",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Rekan Sejajar (比肩)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Saingan (劫財)",
+                  "Pengasuhan (正印)",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Penantang (偏官)",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Pengasuhan (正印)",
+                  "Wibawa (正官)",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Penantang (偏官)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Wibawa (正官)",
+                  "Rezeki Tetap (正財)",
+                  "Pengusik (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu cabang tidak menentukan seseorang. Cabang yang sama terbaca berbeda tergantung batang hari dan cabang bulan.",
+              "Hubungan antarcabang seperti harmoni, benturan, dan ketidakselarasan tidak dibahas di sini."
+            ]
+          },
+          {
+            "p": "Hubungan antarcabang ada di [bagan dua belas cabang](/guide/branches), dan maknanya sebagai hewan zodiak ada di [letak zodiak dalam saju](/guide/zodiac). Cabang lainnya: [子 (Tikus)](/guide/branch-ja) · [丑 (Sapi)](/guide/branch-chuk) · [卯 (Kelinci)](/guide/branch-myo) · [辰 (Naga)](/guide/branch-jin) · [巳 (Ular)](/guide/branch-sa) · [午 (Kuda)](/guide/branch-o) · [未 (Domba)](/guide/branch-mi) · [申 (Monyet)](/guide/branch-sin) · [酉 (Ayam)](/guide/branch-yu) · [戌 (Anjing)](/guide/branch-sul) · [亥 (Babi)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-myo": {
+    "eyebrow": "Cabang bumi",
+    "title": "卯 — cabang Kelinci",
+    "summary": "Batang yang disimpan oleh cabang bumi 卯 (batang tersembunyi), kekuatan lima unsur ketika ia menjadi cabang bulan, dan Sepuluh Dewa yang terbaca untuk setiap batang hari — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "卯 adalah cabang bumi keempat dari dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "卯 adalah cabang bumi keempat dari dua belas cabang bumi dan termasuk dalam Kelinci. Ketika cabang bulan lahir adalah 卯, musimnya adalah musim semi dan unsur yang menguasai musim itu adalah Kayu."
+          },
+          {
+            "p": "Ketika cabang hari lahir adalah 卯, karakter ini adalah posisi pasangan. Di bawah ini terlihat batang apa saja yang disimpan cabang ini dan apa artinya bagi batang hari."
+          }
+        ]
+      },
+      {
+        "title": "Batang yang disimpan cabang ini (batang tersembunyi)",
+        "blocks": [
+          {
+            "p": "Sebuah cabang adalah satu karakter yang terlihat, tetapi menyimpan batang di dalamnya. Porsi menunjukkan bagaimana tiga puluh hari cabang itu dibagi di antara batang-batangnya, dan batang utama adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari 卯",
+              "head": [
+                "Batang",
+                "Unsur dan polaritas",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "sisa (餘氣)",
+                  "{hidMyoYeo}"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "utama (本氣)",
+                  "{hidMyoBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kekuatan lima unsur ketika cabang bulan adalah 卯",
+        "blocks": [
+          {
+            "p": "Ketika cabang bulan lahir adalah 卯, setiap unsur mendapat satu keadaan (Wang, Sang, Hyu, Su, Sa), dan keadaan itu menjadi pengali yang diterapkan pada kekuatannya."
+          },
+          {
+            "table": {
+              "caption": "Keadaan unsur untuk cabang bulan 卯 (musim semi)",
+              "head": [
+                "Unsur",
+                "Keadaan",
+                "Pengali"
+              ],
+              "rows": [
+                [
+                  "Kayu",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Api",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Tanah",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Logam",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Air",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh Dewa menurut batang hari",
+        "blocks": [
+          {
+            "p": "Batang tersembunyi 卯 yang sama menjadi Sepuluh Dewa yang berbeda tergantung batang hari. Ketika 卯 adalah cabang hari, tabel ini adalah pembacaan posisi pasangan."
+          },
+          {
+            "table": {
+              "caption": "Apa arti batang tersembunyi 卯 bagi setiap batang hari",
+              "head": [
+                "Batang hari",
+                "Kayu Yang (甲) — sisa (餘氣)",
+                "Kayu Yin (乙) — utama (本氣)"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Rekan Sejajar (比肩)",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Saingan (劫財)",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Pengasuhan (正印)",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Penantang (偏官)",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Wibawa (正官)",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Rezeki Tetap (正財)",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Ekspresi (食神)",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Pengusik (傷官)",
+                  "Ekspresi (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu cabang tidak menentukan seseorang. Cabang yang sama terbaca berbeda tergantung batang hari dan cabang bulan.",
+              "Hubungan antarcabang seperti harmoni, benturan, dan ketidakselarasan tidak dibahas di sini."
+            ]
+          },
+          {
+            "p": "Hubungan antarcabang ada di [bagan dua belas cabang](/guide/branches), dan maknanya sebagai hewan zodiak ada di [letak zodiak dalam saju](/guide/zodiac). Cabang lainnya: [子 (Tikus)](/guide/branch-ja) · [丑 (Sapi)](/guide/branch-chuk) · [寅 (Harimau)](/guide/branch-in) · [辰 (Naga)](/guide/branch-jin) · [巳 (Ular)](/guide/branch-sa) · [午 (Kuda)](/guide/branch-o) · [未 (Domba)](/guide/branch-mi) · [申 (Monyet)](/guide/branch-sin) · [酉 (Ayam)](/guide/branch-yu) · [戌 (Anjing)](/guide/branch-sul) · [亥 (Babi)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-jin": {
+    "eyebrow": "Cabang bumi",
+    "title": "辰 — cabang Naga",
+    "summary": "Batang yang disimpan oleh cabang bumi 辰 (batang tersembunyi), kekuatan lima unsur ketika ia menjadi cabang bulan, dan Sepuluh Dewa yang terbaca untuk setiap batang hari — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "辰 adalah cabang bumi kelima dari dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "辰 adalah cabang bumi kelima dari dua belas cabang bumi dan termasuk dalam Naga. Ketika cabang bulan lahir adalah 辰, musimnya adalah musim semi dan unsur yang menguasai musim itu adalah Kayu. Ini adalah bulan transisi (辰未戌丑), sehingga Tanah juga dihitung berada dalam keadaan Wang."
+          },
+          {
+            "p": "Ketika cabang hari lahir adalah 辰, karakter ini adalah posisi pasangan. Di bawah ini terlihat batang apa saja yang disimpan cabang ini dan apa artinya bagi batang hari."
+          }
+        ]
+      },
+      {
+        "title": "Batang yang disimpan cabang ini (batang tersembunyi)",
+        "blocks": [
+          {
+            "p": "Sebuah cabang adalah satu karakter yang terlihat, tetapi menyimpan batang di dalamnya. Porsi menunjukkan bagaimana tiga puluh hari cabang itu dibagi di antara batang-batangnya, dan batang utama adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari 辰",
+              "head": [
+                "Batang",
+                "Unsur dan polaritas",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "sisa (餘氣)",
+                  "{hidJinYeo}"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Air Yin",
+                  "tengah (中氣)",
+                  "{hidJinJung}"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "utama (本氣)",
+                  "{hidJinBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kekuatan lima unsur ketika cabang bulan adalah 辰",
+        "blocks": [
+          {
+            "p": "Ketika cabang bulan lahir adalah 辰, setiap unsur mendapat satu keadaan (Wang, Sang, Hyu, Su, Sa), dan keadaan itu menjadi pengali yang diterapkan pada kekuatannya."
+          },
+          {
+            "table": {
+              "caption": "Keadaan unsur untuk cabang bulan 辰 (musim semi (bulan transisi))",
+              "head": [
+                "Unsur",
+                "Keadaan",
+                "Pengali"
+              ],
+              "rows": [
+                [
+                  "Kayu",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Api",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Tanah",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Logam",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Air",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh Dewa menurut batang hari",
+        "blocks": [
+          {
+            "p": "Batang tersembunyi 辰 yang sama menjadi Sepuluh Dewa yang berbeda tergantung batang hari. Ketika 辰 adalah cabang hari, tabel ini adalah pembacaan posisi pasangan."
+          },
+          {
+            "table": {
+              "caption": "Apa arti batang tersembunyi 辰 bagi setiap batang hari",
+              "head": [
+                "Batang hari",
+                "Kayu Yin (乙) — sisa (餘氣)",
+                "Air Yin (癸) — tengah (中氣)",
+                "Tanah Yang (戊) — utama (本氣)"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Saingan (劫財)",
+                  "Pengasuhan (正印)",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Rekan Sejajar (比肩)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Pengasuhan (正印)",
+                  "Wibawa (正官)",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Penantang (偏官)",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Wibawa (正官)",
+                  "Rezeki Tetap (正財)",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Penantang (偏官)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Rezeki Tetap (正財)",
+                  "Pengusik (傷官)",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Ekspresi (食神)",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Pengusik (傷官)",
+                  "Saingan (劫財)",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Ekspresi (食神)",
+                  "Rekan Sejajar (比肩)",
+                  "Wibawa (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu cabang tidak menentukan seseorang. Cabang yang sama terbaca berbeda tergantung batang hari dan cabang bulan.",
+              "Hubungan antarcabang seperti harmoni, benturan, dan ketidakselarasan tidak dibahas di sini."
+            ]
+          },
+          {
+            "p": "Hubungan antarcabang ada di [bagan dua belas cabang](/guide/branches), dan maknanya sebagai hewan zodiak ada di [letak zodiak dalam saju](/guide/zodiac). Cabang lainnya: [子 (Tikus)](/guide/branch-ja) · [丑 (Sapi)](/guide/branch-chuk) · [寅 (Harimau)](/guide/branch-in) · [卯 (Kelinci)](/guide/branch-myo) · [巳 (Ular)](/guide/branch-sa) · [午 (Kuda)](/guide/branch-o) · [未 (Domba)](/guide/branch-mi) · [申 (Monyet)](/guide/branch-sin) · [酉 (Ayam)](/guide/branch-yu) · [戌 (Anjing)](/guide/branch-sul) · [亥 (Babi)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sa": {
+    "eyebrow": "Cabang bumi",
+    "title": "巳 — cabang Ular",
+    "summary": "Batang yang disimpan oleh cabang bumi 巳 (batang tersembunyi), kekuatan lima unsur ketika ia menjadi cabang bulan, dan Sepuluh Dewa yang terbaca untuk setiap batang hari — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "巳 adalah cabang bumi keenam dari dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "巳 adalah cabang bumi keenam dari dua belas cabang bumi dan termasuk dalam Ular. Ketika cabang bulan lahir adalah 巳, musimnya adalah musim panas dan unsur yang menguasai musim itu adalah Api."
+          },
+          {
+            "p": "Ketika cabang hari lahir adalah 巳, karakter ini adalah posisi pasangan. Di bawah ini terlihat batang apa saja yang disimpan cabang ini dan apa artinya bagi batang hari."
+          }
+        ]
+      },
+      {
+        "title": "Batang yang disimpan cabang ini (batang tersembunyi)",
+        "blocks": [
+          {
+            "p": "Sebuah cabang adalah satu karakter yang terlihat, tetapi menyimpan batang di dalamnya. Porsi menunjukkan bagaimana tiga puluh hari cabang itu dibagi di antara batang-batangnya, dan batang utama adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari 巳",
+              "head": [
+                "Batang",
+                "Unsur dan polaritas",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "sisa (餘氣)",
+                  "{hidSaYeo}"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "tengah (中氣)",
+                  "{hidSaJung}"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "utama (本氣)",
+                  "{hidSaBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kekuatan lima unsur ketika cabang bulan adalah 巳",
+        "blocks": [
+          {
+            "p": "Ketika cabang bulan lahir adalah 巳, setiap unsur mendapat satu keadaan (Wang, Sang, Hyu, Su, Sa), dan keadaan itu menjadi pengali yang diterapkan pada kekuatannya."
+          },
+          {
+            "table": {
+              "caption": "Keadaan unsur untuk cabang bulan 巳 (musim panas)",
+              "head": [
+                "Unsur",
+                "Keadaan",
+                "Pengali"
+              ],
+              "rows": [
+                [
+                  "Kayu",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Api",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Tanah",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Logam",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Air",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh Dewa menurut batang hari",
+        "blocks": [
+          {
+            "p": "Batang tersembunyi 巳 yang sama menjadi Sepuluh Dewa yang berbeda tergantung batang hari. Ketika 巳 adalah cabang hari, tabel ini adalah pembacaan posisi pasangan."
+          },
+          {
+            "table": {
+              "caption": "Apa arti batang tersembunyi 巳 bagi setiap batang hari",
+              "head": [
+                "Batang hari",
+                "Tanah Yang (戊) — sisa (餘氣)",
+                "Logam Yang (庚) — tengah (中氣)",
+                "Api Yang (丙) — utama (本氣)"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Penantang (偏官)",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Rezeki Tetap (正財)",
+                  "Wibawa (正官)",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Ekspresi (食神)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Pengusik (傷官)",
+                  "Rezeki Tetap (正財)",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Rekan Sejajar (比肩)",
+                  "Ekspresi (食神)",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Saingan (劫財)",
+                  "Pengusik (傷官)",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Rekan Sejajar (比肩)",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Pengasuhan (正印)",
+                  "Saingan (劫財)",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Penantang (偏官)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Wibawa (正官)",
+                  "Pengasuhan (正印)",
+                  "Rezeki Tetap (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu cabang tidak menentukan seseorang. Cabang yang sama terbaca berbeda tergantung batang hari dan cabang bulan.",
+              "Hubungan antarcabang seperti harmoni, benturan, dan ketidakselarasan tidak dibahas di sini."
+            ]
+          },
+          {
+            "p": "Hubungan antarcabang ada di [bagan dua belas cabang](/guide/branches), dan maknanya sebagai hewan zodiak ada di [letak zodiak dalam saju](/guide/zodiac). Cabang lainnya: [子 (Tikus)](/guide/branch-ja) · [丑 (Sapi)](/guide/branch-chuk) · [寅 (Harimau)](/guide/branch-in) · [卯 (Kelinci)](/guide/branch-myo) · [辰 (Naga)](/guide/branch-jin) · [午 (Kuda)](/guide/branch-o) · [未 (Domba)](/guide/branch-mi) · [申 (Monyet)](/guide/branch-sin) · [酉 (Ayam)](/guide/branch-yu) · [戌 (Anjing)](/guide/branch-sul) · [亥 (Babi)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-o": {
+    "eyebrow": "Cabang bumi",
+    "title": "午 — cabang Kuda",
+    "summary": "Batang yang disimpan oleh cabang bumi 午 (batang tersembunyi), kekuatan lima unsur ketika ia menjadi cabang bulan, dan Sepuluh Dewa yang terbaca untuk setiap batang hari — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "午 adalah cabang bumi ketujuh dari dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "午 adalah cabang bumi ketujuh dari dua belas cabang bumi dan termasuk dalam Kuda. Ketika cabang bulan lahir adalah 午, musimnya adalah musim panas dan unsur yang menguasai musim itu adalah Api."
+          },
+          {
+            "p": "Ketika cabang hari lahir adalah 午, karakter ini adalah posisi pasangan. Di bawah ini terlihat batang apa saja yang disimpan cabang ini dan apa artinya bagi batang hari."
+          }
+        ]
+      },
+      {
+        "title": "Batang yang disimpan cabang ini (batang tersembunyi)",
+        "blocks": [
+          {
+            "p": "Sebuah cabang adalah satu karakter yang terlihat, tetapi menyimpan batang di dalamnya. Porsi menunjukkan bagaimana tiga puluh hari cabang itu dibagi di antara batang-batangnya, dan batang utama adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari 午",
+              "head": [
+                "Batang",
+                "Unsur dan polaritas",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "Api Yang (丙)",
+                  "Api Yang",
+                  "sisa (餘氣)",
+                  "{hidOYeo}"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "tengah (中氣)",
+                  "{hidOJung}"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "utama (本氣)",
+                  "{hidOBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kekuatan lima unsur ketika cabang bulan adalah 午",
+        "blocks": [
+          {
+            "p": "Ketika cabang bulan lahir adalah 午, setiap unsur mendapat satu keadaan (Wang, Sang, Hyu, Su, Sa), dan keadaan itu menjadi pengali yang diterapkan pada kekuatannya."
+          },
+          {
+            "table": {
+              "caption": "Keadaan unsur untuk cabang bulan 午 (musim panas)",
+              "head": [
+                "Unsur",
+                "Keadaan",
+                "Pengali"
+              ],
+              "rows": [
+                [
+                  "Kayu",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Api",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Tanah",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Logam",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Air",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh Dewa menurut batang hari",
+        "blocks": [
+          {
+            "p": "Batang tersembunyi 午 yang sama menjadi Sepuluh Dewa yang berbeda tergantung batang hari. Ketika 午 adalah cabang hari, tabel ini adalah pembacaan posisi pasangan."
+          },
+          {
+            "table": {
+              "caption": "Apa arti batang tersembunyi 午 bagi setiap batang hari",
+              "head": [
+                "Batang hari",
+                "Api Yang (丙) — sisa (餘氣)",
+                "Tanah Yin (己) — tengah (中氣)",
+                "Api Yin (丁) — utama (本氣)"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Ekspresi (食神)",
+                  "Rezeki Tetap (正財)",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Pengusik (傷官)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Rekan Sejajar (比肩)",
+                  "Pengusik (傷官)",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Saingan (劫財)",
+                  "Ekspresi (食神)",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Saingan (劫財)",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Pengasuhan (正印)",
+                  "Rekan Sejajar (比肩)",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Penantang (偏官)",
+                  "Pengasuhan (正印)",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Wibawa (正官)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Wibawa (正官)",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Rezeki Tetap (正財)",
+                  "Penantang (偏官)",
+                  "Rezeki Tak Terduga (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu cabang tidak menentukan seseorang. Cabang yang sama terbaca berbeda tergantung batang hari dan cabang bulan.",
+              "Hubungan antarcabang seperti harmoni, benturan, dan ketidakselarasan tidak dibahas di sini."
+            ]
+          },
+          {
+            "p": "Hubungan antarcabang ada di [bagan dua belas cabang](/guide/branches), dan maknanya sebagai hewan zodiak ada di [letak zodiak dalam saju](/guide/zodiac). Cabang lainnya: [子 (Tikus)](/guide/branch-ja) · [丑 (Sapi)](/guide/branch-chuk) · [寅 (Harimau)](/guide/branch-in) · [卯 (Kelinci)](/guide/branch-myo) · [辰 (Naga)](/guide/branch-jin) · [巳 (Ular)](/guide/branch-sa) · [未 (Domba)](/guide/branch-mi) · [申 (Monyet)](/guide/branch-sin) · [酉 (Ayam)](/guide/branch-yu) · [戌 (Anjing)](/guide/branch-sul) · [亥 (Babi)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-mi": {
+    "eyebrow": "Cabang bumi",
+    "title": "未 — cabang Domba",
+    "summary": "Batang yang disimpan oleh cabang bumi 未 (batang tersembunyi), kekuatan lima unsur ketika ia menjadi cabang bulan, dan Sepuluh Dewa yang terbaca untuk setiap batang hari — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "未 adalah cabang bumi kedelapan dari dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "未 adalah cabang bumi kedelapan dari dua belas cabang bumi dan termasuk dalam Domba. Ketika cabang bulan lahir adalah 未, musimnya adalah musim panas dan unsur yang menguasai musim itu adalah Api. Ini adalah bulan transisi (辰未戌丑), sehingga Tanah juga dihitung berada dalam keadaan Wang."
+          },
+          {
+            "p": "Ketika cabang hari lahir adalah 未, karakter ini adalah posisi pasangan. Di bawah ini terlihat batang apa saja yang disimpan cabang ini dan apa artinya bagi batang hari."
+          }
+        ]
+      },
+      {
+        "title": "Batang yang disimpan cabang ini (batang tersembunyi)",
+        "blocks": [
+          {
+            "p": "Sebuah cabang adalah satu karakter yang terlihat, tetapi menyimpan batang di dalamnya. Porsi menunjukkan bagaimana tiga puluh hari cabang itu dibagi di antara batang-batangnya, dan batang utama adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari 未",
+              "head": [
+                "Batang",
+                "Unsur dan polaritas",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "sisa (餘氣)",
+                  "{hidMiYeo}"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Kayu Yin",
+                  "tengah (中氣)",
+                  "{hidMiJung}"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Tanah Yin",
+                  "utama (本氣)",
+                  "{hidMiBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kekuatan lima unsur ketika cabang bulan adalah 未",
+        "blocks": [
+          {
+            "p": "Ketika cabang bulan lahir adalah 未, setiap unsur mendapat satu keadaan (Wang, Sang, Hyu, Su, Sa), dan keadaan itu menjadi pengali yang diterapkan pada kekuatannya."
+          },
+          {
+            "table": {
+              "caption": "Keadaan unsur untuk cabang bulan 未 (musim panas (bulan transisi))",
+              "head": [
+                "Unsur",
+                "Keadaan",
+                "Pengali"
+              ],
+              "rows": [
+                [
+                  "Kayu",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Api",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Tanah",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Logam",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Air",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh Dewa menurut batang hari",
+        "blocks": [
+          {
+            "p": "Batang tersembunyi 未 yang sama menjadi Sepuluh Dewa yang berbeda tergantung batang hari. Ketika 未 adalah cabang hari, tabel ini adalah pembacaan posisi pasangan."
+          },
+          {
+            "table": {
+              "caption": "Apa arti batang tersembunyi 未 bagi setiap batang hari",
+              "head": [
+                "Batang hari",
+                "Api Yin (丁) — sisa (餘氣)",
+                "Kayu Yin (乙) — tengah (中氣)",
+                "Tanah Yin (己) — utama (本氣)"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Pengusik (傷官)",
+                  "Saingan (劫財)",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Ekspresi (食神)",
+                  "Rekan Sejajar (比肩)",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Saingan (劫財)",
+                  "Pengasuhan (正印)",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Rekan Sejajar (比肩)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Pengasuhan (正印)",
+                  "Wibawa (正官)",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Penantang (偏官)",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Wibawa (正官)",
+                  "Rezeki Tetap (正財)",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Penantang (偏官)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Rezeki Tetap (正財)",
+                  "Pengusik (傷官)",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Ekspresi (食神)",
+                  "Penantang (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu cabang tidak menentukan seseorang. Cabang yang sama terbaca berbeda tergantung batang hari dan cabang bulan.",
+              "Hubungan antarcabang seperti harmoni, benturan, dan ketidakselarasan tidak dibahas di sini."
+            ]
+          },
+          {
+            "p": "Hubungan antarcabang ada di [bagan dua belas cabang](/guide/branches), dan maknanya sebagai hewan zodiak ada di [letak zodiak dalam saju](/guide/zodiac). Cabang lainnya: [子 (Tikus)](/guide/branch-ja) · [丑 (Sapi)](/guide/branch-chuk) · [寅 (Harimau)](/guide/branch-in) · [卯 (Kelinci)](/guide/branch-myo) · [辰 (Naga)](/guide/branch-jin) · [巳 (Ular)](/guide/branch-sa) · [午 (Kuda)](/guide/branch-o) · [申 (Monyet)](/guide/branch-sin) · [酉 (Ayam)](/guide/branch-yu) · [戌 (Anjing)](/guide/branch-sul) · [亥 (Babi)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sin": {
+    "eyebrow": "Cabang bumi",
+    "title": "申 — cabang Monyet",
+    "summary": "Batang yang disimpan oleh cabang bumi 申 (batang tersembunyi), kekuatan lima unsur ketika ia menjadi cabang bulan, dan Sepuluh Dewa yang terbaca untuk setiap batang hari — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "申 adalah cabang bumi kesembilan dari dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "申 adalah cabang bumi kesembilan dari dua belas cabang bumi dan termasuk dalam Monyet. Ketika cabang bulan lahir adalah 申, musimnya adalah musim gugur dan unsur yang menguasai musim itu adalah Logam."
+          },
+          {
+            "p": "Ketika cabang hari lahir adalah 申, karakter ini adalah posisi pasangan. Di bawah ini terlihat batang apa saja yang disimpan cabang ini dan apa artinya bagi batang hari."
+          }
+        ]
+      },
+      {
+        "title": "Batang yang disimpan cabang ini (batang tersembunyi)",
+        "blocks": [
+          {
+            "p": "Sebuah cabang adalah satu karakter yang terlihat, tetapi menyimpan batang di dalamnya. Porsi menunjukkan bagaimana tiga puluh hari cabang itu dibagi di antara batang-batangnya, dan batang utama adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari 申",
+              "head": [
+                "Batang",
+                "Unsur dan polaritas",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "sisa (餘氣)",
+                  "{hidSinYeo}"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "tengah (中氣)",
+                  "{hidSinJung}"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "utama (本氣)",
+                  "{hidSinBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kekuatan lima unsur ketika cabang bulan adalah 申",
+        "blocks": [
+          {
+            "p": "Ketika cabang bulan lahir adalah 申, setiap unsur mendapat satu keadaan (Wang, Sang, Hyu, Su, Sa), dan keadaan itu menjadi pengali yang diterapkan pada kekuatannya."
+          },
+          {
+            "table": {
+              "caption": "Keadaan unsur untuk cabang bulan 申 (musim gugur)",
+              "head": [
+                "Unsur",
+                "Keadaan",
+                "Pengali"
+              ],
+              "rows": [
+                [
+                  "Kayu",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Api",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Tanah",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Logam",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Air",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh Dewa menurut batang hari",
+        "blocks": [
+          {
+            "p": "Batang tersembunyi 申 yang sama menjadi Sepuluh Dewa yang berbeda tergantung batang hari. Ketika 申 adalah cabang hari, tabel ini adalah pembacaan posisi pasangan."
+          },
+          {
+            "table": {
+              "caption": "Apa arti batang tersembunyi 申 bagi setiap batang hari",
+              "head": [
+                "Batang hari",
+                "Tanah Yang (戊) — sisa (餘氣)",
+                "Air Yang (壬) — tengah (中氣)",
+                "Logam Yang (庚) — utama (本氣)"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Rezeki Tetap (正財)",
+                  "Pengasuhan (正印)",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Ekspresi (食神)",
+                  "Penantang (偏官)",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Pengusik (傷官)",
+                  "Wibawa (正官)",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Rekan Sejajar (比肩)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Saingan (劫財)",
+                  "Rezeki Tetap (正財)",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Ekspresi (食神)",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Pengasuhan (正印)",
+                  "Pengusik (傷官)",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Penantang (偏官)",
+                  "Rekan Sejajar (比肩)",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Wibawa (正官)",
+                  "Saingan (劫財)",
+                  "Pengasuhan (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu cabang tidak menentukan seseorang. Cabang yang sama terbaca berbeda tergantung batang hari dan cabang bulan.",
+              "Hubungan antarcabang seperti harmoni, benturan, dan ketidakselarasan tidak dibahas di sini."
+            ]
+          },
+          {
+            "p": "Hubungan antarcabang ada di [bagan dua belas cabang](/guide/branches), dan maknanya sebagai hewan zodiak ada di [letak zodiak dalam saju](/guide/zodiac). Cabang lainnya: [子 (Tikus)](/guide/branch-ja) · [丑 (Sapi)](/guide/branch-chuk) · [寅 (Harimau)](/guide/branch-in) · [卯 (Kelinci)](/guide/branch-myo) · [辰 (Naga)](/guide/branch-jin) · [巳 (Ular)](/guide/branch-sa) · [午 (Kuda)](/guide/branch-o) · [未 (Domba)](/guide/branch-mi) · [酉 (Ayam)](/guide/branch-yu) · [戌 (Anjing)](/guide/branch-sul) · [亥 (Babi)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-yu": {
+    "eyebrow": "Cabang bumi",
+    "title": "酉 — cabang Ayam",
+    "summary": "Batang yang disimpan oleh cabang bumi 酉 (batang tersembunyi), kekuatan lima unsur ketika ia menjadi cabang bulan, dan Sepuluh Dewa yang terbaca untuk setiap batang hari — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "酉 adalah cabang bumi kesepuluh dari dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "酉 adalah cabang bumi kesepuluh dari dua belas cabang bumi dan termasuk dalam Ayam. Ketika cabang bulan lahir adalah 酉, musimnya adalah musim gugur dan unsur yang menguasai musim itu adalah Logam."
+          },
+          {
+            "p": "Ketika cabang hari lahir adalah 酉, karakter ini adalah posisi pasangan. Di bawah ini terlihat batang apa saja yang disimpan cabang ini dan apa artinya bagi batang hari."
+          }
+        ]
+      },
+      {
+        "title": "Batang yang disimpan cabang ini (batang tersembunyi)",
+        "blocks": [
+          {
+            "p": "Sebuah cabang adalah satu karakter yang terlihat, tetapi menyimpan batang di dalamnya. Porsi menunjukkan bagaimana tiga puluh hari cabang itu dibagi di antara batang-batangnya, dan batang utama adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari 酉",
+              "head": [
+                "Batang",
+                "Unsur dan polaritas",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "Logam Yang (庚)",
+                  "Logam Yang",
+                  "sisa (餘氣)",
+                  "{hidYuYeo}"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "utama (本氣)",
+                  "{hidYuBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kekuatan lima unsur ketika cabang bulan adalah 酉",
+        "blocks": [
+          {
+            "p": "Ketika cabang bulan lahir adalah 酉, setiap unsur mendapat satu keadaan (Wang, Sang, Hyu, Su, Sa), dan keadaan itu menjadi pengali yang diterapkan pada kekuatannya."
+          },
+          {
+            "table": {
+              "caption": "Keadaan unsur untuk cabang bulan 酉 (musim gugur)",
+              "head": [
+                "Unsur",
+                "Keadaan",
+                "Pengali"
+              ],
+              "rows": [
+                [
+                  "Kayu",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Api",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Tanah",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Logam",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Air",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh Dewa menurut batang hari",
+        "blocks": [
+          {
+            "p": "Batang tersembunyi 酉 yang sama menjadi Sepuluh Dewa yang berbeda tergantung batang hari. Ketika 酉 adalah cabang hari, tabel ini adalah pembacaan posisi pasangan."
+          },
+          {
+            "table": {
+              "caption": "Apa arti batang tersembunyi 酉 bagi setiap batang hari",
+              "head": [
+                "Batang hari",
+                "Logam Yang (庚) — sisa (餘氣)",
+                "Logam Yin (辛) — utama (本氣)"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Penantang (偏官)",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Wibawa (正官)",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Rezeki Tetap (正財)",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Ekspresi (食神)",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Pengusik (傷官)",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Rekan Sejajar (比肩)",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Saingan (劫財)",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Pengasuhan (正印)",
+                  "Sokongan Tak Lazim (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu cabang tidak menentukan seseorang. Cabang yang sama terbaca berbeda tergantung batang hari dan cabang bulan.",
+              "Hubungan antarcabang seperti harmoni, benturan, dan ketidakselarasan tidak dibahas di sini."
+            ]
+          },
+          {
+            "p": "Hubungan antarcabang ada di [bagan dua belas cabang](/guide/branches), dan maknanya sebagai hewan zodiak ada di [letak zodiak dalam saju](/guide/zodiac). Cabang lainnya: [子 (Tikus)](/guide/branch-ja) · [丑 (Sapi)](/guide/branch-chuk) · [寅 (Harimau)](/guide/branch-in) · [卯 (Kelinci)](/guide/branch-myo) · [辰 (Naga)](/guide/branch-jin) · [巳 (Ular)](/guide/branch-sa) · [午 (Kuda)](/guide/branch-o) · [未 (Domba)](/guide/branch-mi) · [申 (Monyet)](/guide/branch-sin) · [戌 (Anjing)](/guide/branch-sul) · [亥 (Babi)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sul": {
+    "eyebrow": "Cabang bumi",
+    "title": "戌 — cabang Anjing",
+    "summary": "Batang yang disimpan oleh cabang bumi 戌 (batang tersembunyi), kekuatan lima unsur ketika ia menjadi cabang bulan, dan Sepuluh Dewa yang terbaca untuk setiap batang hari — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "戌 adalah cabang bumi kesebelas dari dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "戌 adalah cabang bumi kesebelas dari dua belas cabang bumi dan termasuk dalam Anjing. Ketika cabang bulan lahir adalah 戌, musimnya adalah musim gugur dan unsur yang menguasai musim itu adalah Logam. Ini adalah bulan transisi (辰未戌丑), sehingga Tanah juga dihitung berada dalam keadaan Wang."
+          },
+          {
+            "p": "Ketika cabang hari lahir adalah 戌, karakter ini adalah posisi pasangan. Di bawah ini terlihat batang apa saja yang disimpan cabang ini dan apa artinya bagi batang hari."
+          }
+        ]
+      },
+      {
+        "title": "Batang yang disimpan cabang ini (batang tersembunyi)",
+        "blocks": [
+          {
+            "p": "Sebuah cabang adalah satu karakter yang terlihat, tetapi menyimpan batang di dalamnya. Porsi menunjukkan bagaimana tiga puluh hari cabang itu dibagi di antara batang-batangnya, dan batang utama adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari 戌",
+              "head": [
+                "Batang",
+                "Unsur dan polaritas",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "Logam Yin (辛)",
+                  "Logam Yin",
+                  "sisa (餘氣)",
+                  "{hidSulYeo}"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Api Yin",
+                  "tengah (中氣)",
+                  "{hidSulJung}"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "utama (本氣)",
+                  "{hidSulBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kekuatan lima unsur ketika cabang bulan adalah 戌",
+        "blocks": [
+          {
+            "p": "Ketika cabang bulan lahir adalah 戌, setiap unsur mendapat satu keadaan (Wang, Sang, Hyu, Su, Sa), dan keadaan itu menjadi pengali yang diterapkan pada kekuatannya."
+          },
+          {
+            "table": {
+              "caption": "Keadaan unsur untuk cabang bulan 戌 (musim gugur (bulan transisi))",
+              "head": [
+                "Unsur",
+                "Keadaan",
+                "Pengali"
+              ],
+              "rows": [
+                [
+                  "Kayu",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Api",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Tanah",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Logam",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Air",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh Dewa menurut batang hari",
+        "blocks": [
+          {
+            "p": "Batang tersembunyi 戌 yang sama menjadi Sepuluh Dewa yang berbeda tergantung batang hari. Ketika 戌 adalah cabang hari, tabel ini adalah pembacaan posisi pasangan."
+          },
+          {
+            "table": {
+              "caption": "Apa arti batang tersembunyi 戌 bagi setiap batang hari",
+              "head": [
+                "Batang hari",
+                "Logam Yin (辛) — sisa (餘氣)",
+                "Api Yin (丁) — tengah (中氣)",
+                "Tanah Yang (戊) — utama (本氣)"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Wibawa (正官)",
+                  "Pengusik (傷官)",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Penantang (偏官)",
+                  "Ekspresi (食神)",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Rezeki Tetap (正財)",
+                  "Saingan (劫財)",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Rekan Sejajar (比肩)",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Pengusik (傷官)",
+                  "Pengasuhan (正印)",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Ekspresi (食神)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Saingan (劫財)",
+                  "Wibawa (正官)",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Rekan Sejajar (比肩)",
+                  "Penantang (偏官)",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Pengasuhan (正印)",
+                  "Rezeki Tetap (正財)",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Wibawa (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu cabang tidak menentukan seseorang. Cabang yang sama terbaca berbeda tergantung batang hari dan cabang bulan.",
+              "Hubungan antarcabang seperti harmoni, benturan, dan ketidakselarasan tidak dibahas di sini."
+            ]
+          },
+          {
+            "p": "Hubungan antarcabang ada di [bagan dua belas cabang](/guide/branches), dan maknanya sebagai hewan zodiak ada di [letak zodiak dalam saju](/guide/zodiac). Cabang lainnya: [子 (Tikus)](/guide/branch-ja) · [丑 (Sapi)](/guide/branch-chuk) · [寅 (Harimau)](/guide/branch-in) · [卯 (Kelinci)](/guide/branch-myo) · [辰 (Naga)](/guide/branch-jin) · [巳 (Ular)](/guide/branch-sa) · [午 (Kuda)](/guide/branch-o) · [未 (Domba)](/guide/branch-mi) · [申 (Monyet)](/guide/branch-sin) · [酉 (Ayam)](/guide/branch-yu) · [亥 (Babi)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-hae": {
+    "eyebrow": "Cabang bumi",
+    "title": "亥 — cabang Babi",
+    "summary": "Batang yang disimpan oleh cabang bumi 亥 (batang tersembunyi), kekuatan lima unsur ketika ia menjadi cabang bulan, dan Sepuluh Dewa yang terbaca untuk setiap batang hari — disusun persis seperti aturan perhitungan Saju-Link.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "亥 adalah cabang bumi kedua belas dari dua belas cabang bumi",
+        "blocks": [
+          {
+            "p": "亥 adalah cabang bumi kedua belas dari dua belas cabang bumi dan termasuk dalam Babi. Ketika cabang bulan lahir adalah 亥, musimnya adalah musim dingin dan unsur yang menguasai musim itu adalah Air."
+          },
+          {
+            "p": "Ketika cabang hari lahir adalah 亥, karakter ini adalah posisi pasangan. Di bawah ini terlihat batang apa saja yang disimpan cabang ini dan apa artinya bagi batang hari."
+          }
+        ]
+      },
+      {
+        "title": "Batang yang disimpan cabang ini (batang tersembunyi)",
+        "blocks": [
+          {
+            "p": "Sebuah cabang adalah satu karakter yang terlihat, tetapi menyimpan batang di dalamnya. Porsi menunjukkan bagaimana tiga puluh hari cabang itu dibagi di antara batang-batangnya, dan batang utama adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari 亥",
+              "head": [
+                "Batang",
+                "Unsur dan polaritas",
+                "Posisi",
+                "Porsi"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "Tanah Yang",
+                  "sisa (餘氣)",
+                  "{hidHaeYeo}"
+                ],
+                [
+                  "Kayu Yang (甲)",
+                  "Kayu Yang",
+                  "tengah (中氣)",
+                  "{hidHaeJung}"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Air Yang",
+                  "utama (本氣)",
+                  "{hidHaeBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Kekuatan lima unsur ketika cabang bulan adalah 亥",
+        "blocks": [
+          {
+            "p": "Ketika cabang bulan lahir adalah 亥, setiap unsur mendapat satu keadaan (Wang, Sang, Hyu, Su, Sa), dan keadaan itu menjadi pengali yang diterapkan pada kekuatannya."
+          },
+          {
+            "table": {
+              "caption": "Keadaan unsur untuk cabang bulan 亥 (musim dingin)",
+              "head": [
+                "Unsur",
+                "Keadaan",
+                "Pengali"
+              ],
+              "rows": [
+                [
+                  "Kayu",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Api",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Tanah",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Logam",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Air",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Sepuluh Dewa menurut batang hari",
+        "blocks": [
+          {
+            "p": "Batang tersembunyi 亥 yang sama menjadi Sepuluh Dewa yang berbeda tergantung batang hari. Ketika 亥 adalah cabang hari, tabel ini adalah pembacaan posisi pasangan."
+          },
+          {
+            "table": {
+              "caption": "Apa arti batang tersembunyi 亥 bagi setiap batang hari",
+              "head": [
+                "Batang hari",
+                "Tanah Yang (戊) — sisa (餘氣)",
+                "Kayu Yang (甲) — tengah (中氣)",
+                "Air Yang (壬) — utama (本氣)"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Rekan Sejajar (比肩)",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "Rezeki Tetap (正財)",
+                  "Saingan (劫財)",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "Ekspresi (食神)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "Pengusik (傷官)",
+                  "Pengasuhan (正印)",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "Rekan Sejajar (比肩)",
+                  "Penantang (偏官)",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "Saingan (劫財)",
+                  "Wibawa (正官)",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "Sokongan Tak Lazim (偏印)",
+                  "Rezeki Tak Terduga (偏財)",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "Pengasuhan (正印)",
+                  "Rezeki Tetap (正財)",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "Penantang (偏官)",
+                  "Ekspresi (食神)",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "Wibawa (正官)",
+                  "Pengusik (傷官)",
+                  "Saingan (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu cabang tidak menentukan seseorang. Cabang yang sama terbaca berbeda tergantung batang hari dan cabang bulan.",
+              "Hubungan antarcabang seperti harmoni, benturan, dan ketidakselarasan tidak dibahas di sini."
+            ]
+          },
+          {
+            "p": "Hubungan antarcabang ada di [bagan dua belas cabang](/guide/branches), dan maknanya sebagai hewan zodiak ada di [letak zodiak dalam saju](/guide/zodiac). Cabang lainnya: [子 (Tikus)](/guide/branch-ja) · [丑 (Sapi)](/guide/branch-chuk) · [寅 (Harimau)](/guide/branch-in) · [卯 (Kelinci)](/guide/branch-myo) · [辰 (Naga)](/guide/branch-jin) · [巳 (Ular)](/guide/branch-sa) · [午 (Kuda)](/guide/branch-o) · [未 (Domba)](/guide/branch-mi) · [申 (Monyet)](/guide/branch-sin) · [酉 (Ayam)](/guide/branch-yu) · [戌 (Anjing)](/guide/branch-sul)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-ja": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 甲子",
+    "summary": "Cara Saju-Link membaca pilar hari 甲子 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "甲子 adalah pilar hari nomor 1 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 甲子, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 1."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”, dan kalimat yang ditampilkan layar hasil adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 子 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 甲, batang yang disimpan 子 adalah sebagai berikut. Batang utama (癸) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 甲子",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 甲"
+              ],
+              "rows": [
+                [
+                  "Air Yang (壬)",
+                  "sisa (餘氣)",
+                  "{hidJaYeo}",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "utama (本氣)",
+                  "{hidJaBon}",
+                  "Pengasuhan (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 甲 sebagai batang hari, Rezeki Tetap adalah 己 dan Wibawa adalah 辛."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 己. 己 tidak terkandung di dalam 子."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 辛. 辛 tidak terkandung di dalam 子."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [癸亥](/guide/pillar-gye-hae) dan berikutnya adalah [乙丑](/guide/pillar-eul-chuk)."
+          },
+          {
+            "p": "Terdiri dari [Kayu Yang (甲)](/guide/stem-gap) dan [子 (Tikus)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-chuk": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 乙丑",
+    "summary": "Cara Saju-Link membaca pilar hari 乙丑 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "乙丑 adalah pilar hari nomor 2 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 乙丑, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 2."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 丑 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 乙, batang yang disimpan 丑 adalah sebagai berikut. Batang utama (己) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 乙丑",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 乙"
+              ],
+              "rows": [
+                [
+                  "Air Yin (癸)",
+                  "sisa (餘氣)",
+                  "{hidChukYeo}",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "tengah (中氣)",
+                  "{hidChukJung}",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "utama (本氣)",
+                  "{hidChukBon}",
+                  "Rezeki Tak Terduga (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 乙 sebagai batang hari, Rezeki Tetap adalah 戊 dan Wibawa adalah 庚."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 戊. 戊 tidak terkandung di dalam 丑."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 庚. 庚 tidak terkandung di dalam 丑."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [甲子](/guide/pillar-gap-ja) dan berikutnya adalah [丙寅](/guide/pillar-byeong-in)."
+          },
+          {
+            "p": "Terdiri dari [Kayu Yin (乙)](/guide/stem-eul) dan [丑 (Sapi)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-in": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 丙寅",
+    "summary": "Cara Saju-Link membaca pilar hari 丙寅 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丙寅 adalah pilar hari nomor 3 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 丙寅, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 3."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 寅 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 丙, batang yang disimpan 寅 adalah sebagai berikut. Batang utama (甲) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 丙寅",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 丙"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidInYeo}",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "tengah (中氣)",
+                  "{hidInJung}",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Kayu Yang (甲)",
+                  "utama (本氣)",
+                  "{hidInBon}",
+                  "Sokongan Tak Lazim (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丙 sebagai batang hari, Rezeki Tetap adalah 辛 dan Wibawa adalah 癸."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 辛. 辛 tidak terkandung di dalam 寅."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 癸. 癸 tidak terkandung di dalam 寅."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [乙丑](/guide/pillar-eul-chuk) dan berikutnya adalah [丁卯](/guide/pillar-jeong-myo)."
+          },
+          {
+            "p": "Terdiri dari [Api Yang (丙)](/guide/stem-byeong) dan [寅 (Harimau)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-myo": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 丁卯",
+    "summary": "Cara Saju-Link membaca pilar hari 丁卯 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丁卯 adalah pilar hari nomor 4 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 丁卯, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 4."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”, dan kalimat yang ditampilkan layar hasil adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 卯 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 丁, batang yang disimpan 卯 adalah sebagai berikut. Batang utama (乙) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 丁卯",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 丁"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "sisa (餘氣)",
+                  "{hidMyoYeo}",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "utama (本氣)",
+                  "{hidMyoBon}",
+                  "Sokongan Tak Lazim (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丁 sebagai batang hari, Rezeki Tetap adalah 庚 dan Wibawa adalah 壬."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 庚. 庚 tidak terkandung di dalam 卯."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 壬. 壬 tidak terkandung di dalam 卯."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丙寅](/guide/pillar-byeong-in) dan berikutnya adalah [戊辰](/guide/pillar-mu-jin)."
+          },
+          {
+            "p": "Terdiri dari [Api Yin (丁)](/guide/stem-jeong) dan [卯 (Kelinci)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-jin": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 戊辰",
+    "summary": "Cara Saju-Link membaca pilar hari 戊辰 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "戊辰 adalah pilar hari nomor 5 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 戊辰, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 5."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 辰 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 戊, batang yang disimpan 辰 adalah sebagai berikut. Batang utama (戊) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 戊辰",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 戊"
+              ],
+              "rows": [
+                [
+                  "Kayu Yin (乙)",
+                  "sisa (餘氣)",
+                  "{hidJinYeo}",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "tengah (中氣)",
+                  "{hidJinJung}",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "utama (本氣)",
+                  "{hidJinBon}",
+                  "Rekan Sejajar (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 戊 sebagai batang hari, Rezeki Tetap adalah 癸 dan Wibawa adalah 乙."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 癸. 癸 terkandung di dalam 辰 (tengah (中氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 乙. 乙 terkandung di dalam 辰 (sisa (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丁卯](/guide/pillar-jeong-myo) dan berikutnya adalah [己巳](/guide/pillar-gi-sa)."
+          },
+          {
+            "p": "Terdiri dari [Tanah Yang (戊)](/guide/stem-mu) dan [辰 (Naga)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-sa": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 己巳",
+    "summary": "Cara Saju-Link membaca pilar hari 己巳 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "己巳 adalah pilar hari nomor 6 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 己巳, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 6."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 巳 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 己, batang yang disimpan 巳 adalah sebagai berikut. Batang utama (丙) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 己巳",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 己"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidSaYeo}",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "tengah (中氣)",
+                  "{hidSaJung}",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "utama (本氣)",
+                  "{hidSaBon}",
+                  "Pengasuhan (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 己 sebagai batang hari, Rezeki Tetap adalah 壬 dan Wibawa adalah 甲."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 壬. 壬 tidak terkandung di dalam 巳."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 甲. 甲 tidak terkandung di dalam 巳."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [戊辰](/guide/pillar-mu-jin) dan berikutnya adalah [庚午](/guide/pillar-gyeong-o)."
+          },
+          {
+            "p": "Terdiri dari [Tanah Yin (己)](/guide/stem-gi) dan [巳 (Ular)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-o": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 庚午",
+    "summary": "Cara Saju-Link membaca pilar hari 庚午 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "庚午 adalah pilar hari nomor 7 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 庚午, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 7."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”, dan kalimat yang ditampilkan layar hasil adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 午 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 庚, batang yang disimpan 午 adalah sebagai berikut. Batang utama (丁) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 庚午",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 庚"
+              ],
+              "rows": [
+                [
+                  "Api Yang (丙)",
+                  "sisa (餘氣)",
+                  "{hidOYeo}",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "tengah (中氣)",
+                  "{hidOJung}",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "utama (本氣)",
+                  "{hidOBon}",
+                  "Wibawa (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 庚 sebagai batang hari, Rezeki Tetap adalah 乙 dan Wibawa adalah 丁."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 乙. 乙 tidak terkandung di dalam 午."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 丁. 丁 terkandung di dalam 午 (utama (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [己巳](/guide/pillar-gi-sa) dan berikutnya adalah [辛未](/guide/pillar-sin-mi)."
+          },
+          {
+            "p": "Terdiri dari [Logam Yang (庚)](/guide/stem-gyeong) dan [午 (Kuda)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-mi": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 辛未",
+    "summary": "Cara Saju-Link membaca pilar hari 辛未 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "辛未 adalah pilar hari nomor 8 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 辛未, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 8."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”, dan kalimat yang ditampilkan layar hasil adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 未 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 辛, batang yang disimpan 未 adalah sebagai berikut. Batang utama (己) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 辛未",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 辛"
+              ],
+              "rows": [
+                [
+                  "Api Yin (丁)",
+                  "sisa (餘氣)",
+                  "{hidMiYeo}",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "tengah (中氣)",
+                  "{hidMiJung}",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "utama (本氣)",
+                  "{hidMiBon}",
+                  "Sokongan Tak Lazim (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 辛 sebagai batang hari, Rezeki Tetap adalah 甲 dan Wibawa adalah 丙."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 甲. 甲 tidak terkandung di dalam 未."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 丙. 丙 tidak terkandung di dalam 未."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [庚午](/guide/pillar-gyeong-o) dan berikutnya adalah [壬申](/guide/pillar-im-sin)."
+          },
+          {
+            "p": "Terdiri dari [Logam Yin (辛)](/guide/stem-sin) dan [未 (Domba)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-sin": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 壬申",
+    "summary": "Cara Saju-Link membaca pilar hari 壬申 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "壬申 adalah pilar hari nomor 9 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 壬申, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 9."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 申 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 壬, batang yang disimpan 申 adalah sebagai berikut. Batang utama (庚) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 壬申",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 壬"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidSinYeo}",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "tengah (中氣)",
+                  "{hidSinJung}",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "utama (本氣)",
+                  "{hidSinBon}",
+                  "Sokongan Tak Lazim (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 壬 sebagai batang hari, Rezeki Tetap adalah 丁 dan Wibawa adalah 己."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 丁. 丁 tidak terkandung di dalam 申."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 己. 己 tidak terkandung di dalam 申."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [辛未](/guide/pillar-sin-mi) dan berikutnya adalah [癸酉](/guide/pillar-gye-yu)."
+          },
+          {
+            "p": "Terdiri dari [Air Yang (壬)](/guide/stem-im) dan [申 (Monyet)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-yu": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 癸酉",
+    "summary": "Cara Saju-Link membaca pilar hari 癸酉 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "癸酉 adalah pilar hari nomor 10 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 癸酉, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 10."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”, dan kalimat yang ditampilkan layar hasil adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 酉 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 癸, batang yang disimpan 酉 adalah sebagai berikut. Batang utama (辛) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 癸酉",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 癸"
+              ],
+              "rows": [
+                [
+                  "Logam Yang (庚)",
+                  "sisa (餘氣)",
+                  "{hidYuYeo}",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "utama (本氣)",
+                  "{hidYuBon}",
+                  "Sokongan Tak Lazim (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 癸 sebagai batang hari, Rezeki Tetap adalah 丙 dan Wibawa adalah 戊."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 丙. 丙 tidak terkandung di dalam 酉."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 戊. 戊 tidak terkandung di dalam 酉."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [壬申](/guide/pillar-im-sin) dan berikutnya adalah [甲戌](/guide/pillar-gap-sul)."
+          },
+          {
+            "p": "Terdiri dari [Air Yin (癸)](/guide/stem-gye) dan [酉 (Ayam)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-sul": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 甲戌",
+    "summary": "Cara Saju-Link membaca pilar hari 甲戌 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "甲戌 adalah pilar hari nomor 11 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 甲戌, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 11."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”, dan kalimat yang ditampilkan layar hasil adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 戌 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 甲, batang yang disimpan 戌 adalah sebagai berikut. Batang utama (戊) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 甲戌",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 甲"
+              ],
+              "rows": [
+                [
+                  "Logam Yin (辛)",
+                  "sisa (餘氣)",
+                  "{hidSulYeo}",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "tengah (中氣)",
+                  "{hidSulJung}",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "utama (本氣)",
+                  "{hidSulBon}",
+                  "Rezeki Tak Terduga (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 甲 sebagai batang hari, Rezeki Tetap adalah 己 dan Wibawa adalah 辛."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 己. 己 tidak terkandung di dalam 戌."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 辛. 辛 terkandung di dalam 戌 (sisa (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [癸酉](/guide/pillar-gye-yu) dan berikutnya adalah [乙亥](/guide/pillar-eul-hae)."
+          },
+          {
+            "p": "Terdiri dari [Kayu Yang (甲)](/guide/stem-gap) dan [戌 (Anjing)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-hae": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 乙亥",
+    "summary": "Cara Saju-Link membaca pilar hari 乙亥 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "乙亥 adalah pilar hari nomor 12 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 乙亥, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 12."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 亥 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 乙, batang yang disimpan 亥 adalah sebagai berikut. Batang utama (壬) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 乙亥",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 乙"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidHaeYeo}",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Kayu Yang (甲)",
+                  "tengah (中氣)",
+                  "{hidHaeJung}",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "utama (本氣)",
+                  "{hidHaeBon}",
+                  "Pengasuhan (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 乙 sebagai batang hari, Rezeki Tetap adalah 戊 dan Wibawa adalah 庚."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 戊. 戊 terkandung di dalam 亥 (sisa (餘氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 庚. 庚 tidak terkandung di dalam 亥."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [甲戌](/guide/pillar-gap-sul) dan berikutnya adalah [丙子](/guide/pillar-byeong-ja)."
+          },
+          {
+            "p": "Terdiri dari [Kayu Yin (乙)](/guide/stem-eul) dan [亥 (Babi)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-ja": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 丙子",
+    "summary": "Cara Saju-Link membaca pilar hari 丙子 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丙子 adalah pilar hari nomor 13 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 丙子, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 13."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 子 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 丙, batang yang disimpan 子 adalah sebagai berikut. Batang utama (癸) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 丙子",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 丙"
+              ],
+              "rows": [
+                [
+                  "Air Yang (壬)",
+                  "sisa (餘氣)",
+                  "{hidJaYeo}",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "utama (本氣)",
+                  "{hidJaBon}",
+                  "Wibawa (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丙 sebagai batang hari, Rezeki Tetap adalah 辛 dan Wibawa adalah 癸."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 辛. 辛 tidak terkandung di dalam 子."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 癸. 癸 terkandung di dalam 子 (utama (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [乙亥](/guide/pillar-eul-hae) dan berikutnya adalah [丁丑](/guide/pillar-jeong-chuk)."
+          },
+          {
+            "p": "Terdiri dari [Api Yang (丙)](/guide/stem-byeong) dan [子 (Tikus)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-chuk": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 丁丑",
+    "summary": "Cara Saju-Link membaca pilar hari 丁丑 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丁丑 adalah pilar hari nomor 14 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 丁丑, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 14."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”, dan kalimat yang ditampilkan layar hasil adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 丑 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 丁, batang yang disimpan 丑 adalah sebagai berikut. Batang utama (己) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 丁丑",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 丁"
+              ],
+              "rows": [
+                [
+                  "Air Yin (癸)",
+                  "sisa (餘氣)",
+                  "{hidChukYeo}",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "tengah (中氣)",
+                  "{hidChukJung}",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "utama (本氣)",
+                  "{hidChukBon}",
+                  "Ekspresi (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丁 sebagai batang hari, Rezeki Tetap adalah 庚 dan Wibawa adalah 壬."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 庚. 庚 tidak terkandung di dalam 丑."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 壬. 壬 tidak terkandung di dalam 丑."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丙子](/guide/pillar-byeong-ja) dan berikutnya adalah [戊寅](/guide/pillar-mu-in)."
+          },
+          {
+            "p": "Terdiri dari [Api Yin (丁)](/guide/stem-jeong) dan [丑 (Sapi)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-in": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 戊寅",
+    "summary": "Cara Saju-Link membaca pilar hari 戊寅 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "戊寅 adalah pilar hari nomor 15 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 戊寅, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 15."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 寅 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 戊, batang yang disimpan 寅 adalah sebagai berikut. Batang utama (甲) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 戊寅",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 戊"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidInYeo}",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "tengah (中氣)",
+                  "{hidInJung}",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Kayu Yang (甲)",
+                  "utama (本氣)",
+                  "{hidInBon}",
+                  "Penantang (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 戊 sebagai batang hari, Rezeki Tetap adalah 癸 dan Wibawa adalah 乙."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 癸. 癸 tidak terkandung di dalam 寅."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 乙. 乙 tidak terkandung di dalam 寅."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丁丑](/guide/pillar-jeong-chuk) dan berikutnya adalah [己卯](/guide/pillar-gi-myo)."
+          },
+          {
+            "p": "Terdiri dari [Tanah Yang (戊)](/guide/stem-mu) dan [寅 (Harimau)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-myo": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 己卯",
+    "summary": "Cara Saju-Link membaca pilar hari 己卯 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "己卯 adalah pilar hari nomor 16 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 己卯, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 16."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 卯 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 己, batang yang disimpan 卯 adalah sebagai berikut. Batang utama (乙) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 己卯",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 己"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "sisa (餘氣)",
+                  "{hidMyoYeo}",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "utama (本氣)",
+                  "{hidMyoBon}",
+                  "Penantang (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 己 sebagai batang hari, Rezeki Tetap adalah 壬 dan Wibawa adalah 甲."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 壬. 壬 tidak terkandung di dalam 卯."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 甲. 甲 terkandung di dalam 卯 (sisa (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [戊寅](/guide/pillar-mu-in) dan berikutnya adalah [庚辰](/guide/pillar-gyeong-jin)."
+          },
+          {
+            "p": "Terdiri dari [Tanah Yin (己)](/guide/stem-gi) dan [卯 (Kelinci)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-jin": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 庚辰",
+    "summary": "Cara Saju-Link membaca pilar hari 庚辰 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "庚辰 adalah pilar hari nomor 17 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 庚辰, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 17."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”, dan kalimat yang ditampilkan layar hasil adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 辰 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 庚, batang yang disimpan 辰 adalah sebagai berikut. Batang utama (戊) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 庚辰",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 庚"
+              ],
+              "rows": [
+                [
+                  "Kayu Yin (乙)",
+                  "sisa (餘氣)",
+                  "{hidJinYeo}",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "tengah (中氣)",
+                  "{hidJinJung}",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "utama (本氣)",
+                  "{hidJinBon}",
+                  "Sokongan Tak Lazim (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 庚 sebagai batang hari, Rezeki Tetap adalah 乙 dan Wibawa adalah 丁."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 乙. 乙 terkandung di dalam 辰 (sisa (餘氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 丁. 丁 tidak terkandung di dalam 辰."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [己卯](/guide/pillar-gi-myo) dan berikutnya adalah [辛巳](/guide/pillar-sin-sa)."
+          },
+          {
+            "p": "Terdiri dari [Logam Yang (庚)](/guide/stem-gyeong) dan [辰 (Naga)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-sa": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 辛巳",
+    "summary": "Cara Saju-Link membaca pilar hari 辛巳 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "辛巳 adalah pilar hari nomor 18 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 辛巳, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 18."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”, dan kalimat yang ditampilkan layar hasil adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 巳 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 辛, batang yang disimpan 巳 adalah sebagai berikut. Batang utama (丙) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 辛巳",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 辛"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidSaYeo}",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "tengah (中氣)",
+                  "{hidSaJung}",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "utama (本氣)",
+                  "{hidSaBon}",
+                  "Wibawa (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 辛 sebagai batang hari, Rezeki Tetap adalah 甲 dan Wibawa adalah 丙."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 甲. 甲 tidak terkandung di dalam 巳."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 丙. 丙 terkandung di dalam 巳 (utama (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [庚辰](/guide/pillar-gyeong-jin) dan berikutnya adalah [壬午](/guide/pillar-im-o)."
+          },
+          {
+            "p": "Terdiri dari [Logam Yin (辛)](/guide/stem-sin) dan [巳 (Ular)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-o": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 壬午",
+    "summary": "Cara Saju-Link membaca pilar hari 壬午 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "壬午 adalah pilar hari nomor 19 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 壬午, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 19."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 午 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 壬, batang yang disimpan 午 adalah sebagai berikut. Batang utama (丁) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 壬午",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 壬"
+              ],
+              "rows": [
+                [
+                  "Api Yang (丙)",
+                  "sisa (餘氣)",
+                  "{hidOYeo}",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "tengah (中氣)",
+                  "{hidOJung}",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "utama (本氣)",
+                  "{hidOBon}",
+                  "Rezeki Tetap (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 壬 sebagai batang hari, Rezeki Tetap adalah 丁 dan Wibawa adalah 己."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 丁. 丁 terkandung di dalam 午 (utama (本氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 己. 己 terkandung di dalam 午 (tengah (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [辛巳](/guide/pillar-sin-sa) dan berikutnya adalah [癸未](/guide/pillar-gye-mi)."
+          },
+          {
+            "p": "Terdiri dari [Air Yang (壬)](/guide/stem-im) dan [午 (Kuda)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-mi": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 癸未",
+    "summary": "Cara Saju-Link membaca pilar hari 癸未 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "癸未 adalah pilar hari nomor 20 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 癸未, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 20."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”, dan kalimat yang ditampilkan layar hasil adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 未 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 癸, batang yang disimpan 未 adalah sebagai berikut. Batang utama (己) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 癸未",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 癸"
+              ],
+              "rows": [
+                [
+                  "Api Yin (丁)",
+                  "sisa (餘氣)",
+                  "{hidMiYeo}",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "tengah (中氣)",
+                  "{hidMiJung}",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "utama (本氣)",
+                  "{hidMiBon}",
+                  "Penantang (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 癸 sebagai batang hari, Rezeki Tetap adalah 丙 dan Wibawa adalah 戊."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 丙. 丙 tidak terkandung di dalam 未."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 戊. 戊 tidak terkandung di dalam 未."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [壬午](/guide/pillar-im-o) dan berikutnya adalah [甲申](/guide/pillar-gap-sin)."
+          },
+          {
+            "p": "Terdiri dari [Air Yin (癸)](/guide/stem-gye) dan [未 (Domba)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-sin": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 甲申",
+    "summary": "Cara Saju-Link membaca pilar hari 甲申 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "甲申 adalah pilar hari nomor 21 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 甲申, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 21."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”, dan kalimat yang ditampilkan layar hasil adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 申 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 甲, batang yang disimpan 申 adalah sebagai berikut. Batang utama (庚) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 甲申",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 甲"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidSinYeo}",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "tengah (中氣)",
+                  "{hidSinJung}",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "utama (本氣)",
+                  "{hidSinBon}",
+                  "Penantang (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 甲 sebagai batang hari, Rezeki Tetap adalah 己 dan Wibawa adalah 辛."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 己. 己 tidak terkandung di dalam 申."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 辛. 辛 tidak terkandung di dalam 申."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [癸未](/guide/pillar-gye-mi) dan berikutnya adalah [乙酉](/guide/pillar-eul-yu)."
+          },
+          {
+            "p": "Terdiri dari [Kayu Yang (甲)](/guide/stem-gap) dan [申 (Monyet)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-yu": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 乙酉",
+    "summary": "Cara Saju-Link membaca pilar hari 乙酉 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "乙酉 adalah pilar hari nomor 22 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 乙酉, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 22."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 酉 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 乙, batang yang disimpan 酉 adalah sebagai berikut. Batang utama (辛) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 乙酉",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 乙"
+              ],
+              "rows": [
+                [
+                  "Logam Yang (庚)",
+                  "sisa (餘氣)",
+                  "{hidYuYeo}",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "utama (本氣)",
+                  "{hidYuBon}",
+                  "Penantang (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 乙 sebagai batang hari, Rezeki Tetap adalah 戊 dan Wibawa adalah 庚."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 戊. 戊 tidak terkandung di dalam 酉."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 庚. 庚 terkandung di dalam 酉 (sisa (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [甲申](/guide/pillar-gap-sin) dan berikutnya adalah [丙戌](/guide/pillar-byeong-sul)."
+          },
+          {
+            "p": "Terdiri dari [Kayu Yin (乙)](/guide/stem-eul) dan [酉 (Ayam)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-sul": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 丙戌",
+    "summary": "Cara Saju-Link membaca pilar hari 丙戌 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丙戌 adalah pilar hari nomor 23 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 丙戌, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 23."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 戌 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 丙, batang yang disimpan 戌 adalah sebagai berikut. Batang utama (戊) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 丙戌",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 丙"
+              ],
+              "rows": [
+                [
+                  "Logam Yin (辛)",
+                  "sisa (餘氣)",
+                  "{hidSulYeo}",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "tengah (中氣)",
+                  "{hidSulJung}",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "utama (本氣)",
+                  "{hidSulBon}",
+                  "Ekspresi (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丙 sebagai batang hari, Rezeki Tetap adalah 辛 dan Wibawa adalah 癸."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 辛. 辛 terkandung di dalam 戌 (sisa (餘氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 癸. 癸 tidak terkandung di dalam 戌."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [乙酉](/guide/pillar-eul-yu) dan berikutnya adalah [丁亥](/guide/pillar-jeong-hae)."
+          },
+          {
+            "p": "Terdiri dari [Api Yang (丙)](/guide/stem-byeong) dan [戌 (Anjing)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-hae": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 丁亥",
+    "summary": "Cara Saju-Link membaca pilar hari 丁亥 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丁亥 adalah pilar hari nomor 24 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 丁亥, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 24."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”, dan kalimat yang ditampilkan layar hasil adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 亥 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 丁, batang yang disimpan 亥 adalah sebagai berikut. Batang utama (壬) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 丁亥",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 丁"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidHaeYeo}",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Kayu Yang (甲)",
+                  "tengah (中氣)",
+                  "{hidHaeJung}",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "utama (本氣)",
+                  "{hidHaeBon}",
+                  "Wibawa (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丁 sebagai batang hari, Rezeki Tetap adalah 庚 dan Wibawa adalah 壬."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 庚. 庚 tidak terkandung di dalam 亥."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 壬. 壬 terkandung di dalam 亥 (utama (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丙戌](/guide/pillar-byeong-sul) dan berikutnya adalah [戊子](/guide/pillar-mu-ja)."
+          },
+          {
+            "p": "Terdiri dari [Api Yin (丁)](/guide/stem-jeong) dan [亥 (Babi)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-ja": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 戊子",
+    "summary": "Cara Saju-Link membaca pilar hari 戊子 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "戊子 adalah pilar hari nomor 25 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 戊子, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 25."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 子 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 戊, batang yang disimpan 子 adalah sebagai berikut. Batang utama (癸) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 戊子",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 戊"
+              ],
+              "rows": [
+                [
+                  "Air Yang (壬)",
+                  "sisa (餘氣)",
+                  "{hidJaYeo}",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "utama (本氣)",
+                  "{hidJaBon}",
+                  "Rezeki Tetap (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 戊 sebagai batang hari, Rezeki Tetap adalah 癸 dan Wibawa adalah 乙."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 癸. 癸 terkandung di dalam 子 (utama (本氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 乙. 乙 tidak terkandung di dalam 子."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丁亥](/guide/pillar-jeong-hae) dan berikutnya adalah [己丑](/guide/pillar-gi-chuk)."
+          },
+          {
+            "p": "Terdiri dari [Tanah Yang (戊)](/guide/stem-mu) dan [子 (Tikus)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-chuk": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 己丑",
+    "summary": "Cara Saju-Link membaca pilar hari 己丑 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "己丑 adalah pilar hari nomor 26 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 己丑, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 26."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 丑 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 己, batang yang disimpan 丑 adalah sebagai berikut. Batang utama (己) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 己丑",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 己"
+              ],
+              "rows": [
+                [
+                  "Air Yin (癸)",
+                  "sisa (餘氣)",
+                  "{hidChukYeo}",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "tengah (中氣)",
+                  "{hidChukJung}",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "utama (本氣)",
+                  "{hidChukBon}",
+                  "Rekan Sejajar (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 己 sebagai batang hari, Rezeki Tetap adalah 壬 dan Wibawa adalah 甲."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 壬. 壬 tidak terkandung di dalam 丑."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 甲. 甲 tidak terkandung di dalam 丑."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [戊子](/guide/pillar-mu-ja) dan berikutnya adalah [庚寅](/guide/pillar-gyeong-in)."
+          },
+          {
+            "p": "Terdiri dari [Tanah Yin (己)](/guide/stem-gi) dan [丑 (Sapi)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-in": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 庚寅",
+    "summary": "Cara Saju-Link membaca pilar hari 庚寅 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "庚寅 adalah pilar hari nomor 27 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 庚寅, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 27."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”, dan kalimat yang ditampilkan layar hasil adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 寅 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 庚, batang yang disimpan 寅 adalah sebagai berikut. Batang utama (甲) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 庚寅",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 庚"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidInYeo}",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "tengah (中氣)",
+                  "{hidInJung}",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Kayu Yang (甲)",
+                  "utama (本氣)",
+                  "{hidInBon}",
+                  "Rezeki Tak Terduga (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 庚 sebagai batang hari, Rezeki Tetap adalah 乙 dan Wibawa adalah 丁."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 乙. 乙 tidak terkandung di dalam 寅."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 丁. 丁 tidak terkandung di dalam 寅."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [己丑](/guide/pillar-gi-chuk) dan berikutnya adalah [辛卯](/guide/pillar-sin-myo)."
+          },
+          {
+            "p": "Terdiri dari [Logam Yang (庚)](/guide/stem-gyeong) dan [寅 (Harimau)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-myo": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 辛卯",
+    "summary": "Cara Saju-Link membaca pilar hari 辛卯 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "辛卯 adalah pilar hari nomor 28 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 辛卯, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 28."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”, dan kalimat yang ditampilkan layar hasil adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 卯 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 辛, batang yang disimpan 卯 adalah sebagai berikut. Batang utama (乙) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 辛卯",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 辛"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "sisa (餘氣)",
+                  "{hidMyoYeo}",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "utama (本氣)",
+                  "{hidMyoBon}",
+                  "Rezeki Tak Terduga (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 辛 sebagai batang hari, Rezeki Tetap adalah 甲 dan Wibawa adalah 丙."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 甲. 甲 terkandung di dalam 卯 (sisa (餘氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 丙. 丙 tidak terkandung di dalam 卯."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [庚寅](/guide/pillar-gyeong-in) dan berikutnya adalah [壬辰](/guide/pillar-im-jin)."
+          },
+          {
+            "p": "Terdiri dari [Logam Yin (辛)](/guide/stem-sin) dan [卯 (Kelinci)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-jin": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 壬辰",
+    "summary": "Cara Saju-Link membaca pilar hari 壬辰 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "壬辰 adalah pilar hari nomor 29 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 壬辰, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 29."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 辰 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 壬, batang yang disimpan 辰 adalah sebagai berikut. Batang utama (戊) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 壬辰",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 壬"
+              ],
+              "rows": [
+                [
+                  "Kayu Yin (乙)",
+                  "sisa (餘氣)",
+                  "{hidJinYeo}",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "tengah (中氣)",
+                  "{hidJinJung}",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "utama (本氣)",
+                  "{hidJinBon}",
+                  "Penantang (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 壬 sebagai batang hari, Rezeki Tetap adalah 丁 dan Wibawa adalah 己."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 丁. 丁 tidak terkandung di dalam 辰."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 己. 己 tidak terkandung di dalam 辰."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [辛卯](/guide/pillar-sin-myo) dan berikutnya adalah [癸巳](/guide/pillar-gye-sa)."
+          },
+          {
+            "p": "Terdiri dari [Air Yang (壬)](/guide/stem-im) dan [辰 (Naga)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-sa": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 癸巳",
+    "summary": "Cara Saju-Link membaca pilar hari 癸巳 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "癸巳 adalah pilar hari nomor 30 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 癸巳, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 30."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”, dan kalimat yang ditampilkan layar hasil adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 巳 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 癸, batang yang disimpan 巳 adalah sebagai berikut. Batang utama (丙) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 癸巳",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 癸"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidSaYeo}",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "tengah (中氣)",
+                  "{hidSaJung}",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "utama (本氣)",
+                  "{hidSaBon}",
+                  "Rezeki Tetap (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 癸 sebagai batang hari, Rezeki Tetap adalah 丙 dan Wibawa adalah 戊."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 丙. 丙 terkandung di dalam 巳 (utama (本氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 戊. 戊 terkandung di dalam 巳 (sisa (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [壬辰](/guide/pillar-im-jin) dan berikutnya adalah [甲午](/guide/pillar-gap-o)."
+          },
+          {
+            "p": "Terdiri dari [Air Yin (癸)](/guide/stem-gye) dan [巳 (Ular)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-o": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 甲午",
+    "summary": "Cara Saju-Link membaca pilar hari 甲午 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "甲午 adalah pilar hari nomor 31 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 甲午, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 31."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”, dan kalimat yang ditampilkan layar hasil adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 午 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 甲, batang yang disimpan 午 adalah sebagai berikut. Batang utama (丁) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 甲午",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 甲"
+              ],
+              "rows": [
+                [
+                  "Api Yang (丙)",
+                  "sisa (餘氣)",
+                  "{hidOYeo}",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "tengah (中氣)",
+                  "{hidOJung}",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "utama (本氣)",
+                  "{hidOBon}",
+                  "Pengusik (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 甲 sebagai batang hari, Rezeki Tetap adalah 己 dan Wibawa adalah 辛."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 己. 己 terkandung di dalam 午 (tengah (中氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 辛. 辛 tidak terkandung di dalam 午."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [癸巳](/guide/pillar-gye-sa) dan berikutnya adalah [乙未](/guide/pillar-eul-mi)."
+          },
+          {
+            "p": "Terdiri dari [Kayu Yang (甲)](/guide/stem-gap) dan [午 (Kuda)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-mi": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 乙未",
+    "summary": "Cara Saju-Link membaca pilar hari 乙未 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "乙未 adalah pilar hari nomor 32 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 乙未, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 32."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 未 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 乙, batang yang disimpan 未 adalah sebagai berikut. Batang utama (己) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 乙未",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 乙"
+              ],
+              "rows": [
+                [
+                  "Api Yin (丁)",
+                  "sisa (餘氣)",
+                  "{hidMiYeo}",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "tengah (中氣)",
+                  "{hidMiJung}",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "utama (本氣)",
+                  "{hidMiBon}",
+                  "Rezeki Tak Terduga (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 乙 sebagai batang hari, Rezeki Tetap adalah 戊 dan Wibawa adalah 庚."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 戊. 戊 tidak terkandung di dalam 未."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 庚. 庚 tidak terkandung di dalam 未."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [甲午](/guide/pillar-gap-o) dan berikutnya adalah [丙申](/guide/pillar-byeong-sin)."
+          },
+          {
+            "p": "Terdiri dari [Kayu Yin (乙)](/guide/stem-eul) dan [未 (Domba)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-sin": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 丙申",
+    "summary": "Cara Saju-Link membaca pilar hari 丙申 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丙申 adalah pilar hari nomor 33 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 丙申, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 33."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 申 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 丙, batang yang disimpan 申 adalah sebagai berikut. Batang utama (庚) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 丙申",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 丙"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidSinYeo}",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "tengah (中氣)",
+                  "{hidSinJung}",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "utama (本氣)",
+                  "{hidSinBon}",
+                  "Rezeki Tak Terduga (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丙 sebagai batang hari, Rezeki Tetap adalah 辛 dan Wibawa adalah 癸."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 辛. 辛 tidak terkandung di dalam 申."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 癸. 癸 tidak terkandung di dalam 申."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [乙未](/guide/pillar-eul-mi) dan berikutnya adalah [丁酉](/guide/pillar-jeong-yu)."
+          },
+          {
+            "p": "Terdiri dari [Api Yang (丙)](/guide/stem-byeong) dan [申 (Monyet)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-yu": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 丁酉",
+    "summary": "Cara Saju-Link membaca pilar hari 丁酉 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丁酉 adalah pilar hari nomor 34 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 丁酉, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 34."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”, dan kalimat yang ditampilkan layar hasil adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 酉 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 丁, batang yang disimpan 酉 adalah sebagai berikut. Batang utama (辛) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 丁酉",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 丁"
+              ],
+              "rows": [
+                [
+                  "Logam Yang (庚)",
+                  "sisa (餘氣)",
+                  "{hidYuYeo}",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "utama (本氣)",
+                  "{hidYuBon}",
+                  "Rezeki Tak Terduga (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丁 sebagai batang hari, Rezeki Tetap adalah 庚 dan Wibawa adalah 壬."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 庚. 庚 terkandung di dalam 酉 (sisa (餘氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 壬. 壬 tidak terkandung di dalam 酉."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丙申](/guide/pillar-byeong-sin) dan berikutnya adalah [戊戌](/guide/pillar-mu-sul)."
+          },
+          {
+            "p": "Terdiri dari [Api Yin (丁)](/guide/stem-jeong) dan [酉 (Ayam)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-sul": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 戊戌",
+    "summary": "Cara Saju-Link membaca pilar hari 戊戌 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "戊戌 adalah pilar hari nomor 35 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 戊戌, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 35."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 戌 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 戊, batang yang disimpan 戌 adalah sebagai berikut. Batang utama (戊) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 戊戌",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 戊"
+              ],
+              "rows": [
+                [
+                  "Logam Yin (辛)",
+                  "sisa (餘氣)",
+                  "{hidSulYeo}",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "tengah (中氣)",
+                  "{hidSulJung}",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "utama (本氣)",
+                  "{hidSulBon}",
+                  "Rekan Sejajar (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 戊 sebagai batang hari, Rezeki Tetap adalah 癸 dan Wibawa adalah 乙."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 癸. 癸 tidak terkandung di dalam 戌."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 乙. 乙 tidak terkandung di dalam 戌."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丁酉](/guide/pillar-jeong-yu) dan berikutnya adalah [己亥](/guide/pillar-gi-hae)."
+          },
+          {
+            "p": "Terdiri dari [Tanah Yang (戊)](/guide/stem-mu) dan [戌 (Anjing)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-hae": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 己亥",
+    "summary": "Cara Saju-Link membaca pilar hari 己亥 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "己亥 adalah pilar hari nomor 36 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 己亥, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 36."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 亥 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 己, batang yang disimpan 亥 adalah sebagai berikut. Batang utama (壬) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 己亥",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 己"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidHaeYeo}",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Kayu Yang (甲)",
+                  "tengah (中氣)",
+                  "{hidHaeJung}",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "utama (本氣)",
+                  "{hidHaeBon}",
+                  "Rezeki Tetap (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 己 sebagai batang hari, Rezeki Tetap adalah 壬 dan Wibawa adalah 甲."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 壬. 壬 terkandung di dalam 亥 (utama (本氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 甲. 甲 terkandung di dalam 亥 (tengah (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [戊戌](/guide/pillar-mu-sul) dan berikutnya adalah [庚子](/guide/pillar-gyeong-ja)."
+          },
+          {
+            "p": "Terdiri dari [Tanah Yin (己)](/guide/stem-gi) dan [亥 (Babi)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-ja": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 庚子",
+    "summary": "Cara Saju-Link membaca pilar hari 庚子 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "庚子 adalah pilar hari nomor 37 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 庚子, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 37."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”, dan kalimat yang ditampilkan layar hasil adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 子 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 庚, batang yang disimpan 子 adalah sebagai berikut. Batang utama (癸) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 庚子",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 庚"
+              ],
+              "rows": [
+                [
+                  "Air Yang (壬)",
+                  "sisa (餘氣)",
+                  "{hidJaYeo}",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "utama (本氣)",
+                  "{hidJaBon}",
+                  "Pengusik (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 庚 sebagai batang hari, Rezeki Tetap adalah 乙 dan Wibawa adalah 丁."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 乙. 乙 tidak terkandung di dalam 子."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 丁. 丁 tidak terkandung di dalam 子."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [己亥](/guide/pillar-gi-hae) dan berikutnya adalah [辛丑](/guide/pillar-sin-chuk)."
+          },
+          {
+            "p": "Terdiri dari [Logam Yang (庚)](/guide/stem-gyeong) dan [子 (Tikus)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-chuk": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 辛丑",
+    "summary": "Cara Saju-Link membaca pilar hari 辛丑 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "辛丑 adalah pilar hari nomor 38 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 辛丑, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 38."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”, dan kalimat yang ditampilkan layar hasil adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 丑 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 辛, batang yang disimpan 丑 adalah sebagai berikut. Batang utama (己) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 辛丑",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 辛"
+              ],
+              "rows": [
+                [
+                  "Air Yin (癸)",
+                  "sisa (餘氣)",
+                  "{hidChukYeo}",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "tengah (中氣)",
+                  "{hidChukJung}",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "utama (本氣)",
+                  "{hidChukBon}",
+                  "Sokongan Tak Lazim (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 辛 sebagai batang hari, Rezeki Tetap adalah 甲 dan Wibawa adalah 丙."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 甲. 甲 tidak terkandung di dalam 丑."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 丙. 丙 tidak terkandung di dalam 丑."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [庚子](/guide/pillar-gyeong-ja) dan berikutnya adalah [壬寅](/guide/pillar-im-in)."
+          },
+          {
+            "p": "Terdiri dari [Logam Yin (辛)](/guide/stem-sin) dan [丑 (Sapi)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-in": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 壬寅",
+    "summary": "Cara Saju-Link membaca pilar hari 壬寅 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "壬寅 adalah pilar hari nomor 39 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 壬寅, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 39."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 寅 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 壬, batang yang disimpan 寅 adalah sebagai berikut. Batang utama (甲) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 壬寅",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 壬"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidInYeo}",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "tengah (中氣)",
+                  "{hidInJung}",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Kayu Yang (甲)",
+                  "utama (本氣)",
+                  "{hidInBon}",
+                  "Ekspresi (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 壬 sebagai batang hari, Rezeki Tetap adalah 丁 dan Wibawa adalah 己."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 丁. 丁 tidak terkandung di dalam 寅."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 己. 己 tidak terkandung di dalam 寅."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [辛丑](/guide/pillar-sin-chuk) dan berikutnya adalah [癸卯](/guide/pillar-gye-myo)."
+          },
+          {
+            "p": "Terdiri dari [Air Yang (壬)](/guide/stem-im) dan [寅 (Harimau)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-myo": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 癸卯",
+    "summary": "Cara Saju-Link membaca pilar hari 癸卯 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "癸卯 adalah pilar hari nomor 40 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 癸卯, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 40."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”, dan kalimat yang ditampilkan layar hasil adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 卯 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 癸, batang yang disimpan 卯 adalah sebagai berikut. Batang utama (乙) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 癸卯",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 癸"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "sisa (餘氣)",
+                  "{hidMyoYeo}",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "utama (本氣)",
+                  "{hidMyoBon}",
+                  "Ekspresi (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 癸 sebagai batang hari, Rezeki Tetap adalah 丙 dan Wibawa adalah 戊."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 丙. 丙 tidak terkandung di dalam 卯."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 戊. 戊 tidak terkandung di dalam 卯."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [壬寅](/guide/pillar-im-in) dan berikutnya adalah [甲辰](/guide/pillar-gap-jin)."
+          },
+          {
+            "p": "Terdiri dari [Air Yin (癸)](/guide/stem-gye) dan [卯 (Kelinci)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-jin": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 甲辰",
+    "summary": "Cara Saju-Link membaca pilar hari 甲辰 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "甲辰 adalah pilar hari nomor 41 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 甲辰, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 41."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”, dan kalimat yang ditampilkan layar hasil adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 辰 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 甲, batang yang disimpan 辰 adalah sebagai berikut. Batang utama (戊) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 甲辰",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 甲"
+              ],
+              "rows": [
+                [
+                  "Kayu Yin (乙)",
+                  "sisa (餘氣)",
+                  "{hidJinYeo}",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "tengah (中氣)",
+                  "{hidJinJung}",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "utama (本氣)",
+                  "{hidJinBon}",
+                  "Rezeki Tak Terduga (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 甲 sebagai batang hari, Rezeki Tetap adalah 己 dan Wibawa adalah 辛."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 己. 己 tidak terkandung di dalam 辰."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 辛. 辛 tidak terkandung di dalam 辰."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [癸卯](/guide/pillar-gye-myo) dan berikutnya adalah [乙巳](/guide/pillar-eul-sa)."
+          },
+          {
+            "p": "Terdiri dari [Kayu Yang (甲)](/guide/stem-gap) dan [辰 (Naga)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-sa": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 乙巳",
+    "summary": "Cara Saju-Link membaca pilar hari 乙巳 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "乙巳 adalah pilar hari nomor 42 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 乙巳, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 42."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 巳 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 乙, batang yang disimpan 巳 adalah sebagai berikut. Batang utama (丙) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 乙巳",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 乙"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidSaYeo}",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "tengah (中氣)",
+                  "{hidSaJung}",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "utama (本氣)",
+                  "{hidSaBon}",
+                  "Pengusik (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 乙 sebagai batang hari, Rezeki Tetap adalah 戊 dan Wibawa adalah 庚."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 戊. 戊 terkandung di dalam 巳 (sisa (餘氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 庚. 庚 terkandung di dalam 巳 (tengah (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [甲辰](/guide/pillar-gap-jin) dan berikutnya adalah [丙午](/guide/pillar-byeong-o)."
+          },
+          {
+            "p": "Terdiri dari [Kayu Yin (乙)](/guide/stem-eul) dan [巳 (Ular)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-o": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 丙午",
+    "summary": "Cara Saju-Link membaca pilar hari 丙午 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丙午 adalah pilar hari nomor 43 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 丙午, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 43."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 午 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 丙, batang yang disimpan 午 adalah sebagai berikut. Batang utama (丁) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 丙午",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 丙"
+              ],
+              "rows": [
+                [
+                  "Api Yang (丙)",
+                  "sisa (餘氣)",
+                  "{hidOYeo}",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "tengah (中氣)",
+                  "{hidOJung}",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "utama (本氣)",
+                  "{hidOBon}",
+                  "Saingan (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丙 sebagai batang hari, Rezeki Tetap adalah 辛 dan Wibawa adalah 癸."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 辛. 辛 tidak terkandung di dalam 午."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 癸. 癸 tidak terkandung di dalam 午."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [乙巳](/guide/pillar-eul-sa) dan berikutnya adalah [丁未](/guide/pillar-jeong-mi)."
+          },
+          {
+            "p": "Terdiri dari [Api Yang (丙)](/guide/stem-byeong) dan [午 (Kuda)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-mi": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 丁未",
+    "summary": "Cara Saju-Link membaca pilar hari 丁未 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丁未 adalah pilar hari nomor 44 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 丁未, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 44."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”, dan kalimat yang ditampilkan layar hasil adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 未 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 丁, batang yang disimpan 未 adalah sebagai berikut. Batang utama (己) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 丁未",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 丁"
+              ],
+              "rows": [
+                [
+                  "Api Yin (丁)",
+                  "sisa (餘氣)",
+                  "{hidMiYeo}",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "tengah (中氣)",
+                  "{hidMiJung}",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "utama (本氣)",
+                  "{hidMiBon}",
+                  "Ekspresi (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丁 sebagai batang hari, Rezeki Tetap adalah 庚 dan Wibawa adalah 壬."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 庚. 庚 tidak terkandung di dalam 未."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 壬. 壬 tidak terkandung di dalam 未."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丙午](/guide/pillar-byeong-o) dan berikutnya adalah [戊申](/guide/pillar-mu-sin)."
+          },
+          {
+            "p": "Terdiri dari [Api Yin (丁)](/guide/stem-jeong) dan [未 (Domba)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-sin": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 戊申",
+    "summary": "Cara Saju-Link membaca pilar hari 戊申 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "戊申 adalah pilar hari nomor 45 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 戊申, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 45."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 申 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 戊, batang yang disimpan 申 adalah sebagai berikut. Batang utama (庚) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 戊申",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 戊"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidSinYeo}",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "tengah (中氣)",
+                  "{hidSinJung}",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "utama (本氣)",
+                  "{hidSinBon}",
+                  "Ekspresi (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 戊 sebagai batang hari, Rezeki Tetap adalah 癸 dan Wibawa adalah 乙."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 癸. 癸 tidak terkandung di dalam 申."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 乙. 乙 tidak terkandung di dalam 申."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丁未](/guide/pillar-jeong-mi) dan berikutnya adalah [己酉](/guide/pillar-gi-yu)."
+          },
+          {
+            "p": "Terdiri dari [Tanah Yang (戊)](/guide/stem-mu) dan [申 (Monyet)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-yu": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 己酉",
+    "summary": "Cara Saju-Link membaca pilar hari 己酉 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "己酉 adalah pilar hari nomor 46 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 己酉, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 46."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 酉 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 己, batang yang disimpan 酉 adalah sebagai berikut. Batang utama (辛) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 己酉",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 己"
+              ],
+              "rows": [
+                [
+                  "Logam Yang (庚)",
+                  "sisa (餘氣)",
+                  "{hidYuYeo}",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "utama (本氣)",
+                  "{hidYuBon}",
+                  "Ekspresi (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 己 sebagai batang hari, Rezeki Tetap adalah 壬 dan Wibawa adalah 甲."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 壬. 壬 tidak terkandung di dalam 酉."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 甲. 甲 tidak terkandung di dalam 酉."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [戊申](/guide/pillar-mu-sin) dan berikutnya adalah [庚戌](/guide/pillar-gyeong-sul)."
+          },
+          {
+            "p": "Terdiri dari [Tanah Yin (己)](/guide/stem-gi) dan [酉 (Ayam)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-sul": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 庚戌",
+    "summary": "Cara Saju-Link membaca pilar hari 庚戌 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "庚戌 adalah pilar hari nomor 47 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 庚戌, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 47."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”, dan kalimat yang ditampilkan layar hasil adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 戌 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 庚, batang yang disimpan 戌 adalah sebagai berikut. Batang utama (戊) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 庚戌",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 庚"
+              ],
+              "rows": [
+                [
+                  "Logam Yin (辛)",
+                  "sisa (餘氣)",
+                  "{hidSulYeo}",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "tengah (中氣)",
+                  "{hidSulJung}",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "utama (本氣)",
+                  "{hidSulBon}",
+                  "Sokongan Tak Lazim (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 庚 sebagai batang hari, Rezeki Tetap adalah 乙 dan Wibawa adalah 丁."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 乙. 乙 tidak terkandung di dalam 戌."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 丁. 丁 terkandung di dalam 戌 (tengah (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [己酉](/guide/pillar-gi-yu) dan berikutnya adalah [辛亥](/guide/pillar-sin-hae)."
+          },
+          {
+            "p": "Terdiri dari [Logam Yang (庚)](/guide/stem-gyeong) dan [戌 (Anjing)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-hae": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 辛亥",
+    "summary": "Cara Saju-Link membaca pilar hari 辛亥 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "辛亥 adalah pilar hari nomor 48 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 辛亥, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 48."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”, dan kalimat yang ditampilkan layar hasil adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 亥 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 辛, batang yang disimpan 亥 adalah sebagai berikut. Batang utama (壬) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 辛亥",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 辛"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidHaeYeo}",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Kayu Yang (甲)",
+                  "tengah (中氣)",
+                  "{hidHaeJung}",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "utama (本氣)",
+                  "{hidHaeBon}",
+                  "Pengusik (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 辛 sebagai batang hari, Rezeki Tetap adalah 甲 dan Wibawa adalah 丙."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 甲. 甲 terkandung di dalam 亥 (tengah (中氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 丙. 丙 tidak terkandung di dalam 亥."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [庚戌](/guide/pillar-gyeong-sul) dan berikutnya adalah [壬子](/guide/pillar-im-ja)."
+          },
+          {
+            "p": "Terdiri dari [Logam Yin (辛)](/guide/stem-sin) dan [亥 (Babi)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-ja": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 壬子",
+    "summary": "Cara Saju-Link membaca pilar hari 壬子 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "壬子 adalah pilar hari nomor 49 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 壬子, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 子 (Tikus). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 49."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 子 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 壬, batang yang disimpan 子 adalah sebagai berikut. Batang utama (癸) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 壬子",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 壬"
+              ],
+              "rows": [
+                [
+                  "Air Yang (壬)",
+                  "sisa (餘氣)",
+                  "{hidJaYeo}",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "utama (本氣)",
+                  "{hidJaBon}",
+                  "Saingan (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 壬 sebagai batang hari, Rezeki Tetap adalah 丁 dan Wibawa adalah 己."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 丁. 丁 tidak terkandung di dalam 子."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 己. 己 tidak terkandung di dalam 子."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [辛亥](/guide/pillar-sin-hae) dan berikutnya adalah [癸丑](/guide/pillar-gye-chuk)."
+          },
+          {
+            "p": "Terdiri dari [Air Yang (壬)](/guide/stem-im) dan [子 (Tikus)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-chuk": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 癸丑",
+    "summary": "Cara Saju-Link membaca pilar hari 癸丑 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "癸丑 adalah pilar hari nomor 50 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 癸丑, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 丑 (Sapi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 50."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”, dan kalimat yang ditampilkan layar hasil adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 丑 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 癸, batang yang disimpan 丑 adalah sebagai berikut. Batang utama (己) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 癸丑",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 癸"
+              ],
+              "rows": [
+                [
+                  "Air Yin (癸)",
+                  "sisa (餘氣)",
+                  "{hidChukYeo}",
+                  "Rekan Sejajar (比肩)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "tengah (中氣)",
+                  "{hidChukJung}",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "utama (本氣)",
+                  "{hidChukBon}",
+                  "Penantang (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 癸 sebagai batang hari, Rezeki Tetap adalah 丙 dan Wibawa adalah 戊."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 丙. 丙 tidak terkandung di dalam 丑."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 戊. 戊 tidak terkandung di dalam 丑."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [壬子](/guide/pillar-im-ja) dan berikutnya adalah [甲寅](/guide/pillar-gap-in)."
+          },
+          {
+            "p": "Terdiri dari [Air Yin (癸)](/guide/stem-gye) dan [丑 (Sapi)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-in": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 甲寅",
+    "summary": "Cara Saju-Link membaca pilar hari 甲寅 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "甲寅 adalah pilar hari nomor 51 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 甲寅, batang hari adalah 甲 (Kayu, Yang) dan cabang hari adalah 寅 (Harimau). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 51."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 甲 sebagai “Kayu Yang (甲)”, dan kalimat yang ditampilkan layar hasil adalah: \"Pohon tinggi yang tumbuh lurus. Begitu arah ditetapkan ia tidak goyah, dan lebih memilih bertahan daripada menekuk.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 寅 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 甲, batang yang disimpan 寅 adalah sebagai berikut. Batang utama (甲) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 甲寅",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 甲"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidInYeo}",
+                  "Rezeki Tak Terduga (偏財)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "tengah (中氣)",
+                  "{hidInJung}",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Kayu Yang (甲)",
+                  "utama (本氣)",
+                  "{hidInBon}",
+                  "Rekan Sejajar (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 甲 sebagai batang hari, Rezeki Tetap adalah 己 dan Wibawa adalah 辛."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 己. 己 tidak terkandung di dalam 寅."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 辛. 辛 tidak terkandung di dalam 寅."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [癸丑](/guide/pillar-gye-chuk) dan berikutnya adalah [乙卯](/guide/pillar-eul-myo)."
+          },
+          {
+            "p": "Terdiri dari [Kayu Yang (甲)](/guide/stem-gap) dan [寅 (Harimau)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-myo": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 乙卯",
+    "summary": "Cara Saju-Link membaca pilar hari 乙卯 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "乙卯 adalah pilar hari nomor 52 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 乙卯, batang hari adalah 乙 (Kayu, Yin) dan cabang hari adalah 卯 (Kelinci). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 52."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 乙 sebagai “Kayu Yin (乙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sulur — rumput yang lentur. Ia melengkung mengikuti keadaan agar terus melaju, dan tidak patah.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 卯 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 乙, batang yang disimpan 卯 adalah sebagai berikut. Batang utama (乙) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 乙卯",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 乙"
+              ],
+              "rows": [
+                [
+                  "Kayu Yang (甲)",
+                  "sisa (餘氣)",
+                  "{hidMyoYeo}",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "utama (本氣)",
+                  "{hidMyoBon}",
+                  "Rekan Sejajar (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 乙 sebagai batang hari, Rezeki Tetap adalah 戊 dan Wibawa adalah 庚."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 戊. 戊 tidak terkandung di dalam 卯."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 庚. 庚 tidak terkandung di dalam 卯."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [甲寅](/guide/pillar-gap-in) dan berikutnya adalah [丙辰](/guide/pillar-byeong-jin)."
+          },
+          {
+            "p": "Terdiri dari [Kayu Yin (乙)](/guide/stem-eul) dan [卯 (Kelinci)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-jin": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 丙辰",
+    "summary": "Cara Saju-Link membaca pilar hari 丙辰 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丙辰 adalah pilar hari nomor 53 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 丙辰, batang hari adalah 丙 (Api, Yang) dan cabang hari adalah 辰 (Naga). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 53."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 丙 sebagai “Api Yang (丙)”, dan kalimat yang ditampilkan layar hasil adalah: \"Matahari tengah hari. Perasaan tampak apa adanya, ruangan menjadi terang, dan melangkah ke depan terasa wajar.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 辰 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 丙, batang yang disimpan 辰 adalah sebagai berikut. Batang utama (戊) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 丙辰",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 丙"
+              ],
+              "rows": [
+                [
+                  "Kayu Yin (乙)",
+                  "sisa (餘氣)",
+                  "{hidJinYeo}",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Air Yin (癸)",
+                  "tengah (中氣)",
+                  "{hidJinJung}",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "utama (本氣)",
+                  "{hidJinBon}",
+                  "Ekspresi (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丙 sebagai batang hari, Rezeki Tetap adalah 辛 dan Wibawa adalah 癸."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 辛. 辛 tidak terkandung di dalam 辰."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 癸. 癸 terkandung di dalam 辰 (tengah (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [乙卯](/guide/pillar-eul-myo) dan berikutnya adalah [丁巳](/guide/pillar-jeong-sa)."
+          },
+          {
+            "p": "Terdiri dari [Api Yang (丙)](/guide/stem-byeong) dan [辰 (Naga)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-sa": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 丁巳",
+    "summary": "Cara Saju-Link membaca pilar hari 丁巳 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "丁巳 adalah pilar hari nomor 54 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 丁巳, batang hari adalah 丁 (Api, Yin) dan cabang hari adalah 巳 (Ular). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 54."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 丁 sebagai “Api Yin (丁)”, dan kalimat yang ditampilkan layar hasil adalah: \"Cahaya lilin. Ia menyala pelan dan lama, serta menghangatkan yang terdekat lebih dulu.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 巳 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 丁, batang yang disimpan 巳 adalah sebagai berikut. Batang utama (丙) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 丁巳",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 丁"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidSaYeo}",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "tengah (中氣)",
+                  "{hidSaJung}",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Api Yang (丙)",
+                  "utama (本氣)",
+                  "{hidSaBon}",
+                  "Saingan (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 丁 sebagai batang hari, Rezeki Tetap adalah 庚 dan Wibawa adalah 壬."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 庚. 庚 terkandung di dalam 巳 (tengah (中氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 壬. 壬 tidak terkandung di dalam 巳."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丙辰](/guide/pillar-byeong-jin) dan berikutnya adalah [戊午](/guide/pillar-mu-o)."
+          },
+          {
+            "p": "Terdiri dari [Api Yin (丁)](/guide/stem-jeong) dan [巳 (Ular)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-o": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 戊午",
+    "summary": "Cara Saju-Link membaca pilar hari 戊午 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "戊午 adalah pilar hari nomor 55 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 戊午, batang hari adalah 戊 (Tanah, Yang) dan cabang hari adalah 午 (Kuda). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 55."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 戊 sebagai “Tanah Yang (戊)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah lapang dan pegunungan. Sulit digoyahkan dan mudah dijadikan sandaran, meski lambat mengubah keputusan yang sudah diambil.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 午 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 戊, batang yang disimpan 午 adalah sebagai berikut. Batang utama (丁) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 戊午",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 戊"
+              ],
+              "rows": [
+                [
+                  "Api Yang (丙)",
+                  "sisa (餘氣)",
+                  "{hidOYeo}",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "tengah (中氣)",
+                  "{hidOJung}",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "utama (本氣)",
+                  "{hidOBon}",
+                  "Pengasuhan (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 戊 sebagai batang hari, Rezeki Tetap adalah 癸 dan Wibawa adalah 乙."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 癸. 癸 tidak terkandung di dalam 午."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 乙. 乙 tidak terkandung di dalam 午."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [丁巳](/guide/pillar-jeong-sa) dan berikutnya adalah [己未](/guide/pillar-gi-mi)."
+          },
+          {
+            "p": "Terdiri dari [Tanah Yang (戊)](/guide/stem-mu) dan [午 (Kuda)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-mi": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 己未",
+    "summary": "Cara Saju-Link membaca pilar hari 己未 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "己未 adalah pilar hari nomor 56 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 己未, batang hari adalah 己 (Tanah, Yin) dan cabang hari adalah 未 (Domba). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 56."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 己 sebagai “Tanah Yin (己)”, dan kalimat yang ditampilkan layar hasil adalah: \"Tanah ladang. Ia menerima apa pun yang datang dan menumbuhkannya, lebih suka merawat daripada menonjolkan diri.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 未 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 己, batang yang disimpan 未 adalah sebagai berikut. Batang utama (己) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 己未",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 己"
+              ],
+              "rows": [
+                [
+                  "Api Yin (丁)",
+                  "sisa (餘氣)",
+                  "{hidMiYeo}",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Kayu Yin (乙)",
+                  "tengah (中氣)",
+                  "{hidMiJung}",
+                  "Penantang (偏官)"
+                ],
+                [
+                  "Tanah Yin (己)",
+                  "utama (本氣)",
+                  "{hidMiBon}",
+                  "Rekan Sejajar (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 己 sebagai batang hari, Rezeki Tetap adalah 壬 dan Wibawa adalah 甲."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 壬. 壬 tidak terkandung di dalam 未."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 甲. 甲 tidak terkandung di dalam 未."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [戊午](/guide/pillar-mu-o) dan berikutnya adalah [庚申](/guide/pillar-gyeong-sin)."
+          },
+          {
+            "p": "Terdiri dari [Tanah Yin (己)](/guide/stem-gi) dan [未 (Domba)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-sin": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 庚申",
+    "summary": "Cara Saju-Link membaca pilar hari 庚申 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "庚申 adalah pilar hari nomor 57 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 庚申, batang hari adalah 庚 (Logam, Yang) dan cabang hari adalah 申 (Monyet). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 57."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 庚 sebagai “Logam Yang (庚)”, dan kalimat yang ditampilkan layar hasil adalah: \"Besi yang belum digarap. Tegas dan lugas, dengan sedikit kesabaran untuk hal yang dibiarkan menggantung.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 申 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 庚, batang yang disimpan 申 adalah sebagai berikut. Batang utama (庚) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 庚申",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 庚"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidSinYeo}",
+                  "Sokongan Tak Lazim (偏印)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "tengah (中氣)",
+                  "{hidSinJung}",
+                  "Ekspresi (食神)"
+                ],
+                [
+                  "Logam Yang (庚)",
+                  "utama (本氣)",
+                  "{hidSinBon}",
+                  "Rekan Sejajar (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 庚 sebagai batang hari, Rezeki Tetap adalah 乙 dan Wibawa adalah 丁."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 乙. 乙 tidak terkandung di dalam 申."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 丁. 丁 tidak terkandung di dalam 申."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [己未](/guide/pillar-gi-mi) dan berikutnya adalah [辛酉](/guide/pillar-sin-yu)."
+          },
+          {
+            "p": "Terdiri dari [Logam Yang (庚)](/guide/stem-gyeong) dan [申 (Monyet)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-yu": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 辛酉",
+    "summary": "Cara Saju-Link membaca pilar hari 辛酉 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "辛酉 adalah pilar hari nomor 58 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 辛酉, batang hari adalah 辛 (Logam, Yin) dan cabang hari adalah 酉 (Ayam). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 58."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 辛 sebagai “Logam Yin (辛)”, dan kalimat yang ditampilkan layar hasil adalah: \"Permata yang telah diasah. Seleranya halus dan standarnya tinggi; kecerobohan sulit dibiarkan lewat.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 酉 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 辛, batang yang disimpan 酉 adalah sebagai berikut. Batang utama (辛) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 辛酉",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 辛"
+              ],
+              "rows": [
+                [
+                  "Logam Yang (庚)",
+                  "sisa (餘氣)",
+                  "{hidYuYeo}",
+                  "Saingan (劫財)"
+                ],
+                [
+                  "Logam Yin (辛)",
+                  "utama (本氣)",
+                  "{hidYuBon}",
+                  "Rekan Sejajar (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 辛 sebagai batang hari, Rezeki Tetap adalah 甲 dan Wibawa adalah 丙."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 甲. 甲 tidak terkandung di dalam 酉."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 丙. 丙 tidak terkandung di dalam 酉."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [庚申](/guide/pillar-gyeong-sin) dan berikutnya adalah [壬戌](/guide/pillar-im-sul)."
+          },
+          {
+            "p": "Terdiri dari [Logam Yin (辛)](/guide/stem-sin) dan [酉 (Ayam)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-sul": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 壬戌",
+    "summary": "Cara Saju-Link membaca pilar hari 壬戌 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "壬戌 adalah pilar hari nomor 59 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 壬戌, batang hari adalah 壬 (Air, Yang) dan cabang hari adalah 戌 (Anjing). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 59."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 壬 sebagai “Air Yang (壬)”, dan kalimat yang ditampilkan layar hasil adalah: \"Sungai dan laut. Luas cara pandangnya, dengan mata yang membaca ke mana keadaan mengalir.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 戌 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 壬, batang yang disimpan 戌 adalah sebagai berikut. Batang utama (戊) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 壬戌",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 壬"
+              ],
+              "rows": [
+                [
+                  "Logam Yin (辛)",
+                  "sisa (餘氣)",
+                  "{hidSulYeo}",
+                  "Pengasuhan (正印)"
+                ],
+                [
+                  "Api Yin (丁)",
+                  "tengah (中氣)",
+                  "{hidSulJung}",
+                  "Rezeki Tetap (正財)"
+                ],
+                [
+                  "Tanah Yang (戊)",
+                  "utama (本氣)",
+                  "{hidSulBon}",
+                  "Penantang (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 壬 sebagai batang hari, Rezeki Tetap adalah 丁 dan Wibawa adalah 己."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 丁. 丁 terkandung di dalam 戌 (tengah (中氣))."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 己. 己 tidak terkandung di dalam 戌."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [辛酉](/guide/pillar-sin-yu) dan berikutnya adalah [癸亥](/guide/pillar-gye-hae)."
+          },
+          {
+            "p": "Terdiri dari [Air Yang (壬)](/guide/stem-im) dan [戌 (Anjing)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-hae": {
+    "eyebrow": "Pilar hari",
+    "title": "Pilar hari 癸亥",
+    "summary": "Cara Saju-Link membaca pilar hari 癸亥 — apa arti batang yang disimpan cabang hari bagi batang hari — disusun persis seperti aturan perhitungannya.",
+    "backLabel": "Dasar perhitungan",
+    "sections": [
+      {
+        "title": "癸亥 adalah pilar hari nomor 60 dalam siklus enam puluh tahun",
+        "blocks": [
+          {
+            "p": "Ketika batang-cabang hari lahir adalah 癸亥, batang hari adalah 癸 (Air, Yin) dan cabang hari adalah 亥 (Babi). Dalam siklus enam puluh tahun, ini adalah kombinasi nomor 60."
+          },
+          {
+            "p": "Saju-Link menyebut orang yang batang harinya 癸 sebagai “Air Yin (癸)”, dan kalimat yang ditampilkan layar hasil adalah: \"Embun dan hujan. Ia meresap diam-diam dan membaca suasana sebelum kata-kata terucap.\" Kalimat ini tidak ada kaitannya dengan pembacaan di bawah atau skornya."
+          }
+        ]
+      },
+      {
+        "title": "Apa arti batang yang disimpan cabang hari 亥 bagi batang hari",
+        "blocks": [
+          {
+            "p": "Cabang hari adalah posisi pasangan. Dibaca dari batang hari 癸, batang yang disimpan 亥 adalah sebagai berikut. Batang utama (壬) adalah energi yang mewakili cabang tersebut."
+          },
+          {
+            "table": {
+              "caption": "Batang tersembunyi dari cabang hari 癸亥",
+              "head": [
+                "Batang tersembunyi",
+                "Posisi",
+                "Porsi",
+                "Bagi batang hari 癸"
+              ],
+              "rows": [
+                [
+                  "Tanah Yang (戊)",
+                  "sisa (餘氣)",
+                  "{hidHaeYeo}",
+                  "Wibawa (正官)"
+                ],
+                [
+                  "Kayu Yang (甲)",
+                  "tengah (中氣)",
+                  "{hidHaeJung}",
+                  "Pengusik (傷官)"
+                ],
+                [
+                  "Air Yang (壬)",
+                  "utama (本氣)",
+                  "{hidHaeBon}",
+                  "Saingan (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Posisi pasangan dan pilar hari ini",
+        "blocks": [
+          {
+            "p": "Myeongri tradisional membaca posisi pasangan sebagai Rezeki Tetap (正財) bagi pria dan Wibawa (正官) bagi wanita. Dengan 癸 sebagai batang hari, Rezeki Tetap adalah 丙 dan Wibawa adalah 戊."
+          },
+          {
+            "p": "Bagi pria, posisi pasangan (Rezeki Tetap) adalah 丙. 丙 tidak terkandung di dalam 亥."
+          },
+          {
+            "p": "Bagi wanita, posisi pasangan (Wibawa) adalah 戊. 戊 terkandung di dalam 亥 (sisa (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Pilar hari di sekitarnya dan karakter penyusunnya",
+        "blocks": [
+          {
+            "p": "Dalam siklus enam puluh tahun, pilar hari sebelumnya adalah [壬戌](/guide/pillar-im-sul) dan berikutnya adalah [甲子](/guide/pillar-gap-ja)."
+          },
+          {
+            "p": "Terdiri dari [Air Yin (癸)](/guide/stem-gye) dan [亥 (Babi)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Yang tidak dikatakan panduan ini",
+        "blocks": [
+          {
+            "ul": [
+              "Satu pilar hari tidak menentukan seseorang atau suatu hubungan. Sebuah saju dibaca dari bagaimana kedelapan karakter keempat pilar berhubungan.",
+              "Pembacaan posisi pasangan meneruskan aturan myeongri tradisional, dan jika Anda tidak menyebutkan jenis kelamin, posisi ini tidak dibaca."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Sepuluh Dewa",
     "title": "Sepuluh Dewa — Sepuluh Posisi Dalam Saju Saya",

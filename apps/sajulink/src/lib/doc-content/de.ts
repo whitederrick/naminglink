@@ -400,6 +400,9563 @@ export const DE_DOCS = {
       }
     ]
   },
+  "guide/stem-gap": {
+    "eyebrow": "Himmlische Stämme",
+    "title": "Yang-Holz (甲) — Yang-Holz",
+    "summary": "Element und Polarität des himmlischen Stamms 甲, wie er die anderen neun Stämme liest (die Zehn Götter) und welche irdischen Zweige ihn enthalten — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Yang-Holz (甲) ist der erste der zehn himmlischen Stämme",
+        "blocks": [
+          {
+            "p": "甲 ist der erste der zehn himmlischen Stämme. Sein Element ist Holz und seine Polarität ist Yang. Saju-Link nennt eine Person, deren Tagesstamm 甲 ist, „Yang-Holz (甲)“."
+          },
+          {
+            "p": "Die Zeile, die der Ergebnisbildschirm für diesen Tagesstamm zeigt, lautet: „Ein hoher Baum, der gerade wächst. Steht die Richtung fest, wankt er nicht, und er hält lieber aus, als sich zu beugen.“ Diese Zeile hat nichts mit der Tabelle oder den Werten unten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Wie er die anderen Stämme liest (die Zehn Götter)",
+        "blocks": [
+          {
+            "p": "Mit 甲 als Tagesstamm werden die zehn Stämme wie folgt gelesen. Die Lesung hat eine Richtung: So liest 甲 den anderen Stamm, und wenn der andere Stamm 甲 liest, kann ein anderer Name herauskommen."
+          },
+          {
+            "table": {
+              "caption": "Zehn Götter mit Yang-Holz (甲) als Tagesstamm",
+              "head": [
+                "Anderer Stamm",
+                "Element und Polarität",
+                "Zehn-Götter-Name"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Fürsorge (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die als Position des Ehepartners gelesen werden",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 甲 als Tagesstamm ist der Beständige Wohlstand 己 und die Autorität 辛. Wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+          }
+        ]
+      },
+      {
+        "title": "Die Zweige, die 甲 enthalten",
+        "blocks": [
+          {
+            "p": "Hier sitzt 甲 verborgen in den irdischen Zweigen (die verborgenen Stämme). Der Anteil ist der Teil der dreißig Tage des Zweigs, den 甲 einnimmt."
+          },
+          {
+            "table": {
+              "caption": "Die Zweige, die 甲 enthalten",
+              "head": [
+                "Zweig",
+                "Tier",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Tiger",
+                  "Hauptstamm (本氣)",
+                  "{hidInBon}"
+                ],
+                [
+                  "卯",
+                  "Hase",
+                  "Reststamm (餘氣)",
+                  "{hidMyoYeo}"
+                ],
+                [
+                  "亥",
+                  "Schwein",
+                  "Mittelstamm (中氣)",
+                  "{hidHaeJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Stamm entscheidet nicht über einen Menschen. Ein Saju wird daraus gelesen, wie sich seine acht Zeichen zueinander verhalten.",
+              "Die Zehn Götter sind ein Urteil, das vom Tagesstamm aus gefällt wird. Dieselben zwei Zeichen erhalten einen anderen Namen, je nachdem, welches von ihnen der Tagesstamm ist."
+            ]
+          },
+          {
+            "p": "Die vollständigen Zehn Götter finden Sie im [Leitfaden zu den Zehn Göttern](/guide/ten-gods), die Stärke der Elemente und das Monatszeichen im [Leitfaden zu den fünf Elementen](/guide/five-elements). Weitere Stämme: [Yin-Holz (乙)](/guide/stem-eul) · [Yang-Feuer (丙)](/guide/stem-byeong) · [Yin-Feuer (丁)](/guide/stem-jeong) · [Yang-Erde (戊)](/guide/stem-mu) · [Yin-Erde (己)](/guide/stem-gi) · [Yang-Metall (庚)](/guide/stem-gyeong) · [Yin-Metall (辛)](/guide/stem-sin) · [Yang-Wasser (壬)](/guide/stem-im) · [Yin-Wasser (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-eul": {
+    "eyebrow": "Himmlische Stämme",
+    "title": "Yin-Holz (乙) — Yin-Holz",
+    "summary": "Element und Polarität des himmlischen Stamms 乙, wie er die anderen neun Stämme liest (die Zehn Götter) und welche irdischen Zweige ihn enthalten — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Yin-Holz (乙) ist der zweite der zehn himmlischen Stämme",
+        "blocks": [
+          {
+            "p": "乙 ist der zweite der zehn himmlischen Stämme. Sein Element ist Holz und seine Polarität ist Yin. Saju-Link nennt eine Person, deren Tagesstamm 乙 ist, „Yin-Holz (乙)“."
+          },
+          {
+            "p": "Die Zeile, die der Ergebnisbildschirm für diesen Tagesstamm zeigt, lautet: „Eine Ranke — biegsames Gras. Es beugt sich den Umständen, um weiterzukommen, und bricht dabei nicht.“ Diese Zeile hat nichts mit der Tabelle oder den Werten unten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Wie er die anderen Stämme liest (die Zehn Götter)",
+        "blocks": [
+          {
+            "p": "Mit 乙 als Tagesstamm werden die zehn Stämme wie folgt gelesen. Die Lesung hat eine Richtung: So liest 乙 den anderen Stamm, und wenn der andere Stamm 乙 liest, kann ein anderer Name herauskommen."
+          },
+          {
+            "table": {
+              "caption": "Zehn Götter mit Yin-Holz (乙) als Tagesstamm",
+              "head": [
+                "Anderer Stamm",
+                "Element und Polarität",
+                "Zehn-Götter-Name"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Ungewöhnliche Stütze (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die als Position des Ehepartners gelesen werden",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 乙 als Tagesstamm ist der Beständige Wohlstand 戊 und die Autorität 庚. Wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+          }
+        ]
+      },
+      {
+        "title": "Die Zweige, die 乙 enthalten",
+        "blocks": [
+          {
+            "p": "Hier sitzt 乙 verborgen in den irdischen Zweigen (die verborgenen Stämme). Der Anteil ist der Teil der dreißig Tage des Zweigs, den 乙 einnimmt."
+          },
+          {
+            "table": {
+              "caption": "Die Zweige, die 乙 enthalten",
+              "head": [
+                "Zweig",
+                "Tier",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "卯",
+                  "Hase",
+                  "Hauptstamm (本氣)",
+                  "{hidMyoBon}"
+                ],
+                [
+                  "辰",
+                  "Drache",
+                  "Reststamm (餘氣)",
+                  "{hidJinYeo}"
+                ],
+                [
+                  "未",
+                  "Schaf",
+                  "Mittelstamm (中氣)",
+                  "{hidMiJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Stamm entscheidet nicht über einen Menschen. Ein Saju wird daraus gelesen, wie sich seine acht Zeichen zueinander verhalten.",
+              "Die Zehn Götter sind ein Urteil, das vom Tagesstamm aus gefällt wird. Dieselben zwei Zeichen erhalten einen anderen Namen, je nachdem, welches von ihnen der Tagesstamm ist."
+            ]
+          },
+          {
+            "p": "Die vollständigen Zehn Götter finden Sie im [Leitfaden zu den Zehn Göttern](/guide/ten-gods), die Stärke der Elemente und das Monatszeichen im [Leitfaden zu den fünf Elementen](/guide/five-elements). Weitere Stämme: [Yang-Holz (甲)](/guide/stem-gap) · [Yang-Feuer (丙)](/guide/stem-byeong) · [Yin-Feuer (丁)](/guide/stem-jeong) · [Yang-Erde (戊)](/guide/stem-mu) · [Yin-Erde (己)](/guide/stem-gi) · [Yang-Metall (庚)](/guide/stem-gyeong) · [Yin-Metall (辛)](/guide/stem-sin) · [Yang-Wasser (壬)](/guide/stem-im) · [Yin-Wasser (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-byeong": {
+    "eyebrow": "Himmlische Stämme",
+    "title": "Yang-Feuer (丙) — Yang-Feuer",
+    "summary": "Element und Polarität des himmlischen Stamms 丙, wie er die anderen neun Stämme liest (die Zehn Götter) und welche irdischen Zweige ihn enthalten — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Yang-Feuer (丙) ist der dritte der zehn himmlischen Stämme",
+        "blocks": [
+          {
+            "p": "丙 ist der dritte der zehn himmlischen Stämme. Sein Element ist Feuer und seine Polarität ist Yang. Saju-Link nennt eine Person, deren Tagesstamm 丙 ist, „Yang-Feuer (丙)“."
+          },
+          {
+            "p": "Die Zeile, die der Ergebnisbildschirm für diesen Tagesstamm zeigt, lautet: „Die Mittagssonne. Gefühle liegen offen, der Raum wird hell, und nach vorn zu treten fällt leicht.“ Diese Zeile hat nichts mit der Tabelle oder den Werten unten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Wie er die anderen Stämme liest (die Zehn Götter)",
+        "blocks": [
+          {
+            "p": "Mit 丙 als Tagesstamm werden die zehn Stämme wie folgt gelesen. Die Lesung hat eine Richtung: So liest 丙 den anderen Stamm, und wenn der andere Stamm 丙 liest, kann ein anderer Name herauskommen."
+          },
+          {
+            "table": {
+              "caption": "Zehn Götter mit Yang-Feuer (丙) als Tagesstamm",
+              "head": [
+                "Anderer Stamm",
+                "Element und Polarität",
+                "Zehn-Götter-Name"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Autorität (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die als Position des Ehepartners gelesen werden",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丙 als Tagesstamm ist der Beständige Wohlstand 辛 und die Autorität 癸. Wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+          }
+        ]
+      },
+      {
+        "title": "Die Zweige, die 丙 enthalten",
+        "blocks": [
+          {
+            "p": "Hier sitzt 丙 verborgen in den irdischen Zweigen (die verborgenen Stämme). Der Anteil ist der Teil der dreißig Tage des Zweigs, den 丙 einnimmt."
+          },
+          {
+            "table": {
+              "caption": "Die Zweige, die 丙 enthalten",
+              "head": [
+                "Zweig",
+                "Tier",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Tiger",
+                  "Mittelstamm (中氣)",
+                  "{hidInJung}"
+                ],
+                [
+                  "巳",
+                  "Schlange",
+                  "Hauptstamm (本氣)",
+                  "{hidSaBon}"
+                ],
+                [
+                  "午",
+                  "Pferd",
+                  "Reststamm (餘氣)",
+                  "{hidOYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Stamm entscheidet nicht über einen Menschen. Ein Saju wird daraus gelesen, wie sich seine acht Zeichen zueinander verhalten.",
+              "Die Zehn Götter sind ein Urteil, das vom Tagesstamm aus gefällt wird. Dieselben zwei Zeichen erhalten einen anderen Namen, je nachdem, welches von ihnen der Tagesstamm ist."
+            ]
+          },
+          {
+            "p": "Die vollständigen Zehn Götter finden Sie im [Leitfaden zu den Zehn Göttern](/guide/ten-gods), die Stärke der Elemente und das Monatszeichen im [Leitfaden zu den fünf Elementen](/guide/five-elements). Weitere Stämme: [Yang-Holz (甲)](/guide/stem-gap) · [Yin-Holz (乙)](/guide/stem-eul) · [Yin-Feuer (丁)](/guide/stem-jeong) · [Yang-Erde (戊)](/guide/stem-mu) · [Yin-Erde (己)](/guide/stem-gi) · [Yang-Metall (庚)](/guide/stem-gyeong) · [Yin-Metall (辛)](/guide/stem-sin) · [Yang-Wasser (壬)](/guide/stem-im) · [Yin-Wasser (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-jeong": {
+    "eyebrow": "Himmlische Stämme",
+    "title": "Yin-Feuer (丁) — Yin-Feuer",
+    "summary": "Element und Polarität des himmlischen Stamms 丁, wie er die anderen neun Stämme liest (die Zehn Götter) und welche irdischen Zweige ihn enthalten — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Yin-Feuer (丁) ist der vierte der zehn himmlischen Stämme",
+        "blocks": [
+          {
+            "p": "丁 ist der vierte der zehn himmlischen Stämme. Sein Element ist Feuer und seine Polarität ist Yin. Saju-Link nennt eine Person, deren Tagesstamm 丁 ist, „Yin-Feuer (丁)“."
+          },
+          {
+            "p": "Die Zeile, die der Ergebnisbildschirm für diesen Tagesstamm zeigt, lautet: „Kerzenlicht. Es brennt leise und lange und wärmt zuerst die Nächsten.“ Diese Zeile hat nichts mit der Tabelle oder den Werten unten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Wie er die anderen Stämme liest (die Zehn Götter)",
+        "blocks": [
+          {
+            "p": "Mit 丁 als Tagesstamm werden die zehn Stämme wie folgt gelesen. Die Lesung hat eine Richtung: So liest 丁 den anderen Stamm, und wenn der andere Stamm 丁 liest, kann ein anderer Name herauskommen."
+          },
+          {
+            "table": {
+              "caption": "Zehn Götter mit Yin-Feuer (丁) als Tagesstamm",
+              "head": [
+                "Anderer Stamm",
+                "Element und Polarität",
+                "Zehn-Götter-Name"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Herausforderer (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die als Position des Ehepartners gelesen werden",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丁 als Tagesstamm ist der Beständige Wohlstand 庚 und die Autorität 壬. Wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+          }
+        ]
+      },
+      {
+        "title": "Die Zweige, die 丁 enthalten",
+        "blocks": [
+          {
+            "p": "Hier sitzt 丁 verborgen in den irdischen Zweigen (die verborgenen Stämme). Der Anteil ist der Teil der dreißig Tage des Zweigs, den 丁 einnimmt."
+          },
+          {
+            "table": {
+              "caption": "Die Zweige, die 丁 enthalten",
+              "head": [
+                "Zweig",
+                "Tier",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "午",
+                  "Pferd",
+                  "Hauptstamm (本氣)",
+                  "{hidOBon}"
+                ],
+                [
+                  "未",
+                  "Schaf",
+                  "Reststamm (餘氣)",
+                  "{hidMiYeo}"
+                ],
+                [
+                  "戌",
+                  "Hund",
+                  "Mittelstamm (中氣)",
+                  "{hidSulJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Stamm entscheidet nicht über einen Menschen. Ein Saju wird daraus gelesen, wie sich seine acht Zeichen zueinander verhalten.",
+              "Die Zehn Götter sind ein Urteil, das vom Tagesstamm aus gefällt wird. Dieselben zwei Zeichen erhalten einen anderen Namen, je nachdem, welches von ihnen der Tagesstamm ist."
+            ]
+          },
+          {
+            "p": "Die vollständigen Zehn Götter finden Sie im [Leitfaden zu den Zehn Göttern](/guide/ten-gods), die Stärke der Elemente und das Monatszeichen im [Leitfaden zu den fünf Elementen](/guide/five-elements). Weitere Stämme: [Yang-Holz (甲)](/guide/stem-gap) · [Yin-Holz (乙)](/guide/stem-eul) · [Yang-Feuer (丙)](/guide/stem-byeong) · [Yang-Erde (戊)](/guide/stem-mu) · [Yin-Erde (己)](/guide/stem-gi) · [Yang-Metall (庚)](/guide/stem-gyeong) · [Yin-Metall (辛)](/guide/stem-sin) · [Yang-Wasser (壬)](/guide/stem-im) · [Yin-Wasser (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-mu": {
+    "eyebrow": "Himmlische Stämme",
+    "title": "Yang-Erde (戊) — Yang-Erde",
+    "summary": "Element und Polarität des himmlischen Stamms 戊, wie er die anderen neun Stämme liest (die Zehn Götter) und welche irdischen Zweige ihn enthalten — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Yang-Erde (戊) ist der fünfte der zehn himmlischen Stämme",
+        "blocks": [
+          {
+            "p": "戊 ist der fünfte der zehn himmlischen Stämme. Sein Element ist Erde und seine Polarität ist Yang. Saju-Link nennt eine Person, deren Tagesstamm 戊 ist, „Yang-Erde (戊)“."
+          },
+          {
+            "p": "Die Zeile, die der Ergebnisbildschirm für diesen Tagesstamm zeigt, lautet: „Weites Land und Berge. Schwer zu erschüttern und gut zum Anlehnen, doch eine getroffene Entscheidung ändert sich nur langsam.“ Diese Zeile hat nichts mit der Tabelle oder den Werten unten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Wie er die anderen Stämme liest (die Zehn Götter)",
+        "blocks": [
+          {
+            "p": "Mit 戊 als Tagesstamm werden die zehn Stämme wie folgt gelesen. Die Lesung hat eine Richtung: So liest 戊 den anderen Stamm, und wenn der andere Stamm 戊 liest, kann ein anderer Name herauskommen."
+          },
+          {
+            "table": {
+              "caption": "Zehn Götter mit Yang-Erde (戊) als Tagesstamm",
+              "head": [
+                "Anderer Stamm",
+                "Element und Polarität",
+                "Zehn-Götter-Name"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Beständiger Wohlstand (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die als Position des Ehepartners gelesen werden",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 戊 als Tagesstamm ist der Beständige Wohlstand 癸 und die Autorität 乙. Wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+          }
+        ]
+      },
+      {
+        "title": "Die Zweige, die 戊 enthalten",
+        "blocks": [
+          {
+            "p": "Hier sitzt 戊 verborgen in den irdischen Zweigen (die verborgenen Stämme). Der Anteil ist der Teil der dreißig Tage des Zweigs, den 戊 einnimmt."
+          },
+          {
+            "table": {
+              "caption": "Die Zweige, die 戊 enthalten",
+              "head": [
+                "Zweig",
+                "Tier",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "寅",
+                  "Tiger",
+                  "Reststamm (餘氣)",
+                  "{hidInYeo}"
+                ],
+                [
+                  "辰",
+                  "Drache",
+                  "Hauptstamm (本氣)",
+                  "{hidJinBon}"
+                ],
+                [
+                  "巳",
+                  "Schlange",
+                  "Reststamm (餘氣)",
+                  "{hidSaYeo}"
+                ],
+                [
+                  "申",
+                  "Affe",
+                  "Reststamm (餘氣)",
+                  "{hidSinYeo}"
+                ],
+                [
+                  "戌",
+                  "Hund",
+                  "Hauptstamm (本氣)",
+                  "{hidSulBon}"
+                ],
+                [
+                  "亥",
+                  "Schwein",
+                  "Reststamm (餘氣)",
+                  "{hidHaeYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Stamm entscheidet nicht über einen Menschen. Ein Saju wird daraus gelesen, wie sich seine acht Zeichen zueinander verhalten.",
+              "Die Zehn Götter sind ein Urteil, das vom Tagesstamm aus gefällt wird. Dieselben zwei Zeichen erhalten einen anderen Namen, je nachdem, welches von ihnen der Tagesstamm ist."
+            ]
+          },
+          {
+            "p": "Die vollständigen Zehn Götter finden Sie im [Leitfaden zu den Zehn Göttern](/guide/ten-gods), die Stärke der Elemente und das Monatszeichen im [Leitfaden zu den fünf Elementen](/guide/five-elements). Weitere Stämme: [Yang-Holz (甲)](/guide/stem-gap) · [Yin-Holz (乙)](/guide/stem-eul) · [Yang-Feuer (丙)](/guide/stem-byeong) · [Yin-Feuer (丁)](/guide/stem-jeong) · [Yin-Erde (己)](/guide/stem-gi) · [Yang-Metall (庚)](/guide/stem-gyeong) · [Yin-Metall (辛)](/guide/stem-sin) · [Yang-Wasser (壬)](/guide/stem-im) · [Yin-Wasser (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gi": {
+    "eyebrow": "Himmlische Stämme",
+    "title": "Yin-Erde (己) — Yin-Erde",
+    "summary": "Element und Polarität des himmlischen Stamms 己, wie er die anderen neun Stämme liest (die Zehn Götter) und welche irdischen Zweige ihn enthalten — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Yin-Erde (己) ist der sechste der zehn himmlischen Stämme",
+        "blocks": [
+          {
+            "p": "己 ist der sechste der zehn himmlischen Stämme. Sein Element ist Erde und seine Polarität ist Yin. Saju-Link nennt eine Person, deren Tagesstamm 己 ist, „Yin-Erde (己)“."
+          },
+          {
+            "p": "Die Zeile, die der Ergebnisbildschirm für diesen Tagesstamm zeigt, lautet: „Ackerboden. Er nimmt auf, was kommt, und zieht es groß — er pflegt, statt sich zu zeigen.“ Diese Zeile hat nichts mit der Tabelle oder den Werten unten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Wie er die anderen Stämme liest (die Zehn Götter)",
+        "blocks": [
+          {
+            "p": "Mit 己 als Tagesstamm werden die zehn Stämme wie folgt gelesen. Die Lesung hat eine Richtung: So liest 己 den anderen Stamm, und wenn der andere Stamm 己 liest, kann ein anderer Name herauskommen."
+          },
+          {
+            "table": {
+              "caption": "Zehn Götter mit Yin-Erde (己) als Tagesstamm",
+              "head": [
+                "Anderer Stamm",
+                "Element und Polarität",
+                "Zehn-Götter-Name"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Unerwarteter Gewinn (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die als Position des Ehepartners gelesen werden",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 己 als Tagesstamm ist der Beständige Wohlstand 壬 und die Autorität 甲. Wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+          }
+        ]
+      },
+      {
+        "title": "Die Zweige, die 己 enthalten",
+        "blocks": [
+          {
+            "p": "Hier sitzt 己 verborgen in den irdischen Zweigen (die verborgenen Stämme). Der Anteil ist der Teil der dreißig Tage des Zweigs, den 己 einnimmt."
+          },
+          {
+            "table": {
+              "caption": "Die Zweige, die 己 enthalten",
+              "head": [
+                "Zweig",
+                "Tier",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "丑",
+                  "Ochse",
+                  "Hauptstamm (本氣)",
+                  "{hidChukBon}"
+                ],
+                [
+                  "午",
+                  "Pferd",
+                  "Mittelstamm (中氣)",
+                  "{hidOJung}"
+                ],
+                [
+                  "未",
+                  "Schaf",
+                  "Hauptstamm (本氣)",
+                  "{hidMiBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Stamm entscheidet nicht über einen Menschen. Ein Saju wird daraus gelesen, wie sich seine acht Zeichen zueinander verhalten.",
+              "Die Zehn Götter sind ein Urteil, das vom Tagesstamm aus gefällt wird. Dieselben zwei Zeichen erhalten einen anderen Namen, je nachdem, welches von ihnen der Tagesstamm ist."
+            ]
+          },
+          {
+            "p": "Die vollständigen Zehn Götter finden Sie im [Leitfaden zu den Zehn Göttern](/guide/ten-gods), die Stärke der Elemente und das Monatszeichen im [Leitfaden zu den fünf Elementen](/guide/five-elements). Weitere Stämme: [Yang-Holz (甲)](/guide/stem-gap) · [Yin-Holz (乙)](/guide/stem-eul) · [Yang-Feuer (丙)](/guide/stem-byeong) · [Yin-Feuer (丁)](/guide/stem-jeong) · [Yang-Erde (戊)](/guide/stem-mu) · [Yang-Metall (庚)](/guide/stem-gyeong) · [Yin-Metall (辛)](/guide/stem-sin) · [Yang-Wasser (壬)](/guide/stem-im) · [Yin-Wasser (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gyeong": {
+    "eyebrow": "Himmlische Stämme",
+    "title": "Yang-Metall (庚) — Yang-Metall",
+    "summary": "Element und Polarität des himmlischen Stamms 庚, wie er die anderen neun Stämme liest (die Zehn Götter) und welche irdischen Zweige ihn enthalten — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Yang-Metall (庚) ist der siebte der zehn himmlischen Stämme",
+        "blocks": [
+          {
+            "p": "庚 ist der siebte der zehn himmlischen Stämme. Sein Element ist Metall und seine Polarität ist Yang. Saju-Link nennt eine Person, deren Tagesstamm 庚 ist, „Yang-Metall (庚)“."
+          },
+          {
+            "p": "Die Zeile, die der Ergebnisbildschirm für diesen Tagesstamm zeigt, lautet: „Unbearbeitetes Eisen. Entschieden und klar, mit wenig Geduld für Dinge, die in der Schwebe bleiben.“ Diese Zeile hat nichts mit der Tabelle oder den Werten unten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Wie er die anderen Stämme liest (die Zehn Götter)",
+        "blocks": [
+          {
+            "p": "Mit 庚 als Tagesstamm werden die zehn Stämme wie folgt gelesen. Die Lesung hat eine Richtung: So liest 庚 den anderen Stamm, und wenn der andere Stamm 庚 liest, kann ein anderer Name herauskommen."
+          },
+          {
+            "table": {
+              "caption": "Zehn Götter mit Yang-Metall (庚) als Tagesstamm",
+              "head": [
+                "Anderer Stamm",
+                "Element und Polarität",
+                "Zehn-Götter-Name"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Störer (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die als Position des Ehepartners gelesen werden",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 庚 als Tagesstamm ist der Beständige Wohlstand 乙 und die Autorität 丁. Wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+          }
+        ]
+      },
+      {
+        "title": "Die Zweige, die 庚 enthalten",
+        "blocks": [
+          {
+            "p": "Hier sitzt 庚 verborgen in den irdischen Zweigen (die verborgenen Stämme). Der Anteil ist der Teil der dreißig Tage des Zweigs, den 庚 einnimmt."
+          },
+          {
+            "table": {
+              "caption": "Die Zweige, die 庚 enthalten",
+              "head": [
+                "Zweig",
+                "Tier",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "巳",
+                  "Schlange",
+                  "Mittelstamm (中氣)",
+                  "{hidSaJung}"
+                ],
+                [
+                  "申",
+                  "Affe",
+                  "Hauptstamm (本氣)",
+                  "{hidSinBon}"
+                ],
+                [
+                  "酉",
+                  "Hahn",
+                  "Reststamm (餘氣)",
+                  "{hidYuYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Stamm entscheidet nicht über einen Menschen. Ein Saju wird daraus gelesen, wie sich seine acht Zeichen zueinander verhalten.",
+              "Die Zehn Götter sind ein Urteil, das vom Tagesstamm aus gefällt wird. Dieselben zwei Zeichen erhalten einen anderen Namen, je nachdem, welches von ihnen der Tagesstamm ist."
+            ]
+          },
+          {
+            "p": "Die vollständigen Zehn Götter finden Sie im [Leitfaden zu den Zehn Göttern](/guide/ten-gods), die Stärke der Elemente und das Monatszeichen im [Leitfaden zu den fünf Elementen](/guide/five-elements). Weitere Stämme: [Yang-Holz (甲)](/guide/stem-gap) · [Yin-Holz (乙)](/guide/stem-eul) · [Yang-Feuer (丙)](/guide/stem-byeong) · [Yin-Feuer (丁)](/guide/stem-jeong) · [Yang-Erde (戊)](/guide/stem-mu) · [Yin-Erde (己)](/guide/stem-gi) · [Yin-Metall (辛)](/guide/stem-sin) · [Yang-Wasser (壬)](/guide/stem-im) · [Yin-Wasser (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-sin": {
+    "eyebrow": "Himmlische Stämme",
+    "title": "Yin-Metall (辛) — Yin-Metall",
+    "summary": "Element und Polarität des himmlischen Stamms 辛, wie er die anderen neun Stämme liest (die Zehn Götter) und welche irdischen Zweige ihn enthalten — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Yin-Metall (辛) ist der achte der zehn himmlischen Stämme",
+        "blocks": [
+          {
+            "p": "辛 ist der achte der zehn himmlischen Stämme. Sein Element ist Metall und seine Polarität ist Yin. Saju-Link nennt eine Person, deren Tagesstamm 辛 ist, „Yin-Metall (辛)“."
+          },
+          {
+            "p": "Die Zeile, die der Ergebnisbildschirm für diesen Tagesstamm zeigt, lautet: „Ein geschliffener Edelstein. Feiner Geschmack und hohe Maßstäbe; Nachlässigkeit lässt sich schwer durchgehen lassen.“ Diese Zeile hat nichts mit der Tabelle oder den Werten unten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Wie er die anderen Stämme liest (die Zehn Götter)",
+        "blocks": [
+          {
+            "p": "Mit 辛 als Tagesstamm werden die zehn Stämme wie folgt gelesen. Die Lesung hat eine Richtung: So liest 辛 den anderen Stamm, und wenn der andere Stamm 辛 liest, kann ein anderer Name herauskommen."
+          },
+          {
+            "table": {
+              "caption": "Zehn Götter mit Yin-Metall (辛) als Tagesstamm",
+              "head": [
+                "Anderer Stamm",
+                "Element und Polarität",
+                "Zehn-Götter-Name"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Ausdruck (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die als Position des Ehepartners gelesen werden",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 辛 als Tagesstamm ist der Beständige Wohlstand 甲 und die Autorität 丙. Wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+          }
+        ]
+      },
+      {
+        "title": "Die Zweige, die 辛 enthalten",
+        "blocks": [
+          {
+            "p": "Hier sitzt 辛 verborgen in den irdischen Zweigen (die verborgenen Stämme). Der Anteil ist der Teil der dreißig Tage des Zweigs, den 辛 einnimmt."
+          },
+          {
+            "table": {
+              "caption": "Die Zweige, die 辛 enthalten",
+              "head": [
+                "Zweig",
+                "Tier",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "丑",
+                  "Ochse",
+                  "Mittelstamm (中氣)",
+                  "{hidChukJung}"
+                ],
+                [
+                  "酉",
+                  "Hahn",
+                  "Hauptstamm (本氣)",
+                  "{hidYuBon}"
+                ],
+                [
+                  "戌",
+                  "Hund",
+                  "Reststamm (餘氣)",
+                  "{hidSulYeo}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Stamm entscheidet nicht über einen Menschen. Ein Saju wird daraus gelesen, wie sich seine acht Zeichen zueinander verhalten.",
+              "Die Zehn Götter sind ein Urteil, das vom Tagesstamm aus gefällt wird. Dieselben zwei Zeichen erhalten einen anderen Namen, je nachdem, welches von ihnen der Tagesstamm ist."
+            ]
+          },
+          {
+            "p": "Die vollständigen Zehn Götter finden Sie im [Leitfaden zu den Zehn Göttern](/guide/ten-gods), die Stärke der Elemente und das Monatszeichen im [Leitfaden zu den fünf Elementen](/guide/five-elements). Weitere Stämme: [Yang-Holz (甲)](/guide/stem-gap) · [Yin-Holz (乙)](/guide/stem-eul) · [Yang-Feuer (丙)](/guide/stem-byeong) · [Yin-Feuer (丁)](/guide/stem-jeong) · [Yang-Erde (戊)](/guide/stem-mu) · [Yin-Erde (己)](/guide/stem-gi) · [Yang-Metall (庚)](/guide/stem-gyeong) · [Yang-Wasser (壬)](/guide/stem-im) · [Yin-Wasser (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-im": {
+    "eyebrow": "Himmlische Stämme",
+    "title": "Yang-Wasser (壬) — Yang-Wasser",
+    "summary": "Element und Polarität des himmlischen Stamms 壬, wie er die anderen neun Stämme liest (die Zehn Götter) und welche irdischen Zweige ihn enthalten — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Yang-Wasser (壬) ist der neunte der zehn himmlischen Stämme",
+        "blocks": [
+          {
+            "p": "壬 ist der neunte der zehn himmlischen Stämme. Sein Element ist Wasser und seine Polarität ist Yang. Saju-Link nennt eine Person, deren Tagesstamm 壬 ist, „Yang-Wasser (壬)“."
+          },
+          {
+            "p": "Die Zeile, die der Ergebnisbildschirm für diesen Tagesstamm zeigt, lautet: „Fluss und Meer. Weiter Blick, mit einem Auge dafür, wohin die Dinge laufen.“ Diese Zeile hat nichts mit der Tabelle oder den Werten unten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Wie er die anderen Stämme liest (die Zehn Götter)",
+        "blocks": [
+          {
+            "p": "Mit 壬 als Tagesstamm werden die zehn Stämme wie folgt gelesen. Die Lesung hat eine Richtung: So liest 壬 den anderen Stamm, und wenn der andere Stamm 壬 liest, kann ein anderer Name herauskommen."
+          },
+          {
+            "table": {
+              "caption": "Zehn Götter mit Yang-Wasser (壬) als Tagesstamm",
+              "head": [
+                "Anderer Stamm",
+                "Element und Polarität",
+                "Zehn-Götter-Name"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Rivale (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die als Position des Ehepartners gelesen werden",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 壬 als Tagesstamm ist der Beständige Wohlstand 丁 und die Autorität 己. Wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+          }
+        ]
+      },
+      {
+        "title": "Die Zweige, die 壬 enthalten",
+        "blocks": [
+          {
+            "p": "Hier sitzt 壬 verborgen in den irdischen Zweigen (die verborgenen Stämme). Der Anteil ist der Teil der dreißig Tage des Zweigs, den 壬 einnimmt."
+          },
+          {
+            "table": {
+              "caption": "Die Zweige, die 壬 enthalten",
+              "head": [
+                "Zweig",
+                "Tier",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Ratte",
+                  "Reststamm (餘氣)",
+                  "{hidJaYeo}"
+                ],
+                [
+                  "申",
+                  "Affe",
+                  "Mittelstamm (中氣)",
+                  "{hidSinJung}"
+                ],
+                [
+                  "亥",
+                  "Schwein",
+                  "Hauptstamm (本氣)",
+                  "{hidHaeBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Stamm entscheidet nicht über einen Menschen. Ein Saju wird daraus gelesen, wie sich seine acht Zeichen zueinander verhalten.",
+              "Die Zehn Götter sind ein Urteil, das vom Tagesstamm aus gefällt wird. Dieselben zwei Zeichen erhalten einen anderen Namen, je nachdem, welches von ihnen der Tagesstamm ist."
+            ]
+          },
+          {
+            "p": "Die vollständigen Zehn Götter finden Sie im [Leitfaden zu den Zehn Göttern](/guide/ten-gods), die Stärke der Elemente und das Monatszeichen im [Leitfaden zu den fünf Elementen](/guide/five-elements). Weitere Stämme: [Yang-Holz (甲)](/guide/stem-gap) · [Yin-Holz (乙)](/guide/stem-eul) · [Yang-Feuer (丙)](/guide/stem-byeong) · [Yin-Feuer (丁)](/guide/stem-jeong) · [Yang-Erde (戊)](/guide/stem-mu) · [Yin-Erde (己)](/guide/stem-gi) · [Yang-Metall (庚)](/guide/stem-gyeong) · [Yin-Metall (辛)](/guide/stem-sin) · [Yin-Wasser (癸)](/guide/stem-gye)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/stem-gye": {
+    "eyebrow": "Himmlische Stämme",
+    "title": "Yin-Wasser (癸) — Yin-Wasser",
+    "summary": "Element und Polarität des himmlischen Stamms 癸, wie er die anderen neun Stämme liest (die Zehn Götter) und welche irdischen Zweige ihn enthalten — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "Yin-Wasser (癸) ist der zehnte der zehn himmlischen Stämme",
+        "blocks": [
+          {
+            "p": "癸 ist der zehnte der zehn himmlischen Stämme. Sein Element ist Wasser und seine Polarität ist Yin. Saju-Link nennt eine Person, deren Tagesstamm 癸 ist, „Yin-Wasser (癸)“."
+          },
+          {
+            "p": "Die Zeile, die der Ergebnisbildschirm für diesen Tagesstamm zeigt, lautet: „Tau und Regen. Es sickert leise ein und liest die Stimmung, bevor Worte fallen.“ Diese Zeile hat nichts mit der Tabelle oder den Werten unten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Wie er die anderen Stämme liest (die Zehn Götter)",
+        "blocks": [
+          {
+            "p": "Mit 癸 als Tagesstamm werden die zehn Stämme wie folgt gelesen. Die Lesung hat eine Richtung: So liest 癸 den anderen Stamm, und wenn der andere Stamm 癸 liest, kann ein anderer Name herauskommen."
+          },
+          {
+            "table": {
+              "caption": "Zehn Götter mit Yin-Wasser (癸) als Tagesstamm",
+              "head": [
+                "Anderer Stamm",
+                "Element und Polarität",
+                "Zehn-Götter-Name"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Gefährte (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die als Position des Ehepartners gelesen werden",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 癸 als Tagesstamm ist der Beständige Wohlstand 丙 und die Autorität 戊. Wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+          }
+        ]
+      },
+      {
+        "title": "Die Zweige, die 癸 enthalten",
+        "blocks": [
+          {
+            "p": "Hier sitzt 癸 verborgen in den irdischen Zweigen (die verborgenen Stämme). Der Anteil ist der Teil der dreißig Tage des Zweigs, den 癸 einnimmt."
+          },
+          {
+            "table": {
+              "caption": "Die Zweige, die 癸 enthalten",
+              "head": [
+                "Zweig",
+                "Tier",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "子",
+                  "Ratte",
+                  "Hauptstamm (本氣)",
+                  "{hidJaBon}"
+                ],
+                [
+                  "丑",
+                  "Ochse",
+                  "Reststamm (餘氣)",
+                  "{hidChukYeo}"
+                ],
+                [
+                  "辰",
+                  "Drache",
+                  "Mittelstamm (中氣)",
+                  "{hidJinJung}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Stamm entscheidet nicht über einen Menschen. Ein Saju wird daraus gelesen, wie sich seine acht Zeichen zueinander verhalten.",
+              "Die Zehn Götter sind ein Urteil, das vom Tagesstamm aus gefällt wird. Dieselben zwei Zeichen erhalten einen anderen Namen, je nachdem, welches von ihnen der Tagesstamm ist."
+            ]
+          },
+          {
+            "p": "Die vollständigen Zehn Götter finden Sie im [Leitfaden zu den Zehn Göttern](/guide/ten-gods), die Stärke der Elemente und das Monatszeichen im [Leitfaden zu den fünf Elementen](/guide/five-elements). Weitere Stämme: [Yang-Holz (甲)](/guide/stem-gap) · [Yin-Holz (乙)](/guide/stem-eul) · [Yang-Feuer (丙)](/guide/stem-byeong) · [Yin-Feuer (丁)](/guide/stem-jeong) · [Yang-Erde (戊)](/guide/stem-mu) · [Yin-Erde (己)](/guide/stem-gi) · [Yang-Metall (庚)](/guide/stem-gyeong) · [Yin-Metall (辛)](/guide/stem-sin) · [Yang-Wasser (壬)](/guide/stem-im)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-ja": {
+    "eyebrow": "Irdische Zweige",
+    "title": "子 — der Zweig der Ratte",
+    "summary": "Die Stämme, die der irdische Zweig 子 enthält (die verborgenen Stämme), die Stärke der fünf Elemente, wenn er der Monatszweig ist, und die für jeden Tagesstamm gelesenen Zehn Götter — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "子 ist der erste der zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "子 ist der erste der zwölf irdischen Zweige und gehört zur Ratte. Ist der Zweig des Geburtsmonats 子, dann ist die Jahreszeit der Winter und das Element, das die Jahreszeit beherrscht, ist Wasser."
+          },
+          {
+            "p": "Wenn der Zweig des Geburtstags 子 ist, ist dieses Zeichen die Position des Ehepartners. Unten sehen Sie, welche Stämme dieser Zweig enthält und was sie für den Tagesstamm sind."
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die dieser Zweig enthält (verborgene Stämme)",
+        "blocks": [
+          {
+            "p": "Ein Zweig ist ein sichtbares Zeichen, enthält aber Stämme in sich. Der Anteil gibt an, wie die dreißig Tage des Zweigs auf die Stämme verteilt sind, und der Hauptstamm ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme von 子",
+              "head": [
+                "Stamm",
+                "Element und Polarität",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Reststamm (餘氣)",
+                  "{hidJaYeo}"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Hauptstamm (本氣)",
+                  "{hidJaBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stärke der fünf Elemente, wenn der Monatszweig 子 ist",
+        "blocks": [
+          {
+            "p": "Wenn der Zweig des Geburtsmonats 子 ist, erhält jedes Element einen Zustand (Wang, Sang, Hyu, Su, Sa), und dieser Zustand wird zum Multiplikator, der auf seine Stärke angewendet wird."
+          },
+          {
+            "table": {
+              "caption": "Die Elementzustände für den Monatszweig 子 (Winter)",
+              "head": [
+                "Element",
+                "Zustand",
+                "Multiplikator"
+              ],
+              "rows": [
+                [
+                  "Holz",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Feuer",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Erde",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Metall",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Wasser",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Zehn Götter nach Tagesstamm",
+        "blocks": [
+          {
+            "p": "Dieselben verborgenen Stämme von 子 werden je nach Tagesstamm zu verschiedenen Zehn Göttern. Ist 子 der Tageszweig, ist diese Tabelle die Lesung der Position des Ehepartners."
+          },
+          {
+            "table": {
+              "caption": "Was die verborgenen Stämme von 子 für den jeweiligen Tagesstamm sind",
+              "head": [
+                "Tagesstamm",
+                "Yang-Wasser (壬) — Reststamm (餘氣)",
+                "Yin-Wasser (癸) — Hauptstamm (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Fürsorge (正印)",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Herausforderer (偏官)",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Autorität (正官)",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Beständiger Wohlstand (正財)",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Ausdruck (食神)",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Störer (傷官)",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Gefährte (比肩)",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Rivale (劫財)",
+                  "Gefährte (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Zweig entscheidet nicht über einen Menschen. Derselbe Zweig wird je nach Tagesstamm und Monatszweig anders gelesen.",
+              "Beziehungen zwischen Zweigen wie Harmonie, Konflikt und Zwietracht werden hier nicht behandelt."
+            ]
+          },
+          {
+            "p": "Die Beziehungen zwischen den Zweigen stehen in [der Tafel der zwölf Zweige](/guide/branches), und seine Bedeutung als Tierkreiszeichen steht in [wo das Tierkreiszeichen im Saju steht](/guide/zodiac). Weitere Zweige: [丑 (Ochse)](/guide/branch-chuk) · [寅 (Tiger)](/guide/branch-in) · [卯 (Hase)](/guide/branch-myo) · [辰 (Drache)](/guide/branch-jin) · [巳 (Schlange)](/guide/branch-sa) · [午 (Pferd)](/guide/branch-o) · [未 (Schaf)](/guide/branch-mi) · [申 (Affe)](/guide/branch-sin) · [酉 (Hahn)](/guide/branch-yu) · [戌 (Hund)](/guide/branch-sul) · [亥 (Schwein)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-chuk": {
+    "eyebrow": "Irdische Zweige",
+    "title": "丑 — der Zweig des Ochsen",
+    "summary": "Die Stämme, die der irdische Zweig 丑 enthält (die verborgenen Stämme), die Stärke der fünf Elemente, wenn er der Monatszweig ist, und die für jeden Tagesstamm gelesenen Zehn Götter — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丑 ist der zweite der zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "丑 ist der zweite der zwölf irdischen Zweige und gehört zum Ochsen. Ist der Zweig des Geburtsmonats 丑, dann ist die Jahreszeit der Winter und das Element, das die Jahreszeit beherrscht, ist Wasser. Es ist ein Übergangsmonat (辰未戌丑), daher gilt auch die Erde als im Zustand Wang."
+          },
+          {
+            "p": "Wenn der Zweig des Geburtstags 丑 ist, ist dieses Zeichen die Position des Ehepartners. Unten sehen Sie, welche Stämme dieser Zweig enthält und was sie für den Tagesstamm sind."
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die dieser Zweig enthält (verborgene Stämme)",
+        "blocks": [
+          {
+            "p": "Ein Zweig ist ein sichtbares Zeichen, enthält aber Stämme in sich. Der Anteil gibt an, wie die dreißig Tage des Zweigs auf die Stämme verteilt sind, und der Hauptstamm ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme von 丑",
+              "head": [
+                "Stamm",
+                "Element und Polarität",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Reststamm (餘氣)",
+                  "{hidChukYeo}"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Mittelstamm (中氣)",
+                  "{hidChukJung}"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Hauptstamm (本氣)",
+                  "{hidChukBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stärke der fünf Elemente, wenn der Monatszweig 丑 ist",
+        "blocks": [
+          {
+            "p": "Wenn der Zweig des Geburtsmonats 丑 ist, erhält jedes Element einen Zustand (Wang, Sang, Hyu, Su, Sa), und dieser Zustand wird zum Multiplikator, der auf seine Stärke angewendet wird."
+          },
+          {
+            "table": {
+              "caption": "Die Elementzustände für den Monatszweig 丑 (Winter (Übergangsmonat))",
+              "head": [
+                "Element",
+                "Zustand",
+                "Multiplikator"
+              ],
+              "rows": [
+                [
+                  "Holz",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Feuer",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Erde",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Metall",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Wasser",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Zehn Götter nach Tagesstamm",
+        "blocks": [
+          {
+            "p": "Dieselben verborgenen Stämme von 丑 werden je nach Tagesstamm zu verschiedenen Zehn Göttern. Ist 丑 der Tageszweig, ist diese Tabelle die Lesung der Position des Ehepartners."
+          },
+          {
+            "table": {
+              "caption": "Was die verborgenen Stämme von 丑 für den jeweiligen Tagesstamm sind",
+              "head": [
+                "Tagesstamm",
+                "Yin-Wasser (癸) — Reststamm (餘氣)",
+                "Yin-Metall (辛) — Mittelstamm (中氣)",
+                "Yin-Erde (己) — Hauptstamm (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Fürsorge (正印)",
+                  "Autorität (正官)",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Herausforderer (偏官)",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Autorität (正官)",
+                  "Beständiger Wohlstand (正財)",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Herausforderer (偏官)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Beständiger Wohlstand (正財)",
+                  "Störer (傷官)",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Ausdruck (食神)",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Störer (傷官)",
+                  "Rivale (劫財)",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Ausdruck (食神)",
+                  "Gefährte (比肩)",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Rivale (劫財)",
+                  "Fürsorge (正印)",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Gefährte (比肩)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Herausforderer (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Zweig entscheidet nicht über einen Menschen. Derselbe Zweig wird je nach Tagesstamm und Monatszweig anders gelesen.",
+              "Beziehungen zwischen Zweigen wie Harmonie, Konflikt und Zwietracht werden hier nicht behandelt."
+            ]
+          },
+          {
+            "p": "Die Beziehungen zwischen den Zweigen stehen in [der Tafel der zwölf Zweige](/guide/branches), und seine Bedeutung als Tierkreiszeichen steht in [wo das Tierkreiszeichen im Saju steht](/guide/zodiac). Weitere Zweige: [子 (Ratte)](/guide/branch-ja) · [寅 (Tiger)](/guide/branch-in) · [卯 (Hase)](/guide/branch-myo) · [辰 (Drache)](/guide/branch-jin) · [巳 (Schlange)](/guide/branch-sa) · [午 (Pferd)](/guide/branch-o) · [未 (Schaf)](/guide/branch-mi) · [申 (Affe)](/guide/branch-sin) · [酉 (Hahn)](/guide/branch-yu) · [戌 (Hund)](/guide/branch-sul) · [亥 (Schwein)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-in": {
+    "eyebrow": "Irdische Zweige",
+    "title": "寅 — der Zweig des Tigers",
+    "summary": "Die Stämme, die der irdische Zweig 寅 enthält (die verborgenen Stämme), die Stärke der fünf Elemente, wenn er der Monatszweig ist, und die für jeden Tagesstamm gelesenen Zehn Götter — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "寅 ist der dritte der zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "寅 ist der dritte der zwölf irdischen Zweige und gehört zum Tiger. Ist der Zweig des Geburtsmonats 寅, dann ist die Jahreszeit der Frühling und das Element, das die Jahreszeit beherrscht, ist Holz."
+          },
+          {
+            "p": "Wenn der Zweig des Geburtstags 寅 ist, ist dieses Zeichen die Position des Ehepartners. Unten sehen Sie, welche Stämme dieser Zweig enthält und was sie für den Tagesstamm sind."
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die dieser Zweig enthält (verborgene Stämme)",
+        "blocks": [
+          {
+            "p": "Ein Zweig ist ein sichtbares Zeichen, enthält aber Stämme in sich. Der Anteil gibt an, wie die dreißig Tage des Zweigs auf die Stämme verteilt sind, und der Hauptstamm ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme von 寅",
+              "head": [
+                "Stamm",
+                "Element und Polarität",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Reststamm (餘氣)",
+                  "{hidInYeo}"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Mittelstamm (中氣)",
+                  "{hidInJung}"
+                ],
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Hauptstamm (本氣)",
+                  "{hidInBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stärke der fünf Elemente, wenn der Monatszweig 寅 ist",
+        "blocks": [
+          {
+            "p": "Wenn der Zweig des Geburtsmonats 寅 ist, erhält jedes Element einen Zustand (Wang, Sang, Hyu, Su, Sa), und dieser Zustand wird zum Multiplikator, der auf seine Stärke angewendet wird."
+          },
+          {
+            "table": {
+              "caption": "Die Elementzustände für den Monatszweig 寅 (Frühling)",
+              "head": [
+                "Element",
+                "Zustand",
+                "Multiplikator"
+              ],
+              "rows": [
+                [
+                  "Holz",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Feuer",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Erde",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Metall",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Wasser",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Zehn Götter nach Tagesstamm",
+        "blocks": [
+          {
+            "p": "Dieselben verborgenen Stämme von 寅 werden je nach Tagesstamm zu verschiedenen Zehn Göttern. Ist 寅 der Tageszweig, ist diese Tabelle die Lesung der Position des Ehepartners."
+          },
+          {
+            "table": {
+              "caption": "Was die verborgenen Stämme von 寅 für den jeweiligen Tagesstamm sind",
+              "head": [
+                "Tagesstamm",
+                "Yang-Erde (戊) — Reststamm (餘氣)",
+                "Yang-Feuer (丙) — Mittelstamm (中氣)",
+                "Yang-Holz (甲) — Hauptstamm (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Ausdruck (食神)",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Beständiger Wohlstand (正財)",
+                  "Störer (傷官)",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Ausdruck (食神)",
+                  "Gefährte (比肩)",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Störer (傷官)",
+                  "Rivale (劫財)",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Gefährte (比肩)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Rivale (劫財)",
+                  "Fürsorge (正印)",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Herausforderer (偏官)",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Fürsorge (正印)",
+                  "Autorität (正官)",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Herausforderer (偏官)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Autorität (正官)",
+                  "Beständiger Wohlstand (正財)",
+                  "Störer (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Zweig entscheidet nicht über einen Menschen. Derselbe Zweig wird je nach Tagesstamm und Monatszweig anders gelesen.",
+              "Beziehungen zwischen Zweigen wie Harmonie, Konflikt und Zwietracht werden hier nicht behandelt."
+            ]
+          },
+          {
+            "p": "Die Beziehungen zwischen den Zweigen stehen in [der Tafel der zwölf Zweige](/guide/branches), und seine Bedeutung als Tierkreiszeichen steht in [wo das Tierkreiszeichen im Saju steht](/guide/zodiac). Weitere Zweige: [子 (Ratte)](/guide/branch-ja) · [丑 (Ochse)](/guide/branch-chuk) · [卯 (Hase)](/guide/branch-myo) · [辰 (Drache)](/guide/branch-jin) · [巳 (Schlange)](/guide/branch-sa) · [午 (Pferd)](/guide/branch-o) · [未 (Schaf)](/guide/branch-mi) · [申 (Affe)](/guide/branch-sin) · [酉 (Hahn)](/guide/branch-yu) · [戌 (Hund)](/guide/branch-sul) · [亥 (Schwein)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-myo": {
+    "eyebrow": "Irdische Zweige",
+    "title": "卯 — der Zweig des Hasen",
+    "summary": "Die Stämme, die der irdische Zweig 卯 enthält (die verborgenen Stämme), die Stärke der fünf Elemente, wenn er der Monatszweig ist, und die für jeden Tagesstamm gelesenen Zehn Götter — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "卯 ist der vierte der zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "卯 ist der vierte der zwölf irdischen Zweige und gehört zum Hasen. Ist der Zweig des Geburtsmonats 卯, dann ist die Jahreszeit der Frühling und das Element, das die Jahreszeit beherrscht, ist Holz."
+          },
+          {
+            "p": "Wenn der Zweig des Geburtstags 卯 ist, ist dieses Zeichen die Position des Ehepartners. Unten sehen Sie, welche Stämme dieser Zweig enthält und was sie für den Tagesstamm sind."
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die dieser Zweig enthält (verborgene Stämme)",
+        "blocks": [
+          {
+            "p": "Ein Zweig ist ein sichtbares Zeichen, enthält aber Stämme in sich. Der Anteil gibt an, wie die dreißig Tage des Zweigs auf die Stämme verteilt sind, und der Hauptstamm ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme von 卯",
+              "head": [
+                "Stamm",
+                "Element und Polarität",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Reststamm (餘氣)",
+                  "{hidMyoYeo}"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Hauptstamm (本氣)",
+                  "{hidMyoBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stärke der fünf Elemente, wenn der Monatszweig 卯 ist",
+        "blocks": [
+          {
+            "p": "Wenn der Zweig des Geburtsmonats 卯 ist, erhält jedes Element einen Zustand (Wang, Sang, Hyu, Su, Sa), und dieser Zustand wird zum Multiplikator, der auf seine Stärke angewendet wird."
+          },
+          {
+            "table": {
+              "caption": "Die Elementzustände für den Monatszweig 卯 (Frühling)",
+              "head": [
+                "Element",
+                "Zustand",
+                "Multiplikator"
+              ],
+              "rows": [
+                [
+                  "Holz",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Feuer",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Erde",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Metall",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Wasser",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Zehn Götter nach Tagesstamm",
+        "blocks": [
+          {
+            "p": "Dieselben verborgenen Stämme von 卯 werden je nach Tagesstamm zu verschiedenen Zehn Göttern. Ist 卯 der Tageszweig, ist diese Tabelle die Lesung der Position des Ehepartners."
+          },
+          {
+            "table": {
+              "caption": "Was die verborgenen Stämme von 卯 für den jeweiligen Tagesstamm sind",
+              "head": [
+                "Tagesstamm",
+                "Yang-Holz (甲) — Reststamm (餘氣)",
+                "Yin-Holz (乙) — Hauptstamm (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Gefährte (比肩)",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Rivale (劫財)",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Fürsorge (正印)",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Herausforderer (偏官)",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Autorität (正官)",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Beständiger Wohlstand (正財)",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Ausdruck (食神)",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Störer (傷官)",
+                  "Ausdruck (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Zweig entscheidet nicht über einen Menschen. Derselbe Zweig wird je nach Tagesstamm und Monatszweig anders gelesen.",
+              "Beziehungen zwischen Zweigen wie Harmonie, Konflikt und Zwietracht werden hier nicht behandelt."
+            ]
+          },
+          {
+            "p": "Die Beziehungen zwischen den Zweigen stehen in [der Tafel der zwölf Zweige](/guide/branches), und seine Bedeutung als Tierkreiszeichen steht in [wo das Tierkreiszeichen im Saju steht](/guide/zodiac). Weitere Zweige: [子 (Ratte)](/guide/branch-ja) · [丑 (Ochse)](/guide/branch-chuk) · [寅 (Tiger)](/guide/branch-in) · [辰 (Drache)](/guide/branch-jin) · [巳 (Schlange)](/guide/branch-sa) · [午 (Pferd)](/guide/branch-o) · [未 (Schaf)](/guide/branch-mi) · [申 (Affe)](/guide/branch-sin) · [酉 (Hahn)](/guide/branch-yu) · [戌 (Hund)](/guide/branch-sul) · [亥 (Schwein)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-jin": {
+    "eyebrow": "Irdische Zweige",
+    "title": "辰 — der Zweig des Drachen",
+    "summary": "Die Stämme, die der irdische Zweig 辰 enthält (die verborgenen Stämme), die Stärke der fünf Elemente, wenn er der Monatszweig ist, und die für jeden Tagesstamm gelesenen Zehn Götter — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "辰 ist der fünfte der zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "辰 ist der fünfte der zwölf irdischen Zweige und gehört zum Drachen. Ist der Zweig des Geburtsmonats 辰, dann ist die Jahreszeit der Frühling und das Element, das die Jahreszeit beherrscht, ist Holz. Es ist ein Übergangsmonat (辰未戌丑), daher gilt auch die Erde als im Zustand Wang."
+          },
+          {
+            "p": "Wenn der Zweig des Geburtstags 辰 ist, ist dieses Zeichen die Position des Ehepartners. Unten sehen Sie, welche Stämme dieser Zweig enthält und was sie für den Tagesstamm sind."
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die dieser Zweig enthält (verborgene Stämme)",
+        "blocks": [
+          {
+            "p": "Ein Zweig ist ein sichtbares Zeichen, enthält aber Stämme in sich. Der Anteil gibt an, wie die dreißig Tage des Zweigs auf die Stämme verteilt sind, und der Hauptstamm ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme von 辰",
+              "head": [
+                "Stamm",
+                "Element und Polarität",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Reststamm (餘氣)",
+                  "{hidJinYeo}"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Yin-Wasser",
+                  "Mittelstamm (中氣)",
+                  "{hidJinJung}"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Hauptstamm (本氣)",
+                  "{hidJinBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stärke der fünf Elemente, wenn der Monatszweig 辰 ist",
+        "blocks": [
+          {
+            "p": "Wenn der Zweig des Geburtsmonats 辰 ist, erhält jedes Element einen Zustand (Wang, Sang, Hyu, Su, Sa), und dieser Zustand wird zum Multiplikator, der auf seine Stärke angewendet wird."
+          },
+          {
+            "table": {
+              "caption": "Die Elementzustände für den Monatszweig 辰 (Frühling (Übergangsmonat))",
+              "head": [
+                "Element",
+                "Zustand",
+                "Multiplikator"
+              ],
+              "rows": [
+                [
+                  "Holz",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Feuer",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Erde",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Metall",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Wasser",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Zehn Götter nach Tagesstamm",
+        "blocks": [
+          {
+            "p": "Dieselben verborgenen Stämme von 辰 werden je nach Tagesstamm zu verschiedenen Zehn Göttern. Ist 辰 der Tageszweig, ist diese Tabelle die Lesung der Position des Ehepartners."
+          },
+          {
+            "table": {
+              "caption": "Was die verborgenen Stämme von 辰 für den jeweiligen Tagesstamm sind",
+              "head": [
+                "Tagesstamm",
+                "Yin-Holz (乙) — Reststamm (餘氣)",
+                "Yin-Wasser (癸) — Mittelstamm (中氣)",
+                "Yang-Erde (戊) — Hauptstamm (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Rivale (劫財)",
+                  "Fürsorge (正印)",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Gefährte (比肩)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Fürsorge (正印)",
+                  "Autorität (正官)",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Herausforderer (偏官)",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Autorität (正官)",
+                  "Beständiger Wohlstand (正財)",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Herausforderer (偏官)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Beständiger Wohlstand (正財)",
+                  "Störer (傷官)",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Ausdruck (食神)",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Störer (傷官)",
+                  "Rivale (劫財)",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Ausdruck (食神)",
+                  "Gefährte (比肩)",
+                  "Autorität (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Zweig entscheidet nicht über einen Menschen. Derselbe Zweig wird je nach Tagesstamm und Monatszweig anders gelesen.",
+              "Beziehungen zwischen Zweigen wie Harmonie, Konflikt und Zwietracht werden hier nicht behandelt."
+            ]
+          },
+          {
+            "p": "Die Beziehungen zwischen den Zweigen stehen in [der Tafel der zwölf Zweige](/guide/branches), und seine Bedeutung als Tierkreiszeichen steht in [wo das Tierkreiszeichen im Saju steht](/guide/zodiac). Weitere Zweige: [子 (Ratte)](/guide/branch-ja) · [丑 (Ochse)](/guide/branch-chuk) · [寅 (Tiger)](/guide/branch-in) · [卯 (Hase)](/guide/branch-myo) · [巳 (Schlange)](/guide/branch-sa) · [午 (Pferd)](/guide/branch-o) · [未 (Schaf)](/guide/branch-mi) · [申 (Affe)](/guide/branch-sin) · [酉 (Hahn)](/guide/branch-yu) · [戌 (Hund)](/guide/branch-sul) · [亥 (Schwein)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sa": {
+    "eyebrow": "Irdische Zweige",
+    "title": "巳 — der Zweig der Schlange",
+    "summary": "Die Stämme, die der irdische Zweig 巳 enthält (die verborgenen Stämme), die Stärke der fünf Elemente, wenn er der Monatszweig ist, und die für jeden Tagesstamm gelesenen Zehn Götter — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "巳 ist der sechste der zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "巳 ist der sechste der zwölf irdischen Zweige und gehört zur Schlange. Ist der Zweig des Geburtsmonats 巳, dann ist die Jahreszeit der Sommer und das Element, das die Jahreszeit beherrscht, ist Feuer."
+          },
+          {
+            "p": "Wenn der Zweig des Geburtstags 巳 ist, ist dieses Zeichen die Position des Ehepartners. Unten sehen Sie, welche Stämme dieser Zweig enthält und was sie für den Tagesstamm sind."
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die dieser Zweig enthält (verborgene Stämme)",
+        "blocks": [
+          {
+            "p": "Ein Zweig ist ein sichtbares Zeichen, enthält aber Stämme in sich. Der Anteil gibt an, wie die dreißig Tage des Zweigs auf die Stämme verteilt sind, und der Hauptstamm ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme von 巳",
+              "head": [
+                "Stamm",
+                "Element und Polarität",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Reststamm (餘氣)",
+                  "{hidSaYeo}"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Mittelstamm (中氣)",
+                  "{hidSaJung}"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Hauptstamm (本氣)",
+                  "{hidSaBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stärke der fünf Elemente, wenn der Monatszweig 巳 ist",
+        "blocks": [
+          {
+            "p": "Wenn der Zweig des Geburtsmonats 巳 ist, erhält jedes Element einen Zustand (Wang, Sang, Hyu, Su, Sa), und dieser Zustand wird zum Multiplikator, der auf seine Stärke angewendet wird."
+          },
+          {
+            "table": {
+              "caption": "Die Elementzustände für den Monatszweig 巳 (Sommer)",
+              "head": [
+                "Element",
+                "Zustand",
+                "Multiplikator"
+              ],
+              "rows": [
+                [
+                  "Holz",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Feuer",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Erde",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Metall",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Wasser",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Zehn Götter nach Tagesstamm",
+        "blocks": [
+          {
+            "p": "Dieselben verborgenen Stämme von 巳 werden je nach Tagesstamm zu verschiedenen Zehn Göttern. Ist 巳 der Tageszweig, ist diese Tabelle die Lesung der Position des Ehepartners."
+          },
+          {
+            "table": {
+              "caption": "Was die verborgenen Stämme von 巳 für den jeweiligen Tagesstamm sind",
+              "head": [
+                "Tagesstamm",
+                "Yang-Erde (戊) — Reststamm (餘氣)",
+                "Yang-Metall (庚) — Mittelstamm (中氣)",
+                "Yang-Feuer (丙) — Hauptstamm (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Herausforderer (偏官)",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Beständiger Wohlstand (正財)",
+                  "Autorität (正官)",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Ausdruck (食神)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Störer (傷官)",
+                  "Beständiger Wohlstand (正財)",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Gefährte (比肩)",
+                  "Ausdruck (食神)",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Rivale (劫財)",
+                  "Störer (傷官)",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Gefährte (比肩)",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Fürsorge (正印)",
+                  "Rivale (劫財)",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Herausforderer (偏官)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Autorität (正官)",
+                  "Fürsorge (正印)",
+                  "Beständiger Wohlstand (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Zweig entscheidet nicht über einen Menschen. Derselbe Zweig wird je nach Tagesstamm und Monatszweig anders gelesen.",
+              "Beziehungen zwischen Zweigen wie Harmonie, Konflikt und Zwietracht werden hier nicht behandelt."
+            ]
+          },
+          {
+            "p": "Die Beziehungen zwischen den Zweigen stehen in [der Tafel der zwölf Zweige](/guide/branches), und seine Bedeutung als Tierkreiszeichen steht in [wo das Tierkreiszeichen im Saju steht](/guide/zodiac). Weitere Zweige: [子 (Ratte)](/guide/branch-ja) · [丑 (Ochse)](/guide/branch-chuk) · [寅 (Tiger)](/guide/branch-in) · [卯 (Hase)](/guide/branch-myo) · [辰 (Drache)](/guide/branch-jin) · [午 (Pferd)](/guide/branch-o) · [未 (Schaf)](/guide/branch-mi) · [申 (Affe)](/guide/branch-sin) · [酉 (Hahn)](/guide/branch-yu) · [戌 (Hund)](/guide/branch-sul) · [亥 (Schwein)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-o": {
+    "eyebrow": "Irdische Zweige",
+    "title": "午 — der Zweig des Pferdes",
+    "summary": "Die Stämme, die der irdische Zweig 午 enthält (die verborgenen Stämme), die Stärke der fünf Elemente, wenn er der Monatszweig ist, und die für jeden Tagesstamm gelesenen Zehn Götter — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "午 ist der siebte der zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "午 ist der siebte der zwölf irdischen Zweige und gehört zum Pferd. Ist der Zweig des Geburtsmonats 午, dann ist die Jahreszeit der Sommer und das Element, das die Jahreszeit beherrscht, ist Feuer."
+          },
+          {
+            "p": "Wenn der Zweig des Geburtstags 午 ist, ist dieses Zeichen die Position des Ehepartners. Unten sehen Sie, welche Stämme dieser Zweig enthält und was sie für den Tagesstamm sind."
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die dieser Zweig enthält (verborgene Stämme)",
+        "blocks": [
+          {
+            "p": "Ein Zweig ist ein sichtbares Zeichen, enthält aber Stämme in sich. Der Anteil gibt an, wie die dreißig Tage des Zweigs auf die Stämme verteilt sind, und der Hauptstamm ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme von 午",
+              "head": [
+                "Stamm",
+                "Element und Polarität",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "Yang-Feuer (丙)",
+                  "Yang-Feuer",
+                  "Reststamm (餘氣)",
+                  "{hidOYeo}"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Mittelstamm (中氣)",
+                  "{hidOJung}"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Hauptstamm (本氣)",
+                  "{hidOBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stärke der fünf Elemente, wenn der Monatszweig 午 ist",
+        "blocks": [
+          {
+            "p": "Wenn der Zweig des Geburtsmonats 午 ist, erhält jedes Element einen Zustand (Wang, Sang, Hyu, Su, Sa), und dieser Zustand wird zum Multiplikator, der auf seine Stärke angewendet wird."
+          },
+          {
+            "table": {
+              "caption": "Die Elementzustände für den Monatszweig 午 (Sommer)",
+              "head": [
+                "Element",
+                "Zustand",
+                "Multiplikator"
+              ],
+              "rows": [
+                [
+                  "Holz",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Feuer",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Erde",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Metall",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Wasser",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Zehn Götter nach Tagesstamm",
+        "blocks": [
+          {
+            "p": "Dieselben verborgenen Stämme von 午 werden je nach Tagesstamm zu verschiedenen Zehn Göttern. Ist 午 der Tageszweig, ist diese Tabelle die Lesung der Position des Ehepartners."
+          },
+          {
+            "table": {
+              "caption": "Was die verborgenen Stämme von 午 für den jeweiligen Tagesstamm sind",
+              "head": [
+                "Tagesstamm",
+                "Yang-Feuer (丙) — Reststamm (餘氣)",
+                "Yin-Erde (己) — Mittelstamm (中氣)",
+                "Yin-Feuer (丁) — Hauptstamm (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Ausdruck (食神)",
+                  "Beständiger Wohlstand (正財)",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Störer (傷官)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Gefährte (比肩)",
+                  "Störer (傷官)",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Rivale (劫財)",
+                  "Ausdruck (食神)",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Rivale (劫財)",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Fürsorge (正印)",
+                  "Gefährte (比肩)",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Herausforderer (偏官)",
+                  "Fürsorge (正印)",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Autorität (正官)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Autorität (正官)",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Beständiger Wohlstand (正財)",
+                  "Herausforderer (偏官)",
+                  "Unerwarteter Gewinn (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Zweig entscheidet nicht über einen Menschen. Derselbe Zweig wird je nach Tagesstamm und Monatszweig anders gelesen.",
+              "Beziehungen zwischen Zweigen wie Harmonie, Konflikt und Zwietracht werden hier nicht behandelt."
+            ]
+          },
+          {
+            "p": "Die Beziehungen zwischen den Zweigen stehen in [der Tafel der zwölf Zweige](/guide/branches), und seine Bedeutung als Tierkreiszeichen steht in [wo das Tierkreiszeichen im Saju steht](/guide/zodiac). Weitere Zweige: [子 (Ratte)](/guide/branch-ja) · [丑 (Ochse)](/guide/branch-chuk) · [寅 (Tiger)](/guide/branch-in) · [卯 (Hase)](/guide/branch-myo) · [辰 (Drache)](/guide/branch-jin) · [巳 (Schlange)](/guide/branch-sa) · [未 (Schaf)](/guide/branch-mi) · [申 (Affe)](/guide/branch-sin) · [酉 (Hahn)](/guide/branch-yu) · [戌 (Hund)](/guide/branch-sul) · [亥 (Schwein)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-mi": {
+    "eyebrow": "Irdische Zweige",
+    "title": "未 — der Zweig des Schafs",
+    "summary": "Die Stämme, die der irdische Zweig 未 enthält (die verborgenen Stämme), die Stärke der fünf Elemente, wenn er der Monatszweig ist, und die für jeden Tagesstamm gelesenen Zehn Götter — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "未 ist der achte der zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "未 ist der achte der zwölf irdischen Zweige und gehört zum Schaf. Ist der Zweig des Geburtsmonats 未, dann ist die Jahreszeit der Sommer und das Element, das die Jahreszeit beherrscht, ist Feuer. Es ist ein Übergangsmonat (辰未戌丑), daher gilt auch die Erde als im Zustand Wang."
+          },
+          {
+            "p": "Wenn der Zweig des Geburtstags 未 ist, ist dieses Zeichen die Position des Ehepartners. Unten sehen Sie, welche Stämme dieser Zweig enthält und was sie für den Tagesstamm sind."
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die dieser Zweig enthält (verborgene Stämme)",
+        "blocks": [
+          {
+            "p": "Ein Zweig ist ein sichtbares Zeichen, enthält aber Stämme in sich. Der Anteil gibt an, wie die dreißig Tage des Zweigs auf die Stämme verteilt sind, und der Hauptstamm ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme von 未",
+              "head": [
+                "Stamm",
+                "Element und Polarität",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Reststamm (餘氣)",
+                  "{hidMiYeo}"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Yin-Holz",
+                  "Mittelstamm (中氣)",
+                  "{hidMiJung}"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Yin-Erde",
+                  "Hauptstamm (本氣)",
+                  "{hidMiBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stärke der fünf Elemente, wenn der Monatszweig 未 ist",
+        "blocks": [
+          {
+            "p": "Wenn der Zweig des Geburtsmonats 未 ist, erhält jedes Element einen Zustand (Wang, Sang, Hyu, Su, Sa), und dieser Zustand wird zum Multiplikator, der auf seine Stärke angewendet wird."
+          },
+          {
+            "table": {
+              "caption": "Die Elementzustände für den Monatszweig 未 (Sommer (Übergangsmonat))",
+              "head": [
+                "Element",
+                "Zustand",
+                "Multiplikator"
+              ],
+              "rows": [
+                [
+                  "Holz",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Feuer",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Erde",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Metall",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Wasser",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Zehn Götter nach Tagesstamm",
+        "blocks": [
+          {
+            "p": "Dieselben verborgenen Stämme von 未 werden je nach Tagesstamm zu verschiedenen Zehn Göttern. Ist 未 der Tageszweig, ist diese Tabelle die Lesung der Position des Ehepartners."
+          },
+          {
+            "table": {
+              "caption": "Was die verborgenen Stämme von 未 für den jeweiligen Tagesstamm sind",
+              "head": [
+                "Tagesstamm",
+                "Yin-Feuer (丁) — Reststamm (餘氣)",
+                "Yin-Holz (乙) — Mittelstamm (中氣)",
+                "Yin-Erde (己) — Hauptstamm (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Störer (傷官)",
+                  "Rivale (劫財)",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Ausdruck (食神)",
+                  "Gefährte (比肩)",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Rivale (劫財)",
+                  "Fürsorge (正印)",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Gefährte (比肩)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Fürsorge (正印)",
+                  "Autorität (正官)",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Herausforderer (偏官)",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Autorität (正官)",
+                  "Beständiger Wohlstand (正財)",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Herausforderer (偏官)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Beständiger Wohlstand (正財)",
+                  "Störer (傷官)",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Ausdruck (食神)",
+                  "Herausforderer (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Zweig entscheidet nicht über einen Menschen. Derselbe Zweig wird je nach Tagesstamm und Monatszweig anders gelesen.",
+              "Beziehungen zwischen Zweigen wie Harmonie, Konflikt und Zwietracht werden hier nicht behandelt."
+            ]
+          },
+          {
+            "p": "Die Beziehungen zwischen den Zweigen stehen in [der Tafel der zwölf Zweige](/guide/branches), und seine Bedeutung als Tierkreiszeichen steht in [wo das Tierkreiszeichen im Saju steht](/guide/zodiac). Weitere Zweige: [子 (Ratte)](/guide/branch-ja) · [丑 (Ochse)](/guide/branch-chuk) · [寅 (Tiger)](/guide/branch-in) · [卯 (Hase)](/guide/branch-myo) · [辰 (Drache)](/guide/branch-jin) · [巳 (Schlange)](/guide/branch-sa) · [午 (Pferd)](/guide/branch-o) · [申 (Affe)](/guide/branch-sin) · [酉 (Hahn)](/guide/branch-yu) · [戌 (Hund)](/guide/branch-sul) · [亥 (Schwein)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sin": {
+    "eyebrow": "Irdische Zweige",
+    "title": "申 — der Zweig des Affen",
+    "summary": "Die Stämme, die der irdische Zweig 申 enthält (die verborgenen Stämme), die Stärke der fünf Elemente, wenn er der Monatszweig ist, und die für jeden Tagesstamm gelesenen Zehn Götter — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "申 ist der neunte der zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "申 ist der neunte der zwölf irdischen Zweige und gehört zum Affen. Ist der Zweig des Geburtsmonats 申, dann ist die Jahreszeit der Herbst und das Element, das die Jahreszeit beherrscht, ist Metall."
+          },
+          {
+            "p": "Wenn der Zweig des Geburtstags 申 ist, ist dieses Zeichen die Position des Ehepartners. Unten sehen Sie, welche Stämme dieser Zweig enthält und was sie für den Tagesstamm sind."
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die dieser Zweig enthält (verborgene Stämme)",
+        "blocks": [
+          {
+            "p": "Ein Zweig ist ein sichtbares Zeichen, enthält aber Stämme in sich. Der Anteil gibt an, wie die dreißig Tage des Zweigs auf die Stämme verteilt sind, und der Hauptstamm ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme von 申",
+              "head": [
+                "Stamm",
+                "Element und Polarität",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Reststamm (餘氣)",
+                  "{hidSinYeo}"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Mittelstamm (中氣)",
+                  "{hidSinJung}"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Hauptstamm (本氣)",
+                  "{hidSinBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stärke der fünf Elemente, wenn der Monatszweig 申 ist",
+        "blocks": [
+          {
+            "p": "Wenn der Zweig des Geburtsmonats 申 ist, erhält jedes Element einen Zustand (Wang, Sang, Hyu, Su, Sa), und dieser Zustand wird zum Multiplikator, der auf seine Stärke angewendet wird."
+          },
+          {
+            "table": {
+              "caption": "Die Elementzustände für den Monatszweig 申 (Herbst)",
+              "head": [
+                "Element",
+                "Zustand",
+                "Multiplikator"
+              ],
+              "rows": [
+                [
+                  "Holz",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Feuer",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Erde",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Metall",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Wasser",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Zehn Götter nach Tagesstamm",
+        "blocks": [
+          {
+            "p": "Dieselben verborgenen Stämme von 申 werden je nach Tagesstamm zu verschiedenen Zehn Göttern. Ist 申 der Tageszweig, ist diese Tabelle die Lesung der Position des Ehepartners."
+          },
+          {
+            "table": {
+              "caption": "Was die verborgenen Stämme von 申 für den jeweiligen Tagesstamm sind",
+              "head": [
+                "Tagesstamm",
+                "Yang-Erde (戊) — Reststamm (餘氣)",
+                "Yang-Wasser (壬) — Mittelstamm (中氣)",
+                "Yang-Metall (庚) — Hauptstamm (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Beständiger Wohlstand (正財)",
+                  "Fürsorge (正印)",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Ausdruck (食神)",
+                  "Herausforderer (偏官)",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Störer (傷官)",
+                  "Autorität (正官)",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Gefährte (比肩)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Rivale (劫財)",
+                  "Beständiger Wohlstand (正財)",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Ausdruck (食神)",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Fürsorge (正印)",
+                  "Störer (傷官)",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Herausforderer (偏官)",
+                  "Gefährte (比肩)",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Autorität (正官)",
+                  "Rivale (劫財)",
+                  "Fürsorge (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Zweig entscheidet nicht über einen Menschen. Derselbe Zweig wird je nach Tagesstamm und Monatszweig anders gelesen.",
+              "Beziehungen zwischen Zweigen wie Harmonie, Konflikt und Zwietracht werden hier nicht behandelt."
+            ]
+          },
+          {
+            "p": "Die Beziehungen zwischen den Zweigen stehen in [der Tafel der zwölf Zweige](/guide/branches), und seine Bedeutung als Tierkreiszeichen steht in [wo das Tierkreiszeichen im Saju steht](/guide/zodiac). Weitere Zweige: [子 (Ratte)](/guide/branch-ja) · [丑 (Ochse)](/guide/branch-chuk) · [寅 (Tiger)](/guide/branch-in) · [卯 (Hase)](/guide/branch-myo) · [辰 (Drache)](/guide/branch-jin) · [巳 (Schlange)](/guide/branch-sa) · [午 (Pferd)](/guide/branch-o) · [未 (Schaf)](/guide/branch-mi) · [酉 (Hahn)](/guide/branch-yu) · [戌 (Hund)](/guide/branch-sul) · [亥 (Schwein)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-yu": {
+    "eyebrow": "Irdische Zweige",
+    "title": "酉 — der Zweig des Hahns",
+    "summary": "Die Stämme, die der irdische Zweig 酉 enthält (die verborgenen Stämme), die Stärke der fünf Elemente, wenn er der Monatszweig ist, und die für jeden Tagesstamm gelesenen Zehn Götter — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "酉 ist der zehnte der zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "酉 ist der zehnte der zwölf irdischen Zweige und gehört zum Hahn. Ist der Zweig des Geburtsmonats 酉, dann ist die Jahreszeit der Herbst und das Element, das die Jahreszeit beherrscht, ist Metall."
+          },
+          {
+            "p": "Wenn der Zweig des Geburtstags 酉 ist, ist dieses Zeichen die Position des Ehepartners. Unten sehen Sie, welche Stämme dieser Zweig enthält und was sie für den Tagesstamm sind."
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die dieser Zweig enthält (verborgene Stämme)",
+        "blocks": [
+          {
+            "p": "Ein Zweig ist ein sichtbares Zeichen, enthält aber Stämme in sich. Der Anteil gibt an, wie die dreißig Tage des Zweigs auf die Stämme verteilt sind, und der Hauptstamm ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme von 酉",
+              "head": [
+                "Stamm",
+                "Element und Polarität",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "Yang-Metall (庚)",
+                  "Yang-Metall",
+                  "Reststamm (餘氣)",
+                  "{hidYuYeo}"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Hauptstamm (本氣)",
+                  "{hidYuBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stärke der fünf Elemente, wenn der Monatszweig 酉 ist",
+        "blocks": [
+          {
+            "p": "Wenn der Zweig des Geburtsmonats 酉 ist, erhält jedes Element einen Zustand (Wang, Sang, Hyu, Su, Sa), und dieser Zustand wird zum Multiplikator, der auf seine Stärke angewendet wird."
+          },
+          {
+            "table": {
+              "caption": "Die Elementzustände für den Monatszweig 酉 (Herbst)",
+              "head": [
+                "Element",
+                "Zustand",
+                "Multiplikator"
+              ],
+              "rows": [
+                [
+                  "Holz",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Feuer",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Erde",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Metall",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Wasser",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Zehn Götter nach Tagesstamm",
+        "blocks": [
+          {
+            "p": "Dieselben verborgenen Stämme von 酉 werden je nach Tagesstamm zu verschiedenen Zehn Göttern. Ist 酉 der Tageszweig, ist diese Tabelle die Lesung der Position des Ehepartners."
+          },
+          {
+            "table": {
+              "caption": "Was die verborgenen Stämme von 酉 für den jeweiligen Tagesstamm sind",
+              "head": [
+                "Tagesstamm",
+                "Yang-Metall (庚) — Reststamm (餘氣)",
+                "Yin-Metall (辛) — Hauptstamm (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Herausforderer (偏官)",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Autorität (正官)",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Beständiger Wohlstand (正財)",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Ausdruck (食神)",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Störer (傷官)",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Gefährte (比肩)",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Rivale (劫財)",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Fürsorge (正印)",
+                  "Ungewöhnliche Stütze (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Zweig entscheidet nicht über einen Menschen. Derselbe Zweig wird je nach Tagesstamm und Monatszweig anders gelesen.",
+              "Beziehungen zwischen Zweigen wie Harmonie, Konflikt und Zwietracht werden hier nicht behandelt."
+            ]
+          },
+          {
+            "p": "Die Beziehungen zwischen den Zweigen stehen in [der Tafel der zwölf Zweige](/guide/branches), und seine Bedeutung als Tierkreiszeichen steht in [wo das Tierkreiszeichen im Saju steht](/guide/zodiac). Weitere Zweige: [子 (Ratte)](/guide/branch-ja) · [丑 (Ochse)](/guide/branch-chuk) · [寅 (Tiger)](/guide/branch-in) · [卯 (Hase)](/guide/branch-myo) · [辰 (Drache)](/guide/branch-jin) · [巳 (Schlange)](/guide/branch-sa) · [午 (Pferd)](/guide/branch-o) · [未 (Schaf)](/guide/branch-mi) · [申 (Affe)](/guide/branch-sin) · [戌 (Hund)](/guide/branch-sul) · [亥 (Schwein)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-sul": {
+    "eyebrow": "Irdische Zweige",
+    "title": "戌 — der Zweig des Hundes",
+    "summary": "Die Stämme, die der irdische Zweig 戌 enthält (die verborgenen Stämme), die Stärke der fünf Elemente, wenn er der Monatszweig ist, und die für jeden Tagesstamm gelesenen Zehn Götter — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "戌 ist der elfte der zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "戌 ist der elfte der zwölf irdischen Zweige und gehört zum Hund. Ist der Zweig des Geburtsmonats 戌, dann ist die Jahreszeit der Herbst und das Element, das die Jahreszeit beherrscht, ist Metall. Es ist ein Übergangsmonat (辰未戌丑), daher gilt auch die Erde als im Zustand Wang."
+          },
+          {
+            "p": "Wenn der Zweig des Geburtstags 戌 ist, ist dieses Zeichen die Position des Ehepartners. Unten sehen Sie, welche Stämme dieser Zweig enthält und was sie für den Tagesstamm sind."
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die dieser Zweig enthält (verborgene Stämme)",
+        "blocks": [
+          {
+            "p": "Ein Zweig ist ein sichtbares Zeichen, enthält aber Stämme in sich. Der Anteil gibt an, wie die dreißig Tage des Zweigs auf die Stämme verteilt sind, und der Hauptstamm ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme von 戌",
+              "head": [
+                "Stamm",
+                "Element und Polarität",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "Yin-Metall (辛)",
+                  "Yin-Metall",
+                  "Reststamm (餘氣)",
+                  "{hidSulYeo}"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Yin-Feuer",
+                  "Mittelstamm (中氣)",
+                  "{hidSulJung}"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Hauptstamm (本氣)",
+                  "{hidSulBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stärke der fünf Elemente, wenn der Monatszweig 戌 ist",
+        "blocks": [
+          {
+            "p": "Wenn der Zweig des Geburtsmonats 戌 ist, erhält jedes Element einen Zustand (Wang, Sang, Hyu, Su, Sa), und dieser Zustand wird zum Multiplikator, der auf seine Stärke angewendet wird."
+          },
+          {
+            "table": {
+              "caption": "Die Elementzustände für den Monatszweig 戌 (Herbst (Übergangsmonat))",
+              "head": [
+                "Element",
+                "Zustand",
+                "Multiplikator"
+              ],
+              "rows": [
+                [
+                  "Holz",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Feuer",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Erde",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Metall",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ],
+                [
+                  "Wasser",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Zehn Götter nach Tagesstamm",
+        "blocks": [
+          {
+            "p": "Dieselben verborgenen Stämme von 戌 werden je nach Tagesstamm zu verschiedenen Zehn Göttern. Ist 戌 der Tageszweig, ist diese Tabelle die Lesung der Position des Ehepartners."
+          },
+          {
+            "table": {
+              "caption": "Was die verborgenen Stämme von 戌 für den jeweiligen Tagesstamm sind",
+              "head": [
+                "Tagesstamm",
+                "Yin-Metall (辛) — Reststamm (餘氣)",
+                "Yin-Feuer (丁) — Mittelstamm (中氣)",
+                "Yang-Erde (戊) — Hauptstamm (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Autorität (正官)",
+                  "Störer (傷官)",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Herausforderer (偏官)",
+                  "Ausdruck (食神)",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Beständiger Wohlstand (正財)",
+                  "Rivale (劫財)",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Gefährte (比肩)",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Störer (傷官)",
+                  "Fürsorge (正印)",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Ausdruck (食神)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Rivale (劫財)",
+                  "Autorität (正官)",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Gefährte (比肩)",
+                  "Herausforderer (偏官)",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Fürsorge (正印)",
+                  "Beständiger Wohlstand (正財)",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Autorität (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Zweig entscheidet nicht über einen Menschen. Derselbe Zweig wird je nach Tagesstamm und Monatszweig anders gelesen.",
+              "Beziehungen zwischen Zweigen wie Harmonie, Konflikt und Zwietracht werden hier nicht behandelt."
+            ]
+          },
+          {
+            "p": "Die Beziehungen zwischen den Zweigen stehen in [der Tafel der zwölf Zweige](/guide/branches), und seine Bedeutung als Tierkreiszeichen steht in [wo das Tierkreiszeichen im Saju steht](/guide/zodiac). Weitere Zweige: [子 (Ratte)](/guide/branch-ja) · [丑 (Ochse)](/guide/branch-chuk) · [寅 (Tiger)](/guide/branch-in) · [卯 (Hase)](/guide/branch-myo) · [辰 (Drache)](/guide/branch-jin) · [巳 (Schlange)](/guide/branch-sa) · [午 (Pferd)](/guide/branch-o) · [未 (Schaf)](/guide/branch-mi) · [申 (Affe)](/guide/branch-sin) · [酉 (Hahn)](/guide/branch-yu) · [亥 (Schwein)](/guide/branch-hae)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/branch-hae": {
+    "eyebrow": "Irdische Zweige",
+    "title": "亥 — der Zweig des Schweins",
+    "summary": "Die Stämme, die der irdische Zweig 亥 enthält (die verborgenen Stämme), die Stärke der fünf Elemente, wenn er der Monatszweig ist, und die für jeden Tagesstamm gelesenen Zehn Götter — genau so dargelegt, wie es die Berechnungsregeln von Saju-Link vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "亥 ist der zwölfte der zwölf irdischen Zweige",
+        "blocks": [
+          {
+            "p": "亥 ist der zwölfte der zwölf irdischen Zweige und gehört zum Schwein. Ist der Zweig des Geburtsmonats 亥, dann ist die Jahreszeit der Winter und das Element, das die Jahreszeit beherrscht, ist Wasser."
+          },
+          {
+            "p": "Wenn der Zweig des Geburtstags 亥 ist, ist dieses Zeichen die Position des Ehepartners. Unten sehen Sie, welche Stämme dieser Zweig enthält und was sie für den Tagesstamm sind."
+          }
+        ]
+      },
+      {
+        "title": "Die Stämme, die dieser Zweig enthält (verborgene Stämme)",
+        "blocks": [
+          {
+            "p": "Ein Zweig ist ein sichtbares Zeichen, enthält aber Stämme in sich. Der Anteil gibt an, wie die dreißig Tage des Zweigs auf die Stämme verteilt sind, und der Hauptstamm ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme von 亥",
+              "head": [
+                "Stamm",
+                "Element und Polarität",
+                "Position",
+                "Anteil"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Yang-Erde",
+                  "Reststamm (餘氣)",
+                  "{hidHaeYeo}"
+                ],
+                [
+                  "Yang-Holz (甲)",
+                  "Yang-Holz",
+                  "Mittelstamm (中氣)",
+                  "{hidHaeJung}"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Yang-Wasser",
+                  "Hauptstamm (本氣)",
+                  "{hidHaeBon}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Stärke der fünf Elemente, wenn der Monatszweig 亥 ist",
+        "blocks": [
+          {
+            "p": "Wenn der Zweig des Geburtsmonats 亥 ist, erhält jedes Element einen Zustand (Wang, Sang, Hyu, Su, Sa), und dieser Zustand wird zum Multiplikator, der auf seine Stärke angewendet wird."
+          },
+          {
+            "table": {
+              "caption": "Die Elementzustände für den Monatszweig 亥 (Winter)",
+              "head": [
+                "Element",
+                "Zustand",
+                "Multiplikator"
+              ],
+              "rows": [
+                [
+                  "Holz",
+                  "Sang (相)",
+                  "{vitalitySang}"
+                ],
+                [
+                  "Feuer",
+                  "Sa (死)",
+                  "{vitalitySa}"
+                ],
+                [
+                  "Erde",
+                  "Su (囚)",
+                  "{vitalitySu}"
+                ],
+                [
+                  "Metall",
+                  "Hyu (休)",
+                  "{vitalityHyu}"
+                ],
+                [
+                  "Wasser",
+                  "Wang (旺)",
+                  "{vitalityWang}"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Zehn Götter nach Tagesstamm",
+        "blocks": [
+          {
+            "p": "Dieselben verborgenen Stämme von 亥 werden je nach Tagesstamm zu verschiedenen Zehn Göttern. Ist 亥 der Tageszweig, ist diese Tabelle die Lesung der Position des Ehepartners."
+          },
+          {
+            "table": {
+              "caption": "Was die verborgenen Stämme von 亥 für den jeweiligen Tagesstamm sind",
+              "head": [
+                "Tagesstamm",
+                "Yang-Erde (戊) — Reststamm (餘氣)",
+                "Yang-Holz (甲) — Mittelstamm (中氣)",
+                "Yang-Wasser (壬) — Hauptstamm (本氣)"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Gefährte (比肩)",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Beständiger Wohlstand (正財)",
+                  "Rivale (劫財)",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Ausdruck (食神)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Störer (傷官)",
+                  "Fürsorge (正印)",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Gefährte (比肩)",
+                  "Herausforderer (偏官)",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Rivale (劫財)",
+                  "Autorität (正官)",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Ungewöhnliche Stütze (偏印)",
+                  "Unerwarteter Gewinn (偏財)",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Fürsorge (正印)",
+                  "Beständiger Wohlstand (正財)",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Herausforderer (偏官)",
+                  "Ausdruck (食神)",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Autorität (正官)",
+                  "Störer (傷官)",
+                  "Rivale (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Ein einzelner Zweig entscheidet nicht über einen Menschen. Derselbe Zweig wird je nach Tagesstamm und Monatszweig anders gelesen.",
+              "Beziehungen zwischen Zweigen wie Harmonie, Konflikt und Zwietracht werden hier nicht behandelt."
+            ]
+          },
+          {
+            "p": "Die Beziehungen zwischen den Zweigen stehen in [der Tafel der zwölf Zweige](/guide/branches), und seine Bedeutung als Tierkreiszeichen steht in [wo das Tierkreiszeichen im Saju steht](/guide/zodiac). Weitere Zweige: [子 (Ratte)](/guide/branch-ja) · [丑 (Ochse)](/guide/branch-chuk) · [寅 (Tiger)](/guide/branch-in) · [卯 (Hase)](/guide/branch-myo) · [辰 (Drache)](/guide/branch-jin) · [巳 (Schlange)](/guide/branch-sa) · [午 (Pferd)](/guide/branch-o) · [未 (Schaf)](/guide/branch-mi) · [申 (Affe)](/guide/branch-sin) · [酉 (Hahn)](/guide/branch-yu) · [戌 (Hund)](/guide/branch-sul)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-ja": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 甲子",
+    "summary": "Wie Saju-Link die Tagessäule 甲子 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "甲子 ist die Tagessäule Nr. 1 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 甲子, ist der Tagesstamm 甲 (Yang-Holz) und der Tageszweig 子 (die Ratte). Im Sechzigerzyklus ist es die Kombination Nr. 1."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 甲 ist, „Yang-Holz (甲)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ein hoher Baum, der gerade wächst. Steht die Richtung fest, wankt er nicht, und er hält lieber aus, als sich zu beugen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 子 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 甲 aus gelesen, sind die Stämme, die 子 enthält, die folgenden. Der Hauptstamm (癸) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 甲子",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 甲"
+              ],
+              "rows": [
+                [
+                  "Yang-Wasser (壬)",
+                  "Reststamm (餘氣)",
+                  "{hidJaYeo}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Hauptstamm (本氣)",
+                  "{hidJaBon}",
+                  "Fürsorge (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 甲 als Tagesstamm ist der Beständige Wohlstand 己 und die Autorität 辛."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 己. 己 ist in 子 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 辛. 辛 ist in 子 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [癸亥](/guide/pillar-gye-hae) und die nächste [乙丑](/guide/pillar-eul-chuk)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Holz (甲)](/guide/stem-gap) und [子 (Ratte)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-chuk": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 乙丑",
+    "summary": "Wie Saju-Link die Tagessäule 乙丑 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "乙丑 ist die Tagessäule Nr. 2 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 乙丑, ist der Tagesstamm 乙 (Yin-Holz) und der Tageszweig 丑 (der Ochse). Im Sechzigerzyklus ist es die Kombination Nr. 2."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 乙 ist, „Yin-Holz (乙)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Eine Ranke — biegsames Gras. Es beugt sich den Umständen, um weiterzukommen, und bricht dabei nicht.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 丑 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 乙 aus gelesen, sind die Stämme, die 丑 enthält, die folgenden. Der Hauptstamm (己) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 乙丑",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 乙"
+              ],
+              "rows": [
+                [
+                  "Yin-Wasser (癸)",
+                  "Reststamm (餘氣)",
+                  "{hidChukYeo}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Mittelstamm (中氣)",
+                  "{hidChukJung}",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Hauptstamm (本氣)",
+                  "{hidChukBon}",
+                  "Unerwarteter Gewinn (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 乙 als Tagesstamm ist der Beständige Wohlstand 戊 und die Autorität 庚."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 戊. 戊 ist in 丑 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 庚. 庚 ist in 丑 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [甲子](/guide/pillar-gap-ja) und die nächste [丙寅](/guide/pillar-byeong-in)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Holz (乙)](/guide/stem-eul) und [丑 (Ochse)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-in": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 丙寅",
+    "summary": "Wie Saju-Link die Tagessäule 丙寅 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丙寅 ist die Tagessäule Nr. 3 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 丙寅, ist der Tagesstamm 丙 (Yang-Feuer) und der Tageszweig 寅 (der Tiger). Im Sechzigerzyklus ist es die Kombination Nr. 3."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 丙 ist, „Yang-Feuer (丙)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Die Mittagssonne. Gefühle liegen offen, der Raum wird hell, und nach vorn zu treten fällt leicht.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 寅 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 丙 aus gelesen, sind die Stämme, die 寅 enthält, die folgenden. Der Hauptstamm (甲) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 丙寅",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 丙"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidInYeo}",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Mittelstamm (中氣)",
+                  "{hidInJung}",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Holz (甲)",
+                  "Hauptstamm (本氣)",
+                  "{hidInBon}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丙 als Tagesstamm ist der Beständige Wohlstand 辛 und die Autorität 癸."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 辛. 辛 ist in 寅 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 癸. 癸 ist in 寅 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [乙丑](/guide/pillar-eul-chuk) und die nächste [丁卯](/guide/pillar-jeong-myo)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Feuer (丙)](/guide/stem-byeong) und [寅 (Tiger)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-myo": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 丁卯",
+    "summary": "Wie Saju-Link die Tagessäule 丁卯 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丁卯 ist die Tagessäule Nr. 4 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 丁卯, ist der Tagesstamm 丁 (Yin-Feuer) und der Tageszweig 卯 (der Hase). Im Sechzigerzyklus ist es die Kombination Nr. 4."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 丁 ist, „Yin-Feuer (丁)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Kerzenlicht. Es brennt leise und lange und wärmt zuerst die Nächsten.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 卯 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 丁 aus gelesen, sind die Stämme, die 卯 enthält, die folgenden. Der Hauptstamm (乙) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 丁卯",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 丁"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Reststamm (餘氣)",
+                  "{hidMyoYeo}",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Hauptstamm (本氣)",
+                  "{hidMyoBon}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丁 als Tagesstamm ist der Beständige Wohlstand 庚 und die Autorität 壬."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 庚. 庚 ist in 卯 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 壬. 壬 ist in 卯 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [丙寅](/guide/pillar-byeong-in) und die nächste [戊辰](/guide/pillar-mu-jin)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Feuer (丁)](/guide/stem-jeong) und [卯 (Hase)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-jin": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 戊辰",
+    "summary": "Wie Saju-Link die Tagessäule 戊辰 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "戊辰 ist die Tagessäule Nr. 5 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 戊辰, ist der Tagesstamm 戊 (Yang-Erde) und der Tageszweig 辰 (der Drache). Im Sechzigerzyklus ist es die Kombination Nr. 5."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 戊 ist, „Yang-Erde (戊)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Weites Land und Berge. Schwer zu erschüttern und gut zum Anlehnen, doch eine getroffene Entscheidung ändert sich nur langsam.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 辰 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 戊 aus gelesen, sind die Stämme, die 辰 enthält, die folgenden. Der Hauptstamm (戊) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 戊辰",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 戊"
+              ],
+              "rows": [
+                [
+                  "Yin-Holz (乙)",
+                  "Reststamm (餘氣)",
+                  "{hidJinYeo}",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Mittelstamm (中氣)",
+                  "{hidJinJung}",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Hauptstamm (本氣)",
+                  "{hidJinBon}",
+                  "Gefährte (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 戊 als Tagesstamm ist der Beständige Wohlstand 癸 und die Autorität 乙."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 癸. 癸 ist in 辰 enthalten (Mittelstamm (中氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 乙. 乙 ist in 辰 enthalten (Reststamm (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [丁卯](/guide/pillar-jeong-myo) und die nächste [己巳](/guide/pillar-gi-sa)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Erde (戊)](/guide/stem-mu) und [辰 (Drache)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-sa": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 己巳",
+    "summary": "Wie Saju-Link die Tagessäule 己巳 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "己巳 ist die Tagessäule Nr. 6 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 己巳, ist der Tagesstamm 己 (Yin-Erde) und der Tageszweig 巳 (die Schlange). Im Sechzigerzyklus ist es die Kombination Nr. 6."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 己 ist, „Yin-Erde (己)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ackerboden. Er nimmt auf, was kommt, und zieht es groß — er pflegt, statt sich zu zeigen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 巳 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 己 aus gelesen, sind die Stämme, die 巳 enthält, die folgenden. Der Hauptstamm (丙) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 己巳",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 己"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidSaYeo}",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Mittelstamm (中氣)",
+                  "{hidSaJung}",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Hauptstamm (本氣)",
+                  "{hidSaBon}",
+                  "Fürsorge (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 己 als Tagesstamm ist der Beständige Wohlstand 壬 und die Autorität 甲."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 壬. 壬 ist in 巳 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 甲. 甲 ist in 巳 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [戊辰](/guide/pillar-mu-jin) und die nächste [庚午](/guide/pillar-gyeong-o)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Erde (己)](/guide/stem-gi) und [巳 (Schlange)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-o": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 庚午",
+    "summary": "Wie Saju-Link die Tagessäule 庚午 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "庚午 ist die Tagessäule Nr. 7 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 庚午, ist der Tagesstamm 庚 (Yang-Metall) und der Tageszweig 午 (das Pferd). Im Sechzigerzyklus ist es die Kombination Nr. 7."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 庚 ist, „Yang-Metall (庚)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Unbearbeitetes Eisen. Entschieden und klar, mit wenig Geduld für Dinge, die in der Schwebe bleiben.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 午 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 庚 aus gelesen, sind die Stämme, die 午 enthält, die folgenden. Der Hauptstamm (丁) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 庚午",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 庚"
+              ],
+              "rows": [
+                [
+                  "Yang-Feuer (丙)",
+                  "Reststamm (餘氣)",
+                  "{hidOYeo}",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Mittelstamm (中氣)",
+                  "{hidOJung}",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Hauptstamm (本氣)",
+                  "{hidOBon}",
+                  "Autorität (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 庚 als Tagesstamm ist der Beständige Wohlstand 乙 und die Autorität 丁."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 乙. 乙 ist in 午 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 丁. 丁 ist in 午 enthalten (Hauptstamm (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [己巳](/guide/pillar-gi-sa) und die nächste [辛未](/guide/pillar-sin-mi)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Metall (庚)](/guide/stem-gyeong) und [午 (Pferd)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-mi": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 辛未",
+    "summary": "Wie Saju-Link die Tagessäule 辛未 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "辛未 ist die Tagessäule Nr. 8 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 辛未, ist der Tagesstamm 辛 (Yin-Metall) und der Tageszweig 未 (das Schaf). Im Sechzigerzyklus ist es die Kombination Nr. 8."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 辛 ist, „Yin-Metall (辛)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ein geschliffener Edelstein. Feiner Geschmack und hohe Maßstäbe; Nachlässigkeit lässt sich schwer durchgehen lassen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 未 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 辛 aus gelesen, sind die Stämme, die 未 enthält, die folgenden. Der Hauptstamm (己) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 辛未",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 辛"
+              ],
+              "rows": [
+                [
+                  "Yin-Feuer (丁)",
+                  "Reststamm (餘氣)",
+                  "{hidMiYeo}",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Mittelstamm (中氣)",
+                  "{hidMiJung}",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Hauptstamm (本氣)",
+                  "{hidMiBon}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 辛 als Tagesstamm ist der Beständige Wohlstand 甲 und die Autorität 丙."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 甲. 甲 ist in 未 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 丙. 丙 ist in 未 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [庚午](/guide/pillar-gyeong-o) und die nächste [壬申](/guide/pillar-im-sin)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Metall (辛)](/guide/stem-sin) und [未 (Schaf)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-sin": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 壬申",
+    "summary": "Wie Saju-Link die Tagessäule 壬申 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "壬申 ist die Tagessäule Nr. 9 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 壬申, ist der Tagesstamm 壬 (Yang-Wasser) und der Tageszweig 申 (der Affe). Im Sechzigerzyklus ist es die Kombination Nr. 9."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 壬 ist, „Yang-Wasser (壬)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Fluss und Meer. Weiter Blick, mit einem Auge dafür, wohin die Dinge laufen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 申 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 壬 aus gelesen, sind die Stämme, die 申 enthält, die folgenden. Der Hauptstamm (庚) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 壬申",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 壬"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidSinYeo}",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Mittelstamm (中氣)",
+                  "{hidSinJung}",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Hauptstamm (本氣)",
+                  "{hidSinBon}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 壬 als Tagesstamm ist der Beständige Wohlstand 丁 und die Autorität 己."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 丁. 丁 ist in 申 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 己. 己 ist in 申 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [辛未](/guide/pillar-sin-mi) und die nächste [癸酉](/guide/pillar-gye-yu)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Wasser (壬)](/guide/stem-im) und [申 (Affe)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-yu": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 癸酉",
+    "summary": "Wie Saju-Link die Tagessäule 癸酉 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "癸酉 ist die Tagessäule Nr. 10 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 癸酉, ist der Tagesstamm 癸 (Yin-Wasser) und der Tageszweig 酉 (der Hahn). Im Sechzigerzyklus ist es die Kombination Nr. 10."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 癸 ist, „Yin-Wasser (癸)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Tau und Regen. Es sickert leise ein und liest die Stimmung, bevor Worte fallen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 酉 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 癸 aus gelesen, sind die Stämme, die 酉 enthält, die folgenden. Der Hauptstamm (辛) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 癸酉",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 癸"
+              ],
+              "rows": [
+                [
+                  "Yang-Metall (庚)",
+                  "Reststamm (餘氣)",
+                  "{hidYuYeo}",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Hauptstamm (本氣)",
+                  "{hidYuBon}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 癸 als Tagesstamm ist der Beständige Wohlstand 丙 und die Autorität 戊."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 丙. 丙 ist in 酉 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 戊. 戊 ist in 酉 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [壬申](/guide/pillar-im-sin) und die nächste [甲戌](/guide/pillar-gap-sul)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Wasser (癸)](/guide/stem-gye) und [酉 (Hahn)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-sul": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 甲戌",
+    "summary": "Wie Saju-Link die Tagessäule 甲戌 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "甲戌 ist die Tagessäule Nr. 11 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 甲戌, ist der Tagesstamm 甲 (Yang-Holz) und der Tageszweig 戌 (der Hund). Im Sechzigerzyklus ist es die Kombination Nr. 11."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 甲 ist, „Yang-Holz (甲)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ein hoher Baum, der gerade wächst. Steht die Richtung fest, wankt er nicht, und er hält lieber aus, als sich zu beugen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 戌 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 甲 aus gelesen, sind die Stämme, die 戌 enthält, die folgenden. Der Hauptstamm (戊) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 甲戌",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 甲"
+              ],
+              "rows": [
+                [
+                  "Yin-Metall (辛)",
+                  "Reststamm (餘氣)",
+                  "{hidSulYeo}",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Mittelstamm (中氣)",
+                  "{hidSulJung}",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Hauptstamm (本氣)",
+                  "{hidSulBon}",
+                  "Unerwarteter Gewinn (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 甲 als Tagesstamm ist der Beständige Wohlstand 己 und die Autorität 辛."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 己. 己 ist in 戌 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 辛. 辛 ist in 戌 enthalten (Reststamm (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [癸酉](/guide/pillar-gye-yu) und die nächste [乙亥](/guide/pillar-eul-hae)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Holz (甲)](/guide/stem-gap) und [戌 (Hund)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-hae": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 乙亥",
+    "summary": "Wie Saju-Link die Tagessäule 乙亥 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "乙亥 ist die Tagessäule Nr. 12 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 乙亥, ist der Tagesstamm 乙 (Yin-Holz) und der Tageszweig 亥 (das Schwein). Im Sechzigerzyklus ist es die Kombination Nr. 12."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 乙 ist, „Yin-Holz (乙)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Eine Ranke — biegsames Gras. Es beugt sich den Umständen, um weiterzukommen, und bricht dabei nicht.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 亥 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 乙 aus gelesen, sind die Stämme, die 亥 enthält, die folgenden. Der Hauptstamm (壬) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 乙亥",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 乙"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidHaeYeo}",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Holz (甲)",
+                  "Mittelstamm (中氣)",
+                  "{hidHaeJung}",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Hauptstamm (本氣)",
+                  "{hidHaeBon}",
+                  "Fürsorge (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 乙 als Tagesstamm ist der Beständige Wohlstand 戊 und die Autorität 庚."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 戊. 戊 ist in 亥 enthalten (Reststamm (餘氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 庚. 庚 ist in 亥 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [甲戌](/guide/pillar-gap-sul) und die nächste [丙子](/guide/pillar-byeong-ja)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Holz (乙)](/guide/stem-eul) und [亥 (Schwein)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-ja": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 丙子",
+    "summary": "Wie Saju-Link die Tagessäule 丙子 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丙子 ist die Tagessäule Nr. 13 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 丙子, ist der Tagesstamm 丙 (Yang-Feuer) und der Tageszweig 子 (die Ratte). Im Sechzigerzyklus ist es die Kombination Nr. 13."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 丙 ist, „Yang-Feuer (丙)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Die Mittagssonne. Gefühle liegen offen, der Raum wird hell, und nach vorn zu treten fällt leicht.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 子 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 丙 aus gelesen, sind die Stämme, die 子 enthält, die folgenden. Der Hauptstamm (癸) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 丙子",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 丙"
+              ],
+              "rows": [
+                [
+                  "Yang-Wasser (壬)",
+                  "Reststamm (餘氣)",
+                  "{hidJaYeo}",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Hauptstamm (本氣)",
+                  "{hidJaBon}",
+                  "Autorität (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丙 als Tagesstamm ist der Beständige Wohlstand 辛 und die Autorität 癸."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 辛. 辛 ist in 子 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 癸. 癸 ist in 子 enthalten (Hauptstamm (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [乙亥](/guide/pillar-eul-hae) und die nächste [丁丑](/guide/pillar-jeong-chuk)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Feuer (丙)](/guide/stem-byeong) und [子 (Ratte)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-chuk": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 丁丑",
+    "summary": "Wie Saju-Link die Tagessäule 丁丑 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丁丑 ist die Tagessäule Nr. 14 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 丁丑, ist der Tagesstamm 丁 (Yin-Feuer) und der Tageszweig 丑 (der Ochse). Im Sechzigerzyklus ist es die Kombination Nr. 14."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 丁 ist, „Yin-Feuer (丁)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Kerzenlicht. Es brennt leise und lange und wärmt zuerst die Nächsten.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 丑 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 丁 aus gelesen, sind die Stämme, die 丑 enthält, die folgenden. Der Hauptstamm (己) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 丁丑",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 丁"
+              ],
+              "rows": [
+                [
+                  "Yin-Wasser (癸)",
+                  "Reststamm (餘氣)",
+                  "{hidChukYeo}",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Mittelstamm (中氣)",
+                  "{hidChukJung}",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Hauptstamm (本氣)",
+                  "{hidChukBon}",
+                  "Ausdruck (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丁 als Tagesstamm ist der Beständige Wohlstand 庚 und die Autorität 壬."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 庚. 庚 ist in 丑 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 壬. 壬 ist in 丑 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [丙子](/guide/pillar-byeong-ja) und die nächste [戊寅](/guide/pillar-mu-in)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Feuer (丁)](/guide/stem-jeong) und [丑 (Ochse)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-in": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 戊寅",
+    "summary": "Wie Saju-Link die Tagessäule 戊寅 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "戊寅 ist die Tagessäule Nr. 15 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 戊寅, ist der Tagesstamm 戊 (Yang-Erde) und der Tageszweig 寅 (der Tiger). Im Sechzigerzyklus ist es die Kombination Nr. 15."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 戊 ist, „Yang-Erde (戊)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Weites Land und Berge. Schwer zu erschüttern und gut zum Anlehnen, doch eine getroffene Entscheidung ändert sich nur langsam.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 寅 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 戊 aus gelesen, sind die Stämme, die 寅 enthält, die folgenden. Der Hauptstamm (甲) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 戊寅",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 戊"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidInYeo}",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Mittelstamm (中氣)",
+                  "{hidInJung}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Holz (甲)",
+                  "Hauptstamm (本氣)",
+                  "{hidInBon}",
+                  "Herausforderer (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 戊 als Tagesstamm ist der Beständige Wohlstand 癸 und die Autorität 乙."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 癸. 癸 ist in 寅 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 乙. 乙 ist in 寅 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [丁丑](/guide/pillar-jeong-chuk) und die nächste [己卯](/guide/pillar-gi-myo)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Erde (戊)](/guide/stem-mu) und [寅 (Tiger)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-myo": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 己卯",
+    "summary": "Wie Saju-Link die Tagessäule 己卯 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "己卯 ist die Tagessäule Nr. 16 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 己卯, ist der Tagesstamm 己 (Yin-Erde) und der Tageszweig 卯 (der Hase). Im Sechzigerzyklus ist es die Kombination Nr. 16."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 己 ist, „Yin-Erde (己)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ackerboden. Er nimmt auf, was kommt, und zieht es groß — er pflegt, statt sich zu zeigen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 卯 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 己 aus gelesen, sind die Stämme, die 卯 enthält, die folgenden. Der Hauptstamm (乙) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 己卯",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 己"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Reststamm (餘氣)",
+                  "{hidMyoYeo}",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Hauptstamm (本氣)",
+                  "{hidMyoBon}",
+                  "Herausforderer (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 己 als Tagesstamm ist der Beständige Wohlstand 壬 und die Autorität 甲."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 壬. 壬 ist in 卯 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 甲. 甲 ist in 卯 enthalten (Reststamm (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [戊寅](/guide/pillar-mu-in) und die nächste [庚辰](/guide/pillar-gyeong-jin)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Erde (己)](/guide/stem-gi) und [卯 (Hase)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-jin": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 庚辰",
+    "summary": "Wie Saju-Link die Tagessäule 庚辰 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "庚辰 ist die Tagessäule Nr. 17 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 庚辰, ist der Tagesstamm 庚 (Yang-Metall) und der Tageszweig 辰 (der Drache). Im Sechzigerzyklus ist es die Kombination Nr. 17."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 庚 ist, „Yang-Metall (庚)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Unbearbeitetes Eisen. Entschieden und klar, mit wenig Geduld für Dinge, die in der Schwebe bleiben.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 辰 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 庚 aus gelesen, sind die Stämme, die 辰 enthält, die folgenden. Der Hauptstamm (戊) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 庚辰",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 庚"
+              ],
+              "rows": [
+                [
+                  "Yin-Holz (乙)",
+                  "Reststamm (餘氣)",
+                  "{hidJinYeo}",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Mittelstamm (中氣)",
+                  "{hidJinJung}",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Hauptstamm (本氣)",
+                  "{hidJinBon}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 庚 als Tagesstamm ist der Beständige Wohlstand 乙 und die Autorität 丁."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 乙. 乙 ist in 辰 enthalten (Reststamm (餘氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 丁. 丁 ist in 辰 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [己卯](/guide/pillar-gi-myo) und die nächste [辛巳](/guide/pillar-sin-sa)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Metall (庚)](/guide/stem-gyeong) und [辰 (Drache)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-sa": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 辛巳",
+    "summary": "Wie Saju-Link die Tagessäule 辛巳 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "辛巳 ist die Tagessäule Nr. 18 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 辛巳, ist der Tagesstamm 辛 (Yin-Metall) und der Tageszweig 巳 (die Schlange). Im Sechzigerzyklus ist es die Kombination Nr. 18."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 辛 ist, „Yin-Metall (辛)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ein geschliffener Edelstein. Feiner Geschmack und hohe Maßstäbe; Nachlässigkeit lässt sich schwer durchgehen lassen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 巳 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 辛 aus gelesen, sind die Stämme, die 巳 enthält, die folgenden. Der Hauptstamm (丙) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 辛巳",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 辛"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidSaYeo}",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Mittelstamm (中氣)",
+                  "{hidSaJung}",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Hauptstamm (本氣)",
+                  "{hidSaBon}",
+                  "Autorität (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 辛 als Tagesstamm ist der Beständige Wohlstand 甲 und die Autorität 丙."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 甲. 甲 ist in 巳 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 丙. 丙 ist in 巳 enthalten (Hauptstamm (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [庚辰](/guide/pillar-gyeong-jin) und die nächste [壬午](/guide/pillar-im-o)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Metall (辛)](/guide/stem-sin) und [巳 (Schlange)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-o": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 壬午",
+    "summary": "Wie Saju-Link die Tagessäule 壬午 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "壬午 ist die Tagessäule Nr. 19 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 壬午, ist der Tagesstamm 壬 (Yang-Wasser) und der Tageszweig 午 (das Pferd). Im Sechzigerzyklus ist es die Kombination Nr. 19."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 壬 ist, „Yang-Wasser (壬)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Fluss und Meer. Weiter Blick, mit einem Auge dafür, wohin die Dinge laufen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 午 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 壬 aus gelesen, sind die Stämme, die 午 enthält, die folgenden. Der Hauptstamm (丁) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 壬午",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 壬"
+              ],
+              "rows": [
+                [
+                  "Yang-Feuer (丙)",
+                  "Reststamm (餘氣)",
+                  "{hidOYeo}",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Mittelstamm (中氣)",
+                  "{hidOJung}",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Hauptstamm (本氣)",
+                  "{hidOBon}",
+                  "Beständiger Wohlstand (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 壬 als Tagesstamm ist der Beständige Wohlstand 丁 und die Autorität 己."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 丁. 丁 ist in 午 enthalten (Hauptstamm (本氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 己. 己 ist in 午 enthalten (Mittelstamm (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [辛巳](/guide/pillar-sin-sa) und die nächste [癸未](/guide/pillar-gye-mi)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Wasser (壬)](/guide/stem-im) und [午 (Pferd)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-mi": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 癸未",
+    "summary": "Wie Saju-Link die Tagessäule 癸未 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "癸未 ist die Tagessäule Nr. 20 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 癸未, ist der Tagesstamm 癸 (Yin-Wasser) und der Tageszweig 未 (das Schaf). Im Sechzigerzyklus ist es die Kombination Nr. 20."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 癸 ist, „Yin-Wasser (癸)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Tau und Regen. Es sickert leise ein und liest die Stimmung, bevor Worte fallen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 未 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 癸 aus gelesen, sind die Stämme, die 未 enthält, die folgenden. Der Hauptstamm (己) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 癸未",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 癸"
+              ],
+              "rows": [
+                [
+                  "Yin-Feuer (丁)",
+                  "Reststamm (餘氣)",
+                  "{hidMiYeo}",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Mittelstamm (中氣)",
+                  "{hidMiJung}",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Hauptstamm (本氣)",
+                  "{hidMiBon}",
+                  "Herausforderer (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 癸 als Tagesstamm ist der Beständige Wohlstand 丙 und die Autorität 戊."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 丙. 丙 ist in 未 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 戊. 戊 ist in 未 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [壬午](/guide/pillar-im-o) und die nächste [甲申](/guide/pillar-gap-sin)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Wasser (癸)](/guide/stem-gye) und [未 (Schaf)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-sin": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 甲申",
+    "summary": "Wie Saju-Link die Tagessäule 甲申 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "甲申 ist die Tagessäule Nr. 21 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 甲申, ist der Tagesstamm 甲 (Yang-Holz) und der Tageszweig 申 (der Affe). Im Sechzigerzyklus ist es die Kombination Nr. 21."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 甲 ist, „Yang-Holz (甲)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ein hoher Baum, der gerade wächst. Steht die Richtung fest, wankt er nicht, und er hält lieber aus, als sich zu beugen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 申 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 甲 aus gelesen, sind die Stämme, die 申 enthält, die folgenden. Der Hauptstamm (庚) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 甲申",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 甲"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidSinYeo}",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Mittelstamm (中氣)",
+                  "{hidSinJung}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Hauptstamm (本氣)",
+                  "{hidSinBon}",
+                  "Herausforderer (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 甲 als Tagesstamm ist der Beständige Wohlstand 己 und die Autorität 辛."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 己. 己 ist in 申 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 辛. 辛 ist in 申 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [癸未](/guide/pillar-gye-mi) und die nächste [乙酉](/guide/pillar-eul-yu)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Holz (甲)](/guide/stem-gap) und [申 (Affe)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-yu": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 乙酉",
+    "summary": "Wie Saju-Link die Tagessäule 乙酉 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "乙酉 ist die Tagessäule Nr. 22 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 乙酉, ist der Tagesstamm 乙 (Yin-Holz) und der Tageszweig 酉 (der Hahn). Im Sechzigerzyklus ist es die Kombination Nr. 22."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 乙 ist, „Yin-Holz (乙)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Eine Ranke — biegsames Gras. Es beugt sich den Umständen, um weiterzukommen, und bricht dabei nicht.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 酉 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 乙 aus gelesen, sind die Stämme, die 酉 enthält, die folgenden. Der Hauptstamm (辛) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 乙酉",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 乙"
+              ],
+              "rows": [
+                [
+                  "Yang-Metall (庚)",
+                  "Reststamm (餘氣)",
+                  "{hidYuYeo}",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Hauptstamm (本氣)",
+                  "{hidYuBon}",
+                  "Herausforderer (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 乙 als Tagesstamm ist der Beständige Wohlstand 戊 und die Autorität 庚."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 戊. 戊 ist in 酉 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 庚. 庚 ist in 酉 enthalten (Reststamm (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [甲申](/guide/pillar-gap-sin) und die nächste [丙戌](/guide/pillar-byeong-sul)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Holz (乙)](/guide/stem-eul) und [酉 (Hahn)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-sul": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 丙戌",
+    "summary": "Wie Saju-Link die Tagessäule 丙戌 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丙戌 ist die Tagessäule Nr. 23 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 丙戌, ist der Tagesstamm 丙 (Yang-Feuer) und der Tageszweig 戌 (der Hund). Im Sechzigerzyklus ist es die Kombination Nr. 23."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 丙 ist, „Yang-Feuer (丙)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Die Mittagssonne. Gefühle liegen offen, der Raum wird hell, und nach vorn zu treten fällt leicht.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 戌 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 丙 aus gelesen, sind die Stämme, die 戌 enthält, die folgenden. Der Hauptstamm (戊) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 丙戌",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 丙"
+              ],
+              "rows": [
+                [
+                  "Yin-Metall (辛)",
+                  "Reststamm (餘氣)",
+                  "{hidSulYeo}",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Mittelstamm (中氣)",
+                  "{hidSulJung}",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Hauptstamm (本氣)",
+                  "{hidSulBon}",
+                  "Ausdruck (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丙 als Tagesstamm ist der Beständige Wohlstand 辛 und die Autorität 癸."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 辛. 辛 ist in 戌 enthalten (Reststamm (餘氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 癸. 癸 ist in 戌 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [乙酉](/guide/pillar-eul-yu) und die nächste [丁亥](/guide/pillar-jeong-hae)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Feuer (丙)](/guide/stem-byeong) und [戌 (Hund)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-hae": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 丁亥",
+    "summary": "Wie Saju-Link die Tagessäule 丁亥 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丁亥 ist die Tagessäule Nr. 24 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 丁亥, ist der Tagesstamm 丁 (Yin-Feuer) und der Tageszweig 亥 (das Schwein). Im Sechzigerzyklus ist es die Kombination Nr. 24."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 丁 ist, „Yin-Feuer (丁)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Kerzenlicht. Es brennt leise und lange und wärmt zuerst die Nächsten.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 亥 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 丁 aus gelesen, sind die Stämme, die 亥 enthält, die folgenden. Der Hauptstamm (壬) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 丁亥",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 丁"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidHaeYeo}",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Holz (甲)",
+                  "Mittelstamm (中氣)",
+                  "{hidHaeJung}",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Hauptstamm (本氣)",
+                  "{hidHaeBon}",
+                  "Autorität (正官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丁 als Tagesstamm ist der Beständige Wohlstand 庚 und die Autorität 壬."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 庚. 庚 ist in 亥 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 壬. 壬 ist in 亥 enthalten (Hauptstamm (本氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [丙戌](/guide/pillar-byeong-sul) und die nächste [戊子](/guide/pillar-mu-ja)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Feuer (丁)](/guide/stem-jeong) und [亥 (Schwein)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-ja": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 戊子",
+    "summary": "Wie Saju-Link die Tagessäule 戊子 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "戊子 ist die Tagessäule Nr. 25 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 戊子, ist der Tagesstamm 戊 (Yang-Erde) und der Tageszweig 子 (die Ratte). Im Sechzigerzyklus ist es die Kombination Nr. 25."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 戊 ist, „Yang-Erde (戊)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Weites Land und Berge. Schwer zu erschüttern und gut zum Anlehnen, doch eine getroffene Entscheidung ändert sich nur langsam.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 子 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 戊 aus gelesen, sind die Stämme, die 子 enthält, die folgenden. Der Hauptstamm (癸) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 戊子",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 戊"
+              ],
+              "rows": [
+                [
+                  "Yang-Wasser (壬)",
+                  "Reststamm (餘氣)",
+                  "{hidJaYeo}",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Hauptstamm (本氣)",
+                  "{hidJaBon}",
+                  "Beständiger Wohlstand (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 戊 als Tagesstamm ist der Beständige Wohlstand 癸 und die Autorität 乙."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 癸. 癸 ist in 子 enthalten (Hauptstamm (本氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 乙. 乙 ist in 子 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [丁亥](/guide/pillar-jeong-hae) und die nächste [己丑](/guide/pillar-gi-chuk)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Erde (戊)](/guide/stem-mu) und [子 (Ratte)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-chuk": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 己丑",
+    "summary": "Wie Saju-Link die Tagessäule 己丑 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "己丑 ist die Tagessäule Nr. 26 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 己丑, ist der Tagesstamm 己 (Yin-Erde) und der Tageszweig 丑 (der Ochse). Im Sechzigerzyklus ist es die Kombination Nr. 26."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 己 ist, „Yin-Erde (己)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ackerboden. Er nimmt auf, was kommt, und zieht es groß — er pflegt, statt sich zu zeigen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 丑 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 己 aus gelesen, sind die Stämme, die 丑 enthält, die folgenden. Der Hauptstamm (己) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 己丑",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 己"
+              ],
+              "rows": [
+                [
+                  "Yin-Wasser (癸)",
+                  "Reststamm (餘氣)",
+                  "{hidChukYeo}",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Mittelstamm (中氣)",
+                  "{hidChukJung}",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Hauptstamm (本氣)",
+                  "{hidChukBon}",
+                  "Gefährte (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 己 als Tagesstamm ist der Beständige Wohlstand 壬 und die Autorität 甲."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 壬. 壬 ist in 丑 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 甲. 甲 ist in 丑 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [戊子](/guide/pillar-mu-ja) und die nächste [庚寅](/guide/pillar-gyeong-in)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Erde (己)](/guide/stem-gi) und [丑 (Ochse)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-in": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 庚寅",
+    "summary": "Wie Saju-Link die Tagessäule 庚寅 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "庚寅 ist die Tagessäule Nr. 27 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 庚寅, ist der Tagesstamm 庚 (Yang-Metall) und der Tageszweig 寅 (der Tiger). Im Sechzigerzyklus ist es die Kombination Nr. 27."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 庚 ist, „Yang-Metall (庚)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Unbearbeitetes Eisen. Entschieden und klar, mit wenig Geduld für Dinge, die in der Schwebe bleiben.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 寅 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 庚 aus gelesen, sind die Stämme, die 寅 enthält, die folgenden. Der Hauptstamm (甲) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 庚寅",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 庚"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidInYeo}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Mittelstamm (中氣)",
+                  "{hidInJung}",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yang-Holz (甲)",
+                  "Hauptstamm (本氣)",
+                  "{hidInBon}",
+                  "Unerwarteter Gewinn (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 庚 als Tagesstamm ist der Beständige Wohlstand 乙 und die Autorität 丁."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 乙. 乙 ist in 寅 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 丁. 丁 ist in 寅 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [己丑](/guide/pillar-gi-chuk) und die nächste [辛卯](/guide/pillar-sin-myo)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Metall (庚)](/guide/stem-gyeong) und [寅 (Tiger)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-myo": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 辛卯",
+    "summary": "Wie Saju-Link die Tagessäule 辛卯 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "辛卯 ist die Tagessäule Nr. 28 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 辛卯, ist der Tagesstamm 辛 (Yin-Metall) und der Tageszweig 卯 (der Hase). Im Sechzigerzyklus ist es die Kombination Nr. 28."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 辛 ist, „Yin-Metall (辛)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ein geschliffener Edelstein. Feiner Geschmack und hohe Maßstäbe; Nachlässigkeit lässt sich schwer durchgehen lassen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 卯 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 辛 aus gelesen, sind die Stämme, die 卯 enthält, die folgenden. Der Hauptstamm (乙) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 辛卯",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 辛"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Reststamm (餘氣)",
+                  "{hidMyoYeo}",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Hauptstamm (本氣)",
+                  "{hidMyoBon}",
+                  "Unerwarteter Gewinn (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 辛 als Tagesstamm ist der Beständige Wohlstand 甲 und die Autorität 丙."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 甲. 甲 ist in 卯 enthalten (Reststamm (餘氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 丙. 丙 ist in 卯 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [庚寅](/guide/pillar-gyeong-in) und die nächste [壬辰](/guide/pillar-im-jin)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Metall (辛)](/guide/stem-sin) und [卯 (Hase)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-jin": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 壬辰",
+    "summary": "Wie Saju-Link die Tagessäule 壬辰 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "壬辰 ist die Tagessäule Nr. 29 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 壬辰, ist der Tagesstamm 壬 (Yang-Wasser) und der Tageszweig 辰 (der Drache). Im Sechzigerzyklus ist es die Kombination Nr. 29."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 壬 ist, „Yang-Wasser (壬)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Fluss und Meer. Weiter Blick, mit einem Auge dafür, wohin die Dinge laufen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 辰 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 壬 aus gelesen, sind die Stämme, die 辰 enthält, die folgenden. Der Hauptstamm (戊) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 壬辰",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 壬"
+              ],
+              "rows": [
+                [
+                  "Yin-Holz (乙)",
+                  "Reststamm (餘氣)",
+                  "{hidJinYeo}",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Mittelstamm (中氣)",
+                  "{hidJinJung}",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Hauptstamm (本氣)",
+                  "{hidJinBon}",
+                  "Herausforderer (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 壬 als Tagesstamm ist der Beständige Wohlstand 丁 und die Autorität 己."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 丁. 丁 ist in 辰 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 己. 己 ist in 辰 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [辛卯](/guide/pillar-sin-myo) und die nächste [癸巳](/guide/pillar-gye-sa)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Wasser (壬)](/guide/stem-im) und [辰 (Drache)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-sa": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 癸巳",
+    "summary": "Wie Saju-Link die Tagessäule 癸巳 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "癸巳 ist die Tagessäule Nr. 30 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 癸巳, ist der Tagesstamm 癸 (Yin-Wasser) und der Tageszweig 巳 (die Schlange). Im Sechzigerzyklus ist es die Kombination Nr. 30."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 癸 ist, „Yin-Wasser (癸)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Tau und Regen. Es sickert leise ein und liest die Stimmung, bevor Worte fallen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 巳 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 癸 aus gelesen, sind die Stämme, die 巳 enthält, die folgenden. Der Hauptstamm (丙) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 癸巳",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 癸"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidSaYeo}",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Mittelstamm (中氣)",
+                  "{hidSaJung}",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Hauptstamm (本氣)",
+                  "{hidSaBon}",
+                  "Beständiger Wohlstand (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 癸 als Tagesstamm ist der Beständige Wohlstand 丙 und die Autorität 戊."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 丙. 丙 ist in 巳 enthalten (Hauptstamm (本氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 戊. 戊 ist in 巳 enthalten (Reststamm (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [壬辰](/guide/pillar-im-jin) und die nächste [甲午](/guide/pillar-gap-o)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Wasser (癸)](/guide/stem-gye) und [巳 (Schlange)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-o": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 甲午",
+    "summary": "Wie Saju-Link die Tagessäule 甲午 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "甲午 ist die Tagessäule Nr. 31 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 甲午, ist der Tagesstamm 甲 (Yang-Holz) und der Tageszweig 午 (das Pferd). Im Sechzigerzyklus ist es die Kombination Nr. 31."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 甲 ist, „Yang-Holz (甲)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ein hoher Baum, der gerade wächst. Steht die Richtung fest, wankt er nicht, und er hält lieber aus, als sich zu beugen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 午 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 甲 aus gelesen, sind die Stämme, die 午 enthält, die folgenden. Der Hauptstamm (丁) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 甲午",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 甲"
+              ],
+              "rows": [
+                [
+                  "Yang-Feuer (丙)",
+                  "Reststamm (餘氣)",
+                  "{hidOYeo}",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Mittelstamm (中氣)",
+                  "{hidOJung}",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Hauptstamm (本氣)",
+                  "{hidOBon}",
+                  "Störer (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 甲 als Tagesstamm ist der Beständige Wohlstand 己 und die Autorität 辛."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 己. 己 ist in 午 enthalten (Mittelstamm (中氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 辛. 辛 ist in 午 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [癸巳](/guide/pillar-gye-sa) und die nächste [乙未](/guide/pillar-eul-mi)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Holz (甲)](/guide/stem-gap) und [午 (Pferd)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-mi": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 乙未",
+    "summary": "Wie Saju-Link die Tagessäule 乙未 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "乙未 ist die Tagessäule Nr. 32 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 乙未, ist der Tagesstamm 乙 (Yin-Holz) und der Tageszweig 未 (das Schaf). Im Sechzigerzyklus ist es die Kombination Nr. 32."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 乙 ist, „Yin-Holz (乙)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Eine Ranke — biegsames Gras. Es beugt sich den Umständen, um weiterzukommen, und bricht dabei nicht.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 未 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 乙 aus gelesen, sind die Stämme, die 未 enthält, die folgenden. Der Hauptstamm (己) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 乙未",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 乙"
+              ],
+              "rows": [
+                [
+                  "Yin-Feuer (丁)",
+                  "Reststamm (餘氣)",
+                  "{hidMiYeo}",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Mittelstamm (中氣)",
+                  "{hidMiJung}",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Hauptstamm (本氣)",
+                  "{hidMiBon}",
+                  "Unerwarteter Gewinn (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 乙 als Tagesstamm ist der Beständige Wohlstand 戊 und die Autorität 庚."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 戊. 戊 ist in 未 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 庚. 庚 ist in 未 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [甲午](/guide/pillar-gap-o) und die nächste [丙申](/guide/pillar-byeong-sin)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Holz (乙)](/guide/stem-eul) und [未 (Schaf)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-sin": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 丙申",
+    "summary": "Wie Saju-Link die Tagessäule 丙申 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丙申 ist die Tagessäule Nr. 33 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 丙申, ist der Tagesstamm 丙 (Yang-Feuer) und der Tageszweig 申 (der Affe). Im Sechzigerzyklus ist es die Kombination Nr. 33."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 丙 ist, „Yang-Feuer (丙)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Die Mittagssonne. Gefühle liegen offen, der Raum wird hell, und nach vorn zu treten fällt leicht.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 申 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 丙 aus gelesen, sind die Stämme, die 申 enthält, die folgenden. Der Hauptstamm (庚) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 丙申",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 丙"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidSinYeo}",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Mittelstamm (中氣)",
+                  "{hidSinJung}",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Hauptstamm (本氣)",
+                  "{hidSinBon}",
+                  "Unerwarteter Gewinn (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丙 als Tagesstamm ist der Beständige Wohlstand 辛 und die Autorität 癸."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 辛. 辛 ist in 申 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 癸. 癸 ist in 申 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [乙未](/guide/pillar-eul-mi) und die nächste [丁酉](/guide/pillar-jeong-yu)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Feuer (丙)](/guide/stem-byeong) und [申 (Affe)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-yu": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 丁酉",
+    "summary": "Wie Saju-Link die Tagessäule 丁酉 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丁酉 ist die Tagessäule Nr. 34 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 丁酉, ist der Tagesstamm 丁 (Yin-Feuer) und der Tageszweig 酉 (der Hahn). Im Sechzigerzyklus ist es die Kombination Nr. 34."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 丁 ist, „Yin-Feuer (丁)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Kerzenlicht. Es brennt leise und lange und wärmt zuerst die Nächsten.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 酉 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 丁 aus gelesen, sind die Stämme, die 酉 enthält, die folgenden. Der Hauptstamm (辛) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 丁酉",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 丁"
+              ],
+              "rows": [
+                [
+                  "Yang-Metall (庚)",
+                  "Reststamm (餘氣)",
+                  "{hidYuYeo}",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Hauptstamm (本氣)",
+                  "{hidYuBon}",
+                  "Unerwarteter Gewinn (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丁 als Tagesstamm ist der Beständige Wohlstand 庚 und die Autorität 壬."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 庚. 庚 ist in 酉 enthalten (Reststamm (餘氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 壬. 壬 ist in 酉 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [丙申](/guide/pillar-byeong-sin) und die nächste [戊戌](/guide/pillar-mu-sul)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Feuer (丁)](/guide/stem-jeong) und [酉 (Hahn)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-sul": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 戊戌",
+    "summary": "Wie Saju-Link die Tagessäule 戊戌 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "戊戌 ist die Tagessäule Nr. 35 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 戊戌, ist der Tagesstamm 戊 (Yang-Erde) und der Tageszweig 戌 (der Hund). Im Sechzigerzyklus ist es die Kombination Nr. 35."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 戊 ist, „Yang-Erde (戊)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Weites Land und Berge. Schwer zu erschüttern und gut zum Anlehnen, doch eine getroffene Entscheidung ändert sich nur langsam.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 戌 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 戊 aus gelesen, sind die Stämme, die 戌 enthält, die folgenden. Der Hauptstamm (戊) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 戊戌",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 戊"
+              ],
+              "rows": [
+                [
+                  "Yin-Metall (辛)",
+                  "Reststamm (餘氣)",
+                  "{hidSulYeo}",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Mittelstamm (中氣)",
+                  "{hidSulJung}",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Hauptstamm (本氣)",
+                  "{hidSulBon}",
+                  "Gefährte (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 戊 als Tagesstamm ist der Beständige Wohlstand 癸 und die Autorität 乙."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 癸. 癸 ist in 戌 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 乙. 乙 ist in 戌 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [丁酉](/guide/pillar-jeong-yu) und die nächste [己亥](/guide/pillar-gi-hae)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Erde (戊)](/guide/stem-mu) und [戌 (Hund)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-hae": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 己亥",
+    "summary": "Wie Saju-Link die Tagessäule 己亥 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "己亥 ist die Tagessäule Nr. 36 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 己亥, ist der Tagesstamm 己 (Yin-Erde) und der Tageszweig 亥 (das Schwein). Im Sechzigerzyklus ist es die Kombination Nr. 36."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 己 ist, „Yin-Erde (己)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ackerboden. Er nimmt auf, was kommt, und zieht es groß — er pflegt, statt sich zu zeigen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 亥 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 己 aus gelesen, sind die Stämme, die 亥 enthält, die folgenden. Der Hauptstamm (壬) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 己亥",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 己"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidHaeYeo}",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yang-Holz (甲)",
+                  "Mittelstamm (中氣)",
+                  "{hidHaeJung}",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Hauptstamm (本氣)",
+                  "{hidHaeBon}",
+                  "Beständiger Wohlstand (正財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 己 als Tagesstamm ist der Beständige Wohlstand 壬 und die Autorität 甲."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 壬. 壬 ist in 亥 enthalten (Hauptstamm (本氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 甲. 甲 ist in 亥 enthalten (Mittelstamm (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [戊戌](/guide/pillar-mu-sul) und die nächste [庚子](/guide/pillar-gyeong-ja)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Erde (己)](/guide/stem-gi) und [亥 (Schwein)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-ja": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 庚子",
+    "summary": "Wie Saju-Link die Tagessäule 庚子 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "庚子 ist die Tagessäule Nr. 37 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 庚子, ist der Tagesstamm 庚 (Yang-Metall) und der Tageszweig 子 (die Ratte). Im Sechzigerzyklus ist es die Kombination Nr. 37."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 庚 ist, „Yang-Metall (庚)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Unbearbeitetes Eisen. Entschieden und klar, mit wenig Geduld für Dinge, die in der Schwebe bleiben.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 子 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 庚 aus gelesen, sind die Stämme, die 子 enthält, die folgenden. Der Hauptstamm (癸) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 庚子",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 庚"
+              ],
+              "rows": [
+                [
+                  "Yang-Wasser (壬)",
+                  "Reststamm (餘氣)",
+                  "{hidJaYeo}",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Hauptstamm (本氣)",
+                  "{hidJaBon}",
+                  "Störer (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 庚 als Tagesstamm ist der Beständige Wohlstand 乙 und die Autorität 丁."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 乙. 乙 ist in 子 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 丁. 丁 ist in 子 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [己亥](/guide/pillar-gi-hae) und die nächste [辛丑](/guide/pillar-sin-chuk)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Metall (庚)](/guide/stem-gyeong) und [子 (Ratte)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-chuk": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 辛丑",
+    "summary": "Wie Saju-Link die Tagessäule 辛丑 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "辛丑 ist die Tagessäule Nr. 38 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 辛丑, ist der Tagesstamm 辛 (Yin-Metall) und der Tageszweig 丑 (der Ochse). Im Sechzigerzyklus ist es die Kombination Nr. 38."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 辛 ist, „Yin-Metall (辛)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ein geschliffener Edelstein. Feiner Geschmack und hohe Maßstäbe; Nachlässigkeit lässt sich schwer durchgehen lassen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 丑 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 辛 aus gelesen, sind die Stämme, die 丑 enthält, die folgenden. Der Hauptstamm (己) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 辛丑",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 辛"
+              ],
+              "rows": [
+                [
+                  "Yin-Wasser (癸)",
+                  "Reststamm (餘氣)",
+                  "{hidChukYeo}",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Mittelstamm (中氣)",
+                  "{hidChukJung}",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Hauptstamm (本氣)",
+                  "{hidChukBon}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 辛 als Tagesstamm ist der Beständige Wohlstand 甲 und die Autorität 丙."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 甲. 甲 ist in 丑 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 丙. 丙 ist in 丑 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [庚子](/guide/pillar-gyeong-ja) und die nächste [壬寅](/guide/pillar-im-in)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Metall (辛)](/guide/stem-sin) und [丑 (Ochse)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-in": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 壬寅",
+    "summary": "Wie Saju-Link die Tagessäule 壬寅 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "壬寅 ist die Tagessäule Nr. 39 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 壬寅, ist der Tagesstamm 壬 (Yang-Wasser) und der Tageszweig 寅 (der Tiger). Im Sechzigerzyklus ist es die Kombination Nr. 39."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 壬 ist, „Yang-Wasser (壬)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Fluss und Meer. Weiter Blick, mit einem Auge dafür, wohin die Dinge laufen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 寅 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 壬 aus gelesen, sind die Stämme, die 寅 enthält, die folgenden. Der Hauptstamm (甲) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 壬寅",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 壬"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidInYeo}",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Mittelstamm (中氣)",
+                  "{hidInJung}",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Holz (甲)",
+                  "Hauptstamm (本氣)",
+                  "{hidInBon}",
+                  "Ausdruck (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 壬 als Tagesstamm ist der Beständige Wohlstand 丁 und die Autorität 己."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 丁. 丁 ist in 寅 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 己. 己 ist in 寅 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [辛丑](/guide/pillar-sin-chuk) und die nächste [癸卯](/guide/pillar-gye-myo)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Wasser (壬)](/guide/stem-im) und [寅 (Tiger)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-myo": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 癸卯",
+    "summary": "Wie Saju-Link die Tagessäule 癸卯 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "癸卯 ist die Tagessäule Nr. 40 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 癸卯, ist der Tagesstamm 癸 (Yin-Wasser) und der Tageszweig 卯 (der Hase). Im Sechzigerzyklus ist es die Kombination Nr. 40."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 癸 ist, „Yin-Wasser (癸)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Tau und Regen. Es sickert leise ein und liest die Stimmung, bevor Worte fallen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 卯 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 癸 aus gelesen, sind die Stämme, die 卯 enthält, die folgenden. Der Hauptstamm (乙) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 癸卯",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 癸"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Reststamm (餘氣)",
+                  "{hidMyoYeo}",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Hauptstamm (本氣)",
+                  "{hidMyoBon}",
+                  "Ausdruck (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 癸 als Tagesstamm ist der Beständige Wohlstand 丙 und die Autorität 戊."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 丙. 丙 ist in 卯 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 戊. 戊 ist in 卯 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [壬寅](/guide/pillar-im-in) und die nächste [甲辰](/guide/pillar-gap-jin)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Wasser (癸)](/guide/stem-gye) und [卯 (Hase)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-jin": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 甲辰",
+    "summary": "Wie Saju-Link die Tagessäule 甲辰 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "甲辰 ist die Tagessäule Nr. 41 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 甲辰, ist der Tagesstamm 甲 (Yang-Holz) und der Tageszweig 辰 (der Drache). Im Sechzigerzyklus ist es die Kombination Nr. 41."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 甲 ist, „Yang-Holz (甲)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ein hoher Baum, der gerade wächst. Steht die Richtung fest, wankt er nicht, und er hält lieber aus, als sich zu beugen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 辰 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 甲 aus gelesen, sind die Stämme, die 辰 enthält, die folgenden. Der Hauptstamm (戊) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 甲辰",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 甲"
+              ],
+              "rows": [
+                [
+                  "Yin-Holz (乙)",
+                  "Reststamm (餘氣)",
+                  "{hidJinYeo}",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Mittelstamm (中氣)",
+                  "{hidJinJung}",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Hauptstamm (本氣)",
+                  "{hidJinBon}",
+                  "Unerwarteter Gewinn (偏財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 甲 als Tagesstamm ist der Beständige Wohlstand 己 und die Autorität 辛."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 己. 己 ist in 辰 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 辛. 辛 ist in 辰 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [癸卯](/guide/pillar-gye-myo) und die nächste [乙巳](/guide/pillar-eul-sa)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Holz (甲)](/guide/stem-gap) und [辰 (Drache)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-sa": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 乙巳",
+    "summary": "Wie Saju-Link die Tagessäule 乙巳 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "乙巳 ist die Tagessäule Nr. 42 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 乙巳, ist der Tagesstamm 乙 (Yin-Holz) und der Tageszweig 巳 (die Schlange). Im Sechzigerzyklus ist es die Kombination Nr. 42."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 乙 ist, „Yin-Holz (乙)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Eine Ranke — biegsames Gras. Es beugt sich den Umständen, um weiterzukommen, und bricht dabei nicht.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 巳 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 乙 aus gelesen, sind die Stämme, die 巳 enthält, die folgenden. Der Hauptstamm (丙) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 乙巳",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 乙"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidSaYeo}",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Mittelstamm (中氣)",
+                  "{hidSaJung}",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Hauptstamm (本氣)",
+                  "{hidSaBon}",
+                  "Störer (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 乙 als Tagesstamm ist der Beständige Wohlstand 戊 und die Autorität 庚."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 戊. 戊 ist in 巳 enthalten (Reststamm (餘氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 庚. 庚 ist in 巳 enthalten (Mittelstamm (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [甲辰](/guide/pillar-gap-jin) und die nächste [丙午](/guide/pillar-byeong-o)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Holz (乙)](/guide/stem-eul) und [巳 (Schlange)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-o": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 丙午",
+    "summary": "Wie Saju-Link die Tagessäule 丙午 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丙午 ist die Tagessäule Nr. 43 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 丙午, ist der Tagesstamm 丙 (Yang-Feuer) und der Tageszweig 午 (das Pferd). Im Sechzigerzyklus ist es die Kombination Nr. 43."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 丙 ist, „Yang-Feuer (丙)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Die Mittagssonne. Gefühle liegen offen, der Raum wird hell, und nach vorn zu treten fällt leicht.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 午 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 丙 aus gelesen, sind die Stämme, die 午 enthält, die folgenden. Der Hauptstamm (丁) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 丙午",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 丙"
+              ],
+              "rows": [
+                [
+                  "Yang-Feuer (丙)",
+                  "Reststamm (餘氣)",
+                  "{hidOYeo}",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Mittelstamm (中氣)",
+                  "{hidOJung}",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Hauptstamm (本氣)",
+                  "{hidOBon}",
+                  "Rivale (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丙 als Tagesstamm ist der Beständige Wohlstand 辛 und die Autorität 癸."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 辛. 辛 ist in 午 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 癸. 癸 ist in 午 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [乙巳](/guide/pillar-eul-sa) und die nächste [丁未](/guide/pillar-jeong-mi)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Feuer (丙)](/guide/stem-byeong) und [午 (Pferd)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-mi": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 丁未",
+    "summary": "Wie Saju-Link die Tagessäule 丁未 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丁未 ist die Tagessäule Nr. 44 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 丁未, ist der Tagesstamm 丁 (Yin-Feuer) und der Tageszweig 未 (das Schaf). Im Sechzigerzyklus ist es die Kombination Nr. 44."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 丁 ist, „Yin-Feuer (丁)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Kerzenlicht. Es brennt leise und lange und wärmt zuerst die Nächsten.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 未 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 丁 aus gelesen, sind die Stämme, die 未 enthält, die folgenden. Der Hauptstamm (己) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 丁未",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 丁"
+              ],
+              "rows": [
+                [
+                  "Yin-Feuer (丁)",
+                  "Reststamm (餘氣)",
+                  "{hidMiYeo}",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Mittelstamm (中氣)",
+                  "{hidMiJung}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Hauptstamm (本氣)",
+                  "{hidMiBon}",
+                  "Ausdruck (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丁 als Tagesstamm ist der Beständige Wohlstand 庚 und die Autorität 壬."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 庚. 庚 ist in 未 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 壬. 壬 ist in 未 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [丙午](/guide/pillar-byeong-o) und die nächste [戊申](/guide/pillar-mu-sin)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Feuer (丁)](/guide/stem-jeong) und [未 (Schaf)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-sin": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 戊申",
+    "summary": "Wie Saju-Link die Tagessäule 戊申 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "戊申 ist die Tagessäule Nr. 45 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 戊申, ist der Tagesstamm 戊 (Yang-Erde) und der Tageszweig 申 (der Affe). Im Sechzigerzyklus ist es die Kombination Nr. 45."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 戊 ist, „Yang-Erde (戊)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Weites Land und Berge. Schwer zu erschüttern und gut zum Anlehnen, doch eine getroffene Entscheidung ändert sich nur langsam.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 申 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 戊 aus gelesen, sind die Stämme, die 申 enthält, die folgenden. Der Hauptstamm (庚) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 戊申",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 戊"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidSinYeo}",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Mittelstamm (中氣)",
+                  "{hidSinJung}",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Hauptstamm (本氣)",
+                  "{hidSinBon}",
+                  "Ausdruck (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 戊 als Tagesstamm ist der Beständige Wohlstand 癸 und die Autorität 乙."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 癸. 癸 ist in 申 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 乙. 乙 ist in 申 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [丁未](/guide/pillar-jeong-mi) und die nächste [己酉](/guide/pillar-gi-yu)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Erde (戊)](/guide/stem-mu) und [申 (Affe)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-yu": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 己酉",
+    "summary": "Wie Saju-Link die Tagessäule 己酉 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "己酉 ist die Tagessäule Nr. 46 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 己酉, ist der Tagesstamm 己 (Yin-Erde) und der Tageszweig 酉 (der Hahn). Im Sechzigerzyklus ist es die Kombination Nr. 46."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 己 ist, „Yin-Erde (己)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ackerboden. Er nimmt auf, was kommt, und zieht es groß — er pflegt, statt sich zu zeigen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 酉 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 己 aus gelesen, sind die Stämme, die 酉 enthält, die folgenden. Der Hauptstamm (辛) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 己酉",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 己"
+              ],
+              "rows": [
+                [
+                  "Yang-Metall (庚)",
+                  "Reststamm (餘氣)",
+                  "{hidYuYeo}",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Hauptstamm (本氣)",
+                  "{hidYuBon}",
+                  "Ausdruck (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 己 als Tagesstamm ist der Beständige Wohlstand 壬 und die Autorität 甲."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 壬. 壬 ist in 酉 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 甲. 甲 ist in 酉 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [戊申](/guide/pillar-mu-sin) und die nächste [庚戌](/guide/pillar-gyeong-sul)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Erde (己)](/guide/stem-gi) und [酉 (Hahn)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-sul": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 庚戌",
+    "summary": "Wie Saju-Link die Tagessäule 庚戌 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "庚戌 ist die Tagessäule Nr. 47 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 庚戌, ist der Tagesstamm 庚 (Yang-Metall) und der Tageszweig 戌 (der Hund). Im Sechzigerzyklus ist es die Kombination Nr. 47."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 庚 ist, „Yang-Metall (庚)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Unbearbeitetes Eisen. Entschieden und klar, mit wenig Geduld für Dinge, die in der Schwebe bleiben.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 戌 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 庚 aus gelesen, sind die Stämme, die 戌 enthält, die folgenden. Der Hauptstamm (戊) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 庚戌",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 庚"
+              ],
+              "rows": [
+                [
+                  "Yin-Metall (辛)",
+                  "Reststamm (餘氣)",
+                  "{hidSulYeo}",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Mittelstamm (中氣)",
+                  "{hidSulJung}",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Hauptstamm (本氣)",
+                  "{hidSulBon}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 庚 als Tagesstamm ist der Beständige Wohlstand 乙 und die Autorität 丁."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 乙. 乙 ist in 戌 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 丁. 丁 ist in 戌 enthalten (Mittelstamm (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [己酉](/guide/pillar-gi-yu) und die nächste [辛亥](/guide/pillar-sin-hae)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Metall (庚)](/guide/stem-gyeong) und [戌 (Hund)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-hae": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 辛亥",
+    "summary": "Wie Saju-Link die Tagessäule 辛亥 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "辛亥 ist die Tagessäule Nr. 48 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 辛亥, ist der Tagesstamm 辛 (Yin-Metall) und der Tageszweig 亥 (das Schwein). Im Sechzigerzyklus ist es die Kombination Nr. 48."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 辛 ist, „Yin-Metall (辛)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ein geschliffener Edelstein. Feiner Geschmack und hohe Maßstäbe; Nachlässigkeit lässt sich schwer durchgehen lassen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 亥 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 辛 aus gelesen, sind die Stämme, die 亥 enthält, die folgenden. Der Hauptstamm (壬) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 辛亥",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 辛"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidHaeYeo}",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yang-Holz (甲)",
+                  "Mittelstamm (中氣)",
+                  "{hidHaeJung}",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Hauptstamm (本氣)",
+                  "{hidHaeBon}",
+                  "Störer (傷官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 辛 als Tagesstamm ist der Beständige Wohlstand 甲 und die Autorität 丙."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 甲. 甲 ist in 亥 enthalten (Mittelstamm (中氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 丙. 丙 ist in 亥 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [庚戌](/guide/pillar-gyeong-sul) und die nächste [壬子](/guide/pillar-im-ja)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Metall (辛)](/guide/stem-sin) und [亥 (Schwein)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-ja": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 壬子",
+    "summary": "Wie Saju-Link die Tagessäule 壬子 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "壬子 ist die Tagessäule Nr. 49 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 壬子, ist der Tagesstamm 壬 (Yang-Wasser) und der Tageszweig 子 (die Ratte). Im Sechzigerzyklus ist es die Kombination Nr. 49."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 壬 ist, „Yang-Wasser (壬)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Fluss und Meer. Weiter Blick, mit einem Auge dafür, wohin die Dinge laufen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 子 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 壬 aus gelesen, sind die Stämme, die 子 enthält, die folgenden. Der Hauptstamm (癸) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 壬子",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 壬"
+              ],
+              "rows": [
+                [
+                  "Yang-Wasser (壬)",
+                  "Reststamm (餘氣)",
+                  "{hidJaYeo}",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Hauptstamm (本氣)",
+                  "{hidJaBon}",
+                  "Rivale (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 壬 als Tagesstamm ist der Beständige Wohlstand 丁 und die Autorität 己."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 丁. 丁 ist in 子 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 己. 己 ist in 子 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [辛亥](/guide/pillar-sin-hae) und die nächste [癸丑](/guide/pillar-gye-chuk)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Wasser (壬)](/guide/stem-im) und [子 (Ratte)](/guide/branch-ja)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-chuk": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 癸丑",
+    "summary": "Wie Saju-Link die Tagessäule 癸丑 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "癸丑 ist die Tagessäule Nr. 50 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 癸丑, ist der Tagesstamm 癸 (Yin-Wasser) und der Tageszweig 丑 (der Ochse). Im Sechzigerzyklus ist es die Kombination Nr. 50."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 癸 ist, „Yin-Wasser (癸)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Tau und Regen. Es sickert leise ein und liest die Stimmung, bevor Worte fallen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 丑 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 癸 aus gelesen, sind die Stämme, die 丑 enthält, die folgenden. Der Hauptstamm (己) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 癸丑",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 癸"
+              ],
+              "rows": [
+                [
+                  "Yin-Wasser (癸)",
+                  "Reststamm (餘氣)",
+                  "{hidChukYeo}",
+                  "Gefährte (比肩)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Mittelstamm (中氣)",
+                  "{hidChukJung}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Hauptstamm (本氣)",
+                  "{hidChukBon}",
+                  "Herausforderer (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 癸 als Tagesstamm ist der Beständige Wohlstand 丙 und die Autorität 戊."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 丙. 丙 ist in 丑 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 戊. 戊 ist in 丑 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [壬子](/guide/pillar-im-ja) und die nächste [甲寅](/guide/pillar-gap-in)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Wasser (癸)](/guide/stem-gye) und [丑 (Ochse)](/guide/branch-chuk)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gap-in": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 甲寅",
+    "summary": "Wie Saju-Link die Tagessäule 甲寅 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "甲寅 ist die Tagessäule Nr. 51 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 甲寅, ist der Tagesstamm 甲 (Yang-Holz) und der Tageszweig 寅 (der Tiger). Im Sechzigerzyklus ist es die Kombination Nr. 51."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 甲 ist, „Yang-Holz (甲)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ein hoher Baum, der gerade wächst. Steht die Richtung fest, wankt er nicht, und er hält lieber aus, als sich zu beugen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 寅 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 甲 aus gelesen, sind die Stämme, die 寅 enthält, die folgenden. Der Hauptstamm (甲) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 甲寅",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 甲"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidInYeo}",
+                  "Unerwarteter Gewinn (偏財)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Mittelstamm (中氣)",
+                  "{hidInJung}",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Holz (甲)",
+                  "Hauptstamm (本氣)",
+                  "{hidInBon}",
+                  "Gefährte (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 甲 als Tagesstamm ist der Beständige Wohlstand 己 und die Autorität 辛."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 己. 己 ist in 寅 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 辛. 辛 ist in 寅 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [癸丑](/guide/pillar-gye-chuk) und die nächste [乙卯](/guide/pillar-eul-myo)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Holz (甲)](/guide/stem-gap) und [寅 (Tiger)](/guide/branch-in)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-eul-myo": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 乙卯",
+    "summary": "Wie Saju-Link die Tagessäule 乙卯 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "乙卯 ist die Tagessäule Nr. 52 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 乙卯, ist der Tagesstamm 乙 (Yin-Holz) und der Tageszweig 卯 (der Hase). Im Sechzigerzyklus ist es die Kombination Nr. 52."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 乙 ist, „Yin-Holz (乙)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Eine Ranke — biegsames Gras. Es beugt sich den Umständen, um weiterzukommen, und bricht dabei nicht.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 卯 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 乙 aus gelesen, sind die Stämme, die 卯 enthält, die folgenden. Der Hauptstamm (乙) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 乙卯",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 乙"
+              ],
+              "rows": [
+                [
+                  "Yang-Holz (甲)",
+                  "Reststamm (餘氣)",
+                  "{hidMyoYeo}",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Hauptstamm (本氣)",
+                  "{hidMyoBon}",
+                  "Gefährte (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 乙 als Tagesstamm ist der Beständige Wohlstand 戊 und die Autorität 庚."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 戊. 戊 ist in 卯 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 庚. 庚 ist in 卯 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [甲寅](/guide/pillar-gap-in) und die nächste [丙辰](/guide/pillar-byeong-jin)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Holz (乙)](/guide/stem-eul) und [卯 (Hase)](/guide/branch-myo)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-byeong-jin": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 丙辰",
+    "summary": "Wie Saju-Link die Tagessäule 丙辰 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丙辰 ist die Tagessäule Nr. 53 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 丙辰, ist der Tagesstamm 丙 (Yang-Feuer) und der Tageszweig 辰 (der Drache). Im Sechzigerzyklus ist es die Kombination Nr. 53."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 丙 ist, „Yang-Feuer (丙)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Die Mittagssonne. Gefühle liegen offen, der Raum wird hell, und nach vorn zu treten fällt leicht.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 辰 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 丙 aus gelesen, sind die Stämme, die 辰 enthält, die folgenden. Der Hauptstamm (戊) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 丙辰",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 丙"
+              ],
+              "rows": [
+                [
+                  "Yin-Holz (乙)",
+                  "Reststamm (餘氣)",
+                  "{hidJinYeo}",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Wasser (癸)",
+                  "Mittelstamm (中氣)",
+                  "{hidJinJung}",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Hauptstamm (本氣)",
+                  "{hidJinBon}",
+                  "Ausdruck (食神)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丙 als Tagesstamm ist der Beständige Wohlstand 辛 und die Autorität 癸."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 辛. 辛 ist in 辰 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 癸. 癸 ist in 辰 enthalten (Mittelstamm (中氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [乙卯](/guide/pillar-eul-myo) und die nächste [丁巳](/guide/pillar-jeong-sa)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Feuer (丙)](/guide/stem-byeong) und [辰 (Drache)](/guide/branch-jin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-jeong-sa": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 丁巳",
+    "summary": "Wie Saju-Link die Tagessäule 丁巳 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "丁巳 ist die Tagessäule Nr. 54 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 丁巳, ist der Tagesstamm 丁 (Yin-Feuer) und der Tageszweig 巳 (die Schlange). Im Sechzigerzyklus ist es die Kombination Nr. 54."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 丁 ist, „Yin-Feuer (丁)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Kerzenlicht. Es brennt leise und lange und wärmt zuerst die Nächsten.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 巳 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 丁 aus gelesen, sind die Stämme, die 巳 enthält, die folgenden. Der Hauptstamm (丙) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 丁巳",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 丁"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidSaYeo}",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Mittelstamm (中氣)",
+                  "{hidSaJung}",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Feuer (丙)",
+                  "Hauptstamm (本氣)",
+                  "{hidSaBon}",
+                  "Rivale (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 丁 als Tagesstamm ist der Beständige Wohlstand 庚 und die Autorität 壬."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 庚. 庚 ist in 巳 enthalten (Mittelstamm (中氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 壬. 壬 ist in 巳 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [丙辰](/guide/pillar-byeong-jin) und die nächste [戊午](/guide/pillar-mu-o)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Feuer (丁)](/guide/stem-jeong) und [巳 (Schlange)](/guide/branch-sa)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-mu-o": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 戊午",
+    "summary": "Wie Saju-Link die Tagessäule 戊午 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "戊午 ist die Tagessäule Nr. 55 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 戊午, ist der Tagesstamm 戊 (Yang-Erde) und der Tageszweig 午 (das Pferd). Im Sechzigerzyklus ist es die Kombination Nr. 55."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 戊 ist, „Yang-Erde (戊)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Weites Land und Berge. Schwer zu erschüttern und gut zum Anlehnen, doch eine getroffene Entscheidung ändert sich nur langsam.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 午 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 戊 aus gelesen, sind die Stämme, die 午 enthält, die folgenden. Der Hauptstamm (丁) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 戊午",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 戊"
+              ],
+              "rows": [
+                [
+                  "Yang-Feuer (丙)",
+                  "Reststamm (餘氣)",
+                  "{hidOYeo}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Mittelstamm (中氣)",
+                  "{hidOJung}",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Hauptstamm (本氣)",
+                  "{hidOBon}",
+                  "Fürsorge (正印)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 戊 als Tagesstamm ist der Beständige Wohlstand 癸 und die Autorität 乙."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 癸. 癸 ist in 午 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 乙. 乙 ist in 午 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [丁巳](/guide/pillar-jeong-sa) und die nächste [己未](/guide/pillar-gi-mi)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Erde (戊)](/guide/stem-mu) und [午 (Pferd)](/guide/branch-o)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gi-mi": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 己未",
+    "summary": "Wie Saju-Link die Tagessäule 己未 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "己未 ist die Tagessäule Nr. 56 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 己未, ist der Tagesstamm 己 (Yin-Erde) und der Tageszweig 未 (das Schaf). Im Sechzigerzyklus ist es die Kombination Nr. 56."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 己 ist, „Yin-Erde (己)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ackerboden. Er nimmt auf, was kommt, und zieht es groß — er pflegt, statt sich zu zeigen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 未 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 己 aus gelesen, sind die Stämme, die 未 enthält, die folgenden. Der Hauptstamm (己) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 己未",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 己"
+              ],
+              "rows": [
+                [
+                  "Yin-Feuer (丁)",
+                  "Reststamm (餘氣)",
+                  "{hidMiYeo}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yin-Holz (乙)",
+                  "Mittelstamm (中氣)",
+                  "{hidMiJung}",
+                  "Herausforderer (偏官)"
+                ],
+                [
+                  "Yin-Erde (己)",
+                  "Hauptstamm (本氣)",
+                  "{hidMiBon}",
+                  "Gefährte (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 己 als Tagesstamm ist der Beständige Wohlstand 壬 und die Autorität 甲."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 壬. 壬 ist in 未 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 甲. 甲 ist in 未 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [戊午](/guide/pillar-mu-o) und die nächste [庚申](/guide/pillar-gyeong-sin)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Erde (己)](/guide/stem-gi) und [未 (Schaf)](/guide/branch-mi)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gyeong-sin": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 庚申",
+    "summary": "Wie Saju-Link die Tagessäule 庚申 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "庚申 ist die Tagessäule Nr. 57 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 庚申, ist der Tagesstamm 庚 (Yang-Metall) und der Tageszweig 申 (der Affe). Im Sechzigerzyklus ist es die Kombination Nr. 57."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 庚 ist, „Yang-Metall (庚)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Unbearbeitetes Eisen. Entschieden und klar, mit wenig Geduld für Dinge, die in der Schwebe bleiben.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 申 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 庚 aus gelesen, sind die Stämme, die 申 enthält, die folgenden. Der Hauptstamm (庚) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 庚申",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 庚"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidSinYeo}",
+                  "Ungewöhnliche Stütze (偏印)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Mittelstamm (中氣)",
+                  "{hidSinJung}",
+                  "Ausdruck (食神)"
+                ],
+                [
+                  "Yang-Metall (庚)",
+                  "Hauptstamm (本氣)",
+                  "{hidSinBon}",
+                  "Gefährte (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 庚 als Tagesstamm ist der Beständige Wohlstand 乙 und die Autorität 丁."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 乙. 乙 ist in 申 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 丁. 丁 ist in 申 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [己未](/guide/pillar-gi-mi) und die nächste [辛酉](/guide/pillar-sin-yu)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Metall (庚)](/guide/stem-gyeong) und [申 (Affe)](/guide/branch-sin)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-sin-yu": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 辛酉",
+    "summary": "Wie Saju-Link die Tagessäule 辛酉 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "辛酉 ist die Tagessäule Nr. 58 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 辛酉, ist der Tagesstamm 辛 (Yin-Metall) und der Tageszweig 酉 (der Hahn). Im Sechzigerzyklus ist es die Kombination Nr. 58."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 辛 ist, „Yin-Metall (辛)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Ein geschliffener Edelstein. Feiner Geschmack und hohe Maßstäbe; Nachlässigkeit lässt sich schwer durchgehen lassen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 酉 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 辛 aus gelesen, sind die Stämme, die 酉 enthält, die folgenden. Der Hauptstamm (辛) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 辛酉",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 辛"
+              ],
+              "rows": [
+                [
+                  "Yang-Metall (庚)",
+                  "Reststamm (餘氣)",
+                  "{hidYuYeo}",
+                  "Rivale (劫財)"
+                ],
+                [
+                  "Yin-Metall (辛)",
+                  "Hauptstamm (本氣)",
+                  "{hidYuBon}",
+                  "Gefährte (比肩)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 辛 als Tagesstamm ist der Beständige Wohlstand 甲 und die Autorität 丙."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 甲. 甲 ist in 酉 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 丙. 丙 ist in 酉 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [庚申](/guide/pillar-gyeong-sin) und die nächste [壬戌](/guide/pillar-im-sul)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Metall (辛)](/guide/stem-sin) und [酉 (Hahn)](/guide/branch-yu)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-im-sul": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 壬戌",
+    "summary": "Wie Saju-Link die Tagessäule 壬戌 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "壬戌 ist die Tagessäule Nr. 59 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 壬戌, ist der Tagesstamm 壬 (Yang-Wasser) und der Tageszweig 戌 (der Hund). Im Sechzigerzyklus ist es die Kombination Nr. 59."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 壬 ist, „Yang-Wasser (壬)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Fluss und Meer. Weiter Blick, mit einem Auge dafür, wohin die Dinge laufen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 戌 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 壬 aus gelesen, sind die Stämme, die 戌 enthält, die folgenden. Der Hauptstamm (戊) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 壬戌",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 壬"
+              ],
+              "rows": [
+                [
+                  "Yin-Metall (辛)",
+                  "Reststamm (餘氣)",
+                  "{hidSulYeo}",
+                  "Fürsorge (正印)"
+                ],
+                [
+                  "Yin-Feuer (丁)",
+                  "Mittelstamm (中氣)",
+                  "{hidSulJung}",
+                  "Beständiger Wohlstand (正財)"
+                ],
+                [
+                  "Yang-Erde (戊)",
+                  "Hauptstamm (本氣)",
+                  "{hidSulBon}",
+                  "Herausforderer (偏官)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 壬 als Tagesstamm ist der Beständige Wohlstand 丁 und die Autorität 己."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 丁. 丁 ist in 戌 enthalten (Mittelstamm (中氣))."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 己. 己 ist in 戌 nicht enthalten."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [辛酉](/guide/pillar-sin-yu) und die nächste [癸亥](/guide/pillar-gye-hae)."
+          },
+          {
+            "p": "Sie besteht aus [Yang-Wasser (壬)](/guide/stem-im) und [戌 (Hund)](/guide/branch-sul)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "guide/pillar-gye-hae": {
+    "eyebrow": "Tagessäulen",
+    "title": "Die Tagessäule 癸亥",
+    "summary": "Wie Saju-Link die Tagessäule 癸亥 liest — was die vom Tageszweig enthaltenen Stämme für den Tagesstamm sind — genau so dargelegt, wie es seine Berechnungsregeln vorsehen.",
+    "backLabel": "Berechnungsgrundlage",
+    "sections": [
+      {
+        "title": "癸亥 ist die Tagessäule Nr. 60 des Sechzigerzyklus",
+        "blocks": [
+          {
+            "p": "Lautet das Stamm-Zweig-Paar des Geburtstags 癸亥, ist der Tagesstamm 癸 (Yin-Wasser) und der Tageszweig 亥 (das Schwein). Im Sechzigerzyklus ist es die Kombination Nr. 60."
+          },
+          {
+            "p": "Saju-Link nennt eine Person, deren Tagesstamm 癸 ist, „Yin-Wasser (癸)“, und die Zeile, die der Ergebnisbildschirm zeigt, lautet: „Tau und Regen. Es sickert leise ein und liest die Stimmung, bevor Worte fallen.“ Diese Zeile hat nichts mit der Lesung unten oder den Werten zu tun."
+          }
+        ]
+      },
+      {
+        "title": "Was die vom Tageszweig 亥 enthaltenen Stämme für den Tagesstamm sind",
+        "blocks": [
+          {
+            "p": "Der Tageszweig ist die Position des Ehepartners. Vom Tagesstamm 癸 aus gelesen, sind die Stämme, die 亥 enthält, die folgenden. Der Hauptstamm (壬) ist die stellvertretende Energie des Zweigs."
+          },
+          {
+            "table": {
+              "caption": "Die verborgenen Stämme des Tageszweigs von 癸亥",
+              "head": [
+                "Verborgener Stamm",
+                "Position",
+                "Anteil",
+                "Für den Tagesstamm 癸"
+              ],
+              "rows": [
+                [
+                  "Yang-Erde (戊)",
+                  "Reststamm (餘氣)",
+                  "{hidHaeYeo}",
+                  "Autorität (正官)"
+                ],
+                [
+                  "Yang-Holz (甲)",
+                  "Mittelstamm (中氣)",
+                  "{hidHaeJung}",
+                  "Störer (傷官)"
+                ],
+                [
+                  "Yang-Wasser (壬)",
+                  "Hauptstamm (本氣)",
+                  "{hidHaeBon}",
+                  "Rivale (劫財)"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "Die Position des Ehepartners und diese Tagessäule",
+        "blocks": [
+          {
+            "p": "Die traditionelle Myeongri liest die Position des Ehepartners bei Männern als Beständigen Wohlstand (正財) und bei Frauen als Autorität (正官). Mit 癸 als Tagesstamm ist der Beständige Wohlstand 丙 und die Autorität 戊."
+          },
+          {
+            "p": "Für Männer ist die Position des Ehepartners (Beständiger Wohlstand) 丙. 丙 ist in 亥 nicht enthalten."
+          },
+          {
+            "p": "Für Frauen ist die Position des Ehepartners (Autorität) 戊. 戊 ist in 亥 enthalten (Reststamm (餘氣))."
+          }
+        ]
+      },
+      {
+        "title": "Die benachbarten Tagessäulen und die Zeichen, aus denen diese Säule besteht",
+        "blocks": [
+          {
+            "p": "Im Sechzigerzyklus ist die vorherige Tagessäule [壬戌](/guide/pillar-im-sul) und die nächste [甲子](/guide/pillar-gap-ja)."
+          },
+          {
+            "p": "Sie besteht aus [Yin-Wasser (癸)](/guide/stem-gye) und [亥 (Schwein)](/guide/branch-hae)."
+          }
+        ]
+      },
+      {
+        "kind": "note",
+        "title": "Was dieser Leitfaden nicht aussagt",
+        "blocks": [
+          {
+            "ul": [
+              "Eine einzelne Tagessäule entscheidet nicht über einen Menschen oder eine Beziehung. Ein Saju wird daraus gelesen, wie sich die acht Zeichen der vier Säulen zueinander verhalten.",
+              "Die Lesung der Position des Ehepartners übernimmt eine Regel der traditionellen Myeongri, und wenn Sie Ihr Geschlecht nicht angeben, wird diese Position nicht gelesen."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
   "guide/ten-gods": {
     "eyebrow": "Die Zehn Götter",
     "title": "Die Zehn Götter — Die zehn Positionen innerhalb meiner Saju",
