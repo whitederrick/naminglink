@@ -94,6 +94,17 @@ node scripts/audit-verifiers.mjs > /tmp/s.txt 2>&1; echo $?   # 이렇게
 나왔다(§24와 같은 자리). **`build-dream-match-tables-v2.mjs`의 주석이 바로 그 위험을
 경고하고 있었는데도 그랬다** — 경고를 적어 두는 것과 목록을 없애는 것은 다른 일이다.
 
+**2026-10-12 — 세 번째 얼굴: naming 의 hreflang 고침이 형제 셋에 두 달 동안 안 갔다.**
+`apps/naminglink/src/lib/seo.ts` 는 2026-08-10 에 **하위 경로의 x-default 를 영어판(`/en/…`)으로
+직접** 가리키게 고쳤다(무접두 주소가 308 로 영어로 보내므로 「영원히 리다이렉트되는 URL」을
+언어판이라고 내미는 꼴이었다). 그 고침이 `sajulink`·`inyeonlink`·`dreamslink` 의 `seo.ts` 에는
+**한 줄도 가지 않았다.** 서치 콘솔 URL 검사에서 `inyeon-link.com/en/privacy`·
+`saju-link.com/en/privacy` 가 「Google 선택 표준 URL = `/privacy`(무접두, 308 되는 주소)」로
+색인이 안 된 것으로 드러났다. 이 병은 §5 첫 줄(「결함을 찾으면 먼저 네 앱에 같은 모양이
+있는지 센다」)이 그날 적용됐으면 없었다 — **고친 날 `seo.ts` 넷을 나란히 열어 보지 않았다.**
+→ **앱 하나의 `seo.ts`·`proxy.ts`·`sitemap` 계열을 고치면 같은 커밋에서 형제 셋을 열어 같은
+줄이 있는지 본다.** 고침을 지키는 검사기(`verify-hreflang-xdefault`)를 함께 남긴다.
+
 ## 6. 같은 규칙을 두 벌로 적는다
 
 판정이 두 곳에 적히면 **하나만 고쳐지는 날이 온다.**

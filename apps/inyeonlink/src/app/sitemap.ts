@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { absoluteUrl, hreflangMap, indexablePaths, localeUrl } from "@/lib/seo";
+import { hreflangMap, indexablePaths, localeUrl } from "@/lib/seo";
 import { supportedLocales } from "@/lib/i18n";
 
 /**
@@ -27,9 +27,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const languages = hreflangMap(path);
     const priority = priorityOf(path);
 
+    // **무접두 주소는 싣지 않는다**(naminglink 와 같다, 2026-10-12). 하위 경로의 무접두 주소는
+    // 영어판으로 308 되므로 sitemap 에 넣으면 리다이렉트되는 주소를 색인하라고 내미는 꼴이다.
+    // 루트의 무접두 주소는 각 언어판의 hreflang 묶음에서 x-default 로만 쓴다.
     return [
-      // 로케일 없는 주소(x-default). 헤더를 보고 언어를 정하는 자리다.
-      { url: absoluteUrl(path), priority, alternates: { languages } },
       ...supportedLocales.map((locale) => ({
         url: localeUrl(path, locale),
         priority,

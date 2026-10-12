@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { absoluteUrl, hreflangMap, indexablePaths, localeUrl } from "@/lib/seo";
+import { hreflangMap, indexablePaths, localeUrl } from "@/lib/seo";
 import { supportedLocales } from "@/lib/i18n";
 import {
   SYMBOL_PAGE_LOCALES,
@@ -32,9 +32,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const languages = hreflangMap(path);
     const priority = priorityOf(path);
 
+    // **무접두 주소는 싣지 않는다**(naminglink 와 같다, 2026-10-12). 하위 경로의 무접두 주소는
+    // 영어판으로 308 되므로 sitemap 에 넣으면 리다이렉트되는 주소를 색인하라고 내미는 꼴이다.
+    // 루트의 무접두 주소는 각 언어판의 hreflang 묶음에서 x-default 로만 쓴다.
     return [
-      // 로케일 없는 주소(x-default). 헤더를 보고 언어를 정하는 자리다.
-      { url: absoluteUrl(path), priority, alternates: { languages } },
       ...supportedLocales.map((locale) => ({
         url: localeUrl(path, locale),
         priority,
@@ -51,13 +52,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
    * 된다. 안내 문서를 ko·global로 가른 것과 같은 판단이다.
    */
   const symbols = [SYMBOLS_INDEX_PATH, ...symbolPagePaths].flatMap((path) => {
+    // x-default 는 영어판을 직접 가리킨다 — 무접두 주소는 영어로 308 이동한다(위와 같은 이유).
     const languages: Record<string, string> = {
-      "x-default": absoluteUrl(path),
+      "x-default": localeUrl(path, "en"),
     };
     for (const locale of SYMBOL_PAGE_LOCALES) languages[locale] = localeUrl(path, locale);
 
     return [
-      { url: absoluteUrl(path), priority: 0.7, alternates: { languages } },
       ...SYMBOL_PAGE_LOCALES.map((locale) => ({
         url: localeUrl(path, locale),
         priority: 0.7,

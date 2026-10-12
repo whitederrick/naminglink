@@ -23,9 +23,51 @@
  * 실행: node scripts/verify-declared-urls.mjs --base http://localhost:3001
  */
 
+import { execFileSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
+import { APP_KEYS } from "./app-keys.mjs";
+
+/**
+ * ## 네 앱을 다 본다 (2026-10-12)
+ *
+ * 이 검사기는 **기본 주소가 `naming-link.com` 하나**였다. naminglink 가 2026-08-10 에 x-default·
+ * sitemap 을 고친 뒤 형제 셋에는 그 고침이 두 달 동안 가지 않았는데, 이 검사기가 형제를 한 번도
+ * 보지 않았으므로 **초록불만 찍혔다**(서치 콘솔 URL 검사에서 「Google 선택 표준 URL = 무접두
+ * 주소」로 드러났다). 목록에서 빠진 앱은 통과가 아니라 **검사받지 않은 것**이다(CLAUDE.md §5).
+ *
+ * 인자가 없으면 `APP_KEYS` 전부를 각자의 운영 도메인으로 돈다(앱마다 자식 프로세스 하나).
+ * `--app <키>` 는 한 앱만, `--base <주소>` 는 그 앱의 기준 주소를 갈아 끼운다(로컬 dev 용).
+ */
 const args = process.argv.slice(2);
-const baseArg = args.indexOf("--base");
-const BASE = (baseArg >= 0 ? args[baseArg + 1] : "https://naming-link.com").replace(/\/$/, "");
+const argValue = (flag) => {
+  const index = args.indexOf(flag);
+  return index >= 0 ? args[index + 1] : undefined;
+};
+const domainOf = (key) => `${key.replace(/link$/, "")}-link.com`;
+
+if (!argValue("--app") && !argValue("--base")) {
+  // 드라이버: 앱마다 같은 검사기를 따로 돌리고 종료 코드를 모은다.
+  const failed = [];
+  for (const key of APP_KEYS) {
+    console.log(`\n────────── ${key} (${domainOf(key)}) ──────────`);
+    try {
+      execFileSync(process.execPath, [fileURLToPath(import.meta.url), "--app", key], {
+        stdio: "inherit",
+      });
+    } catch {
+      failed.push(key);
+    }
+  }
+  console.log(`\n${failed.length ? "✗" : "✓"} ${APP_KEYS.length}개 앱 중 실패 ${failed.length}개${failed.length ? ` — ${failed.join(", ")}` : ""}`);
+  process.exit(failed.length ? 1 : 0);
+}
+
+const APP = argValue("--app") ?? "naminglink";
+if (!APP_KEYS.includes(APP)) {
+  console.error(`알 수 없는 앱: ${APP} (APP_KEYS = ${APP_KEYS.join(", ")})`);
+  process.exit(1);
+}
+const BASE = (argValue("--base") ?? `https://${domainOf(APP)}`).replace(/\/$/, "");
 const UA = { "user-agent": "Mozilla/5.0 (compatible; Googlebot/2.1)" };
 
 /**
@@ -75,35 +117,56 @@ if (locs.length === 0) {
   console.error("sitemap을 읽지 못했다. 검사 0건은 통과가 아니라 실패다.");
   process.exit(1);
 }
+// 수천 개를 다 열면 요청이 수천 건이다(드림링크 4천여 개). **일정한 간격으로** 표본을 뽑는다 —
+// 앞에서부터 자르면 정렬상 앞쪽 갈래(안내 문서)만 보고 뒤쪽(상징 페이지)을 못 본다.
+const MAX_LOCS = 400;
+const checkedLocs =
+  locs.length <= MAX_LOCS
+    ? locs
+    : Array.from({ length: MAX_LOCS }, (_, i) => locs[Math.floor((i * locs.length) / MAX_LOCS)]);
 let badLocs = 0;
-for (const loc of locs) {
+for (const loc of checkedLocs) {
   const status = await statusOf(toBase(loc));
   if (status !== 200) {
     badLocs += 1;
     if (badLocs <= 5) problems.push(`sitemap <loc> ${status} — ${new URL(loc).pathname}`);
   }
 }
-console.log(`  ${badLocs ? "✗" : "✓"} sitemap <loc> ${locs.length}개 · 200이 아닌 것 ${badLocs}개`);
+console.log(
+  `  ${badLocs ? "✗" : "✓"} sitemap <loc> ${locs.length}개${checkedLocs.length < locs.length ? ` 중 간격 표본 ${checkedLocs.length}개` : ""} · 200이 아닌 것 ${badLocs}개`,
+);
 if (badLocs > 5) problems.push(`… 그 밖 ${badLocs - 5}건`);
 
 // ── ②③④ canonical·hreflang ────────────────────────────────────────────────
 //
 // 전부 열면 요청이 수천 건이 된다. 언어 계열이 다른 표본으로 본다 — 선언을 만드는 코드는
 // 한 곳이라(`lib/seo.ts`) 표본이 맞으면 나머지도 같은 규칙으로 나온다.
-const SAMPLE = [
+// 네 앱이 다 가진 화면. `/en/privacy`·`/en/pricing` 은 하위 경로의 x-default 가 영어판을 직접
+// 가리키는지 보는 표본이다(2026-10-12 — 형제 셋이 무접두 308 주소를 가리키고 있었다).
+const COMMON_SAMPLE = [
   "/en/about",
   "/ja/guide",
   "/ru/notice",
   "/ar/contact",
   "/en",
-  "/guide/hanja/sa",
-  /**
-   * **쿼리로 갈리는 화면을 표본에 둔다.** 발음 표기 흐름은 `?mode=transliteration` 으로만
-   * 갈리는데, 표본에 없어서 **경로 판정이 쿼리를 못 떼는 결함을 오래 못 봤다.**
-   * sitemap 에는 없지만(쿼리 주소를 제출하지 않는다) 자기 canonical 을 갖는 화면이다.
-   */
-  "/en/global-to-korean?mode=transliteration",
+  "/en/privacy",
+  "/en/pricing",
 ];
+// naminglink 에만 있는 화면.
+const APP_SAMPLE = {
+  naminglink: [
+    "/guide/hanja/sa",
+    /**
+     * **쿼리로 갈리는 화면을 표본에 둔다.** 발음 표기 흐름은 `?mode=transliteration` 으로만
+     * 갈리는데, 표본에 없어서 **경로 판정이 쿼리를 못 떼는 결함을 오래 못 봤다.**
+     * sitemap 에는 없지만(쿼리 주소를 제출하지 않는다) 자기 canonical 을 갖는 화면이다.
+     */
+    "/en/global-to-korean?mode=transliteration",
+  ],
+  // 드림링크는 상징 페이지가 수천 장이라 sitemap 을 다 못 연다 — 그 갈래도 표본에 둔다.
+  dreamslink: ["/en/dream/symbol/lion", "/en/dream/symbols"],
+};
+const SAMPLE = [...COMMON_SAMPLE, ...(APP_SAMPLE[APP] ?? [])];
 let checkedPages = 0;
 
 for (const path of SAMPLE) {

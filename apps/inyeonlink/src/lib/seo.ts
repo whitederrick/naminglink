@@ -110,7 +110,11 @@ export function hreflangMap(path: string): Record<string, string> {
   for (const locale of supportedLocales) {
     map[locale] = localeUrl(path, locale);
   }
-  map["x-default"] = absoluteUrl(path);
+  // x-default. **루트만 무접두 주소이고, 하위는 영어판을 직접 가리킨다**(naminglink 와 같다, 2026-10-12).
+  // 하위 경로의 무접두 주소는 영어로 308 이동하므로 그것을 x-default 로 두면 「영원히 리다이렉트되는
+  // URL」을 언어판이라고 내미는 꼴이 되고, 구글이 그 무접두 주소를 표준으로 골라 영어판 색인이
+  // 빠진다(서치 콘솔 URL 검사에서 확인). 루트(`/`)는 감지해 302 로 보내는 자리라 알맞다.
+  map["x-default"] = path === "/" ? absoluteUrl("/") : localeUrl(path, "en");
   return map;
 }
 
